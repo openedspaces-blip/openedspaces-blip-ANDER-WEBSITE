@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Generated build output
+public/
+
+# Local editors and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+git_check.txt
+
+# Temporary duplicate files
+* (2).*
