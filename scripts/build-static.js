@@ -28,6 +28,9 @@ function copyFileEnsuringDir(srcPath, destPath) {
 }
 
 function main() {
+  console.log('Syncing generated language worlds...');
+  execSync(`node "${path.join(ROOT, 'scripts', 'sync-worlds-from-seed.js')}"`, { stdio: 'inherit' });
+
   console.log('Validating core files...');
   REQUIRED_FILES.forEach(assertExists);
 

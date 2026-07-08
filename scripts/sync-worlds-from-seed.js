@@ -1,0 +1,132 @@
+#!/usr/bin/env node
+// Generates selected browser world files from lib/seed-lessons.json.
+// Usage: node scripts/sync-worlds-from-seed.js
+const fs = require('fs');
+const path = require('path');
+const seedLessons = require('../lib/seed-lessons.json');
+
+const ROOT = path.join(__dirname, '..');
+const LANGUAGES = {
+  english: {
+    label: 'English',
+    comment: 'English world: generated from lib/seed-lessons.json.'
+  },
+  french: {
+    label: 'Français',
+    comment: 'French world: generated from lib/seed-lessons.json.'
+  }
+};
+
+const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const SKILL_LABELS = {
+  listening: 'Listening',
+  speaking: 'Speaking',
+  writing: 'Writing'
+};
+
+function byOrder(a, b) {
+  return (a.order_index || 0) - (b.order_index || 0);
+}
+
+function getRows(language, level) {
+  return seedLessons
+    .filter((row) => row.target_language === language && row.level === level)
+    .sort(byOrder);
+}
+
+function getSkillText(row, fallbackSkill) {
+  const content = row?.content_json || {};
+  const phrases = content.phrases || [];
+  const mission = content.mission || row?.description || '';
+  return {
+    title: SKILL_LABELS[fallbackSkill] || fallbackSkill,
+    text: `${content.level_title || row?.level || ''}: ${mission}`.trim(),
+    suggestions: phrases.slice(0, 4)
+  };
+}
+
+function buildLevelContent(language) {
+  const levels = {};
+
+  LEVELS.forEach((level) => {
+    const rows = getRows(language, level);
+    const bySkill = Object.fromEntries(rows.map((row) => [row.skill, row]));
+    const primary = rows[0] || {};
+    const primaryContent = primary.content_json || {};
+    const readingRow = bySkill.reading || primary;
+    const readingContent = readingRow.content_json || primaryContent;
+
+    levels[level] = {
+      skills: {
+        listening: getSkillText(bySkill.listening, 'listening'),
+        speaking: getSkillText(bySkill.speaking, 'speaking'),
+        writing: getSkillText(bySkill.writing, 'writing')
+      },
+      vocab: (primaryContent.vocabulary || []).slice(0, 8).map((item) => [item.word, item.translation]),
+      grammar: [
+        [level, primaryContent.grammar || 'Guided grammar practice.'],
+        ['Mission', primaryContent.mission || primary.description || 'Complete the guided activity.']
+      ],
+      reading: {
+        title: `${LANGUAGES[language].label} ${level} Reading`,
+        text: readingContent.reading?.text || primaryContent.reading?.text || primary.description || '',
+        questions: readingContent.reading?.questions || primaryContent.reading?.questions || []
+      }
+    };
+  });
+
+  return levels;
+}
+
+function shapeBrowserLesson(row) {
+  const content = row.content_json || {};
+  return {
+    slug: row.slug,
+    level: row.level,
+    skill: row.skill,
+    title: row.title,
+    accessTier: row.access_tier || (row.is_free === false ? 'premium' : 'free'),
+    isFree: row.is_free !== false,
+    xpReward: content.xp_reward || 20,
+    orderIndex: row.order_index || 0,
+    estimatedMinutes: row.estimated_minutes || 10,
+    description: row.description || content.mission || '',
+    intro: content.intro || row.description || '',
+    mission: content.mission || '',
+    grammar: content.grammar || '',
+    phrases: content.phrases || [],
+    vocabulary: content.vocabulary || [],
+    dialogue: content.dialogue || [],
+    reading: content.reading || null,
+    exercises: content.exercises || []
+  };
+}
+
+function buildFile(language) {
+  const lessons = seedLessons
+    .filter((row) => row.target_language === language)
+    .sort(byOrder)
+    .map(shapeBrowserLesson);
+
+  return `// worlds/${language}/content.js
+// ${LANGUAGES[language].comment}
+(function () {
+  window.ANDERGO_LANGUAGE_WORLDS = window.ANDERGO_LANGUAGE_WORLDS || { levelContent: {}, languageContent: {}, lessons: {} };
+
+  window.ANDERGO_LANGUAGE_WORLDS.levelContent.${language} = ${JSON.stringify(buildLevelContent(language), null, 2)};
+
+  window.ANDERGO_LANGUAGE_WORLDS.lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons || {};
+  window.ANDERGO_LANGUAGE_WORLDS.lessons.${language} = ${JSON.stringify(lessons, null, 2)};
+})();
+`;
+}
+
+function main() {
+  Object.keys(LANGUAGES).forEach((language) => {
+    const file = path.join(ROOT, 'worlds', language, 'content.js');
+    fs.writeFileSync(file, buildFile(language), 'utf8');
+    console.log(`Synced ${path.relative(ROOT, file)}`);
+  });
+}
+
+main();

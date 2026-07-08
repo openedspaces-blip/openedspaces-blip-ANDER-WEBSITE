@@ -16,6 +16,7 @@ const path = require('path');
 const { Client } = require('pg');
 
 const ROOT = path.join(__dirname, '..');
+const SEED_LESSONS_PATH = path.join(ROOT, 'lib', 'seed-lessons.json');
 
 function collectSqlFiles() {
   const files = [];
@@ -60,6 +61,7 @@ async function main() {
       await client.query(sql);
       console.log('done');
     }
+    await seedLessons(client);
     console.log('Database setup complete.');
   } catch (error) {
     console.error('\nSQL execution failed:', error.message);
@@ -67,6 +69,67 @@ async function main() {
   } finally {
     await client.end();
   }
+}
+
+async function seedLessons(client) {
+  if (!fs.existsSync(SEED_LESSONS_PATH)) return;
+
+  const lessons = JSON.parse(fs.readFileSync(SEED_LESSONS_PATH, 'utf8'));
+  if (!Array.isArray(lessons) || lessons.length === 0) return;
+
+  process.stdout.write(`  -> ${path.relative(ROOT, SEED_LESSONS_PATH)} (${lessons.length} lessons) ... `);
+  const sql = `
+    insert into public.lessons (
+      slug,
+      target_language,
+      level,
+      skill,
+      title,
+      description,
+      order_index,
+      is_free,
+      is_published,
+      estimated_minutes,
+      xp_reward,
+      content_json,
+      access_tier
+    )
+    values (
+      $1, $2, $3, $4, $5, $6, $7, $8, true, $9, $10, $11::jsonb, $12
+    )
+    on conflict (slug) do update set
+      target_language = excluded.target_language,
+      level = excluded.level,
+      skill = excluded.skill,
+      title = excluded.title,
+      description = excluded.description,
+      order_index = excluded.order_index,
+      is_free = excluded.is_free,
+      is_published = excluded.is_published,
+      estimated_minutes = excluded.estimated_minutes,
+      xp_reward = excluded.xp_reward,
+      content_json = excluded.content_json,
+      access_tier = excluded.access_tier,
+      updated_at = now()
+  `;
+
+  for (const lesson of lessons) {
+    await client.query(sql, [
+      lesson.slug,
+      lesson.target_language || 'english',
+      lesson.level,
+      lesson.skill,
+      lesson.title,
+      lesson.description || null,
+      lesson.order_index || 0,
+      lesson.is_free !== false,
+      lesson.estimated_minutes || 10,
+      lesson.content_json?.xp_reward || 20,
+      JSON.stringify(lesson.content_json || {}),
+      lesson.access_tier || (lesson.is_free === false ? 'premium' : 'free')
+    ]);
+  }
+  console.log('done');
 }
 
 main().catch((error) => {

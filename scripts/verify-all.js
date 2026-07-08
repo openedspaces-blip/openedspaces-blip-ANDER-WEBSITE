@@ -29,6 +29,7 @@ const FILES_TO_CHECK = [
   'api/progress.js',
   'scripts/build-static.js',
   'scripts/setup-database.js',
+  'scripts/sync-worlds-from-seed.js',
   'worlds/english/content.js',
   'worlds/spanish/content.js',
   'worlds/french/content.js',

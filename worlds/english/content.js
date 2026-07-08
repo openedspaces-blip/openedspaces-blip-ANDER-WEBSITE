@@ -1,267 +1,3942 @@
 // worlds/english/content.js
-// Mundo de inglés: contenido completo A1–C2 para las 6 habilidades.
-// Se fusiona en tiempo de carga con levelContent/languageContent vía window.ANDERGO_LANGUAGE_WORLDS.
+// English world: generated from lib/seed-lessons.json.
 (function () {
-  window.ANDERGO_LANGUAGE_WORLDS = window.ANDERGO_LANGUAGE_WORLDS || { levelContent: {}, languageContent: {} };
+  window.ANDERGO_LANGUAGE_WORLDS = window.ANDERGO_LANGUAGE_WORLDS || { levelContent: {}, languageContent: {}, lessons: {} };
 
   window.ANDERGO_LANGUAGE_WORLDS.levelContent.english = {
-    A1: {
-      skills: {
-        listening: { title: 'Listening', text: 'Short real-life dialogues with clear pauses and simple word chunks.', suggestions: ['She is going to...', 'At the station, the train...', 'We will meet at...'] },
-        speaking: { title: 'Speaking', text: 'Simple speaking drills with useful prompts for everyday conversations.', suggestions: ['I would like to...', 'Could you tell me...', 'Let me introduce...'] },
-        writing: { title: 'Writing', text: 'Very short writing prompts with guided sentence starters.', suggestions: ['A good email starts with...', 'In the next paragraph, describe...', "Don't forget to add details about..."] }
+  "A1": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Survival English: Preséntate en 4 frases usando my name is, I am, I like.",
+        "suggestions": [
+          "My name is...",
+          "I am from...",
+          "Nice to meet you.",
+          "Can you repeat, please?"
+        ]
       },
-      vocab: [['Hello', 'Hola'], ['Family', 'Familia'], ['Morning', 'Mañana'], ['Travel', 'Viajar'], ['Help', 'Ayuda'], ['Friend', 'Amigo']],
-      grammar: [['A1', 'Present simple, articles and basic pronouns.'], ['A2', 'Past simple and common frequency adverbs.']],
-      reading: {
-        title: 'Example reading A1',
-        text: 'Sara visits a small museum in her city every Saturday. She reads the labels and listens to the guide. She likes to write a short note about her favorite object.',
-        questions: [
-          { q: '¿Qué hace Sara en el museo?', options: ['Cocina', 'Lee las etiquetas', 'Compra libros', 'Toca música'], answer: 1 },
-          { q: '¿Cada cuánto visita el museo?', options: ['Cada día', 'Cada sábado', 'Una vez al año', 'Nunca'], answer: 1 },
-          { q: '¿Qué escribe Sara?', options: ['Una lista de compras', 'Una nota sobre su objeto favorito', 'Una carta', 'Una receta'], answer: 1 }
+      "speaking": {
+        "title": "Speaking",
+        "text": "Survival English: Preséntate en 4 frases usando my name is, I am, I like.",
+        "suggestions": [
+          "My name is...",
+          "I am from...",
+          "Nice to meet you.",
+          "Can you repeat, please?"
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Survival English: Preséntate en 4 frases usando my name is, I am, I like.",
+        "suggestions": [
+          "My name is...",
+          "I am from...",
+          "Nice to meet you.",
+          "Can you repeat, please?"
         ]
       }
     },
-    A2: {
-      skills: {
-        listening: { title: 'Listening', text: 'Basic listening practice with common vocabulary and short sentence patterns.', suggestions: ['I usually wake up at...', 'The weather is...', 'We need to buy...'] },
-        speaking: { title: 'Speaking', text: 'Everyday conversations with helpful phrases for routines and plans.', suggestions: ['I usually...', 'Next week I want to...', 'It is important to...'] },
-        writing: { title: 'Writing', text: 'Short personal messages and simple descriptions.', suggestions: ['Last weekend I...', 'My favorite place is...', 'I enjoy...'] }
-      },
-      vocab: [['City', 'Ciudad'], ['Museum', 'Museo'], ['Guide', 'Guía'], ['Note', 'Nota'], ['Favorite', 'Favorito'], ['Visit', 'Visita']],
-      grammar: [['A2', 'Present continuous and simple comparisons.'], ['B1', 'Basic connectors for short paragraphs.']],
-      reading: {
-        title: 'Example reading A2',
-        text: 'Tom goes to the park every morning. He sees the trees, hears the birds and drinks coffee before class.',
-        questions: [
-          { q: '¿A dónde va Tom cada mañana?', options: ['A la playa', 'Al parque', 'Al museo', 'Al gimnasio'], answer: 1 },
-          { q: '¿Qué escucha Tom?', options: ['Música', 'A los pájaros', 'El tráfico', 'La lluvia'], answer: 1 },
-          { q: '¿Qué bebe antes de clase?', options: ['Té', 'Jugo', 'Café', 'Agua'], answer: 2 }
-        ]
-      }
-    },
-    B1: {
-      skills: {
-        listening: { title: 'Listening', text: 'Clear conversations with opinions, preferences and realistic situations.', suggestions: ['I believe that...', 'It seems like...', 'What do you think about...'] },
-        speaking: { title: 'Speaking', text: 'Speaking practice for giving opinions and explaining choices.', suggestions: ['In my opinion...', 'One reason is...', 'I would rather...'] },
-        writing: { title: 'Writing', text: 'Paragraph writing with clear organization and supporting details.', suggestions: ['First of all...', 'Another point is...', 'For example...'] }
-      },
-      vocab: [['Opinion', 'Opinión'], ['Preference', 'Preferencia'], ['Reason', 'Razón'], ['Experience', 'Experiencia'], ['Discuss', 'Discutir'], ['Improve', 'Mejorar']],
-      grammar: [['B1', 'Present perfect, modals and future forms.'], ['B2', 'Conditionals and reported speech.']],
-      reading: {
-        title: 'Example reading B1',
-        text: 'Maya recently started a new job and is learning how to organize her week. She writes down priorities and checks her calendar every evening.',
-        questions: [
-          { q: '¿Qué empezó Maya recientemente?', options: ['Un viaje', 'Un trabajo nuevo', 'Una clase', 'Un negocio'], answer: 1 },
-          { q: '¿Qué escribe cada semana?', options: ['Cartas', 'Sus prioridades', 'Poemas', 'Recetas'], answer: 1 },
-          { q: '¿Cuándo revisa su calendario?', options: ['En la mañana', 'Al mediodía', 'Cada noche', 'Los domingos'], answer: 2 }
-        ]
-      }
-    },
-    B2: {
-      skills: {
-        listening: { title: 'Listening', text: 'Longer audio with nuance, opinions and detailed explanations.', suggestions: ['It is likely that...', 'The main point is...', 'According to the speaker...'] },
-        speaking: { title: 'Speaking', text: 'Extended speaking tasks with argumentation and comparisons.', suggestions: ['On the one hand...', 'On the other hand...', 'That said...'] },
-        writing: { title: 'Writing', text: 'Essays and structured responses with stronger cohesion.', suggestions: ['To begin with...', 'In contrast...', 'As a result...'] }
-      },
-      vocab: [['Argument', 'Argumento'], ['Evidence', 'Evidencia'], ['Context', 'Contexto'], ['Complex', 'Complejo'], ['Precise', 'Preciso'], ['Debate', 'Debate']],
-      grammar: [['B2', 'Conditional sentences and passive voice.'], ['C1', 'Advanced connectors and style.']],
-      reading: {
-        title: 'Example reading B2',
-        text: 'The article compares two cities and explains how public transport, housing and social life affect residents in very different ways.',
-        questions: [
-          { q: '¿Qué compara el artículo?', options: ['Dos países', 'Dos ciudades', 'Dos décadas', 'Dos idiomas'], answer: 1 },
-          { q: '¿Qué tres áreas se mencionan?', options: ['Comida, clima y deporte', 'Transporte, vivienda y vida social', 'Música, arte e historia', 'Política, economía y ciencia'], answer: 1 },
-          { q: '¿Cómo se describen las ciudades?', options: ['Idénticas', 'Muy diferentes', 'Sin residentes', 'Abandonadas'], answer: 1 }
-        ]
-      }
-    },
-    C1: {
-      skills: {
-        listening: { title: 'Listening', text: 'Fast and natural speech with multiple speakers and abstract topics.', suggestions: ['The speaker implies that...', 'A key idea is...', 'This suggests that...'] },
-        speaking: { title: 'Speaking', text: 'High-level speaking practice for discussion and debate.', suggestions: ['From my perspective...', 'It could be argued that...', 'A compelling example is...'] },
-        writing: { title: 'Writing', text: 'Advanced composition with careful structure and rhetorical control.', suggestions: ['The central claim is...', 'In light of this...', 'To support this point...'] }
-      },
-      vocab: [['Nuance', 'Matiz'], ['Abstract', 'Abstracto'], ['Rhetoric', 'Retórica'], ['Precision', 'Precisión'], ['Cohesion', 'Coherencia'], ['Argumentation', 'Argumentación']],
-      grammar: [['C1', 'Advanced passive voice and subjunctive structures.'], ['C2', 'Register, style and fine-grained cohesion.']],
-      reading: {
-        title: 'Example reading C1',
-        text: 'A cultural essay explores how language shapes identity and explains why communities preserve traditions through storytelling and shared rituals.',
-        questions: [
-          { q: '¿Qué explora el ensayo?', options: ['La economía global', 'Cómo el idioma da forma a la identidad', 'La historia militar', 'La tecnología moderna'], answer: 1 },
-          { q: '¿Cómo preservan las tradiciones las comunidades?', options: ['Con leyes', 'Con relatos y rituales compartidos', 'Con impuestos', 'Con fronteras'], answer: 1 },
-          { q: '¿Cuál es el tema principal?', options: ['El deporte', 'La identidad cultural', 'La agricultura', 'El clima'], answer: 1 }
-        ]
-      }
-    },
-    C2: {
-      skills: {
-        listening: { title: 'Listening', text: 'Dense, authentic audio with subtle meaning, idiomatic language and rapid delivery.', suggestions: ['The underlying message is...', 'The speaker contrasts...', 'This point is especially relevant because...'] },
-        speaking: { title: 'Speaking', text: 'Near-native speech practice for nuanced and professional communication.', suggestions: ['To put it more precisely...', 'What stands out most is...', 'In a broader context...'] },
-        writing: { title: 'Writing', text: 'Sophisticated writing with style, framing and precision.', suggestions: ['With this in mind...', 'A more nuanced approach would be...', 'In conclusion...'] }
-      },
-      vocab: [['Nuanced', 'Matizado'], ['Register', 'Registro'], ['Inference', 'Inferencia'], ['Convey', 'Transmitir'], ['Subtle', 'Sutil'], ['Precision', 'Precisión']],
-      grammar: [['C2', 'Fine-grained grammar, cohesion and formal style.'], ['Mastery', 'Near-native fluency and control.']],
-      reading: {
-        title: 'Example reading C2',
-        text: 'The final passage examines the intersection of policy, identity and history, requiring the reader to infer meaning across several layers of argument.',
-        questions: [
-          { q: '¿Qué examina el pasaje?', options: ['Recetas de cocina', 'La intersección de política, identidad e historia', 'Un manual técnico', 'Un itinerario de viaje'], answer: 1 },
-          { q: '¿Qué se le pide al lector?', options: ['Memorizar fechas', 'Inferir significado en varias capas', 'Traducir palabra por palabra', 'Resumir en una frase'], answer: 1 },
-          { q: '¿Cuál es el enfoque del argumento?', options: ['Superficial', 'Profundo y con matices', 'Cómico', 'Publicitario'], answer: 1 }
-        ]
-      }
+    "vocab": [
+      [
+        "Hello",
+        "Hola"
+      ],
+      [
+        "Name",
+        "Nombre"
+      ],
+      [
+        "Teacher",
+        "Profesor/a"
+      ],
+      [
+        "Friend",
+        "Amigo/a"
+      ],
+      [
+        "Family",
+        "Familia"
+      ],
+      [
+        "Good morning",
+        "Buenos días"
+      ]
+    ],
+    "grammar": [
+      [
+        "A1",
+        "Verb to be, pronouns, articles, plurals, present simple."
+      ],
+      [
+        "Mission",
+        "Preséntate en 4 frases usando my name is, I am, I like."
+      ]
+    ],
+    "reading": {
+      "title": "English A1 Reading",
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "questions": [
+        "Where does Sara live?",
+        "Who does she say hello to?",
+        "What does she practice?"
+      ]
     }
-  };
+  },
+  "A2": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Everyday English: Describe your daily routine in 5 short sentences.",
+        "suggestions": [
+          "I usually...",
+          "Last weekend...",
+          "How much is it?",
+          "I am going to..."
+        ]
+      },
+      "speaking": {
+        "title": "Speaking",
+        "text": "Everyday English: Describe your daily routine in 5 short sentences.",
+        "suggestions": [
+          "I usually...",
+          "Last weekend...",
+          "How much is it?",
+          "I am going to..."
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Everyday English: Describe your daily routine in 5 short sentences.",
+        "suggestions": [
+          "I usually...",
+          "Last weekend...",
+          "How much is it?",
+          "I am going to..."
+        ]
+      }
+    },
+    "vocab": [
+      [
+        "Usually",
+        "Usualmente"
+      ],
+      [
+        "Market",
+        "Mercado"
+      ],
+      [
+        "Travel",
+        "Viajar"
+      ],
+      [
+        "Cheap",
+        "Barato"
+      ],
+      [
+        "Weather",
+        "Clima"
+      ],
+      [
+        "Weekend",
+        "Fin de semana"
+      ]
+    ],
+    "grammar": [
+      [
+        "A2",
+        "Past simple, present continuous, comparatives, frequency adverbs."
+      ],
+      [
+        "Mission",
+        "Describe your daily routine in 5 short sentences."
+      ]
+    ],
+    "reading": {
+      "title": "English A2 Reading",
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "questions": [
+        "What time does Tom wake up?",
+        "Who does he visit?",
+        "Where does he buy fruit?"
+      ]
+    }
+  },
+  "B1": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Confident Conversation: Give your opinion about learning languages and explain two reasons.",
+        "suggestions": [
+          "In my opinion...",
+          "One reason is...",
+          "I have learned...",
+          "I would like to..."
+        ]
+      },
+      "speaking": {
+        "title": "Speaking",
+        "text": "Confident Conversation: Give your opinion about learning languages and explain two reasons.",
+        "suggestions": [
+          "In my opinion...",
+          "One reason is...",
+          "I have learned...",
+          "I would like to..."
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Confident Conversation: Give your opinion about learning languages and explain two reasons.",
+        "suggestions": [
+          "In my opinion...",
+          "One reason is...",
+          "I have learned...",
+          "I would like to..."
+        ]
+      }
+    },
+    "vocab": [
+      [
+        "Opinion",
+        "Opinión"
+      ],
+      [
+        "Improve",
+        "Mejorar"
+      ],
+      [
+        "Because",
+        "Porque"
+      ],
+      [
+        "Experience",
+        "Experiencia"
+      ],
+      [
+        "Goal",
+        "Meta"
+      ],
+      [
+        "Challenge",
+        "Reto"
+      ]
+    ],
+    "grammar": [
+      [
+        "B1",
+        "Present perfect, modals, future forms, connectors."
+      ],
+      [
+        "Mission",
+        "Give your opinion about learning languages and explain two reasons."
+      ]
+    ],
+    "reading": {
+      "title": "English B1 Reading",
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "questions": [
+        "How long has Maya studied English?",
+        "What still happens?",
+        "When does she feel confident?"
+      ]
+    }
+  },
+  "B2": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Argument and Fluency: Write a short argument about online education.",
+        "suggestions": [
+          "On the one hand...",
+          "On the other hand...",
+          "This suggests that...",
+          "As a result..."
+        ]
+      },
+      "speaking": {
+        "title": "Speaking",
+        "text": "Argument and Fluency: Write a short argument about online education.",
+        "suggestions": [
+          "On the one hand...",
+          "On the other hand...",
+          "This suggests that...",
+          "As a result..."
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Argument and Fluency: Write a short argument about online education.",
+        "suggestions": [
+          "On the one hand...",
+          "On the other hand...",
+          "This suggests that...",
+          "As a result..."
+        ]
+      }
+    },
+    "vocab": [
+      [
+        "Evidence",
+        "Evidencia"
+      ],
+      [
+        "However",
+        "Sin embargo"
+      ],
+      [
+        "Although",
+        "Aunque"
+      ],
+      [
+        "Impact",
+        "Impacto"
+      ],
+      [
+        "Reliable",
+        "Confiable"
+      ],
+      [
+        "Develop",
+        "Desarrollar"
+      ]
+    ],
+    "grammar": [
+      [
+        "B2",
+        "Conditionals, passive voice, reported speech, phrasal verbs."
+      ],
+      [
+        "Mission",
+        "Write a short argument about online education."
+      ]
+    ],
+    "reading": {
+      "title": "English B2 Reading",
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "questions": [
+        "What has online education expanded?",
+        "What does it require?",
+        "What is one possible difficulty?"
+      ]
+    }
+  },
+  "C1": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Advanced Expression: Rewrite a simple opinion in a more formal academic style.",
+        "suggestions": [
+          "It is worth noting that...",
+          "This raises the question of...",
+          "To some extent...",
+          "From a broader perspective..."
+        ]
+      },
+      "speaking": {
+        "title": "Speaking",
+        "text": "Advanced Expression: Rewrite a simple opinion in a more formal academic style.",
+        "suggestions": [
+          "It is worth noting that...",
+          "This raises the question of...",
+          "To some extent...",
+          "From a broader perspective..."
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Advanced Expression: Rewrite a simple opinion in a more formal academic style.",
+        "suggestions": [
+          "It is worth noting that...",
+          "This raises the question of...",
+          "To some extent...",
+          "From a broader perspective..."
+        ]
+      }
+    },
+    "vocab": [
+      [
+        "Nevertheless",
+        "No obstante"
+      ],
+      [
+        "Subtle",
+        "Sutil"
+      ],
+      [
+        "Approach",
+        "Enfoque"
+      ],
+      [
+        "Outcome",
+        "Resultado"
+      ],
+      [
+        "Assumption",
+        "Suposición"
+      ],
+      [
+        "Enhance",
+        "Mejorar"
+      ]
+    ],
+    "grammar": [
+      [
+        "C1",
+        "Inversion, advanced passives, hedging, discourse markers."
+      ],
+      [
+        "Mission",
+        "Rewrite a simple opinion in a more formal academic style."
+      ]
+    ],
+    "reading": {
+      "title": "English C1 Reading",
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "questions": [
+        "What is language learning not merely?",
+        "What shapes it?",
+        "What three ideas are mentioned?"
+      ]
+    }
+  },
+  "C2": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Mastery and Nuance: Produce a polished paragraph with nuance and rhetorical balance.",
+        "suggestions": [
+          "The underlying issue is...",
+          "This is not to suggest that...",
+          "A more nuanced view would be...",
+          "What makes this compelling is..."
+        ]
+      },
+      "speaking": {
+        "title": "Speaking",
+        "text": "Mastery and Nuance: Produce a polished paragraph with nuance and rhetorical balance.",
+        "suggestions": [
+          "The underlying issue is...",
+          "This is not to suggest that...",
+          "A more nuanced view would be...",
+          "What makes this compelling is..."
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Mastery and Nuance: Produce a polished paragraph with nuance and rhetorical balance.",
+        "suggestions": [
+          "The underlying issue is...",
+          "This is not to suggest that...",
+          "A more nuanced view would be...",
+          "What makes this compelling is..."
+        ]
+      }
+    },
+    "vocab": [
+      [
+        "Nuance",
+        "Matiz"
+      ],
+      [
+        "Compelling",
+        "Convincente"
+      ],
+      [
+        "Concise",
+        "Conciso"
+      ],
+      [
+        "Flawless",
+        "Impecable"
+      ],
+      [
+        "Underlying",
+        "Subyacente"
+      ],
+      [
+        "Command",
+        "Dominio"
+      ]
+    ],
+    "grammar": [
+      [
+        "C2",
+        "Register, idiomatic nuance, rhetorical style, cohesion."
+      ],
+      [
+        "Mission",
+        "Produce a polished paragraph with nuance and rhetorical balance."
+      ]
+    ],
+    "reading": {
+      "title": "English C2 Reading",
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "questions": [
+        "What does mastery involve besides accuracy?",
+        "What must language adapt to?",
+        "Which word means dominio?"
+      ]
+    }
+  }
+};
 
-  // Lecciones completas para la ruta de aprendizaje (Learning Path), usadas como
-  // respaldo local cuando el backend no está disponible o para exploración offline.
   window.ANDERGO_LANGUAGE_WORLDS.lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons || {};
   window.ANDERGO_LANGUAGE_WORLDS.lessons.english = [
-    {
-      slug: 'greetings-a1', level: 'A1', skill: 'listening', title: 'Greetings & Introductions', isFree: true, xpReward: 20,
-      description: 'Learn to greet people and introduce yourself.',
-      intro: 'Listen to short greetings and match them with the right situation.',
-      vocabulary: [
-        { word: 'Hello', translation: 'Hola', example: 'Hello, my name is Ana.' },
-        { word: 'Nice to meet you', translation: 'Mucho gusto', example: 'Nice to meet you, David.' },
-        { word: 'Good morning', translation: 'Buenos días', example: 'Good morning! How are you?' }
-      ],
-      dialogue: [
-        { speaker: 'Anna', line: 'Hello! My name is Anna.', translation: 'Hola, me llamo Anna.' },
-        { speaker: 'Leo', line: 'Nice to meet you, Anna. I am Leo.', translation: 'Mucho gusto, Anna. Soy Leo.' }
-      ],
-      exercises: [
-        { type: 'mcq', prompt: '¿Cómo respondes a "Nice to meet you"?', options: ['Nice to meet you too', 'Goodbye', 'I am 20'], answer: 0 },
-        { type: 'mcq', prompt: '¿Qué significa "Good morning"?', options: ['Buenas noches', 'Buenos días', 'Buenas tardes'], answer: 1 }
+  {
+    "slug": "english-a1-listening",
+    "level": "A1",
+    "skill": "listening",
+    "title": "English A1 · Listening Lab",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 10,
+    "estimatedMinutes": 10,
+    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
+    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
+    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
+    "phrases": [
+      "My name is...",
+      "I am from...",
+      "Nice to meet you.",
+      "Can you repeat, please?"
+    ],
+    "vocabulary": [
+      {
+        "word": "Hello",
+        "translation": "Hola",
+        "example": "Hello, my name is Ana."
+      },
+      {
+        "word": "Name",
+        "translation": "Nombre",
+        "example": "My name is Luis."
+      },
+      {
+        "word": "Teacher",
+        "translation": "Profesor/a",
+        "example": "My teacher is kind."
+      },
+      {
+        "word": "Friend",
+        "translation": "Amigo/a",
+        "example": "She is my friend."
+      },
+      {
+        "word": "Family",
+        "translation": "Familia",
+        "example": "My family is small."
+      },
+      {
+        "word": "Good morning",
+        "translation": "Buenos días",
+        "example": "Good morning, class."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "My name is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "questions": [
+        "Where does Sara live?",
+        "Who does she say hello to?",
+        "What does she practice?"
       ]
     },
-    {
-      slug: 'daily-routines-a1', level: 'A1', skill: 'speaking', title: 'Daily Routines', isFree: true, xpReward: 20,
-      description: 'Talk about your day using present simple.',
-      intro: 'Practice saying what you do every day, step by step.',
-      vocabulary: [
-        { word: 'Wake up', translation: 'Despertar', example: 'I wake up at 7 am.' },
-        { word: 'Breakfast', translation: 'Desayuno', example: 'I eat breakfast at home.' },
-        { word: 'Work', translation: 'Trabajo', example: 'I go to work by bus.' }
-      ],
-      dialogue: [
-        { speaker: 'Tutor', line: 'What time do you wake up?', translation: '¿A qué hora te despiertas?' },
-        { speaker: 'Student', line: 'I wake up at seven.', translation: 'Me despierto a las siete.' }
-      ],
-      exercises: [
-        { type: 'mcq', prompt: '¿Cómo se dice "desayuno"?', options: ['Dinner', 'Breakfast', 'Lunch'], answer: 1 },
-        { type: 'speaking', prompt: 'Say your full morning routine out loud.', answer: 'Open answer' }
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Hello\"?",
+        "options": [
+          "Hola",
+          "Nombre",
+          "Profesor/a",
+          "Amigo/a"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: My name is...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "title": "English A1 · Speaking Mission",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 20,
+    "estimatedMinutes": 10,
+    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
+    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
+    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
+    "phrases": [
+      "My name is...",
+      "I am from...",
+      "Nice to meet you.",
+      "Can you repeat, please?"
+    ],
+    "vocabulary": [
+      {
+        "word": "Hello",
+        "translation": "Hola",
+        "example": "Hello, my name is Ana."
+      },
+      {
+        "word": "Name",
+        "translation": "Nombre",
+        "example": "My name is Luis."
+      },
+      {
+        "word": "Teacher",
+        "translation": "Profesor/a",
+        "example": "My teacher is kind."
+      },
+      {
+        "word": "Friend",
+        "translation": "Amigo/a",
+        "example": "She is my friend."
+      },
+      {
+        "word": "Family",
+        "translation": "Familia",
+        "example": "My family is small."
+      },
+      {
+        "word": "Good morning",
+        "translation": "Buenos días",
+        "example": "Good morning, class."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "My name is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "questions": [
+        "Where does Sara live?",
+        "Who does she say hello to?",
+        "What does she practice?"
       ]
     },
-    {
-      slug: 'my-family-a1', level: 'A1', skill: 'writing', title: 'My Family', isFree: true, xpReward: 20,
-      description: 'Write short sentences describing your family.',
-      intro: 'Use simple sentences to introduce your family members.',
-      vocabulary: [
-        { word: 'Mother', translation: 'Madre', example: 'My mother is a teacher.' },
-        { word: 'Brother', translation: 'Hermano', example: 'I have one brother.' },
-        { word: 'Family', translation: 'Familia', example: 'My family is small.' }
-      ],
-      dialogue: [
-        { speaker: 'Tutor', line: 'Tell me about your family.', translation: 'Cuéntame de tu familia.' },
-        { speaker: 'Student', line: 'I have a mother and a brother.', translation: 'Tengo una madre y un hermano.' }
-      ],
-      exercises: [
-        { type: 'writing', prompt: 'Write 3 sentences about your family.', answer: 'Open answer' },
-        { type: 'mcq', prompt: '¿Cómo se dice "hermano"?', options: ['Sister', 'Brother', 'Friend'], answer: 1 }
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Hello\"?",
+        "options": [
+          "Hola",
+          "Nombre",
+          "Profesor/a",
+          "Amigo/a"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: My name is...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-reading",
+    "level": "A1",
+    "skill": "reading",
+    "title": "English A1 · Reading Quest",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 30,
+    "estimatedMinutes": 10,
+    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
+    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
+    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
+    "phrases": [
+      "My name is...",
+      "I am from...",
+      "Nice to meet you.",
+      "Can you repeat, please?"
+    ],
+    "vocabulary": [
+      {
+        "word": "Hello",
+        "translation": "Hola",
+        "example": "Hello, my name is Ana."
+      },
+      {
+        "word": "Name",
+        "translation": "Nombre",
+        "example": "My name is Luis."
+      },
+      {
+        "word": "Teacher",
+        "translation": "Profesor/a",
+        "example": "My teacher is kind."
+      },
+      {
+        "word": "Friend",
+        "translation": "Amigo/a",
+        "example": "She is my friend."
+      },
+      {
+        "word": "Family",
+        "translation": "Familia",
+        "example": "My family is small."
+      },
+      {
+        "word": "Good morning",
+        "translation": "Buenos días",
+        "example": "Good morning, class."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "My name is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "questions": [
+        "Where does Sara live?",
+        "Who does she say hello to?",
+        "What does she practice?"
       ]
     },
-    {
-      slug: 'weekend-plans-a2', level: 'A2', skill: 'speaking', title: 'Weekend Plans', isFree: true, xpReward: 25,
-      description: 'Talk about future plans using "going to".',
-      intro: 'Practice describing what you are going to do this weekend.',
-      vocabulary: [
-        { word: 'Plan', translation: 'Plan', example: 'I have a plan for Saturday.' },
-        { word: 'Trip', translation: 'Viaje', example: 'We are going on a trip.' },
-        { word: 'Rest', translation: 'Descansar', example: 'I want to rest this weekend.' }
-      ],
-      dialogue: [
-        { speaker: 'Tutor', line: 'What are you going to do this weekend?', translation: '¿Qué vas a hacer este fin de semana?' },
-        { speaker: 'Student', line: "I'm going to visit my parents.", translation: 'Voy a visitar a mis padres.' }
-      ],
-      exercises: [
-        { type: 'mcq', prompt: 'Completa: I ___ going to travel.', options: ['am', 'is', 'be'], answer: 0 },
-        { type: 'speaking', prompt: 'Describe your weekend plan in 3 sentences.', answer: 'Open answer' }
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Hello\"?",
+        "options": [
+          "Hola",
+          "Nombre",
+          "Profesor/a",
+          "Amigo/a"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: My name is...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-writing",
+    "level": "A1",
+    "skill": "writing",
+    "title": "English A1 · Writing Challenge",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 40,
+    "estimatedMinutes": 10,
+    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
+    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
+    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
+    "phrases": [
+      "My name is...",
+      "I am from...",
+      "Nice to meet you.",
+      "Can you repeat, please?"
+    ],
+    "vocabulary": [
+      {
+        "word": "Hello",
+        "translation": "Hola",
+        "example": "Hello, my name is Ana."
+      },
+      {
+        "word": "Name",
+        "translation": "Nombre",
+        "example": "My name is Luis."
+      },
+      {
+        "word": "Teacher",
+        "translation": "Profesor/a",
+        "example": "My teacher is kind."
+      },
+      {
+        "word": "Friend",
+        "translation": "Amigo/a",
+        "example": "She is my friend."
+      },
+      {
+        "word": "Family",
+        "translation": "Familia",
+        "example": "My family is small."
+      },
+      {
+        "word": "Good morning",
+        "translation": "Buenos días",
+        "example": "Good morning, class."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "My name is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "questions": [
+        "Where does Sara live?",
+        "Who does she say hello to?",
+        "What does she practice?"
       ]
     },
-    {
-      slug: 'job-interview-b1', level: 'B1', skill: 'speaking', title: 'Job Interview Basics', isFree: false, xpReward: 30,
-      description: 'Answer common interview questions with confidence.',
-      intro: 'Practice speaking about your experience and strengths.',
-      vocabulary: [
-        { word: 'Strength', translation: 'Fortaleza', example: 'My strength is teamwork.' },
-        { word: 'Experience', translation: 'Experiencia', example: 'I have three years of experience.' },
-        { word: 'Goal', translation: 'Meta', example: 'My goal is to grow professionally.' }
-      ],
-      dialogue: [
-        { speaker: 'Interviewer', line: 'Tell me about your experience.', translation: 'Cuéntame sobre tu experiencia.' },
-        { speaker: 'Candidate', line: 'I have worked in customer service for two years.', translation: 'He trabajado en atención al cliente por dos años.' }
-      ],
-      exercises: [
-        { type: 'mcq', prompt: '¿Qué significa "strength" en este contexto?', options: ['Debilidad', 'Fortaleza', 'Salario'], answer: 1 },
-        { type: 'writing', prompt: 'Write a short answer to "Why should we hire you?"', answer: 'Open answer' }
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Hello\"?",
+        "options": [
+          "Hola",
+          "Nombre",
+          "Profesor/a",
+          "Amigo/a"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: My name is...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "title": "English A1 · Grammar Focus",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 50,
+    "estimatedMinutes": 10,
+    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
+    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
+    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
+    "phrases": [
+      "My name is...",
+      "I am from...",
+      "Nice to meet you.",
+      "Can you repeat, please?"
+    ],
+    "vocabulary": [
+      {
+        "word": "Hello",
+        "translation": "Hola",
+        "example": "Hello, my name is Ana."
+      },
+      {
+        "word": "Name",
+        "translation": "Nombre",
+        "example": "My name is Luis."
+      },
+      {
+        "word": "Teacher",
+        "translation": "Profesor/a",
+        "example": "My teacher is kind."
+      },
+      {
+        "word": "Friend",
+        "translation": "Amigo/a",
+        "example": "She is my friend."
+      },
+      {
+        "word": "Family",
+        "translation": "Familia",
+        "example": "My family is small."
+      },
+      {
+        "word": "Good morning",
+        "translation": "Buenos días",
+        "example": "Good morning, class."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "My name is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "questions": [
+        "Where does Sara live?",
+        "Who does she say hello to?",
+        "What does she practice?"
       ]
     },
-    {
-      slug: 'city-comparison-b2', level: 'B2', skill: 'writing', title: 'Comparing Cities', isFree: false, xpReward: 35,
-      description: 'Write a structured comparison essay.',
-      intro: 'Practice comparing two places with clear connectors.',
-      vocabulary: [
-        { word: 'Whereas', translation: 'Mientras que', example: 'City A is quiet, whereas City B is busy.' },
-        { word: 'In contrast', translation: 'En contraste', example: 'In contrast, housing is cheaper here.' },
-        { word: 'Overall', translation: 'En general', example: 'Overall, both cities offer good transport.' }
-      ],
-      dialogue: [
-        { speaker: 'Tutor', line: 'How would you compare these two cities?', translation: '¿Cómo compararías estas dos ciudades?' },
-        { speaker: 'Student', line: 'One is more affordable, whereas the other has better transport.', translation: 'Una es más accesible, mientras que la otra tiene mejor transporte.' }
-      ],
-      exercises: [
-        { type: 'writing', prompt: 'Write a 5-sentence comparison of two cities you know.', answer: 'Open answer' },
-        { type: 'mcq', prompt: '¿Cuál conector se usa para contrastar?', options: ['Also', 'Whereas', 'Then'], answer: 1 }
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Hello\"?",
+        "options": [
+          "Hola",
+          "Nombre",
+          "Profesor/a",
+          "Amigo/a"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: My name is...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "title": "English A1 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 10,
+    "orderIndex": 60,
+    "estimatedMinutes": 10,
+    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
+    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
+    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
+    "phrases": [
+      "My name is...",
+      "I am from...",
+      "Nice to meet you.",
+      "Can you repeat, please?"
+    ],
+    "vocabulary": [
+      {
+        "word": "Hello",
+        "translation": "Hola",
+        "example": "Hello, my name is Ana."
+      },
+      {
+        "word": "Name",
+        "translation": "Nombre",
+        "example": "My name is Luis."
+      },
+      {
+        "word": "Teacher",
+        "translation": "Profesor/a",
+        "example": "My teacher is kind."
+      },
+      {
+        "word": "Friend",
+        "translation": "Amigo/a",
+        "example": "She is my friend."
+      },
+      {
+        "word": "Family",
+        "translation": "Familia",
+        "example": "My family is small."
+      },
+      {
+        "word": "Good morning",
+        "translation": "Buenos días",
+        "example": "Good morning, class."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "My name is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "questions": [
+        "Where does Sara live?",
+        "Who does she say hello to?",
+        "What does she practice?"
       ]
     },
-    {
-      slug: 'abstract-debate-c1', level: 'C1', skill: 'speaking', title: 'Structured Debate', isFree: false, xpReward: 40,
-      description: 'Argue a position with supporting evidence.',
-      intro: 'Practice building an argument with clear structure.',
-      vocabulary: [
-        { word: 'Compelling', translation: 'Convincente', example: 'That is a compelling argument.' },
-        { word: 'Counterpoint', translation: 'Contraargumento', example: 'A counterpoint would be...' },
-        { word: 'Premise', translation: 'Premisa', example: 'The premise of this idea is flawed.' }
-      ],
-      dialogue: [
-        { speaker: 'Tutor', line: 'What is your position on this issue?', translation: '¿Cuál es tu postura sobre este tema?' },
-        { speaker: 'Student', line: 'I would argue that the evidence supports a different conclusion.', translation: 'Yo argumentaría que la evidencia respalda una conclusión diferente.' }
-      ],
-      exercises: [
-        { type: 'speaking', prompt: 'Defend a position in 45 seconds using at least one counterpoint.', answer: 'Open answer' },
-        { type: 'mcq', prompt: '¿Qué es un "counterpoint"?', options: ['Un ejemplo', 'Un contraargumento', 'Una pregunta'], answer: 1 }
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Hello\"?",
+        "options": [
+          "Hola",
+          "Nombre",
+          "Profesor/a",
+          "Amigo/a"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: My name is...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-a2-listening",
+    "level": "A2",
+    "skill": "listening",
+    "title": "English A2 · Listening Lab",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 70,
+    "estimatedMinutes": 10,
+    "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "mission": "Describe your daily routine in 5 short sentences.",
+    "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
+    "phrases": [
+      "I usually...",
+      "Last weekend...",
+      "How much is it?",
+      "I am going to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Usually",
+        "translation": "Usualmente",
+        "example": "I usually study at night."
+      },
+      {
+        "word": "Market",
+        "translation": "Mercado",
+        "example": "We go to the market."
+      },
+      {
+        "word": "Travel",
+        "translation": "Viajar",
+        "example": "I want to travel."
+      },
+      {
+        "word": "Cheap",
+        "translation": "Barato",
+        "example": "This bag is cheap."
+      },
+      {
+        "word": "Weather",
+        "translation": "Clima",
+        "example": "The weather is sunny."
+      },
+      {
+        "word": "Weekend",
+        "translation": "Fin de semana",
+        "example": "I work on weekends."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "I usually...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Last weekend...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "questions": [
+        "What time does Tom wake up?",
+        "Who does he visit?",
+        "Where does he buy fruit?"
       ]
     },
-    {
-      slug: 'nuanced-writing-c2', level: 'C2', skill: 'writing', title: 'Nuanced Argumentation', isFree: false, xpReward: 45,
-      description: 'Write with precision, register and rhetorical control.',
-      intro: 'Refine tone and cohesion in a short formal piece.',
-      vocabulary: [
-        { word: 'Notwithstanding', translation: 'No obstante', example: 'Notwithstanding the risks, the plan proceeded.' },
-        { word: 'Corollary', translation: 'Corolario', example: 'A corollary of this policy is...' },
-        { word: 'Discernible', translation: 'Perceptible', example: 'The effect was barely discernible.' }
-      ],
-      dialogue: [
-        { speaker: 'Tutor', line: 'How would you frame this argument more formally?', translation: '¿Cómo formularías este argumento de manera más formal?' },
-        { speaker: 'Student', line: 'Notwithstanding the criticism, the policy achieved its aim.', translation: 'No obstante las críticas, la política logró su objetivo.' }
-      ],
-      exercises: [
-        { type: 'writing', prompt: 'Rewrite a casual sentence in a formal register.', answer: 'Open answer' },
-        { type: 'mcq', prompt: '¿Qué significa "notwithstanding"?', options: ['Por lo tanto', 'No obstante', 'Además'], answer: 1 }
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Usually\"?",
+        "options": [
+          "Usualmente",
+          "Mercado",
+          "Viajar",
+          "Barato"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Describe your daily routine in 5 short sentences.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: I usually...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-a2-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "title": "English A2 · Speaking Mission",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 80,
+    "estimatedMinutes": 10,
+    "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "mission": "Describe your daily routine in 5 short sentences.",
+    "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
+    "phrases": [
+      "I usually...",
+      "Last weekend...",
+      "How much is it?",
+      "I am going to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Usually",
+        "translation": "Usualmente",
+        "example": "I usually study at night."
+      },
+      {
+        "word": "Market",
+        "translation": "Mercado",
+        "example": "We go to the market."
+      },
+      {
+        "word": "Travel",
+        "translation": "Viajar",
+        "example": "I want to travel."
+      },
+      {
+        "word": "Cheap",
+        "translation": "Barato",
+        "example": "This bag is cheap."
+      },
+      {
+        "word": "Weather",
+        "translation": "Clima",
+        "example": "The weather is sunny."
+      },
+      {
+        "word": "Weekend",
+        "translation": "Fin de semana",
+        "example": "I work on weekends."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "I usually...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Last weekend...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "questions": [
+        "What time does Tom wake up?",
+        "Who does he visit?",
+        "Where does he buy fruit?"
       ]
-    }
-  ];
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Usually\"?",
+        "options": [
+          "Usualmente",
+          "Mercado",
+          "Viajar",
+          "Barato"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Describe your daily routine in 5 short sentences.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: I usually...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-a2-reading",
+    "level": "A2",
+    "skill": "reading",
+    "title": "English A2 · Reading Quest",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 90,
+    "estimatedMinutes": 10,
+    "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "mission": "Describe your daily routine in 5 short sentences.",
+    "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
+    "phrases": [
+      "I usually...",
+      "Last weekend...",
+      "How much is it?",
+      "I am going to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Usually",
+        "translation": "Usualmente",
+        "example": "I usually study at night."
+      },
+      {
+        "word": "Market",
+        "translation": "Mercado",
+        "example": "We go to the market."
+      },
+      {
+        "word": "Travel",
+        "translation": "Viajar",
+        "example": "I want to travel."
+      },
+      {
+        "word": "Cheap",
+        "translation": "Barato",
+        "example": "This bag is cheap."
+      },
+      {
+        "word": "Weather",
+        "translation": "Clima",
+        "example": "The weather is sunny."
+      },
+      {
+        "word": "Weekend",
+        "translation": "Fin de semana",
+        "example": "I work on weekends."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "I usually...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Last weekend...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "questions": [
+        "What time does Tom wake up?",
+        "Who does he visit?",
+        "Where does he buy fruit?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Usually\"?",
+        "options": [
+          "Usualmente",
+          "Mercado",
+          "Viajar",
+          "Barato"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Describe your daily routine in 5 short sentences.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: I usually...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-a2-writing",
+    "level": "A2",
+    "skill": "writing",
+    "title": "English A2 · Writing Challenge",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 100,
+    "estimatedMinutes": 10,
+    "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "mission": "Describe your daily routine in 5 short sentences.",
+    "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
+    "phrases": [
+      "I usually...",
+      "Last weekend...",
+      "How much is it?",
+      "I am going to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Usually",
+        "translation": "Usualmente",
+        "example": "I usually study at night."
+      },
+      {
+        "word": "Market",
+        "translation": "Mercado",
+        "example": "We go to the market."
+      },
+      {
+        "word": "Travel",
+        "translation": "Viajar",
+        "example": "I want to travel."
+      },
+      {
+        "word": "Cheap",
+        "translation": "Barato",
+        "example": "This bag is cheap."
+      },
+      {
+        "word": "Weather",
+        "translation": "Clima",
+        "example": "The weather is sunny."
+      },
+      {
+        "word": "Weekend",
+        "translation": "Fin de semana",
+        "example": "I work on weekends."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "I usually...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Last weekend...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "questions": [
+        "What time does Tom wake up?",
+        "Who does he visit?",
+        "Where does he buy fruit?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Usually\"?",
+        "options": [
+          "Usualmente",
+          "Mercado",
+          "Viajar",
+          "Barato"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Describe your daily routine in 5 short sentences.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: I usually...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-a2-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "English A2 · Grammar Focus",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 110,
+    "estimatedMinutes": 10,
+    "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "mission": "Describe your daily routine in 5 short sentences.",
+    "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
+    "phrases": [
+      "I usually...",
+      "Last weekend...",
+      "How much is it?",
+      "I am going to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Usually",
+        "translation": "Usualmente",
+        "example": "I usually study at night."
+      },
+      {
+        "word": "Market",
+        "translation": "Mercado",
+        "example": "We go to the market."
+      },
+      {
+        "word": "Travel",
+        "translation": "Viajar",
+        "example": "I want to travel."
+      },
+      {
+        "word": "Cheap",
+        "translation": "Barato",
+        "example": "This bag is cheap."
+      },
+      {
+        "word": "Weather",
+        "translation": "Clima",
+        "example": "The weather is sunny."
+      },
+      {
+        "word": "Weekend",
+        "translation": "Fin de semana",
+        "example": "I work on weekends."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "I usually...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Last weekend...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "questions": [
+        "What time does Tom wake up?",
+        "Who does he visit?",
+        "Where does he buy fruit?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Usually\"?",
+        "options": [
+          "Usualmente",
+          "Mercado",
+          "Viajar",
+          "Barato"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Describe your daily routine in 5 short sentences.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: I usually...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-a2-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "title": "English A2 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 10,
+    "orderIndex": 120,
+    "estimatedMinutes": 10,
+    "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "mission": "Describe your daily routine in 5 short sentences.",
+    "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
+    "phrases": [
+      "I usually...",
+      "Last weekend...",
+      "How much is it?",
+      "I am going to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Usually",
+        "translation": "Usualmente",
+        "example": "I usually study at night."
+      },
+      {
+        "word": "Market",
+        "translation": "Mercado",
+        "example": "We go to the market."
+      },
+      {
+        "word": "Travel",
+        "translation": "Viajar",
+        "example": "I want to travel."
+      },
+      {
+        "word": "Cheap",
+        "translation": "Barato",
+        "example": "This bag is cheap."
+      },
+      {
+        "word": "Weather",
+        "translation": "Clima",
+        "example": "The weather is sunny."
+      },
+      {
+        "word": "Weekend",
+        "translation": "Fin de semana",
+        "example": "I work on weekends."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "I usually...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Last weekend...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "questions": [
+        "What time does Tom wake up?",
+        "Who does he visit?",
+        "Where does he buy fruit?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Usually\"?",
+        "options": [
+          "Usualmente",
+          "Mercado",
+          "Viajar",
+          "Barato"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Describe your daily routine in 5 short sentences.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: I usually...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b1-listening",
+    "level": "B1",
+    "skill": "listening",
+    "title": "English B1 · Listening Lab",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 130,
+    "estimatedMinutes": 15,
+    "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "mission": "Give your opinion about learning languages and explain two reasons.",
+    "grammar": "Present perfect, modals, future forms, connectors.",
+    "phrases": [
+      "In my opinion...",
+      "One reason is...",
+      "I have learned...",
+      "I would like to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Opinion",
+        "translation": "Opinión",
+        "example": "In my opinion, practice is essential."
+      },
+      {
+        "word": "Improve",
+        "translation": "Mejorar",
+        "example": "I want to improve my pronunciation."
+      },
+      {
+        "word": "Because",
+        "translation": "Porque",
+        "example": "I study because I need English."
+      },
+      {
+        "word": "Experience",
+        "translation": "Experiencia",
+        "example": "It was a great experience."
+      },
+      {
+        "word": "Goal",
+        "translation": "Meta",
+        "example": "My goal is fluency."
+      },
+      {
+        "word": "Challenge",
+        "translation": "Reto",
+        "example": "This challenge is useful."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "In my opinion...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "One reason is...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "questions": [
+        "How long has Maya studied English?",
+        "What still happens?",
+        "When does she feel confident?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Opinion\"?",
+        "options": [
+          "Opinión",
+          "Mejorar",
+          "Porque",
+          "Experiencia"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Give your opinion about learning languages and explain two reasons.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: In my opinion...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b1-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "title": "English B1 · Speaking Mission",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 140,
+    "estimatedMinutes": 15,
+    "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "mission": "Give your opinion about learning languages and explain two reasons.",
+    "grammar": "Present perfect, modals, future forms, connectors.",
+    "phrases": [
+      "In my opinion...",
+      "One reason is...",
+      "I have learned...",
+      "I would like to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Opinion",
+        "translation": "Opinión",
+        "example": "In my opinion, practice is essential."
+      },
+      {
+        "word": "Improve",
+        "translation": "Mejorar",
+        "example": "I want to improve my pronunciation."
+      },
+      {
+        "word": "Because",
+        "translation": "Porque",
+        "example": "I study because I need English."
+      },
+      {
+        "word": "Experience",
+        "translation": "Experiencia",
+        "example": "It was a great experience."
+      },
+      {
+        "word": "Goal",
+        "translation": "Meta",
+        "example": "My goal is fluency."
+      },
+      {
+        "word": "Challenge",
+        "translation": "Reto",
+        "example": "This challenge is useful."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "In my opinion...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "One reason is...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "questions": [
+        "How long has Maya studied English?",
+        "What still happens?",
+        "When does she feel confident?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Opinion\"?",
+        "options": [
+          "Opinión",
+          "Mejorar",
+          "Porque",
+          "Experiencia"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Give your opinion about learning languages and explain two reasons.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: In my opinion...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b1-reading",
+    "level": "B1",
+    "skill": "reading",
+    "title": "English B1 · Reading Quest",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 150,
+    "estimatedMinutes": 15,
+    "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "mission": "Give your opinion about learning languages and explain two reasons.",
+    "grammar": "Present perfect, modals, future forms, connectors.",
+    "phrases": [
+      "In my opinion...",
+      "One reason is...",
+      "I have learned...",
+      "I would like to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Opinion",
+        "translation": "Opinión",
+        "example": "In my opinion, practice is essential."
+      },
+      {
+        "word": "Improve",
+        "translation": "Mejorar",
+        "example": "I want to improve my pronunciation."
+      },
+      {
+        "word": "Because",
+        "translation": "Porque",
+        "example": "I study because I need English."
+      },
+      {
+        "word": "Experience",
+        "translation": "Experiencia",
+        "example": "It was a great experience."
+      },
+      {
+        "word": "Goal",
+        "translation": "Meta",
+        "example": "My goal is fluency."
+      },
+      {
+        "word": "Challenge",
+        "translation": "Reto",
+        "example": "This challenge is useful."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "In my opinion...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "One reason is...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "questions": [
+        "How long has Maya studied English?",
+        "What still happens?",
+        "When does she feel confident?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Opinion\"?",
+        "options": [
+          "Opinión",
+          "Mejorar",
+          "Porque",
+          "Experiencia"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Give your opinion about learning languages and explain two reasons.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: In my opinion...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b1-writing",
+    "level": "B1",
+    "skill": "writing",
+    "title": "English B1 · Writing Challenge",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 160,
+    "estimatedMinutes": 15,
+    "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "mission": "Give your opinion about learning languages and explain two reasons.",
+    "grammar": "Present perfect, modals, future forms, connectors.",
+    "phrases": [
+      "In my opinion...",
+      "One reason is...",
+      "I have learned...",
+      "I would like to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Opinion",
+        "translation": "Opinión",
+        "example": "In my opinion, practice is essential."
+      },
+      {
+        "word": "Improve",
+        "translation": "Mejorar",
+        "example": "I want to improve my pronunciation."
+      },
+      {
+        "word": "Because",
+        "translation": "Porque",
+        "example": "I study because I need English."
+      },
+      {
+        "word": "Experience",
+        "translation": "Experiencia",
+        "example": "It was a great experience."
+      },
+      {
+        "word": "Goal",
+        "translation": "Meta",
+        "example": "My goal is fluency."
+      },
+      {
+        "word": "Challenge",
+        "translation": "Reto",
+        "example": "This challenge is useful."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "In my opinion...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "One reason is...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "questions": [
+        "How long has Maya studied English?",
+        "What still happens?",
+        "When does she feel confident?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Opinion\"?",
+        "options": [
+          "Opinión",
+          "Mejorar",
+          "Porque",
+          "Experiencia"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Give your opinion about learning languages and explain two reasons.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: In my opinion...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b1-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "English B1 · Grammar Focus",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 170,
+    "estimatedMinutes": 15,
+    "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "mission": "Give your opinion about learning languages and explain two reasons.",
+    "grammar": "Present perfect, modals, future forms, connectors.",
+    "phrases": [
+      "In my opinion...",
+      "One reason is...",
+      "I have learned...",
+      "I would like to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Opinion",
+        "translation": "Opinión",
+        "example": "In my opinion, practice is essential."
+      },
+      {
+        "word": "Improve",
+        "translation": "Mejorar",
+        "example": "I want to improve my pronunciation."
+      },
+      {
+        "word": "Because",
+        "translation": "Porque",
+        "example": "I study because I need English."
+      },
+      {
+        "word": "Experience",
+        "translation": "Experiencia",
+        "example": "It was a great experience."
+      },
+      {
+        "word": "Goal",
+        "translation": "Meta",
+        "example": "My goal is fluency."
+      },
+      {
+        "word": "Challenge",
+        "translation": "Reto",
+        "example": "This challenge is useful."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "In my opinion...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "One reason is...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "questions": [
+        "How long has Maya studied English?",
+        "What still happens?",
+        "When does she feel confident?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Opinion\"?",
+        "options": [
+          "Opinión",
+          "Mejorar",
+          "Porque",
+          "Experiencia"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Give your opinion about learning languages and explain two reasons.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: In my opinion...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b1-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "English B1 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 10,
+    "orderIndex": 180,
+    "estimatedMinutes": 15,
+    "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "mission": "Give your opinion about learning languages and explain two reasons.",
+    "grammar": "Present perfect, modals, future forms, connectors.",
+    "phrases": [
+      "In my opinion...",
+      "One reason is...",
+      "I have learned...",
+      "I would like to..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Opinion",
+        "translation": "Opinión",
+        "example": "In my opinion, practice is essential."
+      },
+      {
+        "word": "Improve",
+        "translation": "Mejorar",
+        "example": "I want to improve my pronunciation."
+      },
+      {
+        "word": "Because",
+        "translation": "Porque",
+        "example": "I study because I need English."
+      },
+      {
+        "word": "Experience",
+        "translation": "Experiencia",
+        "example": "It was a great experience."
+      },
+      {
+        "word": "Goal",
+        "translation": "Meta",
+        "example": "My goal is fluency."
+      },
+      {
+        "word": "Challenge",
+        "translation": "Reto",
+        "example": "This challenge is useful."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "In my opinion...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "One reason is...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "questions": [
+        "How long has Maya studied English?",
+        "What still happens?",
+        "When does she feel confident?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Opinion\"?",
+        "options": [
+          "Opinión",
+          "Mejorar",
+          "Porque",
+          "Experiencia"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Give your opinion about learning languages and explain two reasons.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: In my opinion...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b2-listening",
+    "level": "B2",
+    "skill": "listening",
+    "title": "English B2 · Listening Lab",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 190,
+    "estimatedMinutes": 15,
+    "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "mission": "Write a short argument about online education.",
+    "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
+    "phrases": [
+      "On the one hand...",
+      "On the other hand...",
+      "This suggests that...",
+      "As a result..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Evidence",
+        "translation": "Evidencia",
+        "example": "The evidence supports this idea."
+      },
+      {
+        "word": "However",
+        "translation": "Sin embargo",
+        "example": "However, there are disadvantages."
+      },
+      {
+        "word": "Although",
+        "translation": "Aunque",
+        "example": "Although it is difficult, it is possible."
+      },
+      {
+        "word": "Impact",
+        "translation": "Impacto",
+        "example": "Technology has a strong impact."
+      },
+      {
+        "word": "Reliable",
+        "translation": "Confiable",
+        "example": "This source is reliable."
+      },
+      {
+        "word": "Develop",
+        "translation": "Desarrollar",
+        "example": "Students develop autonomy."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "On the one hand...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "On the other hand...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "questions": [
+        "What has online education expanded?",
+        "What does it require?",
+        "What is one possible difficulty?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Evidence\"?",
+        "options": [
+          "Evidencia",
+          "Sin embargo",
+          "Aunque",
+          "Impacto"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Write a short argument about online education.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: On the one hand...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b2-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "title": "English B2 · Speaking Mission",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 200,
+    "estimatedMinutes": 15,
+    "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "mission": "Write a short argument about online education.",
+    "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
+    "phrases": [
+      "On the one hand...",
+      "On the other hand...",
+      "This suggests that...",
+      "As a result..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Evidence",
+        "translation": "Evidencia",
+        "example": "The evidence supports this idea."
+      },
+      {
+        "word": "However",
+        "translation": "Sin embargo",
+        "example": "However, there are disadvantages."
+      },
+      {
+        "word": "Although",
+        "translation": "Aunque",
+        "example": "Although it is difficult, it is possible."
+      },
+      {
+        "word": "Impact",
+        "translation": "Impacto",
+        "example": "Technology has a strong impact."
+      },
+      {
+        "word": "Reliable",
+        "translation": "Confiable",
+        "example": "This source is reliable."
+      },
+      {
+        "word": "Develop",
+        "translation": "Desarrollar",
+        "example": "Students develop autonomy."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "On the one hand...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "On the other hand...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "questions": [
+        "What has online education expanded?",
+        "What does it require?",
+        "What is one possible difficulty?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Evidence\"?",
+        "options": [
+          "Evidencia",
+          "Sin embargo",
+          "Aunque",
+          "Impacto"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Write a short argument about online education.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: On the one hand...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b2-reading",
+    "level": "B2",
+    "skill": "reading",
+    "title": "English B2 · Reading Quest",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 210,
+    "estimatedMinutes": 15,
+    "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "mission": "Write a short argument about online education.",
+    "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
+    "phrases": [
+      "On the one hand...",
+      "On the other hand...",
+      "This suggests that...",
+      "As a result..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Evidence",
+        "translation": "Evidencia",
+        "example": "The evidence supports this idea."
+      },
+      {
+        "word": "However",
+        "translation": "Sin embargo",
+        "example": "However, there are disadvantages."
+      },
+      {
+        "word": "Although",
+        "translation": "Aunque",
+        "example": "Although it is difficult, it is possible."
+      },
+      {
+        "word": "Impact",
+        "translation": "Impacto",
+        "example": "Technology has a strong impact."
+      },
+      {
+        "word": "Reliable",
+        "translation": "Confiable",
+        "example": "This source is reliable."
+      },
+      {
+        "word": "Develop",
+        "translation": "Desarrollar",
+        "example": "Students develop autonomy."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "On the one hand...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "On the other hand...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "questions": [
+        "What has online education expanded?",
+        "What does it require?",
+        "What is one possible difficulty?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Evidence\"?",
+        "options": [
+          "Evidencia",
+          "Sin embargo",
+          "Aunque",
+          "Impacto"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Write a short argument about online education.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: On the one hand...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b2-writing",
+    "level": "B2",
+    "skill": "writing",
+    "title": "English B2 · Writing Challenge",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 220,
+    "estimatedMinutes": 15,
+    "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "mission": "Write a short argument about online education.",
+    "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
+    "phrases": [
+      "On the one hand...",
+      "On the other hand...",
+      "This suggests that...",
+      "As a result..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Evidence",
+        "translation": "Evidencia",
+        "example": "The evidence supports this idea."
+      },
+      {
+        "word": "However",
+        "translation": "Sin embargo",
+        "example": "However, there are disadvantages."
+      },
+      {
+        "word": "Although",
+        "translation": "Aunque",
+        "example": "Although it is difficult, it is possible."
+      },
+      {
+        "word": "Impact",
+        "translation": "Impacto",
+        "example": "Technology has a strong impact."
+      },
+      {
+        "word": "Reliable",
+        "translation": "Confiable",
+        "example": "This source is reliable."
+      },
+      {
+        "word": "Develop",
+        "translation": "Desarrollar",
+        "example": "Students develop autonomy."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "On the one hand...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "On the other hand...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "questions": [
+        "What has online education expanded?",
+        "What does it require?",
+        "What is one possible difficulty?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Evidence\"?",
+        "options": [
+          "Evidencia",
+          "Sin embargo",
+          "Aunque",
+          "Impacto"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Write a short argument about online education.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: On the one hand...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b2-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "English B2 · Grammar Focus",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 230,
+    "estimatedMinutes": 15,
+    "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "mission": "Write a short argument about online education.",
+    "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
+    "phrases": [
+      "On the one hand...",
+      "On the other hand...",
+      "This suggests that...",
+      "As a result..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Evidence",
+        "translation": "Evidencia",
+        "example": "The evidence supports this idea."
+      },
+      {
+        "word": "However",
+        "translation": "Sin embargo",
+        "example": "However, there are disadvantages."
+      },
+      {
+        "word": "Although",
+        "translation": "Aunque",
+        "example": "Although it is difficult, it is possible."
+      },
+      {
+        "word": "Impact",
+        "translation": "Impacto",
+        "example": "Technology has a strong impact."
+      },
+      {
+        "word": "Reliable",
+        "translation": "Confiable",
+        "example": "This source is reliable."
+      },
+      {
+        "word": "Develop",
+        "translation": "Desarrollar",
+        "example": "Students develop autonomy."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "On the one hand...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "On the other hand...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "questions": [
+        "What has online education expanded?",
+        "What does it require?",
+        "What is one possible difficulty?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Evidence\"?",
+        "options": [
+          "Evidencia",
+          "Sin embargo",
+          "Aunque",
+          "Impacto"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Write a short argument about online education.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: On the one hand...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-b2-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "title": "English B2 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 10,
+    "orderIndex": 240,
+    "estimatedMinutes": 15,
+    "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "mission": "Write a short argument about online education.",
+    "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
+    "phrases": [
+      "On the one hand...",
+      "On the other hand...",
+      "This suggests that...",
+      "As a result..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Evidence",
+        "translation": "Evidencia",
+        "example": "The evidence supports this idea."
+      },
+      {
+        "word": "However",
+        "translation": "Sin embargo",
+        "example": "However, there are disadvantages."
+      },
+      {
+        "word": "Although",
+        "translation": "Aunque",
+        "example": "Although it is difficult, it is possible."
+      },
+      {
+        "word": "Impact",
+        "translation": "Impacto",
+        "example": "Technology has a strong impact."
+      },
+      {
+        "word": "Reliable",
+        "translation": "Confiable",
+        "example": "This source is reliable."
+      },
+      {
+        "word": "Develop",
+        "translation": "Desarrollar",
+        "example": "Students develop autonomy."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "On the one hand...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "On the other hand...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "questions": [
+        "What has online education expanded?",
+        "What does it require?",
+        "What is one possible difficulty?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Evidence\"?",
+        "options": [
+          "Evidencia",
+          "Sin embargo",
+          "Aunque",
+          "Impacto"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Write a short argument about online education.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: On the one hand...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c1-listening",
+    "level": "C1",
+    "skill": "listening",
+    "title": "English C1 · Listening Lab",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 250,
+    "estimatedMinutes": 15,
+    "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
+    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "mission": "Rewrite a simple opinion in a more formal academic style.",
+    "grammar": "Inversion, advanced passives, hedging, discourse markers.",
+    "phrases": [
+      "It is worth noting that...",
+      "This raises the question of...",
+      "To some extent...",
+      "From a broader perspective..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nevertheless",
+        "translation": "No obstante",
+        "example": "Nevertheless, the results are relevant."
+      },
+      {
+        "word": "Subtle",
+        "translation": "Sutil",
+        "example": "There is a subtle difference."
+      },
+      {
+        "word": "Approach",
+        "translation": "Enfoque",
+        "example": "This approach is practical."
+      },
+      {
+        "word": "Outcome",
+        "translation": "Resultado",
+        "example": "The outcome was positive."
+      },
+      {
+        "word": "Assumption",
+        "translation": "Suposición",
+        "example": "That assumption is questionable."
+      },
+      {
+        "word": "Enhance",
+        "translation": "Mejorar",
+        "example": "Reading enhances vocabulary."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "It is worth noting that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This raises the question of...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "questions": [
+        "What is language learning not merely?",
+        "What shapes it?",
+        "What three ideas are mentioned?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nevertheless\"?",
+        "options": [
+          "No obstante",
+          "Sutil",
+          "Enfoque",
+          "Resultado"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Rewrite a simple opinion in a more formal academic style.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: It is worth noting that...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c1-speaking",
+    "level": "C1",
+    "skill": "speaking",
+    "title": "English C1 · Speaking Mission",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 260,
+    "estimatedMinutes": 15,
+    "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
+    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "mission": "Rewrite a simple opinion in a more formal academic style.",
+    "grammar": "Inversion, advanced passives, hedging, discourse markers.",
+    "phrases": [
+      "It is worth noting that...",
+      "This raises the question of...",
+      "To some extent...",
+      "From a broader perspective..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nevertheless",
+        "translation": "No obstante",
+        "example": "Nevertheless, the results are relevant."
+      },
+      {
+        "word": "Subtle",
+        "translation": "Sutil",
+        "example": "There is a subtle difference."
+      },
+      {
+        "word": "Approach",
+        "translation": "Enfoque",
+        "example": "This approach is practical."
+      },
+      {
+        "word": "Outcome",
+        "translation": "Resultado",
+        "example": "The outcome was positive."
+      },
+      {
+        "word": "Assumption",
+        "translation": "Suposición",
+        "example": "That assumption is questionable."
+      },
+      {
+        "word": "Enhance",
+        "translation": "Mejorar",
+        "example": "Reading enhances vocabulary."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "It is worth noting that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This raises the question of...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "questions": [
+        "What is language learning not merely?",
+        "What shapes it?",
+        "What three ideas are mentioned?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nevertheless\"?",
+        "options": [
+          "No obstante",
+          "Sutil",
+          "Enfoque",
+          "Resultado"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Rewrite a simple opinion in a more formal academic style.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: It is worth noting that...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c1-reading",
+    "level": "C1",
+    "skill": "reading",
+    "title": "English C1 · Reading Quest",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 270,
+    "estimatedMinutes": 15,
+    "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
+    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "mission": "Rewrite a simple opinion in a more formal academic style.",
+    "grammar": "Inversion, advanced passives, hedging, discourse markers.",
+    "phrases": [
+      "It is worth noting that...",
+      "This raises the question of...",
+      "To some extent...",
+      "From a broader perspective..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nevertheless",
+        "translation": "No obstante",
+        "example": "Nevertheless, the results are relevant."
+      },
+      {
+        "word": "Subtle",
+        "translation": "Sutil",
+        "example": "There is a subtle difference."
+      },
+      {
+        "word": "Approach",
+        "translation": "Enfoque",
+        "example": "This approach is practical."
+      },
+      {
+        "word": "Outcome",
+        "translation": "Resultado",
+        "example": "The outcome was positive."
+      },
+      {
+        "word": "Assumption",
+        "translation": "Suposición",
+        "example": "That assumption is questionable."
+      },
+      {
+        "word": "Enhance",
+        "translation": "Mejorar",
+        "example": "Reading enhances vocabulary."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "It is worth noting that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This raises the question of...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "questions": [
+        "What is language learning not merely?",
+        "What shapes it?",
+        "What three ideas are mentioned?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nevertheless\"?",
+        "options": [
+          "No obstante",
+          "Sutil",
+          "Enfoque",
+          "Resultado"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Rewrite a simple opinion in a more formal academic style.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: It is worth noting that...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c1-writing",
+    "level": "C1",
+    "skill": "writing",
+    "title": "English C1 · Writing Challenge",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 280,
+    "estimatedMinutes": 15,
+    "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
+    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "mission": "Rewrite a simple opinion in a more formal academic style.",
+    "grammar": "Inversion, advanced passives, hedging, discourse markers.",
+    "phrases": [
+      "It is worth noting that...",
+      "This raises the question of...",
+      "To some extent...",
+      "From a broader perspective..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nevertheless",
+        "translation": "No obstante",
+        "example": "Nevertheless, the results are relevant."
+      },
+      {
+        "word": "Subtle",
+        "translation": "Sutil",
+        "example": "There is a subtle difference."
+      },
+      {
+        "word": "Approach",
+        "translation": "Enfoque",
+        "example": "This approach is practical."
+      },
+      {
+        "word": "Outcome",
+        "translation": "Resultado",
+        "example": "The outcome was positive."
+      },
+      {
+        "word": "Assumption",
+        "translation": "Suposición",
+        "example": "That assumption is questionable."
+      },
+      {
+        "word": "Enhance",
+        "translation": "Mejorar",
+        "example": "Reading enhances vocabulary."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "It is worth noting that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This raises the question of...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "questions": [
+        "What is language learning not merely?",
+        "What shapes it?",
+        "What three ideas are mentioned?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nevertheless\"?",
+        "options": [
+          "No obstante",
+          "Sutil",
+          "Enfoque",
+          "Resultado"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Rewrite a simple opinion in a more formal academic style.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: It is worth noting that...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c1-grammar",
+    "level": "C1",
+    "skill": "grammar",
+    "title": "English C1 · Grammar Focus",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 290,
+    "estimatedMinutes": 15,
+    "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
+    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "mission": "Rewrite a simple opinion in a more formal academic style.",
+    "grammar": "Inversion, advanced passives, hedging, discourse markers.",
+    "phrases": [
+      "It is worth noting that...",
+      "This raises the question of...",
+      "To some extent...",
+      "From a broader perspective..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nevertheless",
+        "translation": "No obstante",
+        "example": "Nevertheless, the results are relevant."
+      },
+      {
+        "word": "Subtle",
+        "translation": "Sutil",
+        "example": "There is a subtle difference."
+      },
+      {
+        "word": "Approach",
+        "translation": "Enfoque",
+        "example": "This approach is practical."
+      },
+      {
+        "word": "Outcome",
+        "translation": "Resultado",
+        "example": "The outcome was positive."
+      },
+      {
+        "word": "Assumption",
+        "translation": "Suposición",
+        "example": "That assumption is questionable."
+      },
+      {
+        "word": "Enhance",
+        "translation": "Mejorar",
+        "example": "Reading enhances vocabulary."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "It is worth noting that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This raises the question of...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "questions": [
+        "What is language learning not merely?",
+        "What shapes it?",
+        "What three ideas are mentioned?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nevertheless\"?",
+        "options": [
+          "No obstante",
+          "Sutil",
+          "Enfoque",
+          "Resultado"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Rewrite a simple opinion in a more formal academic style.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: It is worth noting that...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c1-vocabulary",
+    "level": "C1",
+    "skill": "vocabulary",
+    "title": "English C1 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 10,
+    "orderIndex": 300,
+    "estimatedMinutes": 15,
+    "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
+    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "mission": "Rewrite a simple opinion in a more formal academic style.",
+    "grammar": "Inversion, advanced passives, hedging, discourse markers.",
+    "phrases": [
+      "It is worth noting that...",
+      "This raises the question of...",
+      "To some extent...",
+      "From a broader perspective..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nevertheless",
+        "translation": "No obstante",
+        "example": "Nevertheless, the results are relevant."
+      },
+      {
+        "word": "Subtle",
+        "translation": "Sutil",
+        "example": "There is a subtle difference."
+      },
+      {
+        "word": "Approach",
+        "translation": "Enfoque",
+        "example": "This approach is practical."
+      },
+      {
+        "word": "Outcome",
+        "translation": "Resultado",
+        "example": "The outcome was positive."
+      },
+      {
+        "word": "Assumption",
+        "translation": "Suposición",
+        "example": "That assumption is questionable."
+      },
+      {
+        "word": "Enhance",
+        "translation": "Mejorar",
+        "example": "Reading enhances vocabulary."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "It is worth noting that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This raises the question of...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "questions": [
+        "What is language learning not merely?",
+        "What shapes it?",
+        "What three ideas are mentioned?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nevertheless\"?",
+        "options": [
+          "No obstante",
+          "Sutil",
+          "Enfoque",
+          "Resultado"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Rewrite a simple opinion in a more formal academic style.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: It is worth noting that...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c2-listening",
+    "level": "C2",
+    "skill": "listening",
+    "title": "English C2 · Listening Lab",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 310,
+    "estimatedMinutes": 15,
+    "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
+    "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
+    "phrases": [
+      "The underlying issue is...",
+      "This is not to suggest that...",
+      "A more nuanced view would be...",
+      "What makes this compelling is..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nuance",
+        "translation": "Matiz",
+        "example": "The nuance changes the message."
+      },
+      {
+        "word": "Compelling",
+        "translation": "Convincente",
+        "example": "That is a compelling argument."
+      },
+      {
+        "word": "Concise",
+        "translation": "Conciso",
+        "example": "Keep your answer concise."
+      },
+      {
+        "word": "Flawless",
+        "translation": "Impecable",
+        "example": "Her delivery was flawless."
+      },
+      {
+        "word": "Underlying",
+        "translation": "Subyacente",
+        "example": "The underlying issue is complex."
+      },
+      {
+        "word": "Command",
+        "translation": "Dominio",
+        "example": "He has full command of the language."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "The underlying issue is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is not to suggest that...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "questions": [
+        "What does mastery involve besides accuracy?",
+        "What must language adapt to?",
+        "Which word means dominio?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nuance\"?",
+        "options": [
+          "Matiz",
+          "Convincente",
+          "Conciso",
+          "Impecable"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: The underlying issue is...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c2-speaking",
+    "level": "C2",
+    "skill": "speaking",
+    "title": "English C2 · Speaking Mission",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 320,
+    "estimatedMinutes": 15,
+    "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
+    "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
+    "phrases": [
+      "The underlying issue is...",
+      "This is not to suggest that...",
+      "A more nuanced view would be...",
+      "What makes this compelling is..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nuance",
+        "translation": "Matiz",
+        "example": "The nuance changes the message."
+      },
+      {
+        "word": "Compelling",
+        "translation": "Convincente",
+        "example": "That is a compelling argument."
+      },
+      {
+        "word": "Concise",
+        "translation": "Conciso",
+        "example": "Keep your answer concise."
+      },
+      {
+        "word": "Flawless",
+        "translation": "Impecable",
+        "example": "Her delivery was flawless."
+      },
+      {
+        "word": "Underlying",
+        "translation": "Subyacente",
+        "example": "The underlying issue is complex."
+      },
+      {
+        "word": "Command",
+        "translation": "Dominio",
+        "example": "He has full command of the language."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "The underlying issue is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is not to suggest that...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "questions": [
+        "What does mastery involve besides accuracy?",
+        "What must language adapt to?",
+        "Which word means dominio?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nuance\"?",
+        "options": [
+          "Matiz",
+          "Convincente",
+          "Conciso",
+          "Impecable"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: The underlying issue is...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c2-reading",
+    "level": "C2",
+    "skill": "reading",
+    "title": "English C2 · Reading Quest",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 330,
+    "estimatedMinutes": 15,
+    "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
+    "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
+    "phrases": [
+      "The underlying issue is...",
+      "This is not to suggest that...",
+      "A more nuanced view would be...",
+      "What makes this compelling is..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nuance",
+        "translation": "Matiz",
+        "example": "The nuance changes the message."
+      },
+      {
+        "word": "Compelling",
+        "translation": "Convincente",
+        "example": "That is a compelling argument."
+      },
+      {
+        "word": "Concise",
+        "translation": "Conciso",
+        "example": "Keep your answer concise."
+      },
+      {
+        "word": "Flawless",
+        "translation": "Impecable",
+        "example": "Her delivery was flawless."
+      },
+      {
+        "word": "Underlying",
+        "translation": "Subyacente",
+        "example": "The underlying issue is complex."
+      },
+      {
+        "word": "Command",
+        "translation": "Dominio",
+        "example": "He has full command of the language."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "The underlying issue is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is not to suggest that...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "questions": [
+        "What does mastery involve besides accuracy?",
+        "What must language adapt to?",
+        "Which word means dominio?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nuance\"?",
+        "options": [
+          "Matiz",
+          "Convincente",
+          "Conciso",
+          "Impecable"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: The underlying issue is...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c2-writing",
+    "level": "C2",
+    "skill": "writing",
+    "title": "English C2 · Writing Challenge",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 340,
+    "estimatedMinutes": 15,
+    "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
+    "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
+    "phrases": [
+      "The underlying issue is...",
+      "This is not to suggest that...",
+      "A more nuanced view would be...",
+      "What makes this compelling is..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nuance",
+        "translation": "Matiz",
+        "example": "The nuance changes the message."
+      },
+      {
+        "word": "Compelling",
+        "translation": "Convincente",
+        "example": "That is a compelling argument."
+      },
+      {
+        "word": "Concise",
+        "translation": "Conciso",
+        "example": "Keep your answer concise."
+      },
+      {
+        "word": "Flawless",
+        "translation": "Impecable",
+        "example": "Her delivery was flawless."
+      },
+      {
+        "word": "Underlying",
+        "translation": "Subyacente",
+        "example": "The underlying issue is complex."
+      },
+      {
+        "word": "Command",
+        "translation": "Dominio",
+        "example": "He has full command of the language."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "The underlying issue is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is not to suggest that...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "questions": [
+        "What does mastery involve besides accuracy?",
+        "What must language adapt to?",
+        "Which word means dominio?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nuance\"?",
+        "options": [
+          "Matiz",
+          "Convincente",
+          "Conciso",
+          "Impecable"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: The underlying issue is...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c2-grammar",
+    "level": "C2",
+    "skill": "grammar",
+    "title": "English C2 · Grammar Focus",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 350,
+    "estimatedMinutes": 15,
+    "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
+    "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
+    "phrases": [
+      "The underlying issue is...",
+      "This is not to suggest that...",
+      "A more nuanced view would be...",
+      "What makes this compelling is..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nuance",
+        "translation": "Matiz",
+        "example": "The nuance changes the message."
+      },
+      {
+        "word": "Compelling",
+        "translation": "Convincente",
+        "example": "That is a compelling argument."
+      },
+      {
+        "word": "Concise",
+        "translation": "Conciso",
+        "example": "Keep your answer concise."
+      },
+      {
+        "word": "Flawless",
+        "translation": "Impecable",
+        "example": "Her delivery was flawless."
+      },
+      {
+        "word": "Underlying",
+        "translation": "Subyacente",
+        "example": "The underlying issue is complex."
+      },
+      {
+        "word": "Command",
+        "translation": "Dominio",
+        "example": "He has full command of the language."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "The underlying issue is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is not to suggest that...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "questions": [
+        "What does mastery involve besides accuracy?",
+        "What must language adapt to?",
+        "Which word means dominio?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nuance\"?",
+        "options": [
+          "Matiz",
+          "Convincente",
+          "Conciso",
+          "Impecable"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: The underlying issue is...",
+        "answer": "Oral practice"
+      }
+    ]
+  },
+  {
+    "slug": "english-c2-vocabulary",
+    "level": "C2",
+    "skill": "vocabulary",
+    "title": "English C2 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 10,
+    "orderIndex": 360,
+    "estimatedMinutes": 15,
+    "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
+    "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
+    "phrases": [
+      "The underlying issue is...",
+      "This is not to suggest that...",
+      "A more nuanced view would be...",
+      "What makes this compelling is..."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nuance",
+        "translation": "Matiz",
+        "example": "The nuance changes the message."
+      },
+      {
+        "word": "Compelling",
+        "translation": "Convincente",
+        "example": "That is a compelling argument."
+      },
+      {
+        "word": "Concise",
+        "translation": "Conciso",
+        "example": "Keep your answer concise."
+      },
+      {
+        "word": "Flawless",
+        "translation": "Impecable",
+        "example": "Her delivery was flawless."
+      },
+      {
+        "word": "Underlying",
+        "translation": "Subyacente",
+        "example": "The underlying issue is complex."
+      },
+      {
+        "word": "Command",
+        "translation": "Dominio",
+        "example": "He has full command of the language."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "The underlying issue is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is not to suggest that...",
+        "translation": "Respuesta guiada"
+      }
+    ],
+    "reading": {
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "questions": [
+        "What does mastery involve besides accuracy?",
+        "What must language adapt to?",
+        "Which word means dominio?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Nuance\"?",
+        "options": [
+          "Matiz",
+          "Convincente",
+          "Conciso",
+          "Impecable"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "speaking",
+        "prompt": "Lee en voz alta: The underlying issue is...",
+        "answer": "Oral practice"
+      }
+    ]
+  }
+];
 })();

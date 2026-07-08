@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node lib/server.js",
     "dev": "node lib/server.js",
+    "sync:worlds": "node scripts/sync-worlds-from-seed.js",
     "build": "node scripts/build-static.js",
     "test": "node --test server.test.js",
     "db:setup": "node scripts/setup-database.js",
