@@ -151,11 +151,16 @@ const goalOptions = {
 let activeGoal = 'daily';
 let currentProgress = 0;
 
+function gamificationKeyFor(user) {
+  return user?.id || user?.email || 'guest';
+}
+
 function saveSession(user, session) {
   authStatus.user = user || null;
   authStatus.session = session || null;
   renderAuthState();
   loadSavedGoal();
+  window.AndergoGamification?.load(gamificationKeyFor(authStatus.user));
   if (!session?.access_token) return;
   localStorage.setItem('andergoSession', JSON.stringify({ user, session }));
 }
@@ -172,6 +177,7 @@ function restoreSession() {
   }
   renderAuthState();
   loadSavedGoal();
+  window.AndergoGamification?.load(gamificationKeyFor(authStatus.user));
 }
 
 function getDisplayName() {
@@ -507,7 +513,7 @@ const levelContent = {
 
 const languageContent = {
   english: {
-    nav: ['Languages', 'Skills', 'Goals', 'Downloads', 'App'],
+    nav: ['Languages', 'Achievements', 'Skills', 'Goals', 'Downloads', 'App'],
     brandSubtitle: 'Learn with clear lessons and practical exercises.',
     heroBadge: 'Clear lessons and practical practice',
     heroTitle: 'Learn English and other languages with simple, step-by-step practice.',
@@ -530,7 +536,7 @@ const languageContent = {
     }
   },
   spanish: {
-    nav: ['Idiomas', 'Habilidades', 'Metas', 'Descargas', 'App'],
+    nav: ['Idiomas', 'Logros', 'Habilidades', 'Metas', 'Descargas', 'App'],
     brandSubtitle: 'Aprende con lecciones claras y ejercicios prácticos.',
     heroBadge: 'Lecciones guiadas y ejercicios prácticos',
     heroTitle: 'Aprende inglés y otros idiomas con ejercicios sencillos, claros y progresivos.',
@@ -553,7 +559,7 @@ const languageContent = {
     }
   },
   french: {
-    nav: ['Langues', 'Compétences', 'Objectifs', 'Téléchargements', 'App'],
+    nav: ['Langues', 'Réussites', 'Compétences', 'Objectifs', 'Téléchargements', 'App'],
     brandSubtitle: 'Apprenez n’importe quelle langue. Ouvrez votre monde.',
     heroBadge: 'Apprentissage des langues par IA',
     heroTitle: 'Maîtrisez n’importe quelle langue grâce à une intelligence artificielle pensée pour vous.',
@@ -576,7 +582,7 @@ const languageContent = {
     }
   },
   italian: {
-    nav: ['Lingue', 'Competenze', 'Obiettivi', 'Download', 'App'],
+    nav: ['Lingue', 'Traguardi', 'Competenze', 'Obiettivi', 'Download', 'App'],
     brandSubtitle: 'Impara qualsiasi lingua. Apri il tuo mondo.',
     heroBadge: 'Apprendimento linguistico con IA',
     heroTitle: 'Padroneggia qualsiasi lingua con un’intelligenza artificiale pensata per te.',
@@ -599,7 +605,7 @@ const languageContent = {
     }
   },
   german: {
-    nav: ['Sprachen', 'Fähigkeiten', 'Ziele', 'Downloads', 'App'],
+    nav: ['Sprachen', 'Erfolge', 'Fähigkeiten', 'Ziele', 'Downloads', 'App'],
     brandSubtitle: 'Lerne jede Sprache. Öffne deine Welt.',
     heroBadge: 'Sprachlernen mit KI',
     heroTitle: 'Meistere jede Sprache mit KI, die auf dich zugeschnitten ist.',
@@ -622,7 +628,7 @@ const languageContent = {
     }
   },
   ai: {
-    nav: ['Idiomas', 'Habilidades', 'Metas', 'Descargas', 'App'],
+    nav: ['Idiomas', 'Logros', 'Habilidades', 'Metas', 'Descargas', 'App'],
     brandSubtitle: 'Aprende cualquier idioma. Abre tu mundo.',
     heroBadge: 'Tutor de idiomas con IA',
     heroTitle: 'Aprende con un tutor impulsado por IA, adaptado a ti.',
@@ -738,6 +744,26 @@ nativeLanguageSelect?.addEventListener('change', event => {
   applyLanguageContent(currentTargetLanguage, currentNativeLanguage);
 });
 
+function renderMcqItem(question, index, languageKey) {
+  // Backward compatible: older content used plain strings with no options.
+  if (typeof question === 'string') {
+    return `<li><strong>${index + 1}.</strong> ${escapeHtml(question)}</li>`;
+  }
+
+  const options = question.options || [];
+  const optionsHtml = options.map((option, optionIndex) => `
+    <button type="button" class="mcq-option" data-option-index="${optionIndex}">${escapeHtml(option)}</button>
+  `).join('');
+
+  return `
+    <li class="mcq-question" data-answer-index="${question.answer}" data-language="${escapeHtml(languageKey || '')}">
+      <strong>${index + 1}.</strong> ${escapeHtml(question.q || '')}
+      <div class="mcq-options">${optionsHtml}</div>
+      <span class="mcq-feedback" aria-live="polite"></span>
+    </li>
+  `;
+}
+
 function updateLevelContent(panel, languageKey, level) {
   const content = levelContent[languageKey]?.[level];
   if (!content || !panel) return;
@@ -778,7 +804,7 @@ function updateLevelContent(panel, languageKey, level) {
   const levelList = panel.querySelector('.level-list');
   if (readingText) readingText.textContent = content.reading.text;
   if (mcqList) {
-    mcqList.innerHTML = content.reading.questions.map((question, index) => `<li><strong>${index + 1}.</strong> ${question}</li>`).join('');
+    mcqList.innerHTML = content.reading.questions.map((question, index) => renderMcqItem(question, index, languageKey)).join('');
   }
   if (levelList) {
     const levelItems = levelList.querySelectorAll('div');
@@ -966,6 +992,7 @@ async function logout() {
     renderAuthState();
     updateProgressDisplay();
     renderGoalState();
+    window.AndergoGamification?.load('guest');
   }
 }
 
@@ -1003,7 +1030,9 @@ function attachAuthHandlers() {
 
 const learningPathState = {
   lessons: [],
-  activeSlug: null
+  activeSlug: null,
+  language: 'english',
+  level: 'A1'
 };
 
 function escapeHtml(value = '') {
@@ -1041,6 +1070,28 @@ function renderLessonList() {
   });
 }
 
+function renderLessonExercise(item, index, lesson) {
+  if (item.type === 'mcq' && Array.isArray(item.options)) {
+    const optionsHtml = item.options.map((option, optionIndex) => `
+      <button type="button" class="mcq-option" data-option-index="${optionIndex}">${escapeHtml(option)}</button>
+    `).join('');
+    return `
+      <div class="mcq-question lesson-exercise" data-answer-index="${item.answer}" data-skill="${escapeHtml(lesson.skill || '')}" data-language="${escapeHtml(learningPathState.language)}">
+        <strong>${index + 1}. ${escapeHtml(item.prompt)}</strong>
+        <div class="mcq-options">${optionsHtml}</div>
+        <span class="mcq-feedback" aria-live="polite"></span>
+      </div>
+    `;
+  }
+
+  return `
+    <div class="lesson-exercise open-exercise" data-skill="${escapeHtml(lesson.skill || item.type || '')}" data-language="${escapeHtml(learningPathState.language)}">
+      <strong>${index + 1}. ${escapeHtml(item.prompt)}</strong>
+      <button type="button" class="practice-mark-btn">Marcar como practicado</button>
+    </div>
+  `;
+}
+
 function renderLessonWorkspace() {
   const workspace = document.getElementById('lessonWorkspace');
   if (!workspace) return;
@@ -1068,12 +1119,7 @@ function renderLessonWorkspace() {
       <span>Desbloquea esta lección y la ruta completa con el único plan: USD ${premiumPriceUsd}.</span>
       <button type="button" class="primary-btn upgrade-btn">Desbloquear por USD ${premiumPriceUsd}</button>
     </div>
-  ` : (lesson.exercises?.slice(0, 3).map((item, index) => `
-    <div>
-      <strong>${index + 1}. ${escapeHtml(item.prompt)}</strong>
-      <span>${item.options ? escapeHtml(item.options.join(' / ')) : escapeHtml(item.answer || '')}</span>
-    </div>
-  `).join('') || '');
+  ` : (lesson.exercises?.slice(0, 4).map((item, index) => renderLessonExercise(item, index, lesson)).join('') || '');
 
   workspace.querySelector('.lesson-kicker').textContent = `${lesson.level} · ${lesson.skill}`;
   workspace.querySelector('h3').textContent = lesson.title;
@@ -1095,19 +1141,43 @@ function renderLearningPath() {
   renderLessonWorkspace();
 }
 
-async function loadLearningPath() {
+function getLocalFallbackLessons(language, level) {
+  const lessons = window.ANDERGO_LANGUAGE_WORLDS?.lessons?.[language] || [];
+  return lessons
+    .filter(lesson => lesson.level === level)
+    .map(lesson => ({
+      ...lesson,
+      isFree: lesson.accessTier ? lesson.accessTier !== 'premium' : lesson.isFree !== false,
+      locked: (lesson.accessTier === 'premium' || lesson.isFree === false) && !lesson.completed,
+      completed: Boolean(lesson.completed)
+    }));
+}
+
+async function loadLearningPath(options = {}) {
+  learningPathState.language = options.language || learningPathState.language;
+  learningPathState.level = options.level || learningPathState.level;
+
+  const list = document.getElementById('lessonList');
+  if (list) {
+    list.innerHTML = '<article class="lesson-item active"><span>Cargando</span><h3>Preparando tu ruta...</h3><p>Un momento por favor.</p></article>';
+  }
+
   try {
-    const response = await fetch(`${backendBaseUrl}/api/lessons?level=A1`, {
+    const params = new URLSearchParams({ level: learningPathState.level, language: learningPathState.language });
+    const response = await fetch(`${backendBaseUrl}/api/lessons?${params.toString()}`, {
       headers: authHeaders()
     });
     const data = await response.json().catch(() => ({}));
     if (!response.ok) throw new Error(data.error || 'Could not load lessons');
 
-    learningPathState.lessons = data.lessons || [];
-    learningPathState.activeSlug = learningPathState.activeSlug || learningPathState.lessons[0]?.slug || null;
+    learningPathState.lessons = data.lessons?.length ? data.lessons : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
+    learningPathState.activeSlug = learningPathState.lessons[0]?.slug || null;
     renderLearningPath();
   } catch (error) {
-    console.warn('Could not load learning path', error);
+    console.warn('Could not load learning path from backend, using local content', error);
+    learningPathState.lessons = getLocalFallbackLessons(learningPathState.language, learningPathState.level);
+    learningPathState.activeSlug = learningPathState.lessons[0]?.slug || null;
+    renderLearningPath();
   }
 }
 
@@ -1149,7 +1219,25 @@ async function completeActiveLesson() {
     activeLesson.completed = true;
     updateProgressDisplay(data, true);
     renderLearningPath();
-    showHomeToast('Lección completada. Progreso actualizado.');
+
+    const gamResult = window.AndergoGamification?.recordLessonCompletion({
+      slug: activeLesson.slug,
+      language: learningPathState.language,
+      score: 100,
+      xpReward: activeLesson.xpReward || 20
+    });
+    window.AndergoGamification?.syncFromServer(data);
+
+    if (data.newBadges?.length) {
+      data.newBadges.forEach(badge => showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`));
+    } else if (gamResult?.newBadges?.length) {
+      gamResult.newBadges.forEach(badge => showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`));
+    }
+    if (data.leveledUp) {
+      showCelebration(`🎉 ¡Subiste a nivel ${data.level}!`);
+    }
+
+    showHomeToast(`Lección completada. +${data.earnedXp || activeLesson.xpReward || 20} XP`);
   } catch (error) {
     console.error('Could not complete lesson', error);
     showHomeToast(error.message || 'No se pudo completar la lección.');
@@ -1276,6 +1364,21 @@ function showHomeToast(message = '') {
   }, 2600);
 }
 
+function showCelebration(message = '') {
+  const celebration = document.createElement('div');
+  celebration.className = 'celebration-toast';
+  celebration.setAttribute('role', 'status');
+  celebration.setAttribute('aria-live', 'assertive');
+  celebration.textContent = message;
+  document.body.appendChild(celebration);
+
+  window.requestAnimationFrame(() => celebration.classList.add('is-visible'));
+  window.setTimeout(() => {
+    celebration.classList.remove('is-visible');
+    window.setTimeout(() => celebration.remove(), 400);
+  }, 3200);
+}
+
 function revealSection(sectionOrSelector, options = {}) {
   const section = typeof sectionOrSelector === 'string'
     ? document.querySelector(sectionOrSelector)
@@ -1355,6 +1458,47 @@ function enableHomepageActions() {
       group?.querySelectorAll('.predictive-suggestion').forEach(item => item.classList.remove('selected'));
       suggestion.classList.add('selected');
       showHomeToast(`Seleccionado: ${suggestion.textContent.trim()}`);
+      const skillPanel = suggestion.closest('.skill-panel');
+      window.AndergoGamification?.recordSkillTouched(skillPanel?.dataset.skill, currentTargetLanguage);
+      return;
+    }
+
+    const mcqOption = event.target.closest('.mcq-option');
+    if (mcqOption) {
+      const questionItem = mcqOption.closest('.mcq-question');
+      if (!questionItem || questionItem.classList.contains('answered')) return;
+
+      const answerIndex = Number(questionItem.dataset.answerIndex);
+      const chosenIndex = Number(mcqOption.dataset.optionIndex);
+      const isCorrect = chosenIndex === answerIndex;
+      const feedback = questionItem.querySelector('.mcq-feedback');
+
+      questionItem.querySelectorAll('.mcq-option').forEach((option, index) => {
+        option.disabled = true;
+        if (index === answerIndex) option.classList.add('correct');
+        if (index === chosenIndex && !isCorrect) option.classList.add('incorrect');
+      });
+      questionItem.classList.add('answered', isCorrect ? 'is-correct' : 'is-incorrect');
+
+      if (feedback) {
+        feedback.textContent = isCorrect ? '¡Correcto! +5 XP' : 'No es correcto, pero sigue intentando.';
+      }
+
+      if (isCorrect) {
+        window.AndergoGamification?.recordCorrectAnswer();
+        window.AndergoGamification?.recordSkillTouched('reading', questionItem.dataset.language || currentTargetLanguage);
+      }
+      return;
+    }
+
+    const practiceButton = event.target.closest('.practice-mark-btn');
+    if (practiceButton) {
+      const exerciseBlock = practiceButton.closest('.open-exercise');
+      if (practiceButton.disabled) return;
+      practiceButton.disabled = true;
+      practiceButton.textContent = '✅ Practicado';
+      window.AndergoGamification?.recordCorrectAnswer();
+      window.AndergoGamification?.recordSkillTouched(exerciseBlock?.dataset.skill, exerciseBlock?.dataset.language || currentTargetLanguage);
       return;
     }
 
@@ -1375,7 +1519,20 @@ function enableHomepageActions() {
   }
 }
 
+function setupLearningPathControls() {
+  const languageSelect = document.getElementById('pathLanguageSelect');
+  const levelSelect = document.getElementById('pathLevelSelect');
+
+  languageSelect?.addEventListener('change', () => {
+    loadLearningPath({ language: languageSelect.value, level: levelSelect?.value || learningPathState.level });
+  });
+  levelSelect?.addEventListener('change', () => {
+    loadLearningPath({ language: languageSelect?.value || learningPathState.language, level: levelSelect.value });
+  });
+}
+
 enableHomepageActions();
 loadProgress();
+setupLearningPathControls();
 loadLearningPath();
 document.querySelector('.lesson-complete-btn')?.addEventListener('click', completeActiveLesson);

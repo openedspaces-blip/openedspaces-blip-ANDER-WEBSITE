@@ -1,61 +1,75 @@
+#!/usr/bin/env node
+// scripts/setup-database.js
+// Runs the SQL schema/migrations against the database at SUPABASE_DATABASE_URL.
+// Usage: npm run db:setup
+//
+// Order of execution:
+//   1. SUPABASE_RUN_THIS.sql (repo root)   - base schema (lessons, profiles, billing, etc.)
+//   2. supabase/migrations/*.sql, sorted   - incremental migrations (e.g. gamification columns)
+//
+// This is intentionally simple: each file is sent to Postgres as one batch via
+// the simple query protocol, which correctly handles multi-statement SQL and
+// dollar-quoted function bodies (unlike naively splitting on semicolons).
+require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
-const dotenv = require('dotenv');
 const { Client } = require('pg');
 
-dotenv.config({ path: path.resolve(__dirname, '..', '.env') });
+const ROOT = path.join(__dirname, '..');
 
-function readSqlFile(filePath) {
-  return fs.readFileSync(filePath, 'utf8').trim();
+function collectSqlFiles() {
+  const files = [];
+
+  const rootSchema = path.join(ROOT, 'SUPABASE_RUN_THIS.sql');
+  if (fs.existsSync(rootSchema)) files.push(rootSchema);
+
+  const migrationsDir = path.join(ROOT, 'supabase', 'migrations');
+  if (fs.existsSync(migrationsDir)) {
+    const migrationFiles = fs.readdirSync(migrationsDir)
+      .filter((name) => name.endsWith('.sql'))
+      .sort()
+      .map((name) => path.join(migrationsDir, name));
+    files.push(...migrationFiles);
+  }
+
+  return files;
 }
 
 async function main() {
-  const databaseUrl = process.env.SUPABASE_DATABASE_URL;
-
-  if (!databaseUrl || /placeholder|example|\[password\]|\[project-ref\]/i.test(databaseUrl)) {
-    console.error('SUPABASE_DATABASE_URL is required to run database setup.');
-    console.error('Add it to .env locally, or run SUPABASE_RUN_THIS.sql manually in the Supabase SQL editor.');
-    process.exitCode = 1;
-    return;
+  const connectionString = process.env.SUPABASE_DATABASE_URL;
+  if (!connectionString) {
+    console.error('SUPABASE_DATABASE_URL is not set. Add it to your .env file (see .env.example) and try again.');
+    process.exit(1);
   }
 
-  const migrationsDir = path.resolve(__dirname, '..', 'supabase', 'migrations');
-
-  if (!fs.existsSync(migrationsDir)) {
-    throw new Error(`Migrations folder not found: ${migrationsDir}`);
+  const files = collectSqlFiles();
+  if (!files.length) {
+    console.error('No SQL files found (expected SUPABASE_RUN_THIS.sql and/or supabase/migrations/*.sql).');
+    process.exit(1);
   }
 
-  const migrationFiles = fs
-    .readdirSync(migrationsDir)
-    .filter((file) => file.endsWith('.sql'))
-    .sort();
-
-  if (migrationFiles.length === 0) {
-    throw new Error(`No SQL migrations found in ${migrationsDir}`);
-  }
-
-  const sql = migrationFiles
-    .map((file) => {
-      const filePath = path.join(migrationsDir, file);
-      return `\n-- =========================================================\n-- ${file}\n-- =========================================================\n${readSqlFile(filePath)}\n`;
-    })
-    .join('\n');
-
-  const client = new Client({
-    connectionString: databaseUrl,
-    ssl: { rejectUnauthorized: false }
-  });
+  const client = new Client({ connectionString, ssl: { rejectUnauthorized: false } });
+  await client.connect();
+  console.log(`Connected. Running ${files.length} SQL file(s)...`);
 
   try {
-    await client.connect();
-    await client.query(sql);
-    console.log(`Supabase schema applied successfully from ${migrationFiles.length} migrations.`);
+    for (const file of files) {
+      const label = path.relative(ROOT, file);
+      process.stdout.write(`  -> ${label} ... `);
+      const sql = fs.readFileSync(file, 'utf8');
+      await client.query(sql);
+      console.log('done');
+    }
+    console.log('Database setup complete.');
+  } catch (error) {
+    console.error('\nSQL execution failed:', error.message);
+    process.exitCode = 1;
   } finally {
     await client.end();
   }
 }
 
 main().catch((error) => {
-  console.error('Database setup failed:', error.message);
-  process.exitCode = 1;
+  console.error('Unexpected error while setting up the database:', error);
+  process.exit(1);
 });

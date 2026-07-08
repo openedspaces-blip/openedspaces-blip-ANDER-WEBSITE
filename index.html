@@ -29,6 +29,7 @@
 
     <nav class="menu" id="siteMenu">
       <a href="#languages">Idiomas</a>
+      <a href="#achievements">Logros</a>
       <a href="#skills">Habilidades</a>
       <a href="#goals">Metas</a>
       <a href="#pricing">Precio</a>
@@ -75,6 +76,18 @@
           <p class="student-greeting">Inicia sesión para personalizar tu ruta.</p>
           <div class="progress-circle">0%</div>
 
+          <div class="gamification-strip">
+            <div class="level-chip">Nv. 1</div>
+            <div class="xp-bar" title="Experiencia">
+              <div class="xp-bar-fill" style="width: 4%;"></div>
+            </div>
+            <div class="streak-pill">
+              <span class="streak-flame-icon">🔥</span>
+              <span class="streak-flame-count">0</span>
+            </div>
+          </div>
+          <p class="xp-bar-label">Nivel 1 · 0 XP</p>
+
           <div class="progress-summary">
             <p>Progreso del curso</p>
             <div class="progress-bar">
@@ -101,9 +114,31 @@
 
     <section id="learning-path" class="section learning-path-section compact-hidden-section" aria-label="Ruta de lecciones">
       <div class="section-heading">
-        <span>Ruta A1</span>
+        <span>Ruta de lecciones</span>
         <h2>Empieza con lecciones cortas y medibles.</h2>
         <p>Practica vocabulario, diálogos y ejercicios de comprensión en una secuencia clara.</p>
+      </div>
+
+      <div class="path-controls">
+        <label>Idioma
+          <select id="pathLanguageSelect">
+            <option value="english">🇺🇸 English</option>
+            <option value="spanish">🇪🇸 Español</option>
+            <option value="french">🇫🇷 Français</option>
+            <option value="italian">🇮🇹 Italiano</option>
+            <option value="german">🇩🇪 Deutsch</option>
+          </select>
+        </label>
+        <label>Nivel
+          <select id="pathLevelSelect">
+            <option value="A1">A1</option>
+            <option value="A2">A2</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+            <option value="C1">C1</option>
+            <option value="C2">C2</option>
+          </select>
+        </label>
       </div>
 
       <div class="learning-path-layout">
@@ -136,6 +171,26 @@
           </div>
           <div class="lesson-exercises"></div>
         </article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section achievements-section">
+      <div class="section-heading">
+        <span>Logros</span>
+        <h2>Tu progreso, en insignias y misiones diarias.</h2>
+        <p>Gana XP, mantén tu racha y desbloquea insignias mientras avanzas por cada mundo de idioma.</p>
+      </div>
+
+      <div class="achievements-layout">
+        <div class="missions-panel">
+          <h3>Misiones de hoy</h3>
+          <ul class="mission-list" aria-live="polite"></ul>
+        </div>
+
+        <div class="badges-panel">
+          <h3>Insignias</h3>
+          <div class="badges-grid" aria-live="polite"></div>
+        </div>
       </div>
     </section>
 
@@ -594,14 +649,13 @@
                 </div>
 
                 <h5>Ejemplo de lectura A2</h5>
-                <p class="reading-text">Marta e Luca preparano una cena semplice. Comprano pane e verdure fresche. Parlano del loro lavoro e ridono insieme. Dopo la cena, leggono un libro sul divano.</p>
+                <p class="reading-text">Camille prépare un dîner simple. Elle achète du pain, du fromage et des légumes. Après le repas, ses amis regardent un film court.</p>
                 <ol class="mcq-list">
-                  <li><strong>1.</strong> ¿Qué preparan Marta y Luca?<br>A) Una fiesta.<br>B) Una cena simple.<br>C) Un viaje.<br>D) Una boda.</li>
-                  <li><strong>2.</strong> ¿Qué compran?<br>A) Ropa.<br>B) Verdure e pane.<br>C) Libros.<br>D) Juguetes.</li>
-                  <li><strong>3.</strong> ¿De qué hablan?<br>A) Del tiempo.<br>B) De su trabajo.<br>C) De la música.<br>D) Del deporte.</li>
-                  <li><strong>4.</strong> ¿Qué hacen después de cenar?<br>A) Van a dormir.<br>B) Juegan fútbol.<br>C) Leen un libro.<br>D) Cantan una canción.</li>
-                  <li><strong>5.</strong> ¿Cómo es la cena?<br>A) Simple.<br>B) Cara.<br>C) Muy grande.<br>D) Rápida.</li>
+                  <li><strong>1.</strong> ¿Qué prepara Camille?<br>A) Una fiesta.<br>B) Una cena simple.<br>C) Un viaje.<br>D) Una boda.</li>
+                  <li><strong>2.</strong> ¿Qué compra?<br>A) Ropa.<br>B) Pan y queso.<br>C) Libros.<br>D) Juguetes.</li>
+                  <li><strong>3.</strong> ¿Qué hacen sus amigos después de comer?<br>A) Bailan.<br>B) Ven una película corta.<br>C) Duermen.<br>D) Cocinan.</li>
                 </ol>
+              </div>
               </div>
             </article>
           </div>
@@ -1202,6 +1256,7 @@
     <script src="worlds/french/content.js"></script>
     <script src="worlds/italian/content.js"></script>
     <script src="worlds/german/content.js"></script>
+    <script src="gamification.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

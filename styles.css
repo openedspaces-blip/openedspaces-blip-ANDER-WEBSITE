@@ -1710,3 +1710,346 @@ footer small {
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================================================
+   Gamification: XP bar, level chip, streak flame, badges, missions, MCQ,
+   celebrations. Added as part of the gamification engine pass.
+   ========================================================================== */
+
+.gamification-strip {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0.75rem 0 0.35rem;
+}
+
+.level-chip {
+  flex-shrink: 0;
+  background: linear-gradient(135deg, var(--blue), var(--purple));
+  color: var(--white);
+  font-weight: 800;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.xp-bar {
+  flex: 1;
+  height: 10px;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.xp-bar-fill {
+  height: 100%;
+  width: 4%;
+  background: linear-gradient(90deg, var(--cyan), var(--blue));
+  border-radius: 999px;
+  transition: width 400ms ease;
+}
+
+.xp-bar-label {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+.streak-pill {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: rgba(249, 115, 22, 0.12);
+  color: #c2410c;
+  font-weight: 800;
+  font-size: 0.85rem;
+  padding: 0.28rem 0.6rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+/* Achievements section */
+.achievements-section {
+  background: var(--light);
+}
+
+.achievements-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .achievements-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.missions-panel,
+.badges-panel {
+  background: var(--surface);
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.missions-panel h3,
+.badges-panel h3 {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.mission-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.mission-item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 0.65rem 0.85rem;
+}
+
+.mission-item.done {
+  opacity: 0.65;
+}
+
+.mission-copy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.mission-copy strong {
+  font-size: 0.85rem;
+}
+
+.mission-progress-bar {
+  height: 6px;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.mission-progress-bar div {
+  height: 100%;
+  background: linear-gradient(90deg, var(--green), var(--cyan));
+  border-radius: 999px;
+  transition: width 300ms ease;
+}
+
+.mission-xp {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--blue);
+  white-space: nowrap;
+}
+
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.75rem;
+}
+
+.badge-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.3rem;
+  background: var(--bg);
+  border-radius: 16px;
+  padding: 1rem 0.6rem;
+  border: 1px solid var(--line);
+}
+
+.badge-card.locked {
+  opacity: 0.5;
+  filter: grayscale(1);
+}
+
+.badge-card.unlocked {
+  border-color: var(--cyan);
+  box-shadow: 0 8px 20px rgba(0, 194, 255, 0.15);
+}
+
+.badge-card-icon {
+  font-size: 1.6rem;
+}
+
+.badge-card strong {
+  font-size: 0.8rem;
+}
+
+.badge-card span {
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+/* Learning path language/level controls */
+.path-controls {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.path-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.path-controls select {
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  font-weight: 600;
+  color: var(--navy-2);
+}
+
+/* Interactive multiple-choice questions (reading comprehension + lesson exercises) */
+.mcq-question {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.85rem 0;
+}
+
+.mcq-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.mcq-option {
+  border: 1px solid var(--line);
+  background: var(--white);
+  border-radius: 10px;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--navy-2);
+  cursor: pointer;
+  transition: background 150ms ease, border-color 150ms ease, transform 150ms ease;
+}
+
+.mcq-option:hover:not(:disabled) {
+  border-color: var(--blue);
+  transform: translateY(-1px);
+}
+
+.mcq-option:disabled {
+  cursor: default;
+}
+
+.mcq-option.correct {
+  background: rgba(34, 197, 94, 0.15);
+  border-color: var(--green);
+  color: #15803d;
+}
+
+.mcq-option.incorrect {
+  background: rgba(220, 38, 38, 0.12);
+  border-color: #dc2626;
+  color: #b91c1c;
+}
+
+.mcq-feedback {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.mcq-question.is-correct .mcq-feedback {
+  color: #15803d;
+}
+
+.mcq-question.is-incorrect .mcq-feedback {
+  color: #b91c1c;
+}
+
+.lesson-exercise {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.lesson-exercise:last-child {
+  border-bottom: none;
+}
+
+.open-exercise {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.practice-mark-btn {
+  flex-shrink: 0;
+  border: 1px solid var(--blue);
+  background: var(--accent-soft);
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 0.78rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.practice-mark-btn:disabled {
+  border-color: var(--green);
+  color: #15803d;
+  background: rgba(34, 197, 94, 0.12);
+  cursor: default;
+}
+
+/* Celebration toast for level-ups and badge unlocks */
+.celebration-toast {
+  position: fixed;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -12px) scale(0.94);
+  background: linear-gradient(135deg, var(--purple), var(--blue));
+  color: var(--white);
+  padding: 1rem 1.75rem;
+  border-radius: 18px;
+  font-weight: 800;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 0 24px 60px rgba(37, 99, 235, 0.35);
+  z-index: 80;
+  opacity: 0;
+  transition: opacity 250ms ease, transform 250ms ease;
+  pointer-events: none;
+}
+
+.celebration-toast.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0) scale(1);
+}
+
+@media (max-width: 780px) {
+  .achievements-layout {
+    gap: 1rem;
+  }
+
+  .gamification-strip {
+    flex-wrap: wrap;
+  }
+}

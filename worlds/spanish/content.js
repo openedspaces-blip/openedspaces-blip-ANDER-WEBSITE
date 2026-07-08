@@ -1,1418 +1,572 @@
-window.ANDERGO_LANGUAGE_WORLDS = window.ANDERGO_LANGUAGE_WORLDS || { levelContent: {}, languageContent: {} };
-Object.assign(window.ANDERGO_LANGUAGE_WORLDS.levelContent, {
-  "spanish": {
-    "A1": {
-      "theme": "Foundation: greetings, identity, classroom language, family, and everyday survival phrases",
-      "levelGoal": "Introduce yourself, understand basic classroom instructions, and produce short sentences about personal information, family, school, routines, and preferences.",
-      "skills": {
-        "listening": {
-          "title": "Listening",
-          "text": "A1 Listening: Spanish practice focused on basic phrases, greetings, classroom language, personal information, and initial comprehension. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The speaker is talking about...",
-            "The main idea is...",
-            "The key detail I heard was...",
-            "The speaker wants to...",
-            "Could you repeat that, please?"
-          ],
-          "lessonSteps": [
-            "Pre-listening: preview the topic and key vocabulary.",
-            "First listening: identify the general idea.",
-            "Second listening: capture specific details and useful phrases.",
-            "Post-listening: answer comprehension questions and summarize the audio.",
-            "Extension: use one phrase from the audio in a new personal sentence."
-          ],
-          "practiceProduct": "Audio comprehension card with main idea, details, useful vocabulary, and a personal response.",
-          "assessment": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level."
-        },
-        "speaking": {
-          "title": "Speaking",
-          "text": "A1 Speaking: Spanish practice focused on basic phrases, greetings, classroom language, personal information, and initial comprehension. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "In my opinion...",
-            "I would like to explain...",
-            "A good example is...",
-            "I agree because...",
-            "Could you clarify the question?"
-          ],
-          "lessonSteps": [
-            "Warm-up: repeat model phrases and pronunciation patterns.",
-            "Guided production: answer controlled questions using target structures.",
-            "Interaction: practice a short dialogue, role-play, or discussion.",
-            "Independent production: record or present a short response.",
-            "Reflection: identify one strength and one area to improve."
-          ],
-          "practiceProduct": "Short oral response, role-play, dialogue, discussion, or mini-presentation according to the level.",
-          "assessment": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency."
-        },
-        "reading": {
-          "title": "Reading",
-          "text": "A1 Reading: Spanish practice focused on basic phrases, greetings, classroom language, personal information, and initial comprehension. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The text is mainly about...",
-            "According to the text...",
-            "One important detail is...",
-            "The author suggests that...",
-            "This word probably means..."
-          ],
-          "lessonSteps": [
-            "Before reading: predict the topic from title and keywords.",
-            "First reading: identify the main idea.",
-            "Second reading: underline supporting details and useful phrases.",
-            "Comprehension: answer literal and inferential questions.",
-            "Extension: connect the text to a real-life situation."
-          ],
-          "practiceProduct": "Reading response with main idea, supporting evidence, vocabulary use, and personal or critical reflection.",
-          "assessment": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level."
-        },
-        "writing": {
-          "title": "Writing",
-          "text": "A1 Writing: Spanish practice focused on basic phrases, greetings, classroom language, personal information, and initial comprehension. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "First, I want to describe...",
-            "Another important point is...",
-            "For example...",
-            "However...",
-            "To conclude..."
-          ],
-          "lessonSteps": [
-            "Planning: define purpose, audience, vocabulary, and structure.",
-            "Drafting: write using a model and level-appropriate grammar.",
-            "Revision: check clarity, grammar, vocabulary, punctuation, and connectors.",
-            "Final version: improve the text and prepare it for submission.",
-            "Reflection: explain what improved from the first draft to the final version."
-          ],
-          "practiceProduct": "Written sentence set, paragraph, message, email, review, report, essay, or persuasive text according to the level.",
-          "assessment": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-        }
+// worlds/spanish/content.js
+// Mundo de español: contenido completo A1–C2 para las 6 habilidades.
+(function () {
+  window.ANDERGO_LANGUAGE_WORLDS = window.ANDERGO_LANGUAGE_WORLDS || { levelContent: {}, languageContent: {}, lessons: {} };
+
+  window.ANDERGO_LANGUAGE_WORLDS.levelContent.spanish = {
+    A1: {
+      skills: {
+        listening: { title: 'Listening', text: 'Diálogos breves de la vida cotidiana con pausas claras y frases simples.', suggestions: ['Voy a la...', 'Ella tiene que...', 'Nos vemos en...'] },
+        speaking: { title: 'Speaking', text: 'Práctica oral sencilla con frases útiles para conversaciones diarias.', suggestions: ['Me gustaría...', '¿Puedes ayudarme con...', 'Estoy buscando un...'] },
+        writing: { title: 'Writing', text: 'Pequeñas redacciones guiadas con frases de inicio.', suggestions: ['Estimado/a...', 'En mi opinión...', 'El fin de semana pasado...'] }
       },
-      "vocab": [
-        [
-          "hola",
-          "hello"
-        ],
-        [
-          "buenos días",
-          "good morning"
-        ],
-        [
-          "nombre",
-          "name"
-        ],
-        [
-          "apellido",
-          "last name"
-        ],
-        [
-          "país",
-          "country"
-        ],
-        [
-          "nacionalidad",
-          "nationality"
-        ],
-        [
-          "edad",
-          "age"
-        ],
-        [
-          "compañero",
-          "classmate"
-        ],
-        [
-          "maestro",
-          "teacher"
-        ],
-        [
-          "cuaderno",
-          "notebook"
-        ],
-        [
-          "familia",
-          "family"
-        ],
-        [
-          "rutina diaria",
-          "daily routine"
-        ],
-        [
-          "favorito",
-          "favorite"
-        ],
-        [
-          "dirección",
-          "address"
-        ],
-        [
-          "pregunta",
-          "question"
-        ],
-        [
-          "respuesta",
-          "answer"
-        ]
-      ],
-      "grammar": [
-        [
-          "Ser and estar",
-          "Use ser for identity and essential characteristics; use estar for location and temporary states."
-        ],
-        [
-          "Personal pronouns",
-          "Use yo, tú, él, ella, nosotros, ustedes, and ellos."
-        ],
-        [
-          "Articles",
-          "Use el, la, los, las, un, and una correctly."
-        ],
-        [
-          "Gender and number",
-          "Match nouns, adjectives, and articles."
-        ],
-        [
-          "Present tense basics",
-          "Use verbs like vivir, estudiar, trabajar, and gustar."
-        ],
-        [
-          "Hay",
-          "Describe people, objects, and places."
-        ],
-        [
-          "Possessives",
-          "Use mi, tu, su, nuestro, and their plural forms."
-        ],
-        [
-          "Question words",
-          "Use qué, quién, dónde, cuándo, cómo, and por qué."
-        ]
-      ],
-      "communicativeFunctions": [
-        "Ask for and give information.",
-        "Express needs, opinions, reasons, and preferences.",
-        "Understand main ideas and important details.",
-        "Use vocabulary in realistic situations.",
-        "Interact with others using appropriate language.",
-        "Reflect on progress and set a next learning goal."
-      ],
-      "learningOutcomes": [
-        "Recognize and use level-appropriate vocabulary.",
-        "Apply grammar structures in meaningful communication.",
-        "Understand spoken and written texts according to the level.",
-        "Produce spoken and written responses with increasing independence.",
-        "Connect language learning to real academic, personal, and professional situations."
-      ],
-      "assessment": {
-        "listening": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level.",
-        "speaking": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency.",
-        "reading": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level.",
-        "writing": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-      },
-      "tasks": [
-        "Listen and identify basic words.",
-        "Introduce yourself in four short sentences.",
-        "Read a short profile and complete missing information.",
-        "Write five sentences about your family or class.",
-        "Complete a mini-dialogue using greetings and classroom phrases."
-      ],
-      "reading": {
-        "title": "Reading A1 · Spanish",
-        "text": "Me llamo Ana. Tengo doce años y estudio español en la escuela. Cada mañana saludo a mi maestra y escribo palabras nuevas en mi cuaderno. Mis palabras favoritas son familia, escuela y amigo. Practico español porque quiero comunicarme mejor con otras personas.",
-        "questions": [
-          "What is the main idea of the text?",
-          "Name two important words from the text.",
-          "Who is the main person in the text?",
-          "Why is the person learning the language?",
-          "Write one short sentence about yourself."
+      vocab: [['Hola', 'Hello'], ['Familia', 'Family'], ['Mañana', 'Morning'], ['Viajar', 'Travel'], ['Ayuda', 'Help'], ['Amigo', 'Friend']],
+      grammar: [['A1', 'Presente, artículos y pronombres básicos.'], ['A2', 'Pasado simple y adverbios de frecuencia.']],
+      reading: {
+        title: 'Ejemplo de lectura A1',
+        text: 'Sara visita un museo pequeño en su ciudad cada sábado. Lee las etiquetas y escucha al guía. Le gusta escribir una nota corta sobre su objeto favorito.',
+        questions: [
+          { q: 'What does Sara do at the museum?', options: ['She cooks', 'She reads the labels', 'She buys books', 'She plays music'], answer: 1 },
+          { q: 'How often does she visit?', options: ['Every day', 'Every Saturday', 'Once a year', 'Never'], answer: 1 },
+          { q: 'What does she write?', options: ['A shopping list', 'A note about her favorite object', 'A letter', 'A recipe'], answer: 1 }
         ]
       }
     },
-    "A2": {
-      "theme": "Everyday communication: routines, places, shopping, food, directions, and simple past events",
-      "levelGoal": "Communicate in common everyday situations, describe routines, talk about simple experiences, shop, order food, ask for directions, and narrate short past events.",
-      "skills": {
-        "listening": {
-          "title": "Listening",
-          "text": "A2 Listening: Spanish practice focused on daily routines, shopping, places, directions, food, weather, plans, and simple past experiences. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The speaker is talking about...",
-            "The main idea is...",
-            "The key detail I heard was...",
-            "The speaker wants to...",
-            "Could you repeat that, please?"
-          ],
-          "lessonSteps": [
-            "Pre-listening: preview the topic and key vocabulary.",
-            "First listening: identify the general idea.",
-            "Second listening: capture specific details and useful phrases.",
-            "Post-listening: answer comprehension questions and summarize the audio.",
-            "Extension: use one phrase from the audio in a new personal sentence."
-          ],
-          "practiceProduct": "Audio comprehension card with main idea, details, useful vocabulary, and a personal response.",
-          "assessment": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level."
-        },
-        "speaking": {
-          "title": "Speaking",
-          "text": "A2 Speaking: Spanish practice focused on daily routines, shopping, places, directions, food, weather, plans, and simple past experiences. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "In my opinion...",
-            "I would like to explain...",
-            "A good example is...",
-            "I agree because...",
-            "Could you clarify the question?"
-          ],
-          "lessonSteps": [
-            "Warm-up: repeat model phrases and pronunciation patterns.",
-            "Guided production: answer controlled questions using target structures.",
-            "Interaction: practice a short dialogue, role-play, or discussion.",
-            "Independent production: record or present a short response.",
-            "Reflection: identify one strength and one area to improve."
-          ],
-          "practiceProduct": "Short oral response, role-play, dialogue, discussion, or mini-presentation according to the level.",
-          "assessment": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency."
-        },
-        "reading": {
-          "title": "Reading",
-          "text": "A2 Reading: Spanish practice focused on daily routines, shopping, places, directions, food, weather, plans, and simple past experiences. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The text is mainly about...",
-            "According to the text...",
-            "One important detail is...",
-            "The author suggests that...",
-            "This word probably means..."
-          ],
-          "lessonSteps": [
-            "Before reading: predict the topic from title and keywords.",
-            "First reading: identify the main idea.",
-            "Second reading: underline supporting details and useful phrases.",
-            "Comprehension: answer literal and inferential questions.",
-            "Extension: connect the text to a real-life situation."
-          ],
-          "practiceProduct": "Reading response with main idea, supporting evidence, vocabulary use, and personal or critical reflection.",
-          "assessment": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level."
-        },
-        "writing": {
-          "title": "Writing",
-          "text": "A2 Writing: Spanish practice focused on daily routines, shopping, places, directions, food, weather, plans, and simple past experiences. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "First, I want to describe...",
-            "Another important point is...",
-            "For example...",
-            "However...",
-            "To conclude..."
-          ],
-          "lessonSteps": [
-            "Planning: define purpose, audience, vocabulary, and structure.",
-            "Drafting: write using a model and level-appropriate grammar.",
-            "Revision: check clarity, grammar, vocabulary, punctuation, and connectors.",
-            "Final version: improve the text and prepare it for submission.",
-            "Reflection: explain what improved from the first draft to the final version."
-          ],
-          "practiceProduct": "Written sentence set, paragraph, message, email, review, report, essay, or persuasive text according to the level.",
-          "assessment": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-        }
+    A2: {
+      skills: {
+        listening: { title: 'Listening', text: 'Práctica de escucha con vocabulario común y estructuras breves.', suggestions: ['Suelo despertarme a las...', 'El tiempo está...', 'Necesitamos comprar...'] },
+        speaking: { title: 'Speaking', text: 'Conversaciones básicas para hablar de rutinas y planes.', suggestions: ['Normalmente...', 'La semana que viene quiero...', 'Es importante...'] },
+        writing: { title: 'Writing', text: 'Mensajes cortos y descripciones personales.', suggestions: ['El fin de semana pasado...', 'Mi lugar favorito es...', 'Me gusta...'] }
       },
-      "vocab": [
-        [
-          "cita",
-          "appointment"
-        ],
-        [
-          "mercado",
-          "market"
-        ],
-        [
-          "precio",
-          "price"
-        ],
-        [
-          "recibo",
-          "receipt"
-        ],
-        [
-          "efectivo",
-          "cash"
-        ],
-        [
-          "tarjeta",
-          "card"
-        ],
-        [
-          "parada",
-          "bus stop"
-        ],
-        [
-          "esquina",
-          "corner"
-        ],
-        [
-          "siga derecho",
-          "go straight"
-        ],
-        [
-          "doble a la izquierda",
-          "turn left"
-        ],
-        [
-          "doble a la derecha",
-          "turn right"
-        ],
-        [
-          "comida saludable",
-          "healthy food"
-        ],
-        [
-          "clima",
-          "weather"
-        ],
-        [
-          "ayer",
-          "yesterday"
-        ],
-        [
-          "semana pasada",
-          "last week"
-        ],
-        [
-          "mensaje",
-          "message"
-        ]
-      ],
-      "grammar": [
-        [
-          "Present progressive",
-          "Use estar + gerund for actions happening now."
-        ],
-        [
-          "Preterite tense",
-          "Talk about completed past actions."
-        ],
-        [
-          "Imperfect introduction",
-          "Describe past routines and situations."
-        ],
-        [
-          "Ir a + infinitive",
-          "Talk about plans and intentions."
-        ],
-        [
-          "Comparatives",
-          "Use más que, menos que, and tan... como."
-        ],
-        [
-          "Direct object pronouns",
-          "Use lo, la, los, and las."
-        ],
-        [
-          "Reflexive verbs",
-          "Use me levanto, se despierta, nos preparamos."
-        ],
-        [
-          "Basic connectors",
-          "Use porque, entonces, pero, and también."
-        ]
-      ],
-      "communicativeFunctions": [
-        "Ask for and give information.",
-        "Express needs, opinions, reasons, and preferences.",
-        "Understand main ideas and important details.",
-        "Use vocabulary in realistic situations.",
-        "Interact with others using appropriate language.",
-        "Reflect on progress and set a next learning goal."
-      ],
-      "learningOutcomes": [
-        "Recognize and use level-appropriate vocabulary.",
-        "Apply grammar structures in meaningful communication.",
-        "Understand spoken and written texts according to the level.",
-        "Produce spoken and written responses with increasing independence.",
-        "Connect language learning to real academic, personal, and professional situations."
-      ],
-      "assessment": {
-        "listening": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level.",
-        "speaking": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency.",
-        "reading": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level.",
-        "writing": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-      },
-      "tasks": [
-        "Listen to a dialogue and choose the correct place.",
-        "Ask and answer questions about daily routines.",
-        "Read a menu or schedule and select useful information.",
-        "Write a short invitation or message.",
-        "Describe how to get from one place to another."
-      ],
-      "reading": {
-        "title": "Reading A2 · Spanish",
-        "text": "Luis usa ANDERGO antes del trabajo. El lunes estudió vocabulario sobre la ciudad. El martes escuchó una conversación en un restaurante. Ayer grabó una oración sobre su rutina diaria. Ahora puede pedir direcciones y ordenar comida con más confianza.",
-        "questions": [
-          "What did the learner practice?",
-          "What happened first?",
-          "What happened later?",
-          "What can the learner do now?",
-          "Write one sentence about your routine or a past activity."
+      vocab: [['Ciudad', 'City'], ['Museo', 'Museum'], ['Guía', 'Guide'], ['Nota', 'Note'], ['Favorito', 'Favorite'], ['Visita', 'Visit']],
+      grammar: [['A2', 'Presente continuo y comparaciones simples.'], ['B1', 'Conectores básicos para párrafos cortos.']],
+      reading: {
+        title: 'Ejemplo de lectura A2',
+        text: 'Tom va al parque todas las mañanas. Ve los árboles, oye a los pájaros y toma café antes de clase.',
+        questions: [
+          { q: 'Where does Tom go every morning?', options: ['To the beach', 'To the park', 'To the museum', 'To the gym'], answer: 1 },
+          { q: 'What does he hear?', options: ['Music', 'The birds', 'Traffic', 'Rain'], answer: 1 },
+          { q: 'What does he drink?', options: ['Tea', 'Juice', 'Coffee', 'Water'], answer: 2 }
         ]
       }
     },
-    "B1": {
-      "theme": "Independent communication: opinions, experiences, goals, advice, and familiar discussions",
-      "levelGoal": "Express opinions, narrate experiences, explain decisions, solve communicative situations, and participate in familiar conversations with growing confidence.",
-      "skills": {
-        "listening": {
-          "title": "Listening",
-          "text": "B1 Listening: Spanish practice focused on opinions, experiences, personal goals, advice, familiar conversations, and problem solving. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The speaker is talking about...",
-            "The main idea is...",
-            "The key detail I heard was...",
-            "The speaker wants to...",
-            "Could you repeat that, please?"
-          ],
-          "lessonSteps": [
-            "Pre-listening: preview the topic and key vocabulary.",
-            "First listening: identify the general idea.",
-            "Second listening: capture specific details and useful phrases.",
-            "Post-listening: answer comprehension questions and summarize the audio.",
-            "Extension: use one phrase from the audio in a new personal sentence."
-          ],
-          "practiceProduct": "Audio comprehension card with main idea, details, useful vocabulary, and a personal response.",
-          "assessment": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level."
-        },
-        "speaking": {
-          "title": "Speaking",
-          "text": "B1 Speaking: Spanish practice focused on opinions, experiences, personal goals, advice, familiar conversations, and problem solving. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "In my opinion...",
-            "I would like to explain...",
-            "A good example is...",
-            "I agree because...",
-            "Could you clarify the question?"
-          ],
-          "lessonSteps": [
-            "Warm-up: repeat model phrases and pronunciation patterns.",
-            "Guided production: answer controlled questions using target structures.",
-            "Interaction: practice a short dialogue, role-play, or discussion.",
-            "Independent production: record or present a short response.",
-            "Reflection: identify one strength and one area to improve."
-          ],
-          "practiceProduct": "Short oral response, role-play, dialogue, discussion, or mini-presentation according to the level.",
-          "assessment": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency."
-        },
-        "reading": {
-          "title": "Reading",
-          "text": "B1 Reading: Spanish practice focused on opinions, experiences, personal goals, advice, familiar conversations, and problem solving. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The text is mainly about...",
-            "According to the text...",
-            "One important detail is...",
-            "The author suggests that...",
-            "This word probably means..."
-          ],
-          "lessonSteps": [
-            "Before reading: predict the topic from title and keywords.",
-            "First reading: identify the main idea.",
-            "Second reading: underline supporting details and useful phrases.",
-            "Comprehension: answer literal and inferential questions.",
-            "Extension: connect the text to a real-life situation."
-          ],
-          "practiceProduct": "Reading response with main idea, supporting evidence, vocabulary use, and personal or critical reflection.",
-          "assessment": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level."
-        },
-        "writing": {
-          "title": "Writing",
-          "text": "B1 Writing: Spanish practice focused on opinions, experiences, personal goals, advice, familiar conversations, and problem solving. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "First, I want to describe...",
-            "Another important point is...",
-            "For example...",
-            "However...",
-            "To conclude..."
-          ],
-          "lessonSteps": [
-            "Planning: define purpose, audience, vocabulary, and structure.",
-            "Drafting: write using a model and level-appropriate grammar.",
-            "Revision: check clarity, grammar, vocabulary, punctuation, and connectors.",
-            "Final version: improve the text and prepare it for submission.",
-            "Reflection: explain what improved from the first draft to the final version."
-          ],
-          "practiceProduct": "Written sentence set, paragraph, message, email, review, report, essay, or persuasive text according to the level.",
-          "assessment": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-        }
+    B1: {
+      skills: {
+        listening: { title: 'Listening', text: 'Conversaciones claras con opiniones, preferencias y situaciones realistas.', suggestions: ['Creo que...', 'Parece que...', '¿Qué piensas sobre...?'] },
+        speaking: { title: 'Speaking', text: 'Práctica oral para dar opiniones y explicar decisiones.', suggestions: ['En mi opinión...', 'Una razón es...', 'Prefiero...'] },
+        writing: { title: 'Writing', text: 'Escritura de párrafos con organización y detalles de apoyo.', suggestions: ['En primer lugar...', 'Otro punto es...', 'Por ejemplo...'] }
       },
-      "vocab": [
-        [
-          "logro",
-          "achievement"
-        ],
-        [
-          "confianza",
-          "confidence"
-        ],
-        [
-          "reto",
-          "challenge"
-        ],
-        [
-          "mejora",
-          "improvement"
-        ],
-        [
-          "meta",
-          "goal"
-        ],
-        [
-          "decisión",
-          "decision"
-        ],
-        [
-          "consejo",
-          "advice"
-        ],
-        [
-          "opinión",
-          "opinion"
-        ],
-        [
-          "experiencia",
-          "experience"
-        ],
-        [
-          "oportunidad",
-          "opportunity"
-        ],
-        [
-          "habilidad",
-          "skill"
-        ],
-        [
-          "retroalimentación",
-          "feedback"
-        ],
-        [
-          "entrevista",
-          "interview"
-        ],
-        [
-          "solución",
-          "solution"
-        ],
-        [
-          "trabajo en equipo",
-          "teamwork"
-        ],
-        [
-          "plazo",
-          "deadline"
-        ]
-      ],
-      "grammar": [
-        [
-          "Present perfect",
-          "Use he estudiado and hemos aprendido."
-        ],
-        [
-          "Imperfect vs preterite",
-          "Contrast background description with completed actions."
-        ],
-        [
-          "Modal expressions",
-          "Use deber, poder, tener que, and necesitar."
-        ],
-        [
-          "Conditional simple",
-          "Use me gustaría, podría, and debería."
-        ],
-        [
-          "Subjunctive introduction",
-          "Use expressions like es importante que."
-        ],
-        [
-          "Relative clauses",
-          "Use que, quien, and donde."
-        ],
-        [
-          "Connectors",
-          "Use aunque, sin embargo, por lo tanto, and además."
-        ],
-        [
-          "Indirect object pronouns",
-          "Use me, te, le, nos, and les."
-        ]
-      ],
-      "communicativeFunctions": [
-        "Ask for and give information.",
-        "Express needs, opinions, reasons, and preferences.",
-        "Understand main ideas and important details.",
-        "Use vocabulary in realistic situations.",
-        "Interact with others using appropriate language.",
-        "Reflect on progress and set a next learning goal."
-      ],
-      "learningOutcomes": [
-        "Recognize and use level-appropriate vocabulary.",
-        "Apply grammar structures in meaningful communication.",
-        "Understand spoken and written texts according to the level.",
-        "Produce spoken and written responses with increasing independence.",
-        "Connect language learning to real academic, personal, and professional situations."
-      ],
-      "assessment": {
-        "listening": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level.",
-        "speaking": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency.",
-        "reading": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level.",
-        "writing": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-      },
-      "tasks": [
-        "Listen to an interview and identify the speaker’s opinion.",
-        "Talk about a personal achievement and explain why it matters.",
-        "Read a short article and summarize the main idea.",
-        "Write a paragraph giving advice to a new learner.",
-        "Role-play a problem and propose two possible solutions."
-      ],
-      "reading": {
-        "title": "Reading B1 · Spanish",
-        "text": "Un estudiante se unió a un grupo virtual para practicar español. Al principio se sentía nervioso porque tenía miedo de cometer errores. Después de varias semanas, comprendió que los errores eran parte del aprendizaje. Las conversaciones semanales le ayudaron a explicar sus ideas, hacer mejores preguntas y hablar con más confianza.",
-        "questions": [
-          "Why did the learner feel nervous?",
-          "What changed after several weeks?",
-          "How did practice help the learner?",
-          "What is the main message of the text?",
-          "Write your opinion about making mistakes when learning a language."
+      vocab: [['Opinión', 'Opinion'], ['Preferencia', 'Preference'], ['Razón', 'Reason'], ['Experiencia', 'Experience'], ['Discutir', 'Discuss'], ['Mejorar', 'Improve']],
+      grammar: [['B1', 'Pretérito perfecto, modales y formas de futuro.'], ['B2', 'Condicionales y estilo indirecto.']],
+      reading: {
+        title: 'Ejemplo de lectura B1',
+        text: 'Maya empezó un trabajo nuevo y está aprendiendo a organizar su semana. Escribe prioridades y revisa su calendario cada tarde.',
+        questions: [
+          { q: 'What did Maya start recently?', options: ['A trip', 'A new job', 'A class', 'A business'], answer: 1 },
+          { q: 'What does she write down?', options: ['Letters', 'Her priorities', 'Poems', 'Recipes'], answer: 1 },
+          { q: 'When does she check her calendar?', options: ['In the morning', 'At noon', 'Every evening', 'On Sundays'], answer: 2 }
         ]
       }
     },
-    "B2": {
-      "theme": "Upper-intermediate independence: academic and professional contexts, arguments, presentations, and complex information",
-      "levelGoal": "Understand and produce clear arguments, defend points of view, handle academic or professional information, and communicate independently in varied contexts.",
-      "skills": {
-        "listening": {
-          "title": "Listening",
-          "text": "B2 Listening: Spanish practice focused on arguments, details, academic situations, professional communication, presentations, and complex information. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The speaker is talking about...",
-            "The main idea is...",
-            "The key detail I heard was...",
-            "The speaker wants to...",
-            "Could you repeat that, please?"
-          ],
-          "lessonSteps": [
-            "Pre-listening: preview the topic and key vocabulary.",
-            "First listening: identify the general idea.",
-            "Second listening: capture specific details and useful phrases.",
-            "Post-listening: answer comprehension questions and summarize the audio.",
-            "Extension: use one phrase from the audio in a new personal sentence."
-          ],
-          "practiceProduct": "Audio comprehension card with main idea, details, useful vocabulary, and a personal response.",
-          "assessment": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level."
-        },
-        "speaking": {
-          "title": "Speaking",
-          "text": "B2 Speaking: Spanish practice focused on arguments, details, academic situations, professional communication, presentations, and complex information. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "In my opinion...",
-            "I would like to explain...",
-            "A good example is...",
-            "I agree because...",
-            "Could you clarify the question?"
-          ],
-          "lessonSteps": [
-            "Warm-up: repeat model phrases and pronunciation patterns.",
-            "Guided production: answer controlled questions using target structures.",
-            "Interaction: practice a short dialogue, role-play, or discussion.",
-            "Independent production: record or present a short response.",
-            "Reflection: identify one strength and one area to improve."
-          ],
-          "practiceProduct": "Short oral response, role-play, dialogue, discussion, or mini-presentation according to the level.",
-          "assessment": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency."
-        },
-        "reading": {
-          "title": "Reading",
-          "text": "B2 Reading: Spanish practice focused on arguments, details, academic situations, professional communication, presentations, and complex information. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The text is mainly about...",
-            "According to the text...",
-            "One important detail is...",
-            "The author suggests that...",
-            "This word probably means..."
-          ],
-          "lessonSteps": [
-            "Before reading: predict the topic from title and keywords.",
-            "First reading: identify the main idea.",
-            "Second reading: underline supporting details and useful phrases.",
-            "Comprehension: answer literal and inferential questions.",
-            "Extension: connect the text to a real-life situation."
-          ],
-          "practiceProduct": "Reading response with main idea, supporting evidence, vocabulary use, and personal or critical reflection.",
-          "assessment": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level."
-        },
-        "writing": {
-          "title": "Writing",
-          "text": "B2 Writing: Spanish practice focused on arguments, details, academic situations, professional communication, presentations, and complex information. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "First, I want to describe...",
-            "Another important point is...",
-            "For example...",
-            "However...",
-            "To conclude..."
-          ],
-          "lessonSteps": [
-            "Planning: define purpose, audience, vocabulary, and structure.",
-            "Drafting: write using a model and level-appropriate grammar.",
-            "Revision: check clarity, grammar, vocabulary, punctuation, and connectors.",
-            "Final version: improve the text and prepare it for submission.",
-            "Reflection: explain what improved from the first draft to the final version."
-          ],
-          "practiceProduct": "Written sentence set, paragraph, message, email, review, report, essay, or persuasive text according to the level.",
-          "assessment": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-        }
+    B2: {
+      skills: {
+        listening: { title: 'Listening', text: 'Audios más largos con matices, opiniones y explicaciones detalladas.', suggestions: ['Es probable que...', 'El punto principal es...', 'Según el hablante...'] },
+        speaking: { title: 'Speaking', text: 'Tareas orales extensas con argumentación y comparaciones.', suggestions: ['Por un lado...', 'Por otro lado...', 'Dicho esto...'] },
+        writing: { title: 'Writing', text: 'Ensayos y respuestas estructuradas con mejor cohesión.', suggestions: ['Para empezar...', 'En contraste...', 'Como resultado...'] }
       },
-      "vocab": [
-        [
-          "evidencia",
-          "evidence"
-        ],
-        [
-          "argumento",
-          "argument"
-        ],
-        [
-          "afirmación",
-          "claim"
-        ],
-        [
-          "detalle de apoyo",
-          "supporting detail"
-        ],
-        [
-          "confiable",
-          "reliable"
-        ],
-        [
-          "fuente",
-          "source"
-        ],
-        [
-          "investigación",
-          "research"
-        ],
-        [
-          "encuesta",
-          "survey"
-        ],
-        [
-          "datos",
-          "data"
-        ],
-        [
-          "tendencia",
-          "trend"
-        ],
-        [
-          "impacto",
-          "impact"
-        ],
-        [
-          "beneficio",
-          "benefit"
-        ],
-        [
-          "desventaja",
-          "drawback"
-        ],
-        [
-          "propuesta",
-          "proposal"
-        ],
-        [
-          "estrategia",
-          "strategy"
-        ],
-        [
-          "resultado",
-          "outcome"
-        ]
-      ],
-      "grammar": [
-        [
-          "Subjunctive in noun clauses",
-          "Express doubt, desire, emotion, and recommendation."
-        ],
-        [
-          "Passive voice",
-          "Use fue preparado and se prepara."
-        ],
-        [
-          "Reported speech",
-          "Report statements with tense and pronoun changes."
-        ],
-        [
-          "Conditional clauses",
-          "Use si tuviera tiempo, practicaría."
-        ],
-        [
-          "Formal connectors",
-          "Use no obstante, por consiguiente, en cambio, and a pesar de."
-        ],
-        [
-          "Advanced pronouns",
-          "Combine direct and indirect object pronouns."
-        ],
-        [
-          "Ser vs estar refinement",
-          "Use both verbs with nuance."
-        ],
-        [
-          "Cohesion",
-          "Use reference, substitution, and paragraph unity."
-        ]
-      ],
-      "communicativeFunctions": [
-        "Ask for and give information.",
-        "Express needs, opinions, reasons, and preferences.",
-        "Understand main ideas and important details.",
-        "Use vocabulary in realistic situations.",
-        "Interact with others using appropriate language.",
-        "Reflect on progress and set a next learning goal."
-      ],
-      "learningOutcomes": [
-        "Recognize and use level-appropriate vocabulary.",
-        "Apply grammar structures in meaningful communication.",
-        "Understand spoken and written texts according to the level.",
-        "Produce spoken and written responses with increasing independence.",
-        "Connect language learning to real academic, personal, and professional situations."
-      ],
-      "assessment": {
-        "listening": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level.",
-        "speaking": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency.",
-        "reading": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level.",
-        "writing": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-      },
-      "tasks": [
-        "Listen to a short presentation and identify claim, evidence, and conclusion.",
-        "Give a two-minute presentation comparing two options.",
-        "Read an argumentative text and mark thesis, reasons, and examples.",
-        "Write a professional email requesting information.",
-        "Prepare a balanced paragraph with advantages and disadvantages."
-      ],
-      "reading": {
-        "title": "Reading B2 · Spanish",
-        "text": "La plataforma compara dos planes de aprendizaje. El primer plan se enfoca en la comunicación diaria mediante prácticas cortas, mientras que el segundo prepara a los estudiantes para exámenes con lecturas más largas, revisión gramatical y tareas de escritura. Ambos caminos incluyen comprensión auditiva, expresión oral, lectura y escritura, pero cada uno cumple un propósito diferente.",
-        "questions": [
-          "What two learning plans are compared?",
-          "How are the plans different?",
-          "Which skills are included?",
-          "What is the purpose of each path?",
-          "Write a short recommendation for a learner with a specific goal."
+      vocab: [['Argumento', 'Argument'], ['Evidencia', 'Evidence'], ['Contexto', 'Context'], ['Complejo', 'Complex'], ['Preciso', 'Precise'], ['Debate', 'Debate']],
+      grammar: [['B2', 'Oraciones condicionales y voz pasiva.'], ['C1', 'Conectores avanzados y estilo.']],
+      reading: {
+        title: 'Ejemplo de lectura B2',
+        text: 'El artículo compara dos ciudades y explica cómo el transporte público, la vivienda y la vida social afectan a los residentes de maneras muy distintas.',
+        questions: [
+          { q: 'What does the article compare?', options: ['Two countries', 'Two cities', 'Two decades', 'Two languages'], answer: 1 },
+          { q: 'Which three areas are mentioned?', options: ['Food, climate, sport', 'Transport, housing, social life', 'Music, art, history', 'Politics, economy, science'], answer: 1 },
+          { q: 'How are the cities described?', options: ['Identical', 'Very different', 'Without residents', 'Abandoned'], answer: 1 }
         ]
       }
     },
-    "C1": {
-      "theme": "Advanced proficiency: nuance, style, register, abstract topics, academic precision, and professional discourse",
-      "levelGoal": "Understand nuance, adapt register, produce strong arguments, analyze abstract topics, and communicate precisely in academic, professional, and cultural contexts.",
-      "skills": {
-        "listening": {
-          "title": "Listening",
-          "text": "C1 Listening: Spanish practice focused on nuance, style, register, abstract topics, academic precision, professional discourse, and critical thinking. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The speaker is talking about...",
-            "The main idea is...",
-            "The key detail I heard was...",
-            "The speaker wants to...",
-            "Could you repeat that, please?"
-          ],
-          "lessonSteps": [
-            "Pre-listening: preview the topic and key vocabulary.",
-            "First listening: identify the general idea.",
-            "Second listening: capture specific details and useful phrases.",
-            "Post-listening: answer comprehension questions and summarize the audio.",
-            "Extension: use one phrase from the audio in a new personal sentence."
-          ],
-          "practiceProduct": "Audio comprehension card with main idea, details, useful vocabulary, and a personal response.",
-          "assessment": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level."
-        },
-        "speaking": {
-          "title": "Speaking",
-          "text": "C1 Speaking: Spanish practice focused on nuance, style, register, abstract topics, academic precision, professional discourse, and critical thinking. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "In my opinion...",
-            "I would like to explain...",
-            "A good example is...",
-            "I agree because...",
-            "Could you clarify the question?"
-          ],
-          "lessonSteps": [
-            "Warm-up: repeat model phrases and pronunciation patterns.",
-            "Guided production: answer controlled questions using target structures.",
-            "Interaction: practice a short dialogue, role-play, or discussion.",
-            "Independent production: record or present a short response.",
-            "Reflection: identify one strength and one area to improve."
-          ],
-          "practiceProduct": "Short oral response, role-play, dialogue, discussion, or mini-presentation according to the level.",
-          "assessment": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency."
-        },
-        "reading": {
-          "title": "Reading",
-          "text": "C1 Reading: Spanish practice focused on nuance, style, register, abstract topics, academic precision, professional discourse, and critical thinking. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The text is mainly about...",
-            "According to the text...",
-            "One important detail is...",
-            "The author suggests that...",
-            "This word probably means..."
-          ],
-          "lessonSteps": [
-            "Before reading: predict the topic from title and keywords.",
-            "First reading: identify the main idea.",
-            "Second reading: underline supporting details and useful phrases.",
-            "Comprehension: answer literal and inferential questions.",
-            "Extension: connect the text to a real-life situation."
-          ],
-          "practiceProduct": "Reading response with main idea, supporting evidence, vocabulary use, and personal or critical reflection.",
-          "assessment": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level."
-        },
-        "writing": {
-          "title": "Writing",
-          "text": "C1 Writing: Spanish practice focused on nuance, style, register, abstract topics, academic precision, professional discourse, and critical thinking. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "First, I want to describe...",
-            "Another important point is...",
-            "For example...",
-            "However...",
-            "To conclude..."
-          ],
-          "lessonSteps": [
-            "Planning: define purpose, audience, vocabulary, and structure.",
-            "Drafting: write using a model and level-appropriate grammar.",
-            "Revision: check clarity, grammar, vocabulary, punctuation, and connectors.",
-            "Final version: improve the text and prepare it for submission.",
-            "Reflection: explain what improved from the first draft to the final version."
-          ],
-          "practiceProduct": "Written sentence set, paragraph, message, email, review, report, essay, or persuasive text according to the level.",
-          "assessment": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-        }
+    C1: {
+      skills: {
+        listening: { title: 'Listening', text: 'Habla rápida y natural con varios interlocutores y temas abstractos.', suggestions: ['El hablante sugiere que...', 'Una idea clave es...', 'Esto apunta a que...'] },
+        speaking: { title: 'Speaking', text: 'Práctica oral de alto nivel para discusión y debate.', suggestions: ['Desde mi punto de vista...', 'Se podría argumentar que...', 'Un ejemplo contundente es...'] },
+        writing: { title: 'Writing', text: 'Composición avanzada con estructura cuidada y control retórico.', suggestions: ['La afirmación central es...', 'A la luz de esto...', 'Para apoyar este punto...'] }
       },
-      "vocab": [
-        [
-          "matiz",
-          "nuance"
-        ],
-        [
-          "suposición",
-          "assumption"
-        ],
-        [
-          "marco",
-          "framework"
-        ],
-        [
-          "implicación",
-          "implication"
-        ],
-        [
-          "perspectiva profunda",
-          "insight"
-        ],
-        [
-          "sesgo",
-          "bias"
-        ],
-        [
-          "postura",
-          "stance"
-        ],
-        [
-          "justificación",
-          "rationale"
-        ],
-        [
-          "alcance",
-          "scope"
-        ],
-        [
-          "limitación",
-          "constraint"
-        ],
-        [
-          "equidad",
-          "equity"
-        ],
-        [
-          "identidad",
-          "identity"
-        ],
-        [
-          "discurso público",
-          "public discourse"
-        ],
-        [
-          "coherencia",
-          "coherence"
-        ],
-        [
-          "registro",
-          "register"
-        ],
-        [
-          "basado en evidencias",
-          "evidence-based"
-        ]
-      ],
-      "grammar": [
-        [
-          "Advanced subordination",
-          "Use concessive, causal, consecutive, and conditional clauses."
-        ],
-        [
-          "Nominalization",
-          "Use forms like la implementación and la evaluación."
-        ],
-        [
-          "Hedging",
-          "Use parece indicar, tiende a sugerir, and podría afirmarse."
-        ],
-        [
-          "Academic register",
-          "Use precise, objective, and formal language."
-        ],
-        [
-          "Discourse emphasis",
-          "Use lo que resulta relevante es."
-        ],
-        [
-          "Argumentative cohesion",
-          "Build thesis, evidence, counterargument, and conclusion."
-        ],
-        [
-          "Advanced connectors",
-          "Use por ende, en virtud de, pese a ello, and de ahí que."
-        ],
-        [
-          "Style control",
-          "Adapt tone to academic, professional, and persuasive contexts."
-        ]
-      ],
-      "communicativeFunctions": [
-        "Ask for and give information.",
-        "Express needs, opinions, reasons, and preferences.",
-        "Understand main ideas and important details.",
-        "Use vocabulary in realistic situations.",
-        "Interact with others using appropriate language.",
-        "Reflect on progress and set a next learning goal."
-      ],
-      "learningOutcomes": [
-        "Recognize and use level-appropriate vocabulary.",
-        "Apply grammar structures in meaningful communication.",
-        "Understand spoken and written texts according to the level.",
-        "Produce spoken and written responses with increasing independence.",
-        "Connect language learning to real academic, personal, and professional situations."
-      ],
-      "assessment": {
-        "listening": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level.",
-        "speaking": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency.",
-        "reading": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level.",
-        "writing": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-      },
-      "tasks": [
-        "Listen to an expert interview and infer the speaker’s stance.",
-        "Lead a discussion using hedging and advanced connectors.",
-        "Read an editorial and identify bias, assumptions, and rhetorical strategies.",
-        "Write an analytical paragraph using evidence and counterargument.",
-        "Reformulate informal ideas into academic or professional language."
-      ],
-      "reading": {
-        "title": "Reading C1 · Spanish",
-        "text": "Un aprendiz profesional analiza cómo el idioma influye en la identidad, las oportunidades laborales y la participación cultural. La lección sostiene que el español no es solo un conjunto de reglas gramaticales; también es una herramienta para acceder al conocimiento, negociar significados y participar en conversaciones globales. Los estudiantes deben apoyar sus opiniones con evidencias y ejemplos.",
-        "questions": [
-          "What areas are connected to language in the text?",
-          "Why is language described as more than grammar?",
-          "What does negotiating meaning suggest?",
-          "What kind of support should learners use for their opinions?",
-          "Write a concise critical response to the text."
+      vocab: [['Matiz', 'Nuance'], ['Abstracto', 'Abstract'], ['Retórica', 'Rhetoric'], ['Precisión', 'Precision'], ['Coherencia', 'Cohesion'], ['Argumentación', 'Argumentation']],
+      grammar: [['C1', 'Voz pasiva avanzada y subjuntivo.'], ['C2', 'Registro, estilo y cohesión fina.']],
+      reading: {
+        title: 'Ejemplo de lectura C1',
+        text: 'Un ensayo cultural explora cómo el lenguaje moldea la identidad y explica por qué las comunidades preservan tradiciones a través de relatos y rituales compartidos.',
+        questions: [
+          { q: 'What does the essay explore?', options: ['Global economy', 'How language shapes identity', 'Military history', 'Modern technology'], answer: 1 },
+          { q: 'How do communities preserve traditions?', options: ['With laws', 'With shared stories and rituals', 'With taxes', 'With borders'], answer: 1 },
+          { q: 'What is the main theme?', options: ['Sport', 'Cultural identity', 'Agriculture', 'Weather'], answer: 1 }
         ]
       }
     },
-    "C2": {
-      "theme": "Mastery: expert communication, rhetorical control, cultural complexity, idiomatic precision, and near-native flexibility",
-      "levelGoal": "Understand and produce highly precise, natural, and flexible language with control of register, complex inference, idiomatic language, cultural subtlety, and expert communication.",
-      "skills": {
-        "listening": {
-          "title": "Listening",
-          "text": "C2 Listening: Spanish practice focused on precision, naturalness, inference, expert communication, rhetorical control, cultural complexity, and idiomatic flexibility. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The speaker is talking about...",
-            "The main idea is...",
-            "The key detail I heard was...",
-            "The speaker wants to...",
-            "Could you repeat that, please?"
-          ],
-          "lessonSteps": [
-            "Pre-listening: preview the topic and key vocabulary.",
-            "First listening: identify the general idea.",
-            "Second listening: capture specific details and useful phrases.",
-            "Post-listening: answer comprehension questions and summarize the audio.",
-            "Extension: use one phrase from the audio in a new personal sentence."
-          ],
-          "practiceProduct": "Audio comprehension card with main idea, details, useful vocabulary, and a personal response.",
-          "assessment": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level."
-        },
-        "speaking": {
-          "title": "Speaking",
-          "text": "C2 Speaking: Spanish practice focused on precision, naturalness, inference, expert communication, rhetorical control, cultural complexity, and idiomatic flexibility. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "In my opinion...",
-            "I would like to explain...",
-            "A good example is...",
-            "I agree because...",
-            "Could you clarify the question?"
-          ],
-          "lessonSteps": [
-            "Warm-up: repeat model phrases and pronunciation patterns.",
-            "Guided production: answer controlled questions using target structures.",
-            "Interaction: practice a short dialogue, role-play, or discussion.",
-            "Independent production: record or present a short response.",
-            "Reflection: identify one strength and one area to improve."
-          ],
-          "practiceProduct": "Short oral response, role-play, dialogue, discussion, or mini-presentation according to the level.",
-          "assessment": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency."
-        },
-        "reading": {
-          "title": "Reading",
-          "text": "C2 Reading: Spanish practice focused on precision, naturalness, inference, expert communication, rhetorical control, cultural complexity, and idiomatic flexibility. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "The text is mainly about...",
-            "According to the text...",
-            "One important detail is...",
-            "The author suggests that...",
-            "This word probably means..."
-          ],
-          "lessonSteps": [
-            "Before reading: predict the topic from title and keywords.",
-            "First reading: identify the main idea.",
-            "Second reading: underline supporting details and useful phrases.",
-            "Comprehension: answer literal and inferential questions.",
-            "Extension: connect the text to a real-life situation."
-          ],
-          "practiceProduct": "Reading response with main idea, supporting evidence, vocabulary use, and personal or critical reflection.",
-          "assessment": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level."
-        },
-        "writing": {
-          "title": "Writing",
-          "text": "C2 Writing: Spanish practice focused on precision, naturalness, inference, expert communication, rhetorical control, cultural complexity, and idiomatic flexibility. This skill develops guided strategies, useful phrases, practical tasks, and a clear learning product for measurable progress.",
-          "suggestions": [
-            "First, I want to describe...",
-            "Another important point is...",
-            "For example...",
-            "However...",
-            "To conclude..."
-          ],
-          "lessonSteps": [
-            "Planning: define purpose, audience, vocabulary, and structure.",
-            "Drafting: write using a model and level-appropriate grammar.",
-            "Revision: check clarity, grammar, vocabulary, punctuation, and connectors.",
-            "Final version: improve the text and prepare it for submission.",
-            "Reflection: explain what improved from the first draft to the final version."
-          ],
-          "practiceProduct": "Written sentence set, paragraph, message, email, review, report, essay, or persuasive text according to the level.",
-          "assessment": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-        }
+    C2: {
+      skills: {
+        listening: { title: 'Listening', text: 'Audio denso y auténtico con significado sutil, lenguaje idiomático y ritmo rápido.', suggestions: ['El mensaje implícito es...', 'El hablante contrasta...', 'Este punto es especialmente relevante porque...'] },
+        speaking: { title: 'Speaking', text: 'Práctica de habla casi nativa para una comunicación matizada y profesional.', suggestions: ['Para expresarlo con más precisión...', 'Lo que más destaca es...', 'En un contexto más amplio...'] },
+        writing: { title: 'Writing', text: 'Escritura sofisticada con estilo, encuadre y precisión.', suggestions: ['Teniendo esto en cuenta...', 'Un enfoque más matizado sería...', 'En conclusión...'] }
       },
-      "vocab": [
-        [
-          "sutileza",
-          "subtlety"
-        ],
-        [
-          "retórica",
-          "rhetoric"
-        ],
-        [
-          "inferencia",
-          "inference"
-        ],
-        [
-          "ambigüedad",
-          "ambiguity"
-        ],
-        [
-          "connotación",
-          "connotation"
-        ],
-        [
-          "subtexto",
-          "undertone"
-        ],
-        [
-          "elocuencia",
-          "eloquence"
-        ],
-        [
-          "precisión",
-          "precision"
-        ],
-        [
-          "fluidez",
-          "fluency"
-        ],
-        [
-          "persuasión",
-          "persuasion"
-        ],
-        [
-          "ironía",
-          "irony"
-        ],
-        [
-          "alusión",
-          "allusion"
-        ],
-        [
-          "credibilidad",
-          "credibility"
-        ],
-        [
-          "escrutinio",
-          "scrutiny"
-        ],
-        [
-          "convincente",
-          "compelling"
-        ],
-        [
-          "distinguir",
-          "draw a distinction"
-        ]
-      ],
-      "grammar": [
-        [
-          "Register mastery",
-          "Control tone, formality, distance, and cultural nuance."
-        ],
-        [
-          "Idiomatic range",
-          "Use idioms, collocations, and fixed expressions naturally."
-        ],
-        [
-          "Rhetorical structures",
-          "Use concession, amplification, contrast, and reframing."
-        ],
-        [
-          "Advanced cohesion",
-          "Build semantic progression and elegant reference."
-        ],
-        [
-          "Pragmatics",
-          "Interpret implication, indirectness, politeness, and irony."
-        ],
-        [
-          "Stylistic variation",
-          "Move between literary, academic, professional, and conversational Spanish."
-        ],
-        [
-          "Precision and rhythm",
-          "Edit sentences for clarity, elegance, and impact."
-        ],
-        [
-          "Cultural discourse",
-          "Analyze belonging, memory, identity, and public language."
-        ]
-      ],
-      "communicativeFunctions": [
-        "Ask for and give information.",
-        "Express needs, opinions, reasons, and preferences.",
-        "Understand main ideas and important details.",
-        "Use vocabulary in realistic situations.",
-        "Interact with others using appropriate language.",
-        "Reflect on progress and set a next learning goal."
-      ],
-      "learningOutcomes": [
-        "Recognize and use level-appropriate vocabulary.",
-        "Apply grammar structures in meaningful communication.",
-        "Understand spoken and written texts according to the level.",
-        "Produce spoken and written responses with increasing independence.",
-        "Connect language learning to real academic, personal, and professional situations."
-      ],
-      "assessment": {
-        "listening": "Understands main idea, relevant details, key vocabulary, speaker purpose, and practical meaning according to the level.",
-        "speaking": "Communicates clearly with understandable pronunciation, appropriate vocabulary, grammar control, interaction, and increasing fluency.",
-        "reading": "Identifies topic, main idea, details, vocabulary in context, author purpose, and inferences according to the level.",
-        "writing": "Writes organized texts with clear purpose, accurate grammar, appropriate vocabulary, coherence, punctuation, and correct mechanics."
-      },
-      "tasks": [
-        "Listen to a nuanced debate and identify irony, concession, and implied criticism.",
-        "Deliver a polished argument adapted to a specific audience.",
-        "Analyze a complex essay for tone, structure, and rhetorical effect.",
-        "Write a persuasive text using precise vocabulary and controlled style.",
-        "Edit a paragraph to improve nuance, concision, and impact."
-      ],
-      "reading": {
-        "title": "Reading C2 · Spanish",
-        "text": "El mundo final de español presenta un ensayo sobre memoria, migración y discurso público. El texto argumenta que el idioma no solo describe la experiencia; también configura lo que las comunidades recuerdan, lo que olvidan y cómo negocian el sentido de pertenencia. El estudiante debe inferir intención, tono y cambios sutiles en el argumento mientras evalúa la credibilidad de las afirmaciones del autor.",
-        "questions": [
-          "What relationship does the text establish between language and memory?",
-          "How does language influence belonging?",
-          "What must the learner infer?",
-          "Why is credibility important in this text?",
-          "Write a sophisticated response evaluating the argument."
+      vocab: [['Matizado', 'Nuanced'], ['Registro', 'Register'], ['Inferencia', 'Inference'], ['Transmitir', 'Convey'], ['Sutil', 'Subtle'], ['Precisión', 'Precision']],
+      grammar: [['C2', 'Gramática fina, cohesión y estilo formal.'], ['Maestría', 'Near-native fluency and control.']],
+      reading: {
+        title: 'Ejemplo de lectura C2',
+        text: 'El texto final examina la intersección entre política, identidad e historia, exigiendo al lector inferir significados en varias capas de argumento.',
+        questions: [
+          { q: 'What does the final text examine?', options: ['Recipes', 'The intersection of policy, identity and history', 'A technical manual', 'A travel itinerary'], answer: 1 },
+          { q: 'What is asked of the reader?', options: ['Memorize dates', 'Infer meaning across several layers', 'Translate word for word', 'Summarize in one line'], answer: 1 },
+          { q: 'What is the focus of the argument?', options: ['Superficial', 'Deep and nuanced', 'Comedic', 'Promotional'], answer: 1 }
         ]
       }
     }
-  }
-});
-Object.assign(window.ANDERGO_LANGUAGE_WORLDS.languageContent, {
-  "spanish": {
-    "nav": [
-      "Languages",
-      "Skills",
-      "Levels",
-      "Goals",
-      "Practice",
-      "Downloads",
-      "App"
+  };
+
+  window.ANDERGO_LANGUAGE_WORLDS.lessons.spanish = [
+  {
+    "slug": "saludos-a1",
+    "level": "A1",
+    "skill": "listening",
+    "title": "Saludos y presentaciones",
+    "isFree": true,
+    "xpReward": 20,
+    "description": "Aprende a saludar y presentarte en español.",
+    "intro": "Escucha saludos cortos y relaciónalos con la situación correcta.",
+    "vocabulary": [
+      {
+        "word": "Hola",
+        "translation": "Hello",
+        "example": "Hola, me llamo Ana."
+      },
+      {
+        "word": "Mucho gusto",
+        "translation": "Nice to meet you",
+        "example": "Mucho gusto, David."
+      },
+      {
+        "word": "Buenos días",
+        "translation": "Good morning",
+        "example": "¡Buenos días! ¿Cómo estás?"
+      }
     ],
-    "brandSubtitle": "Learn Spanish with clear lessons, real practice, correct accents, and measurable progress.",
-    "heroBadge": "Spanish World · A1 to C2",
-    "heroTitle": "Master Spanish step by step with a complete skills-based path.",
-    "heroText": "ANDERGO organizes Spanish from A1 to C2 with structured lessons for listening, speaking, reading, and writing, plus vocabulary, grammar, guided tasks, assessment criteria, and practical learning goals.",
-    "heroPrimary": "Start free",
-    "heroSecondary": "Set my Spanish goals",
-    "authLogin": "Log in",
-    "authSignup": "Start free",
-    "sectionLabel": "Spanish Learning World",
-    "sectionTitle": "Choose your Spanish level and practice the right skill.",
-    "sectionDescription": "Each Spanish level includes a clear goal, robust skill practice, vocabulary, grammar, readings, tasks, learning outcomes, and assessment criteria.",
-    "nativeSelectorLabel": "Select your native language",
-    "overviewTitle": "Spanish World: complete path from A1 to C2",
-    "overviewText": "Study Spanish through a complete learning world with developed readings, high-frequency vocabulary, grammar by level, communicative functions, guided practice, and clear progress indicators.",
-    "note": "A1 to B2 include 3 free lessons per level; C1 and C2 include 1 free lesson before premium access.",
-    "skillPanels": {
-      "listening": {
-        "title": "Listening",
-        "text": "Guided audio practice with real situations, key phrases, comprehension questions, speaker purpose, and listening strategies."
+    "dialogue": [
+      {
+        "speaker": "Ana",
+        "line": "¡Hola! Me llamo Ana.",
+        "translation": "Hello! My name is Ana."
       },
-      "speaking": {
-        "title": "Speaking",
-        "text": "Structured oral practice to build confidence, pronunciation, fluency, interaction, and presentation skills."
-      },
-      "reading": {
-        "title": "Reading",
-        "text": "Progressive reading practice with main idea, details, inference, vocabulary in context, purpose, and critical response."
-      },
-      "writing": {
-        "title": "Writing",
-        "text": "Progressive writing tasks with models, connectors, revision steps, grammar focus, and clear communicative products."
+      {
+        "speaker": "Leo",
+        "line": "Mucho gusto, Ana. Soy Leo.",
+        "translation": "Nice to meet you, Ana. I am Leo."
       }
-    },
-    "levelMap": {
-      "A1": "Foundation: greetings, identity, classroom language, family, and everyday survival phrases",
-      "A2": "Everyday communication: routines, places, shopping, food, directions, and simple past events",
-      "B1": "Independent communication: opinions, experiences, goals, advice, and familiar discussions",
-      "B2": "Upper-intermediate independence: academic and professional contexts, arguments, presentations, and complex information",
-      "C1": "Advanced proficiency: nuance, style, register, abstract topics, academic precision, and professional discourse",
-      "C2": "Mastery: expert communication, rhetorical control, cultural complexity, idiomatic precision, and near-native flexibility"
-    },
-    "progressLabels": {
-      "freeLessons": "Free lessons",
-      "premiumAccess": "Premium access",
-      "practiceNow": "Practice now",
-      "reviewVocabulary": "Review vocabulary",
-      "studyGrammar": "Study grammar",
-      "completeReading": "Complete reading",
-      "checkProgress": "Check progress"
-    }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Mucho gusto\" mean?",
+        "options": [
+          "Goodbye",
+          "Nice to meet you",
+          "Thank you"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Buenos días\" mean?",
+        "options": [
+          "Good night",
+          "Good morning",
+          "Good afternoon"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "slug": "rutina-diaria-a1",
+    "level": "A1",
+    "skill": "speaking",
+    "title": "Mi rutina diaria",
+    "isFree": true,
+    "xpReward": 20,
+    "description": "Habla de tu día usando el presente.",
+    "intro": "Practica contar lo que haces cada día, paso a paso.",
+    "vocabulary": [
+      {
+        "word": "Despertar",
+        "translation": "Wake up",
+        "example": "Me despierto a las siete."
+      },
+      {
+        "word": "Desayuno",
+        "translation": "Breakfast",
+        "example": "Como el desayuno en casa."
+      },
+      {
+        "word": "Trabajo",
+        "translation": "Work",
+        "example": "Voy al trabajo en autobús."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "¿A qué hora te despiertas?",
+        "translation": "What time do you wake up?"
+      },
+      {
+        "speaker": "Estudiante",
+        "line": "Me despierto a las siete.",
+        "translation": "I wake up at seven."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How do you say \"breakfast\"?",
+        "options": [
+          "Cena",
+          "Desayuno",
+          "Almuerzo"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "speaking",
+        "prompt": "Di en voz alta toda tu rutina matutina.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "mi-familia-a1",
+    "level": "A1",
+    "skill": "writing",
+    "title": "Mi familia",
+    "isFree": true,
+    "xpReward": 20,
+    "description": "Escribe frases cortas describiendo a tu familia.",
+    "intro": "Usa frases simples para presentar a tu familia.",
+    "vocabulary": [
+      {
+        "word": "Madre",
+        "translation": "Mother",
+        "example": "Mi madre es profesora."
+      },
+      {
+        "word": "Hermano",
+        "translation": "Brother",
+        "example": "Tengo un hermano."
+      },
+      {
+        "word": "Familia",
+        "translation": "Family",
+        "example": "Mi familia es pequeña."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Cuéntame de tu familia.",
+        "translation": "Tell me about your family."
+      },
+      {
+        "speaker": "Estudiante",
+        "line": "Tengo una madre y un hermano.",
+        "translation": "I have a mother and a brother."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe 3 frases sobre tu familia.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "mcq",
+        "prompt": "How do you say \"brother\"?",
+        "options": [
+          "Sister",
+          "Brother",
+          "Friend"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "slug": "planes-fin-semana-a2",
+    "level": "A2",
+    "skill": "speaking",
+    "title": "Planes de fin de semana",
+    "isFree": true,
+    "xpReward": 25,
+    "description": "Habla de planes futuros usando \"ir a\".",
+    "intro": "Practica describir lo que vas a hacer este fin de semana.",
+    "vocabulary": [
+      {
+        "word": "Plan",
+        "translation": "Plan",
+        "example": "Tengo un plan para el sábado."
+      },
+      {
+        "word": "Viaje",
+        "translation": "Trip",
+        "example": "Vamos a hacer un viaje."
+      },
+      {
+        "word": "Descansar",
+        "translation": "Rest",
+        "example": "Quiero descansar este fin de semana."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "¿Qué vas a hacer este fin de semana?",
+        "translation": "What are you going to do this weekend?"
+      },
+      {
+        "speaker": "Estudiante",
+        "line": "Voy a visitar a mis padres.",
+        "translation": "I'm going to visit my parents."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Completa: Yo ___ a viajar.",
+        "options": [
+          "voy",
+          "va",
+          "vas"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "speaking",
+        "prompt": "Describe tu plan de fin de semana en 3 frases.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "entrevista-trabajo-b1",
+    "level": "B1",
+    "skill": "speaking",
+    "title": "Entrevista de trabajo",
+    "isFree": false,
+    "xpReward": 30,
+    "description": "Responde preguntas comunes de entrevista con confianza.",
+    "intro": "Practica hablar sobre tu experiencia y tus fortalezas.",
+    "vocabulary": [
+      {
+        "word": "Fortaleza",
+        "translation": "Strength",
+        "example": "Mi fortaleza es el trabajo en equipo."
+      },
+      {
+        "word": "Experiencia",
+        "translation": "Experience",
+        "example": "Tengo tres años de experiencia."
+      },
+      {
+        "word": "Meta",
+        "translation": "Goal",
+        "example": "Mi meta es crecer profesionalmente."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Entrevistador",
+        "line": "Cuéntame sobre tu experiencia.",
+        "translation": "Tell me about your experience."
+      },
+      {
+        "speaker": "Candidato",
+        "line": "He trabajado en atención al cliente por dos años.",
+        "translation": "I have worked in customer service for two years."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"fortaleza\" mean here?",
+        "options": [
+          "Weakness",
+          "Strength",
+          "Salary"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "writing",
+        "prompt": "Escribe una respuesta corta a \"¿Por qué deberíamos contratarte?\"",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "comparacion-ciudades-b2",
+    "level": "B2",
+    "skill": "writing",
+    "title": "Comparando ciudades",
+    "isFree": false,
+    "xpReward": 35,
+    "description": "Escribe un ensayo de comparación estructurado.",
+    "intro": "Practica comparar dos lugares con conectores claros.",
+    "vocabulary": [
+      {
+        "word": "Mientras que",
+        "translation": "Whereas",
+        "example": "La ciudad A es tranquila, mientras que la B es agitada."
+      },
+      {
+        "word": "En cambio",
+        "translation": "In contrast",
+        "example": "En cambio, la vivienda es más barata aquí."
+      },
+      {
+        "word": "En general",
+        "translation": "Overall",
+        "example": "En general, ambas ciudades tienen buen transporte."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "¿Cómo compararías estas dos ciudades?",
+        "translation": "How would you compare these two cities?"
+      },
+      {
+        "speaker": "Estudiante",
+        "line": "Una es más accesible, mientras que la otra tiene mejor transporte.",
+        "translation": "One is more affordable, whereas the other has better transport."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe una comparación de 5 frases entre dos ciudades que conozcas.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which connector is used to contrast?",
+        "options": [
+          "También",
+          "Mientras que",
+          "Luego"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "slug": "debate-abstracto-c1",
+    "level": "C1",
+    "skill": "speaking",
+    "title": "Debate estructurado",
+    "isFree": false,
+    "xpReward": 40,
+    "description": "Argumenta una postura con evidencia de apoyo.",
+    "intro": "Practica construir un argumento con estructura clara.",
+    "vocabulary": [
+      {
+        "word": "Convincente",
+        "translation": "Compelling",
+        "example": "Ese es un argumento convincente."
+      },
+      {
+        "word": "Contraargumento",
+        "translation": "Counterpoint",
+        "example": "Un contraargumento sería..."
+      },
+      {
+        "word": "Premisa",
+        "translation": "Premise",
+        "example": "La premisa de esta idea es errónea."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "¿Cuál es tu postura sobre este tema?",
+        "translation": "What is your position on this issue?"
+      },
+      {
+        "speaker": "Estudiante",
+        "line": "Yo argumentaría que la evidencia respalda una conclusión diferente.",
+        "translation": "I would argue that the evidence supports a different conclusion."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Defiende una postura en 45 segundos usando al menos un contraargumento.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is a \"contraargumento\"?",
+        "options": [
+          "An example",
+          "A counterpoint",
+          "A question"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "slug": "escritura-matizada-c2",
+    "level": "C2",
+    "skill": "writing",
+    "title": "Argumentación matizada",
+    "isFree": false,
+    "xpReward": 45,
+    "description": "Escribe con precisión, registro y control retórico.",
+    "intro": "Perfecciona el tono y la cohesión en un texto formal breve.",
+    "vocabulary": [
+      {
+        "word": "No obstante",
+        "translation": "Notwithstanding",
+        "example": "No obstante los riesgos, el plan siguió adelante."
+      },
+      {
+        "word": "Corolario",
+        "translation": "Corollary",
+        "example": "Un corolario de esta política es..."
+      },
+      {
+        "word": "Perceptible",
+        "translation": "Discernible",
+        "example": "El efecto apenas era perceptible."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "¿Cómo formularías este argumento de manera más formal?",
+        "translation": "How would you frame this argument more formally?"
+      },
+      {
+        "speaker": "Estudiante",
+        "line": "No obstante las críticas, la política logró su objetivo.",
+        "translation": "Notwithstanding the criticism, the policy achieved its aim."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Reescribe una frase casual en un registro formal.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"no obstante\" mean?",
+        "options": [
+          "Therefore",
+          "Notwithstanding",
+          "Furthermore"
+        ],
+        "answer": 1
+      }
+    ]
   }
-});
+];
+})();
