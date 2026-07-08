@@ -624,12 +624,13 @@ a:focus-visible {
 
 .skill-tab-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 0;
   background: linear-gradient(180deg, rgba(248,250,252,.98), rgba(226,232,240,.96));
 }
 
 .skill-tab-button {
-  flex: 1;
+  flex: 1 1 140px;
   border: none;
   background: transparent;
   color: var(--navy-2);
@@ -657,9 +658,76 @@ a:focus-visible {
   margin-bottom: 14px;
 }
 
+.skill-kicker {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--blue);
+  font-size: .78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 .skill-panel p {
   color: var(--muted);
   margin-bottom: 18px;
+}
+
+.skill-panel-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.skill-focus-block {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(248, 250, 252, .82);
+}
+
+.skill-focus-block strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--navy);
+}
+
+.skill-focus-block span {
+  color: var(--muted);
+  font-size: .92rem;
+  line-height: 1.5;
+}
+
+.skill-mini-vocab {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.skill-mini-vocab span {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid rgba(37, 99, 235, .12);
+  border-radius: 8px;
+  background: white;
+  color: var(--muted);
+  font-size: .86rem;
+}
+
+.skill-mini-vocab strong {
+  color: var(--navy);
+}
+
+.skill-reading-text {
+  margin-top: 16px;
+  padding: 14px;
+  border-left: 3px solid var(--blue);
+  background: rgba(37, 99, 235, .05);
+  line-height: 1.65;
 }
 
 .tutor-action {
@@ -1095,6 +1163,78 @@ a:focus-visible {
   font-size: 1.55rem;
 }
 
+.world-lesson-preview {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(96, 165, 250, .16);
+}
+
+.world-lesson-preview-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.world-lesson-preview-head span {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--blue);
+  font-size: .78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.world-lesson-preview-head h4 {
+  font-size: 1.25rem;
+}
+
+.world-lesson-open {
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 16px;
+  background: var(--blue);
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 12px 24px rgba(37, 99, 235, .18);
+}
+
+.world-lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.world-lesson-row {
+  min-height: 138px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(248, 250, 252, .78);
+}
+
+.world-lesson-row span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: .76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.world-lesson-row h5 {
+  margin-bottom: 8px;
+  font-size: .98rem;
+}
+
+.world-lesson-row p {
+  color: var(--muted);
+  font-size: .88rem;
+  line-height: 1.45;
+}
+
 .level-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1469,7 +1609,10 @@ footer small {
   }
 
   .level-grid,
-  .language-skills {
+  .language-skills,
+  .world-lesson-grid,
+  .skill-panel-grid,
+  .skill-mini-vocab {
     grid-template-columns: 1fr;
   }
 
@@ -1513,6 +1656,15 @@ footer small {
 
   .hero-buttons {
     flex-direction: column;
+  }
+
+  .world-lesson-preview-head {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .world-lesson-open {
+    width: 100%;
   }
 
   .hero-buttons a,

@@ -764,6 +764,118 @@ function renderMcqItem(question, index, languageKey) {
   `;
 }
 
+function getWorldLessonsForLevel(languageKey, level) {
+  const lessons = window.ANDERGO_LANGUAGE_WORLDS?.lessons?.[languageKey] || [];
+  return lessons
+    .filter(lesson => lesson.level === level)
+    .sort((a, b) => (a.orderIndex || a.order_index || 0) - (b.orderIndex || b.order_index || 0));
+}
+
+function renderWorldLessonPreview(panel, languageKey, level) {
+  const card = panel?.querySelector('.language-card');
+  if (!card) return;
+
+  let preview = card.querySelector('.world-lesson-preview');
+  if (!preview) {
+    preview = document.createElement('section');
+    preview.className = 'world-lesson-preview';
+    const anchor = card.querySelector('.access-summary') || card.querySelector('.level-grid');
+    anchor?.insertAdjacentElement('afterend', preview);
+  }
+
+  const lessons = getWorldLessonsForLevel(languageKey, level);
+  if (!lessons.length) {
+    preview.innerHTML = '';
+    return;
+  }
+
+  preview.innerHTML = `
+    <div class="world-lesson-preview-head">
+      <div>
+        <span>${escapeHtml(level)} world</span>
+        <h4>${lessons.length} lecciones disponibles</h4>
+      </div>
+      <button class="world-lesson-open" type="button" data-language="${escapeHtml(languageKey)}" data-level="${escapeHtml(level)}">Ver ruta</button>
+    </div>
+    <div class="world-lesson-grid">
+      ${lessons.map(lesson => `
+        <article class="world-lesson-row">
+          <span>${escapeHtml(lesson.skill || '')} · ${lesson.isFree === false || lesson.accessTier === 'premium' ? `Premium USD ${premiumPriceUsd}` : 'Gratis'}</span>
+          <h5>${escapeHtml(lesson.title || '')}</h5>
+          <p>${escapeHtml(lesson.description || lesson.mission || lesson.intro || '')}</p>
+        </article>
+      `).join('')}
+    </div>
+  `;
+}
+
+function skillLabel(skill) {
+  const labels = {
+    listening: 'Listening',
+    speaking: 'Speaking',
+    reading: 'Reading',
+    writing: 'Writing',
+    grammar: 'Grammar',
+    vocabulary: 'Vocabulary'
+  };
+  return labels[skill] || skill;
+}
+
+function renderSkillExplorer(panel, languageKey, level) {
+  const skillTabs = panel?.querySelector('.skill-tabs');
+  if (!skillTabs) return;
+
+  const lessons = getWorldLessonsForLevel(languageKey, level);
+  if (!lessons.length) return;
+
+  const activeSkill = skillTabs.querySelector('.skill-tab-button.active')?.dataset.skill || lessons[0].skill;
+  const normalizedActiveSkill = lessons.some(lesson => lesson.skill === activeSkill) ? activeSkill : lessons[0].skill;
+
+  skillTabs.innerHTML = `
+    <div class="skill-tab-list">
+      ${lessons.map(lesson => `
+        <button class="skill-tab-button ${lesson.skill === normalizedActiveSkill ? 'active' : ''}" type="button" data-skill="${escapeHtml(lesson.skill)}">
+          ${escapeHtml(skillLabel(lesson.skill))}
+        </button>
+      `).join('')}
+    </div>
+    ${lessons.map(lesson => {
+      const phrases = lesson.phrases || [];
+      const vocabulary = lesson.vocabulary || [];
+      const reading = lesson.reading || {};
+      return `
+        <div class="skill-panel ${lesson.skill === normalizedActiveSkill ? 'active' : ''}" data-skill="${escapeHtml(lesson.skill)}">
+          <span class="skill-kicker">${escapeHtml(level)} · ${escapeHtml(skillLabel(lesson.skill))}</span>
+          <h4>${escapeHtml(lesson.title || skillLabel(lesson.skill))}</h4>
+          <p>${escapeHtml(lesson.description || lesson.mission || lesson.intro || '')}</p>
+          <div class="skill-panel-grid">
+            <div class="skill-focus-block">
+              <strong>Misión</strong>
+              <span>${escapeHtml(lesson.mission || lesson.intro || 'Completa la práctica guiada de esta habilidad.')}</span>
+            </div>
+            <div class="skill-focus-block">
+              <strong>Gramática</strong>
+              <span>${escapeHtml(lesson.grammar || 'Práctica guiada con ejemplos del nivel.')}</span>
+            </div>
+          </div>
+          <div class="predictive-box">
+            <strong>Frases útiles</strong>
+            <div class="predictive-suggestions">
+              ${(phrases.length ? phrases : vocabulary.slice(0, 4).map(item => item.word)).map(item => `<span class="predictive-suggestion">${escapeHtml(item)}</span>`).join('')}
+            </div>
+          </div>
+          ${vocabulary.length ? `
+            <div class="skill-mini-vocab">
+              ${vocabulary.slice(0, 6).map(item => `<span><strong>${escapeHtml(item.word)}</strong>${escapeHtml(item.translation || '')}</span>`).join('')}
+            </div>
+          ` : ''}
+          ${reading.text ? `<p class="skill-reading-text">${escapeHtml(reading.text)}</p>` : ''}
+        </div>
+      `;
+    }).join('')}
+  `;
+}
+
 function updateLevelContent(panel, languageKey, level) {
   const content = levelContent[languageKey]?.[level];
   if (!content || !panel) return;
@@ -812,6 +924,9 @@ function updateLevelContent(panel, languageKey, level) {
     const activeItem = Array.from(levelItems).find(item => item.querySelector('strong')?.textContent.trim() === level);
     if (activeItem) activeItem.classList.add('active');
   }
+
+  renderWorldLessonPreview(panel, languageKey, level);
+  renderSkillExplorer(panel, languageKey, level);
 }
 
 function activateLevel(levelCard) {
@@ -1275,38 +1390,37 @@ document.querySelectorAll('.goal-card').forEach(card => {
   });
 });
 
-skillTabButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const skill = button.dataset.skill;
-    const parent = button.closest('.skill-tabs');
-    const buttons = parent.querySelectorAll('.skill-tab-button');
-    const panels = parent.querySelectorAll('.skill-panel');
-    const card = parent.closest('.language-card');
-    const detailToggle = card?.querySelector('.detail-toggle');
+document.addEventListener('click', event => {
+  const button = event.target.closest('.skill-tab-button');
+  if (!button) return;
 
-    buttons.forEach(btn => btn.classList.toggle('active', btn === button));
-    panels.forEach(panel => {
-      panel.classList.toggle('active', panel.dataset.skill === skill);
-    });
+  const skill = button.dataset.skill;
+  const parent = button.closest('.skill-tabs');
+  const buttons = parent?.querySelectorAll('.skill-tab-button') || [];
+  const panels = parent?.querySelectorAll('.skill-panel') || [];
+  const card = parent?.closest('.language-card');
+  const detailToggle = card?.querySelector('.detail-toggle');
 
-    if (parent) {
-      parent.classList.add('is-open');
-    }
-
-    if (card) {
-      card.querySelectorAll('.vocab-section, .grammar-section, .reading-comprehension, .tutor-action').forEach(section => {
-        section.classList.remove('is-open');
-      });
-    }
-
-    if (detailToggle) {
-      detailToggle.dataset.open = 'true';
-      detailToggle.textContent = 'Ocultar detalles';
-      detailToggle.setAttribute('aria-expanded', 'true');
-    }
-
-    parent.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  buttons.forEach(btn => btn.classList.toggle('active', btn === button));
+  panels.forEach(panel => {
+    panel.classList.toggle('active', panel.dataset.skill === skill);
   });
+
+  parent?.classList.add('is-open');
+
+  if (card) {
+    card.querySelectorAll('.vocab-section, .grammar-section, .reading-comprehension, .tutor-action').forEach(section => {
+      section.classList.remove('is-open');
+    });
+  }
+
+  if (detailToggle) {
+    detailToggle.dataset.open = 'true';
+    detailToggle.textContent = 'Ocultar detalles';
+    detailToggle.setAttribute('aria-expanded', 'true');
+  }
+
+  parent?.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
 if (menuToggle && siteMenu) {
@@ -1449,6 +1563,20 @@ function enableHomepageActions() {
         setAuthMessage(`Crea tu cuenta para desbloquear la ruta premium por USD ${premiumPriceUsd}.`);
         openModal('signup');
       }
+      return;
+    }
+
+    const worldLessonButton = event.target.closest('.world-lesson-open');
+    if (worldLessonButton) {
+      const language = worldLessonButton.dataset.language || currentTargetLanguage;
+      const level = worldLessonButton.dataset.level || learningPathState.level;
+      const languageSelect = document.getElementById('pathLanguageSelect');
+      const levelSelect = document.getElementById('pathLevelSelect');
+      if (languageSelect) languageSelect.value = language;
+      if (levelSelect) levelSelect.value = level;
+      revealSection('#learning-path');
+      loadLearningPath({ language, level });
+      showHomeToast(`Ruta ${language.toUpperCase()} ${level} abierta.`);
       return;
     }
 
