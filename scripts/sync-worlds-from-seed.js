@@ -11,9 +11,21 @@ const LANGUAGES = {
     label: 'English',
     comment: 'English world: generated from lib/seed-lessons.json.'
   },
+  spanish: {
+    label: 'Español',
+    comment: 'Spanish world: generated from lib/seed-lessons.json.'
+  },
   french: {
     label: 'Français',
     comment: 'French world: generated from lib/seed-lessons.json.'
+  },
+  italian: {
+    label: 'Italiano',
+    comment: 'Italian world: generated from lib/seed-lessons.json.'
+  },
+  german: {
+    label: 'Deutsch',
+    comment: 'German world: generated from lib/seed-lessons.json.'
   }
 };
 

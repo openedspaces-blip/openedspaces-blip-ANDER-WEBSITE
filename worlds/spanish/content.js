@@ -1,570 +1,3736 @@
 // worlds/spanish/content.js
-// Mundo de español: contenido completo A1–C2 para las 6 habilidades.
+// Spanish world: generated from lib/seed-lessons.json.
 (function () {
   window.ANDERGO_LANGUAGE_WORLDS = window.ANDERGO_LANGUAGE_WORLDS || { levelContent: {}, languageContent: {}, lessons: {} };
 
   window.ANDERGO_LANGUAGE_WORLDS.levelContent.spanish = {
-    A1: {
-      skills: {
-        listening: { title: 'Listening', text: 'Diálogos breves de la vida cotidiana con pausas claras y frases simples.', suggestions: ['Voy a la...', 'Ella tiene que...', 'Nos vemos en...'] },
-        speaking: { title: 'Speaking', text: 'Práctica oral sencilla con frases útiles para conversaciones diarias.', suggestions: ['Me gustaría...', '¿Puedes ayudarme con...', 'Estoy buscando un...'] },
-        writing: { title: 'Writing', text: 'Pequeñas redacciones guiadas con frases de inicio.', suggestions: ['Estimado/a...', 'En mi opinión...', 'El fin de semana pasado...'] }
+  "A1": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Español esencial: Identifica nombre, país y gusto personal en una presentación breve.",
+        "suggestions": [
+          "Hola, me llamo...",
+          "Soy de...",
+          "Mucho gusto.",
+          "Me gusta estudiar."
+        ]
       },
-      vocab: [['Hola', 'Hello'], ['Familia', 'Family'], ['Mañana', 'Morning'], ['Viajar', 'Travel'], ['Ayuda', 'Help'], ['Amigo', 'Friend']],
-      grammar: [['A1', 'Presente, artículos y pronombres básicos.'], ['A2', 'Pasado simple y adverbios de frecuencia.']],
-      reading: {
-        title: 'Ejemplo de lectura A1',
-        text: 'Sara visita un museo pequeño en su ciudad cada sábado. Lee las etiquetas y escucha al guía. Le gusta escribir una nota corta sobre su objeto favorito.',
-        questions: [
-          { q: 'What does Sara do at the museum?', options: ['She cooks', 'She reads the labels', 'She buys books', 'She plays music'], answer: 1 },
-          { q: 'How often does she visit?', options: ['Every day', 'Every Saturday', 'Once a year', 'Never'], answer: 1 },
-          { q: 'What does she write?', options: ['A shopping list', 'A note about her favorite object', 'A letter', 'A recipe'], answer: 1 }
+      "speaking": {
+        "title": "Speaking",
+        "text": "Español esencial: Habla de tu nombre, tu ciudad y una actividad que te gusta.",
+        "suggestions": [
+          "Me llamo Laura.",
+          "Vivo en Santiago.",
+          "Trabajo por la mañana.",
+          "¿Y tú?"
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Español esencial: Escribe 4 frases sobre tu familia, tu rutina y tu lugar favorito.",
+        "suggestions": [
+          "Mi familia es pequeña.",
+          "Desayuno a las siete.",
+          "Mi lugar favorito es el parque.",
+          "Después estudio."
         ]
       }
     },
-    A2: {
-      skills: {
-        listening: { title: 'Listening', text: 'Práctica de escucha con vocabulario común y estructuras breves.', suggestions: ['Suelo despertarme a las...', 'El tiempo está...', 'Necesitamos comprar...'] },
-        speaking: { title: 'Speaking', text: 'Conversaciones básicas para hablar de rutinas y planes.', suggestions: ['Normalmente...', 'La semana que viene quiero...', 'Es importante...'] },
-        writing: { title: 'Writing', text: 'Mensajes cortos y descripciones personales.', suggestions: ['El fin de semana pasado...', 'Mi lugar favorito es...', 'Me gusta...'] }
-      },
-      vocab: [['Ciudad', 'City'], ['Museo', 'Museum'], ['Guía', 'Guide'], ['Nota', 'Note'], ['Favorito', 'Favorite'], ['Visita', 'Visit']],
-      grammar: [['A2', 'Presente continuo y comparaciones simples.'], ['B1', 'Conectores básicos para párrafos cortos.']],
-      reading: {
-        title: 'Ejemplo de lectura A2',
-        text: 'Tom va al parque todas las mañanas. Ve los árboles, oye a los pájaros y toma café antes de clase.',
-        questions: [
-          { q: 'Where does Tom go every morning?', options: ['To the beach', 'To the park', 'To the museum', 'To the gym'], answer: 1 },
-          { q: 'What does he hear?', options: ['Music', 'The birds', 'Traffic', 'Rain'], answer: 1 },
-          { q: 'What does he drink?', options: ['Tea', 'Juice', 'Coffee', 'Water'], answer: 2 }
-        ]
-      }
-    },
-    B1: {
-      skills: {
-        listening: { title: 'Listening', text: 'Conversaciones claras con opiniones, preferencias y situaciones realistas.', suggestions: ['Creo que...', 'Parece que...', '¿Qué piensas sobre...?'] },
-        speaking: { title: 'Speaking', text: 'Práctica oral para dar opiniones y explicar decisiones.', suggestions: ['En mi opinión...', 'Una razón es...', 'Prefiero...'] },
-        writing: { title: 'Writing', text: 'Escritura de párrafos con organización y detalles de apoyo.', suggestions: ['En primer lugar...', 'Otro punto es...', 'Por ejemplo...'] }
-      },
-      vocab: [['Opinión', 'Opinion'], ['Preferencia', 'Preference'], ['Razón', 'Reason'], ['Experiencia', 'Experience'], ['Discutir', 'Discuss'], ['Mejorar', 'Improve']],
-      grammar: [['B1', 'Pretérito perfecto, modales y formas de futuro.'], ['B2', 'Condicionales y estilo indirecto.']],
-      reading: {
-        title: 'Ejemplo de lectura B1',
-        text: 'Maya empezó un trabajo nuevo y está aprendiendo a organizar su semana. Escribe prioridades y revisa su calendario cada tarde.',
-        questions: [
-          { q: 'What did Maya start recently?', options: ['A trip', 'A new job', 'A class', 'A business'], answer: 1 },
-          { q: 'What does she write down?', options: ['Letters', 'Her priorities', 'Poems', 'Recipes'], answer: 1 },
-          { q: 'When does she check her calendar?', options: ['In the morning', 'At noon', 'Every evening', 'On Sundays'], answer: 2 }
-        ]
-      }
-    },
-    B2: {
-      skills: {
-        listening: { title: 'Listening', text: 'Audios más largos con matices, opiniones y explicaciones detalladas.', suggestions: ['Es probable que...', 'El punto principal es...', 'Según el hablante...'] },
-        speaking: { title: 'Speaking', text: 'Tareas orales extensas con argumentación y comparaciones.', suggestions: ['Por un lado...', 'Por otro lado...', 'Dicho esto...'] },
-        writing: { title: 'Writing', text: 'Ensayos y respuestas estructuradas con mejor cohesión.', suggestions: ['Para empezar...', 'En contraste...', 'Como resultado...'] }
-      },
-      vocab: [['Argumento', 'Argument'], ['Evidencia', 'Evidence'], ['Contexto', 'Context'], ['Complejo', 'Complex'], ['Preciso', 'Precise'], ['Debate', 'Debate']],
-      grammar: [['B2', 'Oraciones condicionales y voz pasiva.'], ['C1', 'Conectores avanzados y estilo.']],
-      reading: {
-        title: 'Ejemplo de lectura B2',
-        text: 'El artículo compara dos ciudades y explica cómo el transporte público, la vivienda y la vida social afectan a los residentes de maneras muy distintas.',
-        questions: [
-          { q: 'What does the article compare?', options: ['Two countries', 'Two cities', 'Two decades', 'Two languages'], answer: 1 },
-          { q: 'Which three areas are mentioned?', options: ['Food, climate, sport', 'Transport, housing, social life', 'Music, art, history', 'Politics, economy, science'], answer: 1 },
-          { q: 'How are the cities described?', options: ['Identical', 'Very different', 'Without residents', 'Abandoned'], answer: 1 }
-        ]
-      }
-    },
-    C1: {
-      skills: {
-        listening: { title: 'Listening', text: 'Habla rápida y natural con varios interlocutores y temas abstractos.', suggestions: ['El hablante sugiere que...', 'Una idea clave es...', 'Esto apunta a que...'] },
-        speaking: { title: 'Speaking', text: 'Práctica oral de alto nivel para discusión y debate.', suggestions: ['Desde mi punto de vista...', 'Se podría argumentar que...', 'Un ejemplo contundente es...'] },
-        writing: { title: 'Writing', text: 'Composición avanzada con estructura cuidada y control retórico.', suggestions: ['La afirmación central es...', 'A la luz de esto...', 'Para apoyar este punto...'] }
-      },
-      vocab: [['Matiz', 'Nuance'], ['Abstracto', 'Abstract'], ['Retórica', 'Rhetoric'], ['Precisión', 'Precision'], ['Coherencia', 'Cohesion'], ['Argumentación', 'Argumentation']],
-      grammar: [['C1', 'Voz pasiva avanzada y subjuntivo.'], ['C2', 'Registro, estilo y cohesión fina.']],
-      reading: {
-        title: 'Ejemplo de lectura C1',
-        text: 'Un ensayo cultural explora cómo el lenguaje moldea la identidad y explica por qué las comunidades preservan tradiciones a través de relatos y rituales compartidos.',
-        questions: [
-          { q: 'What does the essay explore?', options: ['Global economy', 'How language shapes identity', 'Military history', 'Modern technology'], answer: 1 },
-          { q: 'How do communities preserve traditions?', options: ['With laws', 'With shared stories and rituals', 'With taxes', 'With borders'], answer: 1 },
-          { q: 'What is the main theme?', options: ['Sport', 'Cultural identity', 'Agriculture', 'Weather'], answer: 1 }
-        ]
-      }
-    },
-    C2: {
-      skills: {
-        listening: { title: 'Listening', text: 'Audio denso y auténtico con significado sutil, lenguaje idiomático y ritmo rápido.', suggestions: ['El mensaje implícito es...', 'El hablante contrasta...', 'Este punto es especialmente relevante porque...'] },
-        speaking: { title: 'Speaking', text: 'Práctica de habla casi nativa para una comunicación matizada y profesional.', suggestions: ['Para expresarlo con más precisión...', 'Lo que más destaca es...', 'En un contexto más amplio...'] },
-        writing: { title: 'Writing', text: 'Escritura sofisticada con estilo, encuadre y precisión.', suggestions: ['Teniendo esto en cuenta...', 'Un enfoque más matizado sería...', 'En conclusión...'] }
-      },
-      vocab: [['Matizado', 'Nuanced'], ['Registro', 'Register'], ['Inferencia', 'Inference'], ['Transmitir', 'Convey'], ['Sutil', 'Subtle'], ['Precisión', 'Precision']],
-      grammar: [['C2', 'Gramática fina, cohesión y estilo formal.'], ['Maestría', 'Near-native fluency and control.']],
-      reading: {
-        title: 'Ejemplo de lectura C2',
-        text: 'El texto final examina la intersección entre política, identidad e historia, exigiendo al lector inferir significados en varias capas de argumento.',
-        questions: [
-          { q: 'What does the final text examine?', options: ['Recipes', 'The intersection of policy, identity and history', 'A technical manual', 'A travel itinerary'], answer: 1 },
-          { q: 'What is asked of the reader?', options: ['Memorize dates', 'Infer meaning across several layers', 'Translate word for word', 'Summarize in one line'], answer: 1 },
-          { q: 'What is the focus of the argument?', options: ['Superficial', 'Deep and nuanced', 'Comedic', 'Promotional'], answer: 1 }
-        ]
-      }
+    "vocab": [
+      [
+        "Hola",
+        "Hello"
+      ],
+      [
+        "nombre",
+        "name"
+      ],
+      [
+        "país",
+        "country"
+      ],
+      [
+        "amigo",
+        "friend"
+      ],
+      [
+        "clase",
+        "class"
+      ]
+    ],
+    "grammar": [
+      [
+        "A1",
+        "Saludos básicos, ser, llamarse y artículos indefinidos."
+      ],
+      [
+        "Mission",
+        "Identifica nombre, país y gusto personal en una presentación breve."
+      ]
+    ],
+    "reading": {
+      "title": "Español A1 Reading",
+      "text": "En casa de Julia viven tres personas. Su padre cocina por la noche y ella lee antes de dormir.",
+      "questions": [
+        "¿Cuántas personas viven en la casa?",
+        "¿Quién cocina por la noche?",
+        "¿Qué hace la protagonista antes de dormir?"
+      ]
     }
-  };
+  },
+  "A2": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Vida cotidiana: Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar.",
+        "suggestions": [
+          "Quiero un café con leche.",
+          "¿Cuánto cuesta?",
+          "Necesito medio kilo.",
+          "Ahora estoy comprando fruta."
+        ]
+      },
+      "speaking": {
+        "title": "Speaking",
+        "text": "Vida cotidiana: Explica cómo ir al banco, a la estación y a una farmacia cercana.",
+        "suggestions": [
+          "Sigue recto.",
+          "Gira a la izquierda.",
+          "La farmacia está al lado del banco.",
+          "Cruza la plaza."
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Vida cotidiana: Cuenta dónde estuviste, qué viste y qué harás la próxima semana.",
+        "suggestions": [
+          "La semana pasada visité...",
+          "Me gustó mucho...",
+          "Voy a volver en agosto.",
+          "También quiero probar..."
+        ]
+      }
+    },
+    "vocab": [
+      [
+        "café",
+        "coffee"
+      ],
+      [
+        "leche",
+        "milk"
+      ],
+      [
+        "precio",
+        "price"
+      ],
+      [
+        "fruta",
+        "fruit"
+      ],
+      [
+        "kilo",
+        "kilo"
+      ]
+    ],
+    "grammar": [
+      [
+        "A2",
+        "Querer, pedir, números, cantidades y presente continuo."
+      ],
+      [
+        "Mission",
+        "Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar."
+      ]
+    ],
+    "reading": {
+      "title": "Español A2 Reading",
+      "text": "Lucía invita a sus amigos al cine el sábado. Después de la película, todos cenan en un restaurante pequeño.",
+      "questions": [
+        "¿Qué día es la invitación?",
+        "¿Qué hacen después del cine?",
+        "¿Cómo es el restaurante que visitan?"
+      ]
+    }
+  },
+  "B1": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Conversación independiente: Identifica problemas, soluciones y decisiones en una charla cotidiana.",
+        "suggestions": [
+          "Últimamente trabajo demasiado.",
+          "Antes estudiaba por la noche.",
+          "Por eso necesito organizarme.",
+          "Debería descansar más."
+        ]
+      },
+      "speaking": {
+        "title": "Speaking",
+        "text": "Conversación independiente: Explica qué hábito te ayuda más y justifica tu elección con dos razones.",
+        "suggestions": [
+          "En mi opinión, caminar ayuda.",
+          "Creo que dormir bien es clave.",
+          "Una razón es el estrés.",
+          "También sirve para concentrarse."
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Conversación independiente: Escribe un relato sobre una dificultad y la estrategia que usaste para superarla.",
+        "suggestions": [
+          "Al principio fue difícil.",
+          "Después pedí ayuda.",
+          "Poco a poco mejoré.",
+          "Al final me sentí orgulloso."
+        ]
+      }
+    },
+    "vocab": [
+      [
+        "horario",
+        "schedule"
+      ],
+      [
+        "descanso",
+        "rest"
+      ],
+      [
+        "prioridad",
+        "priority"
+      ],
+      [
+        "cansancio",
+        "tiredness"
+      ],
+      [
+        "organizar",
+        "to organize"
+      ]
+    ],
+    "grammar": [
+      [
+        "B1",
+        "Pretérito imperfecto vs. indefinido, obligación y conectores de causa."
+      ],
+      [
+        "Mission",
+        "Identifica problemas, soluciones y decisiones en una charla cotidiana."
+      ]
+    ],
+    "reading": {
+      "title": "Español B1 Reading",
+      "text": "Un grupo del barrio organiza talleres de lectura para niños. Gracias al proyecto, más vecinos visitan la biblioteca.",
+      "questions": [
+        "¿Para quién son los talleres?",
+        "¿Qué lugar visitan más los vecinos ahora?",
+        "¿Qué efecto tiene el proyecto?"
+      ]
+    }
+  },
+  "B2": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Español aplicado: Distingue tesis, ejemplos y concesiones en una discusión formal.",
+        "suggestions": [
+          "Por un lado, ahorra tiempo.",
+          "Sin embargo, reduce el contacto.",
+          "Podría mejorar la productividad.",
+          "Depende del tipo de trabajo."
+        ]
+      },
+      "speaking": {
+        "title": "Speaking",
+        "text": "Español aplicado: Argumenta qué política apoyas y responde a una objeción posible.",
+        "suggestions": [
+          "La primera medida es más viable.",
+          "Aun así, la otra opción es atractiva.",
+          "Si hubiera más buses, bajarían los costos.",
+          "Conviene evaluar el presupuesto."
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Español aplicado: Escribe una propuesta para mejorar tu centro de estudio o trabajo.",
+        "suggestions": [
+          "Propongo que se amplíe...",
+          "Sería conveniente revisar...",
+          "Además, esta medida permitiría...",
+          "Por último, conviene evaluar resultados."
+        ]
+      }
+    },
+    "vocab": [
+      [
+        "productividad",
+        "productivity"
+      ],
+      [
+        "contacto",
+        "contact"
+      ],
+      [
+        "debate",
+        "debate"
+      ],
+      [
+        "empresa",
+        "company"
+      ],
+      [
+        "postura",
+        "stance"
+      ]
+    ],
+    "grammar": [
+      [
+        "B2",
+        "Condicional simple, expresiones de probabilidad y conectores adversativos."
+      ],
+      [
+        "Mission",
+        "Distingue tesis, ejemplos y concesiones en una discusión formal."
+      ]
+    ],
+    "reading": {
+      "title": "Español B2 Reading",
+      "text": "Un reportaje explica cómo varias ciudades limitan el tráfico turístico. Los residentes dicen que la convivencia mejora cuando hay reglas claras.",
+      "questions": [
+        "¿Qué limitan varias ciudades?",
+        "¿Qué dicen los residentes?",
+        "¿Qué tipo de reglas mejora la convivencia?"
+      ]
+    }
+  },
+  "C1": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Expresión matizada: Resume la postura central y dos argumentos secundarios del episodio.",
+        "suggestions": [
+          "Es probable que la lengua cambie.",
+          "Lo relevante es la memoria compartida.",
+          "No obstante, cada generación reinterpreta el pasado.",
+          "En ese sentido, migrar transforma la identidad."
+        ]
+      },
+      "speaking": {
+        "title": "Speaking",
+        "text": "Expresión matizada: Presenta tu postura, matízala y responde con cortesía a otra opinión.",
+        "suggestions": [
+          "Comparto parte de esa idea.",
+          "Dicho de otro modo...",
+          "No la descartaría del todo.",
+          "Conviene distinguir contexto y efecto."
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Expresión matizada: Redacta una reseña que evalúe contenido, enfoque y efectos en el lector.",
+        "suggestions": [
+          "La obra plantea una pregunta decisiva.",
+          "Su enfoque resulta convincente.",
+          "No obstante, omite una dimensión relevante.",
+          "En conjunto, ofrece una lectura sólida."
+        ]
+      }
+    },
+    "vocab": [
+      [
+        "identidad",
+        "identity"
+      ],
+      [
+        "memoria",
+        "memory"
+      ],
+      [
+        "migración",
+        "migration"
+      ],
+      [
+        "pertenencia",
+        "belonging"
+      ],
+      [
+        "matiz",
+        "nuance"
+      ]
+    ],
+    "grammar": [
+      [
+        "C1",
+        "Subjuntivo en valoración, nominalización y conectores discursivos avanzados."
+      ],
+      [
+        "Mission",
+        "Resume la postura central y dos argumentos secundarios del episodio."
+      ]
+    ],
+    "reading": {
+      "title": "Español C1 Reading",
+      "text": "El ensayo sostiene que el lenguaje público organiza la memoria colectiva. A partir de varias metáforas, conecta relato, poder y comunidad.",
+      "questions": [
+        "¿Qué organiza el lenguaje público?",
+        "¿Qué recurso usa el autor?",
+        "¿Qué relación establece entre poder y comunidad?"
+      ]
+    }
+  },
+  "C2": {
+    "skills": {
+      "listening": {
+        "title": "Listening",
+        "text": "Dominio superior: Explica qué se dice, qué se insinúa y por qué cambia el tono.",
+        "suggestions": [
+          "Dicho así, parece inocente.",
+          "Lo verdaderamente revelador es el tono.",
+          "No deja de ser llamativo.",
+          "Entre líneas se percibe otra intención."
+        ]
+      },
+      "speaking": {
+        "title": "Speaking",
+        "text": "Dominio superior: Defiende una posición compleja, concede un punto menor y reformula una solución.",
+        "suggestions": [
+          "Admito ese punto, aunque...",
+          "Si afinamos los términos...",
+          "Lo decisivo no es solo el costo.",
+          "Propongo una salida intermedia."
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "text": "Dominio superior: Escribe un editorial que combine análisis, tono y una conclusión memorable.",
+        "suggestions": [
+          "Conviene desconfiar de las respuestas simples.",
+          "La discusión exige una mirada más amplia.",
+          "Ese gesto retórico no es casual.",
+          "En última instancia, la cuestión permanece abierta."
+        ]
+      }
+    },
+    "vocab": [
+      [
+        "ironía",
+        "irony"
+      ],
+      [
+        "insinuación",
+        "insinuation"
+      ],
+      [
+        "tono",
+        "tone"
+      ],
+      [
+        "subtexto",
+        "subtext"
+      ],
+      [
+        "énfasis",
+        "emphasis"
+      ]
+    ],
+    "grammar": [
+      [
+        "C2",
+        "Énfasis, focalización, ironía y cohesión fina."
+      ],
+      [
+        "Mission",
+        "Explica qué se dice, qué se insinúa y por qué cambia el tono."
+      ]
+    ],
+    "reading": {
+      "title": "Español C2 Reading",
+      "text": "La crítica presupone un lector experto y usa una alusión histórica para resignificar el cierre del ensayo.",
+      "questions": [
+        "¿Qué tipo de lector presupone la crítica?",
+        "¿Qué recurso resignifica el cierre?",
+        "¿Cómo cambia la interpretación final?"
+      ]
+    }
+  }
+};
 
+  window.ANDERGO_LANGUAGE_WORLDS.lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons || {};
   window.ANDERGO_LANGUAGE_WORLDS.lessons.spanish = [
   {
-    "slug": "saludos-a1",
+    "slug": "spanish-a1-listening",
     "level": "A1",
     "skill": "listening",
-    "title": "Saludos y presentaciones",
+    "title": "Español A1 · Listening Lab",
+    "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "description": "Aprende a saludar y presentarte en español.",
-    "intro": "Escucha saludos cortos y relaciónalos con la situación correcta.",
+    "orderIndex": 370,
+    "estimatedMinutes": 10,
+    "description": "Español esencial: Reconoce saludos, nombres y países en diálogos muy breves.",
+    "intro": "Escucha mini conversaciones de bienvenida y detecta quién habla, cómo se llama y de dónde es.",
+    "mission": "Identifica nombre, país y gusto personal en una presentación breve.",
+    "grammar": "Saludos básicos, ser, llamarse y artículos indefinidos.",
+    "phrases": [
+      "Hola, me llamo...",
+      "Soy de...",
+      "Mucho gusto.",
+      "Me gusta estudiar."
+    ],
     "vocabulary": [
       {
         "word": "Hola",
         "translation": "Hello",
-        "example": "Hola, me llamo Ana."
+        "example": "Hoy practico la palabra \"Hola\"."
       },
       {
-        "word": "Mucho gusto",
-        "translation": "Nice to meet you",
-        "example": "Mucho gusto, David."
+        "word": "nombre",
+        "translation": "name",
+        "example": "Hoy practico la palabra \"nombre\"."
       },
       {
-        "word": "Buenos días",
-        "translation": "Good morning",
-        "example": "¡Buenos días! ¿Cómo estás?"
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Ana",
-        "line": "¡Hola! Me llamo Ana.",
-        "translation": "Hello! My name is Ana."
+        "word": "país",
+        "translation": "country",
+        "example": "Hoy practico la palabra \"país\"."
       },
       {
-        "speaker": "Leo",
-        "line": "Mucho gusto, Ana. Soy Leo.",
-        "translation": "Nice to meet you, Ana. I am Leo."
-      }
-    ],
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "What does \"Mucho gusto\" mean?",
-        "options": [
-          "Goodbye",
-          "Nice to meet you",
-          "Thank you"
-        ],
-        "answer": 1
+        "word": "amigo",
+        "translation": "friend",
+        "example": "Hoy practico la palabra \"amigo\"."
       },
       {
-        "type": "mcq",
-        "prompt": "What does \"Buenos días\" mean?",
-        "options": [
-          "Good night",
-          "Good morning",
-          "Good afternoon"
-        ],
-        "answer": 1
-      }
-    ]
-  },
-  {
-    "slug": "rutina-diaria-a1",
-    "level": "A1",
-    "skill": "speaking",
-    "title": "Mi rutina diaria",
-    "isFree": true,
-    "xpReward": 20,
-    "description": "Habla de tu día usando el presente.",
-    "intro": "Practica contar lo que haces cada día, paso a paso.",
-    "vocabulary": [
-      {
-        "word": "Despertar",
-        "translation": "Wake up",
-        "example": "Me despierto a las siete."
-      },
-      {
-        "word": "Desayuno",
-        "translation": "Breakfast",
-        "example": "Como el desayuno en casa."
-      },
-      {
-        "word": "Trabajo",
-        "translation": "Work",
-        "example": "Voy al trabajo en autobús."
+        "word": "clase",
+        "translation": "class",
+        "example": "Hoy practico la palabra \"clase\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿A qué hora te despiertas?",
-        "translation": "What time do you wake up?"
+        "line": "Hola, me llamo...",
+        "translation": "Model line"
       },
       {
-        "speaker": "Estudiante",
-        "line": "Me despierto a las siete.",
-        "translation": "I wake up at seven."
+        "speaker": "Student",
+        "line": "Soy de...",
+        "translation": "Guided reply"
       }
     ],
+    "reading": {
+      "text": "Ana llega a una clase nueva. Dice su nombre, cuenta que es de Baní y comenta que le gusta la música.",
+      "questions": [
+        "¿Quién llega a una clase nueva?",
+        "¿De qué lugar habla el texto?",
+        "¿Qué gusto personal menciona la persona?"
+      ]
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "How do you say \"breakfast\"?",
+        "prompt": "¿Qué significa \"Hola\"?",
         "options": [
-          "Cena",
-          "Desayuno",
-          "Almuerzo"
+          "Hello",
+          "name",
+          "country",
+          "friend"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
-        "type": "speaking",
-        "prompt": "Di en voz alta toda tu rutina matutina.",
+        "type": "listening",
+        "prompt": "Escucha y anota dos detalles clave: Identifica nombre, país y gusto personal en una presentación breve.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Hola, me llamo... / Soy de...",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "mi-familia-a1",
+    "slug": "spanish-a1-speaking",
     "level": "A1",
-    "skill": "writing",
-    "title": "Mi familia",
+    "skill": "speaking",
+    "title": "Español A1 · Speaking Mission",
+    "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "description": "Escribe frases cortas describiendo a tu familia.",
-    "intro": "Usa frases simples para presentar a tu familia.",
+    "orderIndex": 380,
+    "estimatedMinutes": 12,
+    "description": "Español esencial: Preséntate y responde preguntas simples sobre ti.",
+    "intro": "Practica una presentación oral corta para tu primera clase.",
+    "mission": "Habla de tu nombre, tu ciudad y una actividad que te gusta.",
+    "grammar": "Pronombres personales, ser y preguntas con ¿cómo? y ¿de dónde?.",
+    "phrases": [
+      "Me llamo Laura.",
+      "Vivo en Santiago.",
+      "Trabajo por la mañana.",
+      "¿Y tú?"
+    ],
     "vocabulary": [
       {
-        "word": "Madre",
-        "translation": "Mother",
-        "example": "Mi madre es profesora."
+        "word": "vivir",
+        "translation": "to live",
+        "example": "Hoy practico la palabra \"vivir\"."
       },
       {
-        "word": "Hermano",
-        "translation": "Brother",
-        "example": "Tengo un hermano."
+        "word": "ciudad",
+        "translation": "city",
+        "example": "Hoy practico la palabra \"ciudad\"."
       },
       {
-        "word": "Familia",
-        "translation": "Family",
-        "example": "Mi familia es pequeña."
+        "word": "estudiante",
+        "translation": "student",
+        "example": "Hoy practico la palabra \"estudiante\"."
+      },
+      {
+        "word": "trabajo",
+        "translation": "work",
+        "example": "Hoy practico la palabra \"trabajo\"."
+      },
+      {
+        "word": "mañana",
+        "translation": "morning",
+        "example": "Hoy practico la palabra \"mañana\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Cuéntame de tu familia.",
-        "translation": "Tell me about your family."
+        "line": "Me llamo Laura.",
+        "translation": "Model line"
       },
       {
-        "speaker": "Estudiante",
-        "line": "Tengo una madre y un hermano.",
-        "translation": "I have a mother and a brother."
+        "speaker": "Student",
+        "line": "Vivo en Santiago.",
+        "translation": "Guided reply"
       }
     ],
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Escribe 3 frases sobre tu familia.",
-        "answer": "Open answer"
-      },
-      {
-        "type": "mcq",
-        "prompt": "How do you say \"brother\"?",
-        "options": [
-          "Sister",
-          "Brother",
-          "Friend"
-        ],
-        "answer": 1
-      }
-    ]
-  },
-  {
-    "slug": "planes-fin-semana-a2",
-    "level": "A2",
-    "skill": "speaking",
-    "title": "Planes de fin de semana",
-    "isFree": true,
-    "xpReward": 25,
-    "description": "Habla de planes futuros usando \"ir a\".",
-    "intro": "Practica describir lo que vas a hacer este fin de semana.",
-    "vocabulary": [
-      {
-        "word": "Plan",
-        "translation": "Plan",
-        "example": "Tengo un plan para el sábado."
-      },
-      {
-        "word": "Viaje",
-        "translation": "Trip",
-        "example": "Vamos a hacer un viaje."
-      },
-      {
-        "word": "Descansar",
-        "translation": "Rest",
-        "example": "Quiero descansar este fin de semana."
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Tutor",
-        "line": "¿Qué vas a hacer este fin de semana?",
-        "translation": "What are you going to do this weekend?"
-      },
-      {
-        "speaker": "Estudiante",
-        "line": "Voy a visitar a mis padres.",
-        "translation": "I'm going to visit my parents."
-      }
-    ],
+    "reading": {
+      "text": "Carlos se presenta ante su grupo. Explica que vive con su hermana y que estudia por la tarde.",
+      "questions": [
+        "¿Quién se presenta ante el grupo?",
+        "¿Con quién vive esa persona?",
+        "¿A qué hora estudia?"
+      ]
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa: Yo ___ a viajar.",
+        "prompt": "¿Qué significa \"vivir\"?",
         "options": [
-          "voy",
-          "va",
-          "vas"
+          "to live",
+          "city",
+          "student",
+          "work"
         ],
         "answer": 0
       },
       {
         "type": "speaking",
-        "prompt": "Describe tu plan de fin de semana en 3 frases.",
+        "prompt": "Habla durante 45 segundos: Habla de tu nombre, tu ciudad y una actividad que te gusta.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Me llamo Laura. / Vivo en Santiago.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "entrevista-trabajo-b1",
-    "level": "B1",
-    "skill": "speaking",
-    "title": "Entrevista de trabajo",
-    "isFree": false,
-    "xpReward": 30,
-    "description": "Responde preguntas comunes de entrevista con confianza.",
-    "intro": "Practica hablar sobre tu experiencia y tus fortalezas.",
+    "slug": "spanish-a1-reading",
+    "level": "A1",
+    "skill": "reading",
+    "title": "Español A1 · Reading Quest",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 390,
+    "estimatedMinutes": 12,
+    "description": "Español esencial: Lee perfiles breves y localiza información personal.",
+    "intro": "Lee un texto corto sobre una familia y responde preguntas concretas.",
+    "mission": "Encuentra datos sobre edades, relaciones y actividades diarias.",
+    "grammar": "Hay, tener, números y expresiones de edad.",
+    "phrases": [
+      "Tengo veinte años.",
+      "Mi padre cocina.",
+      "Hay tres personas en casa.",
+      "Leemos juntos."
+    ],
     "vocabulary": [
       {
-        "word": "Fortaleza",
-        "translation": "Strength",
-        "example": "Mi fortaleza es el trabajo en equipo."
+        "word": "padre",
+        "translation": "father",
+        "example": "Hoy practico la palabra \"padre\"."
       },
       {
-        "word": "Experiencia",
-        "translation": "Experience",
-        "example": "Tengo tres años de experiencia."
+        "word": "casa",
+        "translation": "house",
+        "example": "Hoy practico la palabra \"casa\"."
       },
       {
-        "word": "Meta",
-        "translation": "Goal",
-        "example": "Mi meta es crecer profesionalmente."
+        "word": "años",
+        "translation": "years",
+        "example": "Hoy practico la palabra \"años\"."
+      },
+      {
+        "word": "leer",
+        "translation": "to read",
+        "example": "Hoy practico la palabra \"leer\"."
+      },
+      {
+        "word": "cocinar",
+        "translation": "to cook",
+        "example": "Hoy practico la palabra \"cocinar\"."
       }
     ],
     "dialogue": [
       {
-        "speaker": "Entrevistador",
-        "line": "Cuéntame sobre tu experiencia.",
-        "translation": "Tell me about your experience."
+        "speaker": "Tutor",
+        "line": "Tengo veinte años.",
+        "translation": "Model line"
       },
       {
-        "speaker": "Candidato",
-        "line": "He trabajado en atención al cliente por dos años.",
-        "translation": "I have worked in customer service for two years."
+        "speaker": "Student",
+        "line": "Mi padre cocina.",
+        "translation": "Guided reply"
       }
     ],
+    "reading": {
+      "text": "En casa de Julia viven tres personas. Su padre cocina por la noche y ella lee antes de dormir.",
+      "questions": [
+        "¿Cuántas personas viven en la casa?",
+        "¿Quién cocina por la noche?",
+        "¿Qué hace la protagonista antes de dormir?"
+      ]
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does \"fortaleza\" mean here?",
+        "prompt": "¿Qué significa \"padre\"?",
         "options": [
-          "Weakness",
-          "Strength",
-          "Salary"
+          "father",
+          "house",
+          "years",
+          "to read"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
-        "type": "writing",
-        "prompt": "Escribe una respuesta corta a \"¿Por qué deberíamos contratarte?\"",
+        "type": "reading",
+        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Tengo veinte años. / Mi padre cocina.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "comparacion-ciudades-b2",
-    "level": "B2",
+    "slug": "spanish-a1-writing",
+    "level": "A1",
     "skill": "writing",
-    "title": "Comparando ciudades",
+    "title": "Español A1 · Writing Challenge",
+    "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "description": "Escribe un ensayo de comparación estructurado.",
-    "intro": "Practica comparar dos lugares con conectores claros.",
+    "xpReward": 20,
+    "orderIndex": 400,
+    "estimatedMinutes": 14,
+    "description": "Español esencial: Escribe una tarjeta personal con datos básicos.",
+    "intro": "Redacta frases cortas para describir tu rutina inicial y a una persona cercana.",
+    "mission": "Escribe 4 frases sobre tu familia, tu rutina y tu lugar favorito.",
+    "grammar": "Posesivos básicos, presente simple y conectores y/pero.",
+    "phrases": [
+      "Mi familia es pequeña.",
+      "Desayuno a las siete.",
+      "Mi lugar favorito es el parque.",
+      "Después estudio."
+    ],
     "vocabulary": [
       {
-        "word": "Mientras que",
-        "translation": "Whereas",
-        "example": "La ciudad A es tranquila, mientras que la B es agitada."
+        "word": "familia",
+        "translation": "family",
+        "example": "Hoy practico la palabra \"familia\"."
       },
       {
-        "word": "En cambio",
-        "translation": "In contrast",
-        "example": "En cambio, la vivienda es más barata aquí."
+        "word": "desayuno",
+        "translation": "breakfast",
+        "example": "Hoy practico la palabra \"desayuno\"."
       },
       {
-        "word": "En general",
-        "translation": "Overall",
-        "example": "En general, ambas ciudades tienen buen transporte."
+        "word": "parque",
+        "translation": "park",
+        "example": "Hoy practico la palabra \"parque\"."
+      },
+      {
+        "word": "hermana",
+        "translation": "sister",
+        "example": "Hoy practico la palabra \"hermana\"."
+      },
+      {
+        "word": "tarde",
+        "translation": "afternoon",
+        "example": "Hoy practico la palabra \"tarde\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Cómo compararías estas dos ciudades?",
-        "translation": "How would you compare these two cities?"
+        "line": "Mi familia es pequeña.",
+        "translation": "Model line"
       },
       {
-        "speaker": "Estudiante",
-        "line": "Una es más accesible, mientras que la otra tiene mejor transporte.",
-        "translation": "One is more affordable, whereas the other has better transport."
+        "speaker": "Student",
+        "line": "Desayuno a las siete.",
+        "translation": "Guided reply"
       }
     ],
+    "reading": {
+      "text": "Marta escribe una tarjeta para su amiga. Cuenta que desayuna temprano y visita el parque después de clases.",
+      "questions": [
+        "¿A quién escribe la tarjeta?",
+        "¿Qué hace la autora por la mañana?",
+        "¿Qué lugar visita después de clases?"
+      ]
+    },
     "exercises": [
       {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"familia\"?",
+        "options": [
+          "family",
+          "breakfast",
+          "park",
+          "sister"
+        ],
+        "answer": 0
+      },
+      {
         "type": "writing",
-        "prompt": "Escribe una comparación de 5 frases entre dos ciudades que conozcas.",
+        "prompt": "Escribe de 4 a 6 frases: Escribe 4 frases sobre tu familia, tu rutina y tu lugar favorito.",
         "answer": "Open answer"
       },
       {
-        "type": "mcq",
-        "prompt": "Which connector is used to contrast?",
-        "options": [
-          "También",
-          "Mientras que",
-          "Luego"
-        ],
-        "answer": 1
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Mi familia es pequeña. / Desayuno a las siete.",
+        "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "debate-abstracto-c1",
-    "level": "C1",
-    "skill": "speaking",
-    "title": "Debate estructurado",
+    "slug": "spanish-a1-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "title": "Español A1 · Grammar Focus",
+    "accessTier": "premium",
     "isFree": false,
-    "xpReward": 40,
-    "description": "Argumenta una postura con evidencia de apoyo.",
-    "intro": "Practica construir un argumento con estructura clara.",
+    "xpReward": 20,
+    "orderIndex": 410,
+    "estimatedMinutes": 11,
+    "description": "Español esencial: Domina ser, tener y los artículos más frecuentes.",
+    "intro": "Observa ejemplos simples y decide cuándo usar ser, tener, un, una, el o la.",
+    "mission": "Completa frases con ser, tener y artículos correctos.",
+    "grammar": "Ser vs. tener, género, número y concordancia básica.",
+    "phrases": [
+      "Es una profesora.",
+      "Tengo dos libros.",
+      "La mesa es grande.",
+      "Un amigo llega hoy."
+    ],
     "vocabulary": [
       {
-        "word": "Convincente",
-        "translation": "Compelling",
-        "example": "Ese es un argumento convincente."
+        "word": "profesora",
+        "translation": "teacher",
+        "example": "Hoy practico la palabra \"profesora\"."
       },
       {
-        "word": "Contraargumento",
-        "translation": "Counterpoint",
-        "example": "Un contraargumento sería..."
+        "word": "libro",
+        "translation": "book",
+        "example": "Hoy practico la palabra \"libro\"."
       },
       {
-        "word": "Premisa",
-        "translation": "Premise",
-        "example": "La premisa de esta idea es errónea."
+        "word": "mesa",
+        "translation": "table",
+        "example": "Hoy practico la palabra \"mesa\"."
+      },
+      {
+        "word": "amigo",
+        "translation": "friend",
+        "example": "Hoy practico la palabra \"amigo\"."
+      },
+      {
+        "word": "hoy",
+        "translation": "today",
+        "example": "Hoy practico la palabra \"hoy\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Cuál es tu postura sobre este tema?",
-        "translation": "What is your position on this issue?"
+        "line": "Es una profesora.",
+        "translation": "Model line"
       },
       {
-        "speaker": "Estudiante",
-        "line": "Yo argumentaría que la evidencia respalda una conclusión diferente.",
-        "translation": "I would argue that the evidence supports a different conclusion."
+        "speaker": "Student",
+        "line": "Tengo dos libros.",
+        "translation": "Guided reply"
       }
     ],
+    "reading": {
+      "text": "El aula tiene una mesa grande y dos libros. La profesora es amable y un amigo nuevo llega hoy.",
+      "questions": [
+        "¿Qué objetos hay en el aula?",
+        "¿Cómo es la profesora?",
+        "¿Quién llega hoy?"
+      ]
+    },
     "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"profesora\"?",
+        "options": [
+          "teacher",
+          "book",
+          "table",
+          "friend"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "grammar",
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Ser vs. tener, género, número y concordancia básica.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Es una profesora. / Tengo dos libros.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-a1-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "title": "Español A1 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 420,
+    "estimatedMinutes": 10,
+    "description": "Español esencial: Amplía vocabulario de aula, ciudad y tiempo.",
+    "intro": "Agrupa palabras frecuentes para moverte por la escuela y la ciudad.",
+    "mission": "Relaciona objetos, lugares y momentos del día con su uso.",
+    "grammar": "Campo léxico básico, género de sustantivos y plurales regulares.",
+    "phrases": [
+      "La biblioteca está cerca.",
+      "Necesito un cuaderno.",
+      "Hoy hace sol.",
+      "La calle es tranquila."
+    ],
+    "vocabulary": [
+      {
+        "word": "biblioteca",
+        "translation": "library",
+        "example": "Hoy practico la palabra \"biblioteca\"."
+      },
+      {
+        "word": "cuaderno",
+        "translation": "notebook",
+        "example": "Hoy practico la palabra \"cuaderno\"."
+      },
+      {
+        "word": "calle",
+        "translation": "street",
+        "example": "Hoy practico la palabra \"calle\"."
+      },
+      {
+        "word": "sol",
+        "translation": "sun",
+        "example": "Hoy practico la palabra \"sol\"."
+      },
+      {
+        "word": "autobús",
+        "translation": "bus",
+        "example": "Hoy practico la palabra \"autobús\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "La biblioteca está cerca.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Necesito un cuaderno.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Pablo sale con su cuaderno y toma el autobús a la biblioteca. La calle está tranquila y hace sol.",
+      "questions": [
+        "¿Qué lleva Pablo en la mano?",
+        "¿Adónde va en autobús?",
+        "¿Cómo está la calle?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"biblioteca\"?",
+        "options": [
+          "library",
+          "notebook",
+          "street",
+          "sun"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vocabulary",
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: La biblioteca está cerca. / Necesito un cuaderno.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-a2-listening",
+    "level": "A2",
+    "skill": "listening",
+    "title": "Español A2 · Listening Lab",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 430,
+    "estimatedMinutes": 10,
+    "description": "Vida cotidiana: Comprende pedidos sencillos, precios y cantidades.",
+    "intro": "Escucha un diálogo en una cafetería y otro en una tienda.",
+    "mission": "Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar.",
+    "grammar": "Querer, pedir, números, cantidades y presente continuo.",
+    "phrases": [
+      "Quiero un café con leche.",
+      "¿Cuánto cuesta?",
+      "Necesito medio kilo.",
+      "Ahora estoy comprando fruta."
+    ],
+    "vocabulary": [
+      {
+        "word": "café",
+        "translation": "coffee",
+        "example": "Hoy practico la palabra \"café\"."
+      },
+      {
+        "word": "leche",
+        "translation": "milk",
+        "example": "Hoy practico la palabra \"leche\"."
+      },
+      {
+        "word": "precio",
+        "translation": "price",
+        "example": "Hoy practico la palabra \"precio\"."
+      },
+      {
+        "word": "fruta",
+        "translation": "fruit",
+        "example": "Hoy practico la palabra \"fruta\"."
+      },
+      {
+        "word": "kilo",
+        "translation": "kilo",
+        "example": "Hoy practico la palabra \"kilo\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Quiero un café con leche.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "¿Cuánto cuesta?",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "En la cafetería, Sonia pide un café con leche y una tostada. Luego compra fruta para la cena.",
+      "questions": [
+        "¿Qué pide Sonia en la cafetería?",
+        "¿Qué compra después?",
+        "¿Para qué momento del día compra la fruta?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"café\"?",
+        "options": [
+          "coffee",
+          "milk",
+          "price",
+          "fruit"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "listening",
+        "prompt": "Escucha y anota dos detalles clave: Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Quiero un café con leche. / ¿Cuánto cuesta?",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-a2-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "title": "Español A2 · Speaking Mission",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 440,
+    "estimatedMinutes": 12,
+    "description": "Vida cotidiana: Pregunta y da indicaciones en el barrio.",
+    "intro": "Practica cómo llegar a lugares comunes usando referencias claras.",
+    "mission": "Explica cómo ir al banco, a la estación y a una farmacia cercana.",
+    "grammar": "Imperativo informal, preposiciones de lugar y verbos de movimiento.",
+    "phrases": [
+      "Sigue recto.",
+      "Gira a la izquierda.",
+      "La farmacia está al lado del banco.",
+      "Cruza la plaza."
+    ],
+    "vocabulary": [
+      {
+        "word": "estación",
+        "translation": "station",
+        "example": "Hoy practico la palabra \"estación\"."
+      },
+      {
+        "word": "banco",
+        "translation": "bank",
+        "example": "Hoy practico la palabra \"banco\"."
+      },
+      {
+        "word": "esquina",
+        "translation": "corner",
+        "example": "Hoy practico la palabra \"esquina\"."
+      },
+      {
+        "word": "plaza",
+        "translation": "square",
+        "example": "Hoy practico la palabra \"plaza\"."
+      },
+      {
+        "word": "farmacia",
+        "translation": "pharmacy",
+        "example": "Hoy practico la palabra \"farmacia\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Sigue recto.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Gira a la izquierda.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Tomás ayuda a una turista. Le dice que cruce la plaza y gire a la izquierda para encontrar la estación.",
+      "questions": [
+        "¿A quién ayuda Tomás?",
+        "¿Qué debe cruzar la turista?",
+        "¿Qué lugar encuentra al final del camino?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"estación\"?",
+        "options": [
+          "station",
+          "bank",
+          "corner",
+          "square"
+        ],
+        "answer": 0
+      },
       {
         "type": "speaking",
-        "prompt": "Defiende una postura en 45 segundos usando al menos un contraargumento.",
+        "prompt": "Habla durante 45 segundos: Explica cómo ir al banco, a la estación y a una farmacia cercana.",
         "answer": "Open answer"
       },
       {
-        "type": "mcq",
-        "prompt": "What is a \"contraargumento\"?",
-        "options": [
-          "An example",
-          "A counterpoint",
-          "A question"
-        ],
-        "answer": 1
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Sigue recto. / Gira a la izquierda.",
+        "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "escritura-matizada-c2",
-    "level": "C2",
-    "skill": "writing",
-    "title": "Argumentación matizada",
-    "isFree": false,
-    "xpReward": 45,
-    "description": "Escribe con precisión, registro y control retórico.",
-    "intro": "Perfecciona el tono y la cohesión en un texto formal breve.",
+    "slug": "spanish-a2-reading",
+    "level": "A2",
+    "skill": "reading",
+    "title": "Español A2 · Reading Quest",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 450,
+    "estimatedMinutes": 12,
+    "description": "Vida cotidiana: Lee planes, invitaciones y mensajes de fin de semana.",
+    "intro": "Comprende mensajes sobre horarios, actividades y encuentros.",
+    "mission": "Localiza cuándo, dónde y con quién ocurre cada plan.",
+    "grammar": "Futuro próximo, expresiones de tiempo y verbos reflexivos.",
+    "phrases": [
+      "El sábado voy al cine.",
+      "Nos vemos a las ocho.",
+      "Primero voy a cocinar.",
+      "Después descansamos."
+    ],
     "vocabulary": [
       {
-        "word": "No obstante",
-        "translation": "Notwithstanding",
-        "example": "No obstante los riesgos, el plan siguió adelante."
+        "word": "sábado",
+        "translation": "Saturday",
+        "example": "Hoy practico la palabra \"sábado\"."
       },
       {
-        "word": "Corolario",
-        "translation": "Corollary",
-        "example": "Un corolario de esta política es..."
+        "word": "cine",
+        "translation": "cinema",
+        "example": "Hoy practico la palabra \"cine\"."
       },
       {
-        "word": "Perceptible",
-        "translation": "Discernible",
-        "example": "El efecto apenas era perceptible."
+        "word": "entrada",
+        "translation": "ticket",
+        "example": "Hoy practico la palabra \"entrada\"."
+      },
+      {
+        "word": "cena",
+        "translation": "dinner",
+        "example": "Hoy practico la palabra \"cena\"."
+      },
+      {
+        "word": "encuentro",
+        "translation": "meeting",
+        "example": "Hoy practico la palabra \"encuentro\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Cómo formularías este argumento de manera más formal?",
-        "translation": "How would you frame this argument more formally?"
+        "line": "El sábado voy al cine.",
+        "translation": "Model line"
       },
       {
-        "speaker": "Estudiante",
-        "line": "No obstante las críticas, la política logró su objetivo.",
-        "translation": "Notwithstanding the criticism, the policy achieved its aim."
+        "speaker": "Student",
+        "line": "Nos vemos a las ocho.",
+        "translation": "Guided reply"
       }
     ],
+    "reading": {
+      "text": "Lucía invita a sus amigos al cine el sábado. Después de la película, todos cenan en un restaurante pequeño.",
+      "questions": [
+        "¿Qué día es la invitación?",
+        "¿Qué hacen después del cine?",
+        "¿Cómo es el restaurante que visitan?"
+      ]
+    },
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Reescribe una frase casual en un registro formal.",
+        "type": "mcq",
+        "prompt": "¿Qué significa \"sábado\"?",
+        "options": [
+          "Saturday",
+          "cinema",
+          "ticket",
+          "dinner"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "reading",
+        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
         "answer": "Open answer"
       },
       {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: El sábado voy al cine. / Nos vemos a las ocho.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-a2-writing",
+    "level": "A2",
+    "skill": "writing",
+    "title": "Español A2 · Writing Challenge",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 460,
+    "estimatedMinutes": 14,
+    "description": "Vida cotidiana: Escribe un correo sencillo sobre un viaje y un plan futuro.",
+    "intro": "Organiza un mensaje con pasado reciente y próximos pasos.",
+    "mission": "Cuenta dónde estuviste, qué viste y qué harás la próxima semana.",
+    "grammar": "Pretérito perfecto, ir a + infinitivo y conectores básicos.",
+    "phrases": [
+      "La semana pasada visité...",
+      "Me gustó mucho...",
+      "Voy a volver en agosto.",
+      "También quiero probar..."
+    ],
+    "vocabulary": [
+      {
+        "word": "viaje",
+        "translation": "trip",
+        "example": "Hoy practico la palabra \"viaje\"."
+      },
+      {
+        "word": "hotel",
+        "translation": "hotel",
+        "example": "Hoy practico la palabra \"hotel\"."
+      },
+      {
+        "word": "playa",
+        "translation": "beach",
+        "example": "Hoy practico la palabra \"playa\"."
+      },
+      {
+        "word": "agosto",
+        "translation": "August",
+        "example": "Hoy practico la palabra \"agosto\"."
+      },
+      {
+        "word": "recuerdo",
+        "translation": "memory",
+        "example": "Hoy practico la palabra \"recuerdo\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "La semana pasada visité...",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Me gustó mucho...",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Diego escribe a su prima desde la playa. Le cuenta que visitó un mercado y que va a volver en agosto.",
+      "questions": [
+        "¿A quién escribe Diego?",
+        "¿Qué lugar visitó?",
+        "¿Cuándo piensa volver?"
+      ]
+    },
+    "exercises": [
+      {
         "type": "mcq",
-        "prompt": "What does \"no obstante\" mean?",
+        "prompt": "¿Qué significa \"viaje\"?",
         "options": [
-          "Therefore",
-          "Notwithstanding",
-          "Furthermore"
+          "trip",
+          "hotel",
+          "beach",
+          "August"
         ],
-        "answer": 1
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Escribe de 4 a 6 frases: Cuenta dónde estuviste, qué viste y qué harás la próxima semana.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: La semana pasada visité... / Me gustó mucho...",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-a2-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "Español A2 · Grammar Focus",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 470,
+    "estimatedMinutes": 11,
+    "description": "Vida cotidiana: Consolida pasado reciente, futuro y pronombres básicos.",
+    "intro": "Compara acciones terminadas, planes y objetos directos.",
+    "mission": "Transforma frases del presente al pasado y al futuro próximo.",
+    "grammar": "Pretérito perfecto, ir a + infinitivo, lo/la/los/las y comparativos.",
+    "phrases": [
+      "He terminado la tarea.",
+      "Voy a llamar mañana.",
+      "La veo después.",
+      "Este café es más dulce."
+    ],
+    "vocabulary": [
+      {
+        "word": "tarea",
+        "translation": "homework",
+        "example": "Hoy practico la palabra \"tarea\"."
+      },
+      {
+        "word": "llamada",
+        "translation": "call",
+        "example": "Hoy practico la palabra \"llamada\"."
+      },
+      {
+        "word": "dulce",
+        "translation": "sweet",
+        "example": "Hoy practico la palabra \"dulce\"."
+      },
+      {
+        "word": "comparación",
+        "translation": "comparison",
+        "example": "Hoy practico la palabra \"comparación\"."
+      },
+      {
+        "word": "mañana",
+        "translation": "tomorrow",
+        "example": "Hoy practico la palabra \"mañana\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "He terminado la tarea.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Voy a llamar mañana.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Eva ha terminado la tarea y va a llamar mañana. Dice que el café de hoy es más dulce que el de ayer.",
+      "questions": [
+        "¿Qué tarea ya terminó Eva?",
+        "¿Qué hará mañana?",
+        "¿Cómo compara el café de hoy con el de ayer?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"tarea\"?",
+        "options": [
+          "homework",
+          "call",
+          "sweet",
+          "comparison"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "grammar",
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Pretérito perfecto, ir a + infinitivo, lo/la/los/las y comparativos.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: He terminado la tarea. / Voy a llamar mañana.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-a2-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "title": "Español A2 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 480,
+    "estimatedMinutes": 10,
+    "description": "Vida cotidiana: Aprende vocabulario de comida, transporte y compras.",
+    "intro": "Clasifica palabras útiles para moverte y resolver tareas diarias.",
+    "mission": "Usa palabras de mercado, autobús y casa en frases propias.",
+    "grammar": "Sustantivos contables, expresiones de cantidad y familias léxicas.",
+    "phrases": [
+      "Compro pan integral.",
+      "El autobús llega tarde.",
+      "Necesito cambio.",
+      "La sopa está caliente."
+    ],
+    "vocabulary": [
+      {
+        "word": "mercado",
+        "translation": "market",
+        "example": "Hoy practico la palabra \"mercado\"."
+      },
+      {
+        "word": "boleto",
+        "translation": "ticket",
+        "example": "Hoy practico la palabra \"boleto\"."
+      },
+      {
+        "word": "cambio",
+        "translation": "change",
+        "example": "Hoy practico la palabra \"cambio\"."
+      },
+      {
+        "word": "sopa",
+        "translation": "soup",
+        "example": "Hoy practico la palabra \"sopa\"."
+      },
+      {
+        "word": "equipaje",
+        "translation": "luggage",
+        "example": "Hoy practico la palabra \"equipaje\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Compro pan integral.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "El autobús llega tarde.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Antes de tomar el autobús, Irene pasa por el mercado. Compra pan, pide cambio y prepara sopa al llegar a casa.",
+      "questions": [
+        "¿Qué compra Irene en el mercado?",
+        "¿Qué necesita antes de pagar?",
+        "¿Qué prepara al volver a casa?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"mercado\"?",
+        "options": [
+          "market",
+          "ticket",
+          "change",
+          "soup"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vocabulary",
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Compro pan integral. / El autobús llega tarde.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b1-listening",
+    "level": "B1",
+    "skill": "listening",
+    "title": "Español B1 · Listening Lab",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 490,
+    "estimatedMinutes": 10,
+    "description": "Conversación independiente: Sigue una conversación sobre horarios, cansancio y prioridades.",
+    "intro": "Escucha a dos personas que buscan equilibrio entre estudio, trabajo y descanso.",
+    "mission": "Identifica problemas, soluciones y decisiones en una charla cotidiana.",
+    "grammar": "Pretérito imperfecto vs. indefinido, obligación y conectores de causa.",
+    "phrases": [
+      "Últimamente trabajo demasiado.",
+      "Antes estudiaba por la noche.",
+      "Por eso necesito organizarme.",
+      "Debería descansar más."
+    ],
+    "vocabulary": [
+      {
+        "word": "horario",
+        "translation": "schedule",
+        "example": "Hoy practico la palabra \"horario\"."
+      },
+      {
+        "word": "descanso",
+        "translation": "rest",
+        "example": "Hoy practico la palabra \"descanso\"."
+      },
+      {
+        "word": "prioridad",
+        "translation": "priority",
+        "example": "Hoy practico la palabra \"prioridad\"."
+      },
+      {
+        "word": "cansancio",
+        "translation": "tiredness",
+        "example": "Hoy practico la palabra \"cansancio\"."
+      },
+      {
+        "word": "organizar",
+        "translation": "to organize",
+        "example": "Hoy practico la palabra \"organizar\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Últimamente trabajo demasiado.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Antes estudiaba por la noche.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Raúl trabajaba hasta tarde y llegaba cansado a clase. Ahora usa un horario fijo y descansa mejor.",
+      "questions": [
+        "¿Por qué llegaba cansado Raúl a clase?",
+        "¿Qué cambió en su rutina?",
+        "¿Cómo se siente ahora?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"horario\"?",
+        "options": [
+          "schedule",
+          "rest",
+          "priority",
+          "tiredness"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "listening",
+        "prompt": "Escucha y anota dos detalles clave: Identifica problemas, soluciones y decisiones en una charla cotidiana.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Últimamente trabajo demasiado. / Antes estudiaba por la noche.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b1-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "title": "Español B1 · Speaking Mission",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 500,
+    "estimatedMinutes": 12,
+    "description": "Conversación independiente: Expresa opiniones sobre hábitos saludables y aprendizaje.",
+    "intro": "Defiende una idea, da razones y responde a una objeción.",
+    "mission": "Explica qué hábito te ayuda más y justifica tu elección con dos razones.",
+    "grammar": "Creo que, pienso que, deber, porque y para + infinitivo.",
+    "phrases": [
+      "En mi opinión, caminar ayuda.",
+      "Creo que dormir bien es clave.",
+      "Una razón es el estrés.",
+      "También sirve para concentrarse."
+    ],
+    "vocabulary": [
+      {
+        "word": "salud",
+        "translation": "health",
+        "example": "Hoy practico la palabra \"salud\"."
+      },
+      {
+        "word": "costumbre",
+        "translation": "habit",
+        "example": "Hoy practico la palabra \"costumbre\"."
+      },
+      {
+        "word": "energía",
+        "translation": "energy",
+        "example": "Hoy practico la palabra \"energía\"."
+      },
+      {
+        "word": "estrés",
+        "translation": "stress",
+        "example": "Hoy practico la palabra \"estrés\"."
+      },
+      {
+        "word": "concentración",
+        "translation": "concentration",
+        "example": "Hoy practico la palabra \"concentración\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "En mi opinión, caminar ayuda.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Creo que dormir bien es clave.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "En el club de idiomas, Marta opina que dormir bien mejora la concentración. Sus compañeros prefieren hacer ejercicio.",
+      "questions": [
+        "¿Qué hábito valora Marta?",
+        "¿Qué prefieren sus compañeros?",
+        "¿Qué beneficio menciona el texto?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"salud\"?",
+        "options": [
+          "health",
+          "habit",
+          "energy",
+          "stress"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "speaking",
+        "prompt": "Habla durante 45 segundos: Explica qué hábito te ayuda más y justifica tu elección con dos razones.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: En mi opinión, caminar ayuda. / Creo que dormir bien es clave.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b1-reading",
+    "level": "B1",
+    "skill": "reading",
+    "title": "Español B1 · Reading Quest",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 510,
+    "estimatedMinutes": 12,
+    "description": "Conversación independiente: Comprende un artículo breve sobre proyectos comunitarios.",
+    "intro": "Lee una nota sobre voluntariado y reconoce objetivos y resultados.",
+    "mission": "Encuentra quién participa, qué hace y por qué el proyecto funciona.",
+    "grammar": "Relativos básicos, conectores de secuencia y voz media frecuente.",
+    "phrases": [
+      "El grupo organiza talleres.",
+      "La actividad empezó en mayo.",
+      "Muchos vecinos participan.",
+      "Gracias al proyecto, hay más apoyo."
+    ],
+    "vocabulary": [
+      {
+        "word": "barrio",
+        "translation": "neighborhood",
+        "example": "Hoy practico la palabra \"barrio\"."
+      },
+      {
+        "word": "taller",
+        "translation": "workshop",
+        "example": "Hoy practico la palabra \"taller\"."
+      },
+      {
+        "word": "vecino",
+        "translation": "neighbor",
+        "example": "Hoy practico la palabra \"vecino\"."
+      },
+      {
+        "word": "apoyo",
+        "translation": "support",
+        "example": "Hoy practico la palabra \"apoyo\"."
+      },
+      {
+        "word": "proyecto",
+        "translation": "project",
+        "example": "Hoy practico la palabra \"proyecto\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "El grupo organiza talleres.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "La actividad empezó en mayo.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Un grupo del barrio organiza talleres de lectura para niños. Gracias al proyecto, más vecinos visitan la biblioteca.",
+      "questions": [
+        "¿Para quién son los talleres?",
+        "¿Qué lugar visitan más los vecinos ahora?",
+        "¿Qué efecto tiene el proyecto?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"barrio\"?",
+        "options": [
+          "neighborhood",
+          "workshop",
+          "neighbor",
+          "support"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "reading",
+        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: El grupo organiza talleres. / La actividad empezó en mayo.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b1-writing",
+    "level": "B1",
+    "skill": "writing",
+    "title": "Español B1 · Writing Challenge",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 520,
+    "estimatedMinutes": 14,
+    "description": "Conversación independiente: Redacta una experiencia personal con inicio, nudo y cierre.",
+    "intro": "Cuenta un reto reciente y cómo lo resolviste con detalles claros.",
+    "mission": "Escribe un relato sobre una dificultad y la estrategia que usaste para superarla.",
+    "grammar": "Marcadores narrativos, pretérito, imperfecto y expresiones de resultado.",
+    "phrases": [
+      "Al principio fue difícil.",
+      "Después pedí ayuda.",
+      "Poco a poco mejoré.",
+      "Al final me sentí orgulloso."
+    ],
+    "vocabulary": [
+      {
+        "word": "reto",
+        "translation": "challenge",
+        "example": "Hoy practico la palabra \"reto\"."
+      },
+      {
+        "word": "ayuda",
+        "translation": "help",
+        "example": "Hoy practico la palabra \"ayuda\"."
+      },
+      {
+        "word": "progreso",
+        "translation": "progress",
+        "example": "Hoy practico la palabra \"progreso\"."
+      },
+      {
+        "word": "error",
+        "translation": "mistake",
+        "example": "Hoy practico la palabra \"error\"."
+      },
+      {
+        "word": "orgullo",
+        "translation": "pride",
+        "example": "Hoy practico la palabra \"orgullo\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Al principio fue difícil.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Después pedí ayuda.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Cuando Julia cambió de trabajo, cometió varios errores. Poco a poco pidió ayuda y terminó sintiéndose orgullosa de su progreso.",
+      "questions": [
+        "¿Qué cambio vivió Julia?",
+        "¿Qué hizo para mejorar?",
+        "¿Cómo terminó sintiéndose?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"reto\"?",
+        "options": [
+          "challenge",
+          "help",
+          "progress",
+          "mistake"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Escribe de 4 a 6 frases: Escribe un relato sobre una dificultad y la estrategia que usaste para superarla.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Al principio fue difícil. / Después pedí ayuda.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b1-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Español B1 · Grammar Focus",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 530,
+    "estimatedMinutes": 11,
+    "description": "Conversación independiente: Afianza tiempos del pasado, obligación y conectores.",
+    "intro": "Une ideas con aunque, así que, mientras y sin embargo.",
+    "mission": "Reescribe oraciones para mostrar contraste, causa y simultaneidad.",
+    "grammar": "Imperfecto vs. indefinido, tener que, aunque, mientras y así que.",
+    "phrases": [
+      "Mientras cocinaba, sonó el teléfono.",
+      "Aunque llovía, salimos.",
+      "Tenía que estudiar.",
+      "Así que cambié el plan."
+    ],
+    "vocabulary": [
+      {
+        "word": "lluvia",
+        "translation": "rain",
+        "example": "Hoy practico la palabra \"lluvia\"."
+      },
+      {
+        "word": "plan",
+        "translation": "plan",
+        "example": "Hoy practico la palabra \"plan\"."
+      },
+      {
+        "word": "llamada",
+        "translation": "call",
+        "example": "Hoy practico la palabra \"llamada\"."
+      },
+      {
+        "word": "obligación",
+        "translation": "obligation",
+        "example": "Hoy practico la palabra \"obligación\"."
+      },
+      {
+        "word": "contraste",
+        "translation": "contrast",
+        "example": "Hoy practico la palabra \"contraste\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Mientras cocinaba, sonó el teléfono.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Aunque llovía, salimos.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Mientras Pedro cocinaba, recibió una llamada. Aunque llovía, salió porque tenía que cambiar su plan.",
+      "questions": [
+        "¿Qué hacía Pedro cuando recibió la llamada?",
+        "¿Qué tiempo hacía?",
+        "¿Por qué cambió su plan?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"lluvia\"?",
+        "options": [
+          "rain",
+          "plan",
+          "call",
+          "obligation"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "grammar",
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Imperfecto vs. indefinido, tener que, aunque, mientras y así que.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Mientras cocinaba, sonó el teléfono. / Aunque llovía, salimos.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b1-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "Español B1 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 540,
+    "estimatedMinutes": 10,
+    "description": "Conversación independiente: Amplía vocabulario de viajes, medios y trabajo en equipo.",
+    "intro": "Practica palabras frecuentes para hablar de experiencias y proyectos.",
+    "mission": "Usa el nuevo léxico para describir una salida y una tarea compartida.",
+    "grammar": "Colocaciones frecuentes, verbos con preposición y formación de sustantivos.",
+    "phrases": [
+      "Reservé el alojamiento en línea.",
+      "El reportaje fue interesante.",
+      "Nuestro equipo cumplió la meta.",
+      "La reunión empezó puntual."
+    ],
+    "vocabulary": [
+      {
+        "word": "alojamiento",
+        "translation": "lodging",
+        "example": "Hoy practico la palabra \"alojamiento\"."
+      },
+      {
+        "word": "reportaje",
+        "translation": "report",
+        "example": "Hoy practico la palabra \"reportaje\"."
+      },
+      {
+        "word": "equipo",
+        "translation": "team",
+        "example": "Hoy practico la palabra \"equipo\"."
+      },
+      {
+        "word": "reunión",
+        "translation": "meeting",
+        "example": "Hoy practico la palabra \"reunión\"."
+      },
+      {
+        "word": "meta",
+        "translation": "goal",
+        "example": "Hoy practico la palabra \"meta\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Reservé el alojamiento en línea.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "El reportaje fue interesante.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "El equipo preparó un reportaje sobre un viaje escolar. Reservó el alojamiento con tiempo y cumplió la meta del proyecto.",
+      "questions": [
+        "¿Sobre qué preparó un reportaje el equipo?",
+        "¿Qué reservó con tiempo?",
+        "¿Qué meta cumplió el grupo?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"alojamiento\"?",
+        "options": [
+          "lodging",
+          "report",
+          "team",
+          "meeting"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vocabulary",
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Reservé el alojamiento en línea. / El reportaje fue interesante.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b2-listening",
+    "level": "B2",
+    "skill": "listening",
+    "title": "Español B2 · Listening Lab",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 550,
+    "estimatedMinutes": 10,
+    "description": "Español aplicado: Comprende argumentos y matices en un debate radial.",
+    "intro": "Escucha posturas a favor y en contra del trabajo remoto.",
+    "mission": "Distingue tesis, ejemplos y concesiones en una discusión formal.",
+    "grammar": "Condicional simple, expresiones de probabilidad y conectores adversativos.",
+    "phrases": [
+      "Por un lado, ahorra tiempo.",
+      "Sin embargo, reduce el contacto.",
+      "Podría mejorar la productividad.",
+      "Depende del tipo de trabajo."
+    ],
+    "vocabulary": [
+      {
+        "word": "productividad",
+        "translation": "productivity",
+        "example": "Hoy practico la palabra \"productividad\"."
+      },
+      {
+        "word": "contacto",
+        "translation": "contact",
+        "example": "Hoy practico la palabra \"contacto\"."
+      },
+      {
+        "word": "debate",
+        "translation": "debate",
+        "example": "Hoy practico la palabra \"debate\"."
+      },
+      {
+        "word": "empresa",
+        "translation": "company",
+        "example": "Hoy practico la palabra \"empresa\"."
+      },
+      {
+        "word": "postura",
+        "translation": "stance",
+        "example": "Hoy practico la palabra \"postura\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Por un lado, ahorra tiempo.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Sin embargo, reduce el contacto.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "En la radio, dos expertos debaten si el trabajo remoto mejora la productividad. Ambos reconocen ventajas, pero discrepan sobre el contacto humano.",
+      "questions": [
+        "¿Qué tema debaten los expertos?",
+        "¿En qué discrepan?",
+        "¿Qué ventaja reconocen ambos?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"productividad\"?",
+        "options": [
+          "productivity",
+          "contact",
+          "debate",
+          "company"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "listening",
+        "prompt": "Escucha y anota dos detalles clave: Distingue tesis, ejemplos y concesiones en una discusión formal.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Por un lado, ahorra tiempo. / Sin embargo, reduce el contacto.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b2-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "title": "Español B2 · Speaking Mission",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 560,
+    "estimatedMinutes": 12,
+    "description": "Español aplicado: Compara políticas urbanas y defiende una propuesta.",
+    "intro": "Presenta ventajas y riesgos de dos medidas para una ciudad.",
+    "mission": "Argumenta qué política apoyas y responde a una objeción posible.",
+    "grammar": "Comparativos avanzados, condicionales y estructuras concesivas.",
+    "phrases": [
+      "La primera medida es más viable.",
+      "Aun así, la otra opción es atractiva.",
+      "Si hubiera más buses, bajarían los costos.",
+      "Conviene evaluar el presupuesto."
+    ],
+    "vocabulary": [
+      {
+        "word": "medida",
+        "translation": "measure",
+        "example": "Hoy practico la palabra \"medida\"."
+      },
+      {
+        "word": "presupuesto",
+        "translation": "budget",
+        "example": "Hoy practico la palabra \"presupuesto\"."
+      },
+      {
+        "word": "transporte",
+        "translation": "transport",
+        "example": "Hoy practico la palabra \"transporte\"."
+      },
+      {
+        "word": "costo",
+        "translation": "cost",
+        "example": "Hoy practico la palabra \"costo\"."
+      },
+      {
+        "word": "propuesta",
+        "translation": "proposal",
+        "example": "Hoy practico la palabra \"propuesta\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "La primera medida es más viable.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Aun así, la otra opción es atractiva.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "El ayuntamiento estudia dos políticas: ampliar los buses o crear ciclovías. Los vecinos comparan costos, rapidez e impacto ambiental.",
+      "questions": [
+        "¿Qué dos políticas estudia el ayuntamiento?",
+        "¿Qué comparan los vecinos?",
+        "¿Qué impacto les preocupa?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"medida\"?",
+        "options": [
+          "measure",
+          "budget",
+          "transport",
+          "cost"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "speaking",
+        "prompt": "Habla durante 45 segundos: Argumenta qué política apoyas y responde a una objeción posible.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: La primera medida es más viable. / Aun así, la otra opción es atractiva.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b2-reading",
+    "level": "B2",
+    "skill": "reading",
+    "title": "Español B2 · Reading Quest",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 570,
+    "estimatedMinutes": 12,
+    "description": "Español aplicado: Lee un reportaje con datos, citas y consecuencias.",
+    "intro": "Analiza un texto sobre turismo sostenible y equilibrio local.",
+    "mission": "Relaciona cifras, testimonios y recomendaciones finales.",
+    "grammar": "Pasiva refleja, estilo indirecto y conectores de consecuencia.",
+    "phrases": [
+      "El informe señala que...",
+      "Según los residentes...",
+      "Se recomienda limitar el tráfico.",
+      "Como resultado, mejora la convivencia."
+    ],
+    "vocabulary": [
+      {
+        "word": "turismo",
+        "translation": "tourism",
+        "example": "Hoy practico la palabra \"turismo\"."
+      },
+      {
+        "word": "residente",
+        "translation": "resident",
+        "example": "Hoy practico la palabra \"residente\"."
+      },
+      {
+        "word": "tráfico",
+        "translation": "traffic",
+        "example": "Hoy practico la palabra \"tráfico\"."
+      },
+      {
+        "word": "informe",
+        "translation": "report",
+        "example": "Hoy practico la palabra \"informe\"."
+      },
+      {
+        "word": "convivencia",
+        "translation": "coexistence",
+        "example": "Hoy practico la palabra \"convivencia\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "El informe señala que...",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Según los residentes...",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Un reportaje explica cómo varias ciudades limitan el tráfico turístico. Los residentes dicen que la convivencia mejora cuando hay reglas claras.",
+      "questions": [
+        "¿Qué limitan varias ciudades?",
+        "¿Qué dicen los residentes?",
+        "¿Qué tipo de reglas mejora la convivencia?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"turismo\"?",
+        "options": [
+          "tourism",
+          "resident",
+          "traffic",
+          "report"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "reading",
+        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: El informe señala que... / Según los residentes...",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b2-writing",
+    "level": "B2",
+    "skill": "writing",
+    "title": "Español B2 · Writing Challenge",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 580,
+    "estimatedMinutes": 14,
+    "description": "Español aplicado: Redacta una propuesta formal para mejorar un espacio común.",
+    "intro": "Organiza un texto con objetivo, argumentos y acciones concretas.",
+    "mission": "Escribe una propuesta para mejorar tu centro de estudio o trabajo.",
+    "grammar": "Registro formal, pasiva, perífrasis de obligación y conectores lógicos.",
+    "phrases": [
+      "Propongo que se amplíe...",
+      "Sería conveniente revisar...",
+      "Además, esta medida permitiría...",
+      "Por último, conviene evaluar resultados."
+    ],
+    "vocabulary": [
+      {
+        "word": "mejora",
+        "translation": "improvement",
+        "example": "Hoy practico la palabra \"mejora\"."
+      },
+      {
+        "word": "recurso",
+        "translation": "resource",
+        "example": "Hoy practico la palabra \"recurso\"."
+      },
+      {
+        "word": "mantenimiento",
+        "translation": "maintenance",
+        "example": "Hoy practico la palabra \"mantenimiento\"."
+      },
+      {
+        "word": "seguridad",
+        "translation": "safety",
+        "example": "Hoy practico la palabra \"seguridad\"."
+      },
+      {
+        "word": "evaluación",
+        "translation": "evaluation",
+        "example": "Hoy practico la palabra \"evaluación\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Propongo que se amplíe...",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Sería conveniente revisar...",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "La coordinadora pide propuestas para mejorar la biblioteca. Un grupo sugiere más recursos digitales, mejor iluminación y mantenimiento regular.",
+      "questions": [
+        "¿Qué lugar necesita mejoras?",
+        "¿Qué soluciones sugiere el grupo?",
+        "¿Qué aspecto técnico mencionan?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"mejora\"?",
+        "options": [
+          "improvement",
+          "resource",
+          "maintenance",
+          "safety"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Escribe de 4 a 6 frases: Escribe una propuesta para mejorar tu centro de estudio o trabajo.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Propongo que se amplíe... / Sería conveniente revisar...",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b2-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Español B2 · Grammar Focus",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 590,
+    "estimatedMinutes": 11,
+    "description": "Español aplicado: Practica condicionales, pasiva y discurso referido.",
+    "intro": "Transforma argumentos directos en estructuras más formales y precisas.",
+    "mission": "Reformula opiniones usando pasiva, condicional y estilo indirecto.",
+    "grammar": "Si + imperfecto de subjuntivo, condicional, pasiva perifrástica y estilo indirecto.",
+    "phrases": [
+      "Si tuviéramos más datos, decidiríamos mejor.",
+      "La medida fue aprobada ayer.",
+      "El director afirmó que faltaba tiempo.",
+      "Sería útil revisar el proceso."
+    ],
+    "vocabulary": [
+      {
+        "word": "dato",
+        "translation": "data",
+        "example": "Hoy practico la palabra \"dato\"."
+      },
+      {
+        "word": "proceso",
+        "translation": "process",
+        "example": "Hoy practico la palabra \"proceso\"."
+      },
+      {
+        "word": "decisión",
+        "translation": "decision",
+        "example": "Hoy practico la palabra \"decisión\"."
+      },
+      {
+        "word": "director",
+        "translation": "director",
+        "example": "Hoy practico la palabra \"director\"."
+      },
+      {
+        "word": "revisión",
+        "translation": "review",
+        "example": "Hoy practico la palabra \"revisión\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Si tuviéramos más datos, decidiríamos mejor.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "La medida fue aprobada ayer.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "El director afirmó que el proceso debía revisarse. Si hubiera más datos, el equipo tomaría una decisión más sólida.",
+      "questions": [
+        "¿Qué dijo el director sobre el proceso?",
+        "¿Qué faltaría para decidir mejor?",
+        "¿Qué recomienda revisar el texto?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"dato\"?",
+        "options": [
+          "data",
+          "process",
+          "decision",
+          "director"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "grammar",
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Si + imperfecto de subjuntivo, condicional, pasiva perifrástica y estilo indirecto.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Si tuviéramos más datos, decidiríamos mejor. / La medida fue aprobada ayer.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-b2-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "title": "Español B2 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 600,
+    "estimatedMinutes": 10,
+    "description": "Español aplicado: Fortalece vocabulario de sociedad, ambiente y negociación.",
+    "intro": "Aprende palabras para debatir con precisión sobre cambios colectivos.",
+    "mission": "Usa términos de evidencia, impacto y acuerdo en un mini argumento.",
+    "grammar": "Colocaciones abstractas, sufijos frecuentes y familias semánticas.",
+    "phrases": [
+      "La evidencia respalda la medida.",
+      "El impacto fue desigual.",
+      "Llegaron a un acuerdo parcial.",
+      "La campaña generó debate."
+    ],
+    "vocabulary": [
+      {
+        "word": "evidencia",
+        "translation": "evidence",
+        "example": "Hoy practico la palabra \"evidencia\"."
+      },
+      {
+        "word": "impacto",
+        "translation": "impact",
+        "example": "Hoy practico la palabra \"impacto\"."
+      },
+      {
+        "word": "acuerdo",
+        "translation": "agreement",
+        "example": "Hoy practico la palabra \"acuerdo\"."
+      },
+      {
+        "word": "campaña",
+        "translation": "campaign",
+        "example": "Hoy practico la palabra \"campaña\"."
+      },
+      {
+        "word": "discusión",
+        "translation": "discussion",
+        "example": "Hoy practico la palabra \"discusión\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "La evidencia respalda la medida.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "El impacto fue desigual.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Tras la campaña, el debate público creció. La evidencia mostró un impacto desigual, pero permitió alcanzar un acuerdo parcial.",
+      "questions": [
+        "¿Qué mostró la evidencia?",
+        "¿Cómo fue el impacto?",
+        "¿Qué resultado logró el debate?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"evidencia\"?",
+        "options": [
+          "evidence",
+          "impact",
+          "agreement",
+          "campaign"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vocabulary",
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: La evidencia respalda la medida. / El impacto fue desigual.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c1-listening",
+    "level": "C1",
+    "skill": "listening",
+    "title": "Español C1 · Listening Lab",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 610,
+    "estimatedMinutes": 10,
+    "description": "Expresión matizada: Sigue un pódcast rápido sobre identidad, migración y memoria.",
+    "intro": "Escucha ideas complejas y reconoce matices implícitos.",
+    "mission": "Resume la postura central y dos argumentos secundarios del episodio.",
+    "grammar": "Subjuntivo en valoración, nominalización y conectores discursivos avanzados.",
+    "phrases": [
+      "Es probable que la lengua cambie.",
+      "Lo relevante es la memoria compartida.",
+      "No obstante, cada generación reinterpreta el pasado.",
+      "En ese sentido, migrar transforma la identidad."
+    ],
+    "vocabulary": [
+      {
+        "word": "identidad",
+        "translation": "identity",
+        "example": "Hoy practico la palabra \"identidad\"."
+      },
+      {
+        "word": "memoria",
+        "translation": "memory",
+        "example": "Hoy practico la palabra \"memoria\"."
+      },
+      {
+        "word": "migración",
+        "translation": "migration",
+        "example": "Hoy practico la palabra \"migración\"."
+      },
+      {
+        "word": "pertenencia",
+        "translation": "belonging",
+        "example": "Hoy practico la palabra \"pertenencia\"."
+      },
+      {
+        "word": "matiz",
+        "translation": "nuance",
+        "example": "Hoy practico la palabra \"matiz\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Es probable que la lengua cambie.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Lo relevante es la memoria compartida.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "En un pódcast cultural, la autora explica que la migración transforma la identidad sin borrar la memoria compartida.",
+      "questions": [
+        "¿Qué transforma la migración según la autora?",
+        "¿Qué no desaparece?",
+        "¿Qué relación hay entre lengua e identidad?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"identidad\"?",
+        "options": [
+          "identity",
+          "memory",
+          "migration",
+          "belonging"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "listening",
+        "prompt": "Escucha y anota dos detalles clave: Resume la postura central y dos argumentos secundarios del episodio.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Es probable que la lengua cambie. / Lo relevante es la memoria compartida.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c1-speaking",
+    "level": "C1",
+    "skill": "speaking",
+    "title": "Español C1 · Speaking Mission",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 30,
+    "orderIndex": 620,
+    "estimatedMinutes": 12,
+    "description": "Expresión matizada: Debate con precisión y reformula ideas ajenas.",
+    "intro": "Practica una intervención de seminario con acuerdo parcial y contraargumento.",
+    "mission": "Presenta tu postura, matízala y responde con cortesía a otra opinión.",
+    "grammar": "Marcadores de concesión, reformulación y modalidad epistémica.",
+    "phrases": [
+      "Comparto parte de esa idea.",
+      "Dicho de otro modo...",
+      "No la descartaría del todo.",
+      "Conviene distinguir contexto y efecto."
+    ],
+    "vocabulary": [
+      {
+        "word": "postura",
+        "translation": "position",
+        "example": "Hoy practico la palabra \"postura\"."
+      },
+      {
+        "word": "matiz",
+        "translation": "nuance",
+        "example": "Hoy practico la palabra \"matiz\"."
+      },
+      {
+        "word": "argumento",
+        "translation": "argument",
+        "example": "Hoy practico la palabra \"argumento\"."
+      },
+      {
+        "word": "contexto",
+        "translation": "context",
+        "example": "Hoy practico la palabra \"contexto\"."
+      },
+      {
+        "word": "efecto",
+        "translation": "effect",
+        "example": "Hoy practico la palabra \"efecto\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Comparto parte de esa idea.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Dicho de otro modo...",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Durante un seminario, Elena comparte parte de la propuesta de su colega, pero distingue entre contexto histórico y efecto social.",
+      "questions": [
+        "¿Qué comparte Elena con su colega?",
+        "¿Qué distingue con cuidado?",
+        "¿Qué efecto busca al matizar su respuesta?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"postura\"?",
+        "options": [
+          "position",
+          "nuance",
+          "argument",
+          "context"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "speaking",
+        "prompt": "Habla durante 45 segundos: Presenta tu postura, matízala y responde con cortesía a otra opinión.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Comparto parte de esa idea. / Dicho de otro modo...",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c1-reading",
+    "level": "C1",
+    "skill": "reading",
+    "title": "Español C1 · Reading Quest",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 30,
+    "orderIndex": 630,
+    "estimatedMinutes": 12,
+    "description": "Expresión matizada: Interpreta un ensayo sobre memoria colectiva y lenguaje público.",
+    "intro": "Lee un texto denso y separa tesis, ejemplos y conclusión.",
+    "mission": "Explica cómo el autor conecta relato, poder y comunidad.",
+    "grammar": "Oraciones largas, relativos complejos y puntuación argumentativa.",
+    "phrases": [
+      "El autor sostiene que...",
+      "A partir de ese ejemplo...",
+      "Conviene observar la metáfora central.",
+      "La conclusión amplía la tesis inicial."
+    ],
+    "vocabulary": [
+      {
+        "word": "relato",
+        "translation": "narrative",
+        "example": "Hoy practico la palabra \"relato\"."
+      },
+      {
+        "word": "poder",
+        "translation": "power",
+        "example": "Hoy practico la palabra \"poder\"."
+      },
+      {
+        "word": "comunidad",
+        "translation": "community",
+        "example": "Hoy practico la palabra \"comunidad\"."
+      },
+      {
+        "word": "metáfora",
+        "translation": "metaphor",
+        "example": "Hoy practico la palabra \"metáfora\"."
+      },
+      {
+        "word": "tesis",
+        "translation": "thesis",
+        "example": "Hoy practico la palabra \"tesis\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "El autor sostiene que...",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "A partir de ese ejemplo...",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "El ensayo sostiene que el lenguaje público organiza la memoria colectiva. A partir de varias metáforas, conecta relato, poder y comunidad.",
+      "questions": [
+        "¿Qué organiza el lenguaje público?",
+        "¿Qué recurso usa el autor?",
+        "¿Qué relación establece entre poder y comunidad?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"relato\"?",
+        "options": [
+          "narrative",
+          "power",
+          "community",
+          "metaphor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "reading",
+        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: El autor sostiene que... / A partir de ese ejemplo...",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c1-writing",
+    "level": "C1",
+    "skill": "writing",
+    "title": "Español C1 · Writing Challenge",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 30,
+    "orderIndex": 640,
+    "estimatedMinutes": 14,
+    "description": "Expresión matizada: Escribe una reseña analítica de un documental o libro.",
+    "intro": "Combina resumen, valoración crítica y observaciones de estilo.",
+    "mission": "Redacta una reseña que evalúe contenido, enfoque y efectos en el lector.",
+    "grammar": "Registro crítico, verbos de valoración y conectores de precisión.",
+    "phrases": [
+      "La obra plantea una pregunta decisiva.",
+      "Su enfoque resulta convincente.",
+      "No obstante, omite una dimensión relevante.",
+      "En conjunto, ofrece una lectura sólida."
+    ],
+    "vocabulary": [
+      {
+        "word": "reseña",
+        "translation": "review",
+        "example": "Hoy practico la palabra \"reseña\"."
+      },
+      {
+        "word": "enfoque",
+        "translation": "approach",
+        "example": "Hoy practico la palabra \"enfoque\"."
+      },
+      {
+        "word": "omisión",
+        "translation": "omission",
+        "example": "Hoy practico la palabra \"omisión\"."
+      },
+      {
+        "word": "lector",
+        "translation": "reader",
+        "example": "Hoy practico la palabra \"lector\"."
+      },
+      {
+        "word": "valoración",
+        "translation": "evaluation",
+        "example": "Hoy practico la palabra \"valoración\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "La obra plantea una pregunta decisiva.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Su enfoque resulta convincente.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "La reseña destaca que el documental formula una pregunta decisiva. También señala una omisión importante en su enfoque.",
+      "questions": [
+        "¿Qué destaca la reseña?",
+        "¿Qué omisión señala?",
+        "¿Cómo valora el enfoque general?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"reseña\"?",
+        "options": [
+          "review",
+          "approach",
+          "omission",
+          "reader"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Escribe de 4 a 6 frases: Redacta una reseña que evalúe contenido, enfoque y efectos en el lector.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: La obra plantea una pregunta decisiva. / Su enfoque resulta convincente.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c1-grammar",
+    "level": "C1",
+    "skill": "grammar",
+    "title": "Español C1 · Grammar Focus",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 30,
+    "orderIndex": 650,
+    "estimatedMinutes": 11,
+    "description": "Expresión matizada: Refina el uso del subjuntivo, la nominalización y el registro.",
+    "intro": "Observa cómo cambia el tono cuando conviertes verbos en nombres o suavizas afirmaciones.",
+    "mission": "Edita un párrafo para volverlo más preciso, cohesivo y formal.",
+    "grammar": "Subjuntivo avanzado, nominalización, estructuras impersonales y cohesión.",
+    "phrases": [
+      "Es fundamental que se reconozca el problema.",
+      "La implementación de la medida requiere tiempo.",
+      "Se considera deseable una revisión periódica.",
+      "Conviene evitar afirmaciones tajantes."
+    ],
+    "vocabulary": [
+      {
+        "word": "implementación",
+        "translation": "implementation",
+        "example": "Hoy practico la palabra \"implementación\"."
+      },
+      {
+        "word": "revisión",
+        "translation": "review",
+        "example": "Hoy practico la palabra \"revisión\"."
+      },
+      {
+        "word": "cohesión",
+        "translation": "cohesion",
+        "example": "Hoy practico la palabra \"cohesión\"."
+      },
+      {
+        "word": "registro",
+        "translation": "register",
+        "example": "Hoy practico la palabra \"registro\"."
+      },
+      {
+        "word": "precisión",
+        "translation": "precision",
+        "example": "Hoy practico la palabra \"precisión\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Es fundamental que se reconozca el problema.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "La implementación de la medida requiere tiempo.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "El informe considera deseable una revisión periódica. Insiste en que se reconozca el problema con un registro preciso y cohesivo.",
+      "questions": [
+        "¿Qué considera deseable el informe?",
+        "¿Qué problema debe reconocerse?",
+        "¿Qué efecto produce un registro más preciso?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"implementación\"?",
+        "options": [
+          "implementation",
+          "review",
+          "cohesion",
+          "register"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "grammar",
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Subjuntivo avanzado, nominalización, estructuras impersonales y cohesión.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Es fundamental que se reconozca el problema. / La implementación de la medida requiere tiempo.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c1-vocabulary",
+    "level": "C1",
+    "skill": "vocabulary",
+    "title": "Español C1 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 30,
+    "orderIndex": 660,
+    "estimatedMinutes": 10,
+    "description": "Expresión matizada: Amplía vocabulario abstracto para análisis y debate.",
+    "intro": "Trabaja con palabras de interpretación, evidencia y perspectiva.",
+    "mission": "Integra léxico abstracto en una explicación académica breve.",
+    "grammar": "Familias léxicas, prefijos cultos y combinaciones nominales.",
+    "phrases": [
+      "La evidencia sugiere otra lectura.",
+      "Esa perspectiva amplía el análisis.",
+      "La interpretación depende del contexto.",
+      "El matiz cambia la conclusión."
+    ],
+    "vocabulary": [
+      {
+        "word": "perspectiva",
+        "translation": "perspective",
+        "example": "Hoy practico la palabra \"perspectiva\"."
+      },
+      {
+        "word": "interpretación",
+        "translation": "interpretation",
+        "example": "Hoy practico la palabra \"interpretación\"."
+      },
+      {
+        "word": "evidencia",
+        "translation": "evidence",
+        "example": "Hoy practico la palabra \"evidencia\"."
+      },
+      {
+        "word": "conclusión",
+        "translation": "conclusion",
+        "example": "Hoy practico la palabra \"conclusión\"."
+      },
+      {
+        "word": "alcance",
+        "translation": "scope",
+        "example": "Hoy practico la palabra \"alcance\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "La evidencia sugiere otra lectura.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Esa perspectiva amplía el análisis.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "La interpretación del artículo cambia según la perspectiva elegida. Un pequeño matiz modifica el alcance de la conclusión.",
+      "questions": [
+        "¿Qué cambia según la perspectiva elegida?",
+        "¿Qué puede modificar un pequeño matiz?",
+        "¿Qué elemento sostiene la conclusión?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"perspectiva\"?",
+        "options": [
+          "perspective",
+          "interpretation",
+          "evidence",
+          "conclusion"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vocabulary",
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: La evidencia sugiere otra lectura. / Esa perspectiva amplía el análisis.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c2-listening",
+    "level": "C2",
+    "skill": "listening",
+    "title": "Español C2 · Listening Lab",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 670,
+    "estimatedMinutes": 10,
+    "description": "Dominio superior: Detecta ironía, dobles sentidos y cambios sutiles de registro.",
+    "intro": "Escucha una entrevista exigente y separa lo explícito de lo implícito.",
+    "mission": "Explica qué se dice, qué se insinúa y por qué cambia el tono.",
+    "grammar": "Énfasis, focalización, ironía y cohesión fina.",
+    "phrases": [
+      "Dicho así, parece inocente.",
+      "Lo verdaderamente revelador es el tono.",
+      "No deja de ser llamativo.",
+      "Entre líneas se percibe otra intención."
+    ],
+    "vocabulary": [
+      {
+        "word": "ironía",
+        "translation": "irony",
+        "example": "Hoy practico la palabra \"ironía\"."
+      },
+      {
+        "word": "insinuación",
+        "translation": "insinuation",
+        "example": "Hoy practico la palabra \"insinuación\"."
+      },
+      {
+        "word": "tono",
+        "translation": "tone",
+        "example": "Hoy practico la palabra \"tono\"."
+      },
+      {
+        "word": "subtexto",
+        "translation": "subtext",
+        "example": "Hoy practico la palabra \"subtexto\"."
+      },
+      {
+        "word": "énfasis",
+        "translation": "emphasis",
+        "example": "Hoy practico la palabra \"énfasis\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Dicho así, parece inocente.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Lo verdaderamente revelador es el tono.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "En la entrevista, la experta responde con aparente calma, pero su tono deja entrever una crítica severa al proyecto.",
+      "questions": [
+        "¿Cómo responde la experta en apariencia?",
+        "¿Qué crítica se percibe entre líneas?",
+        "¿Qué papel tiene el tono en la interpretación?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"ironía\"?",
+        "options": [
+          "irony",
+          "insinuation",
+          "tone",
+          "subtext"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "listening",
+        "prompt": "Escucha y anota dos detalles clave: Explica qué se dice, qué se insinúa y por qué cambia el tono.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Dicho así, parece inocente. / Lo verdaderamente revelador es el tono.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c2-speaking",
+    "level": "C2",
+    "skill": "speaking",
+    "title": "Español C2 · Speaking Mission",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 30,
+    "orderIndex": 680,
+    "estimatedMinutes": 12,
+    "description": "Dominio superior: Negocia con concesiones sutiles y precisión casi nativa.",
+    "intro": "Ensaya una intervención diplomática con matices estratégicos.",
+    "mission": "Defiende una posición compleja, concede un punto menor y reformula una solución.",
+    "grammar": "Atenuadores, estructuras enfáticas y reformulación sofisticada.",
+    "phrases": [
+      "Admito ese punto, aunque...",
+      "Si afinamos los términos...",
+      "Lo decisivo no es solo el costo.",
+      "Propongo una salida intermedia."
+    ],
+    "vocabulary": [
+      {
+        "word": "concesión",
+        "translation": "concession",
+        "example": "Hoy practico la palabra \"concesión\"."
+      },
+      {
+        "word": "término",
+        "translation": "term",
+        "example": "Hoy practico la palabra \"término\"."
+      },
+      {
+        "word": "salida",
+        "translation": "way out",
+        "example": "Hoy practico la palabra \"salida\"."
+      },
+      {
+        "word": "equilibrio",
+        "translation": "balance",
+        "example": "Hoy practico la palabra \"equilibrio\"."
+      },
+      {
+        "word": "prioridad",
+        "translation": "priority",
+        "example": "Hoy practico la palabra \"prioridad\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Admito ese punto, aunque...",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Si afinamos los términos...",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Durante una negociación, la portavoz admite un punto menor para proteger su prioridad central y proponer una salida intermedia.",
+      "questions": [
+        "¿Qué punto menor admite la portavoz?",
+        "¿Qué intenta proteger?",
+        "¿Qué propone al final?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"concesión\"?",
+        "options": [
+          "concession",
+          "term",
+          "way out",
+          "balance"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "speaking",
+        "prompt": "Habla durante 45 segundos: Defiende una posición compleja, concede un punto menor y reformula una solución.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Admito ese punto, aunque... / Si afinamos los términos...",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c2-reading",
+    "level": "C2",
+    "skill": "reading",
+    "title": "Español C2 · Reading Quest",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 30,
+    "orderIndex": 690,
+    "estimatedMinutes": 12,
+    "description": "Dominio superior: Interpreta una crítica historiográfica con varias capas de sentido.",
+    "intro": "Lee un texto complejo y evalúa su argumentación implícita.",
+    "mission": "Relaciona voz, contexto y presupuestos ideológicos del autor.",
+    "grammar": "Estructuras de énfasis, perífrasis aspectuales y referencias intertextuales.",
+    "phrases": [
+      "El texto presupone un lector experto.",
+      "La voz ensayística se vuelve más incisiva.",
+      "Esa alusión reordena la interpretación.",
+      "El cierre resignifica el inicio."
+    ],
+    "vocabulary": [
+      {
+        "word": "alusión",
+        "translation": "allusion",
+        "example": "Hoy practico la palabra \"alusión\"."
+      },
+      {
+        "word": "presupuesto",
+        "translation": "assumption",
+        "example": "Hoy practico la palabra \"presupuesto\"."
+      },
+      {
+        "word": "cierre",
+        "translation": "closing",
+        "example": "Hoy practico la palabra \"cierre\"."
+      },
+      {
+        "word": "interpretación",
+        "translation": "interpretation",
+        "example": "Hoy practico la palabra \"interpretación\"."
+      },
+      {
+        "word": "voz",
+        "translation": "voice",
+        "example": "Hoy practico la palabra \"voz\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "El texto presupone un lector experto.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "La voz ensayística se vuelve más incisiva.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "La crítica presupone un lector experto y usa una alusión histórica para resignificar el cierre del ensayo.",
+      "questions": [
+        "¿Qué tipo de lector presupone la crítica?",
+        "¿Qué recurso resignifica el cierre?",
+        "¿Cómo cambia la interpretación final?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"alusión\"?",
+        "options": [
+          "allusion",
+          "assumption",
+          "closing",
+          "interpretation"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "reading",
+        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: El texto presupone un lector experto. / La voz ensayística se vuelve más incisiva.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c2-writing",
+    "level": "C2",
+    "skill": "writing",
+    "title": "Español C2 · Writing Challenge",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 30,
+    "orderIndex": 700,
+    "estimatedMinutes": 14,
+    "description": "Dominio superior: Redacta un editorial con tesis matizada y estilo propio.",
+    "intro": "Construye una argumentación elegante, rigurosa y persuasiva.",
+    "mission": "Escribe un editorial que combine análisis, tono y una conclusión memorable.",
+    "grammar": "Periodos extensos, puntuación retórica y variación estilística.",
+    "phrases": [
+      "Conviene desconfiar de las respuestas simples.",
+      "La discusión exige una mirada más amplia.",
+      "Ese gesto retórico no es casual.",
+      "En última instancia, la cuestión permanece abierta."
+    ],
+    "vocabulary": [
+      {
+        "word": "editorial",
+        "translation": "editorial",
+        "example": "Hoy practico la palabra \"editorial\"."
+      },
+      {
+        "word": "mirada",
+        "translation": "outlook",
+        "example": "Hoy practico la palabra \"mirada\"."
+      },
+      {
+        "word": "retórico",
+        "translation": "rhetorical",
+        "example": "Hoy practico la palabra \"retórico\"."
+      },
+      {
+        "word": "tesis",
+        "translation": "thesis",
+        "example": "Hoy practico la palabra \"tesis\"."
+      },
+      {
+        "word": "cierre",
+        "translation": "closing",
+        "example": "Hoy practico la palabra \"cierre\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "Conviene desconfiar de las respuestas simples.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "La discusión exige una mirada más amplia.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "El editorial desconfía de las respuestas simples. Propone una mirada más amplia y deja abierta la cuestión central.",
+      "questions": [
+        "¿De qué desconfía el editorial?",
+        "¿Qué pide la discusión pública?",
+        "¿Cómo termina el texto?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"editorial\"?",
+        "options": [
+          "editorial",
+          "outlook",
+          "rhetorical",
+          "thesis"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "writing",
+        "prompt": "Escribe de 4 a 6 frases: Escribe un editorial que combine análisis, tono y una conclusión memorable.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: Conviene desconfiar de las respuestas simples. / La discusión exige una mirada más amplia.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c2-grammar",
+    "level": "C2",
+    "skill": "grammar",
+    "title": "Español C2 · Grammar Focus",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 30,
+    "orderIndex": 710,
+    "estimatedMinutes": 11,
+    "description": "Dominio superior: Perfecciona cohesión, énfasis y control estilístico.",
+    "intro": "Ajusta pequeños matices para ganar exactitud y elegancia.",
+    "mission": "Reescribe un texto para mejorar ritmo, referencia y precisión semántica.",
+    "grammar": "Conectores de alta precisión, correferencia, énfasis y variación sintáctica.",
+    "phrases": [
+      "No solo importa el contenido, sino la cadencia.",
+      "La referencia debe quedar inequívoca.",
+      "Esa elección verbal afina el sentido.",
+      "La cohesión sostiene la autoridad del texto."
+    ],
+    "vocabulary": [
+      {
+        "word": "cadencia",
+        "translation": "cadence",
+        "example": "Hoy practico la palabra \"cadencia\"."
+      },
+      {
+        "word": "referencia",
+        "translation": "reference",
+        "example": "Hoy practico la palabra \"referencia\"."
+      },
+      {
+        "word": "sentido",
+        "translation": "meaning",
+        "example": "Hoy practico la palabra \"sentido\"."
+      },
+      {
+        "word": "cohesión",
+        "translation": "cohesion",
+        "example": "Hoy practico la palabra \"cohesión\"."
+      },
+      {
+        "word": "autoridad",
+        "translation": "authority",
+        "example": "Hoy practico la palabra \"autoridad\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "No solo importa el contenido, sino la cadencia.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "La referencia debe quedar inequívoca.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "Al corregir un ensayo, la editora cambia una referencia ambigua y una elección verbal. Así mejora la cadencia y la cohesión del texto.",
+      "questions": [
+        "¿Qué cambia la editora en el ensayo?",
+        "¿Qué mejora eso en el texto?",
+        "¿Qué aspecto sostiene la autoridad textual?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"cadencia\"?",
+        "options": [
+          "cadence",
+          "reference",
+          "meaning",
+          "cohesion"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "grammar",
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Conectores de alta precisión, correferencia, énfasis y variación sintáctica.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: No solo importa el contenido, sino la cadencia. / La referencia debe quedar inequívoca.",
+        "answer": "Open answer"
+      }
+    ]
+  },
+  {
+    "slug": "spanish-c2-vocabulary",
+    "level": "C2",
+    "skill": "vocabulary",
+    "title": "Español C2 · Vocabulary Boost",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 30,
+    "orderIndex": 720,
+    "estimatedMinutes": 10,
+    "description": "Dominio superior: Maneja léxico fino de retórica, registro y argumentación.",
+    "intro": "Explora palabras difíciles de sustituir con exactitud.",
+    "mission": "Emplea vocabulario de matiz, sesgo y elocuencia en un comentario crítico.",
+    "grammar": "Sinonimia graduada, matices semánticos y registro culto.",
+    "phrases": [
+      "El matiz altera la interpretación.",
+      "Ese sesgo no es inocente.",
+      "La elocuencia puede persuadir sin exagerar.",
+      "El registro delimita al público."
+    ],
+    "vocabulary": [
+      {
+        "word": "sesgo",
+        "translation": "bias",
+        "example": "Hoy practico la palabra \"sesgo\"."
+      },
+      {
+        "word": "elocuencia",
+        "translation": "eloquence",
+        "example": "Hoy practico la palabra \"elocuencia\"."
+      },
+      {
+        "word": "matiz",
+        "translation": "nuance",
+        "example": "Hoy practico la palabra \"matiz\"."
+      },
+      {
+        "word": "registro",
+        "translation": "register",
+        "example": "Hoy practico la palabra \"registro\"."
+      },
+      {
+        "word": "persuasión",
+        "translation": "persuasion",
+        "example": "Hoy practico la palabra \"persuasión\"."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "line": "El matiz altera la interpretación.",
+        "translation": "Model line"
+      },
+      {
+        "speaker": "Student",
+        "line": "Ese sesgo no es inocente.",
+        "translation": "Guided reply"
+      }
+    ],
+    "reading": {
+      "text": "La crítica examina cómo el sesgo y el registro alteran la interpretación. También valora la elocuencia del autor sin confundirla con exageración.",
+      "questions": [
+        "¿Qué altera la interpretación?",
+        "¿Qué valora la crítica en el autor?",
+        "¿Qué delimita el registro?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"sesgo\"?",
+        "options": [
+          "bias",
+          "eloquence",
+          "nuance",
+          "register"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vocabulary",
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
+        "answer": "Open answer"
+      },
+      {
+        "type": "practice",
+        "prompt": "Usa al menos dos frases modelo: El matiz altera la interpretación. / Ese sesgo no es inocente.",
+        "answer": "Open answer"
       }
     ]
   }

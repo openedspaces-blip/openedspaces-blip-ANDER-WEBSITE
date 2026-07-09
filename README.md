@@ -25,8 +25,10 @@ Copia estos archivos/carpetas dentro de tu carpeta `ANDERGO-WEB` y reemplaza los
 - `lib/lessonsData.js`
 - `lib/lessonsService.js`
 - `lib/httpHelpers.js`
+- `lib/aiTutorService.js`
 - `lib/server.js`
 - `api/health.js`
+- `api/ai/tutor.js`
 - `api/auth.js`
 - `api/auth/logout.js`
 - `api/lessons.js`
@@ -37,7 +39,7 @@ Copia estos archivos/carpetas dentro de tu carpeta `ANDERGO-WEB` y reemplaza los
 - `scripts/verify-all.js`
 - `supabase/migrations/202607080001_gamification.sql`
 - `server.test.js` ← **reemplaza** a `server_test.js` (el nombre no coincidía con lo que pide `package.json`, por eso `npm test` no encontraba el archivo)
-- `_env.example` (actualizado con 2 variables opcionales nuevas)
+- `.env.example` (plantilla única de variables de entorno)
 
 No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_THIS.sql`.
 
@@ -60,10 +62,33 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 - El backend es la fuente de verdad de XP/streak/insignias una vez que el usuario inicia sesión (columnas nuevas en `profiles`: `xp`, `level`, `badges`, `longest_streak`, `last_active_date`, `access_tier` — ver la migración SQL nueva).
 
 ## Backend: cómo funciona
-- Si configuras `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` en `.env`, el backend usa Supabase Auth de verdad y lee/escribe en tus tablas reales.
+- Si configuras `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` en `.env`, el backend usa Supabase Auth de verdad y lee/escribe en tus tablas reales. También acepta `SUPABASE_KEY` como alias de `SUPABASE_ANON_KEY` para snippets frontend de Supabase.
 - Si **no** los configuras, el backend funciona en "modo demo" con usuarios y progreso en memoria (para que `npm test`, `npm run dev` y una demo local funcionen sin ninguna cuenta externa). Esto se anuncia en `/api/health` (`configured: true/false`).
 - Las lecciones se leen primero de Supabase (`lessons` con `target_language`); si no hay filas para ese idioma/nivel, se usa el contenido local en `lib/lessonsData.js` como respaldo, para que la ruta de aprendizaje nunca aparezca vacía en un proyecto recién clonado.
 - **No hay integración de pagos real todavía.** Se agregó `profiles.access_tier` para poder marcar manualmente a un usuario como premium desde el dashboard de Supabase mientras tanto.
+
+## Despliegue en Vercel
+- **Framework Preset:** `Other`
+- **Build Command:** `npm run build`
+- **Output Directory:** `.`
+- Las funciones serverless viven en `api/**/*.js`.
+- El frontend estático se sirve desde la raíz del repositorio (`index.html`, `script.js`, `styles.css`, `worlds/*/content.js`).
+- La regla SPA de `vercel.json` solo redirige rutas sin extensión a `index.html`, para no romper archivos como `script.js`, `styles.css` o `worlds/.../content.js`.
+- Configura las variables de entorno en Vercel, **no** subas `.env` real:
+  - `SUPABASE_URL`
+  - `SUPABASE_ANON_KEY` (o `SUPABASE_KEY` como alias)
+  - `SUPABASE_SERVICE_ROLE_KEY`
+  - `SUPABASE_DATABASE_URL` (solo si vas a correr `npm run db:setup`)
+  - `OPENAI_API_KEY` (para activar el AI Tutor real)
+  - `OPENAI_MODEL` (opcional; por defecto `gpt-4.1-mini`)
+  - `DEV_TOKEN_SECRET`
+  - `PREMIUM_PRICE_USD`
+
+## AI Tutor
+- El botón **AI Tutor** ahora llama al backend (`POST /api/ai/tutor`) en vez de responder con texto fijo en frontend.
+- La llamada real a OpenAI se hace solo desde backend; la clave `OPENAI_API_KEY` nunca se expone al navegador.
+- Si falta `OPENAI_API_KEY`, la UI muestra un mensaje claro indicando que el tutor IA todavía no está configurado.
+- La interfaz acepta un prompt libre del usuario y además envía al backend el idioma, nivel y lección activa de la ruta para dar respuestas más útiles.
 
 ## Validación realizada
 - `node --check` en los 24 archivos JS del proyecto (frontend + backend).
@@ -75,8 +100,8 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 > No se ejecutó contra un proyecto Supabase real (no tengo credenciales); todo lo anterior se validó en modo demo. Antes de producción, corre `npm run db:setup` con `SUPABASE_DATABASE_URL` configurado para aplicar la migración de gamificación, y prueba `npm test` de nuevo con `SUPABASE_URL`/`SUPABASE_SERVICE_ROLE_KEY` reales.
 
 ## Fase 2 (completada en esta entrega)
-- `lib/lessonsData.js` y los 5 `worlds/*/content.js` ahora tienen **8 lecciones por idioma**, con la misma estructura y temas espejados: saludos (A1, listening), rutina diaria (A1, speaking), familia (A1, writing), planes de fin de semana (A2, speaking), entrevista de trabajo (B1, speaking, premium), comparar ciudades (B2, writing, premium), debate estructurado (C1, speaking, premium) y argumentación matizada (C2, writing, premium) — en inglés, español, francés, italiano y alemán.
-- Validado de punta a punta: los 5 idiomas devuelven exactamente 8 lecciones en total repartidas en los 6 niveles (vía API y vía respaldo local), la insignia "Políglota" se desbloquea correctamente al completar lecciones en 2 idiomas distintos, y el bloqueo premium funciona igual en los 5 mundos.
+- `lib/lessonsData.js` y los 5 `worlds/*/content.js` ahora tienen **36 lecciones por idioma** (6 niveles × 6 habilidades), con contenido diferenciado para listening, speaking, reading, writing, grammar y vocabulary en A1–C2.
+- Validado de punta a punta: los 5 idiomas devuelven exactamente 36 lecciones en total por idioma, repartidas en los 6 niveles (vía API y vía respaldo local), la insignia "Políglota" se desbloquea correctamente al completar lecciones en 2 idiomas distintos, y el bloqueo premium funciona igual en los 5 mundos.
 
 ## Qué sigue (fase 3 sugerida)
 1. Integrar un procesador de pagos real (Stripe/Paddle) para que `profiles.access_tier` se actualice automáticamente en vez de manualmente.

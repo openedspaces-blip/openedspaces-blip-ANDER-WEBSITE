@@ -4,7 +4,7 @@
   "private": true,
   "description": "Supabase-connected backend for the ANDERGO landing page prototype",
   "engines": {
-    "node": "22.x"
+    "node": ">=20"
   },
   "scripts": {
     "start": "node lib/server.js",

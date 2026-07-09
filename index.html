@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ANDERGO | Aprende idiomas con rutas claras y gamificación</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="/styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -142,13 +142,7 @@
       </div>
 
       <div class="learning-path-layout">
-        <div class="lesson-list" id="lessonList" aria-live="polite">
-          <article class="lesson-item active">
-            <span>A1 · Listening</span>
-            <h3>Cargando ruta...</h3>
-            <p>Preparando tus primeras lecciones.</p>
-          </article>
-        </div>
+        <div class="skill-graph" id="skillGraph" aria-live="polite" aria-label="Mapa de lecciones"></div>
 
         <article class="lesson-workspace" id="lessonWorkspace" aria-live="polite">
           <div class="lesson-workspace-head">
@@ -194,7 +188,7 @@
       </div>
     </section>
 
-    <section id="languages" class="section">
+    <section id="languages" class="section compact-hidden-section">
       <div class="section-heading">
         <span>Idiomas</span>
         <h2>Elige el idioma que quieres aprender y empieza hoy.</h2>
@@ -1023,7 +1017,18 @@
               </div>
 
               <div class="tutor-action">
-                <button class="primary-btn tutor-chat-btn" type="button" data-home-action="ai-tutor">Hablar con el tutor</button><div class="tutor-result" aria-live="polite"></div>
+                <div class="tutor-context" aria-live="polite">
+                  <span class="tutor-context-pill">Idioma: <strong data-ai-context="language">English</strong></span>
+                  <span class="tutor-context-pill">Nivel: <strong data-ai-context="level">A1</strong></span>
+                  <span class="tutor-context-pill">Lección: <strong data-ai-context="lesson">Ruta inicial</strong></span>
+                </div>
+                <label class="tutor-input-group" for="aiTutorPrompt">
+                  <span>Escribe qué quieres practicar</span>
+                  <textarea id="aiTutorPrompt" class="tutor-input" rows="4" placeholder="Ej.: Corrige este texto y dame una mini práctica para seguir."></textarea>
+                </label>
+                <p class="tutor-helper">Puedes tocar una sugerencia y luego personalizarla antes de enviar.</p>
+                <button class="primary-btn tutor-chat-btn" type="button">Hablar con el tutor</button>
+                <div class="tutor-result" aria-live="polite"></div>
               </div>
 
               <div class="vocab-section">
@@ -1250,12 +1255,12 @@
       <p>Aprende idiomas con rutas claras y gamificación</p>
       <small>© 2026 ANDERGO. All rights reserved.</small>
     </footer>
-    <script src="worlds/english/content.js"></script>
-    <script src="worlds/spanish/content.js"></script>
-    <script src="worlds/french/content.js"></script>
-    <script src="worlds/italian/content.js"></script>
-    <script src="worlds/german/content.js"></script>
-    <script src="gamification.js"></script>
-    <script src="script.js"></script>
+    <script src="/worlds/english/content.js"></script>
+    <script src="/worlds/spanish/content.js"></script>
+    <script src="/worlds/french/content.js"></script>
+    <script src="/worlds/italian/content.js"></script>
+    <script src="/worlds/german/content.js"></script>
+    <script src="/gamification.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
