@@ -693,6 +693,10 @@ async function loadProgress() {
     if (!response.ok) return;
 
     updateProgressDisplay(data, true);
+    // Supabase is the source of truth once signed in: merge it into the
+    // local gamification engine so XP/streak/badges survive a logout+login
+    // or a fresh browser, instead of only reflecting this device's localStorage.
+    window.AndergoGamification?.syncFromServer(data);
   } catch (error) {
     console.warn('Could not load backend progress', error);
   }
