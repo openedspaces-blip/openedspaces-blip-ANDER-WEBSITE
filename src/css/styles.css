@@ -1127,6 +1127,15 @@ a:focus-visible {
   box-shadow: 0 28px 70px rgba(15, 23, 42, .12);
 }
 
+.skill-competency-card {
+  cursor: pointer;
+}
+
+.skill-competency-card:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+}
+
 .language-overview span,
 .section-heading span,
 .download-box span {

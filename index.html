@@ -1021,13 +1021,21 @@
                   <span class="tutor-context-pill">Nivel: <strong data-ai-context="level">A1</strong></span>
                   <span class="tutor-context-pill">Lección: <strong data-ai-context="lesson">Ruta inicial</strong></span>
                 </div>
+
+                <div class="tutor-conversation" id="tutorConversation" role="log" aria-live="polite" aria-label="Conversación con el tutor IA">
+                  <p class="tutor-welcome">👋 Soy Tutor AI. Pregúntame lo que quieras sobre esta habilidad, nivel o lección, y te ayudo con correcciones, ejemplos y práctica.</p>
+                </div>
+                <p class="tutor-thinking" id="tutorThinking" hidden aria-hidden="true">Tutor AI está pensando…</p>
+
                 <label class="tutor-input-group" for="aiTutorPrompt">
                   <span>Escribe qué quieres practicar</span>
-                  <textarea id="aiTutorPrompt" class="tutor-input" rows="4" placeholder="Ej.: Corrige este texto y dame una mini práctica para seguir."></textarea>
+                  <textarea id="aiTutorPrompt" class="tutor-input" rows="4" placeholder="Ej.: Corrige este texto y dame una mini práctica para seguir." aria-describedby="tutorHelperText"></textarea>
                 </label>
-                <p class="tutor-helper">Puedes tocar una sugerencia y luego personalizarla antes de enviar.</p>
-                <button class="primary-btn tutor-chat-btn" type="button">Hablar con el tutor</button>
-                <div class="tutor-result" aria-live="polite"></div>
+                <p class="tutor-helper" id="tutorHelperText">Puedes tocar una sugerencia y luego personalizarla antes de enviar. Presiona Enter para enviar, Shift+Enter para salto de línea.</p>
+                <div class="tutor-buttons">
+                  <button class="primary-btn tutor-chat-btn" type="button">Hablar con el tutor</button>
+                  <button class="tutor-clear-btn" type="button" aria-label="Limpiar conversación con el tutor">Limpiar conversación</button>
+                </div>
               </div>
 
               <div class="vocab-section">
@@ -1055,32 +1063,32 @@
       </div>
 
       <div class="features-grid">
-        <article>
+        <article class="skill-competency-card" data-skill="listening" role="button" tabindex="0">
           <div class="icon">🎧</div>
           <h3>Listening</h3>
           <p>Audios reales, dictados, comprensión auditiva y práctica por nivel.</p>
         </article>
-        <article>
+        <article class="skill-competency-card" data-skill="speaking" role="button" tabindex="0">
           <div class="icon">🎙</div>
           <h3>Speaking</h3>
           <p>Práctica oral con IA, pronunciación, diálogos y simulaciones.</p>
         </article>
-        <article>
+        <article class="skill-competency-card" data-skill="reading" role="button" tabindex="0">
           <div class="icon">📖</div>
           <h3>Reading</h3>
           <p>Textos graduados, historias, noticias y comprensión lectora.</p>
         </article>
-        <article>
+        <article class="skill-competency-card" data-skill="writing" role="button" tabindex="0">
           <div class="icon">✍️</div>
           <h3>Writing</h3>
           <p>Escritura guiada, correcciones inteligentes y ejercicios prácticos.</p>
         </article>
-        <article>
+        <article class="skill-competency-card" data-skill="grammar" role="button" tabindex="0">
           <div class="icon">📚</div>
           <h3>Grammar</h3>
           <p>Gramática explicada desde tu idioma nativo con ejemplos claros.</p>
         </article>
-        <article>
+        <article class="skill-competency-card" data-skill="vocabulary" role="button" tabindex="0">
           <div class="icon">🧠</div>
           <h3>Vocabulary</h3>
           <p>Vocabulario contextual, frases útiles, flashcards y repetición inteligente.</p>

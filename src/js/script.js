@@ -1252,6 +1252,15 @@ function enableHomepageActions() {
     });
   });
 
+  document.querySelectorAll('.skill-competency-card').forEach(card => {
+    card.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        card.click();
+      }
+    });
+  });
+
   document.addEventListener('click', async event => {
     const upgradeButton = event.target.closest('.upgrade-btn');
     if (upgradeButton) {
@@ -1290,6 +1299,22 @@ function enableHomepageActions() {
       await loadLearningPath({ language, level });
       if (lessonSlug && learningPathState.lessons.some(item => item.slug === lessonSlug)) {
         learningPathState.activeSlug = lessonSlug;
+        renderLearningPath();
+      }
+      document.getElementById('lessonWorkspace')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
+
+    const skillCompetencyCard = event.target.closest('.skill-competency-card');
+    if (skillCompetencyCard) {
+      const skill = skillCompetencyCard.dataset.skill;
+      revealSection('#learning-path');
+      if (!learningPathState.lessons.length) {
+        await loadLearningPath({ language: learningPathState.language, level: learningPathState.level });
+      }
+      const matchingLesson = learningPathState.lessons.find(item => item.skill?.toLowerCase() === skill);
+      if (matchingLesson) {
+        learningPathState.activeSlug = matchingLesson.slug;
         renderLearningPath();
       }
       document.getElementById('lessonWorkspace')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
