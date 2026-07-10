@@ -1110,6 +1110,15 @@ document.addEventListener('click', async event => {
   parent?.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
+const brandLink = document.querySelector('.brand');
+brandLink?.addEventListener('click', event => {
+  if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    history.pushState(null, '', '/');
+  }
+});
+
 if (menuToggle && siteMenu) {
   menuToggle.addEventListener('click', () => {
     const isOpen = siteMenu.classList.toggle('is-open');

@@ -126,6 +126,9 @@ a:focus-visible {
   display: flex;
   align-items: center;
   gap: 14px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .brand-icon {
