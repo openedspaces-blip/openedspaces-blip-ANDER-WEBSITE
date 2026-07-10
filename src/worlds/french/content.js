@@ -61,6 +61,14 @@
       [
         "Famille",
         "Familia"
+      ],
+      [
+        "Sœur",
+        "Hermana"
+      ],
+      [
+        "Étudiant(e)",
+        "Estudiante"
       ]
     ],
     "grammar": [
@@ -75,11 +83,12 @@
     ],
     "reading": {
       "title": "Français A1 Reading",
-      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul.",
+      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul. Après le cours, elle dit au revoir à son amie et rentre chez elle avec sa sœur.",
       "questions": [
         "Où habite Claire?",
         "Quand étudie-t-elle?",
-        "Avec qui parle-t-elle?"
+        "Avec qui parle-t-elle?",
+        "Que fait Claire après le cours ?"
       ]
     }
   },
@@ -140,6 +149,14 @@
       [
         "Après",
         "Después"
+      ],
+      [
+        "Rendez-vous",
+        "Cita"
+      ],
+      [
+        "Épicerie",
+        "Tienda de abarrotes"
       ]
     ],
     "grammar": [
@@ -154,11 +171,12 @@
     ],
     "reading": {
       "title": "Français A2 Reading",
-      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café.",
+      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café. L’après-midi, il rencontre son voisin et ils parlent du temps avant de rentrer.",
       "questions": [
         "Quand travaille Marc?",
         "Qu’achète-t-il?",
-        "Que prépare-t-il?"
+        "Que prépare-t-il?",
+        "Qui rencontre Marc l’après-midi ?"
       ]
     }
   },
@@ -219,6 +237,14 @@
       [
         "Réussir",
         "Lograr"
+      ],
+      [
+        "Perspective",
+        "Perspectiva"
+      ],
+      [
+        "Motivation",
+        "Motivación"
       ]
     ],
     "grammar": [
@@ -233,11 +259,12 @@
     ],
     "reading": {
       "title": "Français B1 Reading",
-      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe.",
+      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe. Elle a des difficultés avec la grammaire, mais sa motivation la rend constante chaque semaine.",
       "questions": [
         "Depuis quand apprend-elle?",
         "Que comprend-elle mieux?",
-        "Où ose-t-elle parler?"
+        "Où ose-t-elle parler?",
+        "Qu’est-ce qui rend Nadia constante ?"
       ]
     }
   },
@@ -298,6 +325,14 @@
       [
         "D’après",
         "Según"
+      ],
+      [
+        "Inconvénient",
+        "Desventaja"
+      ],
+      [
+        "Accès",
+        "Acceso"
       ]
     ],
     "grammar": [
@@ -312,11 +347,12 @@
     ],
     "reading": {
       "title": "Français B2 Reading",
-      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique.",
+      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique. Les critiques estiment qu’un inconvénient majeur est l’absence de retour en face à face, ce qui affecte la motivation avec le temps.",
       "questions": [
         "Que facilite le numérique?",
         "Qu’exige-t-il?",
-        "Quel est le thème?"
+        "Quel est le thème?",
+        "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     }
   },
@@ -377,6 +413,14 @@
       [
         "Pertinent",
         "Pertinente"
+      ],
+      [
+        "Cohérence",
+        "Coherencia"
+      ],
+      [
+        "Implication",
+        "Implicación"
       ]
     ],
     "grammar": [
@@ -391,11 +435,12 @@
     ],
     "reading": {
       "title": "Français C1 Reading",
-      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée.",
+      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée. Cette ambiguïté provient souvent d’hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée.",
       "questions": [
         "Qu’implique la maîtrise?",
         "Que faut-il ajuster?",
-        "Quelle pensée faut-il construire?"
+        "Quelle pensée faut-il construire?",
+        "D’où provient souvent cette ambiguïté ?"
       ]
     }
   },
@@ -456,6 +501,14 @@
       [
         "Raffiné",
         "Refinado"
+      ],
+      [
+        "Discerner",
+        "Discernir"
+      ],
+      [
+        "Éloquence",
+        "Elocuencia"
       ]
     ],
     "grammar": [
@@ -470,11 +523,12 @@
     ],
     "reading": {
       "title": "Français C2 Reading",
-      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte.",
+      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte. Un locuteur vraiment cohésif sait discerner quel registre convient le mieux à chaque échange social imprévisible.",
       "questions": [
         "Que permet l’expression maîtrisée?",
         "Quels quatre éléments combine-t-elle?",
-        "Quel mot signifie elegante?"
+        "Quel mot signifie elegante?",
+        "Que doit discerner un locuteur cohésif ?"
       ]
     }
   }
@@ -500,7 +554,9 @@
       "Je m’appelle...",
       "Je suis de...",
       "Enchanté.",
-      "Je ne comprends pas."
+      "Je ne comprends pas.",
+      "À bientôt.",
+      "D’où viens-tu ?"
     ],
     "vocabulary": [
       {
@@ -532,6 +588,26 @@
         "word": "Famille",
         "translation": "Familia",
         "example": "Ma famille est ici."
+      },
+      {
+        "word": "Sœur",
+        "translation": "Hermana",
+        "example": "J’ai une sœur."
+      },
+      {
+        "word": "Étudiant(e)",
+        "translation": "Estudiante",
+        "example": "Je suis étudiant."
+      },
+      {
+        "word": "S’il vous plaît",
+        "translation": "Por favor",
+        "example": "De l’eau, s’il vous plaît."
+      },
+      {
+        "word": "Au revoir",
+        "translation": "Adiós",
+        "example": "Au revoir, à demain !"
       }
     ],
     "dialogue": [
@@ -544,14 +620,25 @@
         "speaker": "Student",
         "line": "Je suis de...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "D’où viens-tu ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je viens de Saint-Domingue.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul.",
+      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul. Après le cours, elle dit au revoir à son amie et rentre chez elle avec sa sœur.",
       "questions": [
         "Où habite Claire?",
         "Quand étudie-t-elle?",
-        "Avec qui parle-t-elle?"
+        "Avec qui parle-t-elle?",
+        "Que fait Claire après le cours ?"
       ]
     },
     "exercises": [
@@ -574,6 +661,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: Je m’appelle...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Au revoir\"?",
+        "options": [
+          "Adiós",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
         "answer": "Oral practice"
       }
     ]
@@ -596,7 +699,9 @@
       "Je m’appelle...",
       "Je suis de...",
       "Enchanté.",
-      "Je ne comprends pas."
+      "Je ne comprends pas.",
+      "À bientôt.",
+      "D’où viens-tu ?"
     ],
     "vocabulary": [
       {
@@ -628,6 +733,26 @@
         "word": "Famille",
         "translation": "Familia",
         "example": "Ma famille est ici."
+      },
+      {
+        "word": "Sœur",
+        "translation": "Hermana",
+        "example": "J’ai une sœur."
+      },
+      {
+        "word": "Étudiant(e)",
+        "translation": "Estudiante",
+        "example": "Je suis étudiant."
+      },
+      {
+        "word": "S’il vous plaît",
+        "translation": "Por favor",
+        "example": "De l’eau, s’il vous plaît."
+      },
+      {
+        "word": "Au revoir",
+        "translation": "Adiós",
+        "example": "Au revoir, à demain !"
       }
     ],
     "dialogue": [
@@ -640,14 +765,25 @@
         "speaker": "Student",
         "line": "Je suis de...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "D’où viens-tu ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je viens de Saint-Domingue.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul.",
+      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul. Après le cours, elle dit au revoir à son amie et rentre chez elle avec sa sœur.",
       "questions": [
         "Où habite Claire?",
         "Quand étudie-t-elle?",
-        "Avec qui parle-t-elle?"
+        "Avec qui parle-t-elle?",
+        "Que fait Claire après le cours ?"
       ]
     },
     "exercises": [
@@ -670,6 +806,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: Je m’appelle...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Au revoir\"?",
+        "options": [
+          "Adiós",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
         "answer": "Oral practice"
       }
     ]
@@ -692,7 +844,9 @@
       "Je m’appelle...",
       "Je suis de...",
       "Enchanté.",
-      "Je ne comprends pas."
+      "Je ne comprends pas.",
+      "À bientôt.",
+      "D’où viens-tu ?"
     ],
     "vocabulary": [
       {
@@ -724,6 +878,26 @@
         "word": "Famille",
         "translation": "Familia",
         "example": "Ma famille est ici."
+      },
+      {
+        "word": "Sœur",
+        "translation": "Hermana",
+        "example": "J’ai une sœur."
+      },
+      {
+        "word": "Étudiant(e)",
+        "translation": "Estudiante",
+        "example": "Je suis étudiant."
+      },
+      {
+        "word": "S’il vous plaît",
+        "translation": "Por favor",
+        "example": "De l’eau, s’il vous plaît."
+      },
+      {
+        "word": "Au revoir",
+        "translation": "Adiós",
+        "example": "Au revoir, à demain !"
       }
     ],
     "dialogue": [
@@ -736,14 +910,25 @@
         "speaker": "Student",
         "line": "Je suis de...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "D’où viens-tu ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je viens de Saint-Domingue.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul.",
+      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul. Après le cours, elle dit au revoir à son amie et rentre chez elle avec sa sœur.",
       "questions": [
         "Où habite Claire?",
         "Quand étudie-t-elle?",
-        "Avec qui parle-t-elle?"
+        "Avec qui parle-t-elle?",
+        "Que fait Claire après le cours ?"
       ]
     },
     "exercises": [
@@ -766,6 +951,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: Je m’appelle...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Au revoir\"?",
+        "options": [
+          "Adiós",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
         "answer": "Oral practice"
       }
     ]
@@ -788,7 +989,9 @@
       "Je m’appelle...",
       "Je suis de...",
       "Enchanté.",
-      "Je ne comprends pas."
+      "Je ne comprends pas.",
+      "À bientôt.",
+      "D’où viens-tu ?"
     ],
     "vocabulary": [
       {
@@ -820,6 +1023,26 @@
         "word": "Famille",
         "translation": "Familia",
         "example": "Ma famille est ici."
+      },
+      {
+        "word": "Sœur",
+        "translation": "Hermana",
+        "example": "J’ai une sœur."
+      },
+      {
+        "word": "Étudiant(e)",
+        "translation": "Estudiante",
+        "example": "Je suis étudiant."
+      },
+      {
+        "word": "S’il vous plaît",
+        "translation": "Por favor",
+        "example": "De l’eau, s’il vous plaît."
+      },
+      {
+        "word": "Au revoir",
+        "translation": "Adiós",
+        "example": "Au revoir, à demain !"
       }
     ],
     "dialogue": [
@@ -832,14 +1055,25 @@
         "speaker": "Student",
         "line": "Je suis de...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "D’où viens-tu ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je viens de Saint-Domingue.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul.",
+      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul. Après le cours, elle dit au revoir à son amie et rentre chez elle avec sa sœur.",
       "questions": [
         "Où habite Claire?",
         "Quand étudie-t-elle?",
-        "Avec qui parle-t-elle?"
+        "Avec qui parle-t-elle?",
+        "Que fait Claire après le cours ?"
       ]
     },
     "exercises": [
@@ -862,6 +1096,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: Je m’appelle...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Au revoir\"?",
+        "options": [
+          "Adiós",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
         "answer": "Oral practice"
       }
     ]
@@ -884,7 +1134,9 @@
       "Je m’appelle...",
       "Je suis de...",
       "Enchanté.",
-      "Je ne comprends pas."
+      "Je ne comprends pas.",
+      "À bientôt.",
+      "D’où viens-tu ?"
     ],
     "vocabulary": [
       {
@@ -916,6 +1168,26 @@
         "word": "Famille",
         "translation": "Familia",
         "example": "Ma famille est ici."
+      },
+      {
+        "word": "Sœur",
+        "translation": "Hermana",
+        "example": "J’ai une sœur."
+      },
+      {
+        "word": "Étudiant(e)",
+        "translation": "Estudiante",
+        "example": "Je suis étudiant."
+      },
+      {
+        "word": "S’il vous plaît",
+        "translation": "Por favor",
+        "example": "De l’eau, s’il vous plaît."
+      },
+      {
+        "word": "Au revoir",
+        "translation": "Adiós",
+        "example": "Au revoir, à demain !"
       }
     ],
     "dialogue": [
@@ -928,14 +1200,25 @@
         "speaker": "Student",
         "line": "Je suis de...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "D’où viens-tu ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je viens de Saint-Domingue.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul.",
+      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul. Après le cours, elle dit au revoir à son amie et rentre chez elle avec sa sœur.",
       "questions": [
         "Où habite Claire?",
         "Quand étudie-t-elle?",
-        "Avec qui parle-t-elle?"
+        "Avec qui parle-t-elle?",
+        "Que fait Claire après le cours ?"
       ]
     },
     "exercises": [
@@ -958,6 +1241,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: Je m’appelle...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Au revoir\"?",
+        "options": [
+          "Adiós",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
         "answer": "Oral practice"
       }
     ]
@@ -980,7 +1279,9 @@
       "Je m’appelle...",
       "Je suis de...",
       "Enchanté.",
-      "Je ne comprends pas."
+      "Je ne comprends pas.",
+      "À bientôt.",
+      "D’où viens-tu ?"
     ],
     "vocabulary": [
       {
@@ -1012,6 +1313,26 @@
         "word": "Famille",
         "translation": "Familia",
         "example": "Ma famille est ici."
+      },
+      {
+        "word": "Sœur",
+        "translation": "Hermana",
+        "example": "J’ai une sœur."
+      },
+      {
+        "word": "Étudiant(e)",
+        "translation": "Estudiante",
+        "example": "Je suis étudiant."
+      },
+      {
+        "word": "S’il vous plaît",
+        "translation": "Por favor",
+        "example": "De l’eau, s’il vous plaît."
+      },
+      {
+        "word": "Au revoir",
+        "translation": "Adiós",
+        "example": "Au revoir, à demain !"
       }
     ],
     "dialogue": [
@@ -1024,14 +1345,25 @@
         "speaker": "Student",
         "line": "Je suis de...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "D’où viens-tu ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je viens de Saint-Domingue.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul.",
+      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul. Après le cours, elle dit au revoir à son amie et rentre chez elle avec sa sœur.",
       "questions": [
         "Où habite Claire?",
         "Quand étudie-t-elle?",
-        "Avec qui parle-t-elle?"
+        "Avec qui parle-t-elle?",
+        "Que fait Claire après le cours ?"
       ]
     },
     "exercises": [
@@ -1055,6 +1387,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: Je m’appelle...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Au revoir\"?",
+        "options": [
+          "Adiós",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
+        "answer": "Oral practice"
       }
     ]
   },
@@ -1076,7 +1424,9 @@
       "Je voudrais...",
       "Tous les jours...",
       "Hier, je suis allé...",
-      "Il faut..."
+      "Il faut...",
+      "Quelle heure est-il ?",
+      "J’ai besoin de..."
     ],
     "vocabulary": [
       {
@@ -1108,6 +1458,26 @@
         "word": "Après",
         "translation": "Después",
         "example": "Après la classe, je lis."
+      },
+      {
+        "word": "Rendez-vous",
+        "translation": "Cita",
+        "example": "J’ai un rendez-vous à cinq heures."
+      },
+      {
+        "word": "Épicerie",
+        "translation": "Tienda de abarrotes",
+        "example": "Je vais à l’épicerie le vendredi."
+      },
+      {
+        "word": "Occupé(e)",
+        "translation": "Ocupado/a",
+        "example": "Elle est occupée aujourd’hui."
+      },
+      {
+        "word": "Voisin(e)",
+        "translation": "Vecino/a",
+        "example": "Mon voisin est sympathique."
       }
     ],
     "dialogue": [
@@ -1120,14 +1490,25 @@
         "speaker": "Student",
         "line": "Tous les jours...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Quelle heure est-il ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Il est sept heures, j’ai besoin de partir.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café.",
+      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café. L’après-midi, il rencontre son voisin et ils parlent du temps avant de rentrer.",
       "questions": [
         "Quand travaille Marc?",
         "Qu’achète-t-il?",
-        "Que prépare-t-il?"
+        "Que prépare-t-il?",
+        "Qui rencontre Marc l’après-midi ?"
       ]
     },
     "exercises": [
@@ -1150,6 +1531,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: Je voudrais...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Voisin(e)\"?",
+        "options": [
+          "Vecino/a",
+          "Cita",
+          "Ocupado/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
         "answer": "Oral practice"
       }
     ]
@@ -1172,7 +1569,9 @@
       "Je voudrais...",
       "Tous les jours...",
       "Hier, je suis allé...",
-      "Il faut..."
+      "Il faut...",
+      "Quelle heure est-il ?",
+      "J’ai besoin de..."
     ],
     "vocabulary": [
       {
@@ -1204,6 +1603,26 @@
         "word": "Après",
         "translation": "Después",
         "example": "Après la classe, je lis."
+      },
+      {
+        "word": "Rendez-vous",
+        "translation": "Cita",
+        "example": "J’ai un rendez-vous à cinq heures."
+      },
+      {
+        "word": "Épicerie",
+        "translation": "Tienda de abarrotes",
+        "example": "Je vais à l’épicerie le vendredi."
+      },
+      {
+        "word": "Occupé(e)",
+        "translation": "Ocupado/a",
+        "example": "Elle est occupée aujourd’hui."
+      },
+      {
+        "word": "Voisin(e)",
+        "translation": "Vecino/a",
+        "example": "Mon voisin est sympathique."
       }
     ],
     "dialogue": [
@@ -1216,14 +1635,25 @@
         "speaker": "Student",
         "line": "Tous les jours...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Quelle heure est-il ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Il est sept heures, j’ai besoin de partir.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café.",
+      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café. L’après-midi, il rencontre son voisin et ils parlent du temps avant de rentrer.",
       "questions": [
         "Quand travaille Marc?",
         "Qu’achète-t-il?",
-        "Que prépare-t-il?"
+        "Que prépare-t-il?",
+        "Qui rencontre Marc l’après-midi ?"
       ]
     },
     "exercises": [
@@ -1246,6 +1676,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: Je voudrais...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Voisin(e)\"?",
+        "options": [
+          "Vecino/a",
+          "Cita",
+          "Ocupado/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
         "answer": "Oral practice"
       }
     ]
@@ -1268,7 +1714,9 @@
       "Je voudrais...",
       "Tous les jours...",
       "Hier, je suis allé...",
-      "Il faut..."
+      "Il faut...",
+      "Quelle heure est-il ?",
+      "J’ai besoin de..."
     ],
     "vocabulary": [
       {
@@ -1300,6 +1748,26 @@
         "word": "Après",
         "translation": "Después",
         "example": "Après la classe, je lis."
+      },
+      {
+        "word": "Rendez-vous",
+        "translation": "Cita",
+        "example": "J’ai un rendez-vous à cinq heures."
+      },
+      {
+        "word": "Épicerie",
+        "translation": "Tienda de abarrotes",
+        "example": "Je vais à l’épicerie le vendredi."
+      },
+      {
+        "word": "Occupé(e)",
+        "translation": "Ocupado/a",
+        "example": "Elle est occupée aujourd’hui."
+      },
+      {
+        "word": "Voisin(e)",
+        "translation": "Vecino/a",
+        "example": "Mon voisin est sympathique."
       }
     ],
     "dialogue": [
@@ -1312,14 +1780,25 @@
         "speaker": "Student",
         "line": "Tous les jours...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Quelle heure est-il ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Il est sept heures, j’ai besoin de partir.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café.",
+      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café. L’après-midi, il rencontre son voisin et ils parlent du temps avant de rentrer.",
       "questions": [
         "Quand travaille Marc?",
         "Qu’achète-t-il?",
-        "Que prépare-t-il?"
+        "Que prépare-t-il?",
+        "Qui rencontre Marc l’après-midi ?"
       ]
     },
     "exercises": [
@@ -1342,6 +1821,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: Je voudrais...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Voisin(e)\"?",
+        "options": [
+          "Vecino/a",
+          "Cita",
+          "Ocupado/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
         "answer": "Oral practice"
       }
     ]
@@ -1364,7 +1859,9 @@
       "Je voudrais...",
       "Tous les jours...",
       "Hier, je suis allé...",
-      "Il faut..."
+      "Il faut...",
+      "Quelle heure est-il ?",
+      "J’ai besoin de..."
     ],
     "vocabulary": [
       {
@@ -1396,6 +1893,26 @@
         "word": "Après",
         "translation": "Después",
         "example": "Après la classe, je lis."
+      },
+      {
+        "word": "Rendez-vous",
+        "translation": "Cita",
+        "example": "J’ai un rendez-vous à cinq heures."
+      },
+      {
+        "word": "Épicerie",
+        "translation": "Tienda de abarrotes",
+        "example": "Je vais à l’épicerie le vendredi."
+      },
+      {
+        "word": "Occupé(e)",
+        "translation": "Ocupado/a",
+        "example": "Elle est occupée aujourd’hui."
+      },
+      {
+        "word": "Voisin(e)",
+        "translation": "Vecino/a",
+        "example": "Mon voisin est sympathique."
       }
     ],
     "dialogue": [
@@ -1408,14 +1925,25 @@
         "speaker": "Student",
         "line": "Tous les jours...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Quelle heure est-il ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Il est sept heures, j’ai besoin de partir.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café.",
+      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café. L’après-midi, il rencontre son voisin et ils parlent du temps avant de rentrer.",
       "questions": [
         "Quand travaille Marc?",
         "Qu’achète-t-il?",
-        "Que prépare-t-il?"
+        "Que prépare-t-il?",
+        "Qui rencontre Marc l’après-midi ?"
       ]
     },
     "exercises": [
@@ -1438,6 +1966,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: Je voudrais...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Voisin(e)\"?",
+        "options": [
+          "Vecino/a",
+          "Cita",
+          "Ocupado/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
         "answer": "Oral practice"
       }
     ]
@@ -1460,7 +2004,9 @@
       "Je voudrais...",
       "Tous les jours...",
       "Hier, je suis allé...",
-      "Il faut..."
+      "Il faut...",
+      "Quelle heure est-il ?",
+      "J’ai besoin de..."
     ],
     "vocabulary": [
       {
@@ -1492,6 +2038,26 @@
         "word": "Après",
         "translation": "Después",
         "example": "Après la classe, je lis."
+      },
+      {
+        "word": "Rendez-vous",
+        "translation": "Cita",
+        "example": "J’ai un rendez-vous à cinq heures."
+      },
+      {
+        "word": "Épicerie",
+        "translation": "Tienda de abarrotes",
+        "example": "Je vais à l’épicerie le vendredi."
+      },
+      {
+        "word": "Occupé(e)",
+        "translation": "Ocupado/a",
+        "example": "Elle est occupée aujourd’hui."
+      },
+      {
+        "word": "Voisin(e)",
+        "translation": "Vecino/a",
+        "example": "Mon voisin est sympathique."
       }
     ],
     "dialogue": [
@@ -1504,14 +2070,25 @@
         "speaker": "Student",
         "line": "Tous les jours...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Quelle heure est-il ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Il est sept heures, j’ai besoin de partir.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café.",
+      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café. L’après-midi, il rencontre son voisin et ils parlent du temps avant de rentrer.",
       "questions": [
         "Quand travaille Marc?",
         "Qu’achète-t-il?",
-        "Que prépare-t-il?"
+        "Que prépare-t-il?",
+        "Qui rencontre Marc l’après-midi ?"
       ]
     },
     "exercises": [
@@ -1534,6 +2111,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: Je voudrais...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Voisin(e)\"?",
+        "options": [
+          "Vecino/a",
+          "Cita",
+          "Ocupado/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
         "answer": "Oral practice"
       }
     ]
@@ -1556,7 +2149,9 @@
       "Je voudrais...",
       "Tous les jours...",
       "Hier, je suis allé...",
-      "Il faut..."
+      "Il faut...",
+      "Quelle heure est-il ?",
+      "J’ai besoin de..."
     ],
     "vocabulary": [
       {
@@ -1588,6 +2183,26 @@
         "word": "Après",
         "translation": "Después",
         "example": "Après la classe, je lis."
+      },
+      {
+        "word": "Rendez-vous",
+        "translation": "Cita",
+        "example": "J’ai un rendez-vous à cinq heures."
+      },
+      {
+        "word": "Épicerie",
+        "translation": "Tienda de abarrotes",
+        "example": "Je vais à l’épicerie le vendredi."
+      },
+      {
+        "word": "Occupé(e)",
+        "translation": "Ocupado/a",
+        "example": "Elle est occupée aujourd’hui."
+      },
+      {
+        "word": "Voisin(e)",
+        "translation": "Vecino/a",
+        "example": "Mon voisin est sympathique."
       }
     ],
     "dialogue": [
@@ -1600,14 +2215,25 @@
         "speaker": "Student",
         "line": "Tous les jours...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Quelle heure est-il ?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Il est sept heures, j’ai besoin de partir.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café.",
+      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café. L’après-midi, il rencontre son voisin et ils parlent du temps avant de rentrer.",
       "questions": [
         "Quand travaille Marc?",
         "Qu’achète-t-il?",
-        "Que prépare-t-il?"
+        "Que prépare-t-il?",
+        "Qui rencontre Marc l’après-midi ?"
       ]
     },
     "exercises": [
@@ -1631,6 +2257,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: Je voudrais...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Voisin(e)\"?",
+        "options": [
+          "Vecino/a",
+          "Cita",
+          "Ocupado/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
+        "answer": "Oral practice"
       }
     ]
   },
@@ -1652,7 +2294,9 @@
       "À mon avis...",
       "Je pense que...",
       "Parce que...",
-      "J’aimerais..."
+      "J’aimerais...",
+      "Je suis convaincu(e) que...",
+      "C’est un bon point, mais..."
     ],
     "vocabulary": [
       {
@@ -1684,6 +2328,26 @@
         "word": "Réussir",
         "translation": "Lograr",
         "example": "Il peut réussir."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Essaie de voir la perspective de l’autre."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Sa motivation est impressionnante."
+      },
+      {
+        "word": "Constant(e)",
+        "translation": "Constante",
+        "example": "Il faut être constant."
+      },
+      {
+        "word": "Difficulté",
+        "translation": "Dificultad",
+        "example": "La grammaire reste une difficulté."
       }
     ],
     "dialogue": [
@@ -1696,14 +2360,25 @@
         "speaker": "Student",
         "line": "Je pense que...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "C’est un bon point, mais...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je suis convaincu que la pratique compte plus.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe.",
+      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe. Elle a des difficultés avec la grammaire, mais sa motivation la rend constante chaque semaine.",
       "questions": [
         "Depuis quand apprend-elle?",
         "Que comprend-elle mieux?",
-        "Où ose-t-elle parler?"
+        "Où ose-t-elle parler?",
+        "Qu’est-ce qui rend Nadia constante ?"
       ]
     },
     "exercises": [
@@ -1726,6 +2401,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: À mon avis...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Motivation\"?",
+        "options": [
+          "Motivación",
+          "Perspectiva",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
         "answer": "Oral practice"
       }
     ]
@@ -1748,7 +2439,9 @@
       "À mon avis...",
       "Je pense que...",
       "Parce que...",
-      "J’aimerais..."
+      "J’aimerais...",
+      "Je suis convaincu(e) que...",
+      "C’est un bon point, mais..."
     ],
     "vocabulary": [
       {
@@ -1780,6 +2473,26 @@
         "word": "Réussir",
         "translation": "Lograr",
         "example": "Il peut réussir."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Essaie de voir la perspective de l’autre."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Sa motivation est impressionnante."
+      },
+      {
+        "word": "Constant(e)",
+        "translation": "Constante",
+        "example": "Il faut être constant."
+      },
+      {
+        "word": "Difficulté",
+        "translation": "Dificultad",
+        "example": "La grammaire reste une difficulté."
       }
     ],
     "dialogue": [
@@ -1792,14 +2505,25 @@
         "speaker": "Student",
         "line": "Je pense que...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "C’est un bon point, mais...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je suis convaincu que la pratique compte plus.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe.",
+      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe. Elle a des difficultés avec la grammaire, mais sa motivation la rend constante chaque semaine.",
       "questions": [
         "Depuis quand apprend-elle?",
         "Que comprend-elle mieux?",
-        "Où ose-t-elle parler?"
+        "Où ose-t-elle parler?",
+        "Qu’est-ce qui rend Nadia constante ?"
       ]
     },
     "exercises": [
@@ -1822,6 +2546,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: À mon avis...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Motivation\"?",
+        "options": [
+          "Motivación",
+          "Perspectiva",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
         "answer": "Oral practice"
       }
     ]
@@ -1844,7 +2584,9 @@
       "À mon avis...",
       "Je pense que...",
       "Parce que...",
-      "J’aimerais..."
+      "J’aimerais...",
+      "Je suis convaincu(e) que...",
+      "C’est un bon point, mais..."
     ],
     "vocabulary": [
       {
@@ -1876,6 +2618,26 @@
         "word": "Réussir",
         "translation": "Lograr",
         "example": "Il peut réussir."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Essaie de voir la perspective de l’autre."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Sa motivation est impressionnante."
+      },
+      {
+        "word": "Constant(e)",
+        "translation": "Constante",
+        "example": "Il faut être constant."
+      },
+      {
+        "word": "Difficulté",
+        "translation": "Dificultad",
+        "example": "La grammaire reste une difficulté."
       }
     ],
     "dialogue": [
@@ -1888,14 +2650,25 @@
         "speaker": "Student",
         "line": "Je pense que...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "C’est un bon point, mais...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je suis convaincu que la pratique compte plus.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe.",
+      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe. Elle a des difficultés avec la grammaire, mais sa motivation la rend constante chaque semaine.",
       "questions": [
         "Depuis quand apprend-elle?",
         "Que comprend-elle mieux?",
-        "Où ose-t-elle parler?"
+        "Où ose-t-elle parler?",
+        "Qu’est-ce qui rend Nadia constante ?"
       ]
     },
     "exercises": [
@@ -1918,6 +2691,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: À mon avis...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Motivation\"?",
+        "options": [
+          "Motivación",
+          "Perspectiva",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
         "answer": "Oral practice"
       }
     ]
@@ -1940,7 +2729,9 @@
       "À mon avis...",
       "Je pense que...",
       "Parce que...",
-      "J’aimerais..."
+      "J’aimerais...",
+      "Je suis convaincu(e) que...",
+      "C’est un bon point, mais..."
     ],
     "vocabulary": [
       {
@@ -1972,6 +2763,26 @@
         "word": "Réussir",
         "translation": "Lograr",
         "example": "Il peut réussir."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Essaie de voir la perspective de l’autre."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Sa motivation est impressionnante."
+      },
+      {
+        "word": "Constant(e)",
+        "translation": "Constante",
+        "example": "Il faut être constant."
+      },
+      {
+        "word": "Difficulté",
+        "translation": "Dificultad",
+        "example": "La grammaire reste une difficulté."
       }
     ],
     "dialogue": [
@@ -1984,14 +2795,25 @@
         "speaker": "Student",
         "line": "Je pense que...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "C’est un bon point, mais...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je suis convaincu que la pratique compte plus.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe.",
+      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe. Elle a des difficultés avec la grammaire, mais sa motivation la rend constante chaque semaine.",
       "questions": [
         "Depuis quand apprend-elle?",
         "Que comprend-elle mieux?",
-        "Où ose-t-elle parler?"
+        "Où ose-t-elle parler?",
+        "Qu’est-ce qui rend Nadia constante ?"
       ]
     },
     "exercises": [
@@ -2014,6 +2836,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: À mon avis...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Motivation\"?",
+        "options": [
+          "Motivación",
+          "Perspectiva",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
         "answer": "Oral practice"
       }
     ]
@@ -2036,7 +2874,9 @@
       "À mon avis...",
       "Je pense que...",
       "Parce que...",
-      "J’aimerais..."
+      "J’aimerais...",
+      "Je suis convaincu(e) que...",
+      "C’est un bon point, mais..."
     ],
     "vocabulary": [
       {
@@ -2068,6 +2908,26 @@
         "word": "Réussir",
         "translation": "Lograr",
         "example": "Il peut réussir."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Essaie de voir la perspective de l’autre."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Sa motivation est impressionnante."
+      },
+      {
+        "word": "Constant(e)",
+        "translation": "Constante",
+        "example": "Il faut être constant."
+      },
+      {
+        "word": "Difficulté",
+        "translation": "Dificultad",
+        "example": "La grammaire reste une difficulté."
       }
     ],
     "dialogue": [
@@ -2080,14 +2940,25 @@
         "speaker": "Student",
         "line": "Je pense que...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "C’est un bon point, mais...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je suis convaincu que la pratique compte plus.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe.",
+      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe. Elle a des difficultés avec la grammaire, mais sa motivation la rend constante chaque semaine.",
       "questions": [
         "Depuis quand apprend-elle?",
         "Que comprend-elle mieux?",
-        "Où ose-t-elle parler?"
+        "Où ose-t-elle parler?",
+        "Qu’est-ce qui rend Nadia constante ?"
       ]
     },
     "exercises": [
@@ -2110,6 +2981,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: À mon avis...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Motivation\"?",
+        "options": [
+          "Motivación",
+          "Perspectiva",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
         "answer": "Oral practice"
       }
     ]
@@ -2132,7 +3019,9 @@
       "À mon avis...",
       "Je pense que...",
       "Parce que...",
-      "J’aimerais..."
+      "J’aimerais...",
+      "Je suis convaincu(e) que...",
+      "C’est un bon point, mais..."
     ],
     "vocabulary": [
       {
@@ -2164,6 +3053,26 @@
         "word": "Réussir",
         "translation": "Lograr",
         "example": "Il peut réussir."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Essaie de voir la perspective de l’autre."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Sa motivation est impressionnante."
+      },
+      {
+        "word": "Constant(e)",
+        "translation": "Constante",
+        "example": "Il faut être constant."
+      },
+      {
+        "word": "Difficulté",
+        "translation": "Dificultad",
+        "example": "La grammaire reste une difficulté."
       }
     ],
     "dialogue": [
@@ -2176,14 +3085,25 @@
         "speaker": "Student",
         "line": "Je pense que...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "C’est un bon point, mais...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Je suis convaincu que la pratique compte plus.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe.",
+      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe. Elle a des difficultés avec la grammaire, mais sa motivation la rend constante chaque semaine.",
       "questions": [
         "Depuis quand apprend-elle?",
         "Que comprend-elle mieux?",
-        "Où ose-t-elle parler?"
+        "Où ose-t-elle parler?",
+        "Qu’est-ce qui rend Nadia constante ?"
       ]
     },
     "exercises": [
@@ -2207,6 +3127,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: À mon avis...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Motivation\"?",
+        "options": [
+          "Motivación",
+          "Perspectiva",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
+        "answer": "Oral practice"
       }
     ]
   },
@@ -2228,7 +3164,9 @@
       "D’une part...",
       "D’autre part...",
       "Il est essentiel que...",
-      "Cela montre que..."
+      "Cela montre que...",
+      "On pourrait avancer que...",
+      "Cela s’explique en grande partie par..."
     ],
     "vocabulary": [
       {
@@ -2260,6 +3198,26 @@
         "word": "D’après",
         "translation": "Según",
         "example": "D’après l’auteur..."
+      },
+      {
+        "word": "Inconvénient",
+        "translation": "Desventaja",
+        "example": "Un inconvénient est le coût."
+      },
+      {
+        "word": "Accès",
+        "translation": "Acceso",
+        "example": "Ils ont accès à de bonnes ressources."
+      },
+      {
+        "word": "Autonomie",
+        "translation": "Autonomía",
+        "example": "L’étude en ligne développe l’autonomie."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "Cela demande de la discipline."
       }
     ],
     "dialogue": [
@@ -2272,14 +3230,25 @@
         "speaker": "Student",
         "line": "D’autre part...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait avancer que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Cela s’explique en grande partie par un manque de discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique.",
+      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique. Les critiques estiment qu’un inconvénient majeur est l’absence de retour en face à face, ce qui affecte la motivation avec le temps.",
       "questions": [
         "Que facilite le numérique?",
         "Qu’exige-t-il?",
-        "Quel est le thème?"
+        "Quel est le thème?",
+        "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     },
     "exercises": [
@@ -2303,6 +3272,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: D’une part...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Inconvénient\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2324,7 +3309,9 @@
       "D’une part...",
       "D’autre part...",
       "Il est essentiel que...",
-      "Cela montre que..."
+      "Cela montre que...",
+      "On pourrait avancer que...",
+      "Cela s’explique en grande partie par..."
     ],
     "vocabulary": [
       {
@@ -2356,6 +3343,26 @@
         "word": "D’après",
         "translation": "Según",
         "example": "D’après l’auteur..."
+      },
+      {
+        "word": "Inconvénient",
+        "translation": "Desventaja",
+        "example": "Un inconvénient est le coût."
+      },
+      {
+        "word": "Accès",
+        "translation": "Acceso",
+        "example": "Ils ont accès à de bonnes ressources."
+      },
+      {
+        "word": "Autonomie",
+        "translation": "Autonomía",
+        "example": "L’étude en ligne développe l’autonomie."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "Cela demande de la discipline."
       }
     ],
     "dialogue": [
@@ -2368,14 +3375,25 @@
         "speaker": "Student",
         "line": "D’autre part...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait avancer que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Cela s’explique en grande partie par un manque de discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique.",
+      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique. Les critiques estiment qu’un inconvénient majeur est l’absence de retour en face à face, ce qui affecte la motivation avec le temps.",
       "questions": [
         "Que facilite le numérique?",
         "Qu’exige-t-il?",
-        "Quel est le thème?"
+        "Quel est le thème?",
+        "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     },
     "exercises": [
@@ -2399,6 +3417,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: D’une part...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Inconvénient\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2420,7 +3454,9 @@
       "D’une part...",
       "D’autre part...",
       "Il est essentiel que...",
-      "Cela montre que..."
+      "Cela montre que...",
+      "On pourrait avancer que...",
+      "Cela s’explique en grande partie par..."
     ],
     "vocabulary": [
       {
@@ -2452,6 +3488,26 @@
         "word": "D’après",
         "translation": "Según",
         "example": "D’après l’auteur..."
+      },
+      {
+        "word": "Inconvénient",
+        "translation": "Desventaja",
+        "example": "Un inconvénient est le coût."
+      },
+      {
+        "word": "Accès",
+        "translation": "Acceso",
+        "example": "Ils ont accès à de bonnes ressources."
+      },
+      {
+        "word": "Autonomie",
+        "translation": "Autonomía",
+        "example": "L’étude en ligne développe l’autonomie."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "Cela demande de la discipline."
       }
     ],
     "dialogue": [
@@ -2464,14 +3520,25 @@
         "speaker": "Student",
         "line": "D’autre part...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait avancer que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Cela s’explique en grande partie par un manque de discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique.",
+      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique. Les critiques estiment qu’un inconvénient majeur est l’absence de retour en face à face, ce qui affecte la motivation avec le temps.",
       "questions": [
         "Que facilite le numérique?",
         "Qu’exige-t-il?",
-        "Quel est le thème?"
+        "Quel est le thème?",
+        "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     },
     "exercises": [
@@ -2495,6 +3562,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: D’une part...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Inconvénient\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2516,7 +3599,9 @@
       "D’une part...",
       "D’autre part...",
       "Il est essentiel que...",
-      "Cela montre que..."
+      "Cela montre que...",
+      "On pourrait avancer que...",
+      "Cela s’explique en grande partie par..."
     ],
     "vocabulary": [
       {
@@ -2548,6 +3633,26 @@
         "word": "D’après",
         "translation": "Según",
         "example": "D’après l’auteur..."
+      },
+      {
+        "word": "Inconvénient",
+        "translation": "Desventaja",
+        "example": "Un inconvénient est le coût."
+      },
+      {
+        "word": "Accès",
+        "translation": "Acceso",
+        "example": "Ils ont accès à de bonnes ressources."
+      },
+      {
+        "word": "Autonomie",
+        "translation": "Autonomía",
+        "example": "L’étude en ligne développe l’autonomie."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "Cela demande de la discipline."
       }
     ],
     "dialogue": [
@@ -2560,14 +3665,25 @@
         "speaker": "Student",
         "line": "D’autre part...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait avancer que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Cela s’explique en grande partie par un manque de discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique.",
+      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique. Les critiques estiment qu’un inconvénient majeur est l’absence de retour en face à face, ce qui affecte la motivation avec le temps.",
       "questions": [
         "Que facilite le numérique?",
         "Qu’exige-t-il?",
-        "Quel est le thème?"
+        "Quel est le thème?",
+        "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     },
     "exercises": [
@@ -2591,6 +3707,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: D’une part...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Inconvénient\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2612,7 +3744,9 @@
       "D’une part...",
       "D’autre part...",
       "Il est essentiel que...",
-      "Cela montre que..."
+      "Cela montre que...",
+      "On pourrait avancer que...",
+      "Cela s’explique en grande partie par..."
     ],
     "vocabulary": [
       {
@@ -2644,6 +3778,26 @@
         "word": "D’après",
         "translation": "Según",
         "example": "D’après l’auteur..."
+      },
+      {
+        "word": "Inconvénient",
+        "translation": "Desventaja",
+        "example": "Un inconvénient est le coût."
+      },
+      {
+        "word": "Accès",
+        "translation": "Acceso",
+        "example": "Ils ont accès à de bonnes ressources."
+      },
+      {
+        "word": "Autonomie",
+        "translation": "Autonomía",
+        "example": "L’étude en ligne développe l’autonomie."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "Cela demande de la discipline."
       }
     ],
     "dialogue": [
@@ -2656,14 +3810,25 @@
         "speaker": "Student",
         "line": "D’autre part...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait avancer que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Cela s’explique en grande partie par un manque de discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique.",
+      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique. Les critiques estiment qu’un inconvénient majeur est l’absence de retour en face à face, ce qui affecte la motivation avec le temps.",
       "questions": [
         "Que facilite le numérique?",
         "Qu’exige-t-il?",
-        "Quel est le thème?"
+        "Quel est le thème?",
+        "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     },
     "exercises": [
@@ -2687,6 +3852,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: D’une part...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Inconvénient\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2708,7 +3889,9 @@
       "D’une part...",
       "D’autre part...",
       "Il est essentiel que...",
-      "Cela montre que..."
+      "Cela montre que...",
+      "On pourrait avancer que...",
+      "Cela s’explique en grande partie par..."
     ],
     "vocabulary": [
       {
@@ -2740,6 +3923,26 @@
         "word": "D’après",
         "translation": "Según",
         "example": "D’après l’auteur..."
+      },
+      {
+        "word": "Inconvénient",
+        "translation": "Desventaja",
+        "example": "Un inconvénient est le coût."
+      },
+      {
+        "word": "Accès",
+        "translation": "Acceso",
+        "example": "Ils ont accès à de bonnes ressources."
+      },
+      {
+        "word": "Autonomie",
+        "translation": "Autonomía",
+        "example": "L’étude en ligne développe l’autonomie."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "Cela demande de la discipline."
       }
     ],
     "dialogue": [
@@ -2752,14 +3955,25 @@
         "speaker": "Student",
         "line": "D’autre part...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait avancer que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Cela s’explique en grande partie par un manque de discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique.",
+      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique. Les critiques estiment qu’un inconvénient majeur est l’absence de retour en face à face, ce qui affecte la motivation avec le temps.",
       "questions": [
         "Que facilite le numérique?",
         "Qu’exige-t-il?",
-        "Quel est le thème?"
+        "Quel est le thème?",
+        "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     },
     "exercises": [
@@ -2783,6 +3997,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: D’une part...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Inconvénient\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2804,7 +4034,9 @@
       "Il convient de souligner que...",
       "Dans cette perspective...",
       "Il ne s’agit pas seulement de...",
-      "Cette analyse met en évidence..."
+      "Cette analyse met en évidence...",
+      "C’est précisément cette ambiguïté qui...",
+      "On peut soutenir que le facteur le plus déterminant est..."
     ],
     "vocabulary": [
       {
@@ -2836,6 +4068,26 @@
         "word": "Pertinent",
         "translation": "Pertinente",
         "example": "C’est un exemple pertinent."
+      },
+      {
+        "word": "Cohérence",
+        "translation": "Coherencia",
+        "example": "Le texte manque de cohérence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Considère l’implication de ce choix."
+      },
+      {
+        "word": "Discours",
+        "translation": "Discurso",
+        "example": "Le discours académique suit des conventions."
+      },
+      {
+        "word": "Ambiguïté",
+        "translation": "Ambigüedad",
+        "example": "La phrase comporte une certaine ambiguïté."
       }
     ],
     "dialogue": [
@@ -2848,14 +4100,25 @@
         "speaker": "Student",
         "line": "Dans cette perspective...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On peut soutenir que le facteur le plus déterminant est...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "C’est précisément cette ambiguïté qui complique la discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée.",
+      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée. Cette ambiguïté provient souvent d’hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée.",
       "questions": [
         "Qu’implique la maîtrise?",
         "Que faut-il ajuster?",
-        "Quelle pensée faut-il construire?"
+        "Quelle pensée faut-il construire?",
+        "D’où provient souvent cette ambiguïté ?"
       ]
     },
     "exercises": [
@@ -2879,6 +4142,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: Il convient de souligner que...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Cohérence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2900,7 +4179,9 @@
       "Il convient de souligner que...",
       "Dans cette perspective...",
       "Il ne s’agit pas seulement de...",
-      "Cette analyse met en évidence..."
+      "Cette analyse met en évidence...",
+      "C’est précisément cette ambiguïté qui...",
+      "On peut soutenir que le facteur le plus déterminant est..."
     ],
     "vocabulary": [
       {
@@ -2932,6 +4213,26 @@
         "word": "Pertinent",
         "translation": "Pertinente",
         "example": "C’est un exemple pertinent."
+      },
+      {
+        "word": "Cohérence",
+        "translation": "Coherencia",
+        "example": "Le texte manque de cohérence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Considère l’implication de ce choix."
+      },
+      {
+        "word": "Discours",
+        "translation": "Discurso",
+        "example": "Le discours académique suit des conventions."
+      },
+      {
+        "word": "Ambiguïté",
+        "translation": "Ambigüedad",
+        "example": "La phrase comporte une certaine ambiguïté."
       }
     ],
     "dialogue": [
@@ -2944,14 +4245,25 @@
         "speaker": "Student",
         "line": "Dans cette perspective...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On peut soutenir que le facteur le plus déterminant est...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "C’est précisément cette ambiguïté qui complique la discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée.",
+      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée. Cette ambiguïté provient souvent d’hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée.",
       "questions": [
         "Qu’implique la maîtrise?",
         "Que faut-il ajuster?",
-        "Quelle pensée faut-il construire?"
+        "Quelle pensée faut-il construire?",
+        "D’où provient souvent cette ambiguïté ?"
       ]
     },
     "exercises": [
@@ -2975,6 +4287,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: Il convient de souligner que...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Cohérence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2996,7 +4324,9 @@
       "Il convient de souligner que...",
       "Dans cette perspective...",
       "Il ne s’agit pas seulement de...",
-      "Cette analyse met en évidence..."
+      "Cette analyse met en évidence...",
+      "C’est précisément cette ambiguïté qui...",
+      "On peut soutenir que le facteur le plus déterminant est..."
     ],
     "vocabulary": [
       {
@@ -3028,6 +4358,26 @@
         "word": "Pertinent",
         "translation": "Pertinente",
         "example": "C’est un exemple pertinent."
+      },
+      {
+        "word": "Cohérence",
+        "translation": "Coherencia",
+        "example": "Le texte manque de cohérence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Considère l’implication de ce choix."
+      },
+      {
+        "word": "Discours",
+        "translation": "Discurso",
+        "example": "Le discours académique suit des conventions."
+      },
+      {
+        "word": "Ambiguïté",
+        "translation": "Ambigüedad",
+        "example": "La phrase comporte une certaine ambiguïté."
       }
     ],
     "dialogue": [
@@ -3040,14 +4390,25 @@
         "speaker": "Student",
         "line": "Dans cette perspective...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On peut soutenir que le facteur le plus déterminant est...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "C’est précisément cette ambiguïté qui complique la discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée.",
+      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée. Cette ambiguïté provient souvent d’hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée.",
       "questions": [
         "Qu’implique la maîtrise?",
         "Que faut-il ajuster?",
-        "Quelle pensée faut-il construire?"
+        "Quelle pensée faut-il construire?",
+        "D’où provient souvent cette ambiguïté ?"
       ]
     },
     "exercises": [
@@ -3071,6 +4432,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: Il convient de souligner que...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Cohérence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3092,7 +4469,9 @@
       "Il convient de souligner que...",
       "Dans cette perspective...",
       "Il ne s’agit pas seulement de...",
-      "Cette analyse met en évidence..."
+      "Cette analyse met en évidence...",
+      "C’est précisément cette ambiguïté qui...",
+      "On peut soutenir que le facteur le plus déterminant est..."
     ],
     "vocabulary": [
       {
@@ -3124,6 +4503,26 @@
         "word": "Pertinent",
         "translation": "Pertinente",
         "example": "C’est un exemple pertinent."
+      },
+      {
+        "word": "Cohérence",
+        "translation": "Coherencia",
+        "example": "Le texte manque de cohérence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Considère l’implication de ce choix."
+      },
+      {
+        "word": "Discours",
+        "translation": "Discurso",
+        "example": "Le discours académique suit des conventions."
+      },
+      {
+        "word": "Ambiguïté",
+        "translation": "Ambigüedad",
+        "example": "La phrase comporte une certaine ambiguïté."
       }
     ],
     "dialogue": [
@@ -3136,14 +4535,25 @@
         "speaker": "Student",
         "line": "Dans cette perspective...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On peut soutenir que le facteur le plus déterminant est...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "C’est précisément cette ambiguïté qui complique la discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée.",
+      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée. Cette ambiguïté provient souvent d’hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée.",
       "questions": [
         "Qu’implique la maîtrise?",
         "Que faut-il ajuster?",
-        "Quelle pensée faut-il construire?"
+        "Quelle pensée faut-il construire?",
+        "D’où provient souvent cette ambiguïté ?"
       ]
     },
     "exercises": [
@@ -3167,6 +4577,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: Il convient de souligner que...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Cohérence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3188,7 +4614,9 @@
       "Il convient de souligner que...",
       "Dans cette perspective...",
       "Il ne s’agit pas seulement de...",
-      "Cette analyse met en évidence..."
+      "Cette analyse met en évidence...",
+      "C’est précisément cette ambiguïté qui...",
+      "On peut soutenir que le facteur le plus déterminant est..."
     ],
     "vocabulary": [
       {
@@ -3220,6 +4648,26 @@
         "word": "Pertinent",
         "translation": "Pertinente",
         "example": "C’est un exemple pertinent."
+      },
+      {
+        "word": "Cohérence",
+        "translation": "Coherencia",
+        "example": "Le texte manque de cohérence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Considère l’implication de ce choix."
+      },
+      {
+        "word": "Discours",
+        "translation": "Discurso",
+        "example": "Le discours académique suit des conventions."
+      },
+      {
+        "word": "Ambiguïté",
+        "translation": "Ambigüedad",
+        "example": "La phrase comporte une certaine ambiguïté."
       }
     ],
     "dialogue": [
@@ -3232,14 +4680,25 @@
         "speaker": "Student",
         "line": "Dans cette perspective...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On peut soutenir que le facteur le plus déterminant est...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "C’est précisément cette ambiguïté qui complique la discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée.",
+      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée. Cette ambiguïté provient souvent d’hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée.",
       "questions": [
         "Qu’implique la maîtrise?",
         "Que faut-il ajuster?",
-        "Quelle pensée faut-il construire?"
+        "Quelle pensée faut-il construire?",
+        "D’où provient souvent cette ambiguïté ?"
       ]
     },
     "exercises": [
@@ -3263,6 +4722,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: Il convient de souligner que...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Cohérence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3284,7 +4759,9 @@
       "Il convient de souligner que...",
       "Dans cette perspective...",
       "Il ne s’agit pas seulement de...",
-      "Cette analyse met en évidence..."
+      "Cette analyse met en évidence...",
+      "C’est précisément cette ambiguïté qui...",
+      "On peut soutenir que le facteur le plus déterminant est..."
     ],
     "vocabulary": [
       {
@@ -3316,6 +4793,26 @@
         "word": "Pertinent",
         "translation": "Pertinente",
         "example": "C’est un exemple pertinent."
+      },
+      {
+        "word": "Cohérence",
+        "translation": "Coherencia",
+        "example": "Le texte manque de cohérence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Considère l’implication de ce choix."
+      },
+      {
+        "word": "Discours",
+        "translation": "Discurso",
+        "example": "Le discours académique suit des conventions."
+      },
+      {
+        "word": "Ambiguïté",
+        "translation": "Ambigüedad",
+        "example": "La phrase comporte une certaine ambiguïté."
       }
     ],
     "dialogue": [
@@ -3328,14 +4825,25 @@
         "speaker": "Student",
         "line": "Dans cette perspective...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On peut soutenir que le facteur le plus déterminant est...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "C’est précisément cette ambiguïté qui complique la discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée.",
+      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée. Cette ambiguïté provient souvent d’hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée.",
       "questions": [
         "Qu’implique la maîtrise?",
         "Que faut-il ajuster?",
-        "Quelle pensée faut-il construire?"
+        "Quelle pensée faut-il construire?",
+        "D’où provient souvent cette ambiguïté ?"
       ]
     },
     "exercises": [
@@ -3359,6 +4867,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: Il convient de souligner que...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Cohérence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3380,7 +4904,9 @@
       "La question mérite d’être posée...",
       "À y regarder de près...",
       "Ce qui frappe, c’est...",
-      "Encore faut-il préciser que..."
+      "Encore faut-il préciser que...",
+      "Loin d’être anodin, ceci...",
+      "On pourrait raisonnablement soutenir que..."
     ],
     "vocabulary": [
       {
@@ -3412,6 +4938,26 @@
         "word": "Raffiné",
         "translation": "Refinado",
         "example": "Le style est raffiné."
+      },
+      {
+        "word": "Discerner",
+        "translation": "Discernir",
+        "example": "Un locuteur habile sait discerner les nuances de ton."
+      },
+      {
+        "word": "Éloquence",
+        "translation": "Elocuencia",
+        "example": "Son éloquence a impressionné le public."
+      },
+      {
+        "word": "Registre",
+        "translation": "Registro",
+        "example": "Il adapte son registre à son public."
+      },
+      {
+        "word": "Cohésif",
+        "translation": "Cohesivo",
+        "example": "L’argument est cohésif et précis."
       }
     ],
     "dialogue": [
@@ -3424,14 +4970,25 @@
         "speaker": "Student",
         "line": "À y regarder de près...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait raisonnablement soutenir que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Loin d’être anodin, ceci reflète une véritable maîtrise du registre.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte.",
+      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte. Un locuteur vraiment cohésif sait discerner quel registre convient le mieux à chaque échange social imprévisible.",
       "questions": [
         "Que permet l’expression maîtrisée?",
         "Quels quatre éléments combine-t-elle?",
-        "Quel mot signifie elegante?"
+        "Quel mot signifie elegante?",
+        "Que doit discerner un locuteur cohésif ?"
       ]
     },
     "exercises": [
@@ -3455,6 +5012,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: La question mérite d’être posée...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discerner\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3476,7 +5049,9 @@
       "La question mérite d’être posée...",
       "À y regarder de près...",
       "Ce qui frappe, c’est...",
-      "Encore faut-il préciser que..."
+      "Encore faut-il préciser que...",
+      "Loin d’être anodin, ceci...",
+      "On pourrait raisonnablement soutenir que..."
     ],
     "vocabulary": [
       {
@@ -3508,6 +5083,26 @@
         "word": "Raffiné",
         "translation": "Refinado",
         "example": "Le style est raffiné."
+      },
+      {
+        "word": "Discerner",
+        "translation": "Discernir",
+        "example": "Un locuteur habile sait discerner les nuances de ton."
+      },
+      {
+        "word": "Éloquence",
+        "translation": "Elocuencia",
+        "example": "Son éloquence a impressionné le public."
+      },
+      {
+        "word": "Registre",
+        "translation": "Registro",
+        "example": "Il adapte son registre à son public."
+      },
+      {
+        "word": "Cohésif",
+        "translation": "Cohesivo",
+        "example": "L’argument est cohésif et précis."
       }
     ],
     "dialogue": [
@@ -3520,14 +5115,25 @@
         "speaker": "Student",
         "line": "À y regarder de près...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait raisonnablement soutenir que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Loin d’être anodin, ceci reflète une véritable maîtrise du registre.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte.",
+      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte. Un locuteur vraiment cohésif sait discerner quel registre convient le mieux à chaque échange social imprévisible.",
       "questions": [
         "Que permet l’expression maîtrisée?",
         "Quels quatre éléments combine-t-elle?",
-        "Quel mot signifie elegante?"
+        "Quel mot signifie elegante?",
+        "Que doit discerner un locuteur cohésif ?"
       ]
     },
     "exercises": [
@@ -3551,6 +5157,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: La question mérite d’être posée...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discerner\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3572,7 +5194,9 @@
       "La question mérite d’être posée...",
       "À y regarder de près...",
       "Ce qui frappe, c’est...",
-      "Encore faut-il préciser que..."
+      "Encore faut-il préciser que...",
+      "Loin d’être anodin, ceci...",
+      "On pourrait raisonnablement soutenir que..."
     ],
     "vocabulary": [
       {
@@ -3604,6 +5228,26 @@
         "word": "Raffiné",
         "translation": "Refinado",
         "example": "Le style est raffiné."
+      },
+      {
+        "word": "Discerner",
+        "translation": "Discernir",
+        "example": "Un locuteur habile sait discerner les nuances de ton."
+      },
+      {
+        "word": "Éloquence",
+        "translation": "Elocuencia",
+        "example": "Son éloquence a impressionné le public."
+      },
+      {
+        "word": "Registre",
+        "translation": "Registro",
+        "example": "Il adapte son registre à son public."
+      },
+      {
+        "word": "Cohésif",
+        "translation": "Cohesivo",
+        "example": "L’argument est cohésif et précis."
       }
     ],
     "dialogue": [
@@ -3616,14 +5260,25 @@
         "speaker": "Student",
         "line": "À y regarder de près...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait raisonnablement soutenir que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Loin d’être anodin, ceci reflète une véritable maîtrise du registre.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte.",
+      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte. Un locuteur vraiment cohésif sait discerner quel registre convient le mieux à chaque échange social imprévisible.",
       "questions": [
         "Que permet l’expression maîtrisée?",
         "Quels quatre éléments combine-t-elle?",
-        "Quel mot signifie elegante?"
+        "Quel mot signifie elegante?",
+        "Que doit discerner un locuteur cohésif ?"
       ]
     },
     "exercises": [
@@ -3647,6 +5302,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: La question mérite d’être posée...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discerner\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3668,7 +5339,9 @@
       "La question mérite d’être posée...",
       "À y regarder de près...",
       "Ce qui frappe, c’est...",
-      "Encore faut-il préciser que..."
+      "Encore faut-il préciser que...",
+      "Loin d’être anodin, ceci...",
+      "On pourrait raisonnablement soutenir que..."
     ],
     "vocabulary": [
       {
@@ -3700,6 +5373,26 @@
         "word": "Raffiné",
         "translation": "Refinado",
         "example": "Le style est raffiné."
+      },
+      {
+        "word": "Discerner",
+        "translation": "Discernir",
+        "example": "Un locuteur habile sait discerner les nuances de ton."
+      },
+      {
+        "word": "Éloquence",
+        "translation": "Elocuencia",
+        "example": "Son éloquence a impressionné le public."
+      },
+      {
+        "word": "Registre",
+        "translation": "Registro",
+        "example": "Il adapte son registre à son public."
+      },
+      {
+        "word": "Cohésif",
+        "translation": "Cohesivo",
+        "example": "L’argument est cohésif et précis."
       }
     ],
     "dialogue": [
@@ -3712,14 +5405,25 @@
         "speaker": "Student",
         "line": "À y regarder de près...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait raisonnablement soutenir que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Loin d’être anodin, ceci reflète une véritable maîtrise du registre.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte.",
+      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte. Un locuteur vraiment cohésif sait discerner quel registre convient le mieux à chaque échange social imprévisible.",
       "questions": [
         "Que permet l’expression maîtrisée?",
         "Quels quatre éléments combine-t-elle?",
-        "Quel mot signifie elegante?"
+        "Quel mot signifie elegante?",
+        "Que doit discerner un locuteur cohésif ?"
       ]
     },
     "exercises": [
@@ -3743,6 +5447,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: La question mérite d’être posée...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discerner\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3764,7 +5484,9 @@
       "La question mérite d’être posée...",
       "À y regarder de près...",
       "Ce qui frappe, c’est...",
-      "Encore faut-il préciser que..."
+      "Encore faut-il préciser que...",
+      "Loin d’être anodin, ceci...",
+      "On pourrait raisonnablement soutenir que..."
     ],
     "vocabulary": [
       {
@@ -3796,6 +5518,26 @@
         "word": "Raffiné",
         "translation": "Refinado",
         "example": "Le style est raffiné."
+      },
+      {
+        "word": "Discerner",
+        "translation": "Discernir",
+        "example": "Un locuteur habile sait discerner les nuances de ton."
+      },
+      {
+        "word": "Éloquence",
+        "translation": "Elocuencia",
+        "example": "Son éloquence a impressionné le public."
+      },
+      {
+        "word": "Registre",
+        "translation": "Registro",
+        "example": "Il adapte son registre à son public."
+      },
+      {
+        "word": "Cohésif",
+        "translation": "Cohesivo",
+        "example": "L’argument est cohésif et précis."
       }
     ],
     "dialogue": [
@@ -3808,14 +5550,25 @@
         "speaker": "Student",
         "line": "À y regarder de près...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait raisonnablement soutenir que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Loin d’être anodin, ceci reflète une véritable maîtrise du registre.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte.",
+      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte. Un locuteur vraiment cohésif sait discerner quel registre convient le mieux à chaque échange social imprévisible.",
       "questions": [
         "Que permet l’expression maîtrisée?",
         "Quels quatre éléments combine-t-elle?",
-        "Quel mot signifie elegante?"
+        "Quel mot signifie elegante?",
+        "Que doit discerner un locuteur cohésif ?"
       ]
     },
     "exercises": [
@@ -3839,6 +5592,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: La question mérite d’être posée...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discerner\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3860,7 +5629,9 @@
       "La question mérite d’être posée...",
       "À y regarder de près...",
       "Ce qui frappe, c’est...",
-      "Encore faut-il préciser que..."
+      "Encore faut-il préciser que...",
+      "Loin d’être anodin, ceci...",
+      "On pourrait raisonnablement soutenir que..."
     ],
     "vocabulary": [
       {
@@ -3892,6 +5663,26 @@
         "word": "Raffiné",
         "translation": "Refinado",
         "example": "Le style est raffiné."
+      },
+      {
+        "word": "Discerner",
+        "translation": "Discernir",
+        "example": "Un locuteur habile sait discerner les nuances de ton."
+      },
+      {
+        "word": "Éloquence",
+        "translation": "Elocuencia",
+        "example": "Son éloquence a impressionné le public."
+      },
+      {
+        "word": "Registre",
+        "translation": "Registro",
+        "example": "Il adapte son registre à son public."
+      },
+      {
+        "word": "Cohésif",
+        "translation": "Cohesivo",
+        "example": "L’argument est cohésif et précis."
       }
     ],
     "dialogue": [
@@ -3904,14 +5695,25 @@
         "speaker": "Student",
         "line": "À y regarder de près...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "On pourrait raisonnablement soutenir que...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Loin d’être anodin, ceci reflète une véritable maîtrise du registre.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte.",
+      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte. Un locuteur vraiment cohésif sait discerner quel registre convient le mieux à chaque échange social imprévisible.",
       "questions": [
         "Que permet l’expression maîtrisée?",
         "Quels quatre éléments combine-t-elle?",
-        "Quel mot signifie elegante?"
+        "Quel mot signifie elegante?",
+        "Que doit discerner un locuteur cohésif ?"
       ]
     },
     "exercises": [
@@ -3935,6 +5737,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: La question mérite d’être posée...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discerner\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
+        "answer": "Open answer"
       }
     ]
   }

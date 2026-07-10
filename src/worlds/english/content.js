@@ -61,6 +61,14 @@
       [
         "Good morning",
         "Buenos días"
+      ],
+      [
+        "Sister",
+        "Hermana"
+      ],
+      [
+        "Student",
+        "Estudiante"
       ]
     ],
     "grammar": [
@@ -75,11 +83,12 @@
     ],
     "reading": {
       "title": "English A1 Reading",
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
       "questions": [
         "Where does Sara live?",
         "Who does she say hello to?",
-        "What does she practice?"
+        "What does she practice?",
+        "What does Sara do after class?"
       ]
     }
   },
@@ -140,6 +149,14 @@
       [
         "Weekend",
         "Fin de semana"
+      ],
+      [
+        "Appointment",
+        "Cita"
+      ],
+      [
+        "Grocery store",
+        "Tienda de abarrotes"
       ]
     ],
     "grammar": [
@@ -154,11 +171,12 @@
     ],
     "reading": {
       "title": "English A2 Reading",
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
       "questions": [
         "What time does Tom wake up?",
         "Who does he visit?",
-        "Where does he buy fruit?"
+        "Where does he buy fruit?",
+        "Who does Tom meet in the afternoon?"
       ]
     }
   },
@@ -219,6 +237,14 @@
       [
         "Challenge",
         "Reto"
+      ],
+      [
+        "Perspective",
+        "Perspectiva"
+      ],
+      [
+        "Motivation",
+        "Motivación"
       ]
     ],
     "grammar": [
@@ -233,11 +259,12 @@
     ],
     "reading": {
       "title": "English B1 Reading",
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
       "questions": [
         "How long has Maya studied English?",
         "What still happens?",
-        "When does she feel confident?"
+        "When does she feel confident?",
+        "What keeps Maya consistent?"
       ]
     }
   },
@@ -298,6 +325,14 @@
       [
         "Develop",
         "Desarrollar"
+      ],
+      [
+        "Drawback",
+        "Desventaja"
+      ],
+      [
+        "Access",
+        "Acceso"
       ]
     ],
     "grammar": [
@@ -312,11 +347,12 @@
     ],
     "reading": {
       "title": "English B2 Reading",
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
       "questions": [
         "What has online education expanded?",
         "What does it require?",
-        "What is one possible difficulty?"
+        "What is one possible difficulty?",
+        "What is one drawback critics mention?"
       ]
     }
   },
@@ -377,6 +413,14 @@
       [
         "Enhance",
         "Mejorar"
+      ],
+      [
+        "Coherence",
+        "Coherencia"
+      ],
+      [
+        "Implication",
+        "Implicación"
       ]
     ],
     "grammar": [
@@ -391,11 +435,12 @@
     ],
     "reading": {
       "title": "English C1 Reading",
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
       "questions": [
         "What is language learning not merely?",
         "What shapes it?",
-        "What three ideas are mentioned?"
+        "What three ideas are mentioned?",
+        "What does the ambiguity stem from?"
       ]
     }
   },
@@ -456,6 +501,14 @@
       [
         "Command",
         "Dominio"
+      ],
+      [
+        "Discern",
+        "Discernir"
+      ],
+      [
+        "Eloquence",
+        "Elocuencia"
       ]
     ],
     "grammar": [
@@ -470,11 +523,12 @@
     ],
     "reading": {
       "title": "English C2 Reading",
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
       "questions": [
         "What does mastery involve besides accuracy?",
         "What must language adapt to?",
-        "Which word means dominio?"
+        "Which word means dominio?",
+        "What must a cohesive speaker discern?"
       ]
     }
   }
@@ -500,7 +554,9 @@
       "My name is...",
       "I am from...",
       "Nice to meet you.",
-      "Can you repeat, please?"
+      "Can you repeat, please?",
+      "See you later.",
+      "Where are you from?"
     ],
     "vocabulary": [
       {
@@ -532,6 +588,26 @@
         "word": "Good morning",
         "translation": "Buenos días",
         "example": "Good morning, class."
+      },
+      {
+        "word": "Sister",
+        "translation": "Hermana",
+        "example": "I have one sister."
+      },
+      {
+        "word": "Student",
+        "translation": "Estudiante",
+        "example": "I am a student."
+      },
+      {
+        "word": "Please",
+        "translation": "Por favor",
+        "example": "Water, please."
+      },
+      {
+        "word": "Thank you",
+        "translation": "Gracias",
+        "example": "Thank you very much."
       }
     ],
     "dialogue": [
@@ -544,14 +620,25 @@
         "speaker": "Student",
         "line": "I am from...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Where are you from?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from Santo Domingo.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
       "questions": [
         "Where does Sara live?",
         "Who does she say hello to?",
-        "What does she practice?"
+        "What does she practice?",
+        "What does Sara do after class?"
       ]
     },
     "exercises": [
@@ -574,6 +661,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: My name is...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Thank you\"?",
+        "options": [
+          "Gracias",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
         "answer": "Oral practice"
       }
     ]
@@ -596,7 +699,9 @@
       "My name is...",
       "I am from...",
       "Nice to meet you.",
-      "Can you repeat, please?"
+      "Can you repeat, please?",
+      "See you later.",
+      "Where are you from?"
     ],
     "vocabulary": [
       {
@@ -628,6 +733,26 @@
         "word": "Good morning",
         "translation": "Buenos días",
         "example": "Good morning, class."
+      },
+      {
+        "word": "Sister",
+        "translation": "Hermana",
+        "example": "I have one sister."
+      },
+      {
+        "word": "Student",
+        "translation": "Estudiante",
+        "example": "I am a student."
+      },
+      {
+        "word": "Please",
+        "translation": "Por favor",
+        "example": "Water, please."
+      },
+      {
+        "word": "Thank you",
+        "translation": "Gracias",
+        "example": "Thank you very much."
       }
     ],
     "dialogue": [
@@ -640,14 +765,25 @@
         "speaker": "Student",
         "line": "I am from...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Where are you from?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from Santo Domingo.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
       "questions": [
         "Where does Sara live?",
         "Who does she say hello to?",
-        "What does she practice?"
+        "What does she practice?",
+        "What does Sara do after class?"
       ]
     },
     "exercises": [
@@ -670,6 +806,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: My name is...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Thank you\"?",
+        "options": [
+          "Gracias",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
         "answer": "Oral practice"
       }
     ]
@@ -692,7 +844,9 @@
       "My name is...",
       "I am from...",
       "Nice to meet you.",
-      "Can you repeat, please?"
+      "Can you repeat, please?",
+      "See you later.",
+      "Where are you from?"
     ],
     "vocabulary": [
       {
@@ -724,6 +878,26 @@
         "word": "Good morning",
         "translation": "Buenos días",
         "example": "Good morning, class."
+      },
+      {
+        "word": "Sister",
+        "translation": "Hermana",
+        "example": "I have one sister."
+      },
+      {
+        "word": "Student",
+        "translation": "Estudiante",
+        "example": "I am a student."
+      },
+      {
+        "word": "Please",
+        "translation": "Por favor",
+        "example": "Water, please."
+      },
+      {
+        "word": "Thank you",
+        "translation": "Gracias",
+        "example": "Thank you very much."
       }
     ],
     "dialogue": [
@@ -736,14 +910,25 @@
         "speaker": "Student",
         "line": "I am from...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Where are you from?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from Santo Domingo.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
       "questions": [
         "Where does Sara live?",
         "Who does she say hello to?",
-        "What does she practice?"
+        "What does she practice?",
+        "What does Sara do after class?"
       ]
     },
     "exercises": [
@@ -766,6 +951,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: My name is...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Thank you\"?",
+        "options": [
+          "Gracias",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
         "answer": "Oral practice"
       }
     ]
@@ -788,7 +989,9 @@
       "My name is...",
       "I am from...",
       "Nice to meet you.",
-      "Can you repeat, please?"
+      "Can you repeat, please?",
+      "See you later.",
+      "Where are you from?"
     ],
     "vocabulary": [
       {
@@ -820,6 +1023,26 @@
         "word": "Good morning",
         "translation": "Buenos días",
         "example": "Good morning, class."
+      },
+      {
+        "word": "Sister",
+        "translation": "Hermana",
+        "example": "I have one sister."
+      },
+      {
+        "word": "Student",
+        "translation": "Estudiante",
+        "example": "I am a student."
+      },
+      {
+        "word": "Please",
+        "translation": "Por favor",
+        "example": "Water, please."
+      },
+      {
+        "word": "Thank you",
+        "translation": "Gracias",
+        "example": "Thank you very much."
       }
     ],
     "dialogue": [
@@ -832,14 +1055,25 @@
         "speaker": "Student",
         "line": "I am from...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Where are you from?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from Santo Domingo.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
       "questions": [
         "Where does Sara live?",
         "Who does she say hello to?",
-        "What does she practice?"
+        "What does she practice?",
+        "What does Sara do after class?"
       ]
     },
     "exercises": [
@@ -862,6 +1096,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: My name is...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Thank you\"?",
+        "options": [
+          "Gracias",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
         "answer": "Oral practice"
       }
     ]
@@ -884,7 +1134,9 @@
       "My name is...",
       "I am from...",
       "Nice to meet you.",
-      "Can you repeat, please?"
+      "Can you repeat, please?",
+      "See you later.",
+      "Where are you from?"
     ],
     "vocabulary": [
       {
@@ -916,6 +1168,26 @@
         "word": "Good morning",
         "translation": "Buenos días",
         "example": "Good morning, class."
+      },
+      {
+        "word": "Sister",
+        "translation": "Hermana",
+        "example": "I have one sister."
+      },
+      {
+        "word": "Student",
+        "translation": "Estudiante",
+        "example": "I am a student."
+      },
+      {
+        "word": "Please",
+        "translation": "Por favor",
+        "example": "Water, please."
+      },
+      {
+        "word": "Thank you",
+        "translation": "Gracias",
+        "example": "Thank you very much."
       }
     ],
     "dialogue": [
@@ -928,14 +1200,25 @@
         "speaker": "Student",
         "line": "I am from...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Where are you from?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from Santo Domingo.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
       "questions": [
         "Where does Sara live?",
         "Who does she say hello to?",
-        "What does she practice?"
+        "What does she practice?",
+        "What does Sara do after class?"
       ]
     },
     "exercises": [
@@ -958,6 +1241,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: My name is...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Thank you\"?",
+        "options": [
+          "Gracias",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
         "answer": "Oral practice"
       }
     ]
@@ -980,7 +1279,9 @@
       "My name is...",
       "I am from...",
       "Nice to meet you.",
-      "Can you repeat, please?"
+      "Can you repeat, please?",
+      "See you later.",
+      "Where are you from?"
     ],
     "vocabulary": [
       {
@@ -1012,6 +1313,26 @@
         "word": "Good morning",
         "translation": "Buenos días",
         "example": "Good morning, class."
+      },
+      {
+        "word": "Sister",
+        "translation": "Hermana",
+        "example": "I have one sister."
+      },
+      {
+        "word": "Student",
+        "translation": "Estudiante",
+        "example": "I am a student."
+      },
+      {
+        "word": "Please",
+        "translation": "Por favor",
+        "example": "Water, please."
+      },
+      {
+        "word": "Thank you",
+        "translation": "Gracias",
+        "example": "Thank you very much."
       }
     ],
     "dialogue": [
@@ -1024,14 +1345,25 @@
         "speaker": "Student",
         "line": "I am from...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Where are you from?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I am from Santo Domingo.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend.",
+      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
       "questions": [
         "Where does Sara live?",
         "Who does she say hello to?",
-        "What does she practice?"
+        "What does she practice?",
+        "What does Sara do after class?"
       ]
     },
     "exercises": [
@@ -1055,6 +1387,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: My name is...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Thank you\"?",
+        "options": [
+          "Gracias",
+          "Hermana",
+          "Estudiante",
+          "Por favor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
+        "answer": "Oral practice"
       }
     ]
   },
@@ -1076,7 +1424,9 @@
       "I usually...",
       "Last weekend...",
       "How much is it?",
-      "I am going to..."
+      "I am going to...",
+      "What time is it?",
+      "I need to..."
     ],
     "vocabulary": [
       {
@@ -1108,6 +1458,26 @@
         "word": "Weekend",
         "translation": "Fin de semana",
         "example": "I work on weekends."
+      },
+      {
+        "word": "Appointment",
+        "translation": "Cita",
+        "example": "I have an appointment at five."
+      },
+      {
+        "word": "Grocery store",
+        "translation": "Tienda de abarrotes",
+        "example": "I go to the grocery store on Fridays."
+      },
+      {
+        "word": "Busy",
+        "translation": "Ocupado/a",
+        "example": "She is busy today."
+      },
+      {
+        "word": "Neighbor",
+        "translation": "Vecino/a",
+        "example": "My neighbor is friendly."
       }
     ],
     "dialogue": [
@@ -1120,14 +1490,25 @@
         "speaker": "Student",
         "line": "Last weekend...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "What time is it?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It's seven o'clock, I need to go.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
       "questions": [
         "What time does Tom wake up?",
         "Who does he visit?",
-        "Where does he buy fruit?"
+        "Where does he buy fruit?",
+        "Who does Tom meet in the afternoon?"
       ]
     },
     "exercises": [
@@ -1150,6 +1531,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: I usually...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Busy\"?",
+        "options": [
+          "Ocupado/a",
+          "Cita",
+          "Vecino/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
         "answer": "Oral practice"
       }
     ]
@@ -1172,7 +1569,9 @@
       "I usually...",
       "Last weekend...",
       "How much is it?",
-      "I am going to..."
+      "I am going to...",
+      "What time is it?",
+      "I need to..."
     ],
     "vocabulary": [
       {
@@ -1204,6 +1603,26 @@
         "word": "Weekend",
         "translation": "Fin de semana",
         "example": "I work on weekends."
+      },
+      {
+        "word": "Appointment",
+        "translation": "Cita",
+        "example": "I have an appointment at five."
+      },
+      {
+        "word": "Grocery store",
+        "translation": "Tienda de abarrotes",
+        "example": "I go to the grocery store on Fridays."
+      },
+      {
+        "word": "Busy",
+        "translation": "Ocupado/a",
+        "example": "She is busy today."
+      },
+      {
+        "word": "Neighbor",
+        "translation": "Vecino/a",
+        "example": "My neighbor is friendly."
       }
     ],
     "dialogue": [
@@ -1216,14 +1635,25 @@
         "speaker": "Student",
         "line": "Last weekend...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "What time is it?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It's seven o'clock, I need to go.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
       "questions": [
         "What time does Tom wake up?",
         "Who does he visit?",
-        "Where does he buy fruit?"
+        "Where does he buy fruit?",
+        "Who does Tom meet in the afternoon?"
       ]
     },
     "exercises": [
@@ -1246,6 +1676,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: I usually...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Busy\"?",
+        "options": [
+          "Ocupado/a",
+          "Cita",
+          "Vecino/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
         "answer": "Oral practice"
       }
     ]
@@ -1268,7 +1714,9 @@
       "I usually...",
       "Last weekend...",
       "How much is it?",
-      "I am going to..."
+      "I am going to...",
+      "What time is it?",
+      "I need to..."
     ],
     "vocabulary": [
       {
@@ -1300,6 +1748,26 @@
         "word": "Weekend",
         "translation": "Fin de semana",
         "example": "I work on weekends."
+      },
+      {
+        "word": "Appointment",
+        "translation": "Cita",
+        "example": "I have an appointment at five."
+      },
+      {
+        "word": "Grocery store",
+        "translation": "Tienda de abarrotes",
+        "example": "I go to the grocery store on Fridays."
+      },
+      {
+        "word": "Busy",
+        "translation": "Ocupado/a",
+        "example": "She is busy today."
+      },
+      {
+        "word": "Neighbor",
+        "translation": "Vecino/a",
+        "example": "My neighbor is friendly."
       }
     ],
     "dialogue": [
@@ -1312,14 +1780,25 @@
         "speaker": "Student",
         "line": "Last weekend...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "What time is it?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It's seven o'clock, I need to go.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
       "questions": [
         "What time does Tom wake up?",
         "Who does he visit?",
-        "Where does he buy fruit?"
+        "Where does he buy fruit?",
+        "Who does Tom meet in the afternoon?"
       ]
     },
     "exercises": [
@@ -1342,6 +1821,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: I usually...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Busy\"?",
+        "options": [
+          "Ocupado/a",
+          "Cita",
+          "Vecino/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
         "answer": "Oral practice"
       }
     ]
@@ -1364,7 +1859,9 @@
       "I usually...",
       "Last weekend...",
       "How much is it?",
-      "I am going to..."
+      "I am going to...",
+      "What time is it?",
+      "I need to..."
     ],
     "vocabulary": [
       {
@@ -1396,6 +1893,26 @@
         "word": "Weekend",
         "translation": "Fin de semana",
         "example": "I work on weekends."
+      },
+      {
+        "word": "Appointment",
+        "translation": "Cita",
+        "example": "I have an appointment at five."
+      },
+      {
+        "word": "Grocery store",
+        "translation": "Tienda de abarrotes",
+        "example": "I go to the grocery store on Fridays."
+      },
+      {
+        "word": "Busy",
+        "translation": "Ocupado/a",
+        "example": "She is busy today."
+      },
+      {
+        "word": "Neighbor",
+        "translation": "Vecino/a",
+        "example": "My neighbor is friendly."
       }
     ],
     "dialogue": [
@@ -1408,14 +1925,25 @@
         "speaker": "Student",
         "line": "Last weekend...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "What time is it?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It's seven o'clock, I need to go.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
       "questions": [
         "What time does Tom wake up?",
         "Who does he visit?",
-        "Where does he buy fruit?"
+        "Where does he buy fruit?",
+        "Who does Tom meet in the afternoon?"
       ]
     },
     "exercises": [
@@ -1438,6 +1966,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: I usually...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Busy\"?",
+        "options": [
+          "Ocupado/a",
+          "Cita",
+          "Vecino/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
         "answer": "Oral practice"
       }
     ]
@@ -1460,7 +2004,9 @@
       "I usually...",
       "Last weekend...",
       "How much is it?",
-      "I am going to..."
+      "I am going to...",
+      "What time is it?",
+      "I need to..."
     ],
     "vocabulary": [
       {
@@ -1492,6 +2038,26 @@
         "word": "Weekend",
         "translation": "Fin de semana",
         "example": "I work on weekends."
+      },
+      {
+        "word": "Appointment",
+        "translation": "Cita",
+        "example": "I have an appointment at five."
+      },
+      {
+        "word": "Grocery store",
+        "translation": "Tienda de abarrotes",
+        "example": "I go to the grocery store on Fridays."
+      },
+      {
+        "word": "Busy",
+        "translation": "Ocupado/a",
+        "example": "She is busy today."
+      },
+      {
+        "word": "Neighbor",
+        "translation": "Vecino/a",
+        "example": "My neighbor is friendly."
       }
     ],
     "dialogue": [
@@ -1504,14 +2070,25 @@
         "speaker": "Student",
         "line": "Last weekend...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "What time is it?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It's seven o'clock, I need to go.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
       "questions": [
         "What time does Tom wake up?",
         "Who does he visit?",
-        "Where does he buy fruit?"
+        "Where does he buy fruit?",
+        "Who does Tom meet in the afternoon?"
       ]
     },
     "exercises": [
@@ -1534,6 +2111,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: I usually...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Busy\"?",
+        "options": [
+          "Ocupado/a",
+          "Cita",
+          "Vecino/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
         "answer": "Oral practice"
       }
     ]
@@ -1556,7 +2149,9 @@
       "I usually...",
       "Last weekend...",
       "How much is it?",
-      "I am going to..."
+      "I am going to...",
+      "What time is it?",
+      "I need to..."
     ],
     "vocabulary": [
       {
@@ -1588,6 +2183,26 @@
         "word": "Weekend",
         "translation": "Fin de semana",
         "example": "I work on weekends."
+      },
+      {
+        "word": "Appointment",
+        "translation": "Cita",
+        "example": "I have an appointment at five."
+      },
+      {
+        "word": "Grocery store",
+        "translation": "Tienda de abarrotes",
+        "example": "I go to the grocery store on Fridays."
+      },
+      {
+        "word": "Busy",
+        "translation": "Ocupado/a",
+        "example": "She is busy today."
+      },
+      {
+        "word": "Neighbor",
+        "translation": "Vecino/a",
+        "example": "My neighbor is friendly."
       }
     ],
     "dialogue": [
@@ -1600,14 +2215,25 @@
         "speaker": "Student",
         "line": "Last weekend...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "What time is it?",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It's seven o'clock, I need to go.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market.",
+      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
       "questions": [
         "What time does Tom wake up?",
         "Who does he visit?",
-        "Where does he buy fruit?"
+        "Where does he buy fruit?",
+        "Who does Tom meet in the afternoon?"
       ]
     },
     "exercises": [
@@ -1631,6 +2257,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: I usually...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Busy\"?",
+        "options": [
+          "Ocupado/a",
+          "Cita",
+          "Vecino/a",
+          "Tienda de abarrotes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
+        "answer": "Oral practice"
       }
     ]
   },
@@ -1652,7 +2294,9 @@
       "In my opinion...",
       "One reason is...",
       "I have learned...",
-      "I would like to..."
+      "I would like to...",
+      "I strongly believe...",
+      "That's a good point, but..."
     ],
     "vocabulary": [
       {
@@ -1684,6 +2328,26 @@
         "word": "Challenge",
         "translation": "Reto",
         "example": "This challenge is useful."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Try to see it from her perspective."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Her motivation is impressive."
+      },
+      {
+        "word": "Consistent",
+        "translation": "Constante",
+        "example": "You need to be consistent."
+      },
+      {
+        "word": "Struggle",
+        "translation": "Dificultad",
+        "example": "Grammar is still a struggle for her."
       }
     ],
     "dialogue": [
@@ -1696,14 +2360,25 @@
         "speaker": "Student",
         "line": "One reason is...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "That's a good point, but...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I strongly believe that practice matters more.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
       "questions": [
         "How long has Maya studied English?",
         "What still happens?",
-        "When does she feel confident?"
+        "When does she feel confident?",
+        "What keeps Maya consistent?"
       ]
     },
     "exercises": [
@@ -1726,6 +2401,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: In my opinion...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Perspective\"?",
+        "options": [
+          "Perspectiva",
+          "Motivación",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
         "answer": "Oral practice"
       }
     ]
@@ -1748,7 +2439,9 @@
       "In my opinion...",
       "One reason is...",
       "I have learned...",
-      "I would like to..."
+      "I would like to...",
+      "I strongly believe...",
+      "That's a good point, but..."
     ],
     "vocabulary": [
       {
@@ -1780,6 +2473,26 @@
         "word": "Challenge",
         "translation": "Reto",
         "example": "This challenge is useful."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Try to see it from her perspective."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Her motivation is impressive."
+      },
+      {
+        "word": "Consistent",
+        "translation": "Constante",
+        "example": "You need to be consistent."
+      },
+      {
+        "word": "Struggle",
+        "translation": "Dificultad",
+        "example": "Grammar is still a struggle for her."
       }
     ],
     "dialogue": [
@@ -1792,14 +2505,25 @@
         "speaker": "Student",
         "line": "One reason is...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "That's a good point, but...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I strongly believe that practice matters more.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
       "questions": [
         "How long has Maya studied English?",
         "What still happens?",
-        "When does she feel confident?"
+        "When does she feel confident?",
+        "What keeps Maya consistent?"
       ]
     },
     "exercises": [
@@ -1822,6 +2546,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: In my opinion...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Perspective\"?",
+        "options": [
+          "Perspectiva",
+          "Motivación",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
         "answer": "Oral practice"
       }
     ]
@@ -1844,7 +2584,9 @@
       "In my opinion...",
       "One reason is...",
       "I have learned...",
-      "I would like to..."
+      "I would like to...",
+      "I strongly believe...",
+      "That's a good point, but..."
     ],
     "vocabulary": [
       {
@@ -1876,6 +2618,26 @@
         "word": "Challenge",
         "translation": "Reto",
         "example": "This challenge is useful."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Try to see it from her perspective."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Her motivation is impressive."
+      },
+      {
+        "word": "Consistent",
+        "translation": "Constante",
+        "example": "You need to be consistent."
+      },
+      {
+        "word": "Struggle",
+        "translation": "Dificultad",
+        "example": "Grammar is still a struggle for her."
       }
     ],
     "dialogue": [
@@ -1888,14 +2650,25 @@
         "speaker": "Student",
         "line": "One reason is...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "That's a good point, but...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I strongly believe that practice matters more.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
       "questions": [
         "How long has Maya studied English?",
         "What still happens?",
-        "When does she feel confident?"
+        "When does she feel confident?",
+        "What keeps Maya consistent?"
       ]
     },
     "exercises": [
@@ -1918,6 +2691,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: In my opinion...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Perspective\"?",
+        "options": [
+          "Perspectiva",
+          "Motivación",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
         "answer": "Oral practice"
       }
     ]
@@ -1940,7 +2729,9 @@
       "In my opinion...",
       "One reason is...",
       "I have learned...",
-      "I would like to..."
+      "I would like to...",
+      "I strongly believe...",
+      "That's a good point, but..."
     ],
     "vocabulary": [
       {
@@ -1972,6 +2763,26 @@
         "word": "Challenge",
         "translation": "Reto",
         "example": "This challenge is useful."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Try to see it from her perspective."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Her motivation is impressive."
+      },
+      {
+        "word": "Consistent",
+        "translation": "Constante",
+        "example": "You need to be consistent."
+      },
+      {
+        "word": "Struggle",
+        "translation": "Dificultad",
+        "example": "Grammar is still a struggle for her."
       }
     ],
     "dialogue": [
@@ -1984,14 +2795,25 @@
         "speaker": "Student",
         "line": "One reason is...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "That's a good point, but...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I strongly believe that practice matters more.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
       "questions": [
         "How long has Maya studied English?",
         "What still happens?",
-        "When does she feel confident?"
+        "When does she feel confident?",
+        "What keeps Maya consistent?"
       ]
     },
     "exercises": [
@@ -2014,6 +2836,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: In my opinion...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Perspective\"?",
+        "options": [
+          "Perspectiva",
+          "Motivación",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
         "answer": "Oral practice"
       }
     ]
@@ -2036,7 +2874,9 @@
       "In my opinion...",
       "One reason is...",
       "I have learned...",
-      "I would like to..."
+      "I would like to...",
+      "I strongly believe...",
+      "That's a good point, but..."
     ],
     "vocabulary": [
       {
@@ -2068,6 +2908,26 @@
         "word": "Challenge",
         "translation": "Reto",
         "example": "This challenge is useful."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Try to see it from her perspective."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Her motivation is impressive."
+      },
+      {
+        "word": "Consistent",
+        "translation": "Constante",
+        "example": "You need to be consistent."
+      },
+      {
+        "word": "Struggle",
+        "translation": "Dificultad",
+        "example": "Grammar is still a struggle for her."
       }
     ],
     "dialogue": [
@@ -2080,14 +2940,25 @@
         "speaker": "Student",
         "line": "One reason is...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "That's a good point, but...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I strongly believe that practice matters more.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
       "questions": [
         "How long has Maya studied English?",
         "What still happens?",
-        "When does she feel confident?"
+        "When does she feel confident?",
+        "What keeps Maya consistent?"
       ]
     },
     "exercises": [
@@ -2110,6 +2981,22 @@
       {
         "type": "speaking",
         "prompt": "Lee en voz alta: In my opinion...",
+        "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Perspective\"?",
+        "options": [
+          "Perspectiva",
+          "Motivación",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
         "answer": "Oral practice"
       }
     ]
@@ -2132,7 +3019,9 @@
       "In my opinion...",
       "One reason is...",
       "I have learned...",
-      "I would like to..."
+      "I would like to...",
+      "I strongly believe...",
+      "That's a good point, but..."
     ],
     "vocabulary": [
       {
@@ -2164,6 +3053,26 @@
         "word": "Challenge",
         "translation": "Reto",
         "example": "This challenge is useful."
+      },
+      {
+        "word": "Perspective",
+        "translation": "Perspectiva",
+        "example": "Try to see it from her perspective."
+      },
+      {
+        "word": "Motivation",
+        "translation": "Motivación",
+        "example": "Her motivation is impressive."
+      },
+      {
+        "word": "Consistent",
+        "translation": "Constante",
+        "example": "You need to be consistent."
+      },
+      {
+        "word": "Struggle",
+        "translation": "Dificultad",
+        "example": "Grammar is still a struggle for her."
       }
     ],
     "dialogue": [
@@ -2176,14 +3085,25 @@
         "speaker": "Student",
         "line": "One reason is...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "That's a good point, but...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "I strongly believe that practice matters more.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists.",
+      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
       "questions": [
         "How long has Maya studied English?",
         "What still happens?",
-        "When does she feel confident?"
+        "When does she feel confident?",
+        "What keeps Maya consistent?"
       ]
     },
     "exercises": [
@@ -2207,6 +3127,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: In my opinion...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Perspective\"?",
+        "options": [
+          "Perspectiva",
+          "Motivación",
+          "Constante",
+          "Dificultad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
+        "answer": "Oral practice"
       }
     ]
   },
@@ -2228,7 +3164,9 @@
       "On the one hand...",
       "On the other hand...",
       "This suggests that...",
-      "As a result..."
+      "As a result...",
+      "It could be argued that...",
+      "This is largely due to..."
     ],
     "vocabulary": [
       {
@@ -2260,6 +3198,26 @@
         "word": "Develop",
         "translation": "Desarrollar",
         "example": "Students develop autonomy."
+      },
+      {
+        "word": "Drawback",
+        "translation": "Desventaja",
+        "example": "One drawback is the cost."
+      },
+      {
+        "word": "Access",
+        "translation": "Acceso",
+        "example": "They have access to good resources."
+      },
+      {
+        "word": "Autonomy",
+        "translation": "Autonomía",
+        "example": "Online study builds autonomy."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "It requires discipline."
       }
     ],
     "dialogue": [
@@ -2272,14 +3230,25 @@
         "speaker": "Student",
         "line": "On the other hand...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "It could be argued that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is largely due to a lack of discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
       "questions": [
         "What has online education expanded?",
         "What does it require?",
-        "What is one possible difficulty?"
+        "What is one possible difficulty?",
+        "What is one drawback critics mention?"
       ]
     },
     "exercises": [
@@ -2303,6 +3272,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: On the one hand...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Drawback\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2324,7 +3309,9 @@
       "On the one hand...",
       "On the other hand...",
       "This suggests that...",
-      "As a result..."
+      "As a result...",
+      "It could be argued that...",
+      "This is largely due to..."
     ],
     "vocabulary": [
       {
@@ -2356,6 +3343,26 @@
         "word": "Develop",
         "translation": "Desarrollar",
         "example": "Students develop autonomy."
+      },
+      {
+        "word": "Drawback",
+        "translation": "Desventaja",
+        "example": "One drawback is the cost."
+      },
+      {
+        "word": "Access",
+        "translation": "Acceso",
+        "example": "They have access to good resources."
+      },
+      {
+        "word": "Autonomy",
+        "translation": "Autonomía",
+        "example": "Online study builds autonomy."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "It requires discipline."
       }
     ],
     "dialogue": [
@@ -2368,14 +3375,25 @@
         "speaker": "Student",
         "line": "On the other hand...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "It could be argued that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is largely due to a lack of discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
       "questions": [
         "What has online education expanded?",
         "What does it require?",
-        "What is one possible difficulty?"
+        "What is one possible difficulty?",
+        "What is one drawback critics mention?"
       ]
     },
     "exercises": [
@@ -2399,6 +3417,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: On the one hand...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Drawback\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2420,7 +3454,9 @@
       "On the one hand...",
       "On the other hand...",
       "This suggests that...",
-      "As a result..."
+      "As a result...",
+      "It could be argued that...",
+      "This is largely due to..."
     ],
     "vocabulary": [
       {
@@ -2452,6 +3488,26 @@
         "word": "Develop",
         "translation": "Desarrollar",
         "example": "Students develop autonomy."
+      },
+      {
+        "word": "Drawback",
+        "translation": "Desventaja",
+        "example": "One drawback is the cost."
+      },
+      {
+        "word": "Access",
+        "translation": "Acceso",
+        "example": "They have access to good resources."
+      },
+      {
+        "word": "Autonomy",
+        "translation": "Autonomía",
+        "example": "Online study builds autonomy."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "It requires discipline."
       }
     ],
     "dialogue": [
@@ -2464,14 +3520,25 @@
         "speaker": "Student",
         "line": "On the other hand...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "It could be argued that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is largely due to a lack of discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
       "questions": [
         "What has online education expanded?",
         "What does it require?",
-        "What is one possible difficulty?"
+        "What is one possible difficulty?",
+        "What is one drawback critics mention?"
       ]
     },
     "exercises": [
@@ -2495,6 +3562,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: On the one hand...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Drawback\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2516,7 +3599,9 @@
       "On the one hand...",
       "On the other hand...",
       "This suggests that...",
-      "As a result..."
+      "As a result...",
+      "It could be argued that...",
+      "This is largely due to..."
     ],
     "vocabulary": [
       {
@@ -2548,6 +3633,26 @@
         "word": "Develop",
         "translation": "Desarrollar",
         "example": "Students develop autonomy."
+      },
+      {
+        "word": "Drawback",
+        "translation": "Desventaja",
+        "example": "One drawback is the cost."
+      },
+      {
+        "word": "Access",
+        "translation": "Acceso",
+        "example": "They have access to good resources."
+      },
+      {
+        "word": "Autonomy",
+        "translation": "Autonomía",
+        "example": "Online study builds autonomy."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "It requires discipline."
       }
     ],
     "dialogue": [
@@ -2560,14 +3665,25 @@
         "speaker": "Student",
         "line": "On the other hand...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "It could be argued that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is largely due to a lack of discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
       "questions": [
         "What has online education expanded?",
         "What does it require?",
-        "What is one possible difficulty?"
+        "What is one possible difficulty?",
+        "What is one drawback critics mention?"
       ]
     },
     "exercises": [
@@ -2591,6 +3707,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: On the one hand...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Drawback\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2612,7 +3744,9 @@
       "On the one hand...",
       "On the other hand...",
       "This suggests that...",
-      "As a result..."
+      "As a result...",
+      "It could be argued that...",
+      "This is largely due to..."
     ],
     "vocabulary": [
       {
@@ -2644,6 +3778,26 @@
         "word": "Develop",
         "translation": "Desarrollar",
         "example": "Students develop autonomy."
+      },
+      {
+        "word": "Drawback",
+        "translation": "Desventaja",
+        "example": "One drawback is the cost."
+      },
+      {
+        "word": "Access",
+        "translation": "Acceso",
+        "example": "They have access to good resources."
+      },
+      {
+        "word": "Autonomy",
+        "translation": "Autonomía",
+        "example": "Online study builds autonomy."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "It requires discipline."
       }
     ],
     "dialogue": [
@@ -2656,14 +3810,25 @@
         "speaker": "Student",
         "line": "On the other hand...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "It could be argued that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is largely due to a lack of discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
       "questions": [
         "What has online education expanded?",
         "What does it require?",
-        "What is one possible difficulty?"
+        "What is one possible difficulty?",
+        "What is one drawback critics mention?"
       ]
     },
     "exercises": [
@@ -2687,6 +3852,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: On the one hand...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Drawback\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2708,7 +3889,9 @@
       "On the one hand...",
       "On the other hand...",
       "This suggests that...",
-      "As a result..."
+      "As a result...",
+      "It could be argued that...",
+      "This is largely due to..."
     ],
     "vocabulary": [
       {
@@ -2740,6 +3923,26 @@
         "word": "Develop",
         "translation": "Desarrollar",
         "example": "Students develop autonomy."
+      },
+      {
+        "word": "Drawback",
+        "translation": "Desventaja",
+        "example": "One drawback is the cost."
+      },
+      {
+        "word": "Access",
+        "translation": "Acceso",
+        "example": "They have access to good resources."
+      },
+      {
+        "word": "Autonomy",
+        "translation": "Autonomía",
+        "example": "Online study builds autonomy."
+      },
+      {
+        "word": "Discipline",
+        "translation": "Disciplina",
+        "example": "It requires discipline."
       }
     ],
     "dialogue": [
@@ -2752,14 +3955,25 @@
         "speaker": "Student",
         "line": "On the other hand...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "It could be argued that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "This is largely due to a lack of discipline.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills.",
+      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
       "questions": [
         "What has online education expanded?",
         "What does it require?",
-        "What is one possible difficulty?"
+        "What is one possible difficulty?",
+        "What is one drawback critics mention?"
       ]
     },
     "exercises": [
@@ -2783,6 +3997,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: On the one hand...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Drawback\"?",
+        "options": [
+          "Desventaja",
+          "Acceso",
+          "Autonomía",
+          "Disciplina"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2804,7 +4034,9 @@
       "It is worth noting that...",
       "This raises the question of...",
       "To some extent...",
-      "From a broader perspective..."
+      "From a broader perspective...",
+      "It is precisely this ambiguity that...",
+      "Arguably, the most significant factor is..."
     ],
     "vocabulary": [
       {
@@ -2836,6 +4068,26 @@
         "word": "Enhance",
         "translation": "Mejorar",
         "example": "Reading enhances vocabulary."
+      },
+      {
+        "word": "Coherence",
+        "translation": "Coherencia",
+        "example": "The essay lacks coherence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Consider the implication of this choice."
+      },
+      {
+        "word": "Discourse",
+        "translation": "Discurso",
+        "example": "Academic discourse follows conventions."
+      },
+      {
+        "word": "Ambiguity",
+        "translation": "Ambigüedad",
+        "example": "The sentence has some ambiguity."
       }
     ],
     "dialogue": [
@@ -2848,14 +4100,25 @@
         "speaker": "Student",
         "line": "This raises the question of...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Arguably, the most significant factor is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It is precisely this ambiguity that complicates the discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
       "questions": [
         "What is language learning not merely?",
         "What shapes it?",
-        "What three ideas are mentioned?"
+        "What three ideas are mentioned?",
+        "What does the ambiguity stem from?"
       ]
     },
     "exercises": [
@@ -2879,6 +4142,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: It is worth noting that...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Coherence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2900,7 +4179,9 @@
       "It is worth noting that...",
       "This raises the question of...",
       "To some extent...",
-      "From a broader perspective..."
+      "From a broader perspective...",
+      "It is precisely this ambiguity that...",
+      "Arguably, the most significant factor is..."
     ],
     "vocabulary": [
       {
@@ -2932,6 +4213,26 @@
         "word": "Enhance",
         "translation": "Mejorar",
         "example": "Reading enhances vocabulary."
+      },
+      {
+        "word": "Coherence",
+        "translation": "Coherencia",
+        "example": "The essay lacks coherence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Consider the implication of this choice."
+      },
+      {
+        "word": "Discourse",
+        "translation": "Discurso",
+        "example": "Academic discourse follows conventions."
+      },
+      {
+        "word": "Ambiguity",
+        "translation": "Ambigüedad",
+        "example": "The sentence has some ambiguity."
       }
     ],
     "dialogue": [
@@ -2944,14 +4245,25 @@
         "speaker": "Student",
         "line": "This raises the question of...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Arguably, the most significant factor is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It is precisely this ambiguity that complicates the discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
       "questions": [
         "What is language learning not merely?",
         "What shapes it?",
-        "What three ideas are mentioned?"
+        "What three ideas are mentioned?",
+        "What does the ambiguity stem from?"
       ]
     },
     "exercises": [
@@ -2975,6 +4287,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: It is worth noting that...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Coherence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -2996,7 +4324,9 @@
       "It is worth noting that...",
       "This raises the question of...",
       "To some extent...",
-      "From a broader perspective..."
+      "From a broader perspective...",
+      "It is precisely this ambiguity that...",
+      "Arguably, the most significant factor is..."
     ],
     "vocabulary": [
       {
@@ -3028,6 +4358,26 @@
         "word": "Enhance",
         "translation": "Mejorar",
         "example": "Reading enhances vocabulary."
+      },
+      {
+        "word": "Coherence",
+        "translation": "Coherencia",
+        "example": "The essay lacks coherence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Consider the implication of this choice."
+      },
+      {
+        "word": "Discourse",
+        "translation": "Discurso",
+        "example": "Academic discourse follows conventions."
+      },
+      {
+        "word": "Ambiguity",
+        "translation": "Ambigüedad",
+        "example": "The sentence has some ambiguity."
       }
     ],
     "dialogue": [
@@ -3040,14 +4390,25 @@
         "speaker": "Student",
         "line": "This raises the question of...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Arguably, the most significant factor is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It is precisely this ambiguity that complicates the discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
       "questions": [
         "What is language learning not merely?",
         "What shapes it?",
-        "What three ideas are mentioned?"
+        "What three ideas are mentioned?",
+        "What does the ambiguity stem from?"
       ]
     },
     "exercises": [
@@ -3071,6 +4432,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: It is worth noting that...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Coherence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3092,7 +4469,9 @@
       "It is worth noting that...",
       "This raises the question of...",
       "To some extent...",
-      "From a broader perspective..."
+      "From a broader perspective...",
+      "It is precisely this ambiguity that...",
+      "Arguably, the most significant factor is..."
     ],
     "vocabulary": [
       {
@@ -3124,6 +4503,26 @@
         "word": "Enhance",
         "translation": "Mejorar",
         "example": "Reading enhances vocabulary."
+      },
+      {
+        "word": "Coherence",
+        "translation": "Coherencia",
+        "example": "The essay lacks coherence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Consider the implication of this choice."
+      },
+      {
+        "word": "Discourse",
+        "translation": "Discurso",
+        "example": "Academic discourse follows conventions."
+      },
+      {
+        "word": "Ambiguity",
+        "translation": "Ambigüedad",
+        "example": "The sentence has some ambiguity."
       }
     ],
     "dialogue": [
@@ -3136,14 +4535,25 @@
         "speaker": "Student",
         "line": "This raises the question of...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Arguably, the most significant factor is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It is precisely this ambiguity that complicates the discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
       "questions": [
         "What is language learning not merely?",
         "What shapes it?",
-        "What three ideas are mentioned?"
+        "What three ideas are mentioned?",
+        "What does the ambiguity stem from?"
       ]
     },
     "exercises": [
@@ -3167,6 +4577,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: It is worth noting that...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Coherence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3188,7 +4614,9 @@
       "It is worth noting that...",
       "This raises the question of...",
       "To some extent...",
-      "From a broader perspective..."
+      "From a broader perspective...",
+      "It is precisely this ambiguity that...",
+      "Arguably, the most significant factor is..."
     ],
     "vocabulary": [
       {
@@ -3220,6 +4648,26 @@
         "word": "Enhance",
         "translation": "Mejorar",
         "example": "Reading enhances vocabulary."
+      },
+      {
+        "word": "Coherence",
+        "translation": "Coherencia",
+        "example": "The essay lacks coherence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Consider the implication of this choice."
+      },
+      {
+        "word": "Discourse",
+        "translation": "Discurso",
+        "example": "Academic discourse follows conventions."
+      },
+      {
+        "word": "Ambiguity",
+        "translation": "Ambigüedad",
+        "example": "The sentence has some ambiguity."
       }
     ],
     "dialogue": [
@@ -3232,14 +4680,25 @@
         "speaker": "Student",
         "line": "This raises the question of...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Arguably, the most significant factor is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It is precisely this ambiguity that complicates the discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
       "questions": [
         "What is language learning not merely?",
         "What shapes it?",
-        "What three ideas are mentioned?"
+        "What three ideas are mentioned?",
+        "What does the ambiguity stem from?"
       ]
     },
     "exercises": [
@@ -3263,6 +4722,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: It is worth noting that...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Coherence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3284,7 +4759,9 @@
       "It is worth noting that...",
       "This raises the question of...",
       "To some extent...",
-      "From a broader perspective..."
+      "From a broader perspective...",
+      "It is precisely this ambiguity that...",
+      "Arguably, the most significant factor is..."
     ],
     "vocabulary": [
       {
@@ -3316,6 +4793,26 @@
         "word": "Enhance",
         "translation": "Mejorar",
         "example": "Reading enhances vocabulary."
+      },
+      {
+        "word": "Coherence",
+        "translation": "Coherencia",
+        "example": "The essay lacks coherence."
+      },
+      {
+        "word": "Implication",
+        "translation": "Implicación",
+        "example": "Consider the implication of this choice."
+      },
+      {
+        "word": "Discourse",
+        "translation": "Discurso",
+        "example": "Academic discourse follows conventions."
+      },
+      {
+        "word": "Ambiguity",
+        "translation": "Ambigüedad",
+        "example": "The sentence has some ambiguity."
       }
     ],
     "dialogue": [
@@ -3328,14 +4825,25 @@
         "speaker": "Student",
         "line": "This raises the question of...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "Arguably, the most significant factor is...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "It is precisely this ambiguity that complicates the discussion.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose.",
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
       "questions": [
         "What is language learning not merely?",
         "What shapes it?",
-        "What three ideas are mentioned?"
+        "What three ideas are mentioned?",
+        "What does the ambiguity stem from?"
       ]
     },
     "exercises": [
@@ -3359,6 +4867,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: It is worth noting that...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Coherence\"?",
+        "options": [
+          "Coherencia",
+          "Implicación",
+          "Discurso",
+          "Ambigüedad"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3380,7 +4904,9 @@
       "The underlying issue is...",
       "This is not to suggest that...",
       "A more nuanced view would be...",
-      "What makes this compelling is..."
+      "What makes this compelling is...",
+      "Far from being incidental, this...",
+      "One might reasonably contend that..."
     ],
     "vocabulary": [
       {
@@ -3412,6 +4938,26 @@
         "word": "Command",
         "translation": "Dominio",
         "example": "He has full command of the language."
+      },
+      {
+        "word": "Discern",
+        "translation": "Discernir",
+        "example": "A skilled speaker can discern subtle tone shifts."
+      },
+      {
+        "word": "Eloquence",
+        "translation": "Elocuencia",
+        "example": "Her eloquence impressed the audience."
+      },
+      {
+        "word": "Register",
+        "translation": "Registro",
+        "example": "He adapts his register to the audience."
+      },
+      {
+        "word": "Cohesive",
+        "translation": "Cohesivo",
+        "example": "The argument is cohesive and precise."
       }
     ],
     "dialogue": [
@@ -3424,14 +4970,25 @@
         "speaker": "Student",
         "line": "This is not to suggest that...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "One might reasonably contend that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Far from being incidental, this reflects genuine command of register.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
       "questions": [
         "What does mastery involve besides accuracy?",
         "What must language adapt to?",
-        "Which word means dominio?"
+        "Which word means dominio?",
+        "What must a cohesive speaker discern?"
       ]
     },
     "exercises": [
@@ -3455,6 +5012,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: The underlying issue is...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discern\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3476,7 +5049,9 @@
       "The underlying issue is...",
       "This is not to suggest that...",
       "A more nuanced view would be...",
-      "What makes this compelling is..."
+      "What makes this compelling is...",
+      "Far from being incidental, this...",
+      "One might reasonably contend that..."
     ],
     "vocabulary": [
       {
@@ -3508,6 +5083,26 @@
         "word": "Command",
         "translation": "Dominio",
         "example": "He has full command of the language."
+      },
+      {
+        "word": "Discern",
+        "translation": "Discernir",
+        "example": "A skilled speaker can discern subtle tone shifts."
+      },
+      {
+        "word": "Eloquence",
+        "translation": "Elocuencia",
+        "example": "Her eloquence impressed the audience."
+      },
+      {
+        "word": "Register",
+        "translation": "Registro",
+        "example": "He adapts his register to the audience."
+      },
+      {
+        "word": "Cohesive",
+        "translation": "Cohesivo",
+        "example": "The argument is cohesive and precise."
       }
     ],
     "dialogue": [
@@ -3520,14 +5115,25 @@
         "speaker": "Student",
         "line": "This is not to suggest that...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "One might reasonably contend that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Far from being incidental, this reflects genuine command of register.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
       "questions": [
         "What does mastery involve besides accuracy?",
         "What must language adapt to?",
-        "Which word means dominio?"
+        "Which word means dominio?",
+        "What must a cohesive speaker discern?"
       ]
     },
     "exercises": [
@@ -3551,6 +5157,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: The underlying issue is...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discern\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3572,7 +5194,9 @@
       "The underlying issue is...",
       "This is not to suggest that...",
       "A more nuanced view would be...",
-      "What makes this compelling is..."
+      "What makes this compelling is...",
+      "Far from being incidental, this...",
+      "One might reasonably contend that..."
     ],
     "vocabulary": [
       {
@@ -3604,6 +5228,26 @@
         "word": "Command",
         "translation": "Dominio",
         "example": "He has full command of the language."
+      },
+      {
+        "word": "Discern",
+        "translation": "Discernir",
+        "example": "A skilled speaker can discern subtle tone shifts."
+      },
+      {
+        "word": "Eloquence",
+        "translation": "Elocuencia",
+        "example": "Her eloquence impressed the audience."
+      },
+      {
+        "word": "Register",
+        "translation": "Registro",
+        "example": "He adapts his register to the audience."
+      },
+      {
+        "word": "Cohesive",
+        "translation": "Cohesivo",
+        "example": "The argument is cohesive and precise."
       }
     ],
     "dialogue": [
@@ -3616,14 +5260,25 @@
         "speaker": "Student",
         "line": "This is not to suggest that...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "One might reasonably contend that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Far from being incidental, this reflects genuine command of register.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
       "questions": [
         "What does mastery involve besides accuracy?",
         "What must language adapt to?",
-        "Which word means dominio?"
+        "Which word means dominio?",
+        "What must a cohesive speaker discern?"
       ]
     },
     "exercises": [
@@ -3647,6 +5302,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: The underlying issue is...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discern\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3668,7 +5339,9 @@
       "The underlying issue is...",
       "This is not to suggest that...",
       "A more nuanced view would be...",
-      "What makes this compelling is..."
+      "What makes this compelling is...",
+      "Far from being incidental, this...",
+      "One might reasonably contend that..."
     ],
     "vocabulary": [
       {
@@ -3700,6 +5373,26 @@
         "word": "Command",
         "translation": "Dominio",
         "example": "He has full command of the language."
+      },
+      {
+        "word": "Discern",
+        "translation": "Discernir",
+        "example": "A skilled speaker can discern subtle tone shifts."
+      },
+      {
+        "word": "Eloquence",
+        "translation": "Elocuencia",
+        "example": "Her eloquence impressed the audience."
+      },
+      {
+        "word": "Register",
+        "translation": "Registro",
+        "example": "He adapts his register to the audience."
+      },
+      {
+        "word": "Cohesive",
+        "translation": "Cohesivo",
+        "example": "The argument is cohesive and precise."
       }
     ],
     "dialogue": [
@@ -3712,14 +5405,25 @@
         "speaker": "Student",
         "line": "This is not to suggest that...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "One might reasonably contend that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Far from being incidental, this reflects genuine command of register.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
       "questions": [
         "What does mastery involve besides accuracy?",
         "What must language adapt to?",
-        "Which word means dominio?"
+        "Which word means dominio?",
+        "What must a cohesive speaker discern?"
       ]
     },
     "exercises": [
@@ -3743,6 +5447,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: The underlying issue is...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discern\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3764,7 +5484,9 @@
       "The underlying issue is...",
       "This is not to suggest that...",
       "A more nuanced view would be...",
-      "What makes this compelling is..."
+      "What makes this compelling is...",
+      "Far from being incidental, this...",
+      "One might reasonably contend that..."
     ],
     "vocabulary": [
       {
@@ -3796,6 +5518,26 @@
         "word": "Command",
         "translation": "Dominio",
         "example": "He has full command of the language."
+      },
+      {
+        "word": "Discern",
+        "translation": "Discernir",
+        "example": "A skilled speaker can discern subtle tone shifts."
+      },
+      {
+        "word": "Eloquence",
+        "translation": "Elocuencia",
+        "example": "Her eloquence impressed the audience."
+      },
+      {
+        "word": "Register",
+        "translation": "Registro",
+        "example": "He adapts his register to the audience."
+      },
+      {
+        "word": "Cohesive",
+        "translation": "Cohesivo",
+        "example": "The argument is cohesive and precise."
       }
     ],
     "dialogue": [
@@ -3808,14 +5550,25 @@
         "speaker": "Student",
         "line": "This is not to suggest that...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "One might reasonably contend that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Far from being incidental, this reflects genuine command of register.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
       "questions": [
         "What does mastery involve besides accuracy?",
         "What must language adapt to?",
-        "Which word means dominio?"
+        "Which word means dominio?",
+        "What must a cohesive speaker discern?"
       ]
     },
     "exercises": [
@@ -3839,6 +5592,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: The underlying issue is...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discern\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
+        "answer": "Open answer"
       }
     ]
   },
@@ -3860,7 +5629,9 @@
       "The underlying issue is...",
       "This is not to suggest that...",
       "A more nuanced view would be...",
-      "What makes this compelling is..."
+      "What makes this compelling is...",
+      "Far from being incidental, this...",
+      "One might reasonably contend that..."
     ],
     "vocabulary": [
       {
@@ -3892,6 +5663,26 @@
         "word": "Command",
         "translation": "Dominio",
         "example": "He has full command of the language."
+      },
+      {
+        "word": "Discern",
+        "translation": "Discernir",
+        "example": "A skilled speaker can discern subtle tone shifts."
+      },
+      {
+        "word": "Eloquence",
+        "translation": "Elocuencia",
+        "example": "Her eloquence impressed the audience."
+      },
+      {
+        "word": "Register",
+        "translation": "Registro",
+        "example": "He adapts his register to the audience."
+      },
+      {
+        "word": "Cohesive",
+        "translation": "Cohesivo",
+        "example": "The argument is cohesive and precise."
       }
     ],
     "dialogue": [
@@ -3904,14 +5695,25 @@
         "speaker": "Student",
         "line": "This is not to suggest that...",
         "translation": "Respuesta guiada"
+      },
+      {
+        "speaker": "Tutor",
+        "line": "One might reasonably contend that...",
+        "translation": "Frase modelo"
+      },
+      {
+        "speaker": "Student",
+        "line": "Far from being incidental, this reflects genuine command of register.",
+        "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context.",
+      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
       "questions": [
         "What does mastery involve besides accuracy?",
         "What must language adapt to?",
-        "Which word means dominio?"
+        "Which word means dominio?",
+        "What must a cohesive speaker discern?"
       ]
     },
     "exercises": [
@@ -3935,6 +5737,22 @@
         "type": "speaking",
         "prompt": "Lee en voz alta: The underlying issue is...",
         "answer": "Oral practice"
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué significa \"Discern\"?",
+        "options": [
+          "Discernir",
+          "Elocuencia",
+          "Registro",
+          "Cohesivo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "practice",
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
+        "answer": "Open answer"
       }
     ]
   }
