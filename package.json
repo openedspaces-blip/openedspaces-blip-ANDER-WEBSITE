@@ -7,8 +7,8 @@
     "node": ">=20"
   },
   "scripts": {
-    "start": "node lib/server.js",
-    "dev": "node lib/server.js",
+    "start": "npm run build && node lib/server.js",
+    "dev": "npm run build && node lib/server.js",
     "sync:worlds": "node scripts/sync-worlds-from-seed.js",
     "build": "node scripts/build-static.js",
     "test": "node --test server.test.js",

@@ -125,7 +125,7 @@ const menuToggle = document.querySelector('.menu-toggle');
 const siteMenu = document.getElementById('siteMenu');
 const userChip = document.querySelector('.user-chip');
 const logoutButton = document.querySelector('.logout-btn');
-const backendBaseUrl = (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.protocol === 'file:')) ? 'http://127.0.0.1:3000' : '';
+const backendBaseUrl = (typeof window !== 'undefined' && window.location.protocol === 'file:') ? 'http://127.0.0.1:3000' : '';
 const authStatus = {
   user: null,
   session: null
@@ -318,55 +318,6 @@ async function loadLanguageUiContent() {
 function applyLanguageContent(languageKey, nativeLanguage = currentNativeLanguage) {
   const content = languageContent[languageKey] || languageContent.spanish || Object.values(languageContent)[0];
   if (!content) return;
-  const nativeLabel = {
-    es: 'Español',
-    en: 'English',
-    fr: 'Français',
-    it: 'Italiano',
-    de: 'Deutsch'
-  }[nativeLanguage] || 'Español';
-
-  const nativeHint = {
-    es: 'Tu lengua nativa: Español',
-    en: 'Your native language: English',
-    fr: 'Votre langue maternelle : Français',
-    it: 'La tua lingua madre: Italiano',
-    de: 'Deine Muttersprache: Deutsch'
-  }[nativeLanguage] || 'Tu lengua nativa: Español';
-
-  document.querySelector('.navbar .brand p').textContent = content.brandSubtitle;
-  document.querySelectorAll('.menu a').forEach((link, index) => {
-    if (content.nav[index]) link.textContent = content.nav[index];
-  });
-  document.querySelector('.nav-actions .login').textContent = content.authLogin;
-  document.querySelector('.nav-actions .signup').textContent = content.authSignup;
-
-  const heroBadge = document.querySelector('.hero .pill');
-  if (heroBadge) heroBadge.textContent = content.heroBadge;
-
-  const heroTitle = document.querySelector('.hero h2');
-  if (heroTitle) heroTitle.textContent = content.heroTitle;
-
-  const heroText = document.querySelector('.hero > .hero-content > p');
-  if (heroText) heroText.textContent = content.heroText;
-
-  const heroPrimary = document.querySelector('.hero-buttons .primary-btn');
-  if (heroPrimary) heroPrimary.textContent = content.heroPrimary;
-
-  const heroSecondary = document.querySelector('.hero-buttons .secondary-btn');
-  if (heroSecondary) heroSecondary.textContent = content.heroSecondary;
-
-  const sectionLabel = document.querySelector('#languages .section-heading span');
-  if (sectionLabel) sectionLabel.textContent = content.sectionLabel;
-
-  const sectionTitle = document.querySelector('#languages .section-heading h2');
-  if (sectionTitle) sectionTitle.textContent = content.sectionTitle;
-
-  const sectionDescription = document.querySelector('#languages .section-heading p');
-  if (sectionDescription) sectionDescription.textContent = `${content.sectionDescription} ${nativeHint}`;
-
-  const selectorLabel = document.querySelector('.language-selector label');
-  if (selectorLabel) selectorLabel.textContent = content.nativeSelectorLabel || 'Selecciona tu lengua nativa';
 
   if (nativeLanguageSelect) {
     nativeLanguageSelect.value = nativeLanguage;
@@ -455,13 +406,21 @@ function renderWorldLessonPreview(panel, languageKey, level) {
       <button class="world-lesson-open" type="button" data-language="${escapeHtml(languageKey)}" data-level="${escapeHtml(level)}">Ver ruta</button>
     </div>
     <div class="world-lesson-grid">
-      ${lessons.map(lesson => `
+      ${lessons.map(lesson => {
+        const isPremium = lesson.isFree === false || lesson.accessTier === 'premium';
+        return `
         <article class="world-lesson-row">
-          <span>${escapeHtml(lesson.skill || '')} · ${lesson.isFree === false || lesson.accessTier === 'premium' ? `Premium USD ${premiumPriceUsd}` : 'Gratis'}</span>
+          <div class="world-lesson-row-tags">
+            <span class="lesson-tag lesson-tag-level">${escapeHtml(level)}</span>
+            <span class="lesson-tag lesson-tag-skill">${escapeHtml(skillLabel(lesson.skill))}</span>
+            <span class="lesson-tag ${isPremium ? 'lesson-tag-premium' : 'lesson-tag-free'}">${isPremium ? 'Premium' : 'Gratis'}</span>
+          </div>
           <h5>${escapeHtml(lesson.title || '')}</h5>
           <p>${escapeHtml(lesson.description || lesson.mission || lesson.intro || '')}</p>
+          <button class="world-lesson-start" type="button" data-language="${escapeHtml(languageKey)}" data-level="${escapeHtml(level)}" data-lesson-slug="${escapeHtml(lesson.slug || '')}">Iniciar</button>
         </article>
-      `).join('')}
+      `;
+      }).join('')}
     </div>
   `;
 }
@@ -1310,6 +1269,25 @@ function enableHomepageActions() {
       revealSection('#learning-path');
       loadLearningPath({ language, level });
       showHomeToast(`Ruta ${language.toUpperCase()} ${level} abierta.`);
+      return;
+    }
+
+    const startLessonButton = event.target.closest('.world-lesson-start');
+    if (startLessonButton) {
+      const language = startLessonButton.dataset.language || currentTargetLanguage;
+      const level = startLessonButton.dataset.level || learningPathState.level;
+      const lessonSlug = startLessonButton.dataset.lessonSlug;
+      const languageSelect = document.getElementById('pathLanguageSelect');
+      const levelSelect = document.getElementById('pathLevelSelect');
+      if (languageSelect) languageSelect.value = language;
+      if (levelSelect) levelSelect.value = level;
+      revealSection('#learning-path');
+      await loadLearningPath({ language, level });
+      if (lessonSlug && learningPathState.lessons.some(item => item.slug === lessonSlug)) {
+        learningPathState.activeSlug = lessonSlug;
+        renderLearningPath();
+      }
+      document.getElementById('lessonWorkspace')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       return;
     }
 
