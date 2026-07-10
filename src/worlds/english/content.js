@@ -1,4 +1,4 @@
-// worlds/english/content.js
+// src/worlds/english/content.js
 // English world: generated from lib/seed-lessons.json.
 (function () {
   window.ANDERGO_LANGUAGE_WORLDS = window.ANDERGO_LANGUAGE_WORLDS || { levelContent: {}, languageContent: {}, lessons: {} };

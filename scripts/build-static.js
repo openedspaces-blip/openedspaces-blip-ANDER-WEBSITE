@@ -10,7 +10,7 @@ const { execSync } = require('child_process');
 const ROOT = path.join(__dirname, '..');
 const PUBLIC_DIR = path.join(ROOT, 'public');
 
-const REQUIRED_FILES = ['index.html', 'styles.css', 'script.js'];
+const REQUIRED_FILES = ['index.html', 'src/css/styles.css', 'src/js/script.js'];
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
 
 function assertExists(relativePath) {
@@ -36,31 +36,31 @@ function main() {
 
   console.log('Validating language worlds...');
   WORLD_LANGUAGES.forEach((lang) => {
-    assertExists(path.join('worlds', lang, 'content.js'));
+    assertExists(path.join('src', 'worlds', lang, 'content.js'));
   });
 
   console.log('Checking JavaScript syntax...');
-  ['script.js', 'lib/server.js'].forEach((relativePath) => {
+  ['src/js/script.js', 'lib/server.js'].forEach((relativePath) => {
     const fullPath = path.join(ROOT, relativePath);
     if (fs.existsSync(fullPath)) {
       execSync(`node --check "${fullPath}"`, { stdio: 'inherit' });
     }
   });
   WORLD_LANGUAGES.forEach((lang) => {
-    execSync(`node --check "${path.join(ROOT, 'worlds', lang, 'content.js')}"`, { stdio: 'inherit' });
+    execSync(`node --check "${path.join(ROOT, 'src', 'worlds', lang, 'content.js')}"`, { stdio: 'inherit' });
   });
 
   console.log('Mirroring static assets into public/ ...');
   const filesToMirror = [...REQUIRED_FILES];
   if (fs.existsSync(path.join(ROOT, 'andergo-logo.png'))) filesToMirror.push('andergo-logo.png');
-  if (fs.existsSync(path.join(ROOT, 'gamification.js'))) filesToMirror.push('gamification.js');
+  if (fs.existsSync(path.join(ROOT, 'src/js/gamification.js'))) filesToMirror.push('src/js/gamification.js');
 
   filesToMirror.forEach((relativePath) => {
     copyFileEnsuringDir(path.join(ROOT, relativePath), path.join(PUBLIC_DIR, relativePath));
   });
 
   WORLD_LANGUAGES.forEach((lang) => {
-    const rel = path.join('worlds', lang, 'content.js');
+    const rel = path.join('src', 'worlds', lang, 'content.js');
     copyFileEnsuringDir(path.join(ROOT, rel), path.join(PUBLIC_DIR, rel));
   });
 

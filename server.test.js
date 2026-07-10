@@ -88,7 +88,7 @@ test('browser world files expose level content and lesson previews for every sup
   const window = {};
   const context = vm.createContext({ window });
 
-  for (const file of WORLD_LANGUAGES.map((language) => `worlds/${language}/content.js`)) {
+  for (const file of WORLD_LANGUAGES.map((language) => `src/worlds/${language}/content.js`)) {
     const code = fs.readFileSync(path.join(__dirname, file), 'utf8');
     vm.runInContext(code, context, { filename: file });
   }

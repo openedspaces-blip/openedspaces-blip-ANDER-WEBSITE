@@ -6,14 +6,14 @@ Copia estos archivos/carpetas dentro de tu carpeta `ANDERGO-WEB` y reemplaza los
 
 **Frontend**
 - `index.html`
-- `script.js`
-- `styles.css`
-- `gamification.js` ← nuevo
-- `worlds/english/content.js`
-- `worlds/spanish/content.js`
-- `worlds/french/content.js`
-- `worlds/italian/content.js`
-- `worlds/german/content.js`
+- `src/js/script.js`
+- `src/css/styles.css`
+- `src/js/gamification.js`
+- `src/worlds/english/content.js`
+- `src/worlds/spanish/content.js`
+- `src/worlds/french/content.js`
+- `src/worlds/italian/content.js`
+- `src/worlds/german/content.js`
 
 **Backend (nuevo — no existía en el proyecto)**
 - `lib/config.js`
@@ -70,10 +70,11 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 ## Despliegue en Vercel
 - **Framework Preset:** `Other`
 - **Build Command:** `npm run build`
-- **Output Directory:** `.`
+- **Output Directory:** `public`
 - Las funciones serverless viven en `api/**/*.js`.
-- El frontend estático se sirve desde la raíz del repositorio (`index.html`, `script.js`, `styles.css`, `worlds/*/content.js`).
-- La regla SPA de `vercel.json` solo redirige rutas sin extensión a `index.html`, para no romper archivos como `script.js`, `styles.css` o `worlds/.../content.js`.
+- `npm run build` (`scripts/build-static.js`) valida `index.html`, `src/css/styles.css`, `src/js/script.js` y `src/worlds/*/content.js`, y los espeja dentro de `public/` (mismas rutas relativas) para que Vercel los sirva desde ahí. `public/` está en `.gitignore`: se regenera en cada build, nunca se commitea.
+- Backend (`lib/`, `scripts/`, `supabase/`) queda fuera de `public/` a propósito, para no exponer código del servidor como archivo estático público.
+- La regla SPA de `vercel.json` solo redirige rutas sin extensión a `index.html`, para no romper archivos como `src/js/script.js`, `src/css/styles.css` o `src/worlds/.../content.js`.
 - Configura las variables de entorno en Vercel, **no** subas `.env` real:
   - `SUPABASE_URL`
   - `SUPABASE_ANON_KEY` (o `SUPABASE_KEY` como alias)

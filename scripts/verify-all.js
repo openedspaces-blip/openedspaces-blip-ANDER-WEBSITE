@@ -10,7 +10,8 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 
 const FILES_TO_CHECK = [
-  'script.js',
+  'src/js/script.js',
+  'src/js/gamification.js',
   'lib/server.js',
   'lib/config.js',
   'lib/supabaseClient.js',
@@ -18,6 +19,7 @@ const FILES_TO_CHECK = [
   'lib/devToken.js',
   'lib/authService.js',
   'lib/aiTutorService.js',
+  'lib/openaiService.js',
   'lib/gamification.js',
   'lib/uiContent.js',
   'lib/lessonsData.js',
@@ -35,11 +37,11 @@ const FILES_TO_CHECK = [
   'scripts/refresh-expanded-worlds.js',
   'scripts/setup-database.js',
   'scripts/sync-worlds-from-seed.js',
-  'worlds/english/content.js',
-  'worlds/spanish/content.js',
-  'worlds/french/content.js',
-  'worlds/italian/content.js',
-  'worlds/german/content.js'
+  'src/worlds/english/content.js',
+  'src/worlds/spanish/content.js',
+  'src/worlds/french/content.js',
+  'src/worlds/italian/content.js',
+  'src/worlds/german/content.js'
 ];
 
 function run(label, command) {

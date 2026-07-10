@@ -1,61 +1,61 @@
-// worlds/italian/content.js
-// Italian world: generated from lib/seed-lessons.json.
+// src/worlds/german/content.js
+// German world: generated from lib/seed-lessons.json.
 (function () {
   window.ANDERGO_LANGUAGE_WORLDS = window.ANDERGO_LANGUAGE_WORLDS || { levelContent: {}, languageContent: {}, lessons: {} };
 
-  window.ANDERGO_LANGUAGE_WORLDS.levelContent.italian = {
+  window.ANDERGO_LANGUAGE_WORLDS.levelContent.german = {
   "A1": {
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": "Italiano base: Identifica nombre, país y gusto personal en una presentación breve.",
+        "text": "Deutsch Start: Identifica nombre, país y gusto personal en una presentación breve.",
         "suggestions": [
-          "Ciao, mi chiamo...",
-          "Sono di...",
-          "Piacere.",
-          "Mi piace studiare."
+          "Hallo, ich heiße...",
+          "Ich komme aus...",
+          "Freut mich.",
+          "Ich lerne gern."
         ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Italiano base: Habla de tu nombre, tu ciudad y una actividad que te gusta.",
+        "text": "Deutsch Start: Habla de tu nombre, tu ciudad y una actividad que te gusta.",
         "suggestions": [
-          "Mi chiamo Laura.",
-          "Abito a Torino.",
-          "Lavoro la mattina.",
-          "E tu?"
+          "Ich heiße Laura.",
+          "Ich wohne in Leipzig.",
+          "Ich arbeite am Morgen.",
+          "Und du?"
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Italiano base: Escribe 4 frases sobre tu familia, tu rutina y tu lugar favorito.",
+        "text": "Deutsch Start: Escribe 4 frases sobre tu familia, tu rutina y tu lugar favorito.",
         "suggestions": [
-          "La mia famiglia è piccola.",
-          "Faccio colazione alle sette.",
-          "Il mio posto preferito è il parco.",
-          "Dopo studio."
+          "Meine Familie ist klein.",
+          "Ich frühstücke um sieben.",
+          "Mein Lieblingsort ist der Park.",
+          "Danach lerne ich."
         ]
       }
     },
     "vocab": [
       [
-        "ciao",
+        "Hallo",
         "hola"
       ],
       [
-        "nome",
+        "Name",
         "nombre"
       ],
       [
-        "paese",
+        "Land",
         "país"
       ],
       [
-        "amico",
+        "Freund",
         "amigo"
       ],
       [
-        "classe",
+        "Klasse",
         "clase"
       ]
     ],
@@ -70,8 +70,8 @@
       ]
     ],
     "reading": {
-      "title": "Italiano A1 Reading",
-      "text": "A casa di Giulia vivono tre persone. Suo padre cucina la sera e lei legge prima di dormire.",
+      "title": "Deutsch A1 Reading",
+      "text": "In Julias Haus leben drei Personen. Ihr Vater kocht am Abend und sie liest vor dem Schlafen.",
       "questions": [
         "¿Cuántas personas viven en la casa?",
         "¿Quién cocina por la noche?",
@@ -83,54 +83,54 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": "Vita quotidiana: Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar.",
+        "text": "Alltag Deutsch: Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar.",
         "suggestions": [
-          "Vorrei un caffè con latte.",
-          "Quanto costa?",
-          "Mi serve mezzo chilo.",
-          "Sto comprando della frutta."
+          "Ich möchte einen Kaffee mit Milch.",
+          "Wie viel kostet das?",
+          "Ich brauche ein halbes Kilo.",
+          "Gerade kaufe ich Obst."
         ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Vita quotidiana: Explica cómo ir al banco, a la estación y a una farmacia cercana.",
+        "text": "Alltag Deutsch: Explica cómo ir al banco, a la estación y a una farmacia cercana.",
         "suggestions": [
-          "Vai sempre dritto.",
-          "Gira a sinistra.",
-          "La farmacia è accanto alla banca.",
-          "Attraversa la piazza."
+          "Geh geradeaus.",
+          "Bieg links ab.",
+          "Die Apotheke ist neben der Bank.",
+          "Überquere den Platz."
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Vita quotidiana: Cuenta dónde estuviste, qué viste y qué harás la próxima semana.",
+        "text": "Alltag Deutsch: Cuenta dónde estuviste, qué viste y qué harás la próxima semana.",
         "suggestions": [
-          "La settimana scorsa ho visitato...",
-          "Mi è piaciuto molto...",
-          "Tornerò ad agosto.",
-          "Voglio anche provare..."
+          "Letzte Woche habe ich ... besucht.",
+          "Es hat mir sehr gefallen.",
+          "Im August fahre ich wieder hin.",
+          "Ich möchte auch ... probieren."
         ]
       }
     },
     "vocab": [
       [
-        "caffè",
+        "Kaffee",
         "café"
       ],
       [
-        "latte",
+        "Milch",
         "leche"
       ],
       [
-        "prezzo",
+        "Preis",
         "precio"
       ],
       [
-        "frutta",
+        "Obst",
         "fruta"
       ],
       [
-        "chilo",
+        "Kilo",
         "kilo"
       ]
     ],
@@ -145,8 +145,8 @@
       ]
     ],
     "reading": {
-      "title": "Italiano A2 Reading",
-      "text": "Lucia invita i suoi amici al cinema sabato. Dopo il film, tutti cenano in un piccolo ristorante.",
+      "title": "Deutsch A2 Reading",
+      "text": "Lucía lädt ihre Freunde am Samstag ins Kino ein. Nach dem Film essen alle in einem kleinen Restaurant zu Abend.",
       "questions": [
         "¿Qué día es la invitación?",
         "¿Qué hacen después del cine?",
@@ -158,54 +158,54 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": "Conversazione sicura: Identifica problemas, soluciones y decisiones en una charla cotidiana.",
+        "text": "Sicher sprechen: Identifica problemas, soluciones y decisiones en una charla cotidiana.",
         "suggestions": [
-          "Ultimamente lavoro troppo.",
-          "Prima studiavo la sera.",
-          "Per questo devo organizzarmi meglio.",
-          "Dovrei riposarmi di più."
+          "In letzter Zeit arbeite ich zu viel.",
+          "Früher habe ich abends gelernt.",
+          "Deshalb muss ich mich besser organisieren.",
+          "Ich sollte mehr ausruhen."
         ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Conversazione sicura: Explica qué hábito te ayuda más y justifica tu elección con dos razones.",
+        "text": "Sicher sprechen: Explica qué hábito te ayuda más y justifica tu elección con dos razones.",
         "suggestions": [
-          "Secondo me, camminare aiuta.",
-          "Penso che dormire bene sia importante.",
-          "Una ragione è lo stress.",
-          "Aiuta anche la concentrazione."
+          "Meiner Meinung nach hilft Spazierengehen.",
+          "Ich denke, guter Schlaf ist wichtig.",
+          "Ein Grund ist der Stress.",
+          "Das hilft auch bei der Konzentration."
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Conversazione sicura: Escribe un relato sobre una dificultad y la estrategia que usaste para superarla.",
+        "text": "Sicher sprechen: Escribe un relato sobre una dificultad y la estrategia que usaste para superarla.",
         "suggestions": [
-          "All'inizio è stato difficile.",
-          "Poi ho chiesto aiuto.",
-          "Piano piano sono migliorato.",
-          "Alla fine mi sono sentito orgoglioso."
+          "Am Anfang war es schwierig.",
+          "Dann habe ich um Hilfe gebeten.",
+          "Nach und nach wurde ich besser.",
+          "Am Ende war ich stolz."
         ]
       }
     },
     "vocab": [
       [
-        "orario",
+        "Zeitplan",
         "horario"
       ],
       [
-        "riposo",
+        "Erholung",
         "descanso"
       ],
       [
-        "priorità",
+        "Priorität",
         "prioridad"
       ],
       [
-        "stanchezza",
+        "Müdigkeit",
         "cansancio"
       ],
       [
-        "organizzare",
+        "organisieren",
         "organizar"
       ]
     ],
@@ -220,8 +220,8 @@
       ]
     ],
     "reading": {
-      "title": "Italiano B1 Reading",
-      "text": "Un gruppo del quartiere organizza laboratori di lettura per bambini. Grazie al progetto, più vicini visitano la biblioteca.",
+      "title": "Deutsch B1 Reading",
+      "text": "Eine Gruppe aus dem Stadtviertel organisiert Lese-Workshops für Kinder. Dank des Projekts besuchen mehr Nachbarn die Bibliothek.",
       "questions": [
         "¿Para quién son los talleres?",
         "¿Qué lugar visitan más los vecinos ahora?",
@@ -233,54 +233,54 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": "Italiano in contesto: Distingue tesis, ejemplos y concesiones en una discusión formal.",
+        "text": "Deutsch im Kontext: Distingue tesis, ejemplos y concesiones en una discusión formal.",
         "suggestions": [
-          "Da un lato fa risparmiare tempo.",
-          "Dall'altro riduce il contatto.",
-          "Potrebbe migliorare la produttività.",
-          "Dipende dal tipo di lavoro."
+          "Einerseits spart es Zeit.",
+          "Andererseits verringert es den Kontakt.",
+          "Es könnte die Produktivität steigern.",
+          "Das hängt von der Arbeit ab."
         ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Italiano in contesto: Argumenta qué política apoyas y responde a una objeción posible.",
+        "text": "Deutsch im Kontext: Argumenta qué política apoyas y responde a una objeción posible.",
         "suggestions": [
-          "La prima misura è più realistica.",
-          "Nonostante ciò, l'altra opzione è attraente.",
-          "Se ci fossero più autobus, i costi scenderebbero.",
-          "Conviene valutare il bilancio."
+          "Die erste Maßnahme ist besser umsetzbar.",
+          "Trotzdem ist die andere Option attraktiv.",
+          "Wenn es mehr Busse gäbe, würden die Kosten sinken.",
+          "Man sollte das Budget prüfen."
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Italiano in contesto: Escribe una propuesta para mejorar tu centro de estudio o trabajo.",
+        "text": "Deutsch im Kontext: Escribe una propuesta para mejorar tu centro de estudio o trabajo.",
         "suggestions": [
-          "Propongo che si ampli...",
-          "Sarebbe opportuno rivedere...",
-          "Inoltre, questa misura permetterebbe...",
-          "Infine, conviene valutare i risultati."
+          "Ich schlage vor, dass ... erweitert wird.",
+          "Es wäre sinnvoll, ... zu überprüfen.",
+          "Außerdem würde diese Maßnahme ... ermöglichen.",
+          "Schließlich sollte man die Ergebnisse bewerten."
         ]
       }
     },
     "vocab": [
       [
-        "produttività",
+        "Produktivität",
         "productividad"
       ],
       [
-        "contatto",
+        "Kontakt",
         "contacto"
       ],
       [
-        "dibattito",
+        "Debatte",
         "debate"
       ],
       [
-        "azienda",
+        "Firma",
         "empresa"
       ],
       [
-        "posizione",
+        "Standpunkt",
         "postura"
       ]
     ],
@@ -295,8 +295,8 @@
       ]
     ],
     "reading": {
-      "title": "Italiano B2 Reading",
-      "text": "Un reportage spiega come varie città limitino il traffico turistico. I residenti dicono che la convivenza migliora quando esistono regole chiare.",
+      "title": "Deutsch B2 Reading",
+      "text": "Ein Bericht erklärt, wie mehrere Städte den touristischen Verkehr einschränken. Die Bewohner sagen, dass klare Regeln das Zusammenleben verbessern.",
       "questions": [
         "¿Qué limitan varias ciudades?",
         "¿Qué dicen los residentes?",
@@ -308,54 +308,54 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": "Espressione sfumata: Resume la postura central y dos argumentos secundarios del episodio.",
+        "text": "Nuancierter Ausdruck: Resume la postura central y dos argumentos secundarios del episodio.",
         "suggestions": [
-          "È probabile che la lingua cambi.",
-          "Ciò che conta è la memoria condivisa.",
-          "Tuttavia ogni generazione reinterpreta il passato.",
-          "In questo senso, migrare trasforma l'identità."
+          "Wahrscheinlich verändert sich Sprache.",
+          "Wichtig ist das gemeinsame Gedächtnis.",
+          "Dennoch deutet jede Generation die Vergangenheit neu.",
+          "In diesem Sinne verändert Migration die Identität."
         ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Espressione sfumata: Presenta tu postura, matízala y responde con cortesía a otra opinión.",
+        "text": "Nuancierter Ausdruck: Presenta tu postura, matízala y responde con cortesía a otra opinión.",
         "suggestions": [
-          "Condivido in parte questa idea.",
-          "Detto in altro modo...",
-          "Non la escluderei del tutto.",
-          "Conviene distinguere tra contesto ed effetto."
+          "Diesen Punkt teile ich teilweise.",
+          "Anders gesagt...",
+          "Ich würde es nicht ganz ausschließen.",
+          "Man sollte Kontext und Wirkung unterscheiden."
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Espressione sfumata: Redacta una reseña que evalúe contenido, enfoque y efectos en el lector.",
+        "text": "Nuancierter Ausdruck: Redacta una reseña que evalúe contenido, enfoque y efectos en el lector.",
         "suggestions": [
-          "L'opera pone una domanda decisiva.",
-          "Il suo approccio risulta convincente.",
-          "Tuttavia omette una dimensione rilevante.",
-          "Nel complesso offre una lettura solida."
+          "Das Werk stellt eine entscheidende Frage.",
+          "Sein Ansatz wirkt überzeugend.",
+          "Dennoch fehlt eine wichtige Dimension.",
+          "Insgesamt bietet es eine starke Lektüre."
         ]
       }
     },
     "vocab": [
       [
-        "identità",
+        "Identität",
         "identidad"
       ],
       [
-        "memoria",
+        "Gedächtnis",
         "memoria"
       ],
       [
-        "migrazione",
+        "Migration",
         "migración"
       ],
       [
-        "appartenenza",
+        "Zugehörigkeit",
         "pertenencia"
       ],
       [
-        "sfumatura",
+        "Nuance",
         "matiz"
       ]
     ],
@@ -370,8 +370,8 @@
       ]
     ],
     "reading": {
-      "title": "Italiano C1 Reading",
-      "text": "Il saggio sostiene che il linguaggio pubblico organizzi la memoria collettiva. Attraverso varie metafore collega racconto, potere e comunità.",
+      "title": "Deutsch C1 Reading",
+      "text": "Der Essay behauptet, dass öffentliche Sprache das kollektive Gedächtnis organisiert. Mit mehreren Metaphern verbindet er Erzählung, Macht und Gemeinschaft.",
       "questions": [
         "¿Qué organiza el lenguaje público?",
         "¿Qué recurso usa el autor?",
@@ -383,54 +383,54 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": "Padronanza completa: Explica qué se dice, qué se insinúa y por qué cambia el tono.",
+        "text": "Meisterschaft: Explica qué se dice, qué se insinúa y por qué cambia el tono.",
         "suggestions": [
-          "Detto così, sembra innocuo.",
-          "Ciò che rivela davvero è il tono.",
-          "Resta comunque sorprendente.",
-          "Tra le righe si percepisce un'altra intenzione."
+          "So formuliert wirkt es harmlos.",
+          "Aufschlussreich ist vor allem der Ton.",
+          "Auffällig bleibt das trotzdem.",
+          "Zwischen den Zeilen merkt man eine andere Absicht."
         ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Padronanza completa: Defiende una posición compleja, concede un punto menor y reformula una solución.",
+        "text": "Meisterschaft: Defiende una posición compleja, concede un punto menor y reformula una solución.",
         "suggestions": [
-          "Ammetto questo punto, anche se...",
-          "Se precisiamo meglio i termini...",
-          "Ciò che conta non è solo il costo.",
-          "Propongo una via d'uscita intermedia."
+          "Diesen Punkt räume ich ein, aber...",
+          "Wenn wir die Begriffe schärfen...",
+          "Entscheidend ist nicht nur der Preis.",
+          "Ich schlage einen Mittelweg vor."
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Padronanza completa: Escribe un editorial que combine análisis, tono y una conclusión memorable.",
+        "text": "Meisterschaft: Escribe un editorial que combine análisis, tono y una conclusión memorable.",
         "suggestions": [
-          "Conviene diffidare delle risposte semplici.",
-          "La discussione richiede uno sguardo più ampio.",
-          "Quel gesto retorico non è casuale.",
-          "In ultima analisi, la questione resta aperta."
+          "Einfachen Antworten sollte man misstrauen.",
+          "Die Debatte verlangt einen weiteren Blick.",
+          "Diese rhetorische Geste ist nicht zufällig.",
+          "Letztlich bleibt die Frage offen."
         ]
       }
     },
     "vocab": [
       [
-        "ironia",
+        "Ironie",
         "ironía"
       ],
       [
-        "insinuazione",
+        "Andeutung",
         "insinuación"
       ],
       [
-        "tono",
+        "Ton",
         "tono"
       ],
       [
-        "sottotesto",
+        "Subtext",
         "subtexto"
       ],
       [
-        "enfasi",
+        "Betonung",
         "énfasis"
       ]
     ],
@@ -445,8 +445,8 @@
       ]
     ],
     "reading": {
-      "title": "Italiano C2 Reading",
-      "text": "La critica presuppone un lettore esperto e usa un'allusione storica per risignificare la chiusura del saggio.",
+      "title": "Deutsch C2 Reading",
+      "text": "Die Kritik setzt einen kundigen Leser voraus und nutzt eine historische Anspielung, um den Schluss des Essays neu zu deuten.",
       "questions": [
         "¿Qué tipo de lector presupone la crítica?",
         "¿Qué recurso resignifica el cierre?",
@@ -457,68 +457,68 @@
 };
 
   window.ANDERGO_LANGUAGE_WORLDS.lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons || {};
-  window.ANDERGO_LANGUAGE_WORLDS.lessons.italian = [
+  window.ANDERGO_LANGUAGE_WORLDS.lessons.german = [
   {
-    "slug": "italian-a1-listening",
+    "slug": "german-a1-listening",
     "level": "A1",
     "skill": "listening",
-    "title": "Italiano A1 · Listening Lab",
+    "title": "Deutsch A1 · Listening Lab",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 1090,
+    "orderIndex": 1450,
     "estimatedMinutes": 10,
-    "description": "Italiano base: Reconoce saludos, nombres y países en diálogos muy breves.",
+    "description": "Deutsch Start: Reconoce saludos, nombres y países en diálogos muy breves.",
     "intro": "Escucha mini conversaciones de bienvenida y detecta quién habla, cómo se llama y de dónde es.",
     "mission": "Identifica nombre, país y gusto personal en una presentación breve.",
     "grammar": "Saludos básicos, ser, llamarse y artículos indefinidos.",
     "phrases": [
-      "Ciao, mi chiamo...",
-      "Sono di...",
-      "Piacere.",
-      "Mi piace studiare."
+      "Hallo, ich heiße...",
+      "Ich komme aus...",
+      "Freut mich.",
+      "Ich lerne gern."
     ],
     "vocabulary": [
       {
-        "word": "ciao",
+        "word": "Hallo",
         "translation": "hola",
-        "example": "Oggi pratico la parola \"ciao\"."
+        "example": "Heute übe ich das Wort \"Hallo\"."
       },
       {
-        "word": "nome",
+        "word": "Name",
         "translation": "nombre",
-        "example": "Oggi pratico la parola \"nome\"."
+        "example": "Heute übe ich das Wort \"Name\"."
       },
       {
-        "word": "paese",
+        "word": "Land",
         "translation": "país",
-        "example": "Oggi pratico la parola \"paese\"."
+        "example": "Heute übe ich das Wort \"Land\"."
       },
       {
-        "word": "amico",
+        "word": "Freund",
         "translation": "amigo",
-        "example": "Oggi pratico la parola \"amico\"."
+        "example": "Heute übe ich das Wort \"Freund\"."
       },
       {
-        "word": "classe",
+        "word": "Klasse",
         "translation": "clase",
-        "example": "Oggi pratico la parola \"classe\"."
+        "example": "Heute übe ich das Wort \"Klasse\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Ciao, mi chiamo...",
+        "line": "Hallo, ich heiße...",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Sono di...",
+        "line": "Ich komme aus...",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Anna arriva in una classe nuova. Dice il suo nome, racconta che viene da Bari e che le piace la musica.",
+      "text": "Ana kommt in eine neue Klasse. Sie sagt ihren Namen, erzählt, dass sie aus Baní kommt, und dass sie Musik mag.",
       "questions": [
         "¿Quién llega a una clase nueva?",
         "¿De qué lugar habla el texto?",
@@ -528,7 +528,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"ciao\"?",
+        "prompt": "¿Qué significa \"Hallo\"?",
         "options": [
           "hola",
           "nombre",
@@ -544,72 +544,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ciao, mi chiamo... / Sono di...",
+        "prompt": "Usa al menos dos frases modelo: Hallo, ich heiße... / Ich komme aus...",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-a1-speaking",
+    "slug": "german-a1-speaking",
     "level": "A1",
     "skill": "speaking",
-    "title": "Italiano A1 · Speaking Mission",
+    "title": "Deutsch A1 · Speaking Mission",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 1100,
+    "orderIndex": 1460,
     "estimatedMinutes": 12,
-    "description": "Italiano base: Preséntate y responde preguntas simples sobre ti.",
+    "description": "Deutsch Start: Preséntate y responde preguntas simples sobre ti.",
     "intro": "Practica una presentación oral corta para tu primera clase.",
     "mission": "Habla de tu nombre, tu ciudad y una actividad que te gusta.",
     "grammar": "Pronombres personales, ser y preguntas con ¿cómo? y ¿de dónde?.",
     "phrases": [
-      "Mi chiamo Laura.",
-      "Abito a Torino.",
-      "Lavoro la mattina.",
-      "E tu?"
+      "Ich heiße Laura.",
+      "Ich wohne in Leipzig.",
+      "Ich arbeite am Morgen.",
+      "Und du?"
     ],
     "vocabulary": [
       {
-        "word": "abitare",
+        "word": "wohnen",
         "translation": "vivir",
-        "example": "Oggi pratico la parola \"abitare\"."
+        "example": "Heute übe ich das Wort \"wohnen\"."
       },
       {
-        "word": "città",
+        "word": "Stadt",
         "translation": "ciudad",
-        "example": "Oggi pratico la parola \"città\"."
+        "example": "Heute übe ich das Wort \"Stadt\"."
       },
       {
-        "word": "studente",
+        "word": "Student",
         "translation": "estudiante",
-        "example": "Oggi pratico la parola \"studente\"."
+        "example": "Heute übe ich das Wort \"Student\"."
       },
       {
-        "word": "lavoro",
+        "word": "Arbeit",
         "translation": "trabajo",
-        "example": "Oggi pratico la parola \"lavoro\"."
+        "example": "Heute übe ich das Wort \"Arbeit\"."
       },
       {
-        "word": "mattina",
+        "word": "Morgen",
         "translation": "mañana",
-        "example": "Oggi pratico la parola \"mattina\"."
+        "example": "Heute übe ich das Wort \"Morgen\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Mi chiamo Laura.",
+        "line": "Ich heiße Laura.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Abito a Torino.",
+        "line": "Ich wohne in Leipzig.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Carlo si presenta al gruppo. Spiega che vive con sua sorella e che studia nel pomeriggio.",
+      "text": "Carlos stellt sich seiner Gruppe vor. Er erklärt, dass er mit seiner Schwester wohnt und am Nachmittag lernt.",
       "questions": [
         "¿Quién se presenta ante el grupo?",
         "¿Con quién vive esa persona?",
@@ -619,7 +619,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"abitare\"?",
+        "prompt": "¿Qué significa \"wohnen\"?",
         "options": [
           "vivir",
           "ciudad",
@@ -635,72 +635,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Mi chiamo Laura. / Abito a Torino.",
+        "prompt": "Usa al menos dos frases modelo: Ich heiße Laura. / Ich wohne in Leipzig.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-a1-reading",
+    "slug": "german-a1-reading",
     "level": "A1",
     "skill": "reading",
-    "title": "Italiano A1 · Reading Quest",
+    "title": "Deutsch A1 · Reading Quest",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 1110,
+    "orderIndex": 1470,
     "estimatedMinutes": 12,
-    "description": "Italiano base: Lee perfiles breves y localiza información personal.",
+    "description": "Deutsch Start: Lee perfiles breves y localiza información personal.",
     "intro": "Lee un texto corto sobre una familia y responde preguntas concretas.",
     "mission": "Encuentra datos sobre edades, relaciones y actividades diarias.",
     "grammar": "Hay, tener, números y expresiones de edad.",
     "phrases": [
-      "Ho vent'anni.",
-      "Mio padre cucina.",
-      "Ci sono tre persone a casa.",
-      "Leggiamo insieme."
+      "Ich bin zwanzig Jahre alt.",
+      "Mein Vater kocht.",
+      "Zu Hause sind drei Personen.",
+      "Wir lesen zusammen."
     ],
     "vocabulary": [
       {
-        "word": "padre",
+        "word": "Vater",
         "translation": "padre",
-        "example": "Oggi pratico la parola \"padre\"."
+        "example": "Heute übe ich das Wort \"Vater\"."
       },
       {
-        "word": "casa",
+        "word": "Haus",
         "translation": "casa",
-        "example": "Oggi pratico la parola \"casa\"."
+        "example": "Heute übe ich das Wort \"Haus\"."
       },
       {
-        "word": "anni",
+        "word": "Jahre",
         "translation": "años",
-        "example": "Oggi pratico la parola \"anni\"."
+        "example": "Heute übe ich das Wort \"Jahre\"."
       },
       {
-        "word": "leggere",
+        "word": "lesen",
         "translation": "leer",
-        "example": "Oggi pratico la parola \"leggere\"."
+        "example": "Heute übe ich das Wort \"lesen\"."
       },
       {
-        "word": "cucinare",
+        "word": "kochen",
         "translation": "cocinar",
-        "example": "Oggi pratico la parola \"cucinare\"."
+        "example": "Heute übe ich das Wort \"kochen\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Ho vent'anni.",
+        "line": "Ich bin zwanzig Jahre alt.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Mio padre cucina.",
+        "line": "Mein Vater kocht.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "A casa di Giulia vivono tre persone. Suo padre cucina la sera e lei legge prima di dormire.",
+      "text": "In Julias Haus leben drei Personen. Ihr Vater kocht am Abend und sie liest vor dem Schlafen.",
       "questions": [
         "¿Cuántas personas viven en la casa?",
         "¿Quién cocina por la noche?",
@@ -710,7 +710,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"padre\"?",
+        "prompt": "¿Qué significa \"Vater\"?",
         "options": [
           "padre",
           "casa",
@@ -726,72 +726,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ho vent'anni. / Mio padre cucina.",
+        "prompt": "Usa al menos dos frases modelo: Ich bin zwanzig Jahre alt. / Mein Vater kocht.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-a1-writing",
+    "slug": "german-a1-writing",
     "level": "A1",
     "skill": "writing",
-    "title": "Italiano A1 · Writing Challenge",
+    "title": "Deutsch A1 · Writing Challenge",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 1120,
+    "orderIndex": 1480,
     "estimatedMinutes": 14,
-    "description": "Italiano base: Escribe una tarjeta personal con datos básicos.",
+    "description": "Deutsch Start: Escribe una tarjeta personal con datos básicos.",
     "intro": "Redacta frases cortas para describir tu rutina inicial y a una persona cercana.",
     "mission": "Escribe 4 frases sobre tu familia, tu rutina y tu lugar favorito.",
     "grammar": "Posesivos básicos, presente simple y conectores y/pero.",
     "phrases": [
-      "La mia famiglia è piccola.",
-      "Faccio colazione alle sette.",
-      "Il mio posto preferito è il parco.",
-      "Dopo studio."
+      "Meine Familie ist klein.",
+      "Ich frühstücke um sieben.",
+      "Mein Lieblingsort ist der Park.",
+      "Danach lerne ich."
     ],
     "vocabulary": [
       {
-        "word": "famiglia",
+        "word": "Familie",
         "translation": "familia",
-        "example": "Oggi pratico la parola \"famiglia\"."
+        "example": "Heute übe ich das Wort \"Familie\"."
       },
       {
-        "word": "colazione",
+        "word": "Frühstück",
         "translation": "desayuno",
-        "example": "Oggi pratico la parola \"colazione\"."
+        "example": "Heute übe ich das Wort \"Frühstück\"."
       },
       {
-        "word": "parco",
+        "word": "Park",
         "translation": "parque",
-        "example": "Oggi pratico la parola \"parco\"."
+        "example": "Heute übe ich das Wort \"Park\"."
       },
       {
-        "word": "sorella",
+        "word": "Schwester",
         "translation": "hermana",
-        "example": "Oggi pratico la parola \"sorella\"."
+        "example": "Heute übe ich das Wort \"Schwester\"."
       },
       {
-        "word": "pomeriggio",
+        "word": "Nachmittag",
         "translation": "tarde",
-        "example": "Oggi pratico la parola \"pomeriggio\"."
+        "example": "Heute übe ich das Wort \"Nachmittag\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "La mia famiglia è piccola.",
+        "line": "Meine Familie ist klein.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Faccio colazione alle sette.",
+        "line": "Ich frühstücke um sieben.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Marta scrive una cartolina a un'amica. Racconta che fa colazione presto e va al parco dopo le lezioni.",
+      "text": "Marta schreibt eine Karte an ihre Freundin. Sie erzählt, dass sie frühstückt und nach dem Unterricht in den Park geht.",
       "questions": [
         "¿A quién escribe la tarjeta?",
         "¿Qué hace la autora por la mañana?",
@@ -801,7 +801,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"famiglia\"?",
+        "prompt": "¿Qué significa \"Familie\"?",
         "options": [
           "familia",
           "desayuno",
@@ -817,72 +817,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: La mia famiglia è piccola. / Faccio colazione alle sette.",
+        "prompt": "Usa al menos dos frases modelo: Meine Familie ist klein. / Ich frühstücke um sieben.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-a1-grammar",
+    "slug": "german-a1-grammar",
     "level": "A1",
     "skill": "grammar",
-    "title": "Italiano A1 · Grammar Focus",
+    "title": "Deutsch A1 · Grammar Focus",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 1130,
+    "orderIndex": 1490,
     "estimatedMinutes": 11,
-    "description": "Italiano base: Domina ser, tener y los artículos más frecuentes.",
+    "description": "Deutsch Start: Domina ser, tener y los artículos más frecuentes.",
     "intro": "Observa ejemplos simples y decide cuándo usar ser, tener, un, una, el o la.",
     "mission": "Completa frases con ser, tener y artículos correctos.",
     "grammar": "Ser vs. tener, género, número y concordancia básica.",
     "phrases": [
-      "È un'insegnante.",
-      "Ho due libri.",
-      "Il tavolo è grande.",
-      "Un amico arriva oggi."
+      "Sie ist Lehrerin.",
+      "Ich habe zwei Bücher.",
+      "Der Tisch ist groß.",
+      "Heute kommt ein Freund."
     ],
     "vocabulary": [
       {
-        "word": "insegnante",
+        "word": "Lehrerin",
         "translation": "profesora",
-        "example": "Oggi pratico la parola \"insegnante\"."
+        "example": "Heute übe ich das Wort \"Lehrerin\"."
       },
       {
-        "word": "libro",
+        "word": "Buch",
         "translation": "libro",
-        "example": "Oggi pratico la parola \"libro\"."
+        "example": "Heute übe ich das Wort \"Buch\"."
       },
       {
-        "word": "tavolo",
+        "word": "Tisch",
         "translation": "mesa",
-        "example": "Oggi pratico la parola \"tavolo\"."
+        "example": "Heute übe ich das Wort \"Tisch\"."
       },
       {
-        "word": "amico",
+        "word": "Freund",
         "translation": "amigo",
-        "example": "Oggi pratico la parola \"amico\"."
+        "example": "Heute übe ich das Wort \"Freund\"."
       },
       {
-        "word": "oggi",
+        "word": "heute",
         "translation": "hoy",
-        "example": "Oggi pratico la parola \"oggi\"."
+        "example": "Heute übe ich das Wort \"heute\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "È un'insegnante.",
+        "line": "Sie ist Lehrerin.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Ho due libri.",
+        "line": "Ich habe zwei Bücher.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "L'aula ha un tavolo grande e due libri. L'insegnante è gentile e oggi arriva un amico nuovo.",
+      "text": "Im Klassenraum gibt es einen großen Tisch und zwei Bücher. Die Lehrerin ist freundlich und heute kommt ein neuer Freund.",
       "questions": [
         "¿Qué objetos hay en el aula?",
         "¿Cómo es la profesora?",
@@ -892,7 +892,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"insegnante\"?",
+        "prompt": "¿Qué significa \"Lehrerin\"?",
         "options": [
           "profesora",
           "libro",
@@ -908,72 +908,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: È un'insegnante. / Ho due libri.",
+        "prompt": "Usa al menos dos frases modelo: Sie ist Lehrerin. / Ich habe zwei Bücher.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-a1-vocabulary",
+    "slug": "german-a1-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
-    "title": "Italiano A1 · Vocabulary Boost",
+    "title": "Deutsch A1 · Vocabulary Boost",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 1140,
+    "orderIndex": 1500,
     "estimatedMinutes": 10,
-    "description": "Italiano base: Amplía vocabulario de aula, ciudad y tiempo.",
+    "description": "Deutsch Start: Amplía vocabulario de aula, ciudad y tiempo.",
     "intro": "Agrupa palabras frecuentes para moverte por la escuela y la ciudad.",
     "mission": "Relaciona objetos, lugares y momentos del día con su uso.",
     "grammar": "Campo léxico básico, género de sustantivos y plurales regulares.",
     "phrases": [
-      "La biblioteca è vicina.",
-      "Ho bisogno di un quaderno.",
-      "Oggi c'è il sole.",
-      "La strada è tranquilla."
+      "Die Bibliothek ist in der Nähe.",
+      "Ich brauche ein Heft.",
+      "Heute ist es sonnig.",
+      "Die Straße ist ruhig."
     ],
     "vocabulary": [
       {
-        "word": "biblioteca",
+        "word": "Bibliothek",
         "translation": "biblioteca",
-        "example": "Oggi pratico la parola \"biblioteca\"."
+        "example": "Heute übe ich das Wort \"Bibliothek\"."
       },
       {
-        "word": "quaderno",
+        "word": "Heft",
         "translation": "cuaderno",
-        "example": "Oggi pratico la parola \"quaderno\"."
+        "example": "Heute übe ich das Wort \"Heft\"."
       },
       {
-        "word": "strada",
+        "word": "Straße",
         "translation": "calle",
-        "example": "Oggi pratico la parola \"strada\"."
+        "example": "Heute übe ich das Wort \"Straße\"."
       },
       {
-        "word": "sole",
+        "word": "Sonne",
         "translation": "sol",
-        "example": "Oggi pratico la parola \"sole\"."
+        "example": "Heute übe ich das Wort \"Sonne\"."
       },
       {
-        "word": "autobus",
+        "word": "Bus",
         "translation": "autobús",
-        "example": "Oggi pratico la parola \"autobus\"."
+        "example": "Heute übe ich das Wort \"Bus\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "La biblioteca è vicina.",
+        "line": "Die Bibliothek ist in der Nähe.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Ho bisogno di un quaderno.",
+        "line": "Ich brauche ein Heft.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Paolo esce con il suo quaderno e prende l'autobus per la biblioteca. La strada è tranquilla e c'è il sole.",
+      "text": "Paul geht mit seinem Heft aus dem Haus und nimmt den Bus zur Bibliothek. Die Straße ist ruhig und die Sonne scheint.",
       "questions": [
         "¿Qué lleva Pablo en la mano?",
         "¿Adónde va en autobús?",
@@ -983,7 +983,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"biblioteca\"?",
+        "prompt": "¿Qué significa \"Bibliothek\"?",
         "options": [
           "biblioteca",
           "cuaderno",
@@ -999,72 +999,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: La biblioteca è vicina. / Ho bisogno di un quaderno.",
+        "prompt": "Usa al menos dos frases modelo: Die Bibliothek ist in der Nähe. / Ich brauche ein Heft.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-a2-listening",
+    "slug": "german-a2-listening",
     "level": "A2",
     "skill": "listening",
-    "title": "Italiano A2 · Listening Lab",
+    "title": "Deutsch A2 · Listening Lab",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 1150,
+    "orderIndex": 1510,
     "estimatedMinutes": 10,
-    "description": "Vita quotidiana: Comprende pedidos sencillos, precios y cantidades.",
+    "description": "Alltag Deutsch: Comprende pedidos sencillos, precios y cantidades.",
     "intro": "Escucha un diálogo en una cafetería y otro en una tienda.",
     "mission": "Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar.",
     "grammar": "Querer, pedir, números, cantidades y presente continuo.",
     "phrases": [
-      "Vorrei un caffè con latte.",
-      "Quanto costa?",
-      "Mi serve mezzo chilo.",
-      "Sto comprando della frutta."
+      "Ich möchte einen Kaffee mit Milch.",
+      "Wie viel kostet das?",
+      "Ich brauche ein halbes Kilo.",
+      "Gerade kaufe ich Obst."
     ],
     "vocabulary": [
       {
-        "word": "caffè",
+        "word": "Kaffee",
         "translation": "café",
-        "example": "Oggi pratico la parola \"caffè\"."
+        "example": "Heute übe ich das Wort \"Kaffee\"."
       },
       {
-        "word": "latte",
+        "word": "Milch",
         "translation": "leche",
-        "example": "Oggi pratico la parola \"latte\"."
+        "example": "Heute übe ich das Wort \"Milch\"."
       },
       {
-        "word": "prezzo",
+        "word": "Preis",
         "translation": "precio",
-        "example": "Oggi pratico la parola \"prezzo\"."
+        "example": "Heute übe ich das Wort \"Preis\"."
       },
       {
-        "word": "frutta",
+        "word": "Obst",
         "translation": "fruta",
-        "example": "Oggi pratico la parola \"frutta\"."
+        "example": "Heute übe ich das Wort \"Obst\"."
       },
       {
-        "word": "chilo",
+        "word": "Kilo",
         "translation": "kilo",
-        "example": "Oggi pratico la parola \"chilo\"."
+        "example": "Heute übe ich das Wort \"Kilo\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Vorrei un caffè con latte.",
+        "line": "Ich möchte einen Kaffee mit Milch.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Quanto costa?",
+        "line": "Wie viel kostet das?",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Al bar, Sonia ordina un caffè con latte e una fetta di pane tostato. Poi compra della frutta per la cena.",
+      "text": "Im Café bestellt Sonia einen Kaffee mit Milch und einen Toast. Danach kauft sie Obst für das Abendessen.",
       "questions": [
         "¿Qué pide Sonia en la cafetería?",
         "¿Qué compra después?",
@@ -1074,7 +1074,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"caffè\"?",
+        "prompt": "¿Qué significa \"Kaffee\"?",
         "options": [
           "café",
           "leche",
@@ -1090,72 +1090,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Vorrei un caffè con latte. / Quanto costa?",
+        "prompt": "Usa al menos dos frases modelo: Ich möchte einen Kaffee mit Milch. / Wie viel kostet das?",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-a2-speaking",
+    "slug": "german-a2-speaking",
     "level": "A2",
     "skill": "speaking",
-    "title": "Italiano A2 · Speaking Mission",
+    "title": "Deutsch A2 · Speaking Mission",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 1160,
+    "orderIndex": 1520,
     "estimatedMinutes": 12,
-    "description": "Vita quotidiana: Pregunta y da indicaciones en el barrio.",
+    "description": "Alltag Deutsch: Pregunta y da indicaciones en el barrio.",
     "intro": "Practica cómo llegar a lugares comunes usando referencias claras.",
     "mission": "Explica cómo ir al banco, a la estación y a una farmacia cercana.",
     "grammar": "Imperativo informal, preposiciones de lugar y verbos de movimiento.",
     "phrases": [
-      "Vai sempre dritto.",
-      "Gira a sinistra.",
-      "La farmacia è accanto alla banca.",
-      "Attraversa la piazza."
+      "Geh geradeaus.",
+      "Bieg links ab.",
+      "Die Apotheke ist neben der Bank.",
+      "Überquere den Platz."
     ],
     "vocabulary": [
       {
-        "word": "stazione",
+        "word": "Bahnhof",
         "translation": "estación",
-        "example": "Oggi pratico la parola \"stazione\"."
+        "example": "Heute übe ich das Wort \"Bahnhof\"."
       },
       {
-        "word": "banca",
+        "word": "Bank",
         "translation": "banco",
-        "example": "Oggi pratico la parola \"banca\"."
+        "example": "Heute übe ich das Wort \"Bank\"."
       },
       {
-        "word": "angolo",
+        "word": "Ecke",
         "translation": "esquina",
-        "example": "Oggi pratico la parola \"angolo\"."
+        "example": "Heute übe ich das Wort \"Ecke\"."
       },
       {
-        "word": "piazza",
+        "word": "Platz",
         "translation": "plaza",
-        "example": "Oggi pratico la parola \"piazza\"."
+        "example": "Heute übe ich das Wort \"Platz\"."
       },
       {
-        "word": "farmacia",
+        "word": "Apotheke",
         "translation": "farmacia",
-        "example": "Oggi pratico la parola \"farmacia\"."
+        "example": "Heute übe ich das Wort \"Apotheke\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Vai sempre dritto.",
+        "line": "Geh geradeaus.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Gira a sinistra.",
+        "line": "Bieg links ab.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Tommaso aiuta una turista. Le dice di attraversare la piazza e girare a sinistra per trovare la stazione.",
+      "text": "Tomás hilft einer Touristin. Er sagt ihr, dass sie über den Platz gehen und links abbiegen soll, um den Bahnhof zu finden.",
       "questions": [
         "¿A quién ayuda Tomás?",
         "¿Qué debe cruzar la turista?",
@@ -1165,7 +1165,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"stazione\"?",
+        "prompt": "¿Qué significa \"Bahnhof\"?",
         "options": [
           "estación",
           "banco",
@@ -1181,72 +1181,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Vai sempre dritto. / Gira a sinistra.",
+        "prompt": "Usa al menos dos frases modelo: Geh geradeaus. / Bieg links ab.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-a2-reading",
+    "slug": "german-a2-reading",
     "level": "A2",
     "skill": "reading",
-    "title": "Italiano A2 · Reading Quest",
+    "title": "Deutsch A2 · Reading Quest",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 1170,
+    "orderIndex": 1530,
     "estimatedMinutes": 12,
-    "description": "Vita quotidiana: Lee planes, invitaciones y mensajes de fin de semana.",
+    "description": "Alltag Deutsch: Lee planes, invitaciones y mensajes de fin de semana.",
     "intro": "Comprende mensajes sobre horarios, actividades y encuentros.",
     "mission": "Localiza cuándo, dónde y con quién ocurre cada plan.",
     "grammar": "Futuro próximo, expresiones de tiempo y verbos reflexivos.",
     "phrases": [
-      "Sabato vado al cinema.",
-      "Ci vediamo alle otto.",
-      "Prima cucino.",
-      "Dopo ci riposiamo."
+      "Am Samstag gehe ich ins Kino.",
+      "Wir sehen uns um acht.",
+      "Zuerst koche ich.",
+      "Danach ruhen wir uns aus."
     ],
     "vocabulary": [
       {
-        "word": "sabato",
+        "word": "Samstag",
         "translation": "sábado",
-        "example": "Oggi pratico la parola \"sabato\"."
+        "example": "Heute übe ich das Wort \"Samstag\"."
       },
       {
-        "word": "cinema",
+        "word": "Kino",
         "translation": "cine",
-        "example": "Oggi pratico la parola \"cinema\"."
+        "example": "Heute übe ich das Wort \"Kino\"."
       },
       {
-        "word": "biglietto",
+        "word": "Eintrittskarte",
         "translation": "entrada",
-        "example": "Oggi pratico la parola \"biglietto\"."
+        "example": "Heute übe ich das Wort \"Eintrittskarte\"."
       },
       {
-        "word": "cena",
+        "word": "Abendessen",
         "translation": "cena",
-        "example": "Oggi pratico la parola \"cena\"."
+        "example": "Heute übe ich das Wort \"Abendessen\"."
       },
       {
-        "word": "incontro",
+        "word": "Treffen",
         "translation": "encuentro",
-        "example": "Oggi pratico la parola \"incontro\"."
+        "example": "Heute übe ich das Wort \"Treffen\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sabato vado al cinema.",
+        "line": "Am Samstag gehe ich ins Kino.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Ci vediamo alle otto.",
+        "line": "Wir sehen uns um acht.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Lucia invita i suoi amici al cinema sabato. Dopo il film, tutti cenano in un piccolo ristorante.",
+      "text": "Lucía lädt ihre Freunde am Samstag ins Kino ein. Nach dem Film essen alle in einem kleinen Restaurant zu Abend.",
       "questions": [
         "¿Qué día es la invitación?",
         "¿Qué hacen después del cine?",
@@ -1256,7 +1256,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"sabato\"?",
+        "prompt": "¿Qué significa \"Samstag\"?",
         "options": [
           "sábado",
           "cine",
@@ -1272,72 +1272,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Sabato vado al cinema. / Ci vediamo alle otto.",
+        "prompt": "Usa al menos dos frases modelo: Am Samstag gehe ich ins Kino. / Wir sehen uns um acht.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-a2-writing",
+    "slug": "german-a2-writing",
     "level": "A2",
     "skill": "writing",
-    "title": "Italiano A2 · Writing Challenge",
+    "title": "Deutsch A2 · Writing Challenge",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 1180,
+    "orderIndex": 1540,
     "estimatedMinutes": 14,
-    "description": "Vita quotidiana: Escribe un correo sencillo sobre un viaje y un plan futuro.",
+    "description": "Alltag Deutsch: Escribe un correo sencillo sobre un viaje y un plan futuro.",
     "intro": "Organiza un mensaje con pasado reciente y próximos pasos.",
     "mission": "Cuenta dónde estuviste, qué viste y qué harás la próxima semana.",
     "grammar": "Pretérito perfecto, ir a + infinitivo y conectores básicos.",
     "phrases": [
-      "La settimana scorsa ho visitato...",
-      "Mi è piaciuto molto...",
-      "Tornerò ad agosto.",
-      "Voglio anche provare..."
+      "Letzte Woche habe ich ... besucht.",
+      "Es hat mir sehr gefallen.",
+      "Im August fahre ich wieder hin.",
+      "Ich möchte auch ... probieren."
     ],
     "vocabulary": [
       {
-        "word": "viaggio",
+        "word": "Reise",
         "translation": "viaje",
-        "example": "Oggi pratico la parola \"viaggio\"."
+        "example": "Heute übe ich das Wort \"Reise\"."
       },
       {
-        "word": "albergo",
+        "word": "Hotel",
         "translation": "hotel",
-        "example": "Oggi pratico la parola \"albergo\"."
+        "example": "Heute übe ich das Wort \"Hotel\"."
       },
       {
-        "word": "spiaggia",
+        "word": "Strand",
         "translation": "playa",
-        "example": "Oggi pratico la parola \"spiaggia\"."
+        "example": "Heute übe ich das Wort \"Strand\"."
       },
       {
-        "word": "agosto",
+        "word": "August",
         "translation": "agosto",
-        "example": "Oggi pratico la parola \"agosto\"."
+        "example": "Heute übe ich das Wort \"August\"."
       },
       {
-        "word": "ricordo",
+        "word": "Erinnerung",
         "translation": "recuerdo",
-        "example": "Oggi pratico la parola \"ricordo\"."
+        "example": "Heute übe ich das Wort \"Erinnerung\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "La settimana scorsa ho visitato...",
+        "line": "Letzte Woche habe ich ... besucht.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Mi è piaciuto molto...",
+        "line": "Es hat mir sehr gefallen.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Diego scrive a sua cugina dalla spiaggia. Le racconta che ha visitato un mercato e che tornerà ad agosto.",
+      "text": "Diego schreibt seiner Cousine vom Strand. Er erzählt, dass er einen Markt besucht hat und im August wieder hinfahren will.",
       "questions": [
         "¿A quién escribe Diego?",
         "¿Qué lugar visitó?",
@@ -1347,7 +1347,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"viaggio\"?",
+        "prompt": "¿Qué significa \"Reise\"?",
         "options": [
           "viaje",
           "hotel",
@@ -1363,72 +1363,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: La settimana scorsa ho visitato... / Mi è piaciuto molto...",
+        "prompt": "Usa al menos dos frases modelo: Letzte Woche habe ich ... besucht. / Es hat mir sehr gefallen.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-a2-grammar",
+    "slug": "german-a2-grammar",
     "level": "A2",
     "skill": "grammar",
-    "title": "Italiano A2 · Grammar Focus",
+    "title": "Deutsch A2 · Grammar Focus",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 1190,
+    "orderIndex": 1550,
     "estimatedMinutes": 11,
-    "description": "Vita quotidiana: Consolida pasado reciente, futuro y pronombres básicos.",
+    "description": "Alltag Deutsch: Consolida pasado reciente, futuro y pronombres básicos.",
     "intro": "Compara acciones terminadas, planes y objetos directos.",
     "mission": "Transforma frases del presente al pasado y al futuro próximo.",
     "grammar": "Pretérito perfecto, ir a + infinitivo, lo/la/los/las y comparativos.",
     "phrases": [
-      "Ho finito i compiti.",
-      "Domani la chiamo.",
-      "La vedo dopo.",
-      "Questo caffè è più dolce."
+      "Ich habe die Hausaufgabe beendet.",
+      "Morgen rufe ich sie an.",
+      "Ich sehe sie später.",
+      "Dieser Kaffee ist süßer."
     ],
     "vocabulary": [
       {
-        "word": "compito",
+        "word": "Hausaufgabe",
         "translation": "tarea",
-        "example": "Oggi pratico la parola \"compito\"."
+        "example": "Heute übe ich das Wort \"Hausaufgabe\"."
       },
       {
-        "word": "telefonata",
+        "word": "Anruf",
         "translation": "llamada",
-        "example": "Oggi pratico la parola \"telefonata\"."
+        "example": "Heute übe ich das Wort \"Anruf\"."
       },
       {
-        "word": "dolce",
+        "word": "süß",
         "translation": "dulce",
-        "example": "Oggi pratico la parola \"dolce\"."
+        "example": "Heute übe ich das Wort \"süß\"."
       },
       {
-        "word": "confronto",
+        "word": "Vergleich",
         "translation": "comparación",
-        "example": "Oggi pratico la parola \"confronto\"."
+        "example": "Heute übe ich das Wort \"Vergleich\"."
       },
       {
-        "word": "domani",
+        "word": "morgen",
         "translation": "mañana",
-        "example": "Oggi pratico la parola \"domani\"."
+        "example": "Heute übe ich das Wort \"morgen\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Ho finito i compiti.",
+        "line": "Ich habe die Hausaufgabe beendet.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Domani la chiamo.",
+        "line": "Morgen rufe ich sie an.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Eva ha finito i compiti e domani farà una telefonata. Dice che il caffè di oggi è più dolce di quello di ieri.",
+      "text": "Eva hat die Hausaufgabe beendet und wird morgen anrufen. Sie sagt, dass der Kaffee von heute süßer ist als der von gestern.",
       "questions": [
         "¿Qué tarea ya terminó Eva?",
         "¿Qué hará mañana?",
@@ -1438,7 +1438,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"compito\"?",
+        "prompt": "¿Qué significa \"Hausaufgabe\"?",
         "options": [
           "tarea",
           "llamada",
@@ -1454,72 +1454,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ho finito i compiti. / Domani la chiamo.",
+        "prompt": "Usa al menos dos frases modelo: Ich habe die Hausaufgabe beendet. / Morgen rufe ich sie an.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-a2-vocabulary",
+    "slug": "german-a2-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
-    "title": "Italiano A2 · Vocabulary Boost",
+    "title": "Deutsch A2 · Vocabulary Boost",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 1200,
+    "orderIndex": 1560,
     "estimatedMinutes": 10,
-    "description": "Vita quotidiana: Aprende vocabulario de comida, transporte y compras.",
+    "description": "Alltag Deutsch: Aprende vocabulario de comida, transporte y compras.",
     "intro": "Clasifica palabras útiles para moverte y resolver tareas diarias.",
     "mission": "Usa palabras de mercado, autobús y casa en frases propias.",
     "grammar": "Sustantivos contables, expresiones de cantidad y familias léxicas.",
     "phrases": [
-      "Compro pane integrale.",
-      "L'autobus arriva tardi.",
-      "Ho bisogno del resto.",
-      "La zuppa è calda."
+      "Ich kaufe Vollkornbrot.",
+      "Der Bus kommt spät.",
+      "Ich brauche Wechselgeld.",
+      "Die Suppe ist warm."
     ],
     "vocabulary": [
       {
-        "word": "mercato",
+        "word": "Markt",
         "translation": "mercado",
-        "example": "Oggi pratico la parola \"mercato\"."
+        "example": "Heute übe ich das Wort \"Markt\"."
       },
       {
-        "word": "biglietto",
+        "word": "Fahrkarte",
         "translation": "boleto",
-        "example": "Oggi pratico la parola \"biglietto\"."
+        "example": "Heute übe ich das Wort \"Fahrkarte\"."
       },
       {
-        "word": "resto",
+        "word": "Wechselgeld",
         "translation": "cambio",
-        "example": "Oggi pratico la parola \"resto\"."
+        "example": "Heute übe ich das Wort \"Wechselgeld\"."
       },
       {
-        "word": "zuppa",
+        "word": "Suppe",
         "translation": "sopa",
-        "example": "Oggi pratico la parola \"zuppa\"."
+        "example": "Heute übe ich das Wort \"Suppe\"."
       },
       {
-        "word": "bagaglio",
+        "word": "Gepäck",
         "translation": "equipaje",
-        "example": "Oggi pratico la parola \"bagaglio\"."
+        "example": "Heute übe ich das Wort \"Gepäck\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Compro pane integrale.",
+        "line": "Ich kaufe Vollkornbrot.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "L'autobus arriva tardi.",
+        "line": "Der Bus kommt spät.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Prima di prendere l'autobus, Irene passa dal mercato. Compra il pane, chiede il resto e prepara una zuppa quando torna a casa.",
+      "text": "Bevor Irene den Bus nimmt, geht sie über den Markt. Sie kauft Brot, bittet um Wechselgeld und kocht zu Hause eine Suppe.",
       "questions": [
         "¿Qué compra Irene en el mercado?",
         "¿Qué necesita antes de pagar?",
@@ -1529,7 +1529,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"mercato\"?",
+        "prompt": "¿Qué significa \"Markt\"?",
         "options": [
           "mercado",
           "boleto",
@@ -1545,72 +1545,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Compro pane integrale. / L'autobus arriva tardi.",
+        "prompt": "Usa al menos dos frases modelo: Ich kaufe Vollkornbrot. / Der Bus kommt spät.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b1-listening",
+    "slug": "german-b1-listening",
     "level": "B1",
     "skill": "listening",
-    "title": "Italiano B1 · Listening Lab",
+    "title": "Deutsch B1 · Listening Lab",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 1210,
+    "orderIndex": 1570,
     "estimatedMinutes": 10,
-    "description": "Conversazione sicura: Sigue una conversación sobre horarios, cansancio y prioridades.",
+    "description": "Sicher sprechen: Sigue una conversación sobre horarios, cansancio y prioridades.",
     "intro": "Escucha a dos personas que buscan equilibrio entre estudio, trabajo y descanso.",
     "mission": "Identifica problemas, soluciones y decisiones en una charla cotidiana.",
     "grammar": "Pretérito imperfecto vs. indefinido, obligación y conectores de causa.",
     "phrases": [
-      "Ultimamente lavoro troppo.",
-      "Prima studiavo la sera.",
-      "Per questo devo organizzarmi meglio.",
-      "Dovrei riposarmi di più."
+      "In letzter Zeit arbeite ich zu viel.",
+      "Früher habe ich abends gelernt.",
+      "Deshalb muss ich mich besser organisieren.",
+      "Ich sollte mehr ausruhen."
     ],
     "vocabulary": [
       {
-        "word": "orario",
+        "word": "Zeitplan",
         "translation": "horario",
-        "example": "Oggi pratico la parola \"orario\"."
+        "example": "Heute übe ich das Wort \"Zeitplan\"."
       },
       {
-        "word": "riposo",
+        "word": "Erholung",
         "translation": "descanso",
-        "example": "Oggi pratico la parola \"riposo\"."
+        "example": "Heute übe ich das Wort \"Erholung\"."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Oggi pratico la parola \"priorità\"."
+        "example": "Heute übe ich das Wort \"Priorität\"."
       },
       {
-        "word": "stanchezza",
+        "word": "Müdigkeit",
         "translation": "cansancio",
-        "example": "Oggi pratico la parola \"stanchezza\"."
+        "example": "Heute übe ich das Wort \"Müdigkeit\"."
       },
       {
-        "word": "organizzare",
+        "word": "organisieren",
         "translation": "organizar",
-        "example": "Oggi pratico la parola \"organizzare\"."
+        "example": "Heute übe ich das Wort \"organisieren\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Ultimamente lavoro troppo.",
+        "line": "In letzter Zeit arbeite ich zu viel.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Prima studiavo la sera.",
+        "line": "Früher habe ich abends gelernt.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Raul lavorava fino a tardi e arrivava stanco a lezione. Adesso usa un orario fisso e riposa meglio.",
+      "text": "Raúl arbeitete bis spät und kam müde zum Unterricht. Jetzt benutzt er einen festen Zeitplan und ruht sich besser aus.",
       "questions": [
         "¿Por qué llegaba cansado Raúl a clase?",
         "¿Qué cambió en su rutina?",
@@ -1620,7 +1620,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"orario\"?",
+        "prompt": "¿Qué significa \"Zeitplan\"?",
         "options": [
           "horario",
           "descanso",
@@ -1636,72 +1636,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ultimamente lavoro troppo. / Prima studiavo la sera.",
+        "prompt": "Usa al menos dos frases modelo: In letzter Zeit arbeite ich zu viel. / Früher habe ich abends gelernt.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b1-speaking",
+    "slug": "german-b1-speaking",
     "level": "B1",
     "skill": "speaking",
-    "title": "Italiano B1 · Speaking Mission",
+    "title": "Deutsch B1 · Speaking Mission",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 1220,
+    "orderIndex": 1580,
     "estimatedMinutes": 12,
-    "description": "Conversazione sicura: Expresa opiniones sobre hábitos saludables y aprendizaje.",
+    "description": "Sicher sprechen: Expresa opiniones sobre hábitos saludables y aprendizaje.",
     "intro": "Defiende una idea, da razones y responde a una objeción.",
     "mission": "Explica qué hábito te ayuda más y justifica tu elección con dos razones.",
     "grammar": "Creo que, pienso que, deber, porque y para + infinitivo.",
     "phrases": [
-      "Secondo me, camminare aiuta.",
-      "Penso che dormire bene sia importante.",
-      "Una ragione è lo stress.",
-      "Aiuta anche la concentrazione."
+      "Meiner Meinung nach hilft Spazierengehen.",
+      "Ich denke, guter Schlaf ist wichtig.",
+      "Ein Grund ist der Stress.",
+      "Das hilft auch bei der Konzentration."
     ],
     "vocabulary": [
       {
-        "word": "salute",
+        "word": "Gesundheit",
         "translation": "salud",
-        "example": "Oggi pratico la parola \"salute\"."
+        "example": "Heute übe ich das Wort \"Gesundheit\"."
       },
       {
-        "word": "abitudine",
+        "word": "Gewohnheit",
         "translation": "costumbre",
-        "example": "Oggi pratico la parola \"abitudine\"."
+        "example": "Heute übe ich das Wort \"Gewohnheit\"."
       },
       {
-        "word": "energia",
+        "word": "Energie",
         "translation": "energía",
-        "example": "Oggi pratico la parola \"energia\"."
+        "example": "Heute übe ich das Wort \"Energie\"."
       },
       {
-        "word": "stress",
+        "word": "Stress",
         "translation": "estrés",
-        "example": "Oggi pratico la parola \"stress\"."
+        "example": "Heute übe ich das Wort \"Stress\"."
       },
       {
-        "word": "concentrazione",
+        "word": "Konzentration",
         "translation": "concentración",
-        "example": "Oggi pratico la parola \"concentrazione\"."
+        "example": "Heute übe ich das Wort \"Konzentration\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Secondo me, camminare aiuta.",
+        "line": "Meiner Meinung nach hilft Spazierengehen.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Penso che dormire bene sia importante.",
+        "line": "Ich denke, guter Schlaf ist wichtig.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Nel club di lingue, Marta dice che dormire bene migliora la concentrazione. I suoi compagni preferiscono fare esercizio.",
+      "text": "Im Sprachklub sagt Marta, dass guter Schlaf die Konzentration verbessert. Ihre Freunde machen lieber Sport.",
       "questions": [
         "¿Qué hábito valora Marta?",
         "¿Qué prefieren sus compañeros?",
@@ -1711,7 +1711,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"salute\"?",
+        "prompt": "¿Qué significa \"Gesundheit\"?",
         "options": [
           "salud",
           "costumbre",
@@ -1727,72 +1727,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Secondo me, camminare aiuta. / Penso che dormire bene sia importante.",
+        "prompt": "Usa al menos dos frases modelo: Meiner Meinung nach hilft Spazierengehen. / Ich denke, guter Schlaf ist wichtig.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b1-reading",
+    "slug": "german-b1-reading",
     "level": "B1",
     "skill": "reading",
-    "title": "Italiano B1 · Reading Quest",
+    "title": "Deutsch B1 · Reading Quest",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 1230,
+    "orderIndex": 1590,
     "estimatedMinutes": 12,
-    "description": "Conversazione sicura: Comprende un artículo breve sobre proyectos comunitarios.",
+    "description": "Sicher sprechen: Comprende un artículo breve sobre proyectos comunitarios.",
     "intro": "Lee una nota sobre voluntariado y reconoce objetivos y resultados.",
     "mission": "Encuentra quién participa, qué hace y por qué el proyecto funciona.",
     "grammar": "Relativos básicos, conectores de secuencia y voz media frecuente.",
     "phrases": [
-      "Il gruppo organizza laboratori.",
-      "L'attività è iniziata a maggio.",
-      "Molti vicini partecipano.",
-      "Grazie al progetto, c'è più sostegno."
+      "Die Gruppe organisiert Workshops.",
+      "Die Aktivität begann im Mai.",
+      "Viele Nachbarn machen mit.",
+      "Dank des Projekts gibt es mehr Unterstützung."
     ],
     "vocabulary": [
       {
-        "word": "quartiere",
+        "word": "Stadtviertel",
         "translation": "barrio",
-        "example": "Oggi pratico la parola \"quartiere\"."
+        "example": "Heute übe ich das Wort \"Stadtviertel\"."
       },
       {
-        "word": "laboratorio",
+        "word": "Workshop",
         "translation": "taller",
-        "example": "Oggi pratico la parola \"laboratorio\"."
+        "example": "Heute übe ich das Wort \"Workshop\"."
       },
       {
-        "word": "vicino",
+        "word": "Nachbar",
         "translation": "vecino",
-        "example": "Oggi pratico la parola \"vicino\"."
+        "example": "Heute übe ich das Wort \"Nachbar\"."
       },
       {
-        "word": "sostegno",
+        "word": "Unterstützung",
         "translation": "apoyo",
-        "example": "Oggi pratico la parola \"sostegno\"."
+        "example": "Heute übe ich das Wort \"Unterstützung\"."
       },
       {
-        "word": "progetto",
+        "word": "Projekt",
         "translation": "proyecto",
-        "example": "Oggi pratico la parola \"progetto\"."
+        "example": "Heute übe ich das Wort \"Projekt\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Il gruppo organizza laboratori.",
+        "line": "Die Gruppe organisiert Workshops.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "L'attività è iniziata a maggio.",
+        "line": "Die Aktivität begann im Mai.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Un gruppo del quartiere organizza laboratori di lettura per bambini. Grazie al progetto, più vicini visitano la biblioteca.",
+      "text": "Eine Gruppe aus dem Stadtviertel organisiert Lese-Workshops für Kinder. Dank des Projekts besuchen mehr Nachbarn die Bibliothek.",
       "questions": [
         "¿Para quién son los talleres?",
         "¿Qué lugar visitan más los vecinos ahora?",
@@ -1802,7 +1802,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"quartiere\"?",
+        "prompt": "¿Qué significa \"Stadtviertel\"?",
         "options": [
           "barrio",
           "taller",
@@ -1818,72 +1818,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Il gruppo organizza laboratori. / L'attività è iniziata a maggio.",
+        "prompt": "Usa al menos dos frases modelo: Die Gruppe organisiert Workshops. / Die Aktivität begann im Mai.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b1-writing",
+    "slug": "german-b1-writing",
     "level": "B1",
     "skill": "writing",
-    "title": "Italiano B1 · Writing Challenge",
+    "title": "Deutsch B1 · Writing Challenge",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 1240,
+    "orderIndex": 1600,
     "estimatedMinutes": 14,
-    "description": "Conversazione sicura: Redacta una experiencia personal con inicio, nudo y cierre.",
+    "description": "Sicher sprechen: Redacta una experiencia personal con inicio, nudo y cierre.",
     "intro": "Cuenta un reto reciente y cómo lo resolviste con detalles claros.",
     "mission": "Escribe un relato sobre una dificultad y la estrategia que usaste para superarla.",
     "grammar": "Marcadores narrativos, pretérito, imperfecto y expresiones de resultado.",
     "phrases": [
-      "All'inizio è stato difficile.",
-      "Poi ho chiesto aiuto.",
-      "Piano piano sono migliorato.",
-      "Alla fine mi sono sentito orgoglioso."
+      "Am Anfang war es schwierig.",
+      "Dann habe ich um Hilfe gebeten.",
+      "Nach und nach wurde ich besser.",
+      "Am Ende war ich stolz."
     ],
     "vocabulary": [
       {
-        "word": "sfida",
+        "word": "Herausforderung",
         "translation": "reto",
-        "example": "Oggi pratico la parola \"sfida\"."
+        "example": "Heute übe ich das Wort \"Herausforderung\"."
       },
       {
-        "word": "aiuto",
+        "word": "Hilfe",
         "translation": "ayuda",
-        "example": "Oggi pratico la parola \"aiuto\"."
+        "example": "Heute übe ich das Wort \"Hilfe\"."
       },
       {
-        "word": "progresso",
+        "word": "Fortschritt",
         "translation": "progreso",
-        "example": "Oggi pratico la parola \"progresso\"."
+        "example": "Heute übe ich das Wort \"Fortschritt\"."
       },
       {
-        "word": "errore",
+        "word": "Fehler",
         "translation": "error",
-        "example": "Oggi pratico la parola \"errore\"."
+        "example": "Heute übe ich das Wort \"Fehler\"."
       },
       {
-        "word": "orgoglio",
+        "word": "Stolz",
         "translation": "orgullo",
-        "example": "Oggi pratico la parola \"orgoglio\"."
+        "example": "Heute übe ich das Wort \"Stolz\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "All'inizio è stato difficile.",
+        "line": "Am Anfang war es schwierig.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Poi ho chiesto aiuto.",
+        "line": "Dann habe ich um Hilfe gebeten.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Quando Giulia ha cambiato lavoro, ha fatto vari errori. Poco a poco ha chiesto aiuto e alla fine si è sentita orgogliosa dei suoi progressi.",
+      "text": "Als Julia den Job wechselte, machte sie einige Fehler. Nach und nach bat sie um Hilfe und war am Ende stolz auf ihren Fortschritt.",
       "questions": [
         "¿Qué cambio vivió Julia?",
         "¿Qué hizo para mejorar?",
@@ -1893,7 +1893,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"sfida\"?",
+        "prompt": "¿Qué significa \"Herausforderung\"?",
         "options": [
           "reto",
           "ayuda",
@@ -1909,72 +1909,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: All'inizio è stato difficile. / Poi ho chiesto aiuto.",
+        "prompt": "Usa al menos dos frases modelo: Am Anfang war es schwierig. / Dann habe ich um Hilfe gebeten.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b1-grammar",
+    "slug": "german-b1-grammar",
     "level": "B1",
     "skill": "grammar",
-    "title": "Italiano B1 · Grammar Focus",
+    "title": "Deutsch B1 · Grammar Focus",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 1250,
+    "orderIndex": 1610,
     "estimatedMinutes": 11,
-    "description": "Conversazione sicura: Afianza tiempos del pasado, obligación y conectores.",
+    "description": "Sicher sprechen: Afianza tiempos del pasado, obligación y conectores.",
     "intro": "Une ideas con aunque, así que, mientras y sin embargo.",
     "mission": "Reescribe oraciones para mostrar contraste, causa y simultaneidad.",
     "grammar": "Imperfecto vs. indefinido, tener que, aunque, mientras y así que.",
     "phrases": [
-      "Mentre cucinavo, è squillato il telefono.",
-      "Anche se pioveva, siamo usciti.",
-      "Dovevo studiare.",
-      "Perciò ho cambiato il piano."
+      "Während ich kochte, klingelte das Telefon.",
+      "Obwohl es regnete, gingen wir raus.",
+      "Ich musste lernen.",
+      "Deshalb änderte ich den Plan."
     ],
     "vocabulary": [
       {
-        "word": "pioggia",
+        "word": "Regen",
         "translation": "lluvia",
-        "example": "Oggi pratico la parola \"pioggia\"."
+        "example": "Heute übe ich das Wort \"Regen\"."
       },
       {
-        "word": "piano",
+        "word": "Plan",
         "translation": "plan",
-        "example": "Oggi pratico la parola \"piano\"."
+        "example": "Heute übe ich das Wort \"Plan\"."
       },
       {
-        "word": "chiamata",
+        "word": "Anruf",
         "translation": "llamada",
-        "example": "Oggi pratico la parola \"chiamata\"."
+        "example": "Heute übe ich das Wort \"Anruf\"."
       },
       {
-        "word": "obbligo",
+        "word": "Pflicht",
         "translation": "obligación",
-        "example": "Oggi pratico la parola \"obbligo\"."
+        "example": "Heute übe ich das Wort \"Pflicht\"."
       },
       {
-        "word": "contrasto",
+        "word": "Kontrast",
         "translation": "contraste",
-        "example": "Oggi pratico la parola \"contrasto\"."
+        "example": "Heute übe ich das Wort \"Kontrast\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Mentre cucinavo, è squillato il telefono.",
+        "line": "Während ich kochte, klingelte das Telefon.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Anche se pioveva, siamo usciti.",
+        "line": "Obwohl es regnete, gingen wir raus.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Mentre Pietro cucinava, ha ricevuto una chiamata. Anche se pioveva, è uscito perché doveva cambiare il suo piano.",
+      "text": "Während Pedro kochte, bekam er einen Anruf. Obwohl es regnete, ging er hinaus, weil er seinen Plan ändern musste.",
       "questions": [
         "¿Qué hacía Pedro cuando recibió la llamada?",
         "¿Qué tiempo hacía?",
@@ -1984,7 +1984,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"pioggia\"?",
+        "prompt": "¿Qué significa \"Regen\"?",
         "options": [
           "lluvia",
           "plan",
@@ -2000,72 +2000,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Mentre cucinavo, è squillato il telefono. / Anche se pioveva, siamo usciti.",
+        "prompt": "Usa al menos dos frases modelo: Während ich kochte, klingelte das Telefon. / Obwohl es regnete, gingen wir raus.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b1-vocabulary",
+    "slug": "german-b1-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
-    "title": "Italiano B1 · Vocabulary Boost",
+    "title": "Deutsch B1 · Vocabulary Boost",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 1260,
+    "orderIndex": 1620,
     "estimatedMinutes": 10,
-    "description": "Conversazione sicura: Amplía vocabulario de viajes, medios y trabajo en equipo.",
+    "description": "Sicher sprechen: Amplía vocabulario de viajes, medios y trabajo en equipo.",
     "intro": "Practica palabras frecuentes para hablar de experiencias y proyectos.",
     "mission": "Usa el nuevo léxico para describir una salida y una tarea compartida.",
     "grammar": "Colocaciones frecuentes, verbos con preposición y formación de sustantivos.",
     "phrases": [
-      "Ho prenotato l'alloggio online.",
-      "Il reportage è stato interessante.",
-      "La nostra squadra ha raggiunto l'obiettivo.",
-      "La riunione è iniziata puntuale."
+      "Ich habe die Unterkunft online reserviert.",
+      "Die Reportage war interessant.",
+      "Unser Team erreichte das Ziel.",
+      "Die Besprechung begann pünktlich."
     ],
     "vocabulary": [
       {
-        "word": "alloggio",
+        "word": "Unterkunft",
         "translation": "alojamiento",
-        "example": "Oggi pratico la parola \"alloggio\"."
+        "example": "Heute übe ich das Wort \"Unterkunft\"."
       },
       {
-        "word": "reportage",
+        "word": "Reportage",
         "translation": "reportaje",
-        "example": "Oggi pratico la parola \"reportage\"."
+        "example": "Heute übe ich das Wort \"Reportage\"."
       },
       {
-        "word": "squadra",
+        "word": "Team",
         "translation": "equipo",
-        "example": "Oggi pratico la parola \"squadra\"."
+        "example": "Heute übe ich das Wort \"Team\"."
       },
       {
-        "word": "riunione",
+        "word": "Besprechung",
         "translation": "reunión",
-        "example": "Oggi pratico la parola \"riunione\"."
+        "example": "Heute übe ich das Wort \"Besprechung\"."
       },
       {
-        "word": "obiettivo",
+        "word": "Ziel",
         "translation": "meta",
-        "example": "Oggi pratico la parola \"obiettivo\"."
+        "example": "Heute übe ich das Wort \"Ziel\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Ho prenotato l'alloggio online.",
+        "line": "Ich habe die Unterkunft online reserviert.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Il reportage è stato interessante.",
+        "line": "Die Reportage war interessant.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "La squadra ha preparato un reportage su un viaggio scolastico. Ha prenotato l'alloggio in anticipo e ha raggiunto l'obiettivo del progetto.",
+      "text": "Das Team bereitete eine Reportage über eine Schulreise vor. Es reservierte die Unterkunft früh und erreichte das Ziel des Projekts.",
       "questions": [
         "¿Sobre qué preparó un reportaje el equipo?",
         "¿Qué reservó con tiempo?",
@@ -2075,7 +2075,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"alloggio\"?",
+        "prompt": "¿Qué significa \"Unterkunft\"?",
         "options": [
           "alojamiento",
           "reportaje",
@@ -2091,72 +2091,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ho prenotato l'alloggio online. / Il reportage è stato interessante.",
+        "prompt": "Usa al menos dos frases modelo: Ich habe die Unterkunft online reserviert. / Die Reportage war interessant.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b2-listening",
+    "slug": "german-b2-listening",
     "level": "B2",
     "skill": "listening",
-    "title": "Italiano B2 · Listening Lab",
+    "title": "Deutsch B2 · Listening Lab",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 1270,
+    "orderIndex": 1630,
     "estimatedMinutes": 10,
-    "description": "Italiano in contesto: Comprende argumentos y matices en un debate radial.",
+    "description": "Deutsch im Kontext: Comprende argumentos y matices en un debate radial.",
     "intro": "Escucha posturas a favor y en contra del trabajo remoto.",
     "mission": "Distingue tesis, ejemplos y concesiones en una discusión formal.",
     "grammar": "Condicional simple, expresiones de probabilidad y conectores adversativos.",
     "phrases": [
-      "Da un lato fa risparmiare tempo.",
-      "Dall'altro riduce il contatto.",
-      "Potrebbe migliorare la produttività.",
-      "Dipende dal tipo di lavoro."
+      "Einerseits spart es Zeit.",
+      "Andererseits verringert es den Kontakt.",
+      "Es könnte die Produktivität steigern.",
+      "Das hängt von der Arbeit ab."
     ],
     "vocabulary": [
       {
-        "word": "produttività",
+        "word": "Produktivität",
         "translation": "productividad",
-        "example": "Oggi pratico la parola \"produttività\"."
+        "example": "Heute übe ich das Wort \"Produktivität\"."
       },
       {
-        "word": "contatto",
+        "word": "Kontakt",
         "translation": "contacto",
-        "example": "Oggi pratico la parola \"contatto\"."
+        "example": "Heute übe ich das Wort \"Kontakt\"."
       },
       {
-        "word": "dibattito",
+        "word": "Debatte",
         "translation": "debate",
-        "example": "Oggi pratico la parola \"dibattito\"."
+        "example": "Heute übe ich das Wort \"Debatte\"."
       },
       {
-        "word": "azienda",
+        "word": "Firma",
         "translation": "empresa",
-        "example": "Oggi pratico la parola \"azienda\"."
+        "example": "Heute übe ich das Wort \"Firma\"."
       },
       {
-        "word": "posizione",
+        "word": "Standpunkt",
         "translation": "postura",
-        "example": "Oggi pratico la parola \"posizione\"."
+        "example": "Heute übe ich das Wort \"Standpunkt\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Da un lato fa risparmiare tempo.",
+        "line": "Einerseits spart es Zeit.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Dall'altro riduce il contatto.",
+        "line": "Andererseits verringert es den Kontakt.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Alla radio, due esperti discutono se il lavoro a distanza migliori la produttività. Entrambi riconoscono vantaggi, ma non sono d'accordo sul contatto umano.",
+      "text": "Im Radio diskutieren zwei Experten, ob Heimarbeit die Produktivität verbessert. Beide sehen Vorteile, aber sie streiten über den menschlichen Kontakt.",
       "questions": [
         "¿Qué tema debaten los expertos?",
         "¿En qué discrepan?",
@@ -2166,7 +2166,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"produttività\"?",
+        "prompt": "¿Qué significa \"Produktivität\"?",
         "options": [
           "productividad",
           "contacto",
@@ -2182,72 +2182,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Da un lato fa risparmiare tempo. / Dall'altro riduce il contatto.",
+        "prompt": "Usa al menos dos frases modelo: Einerseits spart es Zeit. / Andererseits verringert es den Kontakt.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b2-speaking",
+    "slug": "german-b2-speaking",
     "level": "B2",
     "skill": "speaking",
-    "title": "Italiano B2 · Speaking Mission",
+    "title": "Deutsch B2 · Speaking Mission",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 1280,
+    "orderIndex": 1640,
     "estimatedMinutes": 12,
-    "description": "Italiano in contesto: Compara políticas urbanas y defiende una propuesta.",
+    "description": "Deutsch im Kontext: Compara políticas urbanas y defiende una propuesta.",
     "intro": "Presenta ventajas y riesgos de dos medidas para una ciudad.",
     "mission": "Argumenta qué política apoyas y responde a una objeción posible.",
     "grammar": "Comparativos avanzados, condicionales y estructuras concesivas.",
     "phrases": [
-      "La prima misura è più realistica.",
-      "Nonostante ciò, l'altra opzione è attraente.",
-      "Se ci fossero più autobus, i costi scenderebbero.",
-      "Conviene valutare il bilancio."
+      "Die erste Maßnahme ist besser umsetzbar.",
+      "Trotzdem ist die andere Option attraktiv.",
+      "Wenn es mehr Busse gäbe, würden die Kosten sinken.",
+      "Man sollte das Budget prüfen."
     ],
     "vocabulary": [
       {
-        "word": "misura",
+        "word": "Maßnahme",
         "translation": "medida",
-        "example": "Oggi pratico la parola \"misura\"."
+        "example": "Heute übe ich das Wort \"Maßnahme\"."
       },
       {
-        "word": "bilancio",
+        "word": "Budget",
         "translation": "presupuesto",
-        "example": "Oggi pratico la parola \"bilancio\"."
+        "example": "Heute übe ich das Wort \"Budget\"."
       },
       {
-        "word": "trasporto",
+        "word": "Verkehr",
         "translation": "transporte",
-        "example": "Oggi pratico la parola \"trasporto\"."
+        "example": "Heute übe ich das Wort \"Verkehr\"."
       },
       {
-        "word": "costo",
+        "word": "Kosten",
         "translation": "costo",
-        "example": "Oggi pratico la parola \"costo\"."
+        "example": "Heute übe ich das Wort \"Kosten\"."
       },
       {
-        "word": "proposta",
+        "word": "Vorschlag",
         "translation": "propuesta",
-        "example": "Oggi pratico la parola \"proposta\"."
+        "example": "Heute übe ich das Wort \"Vorschlag\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "La prima misura è più realistica.",
+        "line": "Die erste Maßnahme ist besser umsetzbar.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Nonostante ciò, l'altra opzione è attraente.",
+        "line": "Trotzdem ist die andere Option attraktiv.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Il comune studia due politiche: aumentare gli autobus o creare piste ciclabili. I residenti confrontano costi, velocità e impatto ambientale.",
+      "text": "Die Stadtverwaltung prüft zwei Maßnahmen: mehr Busse oder neue Radwege. Die Bewohner vergleichen Kosten, Tempo und Umwelteffekt.",
       "questions": [
         "¿Qué dos políticas estudia el ayuntamiento?",
         "¿Qué comparan los vecinos?",
@@ -2257,7 +2257,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"misura\"?",
+        "prompt": "¿Qué significa \"Maßnahme\"?",
         "options": [
           "medida",
           "presupuesto",
@@ -2273,72 +2273,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: La prima misura è più realistica. / Nonostante ciò, l'altra opzione è attraente.",
+        "prompt": "Usa al menos dos frases modelo: Die erste Maßnahme ist besser umsetzbar. / Trotzdem ist die andere Option attraktiv.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b2-reading",
+    "slug": "german-b2-reading",
     "level": "B2",
     "skill": "reading",
-    "title": "Italiano B2 · Reading Quest",
+    "title": "Deutsch B2 · Reading Quest",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 1290,
+    "orderIndex": 1650,
     "estimatedMinutes": 12,
-    "description": "Italiano in contesto: Lee un reportaje con datos, citas y consecuencias.",
+    "description": "Deutsch im Kontext: Lee un reportaje con datos, citas y consecuencias.",
     "intro": "Analiza un texto sobre turismo sostenible y equilibrio local.",
     "mission": "Relaciona cifras, testimonios y recomendaciones finales.",
     "grammar": "Pasiva refleja, estilo indirecto y conectores de consecuencia.",
     "phrases": [
-      "Il rapporto segnala che...",
-      "Secondo i residenti...",
-      "Si raccomanda di limitare il traffico.",
-      "Di conseguenza migliora la convivenza."
+      "Der Bericht sagt, dass...",
+      "Laut den Bewohnern...",
+      "Es wird empfohlen, den Verkehr zu begrenzen.",
+      "Dadurch verbessert sich das Zusammenleben."
     ],
     "vocabulary": [
       {
-        "word": "turismo",
+        "word": "Tourismus",
         "translation": "turismo",
-        "example": "Oggi pratico la parola \"turismo\"."
+        "example": "Heute übe ich das Wort \"Tourismus\"."
       },
       {
-        "word": "residente",
+        "word": "Bewohner",
         "translation": "residente",
-        "example": "Oggi pratico la parola \"residente\"."
+        "example": "Heute übe ich das Wort \"Bewohner\"."
       },
       {
-        "word": "traffico",
+        "word": "Verkehr",
         "translation": "tráfico",
-        "example": "Oggi pratico la parola \"traffico\"."
+        "example": "Heute übe ich das Wort \"Verkehr\"."
       },
       {
-        "word": "rapporto",
+        "word": "Bericht",
         "translation": "informe",
-        "example": "Oggi pratico la parola \"rapporto\"."
+        "example": "Heute übe ich das Wort \"Bericht\"."
       },
       {
-        "word": "convivenza",
+        "word": "Zusammenleben",
         "translation": "convivencia",
-        "example": "Oggi pratico la parola \"convivenza\"."
+        "example": "Heute übe ich das Wort \"Zusammenleben\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Il rapporto segnala che...",
+        "line": "Der Bericht sagt, dass...",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Secondo i residenti...",
+        "line": "Laut den Bewohnern...",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Un reportage spiega come varie città limitino il traffico turistico. I residenti dicono che la convivenza migliora quando esistono regole chiare.",
+      "text": "Ein Bericht erklärt, wie mehrere Städte den touristischen Verkehr einschränken. Die Bewohner sagen, dass klare Regeln das Zusammenleben verbessern.",
       "questions": [
         "¿Qué limitan varias ciudades?",
         "¿Qué dicen los residentes?",
@@ -2348,7 +2348,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"turismo\"?",
+        "prompt": "¿Qué significa \"Tourismus\"?",
         "options": [
           "turismo",
           "residente",
@@ -2364,72 +2364,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Il rapporto segnala che... / Secondo i residenti...",
+        "prompt": "Usa al menos dos frases modelo: Der Bericht sagt, dass... / Laut den Bewohnern...",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b2-writing",
+    "slug": "german-b2-writing",
     "level": "B2",
     "skill": "writing",
-    "title": "Italiano B2 · Writing Challenge",
+    "title": "Deutsch B2 · Writing Challenge",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 1300,
+    "orderIndex": 1660,
     "estimatedMinutes": 14,
-    "description": "Italiano in contesto: Redacta una propuesta formal para mejorar un espacio común.",
+    "description": "Deutsch im Kontext: Redacta una propuesta formal para mejorar un espacio común.",
     "intro": "Organiza un texto con objetivo, argumentos y acciones concretas.",
     "mission": "Escribe una propuesta para mejorar tu centro de estudio o trabajo.",
     "grammar": "Registro formal, pasiva, perífrasis de obligación y conectores lógicos.",
     "phrases": [
-      "Propongo che si ampli...",
-      "Sarebbe opportuno rivedere...",
-      "Inoltre, questa misura permetterebbe...",
-      "Infine, conviene valutare i risultati."
+      "Ich schlage vor, dass ... erweitert wird.",
+      "Es wäre sinnvoll, ... zu überprüfen.",
+      "Außerdem würde diese Maßnahme ... ermöglichen.",
+      "Schließlich sollte man die Ergebnisse bewerten."
     ],
     "vocabulary": [
       {
-        "word": "miglioramento",
+        "word": "Verbesserung",
         "translation": "mejora",
-        "example": "Oggi pratico la parola \"miglioramento\"."
+        "example": "Heute übe ich das Wort \"Verbesserung\"."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Oggi pratico la parola \"risorsa\"."
+        "example": "Heute übe ich das Wort \"Ressource\"."
       },
       {
-        "word": "manutenzione",
+        "word": "Wartung",
         "translation": "mantenimiento",
-        "example": "Oggi pratico la parola \"manutenzione\"."
+        "example": "Heute übe ich das Wort \"Wartung\"."
       },
       {
-        "word": "sicurezza",
+        "word": "Sicherheit",
         "translation": "seguridad",
-        "example": "Oggi pratico la parola \"sicurezza\"."
+        "example": "Heute übe ich das Wort \"Sicherheit\"."
       },
       {
-        "word": "valutazione",
+        "word": "Bewertung",
         "translation": "evaluación",
-        "example": "Oggi pratico la parola \"valutazione\"."
+        "example": "Heute übe ich das Wort \"Bewertung\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Propongo che si ampli...",
+        "line": "Ich schlage vor, dass ... erweitert wird.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Sarebbe opportuno rivedere...",
+        "line": "Es wäre sinnvoll, ... zu überprüfen.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "La coordinatrice chiede proposte per migliorare la biblioteca. Un gruppo suggerisce più risorse digitali, migliore illuminazione e manutenzione regolare.",
+      "text": "Die Koordinatorin bittet um Vorschläge zur Verbesserung der Bibliothek. Eine Gruppe schlägt mehr digitale Ressourcen, besseres Licht und regelmäßige Wartung vor.",
       "questions": [
         "¿Qué lugar necesita mejoras?",
         "¿Qué soluciones sugiere el grupo?",
@@ -2439,7 +2439,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"miglioramento\"?",
+        "prompt": "¿Qué significa \"Verbesserung\"?",
         "options": [
           "mejora",
           "recurso",
@@ -2455,72 +2455,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Propongo che si ampli... / Sarebbe opportuno rivedere...",
+        "prompt": "Usa al menos dos frases modelo: Ich schlage vor, dass ... erweitert wird. / Es wäre sinnvoll, ... zu überprüfen.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b2-grammar",
+    "slug": "german-b2-grammar",
     "level": "B2",
     "skill": "grammar",
-    "title": "Italiano B2 · Grammar Focus",
+    "title": "Deutsch B2 · Grammar Focus",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 1310,
+    "orderIndex": 1670,
     "estimatedMinutes": 11,
-    "description": "Italiano in contesto: Practica condicionales, pasiva y discurso referido.",
+    "description": "Deutsch im Kontext: Practica condicionales, pasiva y discurso referido.",
     "intro": "Transforma argumentos directos en estructuras más formales y precisas.",
     "mission": "Reformula opiniones usando pasiva, condicional y estilo indirecto.",
     "grammar": "Si + imperfecto de subjuntivo, condicional, pasiva perifrástica y estilo indirecto.",
     "phrases": [
-      "Se avessimo più dati, decideremmo meglio.",
-      "La misura è stata approvata ieri.",
-      "Il direttore ha detto che mancava tempo.",
-      "Sarebbe utile rivedere il processo."
+      "Wenn wir mehr Daten hätten, würden wir besser entscheiden.",
+      "Die Maßnahme wurde gestern beschlossen.",
+      "Der Direktor sagte, dass Zeit fehle.",
+      "Es wäre nützlich, den Prozess zu überprüfen."
     ],
     "vocabulary": [
       {
-        "word": "dato",
+        "word": "Daten",
         "translation": "dato",
-        "example": "Oggi pratico la parola \"dato\"."
+        "example": "Heute übe ich das Wort \"Daten\"."
       },
       {
-        "word": "processo",
+        "word": "Prozess",
         "translation": "proceso",
-        "example": "Oggi pratico la parola \"processo\"."
+        "example": "Heute übe ich das Wort \"Prozess\"."
       },
       {
-        "word": "decisione",
+        "word": "Entscheidung",
         "translation": "decisión",
-        "example": "Oggi pratico la parola \"decisione\"."
+        "example": "Heute übe ich das Wort \"Entscheidung\"."
       },
       {
-        "word": "direttore",
+        "word": "Direktor",
         "translation": "director",
-        "example": "Oggi pratico la parola \"direttore\"."
+        "example": "Heute übe ich das Wort \"Direktor\"."
       },
       {
-        "word": "revisione",
+        "word": "Überprüfung",
         "translation": "revisión",
-        "example": "Oggi pratico la parola \"revisione\"."
+        "example": "Heute übe ich das Wort \"Überprüfung\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Se avessimo più dati, decideremmo meglio.",
+        "line": "Wenn wir mehr Daten hätten, würden wir besser entscheiden.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "La misura è stata approvata ieri.",
+        "line": "Die Maßnahme wurde gestern beschlossen.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Il direttore ha affermato che il processo doveva essere rivisto. Se ci fossero più dati, il gruppo prenderebbe una decisione più solida.",
+      "text": "Der Direktor sagte, dass der Prozess überprüft werden müsse. Wenn es mehr Daten gäbe, würde das Team eine stärkere Entscheidung treffen.",
       "questions": [
         "¿Qué dijo el director sobre el proceso?",
         "¿Qué faltaría para decidir mejor?",
@@ -2530,7 +2530,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"dato\"?",
+        "prompt": "¿Qué significa \"Daten\"?",
         "options": [
           "dato",
           "proceso",
@@ -2546,72 +2546,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Se avessimo più dati, decideremmo meglio. / La misura è stata approvata ieri.",
+        "prompt": "Usa al menos dos frases modelo: Wenn wir mehr Daten hätten, würden wir besser entscheiden. / Die Maßnahme wurde gestern beschlossen.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-b2-vocabulary",
+    "slug": "german-b2-vocabulary",
     "level": "B2",
     "skill": "vocabulary",
-    "title": "Italiano B2 · Vocabulary Boost",
+    "title": "Deutsch B2 · Vocabulary Boost",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 1320,
+    "orderIndex": 1680,
     "estimatedMinutes": 10,
-    "description": "Italiano in contesto: Fortalece vocabulario de sociedad, ambiente y negociación.",
+    "description": "Deutsch im Kontext: Fortalece vocabulario de sociedad, ambiente y negociación.",
     "intro": "Aprende palabras para debatir con precisión sobre cambios colectivos.",
     "mission": "Usa términos de evidencia, impacto y acuerdo en un mini argumento.",
     "grammar": "Colocaciones abstractas, sufijos frecuentes y familias semánticas.",
     "phrases": [
-      "La prova sostiene la misura.",
-      "L'impatto è stato disuguale.",
-      "Hanno raggiunto un accordo parziale.",
-      "La campagna ha generato dibattito."
+      "Die Evidenz stützt die Maßnahme.",
+      "Die Auswirkungen waren ungleich.",
+      "Sie erreichten eine teilweise Einigung.",
+      "Die Kampagne löste eine Debatte aus."
     ],
     "vocabulary": [
       {
-        "word": "prova",
+        "word": "Evidenz",
         "translation": "evidencia",
-        "example": "Oggi pratico la parola \"prova\"."
+        "example": "Heute übe ich das Wort \"Evidenz\"."
       },
       {
-        "word": "impatto",
+        "word": "Auswirkung",
         "translation": "impacto",
-        "example": "Oggi pratico la parola \"impatto\"."
+        "example": "Heute übe ich das Wort \"Auswirkung\"."
       },
       {
-        "word": "accordo",
+        "word": "Einigung",
         "translation": "acuerdo",
-        "example": "Oggi pratico la parola \"accordo\"."
+        "example": "Heute übe ich das Wort \"Einigung\"."
       },
       {
-        "word": "campagna",
+        "word": "Kampagne",
         "translation": "campaña",
-        "example": "Oggi pratico la parola \"campagna\"."
+        "example": "Heute übe ich das Wort \"Kampagne\"."
       },
       {
-        "word": "discussione",
+        "word": "Diskussion",
         "translation": "discusión",
-        "example": "Oggi pratico la parola \"discussione\"."
+        "example": "Heute übe ich das Wort \"Diskussion\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "La prova sostiene la misura.",
+        "line": "Die Evidenz stützt die Maßnahme.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "L'impatto è stato disuguale.",
+        "line": "Die Auswirkungen waren ungleich.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Dopo la campagna, il dibattito pubblico è cresciuto. La prova ha mostrato un impatto disuguale, ma ha permesso di raggiungere un accordo parziale.",
+      "text": "Nach der Kampagne wuchs die öffentliche Debatte. Die Evidenz zeigte ungleiche Auswirkungen, half aber dabei, eine teilweise Einigung zu erzielen.",
       "questions": [
         "¿Qué mostró la evidencia?",
         "¿Cómo fue el impacto?",
@@ -2621,7 +2621,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"prova\"?",
+        "prompt": "¿Qué significa \"Evidenz\"?",
         "options": [
           "evidencia",
           "impacto",
@@ -2637,72 +2637,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: La prova sostiene la misura. / L'impatto è stato disuguale.",
+        "prompt": "Usa al menos dos frases modelo: Die Evidenz stützt die Maßnahme. / Die Auswirkungen waren ungleich.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c1-listening",
+    "slug": "german-c1-listening",
     "level": "C1",
     "skill": "listening",
-    "title": "Italiano C1 · Listening Lab",
+    "title": "Deutsch C1 · Listening Lab",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
-    "orderIndex": 1330,
+    "orderIndex": 1690,
     "estimatedMinutes": 10,
-    "description": "Espressione sfumata: Sigue un pódcast rápido sobre identidad, migración y memoria.",
+    "description": "Nuancierter Ausdruck: Sigue un pódcast rápido sobre identidad, migración y memoria.",
     "intro": "Escucha ideas complejas y reconoce matices implícitos.",
     "mission": "Resume la postura central y dos argumentos secundarios del episodio.",
     "grammar": "Subjuntivo en valoración, nominalización y conectores discursivos avanzados.",
     "phrases": [
-      "È probabile che la lingua cambi.",
-      "Ciò che conta è la memoria condivisa.",
-      "Tuttavia ogni generazione reinterpreta il passato.",
-      "In questo senso, migrare trasforma l'identità."
+      "Wahrscheinlich verändert sich Sprache.",
+      "Wichtig ist das gemeinsame Gedächtnis.",
+      "Dennoch deutet jede Generation die Vergangenheit neu.",
+      "In diesem Sinne verändert Migration die Identität."
     ],
     "vocabulary": [
       {
-        "word": "identità",
+        "word": "Identität",
         "translation": "identidad",
-        "example": "Oggi pratico la parola \"identità\"."
+        "example": "Heute übe ich das Wort \"Identität\"."
       },
       {
-        "word": "memoria",
+        "word": "Gedächtnis",
         "translation": "memoria",
-        "example": "Oggi pratico la parola \"memoria\"."
+        "example": "Heute übe ich das Wort \"Gedächtnis\"."
       },
       {
-        "word": "migrazione",
+        "word": "Migration",
         "translation": "migración",
-        "example": "Oggi pratico la parola \"migrazione\"."
+        "example": "Heute übe ich das Wort \"Migration\"."
       },
       {
-        "word": "appartenenza",
+        "word": "Zugehörigkeit",
         "translation": "pertenencia",
-        "example": "Oggi pratico la parola \"appartenenza\"."
+        "example": "Heute übe ich das Wort \"Zugehörigkeit\"."
       },
       {
-        "word": "sfumatura",
+        "word": "Nuance",
         "translation": "matiz",
-        "example": "Oggi pratico la parola \"sfumatura\"."
+        "example": "Heute übe ich das Wort \"Nuance\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "È probabile che la lingua cambi.",
+        "line": "Wahrscheinlich verändert sich Sprache.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Ciò che conta è la memoria condivisa.",
+        "line": "Wichtig ist das gemeinsame Gedächtnis.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "In un podcast culturale, l'autrice spiega che la migrazione trasforma l'identità senza cancellare la memoria condivisa.",
+      "text": "In einem Kulturpodcast erklärt die Autorin, dass Migration die Identität verändert, ohne das gemeinsame Gedächtnis zu löschen.",
       "questions": [
         "¿Qué transforma la migración según la autora?",
         "¿Qué no desaparece?",
@@ -2712,7 +2712,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"identità\"?",
+        "prompt": "¿Qué significa \"Identität\"?",
         "options": [
           "identidad",
           "memoria",
@@ -2728,72 +2728,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: È probabile che la lingua cambi. / Ciò che conta è la memoria condivisa.",
+        "prompt": "Usa al menos dos frases modelo: Wahrscheinlich verändert sich Sprache. / Wichtig ist das gemeinsame Gedächtnis.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c1-speaking",
+    "slug": "german-c1-speaking",
     "level": "C1",
     "skill": "speaking",
-    "title": "Italiano C1 · Speaking Mission",
+    "title": "Deutsch C1 · Speaking Mission",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 1340,
+    "orderIndex": 1700,
     "estimatedMinutes": 12,
-    "description": "Espressione sfumata: Debate con precisión y reformula ideas ajenas.",
+    "description": "Nuancierter Ausdruck: Debate con precisión y reformula ideas ajenas.",
     "intro": "Practica una intervención de seminario con acuerdo parcial y contraargumento.",
     "mission": "Presenta tu postura, matízala y responde con cortesía a otra opinión.",
     "grammar": "Marcadores de concesión, reformulación y modalidad epistémica.",
     "phrases": [
-      "Condivido in parte questa idea.",
-      "Detto in altro modo...",
-      "Non la escluderei del tutto.",
-      "Conviene distinguere tra contesto ed effetto."
+      "Diesen Punkt teile ich teilweise.",
+      "Anders gesagt...",
+      "Ich würde es nicht ganz ausschließen.",
+      "Man sollte Kontext und Wirkung unterscheiden."
     ],
     "vocabulary": [
       {
-        "word": "posizione",
+        "word": "Standpunkt",
         "translation": "postura",
-        "example": "Oggi pratico la parola \"posizione\"."
+        "example": "Heute übe ich das Wort \"Standpunkt\"."
       },
       {
-        "word": "sfumatura",
+        "word": "Nuance",
         "translation": "matiz",
-        "example": "Oggi pratico la parola \"sfumatura\"."
+        "example": "Heute übe ich das Wort \"Nuance\"."
       },
       {
-        "word": "argomento",
+        "word": "Argument",
         "translation": "argumento",
-        "example": "Oggi pratico la parola \"argomento\"."
+        "example": "Heute übe ich das Wort \"Argument\"."
       },
       {
-        "word": "contesto",
+        "word": "Kontext",
         "translation": "contexto",
-        "example": "Oggi pratico la parola \"contesto\"."
+        "example": "Heute übe ich das Wort \"Kontext\"."
       },
       {
-        "word": "effetto",
+        "word": "Wirkung",
         "translation": "efecto",
-        "example": "Oggi pratico la parola \"effetto\"."
+        "example": "Heute übe ich das Wort \"Wirkung\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Condivido in parte questa idea.",
+        "line": "Diesen Punkt teile ich teilweise.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Detto in altro modo...",
+        "line": "Anders gesagt...",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Durante un seminario, Elena condivide in parte la proposta della collega, ma distingue tra contesto storico ed effetto sociale.",
+      "text": "Während eines Seminars stimmt Elena einem Teil des Vorschlags zu, unterscheidet aber sorgfältig zwischen historischem Kontext und sozialer Wirkung.",
       "questions": [
         "¿Qué comparte Elena con su colega?",
         "¿Qué distingue con cuidado?",
@@ -2803,7 +2803,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"posizione\"?",
+        "prompt": "¿Qué significa \"Standpunkt\"?",
         "options": [
           "postura",
           "matiz",
@@ -2819,72 +2819,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Condivido in parte questa idea. / Detto in altro modo...",
+        "prompt": "Usa al menos dos frases modelo: Diesen Punkt teile ich teilweise. / Anders gesagt...",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c1-reading",
+    "slug": "german-c1-reading",
     "level": "C1",
     "skill": "reading",
-    "title": "Italiano C1 · Reading Quest",
+    "title": "Deutsch C1 · Reading Quest",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 1350,
+    "orderIndex": 1710,
     "estimatedMinutes": 12,
-    "description": "Espressione sfumata: Interpreta un ensayo sobre memoria colectiva y lenguaje público.",
+    "description": "Nuancierter Ausdruck: Interpreta un ensayo sobre memoria colectiva y lenguaje público.",
     "intro": "Lee un texto denso y separa tesis, ejemplos y conclusión.",
     "mission": "Explica cómo el autor conecta relato, poder y comunidad.",
     "grammar": "Oraciones largas, relativos complejos y puntuación argumentativa.",
     "phrases": [
-      "L'autore sostiene che...",
-      "A partire da questo esempio...",
-      "Conviene osservare la metafora centrale.",
-      "La conclusione amplia la tesi iniziale."
+      "Der Autor behauptet, dass...",
+      "Aus diesem Beispiel ergibt sich...",
+      "Man sollte die zentrale Metapher beachten.",
+      "Der Schluss erweitert die Anfangsthese."
     ],
     "vocabulary": [
       {
-        "word": "racconto",
+        "word": "Erzählung",
         "translation": "relato",
-        "example": "Oggi pratico la parola \"racconto\"."
+        "example": "Heute übe ich das Wort \"Erzählung\"."
       },
       {
-        "word": "potere",
+        "word": "Macht",
         "translation": "poder",
-        "example": "Oggi pratico la parola \"potere\"."
+        "example": "Heute übe ich das Wort \"Macht\"."
       },
       {
-        "word": "comunità",
+        "word": "Gemeinschaft",
         "translation": "comunidad",
-        "example": "Oggi pratico la parola \"comunità\"."
+        "example": "Heute übe ich das Wort \"Gemeinschaft\"."
       },
       {
-        "word": "metafora",
+        "word": "Metapher",
         "translation": "metáfora",
-        "example": "Oggi pratico la parola \"metafora\"."
+        "example": "Heute übe ich das Wort \"Metapher\"."
       },
       {
-        "word": "tesi",
+        "word": "These",
         "translation": "tesis",
-        "example": "Oggi pratico la parola \"tesi\"."
+        "example": "Heute übe ich das Wort \"These\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "L'autore sostiene che...",
+        "line": "Der Autor behauptet, dass...",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "A partire da questo esempio...",
+        "line": "Aus diesem Beispiel ergibt sich...",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Il saggio sostiene che il linguaggio pubblico organizzi la memoria collettiva. Attraverso varie metafore collega racconto, potere e comunità.",
+      "text": "Der Essay behauptet, dass öffentliche Sprache das kollektive Gedächtnis organisiert. Mit mehreren Metaphern verbindet er Erzählung, Macht und Gemeinschaft.",
       "questions": [
         "¿Qué organiza el lenguaje público?",
         "¿Qué recurso usa el autor?",
@@ -2894,7 +2894,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"racconto\"?",
+        "prompt": "¿Qué significa \"Erzählung\"?",
         "options": [
           "relato",
           "poder",
@@ -2910,72 +2910,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: L'autore sostiene che... / A partire da questo esempio...",
+        "prompt": "Usa al menos dos frases modelo: Der Autor behauptet, dass... / Aus diesem Beispiel ergibt sich...",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c1-writing",
+    "slug": "german-c1-writing",
     "level": "C1",
     "skill": "writing",
-    "title": "Italiano C1 · Writing Challenge",
+    "title": "Deutsch C1 · Writing Challenge",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 1360,
+    "orderIndex": 1720,
     "estimatedMinutes": 14,
-    "description": "Espressione sfumata: Escribe una reseña analítica de un documental o libro.",
+    "description": "Nuancierter Ausdruck: Escribe una reseña analítica de un documental o libro.",
     "intro": "Combina resumen, valoración crítica y observaciones de estilo.",
     "mission": "Redacta una reseña que evalúe contenido, enfoque y efectos en el lector.",
     "grammar": "Registro crítico, verbos de valoración y conectores de precisión.",
     "phrases": [
-      "L'opera pone una domanda decisiva.",
-      "Il suo approccio risulta convincente.",
-      "Tuttavia omette una dimensione rilevante.",
-      "Nel complesso offre una lettura solida."
+      "Das Werk stellt eine entscheidende Frage.",
+      "Sein Ansatz wirkt überzeugend.",
+      "Dennoch fehlt eine wichtige Dimension.",
+      "Insgesamt bietet es eine starke Lektüre."
     ],
     "vocabulary": [
       {
-        "word": "recensione",
+        "word": "Rezension",
         "translation": "reseña",
-        "example": "Oggi pratico la parola \"recensione\"."
+        "example": "Heute übe ich das Wort \"Rezension\"."
       },
       {
-        "word": "approccio",
+        "word": "Ansatz",
         "translation": "enfoque",
-        "example": "Oggi pratico la parola \"approccio\"."
+        "example": "Heute übe ich das Wort \"Ansatz\"."
       },
       {
-        "word": "omissione",
+        "word": "Auslassung",
         "translation": "omisión",
-        "example": "Oggi pratico la parola \"omissione\"."
+        "example": "Heute übe ich das Wort \"Auslassung\"."
       },
       {
-        "word": "lettore",
+        "word": "Leser",
         "translation": "lector",
-        "example": "Oggi pratico la parola \"lettore\"."
+        "example": "Heute übe ich das Wort \"Leser\"."
       },
       {
-        "word": "valutazione",
+        "word": "Bewertung",
         "translation": "valoración",
-        "example": "Oggi pratico la parola \"valutazione\"."
+        "example": "Heute übe ich das Wort \"Bewertung\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "L'opera pone una domanda decisiva.",
+        "line": "Das Werk stellt eine entscheidende Frage.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Il suo approccio risulta convincente.",
+        "line": "Sein Ansatz wirkt überzeugend.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "La recensione sottolinea che il documentario formula una domanda decisiva. Segnala anche un'omissione importante nel suo approccio.",
+      "text": "Die Rezension betont, dass der Dokumentarfilm eine entscheidende Frage stellt. Sie weist auch auf eine wichtige Auslassung im Ansatz hin.",
       "questions": [
         "¿Qué destaca la reseña?",
         "¿Qué omisión señala?",
@@ -2985,7 +2985,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"recensione\"?",
+        "prompt": "¿Qué significa \"Rezension\"?",
         "options": [
           "reseña",
           "enfoque",
@@ -3001,72 +3001,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: L'opera pone una domanda decisiva. / Il suo approccio risulta convincente.",
+        "prompt": "Usa al menos dos frases modelo: Das Werk stellt eine entscheidende Frage. / Sein Ansatz wirkt überzeugend.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c1-grammar",
+    "slug": "german-c1-grammar",
     "level": "C1",
     "skill": "grammar",
-    "title": "Italiano C1 · Grammar Focus",
+    "title": "Deutsch C1 · Grammar Focus",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 1370,
+    "orderIndex": 1730,
     "estimatedMinutes": 11,
-    "description": "Espressione sfumata: Refina el uso del subjuntivo, la nominalización y el registro.",
+    "description": "Nuancierter Ausdruck: Refina el uso del subjuntivo, la nominalización y el registro.",
     "intro": "Observa cómo cambia el tono cuando conviertes verbos en nombres o suavizas afirmaciones.",
     "mission": "Edita un párrafo para volverlo más preciso, cohesivo y formal.",
     "grammar": "Subjuntivo avanzado, nominalización, estructuras impersonales y cohesión.",
     "phrases": [
-      "È fondamentale che il problema sia riconosciuto.",
-      "L'implementazione della misura richiede tempo.",
-      "Si considera desiderabile una revisione periodica.",
-      "Conviene evitare affermazioni troppo rigide."
+      "Es ist wichtig, dass das Problem anerkannt wird.",
+      "Die Umsetzung der Maßnahme braucht Zeit.",
+      "Eine regelmäßige Überprüfung gilt als wünschenswert.",
+      "Allzu harte Aussagen sollte man vermeiden."
     ],
     "vocabulary": [
       {
-        "word": "implementazione",
+        "word": "Umsetzung",
         "translation": "implementación",
-        "example": "Oggi pratico la parola \"implementazione\"."
+        "example": "Heute übe ich das Wort \"Umsetzung\"."
       },
       {
-        "word": "revisione",
+        "word": "Überprüfung",
         "translation": "revisión",
-        "example": "Oggi pratico la parola \"revisione\"."
+        "example": "Heute übe ich das Wort \"Überprüfung\"."
       },
       {
-        "word": "coesione",
+        "word": "Kohäsion",
         "translation": "cohesión",
-        "example": "Oggi pratico la parola \"coesione\"."
+        "example": "Heute übe ich das Wort \"Kohäsion\"."
       },
       {
-        "word": "registro",
+        "word": "Register",
         "translation": "registro",
-        "example": "Oggi pratico la parola \"registro\"."
+        "example": "Heute übe ich das Wort \"Register\"."
       },
       {
-        "word": "precisione",
+        "word": "Präzision",
         "translation": "precisión",
-        "example": "Oggi pratico la parola \"precisione\"."
+        "example": "Heute übe ich das Wort \"Präzision\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "È fondamentale che il problema sia riconosciuto.",
+        "line": "Es ist wichtig, dass das Problem anerkannt wird.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "L'implementazione della misura richiede tempo.",
+        "line": "Die Umsetzung der Maßnahme braucht Zeit.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Il rapporto considera desiderabile una revisione periodica. Insiste sul fatto che il problema venga riconosciuto con un registro preciso e coeso.",
+      "text": "Der Bericht hält eine regelmäßige Überprüfung für wünschenswert. Er betont, dass das Problem in einem präzisen und kohäsiven Register anerkannt werden muss.",
       "questions": [
         "¿Qué considera deseable el informe?",
         "¿Qué problema debe reconocerse?",
@@ -3076,7 +3076,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"implementazione\"?",
+        "prompt": "¿Qué significa \"Umsetzung\"?",
         "options": [
           "implementación",
           "revisión",
@@ -3092,72 +3092,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: È fondamentale che il problema sia riconosciuto. / L'implementazione della misura richiede tempo.",
+        "prompt": "Usa al menos dos frases modelo: Es ist wichtig, dass das Problem anerkannt wird. / Die Umsetzung der Maßnahme braucht Zeit.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c1-vocabulary",
+    "slug": "german-c1-vocabulary",
     "level": "C1",
     "skill": "vocabulary",
-    "title": "Italiano C1 · Vocabulary Boost",
+    "title": "Deutsch C1 · Vocabulary Boost",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 1380,
+    "orderIndex": 1740,
     "estimatedMinutes": 10,
-    "description": "Espressione sfumata: Amplía vocabulario abstracto para análisis y debate.",
+    "description": "Nuancierter Ausdruck: Amplía vocabulario abstracto para análisis y debate.",
     "intro": "Trabaja con palabras de interpretación, evidencia y perspectiva.",
     "mission": "Integra léxico abstracto en una explicación académica breve.",
     "grammar": "Familias léxicas, prefijos cultos y combinaciones nominales.",
     "phrases": [
-      "La prova suggerisce un'altra lettura.",
-      "Questa prospettiva amplia l'analisi.",
-      "L'interpretazione dipende dal contesto.",
-      "La sfumatura cambia la conclusione."
+      "Die Evidenz legt eine andere Lesart nahe.",
+      "Diese Perspektive erweitert die Analyse.",
+      "Die Interpretation hängt vom Kontext ab.",
+      "Die Nuance verändert den Schluss."
     ],
     "vocabulary": [
       {
-        "word": "prospettiva",
+        "word": "Perspektive",
         "translation": "perspectiva",
-        "example": "Oggi pratico la parola \"prospettiva\"."
+        "example": "Heute übe ich das Wort \"Perspektive\"."
       },
       {
-        "word": "interpretazione",
+        "word": "Interpretation",
         "translation": "interpretación",
-        "example": "Oggi pratico la parola \"interpretazione\"."
+        "example": "Heute übe ich das Wort \"Interpretation\"."
       },
       {
-        "word": "prova",
+        "word": "Evidenz",
         "translation": "evidencia",
-        "example": "Oggi pratico la parola \"prova\"."
+        "example": "Heute übe ich das Wort \"Evidenz\"."
       },
       {
-        "word": "conclusione",
+        "word": "Schlussfolgerung",
         "translation": "conclusión",
-        "example": "Oggi pratico la parola \"conclusione\"."
+        "example": "Heute übe ich das Wort \"Schlussfolgerung\"."
       },
       {
-        "word": "portata",
+        "word": "Reichweite",
         "translation": "alcance",
-        "example": "Oggi pratico la parola \"portata\"."
+        "example": "Heute übe ich das Wort \"Reichweite\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "La prova suggerisce un'altra lettura.",
+        "line": "Die Evidenz legt eine andere Lesart nahe.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Questa prospettiva amplia l'analisi.",
+        "line": "Diese Perspektive erweitert die Analyse.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "L'interpretazione dell'articolo cambia secondo la prospettiva scelta. Una piccola sfumatura modifica la portata della conclusione.",
+      "text": "Die Interpretation des Artikels ändert sich je nach gewählter Perspektive. Eine kleine Nuance verändert die Reichweite der Schlussfolgerung.",
       "questions": [
         "¿Qué cambia según la perspectiva elegida?",
         "¿Qué puede modificar un pequeño matiz?",
@@ -3167,7 +3167,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"prospettiva\"?",
+        "prompt": "¿Qué significa \"Perspektive\"?",
         "options": [
           "perspectiva",
           "interpretación",
@@ -3183,72 +3183,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: La prova suggerisce un'altra lettura. / Questa prospettiva amplia l'analisi.",
+        "prompt": "Usa al menos dos frases modelo: Die Evidenz legt eine andere Lesart nahe. / Diese Perspektive erweitert die Analyse.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c2-listening",
+    "slug": "german-c2-listening",
     "level": "C2",
     "skill": "listening",
-    "title": "Italiano C2 · Listening Lab",
+    "title": "Deutsch C2 · Listening Lab",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
-    "orderIndex": 1390,
+    "orderIndex": 1750,
     "estimatedMinutes": 10,
-    "description": "Padronanza completa: Detecta ironía, dobles sentidos y cambios sutiles de registro.",
+    "description": "Meisterschaft: Detecta ironía, dobles sentidos y cambios sutiles de registro.",
     "intro": "Escucha una entrevista exigente y separa lo explícito de lo implícito.",
     "mission": "Explica qué se dice, qué se insinúa y por qué cambia el tono.",
     "grammar": "Énfasis, focalización, ironía y cohesión fina.",
     "phrases": [
-      "Detto così, sembra innocuo.",
-      "Ciò che rivela davvero è il tono.",
-      "Resta comunque sorprendente.",
-      "Tra le righe si percepisce un'altra intenzione."
+      "So formuliert wirkt es harmlos.",
+      "Aufschlussreich ist vor allem der Ton.",
+      "Auffällig bleibt das trotzdem.",
+      "Zwischen den Zeilen merkt man eine andere Absicht."
     ],
     "vocabulary": [
       {
-        "word": "ironia",
+        "word": "Ironie",
         "translation": "ironía",
-        "example": "Oggi pratico la parola \"ironia\"."
+        "example": "Heute übe ich das Wort \"Ironie\"."
       },
       {
-        "word": "insinuazione",
+        "word": "Andeutung",
         "translation": "insinuación",
-        "example": "Oggi pratico la parola \"insinuazione\"."
+        "example": "Heute übe ich das Wort \"Andeutung\"."
       },
       {
-        "word": "tono",
+        "word": "Ton",
         "translation": "tono",
-        "example": "Oggi pratico la parola \"tono\"."
+        "example": "Heute übe ich das Wort \"Ton\"."
       },
       {
-        "word": "sottotesto",
+        "word": "Subtext",
         "translation": "subtexto",
-        "example": "Oggi pratico la parola \"sottotesto\"."
+        "example": "Heute übe ich das Wort \"Subtext\"."
       },
       {
-        "word": "enfasi",
+        "word": "Betonung",
         "translation": "énfasis",
-        "example": "Oggi pratico la parola \"enfasi\"."
+        "example": "Heute übe ich das Wort \"Betonung\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Detto così, sembra innocuo.",
+        "line": "So formuliert wirkt es harmlos.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Ciò che rivela davvero è il tono.",
+        "line": "Aufschlussreich ist vor allem der Ton.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Nell'intervista, l'esperta risponde con apparente calma, ma il suo tono lascia intravedere una critica severa al progetto.",
+      "text": "Im Interview antwortet die Expertin mit scheinbarer Ruhe, doch ihr Ton lässt eine harte Kritik am Projekt erkennen.",
       "questions": [
         "¿Cómo responde la experta en apariencia?",
         "¿Qué crítica se percibe entre líneas?",
@@ -3258,7 +3258,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"ironia\"?",
+        "prompt": "¿Qué significa \"Ironie\"?",
         "options": [
           "ironía",
           "insinuación",
@@ -3274,72 +3274,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Detto così, sembra innocuo. / Ciò che rivela davvero è il tono.",
+        "prompt": "Usa al menos dos frases modelo: So formuliert wirkt es harmlos. / Aufschlussreich ist vor allem der Ton.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c2-speaking",
+    "slug": "german-c2-speaking",
     "level": "C2",
     "skill": "speaking",
-    "title": "Italiano C2 · Speaking Mission",
+    "title": "Deutsch C2 · Speaking Mission",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 1400,
+    "orderIndex": 1760,
     "estimatedMinutes": 12,
-    "description": "Padronanza completa: Negocia con concesiones sutiles y precisión casi nativa.",
+    "description": "Meisterschaft: Negocia con concesiones sutiles y precisión casi nativa.",
     "intro": "Ensaya una intervención diplomática con matices estratégicos.",
     "mission": "Defiende una posición compleja, concede un punto menor y reformula una solución.",
     "grammar": "Atenuadores, estructuras enfáticas y reformulación sofisticada.",
     "phrases": [
-      "Ammetto questo punto, anche se...",
-      "Se precisiamo meglio i termini...",
-      "Ciò che conta non è solo il costo.",
-      "Propongo una via d'uscita intermedia."
+      "Diesen Punkt räume ich ein, aber...",
+      "Wenn wir die Begriffe schärfen...",
+      "Entscheidend ist nicht nur der Preis.",
+      "Ich schlage einen Mittelweg vor."
     ],
     "vocabulary": [
       {
-        "word": "concessione",
+        "word": "Zugeständnis",
         "translation": "concesión",
-        "example": "Oggi pratico la parola \"concessione\"."
+        "example": "Heute übe ich das Wort \"Zugeständnis\"."
       },
       {
-        "word": "termine",
+        "word": "Begriff",
         "translation": "término",
-        "example": "Oggi pratico la parola \"termine\"."
+        "example": "Heute übe ich das Wort \"Begriff\"."
       },
       {
-        "word": "via d'uscita",
+        "word": "Mittelweg",
         "translation": "salida",
-        "example": "Oggi pratico la parola \"via d'uscita\"."
+        "example": "Heute übe ich das Wort \"Mittelweg\"."
       },
       {
-        "word": "equilibrio",
+        "word": "Gleichgewicht",
         "translation": "equilibrio",
-        "example": "Oggi pratico la parola \"equilibrio\"."
+        "example": "Heute übe ich das Wort \"Gleichgewicht\"."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Oggi pratico la parola \"priorità\"."
+        "example": "Heute übe ich das Wort \"Priorität\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Ammetto questo punto, anche se...",
+        "line": "Diesen Punkt räume ich ein, aber...",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Se precisiamo meglio i termini...",
+        "line": "Wenn wir die Begriffe schärfen...",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Durante una negoziazione, la portavoce ammette un punto minore per proteggere la priorità centrale e proporre una via intermedia.",
+      "text": "Während einer Verhandlung gibt die Sprecherin einen Nebenpunkt zu, um ihre Hauptpriorität zu schützen und einen Mittelweg vorzuschlagen.",
       "questions": [
         "¿Qué punto menor admite la portavoz?",
         "¿Qué intenta proteger?",
@@ -3349,7 +3349,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"concessione\"?",
+        "prompt": "¿Qué significa \"Zugeständnis\"?",
         "options": [
           "concesión",
           "término",
@@ -3365,72 +3365,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ammetto questo punto, anche se... / Se precisiamo meglio i termini...",
+        "prompt": "Usa al menos dos frases modelo: Diesen Punkt räume ich ein, aber... / Wenn wir die Begriffe schärfen...",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c2-reading",
+    "slug": "german-c2-reading",
     "level": "C2",
     "skill": "reading",
-    "title": "Italiano C2 · Reading Quest",
+    "title": "Deutsch C2 · Reading Quest",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 1410,
+    "orderIndex": 1770,
     "estimatedMinutes": 12,
-    "description": "Padronanza completa: Interpreta una crítica historiográfica con varias capas de sentido.",
+    "description": "Meisterschaft: Interpreta una crítica historiográfica con varias capas de sentido.",
     "intro": "Lee un texto complejo y evalúa su argumentación implícita.",
     "mission": "Relaciona voz, contexto y presupuestos ideológicos del autor.",
     "grammar": "Estructuras de énfasis, perífrasis aspectuales y referencias intertextuales.",
     "phrases": [
-      "Il testo presuppone un lettore esperto.",
-      "La voce saggistica diventa più incisiva.",
-      "Questa allusione riordina l'interpretazione.",
-      "La chiusura risignifica l'inizio."
+      "Der Text setzt einen kundigen Leser voraus.",
+      "Die essayistische Stimme wird schärfer.",
+      "Diese Anspielung ordnet die Deutung neu.",
+      "Der Schluss deutet den Anfang um."
     ],
     "vocabulary": [
       {
-        "word": "allusione",
+        "word": "Anspielung",
         "translation": "alusión",
-        "example": "Oggi pratico la parola \"allusione\"."
+        "example": "Heute übe ich das Wort \"Anspielung\"."
       },
       {
-        "word": "presupposto",
+        "word": "Voraussetzung",
         "translation": "supuesto",
-        "example": "Oggi pratico la parola \"presupposto\"."
+        "example": "Heute übe ich das Wort \"Voraussetzung\"."
       },
       {
-        "word": "chiusura",
+        "word": "Schluss",
         "translation": "cierre",
-        "example": "Oggi pratico la parola \"chiusura\"."
+        "example": "Heute übe ich das Wort \"Schluss\"."
       },
       {
-        "word": "interpretazione",
+        "word": "Deutung",
         "translation": "interpretación",
-        "example": "Oggi pratico la parola \"interpretazione\"."
+        "example": "Heute übe ich das Wort \"Deutung\"."
       },
       {
-        "word": "voce",
+        "word": "Stimme",
         "translation": "voz",
-        "example": "Oggi pratico la parola \"voce\"."
+        "example": "Heute übe ich das Wort \"Stimme\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Il testo presuppone un lettore esperto.",
+        "line": "Der Text setzt einen kundigen Leser voraus.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "La voce saggistica diventa più incisiva.",
+        "line": "Die essayistische Stimme wird schärfer.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "La critica presuppone un lettore esperto e usa un'allusione storica per risignificare la chiusura del saggio.",
+      "text": "Die Kritik setzt einen kundigen Leser voraus und nutzt eine historische Anspielung, um den Schluss des Essays neu zu deuten.",
       "questions": [
         "¿Qué tipo de lector presupone la crítica?",
         "¿Qué recurso resignifica el cierre?",
@@ -3440,7 +3440,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"allusione\"?",
+        "prompt": "¿Qué significa \"Anspielung\"?",
         "options": [
           "alusión",
           "supuesto",
@@ -3456,72 +3456,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Il testo presuppone un lettore esperto. / La voce saggistica diventa più incisiva.",
+        "prompt": "Usa al menos dos frases modelo: Der Text setzt einen kundigen Leser voraus. / Die essayistische Stimme wird schärfer.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c2-writing",
+    "slug": "german-c2-writing",
     "level": "C2",
     "skill": "writing",
-    "title": "Italiano C2 · Writing Challenge",
+    "title": "Deutsch C2 · Writing Challenge",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 1420,
+    "orderIndex": 1780,
     "estimatedMinutes": 14,
-    "description": "Padronanza completa: Redacta un editorial con tesis matizada y estilo propio.",
+    "description": "Meisterschaft: Redacta un editorial con tesis matizada y estilo propio.",
     "intro": "Construye una argumentación elegante, rigurosa y persuasiva.",
     "mission": "Escribe un editorial que combine análisis, tono y una conclusión memorable.",
     "grammar": "Periodos extensos, puntuación retórica y variación estilística.",
     "phrases": [
-      "Conviene diffidare delle risposte semplici.",
-      "La discussione richiede uno sguardo più ampio.",
-      "Quel gesto retorico non è casuale.",
-      "In ultima analisi, la questione resta aperta."
+      "Einfachen Antworten sollte man misstrauen.",
+      "Die Debatte verlangt einen weiteren Blick.",
+      "Diese rhetorische Geste ist nicht zufällig.",
+      "Letztlich bleibt die Frage offen."
     ],
     "vocabulary": [
       {
-        "word": "editoriale",
+        "word": "Leitartikel",
         "translation": "editorial",
-        "example": "Oggi pratico la parola \"editoriale\"."
+        "example": "Heute übe ich das Wort \"Leitartikel\"."
       },
       {
-        "word": "sguardo",
+        "word": "Blick",
         "translation": "mirada",
-        "example": "Oggi pratico la parola \"sguardo\"."
+        "example": "Heute übe ich das Wort \"Blick\"."
       },
       {
-        "word": "retorica",
+        "word": "Rhetorik",
         "translation": "retórica",
-        "example": "Oggi pratico la parola \"retorica\"."
+        "example": "Heute übe ich das Wort \"Rhetorik\"."
       },
       {
-        "word": "tesi",
+        "word": "These",
         "translation": "tesis",
-        "example": "Oggi pratico la parola \"tesi\"."
+        "example": "Heute übe ich das Wort \"These\"."
       },
       {
-        "word": "chiusura",
+        "word": "Schluss",
         "translation": "cierre",
-        "example": "Oggi pratico la parola \"chiusura\"."
+        "example": "Heute übe ich das Wort \"Schluss\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Conviene diffidare delle risposte semplici.",
+        "line": "Einfachen Antworten sollte man misstrauen.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "La discussione richiede uno sguardo più ampio.",
+        "line": "Die Debatte verlangt einen weiteren Blick.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "L'editoriale diffida delle risposte semplici. Propone uno sguardo più ampio e lascia aperta la questione centrale.",
+      "text": "Der Leitartikel misstraut einfachen Antworten. Er fordert einen weiteren Blick und lässt die zentrale Frage offen.",
       "questions": [
         "¿De qué desconfía el editorial?",
         "¿Qué pide la discusión pública?",
@@ -3531,7 +3531,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"editoriale\"?",
+        "prompt": "¿Qué significa \"Leitartikel\"?",
         "options": [
           "editorial",
           "mirada",
@@ -3547,72 +3547,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Conviene diffidare delle risposte semplici. / La discussione richiede uno sguardo più ampio.",
+        "prompt": "Usa al menos dos frases modelo: Einfachen Antworten sollte man misstrauen. / Die Debatte verlangt einen weiteren Blick.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c2-grammar",
+    "slug": "german-c2-grammar",
     "level": "C2",
     "skill": "grammar",
-    "title": "Italiano C2 · Grammar Focus",
+    "title": "Deutsch C2 · Grammar Focus",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 1430,
+    "orderIndex": 1790,
     "estimatedMinutes": 11,
-    "description": "Padronanza completa: Perfecciona cohesión, énfasis y control estilístico.",
+    "description": "Meisterschaft: Perfecciona cohesión, énfasis y control estilístico.",
     "intro": "Ajusta pequeños matices para ganar exactitud y elegancia.",
     "mission": "Reescribe un texto para mejorar ritmo, referencia y precisión semántica.",
     "grammar": "Conectores de alta precisión, correferencia, énfasis y variación sintáctica.",
     "phrases": [
-      "Non conta solo il contenuto, ma anche la cadenza.",
-      "Il riferimento deve restare inequivocabile.",
-      "Quella scelta verbale affina il senso.",
-      "La coesione sostiene l'autorevolezza del testo."
+      "Nicht nur der Inhalt, auch der Rhythmus ist wichtig.",
+      "Der Bezug muss eindeutig bleiben.",
+      "Diese Wortwahl schärft den Sinn.",
+      "Kohäsion trägt die Autorität des Textes."
     ],
     "vocabulary": [
       {
-        "word": "cadenza",
+        "word": "Rhythmus",
         "translation": "cadencia",
-        "example": "Oggi pratico la parola \"cadenza\"."
+        "example": "Heute übe ich das Wort \"Rhythmus\"."
       },
       {
-        "word": "riferimento",
+        "word": "Bezug",
         "translation": "referencia",
-        "example": "Oggi pratico la parola \"riferimento\"."
+        "example": "Heute übe ich das Wort \"Bezug\"."
       },
       {
-        "word": "senso",
+        "word": "Sinn",
         "translation": "sentido",
-        "example": "Oggi pratico la parola \"senso\"."
+        "example": "Heute übe ich das Wort \"Sinn\"."
       },
       {
-        "word": "coesione",
+        "word": "Kohäsion",
         "translation": "cohesión",
-        "example": "Oggi pratico la parola \"coesione\"."
+        "example": "Heute übe ich das Wort \"Kohäsion\"."
       },
       {
-        "word": "autorevolezza",
+        "word": "Autorität",
         "translation": "autoridad",
-        "example": "Oggi pratico la parola \"autorevolezza\"."
+        "example": "Heute übe ich das Wort \"Autorität\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Non conta solo il contenuto, ma anche la cadenza.",
+        "line": "Nicht nur der Inhalt, auch der Rhythmus ist wichtig.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Il riferimento deve restare inequivocabile.",
+        "line": "Der Bezug muss eindeutig bleiben.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "Correggendo un saggio, l'editrice cambia un riferimento ambiguo e una scelta verbale. Così migliora la cadenza e la coesione del testo.",
+      "text": "Beim Überarbeiten eines Essays ändert die Redakteurin einen unklaren Bezug und eine Wortwahl. So verbessert sie Rhythmus und Kohäsion des Textes.",
       "questions": [
         "¿Qué cambia la editora en el ensayo?",
         "¿Qué mejora eso en el texto?",
@@ -3622,7 +3622,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"cadenza\"?",
+        "prompt": "¿Qué significa \"Rhythmus\"?",
         "options": [
           "cadencia",
           "referencia",
@@ -3638,72 +3638,72 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Non conta solo il contenuto, ma anche la cadenza. / Il riferimento deve restare inequivocabile.",
+        "prompt": "Usa al menos dos frases modelo: Nicht nur der Inhalt, auch der Rhythmus ist wichtig. / Der Bezug muss eindeutig bleiben.",
         "answer": "Open answer"
       }
     ]
   },
   {
-    "slug": "italian-c2-vocabulary",
+    "slug": "german-c2-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "title": "Italiano C2 · Vocabulary Boost",
+    "title": "Deutsch C2 · Vocabulary Boost",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 1440,
+    "orderIndex": 1800,
     "estimatedMinutes": 10,
-    "description": "Padronanza completa: Maneja léxico fino de retórica, registro y argumentación.",
+    "description": "Meisterschaft: Maneja léxico fino de retórica, registro y argumentación.",
     "intro": "Explora palabras difíciles de sustituir con exactitud.",
     "mission": "Emplea vocabulario de matiz, sesgo y elocuencia en un comentario crítico.",
     "grammar": "Sinonimia graduada, matices semánticos y registro culto.",
     "phrases": [
-      "La sfumatura altera l'interpretazione.",
-      "Questo pregiudizio non è innocente.",
-      "L'eloquenza può persuadere senza esagerare.",
-      "Il registro delimita il pubblico."
+      "Die Nuance verändert die Deutung.",
+      "Diese Voreingenommenheit ist nicht harmlos.",
+      "Beredsamkeit kann überzeugen, ohne zu übertreiben.",
+      "Das Register grenzt das Publikum ein."
     ],
     "vocabulary": [
       {
-        "word": "pregiudizio",
+        "word": "Voreingenommenheit",
         "translation": "sesgo",
-        "example": "Oggi pratico la parola \"pregiudizio\"."
+        "example": "Heute übe ich das Wort \"Voreingenommenheit\"."
       },
       {
-        "word": "eloquenza",
+        "word": "Beredsamkeit",
         "translation": "elocuencia",
-        "example": "Oggi pratico la parola \"eloquenza\"."
+        "example": "Heute übe ich das Wort \"Beredsamkeit\"."
       },
       {
-        "word": "sfumatura",
+        "word": "Nuance",
         "translation": "matiz",
-        "example": "Oggi pratico la parola \"sfumatura\"."
+        "example": "Heute übe ich das Wort \"Nuance\"."
       },
       {
-        "word": "registro",
+        "word": "Register",
         "translation": "registro",
-        "example": "Oggi pratico la parola \"registro\"."
+        "example": "Heute übe ich das Wort \"Register\"."
       },
       {
-        "word": "persuasione",
+        "word": "Überzeugungskraft",
         "translation": "persuasión",
-        "example": "Oggi pratico la parola \"persuasione\"."
+        "example": "Heute übe ich das Wort \"Überzeugungskraft\"."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "La sfumatura altera l'interpretazione.",
+        "line": "Die Nuance verändert die Deutung.",
         "translation": "Frase modelo"
       },
       {
         "speaker": "Student",
-        "line": "Questo pregiudizio non è innocente.",
+        "line": "Diese Voreingenommenheit ist nicht harmlos.",
         "translation": "Respuesta guiada"
       }
     ],
     "reading": {
-      "text": "La critica esamina come il pregiudizio e il registro alterino l'interpretazione. Valuta anche l'eloquenza dell'autore senza confonderla con l'esagerazione.",
+      "text": "Die Kritik untersucht, wie Voreingenommenheit und Register die Deutung verändern. Sie würdigt auch die Beredsamkeit des Autors, ohne sie mit Übertreibung zu verwechseln.",
       "questions": [
         "¿Qué altera la interpretación?",
         "¿Qué valora la crítica en el autor?",
@@ -3713,7 +3713,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"pregiudizio\"?",
+        "prompt": "¿Qué significa \"Voreingenommenheit\"?",
         "options": [
           "sesgo",
           "elocuencia",
@@ -3729,7 +3729,7 @@
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: La sfumatura altera l'interpretazione. / Questo pregiudizio non è innocente.",
+        "prompt": "Usa al menos dos frases modelo: Die Nuance verändert die Deutung. / Diese Voreingenommenheit ist nicht harmlos.",
         "answer": "Open answer"
       }
     ]

@@ -120,7 +120,7 @@ function buildFile(language) {
     .sort(byOrder)
     .map(shapeBrowserLesson);
 
-  return `// worlds/${language}/content.js
+  return `// src/worlds/${language}/content.js
 // ${LANGUAGES[language].comment}
 (function () {
   window.ANDERGO_LANGUAGE_WORLDS = window.ANDERGO_LANGUAGE_WORLDS || { levelContent: {}, languageContent: {}, lessons: {} };
@@ -135,7 +135,7 @@ function buildFile(language) {
 
 function main() {
   Object.keys(LANGUAGES).forEach((language) => {
-    const file = path.join(ROOT, 'worlds', language, 'content.js');
+    const file = path.join(ROOT, 'src', 'worlds', language, 'content.js');
     fs.writeFileSync(file, buildFile(language), 'utf8');
     console.log(`Synced ${path.relative(ROOT, file)}`);
   });
