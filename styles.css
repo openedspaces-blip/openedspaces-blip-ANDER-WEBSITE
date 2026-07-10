@@ -1821,13 +1821,6 @@ footer small {
   border: 1px solid rgba(245, 158, 11, .22);
 }
 
-.level-price-note {
-  display: block;
-  margin-top: 8px;
-  color: #475569;
-  font-weight: 700;
-}
-
 .pricing-section {
   background: linear-gradient(180deg, rgba(255,255,255,.96), rgba(239,246,255,.96));
 }

@@ -28,14 +28,6 @@ function applyAccessBadges() {
     badge.className = `badge ${freeLessonPolicy.advancedLevels.has(level) ? 'limited' : 'free'}`;
     badge.textContent = getLevelAccessText(level);
     if (!badge.parentElement) card.appendChild(badge);
-
-    let priceNote = card.querySelector('.level-price-note');
-    if (!priceNote) {
-      priceNote = document.createElement('small');
-      priceNote.className = 'level-price-note';
-      card.appendChild(priceNote);
-    }
-    priceNote.textContent = `Premium: USD ${premiumPriceUsd}`;
   });
 
   document.querySelectorAll('.access-summary').forEach(summary => {
