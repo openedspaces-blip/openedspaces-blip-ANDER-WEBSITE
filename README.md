@@ -8,7 +8,7 @@ Copia estos archivos/carpetas dentro de tu carpeta `ANDERGO-WEB` y reemplaza los
 - `index.html`
 - `src/js/script.js`
 - `src/css/styles.css`
-- `src/js/gamification.js`
+- `src/js/gamification/` (`state.js`, `xp.js`, `streaks.js`, `badges.js`, `missions.js`, `render.js`, `index.js`)
 - `src/worlds/english/content.js`
 - `src/worlds/spanish/content.js`
 - `src/worlds/french/content.js`
@@ -21,7 +21,7 @@ Copia estos archivos/carpetas dentro de tu carpeta `ANDERGO-WEB` y reemplaza los
 - `lib/devStore.js`
 - `lib/devToken.js`
 - `lib/authService.js`
-- `lib/gamification.js`
+- `lib/gamification/` (`index.js`, `xp.js`, `badges.js`, `streaks.js`)
 - `lib/lessonsData.js`
 - `lib/lessonsService.js`
 - `lib/httpHelpers.js`

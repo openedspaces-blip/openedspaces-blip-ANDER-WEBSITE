@@ -12,6 +12,15 @@ const PUBLIC_DIR = path.join(ROOT, 'public');
 
 const REQUIRED_FILES = ['index.html', 'src/css/styles.css', 'src/js/script.js'];
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
+const GAMIFICATION_FILES = [
+  'src/js/gamification/state.js',
+  'src/js/gamification/xp.js',
+  'src/js/gamification/streaks.js',
+  'src/js/gamification/badges.js',
+  'src/js/gamification/missions.js',
+  'src/js/gamification/render.js',
+  'src/js/gamification/index.js'
+];
 
 function assertExists(relativePath) {
   const fullPath = path.join(ROOT, relativePath);
@@ -40,7 +49,7 @@ function main() {
   });
 
   console.log('Checking JavaScript syntax...');
-  ['src/js/script.js', 'lib/server.js'].forEach((relativePath) => {
+  [...GAMIFICATION_FILES, 'src/js/script.js', 'lib/server.js'].forEach((relativePath) => {
     const fullPath = path.join(ROOT, relativePath);
     if (fs.existsSync(fullPath)) {
       execSync(`node --check "${fullPath}"`, { stdio: 'inherit' });
@@ -51,9 +60,8 @@ function main() {
   });
 
   console.log('Mirroring static assets into public/ ...');
-  const filesToMirror = [...REQUIRED_FILES];
+  const filesToMirror = [...REQUIRED_FILES, ...GAMIFICATION_FILES];
   if (fs.existsSync(path.join(ROOT, 'andergo-logo.png'))) filesToMirror.push('andergo-logo.png');
-  if (fs.existsSync(path.join(ROOT, 'src/js/gamification.js'))) filesToMirror.push('src/js/gamification.js');
 
   filesToMirror.forEach((relativePath) => {
     copyFileEnsuringDir(path.join(ROOT, relativePath), path.join(PUBLIC_DIR, relativePath));
