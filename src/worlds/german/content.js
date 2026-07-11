@@ -539,18 +539,15 @@
           "nombre",
           "país",
           "amigo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "listening",
-        "prompt": "Escucha y anota dos detalles clave: Identifica nombre, país y gusto personal en una presentación breve.",
-        "answer": "Open answer"
+        "prompt": "Escucha y anota dos detalles clave: Identifica nombre, país y gusto personal en una presentación breve."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Hallo, ich heiße... / Ich komme aus...",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Hallo, ich heiße... / Ich komme aus..."
       }
     ]
   },
@@ -630,18 +627,15 @@
           "ciudad",
           "estudiante",
           "trabajo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "speaking",
-        "prompt": "Habla durante 45 segundos: Habla de tu nombre, tu ciudad y una actividad que te gusta.",
-        "answer": "Open answer"
+        "prompt": "Habla durante 45 segundos: Habla de tu nombre, tu ciudad y una actividad que te gusta."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ich heiße Laura. / Ich wohne in Leipzig.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Ich heiße Laura. / Ich wohne in Leipzig."
       }
     ]
   },
@@ -721,18 +715,15 @@
           "casa",
           "años",
           "leer"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
-        "answer": "Open answer"
+        "prompt": "Lee el texto y resume la idea principal en una frase clara."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ich bin zwanzig Jahre alt. / Mein Vater kocht.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Ich bin zwanzig Jahre alt. / Mein Vater kocht."
       }
     ]
   },
@@ -812,18 +803,15 @@
           "desayuno",
           "parque",
           "hermana"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Escribe de 4 a 6 frases: Escribe 4 frases sobre tu familia, tu rutina y tu lugar favorito.",
-        "answer": "Open answer"
+        "prompt": "Escribe de 4 a 6 frases: Escribe 4 frases sobre tu familia, tu rutina y tu lugar favorito."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Meine Familie ist klein. / Ich frühstücke um sieben.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Meine Familie ist klein. / Ich frühstücke um sieben."
       }
     ]
   },
@@ -903,18 +891,15 @@
           "libro",
           "mesa",
           "amigo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "grammar",
-        "prompt": "Transforma dos oraciones aplicando esta estructura: Ser vs. tener, género, número y concordancia básica.",
-        "answer": "Open answer"
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Ser vs. tener, género, número y concordancia básica."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Sie ist Lehrerin. / Ich habe zwei Bücher.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Sie ist Lehrerin. / Ich habe zwei Bücher."
       }
     ]
   },
@@ -994,18 +979,15 @@
           "cuaderno",
           "calle",
           "sol"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "vocabulary",
-        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Die Bibliothek ist in der Nähe. / Ich brauche ein Heft.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Die Bibliothek ist in der Nähe. / Ich brauche ein Heft."
       }
     ]
   },
@@ -1085,18 +1067,15 @@
           "leche",
           "precio",
           "fruta"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "listening",
-        "prompt": "Escucha y anota dos detalles clave: Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar.",
-        "answer": "Open answer"
+        "prompt": "Escucha y anota dos detalles clave: Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ich möchte einen Kaffee mit Milch. / Wie viel kostet das?",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Ich möchte einen Kaffee mit Milch. / Wie viel kostet das?"
       }
     ]
   },
@@ -1176,18 +1155,15 @@
           "banco",
           "esquina",
           "plaza"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "speaking",
-        "prompt": "Habla durante 45 segundos: Explica cómo ir al banco, a la estación y a una farmacia cercana.",
-        "answer": "Open answer"
+        "prompt": "Habla durante 45 segundos: Explica cómo ir al banco, a la estación y a una farmacia cercana."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Geh geradeaus. / Bieg links ab.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Geh geradeaus. / Bieg links ab."
       }
     ]
   },
@@ -1268,18 +1244,15 @@
           "cine",
           "entrada",
           "cena"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
-        "answer": "Open answer"
+        "prompt": "Lee el texto y resume la idea principal en una frase clara."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Am Samstag gehe ich ins Kino. / Wir sehen uns um acht.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Am Samstag gehe ich ins Kino. / Wir sehen uns um acht."
       }
     ]
   },
@@ -1359,18 +1332,15 @@
           "hotel",
           "playa",
           "agosto"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Escribe de 4 a 6 frases: Cuenta dónde estuviste, qué viste y qué harás la próxima semana.",
-        "answer": "Open answer"
+        "prompt": "Escribe de 4 a 6 frases: Cuenta dónde estuviste, qué viste y qué harás la próxima semana."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Letzte Woche habe ich ... besucht. / Es hat mir sehr gefallen.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Letzte Woche habe ich ... besucht. / Es hat mir sehr gefallen."
       }
     ]
   },
@@ -1450,18 +1420,15 @@
           "llamada",
           "dulce",
           "comparación"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "grammar",
-        "prompt": "Transforma dos oraciones aplicando esta estructura: Pretérito perfecto, ir a + infinitivo, lo/la/los/las y comparativos.",
-        "answer": "Open answer"
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Pretérito perfecto, ir a + infinitivo, lo/la/los/las y comparativos."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ich habe die Hausaufgabe beendet. / Morgen rufe ich sie an.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Ich habe die Hausaufgabe beendet. / Morgen rufe ich sie an."
       }
     ]
   },
@@ -1541,18 +1508,15 @@
           "boleto",
           "cambio",
           "sopa"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "vocabulary",
-        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ich kaufe Vollkornbrot. / Der Bus kommt spät.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Ich kaufe Vollkornbrot. / Der Bus kommt spät."
       }
     ]
   },
@@ -1632,18 +1596,15 @@
           "descanso",
           "prioridad",
           "cansancio"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "listening",
-        "prompt": "Escucha y anota dos detalles clave: Identifica problemas, soluciones y decisiones en una charla cotidiana.",
-        "answer": "Open answer"
+        "prompt": "Escucha y anota dos detalles clave: Identifica problemas, soluciones y decisiones en una charla cotidiana."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: In letzter Zeit arbeite ich zu viel. / Früher habe ich abends gelernt.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: In letzter Zeit arbeite ich zu viel. / Früher habe ich abends gelernt."
       }
     ]
   },
@@ -1723,18 +1684,15 @@
           "costumbre",
           "energía",
           "estrés"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "speaking",
-        "prompt": "Habla durante 45 segundos: Explica qué hábito te ayuda más y justifica tu elección con dos razones.",
-        "answer": "Open answer"
+        "prompt": "Habla durante 45 segundos: Explica qué hábito te ayuda más y justifica tu elección con dos razones."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Meiner Meinung nach hilft Spazierengehen. / Ich denke, guter Schlaf ist wichtig.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Meiner Meinung nach hilft Spazierengehen. / Ich denke, guter Schlaf ist wichtig."
       }
     ]
   },
@@ -1815,18 +1773,15 @@
           "taller",
           "vecino",
           "apoyo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
-        "answer": "Open answer"
+        "prompt": "Lee el texto y resume la idea principal en una frase clara."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Die Gruppe organisiert Workshops. / Die Aktivität begann im Mai.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Die Gruppe organisiert Workshops. / Die Aktivität begann im Mai."
       }
     ]
   },
@@ -1906,18 +1861,15 @@
           "ayuda",
           "progreso",
           "error"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Escribe de 4 a 6 frases: Escribe un relato sobre una dificultad y la estrategia que usaste para superarla.",
-        "answer": "Open answer"
+        "prompt": "Escribe de 4 a 6 frases: Escribe un relato sobre una dificultad y la estrategia que usaste para superarla."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Am Anfang war es schwierig. / Dann habe ich um Hilfe gebeten.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Am Anfang war es schwierig. / Dann habe ich um Hilfe gebeten."
       }
     ]
   },
@@ -1997,18 +1949,15 @@
           "plan",
           "llamada",
           "obligación"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "grammar",
-        "prompt": "Transforma dos oraciones aplicando esta estructura: Imperfecto vs. indefinido, tener que, aunque, mientras y así que.",
-        "answer": "Open answer"
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Imperfecto vs. indefinido, tener que, aunque, mientras y así que."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Während ich kochte, klingelte das Telefon. / Obwohl es regnete, gingen wir raus.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Während ich kochte, klingelte das Telefon. / Obwohl es regnete, gingen wir raus."
       }
     ]
   },
@@ -2088,18 +2037,15 @@
           "reportaje",
           "equipo",
           "reunión"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "vocabulary",
-        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ich habe die Unterkunft online reserviert. / Die Reportage war interessant.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Ich habe die Unterkunft online reserviert. / Die Reportage war interessant."
       }
     ]
   },
@@ -2179,18 +2125,15 @@
           "contacto",
           "debate",
           "empresa"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "listening",
-        "prompt": "Escucha y anota dos detalles clave: Distingue tesis, ejemplos y concesiones en una discusión formal.",
-        "answer": "Open answer"
+        "prompt": "Escucha y anota dos detalles clave: Distingue tesis, ejemplos y concesiones en una discusión formal."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Einerseits spart es Zeit. / Andererseits verringert es den Kontakt.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Einerseits spart es Zeit. / Andererseits verringert es den Kontakt."
       }
     ]
   },
@@ -2270,18 +2213,15 @@
           "presupuesto",
           "transporte",
           "costo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "speaking",
-        "prompt": "Habla durante 45 segundos: Argumenta qué política apoyas y responde a una objeción posible.",
-        "answer": "Open answer"
+        "prompt": "Habla durante 45 segundos: Argumenta qué política apoyas y responde a una objeción posible."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Die erste Maßnahme ist besser umsetzbar. / Trotzdem ist die andere Option attraktiv.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Die erste Maßnahme ist besser umsetzbar. / Trotzdem ist die andere Option attraktiv."
       }
     ]
   },
@@ -2362,18 +2302,15 @@
           "residente",
           "tráfico",
           "informe"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
-        "answer": "Open answer"
+        "prompt": "Lee el texto y resume la idea principal en una frase clara."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Der Bericht sagt, dass... / Laut den Bewohnern...",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Der Bericht sagt, dass... / Laut den Bewohnern..."
       }
     ]
   },
@@ -2453,18 +2390,15 @@
           "recurso",
           "mantenimiento",
           "seguridad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Escribe de 4 a 6 frases: Escribe una propuesta para mejorar tu centro de estudio o trabajo.",
-        "answer": "Open answer"
+        "prompt": "Escribe de 4 a 6 frases: Escribe una propuesta para mejorar tu centro de estudio o trabajo."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ich schlage vor, dass ... erweitert wird. / Es wäre sinnvoll, ... zu überprüfen.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Ich schlage vor, dass ... erweitert wird. / Es wäre sinnvoll, ... zu überprüfen."
       }
     ]
   },
@@ -2544,18 +2478,15 @@
           "proceso",
           "decisión",
           "director"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "grammar",
-        "prompt": "Transforma dos oraciones aplicando esta estructura: Si + imperfecto de subjuntivo, condicional, pasiva perifrástica y estilo indirecto.",
-        "answer": "Open answer"
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Si + imperfecto de subjuntivo, condicional, pasiva perifrástica y estilo indirecto."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Wenn wir mehr Daten hätten, würden wir besser entscheiden. / Die Maßnahme wurde gestern beschlossen.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Wenn wir mehr Daten hätten, würden wir besser entscheiden. / Die Maßnahme wurde gestern beschlossen."
       }
     ]
   },
@@ -2635,18 +2566,15 @@
           "impacto",
           "acuerdo",
           "campaña"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "vocabulary",
-        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Die Evidenz stützt die Maßnahme. / Die Auswirkungen waren ungleich.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Die Evidenz stützt die Maßnahme. / Die Auswirkungen waren ungleich."
       }
     ]
   },
@@ -2726,18 +2654,15 @@
           "memoria",
           "migración",
           "pertenencia"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "listening",
-        "prompt": "Escucha y anota dos detalles clave: Resume la postura central y dos argumentos secundarios del episodio.",
-        "answer": "Open answer"
+        "prompt": "Escucha y anota dos detalles clave: Resume la postura central y dos argumentos secundarios del episodio."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Wahrscheinlich verändert sich Sprache. / Wichtig ist das gemeinsame Gedächtnis.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Wahrscheinlich verändert sich Sprache. / Wichtig ist das gemeinsame Gedächtnis."
       }
     ]
   },
@@ -2817,18 +2742,15 @@
           "matiz",
           "argumento",
           "contexto"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "speaking",
-        "prompt": "Habla durante 45 segundos: Presenta tu postura, matízala y responde con cortesía a otra opinión.",
-        "answer": "Open answer"
+        "prompt": "Habla durante 45 segundos: Presenta tu postura, matízala y responde con cortesía a otra opinión."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Diesen Punkt teile ich teilweise. / Anders gesagt...",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Diesen Punkt teile ich teilweise. / Anders gesagt..."
       }
     ]
   },
@@ -2909,18 +2831,15 @@
           "poder",
           "comunidad",
           "metáfora"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
-        "answer": "Open answer"
+        "prompt": "Lee el texto y resume la idea principal en una frase clara."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Der Autor behauptet, dass... / Aus diesem Beispiel ergibt sich...",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Der Autor behauptet, dass... / Aus diesem Beispiel ergibt sich..."
       }
     ]
   },
@@ -3000,18 +2919,15 @@
           "enfoque",
           "omisión",
           "lector"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Escribe de 4 a 6 frases: Redacta una reseña que evalúe contenido, enfoque y efectos en el lector.",
-        "answer": "Open answer"
+        "prompt": "Escribe de 4 a 6 frases: Redacta una reseña que evalúe contenido, enfoque y efectos en el lector."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Das Werk stellt eine entscheidende Frage. / Sein Ansatz wirkt überzeugend.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Das Werk stellt eine entscheidende Frage. / Sein Ansatz wirkt überzeugend."
       }
     ]
   },
@@ -3091,18 +3007,15 @@
           "revisión",
           "cohesión",
           "registro"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "grammar",
-        "prompt": "Transforma dos oraciones aplicando esta estructura: Subjuntivo avanzado, nominalización, estructuras impersonales y cohesión.",
-        "answer": "Open answer"
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Subjuntivo avanzado, nominalización, estructuras impersonales y cohesión."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Es ist wichtig, dass das Problem anerkannt wird. / Die Umsetzung der Maßnahme braucht Zeit.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Es ist wichtig, dass das Problem anerkannt wird. / Die Umsetzung der Maßnahme braucht Zeit."
       }
     ]
   },
@@ -3182,18 +3095,15 @@
           "interpretación",
           "evidencia",
           "conclusión"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "vocabulary",
-        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Die Evidenz legt eine andere Lesart nahe. / Diese Perspektive erweitert die Analyse.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Die Evidenz legt eine andere Lesart nahe. / Diese Perspektive erweitert die Analyse."
       }
     ]
   },
@@ -3273,18 +3183,15 @@
           "insinuación",
           "tono",
           "subtexto"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "listening",
-        "prompt": "Escucha y anota dos detalles clave: Explica qué se dice, qué se insinúa y por qué cambia el tono.",
-        "answer": "Open answer"
+        "prompt": "Escucha y anota dos detalles clave: Explica qué se dice, qué se insinúa y por qué cambia el tono."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: So formuliert wirkt es harmlos. / Aufschlussreich ist vor allem der Ton.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: So formuliert wirkt es harmlos. / Aufschlussreich ist vor allem der Ton."
       }
     ]
   },
@@ -3364,18 +3271,15 @@
           "término",
           "salida",
           "equilibrio"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "speaking",
-        "prompt": "Habla durante 45 segundos: Defiende una posición compleja, concede un punto menor y reformula una solución.",
-        "answer": "Open answer"
+        "prompt": "Habla durante 45 segundos: Defiende una posición compleja, concede un punto menor y reformula una solución."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Diesen Punkt räume ich ein, aber... / Wenn wir die Begriffe schärfen...",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Diesen Punkt räume ich ein, aber... / Wenn wir die Begriffe schärfen..."
       }
     ]
   },
@@ -3456,18 +3360,15 @@
           "supuesto",
           "cierre",
           "interpretación"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara.",
-        "answer": "Open answer"
+        "prompt": "Lee el texto y resume la idea principal en una frase clara."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Der Text setzt einen kundigen Leser voraus. / Die essayistische Stimme wird schärfer.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Der Text setzt einen kundigen Leser voraus. / Die essayistische Stimme wird schärfer."
       }
     ]
   },
@@ -3547,18 +3448,15 @@
           "mirada",
           "retórica",
           "tesis"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Escribe de 4 a 6 frases: Escribe un editorial que combine análisis, tono y una conclusión memorable.",
-        "answer": "Open answer"
+        "prompt": "Escribe de 4 a 6 frases: Escribe un editorial que combine análisis, tono y una conclusión memorable."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Einfachen Antworten sollte man misstrauen. / Die Debatte verlangt einen weiteren Blick.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Einfachen Antworten sollte man misstrauen. / Die Debatte verlangt einen weiteren Blick."
       }
     ]
   },
@@ -3638,18 +3536,15 @@
           "referencia",
           "sentido",
           "cohesión"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "grammar",
-        "prompt": "Transforma dos oraciones aplicando esta estructura: Conectores de alta precisión, correferencia, énfasis y variación sintáctica.",
-        "answer": "Open answer"
+        "prompt": "Transforma dos oraciones aplicando esta estructura: Conectores de alta precisión, correferencia, énfasis y variación sintáctica."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Nicht nur der Inhalt, auch der Rhythmus ist wichtig. / Der Bezug muss eindeutig bleiben.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Nicht nur der Inhalt, auch der Rhythmus ist wichtig. / Der Bezug muss eindeutig bleiben."
       }
     ]
   },
@@ -3729,18 +3624,15 @@
           "elocuencia",
           "matiz",
           "registro"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "vocabulary",
-        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Die Nuance verändert die Deutung. / Diese Voreingenommenheit ist nicht harmlos.",
-        "answer": "Open answer"
+        "prompt": "Usa al menos dos frases modelo: Die Nuance verändert die Deutung. / Diese Voreingenommenheit ist nicht harmlos."
       }
     ]
   }

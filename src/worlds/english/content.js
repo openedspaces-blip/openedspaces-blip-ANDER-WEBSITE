@@ -649,18 +649,15 @@
           "Nombre",
           "Profesor/a",
           "Amigo/a"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
-        "answer": "Open answer"
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: My name is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: My name is..."
       },
       {
         "type": "mcq",
@@ -670,13 +667,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
       }
     ]
   },
@@ -794,18 +789,15 @@
           "Nombre",
           "Profesor/a",
           "Amigo/a"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
-        "answer": "Open answer"
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: My name is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: My name is..."
       },
       {
         "type": "mcq",
@@ -815,13 +807,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
       }
     ]
   },
@@ -938,18 +928,15 @@
           "Nombre",
           "Profesor/a",
           "Amigo/a"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
-        "answer": "Open answer"
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: My name is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: My name is..."
       },
       {
         "type": "mcq",
@@ -959,13 +946,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
       }
     ]
   },
@@ -1083,18 +1068,15 @@
           "Nombre",
           "Profesor/a",
           "Amigo/a"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
-        "answer": "Open answer"
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: My name is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: My name is..."
       },
       {
         "type": "mcq",
@@ -1104,13 +1086,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
       }
     ]
   },
@@ -1228,18 +1208,15 @@
           "Nombre",
           "Profesor/a",
           "Amigo/a"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
-        "answer": "Open answer"
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: My name is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: My name is..."
       },
       {
         "type": "mcq",
@@ -1249,13 +1226,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
       }
     ]
   },
@@ -1373,18 +1348,15 @@
           "Nombre",
           "Profesor/a",
           "Amigo/a"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like.",
-        "answer": "Open answer"
+        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: My name is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: My name is..."
       },
       {
         "type": "mcq",
@@ -1394,13 +1366,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
       }
     ]
   },
@@ -1518,18 +1488,15 @@
           "Mercado",
           "Viajar",
           "Barato"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Describe your daily routine in 5 short sentences.",
-        "answer": "Open answer"
+        "prompt": "Describe your daily routine in 5 short sentences."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: I usually...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: I usually..."
       },
       {
         "type": "mcq",
@@ -1539,13 +1506,11 @@
           "Cita",
           "Vecino/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
-        "answer": "Oral practice"
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\"."
       }
     ]
   },
@@ -1663,18 +1628,15 @@
           "Mercado",
           "Viajar",
           "Barato"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Describe your daily routine in 5 short sentences.",
-        "answer": "Open answer"
+        "prompt": "Describe your daily routine in 5 short sentences."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: I usually...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: I usually..."
       },
       {
         "type": "mcq",
@@ -1684,13 +1646,11 @@
           "Cita",
           "Vecino/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
-        "answer": "Oral practice"
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\"."
       }
     ]
   },
@@ -1808,18 +1768,15 @@
           "Mercado",
           "Viajar",
           "Barato"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Describe your daily routine in 5 short sentences.",
-        "answer": "Open answer"
+        "prompt": "Describe your daily routine in 5 short sentences."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: I usually...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: I usually..."
       },
       {
         "type": "mcq",
@@ -1829,13 +1786,11 @@
           "Cita",
           "Vecino/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
-        "answer": "Oral practice"
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\"."
       }
     ]
   },
@@ -1953,18 +1908,15 @@
           "Mercado",
           "Viajar",
           "Barato"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Describe your daily routine in 5 short sentences.",
-        "answer": "Open answer"
+        "prompt": "Describe your daily routine in 5 short sentences."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: I usually...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: I usually..."
       },
       {
         "type": "mcq",
@@ -1974,13 +1926,11 @@
           "Cita",
           "Vecino/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
-        "answer": "Oral practice"
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\"."
       }
     ]
   },
@@ -2098,18 +2048,15 @@
           "Mercado",
           "Viajar",
           "Barato"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Describe your daily routine in 5 short sentences.",
-        "answer": "Open answer"
+        "prompt": "Describe your daily routine in 5 short sentences."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: I usually...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: I usually..."
       },
       {
         "type": "mcq",
@@ -2119,13 +2066,11 @@
           "Cita",
           "Vecino/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
-        "answer": "Oral practice"
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\"."
       }
     ]
   },
@@ -2243,18 +2188,15 @@
           "Mercado",
           "Viajar",
           "Barato"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Describe your daily routine in 5 short sentences.",
-        "answer": "Open answer"
+        "prompt": "Describe your daily routine in 5 short sentences."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: I usually...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: I usually..."
       },
       {
         "type": "mcq",
@@ -2264,13 +2206,11 @@
           "Cita",
           "Vecino/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\".",
-        "answer": "Oral practice"
+        "prompt": "Describe tu horario de mañana, tarde y noche usando \"usually\" y \"last weekend\"."
       }
     ]
   },
@@ -2388,18 +2328,15 @@
           "Mejorar",
           "Porque",
           "Experiencia"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Give your opinion about learning languages and explain two reasons.",
-        "answer": "Open answer"
+        "prompt": "Give your opinion about learning languages and explain two reasons."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: In my opinion...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: In my opinion..."
       },
       {
         "type": "mcq",
@@ -2409,13 +2346,11 @@
           "Motivación",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
-        "answer": "Oral practice"
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?"
       }
     ]
   },
@@ -2533,18 +2468,15 @@
           "Mejorar",
           "Porque",
           "Experiencia"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Give your opinion about learning languages and explain two reasons.",
-        "answer": "Open answer"
+        "prompt": "Give your opinion about learning languages and explain two reasons."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: In my opinion...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: In my opinion..."
       },
       {
         "type": "mcq",
@@ -2554,13 +2486,11 @@
           "Motivación",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
-        "answer": "Oral practice"
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?"
       }
     ]
   },
@@ -2678,18 +2608,15 @@
           "Mejorar",
           "Porque",
           "Experiencia"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Give your opinion about learning languages and explain two reasons.",
-        "answer": "Open answer"
+        "prompt": "Give your opinion about learning languages and explain two reasons."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: In my opinion...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: In my opinion..."
       },
       {
         "type": "mcq",
@@ -2699,13 +2626,11 @@
           "Motivación",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
-        "answer": "Oral practice"
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?"
       }
     ]
   },
@@ -2823,18 +2748,15 @@
           "Mejorar",
           "Porque",
           "Experiencia"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Give your opinion about learning languages and explain two reasons.",
-        "answer": "Open answer"
+        "prompt": "Give your opinion about learning languages and explain two reasons."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: In my opinion...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: In my opinion..."
       },
       {
         "type": "mcq",
@@ -2844,13 +2766,11 @@
           "Motivación",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
-        "answer": "Oral practice"
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?"
       }
     ]
   },
@@ -2968,18 +2888,15 @@
           "Mejorar",
           "Porque",
           "Experiencia"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Give your opinion about learning languages and explain two reasons.",
-        "answer": "Open answer"
+        "prompt": "Give your opinion about learning languages and explain two reasons."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: In my opinion...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: In my opinion..."
       },
       {
         "type": "mcq",
@@ -2989,13 +2906,11 @@
           "Motivación",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
-        "answer": "Oral practice"
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?"
       }
     ]
   },
@@ -3113,18 +3028,15 @@
           "Mejorar",
           "Porque",
           "Experiencia"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Give your opinion about learning languages and explain two reasons.",
-        "answer": "Open answer"
+        "prompt": "Give your opinion about learning languages and explain two reasons."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: In my opinion...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: In my opinion..."
       },
       {
         "type": "mcq",
@@ -3134,13 +3046,11 @@
           "Motivación",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?",
-        "answer": "Oral practice"
+        "prompt": "Debate con un compañero: ¿la práctica diaria es más importante que la gramática perfecta?"
       }
     ]
   },
@@ -3258,18 +3168,15 @@
           "Sin embargo",
           "Aunque",
           "Impacto"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Write a short argument about online education.",
-        "answer": "Open answer"
+        "prompt": "Write a short argument about online education."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: On the one hand...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: On the one hand..."
       },
       {
         "type": "mcq",
@@ -3279,13 +3186,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
-        "answer": "Open answer"
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\"."
       }
     ]
   },
@@ -3403,18 +3308,15 @@
           "Sin embargo",
           "Aunque",
           "Impacto"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Write a short argument about online education.",
-        "answer": "Open answer"
+        "prompt": "Write a short argument about online education."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: On the one hand...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: On the one hand..."
       },
       {
         "type": "mcq",
@@ -3424,13 +3326,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
-        "answer": "Open answer"
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\"."
       }
     ]
   },
@@ -3548,18 +3448,15 @@
           "Sin embargo",
           "Aunque",
           "Impacto"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Write a short argument about online education.",
-        "answer": "Open answer"
+        "prompt": "Write a short argument about online education."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: On the one hand...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: On the one hand..."
       },
       {
         "type": "mcq",
@@ -3569,13 +3466,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
-        "answer": "Open answer"
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\"."
       }
     ]
   },
@@ -3693,18 +3588,15 @@
           "Sin embargo",
           "Aunque",
           "Impacto"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Write a short argument about online education.",
-        "answer": "Open answer"
+        "prompt": "Write a short argument about online education."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: On the one hand...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: On the one hand..."
       },
       {
         "type": "mcq",
@@ -3714,13 +3606,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
-        "answer": "Open answer"
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\"."
       }
     ]
   },
@@ -3838,18 +3728,15 @@
           "Sin embargo",
           "Aunque",
           "Impacto"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Write a short argument about online education.",
-        "answer": "Open answer"
+        "prompt": "Write a short argument about online education."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: On the one hand...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: On the one hand..."
       },
       {
         "type": "mcq",
@@ -3859,13 +3746,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
-        "answer": "Open answer"
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\"."
       }
     ]
   },
@@ -3983,18 +3868,15 @@
           "Sin embargo",
           "Aunque",
           "Impacto"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Write a short argument about online education.",
-        "answer": "Open answer"
+        "prompt": "Write a short argument about online education."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: On the one hand...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: On the one hand..."
       },
       {
         "type": "mcq",
@@ -4004,13 +3886,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Escribe un contraargumento usando \"however\" y \"although\".",
-        "answer": "Open answer"
+        "prompt": "Escribe un contraargumento usando \"however\" y \"although\"."
       }
     ]
   },
@@ -4128,18 +4008,15 @@
           "Sutil",
           "Enfoque",
           "Resultado"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rewrite a simple opinion in a more formal academic style.",
-        "answer": "Open answer"
+        "prompt": "Rewrite a simple opinion in a more formal academic style."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: It is worth noting that...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: It is worth noting that..."
       },
       {
         "type": "mcq",
@@ -4149,13 +4026,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
-        "answer": "Open answer"
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\"."
       }
     ]
   },
@@ -4273,18 +4148,15 @@
           "Sutil",
           "Enfoque",
           "Resultado"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rewrite a simple opinion in a more formal academic style.",
-        "answer": "Open answer"
+        "prompt": "Rewrite a simple opinion in a more formal academic style."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: It is worth noting that...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: It is worth noting that..."
       },
       {
         "type": "mcq",
@@ -4294,13 +4166,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
-        "answer": "Open answer"
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\"."
       }
     ]
   },
@@ -4418,18 +4288,15 @@
           "Sutil",
           "Enfoque",
           "Resultado"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rewrite a simple opinion in a more formal academic style.",
-        "answer": "Open answer"
+        "prompt": "Rewrite a simple opinion in a more formal academic style."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: It is worth noting that...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: It is worth noting that..."
       },
       {
         "type": "mcq",
@@ -4439,13 +4306,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
-        "answer": "Open answer"
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\"."
       }
     ]
   },
@@ -4563,18 +4428,15 @@
           "Sutil",
           "Enfoque",
           "Resultado"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rewrite a simple opinion in a more formal academic style.",
-        "answer": "Open answer"
+        "prompt": "Rewrite a simple opinion in a more formal academic style."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: It is worth noting that...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: It is worth noting that..."
       },
       {
         "type": "mcq",
@@ -4584,13 +4446,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
-        "answer": "Open answer"
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\"."
       }
     ]
   },
@@ -4708,18 +4568,15 @@
           "Sutil",
           "Enfoque",
           "Resultado"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rewrite a simple opinion in a more formal academic style.",
-        "answer": "Open answer"
+        "prompt": "Rewrite a simple opinion in a more formal academic style."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: It is worth noting that...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: It is worth noting that..."
       },
       {
         "type": "mcq",
@@ -4729,13 +4586,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
-        "answer": "Open answer"
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\"."
       }
     ]
   },
@@ -4853,18 +4708,15 @@
           "Sutil",
           "Enfoque",
           "Resultado"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rewrite a simple opinion in a more formal academic style.",
-        "answer": "Open answer"
+        "prompt": "Rewrite a simple opinion in a more formal academic style."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: It is worth noting that...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: It is worth noting that..."
       },
       {
         "type": "mcq",
@@ -4874,13 +4726,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\".",
-        "answer": "Open answer"
+        "prompt": "Reescribe una oración simple usando \"inversion\" o \"hedging\"."
       }
     ]
   },
@@ -4998,18 +4848,15 @@
           "Convincente",
           "Conciso",
           "Impecable"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
-        "answer": "Open answer"
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: The underlying issue is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: The underlying issue is..."
       },
       {
         "type": "mcq",
@@ -5019,13 +4866,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
-        "answer": "Open answer"
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal)."
       }
     ]
   },
@@ -5143,18 +4988,15 @@
           "Convincente",
           "Conciso",
           "Impecable"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
-        "answer": "Open answer"
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: The underlying issue is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: The underlying issue is..."
       },
       {
         "type": "mcq",
@@ -5164,13 +5006,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
-        "answer": "Open answer"
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal)."
       }
     ]
   },
@@ -5288,18 +5128,15 @@
           "Convincente",
           "Conciso",
           "Impecable"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
-        "answer": "Open answer"
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: The underlying issue is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: The underlying issue is..."
       },
       {
         "type": "mcq",
@@ -5309,13 +5146,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
-        "answer": "Open answer"
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal)."
       }
     ]
   },
@@ -5433,18 +5268,15 @@
           "Convincente",
           "Conciso",
           "Impecable"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
-        "answer": "Open answer"
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: The underlying issue is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: The underlying issue is..."
       },
       {
         "type": "mcq",
@@ -5454,13 +5286,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
-        "answer": "Open answer"
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal)."
       }
     ]
   },
@@ -5578,18 +5408,15 @@
           "Convincente",
           "Conciso",
           "Impecable"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
-        "answer": "Open answer"
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: The underlying issue is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: The underlying issue is..."
       },
       {
         "type": "mcq",
@@ -5599,13 +5426,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
-        "answer": "Open answer"
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal)."
       }
     ]
   },
@@ -5723,18 +5548,15 @@
           "Convincente",
           "Conciso",
           "Impecable"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Produce a polished paragraph with nuance and rhetorical balance.",
-        "answer": "Open answer"
+        "prompt": "Produce a polished paragraph with nuance and rhetorical balance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: The underlying issue is...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: The underlying issue is..."
       },
       {
         "type": "mcq",
@@ -5744,13 +5566,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal).",
-        "answer": "Open answer"
+        "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal)."
       }
     ]
   }

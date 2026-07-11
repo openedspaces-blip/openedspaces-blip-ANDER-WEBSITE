@@ -649,18 +649,15 @@
           "Gracias",
           "Amigo",
           "Casa"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Présente-toi en 4 phrases simples.",
-        "answer": "Open answer"
+        "prompt": "Présente-toi en 4 phrases simples."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je m’appelle...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je m’appelle..."
       },
       {
         "type": "mcq",
@@ -670,13 +667,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\"."
       }
     ]
   },
@@ -794,18 +789,15 @@
           "Gracias",
           "Amigo",
           "Casa"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Présente-toi en 4 phrases simples.",
-        "answer": "Open answer"
+        "prompt": "Présente-toi en 4 phrases simples."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je m’appelle...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je m’appelle..."
       },
       {
         "type": "mcq",
@@ -815,13 +807,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\"."
       }
     ]
   },
@@ -938,18 +928,15 @@
           "Gracias",
           "Amigo",
           "Casa"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Présente-toi en 4 phrases simples.",
-        "answer": "Open answer"
+        "prompt": "Présente-toi en 4 phrases simples."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je m’appelle...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je m’appelle..."
       },
       {
         "type": "mcq",
@@ -959,13 +946,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\"."
       }
     ]
   },
@@ -1083,18 +1068,15 @@
           "Gracias",
           "Amigo",
           "Casa"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Présente-toi en 4 phrases simples.",
-        "answer": "Open answer"
+        "prompt": "Présente-toi en 4 phrases simples."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je m’appelle...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je m’appelle..."
       },
       {
         "type": "mcq",
@@ -1104,13 +1086,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\"."
       }
     ]
   },
@@ -1228,18 +1208,15 @@
           "Gracias",
           "Amigo",
           "Casa"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Présente-toi en 4 phrases simples.",
-        "answer": "Open answer"
+        "prompt": "Présente-toi en 4 phrases simples."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je m’appelle...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je m’appelle..."
       },
       {
         "type": "mcq",
@@ -1249,13 +1226,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\"."
       }
     ]
   },
@@ -1373,18 +1348,15 @@
           "Gracias",
           "Amigo",
           "Casa"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Présente-toi en 4 phrases simples.",
-        "answer": "Open answer"
+        "prompt": "Présente-toi en 4 phrases simples."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je m’appelle...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je m’appelle..."
       },
       {
         "type": "mcq",
@@ -1394,13 +1366,11 @@
           "Hermana",
           "Estudiante",
           "Por favor"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\".",
-        "answer": "Oral practice"
+        "prompt": "Practica el diálogo con un compañero usando \"d’où viens-tu\" y \"je viens de...\"."
       }
     ]
   },
@@ -1518,18 +1488,15 @@
           "Tienda",
           "Desayuno",
           "Viaje"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Décris ta journée avec cinq actions.",
-        "answer": "Open answer"
+        "prompt": "Décris ta journée avec cinq actions."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je voudrais...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je voudrais..."
       },
       {
         "type": "mcq",
@@ -1539,13 +1506,11 @@
           "Cita",
           "Ocupado/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
-        "answer": "Oral practice"
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir."
       }
     ]
   },
@@ -1663,18 +1628,15 @@
           "Tienda",
           "Desayuno",
           "Viaje"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Décris ta journée avec cinq actions.",
-        "answer": "Open answer"
+        "prompt": "Décris ta journée avec cinq actions."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je voudrais...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je voudrais..."
       },
       {
         "type": "mcq",
@@ -1684,13 +1646,11 @@
           "Cita",
           "Ocupado/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
-        "answer": "Oral practice"
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir."
       }
     ]
   },
@@ -1808,18 +1768,15 @@
           "Tienda",
           "Desayuno",
           "Viaje"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Décris ta journée avec cinq actions.",
-        "answer": "Open answer"
+        "prompt": "Décris ta journée avec cinq actions."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je voudrais...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je voudrais..."
       },
       {
         "type": "mcq",
@@ -1829,13 +1786,11 @@
           "Cita",
           "Ocupado/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
-        "answer": "Oral practice"
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir."
       }
     ]
   },
@@ -1953,18 +1908,15 @@
           "Tienda",
           "Desayuno",
           "Viaje"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Décris ta journée avec cinq actions.",
-        "answer": "Open answer"
+        "prompt": "Décris ta journée avec cinq actions."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je voudrais...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je voudrais..."
       },
       {
         "type": "mcq",
@@ -1974,13 +1926,11 @@
           "Cita",
           "Ocupado/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
-        "answer": "Oral practice"
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir."
       }
     ]
   },
@@ -2098,18 +2048,15 @@
           "Tienda",
           "Desayuno",
           "Viaje"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Décris ta journée avec cinq actions.",
-        "answer": "Open answer"
+        "prompt": "Décris ta journée avec cinq actions."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je voudrais...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je voudrais..."
       },
       {
         "type": "mcq",
@@ -2119,13 +2066,11 @@
           "Cita",
           "Ocupado/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
-        "answer": "Oral practice"
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir."
       }
     ]
   },
@@ -2243,18 +2188,15 @@
           "Tienda",
           "Desayuno",
           "Viaje"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Décris ta journée avec cinq actions.",
-        "answer": "Open answer"
+        "prompt": "Décris ta journée avec cinq actions."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Je voudrais...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Je voudrais..."
       },
       {
         "type": "mcq",
@@ -2264,13 +2206,11 @@
           "Cita",
           "Ocupado/a",
           "Tienda de abarrotes"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir.",
-        "answer": "Oral practice"
+        "prompt": "Décris ton horaire du matin, de l’après-midi et du soir."
       }
     ]
   },
@@ -2388,18 +2328,15 @@
           "Razón",
           "Experiencia",
           "Mejorar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Donne ton opinion sur l’apprentissage des langues.",
-        "answer": "Open answer"
+        "prompt": "Donne ton opinion sur l’apprentissage des langues."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: À mon avis...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: À mon avis..."
       },
       {
         "type": "mcq",
@@ -2409,13 +2346,11 @@
           "Perspectiva",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
-        "answer": "Oral practice"
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?"
       }
     ]
   },
@@ -2533,18 +2468,15 @@
           "Razón",
           "Experiencia",
           "Mejorar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Donne ton opinion sur l’apprentissage des langues.",
-        "answer": "Open answer"
+        "prompt": "Donne ton opinion sur l’apprentissage des langues."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: À mon avis...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: À mon avis..."
       },
       {
         "type": "mcq",
@@ -2554,13 +2486,11 @@
           "Perspectiva",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
-        "answer": "Oral practice"
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?"
       }
     ]
   },
@@ -2678,18 +2608,15 @@
           "Razón",
           "Experiencia",
           "Mejorar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Donne ton opinion sur l’apprentissage des langues.",
-        "answer": "Open answer"
+        "prompt": "Donne ton opinion sur l’apprentissage des langues."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: À mon avis...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: À mon avis..."
       },
       {
         "type": "mcq",
@@ -2699,13 +2626,11 @@
           "Perspectiva",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
-        "answer": "Oral practice"
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?"
       }
     ]
   },
@@ -2823,18 +2748,15 @@
           "Razón",
           "Experiencia",
           "Mejorar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Donne ton opinion sur l’apprentissage des langues.",
-        "answer": "Open answer"
+        "prompt": "Donne ton opinion sur l’apprentissage des langues."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: À mon avis...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: À mon avis..."
       },
       {
         "type": "mcq",
@@ -2844,13 +2766,11 @@
           "Perspectiva",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
-        "answer": "Oral practice"
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?"
       }
     ]
   },
@@ -2968,18 +2888,15 @@
           "Razón",
           "Experiencia",
           "Mejorar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Donne ton opinion sur l’apprentissage des langues.",
-        "answer": "Open answer"
+        "prompt": "Donne ton opinion sur l’apprentissage des langues."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: À mon avis...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: À mon avis..."
       },
       {
         "type": "mcq",
@@ -2989,13 +2906,11 @@
           "Perspectiva",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
-        "answer": "Oral practice"
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?"
       }
     ]
   },
@@ -3113,18 +3028,15 @@
           "Razón",
           "Experiencia",
           "Mejorar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Donne ton opinion sur l’apprentissage des langues.",
-        "answer": "Open answer"
+        "prompt": "Donne ton opinion sur l’apprentissage des langues."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: À mon avis...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: À mon avis..."
       },
       {
         "type": "mcq",
@@ -3134,13 +3046,11 @@
           "Perspectiva",
           "Constante",
           "Dificultad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?",
-        "answer": "Oral practice"
+        "prompt": "Débat : la pratique quotidienne est-elle plus importante que la grammaire parfaite ?"
       }
     ]
   },
@@ -3258,18 +3168,15 @@
           "Desafío",
           "Evidencia",
           "Desarrollar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Écris un paragraphe sur les avantages du numérique.",
-        "answer": "Open answer"
+        "prompt": "Écris un paragraphe sur les avantages du numérique."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: D’une part...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: D’une part..."
       },
       {
         "type": "mcq",
@@ -3279,13 +3186,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
-        "answer": "Open answer"
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\"."
       }
     ]
   },
@@ -3403,18 +3308,15 @@
           "Desafío",
           "Evidencia",
           "Desarrollar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Écris un paragraphe sur les avantages du numérique.",
-        "answer": "Open answer"
+        "prompt": "Écris un paragraphe sur les avantages du numérique."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: D’une part...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: D’une part..."
       },
       {
         "type": "mcq",
@@ -3424,13 +3326,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
-        "answer": "Open answer"
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\"."
       }
     ]
   },
@@ -3548,18 +3448,15 @@
           "Desafío",
           "Evidencia",
           "Desarrollar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Écris un paragraphe sur les avantages du numérique.",
-        "answer": "Open answer"
+        "prompt": "Écris un paragraphe sur les avantages du numérique."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: D’une part...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: D’une part..."
       },
       {
         "type": "mcq",
@@ -3569,13 +3466,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
-        "answer": "Open answer"
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\"."
       }
     ]
   },
@@ -3693,18 +3588,15 @@
           "Desafío",
           "Evidencia",
           "Desarrollar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Écris un paragraphe sur les avantages du numérique.",
-        "answer": "Open answer"
+        "prompt": "Écris un paragraphe sur les avantages du numérique."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: D’une part...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: D’une part..."
       },
       {
         "type": "mcq",
@@ -3714,13 +3606,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
-        "answer": "Open answer"
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\"."
       }
     ]
   },
@@ -3838,18 +3728,15 @@
           "Desafío",
           "Evidencia",
           "Desarrollar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Écris un paragraphe sur les avantages du numérique.",
-        "answer": "Open answer"
+        "prompt": "Écris un paragraphe sur les avantages du numérique."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: D’une part...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: D’une part..."
       },
       {
         "type": "mcq",
@@ -3859,13 +3746,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
-        "answer": "Open answer"
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\"."
       }
     ]
   },
@@ -3983,18 +3868,15 @@
           "Desafío",
           "Evidencia",
           "Desarrollar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Écris un paragraphe sur les avantages du numérique.",
-        "answer": "Open answer"
+        "prompt": "Écris un paragraphe sur les avantages du numérique."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: D’une part...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: D’une part..."
       },
       {
         "type": "mcq",
@@ -4004,13 +3886,11 @@
           "Acceso",
           "Autonomía",
           "Disciplina"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\".",
-        "answer": "Open answer"
+        "prompt": "Écris un contre-argument en utilisant \"cependant\" et \"bien que\"."
       }
     ]
   },
@@ -4128,18 +4008,15 @@
           "Alcance",
           "Enfoque",
           "Sostener"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Reformule une opinion avec un style soutenu.",
-        "answer": "Open answer"
+        "prompt": "Reformule une opinion avec un style soutenu."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Il convient de souligner que...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Il convient de souligner que..."
       },
       {
         "type": "mcq",
@@ -4149,13 +4026,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
-        "answer": "Open answer"
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging)."
       }
     ]
   },
@@ -4273,18 +4148,15 @@
           "Alcance",
           "Enfoque",
           "Sostener"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Reformule une opinion avec un style soutenu.",
-        "answer": "Open answer"
+        "prompt": "Reformule une opinion avec un style soutenu."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Il convient de souligner que...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Il convient de souligner que..."
       },
       {
         "type": "mcq",
@@ -4294,13 +4166,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
-        "answer": "Open answer"
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging)."
       }
     ]
   },
@@ -4418,18 +4288,15 @@
           "Alcance",
           "Enfoque",
           "Sostener"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Reformule une opinion avec un style soutenu.",
-        "answer": "Open answer"
+        "prompt": "Reformule une opinion avec un style soutenu."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Il convient de souligner que...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Il convient de souligner que..."
       },
       {
         "type": "mcq",
@@ -4439,13 +4306,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
-        "answer": "Open answer"
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging)."
       }
     ]
   },
@@ -4563,18 +4428,15 @@
           "Alcance",
           "Enfoque",
           "Sostener"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Reformule une opinion avec un style soutenu.",
-        "answer": "Open answer"
+        "prompt": "Reformule une opinion avec un style soutenu."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Il convient de souligner que...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Il convient de souligner que..."
       },
       {
         "type": "mcq",
@@ -4584,13 +4446,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
-        "answer": "Open answer"
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging)."
       }
     ]
   },
@@ -4708,18 +4568,15 @@
           "Alcance",
           "Enfoque",
           "Sostener"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Reformule une opinion avec un style soutenu.",
-        "answer": "Open answer"
+        "prompt": "Reformule une opinion avec un style soutenu."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Il convient de souligner que...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Il convient de souligner que..."
       },
       {
         "type": "mcq",
@@ -4729,13 +4586,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
-        "answer": "Open answer"
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging)."
       }
     ]
   },
@@ -4853,18 +4708,15 @@
           "Alcance",
           "Enfoque",
           "Sostener"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Reformule une opinion avec un style soutenu.",
-        "answer": "Open answer"
+        "prompt": "Reformule une opinion avec un style soutenu."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: Il convient de souligner que...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: Il convient de souligner que..."
       },
       {
         "type": "mcq",
@@ -4874,13 +4726,11 @@
           "Implicación",
           "Discurso",
           "Ambigüedad"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging).",
-        "answer": "Open answer"
+        "prompt": "Réécris une phrase simple en utilisant une inversion ou une atténuation (hedging)."
       }
     ]
   },
@@ -4998,18 +4848,15 @@
           "Sutil",
           "Logrado",
           "Aclarar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rédige une réflexion persuasive avec nuance.",
-        "answer": "Open answer"
+        "prompt": "Rédige une réflexion persuasive avec nuance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: La question mérite d’être posée...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: La question mérite d’être posée..."
       },
       {
         "type": "mcq",
@@ -5019,13 +4866,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
-        "answer": "Open answer"
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel)."
       }
     ]
   },
@@ -5143,18 +4988,15 @@
           "Sutil",
           "Logrado",
           "Aclarar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rédige une réflexion persuasive avec nuance.",
-        "answer": "Open answer"
+        "prompt": "Rédige une réflexion persuasive avec nuance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: La question mérite d’être posée...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: La question mérite d’être posée..."
       },
       {
         "type": "mcq",
@@ -5164,13 +5006,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
-        "answer": "Open answer"
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel)."
       }
     ]
   },
@@ -5288,18 +5128,15 @@
           "Sutil",
           "Logrado",
           "Aclarar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rédige une réflexion persuasive avec nuance.",
-        "answer": "Open answer"
+        "prompt": "Rédige une réflexion persuasive avec nuance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: La question mérite d’être posée...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: La question mérite d’être posée..."
       },
       {
         "type": "mcq",
@@ -5309,13 +5146,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
-        "answer": "Open answer"
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel)."
       }
     ]
   },
@@ -5433,18 +5268,15 @@
           "Sutil",
           "Logrado",
           "Aclarar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rédige une réflexion persuasive avec nuance.",
-        "answer": "Open answer"
+        "prompt": "Rédige une réflexion persuasive avec nuance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: La question mérite d’être posée...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: La question mérite d’être posée..."
       },
       {
         "type": "mcq",
@@ -5454,13 +5286,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
-        "answer": "Open answer"
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel)."
       }
     ]
   },
@@ -5578,18 +5408,15 @@
           "Sutil",
           "Logrado",
           "Aclarar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rédige une réflexion persuasive avec nuance.",
-        "answer": "Open answer"
+        "prompt": "Rédige une réflexion persuasive avec nuance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: La question mérite d’être posée...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: La question mérite d’être posée..."
       },
       {
         "type": "mcq",
@@ -5599,13 +5426,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
-        "answer": "Open answer"
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel)."
       }
     ]
   },
@@ -5723,18 +5548,15 @@
           "Sutil",
           "Logrado",
           "Aclarar"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "writing",
-        "prompt": "Rédige une réflexion persuasive avec nuance.",
-        "answer": "Open answer"
+        "prompt": "Rédige une réflexion persuasive avec nuance."
       },
       {
         "type": "speaking",
-        "prompt": "Lee en voz alta: La question mérite d’être posée...",
-        "answer": "Oral practice"
+        "prompt": "Lee en voz alta: La question mérite d’être posée..."
       },
       {
         "type": "mcq",
@@ -5744,13 +5566,11 @@
           "Elocuencia",
           "Registro",
           "Cohesivo"
-        ],
-        "answer": 0
+        ]
       },
       {
         "type": "practice",
-        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel).",
-        "answer": "Open answer"
+        "prompt": "Produis deux versions du même message dans des registres différents (formel et informel)."
       }
     ]
   }

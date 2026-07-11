@@ -356,7 +356,7 @@ function renderMcqItem(question, index, languageKey) {
   `).join('');
 
   return `
-    <li class="mcq-question" data-answer-index="${question.answer}" data-language="${escapeHtml(languageKey || '')}">
+    <li class="mcq-question" data-language="${escapeHtml(languageKey || '')}">
       <strong>${index + 1}.</strong> ${escapeHtml(question.q || '')}
       <div class="mcq-options">${optionsHtml}</div>
       <span class="mcq-feedback" aria-live="polite"></span>
@@ -765,8 +765,21 @@ const learningPathState = {
   lessons: [],
   activeSlug: null,
   language: 'english',
-  level: 'A1'
+  level: 'A1',
+  // Practice results recorded locally as the student answers, keyed by
+  // lesson slug -> exercise index -> { selectedOption } | { practiced: true }.
+  // Only used to drive the UI (which exercises are left, when "Completar"
+  // unlocks); the backend re-grades everything from scratch on submit and
+  // never trusts this client-side copy.
+  exerciseResults: {}
 };
+
+function getExerciseProgress(lesson) {
+  const total = lesson.exercises?.length || 0;
+  const results = learningPathState.exerciseResults[lesson.slug] || {};
+  const attempted = Object.keys(results).length;
+  return { total, attempted, allAttempted: total === 0 || attempted >= total };
+}
 
 const languageDisplayNames = {
   english: 'English',
@@ -882,23 +895,30 @@ function renderSkillGraph() {
 }
 
 function renderLessonExercise(item, index, lesson) {
+  const recorded = learningPathState.exerciseResults[lesson.slug]?.[index];
+
   if (item.type === 'mcq' && Array.isArray(item.options)) {
-    const optionsHtml = item.options.map((option, optionIndex) => `
-      <button type="button" class="mcq-option" data-option-index="${optionIndex}">${escapeHtml(option)}</button>
-    `).join('');
+    const optionsHtml = item.options.map((option, optionIndex) => {
+      const isChosen = recorded && Number(recorded.selectedOption) === optionIndex;
+      const cls = isChosen ? (recorded.correct ? 'correct' : 'incorrect') : '';
+      const disabled = recorded ? 'disabled' : '';
+      return `<button type="button" class="mcq-option ${cls}" data-option-index="${optionIndex}" ${disabled}>${escapeHtml(option)}</button>`;
+    }).join('');
+    const answeredClass = recorded ? `answered ${recorded.correct ? 'is-correct' : 'is-incorrect'}` : '';
+    const feedbackText = recorded ? (recorded.correct ? '¡Correcto! +5 XP' : 'No es correcto, pero sigue intentando.') : '';
     return `
-      <div class="mcq-question lesson-exercise" data-answer-index="${item.answer}" data-skill="${escapeHtml(lesson.skill || '')}" data-language="${escapeHtml(learningPathState.language)}">
+      <div class="mcq-question lesson-exercise ${answeredClass}" data-exercise-index="${index}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || '')}" data-language="${escapeHtml(learningPathState.language)}">
         <strong>${index + 1}. ${escapeHtml(item.prompt)}</strong>
         <div class="mcq-options">${optionsHtml}</div>
-        <span class="mcq-feedback" aria-live="polite"></span>
+        <span class="mcq-feedback" aria-live="polite">${feedbackText}</span>
       </div>
     `;
   }
 
   return `
-    <div class="lesson-exercise open-exercise" data-skill="${escapeHtml(lesson.skill || item.type || '')}" data-language="${escapeHtml(learningPathState.language)}">
+    <div class="lesson-exercise open-exercise" data-exercise-index="${index}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || item.type || '')}" data-language="${escapeHtml(learningPathState.language)}">
       <strong>${index + 1}. ${escapeHtml(item.prompt)}</strong>
-      <button type="button" class="practice-mark-btn">Marcar como practicado</button>
+      <button type="button" class="practice-mark-btn" ${recorded ? 'disabled' : ''}>${recorded ? '✅ Practicado' : 'Marcar como practicado'}</button>
     </div>
   `;
 }
@@ -936,7 +956,7 @@ function renderLessonWorkspace() {
       <span>Desbloquea esta lección y la ruta completa con el único plan: USD ${premiumPriceUsd}.</span>
       <button type="button" class="primary-btn upgrade-btn">Desbloquear por USD ${premiumPriceUsd}</button>
     </div>
-  ` : (lesson.exercises?.slice(0, 4).map((item, index) => renderLessonExercise(item, index, lesson)).join('') || '');
+  ` : (lesson.exercises?.map((item, index) => renderLessonExercise(item, index, lesson)).join('') || '');
 
   workspace.querySelector('.lesson-kicker').textContent = `${lesson.level} · ${lesson.skill}`;
   workspace.querySelector('h3').textContent = lesson.title;
@@ -949,9 +969,27 @@ function renderLessonWorkspace() {
 
   const completeButton = workspace.querySelector('.lesson-complete-btn');
   if (completeButton) {
-    completeButton.disabled = Boolean(lesson.completed) || Boolean(lesson.locked);
-    completeButton.textContent = lesson.locked ? `Premium USD ${premiumPriceUsd}` : (lesson.completed ? 'Completada' : 'Completar');
     completeButton.dataset.lessonSlug = lesson.slug;
+
+    if (lesson.locked) {
+      completeButton.disabled = true;
+      completeButton.dataset.mode = 'locked';
+      completeButton.textContent = `Premium USD ${premiumPriceUsd}`;
+    } else if (lesson.completed) {
+      completeButton.disabled = true;
+      completeButton.dataset.mode = 'completed';
+      completeButton.textContent = 'Completada';
+    } else {
+      const { total, attempted, allAttempted } = getExerciseProgress(lesson);
+      completeButton.disabled = false;
+      if (allAttempted) {
+        completeButton.dataset.mode = 'complete';
+        completeButton.textContent = 'Completar';
+      } else {
+        completeButton.dataset.mode = 'practice';
+        completeButton.textContent = attempted > 0 ? `Iniciar práctica (${attempted}/${total})` : 'Iniciar práctica';
+      }
+    }
   }
 }
 
@@ -1010,17 +1048,34 @@ async function completeActiveLesson() {
     return;
   }
 
+  const completeButton = document.querySelector('.lesson-complete-btn');
+
+  // "Iniciar práctica" mode: nothing to submit yet - just point the student
+  // at the exercises. The button only switches to "Completar" once every
+  // exercise has been attempted (see getExerciseProgress / renderLessonWorkspace).
+  if (completeButton?.dataset.mode === 'practice') {
+    document.querySelector('.lesson-exercises')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    showHomeToast('Responde los ejercicios de la lección para poder completarla.');
+    return;
+  }
+
   if (!authStatus.session?.access_token) {
     setAuthMessage('Crea tu cuenta gratis para guardar el progreso de la lección.');
     openModal('signup');
     return;
   }
 
-  const completeButton = document.querySelector('.lesson-complete-btn');
   if (completeButton) {
     completeButton.disabled = true;
     completeButton.textContent = 'Guardando...';
   }
+
+  const recordedResults = learningPathState.exerciseResults[activeLesson.slug] || {};
+  const answers = Object.entries(recordedResults).map(([index, result]) => ({
+    index: Number(index),
+    selectedOption: result.selectedOption,
+    practiced: result.practiced
+  }));
 
   try {
     const response = await fetch(`${backendBaseUrl}/api/lessons/${activeLesson.slug}/complete`, {
@@ -1029,7 +1084,7 @@ async function completeActiveLesson() {
         'Content-Type': 'application/json',
         ...authHeaders()
       },
-      body: JSON.stringify({ score: 100 })
+      body: JSON.stringify({ answers })
     });
     const data = await response.json().catch(() => ({}));
     if (!response.ok) {
@@ -1043,7 +1098,7 @@ async function completeActiveLesson() {
     const gamResult = window.AndergoGamification?.recordLessonCompletion({
       slug: activeLesson.slug,
       language: learningPathState.language,
-      score: 100,
+      score: data.score ?? 100,
       xpReward: activeLesson.xpReward || 20
     });
     window.AndergoGamification?.syncFromServer(data);
@@ -1061,10 +1116,7 @@ async function completeActiveLesson() {
   } catch (error) {
     console.error('Could not complete lesson', error);
     showHomeToast(error.message || 'No se pudo completar la lección.');
-    if (completeButton) {
-      completeButton.disabled = false;
-      completeButton.textContent = 'Completar';
-    }
+    renderLessonWorkspace();
   }
 }
 
@@ -1348,39 +1400,56 @@ function enableHomepageActions() {
     const mcqOption = event.target.closest('.mcq-option');
     if (mcqOption) {
       const questionItem = mcqOption.closest('.mcq-question');
-      if (!questionItem || questionItem.classList.contains('answered')) return;
+      const slug = questionItem?.dataset.lessonSlug;
+      if (!questionItem || questionItem.classList.contains('answered') || mcqOption.disabled || !slug) return;
 
-      const answerIndex = Number(questionItem.dataset.answerIndex);
+      const exerciseIndex = Number(questionItem.dataset.exerciseIndex);
       const chosenIndex = Number(mcqOption.dataset.optionIndex);
-      const isCorrect = chosenIndex === answerIndex;
       const feedback = questionItem.querySelector('.mcq-feedback');
 
-      questionItem.querySelectorAll('.mcq-option').forEach((option, index) => {
-        option.disabled = true;
-        if (index === answerIndex) option.classList.add('correct');
-        if (index === chosenIndex && !isCorrect) option.classList.add('incorrect');
-      });
-      questionItem.classList.add('answered', isCorrect ? 'is-correct' : 'is-incorrect');
+      questionItem.querySelectorAll('.mcq-option').forEach(option => { option.disabled = true; });
+      if (feedback) feedback.textContent = 'Comprobando...';
 
-      if (feedback) {
-        feedback.textContent = isCorrect ? '¡Correcto! +5 XP' : 'No es correcto, pero sigue intentando.';
+      try {
+        const response = await fetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ index: exerciseIndex, selectedOption: chosenIndex })
+        });
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(data.error || 'No se pudo verificar la respuesta.');
+
+        learningPathState.exerciseResults[slug] = learningPathState.exerciseResults[slug] || {};
+        learningPathState.exerciseResults[slug][exerciseIndex] = { selectedOption: chosenIndex, correct: Boolean(data.correct) };
+
+        if (data.correct) {
+          window.AndergoGamification?.recordCorrectAnswer();
+          window.AndergoGamification?.recordSkillTouched(questionItem.dataset.skill, questionItem.dataset.language || currentTargetLanguage);
+        }
+      } catch (error) {
+        if (feedback) feedback.textContent = error.message || 'No se pudo verificar la respuesta.';
+        questionItem.querySelectorAll('.mcq-option').forEach(option => { option.disabled = false; });
+        return;
       }
 
-      if (isCorrect) {
-        window.AndergoGamification?.recordCorrectAnswer();
-        window.AndergoGamification?.recordSkillTouched('reading', questionItem.dataset.language || currentTargetLanguage);
-      }
+      renderLessonWorkspace();
       return;
     }
 
     const practiceButton = event.target.closest('.practice-mark-btn');
     if (practiceButton) {
       const exerciseBlock = practiceButton.closest('.open-exercise');
-      if (practiceButton.disabled) return;
-      practiceButton.disabled = true;
-      practiceButton.textContent = '✅ Practicado';
+      const slug = exerciseBlock?.dataset.lessonSlug;
+      if (practiceButton.disabled || !slug) return;
+
+      const exerciseIndex = Number(exerciseBlock.dataset.exerciseIndex);
+      learningPathState.exerciseResults[slug] = learningPathState.exerciseResults[slug] || {};
+      learningPathState.exerciseResults[slug][exerciseIndex] = { practiced: true };
+
       window.AndergoGamification?.recordCorrectAnswer();
-      window.AndergoGamification?.recordSkillTouched(exerciseBlock?.dataset.skill, exerciseBlock?.dataset.language || currentTargetLanguage);
+      window.AndergoGamification?.recordSkillTouched(exerciseBlock.dataset.skill, exerciseBlock.dataset.language || currentTargetLanguage);
+
+      renderLessonWorkspace();
       return;
     }
 

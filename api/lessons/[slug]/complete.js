@@ -12,11 +12,11 @@ module.exports = withHandler(async (req, res) => {
   }
 
   const slug = req.query.slug;
-  const { score } = req.body || {};
+  const { answers } = req.body || {};
   const result = await lessonsService.completeLesson({
     userId: user.id,
     slug,
-    score: Number.isFinite(score) ? score : 100
+    answers: Array.isArray(answers) ? answers : []
   });
   res.status(200).json(result);
 });

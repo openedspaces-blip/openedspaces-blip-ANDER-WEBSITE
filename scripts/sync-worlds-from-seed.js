@@ -90,6 +90,15 @@ function buildLevelContent(language) {
   return levels;
 }
 
+// This file is a public static asset shipped to every visitor's browser
+// (window.ANDERGO_LANGUAGE_WORLDS, used as offline/no-backend fallback
+// content), so the correct answer for each exercise must never end up in
+// it - only lib/seed-lessons.json (server-side only) keeps the real answer,
+// read by lib/lessonsService.js to grade submissions.
+function sanitizeExerciseForClient({ answer, ...rest }) {
+  return rest;
+}
+
 function shapeBrowserLesson(row) {
   const content = row.content_json || {};
   return {
@@ -110,7 +119,7 @@ function shapeBrowserLesson(row) {
     vocabulary: content.vocabulary || [],
     dialogue: content.dialogue || [],
     reading: content.reading || null,
-    exercises: content.exercises || []
+    exercises: (content.exercises || []).map(sanitizeExerciseForClient)
   };
 }
 
