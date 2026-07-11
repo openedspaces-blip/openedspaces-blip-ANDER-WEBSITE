@@ -1469,7 +1469,7 @@ function setupLearningPathControls() {
 
 function initScrollReveal() {
   const elements = document.querySelectorAll(
-    '.section-heading, .features-grid article, .plan, .missions-panel, .badges-panel, .language-card, .download-box, .course-card'
+    '.section-heading, .features-grid article, .plan, .missions-panel, .badges-panel, .goal-card, .download-box, .course-card'
   );
   if (!elements.length) return;
 
