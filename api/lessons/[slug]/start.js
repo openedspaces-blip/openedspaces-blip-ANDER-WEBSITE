@@ -1,10 +1,16 @@
-// api/lessons/[slug]/complete.js -> POST /api/lessons/:slug/complete
+// api/lessons/[slug]/start.js -> POST /api/lessons/:slug/start
+// Marks a lesson as in_progress for the signed-in user (user_lesson_progress).
+// Only meaningful for lessons migrated into the normalized courses schema.
 const authService = require('../../../lib/authService');
-const lessonsService = require('../../../lib/lessonsService');
 const courseLessonsService = require('../../../lib/courseLessonsService');
 const { withHandler, getBearerToken } = require('../../../lib/httpHelpers');
 
 module.exports = withHandler(async (req, res) => {
+  if (req.method !== 'POST') {
+    res.status(405).json({ error: 'Method not allowed.' });
+    return;
+  }
+
   const token = getBearerToken(req);
   const user = await authService.verifyToken(token);
   if (!user) {
@@ -13,15 +19,11 @@ module.exports = withHandler(async (req, res) => {
   }
 
   const slug = req.query.slug;
-  const { answers } = req.body || {};
-  const safeAnswers = Array.isArray(answers) ? answers : [];
-
-  if (await courseLessonsService.hasLesson(slug)) {
-    const result = await courseLessonsService.completeLesson({ userId: user.id, slug, answers: safeAnswers });
-    res.status(200).json(result);
+  if (!(await courseLessonsService.hasLesson(slug))) {
+    res.status(404).json({ error: 'Lesson not found.' });
     return;
   }
 
-  const result = await lessonsService.completeLesson({ userId: user.id, slug, answers: safeAnswers });
+  const result = await courseLessonsService.startLesson({ userId: user.id, slug });
   res.status(200).json(result);
 });
