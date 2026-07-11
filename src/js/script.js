@@ -924,6 +924,12 @@ function renderLessonWorkspace() {
     </div>
   `).join('') || '';
 
+  const audioPlayer = (lesson.skill === 'listening' && lesson.audioUrl)
+    ? `<audio class="lesson-audio-player" controls preload="none" src="${escapeHtml(lesson.audioUrl)}">
+        Tu navegador no soporta audio HTML5.
+      </audio>`
+    : '';
+
   const exercises = lesson.locked ? `
     <div class="premium-lock-box">
       <strong>🔒 Lección premium</strong>
@@ -935,6 +941,8 @@ function renderLessonWorkspace() {
   workspace.querySelector('.lesson-kicker').textContent = `${lesson.level} · ${lesson.skill}`;
   workspace.querySelector('h3').textContent = lesson.title;
   workspace.querySelector('.lesson-intro').textContent = lesson.intro || lesson.description || '';
+  const audioContainer = workspace.querySelector('.lesson-audio');
+  if (audioContainer) audioContainer.innerHTML = audioPlayer;
   workspace.querySelector('.lesson-vocabulary').innerHTML = vocabulary;
   workspace.querySelector('.lesson-dialogue').innerHTML = dialogue;
   workspace.querySelector('.lesson-exercises').innerHTML = exercises;
@@ -1459,8 +1467,35 @@ function setupLearningPathControls() {
   });
 }
 
+function initScrollReveal() {
+  const elements = document.querySelectorAll(
+    '.section-heading, .features-grid article, .plan, .missions-panel, .badges-panel, .language-card, .download-box, .course-card'
+  );
+  if (!elements.length) return;
+
+  if (!('IntersectionObserver' in window)) {
+    elements.forEach(el => el.classList.add('is-visible'));
+    return;
+  }
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+
+  elements.forEach((el, index) => {
+    el.classList.add('reveal-on-scroll');
+    el.style.transitionDelay = `${(index % 4) * 60}ms`;
+    observer.observe(el);
+  });
+}
+
 enableHomepageActions();
 loadProgress();
 setupLearningPathControls();
 loadLearningPath();
+initScrollReveal();
 document.querySelector('.lesson-complete-btn')?.addEventListener('click', completeActiveLesson);

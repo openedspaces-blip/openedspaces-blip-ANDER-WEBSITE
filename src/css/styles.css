@@ -80,6 +80,25 @@ body.modal-open {
   color: var(--navy-2);
 }
 
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity .7s cubic-bezier(.2,.7,.3,1), transform .7s cubic-bezier(.2,.7,.3,1);
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -1136,6 +1155,14 @@ a:focus-visible {
   outline-offset: 3px;
 }
 
+.skill-competency-card .icon {
+  transition: transform .3s cubic-bezier(.34,1.56,.64,1);
+}
+
+.skill-competency-card:hover .icon {
+  transform: scale(1.18) rotate(-4deg);
+}
+
 .language-overview span,
 .section-heading span,
 .download-box span {
@@ -2139,6 +2166,12 @@ footer small {
   background: var(--bg);
   border-radius: 14px;
   padding: 0.65rem 0.85rem;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.mission-item:not(.done):hover {
+  transform: translateX(3px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, .07);
 }
 
 .mission-item.done {
@@ -2194,6 +2227,7 @@ footer small {
   border-radius: 16px;
   padding: 1rem 0.6rem;
   border: 1px solid var(--line);
+  transition: transform .25s ease, box-shadow .25s ease;
 }
 
 .badge-card.locked {
@@ -2206,8 +2240,18 @@ footer small {
   box-shadow: 0 8px 20px rgba(0, 194, 255, 0.15);
 }
 
+.badge-card.unlocked:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 14px 30px rgba(0, 194, 255, 0.24);
+}
+
 .badge-card-icon {
   font-size: 1.6rem;
+  transition: transform .25s ease;
+}
+
+.badge-card.unlocked:hover .badge-card-icon {
+  transform: scale(1.15);
 }
 
 .badge-card strong {
@@ -2599,6 +2643,18 @@ footer small {
   color: var(--muted);
   margin-bottom: 1.25rem;
   line-height: 1.55;
+}
+
+.lesson-audio:empty {
+  display: none;
+}
+
+.lesson-audio-player {
+  width: 100%;
+  margin-bottom: 1.25rem;
+  border-radius: 999px;
+  height: 42px;
+  background: var(--bg);
 }
 
 .lesson-columns {
