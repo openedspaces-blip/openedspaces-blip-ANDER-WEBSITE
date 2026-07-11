@@ -799,6 +799,18 @@ function escapeHtml(value = '') {
     .replaceAll("'", '&#039;');
 }
 
+// Course-backed lessons (normalized schema, e.g. English A1) send options as
+// { id, text } and exercises with a real id. Legacy content_json lessons send
+// options as plain strings and have no exercise id at all. These helpers let
+// the rendering/answer code handle both shapes without caring which one it got.
+function optionLabel(option) {
+  return option && typeof option === 'object' ? option.text : option;
+}
+
+function optionKey(option, optionIndex) {
+  return option && typeof option === 'object' ? option.id : optionIndex;
+}
+
 function authHeaders() {
   return authStatus.session?.access_token
     ? { Authorization: `Bearer ${authStatus.session.access_token}` }
@@ -899,15 +911,16 @@ function renderLessonExercise(item, index, lesson) {
 
   if (item.type === 'mcq' && Array.isArray(item.options)) {
     const optionsHtml = item.options.map((option, optionIndex) => {
-      const isChosen = recorded && Number(recorded.selectedOption) === optionIndex;
+      const key = optionKey(option, optionIndex);
+      const isChosen = recorded && String(recorded.selectedOption) === String(key);
       const cls = isChosen ? (recorded.correct ? 'correct' : 'incorrect') : '';
       const disabled = recorded ? 'disabled' : '';
-      return `<button type="button" class="mcq-option ${cls}" data-option-index="${optionIndex}" ${disabled}>${escapeHtml(option)}</button>`;
+      return `<button type="button" class="mcq-option ${cls}" data-option-key="${escapeHtml(String(key))}" data-option-index="${optionIndex}" ${disabled}>${escapeHtml(optionLabel(option))}</button>`;
     }).join('');
     const answeredClass = recorded ? `answered ${recorded.correct ? 'is-correct' : 'is-incorrect'}` : '';
     const feedbackText = recorded ? (recorded.correct ? '¡Correcto! +5 XP' : 'No es correcto, pero sigue intentando.') : '';
     return `
-      <div class="mcq-question lesson-exercise ${answeredClass}" data-exercise-index="${index}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || '')}" data-language="${escapeHtml(learningPathState.language)}">
+      <div class="mcq-question lesson-exercise ${answeredClass}" data-exercise-index="${index}" data-exercise-id="${escapeHtml(item.id || '')}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || '')}" data-language="${escapeHtml(learningPathState.language)}">
         <strong>${index + 1}. ${escapeHtml(item.prompt)}</strong>
         <div class="mcq-options">${optionsHtml}</div>
         <span class="mcq-feedback" aria-live="polite">${feedbackText}</span>
@@ -916,7 +929,7 @@ function renderLessonExercise(item, index, lesson) {
   }
 
   return `
-    <div class="lesson-exercise open-exercise" data-exercise-index="${index}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || item.type || '')}" data-language="${escapeHtml(learningPathState.language)}">
+    <div class="lesson-exercise open-exercise" data-exercise-index="${index}" data-exercise-id="${escapeHtml(item.id || '')}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || item.type || '')}" data-language="${escapeHtml(learningPathState.language)}">
       <strong>${index + 1}. ${escapeHtml(item.prompt)}</strong>
       <button type="button" class="practice-mark-btn" ${recorded ? 'disabled' : ''}>${recorded ? '✅ Practicado' : 'Marcar como practicado'}</button>
     </div>
@@ -1071,11 +1084,12 @@ async function completeActiveLesson() {
   }
 
   const recordedResults = learningPathState.exerciseResults[activeLesson.slug] || {};
-  const answers = Object.entries(recordedResults).map(([index, result]) => ({
-    index: Number(index),
-    selectedOption: result.selectedOption,
-    practiced: result.practiced
-  }));
+  const answers = Object.entries(recordedResults).map(([index, result]) => {
+    const exerciseId = activeLesson.exercises?.[Number(index)]?.id;
+    return exerciseId
+      ? { exerciseId, selectedOptionId: result.selectedOption, practiced: result.practiced }
+      : { index: Number(index), selectedOption: result.selectedOption, practiced: result.practiced };
+  });
 
   try {
     const response = await fetch(`${backendBaseUrl}/api/lessons/${activeLesson.slug}/complete`, {
@@ -1404,23 +1418,27 @@ function enableHomepageActions() {
       if (!questionItem || questionItem.classList.contains('answered') || mcqOption.disabled || !slug) return;
 
       const exerciseIndex = Number(questionItem.dataset.exerciseIndex);
-      const chosenIndex = Number(mcqOption.dataset.optionIndex);
+      const exerciseId = questionItem.dataset.exerciseId || '';
+      const chosenKey = mcqOption.dataset.optionKey;
       const feedback = questionItem.querySelector('.mcq-feedback');
 
       questionItem.querySelectorAll('.mcq-option').forEach(option => { option.disabled = true; });
       if (feedback) feedback.textContent = 'Comprobando...';
 
       try {
+        const payload = exerciseId
+          ? { exerciseId, selectedOptionId: chosenKey }
+          : { index: exerciseIndex, selectedOption: Number(chosenKey) };
         const response = await fetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ index: exerciseIndex, selectedOption: chosenIndex })
+          body: JSON.stringify(payload)
         });
         const data = await response.json().catch(() => ({}));
         if (!response.ok) throw new Error(data.error || 'No se pudo verificar la respuesta.');
 
         learningPathState.exerciseResults[slug] = learningPathState.exerciseResults[slug] || {};
-        learningPathState.exerciseResults[slug][exerciseIndex] = { selectedOption: chosenIndex, correct: Boolean(data.correct) };
+        learningPathState.exerciseResults[slug][exerciseIndex] = { selectedOption: chosenKey, correct: Boolean(data.correct) };
 
         if (data.correct) {
           window.AndergoGamification?.recordCorrectAnswer();
