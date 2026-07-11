@@ -83,12 +83,11 @@
     ],
     "reading": {
       "title": "English A1 Reading",
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
+      "text": "Sara is a student in Santo Domingo. Every morning, she says hello to her teacher and eats breakfast with her family. At school, she practices English with her friend Ana. After class, she walks home and helps her mother in the kitchen.",
       "questions": [
         "Where does Sara live?",
-        "Who does she say hello to?",
-        "What does she practice?",
-        "What does Sara do after class?"
+        "Who does she practice English with?",
+        "What does she do after class?"
       ]
     }
   },
@@ -171,12 +170,12 @@
     ],
     "reading": {
       "title": "English A2 Reading",
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
+      "text": "Tom usually wakes up at six o'clock. On Saturdays, he visits his grandmother and buys fresh fruit at the market. Last weekend, he also helped her paint the kitchen, so they finished late and ate dinner together. In the afternoon, he often meets his neighbor, and they talk about the weather before he goes home.",
       "questions": [
-        "What time does Tom wake up?",
-        "Who does he visit?",
-        "Where does he buy fruit?",
-        "Who does Tom meet in the afternoon?"
+        "What time does Tom usually wake up?",
+        "What did Tom help his grandmother do last weekend?",
+        "Who does Tom often meet in the afternoon?",
+        "What do they talk about?"
       ]
     }
   },
@@ -259,12 +258,12 @@
     ],
     "reading": {
       "title": "English B1 Reading",
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
+      "text": "Maya has studied English for one year, and although she still makes mistakes, she feels more confident when she speaks with tourists. She struggles with grammar rules, especially the difference between the present perfect and the simple past, but her motivation keeps her practicing every week. Since she started keeping a vocabulary notebook, her writing has improved a lot, and she has even started reading short novels in English. Her teacher believes that if she keeps this pace, she could reach an upper-intermediate level within a year.",
       "questions": [
         "How long has Maya studied English?",
-        "What still happens?",
-        "When does she feel confident?",
-        "What keeps Maya consistent?"
+        "What grammar point does she find difficult?",
+        "What has helped her writing improve?",
+        "What does her teacher believe?"
       ]
     }
   },
@@ -347,12 +346,12 @@
     ],
     "reading": {
       "title": "English B2 Reading",
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
+      "text": "Online education has expanded access to learning for millions of people, allowing them to study from anywhere at any time. However, this flexibility also demands a great deal of discipline, a reliable internet connection and strong digital skills, which not every student possesses equally. Critics argue that one major drawback is the lack of face-to-face feedback, which can affect motivation over time, particularly among younger learners. Despite these challenges, many universities have invested in interactive platforms designed to keep students engaged, using discussion forums, live sessions and personalized feedback. As a result, dropout rates in some well-designed online programs have started to fall, suggesting that thoughtful course design can offset many of the disadvantages usually associated with distance learning.",
       "questions": [
         "What has online education expanded?",
-        "What does it require?",
-        "What is one possible difficulty?",
-        "What is one drawback critics mention?"
+        "What does this flexibility demand?",
+        "According to critics, what is a major drawback?",
+        "What have some universities done to keep students engaged?"
       ]
     }
   },
@@ -435,12 +434,12 @@
     ],
     "reading": {
       "title": "English C1 Reading",
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. Learners do not simply acquire grammar rules in a vacuum, but negotiate meaning within specific communities of practice, where fluency is judged as much by appropriateness as by accuracy. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community: for some, it means near-native pronunciation, while for others, it is the ability to navigate a negotiation or defend an argument persuasively. Recent research in applied linguistics suggests that this tension between accuracy and appropriateness explains why some highly accurate speakers still feel like outsiders in professional settings, whereas others with modest grammatical control manage to build rapport effortlessly. Recognizing this distinction can help learners set more realistic, context-sensitive goals for their own progress.",
       "questions": [
         "What is language learning not merely?",
-        "What shapes it?",
-        "What three ideas are mentioned?",
-        "What does the ambiguity stem from?"
+        "What is fluency judged by, besides accuracy?",
+        "Why do some accurate speakers still feel like outsiders?",
+        "What can recognizing this distinction help learners do?"
       ]
     }
   },
@@ -523,12 +522,12 @@
     ],
     "reading": {
       "title": "English C2 Reading",
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
+      "text": "True mastery of a language involves not only grammatical accuracy, but also timing, tone, cultural awareness and the ability to adapt register to subtle shifts in context. A truly cohesive speaker can discern which level of formality best fits each unpredictable social exchange, reading between the lines of what is said and, just as importantly, what is deliberately left unsaid. This kind of competence is rarely taught explicitly; rather, it is absorbed through prolonged, meaningful exposure to a language's cultural and pragmatic nuances, often over many years of immersion. Paradoxically, some of the most technically accurate non-native speakers never quite achieve this fluidity, precisely because their attention remains fixed on correctness rather than on the interpersonal dynamics unfolding around them. Conversely, speakers who embrace ambiguity, tolerate occasional error and prioritize connection over perfection often develop a more intuitive, almost instinctive command of the language, one that no grammar textbook could ever fully capture.",
       "questions": [
-        "What does mastery involve besides accuracy?",
-        "What must language adapt to?",
-        "Which word means dominio?",
-        "What must a cohesive speaker discern?"
+        "What four things does true mastery involve besides grammatical accuracy?",
+        "How is this kind of competence usually acquired?",
+        "Why do some technically accurate speakers never achieve full fluidity?",
+        "What do speakers who embrace ambiguity often develop?"
       ]
     }
   }
@@ -923,12 +922,11 @@
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
+      "text": "Sara is a student in Santo Domingo. Every morning, she says hello to her teacher and eats breakfast with her family. At school, she practices English with her friend Ana. After class, she walks home and helps her mother in the kitchen.",
       "questions": [
         "Where does Sara live?",
-        "Who does she say hello to?",
-        "What does she practice?",
-        "What does Sara do after class?"
+        "Who does she practice English with?",
+        "What does she do after class?"
       ]
     },
     "exercises": [
@@ -1793,12 +1791,12 @@
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
+      "text": "Tom usually wakes up at six o'clock. On Saturdays, he visits his grandmother and buys fresh fruit at the market. Last weekend, he also helped her paint the kitchen, so they finished late and ate dinner together. In the afternoon, he often meets his neighbor, and they talk about the weather before he goes home.",
       "questions": [
-        "What time does Tom wake up?",
-        "Who does he visit?",
-        "Where does he buy fruit?",
-        "Who does Tom meet in the afternoon?"
+        "What time does Tom usually wake up?",
+        "What did Tom help his grandmother do last weekend?",
+        "Who does Tom often meet in the afternoon?",
+        "What do they talk about?"
       ]
     },
     "exercises": [
@@ -2663,12 +2661,12 @@
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
+      "text": "Maya has studied English for one year, and although she still makes mistakes, she feels more confident when she speaks with tourists. She struggles with grammar rules, especially the difference between the present perfect and the simple past, but her motivation keeps her practicing every week. Since she started keeping a vocabulary notebook, her writing has improved a lot, and she has even started reading short novels in English. Her teacher believes that if she keeps this pace, she could reach an upper-intermediate level within a year.",
       "questions": [
         "How long has Maya studied English?",
-        "What still happens?",
-        "When does she feel confident?",
-        "What keeps Maya consistent?"
+        "What grammar point does she find difficult?",
+        "What has helped her writing improve?",
+        "What does her teacher believe?"
       ]
     },
     "exercises": [
@@ -3533,12 +3531,12 @@
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
+      "text": "Online education has expanded access to learning for millions of people, allowing them to study from anywhere at any time. However, this flexibility also demands a great deal of discipline, a reliable internet connection and strong digital skills, which not every student possesses equally. Critics argue that one major drawback is the lack of face-to-face feedback, which can affect motivation over time, particularly among younger learners. Despite these challenges, many universities have invested in interactive platforms designed to keep students engaged, using discussion forums, live sessions and personalized feedback. As a result, dropout rates in some well-designed online programs have started to fall, suggesting that thoughtful course design can offset many of the disadvantages usually associated with distance learning.",
       "questions": [
         "What has online education expanded?",
-        "What does it require?",
-        "What is one possible difficulty?",
-        "What is one drawback critics mention?"
+        "What does this flexibility demand?",
+        "According to critics, what is a major drawback?",
+        "What have some universities done to keep students engaged?"
       ]
     },
     "exercises": [
@@ -4403,12 +4401,12 @@
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
+      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. Learners do not simply acquire grammar rules in a vacuum, but negotiate meaning within specific communities of practice, where fluency is judged as much by appropriateness as by accuracy. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community: for some, it means near-native pronunciation, while for others, it is the ability to navigate a negotiation or defend an argument persuasively. Recent research in applied linguistics suggests that this tension between accuracy and appropriateness explains why some highly accurate speakers still feel like outsiders in professional settings, whereas others with modest grammatical control manage to build rapport effortlessly. Recognizing this distinction can help learners set more realistic, context-sensitive goals for their own progress.",
       "questions": [
         "What is language learning not merely?",
-        "What shapes it?",
-        "What three ideas are mentioned?",
-        "What does the ambiguity stem from?"
+        "What is fluency judged by, besides accuracy?",
+        "Why do some accurate speakers still feel like outsiders?",
+        "What can recognizing this distinction help learners do?"
       ]
     },
     "exercises": [
@@ -5273,12 +5271,12 @@
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
+      "text": "True mastery of a language involves not only grammatical accuracy, but also timing, tone, cultural awareness and the ability to adapt register to subtle shifts in context. A truly cohesive speaker can discern which level of formality best fits each unpredictable social exchange, reading between the lines of what is said and, just as importantly, what is deliberately left unsaid. This kind of competence is rarely taught explicitly; rather, it is absorbed through prolonged, meaningful exposure to a language's cultural and pragmatic nuances, often over many years of immersion. Paradoxically, some of the most technically accurate non-native speakers never quite achieve this fluidity, precisely because their attention remains fixed on correctness rather than on the interpersonal dynamics unfolding around them. Conversely, speakers who embrace ambiguity, tolerate occasional error and prioritize connection over perfection often develop a more intuitive, almost instinctive command of the language, one that no grammar textbook could ever fully capture.",
       "questions": [
-        "What does mastery involve besides accuracy?",
-        "What must language adapt to?",
-        "Which word means dominio?",
-        "What must a cohesive speaker discern?"
+        "What four things does true mastery involve besides grammatical accuracy?",
+        "How is this kind of competence usually acquired?",
+        "Why do some technically accurate speakers never achieve full fluidity?",
+        "What do speakers who embrace ambiguity often develop?"
       ]
     },
     "exercises": [

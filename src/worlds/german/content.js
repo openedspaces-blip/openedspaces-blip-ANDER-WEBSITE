@@ -71,11 +71,11 @@
     ],
     "reading": {
       "title": "Deutsch A1 Reading",
-      "text": "In Julias Haus leben drei Personen. Ihr Vater kocht am Abend und sie liest vor dem Schlafen.",
+      "text": "Julia ist Schülerin in Berlin. Jeden Morgen begrüßt sie ihre Lehrerin und frühstückt mit ihrer Familie. In der Schule übt sie Deutsch mit ihrer Freundin Anna. Nach dem Unterricht geht sie nach Hause und hilft ihrer Mutter in der Küche.",
       "questions": [
-        "¿Cuántas personas viven en la casa?",
-        "¿Quién cocina por la noche?",
-        "¿Qué hace la protagonista antes de dormir?"
+        "Wo wohnt Julia?",
+        "Mit wem übt sie Deutsch?",
+        "Was macht sie nach dem Unterricht?"
       ]
     }
   },
@@ -146,11 +146,12 @@
     ],
     "reading": {
       "title": "Deutsch A2 Reading",
-      "text": "Lucía lädt ihre Freunde am Samstag ins Kino ein. Nach dem Film essen alle in einem kleinen Restaurant zu Abend.",
+      "text": "Lukas wacht normalerweise um sechs Uhr auf. Samstags besucht er seine Großmutter und kauft frisches Obst auf dem Markt. Letztes Wochenende hat er ihr auch geholfen, die Küche zu streichen, sodass sie spät fertig waren und zusammen zu Abend gegessen haben. Am Nachmittag trifft er oft seinen Nachbarn, und sie sprechen über das Wetter, bevor er nach Hause geht.",
       "questions": [
-        "¿Qué día es la invitación?",
-        "¿Qué hacen después del cine?",
-        "¿Cómo es el restaurante que visitan?"
+        "Wann wacht Lukas normalerweise auf?",
+        "Wobei hat er seiner Großmutter letztes Wochenende geholfen?",
+        "Wen trifft er oft am Nachmittag?",
+        "Worüber sprechen sie?"
       ]
     }
   },
@@ -221,11 +222,12 @@
     ],
     "reading": {
       "title": "Deutsch B1 Reading",
-      "text": "Eine Gruppe aus dem Stadtviertel organisiert Lese-Workshops für Kinder. Dank des Projekts besuchen mehr Nachbarn die Bibliothek.",
+      "text": "Marie lernt seit einem Jahr Deutsch, und obwohl sie immer noch Fehler macht, fühlt sie sich sicherer, wenn sie mit Touristen spricht. Ihr fällt die Grammatik schwer, besonders der Unterschied zwischen Perfekt und Präteritum, aber ihre Motivation hält sie dazu an, jede Woche zu üben. Seit sie ein Vokabelheft führt, hat sich ihr Schreiben stark verbessert, und sie hat sogar begonnen, kurze Romane auf Deutsch zu lesen. Ihre Lehrerin glaubt, dass sie innerhalb eines Jahres ein gehobenes Mittelstufenniveau erreichen könnte, wenn sie dieses Tempo beibehält.",
       "questions": [
-        "¿Para quién son los talleres?",
-        "¿Qué lugar visitan más los vecinos ahora?",
-        "¿Qué efecto tiene el proyecto?"
+        "Seit wann lernt Marie Deutsch?",
+        "Welchen Grammatikpunkt findet sie schwierig?",
+        "Was hat ihr geholfen, ihr Schreiben zu verbessern?",
+        "Was glaubt ihre Lehrerin?"
       ]
     }
   },
@@ -296,11 +298,12 @@
     ],
     "reading": {
       "title": "Deutsch B2 Reading",
-      "text": "Ein Bericht erklärt, wie mehrere Städte den touristischen Verkehr einschränken. Die Bewohner sagen, dass klare Regeln das Zusammenleben verbessern.",
+      "text": "Online-Bildung hat den Zugang zum Lernen für Millionen von Menschen erweitert und ermöglicht es ihnen, jederzeit und von überall zu lernen. Diese Flexibilität erfordert jedoch auch viel Disziplin, eine zuverlässige Internetverbindung und solide digitale Kompetenzen, die nicht alle Studierenden gleichermaßen besitzen. Kritiker argumentieren, dass ein wesentlicher Nachteil das Fehlen von persönlichem Feedback von Angesicht zu Angesicht sei, was sich mit der Zeit negativ auf die Motivation auswirken kann, besonders bei jüngeren Lernenden. Trotz dieser Herausforderungen haben viele Universitäten in interaktive Plattformen investiert, die Studierende durch Diskussionsforen, Live-Sitzungen und persönliches Feedback stärker einbinden sollen. Infolgedessen ist die Abbrecherquote in einigen gut gestalteten Online-Programmen zurückgegangen, was darauf hindeutet, dass ein durchdachtes Kursdesign viele der üblicherweise mit Fernunterricht verbundenen Nachteile ausgleichen kann.",
       "questions": [
-        "¿Qué limitan varias ciudades?",
-        "¿Qué dicen los residentes?",
-        "¿Qué tipo de reglas mejora la convivencia?"
+        "Was hat die Online-Bildung erweitert?",
+        "Was erfordert diese Flexibilität?",
+        "Was ist laut Kritikern ein wesentlicher Nachteil?",
+        "Was haben einige Universitäten getan, um die Studierenden stärker einzubinden?"
       ]
     }
   },
@@ -371,11 +374,12 @@
     ],
     "reading": {
       "title": "Deutsch C1 Reading",
-      "text": "Der Essay behauptet, dass öffentliche Sprache das kollektive Gedächtnis organisiert. Mit mehreren Metaphern verbindet er Erzählung, Macht und Gemeinschaft.",
+      "text": "Eine Sprache zu lernen bedeutet nicht bloß, grammatische Formen auswendig zu lernen; es ist eine soziale Praxis, die durch Kontext, Identität und Absicht geprägt wird. Lernende eignen sich Grammatikregeln nicht im luftleeren Raum an, sondern handeln Bedeutung innerhalb bestimmter Gemeinschaften aus, in denen Sprachgewandtheit ebenso nach ihrer Angemessenheit wie nach ihrer Korrektheit beurteilt wird. Diese Mehrdeutigkeit rührt oft von unterschiedlichen Annahmen darüber her, was Sprachgewandtheit in einer bestimmten Diskursgemeinschaft wirklich bedeutet: Für manche heißt das eine nahezu muttersprachliche Aussprache, für andere die Fähigkeit, eine Verhandlung zu führen oder ein Argument überzeugend zu vertreten. Neuere Forschungen in der angewandten Linguistik legen nahe, dass diese Spannung zwischen Korrektheit und Angemessenheit erklärt, warum manche grammatisch sehr korrekte Sprecher sich in beruflichen Situationen dennoch fremd fühlen, während andere mit bescheidener grammatischer Kontrolle mühelos Nähe aufbauen. Das Erkennen dieses Unterschieds kann Lernenden helfen, realistischere, kontextsensiblere Ziele für ihren eigenen Fortschritt zu setzen.",
       "questions": [
-        "¿Qué organiza el lenguaje público?",
-        "¿Qué recurso usa el autor?",
-        "¿Qué relación establece entre poder y comunidad?"
+        "Was bedeutet eine Sprache zu lernen nicht bloß?",
+        "Wonach wird Sprachgewandtheit außer nach Korrektheit noch beurteilt?",
+        "Warum fühlen sich manche sehr korrekte Sprecher in beruflichen Situationen fremd?",
+        "Wozu kann das Erkennen dieses Unterschieds Lernenden verhelfen?"
       ]
     }
   },
@@ -446,11 +450,12 @@
     ],
     "reading": {
       "title": "Deutsch C2 Reading",
-      "text": "Die Kritik setzt einen kundigen Leser voraus und nutzt eine historische Anspielung, um den Schluss des Essays neu zu deuten.",
+      "text": "Wahre Sprachbeherrschung bedeutet nicht nur grammatische Korrektheit, sondern auch Timing, Tonfall, kulturelles Bewusstsein und die Fähigkeit, das Register an feine Kontextverschiebungen anzupassen. Ein wirklich stimmiger Sprecher erkennt, welches Formalitätsniveau zu jedem unvorhersehbaren sozialen Austausch passt, und liest dabei sowohl zwischen den Zeilen dessen, was gesagt wird, als auch – ebenso wichtig – dessen, was bewusst verschwiegen wird. Diese Art von Kompetenz wird selten explizit gelehrt; vielmehr wird sie durch anhaltende, bedeutungsvolle Auseinandersetzung mit den kulturellen und pragmatischen Nuancen einer Sprache aufgenommen, oft nach vielen Jahren des Eintauchens. Paradoxerweise erreichen manche der technisch korrektesten nicht-muttersprachlichen Sprecher diese Gewandtheit nie ganz, gerade weil ihre Aufmerksamkeit auf die Korrektheit statt auf die zwischenmenschliche Dynamik um sie herum gerichtet bleibt. Umgekehrt entwickeln jene, die Mehrdeutigkeit akzeptieren, gelegentliche Fehler tolerieren und Verbindung über Perfektion stellen, oft eine intuitivere, fast instinktive Beherrschung der Sprache, die kein Grammatikbuch je vollständig erfassen könnte.",
       "questions": [
-        "¿Qué tipo de lector presupone la crítica?",
-        "¿Qué recurso resignifica el cierre?",
-        "¿Cómo cambia la interpretación final?"
+        "Welche vier Dinge umfasst wahre Sprachbeherrschung außer grammatischer Korrektheit?",
+        "Wie wird diese Art von Kompetenz normalerweise erworben?",
+        "Warum erreichen manche technisch sehr korrekte Sprecher diese Gewandtheit nie ganz?",
+        "Was entwickeln oft jene, die Mehrdeutigkeit akzeptieren?"
       ]
     }
   }
@@ -700,11 +705,11 @@
       }
     ],
     "reading": {
-      "text": "In Julias Haus leben drei Personen. Ihr Vater kocht am Abend und sie liest vor dem Schlafen.",
+      "text": "Julia ist Schülerin in Berlin. Jeden Morgen begrüßt sie ihre Lehrerin und frühstückt mit ihrer Familie. In der Schule übt sie Deutsch mit ihrer Freundin Anna. Nach dem Unterricht geht sie nach Hause und hilft ihrer Mutter in der Küche.",
       "questions": [
-        "¿Cuántas personas viven en la casa?",
-        "¿Quién cocina por la noche?",
-        "¿Qué hace la protagonista antes de dormir?"
+        "Wo wohnt Julia?",
+        "Mit wem übt sie Deutsch?",
+        "Was macht sie nach dem Unterricht?"
       ]
     },
     "exercises": [
@@ -1246,11 +1251,12 @@
       }
     ],
     "reading": {
-      "text": "Lucía lädt ihre Freunde am Samstag ins Kino ein. Nach dem Film essen alle in einem kleinen Restaurant zu Abend.",
+      "text": "Lukas wacht normalerweise um sechs Uhr auf. Samstags besucht er seine Großmutter und kauft frisches Obst auf dem Markt. Letztes Wochenende hat er ihr auch geholfen, die Küche zu streichen, sodass sie spät fertig waren und zusammen zu Abend gegessen haben. Am Nachmittag trifft er oft seinen Nachbarn, und sie sprechen über das Wetter, bevor er nach Hause geht.",
       "questions": [
-        "¿Qué día es la invitación?",
-        "¿Qué hacen después del cine?",
-        "¿Cómo es el restaurante que visitan?"
+        "Wann wacht Lukas normalerweise auf?",
+        "Wobei hat er seiner Großmutter letztes Wochenende geholfen?",
+        "Wen trifft er oft am Nachmittag?",
+        "Worüber sprechen sie?"
       ]
     },
     "exercises": [
@@ -1792,11 +1798,12 @@
       }
     ],
     "reading": {
-      "text": "Eine Gruppe aus dem Stadtviertel organisiert Lese-Workshops für Kinder. Dank des Projekts besuchen mehr Nachbarn die Bibliothek.",
+      "text": "Marie lernt seit einem Jahr Deutsch, und obwohl sie immer noch Fehler macht, fühlt sie sich sicherer, wenn sie mit Touristen spricht. Ihr fällt die Grammatik schwer, besonders der Unterschied zwischen Perfekt und Präteritum, aber ihre Motivation hält sie dazu an, jede Woche zu üben. Seit sie ein Vokabelheft führt, hat sich ihr Schreiben stark verbessert, und sie hat sogar begonnen, kurze Romane auf Deutsch zu lesen. Ihre Lehrerin glaubt, dass sie innerhalb eines Jahres ein gehobenes Mittelstufenniveau erreichen könnte, wenn sie dieses Tempo beibehält.",
       "questions": [
-        "¿Para quién son los talleres?",
-        "¿Qué lugar visitan más los vecinos ahora?",
-        "¿Qué efecto tiene el proyecto?"
+        "Seit wann lernt Marie Deutsch?",
+        "Welchen Grammatikpunkt findet sie schwierig?",
+        "Was hat ihr geholfen, ihr Schreiben zu verbessern?",
+        "Was glaubt ihre Lehrerin?"
       ]
     },
     "exercises": [
@@ -2338,11 +2345,12 @@
       }
     ],
     "reading": {
-      "text": "Ein Bericht erklärt, wie mehrere Städte den touristischen Verkehr einschränken. Die Bewohner sagen, dass klare Regeln das Zusammenleben verbessern.",
+      "text": "Online-Bildung hat den Zugang zum Lernen für Millionen von Menschen erweitert und ermöglicht es ihnen, jederzeit und von überall zu lernen. Diese Flexibilität erfordert jedoch auch viel Disziplin, eine zuverlässige Internetverbindung und solide digitale Kompetenzen, die nicht alle Studierenden gleichermaßen besitzen. Kritiker argumentieren, dass ein wesentlicher Nachteil das Fehlen von persönlichem Feedback von Angesicht zu Angesicht sei, was sich mit der Zeit negativ auf die Motivation auswirken kann, besonders bei jüngeren Lernenden. Trotz dieser Herausforderungen haben viele Universitäten in interaktive Plattformen investiert, die Studierende durch Diskussionsforen, Live-Sitzungen und persönliches Feedback stärker einbinden sollen. Infolgedessen ist die Abbrecherquote in einigen gut gestalteten Online-Programmen zurückgegangen, was darauf hindeutet, dass ein durchdachtes Kursdesign viele der üblicherweise mit Fernunterricht verbundenen Nachteile ausgleichen kann.",
       "questions": [
-        "¿Qué limitan varias ciudades?",
-        "¿Qué dicen los residentes?",
-        "¿Qué tipo de reglas mejora la convivencia?"
+        "Was hat die Online-Bildung erweitert?",
+        "Was erfordert diese Flexibilität?",
+        "Was ist laut Kritikern ein wesentlicher Nachteil?",
+        "Was haben einige Universitäten getan, um die Studierenden stärker einzubinden?"
       ]
     },
     "exercises": [
@@ -2884,11 +2892,12 @@
       }
     ],
     "reading": {
-      "text": "Der Essay behauptet, dass öffentliche Sprache das kollektive Gedächtnis organisiert. Mit mehreren Metaphern verbindet er Erzählung, Macht und Gemeinschaft.",
+      "text": "Eine Sprache zu lernen bedeutet nicht bloß, grammatische Formen auswendig zu lernen; es ist eine soziale Praxis, die durch Kontext, Identität und Absicht geprägt wird. Lernende eignen sich Grammatikregeln nicht im luftleeren Raum an, sondern handeln Bedeutung innerhalb bestimmter Gemeinschaften aus, in denen Sprachgewandtheit ebenso nach ihrer Angemessenheit wie nach ihrer Korrektheit beurteilt wird. Diese Mehrdeutigkeit rührt oft von unterschiedlichen Annahmen darüber her, was Sprachgewandtheit in einer bestimmten Diskursgemeinschaft wirklich bedeutet: Für manche heißt das eine nahezu muttersprachliche Aussprache, für andere die Fähigkeit, eine Verhandlung zu führen oder ein Argument überzeugend zu vertreten. Neuere Forschungen in der angewandten Linguistik legen nahe, dass diese Spannung zwischen Korrektheit und Angemessenheit erklärt, warum manche grammatisch sehr korrekte Sprecher sich in beruflichen Situationen dennoch fremd fühlen, während andere mit bescheidener grammatischer Kontrolle mühelos Nähe aufbauen. Das Erkennen dieses Unterschieds kann Lernenden helfen, realistischere, kontextsensiblere Ziele für ihren eigenen Fortschritt zu setzen.",
       "questions": [
-        "¿Qué organiza el lenguaje público?",
-        "¿Qué recurso usa el autor?",
-        "¿Qué relación establece entre poder y comunidad?"
+        "Was bedeutet eine Sprache zu lernen nicht bloß?",
+        "Wonach wird Sprachgewandtheit außer nach Korrektheit noch beurteilt?",
+        "Warum fühlen sich manche sehr korrekte Sprecher in beruflichen Situationen fremd?",
+        "Wozu kann das Erkennen dieses Unterschieds Lernenden verhelfen?"
       ]
     },
     "exercises": [
@@ -3430,11 +3439,12 @@
       }
     ],
     "reading": {
-      "text": "Die Kritik setzt einen kundigen Leser voraus und nutzt eine historische Anspielung, um den Schluss des Essays neu zu deuten.",
+      "text": "Wahre Sprachbeherrschung bedeutet nicht nur grammatische Korrektheit, sondern auch Timing, Tonfall, kulturelles Bewusstsein und die Fähigkeit, das Register an feine Kontextverschiebungen anzupassen. Ein wirklich stimmiger Sprecher erkennt, welches Formalitätsniveau zu jedem unvorhersehbaren sozialen Austausch passt, und liest dabei sowohl zwischen den Zeilen dessen, was gesagt wird, als auch – ebenso wichtig – dessen, was bewusst verschwiegen wird. Diese Art von Kompetenz wird selten explizit gelehrt; vielmehr wird sie durch anhaltende, bedeutungsvolle Auseinandersetzung mit den kulturellen und pragmatischen Nuancen einer Sprache aufgenommen, oft nach vielen Jahren des Eintauchens. Paradoxerweise erreichen manche der technisch korrektesten nicht-muttersprachlichen Sprecher diese Gewandtheit nie ganz, gerade weil ihre Aufmerksamkeit auf die Korrektheit statt auf die zwischenmenschliche Dynamik um sie herum gerichtet bleibt. Umgekehrt entwickeln jene, die Mehrdeutigkeit akzeptieren, gelegentliche Fehler tolerieren und Verbindung über Perfektion stellen, oft eine intuitivere, fast instinktive Beherrschung der Sprache, die kein Grammatikbuch je vollständig erfassen könnte.",
       "questions": [
-        "¿Qué tipo de lector presupone la crítica?",
-        "¿Qué recurso resignifica el cierre?",
-        "¿Cómo cambia la interpretación final?"
+        "Welche vier Dinge umfasst wahre Sprachbeherrschung außer grammatischer Korrektheit?",
+        "Wie wird diese Art von Kompetenz normalerweise erworben?",
+        "Warum erreichen manche technisch sehr korrekte Sprecher diese Gewandtheit nie ganz?",
+        "Was entwickeln oft jene, die Mehrdeutigkeit akzeptieren?"
       ]
     },
     "exercises": [

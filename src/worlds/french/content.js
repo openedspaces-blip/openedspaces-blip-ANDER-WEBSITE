@@ -83,12 +83,11 @@
     ],
     "reading": {
       "title": "Français A1 Reading",
-      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul. Après le cours, elle dit au revoir à son amie et rentre chez elle avec sa sœur.",
+      "text": "Claire est étudiante à Paris. Chaque matin, elle dit bonjour à sa professeure et prend son petit-déjeuner en famille. À l'école, elle pratique le français avec son amie Camille. Après le cours, elle rentre chez elle et aide sa mère à préparer le dîner.",
       "questions": [
-        "Où habite Claire?",
-        "Quand étudie-t-elle?",
-        "Avec qui parle-t-elle?",
-        "Que fait Claire après le cours ?"
+        "Où habite Claire ?",
+        "Avec qui pratique-t-elle le français ?",
+        "Que fait-elle après le cours ?"
       ]
     }
   },
@@ -171,12 +170,12 @@
     ],
     "reading": {
       "title": "Français A2 Reading",
-      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café. L’après-midi, il rencontre son voisin et ils parlent du temps avant de rentrer.",
+      "text": "Marc se réveille généralement à six heures. Le samedi, il rend visite à sa grand-mère et achète des fruits frais au marché. Le week-end dernier, il l'a aussi aidée à repeindre la cuisine, si bien qu'ils ont fini tard et dîné ensemble. L'après-midi, il retrouve souvent son voisin, et ils parlent du temps avant de rentrer chez eux.",
       "questions": [
-        "Quand travaille Marc?",
-        "Qu’achète-t-il?",
-        "Que prépare-t-il?",
-        "Qui rencontre Marc l’après-midi ?"
+        "À quelle heure Marc se réveille-t-il généralement ?",
+        "Qu'a-t-il aidé sa grand-mère à faire le week-end dernier ?",
+        "Qui retrouve-t-il souvent l'après-midi ?",
+        "De quoi parlent-ils ?"
       ]
     }
   },
@@ -259,12 +258,12 @@
     ],
     "reading": {
       "title": "Français B1 Reading",
-      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe. Elle a des difficultés avec la grammaire, mais sa motivation la rend constante chaque semaine.",
+      "text": "Nadia apprend le français depuis un an et, même si elle fait encore des erreurs, elle se sent plus sûre d'elle quand elle parle avec des touristes. Elle a du mal avec la grammaire, surtout la différence entre le passé composé et l'imparfait, mais sa motivation la pousse à s'entraîner chaque semaine. Depuis qu'elle tient un carnet de vocabulaire, son écriture s'est beaucoup améliorée, et elle a même commencé à lire de courts romans en français. Sa professeure pense que, si elle garde ce rythme, elle pourrait atteindre un niveau intermédiaire avancé d'ici un an.",
       "questions": [
-        "Depuis quand apprend-elle?",
-        "Que comprend-elle mieux?",
-        "Où ose-t-elle parler?",
-        "Qu’est-ce qui rend Nadia constante ?"
+        "Depuis combien de temps Nadia apprend-elle le français ?",
+        "Quel point de grammaire lui pose des difficultés ?",
+        "Qu'est-ce qui l'a aidée à améliorer son écriture ?",
+        "Que pense sa professeure ?"
       ]
     }
   },
@@ -347,12 +346,12 @@
     ],
     "reading": {
       "title": "Français B2 Reading",
-      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique. Les critiques estiment qu’un inconvénient majeur est l’absence de retour en face à face, ce qui affecte la motivation avec le temps.",
+      "text": "L'éducation en ligne a élargi l'accès à l'apprentissage pour des millions de personnes, leur permettant d'étudier n'importe où et à tout moment. Cependant, cette flexibilité exige aussi beaucoup de discipline, une connexion internet fiable et de solides compétences numériques, que tous les étudiants ne possèdent pas de la même façon. Les critiques estiment qu'un inconvénient majeur est l'absence de retour en face à face, ce qui peut affecter la motivation avec le temps, en particulier chez les plus jeunes apprenants. Malgré ces défis, de nombreuses universités ont investi dans des plateformes interactives conçues pour maintenir l'engagement des étudiants, grâce à des forums de discussion, des sessions en direct et un retour personnalisé. Résultat : le taux d'abandon de certains programmes en ligne bien conçus a commencé à baisser, ce qui suggère qu'une conception de cours réfléchie peut compenser bon nombre des inconvénients habituellement associés à l'enseignement à distance.",
       "questions": [
-        "Que facilite le numérique?",
-        "Qu’exige-t-il?",
-        "Quel est le thème?",
-        "Quel inconvénient majeur mentionnent les critiques ?"
+        "Qu'est-ce que l'éducation en ligne a élargi ?",
+        "Qu'exige cette flexibilité ?",
+        "Selon les critiques, quel est un inconvénient majeur ?",
+        "Qu'ont fait certaines universités pour maintenir l'engagement des étudiants ?"
       ]
     }
   },
@@ -435,12 +434,12 @@
     ],
     "reading": {
       "title": "Français C1 Reading",
-      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée. Cette ambiguïté provient souvent d’hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée.",
+      "text": "Apprendre une langue n'est pas simplement mémoriser des formes grammaticales ; c'est une pratique sociale façonnée par le contexte, l'identité et l'intention. Celui qui apprend n'acquiert pas des règles de grammaire dans le vide, mais négocie du sens au sein de communautés spécifiques, où la fluidité est jugée autant sur son adéquation que sur sa correction. Cette ambiguïté provient souvent d'hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée : pour certains, cela signifie une prononciation quasi native, tandis que pour d'autres, c'est la capacité à mener une négociation ou à défendre un argument de façon persuasive. Des recherches récentes en linguistique appliquée suggèrent que cette tension entre correction et adéquation explique pourquoi certains locuteurs très corrects sur le plan grammatical se sentent malgré tout étrangers dans un cadre professionnel, tandis que d'autres, avec une maîtrise grammaticale modeste, parviennent à créer un lien sans effort. Reconnaître cette distinction peut aider les apprenants à se fixer des objectifs plus réalistes et sensibles au contexte.",
       "questions": [
-        "Qu’implique la maîtrise?",
-        "Que faut-il ajuster?",
-        "Quelle pensée faut-il construire?",
-        "D’où provient souvent cette ambiguïté ?"
+        "Qu'est-ce qu'apprendre une langue n'est pas simplement ?",
+        "Outre la correction, sur quoi la fluidité est-elle aussi jugée ?",
+        "Pourquoi certains locuteurs très corrects se sentent-ils étrangers en contexte professionnel ?",
+        "Que peut aider à faire la reconnaissance de cette distinction ?"
       ]
     }
   },
@@ -523,12 +522,12 @@
     ],
     "reading": {
       "title": "Français C2 Reading",
-      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte. Un locuteur vraiment cohésif sait discerner quel registre convient le mieux à chaque échange social imprévisible.",
+      "text": "La véritable maîtrise d'une langue implique non seulement la correction grammaticale, mais aussi le rythme, le ton, la conscience culturelle et la capacité à adapter le registre aux nuances subtiles du contexte. Un locuteur véritablement cohérent sait discerner quel niveau de formalité convient à chaque échange social imprévisible, en lisant entre les lignes aussi bien ce qui est dit que, tout aussi important, ce qui est volontairement tu. Ce type de compétence s'enseigne rarement de façon explicite ; elle s'acquiert plutôt par une exposition prolongée et significative aux nuances culturelles et pragmatiques d'une langue, souvent après de nombreuses années d'immersion. Paradoxalement, certains locuteurs non natifs techniquement très corrects n'atteignent jamais tout à fait cette fluidité, précisément parce que leur attention reste fixée sur la correction plutôt que sur la dynamique interpersonnelle qui se joue autour d'eux. À l'inverse, ceux qui acceptent l'ambiguïté, tolèrent l'erreur occasionnelle et privilégient la connexion plutôt que la perfection développent souvent une maîtrise plus intuitive, presque instinctive, de la langue, qu'aucun manuel de grammaire ne pourrait jamais pleinement saisir.",
       "questions": [
-        "Que permet l’expression maîtrisée?",
-        "Quels quatre éléments combine-t-elle?",
-        "Quel mot signifie elegante?",
-        "Que doit discerner un locuteur cohésif ?"
+        "Outre la correction grammaticale, quels quatre éléments implique la véritable maîtrise ?",
+        "Comment ce type de compétence s'acquiert-il généralement ?",
+        "Pourquoi certains locuteurs techniquement très corrects n'atteignent-ils jamais cette fluidité ?",
+        "Que développent souvent ceux qui acceptent l'ambiguïté ?"
       ]
     }
   }
@@ -923,12 +922,11 @@
       }
     ],
     "reading": {
-      "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul. Après le cours, elle dit au revoir à son amie et rentre chez elle avec sa sœur.",
+      "text": "Claire est étudiante à Paris. Chaque matin, elle dit bonjour à sa professeure et prend son petit-déjeuner en famille. À l'école, elle pratique le français avec son amie Camille. Après le cours, elle rentre chez elle et aide sa mère à préparer le dîner.",
       "questions": [
-        "Où habite Claire?",
-        "Quand étudie-t-elle?",
-        "Avec qui parle-t-elle?",
-        "Que fait Claire après le cours ?"
+        "Où habite Claire ?",
+        "Avec qui pratique-t-elle le français ?",
+        "Que fait-elle après le cours ?"
       ]
     },
     "exercises": [
@@ -1793,12 +1791,12 @@
       }
     ],
     "reading": {
-      "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café. L’après-midi, il rencontre son voisin et ils parlent du temps avant de rentrer.",
+      "text": "Marc se réveille généralement à six heures. Le samedi, il rend visite à sa grand-mère et achète des fruits frais au marché. Le week-end dernier, il l'a aussi aidée à repeindre la cuisine, si bien qu'ils ont fini tard et dîné ensemble. L'après-midi, il retrouve souvent son voisin, et ils parlent du temps avant de rentrer chez eux.",
       "questions": [
-        "Quand travaille Marc?",
-        "Qu’achète-t-il?",
-        "Que prépare-t-il?",
-        "Qui rencontre Marc l’après-midi ?"
+        "À quelle heure Marc se réveille-t-il généralement ?",
+        "Qu'a-t-il aidé sa grand-mère à faire le week-end dernier ?",
+        "Qui retrouve-t-il souvent l'après-midi ?",
+        "De quoi parlent-ils ?"
       ]
     },
     "exercises": [
@@ -2663,12 +2661,12 @@
       }
     ],
     "reading": {
-      "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe. Elle a des difficultés avec la grammaire, mais sa motivation la rend constante chaque semaine.",
+      "text": "Nadia apprend le français depuis un an et, même si elle fait encore des erreurs, elle se sent plus sûre d'elle quand elle parle avec des touristes. Elle a du mal avec la grammaire, surtout la différence entre le passé composé et l'imparfait, mais sa motivation la pousse à s'entraîner chaque semaine. Depuis qu'elle tient un carnet de vocabulaire, son écriture s'est beaucoup améliorée, et elle a même commencé à lire de courts romans en français. Sa professeure pense que, si elle garde ce rythme, elle pourrait atteindre un niveau intermédiaire avancé d'ici un an.",
       "questions": [
-        "Depuis quand apprend-elle?",
-        "Que comprend-elle mieux?",
-        "Où ose-t-elle parler?",
-        "Qu’est-ce qui rend Nadia constante ?"
+        "Depuis combien de temps Nadia apprend-elle le français ?",
+        "Quel point de grammaire lui pose des difficultés ?",
+        "Qu'est-ce qui l'a aidée à améliorer son écriture ?",
+        "Que pense sa professeure ?"
       ]
     },
     "exercises": [
@@ -3533,12 +3531,12 @@
       }
     ],
     "reading": {
-      "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique. Les critiques estiment qu’un inconvénient majeur est l’absence de retour en face à face, ce qui affecte la motivation avec le temps.",
+      "text": "L'éducation en ligne a élargi l'accès à l'apprentissage pour des millions de personnes, leur permettant d'étudier n'importe où et à tout moment. Cependant, cette flexibilité exige aussi beaucoup de discipline, une connexion internet fiable et de solides compétences numériques, que tous les étudiants ne possèdent pas de la même façon. Les critiques estiment qu'un inconvénient majeur est l'absence de retour en face à face, ce qui peut affecter la motivation avec le temps, en particulier chez les plus jeunes apprenants. Malgré ces défis, de nombreuses universités ont investi dans des plateformes interactives conçues pour maintenir l'engagement des étudiants, grâce à des forums de discussion, des sessions en direct et un retour personnalisé. Résultat : le taux d'abandon de certains programmes en ligne bien conçus a commencé à baisser, ce qui suggère qu'une conception de cours réfléchie peut compenser bon nombre des inconvénients habituellement associés à l'enseignement à distance.",
       "questions": [
-        "Que facilite le numérique?",
-        "Qu’exige-t-il?",
-        "Quel est le thème?",
-        "Quel inconvénient majeur mentionnent les critiques ?"
+        "Qu'est-ce que l'éducation en ligne a élargi ?",
+        "Qu'exige cette flexibilité ?",
+        "Selon les critiques, quel est un inconvénient majeur ?",
+        "Qu'ont fait certaines universités pour maintenir l'engagement des étudiants ?"
       ]
     },
     "exercises": [
@@ -4403,12 +4401,12 @@
       }
     ],
     "reading": {
-      "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée. Cette ambiguïté provient souvent d’hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée.",
+      "text": "Apprendre une langue n'est pas simplement mémoriser des formes grammaticales ; c'est une pratique sociale façonnée par le contexte, l'identité et l'intention. Celui qui apprend n'acquiert pas des règles de grammaire dans le vide, mais négocie du sens au sein de communautés spécifiques, où la fluidité est jugée autant sur son adéquation que sur sa correction. Cette ambiguïté provient souvent d'hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée : pour certains, cela signifie une prononciation quasi native, tandis que pour d'autres, c'est la capacité à mener une négociation ou à défendre un argument de façon persuasive. Des recherches récentes en linguistique appliquée suggèrent que cette tension entre correction et adéquation explique pourquoi certains locuteurs très corrects sur le plan grammatical se sentent malgré tout étrangers dans un cadre professionnel, tandis que d'autres, avec une maîtrise grammaticale modeste, parviennent à créer un lien sans effort. Reconnaître cette distinction peut aider les apprenants à se fixer des objectifs plus réalistes et sensibles au contexte.",
       "questions": [
-        "Qu’implique la maîtrise?",
-        "Que faut-il ajuster?",
-        "Quelle pensée faut-il construire?",
-        "D’où provient souvent cette ambiguïté ?"
+        "Qu'est-ce qu'apprendre une langue n'est pas simplement ?",
+        "Outre la correction, sur quoi la fluidité est-elle aussi jugée ?",
+        "Pourquoi certains locuteurs très corrects se sentent-ils étrangers en contexte professionnel ?",
+        "Que peut aider à faire la reconnaissance de cette distinction ?"
       ]
     },
     "exercises": [
@@ -5273,12 +5271,12 @@
       }
     ],
     "reading": {
-      "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte. Un locuteur vraiment cohésif sait discerner quel registre convient le mieux à chaque échange social imprévisible.",
+      "text": "La véritable maîtrise d'une langue implique non seulement la correction grammaticale, mais aussi le rythme, le ton, la conscience culturelle et la capacité à adapter le registre aux nuances subtiles du contexte. Un locuteur véritablement cohérent sait discerner quel niveau de formalité convient à chaque échange social imprévisible, en lisant entre les lignes aussi bien ce qui est dit que, tout aussi important, ce qui est volontairement tu. Ce type de compétence s'enseigne rarement de façon explicite ; elle s'acquiert plutôt par une exposition prolongée et significative aux nuances culturelles et pragmatiques d'une langue, souvent après de nombreuses années d'immersion. Paradoxalement, certains locuteurs non natifs techniquement très corrects n'atteignent jamais tout à fait cette fluidité, précisément parce que leur attention reste fixée sur la correction plutôt que sur la dynamique interpersonnelle qui se joue autour d'eux. À l'inverse, ceux qui acceptent l'ambiguïté, tolèrent l'erreur occasionnelle et privilégient la connexion plutôt que la perfection développent souvent une maîtrise plus intuitive, presque instinctive, de la langue, qu'aucun manuel de grammaire ne pourrait jamais pleinement saisir.",
       "questions": [
-        "Que permet l’expression maîtrisée?",
-        "Quels quatre éléments combine-t-elle?",
-        "Quel mot signifie elegante?",
-        "Que doit discerner un locuteur cohésif ?"
+        "Outre la correction grammaticale, quels quatre éléments implique la véritable maîtrise ?",
+        "Comment ce type de compétence s'acquiert-il généralement ?",
+        "Pourquoi certains locuteurs techniquement très corrects n'atteignent-ils jamais cette fluidité ?",
+        "Que développent souvent ceux qui acceptent l'ambiguïté ?"
       ]
     },
     "exercises": [

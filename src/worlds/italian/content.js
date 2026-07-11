@@ -71,11 +71,11 @@
     ],
     "reading": {
       "title": "Italiano A1 Reading",
-      "text": "A casa di Giulia vivono tre persone. Suo padre cucina la sera e lei legge prima di dormire.",
+      "text": "Giulia è una studentessa a Roma. Ogni mattina saluta la sua insegnante e fa colazione con la famiglia. A scuola, pratica l'italiano con la sua amica Chiara. Dopo la lezione, torna a casa e aiuta sua madre a preparare la cena.",
       "questions": [
-        "¿Cuántas personas viven en la casa?",
-        "¿Quién cocina por la noche?",
-        "¿Qué hace la protagonista antes de dormir?"
+        "Dove vive Giulia?",
+        "Con chi pratica l'italiano?",
+        "Cosa fa dopo la lezione?"
       ]
     }
   },
@@ -146,11 +146,12 @@
     ],
     "reading": {
       "title": "Italiano A2 Reading",
-      "text": "Lucia invita i suoi amici al cinema sabato. Dopo il film, tutti cenano in un piccolo ristorante.",
+      "text": "Marco di solito si sveglia alle sei. Il sabato, va a trovare sua nonna e compra frutta fresca al mercato. Il weekend scorso, l'ha anche aiutata a ridipingere la cucina, così hanno finito tardi e hanno cenato insieme. Il pomeriggio, spesso incontra il suo vicino, e parlano del tempo prima di tornare a casa.",
       "questions": [
-        "¿Qué día es la invitación?",
-        "¿Qué hacen después del cine?",
-        "¿Cómo es el restaurante que visitan?"
+        "A che ora si sveglia di solito Marco?",
+        "Cosa ha aiutato a fare a sua nonna il weekend scorso?",
+        "Chi incontra spesso nel pomeriggio?",
+        "Di cosa parlano?"
       ]
     }
   },
@@ -221,11 +222,12 @@
     ],
     "reading": {
       "title": "Italiano B1 Reading",
-      "text": "Un gruppo del quartiere organizza laboratori di lettura per bambini. Grazie al progetto, più vicini visitano la biblioteca.",
+      "text": "Marta studia italiano da un anno e, anche se fa ancora errori, si sente più sicura quando parla con i turisti. Ha difficoltà con la grammatica, soprattutto con la differenza tra il passato prossimo e l'imperfetto, ma la sua motivazione la spinge a esercitarsi ogni settimana. Da quando tiene un quaderno di vocabolario, la sua scrittura è migliorata molto, e ha persino iniziato a leggere brevi romanzi in italiano. La sua insegnante pensa che, se continua a questo ritmo, potrebbe raggiungere un livello intermedio-alto entro un anno.",
       "questions": [
-        "¿Para quién son los talleres?",
-        "¿Qué lugar visitan más los vecinos ahora?",
-        "¿Qué efecto tiene el proyecto?"
+        "Da quanto tempo studia italiano Marta?",
+        "Quale punto grammaticale trova difficile?",
+        "Cosa l'ha aiutata a migliorare la scrittura?",
+        "Cosa pensa la sua insegnante?"
       ]
     }
   },
@@ -296,11 +298,12 @@
     ],
     "reading": {
       "title": "Italiano B2 Reading",
-      "text": "Un reportage spiega come varie città limitino il traffico turistico. I residenti dicono che la convivenza migliora quando esistono regole chiare.",
+      "text": "L'istruzione online ha ampliato l'accesso all'apprendimento per milioni di persone, permettendo loro di studiare ovunque e in qualsiasi momento. Tuttavia, questa flessibilità richiede anche molta disciplina, una connessione internet affidabile e solide competenze digitali, che non tutti gli studenti possiedono allo stesso modo. I critici sostengono che uno svantaggio importante sia la mancanza di un confronto faccia a faccia, il che può influire sulla motivazione nel tempo, specialmente tra gli studenti più giovani. Nonostante queste sfide, molte università hanno investito in piattaforme interattive pensate per mantenere gli studenti coinvolti, usando forum di discussione, sessioni dal vivo e feedback personalizzato. Di conseguenza, il tasso di abbandono in alcuni programmi online ben progettati ha iniziato a diminuire, suggerendo che una progettazione attenta del corso può compensare molti degli svantaggi solitamente associati all'istruzione a distanza.",
       "questions": [
-        "¿Qué limitan varias ciudades?",
-        "¿Qué dicen los residentes?",
-        "¿Qué tipo de reglas mejora la convivencia?"
+        "Cosa ha ampliato l'istruzione online?",
+        "Cosa richiede questa flessibilità?",
+        "Secondo i critici, qual è uno svantaggio importante?",
+        "Cosa hanno fatto alcune università per mantenere gli studenti coinvolti?"
       ]
     }
   },
@@ -371,11 +374,12 @@
     ],
     "reading": {
       "title": "Italiano C1 Reading",
-      "text": "Il saggio sostiene che il linguaggio pubblico organizzi la memoria collettiva. Attraverso varie metafore collega racconto, potere e comunità.",
+      "text": "Imparare una lingua non è semplicemente memorizzare forme grammaticali; è una pratica sociale plasmata dal contesto, dall'identità e dallo scopo. Chi impara non acquisisce regole grammaticali nel vuoto, ma negozia significato all'interno di comunità specifiche, dove la fluidità viene giudicata tanto per la sua adeguatezza quanto per la sua correttezza. Questa ambiguità deriva spesso da presupposti diversi su cosa implichi davvero la fluidità in una determinata comunità discorsiva: per alcuni significa una pronuncia quasi nativa, mentre per altri è la capacità di condurre una trattativa o difendere un argomento in modo persuasivo. Ricerche recenti in linguistica applicata suggeriscono che questa tensione tra correttezza e adeguatezza spiega perché alcuni parlanti molto corretti dal punto di vista grammaticale si sentano comunque estranei in contesti professionali, mentre altri, con un controllo grammaticale modesto, riescano a creare empatia senza sforzo. Riconoscere questa distinzione può aiutare chi impara a fissare obiettivi più realistici e sensibili al contesto.",
       "questions": [
-        "¿Qué organiza el lenguaje público?",
-        "¿Qué recurso usa el autor?",
-        "¿Qué relación establece entre poder y comunidad?"
+        "Cosa non è semplicemente imparare una lingua?",
+        "Oltre alla correttezza, per cos'altro viene giudicata la fluidità?",
+        "Perché alcuni parlanti molto corretti si sentono estranei in contesti professionali?",
+        "Cosa può aiutare a fare il riconoscere questa distinzione?"
       ]
     }
   },
@@ -446,11 +450,12 @@
     ],
     "reading": {
       "title": "Italiano C2 Reading",
-      "text": "La critica presuppone un lettore esperto e usa un'allusione storica per risignificare la chiusura del saggio.",
+      "text": "La vera padronanza di una lingua implica non solo la correttezza grammaticale, ma anche il ritmo, il tono, la consapevolezza culturale e la capacità di adattare il registro alle sottili sfumature del contesto. Un parlante davvero coeso sa discernere quale livello di formalità si addica a ogni scambio sociale imprevedibile, leggendo tra le righe sia ciò che viene detto sia, altrettanto importante, ciò che viene deliberatamente taciuto. Questo tipo di competenza viene raramente insegnato in modo esplicito; piuttosto, si assorbe attraverso un'esposizione prolungata e significativa alle sfumature culturali e pragmatiche di una lingua, spesso dopo molti anni di immersione. Paradossalmente, alcuni dei parlanti non nativi tecnicamente più corretti non raggiungono mai del tutto questa fluidità, proprio perché la loro attenzione resta fissa sulla correttezza piuttosto che sulle dinamiche interpersonali che si svolgono intorno a loro. Al contrario, chi accetta l'ambiguità, tollera l'errore occasionale e privilegia la connessione rispetto alla perfezione sviluppa spesso una padronanza più intuitiva, quasi istintiva, della lingua, che nessun manuale di grammatica potrebbe mai cogliere pienamente.",
       "questions": [
-        "¿Qué tipo de lector presupone la crítica?",
-        "¿Qué recurso resignifica el cierre?",
-        "¿Cómo cambia la interpretación final?"
+        "Oltre alla correttezza grammaticale, quali quattro elementi implica la vera padronanza?",
+        "Come si acquisisce di solito questo tipo di competenza?",
+        "Perché alcuni parlanti tecnicamente molto corretti non raggiungono mai questa fluidità?",
+        "Cosa sviluppa spesso chi accetta l'ambiguità?"
       ]
     }
   }
@@ -700,11 +705,11 @@
       }
     ],
     "reading": {
-      "text": "A casa di Giulia vivono tre persone. Suo padre cucina la sera e lei legge prima di dormire.",
+      "text": "Giulia è una studentessa a Roma. Ogni mattina saluta la sua insegnante e fa colazione con la famiglia. A scuola, pratica l'italiano con la sua amica Chiara. Dopo la lezione, torna a casa e aiuta sua madre a preparare la cena.",
       "questions": [
-        "¿Cuántas personas viven en la casa?",
-        "¿Quién cocina por la noche?",
-        "¿Qué hace la protagonista antes de dormir?"
+        "Dove vive Giulia?",
+        "Con chi pratica l'italiano?",
+        "Cosa fa dopo la lezione?"
       ]
     },
     "exercises": [
@@ -1246,11 +1251,12 @@
       }
     ],
     "reading": {
-      "text": "Lucia invita i suoi amici al cinema sabato. Dopo il film, tutti cenano in un piccolo ristorante.",
+      "text": "Marco di solito si sveglia alle sei. Il sabato, va a trovare sua nonna e compra frutta fresca al mercato. Il weekend scorso, l'ha anche aiutata a ridipingere la cucina, così hanno finito tardi e hanno cenato insieme. Il pomeriggio, spesso incontra il suo vicino, e parlano del tempo prima di tornare a casa.",
       "questions": [
-        "¿Qué día es la invitación?",
-        "¿Qué hacen después del cine?",
-        "¿Cómo es el restaurante que visitan?"
+        "A che ora si sveglia di solito Marco?",
+        "Cosa ha aiutato a fare a sua nonna il weekend scorso?",
+        "Chi incontra spesso nel pomeriggio?",
+        "Di cosa parlano?"
       ]
     },
     "exercises": [
@@ -1792,11 +1798,12 @@
       }
     ],
     "reading": {
-      "text": "Un gruppo del quartiere organizza laboratori di lettura per bambini. Grazie al progetto, più vicini visitano la biblioteca.",
+      "text": "Marta studia italiano da un anno e, anche se fa ancora errori, si sente più sicura quando parla con i turisti. Ha difficoltà con la grammatica, soprattutto con la differenza tra il passato prossimo e l'imperfetto, ma la sua motivazione la spinge a esercitarsi ogni settimana. Da quando tiene un quaderno di vocabolario, la sua scrittura è migliorata molto, e ha persino iniziato a leggere brevi romanzi in italiano. La sua insegnante pensa che, se continua a questo ritmo, potrebbe raggiungere un livello intermedio-alto entro un anno.",
       "questions": [
-        "¿Para quién son los talleres?",
-        "¿Qué lugar visitan más los vecinos ahora?",
-        "¿Qué efecto tiene el proyecto?"
+        "Da quanto tempo studia italiano Marta?",
+        "Quale punto grammaticale trova difficile?",
+        "Cosa l'ha aiutata a migliorare la scrittura?",
+        "Cosa pensa la sua insegnante?"
       ]
     },
     "exercises": [
@@ -2338,11 +2345,12 @@
       }
     ],
     "reading": {
-      "text": "Un reportage spiega come varie città limitino il traffico turistico. I residenti dicono che la convivenza migliora quando esistono regole chiare.",
+      "text": "L'istruzione online ha ampliato l'accesso all'apprendimento per milioni di persone, permettendo loro di studiare ovunque e in qualsiasi momento. Tuttavia, questa flessibilità richiede anche molta disciplina, una connessione internet affidabile e solide competenze digitali, che non tutti gli studenti possiedono allo stesso modo. I critici sostengono che uno svantaggio importante sia la mancanza di un confronto faccia a faccia, il che può influire sulla motivazione nel tempo, specialmente tra gli studenti più giovani. Nonostante queste sfide, molte università hanno investito in piattaforme interattive pensate per mantenere gli studenti coinvolti, usando forum di discussione, sessioni dal vivo e feedback personalizzato. Di conseguenza, il tasso di abbandono in alcuni programmi online ben progettati ha iniziato a diminuire, suggerendo che una progettazione attenta del corso può compensare molti degli svantaggi solitamente associati all'istruzione a distanza.",
       "questions": [
-        "¿Qué limitan varias ciudades?",
-        "¿Qué dicen los residentes?",
-        "¿Qué tipo de reglas mejora la convivencia?"
+        "Cosa ha ampliato l'istruzione online?",
+        "Cosa richiede questa flessibilità?",
+        "Secondo i critici, qual è uno svantaggio importante?",
+        "Cosa hanno fatto alcune università per mantenere gli studenti coinvolti?"
       ]
     },
     "exercises": [
@@ -2884,11 +2892,12 @@
       }
     ],
     "reading": {
-      "text": "Il saggio sostiene che il linguaggio pubblico organizzi la memoria collettiva. Attraverso varie metafore collega racconto, potere e comunità.",
+      "text": "Imparare una lingua non è semplicemente memorizzare forme grammaticali; è una pratica sociale plasmata dal contesto, dall'identità e dallo scopo. Chi impara non acquisisce regole grammaticali nel vuoto, ma negozia significato all'interno di comunità specifiche, dove la fluidità viene giudicata tanto per la sua adeguatezza quanto per la sua correttezza. Questa ambiguità deriva spesso da presupposti diversi su cosa implichi davvero la fluidità in una determinata comunità discorsiva: per alcuni significa una pronuncia quasi nativa, mentre per altri è la capacità di condurre una trattativa o difendere un argomento in modo persuasivo. Ricerche recenti in linguistica applicata suggeriscono che questa tensione tra correttezza e adeguatezza spiega perché alcuni parlanti molto corretti dal punto di vista grammaticale si sentano comunque estranei in contesti professionali, mentre altri, con un controllo grammaticale modesto, riescano a creare empatia senza sforzo. Riconoscere questa distinzione può aiutare chi impara a fissare obiettivi più realistici e sensibili al contesto.",
       "questions": [
-        "¿Qué organiza el lenguaje público?",
-        "¿Qué recurso usa el autor?",
-        "¿Qué relación establece entre poder y comunidad?"
+        "Cosa non è semplicemente imparare una lingua?",
+        "Oltre alla correttezza, per cos'altro viene giudicata la fluidità?",
+        "Perché alcuni parlanti molto corretti si sentono estranei in contesti professionali?",
+        "Cosa può aiutare a fare il riconoscere questa distinzione?"
       ]
     },
     "exercises": [
@@ -3430,11 +3439,12 @@
       }
     ],
     "reading": {
-      "text": "La critica presuppone un lettore esperto e usa un'allusione storica per risignificare la chiusura del saggio.",
+      "text": "La vera padronanza di una lingua implica non solo la correttezza grammaticale, ma anche il ritmo, il tono, la consapevolezza culturale e la capacità di adattare il registro alle sottili sfumature del contesto. Un parlante davvero coeso sa discernere quale livello di formalità si addica a ogni scambio sociale imprevedibile, leggendo tra le righe sia ciò che viene detto sia, altrettanto importante, ciò che viene deliberatamente taciuto. Questo tipo di competenza viene raramente insegnato in modo esplicito; piuttosto, si assorbe attraverso un'esposizione prolungata e significativa alle sfumature culturali e pragmatiche di una lingua, spesso dopo molti anni di immersione. Paradossalmente, alcuni dei parlanti non nativi tecnicamente più corretti non raggiungono mai del tutto questa fluidità, proprio perché la loro attenzione resta fissa sulla correttezza piuttosto che sulle dinamiche interpersonali che si svolgono intorno a loro. Al contrario, chi accetta l'ambiguità, tollera l'errore occasionale e privilegia la connessione rispetto alla perfezione sviluppa spesso una padronanza più intuitiva, quasi istintiva, della lingua, che nessun manuale di grammatica potrebbe mai cogliere pienamente.",
       "questions": [
-        "¿Qué tipo de lector presupone la crítica?",
-        "¿Qué recurso resignifica el cierre?",
-        "¿Cómo cambia la interpretación final?"
+        "Oltre alla correttezza grammaticale, quali quattro elementi implica la vera padronanza?",
+        "Come si acquisisce di solito questo tipo di competenza?",
+        "Perché alcuni parlanti tecnicamente molto corretti non raggiungono mai questa fluidità?",
+        "Cosa sviluppa spesso chi accetta l'ambiguità?"
       ]
     },
     "exercises": [

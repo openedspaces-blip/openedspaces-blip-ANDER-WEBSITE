@@ -415,12 +415,11 @@
         }
       ],
       "reading": {
-        "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
+        "text": "Sara is a student in Santo Domingo. Every morning, she says hello to her teacher and eats breakfast with her family. At school, she practices English with her friend Ana. After class, she walks home and helps her mother in the kitchen.",
         "questions": [
           "Where does Sara live?",
-          "Who does she say hello to?",
-          "What does she practice?",
-          "What does Sara do after class?"
+          "Who does she practice English with?",
+          "What does she do after class?"
         ]
       },
       "exercises": [
@@ -1363,12 +1362,12 @@
         }
       ],
       "reading": {
-        "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
+        "text": "Tom usually wakes up at six o'clock. On Saturdays, he visits his grandmother and buys fresh fruit at the market. Last weekend, he also helped her paint the kitchen, so they finished late and ate dinner together. In the afternoon, he often meets his neighbor, and they talk about the weather before he goes home.",
         "questions": [
-          "What time does Tom wake up?",
-          "Who does he visit?",
-          "Where does he buy fruit?",
-          "Who does Tom meet in the afternoon?"
+          "What time does Tom usually wake up?",
+          "What did Tom help his grandmother do last weekend?",
+          "Who does Tom often meet in the afternoon?",
+          "What do they talk about?"
         ]
       },
       "exercises": [
@@ -2311,12 +2310,12 @@
         }
       ],
       "reading": {
-        "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
+        "text": "Maya has studied English for one year, and although she still makes mistakes, she feels more confident when she speaks with tourists. She struggles with grammar rules, especially the difference between the present perfect and the simple past, but her motivation keeps her practicing every week. Since she started keeping a vocabulary notebook, her writing has improved a lot, and she has even started reading short novels in English. Her teacher believes that if she keeps this pace, she could reach an upper-intermediate level within a year.",
         "questions": [
           "How long has Maya studied English?",
-          "What still happens?",
-          "When does she feel confident?",
-          "What keeps Maya consistent?"
+          "What grammar point does she find difficult?",
+          "What has helped her writing improve?",
+          "What does her teacher believe?"
         ]
       },
       "exercises": [
@@ -3259,12 +3258,12 @@
         }
       ],
       "reading": {
-        "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
+        "text": "Online education has expanded access to learning for millions of people, allowing them to study from anywhere at any time. However, this flexibility also demands a great deal of discipline, a reliable internet connection and strong digital skills, which not every student possesses equally. Critics argue that one major drawback is the lack of face-to-face feedback, which can affect motivation over time, particularly among younger learners. Despite these challenges, many universities have invested in interactive platforms designed to keep students engaged, using discussion forums, live sessions and personalized feedback. As a result, dropout rates in some well-designed online programs have started to fall, suggesting that thoughtful course design can offset many of the disadvantages usually associated with distance learning.",
         "questions": [
           "What has online education expanded?",
-          "What does it require?",
-          "What is one possible difficulty?",
-          "What is one drawback critics mention?"
+          "What does this flexibility demand?",
+          "According to critics, what is a major drawback?",
+          "What have some universities done to keep students engaged?"
         ]
       },
       "exercises": [
@@ -4207,12 +4206,12 @@
         }
       ],
       "reading": {
-        "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
+        "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. Learners do not simply acquire grammar rules in a vacuum, but negotiate meaning within specific communities of practice, where fluency is judged as much by appropriateness as by accuracy. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community: for some, it means near-native pronunciation, while for others, it is the ability to navigate a negotiation or defend an argument persuasively. Recent research in applied linguistics suggests that this tension between accuracy and appropriateness explains why some highly accurate speakers still feel like outsiders in professional settings, whereas others with modest grammatical control manage to build rapport effortlessly. Recognizing this distinction can help learners set more realistic, context-sensitive goals for their own progress.",
         "questions": [
           "What is language learning not merely?",
-          "What shapes it?",
-          "What three ideas are mentioned?",
-          "What does the ambiguity stem from?"
+          "What is fluency judged by, besides accuracy?",
+          "Why do some accurate speakers still feel like outsiders?",
+          "What can recognizing this distinction help learners do?"
         ]
       },
       "exercises": [
@@ -5155,12 +5154,12 @@
         }
       ],
       "reading": {
-        "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
+        "text": "True mastery of a language involves not only grammatical accuracy, but also timing, tone, cultural awareness and the ability to adapt register to subtle shifts in context. A truly cohesive speaker can discern which level of formality best fits each unpredictable social exchange, reading between the lines of what is said and, just as importantly, what is deliberately left unsaid. This kind of competence is rarely taught explicitly; rather, it is absorbed through prolonged, meaningful exposure to a language's cultural and pragmatic nuances, often over many years of immersion. Paradoxically, some of the most technically accurate non-native speakers never quite achieve this fluidity, precisely because their attention remains fixed on correctness rather than on the interpersonal dynamics unfolding around them. Conversely, speakers who embrace ambiguity, tolerate occasional error and prioritize connection over perfection often develop a more intuitive, almost instinctive command of the language, one that no grammar textbook could ever fully capture.",
         "questions": [
-          "What does mastery involve besides accuracy?",
-          "What must language adapt to?",
-          "Which word means dominio?",
-          "What must a cohesive speaker discern?"
+          "What four things does true mastery involve besides grammatical accuracy?",
+          "How is this kind of competence usually acquired?",
+          "Why do some technically accurate speakers never achieve full fluidity?",
+          "What do speakers who embrace ambiguity often develop?"
         ]
       },
       "exercises": [
@@ -5958,11 +5957,11 @@
         }
       ],
       "reading": {
-        "text": "En casa de Julia viven tres personas. Su padre cocina por la noche y ella lee antes de dormir.",
+        "text": "Julia es estudiante en Bogotá. Cada mañana, saluda a su profesora y desayuna con su familia. En la escuela, practica español con su amiga Valeria. Después de clase, camina a casa y ayuda a su madre en la cocina.",
         "questions": [
-          "¿Cuántas personas viven en la casa?",
-          "¿Quién cocina por la noche?",
-          "¿Qué hace la protagonista antes de dormir?"
+          "¿Dónde vive Julia?",
+          "¿Con quién practica español?",
+          "¿Qué hace después de clase?"
         ]
       },
       "exercises": [
@@ -6582,11 +6581,12 @@
         }
       ],
       "reading": {
-        "text": "Lucía invita a sus amigos al cine el sábado. Después de la película, todos cenan en un restaurante pequeño.",
+        "text": "Tomás normalmente se despierta a las seis. Los sábados, visita a su abuela y compra fruta fresca en el mercado. El fin de semana pasado, también la ayudó a pintar la cocina, así que terminaron tarde y cenaron juntos. Por la tarde, muchas veces se encuentra con su vecino, y hablan sobre el clima antes de volver a casa.",
         "questions": [
-          "¿Qué día es la invitación?",
-          "¿Qué hacen después del cine?",
-          "¿Cómo es el restaurante que visitan?"
+          "¿A qué hora se despierta normalmente Tomás?",
+          "¿Qué ayudó a hacer a su abuela el fin de semana pasado?",
+          "¿Con quién se encuentra por la tarde?",
+          "¿De qué hablan?"
         ]
       },
       "exercises": [
@@ -7206,11 +7206,12 @@
         }
       ],
       "reading": {
-        "text": "Un grupo del barrio organiza talleres de lectura para niños. Gracias al proyecto, más vecinos visitan la biblioteca.",
+        "text": "Maya lleva un año estudiando español y, aunque todavía comete errores, se siente más segura cuando habla con turistas. Le cuesta la gramática, sobre todo la diferencia entre el pretérito y el imperfecto, pero su motivación la mantiene practicando cada semana. Desde que empezó a llevar un cuaderno de vocabulario, su escritura ha mejorado mucho, e incluso ha empezado a leer novelas cortas en español. Su profesora cree que, si sigue a este ritmo, podría alcanzar un nivel intermedio-alto dentro de un año.",
         "questions": [
-          "¿Para quién son los talleres?",
-          "¿Qué lugar visitan más los vecinos ahora?",
-          "¿Qué efecto tiene el proyecto?"
+          "¿Cuánto tiempo lleva Maya estudiando español?",
+          "¿Qué punto de gramática le resulta difícil?",
+          "¿Qué la ha ayudado a mejorar su escritura?",
+          "¿Qué cree su profesora?"
         ]
       },
       "exercises": [
@@ -7830,11 +7831,12 @@
         }
       ],
       "reading": {
-        "text": "Un reportaje explica cómo varias ciudades limitan el tráfico turístico. Los residentes dicen que la convivencia mejora cuando hay reglas claras.",
+        "text": "La educación en línea ha ampliado el acceso al aprendizaje para millones de personas, permitiéndoles estudiar desde cualquier lugar y en cualquier momento. Sin embargo, esta flexibilidad también exige mucha disciplina, una conexión a internet confiable y buenas habilidades digitales, que no todos los estudiantes poseen por igual. Los críticos sostienen que una desventaja importante es la falta de retroalimentación cara a cara, lo cual puede afectar la motivación con el tiempo, sobre todo entre los estudiantes más jóvenes. A pesar de estos desafíos, muchas universidades han invertido en plataformas interactivas pensadas para mantener a los estudiantes comprometidos, usando foros de discusión, sesiones en vivo y retroalimentación personalizada. Como resultado, la tasa de abandono en algunos programas en línea bien diseñados ha comenzado a bajar, lo que sugiere que un diseño de curso cuidadoso puede compensar muchas de las desventajas asociadas normalmente con la educación a distancia.",
         "questions": [
-          "¿Qué limitan varias ciudades?",
-          "¿Qué dicen los residentes?",
-          "¿Qué tipo de reglas mejora la convivencia?"
+          "¿Qué ha ampliado la educación en línea?",
+          "¿Qué exige esta flexibilidad?",
+          "Según los críticos, ¿cuál es una desventaja importante?",
+          "¿Qué han hecho algunas universidades para mantener a los estudiantes comprometidos?"
         ]
       },
       "exercises": [
@@ -8454,11 +8456,12 @@
         }
       ],
       "reading": {
-        "text": "El ensayo sostiene que el lenguaje público organiza la memoria colectiva. A partir de varias metáforas, conecta relato, poder y comunidad.",
+        "text": "Aprender un idioma no es simplemente memorizar formas gramaticales; es una práctica social moldeada por el contexto, la identidad y el propósito. Quien aprende no adquiere reglas gramaticales en el vacío, sino que negocia significado dentro de comunidades específicas, donde la fluidez se juzga tanto por su adecuación como por su corrección. Esta ambigüedad suele derivar de supuestos distintos sobre lo que realmente implica la fluidez en una determinada comunidad discursiva: para algunos significa una pronunciación casi nativa, mientras que para otros es la capacidad de llevar una negociación o defender un argumento de forma persuasiva. Investigaciones recientes en lingüística aplicada sugieren que esta tensión entre corrección y adecuación explica por qué algunos hablantes muy correctos gramaticalmente aún se sienten ajenos en entornos profesionales, mientras que otros, con un control gramatical modesto, logran generar cercanía sin esfuerzo. Reconocer esta distinción puede ayudar a quienes aprenden a fijarse metas más realistas y sensibles al contexto.",
         "questions": [
-          "¿Qué organiza el lenguaje público?",
-          "¿Qué recurso usa el autor?",
-          "¿Qué relación establece entre poder y comunidad?"
+          "¿Qué no es simplemente aprender un idioma?",
+          "Además de la corrección, ¿por qué más se juzga la fluidez?",
+          "¿Por qué algunos hablantes muy correctos se sienten ajenos en entornos profesionales?",
+          "¿Qué puede ayudar a lograr el reconocer esta distinción?"
         ]
       },
       "exercises": [
@@ -9078,11 +9081,12 @@
         }
       ],
       "reading": {
-        "text": "La crítica presupone un lector experto y usa una alusión histórica para resignificar el cierre del ensayo.",
+        "text": "El verdadero dominio de un idioma implica no solo corrección gramatical, sino también el ritmo, el tono, la conciencia cultural y la capacidad de adaptar el registro a los matices sutiles del contexto. Un hablante verdaderamente cohesivo sabe discernir qué nivel de formalidad conviene a cada intercambio social imprevisible, leyendo entre líneas tanto lo que se dice como, igual de importante, lo que deliberadamente se calla. Este tipo de competencia rara vez se enseña de forma explícita; más bien, se absorbe mediante una exposición prolongada y significativa a los matices culturales y pragmáticos de una lengua, a menudo tras muchos años de inmersión. Paradójicamente, algunos de los hablantes no nativos técnicamente más correctos nunca terminan de alcanzar esta fluidez, precisamente porque su atención permanece fija en la corrección y no en la dinámica interpersonal que ocurre a su alrededor. Por el contrario, quienes aceptan la ambigüedad, toleran el error ocasional y priorizan la conexión por encima de la perfección suelen desarrollar un dominio más intuitivo, casi instintivo, del idioma, uno que ningún libro de gramática podría capturar por completo.",
         "questions": [
-          "¿Qué tipo de lector presupone la crítica?",
-          "¿Qué recurso resignifica el cierre?",
-          "¿Cómo cambia la interpretación final?"
+          "Además de la corrección gramatical, ¿qué cuatro elementos implica el verdadero dominio?",
+          "¿Cómo se adquiere normalmente este tipo de competencia?",
+          "¿Por qué algunos hablantes técnicamente correctos nunca alcanzan esta fluidez?",
+          "¿Qué suelen desarrollar quienes aceptan la ambigüedad?"
         ]
       },
       "exercises": [
@@ -9847,12 +9851,11 @@
         }
       ],
       "reading": {
-        "text": "Claire habite à Paris. Elle étudie le français le matin et parle avec son ami Paul. Après le cours, elle dit au revoir à son amie et rentre chez elle avec sa sœur.",
+        "text": "Claire est étudiante à Paris. Chaque matin, elle dit bonjour à sa professeure et prend son petit-déjeuner en famille. À l'école, elle pratique le français avec son amie Camille. Après le cours, elle rentre chez elle et aide sa mère à préparer le dîner.",
         "questions": [
-          "Où habite Claire?",
-          "Quand étudie-t-elle?",
-          "Avec qui parle-t-elle?",
-          "Que fait Claire après le cours ?"
+          "Où habite Claire ?",
+          "Avec qui pratique-t-elle le français ?",
+          "Que fait-elle après le cours ?"
         ]
       },
       "exercises": [
@@ -10795,12 +10798,12 @@
         }
       ],
       "reading": {
-        "text": "Marc travaille le matin. Après le travail, il achète du pain et prépare un café. L’après-midi, il rencontre son voisin et ils parlent du temps avant de rentrer.",
+        "text": "Marc se réveille généralement à six heures. Le samedi, il rend visite à sa grand-mère et achète des fruits frais au marché. Le week-end dernier, il l'a aussi aidée à repeindre la cuisine, si bien qu'ils ont fini tard et dîné ensemble. L'après-midi, il retrouve souvent son voisin, et ils parlent du temps avant de rentrer chez eux.",
         "questions": [
-          "Quand travaille Marc?",
-          "Qu’achète-t-il?",
-          "Que prépare-t-il?",
-          "Qui rencontre Marc l’après-midi ?"
+          "À quelle heure Marc se réveille-t-il généralement ?",
+          "Qu'a-t-il aidé sa grand-mère à faire le week-end dernier ?",
+          "Qui retrouve-t-il souvent l'après-midi ?",
+          "De quoi parlent-ils ?"
         ]
       },
       "exercises": [
@@ -11743,12 +11746,12 @@
         }
       ],
       "reading": {
-        "text": "Nadia apprend le français depuis six mois. Elle comprend mieux les conversations et ose parler en classe. Elle a des difficultés avec la grammaire, mais sa motivation la rend constante chaque semaine.",
+        "text": "Nadia apprend le français depuis un an et, même si elle fait encore des erreurs, elle se sent plus sûre d'elle quand elle parle avec des touristes. Elle a du mal avec la grammaire, surtout la différence entre le passé composé et l'imparfait, mais sa motivation la pousse à s'entraîner chaque semaine. Depuis qu'elle tient un carnet de vocabulaire, son écriture s'est beaucoup améliorée, et elle a même commencé à lire de courts romans en français. Sa professeure pense que, si elle garde ce rythme, elle pourrait atteindre un niveau intermédiaire avancé d'ici un an.",
         "questions": [
-          "Depuis quand apprend-elle?",
-          "Que comprend-elle mieux?",
-          "Où ose-t-elle parler?",
-          "Qu’est-ce qui rend Nadia constante ?"
+          "Depuis combien de temps Nadia apprend-elle le français ?",
+          "Quel point de grammaire lui pose des difficultés ?",
+          "Qu'est-ce qui l'a aidée à améliorer son écriture ?",
+          "Que pense sa professeure ?"
         ]
       },
       "exercises": [
@@ -12691,12 +12694,12 @@
         }
       ],
       "reading": {
-        "text": "Le numérique facilite l’accès au savoir, mais il exige aussi autonomie, esprit critique et accompagnement pédagogique. Les critiques estiment qu’un inconvénient majeur est l’absence de retour en face à face, ce qui affecte la motivation avec le temps.",
+        "text": "L'éducation en ligne a élargi l'accès à l'apprentissage pour des millions de personnes, leur permettant d'étudier n'importe où et à tout moment. Cependant, cette flexibilité exige aussi beaucoup de discipline, une connexion internet fiable et de solides compétences numériques, que tous les étudiants ne possèdent pas de la même façon. Les critiques estiment qu'un inconvénient majeur est l'absence de retour en face à face, ce qui peut affecter la motivation avec le temps, en particulier chez les plus jeunes apprenants. Malgré ces défis, de nombreuses universités ont investi dans des plateformes interactives conçues pour maintenir l'engagement des étudiants, grâce à des forums de discussion, des sessions en direct et un retour personnalisé. Résultat : le taux d'abandon de certains programmes en ligne bien conçus a commencé à baisser, ce qui suggère qu'une conception de cours réfléchie peut compenser bon nombre des inconvénients habituellement associés à l'enseignement à distance.",
         "questions": [
-          "Que facilite le numérique?",
-          "Qu’exige-t-il?",
-          "Quel est le thème?",
-          "Quel inconvénient majeur mentionnent les critiques ?"
+          "Qu'est-ce que l'éducation en ligne a élargi ?",
+          "Qu'exige cette flexibilité ?",
+          "Selon les critiques, quel est un inconvénient majeur ?",
+          "Qu'ont fait certaines universités pour maintenir l'engagement des étudiants ?"
         ]
       },
       "exercises": [
@@ -13639,12 +13642,12 @@
         }
       ],
       "reading": {
-        "text": "La maîtrise d’une langue implique une capacité à interpréter les implicites, ajuster son registre et construire une pensée nuancée. Cette ambiguïté provient souvent d’hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée.",
+        "text": "Apprendre une langue n'est pas simplement mémoriser des formes grammaticales ; c'est une pratique sociale façonnée par le contexte, l'identité et l'intention. Celui qui apprend n'acquiert pas des règles de grammaire dans le vide, mais négocie du sens au sein de communautés spécifiques, où la fluidité est jugée autant sur son adéquation que sur sa correction. Cette ambiguïté provient souvent d'hypothèses différentes sur ce que la fluidité implique réellement dans une communauté discursive donnée : pour certains, cela signifie une prononciation quasi native, tandis que pour d'autres, c'est la capacité à mener une négociation ou à défendre un argument de façon persuasive. Des recherches récentes en linguistique appliquée suggèrent que cette tension entre correction et adéquation explique pourquoi certains locuteurs très corrects sur le plan grammatical se sentent malgré tout étrangers dans un cadre professionnel, tandis que d'autres, avec une maîtrise grammaticale modeste, parviennent à créer un lien sans effort. Reconnaître cette distinction peut aider les apprenants à se fixer des objectifs plus réalistes et sensibles au contexte.",
         "questions": [
-          "Qu’implique la maîtrise?",
-          "Que faut-il ajuster?",
-          "Quelle pensée faut-il construire?",
-          "D’où provient souvent cette ambiguïté ?"
+          "Qu'est-ce qu'apprendre une langue n'est pas simplement ?",
+          "Outre la correction, sur quoi la fluidité est-elle aussi jugée ?",
+          "Pourquoi certains locuteurs très corrects se sentent-ils étrangers en contexte professionnel ?",
+          "Que peut aider à faire la reconnaissance de cette distinction ?"
         ]
       },
       "exercises": [
@@ -14587,12 +14590,12 @@
         }
       ],
       "reading": {
-        "text": "Une expression pleinement maîtrisée permet de combiner rigueur, élégance, efficacité et sensibilité au contexte. Un locuteur vraiment cohésif sait discerner quel registre convient le mieux à chaque échange social imprévisible.",
+        "text": "La véritable maîtrise d'une langue implique non seulement la correction grammaticale, mais aussi le rythme, le ton, la conscience culturelle et la capacité à adapter le registre aux nuances subtiles du contexte. Un locuteur véritablement cohérent sait discerner quel niveau de formalité convient à chaque échange social imprévisible, en lisant entre les lignes aussi bien ce qui est dit que, tout aussi important, ce qui est volontairement tu. Ce type de compétence s'enseigne rarement de façon explicite ; elle s'acquiert plutôt par une exposition prolongée et significative aux nuances culturelles et pragmatiques d'une langue, souvent après de nombreuses années d'immersion. Paradoxalement, certains locuteurs non natifs techniquement très corrects n'atteignent jamais tout à fait cette fluidité, précisément parce que leur attention reste fixée sur la correction plutôt que sur la dynamique interpersonnelle qui se joue autour d'eux. À l'inverse, ceux qui acceptent l'ambiguïté, tolèrent l'erreur occasionnelle et privilégient la connexion plutôt que la perfection développent souvent une maîtrise plus intuitive, presque instinctive, de la langue, qu'aucun manuel de grammaire ne pourrait jamais pleinement saisir.",
         "questions": [
-          "Que permet l’expression maîtrisée?",
-          "Quels quatre éléments combine-t-elle?",
-          "Quel mot signifie elegante?",
-          "Que doit discerner un locuteur cohésif ?"
+          "Outre la correction grammaticale, quels quatre éléments implique la véritable maîtrise ?",
+          "Comment ce type de compétence s'acquiert-il généralement ?",
+          "Pourquoi certains locuteurs techniquement très corrects n'atteignent-ils jamais cette fluidité ?",
+          "Que développent souvent ceux qui acceptent l'ambiguïté ?"
         ]
       },
       "exercises": [
@@ -15390,11 +15393,11 @@
         }
       ],
       "reading": {
-        "text": "A casa di Giulia vivono tre persone. Suo padre cucina la sera e lei legge prima di dormire.",
+        "text": "Giulia è una studentessa a Roma. Ogni mattina saluta la sua insegnante e fa colazione con la famiglia. A scuola, pratica l'italiano con la sua amica Chiara. Dopo la lezione, torna a casa e aiuta sua madre a preparare la cena.",
         "questions": [
-          "¿Cuántas personas viven en la casa?",
-          "¿Quién cocina por la noche?",
-          "¿Qué hace la protagonista antes de dormir?"
+          "Dove vive Giulia?",
+          "Con chi pratica l'italiano?",
+          "Cosa fa dopo la lezione?"
         ]
       },
       "exercises": [
@@ -16014,11 +16017,12 @@
         }
       ],
       "reading": {
-        "text": "Lucia invita i suoi amici al cinema sabato. Dopo il film, tutti cenano in un piccolo ristorante.",
+        "text": "Marco di solito si sveglia alle sei. Il sabato, va a trovare sua nonna e compra frutta fresca al mercato. Il weekend scorso, l'ha anche aiutata a ridipingere la cucina, così hanno finito tardi e hanno cenato insieme. Il pomeriggio, spesso incontra il suo vicino, e parlano del tempo prima di tornare a casa.",
         "questions": [
-          "¿Qué día es la invitación?",
-          "¿Qué hacen después del cine?",
-          "¿Cómo es el restaurante que visitan?"
+          "A che ora si sveglia di solito Marco?",
+          "Cosa ha aiutato a fare a sua nonna il weekend scorso?",
+          "Chi incontra spesso nel pomeriggio?",
+          "Di cosa parlano?"
         ]
       },
       "exercises": [
@@ -16638,11 +16642,12 @@
         }
       ],
       "reading": {
-        "text": "Un gruppo del quartiere organizza laboratori di lettura per bambini. Grazie al progetto, più vicini visitano la biblioteca.",
+        "text": "Marta studia italiano da un anno e, anche se fa ancora errori, si sente più sicura quando parla con i turisti. Ha difficoltà con la grammatica, soprattutto con la differenza tra il passato prossimo e l'imperfetto, ma la sua motivazione la spinge a esercitarsi ogni settimana. Da quando tiene un quaderno di vocabolario, la sua scrittura è migliorata molto, e ha persino iniziato a leggere brevi romanzi in italiano. La sua insegnante pensa che, se continua a questo ritmo, potrebbe raggiungere un livello intermedio-alto entro un anno.",
         "questions": [
-          "¿Para quién son los talleres?",
-          "¿Qué lugar visitan más los vecinos ahora?",
-          "¿Qué efecto tiene el proyecto?"
+          "Da quanto tempo studia italiano Marta?",
+          "Quale punto grammaticale trova difficile?",
+          "Cosa l'ha aiutata a migliorare la scrittura?",
+          "Cosa pensa la sua insegnante?"
         ]
       },
       "exercises": [
@@ -17262,11 +17267,12 @@
         }
       ],
       "reading": {
-        "text": "Un reportage spiega come varie città limitino il traffico turistico. I residenti dicono che la convivenza migliora quando esistono regole chiare.",
+        "text": "L'istruzione online ha ampliato l'accesso all'apprendimento per milioni di persone, permettendo loro di studiare ovunque e in qualsiasi momento. Tuttavia, questa flessibilità richiede anche molta disciplina, una connessione internet affidabile e solide competenze digitali, che non tutti gli studenti possiedono allo stesso modo. I critici sostengono che uno svantaggio importante sia la mancanza di un confronto faccia a faccia, il che può influire sulla motivazione nel tempo, specialmente tra gli studenti più giovani. Nonostante queste sfide, molte università hanno investito in piattaforme interattive pensate per mantenere gli studenti coinvolti, usando forum di discussione, sessioni dal vivo e feedback personalizzato. Di conseguenza, il tasso di abbandono in alcuni programmi online ben progettati ha iniziato a diminuire, suggerendo che una progettazione attenta del corso può compensare molti degli svantaggi solitamente associati all'istruzione a distanza.",
         "questions": [
-          "¿Qué limitan varias ciudades?",
-          "¿Qué dicen los residentes?",
-          "¿Qué tipo de reglas mejora la convivencia?"
+          "Cosa ha ampliato l'istruzione online?",
+          "Cosa richiede questa flessibilità?",
+          "Secondo i critici, qual è uno svantaggio importante?",
+          "Cosa hanno fatto alcune università per mantenere gli studenti coinvolti?"
         ]
       },
       "exercises": [
@@ -17886,11 +17892,12 @@
         }
       ],
       "reading": {
-        "text": "Il saggio sostiene che il linguaggio pubblico organizzi la memoria collettiva. Attraverso varie metafore collega racconto, potere e comunità.",
+        "text": "Imparare una lingua non è semplicemente memorizzare forme grammaticali; è una pratica sociale plasmata dal contesto, dall'identità e dallo scopo. Chi impara non acquisisce regole grammaticali nel vuoto, ma negozia significato all'interno di comunità specifiche, dove la fluidità viene giudicata tanto per la sua adeguatezza quanto per la sua correttezza. Questa ambiguità deriva spesso da presupposti diversi su cosa implichi davvero la fluidità in una determinata comunità discorsiva: per alcuni significa una pronuncia quasi nativa, mentre per altri è la capacità di condurre una trattativa o difendere un argomento in modo persuasivo. Ricerche recenti in linguistica applicata suggeriscono che questa tensione tra correttezza e adeguatezza spiega perché alcuni parlanti molto corretti dal punto di vista grammaticale si sentano comunque estranei in contesti professionali, mentre altri, con un controllo grammaticale modesto, riescano a creare empatia senza sforzo. Riconoscere questa distinzione può aiutare chi impara a fissare obiettivi più realistici e sensibili al contesto.",
         "questions": [
-          "¿Qué organiza el lenguaje público?",
-          "¿Qué recurso usa el autor?",
-          "¿Qué relación establece entre poder y comunidad?"
+          "Cosa non è semplicemente imparare una lingua?",
+          "Oltre alla correttezza, per cos'altro viene giudicata la fluidità?",
+          "Perché alcuni parlanti molto corretti si sentono estranei in contesti professionali?",
+          "Cosa può aiutare a fare il riconoscere questa distinzione?"
         ]
       },
       "exercises": [
@@ -18510,11 +18517,12 @@
         }
       ],
       "reading": {
-        "text": "La critica presuppone un lettore esperto e usa un'allusione storica per risignificare la chiusura del saggio.",
+        "text": "La vera padronanza di una lingua implica non solo la correttezza grammaticale, ma anche il ritmo, il tono, la consapevolezza culturale e la capacità di adattare il registro alle sottili sfumature del contesto. Un parlante davvero coeso sa discernere quale livello di formalità si addica a ogni scambio sociale imprevedibile, leggendo tra le righe sia ciò che viene detto sia, altrettanto importante, ciò che viene deliberatamente taciuto. Questo tipo di competenza viene raramente insegnato in modo esplicito; piuttosto, si assorbe attraverso un'esposizione prolungata e significativa alle sfumature culturali e pragmatiche di una lingua, spesso dopo molti anni di immersione. Paradossalmente, alcuni dei parlanti non nativi tecnicamente più corretti non raggiungono mai del tutto questa fluidità, proprio perché la loro attenzione resta fissa sulla correttezza piuttosto che sulle dinamiche interpersonali che si svolgono intorno a loro. Al contrario, chi accetta l'ambiguità, tollera l'errore occasionale e privilegia la connessione rispetto alla perfezione sviluppa spesso una padronanza più intuitiva, quasi istintiva, della lingua, che nessun manuale di grammatica potrebbe mai cogliere pienamente.",
         "questions": [
-          "¿Qué tipo de lector presupone la crítica?",
-          "¿Qué recurso resignifica el cierre?",
-          "¿Cómo cambia la interpretación final?"
+          "Oltre alla correttezza grammaticale, quali quattro elementi implica la vera padronanza?",
+          "Come si acquisisce di solito questo tipo di competenza?",
+          "Perché alcuni parlanti tecnicamente molto corretti non raggiungono mai questa fluidità?",
+          "Cosa sviluppa spesso chi accetta l'ambiguità?"
         ]
       },
       "exercises": [
@@ -19134,11 +19142,11 @@
         }
       ],
       "reading": {
-        "text": "In Julias Haus leben drei Personen. Ihr Vater kocht am Abend und sie liest vor dem Schlafen.",
+        "text": "Julia ist Schülerin in Berlin. Jeden Morgen begrüßt sie ihre Lehrerin und frühstückt mit ihrer Familie. In der Schule übt sie Deutsch mit ihrer Freundin Anna. Nach dem Unterricht geht sie nach Hause und hilft ihrer Mutter in der Küche.",
         "questions": [
-          "¿Cuántas personas viven en la casa?",
-          "¿Quién cocina por la noche?",
-          "¿Qué hace la protagonista antes de dormir?"
+          "Wo wohnt Julia?",
+          "Mit wem übt sie Deutsch?",
+          "Was macht sie nach dem Unterricht?"
         ]
       },
       "exercises": [
@@ -19758,11 +19766,12 @@
         }
       ],
       "reading": {
-        "text": "Lucía lädt ihre Freunde am Samstag ins Kino ein. Nach dem Film essen alle in einem kleinen Restaurant zu Abend.",
+        "text": "Lukas wacht normalerweise um sechs Uhr auf. Samstags besucht er seine Großmutter und kauft frisches Obst auf dem Markt. Letztes Wochenende hat er ihr auch geholfen, die Küche zu streichen, sodass sie spät fertig waren und zusammen zu Abend gegessen haben. Am Nachmittag trifft er oft seinen Nachbarn, und sie sprechen über das Wetter, bevor er nach Hause geht.",
         "questions": [
-          "¿Qué día es la invitación?",
-          "¿Qué hacen después del cine?",
-          "¿Cómo es el restaurante que visitan?"
+          "Wann wacht Lukas normalerweise auf?",
+          "Wobei hat er seiner Großmutter letztes Wochenende geholfen?",
+          "Wen trifft er oft am Nachmittag?",
+          "Worüber sprechen sie?"
         ]
       },
       "exercises": [
@@ -20382,11 +20391,12 @@
         }
       ],
       "reading": {
-        "text": "Eine Gruppe aus dem Stadtviertel organisiert Lese-Workshops für Kinder. Dank des Projekts besuchen mehr Nachbarn die Bibliothek.",
+        "text": "Marie lernt seit einem Jahr Deutsch, und obwohl sie immer noch Fehler macht, fühlt sie sich sicherer, wenn sie mit Touristen spricht. Ihr fällt die Grammatik schwer, besonders der Unterschied zwischen Perfekt und Präteritum, aber ihre Motivation hält sie dazu an, jede Woche zu üben. Seit sie ein Vokabelheft führt, hat sich ihr Schreiben stark verbessert, und sie hat sogar begonnen, kurze Romane auf Deutsch zu lesen. Ihre Lehrerin glaubt, dass sie innerhalb eines Jahres ein gehobenes Mittelstufenniveau erreichen könnte, wenn sie dieses Tempo beibehält.",
         "questions": [
-          "¿Para quién son los talleres?",
-          "¿Qué lugar visitan más los vecinos ahora?",
-          "¿Qué efecto tiene el proyecto?"
+          "Seit wann lernt Marie Deutsch?",
+          "Welchen Grammatikpunkt findet sie schwierig?",
+          "Was hat ihr geholfen, ihr Schreiben zu verbessern?",
+          "Was glaubt ihre Lehrerin?"
         ]
       },
       "exercises": [
@@ -21006,11 +21016,12 @@
         }
       ],
       "reading": {
-        "text": "Ein Bericht erklärt, wie mehrere Städte den touristischen Verkehr einschränken. Die Bewohner sagen, dass klare Regeln das Zusammenleben verbessern.",
+        "text": "Online-Bildung hat den Zugang zum Lernen für Millionen von Menschen erweitert und ermöglicht es ihnen, jederzeit und von überall zu lernen. Diese Flexibilität erfordert jedoch auch viel Disziplin, eine zuverlässige Internetverbindung und solide digitale Kompetenzen, die nicht alle Studierenden gleichermaßen besitzen. Kritiker argumentieren, dass ein wesentlicher Nachteil das Fehlen von persönlichem Feedback von Angesicht zu Angesicht sei, was sich mit der Zeit negativ auf die Motivation auswirken kann, besonders bei jüngeren Lernenden. Trotz dieser Herausforderungen haben viele Universitäten in interaktive Plattformen investiert, die Studierende durch Diskussionsforen, Live-Sitzungen und persönliches Feedback stärker einbinden sollen. Infolgedessen ist die Abbrecherquote in einigen gut gestalteten Online-Programmen zurückgegangen, was darauf hindeutet, dass ein durchdachtes Kursdesign viele der üblicherweise mit Fernunterricht verbundenen Nachteile ausgleichen kann.",
         "questions": [
-          "¿Qué limitan varias ciudades?",
-          "¿Qué dicen los residentes?",
-          "¿Qué tipo de reglas mejora la convivencia?"
+          "Was hat die Online-Bildung erweitert?",
+          "Was erfordert diese Flexibilität?",
+          "Was ist laut Kritikern ein wesentlicher Nachteil?",
+          "Was haben einige Universitäten getan, um die Studierenden stärker einzubinden?"
         ]
       },
       "exercises": [
@@ -21630,11 +21641,12 @@
         }
       ],
       "reading": {
-        "text": "Der Essay behauptet, dass öffentliche Sprache das kollektive Gedächtnis organisiert. Mit mehreren Metaphern verbindet er Erzählung, Macht und Gemeinschaft.",
+        "text": "Eine Sprache zu lernen bedeutet nicht bloß, grammatische Formen auswendig zu lernen; es ist eine soziale Praxis, die durch Kontext, Identität und Absicht geprägt wird. Lernende eignen sich Grammatikregeln nicht im luftleeren Raum an, sondern handeln Bedeutung innerhalb bestimmter Gemeinschaften aus, in denen Sprachgewandtheit ebenso nach ihrer Angemessenheit wie nach ihrer Korrektheit beurteilt wird. Diese Mehrdeutigkeit rührt oft von unterschiedlichen Annahmen darüber her, was Sprachgewandtheit in einer bestimmten Diskursgemeinschaft wirklich bedeutet: Für manche heißt das eine nahezu muttersprachliche Aussprache, für andere die Fähigkeit, eine Verhandlung zu führen oder ein Argument überzeugend zu vertreten. Neuere Forschungen in der angewandten Linguistik legen nahe, dass diese Spannung zwischen Korrektheit und Angemessenheit erklärt, warum manche grammatisch sehr korrekte Sprecher sich in beruflichen Situationen dennoch fremd fühlen, während andere mit bescheidener grammatischer Kontrolle mühelos Nähe aufbauen. Das Erkennen dieses Unterschieds kann Lernenden helfen, realistischere, kontextsensiblere Ziele für ihren eigenen Fortschritt zu setzen.",
         "questions": [
-          "¿Qué organiza el lenguaje público?",
-          "¿Qué recurso usa el autor?",
-          "¿Qué relación establece entre poder y comunidad?"
+          "Was bedeutet eine Sprache zu lernen nicht bloß?",
+          "Wonach wird Sprachgewandtheit außer nach Korrektheit noch beurteilt?",
+          "Warum fühlen sich manche sehr korrekte Sprecher in beruflichen Situationen fremd?",
+          "Wozu kann das Erkennen dieses Unterschieds Lernenden verhelfen?"
         ]
       },
       "exercises": [
@@ -22254,11 +22266,12 @@
         }
       ],
       "reading": {
-        "text": "Die Kritik setzt einen kundigen Leser voraus und nutzt eine historische Anspielung, um den Schluss des Essays neu zu deuten.",
+        "text": "Wahre Sprachbeherrschung bedeutet nicht nur grammatische Korrektheit, sondern auch Timing, Tonfall, kulturelles Bewusstsein und die Fähigkeit, das Register an feine Kontextverschiebungen anzupassen. Ein wirklich stimmiger Sprecher erkennt, welches Formalitätsniveau zu jedem unvorhersehbaren sozialen Austausch passt, und liest dabei sowohl zwischen den Zeilen dessen, was gesagt wird, als auch – ebenso wichtig – dessen, was bewusst verschwiegen wird. Diese Art von Kompetenz wird selten explizit gelehrt; vielmehr wird sie durch anhaltende, bedeutungsvolle Auseinandersetzung mit den kulturellen und pragmatischen Nuancen einer Sprache aufgenommen, oft nach vielen Jahren des Eintauchens. Paradoxerweise erreichen manche der technisch korrektesten nicht-muttersprachlichen Sprecher diese Gewandtheit nie ganz, gerade weil ihre Aufmerksamkeit auf die Korrektheit statt auf die zwischenmenschliche Dynamik um sie herum gerichtet bleibt. Umgekehrt entwickeln jene, die Mehrdeutigkeit akzeptieren, gelegentliche Fehler tolerieren und Verbindung über Perfektion stellen, oft eine intuitivere, fast instinktive Beherrschung der Sprache, die kein Grammatikbuch je vollständig erfassen könnte.",
         "questions": [
-          "¿Qué tipo de lector presupone la crítica?",
-          "¿Qué recurso resignifica el cierre?",
-          "¿Cómo cambia la interpretación final?"
+          "Welche vier Dinge umfasst wahre Sprachbeherrschung außer grammatischer Korrektheit?",
+          "Wie wird diese Art von Kompetenz normalerweise erworben?",
+          "Warum erreichen manche technisch sehr korrekte Sprecher diese Gewandtheit nie ganz?",
+          "Was entwickeln oft jene, die Mehrdeutigkeit akzeptieren?"
         ]
       },
       "exercises": [
