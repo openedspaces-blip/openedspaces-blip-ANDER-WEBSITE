@@ -10,20 +10,20 @@
         "title": "Listening",
         "text": "Survival English: Preséntate en 4 frases usando my name is, I am, I like.",
         "suggestions": [
-          "My name is...",
-          "I am from...",
-          "Nice to meet you.",
-          "Can you repeat, please?"
+          "The speaker is talking about...",
+          "I heard the words...",
+          "The person's name is...",
+          "Could you repeat that, please?"
         ]
       },
       "speaking": {
         "title": "Speaking",
         "text": "Survival English: Preséntate en 4 frases usando my name is, I am, I like.",
         "suggestions": [
-          "My name is...",
+          "Hello! My name is...",
+          "I am ... years old.",
           "I am from...",
-          "Nice to meet you.",
-          "Can you repeat, please?"
+          "This is my mother / father / friend."
         ]
       },
       "writing": {
@@ -32,8 +32,8 @@
         "suggestions": [
           "My name is...",
           "I am from...",
-          "Nice to meet you.",
-          "Can you repeat, please?"
+          "I have a ...",
+          "My favorite ... is ..."
         ]
       }
     },
@@ -83,11 +83,16 @@
     ],
     "reading": {
       "title": "English A1 Reading",
-      "text": "Sara is a student in Santo Domingo. Every morning, she says hello to her teacher and eats breakfast with her family. At school, she practices English with her friend Ana. After class, she walks home and helps her mother in the kitchen.",
+      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
       "questions": [
-        "Where does Sara live?",
-        "Who does she practice English with?",
-        "What does she do after class?"
+        "What is the main idea of the text?",
+        "How old is Ana?",
+        "Who are the people in Ana's family?",
+        "What time does Ana get up?",
+        "Who is Mr. Green?",
+        "Name two of Ana's favorite words.",
+        "Why is Ana learning English?",
+        "Write one short sentence about yourself."
       ]
     }
   },
@@ -97,30 +102,30 @@
         "title": "Listening",
         "text": "Everyday English: Describe your daily routine in 5 short sentences.",
         "suggestions": [
-          "I usually...",
-          "Last weekend...",
-          "How much is it?",
-          "I am going to..."
+          "The conversation takes place in...",
+          "The customer wants to...",
+          "The price / time is...",
+          "First they..., then they..."
         ]
       },
       "speaking": {
         "title": "Speaking",
         "text": "Everyday English: Describe your daily routine in 5 short sentences.",
         "suggestions": [
-          "I usually...",
-          "Last weekend...",
+          "I'd like ..., please.",
           "How much is it?",
-          "I am going to..."
+          "Excuse me, where is the ...?",
+          "Yesterday I went to... and then I..."
         ]
       },
       "writing": {
         "title": "Writing",
         "text": "Everyday English: Describe your daily routine in 5 short sentences.",
         "suggestions": [
-          "I usually...",
-          "Last weekend...",
-          "How much is it?",
-          "I am going to..."
+          "Last weekend I...",
+          "First..., then..., after that...",
+          "I like ... because...",
+          "There is / There are ... in my town."
         ]
       }
     },
@@ -170,12 +175,16 @@
     ],
     "reading": {
       "title": "English A2 Reading",
-      "text": "Tom usually wakes up at six o'clock. On Saturdays, he visits his grandmother and buys fresh fruit at the market. Last weekend, he also helped her paint the kitchen, so they finished late and ate dinner together. In the afternoon, he often meets his neighbor, and they talk about the weather before he goes home.",
+      "text": "Last Saturday, Daniel visited the new market in his neighborhood. He got up early, had a quick breakfast, and walked there with his sister Elena. First, they looked at the fruit stands and bought some apples and bananas because they were very cheap. Then, Daniel found a small bookshop inside the market and bought a book about animals for two dollars. After that, they were hungry, so they ordered two sandwiches and lemonade at a little café. The waiter was very friendly and recommended the chocolate cake, but it was too expensive. Finally, they took the bus home at five o'clock. It was a simple day, but Daniel says it was the best Saturday of the month.",
       "questions": [
-        "What time does Tom usually wake up?",
-        "What did Tom help his grandmother do last weekend?",
-        "Who does Tom often meet in the afternoon?",
-        "What do they talk about?"
+        "What is the main idea of the text?",
+        "Who went to the market with Daniel?",
+        "Why did they buy apples and bananas?",
+        "What did Daniel buy at the bookshop, and how much was it?",
+        "What did they order at the café?",
+        "Why didn't they eat the chocolate cake?",
+        "How and when did they go home?",
+        "Write three sentences about your last weekend using first, then, and finally."
       ]
     }
   },
@@ -185,30 +194,30 @@
         "title": "Listening",
         "text": "Confident Conversation: Give your opinion about learning languages and explain two reasons.",
         "suggestions": [
-          "In my opinion...",
-          "One reason is...",
-          "I have learned...",
-          "I would like to..."
+          "The speaker's main point is...",
+          "In the speaker's opinion...",
+          "The reason they give is...",
+          "The speaker sounds excited / worried / unsure because..."
         ]
       },
       "speaking": {
         "title": "Speaking",
         "text": "Confident Conversation: Give your opinion about learning languages and explain two reasons.",
         "suggestions": [
-          "In my opinion...",
-          "One reason is...",
-          "I have learned...",
-          "I would like to..."
+          "In my opinion..., because...",
+          "Have you ever...? — Yes, I have. / No, I haven't.",
+          "If I were you, I would...",
+          "The best part was..., although..."
         ]
       },
       "writing": {
         "title": "Writing",
         "text": "Confident Conversation: Give your opinion about learning languages and explain two reasons.",
         "suggestions": [
-          "In my opinion...",
-          "One reason is...",
-          "I have learned...",
-          "I would like to..."
+          "First of all..., in addition..., finally...",
+          "However..., although...",
+          "In my opinion..., because...",
+          "One advantage / disadvantage is..."
         ]
       }
     },
@@ -258,12 +267,16 @@
     ],
     "reading": {
       "title": "English B1 Reading",
-      "text": "Maya has studied English for one year, and although she still makes mistakes, she feels more confident when she speaks with tourists. She struggles with grammar rules, especially the difference between the present perfect and the simple past, but her motivation keeps her practicing every week. Since she started keeping a vocabulary notebook, her writing has improved a lot, and she has even started reading short novels in English. Her teacher believes that if she keeps this pace, she could reach an upper-intermediate level within a year.",
+      "text": "When Sofia decided to spend a semester abroad, many of her friends thought she was making a mistake. She had never traveled alone, she didn't know anyone in Ireland, and her English was far from perfect. However, Sofia believed that the experience would help her grow. The first weeks were harder than she had expected: while she was looking for an apartment, she got lost several times, and she often felt embarrassed when people didn't understand her. Little by little, things improved. She joined a hiking club, made friends from five different countries, and discovered that making mistakes was the fastest way to learn. Now, six months later, Sofia says the semester abroad has been the best decision of her life. Although she still misses her family, she feels more confident and independent than ever. If she had the chance, she would do it all again without hesitation.",
       "questions": [
-        "How long has Maya studied English?",
-        "What grammar point does she find difficult?",
-        "What has helped her writing improve?",
-        "What does her teacher believe?"
+        "What is the main idea of the text?",
+        "Why did Sofia's friends think she was making a mistake?",
+        "What problems did she have during the first weeks?",
+        "What helped her situation improve?",
+        "What did Sofia discover about making mistakes?",
+        "How does she feel now compared to before?",
+        "What can we infer about Sofia's personality?",
+        "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     }
   },
@@ -273,30 +286,30 @@
         "title": "Listening",
         "text": "Argument and Fluency: Write a short argument about online education.",
         "suggestions": [
-          "On the one hand...",
-          "On the other hand...",
-          "This suggests that...",
-          "As a result..."
+          "The speaker's main argument is...",
+          "This point is illustrated by the example of...",
+          "The speaker implies that...",
+          "There seems to be a contrast between ... and ..."
         ]
       },
       "speaking": {
         "title": "Speaking",
         "text": "Argument and Fluency: Write a short argument about online education.",
         "suggestions": [
-          "On the one hand...",
-          "On the other hand...",
-          "This suggests that...",
-          "As a result..."
+          "While I understand that argument, I would counter that...",
+          "The evidence suggests that...",
+          "On balance, I believe...",
+          "To put it another way..."
         ]
       },
       "writing": {
         "title": "Writing",
         "text": "Argument and Fluency: Write a short argument about online education.",
         "suggestions": [
-          "On the one hand...",
-          "On the other hand...",
-          "This suggests that...",
-          "As a result..."
+          "This essay will argue that...",
+          "One key piece of evidence is...",
+          "It could be argued, however, that...",
+          "Taking these points into account..."
         ]
       }
     },
@@ -346,12 +359,14 @@
     ],
     "reading": {
       "title": "English B2 Reading",
-      "text": "Online education has expanded access to learning for millions of people, allowing them to study from anywhere at any time. However, this flexibility also demands a great deal of discipline, a reliable internet connection and strong digital skills, which not every student possesses equally. Critics argue that one major drawback is the lack of face-to-face feedback, which can affect motivation over time, particularly among younger learners. Despite these challenges, many universities have invested in interactive platforms designed to keep students engaged, using discussion forums, live sessions and personalized feedback. As a result, dropout rates in some well-designed online programs have started to fall, suggesting that thoughtful course design can offset many of the disadvantages usually associated with distance learning.",
+      "text": "The debate over remote work has become one of the most contested issues in modern workplaces. Supporters argue that remote work increases productivity, reduces commuting stress, and gives employees greater control over their schedules; several studies have reported measurable gains in output when employees are allowed to choose where they work. Critics, however, point to a decline in spontaneous collaboration, a weakening of company culture, and difficulties in mentoring junior staff remotely. Some companies have responded with hybrid models, requiring employees to be in the office two or three days a week, arguing that this captures the benefits of both approaches. Whether this compromise satisfies either side remains an open question: some employees report that hybrid schedules create the worst of both worlds, with commuting costs but without the full flexibility of remote work. What is clear is that no single policy suits every industry, team, or individual, and organizations that listen carefully to their employees' actual experiences, rather than relying on general assumptions, are more likely to find an arrangement that works.",
       "questions": [
-        "What has online education expanded?",
-        "What does this flexibility demand?",
-        "According to critics, what is a major drawback?",
-        "What have some universities done to keep students engaged?"
+        "What is the main argument in favor of remote work?",
+        "What are two criticisms mentioned in the text?",
+        "What compromise have some companies adopted?",
+        "Why might hybrid schedules dissatisfy some employees?",
+        "What does the author suggest organizations should do?",
+        "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     }
   },
@@ -361,30 +376,30 @@
         "title": "Listening",
         "text": "Advanced Expression: Rewrite a simple opinion in a more formal academic style.",
         "suggestions": [
-          "It is worth noting that...",
-          "This raises the question of...",
-          "To some extent...",
-          "From a broader perspective..."
+          "The speaker concedes that ..., but ultimately maintains that...",
+          "This digression actually reinforces the main point by...",
+          "The shift in tone here suggests...",
+          "Reading between the lines, the speaker seems to imply..."
         ]
       },
       "speaking": {
         "title": "Speaking",
         "text": "Advanced Expression: Rewrite a simple opinion in a more formal academic style.",
         "suggestions": [
-          "It is worth noting that...",
-          "This raises the question of...",
-          "To some extent...",
-          "From a broader perspective..."
+          "While there is some truth to that, I'd push back on...",
+          "Speaking more formally / informally for a moment...",
+          "That's a nuance worth drawing out...",
+          "I take your point, though I'd frame it rather differently..."
         ]
       },
       "writing": {
         "title": "Writing",
         "text": "Advanced Expression: Rewrite a simple opinion in a more formal academic style.",
         "suggestions": [
-          "It is worth noting that...",
-          "This raises the question of...",
-          "To some extent...",
-          "From a broader perspective..."
+          "This analysis will focus on the underlying tension between...",
+          "It is worth underlining that...",
+          "A more nuanced view would acknowledge that...",
+          "Adopting a more measured tone, one might argue..."
         ]
       }
     },
@@ -434,12 +449,14 @@
     ],
     "reading": {
       "title": "English C1 Reading",
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. Learners do not simply acquire grammar rules in a vacuum, but negotiate meaning within specific communities of practice, where fluency is judged as much by appropriateness as by accuracy. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community: for some, it means near-native pronunciation, while for others, it is the ability to navigate a negotiation or defend an argument persuasively. Recent research in applied linguistics suggests that this tension between accuracy and appropriateness explains why some highly accurate speakers still feel like outsiders in professional settings, whereas others with modest grammatical control manage to build rapport effortlessly. Recognizing this distinction can help learners set more realistic, context-sensitive goals for their own progress.",
+      "text": "The idea of meritocracy — that social position should be earned through talent and effort rather than inherited — occupies a peculiar place in contemporary discourse: virtually everyone claims to support it, yet critics argue that its practical effects are often the opposite of what it promises. The central difficulty is that talent and effort are themselves shaped by circumstances largely outside an individual's control: access to education, family stability, and even the confidence to take risks are unevenly distributed long before anyone is old enough to be said to have earned anything. A purely meritocratic system, critics contend, risks converting existing advantages into moral entitlements, so that the successful come to see their position not as fortunate but as deserved, and the unsuccessful internalize failure as a personal shortcoming rather than a structural one. None of this means the underlying ideal — that ability and effort should count for something — is mistaken; it means that any system claiming to reward merit must first reckon honestly with how unevenly the conditions for demonstrating merit are distributed. Absent that reckoning, meritocracy functions less as a corrective to inherited privilege than as its most persuasive disguise.",
       "questions": [
-        "What is language learning not merely?",
-        "What is fluency judged by, besides accuracy?",
-        "Why do some accurate speakers still feel like outsiders?",
-        "What can recognizing this distinction help learners do?"
+        "What tension does the text identify at the heart of meritocracy?",
+        "According to the text, what factors shape talent and effort?",
+        "What does the text mean by converting 'advantages into moral entitlements'?",
+        "What distinction does the author draw between the ideal and the system?",
+        "Why does the author call meritocracy potentially 'its most persuasive disguise'?",
+        "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     }
   },
@@ -449,30 +466,30 @@
         "title": "Listening",
         "text": "Mastery and Nuance: Produce a polished paragraph with nuance and rhetorical balance.",
         "suggestions": [
-          "The underlying issue is...",
-          "This is not to suggest that...",
-          "A more nuanced view would be...",
-          "What makes this compelling is..."
+          "The speaker's apparent concession is, in fact, a rhetorical trap because...",
+          "The allusion to ... reframes the entire exchange...",
+          "Beneath the humor lies a pointed critique of...",
+          "The fallacy here is a subtle equivocation between..."
         ]
       },
       "speaking": {
         "title": "Speaking",
         "text": "Mastery and Nuance: Produce a polished paragraph with nuance and rhetorical balance.",
         "suggestions": [
-          "The underlying issue is...",
-          "This is not to suggest that...",
-          "A more nuanced view would be...",
-          "What makes this compelling is..."
+          "Let me be precise about what I am — and am not — claiming...",
+          "That framing smuggles in an assumption I'd like to unpack...",
+          "If I may borrow your metaphor and turn it around...",
+          "There's a world of difference between ... and ..., and it matters here because..."
         ]
       },
       "writing": {
         "title": "Writing",
         "text": "Mastery and Nuance: Produce a polished paragraph with nuance and rhetorical balance.",
         "suggestions": [
-          "The underlying issue is...",
-          "This is not to suggest that...",
-          "A more nuanced view would be...",
-          "What makes this compelling is..."
+          "The sentence must earn its length — or lose it.",
+          "Here the argument turns, and the prose should turn with it...",
+          "A single concrete image will do the work of a paragraph of abstraction...",
+          "The register drops deliberately, and the reader feels the ground shift..."
         ]
       }
     },
@@ -522,12 +539,16 @@
     ],
     "reading": {
       "title": "English C2 Reading",
-      "text": "True mastery of a language involves not only grammatical accuracy, but also timing, tone, cultural awareness and the ability to adapt register to subtle shifts in context. A truly cohesive speaker can discern which level of formality best fits each unpredictable social exchange, reading between the lines of what is said and, just as importantly, what is deliberately left unsaid. This kind of competence is rarely taught explicitly; rather, it is absorbed through prolonged, meaningful exposure to a language's cultural and pragmatic nuances, often over many years of immersion. Paradoxically, some of the most technically accurate non-native speakers never quite achieve this fluidity, precisely because their attention remains fixed on correctness rather than on the interpersonal dynamics unfolding around them. Conversely, speakers who embrace ambiguity, tolerate occasional error and prioritize connection over perfection often develop a more intuitive, almost instinctive command of the language, one that no grammar textbook could ever fully capture.",
+      "text": "It is a truth universally acknowledged — or at least universally repeated, which in our age amounts to much the same thing — that attention has become the scarcest of resources. The phrase 'attention economy' now circulates with the frictionless ease of all successful clichés, and therein lies the difficulty: a metaphor, once ubiquitous, stops being examined. To call attention an economy is to smuggle in a great deal. Economies presuppose ownership, and it is far from clear that I own my attention in the way I own my shoes; it presupposes exchange, though no one has yet explained what I receive for the hours surrendered to the scroll, unless distraction itself is the payment — a currency that devalues on delivery. Above all, the metaphor flatters us with the fiction of rational allocation: the attentive consumer, weighing investments of gaze and interest, when the entire apparatus is engineered, with considerable virtuosity, to ensure that no such weighing occurs. One might object, not unreasonably, that all metaphors mislead, and that this one at least renders a diffuse anxiety discussable. Granted. But there is a difference between a lens and a cage, and the test is whether we can still describe the phenomenon in other terms. Try it: speak of attention for one paragraph without the vocabulary of scarcity, spending, or investment. The difficulty of the exercise is the measure of our captivity — and the beginning, perhaps, of the escape.",
       "questions": [
-        "What four things does true mastery involve besides grammatical accuracy?",
-        "How is this kind of competence usually acquired?",
-        "Why do some technically accurate speakers never achieve full fluidity?",
-        "What do speakers who embrace ambiguity often develop?"
+        "How does the opening allusion function, and what does its modification signal?",
+        "What three assumptions does the author claim the 'attention economy' metaphor smuggles in?",
+        "Explain the irony in the phrase 'a currency that devalues on delivery'.",
+        "What objection does the author anticipate, and how is the concession handled?",
+        "What distinction does the author draw between 'a lens and a cage'?",
+        "What is the function of the imperative 'Try it'? Analyze its rhetorical effect.",
+        "Characterize the author's style in three precise terms, with textual evidence for each.",
+        "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     }
   }
@@ -546,16 +567,15 @@
     "orderIndex": 10,
     "estimatedMinutes": 10,
     "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "intro": "A1 Listening: understand slow, clear speech about greetings, names, ages, countries, family members, classroom instructions, and simple daily activities. You will train your ear with short audios, songs, and classroom dialogues, learning to catch key words even when you do not understand everything.",
     "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
     "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
     "phrases": [
-      "My name is...",
-      "I am from...",
-      "Nice to meet you.",
-      "Can you repeat, please?",
-      "See you later.",
-      "Where are you from?"
+      "The speaker is talking about...",
+      "I heard the words...",
+      "The person's name is...",
+      "Could you repeat that, please?",
+      "Can you speak more slowly, please?"
     ],
     "vocabulary": [
       {
@@ -611,33 +631,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "My name is...",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Hello! My name is Ana. What's your name?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from...",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Where are you from?",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Nice to meet you too. Where are you from?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from Santo Domingo.",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "I'm from Italy. And you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "I'm from the Dominican Republic. How old are you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "I'm twelve years old. Is this your first English class?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, it is! Our teacher is Mr. Green.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Great! Let's sit together. Do you have a pencil?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, here you are.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Thank you very much, Ana!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
+      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
       "questions": [
-        "Where does Sara live?",
-        "Who does she say hello to?",
-        "What does she practice?",
-        "What does Sara do after class?"
+        "What is the main idea of the text?",
+        "How old is Ana?",
+        "Who are the people in Ana's family?",
+        "What time does Ana get up?",
+        "Who is Mr. Green?",
+        "Name two of Ana's favorite words.",
+        "Why is Ana learning English?",
+        "Write one short sentence about yourself."
       ]
     },
     "exercises": [
@@ -686,16 +740,15 @@
     "orderIndex": 20,
     "estimatedMinutes": 10,
     "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "intro": "A1 Speaking: introduce yourself, greet people, spell your name, say your age and nationality, describe your family, and ask simple questions. You will practice pronunciation of basic sounds, short question-and-answer exchanges, and mini role-plays about everyday school and home situations.",
     "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
     "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
     "phrases": [
-      "My name is...",
+      "Hello! My name is...",
+      "I am ... years old.",
       "I am from...",
-      "Nice to meet you.",
-      "Can you repeat, please?",
-      "See you later.",
-      "Where are you from?"
+      "This is my mother / father / friend.",
+      "Nice to meet you!"
     ],
     "vocabulary": [
       {
@@ -751,33 +804,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "My name is...",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Hello! My name is Ana. What's your name?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from...",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Where are you from?",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Nice to meet you too. Where are you from?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from Santo Domingo.",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "I'm from Italy. And you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "I'm from the Dominican Republic. How old are you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "I'm twelve years old. Is this your first English class?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, it is! Our teacher is Mr. Green.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Great! Let's sit together. Do you have a pencil?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, here you are.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Thank you very much, Ana!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
+      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
       "questions": [
-        "Where does Sara live?",
-        "Who does she say hello to?",
-        "What does she practice?",
-        "What does Sara do after class?"
+        "What is the main idea of the text?",
+        "How old is Ana?",
+        "Who are the people in Ana's family?",
+        "What time does Ana get up?",
+        "Who is Mr. Green?",
+        "Name two of Ana's favorite words.",
+        "Why is Ana learning English?",
+        "Write one short sentence about yourself."
       ]
     },
     "exercises": [
@@ -826,16 +913,15 @@
     "orderIndex": 30,
     "estimatedMinutes": 10,
     "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "intro": "A1 Reading: read very short, simple texts such as name tags, class lists, family descriptions, simple profiles, and short messages. You will learn to recognize high-frequency words on sight, use pictures to predict meaning, and find specific information like names, ages, and countries.",
     "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
     "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
     "phrases": [
-      "My name is...",
-      "I am from...",
-      "Nice to meet you.",
-      "Can you repeat, please?",
-      "See you later.",
-      "Where are you from?"
+      "The text is about...",
+      "The person in the text is...",
+      "I can see the words...",
+      "This word probably means...",
+      "The text says that..."
     ],
     "vocabulary": [
       {
@@ -891,32 +977,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "My name is...",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Hello! My name is Ana. What's your name?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from...",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Where are you from?",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Nice to meet you too. Where are you from?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from Santo Domingo.",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "I'm from Italy. And you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "I'm from the Dominican Republic. How old are you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "I'm twelve years old. Is this your first English class?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, it is! Our teacher is Mr. Green.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Great! Let's sit together. Do you have a pencil?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, here you are.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Thank you very much, Ana!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Sara is a student in Santo Domingo. Every morning, she says hello to her teacher and eats breakfast with her family. At school, she practices English with her friend Ana. After class, she walks home and helps her mother in the kitchen.",
+      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
       "questions": [
-        "Where does Sara live?",
-        "Who does she practice English with?",
-        "What does she do after class?"
+        "What is the main idea of the text?",
+        "How old is Ana?",
+        "Who are the people in Ana's family?",
+        "What time does Ana get up?",
+        "Who is Mr. Green?",
+        "Name two of Ana's favorite words.",
+        "Why is Ana learning English?",
+        "Write one short sentence about yourself."
       ]
     },
     "exercises": [
@@ -965,16 +1086,15 @@
     "orderIndex": 40,
     "estimatedMinutes": 10,
     "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "intro": "A1 Writing: write your first sentences in English about yourself, your family, your classroom, and your daily life. You will practice copying models, completing gapped sentences, using capital letters and periods correctly, and building short personal texts of four to six sentences.",
     "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
     "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
     "phrases": [
       "My name is...",
       "I am from...",
-      "Nice to meet you.",
-      "Can you repeat, please?",
-      "See you later.",
-      "Where are you from?"
+      "I have a ...",
+      "My favorite ... is ...",
+      "I like ... very much."
     ],
     "vocabulary": [
       {
@@ -1030,33 +1150,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "My name is...",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Hello! My name is Ana. What's your name?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from...",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Where are you from?",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Nice to meet you too. Where are you from?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from Santo Domingo.",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "I'm from Italy. And you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "I'm from the Dominican Republic. How old are you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "I'm twelve years old. Is this your first English class?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, it is! Our teacher is Mr. Green.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Great! Let's sit together. Do you have a pencil?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, here you are.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Thank you very much, Ana!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
+      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
       "questions": [
-        "Where does Sara live?",
-        "Who does she say hello to?",
-        "What does she practice?",
-        "What does Sara do after class?"
+        "What is the main idea of the text?",
+        "How old is Ana?",
+        "Who are the people in Ana's family?",
+        "What time does Ana get up?",
+        "Who is Mr. Green?",
+        "Name two of Ana's favorite words.",
+        "Why is Ana learning English?",
+        "Write one short sentence about yourself."
       ]
     },
     "exercises": [
@@ -1105,9 +1259,9 @@
     "orderIndex": 50,
     "estimatedMinutes": 10,
     "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "intro": "Introduce yourself, understand basic classroom instructions, and produce short sentences about personal information, family, school, routines, and preferences.",
     "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
-    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
+    "grammar": "Verb be; Subject pronouns; Articles; Plural nouns; Possessive adjectives; Simple present basics; Can for ability; Question words; Negatives with be; Demonstratives; There is / There are; Numbers and dates; Prepositions of place; Have got / have",
     "phrases": [
       "My name is...",
       "I am from...",
@@ -1170,33 +1324,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "My name is...",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Hello! My name is Ana. What's your name?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from...",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Where are you from?",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Nice to meet you too. Where are you from?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from Santo Domingo.",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "I'm from Italy. And you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "I'm from the Dominican Republic. How old are you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "I'm twelve years old. Is this your first English class?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, it is! Our teacher is Mr. Green.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Great! Let's sit together. Do you have a pencil?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, here you are.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Thank you very much, Ana!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
+      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
       "questions": [
-        "Where does Sara live?",
-        "Who does she say hello to?",
-        "What does she practice?",
-        "What does Sara do after class?"
+        "What is the main idea of the text?",
+        "How old is Ana?",
+        "Who are the people in Ana's family?",
+        "What time does Ana get up?",
+        "Who is Mr. Green?",
+        "Name two of Ana's favorite words.",
+        "Why is Ana learning English?",
+        "Write one short sentence about yourself."
       ]
     },
     "exercises": [
@@ -1245,7 +1433,7 @@
     "orderIndex": 60,
     "estimatedMinutes": 10,
     "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "Puedo saludar, presentarme y pedir información básica.",
+    "intro": "Foundation: greetings, identity, classroom language, family, and everyday survival phrases",
     "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
     "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
     "phrases": [
@@ -1310,33 +1498,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "My name is...",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Hello! My name is Ana. What's your name?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from...",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Where are you from?",
-        "translation": "Frase modelo"
+        "speaker": "Ana",
+        "line": "Nice to meet you too. Where are you from?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I am from Santo Domingo.",
-        "translation": "Respuesta guiada"
+        "speaker": "Leo",
+        "line": "I'm from Italy. And you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "I'm from the Dominican Republic. How old are you?",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "I'm twelve years old. Is this your first English class?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, it is! Our teacher is Mr. Green.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Great! Let's sit together. Do you have a pencil?",
+        "translation": ""
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, here you are.",
+        "translation": ""
+      },
+      {
+        "speaker": "Leo",
+        "line": "Thank you very much, Ana!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Sara is a student. She lives in Santo Domingo. Every morning, she says hello to her teacher and practices English with a friend. After class, she says goodbye to her friend and walks home with her sister.",
+      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
       "questions": [
-        "Where does Sara live?",
-        "Who does she say hello to?",
-        "What does she practice?",
-        "What does Sara do after class?"
+        "What is the main idea of the text?",
+        "How old is Ana?",
+        "Who are the people in Ana's family?",
+        "What time does Ana get up?",
+        "Who is Mr. Green?",
+        "Name two of Ana's favorite words.",
+        "Why is Ana learning English?",
+        "Write one short sentence about yourself."
       ]
     },
     "exercises": [
@@ -1385,16 +1607,15 @@
     "orderIndex": 70,
     "estimatedMinutes": 10,
     "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
-    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "A2 Listening: understand short conversations about shopping, food, directions, weather, plans, and simple past experiences. You will practice catching prices, times, and places, following simple announcements, and understanding the main point of everyday exchanges spoken clearly.",
     "mission": "Describe your daily routine in 5 short sentences.",
     "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
     "phrases": [
-      "I usually...",
-      "Last weekend...",
-      "How much is it?",
-      "I am going to...",
-      "What time is it?",
-      "I need to..."
+      "The conversation takes place in...",
+      "The customer wants to...",
+      "The price / time is...",
+      "First they..., then they...",
+      "Sorry, did you say ... or ...?"
     ],
     "vocabulary": [
       {
@@ -1450,33 +1671,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "I usually...",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Good afternoon! Are you ready to order?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Last weekend...",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, please. I'd like a cheese sandwich and an orange juice.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "What time is it?",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Anything else?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It's seven o'clock, I need to go.",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, how much is the chocolate cake?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "It's three fifty. It's the most popular cake on the menu.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Great, one piece of chocolate cake, please.",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "So that's a cheese sandwich, an orange juice, and a chocolate cake.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "That's right. Can I pay by card?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "Of course. That's nine seventy-five in total.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Here you are. Thank you very much!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
+      "text": "Last Saturday, Daniel visited the new market in his neighborhood. He got up early, had a quick breakfast, and walked there with his sister Elena. First, they looked at the fruit stands and bought some apples and bananas because they were very cheap. Then, Daniel found a small bookshop inside the market and bought a book about animals for two dollars. After that, they were hungry, so they ordered two sandwiches and lemonade at a little café. The waiter was very friendly and recommended the chocolate cake, but it was too expensive. Finally, they took the bus home at five o'clock. It was a simple day, but Daniel says it was the best Saturday of the month.",
       "questions": [
-        "What time does Tom wake up?",
-        "Who does he visit?",
-        "Where does he buy fruit?",
-        "Who does Tom meet in the afternoon?"
+        "What is the main idea of the text?",
+        "Who went to the market with Daniel?",
+        "Why did they buy apples and bananas?",
+        "What did Daniel buy at the bookshop, and how much was it?",
+        "What did they order at the café?",
+        "Why didn't they eat the chocolate cake?",
+        "How and when did they go home?",
+        "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
     "exercises": [
@@ -1525,16 +1780,15 @@
     "orderIndex": 80,
     "estimatedMinutes": 10,
     "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
-    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "A2 Speaking: handle everyday situations such as buying things, ordering food, asking for directions, and making simple plans. You will describe your daily routine, your neighborhood, and last weekend, connecting ideas with and, but, because, and then.",
     "mission": "Describe your daily routine in 5 short sentences.",
     "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
     "phrases": [
-      "I usually...",
-      "Last weekend...",
+      "I'd like ..., please.",
       "How much is it?",
-      "I am going to...",
-      "What time is it?",
-      "I need to..."
+      "Excuse me, where is the ...?",
+      "Yesterday I went to... and then I...",
+      "Shall we meet at ... o'clock?"
     ],
     "vocabulary": [
       {
@@ -1590,33 +1844,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "I usually...",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Good afternoon! Are you ready to order?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Last weekend...",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, please. I'd like a cheese sandwich and an orange juice.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "What time is it?",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Anything else?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It's seven o'clock, I need to go.",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, how much is the chocolate cake?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "It's three fifty. It's the most popular cake on the menu.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Great, one piece of chocolate cake, please.",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "So that's a cheese sandwich, an orange juice, and a chocolate cake.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "That's right. Can I pay by card?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "Of course. That's nine seventy-five in total.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Here you are. Thank you very much!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
+      "text": "Last Saturday, Daniel visited the new market in his neighborhood. He got up early, had a quick breakfast, and walked there with his sister Elena. First, they looked at the fruit stands and bought some apples and bananas because they were very cheap. Then, Daniel found a small bookshop inside the market and bought a book about animals for two dollars. After that, they were hungry, so they ordered two sandwiches and lemonade at a little café. The waiter was very friendly and recommended the chocolate cake, but it was too expensive. Finally, they took the bus home at five o'clock. It was a simple day, but Daniel says it was the best Saturday of the month.",
       "questions": [
-        "What time does Tom wake up?",
-        "Who does he visit?",
-        "Where does he buy fruit?",
-        "Who does Tom meet in the afternoon?"
+        "What is the main idea of the text?",
+        "Who went to the market with Daniel?",
+        "Why did they buy apples and bananas?",
+        "What did Daniel buy at the bookshop, and how much was it?",
+        "What did they order at the café?",
+        "Why didn't they eat the chocolate cake?",
+        "How and when did they go home?",
+        "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
     "exercises": [
@@ -1665,16 +1953,15 @@
     "orderIndex": 90,
     "estimatedMinutes": 10,
     "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
-    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "A2 Reading: read short everyday texts such as menus, signs, timetables, simple emails, blog posts, and short stories about daily life. You will practice finding specific information quickly, understanding sequences of events, and guessing new words from context.",
     "mission": "Describe your daily routine in 5 short sentences.",
     "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
     "phrases": [
-      "I usually...",
-      "Last weekend...",
-      "How much is it?",
-      "I am going to...",
-      "What time is it?",
-      "I need to..."
+      "The text is mainly about...",
+      "According to the text...",
+      "First..., then..., finally...",
+      "The word ... probably means...",
+      "One important detail is..."
     ],
     "vocabulary": [
       {
@@ -1730,33 +2017,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "I usually...",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Good afternoon! Are you ready to order?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Last weekend...",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, please. I'd like a cheese sandwich and an orange juice.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "What time is it?",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Anything else?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It's seven o'clock, I need to go.",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, how much is the chocolate cake?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "It's three fifty. It's the most popular cake on the menu.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Great, one piece of chocolate cake, please.",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "So that's a cheese sandwich, an orange juice, and a chocolate cake.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "That's right. Can I pay by card?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "Of course. That's nine seventy-five in total.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Here you are. Thank you very much!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six o'clock. On Saturdays, he visits his grandmother and buys fresh fruit at the market. Last weekend, he also helped her paint the kitchen, so they finished late and ate dinner together. In the afternoon, he often meets his neighbor, and they talk about the weather before he goes home.",
+      "text": "Last Saturday, Daniel visited the new market in his neighborhood. He got up early, had a quick breakfast, and walked there with his sister Elena. First, they looked at the fruit stands and bought some apples and bananas because they were very cheap. Then, Daniel found a small bookshop inside the market and bought a book about animals for two dollars. After that, they were hungry, so they ordered two sandwiches and lemonade at a little café. The waiter was very friendly and recommended the chocolate cake, but it was too expensive. Finally, they took the bus home at five o'clock. It was a simple day, but Daniel says it was the best Saturday of the month.",
       "questions": [
-        "What time does Tom usually wake up?",
-        "What did Tom help his grandmother do last weekend?",
-        "Who does Tom often meet in the afternoon?",
-        "What do they talk about?"
+        "What is the main idea of the text?",
+        "Who went to the market with Daniel?",
+        "Why did they buy apples and bananas?",
+        "What did Daniel buy at the bookshop, and how much was it?",
+        "What did they order at the café?",
+        "Why didn't they eat the chocolate cake?",
+        "How and when did they go home?",
+        "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
     "exercises": [
@@ -1805,16 +2126,15 @@
     "orderIndex": 100,
     "estimatedMinutes": 10,
     "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
-    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "A2 Writing: write connected sentences and short paragraphs about your routine, your town, your last vacation, and simple plans. You will practice linking ideas with and, but, because, so, and then, and writing short messages, postcards, and informal emails.",
     "mission": "Describe your daily routine in 5 short sentences.",
     "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
     "phrases": [
-      "I usually...",
-      "Last weekend...",
-      "How much is it?",
-      "I am going to...",
-      "What time is it?",
-      "I need to..."
+      "Last weekend I...",
+      "First..., then..., after that...",
+      "I like ... because...",
+      "There is / There are ... in my town.",
+      "See you soon!"
     ],
     "vocabulary": [
       {
@@ -1870,33 +2190,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "I usually...",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Good afternoon! Are you ready to order?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Last weekend...",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, please. I'd like a cheese sandwich and an orange juice.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "What time is it?",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Anything else?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It's seven o'clock, I need to go.",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, how much is the chocolate cake?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "It's three fifty. It's the most popular cake on the menu.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Great, one piece of chocolate cake, please.",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "So that's a cheese sandwich, an orange juice, and a chocolate cake.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "That's right. Can I pay by card?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "Of course. That's nine seventy-five in total.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Here you are. Thank you very much!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
+      "text": "Last Saturday, Daniel visited the new market in his neighborhood. He got up early, had a quick breakfast, and walked there with his sister Elena. First, they looked at the fruit stands and bought some apples and bananas because they were very cheap. Then, Daniel found a small bookshop inside the market and bought a book about animals for two dollars. After that, they were hungry, so they ordered two sandwiches and lemonade at a little café. The waiter was very friendly and recommended the chocolate cake, but it was too expensive. Finally, they took the bus home at five o'clock. It was a simple day, but Daniel says it was the best Saturday of the month.",
       "questions": [
-        "What time does Tom wake up?",
-        "Who does he visit?",
-        "Where does he buy fruit?",
-        "Who does Tom meet in the afternoon?"
+        "What is the main idea of the text?",
+        "Who went to the market with Daniel?",
+        "Why did they buy apples and bananas?",
+        "What did Daniel buy at the bookshop, and how much was it?",
+        "What did they order at the café?",
+        "Why didn't they eat the chocolate cake?",
+        "How and when did they go home?",
+        "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
     "exercises": [
@@ -1945,9 +2299,9 @@
     "orderIndex": 110,
     "estimatedMinutes": 10,
     "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
-    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "Communicate in common everyday situations, describe routines, talk about simple experiences, shop, order food, ask for directions, and narrate short past events.",
     "mission": "Describe your daily routine in 5 short sentences.",
-    "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
+    "grammar": "Present simple; Adverbs of frequency; Present continuous; Past simple: regular verbs; Past simple: irregular verbs; Past simple: questions and negatives; Countable and uncountable nouns; Comparatives; Superlatives; Going to; Would like; Prepositions of time; Object pronouns; Imperatives for directions",
     "phrases": [
       "I usually...",
       "Last weekend...",
@@ -2010,33 +2364,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "I usually...",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Good afternoon! Are you ready to order?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Last weekend...",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, please. I'd like a cheese sandwich and an orange juice.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "What time is it?",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Anything else?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It's seven o'clock, I need to go.",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, how much is the chocolate cake?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "It's three fifty. It's the most popular cake on the menu.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Great, one piece of chocolate cake, please.",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "So that's a cheese sandwich, an orange juice, and a chocolate cake.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "That's right. Can I pay by card?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "Of course. That's nine seventy-five in total.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Here you are. Thank you very much!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
+      "text": "Last Saturday, Daniel visited the new market in his neighborhood. He got up early, had a quick breakfast, and walked there with his sister Elena. First, they looked at the fruit stands and bought some apples and bananas because they were very cheap. Then, Daniel found a small bookshop inside the market and bought a book about animals for two dollars. After that, they were hungry, so they ordered two sandwiches and lemonade at a little café. The waiter was very friendly and recommended the chocolate cake, but it was too expensive. Finally, they took the bus home at five o'clock. It was a simple day, but Daniel says it was the best Saturday of the month.",
       "questions": [
-        "What time does Tom wake up?",
-        "Who does he visit?",
-        "Where does he buy fruit?",
-        "Who does Tom meet in the afternoon?"
+        "What is the main idea of the text?",
+        "Who went to the market with Daniel?",
+        "Why did they buy apples and bananas?",
+        "What did Daniel buy at the bookshop, and how much was it?",
+        "What did they order at the café?",
+        "Why didn't they eat the chocolate cake?",
+        "How and when did they go home?",
+        "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
     "exercises": [
@@ -2085,7 +2473,7 @@
     "orderIndex": 120,
     "estimatedMinutes": 10,
     "description": "Everyday English: Puedo hablar de rutinas, planes, compras y lugares.",
-    "intro": "Puedo hablar de rutinas, planes, compras y lugares.",
+    "intro": "Everyday communication: routines, places, shopping, food, directions, and simple past events",
     "mission": "Describe your daily routine in 5 short sentences.",
     "grammar": "Past simple, present continuous, comparatives, frequency adverbs.",
     "phrases": [
@@ -2150,33 +2538,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "I usually...",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Good afternoon! Are you ready to order?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Last weekend...",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, please. I'd like a cheese sandwich and an orange juice.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "What time is it?",
-        "translation": "Frase modelo"
+        "speaker": "Waiter",
+        "line": "Anything else?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It's seven o'clock, I need to go.",
-        "translation": "Respuesta guiada"
+        "speaker": "Maria",
+        "line": "Yes, how much is the chocolate cake?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "It's three fifty. It's the most popular cake on the menu.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Great, one piece of chocolate cake, please.",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "So that's a cheese sandwich, an orange juice, and a chocolate cake.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "That's right. Can I pay by card?",
+        "translation": ""
+      },
+      {
+        "speaker": "Waiter",
+        "line": "Of course. That's nine seventy-five in total.",
+        "translation": ""
+      },
+      {
+        "speaker": "Maria",
+        "line": "Here you are. Thank you very much!",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Tom usually wakes up at six. On Saturdays, he visits his grandmother and buys fruit at the market. In the afternoon, he meets his neighbor and they talk about the weather before he goes home.",
+      "text": "Last Saturday, Daniel visited the new market in his neighborhood. He got up early, had a quick breakfast, and walked there with his sister Elena. First, they looked at the fruit stands and bought some apples and bananas because they were very cheap. Then, Daniel found a small bookshop inside the market and bought a book about animals for two dollars. After that, they were hungry, so they ordered two sandwiches and lemonade at a little café. The waiter was very friendly and recommended the chocolate cake, but it was too expensive. Finally, they took the bus home at five o'clock. It was a simple day, but Daniel says it was the best Saturday of the month.",
       "questions": [
-        "What time does Tom wake up?",
-        "Who does he visit?",
-        "Where does he buy fruit?",
-        "Who does Tom meet in the afternoon?"
+        "What is the main idea of the text?",
+        "Who went to the market with Daniel?",
+        "Why did they buy apples and bananas?",
+        "What did Daniel buy at the bookshop, and how much was it?",
+        "What did they order at the café?",
+        "Why didn't they eat the chocolate cake?",
+        "How and when did they go home?",
+        "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
     "exercises": [
@@ -2225,16 +2647,15 @@
     "orderIndex": 130,
     "estimatedMinutes": 15,
     "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
-    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "B1 Listening: follow the main points of clear standard speech on familiar matters such as work, school, travel, and free time. You will practice understanding interviews, podcasts, radio programs, and longer conversations, identifying opinions, reasons, and the speaker's attitude.",
     "mission": "Give your opinion about learning languages and explain two reasons.",
     "grammar": "Present perfect, modals, future forms, connectors.",
     "phrases": [
-      "In my opinion...",
-      "One reason is...",
-      "I have learned...",
-      "I would like to...",
-      "I strongly believe...",
-      "That's a good point, but..."
+      "The speaker's main point is...",
+      "In the speaker's opinion...",
+      "The reason they give is...",
+      "The speaker sounds excited / worried / unsure because...",
+      "One example they mention is..."
     ],
     "vocabulary": [
       {
@@ -2290,33 +2711,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "In my opinion...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "You look worried, Nina. What's up?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "One reason is...",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "I've been offered a job in another city, and I can't decide what to do.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "That's a good point, but...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "Wow, congratulations! Have you ever lived away from home?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I strongly believe that practice matters more.",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "No, never. That's what scares me. Although the salary is better, I'd miss my family.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "I understand. If I were you, I'd make a list of advantages and disadvantages.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "That's a good idea. The main advantage is the experience I'd get.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Exactly. And you can always come back if it doesn't work out.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "True. When I was younger, I used to dream about living in a big city.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Then maybe this is your chance. You should at least visit the city first.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "You're right. Thanks, Carlos. Talking to you has really helped.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
+      "text": "When Sofia decided to spend a semester abroad, many of her friends thought she was making a mistake. She had never traveled alone, she didn't know anyone in Ireland, and her English was far from perfect. However, Sofia believed that the experience would help her grow. The first weeks were harder than she had expected: while she was looking for an apartment, she got lost several times, and she often felt embarrassed when people didn't understand her. Little by little, things improved. She joined a hiking club, made friends from five different countries, and discovered that making mistakes was the fastest way to learn. Now, six months later, Sofia says the semester abroad has been the best decision of her life. Although she still misses her family, she feels more confident and independent than ever. If she had the chance, she would do it all again without hesitation.",
       "questions": [
-        "How long has Maya studied English?",
-        "What still happens?",
-        "When does she feel confident?",
-        "What keeps Maya consistent?"
+        "What is the main idea of the text?",
+        "Why did Sofia's friends think she was making a mistake?",
+        "What problems did she have during the first weeks?",
+        "What helped her situation improve?",
+        "What did Sofia discover about making mistakes?",
+        "How does she feel now compared to before?",
+        "What can we infer about Sofia's personality?",
+        "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
     "exercises": [
@@ -2365,16 +2820,15 @@
     "orderIndex": 140,
     "estimatedMinutes": 15,
     "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
-    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "B1 Speaking: enter unprepared conversations on familiar topics, narrate experiences and stories, describe dreams and ambitions, and briefly give reasons for opinions and plans. You will practice keeping a conversation going, asking follow-up questions, and giving advice.",
     "mission": "Give your opinion about learning languages and explain two reasons.",
     "grammar": "Present perfect, modals, future forms, connectors.",
     "phrases": [
-      "In my opinion...",
-      "One reason is...",
-      "I have learned...",
-      "I would like to...",
-      "I strongly believe...",
-      "That's a good point, but..."
+      "In my opinion..., because...",
+      "Have you ever...? — Yes, I have. / No, I haven't.",
+      "If I were you, I would...",
+      "The best part was..., although...",
+      "What do you think about...?"
     ],
     "vocabulary": [
       {
@@ -2430,33 +2884,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "In my opinion...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "You look worried, Nina. What's up?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "One reason is...",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "I've been offered a job in another city, and I can't decide what to do.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "That's a good point, but...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "Wow, congratulations! Have you ever lived away from home?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I strongly believe that practice matters more.",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "No, never. That's what scares me. Although the salary is better, I'd miss my family.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "I understand. If I were you, I'd make a list of advantages and disadvantages.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "That's a good idea. The main advantage is the experience I'd get.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Exactly. And you can always come back if it doesn't work out.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "True. When I was younger, I used to dream about living in a big city.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Then maybe this is your chance. You should at least visit the city first.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "You're right. Thanks, Carlos. Talking to you has really helped.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
+      "text": "When Sofia decided to spend a semester abroad, many of her friends thought she was making a mistake. She had never traveled alone, she didn't know anyone in Ireland, and her English was far from perfect. However, Sofia believed that the experience would help her grow. The first weeks were harder than she had expected: while she was looking for an apartment, she got lost several times, and she often felt embarrassed when people didn't understand her. Little by little, things improved. She joined a hiking club, made friends from five different countries, and discovered that making mistakes was the fastest way to learn. Now, six months later, Sofia says the semester abroad has been the best decision of her life. Although she still misses her family, she feels more confident and independent than ever. If she had the chance, she would do it all again without hesitation.",
       "questions": [
-        "How long has Maya studied English?",
-        "What still happens?",
-        "When does she feel confident?",
-        "What keeps Maya consistent?"
+        "What is the main idea of the text?",
+        "Why did Sofia's friends think she was making a mistake?",
+        "What problems did she have during the first weeks?",
+        "What helped her situation improve?",
+        "What did Sofia discover about making mistakes?",
+        "How does she feel now compared to before?",
+        "What can we infer about Sofia's personality?",
+        "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
     "exercises": [
@@ -2505,16 +2993,15 @@
     "orderIndex": 150,
     "estimatedMinutes": 15,
     "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
-    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "B1 Reading: understand articles, blog posts, simple reports, and stories about familiar and current topics. You will practice identifying main ideas and supporting details, recognizing the writer's opinion, making inferences, and building vocabulary from context.",
     "mission": "Give your opinion about learning languages and explain two reasons.",
     "grammar": "Present perfect, modals, future forms, connectors.",
     "phrases": [
-      "In my opinion...",
-      "One reason is...",
-      "I have learned...",
-      "I would like to...",
-      "I strongly believe...",
-      "That's a good point, but..."
+      "The text is mainly about...",
+      "The author's opinion seems to be...",
+      "According to the text..., however...",
+      "We can infer that...",
+      "This word probably means ... because..."
     ],
     "vocabulary": [
       {
@@ -2570,33 +3057,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "In my opinion...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "You look worried, Nina. What's up?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "One reason is...",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "I've been offered a job in another city, and I can't decide what to do.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "That's a good point, but...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "Wow, congratulations! Have you ever lived away from home?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I strongly believe that practice matters more.",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "No, never. That's what scares me. Although the salary is better, I'd miss my family.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "I understand. If I were you, I'd make a list of advantages and disadvantages.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "That's a good idea. The main advantage is the experience I'd get.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Exactly. And you can always come back if it doesn't work out.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "True. When I was younger, I used to dream about living in a big city.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Then maybe this is your chance. You should at least visit the city first.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "You're right. Thanks, Carlos. Talking to you has really helped.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year, and although she still makes mistakes, she feels more confident when she speaks with tourists. She struggles with grammar rules, especially the difference between the present perfect and the simple past, but her motivation keeps her practicing every week. Since she started keeping a vocabulary notebook, her writing has improved a lot, and she has even started reading short novels in English. Her teacher believes that if she keeps this pace, she could reach an upper-intermediate level within a year.",
+      "text": "When Sofia decided to spend a semester abroad, many of her friends thought she was making a mistake. She had never traveled alone, she didn't know anyone in Ireland, and her English was far from perfect. However, Sofia believed that the experience would help her grow. The first weeks were harder than she had expected: while she was looking for an apartment, she got lost several times, and she often felt embarrassed when people didn't understand her. Little by little, things improved. She joined a hiking club, made friends from five different countries, and discovered that making mistakes was the fastest way to learn. Now, six months later, Sofia says the semester abroad has been the best decision of her life. Although she still misses her family, she feels more confident and independent than ever. If she had the chance, she would do it all again without hesitation.",
       "questions": [
-        "How long has Maya studied English?",
-        "What grammar point does she find difficult?",
-        "What has helped her writing improve?",
-        "What does her teacher believe?"
+        "What is the main idea of the text?",
+        "Why did Sofia's friends think she was making a mistake?",
+        "What problems did she have during the first weeks?",
+        "What helped her situation improve?",
+        "What did Sofia discover about making mistakes?",
+        "How does she feel now compared to before?",
+        "What can we infer about Sofia's personality?",
+        "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
     "exercises": [
@@ -2645,16 +3166,15 @@
     "orderIndex": 160,
     "estimatedMinutes": 15,
     "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
-    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "B1 Writing: write connected texts of several paragraphs on familiar topics: personal stories, opinion paragraphs, informal letters, and simple reviews. You will organize ideas with paragraphs and connectors such as however, although, therefore, and in addition.",
     "mission": "Give your opinion about learning languages and explain two reasons.",
     "grammar": "Present perfect, modals, future forms, connectors.",
     "phrases": [
-      "In my opinion...",
-      "One reason is...",
-      "I have learned...",
-      "I would like to...",
-      "I strongly believe...",
-      "That's a good point, but..."
+      "First of all..., in addition..., finally...",
+      "However..., although...",
+      "In my opinion..., because...",
+      "One advantage / disadvantage is...",
+      "To sum up, I believe..."
     ],
     "vocabulary": [
       {
@@ -2710,33 +3230,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "In my opinion...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "You look worried, Nina. What's up?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "One reason is...",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "I've been offered a job in another city, and I can't decide what to do.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "That's a good point, but...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "Wow, congratulations! Have you ever lived away from home?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I strongly believe that practice matters more.",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "No, never. That's what scares me. Although the salary is better, I'd miss my family.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "I understand. If I were you, I'd make a list of advantages and disadvantages.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "That's a good idea. The main advantage is the experience I'd get.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Exactly. And you can always come back if it doesn't work out.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "True. When I was younger, I used to dream about living in a big city.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Then maybe this is your chance. You should at least visit the city first.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "You're right. Thanks, Carlos. Talking to you has really helped.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
+      "text": "When Sofia decided to spend a semester abroad, many of her friends thought she was making a mistake. She had never traveled alone, she didn't know anyone in Ireland, and her English was far from perfect. However, Sofia believed that the experience would help her grow. The first weeks were harder than she had expected: while she was looking for an apartment, she got lost several times, and she often felt embarrassed when people didn't understand her. Little by little, things improved. She joined a hiking club, made friends from five different countries, and discovered that making mistakes was the fastest way to learn. Now, six months later, Sofia says the semester abroad has been the best decision of her life. Although she still misses her family, she feels more confident and independent than ever. If she had the chance, she would do it all again without hesitation.",
       "questions": [
-        "How long has Maya studied English?",
-        "What still happens?",
-        "When does she feel confident?",
-        "What keeps Maya consistent?"
+        "What is the main idea of the text?",
+        "Why did Sofia's friends think she was making a mistake?",
+        "What problems did she have during the first weeks?",
+        "What helped her situation improve?",
+        "What did Sofia discover about making mistakes?",
+        "How does she feel now compared to before?",
+        "What can we infer about Sofia's personality?",
+        "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
     "exercises": [
@@ -2785,9 +3339,9 @@
     "orderIndex": 170,
     "estimatedMinutes": 15,
     "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
-    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "Deal with most situations while traveling, describe experiences and events, give reasons and explanations for opinions and plans, and produce simple connected texts on familiar topics.",
     "mission": "Give your opinion about learning languages and explain two reasons.",
-    "grammar": "Present perfect, modals, future forms, connectors.",
+    "grammar": "Present perfect; Present perfect vs past simple; Past continuous; Past simple vs past continuous; Will vs going to; First conditional; Second conditional; Should / ought to; Have to / must; Comparatives with modifiers; Relative clauses; Gerunds and infinitives; Used to; Connectors of contrast and reason",
     "phrases": [
       "In my opinion...",
       "One reason is...",
@@ -2850,33 +3404,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "In my opinion...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "You look worried, Nina. What's up?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "One reason is...",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "I've been offered a job in another city, and I can't decide what to do.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "That's a good point, but...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "Wow, congratulations! Have you ever lived away from home?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I strongly believe that practice matters more.",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "No, never. That's what scares me. Although the salary is better, I'd miss my family.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "I understand. If I were you, I'd make a list of advantages and disadvantages.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "That's a good idea. The main advantage is the experience I'd get.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Exactly. And you can always come back if it doesn't work out.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "True. When I was younger, I used to dream about living in a big city.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Then maybe this is your chance. You should at least visit the city first.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "You're right. Thanks, Carlos. Talking to you has really helped.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
+      "text": "When Sofia decided to spend a semester abroad, many of her friends thought she was making a mistake. She had never traveled alone, she didn't know anyone in Ireland, and her English was far from perfect. However, Sofia believed that the experience would help her grow. The first weeks were harder than she had expected: while she was looking for an apartment, she got lost several times, and she often felt embarrassed when people didn't understand her. Little by little, things improved. She joined a hiking club, made friends from five different countries, and discovered that making mistakes was the fastest way to learn. Now, six months later, Sofia says the semester abroad has been the best decision of her life. Although she still misses her family, she feels more confident and independent than ever. If she had the chance, she would do it all again without hesitation.",
       "questions": [
-        "How long has Maya studied English?",
-        "What still happens?",
-        "When does she feel confident?",
-        "What keeps Maya consistent?"
+        "What is the main idea of the text?",
+        "Why did Sofia's friends think she was making a mistake?",
+        "What problems did she have during the first weeks?",
+        "What helped her situation improve?",
+        "What did Sofia discover about making mistakes?",
+        "How does she feel now compared to before?",
+        "What can we infer about Sofia's personality?",
+        "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
     "exercises": [
@@ -2925,7 +3513,7 @@
     "orderIndex": 180,
     "estimatedMinutes": 15,
     "description": "Confident Conversation: Puedo explicar experiencias, opiniones y planes con claridad.",
-    "intro": "Puedo explicar experiencias, opiniones y planes con claridad.",
+    "intro": "Independent communication: opinions, experiences, goals, advice, and familiar discussions",
     "mission": "Give your opinion about learning languages and explain two reasons.",
     "grammar": "Present perfect, modals, future forms, connectors.",
     "phrases": [
@@ -2990,33 +3578,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "In my opinion...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "You look worried, Nina. What's up?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "One reason is...",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "I've been offered a job in another city, and I can't decide what to do.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "That's a good point, but...",
-        "translation": "Frase modelo"
+        "speaker": "Carlos",
+        "line": "Wow, congratulations! Have you ever lived away from home?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "I strongly believe that practice matters more.",
-        "translation": "Respuesta guiada"
+        "speaker": "Nina",
+        "line": "No, never. That's what scares me. Although the salary is better, I'd miss my family.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "I understand. If I were you, I'd make a list of advantages and disadvantages.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "That's a good idea. The main advantage is the experience I'd get.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Exactly. And you can always come back if it doesn't work out.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "True. When I was younger, I used to dream about living in a big city.",
+        "translation": ""
+      },
+      {
+        "speaker": "Carlos",
+        "line": "Then maybe this is your chance. You should at least visit the city first.",
+        "translation": ""
+      },
+      {
+        "speaker": "Nina",
+        "line": "You're right. Thanks, Carlos. Talking to you has really helped.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Maya has studied English for one year. She still makes mistakes, but she feels more confident when she speaks with tourists. She struggles with grammar, but her motivation keeps her consistent every week.",
+      "text": "When Sofia decided to spend a semester abroad, many of her friends thought she was making a mistake. She had never traveled alone, she didn't know anyone in Ireland, and her English was far from perfect. However, Sofia believed that the experience would help her grow. The first weeks were harder than she had expected: while she was looking for an apartment, she got lost several times, and she often felt embarrassed when people didn't understand her. Little by little, things improved. She joined a hiking club, made friends from five different countries, and discovered that making mistakes was the fastest way to learn. Now, six months later, Sofia says the semester abroad has been the best decision of her life. Although she still misses her family, she feels more confident and independent than ever. If she had the chance, she would do it all again without hesitation.",
       "questions": [
-        "How long has Maya studied English?",
-        "What still happens?",
-        "When does she feel confident?",
-        "What keeps Maya consistent?"
+        "What is the main idea of the text?",
+        "Why did Sofia's friends think she was making a mistake?",
+        "What problems did she have during the first weeks?",
+        "What helped her situation improve?",
+        "What did Sofia discover about making mistakes?",
+        "How does she feel now compared to before?",
+        "What can we infer about Sofia's personality?",
+        "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
     "exercises": [
@@ -3065,16 +3687,15 @@
     "orderIndex": 190,
     "estimatedMinutes": 15,
     "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
-    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "B2 Listening: follow extended speech and complex lines of argument on abstract and concrete topics, including academic lectures, panel discussions, and workplace meetings, provided the topic is reasonably familiar. You will practice identifying the speaker's stance, distinguishing main arguments from supporting examples, and picking up implied meaning and tone.",
     "mission": "Write a short argument about online education.",
     "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
     "phrases": [
-      "On the one hand...",
-      "On the other hand...",
-      "This suggests that...",
-      "As a result...",
-      "It could be argued that...",
-      "This is largely due to..."
+      "The speaker's main argument is...",
+      "This point is illustrated by the example of...",
+      "The speaker implies that...",
+      "There seems to be a contrast between ... and ...",
+      "Could you clarify what you meant by...?"
     ],
     "vocabulary": [
       {
@@ -3130,33 +3751,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "On the one hand...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "I've reviewed the proposal, and I have some concerns about the budget.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "On the other hand...",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "I appreciate that. What exactly worries you?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "It could be argued that...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "The marketing costs seem high for the results we're projecting.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is largely due to a lack of discipline.",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "That's a fair point, but the data show similar campaigns doubling engagement.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Sure, but our audience is different. Have we considered a smaller pilot first?",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Actually, that's a reasonable compromise. It would reduce the risk significantly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Exactly. And if the pilot works, we can scale up with more confidence.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "I like that. Let's draft a proposal for a four-week pilot instead.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Agreed. I'll prepare the budget breakdown by Friday.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Perfect. Thanks for pushing back — this is a stronger plan.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
+      "text": "The debate over remote work has become one of the most contested issues in modern workplaces. Supporters argue that remote work increases productivity, reduces commuting stress, and gives employees greater control over their schedules; several studies have reported measurable gains in output when employees are allowed to choose where they work. Critics, however, point to a decline in spontaneous collaboration, a weakening of company culture, and difficulties in mentoring junior staff remotely. Some companies have responded with hybrid models, requiring employees to be in the office two or three days a week, arguing that this captures the benefits of both approaches. Whether this compromise satisfies either side remains an open question: some employees report that hybrid schedules create the worst of both worlds, with commuting costs but without the full flexibility of remote work. What is clear is that no single policy suits every industry, team, or individual, and organizations that listen carefully to their employees' actual experiences, rather than relying on general assumptions, are more likely to find an arrangement that works.",
       "questions": [
-        "What has online education expanded?",
-        "What does it require?",
-        "What is one possible difficulty?",
-        "What is one drawback critics mention?"
+        "What is the main argument in favor of remote work?",
+        "What are two criticisms mentioned in the text?",
+        "What compromise have some companies adopted?",
+        "Why might hybrid schedules dissatisfy some employees?",
+        "What does the author suggest organizations should do?",
+        "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
     "exercises": [
@@ -3205,16 +3858,15 @@
     "orderIndex": 200,
     "estimatedMinutes": 15,
     "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
-    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "B2 Speaking: interact with a degree of fluency and spontaneity that makes regular interaction with native speakers realistic, defending a viewpoint with reasoning, and explaining advantages and disadvantages of different options. You will practice structured debate, presenting information persuasively, and handling unexpected questions.",
     "mission": "Write a short argument about online education.",
     "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
     "phrases": [
-      "On the one hand...",
-      "On the other hand...",
-      "This suggests that...",
-      "As a result...",
-      "It could be argued that...",
-      "This is largely due to..."
+      "While I understand that argument, I would counter that...",
+      "The evidence suggests that...",
+      "On balance, I believe...",
+      "To put it another way...",
+      "That's a fair point, but have you considered...?"
     ],
     "vocabulary": [
       {
@@ -3270,33 +3922,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "On the one hand...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "I've reviewed the proposal, and I have some concerns about the budget.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "On the other hand...",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "I appreciate that. What exactly worries you?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "It could be argued that...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "The marketing costs seem high for the results we're projecting.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is largely due to a lack of discipline.",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "That's a fair point, but the data show similar campaigns doubling engagement.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Sure, but our audience is different. Have we considered a smaller pilot first?",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Actually, that's a reasonable compromise. It would reduce the risk significantly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Exactly. And if the pilot works, we can scale up with more confidence.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "I like that. Let's draft a proposal for a four-week pilot instead.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Agreed. I'll prepare the budget breakdown by Friday.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Perfect. Thanks for pushing back — this is a stronger plan.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
+      "text": "The debate over remote work has become one of the most contested issues in modern workplaces. Supporters argue that remote work increases productivity, reduces commuting stress, and gives employees greater control over their schedules; several studies have reported measurable gains in output when employees are allowed to choose where they work. Critics, however, point to a decline in spontaneous collaboration, a weakening of company culture, and difficulties in mentoring junior staff remotely. Some companies have responded with hybrid models, requiring employees to be in the office two or three days a week, arguing that this captures the benefits of both approaches. Whether this compromise satisfies either side remains an open question: some employees report that hybrid schedules create the worst of both worlds, with commuting costs but without the full flexibility of remote work. What is clear is that no single policy suits every industry, team, or individual, and organizations that listen carefully to their employees' actual experiences, rather than relying on general assumptions, are more likely to find an arrangement that works.",
       "questions": [
-        "What has online education expanded?",
-        "What does it require?",
-        "What is one possible difficulty?",
-        "What is one drawback critics mention?"
+        "What is the main argument in favor of remote work?",
+        "What are two criticisms mentioned in the text?",
+        "What compromise have some companies adopted?",
+        "Why might hybrid schedules dissatisfy some employees?",
+        "What does the author suggest organizations should do?",
+        "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
     "exercises": [
@@ -3345,16 +4029,15 @@
     "orderIndex": 210,
     "estimatedMinutes": 15,
     "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
-    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "B2 Reading: read articles and reports on contemporary issues, understanding the writer's argument, attitude, and use of evidence, including some texts that use idiomatic or connotative language. You will practice separating fact from opinion, evaluating the strength of evidence, and identifying rhetorical techniques.",
     "mission": "Write a short argument about online education.",
     "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
     "phrases": [
-      "On the one hand...",
-      "On the other hand...",
-      "This suggests that...",
-      "As a result...",
-      "It could be argued that...",
-      "This is largely due to..."
+      "The writer's main argument is...",
+      "This evidence supports / weakens the claim that...",
+      "The writer's attitude toward ... seems to be...",
+      "This is presented as a fact, but it is actually an opinion because...",
+      "The rhetorical effect of this phrase is..."
     ],
     "vocabulary": [
       {
@@ -3410,33 +4093,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "On the one hand...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "I've reviewed the proposal, and I have some concerns about the budget.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "On the other hand...",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "I appreciate that. What exactly worries you?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "It could be argued that...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "The marketing costs seem high for the results we're projecting.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is largely due to a lack of discipline.",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "That's a fair point, but the data show similar campaigns doubling engagement.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Sure, but our audience is different. Have we considered a smaller pilot first?",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Actually, that's a reasonable compromise. It would reduce the risk significantly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Exactly. And if the pilot works, we can scale up with more confidence.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "I like that. Let's draft a proposal for a four-week pilot instead.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Agreed. I'll prepare the budget breakdown by Friday.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Perfect. Thanks for pushing back — this is a stronger plan.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning for millions of people, allowing them to study from anywhere at any time. However, this flexibility also demands a great deal of discipline, a reliable internet connection and strong digital skills, which not every student possesses equally. Critics argue that one major drawback is the lack of face-to-face feedback, which can affect motivation over time, particularly among younger learners. Despite these challenges, many universities have invested in interactive platforms designed to keep students engaged, using discussion forums, live sessions and personalized feedback. As a result, dropout rates in some well-designed online programs have started to fall, suggesting that thoughtful course design can offset many of the disadvantages usually associated with distance learning.",
+      "text": "The debate over remote work has become one of the most contested issues in modern workplaces. Supporters argue that remote work increases productivity, reduces commuting stress, and gives employees greater control over their schedules; several studies have reported measurable gains in output when employees are allowed to choose where they work. Critics, however, point to a decline in spontaneous collaboration, a weakening of company culture, and difficulties in mentoring junior staff remotely. Some companies have responded with hybrid models, requiring employees to be in the office two or three days a week, arguing that this captures the benefits of both approaches. Whether this compromise satisfies either side remains an open question: some employees report that hybrid schedules create the worst of both worlds, with commuting costs but without the full flexibility of remote work. What is clear is that no single policy suits every industry, team, or individual, and organizations that listen carefully to their employees' actual experiences, rather than relying on general assumptions, are more likely to find an arrangement that works.",
       "questions": [
-        "What has online education expanded?",
-        "What does this flexibility demand?",
-        "According to critics, what is a major drawback?",
-        "What have some universities done to keep students engaged?"
+        "What is the main argument in favor of remote work?",
+        "What are two criticisms mentioned in the text?",
+        "What compromise have some companies adopted?",
+        "Why might hybrid schedules dissatisfy some employees?",
+        "What does the author suggest organizations should do?",
+        "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
     "exercises": [
@@ -3485,16 +4200,15 @@
     "orderIndex": 220,
     "estimatedMinutes": 15,
     "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
-    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "B2 Writing: write clear, detailed texts on a range of subjects, including essays and reports that develop an argument, weigh evidence, and reach a reasoned conclusion. You will practice structuring formal essays, integrating evidence, and using a wide range of cohesive devices.",
     "mission": "Write a short argument about online education.",
     "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
     "phrases": [
-      "On the one hand...",
-      "On the other hand...",
-      "This suggests that...",
-      "As a result...",
-      "It could be argued that...",
-      "This is largely due to..."
+      "This essay will argue that...",
+      "One key piece of evidence is...",
+      "It could be argued, however, that...",
+      "Taking these points into account...",
+      "In conclusion, the evidence strongly suggests that..."
     ],
     "vocabulary": [
       {
@@ -3550,33 +4264,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "On the one hand...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "I've reviewed the proposal, and I have some concerns about the budget.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "On the other hand...",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "I appreciate that. What exactly worries you?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "It could be argued that...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "The marketing costs seem high for the results we're projecting.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is largely due to a lack of discipline.",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "That's a fair point, but the data show similar campaigns doubling engagement.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Sure, but our audience is different. Have we considered a smaller pilot first?",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Actually, that's a reasonable compromise. It would reduce the risk significantly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Exactly. And if the pilot works, we can scale up with more confidence.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "I like that. Let's draft a proposal for a four-week pilot instead.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Agreed. I'll prepare the budget breakdown by Friday.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Perfect. Thanks for pushing back — this is a stronger plan.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
+      "text": "The debate over remote work has become one of the most contested issues in modern workplaces. Supporters argue that remote work increases productivity, reduces commuting stress, and gives employees greater control over their schedules; several studies have reported measurable gains in output when employees are allowed to choose where they work. Critics, however, point to a decline in spontaneous collaboration, a weakening of company culture, and difficulties in mentoring junior staff remotely. Some companies have responded with hybrid models, requiring employees to be in the office two or three days a week, arguing that this captures the benefits of both approaches. Whether this compromise satisfies either side remains an open question: some employees report that hybrid schedules create the worst of both worlds, with commuting costs but without the full flexibility of remote work. What is clear is that no single policy suits every industry, team, or individual, and organizations that listen carefully to their employees' actual experiences, rather than relying on general assumptions, are more likely to find an arrangement that works.",
       "questions": [
-        "What has online education expanded?",
-        "What does it require?",
-        "What is one possible difficulty?",
-        "What is one drawback critics mention?"
+        "What is the main argument in favor of remote work?",
+        "What are two criticisms mentioned in the text?",
+        "What compromise have some companies adopted?",
+        "Why might hybrid schedules dissatisfy some employees?",
+        "What does the author suggest organizations should do?",
+        "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
     "exercises": [
@@ -3625,9 +4371,9 @@
     "orderIndex": 230,
     "estimatedMinutes": 15,
     "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
-    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "Understand and produce clear arguments, defend points of view, handle academic or professional information, and communicate independently in varied contexts.",
     "mission": "Write a short argument about online education.",
-    "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
+    "grammar": "Second conditional; Passive voice; Reported speech; Advanced relative clauses; Modals of deduction; Formal linking devices; Future forms; Cohesion; Emphatic structures; Participle clauses; Concession clauses; Quantifiers; Verb patterns; Discourse markers",
     "phrases": [
       "On the one hand...",
       "On the other hand...",
@@ -3690,33 +4436,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "On the one hand...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "I've reviewed the proposal, and I have some concerns about the budget.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "On the other hand...",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "I appreciate that. What exactly worries you?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "It could be argued that...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "The marketing costs seem high for the results we're projecting.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is largely due to a lack of discipline.",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "That's a fair point, but the data show similar campaigns doubling engagement.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Sure, but our audience is different. Have we considered a smaller pilot first?",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Actually, that's a reasonable compromise. It would reduce the risk significantly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Exactly. And if the pilot works, we can scale up with more confidence.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "I like that. Let's draft a proposal for a four-week pilot instead.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Agreed. I'll prepare the budget breakdown by Friday.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Perfect. Thanks for pushing back — this is a stronger plan.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
+      "text": "The debate over remote work has become one of the most contested issues in modern workplaces. Supporters argue that remote work increases productivity, reduces commuting stress, and gives employees greater control over their schedules; several studies have reported measurable gains in output when employees are allowed to choose where they work. Critics, however, point to a decline in spontaneous collaboration, a weakening of company culture, and difficulties in mentoring junior staff remotely. Some companies have responded with hybrid models, requiring employees to be in the office two or three days a week, arguing that this captures the benefits of both approaches. Whether this compromise satisfies either side remains an open question: some employees report that hybrid schedules create the worst of both worlds, with commuting costs but without the full flexibility of remote work. What is clear is that no single policy suits every industry, team, or individual, and organizations that listen carefully to their employees' actual experiences, rather than relying on general assumptions, are more likely to find an arrangement that works.",
       "questions": [
-        "What has online education expanded?",
-        "What does it require?",
-        "What is one possible difficulty?",
-        "What is one drawback critics mention?"
+        "What is the main argument in favor of remote work?",
+        "What are two criticisms mentioned in the text?",
+        "What compromise have some companies adopted?",
+        "Why might hybrid schedules dissatisfy some employees?",
+        "What does the author suggest organizations should do?",
+        "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
     "exercises": [
@@ -3765,7 +4543,7 @@
     "orderIndex": 240,
     "estimatedMinutes": 15,
     "description": "Argument and Fluency: Puedo argumentar, comparar y comprender textos más complejos.",
-    "intro": "Puedo argumentar, comparar y comprender textos más complejos.",
+    "intro": "Upper-intermediate independence: academic and professional contexts, arguments, presentations, and complex information",
     "mission": "Write a short argument about online education.",
     "grammar": "Conditionals, passive voice, reported speech, phrasal verbs.",
     "phrases": [
@@ -3830,33 +4608,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "On the one hand...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "I've reviewed the proposal, and I have some concerns about the budget.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "On the other hand...",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "I appreciate that. What exactly worries you?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "It could be argued that...",
-        "translation": "Frase modelo"
+        "speaker": "Tom",
+        "line": "The marketing costs seem high for the results we're projecting.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is largely due to a lack of discipline.",
-        "translation": "Respuesta guiada"
+        "speaker": "Priya",
+        "line": "That's a fair point, but the data show similar campaigns doubling engagement.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Sure, but our audience is different. Have we considered a smaller pilot first?",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Actually, that's a reasonable compromise. It would reduce the risk significantly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Exactly. And if the pilot works, we can scale up with more confidence.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "I like that. Let's draft a proposal for a four-week pilot instead.",
+        "translation": ""
+      },
+      {
+        "speaker": "Tom",
+        "line": "Agreed. I'll prepare the budget breakdown by Friday.",
+        "translation": ""
+      },
+      {
+        "speaker": "Priya",
+        "line": "Perfect. Thanks for pushing back — this is a stronger plan.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Online education has expanded access to learning, but it also requires discipline, reliable internet and strong digital skills. Critics argue that one major drawback is the lack of face-to-face feedback, which affects motivation over time.",
+      "text": "The debate over remote work has become one of the most contested issues in modern workplaces. Supporters argue that remote work increases productivity, reduces commuting stress, and gives employees greater control over their schedules; several studies have reported measurable gains in output when employees are allowed to choose where they work. Critics, however, point to a decline in spontaneous collaboration, a weakening of company culture, and difficulties in mentoring junior staff remotely. Some companies have responded with hybrid models, requiring employees to be in the office two or three days a week, arguing that this captures the benefits of both approaches. Whether this compromise satisfies either side remains an open question: some employees report that hybrid schedules create the worst of both worlds, with commuting costs but without the full flexibility of remote work. What is clear is that no single policy suits every industry, team, or individual, and organizations that listen carefully to their employees' actual experiences, rather than relying on general assumptions, are more likely to find an arrangement that works.",
       "questions": [
-        "What has online education expanded?",
-        "What does it require?",
-        "What is one possible difficulty?",
-        "What is one drawback critics mention?"
+        "What is the main argument in favor of remote work?",
+        "What are two criticisms mentioned in the text?",
+        "What compromise have some companies adopted?",
+        "Why might hybrid schedules dissatisfy some employees?",
+        "What does the author suggest organizations should do?",
+        "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
     "exercises": [
@@ -3905,16 +4715,15 @@
     "orderIndex": 250,
     "estimatedMinutes": 15,
     "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
-    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "intro": "C1 Listening: understand extended speech even when it is not clearly structured and relationships are only implied, including lectures, debates, and specialized professional discussions delivered at natural speed. You will practice following an argument through digressions, distinguishing the speaker's true position from concessions, and picking up register and tone shifts.",
     "mission": "Rewrite a simple opinion in a more formal academic style.",
     "grammar": "Inversion, advanced passives, hedging, discourse markers.",
     "phrases": [
-      "It is worth noting that...",
-      "This raises the question of...",
-      "To some extent...",
-      "From a broader perspective...",
-      "It is precisely this ambiguity that...",
-      "Arguably, the most significant factor is..."
+      "The speaker concedes that ..., but ultimately maintains that...",
+      "This digression actually reinforces the main point by...",
+      "The shift in tone here suggests...",
+      "Reading between the lines, the speaker seems to imply...",
+      "The underlying assumption behind this claim is..."
     ],
     "vocabulary": [
       {
@@ -3970,33 +4779,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "It is worth noting that...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "I want to raise a concern about the proposed curriculum change, if I may.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This raises the question of...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "Of course. What's the concern, specifically?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Arguably, the most significant factor is...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "It's not that I oppose the change outright — it's more that the timeline seems unrealistic.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It is precisely this ambiguity that complicates the discussion.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "That's a fair concern. What would you consider a more realistic timeline?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "At least two semesters, to allow for proper faculty training.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "I take your point, though the board has been pushing for faster implementation.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I understand the pressure, but a rushed rollout could undermine the very outcomes we want.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "That's a nuance worth raising with the board directly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I'd be glad to draft a brief memo outlining the risks.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "Please do. I suspect it will change the conversation considerably.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
+      "text": "The idea of meritocracy — that social position should be earned through talent and effort rather than inherited — occupies a peculiar place in contemporary discourse: virtually everyone claims to support it, yet critics argue that its practical effects are often the opposite of what it promises. The central difficulty is that talent and effort are themselves shaped by circumstances largely outside an individual's control: access to education, family stability, and even the confidence to take risks are unevenly distributed long before anyone is old enough to be said to have earned anything. A purely meritocratic system, critics contend, risks converting existing advantages into moral entitlements, so that the successful come to see their position not as fortunate but as deserved, and the unsuccessful internalize failure as a personal shortcoming rather than a structural one. None of this means the underlying ideal — that ability and effort should count for something — is mistaken; it means that any system claiming to reward merit must first reckon honestly with how unevenly the conditions for demonstrating merit are distributed. Absent that reckoning, meritocracy functions less as a corrective to inherited privilege than as its most persuasive disguise.",
       "questions": [
-        "What is language learning not merely?",
-        "What shapes it?",
-        "What three ideas are mentioned?",
-        "What does the ambiguity stem from?"
+        "What tension does the text identify at the heart of meritocracy?",
+        "According to the text, what factors shape talent and effort?",
+        "What does the text mean by converting 'advantages into moral entitlements'?",
+        "What distinction does the author draw between the ideal and the system?",
+        "Why does the author call meritocracy potentially 'its most persuasive disguise'?",
+        "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
     "exercises": [
@@ -4045,16 +4886,15 @@
     "orderIndex": 260,
     "estimatedMinutes": 15,
     "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
-    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "intro": "C1 Speaking: express ideas fluently and spontaneously, almost without searching for expressions, using language flexibly for social, academic, and professional purposes, and adjusting register skillfully to the audience and situation. You will practice sustained argument, diplomatic disagreement, and adapting the same message to different audiences.",
     "mission": "Rewrite a simple opinion in a more formal academic style.",
     "grammar": "Inversion, advanced passives, hedging, discourse markers.",
     "phrases": [
-      "It is worth noting that...",
-      "This raises the question of...",
-      "To some extent...",
-      "From a broader perspective...",
-      "It is precisely this ambiguity that...",
-      "Arguably, the most significant factor is..."
+      "While there is some truth to that, I'd push back on...",
+      "Speaking more formally / informally for a moment...",
+      "That's a nuance worth drawing out...",
+      "I take your point, though I'd frame it rather differently...",
+      "Let me rephrase that for a more general audience..."
     ],
     "vocabulary": [
       {
@@ -4110,33 +4950,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "It is worth noting that...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "I want to raise a concern about the proposed curriculum change, if I may.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This raises the question of...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "Of course. What's the concern, specifically?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Arguably, the most significant factor is...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "It's not that I oppose the change outright — it's more that the timeline seems unrealistic.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It is precisely this ambiguity that complicates the discussion.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "That's a fair concern. What would you consider a more realistic timeline?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "At least two semesters, to allow for proper faculty training.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "I take your point, though the board has been pushing for faster implementation.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I understand the pressure, but a rushed rollout could undermine the very outcomes we want.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "That's a nuance worth raising with the board directly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I'd be glad to draft a brief memo outlining the risks.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "Please do. I suspect it will change the conversation considerably.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
+      "text": "The idea of meritocracy — that social position should be earned through talent and effort rather than inherited — occupies a peculiar place in contemporary discourse: virtually everyone claims to support it, yet critics argue that its practical effects are often the opposite of what it promises. The central difficulty is that talent and effort are themselves shaped by circumstances largely outside an individual's control: access to education, family stability, and even the confidence to take risks are unevenly distributed long before anyone is old enough to be said to have earned anything. A purely meritocratic system, critics contend, risks converting existing advantages into moral entitlements, so that the successful come to see their position not as fortunate but as deserved, and the unsuccessful internalize failure as a personal shortcoming rather than a structural one. None of this means the underlying ideal — that ability and effort should count for something — is mistaken; it means that any system claiming to reward merit must first reckon honestly with how unevenly the conditions for demonstrating merit are distributed. Absent that reckoning, meritocracy functions less as a corrective to inherited privilege than as its most persuasive disguise.",
       "questions": [
-        "What is language learning not merely?",
-        "What shapes it?",
-        "What three ideas are mentioned?",
-        "What does the ambiguity stem from?"
+        "What tension does the text identify at the heart of meritocracy?",
+        "According to the text, what factors shape talent and effort?",
+        "What does the text mean by converting 'advantages into moral entitlements'?",
+        "What distinction does the author draw between the ideal and the system?",
+        "Why does the author call meritocracy potentially 'its most persuasive disguise'?",
+        "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
     "exercises": [
@@ -4185,16 +5057,15 @@
     "orderIndex": 270,
     "estimatedMinutes": 15,
     "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
-    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "intro": "C1 Reading: understand long and complex factual and literary texts, appreciating distinctions of style, including specialized articles and technical instructions outside your own field. You will practice recognizing implicit attitude, evaluating the coherence of an argument, and analyzing how style shapes meaning.",
     "mission": "Rewrite a simple opinion in a more formal academic style.",
     "grammar": "Inversion, advanced passives, hedging, discourse markers.",
     "phrases": [
-      "It is worth noting that...",
-      "This raises the question of...",
-      "To some extent...",
-      "From a broader perspective...",
-      "It is precisely this ambiguity that...",
-      "Arguably, the most significant factor is..."
+      "The writer's implicit attitude toward ... can be inferred from...",
+      "Stylistically, this passage achieves ... by using...",
+      "The argument's weakest link is...",
+      "This specialized term is used here to mean...",
+      "The coherence of the argument depends on the assumption that..."
     ],
     "vocabulary": [
       {
@@ -4250,33 +5121,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "It is worth noting that...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "I want to raise a concern about the proposed curriculum change, if I may.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This raises the question of...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "Of course. What's the concern, specifically?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Arguably, the most significant factor is...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "It's not that I oppose the change outright — it's more that the timeline seems unrealistic.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It is precisely this ambiguity that complicates the discussion.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "That's a fair concern. What would you consider a more realistic timeline?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "At least two semesters, to allow for proper faculty training.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "I take your point, though the board has been pushing for faster implementation.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I understand the pressure, but a rushed rollout could undermine the very outcomes we want.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "That's a nuance worth raising with the board directly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I'd be glad to draft a brief memo outlining the risks.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "Please do. I suspect it will change the conversation considerably.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. Learners do not simply acquire grammar rules in a vacuum, but negotiate meaning within specific communities of practice, where fluency is judged as much by appropriateness as by accuracy. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community: for some, it means near-native pronunciation, while for others, it is the ability to navigate a negotiation or defend an argument persuasively. Recent research in applied linguistics suggests that this tension between accuracy and appropriateness explains why some highly accurate speakers still feel like outsiders in professional settings, whereas others with modest grammatical control manage to build rapport effortlessly. Recognizing this distinction can help learners set more realistic, context-sensitive goals for their own progress.",
+      "text": "The idea of meritocracy — that social position should be earned through talent and effort rather than inherited — occupies a peculiar place in contemporary discourse: virtually everyone claims to support it, yet critics argue that its practical effects are often the opposite of what it promises. The central difficulty is that talent and effort are themselves shaped by circumstances largely outside an individual's control: access to education, family stability, and even the confidence to take risks are unevenly distributed long before anyone is old enough to be said to have earned anything. A purely meritocratic system, critics contend, risks converting existing advantages into moral entitlements, so that the successful come to see their position not as fortunate but as deserved, and the unsuccessful internalize failure as a personal shortcoming rather than a structural one. None of this means the underlying ideal — that ability and effort should count for something — is mistaken; it means that any system claiming to reward merit must first reckon honestly with how unevenly the conditions for demonstrating merit are distributed. Absent that reckoning, meritocracy functions less as a corrective to inherited privilege than as its most persuasive disguise.",
       "questions": [
-        "What is language learning not merely?",
-        "What is fluency judged by, besides accuracy?",
-        "Why do some accurate speakers still feel like outsiders?",
-        "What can recognizing this distinction help learners do?"
+        "What tension does the text identify at the heart of meritocracy?",
+        "According to the text, what factors shape talent and effort?",
+        "What does the text mean by converting 'advantages into moral entitlements'?",
+        "What distinction does the author draw between the ideal and the system?",
+        "Why does the author call meritocracy potentially 'its most persuasive disguise'?",
+        "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
     "exercises": [
@@ -4325,16 +5228,15 @@
     "orderIndex": 280,
     "estimatedMinutes": 15,
     "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
-    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "intro": "C1 Writing: write clear, well-structured, detailed text on complex subjects, underlining relevant salient issues, expanding and supporting points of view at some length, and adopting a style appropriate to the reader in mind. You will practice academic and professional genres that require precision, register control, and a strong authorial voice.",
     "mission": "Rewrite a simple opinion in a more formal academic style.",
     "grammar": "Inversion, advanced passives, hedging, discourse markers.",
     "phrases": [
-      "It is worth noting that...",
-      "This raises the question of...",
-      "To some extent...",
-      "From a broader perspective...",
-      "It is precisely this ambiguity that...",
-      "Arguably, the most significant factor is..."
+      "This analysis will focus on the underlying tension between...",
+      "It is worth underlining that...",
+      "A more nuanced view would acknowledge that...",
+      "Adopting a more measured tone, one might argue...",
+      "In light of the above, the most defensible position is..."
     ],
     "vocabulary": [
       {
@@ -4390,33 +5292,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "It is worth noting that...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "I want to raise a concern about the proposed curriculum change, if I may.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This raises the question of...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "Of course. What's the concern, specifically?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Arguably, the most significant factor is...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "It's not that I oppose the change outright — it's more that the timeline seems unrealistic.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It is precisely this ambiguity that complicates the discussion.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "That's a fair concern. What would you consider a more realistic timeline?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "At least two semesters, to allow for proper faculty training.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "I take your point, though the board has been pushing for faster implementation.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I understand the pressure, but a rushed rollout could undermine the very outcomes we want.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "That's a nuance worth raising with the board directly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I'd be glad to draft a brief memo outlining the risks.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "Please do. I suspect it will change the conversation considerably.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
+      "text": "The idea of meritocracy — that social position should be earned through talent and effort rather than inherited — occupies a peculiar place in contemporary discourse: virtually everyone claims to support it, yet critics argue that its practical effects are often the opposite of what it promises. The central difficulty is that talent and effort are themselves shaped by circumstances largely outside an individual's control: access to education, family stability, and even the confidence to take risks are unevenly distributed long before anyone is old enough to be said to have earned anything. A purely meritocratic system, critics contend, risks converting existing advantages into moral entitlements, so that the successful come to see their position not as fortunate but as deserved, and the unsuccessful internalize failure as a personal shortcoming rather than a structural one. None of this means the underlying ideal — that ability and effort should count for something — is mistaken; it means that any system claiming to reward merit must first reckon honestly with how unevenly the conditions for demonstrating merit are distributed. Absent that reckoning, meritocracy functions less as a corrective to inherited privilege than as its most persuasive disguise.",
       "questions": [
-        "What is language learning not merely?",
-        "What shapes it?",
-        "What three ideas are mentioned?",
-        "What does the ambiguity stem from?"
+        "What tension does the text identify at the heart of meritocracy?",
+        "According to the text, what factors shape talent and effort?",
+        "What does the text mean by converting 'advantages into moral entitlements'?",
+        "What distinction does the author draw between the ideal and the system?",
+        "Why does the author call meritocracy potentially 'its most persuasive disguise'?",
+        "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
     "exercises": [
@@ -4465,9 +5399,9 @@
     "orderIndex": 290,
     "estimatedMinutes": 15,
     "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
-    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "intro": "Understand nuance, adapt register, produce strong arguments, analyze abstract topics, and communicate precisely in academic, professional, and cultural contexts.",
     "mission": "Rewrite a simple opinion in a more formal academic style.",
-    "grammar": "Inversion, advanced passives, hedging, discourse markers.",
+    "grammar": "Advanced clauses; Inversion; Cleft sentences; Hedging; Nominalization; Advanced connectors; Mixed conditionals; Register control; Subjunctive mood; Ellipsis; Fronting; Collocation precision; Discourse cohesion devices; Modal nuance",
     "phrases": [
       "It is worth noting that...",
       "This raises the question of...",
@@ -4530,33 +5464,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "It is worth noting that...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "I want to raise a concern about the proposed curriculum change, if I may.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This raises the question of...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "Of course. What's the concern, specifically?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Arguably, the most significant factor is...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "It's not that I oppose the change outright — it's more that the timeline seems unrealistic.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It is precisely this ambiguity that complicates the discussion.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "That's a fair concern. What would you consider a more realistic timeline?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "At least two semesters, to allow for proper faculty training.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "I take your point, though the board has been pushing for faster implementation.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I understand the pressure, but a rushed rollout could undermine the very outcomes we want.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "That's a nuance worth raising with the board directly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I'd be glad to draft a brief memo outlining the risks.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "Please do. I suspect it will change the conversation considerably.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
+      "text": "The idea of meritocracy — that social position should be earned through talent and effort rather than inherited — occupies a peculiar place in contemporary discourse: virtually everyone claims to support it, yet critics argue that its practical effects are often the opposite of what it promises. The central difficulty is that talent and effort are themselves shaped by circumstances largely outside an individual's control: access to education, family stability, and even the confidence to take risks are unevenly distributed long before anyone is old enough to be said to have earned anything. A purely meritocratic system, critics contend, risks converting existing advantages into moral entitlements, so that the successful come to see their position not as fortunate but as deserved, and the unsuccessful internalize failure as a personal shortcoming rather than a structural one. None of this means the underlying ideal — that ability and effort should count for something — is mistaken; it means that any system claiming to reward merit must first reckon honestly with how unevenly the conditions for demonstrating merit are distributed. Absent that reckoning, meritocracy functions less as a corrective to inherited privilege than as its most persuasive disguise.",
       "questions": [
-        "What is language learning not merely?",
-        "What shapes it?",
-        "What three ideas are mentioned?",
-        "What does the ambiguity stem from?"
+        "What tension does the text identify at the heart of meritocracy?",
+        "According to the text, what factors shape talent and effort?",
+        "What does the text mean by converting 'advantages into moral entitlements'?",
+        "What distinction does the author draw between the ideal and the system?",
+        "Why does the author call meritocracy potentially 'its most persuasive disguise'?",
+        "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
     "exercises": [
@@ -4605,7 +5571,7 @@
     "orderIndex": 300,
     "estimatedMinutes": 15,
     "description": "Advanced Expression: Puedo expresarme con precisión, matices y estilo.",
-    "intro": "Puedo expresarme con precisión, matices y estilo.",
+    "intro": "Advanced proficiency: nuance, style, register, abstract topics, academic precision, and professional discourse",
     "mission": "Rewrite a simple opinion in a more formal academic style.",
     "grammar": "Inversion, advanced passives, hedging, discourse markers.",
     "phrases": [
@@ -4670,33 +5636,65 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "It is worth noting that...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "I want to raise a concern about the proposed curriculum change, if I may.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This raises the question of...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "Of course. What's the concern, specifically?",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "Arguably, the most significant factor is...",
-        "translation": "Frase modelo"
+        "speaker": "Dr. Reyes",
+        "line": "It's not that I oppose the change outright — it's more that the timeline seems unrealistic.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "It is precisely this ambiguity that complicates the discussion.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Ahmed",
+        "line": "That's a fair concern. What would you consider a more realistic timeline?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "At least two semesters, to allow for proper faculty training.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "I take your point, though the board has been pushing for faster implementation.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I understand the pressure, but a rushed rollout could undermine the very outcomes we want.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "That's a nuance worth raising with the board directly.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Reyes",
+        "line": "I'd be glad to draft a brief memo outlining the risks.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Ahmed",
+        "line": "Please do. I suspect it will change the conversation considerably.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "Language learning is not merely the memorization of forms; it is a social practice shaped by context, identity and purpose. This ambiguity often stems from differing assumptions about what fluency truly implies in a given discourse community.",
+      "text": "The idea of meritocracy — that social position should be earned through talent and effort rather than inherited — occupies a peculiar place in contemporary discourse: virtually everyone claims to support it, yet critics argue that its practical effects are often the opposite of what it promises. The central difficulty is that talent and effort are themselves shaped by circumstances largely outside an individual's control: access to education, family stability, and even the confidence to take risks are unevenly distributed long before anyone is old enough to be said to have earned anything. A purely meritocratic system, critics contend, risks converting existing advantages into moral entitlements, so that the successful come to see their position not as fortunate but as deserved, and the unsuccessful internalize failure as a personal shortcoming rather than a structural one. None of this means the underlying ideal — that ability and effort should count for something — is mistaken; it means that any system claiming to reward merit must first reckon honestly with how unevenly the conditions for demonstrating merit are distributed. Absent that reckoning, meritocracy functions less as a corrective to inherited privilege than as its most persuasive disguise.",
       "questions": [
-        "What is language learning not merely?",
-        "What shapes it?",
-        "What three ideas are mentioned?",
-        "What does the ambiguity stem from?"
+        "What tension does the text identify at the heart of meritocracy?",
+        "According to the text, what factors shape talent and effort?",
+        "What does the text mean by converting 'advantages into moral entitlements'?",
+        "What distinction does the author draw between the ideal and the system?",
+        "Why does the author call meritocracy potentially 'its most persuasive disguise'?",
+        "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
     "exercises": [
@@ -4745,16 +5743,15 @@
     "orderIndex": 310,
     "estimatedMinutes": 15,
     "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
-    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "C2 Listening: understand any kind of spoken language, live or broadcast, at fast native speed: rapid debate, layered wordplay, dense cultural allusion, dialect, and specialized discourse. You will train real-time critical evaluation of argumentation, detection of manipulation and fallacy, and appreciation of stylistic performance.",
     "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
     "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
     "phrases": [
-      "The underlying issue is...",
-      "This is not to suggest that...",
-      "A more nuanced view would be...",
-      "What makes this compelling is...",
-      "Far from being incidental, this...",
-      "One might reasonably contend that..."
+      "The speaker's apparent concession is, in fact, a rhetorical trap because...",
+      "The allusion to ... reframes the entire exchange...",
+      "Beneath the humor lies a pointed critique of...",
+      "The fallacy here is a subtle equivocation between...",
+      "The pacing and pauses are doing as much work as the words..."
     ],
     "vocabulary": [
       {
@@ -4810,33 +5807,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "The underlying issue is...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Your critics say your reform is, and I quote, 'a triumph of packaging over substance.' They have a point, don't they?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is not to suggest that...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "It's a memorable phrase — I'll grant them the packaging. But let's unpack the substance they claim is missing.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "One might reasonably contend that...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Please do. Because the numbers, frankly, are underwhelming.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Far from being incidental, this reflects genuine command of register.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "Underwhelming compared to what? To the promises of my predecessors, perhaps — promises that, you'll recall, were never kept.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "So your defense is that others failed worse?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "That's your framing, not mine. My claim is narrower and, I'd argue, stronger: modest, verified progress beats grand, imaginary progress.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "Some would call that setting the bar on the floor.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "And some would call it standing on solid ground for the first time in a decade. The bar metaphor cuts both ways.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "You're very fond of turning questions around.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "Only the ones that arrive upside down. Shall we look at the actual figures? I brought them — which, you'll notice, is not nothing.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
+      "text": "It is a truth universally acknowledged — or at least universally repeated, which in our age amounts to much the same thing — that attention has become the scarcest of resources. The phrase 'attention economy' now circulates with the frictionless ease of all successful clichés, and therein lies the difficulty: a metaphor, once ubiquitous, stops being examined. To call attention an economy is to smuggle in a great deal. Economies presuppose ownership, and it is far from clear that I own my attention in the way I own my shoes; it presupposes exchange, though no one has yet explained what I receive for the hours surrendered to the scroll, unless distraction itself is the payment — a currency that devalues on delivery. Above all, the metaphor flatters us with the fiction of rational allocation: the attentive consumer, weighing investments of gaze and interest, when the entire apparatus is engineered, with considerable virtuosity, to ensure that no such weighing occurs. One might object, not unreasonably, that all metaphors mislead, and that this one at least renders a diffuse anxiety discussable. Granted. But there is a difference between a lens and a cage, and the test is whether we can still describe the phenomenon in other terms. Try it: speak of attention for one paragraph without the vocabulary of scarcity, spending, or investment. The difficulty of the exercise is the measure of our captivity — and the beginning, perhaps, of the escape.",
       "questions": [
-        "What does mastery involve besides accuracy?",
-        "What must language adapt to?",
-        "Which word means dominio?",
-        "What must a cohesive speaker discern?"
+        "How does the opening allusion function, and what does its modification signal?",
+        "What three assumptions does the author claim the 'attention economy' metaphor smuggles in?",
+        "Explain the irony in the phrase 'a currency that devalues on delivery'.",
+        "What objection does the author anticipate, and how is the concession handled?",
+        "What distinction does the author draw between 'a lens and a cage'?",
+        "What is the function of the imperative 'Try it'? Analyze its rhetorical effect.",
+        "Characterize the author's style in three precise terms, with textual evidence for each.",
+        "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
     "exercises": [
@@ -4885,16 +5916,15 @@
     "orderIndex": 320,
     "estimatedMinutes": 15,
     "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
-    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "C2 Speaking: express yourself with the precision, flexibility, and effortlessness of a highly articulate native speaker: reformulating instantly, exploiting idiom and allusion deliberately, commanding rhythm and emphasis, and moving audiences. You will practice high-stakes performance: keynote speaking, hostile interviews, and improvised argument.",
     "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
     "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
     "phrases": [
-      "The underlying issue is...",
-      "This is not to suggest that...",
-      "A more nuanced view would be...",
-      "What makes this compelling is...",
-      "Far from being incidental, this...",
-      "One might reasonably contend that..."
+      "Let me be precise about what I am — and am not — claiming...",
+      "That framing smuggles in an assumption I'd like to unpack...",
+      "If I may borrow your metaphor and turn it around...",
+      "There's a world of difference between ... and ..., and it matters here because...",
+      "I'll answer the question behind the question..."
     ],
     "vocabulary": [
       {
@@ -4950,33 +5980,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "The underlying issue is...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Your critics say your reform is, and I quote, 'a triumph of packaging over substance.' They have a point, don't they?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is not to suggest that...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "It's a memorable phrase — I'll grant them the packaging. But let's unpack the substance they claim is missing.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "One might reasonably contend that...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Please do. Because the numbers, frankly, are underwhelming.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Far from being incidental, this reflects genuine command of register.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "Underwhelming compared to what? To the promises of my predecessors, perhaps — promises that, you'll recall, were never kept.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "So your defense is that others failed worse?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "That's your framing, not mine. My claim is narrower and, I'd argue, stronger: modest, verified progress beats grand, imaginary progress.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "Some would call that setting the bar on the floor.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "And some would call it standing on solid ground for the first time in a decade. The bar metaphor cuts both ways.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "You're very fond of turning questions around.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "Only the ones that arrive upside down. Shall we look at the actual figures? I brought them — which, you'll notice, is not nothing.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
+      "text": "It is a truth universally acknowledged — or at least universally repeated, which in our age amounts to much the same thing — that attention has become the scarcest of resources. The phrase 'attention economy' now circulates with the frictionless ease of all successful clichés, and therein lies the difficulty: a metaphor, once ubiquitous, stops being examined. To call attention an economy is to smuggle in a great deal. Economies presuppose ownership, and it is far from clear that I own my attention in the way I own my shoes; it presupposes exchange, though no one has yet explained what I receive for the hours surrendered to the scroll, unless distraction itself is the payment — a currency that devalues on delivery. Above all, the metaphor flatters us with the fiction of rational allocation: the attentive consumer, weighing investments of gaze and interest, when the entire apparatus is engineered, with considerable virtuosity, to ensure that no such weighing occurs. One might object, not unreasonably, that all metaphors mislead, and that this one at least renders a diffuse anxiety discussable. Granted. But there is a difference between a lens and a cage, and the test is whether we can still describe the phenomenon in other terms. Try it: speak of attention for one paragraph without the vocabulary of scarcity, spending, or investment. The difficulty of the exercise is the measure of our captivity — and the beginning, perhaps, of the escape.",
       "questions": [
-        "What does mastery involve besides accuracy?",
-        "What must language adapt to?",
-        "Which word means dominio?",
-        "What must a cohesive speaker discern?"
+        "How does the opening allusion function, and what does its modification signal?",
+        "What three assumptions does the author claim the 'attention economy' metaphor smuggles in?",
+        "Explain the irony in the phrase 'a currency that devalues on delivery'.",
+        "What objection does the author anticipate, and how is the concession handled?",
+        "What distinction does the author draw between 'a lens and a cage'?",
+        "What is the function of the imperative 'Try it'? Analyze its rhetorical effect.",
+        "Characterize the author's style in three precise terms, with textual evidence for each.",
+        "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
     "exercises": [
@@ -5025,16 +6089,15 @@
     "orderIndex": 330,
     "estimatedMinutes": 15,
     "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
-    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "C2 Reading: read with ease virtually all forms of written language: dense literary and philosophical prose, archaic and experimental styles, legal and technical registers, satire and pastiche. You will practice interpreting structural irony, intertextuality, and stylistic signature, and producing scholarly-grade critical analysis.",
     "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
     "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
     "phrases": [
-      "The underlying issue is...",
-      "This is not to suggest that...",
-      "A more nuanced view would be...",
-      "What makes this compelling is...",
-      "Far from being incidental, this...",
-      "One might reasonably contend that..."
+      "The narrator's reliability collapses precisely at the moment when...",
+      "The pastiche of ... both honors and subverts its model by...",
+      "Syntactically, the sentence enacts the very hesitation it describes...",
+      "The legal register here is doing ideological work, namely...",
+      "Read against its historical moment, the passage acquires..."
     ],
     "vocabulary": [
       {
@@ -5090,33 +6153,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "The underlying issue is...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Your critics say your reform is, and I quote, 'a triumph of packaging over substance.' They have a point, don't they?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is not to suggest that...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "It's a memorable phrase — I'll grant them the packaging. But let's unpack the substance they claim is missing.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "One might reasonably contend that...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Please do. Because the numbers, frankly, are underwhelming.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Far from being incidental, this reflects genuine command of register.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "Underwhelming compared to what? To the promises of my predecessors, perhaps — promises that, you'll recall, were never kept.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "So your defense is that others failed worse?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "That's your framing, not mine. My claim is narrower and, I'd argue, stronger: modest, verified progress beats grand, imaginary progress.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "Some would call that setting the bar on the floor.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "And some would call it standing on solid ground for the first time in a decade. The bar metaphor cuts both ways.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "You're very fond of turning questions around.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "Only the ones that arrive upside down. Shall we look at the actual figures? I brought them — which, you'll notice, is not nothing.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "True mastery of a language involves not only grammatical accuracy, but also timing, tone, cultural awareness and the ability to adapt register to subtle shifts in context. A truly cohesive speaker can discern which level of formality best fits each unpredictable social exchange, reading between the lines of what is said and, just as importantly, what is deliberately left unsaid. This kind of competence is rarely taught explicitly; rather, it is absorbed through prolonged, meaningful exposure to a language's cultural and pragmatic nuances, often over many years of immersion. Paradoxically, some of the most technically accurate non-native speakers never quite achieve this fluidity, precisely because their attention remains fixed on correctness rather than on the interpersonal dynamics unfolding around them. Conversely, speakers who embrace ambiguity, tolerate occasional error and prioritize connection over perfection often develop a more intuitive, almost instinctive command of the language, one that no grammar textbook could ever fully capture.",
+      "text": "It is a truth universally acknowledged — or at least universally repeated, which in our age amounts to much the same thing — that attention has become the scarcest of resources. The phrase 'attention economy' now circulates with the frictionless ease of all successful clichés, and therein lies the difficulty: a metaphor, once ubiquitous, stops being examined. To call attention an economy is to smuggle in a great deal. Economies presuppose ownership, and it is far from clear that I own my attention in the way I own my shoes; it presupposes exchange, though no one has yet explained what I receive for the hours surrendered to the scroll, unless distraction itself is the payment — a currency that devalues on delivery. Above all, the metaphor flatters us with the fiction of rational allocation: the attentive consumer, weighing investments of gaze and interest, when the entire apparatus is engineered, with considerable virtuosity, to ensure that no such weighing occurs. One might object, not unreasonably, that all metaphors mislead, and that this one at least renders a diffuse anxiety discussable. Granted. But there is a difference between a lens and a cage, and the test is whether we can still describe the phenomenon in other terms. Try it: speak of attention for one paragraph without the vocabulary of scarcity, spending, or investment. The difficulty of the exercise is the measure of our captivity — and the beginning, perhaps, of the escape.",
       "questions": [
-        "What four things does true mastery involve besides grammatical accuracy?",
-        "How is this kind of competence usually acquired?",
-        "Why do some technically accurate speakers never achieve full fluidity?",
-        "What do speakers who embrace ambiguity often develop?"
+        "How does the opening allusion function, and what does its modification signal?",
+        "What three assumptions does the author claim the 'attention economy' metaphor smuggles in?",
+        "Explain the irony in the phrase 'a currency that devalues on delivery'.",
+        "What objection does the author anticipate, and how is the concession handled?",
+        "What distinction does the author draw between 'a lens and a cage'?",
+        "What is the function of the imperative 'Try it'? Analyze its rhetorical effect.",
+        "Characterize the author's style in three precise terms, with textual evidence for each.",
+        "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
     "exercises": [
@@ -5165,16 +6262,15 @@
     "orderIndex": 340,
     "estimatedMinutes": 15,
     "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
-    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "C2 Writing: write with the control of a professional author: choosing genre, voice, and structure to achieve calculated effects; compressing complex argument into lucid, elegant prose; and editing at the level of rhythm and resonance. You will produce publishable-quality essays, speeches, satire, and stylistically distinct texts on demand.",
     "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
     "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
     "phrases": [
-      "The underlying issue is...",
-      "This is not to suggest that...",
-      "A more nuanced view would be...",
-      "What makes this compelling is...",
-      "Far from being incidental, this...",
-      "One might reasonably contend that..."
+      "The sentence must earn its length — or lose it.",
+      "Here the argument turns, and the prose should turn with it...",
+      "A single concrete image will do the work of a paragraph of abstraction...",
+      "The register drops deliberately, and the reader feels the ground shift...",
+      "End on the word that carries the weight."
     ],
     "vocabulary": [
       {
@@ -5230,33 +6326,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "The underlying issue is...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Your critics say your reform is, and I quote, 'a triumph of packaging over substance.' They have a point, don't they?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is not to suggest that...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "It's a memorable phrase — I'll grant them the packaging. But let's unpack the substance they claim is missing.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "One might reasonably contend that...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Please do. Because the numbers, frankly, are underwhelming.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Far from being incidental, this reflects genuine command of register.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "Underwhelming compared to what? To the promises of my predecessors, perhaps — promises that, you'll recall, were never kept.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "So your defense is that others failed worse?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "That's your framing, not mine. My claim is narrower and, I'd argue, stronger: modest, verified progress beats grand, imaginary progress.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "Some would call that setting the bar on the floor.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "And some would call it standing on solid ground for the first time in a decade. The bar metaphor cuts both ways.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "You're very fond of turning questions around.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "Only the ones that arrive upside down. Shall we look at the actual figures? I brought them — which, you'll notice, is not nothing.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
+      "text": "It is a truth universally acknowledged — or at least universally repeated, which in our age amounts to much the same thing — that attention has become the scarcest of resources. The phrase 'attention economy' now circulates with the frictionless ease of all successful clichés, and therein lies the difficulty: a metaphor, once ubiquitous, stops being examined. To call attention an economy is to smuggle in a great deal. Economies presuppose ownership, and it is far from clear that I own my attention in the way I own my shoes; it presupposes exchange, though no one has yet explained what I receive for the hours surrendered to the scroll, unless distraction itself is the payment — a currency that devalues on delivery. Above all, the metaphor flatters us with the fiction of rational allocation: the attentive consumer, weighing investments of gaze and interest, when the entire apparatus is engineered, with considerable virtuosity, to ensure that no such weighing occurs. One might object, not unreasonably, that all metaphors mislead, and that this one at least renders a diffuse anxiety discussable. Granted. But there is a difference between a lens and a cage, and the test is whether we can still describe the phenomenon in other terms. Try it: speak of attention for one paragraph without the vocabulary of scarcity, spending, or investment. The difficulty of the exercise is the measure of our captivity — and the beginning, perhaps, of the escape.",
       "questions": [
-        "What does mastery involve besides accuracy?",
-        "What must language adapt to?",
-        "Which word means dominio?",
-        "What must a cohesive speaker discern?"
+        "How does the opening allusion function, and what does its modification signal?",
+        "What three assumptions does the author claim the 'attention economy' metaphor smuggles in?",
+        "Explain the irony in the phrase 'a currency that devalues on delivery'.",
+        "What objection does the author anticipate, and how is the concession handled?",
+        "What distinction does the author draw between 'a lens and a cage'?",
+        "What is the function of the imperative 'Try it'? Analyze its rhetorical effect.",
+        "Characterize the author's style in three precise terms, with textual evidence for each.",
+        "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
     "exercises": [
@@ -5305,9 +6435,9 @@
     "orderIndex": 350,
     "estimatedMinutes": 15,
     "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
-    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "Understand with ease virtually everything heard or read, summarize information from different spoken and written sources reconstructing arguments coherently, and express yourself spontaneously, very fluently, and precisely, differentiating finer shades of meaning even in the most complex situations.",
     "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
-    "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
+    "grammar": "Full stylistic inversion repertoire; Syntactic suspension; Periodic and loose sentences; Anaphora and parallelism; Free indirect style; Register blending; Archaism and neologism; Elliptical mastery; Punctuation as instrument; Idiomatic transformation; Zeugma and syllepsis; Litotes; Embedded and stacked subordination; Prosody in prose",
     "phrases": [
       "The underlying issue is...",
       "This is not to suggest that...",
@@ -5370,33 +6500,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "The underlying issue is...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Your critics say your reform is, and I quote, 'a triumph of packaging over substance.' They have a point, don't they?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is not to suggest that...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "It's a memorable phrase — I'll grant them the packaging. But let's unpack the substance they claim is missing.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "One might reasonably contend that...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Please do. Because the numbers, frankly, are underwhelming.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Far from being incidental, this reflects genuine command of register.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "Underwhelming compared to what? To the promises of my predecessors, perhaps — promises that, you'll recall, were never kept.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "So your defense is that others failed worse?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "That's your framing, not mine. My claim is narrower and, I'd argue, stronger: modest, verified progress beats grand, imaginary progress.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "Some would call that setting the bar on the floor.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "And some would call it standing on solid ground for the first time in a decade. The bar metaphor cuts both ways.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "You're very fond of turning questions around.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "Only the ones that arrive upside down. Shall we look at the actual figures? I brought them — which, you'll notice, is not nothing.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
+      "text": "It is a truth universally acknowledged — or at least universally repeated, which in our age amounts to much the same thing — that attention has become the scarcest of resources. The phrase 'attention economy' now circulates with the frictionless ease of all successful clichés, and therein lies the difficulty: a metaphor, once ubiquitous, stops being examined. To call attention an economy is to smuggle in a great deal. Economies presuppose ownership, and it is far from clear that I own my attention in the way I own my shoes; it presupposes exchange, though no one has yet explained what I receive for the hours surrendered to the scroll, unless distraction itself is the payment — a currency that devalues on delivery. Above all, the metaphor flatters us with the fiction of rational allocation: the attentive consumer, weighing investments of gaze and interest, when the entire apparatus is engineered, with considerable virtuosity, to ensure that no such weighing occurs. One might object, not unreasonably, that all metaphors mislead, and that this one at least renders a diffuse anxiety discussable. Granted. But there is a difference between a lens and a cage, and the test is whether we can still describe the phenomenon in other terms. Try it: speak of attention for one paragraph without the vocabulary of scarcity, spending, or investment. The difficulty of the exercise is the measure of our captivity — and the beginning, perhaps, of the escape.",
       "questions": [
-        "What does mastery involve besides accuracy?",
-        "What must language adapt to?",
-        "Which word means dominio?",
-        "What must a cohesive speaker discern?"
+        "How does the opening allusion function, and what does its modification signal?",
+        "What three assumptions does the author claim the 'attention economy' metaphor smuggles in?",
+        "Explain the irony in the phrase 'a currency that devalues on delivery'.",
+        "What objection does the author anticipate, and how is the concession handled?",
+        "What distinction does the author draw between 'a lens and a cage'?",
+        "What is the function of the imperative 'Try it'? Analyze its rhetorical effect.",
+        "Characterize the author's style in three precise terms, with textual evidence for each.",
+        "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
     "exercises": [
@@ -5445,7 +6609,7 @@
     "orderIndex": 360,
     "estimatedMinutes": 15,
     "description": "Mastery and Nuance: Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
-    "intro": "Puedo comunicarme con naturalidad, precisión y dominio casi nativo.",
+    "intro": "Mastery: expert communication, rhetorical control, cultural complexity, idiomatic precision, and near-native flexibility",
     "mission": "Produce a polished paragraph with nuance and rhetorical balance.",
     "grammar": "Register, idiomatic nuance, rhetorical style, cohesion.",
     "phrases": [
@@ -5510,33 +6674,67 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "The underlying issue is...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Your critics say your reform is, and I quote, 'a triumph of packaging over substance.' They have a point, don't they?",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "This is not to suggest that...",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "It's a memorable phrase — I'll grant them the packaging. But let's unpack the substance they claim is missing.",
+        "translation": ""
       },
       {
-        "speaker": "Tutor",
-        "line": "One might reasonably contend that...",
-        "translation": "Frase modelo"
+        "speaker": "Interviewer",
+        "line": "Please do. Because the numbers, frankly, are underwhelming.",
+        "translation": ""
       },
       {
-        "speaker": "Student",
-        "line": "Far from being incidental, this reflects genuine command of register.",
-        "translation": "Respuesta guiada"
+        "speaker": "Dr. Vance",
+        "line": "Underwhelming compared to what? To the promises of my predecessors, perhaps — promises that, you'll recall, were never kept.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "So your defense is that others failed worse?",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "That's your framing, not mine. My claim is narrower and, I'd argue, stronger: modest, verified progress beats grand, imaginary progress.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "Some would call that setting the bar on the floor.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "And some would call it standing on solid ground for the first time in a decade. The bar metaphor cuts both ways.",
+        "translation": ""
+      },
+      {
+        "speaker": "Interviewer",
+        "line": "You're very fond of turning questions around.",
+        "translation": ""
+      },
+      {
+        "speaker": "Dr. Vance",
+        "line": "Only the ones that arrive upside down. Shall we look at the actual figures? I brought them — which, you'll notice, is not nothing.",
+        "translation": ""
       }
     ],
     "reading": {
-      "text": "True mastery involves not only accuracy, but also timing, tone, cultural awareness and the ability to adapt language to subtle shifts in context. A truly cohesive speaker can discern which register best fits each unpredictable social exchange.",
+      "text": "It is a truth universally acknowledged — or at least universally repeated, which in our age amounts to much the same thing — that attention has become the scarcest of resources. The phrase 'attention economy' now circulates with the frictionless ease of all successful clichés, and therein lies the difficulty: a metaphor, once ubiquitous, stops being examined. To call attention an economy is to smuggle in a great deal. Economies presuppose ownership, and it is far from clear that I own my attention in the way I own my shoes; it presupposes exchange, though no one has yet explained what I receive for the hours surrendered to the scroll, unless distraction itself is the payment — a currency that devalues on delivery. Above all, the metaphor flatters us with the fiction of rational allocation: the attentive consumer, weighing investments of gaze and interest, when the entire apparatus is engineered, with considerable virtuosity, to ensure that no such weighing occurs. One might object, not unreasonably, that all metaphors mislead, and that this one at least renders a diffuse anxiety discussable. Granted. But there is a difference between a lens and a cage, and the test is whether we can still describe the phenomenon in other terms. Try it: speak of attention for one paragraph without the vocabulary of scarcity, spending, or investment. The difficulty of the exercise is the measure of our captivity — and the beginning, perhaps, of the escape.",
       "questions": [
-        "What does mastery involve besides accuracy?",
-        "What must language adapt to?",
-        "Which word means dominio?",
-        "What must a cohesive speaker discern?"
+        "How does the opening allusion function, and what does its modification signal?",
+        "What three assumptions does the author claim the 'attention economy' metaphor smuggles in?",
+        "Explain the irony in the phrase 'a currency that devalues on delivery'.",
+        "What objection does the author anticipate, and how is the concession handled?",
+        "What distinction does the author draw between 'a lens and a cage'?",
+        "What is the function of the imperative 'Try it'? Analyze its rhetorical effect.",
+        "Characterize the author's style in three precise terms, with textual evidence for each.",
+        "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
     "exercises": [
