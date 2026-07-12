@@ -817,6 +817,22 @@ function authHeaders() {
     : {};
 }
 
+// Selects a lesson in the learning path and, for signed-in users, tells the
+// backend it was opened (POST /api/lessons/:slug/start marks it in_progress
+// in user_lesson_progress). Fire-and-forget: 404s for lessons not yet on the
+// normalized courses schema, and guests just get the local UI update.
+function openLesson(slug) {
+  if (!slug) return;
+  learningPathState.activeSlug = slug;
+  renderLearningPath();
+  if (authStatus.session?.access_token) {
+    fetch(`${backendBaseUrl}/api/lessons/${slug}/start`, {
+      method: 'POST',
+      headers: authHeaders()
+    }).catch(() => {});
+  }
+}
+
 function getActiveLearningLesson() {
   return learningPathState.lessons.find(item => item.slug === learningPathState.activeSlug) || learningPathState.lessons[0] || null;
 }
@@ -899,8 +915,7 @@ function renderSkillGraph() {
 
   container.querySelectorAll('.skill-node').forEach(nodeEl => {
     nodeEl.querySelector('.skill-node-btn')?.addEventListener('click', () => {
-      learningPathState.activeSlug = nodeEl.dataset.lessonSlug;
-      renderLearningPath();
+      openLesson(nodeEl.dataset.lessonSlug);
       nodeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
   });
@@ -1372,8 +1387,7 @@ function enableHomepageActions() {
       revealSection('#learning-path');
       await loadLearningPath({ language, level });
       if (lessonSlug && learningPathState.lessons.some(item => item.slug === lessonSlug)) {
-        learningPathState.activeSlug = lessonSlug;
-        renderLearningPath();
+        openLesson(lessonSlug);
       }
       document.getElementById('lessonWorkspace')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       return;
@@ -1388,8 +1402,7 @@ function enableHomepageActions() {
       }
       const matchingLesson = learningPathState.lessons.find(item => item.skill?.toLowerCase() === skill);
       if (matchingLesson) {
-        learningPathState.activeSlug = matchingLesson.slug;
-        renderLearningPath();
+        openLesson(matchingLesson.slug);
       }
       document.getElementById('lessonWorkspace')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       return;
