@@ -153,6 +153,7 @@ function saveSession(user, session) {
   authStatus.session = session || null;
   renderAuthState();
   loadSavedGoal();
+  syncGoalFromServer();
   window.AndergoGamification?.load(gamificationKeyFor(authStatus.user));
   if (!session?.access_token) return;
   localStorage.setItem('andergoSession', JSON.stringify({ user, session }));
@@ -170,6 +171,7 @@ function restoreSession() {
   }
   renderAuthState();
   loadSavedGoal();
+  syncGoalFromServer();
   window.AndergoGamification?.load(gamificationKeyFor(authStatus.user));
 }
 
@@ -206,14 +208,44 @@ function renderAuthState() {
 
 function saveActiveGoal(goalKey) {
   activeGoal = goalOptions[goalKey] ? goalKey : 'daily';
+  // Local cache: renders instantly and still works offline/signed-out.
   localStorage.setItem(getGoalStorageKey(), activeGoal);
   renderGoalState();
+
+  // Backend is the source of truth once signed in; a failed save keeps the
+  // local cache so the choice isn't lost, but doesn't block navigation.
+  if (!authStatus.session?.access_token) return;
+  fetch(`${backendBaseUrl}/api/goals`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeaders() },
+    body: JSON.stringify({ goalKey: activeGoal })
+  }).catch(error => console.warn('Could not save goal', error));
 }
 
 function loadSavedGoal() {
   activeGoal = localStorage.getItem(getGoalStorageKey()) || 'daily';
   if (!goalOptions[activeGoal]) activeGoal = 'daily';
   renderGoalState();
+}
+
+// Called after login/session-restore: overwrites the local cache with
+// whatever Supabase has, so the same goal shows up on another device or
+// browser. Errors are swallowed - the local cache from loadSavedGoal()
+// keeps working as a fallback.
+async function syncGoalFromServer() {
+  if (!authStatus.session?.access_token) return;
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/goals`, { headers: authHeaders() });
+    if (!response.ok) return;
+    const data = await response.json().catch(() => null);
+    const goalKey = data?.goal?.goalKey;
+    if (!goalKey || !goalOptions[goalKey]) return;
+    activeGoal = goalKey;
+    localStorage.setItem(getGoalStorageKey(), activeGoal);
+    renderGoalState();
+  } catch (error) {
+    console.warn('Could not sync goal from server', error);
+  }
 }
 
 function renderGoalState(progress = currentProgress) {
@@ -704,6 +736,42 @@ async function loadProgress() {
   }
 }
 
+// Returns the signed-in user's saved language/level, or null for guests or
+// on any failure - callers keep using learningPathState's current defaults
+// in that case, so a failed fetch never blocks navigation.
+async function loadPreferences() {
+  if (!authStatus.session?.access_token) return null;
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/preferences`, { headers: authHeaders() });
+    if (!response.ok) return null;
+    const data = await response.json().catch(() => null);
+    if (!data?.language || !data?.level) return null;
+    return { language: data.language, level: data.level };
+  } catch (error) {
+    console.warn('Could not load saved preferences', error);
+    return null;
+  }
+}
+
+function applyPreferencesToSelects(preferences) {
+  if (!preferences) return;
+  const languageSelect = document.getElementById('pathLanguageSelect');
+  const levelSelect = document.getElementById('pathLevelSelect');
+  if (languageSelect) languageSelect.value = preferences.language;
+  if (levelSelect) levelSelect.value = preferences.level;
+}
+
+// Fire-and-forget: the dropdowns already reflect the choice locally, so a
+// failed save shouldn't interrupt the student's navigation.
+function savePreferences(language, level) {
+  if (!authStatus.session?.access_token) return;
+  fetch(`${backendBaseUrl}/api/preferences`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json', ...authHeaders() },
+    body: JSON.stringify({ language, level })
+  }).catch(error => console.warn('Could not save preferences', error));
+}
+
 function setAuthMessage(message, isError = false) {
   const note = document.querySelector('.auth-note');
   if (!note) return;
@@ -754,7 +822,9 @@ function attachAuthHandlers() {
         saveSession(data.user, data.session);
         setAuthMessage(`Bienvenido${authStatus.user?.name ? `, ${authStatus.user.name}` : ''}!`, false);
         await loadProgress();
-        await loadLearningPath();
+        const preferences = await loadPreferences();
+        applyPreferencesToSelects(preferences);
+        await loadLearningPath(preferences || {});
         closeAuth();
       } catch (error) {
         setAuthMessage(error.message, true);
@@ -1608,10 +1678,16 @@ function setupLearningPathControls() {
   const levelSelect = document.getElementById('pathLevelSelect');
 
   languageSelect?.addEventListener('change', () => {
-    loadLearningPath({ language: languageSelect.value, level: levelSelect?.value || learningPathState.level });
+    const language = languageSelect.value;
+    const level = levelSelect?.value || learningPathState.level;
+    loadLearningPath({ language, level });
+    savePreferences(language, level);
   });
   levelSelect?.addEventListener('change', () => {
-    loadLearningPath({ language: languageSelect?.value || learningPathState.language, level: levelSelect.value });
+    const language = languageSelect?.value || learningPathState.language;
+    const level = levelSelect.value;
+    loadLearningPath({ language, level });
+    savePreferences(language, level);
   });
 }
 
@@ -1644,9 +1720,17 @@ function initScrollReveal() {
 enableHomepageActions();
 loadProgress();
 setupLearningPathControls();
-loadLearningPath();
 initScrollReveal();
 document.querySelector('.lesson-complete-btn')?.addEventListener('click', completeActiveLesson);
+
+// Waits for the signed-in user's saved language/level (if any) before the
+// first render, so the learning path never flashes English A1 and then
+// jumps to the real preference a moment later.
+(async function bootstrapLearningPath() {
+  const preferences = await loadPreferences();
+  applyPreferencesToSelects(preferences);
+  await loadLearningPath(preferences || {});
+})();
 
 document.getElementById('aiTutorPrompt')?.addEventListener('keydown', event => {
   if (event.key !== 'Enter' || event.shiftKey) return;
