@@ -48,15 +48,19 @@
     <section class="hero">
       <div class="hero-content">
         <span class="pill">Lecciones guiadas y ejercicios prácticos</span>
-        <h2>Aprende idiomas con rutas claras, práctica guiada y progreso medible.</h2>
+        <!-- TEMP: deploy verification badge for the July 2026 homepage redesign. Safe to delete
+             this <span> (and the matching .deploy-check-badge rule in styles.css) once confirmed
+             live on andergo.online. -->
+        <span class="deploy-check-badge">🆕 Nueva experiencia ANDERGO · Julio 2026</span>
+        <h2>Aprende idiomas con una ruta clara y práctica real</h2>
         <p>
-          ANDERGO te ayuda a practicar listening, speaking, reading y writing con actividades guiadas,
-          explicaciones simples, metas personalizadas y contenido adaptado a tu nivel.
+          Practica inglés, francés, italiano, español y alemán con lecciones guiadas,
+          ejercicios reales y un progreso que puedes medir cada semana.
         </p>
 
         <div class="hero-buttons">
-          <a href="#languages" class="primary-btn" data-home-action="start-free">Empieza gratis</a>
-          <a href="#goals" class="secondary-btn" data-home-action="goals">Definir mis metas</a>
+          <a href="#languages" class="primary-btn" data-home-action="start-free">Comenzar gratis</a>
+          <a href="#language-picker" class="secondary-btn" data-home-action="explore-languages">Explorar idiomas</a>
         </div>
 
         <div class="quick-stats">
@@ -72,6 +76,7 @@
             <span>Tu progreso</span>
             <strong class="course-label">English · A1</strong>
           </div>
+          <p class="next-lesson-label">📍 Próxima lección: <strong>Listening A1</strong></p>
           <p class="student-greeting">Inicia sesión para personalizar tu ruta.</p>
           <div class="progress-circle">0%</div>
 
@@ -108,6 +113,52 @@
           </div>
           <button class="continue-lesson-btn" type="button" data-home-action="continue-lesson">Continuar lección</button>
         </div>
+      </div>
+    </section>
+
+    <section id="language-picker" class="section language-picker-section" aria-label="Elige tu idioma">
+      <div class="section-heading">
+        <span>Idiomas disponibles</span>
+        <h2>Elige tu idioma y empieza a practicar hoy.</h2>
+        <p>Cada idioma tiene una ruta completa de A1 a C2, con vocabulario, diálogos y ejercicios guiados.</p>
+      </div>
+
+      <div class="language-preview-grid">
+        <article class="language-preview-card">
+          <span class="language-preview-flag" aria-hidden="true">🇺🇸</span>
+          <h3>English</h3>
+          <p class="language-preview-levels">Niveles A1 - C2</p>
+          <p class="language-preview-desc">Vocabulario, diálogos y ejercicios de listening, speaking, reading y writing en cada nivel.</p>
+          <button type="button" class="language-preview-btn" data-home-action="explore-english">Explorar ruta</button>
+        </article>
+        <article class="language-preview-card">
+          <span class="language-preview-flag" aria-hidden="true">🇫🇷</span>
+          <h3>Français</h3>
+          <p class="language-preview-levels">Niveles A1 - C2</p>
+          <p class="language-preview-desc">Aprende francés con rutas guiadas, pronunciación y práctica diaria.</p>
+          <button type="button" class="language-preview-btn" data-home-action="explore-frances">Explorar ruta</button>
+        </article>
+        <article class="language-preview-card">
+          <span class="language-preview-flag" aria-hidden="true">🇮🇹</span>
+          <h3>Italiano</h3>
+          <p class="language-preview-levels">Niveles A1 - C2</p>
+          <p class="language-preview-desc">Practica italiano con lecciones cortas, audio real y retos de vocabulario.</p>
+          <button type="button" class="language-preview-btn" data-home-action="explore-italiano">Explorar ruta</button>
+        </article>
+        <article class="language-preview-card">
+          <span class="language-preview-flag" aria-hidden="true">🇪🇸</span>
+          <h3>Español</h3>
+          <p class="language-preview-levels">Niveles A1 - C2</p>
+          <p class="language-preview-desc">Perfecciona tu español con ejercicios de comprensión y expresión oral.</p>
+          <button type="button" class="language-preview-btn" data-home-action="explore-espanol">Explorar ruta</button>
+        </article>
+        <article class="language-preview-card">
+          <span class="language-preview-flag" aria-hidden="true">🇩🇪</span>
+          <h3>Deutsch</h3>
+          <p class="language-preview-levels">Niveles A1 - C2</p>
+          <p class="language-preview-desc">Domina el alemán paso a paso con gramática clara y ejercicios prácticos.</p>
+          <button type="button" class="language-preview-btn" data-home-action="explore-deutsch">Explorar ruta</button>
+        </article>
       </div>
     </section>
 
@@ -208,7 +259,7 @@
 
       <div class="language-tabs">
         <div class="tab-list">
-          <button class="tab-button active" type="button" data-target="english">🇬🇧 English</button>
+          <button class="tab-button active" type="button" data-target="english">🇺🇸 English</button>
           <button class="tab-button" type="button" data-target="espanol">🇪🇸 Español</button>
           <button class="tab-button" type="button" data-target="frances">🇫🇷 Français</button>
           <button class="tab-button" type="button" data-target="italiano">🇮🇹 Italiano</button>

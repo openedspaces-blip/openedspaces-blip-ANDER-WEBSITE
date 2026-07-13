@@ -661,6 +661,7 @@ function updateProgressDisplay({ progress = 0, streak = 0, nextLesson = 'Listeni
   const progressText = document.querySelector('.progress-text');
   const progressSummary = document.querySelector('.progress-summary p');
   const courseLabel = document.querySelector('.course-label');
+  const nextLessonLabel = document.querySelector('.next-lesson-label strong');
   const name = getDisplayName();
 
   if (progressCircle) progressCircle.textContent = `${normalizedProgress}%`;
@@ -674,6 +675,7 @@ function updateProgressDisplay({ progress = 0, streak = 0, nextLesson = 'Listeni
     progressSummary.textContent = isSignedIn ? `Progreso del curso · ${nextLesson}` : 'Progreso del curso';
   }
   if (courseLabel) courseLabel.textContent = nextLesson || 'English · A1';
+  if (nextLessonLabel) nextLessonLabel.textContent = nextLesson || 'Listening A1';
   renderGoalState(currentProgress);
 }
 
@@ -797,6 +799,23 @@ function escapeHtml(value = '') {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#039;');
+}
+
+function appendTutorMessage(container, role, text, { isError = false } = {}) {
+  if (!container) return;
+  const message = document.createElement('div');
+  message.className = `tutor-message tutor-message--${role}${isError ? ' tutor-message--error' : ''}`;
+
+  const label = document.createElement('span');
+  label.className = 'tutor-message-label';
+  label.textContent = role === 'user' ? 'Tú' : 'Tutor AI';
+
+  const body = document.createElement('p');
+  body.innerHTML = escapeHtml(text).replace(/\n/g, '<br>');
+
+  message.append(label, body);
+  container.appendChild(message);
+  container.scrollTop = container.scrollHeight;
 }
 
 // Course-backed lessons (normalized schema, e.g. English A1) send options as
@@ -1325,6 +1344,30 @@ function handleHomeAction(action) {
       activateLanguageTab('ai-tutor', { scroll: true, updateHash: true });
       showHomeToast('Tutor IA abierto. Practica listening, speaking o writing.');
       break;
+    case 'explore-languages':
+      revealSection('#language-picker', { scroll: true });
+      showHomeToast('Elige un idioma para ver su ruta completa.');
+      break;
+    case 'explore-english':
+      revealSection('#languages', { scroll: false });
+      activateLanguageTab('english', { scroll: true, updateHash: true });
+      break;
+    case 'explore-frances':
+      revealSection('#languages', { scroll: false });
+      activateLanguageTab('frances', { scroll: true, updateHash: true });
+      break;
+    case 'explore-italiano':
+      revealSection('#languages', { scroll: false });
+      activateLanguageTab('italiano', { scroll: true, updateHash: true });
+      break;
+    case 'explore-espanol':
+      revealSection('#languages', { scroll: false });
+      activateLanguageTab('espanol', { scroll: true, updateHash: true });
+      break;
+    case 'explore-deutsch':
+      revealSection('#languages', { scroll: false });
+      activateLanguageTab('deutsch', { scroll: true, updateHash: true });
+      break;
     default:
       break;
   }
@@ -1484,10 +1527,20 @@ function enableHomepageActions() {
       return;
     }
 
+    const tutorClearButton = event.target.closest('.tutor-clear-btn');
+    if (tutorClearButton) {
+      const conversation = document.getElementById('tutorConversation');
+      if (conversation) {
+        conversation.innerHTML = '<p class="tutor-welcome">👋 Soy Tutor AI. Pregúntame lo que quieras sobre esta habilidad, nivel o lección, y te ayudo con correcciones, ejemplos y práctica.</p>';
+      }
+      return;
+    }
+
     const tutorButton = event.target.closest('.tutor-chat-btn');
     if (tutorButton) {
       const card = tutorButton.closest('.language-card');
-      const result = card?.querySelector('.tutor-result');
+      const conversation = document.getElementById('tutorConversation');
+      const thinking = document.getElementById('tutorThinking');
       const activeSkill = card?.querySelector('.skill-tab-button.active')?.dataset.skill || 'speaking';
       const activeLesson = getActiveLearningLesson();
       const tutorPrompt = document.getElementById('aiTutorPrompt');
@@ -1505,13 +1558,13 @@ function enableHomepageActions() {
         writing: 'Quiero practicar escritura con una corrección breve y un ejemplo mejorado.'
       }[activeSkill] || 'Quiero practicar esta habilidad.';
       const finalPrompt = customPrompt || selectedSuggestion || fallbackPrompt;
+      if (!finalPrompt) return;
 
-      if (result) {
-        result.innerHTML = '<strong>Respuesta del tutor:</strong> Conectando con OpenAI...';
-        result.classList.add('is-visible');
-      }
-
+      appendTutorMessage(conversation, 'user', finalPrompt);
+      if (tutorPrompt) tutorPrompt.value = '';
+      if (thinking) thinking.hidden = false;
       tutorButton.disabled = true;
+
       try {
         const response = await fetch(`${backendBaseUrl}/api/ai/tutor`, {
           method: 'POST',
@@ -1534,16 +1587,11 @@ function enableHomepageActions() {
         if (!response.ok) {
           throw new Error(data.error || 'No se pudo conectar con el tutor IA.');
         }
-        if (result) {
-          result.innerHTML = `<strong>Respuesta del tutor:</strong> ${escapeHtml(data.reply || '')}`.replace(/\n/g, '<br>');
-          result.classList.add('is-visible');
-        }
+        appendTutorMessage(conversation, 'tutor', data.reply || '');
       } catch (error) {
-        if (result) {
-          result.innerHTML = `<strong>Respuesta del tutor:</strong> ${escapeHtml(error.message || 'No se pudo conectar con el tutor IA.')}`;
-          result.classList.add('is-visible');
-        }
+        appendTutorMessage(conversation, 'tutor', error.message || 'No se pudo conectar con el tutor IA.', { isError: true });
       } finally {
+        if (thinking) thinking.hidden = true;
         tutorButton.disabled = false;
       }
     }
@@ -1599,3 +1647,9 @@ setupLearningPathControls();
 loadLearningPath();
 initScrollReveal();
 document.querySelector('.lesson-complete-btn')?.addEventListener('click', completeActiveLesson);
+
+document.getElementById('aiTutorPrompt')?.addEventListener('keydown', event => {
+  if (event.key !== 'Enter' || event.shiftKey) return;
+  event.preventDefault();
+  event.target.closest('.tutor-action')?.querySelector('.tutor-chat-btn')?.click();
+});

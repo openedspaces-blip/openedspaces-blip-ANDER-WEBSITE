@@ -379,6 +379,24 @@ a:focus-visible {
   margin-bottom: 22px;
 }
 
+/* TEMP: deploy verification badge for the July 2026 homepage redesign.
+   Safe to delete this rule (and the .deploy-check-badge element in
+   index.html) once the new homepage is confirmed live on andergo.online. */
+.deploy-check-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(34, 197, 94, .12);
+  color: var(--green);
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  margin: 0 0 22px 10px;
+}
+
 .hero h2 {
   font-size: clamp(3rem, 6vw, 5.4rem);
   line-height: 1.02;
@@ -1124,7 +1142,8 @@ a:focus-visible {
 .payment-methods,
 .auth-panel,
 .course-card,
-.download-box {
+.download-box,
+.language-preview-card {
   border: 1px solid rgba(96, 165, 250, .15);
   border-radius: 32px;
   padding: 30px;
@@ -1141,9 +1160,65 @@ a:focus-visible {
 .payment-methods:hover,
 .auth-panel:hover,
 .course-card:hover,
-.download-box:hover {
+.download-box:hover,
+.language-preview-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 28px 70px rgba(15, 23, 42, .12);
+}
+
+.language-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+.language-preview-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.language-preview-flag {
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+}
+
+.language-preview-card h3 {
+  margin-bottom: 6px;
+}
+
+.language-preview-levels {
+  color: var(--blue);
+  font-weight: 800;
+  font-size: .85rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  margin-bottom: 10px;
+}
+
+.language-preview-desc {
+  color: var(--muted);
+  font-size: .95rem;
+  margin-bottom: 20px;
+}
+
+.language-preview-btn {
+  margin-top: auto;
+  border: 1px solid rgba(96, 165, 250, .35);
+  background: rgba(255, 255, 255, .95);
+  padding: 12px 22px;
+  border-radius: 14px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform .2s ease, border-color .2s ease, color .2s ease;
+}
+
+.language-preview-btn:hover,
+.language-preview-btn:focus-visible {
+  transform: translateY(-1px);
+  border-color: var(--blue);
+  color: var(--blue);
 }
 
 .skill-competency-card {
@@ -1975,6 +2050,94 @@ footer small {
   display: block;
 }
 
+.tutor-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.tutor-conversation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-height: 360px;
+  overflow-y: auto;
+  padding: 0.25rem 0.1rem;
+}
+
+.tutor-welcome {
+  margin: 0;
+  padding: 0.9rem 1rem;
+  border-radius: 18px;
+  background: rgba(37, 99, 235, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  color: #1e3a8a;
+}
+
+.tutor-message {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  max-width: 88%;
+  padding: 0.75rem 1rem;
+  border-radius: 18px;
+  line-height: 1.5;
+}
+
+.tutor-message p {
+  margin: 0;
+}
+
+.tutor-message-label {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.tutor-message--user {
+  align-self: flex-end;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: #fff;
+}
+
+.tutor-message--tutor {
+  align-self: flex-start;
+  background: #fff;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  color: #1e293b;
+}
+
+.tutor-message--error {
+  background: rgba(220, 38, 38, 0.08);
+  border: 1px solid rgba(220, 38, 38, 0.25);
+  color: #991b1b;
+}
+
+.tutor-thinking {
+  margin: 0;
+  color: #475569;
+  font-style: italic;
+}
+
+.tutor-clear-btn {
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  background: #fff;
+  color: #334155;
+  border-radius: 999px;
+  padding: 0.6rem 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.tutor-clear-btn:hover {
+  background: rgba(148, 163, 184, 0.12);
+  border-color: rgba(100, 116, 139, 0.55);
+}
+
 .tutor-context {
   display: flex;
   flex-wrap: wrap;
@@ -2104,6 +2267,22 @@ footer small {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.6rem;
+}
+
+.next-lesson-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: .82rem;
+  font-weight: 700;
+  color: var(--blue);
+  background: var(--accent-soft);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.next-lesson-label strong {
+  font-weight: 800;
 }
 
 .streak-pill {
