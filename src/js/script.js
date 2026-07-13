@@ -154,6 +154,7 @@ function saveSession(user, session) {
   renderAuthState();
   loadSavedGoal();
   syncGoalFromServer();
+  loadDashboard();
   window.AndergoGamification?.load(gamificationKeyFor(authStatus.user));
   if (!session?.access_token) return;
   localStorage.setItem('andergoSession', JSON.stringify({ user, session }));
@@ -172,6 +173,7 @@ function restoreSession() {
   renderAuthState();
   loadSavedGoal();
   syncGoalFromServer();
+  loadDashboard();
   window.AndergoGamification?.load(gamificationKeyFor(authStatus.user));
 }
 
@@ -772,6 +774,200 @@ function savePreferences(language, level) {
   }).catch(error => console.warn('Could not save preferences', error));
 }
 
+function renderDashboardStats(data) {
+  const grid = document.getElementById('dashboardStatsGrid');
+  if (!grid) return;
+  const langLabel = languageDisplayNames[data.preferences?.language] || data.preferences?.language || '—';
+  const stats = [
+    ['Idioma', escapeHtml(langLabel)],
+    ['Nivel', escapeHtml(data.preferences?.level || '—')],
+    ['Progreso', `${data.progress}%`],
+    ['XP', `${data.xp}`],
+    ['Racha actual', `🔥 ${data.streak} días`],
+    ['Mejor racha', `🏆 ${data.longestStreak} días`],
+    ['Próxima lección', escapeHtml(data.nextLesson || '—')],
+    ['Lecciones completadas', `${data.completedLessonsCount}`]
+  ];
+  grid.innerHTML = stats.map(([label, value]) => `
+    <div class="dashboard-stat"><span>${label}</span><strong>${value}</strong></div>
+  `).join('');
+}
+
+function renderDashboardGoal(goal, preferences) {
+  const body = document.getElementById('dashboardGoalBody');
+  if (!body) return;
+
+  const goalOptionsHtml = (selectedKey) => Object.entries(goalOptions).map(([key, opt]) =>
+    `<option value="${key}" ${key === selectedKey ? 'selected' : ''}>${escapeHtml(opt.label)}</option>`
+  ).join('');
+
+  if (!goal) {
+    body.innerHTML = `
+      <p class="skill-graph-empty">Todavía no tienes un objetivo activo.</p>
+      <div class="dashboard-goal-form">
+        <select id="dashboardGoalSelect">${goalOptionsHtml('daily')}</select>
+        <button type="button" data-goal-action="create">Crear objetivo</button>
+      </div>
+    `;
+    return;
+  }
+
+  const label = goalOptions[goal.goalKey]?.label || goal.goalKey;
+  const dateFormat = { day: 'numeric', month: 'short', year: 'numeric' };
+  const createdText = new Date(goal.selectedAt).toLocaleDateString('es', dateFormat);
+  const completedText = goal.completedAt ? new Date(goal.completedAt).toLocaleDateString('es', dateFormat) : null;
+  const langLabel = languageDisplayNames[preferences?.language] || preferences?.language || '—';
+
+  body.innerHTML = `
+    <div data-goal-id="${escapeHtml(goal.id)}">
+      <p class="dashboard-goal-label">${goal.completedAt ? '✅' : '🎯'} <strong>${escapeHtml(label)}</strong></p>
+      <p class="dashboard-goal-meta">Creado el ${createdText}${completedText ? ` · Completado el ${completedText}` : ''}</p>
+      <p class="dashboard-goal-meta">Idioma y nivel: ${escapeHtml(langLabel)} · ${escapeHtml(preferences?.level || '—')}</p>
+      <div class="dashboard-goal-form" data-goal-edit-form hidden>
+        <select id="dashboardGoalSelect">${goalOptionsHtml(goal.goalKey)}</select>
+        <button type="button" data-goal-action="save-edit">Guardar</button>
+      </div>
+      <div class="dashboard-goal-actions">
+        <button type="button" data-goal-action="edit">Editar</button>
+        ${goal.completedAt ? '' : '<button type="button" data-goal-action="complete">Marcar como completado</button>'}
+        <button type="button" data-goal-action="delete">Eliminar</button>
+      </div>
+    </div>
+  `;
+}
+
+function renderDashboardActivity(activity) {
+  const list = document.getElementById('dashboardActivityList');
+  if (!list) return;
+
+  if (!activity || activity.length === 0) {
+    list.innerHTML = '<li class="skill-graph-empty">Aún no tienes actividad reciente. Completa tu primera lección para comenzar.</li>';
+    return;
+  }
+
+  list.innerHTML = activity.map(entry => {
+    const date = new Date(entry.at).toLocaleDateString('es', { day: 'numeric', month: 'short' });
+    let icon = '📌';
+    let text = '';
+    if (entry.type === 'lesson_completed') {
+      icon = '🎉';
+      const xpText = entry.xp ? ` · +${entry.xp} XP` : '';
+      text = `Completaste "${escapeHtml(entry.title)}"${xpText}`;
+    } else if (entry.type === 'goal_created') {
+      icon = '🎯';
+      text = `Nuevo objetivo: ${escapeHtml(goalOptions[entry.goalKey]?.label || entry.goalKey)}`;
+    } else if (entry.type === 'goal_completed') {
+      icon = '✅';
+      text = `Objetivo completado: ${escapeHtml(goalOptions[entry.goalKey]?.label || entry.goalKey)}`;
+    }
+    return `<li class="dashboard-activity-item"><span class="dashboard-activity-icon">${icon}</span><span class="dashboard-activity-text">${text}</span><span class="dashboard-activity-date">${date}</span></li>`;
+  }).join('');
+}
+
+function renderDashboardLoading() {
+  const grid = document.getElementById('dashboardStatsGrid');
+  if (grid) grid.innerHTML = '<p class="skill-graph-empty">Cargando tu panel…</p>';
+  const goalBody = document.getElementById('dashboardGoalBody');
+  if (goalBody) goalBody.innerHTML = '<p class="skill-graph-empty">Cargando tu objetivo…</p>';
+  const activityList = document.getElementById('dashboardActivityList');
+  if (activityList) activityList.innerHTML = '<li class="skill-graph-empty">Cargando actividad…</li>';
+}
+
+function renderDashboardError() {
+  const grid = document.getElementById('dashboardStatsGrid');
+  if (grid) grid.innerHTML = '<p class="skill-graph-empty">No se pudo cargar tu panel. Intenta recargar la página.</p>';
+}
+
+let dashboardPreferences = null;
+
+function renderDashboard(data) {
+  const section = document.getElementById('student-dashboard');
+  if (!section) return;
+
+  if (!data) {
+    section.hidden = true;
+    dashboardPreferences = null;
+    return;
+  }
+
+  section.hidden = false;
+  dashboardPreferences = data.preferences;
+  renderDashboardStats(data);
+  renderDashboardGoal(data.goal, data.preferences);
+  renderDashboardActivity(data.activity);
+}
+
+// Never throws - a failed load just leaves the panel showing its error state,
+// it doesn't block anything else on the page (same convention as loadProgress).
+async function loadDashboard() {
+  if (!authStatus.session?.access_token) {
+    renderDashboard(null);
+    return;
+  }
+
+  const section = document.getElementById('student-dashboard');
+  if (section) section.hidden = false;
+  renderDashboardLoading();
+
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/dashboard`, { headers: authHeaders() });
+    if (!response.ok) throw new Error('Request failed');
+    const data = await response.json();
+    renderDashboard(data);
+  } catch (error) {
+    console.warn('Could not load dashboard', error);
+    renderDashboardError();
+  }
+}
+
+document.getElementById('dashboardGoalBody')?.addEventListener('click', async event => {
+  const button = event.target.closest('[data-goal-action]');
+  if (!button) return;
+  const action = button.dataset.goalAction;
+  const container = button.closest('[data-goal-id]');
+  const goalId = container?.dataset.goalId;
+  const select = document.getElementById('dashboardGoalSelect');
+
+  try {
+    if (action === 'create') {
+      await fetch(`${backendBaseUrl}/api/goals`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeaders() },
+        body: JSON.stringify({ goalKey: select?.value || 'daily' })
+      });
+      showHomeToast('Objetivo creado.');
+    } else if (action === 'edit') {
+      container?.querySelector('[data-goal-edit-form]')?.removeAttribute('hidden');
+      return;
+    } else if (action === 'save-edit') {
+      await fetch(`${backendBaseUrl}/api/goals/${goalId}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json', ...authHeaders() },
+        body: JSON.stringify({ goalKey: select?.value })
+      });
+      showHomeToast('Objetivo actualizado.');
+    } else if (action === 'complete') {
+      await fetch(`${backendBaseUrl}/api/goals/${goalId}/complete`, {
+        method: 'POST',
+        headers: authHeaders()
+      });
+      showHomeToast('¡Objetivo marcado como completado!');
+    } else if (action === 'delete') {
+      if (!window.confirm('¿Eliminar tu objetivo actual?')) return;
+      await fetch(`${backendBaseUrl}/api/goals/${goalId}`, { method: 'DELETE', headers: authHeaders() });
+      activeGoal = 'daily';
+      localStorage.removeItem(getGoalStorageKey());
+      renderGoalState();
+      showHomeToast('Objetivo eliminado.');
+    }
+    await syncGoalFromServer();
+    await loadDashboard();
+  } catch (error) {
+    console.warn('Could not update goal', error);
+    showHomeToast('No se pudo actualizar el objetivo. Intenta de nuevo.');
+  }
+});
+
 function setAuthMessage(message, isError = false) {
   const note = document.querySelector('.auth-note');
   if (!note) return;
@@ -795,6 +991,7 @@ async function logout() {
     renderAuthState();
     updateProgressDisplay();
     renderGoalState();
+    renderDashboard(null);
     window.AndergoGamification?.load('guest');
   }
 }
@@ -1392,6 +1589,10 @@ function handleHomeAction(action) {
     case 'goals':
       document.getElementById('goals')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       showHomeToast('Selecciona una meta para personalizar tu ruta.');
+      break;
+    case 'view-progress':
+      document.getElementById('achievements')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      showHomeToast('Aquí puedes ver tu progreso, insignias y misiones.');
       break;
     case 'skills':
       revealSection('#skills');

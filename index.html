@@ -48,10 +48,10 @@
     <section class="hero">
       <div class="hero-content">
         <span class="pill">Lecciones guiadas y ejercicios prácticos</span>
-        <!-- TEMP: deploy verification badge for the July 2026 homepage redesign. Safe to delete
+        <!-- TEMP: deploy verification badge for the student-dashboard update. Safe to delete
              this <span> (and the matching .deploy-check-badge rule in styles.css) once confirmed
              live on andergo.online. -->
-        <span class="deploy-check-badge">🆕 Nueva experiencia ANDERGO · Julio 2026</span>
+        <span class="deploy-check-badge">🆕 Panel personal ANDERGO · Actualización 2</span>
         <h2>Aprende idiomas con una ruta clara y práctica real</h2>
         <p>
           Practica inglés, francés, italiano, español y alemán con lecciones guiadas,
@@ -113,6 +113,38 @@
           </div>
           <button class="continue-lesson-btn" type="button" data-home-action="continue-lesson">Continuar lección</button>
         </div>
+      </div>
+    </section>
+
+    <section id="student-dashboard" class="section student-dashboard-section" aria-label="Panel personal" hidden>
+      <div class="section-heading">
+        <span>Tu panel</span>
+        <h2>Panel personal ANDERGO · Actualización 2</h2>
+        <p>Tu idioma, nivel, progreso y actividad reciente, todo en un solo lugar.</p>
+      </div>
+
+      <div class="dashboard-stats-grid" id="dashboardStatsGrid"></div>
+
+      <div class="dashboard-panels">
+        <article class="dashboard-goal-card" id="dashboardGoalCard">
+          <h3>Mi objetivo actual</h3>
+          <div id="dashboardGoalBody">
+            <p class="skill-graph-empty">Cargando tu objetivo…</p>
+          </div>
+        </article>
+
+        <article class="dashboard-activity-card" id="dashboardActivityCard">
+          <h3>Actividad reciente</h3>
+          <ul class="dashboard-activity-list" id="dashboardActivityList">
+            <li class="skill-graph-empty">Cargando actividad…</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="dashboard-actions">
+        <button type="button" class="primary-btn" data-home-action="continue-lesson">Continuar aprendiendo</button>
+        <button type="button" class="secondary-btn" data-home-action="view-progress">Ver mi progreso</button>
+        <button type="button" class="secondary-btn" data-home-action="explore-languages">Cambiar idioma o nivel</button>
       </div>
     </section>
 

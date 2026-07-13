@@ -1143,7 +1143,9 @@ a:focus-visible {
 .auth-panel,
 .course-card,
 .download-box,
-.language-preview-card {
+.language-preview-card,
+.dashboard-goal-card,
+.dashboard-activity-card {
   border: 1px solid rgba(96, 165, 250, .15);
   border-radius: 32px;
   padding: 30px;
@@ -1161,7 +1163,9 @@ a:focus-visible {
 .auth-panel:hover,
 .course-card:hover,
 .download-box:hover,
-.language-preview-card:hover {
+.language-preview-card:hover,
+.dashboard-goal-card:hover,
+.dashboard-activity-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 28px 70px rgba(15, 23, 42, .12);
 }
@@ -2369,6 +2373,150 @@ footer small {
   background: var(--blue);
   color: white;
   border-color: var(--blue);
+}
+
+/* Student dashboard panel */
+.dashboard-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.dashboard-stat {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 16px 18px;
+  background: var(--surface);
+}
+
+.dashboard-stat span {
+  display: block;
+  font-size: .78rem;
+  color: var(--muted);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.dashboard-stat strong {
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.dashboard-panels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+  margin-bottom: 28px;
+}
+
+.dashboard-goal-card h3,
+.dashboard-activity-card h3 {
+  margin-bottom: 14px;
+}
+
+.dashboard-goal-label {
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+
+.dashboard-goal-meta {
+  font-size: .85rem;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.dashboard-goal-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 14px 0;
+}
+
+.dashboard-goal-form select {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  font-weight: 600;
+}
+
+.dashboard-goal-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.dashboard-goal-form button,
+.dashboard-goal-actions button {
+  border: 1px solid rgba(96, 165, 250, .35);
+  background: var(--white);
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: .88rem;
+  cursor: pointer;
+  transition: transform .2s ease, border-color .2s ease, color .2s ease;
+}
+
+.dashboard-goal-form button:hover,
+.dashboard-goal-actions button:hover {
+  transform: translateY(-1px);
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.dashboard-activity-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dashboard-activity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: .9rem;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.dashboard-activity-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.dashboard-activity-text {
+  flex: 1;
+}
+
+.dashboard-activity-date {
+  color: var(--muted);
+  font-size: .78rem;
+  white-space: nowrap;
+}
+
+.dashboard-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .dashboard-stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 12px;
+  }
+
+  .dashboard-actions {
+    flex-direction: column;
+  }
+
+  .dashboard-actions button {
+    width: 100%;
+  }
 }
 
 .goal-panel {
