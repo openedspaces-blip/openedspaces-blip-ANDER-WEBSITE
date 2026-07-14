@@ -42,7 +42,7 @@ const FILES_TO_CHECK = [
   'lib/goalsService.js',
   'lib/dashboardService.js',
   'lib/activityService.js',
-  'api/[...paths].js',
+  'api/index.js',
   'scripts/build-static.js',
   'scripts/refresh-expanded-worlds.js',
   'scripts/setup-database.js',
