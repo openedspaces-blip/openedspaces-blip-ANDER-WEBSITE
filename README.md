@@ -83,7 +83,7 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
   - `OPENAI_API_KEY` (solo para `npm run audio:generate`, no la usa el AI Tutor)
   - `OPENAI_MODEL` (opcional; por defecto `gpt-4.1-mini`)
   - `GEMINI_API_KEY` (para activar el AI Tutor real, gratis en https://aistudio.google.com/apikey)
-  - `GEMINI_MODEL` (opcional; por defecto `gemini-2.0-flash`)
+  - `GEMINI_MODEL` (opcional; por defecto `gemini-flash-latest`)
   - `DEV_TOKEN_SECRET`
   - `PREMIUM_PRICE_USD`
 

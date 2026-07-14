@@ -6,6 +6,7 @@ const vm = require('node:vm');
 const { createServer } = require('./lib/server');
 const { getLocalLessons } = require('./lib/lessonsData');
 const { levelContent, languageContent } = require('./lib/uiContent');
+const { isConfigured: isTutorConfigured } = require('./lib/geminiService');
 
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -46,7 +47,7 @@ test('language content endpoint exposes backend-managed UI payload', async () =>
   }
 });
 
-test('ai tutor endpoint surfaces missing OpenAI configuration clearly', async () => {
+test('ai tutor endpoint surfaces missing Gemini configuration clearly', { skip: isTutorConfigured() && 'GEMINI_API_KEY is set in this environment' }, async () => {
   const { server, port } = await startTestServer();
   try {
     const response = await fetch(`http://127.0.0.1:${port}/api/ai/tutor`, {
@@ -62,7 +63,30 @@ test('ai tutor endpoint surfaces missing OpenAI configuration clearly', async ()
     });
     assert.equal(response.status, 503);
     const body = await response.json();
-    assert.match(body.error, /OPENAI_API_KEY/i);
+    assert.match(body.error, /GEMINI_API_KEY/i);
+  } finally {
+    server.close();
+  }
+});
+
+test('ai tutor endpoint returns a real reply when Gemini is configured', { skip: !isTutorConfigured() && 'GEMINI_API_KEY is not set in this environment' }, async () => {
+  const { server, port } = await startTestServer();
+  try {
+    const response = await fetch(`http://127.0.0.1:${port}/api/ai/tutor`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        language: 'french',
+        skill: 'speaking',
+        level: 'A1',
+        nativeLanguage: 'es',
+        prompt: 'Quiero practicar saludos'
+      })
+    });
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    assert.equal(typeof body.reply, 'string');
+    assert.ok(body.reply.length > 0);
   } finally {
     server.close();
   }
