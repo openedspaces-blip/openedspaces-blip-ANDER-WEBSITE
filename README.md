@@ -80,15 +80,17 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
   - `SUPABASE_ANON_KEY` (o `SUPABASE_KEY` como alias)
   - `SUPABASE_SERVICE_ROLE_KEY`
   - `SUPABASE_DATABASE_URL` (solo si vas a correr `npm run db:setup`)
-  - `OPENAI_API_KEY` (para activar el AI Tutor real)
+  - `OPENAI_API_KEY` (solo para `npm run audio:generate`, no la usa el AI Tutor)
   - `OPENAI_MODEL` (opcional; por defecto `gpt-4.1-mini`)
+  - `GEMINI_API_KEY` (para activar el AI Tutor real, gratis en https://aistudio.google.com/apikey)
+  - `GEMINI_MODEL` (opcional; por defecto `gemini-2.0-flash`)
   - `DEV_TOKEN_SECRET`
   - `PREMIUM_PRICE_USD`
 
 ## AI Tutor
 - El botón **AI Tutor** ahora llama al backend (`POST /api/ai/tutor`) en vez de responder con texto fijo en frontend.
-- La llamada real a OpenAI se hace solo desde backend; la clave `OPENAI_API_KEY` nunca se expone al navegador.
-- Si falta `OPENAI_API_KEY`, la UI muestra un mensaje claro indicando que el tutor IA todavía no está configurado.
+- La llamada real a Gemini (free tier de Google) se hace solo desde backend, vía `lib/geminiService.js`; la clave `GEMINI_API_KEY` nunca se expone al navegador.
+- Si falta `GEMINI_API_KEY`, la UI muestra un mensaje claro indicando que el tutor IA todavía no está configurado.
 - La interfaz acepta un prompt libre del usuario y además envía al backend el idioma, nivel y lección activa de la ruta para dar respuestas más útiles.
 
 ## Validación realizada
