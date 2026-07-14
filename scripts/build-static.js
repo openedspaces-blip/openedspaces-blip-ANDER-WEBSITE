@@ -18,6 +18,7 @@ const GAMIFICATION_FILES = [
   'src/js/gamification/streaks.js',
   'src/js/gamification/badges.js',
   'src/js/gamification/missions.js',
+  'src/js/gamification/toasts.js',
   'src/js/gamification/render.js',
   'src/js/gamification/index.js'
 ];

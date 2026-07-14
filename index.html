@@ -48,10 +48,6 @@
     <section class="hero">
       <div class="hero-content">
         <span class="pill">Lecciones guiadas y ejercicios prácticos</span>
-        <!-- TEMP: deploy verification badge for the student-dashboard update. Safe to delete
-             this <span> (and the matching .deploy-check-badge rule in styles.css) once confirmed
-             live on andergo.online. -->
-        <span class="deploy-check-badge">🆕 Panel personal ANDERGO · Actualización 2</span>
         <h2>Aprende idiomas con una ruta clara y práctica real</h2>
         <p>
           Practica inglés, francés, italiano, español y alemán con lecciones guiadas,
@@ -268,14 +264,57 @@
         <p>Gana XP, mantén tu racha y desbloquea insignias mientras avanzas por cada mundo de idioma.</p>
       </div>
 
+      <div class="achievements-stats">
+        <div class="stat-tile stat-tile-level">
+          <div class="stat-level-ring" style="--ring-percent: 0;">
+            <span class="stat-level-value">1</span>
+          </div>
+          <div class="stat-tile-copy">
+            <strong>Nivel</strong>
+            <span class="stat-xp-caption">0 / 100 XP</span>
+          </div>
+        </div>
+        <div class="stat-tile">
+          <span class="stat-tile-icon">🔥</span>
+          <div class="stat-tile-copy">
+            <strong class="stat-streak-value">0</strong>
+            <span>días de racha</span>
+          </div>
+        </div>
+        <div class="stat-tile">
+          <span class="stat-tile-icon">🏆</span>
+          <div class="stat-tile-copy">
+            <strong class="stat-best-streak-value">0</strong>
+            <span>mejor racha</span>
+          </div>
+        </div>
+        <div class="stat-tile">
+          <span class="stat-tile-icon">🏅</span>
+          <div class="stat-tile-copy">
+            <strong class="stat-badges-value">0/11</strong>
+            <span>insignias</span>
+          </div>
+        </div>
+      </div>
+
       <div class="achievements-layout">
         <div class="missions-panel">
-          <h3>Misiones de hoy</h3>
+          <div class="missions-panel-head">
+            <h3>Misiones de hoy</h3>
+            <span class="missions-countdown">Nuevas misiones en 24h 00m</span>
+          </div>
           <ul class="mission-list" aria-live="polite"></ul>
         </div>
 
         <div class="badges-panel">
-          <h3>Insignias</h3>
+          <div class="badges-panel-head">
+            <h3>Insignias</h3>
+            <div class="badge-filter-tabs" role="tablist">
+              <button type="button" class="badge-filter-btn active" data-filter="all">Todas</button>
+              <button type="button" class="badge-filter-btn" data-filter="unlocked">Desbloqueadas</button>
+              <button type="button" class="badge-filter-btn" data-filter="locked">Por lograr</button>
+            </div>
+          </div>
           <div class="badges-grid" aria-live="polite"></div>
         </div>
       </div>
@@ -1384,6 +1423,7 @@
     <script src="/src/js/gamification/streaks.js"></script>
     <script src="/src/js/gamification/badges.js"></script>
     <script src="/src/js/gamification/missions.js"></script>
+    <script src="/src/js/gamification/toasts.js"></script>
     <script src="/src/js/gamification/render.js"></script>
     <script src="/src/js/gamification/index.js"></script>
     <script src="/src/js/script.js"></script>

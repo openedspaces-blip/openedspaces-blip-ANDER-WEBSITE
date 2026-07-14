@@ -11,9 +11,24 @@
   --muted: #64748b;
   --light: #f8fafc;
   --line: #dbeafe;
-  --shadow: 0 28px 80px rgba(15, 23, 42, 0.14);
+
+  /* Elevation scale — shared depths so cards/buttons/modals read as one system */
+  --shadow-xs: 0 8px 20px rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 12px 30px rgba(15, 23, 42, 0.07);
   --shadow-soft: 0 18px 44px rgba(15, 23, 42, 0.08);
+  --shadow: 0 28px 80px rgba(15, 23, 42, 0.14);
+  --shadow-lg: 0 36px 90px rgba(15, 23, 42, 0.16);
+  --shadow-accent: 0 16px 40px rgba(37, 99, 235, 0.24);
+  --shadow-accent-lg: 0 22px 55px rgba(37, 99, 235, 0.24);
   --accent-soft: rgba(37, 99, 235, 0.08);
+
+  /* Radius scale — every rounded surface picks one of these */
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-pill: 999px;
 }
 
 /* Base */
@@ -159,7 +174,7 @@ a:focus-visible {
   color: white;
   font-weight: 900;
   background: linear-gradient(135deg, var(--purple), var(--blue), var(--cyan));
-  box-shadow: 0 16px 40px rgba(37, 99, 235, .25);
+  box-shadow: var(--shadow-accent);
 }
 
 .brand h1 {
@@ -278,9 +293,9 @@ a:focus-visible {
   background: linear-gradient(135deg, var(--blue), var(--cyan));
   color: white;
   padding: 14px 24px;
-  border-radius: 16px;
+  border-radius: var(--radius-md);
   font-weight: 800;
-  box-shadow: 0 16px 40px rgba(37, 99, 235, .24);
+  box-shadow: var(--shadow-accent);
   display: inline-block;
   transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
   position: relative;
@@ -289,7 +304,7 @@ a:focus-visible {
 .signup:hover, .primary-btn:hover,
 .signup:focus-visible, .primary-btn:focus-visible {
   transform: translateY(-2px);
-  box-shadow: 0 22px 55px rgba(37, 99, 235, .24);
+  box-shadow: var(--shadow-accent-lg);
   filter: saturate(1.05);
 }
 
@@ -308,7 +323,7 @@ a:focus-visible {
 .secondary-btn {
   border: 1px solid rgba(96, 165, 250, .35);
   padding: 14px 24px;
-  border-radius: 16px;
+  border-radius: var(--radius-md);
   font-weight: 800;
   display: inline-block;
   background: rgba(255, 255, 255, .95);
@@ -322,7 +337,7 @@ a:focus-visible {
 }
 
 .hero {
-  min-height: 760px;
+  min-height: calc(100vh - 96px);
   display: grid;
   grid-template-columns: 1.05fr .95fr;
   gap: 60px;
@@ -377,24 +392,6 @@ a:focus-visible {
   text-transform: uppercase;
   letter-spacing: .08em;
   margin-bottom: 22px;
-}
-
-/* TEMP: deploy verification badge for the July 2026 homepage redesign.
-   Safe to delete this rule (and the .deploy-check-badge element in
-   index.html) once the new homepage is confirmed live on andergo.online. */
-.deploy-check-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 14px;
-  border-radius: 999px;
-  background: rgba(34, 197, 94, .12);
-  color: var(--green);
-  font-size: .72rem;
-  font-weight: 800;
-  letter-spacing: .04em;
-  text-transform: uppercase;
-  margin: 0 0 22px 10px;
 }
 
 .hero h2 {
@@ -459,7 +456,7 @@ a:focus-visible {
 
 .hero-card:hover {
   transform: translateY(-4px) scale(1.01);
-  box-shadow: 0 36px 90px rgba(15, 23, 42, .16);
+  box-shadow: var(--shadow-lg);
 }
 
 .hero-card:before,
@@ -490,9 +487,9 @@ a:focus-visible {
 .course-card {
   width: min(460px, 90%);
   background: rgba(255, 255, 255, .95);
-  border-radius: 32px;
+  border-radius: var(--radius-2xl);
   padding: 34px;
-  box-shadow: 0 40px 90px rgba(15, 23, 42, .14);
+  box-shadow: var(--shadow-lg);
   border: 1px solid rgba(59, 130, 246, .08);
   backdrop-filter: blur(12px);
 }
@@ -541,14 +538,6 @@ a:focus-visible {
   color: var(--muted);
 }
 
-.card-top {
-  display: flex;
-  justify-content: space-between;
-  color: var(--muted);
-  font-size: .95rem;
-  margin-bottom: 26px;
-}
-
 .progress-circle {
   width: 150px;
   height: 150px;
@@ -566,19 +555,19 @@ a:focus-visible {
 }
 
 .skill-grid div {
-  background: white;
-  border-radius: 20px;
-  padding: 18px 16px;
-  font-weight: 800;
-  font-size: .95rem;
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 14px;
+  font-weight: 700;
+  font-size: .9rem;
   box-shadow: 0 12px 30px rgba(15, 23, 42, .05);
 }
 
 .course-card button {
   width: 100%;
   border: none;
-  padding: 16px;
-  border-radius: 20px;
+  padding: 15px;
+  border-radius: 16px;
   color: white;
   font-weight: 900;
   background: linear-gradient(135deg, var(--blue), var(--cyan));
@@ -968,7 +957,6 @@ a:focus-visible {
   transform: translateY(-1px);
 }
 
-.skill-tabs,
 .vocab-section,
 .grammar-section,
 .reading-comprehension,
@@ -981,12 +969,14 @@ a:focus-visible {
   display: block;
 }
 
-.skill-tabs.is-open,
 .vocab-section.is-open,
 .grammar-section.is-open,
-.reading-comprehension.is-open,
-.tutor-action.is-open {
+.reading-comprehension.is-open {
   display: block;
+}
+
+.tutor-action.is-open {
+  display: flex;
 }
 
 .badge {
@@ -1018,28 +1008,6 @@ a:focus-visible {
   margin-top: 6px;
 }
 
-.premium-only {
-  background: #2563eb;
-}
-
-.skill-grid div {
-  background: #f8fafc;
-  border-radius: 16px;
-  padding: 14px;
-  font-weight: 700;
-  font-size: .9rem;
-}
-
-.course-card button {
-  width: 100%;
-  border: none;
-  padding: 15px;
-  border-radius: 16px;
-  color: white;
-  font-weight: 900;
-  background: linear-gradient(135deg, var(--blue), var(--cyan));
-}
-
 .section {
   padding: 90px 6%;
   position: relative;
@@ -1066,15 +1034,6 @@ a:focus-visible {
   background: linear-gradient(90deg, var(--blue), var(--cyan));
 }
 
-.section-heading span,
-.download-box span {
-  color: var(--blue);
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: .08em;
-  font-size: .85rem;
-}
-
 .section-heading h2,
 .download-box h2 {
   font-size: clamp(2rem, 4vw, 3.4rem);
@@ -1089,7 +1048,6 @@ a:focus-visible {
   font-size: 1.08rem;
 }
 
-.language-grid,
 .features-grid,
 .pricing-grid {
   display: grid;
@@ -1383,31 +1341,6 @@ a:focus-visible {
   font-size: .95rem;
 }
 
-.language-skills {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-  margin-top: 26px;
-}
-
-.language-skills article {
-  border: 1px solid var(--line);
-  background: white;
-}
-
-.language-skills .icon {
-  font-size: 2rem;
-  margin-bottom: 16px;
-}
-
-.language-skills h4 {
-  margin-bottom: 10px;
-}
-
-.language-skills p {
-  color: var(--muted);
-}
-
 .reading-comprehension {
   margin-top: 32px;
   border-top: 1px solid rgba(96, 165, 250, .16);
@@ -1549,6 +1482,67 @@ a:focus-visible {
   box-shadow: 0 10px 20px rgba(37, 99, 235, .22);
 }
 
+.vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.vocab-grid div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: var(--light);
+  border: 1px solid rgba(96, 165, 250, .14);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  transition: transform .2s ease, border-color .2s ease;
+}
+
+.vocab-grid div:hover {
+  transform: translateY(-1px);
+  border-color: rgba(37, 99, 235, .3);
+}
+
+.vocab-grid strong {
+  color: var(--navy-2);
+  font-weight: 800;
+}
+
+.vocab-grid span {
+  color: var(--blue);
+  font-weight: 700;
+  font-size: .92rem;
+}
+
+.grammar-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.grammar-grid div {
+  background: var(--light);
+  border: 1px solid rgba(96, 165, 250, .14);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+}
+
+.grammar-grid strong {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--blue);
+}
+
+.grammar-grid span {
+  color: var(--muted);
+  font-size: .92rem;
+  line-height: 1.5;
+}
+
 .level-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1599,12 +1593,6 @@ a:focus-visible {
   margin-bottom: 8px;
 }
 
-.language-grid h3 {
-  font-size: 1.2rem;
-  margin-top: 12px;
-}
-
-.language-grid p,
 .features-grid p,
 .plan li {
   color: var(--muted);
@@ -1850,23 +1838,49 @@ a:focus-visible {
 }
 
 footer {
-  padding: 48px 6%;
+  padding: 64px 6% 48px;
   text-align: center;
-  background: var(--navy);
+  background:
+    radial-gradient(circle at 15% 0%, rgba(37, 99, 235, .28), transparent 42%),
+    radial-gradient(circle at 85% 100%, rgba(0, 194, 255, .18), transparent 46%),
+    var(--navy);
   color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(360px, 70%);
+  height: 3px;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, var(--purple), var(--blue), var(--cyan));
 }
 
 footer strong {
+  display: inline-block;
   letter-spacing: .16em;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--cyan), #ffffff 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 footer p {
-  margin: 8px 0;
+  margin: 12px 0 20px;
   color: #cbd5e1;
 }
 
 footer small {
+  display: inline-block;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, .1);
   color: #94a3b8;
 }
 
@@ -1923,10 +1937,11 @@ footer small {
   }
 
   .level-grid,
-  .language-skills,
   .world-lesson-grid,
   .skill-panel-grid,
-  .skill-mini-vocab {
+  .skill-mini-vocab,
+  .vocab-grid,
+  .grammar-grid {
     grid-template-columns: 1fr;
   }
 
@@ -2033,15 +2048,6 @@ footer small {
   border: 1px solid rgba(96, 165, 250, .18);
 }
 
-.premium-lock-box {
-  border: 1px dashed rgba(37, 99, 235, .4);
-  background: rgba(37, 99, 235, .06);
-  border-radius: 18px;
-  padding: 18px;
-  display: grid;
-  gap: 10px;
-}
-
 .upgrade-btn {
   border: 0;
   width: fit-content;
@@ -2059,16 +2065,10 @@ footer small {
   display: none !important;
 }
 
-.hero {
-  min-height: calc(100vh - 96px);
-  align-items: center;
-}
-
 .hero-content .pill,
 .quick-stats,
 .course-card,
 .language-card,
-.pricing-card,
 .goal-card {
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
@@ -2084,8 +2084,7 @@ footer small {
 .detail-toggle,
 .skill-tab-button,
 .tab-button,
-.tutor-chat-btn,
-.upgrade-btn {
+.tutor-chat-btn {
   cursor: pointer;
 }
 
@@ -2296,17 +2295,6 @@ footer small {
 .home-toast.is-visible {
   opacity: 1;
   transform: translate(-50%, 0);
-}
-
-@media (max-width: 780px) {
-  .hero {
-    min-height: auto;
-    padding-top: 2rem;
-  }
-
-  .quick-stats {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* ==========================================================================
@@ -2791,6 +2779,228 @@ footer small {
 .badge-card span {
   font-size: 0.7rem;
   color: var(--muted);
+}
+
+.badge-progress-bar {
+  width: 100%;
+  height: 5px;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 0.15rem;
+}
+
+.badge-progress-bar div {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  border-radius: 999px;
+  transition: width 300ms ease;
+}
+
+.badge-progress-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.badges-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding: 1.5rem 0.5rem;
+}
+
+.missions-panel-head,
+.badges-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.missions-panel-head h3,
+.badges-panel-head h3 {
+  margin-bottom: 0;
+}
+
+.missions-countdown {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--muted);
+  background: var(--bg);
+  border-radius: 999px;
+  padding: 0.3rem 0.65rem;
+  white-space: nowrap;
+}
+
+.badge-filter-tabs {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.badge-filter-btn {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+
+.badge-filter-btn:hover {
+  border-color: var(--cyan);
+}
+
+.badge-filter-btn.active {
+  background: linear-gradient(135deg, var(--blue), var(--cyan));
+  border-color: transparent;
+  color: #fff;
+}
+
+/* Achievements stats header: level ring, streak, best streak, badges earned */
+.achievements-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 720px) {
+  .achievements-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.stat-tile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 0.9rem 1rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.stat-tile-icon {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.stat-tile-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.stat-tile-copy strong {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.stat-tile-copy span {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.stat-level-ring {
+  --ring-percent: 0;
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: conic-gradient(var(--blue) calc(var(--ring-percent) * 1%), var(--line) 0);
+  transition: background 300ms ease;
+}
+
+.stat-level-ring span {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--blue);
+}
+
+/* Gamification toasts: popped for badge unlocks, level-ups and mission completions */
+.gamification-toasts {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: min(340px, calc(100vw - 2.5rem));
+}
+
+.gamification-toast {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow-soft);
+  padding: 0.75rem 1rem;
+  opacity: 0;
+  transform: translateY(12px) scale(0.98);
+  transition: opacity .3s ease, transform .3s ease;
+}
+
+.gamification-toast.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.gamification-toast.hide {
+  opacity: 0;
+  transform: translateY(-6px) scale(0.98);
+}
+
+.gamification-toast-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.gamification-toast-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  font-size: 0.85rem;
+}
+
+.gamification-toast-copy span {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.gamification-toast.badge {
+  border-color: var(--cyan);
+  box-shadow: 0 10px 26px rgba(0, 194, 255, .25);
+}
+
+.gamification-toast.level {
+  border-color: var(--purple);
+  box-shadow: 0 10px 26px rgba(139, 92, 246, .25);
+}
+
+.gamification-toast.mission {
+  border-color: var(--green);
+  box-shadow: 0 10px 26px rgba(34, 197, 94, .2);
 }
 
 /* Learning path language/level controls */
