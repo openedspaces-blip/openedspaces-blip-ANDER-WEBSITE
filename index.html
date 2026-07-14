@@ -28,12 +28,19 @@
     </button>
 
     <nav class="menu" id="siteMenu">
-      <a href="#languages">Idiomas</a>
-      <a href="#achievements">Logros</a>
-      <a href="#skills">Competencias</a>
-      <a href="#goals">Objetivos</a>
-      <a href="#downloads">Descargas</a>
-      <a href="#app">App</a>
+      <span class="nav-group nav-group-visitor">
+        <a href="#home">Inicio</a>
+        <a href="#learn">Idiomas</a>
+        <a href="#home" data-scroll-target="homeBenefits">Cómo funciona</a>
+        <a href="#premium">Premium</a>
+      </span>
+      <span class="nav-group nav-group-member" hidden>
+        <a href="#learn">Aprender</a>
+        <a href="#progress">Progreso</a>
+        <a href="#achievements">Logros</a>
+        <a href="#goals">Objetivos</a>
+        <a href="#tutor">Tutor IA</a>
+      </span>
     </nav>
 
     <div class="nav-actions">
@@ -55,91 +62,70 @@
         </p>
 
         <div class="hero-buttons">
-          <a href="#languages" class="primary-btn" data-home-action="start-free">Comenzar gratis</a>
+          <a href="#learn" class="primary-btn" data-home-action="start-free">Comenzar gratis</a>
           <a href="#language-picker" class="secondary-btn" data-home-action="explore-languages">Explorar idiomas</a>
         </div>
 
-        <div class="quick-stats">
-          <div><strong>3 gratis</strong><span>por nivel A1-B2</span></div>
-          <div><strong>1 gratis</strong><span>en C1 y C2</span></div>
-          <div><strong>USD 5.95</strong><span>plan único premium</span></div>
+        <div class="quick-stats" id="homeBenefits">
+          <div><strong>A1–C2</strong><span>lecciones por nivel</span></div>
+          <div><strong>Progreso</strong><span>real y medible</span></div>
+          <div><strong>Práctica</strong><span>personalizada</span></div>
         </div>
+
+        <p class="home-pricing-teaser">Prueba gratis. Desbloquea la ruta completa por USD 5.95 al mes.
+          <a href="#premium">Ver Premium</a>
+        </p>
       </div>
 
       <div class="hero-card">
-        <div class="course-card">
-          <div class="card-top">
-            <span>Tu progreso</span>
-            <strong class="course-label">English · A1</strong>
-          </div>
-          <p class="next-lesson-label">📍 Próxima lección: <strong>Listening A1</strong></p>
-          <p class="student-greeting">Inicia sesión para personalizar tu ruta.</p>
-          <div class="progress-circle">0%</div>
+        <article class="course-card">
+          <p class="student-greeting">Inicia sesión para ver tu progreso, racha y objetivo.</p>
 
-          <div class="gamification-strip">
-            <div class="level-chip">Nv. 1</div>
-            <div class="xp-bar" title="Experiencia">
-              <div class="xp-bar-fill" style="width: 4%;"></div>
-            </div>
-            <div class="streak-pill">
+          <div class="home-summary-row" id="homeSummaryRow" hidden>
+            <span class="progress-circle">0%</span>
+            <span class="streak-pill">
               <span class="streak-flame-icon">🔥</span>
               <span class="streak-flame-count">0</span>
-            </div>
+            </span>
           </div>
-          <p class="xp-bar-label">Nivel 1 · 0 XP</p>
+          <p class="progress-text" id="homeProgressText" hidden></p>
 
-          <div class="progress-summary">
-            <p>Progreso del curso</p>
-            <div class="progress-bar">
-              <div class="progress-meter" style="width: 0%;"></div>
-            </div>
-            <p class="progress-text">Inicia sesión para ver tu progreso</p>
+          <div class="goal-summary" id="homeGoalSummary" hidden>
+            <span>Objetivo actual</span>
+            <strong>Sin objetivo activo</strong>
           </div>
 
-          <div class="goal-summary">
-            <span>Meta activa</span>
-            <strong>Practicar 15 min al día</strong>
+          <div class="home-guest-actions" id="homeGuestActions">
+            <a href="#" class="primary-btn" data-action="open-auth" data-panel="signup">Comenzar gratis</a>
+            <a href="#" class="secondary-btn" data-action="open-auth" data-panel="login">Iniciar sesión</a>
           </div>
 
-          <div class="skill-grid">
-            <div>🎧 Listening</div>
-            <div>🎙 Speaking</div>
-            <div>📖 Reading</div>
-            <div>✍️ Writing</div>
-          </div>
-          <button class="continue-lesson-btn" type="button" data-home-action="continue-lesson">Continuar lección</button>
-        </div>
+          <button class="continue-lesson-btn" type="button" data-home-action="continue-lesson" hidden>Continuar lección</button>
+        </article>
       </div>
     </section>
 
-    <section id="student-dashboard" class="section student-dashboard-section" aria-label="Panel personal" hidden>
+    <section id="progress" class="section student-dashboard-section compact-hidden-section" aria-label="Tu progreso">
       <div class="section-heading">
-        <span>Tu panel</span>
-        <h2>Panel personal ANDERGO · Actualización 2</h2>
-        <p>Tu idioma, nivel, progreso y actividad reciente, todo en un solo lugar.</p>
+        <span>Progreso</span>
+        <h2>Tu progreso, todo en un solo lugar.</h2>
+        <p>Idioma, nivel, próxima lección y actividad reciente.</p>
       </div>
 
       <div class="dashboard-stats-grid" id="dashboardStatsGrid"></div>
+      <p class="progress-gamification-line" id="progressGamificationLine"></p>
 
       <div class="dashboard-panels">
-        <article class="dashboard-goal-card" id="dashboardGoalCard">
-          <h3>Mi objetivo actual</h3>
-          <div id="dashboardGoalBody">
-            <p class="skill-graph-empty">Cargando tu objetivo…</p>
-          </div>
-        </article>
-
         <article class="dashboard-activity-card" id="dashboardActivityCard">
           <h3>Actividad reciente</h3>
           <ul class="dashboard-activity-list" id="dashboardActivityList">
-            <li class="skill-graph-empty">Cargando actividad…</li>
+            <li class="skill-graph-empty">Inicia sesión para ver tu actividad.</li>
           </ul>
         </article>
       </div>
 
       <div class="dashboard-actions">
         <button type="button" class="primary-btn" data-home-action="continue-lesson">Continuar aprendiendo</button>
-        <button type="button" class="secondary-btn" data-home-action="view-progress">Ver mi progreso</button>
         <button type="button" class="secondary-btn" data-home-action="explore-languages">Cambiar idioma o nivel</button>
       </div>
     </section>
@@ -192,9 +178,36 @@
 
     <section id="learning-path" class="section learning-path-section compact-hidden-section" aria-label="Ruta de lecciones">
       <div class="section-heading">
-        <span>Ruta de lecciones</span>
+        <span>Aprender</span>
         <h2>Empieza con lecciones cortas y medibles.</h2>
         <p>Practica vocabulario, diálogos y ejercicios de comprensión en una secuencia clara.</p>
+      </div>
+
+      <div class="features-grid compact-skills-row">
+        <article class="skill-competency-card" data-skill="listening" role="button" tabindex="0">
+          <div class="icon">🎧</div>
+          <h3>Listening</h3>
+        </article>
+        <article class="skill-competency-card" data-skill="speaking" role="button" tabindex="0">
+          <div class="icon">🎙</div>
+          <h3>Speaking</h3>
+        </article>
+        <article class="skill-competency-card" data-skill="reading" role="button" tabindex="0">
+          <div class="icon">📖</div>
+          <h3>Reading</h3>
+        </article>
+        <article class="skill-competency-card" data-skill="writing" role="button" tabindex="0">
+          <div class="icon">✍️</div>
+          <h3>Writing</h3>
+        </article>
+        <article class="skill-competency-card" data-skill="grammar" role="button" tabindex="0">
+          <div class="icon">📚</div>
+          <h3>Grammar</h3>
+        </article>
+        <article class="skill-competency-card" data-skill="vocabulary" role="button" tabindex="0">
+          <div class="icon">🧠</div>
+          <h3>Vocabulary</h3>
+        </article>
       </div>
 
       <div class="path-controls">
@@ -232,9 +245,10 @@
       <div class="learning-path-layout">
         <div class="skill-graph" id="skillGraph" aria-live="polite" aria-label="Mapa de lecciones"></div>
 
-        <article class="lesson-workspace" id="lessonWorkspace" aria-live="polite">
+        <article class="lesson-workspace compact-hidden-section" id="lessonWorkspace" aria-live="polite">
           <div class="lesson-workspace-head">
             <div>
+              <button class="learn-back-to-route" type="button">← Volver a la ruta</button>
               <span class="lesson-kicker">A1 · Listening</span>
               <h3>Ruta de inicio</h3>
             </div>
@@ -257,7 +271,7 @@
       </div>
     </section>
 
-    <section id="achievements" class="section achievements-section">
+    <section id="achievements" class="section achievements-section compact-hidden-section">
       <div class="section-heading">
         <span>Logros</span>
         <h2>Tu progreso, en insignias y misiones diarias.</h2>
@@ -320,961 +334,130 @@
       </div>
     </section>
 
-    <section id="languages" class="section compact-hidden-section">
+    <section id="tutor" class="section tutor-section compact-hidden-section" aria-label="Tutor IA">
       <div class="section-heading">
-        <span>Idiomas</span>
-        <h2>Elige el idioma que quieres aprender y empieza hoy.</h2>
-        <p>Practica con audios, textos y ejercicios pensados para tu nivel y tu lengua materna.</p>
+        <span>Tutor IA</span>
+        <h2>Practica conversando con tu tutor de idiomas.</h2>
+        <p>Corrige, explica y propone ejercicios según tu idioma, nivel y habilidad.</p>
       </div>
 
-      <div class="language-selector">
-        <label for="nativeLanguage">Selecciona tu lengua nativa</label>
-        <select id="nativeLanguage">
-          <option value="es">Español</option>
-          <option value="en">English</option>
-          <option value="fr">Français</option>
-          <option value="it">Italiano</option>
-          <option value="de">Deutsch</option>
-        </select>
+      <div class="tutor-context" aria-live="polite">
+        <span class="tutor-context-pill">Idioma: <strong data-ai-context="language">English</strong></span>
+        <span class="tutor-context-pill">Nivel: <strong data-ai-context="level">A1</strong></span>
+        <span class="tutor-context-pill">Lección: <strong data-ai-context="lesson">Ruta inicial</strong></span>
+        <span class="tutor-connection-status" id="tutorConnectionStatus" aria-live="polite">Conectado</span>
       </div>
 
-      <div class="language-tabs">
-        <div class="tab-list">
-          <button class="tab-button active" type="button" data-target="english">🇺🇸 English</button>
-          <button class="tab-button" type="button" data-target="espanol">🇪🇸 Español</button>
-          <button class="tab-button" type="button" data-target="frances">🇫🇷 Français</button>
-          <button class="tab-button" type="button" data-target="italiano">🇮🇹 Italiano</button>
-          <button class="tab-button" type="button" data-target="deutsch">🇩🇪 Deutsch</button>
-          <button class="tab-button" type="button" data-target="ai-tutor">🤖 A.I. Tutor</button>
+      <div class="skill-tabs is-open">
+        <div class="skill-tab-list">
+          <button class="skill-tab-button active" type="button" data-skill="listening">Listening</button>
+          <button class="skill-tab-button" type="button" data-skill="speaking">Speaking</button>
+          <button class="skill-tab-button" type="button" data-skill="writing">Writing</button>
         </div>
 
-        <div class="tab-panels">
-          <div class="tab-panel active" id="tab-english">
-            <article class="language-card">
-              <div class="language-overview">
-                <div>
-                  <span>🇺🇸 English</span>
-                  <h3>Ruta completa de inglés: A1 a C2</h3>
-                  <p>Aprende inglés paso a paso con contenidos adaptados para hispanohablantes y práctica en listening, speaking, reading y writing en cada nivel.</p>
-                </div>
-              </div>
-
-              <div class="level-grid">
-                <div>
-                  <strong>A1</strong>
-                  <span>Expresiones básicas y comprensión inicial</span>
-                  <span class="badge free">Free</span>
-                </div>
-                <div>
-                  <strong>A2</strong>
-                  <span>Frases cotidianas y comunicación simple</span>
-                  <span class="badge free">Free</span>
-                </div>
-                <div>
-                  <strong>B1</strong>
-                  <span>Conversación fluida sobre temas conocidos</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>B2</strong>
-                  <span>Argumentación clara y comprensión detallada</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>C1</strong>
-                  <span>Uso avanzado y matices idiomáticos</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>C2</strong>
-                  <span>Dominio completo y comunicación nativa</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-              </div>
-
-              <div class="access-summary">
-                <span class="badge free">Free</span>
-                <span class="badge advanced">Avanzado</span>
-                <p class="advanced-note">A1 y A2 son de inicio; B1 a C2 se activan segun tus metas y progreso.</p>
-              </div>
-
-              <div class="skill-tabs">
-                <div class="skill-tab-list">
-                  <button class="skill-tab-button active" data-skill="listening">Listening</button>
-                  <button class="skill-tab-button" data-skill="speaking">Speaking</button>
-                  <button class="skill-tab-button" data-skill="writing">Writing</button>
-                </div>
-
-                <div class="skill-panel active" data-skill="listening">
-                  <h4>Listening</h4>
-                  <p>Audios auténticos con transcripciones parciales que el sistema completa por ti.</p>
-                  <div class="predictive-box">
-                    <strong>Completa el audio:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">She is going to...</span>
-                      <span class="predictive-suggestion">At the station, the train...</span>
-                      <span class="predictive-suggestion">We will meet at...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="speaking">
-                  <h4>Speaking</h4>
-                  <p>Frases de práctica con continuaciones sugeridas para mejorar tu fluidez.</p>
-                  <div class="predictive-box">
-                    <strong>Empieza a hablar:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">I would like to...</span>
-                      <span class="predictive-suggestion">Could you tell me...</span>
-                      <span class="predictive-suggestion">Let me introduce...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="writing">
-                  <h4>Writing</h4>
-                  <p>Redacciones asistidas con arranques de frases predictivas para completar en cada nivel.</p>
-                  <div class="predictive-box">
-                    <strong>Empieza tu texto:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">A good email starts with...</span>
-                      <span class="predictive-suggestion">In the next paragraph, describe...</span>
-                      <span class="predictive-suggestion">Don't forget to add details about...</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="vocab-section">
-                <h4>Vocabulario objetivo ↔ lengua puente</h4>
-                <p>Palabras clave en inglés con sus equivalentes en español.</p>
-                <div class="vocab-grid">
-                  <div><strong>Hello</strong><span>Hola</span></div>
-                  <div><strong>Family</strong><span>Familia</span></div>
-                  <div><strong>Morning</strong><span>Mañana</span></div>
-                  <div><strong>Travel</strong><span>Viajar</span></div>
-                  <div><strong>Help</strong><span>Ayuda</span></div>
-                  <div><strong>Friend</strong><span>Amigo</span></div>
-                </div>
-              </div>
-
-              <div class="grammar-section">
-                <h4>Gramática por nivel</h4>
-                <p>Gramática del inglés organizada por nivel MCRL.</p>
-                <div class="grammar-grid">
-                  <div><strong>A1</strong><span>Present simple, artículos definidos/indefinidos, pronombres.</span></div>
-                  <div><strong>A2</strong><span>Past simple, present continuous, comparativos y adverbios de frecuencia.</span></div>
-                  <div><strong>B1</strong><span>Present perfect, modales de obligación y futuro con will.</span></div>
-                  <div><strong>B2</strong><span>Reported speech, conditional type 1/2 y phrasal verbs comunes.</span></div>
-                  <div><strong>C1</strong><span>Passive voice avanzada, subjunctive, expresiones idiomáticas.</span></div>
-                  <div><strong>C2</strong><span>Estilo formal, matices gramaticales y cohesión textual.</span></div>
-                </div>
-              </div>
-
-              <div class="reading-comprehension">
-                <h4>Textos por nivel MCRL</h4>
-                <div class="level-list">
-                  <div><strong>A1</strong><p>Lectura muy corta con vocabulario básico.</p></div>
-                  <div><strong>A2</strong><p>Texto sencillo con frases claras sobre acciones cotidianas.</p></div>
-                  <div><strong>B1</strong><p>Lectura más larga con ideas principales y detalles personales.</p></div>
-                  <div><strong>B2</strong><p>Texto descriptivo con argumentos y expresiones más complejas.</p></div>
-                  <div><strong>C1</strong><p>Lectura avanzada con matices, vocabulario idiomático y variedad de ideas.</p></div>
-                  <div><strong>C2</strong><p>Texto extenso y detallado que requiere comprensión profunda.</p></div>
-                </div>
-
-                <h5>Ejemplo de lectura A2</h5>
-                <p class="reading-text">Sara visits a small museum in her city every Saturday. She reads the labels and listens to the guide. She likes to write a short note about her favorite object and the time of the visit.</p>
-                <ol class="mcq-list">
-                  <li><strong>1.</strong> What does Sara do at the museum?<br>A) She cooks food.<br>B) She reads labels.<br>C) She buys books.<br>D) She plays music.</li>
-                  <li><strong>2.</strong> How often does she visit the museum?<br>A) Every day.<br>B) Every Saturday.<br>C) Once a year.<br>D) Never.</li>
-                  <li><strong>3.</strong> What does she write?<br>A) A shopping list.<br>B) A note about her favorite object.<br>C) A letter to a friend.<br>D) A recipe.</li>
-                  <li><strong>4.</strong> What does she listen to?<br>A) The radio.<br>B) The museum guide.<br>C) Music.<br>D) The weather report.</li>
-                  <li><strong>5.</strong> Which word best describes the text?<br>A) Difficult.<br>B) Scientific.<br>C) Simple.<br>D) Fictional.</li>
-                </ol>
-              </div>
-            </article>
+        <div class="skill-panel active" data-skill="listening">
+          <h4>Listening</h4>
+          <p>Comprensión auditiva con audios generados por IA y transcripciones interactivas.</p>
+          <div class="predictive-box">
+            <strong>OpenAI sugiere:</strong>
+            <div class="predictive-suggestions">
+              <span class="predictive-suggestion">Escucha y completa: Today, I would like to...</span>
+              <span class="predictive-suggestion">Identifica la frase clave en la conversación.</span>
+              <span class="predictive-suggestion">Responde a la pregunta con la palabra sugerida.</span>
+            </div>
           </div>
+        </div>
 
-          <div class="tab-panel" id="tab-espanol" hidden>
-            <article class="language-card">
-              <div class="language-overview">
-                <div>
-                  <span>🇪🇸 Español</span>
-                  <h3>Ruta completa de español: A1 a C2</h3>
-                  <p>Domina el español desde lo esencial hasta el nivel avanzado con ejercicios personalizados para cada habilidad y cada etapa.</p>
-                </div>
-              </div>
-
-              <div class="level-grid">
-                <div>
-                  <strong>A1</strong>
-                  <span>Vocabulario básico, presentaciones y frases simples</span>
-                  <span class="badge free">Free</span>
-                </div>
-                <div>
-                  <strong>A2</strong>
-                  <span>Conversaciones cortas y situaciones cotidianas</span>
-                  <span class="badge free">Free</span>
-                </div>
-                <div>
-                  <strong>B1</strong>
-                  <span>Interacción con confianza y comprensión de ideas principales</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>B2</strong>
-                  <span>Debate claro, detalles y argumentos sólidos</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>C1</strong>
-                  <span>Uso fluido, matices y estilo avanzado</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>C2</strong>
-                  <span>Dominio completo del idioma en contextos complejos</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-              </div>
-
-              <div class="access-summary">
-                <span class="badge free">Free</span>
-                <span class="badge advanced">Avanzado</span>
-                <p class="advanced-note">A1 y A2 son de inicio; B1 a C2 se activan segun tus metas y progreso.</p>
-              </div>
-
-              <div class="skill-tabs">
-                <div class="skill-tab-list">
-                  <button class="skill-tab-button active" data-skill="listening">Listening</button>
-                  <button class="skill-tab-button" data-skill="speaking">Speaking</button>
-                  <button class="skill-tab-button" data-skill="writing">Writing</button>
-                </div>
-
-                <div class="skill-panel active" data-skill="listening">
-                  <h4>Listening</h4>
-                  <p>Audios en español con pausas estratégicas y frases predictivas para completar.</p>
-                  <div class="predictive-box">
-                    <strong>Completa el audio:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Voy a la...</span>
-                      <span class="predictive-suggestion">Ella tiene que...</span>
-                      <span class="predictive-suggestion">Nos vemos en...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="speaking">
-                  <h4>Speaking</h4>
-                  <p>Práctica de diálogo con frases de inicio predictivas para mejorar tu respuesta oral.</p>
-                  <div class="predictive-box">
-                    <strong>Empieza tu frase:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Me gustaría aprender...</span>
-                      <span class="predictive-suggestion">¿Puedes ayudarme con...</span>
-                      <span class="predictive-suggestion">Estoy buscando un...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="writing">
-                  <h4>Writing</h4>
-                  <p>Estructuras de escritura con sugerencias de inicio para tus textos en español.</p>
-                  <div class="predictive-box">
-                    <strong>Inicia tu texto:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Estimado/a...</span>
-                      <span class="predictive-suggestion">En mi opinión...</span>
-                      <span class="predictive-suggestion">El fin de semana pasado...</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="vocab-section">
-                <h4>Vocabulario objetivo ↔ lengua puente</h4>
-                <p>Palabras clave en español con sus equivalentes en inglés.</p>
-                <div class="vocab-grid">
-                  <div><strong>Hola</strong><span>Hello</span></div>
-                  <div><strong>Familia</strong><span>Family</span></div>
-                  <div><strong>Mañana</strong><span>Morning</span></div>
-                  <div><strong>Viajar</strong><span>Travel</span></div>
-                  <div><strong>Amigo</strong><span>Friend</span></div>
-                  <div><strong>Gracias</strong><span>Thank you</span></div>
-                </div>
-              </div>
-
-              <div class="grammar-section">
-                <h4>Gramática por nivel</h4>
-                <p>Gramática del español organizada por nivel MCRL.</p>
-                <div class="grammar-grid">
-                  <div><strong>A1</strong><span>Presente, artículos, género, verbos regulares.</span></div>
-                  <div><strong>A2</strong><span>Géneros, plurales, pasado simple, expresiones de frecuencia.</span></div>
-                  <div><strong>B1</strong><span>Pronombres relativos, verbos reflexivos, pretérito e imperfecto.</span></div>
-                  <div><strong>B2</strong><span>Subjuntivo básico, condicionales y conectores complejos.</span></div>
-                  <div><strong>C1</strong><span>Subjuntivo avanzado, tiempos compuestos y voz pasiva.</span></div>
-                  <div><strong>C2</strong><span>Estilo formal, matices semánticos y cohesión discursiva.</span></div>
-                </div>
-              </div>
-
-              <div class="reading-comprehension">
-                <h4>Textos por nivel MCRL</h4>
-                <div class="level-list">
-                  <div><strong>A1</strong><p>Lectura muy corta con vocabulario básico.</p></div>
-                  <div><strong>A2</strong><p>Texto sencillo con frases claras sobre acciones cotidianas.</p></div>
-                  <div><strong>B1</strong><p>Lectura más larga con ideas principales y detalles personales.</p></div>
-                  <div><strong>B2</strong><p>Texto descriptivo con argumentos y expresiones más complejas.</p></div>
-                  <div><strong>C1</strong><p>Lectura avanzada con matices, vocabulario idiomático y variedad de ideas.</p></div>
-                  <div><strong>C2</strong><p>Texto extenso y detallado que requiere comprensión profunda.</p></div>
-                </div>
-
-                <h5>Ejemplo de lectura A2</h5>
-                <p class="reading-text">Alejandro visita un café con su amiga. Ellos piden café y una tarta. Hablan sobre sus planes para el fin de semana y se ríen con calma. Después, caminan por el parque cercano.</p>
-                <ol class="mcq-list">
-                  <li><strong>1.</strong> ¿Dónde están Alejandro y su amiga?<br>A) En una escuela.<br>B) En un café.<br>C) En un aeropuerto.<br>D) En una tienda.</li>
-                  <li><strong>2.</strong> ¿Qué piden?<br>A) Agua y pan.<br>B) Té y sopa.<br>C) Café y tarta.<br>D) Jugo y ensalada.</li>
-                  <li><strong>3.</strong> ¿De qué hablan?<br>A) De un examen.<br>B) De sus planes.<br>C) Del clima.<br>D) De una película.</li>
-                  <li><strong>4.</strong> ¿Cómo está su charla?<br>A) tensa.<br>B) triste.<br>C) calmada.<br>D) rápida.</li>
-                  <li><strong>5.</strong> ¿Qué hacen después?<br>A) Van a la escuela.<br>B) Compran ropa.<br>C) Caminan por el parque.<br>D) Se van a casa.</li>
-                </ol>
-              </div>
-            </article>
+        <div class="skill-panel" data-skill="speaking">
+          <h4>Speaking</h4>
+          <p>Práctica de conversación con feedback inmediato y frases sugeridas para continuar.</p>
+          <div class="predictive-box">
+            <strong>OpenAI propone:</strong>
+            <div class="predictive-suggestions">
+              <span class="predictive-suggestion">Can you tell me more about...</span>
+              <span class="predictive-suggestion">My favorite place is...</span>
+              <span class="predictive-suggestion">I usually like to...</span>
+            </div>
           </div>
+        </div>
 
-          <div class="tab-panel" id="tab-frances" hidden>
-            <article class="language-card">
-              <div class="language-overview">
-                <div>
-                  <span>🇫🇷 Français</span>
-                  <h3>Ruta completa de francés: A1 a C2</h3>
-                  <p>Aprende francés desde lo básico hasta el dominio avanzado, con ejercicios personalizados para hispanohablantes en todas las habilidades.</p>
-                </div>
-              </div>
-
-              <div class="level-grid">
-                <div>
-                  <strong>A1</strong>
-                  <span>Frases clave y vocabulario elemental</span>
-                  <span class="badge free">Free</span>
-                </div>
-                <div>
-                  <strong>A2</strong>
-                  <span>Comunicación simple y situaciones cotidianas</span>
-                  <span class="badge free">Free</span>
-                </div>
-                <div>
-                  <strong>B1</strong>
-                  <span>Conversaciones con mayor confianza</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>B2</strong>
-                  <span>Opiniones claras y comprensión detallada</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>C1</strong>
-                  <span>Idiomas fluidos y matices culturales</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>C2</strong>
-                  <span>Dominio casi nativo y precisión total</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-              </div>
-
-              <div class="access-summary">
-                <span class="badge free">Free</span>
-                <span class="badge advanced">Avanzado</span>
-                <p class="advanced-note">A1 y A2 son de inicio; B1 a C2 se activan segun tus metas y progreso.</p>
-              </div>
-
-              <div class="skill-tabs">
-                <div class="skill-tab-list">
-                  <button class="skill-tab-button active" data-skill="listening">Listening</button>
-                  <button class="skill-tab-button" data-skill="speaking">Speaking</button>
-                  <button class="skill-tab-button" data-skill="writing">Writing</button>
-                </div>
-
-                <div class="skill-panel active" data-skill="listening">
-                  <h4>Listening</h4>
-                  <p>Audios en francés con espacios para completar las frases del diálogo.</p>
-                  <div class="predictive-box">
-                    <strong>Complète l'audio :</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Je vais au...</span>
-                      <span class="predictive-suggestion">Elle aime...</span>
-                      <span class="predictive-suggestion">Nous parlons de...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="speaking">
-                  <h4>Speaking</h4>
-                  <p>Frases habladas con terminaciones sugeridas para tus respuestas en francés.</p>
-                  <div class="predictive-box">
-                    <strong>Commence ta phrase :</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Je voudrais...</span>
-                      <span class="predictive-suggestion">Pouvez-vous...</span>
-                      <span class="predictive-suggestion">Je suis en train...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="writing">
-                  <h4>Writing</h4>
-                  <p>Arranques de texto predictivos para redactar correos y mensajes en francés.</p>
-                  <div class="predictive-box">
-                    <strong>Écris avec :</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Cher/Chère...</span>
-                      <span class="predictive-suggestion">À mon avis...</span>
-                      <span class="predictive-suggestion">Le weekend dernier...</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="vocab-section">
-                <h4>Vocabulario objetivo ↔ lengua puente</h4>
-                <p>Palabras clave en francés con sus equivalentes en español.</p>
-                <div class="vocab-grid">
-                  <div><strong>Bonjour</strong><span>Hola</span></div>
-                  <div><strong>Maison</strong><span>Casa</span></div>
-                  <div><strong>Famille</strong><span>Familia</span></div>
-                  <div><strong>Voyage</strong><span>Viaje</span></div>
-                  <div><strong>Ami</strong><span>Amigo</span></div>
-                  <div><strong>Merci</strong><span>Gracias</span></div>
-                </div>
-              </div>
-
-              <div class="grammar-section">
-                <h4>Gramática por nivel</h4>
-                <p>Gramática del francés organizada por nivel MCRL.</p>
-                <div class="grammar-grid">
-                  <div><strong>A1</strong><span>Présent, artículos definidos/indefinidos, género y plurales.</span></div>
-                  <div><strong>A2</strong><span>Negación, adjetivos, passé composé básico, pronombres sujetos.</span></div>
-                  <div><strong>B1</strong><span>Imparfait, futuros simples, pronombres objeto y adverbios.</span></div>
-                  <div><strong>B2</strong><span>Subjuntivo, voz pasiva, oraciones condicionales y estilo indirecto.</span></div>
-                  <div><strong>C1</strong><span>Matices temporales, subjuntivo avanzado y estructuras pasivas.</span></div>
-                  <div><strong>C2</strong><span>Registro formal, locuciones, cohesion textual y estilo literario.</span></div>
-                </div>
-              </div>
-
-              <div class="reading-comprehension">
-                <h4>Textos por nivel MCRL</h4>
-                <div class="level-list">
-                  <div><strong>A1</strong><p>Lectura muy corta con vocabulario básico.</p></div>
-                  <div><strong>A2</strong><p>Texto sencillo con frases claras sobre acciones cotidianas.</p></div>
-                  <div><strong>B1</strong><p>Lectura más larga con ideas principales y detalles personales.</p></div>
-                  <div><strong>B2</strong><p>Texto descriptivo con argumentos y expresiones más complejas.</p></div>
-                  <div><strong>C1</strong><p>Lectura avanzada con matices, vocabulario idiomático y variedad de ideas.</p></div>
-                  <div><strong>C2</strong><p>Texto extenso y detallado que requiere comprensión profunda.</p></div>
-                </div>
-
-                <h5>Ejemplo de lectura A2</h5>
-                <p class="reading-text">Camille prépare un dîner simple. Elle achète du pain, du fromage et des légumes. Après le repas, ses amis regardent un film court.</p>
-                <ol class="mcq-list">
-                  <li><strong>1.</strong> ¿Qué prepara Camille?<br>A) Una fiesta.<br>B) Una cena simple.<br>C) Un viaje.<br>D) Una boda.</li>
-                  <li><strong>2.</strong> ¿Qué compra?<br>A) Ropa.<br>B) Pan y queso.<br>C) Libros.<br>D) Juguetes.</li>
-                  <li><strong>3.</strong> ¿Qué hacen sus amigos después de comer?<br>A) Bailan.<br>B) Ven una película corta.<br>C) Duermen.<br>D) Cocinan.</li>
-                </ol>
-              </div>
-            </article>
+        <div class="skill-panel" data-skill="writing">
+          <h4>Writing</h4>
+          <p>Redacción con arranques de frase y correcciones de estilo directo desde la plataforma OpenAI.</p>
+          <div class="predictive-box">
+            <strong>OpenAI recomienda:</strong>
+            <div class="predictive-suggestions">
+              <span class="predictive-suggestion">Start your paragraph with...</span>
+              <span class="predictive-suggestion">Use this expression to explain...</span>
+              <span class="predictive-suggestion">Complete the sentence with a stronger verb.</span>
+            </div>
           </div>
+        </div>
+      </div>
 
-          <div class="tab-panel" id="tab-italiano" hidden>
-            <article class="language-card">
-              <div class="language-overview">
-                <div>
-                  <span>🇮🇹 Italiano</span>
-                  <h3>Ruta completa de italiano: A1 a C2</h3>
-                  <p>Domina el italiano con una ruta guiada y práctica en listening, speaking, reading y writing desde lo básico hasta el nivel avanzado.</p>
-                </div>
-              </div>
+      <div class="tutor-action is-open">
+        <div class="tutor-conversation" id="tutorConversation" role="log" aria-live="polite" aria-label="Conversación con el tutor IA">
+          <p class="tutor-welcome">👋 Soy Tutor AI. Pregúntame lo que quieras sobre esta habilidad, nivel o lección, y te ayudo con correcciones, ejemplos y práctica.</p>
+        </div>
+        <p class="tutor-thinking" id="tutorThinking" hidden aria-hidden="true">Tutor AI está pensando…</p>
 
-              <div class="level-grid">
-                <div>
-                  <strong>A1</strong>
-                  <span>Saludos, presentaciones y frases básicas</span>
-                  <span class="badge free">Free</span>
-                </div>
-                <div>
-                  <strong>A2</strong>
-                  <span>Diálogos simples y situaciones cotidianas</span>
-                  <span class="badge free">Free</span>
-                </div>
-                <div>
-                  <strong>B1</strong>
-                  <span>Conversaciones con mayor fluidez y comprensión</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>B2</strong>
-                  <span>Discusión clara, argumentos y expresiones más complejas</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>C1</strong>
-                  <span>Uso fluido, vocabulario preciso y matices culturales</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>C2</strong>
-                  <span>Dominio completo y comunicación natural en contextos avanzados</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-              </div>
-
-              <div class="access-summary">
-                <span class="badge free">Free</span>
-                <span class="badge advanced">Avanzado</span>
-                <p class="advanced-note">A1 y A2 son de inicio; B1 a C2 se activan segun tus metas y progreso.</p>
-              </div>
-
-              <div class="skill-tabs">
-                <div class="skill-tab-list">
-                  <button class="skill-tab-button active" data-skill="listening">Listening</button>
-                  <button class="skill-tab-button" data-skill="speaking">Speaking</button>
-                  <button class="skill-tab-button" data-skill="writing">Writing</button>
-                </div>
-
-                <div class="skill-panel active" data-skill="listening">
-                  <h4>Listening</h4>
-                  <p>Audios italianos con fragmentos para completar y mejorar tu comprensión al oído.</p>
-                  <div class="predictive-box">
-                    <strong>Completa l'audio:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Vado al...</span>
-                      <span class="predictive-suggestion">Lui vuole...</span>
-                      <span class="predictive-suggestion">Ci incontriamo...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="speaking">
-                  <h4>Speaking</h4>
-                  <p>Frases de inicio predictivas para tus respuestas orales en italiano.</p>
-                  <div class="predictive-box">
-                    <strong>Inizia la frase:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Vorrei parlare...</span>
-                      <span class="predictive-suggestion">Puoi aiutarmi...</span>
-                      <span class="predictive-suggestion">Sto cercando...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="writing">
-                  <h4>Writing</h4>
-                  <p>Inicios de párrafos y frases sugeridas para redactar en italiano.</p>
-                  <div class="predictive-box">
-                    <strong>Scrivi con:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Gentile...</span>
-                      <span class="predictive-suggestion">Secondo me...</span>
-                      <span class="predictive-suggestion">Lo scorso weekend...</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="vocab-section">
-                <h4>Vocabulario objetivo ↔ lengua puente</h4>
-                <p>Palabras clave en italiano con sus equivalentes en español.</p>
-                <div class="vocab-grid">
-                  <div><strong>Ciao</strong><span>Hola</span></div>
-                  <div><strong>Casa</strong><span>Casa</span></div>
-                  <div><strong>Famiglia</strong><span>Familia</span></div>
-                  <div><strong>Viaggio</strong><span>Viaje</span></div>
-                  <div><strong>Amico</strong><span>Amigo</span></div>
-                  <div><strong>Grazie</strong><span>Gracias</span></div>
-                </div>
-              </div>
-
-              <div class="grammar-section">
-                <h4>Gramática por nivel</h4>
-                <p>Gramática del italiano organizada por nivel MCRL.</p>
-                <div class="grammar-grid">
-                  <div><strong>A1</strong><span>Presente, artículos, género y verbos regulares.</span></div>
-                  <div><strong>A2</strong><span>Mixture de presente y pasado simple, adjetivos y preposiciones.</span></div>
-                  <div><strong>B1</strong><span>Passato prossimo, imperfetto, pronombres directos e indirectos.</span></div>
-                  <div><strong>B2</strong><span>Congiuntivo, condizionale, estructura pasiva y oraciones subordinadas.</span></div>
-                  <div><strong>C1</strong><span>Uso avanzado de tiempos, estilo formal y expresiones idiomáticas.</span></div>
-                  <div><strong>C2</strong><span>Dominio de matices, coherencia textual y variaciones estilísticas.</span></div>
-                </div>
-              </div>
-
-              <div class="reading-comprehension">
-                <h4>Textos por nivel MCRL</h4>
-                <div class="level-list">
-                  <div><strong>A1</strong><p>Lectura muy corta con vocabulario básico.</p></div>
-                  <div><strong>A2</strong><p>Texto sencillo con frases claras sobre acciones cotidianas.</p></div>
-                  <div><strong>B1</strong><p>Lectura más larga con ideas principales y detalles personales.</p></div>
-                  <div><strong>B2</strong><p>Texto descriptivo con argumentos y expresiones más complejas.</p></div>
-                  <div><strong>C1</strong><p>Lectura avanzada con matices, vocabulario idiomático y variedad de ideas.</p></div>
-                  <div><strong>C2</strong><p>Texto extenso y detallado que requiere comprensión profunda.</p></div>
-                </div>
-
-                <h5>Ejemplo de lectura A2</h5>
-                <p class="reading-text">Marta e Luca preparano una cena semplice. Comprano pane e verdure fresche. Parlano del loro lavoro e ridono insieme. Dopo la cena, leggono un libro sul divano.</p>
-                <ol class="mcq-list">
-                  <li><strong>1.</strong> ¿Qué preparan Marta y Luca?<br>A) Una fiesta.<br>B) Una cena simple.<br>C) Un viaje.<br>D) Una boda.</li>
-                  <li><strong>2.</strong> ¿Qué compran?<br>A) Ropa.<br>B) Verdure e pane.<br>C) Libros.<br>D) Juguetes.</li>
-                  <li><strong>3.</strong> ¿De qué hablan?<br>A) Del tiempo.<br>B) De su trabajo.<br>C) De la música.<br>D) Del deporte.</li>
-                  <li><strong>4.</strong> ¿Qué hacen después de cenar?<br>A) Van a dormir.<br>B) Juegan fútbol.<br>C) Leen un libro.<br>D) Cantan una canción.</li>
-                  <li><strong>5.</strong> ¿Cómo es la cena?<br>A) Simple.<br>B) Cara.<br>C) Muy grande.<br>D) Rápida.</li>
-                </ol>
-              </div>
-            </article>
-          </div>
-
-          <div class="tab-panel" id="tab-deutsch" hidden>
-            <article class="language-card">
-              <div class="language-overview">
-                <div>
-                  <span>🇩🇪 Deutsch</span>
-                  <h3>Ruta completa de alemán: A1 a C2</h3>
-                  <p>Aprende alemán con una ruta estructurada para hispanohablantes, desde fundamentos hasta fluidez avanzada en las cuatro habilidades.</p>
-                </div>
-              </div>
-
-              <div class="level-grid">
-                <div>
-                  <strong>A1</strong>
-                  <span>Frases básicas, vocabulario esencial y presentaciones.</span>
-                  <span class="badge free">Free</span>
-                </div>
-                <div>
-                  <strong>A2</strong>
-                  <span>Interacciones cotidianas y comprensión de instrucciones simples.</span>
-                  <span class="badge free">Free</span>
-                </div>
-                <div>
-                  <strong>B1</strong>
-                  <span>Conversaciones con confianza y comprensión de ideas principales.</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>B2</strong>
-                  <span>Discusión clara, lectura detallada y expresión más compleja.</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>C1</strong>
-                  <span>Uso fluido, vocabulario amplio y matices idiomáticos.</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-                <div>
-                  <strong>C2</strong>
-                  <span>Dominio completo y comunicación precisa en contextos académicos y profesionales.</span>
-                  <span class="badge advanced">Avanzado</span>
-                </div>
-              </div>
-
-              <div class="access-summary">
-                <span class="badge free">Free</span>
-                <span class="badge advanced">Avanzado</span>
-                <p class="advanced-note">A1 y A2 son de inicio; B1 a C2 se activan segun tus metas y progreso.</p>
-              </div>
-
-              <div class="skill-tabs">
-                <div class="skill-tab-list">
-                  <button class="skill-tab-button active" data-skill="listening">Listening</button>
-                  <button class="skill-tab-button" data-skill="speaking">Speaking</button>
-                  <button class="skill-tab-button" data-skill="writing">Writing</button>
-                </div>
-
-                <div class="skill-panel active" data-skill="listening">
-                  <h4>Listening</h4>
-                  <p>Audios en alemán con transcripciones parciales y frases predictivas para completar.</p>
-                  <div class="predictive-box">
-                    <strong>Vervollständige das Audio:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Ich gehe zum...</span>
-                      <span class="predictive-suggestion">Er möchte...</span>
-                      <span class="predictive-suggestion">Wir treffen uns...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="speaking">
-                  <h4>Speaking</h4>
-                  <p>Frases orales con finales predichas para tus respuestas en alemán.</p>
-                  <div class="predictive-box">
-                    <strong>Beginne den Satz:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Ich möchte...</span>
-                      <span class="predictive-suggestion">Können Sie mir...</span>
-                      <span class="predictive-suggestion">Ich suche...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="writing">
-                  <h4>Writing</h4>
-                  <p>Inicios de texto sugeridos para escribir en alemán con confianza.</p>
-                  <div class="predictive-box">
-                    <strong>Schreibe mit:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Sehr geehrte/r...</span>
-                      <span class="predictive-suggestion">Meiner Meinung nach...</span>
-                      <span class="predictive-suggestion">Letztes Wochenende...</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="vocab-section">
-                <h4>Vocabulario objetivo ↔ lengua puente</h4>
-                <p>Palabras clave en alemán con sus equivalentes en español.</p>
-                <div class="vocab-grid">
-                  <div><strong>Hallo</strong><span>Hola</span></div>
-                  <div><strong>Familie</strong><span>Familia</span></div>
-                  <div><strong>Guten Morgen</strong><span>Buenos días</span></div>
-                  <div><strong>Reise</strong><span>Viaje</span></div>
-                  <div><strong>Freund</strong><span>Amigo</span></div>
-                  <div><strong>Danke</strong><span>Gracias</span></div>
-                </div>
-              </div>
-
-              <div class="reading-comprehension">
-                <h4>Textos por nivel MCRL</h4>
-                <div class="level-list">
-                  <div><strong>A1</strong><p>Lectura muy corta con vocabulario básico.</p></div>
-                  <div><strong>A2</strong><p>Texto sencillo con frases claras sobre acciones cotidianas.</p></div>
-                  <div><strong>B1</strong><p>Lectura más larga con ideas principales y detalles personales.</p></div>
-                  <div><strong>B2</strong><p>Texto descriptivo con argumentos y expresiones más complejas.</p></div>
-                  <div><strong>C1</strong><p>Lectura avanzada con matices, vocabulario idiomático y variedad de ideas.</p></div>
-                  <div><strong>C2</strong><p>Texto extenso y detallado que requiere comprensión profunda.</p></div>
-                </div>
-
-                <h5>Ejemplo de lectura A2</h5>
-                <p class="reading-text">Tom geht jeden Morgen in den Park. Er sieht die Bäume, hört die Vögel und trinkt einen Kaffee. Er schreibt in sein Notizbuch, was er heute sehen möchte.</p>
-                <ol class="mcq-list">
-                  <li><strong>1.</strong> ¿Dónde va Tom cada mañana?<br>A) A la escuela.<br>B) Al parque.<br>C) A la oficina.<br>D) A la tienda.</li>
-                  <li><strong>2.</strong> ¿Qué escucha?<br>A) La televisión.<br>B) Los pájaros.<br>C) El radio.<br>D) La música.</li>
-                  <li><strong>3.</strong> ¿Qué bebe?<br>A) Té.<br>B) Leche.<br>C) Café.<br>D) Agua.</li>
-                  <li><strong>4.</strong> ¿Qué hace con su cuaderno?<br>A) Lo vende.<br>B) Lo tira.<br>C) Escribe deseos.<br>D) Lo pierde.</li>
-                  <li><strong>5.</strong> ¿Cuál palabra describe mejor el texto?<br>A) Largo.<br>B) Rápido.<br>C) Sencillo.<br>D) Confuso.</li>
-                </ol>
-              </div>
-            </article>
-          </div>
-
-          <div class="tab-panel" id="tab-ai-tutor" hidden>
-            <article class="language-card">
-              <div class="language-overview">
-                <div>
-                  <span>🤖 A.I. Tutor</span>
-                  <h3>Tutor especializado en aprendizaje de idiomas</h3>
-                  <p>Interactúa con un tutor conversacional experto que usa la plataforma OpenAI para personalizar tus explicaciones, correcciones y práctica en tiempo real.</p>
-                </div>
-              </div>
-
-              <div class="level-grid">
-                <div>
-                  <strong>A1</strong>
-                  <span>Introducción guiada con frases útiles y correcciones inmediatas.</span>
-                </div>
-                <div>
-                  <strong>A2</strong>
-                  <span>Práctica guiada con ejemplos y conversaciones adaptadas a tu ritmo.</span>
-                </div>
-                <div>
-                  <strong>B1</strong>
-                  <span>Respuestas personalizadas, ejercicios de fluidez y feedback en voz.</span>
-                </div>
-                <div>
-                  <strong>B2</strong>
-                  <span>Simulaciones reales, corrección de estilo y preguntas abiertas en contexto.</span>
-                </div>
-                <div>
-                  <strong>C1</strong>
-                  <span>Entrenamiento avanzado con matices, estilo y expresiones idiomáticas.</span>
-                </div>
-                <div>
-                  <strong>C2</strong>
-                  <span>Asesoría experta, redacción avanzada y práctica de discurso casi nativo.</span>
-                </div>
-              </div>
-
-              <div class="skill-tabs">
-                <div class="skill-tab-list">
-                  <button class="skill-tab-button active" data-skill="listening">Listening</button>
-                  <button class="skill-tab-button" data-skill="speaking">Speaking</button>
-                  <button class="skill-tab-button" data-skill="writing">Writing</button>
-                </div>
-
-                <div class="skill-panel active" data-skill="listening">
-                  <h4>Listening</h4>
-                  <p>Comprensión auditiva con audios generados por IA y transcripciones interactivas.</p>
-                  <div class="predictive-box">
-                    <strong>OpenAI sugiere:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Escucha y completa: Today, I would like to...</span>
-                      <span class="predictive-suggestion">Identifica la frase clave en la conversación.</span>
-                      <span class="predictive-suggestion">Responde a la pregunta con la palabra sugerida.</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="speaking">
-                  <h4>Speaking</h4>
-                  <p>Práctica de conversación con feedback inmediato y frases sugeridas para continuar.</p>
-                  <div class="predictive-box">
-                    <strong>OpenAI propone:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Can you tell me more about...</span>
-                      <span class="predictive-suggestion">My favorite place is...</span>
-                      <span class="predictive-suggestion">I usually like to...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skill-panel" data-skill="writing">
-                  <h4>Writing</h4>
-                  <p>Redacción con arranques de frase y correcciones de estilo directo desde la plataforma OpenAI.</p>
-                  <div class="predictive-box">
-                    <strong>OpenAI recomienda:</strong>
-                    <div class="predictive-suggestions">
-                      <span class="predictive-suggestion">Start your paragraph with...</span>
-                      <span class="predictive-suggestion">Use this expression to explain...</span>
-                      <span class="predictive-suggestion">Complete the sentence with a stronger verb.</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tutor-action">
-                <div class="tutor-context" aria-live="polite">
-                  <span class="tutor-context-pill">Idioma: <strong data-ai-context="language">English</strong></span>
-                  <span class="tutor-context-pill">Nivel: <strong data-ai-context="level">A1</strong></span>
-                  <span class="tutor-context-pill">Lección: <strong data-ai-context="lesson">Ruta inicial</strong></span>
-                </div>
-
-                <div class="tutor-conversation" id="tutorConversation" role="log" aria-live="polite" aria-label="Conversación con el tutor IA">
-                  <p class="tutor-welcome">👋 Soy Tutor AI. Pregúntame lo que quieras sobre esta habilidad, nivel o lección, y te ayudo con correcciones, ejemplos y práctica.</p>
-                </div>
-                <p class="tutor-thinking" id="tutorThinking" hidden aria-hidden="true">Tutor AI está pensando…</p>
-
-                <label class="tutor-input-group" for="aiTutorPrompt">
-                  <span>Escribe qué quieres practicar</span>
-                  <textarea id="aiTutorPrompt" class="tutor-input" rows="4" placeholder="Ej.: Corrige este texto y dame una mini práctica para seguir." aria-describedby="tutorHelperText"></textarea>
-                </label>
-                <p class="tutor-helper" id="tutorHelperText">Puedes tocar una sugerencia y luego personalizarla antes de enviar. Presiona Enter para enviar, Shift+Enter para salto de línea.</p>
-                <div class="tutor-buttons">
-                  <button class="primary-btn tutor-chat-btn" type="button">Hablar con el tutor</button>
-                  <button class="tutor-clear-btn" type="button" aria-label="Limpiar conversación con el tutor">Limpiar conversación</button>
-                </div>
-              </div>
-
-              <div class="vocab-section">
-                <h4>Modalidad AI</h4>
-                <p>Tu tutor AI ajusta vocabulario, gramática y ejercicios según tu nivel, incluso en sesiones personalizadas.</p>
-                <div class="vocab-grid">
-                  <div><strong>Prompt</strong><span>Solicitud de práctica</span></div>
-                  <div><strong>Feedback</strong><span>Corrección inteligente</span></div>
-                  <div><strong>Context</strong><span>Ejemplos adaptados</span></div>
-                  <div><strong>Repeat</strong><span>Práctica repetida</span></div>
-                  <div><strong>Improve</strong><span>Mejora progresiva</span></div>
-                  <div><strong>OpenAI</strong><span>Plataforma integrada</span></div>
-                </div>
-              </div>
-            </article>
-          </div>
+        <label class="tutor-input-group" for="aiTutorPrompt">
+          <span>Escribe qué quieres practicar</span>
+          <textarea id="aiTutorPrompt" class="tutor-input" rows="4" placeholder="Ej.: Corrige este texto y dame una mini práctica para seguir." aria-describedby="tutorHelperText"></textarea>
+        </label>
+        <p class="tutor-helper" id="tutorHelperText">Puedes tocar una sugerencia y luego personalizarla antes de enviar. Presiona Enter para enviar, Shift+Enter para salto de línea.</p>
+        <div class="tutor-buttons">
+          <button class="primary-btn tutor-chat-btn" type="button">Hablar con el tutor</button>
+          <button class="tutor-clear-btn" type="button" aria-label="Limpiar conversación con el tutor">Limpiar conversación</button>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="section dark compact-hidden-section">
-      <div class="section-heading">
-        <span>Aprendizaje completo</span>
-        <h2>Todo lo que necesitas para avanzar con seguridad.</h2>
-      </div>
 
-      <div class="features-grid">
-        <article class="skill-competency-card" data-skill="listening" role="button" tabindex="0">
-          <div class="icon">🎧</div>
-          <h3>Listening</h3>
-          <p>Audios reales, dictados, comprensión auditiva y práctica por nivel.</p>
-        </article>
-        <article class="skill-competency-card" data-skill="speaking" role="button" tabindex="0">
-          <div class="icon">🎙</div>
-          <h3>Speaking</h3>
-          <p>Práctica oral con IA, pronunciación, diálogos y simulaciones.</p>
-        </article>
-        <article class="skill-competency-card" data-skill="reading" role="button" tabindex="0">
-          <div class="icon">📖</div>
-          <h3>Reading</h3>
-          <p>Textos graduados, historias, noticias y comprensión lectora.</p>
-        </article>
-        <article class="skill-competency-card" data-skill="writing" role="button" tabindex="0">
-          <div class="icon">✍️</div>
-          <h3>Writing</h3>
-          <p>Escritura guiada, correcciones inteligentes y ejercicios prácticos.</p>
-        </article>
-        <article class="skill-competency-card" data-skill="grammar" role="button" tabindex="0">
-          <div class="icon">📚</div>
-          <h3>Grammar</h3>
-          <p>Gramática explicada desde tu idioma nativo con ejemplos claros.</p>
-        </article>
-        <article class="skill-competency-card" data-skill="vocabulary" role="button" tabindex="0">
-          <div class="icon">🧠</div>
-          <h3>Vocabulary</h3>
-          <p>Vocabulario contextual, frases útiles, flashcards y repetición inteligente.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="goals" class="section goals-section">
+    <section id="goals" class="section goals-section compact-hidden-section">
       <div class="section-heading">
-        <span>Metas</span>
+        <span>Objetivos</span>
         <h2>Define tu objetivo y sigue una ruta personalizada.</h2>
-        <p>Elige una meta semanal para que ANDERGO ajuste tu progreso y la siguiente lección recomendada.</p>
+        <p>Elige un objetivo para que ANDERGO ajuste tu progreso y la siguiente lección recomendada.</p>
       </div>
 
-      <div class="goals-layout">
-        <article class="goal-card active" data-goal="daily">
+      <div class="goals-layout" id="goalsQuickStart">
+        <article class="goal-card" data-goal="daily">
           <span>Constancia</span>
           <h3>Practicar 15 min al día</h3>
           <p>Ideal para avanzar sin presión y mantener una racha estable.</p>
-          <button type="button" class="goal-select">Elegir meta</button>
+          <button type="button" class="goal-select">Elegir objetivo</button>
         </article>
 
         <article class="goal-card" data-goal="conversation">
           <span>Fluidez</span>
           <h3>Completar 3 conversaciones</h3>
           <p>Enfocada en speaking, listening y respuestas reales por semana.</p>
-          <button type="button" class="goal-select">Elegir meta</button>
+          <button type="button" class="goal-select">Elegir objetivo</button>
         </article>
 
         <article class="goal-card" data-goal="exam">
           <span>Intensivo</span>
           <h3>Preparar una evaluación</h3>
           <p>Organiza gramática, lectura y escritura con objetivos medibles.</p>
-          <button type="button" class="goal-select">Elegir meta</button>
+          <button type="button" class="goal-select">Elegir objetivo</button>
         </article>
       </div>
 
       <div class="goal-panel">
-        <h3>Tu meta actual</h3>
-        <p id="activeGoalText">Practicar 15 min al día</p>
-        <div class="goal-progress-bar">
-          <div class="goal-progress-meter" style="width: 0%;"></div>
+        <h3>Tu objetivo actual</h3>
+        <div id="goalsCrudBody">
+          <p class="skill-graph-empty">Inicia sesión para crear y guardar tu objetivo.</p>
         </div>
-        <small id="goalOwnerText">Inicia sesion para guardar esta meta en tu perfil.</small>
       </div>
     </section>
 
 
-    <section id="pricing" class="section pricing-section">
+    <section id="premium" class="section pricing-section compact-hidden-section">
       <div class="section-heading">
         <span>Precio simple</span>
         <h2>Un solo precio para desbloquear ANDERGO Premium.</h2>
-        <p>Sin planes confusos: prueba gratis y desbloquea la ruta completa cuando estes listo.</p>
+        <p>Sin planes confusos: prueba gratis y desbloquea la ruta completa cuando estés listo.</p>
       </div>
 
       <div class="pricing-layout">
@@ -1288,7 +471,7 @@
             <li>1 lección gratis en C2.</li>
             <li>Vocabulario, diálogo, lectura y mini ejercicios.</li>
           </ul>
-          <a href="#languages" class="secondary-btn" data-home-action="start-free">Probar gratis</a>
+          <a href="#learn" class="secondary-btn" data-home-action="start-free">Probar gratis</a>
         </article>
 
         <article class="plan premium-plan">
@@ -1301,53 +484,8 @@
             <li>Practica gamificada con XP, racha y misiones.</li>
             <li>Ideal para avanzar sin limitarte a las lecciones gratis.</li>
           </ul>
-          <a href="#pricing" class="primary-btn" data-home-action="upgrade">Desbloquear por USD 5.95</a>
+          <a href="#premium" class="primary-btn" data-home-action="upgrade">Desbloquear por USD 5.95</a>
         </article>
-      </div>
-    </section>
-
-    <section id="downloads" class="section downloads compact-hidden-section">
-      <div class="download-box">
-        <div>
-          <span>Recursos</span>
-          <h2>Descarga guías, audios y prácticas.</h2>
-          <p>Los usuarios registrados tendrán acceso a materiales descargables para estudiar online y offline.</p>
-        </div>
-        <a href="#goals" class="primary-btn" data-home-action="goals">Organizar mis recursos</a>
-      </div>
-    </section>
-
-    <section id="app" class="section app-section compact-hidden-section">
-      <div class="section-heading">
-        <span>Próximamente</span>
-        <h2>Practica desde tu celular</h2>
-        <p>Una experiencia móvil pensada para practicar en cualquier momento, con recordatorios, seguimiento de progreso y sesiones guiadas.</p>
-      </div>
-
-      <div class="app-preview">
-        <div class="app-phone">
-          <div class="phone-notch"></div>
-          <div class="phone-screen">
-            <div class="screen-pill">Daily streak</div>
-            <h3>12 días</h3>
-            <p>Tu próxima práctica en 15 min</p>
-            <ul>
-              <li>Lección guiada</li>
-              <li>Corrección instantánea</li>
-              <li>Recordatorios inteligentes</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="app-copy">
-          <h3>Práctica móvil, seguimiento claro y experiencia continua.</h3>
-          <p>La app conectará tu avance web con un entorno pensado para estudiar en movimiento, mantener constancia y avanzar con menos fricción.</p>
-          <div class="feature-list">
-            <div><strong>📅</strong><span>Plan de estudio diario</span></div>
-            <div><strong>🤖</strong><span>Recomendaciones personalizadas</span></div>
-            <div><strong>📈</strong><span>Sincronización con tu progreso</span></div>
-          </div>
-        </div>
       </div>
     </section>
     </main>

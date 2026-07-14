@@ -1,5 +1,3 @@
-const tabButtons = document.querySelectorAll('.tab-button');
-const tabPanels = document.querySelectorAll('.tab-panel');
 const nativeLanguageSelect = document.getElementById('nativeLanguage');
 let currentTargetLanguage = 'english';
 let currentNativeLanguage = 'es';
@@ -17,39 +15,6 @@ const bridgeNameToCode = { spanish: 'es', english: 'en', french: 'fr', italian: 
 
 
 const premiumPriceUsd = '5.95';
-const freeLessonPolicy = {
-  defaultFreeLessons: 3,
-  advancedFreeLessons: 1,
-  advancedLevels: new Set(['C1', 'C2'])
-};
-
-function getFreeLessonCountForLevel(level = 'A1') {
-  return freeLessonPolicy.advancedLevels.has(level) ? freeLessonPolicy.advancedFreeLessons : freeLessonPolicy.defaultFreeLessons;
-}
-
-function getLevelAccessText(level = 'A1') {
-  const freeCount = getFreeLessonCountForLevel(level);
-  return freeCount === 1 ? '1 lección gratis' : `${freeCount} lecciones gratis`;
-}
-
-function applyAccessBadges() {
-  document.querySelectorAll('.language-card .level-card').forEach(card => {
-    const level = card.dataset.level || card.querySelector('strong')?.textContent.trim() || 'A1';
-    const badge = card.querySelector('.badge') || document.createElement('span');
-    badge.className = `badge ${freeLessonPolicy.advancedLevels.has(level) ? 'limited' : 'free'}`;
-    badge.textContent = getLevelAccessText(level);
-    if (!badge.parentElement) card.appendChild(badge);
-  });
-
-  document.querySelectorAll('.access-summary').forEach(summary => {
-    summary.innerHTML = `
-      <span class="badge free">3 gratis por nivel</span>
-      <span class="badge limited">C1/C2: 1 gratis</span>
-      <span class="badge premium">Premium USD ${premiumPriceUsd}</span>
-      <p class="advanced-note">Prueba lecciones gratis en cada nivel. Para desbloquear toda la ruta, usa el único plan premium de USD ${premiumPriceUsd}.</p>
-    `;
-  });
-}
 
 const targetLanguageMap = {
   english: 'english',
@@ -60,64 +25,6 @@ const targetLanguageMap = {
   'ai-tutor': 'ai'
 };
 
-function activateLanguageTab(targetId, options = {}) {
-  const button = Array.from(tabButtons).find(btn => btn.dataset.target === targetId);
-  if (!button) return;
-
-  tabButtons.forEach(btn => btn.classList.toggle('active', btn === button));
-  tabPanels.forEach(panel => {
-    const isTarget = panel.id === `tab-${targetId}`;
-    panel.hidden = !isTarget;
-    panel.classList.toggle('active', isTarget);
-  });
-
-  currentTargetLanguage = targetLanguageMap[targetId] || 'english';
-
-  applyLanguageContent(currentTargetLanguage);
-  document.querySelectorAll('.language-card').forEach(card => resetCardDetails(card));
-
-  const activePanel = document.querySelector('.tab-panel.active');
-  const initialLevel = activePanel?.querySelector('.level-card')?.dataset.level || 'A1';
-  if (activePanel) updateLevelContent(activePanel, currentTargetLanguage, initialLevel);
-
-  if (targetId === 'ai-tutor') {
-    const card = activePanel?.querySelector('.language-card');
-    const skillTabs = card?.querySelector('.skill-tabs');
-    const tutorAction = card?.querySelector('.tutor-action');
-    const vocabSection = card?.querySelector('.vocab-section');
-    const detailToggle = card?.querySelector('.detail-toggle');
-
-    // skill-tabs is always visible; open the secondary detail sections for AI Tutor
-    [tutorAction, vocabSection].forEach(section => {
-      if (section) section.classList.add('is-open');
-    });
-
-    if (detailToggle) {
-      detailToggle.dataset.open = 'true';
-      detailToggle.textContent = 'Ocultar detalles';
-      detailToggle.setAttribute('aria-expanded', 'true');
-    }
-
-    const firstSkillButton = skillTabs?.querySelector('.skill-tab-button');
-    if (firstSkillButton) firstSkillButton.click();
-  }
-
-  if (options.updateHash) {
-    history.pushState(null, '', `#language-${targetId}`);
-  }
-
-  if (options.scroll) {
-    document.getElementById('languages')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
-}
-
-tabButtons.forEach(button => {
-  button.addEventListener('click', () => activateLanguageTab(button.dataset.target, {
-    updateHash: true,
-    scroll: true
-  }));
-});
-
 const authModal = document.getElementById('authModal');
 const authTabs = document.querySelectorAll('.auth-tab');
 const authForms = document.querySelectorAll('.auth-form');
@@ -126,7 +33,6 @@ document.querySelectorAll('.auth-form .auth-note').forEach(note => {
 });
 const authTriggers = document.querySelectorAll('[data-action="open-auth"]');
 const closeModal = document.querySelector('.close-modal');
-const skillTabButtons = document.querySelectorAll('.skill-tab-button');
 const menuToggle = document.querySelector('.menu-toggle');
 const siteMenu = document.getElementById('siteMenu');
 const userChip = document.querySelector('.user-chip');
@@ -155,7 +61,6 @@ const goalOptions = {
   }
 };
 
-let activeGoal = 'daily';
 let currentProgress = 0;
 
 function gamificationKeyFor(user) {
@@ -166,8 +71,6 @@ function saveSession(user, session) {
   authStatus.user = user || null;
   authStatus.session = session || null;
   renderAuthState();
-  loadSavedGoal();
-  syncGoalFromServer();
   loadDashboard();
   window.AndergoGamification?.load(gamificationKeyFor(authStatus.user));
   if (!session?.access_token) return;
@@ -185,18 +88,20 @@ function restoreSession() {
     localStorage.removeItem('andergoSession');
   }
   renderAuthState();
-  loadSavedGoal();
-  syncGoalFromServer();
   loadDashboard();
   window.AndergoGamification?.load(gamificationKeyFor(authStatus.user));
 }
 
+// The backend's user.name is upstream data we don't control here - if it's
+// malformed (e.g. truncated to something like "aos") this guard keeps it off
+// screen instead of rendering "Hola, aos": falls back to the email's local
+// part, and to an empty string (bare "Hola", no dangling comma) if that's
+// missing too.
 function getDisplayName() {
-  return authStatus.user?.name || authStatus.user?.email?.split('@')[0] || 'estudiante';
-}
-
-function getGoalStorageKey() {
-  return `andergoGoal:${authStatus.user?.id || authStatus.user?.email || 'guest'}`;
+  const rawName = authStatus.user?.name;
+  const looksLikeName = typeof rawName === 'string' && /^[\p{L}][\p{L}\s'-]{1,49}$/u.test(rawName.trim());
+  if (looksLikeName) return rawName.trim();
+  return authStatus.user?.email?.split('@')[0] || '';
 }
 
 function renderAuthState() {
@@ -205,7 +110,7 @@ function renderAuthState() {
 
   if (userChip) {
     userChip.hidden = !isSignedIn;
-    userChip.textContent = isSignedIn ? `Hola, ${name}` : '';
+    userChip.textContent = isSignedIn ? (name ? `Hola, ${name}` : 'Hola') : '';
   }
 
   if (logoutButton) logoutButton.hidden = !isSignedIn;
@@ -214,175 +119,14 @@ function renderAuthState() {
     trigger.hidden = isSignedIn;
   });
 
+  document.querySelectorAll('.nav-group-visitor').forEach(group => { group.hidden = isSignedIn; });
+  document.querySelectorAll('.nav-group-member').forEach(group => { group.hidden = !isSignedIn; });
+
   const greeting = document.querySelector('.student-greeting');
   if (greeting) {
     greeting.textContent = isSignedIn
-      ? `${name}, esta es tu ruta personalizada.`
-      : 'Inicia sesión para personalizar tu ruta.';
-  }
-}
-
-function saveActiveGoal(goalKey) {
-  activeGoal = goalOptions[goalKey] ? goalKey : 'daily';
-  // Local cache: renders instantly and still works offline/signed-out.
-  localStorage.setItem(getGoalStorageKey(), activeGoal);
-  renderGoalState();
-
-  // Backend is the source of truth once signed in; a failed save keeps the
-  // local cache so the choice isn't lost, but doesn't block navigation.
-  if (!authStatus.session?.access_token) return;
-  fetch(`${backendBaseUrl}/api/goals`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', ...authHeaders() },
-    body: JSON.stringify({ goalKey: activeGoal })
-  }).catch(error => console.warn('Could not save goal', error));
-}
-
-function loadSavedGoal() {
-  activeGoal = localStorage.getItem(getGoalStorageKey()) || 'daily';
-  if (!goalOptions[activeGoal]) activeGoal = 'daily';
-  renderGoalState();
-}
-
-// Called after login/session-restore: overwrites the local cache with
-// whatever Supabase has, so the same goal shows up on another device or
-// browser. Errors are swallowed - the local cache from loadSavedGoal()
-// keeps working as a fallback.
-async function syncGoalFromServer() {
-  if (!authStatus.session?.access_token) return;
-  try {
-    const response = await fetch(`${backendBaseUrl}/api/goals`, { headers: authHeaders() });
-    if (!response.ok) return;
-    const data = await response.json().catch(() => null);
-    const goalKey = data?.goal?.goalKey;
-    if (!goalKey || !goalOptions[goalKey]) return;
-    activeGoal = goalKey;
-    localStorage.setItem(getGoalStorageKey(), activeGoal);
-    renderGoalState();
-  } catch (error) {
-    console.warn('Could not sync goal from server', error);
-  }
-}
-
-function renderGoalState(progress = currentProgress) {
-  currentProgress = Math.max(0, Math.min(100, Number(progress) || 0));
-  const goal = goalOptions[activeGoal] || goalOptions.daily;
-  const adjustedProgress = Math.max(0, Math.min(100, currentProgress + goal.progressBoost || 0));
-  const isSignedIn = Boolean(authStatus.session?.access_token);
-  const name = getDisplayName();
-
-  document.querySelectorAll('.goal-card').forEach(card => {
-    card.classList.toggle('active', card.dataset.goal === activeGoal);
-  });
-
-  const activeGoalText = document.getElementById('activeGoalText');
-  if (activeGoalText) activeGoalText.textContent = goal.label;
-
-  const goalOwnerText = document.getElementById('goalOwnerText');
-  if (goalOwnerText) {
-    goalOwnerText.textContent = isSignedIn
-      ? `${name}, ${goal.helper}`
-      : 'Inicia sesión para guardar esta meta en tu perfil.';
-  }
-
-  const goalSummary = document.querySelector('.goal-summary strong');
-  if (goalSummary) goalSummary.textContent = goal.label;
-
-  document.querySelector('.goal-progress-meter')?.style.setProperty('width', `${adjustedProgress}%`);
-}
-
-const levelContent = {};
-const languageContent = {};
-
-if (window.ANDERGO_LANGUAGE_WORLDS) {
-  Object.assign(levelContent, window.ANDERGO_LANGUAGE_WORLDS.levelContent || {});
-  Object.assign(languageContent, window.ANDERGO_LANGUAGE_WORLDS.languageContent || {});
-}
-
-let languageUiContentPromise = null;
-
-function mergeMissingContent(target, source) {
-  if (!source || typeof source !== 'object') return target;
-
-  Object.entries(source).forEach(([key, value]) => {
-    if (Array.isArray(value)) {
-      if (!Array.isArray(target[key])) target[key] = value;
-      return;
-    }
-
-    if (value && typeof value === 'object') {
-      if (!target[key] || typeof target[key] !== 'object' || Array.isArray(target[key])) {
-        target[key] = {};
-      }
-      mergeMissingContent(target[key], value);
-      return;
-    }
-
-    if (target[key] === undefined) {
-      target[key] = value;
-    }
-  });
-
-  return target;
-}
-
-async function loadLanguageUiContent() {
-  if (!languageUiContentPromise) {
-    languageUiContentPromise = (async () => {
-      try {
-        const response = await fetch(`${backendBaseUrl}/api/content/languages`);
-        if (!response.ok) {
-          throw new Error(`Language content request failed with status ${response.status}`);
-        }
-
-        const data = await response.json();
-        if (data && typeof data === 'object') {
-          if (data.levelContent && typeof data.levelContent === 'object') {
-            mergeMissingContent(levelContent, data.levelContent);
-          }
-          if (data.languageContent && typeof data.languageContent === 'object') {
-            mergeMissingContent(languageContent, data.languageContent);
-          }
-        }
-      } catch (error) {
-        console.warn('Could not load language UI content from backend', error);
-      }
-
-      return { levelContent, languageContent };
-    })();
-  }
-
-  return languageUiContentPromise;
-}
-
-function applyLanguageContent(languageKey) {
-  const content = languageContent[languageKey] || languageContent.spanish || Object.values(languageContent)[0];
-  if (!content) return;
-
-  // Syncing the #nativeLanguage select's displayed value is handled by
-  // setBridgeLanguage() now, which also validates/persists it - this
-  // function only ever touches the target-language-themed copy below.
-  const activePanel = document.querySelector('.tab-panel.active');
-  if (activePanel) {
-    const overviewTitle = activePanel.querySelector('.language-overview h3');
-    if (overviewTitle) overviewTitle.textContent = content.overviewTitle;
-
-    const overviewText = activePanel.querySelector('.language-overview p');
-    if (overviewText) overviewText.textContent = content.overviewText;
-
-    const note = activePanel.querySelector('.advanced-note');
-    if (note) note.textContent = content.note;
-
-    activePanel.querySelectorAll('.skill-panel').forEach(panel => {
-      const skill = panel.dataset.skill;
-      const translations = content.skillPanels?.[skill];
-      if (translations) {
-        const heading = panel.querySelector('h4');
-        const paragraph = panel.querySelector('p');
-        if (heading) heading.textContent = translations.title;
-        if (paragraph) paragraph.textContent = translations.text;
-      }
-    });
+      ? (name ? `${name}, esta es tu ruta personalizada.` : 'Esta es tu ruta personalizada.')
+      : 'Inicia sesión para ver tu progreso, racha y objetivo.';
   }
 }
 
@@ -426,6 +170,42 @@ function updatePathPairPreview() {
   preview.textContent = `Aprenderás ${targetLabel} con apoyo en ${bridgeLabel}.`;
 }
 
+// Accepts either a real language key (english/spanish/french/italian/german,
+// as used by #pathLanguageSelect) or the older tab-id spelling used by the
+// home language cards (frances/espanol/italiano/deutsch) and normalizes both
+// to the same key, so every caller feeds the same canonical value into
+// learningPathState.language - the single field updatePathPairPreview reads.
+// This is the fix for the "Aprenderás English..." bug: previously the home
+// cards and #languages tabs only ever updated the separate
+// currentTargetLanguage variable, never learningPathState.language.
+function normalizeLanguageKey(lang) {
+  if (lang && languageDisplayNames[lang] && lang !== 'ai') return lang;
+  return targetLanguageMap[lang] || lang;
+}
+
+function setTargetLanguage(lang, options = {}) {
+  const resolved = normalizeLanguageKey(lang);
+  if (!resolved || !languageDisplayNames[resolved] || resolved === 'ai') return false;
+
+  if (resolved === currentBridgeLanguage) {
+    showHomeToast('El idioma puente debe ser diferente del idioma que deseas aprender.');
+    return false;
+  }
+
+  currentTargetLanguage = resolved;
+  learningPathState.language = resolved;
+
+  const pathLanguageSelect = document.getElementById('pathLanguageSelect');
+  if (pathLanguageSelect) pathLanguageSelect.value = resolved;
+
+  const level = options.level || learningPathState.level;
+  loadLearningPath({ language: resolved, level });
+  updatePathPairPreview();
+  updateAiTutorContext();
+  if (options.persist !== false) savePreferences(resolved, level, currentBridgeLanguage);
+  return true;
+}
+
 // Only the Spanish translation is real, authored data (lib/seed-lessons.json
 // vocabulary is translated into Spanish only, regardless of target
 // language - confirmed, there is no per-bridge-language dictionary yet).
@@ -458,259 +238,12 @@ function renderMcqItem(question, index, languageKey) {
   `;
 }
 
-function getWorldLessonsForLevel(languageKey, level) {
-  const lessons = window.ANDERGO_LANGUAGE_WORLDS?.lessons?.[languageKey] || [];
-  return lessons
-    .filter(lesson => lesson.level === level)
-    .sort((a, b) => (a.orderIndex || a.order_index || 0) - (b.orderIndex || b.order_index || 0));
-}
-
-function renderWorldLessonPreview(panel, languageKey, level) {
-  const card = panel?.querySelector('.language-card');
-  if (!card) return;
-
-  let preview = card.querySelector('.world-lesson-preview');
-  if (!preview) {
-    preview = document.createElement('section');
-    preview.className = 'world-lesson-preview';
-    const anchor = card.querySelector('.access-summary') || card.querySelector('.level-grid');
-    anchor?.insertAdjacentElement('afterend', preview);
-  }
-
-  const lessons = getWorldLessonsForLevel(languageKey, level);
-  if (!lessons.length) {
-    preview.innerHTML = '';
-    return;
-  }
-
-  preview.innerHTML = `
-    <div class="world-lesson-preview-head">
-      <div>
-        <span>${escapeHtml(level)} world</span>
-        <h4>${lessons.length} lecciones disponibles</h4>
-      </div>
-      <button class="world-lesson-open" type="button" data-language="${escapeHtml(languageKey)}" data-level="${escapeHtml(level)}">Ver ruta</button>
-    </div>
-    <div class="world-lesson-grid">
-      ${lessons.map(lesson => {
-        const isPremium = lesson.isFree === false || lesson.accessTier === 'premium';
-        return `
-        <article class="world-lesson-row">
-          <div class="world-lesson-row-tags">
-            <span class="lesson-tag lesson-tag-level">${escapeHtml(level)}</span>
-            <span class="lesson-tag lesson-tag-skill">${escapeHtml(skillLabel(lesson.skill))}</span>
-            <span class="lesson-tag ${isPremium ? 'lesson-tag-premium' : 'lesson-tag-free'}">${isPremium ? 'Premium' : 'Gratis'}</span>
-          </div>
-          <h5>${escapeHtml(lesson.title || '')}</h5>
-          <p>${escapeHtml(lesson.description || lesson.mission || lesson.intro || '')}</p>
-          <button class="world-lesson-start" type="button" data-language="${escapeHtml(languageKey)}" data-level="${escapeHtml(level)}" data-lesson-slug="${escapeHtml(lesson.slug || '')}">Iniciar</button>
-        </article>
-      `;
-      }).join('')}
-    </div>
-  `;
-}
-
-function skillLabel(skill) {
-  const labels = {
-    listening: 'Listening',
-    speaking: 'Speaking',
-    reading: 'Reading',
-    writing: 'Writing',
-    grammar: 'Grammar',
-    vocabulary: 'Vocabulary'
-  };
-  return labels[skill] || skill;
-}
-
-function renderSkillExplorer(panel, languageKey, level) {
-  const skillTabs = panel?.querySelector('.skill-tabs');
-  if (!skillTabs) return;
-
-  const lessons = getWorldLessonsForLevel(languageKey, level);
-  if (!lessons.length) return;
-
-  const activeSkill = skillTabs.querySelector('.skill-tab-button.active')?.dataset.skill || lessons[0].skill;
-  const normalizedActiveSkill = lessons.some(lesson => lesson.skill === activeSkill) ? activeSkill : lessons[0].skill;
-
-  skillTabs.innerHTML = `
-    <div class="skill-tab-list">
-      ${lessons.map(lesson => `
-        <button class="skill-tab-button ${lesson.skill === normalizedActiveSkill ? 'active' : ''}" type="button" data-skill="${escapeHtml(lesson.skill)}">
-          ${escapeHtml(skillLabel(lesson.skill))}
-        </button>
-      `).join('')}
-    </div>
-    ${lessons.map(lesson => {
-      const phrases = lesson.phrases || [];
-      const vocabulary = lesson.vocabulary || [];
-      const reading = lesson.reading || {};
-      return `
-        <div class="skill-panel ${lesson.skill === normalizedActiveSkill ? 'active' : ''}" data-skill="${escapeHtml(lesson.skill)}">
-          <span class="skill-kicker">${escapeHtml(level)} · ${escapeHtml(skillLabel(lesson.skill))}</span>
-          <h4>${escapeHtml(lesson.title || skillLabel(lesson.skill))}</h4>
-          <p>${escapeHtml(lesson.description || lesson.mission || lesson.intro || '')}</p>
-          <div class="skill-panel-grid">
-            <div class="skill-focus-block">
-              <strong>Misión</strong>
-              <span>${escapeHtml(lesson.mission || lesson.intro || 'Completa la práctica guiada de esta habilidad.')}</span>
-            </div>
-            <div class="skill-focus-block">
-              <strong>Gramática</strong>
-              <span>${escapeHtml(lesson.grammar || 'Práctica guiada con ejemplos del nivel.')}</span>
-            </div>
-          </div>
-          <div class="predictive-box">
-            <strong>Frases útiles</strong>
-            <div class="predictive-suggestions">
-              ${(phrases.length ? phrases : vocabulary.slice(0, 4).map(item => item.word)).map(item => `<span class="predictive-suggestion">${escapeHtml(item)}</span>`).join('')}
-            </div>
-          </div>
-          ${vocabulary.length ? `
-            <div class="skill-mini-vocab">
-              ${vocabulary.slice(0, 6).map(item => `<span><strong>${escapeHtml(item.word)}</strong>${escapeHtml(resolveVocabTranslation(item))}</span>`).join('')}
-            </div>
-          ` : ''}
-          ${reading.text ? `<p class="skill-reading-text">${escapeHtml(reading.text)}</p>` : ''}
-        </div>
-      `;
-    }).join('')}
-  `;
-}
-
-function updateLevelContent(panel, languageKey, level) {
-  const content = levelContent[languageKey]?.[level];
-  if (!content || !panel) return;
-
-  const levelCards = panel.querySelectorAll('.level-grid .level-card');
-  levelCards.forEach(card => {
-    card.classList.toggle('active', card.dataset.level === level);
-  });
-
-  const skillPanels = panel.querySelectorAll('.skill-panel');
-  skillPanels.forEach(skillPanel => {
-    const skill = skillPanel.dataset.skill;
-    const skillContent = content.skills?.[skill];
-    if (!skillContent) return;
-
-    const heading = skillPanel.querySelector('h4');
-    const paragraph = skillPanel.querySelector('p');
-    const suggestionsContainer = skillPanel.querySelector('.predictive-suggestions');
-    if (heading) heading.textContent = skillContent.title;
-    if (paragraph) paragraph.textContent = skillContent.text;
-    if (suggestionsContainer) {
-      suggestionsContainer.innerHTML = skillContent.suggestions.map(item => `<span class="predictive-suggestion">${escapeHtml(item)}</span>`).join('');
-    }
-  });
-
-  const vocabGrid = panel.querySelector('.vocab-grid');
-  if (vocabGrid) {
-    vocabGrid.innerHTML = content.vocab.map(([term, translation]) => `<div><strong>${term}</strong><span>${translation}</span></div>`).join('');
-  }
-
-  const grammarGrid = panel.querySelector('.grammar-grid');
-  if (grammarGrid) {
-    grammarGrid.innerHTML = content.grammar.map(([label, description]) => `<div><strong>${label}</strong><span>${description}</span></div>`).join('');
-  }
-
-  const readingText = panel.querySelector('.reading-text');
-  const mcqList = panel.querySelector('.mcq-list');
-  const levelList = panel.querySelector('.level-list');
-  if (readingText) readingText.textContent = content.reading.text;
-  if (mcqList) {
-    mcqList.innerHTML = content.reading.questions.map((question, index) => renderMcqItem(question, index, languageKey)).join('');
-  }
-  if (levelList) {
-    const levelItems = levelList.querySelectorAll('div');
-    levelItems.forEach(item => item.classList.remove('active'));
-    const activeItem = Array.from(levelItems).find(item => item.querySelector('strong')?.textContent.trim() === level);
-    if (activeItem) activeItem.classList.add('active');
-  }
-
-  renderWorldLessonPreview(panel, languageKey, level);
-  renderSkillExplorer(panel, languageKey, level);
-}
-
-function activateLevel(levelCard) {
-  const panel = levelCard.closest('.tab-panel');
-  const level = levelCard.dataset.level;
-  const languageKey = targetLanguageMap[panel?.id?.replace('tab-', '')] || currentTargetLanguage;
-
-  updateLevelContent(panel, languageKey, level);
-}
-
 function getLanguageTabFromHash() {
   const hash = window.location.hash.replace('#', '');
   if (!hash) return null;
 
   const normalized = hash.startsWith('language-') ? hash.replace('language-', '') : hash;
   return targetLanguageMap[normalized] ? normalized : null;
-}
-
-function activateInitialLanguageTab() {
-  const targetFromHash = getLanguageTabFromHash();
-  const activeButtonTarget = document.querySelector('.tab-button.active')?.dataset.target || 'english';
-  if (targetFromHash) revealSection('#languages', { scroll: false });
-  activateLanguageTab(targetFromHash || activeButtonTarget);
-}
-
-function setupLevelCards() {
-  document.querySelectorAll('.language-card .level-grid > div').forEach(card => {
-    const level = card.querySelector('strong')?.textContent.trim();
-    if (!level) return;
-    card.classList.add('level-card');
-    card.dataset.level = level;
-    card.addEventListener('click', () => activateLevel(card));
-  });
-  applyAccessBadges();
-}
-
-function resetCardDetails(card) {
-  const toggle = card.querySelector('.detail-toggle');
-  if (!toggle) return;
-
-  // Only collapse the dense secondary sections; skill tabs stay visible
-  card.querySelectorAll('.vocab-section, .grammar-section, .reading-comprehension, .tutor-action').forEach(section => {
-    section.classList.remove('is-open');
-  });
-
-  toggle.dataset.open = 'false';
-  toggle.textContent = 'Ver vocabulario y gramática';
-  toggle.setAttribute('aria-expanded', 'false');
-}
-
-function setupDetailToggles() {
-  document.querySelectorAll('.language-card').forEach(card => {
-    const accessSummary = card.querySelector('.access-summary');
-    if (!accessSummary || card.querySelector('.detail-toggle')) return;
-
-    const toggleButton = document.createElement('button');
-    toggleButton.type = 'button';
-    toggleButton.className = 'detail-toggle';
-    toggleButton.textContent = 'Ver vocabulario y gramática';
-    toggleButton.setAttribute('aria-expanded', 'false');
-    // Insert after skill-tabs (or after access-summary if no skill-tabs)
-    const skillTabs = card.querySelector('.skill-tabs');
-    const insertAnchor = skillTabs || accessSummary;
-    insertAnchor.insertAdjacentElement('afterend', toggleButton);
-  });
-
-  document.querySelectorAll('.detail-toggle').forEach(toggle => {
-    toggle.addEventListener('click', () => {
-      const card = toggle.closest('.language-card');
-      const isOpen = toggle.dataset.open === 'true';
-      // Only toggle the dense secondary sections — skill tabs are always visible
-      const detailSections = card.querySelectorAll('.vocab-section, .grammar-section, .reading-comprehension, .tutor-action');
-
-      detailSections.forEach(section => {
-        section.classList.toggle('is-open', !isOpen);
-      });
-
-      toggle.dataset.open = String(!isOpen);
-      toggle.textContent = isOpen ? 'Ver vocabulario y gramática' : 'Ocultar detalles';
-      toggle.setAttribute('aria-expanded', String(!isOpen));
-    });
-  });
 }
 
 function openModal(panel) {
@@ -790,30 +323,36 @@ async function postJson(path, payload) {
   return data;
 }
 
-function updateProgressDisplay({ progress = 0, streak = 0, nextLesson = 'Listening A1' } = {}, isSignedIn = false) {
+// Drives the home hero card's three states (spec: never show fake stats to
+// a guest, show a loading state while the real numbers are in flight, then
+// the real numbers - not a static "0%" that looks real but isn't).
+function updateProgressDisplay({ progress = 0, streak = 0 } = {}, isSignedIn = false, isLoading = false) {
   const normalizedProgress = Math.max(0, Math.min(100, Number(progress) || 0));
   currentProgress = normalizedProgress;
   const progressCircle = document.querySelector('.progress-circle');
-  const progressMeter = document.querySelector('.progress-meter');
-  const progressText = document.querySelector('.progress-text');
-  const progressSummary = document.querySelector('.progress-summary p');
-  const courseLabel = document.querySelector('.course-label');
-  const nextLessonLabel = document.querySelector('.next-lesson-label strong');
+  const streakCount = document.querySelector('.streak-flame-count');
+  const progressText = document.getElementById('homeProgressText');
+  const summaryRow = document.getElementById('homeSummaryRow');
+  const goalSummary = document.getElementById('homeGoalSummary');
+  const guestActions = document.getElementById('homeGuestActions');
+  const continueBtn = document.querySelector('.continue-lesson-btn');
   const name = getDisplayName();
 
-  if (progressCircle) progressCircle.textContent = `${normalizedProgress}%`;
-  if (progressMeter) progressMeter.style.width = `${normalizedProgress}%`;
+  if (summaryRow) summaryRow.hidden = !isSignedIn;
+  if (goalSummary) goalSummary.hidden = !isSignedIn;
+  if (guestActions) guestActions.hidden = isSignedIn;
+  if (continueBtn) continueBtn.hidden = !isSignedIn;
+
+  if (progressCircle) progressCircle.textContent = isLoading ? '…' : `${normalizedProgress}%`;
+  if (streakCount) streakCount.textContent = isLoading ? '…' : String(streak);
   if (progressText) {
-    progressText.textContent = isSignedIn
-      ? `${name}: ${normalizedProgress}% completado · ${streak} días de racha`
-      : 'Inicia sesión para ver tu progreso';
+    progressText.hidden = !isSignedIn;
+    if (isSignedIn) {
+      progressText.textContent = isLoading
+        ? 'Cargando tu progreso…'
+        : `${name ? `${name}: ` : ''}${normalizedProgress}% completado · ${streak} días de racha`;
+    }
   }
-  if (progressSummary) {
-    progressSummary.textContent = isSignedIn ? `Progreso del curso · ${nextLesson}` : 'Progreso del curso';
-  }
-  if (courseLabel) courseLabel.textContent = nextLesson || 'English · A1';
-  if (nextLessonLabel) nextLessonLabel.textContent = nextLesson || 'Listening A1';
-  renderGoalState(currentProgress);
 }
 
 async function loadProgress() {
@@ -823,21 +362,26 @@ async function loadProgress() {
       return;
     }
 
+    updateProgressDisplay({}, true, true);
     const response = await fetch(`${backendBaseUrl}/api/progress`, {
       headers: {
         Authorization: `Bearer ${authStatus.session.access_token}`
       }
     });
     const data = await response.json().catch(() => ({}));
-    if (!response.ok) return;
+    if (!response.ok) {
+      updateProgressDisplay({}, true, false);
+      return;
+    }
 
-    updateProgressDisplay(data, true);
+    updateProgressDisplay(data, true, false);
     // Supabase is the source of truth once signed in: merge it into the
     // local gamification engine so XP/streak/badges survive a logout+login
     // or a fresh browser, instead of only reflecting this device's localStorage.
     window.AndergoGamification?.syncFromServer(data);
   } catch (error) {
     console.warn('Could not load backend progress', error);
+    updateProgressDisplay({}, true, false);
   }
 }
 
@@ -884,45 +428,62 @@ function savePreferences(language, level, bridgeLanguage) {
   }).catch(error => console.warn('Could not save preferences', error));
 }
 
+// XP/level/streak have exactly one source of truth: the client-side
+// gamification engine (src/js/gamification/*, already reconciled with the
+// server via syncFromServer). This line is the only place Progreso shows
+// them, so it never disagrees with what Logros shows for the same numbers.
+function renderProgressGamificationSummary() {
+  const line = document.getElementById('progressGamificationLine');
+  if (!line) return;
+  const state = window.AndergoGamification?.getState();
+  if (!state) { line.textContent = ''; return; }
+  line.textContent = `Nivel ${state.level} · ${state.xp} XP · 🔥 ${state.streak} días de racha`;
+}
+
 function renderDashboardStats(data) {
   const grid = document.getElementById('dashboardStatsGrid');
-  if (!grid) return;
-  const langLabel = languageDisplayNames[data.preferences?.language] || data.preferences?.language || '—';
-  const stats = [
-    ['Idioma', escapeHtml(langLabel)],
-    ['Nivel', escapeHtml(data.preferences?.level || '—')],
-    ['Progreso', `${data.progress}%`],
-    ['XP', `${data.xp}`],
-    ['Racha actual', `🔥 ${data.streak} días`],
-    ['Mejor racha', `🏆 ${data.longestStreak} días`],
-    ['Próxima lección', escapeHtml(data.nextLesson || '—')],
-    ['Lecciones completadas', `${data.completedLessonsCount}`]
-  ];
-  grid.innerHTML = stats.map(([label, value]) => `
-    <div class="dashboard-stat"><span>${label}</span><strong>${value}</strong></div>
-  `).join('');
+  if (grid) {
+    const langLabel = languageDisplayNames[data.preferences?.language] || data.preferences?.language || '—';
+    const stats = [
+      ['Idioma', escapeHtml(langLabel)],
+      ['Nivel', escapeHtml(data.preferences?.level || '—')],
+      ['Progreso', `${data.progress}%`],
+      ['Próxima lección', escapeHtml(data.nextLesson || '—')],
+      ['Lecciones completadas', `${data.completedLessonsCount}`]
+    ];
+    grid.innerHTML = stats.map(([label, value]) => `
+      <div class="dashboard-stat"><span>${label}</span><strong>${value}</strong></div>
+    `).join('');
+  }
+  renderProgressGamificationSummary();
 }
 
 function renderDashboardGoal(goal, preferences) {
-  const body = document.getElementById('dashboardGoalBody');
-  if (!body) return;
+  const body = document.getElementById('goalsCrudBody');
+  const homeGoalSummary = document.querySelector('#homeGoalSummary strong');
 
   const goalOptionsHtml = (selectedKey) => Object.entries(goalOptions).map(([key, opt]) =>
     `<option value="${key}" ${key === selectedKey ? 'selected' : ''}>${escapeHtml(opt.label)}</option>`
   ).join('');
 
   if (!goal) {
-    body.innerHTML = `
-      <p class="skill-graph-empty">Todavía no tienes un objetivo activo.</p>
-      <div class="dashboard-goal-form">
-        <select id="dashboardGoalSelect">${goalOptionsHtml('daily')}</select>
-        <button type="button" data-goal-action="create">Crear objetivo</button>
-      </div>
-    `;
+    if (body) {
+      body.innerHTML = `
+        <p class="skill-graph-empty">Todavía no tienes un objetivo activo.</p>
+        <div class="dashboard-goal-form">
+          <select id="dashboardGoalSelect">${goalOptionsHtml('daily')}</select>
+          <button type="button" data-goal-action="create">Crear objetivo</button>
+        </div>
+      `;
+    }
+    if (homeGoalSummary) homeGoalSummary.textContent = 'Sin objetivo activo';
     return;
   }
 
   const label = goalOptions[goal.goalKey]?.label || goal.goalKey;
+  if (homeGoalSummary) homeGoalSummary.textContent = label;
+  if (!body) return;
+
   const dateFormat = { day: 'numeric', month: 'short', year: 'numeric' };
   const createdText = new Date(goal.selectedAt).toLocaleDateString('es', dateFormat);
   const completedText = goal.completedAt ? new Date(goal.completedAt).toLocaleDateString('es', dateFormat) : null;
@@ -977,7 +538,7 @@ function renderDashboardActivity(activity) {
 function renderDashboardLoading() {
   const grid = document.getElementById('dashboardStatsGrid');
   if (grid) grid.innerHTML = '<p class="skill-graph-empty">Cargando tu panel…</p>';
-  const goalBody = document.getElementById('dashboardGoalBody');
+  const goalBody = document.getElementById('goalsCrudBody');
   if (goalBody) goalBody.innerHTML = '<p class="skill-graph-empty">Cargando tu objetivo…</p>';
   const activityList = document.getElementById('dashboardActivityList');
   if (activityList) activityList.innerHTML = '<li class="skill-graph-empty">Cargando actividad…</li>';
@@ -988,19 +549,26 @@ function renderDashboardError() {
   if (grid) grid.innerHTML = '<p class="skill-graph-empty">No se pudo cargar tu panel. Intenta recargar la página.</p>';
 }
 
+function renderDashboardSignedOut() {
+  const grid = document.getElementById('dashboardStatsGrid');
+  if (grid) grid.innerHTML = '<p class="skill-graph-empty">Inicia sesión para ver tu progreso.</p>';
+  const goalBody = document.getElementById('goalsCrudBody');
+  if (goalBody) goalBody.innerHTML = '<p class="skill-graph-empty">Inicia sesión para crear y guardar tu objetivo.</p>';
+  const activityList = document.getElementById('dashboardActivityList');
+  if (activityList) activityList.innerHTML = '<li class="skill-graph-empty">Inicia sesión para ver tu actividad.</li>';
+  const line = document.getElementById('progressGamificationLine');
+  if (line) line.textContent = '';
+}
+
 let dashboardPreferences = null;
 
 function renderDashboard(data) {
-  const section = document.getElementById('student-dashboard');
-  if (!section) return;
-
   if (!data) {
-    section.hidden = true;
     dashboardPreferences = null;
+    renderDashboardSignedOut();
     return;
   }
 
-  section.hidden = false;
   dashboardPreferences = data.preferences;
   renderDashboardStats(data);
   renderDashboardGoal(data.goal, data.preferences);
@@ -1009,14 +577,14 @@ function renderDashboard(data) {
 
 // Never throws - a failed load just leaves the panel showing its error state,
 // it doesn't block anything else on the page (same convention as loadProgress).
+// Feeds both #progress (stats/activity) and #goals (goal CRUD), since both
+// views need the same /api/dashboard payload - see renderDashboardGoal.
 async function loadDashboard() {
   if (!authStatus.session?.access_token) {
     renderDashboard(null);
     return;
   }
 
-  const section = document.getElementById('student-dashboard');
-  if (section) section.hidden = false;
   renderDashboardLoading();
 
   try {
@@ -1030,7 +598,7 @@ async function loadDashboard() {
   }
 }
 
-document.getElementById('dashboardGoalBody')?.addEventListener('click', async event => {
+document.getElementById('goalsCrudBody')?.addEventListener('click', async event => {
   const button = event.target.closest('[data-goal-action]');
   if (!button) return;
   const action = button.dataset.goalAction;
@@ -1065,12 +633,8 @@ document.getElementById('dashboardGoalBody')?.addEventListener('click', async ev
     } else if (action === 'delete') {
       if (!window.confirm('¿Eliminar tu objetivo actual?')) return;
       await fetch(`${backendBaseUrl}/api/goals/${goalId}`, { method: 'DELETE', headers: authHeaders() });
-      activeGoal = 'daily';
-      localStorage.removeItem(getGoalStorageKey());
-      renderGoalState();
       showHomeToast('Objetivo eliminado.');
     }
-    await syncGoalFromServer();
     await loadDashboard();
   } catch (error) {
     console.warn('Could not update goal', error);
@@ -1109,10 +673,8 @@ async function logout() {
     authStatus.user = null;
     authStatus.session = null;
     localStorage.removeItem('andergoSession');
-    activeGoal = 'daily';
     renderAuthState();
     updateProgressDisplay();
-    renderGoalState();
     renderDashboard(null);
     window.AndergoGamification?.load('guest');
   }
@@ -1148,7 +710,8 @@ function attachAuthHandlers() {
         }
 
         saveSession(data.user, data.session);
-        setAuthMessage(`Bienvenido${authStatus.user?.name ? `, ${authStatus.user.name}` : ''}!`, false);
+        const welcomeName = getDisplayName();
+        setAuthMessage(`Bienvenido${welcomeName ? `, ${welcomeName}` : ''}!`, false);
         await loadProgress();
         const preferences = await loadPreferences();
         applyPreferencesToSelects(preferences);
@@ -1302,6 +865,13 @@ function authHeaders() {
     : {};
 }
 
+// #learn has two states - browsing the route (skill graph) or reading one
+// lesson (lesson workspace + "Volver a la ruta") - never both at once.
+function showLearnState(state) {
+  document.getElementById('skillGraph')?.classList.toggle('compact-hidden-section', state !== 'route');
+  document.getElementById('lessonWorkspace')?.classList.toggle('compact-hidden-section', state !== 'lesson');
+}
+
 // Selects a lesson in the learning path and, for signed-in users, tells the
 // backend it was opened (POST /api/lessons/:slug/start marks it in_progress
 // in user_lesson_progress). Fire-and-forget: 404s for lessons not yet on the
@@ -1310,6 +880,7 @@ function openLesson(slug) {
   if (!slug) return;
   learningPathState.activeSlug = slug;
   renderLearningPath();
+  showLearnState('lesson');
   if (authStatus.session?.access_token) {
     fetch(`${backendBaseUrl}/api/lessons/${slug}/start`, {
       method: 'POST',
@@ -1323,7 +894,7 @@ function getActiveLearningLesson() {
 }
 
 function updateAiTutorContext() {
-  const contextRoot = document.querySelector('#tab-ai-tutor .tutor-context');
+  const contextRoot = document.querySelector('#tutor .tutor-context');
   if (!contextRoot) return;
 
   const lesson = getActiveLearningLesson();
@@ -1634,13 +1205,8 @@ async function completeActiveLesson() {
   }
 }
 
-setupDetailToggles();
-setupLevelCards();
 attachAuthHandlers();
 restoreSession();
-loadLanguageUiContent().finally(() => {
-  activateInitialLanguageTab();
-});
 
 authTriggers.forEach(trigger => {
   trigger.addEventListener('click', event => {
@@ -1656,12 +1222,31 @@ authTabs.forEach(tab => {
 
 logoutButton?.addEventListener('click', openLogoutConfirm);
 
-document.querySelectorAll('.goal-card').forEach(card => {
-  card.querySelector('.goal-select')?.addEventListener('click', () => {
-    saveActiveGoal(card.dataset.goal);
-    document.getElementById('goals')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+// The 3 preset cards are quick-start shortcuts into the same real /api/goals
+// CRUD system goalsCrudBody uses below - not a separate goal-tracking system.
+document.querySelectorAll('#goalsQuickStart .goal-card').forEach(card => {
+  card.querySelector('.goal-select')?.addEventListener('click', async () => {
+    if (!authStatus.session?.access_token) {
+      setAuthMessage('Crea tu cuenta gratis para guardar tu objetivo.');
+      openModal('signup');
+      return;
+    }
+    try {
+      await fetch(`${backendBaseUrl}/api/goals`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeaders() },
+        body: JSON.stringify({ goalKey: card.dataset.goal || 'daily' })
+      });
+      showHomeToast('Objetivo creado.');
+      await loadDashboard();
+    } catch (error) {
+      console.warn('Could not create goal', error);
+      showHomeToast('No se pudo crear el objetivo. Intenta de nuevo.');
+    }
   });
 });
+
+document.querySelector('.learn-back-to-route')?.addEventListener('click', () => showLearnState('route'));
 
 document.addEventListener('click', async event => {
   const button = event.target.closest('.skill-tab-button');
@@ -1696,13 +1281,7 @@ if (menuToggle && siteMenu) {
   });
 
   siteMenu.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', event => {
-      const targetSelector = link.getAttribute('href');
-      const target = targetSelector?.startsWith('#') ? document.querySelector(targetSelector) : null;
-      if (target?.classList.contains('compact-hidden-section')) {
-        event.preventDefault();
-        revealSection(target);
-      }
+    link.addEventListener('click', () => {
       siteMenu.classList.remove('is-open');
       menuToggle.setAttribute('aria-expanded', 'false');
     });
@@ -1716,13 +1295,51 @@ if (menuToggle && siteMenu) {
   });
 }
 
-window.addEventListener('hashchange', () => {
-  const targetFromHash = getLanguageTabFromHash();
-  if (targetFromHash) {
-    revealSection('#languages', { scroll: false });
-    activateLanguageTab(targetFromHash);
+// Single-view router: exactly one of these is visible at a time (everything
+// else keeps its .compact-hidden-section class). Header, footer and the auth
+// modals sit outside this map and are always visible/available.
+const VIEW_SECTIONS = {
+  home: ['.hero', '#language-picker'],
+  learn: ['#learning-path'],
+  progress: ['#progress'],
+  achievements: ['#achievements'],
+  goals: ['#goals'],
+  tutor: ['#tutor'],
+  premium: ['#premium']
+};
+
+function getViewFromHash() {
+  const raw = window.location.hash.replace('#', '');
+  if (!raw) return 'home';
+  if (raw.startsWith('language-') || targetLanguageMap[raw]) return 'learn';
+  return VIEW_SECTIONS[raw] ? raw : 'home';
+}
+
+function showView(viewId) {
+  const resolved = VIEW_SECTIONS[viewId] ? viewId : 'home';
+
+  Object.entries(VIEW_SECTIONS).forEach(([id, selectors]) => {
+    const active = id === resolved;
+    selectors.forEach(selector => document.querySelectorAll(selector)
+      .forEach(el => el.classList.toggle('compact-hidden-section', !active)));
+  });
+
+  document.querySelectorAll('.nav-group a[href^="#"]').forEach(link => {
+    link.classList.toggle('active', link.getAttribute('href') === `#${resolved}`);
+  });
+
+  if (resolved === 'learn') {
+    showLearnState('route');
+    const langToken = getLanguageTabFromHash();
+    if (langToken) setTargetLanguage(langToken);
   }
-});
+  if (resolved === 'tutor') updateAiTutorContext();
+  if (resolved === 'progress' || resolved === 'goals') loadDashboard();
+
+  window.scrollTo({ top: 0, behavior: 'auto' });
+}
+
+window.addEventListener('hashchange', () => showView(getViewFromHash()));
 
 closeModal?.addEventListener('click', closeAuth);
 authModal?.addEventListener('click', event => {
@@ -1762,81 +1379,59 @@ function showCelebration(message = '') {
   }, 3200);
 }
 
-function revealSection(sectionOrSelector, options = {}) {
-  const section = typeof sectionOrSelector === 'string'
-    ? document.querySelector(sectionOrSelector)
-    : sectionOrSelector;
-  if (!section) return;
-  section.classList.remove('compact-hidden-section');
-  section.setAttribute('data-revealed', 'true');
-  if (options.scroll !== false) {
-    section.scrollIntoView({ behavior: 'smooth', block: options.block || 'start' });
-  }
-}
-
 function handleHomeAction(action) {
+  const goTo = (view, toast) => {
+    if (window.location.hash !== `#${view}`) history.pushState(null, '', `#${view}`);
+    showView(view);
+    if (toast) showHomeToast(toast);
+  };
+
   switch (action) {
     case 'continue-lesson':
-      revealSection('#learning-path');
-      showHomeToast('Ruta de lecciones abierta. Elige una lección y completa el reto.');
+      goTo('learn', 'Ruta de lecciones abierta. Elige una lección y completa el reto.');
       break;
     case 'start-free':
-      revealSection('#languages', { scroll: false });
-      activateLanguageTab('english', { scroll: true, updateHash: false });
-      showHomeToast('Elige un nivel. A1-B2 tienen 3 lecciones gratis; C1-C2 tienen 1.');
+      setTargetLanguage('english');
+      goTo('learn', 'Elige un nivel. A1-B2 tienen 3 lecciones gratis; C1-C2 tienen 1.');
       break;
     case 'goals':
-      document.getElementById('goals')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      showHomeToast('Selecciona una meta para personalizar tu ruta.');
+      goTo('goals', 'Elige o gestiona tu objetivo.');
       break;
     case 'view-progress':
-      document.getElementById('achievements')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      showHomeToast('Aquí puedes ver tu progreso, insignias y misiones.');
-      break;
-    case 'skills':
-      revealSection('#skills');
-      showHomeToast('Habilidades abiertas: listening, speaking, reading, writing, grammar y vocabulary.');
-      break;
-    case 'downloads':
-      revealSection('#downloads');
-      showHomeToast('Recursos abiertos. Los descargables se activarán para usuarios registrados.');
-      break;
-    case 'app':
-      revealSection('#app');
-      showHomeToast('Vista de la app abierta. Esta parte queda como próxima fase.');
+      goTo('progress', 'Aquí puedes ver tu progreso y actividad reciente.');
       break;
     case 'upgrade':
-      document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      showHomeToast(`Plan premium único: USD ${premiumPriceUsd}.`);
+      goTo('premium', `Plan premium único: USD ${premiumPriceUsd}.`);
       break;
     case 'ai-tutor':
-      revealSection('#languages', { scroll: false });
-      activateLanguageTab('ai-tutor', { scroll: true, updateHash: true });
-      showHomeToast('Tutor IA abierto. Practica listening, speaking o writing.');
+      goTo('tutor', 'Tutor IA abierto. Practica listening, speaking o writing.');
       break;
     case 'explore-languages':
-      revealSection('#language-picker', { scroll: true });
+      goTo('home');
+      window.setTimeout(() => {
+        document.getElementById('language-picker')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 50);
       showHomeToast('Elige un idioma para ver su ruta completa.');
       break;
     case 'explore-english':
-      revealSection('#languages', { scroll: false });
-      activateLanguageTab('english', { scroll: true, updateHash: true });
+      setTargetLanguage('english');
+      goTo('learn');
       break;
     case 'explore-frances':
-      revealSection('#languages', { scroll: false });
-      activateLanguageTab('frances', { scroll: true, updateHash: true });
+      setTargetLanguage('frances');
+      goTo('learn');
       break;
     case 'explore-italiano':
-      revealSection('#languages', { scroll: false });
-      activateLanguageTab('italiano', { scroll: true, updateHash: true });
+      setTargetLanguage('italiano');
+      goTo('learn');
       break;
     case 'explore-espanol':
-      revealSection('#languages', { scroll: false });
-      activateLanguageTab('espanol', { scroll: true, updateHash: true });
+      setTargetLanguage('espanol');
+      goTo('learn');
       break;
     case 'explore-deutsch':
-      revealSection('#languages', { scroll: false });
-      activateLanguageTab('deutsch', { scroll: true, updateHash: true });
+      setTargetLanguage('deutsch');
+      goTo('learn');
       break;
     default:
       break;
@@ -1874,42 +1469,9 @@ function enableHomepageActions() {
       return;
     }
 
-    const worldLessonButton = event.target.closest('.world-lesson-open');
-    if (worldLessonButton) {
-      const language = worldLessonButton.dataset.language || currentTargetLanguage;
-      const level = worldLessonButton.dataset.level || learningPathState.level;
-      const languageSelect = document.getElementById('pathLanguageSelect');
-      const levelSelect = document.getElementById('pathLevelSelect');
-      if (languageSelect) languageSelect.value = language;
-      if (levelSelect) levelSelect.value = level;
-      revealSection('#learning-path');
-      loadLearningPath({ language, level });
-      showHomeToast(`Ruta ${language.toUpperCase()} ${level} abierta.`);
-      return;
-    }
-
-    const startLessonButton = event.target.closest('.world-lesson-start');
-    if (startLessonButton) {
-      const language = startLessonButton.dataset.language || currentTargetLanguage;
-      const level = startLessonButton.dataset.level || learningPathState.level;
-      const lessonSlug = startLessonButton.dataset.lessonSlug;
-      const languageSelect = document.getElementById('pathLanguageSelect');
-      const levelSelect = document.getElementById('pathLevelSelect');
-      if (languageSelect) languageSelect.value = language;
-      if (levelSelect) levelSelect.value = level;
-      revealSection('#learning-path');
-      await loadLearningPath({ language, level });
-      if (lessonSlug && learningPathState.lessons.some(item => item.slug === lessonSlug)) {
-        openLesson(lessonSlug);
-      }
-      document.getElementById('lessonWorkspace')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      return;
-    }
-
     const skillCompetencyCard = event.target.closest('.skill-competency-card');
     if (skillCompetencyCard) {
       const skill = skillCompetencyCard.dataset.skill;
-      revealSection('#learning-path');
       if (!learningPathState.lessons.length) {
         await loadLearningPath({ language: learningPathState.language, level: learningPathState.level });
       }
@@ -1927,7 +1489,7 @@ function enableHomepageActions() {
       group?.querySelectorAll('.predictive-suggestion').forEach(item => item.classList.remove('selected'));
       suggestion.classList.add('selected');
       const tutorPrompt = document.getElementById('aiTutorPrompt');
-      if (tutorPrompt && suggestion.closest('#tab-ai-tutor')) {
+      if (tutorPrompt && suggestion.closest('#tutor')) {
         tutorPrompt.value = suggestion.textContent.trim();
         tutorPrompt.focus();
       }
@@ -2008,19 +1570,16 @@ function enableHomepageActions() {
 
     const tutorButton = event.target.closest('.tutor-chat-btn');
     if (tutorButton) {
-      const card = tutorButton.closest('.language-card');
+      const card = tutorButton.closest('#tutor');
       const conversation = document.getElementById('tutorConversation');
       const thinking = document.getElementById('tutorThinking');
+      const connectionStatus = document.getElementById('tutorConnectionStatus');
       const activeSkill = card?.querySelector('.skill-tab-button.active')?.dataset.skill || 'speaking';
       const activeLesson = getActiveLearningLesson();
       const tutorPrompt = document.getElementById('aiTutorPrompt');
       const customPrompt = tutorPrompt?.value.trim() || '';
-      const activeLevel = currentTargetLanguage === 'ai'
-        ? learningPathState.level
-        : (card?.querySelector('.level-card.active')?.dataset.level || learningPathState.level || 'A1');
-      const tutorLanguage = currentTargetLanguage === 'ai'
-        ? learningPathState.language
-        : currentTargetLanguage;
+      const activeLevel = learningPathState.level || 'A1';
+      const tutorLanguage = learningPathState.language;
       const selectedSuggestion = card?.querySelector('.skill-panel.active .predictive-suggestion.selected')?.textContent?.trim();
       const fallbackPrompt = {
         listening: 'Quiero practicar comprensión auditiva con un ejemplo corto y una pregunta.',
@@ -2033,6 +1592,7 @@ function enableHomepageActions() {
       appendTutorMessage(conversation, 'user', finalPrompt);
       if (tutorPrompt) tutorPrompt.value = '';
       if (thinking) thinking.hidden = false;
+      if (connectionStatus) connectionStatus.textContent = 'Conectando…';
       tutorButton.disabled = true;
 
       try {
@@ -2058,19 +1618,16 @@ function enableHomepageActions() {
           throw new Error(data.error || 'No se pudo conectar con el tutor IA.');
         }
         appendTutorMessage(conversation, 'tutor', data.reply || '');
+        if (connectionStatus) connectionStatus.textContent = 'Conectado';
       } catch (error) {
         appendTutorMessage(conversation, 'tutor', error.message || 'No se pudo conectar con el tutor IA.', { isError: true });
+        if (connectionStatus) connectionStatus.textContent = 'Sin conexión';
       } finally {
         if (thinking) thinking.hidden = true;
         tutorButton.disabled = false;
       }
     }
   });
-
-  const hashTarget = window.location.hash ? document.querySelector(window.location.hash) : null;
-  if (hashTarget?.classList.contains('compact-hidden-section')) {
-    revealSection(hashTarget, { scroll: false });
-  }
 }
 
 function setupLearningPathControls() {
@@ -2079,16 +1636,10 @@ function setupLearningPathControls() {
   const bridgeSelect = document.getElementById('pathBridgeSelect');
 
   languageSelect?.addEventListener('change', () => {
-    const language = languageSelect.value;
-    if (language === currentBridgeLanguage) {
-      showHomeToast('El idioma puente debe ser diferente del idioma que deseas aprender.');
-      languageSelect.value = learningPathState.language;
-      return;
-    }
     const level = levelSelect?.value || learningPathState.level;
-    loadLearningPath({ language, level });
-    savePreferences(language, level);
-    updatePathPairPreview();
+    if (!setTargetLanguage(languageSelect.value, { level })) {
+      languageSelect.value = learningPathState.language;
+    }
   });
   levelSelect?.addEventListener('change', () => {
     const language = languageSelect?.value || learningPathState.language;
@@ -2131,7 +1682,17 @@ enableHomepageActions();
 loadProgress();
 setupLearningPathControls();
 initScrollReveal();
+showView(getViewFromHash());
 document.querySelector('.lesson-complete-btn')?.addEventListener('click', completeActiveLesson);
+
+document.querySelectorAll('.nav-group a[data-scroll-target]').forEach(link => {
+  link.addEventListener('click', () => {
+    const targetId = link.dataset.scrollTarget;
+    window.setTimeout(() => {
+      document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
+  });
+});
 
 // Waits for the signed-in user's saved language/level (if any) before the
 // first render, so the learning path never flashes English A1 and then

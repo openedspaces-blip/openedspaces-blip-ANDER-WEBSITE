@@ -126,14 +126,19 @@ test('browser world files expose level content and lesson previews for every sup
   }
 });
 
-test('language tab buttons point to existing panels', () => {
+test('single-view router sections exist for every nav destination', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
-  const targets = [...html.matchAll(/class="tab-button[^"]*".*?data-target="([^"]+)"/g)].map((match) => match[1]);
+  // The old per-language .tab-button/#tab-<lang> system was removed in favor
+  // of one dynamic lesson workspace (#learning-path) shared by every
+  // language - assert it's gone, not just that the new sections exist.
+  assert.doesNotMatch(html, /class="tab-button/);
+  assert.doesNotMatch(html, /id="tab-english"/);
 
-  assert.deepEqual(targets, ['english', 'espanol', 'frances', 'italiano', 'deutsch', 'ai-tutor']);
-  for (const target of targets) {
-    assert.match(html, new RegExp(`id="tab-${target}"`));
+  for (const id of ['progress', 'language-picker', 'learning-path', 'achievements', 'goals', 'tutor', 'premium']) {
+    assert.match(html, new RegExp(`id="${id}"`), `expected a section with id="${id}"`);
   }
+  assert.match(html, /class="nav-group nav-group-visitor"/);
+  assert.match(html, /class="nav-group nav-group-member"/);
 });
 
 test('ai tutor panel includes freeform prompt input and context badges', () => {

@@ -234,6 +234,33 @@ a:focus-visible {
   border-radius: 999px;
 }
 
+.menu a.active {
+  color: var(--blue);
+}
+
+.menu a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 2px;
+  background: linear-gradient(135deg, var(--blue), var(--cyan));
+  border-radius: 999px;
+}
+
+/* Two mutually-exclusive nav link sets (visitor vs signed-in member),
+   toggled by renderAuthState() in script.js. display:contents keeps each
+   group's <a> children as direct flex items of .menu, matching the layout
+   .menu already had before the groups existed. */
+.nav-group {
+  display: contents;
+}
+
+.nav-group[hidden] {
+  display: none;
+}
+
 .nav-actions {
   display: flex;
   align-items: center;
@@ -299,6 +326,10 @@ a:focus-visible {
   display: inline-block;
   transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
   position: relative;
+}
+
+.signup[hidden], .primary-btn[hidden] {
+  display: none;
 }
 
 .signup:hover, .primary-btn:hover,
@@ -698,6 +729,10 @@ a:focus-visible {
 .signup-pending {
   display: grid;
   gap: 14px;
+}
+
+.signup-pending[hidden] {
+  display: none;
 }
 
 .signup-pending-heading {
@@ -2240,6 +2275,17 @@ footer small {
   font-size: 0.95rem;
 }
 
+.tutor-connection-status {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(34, 197, 94, 0.12);
+  color: #15803d;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
 .tutor-input-group {
   display: flex;
   flex-direction: column;
@@ -2372,6 +2418,60 @@ footer small {
   white-space: nowrap;
 }
 
+/* Home hero card: compact signed-in summary vs. guest invite */
+.home-summary-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 12px;
+}
+
+.home-summary-row[hidden] {
+  display: none;
+}
+
+.home-summary-row .progress-circle {
+  margin: 0;
+  width: 96px;
+  height: 96px;
+  font-size: 1.4rem;
+}
+
+.goal-summary {
+  text-align: center;
+  font-size: .9rem;
+  color: var(--muted);
+}
+
+.goal-summary strong {
+  display: block;
+  color: var(--navy-2);
+  font-size: 1rem;
+}
+
+.home-guest-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.home-guest-actions[hidden] {
+  display: none;
+}
+
+.home-pricing-teaser {
+  margin-top: 18px;
+  font-size: .92rem;
+  color: var(--muted);
+}
+
+.home-pricing-teaser a {
+  color: var(--blue);
+  font-weight: 800;
+  margin-left: 6px;
+}
+
 /* Goals section */
 .goals-layout {
   display: grid;
@@ -2449,6 +2549,13 @@ footer small {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 16px;
+  margin-bottom: 12px;
+}
+
+.progress-gamification-line {
+  font-size: .92rem;
+  font-weight: 700;
+  color: var(--blue);
   margin-bottom: 28px;
 }
 
@@ -2500,6 +2607,10 @@ footer small {
   gap: 10px;
   flex-wrap: wrap;
   margin: 14px 0;
+}
+
+.dashboard-goal-form[hidden] {
+  display: none;
 }
 
 .dashboard-goal-form select {
@@ -3361,6 +3472,51 @@ footer small {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--line);
+}
+
+.learn-back-to-route {
+  display: inline-block;
+  border: none;
+  background: none;
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.learn-back-to-route:hover {
+  text-decoration: underline;
+}
+
+.compact-skills-row {
+  margin-bottom: 1.5rem;
+}
+
+.compact-skills-row.features-grid {
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+}
+
+/* .features-grid article's dark-section styling (rgba white-on-transparent)
+   doesn't apply here - this row now lives in #learning-path, a light
+   section, not the removed standalone dark #skills section. */
+.compact-skills-row.features-grid article {
+  background: var(--surface);
+  border-color: rgba(96, 165, 250, .15);
+}
+
+.compact-skills-row .skill-competency-card {
+  padding: 0.85rem;
+  text-align: center;
+}
+
+.compact-skills-row .icon {
+  font-size: 1.3rem;
+}
+
+.compact-skills-row h3 {
+  font-size: 0.85rem;
 }
 
 .lesson-kicker {
