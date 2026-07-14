@@ -701,6 +701,29 @@ a:focus-visible {
   font-size: .95rem;
 }
 
+.signup-fields {
+  display: grid;
+  gap: 18px;
+}
+
+.signup-pending {
+  display: grid;
+  gap: 14px;
+}
+
+.signup-pending-message {
+  color: var(--navy-2);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.signup-pending .primary-btn,
+.signup-pending .secondary-btn {
+  width: 100%;
+  padding: 16px 20px;
+  font-size: 1rem;
+}
+
 .skill-tabs {
   border: 1px solid rgba(96, 165, 250, .18);
   border-radius: 32px;

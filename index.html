@@ -1325,17 +1325,24 @@
 
           <form class="auth-form" id="signupForm">
             <h3>Registrarse</h3>
-            <label>Nombre
-              <input type="text" placeholder="Tu nombre" required />
-            </label>
-            <label>Correo electrónico
-              <input type="email" placeholder="tu@correo.com" required />
-            </label>
-            <label>Contraseña
-              <input type="password" placeholder="Contraseña" required />
-            </label>
-            <button type="submit" class="primary-btn">Crear cuenta</button>
-            <p class="auth-note">Al crear cuenta aceptas nuestros términos de uso.</p>
+            <div class="signup-fields">
+              <label>Nombre
+                <input type="text" placeholder="Tu nombre" required />
+              </label>
+              <label>Correo electrónico
+                <input type="email" placeholder="tu@correo.com" required />
+              </label>
+              <label>Contraseña
+                <input type="password" placeholder="Contraseña" required />
+              </label>
+              <button type="submit" class="primary-btn">Crear cuenta</button>
+              <p class="auth-note">Al crear cuenta aceptas nuestros términos de uso.</p>
+            </div>
+            <div class="signup-pending" id="signupPending" hidden>
+              <p class="signup-pending-message"></p>
+              <button type="button" class="secondary-btn" data-action="resend-confirmation">Reenviar correo de confirmación</button>
+              <button type="button" class="primary-btn" data-action="go-to-login">Ir a iniciar sesión</button>
+            </div>
           </form>
         </div>
       </div>

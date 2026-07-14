@@ -668,6 +668,7 @@ function openModal(panel) {
     form.classList.toggle('active', form.id === `${panel}Form`);
   });
   clearAuthMessages();
+  resetSignupPending();
 }
 
 function closeAuth() {
@@ -1032,6 +1033,15 @@ function attachAuthHandlers() {
           email: payload.email,
           password: payload.password
         });
+
+        // Pending email confirmation is not a signed-in state: no session,
+        // no dashboard/progress load, modal stays open showing the pending
+        // screen instead of closing.
+        if (isSignup && data.requiresEmailConfirmation) {
+          showSignupPending(payload.email);
+          return;
+        }
+
         saveSession(data.user, data.session);
         setAuthMessage(`Bienvenido${authStatus.user?.name ? `, ${authStatus.user.name}` : ''}!`, false);
         await loadProgress();
@@ -1045,6 +1055,58 @@ function attachAuthHandlers() {
     });
   });
 }
+
+let lastSignupEmail = '';
+
+function showSignupPending(email) {
+  lastSignupEmail = email;
+  const fields = document.querySelector('#signupForm .signup-fields');
+  const pending = document.getElementById('signupPending');
+  if (fields) fields.hidden = true;
+  if (pending) {
+    pending.hidden = false;
+    const messageEl = pending.querySelector('.signup-pending-message');
+    if (messageEl) {
+      messageEl.textContent = `Te enviamos un enlace de confirmación a ${email}. Revisa también la carpeta de spam.`;
+    }
+  }
+}
+
+function resetSignupPending() {
+  const fields = document.querySelector('#signupForm .signup-fields');
+  const pending = document.getElementById('signupPending');
+  if (fields) fields.hidden = false;
+  if (pending) pending.hidden = true;
+}
+
+document.getElementById('signupPending')?.addEventListener('click', async event => {
+  const button = event.target.closest('[data-action]');
+  if (!button) return;
+
+  if (button.dataset.action === 'go-to-login') {
+    resetSignupPending();
+    openModal('login');
+    return;
+  }
+
+  if (button.dataset.action === 'resend-confirmation') {
+    button.disabled = true;
+    try {
+      const response = await fetch(`${backendBaseUrl}/api/auth/resend-confirmation`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: lastSignupEmail })
+      });
+      const data = await response.json().catch(() => ({}));
+      showHomeToast(data.message || 'Si existe una cuenta pendiente para ese correo, enviaremos un nuevo enlace.');
+    } catch (error) {
+      console.warn('Could not resend confirmation email', error);
+      showHomeToast('No se pudo reenviar el correo. Intenta de nuevo más tarde.');
+    } finally {
+      button.disabled = false;
+    }
+  }
+});
 
 const learningPathState = {
   lessons: [],
