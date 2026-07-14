@@ -1138,19 +1138,43 @@ function renderSkillCards() {
     const progressWrap = card.querySelector('.skill-card-progress');
     const xpEl = card.querySelector('.skill-card-xp');
 
-    if (skill === 'listening') {
-      if (statusEl) { statusEl.textContent = 'Próximamente'; statusEl.className = 'skill-card-status skill-card-status-soon'; }
-      if (progressWrap) progressWrap.hidden = true;
-      if (xpEl) xpEl.textContent = '';
-      card.setAttribute('aria-label', 'Listening: próximamente');
-      return;
-    }
-
     const lesson = learningPathState.lessons.find(item => item.skill === skill);
     if (!lesson) {
       if (statusEl) { statusEl.textContent = learningPathState.lessons.length ? 'No disponible en este nivel' : 'Cargando…'; statusEl.className = 'skill-card-status skill-card-status-loading'; }
       if (progressWrap) progressWrap.hidden = true;
       if (xpEl) xpEl.textContent = '';
+      return;
+    }
+
+    // Listening's status depends on which audio source is actually
+    // available (GET /api/listening/audio) rather than being permanently
+    // "Próximamente" - see spec §12's 3 real states.
+    if (skill === 'listening') {
+      if (statusEl) { statusEl.textContent = 'Comprobando disponibilidad…'; statusEl.className = 'skill-card-status skill-card-status-loading'; }
+      if (progressWrap) progressWrap.hidden = true;
+      if (xpEl) xpEl.textContent = '';
+      card.setAttribute('aria-label', 'Listening: comprobando disponibilidad');
+      fetchListeningAudioStatus(lesson).then(data => {
+        if (!statusEl) return;
+        const { total, attempted } = getExerciseProgress(lesson);
+        const pct = total ? Math.round((attempted / total) * 100) : 0;
+        if (data.status === 'official') {
+          statusEl.textContent = 'Disponible';
+          statusEl.className = 'skill-card-status skill-card-status-available';
+          if (progressWrap) { progressWrap.hidden = false; progressWrap.setAttribute('aria-label', `Progreso: ${pct}%`); }
+          if (progressBar) progressBar.style.width = `${pct}%`;
+          if (xpEl) xpEl.textContent = `+${lesson.xpReward || 20} XP`;
+          card.setAttribute('aria-label', `Listening: disponible, ${pct}% completado, ${lesson.xpReward || 20} XP`);
+        } else if (data.status === 'ai-available') {
+          statusEl.textContent = 'Práctica IA disponible';
+          statusEl.className = 'skill-card-status skill-card-status-available';
+          card.setAttribute('aria-label', 'Listening: práctica generada por IA disponible');
+        } else {
+          statusEl.textContent = 'Intenta más tarde';
+          statusEl.className = 'skill-card-status skill-card-status-soon';
+          card.setAttribute('aria-label', 'Listening: intenta más tarde');
+        }
+      });
       return;
     }
 
@@ -1167,11 +1191,11 @@ function renderSkillCards() {
 // ---------------------------------------------------------------------
 // Dedicated skill views (Reading/Writing/Speaking/Grammar/Vocabulary each
 // get their own routed view instead of swapping content inside the small
-// #learning-path lesson-workspace card; Listening stays a placeholder
-// until real audio exists - see docs/audio-architecture.md).
+// #learning-path lesson-workspace card). Listening is now a real view too -
+// see the dedicated Listening block further below for its audio-source/
+// player/transcript/question logic and docs/audio-architecture.md for the
+// two-source (official vs AI-generated) design.
 // ---------------------------------------------------------------------
-
-const LISTENING_AUDIO_STATUS = 'unavailable'; // 'unavailable' | 'preparing' | 'available'
 
 // Writes the bridge/target/level pills + "Aprenderás X con apoyo en Y"
 // sentence shared by every skill view header, from the same state
@@ -1232,11 +1256,6 @@ function renderSkillView(skill) {
   if (!section) return;
   renderSkillViewHeader(section);
 
-  if (skill === 'listening') {
-    renderListeningView(section);
-    return;
-  }
-
   const content = section.querySelector('.skill-view-content');
   if (!learningPathState.lessons.length) {
     if (content) content.innerHTML = `<p class="skill-graph-empty">Preparando ${SKILL_LABELS[skill] || skill}…</p>`;
@@ -1252,6 +1271,7 @@ function renderSkillView(skill) {
   }
 
   const renderers = {
+    listening: renderListeningView,
     reading: renderReadingView,
     writing: renderWritingView,
     speaking: renderSpeakingView,
@@ -1464,20 +1484,580 @@ function renderVocabularyView(section, lesson) {
   `;
 }
 
-function renderListeningView(section) {
-  const content = section.querySelector('.skill-view-content');
-  if (!content) return;
-  // audioStatus is always 'unavailable' today - see docs/audio-architecture.md
-  // for the planned Supabase Storage layout that will eventually flip this
-  // to 'preparing'/'available'. No lesson lookup, no XP, no completion.
-  content.innerHTML = `
-    <div class="listening-soon">
-      <div class="listening-soon-icon">🎧</div>
-      <p class="listening-soon-status">Próximamente</p>
-      <p class="listening-soon-text">Estamos preparando audios reales organizados por idioma, nivel y lección.</p>
-      <p class="listening-soon-detail">Cada lección incluirá un audio a velocidad normal y otro más lento, con transcripción, para practicar comprensión auditiva real en cuanto estén disponibles (estado actual: ${LISTENING_AUDIO_STATUS}).</p>
+// ---------------------------------------------------------------------
+// Listening: real player + dual audio source (official Supabase-hosted
+// audio if published, otherwise an ephemeral AI-generated practice) +
+// transcript + comprehension questions + Tutor IA context. See
+// docs/audio-architecture.md for the two-source design and why
+// AI-generated audio is never persisted in this phase.
+// ---------------------------------------------------------------------
+
+// Caches the /api/listening/audio status lookup per language+level+lesson so
+// re-rendering after answering a comprehension question (see the
+// .mcq-option handler) never refetches or rebuilds the <audio> element,
+// which would otherwise reset playback to 0.
+const listeningAudioStatusCache = new Map();
+// Per-lesson UI-only state (never sent to the backend as truth): whether the
+// transcript has been revealed, whether the student has pressed play at
+// least once (drives the A1/A2 transcript gate), and the currently active
+// AI-generated practice (if any) with its locally-graded answers.
+const listeningViewRuntime = new Map();
+
+function listeningStatusCacheKey(lesson) {
+  return `${learningPathState.language}|${learningPathState.level}|${lesson.slug}`;
+}
+
+function getListeningRuntime(lesson) {
+  let runtime = listeningViewRuntime.get(lesson.slug);
+  if (!runtime) {
+    runtime = { transcriptRevealed: false, hasPlayedOnce: false, transcriptSoftGateOverride: false, aiPractice: null, aiAnswers: {}, usingSlow: false };
+    listeningViewRuntime.set(lesson.slug, runtime);
+  }
+  return runtime;
+}
+
+async function fetchListeningAudioStatus(lesson) {
+  const key = listeningStatusCacheKey(lesson);
+  if (listeningAudioStatusCache.has(key)) return listeningAudioStatusCache.get(key);
+  const promise = (async () => {
+    try {
+      const params = new URLSearchParams({ language: learningPathState.language, level: learningPathState.level, lessonSlug: lesson.slug });
+      const response = await fetch(`${backendBaseUrl}/api/listening/audio?${params.toString()}`, { headers: authHeaders() });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(data.error || 'No se pudo consultar el audio de Listening.');
+      return data;
+    } catch (error) {
+      return { status: 'error', error: error.message || 'No se pudo consultar el audio de Listening.' };
+    }
+  })();
+  listeningAudioStatusCache.set(key, promise);
+  return promise;
+}
+
+function formatListeningTime(seconds) {
+  if (!Number.isFinite(seconds) || seconds < 0) return '0:00';
+  const m = Math.floor(seconds / 60);
+  const s = Math.floor(seconds % 60);
+  return `${m}:${String(s).padStart(2, '0')}`;
+}
+
+function getListeningAllAttempted(lesson, runtime) {
+  if (runtime.aiPractice) {
+    const total = runtime.aiPractice.questions?.length || 0;
+    const attempted = Object.keys(runtime.aiAnswers || {}).length;
+    return total > 0 && attempted >= total;
+  }
+  return getExerciseProgress(lesson).allAttempted;
+}
+
+// A1/A2: gently discourage reading before listening, but never hard-block
+// (accessibility escape hatch). B1/B2: on demand. C1/C2: only as review,
+// after every question has been attempted.
+function getTranscriptGateState(level, runtime, allAttempted) {
+  if (level === 'C1' || level === 'C2') return allAttempted ? 'open' : 'locked-until-review';
+  if (level === 'A1' || level === 'A2') return (runtime.hasPlayedOnce || runtime.transcriptSoftGateOverride) ? 'open' : 'soft-gate';
+  return 'open';
+}
+
+async function generateAiListeningPractice(lesson, topic) {
+  const response = await fetch(`${backendBaseUrl}/api/listening/generate`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeaders() },
+    body: JSON.stringify({
+      bridgeLanguage: currentBridgeLanguage,
+      targetLanguage: learningPathState.language,
+      level: learningPathState.level,
+      topic: topic || lesson.title || 'greetings',
+      durationSeconds: 30
+    })
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok || !data.success) throw new Error(data.error || 'No se pudo generar la práctica de Listening.');
+  return data;
+}
+
+function renderAiListeningQuestions(lesson, runtime) {
+  const questions = runtime.aiPractice?.questions || [];
+  if (!questions.length) return '<p class="skill-graph-empty">Esta práctica no incluyó preguntas de comprensión.</p>';
+  return questions.map((q, index) => {
+    const recorded = runtime.aiAnswers[index];
+    const optionsHtml = (q.options || []).map((opt, optIndex) => {
+      const isChosen = recorded && recorded.selectedIndex === optIndex;
+      const cls = isChosen ? (recorded.correct ? 'correct' : 'incorrect') : '';
+      const disabled = recorded ? 'disabled' : '';
+      return `<button type="button" class="mcq-option ai-listening-option ${cls}" data-question-index="${index}" data-option-index="${optIndex}" ${disabled}>${escapeHtml(opt)}</button>`;
+    }).join('');
+    const answeredClass = recorded ? `answered ${recorded.correct ? 'is-correct' : 'is-incorrect'}` : '';
+    const feedbackText = recorded ? (recorded.correct ? '¡Correcto!' : 'No es correcto. Puedes pedirle al Tutor IA que te explique por qué.') : '';
+    return `
+      <div class="mcq-question lesson-exercise ${answeredClass}" data-question-index="${index}">
+        <strong>${index + 1}. ${escapeHtml(q.prompt)}</strong>
+        <div class="mcq-options">${optionsHtml}</div>
+        <span class="mcq-feedback" aria-live="polite">${feedbackText}</span>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderListeningTranscriptControls(content, lesson, runtime) {
+  const controlsEl = content.querySelector('.listening-transcript-controls');
+  const textEl = content.querySelector('.listening-transcript-text');
+  if (!controlsEl || !textEl) return;
+  const allAttempted = getListeningAllAttempted(lesson, runtime);
+  const gate = getTranscriptGateState(lesson.level, runtime, allAttempted);
+
+  if (gate === 'locked-until-review') {
+    controlsEl.innerHTML = `
+      <button type="button" class="secondary-btn listening-transcript-toggle" disabled>Ver transcripción</button>
+      <p class="listening-transcript-note">Disponible como repaso después de responder todas las preguntas.</p>
+    `;
+    textEl.hidden = true;
+    return;
+  }
+
+  if (gate === 'soft-gate') {
+    controlsEl.innerHTML = `
+      <button type="button" class="secondary-btn listening-transcript-toggle" disabled>Ver transcripción</button>
+      <p class="listening-transcript-note">Te recomendamos escuchar el audio primero.
+        <button type="button" class="secondary-btn listening-transcript-override-btn">Ver de todas formas</button>
+      </p>
+    `;
+    textEl.hidden = true;
+    controlsEl.querySelector('.listening-transcript-override-btn')?.addEventListener('click', () => {
+      runtime.transcriptSoftGateOverride = true;
+      runtime.transcriptRevealed = true;
+      textEl.hidden = false;
+      renderListeningTranscriptControls(content, lesson, runtime);
+    });
+    return;
+  }
+
+  controlsEl.innerHTML = `<button type="button" class="secondary-btn listening-transcript-toggle">${runtime.transcriptRevealed ? 'Ocultar transcripción' : 'Ver transcripción'}</button>`;
+  textEl.hidden = !runtime.transcriptRevealed;
+  controlsEl.querySelector('.listening-transcript-toggle')?.addEventListener('click', () => {
+    runtime.transcriptRevealed = !runtime.transcriptRevealed;
+    textEl.hidden = !runtime.transcriptRevealed;
+    renderListeningTranscriptControls(content, lesson, runtime);
+  });
+}
+
+function buildListeningPlayerMarkup({ sourceLabel, sourceIsAi, title }) {
+  return `
+    <div class="listening-source-banner ${sourceIsAi ? 'is-ai' : 'is-official'}">
+      <span class="listening-source-label">${escapeHtml(sourceLabel)}</span>
+      ${sourceIsAi ? '<p class="listening-ai-disclosure">Práctica generada por IA. No es una grabación humana.</p>' : ''}
+    </div>
+    <h3 class="listening-title">${escapeHtml(title)}</h3>
+    <div class="listening-player" data-state="preparing">
+      <audio class="listening-audio-el" preload="metadata"></audio>
+      <p class="listening-player-status" role="status" aria-live="polite">Preparando audio…</p>
+      <div class="listening-player-controls">
+        <button type="button" class="listening-ctrl-btn listening-play-btn" aria-label="Reproducir" disabled>▶ Reproducir</button>
+        <button type="button" class="listening-ctrl-btn listening-restart-btn" aria-label="Reiniciar" disabled>⏮ Reiniciar</button>
+        <button type="button" class="listening-ctrl-btn listening-repeat-btn" aria-label="Repetir audio" aria-pressed="false" disabled>🔁 Repetir</button>
+        <button type="button" class="listening-ctrl-btn listening-speed-btn" aria-label="Cambiar a velocidad lenta" disabled>🐢 Velocidad lenta</button>
+      </div>
+      <div class="listening-player-progress-row">
+        <span class="listening-time-elapsed" aria-hidden="true">0:00</span>
+        <input type="range" class="listening-progress-range" min="0" max="100" value="0" step="1" aria-label="Progreso del audio" disabled>
+        <span class="listening-time-duration" aria-hidden="true">0:00</span>
+      </div>
+      <label class="listening-volume-row">
+        Volumen
+        <input type="range" class="listening-volume-range" min="0" max="1" step="0.05" value="1" aria-label="Volumen">
+      </label>
+    </div>
+    <div class="listening-transcript">
+      <div class="listening-transcript-controls"></div>
+      <div class="listening-transcript-text" hidden></div>
     </div>
   `;
+}
+
+function wireListeningPlayerControls(content, lesson, runtime, meta) {
+  const playerEl = content.querySelector('.listening-player');
+  const audioEl = content.querySelector('.listening-audio-el');
+  const statusEl = content.querySelector('.listening-player-status');
+  const playBtn = content.querySelector('.listening-play-btn');
+  const restartBtn = content.querySelector('.listening-restart-btn');
+  const repeatBtn = content.querySelector('.listening-repeat-btn');
+  const speedBtn = content.querySelector('.listening-speed-btn');
+  const elapsedEl = content.querySelector('.listening-time-elapsed');
+  const durationEl = content.querySelector('.listening-time-duration');
+  const rangeEl = content.querySelector('.listening-progress-range');
+  const volumeEl = content.querySelector('.listening-volume-range');
+  const textEl = content.querySelector('.listening-transcript-text');
+  if (!audioEl || !playerEl) return;
+
+  if (textEl) textEl.textContent = meta.transcript || '';
+  renderListeningTranscriptControls(content, lesson, runtime);
+
+  const setState = (state, statusText) => {
+    playerEl.dataset.state = state;
+    if (statusText && statusEl) statusEl.textContent = statusText;
+  };
+
+  const enableControls = () => {
+    [playBtn, restartBtn, repeatBtn, speedBtn, rangeEl].forEach(el => { if (el) el.disabled = false; });
+    if (speedBtn && !meta.slowUrl) speedBtn.title = 'No hay versión lenta grabada: se reduce la velocidad de reproducción del mismo audio.';
+  };
+
+  audioEl.addEventListener('loadstart', () => setState('loading', 'Cargando audio…'));
+  audioEl.addEventListener('loadedmetadata', () => {
+    if (Number.isFinite(audioEl.duration) && durationEl) durationEl.textContent = formatListeningTime(audioEl.duration);
+    if (playerEl.dataset.state === 'preparing' || playerEl.dataset.state === 'loading') setState('ready', 'Listo para reproducir.');
+    enableControls();
+  });
+  audioEl.addEventListener('timeupdate', () => {
+    if (elapsedEl) elapsedEl.textContent = formatListeningTime(audioEl.currentTime);
+    if (rangeEl && Number.isFinite(audioEl.duration) && audioEl.duration > 0) {
+      rangeEl.value = String(Math.round((audioEl.currentTime / audioEl.duration) * 100));
+    }
+  });
+  audioEl.addEventListener('play', () => {
+    setState('playing', 'Reproduciendo…');
+    if (playBtn) { playBtn.textContent = '⏸ Pausa'; playBtn.setAttribute('aria-label', 'Pausar'); }
+    if (!runtime.hasPlayedOnce) {
+      runtime.hasPlayedOnce = true;
+      renderListeningTranscriptControls(content, lesson, runtime);
+    }
+  });
+  audioEl.addEventListener('pause', () => {
+    if (playerEl.dataset.state !== 'completed') setState('paused', 'En pausa.');
+    if (playBtn) { playBtn.textContent = '▶ Reproducir'; playBtn.setAttribute('aria-label', 'Reproducir'); }
+  });
+  audioEl.addEventListener('ended', () => {
+    setState('completed', 'Audio completado.');
+    if (playBtn) { playBtn.textContent = '▶ Reproducir'; playBtn.setAttribute('aria-label', 'Reproducir de nuevo'); }
+  });
+  audioEl.addEventListener('error', () => {
+    setState('error', 'No pudimos cargar este audio. Reintentar.');
+    [playBtn, restartBtn, repeatBtn, speedBtn, rangeEl].forEach(el => { if (el) el.disabled = true; });
+  });
+
+  playBtn?.addEventListener('click', () => {
+    if (audioEl.paused || audioEl.ended) audioEl.play().catch(() => setState('error', 'No pudimos reproducir este audio. Reintentar.'));
+    else audioEl.pause();
+  });
+  restartBtn?.addEventListener('click', () => {
+    audioEl.currentTime = 0;
+    if (elapsedEl) elapsedEl.textContent = '0:00';
+    if (rangeEl) rangeEl.value = '0';
+  });
+  repeatBtn?.addEventListener('click', () => {
+    audioEl.loop = !audioEl.loop;
+    repeatBtn.setAttribute('aria-pressed', String(audioEl.loop));
+    repeatBtn.classList.toggle('is-active', audioEl.loop);
+  });
+  speedBtn?.addEventListener('click', () => {
+    const wasPlaying = !audioEl.paused;
+    runtime.usingSlow = !runtime.usingSlow;
+    if (meta.slowUrl) {
+      audioEl.src = runtime.usingSlow ? meta.slowUrl : meta.mainUrl;
+      audioEl.playbackRate = 1;
+      setState('loading', 'Cargando audio…');
+      audioEl.load();
+      if (wasPlaying) audioEl.addEventListener('loadedmetadata', () => audioEl.play().catch(() => {}), { once: true });
+    } else {
+      audioEl.playbackRate = runtime.usingSlow ? 0.75 : 1;
+    }
+    speedBtn.textContent = runtime.usingSlow ? '🐇 Velocidad normal' : '🐢 Velocidad lenta';
+    speedBtn.setAttribute('aria-label', runtime.usingSlow ? 'Cambiar a velocidad normal' : 'Cambiar a velocidad lenta');
+  });
+  rangeEl?.addEventListener('input', () => {
+    if (Number.isFinite(audioEl.duration) && audioEl.duration > 0) {
+      audioEl.currentTime = (Number(rangeEl.value) / 100) * audioEl.duration;
+    }
+  });
+  volumeEl?.addEventListener('input', () => { audioEl.volume = Number(volumeEl.value); });
+
+  audioEl.src = meta.mainUrl;
+  audioEl.load();
+}
+
+function listeningTutorButtonsHtml(lesson, ctx) {
+  const { transcript = '', vocabulary = '', currentQuestion = '', selectedAnswer = '', canRegenerate = false } = ctx;
+  const esc = value => escapeHtml(value || '');
+  const firstWord = (lesson.vocabulary || [])[0]?.word || '';
+  return `
+    <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="hint" data-tutor-prompt="Dame una pista para responder la pregunta actual, sin darme la respuesta." data-tutor-transcript="${esc(transcript)}" data-tutor-current-question="${esc(currentQuestion)}">Dame una pista</button>
+    <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="explain" data-tutor-prompt="Explícame esta palabra: ${esc(firstWord)}" data-tutor-transcript="${esc(transcript)}" data-tutor-vocabulary="${esc(vocabulary)}">Explícame esta palabra</button>
+    <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="explain" data-tutor-prompt="Repite la idea principal del audio en frases más simples." data-tutor-transcript="${esc(transcript)}">Repite la idea principal</button>
+    <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice" data-tutor-prompt="Crea otra pregunta de comprensión sobre este audio." data-tutor-transcript="${esc(transcript)}">Crea otra pregunta</button>
+    <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice" data-tutor-prompt="Ayúdame a practicar este vocabulario." data-tutor-vocabulary="${esc(vocabulary)}">Practicar vocabulario</button>
+    <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="explain" data-tutor-prompt="Explícame por qué mi respuesta está mal." data-tutor-transcript="${esc(transcript)}" data-tutor-current-question="${esc(currentQuestion)}" data-tutor-selected-answer="${esc(selectedAnswer)}">Explícame por qué mi respuesta está mal</button>
+    ${canRegenerate ? '<button type="button" class="secondary-btn listening-regenerate-btn">Generar una práctica parecida</button>' : ''}
+  `;
+}
+
+async function completeListeningLesson(lesson, content) {
+  if (lesson.locked) { handleHomeAction('upgrade'); return; }
+  const btn = content.querySelector('.listening-complete-btn');
+  const { allAttempted } = getExerciseProgress(lesson);
+  if (!allAttempted) {
+    content.querySelector('.listening-questions')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    showHomeToast('Responde las preguntas de comprensión para poder completar esta actividad.');
+    return;
+  }
+  if (!authStatus.session?.access_token) {
+    setAuthMessage('Crea tu cuenta gratis para guardar el progreso de Listening.');
+    openModal('signup');
+    return;
+  }
+  if (btn) { btn.disabled = true; btn.textContent = 'Guardando...'; }
+
+  const recordedResults = learningPathState.exerciseResults[lesson.slug] || {};
+  const answers = Object.entries(recordedResults).map(([index, result]) => {
+    const exerciseId = lesson.exercises?.[Number(index)]?.id;
+    return exerciseId
+      ? { exerciseId, selectedOptionId: result.selectedOption, practiced: result.practiced }
+      : { index: Number(index), selectedOption: result.selectedOption, practiced: result.practiced };
+  });
+
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/complete`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({ answers })
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.error || 'No se pudo completar la actividad de Listening.');
+
+    lesson.completed = true;
+    updateProgressDisplay(data, true);
+    renderSkillCards();
+
+    const gamResult = window.AndergoGamification?.recordLessonCompletion({
+      slug: lesson.slug, language: learningPathState.language, score: data.score ?? 100, xpReward: lesson.xpReward || 20
+    });
+    window.AndergoGamification?.syncFromServer(data);
+    if (data.newBadges?.length) data.newBadges.forEach(badge => showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`));
+    else if (gamResult?.newBadges?.length) gamResult.newBadges.forEach(badge => showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`));
+    if (data.leveledUp) showCelebration(`🎉 ¡Subiste a nivel ${data.level}!`);
+
+    showHomeToast(`Actividad de Listening completada. +${data.earnedXp || lesson.xpReward || 20} XP`);
+    if (btn) { btn.disabled = true; btn.textContent = 'Completada'; }
+  } catch (error) {
+    console.error('Could not complete listening lesson', error);
+    showHomeToast(error.message || 'No se pudo completar la actividad de Listening.');
+    if (btn) { btn.disabled = false; btn.textContent = 'Completar'; }
+  }
+}
+
+function computeListeningTutorQuestionContext(lesson) {
+  const results = learningPathState.exerciseResults[lesson.slug] || {};
+  const exercises = (lesson.exercises || []).filter(item => item.type === 'mcq');
+  const nextUnanswered = exercises.find((_, idx) => !results[idx]);
+  const answeredIndexes = Object.keys(results).map(Number).sort((a, b) => b - a);
+  const lastIndex = answeredIndexes[0];
+  const lastAnswered = lastIndex !== undefined ? exercises[lastIndex] : null;
+  const lastResult = lastIndex !== undefined ? results[lastIndex] : null;
+  return {
+    currentQuestion: nextUnanswered?.prompt || lastAnswered?.prompt || '',
+    selectedAnswer: lastResult ? String(lastResult.selectedOption) : ''
+  };
+}
+
+function renderListeningOfficial(content, lesson, runtime, audio) {
+  const { total, attempted, allAttempted } = getExerciseProgress(lesson);
+  const pct = total ? Math.round((attempted / total) * 100) : 0;
+  const exercisesHtml = (lesson.exercises || []).filter(item => item.type === 'mcq')
+    .map((item, index) => renderLessonExercise(item, index, lesson)).join('');
+  const objective = lesson.mission || lesson.intro || lesson.description || '';
+  const durationLabel = audio.duration ? `${Math.round(audio.duration)}s` : 'No especificada';
+  const tutorCtx = computeListeningTutorQuestionContext(lesson);
+
+  content.innerHTML = `
+    <div class="listening-meta-row">
+      <span class="listening-meta-item">Objetivo: ${escapeHtml(objective)}</span>
+      <span class="listening-meta-item">Duración: ${escapeHtml(durationLabel)}</span>
+    </div>
+    ${buildListeningPlayerMarkup({ sourceLabel: 'Audio oficial', sourceIsAi: false, title: lesson.title })}
+    <div class="listening-vocab">
+      <strong>Vocabulario</strong>
+      <div class="listening-vocab-list">${(lesson.vocabulary || []).map(item => `<span class="listening-vocab-item">${escapeHtml(item.word)}<small>${escapeHtml(resolveVocabTranslation(item))}</small></span>`).join('')}</div>
+    </div>
+    <div class="listening-questions-section">
+      <h4>Preguntas de comprensión</h4>
+      <div class="listening-progress-bar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
+      <div class="listening-questions">${exercisesHtml || '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>'}</div>
+    </div>
+    <div class="skill-view-tutor-cta">
+      ${listeningTutorButtonsHtml(lesson, { transcript: audio.transcript, vocabulary: (lesson.vocabulary || []).map(v => v.word).join(', '), ...tutorCtx })}
+    </div>
+    <div class="listening-nav-row">
+      <button type="button" class="primary-btn listening-complete-btn" ${(!allAttempted || lesson.completed) ? 'disabled' : ''}>${lesson.completed ? 'Completada' : 'Completar'}</button>
+    </div>
+  `;
+
+  wireListeningPlayerControls(content, lesson, runtime, { mainUrl: audio.audioUrl, slowUrl: audio.slowAudioUrl, transcript: audio.transcript, sourceIsAi: false });
+  content.querySelector('.listening-complete-btn')?.addEventListener('click', () => completeListeningLesson(lesson, content));
+}
+
+function updateListeningOfficialQuestions(content, lesson, runtime) {
+  const questionsWrap = content.querySelector('.listening-questions');
+  const progressBar = content.querySelector('.listening-progress-bar div');
+  const progressWrap = content.querySelector('.listening-progress-bar');
+  if (!questionsWrap) return;
+  const { total, attempted, allAttempted } = getExerciseProgress(lesson);
+  const exercises = (lesson.exercises || []).filter(item => item.type === 'mcq');
+  questionsWrap.innerHTML = exercises.map((item, index) => renderLessonExercise(item, index, lesson)).join('') || '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>';
+  const pct = total ? Math.round((attempted / total) * 100) : 0;
+  if (progressBar) progressBar.style.width = `${pct}%`;
+  if (progressWrap) progressWrap.setAttribute('aria-valuenow', String(pct));
+  const completeBtn = content.querySelector('.listening-complete-btn');
+  if (completeBtn && !lesson.completed) completeBtn.disabled = !allAttempted;
+  renderListeningTranscriptControls(content, lesson, runtime);
+}
+
+function updateAiCompleteNote(content, lesson, runtime) {
+  const note = content.querySelector('.listening-ai-complete-note');
+  if (!note) return;
+  const total = runtime.aiPractice?.questions?.length || 0;
+  const attempted = Object.keys(runtime.aiAnswers || {}).length;
+  note.hidden = !(total > 0 && attempted >= total);
+}
+
+function renderListeningAiQuestionsInPlace(content, lesson, runtime) {
+  const wrap = content.querySelector('.listening-questions');
+  if (wrap) wrap.innerHTML = renderAiListeningQuestions(lesson, runtime);
+  updateAiCompleteNote(content, lesson, runtime);
+  renderListeningTranscriptControls(content, lesson, runtime);
+}
+
+function renderListeningAiPlayer(content, lesson, runtime, practice) {
+  const objective = lesson.mission || lesson.intro || lesson.description || '';
+  const durationLabel = practice.durationSeconds ? `${practice.durationSeconds}s (aprox.)` : 'No especificada';
+
+  content.innerHTML = `
+    <div class="listening-meta-row">
+      <span class="listening-meta-item">Objetivo: ${escapeHtml(objective)}</span>
+      <span class="listening-meta-item">Duración: ${escapeHtml(durationLabel)}</span>
+    </div>
+    ${buildListeningPlayerMarkup({ sourceLabel: 'Práctica de Listening generada por IA', sourceIsAi: true, title: practice.title || lesson.title })}
+    <div class="listening-vocab">
+      <strong>Vocabulario</strong>
+      <div class="listening-vocab-list">${(practice.vocabulary || []).map(item => `<span class="listening-vocab-item">${escapeHtml(item.word)}<small>${escapeHtml(item.translation || '')}</small></span>`).join('')}</div>
+    </div>
+    <div class="listening-questions-section">
+      <h4>Preguntas de comprensión</h4>
+      <div class="listening-questions">${renderAiListeningQuestions(lesson, runtime)}</div>
+      <p class="listening-ai-complete-note" hidden>Práctica completada. Esta actividad generada por IA no otorga XP - genera otra práctica o continúa con una lección oficial para ganar XP.</p>
+    </div>
+    <div class="skill-view-tutor-cta">
+      ${listeningTutorButtonsHtml(lesson, { transcript: practice.transcript, vocabulary: (practice.vocabulary || []).map(v => v.word).join(', '), canRegenerate: true })}
+    </div>
+  `;
+  wireListeningPlayerControls(content, lesson, runtime, { mainUrl: practice.audioUrl, slowUrl: practice.slowAudioUrl, transcript: practice.transcript, sourceIsAi: true });
+  updateAiCompleteNote(content, lesson, runtime);
+}
+
+function renderListeningAiOffer(content, lesson, runtime) {
+  const loggedIn = Boolean(authStatus.session?.access_token);
+  content.innerHTML = `
+    <div class="listening-status-card listening-ai-offer">
+      <div class="listening-status-icon" aria-hidden="true">🤖🎧</div>
+      <p class="listening-status-title">Todavía no hay un audio oficial para esta lección.</p>
+      <p class="listening-status-detail">Tutor IA puede preparar una práctica de Listening generada por IA: un guion adaptado a tu nivel, con vocabulario y preguntas de comprensión. Nunca se presenta como una grabación humana.</p>
+      ${loggedIn
+        ? '<button type="button" class="primary-btn listening-generate-btn">Generar práctica de Listening con IA</button>'
+        : '<p class="listening-status-detail">Inicia sesión para generar esta práctica.</p>'}
+      <p class="listening-status-error" hidden></p>
+    </div>
+  `;
+  content.querySelector('.listening-generate-btn')?.addEventListener('click', async event => {
+    const btn = event.currentTarget;
+    const errorEl = content.querySelector('.listening-status-error');
+    btn.disabled = true;
+    btn.textContent = 'Generando…';
+    try {
+      const practice = await generateAiListeningPractice(lesson);
+      runtime.aiPractice = practice;
+      runtime.aiAnswers = {};
+      runtime.transcriptRevealed = false;
+      runtime.hasPlayedOnce = false;
+      renderListeningAiPlayer(content, lesson, runtime, practice);
+    } catch (error) {
+      if (errorEl) { errorEl.hidden = false; errorEl.textContent = error.message || 'No se pudo generar la práctica.'; }
+      btn.disabled = false;
+      btn.textContent = 'Generar práctica de Listening con IA';
+    }
+  });
+}
+
+function renderListeningUnavailable(content, lesson, section) {
+  content.innerHTML = `
+    <div class="listening-status-card">
+      <div class="listening-status-icon" aria-hidden="true">🎧</div>
+      <p class="listening-status-title">Listening no está disponible todavía para esta lección.</p>
+      <p class="listening-status-detail">Aún no hay un audio oficial publicado y la práctica generada por IA no está configurada en este entorno. Intenta más tarde.</p>
+      <button type="button" class="secondary-btn listening-retry-btn">Intenta más tarde: reintentar</button>
+    </div>
+  `;
+  content.querySelector('.listening-retry-btn')?.addEventListener('click', () => {
+    listeningAudioStatusCache.delete(listeningStatusCacheKey(lesson));
+    content.dataset.listeningReady = 'false';
+    renderListeningView(section, lesson);
+  });
+}
+
+function renderListeningError(content, lesson, section, message) {
+  content.innerHTML = `
+    <div class="listening-status-card">
+      <div class="listening-status-icon" aria-hidden="true">⚠️</div>
+      <p class="listening-status-title">No pudimos cargar este audio. Reintentar.</p>
+      <p class="listening-status-detail">${escapeHtml(message || '')}</p>
+      <button type="button" class="secondary-btn listening-retry-btn">Reintentar</button>
+    </div>
+  `;
+  content.querySelector('.listening-retry-btn')?.addEventListener('click', () => {
+    listeningAudioStatusCache.delete(listeningStatusCacheKey(lesson));
+    content.dataset.listeningReady = 'false';
+    renderListeningView(section, lesson);
+  });
+}
+
+function renderListeningResolved(content, lesson, runtime, statusData, section) {
+  if (statusData.status === 'official' && statusData.audio) {
+    renderListeningOfficial(content, lesson, runtime, statusData.audio);
+    return;
+  }
+  if (statusData.status === 'ai-available') {
+    renderListeningAiOffer(content, lesson, runtime);
+    return;
+  }
+  if (statusData.status === 'error') {
+    renderListeningError(content, lesson, section, statusData.error);
+    return;
+  }
+  renderListeningUnavailable(content, lesson, section);
+}
+
+function renderListeningView(section, lesson) {
+  const content = section.querySelector('.skill-view-content');
+  if (!content) return;
+  const runtime = getListeningRuntime(lesson);
+  const key = listeningStatusCacheKey(lesson);
+
+  // Only tear down/rebuild the whole subtree (which recreates the <audio>
+  // element) the first time this lesson+language+level combination is
+  // shown - later re-renders triggered by answering an official
+  // comprehension question just refresh the questions/progress area in
+  // place (updateListeningOfficialQuestions), so playback position survives.
+  if (content.dataset.listeningKey === key && content.dataset.listeningReady === 'true') {
+    updateListeningOfficialQuestions(content, lesson, runtime);
+    return;
+  }
+
+  content.dataset.listeningKey = key;
+  content.dataset.listeningReady = 'false';
+  content.innerHTML = '<p class="skill-graph-empty">Buscando audio de Listening…</p>';
+
+  fetchListeningAudioStatus(lesson).then(statusData => {
+    if (content.dataset.listeningKey !== key) return; // navigated away meanwhile
+    content.dataset.listeningReady = 'true';
+    renderListeningResolved(content, lesson, runtime, statusData, section);
+  });
 }
 
 // ---------------------------------------------------------------------
@@ -1488,7 +2068,10 @@ function renderListeningView(section) {
 // ---------------------------------------------------------------------
 
 let tutorDrawerReturnFocus = null;
-let tutorDrawerContext = { skill: 'speaking', lessonTitle: '', lessonIntro: '', lessonSlug: '', supportMode: 'practice', currentActivity: '' };
+let tutorDrawerContext = {
+  skill: 'speaking', lessonTitle: '', lessonIntro: '', lessonSlug: '', supportMode: 'practice', currentActivity: '',
+  transcript: '', vocabulary: '', currentQuestion: '', selectedAnswer: ''
+};
 
 function openTutorDrawer(overrides = {}) {
   const drawer = document.getElementById('tutorDrawer');
@@ -1533,7 +2116,8 @@ function closeTutorDrawer() {
 async function sendTutorMessage({
   conversationEl, thinkingEl, connectionStatusEl, promptEl, sendBtn,
   skill, level, language, bridgeLanguage, lessonTitle, lessonIntro, lessonSlug,
-  currentActivity, supportMode, selectedSuggestion, fallbackPrompt
+  currentActivity, supportMode, selectedSuggestion, fallbackPrompt,
+  transcript, vocabulary, currentQuestion, selectedAnswer
 }) {
   const customPrompt = promptEl?.value.trim() || '';
   const finalPrompt = customPrompt || selectedSuggestion || fallbackPrompt || 'Quiero practicar esta habilidad.';
@@ -1556,7 +2140,9 @@ async function sendTutorMessage({
         prompt: finalPrompt, userMessage: finalPrompt,
         lessonTitle: lessonTitle || '', lessonIntro: lessonIntro || '', lessonSlug: lessonSlug || '',
         currentActivity: currentActivity || '', supportMode: supportMode || 'practice',
-        selectedSuggestion: selectedSuggestion || ''
+        selectedSuggestion: selectedSuggestion || '',
+        transcript: transcript || '', vocabulary: vocabulary || '',
+        currentQuestion: currentQuestion || '', selectedAnswer: selectedAnswer || ''
       })
     });
     const data = await response.json().catch(() => ({}));
@@ -2038,6 +2624,58 @@ function enableHomepageActions() {
       return;
     }
 
+    // AI-generated Listening questions are graded locally (no real lesson
+    // row/slug exists for ephemeral practice, so there's nothing for
+    // /api/lessons/:slug/check-answer to check against) - checked before the
+    // generic .mcq-option branch below since these buttons carry both classes.
+    const aiListeningOption = event.target.closest('.ai-listening-option');
+    if (aiListeningOption) {
+      const questionItem = aiListeningOption.closest('.mcq-question');
+      const skillSection = aiListeningOption.closest('.skill-view-section');
+      const lesson = learningPathState.lessons.find(item => item.slug === skillSection?.dataset.activeLessonSlug);
+      const runtime = lesson ? getListeningRuntime(lesson) : null;
+      if (!questionItem || questionItem.classList.contains('answered') || !runtime?.aiPractice) return;
+
+      const qIndex = Number(questionItem.dataset.questionIndex);
+      const optIndex = Number(aiListeningOption.dataset.optionIndex);
+      const question = runtime.aiPractice.questions[qIndex];
+      const correct = Number(question?.correctIndex) === optIndex;
+      runtime.aiAnswers[qIndex] = { selectedIndex: optIndex, correct };
+      if (correct) window.AndergoGamification?.recordSkillTouched('listening', learningPathState.language);
+
+      const content = skillSection?.querySelector('.skill-view-content');
+      if (content) renderListeningAiQuestionsInPlace(content, lesson, runtime);
+      return;
+    }
+
+    // "Generar una práctica parecida" (Listening's Tutor IA function): a new
+    // AI-generated script/audio on the same topic, never an exact copy.
+    const listeningRegenerateBtn = event.target.closest('.listening-regenerate-btn');
+    if (listeningRegenerateBtn) {
+      const skillSection = listeningRegenerateBtn.closest('.skill-view-section');
+      const lesson = learningPathState.lessons.find(item => item.slug === skillSection?.dataset.activeLessonSlug);
+      const content = skillSection?.querySelector('.skill-view-content');
+      if (!lesson || !content) return;
+      const runtime = getListeningRuntime(lesson);
+
+      listeningRegenerateBtn.disabled = true;
+      listeningRegenerateBtn.textContent = 'Generando…';
+      try {
+        const practice = await generateAiListeningPractice(lesson, lesson.title);
+        runtime.aiPractice = practice;
+        runtime.aiAnswers = {};
+        runtime.transcriptRevealed = false;
+        runtime.hasPlayedOnce = false;
+        renderListeningAiPlayer(content, lesson, runtime, practice);
+        showHomeToast('Nueva práctica de Listening generada.');
+      } catch (error) {
+        showHomeToast(error.message || 'No se pudo generar una nueva práctica.');
+        listeningRegenerateBtn.disabled = false;
+        listeningRegenerateBtn.textContent = 'Generar una práctica parecida';
+      }
+      return;
+    }
+
     const mcqOption = event.target.closest('.mcq-option');
     if (mcqOption) {
       const questionItem = mcqOption.closest('.mcq-question');
@@ -2077,7 +2715,16 @@ function enableHomepageActions() {
         return;
       }
 
-      renderLessonWorkspace();
+      // Re-render whichever dedicated skill view is actually on screen
+      // (Reading/Grammar/Listening each keep their own progress bar) rather
+      // than always refreshing the legacy #lessonWorkspace, which otherwise
+      // goes stale until the student navigates away and back.
+      const currentView = getViewFromHash();
+      if (SKILL_VIEWS.includes(currentView)) {
+        renderSkillView(currentView);
+      } else {
+        renderLessonWorkspace();
+      }
       return;
     }
 
@@ -2152,7 +2799,11 @@ function enableHomepageActions() {
         lessonSlug: lesson?.slug || '',
         supportMode: openTutorBtn.dataset.supportMode || 'practice',
         currentActivity: `Practicando ${SKILL_LABELS[skill] || skill}`,
-        prefill: openTutorBtn.dataset.tutorPrompt || ''
+        prefill: openTutorBtn.dataset.tutorPrompt || '',
+        transcript: openTutorBtn.dataset.tutorTranscript || '',
+        vocabulary: openTutorBtn.dataset.tutorVocabulary || '',
+        currentQuestion: openTutorBtn.dataset.tutorCurrentQuestion || '',
+        selectedAnswer: openTutorBtn.dataset.tutorSelectedAnswer || ''
       });
       return;
     }
@@ -2315,6 +2966,10 @@ function enableHomepageActions() {
       lessonSlug: tutorDrawerContext.lessonSlug,
       currentActivity: tutorDrawerContext.currentActivity || `Practicando ${SKILL_LABELS[tutorDrawerContext.skill] || tutorDrawerContext.skill}`,
       supportMode: tutorDrawerContext.supportMode,
+      transcript: tutorDrawerContext.transcript,
+      vocabulary: tutorDrawerContext.vocabulary,
+      currentQuestion: tutorDrawerContext.currentQuestion,
+      selectedAnswer: tutorDrawerContext.selectedAnswer,
       fallbackPrompt: 'Quiero practicar esta habilidad.'
     });
   });
