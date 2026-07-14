@@ -4,6 +4,17 @@ const nativeLanguageSelect = document.getElementById('nativeLanguage');
 let currentTargetLanguage = 'english';
 let currentNativeLanguage = 'es';
 
+// Bridge language: the language the student already speaks, used for
+// explanations/hints (persisted server-side as profiles.bridge_language,
+// paired with preferred_language/learningPathState.language - the target
+// language being learned). Full language names (english/spanish/...), same
+// vocabulary as learningPathState.language, unlike the older 2-letter-code
+// #nativeLanguage select which this stays in sync with for backward
+// compatibility.
+let currentBridgeLanguage = 'spanish';
+const bridgeCodeToName = { es: 'spanish', en: 'english', fr: 'french', it: 'italian', de: 'german' };
+const bridgeNameToCode = { spanish: 'es', english: 'en', french: 'fr', italian: 'it', german: 'de' };
+
 
 const premiumPriceUsd = '5.95';
 const freeLessonPolicy = {
@@ -62,7 +73,7 @@ function activateLanguageTab(targetId, options = {}) {
 
   currentTargetLanguage = targetLanguageMap[targetId] || 'english';
 
-  applyLanguageContent(currentTargetLanguage, currentNativeLanguage);
+  applyLanguageContent(currentTargetLanguage);
   document.querySelectorAll('.language-card').forEach(card => resetCardDetails(card));
 
   const activePanel = document.querySelector('.tab-panel.active');
@@ -344,14 +355,13 @@ async function loadLanguageUiContent() {
   return languageUiContentPromise;
 }
 
-function applyLanguageContent(languageKey, nativeLanguage = currentNativeLanguage) {
+function applyLanguageContent(languageKey) {
   const content = languageContent[languageKey] || languageContent.spanish || Object.values(languageContent)[0];
   if (!content) return;
 
-  if (nativeLanguageSelect) {
-    nativeLanguageSelect.value = nativeLanguage;
-  }
-
+  // Syncing the #nativeLanguage select's displayed value is handled by
+  // setBridgeLanguage() now, which also validates/persists it - this
+  // function only ever touches the target-language-themed copy below.
   const activePanel = document.querySelector('.tab-panel.active');
   if (activePanel) {
     const overviewTitle = activePanel.querySelector('.language-overview h3');
@@ -377,9 +387,56 @@ function applyLanguageContent(languageKey, nativeLanguage = currentNativeLanguag
 }
 
 nativeLanguageSelect?.addEventListener('change', event => {
-  currentNativeLanguage = event.target.value;
-  applyLanguageContent(currentTargetLanguage, currentNativeLanguage);
+  setBridgeLanguage(bridgeCodeToName[event.target.value] || 'spanish');
 });
+
+// Single source of truth for the bridge (already-known) language - keeps
+// both selects (the learning-path #pathBridgeSelect and the older
+// #nativeLanguage one) in sync, blocks bridge === target (the learning
+// path's target, learningPathState.language - the one that's actually
+// persisted alongside bridge_language server-side), and persists the
+// change. Rejects and reverts the visible selects if the pair is invalid,
+// instead of silently accepting an impossible combination.
+function setBridgeLanguage(bridgeName, options = {}) {
+  const target = learningPathState.language;
+  if (bridgeName === target) {
+    showHomeToast('El idioma puente debe ser diferente del idioma que deseas aprender.');
+    if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[currentBridgeLanguage] || 'es';
+    const staleBridgeSelect = document.getElementById('pathBridgeSelect');
+    if (staleBridgeSelect) staleBridgeSelect.value = currentBridgeLanguage;
+    return false;
+  }
+
+  currentBridgeLanguage = bridgeName;
+  if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[bridgeName] || 'es';
+  const bridgeSelect = document.getElementById('pathBridgeSelect');
+  if (bridgeSelect) bridgeSelect.value = bridgeName;
+  updatePathPairPreview();
+  if (options.persist !== false) {
+    savePreferences(learningPathState.language, learningPathState.level, bridgeName);
+  }
+  return true;
+}
+
+function updatePathPairPreview() {
+  const preview = document.getElementById('pathPairPreview');
+  if (!preview) return;
+  const targetLabel = languageDisplayNames[learningPathState.language] || learningPathState.language;
+  const bridgeLabel = languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
+  preview.textContent = `Aprenderás ${targetLabel} con apoyo en ${bridgeLabel}.`;
+}
+
+// Only the Spanish translation is real, authored data (lib/seed-lessons.json
+// vocabulary is translated into Spanish only, regardless of target
+// language - confirmed, there is no per-bridge-language dictionary yet).
+// For any other bridge language, label the Spanish text as a reference
+// instead of presenting it as a translation into the student's actual
+// bridge language - never fabricate a translation that isn't real data.
+function resolveVocabTranslation(item, bridgeLanguage = currentBridgeLanguage) {
+  if (!item?.translation) return item?.translation || '';
+  if (bridgeLanguage === 'spanish') return item.translation;
+  return `${item.translation} (referencia en español)`;
+}
 
 function renderMcqItem(question, index, languageKey) {
   // Backward compatible: older content used plain strings with no options.
@@ -511,7 +568,7 @@ function renderSkillExplorer(panel, languageKey, level) {
           </div>
           ${vocabulary.length ? `
             <div class="skill-mini-vocab">
-              ${vocabulary.slice(0, 6).map(item => `<span><strong>${escapeHtml(item.word)}</strong>${escapeHtml(item.translation || '')}</span>`).join('')}
+              ${vocabulary.slice(0, 6).map(item => `<span><strong>${escapeHtml(item.word)}</strong>${escapeHtml(resolveVocabTranslation(item))}</span>`).join('')}
             </div>
           ` : ''}
           ${reading.text ? `<p class="skill-reading-text">${escapeHtml(reading.text)}</p>` : ''}
@@ -677,6 +734,47 @@ function closeAuth() {
   document.body.classList.remove('modal-open');
 }
 
+const logoutConfirmModal = document.getElementById('logoutConfirmModal');
+let logoutConfirmReturnFocus = null;
+
+function openLogoutConfirm() {
+  if (!logoutConfirmModal) return;
+  logoutConfirmReturnFocus = document.activeElement;
+  logoutConfirmModal.classList.add('open');
+  logoutConfirmModal.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('modal-open');
+  logoutConfirmModal.querySelector('[data-action="cancel-logout"]')?.focus();
+}
+
+function closeLogoutConfirm() {
+  if (!logoutConfirmModal) return;
+  logoutConfirmModal.classList.remove('open');
+  logoutConfirmModal.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('modal-open');
+  (logoutConfirmReturnFocus || logoutButton)?.focus();
+  logoutConfirmReturnFocus = null;
+}
+
+logoutConfirmModal?.addEventListener('click', event => {
+  if (event.target === logoutConfirmModal) {
+    closeLogoutConfirm();
+    return;
+  }
+  const action = event.target.closest('[data-action]')?.dataset.action;
+  if (action === 'cancel-logout') {
+    closeLogoutConfirm();
+  } else if (action === 'confirm-logout') {
+    closeLogoutConfirm();
+    logout();
+  }
+});
+
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && logoutConfirmModal?.classList.contains('open')) {
+    closeLogoutConfirm();
+  }
+});
+
 async function postJson(path, payload) {
   const response = await fetch(`${backendBaseUrl}${path}`, {
     method: 'POST',
@@ -753,7 +851,7 @@ async function loadPreferences() {
     if (!response.ok) return null;
     const data = await response.json().catch(() => null);
     if (!data?.language || !data?.level) return null;
-    return { language: data.language, level: data.level };
+    return { language: data.language, level: data.level, bridgeLanguage: data.bridgeLanguage || 'spanish' };
   } catch (error) {
     console.warn('Could not load saved preferences', error);
     return null;
@@ -764,18 +862,25 @@ function applyPreferencesToSelects(preferences) {
   if (!preferences) return;
   const languageSelect = document.getElementById('pathLanguageSelect');
   const levelSelect = document.getElementById('pathLevelSelect');
+  const bridgeSelect = document.getElementById('pathBridgeSelect');
   if (languageSelect) languageSelect.value = preferences.language;
   if (levelSelect) levelSelect.value = preferences.level;
+  if (bridgeSelect) bridgeSelect.value = preferences.bridgeLanguage || 'spanish';
+  currentBridgeLanguage = preferences.bridgeLanguage || 'spanish';
+  if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[currentBridgeLanguage] || 'es';
+  updatePathPairPreview();
 }
 
 // Fire-and-forget: the dropdowns already reflect the choice locally, so a
-// failed save shouldn't interrupt the student's navigation.
-function savePreferences(language, level) {
+// failed save shouldn't interrupt the student's navigation. bridgeLanguage
+// is optional - omitting it (undefined) drops the key from the JSON body,
+// so the backend leaves that field unchanged.
+function savePreferences(language, level, bridgeLanguage) {
   if (!authStatus.session?.access_token) return;
   fetch(`${backendBaseUrl}/api/preferences`, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json', ...authHeaders() },
-    body: JSON.stringify({ language, level })
+    body: JSON.stringify({ language, level, bridgeLanguage })
   }).catch(error => console.warn('Could not save preferences', error));
 }
 
@@ -1086,6 +1191,10 @@ document.getElementById('signupPending')?.addEventListener('click', async event 
   if (button.dataset.action === 'go-to-login') {
     resetSignupPending();
     openModal('login');
+    // Carry the email over (never the password) so the student doesn't
+    // have to retype it - it's the same address they just registered with.
+    const loginEmailInput = document.querySelector('#loginForm input[type="email"]');
+    if (loginEmailInput) loginEmailInput.value = lastSignupEmail;
     return;
   }
 
@@ -1097,8 +1206,20 @@ document.getElementById('signupPending')?.addEventListener('click', async event 
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: lastSignupEmail })
       });
-      const data = await response.json().catch(() => ({}));
-      showHomeToast(data.message || 'Si existe una cuenta pendiente para ese correo, enviaremos un nuevo enlace.');
+      // The backend's message is always the same neutral "if this account
+      // exists" text (by design, to avoid revealing whether an email is
+      // registered) - it can't tell success and self-throttling apart, so
+      // that distinction is made here from the HTTP status instead. Hitting
+      // this endpoint's own rate limit doesn't leak anything about the
+      // account, unlike the "does it exist" question, so it's safe to be
+      // specific about it.
+      if (response.status === 429) {
+        showHomeToast('Has solicitado varios correos. Espera unos minutos antes de intentarlo nuevamente.');
+      } else if (response.ok) {
+        showHomeToast('Correo reenviado. Revisa tu bandeja de entrada y la carpeta de spam.');
+      } else {
+        showHomeToast('No se pudo reenviar el correo. Intenta de nuevo más tarde.');
+      }
     } catch (error) {
       console.warn('Could not resend confirmation email', error);
       showHomeToast('No se pudo reenviar el correo. Intenta de nuevo más tarde.');
@@ -1325,14 +1446,14 @@ function renderLessonWorkspace() {
   const vocabulary = lesson.vocabulary?.map(item => `
     <div>
       <strong>${escapeHtml(item.word)}</strong>
-      <span>${escapeHtml(item.translation)} · ${escapeHtml(item.example)}</span>
+      <span>${escapeHtml(resolveVocabTranslation(item))} · ${escapeHtml(item.example)}</span>
     </div>
   `).join('') || '';
 
   const dialogue = lesson.dialogue?.map(item => `
     <div>
       <strong>${escapeHtml(item.speaker)}: ${escapeHtml(item.line)}</strong>
-      <span>${escapeHtml(item.translation)}</span>
+      <span>${escapeHtml(resolveVocabTranslation(item))}</span>
     </div>
   `).join('') || '';
 
@@ -1533,7 +1654,7 @@ authTabs.forEach(tab => {
   tab.addEventListener('click', () => openModal(tab.dataset.form));
 });
 
-logoutButton?.addEventListener('click', logout);
+logoutButton?.addEventListener('click', openLogoutConfirm);
 
 document.querySelectorAll('.goal-card').forEach(card => {
   card.querySelector('.goal-select')?.addEventListener('click', () => {
@@ -1955,18 +2076,28 @@ function enableHomepageActions() {
 function setupLearningPathControls() {
   const languageSelect = document.getElementById('pathLanguageSelect');
   const levelSelect = document.getElementById('pathLevelSelect');
+  const bridgeSelect = document.getElementById('pathBridgeSelect');
 
   languageSelect?.addEventListener('change', () => {
     const language = languageSelect.value;
+    if (language === currentBridgeLanguage) {
+      showHomeToast('El idioma puente debe ser diferente del idioma que deseas aprender.');
+      languageSelect.value = learningPathState.language;
+      return;
+    }
     const level = levelSelect?.value || learningPathState.level;
     loadLearningPath({ language, level });
     savePreferences(language, level);
+    updatePathPairPreview();
   });
   levelSelect?.addEventListener('change', () => {
     const language = languageSelect?.value || learningPathState.language;
     const level = levelSelect.value;
     loadLearningPath({ language, level });
     savePreferences(language, level);
+  });
+  bridgeSelect?.addEventListener('change', () => {
+    setBridgeLanguage(bridgeSelect.value);
   });
 }
 

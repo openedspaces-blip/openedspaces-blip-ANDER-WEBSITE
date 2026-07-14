@@ -202,7 +202,16 @@
       </div>
 
       <div class="path-controls">
-        <label>Idioma
+        <label>Idioma que ya conoces (puente)
+          <select id="pathBridgeSelect">
+            <option value="spanish">🇪🇸 Español</option>
+            <option value="english">🇺🇸 English</option>
+            <option value="french">🇫🇷 Français</option>
+            <option value="italian">🇮🇹 Italiano</option>
+            <option value="german">🇩🇪 Deutsch</option>
+          </select>
+        </label>
+        <label>Idioma que deseas aprender (meta)
           <select id="pathLanguageSelect">
             <option value="english">🇺🇸 English</option>
             <option value="spanish">🇪🇸 Español</option>
@@ -222,6 +231,7 @@
           </select>
         </label>
       </div>
+      <p class="path-pair-preview" id="pathPairPreview" aria-live="polite"></p>
 
       <div class="learning-path-layout">
         <div class="skill-graph" id="skillGraph" aria-live="polite" aria-label="Mapa de lecciones"></div>
@@ -1338,12 +1348,23 @@
               <button type="submit" class="primary-btn">Crear cuenta</button>
               <p class="auth-note">Al crear cuenta aceptas nuestros términos de uso.</p>
             </div>
-            <div class="signup-pending" id="signupPending" hidden>
+            <div class="signup-pending" id="signupPending" role="status" aria-live="polite" hidden>
+              <h4 class="signup-pending-heading">✅ ¡Registro realizado correctamente!</h4>
               <p class="signup-pending-message"></p>
-              <button type="button" class="secondary-btn" data-action="resend-confirmation">Reenviar correo de confirmación</button>
+              <button type="button" class="secondary-btn" data-action="resend-confirmation">Reenviar correo</button>
               <button type="button" class="primary-btn" data-action="go-to-login">Ir a iniciar sesión</button>
             </div>
           </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="confirm-modal" id="logoutConfirmModal" aria-hidden="true">
+      <div class="confirm-panel" role="dialog" aria-modal="true" aria-labelledby="logoutConfirmTitle">
+        <h3 id="logoutConfirmTitle">¿Deseas cerrar sesión?</h3>
+        <div class="confirm-actions">
+          <button type="button" class="secondary-btn" data-action="cancel-logout">Cancelar</button>
+          <button type="button" class="primary-btn" data-action="confirm-logout">Sí, cerrar sesión</button>
         </div>
       </div>
     </div>

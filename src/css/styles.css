@@ -711,6 +711,12 @@ a:focus-visible {
   gap: 14px;
 }
 
+.signup-pending-heading {
+  color: var(--green);
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
 .signup-pending-message {
   color: var(--navy-2);
   font-size: 1rem;
@@ -722,6 +728,58 @@ a:focus-visible {
   width: 100%;
   padding: 16px 20px;
   font-size: 1rem;
+}
+
+/* Logout confirmation dialog - reuses .auth-modal/.auth-panel's backdrop
+   and card conventions (same tokens, same open/close pattern) since this
+   is the only other modal-like surface in the app. */
+.confirm-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 21, 47, .6);
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
+  z-index: 60;
+}
+
+.confirm-modal.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.confirm-panel {
+  width: min(420px, 90%);
+  background: white;
+  border-radius: 28px;
+  box-shadow: 0 40px 80px rgba(15, 23, 42, .25);
+  padding: 32px;
+}
+
+.confirm-panel h3 {
+  font-size: 1.4rem;
+  margin-bottom: 22px;
+}
+
+.confirm-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.confirm-actions button {
+  flex: 1;
+  min-width: 140px;
+}
+
+.path-pair-preview {
+  color: var(--blue);
+  font-weight: 700;
+  font-size: .95rem;
+  margin-top: -8px;
+  margin-bottom: 18px;
 }
 
 .skill-tabs {
