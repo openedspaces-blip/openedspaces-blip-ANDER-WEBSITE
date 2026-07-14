@@ -110,6 +110,9 @@ tabButtons.forEach(button => {
 const authModal = document.getElementById('authModal');
 const authTabs = document.querySelectorAll('.auth-tab');
 const authForms = document.querySelectorAll('.auth-form');
+document.querySelectorAll('.auth-form .auth-note').forEach(note => {
+  note.dataset.defaultText = note.textContent;
+});
 const authTriggers = document.querySelectorAll('[data-action="open-auth"]');
 const closeModal = document.querySelector('.close-modal');
 const skillTabButtons = document.querySelectorAll('.skill-tab-button');
@@ -664,6 +667,7 @@ function openModal(panel) {
   authForms.forEach(form => {
     form.classList.toggle('active', form.id === `${panel}Form`);
   });
+  clearAuthMessages();
 }
 
 function closeAuth() {
@@ -968,11 +972,23 @@ document.getElementById('dashboardGoalBody')?.addEventListener('click', async ev
   }
 });
 
+// Scoped to the currently active form - #loginForm and #signupForm each have
+// their own .auth-note, and only one is visible (.auth-form.active) at a
+// time. An unscoped querySelector('.auth-note') always grabs the login
+// form's note (first in the DOM) even while the signup tab is showing,
+// silently writing register errors into a hidden element.
 function setAuthMessage(message, isError = false) {
-  const note = document.querySelector('.auth-note');
+  const note = document.querySelector('.auth-form.active .auth-note');
   if (!note) return;
   note.textContent = message;
   note.style.color = isError ? '#dc2626' : '#0f766e';
+}
+
+function clearAuthMessages() {
+  document.querySelectorAll('.auth-form .auth-note').forEach(note => {
+    note.textContent = note.dataset.defaultText || '';
+    note.style.color = '';
+  });
 }
 
 async function logout() {
