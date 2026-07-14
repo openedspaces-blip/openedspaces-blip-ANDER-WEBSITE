@@ -20,3 +20,4 @@ git_check.txt
 * (2).*
 
 .vercel
+.env*
