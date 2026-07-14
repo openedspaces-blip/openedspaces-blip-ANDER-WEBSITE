@@ -141,6 +141,16 @@ a:focus-visible {
   outline-offset: 3px;
 }
 
+/* View titles (tabindex="-1") only ever receive focus programmatically, on
+   a hash/view change - never by mouse - so a plain :focus outline (not
+   :focus-visible) is always the right call here. */
+.hero-content h2:focus,
+.section-heading h2:focus {
+  outline: 3px solid var(--blue);
+  outline-offset: 6px;
+  border-radius: 4px;
+}
+
 .navbar {
   width: 100%;
   padding: 22px 6%;

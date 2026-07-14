@@ -55,7 +55,7 @@
     <section class="hero">
       <div class="hero-content">
         <span class="pill">Lecciones guiadas y ejercicios prácticos</span>
-        <h2>Aprende idiomas con una ruta clara y práctica real</h2>
+        <h2 tabindex="-1">Aprende idiomas con una ruta clara y práctica real</h2>
         <p>
           Practica inglés, francés, italiano, español y alemán con lecciones guiadas,
           ejercicios reales y un progreso que puedes medir cada semana.
@@ -108,7 +108,7 @@
     <section id="progress" class="section student-dashboard-section compact-hidden-section" aria-label="Tu progreso">
       <div class="section-heading">
         <span>Progreso</span>
-        <h2>Tu progreso, todo en un solo lugar.</h2>
+        <h2 tabindex="-1">Tu progreso, todo en un solo lugar.</h2>
         <p>Idioma, nivel, próxima lección y actividad reciente.</p>
       </div>
 
@@ -179,7 +179,7 @@
     <section id="learning-path" class="section learning-path-section compact-hidden-section" aria-label="Ruta de lecciones">
       <div class="section-heading">
         <span>Aprender</span>
-        <h2>Empieza con lecciones cortas y medibles.</h2>
+        <h2 tabindex="-1">Empieza con lecciones cortas y medibles.</h2>
         <p>Practica vocabulario, diálogos y ejercicios de comprensión en una secuencia clara.</p>
       </div>
 
@@ -274,7 +274,7 @@
     <section id="achievements" class="section achievements-section compact-hidden-section">
       <div class="section-heading">
         <span>Logros</span>
-        <h2>Tu progreso, en insignias y misiones diarias.</h2>
+        <h2 tabindex="-1">Tu progreso, en insignias y misiones diarias.</h2>
         <p>Gana XP, mantén tu racha y desbloquea insignias mientras avanzas por cada mundo de idioma.</p>
       </div>
 
@@ -337,7 +337,7 @@
     <section id="tutor" class="section tutor-section compact-hidden-section" aria-label="Tutor IA">
       <div class="section-heading">
         <span>Tutor IA</span>
-        <h2>Practica conversando con tu tutor de idiomas.</h2>
+        <h2 tabindex="-1">Practica conversando con tu tutor de idiomas.</h2>
         <p>Corrige, explica y propone ejercicios según tu idioma, nivel y habilidad.</p>
       </div>
 
@@ -345,7 +345,7 @@
         <span class="tutor-context-pill">Idioma: <strong data-ai-context="language">English</strong></span>
         <span class="tutor-context-pill">Nivel: <strong data-ai-context="level">A1</strong></span>
         <span class="tutor-context-pill">Lección: <strong data-ai-context="lesson">Ruta inicial</strong></span>
-        <span class="tutor-connection-status" id="tutorConnectionStatus" aria-live="polite">Conectado</span>
+        <span class="tutor-connection-status" id="tutorConnectionStatus" aria-live="polite">Comprobando conexión…</span>
       </div>
 
       <div class="skill-tabs is-open">
@@ -417,7 +417,7 @@
     <section id="goals" class="section goals-section compact-hidden-section">
       <div class="section-heading">
         <span>Objetivos</span>
-        <h2>Define tu objetivo y sigue una ruta personalizada.</h2>
+        <h2 tabindex="-1">Define tu objetivo y sigue una ruta personalizada.</h2>
         <p>Elige un objetivo para que ANDERGO ajuste tu progreso y la siguiente lección recomendada.</p>
       </div>
 
@@ -456,7 +456,7 @@
     <section id="premium" class="section pricing-section compact-hidden-section">
       <div class="section-heading">
         <span>Precio simple</span>
-        <h2>Un solo precio para desbloquear ANDERGO Premium.</h2>
+        <h2 tabindex="-1">Un solo precio para desbloquear ANDERGO Premium.</h2>
         <p>Sin planes confusos: prueba gratis y desbloquea la ruta completa cuando estés listo.</p>
       </div>
 
@@ -490,8 +490,8 @@
     </section>
     </main>
 
-    <div class="auth-modal" id="authModal" aria-hidden="true">
-      <div class="auth-panel">
+    <div class="auth-modal" id="authModal" aria-hidden="true" inert>
+      <div class="auth-panel" role="dialog" aria-modal="true" aria-label="Autenticación en ANDERGO">
         <button class="close-modal" type="button" aria-label="Cerrar">×</button>
         <div class="auth-tabs">
           <button class="auth-tab active" type="button" data-form="login">Iniciar sesión</button>
@@ -536,7 +536,7 @@
       </div>
     </div>
 
-    <div class="confirm-modal" id="logoutConfirmModal" aria-hidden="true">
+    <div class="confirm-modal" id="logoutConfirmModal" aria-hidden="true" inert>
       <div class="confirm-panel" role="dialog" aria-modal="true" aria-labelledby="logoutConfirmTitle">
         <h3 id="logoutConfirmTitle">¿Deseas cerrar sesión?</h3>
         <div class="confirm-actions">

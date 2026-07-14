@@ -246,9 +246,13 @@ function getLanguageTabFromHash() {
   return targetLanguageMap[normalized] ? normalized : null;
 }
 
+let authModalReturnFocus = null;
+
 function openModal(panel) {
+  authModalReturnFocus = document.activeElement;
   authModal.classList.add('open');
   authModal.setAttribute('aria-hidden', 'false');
+  authModal.removeAttribute('inert');
   document.body.classList.add('modal-open');
   authTabs.forEach(tab => {
     const active = tab.dataset.form === panel;
@@ -259,12 +263,16 @@ function openModal(panel) {
   });
   clearAuthMessages();
   resetSignupPending();
+  authModal.querySelector('.auth-form.active input')?.focus();
 }
 
 function closeAuth() {
   authModal.classList.remove('open');
   authModal.setAttribute('aria-hidden', 'true');
+  authModal.setAttribute('inert', '');
   document.body.classList.remove('modal-open');
+  (authModalReturnFocus || document.querySelector('[data-action="open-auth"]'))?.focus();
+  authModalReturnFocus = null;
 }
 
 const logoutConfirmModal = document.getElementById('logoutConfirmModal');
@@ -275,6 +283,7 @@ function openLogoutConfirm() {
   logoutConfirmReturnFocus = document.activeElement;
   logoutConfirmModal.classList.add('open');
   logoutConfirmModal.setAttribute('aria-hidden', 'false');
+  logoutConfirmModal.removeAttribute('inert');
   document.body.classList.add('modal-open');
   logoutConfirmModal.querySelector('[data-action="cancel-logout"]')?.focus();
 }
@@ -283,6 +292,7 @@ function closeLogoutConfirm() {
   if (!logoutConfirmModal) return;
   logoutConfirmModal.classList.remove('open');
   logoutConfirmModal.setAttribute('aria-hidden', 'true');
+  logoutConfirmModal.setAttribute('inert', '');
   document.body.classList.remove('modal-open');
   (logoutConfirmReturnFocus || logoutButton)?.focus();
   logoutConfirmReturnFocus = null;
@@ -303,8 +313,11 @@ logoutConfirmModal?.addEventListener('click', event => {
 });
 
 document.addEventListener('keydown', event => {
-  if (event.key === 'Escape' && logoutConfirmModal?.classList.contains('open')) {
+  if (event.key !== 'Escape') return;
+  if (logoutConfirmModal?.classList.contains('open')) {
     closeLogoutConfirm();
+  } else if (authModal?.classList.contains('open')) {
+    closeAuth();
   }
 });
 
@@ -323,10 +336,11 @@ async function postJson(path, payload) {
   return data;
 }
 
-// Drives the home hero card's three states (spec: never show fake stats to
-// a guest, show a loading state while the real numbers are in flight, then
-// the real numbers - not a static "0%" that looks real but isn't).
-function updateProgressDisplay({ progress = 0, streak = 0 } = {}, isSignedIn = false, isLoading = false) {
+// Drives the home hero card's states (spec: never show fake stats to a
+// guest, show a loading state while the real numbers are in flight, an
+// explicit error state if the fetch fails - never a fabricated 0% that's
+// indistinguishable from a real, freshly-signed-up 0% - then the real numbers.
+function updateProgressDisplay({ progress = 0, streak = 0 } = {}, isSignedIn = false, isLoading = false, isError = false) {
   const normalizedProgress = Math.max(0, Math.min(100, Number(progress) || 0));
   currentProgress = normalizedProgress;
   const progressCircle = document.querySelector('.progress-circle');
@@ -343,14 +357,14 @@ function updateProgressDisplay({ progress = 0, streak = 0 } = {}, isSignedIn = f
   if (guestActions) guestActions.hidden = isSignedIn;
   if (continueBtn) continueBtn.hidden = !isSignedIn;
 
-  if (progressCircle) progressCircle.textContent = isLoading ? '…' : `${normalizedProgress}%`;
-  if (streakCount) streakCount.textContent = isLoading ? '…' : String(streak);
+  if (progressCircle) progressCircle.textContent = (isLoading || isError) ? '…' : `${normalizedProgress}%`;
+  if (streakCount) streakCount.textContent = (isLoading || isError) ? '…' : String(streak);
   if (progressText) {
     progressText.hidden = !isSignedIn;
     if (isSignedIn) {
-      progressText.textContent = isLoading
-        ? 'Cargando tu progreso…'
-        : `${name ? `${name}: ` : ''}${normalizedProgress}% completado · ${streak} días de racha`;
+      if (isLoading) progressText.textContent = 'Cargando tu progreso…';
+      else if (isError) progressText.textContent = 'No se pudo cargar tu progreso.';
+      else progressText.textContent = `${name ? `${name}: ` : ''}${normalizedProgress}% completado · ${streak} días de racha`;
     }
   }
 }
@@ -370,7 +384,7 @@ async function loadProgress() {
     });
     const data = await response.json().catch(() => ({}));
     if (!response.ok) {
-      updateProgressDisplay({}, true, false);
+      updateProgressDisplay({}, true, false, true);
       return;
     }
 
@@ -381,7 +395,7 @@ async function loadProgress() {
     window.AndergoGamification?.syncFromServer(data);
   } catch (error) {
     console.warn('Could not load backend progress', error);
-    updateProgressDisplay({}, true, false);
+    updateProgressDisplay({}, true, false, true);
   }
 }
 
@@ -542,11 +556,18 @@ function renderDashboardLoading() {
   if (goalBody) goalBody.innerHTML = '<p class="skill-graph-empty">Cargando tu objetivo…</p>';
   const activityList = document.getElementById('dashboardActivityList');
   if (activityList) activityList.innerHTML = '<li class="skill-graph-empty">Cargando actividad…</li>';
+  // The home hero's goal one-liner is a separate DOM node (renderDashboardGoal
+  // only touches it once real data arrives) - without this it would keep
+  // showing the static "Sin objetivo activo" placeholder while this loads.
+  const homeGoalSummary = document.querySelector('#homeGoalSummary strong');
+  if (homeGoalSummary) homeGoalSummary.textContent = 'Cargando…';
 }
 
 function renderDashboardError() {
   const grid = document.getElementById('dashboardStatsGrid');
   if (grid) grid.innerHTML = '<p class="skill-graph-empty">No se pudo cargar tu panel. Intenta recargar la página.</p>';
+  const homeGoalSummary = document.querySelector('#homeGoalSummary strong');
+  if (homeGoalSummary) homeGoalSummary.textContent = 'No se pudo cargar';
 }
 
 function renderDashboardSignedOut() {
@@ -908,6 +929,22 @@ function updateAiTutorContext() {
     const node = contextRoot.querySelector(`[data-ai-context="${key}"]`);
     if (node) node.textContent = value;
   });
+}
+
+// Real connectivity probe run each time the Tutor view is opened - never
+// hardcode "Conectado", it has to reflect an actual backend response.
+// A chat exchange (see .tutor-chat-btn handler) is a stronger signal and
+// overwrites this once the student actually sends a message.
+async function checkTutorConnection() {
+  const status = document.getElementById('tutorConnectionStatus');
+  if (!status) return;
+  status.textContent = 'Comprobando conexión…';
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/health`);
+    status.textContent = response.ok ? 'Conectado' : 'No disponible';
+  } catch (error) {
+    status.textContent = 'No disponible';
+  }
 }
 
 function renderSkillGraph() {
@@ -1308,6 +1345,20 @@ const VIEW_SECTIONS = {
   premium: ['#premium']
 };
 
+// Focus target per view: the one heading a screen reader / keyboard user
+// should land on after a hash change, per view. tabindex="-1" on these in
+// index.html makes them programmatically focusable without joining the
+// normal Tab order.
+const VIEW_TITLE_SELECTORS = {
+  home: '.hero-content h2',
+  learn: '#learning-path h2',
+  progress: '#progress h2',
+  achievements: '#achievements h2',
+  goals: '#goals h2',
+  tutor: '#tutor h2',
+  premium: '#premium h2'
+};
+
 function getViewFromHash() {
   const raw = window.location.hash.replace('#', '');
   if (!raw) return 'home';
@@ -1321,11 +1372,21 @@ function showView(viewId) {
   Object.entries(VIEW_SECTIONS).forEach(([id, selectors]) => {
     const active = id === resolved;
     selectors.forEach(selector => document.querySelectorAll(selector)
-      .forEach(el => el.classList.toggle('compact-hidden-section', !active)));
+      .forEach(el => {
+        el.classList.toggle('compact-hidden-section', !active);
+        el.hidden = !active;
+        el.setAttribute('aria-hidden', String(!active));
+      }));
   });
 
   document.querySelectorAll('.nav-group a[href^="#"]').forEach(link => {
-    link.classList.toggle('active', link.getAttribute('href') === `#${resolved}`);
+    const isActive = link.getAttribute('href') === `#${resolved}`;
+    link.classList.toggle('active', isActive);
+    if (isActive) {
+      link.setAttribute('aria-current', 'page');
+    } else {
+      link.removeAttribute('aria-current');
+    }
   });
 
   if (resolved === 'learn') {
@@ -1333,10 +1394,14 @@ function showView(viewId) {
     const langToken = getLanguageTabFromHash();
     if (langToken) setTargetLanguage(langToken);
   }
-  if (resolved === 'tutor') updateAiTutorContext();
+  if (resolved === 'tutor') {
+    updateAiTutorContext();
+    checkTutorConnection();
+  }
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
 
   window.scrollTo({ top: 0, behavior: 'auto' });
+  document.querySelector(VIEW_TITLE_SELECTORS[resolved])?.focus({ preventScroll: true });
 }
 
 window.addEventListener('hashchange', () => showView(getViewFromHash()));
@@ -1592,7 +1657,7 @@ function enableHomepageActions() {
       appendTutorMessage(conversation, 'user', finalPrompt);
       if (tutorPrompt) tutorPrompt.value = '';
       if (thinking) thinking.hidden = false;
-      if (connectionStatus) connectionStatus.textContent = 'Conectando…';
+      if (connectionStatus) connectionStatus.textContent = 'Comprobando conexión…';
       tutorButton.disabled = true;
 
       try {
@@ -1621,7 +1686,7 @@ function enableHomepageActions() {
         if (connectionStatus) connectionStatus.textContent = 'Conectado';
       } catch (error) {
         appendTutorMessage(conversation, 'tutor', error.message || 'No se pudo conectar con el tutor IA.', { isError: true });
-        if (connectionStatus) connectionStatus.textContent = 'Sin conexión';
+        if (connectionStatus) connectionStatus.textContent = 'No disponible';
       } finally {
         if (thinking) thinking.hidden = true;
         tutorButton.disabled = false;
