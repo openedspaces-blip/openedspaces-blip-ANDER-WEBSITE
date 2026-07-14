@@ -187,26 +187,44 @@
         <article class="skill-competency-card" data-skill="listening" role="button" tabindex="0">
           <div class="icon">🎧</div>
           <h3>Listening</h3>
+          <span class="skill-card-status skill-card-status-soon">Próximamente</span>
+          <div class="skill-card-progress" hidden><div style="width:0%"></div></div>
+          <span class="skill-card-xp"></span>
         </article>
         <article class="skill-competency-card" data-skill="speaking" role="button" tabindex="0">
           <div class="icon">🎙</div>
           <h3>Speaking</h3>
+          <span class="skill-card-status skill-card-status-loading">Cargando…</span>
+          <div class="skill-card-progress" hidden><div style="width:0%"></div></div>
+          <span class="skill-card-xp"></span>
         </article>
         <article class="skill-competency-card" data-skill="reading" role="button" tabindex="0">
           <div class="icon">📖</div>
           <h3>Reading</h3>
+          <span class="skill-card-status skill-card-status-loading">Cargando…</span>
+          <div class="skill-card-progress" hidden><div style="width:0%"></div></div>
+          <span class="skill-card-xp"></span>
         </article>
         <article class="skill-competency-card" data-skill="writing" role="button" tabindex="0">
           <div class="icon">✍️</div>
           <h3>Writing</h3>
+          <span class="skill-card-status skill-card-status-loading">Cargando…</span>
+          <div class="skill-card-progress" hidden><div style="width:0%"></div></div>
+          <span class="skill-card-xp"></span>
         </article>
         <article class="skill-competency-card" data-skill="grammar" role="button" tabindex="0">
           <div class="icon">📚</div>
           <h3>Grammar</h3>
+          <span class="skill-card-status skill-card-status-loading">Cargando…</span>
+          <div class="skill-card-progress" hidden><div style="width:0%"></div></div>
+          <span class="skill-card-xp"></span>
         </article>
         <article class="skill-competency-card" data-skill="vocabulary" role="button" tabindex="0">
           <div class="icon">🧠</div>
           <h3>Vocabulary</h3>
+          <span class="skill-card-status skill-card-status-loading">Cargando…</span>
+          <div class="skill-card-progress" hidden><div style="width:0%"></div></div>
+          <span class="skill-card-xp"></span>
         </article>
       </div>
 
@@ -268,6 +286,144 @@
           </div>
           <div class="lesson-exercises"></div>
         </article>
+      </div>
+    </section>
+
+    <section id="reading" class="section skill-view-section compact-hidden-section" data-skill="reading" aria-label="Reading">
+      <div class="section-heading">
+        <span>Reading</span>
+        <h2 tabindex="-1">Lectura guiada</h2>
+      </div>
+      <div class="skill-view-header">
+        <div class="skill-view-pills">
+          <span class="skill-view-pill">Idioma puente: <strong data-field="bridge">Español</strong></span>
+          <span class="skill-view-pill">Idioma meta: <strong data-field="target">English</strong></span>
+          <span class="skill-view-pill">Nivel: <strong data-field="level">A1</strong></span>
+        </div>
+        <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
+        <div class="skill-view-actions">
+          <button type="button" class="secondary-btn change-combination-btn">Cambiar combinación</button>
+          <a href="#learn" class="secondary-btn">← Volver a la ruta</a>
+          <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+        </div>
+      </div>
+      <div class="skill-view-content">
+        <p class="skill-graph-empty">Preparando Reading…</p>
+      </div>
+    </section>
+
+    <section id="writing" class="section skill-view-section compact-hidden-section" data-skill="writing" aria-label="Writing">
+      <div class="section-heading">
+        <span>Writing</span>
+        <h2 tabindex="-1">Escritura guiada</h2>
+      </div>
+      <div class="skill-view-header">
+        <div class="skill-view-pills">
+          <span class="skill-view-pill">Idioma puente: <strong data-field="bridge">Español</strong></span>
+          <span class="skill-view-pill">Idioma meta: <strong data-field="target">English</strong></span>
+          <span class="skill-view-pill">Nivel: <strong data-field="level">A1</strong></span>
+        </div>
+        <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
+        <div class="skill-view-actions">
+          <button type="button" class="secondary-btn change-combination-btn">Cambiar combinación</button>
+          <a href="#learn" class="secondary-btn">← Volver a la ruta</a>
+          <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+        </div>
+      </div>
+      <div class="skill-view-content">
+        <p class="skill-graph-empty">Cargando tu práctica de Writing…</p>
+      </div>
+    </section>
+
+    <section id="speaking" class="section skill-view-section compact-hidden-section" data-skill="speaking" aria-label="Speaking">
+      <div class="section-heading">
+        <span>Speaking</span>
+        <h2 tabindex="-1">Práctica oral</h2>
+      </div>
+      <div class="skill-view-header">
+        <div class="skill-view-pills">
+          <span class="skill-view-pill">Idioma puente: <strong data-field="bridge">Español</strong></span>
+          <span class="skill-view-pill">Idioma meta: <strong data-field="target">English</strong></span>
+          <span class="skill-view-pill">Nivel: <strong data-field="level">A1</strong></span>
+        </div>
+        <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
+        <div class="skill-view-actions">
+          <button type="button" class="secondary-btn change-combination-btn">Cambiar combinación</button>
+          <a href="#learn" class="secondary-btn">← Volver a la ruta</a>
+          <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+        </div>
+      </div>
+      <div class="skill-view-content">
+        <p class="skill-graph-empty">Preparando Speaking…</p>
+      </div>
+    </section>
+
+    <section id="grammar" class="section skill-view-section compact-hidden-section" data-skill="grammar" aria-label="Grammar">
+      <div class="section-heading">
+        <span>Grammar</span>
+        <h2 tabindex="-1">Gramática explicada</h2>
+      </div>
+      <div class="skill-view-header">
+        <div class="skill-view-pills">
+          <span class="skill-view-pill">Idioma puente: <strong data-field="bridge">Español</strong></span>
+          <span class="skill-view-pill">Idioma meta: <strong data-field="target">English</strong></span>
+          <span class="skill-view-pill">Nivel: <strong data-field="level">A1</strong></span>
+        </div>
+        <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
+        <div class="skill-view-actions">
+          <button type="button" class="secondary-btn change-combination-btn">Cambiar combinación</button>
+          <a href="#learn" class="secondary-btn">← Volver a la ruta</a>
+          <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+        </div>
+      </div>
+      <div class="skill-view-content">
+        <p class="skill-graph-empty">Preparando Grammar…</p>
+      </div>
+    </section>
+
+    <section id="vocabulary" class="section skill-view-section compact-hidden-section" data-skill="vocabulary" aria-label="Vocabulary">
+      <div class="section-heading">
+        <span>Vocabulary</span>
+        <h2 tabindex="-1">Vocabulario en tarjetas</h2>
+      </div>
+      <div class="skill-view-header">
+        <div class="skill-view-pills">
+          <span class="skill-view-pill">Idioma puente: <strong data-field="bridge">Español</strong></span>
+          <span class="skill-view-pill">Idioma meta: <strong data-field="target">English</strong></span>
+          <span class="skill-view-pill">Nivel: <strong data-field="level">A1</strong></span>
+        </div>
+        <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
+        <div class="skill-view-actions">
+          <button type="button" class="secondary-btn change-combination-btn">Cambiar combinación</button>
+          <a href="#learn" class="secondary-btn">← Volver a la ruta</a>
+          <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+        </div>
+      </div>
+      <div class="skill-view-content">
+        <p class="skill-graph-empty">Preparando Vocabulary…</p>
+      </div>
+    </section>
+
+    <section id="listening" class="section skill-view-section compact-hidden-section" data-skill="listening" aria-label="Listening">
+      <div class="section-heading">
+        <span>Listening</span>
+        <h2 tabindex="-1">Listening</h2>
+      </div>
+      <div class="skill-view-header">
+        <div class="skill-view-pills">
+          <span class="skill-view-pill">Idioma puente: <strong data-field="bridge">Español</strong></span>
+          <span class="skill-view-pill">Idioma meta: <strong data-field="target">English</strong></span>
+          <span class="skill-view-pill">Nivel: <strong data-field="level">A1</strong></span>
+        </div>
+        <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
+        <div class="skill-view-actions">
+          <button type="button" class="secondary-btn change-combination-btn">Cambiar combinación</button>
+          <a href="#learn" class="secondary-btn">← Volver a la ruta</a>
+          <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+        </div>
+      </div>
+      <div class="skill-view-content">
+        <p class="skill-graph-empty">Listening estará disponible próximamente.</p>
       </div>
     </section>
 
@@ -542,6 +698,71 @@
         <div class="confirm-actions">
           <button type="button" class="secondary-btn" data-action="cancel-logout">Cancelar</button>
           <button type="button" class="primary-btn" data-action="confirm-logout">Sí, cerrar sesión</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="change-combo-popover" id="changeComboPopover" aria-hidden="true" hidden inert>
+      <div class="change-combo-panel" role="dialog" aria-modal="true" aria-label="Cambiar combinación de idiomas">
+        <button type="button" class="close-modal change-combo-close" aria-label="Cerrar">×</button>
+        <h3>Cambiar combinación</h3>
+        <label>Idioma que ya conoces (puente)
+          <select id="comboBridgeSelect">
+            <option value="spanish">🇪🇸 Español</option>
+            <option value="english">🇺🇸 English</option>
+            <option value="french">🇫🇷 Français</option>
+            <option value="italian">🇮🇹 Italiano</option>
+            <option value="german">🇩🇪 Deutsch</option>
+          </select>
+        </label>
+        <label>Idioma que deseas aprender (meta)
+          <select id="comboLanguageSelect">
+            <option value="english">🇺🇸 English</option>
+            <option value="spanish">🇪🇸 Español</option>
+            <option value="french">🇫🇷 Français</option>
+            <option value="italian">🇮🇹 Italiano</option>
+            <option value="german">🇩🇪 Deutsch</option>
+          </select>
+        </label>
+        <label>Nivel
+          <select id="comboLevelSelect">
+            <option value="A1">A1</option>
+            <option value="A2">A2</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+            <option value="C1">C1</option>
+            <option value="C2">C2</option>
+          </select>
+        </label>
+        <button type="button" class="primary-btn change-combo-apply">Aplicar</button>
+      </div>
+    </div>
+
+    <button type="button" class="tutor-fab" id="tutorFab" aria-label="Abrir Tutor IA">🤖</button>
+
+    <div class="tutor-drawer" id="tutorDrawer" aria-hidden="true" inert>
+      <div class="tutor-drawer-backdrop" data-action="close-tutor-drawer"></div>
+      <div class="tutor-drawer-panel" role="dialog" aria-modal="true" aria-labelledby="tutorDrawerTitle">
+        <div class="tutor-drawer-head">
+          <h2 id="tutorDrawerTitle">Tutor IA</h2>
+          <button type="button" class="close-modal" data-action="close-tutor-drawer" aria-label="Cerrar Tutor IA">×</button>
+        </div>
+        <div class="tutor-context" aria-live="polite">
+          <span class="tutor-context-pill">Habilidad: <strong data-drawer-context="skill">—</strong></span>
+          <span class="tutor-context-pill">Nivel: <strong data-drawer-context="level">—</strong></span>
+          <span class="tutor-connection-status" id="tutorDrawerConnectionStatus" aria-live="polite">Comprobando conexión…</span>
+        </div>
+        <div class="tutor-conversation" id="tutorDrawerConversation" role="log" aria-live="polite" aria-label="Conversación con el tutor IA">
+          <p class="tutor-welcome">👋 Soy Tutor AI. Cuéntame qué quieres practicar.</p>
+        </div>
+        <p class="tutor-thinking" id="tutorDrawerThinking" hidden aria-hidden="true">Tutor AI está pensando…</p>
+        <label class="tutor-input-group" for="tutorDrawerPrompt">
+          <span>Escribe qué quieres practicar</span>
+          <textarea id="tutorDrawerPrompt" class="tutor-input" rows="3"></textarea>
+        </label>
+        <div class="tutor-buttons">
+          <button type="button" class="primary-btn" id="tutorDrawerSend">Enviar</button>
+          <button type="button" class="tutor-clear-btn" id="tutorDrawerClear">Limpiar conversación</button>
         </div>
       </div>
     </div>

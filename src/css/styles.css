@@ -3519,6 +3519,10 @@ footer small {
 .compact-skills-row .skill-competency-card {
   padding: 0.85rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
 }
 
 .compact-skills-row .icon {
@@ -3527,6 +3531,47 @@ footer small {
 
 .compact-skills-row h3 {
   font-size: 0.85rem;
+  margin-bottom: 0;
+}
+
+.skill-card-status {
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+}
+
+.skill-card-status-available {
+  background: rgba(34, 197, 94, 0.12);
+  color: #15803d;
+}
+
+.skill-card-status-soon,
+.skill-card-status-loading {
+  background: var(--line);
+  color: var(--muted);
+}
+
+.skill-card-progress {
+  width: 100%;
+  height: 5px;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.skill-card-progress div {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  border-radius: 999px;
+  transition: width 300ms ease;
+}
+
+.skill-card-xp {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--blue);
+  min-height: 1em;
 }
 
 .lesson-kicker {
@@ -3658,5 +3703,628 @@ footer small {
 @media (max-width: 640px) {
   .lesson-columns {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ===================================================================
+   Dedicated skill views (Reading/Writing/Speaking/Grammar/Vocabulary/
+   Listening) - shared header + per-skill content, full-width like the
+   other routed views (no cramped columns).
+   =================================================================== */
+
+.skill-view-section .skill-view-content {
+  max-width: none;
+}
+
+.skill-view-header {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.skill-view-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.skill-view-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  color: #1e3a8a;
+  font-size: 0.85rem;
+}
+
+.skill-view-sentence {
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: 0.9rem;
+}
+
+.skill-view-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skill-view-tutor-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+
+/* Reading */
+.reading-print-area {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 1.75rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.reading-level-tag {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.reading-progress-bar {
+  height: 8px;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+}
+
+.reading-progress-bar div {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  border-radius: 999px;
+}
+
+.reading-paragraphs p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: var(--navy-2);
+}
+
+.reading-vocab-section,
+.reading-support-toggle {
+  margin: 1rem 0;
+}
+
+.reading-vocab-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+}
+
+.reading-vocab-list[hidden] {
+  display: none;
+}
+
+.reading-vocab-item {
+  background: var(--bg);
+  border-radius: 12px;
+  padding: 0.6rem 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.85rem;
+}
+
+.reading-vocab-support {
+  color: var(--muted);
+}
+
+.reading-reflect,
+.reading-questions {
+  margin-top: 1.5rem;
+}
+
+.reading-reflect ul {
+  padding-left: 1.25rem;
+  color: var(--muted);
+}
+
+.reading-print-answer-space,
+.reading-print-header {
+  display: none;
+}
+
+.reading-print-answer-lines div {
+  border-bottom: 1px solid #999;
+  height: 2rem;
+}
+
+/* Writing */
+.writing-consigna {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.writing-model,
+.writing-connectors {
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.writing-connectors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.writing-connectors-list span {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.8rem;
+}
+
+.writing-editor-label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.writing-word-limit {
+  font-weight: 400;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.writing-editor {
+  width: 100%;
+  min-height: 220px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.writing-word-count {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+
+.writing-tutor-panel {
+  margin-top: 1.5rem;
+  background: var(--bg);
+  border-radius: 16px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.writing-tutor-panel[hidden] {
+  display: none;
+}
+
+.writing-tutor-panel > div strong {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+}
+
+.writing-tutor-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+/* Speaking */
+.speaking-situation,
+.speaking-model {
+  margin-bottom: 0.75rem;
+}
+
+.speaking-response {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.speaking-record-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.speaking-record-btn {
+  border: 1px solid var(--line);
+  background: var(--bg);
+  border-radius: 999px;
+  padding: 0.5rem 0.9rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.speaking-record-btn:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.speaking-record-note {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+/* Grammar */
+.grammar-explanation {
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.grammar-example {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.grammar-example-target,
+.grammar-example-bridge {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+}
+
+.grammar-example-target span,
+.grammar-example-bridge span {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+}
+
+/* Vocabulary */
+.vocab-card-deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.vocab-flip-card {
+  perspective: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.vocab-flip-card-inner {
+  position: relative;
+  min-height: 130px;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+}
+
+.vocab-flip-card.is-flipped .vocab-flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.vocab-flip-card.is-known {
+  opacity: 0.5;
+}
+
+.vocab-flip-front,
+.vocab-flip-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+.vocab-flip-back {
+  transform: rotateY(180deg);
+}
+
+.vocab-flip-back p {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.vocab-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  justify-content: center;
+}
+
+.vocab-card-actions button {
+  font-size: 0.72rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  cursor: pointer;
+}
+
+/* Listening placeholder */
+.listening-soon {
+  text-align: center;
+  max-width: 480px;
+  margin: 2rem auto;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.listening-soon-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.listening-soon-status {
+  display: inline-block;
+  background: var(--line);
+  color: var(--muted);
+  font-weight: 800;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+.listening-soon-text {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.listening-soon-detail {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Change-combination popover */
+.change-combo-popover {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 21, 47, .6);
+  display: grid;
+  place-items: center;
+  z-index: 70;
+}
+
+.change-combo-popover[hidden] {
+  display: none;
+}
+
+.change-combo-panel {
+  width: min(420px, 90%);
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 40px 80px rgba(15,23,42,.25);
+  padding: 28px;
+  position: relative;
+  display: grid;
+  gap: 14px;
+}
+
+.change-combo-panel label {
+  display: grid;
+  gap: 6px;
+  font-weight: 700;
+  color: var(--navy-2);
+  font-size: 0.9rem;
+}
+
+.change-combo-panel select {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+}
+
+/* Tutor IA floating button */
+.tutor-fab {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, var(--blue), var(--purple));
+  color: white;
+  font-size: 1.6rem;
+  box-shadow: 0 16px 36px rgba(37, 99, 235, .35);
+  cursor: pointer;
+  z-index: 40;
+  transition: transform .2s ease;
+}
+
+.tutor-fab:hover {
+  transform: translateY(-3px) scale(1.05);
+}
+
+.tutor-fab[hidden] {
+  display: none;
+}
+
+/* Tutor IA drawer */
+.tutor-drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 65;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
+}
+
+.tutor-drawer.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.tutor-drawer-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(7, 21, 47, .5);
+}
+
+.tutor-drawer-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: min(420px, 100%);
+  background: white;
+  box-shadow: -20px 0 60px rgba(15,23,42,.25);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transform: translateX(100%);
+  transition: transform .3s ease;
+  overflow-y: auto;
+}
+
+.tutor-drawer.open .tutor-drawer-panel {
+  transform: translateX(0);
+}
+
+.tutor-drawer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tutor-drawer-head h2 {
+  font-size: 1.3rem;
+}
+
+.tutor-drawer .tutor-conversation {
+  flex: 1;
+  min-height: 160px;
+}
+
+@media (max-width: 640px) {
+  .tutor-drawer-panel {
+    width: 100%;
+  }
+  .tutor-fab {
+    right: 1rem;
+    bottom: 1rem;
+    width: 52px;
+    height: 52px;
+  }
+  .skill-view-actions {
+    flex-direction: column;
+  }
+  .skill-view-actions .secondary-btn,
+  .skill-view-actions .primary-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* ===================================================================
+   Reading → PDF: prints only #readingPrintArea, hides everything else,
+   drops the on-screen action buttons (.no-print) and reveals the
+   print-only header/answer space.
+   =================================================================== */
+@page {
+  size: A4;
+  margin: 2cm;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #readingPrintArea,
+  #readingPrintArea * {
+    visibility: visible;
+  }
+
+  #readingPrintArea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .reading-print-header {
+    margin-bottom: 1.5cm;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5cm;
+  }
+
+  .reading-print-logo {
+    font-weight: 900;
+    font-size: 1.4rem;
+    letter-spacing: 0.05em;
+  }
+
+  .reading-paragraphs p {
+    color: #000;
+    orphans: 3;
+    widows: 3;
+  }
+
+  .reading-print-answer-space {
+    margin-top: 1cm;
+    page-break-before: auto;
   }
 }

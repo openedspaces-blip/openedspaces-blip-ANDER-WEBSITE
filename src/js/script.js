@@ -318,6 +318,10 @@ document.addEventListener('keydown', event => {
     closeLogoutConfirm();
   } else if (authModal?.classList.contains('open')) {
     closeAuth();
+  } else if (document.getElementById('tutorDrawer')?.classList.contains('open')) {
+    closeTutorDrawer();
+  } else if (document.getElementById('changeComboPopover')?.hidden === false) {
+    closeChangeCombinationPopover();
   }
 });
 
@@ -935,8 +939,8 @@ function updateAiTutorContext() {
 // hardcode "Conectado", it has to reflect an actual backend response.
 // A chat exchange (see .tutor-chat-btn handler) is a stronger signal and
 // overwrites this once the student actually sends a message.
-async function checkTutorConnection() {
-  const status = document.getElementById('tutorConnectionStatus');
+async function checkTutorConnection(statusElId = 'tutorConnectionStatus') {
+  const status = document.getElementById(statusElId);
   if (!status) return;
   status.textContent = 'Comprobando conexión…';
   try {
@@ -1117,7 +1121,457 @@ function renderLessonWorkspace() {
 function renderLearningPath() {
   renderSkillGraph();
   renderLessonWorkspace();
+  renderSkillCards();
   updateAiTutorContext();
+}
+
+const SKILL_LABELS = { listening: 'Listening', speaking: 'Speaking', reading: 'Reading', writing: 'Writing', grammar: 'Grammar', vocabulary: 'Vocabulary' };
+
+// Populates each of the 6 skill-competency-cards with real status/progress/XP
+// for the current language+level, instead of the bare icon+name they show
+// before the first lesson list loads.
+function renderSkillCards() {
+  document.querySelectorAll('.skill-competency-card').forEach(card => {
+    const skill = card.dataset.skill;
+    const statusEl = card.querySelector('.skill-card-status');
+    const progressBar = card.querySelector('.skill-card-progress div');
+    const progressWrap = card.querySelector('.skill-card-progress');
+    const xpEl = card.querySelector('.skill-card-xp');
+
+    if (skill === 'listening') {
+      if (statusEl) { statusEl.textContent = 'Próximamente'; statusEl.className = 'skill-card-status skill-card-status-soon'; }
+      if (progressWrap) progressWrap.hidden = true;
+      if (xpEl) xpEl.textContent = '';
+      card.setAttribute('aria-label', 'Listening: próximamente');
+      return;
+    }
+
+    const lesson = learningPathState.lessons.find(item => item.skill === skill);
+    if (!lesson) {
+      if (statusEl) { statusEl.textContent = learningPathState.lessons.length ? 'No disponible en este nivel' : 'Cargando…'; statusEl.className = 'skill-card-status skill-card-status-loading'; }
+      if (progressWrap) progressWrap.hidden = true;
+      if (xpEl) xpEl.textContent = '';
+      return;
+    }
+
+    const { total, attempted } = getExerciseProgress(lesson);
+    const pct = total ? Math.round((attempted / total) * 100) : 0;
+    if (statusEl) { statusEl.textContent = 'Disponible'; statusEl.className = 'skill-card-status skill-card-status-available'; }
+    if (progressWrap) { progressWrap.hidden = false; progressWrap.setAttribute('aria-label', `Progreso: ${pct}%`); }
+    if (progressBar) progressBar.style.width = `${pct}%`;
+    if (xpEl) xpEl.textContent = `+${lesson.xpReward || 20} XP`;
+    card.setAttribute('aria-label', `${SKILL_LABELS[skill] || skill}: disponible, ${pct}% completado, ${lesson.xpReward || 20} XP`);
+  });
+}
+
+// ---------------------------------------------------------------------
+// Dedicated skill views (Reading/Writing/Speaking/Grammar/Vocabulary each
+// get their own routed view instead of swapping content inside the small
+// #learning-path lesson-workspace card; Listening stays a placeholder
+// until real audio exists - see docs/audio-architecture.md).
+// ---------------------------------------------------------------------
+
+const LISTENING_AUDIO_STATUS = 'unavailable'; // 'unavailable' | 'preparing' | 'available'
+
+// Writes the bridge/target/level pills + "Aprenderás X con apoyo en Y"
+// sentence shared by every skill view header, from the same state
+// updatePathPairPreview() already uses - so it can never disagree with #learn.
+function renderSkillViewHeader(section) {
+  if (!section) return;
+  const bridgeLabel = languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
+  const targetLabel = languageDisplayNames[learningPathState.language] || learningPathState.language;
+  const level = learningPathState.level;
+  const bridgeEl = section.querySelector('[data-field="bridge"]');
+  const targetEl = section.querySelector('[data-field="target"]');
+  const levelEl = section.querySelector('[data-field="level"]');
+  const sentenceEl = section.querySelector('[data-field="sentence"]');
+  if (bridgeEl) bridgeEl.textContent = bridgeLabel;
+  if (targetEl) targetEl.textContent = targetLabel;
+  if (levelEl) levelEl.textContent = level;
+  if (sentenceEl) sentenceEl.textContent = `Aprenderás ${targetLabel} con apoyo en ${bridgeLabel}.`;
+}
+
+function openChangeCombinationPopover() {
+  const popover = document.getElementById('changeComboPopover');
+  if (!popover) return;
+  const bridgeSelect = document.getElementById('comboBridgeSelect');
+  const languageSelect = document.getElementById('comboLanguageSelect');
+  const levelSelect = document.getElementById('comboLevelSelect');
+  if (bridgeSelect) bridgeSelect.value = currentBridgeLanguage;
+  if (languageSelect) languageSelect.value = learningPathState.language;
+  if (levelSelect) levelSelect.value = learningPathState.level;
+  popover.hidden = false;
+  popover.removeAttribute('inert');
+  bridgeSelect?.focus();
+}
+
+function closeChangeCombinationPopover() {
+  const popover = document.getElementById('changeComboPopover');
+  if (!popover) return;
+  popover.hidden = true;
+  popover.setAttribute('inert', '');
+}
+
+function applyChangeCombination() {
+  const bridgeSelect = document.getElementById('comboBridgeSelect');
+  const languageSelect = document.getElementById('comboLanguageSelect');
+  const levelSelect = document.getElementById('comboLevelSelect');
+  if (!bridgeSelect || !languageSelect || !levelSelect) return;
+
+  if (!setBridgeLanguage(bridgeSelect.value)) return;
+  if (!setTargetLanguage(languageSelect.value, { level: levelSelect.value })) return;
+  closeChangeCombinationPopover();
+  showView(getViewFromHash());
+}
+
+// Dispatches to the right renderer for the currently-active skill view,
+// loading lessons first if they haven't been fetched yet for this
+// language/level (mirrors the loading guard the old inline card handler had).
+function renderSkillView(skill) {
+  const section = document.getElementById(skill);
+  if (!section) return;
+  renderSkillViewHeader(section);
+
+  if (skill === 'listening') {
+    renderListeningView(section);
+    return;
+  }
+
+  const content = section.querySelector('.skill-view-content');
+  if (!learningPathState.lessons.length) {
+    if (content) content.innerHTML = `<p class="skill-graph-empty">Preparando ${SKILL_LABELS[skill] || skill}…</p>`;
+    loadLearningPath({ language: learningPathState.language, level: learningPathState.level }).then(() => renderSkillView(skill));
+    return;
+  }
+
+  const lesson = learningPathState.lessons.find(item => item.skill === skill);
+  section.dataset.activeLessonSlug = lesson?.slug || '';
+  if (!lesson) {
+    if (content) content.innerHTML = `<p class="skill-graph-empty">No hay lección de ${SKILL_LABELS[skill] || skill} disponible en este nivel todavía.</p>`;
+    return;
+  }
+
+  const renderers = {
+    reading: renderReadingView,
+    writing: renderWritingView,
+    speaking: renderSpeakingView,
+    grammar: renderGrammarView,
+    vocabulary: renderVocabularyView
+  };
+  renderers[skill]?.(section, lesson);
+}
+
+function renderReadingView(section, lesson) {
+  const content = section.querySelector('.skill-view-content');
+  if (!content) return;
+  const { total, attempted } = getExerciseProgress(lesson);
+  const pct = total ? Math.round((attempted / total) * 100) : 0;
+  const paragraphs = (lesson.reading?.text || lesson.description || '').split(/\n+/).filter(Boolean);
+  const vocabHtml = (lesson.vocabulary || []).map(item => `
+    <div class="reading-vocab-item">
+      <strong>${escapeHtml(item.word)}</strong>
+      <span class="reading-vocab-support" hidden>${escapeHtml(resolveVocabTranslation(item))}</span>
+    </div>
+  `).join('');
+  const reflectHtml = (lesson.reading?.questions || []).map(q => `<li>${escapeHtml(q)}</li>`).join('');
+  const exercisesHtml = (lesson.exercises || [])
+    .filter(item => item.type === 'mcq')
+    .map((item, index) => renderLessonExercise(item, index, lesson)).join('');
+  const bridgeLabel = languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
+  const targetLabel = languageDisplayNames[learningPathState.language] || learningPathState.language;
+
+  content.innerHTML = `
+    <div class="reading-print-area" id="readingPrintArea">
+      <div class="print-only reading-print-header">
+        <div class="reading-print-logo">ANDERGO</div>
+        <p>${escapeHtml(bridgeLabel)} → ${escapeHtml(targetLabel)} · ${escapeHtml(lesson.level)}</p>
+        <p class="reading-print-date">${escapeHtml(new Date().toLocaleDateString('es'))}</p>
+      </div>
+      <h3>${escapeHtml(lesson.title)}</h3>
+      <p class="reading-level-tag">${escapeHtml(lesson.level)} · Reading</p>
+      <div class="reading-progress-bar no-print" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
+      <div class="reading-paragraphs">${paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>
+      <div class="reading-vocab-section no-print">
+        <button type="button" class="secondary-btn reading-toggle-vocab">Ver vocabulario</button>
+        <div class="reading-vocab-list" hidden>${vocabHtml}</div>
+      </div>
+      <div class="reading-support-toggle no-print">
+        <button type="button" class="secondary-btn reading-show-support">Mostrar apoyo en español</button>
+        <button type="button" class="secondary-btn reading-hide-support" hidden>Ocultar apoyo</button>
+      </div>
+      ${reflectHtml ? `<div class="reading-reflect"><h4>Reflexiona</h4><ul>${reflectHtml}</ul></div>` : ''}
+      <div class="reading-questions">
+        <h4>Preguntas de comprensión</h4>
+        ${exercisesHtml || '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>'}
+      </div>
+      <div class="reading-print-answer-space print-only">
+        <h4>Tus respuestas</h4>
+        <div class="reading-print-answer-lines"><div></div><div></div><div></div><div></div></div>
+      </div>
+    </div>
+    <div class="skill-view-tutor-cta no-print">
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Explícame este párrafo: ${escapeHtml(paragraphs[0] || lesson.title)}" data-support-mode="explain">Explicar este párrafo</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Resume esta lectura en un par de frases." data-support-mode="explain">Resumir con Tutor IA</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Dame una pista para responder las preguntas de comprensión, sin darme la respuesta." data-support-mode="hint">Pedir pista</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Crea otra pregunta de comprensión sobre este texto." data-support-mode="practice">Crear otra pregunta</button>
+      <button type="button" class="primary-btn reading-print-btn">Descargar PDF</button>
+    </div>
+  `;
+}
+
+function renderWritingView(section, lesson) {
+  const content = section.querySelector('.skill-view-content');
+  if (!content) return;
+  const writingExercise = (lesson.exercises || []).find(item => item.type === 'writing');
+  const draftKey = `andergoWritingDraft:${lesson.slug}`;
+  const savedDraft = localStorage.getItem(draftKey) || '';
+  const wordLimit = 80;
+
+  content.innerHTML = `
+    <h3>${escapeHtml(lesson.title)}</h3>
+    <p class="writing-consigna">${escapeHtml(writingExercise?.prompt || lesson.mission || lesson.intro || '')}</p>
+    <div class="writing-model">
+      <strong>Modelo</strong>
+      <p>${escapeHtml(lesson.dialogue?.[0]?.line || lesson.phrases?.[0] || '')}</p>
+    </div>
+    <div class="writing-connectors">
+      <strong>Vocabulario y conectores</strong>
+      <div class="writing-connectors-list">${(lesson.phrases || []).map(p => `<span>${escapeHtml(p)}</span>`).join('')}</div>
+    </div>
+    <label class="writing-editor-label" for="writingEditor">Tu texto <span class="writing-word-limit">(límite sugerido: ${wordLimit} palabras)</span></label>
+    <textarea id="writingEditor" class="writing-editor" rows="10">${escapeHtml(savedDraft)}</textarea>
+    <p class="writing-word-count" id="writingWordCount">0 palabras</p>
+    <div class="skill-view-tutor-cta">
+      <button type="button" class="secondary-btn writing-review-btn" data-support-mode="review-grammar">Revisar gramática</button>
+      <button type="button" class="secondary-btn writing-review-btn" data-support-mode="review-vocabulary">Mejorar vocabulario</button>
+      <button type="button" class="secondary-btn writing-review-btn" data-support-mode="review-coherence">Revisar coherencia</button>
+      <button type="button" class="secondary-btn writing-review-btn" data-support-mode="explain-errors">Explicar errores en español</button>
+      <button type="button" class="secondary-btn writing-review-btn" data-support-mode="hint">Darme una pista</button>
+    </div>
+    <div class="writing-tutor-panel" id="writingTutorPanel" hidden>
+      <div class="writing-tutor-original"><strong>Original</strong><p></p></div>
+      <div class="writing-tutor-suggestion"><strong>Sugerencia del Tutor IA</strong><p></p></div>
+      <div class="writing-tutor-current" hidden><strong>Tu texto actual</strong><p></p></div>
+      <div class="writing-tutor-actions">
+        <button type="button" class="secondary-btn writing-compare-btn">Comparar versiones</button>
+        <button type="button" class="secondary-btn writing-reject-btn">Rechazar</button>
+        <button type="button" class="primary-btn writing-accept-btn">Aceptar</button>
+      </div>
+    </div>
+  `;
+
+  const editor = content.querySelector('#writingEditor');
+  const wordCountEl = content.querySelector('#writingWordCount');
+  const updateWordCount = () => {
+    const words = editor.value.trim().split(/\s+/).filter(Boolean).length;
+    wordCountEl.textContent = `${words} palabra${words === 1 ? '' : 's'}`;
+    localStorage.setItem(draftKey, editor.value);
+  };
+  editor?.addEventListener('input', updateWordCount);
+  updateWordCount();
+}
+
+function renderSpeakingView(section, lesson) {
+  const content = section.querySelector('.skill-view-content');
+  if (!content) return;
+  const situacion = lesson.mission || lesson.intro || lesson.description || '';
+  const fraseModelo = lesson.dialogue?.[0]?.line || lesson.phrases?.[0] || '';
+
+  content.innerHTML = `
+    <h3>${escapeHtml(lesson.title)}</h3>
+    <p class="speaking-situation"><strong>Situación:</strong> ${escapeHtml(situacion)}</p>
+    <p class="speaking-model"><strong>Frase modelo:</strong> ${escapeHtml(fraseModelo)}</p>
+    <label class="speaking-response-label" for="speakingResponse">Tu respuesta (escrita)</label>
+    <textarea id="speakingResponse" class="speaking-response" rows="4" placeholder="Escribe lo que dirías…"></textarea>
+
+    <div class="speaking-record-row" role="group" aria-label="Grabación de voz (próximamente)">
+      <button type="button" class="speaking-record-btn" data-recording-action="record">🔴 Grabar</button>
+      <button type="button" class="speaking-record-btn" data-recording-action="stop">⏹ Detener</button>
+      <button type="button" class="speaking-record-btn" data-recording-action="play">▶ Reproducir</button>
+      <button type="button" class="speaking-record-btn" data-recording-action="delete">🗑 Eliminar</button>
+      <button type="button" class="speaking-record-btn" data-recording-action="redo">↺ Volver a grabar</button>
+      <button type="button" class="speaking-record-btn" data-recording-action="send">📤 Enviar</button>
+    </div>
+    <p class="speaking-record-note">La grabación de voz estará disponible próximamente. Por ahora, practica con una respuesta escrita.</p>
+
+    <div class="skill-view-tutor-cta">
+      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Quiero practicar esta conversación: ${escapeHtml(situacion)}" data-support-mode="practice">Practicar con Tutor IA</button>
+    </div>
+  `;
+}
+
+function renderGrammarView(section, lesson) {
+  const content = section.querySelector('.skill-view-content');
+  if (!content) return;
+  const example = lesson.dialogue?.[0] || lesson.vocabulary?.[0] || null;
+  const exercisesHtml = (lesson.exercises || [])
+    .filter(item => item.type === 'mcq')
+    .map((item, index) => renderLessonExercise(item, index, lesson)).join('');
+
+  content.innerHTML = `
+    <h3>${escapeHtml(lesson.title)}</h3>
+    <div class="grammar-explanation">
+      <strong>Estructura</strong>
+      <p>${escapeHtml(lesson.grammar || lesson.description || '')}</p>
+    </div>
+    ${example ? `
+      <div class="grammar-example">
+        <div class="grammar-example-target"><span>Target</span><strong>${escapeHtml(example.line || example.word || '')}</strong></div>
+        <div class="grammar-example-bridge"><span>Bridge</span><strong>${escapeHtml(resolveVocabTranslation(example))}</strong></div>
+      </div>
+    ` : ''}
+    <div class="grammar-exercise">
+      <h4>Mini ejercicio</h4>
+      ${exercisesHtml || '<p class="skill-graph-empty">No hay ejercicios de gramática para esta lección.</p>'}
+    </div>
+    <div class="skill-view-tutor-cta">
+      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Explícame por qué se usa esta estructura: ${escapeHtml(lesson.grammar || '')}" data-support-mode="explain">Explícame esta estructura</button>
+    </div>
+  `;
+}
+
+function renderVocabularyView(section, lesson) {
+  const content = section.querySelector('.skill-view-content');
+  if (!content) return;
+  const cards = lesson.vocabulary || [];
+
+  content.innerHTML = `
+    <h3>${escapeHtml(lesson.title)}</h3>
+    <div class="vocab-card-deck">
+      ${cards.map((item, index) => `
+        <div class="vocab-flip-card" data-index="${index}">
+          <div class="vocab-flip-card-inner">
+            <div class="vocab-flip-front">
+              <strong>${escapeHtml(item.word)}</strong>
+            </div>
+            <div class="vocab-flip-back">
+              <strong>${escapeHtml(item.translation)}</strong>
+              <p>${escapeHtml(item.example || '')}</p>
+            </div>
+          </div>
+          <div class="vocab-card-actions">
+            <button type="button" class="vocab-flip-btn">Ver traducción</button>
+            <button type="button" class="vocab-know-btn">Ya la sé</button>
+            <button type="button" class="vocab-retry-btn">Practicar otra vez</button>
+            <button type="button" class="vocab-example-btn open-tutor-btn" data-tutor-prompt="Dame otro ejemplo de una frase con la palabra '${escapeHtml(item.word)}'." data-support-mode="example">Pedir ejemplo</button>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+    <div class="skill-view-tutor-cta">
+      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Ayúdame a practicar este vocabulario: ${escapeHtml(cards.map(c => c.word).join(', '))}" data-support-mode="practice">Practicar estas palabras</button>
+    </div>
+  `;
+}
+
+function renderListeningView(section) {
+  const content = section.querySelector('.skill-view-content');
+  if (!content) return;
+  // audioStatus is always 'unavailable' today - see docs/audio-architecture.md
+  // for the planned Supabase Storage layout that will eventually flip this
+  // to 'preparing'/'available'. No lesson lookup, no XP, no completion.
+  content.innerHTML = `
+    <div class="listening-soon">
+      <div class="listening-soon-icon">🎧</div>
+      <p class="listening-soon-status">Próximamente</p>
+      <p class="listening-soon-text">Estamos preparando audios reales organizados por idioma, nivel y lección.</p>
+      <p class="listening-soon-detail">Cada lección incluirá un audio a velocidad normal y otro más lento, con transcripción, para practicar comprensión auditiva real en cuanto estén disponibles (estado actual: ${LISTENING_AUDIO_STATUS}).</p>
+    </div>
+  `;
+}
+
+// ---------------------------------------------------------------------
+// Global Tutor IA: floating button + slide-in drawer, reachable from every
+// view without losing whatever skill/lesson was active. Shares the same
+// /api/ai/tutor call and connection-status rules as the full #tutor view
+// via sendTutorMessage() below (extracted from the .tutor-chat-btn handler).
+// ---------------------------------------------------------------------
+
+let tutorDrawerReturnFocus = null;
+let tutorDrawerContext = { skill: 'speaking', lessonTitle: '', lessonIntro: '', lessonSlug: '', supportMode: 'practice', currentActivity: '' };
+
+function openTutorDrawer(overrides = {}) {
+  const drawer = document.getElementById('tutorDrawer');
+  if (!drawer) return;
+  tutorDrawerContext = { ...tutorDrawerContext, ...overrides };
+  tutorDrawerReturnFocus = document.activeElement;
+
+  drawer.classList.add('open');
+  drawer.setAttribute('aria-hidden', 'false');
+  drawer.removeAttribute('inert');
+  document.body.classList.add('modal-open');
+
+  const skillEl = drawer.querySelector('[data-drawer-context="skill"]');
+  const levelEl = drawer.querySelector('[data-drawer-context="level"]');
+  if (skillEl) skillEl.textContent = SKILL_LABELS[tutorDrawerContext.skill] || tutorDrawerContext.skill;
+  if (levelEl) levelEl.textContent = learningPathState.level;
+
+  const prompt = document.getElementById('tutorDrawerPrompt');
+  if (prompt) prompt.value = overrides.prefill || '';
+  checkTutorConnection('tutorDrawerConnectionStatus');
+  (prompt || drawer.querySelector('.close-modal'))?.focus();
+}
+
+function closeTutorDrawer() {
+  const drawer = document.getElementById('tutorDrawer');
+  if (!drawer || !drawer.classList.contains('open')) return;
+  drawer.classList.remove('open');
+  drawer.setAttribute('aria-hidden', 'true');
+  drawer.setAttribute('inert', '');
+  document.body.classList.remove('modal-open');
+  (tutorDrawerReturnFocus || document.getElementById('tutorFab'))?.focus();
+  tutorDrawerReturnFocus = null;
+}
+
+// Shared core behind both the full #tutor view's chat and the drawer's chat -
+// same request contract (§5: bridgeLanguage/targetLanguage/level/skill/
+// lessonSlug/lessonTitle/currentActivity/userMessage/supportMode), same
+// "never claim Conectado without a real response" rule. conversationEl/
+// thinkingEl/connectionStatusEl/promptEl/sendBtn may be null (appendTutorMessage
+// and friends are already null-safe) for inline callers that don't have a
+// chat log of their own (e.g. the Writing view's review buttons).
+async function sendTutorMessage({
+  conversationEl, thinkingEl, connectionStatusEl, promptEl, sendBtn,
+  skill, level, language, bridgeLanguage, lessonTitle, lessonIntro, lessonSlug,
+  currentActivity, supportMode, selectedSuggestion, fallbackPrompt
+}) {
+  const customPrompt = promptEl?.value.trim() || '';
+  const finalPrompt = customPrompt || selectedSuggestion || fallbackPrompt || 'Quiero practicar esta habilidad.';
+  if (!finalPrompt) return null;
+
+  if (conversationEl) appendTutorMessage(conversationEl, 'user', finalPrompt);
+  if (promptEl) promptEl.value = '';
+  if (thinkingEl) thinkingEl.hidden = false;
+  if (connectionStatusEl) connectionStatusEl.textContent = 'Comprobando conexión…';
+  if (sendBtn) sendBtn.disabled = true;
+
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/ai/tutor`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({
+        language, targetLanguage: language,
+        skill, level,
+        nativeLanguage: bridgeLanguage, bridgeLanguage,
+        prompt: finalPrompt, userMessage: finalPrompt,
+        lessonTitle: lessonTitle || '', lessonIntro: lessonIntro || '', lessonSlug: lessonSlug || '',
+        currentActivity: currentActivity || '', supportMode: supportMode || 'practice',
+        selectedSuggestion: selectedSuggestion || ''
+      })
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.error || 'No se pudo conectar con el tutor IA.');
+    if (conversationEl) appendTutorMessage(conversationEl, 'tutor', data.reply || '');
+    if (connectionStatusEl) connectionStatusEl.textContent = 'Conectado';
+    return data;
+  } catch (error) {
+    if (conversationEl) appendTutorMessage(conversationEl, 'tutor', error.message || 'No se pudo conectar con el tutor IA.', { isError: true });
+    if (connectionStatusEl) connectionStatusEl.textContent = 'No disponible';
+    return null;
+  } finally {
+    if (thinkingEl) thinkingEl.hidden = true;
+    if (sendBtn) sendBtn.disabled = false;
+  }
 }
 
 function getLocalFallbackLessons(language, level) {
@@ -1335,6 +1789,12 @@ if (menuToggle && siteMenu) {
 // Single-view router: exactly one of these is visible at a time (everything
 // else keeps its .compact-hidden-section class). Header, footer and the auth
 // modals sit outside this map and are always visible/available.
+// The 6 skills each get their own dedicated view (instead of swapping
+// content inside #learning-path's small lesson-workspace card) - listed
+// once here since several places (router, card click handler, header
+// renderer) all need to agree on the same set.
+const SKILL_VIEWS = ['listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary'];
+
 const VIEW_SECTIONS = {
   home: ['.hero', '#language-picker'],
   learn: ['#learning-path'],
@@ -1342,7 +1802,13 @@ const VIEW_SECTIONS = {
   achievements: ['#achievements'],
   goals: ['#goals'],
   tutor: ['#tutor'],
-  premium: ['#premium']
+  premium: ['#premium'],
+  listening: ['#listening'],
+  speaking: ['#speaking'],
+  reading: ['#reading'],
+  writing: ['#writing'],
+  grammar: ['#grammar'],
+  vocabulary: ['#vocabulary']
 };
 
 // Focus target per view: the one heading a screen reader / keyboard user
@@ -1356,7 +1822,13 @@ const VIEW_TITLE_SELECTORS = {
   achievements: '#achievements h2',
   goals: '#goals h2',
   tutor: '#tutor h2',
-  premium: '#premium h2'
+  premium: '#premium h2',
+  listening: '#listening h2',
+  speaking: '#speaking h2',
+  reading: '#reading h2',
+  writing: '#writing h2',
+  grammar: '#grammar h2',
+  vocabulary: '#vocabulary h2'
 };
 
 function getViewFromHash() {
@@ -1399,6 +1871,13 @@ function showView(viewId) {
     checkTutorConnection();
   }
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
+  if (SKILL_VIEWS.includes(resolved)) renderSkillView(resolved);
+
+  // The floating Tutor IA button is redundant on the dedicated Tutor view,
+  // and the drawer shouldn't stay open across a navigation - it loses
+  // whatever context it had anyway.
+  document.getElementById('tutorFab')?.toggleAttribute('hidden', resolved === 'tutor');
+  closeTutorDrawer();
 
   window.scrollTo({ top: 0, behavior: 'auto' });
   document.querySelector(VIEW_TITLE_SELECTORS[resolved])?.focus({ preventScroll: true });
@@ -1537,14 +2016,9 @@ function enableHomepageActions() {
     const skillCompetencyCard = event.target.closest('.skill-competency-card');
     if (skillCompetencyCard) {
       const skill = skillCompetencyCard.dataset.skill;
-      if (!learningPathState.lessons.length) {
-        await loadLearningPath({ language: learningPathState.language, level: learningPathState.level });
-      }
-      const matchingLesson = learningPathState.lessons.find(item => item.skill?.toLowerCase() === skill);
-      if (matchingLesson) {
-        openLesson(matchingLesson.slug);
-      }
-      document.getElementById('lessonWorkspace')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (!SKILL_VIEWS.includes(skill)) return;
+      if (window.location.hash !== `#${skill}`) history.pushState(null, '', `#${skill}`);
+      showView(skill);
       return;
     }
 
@@ -1636,62 +2110,224 @@ function enableHomepageActions() {
     const tutorButton = event.target.closest('.tutor-chat-btn');
     if (tutorButton) {
       const card = tutorButton.closest('#tutor');
-      const conversation = document.getElementById('tutorConversation');
-      const thinking = document.getElementById('tutorThinking');
-      const connectionStatus = document.getElementById('tutorConnectionStatus');
       const activeSkill = card?.querySelector('.skill-tab-button.active')?.dataset.skill || 'speaking';
       const activeLesson = getActiveLearningLesson();
-      const tutorPrompt = document.getElementById('aiTutorPrompt');
-      const customPrompt = tutorPrompt?.value.trim() || '';
-      const activeLevel = learningPathState.level || 'A1';
-      const tutorLanguage = learningPathState.language;
       const selectedSuggestion = card?.querySelector('.skill-panel.active .predictive-suggestion.selected')?.textContent?.trim();
       const fallbackPrompt = {
         listening: 'Quiero practicar comprensión auditiva con un ejemplo corto y una pregunta.',
         speaking: 'Quiero practicar conversación con una respuesta modelo y una repregunta.',
         writing: 'Quiero practicar escritura con una corrección breve y un ejemplo mejorado.'
       }[activeSkill] || 'Quiero practicar esta habilidad.';
-      const finalPrompt = customPrompt || selectedSuggestion || fallbackPrompt;
-      if (!finalPrompt) return;
 
-      appendTutorMessage(conversation, 'user', finalPrompt);
-      if (tutorPrompt) tutorPrompt.value = '';
-      if (thinking) thinking.hidden = false;
-      if (connectionStatus) connectionStatus.textContent = 'Comprobando conexión…';
-      tutorButton.disabled = true;
-
-      try {
-        const response = await fetch(`${backendBaseUrl}/api/ai/tutor`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            ...authHeaders()
-          },
-          body: JSON.stringify({
-            language: tutorLanguage,
-            skill: activeSkill,
-            level: activeLevel,
-            nativeLanguage: currentBridgeLanguage,
-            prompt: finalPrompt,
-            lessonTitle: activeLesson?.title || '',
-            lessonIntro: activeLesson?.intro || activeLesson?.description || '',
-            selectedSuggestion: selectedSuggestion || ''
-          })
-        });
-        const data = await response.json().catch(() => ({}));
-        if (!response.ok) {
-          throw new Error(data.error || 'No se pudo conectar con el tutor IA.');
-        }
-        appendTutorMessage(conversation, 'tutor', data.reply || '');
-        if (connectionStatus) connectionStatus.textContent = 'Conectado';
-      } catch (error) {
-        appendTutorMessage(conversation, 'tutor', error.message || 'No se pudo conectar con el tutor IA.', { isError: true });
-        if (connectionStatus) connectionStatus.textContent = 'No disponible';
-      } finally {
-        if (thinking) thinking.hidden = true;
-        tutorButton.disabled = false;
-      }
+      await sendTutorMessage({
+        conversationEl: document.getElementById('tutorConversation'),
+        thinkingEl: document.getElementById('tutorThinking'),
+        connectionStatusEl: document.getElementById('tutorConnectionStatus'),
+        promptEl: document.getElementById('aiTutorPrompt'),
+        sendBtn: tutorButton,
+        skill: activeSkill,
+        level: learningPathState.level || 'A1',
+        language: learningPathState.language,
+        bridgeLanguage: currentBridgeLanguage,
+        lessonTitle: activeLesson?.title || '',
+        lessonIntro: activeLesson?.intro || activeLesson?.description || '',
+        lessonSlug: activeLesson?.slug || '',
+        currentActivity: 'Viendo la vista Tutor IA',
+        supportMode: 'practice',
+        selectedSuggestion,
+        fallbackPrompt
+      });
+      return;
     }
+
+    const openTutorBtn = event.target.closest('.open-tutor-btn');
+    if (openTutorBtn) {
+      const skillSection = openTutorBtn.closest('.skill-view-section');
+      const skill = skillSection?.dataset.skill || 'speaking';
+      const lesson = learningPathState.lessons.find(item => item.slug === skillSection?.dataset.activeLessonSlug) || getActiveLearningLesson();
+      openTutorDrawer({
+        skill,
+        lessonTitle: lesson?.title || '',
+        lessonIntro: lesson?.intro || lesson?.description || '',
+        lessonSlug: lesson?.slug || '',
+        supportMode: openTutorBtn.dataset.supportMode || 'practice',
+        currentActivity: `Practicando ${SKILL_LABELS[skill] || skill}`,
+        prefill: openTutorBtn.dataset.tutorPrompt || ''
+      });
+      return;
+    }
+
+    const changeComboBtn = event.target.closest('.change-combination-btn');
+    if (changeComboBtn) {
+      openChangeCombinationPopover();
+      return;
+    }
+    if (event.target.closest('.change-combo-apply')) {
+      applyChangeCombination();
+      return;
+    }
+    if (event.target.closest('.change-combo-close') || event.target.id === 'changeComboPopover') {
+      closeChangeCombinationPopover();
+      return;
+    }
+
+    if (event.target.closest('[data-action="close-tutor-drawer"]')) {
+      closeTutorDrawer();
+      return;
+    }
+
+    const readingToggleVocab = event.target.closest('.reading-toggle-vocab');
+    if (readingToggleVocab) {
+      const list = readingToggleVocab.closest('.reading-vocab-section')?.querySelector('.reading-vocab-list');
+      if (list) {
+        list.hidden = !list.hidden;
+        readingToggleVocab.textContent = list.hidden ? 'Ver vocabulario' : 'Ocultar vocabulario';
+      }
+      return;
+    }
+    const readingShowSupport = event.target.closest('.reading-show-support');
+    if (readingShowSupport) {
+      const area = readingShowSupport.closest('.reading-print-area');
+      area?.querySelectorAll('.reading-vocab-support').forEach(el => { el.hidden = false; });
+      readingShowSupport.hidden = true;
+      area?.querySelector('.reading-hide-support')?.removeAttribute('hidden');
+      return;
+    }
+    const readingHideSupport = event.target.closest('.reading-hide-support');
+    if (readingHideSupport) {
+      const area = readingHideSupport.closest('.reading-print-area');
+      area?.querySelectorAll('.reading-vocab-support').forEach(el => { el.hidden = true; });
+      readingHideSupport.hidden = true;
+      area?.querySelector('.reading-show-support')?.removeAttribute('hidden');
+      return;
+    }
+    if (event.target.closest('.reading-print-btn')) {
+      window.print();
+      return;
+    }
+
+    const writingReviewBtn = event.target.closest('.writing-review-btn');
+    if (writingReviewBtn) {
+      const editor = document.getElementById('writingEditor');
+      const editorText = editor?.value.trim() || '';
+      if (!editorText) {
+        showHomeToast('Escribe tu texto antes de pedir revisión.');
+        return;
+      }
+      const mode = writingReviewBtn.dataset.supportMode;
+      const prompts = {
+        'review-grammar': `Revisa la gramática de este texto y explica los errores: ${editorText}`,
+        'review-vocabulary': `Sugiere mejoras de vocabulario para este texto: ${editorText}`,
+        'review-coherence': `Revisa la coherencia y organización de este texto: ${editorText}`,
+        'explain-errors': `Explícame en español los errores de este texto: ${editorText}`,
+        hint: `Dame una pista para mejorar este texto sin reescribirlo tú: ${editorText}`
+      };
+      const section = writingReviewBtn.closest('.skill-view-section');
+      const lesson = learningPathState.lessons.find(item => item.slug === section?.dataset.activeLessonSlug);
+      const panel = document.getElementById('writingTutorPanel');
+      if (panel) {
+        panel.hidden = false;
+        panel.querySelector('.writing-tutor-original p').textContent = editorText;
+        panel.querySelector('.writing-tutor-suggestion p').textContent = 'Consultando al Tutor IA…';
+      }
+      writingReviewBtn.disabled = true;
+      const data = await sendTutorMessage({
+        conversationEl: null,
+        thinkingEl: null,
+        connectionStatusEl: null,
+        promptEl: null,
+        sendBtn: null,
+        skill: 'writing',
+        level: learningPathState.level || 'A1',
+        language: learningPathState.language,
+        bridgeLanguage: currentBridgeLanguage,
+        lessonTitle: lesson?.title || '',
+        lessonIntro: lesson?.intro || lesson?.description || '',
+        lessonSlug: lesson?.slug || '',
+        currentActivity: 'Escribiendo un texto',
+        supportMode: mode,
+        fallbackPrompt: prompts[mode] || editorText
+      });
+      writingReviewBtn.disabled = false;
+      if (panel) panel.querySelector('.writing-tutor-suggestion p').textContent = data?.reply || 'No se pudo obtener una respuesta del Tutor IA.';
+      return;
+    }
+    if (event.target.closest('.writing-accept-btn')) {
+      // Never auto-replaces the student's text - just acknowledges the
+      // suggestion was reviewed and dismisses the panel.
+      document.getElementById('writingTutorPanel')?.setAttribute('hidden', '');
+      showHomeToast('Sugerencia aceptada. Tu texto no se modificó automáticamente.');
+      return;
+    }
+    if (event.target.closest('.writing-reject-btn')) {
+      document.getElementById('writingTutorPanel')?.setAttribute('hidden', '');
+      showHomeToast('Sugerencia descartada.');
+      return;
+    }
+    if (event.target.closest('.writing-compare-btn')) {
+      const panel = document.getElementById('writingTutorPanel');
+      const currentBlock = panel?.querySelector('.writing-tutor-current');
+      if (currentBlock) {
+        currentBlock.hidden = !currentBlock.hidden;
+        if (!currentBlock.hidden) currentBlock.querySelector('p').textContent = document.getElementById('writingEditor')?.value.trim() || '';
+      }
+      return;
+    }
+
+    if (event.target.closest('.speaking-record-btn')) {
+      showHomeToast('Grabación disponible próximamente.');
+      return;
+    }
+
+    const vocabFlipBtn = event.target.closest('.vocab-flip-btn');
+    if (vocabFlipBtn) {
+      vocabFlipBtn.closest('.vocab-flip-card')?.classList.toggle('is-flipped');
+      return;
+    }
+    const vocabKnowBtn = event.target.closest('.vocab-know-btn');
+    if (vocabKnowBtn) {
+      vocabKnowBtn.closest('.vocab-flip-card')?.classList.add('is-known');
+      return;
+    }
+    const vocabRetryBtn = event.target.closest('.vocab-retry-btn');
+    if (vocabRetryBtn) {
+      vocabRetryBtn.closest('.vocab-flip-card')?.classList.remove('is-known', 'is-flipped');
+      return;
+    }
+  });
+
+  document.getElementById('tutorFab')?.addEventListener('click', () => openTutorDrawer());
+
+  document.getElementById('tutorDrawerSend')?.addEventListener('click', async () => {
+    const sendBtn = document.getElementById('tutorDrawerSend');
+    await sendTutorMessage({
+      conversationEl: document.getElementById('tutorDrawerConversation'),
+      thinkingEl: document.getElementById('tutorDrawerThinking'),
+      connectionStatusEl: document.getElementById('tutorDrawerConnectionStatus'),
+      promptEl: document.getElementById('tutorDrawerPrompt'),
+      sendBtn,
+      skill: tutorDrawerContext.skill,
+      level: learningPathState.level || 'A1',
+      language: learningPathState.language,
+      bridgeLanguage: currentBridgeLanguage,
+      lessonTitle: tutorDrawerContext.lessonTitle,
+      lessonIntro: tutorDrawerContext.lessonIntro,
+      lessonSlug: tutorDrawerContext.lessonSlug,
+      currentActivity: tutorDrawerContext.currentActivity || `Practicando ${SKILL_LABELS[tutorDrawerContext.skill] || tutorDrawerContext.skill}`,
+      supportMode: tutorDrawerContext.supportMode,
+      fallbackPrompt: 'Quiero practicar esta habilidad.'
+    });
+  });
+
+  document.getElementById('tutorDrawerClear')?.addEventListener('click', () => {
+    const conversation = document.getElementById('tutorDrawerConversation');
+    if (conversation) conversation.innerHTML = '<p class="tutor-welcome">👋 Soy Tutor AI. Cuéntame qué quieres practicar.</p>';
+  });
+
+  document.getElementById('tutorDrawerPrompt')?.addEventListener('keydown', event => {
+    if (event.key !== 'Enter' || event.shiftKey) return;
+    event.preventDefault();
+    document.getElementById('tutorDrawerSend')?.click();
   });
 }
 
