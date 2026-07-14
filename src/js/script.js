@@ -2046,7 +2046,7 @@ function enableHomepageActions() {
             language: tutorLanguage,
             skill: activeSkill,
             level: activeLevel,
-            nativeLanguage: currentNativeLanguage,
+            nativeLanguage: currentBridgeLanguage,
             prompt: finalPrompt,
             lessonTitle: activeLesson?.title || '',
             lessonIntro: activeLesson?.intro || activeLesson?.description || '',
@@ -2140,6 +2140,7 @@ document.querySelector('.lesson-complete-btn')?.addEventListener('click', comple
   const preferences = await loadPreferences();
   applyPreferencesToSelects(preferences);
   await loadLearningPath(preferences || {});
+  updatePathPairPreview();
 })();
 
 document.getElementById('aiTutorPrompt')?.addEventListener('keydown', event => {
