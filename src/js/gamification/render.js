@@ -22,7 +22,8 @@
 
   function refreshMissionsCountdown() {
     const countdown = document.querySelector('.missions-countdown');
-    if (countdown) countdown.textContent = `Nuevas misiones en ${formatCountdown(msUntilNextReset())}`;
+    if (countdown)
+      countdown.textContent = `Nuevas misiones en ${formatCountdown(msUntilNextReset())}`;
   }
 
   G.render = function render() {
@@ -58,8 +59,10 @@
       xpCaption.textContent = `${G.state.xp - floor} / ${G.LEVEL_XP_STEP} XP`;
     }
     if (streakValue) streakValue.textContent = String(G.state.streak);
-    if (bestStreakValue) bestStreakValue.textContent = String(Math.max(G.state.longestStreak || 0, G.state.streak));
-    if (badgesValue) badgesValue.textContent = `${G.state.badges.length}/${G.BADGE_DEFINITIONS.length}`;
+    if (bestStreakValue)
+      bestStreakValue.textContent = String(Math.max(G.state.longestStreak || 0, G.state.streak));
+    if (badgesValue)
+      badgesValue.textContent = `${G.state.badges.length}/${G.BADGE_DEFINITIONS.length}`;
   };
 
   G.renderBadges = function renderBadges() {
@@ -80,22 +83,28 @@
       return;
     }
 
-    grid.innerHTML = filtered.map((badge) => {
-      const unlocked = G.state.badges.includes(badge.id);
-      const current = Math.min(badge.target, stats[badge.statKey] || 0);
-      const progressPct = Math.round((current / badge.target) * 100);
-      return `
+    grid.innerHTML = filtered
+      .map((badge) => {
+        const unlocked = G.state.badges.includes(badge.id);
+        const current = Math.min(badge.target, stats[badge.statKey] || 0);
+        const progressPct = Math.round((current / badge.target) * 100);
+        return `
         <div class="badge-card ${unlocked ? 'unlocked' : 'locked'}" title="${badge.description}">
           <span class="badge-card-icon">${unlocked ? badge.icon : '🔒'}</span>
           <strong>${badge.label}</strong>
           <span>${badge.description}</span>
-          ${unlocked ? '' : `
+          ${
+            unlocked
+              ? ''
+              : `
             <div class="badge-progress-bar"><div style="width:${progressPct}%"></div></div>
             <span class="badge-progress-label">${current}/${badge.target}</span>
-          `}
+          `
+          }
         </div>
       `;
-    }).join('');
+      })
+      .join('');
   };
 
   G.renderMissions = function renderMissions() {
@@ -103,7 +112,9 @@
     refreshMissionsCountdown();
     const list = document.querySelector('.mission-list');
     if (!list) return;
-    list.innerHTML = G.state.missions.items.map((mission) => `
+    list.innerHTML = G.state.missions.items
+      .map(
+        (mission) => `
       <li class="mission-item ${mission.done ? 'done' : ''}">
         <span class="mission-check">${mission.done ? '✅' : '⬜'}</span>
         <div class="mission-copy">
@@ -112,7 +123,9 @@
         </div>
         <span class="mission-xp">+${mission.xpReward} XP</span>
       </li>
-    `).join('');
+    `
+      )
+      .join('');
   };
 
   // Delegated once: the badges grid is re-rendered often, but the filter

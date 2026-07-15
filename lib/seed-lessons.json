@@ -144,12 +144,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Hello\"?",
-          "options": [
-            "Hola",
-            "Nombre",
-            "Profesor/a",
-            "Amigo/a"
-          ],
+          "options": ["Hola", "Nombre", "Profesor/a", "Amigo/a"],
           "answer": 0
         },
         {
@@ -165,12 +160,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Thank you\"?",
-          "options": [
-            "Gracias",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Gracias", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -369,12 +359,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Hello\"?",
-          "options": [
-            "Hola",
-            "Nombre",
-            "Profesor/a",
-            "Amigo/a"
-          ],
+          "options": ["Hola", "Nombre", "Profesor/a", "Amigo/a"],
           "answer": 0
         },
         {
@@ -390,12 +375,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Thank you\"?",
-          "options": [
-            "Gracias",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Gracias", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -594,12 +574,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Hello\"?",
-          "options": [
-            "Hola",
-            "Nombre",
-            "Profesor/a",
-            "Amigo/a"
-          ],
+          "options": ["Hola", "Nombre", "Profesor/a", "Amigo/a"],
           "answer": 0
         },
         {
@@ -615,12 +590,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Thank you\"?",
-          "options": [
-            "Gracias",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Gracias", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -819,12 +789,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Hello\"?",
-          "options": [
-            "Hola",
-            "Nombre",
-            "Profesor/a",
-            "Amigo/a"
-          ],
+          "options": ["Hola", "Nombre", "Profesor/a", "Amigo/a"],
           "answer": 0
         },
         {
@@ -840,12 +805,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Thank you\"?",
-          "options": [
-            "Gracias",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Gracias", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -1045,12 +1005,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Hello\"?",
-          "options": [
-            "Hola",
-            "Nombre",
-            "Profesor/a",
-            "Amigo/a"
-          ],
+          "options": ["Hola", "Nombre", "Profesor/a", "Amigo/a"],
           "answer": 0
         },
         {
@@ -1066,12 +1021,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Thank you\"?",
-          "options": [
-            "Gracias",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Gracias", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -1319,12 +1269,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Hello\"?",
-          "options": [
-            "Hola",
-            "Nombre",
-            "Profesor/a",
-            "Amigo/a"
-          ],
+          "options": ["Hola", "Nombre", "Profesor/a", "Amigo/a"],
           "answer": 0
         },
         {
@@ -1340,12 +1285,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Thank you\"?",
-          "options": [
-            "Gracias",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Gracias", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -1664,12 +1604,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Usually\"?",
-          "options": [
-            "Usualmente",
-            "Mercado",
-            "Viajar",
-            "Barato"
-          ],
+          "options": ["Usualmente", "Mercado", "Viajar", "Barato"],
           "answer": 0
         },
         {
@@ -1685,12 +1620,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Busy\"?",
-          "options": [
-            "Ocupado/a",
-            "Cita",
-            "Vecino/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Ocupado/a", "Cita", "Vecino/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -1889,12 +1819,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Usually\"?",
-          "options": [
-            "Usualmente",
-            "Mercado",
-            "Viajar",
-            "Barato"
-          ],
+          "options": ["Usualmente", "Mercado", "Viajar", "Barato"],
           "answer": 0
         },
         {
@@ -1910,12 +1835,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Busy\"?",
-          "options": [
-            "Ocupado/a",
-            "Cita",
-            "Vecino/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Ocupado/a", "Cita", "Vecino/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -2114,12 +2034,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Usually\"?",
-          "options": [
-            "Usualmente",
-            "Mercado",
-            "Viajar",
-            "Barato"
-          ],
+          "options": ["Usualmente", "Mercado", "Viajar", "Barato"],
           "answer": 0
         },
         {
@@ -2135,12 +2050,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Busy\"?",
-          "options": [
-            "Ocupado/a",
-            "Cita",
-            "Vecino/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Ocupado/a", "Cita", "Vecino/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -2339,12 +2249,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Usually\"?",
-          "options": [
-            "Usualmente",
-            "Mercado",
-            "Viajar",
-            "Barato"
-          ],
+          "options": ["Usualmente", "Mercado", "Viajar", "Barato"],
           "answer": 0
         },
         {
@@ -2360,12 +2265,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Busy\"?",
-          "options": [
-            "Ocupado/a",
-            "Cita",
-            "Vecino/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Ocupado/a", "Cita", "Vecino/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -2565,12 +2465,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Usually\"?",
-          "options": [
-            "Usualmente",
-            "Mercado",
-            "Viajar",
-            "Barato"
-          ],
+          "options": ["Usualmente", "Mercado", "Viajar", "Barato"],
           "answer": 0
         },
         {
@@ -2586,12 +2481,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Busy\"?",
-          "options": [
-            "Ocupado/a",
-            "Cita",
-            "Vecino/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Ocupado/a", "Cita", "Vecino/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -2839,12 +2729,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Usually\"?",
-          "options": [
-            "Usualmente",
-            "Mercado",
-            "Viajar",
-            "Barato"
-          ],
+          "options": ["Usualmente", "Mercado", "Viajar", "Barato"],
           "answer": 0
         },
         {
@@ -2860,12 +2745,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Busy\"?",
-          "options": [
-            "Ocupado/a",
-            "Cita",
-            "Vecino/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Ocupado/a", "Cita", "Vecino/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -3184,12 +3064,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Opinion\"?",
-          "options": [
-            "Opinión",
-            "Mejorar",
-            "Porque",
-            "Experiencia"
-          ],
+          "options": ["Opinión", "Mejorar", "Porque", "Experiencia"],
           "answer": 0
         },
         {
@@ -3205,12 +3080,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Perspective\"?",
-          "options": [
-            "Perspectiva",
-            "Motivación",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Perspectiva", "Motivación", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -3409,12 +3279,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Opinion\"?",
-          "options": [
-            "Opinión",
-            "Mejorar",
-            "Porque",
-            "Experiencia"
-          ],
+          "options": ["Opinión", "Mejorar", "Porque", "Experiencia"],
           "answer": 0
         },
         {
@@ -3430,12 +3295,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Perspective\"?",
-          "options": [
-            "Perspectiva",
-            "Motivación",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Perspectiva", "Motivación", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -3634,12 +3494,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Opinion\"?",
-          "options": [
-            "Opinión",
-            "Mejorar",
-            "Porque",
-            "Experiencia"
-          ],
+          "options": ["Opinión", "Mejorar", "Porque", "Experiencia"],
           "answer": 0
         },
         {
@@ -3655,12 +3510,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Perspective\"?",
-          "options": [
-            "Perspectiva",
-            "Motivación",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Perspectiva", "Motivación", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -3859,12 +3709,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Opinion\"?",
-          "options": [
-            "Opinión",
-            "Mejorar",
-            "Porque",
-            "Experiencia"
-          ],
+          "options": ["Opinión", "Mejorar", "Porque", "Experiencia"],
           "answer": 0
         },
         {
@@ -3880,12 +3725,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Perspective\"?",
-          "options": [
-            "Perspectiva",
-            "Motivación",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Perspectiva", "Motivación", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -4085,12 +3925,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Opinion\"?",
-          "options": [
-            "Opinión",
-            "Mejorar",
-            "Porque",
-            "Experiencia"
-          ],
+          "options": ["Opinión", "Mejorar", "Porque", "Experiencia"],
           "answer": 0
         },
         {
@@ -4106,12 +3941,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Perspective\"?",
-          "options": [
-            "Perspectiva",
-            "Motivación",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Perspectiva", "Motivación", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -4359,12 +4189,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Opinion\"?",
-          "options": [
-            "Opinión",
-            "Mejorar",
-            "Porque",
-            "Experiencia"
-          ],
+          "options": ["Opinión", "Mejorar", "Porque", "Experiencia"],
           "answer": 0
         },
         {
@@ -4380,12 +4205,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Perspective\"?",
-          "options": [
-            "Perspectiva",
-            "Motivación",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Perspectiva", "Motivación", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -4702,12 +4522,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Evidence\"?",
-          "options": [
-            "Evidencia",
-            "Sin embargo",
-            "Aunque",
-            "Impacto"
-          ],
+          "options": ["Evidencia", "Sin embargo", "Aunque", "Impacto"],
           "answer": 0
         },
         {
@@ -4723,12 +4538,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Drawback\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -4925,12 +4735,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Evidence\"?",
-          "options": [
-            "Evidencia",
-            "Sin embargo",
-            "Aunque",
-            "Impacto"
-          ],
+          "options": ["Evidencia", "Sin embargo", "Aunque", "Impacto"],
           "answer": 0
         },
         {
@@ -4946,12 +4751,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Drawback\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -5148,12 +4948,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Evidence\"?",
-          "options": [
-            "Evidencia",
-            "Sin embargo",
-            "Aunque",
-            "Impacto"
-          ],
+          "options": ["Evidencia", "Sin embargo", "Aunque", "Impacto"],
           "answer": 0
         },
         {
@@ -5169,12 +4964,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Drawback\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -5371,12 +5161,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Evidence\"?",
-          "options": [
-            "Evidencia",
-            "Sin embargo",
-            "Aunque",
-            "Impacto"
-          ],
+          "options": ["Evidencia", "Sin embargo", "Aunque", "Impacto"],
           "answer": 0
         },
         {
@@ -5392,12 +5177,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Drawback\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -5595,12 +5375,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Evidence\"?",
-          "options": [
-            "Evidencia",
-            "Sin embargo",
-            "Aunque",
-            "Impacto"
-          ],
+          "options": ["Evidencia", "Sin embargo", "Aunque", "Impacto"],
           "answer": 0
         },
         {
@@ -5616,12 +5391,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Drawback\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -5867,12 +5637,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Evidence\"?",
-          "options": [
-            "Evidencia",
-            "Sin embargo",
-            "Aunque",
-            "Impacto"
-          ],
+          "options": ["Evidencia", "Sin embargo", "Aunque", "Impacto"],
           "answer": 0
         },
         {
@@ -5888,12 +5653,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Drawback\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -6210,12 +5970,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nevertheless\"?",
-          "options": [
-            "No obstante",
-            "Sutil",
-            "Enfoque",
-            "Resultado"
-          ],
+          "options": ["No obstante", "Sutil", "Enfoque", "Resultado"],
           "answer": 0
         },
         {
@@ -6231,12 +5986,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Coherence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -6433,12 +6183,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nevertheless\"?",
-          "options": [
-            "No obstante",
-            "Sutil",
-            "Enfoque",
-            "Resultado"
-          ],
+          "options": ["No obstante", "Sutil", "Enfoque", "Resultado"],
           "answer": 0
         },
         {
@@ -6454,12 +6199,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Coherence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -6656,12 +6396,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nevertheless\"?",
-          "options": [
-            "No obstante",
-            "Sutil",
-            "Enfoque",
-            "Resultado"
-          ],
+          "options": ["No obstante", "Sutil", "Enfoque", "Resultado"],
           "answer": 0
         },
         {
@@ -6677,12 +6412,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Coherence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -6879,12 +6609,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nevertheless\"?",
-          "options": [
-            "No obstante",
-            "Sutil",
-            "Enfoque",
-            "Resultado"
-          ],
+          "options": ["No obstante", "Sutil", "Enfoque", "Resultado"],
           "answer": 0
         },
         {
@@ -6900,12 +6625,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Coherence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -7103,12 +6823,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nevertheless\"?",
-          "options": [
-            "No obstante",
-            "Sutil",
-            "Enfoque",
-            "Resultado"
-          ],
+          "options": ["No obstante", "Sutil", "Enfoque", "Resultado"],
           "answer": 0
         },
         {
@@ -7124,12 +6839,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Coherence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -7375,12 +7085,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nevertheless\"?",
-          "options": [
-            "No obstante",
-            "Sutil",
-            "Enfoque",
-            "Resultado"
-          ],
+          "options": ["No obstante", "Sutil", "Enfoque", "Resultado"],
           "answer": 0
         },
         {
@@ -7396,12 +7101,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Coherence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -7720,12 +7420,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Convincente",
-            "Conciso",
-            "Impecable"
-          ],
+          "options": ["Matiz", "Convincente", "Conciso", "Impecable"],
           "answer": 0
         },
         {
@@ -7741,12 +7436,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discern\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -7945,12 +7635,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Convincente",
-            "Conciso",
-            "Impecable"
-          ],
+          "options": ["Matiz", "Convincente", "Conciso", "Impecable"],
           "answer": 0
         },
         {
@@ -7966,12 +7651,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discern\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -8170,12 +7850,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Convincente",
-            "Conciso",
-            "Impecable"
-          ],
+          "options": ["Matiz", "Convincente", "Conciso", "Impecable"],
           "answer": 0
         },
         {
@@ -8191,12 +7866,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discern\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -8395,12 +8065,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Convincente",
-            "Conciso",
-            "Impecable"
-          ],
+          "options": ["Matiz", "Convincente", "Conciso", "Impecable"],
           "answer": 0
         },
         {
@@ -8416,12 +8081,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discern\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -8621,12 +8281,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Convincente",
-            "Conciso",
-            "Impecable"
-          ],
+          "options": ["Matiz", "Convincente", "Conciso", "Impecable"],
           "answer": 0
         },
         {
@@ -8642,12 +8297,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discern\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -8895,12 +8545,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Convincente",
-            "Conciso",
-            "Impecable"
-          ],
+          "options": ["Matiz", "Convincente", "Conciso", "Impecable"],
           "answer": 0
         },
         {
@@ -8916,12 +8561,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discern\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -9112,12 +8752,7 @@
       "intro": "Escucha mini conversaciones de bienvenida y detecta quién habla, cómo se llama y de dónde es.",
       "mission": "Identifica nombre, país y gusto personal en una presentación breve.",
       "grammar": "Saludos básicos, ser, llamarse y artículos indefinidos.",
-      "phrases": [
-        "Hola, me llamo...",
-        "Soy de...",
-        "Mucho gusto.",
-        "Me gusta estudiar."
-      ],
+      "phrases": ["Hola, me llamo...", "Soy de...", "Mucho gusto.", "Me gusta estudiar."],
       "vocabulary": [
         {
           "word": "Hola",
@@ -9169,12 +8804,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Hola\"?",
-          "options": [
-            "Hello",
-            "name",
-            "country",
-            "friend"
-          ],
+          "options": ["Hello", "name", "country", "friend"],
           "answer": 0
         },
         {
@@ -9216,12 +8846,7 @@
       "intro": "Practica una presentación oral corta para tu primera clase.",
       "mission": "Habla de tu nombre, tu ciudad y una actividad que te gusta.",
       "grammar": "Pronombres personales, ser y preguntas con ¿cómo? y ¿de dónde?.",
-      "phrases": [
-        "Me llamo Laura.",
-        "Vivo en Santiago.",
-        "Trabajo por la mañana.",
-        "¿Y tú?"
-      ],
+      "phrases": ["Me llamo Laura.", "Vivo en Santiago.", "Trabajo por la mañana.", "¿Y tú?"],
       "vocabulary": [
         {
           "word": "vivir",
@@ -9273,12 +8898,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"vivir\"?",
-          "options": [
-            "to live",
-            "city",
-            "student",
-            "work"
-          ],
+          "options": ["to live", "city", "student", "work"],
           "answer": 0
         },
         {
@@ -9377,12 +8997,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"padre\"?",
-          "options": [
-            "father",
-            "house",
-            "years",
-            "to read"
-          ],
+          "options": ["father", "house", "years", "to read"],
           "answer": 0
         },
         {
@@ -9481,12 +9096,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"familia\"?",
-          "options": [
-            "family",
-            "breakfast",
-            "park",
-            "sister"
-          ],
+          "options": ["family", "breakfast", "park", "sister"],
           "answer": 0
         },
         {
@@ -9575,22 +9185,13 @@
       ],
       "reading": {
         "text": "El aula tiene una mesa grande y dos libros. La profesora es amable y un amigo nuevo llega hoy.",
-        "questions": [
-          "¿Qué objetos hay en el aula?",
-          "¿Cómo es la profesora?",
-          "¿Quién llega hoy?"
-        ]
+        "questions": ["¿Qué objetos hay en el aula?", "¿Cómo es la profesora?", "¿Quién llega hoy?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"profesora\"?",
-          "options": [
-            "teacher",
-            "book",
-            "table",
-            "friend"
-          ],
+          "options": ["teacher", "book", "table", "friend"],
           "answer": 0
         },
         {
@@ -9689,12 +9290,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"biblioteca\"?",
-          "options": [
-            "library",
-            "notebook",
-            "street",
-            "sun"
-          ],
+          "options": ["library", "notebook", "street", "sun"],
           "answer": 0
         },
         {
@@ -9793,12 +9389,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"café\"?",
-          "options": [
-            "coffee",
-            "milk",
-            "price",
-            "fruit"
-          ],
+          "options": ["coffee", "milk", "price", "fruit"],
           "answer": 0
         },
         {
@@ -9897,12 +9488,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"estación\"?",
-          "options": [
-            "station",
-            "bank",
-            "corner",
-            "square"
-          ],
+          "options": ["station", "bank", "corner", "square"],
           "answer": 0
         },
         {
@@ -10002,12 +9588,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"sábado\"?",
-          "options": [
-            "Saturday",
-            "cinema",
-            "ticket",
-            "dinner"
-          ],
+          "options": ["Saturday", "cinema", "ticket", "dinner"],
           "answer": 0
         },
         {
@@ -10096,22 +9677,13 @@
       ],
       "reading": {
         "text": "Diego escribe a su prima desde la playa. Le cuenta que visitó un mercado y que va a volver en agosto.",
-        "questions": [
-          "¿A quién escribe Diego?",
-          "¿Qué lugar visitó?",
-          "¿Cuándo piensa volver?"
-        ]
+        "questions": ["¿A quién escribe Diego?", "¿Qué lugar visitó?", "¿Cuándo piensa volver?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"viaje\"?",
-          "options": [
-            "trip",
-            "hotel",
-            "beach",
-            "August"
-          ],
+          "options": ["trip", "hotel", "beach", "August"],
           "answer": 0
         },
         {
@@ -10210,12 +9782,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"tarea\"?",
-          "options": [
-            "homework",
-            "call",
-            "sweet",
-            "comparison"
-          ],
+          "options": ["homework", "call", "sweet", "comparison"],
           "answer": 0
         },
         {
@@ -10314,12 +9881,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"mercado\"?",
-          "options": [
-            "market",
-            "ticket",
-            "change",
-            "soup"
-          ],
+          "options": ["market", "ticket", "change", "soup"],
           "answer": 0
         },
         {
@@ -10418,12 +9980,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"horario\"?",
-          "options": [
-            "schedule",
-            "rest",
-            "priority",
-            "tiredness"
-          ],
+          "options": ["schedule", "rest", "priority", "tiredness"],
           "answer": 0
         },
         {
@@ -10522,12 +10079,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"salud\"?",
-          "options": [
-            "health",
-            "habit",
-            "energy",
-            "stress"
-          ],
+          "options": ["health", "habit", "energy", "stress"],
           "answer": 0
         },
         {
@@ -10627,12 +10179,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"barrio\"?",
-          "options": [
-            "neighborhood",
-            "workshop",
-            "neighbor",
-            "support"
-          ],
+          "options": ["neighborhood", "workshop", "neighbor", "support"],
           "answer": 0
         },
         {
@@ -10731,12 +10278,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"reto\"?",
-          "options": [
-            "challenge",
-            "help",
-            "progress",
-            "mistake"
-          ],
+          "options": ["challenge", "help", "progress", "mistake"],
           "answer": 0
         },
         {
@@ -10835,12 +10377,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"lluvia\"?",
-          "options": [
-            "rain",
-            "plan",
-            "call",
-            "obligation"
-          ],
+          "options": ["rain", "plan", "call", "obligation"],
           "answer": 0
         },
         {
@@ -10939,12 +10476,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"alojamiento\"?",
-          "options": [
-            "lodging",
-            "report",
-            "team",
-            "meeting"
-          ],
+          "options": ["lodging", "report", "team", "meeting"],
           "answer": 0
         },
         {
@@ -11043,12 +10575,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"productividad\"?",
-          "options": [
-            "productivity",
-            "contact",
-            "debate",
-            "company"
-          ],
+          "options": ["productivity", "contact", "debate", "company"],
           "answer": 0
         },
         {
@@ -11147,12 +10674,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"medida\"?",
-          "options": [
-            "measure",
-            "budget",
-            "transport",
-            "cost"
-          ],
+          "options": ["measure", "budget", "transport", "cost"],
           "answer": 0
         },
         {
@@ -11252,12 +10774,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"turismo\"?",
-          "options": [
-            "tourism",
-            "resident",
-            "traffic",
-            "report"
-          ],
+          "options": ["tourism", "resident", "traffic", "report"],
           "answer": 0
         },
         {
@@ -11356,12 +10873,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"mejora\"?",
-          "options": [
-            "improvement",
-            "resource",
-            "maintenance",
-            "safety"
-          ],
+          "options": ["improvement", "resource", "maintenance", "safety"],
           "answer": 0
         },
         {
@@ -11460,12 +10972,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"dato\"?",
-          "options": [
-            "data",
-            "process",
-            "decision",
-            "director"
-          ],
+          "options": ["data", "process", "decision", "director"],
           "answer": 0
         },
         {
@@ -11564,12 +11071,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"evidencia\"?",
-          "options": [
-            "evidence",
-            "impact",
-            "agreement",
-            "campaign"
-          ],
+          "options": ["evidence", "impact", "agreement", "campaign"],
           "answer": 0
         },
         {
@@ -11668,12 +11170,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"identidad\"?",
-          "options": [
-            "identity",
-            "memory",
-            "migration",
-            "belonging"
-          ],
+          "options": ["identity", "memory", "migration", "belonging"],
           "answer": 0
         },
         {
@@ -11772,12 +11269,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"postura\"?",
-          "options": [
-            "position",
-            "nuance",
-            "argument",
-            "context"
-          ],
+          "options": ["position", "nuance", "argument", "context"],
           "answer": 0
         },
         {
@@ -11877,12 +11369,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"relato\"?",
-          "options": [
-            "narrative",
-            "power",
-            "community",
-            "metaphor"
-          ],
+          "options": ["narrative", "power", "community", "metaphor"],
           "answer": 0
         },
         {
@@ -11981,12 +11468,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"reseña\"?",
-          "options": [
-            "review",
-            "approach",
-            "omission",
-            "reader"
-          ],
+          "options": ["review", "approach", "omission", "reader"],
           "answer": 0
         },
         {
@@ -12085,12 +11567,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"implementación\"?",
-          "options": [
-            "implementation",
-            "review",
-            "cohesion",
-            "register"
-          ],
+          "options": ["implementation", "review", "cohesion", "register"],
           "answer": 0
         },
         {
@@ -12189,12 +11666,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"perspectiva\"?",
-          "options": [
-            "perspective",
-            "interpretation",
-            "evidence",
-            "conclusion"
-          ],
+          "options": ["perspective", "interpretation", "evidence", "conclusion"],
           "answer": 0
         },
         {
@@ -12293,12 +11765,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"ironía\"?",
-          "options": [
-            "irony",
-            "insinuation",
-            "tone",
-            "subtext"
-          ],
+          "options": ["irony", "insinuation", "tone", "subtext"],
           "answer": 0
         },
         {
@@ -12397,12 +11864,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"concesión\"?",
-          "options": [
-            "concession",
-            "term",
-            "way out",
-            "balance"
-          ],
+          "options": ["concession", "term", "way out", "balance"],
           "answer": 0
         },
         {
@@ -12502,12 +11964,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"alusión\"?",
-          "options": [
-            "allusion",
-            "assumption",
-            "closing",
-            "interpretation"
-          ],
+          "options": ["allusion", "assumption", "closing", "interpretation"],
           "answer": 0
         },
         {
@@ -12606,12 +12063,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"editorial\"?",
-          "options": [
-            "editorial",
-            "outlook",
-            "rhetorical",
-            "thesis"
-          ],
+          "options": ["editorial", "outlook", "rhetorical", "thesis"],
           "answer": 0
         },
         {
@@ -12710,12 +12162,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"cadencia\"?",
-          "options": [
-            "cadence",
-            "reference",
-            "meaning",
-            "cohesion"
-          ],
+          "options": ["cadence", "reference", "meaning", "cohesion"],
           "answer": 0
         },
         {
@@ -12814,12 +12261,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"sesgo\"?",
-          "options": [
-            "bias",
-            "eloquence",
-            "nuance",
-            "register"
-          ],
+          "options": ["bias", "eloquence", "nuance", "register"],
           "answer": 0
         },
         {
@@ -12956,12 +12398,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Bonjour\"?",
-          "options": [
-            "Buenos días",
-            "Gracias",
-            "Amigo",
-            "Casa"
-          ],
+          "options": ["Buenos días", "Gracias", "Amigo", "Casa"],
           "answer": 0
         },
         {
@@ -12977,12 +12414,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Au revoir\"?",
-          "options": [
-            "Adiós",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Adiós", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -13114,12 +12546,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Bonjour\"?",
-          "options": [
-            "Buenos días",
-            "Gracias",
-            "Amigo",
-            "Casa"
-          ],
+          "options": ["Buenos días", "Gracias", "Amigo", "Casa"],
           "answer": 0
         },
         {
@@ -13135,12 +12562,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Au revoir\"?",
-          "options": [
-            "Adiós",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Adiós", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -13271,12 +12693,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Bonjour\"?",
-          "options": [
-            "Buenos días",
-            "Gracias",
-            "Amigo",
-            "Casa"
-          ],
+          "options": ["Buenos días", "Gracias", "Amigo", "Casa"],
           "answer": 0
         },
         {
@@ -13292,12 +12709,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Au revoir\"?",
-          "options": [
-            "Adiós",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Adiós", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -13429,12 +12841,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Bonjour\"?",
-          "options": [
-            "Buenos días",
-            "Gracias",
-            "Amigo",
-            "Casa"
-          ],
+          "options": ["Buenos días", "Gracias", "Amigo", "Casa"],
           "answer": 0
         },
         {
@@ -13450,12 +12857,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Au revoir\"?",
-          "options": [
-            "Adiós",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Adiós", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -13587,12 +12989,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Bonjour\"?",
-          "options": [
-            "Buenos días",
-            "Gracias",
-            "Amigo",
-            "Casa"
-          ],
+          "options": ["Buenos días", "Gracias", "Amigo", "Casa"],
           "answer": 0
         },
         {
@@ -13608,12 +13005,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Au revoir\"?",
-          "options": [
-            "Adiós",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Adiós", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -13745,12 +13137,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Bonjour\"?",
-          "options": [
-            "Buenos días",
-            "Gracias",
-            "Amigo",
-            "Casa"
-          ],
+          "options": ["Buenos días", "Gracias", "Amigo", "Casa"],
           "answer": 0
         },
         {
@@ -13766,12 +13153,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Au revoir\"?",
-          "options": [
-            "Adiós",
-            "Hermana",
-            "Estudiante",
-            "Por favor"
-          ],
+          "options": ["Adiós", "Hermana", "Estudiante", "Por favor"],
           "answer": 0
         },
         {
@@ -13903,12 +13285,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Aujourd’hui\"?",
-          "options": [
-            "Hoy",
-            "Tienda",
-            "Desayuno",
-            "Viaje"
-          ],
+          "options": ["Hoy", "Tienda", "Desayuno", "Viaje"],
           "answer": 0
         },
         {
@@ -13924,12 +13301,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Voisin(e)\"?",
-          "options": [
-            "Vecino/a",
-            "Cita",
-            "Ocupado/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Vecino/a", "Cita", "Ocupado/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -14061,12 +13433,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Aujourd’hui\"?",
-          "options": [
-            "Hoy",
-            "Tienda",
-            "Desayuno",
-            "Viaje"
-          ],
+          "options": ["Hoy", "Tienda", "Desayuno", "Viaje"],
           "answer": 0
         },
         {
@@ -14082,12 +13449,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Voisin(e)\"?",
-          "options": [
-            "Vecino/a",
-            "Cita",
-            "Ocupado/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Vecino/a", "Cita", "Ocupado/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -14219,12 +13581,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Aujourd’hui\"?",
-          "options": [
-            "Hoy",
-            "Tienda",
-            "Desayuno",
-            "Viaje"
-          ],
+          "options": ["Hoy", "Tienda", "Desayuno", "Viaje"],
           "answer": 0
         },
         {
@@ -14240,12 +13597,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Voisin(e)\"?",
-          "options": [
-            "Vecino/a",
-            "Cita",
-            "Ocupado/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Vecino/a", "Cita", "Ocupado/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -14377,12 +13729,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Aujourd’hui\"?",
-          "options": [
-            "Hoy",
-            "Tienda",
-            "Desayuno",
-            "Viaje"
-          ],
+          "options": ["Hoy", "Tienda", "Desayuno", "Viaje"],
           "answer": 0
         },
         {
@@ -14398,12 +13745,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Voisin(e)\"?",
-          "options": [
-            "Vecino/a",
-            "Cita",
-            "Ocupado/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Vecino/a", "Cita", "Ocupado/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -14535,12 +13877,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Aujourd’hui\"?",
-          "options": [
-            "Hoy",
-            "Tienda",
-            "Desayuno",
-            "Viaje"
-          ],
+          "options": ["Hoy", "Tienda", "Desayuno", "Viaje"],
           "answer": 0
         },
         {
@@ -14556,12 +13893,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Voisin(e)\"?",
-          "options": [
-            "Vecino/a",
-            "Cita",
-            "Ocupado/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Vecino/a", "Cita", "Ocupado/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -14693,12 +14025,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Aujourd’hui\"?",
-          "options": [
-            "Hoy",
-            "Tienda",
-            "Desayuno",
-            "Viaje"
-          ],
+          "options": ["Hoy", "Tienda", "Desayuno", "Viaje"],
           "answer": 0
         },
         {
@@ -14714,12 +14041,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Voisin(e)\"?",
-          "options": [
-            "Vecino/a",
-            "Cita",
-            "Ocupado/a",
-            "Tienda de abarrotes"
-          ],
+          "options": ["Vecino/a", "Cita", "Ocupado/a", "Tienda de abarrotes"],
           "answer": 0
         },
         {
@@ -14851,12 +14173,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Avis\"?",
-          "options": [
-            "Opinión",
-            "Razón",
-            "Experiencia",
-            "Mejorar"
-          ],
+          "options": ["Opinión", "Razón", "Experiencia", "Mejorar"],
           "answer": 0
         },
         {
@@ -14872,12 +14189,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Motivation\"?",
-          "options": [
-            "Motivación",
-            "Perspectiva",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Motivación", "Perspectiva", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -15009,12 +14321,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Avis\"?",
-          "options": [
-            "Opinión",
-            "Razón",
-            "Experiencia",
-            "Mejorar"
-          ],
+          "options": ["Opinión", "Razón", "Experiencia", "Mejorar"],
           "answer": 0
         },
         {
@@ -15030,12 +14337,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Motivation\"?",
-          "options": [
-            "Motivación",
-            "Perspectiva",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Motivación", "Perspectiva", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -15167,12 +14469,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Avis\"?",
-          "options": [
-            "Opinión",
-            "Razón",
-            "Experiencia",
-            "Mejorar"
-          ],
+          "options": ["Opinión", "Razón", "Experiencia", "Mejorar"],
           "answer": 0
         },
         {
@@ -15188,12 +14485,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Motivation\"?",
-          "options": [
-            "Motivación",
-            "Perspectiva",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Motivación", "Perspectiva", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -15325,12 +14617,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Avis\"?",
-          "options": [
-            "Opinión",
-            "Razón",
-            "Experiencia",
-            "Mejorar"
-          ],
+          "options": ["Opinión", "Razón", "Experiencia", "Mejorar"],
           "answer": 0
         },
         {
@@ -15346,12 +14633,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Motivation\"?",
-          "options": [
-            "Motivación",
-            "Perspectiva",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Motivación", "Perspectiva", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -15483,12 +14765,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Avis\"?",
-          "options": [
-            "Opinión",
-            "Razón",
-            "Experiencia",
-            "Mejorar"
-          ],
+          "options": ["Opinión", "Razón", "Experiencia", "Mejorar"],
           "answer": 0
         },
         {
@@ -15504,12 +14781,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Motivation\"?",
-          "options": [
-            "Motivación",
-            "Perspectiva",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Motivación", "Perspectiva", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -15641,12 +14913,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Avis\"?",
-          "options": [
-            "Opinión",
-            "Razón",
-            "Experiencia",
-            "Mejorar"
-          ],
+          "options": ["Opinión", "Razón", "Experiencia", "Mejorar"],
           "answer": 0
         },
         {
@@ -15662,12 +14929,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Motivation\"?",
-          "options": [
-            "Motivación",
-            "Perspectiva",
-            "Constante",
-            "Dificultad"
-          ],
+          "options": ["Motivación", "Perspectiva", "Constante", "Dificultad"],
           "answer": 0
         },
         {
@@ -15799,12 +15061,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cependant\"?",
-          "options": [
-            "Sin embargo",
-            "Desafío",
-            "Evidencia",
-            "Desarrollar"
-          ],
+          "options": ["Sin embargo", "Desafío", "Evidencia", "Desarrollar"],
           "answer": 0
         },
         {
@@ -15820,12 +15077,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Inconvénient\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -15957,12 +15209,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cependant\"?",
-          "options": [
-            "Sin embargo",
-            "Desafío",
-            "Evidencia",
-            "Desarrollar"
-          ],
+          "options": ["Sin embargo", "Desafío", "Evidencia", "Desarrollar"],
           "answer": 0
         },
         {
@@ -15978,12 +15225,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Inconvénient\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -16115,12 +15357,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cependant\"?",
-          "options": [
-            "Sin embargo",
-            "Desafío",
-            "Evidencia",
-            "Desarrollar"
-          ],
+          "options": ["Sin embargo", "Desafío", "Evidencia", "Desarrollar"],
           "answer": 0
         },
         {
@@ -16136,12 +15373,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Inconvénient\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -16273,12 +15505,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cependant\"?",
-          "options": [
-            "Sin embargo",
-            "Desafío",
-            "Evidencia",
-            "Desarrollar"
-          ],
+          "options": ["Sin embargo", "Desafío", "Evidencia", "Desarrollar"],
           "answer": 0
         },
         {
@@ -16294,12 +15521,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Inconvénient\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -16431,12 +15653,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cependant\"?",
-          "options": [
-            "Sin embargo",
-            "Desafío",
-            "Evidencia",
-            "Desarrollar"
-          ],
+          "options": ["Sin embargo", "Desafío", "Evidencia", "Desarrollar"],
           "answer": 0
         },
         {
@@ -16452,12 +15669,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Inconvénient\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -16589,12 +15801,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cependant\"?",
-          "options": [
-            "Sin embargo",
-            "Desafío",
-            "Evidencia",
-            "Desarrollar"
-          ],
+          "options": ["Sin embargo", "Desafío", "Evidencia", "Desarrollar"],
           "answer": 0
         },
         {
@@ -16610,12 +15817,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Inconvénient\"?",
-          "options": [
-            "Desventaja",
-            "Acceso",
-            "Autonomía",
-            "Disciplina"
-          ],
+          "options": ["Desventaja", "Acceso", "Autonomía", "Disciplina"],
           "answer": 0
         },
         {
@@ -16747,12 +15949,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Néanmoins\"?",
-          "options": [
-            "No obstante",
-            "Alcance",
-            "Enfoque",
-            "Sostener"
-          ],
+          "options": ["No obstante", "Alcance", "Enfoque", "Sostener"],
           "answer": 0
         },
         {
@@ -16768,12 +15965,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cohérence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -16905,12 +16097,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Néanmoins\"?",
-          "options": [
-            "No obstante",
-            "Alcance",
-            "Enfoque",
-            "Sostener"
-          ],
+          "options": ["No obstante", "Alcance", "Enfoque", "Sostener"],
           "answer": 0
         },
         {
@@ -16926,12 +16113,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cohérence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -17063,12 +16245,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Néanmoins\"?",
-          "options": [
-            "No obstante",
-            "Alcance",
-            "Enfoque",
-            "Sostener"
-          ],
+          "options": ["No obstante", "Alcance", "Enfoque", "Sostener"],
           "answer": 0
         },
         {
@@ -17084,12 +16261,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cohérence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -17221,12 +16393,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Néanmoins\"?",
-          "options": [
-            "No obstante",
-            "Alcance",
-            "Enfoque",
-            "Sostener"
-          ],
+          "options": ["No obstante", "Alcance", "Enfoque", "Sostener"],
           "answer": 0
         },
         {
@@ -17242,12 +16409,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cohérence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -17379,12 +16541,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Néanmoins\"?",
-          "options": [
-            "No obstante",
-            "Alcance",
-            "Enfoque",
-            "Sostener"
-          ],
+          "options": ["No obstante", "Alcance", "Enfoque", "Sostener"],
           "answer": 0
         },
         {
@@ -17400,12 +16557,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cohérence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -17537,12 +16689,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Néanmoins\"?",
-          "options": [
-            "No obstante",
-            "Alcance",
-            "Enfoque",
-            "Sostener"
-          ],
+          "options": ["No obstante", "Alcance", "Enfoque", "Sostener"],
           "answer": 0
         },
         {
@@ -17558,12 +16705,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Cohérence\"?",
-          "options": [
-            "Coherencia",
-            "Implicación",
-            "Discurso",
-            "Ambigüedad"
-          ],
+          "options": ["Coherencia", "Implicación", "Discurso", "Ambigüedad"],
           "answer": 0
         },
         {
@@ -17695,12 +16837,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Éloquent\"?",
-          "options": [
-            "Elocuente",
-            "Sutil",
-            "Logrado",
-            "Aclarar"
-          ],
+          "options": ["Elocuente", "Sutil", "Logrado", "Aclarar"],
           "answer": 0
         },
         {
@@ -17716,12 +16853,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discerner\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -17853,12 +16985,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Éloquent\"?",
-          "options": [
-            "Elocuente",
-            "Sutil",
-            "Logrado",
-            "Aclarar"
-          ],
+          "options": ["Elocuente", "Sutil", "Logrado", "Aclarar"],
           "answer": 0
         },
         {
@@ -17874,12 +17001,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discerner\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -18011,12 +17133,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Éloquent\"?",
-          "options": [
-            "Elocuente",
-            "Sutil",
-            "Logrado",
-            "Aclarar"
-          ],
+          "options": ["Elocuente", "Sutil", "Logrado", "Aclarar"],
           "answer": 0
         },
         {
@@ -18032,12 +17149,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discerner\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -18169,12 +17281,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Éloquent\"?",
-          "options": [
-            "Elocuente",
-            "Sutil",
-            "Logrado",
-            "Aclarar"
-          ],
+          "options": ["Elocuente", "Sutil", "Logrado", "Aclarar"],
           "answer": 0
         },
         {
@@ -18190,12 +17297,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discerner\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -18327,12 +17429,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Éloquent\"?",
-          "options": [
-            "Elocuente",
-            "Sutil",
-            "Logrado",
-            "Aclarar"
-          ],
+          "options": ["Elocuente", "Sutil", "Logrado", "Aclarar"],
           "answer": 0
         },
         {
@@ -18348,12 +17445,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discerner\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -18485,12 +17577,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Éloquent\"?",
-          "options": [
-            "Elocuente",
-            "Sutil",
-            "Logrado",
-            "Aclarar"
-          ],
+          "options": ["Elocuente", "Sutil", "Logrado", "Aclarar"],
           "answer": 0
         },
         {
@@ -18506,12 +17593,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Discerner\"?",
-          "options": [
-            "Discernir",
-            "Elocuencia",
-            "Registro",
-            "Cohesivo"
-          ],
+          "options": ["Discernir", "Elocuencia", "Registro", "Cohesivo"],
           "answer": 0
         },
         {
@@ -18548,12 +17630,7 @@
       "intro": "Escucha mini conversaciones de bienvenida y detecta quién habla, cómo se llama y de dónde es.",
       "mission": "Identifica nombre, país y gusto personal en una presentación breve.",
       "grammar": "Saludos básicos, ser, llamarse y artículos indefinidos.",
-      "phrases": [
-        "Ciao, mi chiamo...",
-        "Sono di...",
-        "Piacere.",
-        "Mi piace studiare."
-      ],
+      "phrases": ["Ciao, mi chiamo...", "Sono di...", "Piacere.", "Mi piace studiare."],
       "vocabulary": [
         {
           "word": "ciao",
@@ -18605,12 +17682,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"ciao\"?",
-          "options": [
-            "hola",
-            "nombre",
-            "país",
-            "amigo"
-          ],
+          "options": ["hola", "nombre", "país", "amigo"],
           "answer": 0
         },
         {
@@ -18652,12 +17724,7 @@
       "intro": "Practica una presentación oral corta para tu primera clase.",
       "mission": "Habla de tu nombre, tu ciudad y una actividad que te gusta.",
       "grammar": "Pronombres personales, ser y preguntas con ¿cómo? y ¿de dónde?.",
-      "phrases": [
-        "Mi chiamo Laura.",
-        "Abito a Torino.",
-        "Lavoro la mattina.",
-        "E tu?"
-      ],
+      "phrases": ["Mi chiamo Laura.", "Abito a Torino.", "Lavoro la mattina.", "E tu?"],
       "vocabulary": [
         {
           "word": "abitare",
@@ -18709,12 +17776,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"abitare\"?",
-          "options": [
-            "vivir",
-            "ciudad",
-            "estudiante",
-            "trabajo"
-          ],
+          "options": ["vivir", "ciudad", "estudiante", "trabajo"],
           "answer": 0
         },
         {
@@ -18813,12 +17875,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"padre\"?",
-          "options": [
-            "padre",
-            "casa",
-            "años",
-            "leer"
-          ],
+          "options": ["padre", "casa", "años", "leer"],
           "answer": 0
         },
         {
@@ -18917,12 +17974,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"famiglia\"?",
-          "options": [
-            "familia",
-            "desayuno",
-            "parque",
-            "hermana"
-          ],
+          "options": ["familia", "desayuno", "parque", "hermana"],
           "answer": 0
         },
         {
@@ -19011,22 +18063,13 @@
       ],
       "reading": {
         "text": "L'aula ha un tavolo grande e due libri. L'insegnante è gentile e oggi arriva un amico nuovo.",
-        "questions": [
-          "¿Qué objetos hay en el aula?",
-          "¿Cómo es la profesora?",
-          "¿Quién llega hoy?"
-        ]
+        "questions": ["¿Qué objetos hay en el aula?", "¿Cómo es la profesora?", "¿Quién llega hoy?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"insegnante\"?",
-          "options": [
-            "profesora",
-            "libro",
-            "mesa",
-            "amigo"
-          ],
+          "options": ["profesora", "libro", "mesa", "amigo"],
           "answer": 0
         },
         {
@@ -19125,12 +18168,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"biblioteca\"?",
-          "options": [
-            "biblioteca",
-            "cuaderno",
-            "calle",
-            "sol"
-          ],
+          "options": ["biblioteca", "cuaderno", "calle", "sol"],
           "answer": 0
         },
         {
@@ -19229,12 +18267,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"caffè\"?",
-          "options": [
-            "café",
-            "leche",
-            "precio",
-            "fruta"
-          ],
+          "options": ["café", "leche", "precio", "fruta"],
           "answer": 0
         },
         {
@@ -19333,12 +18366,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"stazione\"?",
-          "options": [
-            "estación",
-            "banco",
-            "esquina",
-            "plaza"
-          ],
+          "options": ["estación", "banco", "esquina", "plaza"],
           "answer": 0
         },
         {
@@ -19438,12 +18466,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"sabato\"?",
-          "options": [
-            "sábado",
-            "cine",
-            "entrada",
-            "cena"
-          ],
+          "options": ["sábado", "cine", "entrada", "cena"],
           "answer": 0
         },
         {
@@ -19532,22 +18555,13 @@
       ],
       "reading": {
         "text": "Diego scrive a sua cugina dalla spiaggia. Le racconta che ha visitato un mercato e che tornerà ad agosto.",
-        "questions": [
-          "¿A quién escribe Diego?",
-          "¿Qué lugar visitó?",
-          "¿Cuándo piensa volver?"
-        ]
+        "questions": ["¿A quién escribe Diego?", "¿Qué lugar visitó?", "¿Cuándo piensa volver?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"viaggio\"?",
-          "options": [
-            "viaje",
-            "hotel",
-            "playa",
-            "agosto"
-          ],
+          "options": ["viaje", "hotel", "playa", "agosto"],
           "answer": 0
         },
         {
@@ -19646,12 +18660,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"compito\"?",
-          "options": [
-            "tarea",
-            "llamada",
-            "dulce",
-            "comparación"
-          ],
+          "options": ["tarea", "llamada", "dulce", "comparación"],
           "answer": 0
         },
         {
@@ -19750,12 +18759,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"mercato\"?",
-          "options": [
-            "mercado",
-            "boleto",
-            "cambio",
-            "sopa"
-          ],
+          "options": ["mercado", "boleto", "cambio", "sopa"],
           "answer": 0
         },
         {
@@ -19854,12 +18858,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"orario\"?",
-          "options": [
-            "horario",
-            "descanso",
-            "prioridad",
-            "cansancio"
-          ],
+          "options": ["horario", "descanso", "prioridad", "cansancio"],
           "answer": 0
         },
         {
@@ -19958,12 +18957,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"salute\"?",
-          "options": [
-            "salud",
-            "costumbre",
-            "energía",
-            "estrés"
-          ],
+          "options": ["salud", "costumbre", "energía", "estrés"],
           "answer": 0
         },
         {
@@ -20063,12 +19057,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"quartiere\"?",
-          "options": [
-            "barrio",
-            "taller",
-            "vecino",
-            "apoyo"
-          ],
+          "options": ["barrio", "taller", "vecino", "apoyo"],
           "answer": 0
         },
         {
@@ -20167,12 +19156,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"sfida\"?",
-          "options": [
-            "reto",
-            "ayuda",
-            "progreso",
-            "error"
-          ],
+          "options": ["reto", "ayuda", "progreso", "error"],
           "answer": 0
         },
         {
@@ -20271,12 +19255,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"pioggia\"?",
-          "options": [
-            "lluvia",
-            "plan",
-            "llamada",
-            "obligación"
-          ],
+          "options": ["lluvia", "plan", "llamada", "obligación"],
           "answer": 0
         },
         {
@@ -20375,12 +19354,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"alloggio\"?",
-          "options": [
-            "alojamiento",
-            "reportaje",
-            "equipo",
-            "reunión"
-          ],
+          "options": ["alojamiento", "reportaje", "equipo", "reunión"],
           "answer": 0
         },
         {
@@ -20479,12 +19453,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"produttività\"?",
-          "options": [
-            "productividad",
-            "contacto",
-            "debate",
-            "empresa"
-          ],
+          "options": ["productividad", "contacto", "debate", "empresa"],
           "answer": 0
         },
         {
@@ -20583,12 +19552,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"misura\"?",
-          "options": [
-            "medida",
-            "presupuesto",
-            "transporte",
-            "costo"
-          ],
+          "options": ["medida", "presupuesto", "transporte", "costo"],
           "answer": 0
         },
         {
@@ -20688,12 +19652,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"turismo\"?",
-          "options": [
-            "turismo",
-            "residente",
-            "tráfico",
-            "informe"
-          ],
+          "options": ["turismo", "residente", "tráfico", "informe"],
           "answer": 0
         },
         {
@@ -20792,12 +19751,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"miglioramento\"?",
-          "options": [
-            "mejora",
-            "recurso",
-            "mantenimiento",
-            "seguridad"
-          ],
+          "options": ["mejora", "recurso", "mantenimiento", "seguridad"],
           "answer": 0
         },
         {
@@ -20896,12 +19850,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"dato\"?",
-          "options": [
-            "dato",
-            "proceso",
-            "decisión",
-            "director"
-          ],
+          "options": ["dato", "proceso", "decisión", "director"],
           "answer": 0
         },
         {
@@ -21000,12 +19949,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"prova\"?",
-          "options": [
-            "evidencia",
-            "impacto",
-            "acuerdo",
-            "campaña"
-          ],
+          "options": ["evidencia", "impacto", "acuerdo", "campaña"],
           "answer": 0
         },
         {
@@ -21104,12 +20048,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"identità\"?",
-          "options": [
-            "identidad",
-            "memoria",
-            "migración",
-            "pertenencia"
-          ],
+          "options": ["identidad", "memoria", "migración", "pertenencia"],
           "answer": 0
         },
         {
@@ -21208,12 +20147,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"posizione\"?",
-          "options": [
-            "postura",
-            "matiz",
-            "argumento",
-            "contexto"
-          ],
+          "options": ["postura", "matiz", "argumento", "contexto"],
           "answer": 0
         },
         {
@@ -21313,12 +20247,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"racconto\"?",
-          "options": [
-            "relato",
-            "poder",
-            "comunidad",
-            "metáfora"
-          ],
+          "options": ["relato", "poder", "comunidad", "metáfora"],
           "answer": 0
         },
         {
@@ -21417,12 +20346,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"recensione\"?",
-          "options": [
-            "reseña",
-            "enfoque",
-            "omisión",
-            "lector"
-          ],
+          "options": ["reseña", "enfoque", "omisión", "lector"],
           "answer": 0
         },
         {
@@ -21521,12 +20445,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"implementazione\"?",
-          "options": [
-            "implementación",
-            "revisión",
-            "cohesión",
-            "registro"
-          ],
+          "options": ["implementación", "revisión", "cohesión", "registro"],
           "answer": 0
         },
         {
@@ -21625,12 +20544,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"prospettiva\"?",
-          "options": [
-            "perspectiva",
-            "interpretación",
-            "evidencia",
-            "conclusión"
-          ],
+          "options": ["perspectiva", "interpretación", "evidencia", "conclusión"],
           "answer": 0
         },
         {
@@ -21729,12 +20643,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"ironia\"?",
-          "options": [
-            "ironía",
-            "insinuación",
-            "tono",
-            "subtexto"
-          ],
+          "options": ["ironía", "insinuación", "tono", "subtexto"],
           "answer": 0
         },
         {
@@ -21833,12 +20742,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"concessione\"?",
-          "options": [
-            "concesión",
-            "término",
-            "salida",
-            "equilibrio"
-          ],
+          "options": ["concesión", "término", "salida", "equilibrio"],
           "answer": 0
         },
         {
@@ -21938,12 +20842,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"allusione\"?",
-          "options": [
-            "alusión",
-            "supuesto",
-            "cierre",
-            "interpretación"
-          ],
+          "options": ["alusión", "supuesto", "cierre", "interpretación"],
           "answer": 0
         },
         {
@@ -22042,12 +20941,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"editoriale\"?",
-          "options": [
-            "editorial",
-            "mirada",
-            "retórica",
-            "tesis"
-          ],
+          "options": ["editorial", "mirada", "retórica", "tesis"],
           "answer": 0
         },
         {
@@ -22146,12 +21040,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"cadenza\"?",
-          "options": [
-            "cadencia",
-            "referencia",
-            "sentido",
-            "cohesión"
-          ],
+          "options": ["cadencia", "referencia", "sentido", "cohesión"],
           "answer": 0
         },
         {
@@ -22250,12 +21139,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"pregiudizio\"?",
-          "options": [
-            "sesgo",
-            "elocuencia",
-            "matiz",
-            "registro"
-          ],
+          "options": ["sesgo", "elocuencia", "matiz", "registro"],
           "answer": 0
         },
         {
@@ -22297,12 +21181,7 @@
       "intro": "Escucha mini conversaciones de bienvenida y detecta quién habla, cómo se llama y de dónde es.",
       "mission": "Identifica nombre, país y gusto personal en una presentación breve.",
       "grammar": "Saludos básicos, ser, llamarse y artículos indefinidos.",
-      "phrases": [
-        "Hallo, ich heiße...",
-        "Ich komme aus...",
-        "Freut mich.",
-        "Ich lerne gern."
-      ],
+      "phrases": ["Hallo, ich heiße...", "Ich komme aus...", "Freut mich.", "Ich lerne gern."],
       "vocabulary": [
         {
           "word": "Hallo",
@@ -22354,12 +21233,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Hallo\"?",
-          "options": [
-            "hola",
-            "nombre",
-            "país",
-            "amigo"
-          ],
+          "options": ["hola", "nombre", "país", "amigo"],
           "answer": 0
         },
         {
@@ -22401,12 +21275,7 @@
       "intro": "Practica una presentación oral corta para tu primera clase.",
       "mission": "Habla de tu nombre, tu ciudad y una actividad que te gusta.",
       "grammar": "Pronombres personales, ser y preguntas con ¿cómo? y ¿de dónde?.",
-      "phrases": [
-        "Ich heiße Laura.",
-        "Ich wohne in Leipzig.",
-        "Ich arbeite am Morgen.",
-        "Und du?"
-      ],
+      "phrases": ["Ich heiße Laura.", "Ich wohne in Leipzig.", "Ich arbeite am Morgen.", "Und du?"],
       "vocabulary": [
         {
           "word": "wohnen",
@@ -22458,12 +21327,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"wohnen\"?",
-          "options": [
-            "vivir",
-            "ciudad",
-            "estudiante",
-            "trabajo"
-          ],
+          "options": ["vivir", "ciudad", "estudiante", "trabajo"],
           "answer": 0
         },
         {
@@ -22562,12 +21426,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Vater\"?",
-          "options": [
-            "padre",
-            "casa",
-            "años",
-            "leer"
-          ],
+          "options": ["padre", "casa", "años", "leer"],
           "answer": 0
         },
         {
@@ -22666,12 +21525,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Familie\"?",
-          "options": [
-            "familia",
-            "desayuno",
-            "parque",
-            "hermana"
-          ],
+          "options": ["familia", "desayuno", "parque", "hermana"],
           "answer": 0
         },
         {
@@ -22760,22 +21614,13 @@
       ],
       "reading": {
         "text": "Im Klassenraum gibt es einen großen Tisch und zwei Bücher. Die Lehrerin ist freundlich und heute kommt ein neuer Freund.",
-        "questions": [
-          "¿Qué objetos hay en el aula?",
-          "¿Cómo es la profesora?",
-          "¿Quién llega hoy?"
-        ]
+        "questions": ["¿Qué objetos hay en el aula?", "¿Cómo es la profesora?", "¿Quién llega hoy?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Lehrerin\"?",
-          "options": [
-            "profesora",
-            "libro",
-            "mesa",
-            "amigo"
-          ],
+          "options": ["profesora", "libro", "mesa", "amigo"],
           "answer": 0
         },
         {
@@ -22874,12 +21719,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Bibliothek\"?",
-          "options": [
-            "biblioteca",
-            "cuaderno",
-            "calle",
-            "sol"
-          ],
+          "options": ["biblioteca", "cuaderno", "calle", "sol"],
           "answer": 0
         },
         {
@@ -22978,12 +21818,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Kaffee\"?",
-          "options": [
-            "café",
-            "leche",
-            "precio",
-            "fruta"
-          ],
+          "options": ["café", "leche", "precio", "fruta"],
           "answer": 0
         },
         {
@@ -23082,12 +21917,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Bahnhof\"?",
-          "options": [
-            "estación",
-            "banco",
-            "esquina",
-            "plaza"
-          ],
+          "options": ["estación", "banco", "esquina", "plaza"],
           "answer": 0
         },
         {
@@ -23187,12 +22017,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Samstag\"?",
-          "options": [
-            "sábado",
-            "cine",
-            "entrada",
-            "cena"
-          ],
+          "options": ["sábado", "cine", "entrada", "cena"],
           "answer": 0
         },
         {
@@ -23281,22 +22106,13 @@
       ],
       "reading": {
         "text": "Diego schreibt seiner Cousine vom Strand. Er erzählt, dass er einen Markt besucht hat und im August wieder hinfahren will.",
-        "questions": [
-          "¿A quién escribe Diego?",
-          "¿Qué lugar visitó?",
-          "¿Cuándo piensa volver?"
-        ]
+        "questions": ["¿A quién escribe Diego?", "¿Qué lugar visitó?", "¿Cuándo piensa volver?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Reise\"?",
-          "options": [
-            "viaje",
-            "hotel",
-            "playa",
-            "agosto"
-          ],
+          "options": ["viaje", "hotel", "playa", "agosto"],
           "answer": 0
         },
         {
@@ -23395,12 +22211,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Hausaufgabe\"?",
-          "options": [
-            "tarea",
-            "llamada",
-            "dulce",
-            "comparación"
-          ],
+          "options": ["tarea", "llamada", "dulce", "comparación"],
           "answer": 0
         },
         {
@@ -23499,12 +22310,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Markt\"?",
-          "options": [
-            "mercado",
-            "boleto",
-            "cambio",
-            "sopa"
-          ],
+          "options": ["mercado", "boleto", "cambio", "sopa"],
           "answer": 0
         },
         {
@@ -23603,12 +22409,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Zeitplan\"?",
-          "options": [
-            "horario",
-            "descanso",
-            "prioridad",
-            "cansancio"
-          ],
+          "options": ["horario", "descanso", "prioridad", "cansancio"],
           "answer": 0
         },
         {
@@ -23707,12 +22508,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Gesundheit\"?",
-          "options": [
-            "salud",
-            "costumbre",
-            "energía",
-            "estrés"
-          ],
+          "options": ["salud", "costumbre", "energía", "estrés"],
           "answer": 0
         },
         {
@@ -23812,12 +22608,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Stadtviertel\"?",
-          "options": [
-            "barrio",
-            "taller",
-            "vecino",
-            "apoyo"
-          ],
+          "options": ["barrio", "taller", "vecino", "apoyo"],
           "answer": 0
         },
         {
@@ -23916,12 +22707,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Herausforderung\"?",
-          "options": [
-            "reto",
-            "ayuda",
-            "progreso",
-            "error"
-          ],
+          "options": ["reto", "ayuda", "progreso", "error"],
           "answer": 0
         },
         {
@@ -24020,12 +22806,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Regen\"?",
-          "options": [
-            "lluvia",
-            "plan",
-            "llamada",
-            "obligación"
-          ],
+          "options": ["lluvia", "plan", "llamada", "obligación"],
           "answer": 0
         },
         {
@@ -24124,12 +22905,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Unterkunft\"?",
-          "options": [
-            "alojamiento",
-            "reportaje",
-            "equipo",
-            "reunión"
-          ],
+          "options": ["alojamiento", "reportaje", "equipo", "reunión"],
           "answer": 0
         },
         {
@@ -24228,12 +23004,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Produktivität\"?",
-          "options": [
-            "productividad",
-            "contacto",
-            "debate",
-            "empresa"
-          ],
+          "options": ["productividad", "contacto", "debate", "empresa"],
           "answer": 0
         },
         {
@@ -24332,12 +23103,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Maßnahme\"?",
-          "options": [
-            "medida",
-            "presupuesto",
-            "transporte",
-            "costo"
-          ],
+          "options": ["medida", "presupuesto", "transporte", "costo"],
           "answer": 0
         },
         {
@@ -24437,12 +23203,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Tourismus\"?",
-          "options": [
-            "turismo",
-            "residente",
-            "tráfico",
-            "informe"
-          ],
+          "options": ["turismo", "residente", "tráfico", "informe"],
           "answer": 0
         },
         {
@@ -24541,12 +23302,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Verbesserung\"?",
-          "options": [
-            "mejora",
-            "recurso",
-            "mantenimiento",
-            "seguridad"
-          ],
+          "options": ["mejora", "recurso", "mantenimiento", "seguridad"],
           "answer": 0
         },
         {
@@ -24645,12 +23401,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Daten\"?",
-          "options": [
-            "dato",
-            "proceso",
-            "decisión",
-            "director"
-          ],
+          "options": ["dato", "proceso", "decisión", "director"],
           "answer": 0
         },
         {
@@ -24749,12 +23500,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Evidenz\"?",
-          "options": [
-            "evidencia",
-            "impacto",
-            "acuerdo",
-            "campaña"
-          ],
+          "options": ["evidencia", "impacto", "acuerdo", "campaña"],
           "answer": 0
         },
         {
@@ -24853,12 +23599,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Identität\"?",
-          "options": [
-            "identidad",
-            "memoria",
-            "migración",
-            "pertenencia"
-          ],
+          "options": ["identidad", "memoria", "migración", "pertenencia"],
           "answer": 0
         },
         {
@@ -24957,12 +23698,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Standpunkt\"?",
-          "options": [
-            "postura",
-            "matiz",
-            "argumento",
-            "contexto"
-          ],
+          "options": ["postura", "matiz", "argumento", "contexto"],
           "answer": 0
         },
         {
@@ -25062,12 +23798,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Erzählung\"?",
-          "options": [
-            "relato",
-            "poder",
-            "comunidad",
-            "metáfora"
-          ],
+          "options": ["relato", "poder", "comunidad", "metáfora"],
           "answer": 0
         },
         {
@@ -25166,12 +23897,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Rezension\"?",
-          "options": [
-            "reseña",
-            "enfoque",
-            "omisión",
-            "lector"
-          ],
+          "options": ["reseña", "enfoque", "omisión", "lector"],
           "answer": 0
         },
         {
@@ -25270,12 +23996,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Umsetzung\"?",
-          "options": [
-            "implementación",
-            "revisión",
-            "cohesión",
-            "registro"
-          ],
+          "options": ["implementación", "revisión", "cohesión", "registro"],
           "answer": 0
         },
         {
@@ -25374,12 +24095,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Perspektive\"?",
-          "options": [
-            "perspectiva",
-            "interpretación",
-            "evidencia",
-            "conclusión"
-          ],
+          "options": ["perspectiva", "interpretación", "evidencia", "conclusión"],
           "answer": 0
         },
         {
@@ -25478,12 +24194,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Ironie\"?",
-          "options": [
-            "ironía",
-            "insinuación",
-            "tono",
-            "subtexto"
-          ],
+          "options": ["ironía", "insinuación", "tono", "subtexto"],
           "answer": 0
         },
         {
@@ -25582,12 +24293,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Zugeständnis\"?",
-          "options": [
-            "concesión",
-            "término",
-            "salida",
-            "equilibrio"
-          ],
+          "options": ["concesión", "término", "salida", "equilibrio"],
           "answer": 0
         },
         {
@@ -25687,12 +24393,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Anspielung\"?",
-          "options": [
-            "alusión",
-            "supuesto",
-            "cierre",
-            "interpretación"
-          ],
+          "options": ["alusión", "supuesto", "cierre", "interpretación"],
           "answer": 0
         },
         {
@@ -25791,12 +24492,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Leitartikel\"?",
-          "options": [
-            "editorial",
-            "mirada",
-            "retórica",
-            "tesis"
-          ],
+          "options": ["editorial", "mirada", "retórica", "tesis"],
           "answer": 0
         },
         {
@@ -25895,12 +24591,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Rhythmus\"?",
-          "options": [
-            "cadencia",
-            "referencia",
-            "sentido",
-            "cohesión"
-          ],
+          "options": ["cadencia", "referencia", "sentido", "cohesión"],
           "answer": 0
         },
         {
@@ -25999,12 +24690,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Voreingenommenheit\"?",
-          "options": [
-            "sesgo",
-            "elocuencia",
-            "matiz",
-            "registro"
-          ],
+          "options": ["sesgo", "elocuencia", "matiz", "registro"],
           "answer": 0
         },
         {
@@ -26108,12 +24794,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Prompt\"?",
-          "options": [
-            "Solicitud",
-            "Corrección",
-            "Repetir",
-            "Pista"
-          ],
+          "options": ["Solicitud", "Corrección", "Repetir", "Pista"],
           "answer": 0
         },
         {
@@ -26217,12 +24898,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Prompt\"?",
-          "options": [
-            "Solicitud",
-            "Corrección",
-            "Repetir",
-            "Pista"
-          ],
+          "options": ["Solicitud", "Corrección", "Repetir", "Pista"],
           "answer": 0
         },
         {
@@ -26326,12 +25002,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Prompt\"?",
-          "options": [
-            "Solicitud",
-            "Corrección",
-            "Repetir",
-            "Pista"
-          ],
+          "options": ["Solicitud", "Corrección", "Repetir", "Pista"],
           "answer": 0
         },
         {
@@ -26435,12 +25106,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Prompt\"?",
-          "options": [
-            "Solicitud",
-            "Corrección",
-            "Repetir",
-            "Pista"
-          ],
+          "options": ["Solicitud", "Corrección", "Repetir", "Pista"],
           "answer": 0
         },
         {
@@ -26544,12 +25210,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Prompt\"?",
-          "options": [
-            "Solicitud",
-            "Corrección",
-            "Repetir",
-            "Pista"
-          ],
+          "options": ["Solicitud", "Corrección", "Repetir", "Pista"],
           "answer": 0
         },
         {
@@ -26653,12 +25314,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Prompt\"?",
-          "options": [
-            "Solicitud",
-            "Corrección",
-            "Repetir",
-            "Pista"
-          ],
+          "options": ["Solicitud", "Corrección", "Repetir", "Pista"],
           "answer": 0
         },
         {
@@ -26762,12 +25418,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Scenario\"?",
-          "options": [
-            "Escenario",
-            "Simulación",
-            "Error",
-            "Ejemplo"
-          ],
+          "options": ["Escenario", "Simulación", "Error", "Ejemplo"],
           "answer": 0
         },
         {
@@ -26871,12 +25522,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Scenario\"?",
-          "options": [
-            "Escenario",
-            "Simulación",
-            "Error",
-            "Ejemplo"
-          ],
+          "options": ["Escenario", "Simulación", "Error", "Ejemplo"],
           "answer": 0
         },
         {
@@ -26980,12 +25626,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Scenario\"?",
-          "options": [
-            "Escenario",
-            "Simulación",
-            "Error",
-            "Ejemplo"
-          ],
+          "options": ["Escenario", "Simulación", "Error", "Ejemplo"],
           "answer": 0
         },
         {
@@ -27089,12 +25730,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Scenario\"?",
-          "options": [
-            "Escenario",
-            "Simulación",
-            "Error",
-            "Ejemplo"
-          ],
+          "options": ["Escenario", "Simulación", "Error", "Ejemplo"],
           "answer": 0
         },
         {
@@ -27198,12 +25834,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Scenario\"?",
-          "options": [
-            "Escenario",
-            "Simulación",
-            "Error",
-            "Ejemplo"
-          ],
+          "options": ["Escenario", "Simulación", "Error", "Ejemplo"],
           "answer": 0
         },
         {
@@ -27307,12 +25938,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Scenario\"?",
-          "options": [
-            "Escenario",
-            "Simulación",
-            "Error",
-            "Ejemplo"
-          ],
+          "options": ["Escenario", "Simulación", "Error", "Ejemplo"],
           "answer": 0
         },
         {
@@ -27416,12 +26042,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Fluency\"?",
-          "options": [
-            "Fluidez",
-            "Razón",
-            "Reescribir",
-            "Natural"
-          ],
+          "options": ["Fluidez", "Razón", "Reescribir", "Natural"],
           "answer": 0
         },
         {
@@ -27525,12 +26146,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Fluency\"?",
-          "options": [
-            "Fluidez",
-            "Razón",
-            "Reescribir",
-            "Natural"
-          ],
+          "options": ["Fluidez", "Razón", "Reescribir", "Natural"],
           "answer": 0
         },
         {
@@ -27634,12 +26250,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Fluency\"?",
-          "options": [
-            "Fluidez",
-            "Razón",
-            "Reescribir",
-            "Natural"
-          ],
+          "options": ["Fluidez", "Razón", "Reescribir", "Natural"],
           "answer": 0
         },
         {
@@ -27743,12 +26354,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Fluency\"?",
-          "options": [
-            "Fluidez",
-            "Razón",
-            "Reescribir",
-            "Natural"
-          ],
+          "options": ["Fluidez", "Razón", "Reescribir", "Natural"],
           "answer": 0
         },
         {
@@ -27852,12 +26458,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Fluency\"?",
-          "options": [
-            "Fluidez",
-            "Razón",
-            "Reescribir",
-            "Natural"
-          ],
+          "options": ["Fluidez", "Razón", "Reescribir", "Natural"],
           "answer": 0
         },
         {
@@ -27961,12 +26562,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Fluency\"?",
-          "options": [
-            "Fluidez",
-            "Razón",
-            "Reescribir",
-            "Natural"
-          ],
+          "options": ["Fluidez", "Razón", "Reescribir", "Natural"],
           "answer": 0
         },
         {
@@ -28060,22 +26656,13 @@
       ],
       "reading": {
         "text": "For upper-intermediate learners, the tutor can challenge ideas, request evidence and guide more coherent responses.",
-        "questions": [
-          "What can the tutor challenge?",
-          "What can it request?",
-          "What can it guide?"
-        ]
+        "questions": ["What can the tutor challenge?", "What can it request?", "What can it guide?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Debate\"?",
-          "options": [
-            "Debate",
-            "Evidencia",
-            "Contraargumento",
-            "Preciso"
-          ],
+          "options": ["Debate", "Evidencia", "Contraargumento", "Preciso"],
           "answer": 0
         },
         {
@@ -28169,22 +26756,13 @@
       ],
       "reading": {
         "text": "For upper-intermediate learners, the tutor can challenge ideas, request evidence and guide more coherent responses.",
-        "questions": [
-          "What can the tutor challenge?",
-          "What can it request?",
-          "What can it guide?"
-        ]
+        "questions": ["What can the tutor challenge?", "What can it request?", "What can it guide?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Debate\"?",
-          "options": [
-            "Debate",
-            "Evidencia",
-            "Contraargumento",
-            "Preciso"
-          ],
+          "options": ["Debate", "Evidencia", "Contraargumento", "Preciso"],
           "answer": 0
         },
         {
@@ -28278,22 +26856,13 @@
       ],
       "reading": {
         "text": "For upper-intermediate learners, the tutor can challenge ideas, request evidence and guide more coherent responses.",
-        "questions": [
-          "What can the tutor challenge?",
-          "What can it request?",
-          "What can it guide?"
-        ]
+        "questions": ["What can the tutor challenge?", "What can it request?", "What can it guide?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Debate\"?",
-          "options": [
-            "Debate",
-            "Evidencia",
-            "Contraargumento",
-            "Preciso"
-          ],
+          "options": ["Debate", "Evidencia", "Contraargumento", "Preciso"],
           "answer": 0
         },
         {
@@ -28387,22 +26956,13 @@
       ],
       "reading": {
         "text": "For upper-intermediate learners, the tutor can challenge ideas, request evidence and guide more coherent responses.",
-        "questions": [
-          "What can the tutor challenge?",
-          "What can it request?",
-          "What can it guide?"
-        ]
+        "questions": ["What can the tutor challenge?", "What can it request?", "What can it guide?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Debate\"?",
-          "options": [
-            "Debate",
-            "Evidencia",
-            "Contraargumento",
-            "Preciso"
-          ],
+          "options": ["Debate", "Evidencia", "Contraargumento", "Preciso"],
           "answer": 0
         },
         {
@@ -28496,22 +27056,13 @@
       ],
       "reading": {
         "text": "For upper-intermediate learners, the tutor can challenge ideas, request evidence and guide more coherent responses.",
-        "questions": [
-          "What can the tutor challenge?",
-          "What can it request?",
-          "What can it guide?"
-        ]
+        "questions": ["What can the tutor challenge?", "What can it request?", "What can it guide?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Debate\"?",
-          "options": [
-            "Debate",
-            "Evidencia",
-            "Contraargumento",
-            "Preciso"
-          ],
+          "options": ["Debate", "Evidencia", "Contraargumento", "Preciso"],
           "answer": 0
         },
         {
@@ -28605,22 +27156,13 @@
       ],
       "reading": {
         "text": "For upper-intermediate learners, the tutor can challenge ideas, request evidence and guide more coherent responses.",
-        "questions": [
-          "What can the tutor challenge?",
-          "What can it request?",
-          "What can it guide?"
-        ]
+        "questions": ["What can the tutor challenge?", "What can it request?", "What can it guide?"]
       },
       "exercises": [
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Debate\"?",
-          "options": [
-            "Debate",
-            "Evidencia",
-            "Contraargumento",
-            "Preciso"
-          ],
+          "options": ["Debate", "Evidencia", "Contraargumento", "Preciso"],
           "answer": 0
         },
         {
@@ -28724,12 +27266,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Registro",
-            "Pulir",
-            "Académico"
-          ],
+          "options": ["Matiz", "Registro", "Pulir", "Académico"],
           "answer": 0
         },
         {
@@ -28833,12 +27370,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Registro",
-            "Pulir",
-            "Académico"
-          ],
+          "options": ["Matiz", "Registro", "Pulir", "Académico"],
           "answer": 0
         },
         {
@@ -28942,12 +27474,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Registro",
-            "Pulir",
-            "Académico"
-          ],
+          "options": ["Matiz", "Registro", "Pulir", "Académico"],
           "answer": 0
         },
         {
@@ -29051,12 +27578,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Registro",
-            "Pulir",
-            "Académico"
-          ],
+          "options": ["Matiz", "Registro", "Pulir", "Académico"],
           "answer": 0
         },
         {
@@ -29160,12 +27682,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Registro",
-            "Pulir",
-            "Académico"
-          ],
+          "options": ["Matiz", "Registro", "Pulir", "Académico"],
           "answer": 0
         },
         {
@@ -29269,12 +27786,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Nuance\"?",
-          "options": [
-            "Matiz",
-            "Registro",
-            "Pulir",
-            "Académico"
-          ],
+          "options": ["Matiz", "Registro", "Pulir", "Académico"],
           "answer": 0
         },
         {
@@ -29378,12 +27890,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Persuasive\"?",
-          "options": [
-            "Persuasivo",
-            "Elegante",
-            "Retórica",
-            "Dominio"
-          ],
+          "options": ["Persuasivo", "Elegante", "Retórica", "Dominio"],
           "answer": 0
         },
         {
@@ -29487,12 +27994,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Persuasive\"?",
-          "options": [
-            "Persuasivo",
-            "Elegante",
-            "Retórica",
-            "Dominio"
-          ],
+          "options": ["Persuasivo", "Elegante", "Retórica", "Dominio"],
           "answer": 0
         },
         {
@@ -29596,12 +28098,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Persuasive\"?",
-          "options": [
-            "Persuasivo",
-            "Elegante",
-            "Retórica",
-            "Dominio"
-          ],
+          "options": ["Persuasivo", "Elegante", "Retórica", "Dominio"],
           "answer": 0
         },
         {
@@ -29705,12 +28202,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Persuasive\"?",
-          "options": [
-            "Persuasivo",
-            "Elegante",
-            "Retórica",
-            "Dominio"
-          ],
+          "options": ["Persuasivo", "Elegante", "Retórica", "Dominio"],
           "answer": 0
         },
         {
@@ -29814,12 +28306,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Persuasive\"?",
-          "options": [
-            "Persuasivo",
-            "Elegante",
-            "Retórica",
-            "Dominio"
-          ],
+          "options": ["Persuasivo", "Elegante", "Retórica", "Dominio"],
           "answer": 0
         },
         {
@@ -29923,12 +28410,7 @@
         {
           "type": "mcq",
           "prompt": "¿Qué significa \"Persuasive\"?",
-          "options": [
-            "Persuasivo",
-            "Elegante",
-            "Retórica",
-            "Dominio"
-          ],
+          "options": ["Persuasivo", "Elegante", "Retórica", "Dominio"],
           "answer": 0
         },
         {

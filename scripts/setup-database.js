@@ -26,7 +26,8 @@ function collectSqlFiles() {
 
   const migrationsDir = path.join(ROOT, 'supabase', 'migrations');
   if (fs.existsSync(migrationsDir)) {
-    const migrationFiles = fs.readdirSync(migrationsDir)
+    const migrationFiles = fs
+      .readdirSync(migrationsDir)
       .filter((name) => name.endsWith('.sql'))
       .sort()
       .map((name) => path.join(migrationsDir, name));
@@ -39,13 +40,17 @@ function collectSqlFiles() {
 async function main() {
   const connectionString = process.env.SUPABASE_DATABASE_URL;
   if (!connectionString) {
-    console.error('SUPABASE_DATABASE_URL is not set. Add it to your .env file (see .env.example) and try again.');
+    console.error(
+      'SUPABASE_DATABASE_URL is not set. Add it to your .env file (see .env.example) and try again.'
+    );
     process.exit(1);
   }
 
   const files = collectSqlFiles();
   if (!files.length) {
-    console.error('No SQL files found (expected SUPABASE_RUN_THIS.sql and/or supabase/migrations/*.sql).');
+    console.error(
+      'No SQL files found (expected SUPABASE_RUN_THIS.sql and/or supabase/migrations/*.sql).'
+    );
     process.exit(1);
   }
 
@@ -77,7 +82,9 @@ async function seedLessons(client) {
   const lessons = JSON.parse(fs.readFileSync(SEED_LESSONS_PATH, 'utf8'));
   if (!Array.isArray(lessons) || lessons.length === 0) return;
 
-  process.stdout.write(`  -> ${path.relative(ROOT, SEED_LESSONS_PATH)} (${lessons.length} lessons) ... `);
+  process.stdout.write(
+    `  -> ${path.relative(ROOT, SEED_LESSONS_PATH)} (${lessons.length} lessons) ... `
+  );
   const sql = `
     insert into public.lessons (
       slug,

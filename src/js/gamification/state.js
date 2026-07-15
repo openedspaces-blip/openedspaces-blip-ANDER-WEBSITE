@@ -52,7 +52,11 @@
 
   G.notify = function notify(type, payload) {
     G.listeners.forEach((fn) => {
-      try { fn(type, payload); } catch (error) { console.warn('Gamification listener error', error); }
+      try {
+        fn(type, payload);
+      } catch (error) {
+        console.warn('Gamification listener error', error);
+      }
     });
   };
 

@@ -5,7 +5,12 @@
 
   const MISSION_POOL = [
     { id: 'complete-lesson', label: 'Completa 1 lección hoy', target: 1, xpReward: 15 },
-    { id: 'correct-answers', label: 'Responde 3 ejercicios correctamente', target: 3, xpReward: 15 },
+    {
+      id: 'correct-answers',
+      label: 'Responde 3 ejercicios correctamente',
+      target: 3,
+      xpReward: 15
+    },
     { id: 'practice-skills', label: 'Practica 2 habilidades distintas', target: 2, xpReward: 15 },
     { id: 'explore-language', label: 'Explora otro idioma', target: 1, xpReward: 10 }
   ];

@@ -48,20 +48,20 @@ will play.
 
 Keyed by `(language, level, lesson_slug)`:
 
-| field | notes |
-|---|---|
-| `language` | matches the world content.js language key |
-| `level` | CEFR level (A1–C2) |
-| `lesson_slug` | matches `lesson.slug` in `src/worlds/*/content.js` |
-| `title` | optional, for admin reference |
-| `source_type` | `official` \| `ai-generated` |
-| `speaker` | narrator name/voice id |
-| `duration` | seconds, shown in the player |
-| `main_file_path` | URL/path to the normal-speed file |
-| `slow_file_path` | URL/path to the slow version (optional) |
-| `transcript` | full text shown behind the transcript gate |
-| `status` | `draft` \| `published` — **only `published` rows are ever served** |
-| `published_at`, `created_at`, `updated_at` | timestamps |
+| field                                      | notes                                                              |
+| ------------------------------------------ | ------------------------------------------------------------------ |
+| `language`                                 | matches the world content.js language key                          |
+| `level`                                    | CEFR level (A1–C2)                                                 |
+| `lesson_slug`                              | matches `lesson.slug` in `src/worlds/*/content.js`                 |
+| `title`                                    | optional, for admin reference                                      |
+| `source_type`                              | `official` \| `ai-generated`                                       |
+| `speaker`                                  | narrator name/voice id                                             |
+| `duration`                                 | seconds, shown in the player                                       |
+| `main_file_path`                           | URL/path to the normal-speed file                                  |
+| `slow_file_path`                           | URL/path to the slow version (optional)                            |
+| `transcript`                               | full text shown behind the transcript gate                         |
+| `status`                                   | `draft` \| `published` — **only `published` rows are ever served** |
+| `published_at`, `created_at`, `updated_at` | timestamps                                                         |
 
 ### Suggested bucket layout for new uploads
 

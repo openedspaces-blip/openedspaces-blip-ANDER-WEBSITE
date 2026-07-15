@@ -52,7 +52,8 @@
     const alreadyCompleted = G.state.completedSlugs.includes(slug);
     if (!alreadyCompleted) G.state.completedSlugs.push(slug);
     if (score >= 100) G.state.hasPerfectScore = true;
-    if (language && !G.state.languagesTouched.includes(language)) G.state.languagesTouched.push(language);
+    if (language && !G.state.languagesTouched.includes(language))
+      G.state.languagesTouched.push(language);
 
     G.addXp(alreadyCompleted ? Math.round(xpReward * 0.2) : xpReward, 'Lección completada');
     if (!alreadyCompleted) G.updateMissionProgress('complete-lesson', 1);
@@ -69,9 +70,12 @@
   // discarding local optimistic state that the server doesn't track yet.
   function syncFromServer(serverState = {}) {
     if (typeof serverState.xp === 'number') G.state.xp = Math.max(G.state.xp, serverState.xp);
-    if (typeof serverState.level === 'number') G.state.level = Math.max(G.state.level, serverState.level);
-    if (typeof serverState.streak === 'number') G.state.streak = Math.max(G.state.streak, serverState.streak);
-    if (typeof serverState.longestStreak === 'number') G.state.longestStreak = Math.max(G.state.longestStreak, serverState.longestStreak);
+    if (typeof serverState.level === 'number')
+      G.state.level = Math.max(G.state.level, serverState.level);
+    if (typeof serverState.streak === 'number')
+      G.state.streak = Math.max(G.state.streak, serverState.streak);
+    if (typeof serverState.longestStreak === 'number')
+      G.state.longestStreak = Math.max(G.state.longestStreak, serverState.longestStreak);
     if (Array.isArray(serverState.badges)) {
       const merged = new Set([...G.state.badges, ...serverState.badges]);
       G.state.badges = Array.from(merged);

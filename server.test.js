@@ -47,50 +47,58 @@ test('language content endpoint exposes backend-managed UI payload', async () =>
   }
 });
 
-test('ai tutor endpoint surfaces missing Gemini configuration clearly', { skip: isTutorConfigured() && 'GEMINI_API_KEY is set in this environment' }, async () => {
-  const { server, port } = await startTestServer();
-  try {
-    const response = await fetch(`http://127.0.0.1:${port}/api/ai/tutor`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        language: 'french',
-        skill: 'speaking',
-        level: 'A1',
-        nativeLanguage: 'es',
-        prompt: 'Quiero practicar saludos'
-      })
-    });
-    assert.equal(response.status, 503);
-    const body = await response.json();
-    assert.match(body.error, /GEMINI_API_KEY/i);
-  } finally {
-    server.close();
+test(
+  'ai tutor endpoint surfaces missing Gemini configuration clearly',
+  { skip: isTutorConfigured() && 'GEMINI_API_KEY is set in this environment' },
+  async () => {
+    const { server, port } = await startTestServer();
+    try {
+      const response = await fetch(`http://127.0.0.1:${port}/api/ai/tutor`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          language: 'french',
+          skill: 'speaking',
+          level: 'A1',
+          nativeLanguage: 'es',
+          prompt: 'Quiero practicar saludos'
+        })
+      });
+      assert.equal(response.status, 503);
+      const body = await response.json();
+      assert.match(body.error, /GEMINI_API_KEY/i);
+    } finally {
+      server.close();
+    }
   }
-});
+);
 
-test('ai tutor endpoint returns a real reply when Gemini is configured', { skip: !isTutorConfigured() && 'GEMINI_API_KEY is not set in this environment' }, async () => {
-  const { server, port } = await startTestServer();
-  try {
-    const response = await fetch(`http://127.0.0.1:${port}/api/ai/tutor`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        language: 'french',
-        skill: 'speaking',
-        level: 'A1',
-        nativeLanguage: 'es',
-        prompt: 'Quiero practicar saludos'
-      })
-    });
-    assert.equal(response.status, 200);
-    const body = await response.json();
-    assert.equal(typeof body.reply, 'string');
-    assert.ok(body.reply.length > 0);
-  } finally {
-    server.close();
+test(
+  'ai tutor endpoint returns a real reply when Gemini is configured',
+  { skip: !isTutorConfigured() && 'GEMINI_API_KEY is not set in this environment' },
+  async () => {
+    const { server, port } = await startTestServer();
+    try {
+      const response = await fetch(`http://127.0.0.1:${port}/api/ai/tutor`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          language: 'french',
+          skill: 'speaking',
+          level: 'A1',
+          nativeLanguage: 'es',
+          prompt: 'Quiero practicar saludos'
+        })
+      });
+      assert.equal(response.status, 200);
+      const body = await response.json();
+      assert.equal(typeof body.reply, 'string');
+      assert.ok(body.reply.length > 0);
+    } finally {
+      server.close();
+    }
   }
-});
+);
 
 test('fallback worlds include six lessons per level for every supported language', () => {
   for (const language of WORLD_LANGUAGES) {
@@ -134,7 +142,15 @@ test('single-view router sections exist for every nav destination', () => {
   assert.doesNotMatch(html, /class="tab-button/);
   assert.doesNotMatch(html, /id="tab-english"/);
 
-  for (const id of ['progress', 'language-picker', 'learning-path', 'achievements', 'goals', 'tutor', 'premium']) {
+  for (const id of [
+    'progress',
+    'language-picker',
+    'learning-path',
+    'achievements',
+    'goals',
+    'tutor',
+    'premium'
+  ]) {
     assert.match(html, new RegExp(`id="${id}"`), `expected a section with id="${id}"`);
   }
   assert.match(html, /class="nav-group nav-group-visitor"/);
@@ -183,7 +199,9 @@ test('lessons endpoint returns expanded A1 worlds for every supported language',
   const { server, port } = await startTestServer();
   try {
     for (const language of WORLD_LANGUAGES) {
-      const response = await fetch(`http://127.0.0.1:${port}/api/lessons?level=A1&language=${language}`);
+      const response = await fetch(
+        `http://127.0.0.1:${port}/api/lessons?level=A1&language=${language}`
+      );
       assert.equal(response.status, 200);
       const body = await response.json();
       assert.equal(body.lessons.length, 6);

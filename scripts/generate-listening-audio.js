@@ -34,11 +34,15 @@ async function ensureBucket(supabase) {
 
 async function main() {
   if (!config.isSupabaseConfigured) {
-    console.error('Supabase no está configurado (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY). Nada que hacer.');
+    console.error(
+      'Supabase no está configurado (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY). Nada que hacer.'
+    );
     process.exit(1);
   }
   if (!isTtsConfigured()) {
-    console.error('OPENAI_API_KEY no está configurado. Agrégalo a tu .env (o a Vercel) y vuelve a intentar.');
+    console.error(
+      'OPENAI_API_KEY no está configurado. Agrégalo a tu .env (o a Vercel) y vuelve a intentar.'
+    );
     process.exit(1);
   }
 
@@ -102,7 +106,9 @@ async function main() {
     }
   }
 
-  console.log(`Listo. Generados: ${generated}, ya existentes (omitidos): ${skipped}, fallidos: ${failed}, total: ${lessons.length}.`);
+  console.log(
+    `Listo. Generados: ${generated}, ya existentes (omitidos): ${skipped}, fallidos: ${failed}, total: ${lessons.length}.`
+  );
 }
 
 main().catch((error) => {

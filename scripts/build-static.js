@@ -39,7 +39,9 @@ function copyFileEnsuringDir(srcPath, destPath) {
 
 function main() {
   console.log('Syncing generated language worlds...');
-  execSync(`node "${path.join(ROOT, 'scripts', 'sync-worlds-from-seed.js')}"`, { stdio: 'inherit' });
+  execSync(`node "${path.join(ROOT, 'scripts', 'sync-worlds-from-seed.js')}"`, {
+    stdio: 'inherit'
+  });
 
   console.log('Validating core files...');
   REQUIRED_FILES.forEach(assertExists);
@@ -57,7 +59,9 @@ function main() {
     }
   });
   WORLD_LANGUAGES.forEach((lang) => {
-    execSync(`node --check "${path.join(ROOT, 'src', 'worlds', lang, 'content.js')}"`, { stdio: 'inherit' });
+    execSync(`node --check "${path.join(ROOT, 'src', 'worlds', lang, 'content.js')}"`, {
+      stdio: 'inherit'
+    });
   });
 
   console.log('Mirroring static assets into public/ ...');

@@ -23,7 +23,9 @@ async function main() {
     .sort((a, b) => (a.order_index || 0) - (b.order_index || 0));
 
   if (lessons.length !== 6) {
-    console.error(`Esperaba 6 lecciones de English A1 en el seed, encontré ${lessons.length}. Abortando.`);
+    console.error(
+      `Esperaba 6 lecciones de English A1 en el seed, encontré ${lessons.length}. Abortando.`
+    );
     process.exit(1);
   }
 
@@ -90,7 +92,12 @@ async function main() {
 
     const sectionRows = [];
     if (content.intro) {
-      sectionRows.push({ lesson_id: lesson.id, type: 'intro', order_index: 0, line: content.intro });
+      sectionRows.push({
+        lesson_id: lesson.id,
+        type: 'intro',
+        order_index: 0,
+        line: content.intro
+      });
     }
     (content.vocabulary || []).forEach((item, index) => {
       sectionRows.push({
@@ -133,10 +140,16 @@ async function main() {
     for (const [index, exercise] of (content.exercises || []).entries()) {
       const { data: exerciseRow, error: exerciseError } = await supabase
         .from('exercises')
-        .insert({ lesson_id: lesson.id, type: exercise.type, prompt: exercise.prompt, order_index: index })
+        .insert({
+          lesson_id: lesson.id,
+          type: exercise.type,
+          prompt: exercise.prompt,
+          order_index: index
+        })
         .select('id')
         .single();
-      if (exerciseError) throw new Error(`exercises (${row.slug} #${index}): ${exerciseError.message}`);
+      if (exerciseError)
+        throw new Error(`exercises (${row.slug} #${index}): ${exerciseError.message}`);
 
       if (exercise.type === 'mcq' && Array.isArray(exercise.options)) {
         const optionRows = exercise.options.map((optionText, optionIndex) => ({
@@ -146,7 +159,8 @@ async function main() {
           order_index: optionIndex
         }));
         const { error: optionsError } = await supabase.from('exercise_options').insert(optionRows);
-        if (optionsError) throw new Error(`exercise_options (${row.slug} #${index}): ${optionsError.message}`);
+        if (optionsError)
+          throw new Error(`exercise_options (${row.slug} #${index}): ${optionsError.message}`);
       }
     }
 

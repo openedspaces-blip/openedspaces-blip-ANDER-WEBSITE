@@ -74,14 +74,20 @@ function buildLevelContent(language) {
         speaking: getSkillText(bySkill.speaking, 'speaking'),
         writing: getSkillText(bySkill.writing, 'writing')
       },
-      vocab: (primaryContent.vocabulary || []).slice(0, 8).map((item) => [item.word, item.translation]),
+      vocab: (primaryContent.vocabulary || [])
+        .slice(0, 8)
+        .map((item) => [item.word, item.translation]),
       grammar: [
         [level, primaryContent.grammar || 'Guided grammar practice.'],
-        ['Mission', primaryContent.mission || primary.description || 'Complete the guided activity.']
+        [
+          'Mission',
+          primaryContent.mission || primary.description || 'Complete the guided activity.'
+        ]
       ],
       reading: {
         title: `${LANGUAGES[language].label} ${level} Reading`,
-        text: readingContent.reading?.text || primaryContent.reading?.text || primary.description || '',
+        text:
+          readingContent.reading?.text || primaryContent.reading?.text || primary.description || '',
         questions: readingContent.reading?.questions || primaryContent.reading?.questions || []
       }
     };

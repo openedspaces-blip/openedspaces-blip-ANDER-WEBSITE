@@ -37,11 +37,26 @@
 
   G.onEvent((type, payload) => {
     if (type === 'badge-unlocked') {
-      showToast({ icon: payload.icon, title: `Insignia desbloqueada: ${payload.label}`, detail: payload.description, variant: 'badge' });
+      showToast({
+        icon: payload.icon,
+        title: `Insignia desbloqueada: ${payload.label}`,
+        detail: payload.description,
+        variant: 'badge'
+      });
     } else if (type === 'level-up') {
-      showToast({ icon: '⭐', title: `¡Subiste a nivel ${payload.level}!`, detail: 'Sigue practicando para ganar más XP.', variant: 'level' });
+      showToast({
+        icon: '⭐',
+        title: `¡Subiste a nivel ${payload.level}!`,
+        detail: 'Sigue practicando para ganar más XP.',
+        variant: 'level'
+      });
     } else if (type === 'mission-complete') {
-      showToast({ icon: '✅', title: 'Misión completada', detail: `${payload.label} · +${payload.xpReward} XP`, variant: 'mission' });
+      showToast({
+        icon: '✅',
+        title: 'Misión completada',
+        detail: `${payload.label} · +${payload.xpReward} XP`,
+        variant: 'mission'
+      });
     }
   });
 })();

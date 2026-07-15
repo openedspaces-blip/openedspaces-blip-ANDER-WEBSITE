@@ -10,9 +10,20 @@ let currentNativeLanguage = 'es';
 // #nativeLanguage select which this stays in sync with for backward
 // compatibility.
 let currentBridgeLanguage = 'spanish';
-const bridgeCodeToName = { es: 'spanish', en: 'english', fr: 'french', it: 'italian', de: 'german' };
-const bridgeNameToCode = { spanish: 'es', english: 'en', french: 'fr', italian: 'it', german: 'de' };
-
+const bridgeCodeToName = {
+  es: 'spanish',
+  en: 'english',
+  fr: 'french',
+  it: 'italian',
+  de: 'german'
+};
+const bridgeNameToCode = {
+  spanish: 'es',
+  english: 'en',
+  french: 'fr',
+  italian: 'it',
+  german: 'de'
+};
 
 const premiumPriceUsd = '5.95';
 
@@ -28,7 +39,7 @@ const targetLanguageMap = {
 const authModal = document.getElementById('authModal');
 const authTabs = document.querySelectorAll('.auth-tab');
 const authForms = document.querySelectorAll('.auth-form');
-document.querySelectorAll('.auth-form .auth-note').forEach(note => {
+document.querySelectorAll('.auth-form .auth-note').forEach((note) => {
   note.dataset.defaultText = note.textContent;
 });
 const authTriggers = document.querySelectorAll('[data-action="open-auth"]');
@@ -37,7 +48,10 @@ const menuToggle = document.querySelector('.menu-toggle');
 const siteMenu = document.getElementById('siteMenu');
 const userChip = document.querySelector('.user-chip');
 const logoutButton = document.querySelector('.logout-btn');
-const backendBaseUrl = (typeof window !== 'undefined' && window.location.protocol === 'file:') ? 'http://127.0.0.1:3000' : '';
+const backendBaseUrl =
+  typeof window !== 'undefined' && window.location.protocol === 'file:'
+    ? 'http://127.0.0.1:3000'
+    : '';
 const authStatus = {
   user: null,
   session: null
@@ -99,7 +113,8 @@ function restoreSession() {
 // missing too.
 function getDisplayName() {
   const rawName = authStatus.user?.name;
-  const looksLikeName = typeof rawName === 'string' && /^[\p{L}][\p{L}\s'-]{1,49}$/u.test(rawName.trim());
+  const looksLikeName =
+    typeof rawName === 'string' && /^[\p{L}][\p{L}\s'-]{1,49}$/u.test(rawName.trim());
   if (looksLikeName) return rawName.trim();
   return authStatus.user?.email?.split('@')[0] || '';
 }
@@ -115,22 +130,28 @@ function renderAuthState() {
 
   if (logoutButton) logoutButton.hidden = !isSignedIn;
 
-  authTriggers.forEach(trigger => {
+  authTriggers.forEach((trigger) => {
     trigger.hidden = isSignedIn;
   });
 
-  document.querySelectorAll('.nav-group-visitor').forEach(group => { group.hidden = isSignedIn; });
-  document.querySelectorAll('.nav-group-member').forEach(group => { group.hidden = !isSignedIn; });
+  document.querySelectorAll('.nav-group-visitor').forEach((group) => {
+    group.hidden = isSignedIn;
+  });
+  document.querySelectorAll('.nav-group-member').forEach((group) => {
+    group.hidden = !isSignedIn;
+  });
 
   const greeting = document.querySelector('.student-greeting');
   if (greeting) {
     greeting.textContent = isSignedIn
-      ? (name ? `${name}, esta es tu ruta personalizada.` : 'Esta es tu ruta personalizada.')
+      ? name
+        ? `${name}, esta es tu ruta personalizada.`
+        : 'Esta es tu ruta personalizada.'
       : 'Inicia sesión para ver tu progreso, racha y objetivo.';
   }
 }
 
-nativeLanguageSelect?.addEventListener('change', event => {
+nativeLanguageSelect?.addEventListener('change', (event) => {
   setBridgeLanguage(bridgeCodeToName[event.target.value] || 'spanish');
 });
 
@@ -145,7 +166,8 @@ function setBridgeLanguage(bridgeName, options = {}) {
   const target = learningPathState.language;
   if (bridgeName === target) {
     showHomeToast('El idioma puente debe ser diferente del idioma que deseas aprender.');
-    if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[currentBridgeLanguage] || 'es';
+    if (nativeLanguageSelect)
+      nativeLanguageSelect.value = bridgeNameToCode[currentBridgeLanguage] || 'es';
     const staleBridgeSelect = document.getElementById('pathBridgeSelect');
     if (staleBridgeSelect) staleBridgeSelect.value = currentBridgeLanguage;
     return false;
@@ -165,7 +187,8 @@ function setBridgeLanguage(bridgeName, options = {}) {
 function updatePathPairPreview() {
   const preview = document.getElementById('pathPairPreview');
   if (!preview) return;
-  const targetLabel = languageDisplayNames[learningPathState.language] || learningPathState.language;
+  const targetLabel =
+    languageDisplayNames[learningPathState.language] || learningPathState.language;
   const bridgeLabel = languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
   preview.textContent = `Aprenderás ${targetLabel} con apoyo en ${bridgeLabel}.`;
 }
@@ -225,9 +248,13 @@ function renderMcqItem(question, index, languageKey) {
   }
 
   const options = question.options || [];
-  const optionsHtml = options.map((option, optionIndex) => `
+  const optionsHtml = options
+    .map(
+      (option, optionIndex) => `
     <button type="button" class="mcq-option" data-option-index="${optionIndex}">${escapeHtml(option)}</button>
-  `).join('');
+  `
+    )
+    .join('');
 
   return `
     <li class="mcq-question" data-language="${escapeHtml(languageKey || '')}">
@@ -254,11 +281,11 @@ function openModal(panel) {
   authModal.setAttribute('aria-hidden', 'false');
   authModal.removeAttribute('inert');
   document.body.classList.add('modal-open');
-  authTabs.forEach(tab => {
+  authTabs.forEach((tab) => {
     const active = tab.dataset.form === panel;
     tab.classList.toggle('active', active);
   });
-  authForms.forEach(form => {
+  authForms.forEach((form) => {
     form.classList.toggle('active', form.id === `${panel}Form`);
   });
   clearAuthMessages();
@@ -298,7 +325,7 @@ function closeLogoutConfirm() {
   logoutConfirmReturnFocus = null;
 }
 
-logoutConfirmModal?.addEventListener('click', event => {
+logoutConfirmModal?.addEventListener('click', (event) => {
   if (event.target === logoutConfirmModal) {
     closeLogoutConfirm();
     return;
@@ -312,7 +339,7 @@ logoutConfirmModal?.addEventListener('click', event => {
   }
 });
 
-document.addEventListener('keydown', event => {
+document.addEventListener('keydown', (event) => {
   if (event.key !== 'Escape') return;
   if (logoutConfirmModal?.classList.contains('open')) {
     closeLogoutConfirm();
@@ -344,7 +371,12 @@ async function postJson(path, payload) {
 // guest, show a loading state while the real numbers are in flight, an
 // explicit error state if the fetch fails - never a fabricated 0% that's
 // indistinguishable from a real, freshly-signed-up 0% - then the real numbers.
-function updateProgressDisplay({ progress = 0, streak = 0 } = {}, isSignedIn = false, isLoading = false, isError = false) {
+function updateProgressDisplay(
+  { progress = 0, streak = 0 } = {},
+  isSignedIn = false,
+  isLoading = false,
+  isError = false
+) {
   const normalizedProgress = Math.max(0, Math.min(100, Number(progress) || 0));
   currentProgress = normalizedProgress;
   const progressCircle = document.querySelector('.progress-circle');
@@ -361,14 +393,16 @@ function updateProgressDisplay({ progress = 0, streak = 0 } = {}, isSignedIn = f
   if (guestActions) guestActions.hidden = isSignedIn;
   if (continueBtn) continueBtn.hidden = !isSignedIn;
 
-  if (progressCircle) progressCircle.textContent = (isLoading || isError) ? '…' : `${normalizedProgress}%`;
-  if (streakCount) streakCount.textContent = (isLoading || isError) ? '…' : String(streak);
+  if (progressCircle)
+    progressCircle.textContent = isLoading || isError ? '…' : `${normalizedProgress}%`;
+  if (streakCount) streakCount.textContent = isLoading || isError ? '…' : String(streak);
   if (progressText) {
     progressText.hidden = !isSignedIn;
     if (isSignedIn) {
       if (isLoading) progressText.textContent = 'Cargando tu progreso…';
       else if (isError) progressText.textContent = 'No se pudo cargar tu progreso.';
-      else progressText.textContent = `${name ? `${name}: ` : ''}${normalizedProgress}% completado · ${streak} días de racha`;
+      else
+        progressText.textContent = `${name ? `${name}: ` : ''}${normalizedProgress}% completado · ${streak} días de racha`;
     }
   }
 }
@@ -413,7 +447,11 @@ async function loadPreferences() {
     if (!response.ok) return null;
     const data = await response.json().catch(() => null);
     if (!data?.language || !data?.level) return null;
-    return { language: data.language, level: data.level, bridgeLanguage: data.bridgeLanguage || 'spanish' };
+    return {
+      language: data.language,
+      level: data.level,
+      bridgeLanguage: data.bridgeLanguage || 'spanish'
+    };
   } catch (error) {
     console.warn('Could not load saved preferences', error);
     return null;
@@ -429,7 +467,8 @@ function applyPreferencesToSelects(preferences) {
   if (levelSelect) levelSelect.value = preferences.level;
   if (bridgeSelect) bridgeSelect.value = preferences.bridgeLanguage || 'spanish';
   currentBridgeLanguage = preferences.bridgeLanguage || 'spanish';
-  if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[currentBridgeLanguage] || 'es';
+  if (nativeLanguageSelect)
+    nativeLanguageSelect.value = bridgeNameToCode[currentBridgeLanguage] || 'es';
   updatePathPairPreview();
 }
 
@@ -443,7 +482,7 @@ function savePreferences(language, level, bridgeLanguage) {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json', ...authHeaders() },
     body: JSON.stringify({ language, level, bridgeLanguage })
-  }).catch(error => console.warn('Could not save preferences', error));
+  }).catch((error) => console.warn('Could not save preferences', error));
 }
 
 // XP/level/streak have exactly one source of truth: the client-side
@@ -454,14 +493,18 @@ function renderProgressGamificationSummary() {
   const line = document.getElementById('progressGamificationLine');
   if (!line) return;
   const state = window.AndergoGamification?.getState();
-  if (!state) { line.textContent = ''; return; }
+  if (!state) {
+    line.textContent = '';
+    return;
+  }
   line.textContent = `Nivel ${state.level} · ${state.xp} XP · 🔥 ${state.streak} días de racha`;
 }
 
 function renderDashboardStats(data) {
   const grid = document.getElementById('dashboardStatsGrid');
   if (grid) {
-    const langLabel = languageDisplayNames[data.preferences?.language] || data.preferences?.language || '—';
+    const langLabel =
+      languageDisplayNames[data.preferences?.language] || data.preferences?.language || '—';
     const stats = [
       ['Idioma', escapeHtml(langLabel)],
       ['Nivel', escapeHtml(data.preferences?.level || '—')],
@@ -469,9 +512,13 @@ function renderDashboardStats(data) {
       ['Próxima lección', escapeHtml(data.nextLesson || '—')],
       ['Lecciones completadas', `${data.completedLessonsCount}`]
     ];
-    grid.innerHTML = stats.map(([label, value]) => `
+    grid.innerHTML = stats
+      .map(
+        ([label, value]) => `
       <div class="dashboard-stat"><span>${label}</span><strong>${value}</strong></div>
-    `).join('');
+    `
+      )
+      .join('');
   }
   renderProgressGamificationSummary();
 }
@@ -480,9 +527,13 @@ function renderDashboardGoal(goal, preferences) {
   const body = document.getElementById('goalsCrudBody');
   const homeGoalSummary = document.querySelector('#homeGoalSummary strong');
 
-  const goalOptionsHtml = (selectedKey) => Object.entries(goalOptions).map(([key, opt]) =>
-    `<option value="${key}" ${key === selectedKey ? 'selected' : ''}>${escapeHtml(opt.label)}</option>`
-  ).join('');
+  const goalOptionsHtml = (selectedKey) =>
+    Object.entries(goalOptions)
+      .map(
+        ([key, opt]) =>
+          `<option value="${key}" ${key === selectedKey ? 'selected' : ''}>${escapeHtml(opt.label)}</option>`
+      )
+      .join('');
 
   if (!goal) {
     if (body) {
@@ -504,7 +555,9 @@ function renderDashboardGoal(goal, preferences) {
 
   const dateFormat = { day: 'numeric', month: 'short', year: 'numeric' };
   const createdText = new Date(goal.selectedAt).toLocaleDateString('es', dateFormat);
-  const completedText = goal.completedAt ? new Date(goal.completedAt).toLocaleDateString('es', dateFormat) : null;
+  const completedText = goal.completedAt
+    ? new Date(goal.completedAt).toLocaleDateString('es', dateFormat)
+    : null;
   const langLabel = languageDisplayNames[preferences?.language] || preferences?.language || '—';
 
   body.innerHTML = `
@@ -530,27 +583,30 @@ function renderDashboardActivity(activity) {
   if (!list) return;
 
   if (!activity || activity.length === 0) {
-    list.innerHTML = '<li class="skill-graph-empty">Aún no tienes actividad reciente. Completa tu primera lección para comenzar.</li>';
+    list.innerHTML =
+      '<li class="skill-graph-empty">Aún no tienes actividad reciente. Completa tu primera lección para comenzar.</li>';
     return;
   }
 
-  list.innerHTML = activity.map(entry => {
-    const date = new Date(entry.at).toLocaleDateString('es', { day: 'numeric', month: 'short' });
-    let icon = '📌';
-    let text = '';
-    if (entry.type === 'lesson_completed') {
-      icon = '🎉';
-      const xpText = entry.xp ? ` · +${entry.xp} XP` : '';
-      text = `Completaste "${escapeHtml(entry.title)}"${xpText}`;
-    } else if (entry.type === 'goal_created') {
-      icon = '🎯';
-      text = `Nuevo objetivo: ${escapeHtml(goalOptions[entry.goalKey]?.label || entry.goalKey)}`;
-    } else if (entry.type === 'goal_completed') {
-      icon = '✅';
-      text = `Objetivo completado: ${escapeHtml(goalOptions[entry.goalKey]?.label || entry.goalKey)}`;
-    }
-    return `<li class="dashboard-activity-item"><span class="dashboard-activity-icon">${icon}</span><span class="dashboard-activity-text">${text}</span><span class="dashboard-activity-date">${date}</span></li>`;
-  }).join('');
+  list.innerHTML = activity
+    .map((entry) => {
+      const date = new Date(entry.at).toLocaleDateString('es', { day: 'numeric', month: 'short' });
+      let icon = '📌';
+      let text = '';
+      if (entry.type === 'lesson_completed') {
+        icon = '🎉';
+        const xpText = entry.xp ? ` · +${entry.xp} XP` : '';
+        text = `Completaste "${escapeHtml(entry.title)}"${xpText}`;
+      } else if (entry.type === 'goal_created') {
+        icon = '🎯';
+        text = `Nuevo objetivo: ${escapeHtml(goalOptions[entry.goalKey]?.label || entry.goalKey)}`;
+      } else if (entry.type === 'goal_completed') {
+        icon = '✅';
+        text = `Objetivo completado: ${escapeHtml(goalOptions[entry.goalKey]?.label || entry.goalKey)}`;
+      }
+      return `<li class="dashboard-activity-item"><span class="dashboard-activity-icon">${icon}</span><span class="dashboard-activity-text">${text}</span><span class="dashboard-activity-date">${date}</span></li>`;
+    })
+    .join('');
 }
 
 function renderDashboardLoading() {
@@ -559,7 +615,8 @@ function renderDashboardLoading() {
   const goalBody = document.getElementById('goalsCrudBody');
   if (goalBody) goalBody.innerHTML = '<p class="skill-graph-empty">Cargando tu objetivo…</p>';
   const activityList = document.getElementById('dashboardActivityList');
-  if (activityList) activityList.innerHTML = '<li class="skill-graph-empty">Cargando actividad…</li>';
+  if (activityList)
+    activityList.innerHTML = '<li class="skill-graph-empty">Cargando actividad…</li>';
   // The home hero's goal one-liner is a separate DOM node (renderDashboardGoal
   // only touches it once real data arrives) - without this it would keep
   // showing the static "Sin objetivo activo" placeholder while this loads.
@@ -569,7 +626,9 @@ function renderDashboardLoading() {
 
 function renderDashboardError() {
   const grid = document.getElementById('dashboardStatsGrid');
-  if (grid) grid.innerHTML = '<p class="skill-graph-empty">No se pudo cargar tu panel. Intenta recargar la página.</p>';
+  if (grid)
+    grid.innerHTML =
+      '<p class="skill-graph-empty">No se pudo cargar tu panel. Intenta recargar la página.</p>';
   const homeGoalSummary = document.querySelector('#homeGoalSummary strong');
   if (homeGoalSummary) homeGoalSummary.textContent = 'No se pudo cargar';
 }
@@ -578,9 +637,13 @@ function renderDashboardSignedOut() {
   const grid = document.getElementById('dashboardStatsGrid');
   if (grid) grid.innerHTML = '<p class="skill-graph-empty">Inicia sesión para ver tu progreso.</p>';
   const goalBody = document.getElementById('goalsCrudBody');
-  if (goalBody) goalBody.innerHTML = '<p class="skill-graph-empty">Inicia sesión para crear y guardar tu objetivo.</p>';
+  if (goalBody)
+    goalBody.innerHTML =
+      '<p class="skill-graph-empty">Inicia sesión para crear y guardar tu objetivo.</p>';
   const activityList = document.getElementById('dashboardActivityList');
-  if (activityList) activityList.innerHTML = '<li class="skill-graph-empty">Inicia sesión para ver tu actividad.</li>';
+  if (activityList)
+    activityList.innerHTML =
+      '<li class="skill-graph-empty">Inicia sesión para ver tu actividad.</li>';
   const line = document.getElementById('progressGamificationLine');
   if (line) line.textContent = '';
 }
@@ -623,7 +686,7 @@ async function loadDashboard() {
   }
 }
 
-document.getElementById('goalsCrudBody')?.addEventListener('click', async event => {
+document.getElementById('goalsCrudBody')?.addEventListener('click', async (event) => {
   const button = event.target.closest('[data-goal-action]');
   if (!button) return;
   const action = button.dataset.goalAction;
@@ -657,7 +720,10 @@ document.getElementById('goalsCrudBody')?.addEventListener('click', async event 
       showHomeToast('¡Objetivo marcado como completado!');
     } else if (action === 'delete') {
       if (!window.confirm('¿Eliminar tu objetivo actual?')) return;
-      await fetch(`${backendBaseUrl}/api/goals/${goalId}`, { method: 'DELETE', headers: authHeaders() });
+      await fetch(`${backendBaseUrl}/api/goals/${goalId}`, {
+        method: 'DELETE',
+        headers: authHeaders()
+      });
       showHomeToast('Objetivo eliminado.');
     }
     await loadDashboard();
@@ -680,7 +746,7 @@ function setAuthMessage(message, isError = false) {
 }
 
 function clearAuthMessages() {
-  document.querySelectorAll('.auth-form .auth-note').forEach(note => {
+  document.querySelectorAll('.auth-form .auth-note').forEach((note) => {
     note.textContent = note.dataset.defaultText || '';
     note.style.color = '';
   });
@@ -708,8 +774,8 @@ async function logout() {
 function attachAuthHandlers() {
   const forms = document.querySelectorAll('.auth-form');
 
-  forms.forEach(form => {
-    form.addEventListener('submit', async event => {
+  forms.forEach((form) => {
+    form.addEventListener('submit', async (event) => {
       event.preventDefault();
       const isSignup = form.id === 'signupForm';
       const payload = {
@@ -772,7 +838,7 @@ function resetSignupPending() {
   if (pending) pending.hidden = true;
 }
 
-document.getElementById('signupPending')?.addEventListener('click', async event => {
+document.getElementById('signupPending')?.addEventListener('click', async (event) => {
   const button = event.target.closest('[data-action]');
   if (!button) return;
 
@@ -802,7 +868,9 @@ document.getElementById('signupPending')?.addEventListener('click', async event 
       // account, unlike the "does it exist" question, so it's safe to be
       // specific about it.
       if (response.status === 429) {
-        showHomeToast('Has solicitado varios correos. Espera unos minutos antes de intentarlo nuevamente.');
+        showHomeToast(
+          'Has solicitado varios correos. Espera unos minutos antes de intentarlo nuevamente.'
+        );
       } else if (response.ok) {
         showHomeToast('Correo reenviado. Revisa tu bandeja de entrada y la carpeta de spam.');
       } else {
@@ -893,8 +961,12 @@ function authHeaders() {
 // #learn has two states - browsing the route (skill graph) or reading one
 // lesson (lesson workspace + "Volver a la ruta") - never both at once.
 function showLearnState(state) {
-  document.getElementById('skillGraph')?.classList.toggle('compact-hidden-section', state !== 'route');
-  document.getElementById('lessonWorkspace')?.classList.toggle('compact-hidden-section', state !== 'lesson');
+  document
+    .getElementById('skillGraph')
+    ?.classList.toggle('compact-hidden-section', state !== 'route');
+  document
+    .getElementById('lessonWorkspace')
+    ?.classList.toggle('compact-hidden-section', state !== 'lesson');
 }
 
 // Selects a lesson in the learning path and, for signed-in users, tells the
@@ -915,7 +987,11 @@ function openLesson(slug) {
 }
 
 function getActiveLearningLesson() {
-  return learningPathState.lessons.find(item => item.slug === learningPathState.activeSlug) || learningPathState.lessons[0] || null;
+  return (
+    learningPathState.lessons.find((item) => item.slug === learningPathState.activeSlug) ||
+    learningPathState.lessons[0] ||
+    null
+  );
 }
 
 function updateAiTutorContext() {
@@ -924,7 +1000,8 @@ function updateAiTutorContext() {
 
   const lesson = getActiveLearningLesson();
   const values = {
-    language: languageDisplayNames[learningPathState.language] || learningPathState.language || 'English',
+    language:
+      languageDisplayNames[learningPathState.language] || learningPathState.language || 'English',
     level: learningPathState.level || 'A1',
     lesson: lesson?.title || 'Ruta inicial'
   };
@@ -978,24 +1055,29 @@ function renderSkillGraph() {
 
   const totalH = TOP_PAD + (lessons.length - 1) * Y_STEP + NODE_R + 50;
 
-  const svgPaths = nodeData.slice(0, -1).map(({ cx: x1, cy: y1 }, i) => {
-    const { cx: x2, cy: y2, lesson: nextLesson } = nodeData[i + 1];
-    const cpX = Math.round((x1 + x2) / 2);
-    const cpY = Math.round((y1 + y2) / 2);
-    const color = nextLesson.completed ? '#22c55e' : (nextLesson.locked ? '#dbeafe' : '#2563eb');
-    const dashArray = nextLesson.locked ? '6 4' : 'none';
-    const opacity = nextLesson.locked ? '0.35' : '0.6';
-    return `<path d="M${x1},${y1 + NODE_R} C${cpX},${y1 + NODE_R + 32} ${cpX},${y2 - NODE_R - 32} ${x2},${y2 - NODE_R}" stroke="${color}" stroke-width="3" fill="none" stroke-dasharray="${dashArray}" opacity="${opacity}" stroke-linecap="round"/>`;
-  }).join('');
+  const svgPaths = nodeData
+    .slice(0, -1)
+    .map(({ cx: x1, cy: y1 }, i) => {
+      const { cx: x2, cy: y2, lesson: nextLesson } = nodeData[i + 1];
+      const cpX = Math.round((x1 + x2) / 2);
+      const cpY = Math.round((y1 + y2) / 2);
+      const color = nextLesson.completed ? '#22c55e' : nextLesson.locked ? '#dbeafe' : '#2563eb';
+      const dashArray = nextLesson.locked ? '6 4' : 'none';
+      const opacity = nextLesson.locked ? '0.35' : '0.6';
+      return `<path d="M${x1},${y1 + NODE_R} C${cpX},${y1 + NODE_R + 32} ${cpX},${y2 - NODE_R - 32} ${x2},${y2 - NODE_R}" stroke="${color}" stroke-width="3" fill="none" stroke-dasharray="${dashArray}" opacity="${opacity}" stroke-linecap="round"/>`;
+    })
+    .join('');
 
-  const nodesHtml = nodeData.map(({ lesson, cx, cy, isActive }) => {
-    const icon = skillIcons[lesson.skill?.toLowerCase()] || '📚';
-    let stateClass = 'available';
-    if (lesson.locked) stateClass = 'locked';
-    else if (lesson.completed) stateClass = 'completed';
-    else if (isActive) stateClass = 'active';
-    const shortTitle = lesson.title.length > 16 ? lesson.title.slice(0, 14).trimEnd() + '…' : lesson.title;
-    return `<div class="skill-node skill-node--${stateClass}" style="left:${cx}px;top:${cy - NODE_R}px" data-lesson-slug="${escapeHtml(lesson.slug)}">
+  const nodesHtml = nodeData
+    .map(({ lesson, cx, cy, isActive }) => {
+      const icon = skillIcons[lesson.skill?.toLowerCase()] || '📚';
+      let stateClass = 'available';
+      if (lesson.locked) stateClass = 'locked';
+      else if (lesson.completed) stateClass = 'completed';
+      else if (isActive) stateClass = 'active';
+      const shortTitle =
+        lesson.title.length > 16 ? lesson.title.slice(0, 14).trimEnd() + '…' : lesson.title;
+      return `<div class="skill-node skill-node--${stateClass}" style="left:${cx}px;top:${cy - NODE_R}px" data-lesson-slug="${escapeHtml(lesson.slug)}">
       <button class="skill-node-btn" type="button" aria-label="${escapeHtml(lesson.title)} ${escapeHtml(lesson.level)}">
         <span class="skill-node-icon">${lesson.locked ? '🔒' : icon}</span>
         <span class="skill-node-lvl">${escapeHtml(lesson.level)}</span>
@@ -1003,14 +1085,15 @@ function renderSkillGraph() {
       </button>
       <span class="skill-node-label">${escapeHtml(shortTitle)}</span>
     </div>`;
-  }).join('');
+    })
+    .join('');
 
   container.innerHTML = `<div class="skill-graph-inner" style="height:${totalH}px;width:${GRAPH_W}px">
     <svg class="skill-graph-svg" width="${GRAPH_W}" height="${totalH}" aria-hidden="true">${svgPaths}</svg>
     ${nodesHtml}
   </div>`;
 
-  container.querySelectorAll('.skill-node').forEach(nodeEl => {
+  container.querySelectorAll('.skill-node').forEach((nodeEl) => {
     nodeEl.querySelector('.skill-node-btn')?.addEventListener('click', () => {
       openLesson(nodeEl.dataset.lessonSlug);
       nodeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -1022,15 +1105,23 @@ function renderLessonExercise(item, index, lesson) {
   const recorded = learningPathState.exerciseResults[lesson.slug]?.[index];
 
   if (item.type === 'mcq' && Array.isArray(item.options)) {
-    const optionsHtml = item.options.map((option, optionIndex) => {
-      const key = optionKey(option, optionIndex);
-      const isChosen = recorded && String(recorded.selectedOption) === String(key);
-      const cls = isChosen ? (recorded.correct ? 'correct' : 'incorrect') : '';
-      const disabled = recorded ? 'disabled' : '';
-      return `<button type="button" class="mcq-option ${cls}" data-option-key="${escapeHtml(String(key))}" data-option-index="${optionIndex}" ${disabled}>${escapeHtml(optionLabel(option))}</button>`;
-    }).join('');
-    const answeredClass = recorded ? `answered ${recorded.correct ? 'is-correct' : 'is-incorrect'}` : '';
-    const feedbackText = recorded ? (recorded.correct ? '¡Correcto! +5 XP' : 'No es correcto, pero sigue intentando.') : '';
+    const optionsHtml = item.options
+      .map((option, optionIndex) => {
+        const key = optionKey(option, optionIndex);
+        const isChosen = recorded && String(recorded.selectedOption) === String(key);
+        const cls = isChosen ? (recorded.correct ? 'correct' : 'incorrect') : '';
+        const disabled = recorded ? 'disabled' : '';
+        return `<button type="button" class="mcq-option ${cls}" data-option-key="${escapeHtml(String(key))}" data-option-index="${optionIndex}" ${disabled}>${escapeHtml(optionLabel(option))}</button>`;
+      })
+      .join('');
+    const answeredClass = recorded
+      ? `answered ${recorded.correct ? 'is-correct' : 'is-incorrect'}`
+      : '';
+    const feedbackText = recorded
+      ? recorded.correct
+        ? '¡Correcto! +5 XP'
+        : 'No es correcto, pero sigue intentando.'
+      : '';
     return `
       <div class="mcq-question lesson-exercise ${answeredClass}" data-exercise-index="${index}" data-exercise-id="${escapeHtml(item.id || '')}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || '')}" data-language="${escapeHtml(learningPathState.language)}">
         <strong>${index + 1}. ${escapeHtml(item.prompt)}</strong>
@@ -1052,36 +1143,52 @@ function renderLessonWorkspace() {
   const workspace = document.getElementById('lessonWorkspace');
   if (!workspace) return;
 
-  const lesson = learningPathState.lessons.find(item => item.slug === learningPathState.activeSlug) || learningPathState.lessons[0];
+  const lesson =
+    learningPathState.lessons.find((item) => item.slug === learningPathState.activeSlug) ||
+    learningPathState.lessons[0];
   if (!lesson) return;
 
-  const vocabulary = lesson.vocabulary?.map(item => `
+  const vocabulary =
+    lesson.vocabulary
+      ?.map(
+        (item) => `
     <div>
       <strong>${escapeHtml(item.word)}</strong>
       <span>${escapeHtml(resolveVocabTranslation(item))} · ${escapeHtml(item.example)}</span>
     </div>
-  `).join('') || '';
+  `
+      )
+      .join('') || '';
 
-  const dialogue = lesson.dialogue?.map(item => `
+  const dialogue =
+    lesson.dialogue
+      ?.map(
+        (item) => `
     <div>
       <strong>${escapeHtml(item.speaker)}: ${escapeHtml(item.line)}</strong>
       <span>${escapeHtml(resolveVocabTranslation(item))}</span>
     </div>
-  `).join('') || '';
+  `
+      )
+      .join('') || '';
 
-  const audioPlayer = (lesson.skill === 'listening' && lesson.audioUrl)
-    ? `<audio class="lesson-audio-player" controls preload="none" src="${escapeHtml(lesson.audioUrl)}">
+  const audioPlayer =
+    lesson.skill === 'listening' && lesson.audioUrl
+      ? `<audio class="lesson-audio-player" controls preload="none" src="${escapeHtml(lesson.audioUrl)}">
         Tu navegador no soporta audio HTML5.
       </audio>`
-    : '';
+      : '';
 
-  const exercises = lesson.locked ? `
+  const exercises = lesson.locked
+    ? `
     <div class="premium-lock-box">
       <strong>🔒 Lección premium</strong>
       <span>Desbloquea esta lección y la ruta completa con el único plan: USD ${premiumPriceUsd}.</span>
       <button type="button" class="primary-btn upgrade-btn">Desbloquear por USD ${premiumPriceUsd}</button>
     </div>
-  ` : (lesson.exercises?.map((item, index) => renderLessonExercise(item, index, lesson)).join('') || '');
+  `
+    : lesson.exercises?.map((item, index) => renderLessonExercise(item, index, lesson)).join('') ||
+      '';
 
   workspace.querySelector('.lesson-kicker').textContent = `${lesson.level} · ${lesson.skill}`;
   workspace.querySelector('h3').textContent = lesson.title;
@@ -1112,7 +1219,8 @@ function renderLessonWorkspace() {
         completeButton.textContent = 'Completar';
       } else {
         completeButton.dataset.mode = 'practice';
-        completeButton.textContent = attempted > 0 ? `Iniciar práctica (${attempted}/${total})` : 'Iniciar práctica';
+        completeButton.textContent =
+          attempted > 0 ? `Iniciar práctica (${attempted}/${total})` : 'Iniciar práctica';
       }
     }
   }
@@ -1125,22 +1233,34 @@ function renderLearningPath() {
   updateAiTutorContext();
 }
 
-const SKILL_LABELS = { listening: 'Listening', speaking: 'Speaking', reading: 'Reading', writing: 'Writing', grammar: 'Grammar', vocabulary: 'Vocabulary' };
+const SKILL_LABELS = {
+  listening: 'Listening',
+  speaking: 'Speaking',
+  reading: 'Reading',
+  writing: 'Writing',
+  grammar: 'Grammar',
+  vocabulary: 'Vocabulary'
+};
 
 // Populates each of the 6 skill-competency-cards with real status/progress/XP
 // for the current language+level, instead of the bare icon+name they show
 // before the first lesson list loads.
 function renderSkillCards() {
-  document.querySelectorAll('.skill-competency-card').forEach(card => {
+  document.querySelectorAll('.skill-competency-card').forEach((card) => {
     const skill = card.dataset.skill;
     const statusEl = card.querySelector('.skill-card-status');
     const progressBar = card.querySelector('.skill-card-progress div');
     const progressWrap = card.querySelector('.skill-card-progress');
     const xpEl = card.querySelector('.skill-card-xp');
 
-    const lesson = learningPathState.lessons.find(item => item.skill === skill);
+    const lesson = learningPathState.lessons.find((item) => item.skill === skill);
     if (!lesson) {
-      if (statusEl) { statusEl.textContent = learningPathState.lessons.length ? 'No disponible en este nivel' : 'Cargando…'; statusEl.className = 'skill-card-status skill-card-status-loading'; }
+      if (statusEl) {
+        statusEl.textContent = learningPathState.lessons.length
+          ? 'No disponible en este nivel'
+          : 'Cargando…';
+        statusEl.className = 'skill-card-status skill-card-status-loading';
+      }
       if (progressWrap) progressWrap.hidden = true;
       if (xpEl) xpEl.textContent = '';
       return;
@@ -1150,21 +1270,30 @@ function renderSkillCards() {
     // available (GET /api/listening/audio) rather than being permanently
     // "Próximamente" - see spec §12's 3 real states.
     if (skill === 'listening') {
-      if (statusEl) { statusEl.textContent = 'Comprobando disponibilidad…'; statusEl.className = 'skill-card-status skill-card-status-loading'; }
+      if (statusEl) {
+        statusEl.textContent = 'Comprobando disponibilidad…';
+        statusEl.className = 'skill-card-status skill-card-status-loading';
+      }
       if (progressWrap) progressWrap.hidden = true;
       if (xpEl) xpEl.textContent = '';
       card.setAttribute('aria-label', 'Listening: comprobando disponibilidad');
-      fetchListeningAudioStatus(lesson).then(data => {
+      fetchListeningAudioStatus(lesson).then((data) => {
         if (!statusEl) return;
         const { total, attempted } = getExerciseProgress(lesson);
         const pct = total ? Math.round((attempted / total) * 100) : 0;
         if (data.status === 'official') {
           statusEl.textContent = 'Disponible';
           statusEl.className = 'skill-card-status skill-card-status-available';
-          if (progressWrap) { progressWrap.hidden = false; progressWrap.setAttribute('aria-label', `Progreso: ${pct}%`); }
+          if (progressWrap) {
+            progressWrap.hidden = false;
+            progressWrap.setAttribute('aria-label', `Progreso: ${pct}%`);
+          }
           if (progressBar) progressBar.style.width = `${pct}%`;
           if (xpEl) xpEl.textContent = `+${lesson.xpReward || 20} XP`;
-          card.setAttribute('aria-label', `Listening: disponible, ${pct}% completado, ${lesson.xpReward || 20} XP`);
+          card.setAttribute(
+            'aria-label',
+            `Listening: disponible, ${pct}% completado, ${lesson.xpReward || 20} XP`
+          );
         } else if (data.status === 'ai-available') {
           statusEl.textContent = 'Práctica IA disponible';
           statusEl.className = 'skill-card-status skill-card-status-available';
@@ -1180,11 +1309,20 @@ function renderSkillCards() {
 
     const { total, attempted } = getExerciseProgress(lesson);
     const pct = total ? Math.round((attempted / total) * 100) : 0;
-    if (statusEl) { statusEl.textContent = 'Disponible'; statusEl.className = 'skill-card-status skill-card-status-available'; }
-    if (progressWrap) { progressWrap.hidden = false; progressWrap.setAttribute('aria-label', `Progreso: ${pct}%`); }
+    if (statusEl) {
+      statusEl.textContent = 'Disponible';
+      statusEl.className = 'skill-card-status skill-card-status-available';
+    }
+    if (progressWrap) {
+      progressWrap.hidden = false;
+      progressWrap.setAttribute('aria-label', `Progreso: ${pct}%`);
+    }
     if (progressBar) progressBar.style.width = `${pct}%`;
     if (xpEl) xpEl.textContent = `+${lesson.xpReward || 20} XP`;
-    card.setAttribute('aria-label', `${SKILL_LABELS[skill] || skill}: disponible, ${pct}% completado, ${lesson.xpReward || 20} XP`);
+    card.setAttribute(
+      'aria-label',
+      `${SKILL_LABELS[skill] || skill}: disponible, ${pct}% completado, ${lesson.xpReward || 20} XP`
+    );
   });
 }
 
@@ -1203,7 +1341,8 @@ function renderSkillCards() {
 function renderSkillViewHeader(section) {
   if (!section) return;
   const bridgeLabel = languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
-  const targetLabel = languageDisplayNames[learningPathState.language] || learningPathState.language;
+  const targetLabel =
+    languageDisplayNames[learningPathState.language] || learningPathState.language;
   const level = learningPathState.level;
   const bridgeEl = section.querySelector('[data-field="bridge"]');
   const targetEl = section.querySelector('[data-field="target"]');
@@ -1258,15 +1397,19 @@ function renderSkillView(skill) {
 
   const content = section.querySelector('.skill-view-content');
   if (!learningPathState.lessons.length) {
-    if (content) content.innerHTML = `<p class="skill-graph-empty">Preparando ${SKILL_LABELS[skill] || skill}…</p>`;
-    loadLearningPath({ language: learningPathState.language, level: learningPathState.level }).then(() => renderSkillView(skill));
+    if (content)
+      content.innerHTML = `<p class="skill-graph-empty">Preparando ${SKILL_LABELS[skill] || skill}…</p>`;
+    loadLearningPath({ language: learningPathState.language, level: learningPathState.level }).then(
+      () => renderSkillView(skill)
+    );
     return;
   }
 
-  const lesson = learningPathState.lessons.find(item => item.skill === skill);
+  const lesson = learningPathState.lessons.find((item) => item.skill === skill);
   section.dataset.activeLessonSlug = lesson?.slug || '';
   if (!lesson) {
-    if (content) content.innerHTML = `<p class="skill-graph-empty">No hay lección de ${SKILL_LABELS[skill] || skill} disponible en este nivel todavía.</p>`;
+    if (content)
+      content.innerHTML = `<p class="skill-graph-empty">No hay lección de ${SKILL_LABELS[skill] || skill} disponible en este nivel todavía.</p>`;
     return;
   }
 
@@ -1286,19 +1429,29 @@ function renderReadingView(section, lesson) {
   if (!content) return;
   const { total, attempted } = getExerciseProgress(lesson);
   const pct = total ? Math.round((attempted / total) * 100) : 0;
-  const paragraphs = (lesson.reading?.text || lesson.description || '').split(/\n+/).filter(Boolean);
-  const vocabHtml = (lesson.vocabulary || []).map(item => `
+  const paragraphs = (lesson.reading?.text || lesson.description || '')
+    .split(/\n+/)
+    .filter(Boolean);
+  const vocabHtml = (lesson.vocabulary || [])
+    .map(
+      (item) => `
     <div class="reading-vocab-item">
       <strong>${escapeHtml(item.word)}</strong>
       <span class="reading-vocab-support" hidden>${escapeHtml(resolveVocabTranslation(item))}</span>
     </div>
-  `).join('');
-  const reflectHtml = (lesson.reading?.questions || []).map(q => `<li>${escapeHtml(q)}</li>`).join('');
+  `
+    )
+    .join('');
+  const reflectHtml = (lesson.reading?.questions || [])
+    .map((q) => `<li>${escapeHtml(q)}</li>`)
+    .join('');
   const exercisesHtml = (lesson.exercises || [])
-    .filter(item => item.type === 'mcq')
-    .map((item, index) => renderLessonExercise(item, index, lesson)).join('');
+    .filter((item) => item.type === 'mcq')
+    .map((item, index) => renderLessonExercise(item, index, lesson))
+    .join('');
   const bridgeLabel = languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
-  const targetLabel = languageDisplayNames[learningPathState.language] || learningPathState.language;
+  const targetLabel =
+    languageDisplayNames[learningPathState.language] || learningPathState.language;
 
   content.innerHTML = `
     <div class="reading-print-area" id="readingPrintArea">
@@ -1310,7 +1463,7 @@ function renderReadingView(section, lesson) {
       <h3>${escapeHtml(lesson.title)}</h3>
       <p class="reading-level-tag">${escapeHtml(lesson.level)} · Reading</p>
       <div class="reading-progress-bar no-print" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
-      <div class="reading-paragraphs">${paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>
+      <div class="reading-paragraphs">${paragraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join('')}</div>
       <div class="reading-vocab-section no-print">
         <button type="button" class="secondary-btn reading-toggle-vocab">Ver vocabulario</button>
         <div class="reading-vocab-list" hidden>${vocabHtml}</div>
@@ -1342,7 +1495,7 @@ function renderReadingView(section, lesson) {
 function renderWritingView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
-  const writingExercise = (lesson.exercises || []).find(item => item.type === 'writing');
+  const writingExercise = (lesson.exercises || []).find((item) => item.type === 'writing');
   const draftKey = `andergoWritingDraft:${lesson.slug}`;
   const savedDraft = localStorage.getItem(draftKey) || '';
   const wordLimit = 80;
@@ -1356,7 +1509,7 @@ function renderWritingView(section, lesson) {
     </div>
     <div class="writing-connectors">
       <strong>Vocabulario y conectores</strong>
-      <div class="writing-connectors-list">${(lesson.phrases || []).map(p => `<span>${escapeHtml(p)}</span>`).join('')}</div>
+      <div class="writing-connectors-list">${(lesson.phrases || []).map((p) => `<span>${escapeHtml(p)}</span>`).join('')}</div>
     </div>
     <label class="writing-editor-label" for="writingEditor">Tu texto <span class="writing-word-limit">(límite sugerido: ${wordLimit} palabras)</span></label>
     <textarea id="writingEditor" class="writing-editor" rows="10">${escapeHtml(savedDraft)}</textarea>
@@ -1425,8 +1578,9 @@ function renderGrammarView(section, lesson) {
   if (!content) return;
   const example = lesson.dialogue?.[0] || lesson.vocabulary?.[0] || null;
   const exercisesHtml = (lesson.exercises || [])
-    .filter(item => item.type === 'mcq')
-    .map((item, index) => renderLessonExercise(item, index, lesson)).join('');
+    .filter((item) => item.type === 'mcq')
+    .map((item, index) => renderLessonExercise(item, index, lesson))
+    .join('');
 
   content.innerHTML = `
     <h3>${escapeHtml(lesson.title)}</h3>
@@ -1434,12 +1588,16 @@ function renderGrammarView(section, lesson) {
       <strong>Estructura</strong>
       <p>${escapeHtml(lesson.grammar || lesson.description || '')}</p>
     </div>
-    ${example ? `
+    ${
+      example
+        ? `
       <div class="grammar-example">
         <div class="grammar-example-target"><span>Target</span><strong>${escapeHtml(example.line || example.word || '')}</strong></div>
         <div class="grammar-example-bridge"><span>Bridge</span><strong>${escapeHtml(resolveVocabTranslation(example))}</strong></div>
       </div>
-    ` : ''}
+    `
+        : ''
+    }
     <div class="grammar-exercise">
       <h4>Mini ejercicio</h4>
       ${exercisesHtml || '<p class="skill-graph-empty">No hay ejercicios de gramática para esta lección.</p>'}
@@ -1458,7 +1616,9 @@ function renderVocabularyView(section, lesson) {
   content.innerHTML = `
     <h3>${escapeHtml(lesson.title)}</h3>
     <div class="vocab-card-deck">
-      ${cards.map((item, index) => `
+      ${cards
+        .map(
+          (item, index) => `
         <div class="vocab-flip-card" data-index="${index}">
           <div class="vocab-flip-card-inner">
             <div class="vocab-flip-front">
@@ -1476,10 +1636,12 @@ function renderVocabularyView(section, lesson) {
             <button type="button" class="vocab-example-btn open-tutor-btn" data-tutor-prompt="Dame otro ejemplo de una frase con la palabra '${escapeHtml(item.word)}'." data-support-mode="example">Pedir ejemplo</button>
           </div>
         </div>
-      `).join('')}
+      `
+        )
+        .join('')}
     </div>
     <div class="skill-view-tutor-cta">
-      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Ayúdame a practicar este vocabulario: ${escapeHtml(cards.map(c => c.word).join(', '))}" data-support-mode="practice">Practicar estas palabras</button>
+      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Ayúdame a practicar este vocabulario: ${escapeHtml(cards.map((c) => c.word).join(', '))}" data-support-mode="practice">Practicar estas palabras</button>
     </div>
   `;
 }
@@ -1510,7 +1672,14 @@ function listeningStatusCacheKey(lesson) {
 function getListeningRuntime(lesson) {
   let runtime = listeningViewRuntime.get(lesson.slug);
   if (!runtime) {
-    runtime = { transcriptRevealed: false, hasPlayedOnce: false, transcriptSoftGateOverride: false, aiPractice: null, aiAnswers: {}, usingSlow: false };
+    runtime = {
+      transcriptRevealed: false,
+      hasPlayedOnce: false,
+      transcriptSoftGateOverride: false,
+      aiPractice: null,
+      aiAnswers: {},
+      usingSlow: false
+    };
     listeningViewRuntime.set(lesson.slug, runtime);
   }
   return runtime;
@@ -1521,13 +1690,23 @@ async function fetchListeningAudioStatus(lesson) {
   if (listeningAudioStatusCache.has(key)) return listeningAudioStatusCache.get(key);
   const promise = (async () => {
     try {
-      const params = new URLSearchParams({ language: learningPathState.language, level: learningPathState.level, lessonSlug: lesson.slug });
-      const response = await fetch(`${backendBaseUrl}/api/listening/audio?${params.toString()}`, { headers: authHeaders() });
+      const params = new URLSearchParams({
+        language: learningPathState.language,
+        level: learningPathState.level,
+        lessonSlug: lesson.slug
+      });
+      const response = await fetch(`${backendBaseUrl}/api/listening/audio?${params.toString()}`, {
+        headers: authHeaders()
+      });
       const data = await response.json().catch(() => ({}));
-      if (!response.ok) throw new Error(data.error || 'No se pudo consultar el audio de Listening.');
+      if (!response.ok)
+        throw new Error(data.error || 'No se pudo consultar el audio de Listening.');
       return data;
     } catch (error) {
-      return { status: 'error', error: error.message || 'No se pudo consultar el audio de Listening.' };
+      return {
+        status: 'error',
+        error: error.message || 'No se pudo consultar el audio de Listening.'
+      };
     }
   })();
   listeningAudioStatusCache.set(key, promise);
@@ -1555,7 +1734,8 @@ function getListeningAllAttempted(lesson, runtime) {
 // after every question has been attempted.
 function getTranscriptGateState(level, runtime, allAttempted) {
   if (level === 'C1' || level === 'C2') return allAttempted ? 'open' : 'locked-until-review';
-  if (level === 'A1' || level === 'A2') return (runtime.hasPlayedOnce || runtime.transcriptSoftGateOverride) ? 'open' : 'soft-gate';
+  if (level === 'A1' || level === 'A2')
+    return runtime.hasPlayedOnce || runtime.transcriptSoftGateOverride ? 'open' : 'soft-gate';
   return 'open';
 }
 
@@ -1572,31 +1752,43 @@ async function generateAiListeningPractice(lesson, topic) {
     })
   });
   const data = await response.json().catch(() => ({}));
-  if (!response.ok || !data.success) throw new Error(data.error || 'No se pudo generar la práctica de Listening.');
+  if (!response.ok || !data.success)
+    throw new Error(data.error || 'No se pudo generar la práctica de Listening.');
   return data;
 }
 
 function renderAiListeningQuestions(lesson, runtime) {
   const questions = runtime.aiPractice?.questions || [];
-  if (!questions.length) return '<p class="skill-graph-empty">Esta práctica no incluyó preguntas de comprensión.</p>';
-  return questions.map((q, index) => {
-    const recorded = runtime.aiAnswers[index];
-    const optionsHtml = (q.options || []).map((opt, optIndex) => {
-      const isChosen = recorded && recorded.selectedIndex === optIndex;
-      const cls = isChosen ? (recorded.correct ? 'correct' : 'incorrect') : '';
-      const disabled = recorded ? 'disabled' : '';
-      return `<button type="button" class="mcq-option ai-listening-option ${cls}" data-question-index="${index}" data-option-index="${optIndex}" ${disabled}>${escapeHtml(opt)}</button>`;
-    }).join('');
-    const answeredClass = recorded ? `answered ${recorded.correct ? 'is-correct' : 'is-incorrect'}` : '';
-    const feedbackText = recorded ? (recorded.correct ? '¡Correcto!' : 'No es correcto. Puedes pedirle al Tutor IA que te explique por qué.') : '';
-    return `
+  if (!questions.length)
+    return '<p class="skill-graph-empty">Esta práctica no incluyó preguntas de comprensión.</p>';
+  return questions
+    .map((q, index) => {
+      const recorded = runtime.aiAnswers[index];
+      const optionsHtml = (q.options || [])
+        .map((opt, optIndex) => {
+          const isChosen = recorded && recorded.selectedIndex === optIndex;
+          const cls = isChosen ? (recorded.correct ? 'correct' : 'incorrect') : '';
+          const disabled = recorded ? 'disabled' : '';
+          return `<button type="button" class="mcq-option ai-listening-option ${cls}" data-question-index="${index}" data-option-index="${optIndex}" ${disabled}>${escapeHtml(opt)}</button>`;
+        })
+        .join('');
+      const answeredClass = recorded
+        ? `answered ${recorded.correct ? 'is-correct' : 'is-incorrect'}`
+        : '';
+      const feedbackText = recorded
+        ? recorded.correct
+          ? '¡Correcto!'
+          : 'No es correcto. Puedes pedirle al Tutor IA que te explique por qué.'
+        : '';
+      return `
       <div class="mcq-question lesson-exercise ${answeredClass}" data-question-index="${index}">
         <strong>${index + 1}. ${escapeHtml(q.prompt)}</strong>
         <div class="mcq-options">${optionsHtml}</div>
         <span class="mcq-feedback" aria-live="polite">${feedbackText}</span>
       </div>
     `;
-  }).join('');
+    })
+    .join('');
 }
 
 function renderListeningTranscriptControls(content, lesson, runtime) {
@@ -1623,12 +1815,14 @@ function renderListeningTranscriptControls(content, lesson, runtime) {
       </p>
     `;
     textEl.hidden = true;
-    controlsEl.querySelector('.listening-transcript-override-btn')?.addEventListener('click', () => {
-      runtime.transcriptSoftGateOverride = true;
-      runtime.transcriptRevealed = true;
-      textEl.hidden = false;
-      renderListeningTranscriptControls(content, lesson, runtime);
-    });
+    controlsEl
+      .querySelector('.listening-transcript-override-btn')
+      ?.addEventListener('click', () => {
+        runtime.transcriptSoftGateOverride = true;
+        runtime.transcriptRevealed = true;
+        textEl.hidden = false;
+        renderListeningTranscriptControls(content, lesson, runtime);
+      });
     return;
   }
 
@@ -1698,14 +1892,20 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
   };
 
   const enableControls = () => {
-    [playBtn, restartBtn, repeatBtn, speedBtn, rangeEl].forEach(el => { if (el) el.disabled = false; });
-    if (speedBtn && !meta.slowUrl) speedBtn.title = 'No hay versión lenta grabada: se reduce la velocidad de reproducción del mismo audio.';
+    [playBtn, restartBtn, repeatBtn, speedBtn, rangeEl].forEach((el) => {
+      if (el) el.disabled = false;
+    });
+    if (speedBtn && !meta.slowUrl)
+      speedBtn.title =
+        'No hay versión lenta grabada: se reduce la velocidad de reproducción del mismo audio.';
   };
 
   audioEl.addEventListener('loadstart', () => setState('loading', 'Cargando audio…'));
   audioEl.addEventListener('loadedmetadata', () => {
-    if (Number.isFinite(audioEl.duration) && durationEl) durationEl.textContent = formatListeningTime(audioEl.duration);
-    if (playerEl.dataset.state === 'preparing' || playerEl.dataset.state === 'loading') setState('ready', 'Listo para reproducir.');
+    if (Number.isFinite(audioEl.duration) && durationEl)
+      durationEl.textContent = formatListeningTime(audioEl.duration);
+    if (playerEl.dataset.state === 'preparing' || playerEl.dataset.state === 'loading')
+      setState('ready', 'Listo para reproducir.');
     enableControls();
   });
   audioEl.addEventListener('timeupdate', () => {
@@ -1716,7 +1916,10 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
   });
   audioEl.addEventListener('play', () => {
     setState('playing', 'Reproduciendo…');
-    if (playBtn) { playBtn.textContent = '⏸ Pausa'; playBtn.setAttribute('aria-label', 'Pausar'); }
+    if (playBtn) {
+      playBtn.textContent = '⏸ Pausa';
+      playBtn.setAttribute('aria-label', 'Pausar');
+    }
     if (!runtime.hasPlayedOnce) {
       runtime.hasPlayedOnce = true;
       renderListeningTranscriptControls(content, lesson, runtime);
@@ -1724,19 +1927,30 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
   });
   audioEl.addEventListener('pause', () => {
     if (playerEl.dataset.state !== 'completed') setState('paused', 'En pausa.');
-    if (playBtn) { playBtn.textContent = '▶ Reproducir'; playBtn.setAttribute('aria-label', 'Reproducir'); }
+    if (playBtn) {
+      playBtn.textContent = '▶ Reproducir';
+      playBtn.setAttribute('aria-label', 'Reproducir');
+    }
   });
   audioEl.addEventListener('ended', () => {
     setState('completed', 'Audio completado.');
-    if (playBtn) { playBtn.textContent = '▶ Reproducir'; playBtn.setAttribute('aria-label', 'Reproducir de nuevo'); }
+    if (playBtn) {
+      playBtn.textContent = '▶ Reproducir';
+      playBtn.setAttribute('aria-label', 'Reproducir de nuevo');
+    }
   });
   audioEl.addEventListener('error', () => {
     setState('error', 'No pudimos cargar este audio. Reintentar.');
-    [playBtn, restartBtn, repeatBtn, speedBtn, rangeEl].forEach(el => { if (el) el.disabled = true; });
+    [playBtn, restartBtn, repeatBtn, speedBtn, rangeEl].forEach((el) => {
+      if (el) el.disabled = true;
+    });
   });
 
   playBtn?.addEventListener('click', () => {
-    if (audioEl.paused || audioEl.ended) audioEl.play().catch(() => setState('error', 'No pudimos reproducir este audio. Reintentar.'));
+    if (audioEl.paused || audioEl.ended)
+      audioEl
+        .play()
+        .catch(() => setState('error', 'No pudimos reproducir este audio. Reintentar.'));
     else audioEl.pause();
   });
   restartBtn?.addEventListener('click', () => {
@@ -1757,27 +1971,41 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
       audioEl.playbackRate = 1;
       setState('loading', 'Cargando audio…');
       audioEl.load();
-      if (wasPlaying) audioEl.addEventListener('loadedmetadata', () => audioEl.play().catch(() => {}), { once: true });
+      if (wasPlaying)
+        audioEl.addEventListener('loadedmetadata', () => audioEl.play().catch(() => {}), {
+          once: true
+        });
     } else {
       audioEl.playbackRate = runtime.usingSlow ? 0.75 : 1;
     }
     speedBtn.textContent = runtime.usingSlow ? '🐇 Velocidad normal' : '🐢 Velocidad lenta';
-    speedBtn.setAttribute('aria-label', runtime.usingSlow ? 'Cambiar a velocidad normal' : 'Cambiar a velocidad lenta');
+    speedBtn.setAttribute(
+      'aria-label',
+      runtime.usingSlow ? 'Cambiar a velocidad normal' : 'Cambiar a velocidad lenta'
+    );
   });
   rangeEl?.addEventListener('input', () => {
     if (Number.isFinite(audioEl.duration) && audioEl.duration > 0) {
       audioEl.currentTime = (Number(rangeEl.value) / 100) * audioEl.duration;
     }
   });
-  volumeEl?.addEventListener('input', () => { audioEl.volume = Number(volumeEl.value); });
+  volumeEl?.addEventListener('input', () => {
+    audioEl.volume = Number(volumeEl.value);
+  });
 
   audioEl.src = meta.mainUrl;
   audioEl.load();
 }
 
 function listeningTutorButtonsHtml(lesson, ctx) {
-  const { transcript = '', vocabulary = '', currentQuestion = '', selectedAnswer = '', canRegenerate = false } = ctx;
-  const esc = value => escapeHtml(value || '');
+  const {
+    transcript = '',
+    vocabulary = '',
+    currentQuestion = '',
+    selectedAnswer = '',
+    canRegenerate = false
+  } = ctx;
+  const esc = (value) => escapeHtml(value || '');
   const firstWord = (lesson.vocabulary || [])[0]?.word || '';
   return `
     <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="hint" data-tutor-prompt="Dame una pista para responder la pregunta actual, sin darme la respuesta." data-tutor-transcript="${esc(transcript)}" data-tutor-current-question="${esc(currentQuestion)}">Dame una pista</button>
@@ -1791,11 +2019,16 @@ function listeningTutorButtonsHtml(lesson, ctx) {
 }
 
 async function completeListeningLesson(lesson, content) {
-  if (lesson.locked) { handleHomeAction('upgrade'); return; }
+  if (lesson.locked) {
+    handleHomeAction('upgrade');
+    return;
+  }
   const btn = content.querySelector('.listening-complete-btn');
   const { allAttempted } = getExerciseProgress(lesson);
   if (!allAttempted) {
-    content.querySelector('.listening-questions')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    content
+      .querySelector('.listening-questions')
+      ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     showHomeToast('Responde las preguntas de comprensión para poder completar esta actividad.');
     return;
   }
@@ -1804,14 +2037,21 @@ async function completeListeningLesson(lesson, content) {
     openModal('signup');
     return;
   }
-  if (btn) { btn.disabled = true; btn.textContent = 'Guardando...'; }
+  if (btn) {
+    btn.disabled = true;
+    btn.textContent = 'Guardando...';
+  }
 
   const recordedResults = learningPathState.exerciseResults[lesson.slug] || {};
   const answers = Object.entries(recordedResults).map(([index, result]) => {
     const exerciseId = lesson.exercises?.[Number(index)]?.id;
     return exerciseId
       ? { exerciseId, selectedOptionId: result.selectedOption, practiced: result.practiced }
-      : { index: Number(index), selectedOption: result.selectedOption, practiced: result.practiced };
+      : {
+          index: Number(index),
+          selectedOption: result.selectedOption,
+          practiced: result.practiced
+        };
   });
 
   try {
@@ -1821,34 +2061,54 @@ async function completeListeningLesson(lesson, content) {
       body: JSON.stringify({ answers })
     });
     const data = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(data.error || 'No se pudo completar la actividad de Listening.');
+    if (!response.ok)
+      throw new Error(data.error || 'No se pudo completar la actividad de Listening.');
 
     lesson.completed = true;
     updateProgressDisplay(data, true);
     renderSkillCards();
 
     const gamResult = window.AndergoGamification?.recordLessonCompletion({
-      slug: lesson.slug, language: learningPathState.language, score: data.score ?? 100, xpReward: lesson.xpReward || 20
+      slug: lesson.slug,
+      language: learningPathState.language,
+      score: data.score ?? 100,
+      xpReward: lesson.xpReward || 20
     });
     window.AndergoGamification?.syncFromServer(data);
-    if (data.newBadges?.length) data.newBadges.forEach(badge => showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`));
-    else if (gamResult?.newBadges?.length) gamResult.newBadges.forEach(badge => showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`));
+    if (data.newBadges?.length)
+      data.newBadges.forEach((badge) =>
+        showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`)
+      );
+    else if (gamResult?.newBadges?.length)
+      gamResult.newBadges.forEach((badge) =>
+        showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`)
+      );
     if (data.leveledUp) showCelebration(`🎉 ¡Subiste a nivel ${data.level}!`);
 
-    showHomeToast(`Actividad de Listening completada. +${data.earnedXp || lesson.xpReward || 20} XP`);
-    if (btn) { btn.disabled = true; btn.textContent = 'Completada'; }
+    showHomeToast(
+      `Actividad de Listening completada. +${data.earnedXp || lesson.xpReward || 20} XP`
+    );
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = 'Completada';
+    }
   } catch (error) {
     console.error('Could not complete listening lesson', error);
     showHomeToast(error.message || 'No se pudo completar la actividad de Listening.');
-    if (btn) { btn.disabled = false; btn.textContent = 'Completar'; }
+    if (btn) {
+      btn.disabled = false;
+      btn.textContent = 'Completar';
+    }
   }
 }
 
 function computeListeningTutorQuestionContext(lesson) {
   const results = learningPathState.exerciseResults[lesson.slug] || {};
-  const exercises = (lesson.exercises || []).filter(item => item.type === 'mcq');
+  const exercises = (lesson.exercises || []).filter((item) => item.type === 'mcq');
   const nextUnanswered = exercises.find((_, idx) => !results[idx]);
-  const answeredIndexes = Object.keys(results).map(Number).sort((a, b) => b - a);
+  const answeredIndexes = Object.keys(results)
+    .map(Number)
+    .sort((a, b) => b - a);
   const lastIndex = answeredIndexes[0];
   const lastAnswered = lastIndex !== undefined ? exercises[lastIndex] : null;
   const lastResult = lastIndex !== undefined ? results[lastIndex] : null;
@@ -1861,8 +2121,10 @@ function computeListeningTutorQuestionContext(lesson) {
 function renderListeningOfficial(content, lesson, runtime, audio) {
   const { total, attempted, allAttempted } = getExerciseProgress(lesson);
   const pct = total ? Math.round((attempted / total) * 100) : 0;
-  const exercisesHtml = (lesson.exercises || []).filter(item => item.type === 'mcq')
-    .map((item, index) => renderLessonExercise(item, index, lesson)).join('');
+  const exercisesHtml = (lesson.exercises || [])
+    .filter((item) => item.type === 'mcq')
+    .map((item, index) => renderLessonExercise(item, index, lesson))
+    .join('');
   const objective = lesson.mission || lesson.intro || lesson.description || '';
   const durationLabel = audio.duration ? `${Math.round(audio.duration)}s` : 'No especificada';
   const tutorCtx = computeListeningTutorQuestionContext(lesson);
@@ -1875,7 +2137,7 @@ function renderListeningOfficial(content, lesson, runtime, audio) {
     ${buildListeningPlayerMarkup({ sourceLabel: 'Audio oficial', sourceIsAi: false, title: lesson.title })}
     <div class="listening-vocab">
       <strong>Vocabulario</strong>
-      <div class="listening-vocab-list">${(lesson.vocabulary || []).map(item => `<span class="listening-vocab-item">${escapeHtml(item.word)}<small>${escapeHtml(resolveVocabTranslation(item))}</small></span>`).join('')}</div>
+      <div class="listening-vocab-list">${(lesson.vocabulary || []).map((item) => `<span class="listening-vocab-item">${escapeHtml(item.word)}<small>${escapeHtml(resolveVocabTranslation(item))}</small></span>`).join('')}</div>
     </div>
     <div class="listening-questions-section">
       <h4>Preguntas de comprensión</h4>
@@ -1883,15 +2145,22 @@ function renderListeningOfficial(content, lesson, runtime, audio) {
       <div class="listening-questions">${exercisesHtml || '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>'}</div>
     </div>
     <div class="skill-view-tutor-cta">
-      ${listeningTutorButtonsHtml(lesson, { transcript: audio.transcript, vocabulary: (lesson.vocabulary || []).map(v => v.word).join(', '), ...tutorCtx })}
+      ${listeningTutorButtonsHtml(lesson, { transcript: audio.transcript, vocabulary: (lesson.vocabulary || []).map((v) => v.word).join(', '), ...tutorCtx })}
     </div>
     <div class="listening-nav-row">
-      <button type="button" class="primary-btn listening-complete-btn" ${(!allAttempted || lesson.completed) ? 'disabled' : ''}>${lesson.completed ? 'Completada' : 'Completar'}</button>
+      <button type="button" class="primary-btn listening-complete-btn" ${!allAttempted || lesson.completed ? 'disabled' : ''}>${lesson.completed ? 'Completada' : 'Completar'}</button>
     </div>
   `;
 
-  wireListeningPlayerControls(content, lesson, runtime, { mainUrl: audio.audioUrl, slowUrl: audio.slowAudioUrl, transcript: audio.transcript, sourceIsAi: false });
-  content.querySelector('.listening-complete-btn')?.addEventListener('click', () => completeListeningLesson(lesson, content));
+  wireListeningPlayerControls(content, lesson, runtime, {
+    mainUrl: audio.audioUrl,
+    slowUrl: audio.slowAudioUrl,
+    transcript: audio.transcript,
+    sourceIsAi: false
+  });
+  content
+    .querySelector('.listening-complete-btn')
+    ?.addEventListener('click', () => completeListeningLesson(lesson, content));
 }
 
 function updateListeningOfficialQuestions(content, lesson, runtime) {
@@ -1900,8 +2169,10 @@ function updateListeningOfficialQuestions(content, lesson, runtime) {
   const progressWrap = content.querySelector('.listening-progress-bar');
   if (!questionsWrap) return;
   const { total, attempted, allAttempted } = getExerciseProgress(lesson);
-  const exercises = (lesson.exercises || []).filter(item => item.type === 'mcq');
-  questionsWrap.innerHTML = exercises.map((item, index) => renderLessonExercise(item, index, lesson)).join('') || '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>';
+  const exercises = (lesson.exercises || []).filter((item) => item.type === 'mcq');
+  questionsWrap.innerHTML =
+    exercises.map((item, index) => renderLessonExercise(item, index, lesson)).join('') ||
+    '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>';
   const pct = total ? Math.round((attempted / total) * 100) : 0;
   if (progressBar) progressBar.style.width = `${pct}%`;
   if (progressWrap) progressWrap.setAttribute('aria-valuenow', String(pct));
@@ -1927,7 +2198,9 @@ function renderListeningAiQuestionsInPlace(content, lesson, runtime) {
 
 function renderListeningAiPlayer(content, lesson, runtime, practice) {
   const objective = lesson.mission || lesson.intro || lesson.description || '';
-  const durationLabel = practice.durationSeconds ? `${practice.durationSeconds}s (aprox.)` : 'No especificada';
+  const durationLabel = practice.durationSeconds
+    ? `${practice.durationSeconds}s (aprox.)`
+    : 'No especificada';
 
   content.innerHTML = `
     <div class="listening-meta-row">
@@ -1937,7 +2210,7 @@ function renderListeningAiPlayer(content, lesson, runtime, practice) {
     ${buildListeningPlayerMarkup({ sourceLabel: 'Práctica de Listening generada por IA', sourceIsAi: true, title: practice.title || lesson.title })}
     <div class="listening-vocab">
       <strong>Vocabulario</strong>
-      <div class="listening-vocab-list">${(practice.vocabulary || []).map(item => `<span class="listening-vocab-item">${escapeHtml(item.word)}<small>${escapeHtml(item.translation || '')}</small></span>`).join('')}</div>
+      <div class="listening-vocab-list">${(practice.vocabulary || []).map((item) => `<span class="listening-vocab-item">${escapeHtml(item.word)}<small>${escapeHtml(item.translation || '')}</small></span>`).join('')}</div>
     </div>
     <div class="listening-questions-section">
       <h4>Preguntas de comprensión</h4>
@@ -1945,10 +2218,15 @@ function renderListeningAiPlayer(content, lesson, runtime, practice) {
       <p class="listening-ai-complete-note" hidden>Práctica completada. Esta actividad generada por IA no otorga XP - genera otra práctica o continúa con una lección oficial para ganar XP.</p>
     </div>
     <div class="skill-view-tutor-cta">
-      ${listeningTutorButtonsHtml(lesson, { transcript: practice.transcript, vocabulary: (practice.vocabulary || []).map(v => v.word).join(', '), canRegenerate: true })}
+      ${listeningTutorButtonsHtml(lesson, { transcript: practice.transcript, vocabulary: (practice.vocabulary || []).map((v) => v.word).join(', '), canRegenerate: true })}
     </div>
   `;
-  wireListeningPlayerControls(content, lesson, runtime, { mainUrl: practice.audioUrl, slowUrl: practice.slowAudioUrl, transcript: practice.transcript, sourceIsAi: true });
+  wireListeningPlayerControls(content, lesson, runtime, {
+    mainUrl: practice.audioUrl,
+    slowUrl: practice.slowAudioUrl,
+    transcript: practice.transcript,
+    sourceIsAi: true
+  });
   updateAiCompleteNote(content, lesson, runtime);
 }
 
@@ -1959,13 +2237,15 @@ function renderListeningAiOffer(content, lesson, runtime) {
       <div class="listening-status-icon" aria-hidden="true">🤖🎧</div>
       <p class="listening-status-title">Todavía no hay un audio oficial para esta lección.</p>
       <p class="listening-status-detail">Tutor IA puede preparar una práctica de Listening generada por IA: un guion adaptado a tu nivel, con vocabulario y preguntas de comprensión. Nunca se presenta como una grabación humana.</p>
-      ${loggedIn
-        ? '<button type="button" class="primary-btn listening-generate-btn">Generar práctica de Listening con IA</button>'
-        : '<p class="listening-status-detail">Inicia sesión para generar esta práctica.</p>'}
+      ${
+        loggedIn
+          ? '<button type="button" class="primary-btn listening-generate-btn">Generar práctica de Listening con IA</button>'
+          : '<p class="listening-status-detail">Inicia sesión para generar esta práctica.</p>'
+      }
       <p class="listening-status-error" hidden></p>
     </div>
   `;
-  content.querySelector('.listening-generate-btn')?.addEventListener('click', async event => {
+  content.querySelector('.listening-generate-btn')?.addEventListener('click', async (event) => {
     const btn = event.currentTarget;
     const errorEl = content.querySelector('.listening-status-error');
     btn.disabled = true;
@@ -1978,7 +2258,10 @@ function renderListeningAiOffer(content, lesson, runtime) {
       runtime.hasPlayedOnce = false;
       renderListeningAiPlayer(content, lesson, runtime, practice);
     } catch (error) {
-      if (errorEl) { errorEl.hidden = false; errorEl.textContent = error.message || 'No se pudo generar la práctica.'; }
+      if (errorEl) {
+        errorEl.hidden = false;
+        errorEl.textContent = error.message || 'No se pudo generar la práctica.';
+      }
       btn.disabled = false;
       btn.textContent = 'Generar práctica de Listening con IA';
     }
@@ -2053,7 +2336,7 @@ function renderListeningView(section, lesson) {
   content.dataset.listeningReady = 'false';
   content.innerHTML = '<p class="skill-graph-empty">Buscando audio de Listening…</p>';
 
-  fetchListeningAudioStatus(lesson).then(statusData => {
+  fetchListeningAudioStatus(lesson).then((statusData) => {
     if (content.dataset.listeningKey !== key) return; // navigated away meanwhile
     content.dataset.listeningReady = 'true';
     renderListeningResolved(content, lesson, runtime, statusData, section);
@@ -2069,8 +2352,16 @@ function renderListeningView(section, lesson) {
 
 let tutorDrawerReturnFocus = null;
 let tutorDrawerContext = {
-  skill: 'speaking', lessonTitle: '', lessonIntro: '', lessonSlug: '', supportMode: 'practice', currentActivity: '',
-  transcript: '', vocabulary: '', currentQuestion: '', selectedAnswer: ''
+  skill: 'speaking',
+  lessonTitle: '',
+  lessonIntro: '',
+  lessonSlug: '',
+  supportMode: 'practice',
+  currentActivity: '',
+  transcript: '',
+  vocabulary: '',
+  currentQuestion: '',
+  selectedAnswer: ''
 };
 
 function openTutorDrawer(overrides = {}) {
@@ -2086,7 +2377,8 @@ function openTutorDrawer(overrides = {}) {
 
   const skillEl = drawer.querySelector('[data-drawer-context="skill"]');
   const levelEl = drawer.querySelector('[data-drawer-context="level"]');
-  if (skillEl) skillEl.textContent = SKILL_LABELS[tutorDrawerContext.skill] || tutorDrawerContext.skill;
+  if (skillEl)
+    skillEl.textContent = SKILL_LABELS[tutorDrawerContext.skill] || tutorDrawerContext.skill;
   if (levelEl) levelEl.textContent = learningPathState.level;
 
   const prompt = document.getElementById('tutorDrawerPrompt');
@@ -2114,13 +2406,30 @@ function closeTutorDrawer() {
 // and friends are already null-safe) for inline callers that don't have a
 // chat log of their own (e.g. the Writing view's review buttons).
 async function sendTutorMessage({
-  conversationEl, thinkingEl, connectionStatusEl, promptEl, sendBtn,
-  skill, level, language, bridgeLanguage, lessonTitle, lessonIntro, lessonSlug,
-  currentActivity, supportMode, selectedSuggestion, fallbackPrompt,
-  transcript, vocabulary, currentQuestion, selectedAnswer
+  conversationEl,
+  thinkingEl,
+  connectionStatusEl,
+  promptEl,
+  sendBtn,
+  skill,
+  level,
+  language,
+  bridgeLanguage,
+  lessonTitle,
+  lessonIntro,
+  lessonSlug,
+  currentActivity,
+  supportMode,
+  selectedSuggestion,
+  fallbackPrompt,
+  transcript,
+  vocabulary,
+  currentQuestion,
+  selectedAnswer
 }) {
   const customPrompt = promptEl?.value.trim() || '';
-  const finalPrompt = customPrompt || selectedSuggestion || fallbackPrompt || 'Quiero practicar esta habilidad.';
+  const finalPrompt =
+    customPrompt || selectedSuggestion || fallbackPrompt || 'Quiero practicar esta habilidad.';
   if (!finalPrompt) return null;
 
   if (conversationEl) appendTutorMessage(conversationEl, 'user', finalPrompt);
@@ -2134,15 +2443,24 @@ async function sendTutorMessage({
       method: 'POST',
       headers: { 'Content-Type': 'application/json', ...authHeaders() },
       body: JSON.stringify({
-        language, targetLanguage: language,
-        skill, level,
-        nativeLanguage: bridgeLanguage, bridgeLanguage,
-        prompt: finalPrompt, userMessage: finalPrompt,
-        lessonTitle: lessonTitle || '', lessonIntro: lessonIntro || '', lessonSlug: lessonSlug || '',
-        currentActivity: currentActivity || '', supportMode: supportMode || 'practice',
+        language,
+        targetLanguage: language,
+        skill,
+        level,
+        nativeLanguage: bridgeLanguage,
+        bridgeLanguage,
+        prompt: finalPrompt,
+        userMessage: finalPrompt,
+        lessonTitle: lessonTitle || '',
+        lessonIntro: lessonIntro || '',
+        lessonSlug: lessonSlug || '',
+        currentActivity: currentActivity || '',
+        supportMode: supportMode || 'practice',
         selectedSuggestion: selectedSuggestion || '',
-        transcript: transcript || '', vocabulary: vocabulary || '',
-        currentQuestion: currentQuestion || '', selectedAnswer: selectedAnswer || ''
+        transcript: transcript || '',
+        vocabulary: vocabulary || '',
+        currentQuestion: currentQuestion || '',
+        selectedAnswer: selectedAnswer || ''
       })
     });
     const data = await response.json().catch(() => ({}));
@@ -2151,7 +2469,13 @@ async function sendTutorMessage({
     if (connectionStatusEl) connectionStatusEl.textContent = 'Conectado';
     return data;
   } catch (error) {
-    if (conversationEl) appendTutorMessage(conversationEl, 'tutor', error.message || 'No se pudo conectar con el tutor IA.', { isError: true });
+    if (conversationEl)
+      appendTutorMessage(
+        conversationEl,
+        'tutor',
+        error.message || 'No se pudo conectar con el tutor IA.',
+        { isError: true }
+      );
     if (connectionStatusEl) connectionStatusEl.textContent = 'No disponible';
     return null;
   } finally {
@@ -2163,8 +2487,8 @@ async function sendTutorMessage({
 function getLocalFallbackLessons(language, level) {
   const lessons = window.ANDERGO_LANGUAGE_WORLDS?.lessons?.[language] || [];
   return lessons
-    .filter(lesson => lesson.level === level)
-    .map(lesson => ({
+    .filter((lesson) => lesson.level === level)
+    .map((lesson) => ({
       ...lesson,
       isFree: lesson.accessTier ? lesson.accessTier !== 'premium' : lesson.isFree !== false,
       locked: (lesson.accessTier === 'premium' || lesson.isFree === false) && !lesson.completed,
@@ -2182,26 +2506,36 @@ async function loadLearningPath(options = {}) {
   }
 
   try {
-    const params = new URLSearchParams({ level: learningPathState.level, language: learningPathState.language });
+    const params = new URLSearchParams({
+      level: learningPathState.level,
+      language: learningPathState.language
+    });
     const response = await fetch(`${backendBaseUrl}/api/lessons?${params.toString()}`, {
       headers: authHeaders()
     });
     const data = await response.json().catch(() => ({}));
     if (!response.ok) throw new Error(data.error || 'Could not load lessons');
 
-    learningPathState.lessons = data.lessons?.length ? data.lessons : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
+    learningPathState.lessons = data.lessons?.length
+      ? data.lessons
+      : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
     learningPathState.activeSlug = learningPathState.lessons[0]?.slug || null;
     renderLearningPath();
   } catch (error) {
     console.warn('Could not load learning path from backend, using local content', error);
-    learningPathState.lessons = getLocalFallbackLessons(learningPathState.language, learningPathState.level);
+    learningPathState.lessons = getLocalFallbackLessons(
+      learningPathState.language,
+      learningPathState.level
+    );
     learningPathState.activeSlug = learningPathState.lessons[0]?.slug || null;
     renderLearningPath();
   }
 }
 
 async function completeActiveLesson() {
-  const activeLesson = learningPathState.lessons.find(item => item.slug === learningPathState.activeSlug);
+  const activeLesson = learningPathState.lessons.find(
+    (item) => item.slug === learningPathState.activeSlug
+  );
   if (!activeLesson) return;
 
   if (activeLesson.locked) {
@@ -2215,7 +2549,9 @@ async function completeActiveLesson() {
   // at the exercises. The button only switches to "Completar" once every
   // exercise has been attempted (see getExerciseProgress / renderLessonWorkspace).
   if (completeButton?.dataset.mode === 'practice') {
-    document.querySelector('.lesson-exercises')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document
+      .querySelector('.lesson-exercises')
+      ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     showHomeToast('Responde los ejercicios de la lección para poder completarla.');
     return;
   }
@@ -2236,7 +2572,11 @@ async function completeActiveLesson() {
     const exerciseId = activeLesson.exercises?.[Number(index)]?.id;
     return exerciseId
       ? { exerciseId, selectedOptionId: result.selectedOption, practiced: result.practiced }
-      : { index: Number(index), selectedOption: result.selectedOption, practiced: result.practiced };
+      : {
+          index: Number(index),
+          selectedOption: result.selectedOption,
+          practiced: result.practiced
+        };
   });
 
   try {
@@ -2266,9 +2606,13 @@ async function completeActiveLesson() {
     window.AndergoGamification?.syncFromServer(data);
 
     if (data.newBadges?.length) {
-      data.newBadges.forEach(badge => showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`));
+      data.newBadges.forEach((badge) =>
+        showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`)
+      );
     } else if (gamResult?.newBadges?.length) {
-      gamResult.newBadges.forEach(badge => showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`));
+      gamResult.newBadges.forEach((badge) =>
+        showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`)
+      );
     }
     if (data.leveledUp) {
       showCelebration(`🎉 ¡Subiste a nivel ${data.level}!`);
@@ -2285,15 +2629,15 @@ async function completeActiveLesson() {
 attachAuthHandlers();
 restoreSession();
 
-authTriggers.forEach(trigger => {
-  trigger.addEventListener('click', event => {
+authTriggers.forEach((trigger) => {
+  trigger.addEventListener('click', (event) => {
     event.preventDefault();
     setAuthMessage('');
     openModal(trigger.dataset.panel);
   });
 });
 
-authTabs.forEach(tab => {
+authTabs.forEach((tab) => {
   tab.addEventListener('click', () => openModal(tab.dataset.form));
 });
 
@@ -2301,7 +2645,7 @@ logoutButton?.addEventListener('click', openLogoutConfirm);
 
 // The 3 preset cards are quick-start shortcuts into the same real /api/goals
 // CRUD system goalsCrudBody uses below - not a separate goal-tracking system.
-document.querySelectorAll('#goalsQuickStart .goal-card').forEach(card => {
+document.querySelectorAll('#goalsQuickStart .goal-card').forEach((card) => {
   card.querySelector('.goal-select')?.addEventListener('click', async () => {
     if (!authStatus.session?.access_token) {
       setAuthMessage('Crea tu cuenta gratis para guardar tu objetivo.');
@@ -2323,9 +2667,11 @@ document.querySelectorAll('#goalsQuickStart .goal-card').forEach(card => {
   });
 });
 
-document.querySelector('.learn-back-to-route')?.addEventListener('click', () => showLearnState('route'));
+document
+  .querySelector('.learn-back-to-route')
+  ?.addEventListener('click', () => showLearnState('route'));
 
-document.addEventListener('click', async event => {
+document.addEventListener('click', async (event) => {
   const button = event.target.closest('.skill-tab-button');
   if (!button) return;
 
@@ -2334,8 +2680,8 @@ document.addEventListener('click', async event => {
   const buttons = parent?.querySelectorAll('.skill-tab-button') || [];
   const panels = parent?.querySelectorAll('.skill-panel') || [];
 
-  buttons.forEach(btn => btn.classList.toggle('active', btn === button));
-  panels.forEach(panel => {
+  buttons.forEach((btn) => btn.classList.toggle('active', btn === button));
+  panels.forEach((panel) => {
     panel.classList.toggle('active', panel.dataset.skill === skill);
   });
 
@@ -2343,7 +2689,7 @@ document.addEventListener('click', async event => {
 });
 
 const brandLink = document.querySelector('.brand');
-brandLink?.addEventListener('click', event => {
+brandLink?.addEventListener('click', (event) => {
   if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
     event.preventDefault();
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2357,7 +2703,7 @@ if (menuToggle && siteMenu) {
     menuToggle.setAttribute('aria-expanded', String(isOpen));
   });
 
-  siteMenu.querySelectorAll('a').forEach(link => {
+  siteMenu.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
       siteMenu.classList.remove('is-open');
       menuToggle.setAttribute('aria-expanded', 'false');
@@ -2429,15 +2775,16 @@ function showView(viewId) {
 
   Object.entries(VIEW_SECTIONS).forEach(([id, selectors]) => {
     const active = id === resolved;
-    selectors.forEach(selector => document.querySelectorAll(selector)
-      .forEach(el => {
+    selectors.forEach((selector) =>
+      document.querySelectorAll(selector).forEach((el) => {
         el.classList.toggle('compact-hidden-section', !active);
         el.hidden = !active;
         el.setAttribute('aria-hidden', String(!active));
-      }));
+      })
+    );
   });
 
-  document.querySelectorAll('.nav-group a[href^="#"]').forEach(link => {
+  document.querySelectorAll('.nav-group a[href^="#"]').forEach((link) => {
     const isActive = link.getAttribute('href') === `#${resolved}`;
     link.classList.toggle('active', isActive);
     if (isActive) {
@@ -2472,10 +2819,9 @@ function showView(viewId) {
 window.addEventListener('hashchange', () => showView(getViewFromHash()));
 
 closeModal?.addEventListener('click', closeAuth);
-authModal?.addEventListener('click', event => {
+authModal?.addEventListener('click', (event) => {
   if (event.target === authModal) closeAuth();
 });
-
 
 function showHomeToast(message = '') {
   let toast = document.querySelector('.home-toast');
@@ -2539,7 +2885,9 @@ function handleHomeAction(action) {
     case 'explore-languages':
       goTo('home');
       window.setTimeout(() => {
-        document.getElementById('language-picker')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        document
+          .getElementById('language-picker')
+          ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 50);
       showHomeToast('Elige un idioma para ver su ruta completa.');
       break;
@@ -2569,8 +2917,8 @@ function handleHomeAction(action) {
 }
 
 function enableHomepageActions() {
-  document.querySelectorAll('[data-home-action]').forEach(element => {
-    element.addEventListener('click', event => {
+  document.querySelectorAll('[data-home-action]').forEach((element) => {
+    element.addEventListener('click', (event) => {
       const action = element.dataset.homeAction;
       if (action) {
         event.preventDefault();
@@ -2579,8 +2927,8 @@ function enableHomepageActions() {
     });
   });
 
-  document.querySelectorAll('.skill-competency-card').forEach(card => {
-    card.addEventListener('keydown', event => {
+  document.querySelectorAll('.skill-competency-card').forEach((card) => {
+    card.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
         card.click();
@@ -2588,12 +2936,14 @@ function enableHomepageActions() {
     });
   });
 
-  document.addEventListener('click', async event => {
+  document.addEventListener('click', async (event) => {
     const upgradeButton = event.target.closest('.upgrade-btn');
     if (upgradeButton) {
       handleHomeAction('upgrade');
       if (!authStatus.session?.access_token) {
-        setAuthMessage(`Crea tu cuenta para desbloquear la ruta premium por USD ${premiumPriceUsd}.`);
+        setAuthMessage(
+          `Crea tu cuenta para desbloquear la ruta premium por USD ${premiumPriceUsd}.`
+        );
         openModal('signup');
       }
       return;
@@ -2611,7 +2961,9 @@ function enableHomepageActions() {
     const suggestion = event.target.closest('.predictive-suggestion');
     if (suggestion) {
       const group = suggestion.closest('.predictive-suggestions');
-      group?.querySelectorAll('.predictive-suggestion').forEach(item => item.classList.remove('selected'));
+      group
+        ?.querySelectorAll('.predictive-suggestion')
+        .forEach((item) => item.classList.remove('selected'));
       suggestion.classList.add('selected');
       const tutorPrompt = document.getElementById('aiTutorPrompt');
       if (tutorPrompt && suggestion.closest('#tutor')) {
@@ -2620,7 +2972,10 @@ function enableHomepageActions() {
       }
       showHomeToast(`Seleccionado: ${suggestion.textContent.trim()}`);
       const skillPanel = suggestion.closest('.skill-panel');
-      window.AndergoGamification?.recordSkillTouched(skillPanel?.dataset.skill, currentTargetLanguage);
+      window.AndergoGamification?.recordSkillTouched(
+        skillPanel?.dataset.skill,
+        currentTargetLanguage
+      );
       return;
     }
 
@@ -2632,16 +2987,20 @@ function enableHomepageActions() {
     if (aiListeningOption) {
       const questionItem = aiListeningOption.closest('.mcq-question');
       const skillSection = aiListeningOption.closest('.skill-view-section');
-      const lesson = learningPathState.lessons.find(item => item.slug === skillSection?.dataset.activeLessonSlug);
+      const lesson = learningPathState.lessons.find(
+        (item) => item.slug === skillSection?.dataset.activeLessonSlug
+      );
       const runtime = lesson ? getListeningRuntime(lesson) : null;
-      if (!questionItem || questionItem.classList.contains('answered') || !runtime?.aiPractice) return;
+      if (!questionItem || questionItem.classList.contains('answered') || !runtime?.aiPractice)
+        return;
 
       const qIndex = Number(questionItem.dataset.questionIndex);
       const optIndex = Number(aiListeningOption.dataset.optionIndex);
       const question = runtime.aiPractice.questions[qIndex];
       const correct = Number(question?.correctIndex) === optIndex;
       runtime.aiAnswers[qIndex] = { selectedIndex: optIndex, correct };
-      if (correct) window.AndergoGamification?.recordSkillTouched('listening', learningPathState.language);
+      if (correct)
+        window.AndergoGamification?.recordSkillTouched('listening', learningPathState.language);
 
       const content = skillSection?.querySelector('.skill-view-content');
       if (content) renderListeningAiQuestionsInPlace(content, lesson, runtime);
@@ -2653,7 +3012,9 @@ function enableHomepageActions() {
     const listeningRegenerateBtn = event.target.closest('.listening-regenerate-btn');
     if (listeningRegenerateBtn) {
       const skillSection = listeningRegenerateBtn.closest('.skill-view-section');
-      const lesson = learningPathState.lessons.find(item => item.slug === skillSection?.dataset.activeLessonSlug);
+      const lesson = learningPathState.lessons.find(
+        (item) => item.slug === skillSection?.dataset.activeLessonSlug
+      );
       const content = skillSection?.querySelector('.skill-view-content');
       if (!lesson || !content) return;
       const runtime = getListeningRuntime(lesson);
@@ -2680,14 +3041,22 @@ function enableHomepageActions() {
     if (mcqOption) {
       const questionItem = mcqOption.closest('.mcq-question');
       const slug = questionItem?.dataset.lessonSlug;
-      if (!questionItem || questionItem.classList.contains('answered') || mcqOption.disabled || !slug) return;
+      if (
+        !questionItem ||
+        questionItem.classList.contains('answered') ||
+        mcqOption.disabled ||
+        !slug
+      )
+        return;
 
       const exerciseIndex = Number(questionItem.dataset.exerciseIndex);
       const exerciseId = questionItem.dataset.exerciseId || '';
       const chosenKey = mcqOption.dataset.optionKey;
       const feedback = questionItem.querySelector('.mcq-feedback');
 
-      questionItem.querySelectorAll('.mcq-option').forEach(option => { option.disabled = true; });
+      questionItem.querySelectorAll('.mcq-option').forEach((option) => {
+        option.disabled = true;
+      });
       if (feedback) feedback.textContent = 'Comprobando...';
 
       try {
@@ -2703,15 +3072,23 @@ function enableHomepageActions() {
         if (!response.ok) throw new Error(data.error || 'No se pudo verificar la respuesta.');
 
         learningPathState.exerciseResults[slug] = learningPathState.exerciseResults[slug] || {};
-        learningPathState.exerciseResults[slug][exerciseIndex] = { selectedOption: chosenKey, correct: Boolean(data.correct) };
+        learningPathState.exerciseResults[slug][exerciseIndex] = {
+          selectedOption: chosenKey,
+          correct: Boolean(data.correct)
+        };
 
         if (data.correct) {
           window.AndergoGamification?.recordCorrectAnswer();
-          window.AndergoGamification?.recordSkillTouched(questionItem.dataset.skill, questionItem.dataset.language || currentTargetLanguage);
+          window.AndergoGamification?.recordSkillTouched(
+            questionItem.dataset.skill,
+            questionItem.dataset.language || currentTargetLanguage
+          );
         }
       } catch (error) {
         if (feedback) feedback.textContent = error.message || 'No se pudo verificar la respuesta.';
-        questionItem.querySelectorAll('.mcq-option').forEach(option => { option.disabled = false; });
+        questionItem.querySelectorAll('.mcq-option').forEach((option) => {
+          option.disabled = false;
+        });
         return;
       }
 
@@ -2739,7 +3116,10 @@ function enableHomepageActions() {
       learningPathState.exerciseResults[slug][exerciseIndex] = { practiced: true };
 
       window.AndergoGamification?.recordCorrectAnswer();
-      window.AndergoGamification?.recordSkillTouched(exerciseBlock.dataset.skill, exerciseBlock.dataset.language || currentTargetLanguage);
+      window.AndergoGamification?.recordSkillTouched(
+        exerciseBlock.dataset.skill,
+        exerciseBlock.dataset.language || currentTargetLanguage
+      );
 
       renderLessonWorkspace();
       return;
@@ -2749,7 +3129,8 @@ function enableHomepageActions() {
     if (tutorClearButton) {
       const conversation = document.getElementById('tutorConversation');
       if (conversation) {
-        conversation.innerHTML = '<p class="tutor-welcome">👋 Soy Tutor AI. Pregúntame lo que quieras sobre esta habilidad, nivel o lección, y te ayudo con correcciones, ejemplos y práctica.</p>';
+        conversation.innerHTML =
+          '<p class="tutor-welcome">👋 Soy Tutor AI. Pregúntame lo que quieras sobre esta habilidad, nivel o lección, y te ayudo con correcciones, ejemplos y práctica.</p>';
       }
       return;
     }
@@ -2757,14 +3138,18 @@ function enableHomepageActions() {
     const tutorButton = event.target.closest('.tutor-chat-btn');
     if (tutorButton) {
       const card = tutorButton.closest('#tutor');
-      const activeSkill = card?.querySelector('.skill-tab-button.active')?.dataset.skill || 'speaking';
+      const activeSkill =
+        card?.querySelector('.skill-tab-button.active')?.dataset.skill || 'speaking';
       const activeLesson = getActiveLearningLesson();
-      const selectedSuggestion = card?.querySelector('.skill-panel.active .predictive-suggestion.selected')?.textContent?.trim();
-      const fallbackPrompt = {
-        listening: 'Quiero practicar comprensión auditiva con un ejemplo corto y una pregunta.',
-        speaking: 'Quiero practicar conversación con una respuesta modelo y una repregunta.',
-        writing: 'Quiero practicar escritura con una corrección breve y un ejemplo mejorado.'
-      }[activeSkill] || 'Quiero practicar esta habilidad.';
+      const selectedSuggestion = card
+        ?.querySelector('.skill-panel.active .predictive-suggestion.selected')
+        ?.textContent?.trim();
+      const fallbackPrompt =
+        {
+          listening: 'Quiero practicar comprensión auditiva con un ejemplo corto y una pregunta.',
+          speaking: 'Quiero practicar conversación con una respuesta modelo y una repregunta.',
+          writing: 'Quiero practicar escritura con una corrección breve y un ejemplo mejorado.'
+        }[activeSkill] || 'Quiero practicar esta habilidad.';
 
       await sendTutorMessage({
         conversationEl: document.getElementById('tutorConversation'),
@@ -2791,7 +3176,10 @@ function enableHomepageActions() {
     if (openTutorBtn) {
       const skillSection = openTutorBtn.closest('.skill-view-section');
       const skill = skillSection?.dataset.skill || 'speaking';
-      const lesson = learningPathState.lessons.find(item => item.slug === skillSection?.dataset.activeLessonSlug) || getActiveLearningLesson();
+      const lesson =
+        learningPathState.lessons.find(
+          (item) => item.slug === skillSection?.dataset.activeLessonSlug
+        ) || getActiveLearningLesson();
       openTutorDrawer({
         skill,
         lessonTitle: lesson?.title || '',
@@ -2829,7 +3217,9 @@ function enableHomepageActions() {
 
     const readingToggleVocab = event.target.closest('.reading-toggle-vocab');
     if (readingToggleVocab) {
-      const list = readingToggleVocab.closest('.reading-vocab-section')?.querySelector('.reading-vocab-list');
+      const list = readingToggleVocab
+        .closest('.reading-vocab-section')
+        ?.querySelector('.reading-vocab-list');
       if (list) {
         list.hidden = !list.hidden;
         readingToggleVocab.textContent = list.hidden ? 'Ver vocabulario' : 'Ocultar vocabulario';
@@ -2839,7 +3229,9 @@ function enableHomepageActions() {
     const readingShowSupport = event.target.closest('.reading-show-support');
     if (readingShowSupport) {
       const area = readingShowSupport.closest('.reading-print-area');
-      area?.querySelectorAll('.reading-vocab-support').forEach(el => { el.hidden = false; });
+      area?.querySelectorAll('.reading-vocab-support').forEach((el) => {
+        el.hidden = false;
+      });
       readingShowSupport.hidden = true;
       area?.querySelector('.reading-hide-support')?.removeAttribute('hidden');
       return;
@@ -2847,7 +3239,9 @@ function enableHomepageActions() {
     const readingHideSupport = event.target.closest('.reading-hide-support');
     if (readingHideSupport) {
       const area = readingHideSupport.closest('.reading-print-area');
-      area?.querySelectorAll('.reading-vocab-support').forEach(el => { el.hidden = true; });
+      area?.querySelectorAll('.reading-vocab-support').forEach((el) => {
+        el.hidden = true;
+      });
       readingHideSupport.hidden = true;
       area?.querySelector('.reading-show-support')?.removeAttribute('hidden');
       return;
@@ -2874,7 +3268,9 @@ function enableHomepageActions() {
         hint: `Dame una pista para mejorar este texto sin reescribirlo tú: ${editorText}`
       };
       const section = writingReviewBtn.closest('.skill-view-section');
-      const lesson = learningPathState.lessons.find(item => item.slug === section?.dataset.activeLessonSlug);
+      const lesson = learningPathState.lessons.find(
+        (item) => item.slug === section?.dataset.activeLessonSlug
+      );
       const panel = document.getElementById('writingTutorPanel');
       if (panel) {
         panel.hidden = false;
@@ -2900,7 +3296,9 @@ function enableHomepageActions() {
         fallbackPrompt: prompts[mode] || editorText
       });
       writingReviewBtn.disabled = false;
-      if (panel) panel.querySelector('.writing-tutor-suggestion p').textContent = data?.reply || 'No se pudo obtener una respuesta del Tutor IA.';
+      if (panel)
+        panel.querySelector('.writing-tutor-suggestion p').textContent =
+          data?.reply || 'No se pudo obtener una respuesta del Tutor IA.';
       return;
     }
     if (event.target.closest('.writing-accept-btn')) {
@@ -2920,7 +3318,9 @@ function enableHomepageActions() {
       const currentBlock = panel?.querySelector('.writing-tutor-current');
       if (currentBlock) {
         currentBlock.hidden = !currentBlock.hidden;
-        if (!currentBlock.hidden) currentBlock.querySelector('p').textContent = document.getElementById('writingEditor')?.value.trim() || '';
+        if (!currentBlock.hidden)
+          currentBlock.querySelector('p').textContent =
+            document.getElementById('writingEditor')?.value.trim() || '';
       }
       return;
     }
@@ -2964,7 +3364,9 @@ function enableHomepageActions() {
       lessonTitle: tutorDrawerContext.lessonTitle,
       lessonIntro: tutorDrawerContext.lessonIntro,
       lessonSlug: tutorDrawerContext.lessonSlug,
-      currentActivity: tutorDrawerContext.currentActivity || `Practicando ${SKILL_LABELS[tutorDrawerContext.skill] || tutorDrawerContext.skill}`,
+      currentActivity:
+        tutorDrawerContext.currentActivity ||
+        `Practicando ${SKILL_LABELS[tutorDrawerContext.skill] || tutorDrawerContext.skill}`,
       supportMode: tutorDrawerContext.supportMode,
       transcript: tutorDrawerContext.transcript,
       vocabulary: tutorDrawerContext.vocabulary,
@@ -2976,10 +3378,12 @@ function enableHomepageActions() {
 
   document.getElementById('tutorDrawerClear')?.addEventListener('click', () => {
     const conversation = document.getElementById('tutorDrawerConversation');
-    if (conversation) conversation.innerHTML = '<p class="tutor-welcome">👋 Soy Tutor AI. Cuéntame qué quieres practicar.</p>';
+    if (conversation)
+      conversation.innerHTML =
+        '<p class="tutor-welcome">👋 Soy Tutor AI. Cuéntame qué quieres practicar.</p>';
   });
 
-  document.getElementById('tutorDrawerPrompt')?.addEventListener('keydown', event => {
+  document.getElementById('tutorDrawerPrompt')?.addEventListener('keydown', (event) => {
     if (event.key !== 'Enter' || event.shiftKey) return;
     event.preventDefault();
     document.getElementById('tutorDrawerSend')?.click();
@@ -3015,17 +3419,20 @@ function initScrollReveal() {
   if (!elements.length) return;
 
   if (!('IntersectionObserver' in window)) {
-    elements.forEach(el => el.classList.add('is-visible'));
+    elements.forEach((el) => el.classList.add('is-visible'));
     return;
   }
 
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-      entry.target.classList.add('is-visible');
-      observer.unobserve(entry.target);
-    });
-  }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.15, rootMargin: '0px 0px -60px 0px' }
+  );
 
   elements.forEach((el, index) => {
     el.classList.add('reveal-on-scroll');
@@ -3041,7 +3448,7 @@ initScrollReveal();
 showView(getViewFromHash());
 document.querySelector('.lesson-complete-btn')?.addEventListener('click', completeActiveLesson);
 
-document.querySelectorAll('.nav-group a[data-scroll-target]').forEach(link => {
+document.querySelectorAll('.nav-group a[data-scroll-target]').forEach((link) => {
   link.addEventListener('click', () => {
     const targetId = link.dataset.scrollTarget;
     window.setTimeout(() => {
@@ -3060,7 +3467,7 @@ document.querySelectorAll('.nav-group a[data-scroll-target]').forEach(link => {
   updatePathPairPreview();
 })();
 
-document.getElementById('aiTutorPrompt')?.addEventListener('keydown', event => {
+document.getElementById('aiTutorPrompt')?.addEventListener('keydown', (event) => {
   if (event.key !== 'Enter' || event.shiftKey) return;
   event.preventDefault();
   event.target.closest('.tutor-action')?.querySelector('.tutor-chat-btn')?.click();
