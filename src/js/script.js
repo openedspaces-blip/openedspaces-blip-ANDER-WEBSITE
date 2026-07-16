@@ -57,6 +57,15 @@ const authStatus = {
   session: null
 };
 
+// Holds the aal1 session while a second factor is pending, in memory only -
+// never written to localStorage/authStatus, since it isn't a valid signed-in
+// session yet (see the login handler and the mfaChallengeForm submit below).
+let pendingMfa = null;
+
+function clearPendingMfa() {
+  pendingMfa = null;
+}
+
 const goalOptions = {
   daily: {
     label: 'Practicar 15 min al día',
@@ -293,10 +302,12 @@ function openModal(panel) {
   authForms.forEach((form) => {
     form.classList.toggle('active', form.id === `${panel}Form`);
   });
-  // "forgotPassword" isn't a real tab (reached via a link, not .auth-tabs) -
-  // hide the tab row entirely while it's open instead of showing both tabs
-  // as unselected.
-  document.querySelector('.auth-tabs')?.classList.toggle('is-hidden', panel === 'forgotPassword');
+  // "forgotPassword" and "mfaChallenge" aren't real tabs (reached via a link
+  // or automatically after login, not .auth-tabs) - hide the tab row
+  // entirely while either is open instead of showing both tabs as unselected.
+  document
+    .querySelector('.auth-tabs')
+    ?.classList.toggle('is-hidden', panel === 'forgotPassword' || panel === 'mfaChallenge');
   clearAuthMessages();
   resetSignupPending();
   authModal.querySelector('.auth-form.active input')?.focus();
@@ -952,10 +963,86 @@ function attachAuthHandlers() {
 
     try {
       const data = await postJson('/api/auth', { action: 'login', identifier, password });
+      if (data.requiresMfa) {
+        // aal1 only - held in memory until the TOTP code below elevates it
+        // to aal2 (mfaService.verifyFactor's session), never saved/shown as
+        // a signed-in state.
+        pendingMfa = { user: data.user, session: data.session };
+        openModal('mfaChallenge');
+        return;
+      }
       saveSession(data.user, data.session);
       await afterAuthSuccess();
     } catch (error) {
       setAuthMessage(error.message, true);
+    }
+  });
+
+  document.getElementById('mfaChallengeForm')?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const statusEl = document.getElementById('mfaChallengeStatus');
+    const codeInput = document.getElementById('mfaChallengeCode');
+    const code = codeInput?.value.trim() || '';
+    const submitBtn = event.target.querySelector('button[type="submit"]');
+
+    if (!pendingMfa?.session?.access_token) {
+      openModal('login');
+      return;
+    }
+
+    if (statusEl) {
+      statusEl.textContent = '';
+      statusEl.classList.remove('is-error');
+    }
+    if (submitBtn) submitBtn.disabled = true;
+
+    try {
+      const authHeader = { Authorization: `Bearer ${pendingMfa.session.access_token}` };
+      const factorsResponse = await fetch(`${backendBaseUrl}/api/mfa/factors`, {
+        headers: authHeader
+      });
+      const factorsData = await factorsResponse.json().catch(() => ({}));
+      const activeFactor = factorsData.totp?.find((factor) => factor.status === 'verified');
+      if (!factorsResponse.ok || !activeFactor) {
+        throw new Error('No se pudo iniciar la verificación en dos pasos.');
+      }
+
+      const challengeResponse = await fetch(`${backendBaseUrl}/api/mfa/totp/challenge`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeader },
+        body: JSON.stringify({ factorId: activeFactor.id })
+      });
+      const challengeData = await challengeResponse.json().catch(() => ({}));
+      if (!challengeResponse.ok || !challengeData.challengeId) {
+        throw new Error(challengeData.message || 'No se pudo generar el desafío de verificación.');
+      }
+
+      const verifyResponse = await fetch(`${backendBaseUrl}/api/mfa/totp/verify`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeader },
+        body: JSON.stringify({
+          factorId: activeFactor.id,
+          challengeId: challengeData.challengeId,
+          code
+        })
+      });
+      const verifyData = await verifyResponse.json().catch(() => ({}));
+      if (!verifyResponse.ok || !verifyData.ok) {
+        throw new Error(verifyData.message || 'Código incorrecto. Intenta de nuevo.');
+      }
+
+      const verifiedUser = pendingMfa.user;
+      clearPendingMfa();
+      if (codeInput) codeInput.value = '';
+      saveSession(verifiedUser, verifyData.session);
+      await afterAuthSuccess();
+    } catch (error) {
+      if (statusEl) {
+        statusEl.textContent = error.message || 'Código incorrecto. Intenta de nuevo.';
+        statusEl.classList.add('is-error');
+      }
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
     }
   });
 
@@ -3674,6 +3761,7 @@ const VIEW_SECTIONS = {
   learn: ['#learning-path'],
   progress: ['#progress'],
   achievements: ['#achievements'],
+  security: ['#security'],
   goals: ['#goals'],
   tutor: ['#tutor'],
   premium: ['#premium'],
@@ -3695,6 +3783,7 @@ const VIEW_TITLE_SELECTORS = {
   learn: '#learning-path h2',
   progress: '#progress h2',
   achievements: '#achievements h2',
+  security: '#security h2',
   goals: '#goals h2',
   tutor: '#tutor h2',
   premium: '#premium h2',

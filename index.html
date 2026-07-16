@@ -49,6 +49,7 @@
           <a href="#achievements">Logros</a>
           <a href="#goals">Objetivos</a>
           <a href="#tutor">Tutor IA</a>
+          <a href="#security">Seguridad</a>
         </span>
       </nav>
 
@@ -554,6 +555,49 @@
         </div>
         <div class="skill-view-content">
           <p class="skill-graph-empty">Listening estará disponible próximamente.</p>
+        </div>
+      </section>
+
+      <section id="security" class="section security-section compact-hidden-section">
+        <div class="section-heading">
+          <span>Seguridad</span>
+          <h2 tabindex="-1">Seguridad de la cuenta</h2>
+          <p>Verificación en dos pasos con aplicación autenticadora (opcional).</p>
+        </div>
+
+        <div class="security-panel">
+          <div class="security-mfa-status" id="securityMfaStatus">
+            <p class="skill-graph-empty">Cargando estado de seguridad…</p>
+          </div>
+
+          <div class="mfa-enroll-flow" id="mfaEnrollFlow" hidden>
+            <h3>Activar verificación en dos pasos</h3>
+            <p>
+              Escanea este código QR con tu aplicación autenticadora (Google Authenticator, Authy,
+              1Password, etc.), o ingresa la clave manualmente.
+            </p>
+            <div class="mfa-qr-wrap" id="mfaQrWrap"></div>
+            <p class="mfa-manual-key">Clave manual: <code id="mfaManualKey"></code></p>
+            <label for="mfaEnrollCode"
+              >Código de 6 dígitos
+              <input
+                type="text"
+                inputmode="numeric"
+                pattern="[0-9]*"
+                maxlength="6"
+                id="mfaEnrollCode"
+                class="mfa-code-input"
+                autocomplete="one-time-code"
+              />
+            </label>
+            <p class="mfa-status-text" id="mfaEnrollStatus" aria-live="polite"></p>
+            <div class="mfa-enroll-actions">
+              <button type="button" class="primary-btn" id="mfaVerifyEnrollBtn">
+                Verificar y activar
+              </button>
+              <button type="button" class="secondary-btn" id="mfaCancelEnrollBtn">Cancelar</button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -1070,14 +1114,77 @@
               <p class="auth-note">Al crear cuenta aceptas nuestros términos de uso.</p>
             </div>
             <div class="signup-pending" id="signupPending" role="status" aria-live="polite" hidden>
-              <h4 class="signup-pending-heading">✅ ¡Registro realizado correctamente!</h4>
-              <p class="signup-pending-message"></p>
-              <button type="button" class="secondary-btn" data-action="resend-confirmation">
-                Reenviar correo
-              </button>
-              <button type="button" class="primary-btn" data-action="go-to-login">
-                Ir a iniciar sesión
-              </button>
+              <div class="verify-account-step" id="verifyAccountStep">
+                <h4>Verifica tu cuenta</h4>
+                <p class="signup-pending-message"></p>
+                <p class="auth-field-hint">No podrás iniciar sesión hasta confirmar tu cuenta.</p>
+                <div class="otp-input-row" id="otpInputRow">
+                  <input
+                    type="text"
+                    inputmode="numeric"
+                    pattern="[0-9]*"
+                    maxlength="1"
+                    class="otp-digit"
+                    aria-label="Dígito 1 del código"
+                  />
+                  <input
+                    type="text"
+                    inputmode="numeric"
+                    pattern="[0-9]*"
+                    maxlength="1"
+                    class="otp-digit"
+                    aria-label="Dígito 2 del código"
+                  />
+                  <input
+                    type="text"
+                    inputmode="numeric"
+                    pattern="[0-9]*"
+                    maxlength="1"
+                    class="otp-digit"
+                    aria-label="Dígito 3 del código"
+                  />
+                  <input
+                    type="text"
+                    inputmode="numeric"
+                    pattern="[0-9]*"
+                    maxlength="1"
+                    class="otp-digit"
+                    aria-label="Dígito 4 del código"
+                  />
+                  <input
+                    type="text"
+                    inputmode="numeric"
+                    pattern="[0-9]*"
+                    maxlength="1"
+                    class="otp-digit"
+                    aria-label="Dígito 5 del código"
+                  />
+                  <input
+                    type="text"
+                    inputmode="numeric"
+                    pattern="[0-9]*"
+                    maxlength="1"
+                    class="otp-digit"
+                    aria-label="Dígito 6 del código"
+                  />
+                </div>
+                <p class="otp-status" id="otpStatus" aria-live="polite"></p>
+                <button type="button" class="primary-btn" data-action="confirm-otp">
+                  Confirmar cuenta
+                </button>
+                <button type="button" class="secondary-btn" data-action="resend-otp" id="resendOtpBtn">
+                  Reenviar código
+                </button>
+                <button type="button" class="secondary-btn" data-action="go-to-login">
+                  Volver al inicio
+                </button>
+              </div>
+              <div class="verify-account-success" id="verifyAccountSuccess" hidden>
+                <h4>✅ Tu cuenta fue confirmada correctamente.</h4>
+                <button type="button" class="primary-btn" data-action="go-to-login">
+                  Iniciar sesión
+                </button>
+              </div>
             </div>
           </form>
 
@@ -1096,6 +1203,31 @@
             </label>
             <p class="auth-field-hint">Te enviaremos un enlace para crear una nueva contraseña.</p>
             <button type="submit" class="primary-btn">Enviar enlace</button>
+            <button type="button" class="secondary-btn" data-action="back-to-login">
+              ← Volver a iniciar sesión
+            </button>
+          </form>
+
+          <form class="auth-form" id="mfaChallengeForm">
+            <h3>Verificación en dos pasos</h3>
+            <p class="auth-field-hint">
+              Ingresa el código de 6 dígitos de tu aplicación autenticadora.
+            </p>
+            <label for="mfaChallengeCode"
+              >Código de verificación
+              <input
+                type="text"
+                inputmode="numeric"
+                pattern="[0-9]*"
+                maxlength="6"
+                id="mfaChallengeCode"
+                name="mfaCode"
+                autocomplete="one-time-code"
+                required
+              />
+            </label>
+            <p class="otp-status" id="mfaChallengeStatus" aria-live="polite"></p>
+            <button type="submit" class="primary-btn">Verificar</button>
             <button type="button" class="secondary-btn" data-action="back-to-login">
               ← Volver a iniciar sesión
             </button>
