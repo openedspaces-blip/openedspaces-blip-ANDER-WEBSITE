@@ -7,6 +7,7 @@ const { createServer } = require('./lib/server');
 const { getLocalLessons } = require('./lib/lessonsData');
 const { levelContent, languageContent } = require('./lib/uiContent');
 const { isAnyProviderConfigured: isTutorConfigured } = require('./lib/aiTutorService');
+const { isPremiumActive, LIMIT_MESSAGE } = require('./lib/voiceAccessService');
 
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -306,4 +307,74 @@ test('complete lesson requires authentication', async () => {
   } finally {
     server.close();
   }
+});
+
+test('speech synthesize endpoint requires authentication', async () => {
+  const { server, port } = await startTestServer();
+  try {
+    const response = await fetch(`http://127.0.0.1:${port}/api/speech/synthesize`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text: 'Hello!', language: 'english', locale: 'en-US' })
+    });
+    assert.equal(response.status, 401);
+    const body = await response.json();
+    assert.equal(typeof body.error, 'string');
+  } finally {
+    server.close();
+  }
+});
+
+test('speech quota limit message matches the exact copy shown to free-tier students', () => {
+  assert.equal(
+    LIMIT_MESSAGE,
+    'Has utilizado tus respuestas de voz gratuitas de hoy. Continúa por texto o desbloquea ANDERGO Premium.'
+  );
+});
+
+// The backend must never trust a client-supplied "premium" flag alone - see
+// lib/voiceAccessService.js#isPremiumActive. These are pure unit checks
+// (no Supabase round-trip needed) that a canceled or expired subscription
+// never grants neural voice, even if access_tier still says 'premium'.
+test('isPremiumActive rejects a canceled subscription despite access_tier=premium', () => {
+  assert.equal(
+    isPremiumActive({ access_tier: 'premium', subscription_status: 'canceled', subscription_expires_at: null }),
+    false
+  );
+});
+
+test('isPremiumActive rejects an expired subscription despite access_tier=premium and status=active', () => {
+  const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+  assert.equal(
+    isPremiumActive({
+      access_tier: 'premium',
+      subscription_status: 'active',
+      subscription_expires_at: yesterday
+    }),
+    false
+  );
+});
+
+test('isPremiumActive accepts an active subscription with no expiry or a future expiry', () => {
+  const tomorrow = new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString();
+  assert.equal(
+    isPremiumActive({ access_tier: 'premium', subscription_status: 'active', subscription_expires_at: null }),
+    true
+  );
+  assert.equal(
+    isPremiumActive({
+      access_tier: 'premium',
+      subscription_status: 'active',
+      subscription_expires_at: tomorrow
+    }),
+    true
+  );
+});
+
+test('isPremiumActive rejects a free-tier profile', () => {
+  assert.equal(
+    isPremiumActive({ access_tier: 'free', subscription_status: 'active', subscription_expires_at: null }),
+    false
+  );
+  assert.equal(isPremiumActive(null), false);
 });

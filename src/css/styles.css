@@ -2524,6 +2524,92 @@ footer small {
   color: #991b1b;
 }
 
+/* Visibly marks whichever tutor reply is currently being read aloud (at
+   most one at a time - see stopAllTutorAudio() in script.js). */
+.tutor-message--tutor.is-playing {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.16);
+}
+
+.tutor-voice-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.tutor-voice-btn {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--navy-2);
+  cursor: pointer;
+}
+
+.tutor-voice-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.tutor-voice-speed-group {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.tutor-voice-speed-btn {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.tutor-voice-speed-btn.is-active {
+  background: linear-gradient(135deg, var(--blue), var(--cyan));
+  color: #fff;
+  border-color: transparent;
+}
+
+.tutor-voice-limit-message {
+  flex-basis: 100%;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+/* "ANDERGO Premium" / "Conversación por voz" / "Corrección de pronunciación"
+   indicators - visual labels only (see the Premium page and the AI Tutor
+   view), reusing the same gradient as .primary-btn/.level-tab.active. */
+.premium-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--blue), var(--cyan));
+  color: #fff;
+}
+
+.premium-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.75rem 0;
+}
+
 .tutor-thinking {
   margin: 0;
   color: #475569;

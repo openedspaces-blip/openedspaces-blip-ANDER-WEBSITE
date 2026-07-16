@@ -1717,17 +1717,28 @@ function getPronunciationLocale(language = learningPathState.language) {
 // Always cancels any in-flight utterance first, so two quick taps (or
 // tapping a second card while the first is still speaking) never overlap.
 // No-ops silently - no thrown errors, no console noise - when the browser
-// doesn't support speechSynthesis at all.
-function speakText(text, { locale, rate = 1 } = {}) {
-  if (!supportsSpeech() || !text) return;
+// doesn't support speechSynthesis at all. `onEnd` (optional) fires once,
+// whether playback finished normally or errored out - used by the AI
+// Tutor's voice controls to know when to reset their Stop/Repetir state
+// (flashcards don't need it and don't pass it).
+function speakText(text, { locale, rate = 1, onEnd } = {}) {
+  if (!supportsSpeech() || !text) {
+    onEnd?.();
+    return;
+  }
   try {
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = locale || getPronunciationLocale();
     utterance.rate = rate;
+    if (onEnd) {
+      utterance.onend = onEnd;
+      utterance.onerror = onEnd;
+    }
     window.speechSynthesis.speak(utterance);
   } catch {
     /* speechSynthesis unavailable/misbehaving - the card stays usable without audio */
+    onEnd?.();
   }
 }
 
@@ -1747,9 +1758,10 @@ function escapeHtml(value = '') {
     .replaceAll("'", '&#039;');
 }
 
-// Returns the message body <p> so streaming callers (see streamTutorReply()
-// below) can keep updating its text as chunks arrive, instead of only being
-// able to append a message once, fully formed.
+// Returns the message wrapper <div> (not just its body <p>) so streaming
+// callers (see sendTutorMessage()) can keep updating its text as chunks
+// arrive, and so tutor voice controls (renderTutorVoiceControls()) have
+// somewhere to attach once the first complete sentence has streamed in.
 function appendTutorMessage(container, role, text, { isError = false } = {}) {
   if (!container) return null;
   const message = document.createElement('div');
@@ -1765,15 +1777,147 @@ function appendTutorMessage(container, role, text, { isError = false } = {}) {
   message.append(label, body);
   container.appendChild(message);
   container.scrollTop = container.scrollHeight;
-  return body;
+  return message;
 }
 
 // Updates an in-progress tutor message bubble's text (see appendTutorMessage's
-// returned <p>) as streamed chunks accumulate.
-function updateTutorMessageBody(bodyEl, container, text) {
-  if (!bodyEl) return;
-  bodyEl.innerHTML = escapeHtml(text).replace(/\n/g, '<br>');
+// returned wrapper) as streamed chunks accumulate.
+function updateTutorMessageBody(messageEl, container, text) {
+  if (!messageEl) return;
+  const body = messageEl.querySelector('p');
+  if (body) body.innerHTML = escapeHtml(text).replace(/\n/g, '<br>');
   if (container) container.scrollTop = container.scrollHeight;
+}
+
+// ---------------------------------------------------------------------
+// AI Tutor voice (Text-to-Speech on top of Cerebras/Groq/Gemini's text
+// reply - see POST /api/speech/synthesize in lib/server.js). Two
+// modalities: free browser speechSynthesis (via speakText() above) or
+// Premium neural voice (an <audio> element playing a server-generated
+// clip) - the server alone decides which one a given request gets back,
+// based on the signed-in user's actual subscription state.
+// ---------------------------------------------------------------------
+
+// Whatever is currently audible for a tutor reply - at most one at a time,
+// whether it's a speechSynthesis utterance or a neural <audio> clip -
+// stopAllTutorAudio() always tears this down first, so starting any new
+// playback (a different message, or the same one again) never overlaps
+// with what was already playing.
+let currentTutorAudio = { element: null, messageEl: null };
+
+function resetTutorVoiceButtons(messageEl) {
+  const controls = messageEl?.querySelector('.tutor-voice-controls');
+  if (!controls) return;
+  const listenBtn = controls.querySelector('.tutor-voice-listen');
+  const stopBtn = controls.querySelector('.tutor-voice-stop');
+  if (listenBtn) {
+    listenBtn.disabled = false;
+    if (listenBtn.dataset.played) listenBtn.textContent = '🔁 Repetir';
+  }
+  if (stopBtn) stopBtn.disabled = true;
+}
+
+function stopAllTutorAudio() {
+  if (supportsSpeech()) window.speechSynthesis.cancel();
+  currentTutorAudio.element?.pause?.();
+  if (currentTutorAudio.messageEl) {
+    currentTutorAudio.messageEl.classList.remove('is-playing');
+    resetTutorVoiceButtons(currentTutorAudio.messageEl);
+  }
+  currentTutorAudio = { element: null, messageEl: null };
+}
+
+// The controls row is injected once the streamed reply reaches its first
+// complete sentence (see sendTutorMessage()'s SSE loop), not only once the
+// whole reply is done - lets the student start listening earlier. Hidden
+// entirely (never rendered) when the browser has no speechSynthesis at all -
+// mirrors the flashcard pronunciation feature's graceful-degradation rule.
+// A user without speechSynthesis could in principle still be a Premium
+// account eligible for neural-only playback, but that's rare enough that
+// gating the whole row on the same signal as flashcards keeps this simple.
+function renderTutorVoiceControls(messageEl) {
+  if (!supportsSpeech() || messageEl.querySelector('.tutor-voice-controls')) return;
+  const controls = document.createElement('div');
+  controls.className = 'tutor-voice-controls';
+  controls.innerHTML = `
+    <button type="button" class="tutor-voice-btn tutor-voice-listen">🔊 Escuchar</button>
+    <button type="button" class="tutor-voice-btn tutor-voice-stop" disabled>⏹ Detener</button>
+    <div class="tutor-voice-speed-group">
+      <button type="button" class="tutor-voice-speed-btn is-active" data-speed="normal">▶ Normal</button>
+      <button type="button" class="tutor-voice-speed-btn" data-speed="slow">🐢 Lenta</button>
+    </div>
+    <span class="tutor-voice-limit-message" hidden></span>
+  `;
+  messageEl.appendChild(controls);
+}
+
+// Only ever called from a click handler (Escuchar/Repetir) - never
+// automatically - satisfying "no autoplay, especially on mobile" for free.
+async function requestTutorSpeech(messageEl) {
+  const controls = messageEl.querySelector('.tutor-voice-controls');
+  const listenBtn = controls?.querySelector('.tutor-voice-listen');
+  const stopBtn = controls?.querySelector('.tutor-voice-stop');
+  const limitMsg = controls?.querySelector('.tutor-voice-limit-message');
+  const speed = controls?.querySelector('.tutor-voice-speed-btn.is-active')?.dataset.speed || 'normal';
+  const text = messageEl.dataset.ttsText || '';
+  const locale = messageEl.dataset.ttsLocale || getPronunciationLocale();
+  if (!text) return;
+
+  stopAllTutorAudio();
+  if (listenBtn) listenBtn.disabled = true;
+
+  const onEnd = () => {
+    messageEl.classList.remove('is-playing');
+    if (currentTutorAudio.messageEl === messageEl) currentTutorAudio = { element: null, messageEl: null };
+    resetTutorVoiceButtons(messageEl);
+  };
+
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/speech/synthesize`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({
+        text,
+        language: learningPathState.language,
+        locale,
+        speed,
+        turnIndex: Number(messageEl.dataset.turnIndex) || 1
+      })
+    });
+    const data = await response.json().catch(() => ({}));
+
+    if (!response.ok) {
+      if (data.limited && limitMsg) {
+        limitMsg.textContent = data.message;
+        limitMsg.hidden = false;
+        if (listenBtn) listenBtn.disabled = true; // stays disabled for the rest of the session
+        return;
+      }
+      throw new Error(data.error || 'No se pudo generar la voz del tutor.');
+    }
+
+    messageEl.classList.add('is-playing');
+    if (stopBtn) stopBtn.disabled = false;
+    if (listenBtn) listenBtn.dataset.played = 'true';
+
+    if (data.mode === 'neural' && data.audioBase64) {
+      const audio = new Audio(`data:${data.mimeType || 'audio/mpeg'};base64,${data.audioBase64}`);
+      currentTutorAudio = { element: audio, messageEl };
+      audio.addEventListener('ended', onEnd);
+      audio.addEventListener('error', onEnd);
+      await audio.play();
+    } else {
+      currentTutorAudio = { element: null, messageEl };
+      speakText(text, { locale, rate: speed === 'slow' ? 0.75 : 1, onEnd });
+    }
+    if (listenBtn) listenBtn.disabled = false;
+  } catch (error) {
+    if (limitMsg) {
+      limitMsg.textContent = error.message || 'No se pudo generar la voz del tutor.';
+      limitMsg.hidden = false;
+    }
+    if (listenBtn) listenBtn.disabled = false;
+  }
 }
 
 // Course-backed lessons (normalized schema, e.g. English A1) send options as
@@ -4189,7 +4333,8 @@ async function sendTutorMessage({
     const decoder = new TextDecoder();
     let buffer = '';
     let fullText = '';
-    let messageBody = null;
+    let messageEl = null;
+    let voiceControlsShown = false;
     let streamError = null;
 
     if (reader) {
@@ -4219,13 +4364,36 @@ async function sendTutorMessage({
             fullText += payload.delta;
             if (thinkingEl) thinkingEl.hidden = true;
             if (conversationEl) {
-              if (!messageBody) messageBody = appendTutorMessage(conversationEl, 'tutor', fullText);
-              else updateTutorMessageBody(messageBody, conversationEl, fullText);
+              if (!messageEl) {
+                messageEl = appendTutorMessage(conversationEl, 'tutor', fullText);
+                if (messageEl) {
+                  messageEl.dataset.ttsLocale = getPronunciationLocale(language);
+                  // Position among this conversation's tutor replies so far -
+                  // the free tier's "3 turns per conversation" voice limit
+                  // (see lib/voiceAccessService.js) is checked against this.
+                  messageEl.dataset.turnIndex = String(
+                    conversationEl.querySelectorAll('.tutor-message--tutor').length
+                  );
+                }
+              } else {
+                updateTutorMessageBody(messageEl, conversationEl, fullText);
+              }
+              if (messageEl) {
+                messageEl.dataset.ttsText = fullText;
+                // Enable voice as soon as the first complete sentence has
+                // streamed in, not only once the whole reply finishes.
+                if (!voiceControlsShown && /[.!?](\s|$)/.test(fullText)) {
+                  voiceControlsShown = true;
+                  renderTutorVoiceControls(messageEl);
+                }
+              }
             }
           }
         }
       }
     }
+
+    if (conversationEl && messageEl && !voiceControlsShown) renderTutorVoiceControls(messageEl);
 
     if (streamError && !fullText) throw new Error(streamError);
 
@@ -5052,6 +5220,28 @@ function enableHomepageActions() {
         currentQuestion: openTutorBtn.dataset.tutorCurrentQuestion || '',
         selectedAnswer: openTutorBtn.dataset.tutorSelectedAnswer || ''
       });
+      return;
+    }
+
+    // AI Tutor voice controls (Escuchar/Repetir share one button - see
+    // renderTutorVoiceControls(); its label switches once played once).
+    const tutorVoiceListenBtn = event.target.closest('.tutor-voice-listen');
+    if (tutorVoiceListenBtn) {
+      const messageEl = tutorVoiceListenBtn.closest('.tutor-message');
+      if (messageEl) requestTutorSpeech(messageEl);
+      return;
+    }
+    const tutorVoiceStopBtn = event.target.closest('.tutor-voice-stop');
+    if (tutorVoiceStopBtn) {
+      stopAllTutorAudio();
+      return;
+    }
+    const tutorVoiceSpeedBtn = event.target.closest('.tutor-voice-speed-btn');
+    if (tutorVoiceSpeedBtn) {
+      tutorVoiceSpeedBtn
+        .closest('.tutor-voice-speed-group')
+        ?.querySelectorAll('.tutor-voice-speed-btn')
+        .forEach((btn) => btn.classList.toggle('is-active', btn === tutorVoiceSpeedBtn));
       return;
     }
 
