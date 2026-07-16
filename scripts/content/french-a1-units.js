@@ -931,6 +931,441 @@ const units = [
         ]
       })
     }
+  },
+
+  // ---------------------------------------------------------------
+  {
+    slug: 'a-table',
+    title: 'À table',
+    titleEs: 'A la mesa',
+    description: "Camila découvre les repas en famille et la nourriture française.",
+    order: 7,
+    accessTier: 'premium',
+    activities: {
+      reading: activity('reading', {
+        title: 'À table avec la famille Lambert',
+        description: 'Camila décrit un dîner chez la famille Lambert, en trois parties.',
+        reading: {
+          title: 'À table avec la famille Lambert',
+          parts: [
+            "Le dîner chez la famille Lambert est un moment que j'adore. Chaque soir, nous mangeons tous ensemble autour de la table. Monsieur Lambert, qui est cuisinier, prépare souvent des plats délicieux. Ce soir, il y a du poulet, des légumes et du riz. « Tu veux du pain, Camila ? » demande Madame Lambert. « Oui, merci, j'adore le pain français ! » je réponds. Léa n'aime pas beaucoup les légumes, mais elle adore le fromage. Moi, je préfère les fruits pour le dessert.",
+            "Après le plat principal, Madame Lambert apporte du fromage et de la salade. « Tu veux de la salade ? » me demande-t-elle. « Un peu, s'il vous plaît, » je réponds. Léa prend beaucoup de fromage, mais elle ne prend pas de salade du tout. « Je n'aime pas la salade, » dit-elle en riant. Pour le dessert, il y a des fruits et un gâteau au chocolat. Je voudrais un peu des deux, s'il vous plaît !",
+            "Après le repas, nous aidons tous à débarrasser la table. J'apprends beaucoup de mots nouveaux pendant les repas : le pain, le fromage, les légumes, les fruits. Madame Lambert dit toujours : « Bon appétit ! » avant de manger, et nous répondons « Merci, vous aussi ! » Ces repas en famille sont devenus mon moment préféré de la journée, parce que nous parlons, nous rions et nous partageons beaucoup de choses ensemble."
+          ],
+          questions: ['Qui prépare le dîner chez la famille Lambert ?', "Qu'est-ce que Léa n'aime pas ?", 'Que dit Madame Lambert avant de manger ?'],
+          ordering: {
+            prompt: "Remets les événements de l'histoire dans l'ordre.",
+            events: [
+              'La famille Lambert se réunit pour le dîner.',
+              'Madame Lambert propose du pain et de la salade.',
+              'Léa prend du fromage mais pas de salade.',
+              'Tout le monde aide à débarrasser la table.'
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'Qui prépare souvent les plats chez la famille Lambert ?', options: ['Madame Lambert', 'Monsieur Lambert', 'Léa', 'Camila'], answer: 1 },
+          { type: 'mcq', prompt: "Qu'est-ce que Léa n'aime pas ?", options: ['Le fromage', 'Les légumes', 'Les fruits', 'Le pain'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu\'est-ce que Camila préfère pour le dessert ?', options: ['Le fromage', 'La salade', 'Les fruits', 'Le pain'], answer: 2 },
+          { type: 'mcq', prompt: 'Que dit la famille avant de manger ?', options: ['Au revoir', 'Bon appétit', 'À bientôt', 'Bonne nuit'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Léa prend beaucoup de fromage.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Léa aime beaucoup la salade.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Camila aide à débarrasser la table.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Madame Lambert apporte du fromage et de la ___.', options: ['salade', 'chaise', 'trousse', 'cour'], answer: 0 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Qu\'est-ce que tu veux manger ?',
+        description: 'Camila et Léa parlent de leurs préférences au petit-déjeuner.',
+        intro: 'Écoute Madame Lambert, Camila et Léa qui parlent du petit-déjeuner.',
+        dialogue: [
+          { speaker: 'Madame Lambert', line: 'Camila, tu veux du pain ?', translation: 'Camila, ¿quieres pan?' },
+          { speaker: 'Camila', line: "Oui, merci, j'adore le pain français.", translation: 'Sí, gracias, me encanta el pan francés.' },
+          { speaker: 'Madame Lambert', line: 'Tu veux aussi de la confiture ?', translation: '¿Quieres también mermelada?' },
+          { speaker: 'Camila', line: "Un peu, s'il vous plaît. Je n'aime pas trop le sucre.", translation: 'Un poco, por favor. No me gusta mucho el azúcar.' },
+          { speaker: 'Léa', line: "Moi, je voudrais du chocolat chaud, s'il te plaît, maman.", translation: 'Yo quisiera chocolate caliente, por favor, mamá.' },
+          { speaker: 'Madame Lambert', line: 'Bien sûr, ma chérie !', translation: 'Claro, cariño.' }
+        ],
+        phrases: ['Tu veux... ?', 'Je voudrais...', "Un peu, s'il vous plaît.", "Je n'aime pas..."],
+        exercises: [
+          { type: 'mcq', prompt: "Qu'est-ce que Camila aime ?", options: ['Le sucre', 'Le pain français', 'Le chocolat chaud', 'La salade'], answer: 1 },
+          { type: 'mcq', prompt: 'Que demande Léa ?', options: ['Du pain', 'De la confiture', 'Du chocolat chaud', 'Du fromage'], answer: 2 },
+          { type: 'mcq', prompt: 'Comment Camila prend-elle la confiture ?', options: ['Beaucoup', 'Un peu', 'Pas du tout', 'Avec du sucre'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Commande ton repas',
+        description: 'Commande un repas à voix haute avec « je voudrais ».',
+        mission: 'Commande un repas à voix haute avec « je voudrais » et dis ce que tu aimes ou n\'aimes pas.',
+        phrases: ['Je voudrais...', "J'aime / je n'aime pas...", 'Un peu de...'],
+        dialogue: [
+          { speaker: 'Toi', line: 'Je voudrais du poulet et des légumes, s\'il vous plaît.', translation: 'Quisiera pollo y verduras, por favor.' },
+          { speaker: 'Serveur', line: 'Très bien. Et pour boire ?', translation: 'Muy bien. ¿Y para beber?' },
+          { speaker: 'Toi', line: "Un jus d'orange, merci.", translation: 'Un jugo de naranja, gracias.' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: 'Commande un repas à voix haute avec « je voudrais ».', answer: 'Oral practice' },
+          { type: 'practice', prompt: 'Dis à un(e) camarade trois aliments que tu aimes et un que tu n\'aimes pas.', answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Écris ton menu préféré',
+        description: 'Décris ton repas préféré.',
+        mission: 'Décris ton repas préféré en 30 à 40 mots, avec des articles partitifs (du, de la, des).',
+        phrases: ['Je mange...', "J'aime...", 'Il y a du/de la/des...'],
+        dialogue: [
+          { speaker: 'Modèle', line: 'Mon repas préféré, c\'est le poulet avec du riz et des légumes. Pour le dessert, je préfère les fruits.', translation: 'Mi comida favorita es el pollo con arroz y verduras. De postre, prefiero la fruta.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Décris ton repas préféré (30 à 40 mots) avec au moins deux articles partitifs.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: 'Les articles partitifs et vouloir',
+        description: 'Du/de la/de l\'/des, aimer/adorer/préférer, vouloir et je voudrais.',
+        grammarNote: "Les articles partitifs indiquent une quantité non précisée : du pain (masculin), de la salade (féminin), de l'eau (devant une voyelle), des fruits (pluriel). Avec aimer, adorer, préférer, on utilise l'article défini pour parler en général : « J'aime le fromage. » « Je préfère les fruits. » Le verbe vouloir : je veux, tu veux, il/elle veut, nous voulons, vous voulez, ils/elles veulent. Pour être poli, on utilise je voudrais : « Je voudrais du pain, s'il vous plaît. » À la forme négative, du/de la/des deviennent simplement de : « Je ne veux pas de salade. »",
+        phrases: ['Du/de la/des...', "J'aime le/la/les...", 'Je voudrais...', 'Je ne veux pas de...'],
+        exercises: [
+          { type: 'mcq', prompt: 'Je voudrais ___ pain, s\'il vous plaît.', options: ['un', 'du', 'de la', 'des'], answer: 1 },
+          { type: 'mcq', prompt: 'Léa adore ___ fromage.', options: ['un', 'le', 'du', 'de la'], answer: 1 },
+          { type: 'mcq', prompt: 'Tu ___ de la salade ?', options: ['veux', 'veut', 'voulons', 'voulez'], answer: 0 },
+          { type: 'mcq', prompt: 'Je ne veux pas ___ légumes.', options: ['des', 'de', 'du', 'les'], answer: 1 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'La nourriture',
+        description: 'Vocabulaire des repas et de la nourriture.',
+        vocabulary: [
+          { word: 'le pain', translation: 'el pan', example: "J'adore le pain français." },
+          { word: 'le fromage', translation: 'el queso', example: 'Léa adore le fromage.' },
+          { word: 'les légumes', translation: 'las verduras', example: 'Léa n\'aime pas les légumes.' },
+          { word: 'les fruits', translation: 'las frutas', example: 'Je préfère les fruits.' },
+          { word: 'le riz', translation: 'el arroz', example: 'Il y a du riz ce soir.' },
+          { word: 'le poulet', translation: 'el pollo', example: 'Monsieur Lambert prépare du poulet.' },
+          { word: 'la salade', translation: 'la ensalada', example: 'Léa ne prend pas de salade.' },
+          { word: 'le dessert', translation: 'el postre', example: 'Pour le dessert, il y a un gâteau.' },
+          { word: 'le sucre', translation: 'el azúcar', example: 'Je n\'aime pas trop le sucre.' },
+          { word: 'la confiture', translation: 'la mermelada', example: 'Tu veux de la confiture ?' },
+          { word: 'avoir faim', translation: 'tener hambre', example: "J'ai faim, on mange ?" },
+          { word: 'avoir soif', translation: 'tener sed', example: 'Léa a soif.' },
+          { word: 'bon appétit', translation: 'buen provecho', example: 'Bon appétit à tous !' },
+          { word: 'délicieux / délicieuse', translation: 'delicioso/a', example: 'Ce plat est délicieux.' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « le fromage » ?', options: ['El pan', 'El queso', 'El arroz', 'El pollo'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « avoir faim » ?', options: ['Tener sed', 'Tener hambre', 'Tener frío', 'Tener sueño'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « délicieux » ?', options: ['Delicioso', 'Feo', 'Frío', 'Caro'], answer: 0 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'Au café',
+        description: 'Camila et Léa commandent une pâtisserie au café après les cours.',
+        intro: 'Camila et Léa vont au café après les cours pour goûter une pâtisserie française.',
+        dialogue: [
+          { speaker: 'Serveur', line: "Bonjour ! Qu'est-ce que vous voulez ?", translation: 'Hola. ¿Qué desean?' },
+          { speaker: 'Léa', line: "Je voudrais un croissant et un jus d'orange, s'il vous plaît.", translation: 'Quisiera un cruasán y un jugo de naranja, por favor.' },
+          { speaker: 'Camila', line: 'Pour moi, je voudrais un pain au chocolat et un thé.', translation: 'Para mí, quisiera un pan de chocolate y un té.' },
+          { speaker: 'Serveur', line: "Très bien. C'est tout ?", translation: 'Muy bien. ¿Eso es todo?' },
+          { speaker: 'Léa', line: 'Oui, merci beaucoup.', translation: 'Sí, muchas gracias.' },
+          { speaker: 'Camila', line: "C'est délicieux, ce café !", translation: '¡Este café es delicioso!' }
+        ],
+        phrases: ['Je voudrais...', 'Qu\'est-ce que vous voulez ?', "C'est tout ?", "C'est délicieux."],
+        exercises: [
+          { type: 'mcq', prompt: 'Qu\'est-ce que Léa commande ?', options: ['Un pain au chocolat', "Un croissant et un jus d'orange", 'Une salade', 'Un café'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu\'est-ce que Camila commande ?', options: ['Un croissant et un thé', 'Un pain au chocolat et un thé', "Une salade et de l'eau", "Un jus d'orange"], answer: 1 },
+          { type: 'mcq', prompt: 'Comment Camila trouve-t-elle le café ?', options: ['Mauvais', 'Délicieux', 'Trop cher', 'Fermé'], answer: 1 }
+        ]
+      })
+    }
+  },
+
+  // ---------------------------------------------------------------
+  {
+    slug: 'chez-moi',
+    title: 'Chez moi',
+    titleEs: 'En mi casa',
+    description: "Camila décrit sa chambre chez la famille Lambert.",
+    order: 8,
+    accessTier: 'premium',
+    activities: {
+      reading: activity('reading', {
+        title: 'Ma chambre à Tours',
+        description: 'Camila décrit sa chambre chez la famille Lambert, en trois parties.',
+        reading: {
+          title: 'Ma chambre à Tours',
+          parts: [
+            "Ma chambre, chez la famille Lambert, est petite mais très confortable. Il y a un lit, une armoire et un bureau. Sur le bureau, il y a mon ordinateur et des photos de ma famille dominicaine. Devant la fenêtre, il y a une jolie plante verte que Madame Lambert m'a offerte. Le lit est à côté de la fenêtre, et l'armoire est en face du lit.",
+            "Sous mon lit, il y a une grande valise avec des souvenirs de Saint-Domingue. Entre le bureau et l'armoire, il y a une petite étagère avec mes livres de français. Le chat de Léa, Minou, aime dormir sur mon lit, à côté de mon oreiller. Derrière la porte, il y a un miroir où je me regarde avant de partir à l'école.",
+            "Ma chambre à Saint-Domingue était plus grande, avec des couleurs vives, mais celle-ci est calme et chaleureuse. Léa m'a aidée à décorer les murs avec des photos et des dessins. « C'est ta chambre maintenant, » dit-elle souvent. J'aime beaucoup cet espace : c'est un petit coin de chez moi, ici, à Tours."
+          ],
+          questions: ['Qu\'est-ce qu\'il y a sur le bureau de Camila ?', 'Où dort le chat Minou ?', 'Comment est la chambre de Camila à Saint-Domingue ?'],
+          ordering: {
+            prompt: "Remets les événements de l'histoire dans l'ordre.",
+            events: [
+              'Camila décrit les meubles de sa chambre.',
+              'Elle parle de la valise sous son lit.',
+              'Le chat Minou dort sur son lit.',
+              'Léa aide Camila à décorer les murs.'
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'Qu\'est-ce qu\'il y a sur le bureau de Camila ?', options: ['Un lit', 'Un ordinateur et des photos', 'Une valise', 'Un miroir'], answer: 1 },
+          { type: 'mcq', prompt: "Où est l'armoire par rapport au lit ?", options: ['Sous le lit', 'À côté du lit', 'En face du lit', 'Derrière le lit'], answer: 2 },
+          { type: 'mcq', prompt: 'Qu\'est-ce qu\'il y a sous le lit de Camila ?', options: ['Un chat', 'Une valise', 'Des livres', 'Un miroir'], answer: 1 },
+          { type: 'mcq', prompt: 'Où dort le chat Minou ?', options: ['Sous le lit', 'Sur le lit de Camila', "Dans l'armoire", 'Sur le bureau'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : La chambre de Camila à Tours est très grande.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Léa a aidé Camila à décorer sa chambre.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: "Vrai ou faux : Il y a un miroir derrière la porte.", options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : La chambre de Camila est petite mais très ___.', options: ['confortable', 'fâchée', 'triste', 'fermée'], answer: 0 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Décris ta chambre',
+        description: 'Léa demande à Camila de comparer sa chambre à Tours et à Saint-Domingue.',
+        intro: 'Écoute Léa et Camila qui parlent de leur chambre.',
+        dialogue: [
+          { speaker: 'Léa', line: 'Comment est ta chambre à Saint-Domingue, Camila ?', translation: '¿Cómo es tu cuarto en Santo Domingo, Camila?' },
+          { speaker: 'Camila', line: 'Elle est grande, avec des couleurs vives.', translation: 'Es grande, con colores vivos.' },
+          { speaker: 'Léa', line: "Et qu'est-ce qu'il y a dedans ?", translation: '¿Y qué hay dentro?' },
+          { speaker: 'Camila', line: 'Il y a un grand lit et beaucoup de photos sur les murs.', translation: 'Hay una cama grande y muchas fotos en las paredes.' },
+          { speaker: 'Léa', line: "C'est différent de ta chambre ici !", translation: '¡Es diferente de tu cuarto aquí!' },
+          { speaker: 'Camila', line: "Oui, mais j'aime beaucoup ma chambre ici aussi.", translation: 'Sí, pero también me gusta mucho mi cuarto aquí.' }
+        ],
+        phrases: ['Comment est ta chambre ?', 'Il y a...', 'C\'est différent de...', "J'aime..."],
+        exercises: [
+          { type: 'mcq', prompt: 'Comment est la chambre de Camila à Saint-Domingue ?', options: ['Petite et sombre', 'Grande, avec des couleurs vives', 'Vide', 'Froide'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu\'est-ce qu\'il y a dans sa chambre à Saint-Domingue ?', options: ['Un grand lit et des photos', 'Une valise', 'Un chat', 'Un bureau seulement'], answer: 0 },
+          { type: 'mcq', prompt: 'Camila aime-t-elle sa chambre à Tours ?', options: ['Non, pas du tout', 'Oui, beaucoup', 'Elle ne sait pas', 'Un peu seulement'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Décris ta chambre',
+        description: 'Décris à voix haute ta chambre et où se trouvent les meubles.',
+        mission: 'Décris ta chambre à voix haute : les meubles et où ils se trouvent.',
+        phrases: ['Il y a...', 'à côté de...', 'devant / derrière...', 'sur / sous...'],
+        dialogue: [
+          { speaker: 'Toi', line: 'Dans ma chambre, il y a un lit et un bureau.', translation: 'En mi habitación hay una cama y un escritorio.' },
+          { speaker: 'Camarade', line: "Où est le bureau ?", translation: '¿Dónde está el escritorio?' },
+          { speaker: 'Toi', line: 'Il est à côté de la fenêtre.', translation: 'Está al lado de la ventana.' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: 'Décris ta chambre à voix haute avec au moins trois prépositions de lieu.', answer: 'Oral practice' },
+          { type: 'practice', prompt: 'Dessine ta chambre et explique-la à un(e) camarade.', answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Décris ta chambre',
+        description: 'Écris une description de ta chambre.',
+        mission: 'Décris ta chambre en 30 à 40 mots avec au moins trois prépositions de lieu.',
+        phrases: ['Il y a...', 'à côté de...', 'sur / sous...'],
+        dialogue: [
+          { speaker: 'Modèle', line: "Dans ma chambre, il y a un lit et une armoire. Le bureau est à côté de la fenêtre, et mes livres sont sur l'étagère.", translation: 'En mi habitación hay una cama y un armario. El escritorio está al lado de la ventana, y mis libros están en el estante.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Décris ta chambre (30 à 40 mots) avec au moins trois prépositions de lieu.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: "Il y a, c'est/ce sont et les prépositions de lieu",
+        description: "Il y a, c'est/ce sont, et les prépositions de lieu sur/sous/devant/derrière/entre/à côté de.",
+        grammarNote: "Il y a indique l'existence d'une chose : « Il y a un lit dans ma chambre. » C'est identifie une seule chose ou personne : « C'est mon bureau. » Ce sont identifie plusieurs choses : « Ce sont mes livres. » Les prépositions de lieu situent les objets : sur (le livre est sur la table), sous (la valise est sous le lit), devant (la chaise est devant le bureau), derrière (le miroir est derrière la porte), entre (l'étagère est entre le bureau et l'armoire), à côté de (le lit est à côté de la fenêtre). Les adjectifs s'accordent avec le nom : une chambre confortable, un lit confortable.",
+        phrases: ['Il y a...', "C'est... / Ce sont...", 'sur / sous / devant / derrière / entre / à côté de'],
+        exercises: [
+          { type: 'mcq', prompt: '___ un lit et une armoire dans ma chambre.', options: ['Il y a', "C'est", 'Ce sont', 'Il est'], answer: 0 },
+          { type: 'mcq', prompt: '___ mon bureau.', options: ['Il y a', "C'est", 'Ce sont', 'Il est'], answer: 1 },
+          { type: 'mcq', prompt: 'Le chat dort ___ le lit.', options: ['sur', 'sous', 'devant', 'entre'], answer: 0 },
+          { type: 'mcq', prompt: "L'étagère est ___ le bureau et l'armoire.", options: ['sur', 'sous', 'entre', 'devant'], answer: 2 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'La chambre et la maison',
+        description: 'Vocabulaire des meubles et des prépositions de lieu.',
+        vocabulary: [
+          { word: 'la chambre', translation: 'la habitación', example: 'Ma chambre est petite.' },
+          { word: 'le lit', translation: 'la cama', example: 'Le chat dort sur le lit.' },
+          { word: "l'armoire", translation: 'el armario', example: "L'armoire est en face du lit." },
+          { word: 'le bureau', translation: 'el escritorio', example: 'Mon ordinateur est sur le bureau.' },
+          { word: "l'étagère", translation: 'el estante', example: 'Mes livres sont sur l\'étagère.' },
+          { word: 'le miroir', translation: 'el espejo', example: 'Le miroir est derrière la porte.' },
+          { word: 'la fenêtre', translation: 'la ventana', example: 'Le lit est à côté de la fenêtre.' },
+          { word: 'la porte', translation: 'la puerta', example: 'La porte de ma chambre est bleue.' },
+          { word: 'confortable', translation: 'cómodo/a', example: 'Ma chambre est confortable.' },
+          { word: 'sur / sous', translation: 'sobre / debajo de', example: 'La valise est sous le lit.' },
+          { word: 'devant / derrière', translation: 'delante de / detrás de', example: 'La chaise est devant le bureau.' },
+          { word: 'entre', translation: 'entre', example: "L'étagère est entre le bureau et l'armoire." },
+          { word: 'à côté de', translation: 'al lado de', example: 'Le lit est à côté de la fenêtre.' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « l\'armoire » ?', options: ['El armario', 'La cama', 'El espejo', 'El estante'], answer: 0 },
+          { type: 'mcq', prompt: 'Que signifie « à côté de » ?', options: ['Debajo de', 'Al lado de', 'Detrás de', 'Encima de'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « confortable » ?', options: ['Cómodo/a', 'Pequeño/a', 'Frío/a', 'Vacío/a'], answer: 0 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'Bienvenue chez moi',
+        description: 'Camila montre sa chambre à Karim.',
+        intro: 'Karim visite la maison de la famille Lambert. Camila lui montre sa chambre.',
+        dialogue: [
+          { speaker: 'Camila', line: 'Bienvenue chez moi, Karim ! Voici ma chambre.', translation: 'Bienvenido a mi casa, Karim. Esta es mi habitación.' },
+          { speaker: 'Karim', line: "Elle est belle ! Qu'est-ce que c'est, sur le bureau ?", translation: '¡Es bonita! ¿Qué es eso, en el escritorio?' },
+          { speaker: 'Camila', line: 'Ce sont des photos de ma famille à Saint-Domingue.', translation: 'Son fotos de mi familia en Santo Domingo.' },
+          { speaker: 'Karim', line: 'Et le chat, il dort toujours ici ?', translation: '¿Y el gato, siempre duerme aquí?' },
+          { speaker: 'Camila', line: 'Oui, Minou adore mon lit !', translation: 'Sí, ¡a Minou le encanta mi cama!' },
+          { speaker: 'Karim', line: "C'est une chambre très chaleureuse.", translation: 'Es una habitación muy acogedora.' }
+        ],
+        phrases: ['Bienvenue chez moi.', 'Qu\'est-ce que c\'est ?', 'Ce sont...', "C'est très..."],
+        exercises: [
+          { type: 'mcq', prompt: 'Que montre Camila à Karim ?', options: ['La cuisine', 'Sa chambre', 'Le jardin', "L'école"], answer: 1 },
+          { type: 'mcq', prompt: 'Qu\'est-ce qu\'il y a sur le bureau ?', options: ['Des livres', 'Des photos de famille', 'Un miroir', 'Une valise'], answer: 1 },
+          { type: 'mcq', prompt: 'Où dort Minou, le chat ?', options: ["Dans l'armoire", 'Sur le lit de Camila', 'Sous le bureau', 'Dans la cuisine'], answer: 1 }
+        ]
+      })
+    }
+  },
+
+  // ---------------------------------------------------------------
+  {
+    slug: 'dans-ma-ville',
+    title: 'Dans ma ville',
+    titleEs: 'En mi ciudad',
+    description: 'Camila et Léa se promènent dans Tours et demandent leur chemin.',
+    order: 9,
+    accessTier: 'premium',
+    activities: {
+      reading: activity('reading', {
+        title: 'Une promenade dans Tours',
+        description: 'Camila et Léa explorent le centre-ville de Tours, en trois parties.',
+        reading: {
+          title: 'Une promenade dans Tours',
+          parts: [
+            "Le samedi après-midi, Léa et moi aimons nous promener dans Tours. Nous allons souvent au parc, à la piscine ou au cinéma. Aujourd'hui, nous allons à la médiathèque pour emprunter des livres. Le centre-ville de Tours est joli, avec de vieilles maisons et de petites rues. Nous passons devant la cathédrale, qui est très grande et impressionnante.",
+            "Ensuite, nous voulons aller au marché pour acheter des fruits. « Excusez-moi, où se trouve le marché ? » demande Léa à une dame. « Tournez à droite, puis continuez tout droit jusqu'à la place. Le marché est juste là, » répond la dame. Nous suivons ses indications et nous arrivons rapidement au marché. Il y a beaucoup de fruits, de légumes et de fleurs.",
+            "Après le marché, nous allons à la boulangerie pour acheter du pain, puis nous rentrons à la maison. Sur le chemin, nous croisons Karim, qui va à la piscine avec son frère. « À demain, à l'école ! » nous dit-il. Cette promenade dans Tours me permet de mieux connaître la ville, et chaque semaine, je découvre un nouvel endroit intéressant."
+          ],
+          questions: ['Où vont Léa et Camila en premier ?', 'Comment trouvent-elles le marché ?', 'Qui croisent-elles sur le chemin ?'],
+          ordering: {
+            prompt: "Remets les événements de l'histoire dans l'ordre.",
+            events: [
+              'Léa et Camila vont à la médiathèque.',
+              'Elles demandent où se trouve le marché.',
+              'Elles achètent des fruits au marché.',
+              'Elles croisent Karim sur le chemin du retour.'
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'Où vont Léa et Camila au début de la promenade ?', options: ['Au cinéma', 'À la médiathèque', 'À la piscine', 'Au marché'], answer: 1 },
+          { type: 'mcq', prompt: 'Que font-elles au marché ?', options: ['Elles achètent des fruits et des légumes', 'Elles regardent un film', 'Elles nagent', 'Elles empruntent des livres'], answer: 0 },
+          { type: 'mcq', prompt: 'Qui donne des indications à Léa ?', options: ['Karim', 'Une dame dans la rue', 'Madame Dubois', 'Un vendeur'], answer: 1 },
+          { type: 'mcq', prompt: 'Qui croisent-elles sur le chemin du retour ?', options: ['Madame Lambert', 'Karim', 'Madame Dubois', 'Sofía'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Elles passent devant la cathédrale.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Elles vont au marché en voiture.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Elles achètent du pain à la boulangerie.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Le centre-ville de Tours est joli, avec de vieilles maisons et de petites ___.', options: ['rues', 'piscines', 'voitures', 'écoles'], answer: 0 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Où se trouve la piscine ?',
+        description: 'Camila demande son chemin à un passant.',
+        intro: 'Écoute Camila qui demande son chemin pour aller à la piscine.',
+        dialogue: [
+          { speaker: 'Camila', line: 'Excusez-moi, où se trouve la piscine ?', translation: 'Disculpe, ¿dónde está la piscina?' },
+          { speaker: 'Un passant', line: 'Continuez tout droit, puis tournez à gauche après la boulangerie.', translation: 'Siga todo recto, luego gire a la izquierda después de la panadería.' },
+          { speaker: 'Camila', line: "C'est loin d'ici ?", translation: '¿Está lejos de aquí?' },
+          { speaker: 'Un passant', line: "Non, c'est à cinq minutes à pied.", translation: 'No, está a cinco minutos a pie.' },
+          { speaker: 'Camila', line: 'Merci beaucoup !', translation: '¡Muchas gracias!' },
+          { speaker: 'Un passant', line: 'Je vous en prie. Bonne journée !', translation: 'De nada. ¡Que tenga un buen día!' }
+        ],
+        phrases: ['Où se trouve... ?', 'Tournez à droite/gauche.', 'Continuez tout droit.', "C'est loin ?"],
+        exercises: [
+          { type: 'mcq', prompt: 'Que cherche Camila ?', options: ['Le marché', 'La piscine', 'La gare', 'La médiathèque'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment y aller ?', options: ['Tout droit puis à droite', 'Tout droit puis à gauche', 'À gauche puis à droite', 'Tout droit seulement'], answer: 1 },
+          { type: 'mcq', prompt: "C'est loin ?", options: ['Oui, très loin', 'Non, cinq minutes à pied', 'Une heure en bus', 'Personne ne sait'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Demande ton chemin',
+        description: 'Demande et donne des indications à voix haute.',
+        mission: 'Demande et donne des indications à voix haute pour aller à un endroit de ta ville.',
+        phrases: ['Où se trouve... ?', 'Tournez à...', 'Continuez tout droit.'],
+        dialogue: [
+          { speaker: 'Toi', line: "Excusez-moi, où se trouve la bibliothèque ?", translation: 'Disculpe, ¿dónde está la biblioteca?' },
+          { speaker: 'Camarade', line: 'Tournez à droite, puis continuez tout droit.', translation: 'Gire a la derecha, luego siga todo recto.' },
+          { speaker: 'Toi', line: "C'est loin d'ici ?", translation: '¿Está lejos de aquí?' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: 'Demande ton chemin à voix haute pour aller à un endroit de ta ville.', answer: 'Oral practice' },
+          { type: 'practice', prompt: "Donne des indications à un(e) camarade pour aller de l'école à un endroit connu.", answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Décris ta ville',
+        description: 'Décris ta ville ou ton quartier.',
+        mission: 'Décris ta ville ou ton quartier en 40 à 50 mots : les endroits importants et comment y aller.',
+        phrases: ["Dans ma ville, il y a...", 'Pour aller à..., tournez...'],
+        dialogue: [
+          { speaker: 'Modèle', line: "Dans ma ville, il y a un parc, une médiathèque et un grand marché. Pour aller au marché, on continue tout droit puis on tourne à droite.", translation: 'En mi ciudad hay un parque, una mediateca y un gran mercado. Para ir al mercado, se sigue todo recto y luego se gira a la derecha.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Décris ta ville ou ton quartier (40 à 50 mots) avec au moins une indication de chemin.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: "Le verbe aller et l'impératif",
+        description: 'Le verbe aller, les contractions au/à la/à l\'/aux et l\'impératif pour donner des indications.',
+        grammarNote: "Le verbe aller : je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont. Avec à, la préposition se contracte : à + le = au (au marché), à + la = à la (à la piscine), à + l' = à l' (à l'école), à + les = aux (aux magasins). Pour donner des indications, on utilise l'impératif : tournez à droite, allez tout droit, continuez jusqu'à la place. La question où se trouve... ? sert à demander un lieu : « Où se trouve la gare ? »",
+        phrases: ['Je vais...', 'au / à la / à l\' / aux', 'Tournez... Continuez...', 'Où se trouve... ?'],
+        exercises: [
+          { type: 'mcq', prompt: 'Je vais ___ marché le samedi.', options: ['à', 'au', 'à la', 'aux'], answer: 1 },
+          { type: 'mcq', prompt: 'Nous allons ___ piscine cet après-midi.', options: ['au', 'à la', "à l'", 'aux'], answer: 1 },
+          { type: 'mcq', prompt: '___ à droite, puis continuez tout droit.', options: ['Tourne', 'Tournez', 'Tournons', 'Tourner'], answer: 1 },
+          { type: 'mcq', prompt: '___ se trouve la médiathèque ?', options: ['Où', 'Quand', 'Comment', 'Quel'], answer: 0 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'Les lieux publics et les directions',
+        description: 'Vocabulaire des lieux publics et des directions.',
+        vocabulary: [
+          { word: 'la piscine', translation: 'la piscina', example: 'Karim va à la piscine.' },
+          { word: 'le marché', translation: 'el mercado', example: 'Nous achetons des fruits au marché.' },
+          { word: 'la médiathèque', translation: 'la mediateca', example: 'Léa emprunte des livres à la médiathèque.' },
+          { word: 'la boulangerie', translation: 'la panadería', example: 'Nous achetons du pain à la boulangerie.' },
+          { word: 'la cathédrale', translation: 'la catedral', example: 'La cathédrale de Tours est très grande.' },
+          { word: 'la place', translation: 'la plaza', example: 'Le marché est sur la place.' },
+          { word: 'le centre-ville', translation: 'el centro de la ciudad', example: 'Le centre-ville de Tours est joli.' },
+          { word: 'à droite / à gauche', translation: 'a la derecha / a la izquierda', example: 'Tournez à droite.' },
+          { word: 'tout droit', translation: 'todo recto', example: 'Continuez tout droit.' },
+          { word: 'tourner', translation: 'girar', example: 'Tournez au feu.' },
+          { word: 'continuer', translation: 'seguir/continuar', example: 'Continuez jusqu\'à la place.' },
+          { word: 'où se trouve... ?', translation: '¿dónde está...?', example: 'Où se trouve la gare ?' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « la boulangerie » ?', options: ['La panadería', 'La piscina', 'La plaza', 'La catedral'], answer: 0 },
+          { type: 'mcq', prompt: 'Que signifie « tout droit » ?', options: ['A la derecha', 'A la izquierda', 'Todo recto', 'Detrás'], answer: 2 },
+          { type: 'mcq', prompt: 'Que signifie « tourner » ?', options: ['Girar', 'Continuar', 'Parar', 'Comprar'], answer: 0 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'Où est la gare ?',
+        description: 'Camila demande son chemin pour aller à la gare.',
+        intro: 'Camila doit prendre le train et demande son chemin à un passant dans la rue.',
+        dialogue: [
+          { speaker: 'Camila', line: "Excusez-moi, où est la gare, s'il vous plaît ?", translation: 'Disculpe, ¿dónde está la estación de tren, por favor?' },
+          { speaker: 'Passant', line: 'Allez tout droit, puis tournez à gauche au feu.', translation: 'Vaya todo recto, luego gire a la izquierda en el semáforo.' },
+          { speaker: 'Camila', line: "C'est loin d'ici ?", translation: '¿Está lejos de aquí?' },
+          { speaker: 'Passant', line: "Non, c'est à dix minutes à pied.", translation: 'No, está a diez minutos a pie.' },
+          { speaker: 'Camila', line: 'Merci beaucoup pour votre aide !', translation: '¡Muchas gracias por su ayuda!' },
+          { speaker: 'Passant', line: 'De rien, bon voyage !', translation: 'De nada, ¡buen viaje!' }
+        ],
+        phrases: ['Où est... ?', 'Allez tout droit.', 'Tournez à gauche.', "C'est à... minutes à pied."],
+        exercises: [
+          { type: 'mcq', prompt: 'Que cherche Camila ?', options: ['Le marché', 'La gare', 'La piscine', 'La cathédrale'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment aller à la gare ?', options: ['Tout droit puis à gauche au feu', 'À droite seulement', 'Tout droit seulement', 'À gauche puis à droite'], answer: 0 },
+          { type: 'mcq', prompt: 'À combien de minutes à pied est la gare ?', options: ['Cinq minutes', 'Dix minutes', 'Vingt minutes', 'Une heure'], answer: 1 }
+        ]
+      })
+    }
   }
 ];
 
