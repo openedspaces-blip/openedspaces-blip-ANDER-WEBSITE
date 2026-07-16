@@ -4083,9 +4083,48 @@ footer small {
   color: var(--muted);
 }
 
-.speaking-record-btn:hover {
+.speaking-record-btn:hover:not(:disabled) {
   border-color: var(--blue);
   color: var(--blue);
+}
+
+.speaking-record-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.speaking-record-btn[data-recording-action='record']:not(:disabled) {
+  border-color: #ef4444;
+  color: #ef4444;
+}
+
+.speaking-record-status {
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin: 0.3rem 0;
+}
+
+.speaking-record-timer {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0.2rem 0;
+}
+
+.speaking-record-warning {
+  color: #b45309;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin: 0.3rem 0;
+}
+
+.speaking-record-result {
+  font-size: 0.85rem;
+  color: var(--muted);
+  background: var(--bg-soft, rgba(96, 165, 250, 0.08));
+  border-radius: 12px;
+  padding: 0.6rem 0.8rem;
+  margin: 0.4rem 0;
 }
 
 .speaking-record-note {

@@ -1544,11 +1544,282 @@ function renderWritingView(section, lesson) {
   updateWordCount();
 }
 
+// Speaking recorder state - kept in memory only, never in localStorage/
+// sessionStorage/IndexedDB. teardownSpeakingResources() is the single place
+// that releases the mic, stops the MediaRecorder, and revokes the object
+// URL; resetSpeakingRecorder() calls it and returns the UI to idle. Both are
+// safe to call at any time, including when nothing is active (no-op).
+let speakingRecorder = {
+  mediaRecorder: null,
+  stream: null,
+  recordedChunks: [],
+  audioBlob: null,
+  audioUrl: null,
+  audioEl: null,
+  mimeType: '',
+  timerId: null,
+  elapsedSeconds: 0,
+  status: 'idle', // idle | requesting | recording | stopped | sending | denied | unsupported
+  config: { minimumSeconds: 30, maximumSeconds: 60, allowShortSubmission: false },
+  container: null
+};
+
+function pickSpeakingMimeType() {
+  if (typeof MediaRecorder === 'undefined' || !MediaRecorder.isTypeSupported) return '';
+  const candidates = [
+    'audio/webm;codecs=opus',
+    'audio/webm',
+    'audio/ogg;codecs=opus',
+    'audio/ogg',
+    'audio/mp4'
+  ];
+  return candidates.find((type) => MediaRecorder.isTypeSupported(type)) || '';
+}
+
+function teardownSpeakingResources() {
+  const r = speakingRecorder;
+  if (r.timerId) {
+    window.clearInterval(r.timerId);
+    r.timerId = null;
+  }
+  if (r.mediaRecorder && r.mediaRecorder.state !== 'inactive') {
+    try {
+      r.mediaRecorder.stop();
+    } catch {
+      /* already stopped/inactive */
+    }
+  }
+  r.stream?.getTracks().forEach((track) => track.stop());
+  if (r.audioEl) {
+    try {
+      r.audioEl.pause();
+    } catch {
+      /* ignore */
+    }
+    r.audioEl.src = '';
+  }
+  if (r.audioUrl) URL.revokeObjectURL(r.audioUrl);
+  r.mediaRecorder = null;
+  r.stream = null;
+  r.recordedChunks = [];
+  r.audioBlob = null;
+  r.audioUrl = null;
+  r.audioEl = null;
+  r.elapsedSeconds = 0;
+}
+
+// Called on: Eliminar, before Volver a grabar, on lesson/language/skill
+// navigation (showView), and on window unload - covers every cleanup
+// trigger the feature requires without needing a cleanup call at each site.
+function resetSpeakingRecorder() {
+  teardownSpeakingResources();
+  speakingRecorder.status = 'idle';
+  if (speakingRecorder.container && document.body.contains(speakingRecorder.container)) {
+    updateSpeakingUI(speakingRecorder.container);
+  }
+}
+
+function formatSpeakingTime(totalSeconds) {
+  const m = Math.floor(totalSeconds / 60);
+  const s = totalSeconds % 60;
+  return `${m}:${String(s).padStart(2, '0')}`;
+}
+
+function updateSpeakingUI(container) {
+  if (!container) return;
+  const r = speakingRecorder;
+  const byAction = (action) => container.querySelector(`[data-recording-action="${action}"]`);
+  const meetsMinimum = r.elapsedSeconds >= r.config.minimumSeconds || r.config.allowShortSubmission;
+
+  const disabledByStatus = {
+    idle: { record: false, stop: true, play: true, delete: true, redo: true, send: true },
+    requesting: { record: true, stop: true, play: true, delete: true, redo: true, send: true },
+    recording: { record: true, stop: false, play: true, delete: false, redo: true, send: true },
+    stopped: {
+      record: true,
+      stop: true,
+      play: false,
+      delete: false,
+      redo: false,
+      send: !meetsMinimum
+    },
+    sending: { record: true, stop: true, play: true, delete: true, redo: true, send: true },
+    denied: { record: false, stop: true, play: true, delete: true, redo: true, send: true },
+    unsupported: { record: true, stop: true, play: true, delete: true, redo: true, send: true }
+  };
+  const d = disabledByStatus[r.status] || disabledByStatus.idle;
+  ['record', 'stop', 'play', 'delete', 'redo', 'send'].forEach((action) => {
+    const btn = byAction(action);
+    if (btn) btn.disabled = d[action];
+  });
+
+  const statusLabels = {
+    idle: 'Disponible',
+    requesting: 'Preparando micrófono…',
+    recording: 'Grabando…',
+    stopped: 'Listo para escuchar',
+    sending: 'Enviando…',
+    denied: 'No se pudo acceder al micrófono. Revisa los permisos de tu navegador.',
+    unsupported: 'Tu navegador no admite grabación de audio. Usa la respuesta escrita.'
+  };
+  const statusEl = container.querySelector('.speaking-record-status');
+  if (statusEl) statusEl.textContent = statusLabels[r.status] || '';
+
+  const timerEl = container.querySelector('.speaking-record-timer');
+  if (timerEl) {
+    timerEl.hidden = r.status === 'idle' || r.status === 'unsupported' || r.status === 'denied';
+    timerEl.textContent = `${formatSpeakingTime(r.elapsedSeconds)} / ${formatSpeakingTime(r.config.maximumSeconds)}`;
+  }
+
+  const warningEl = container.querySelector('.speaking-record-warning');
+  if (warningEl) {
+    const showWarning = r.status === 'stopped' && !meetsMinimum;
+    warningEl.hidden = !showWarning;
+    if (showWarning) {
+      warningEl.textContent = `Tu respuesta es muy corta. Intenta hablar al menos ${r.config.minimumSeconds} segundos.`;
+    }
+  }
+}
+
+async function startSpeakingRecording(container) {
+  const r = speakingRecorder;
+  if (typeof MediaRecorder === 'undefined' || !navigator.mediaDevices?.getUserMedia) {
+    r.status = 'unsupported';
+    updateSpeakingUI(container);
+    return;
+  }
+
+  r.status = 'requesting';
+  updateSpeakingUI(container);
+
+  let stream;
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  } catch {
+    r.status = 'denied';
+    updateSpeakingUI(container);
+    return;
+  }
+
+  const mimeType = pickSpeakingMimeType();
+  const recorder = mimeType ? new MediaRecorder(stream, { mimeType }) : new MediaRecorder(stream);
+  r.stream = stream;
+  r.mediaRecorder = recorder;
+  r.mimeType = mimeType || recorder.mimeType || 'audio/webm';
+  r.recordedChunks = [];
+  r.elapsedSeconds = 0;
+
+  recorder.addEventListener('dataavailable', (event) => {
+    if (event.data && event.data.size > 0) r.recordedChunks.push(event.data);
+  });
+  recorder.addEventListener('stop', () => {
+    r.audioBlob = new Blob(r.recordedChunks, { type: r.mimeType });
+    r.audioUrl = URL.createObjectURL(r.audioBlob);
+    r.stream?.getTracks().forEach((track) => track.stop());
+    r.stream = null;
+    r.status = 'stopped';
+    updateSpeakingUI(container);
+  });
+
+  recorder.start();
+  r.status = 'recording';
+  updateSpeakingUI(container);
+
+  r.timerId = window.setInterval(() => {
+    r.elapsedSeconds += 1;
+    updateSpeakingUI(container);
+    if (r.elapsedSeconds >= r.config.maximumSeconds) stopSpeakingRecording();
+  }, 1000);
+}
+
+function stopSpeakingRecording() {
+  const r = speakingRecorder;
+  if (r.timerId) {
+    window.clearInterval(r.timerId);
+    r.timerId = null;
+  }
+  if (r.mediaRecorder && r.mediaRecorder.state !== 'inactive') r.mediaRecorder.stop();
+}
+
+function playSpeakingRecording() {
+  const r = speakingRecorder;
+  if (!r.audioUrl) return;
+  if (!r.audioEl) r.audioEl = new Audio();
+  r.audioEl.src = r.audioUrl;
+  r.audioEl.play().catch(() => {});
+}
+
+function deleteSpeakingRecording(container) {
+  teardownSpeakingResources();
+  speakingRecorder.status = 'idle';
+  updateSpeakingUI(container);
+}
+
+function redoSpeakingRecording(container) {
+  teardownSpeakingResources();
+  speakingRecorder.status = 'idle';
+  startSpeakingRecording(container);
+}
+
+async function sendSpeakingRecording(container, lesson) {
+  const r = speakingRecorder;
+  if (!r.audioBlob) return;
+  r.status = 'sending';
+  updateSpeakingUI(container);
+
+  const ext = r.mimeType.includes('ogg') ? 'ogg' : r.mimeType.includes('mp4') ? 'mp4' : 'webm';
+  const formData = new FormData();
+  formData.append('audio', r.audioBlob, `speaking-response.${ext}`);
+  formData.append('language', learningPathState.language || '');
+  formData.append('level', learningPathState.level || '');
+  formData.append('lessonId', lesson?.slug || '');
+  formData.append('expectedPrompt', lesson?.dialogue?.[0]?.line || lesson?.phrases?.[0] || '');
+  formData.append('durationSeconds', String(r.elapsedSeconds));
+
+  const resultEl = container.querySelector('.speaking-record-result');
+
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/speaking/analyze`, {
+      method: 'POST',
+      headers: { ...authHeaders() },
+      body: formData
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok || !data.ok) throw new Error(data.message || 'No se pudo procesar el audio.');
+
+    teardownSpeakingResources();
+    r.status = 'idle';
+    updateSpeakingUI(container);
+    if (resultEl) {
+      resultEl.hidden = false;
+      resultEl.textContent = data.analyzed
+        ? data.feedback || 'Audio procesado y eliminado de forma segura.'
+        : `${data.message} Audio procesado y eliminado de forma segura.`;
+    }
+  } catch (error) {
+    r.status = 'stopped';
+    updateSpeakingUI(container);
+    if (resultEl) {
+      resultEl.hidden = false;
+      resultEl.textContent = error.message || 'No se pudo enviar el audio. Intenta de nuevo.';
+    }
+  }
+}
+
 function renderSpeakingView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
+  resetSpeakingRecorder();
+
   const situacion = lesson.mission || lesson.intro || lesson.description || '';
   const fraseModelo = lesson.dialogue?.[0]?.line || lesson.phrases?.[0] || '';
+  const taskConfig = {
+    minimumSeconds: 30,
+    maximumSeconds: 60,
+    allowShortSubmission: false,
+    ...(lesson.speakingTask || {})
+  };
+  speakingRecorder.config = taskConfig;
 
   content.innerHTML = `
     <h3>${escapeHtml(lesson.title)}</h3>
@@ -1557,21 +1828,55 @@ function renderSpeakingView(section, lesson) {
     <label class="speaking-response-label" for="speakingResponse">Tu respuesta (escrita)</label>
     <textarea id="speakingResponse" class="speaking-response" rows="4" placeholder="Escribe lo que dirías…"></textarea>
 
-    <div class="speaking-record-row" role="group" aria-label="Grabación de voz (próximamente)">
-      <button type="button" class="speaking-record-btn" data-recording-action="record">🔴 Grabar</button>
-      <button type="button" class="speaking-record-btn" data-recording-action="stop">⏹ Detener</button>
-      <button type="button" class="speaking-record-btn" data-recording-action="play">▶ Reproducir</button>
-      <button type="button" class="speaking-record-btn" data-recording-action="delete">🗑 Eliminar</button>
-      <button type="button" class="speaking-record-btn" data-recording-action="redo">↺ Volver a grabar</button>
-      <button type="button" class="speaking-record-btn" data-recording-action="send">📤 Enviar</button>
+    <div class="speaking-record-row" role="group" aria-label="Grabación de voz">
+      <button type="button" class="speaking-record-btn" data-recording-action="record" aria-label="Grabar respuesta">🔴 Grabar</button>
+      <button type="button" class="speaking-record-btn" data-recording-action="stop" aria-label="Detener grabación">⏹ Detener</button>
+      <button type="button" class="speaking-record-btn" data-recording-action="play" aria-label="Reproducir grabación">▶ Reproducir</button>
+      <button type="button" class="speaking-record-btn" data-recording-action="delete" aria-label="Eliminar grabación">🗑 Eliminar</button>
+      <button type="button" class="speaking-record-btn" data-recording-action="redo" aria-label="Volver a grabar">↺ Volver a grabar</button>
+      <button type="button" class="speaking-record-btn" data-recording-action="send" aria-label="Enviar grabación">📤 Enviar</button>
     </div>
-    <p class="speaking-record-note">La grabación de voz estará disponible próximamente. Por ahora, practica con una respuesta escrita.</p>
+    <p class="speaking-record-status" aria-live="polite"></p>
+    <p class="speaking-record-timer" hidden></p>
+    <p class="speaking-record-warning" role="alert" hidden></p>
+    <p class="speaking-record-result" aria-live="polite" hidden></p>
+    <p class="speaking-record-note">La grabación se procesa temporalmente y no se conserva.</p>
 
     <div class="skill-view-tutor-cta">
       <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Quiero practicar esta conversación: ${escapeHtml(situacion)}" data-support-mode="practice">Practicar con Tutor IA</button>
     </div>
   `;
+
+  // `content`, not just the button row, is used as the shared reference so
+  // updateSpeakingUI can also reach the status/timer/warning/result <p>
+  // elements, which are siblings of .speaking-record-row rather than
+  // children of it.
+  speakingRecorder.container = content;
+  updateSpeakingUI(content);
+
+  content.querySelector('[data-recording-action="record"]')?.addEventListener('click', () => {
+    startSpeakingRecording(content);
+  });
+  content.querySelector('[data-recording-action="stop"]')?.addEventListener('click', () => {
+    stopSpeakingRecording();
+  });
+  content.querySelector('[data-recording-action="play"]')?.addEventListener('click', () => {
+    playSpeakingRecording();
+  });
+  content.querySelector('[data-recording-action="delete"]')?.addEventListener('click', () => {
+    deleteSpeakingRecording(content);
+  });
+  content.querySelector('[data-recording-action="redo"]')?.addEventListener('click', () => {
+    redoSpeakingRecording(content);
+  });
+  content.querySelector('[data-recording-action="send"]')?.addEventListener('click', () => {
+    sendSpeakingRecording(content, lesson);
+  });
 }
+
+window.addEventListener('beforeunload', () => {
+  teardownSpeakingResources();
+});
 
 function renderGrammarView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
@@ -2778,6 +3083,10 @@ function getViewFromHash() {
 function showView(viewId) {
   const resolved = VIEW_SECTIONS[viewId] ? viewId : 'home';
 
+  // Any navigation away from the current view must release the mic and
+  // drop any in-progress Speaking recording - a no-op when nothing is active.
+  resetSpeakingRecorder();
+
   Object.entries(VIEW_SECTIONS).forEach(([id, selectors]) => {
     const active = id === resolved;
     selectors.forEach((selector) =>
@@ -3327,11 +3636,6 @@ function enableHomepageActions() {
           currentBlock.querySelector('p').textContent =
             document.getElementById('writingEditor')?.value.trim() || '';
       }
-      return;
-    }
-
-    if (event.target.closest('.speaking-record-btn')) {
-      showHomeToast('Grabación disponible próximamente.');
       return;
     }
 
