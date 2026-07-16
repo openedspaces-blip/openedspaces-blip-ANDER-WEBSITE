@@ -789,6 +789,52 @@ a:focus-visible {
   display: none;
 }
 
+.verify-account-step[hidden],
+.verify-account-success[hidden] {
+  display: none;
+}
+
+.verify-account-step h4,
+.verify-account-success h4 {
+  font-size: 1.3rem;
+  margin: 0 0 6px;
+}
+
+.otp-input-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.otp-digit {
+  width: 46px;
+  height: 56px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  color: var(--navy-2);
+}
+
+.otp-digit:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.otp-status {
+  margin: 0;
+  min-height: 1.1em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-align: center;
+}
+
+.otp-status.is-error {
+  color: #dc2626;
+}
+
 .password-field {
   position: relative;
   display: block;
@@ -3072,6 +3118,104 @@ footer small {
   .goals-layout {
     grid-template-columns: 1fr;
   }
+}
+
+/* Security section ("Seguridad de la cuenta" - TOTP enrollment) */
+.security-section {
+  background: var(--light);
+}
+
+.security-panel {
+  background: var(--surface);
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-soft);
+  max-width: 560px;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.security-mfa-status {
+  display: grid;
+  gap: 0.85rem;
+  align-items: start;
+}
+
+.mfa-enroll-flow[hidden] {
+  display: none;
+}
+
+.mfa-enroll-flow {
+  display: grid;
+  gap: 0.85rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1.25rem;
+}
+
+.mfa-enroll-flow h3 {
+  font-size: 1.15rem;
+}
+
+.mfa-qr-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  background: var(--bg);
+  border-radius: 14px;
+}
+
+.mfa-qr-wrap img {
+  max-width: 200px;
+  height: auto;
+}
+
+.mfa-manual-key {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+  word-break: break-all;
+}
+
+.mfa-manual-key code {
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-weight: 700;
+  color: var(--navy-2);
+}
+
+.mfa-code-input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 14px 16px;
+  font-size: 1.1rem;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: var(--navy-2);
+}
+
+.mfa-status-text {
+  margin: 0;
+  min-height: 1.1em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-align: center;
+}
+
+.mfa-status-text.is-error {
+  color: #dc2626;
+}
+
+.mfa-enroll-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.mfa-enroll-actions .primary-btn,
+.mfa-enroll-actions .secondary-btn {
+  flex: 1;
 }
 
 /* Achievements section */

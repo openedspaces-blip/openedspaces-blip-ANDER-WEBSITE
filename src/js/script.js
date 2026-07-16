@@ -1231,19 +1231,78 @@ function setupPasswordStrengthMeter(inputId, statusId) {
 }
 
 let lastSignupEmail = '';
+let resendOtpCooldownId = null;
+
+// "a******@correo.com" - first character of the local part kept, everything
+// else (local part and domain) masked, per the requested UI copy. Falls back
+// to the raw string if it doesn't look like an email at all.
+function maskEmail(email) {
+  const match = /^(.)([^@]*)@(.+)$/.exec(email || '');
+  if (!match) return email || '';
+  const [, first, rest, domain] = match;
+  return `${first}${'*'.repeat(Math.max(rest.length, 1))}@${domain}`;
+}
+
+function getOtpDigitInputs() {
+  return Array.from(document.querySelectorAll('#otpInputRow .otp-digit'));
+}
+
+function getOtpCode() {
+  return getOtpDigitInputs()
+    .map((input) => input.value.trim())
+    .join('');
+}
+
+function clearOtpDigits() {
+  const inputs = getOtpDigitInputs();
+  inputs.forEach((input) => (input.value = ''));
+  inputs[0]?.focus();
+}
+
+function setResendOtpCooldown(seconds) {
+  const button = document.getElementById('resendOtpBtn');
+  if (!button) return;
+  if (resendOtpCooldownId) window.clearInterval(resendOtpCooldownId);
+
+  let remaining = seconds;
+  button.disabled = true;
+  button.textContent = `Reenviar código (${remaining}s)`;
+  resendOtpCooldownId = window.setInterval(() => {
+    remaining -= 1;
+    if (remaining <= 0) {
+      window.clearInterval(resendOtpCooldownId);
+      resendOtpCooldownId = null;
+      button.disabled = false;
+      button.textContent = 'Reenviar código';
+      return;
+    }
+    button.textContent = `Reenviar código (${remaining}s)`;
+  }, 1000);
+}
 
 function showSignupPending(email) {
   lastSignupEmail = email;
   const fields = document.querySelector('#signupForm .signup-fields');
   const pending = document.getElementById('signupPending');
+  const verifyStep = document.getElementById('verifyAccountStep');
+  const verifySuccess = document.getElementById('verifyAccountSuccess');
+  const statusEl = document.getElementById('otpStatus');
   if (fields) fields.hidden = true;
   if (pending) {
     pending.hidden = false;
     const messageEl = pending.querySelector('.signup-pending-message');
     if (messageEl) {
-      messageEl.textContent = `Te enviamos un enlace de confirmación a ${email}. Revisa también la carpeta de spam.`;
+      messageEl.textContent = `Te enviamos un código de 6 dígitos a ${maskEmail(email)}. Revisa también la carpeta de spam.`;
     }
   }
+  if (verifyStep) verifyStep.hidden = false;
+  if (verifySuccess) verifySuccess.hidden = true;
+  if (statusEl) {
+    statusEl.textContent = '';
+    statusEl.classList.remove('is-error');
+  }
+  clearOtpDigits();
+  setResendOtpCooldown(30);
 }
 
 function resetSignupPending() {
@@ -1251,7 +1310,45 @@ function resetSignupPending() {
   const pending = document.getElementById('signupPending');
   if (fields) fields.hidden = false;
   if (pending) pending.hidden = true;
+  if (resendOtpCooldownId) {
+    window.clearInterval(resendOtpCooldownId);
+    resendOtpCooldownId = null;
+  }
 }
+
+// Auto-advance/backspace/paste across the 6 individual digit boxes - kept
+// scoped to #otpInputRow so it never interferes with any other input on the
+// page.
+document.getElementById('otpInputRow')?.addEventListener('input', (event) => {
+  const input = event.target.closest('.otp-digit');
+  if (!input) return;
+  input.value = input.value.replace(/\D/g, '').slice(0, 1);
+  if (input.value) {
+    const inputs = getOtpDigitInputs();
+    const next = inputs[inputs.indexOf(input) + 1];
+    next?.focus();
+  }
+});
+
+document.getElementById('otpInputRow')?.addEventListener('keydown', (event) => {
+  const input = event.target.closest('.otp-digit');
+  if (!input || event.key !== 'Backspace' || input.value) return;
+  const inputs = getOtpDigitInputs();
+  const prev = inputs[inputs.indexOf(input) - 1];
+  prev?.focus();
+});
+
+document.getElementById('otpInputRow')?.addEventListener('paste', (event) => {
+  const input = event.target.closest('.otp-digit');
+  if (!input) return;
+  event.preventDefault();
+  const digits = (event.clipboardData?.getData('text') || '').replace(/\D/g, '').slice(0, 6);
+  const inputs = getOtpDigitInputs();
+  digits.split('').forEach((digit, index) => {
+    if (inputs[index]) inputs[index].value = digit;
+  });
+  (inputs[digits.length] || inputs[inputs.length - 1])?.focus();
+});
 
 document.getElementById('signupPending')?.addEventListener('click', async (event) => {
   const button = event.target.closest('[data-action]');
@@ -1262,41 +1359,280 @@ document.getElementById('signupPending')?.addEventListener('click', async (event
     openModal('login');
     // Carry the email over (never the password) so the student doesn't
     // have to retype it - it's the same address they just registered with.
-    const loginEmailInput = document.querySelector('#loginForm input[type="email"]');
-    if (loginEmailInput) loginEmailInput.value = lastSignupEmail;
+    const loginIdentifierInput = document.getElementById('loginIdentifier');
+    if (loginIdentifierInput) loginIdentifierInput.value = lastSignupEmail;
     return;
   }
 
-  if (button.dataset.action === 'resend-confirmation') {
+  if (button.dataset.action === 'confirm-otp') {
+    const statusEl = document.getElementById('otpStatus');
+    const code = getOtpCode();
+    if (!/^\d{6}$/.test(code)) {
+      if (statusEl) {
+        statusEl.textContent = 'Ingresa los 6 dígitos del código.';
+        statusEl.classList.add('is-error');
+      }
+      return;
+    }
+
     button.disabled = true;
+    if (statusEl) {
+      statusEl.textContent = '';
+      statusEl.classList.remove('is-error');
+    }
     try {
-      const response = await fetch(`${backendBaseUrl}/api/auth/resend-confirmation`, {
+      const response = await fetch(`${backendBaseUrl}/api/auth/verify-otp`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: lastSignupEmail, token: code, purpose: 'signup' })
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok || !data.ok) {
+        throw new Error(data.message || 'Código incorrecto. Intenta de nuevo.');
+      }
+
+      const verifyStep = document.getElementById('verifyAccountStep');
+      const verifySuccess = document.getElementById('verifyAccountSuccess');
+      if (verifyStep) verifyStep.hidden = true;
+      if (verifySuccess) verifySuccess.hidden = false;
+    } catch (error) {
+      if (statusEl) {
+        statusEl.textContent = error.message || 'Código incorrecto. Intenta de nuevo.';
+        statusEl.classList.add('is-error');
+      }
+      clearOtpDigits();
+    } finally {
+      button.disabled = false;
+    }
+    return;
+  }
+
+  if (button.dataset.action === 'resend-otp') {
+    button.disabled = true;
+    const statusEl = document.getElementById('otpStatus');
+    try {
+      const response = await fetch(`${backendBaseUrl}/api/auth/resend-otp`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: lastSignupEmail })
       });
-      // The backend's message is always the same neutral "if this account
-      // exists" text (by design, to avoid revealing whether an email is
-      // registered) - it can't tell success and self-throttling apart, so
-      // that distinction is made here from the HTTP status instead. Hitting
-      // this endpoint's own rate limit doesn't leak anything about the
-      // account, unlike the "does it exist" question, so it's safe to be
-      // specific about it.
+      // Same neutral-response design as /api/auth/resend-confirmation - the
+      // backend never distinguishes "sent" from "no such pending account" in
+      // its own message, so only the rate-limit (429) case gets a different,
+      // safe-to-show status here.
       if (response.status === 429) {
-        showHomeToast(
-          'Has solicitado varios correos. Espera unos minutos antes de intentarlo nuevamente.'
-        );
-      } else if (response.ok) {
-        showHomeToast('Correo reenviado. Revisa tu bandeja de entrada y la carpeta de spam.');
+        if (statusEl) statusEl.textContent = 'Has solicitado varios códigos. Espera unos minutos.';
       } else {
-        showHomeToast('No se pudo reenviar el correo. Intenta de nuevo más tarde.');
+        if (statusEl) statusEl.textContent = 'Código reenviado. Revisa tu correo.';
       }
     } catch (error) {
-      console.warn('Could not resend confirmation email', error);
-      showHomeToast('No se pudo reenviar el correo. Intenta de nuevo más tarde.');
+      console.warn('Could not resend OTP', error);
+      if (statusEl) statusEl.textContent = 'No se pudo reenviar el código. Intenta de nuevo.';
+    } finally {
+      clearOtpDigits();
+      setResendOtpCooldown(30);
+    }
+  }
+});
+
+// "Seguridad de la cuenta" - TOTP enrollment (#security). factorId is only
+// ever held here in memory for the duration of one enroll attempt; nothing
+// about the factor (secret, QR, codes) is ever sent anywhere but Supabase.
+let pendingEnrollFactorId = null;
+
+function renderSecurityActivateButton() {
+  const status = document.getElementById('securityMfaStatus');
+  if (!status) return;
+  status.innerHTML = `
+    <p>No tienes activada la verificación en dos pasos.</p>
+    <button type="button" class="primary-btn" data-security-action="start-enroll">
+      Activar verificación en dos pasos
+    </button>
+  `;
+}
+
+function renderSecurityActiveState(factor) {
+  const status = document.getElementById('securityMfaStatus');
+  if (!status) return;
+  status.innerHTML = `
+    <p>✅ Verificación en dos pasos activada${factor.friendlyName ? ` (${escapeHtml(factor.friendlyName)})` : ''}.</p>
+    <button type="button" class="secondary-btn" data-security-action="unenroll" data-factor-id="${escapeHtml(factor.id)}">
+      Desactivar
+    </button>
+  `;
+}
+
+async function loadSecurityStatus() {
+  const status = document.getElementById('securityMfaStatus');
+  const enrollFlow = document.getElementById('mfaEnrollFlow');
+  if (enrollFlow) enrollFlow.hidden = true;
+  if (!authStatus.session?.access_token) {
+    if (status)
+      status.innerHTML = '<p class="skill-graph-empty">Inicia sesión para ver tu seguridad.</p>';
+    return;
+  }
+  if (status) status.innerHTML = '<p class="skill-graph-empty">Cargando estado de seguridad…</p>';
+
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/mfa/factors`, { headers: authHeaders() });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error('Request failed');
+    const activeFactor = (data.totp || []).find((factor) => factor.status === 'verified');
+    if (activeFactor) renderSecurityActiveState(activeFactor);
+    else renderSecurityActivateButton();
+  } catch (error) {
+    console.warn('Could not load security status', error);
+    if (status)
+      status.innerHTML =
+        '<p class="skill-graph-empty">No se pudo cargar tu estado de seguridad. Intenta recargar.</p>';
+  }
+}
+
+function resetMfaEnrollFlow() {
+  pendingEnrollFactorId = null;
+  const enrollFlow = document.getElementById('mfaEnrollFlow');
+  if (enrollFlow) enrollFlow.hidden = true;
+  const codeInput = document.getElementById('mfaEnrollCode');
+  if (codeInput) codeInput.value = '';
+  const enrollStatus = document.getElementById('mfaEnrollStatus');
+  if (enrollStatus) {
+    enrollStatus.textContent = '';
+    enrollStatus.classList.remove('is-error');
+  }
+}
+
+document.getElementById('securityMfaStatus')?.addEventListener('click', async (event) => {
+  const button = event.target.closest('[data-security-action]');
+  if (!button) return;
+
+  if (button.dataset.securityAction === 'start-enroll') {
+    button.disabled = true;
+    try {
+      const response = await fetch(`${backendBaseUrl}/api/mfa/totp/enroll`, {
+        method: 'POST',
+        headers: authHeaders()
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok || !data.ok) {
+        throw new Error(data.message || 'No se pudo iniciar la activación.');
+      }
+      pendingEnrollFactorId = data.factorId;
+      const qrWrap = document.getElementById('mfaQrWrap');
+      if (qrWrap) {
+        qrWrap.innerHTML = `<img src="${escapeHtml(data.qrCode)}" alt="Código QR para configurar tu aplicación autenticadora" width="200" height="200" />`;
+      }
+      const manualKey = document.getElementById('mfaManualKey');
+      if (manualKey) manualKey.textContent = data.secret || '';
+      const enrollFlow = document.getElementById('mfaEnrollFlow');
+      if (enrollFlow) enrollFlow.hidden = false;
+      document.getElementById('mfaEnrollCode')?.focus();
+    } catch (error) {
+      showHomeToast(error.message || 'No se pudo iniciar la activación.');
     } finally {
       button.disabled = false;
     }
+    return;
+  }
+
+  if (button.dataset.securityAction === 'unenroll') {
+    if (!window.confirm('¿Desactivar la verificación en dos pasos?')) return;
+    button.disabled = true;
+    try {
+      const response = await fetch(`${backendBaseUrl}/api/mfa/totp/unenroll`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeaders() },
+        body: JSON.stringify({ factorId: button.dataset.factorId })
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok || !data.ok) throw new Error('No se pudo desactivar.');
+      showHomeToast('Verificación en dos pasos desactivada.');
+      await loadSecurityStatus();
+    } catch (error) {
+      showHomeToast(error.message || 'No se pudo desactivar. Intenta de nuevo.');
+      button.disabled = false;
+    }
+  }
+});
+
+document.getElementById('mfaCancelEnrollBtn')?.addEventListener('click', async () => {
+  if (pendingEnrollFactorId) {
+    try {
+      await fetch(`${backendBaseUrl}/api/mfa/totp/unenroll`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeaders() },
+        body: JSON.stringify({ factorId: pendingEnrollFactorId })
+      });
+    } catch (error) {
+      console.warn('Could not clean up cancelled enrollment', error);
+    }
+  }
+  resetMfaEnrollFlow();
+});
+
+document.getElementById('mfaVerifyEnrollBtn')?.addEventListener('click', async () => {
+  const codeInput = document.getElementById('mfaEnrollCode');
+  const enrollStatus = document.getElementById('mfaEnrollStatus');
+  const code = codeInput?.value.trim() || '';
+  const button = document.getElementById('mfaVerifyEnrollBtn');
+
+  if (!pendingEnrollFactorId) {
+    resetMfaEnrollFlow();
+    return;
+  }
+  if (!/^\d{6}$/.test(code)) {
+    if (enrollStatus) {
+      enrollStatus.textContent = 'Ingresa los 6 dígitos del código.';
+      enrollStatus.classList.add('is-error');
+    }
+    return;
+  }
+
+  if (button) button.disabled = true;
+  if (enrollStatus) {
+    enrollStatus.textContent = '';
+    enrollStatus.classList.remove('is-error');
+  }
+
+  try {
+    const challengeResponse = await fetch(`${backendBaseUrl}/api/mfa/totp/challenge`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({ factorId: pendingEnrollFactorId })
+    });
+    const challengeData = await challengeResponse.json().catch(() => ({}));
+    if (!challengeResponse.ok || !challengeData.challengeId) {
+      throw new Error(challengeData.message || 'No se pudo generar el desafío de verificación.');
+    }
+
+    const verifyResponse = await fetch(`${backendBaseUrl}/api/mfa/totp/verify`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({
+        factorId: pendingEnrollFactorId,
+        challengeId: challengeData.challengeId,
+        code
+      })
+    });
+    const verifyData = await verifyResponse.json().catch(() => ({}));
+    if (!verifyResponse.ok || !verifyData.ok) {
+      throw new Error(verifyData.message || 'Código incorrecto. Intenta de nuevo.');
+    }
+
+    // Verifying a brand new factor invalidates the account's other sessions
+    // (Supabase's own enroll() docs) - swap in the new tokens this call
+    // returns instead of keeping the ones from before enrollment.
+    if (verifyData.session) saveSession(authStatus.user, verifyData.session);
+
+    resetMfaEnrollFlow();
+    showHomeToast('Verificación en dos pasos activada.');
+    await loadSecurityStatus();
+  } catch (error) {
+    if (enrollStatus) {
+      enrollStatus.textContent = error.message || 'Código incorrecto. Intenta de nuevo.';
+      enrollStatus.classList.add('is-error');
+    }
+  } finally {
+    if (button) button.disabled = false;
   }
 });
 
@@ -3845,6 +4181,7 @@ function showView(viewId) {
     checkTutorConnection();
   }
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
+  if (resolved === 'security') loadSecurityStatus();
   if (SKILL_VIEWS.includes(resolved)) renderSkillView(resolved);
 
   // The floating Tutor IA button is redundant on the dedicated Tutor view,
