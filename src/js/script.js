@@ -215,6 +215,11 @@ function setTargetLanguage(lang, options = {}) {
     return false;
   }
 
+  // recognition.lang is fixed for the life of a SpeechRecognition instance -
+  // a language switch mid-dictation would otherwise keep listening in the
+  // old language.
+  stopTutorDictation();
+
   currentTargetLanguage = resolved;
   learningPathState.language = resolved;
 
@@ -977,6 +982,7 @@ function showLearnState(state) {
 // normalized courses schema, and guests just get the local UI update.
 function openLesson(slug) {
   if (!slug) return;
+  stopTutorDictation();
   learningPathState.activeSlug = slug;
   renderLearningPath();
   showLearnState('lesson');
@@ -1028,6 +1034,184 @@ async function checkTutorConnection(statusElId = 'tutorConnectionStatus') {
   } catch (error) {
     status.textContent = 'No disponible';
   }
+}
+
+// Voice dictation for the Tutor prompt textareas - converts speech to text
+// via the browser's Web Speech API only. This is deliberately unrelated to
+// the Speaking skill's MediaRecorder-based audio capture (renderSpeakingView):
+// no audio is ever recorded, kept, or sent anywhere here, only the
+// transcribed text ends up in the textarea, same as if the student had
+// typed it. Only one dictation session may run at a time app-wide.
+const DICTATION_LANGUAGE_CODES = {
+  english: 'en-US',
+  spanish: 'es-ES',
+  french: 'fr-FR',
+  italian: 'it-IT',
+  german: 'de-DE'
+};
+const DICTATION_MAX_SECONDS = 45;
+
+let tutorDictation = {
+  recognition: null,
+  status: 'idle', // idle | listening | unsupported
+  textareaId: null,
+  timeoutId: null
+};
+
+function getSpeechRecognitionCtor() {
+  return window.SpeechRecognition || window.webkitSpeechRecognition || null;
+}
+
+function setDictationStatusText(textareaId, text) {
+  const statusEl = document.getElementById(`${textareaId}DictateStatus`);
+  if (statusEl) statusEl.textContent = text;
+}
+
+function getDictationSendButton(textareaId) {
+  return textareaId === 'aiTutorPrompt'
+    ? document.querySelector('#tutor .tutor-chat-btn')
+    : document.getElementById('tutorDrawerSend');
+}
+
+function resetDictationUI(textareaId) {
+  const micBtn = document.querySelector(`.tutor-dictate-btn[data-dictate-target="${textareaId}"]`);
+  const stopBtn = document.querySelector(
+    `.tutor-dictate-stop-btn[data-dictate-target="${textareaId}"]`
+  );
+  if (micBtn && tutorDictation.status !== 'unsupported') {
+    micBtn.disabled = false;
+    micBtn.classList.remove('is-listening');
+    micBtn.setAttribute('aria-pressed', 'false');
+  }
+  if (stopBtn) stopBtn.hidden = true;
+  const sendBtn = getDictationSendButton(textareaId);
+  if (sendBtn) sendBtn.disabled = false;
+}
+
+// Stops the recognizer (if any) - safe to call any time, including when
+// nothing is active. Fires the 'end' handler registered in startDictation,
+// which does the actual UI/state cleanup, so callers don't duplicate that.
+function stopDictationRecognizer() {
+  if (tutorDictation.timeoutId) {
+    window.clearTimeout(tutorDictation.timeoutId);
+    tutorDictation.timeoutId = null;
+  }
+  if (tutorDictation.recognition) {
+    try {
+      tutorDictation.recognition.stop();
+    } catch {
+      /* already stopped/inactive */
+    }
+  }
+}
+
+// Called on: manually pressing "Detener", the 45s limit, changing target
+// language, closing the Tutor drawer, and any top-level view navigation
+// (showView) - covers "cerrar el Tutor"/"cambiar de idioma"/"cambiar de
+// lección" without needing a cleanup call at every single call site.
+function stopTutorDictation() {
+  if (tutorDictation.status !== 'listening') return;
+  setDictationStatusText(tutorDictation.textareaId, 'Transcribiendo…');
+  stopDictationRecognizer();
+}
+
+function startTutorDictation(textareaId) {
+  const textarea = document.getElementById(textareaId);
+  const Ctor = getSpeechRecognitionCtor();
+  if (!Ctor || !textarea) {
+    tutorDictation.status = 'unsupported';
+    setDictationStatusText(
+      textareaId,
+      'El dictado por voz no está disponible en este navegador. Puedes escribir tu mensaje.'
+    );
+    const micBtn = document.querySelector(
+      `.tutor-dictate-btn[data-dictate-target="${textareaId}"]`
+    );
+    if (micBtn) micBtn.disabled = true;
+    return;
+  }
+
+  // No simultaneous sessions - a second "Hablar" press while already
+  // listening (on either textarea) is a no-op.
+  if (tutorDictation.status === 'listening') return;
+  stopDictationRecognizer();
+
+  const recognition = new Ctor();
+  recognition.lang = DICTATION_LANGUAGE_CODES[learningPathState.language] || 'en-US';
+  recognition.interimResults = true;
+  recognition.continuous = false;
+
+  tutorDictation = { recognition, status: 'listening', textareaId, timeoutId: null };
+
+  const baseText = textarea.value.trim();
+  let finalTranscript = '';
+  let hadError = false;
+
+  const micBtn = document.querySelector(`.tutor-dictate-btn[data-dictate-target="${textareaId}"]`);
+  const stopBtn = document.querySelector(
+    `.tutor-dictate-stop-btn[data-dictate-target="${textareaId}"]`
+  );
+  if (micBtn) {
+    micBtn.disabled = true;
+    micBtn.classList.add('is-listening');
+    micBtn.setAttribute('aria-pressed', 'true');
+  }
+  if (stopBtn) stopBtn.hidden = false;
+  const sendBtn = getDictationSendButton(textareaId);
+  if (sendBtn) sendBtn.disabled = true;
+  setDictationStatusText(textareaId, 'Escuchando…');
+
+  recognition.addEventListener('result', (event) => {
+    let interim = '';
+    for (let i = event.resultIndex; i < event.results.length; i++) {
+      const chunk = event.results[i][0].transcript;
+      if (event.results[i].isFinal) finalTranscript += chunk;
+      else interim += chunk;
+    }
+    textarea.value = [baseText, (finalTranscript + interim).trim()].filter(Boolean).join(' ');
+  });
+
+  recognition.addEventListener('error', (event) => {
+    hadError = true;
+    if (event.error === 'not-allowed' || event.error === 'permission-denied') {
+      setDictationStatusText(
+        textareaId,
+        'No se pudo acceder al micrófono. Revisa los permisos del navegador.'
+      );
+    } else if (event.error === 'no-speech') {
+      setDictationStatusText(textareaId, 'No se entendió el audio. Intenta de nuevo.');
+    } else {
+      setDictationStatusText(textareaId, 'No se pudo completar el dictado. Intenta de nuevo.');
+    }
+  });
+
+  // 'error' always fires before 'end', but 'end' still fires afterwards -
+  // hadError guards against this handler overwriting a more specific
+  // message (e.g. permission denied) with a generic one.
+  recognition.addEventListener('end', () => {
+    const hadFinalText = Boolean(finalTranscript.trim());
+    tutorDictation = { recognition: null, status: 'idle', textareaId: null, timeoutId: null };
+    resetDictationUI(textareaId);
+    if (hadFinalText) {
+      setDictationStatusText(textareaId, 'Texto listo. Puedes editarlo antes de enviar.');
+    } else if (!hadError && !textarea.value.trim()) {
+      setDictationStatusText(textareaId, 'No se entendió el audio. Intenta de nuevo.');
+    }
+    textarea.focus();
+  });
+
+  try {
+    recognition.start();
+  } catch {
+    tutorDictation = { recognition: null, status: 'idle', textareaId: null, timeoutId: null };
+    setDictationStatusText(textareaId, 'No se pudo iniciar el dictado. Intenta de nuevo.');
+    resetDictationUI(textareaId);
+    return;
+  }
+
+  tutorDictation.timeoutId = window.setTimeout(() => {
+    stopTutorDictation();
+  }, DICTATION_MAX_SECONDS * 1000);
 }
 
 const SKILL_ICONS = {
@@ -2776,6 +2960,7 @@ let tutorDrawerContext = {
 function openTutorDrawer(overrides = {}) {
   const drawer = document.getElementById('tutorDrawer');
   if (!drawer) return;
+  stopTutorDictation();
   tutorDrawerContext = { ...tutorDrawerContext, ...overrides };
   tutorDrawerReturnFocus = document.activeElement;
 
@@ -2799,6 +2984,7 @@ function openTutorDrawer(overrides = {}) {
 function closeTutorDrawer() {
   const drawer = document.getElementById('tutorDrawer');
   if (!drawer || !drawer.classList.contains('open')) return;
+  stopTutorDictation();
   drawer.classList.remove('open');
   drawer.setAttribute('aria-hidden', 'true');
   drawer.setAttribute('inert', '');
@@ -3210,6 +3396,7 @@ function showView(viewId) {
   // Any navigation away from the current view must release the mic and
   // drop any in-progress Speaking recording - a no-op when nothing is active.
   resetSpeakingRecorder();
+  stopTutorDictation();
 
   Object.entries(VIEW_SECTIONS).forEach(([id, selectors]) => {
     const active = id === resolved;
@@ -3384,6 +3571,17 @@ function enableHomepageActions() {
     // which would otherwise orphan a listener bound to the old button node.
     if (event.target.closest('.lesson-complete-btn')) {
       completeActiveLesson();
+      return;
+    }
+
+    const dictateBtn = event.target.closest('.tutor-dictate-btn');
+    if (dictateBtn) {
+      startTutorDictation(dictateBtn.dataset.dictateTarget);
+      return;
+    }
+    const dictateStopBtn = event.target.closest('.tutor-dictate-stop-btn');
+    if (dictateStopBtn) {
+      stopTutorDictation();
       return;
     }
 
@@ -3891,6 +4089,22 @@ loadProgress();
 setupLearningPathControls();
 initScrollReveal();
 showView(getViewFromHash());
+
+// Checked once at load, not only on click - "oculta o desactiva el botón"
+// applies from the start on browsers without the Web Speech API, not just
+// after a failed attempt.
+if (!getSpeechRecognitionCtor()) {
+  document.querySelectorAll('.tutor-dictate-btn').forEach((btn) => {
+    btn.disabled = true;
+    setDictationStatusText(
+      btn.dataset.dictateTarget,
+      'El dictado por voz no está disponible en este navegador. Puedes escribir tu mensaje.'
+    );
+  });
+  document.querySelectorAll('.tutor-dictate-stop-btn').forEach((btn) => {
+    btn.hidden = true;
+  });
+}
 
 document.querySelectorAll('.nav-group a[data-scroll-target]').forEach((link) => {
   link.addEventListener('click', () => {

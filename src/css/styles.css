@@ -2381,6 +2381,75 @@ footer small {
   line-height: 1.5;
 }
 
+.tutor-dictate-status {
+  margin: 0;
+  min-height: 1.1em;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #1d4ed8;
+}
+
+.tutor-dictate-note {
+  margin: 0;
+  font-size: 0.78rem;
+  color: #64748b;
+}
+
+.tutor-dictate-btn,
+.tutor-dictate-stop-btn {
+  border: 1px solid rgba(37, 99, 235, 0.35);
+  background: #fff;
+  color: #1d4ed8;
+  border-radius: 999px;
+  padding: 0.6rem 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 44px;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.tutor-dictate-btn:hover:not(:disabled),
+.tutor-dictate-stop-btn:hover {
+  background: rgba(37, 99, 235, 0.08);
+  border-color: rgba(37, 99, 235, 0.55);
+}
+
+.tutor-dictate-btn:focus-visible,
+.tutor-dictate-stop-btn:focus-visible {
+  outline: 3px solid #1d4ed8;
+  outline-offset: 2px;
+}
+
+.tutor-dictate-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.tutor-dictate-btn.is-listening {
+  background: rgba(220, 38, 38, 0.1);
+  border-color: #dc2626;
+  color: #b91c1c;
+  animation: tutor-dictate-pulse 1.6s ease-in-out infinite;
+}
+
+.tutor-dictate-stop-btn {
+  border-color: rgba(220, 38, 38, 0.4);
+  color: #b91c1c;
+}
+
+@keyframes tutor-dictate-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(220, 38, 38, 0.12);
+  }
+}
+
 .home-toast {
   position: fixed;
   left: 50%;

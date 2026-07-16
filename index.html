@@ -745,7 +745,27 @@
             Puedes tocar una sugerencia y luego personalizarla antes de enviar. Presiona Enter para
             enviar, Shift+Enter para salto de línea.
           </p>
+          <p class="tutor-dictate-status" id="aiTutorPromptDictateStatus" aria-live="polite"></p>
+          <p class="tutor-dictate-note">Tu voz se convierte en texto y no se conserva.</p>
           <div class="tutor-buttons">
+            <button
+              type="button"
+              class="tutor-dictate-btn"
+              data-dictate-target="aiTutorPrompt"
+              aria-label="Hablar con el Tutor"
+              aria-pressed="false"
+            >
+              🎙 Hablar
+            </button>
+            <button
+              type="button"
+              class="tutor-dictate-stop-btn"
+              data-dictate-target="aiTutorPrompt"
+              aria-label="Detener dictado"
+              hidden
+            >
+              ⏹ Detener
+            </button>
             <button class="primary-btn tutor-chat-btn" type="button">Hablar con el tutor</button>
             <button
               class="tutor-clear-btn"
@@ -1004,7 +1024,27 @@
           <span>Escribe qué quieres practicar</span>
           <textarea id="tutorDrawerPrompt" class="tutor-input" rows="3"></textarea>
         </label>
+        <p class="tutor-dictate-status" id="tutorDrawerPromptDictateStatus" aria-live="polite"></p>
+        <p class="tutor-dictate-note">Tu voz se convierte en texto y no se conserva.</p>
         <div class="tutor-buttons">
+          <button
+            type="button"
+            class="tutor-dictate-btn"
+            data-dictate-target="tutorDrawerPrompt"
+            aria-label="Hablar con el Tutor"
+            aria-pressed="false"
+          >
+            🎙 Hablar
+          </button>
+          <button
+            type="button"
+            class="tutor-dictate-stop-btn"
+            data-dictate-target="tutorDrawerPrompt"
+            aria-label="Detener dictado"
+            hidden
+          >
+            ⏹ Detener
+          </button>
           <button type="button" class="primary-btn" id="tutorDrawerSend">Enviar</button>
           <button type="button" class="tutor-clear-btn" id="tutorDrawerClear">
             Limpiar conversación
