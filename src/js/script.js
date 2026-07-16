@@ -958,15 +958,17 @@ function authHeaders() {
     : {};
 }
 
-// #learn has two states - browsing the route (skill graph) or reading one
-// lesson (lesson workspace + "Volver a la ruta") - never both at once.
+// Desktop/tablet always show the path and the lesson panel side by side
+// (see .learning-path-layout's grid) - this only matters on mobile, where
+// the path collapses into a drawer opened by "Ver ruta" ('route') and
+// closed once a lesson is picked or "Volver a la ruta" reopens it ('route'
+// again). The class has no effect above the mobile breakpoint.
 function showLearnState(state) {
-  document
-    .getElementById('skillGraph')
-    ?.classList.toggle('compact-hidden-section', state !== 'route');
-  document
-    .getElementById('lessonWorkspace')
-    ?.classList.toggle('compact-hidden-section', state !== 'lesson');
+  const graph = document.getElementById('skillGraph');
+  const toggle = document.querySelector('.learn-route-toggle');
+  const isOpen = state === 'route';
+  graph?.classList.toggle('is-drawer-open', isOpen);
+  toggle?.setAttribute('aria-expanded', String(isOpen));
 }
 
 // Selects a lesson in the learning path and, for signed-in users, tells the
@@ -1028,6 +1030,28 @@ async function checkTutorConnection(statusElId = 'tutorConnectionStatus') {
   }
 }
 
+const SKILL_ICONS = {
+  listening: '🎧',
+  speaking: '🗣️',
+  reading: '📖',
+  writing: '✍️',
+  grammar: '📚',
+  vocabulary: '🧠'
+};
+
+// One lesson per skill per level is the real data shape today (no
+// sub-level "module" grouping exists in course_lessons/lessonsService), so
+// "Módulo <nivel>" is the module unit - honest to what's actually loaded,
+// rather than inventing themed module names the data can't back up.
+function getLessonStateInfo(lesson, isActive, nextSlug) {
+  if (lesson.locked) return { key: 'locked', label: 'Bloqueado' };
+  if (isActive) return { key: 'now', label: 'Ahora' };
+  if (lesson.completed) return { key: 'completed', label: 'Completado' };
+  if (lesson.progressStatus === 'in_progress') return { key: 'in-progress', label: 'En progreso' };
+  if (lesson.slug === nextSlug) return { key: 'recommended', label: 'Recomendado' };
+  return { key: 'available', label: 'Disponible' };
+}
+
 function renderSkillGraph() {
   const container = document.getElementById('skillGraph');
   if (!container) return;
@@ -1038,67 +1062,74 @@ function renderSkillGraph() {
     return;
   }
 
-  const skillIcons = { listening: '🎧', speaking: '🗣️', reading: '📖', writing: '✍️' };
-  const GRAPH_W = 280;
-  const NODE_R = 36;
-  const Y_STEP = 118;
-  const TOP_PAD = NODE_R + 12;
-  // Zigzag: center → left → center → right → repeat
-  const X_FRACS = [0.5, 0.18, 0.5, 0.82];
+  const targetLabel =
+    languageDisplayNames[learningPathState.language] || learningPathState.language;
+  const level = learningPathState.level;
+  const completedCount = lessons.filter((item) => item.completed).length;
+  const pct = Math.round((completedCount / lessons.length) * 100);
+  const nextLesson = getNextRecommendedLesson();
+  const nextSkillLabel = nextLesson ? SKILL_LABELS[nextLesson.skill] || nextLesson.skill : '—';
 
-  const nodeData = lessons.map((lesson, i) => ({
-    lesson,
-    cx: Math.round(GRAPH_W * X_FRACS[i % X_FRACS.length]),
-    cy: TOP_PAD + i * Y_STEP,
-    isActive: lesson.slug === learningPathState.activeSlug
-  }));
+  const itemsHtml = lessons
+    .map((lesson) => {
+      const isActive = lesson.slug === learningPathState.activeSlug;
+      const icon = SKILL_ICONS[lesson.skill?.toLowerCase()] || '📚';
+      const skillLabel = SKILL_LABELS[lesson.skill] || lesson.skill;
+      const duration = getLessonDurationMinutes(lesson);
+      const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
+      const state = getLessonStateInfo(lesson, isActive, nextLesson?.slug);
+      const progressPct = lesson.completed
+        ? 100
+        : lesson.progressStatus === 'in_progress'
+          ? (lesson.bestScore ?? 50)
+          : 0;
 
-  const totalH = TOP_PAD + (lessons.length - 1) * Y_STEP + NODE_R + 50;
-
-  const svgPaths = nodeData
-    .slice(0, -1)
-    .map(({ cx: x1, cy: y1 }, i) => {
-      const { cx: x2, cy: y2, lesson: nextLesson } = nodeData[i + 1];
-      const cpX = Math.round((x1 + x2) / 2);
-      const cpY = Math.round((y1 + y2) / 2);
-      const color = nextLesson.completed ? '#22c55e' : nextLesson.locked ? '#dbeafe' : '#2563eb';
-      const dashArray = nextLesson.locked ? '6 4' : 'none';
-      const opacity = nextLesson.locked ? '0.35' : '0.6';
-      return `<path d="M${x1},${y1 + NODE_R} C${cpX},${y1 + NODE_R + 32} ${cpX},${y2 - NODE_R - 32} ${x2},${y2 - NODE_R}" stroke="${color}" stroke-width="3" fill="none" stroke-dasharray="${dashArray}" opacity="${opacity}" stroke-linecap="round"/>`;
-    })
-    .join('');
-
-  const nodesHtml = nodeData
-    .map(({ lesson, cx, cy, isActive }) => {
-      const icon = skillIcons[lesson.skill?.toLowerCase()] || '📚';
-      let stateClass = 'available';
-      if (lesson.locked) stateClass = 'locked';
-      else if (lesson.completed) stateClass = 'completed';
-      else if (isActive) stateClass = 'active';
-      const shortTitle =
-        lesson.title.length > 16 ? lesson.title.slice(0, 14).trimEnd() + '…' : lesson.title;
-      return `<div class="skill-node skill-node--${stateClass}" style="left:${cx}px;top:${cy - NODE_R}px" data-lesson-slug="${escapeHtml(lesson.slug)}">
-      <button class="skill-node-btn" type="button" aria-label="${escapeHtml(lesson.title)} ${escapeHtml(lesson.level)}">
-        <span class="skill-node-icon">${lesson.locked ? '🔒' : icon}</span>
-        <span class="skill-node-lvl">${escapeHtml(lesson.level)}</span>
-        ${lesson.completed ? '<span class="skill-node-check" aria-hidden="true">✓</span>' : ''}
+      return `
+      <button
+        type="button"
+        class="path-lesson-item path-lesson-item--${state.key}"
+        data-lesson-slug="${escapeHtml(lesson.slug)}"
+        ${isActive ? 'aria-current="true"' : ''}
+      >
+        <span class="path-lesson-icon" aria-hidden="true">${lesson.locked ? '🔒' : icon}</span>
+        <span class="path-lesson-info">
+          <span class="path-lesson-skill">${escapeHtml(skillLabel)}</span>
+          <span class="path-lesson-title">${escapeHtml(lesson.title)}</span>
+          <span class="path-lesson-meta">
+            ${duration ? `<span>⏱ ${escapeHtml(String(duration))} min</span>` : ''}
+            <span>⭐ ${escapeHtml(String(xp))} XP</span>
+          </span>
+          ${progressPct > 0 ? `<span class="path-lesson-progress"><span style="width:${progressPct}%"></span></span>` : ''}
+        </span>
+        <span class="path-lesson-state path-lesson-state--${state.key}">${state.label}</span>
       </button>
-      <span class="skill-node-label">${escapeHtml(shortTitle)}</span>
-    </div>`;
+    `;
     })
     .join('');
 
-  container.innerHTML = `<div class="skill-graph-inner" style="height:${totalH}px;width:${GRAPH_W}px">
-    <svg class="skill-graph-svg" width="${GRAPH_W}" height="${totalH}" aria-hidden="true">${svgPaths}</svg>
-    ${nodesHtml}
-  </div>`;
+  container.innerHTML = `
+    <div class="path-summary">
+      <span class="path-summary-lang">${escapeHtml(targetLabel)} · ${escapeHtml(level)}</span>
+      <div class="path-summary-progress" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
+        <div style="width:${pct}%"></div>
+      </div>
+      <span class="path-summary-detail">${completedCount}/${lessons.length} completadas · Próximo: ${escapeHtml(nextSkillLabel)}</span>
+    </div>
+    <div class="path-module">
+      <div class="path-module-header">Módulo ${escapeHtml(level)} · ${escapeHtml(targetLabel)}</div>
+      <div class="path-module-body">${itemsHtml}</div>
+    </div>
+  `;
 
-  container.querySelectorAll('.skill-node').forEach((nodeEl) => {
-    nodeEl.querySelector('.skill-node-btn')?.addEventListener('click', () => {
-      openLesson(nodeEl.dataset.lessonSlug);
-      nodeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    });
+  container.querySelectorAll('.path-lesson-item').forEach((nodeEl) => {
+    nodeEl.addEventListener('click', () => openLesson(nodeEl.dataset.lessonSlug));
   });
+
+  // Keep the active lesson in view when the list re-renders (e.g. after
+  // switching level/language) rather than always resetting scroll to top.
+  container
+    .querySelector('.path-lesson-item[aria-current="true"]')
+    ?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 function renderLessonExercise(item, index, lesson) {
@@ -1139,15 +1170,50 @@ function renderLessonExercise(item, index, lesson) {
   `;
 }
 
-function renderLessonWorkspace() {
-  const workspace = document.getElementById('lessonWorkspace');
-  if (!workspace) return;
+// First lesson that's neither completed nor locked - used both for the
+// right panel's default "continue" card and for the module summary header.
+function getNextRecommendedLesson() {
+  return (
+    learningPathState.lessons.find((item) => !item.completed && !item.locked) ||
+    learningPathState.lessons[0] ||
+    null
+  );
+}
 
-  const lesson =
-    learningPathState.lessons.find((item) => item.slug === learningPathState.activeSlug) ||
-    learningPathState.lessons[0];
-  if (!lesson) return;
+function getLessonDurationMinutes(lesson) {
+  return lesson.estimated_minutes || lesson.estimatedMinutes || lesson.duration || null;
+}
 
+function renderContinueCard(lesson) {
+  const skillLabel = SKILL_LABELS[lesson.skill] || lesson.skill;
+  const duration = getLessonDurationMinutes(lesson);
+  const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
+  const completedCount = learningPathState.lessons.filter((item) => item.completed).length;
+  const total = learningPathState.lessons.length;
+  const pct = total ? Math.round((completedCount / total) * 100) : 0;
+  const targetLabel =
+    languageDisplayNames[learningPathState.language] || learningPathState.language;
+
+  return `
+    <div class="lesson-continue-card">
+      <span class="lesson-continue-kicker">Módulo ${escapeHtml(lesson.level)} · ${escapeHtml(targetLabel)}</span>
+      <h3>Tu próxima lección</h3>
+      <p class="lesson-continue-title">${escapeHtml(skillLabel)} · ${escapeHtml(lesson.title)}</p>
+      <p class="lesson-continue-desc">${escapeHtml(lesson.intro || lesson.description || '')}</p>
+      <div class="lesson-continue-meta">
+        ${duration ? `<span>⏱ ${escapeHtml(String(duration))} min</span>` : ''}
+        <span>⭐ ${escapeHtml(String(xp))} XP</span>
+      </div>
+      <div class="lesson-continue-progress" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
+        <div style="width:${pct}%"></div>
+      </div>
+      <p class="lesson-continue-count">${completedCount}/${total} lecciones completadas en ${escapeHtml(lesson.level)}</p>
+      <button type="button" class="primary-btn lesson-continue-btn" data-lesson-slug="${escapeHtml(lesson.slug)}">Continuar →</button>
+    </div>
+  `;
+}
+
+function renderLessonDetail(lesson) {
   const vocabulary =
     lesson.vocabulary
       ?.map(
@@ -1190,40 +1256,78 @@ function renderLessonWorkspace() {
     : lesson.exercises?.map((item, index) => renderLessonExercise(item, index, lesson)).join('') ||
       '';
 
-  workspace.querySelector('.lesson-kicker').textContent = `${lesson.level} · ${lesson.skill}`;
-  workspace.querySelector('h3').textContent = lesson.title;
-  workspace.querySelector('.lesson-intro').textContent = lesson.intro || lesson.description || '';
-  const audioContainer = workspace.querySelector('.lesson-audio');
-  if (audioContainer) audioContainer.innerHTML = audioPlayer;
-  workspace.querySelector('.lesson-vocabulary').innerHTML = vocabulary;
-  workspace.querySelector('.lesson-dialogue').innerHTML = dialogue;
-  workspace.querySelector('.lesson-exercises').innerHTML = exercises;
-
-  const completeButton = workspace.querySelector('.lesson-complete-btn');
-  if (completeButton) {
-    completeButton.dataset.lessonSlug = lesson.slug;
-
-    if (lesson.locked) {
-      completeButton.disabled = true;
-      completeButton.dataset.mode = 'locked';
-      completeButton.textContent = `Premium USD ${premiumPriceUsd}`;
-    } else if (lesson.completed) {
-      completeButton.disabled = true;
-      completeButton.dataset.mode = 'completed';
-      completeButton.textContent = 'Completada';
+  let mode = 'practice';
+  let disabled = false;
+  let buttonText = 'Iniciar práctica';
+  if (lesson.locked) {
+    mode = 'locked';
+    disabled = true;
+    buttonText = `Premium USD ${premiumPriceUsd}`;
+  } else if (lesson.completed) {
+    mode = 'completed';
+    disabled = true;
+    buttonText = 'Completada';
+  } else {
+    const { total, attempted, allAttempted } = getExerciseProgress(lesson);
+    if (allAttempted) {
+      mode = 'complete';
+      buttonText = 'Completar';
     } else {
-      const { total, attempted, allAttempted } = getExerciseProgress(lesson);
-      completeButton.disabled = false;
-      if (allAttempted) {
-        completeButton.dataset.mode = 'complete';
-        completeButton.textContent = 'Completar';
-      } else {
-        completeButton.dataset.mode = 'practice';
-        completeButton.textContent =
-          attempted > 0 ? `Iniciar práctica (${attempted}/${total})` : 'Iniciar práctica';
-      }
+      buttonText = attempted > 0 ? `Iniciar práctica (${attempted}/${total})` : 'Iniciar práctica';
     }
   }
+
+  return `
+    <div class="lesson-workspace-head">
+      <div>
+        <button class="learn-back-to-route" type="button">← Volver a la ruta</button>
+        <span class="lesson-kicker">${escapeHtml(lesson.level)} · ${escapeHtml(lesson.skill)}</span>
+        <h3>${escapeHtml(lesson.title)}</h3>
+      </div>
+      <button type="button" class="lesson-complete-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" data-mode="${mode}" ${disabled ? 'disabled' : ''}>${escapeHtml(buttonText)}</button>
+    </div>
+    <p class="lesson-intro">${escapeHtml(lesson.intro || lesson.description || '')}</p>
+    <div class="lesson-audio">${audioPlayer}</div>
+    <div class="lesson-columns">
+      <div>
+        <h4>Vocabulario</h4>
+        <div class="lesson-vocabulary">${vocabulary}</div>
+      </div>
+      <div>
+        <h4>Diálogo</h4>
+        <div class="lesson-dialogue">${dialogue}</div>
+      </div>
+    </div>
+    <div class="lesson-exercises">${exercises}</div>
+  `;
+}
+
+// The right panel is never empty: with no lesson explicitly opened yet it
+// shows a "continue" card for the next recommended lesson; once the student
+// picks a node in the path it shows that lesson's full detail. Both branches
+// fully own workspace.innerHTML (see the delegated .lesson-complete-btn/
+// .learn-back-to-route/.lesson-continue-btn handlers below - they can't be
+// one-time listeners bound to a single element, since that element gets
+// replaced on every render).
+function renderLessonWorkspace() {
+  const workspace = document.getElementById('lessonWorkspace');
+  if (!workspace) return;
+  if (!learningPathState.lessons.length) return;
+
+  const activeLesson = learningPathState.activeSlug
+    ? learningPathState.lessons.find((item) => item.slug === learningPathState.activeSlug)
+    : null;
+
+  if (activeLesson) {
+    workspace.innerHTML = renderLessonDetail(activeLesson);
+    workspace.classList.remove('lesson-workspace--continue');
+    return;
+  }
+
+  const nextLesson = getNextRecommendedLesson();
+  if (!nextLesson) return;
+  workspace.innerHTML = renderContinueCard(nextLesson);
+  workspace.classList.add('lesson-workspace--continue');
 }
 
 function renderLearningPath() {
@@ -2829,7 +2933,10 @@ async function loadLearningPath(options = {}) {
     learningPathState.lessons = data.lessons?.length
       ? data.lessons
       : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
-    learningPathState.activeSlug = learningPathState.lessons[0]?.slug || null;
+    // No auto-selection - an empty activeSlug is what makes
+    // renderLessonWorkspace() show the "continue" card (next recommended
+    // lesson) instead of always jumping straight to lessons[0]'s full detail.
+    learningPathState.activeSlug = '';
     renderLearningPath();
   } catch (error) {
     console.warn('Could not load learning path from backend, using local content', error);
@@ -2837,7 +2944,10 @@ async function loadLearningPath(options = {}) {
       learningPathState.language,
       learningPathState.level
     );
-    learningPathState.activeSlug = learningPathState.lessons[0]?.slug || null;
+    // No auto-selection - an empty activeSlug is what makes
+    // renderLessonWorkspace() show the "continue" card (next recommended
+    // lesson) instead of always jumping straight to lessons[0]'s full detail.
+    learningPathState.activeSlug = '';
     renderLearningPath();
   }
 }
@@ -2977,11 +3087,25 @@ document.querySelectorAll('#goalsQuickStart .goal-card').forEach((card) => {
   });
 });
 
-document
-  .querySelector('.learn-back-to-route')
-  ?.addEventListener('click', () => showLearnState('route'));
+document.querySelector('.learn-route-toggle')?.addEventListener('click', () => {
+  const graph = document.getElementById('skillGraph');
+  showLearnState(graph?.classList.contains('is-drawer-open') ? 'lesson' : 'route');
+});
 
 document.addEventListener('click', async (event) => {
+  if (event.target.closest('.learn-back-to-route')) {
+    learningPathState.activeSlug = '';
+    renderLearningPath();
+    showLearnState('route');
+    return;
+  }
+
+  const continueBtn = event.target.closest('.lesson-continue-btn');
+  if (continueBtn) {
+    openLesson(continueBtn.dataset.lessonSlug);
+    return;
+  }
+
   const button = event.target.closest('.skill-tab-button');
   if (!button) return;
 
@@ -3109,7 +3233,10 @@ function showView(viewId) {
   });
 
   if (resolved === 'learn') {
-    showLearnState('route');
+    // Mobile's route drawer is user-driven ("Ver ruta"/"Volver a la ruta") -
+    // entering #learn should land on the lesson panel (continue card or the
+    // last-opened lesson), not force the drawer open every time.
+    showLearnState('lesson');
     const langToken = getLanguageTabFromHash();
     if (langToken) setTargetLanguage(langToken);
   }
@@ -3251,6 +3378,15 @@ function enableHomepageActions() {
   });
 
   document.addEventListener('click', async (event) => {
+    // Delegated (rather than a one-time listener on a single element) because
+    // renderLessonWorkspace() now fully replaces #lessonWorkspace's innerHTML
+    // when it switches between the "continue" card and full lesson detail,
+    // which would otherwise orphan a listener bound to the old button node.
+    if (event.target.closest('.lesson-complete-btn')) {
+      completeActiveLesson();
+      return;
+    }
+
     const upgradeButton = event.target.closest('.upgrade-btn');
     if (upgradeButton) {
       handleHomeAction('upgrade');
@@ -3755,7 +3891,6 @@ loadProgress();
 setupLearningPathControls();
 initScrollReveal();
 showView(getViewFromHash());
-document.querySelector('.lesson-complete-btn')?.addEventListener('click', completeActiveLesson);
 
 document.querySelectorAll('.nav-group a[data-scroll-target]').forEach((link) => {
   link.addEventListener('click', () => {

@@ -3358,22 +3358,43 @@ footer small {
 }
 
 /* ==========================================================================
-   Skill graph — Duolingo-style zigzag lesson path map
+   Learning path workspace — left: module/lesson list, right: lesson panel
    ========================================================================== */
 
 .learning-path-layout {
   display: grid;
-  grid-template-columns: 310px 1fr;
-  gap: 1.5rem;
+  grid-template-columns: minmax(360px, 420px) minmax(0, 1fr);
+  gap: 28px;
   align-items: start;
+  width: 100%;
+}
+
+.learn-route-toggle {
+  display: none;
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--navy-2);
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.learn-route-toggle:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
 }
 
 .skill-graph {
   overflow-y: auto;
-  max-height: 580px;
+  max-height: 640px;
   background: var(--surface);
   border-radius: 20px;
-  padding: 0.75rem 1rem 1.25rem;
+  padding: 1rem;
   box-shadow: var(--shadow-soft);
   border: 1px solid var(--line);
 }
@@ -3396,181 +3417,185 @@ footer small {
   text-align: center;
 }
 
-.skill-graph-inner {
-  position: relative;
-}
-
-.skill-graph-svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  overflow: visible;
-}
-
-.skill-node {
-  position: absolute;
+.path-summary {
+  padding: 0.25rem 0.25rem 1rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--line);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  transform: translateX(-50%);
-  z-index: 1;
-  width: 90px;
+  gap: 0.5rem;
 }
 
-.skill-node-btn {
-  position: relative;
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  border: 3px solid var(--line);
-  background: var(--bg);
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2px;
-  transition:
-    transform 160ms ease,
-    box-shadow 160ms ease;
-  box-shadow:
-    0 4px 0 0 rgba(0, 0, 0, 0.12),
-    0 6px 14px rgba(15, 23, 42, 0.08);
-}
-
-.skill-node-btn:hover {
-  transform: translateY(-3px);
-  box-shadow:
-    0 7px 0 0 rgba(0, 0, 0, 0.12),
-    0 10px 24px rgba(15, 23, 42, 0.14);
-}
-
-.skill-node-btn:active {
-  transform: translateY(2px);
-  box-shadow:
-    0 2px 0 0 rgba(0, 0, 0, 0.12),
-    0 3px 8px rgba(15, 23, 42, 0.08);
-}
-
-.skill-node-icon {
-  font-size: 1.55rem;
-  line-height: 1;
-}
-
-.skill-node-lvl {
-  font-size: 0.62rem;
+.path-summary-lang {
   font-weight: 800;
-  letter-spacing: 0.04em;
-  color: inherit;
-  line-height: 1;
+  font-size: 1rem;
+  color: var(--navy-2);
 }
 
-.skill-node-check {
-  position: absolute;
-  top: -5px;
-  right: -5px;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: var(--green);
-  color: #fff;
-  font-size: 0.65rem;
-  font-weight: 900;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #fff;
-  box-shadow: 0 2px 6px rgba(34, 197, 94, 0.35);
-}
-
-.skill-node-label {
-  font-size: 0.67rem;
-  font-weight: 600;
-  color: var(--muted);
-  text-align: center;
-  line-height: 1.25;
-  max-width: 88px;
+.path-summary-progress {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--bg);
   overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+.path-summary-progress div {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  border-radius: 999px;
+  transition: width 300ms ease;
+}
+
+.path-summary-detail {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.path-module-header {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  padding: 0.25rem 0.25rem 0.6rem;
+}
+
+.path-module-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.path-lesson-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  width: 100%;
+  min-height: 44px;
+  text-align: left;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  border-radius: 16px;
+  padding: 0.7rem 0.8rem;
+  cursor: pointer;
+  transition:
+    border-color 150ms ease,
+    background 150ms ease,
+    transform 150ms ease;
+}
+
+.path-lesson-item:hover {
+  border-color: var(--blue);
+  transform: translateY(-1px);
+}
+
+.path-lesson-item:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.path-lesson-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.path-lesson-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.path-lesson-skill {
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--blue);
+}
+
+.path-lesson-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--navy-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.3;
+}
+
+.path-lesson-meta {
+  display: flex;
+  gap: 0.6rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.path-lesson-progress {
+  display: block;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--line);
+  overflow: hidden;
+  margin-top: 0.15rem;
+}
+
+.path-lesson-progress span {
+  display: block;
+  height: 100%;
+  background: var(--green);
+  border-radius: 999px;
+}
+
+.path-lesson-state {
+  flex-shrink: 0;
+  font-size: 0.65rem;
+  font-weight: 800;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
   white-space: nowrap;
 }
 
-/* Node state: completed */
-.skill-node--completed .skill-node-btn {
-  background: linear-gradient(135deg, #dcfce7, #bbf7d0);
-  border-color: #4ade80;
-  color: #15803d;
-  box-shadow:
-    0 4px 0 0 #16a34a66,
-    0 6px 14px rgba(34, 197, 94, 0.15);
-}
-.skill-node--completed .skill-node-btn:hover {
-  box-shadow:
-    0 7px 0 0 #16a34a66,
-    0 10px 24px rgba(34, 197, 94, 0.22);
-}
-
-/* Node state: active (current lesson — pulses) */
-.skill-node--active .skill-node-btn {
-  background: linear-gradient(135deg, #dbeafe, #bfdbfe);
-  border-color: var(--blue);
-  color: #1d4ed8;
-  box-shadow:
-    0 4px 0 0 #1d4ed866,
-    0 6px 14px rgba(37, 99, 235, 0.18);
-  animation: skill-node-pulse 2.2s ease-in-out infinite;
-}
-.skill-node--active .skill-node-label {
-  color: var(--blue);
-  font-weight: 700;
-}
-
-@keyframes skill-node-pulse {
-  0%,
-  100% {
-    box-shadow:
-      0 4px 0 0 #1d4ed866,
-      0 6px 14px rgba(37, 99, 235, 0.18);
-  }
-  50% {
-    box-shadow:
-      0 4px 0 0 #1d4ed866,
-      0 0 0 7px rgba(37, 99, 235, 0.15),
-      0 8px 22px rgba(37, 99, 235, 0.28);
-  }
-}
-
-/* Node state: available (unlocked, not yet started) */
-.skill-node--available .skill-node-btn {
-  background: linear-gradient(135deg, #eff6ff, #f0f9ff);
-  border-color: var(--cyan);
+.path-lesson-state--available {
+  background: rgba(0, 194, 255, 0.12);
   color: #0369a1;
-  box-shadow:
-    0 4px 0 0 #0891b266,
-    0 6px 14px rgba(0, 194, 255, 0.1);
+}
+.path-lesson-state--recommended {
+  background: rgba(37, 99, 235, 0.14);
+  color: var(--blue);
+}
+.path-lesson-state--in-progress {
+  background: rgba(234, 179, 8, 0.15);
+  color: #a16207;
+}
+.path-lesson-state--completed {
+  background: rgba(34, 197, 94, 0.15);
+  color: #15803d;
+}
+.path-lesson-state--locked {
+  background: var(--line);
+  color: var(--muted);
+}
+.path-lesson-state--now {
+  background: var(--blue);
+  color: #fff;
 }
 
-/* Node state: locked */
-.skill-node--locked .skill-node-btn {
-  background: var(--bg);
-  border-color: var(--line);
-  color: var(--muted);
-  cursor: default;
-  box-shadow:
-    0 3px 0 0 rgba(0, 0, 0, 0.08),
-    0 4px 8px rgba(15, 23, 42, 0.04);
-  opacity: 0.65;
+/* Active lesson: distinct border + background + the state badge above
+   already reads "Ahora" - aria-current="true" is set in the markup. */
+.path-lesson-item[aria-current='true'] {
+  border-color: var(--blue);
+  background: rgba(37, 99, 235, 0.06);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18);
 }
-.skill-node--locked .skill-node-btn:hover {
-  transform: none;
-  box-shadow:
-    0 3px 0 0 rgba(0, 0, 0, 0.08),
-    0 4px 8px rgba(15, 23, 42, 0.04);
-}
-.skill-node--locked .skill-node-label {
-  opacity: 0.55;
+
+.path-lesson-item--locked {
+  opacity: 0.7;
 }
 
 /* Lesson workspace panel */
@@ -3606,6 +3631,73 @@ footer small {
 
 .learn-back-to-route:hover {
   text-decoration: underline;
+}
+
+/* Right panel's default state, shown whenever no lesson has been explicitly
+   opened yet (learningPathState.activeSlug is empty) - the panel is never
+   left blank. */
+.lesson-continue-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.lesson-continue-kicker {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--blue);
+}
+
+.lesson-continue-card h3 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.lesson-continue-title {
+  font-weight: 700;
+  color: var(--navy-2);
+  font-size: 1rem;
+}
+
+.lesson-continue-desc {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.lesson-continue-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--navy-2);
+}
+
+.lesson-continue-progress {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--bg);
+  overflow: hidden;
+  margin-top: 0.3rem;
+}
+
+.lesson-continue-progress div {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  border-radius: 999px;
+}
+
+.lesson-continue-count {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.lesson-continue-btn {
+  align-self: flex-start;
+  margin-top: 0.5rem;
 }
 
 .compact-skills-row {
@@ -3801,12 +3893,56 @@ footer small {
 }
 
 /* Responsive adjustments */
-@media (max-width: 900px) {
+
+/* Tablet: narrower left panel, tighter gap, still side by side */
+@media (max-width: 1024px) and (min-width: 641px) {
   .learning-path-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(300px, 340px) minmax(0, 1fr);
+    gap: 20px;
   }
   .skill-graph {
-    max-height: 340px;
+    max-height: 520px;
+  }
+}
+
+/* Mobile: single column, lesson content first, path tucked into a
+   collapsible drawer behind "Ver ruta" - no fixed sidebar, no horizontal
+   scroll, 44px+ touch targets (already set on .path-lesson-item/.learn-route-toggle above). */
+@media (max-width: 640px) {
+  .learn-route-toggle {
+    display: block;
+  }
+
+  .learning-path-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lesson-workspace {
+    order: 1;
+  }
+
+  .skill-graph {
+    order: 2;
+    max-height: 0;
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+    box-shadow: none;
+    opacity: 0;
+    overflow: hidden;
+    transition:
+      max-height 220ms ease,
+      opacity 180ms ease;
+  }
+
+  .skill-graph.is-drawer-open {
+    max-height: 2000px;
+    opacity: 1;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-width: 1px;
+    box-shadow: var(--shadow-soft);
   }
 }
 

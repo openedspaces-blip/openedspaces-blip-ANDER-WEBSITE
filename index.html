@@ -325,6 +325,7 @@
           </label>
         </div>
         <p class="path-pair-preview" id="pathPairPreview" aria-live="polite"></p>
+        <button class="learn-route-toggle" type="button" aria-expanded="false">📍 Ver ruta</button>
 
         <div class="learning-path-layout">
           <div
@@ -334,34 +335,8 @@
             aria-label="Mapa de lecciones"
           ></div>
 
-          <article
-            class="lesson-workspace compact-hidden-section"
-            id="lessonWorkspace"
-            aria-live="polite"
-          >
-            <div class="lesson-workspace-head">
-              <div>
-                <button class="learn-back-to-route" type="button">← Volver a la ruta</button>
-                <span class="lesson-kicker">A1 · Listening</span>
-                <h3>Ruta de inicio</h3>
-              </div>
-              <button class="lesson-complete-btn" type="button" disabled>Completar</button>
-            </div>
-            <p class="lesson-intro">
-              Selecciona una lección para ver vocabulario, diálogo y ejercicios.
-            </p>
-            <div class="lesson-audio"></div>
-            <div class="lesson-columns">
-              <div>
-                <h4>Vocabulario</h4>
-                <div class="lesson-vocabulary"></div>
-              </div>
-              <div>
-                <h4>Diálogo</h4>
-                <div class="lesson-dialogue"></div>
-              </div>
-            </div>
-            <div class="lesson-exercises"></div>
+          <article class="lesson-workspace" id="lessonWorkspace" aria-live="polite">
+            <p class="skill-graph-empty">Preparando tu ruta…</p>
           </article>
         </div>
       </section>
