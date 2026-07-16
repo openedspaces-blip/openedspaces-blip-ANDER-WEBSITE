@@ -1742,11 +1742,13 @@ function speakText(text, { locale, rate = 1, onEnd } = {}) {
   }
 }
 
-// English A1 speaks slightly slower (0.86x) per spec; every other
-// language/level defaults to normal rate unless a card sets its own
-// pronunciationRate.
+// English A1 speaks slightly slower (0.86x) and French A1 slightly slower
+// still (0.82x) per spec; every other language/level defaults to normal
+// rate unless a card sets its own pronunciationRate.
 function getDefaultPronunciationRate(language = learningPathState.language, level = learningPathState.level) {
-  return language === 'english' && level === 'A1' ? 0.86 : 1;
+  if (language === 'english' && level === 'A1') return 0.86;
+  if (language === 'french' && level === 'A1') return 0.82;
+  return 1;
 }
 
 // ---------------------------------------------------------------------
@@ -2737,7 +2739,8 @@ const SKILL_ICONS = {
   reading: '📖',
   writing: '✍️',
   grammar: '📚',
-  vocabulary: '🧠'
+  vocabulary: '🧠',
+  dialogue: '💬'
 };
 
 // One lesson per skill per level is the real data shape today (no
@@ -2756,7 +2759,7 @@ function getLessonStateInfo(lesson, isActive, nextSlug) {
 function renderLessonItemHtml(lesson, nextSlug) {
   const isActive = lesson.slug === learningPathState.activeSlug;
   const icon = SKILL_ICONS[lesson.skill?.toLowerCase()] || '📚';
-  const skillLabel = SKILL_LABELS[lesson.skill] || lesson.skill;
+  const skillLabel = getSkillLabel(lesson.skill);
   const duration = getLessonDurationMinutes(lesson);
   const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
   const state = getLessonStateInfo(lesson, isActive, nextSlug);
@@ -2833,7 +2836,7 @@ function renderSkillGraph() {
   const completedCount = lessons.filter((item) => item.completed).length;
   const pct = Math.round((completedCount / lessons.length) * 100);
   const nextLesson = getNextRecommendedLesson();
-  const nextSkillLabel = nextLesson ? SKILL_LABELS[nextLesson.skill] || nextLesson.skill : '—';
+  const nextSkillLabel = nextLesson ? getSkillLabel(nextLesson.skill) : '—';
 
   const bodyHtml = hasUnits()
     ? `<div class="unit-accordion">${renderUnitAccordionHtml(nextLesson?.slug)}</div>`
@@ -2919,7 +2922,7 @@ function getLessonDurationMinutes(lesson) {
 }
 
 function renderContinueCard(lesson) {
-  const skillLabel = SKILL_LABELS[lesson.skill] || lesson.skill;
+  const skillLabel = getSkillLabel(lesson.skill);
   const duration = getLessonDurationMinutes(lesson);
   const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
   const completedCount = learningPathState.lessons.filter((item) => item.completed).length;
@@ -3080,6 +3083,26 @@ const SKILL_LABELS = {
   vocabulary: 'Vocabulary'
 };
 
+// French A1's pedagogical content is authored entirely in French (see
+// scripts/content/french-a1-units.js), so its skill-tab labels are French
+// too - internal skill keys (reading/listening/etc., plus the new
+// 'dialogue' type) stay the same for code compatibility. Every other
+// language keeps the SKILL_LABELS map above unchanged.
+const SKILL_LABELS_FRENCH = {
+  listening: 'Compréhension orale',
+  speaking: 'Expression orale',
+  reading: 'Lecture',
+  writing: 'Expression écrite',
+  grammar: 'Grammaire',
+  vocabulary: 'Vocabulaire',
+  dialogue: 'Dialogues'
+};
+
+function getSkillLabel(skill, language = learningPathState.language) {
+  if (language === 'french') return SKILL_LABELS_FRENCH[skill] || SKILL_LABELS[skill] || skill;
+  return SKILL_LABELS[skill] || skill;
+}
+
 // Populates each of the 6 skill-competency-cards with real status/progress/XP
 // for the current language+level, instead of the bare icon+name they show
 // before the first lesson list loads.
@@ -3124,7 +3147,7 @@ function renderSkillCards() {
       if (xpEl) xpEl.textContent = `${activities.length} actividades`;
       card.setAttribute(
         'aria-label',
-        `${SKILL_LABELS[skill] || skill}: biblioteca, ${completedCount}/${activities.length} completadas`
+        `${getSkillLabel(skill)}: biblioteca, ${completedCount}/${activities.length} completadas`
       );
       return;
     }
@@ -3184,7 +3207,7 @@ function renderSkillCards() {
     if (xpEl) xpEl.textContent = `+${lesson.xpReward || 20} XP`;
     card.setAttribute(
       'aria-label',
-      `${SKILL_LABELS[skill] || skill}: disponible, ${pct}% completado, ${lesson.xpReward || 20} XP`
+      `${getSkillLabel(skill)}: disponible, ${pct}% completado, ${lesson.xpReward || 20} XP`
     );
   });
 }
@@ -3290,7 +3313,7 @@ function updateSkillViewBackLink(section, skill, showLibraryBack) {
 // readings" asks for, instead of a single generic lesson per skill.
 function renderSkillLibraryHtml(skill, activities) {
   if (!activities.length) {
-    return `<p class="skill-graph-empty">No hay actividades de ${SKILL_LABELS[skill] || skill} disponibles en este nivel todavía.</p>`;
+    return `<p class="skill-graph-empty">No hay actividades de ${getSkillLabel(skill)} disponibles en este nivel todavía.</p>`;
   }
   const nextSlug = getNextRecommendedLesson()?.slug;
   const cardsHtml = activities
@@ -3315,7 +3338,7 @@ function renderSkillLibraryHtml(skill, activities) {
     .join('');
 
   return `
-    <p class="skill-library-intro">${activities.length} actividades de ${SKILL_LABELS[skill] || skill} en English A1, una por unidad.</p>
+    <p class="skill-library-intro">${activities.length} actividades de ${getSkillLabel(skill)} en ${escapeHtml(languageDisplayNames[learningPathState.language] || learningPathState.language)} ${escapeHtml(learningPathState.level)}, una por unidad.</p>
     <div class="skill-library-grid">${cardsHtml}</div>
   `;
 }
@@ -3343,7 +3366,7 @@ function renderSkillView(skill) {
   const content = section.querySelector('.skill-view-content');
   if (!learningPathState.lessons.length) {
     if (content)
-      content.innerHTML = `<p class="skill-graph-empty">Preparando ${SKILL_LABELS[skill] || skill}…</p>`;
+      content.innerHTML = `<p class="skill-graph-empty">Preparando ${getSkillLabel(skill)}…</p>`;
     updateSkillViewBackLink(section, skill, false);
     loadLearningPath({ language: learningPathState.language, level: learningPathState.level }).then(
       () => renderSkillView(skill)
@@ -3373,7 +3396,7 @@ function renderSkillView(skill) {
   updateSkillViewBackLink(section, skill, false);
   if (!lesson) {
     if (content)
-      content.innerHTML = `<p class="skill-graph-empty">No hay lección de ${SKILL_LABELS[skill] || skill} disponible en este nivel todavía.</p>`;
+      content.innerHTML = `<p class="skill-graph-empty">No hay lección de ${getSkillLabel(skill)} disponible en este nivel todavía.</p>`;
     return;
   }
 
@@ -3398,15 +3421,16 @@ function getReadingPartRuntime(lesson) {
   return runtime;
 }
 
-// A plain 2-option True/False mcq is grouped under its own heading in the
-// reading view so it reads as a distinct activity type, without needing a
-// separate schema field - see scripts/content/english-a1-units.js, where
-// these are authored as ordinary mcq exercises with ['True', 'False'] options.
+// A plain 2-option True/False (or Vrai/Faux) mcq is grouped under its own
+// heading in the reading view so it reads as a distinct activity type,
+// without needing a separate schema field - see
+// scripts/content/english-a1-units.js (['True', 'False']) and
+// scripts/content/french-a1-units.js (['Vrai', 'Faux']).
 function isTrueFalseExercise(item) {
   return (
     Array.isArray(item.options) &&
     item.options.length === 2 &&
-    item.options.some((opt) => optionLabel(opt).trim().toLowerCase() === 'true')
+    item.options.some((opt) => ['true', 'vrai'].includes(optionLabel(opt).trim().toLowerCase()))
   );
 }
 
@@ -3629,7 +3653,7 @@ function renderReadingView(section, lesson) {
         <p class="reading-print-date">${escapeHtml(new Date().toLocaleDateString('es'))}</p>
       </div>
       <h3>${escapeHtml(lesson.title)}</h3>
-      <p class="reading-level-tag">${escapeHtml(lesson.level)} · Reading</p>
+      <p class="reading-level-tag">${escapeHtml(lesson.level)} · ${escapeHtml(getSkillLabel('reading'))}</p>
       <div class="reading-progress-bar no-print" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
       ${audioPlayerHtml}
       ${readingBodyHtml}
@@ -3638,8 +3662,8 @@ function renderReadingView(section, lesson) {
         <div class="reading-vocab-list" hidden>${vocabHtml}</div>
       </div>
       <div class="reading-support-toggle no-print">
-        <button type="button" class="secondary-btn reading-show-support">Mostrar apoyo en español</button>
-        <button type="button" class="secondary-btn reading-hide-support" hidden>Ocultar apoyo</button>
+        <button type="button" class="secondary-btn reading-show-support">${escapeHtml(learningPathState.language === 'french' ? "Afficher l'aide en espagnol" : 'Mostrar apoyo en español')}</button>
+        <button type="button" class="secondary-btn reading-hide-support" hidden>${escapeHtml(learningPathState.language === 'french' ? "Masquer l'aide en espagnol" : 'Ocultar apoyo')}</button>
       </div>
       ${reflectHtml ? `<div class="reading-reflect"><h4>Reflexiona</h4><ul>${reflectHtml}</ul></div>` : ''}
       <div class="reading-questions">
@@ -3648,7 +3672,7 @@ function renderReadingView(section, lesson) {
       </div>
       ${
         trueFalseHtml
-          ? `<div class="reading-questions"><h4>Verdadero o falso</h4>${trueFalseHtml}</div>`
+          ? `<div class="reading-questions"><h4>${learningPathState.language === 'french' ? 'Vrai ou faux' : 'Verdadero o falso'}</h4>${trueFalseHtml}</div>`
           : ''
       }
       ${renderReadingOrderingHtml(lesson, hasParts ? getReadingPartRuntime(lesson) : { shuffledEvents: [] })}
@@ -4065,6 +4089,177 @@ window.addEventListener('beforeunload', () => {
   teardownSpeakingResources();
 });
 
+// ---------------------------------------------------------------------
+// Dialogues: a new, generic skill type (not English-A1-specific - see
+// SKILL_VIEW_RENDERERS below) built for French A1's 12 standalone dialogue
+// activities. Reuses the same lesson.dialogue/{speaker,line,translation}
+// shape already persisted by every other skill (see courseLessonsService's
+// dialogue_line sections), lesson.phrases, and the existing mcq exercise
+// renderer/Tutor-IA drawer - no new backend schema for grading. Three
+// modes: Écouter (sequential playback of every line), Jouer un rôle (pick
+// a character, the other side plays automatically, the student's own
+// lines stay hidden behind an optional "show model" toggle - never
+// strictly graded), and Parler avec le tuteur IA (opens the existing
+// tutor drawer via the standard .open-tutor-btn mechanism).
+function playDialogueLinesSequentially(lines, locale, rate, index = 0) {
+  if (index >= lines.length) return;
+  speakText(lines[index], {
+    locale,
+    rate,
+    onEnd: () => playDialogueLinesSequentially(lines, locale, rate, index + 1)
+  });
+}
+
+function renderDialogueView(section, lesson) {
+  const content = section.querySelector('.skill-view-content');
+  if (!content) return;
+
+  const lines = lesson.dialogue || [];
+  const participants = [...new Set(lines.map((line) => line.speaker).filter(Boolean))];
+  const situacion = lesson.intro || lesson.description || '';
+  const isFrench = learningPathState.language === 'french';
+  const locale = getPronunciationLocale(learningPathState.language);
+  const rate = getDefaultPronunciationRate();
+  const canSpeak = supportsSpeech();
+
+  const t = (fr, es) => (isFrench ? fr : es);
+
+  const linesHtml = lines
+    .map(
+      (line, index) => `
+      <li class="dialogue-line" data-index="${index}">
+        <span class="dialogue-speaker">${escapeHtml(line.speaker || '')}</span>
+        <span class="dialogue-text">${escapeHtml(line.line || '')}</span>
+        ${
+          canSpeak
+            ? `<button type="button" class="dialogue-line-speak-btn" data-speak-text="${escapeHtml(line.line || '')}" aria-label="${escapeHtml(t('Écouter cette réplique', 'Escuchar esta línea'))}" title="${escapeHtml(t('Écouter', 'Escuchar'))}">🔊</button>`
+            : ''
+        }
+        ${line.translation ? `<span class="dialogue-translation reading-vocab-support" hidden>${escapeHtml(line.translation)}</span>` : ''}
+      </li>`
+    )
+    .join('');
+
+  const roleOptionsHtml = participants
+    .map((name) => `<button type="button" class="secondary-btn dialogue-role-btn" data-role="${escapeHtml(name)}">${escapeHtml(name)}</button>`)
+    .join('');
+
+  const exercisesHtml = (lesson.exercises || [])
+    .filter((item) => item.type === 'mcq')
+    .map((item, index) => renderLessonExercise(item, index, lesson))
+    .join('');
+
+  content.innerHTML = `
+    <h3>${escapeHtml(lesson.title)}</h3>
+    <p class="dialogue-situation"><strong>${t('Situation', 'Situación')} :</strong> ${escapeHtml(situacion)}</p>
+
+    <div class="dialogue-modes" role="group" aria-label="${t('Modes du dialogue', 'Modos del diálogo')}">
+      <button type="button" class="secondary-btn dialogue-mode-btn is-active" data-mode="listen">🎧 ${t('Écouter', 'Escuchar')}</button>
+      <button type="button" class="secondary-btn dialogue-mode-btn" data-mode="roleplay">🎭 ${t('Jouer un rôle', 'Interpretar un papel')}</button>
+      <button type="button" class="secondary-btn dialogue-mode-btn" data-mode="tutor">🤖 ${t("Parler avec le tuteur IA", 'Hablar con el tutor IA')}</button>
+    </div>
+
+    <div class="dialogue-panel dialogue-listen-panel">
+      ${canSpeak ? `<button type="button" class="primary-btn dialogue-play-all-btn">▶ ${t('Écouter tout le dialogue', 'Escuchar todo el diálogo')}</button>` : ''}
+      <ul class="dialogue-lines-list">${linesHtml}</ul>
+      ${lines.some((line) => line.translation) ? `<button type="button" class="secondary-btn dialogue-toggle-translation-btn">${t("Afficher l'aide en espagnol", 'Mostrar apoyo en español')}</button>` : ''}
+    </div>
+
+    <div class="dialogue-panel dialogue-roleplay-panel" hidden>
+      <p>${t('Choisis ton personnage :', 'Elige tu personaje:')}</p>
+      <div class="dialogue-role-options">${roleOptionsHtml}</div>
+      <ul class="dialogue-roleplay-lines"></ul>
+    </div>
+
+    ${
+      lesson.phrases?.length
+        ? `<div class="dialogue-phrases"><strong>${t('Expressions utiles', 'Expresiones útiles')}</strong><ul>${lesson.phrases.map((phrase) => `<li>${escapeHtml(phrase)}</li>`).join('')}</ul></div>`
+        : ''
+    }
+
+    <div class="reading-questions">
+      <h4>${t('Questions de compréhension', 'Preguntas de comprensión')}</h4>
+      ${exercisesHtml || `<p class="skill-graph-empty">${t("Il n'y a pas de questions pour ce dialogue.", 'No hay preguntas para este diálogo.')}</p>`}
+    </div>
+
+    <div class="skill-view-tutor-cta">
+      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="${escapeHtml(t('Je veux pratiquer ce dialogue : ', 'Quiero practicar este diálogo: ') + situacion)}" data-support-mode="practice">${t('Parler avec le tuteur IA', 'Hablar con el tutor IA')}</button>
+    </div>
+  `;
+
+  content.querySelectorAll('.dialogue-mode-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      if (btn.dataset.mode === 'tutor') {
+        content.querySelector('.open-tutor-btn')?.click();
+        return;
+      }
+      content.querySelectorAll('.dialogue-mode-btn').forEach((b) => b.classList.toggle('is-active', b === btn));
+      const showListen = btn.dataset.mode === 'listen';
+      content.querySelector('.dialogue-listen-panel')?.toggleAttribute('hidden', !showListen);
+      content.querySelector('.dialogue-roleplay-panel')?.toggleAttribute('hidden', showListen);
+    });
+  });
+
+  content.querySelector('.dialogue-play-all-btn')?.addEventListener('click', () => {
+    playDialogueLinesSequentially(lines.map((line) => line.line), locale, rate);
+  });
+
+  content.querySelectorAll('.dialogue-line-speak-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      speakText(btn.dataset.speakText, { locale, rate });
+    });
+  });
+
+  content.querySelector('.dialogue-toggle-translation-btn')?.addEventListener('click', (event) => {
+    const btn = event.currentTarget;
+    const nowHidden = content.querySelector('.dialogue-translation')?.hidden;
+    content.querySelectorAll('.dialogue-translation').forEach((el) => {
+      el.hidden = !nowHidden ? true : false;
+    });
+    btn.textContent = nowHidden
+      ? t("Masquer l'aide en espagnol", 'Ocultar apoyo en español')
+      : t("Afficher l'aide en espagnol", 'Mostrar apoyo en español');
+  });
+
+  content.querySelectorAll('.dialogue-role-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      content.querySelectorAll('.dialogue-role-btn').forEach((b) => b.classList.toggle('is-active', b === btn));
+      const myRole = btn.dataset.role;
+      const list = content.querySelector('.dialogue-roleplay-lines');
+      if (!list) return;
+      list.innerHTML = lines
+        .map((line, index) => {
+          const isMine = line.speaker === myRole;
+          if (!isMine) {
+            return `
+              <li class="dialogue-line">
+                <span class="dialogue-speaker">${escapeHtml(line.speaker || '')}</span>
+                <span class="dialogue-text">${escapeHtml(line.line || '')}</span>
+                ${canSpeak ? `<button type="button" class="dialogue-line-speak-btn" data-speak-text="${escapeHtml(line.line || '')}" aria-label="${escapeHtml(t('Écouter cette réplique', 'Escuchar esta línea'))}">🔊</button>` : ''}
+              </li>`;
+          }
+          return `
+            <li class="dialogue-line dialogue-line--mine" data-index="${index}">
+              <span class="dialogue-speaker">${escapeHtml(line.speaker || '')} (${t('toi', 'tú')})</span>
+              <textarea class="dialogue-roleplay-input" rows="2" placeholder="${escapeHtml(t('Écris ou dis ta réplique…', 'Escribe o di tu línea…'))}"></textarea>
+              <button type="button" class="secondary-btn dialogue-show-model-btn">${t('Voir le modèle', 'Ver el modelo')}</button>
+              <p class="dialogue-model-line" hidden>${escapeHtml(line.line || '')}</p>
+            </li>`;
+        })
+        .join('');
+      list.querySelectorAll('.dialogue-line-speak-btn').forEach((speakBtn) => {
+        speakBtn.addEventListener('click', () => speakText(speakBtn.dataset.speakText, { locale, rate }));
+      });
+      list.querySelectorAll('.dialogue-show-model-btn').forEach((modelBtn) => {
+        modelBtn.addEventListener('click', () => {
+          const modelLine = modelBtn.nextElementSibling;
+          if (modelLine) modelLine.hidden = !modelLine.hidden;
+        });
+      });
+    });
+  });
+}
+
 function renderGrammarView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
@@ -4112,6 +4307,10 @@ function renderVocabularyView(section, lesson) {
   const canSpeak = supportsSpeech();
   const cardLocale = getPronunciationLocale(learningPathState.language);
   const cardRate = getDefaultPronunciationRate();
+  const isFrench = learningPathState.language === 'french';
+  const speakAriaLabel = (word) =>
+    isFrench ? `Écouter la prononciation de ${word}` : `Escuchar pronunciación de ${word}`;
+  const speakTitle = isFrench ? 'Écouter la prononciation' : 'Escuchar pronunciación';
 
   content.innerHTML = `
     <h3>${escapeHtml(lesson.title)}</h3>
@@ -4128,7 +4327,7 @@ function renderVocabularyView(section, lesson) {
               <strong>${escapeHtml(item.word)}</strong>
               ${
                 canSpeak
-                  ? `<button type="button" class="vocab-speak-btn" aria-label="Escuchar pronunciación de ${escapeHtml(item.word)}" title="Escuchar pronunciación">🔊</button>`
+                  ? `<button type="button" class="vocab-speak-btn" aria-label="${escapeHtml(speakAriaLabel(item.word))}" title="${escapeHtml(speakTitle)}">🔊</button>`
                   : ''
               }
             </div>
@@ -4887,7 +5086,7 @@ function openTutorDrawer(overrides = {}) {
   const skillEl = drawer.querySelector('[data-drawer-context="skill"]');
   const levelEl = drawer.querySelector('[data-drawer-context="level"]');
   if (skillEl)
-    skillEl.textContent = SKILL_LABELS[tutorDrawerContext.skill] || tutorDrawerContext.skill;
+    skillEl.textContent = getSkillLabel(tutorDrawerContext.skill);
   if (levelEl) levelEl.textContent = learningPathState.level;
 
   const prompt = document.getElementById('tutorDrawerPrompt');
@@ -5879,7 +6078,7 @@ function enableHomepageActions() {
         lessonIntro: lesson?.intro || lesson?.description || '',
         lessonSlug: lesson?.slug || '',
         supportMode: openTutorBtn.dataset.supportMode || 'practice',
-        currentActivity: `Practicando ${SKILL_LABELS[skill] || skill}`,
+        currentActivity: `Practicando ${getSkillLabel(skill)}`,
         prefill: openTutorBtn.dataset.tutorPrompt || '',
         transcript: openTutorBtn.dataset.tutorTranscript || '',
         vocabulary: openTutorBtn.dataset.tutorVocabulary || '',
@@ -6217,7 +6416,7 @@ function enableHomepageActions() {
       lessonSlug: tutorDrawerContext.lessonSlug,
       currentActivity:
         tutorDrawerContext.currentActivity ||
-        `Practicando ${SKILL_LABELS[tutorDrawerContext.skill] || tutorDrawerContext.skill}`,
+        `Practicando ${getSkillLabel(tutorDrawerContext.skill)}`,
       supportMode: tutorDrawerContext.supportMode,
       transcript: tutorDrawerContext.transcript,
       vocabulary: tutorDrawerContext.vocabulary,
