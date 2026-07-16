@@ -16,6 +16,17 @@ const SEED_UNITS_PATH = path.join(ROOT, 'lib', 'seed-units.json');
 
 const SKILL_ORDER = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
 
+// reading_text (both the normalized schema's lesson_sections.reading_text
+// column and the legacy content_json.reading.text field) keeps holding the
+// full concatenated text for backward compatibility (print/PDF view, "show
+// full text" after the last part, Tutor IA "explain this paragraph"
+// prompts) - computed from parts rather than hand-authored twice.
+function shapeReading(reading) {
+  if (!reading) return null;
+  if (!reading.parts) return reading;
+  return { ...reading, text: reading.parts.join('\n\n') };
+}
+
 function buildActivityRow(unit, skill) {
   const a = unit.activities[skill];
   if (!a) throw new Error(`Unit "${unit.slug}" is missing a "${skill}" activity`);
@@ -43,7 +54,7 @@ function buildActivityRow(unit, skill) {
       phrases: a.phrases || [],
       vocabulary: a.vocabulary || [],
       dialogue: a.dialogue || [],
-      reading: a.reading || null,
+      reading: shapeReading(a.reading),
       exercises: a.exercises || [],
       xp_reward: a.xp
     }

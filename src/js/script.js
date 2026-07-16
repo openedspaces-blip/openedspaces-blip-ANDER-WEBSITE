@@ -1691,6 +1691,53 @@ const languageDisplayNames = {
   ai: 'AI Tutor'
 };
 
+// ---------------------------------------------------------------------
+// Pronunciation (Web Speech API) - shared by every flashcard/pronounceable
+// element across every target language, never hardcoded to English. Locale
+// is resolved from the current learningPathState.language (or an explicit
+// override) at call time, not baked into this function.
+// ---------------------------------------------------------------------
+
+const LANGUAGE_LOCALES = {
+  english: 'en-US',
+  french: 'fr-FR',
+  spanish: 'es-ES',
+  italian: 'it-IT',
+  german: 'de-DE'
+};
+
+function supportsSpeech() {
+  return typeof window !== 'undefined' && 'speechSynthesis' in window;
+}
+
+function getPronunciationLocale(language = learningPathState.language) {
+  return LANGUAGE_LOCALES[language] || 'en-US';
+}
+
+// Always cancels any in-flight utterance first, so two quick taps (or
+// tapping a second card while the first is still speaking) never overlap.
+// No-ops silently - no thrown errors, no console noise - when the browser
+// doesn't support speechSynthesis at all.
+function speakText(text, { locale, rate = 1 } = {}) {
+  if (!supportsSpeech() || !text) return;
+  try {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = locale || getPronunciationLocale();
+    utterance.rate = rate;
+    window.speechSynthesis.speak(utterance);
+  } catch {
+    /* speechSynthesis unavailable/misbehaving - the card stays usable without audio */
+  }
+}
+
+// English A1 speaks slightly slower (0.86x) per spec; every other
+// language/level defaults to normal rate unless a card sets its own
+// pronunciationRate.
+function getDefaultPronunciationRate(language = learningPathState.language, level = learningPathState.level) {
+  return language === 'english' && level === 'A1' ? 0.86 : 1;
+}
+
 function escapeHtml(value = '') {
   return String(value)
     .replaceAll('&', '&amp;')
@@ -1700,8 +1747,11 @@ function escapeHtml(value = '') {
     .replaceAll("'", '&#039;');
 }
 
+// Returns the message body <p> so streaming callers (see streamTutorReply()
+// below) can keep updating its text as chunks arrive, instead of only being
+// able to append a message once, fully formed.
 function appendTutorMessage(container, role, text, { isError = false } = {}) {
-  if (!container) return;
+  if (!container) return null;
   const message = document.createElement('div');
   message.className = `tutor-message tutor-message--${role}${isError ? ' tutor-message--error' : ''}`;
 
@@ -1715,6 +1765,15 @@ function appendTutorMessage(container, role, text, { isError = false } = {}) {
   message.append(label, body);
   container.appendChild(message);
   container.scrollTop = container.scrollHeight;
+  return body;
+}
+
+// Updates an in-progress tutor message bubble's text (see appendTutorMessage's
+// returned <p>) as streamed chunks accumulate.
+function updateTutorMessageBody(bodyEl, container, text) {
+  if (!bodyEl) return;
+  bodyEl.innerHTML = escapeHtml(text).replace(/\n/g, '<br>');
+  if (container) container.scrollTop = container.scrollHeight;
 }
 
 // Course-backed lessons (normalized schema, e.g. English A1) send options as
@@ -2634,14 +2693,78 @@ function renderSkillView(skill) {
   SKILL_VIEW_RENDERERS[skill]?.(section, lesson);
 }
 
+// Per-lesson UI-only state for the 3-part reading pagination (English A1
+// today - see lesson.reading.parts) - which part is showing, whether the
+// full text has been revealed, and a stable (shuffled once per lesson load)
+// display order for the "put these events in order" activity, if any.
+const readingPartRuntime = new Map();
+function getReadingPartRuntime(lesson) {
+  let runtime = readingPartRuntime.get(lesson.slug);
+  if (!runtime) {
+    const events = lesson.reading?.ordering?.events || [];
+    const shuffledEvents = events
+      .map((text, index) => ({ text, correctPosition: index + 1 }))
+      .sort(() => Math.random() - 0.5);
+    runtime = { currentPart: 0, showFullText: false, shuffledEvents };
+    readingPartRuntime.set(lesson.slug, runtime);
+  }
+  return runtime;
+}
+
+// A plain 2-option True/False mcq is grouped under its own heading in the
+// reading view so it reads as a distinct activity type, without needing a
+// separate schema field - see scripts/content/english-a1-units.js, where
+// these are authored as ordinary mcq exercises with ['True', 'False'] options.
+function isTrueFalseExercise(item) {
+  return (
+    Array.isArray(item.options) &&
+    item.options.length === 2 &&
+    item.options.some((opt) => optionLabel(opt).trim().toLowerCase() === 'true')
+  );
+}
+
+function renderReadingOrderingHtml(lesson, runtime) {
+  const ordering = lesson.reading?.ordering;
+  if (!ordering?.events?.length) return '';
+  const optionsHtml = ordering.events
+    .map((_, position) => `<option value="${position + 1}">${position + 1}</option>`)
+    .join('');
+
+  const itemsHtml = runtime.shuffledEvents
+    .map(
+      (event, index) => `
+      <li class="reading-ordering-item">
+        <select class="reading-ordering-select" data-index="${index}" aria-label="Posición del evento ${index + 1}">
+          <option value="">#</option>
+          ${optionsHtml}
+        </select>
+        <span>${escapeHtml(event.text)}</span>
+      </li>
+    `
+    )
+    .join('');
+
+  return `
+    <div class="reading-ordering no-print">
+      <h4>Ordena los acontecimientos</h4>
+      <p class="reading-ordering-prompt">${escapeHtml(ordering.prompt)}</p>
+      <ol class="reading-ordering-list">${itemsHtml}</ol>
+      <button type="button" class="secondary-btn reading-ordering-check-btn">Comprobar orden</button>
+      <span class="reading-ordering-feedback" aria-live="polite"></span>
+    </div>
+  `;
+}
+
 function renderReadingView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
   const { total, attempted } = getExerciseProgress(lesson);
   const pct = total ? Math.round((attempted / total) * 100) : 0;
-  const paragraphs = (lesson.reading?.text || lesson.description || '')
-    .split(/\n+/)
-    .filter(Boolean);
+  const parts = lesson.reading?.parts;
+  const hasParts = Array.isArray(parts) && parts.length > 0;
+  const paragraphs = hasParts
+    ? parts
+    : (lesson.reading?.text || lesson.description || '').split(/\n+/).filter(Boolean);
   const vocabHtml = (lesson.vocabulary || [])
     .map(
       (item) => `
@@ -2655,13 +2778,59 @@ function renderReadingView(section, lesson) {
   const reflectHtml = (lesson.reading?.questions || [])
     .map((q) => `<li>${escapeHtml(q)}</li>`)
     .join('');
-  const exercisesHtml = (lesson.exercises || [])
-    .filter((item) => item.type === 'mcq')
+  const mcqExercises = (lesson.exercises || []).filter((item) => item.type === 'mcq');
+  const trueFalseExercises = mcqExercises.filter(isTrueFalseExercise);
+  const comprehensionExercises = mcqExercises.filter((item) => !isTrueFalseExercise(item));
+  const exercisesHtml = comprehensionExercises
     .map((item, index) => renderLessonExercise(item, index, lesson))
+    .join('');
+  const trueFalseHtml = trueFalseExercises
+    .map((item, index) => renderLessonExercise(item, comprehensionExercises.length + index, lesson))
     .join('');
   const bridgeLabel = languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
   const targetLabel =
     languageDisplayNames[learningPathState.language] || learningPathState.language;
+  const canSpeak = supportsSpeech();
+  const speakLocale = getPronunciationLocale(learningPathState.language);
+  const speakRate = getDefaultPronunciationRate();
+
+  // Paginated part viewer (English A1's 3-part readings) vs. the original
+  // single-block layout (every reading without lesson.reading.parts - every
+  // other language, unaffected) - both end up inside the same print area, so
+  // downloading a PDF always shows the complete text either way.
+  let readingBodyHtml;
+  if (hasParts) {
+    const runtime = getReadingPartRuntime(lesson);
+    const currentPart = Math.min(runtime.currentPart, parts.length - 1);
+    const isLastPart = currentPart === parts.length - 1;
+    readingBodyHtml = `
+      <div class="reading-part-viewer no-print">
+        <p class="reading-part-progress">Parte ${currentPart + 1} de ${parts.length}</p>
+        <div class="reading-part-text"><p>${escapeHtml(parts[currentPart])}</p></div>
+        <div class="reading-part-actions">
+          ${
+            canSpeak
+              ? `<button type="button" class="secondary-btn reading-part-listen-btn" data-speak-text="${escapeHtml(parts[currentPart])}" data-speak-locale="${escapeHtml(speakLocale)}" data-speak-rate="${speakRate}">🔊 Escuchar esta parte</button>`
+              : ''
+          }
+          <button type="button" class="secondary-btn reading-part-prev-btn" ${currentPart === 0 ? 'disabled' : ''}>← Anterior</button>
+          ${
+            isLastPart
+              ? `<button type="button" class="secondary-btn reading-part-showfull-btn">${runtime.showFullText ? 'Ocultar texto completo' : 'Ver texto completo'}</button>`
+              : `<button type="button" class="primary-btn reading-part-next-btn">Continuar →</button>`
+          }
+        </div>
+      </div>
+      ${
+        runtime.showFullText
+          ? `<div class="reading-full-text no-print"><h4>Texto completo</h4>${parts.map((p) => `<p>${escapeHtml(p)}</p>`).join('')}</div>`
+          : ''
+      }
+      <div class="reading-paragraphs print-only">${parts.map((p) => `<p>${escapeHtml(p)}</p>`).join('')}</div>
+    `;
+  } else {
+    readingBodyHtml = `<div class="reading-paragraphs">${paragraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join('')}</div>`;
+  }
 
   content.innerHTML = `
     <div class="reading-print-area" id="readingPrintArea">
@@ -2673,7 +2842,7 @@ function renderReadingView(section, lesson) {
       <h3>${escapeHtml(lesson.title)}</h3>
       <p class="reading-level-tag">${escapeHtml(lesson.level)} · Reading</p>
       <div class="reading-progress-bar no-print" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
-      <div class="reading-paragraphs">${paragraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join('')}</div>
+      ${readingBodyHtml}
       <div class="reading-vocab-section no-print">
         <button type="button" class="secondary-btn reading-toggle-vocab">Ver vocabulario</button>
         <div class="reading-vocab-list" hidden>${vocabHtml}</div>
@@ -2687,6 +2856,12 @@ function renderReadingView(section, lesson) {
         <h4>Preguntas de comprensión</h4>
         ${exercisesHtml || '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>'}
       </div>
+      ${
+        trueFalseHtml
+          ? `<div class="reading-questions"><h4>Verdadero o falso</h4>${trueFalseHtml}</div>`
+          : ''
+      }
+      ${renderReadingOrderingHtml(lesson, hasParts ? getReadingPartRuntime(lesson) : { shuffledEvents: [] })}
       <div class="reading-print-answer-space print-only">
         <h4>Tus respuestas</h4>
         <div class="reading-print-answer-lines"><div></div><div></div><div></div><div></div></div>
@@ -3123,25 +3298,41 @@ function renderGrammarView(section, lesson) {
   `;
 }
 
+// Flashcards accept term/translation/example plus optional per-card
+// pronunciationText/pronunciationLocale/pronunciationRate overrides (falling
+// back to the word itself / the current target language's locale / the
+// level-based default rate) - see speakText()/getPronunciationLocale()/
+// getDefaultPronunciationRate() above.
 function renderVocabularyView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
   const cards = lesson.vocabulary || [];
+  const canSpeak = supportsSpeech();
+  const cardLocale = getPronunciationLocale(learningPathState.language);
+  const cardRate = getDefaultPronunciationRate();
 
   content.innerHTML = `
     <h3>${escapeHtml(lesson.title)}</h3>
     <div class="vocab-card-deck">
       ${cards
-        .map(
-          (item, index) => `
-        <div class="vocab-flip-card" data-index="${index}">
+        .map((item, index) => {
+          const pronunciationText = item.pronunciationText || item.word;
+          const locale = item.pronunciationLocale || cardLocale;
+          const rate = item.pronunciationRate ?? cardRate;
+          return `
+        <div class="vocab-flip-card" data-index="${index}" data-speak-text="${escapeHtml(pronunciationText)}" data-speak-locale="${escapeHtml(locale)}" data-speak-rate="${rate}">
           <div class="vocab-flip-card-inner">
             <div class="vocab-flip-front">
               <strong>${escapeHtml(item.word)}</strong>
+              ${
+                canSpeak
+                  ? `<button type="button" class="vocab-speak-btn" aria-label="Escuchar pronunciación de ${escapeHtml(item.word)}" title="Escuchar pronunciación">🔊</button>`
+                  : ''
+              }
             </div>
             <div class="vocab-flip-back">
               <strong>${escapeHtml(item.translation)}</strong>
-              <p>${escapeHtml(item.example || '')}</p>
+              <p class="${canSpeak && item.example ? 'vocab-example-speak' : ''}" ${canSpeak && item.example ? `data-speak-text="${escapeHtml(item.example)}" data-speak-locale="${escapeHtml(locale)}" data-speak-rate="${rate}" role="button" tabindex="0" aria-label="Escuchar oración de ejemplo" title="Escuchar oración de ejemplo"` : ''}>${escapeHtml(item.example || '')}${canSpeak && item.example ? ' 🔊' : ''}</p>
             </div>
           </div>
           <div class="vocab-card-actions">
@@ -3151,8 +3342,8 @@ function renderVocabularyView(section, lesson) {
             <button type="button" class="vocab-example-btn open-tutor-btn" data-tutor-prompt="Dame otro ejemplo de una frase con la palabra '${escapeHtml(item.word)}'." data-support-mode="example">Pedir ejemplo</button>
           </div>
         </div>
-      `
-        )
+      `;
+        })
         .join('')}
     </div>
     <div class="skill-view-tutor-cta">
@@ -3985,11 +4176,61 @@ async function sendTutorMessage({
         selectedAnswer: selectedAnswer || ''
       })
     });
-    const data = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(data.error || 'No se pudo conectar con el tutor IA.');
-    if (conversationEl) appendTutorMessage(conversationEl, 'tutor', data.reply || '');
+    if (!response.ok) {
+      const data = await response.json().catch(() => ({}));
+      throw new Error(data.error || 'No se pudo conectar con el tutor IA.');
+    }
+
+    // Streams the SSE body (`data: {"delta"|"done"|"error", ...}\n\n` frames
+    // - see server.js's /api/ai/tutor) and appends each delta into the tutor
+    // message bubble as it arrives, so the student sees words as soon as
+    // they're generated instead of waiting for the full reply.
+    const reader = response.body?.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+    let fullText = '';
+    let messageBody = null;
+    let streamError = null;
+
+    if (reader) {
+      let done = false;
+      while (!done) {
+        const chunk = await reader.read();
+        done = chunk.done;
+        if (chunk.value) buffer += decoder.decode(chunk.value, { stream: true });
+
+        let frameEnd;
+        while ((frameEnd = buffer.indexOf('\n\n')) !== -1) {
+          const frame = buffer.slice(0, frameEnd);
+          buffer = buffer.slice(frameEnd + 2);
+          const line = frame.split('\n').find((l) => l.startsWith('data: '));
+          if (!line) continue;
+
+          let payload;
+          try {
+            payload = JSON.parse(line.slice(6));
+          } catch {
+            continue;
+          }
+
+          if (payload.error) {
+            streamError = payload.message || 'No se pudo conectar con el tutor IA.';
+          } else if (payload.delta) {
+            fullText += payload.delta;
+            if (thinkingEl) thinkingEl.hidden = true;
+            if (conversationEl) {
+              if (!messageBody) messageBody = appendTutorMessage(conversationEl, 'tutor', fullText);
+              else updateTutorMessageBody(messageBody, conversationEl, fullText);
+            }
+          }
+        }
+      }
+    }
+
+    if (streamError && !fullText) throw new Error(streamError);
+
     if (connectionStatusEl) connectionStatusEl.textContent = 'Conectado';
-    return data;
+    return { reply: fullText };
   } catch (error) {
     if (conversationEl)
       appendTutorMessage(
@@ -4869,6 +5110,86 @@ function enableHomepageActions() {
       return;
     }
 
+    // Reading part pagination (English A1's 3-part readings) - re-renders
+    // the whole view after mutating getReadingPartRuntime()'s state, same
+    // pattern as the listening view's runtime map.
+    const readingPartPrevBtn = event.target.closest('.reading-part-prev-btn');
+    if (readingPartPrevBtn) {
+      const sec = readingPartPrevBtn.closest('.skill-view-section');
+      const lsn = learningPathState.lessons.find((item) => item.slug === sec?.dataset.activeLessonSlug);
+      if (lsn) {
+        getReadingPartRuntime(lsn).currentPart = Math.max(0, getReadingPartRuntime(lsn).currentPart - 1);
+        renderReadingView(sec, lsn);
+      }
+      return;
+    }
+    const readingPartNextBtn = event.target.closest('.reading-part-next-btn');
+    if (readingPartNextBtn) {
+      const sec = readingPartNextBtn.closest('.skill-view-section');
+      const lsn = learningPathState.lessons.find((item) => item.slug === sec?.dataset.activeLessonSlug);
+      if (lsn) {
+        const totalParts = lsn.reading?.parts?.length || 1;
+        const runtime = getReadingPartRuntime(lsn);
+        runtime.currentPart = Math.min(totalParts - 1, runtime.currentPart + 1);
+        renderReadingView(sec, lsn);
+      }
+      return;
+    }
+    const readingPartShowFullBtn = event.target.closest('.reading-part-showfull-btn');
+    if (readingPartShowFullBtn) {
+      const sec = readingPartShowFullBtn.closest('.skill-view-section');
+      const lsn = learningPathState.lessons.find((item) => item.slug === sec?.dataset.activeLessonSlug);
+      if (lsn) {
+        const runtime = getReadingPartRuntime(lsn);
+        runtime.showFullText = !runtime.showFullText;
+        renderReadingView(sec, lsn);
+      }
+      return;
+    }
+    const readingPartListenBtn = event.target.closest('.reading-part-listen-btn');
+    if (readingPartListenBtn) {
+      speakText(readingPartListenBtn.dataset.speakText, {
+        locale: readingPartListenBtn.dataset.speakLocale,
+        rate: Number(readingPartListenBtn.dataset.speakRate) || 1
+      });
+      return;
+    }
+
+    // "Order the events" activity - self-checked client-side (the correct
+    // order isn't a secured answer key the way mcq options are, see
+    // getReadingPartRuntime()'s docs above), comparing each shuffled event's
+    // assigned position against its real position in lesson.reading.ordering.events.
+    const readingOrderingCheckBtn = event.target.closest('.reading-ordering-check-btn');
+    if (readingOrderingCheckBtn) {
+      const container = readingOrderingCheckBtn.closest('.reading-ordering');
+      const selects = container?.querySelectorAll('.reading-ordering-select') || [];
+      const sec = readingOrderingCheckBtn.closest('.skill-view-section');
+      const lsn = learningPathState.lessons.find((item) => item.slug === sec?.dataset.activeLessonSlug);
+      const runtime = lsn ? getReadingPartRuntime(lsn) : null;
+      let allCorrect = true;
+      let allFilled = true;
+      selects.forEach((select) => {
+        const index = Number(select.dataset.index);
+        const item = select.closest('.reading-ordering-item');
+        if (!select.value) {
+          allFilled = false;
+          item?.classList.remove('is-correct', 'is-incorrect');
+          return;
+        }
+        const correct = runtime && Number(select.value) === runtime.shuffledEvents[index]?.correctPosition;
+        item?.classList.toggle('is-correct', Boolean(correct));
+        item?.classList.toggle('is-incorrect', !correct);
+        if (!correct) allCorrect = false;
+      });
+      const feedback = container?.querySelector('.reading-ordering-feedback');
+      if (feedback) {
+        if (!allFilled) feedback.textContent = 'Asigna una posición a cada evento.';
+        else if (allCorrect) feedback.textContent = '¡Correcto! El orden es correcto.';
+        else feedback.textContent = 'Algunos eventos no están en el orden correcto. Inténtalo de nuevo.';
+      }
+      return;
+    }
+
     const writingReviewBtn = event.target.closest('.writing-review-btn');
     if (writingReviewBtn) {
       const editor = document.getElementById('writingEditor');
@@ -4943,6 +5264,29 @@ function enableHomepageActions() {
       return;
     }
 
+    // Repeats the term's pronunciation without re-flipping - the "keep a
+    // speaker button available to repeat" requirement. Checked before the
+    // broader .vocab-flip-card handler below so it doesn't also toggle flip.
+    const vocabSpeakBtn = event.target.closest('.vocab-speak-btn');
+    if (vocabSpeakBtn) {
+      const card = vocabSpeakBtn.closest('.vocab-flip-card');
+      if (card)
+        speakText(card.dataset.speakText, {
+          locale: card.dataset.speakLocale,
+          rate: Number(card.dataset.speakRate) || 1
+        });
+      return;
+    }
+    // Tapping the example sentence (back of the card) reads the full
+    // sentence aloud, separately from the term itself.
+    const vocabExampleSpeak = event.target.closest('.vocab-example-speak');
+    if (vocabExampleSpeak) {
+      speakText(vocabExampleSpeak.dataset.speakText, {
+        locale: vocabExampleSpeak.dataset.speakLocale,
+        rate: Number(vocabExampleSpeak.dataset.speakRate) || 1
+      });
+      return;
+    }
     const vocabFlipBtn = event.target.closest('.vocab-flip-btn');
     if (vocabFlipBtn) {
       vocabFlipBtn.closest('.vocab-flip-card')?.classList.toggle('is-flipped');
@@ -4956,6 +5300,21 @@ function enableHomepageActions() {
     const vocabRetryBtn = event.target.closest('.vocab-retry-btn');
     if (vocabRetryBtn) {
       vocabRetryBtn.closest('.vocab-flip-card')?.classList.remove('is-known', 'is-flipped');
+      return;
+    }
+    // Tapping/clicking anywhere else on the card itself: cancel any
+    // in-flight pronunciation, speak the term, and flip the card - the core
+    // flashcard interaction. Placed last among the vocab checks so the more
+    // specific buttons above (speak/example/flip/know/retry) - and
+    // .vocab-example-btn's .open-tutor-btn handling, earlier in this same
+    // delegated handler - all short-circuit first.
+    const vocabFlipCard = event.target.closest('.vocab-flip-card');
+    if (vocabFlipCard) {
+      speakText(vocabFlipCard.dataset.speakText, {
+        locale: vocabFlipCard.dataset.speakLocale,
+        rate: Number(vocabFlipCard.dataset.speakRate) || 1
+      });
+      vocabFlipCard.classList.add('is-flipped');
       return;
     }
   });

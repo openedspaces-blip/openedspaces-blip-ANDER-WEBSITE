@@ -164,12 +164,15 @@ async function main() {
         order_index: 0,
         reading_title: content.reading.title || null,
         reading_text: content.reading.text || '',
-        // reading_questions is a jsonb column - pass the array as-is and let
-        // the Supabase client serialize it. JSON.stringify()-ing it here
-        // double-encodes the value (the column ends up storing a JSON
-        // *string* instead of a JSON array), which breaks the client's
-        // `.questions.map(...)` once it comes back through the API.
-        reading_questions: content.reading.questions || []
+        // reading_questions/reading_parts/reading_ordering are all jsonb
+        // columns - pass arrays/objects as-is and let the Supabase client
+        // serialize them. JSON.stringify()-ing them here double-encodes the
+        // value (the column ends up storing a JSON *string* instead of a
+        // JSON array/object), which breaks the client's `.map(...)` once it
+        // comes back through the API.
+        reading_questions: content.reading.questions || [],
+        reading_parts: content.reading.parts || null,
+        reading_ordering: content.reading.ordering || null
       });
     }
     if (sectionRows.length) {

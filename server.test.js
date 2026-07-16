@@ -6,7 +6,7 @@ const vm = require('node:vm');
 const { createServer } = require('./lib/server');
 const { getLocalLessons } = require('./lib/lessonsData');
 const { levelContent, languageContent } = require('./lib/uiContent');
-const { isConfigured: isTutorConfigured } = require('./lib/geminiService');
+const { isAnyProviderConfigured: isTutorConfigured } = require('./lib/aiTutorService');
 
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -47,9 +47,42 @@ test('language content endpoint exposes backend-managed UI payload', async () =>
   }
 });
 
+// Reads the /api/ai/tutor SSE body (`data: {"delta"|"done"|"error", ...}\n\n`
+// frames - see lib/server.js) and accumulates it into the fully joined reply,
+// mirroring what src/js/script.js's sendTutorMessage() does in the browser.
+async function collectSseReply(response) {
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = '';
+  let text = '';
+  let sawDone = false;
+  let sawError = null;
+  let done = false;
+
+  while (!done) {
+    const chunk = await reader.read();
+    done = chunk.done;
+    if (chunk.value) buffer += decoder.decode(chunk.value, { stream: true });
+
+    let frameEnd;
+    while ((frameEnd = buffer.indexOf('\n\n')) !== -1) {
+      const frame = buffer.slice(0, frameEnd);
+      buffer = buffer.slice(frameEnd + 2);
+      const line = frame.split('\n').find((l) => l.startsWith('data: '));
+      if (!line) continue;
+      const payload = JSON.parse(line.slice(6));
+      if (payload.delta) text += payload.delta;
+      if (payload.done) sawDone = true;
+      if (payload.error) sawError = payload.message;
+    }
+  }
+
+  return { text, sawDone, sawError };
+}
+
 test(
-  'ai tutor endpoint surfaces missing Gemini configuration clearly',
-  { skip: isTutorConfigured() && 'GEMINI_API_KEY is set in this environment' },
+  'ai tutor endpoint surfaces missing AI provider configuration clearly',
+  { skip: isTutorConfigured() && 'An AI provider is configured in this environment' },
   async () => {
     const { server, port } = await startTestServer();
     try {
@@ -66,16 +99,27 @@ test(
       });
       assert.equal(response.status, 503);
       const body = await response.json();
-      assert.match(body.error, /GEMINI_API_KEY/i);
+      // Cerebras is the primary provider - this is the actionable env var to
+      // set, matching lib/aiTutorService.js#tutorConfigError().
+      assert.match(body.error, /CEREBRAS_API_KEY/i);
     } finally {
       server.close();
     }
   }
 );
 
+// Deliberately does NOT assert this passes because "Cerebras was integrated"
+// - it only runs (and only proves anything) when a real provider key
+// (CEREBRAS_API_KEY, GROQ_API_KEY, or GEMINI_API_KEY) is actually present
+// and working. It targets whichever provider ends up configured, not Gemini
+// specifically - see lib/aiTutorService.js's PROVIDERS cascade.
 test(
-  'ai tutor endpoint returns a real reply when Gemini is configured',
-  { skip: !isTutorConfigured() && 'GEMINI_API_KEY is not set in this environment' },
+  'ai tutor endpoint streams a real reply when a provider is configured',
+  {
+    skip:
+      !isTutorConfigured() &&
+      'No AI provider (CEREBRAS_API_KEY/GROQ_API_KEY/GEMINI_API_KEY) is configured in this environment'
+  },
   async () => {
     const { server, port } = await startTestServer();
     try {
@@ -91,14 +135,32 @@ test(
         })
       });
       assert.equal(response.status, 200);
-      const body = await response.json();
-      assert.equal(typeof body.reply, 'string');
-      assert.ok(body.reply.length > 0);
+      assert.match(response.headers.get('content-type') || '', /text\/event-stream/);
+      const { text, sawDone, sawError } = await collectSseReply(response);
+      assert.equal(sawError, null, `expected no SSE error event, got: ${sawError}`);
+      assert.ok(sawDone, 'expected a final {"done":true} SSE event');
+      assert.ok(text.length > 0, 'expected at least one non-empty delta chunk');
     } finally {
       server.close();
     }
   }
 );
+
+test('health endpoint reports AI tutor configuration without leaking keys or other provider names', async () => {
+  const { server, port } = await startTestServer();
+  try {
+    const response = await fetch(`http://127.0.0.1:${port}/api/health`);
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    assert.deepEqual(body.aiTutor, {
+      configured: isTutorConfigured(),
+      primaryProvider: 'cerebras',
+      streaming: true
+    });
+  } finally {
+    server.close();
+  }
+});
 
 // English A1 is now organized into 12 thematic units with one activity per
 // skill each (72 activities) instead of a single lesson per skill (6) -

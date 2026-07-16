@@ -45,12 +45,12 @@
       ],
       [
         "Mission",
-        "A short text about a student's first day of English class."
+        "A short text about a student's first day of English class, in three parts."
       ]
     ],
     "reading": {
       "title": "English A1 Reading",
-      "text": "Next month, my family is going to travel to the mountains. The weather there is usually cool, not hot like the beach. We are going to pack jackets and warm clothes. My father is going to drive, and the trip takes about three hours. I am very excited because it is going to be my first time in the mountains!",
+      "text": "Next month, my family is going to travel to the mountains. The weather there is usually cool, not hot like the beach. In the mountains, it sometimes rains in the afternoon, so we need to check the weather before we go. I am already thinking about what to pack.\n\nWe are going to pack jackets and warm clothes because the nights are cold. My father is going to drive, and the trip takes about three hours. My mother is going to bring snacks and water for the journey. We are also going to bring a camera to take photos.\n\nI am very excited because it is going to be my first time in the mountains! My brother says there are beautiful views and many trails for walking. We are going to stay in a small cabin near a lake. I can't wait for our trip!",
       "questions": [
         "Where is the family going to travel?",
         "What is the weather like there?",
@@ -529,8 +529,8 @@
     "xpReward": 25,
     "orderIndex": 10,
     "estimatedMinutes": 10,
-    "description": "A short text about a student's first day of English class.",
-    "intro": "A short text about a student's first day of English class.",
+    "description": "A short text about a student's first day of English class, in three parts.",
+    "intro": "A short text about a student's first day of English class, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -538,17 +538,31 @@
     "dialogue": [],
     "reading": {
       "title": "Hello, Class!",
-      "text": "Hello! My name is Ana. Today is my first English class. My teacher is Mr. Green. He says, \"Good morning, class!\" and we answer, \"Good morning, Mr. Green!\" I sit next to a boy named Leo. \"Hi, I'm Leo,\" he says. \"Nice to meet you,\" I answer. We say our names and spell them with the alphabet. It is a good first day.",
+      "parts": [
+        "Hello! My name is Ana. Today is my first English class. I am a little nervous, but also excited. My teacher is Mr. Green. He says, \"Good morning, class!\" and we answer, \"Good morning, Mr. Green!\" He has a big smile and a friendly voice.",
+        "I sit next to a boy named Leo. \"Hi, I'm Leo,\" he says. \"Nice to meet you,\" I answer. We shake hands and smile. Leo is from Italy, and this is his first day too. We both feel happy to have a new friend.",
+        "Mr. Green asks us to say our names and spell them with the alphabet. I spell my name: A-N-A. Leo spells his name too: L-E-O. It is a good first day. I already have one new friend, and I want to learn more English words tomorrow."
+      ],
       "questions": [
         "What is the girl's name?",
         "Who is the teacher?",
         "What does the class say to Mr. Green?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "Ana arrives at her first English class.",
+          "Mr. Green says good morning to the class.",
+          "Ana meets Leo and they introduce themselves.",
+          "Ana and Leo spell their names with the alphabet."
+        ]
+      },
+      "text": "Hello! My name is Ana. Today is my first English class. I am a little nervous, but also excited. My teacher is Mr. Green. He says, \"Good morning, class!\" and we answer, \"Good morning, Mr. Green!\" He has a big smile and a friendly voice.\n\nI sit next to a boy named Leo. \"Hi, I'm Leo,\" he says. \"Nice to meet you,\" I answer. We shake hands and smile. Leo is from Italy, and this is his first day too. We both feel happy to have a new friend.\n\nMr. Green asks us to say our names and spell them with the alphabet. I spell my name: A-N-A. Leo spells his name too: L-E-O. It is a good first day. I already have one new friend, and I want to learn more English words tomorrow."
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the teacher's name?",
+        "prompt": "Who is the teacher?",
         "options": [
           "Mr. Green",
           "Mr. Leo",
@@ -558,7 +572,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Who sits next to Ana?",
+        "prompt": "Who does Ana sit next to?",
         "options": [
           "Mr. Green",
           "Leo",
@@ -568,12 +582,56 @@
       },
       {
         "type": "mcq",
-        "prompt": "What do they practice with the alphabet?",
+        "prompt": "Where is Leo from?",
+        "options": [
+          "Spain",
+          "Italy",
+          "France",
+          "Dominican Republic"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do they practice at the end?",
         "options": [
           "Numbers",
-          "Spelling their names",
+          "Spelling their names with the alphabet",
           "Colors",
           "Drawing"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Ana is a little nervous on her first day.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Leo is Ana's teacher.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Ana and Leo shake hands.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Mr. Green has a big smile and a very ___ voice.",
+        "options": [
+          "angry",
+          "friendly",
+          "sad",
+          "tired"
         ]
       }
     ]
@@ -931,8 +989,8 @@
     "xpReward": 25,
     "orderIndex": 20,
     "estimatedMinutes": 10,
-    "description": "A short profile text about a student from the Dominican Republic.",
-    "intro": "A short profile text about a student from the Dominican Republic.",
+    "description": "A short profile text about a student from the Dominican Republic, in three parts.",
+    "intro": "A short profile text about a student from the Dominican Republic, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -940,12 +998,26 @@
     "dialogue": [],
     "reading": {
       "title": "My Profile",
-      "text": "My name is Marco. I am twelve years old. I am from the Dominican Republic, and I live in Santo Domingo. I am happy today because it is my birthday! I am not tired, and I am not sad. I am a student, and I am also a good friend. My favorite color is blue.",
+      "parts": [
+        "My name is Marco. I am twelve years old. I am from the Dominican Republic, and I live in Santo Domingo. My city is big and colorful, with many parks and friendly people. I go to a school near my house with my sister.",
+        "Today is a special day for me: it is my birthday! I am very happy today. I am not tired, and I am not sad at all. My friends say \"Happy birthday!\" to me at school, and I feel very lucky.",
+        "I am a student, and I am also a good friend. I like to help my classmates with their homework. My favorite color is blue, like the sky. Tonight, my family is going to have a small party for my birthday."
+      ],
       "questions": [
         "How old is Marco?",
         "Where is Marco from?",
         "Why is Marco happy today?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "Marco wakes up on his birthday.",
+          "His friends say \"Happy birthday\" at school.",
+          "Marco helps a classmate with homework.",
+          "Marco's family has a small party."
+        ]
+      },
+      "text": "My name is Marco. I am twelve years old. I am from the Dominican Republic, and I live in Santo Domingo. My city is big and colorful, with many parks and friendly people. I go to a school near my house with my sister.\n\nToday is a special day for me: it is my birthday! I am very happy today. I am not tired, and I am not sad at all. My friends say \"Happy birthday!\" to me at school, and I feel very lucky.\n\nI am a student, and I am also a good friend. I like to help my classmates with their homework. My favorite color is blue, like the sky. Tonight, my family is going to have a small party for my birthday."
     },
     "exercises": [
       {
@@ -976,6 +1048,50 @@
           "He has a new friend",
           "He is on vacation",
           "He got a good grade"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who does Marco help at school?",
+        "options": [
+          "His teacher",
+          "His classmates",
+          "His sister",
+          "Mr. Green"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Marco is tired today.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Marco's favorite color is blue.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Marco's family is having a party tonight.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: My city is big and ___, with many parks.",
+        "options": [
+          "colorful",
+          "boring",
+          "empty",
+          "cold"
         ]
       }
     ]
@@ -1327,8 +1443,8 @@
     "xpReward": 25,
     "orderIndex": 30,
     "estimatedMinutes": 10,
-    "description": "A short text about Ana's family members.",
-    "intro": "A short text about Ana's family members.",
+    "description": "A short text about Ana's family members, in three parts.",
+    "intro": "A short text about Ana's family members, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -1336,12 +1452,26 @@
     "dialogue": [],
     "reading": {
       "title": "My Family",
-      "text": "This is my family. My mother's name is Carmen, and my father's name is Julio. I have one sister and one brother. My sister's name is Sofia; she is sixteen. My brother's name is Marco; he is nine. My grandmother lives with us too. Her name is Rosa, and she is very kind. We are a happy family.",
+      "parts": [
+        "This is my family. My mother's name is Carmen, and my father's name is Julio. My parents work near our house, and they always have dinner with us. We live in a small house with a big garden.",
+        "I have one sister and one brother. My sister's name is Sofia; she is sixteen years old, and she loves music. My brother's name is Marco; he is nine, and he loves soccer. We play together every weekend.",
+        "My grandmother lives with us too. Her name is Rosa, and she is very kind. She cooks delicious food for the family. On Sundays, we all eat lunch together and talk about our week. We are a happy family."
+      ],
       "questions": [
         "What is the mother's name?",
         "How many brothers and sisters does the writer have?",
         "Who lives with the family besides the parents?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "Carmen and Julio have dinner with the family.",
+          "Sofia and Marco play together on the weekend.",
+          "Rosa cooks lunch on Sunday.",
+          "The family eats lunch together and talks."
+        ]
+      },
+      "text": "This is my family. My mother's name is Carmen, and my father's name is Julio. My parents work near our house, and they always have dinner with us. We live in a small house with a big garden.\n\nI have one sister and one brother. My sister's name is Sofia; she is sixteen years old, and she loves music. My brother's name is Marco; he is nine, and he loves soccer. We play together every weekend.\n\nMy grandmother lives with us too. Her name is Rosa, and she is very kind. She cooks delicious food for the family. On Sundays, we all eat lunch together and talk about our week. We are a happy family."
     },
     "exercises": [
       {
@@ -1372,6 +1502,50 @@
           "The sister",
           "The grandmother",
           "A friend"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does Marco love?",
+        "options": [
+          "Music",
+          "Soccer",
+          "Cooking",
+          "Reading"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Sofia loves music.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The family lives in a big city apartment.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Rosa cooks for the family.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Rosa is very ___; she cooks delicious food for us.",
+        "options": [
+          "kind",
+          "angry",
+          "lazy",
+          "sad"
         ]
       }
     ]
@@ -1723,8 +1897,8 @@
     "xpReward": 25,
     "orderIndex": 40,
     "estimatedMinutes": 10,
-    "description": "A short text describing a classroom and school subjects.",
-    "intro": "A short text describing a classroom and school subjects.",
+    "description": "A short text describing a classroom and school subjects, in three parts.",
+    "intro": "A short text describing a classroom and school subjects, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -1732,12 +1906,26 @@
     "dialogue": [],
     "reading": {
       "title": "My Classroom",
-      "text": "My classroom is big and bright. There is a whiteboard, a teacher's desk, and twenty student desks. There are books, pencils, and a big clock on the wall. My favorite subject is English, but I also like Math and Art. There isn't a computer in my classroom, but there is a computer lab at school. I like my school very much.",
+      "parts": [
+        "My classroom is big and bright. There is a whiteboard, a teacher's desk, and twenty student desks. There are books, pencils, and a big clock on the wall. The walls are yellow, and there are colorful posters everywhere.",
+        "My favorite subject is English, but I also like Math and Art. In English class, we learn new words and sing songs. In Art class, we draw and paint pictures. Math is difficult sometimes, but my teacher helps me.",
+        "There isn't a computer in my classroom, but there is a computer lab at school. We go there once a week to use computers. I like my school very much because my teachers are kind and my friends are fun."
+      ],
       "questions": [
         "What is on the wall of the classroom?",
         "What is the writer's favorite subject?",
         "Where is the computer?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "Students sit at their desks in the classroom.",
+          "The class studies English and sings songs.",
+          "The class studies Art and paints pictures.",
+          "The class visits the computer lab."
+        ]
+      },
+      "text": "My classroom is big and bright. There is a whiteboard, a teacher's desk, and twenty student desks. There are books, pencils, and a big clock on the wall. The walls are yellow, and there are colorful posters everywhere.\n\nMy favorite subject is English, but I also like Math and Art. In English class, we learn new words and sing songs. In Art class, we draw and paint pictures. Math is difficult sometimes, but my teacher helps me.\n\nThere isn't a computer in my classroom, but there is a computer lab at school. We go there once a week to use computers. I like my school very much because my teachers are kind and my friends are fun."
     },
     "exercises": [
       {
@@ -1768,6 +1956,50 @@
           "At home",
           "In the computer lab",
           "There is no computer"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do they do in Art class?",
+        "options": [
+          "Sing songs",
+          "Draw and paint",
+          "Use computers",
+          "Read books"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The classroom walls are yellow.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: There is a computer in the classroom.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Math is always easy for the writer.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: The classroom is big and ___, with yellow walls.",
+        "options": [
+          "bright",
+          "dark",
+          "small",
+          "empty"
         ]
       }
     ]
@@ -2119,8 +2351,8 @@
     "xpReward": 25,
     "orderIndex": 50,
     "estimatedMinutes": 10,
-    "description": "A short text about Ana's daily routine.",
-    "intro": "A short text about Ana's daily routine.",
+    "description": "A short text about Ana's daily routine, in three parts.",
+    "intro": "A short text about Ana's daily routine, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -2128,12 +2360,26 @@
     "dialogue": [],
     "reading": {
       "title": "A Normal Day",
-      "text": "Every day, I get up at seven o'clock. I brush my teeth and eat breakfast with my family. Then I walk to school with my friend Sofia. School starts at eight o'clock. After school, I do my homework and I play with my brother. I have dinner at seven in the evening, and I go to bed at nine thirty. I always sleep well!",
+      "parts": [
+        "Every day, I get up at seven o'clock. First, I brush my teeth and wash my face. Then I eat breakfast with my family: bread, eggs, and juice. After breakfast, I walk to school with my friend Sofia. We talk about our homework on the way.",
+        "School starts at eight o'clock. I have English, Math, and Science in the morning. At noon, I eat lunch with my classmates in the cafeteria. In the afternoon, I do my homework at home, and then I play soccer with my brother in the garden.",
+        "In the evening, my family has dinner together at seven o'clock. We talk about our day and laugh a lot. After dinner, I read a book for a little while. I go to bed at nine thirty. I always sleep well because my day is full of activities!"
+      ],
       "questions": [
         "What time does the writer get up?",
         "Who does she walk to school with?",
         "What time does she go to bed?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "Ana gets up and eats breakfast.",
+          "Ana walks to school with Sofia.",
+          "Ana does her homework and plays soccer.",
+          "The family has dinner together."
+        ]
+      },
+      "text": "Every day, I get up at seven o'clock. First, I brush my teeth and wash my face. Then I eat breakfast with my family: bread, eggs, and juice. After breakfast, I walk to school with my friend Sofia. We talk about our homework on the way.\n\nSchool starts at eight o'clock. I have English, Math, and Science in the morning. At noon, I eat lunch with my classmates in the cafeteria. In the afternoon, I do my homework at home, and then I play soccer with my brother in the garden.\n\nIn the evening, my family has dinner together at seven o'clock. We talk about our day and laugh a lot. After dinner, I read a book for a little while. I go to bed at nine thirty. I always sleep well because my day is full of activities!"
     },
     "exercises": [
       {
@@ -2148,22 +2394,66 @@
       },
       {
         "type": "mcq",
+        "prompt": "What does she eat for breakfast?",
+        "options": [
+          "Rice and chicken",
+          "Bread, eggs and juice",
+          "Pizza",
+          "Only fruit"
+        ]
+      },
+      {
+        "type": "mcq",
         "prompt": "What does she do after school?",
         "options": [
           "She sleeps",
           "She eats breakfast",
-          "She does homework and plays",
+          "She does homework and plays soccer",
           "She goes to work"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What time does she go to bed?",
+        "prompt": "What time does the family have dinner?",
         "options": [
+          "Six o'clock",
           "Seven o'clock",
-          "Eight thirty",
-          "Nine o'clock",
-          "Nine thirty"
+          "Eight o'clock",
+          "Nine o'clock"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: She walks to school alone.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: She has English, Math and Science in the morning.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: She goes to bed at eight thirty.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: We talk about our day and ___ a lot at dinner.",
+        "options": [
+          "laugh",
+          "cry",
+          "sleep",
+          "cook"
         ]
       }
     ]
@@ -2515,8 +2805,8 @@
     "xpReward": 25,
     "orderIndex": 60,
     "estimatedMinutes": 10,
-    "description": "A short text about a student's weekly schedule.",
-    "intro": "A short text about a student's weekly schedule.",
+    "description": "A short text about a student's weekly schedule, in three parts.",
+    "intro": "A short text about a student's weekly schedule, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -2524,12 +2814,26 @@
     "dialogue": [],
     "reading": {
       "title": "My Weekly Schedule",
-      "text": "My English class is on Monday, Wednesday, and Friday at nine o'clock in the morning. My favorite day is Saturday because I don't have school. My birthday is in June, on the fifteenth. This year, my birthday is on a Sunday! In the summer, in July and August, we don't have classes at all.",
+      "parts": [
+        "My English class is on Monday, Wednesday, and Friday, at nine o'clock in the morning. I also have Math on Tuesday and Thursday, at ten o'clock. My classes finish at two o'clock in the afternoon, and then I go home for lunch.",
+        "My favorite day is Saturday because I don't have school. On Saturday mornings, I usually clean my room and help my mother. In the afternoon, I play with my friends in the park. Sunday is a quiet day; my family rests and visits my grandmother.",
+        "My birthday is in June, on the fifteenth. This year, my birthday is on a Sunday, so I can celebrate all day with my family! In the summer, in July and August, we don't have classes at all. I love summer because I can sleep late and travel."
+      ],
       "questions": [
         "What days does the writer have English class?",
         "When is the writer's birthday?",
         "Which months have no classes?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The writer goes to English class on Monday.",
+          "The writer cleans her room on Saturday morning.",
+          "The writer plays with friends on Saturday afternoon.",
+          "The writer celebrates her birthday in June."
+        ]
+      },
+      "text": "My English class is on Monday, Wednesday, and Friday, at nine o'clock in the morning. I also have Math on Tuesday and Thursday, at ten o'clock. My classes finish at two o'clock in the afternoon, and then I go home for lunch.\n\nMy favorite day is Saturday because I don't have school. On Saturday mornings, I usually clean my room and help my mother. In the afternoon, I play with my friends in the park. Sunday is a quiet day; my family rests and visits my grandmother.\n\nMy birthday is in June, on the fifteenth. This year, my birthday is on a Sunday, so I can celebrate all day with my family! In the summer, in July and August, we don't have classes at all. I love summer because I can sleep late and travel."
     },
     "exercises": [
       {
@@ -2560,6 +2864,50 @@
           "Wednesday",
           "Friday",
           "Saturday"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What time do classes finish?",
+        "options": [
+          "One o'clock",
+          "Two o'clock",
+          "Three o'clock",
+          "Four o'clock"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Math class is on Tuesday and Thursday.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer's birthday is in July.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: There are no classes in July and August.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Sunday is a ___ day; my family rests.",
+        "options": [
+          "quiet",
+          "noisy",
+          "busy",
+          "short"
         ]
       }
     ]
@@ -3085,8 +3433,8 @@
     "xpReward": 25,
     "orderIndex": 70,
     "estimatedMinutes": 10,
-    "description": "A short text about what a student eats for lunch.",
-    "intro": "A short text about what a student eats for lunch.",
+    "description": "A short text about what a student eats for lunch, in three parts.",
+    "intro": "A short text about what a student eats for lunch, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -3094,12 +3442,26 @@
     "dialogue": [],
     "reading": {
       "title": "Lunch at School",
-      "text": "At lunchtime, I usually eat rice, chicken, and some vegetables. I love fruit, especially bananas and mangoes. I don't like fish very much, but my brother loves it. For drinks, I have some water or juice. I don't drink coffee because it's only for adults. On Fridays, we sometimes have pizza, and everybody is happy!",
+      "parts": [
+        "At lunchtime, I usually eat rice, chicken, and some vegetables. My mother cooks a big lunch for the whole family every day. We eat together at the table and talk about our morning. Lunch is my favorite meal of the day.",
+        "I love fruit, especially bananas and mangoes. I eat fruit every afternoon as a snack. I don't like fish very much, but my brother loves it. He eats fish two or three times a week. We don't always like the same food!",
+        "For drinks, I have some water or juice with my meals. I don't drink coffee because it's only for adults. On Fridays, we sometimes have pizza for dinner, and everybody is happy! Pizza with cheese is my favorite kind."
+      ],
       "questions": [
         "What does the writer usually eat for lunch?",
         "What fruit does the writer love?",
         "What do they eat on Fridays?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The family eats lunch together.",
+          "The writer eats fruit in the afternoon.",
+          "The writer drinks water or juice with dinner.",
+          "The family eats pizza on Friday."
+        ]
+      },
+      "text": "At lunchtime, I usually eat rice, chicken, and some vegetables. My mother cooks a big lunch for the whole family every day. We eat together at the table and talk about our morning. Lunch is my favorite meal of the day.\n\nI love fruit, especially bananas and mangoes. I eat fruit every afternoon as a snack. I don't like fish very much, but my brother loves it. He eats fish two or three times a week. We don't always like the same food!\n\nFor drinks, I have some water or juice with my meals. I don't drink coffee because it's only for adults. On Fridays, we sometimes have pizza for dinner, and everybody is happy! Pizza with cheese is my favorite kind."
     },
     "exercises": [
       {
@@ -3130,6 +3492,50 @@
           "Coffee",
           "Pizza",
           "Soup"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When does the writer eat fruit?",
+        "options": [
+          "In the morning",
+          "Every afternoon",
+          "At night",
+          "Never"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer's favorite meal is lunch.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer drinks coffee every day.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The brother eats fish two or three times a week.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: We eat together and ___ about our morning.",
+        "options": [
+          "talk",
+          "sleep",
+          "run",
+          "paint"
         ]
       }
     ]
@@ -3655,8 +4061,8 @@
     "xpReward": 25,
     "orderIndex": 80,
     "estimatedMinutes": 10,
-    "description": "A short text describing the rooms in a house.",
-    "intro": "A short text describing the rooms in a house.",
+    "description": "A short text describing the rooms in a house, in three parts.",
+    "intro": "A short text describing the rooms in a house, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -3664,12 +4070,26 @@
     "dialogue": [],
     "reading": {
       "title": "My House",
-      "text": "My house has five rooms: a kitchen, a living room, two bedrooms, and a bathroom. In my bedroom, there is a bed, a desk, and a small closet. My favorite room is the living room because there is a big sofa and a television. Our cat, Luna, is usually under the table in the kitchen. I love my home.",
+      "parts": [
+        "My house has five rooms: a kitchen, a living room, two bedrooms, and a bathroom. The kitchen is next to the living room, and it is always warm because my mother cooks there every day. Our house is small, but very comfortable.",
+        "In my bedroom, there is a bed, a desk, and a small closet. My bed is next to the window, so I can see the garden. I keep my clothes in the closet and my books on the desk. I share my bedroom with my sister.",
+        "My favorite room is the living room because there is a big sofa and a television. We watch movies there on weekends. Our cat, Luna, is usually under the table in the kitchen, but sometimes she sleeps on the sofa too. I love my home."
+      ],
       "questions": [
         "How many rooms does the house have?",
         "What is in the writer's bedroom?",
         "Where is the cat usually?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The writer wakes up in her bedroom.",
+          "Mother cooks in the warm kitchen.",
+          "The family watches a movie in the living room.",
+          "Luna the cat sleeps under the kitchen table."
+        ]
+      },
+      "text": "My house has five rooms: a kitchen, a living room, two bedrooms, and a bathroom. The kitchen is next to the living room, and it is always warm because my mother cooks there every day. Our house is small, but very comfortable.\n\nIn my bedroom, there is a bed, a desk, and a small closet. My bed is next to the window, so I can see the garden. I keep my clothes in the closet and my books on the desk. I share my bedroom with my sister.\n\nMy favorite room is the living room because there is a big sofa and a television. We watch movies there on weekends. Our cat, Luna, is usually under the table in the kitchen, but sometimes she sleeps on the sofa too. I love my home."
     },
     "exercises": [
       {
@@ -3700,6 +4120,50 @@
           "Under the table",
           "In the closet",
           "On the sofa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who does the writer share a bedroom with?",
+        "options": [
+          "Her mother",
+          "Her sister",
+          "Her father",
+          "Nobody"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The kitchen is always warm.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The house has ten rooms.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The family watches movies in the living room.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Our house is small, but very ___.",
+        "options": [
+          "comfortable",
+          "cold",
+          "empty",
+          "dangerous"
         ]
       }
     ]
@@ -4225,8 +4689,8 @@
     "xpReward": 25,
     "orderIndex": 90,
     "estimatedMinutes": 10,
-    "description": "A short text about the places near a student's home.",
-    "intro": "A short text about the places near a student's home.",
+    "description": "A short text about the places near a student's home, in three parts.",
+    "intro": "A short text about the places near a student's home, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -4234,12 +4698,26 @@
     "dialogue": [],
     "reading": {
       "title": "My Neighborhood",
-      "text": "There is a small park near my house, and I play there with my friends. There is also a supermarket, a bakery, and a pharmacy on my street. My school is not far; it is only a ten-minute walk. On Saturdays, my family goes to the market to buy fresh fruit and vegetables. I like my neighborhood because everything is close.",
+      "parts": [
+        "There is a small park near my house, and I play there with my friends every afternoon. There is also a supermarket, a bakery, and a pharmacy on my street. The bakery smells wonderful in the morning because they bake fresh bread.",
+        "My school is not far; it is only a ten-minute walk. I walk there every day with my neighbor. Next to my school, there is a small bookstore where I buy notebooks and pencils. My town also has a beautiful library with many books.",
+        "On Saturdays, my family goes to the market to buy fresh fruit and vegetables. The market is busy and colorful, with many friendly sellers. I like my neighborhood because everything is close, and I know almost everybody who lives here."
+      ],
       "questions": [
         "What places are on the writer's street?",
         "How far is the school?",
         "What do they buy at the market?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The writer plays in the park with friends.",
+          "The writer walks to school with a neighbor.",
+          "The writer buys notebooks at the bookstore.",
+          "The family shops at the market on Saturday."
+        ]
+      },
+      "text": "There is a small park near my house, and I play there with my friends every afternoon. There is also a supermarket, a bakery, and a pharmacy on my street. The bakery smells wonderful in the morning because they bake fresh bread.\n\nMy school is not far; it is only a ten-minute walk. I walk there every day with my neighbor. Next to my school, there is a small bookstore where I buy notebooks and pencils. My town also has a beautiful library with many books.\n\nOn Saturdays, my family goes to the market to buy fresh fruit and vegetables. The market is busy and colorful, with many friendly sellers. I like my neighborhood because everything is close, and I know almost everybody who lives here."
     },
     "exercises": [
       {
@@ -4270,6 +4748,50 @@
           "The pharmacy",
           "The market",
           "The school"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is next to the school?",
+        "options": [
+          "A bakery",
+          "A bookstore",
+          "A bank",
+          "A hospital"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The bakery smells good in the morning.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer walks to school alone.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The market is quiet and empty on Saturdays.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: The market is busy and ___, with many sellers.",
+        "options": [
+          "colorful",
+          "boring",
+          "silent",
+          "empty"
         ]
       }
     ]
@@ -4795,8 +5317,8 @@
     "xpReward": 25,
     "orderIndex": 100,
     "estimatedMinutes": 10,
-    "description": "A short text about how a student spends the weekend.",
-    "intro": "A short text about how a student spends the weekend.",
+    "description": "A short text about how a student spends the weekend, in three parts.",
+    "intro": "A short text about how a student spends the weekend, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -4804,12 +5326,26 @@
     "dialogue": [],
     "reading": {
       "title": "My Weekend",
-      "text": "On weekends, I usually play soccer with my friends in the park. I always watch a movie on Friday night with my family. I sometimes read books, but I never do homework on Sunday morning! My sister usually plays the guitar, and she is very good at it. Free time is important because it makes me happy.",
+      "parts": [
+        "On weekends, I usually play soccer with my friends in the park. We play for almost two hours, and it is great exercise. I always watch a movie on Friday night with my family. We choose a different movie every week and eat popcorn together.",
+        "I sometimes read books on Saturday afternoon, especially adventure stories. But I never do homework on Sunday morning! Sunday morning is only for relaxing and having a big breakfast with my family. I finish my homework on Sunday evening instead.",
+        "My sister usually plays the guitar, and she is very good at it. She practices every weekend and sometimes plays songs for the family. Free time is important because it makes me happy and helps me relax after a busy week at school."
+      ],
       "questions": [
         "What does the writer usually do on weekends?",
         "What does the family always do on Friday night?",
         "What does the sister do in her free time?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The writer plays soccer with friends.",
+          "The family watches a movie on Friday night.",
+          "The writer reads a book on Saturday afternoon.",
+          "The sister plays guitar for the family."
+        ]
+      },
+      "text": "On weekends, I usually play soccer with my friends in the park. We play for almost two hours, and it is great exercise. I always watch a movie on Friday night with my family. We choose a different movie every week and eat popcorn together.\n\nI sometimes read books on Saturday afternoon, especially adventure stories. But I never do homework on Sunday morning! Sunday morning is only for relaxing and having a big breakfast with my family. I finish my homework on Sunday evening instead.\n\nMy sister usually plays the guitar, and she is very good at it. She practices every weekend and sometimes plays songs for the family. Free time is important because it makes me happy and helps me relax after a busy week at school."
     },
     "exercises": [
       {
@@ -4840,6 +5376,50 @@
           "Homework",
           "Play soccer",
           "Watch TV"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When does the writer finish homework?",
+        "options": [
+          "Saturday morning",
+          "Sunday morning",
+          "Sunday evening",
+          "Friday night"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer plays soccer for two hours on weekends.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The sister never plays guitar.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The family eats popcorn on movie night.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Sunday morning is only for ___ and having a big breakfast.",
+        "options": [
+          "relaxing",
+          "working",
+          "studying",
+          "shopping"
         ]
       }
     ]
@@ -5366,8 +5946,8 @@
     "xpReward": 25,
     "orderIndex": 110,
     "estimatedMinutes": 10,
-    "description": "A short text about shopping for new clothes.",
-    "intro": "A short text about shopping for new clothes.",
+    "description": "A short text about shopping for new clothes, in three parts.",
+    "intro": "A short text about shopping for new clothes, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -5375,12 +5955,26 @@
     "dialogue": [],
     "reading": {
       "title": "At the Clothing Store",
-      "text": "Yesterday, I went to the store with my mother to buy new clothes for school. I tried on a blue shirt and some black pants. The shirt was too big, so I asked for a smaller size. I also bought a pair of white shoes. My mother said, \"This shirt looks great on you!\" We paid and went home happy.",
+      "parts": [
+        "Yesterday, I went to the store with my mother to buy new clothes for school. The store was big, with many colors and styles. I tried on a blue shirt and some black pants. I looked at myself in the big mirror.",
+        "The shirt was too big, so I asked the shop assistant for a smaller size. She was very helpful and brought me a medium shirt. It fit perfectly! I also bought a pair of white shoes because my old shoes were too small.",
+        "My mother said, \"This shirt looks great on you!\" I felt happy and confident in my new clothes. We paid at the counter and went home happy. Tomorrow, I am going to wear my new shirt and shoes to school!"
+      ],
       "questions": [
         "Why did the writer go to the store?",
         "What was wrong with the first shirt?",
         "What did the writer buy?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The writer tries on a blue shirt.",
+          "The shop assistant brings a smaller size.",
+          "The writer buys white shoes.",
+          "The family pays and goes home."
+        ]
+      },
+      "text": "Yesterday, I went to the store with my mother to buy new clothes for school. The store was big, with many colors and styles. I tried on a blue shirt and some black pants. I looked at myself in the big mirror.\n\nThe shirt was too big, so I asked the shop assistant for a smaller size. She was very helpful and brought me a medium shirt. It fit perfectly! I also bought a pair of white shoes because my old shoes were too small.\n\nMy mother said, \"This shirt looks great on you!\" I felt happy and confident in my new clothes. We paid at the counter and went home happy. Tomorrow, I am going to wear my new shirt and shoes to school!"
     },
     "exercises": [
       {
@@ -5411,6 +6005,50 @@
           "Blue",
           "White",
           "Red"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who helped find a smaller size?",
+        "options": [
+          "The mother",
+          "The shop assistant",
+          "The writer's friend",
+          "Nobody"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The store was big and colorful.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The old shoes were too big.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer is going to wear the new clothes tomorrow.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: I felt happy and ___ in my new clothes.",
+        "options": [
+          "confident",
+          "tired",
+          "worried",
+          "sick"
         ]
       }
     ]
@@ -5937,8 +6575,8 @@
     "xpReward": 25,
     "orderIndex": 120,
     "estimatedMinutes": 10,
-    "description": "A short text about a family trip and the weather.",
-    "intro": "A short text about a family trip and the weather.",
+    "description": "A short text about a family trip and the weather, in three parts.",
+    "intro": "A short text about a family trip and the weather, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -5946,12 +6584,26 @@
     "dialogue": [],
     "reading": {
       "title": "Our Trip to the Mountains",
-      "text": "Next month, my family is going to travel to the mountains. The weather there is usually cool, not hot like the beach. We are going to pack jackets and warm clothes. My father is going to drive, and the trip takes about three hours. I am very excited because it is going to be my first time in the mountains!",
+      "parts": [
+        "Next month, my family is going to travel to the mountains. The weather there is usually cool, not hot like the beach. In the mountains, it sometimes rains in the afternoon, so we need to check the weather before we go. I am already thinking about what to pack.",
+        "We are going to pack jackets and warm clothes because the nights are cold. My father is going to drive, and the trip takes about three hours. My mother is going to bring snacks and water for the journey. We are also going to bring a camera to take photos.",
+        "I am very excited because it is going to be my first time in the mountains! My brother says there are beautiful views and many trails for walking. We are going to stay in a small cabin near a lake. I can't wait for our trip!"
+      ],
       "questions": [
         "Where is the family going to travel?",
         "What is the weather like there?",
         "How long does the trip take?"
-      ]
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The family checks the weather and packs jackets.",
+          "Father drives the family to the mountains.",
+          "The family arrives at the small cabin.",
+          "The family walks on the mountain trails."
+        ]
+      },
+      "text": "Next month, my family is going to travel to the mountains. The weather there is usually cool, not hot like the beach. In the mountains, it sometimes rains in the afternoon, so we need to check the weather before we go. I am already thinking about what to pack.\n\nWe are going to pack jackets and warm clothes because the nights are cold. My father is going to drive, and the trip takes about three hours. My mother is going to bring snacks and water for the journey. We are also going to bring a camera to take photos.\n\nI am very excited because it is going to be my first time in the mountains! My brother says there are beautiful views and many trails for walking. We are going to stay in a small cabin near a lake. I can't wait for our trip!"
     },
     "exercises": [
       {
@@ -5982,6 +6634,50 @@
           "Two hours",
           "Three hours",
           "A whole day"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Where are they going to stay?",
+        "options": [
+          "A hotel",
+          "A small cabin",
+          "A tent",
+          "Their car"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The nights in the mountains are cold.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: This is not the writer's first time in the mountains.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The family is going to bring a camera.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: My brother says there are beautiful ___ and many trails.",
+        "options": [
+          "views",
+          "shoes",
+          "phones",
+          "prices"
         ]
       }
     ]
