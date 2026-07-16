@@ -1366,6 +1366,436 @@ const units = [
         ]
       })
     }
+  },
+
+  // ---------------------------------------------------------------
+  {
+    slug: 'mes-loisirs',
+    title: 'Mes loisirs',
+    titleEs: 'Mis pasatiempos',
+    description: 'Camila, Léa et Karim partagent leurs loisirs le week-end.',
+    order: 10,
+    accessTier: 'premium',
+    activities: {
+      reading: activity('reading', {
+        title: 'Mes loisirs à Tours',
+        description: 'Camila décrit ses loisirs du week-end avec Léa et Karim, en trois parties.',
+        reading: {
+          title: 'Mes loisirs à Tours',
+          parts: [
+            "Le week-end, j'aime faire beaucoup d'activités différentes avec mes amis de Tours. Le samedi matin, je fais du sport avec Léa : nous faisons du vélo au bord de la Loire, et nous nous arrêtons pour prendre des photos du fleuve. L'après-midi, je joue au volley avec des amis du collège, sur le terrain près de chez nous. Karim, lui, préfère jouer de la guitare ; il en joue depuis quatre ans et il sait jouer plusieurs chansons françaises et même quelques chansons espagnoles pour me faire plaisir.",
+            "Le dimanche, je fais souvent de la danse, parce que c'est ma passion depuis toujours, même avant mon départ pour la France. Léa ne sait pas danser la bachata, alors je lui apprends quelques pas simples dans le salon de la maison. « Tu peux venir avec moi au cours de danse dimanche prochain ? » je lui demande. « Bien sûr, j'adore essayer de nouvelles choses ! » répond-elle avec un grand sourire. Karim, lui, ne peut pas venir parce qu'il a un match de football tous les dimanches matin, avec son équipe du quartier.",
+            "Grâce à mes amis, je découvre de nouveaux loisirs à Tours : le vélo au bord de la Loire, le volley entre copains, la guitare de Karim le soir. Et grâce à moi, Léa découvre petit à petit la danse dominicaine, et elle adore ça ! Nous partageons nos passions et nous apprenons les uns des autres, toutes les semaines. Ce mélange de cultures rend ma vie à Tours vraiment riche, amusante, et pleine de nouvelles découvertes."
+          ],
+          questions: ['Que fait Camila le samedi matin ?', 'Que sait bien faire Karim ?', 'Pourquoi Karim ne peut-il pas venir au cours de danse ?'],
+          ordering: {
+            prompt: "Remets les événements de l'histoire dans l'ordre.",
+            events: [
+              'Camila fait du vélo avec Léa le samedi matin.',
+              "Elle joue au volley l'après-midi.",
+              'Elle propose à Léa de venir au cours de danse.',
+              'Karim explique qu\'il a un match de football le dimanche.'
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'Que fait Camila le samedi matin ?', options: ['Elle joue de la guitare', 'Elle fait du vélo avec Léa', 'Elle regarde un match', 'Elle fait ses devoirs'], answer: 1 },
+          { type: 'mcq', prompt: 'Que sait bien faire Karim ?', options: ['Danser la bachata', 'Jouer de la guitare', 'Faire du vélo', 'Nager'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle est la passion de Camila depuis toujours ?', options: ['Le football', 'La guitare', 'La danse', 'Le vélo'], answer: 2 },
+          { type: 'mcq', prompt: 'Pourquoi Karim ne peut-il pas venir au cours de danse ?', options: ["Il n'aime pas danser", 'Il a un match de football', 'Il est malade', 'Il travaille'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Léa sait déjà danser la bachata.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Camila joue au volley l\'après-midi.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Karim joue de la guitare depuis quatre ans.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Camila et Léa ___ leurs passions et apprennent les unes des autres.', options: ['partagent', 'détestent', 'oublient', 'cachent'], answer: 0 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Tu sais jouer de la guitare ?',
+        description: 'Camila et Karim parlent de leurs loisirs.',
+        intro: 'Écoute Camila et Karim qui parlent de leurs loisirs et de leurs compétences.',
+        dialogue: [
+          { speaker: 'Camila', line: 'Karim, tu sais jouer de la guitare depuis longtemps ?', translation: 'Karim, ¿sabes tocar la guitarra desde hace mucho?' },
+          { speaker: 'Karim', line: 'Oui, je joue depuis quatre ans. Et toi, tu fais du sport ?', translation: 'Sí, toco desde hace cuatro años. ¿Y tú, haces deporte?' },
+          { speaker: 'Camila', line: 'Oui, je fais du vélo et je joue au volley.', translation: 'Sí, hago ciclismo y juego al vóley.' },
+          { speaker: 'Karim', line: 'Tu sais aussi danser, non ?', translation: '¿También sabes bailar, no?' },
+          { speaker: 'Camila', line: "Oui, j'adore danser la bachata !", translation: '¡Sí, me encanta bailar bachata!' },
+          { speaker: 'Karim', line: "Génial ! Tu peux m'apprendre un jour ?", translation: '¡Genial! ¿Me puedes enseñar algún día?' }
+        ],
+        phrases: ['Tu sais... ?', 'Je fais du/de la...', 'Je joue au/à la...', 'Tu peux... ?'],
+        exercises: [
+          { type: 'mcq', prompt: 'Depuis combien de temps Karim joue-t-il de la guitare ?', options: ['Un an', 'Deux ans', 'Quatre ans', 'Dix ans'], answer: 2 },
+          { type: 'mcq', prompt: 'Quels sports fait Camila ?', options: ['Le foot et le tennis', 'Le vélo et le volley', 'La natation', 'Le basket'], answer: 1 },
+          { type: 'mcq', prompt: 'Que demande Karim à la fin ?', options: ['De jouer de la guitare', "D'apprendre à danser", 'De faire du vélo', 'De jouer au volley'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Parle de tes loisirs',
+        description: 'Décris à voix haute tes loisirs.',
+        mission: 'Dis à voix haute trois loisirs que tu fais et un que tu sais bien faire.',
+        phrases: ['Je fais du/de la...', 'Je joue au/à la...', 'Je sais...', 'Je peux...'],
+        dialogue: [
+          { speaker: 'Toi', line: 'Je fais du vélo et je joue au volley.', translation: 'Hago ciclismo y juego al vóley.' },
+          { speaker: 'Camarade', line: 'Et tu sais jouer d\'un instrument ?', translation: '¿Y sabes tocar algún instrumento?' },
+          { speaker: 'Toi', line: 'Oui, je sais jouer de la guitare.', translation: 'Sí, sé tocar la guitarra.' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: 'Dis à voix haute trois loisirs que tu fais et un que tu sais bien faire.', answer: 'Oral practice' },
+          { type: 'practice', prompt: "Demande à un(e) camarade ce qu'il/elle sait faire pendant son temps libre.", answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Écris sur tes loisirs',
+        description: 'Décris tes loisirs préférés.',
+        mission: 'Décris tes loisirs en 40 à 50 mots avec faire, jouer, savoir ou pouvoir.',
+        phrases: ['Je fais du/de la...', 'Je joue au/à la...', 'Je sais...'],
+        dialogue: [
+          { speaker: 'Modèle', line: "Le week-end, je fais du vélo et je joue au volley avec mes amis. Je sais aussi jouer de la guitare, mais je ne peux pas encore bien danser.", translation: 'El fin de semana, hago ciclismo y juego al vóley con mis amigos. También sé tocar la guitarra, pero todavía no puedo bailar bien.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Décris tes loisirs (40 à 50 mots) avec au moins un verbe faire, jouer, savoir ou pouvoir.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: 'Faire, jouer, pouvoir et savoir',
+        description: 'Faire du/de la, jouer au/à la/de, pouvoir et savoir.',
+        grammarNote: "Pour les activités et les sports, on utilise faire du (masculin) ou faire de la (féminin) : faire du vélo, faire de la danse. Pour les jeux et sports avec ballon, on utilise jouer au (masculin) ou jouer à la (féminin) : jouer au volley, jouer à la pétanque. Pour un instrument de musique, on utilise jouer de : jouer de la guitare. Le verbe pouvoir (capacité/permission) : je peux, tu peux, il/elle peut, nous pouvons, vous pouvez, ils/elles peuvent. Le verbe savoir (compétence apprise) : je sais, tu sais, il/elle sait, nous savons, vous savez, ils/elles savent. Exemple : « Je sais danser, mais je ne peux pas venir aujourd'hui. »",
+        phrases: ['faire du / de la...', 'jouer au / à la / de...', 'Je peux... / Je sais...'],
+        exercises: [
+          { type: 'mcq', prompt: 'Camila fait ___ vélo le samedi.', options: ['au', 'du', 'de la', 'à la'], answer: 1 },
+          { type: 'mcq', prompt: 'Je joue ___ volley avec mes amis.', options: ['au', 'du', 'de la', 'à la'], answer: 0 },
+          { type: 'mcq', prompt: 'Karim joue ___ guitare.', options: ['au', 'du', 'de la', 'à'], answer: 2 },
+          { type: 'mcq', prompt: 'Tu ___ danser la bachata ?', options: ['peux', 'sais', 'fais', 'joues'], answer: 1 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'Les loisirs et les sports',
+        description: 'Vocabulaire des loisirs et des sports.',
+        vocabulary: [
+          { word: 'faire du vélo', translation: 'andar en bicicleta', example: 'Nous faisons du vélo au bord de la Loire.' },
+          { word: 'faire de la danse', translation: 'bailar (practicar danza)', example: 'Camila fait de la danse le dimanche.' },
+          { word: 'jouer au volley', translation: 'jugar al vóley', example: "Je joue au volley l'après-midi." },
+          { word: 'jouer de la guitare', translation: 'tocar la guitarra', example: 'Karim joue de la guitare.' },
+          { word: 'le sport', translation: 'el deporte', example: 'Le sport, c\'est important pour moi.' },
+          { word: 'la musique', translation: 'la música', example: "J'aime la musique française." },
+          { word: 'le match', translation: 'el partido', example: 'Karim a un match de football.' },
+          { word: 'le week-end', translation: 'el fin de semana', example: 'Le week-end, je me repose.' },
+          { word: 'pouvoir', translation: 'poder', example: 'Tu peux venir avec moi ?' },
+          { word: 'savoir', translation: 'saber', example: 'Je sais danser la bachata.' },
+          { word: 'depuis', translation: 'desde (hace)', example: 'Il joue de la guitare depuis quatre ans.' },
+          { word: 'une passion', translation: 'una pasión', example: 'La danse est ma passion.' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « le match » ?', options: ['El partido', 'La música', 'El deporte', 'La pasión'], answer: 0 },
+          { type: 'mcq', prompt: 'Que signifie « savoir » ?', options: ['Poder', 'Saber', 'Jugar', 'Hacer'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « depuis » ?', options: ['Desde (hace)', 'Después', 'Antes', 'Durante'], answer: 0 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'Qu\'est-ce que tu fais le week-end ?',
+        description: 'Léa demande à Camila ses projets du week-end.',
+        intro: 'Léa demande à Camila ce qu\'elle fait pendant le week-end.',
+        dialogue: [
+          { speaker: 'Léa', line: "Qu'est-ce que tu fais le week-end, Camila ?", translation: '¿Qué haces el fin de semana, Camila?' },
+          { speaker: 'Camila', line: 'Le samedi, je fais du vélo et je joue au volley.', translation: 'Los sábados, hago ciclismo y juego al vóley.' },
+          { speaker: 'Léa', line: 'Et le dimanche ?', translation: '¿Y el domingo?' },
+          { speaker: 'Camila', line: 'Le dimanche, je fais de la danse. Tu veux venir avec moi ?', translation: 'El domingo, hago baile. ¿Quieres venir conmigo?' },
+          { speaker: 'Léa', line: "J'adorerais ! Je ne sais pas danser, mais je peux apprendre.", translation: 'Me encantaría. No sé bailar, pero puedo aprender.' },
+          { speaker: 'Camila', line: "Parfait, je vais t'apprendre quelques pas !", translation: '¡Perfecto, te voy a enseñar unos pasos!' }
+        ],
+        phrases: ["Qu'est-ce que tu fais le week-end ?", 'Je fais du/de la...', 'Tu veux venir ?', 'Je peux apprendre.'],
+        exercises: [
+          { type: 'mcq', prompt: 'Que fait Camila le samedi ?', options: ['Elle danse', 'Elle fait du vélo et joue au volley', 'Elle joue de la guitare', 'Elle regarde un film'], answer: 1 },
+          { type: 'mcq', prompt: 'Que fait Camila le dimanche ?', options: ['Du sport', 'De la danse', 'De la musique', 'Rien'], answer: 1 },
+          { type: 'mcq', prompt: 'Léa sait-elle déjà danser ?', options: ['Oui, très bien', 'Non, mais elle veut apprendre', 'Elle déteste danser', 'Elle ne répond pas'], answer: 1 }
+        ]
+      })
+    }
+  },
+
+  // ---------------------------------------------------------------
+  {
+    slug: 'les-vetements-et-les-achats',
+    title: 'Les vêtements et les achats',
+    titleEs: 'La ropa y las compras',
+    description: 'Léa et Camila font du shopping dans le centre-ville de Tours.',
+    order: 11,
+    accessTier: 'premium',
+    activities: {
+      reading: activity('reading', {
+        title: 'Une sortie shopping à Tours',
+        description: 'Léa et Camila cherchent une tenue pour une fête à l\'école, en trois parties.',
+        reading: {
+          title: 'Une sortie shopping à Tours',
+          parts: [
+            "Léa m'invite à faire du shopping dans le centre-ville de Tours, pour chercher une tenue pour une fête à l'école. Nous entrons dans un magasin de vêtements près de la place. « Regarde cette robe bleue, elle est jolie ! » dit Léa. Je préfère ce pull rouge et ce jean noir. La vendeuse nous demande : « Vous cherchez quelque chose de particulier ? » « Je cherche une tenue simple mais élégante, » je réponds. Elle me montre plusieurs vêtements de différentes couleurs : vert, jaune, blanc et violet.",
+            "J'essaie cette robe verte et ces chaussures blanches. « Combien coûte cette robe ? » je demande à la vendeuse. « Elle coûte quarante-cinq euros, » répond-elle. C'est un peu cher pour moi, alors je cherche autre chose. Finalement, je trouve un beau chemisier jaune à vingt euros. Léa, elle, prend cette jupe noire et ce chapeau blanc. « Ces vêtements te vont très bien ! » me dit-elle en souriant.",
+            "À la caisse, je prends mon chemisier jaune, et Léa prend sa jupe et son chapeau. « Merci pour votre visite ! » nous dit la vendeuse. En sortant du magasin, nous sommes très contentes de nos achats. Cette sortie shopping avec Léa était amusante, et maintenant, j'ai une nouvelle tenue pour la fête de l'école. J'adore découvrir la mode française avec mon amie."
+          ],
+          questions: ['Pourquoi Léa et Camila font-elles du shopping ?', 'Combien coûte la robe verte ?', 'Qu\'est-ce que Camila achète finalement ?'],
+          ordering: {
+            prompt: "Remets les événements de l'histoire dans l'ordre.",
+            events: [
+              'Léa invite Camila à faire du shopping.',
+              'Camila essaie une robe verte et des chaussures blanches.',
+              'La vendeuse annonce le prix de la robe.',
+              'Camila achète un chemisier jaune à la caisse.'
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'Pourquoi vont-elles faire du shopping ?', options: ["Pour une fête à l'école", "Pour l'anniversaire de Léa", 'Pour un voyage', "Pour l'école de musique"], answer: 0 },
+          { type: 'mcq', prompt: 'Combien coûte la robe verte ?', options: ['Vingt euros', 'Trente euros', 'Quarante-cinq euros', 'Cinquante euros'], answer: 2 },
+          { type: 'mcq', prompt: 'Qu\'est-ce que Camila achète finalement ?', options: ['Une robe verte', 'Un chemisier jaune', 'Un jean noir', 'Un chapeau blanc'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu\'est-ce que Léa achète ?', options: ['Une robe et des chaussures', 'Une jupe et un chapeau', 'Un pull et un jean', 'Rien'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : La robe verte coûte vingt euros.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Camila trouve la robe verte un peu chère.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Léa achète un chapeau blanc.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Combien ___ cette robe ?', options: ['coûte', 'cherche', 'prend', 'porte'], answer: 0 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Je cherche un pull',
+        description: 'Camila cherche un pull dans un magasin.',
+        intro: 'Écoute Camila qui cherche un pull dans un magasin de vêtements.',
+        dialogue: [
+          { speaker: 'Vendeuse', line: 'Bonjour, je peux vous aider ?', translation: 'Hola, ¿puedo ayudarla?' },
+          { speaker: 'Camila', line: "Oui, je cherche un pull pour l'hiver.", translation: 'Sí, busco un suéter para el invierno.' },
+          { speaker: 'Vendeuse', line: 'Quelle couleur préférez-vous ?', translation: '¿Qué color prefiere?' },
+          { speaker: 'Camila', line: 'Je préfère le bleu ou le gris.', translation: 'Prefiero el azul o el gris.' },
+          { speaker: 'Vendeuse', line: 'Voici ce pull bleu. Il coûte trente euros.', translation: 'Aquí tiene este suéter azul. Cuesta treinta euros.' },
+          { speaker: 'Camila', line: 'Parfait, je le prends !', translation: 'Perfecto, ¡me lo llevo!' }
+        ],
+        phrases: ['Je cherche...', 'Quelle couleur... ?', 'Combien coûte... ?', 'Je le/la prends.'],
+        exercises: [
+          { type: 'mcq', prompt: 'Que cherche Camila ?', options: ['Une robe', 'Un pull', 'Un chapeau', 'Des chaussures'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle couleur préfère Camila ?', options: ['Rouge ou vert', 'Bleu ou gris', 'Jaune ou blanc', 'Noir ou violet'], answer: 1 },
+          { type: 'mcq', prompt: 'Combien coûte le pull bleu ?', options: ['Vingt euros', 'Trente euros', 'Quarante euros', 'Cinquante euros'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Fais du shopping',
+        description: 'Joue une scène d\'achat de vêtements.',
+        mission: 'Joue une scène d\'achat : demande le prix et dis ce que tu cherches.',
+        phrases: ['Je cherche...', 'Combien coûte... ?', 'Je prends...'],
+        dialogue: [
+          { speaker: 'Toi', line: 'Je cherche une robe pour une fête.', translation: 'Busco un vestido para una fiesta.' },
+          { speaker: 'Vendeur/Vendeuse', line: 'Voici cette robe bleue. Combien coûte cette robe, vous demandez-vous ?', translation: 'Aquí tiene este vestido azul. ¿Cuánto cuesta este vestido, se pregunta usted?' },
+          { speaker: 'Toi', line: "Elle coûte combien ? Je la prends si le prix est bon.", translation: '¿Cuánto cuesta? Me lo llevo si el precio es bueno.' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: "Joue une scène d'achat de vêtements avec un(e) camarade : demande le prix et dis ce que tu cherches.", answer: 'Oral practice' },
+          { type: 'practice', prompt: 'Décris à voix haute une tenue que tu portes aujourd\'hui.', answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Décris ta tenue',
+        description: 'Décris une tenue que tu aimes.',
+        mission: 'Décris une tenue que tu aimes en 40 à 50 mots, avec des couleurs et des adjectifs démonstratifs.',
+        phrases: ["J'aime ce/cette...", 'Ces vêtements sont...'],
+        dialogue: [
+          { speaker: 'Modèle', line: "J'aime cette robe bleue et ces chaussures blanches. Ce pull rouge est aussi très joli pour l'hiver.", translation: 'Me gusta este vestido azul y estos zapatos blancos. Este suéter rojo también es muy bonito para el invierno.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Décris une tenue que tu aimes (40 à 50 mots) avec des couleurs et des adjectifs démonstratifs.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: 'Les adjectifs démonstratifs et les prix',
+        description: 'Ce/cet/cette/ces, combien coûte, je cherche/je prends.',
+        grammarNote: "Les adjectifs démonstratifs indiquent une chose précise : ce (masculin devant consonne : ce pull), cet (masculin devant voyelle ou h muet : cet été), cette (féminin : cette robe), ces (pluriel : ces chaussures). Pour demander un prix : « Combien coûte cette robe ? » « Elle coûte quarante-cinq euros. » Pour exprimer une recherche ou une décision : je cherche (je cherche un pull), je prends (je prends ce chemisier). Les couleurs s'accordent en genre et en nombre : un pull rouge, une robe rouge, des chaussures rouges.",
+        phrases: ['Ce/cet/cette/ces...', 'Combien coûte... ?', 'Je cherche... / Je prends...'],
+        exercises: [
+          { type: 'mcq', prompt: '___ robe est très jolie.', options: ['Ce', 'Cet', 'Cette', 'Ces'], answer: 2 },
+          { type: 'mcq', prompt: '___ chaussures sont blanches.', options: ['Ce', 'Cet', 'Cette', 'Ces'], answer: 3 },
+          { type: 'mcq', prompt: '___ coûte ce chapeau ?', options: ['Quel', 'Combien', 'Comment', 'Où'], answer: 1 },
+          { type: 'mcq', prompt: 'Je ___ cette jupe noire.', options: ['cherche', 'prends', 'coûte', 'porte'], answer: 1 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'Les vêtements et les couleurs',
+        description: 'Vocabulaire des vêtements et des couleurs.',
+        vocabulary: [
+          { word: 'le pull', translation: 'el suéter', example: 'Ce pull rouge est joli.' },
+          { word: 'la robe', translation: 'el vestido', example: 'Léa aime cette robe bleue.' },
+          { word: 'le jean', translation: 'los jeans', example: 'Je préfère ce jean noir.' },
+          { word: 'la jupe', translation: 'la falda', example: 'Léa prend cette jupe noire.' },
+          { word: 'le chemisier', translation: 'la blusa', example: "J'achète ce chemisier jaune." },
+          { word: 'les chaussures', translation: 'los zapatos', example: 'Ces chaussures sont blanches.' },
+          { word: 'le chapeau', translation: 'el sombrero', example: 'Léa prend ce chapeau blanc.' },
+          { word: 'rouge, bleu, vert', translation: 'rojo, azul, verde', example: 'Ce pull est rouge.' },
+          { word: 'jaune, blanc, noir, violet', translation: 'amarillo, blanco, negro, morado', example: 'Ce chemisier est jaune.' },
+          { word: 'combien coûte... ?', translation: '¿cuánto cuesta...?', example: 'Combien coûte cette robe ?' },
+          { word: 'cher / chère', translation: 'caro/a', example: 'Cette robe est un peu chère.' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « le chemisier » ?', options: ['La blusa', 'La falda', 'El suéter', 'El sombrero'], answer: 0 },
+          { type: 'mcq', prompt: 'Que signifie « cher » ?', options: ['Barato', 'Caro', 'Bonito', 'Feo'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « les chaussures » ?', options: ['Los zapatos', 'Los pantalones', 'Las camisas', 'Los sombreros'], answer: 0 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'Dans un magasin de vêtements',
+        description: 'Léa et Camila essaient des vêtements dans un magasin.',
+        intro: 'Léa et Camila essaient des vêtements dans un magasin du centre-ville.',
+        dialogue: [
+          { speaker: 'Léa', line: 'Regarde cette jupe noire, Camila ! Elle te va bien.', translation: 'Mira esta falda negra, Camila. Te queda bien.' },
+          { speaker: 'Camila', line: 'Merci ! Et toi, tu préfères quelle couleur ?', translation: '¡Gracias! ¿Y tú, qué color prefieres?' },
+          { speaker: 'Léa', line: 'Moi, je préfère cette robe bleue.', translation: 'Yo prefiero este vestido azul.' },
+          { speaker: 'Vendeuse', line: 'Vous voulez essayer ces vêtements ?', translation: '¿Quieren probarse estas prendas?' },
+          { speaker: 'Camila', line: "Oui, s'il vous plaît. Combien coûte la jupe ?", translation: 'Sí, por favor. ¿Cuánto cuesta la falda?' },
+          { speaker: 'Vendeuse', line: 'Elle coûte vingt-cinq euros.', translation: 'Cuesta veinticinco euros.' }
+        ],
+        phrases: ['Elle te va bien.', 'Je préfère...', 'Vous voulez essayer... ?', 'Combien coûte... ?'],
+        exercises: [
+          { type: 'mcq', prompt: 'Quelle couleur préfère Léa ?', options: ['Noir', 'Bleu', 'Jaune', 'Violet'], answer: 1 },
+          { type: 'mcq', prompt: 'Que demande Camila à la vendeuse ?', options: ["L'heure", 'Le prix de la jupe', 'Le prix de la robe', 'Où est la caisse'], answer: 1 },
+          { type: 'mcq', prompt: 'Combien coûte la jupe ?', options: ['Quinze euros', 'Vingt-cinq euros', 'Trente euros', 'Quarante-cinq euros'], answer: 1 }
+        ]
+      })
+    }
+  },
+
+  // ---------------------------------------------------------------
+  {
+    slug: 'la-meteo-et-les-voyages',
+    title: 'La météo et les voyages',
+    titleEs: 'El clima y los viajes',
+    description: "Camila prépare un voyage à Paris avec la famille Lambert.",
+    order: 12,
+    accessTier: 'premium',
+    activities: {
+      reading: activity('reading', {
+        title: 'Un voyage à Paris',
+        description: 'Camila raconte son voyage à Paris avec la famille Lambert, en trois parties.',
+        reading: {
+          title: 'Un voyage à Paris',
+          parts: [
+            "Le mois prochain, je vais voyager à Paris avec la famille Lambert. Nous allons visiter la tour Eiffel, le Louvre et Notre-Dame. Avant de partir, je regarde la météo sur mon téléphone. « Il va faire beau et il va faire seize degrés, » dit l'application. « Parfait, » dit Madame Lambert, « nous n'allons pas avoir besoin de parapluie ! » Karim, un peu jaloux, me dit : « Tu vas adorer Paris, c'est une ville magnifique. »",
+            "Le jour du départ, il fait beau, mais un peu frais le matin. Nous allons prendre le train à la gare de Tours. Le voyage va durer environ une heure. Dans le train, Léa et moi regardons le paysage : des champs, des rivières et de petits villages. « Nous allons arriver à Paris vers midi, » dit Monsieur Lambert en regardant sa montre. Léa est très excitée, parce que c'est aussi son premier voyage à Paris cette année.",
+            "À Paris, il commence à pleuvoir un peu l'après-midi, mais cela ne nous empêche pas de visiter la tour Eiffel. « Il pleut, mais ce n'est pas grave, » dit Léa en riant, « nous avons des parapluies ! » Ce voyage à Paris va être un des meilleurs souvenirs de mon année en France. Bientôt, je vais retourner à Saint-Domingue, mais je sais que je vais garder ces moments dans mon cœur pour toujours."
+          ],
+          questions: ['Où vont-ils voyager le mois prochain ?', 'Quel temps va-t-il faire le jour du départ ?', 'Comment vont-ils voyager jusqu\'à Paris ?'],
+          ordering: {
+            prompt: "Remets les événements de l'histoire dans l'ordre.",
+            events: [
+              'Camila regarde la météo avant de partir.',
+              'La famille prend le train à la gare de Tours.',
+              'Ils arrivent à Paris vers midi.',
+              "Il commence à pleuvoir l'après-midi à Paris."
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'Où la famille va-t-elle voyager ?', options: ['À Tours', 'À Paris', 'À Saint-Domingue', 'Au Maroc'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment vont-ils voyager ?', options: ['En avion', 'En train', 'En voiture', 'À vélo'], answer: 1 },
+          { type: 'mcq', prompt: 'Combien de temps dure le voyage en train ?', options: ['Trente minutes', 'Une heure', 'Deux heures', 'Trois heures'], answer: 1 },
+          { type: 'mcq', prompt: "Quel temps fait-il l'après-midi à Paris ?", options: ['Il fait très chaud', 'Il neige', 'Il pleut un peu', 'Il fait très froid'], answer: 2 },
+          { type: 'mcq', prompt: 'Vrai ou faux : C\'est le premier voyage de Léa à Paris cette année.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Ils prennent le parapluie parce qu\'il va neiger.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Karim est un peu jaloux du voyage.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Nous allons ___ à Paris vers midi.', options: ['arriver', 'pleuvoir', 'voyager', 'partir'], answer: 0 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Quel temps va-t-il faire ?',
+        description: 'Léa et Camila regardent la météo pour le lendemain.',
+        intro: 'Écoute Léa et Camila qui parlent de la météo pour le lendemain.',
+        dialogue: [
+          { speaker: 'Léa', line: 'Camila, quel temps va-t-il faire demain ?', translation: 'Camila, ¿qué tiempo va a hacer mañana?' },
+          { speaker: 'Camila', line: 'Il va faire beau et il va faire vingt degrés.', translation: 'Va a hacer buen tiempo y va a hacer veinte grados.' },
+          { speaker: 'Léa', line: 'Super ! On va pouvoir se promener.', translation: '¡Genial! Vamos a poder pasear.' },
+          { speaker: 'Camila', line: 'Oui, mais le soir, il va peut-être pleuvoir un peu.', translation: 'Sí, pero por la noche, quizás va a llover un poco.' },
+          { speaker: 'Léa', line: 'D\'accord, je vais prendre un parapluie.', translation: 'De acuerdo, voy a llevar un paraguas.' },
+          { speaker: 'Camila', line: 'Bonne idée !', translation: '¡Buena idea!' }
+        ],
+        phrases: ['Quel temps va-t-il faire ?', 'Il va faire...', 'Il va pleuvoir.', 'Je vais prendre...'],
+        exercises: [
+          { type: 'mcq', prompt: 'Quel temps va-t-il faire demain ?', options: ['Il va pleuvoir toute la journée', 'Il va faire beau', 'Il va neiger', 'Il va faire très froid'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle température va-t-il faire ?', options: ['Dix degrés', 'Vingt degrés', 'Trente degrés', 'Zéro degré'], answer: 1 },
+          { type: 'mcq', prompt: 'Que va prendre Léa ?', options: ['Un manteau', 'Un parapluie', 'Des lunettes de soleil', 'Rien'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Parle de tes projets',
+        description: 'Dis à voix haute un projet de voyage.',
+        mission: 'Dis à voix haute un projet de voyage avec le futur proche (aller + infinitif).',
+        phrases: ['Je vais...', 'Nous allons...', 'Il va faire...'],
+        dialogue: [
+          { speaker: 'Toi', line: 'Le mois prochain, je vais voyager avec ma famille.', translation: 'El mes que viene, voy a viajar con mi familia.' },
+          { speaker: 'Camarade', line: 'Où allez-vous voyager ?', translation: '¿A dónde van a viajar?' },
+          { speaker: 'Toi', line: 'Nous allons visiter une grande ville.', translation: 'Vamos a visitar una gran ciudad.' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: 'Dis à voix haute un projet de voyage avec le futur proche.', answer: 'Oral practice' },
+          { type: 'practice', prompt: 'Demande à un(e) camarade quel temps il va faire demain et ce qu\'il/elle va faire.', answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Écris un message sur ton voyage',
+        description: 'Écris un message sur un voyage prochain.',
+        mission: 'Écris un message à un(e) ami(e) sur un voyage prochain, en 40 à 60 mots, avec le futur proche.',
+        phrases: ['Je vais...', 'Il va faire...', 'Nous allons...'],
+        dialogue: [
+          { speaker: 'Modèle', line: 'Le mois prochain, je vais voyager à Paris avec la famille Lambert. Il va faire beau. Nous allons visiter la tour Eiffel et prendre beaucoup de photos.', translation: 'El mes que viene, voy a viajar a París con la familia Lambert. Va a hacer buen tiempo. Vamos a visitar la torre Eiffel y tomar muchas fotos.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Écris un message sur un voyage prochain (40 à 60 mots) avec le futur proche.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: 'Le futur proche et la météo',
+        description: 'Exprimer la météo et parler du futur avec aller + infinitif.',
+        grammarNote: "Pour parler de la météo : « Il fait beau. » « Il fait froid. » « Il y a du soleil. » « Il pleut. » Le futur proche exprime une action prévue dans un futur proche : aller (au présent) + infinitif. Je vais voyager, tu vas visiter, il/elle va arriver, nous allons prendre, vous allez partir, ils/elles vont adorer. Exemple : « Demain, il va faire beau. Nous allons visiter Paris. »",
+        phrases: ['Il fait... / Il pleut.', 'Je vais... / Nous allons...'],
+        exercises: [
+          { type: 'mcq', prompt: 'Demain, il ___ beau.', options: ['va faire', 'fait', 'va faisant', 'faire'], answer: 0 },
+          { type: 'mcq', prompt: 'Nous ___ prendre le train.', options: ['allons', 'allez', 'vont', 'va'], answer: 0 },
+          { type: 'mcq', prompt: 'Il ___ un peu cet après-midi.', options: ['va pleuvoir', 'pleut va', 'va pleuvant', 'pleuvoir va'], answer: 0 },
+          { type: 'mcq', prompt: 'Tu ___ visiter la tour Eiffel.', options: ['vas', 'va', 'vais', 'allez'], answer: 0 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'La météo et les voyages',
+        description: 'Vocabulaire de la météo et des voyages.',
+        vocabulary: [
+          { word: 'il fait beau', translation: 'hace buen tiempo', example: 'Demain, il va faire beau.' },
+          { word: 'il fait froid', translation: 'hace frío', example: 'Le matin, il fait froid.' },
+          { word: 'il pleut', translation: 'llueve', example: "Il pleut un peu l'après-midi." },
+          { word: 'il y a du soleil', translation: 'hay sol', example: "Aujourd'hui, il y a du soleil." },
+          { word: 'le degré', translation: 'el grado', example: 'Il va faire seize degrés.' },
+          { word: 'le train', translation: 'el tren', example: 'Nous prenons le train pour Paris.' },
+          { word: 'la gare', translation: 'la estación', example: 'La gare de Tours est grande.' },
+          { word: 'voyager', translation: 'viajar', example: 'Je vais voyager à Paris.' },
+          { word: 'partir / arriver', translation: 'partir / llegar', example: 'Nous allons arriver à midi.' },
+          { word: 'le parapluie', translation: 'el paraguas', example: "N'oublie pas ton parapluie." },
+          { word: 'le voyage', translation: 'el viaje', example: 'Ce voyage va être inoubliable.' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « il pleut » ?', options: ['Hace sol', 'Llueve', 'Hace frío', 'Nieva'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « le parapluie » ?', options: ['El paraguas', 'El tren', 'La estación', 'El grado'], answer: 0 },
+          { type: 'mcq', prompt: 'Que signifie « voyager » ?', options: ['Viajar', 'Llegar', 'Partir', 'Llover'], answer: 0 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'À la gare',
+        description: 'La famille Lambert et Camila prennent le train pour Paris.',
+        intro: 'La famille Lambert et Camila sont à la gare de Tours pour prendre le train vers Paris.',
+        dialogue: [
+          { speaker: 'Monsieur Lambert', line: 'Le train part dans dix minutes, dépêchons-nous !', translation: 'El tren sale en diez minutos, ¡démonos prisa!' },
+          { speaker: 'Camila', line: "D'accord ! J'ai déjà mon billet.", translation: 'De acuerdo. Ya tengo mi billete.' },
+          { speaker: 'Léa', line: 'Nous allons arriver à Paris vers midi.', translation: 'Vamos a llegar a París hacia el mediodía.' },
+          { speaker: 'Camila', line: "J'ai hâte de voir la tour Eiffel !", translation: '¡Tengo muchas ganas de ver la torre Eiffel!' },
+          { speaker: 'Madame Lambert', line: 'Le train arrive, montons vite !', translation: 'El tren llega, ¡subamos rápido!' },
+          { speaker: 'Camila', line: 'Bon voyage à tous !', translation: '¡Buen viaje a todos!' }
+        ],
+        phrases: ['Le train part dans...', 'Nous allons arriver...', "J'ai hâte de...", 'Bon voyage !'],
+        exercises: [
+          { type: 'mcq', prompt: 'Où va la famille ?', options: ['À Tours', 'À Paris', 'À Saint-Domingue', 'Au Maroc'], answer: 1 },
+          { type: 'mcq', prompt: 'Quand le train part-il ?', options: ['Dans dix minutes', 'Dans une heure', 'Demain', 'Ce soir'], answer: 0 },
+          { type: 'mcq', prompt: "Qu'est-ce que Camila a hâte de voir ?", options: ['Le Louvre', 'La tour Eiffel', 'Notre-Dame', 'La gare'], answer: 1 }
+        ]
+      })
+    }
   }
 ];
 

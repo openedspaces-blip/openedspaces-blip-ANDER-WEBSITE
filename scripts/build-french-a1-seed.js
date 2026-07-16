@@ -1,51 +1,57 @@
 #!/usr/bin/env node
-// scripts/build-english-a1-seed.js
-// Folds scripts/content/english-a1-units.js (hand-authored 12-unit content)
-// into lib/seed-lessons.json (replacing the old 6 flat English A1 rows with
-// 72 unit-scoped activity rows) and writes lib/seed-units.json (12 unit
-// metadata rows). Run this, then `npm run sync:worlds` to regenerate the
-// browser fallback bundles, and scripts/migrate-english-a1-units.js to push
-// into Supabase. Idempotent: safe to re-run.
+// scripts/build-french-a1-seed.js
+// Folds scripts/content/french-a1-units.js (hand-authored 12-unit content)
+// into lib/seed-lessons.json (replacing the old 6 flat French A1 rows with
+// 84 unit-scoped activity rows: 72 core skills + 12 dialogues) and writes
+// matching rows into lib/seed-units.json (12 unit metadata rows). Mirrors
+// scripts/build-english-a1-seed.js; kept as a separate sibling script (not
+// a shared module) so English's working pipeline is never touched by
+// French-specific changes. Run this, then `npm run sync:worlds` to
+// regenerate the browser fallback bundles, and
+// scripts/migrate-french-a1-units.js to push into Supabase. Idempotent:
+// safe to re-run.
 const fs = require('fs');
 const path = require('path');
-const { units, language, level, courseTitle, courseDescription } = require('./content/english-a1-units');
+const { units, language, level, courseTitle, courseDescription } = require('./content/french-a1-units');
 
 const ROOT = path.join(__dirname, '..');
 const SEED_LESSONS_PATH = path.join(ROOT, 'lib', 'seed-lessons.json');
 const SEED_UNITS_PATH = path.join(ROOT, 'lib', 'seed-units.json');
 
-const SKILL_ORDER = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
+// The 6 core skills are mandatory for every unit; 'dialogue' is appended
+// as an optional 7th activity whenever a unit defines one (all 12 French
+// A1 units do), without requiring English's units to carry it too.
+const CORE_SKILLS = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
 
-// reading_text (both the normalized schema's lesson_sections.reading_text
-// column and the legacy content_json.reading.text field) keeps holding the
-// full concatenated text for backward compatibility (print/PDF view, "show
-// full text" after the last part, Tutor IA "explain this paragraph"
-// prompts) - computed from parts rather than hand-authored twice.
+// Mirrors scripts/build-english-a1-seed.js#shapeReading: keeps reading_text
+// (both the normalized schema's lesson_sections.reading_text column and the
+// legacy content_json.reading.text field) as the full concatenated text for
+// backward compatibility - computed from parts rather than hand-authored twice.
 function shapeReading(reading) {
   if (!reading) return null;
   if (!reading.parts) return reading;
   return { ...reading, text: reading.parts.join('\n\n') };
 }
 
-function buildActivityRow(unit, skill) {
+function buildActivityRow(unit, skill, orderInUnit) {
   const a = unit.activities[skill];
   if (!a) throw new Error(`Unit "${unit.slug}" is missing a "${skill}" activity`);
 
-  const skillIndex = SKILL_ORDER.indexOf(skill);
+  const accessTier = unit.accessTier || 'free';
   return {
-    slug: `english-a1-${unit.slug}-${skill}`,
+    slug: `french-a1-${unit.slug}-${skill}`,
     target_language: language,
     level,
     skill,
     unit_slug: unit.slug, // resolved to a real unit_id at Supabase-insert time
     title: a.title,
     description: a.description || '',
-    order_index: unit.order * 10 + skillIndex,
+    order_index: unit.order * 10 + orderInUnit,
     estimated_minutes: a.duration,
-    is_free: true,
-    access_tier: 'free',
+    is_free: accessTier !== 'premium',
+    access_tier: accessTier,
     content_json: {
-      language: 'English',
+      language: 'Français',
       language_key: language,
       level_title: courseTitle,
       intro: a.intro || '',
@@ -82,19 +88,15 @@ function main() {
 
   const newRows = [];
   units.forEach((unit) => {
-    SKILL_ORDER.forEach((skill) => {
-      newRows.push(buildActivityRow(unit, skill));
+    const skillsForUnit = unit.activities.dialogue ? [...CORE_SKILLS, 'dialogue'] : CORE_SKILLS;
+    skillsForUnit.forEach((skill, index) => {
+      newRows.push(buildActivityRow(unit, skill, index));
     });
   });
 
   const nextLessons = [...keep, ...newRows];
   fs.writeFileSync(SEED_LESSONS_PATH, JSON.stringify(nextLessons, null, 2) + '\n', 'utf8');
 
-  // Merge rather than overwrite: lib/seed-units.json is shared across
-  // languages (French A1 also writes into it via
-  // scripts/build-french-a1-seed.js) - replacing only this course's own
-  // rows keeps re-running this script safe regardless of what else has
-  // been seeded into the file.
   const unitRows = units.map(buildUnitRow);
   const existingUnits = JSON.parse(fs.readFileSync(SEED_UNITS_PATH, 'utf8'));
   const keepUnits = existingUnits.filter(
@@ -107,7 +109,7 @@ function main() {
   );
 
   console.log(
-    `Replaced ${removedCount} legacy English A1 row(s) with ${newRows.length} unit-scoped activities (${units.length} units).`
+    `Replaced ${removedCount} legacy French A1 row(s) with ${newRows.length} unit-scoped activities (${units.length} units).`
   );
   console.log(`Wrote ${unitRows.length} unit rows to ${path.relative(ROOT, SEED_UNITS_PATH)}.`);
   console.log(`Course: "${courseTitle}" - ${courseDescription}`);
