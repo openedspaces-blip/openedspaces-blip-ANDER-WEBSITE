@@ -320,6 +320,7 @@ function closeAuth() {
   document.body.classList.remove('modal-open');
   (authModalReturnFocus || document.querySelector('[data-action="open-auth"]'))?.focus();
   authModalReturnFocus = null;
+  clearPendingMfa();
 }
 
 const logoutConfirmModal = document.getElementById('logoutConfirmModal');
@@ -4004,6 +4005,7 @@ function enableHomepageActions() {
     }
     if (event.target.closest('[data-action="back-to-login"]')) {
       setAuthMessage('');
+      clearPendingMfa();
       openModal('login');
       return;
     }
