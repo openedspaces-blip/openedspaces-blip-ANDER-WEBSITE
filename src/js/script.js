@@ -293,6 +293,10 @@ function openModal(panel) {
   authForms.forEach((form) => {
     form.classList.toggle('active', form.id === `${panel}Form`);
   });
+  // "forgotPassword" isn't a real tab (reached via a link, not .auth-tabs) -
+  // hide the tab row entirely while it's open instead of showing both tabs
+  // as unselected.
+  document.querySelector('.auth-tabs')?.classList.toggle('is-hidden', panel === 'forgotPassword');
   clearAuthMessages();
   resetSignupPending();
   authModal.querySelector('.auth-form.active input')?.focus();
@@ -357,10 +361,13 @@ document.addEventListener('keydown', (event) => {
   }
 });
 
-async function postJson(path, payload) {
+async function postJson(path, payload, { auth = false } = {}) {
   const response = await fetch(`${backendBaseUrl}${path}`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: {
+      'Content-Type': 'application/json',
+      ...(auth ? authHeaders() : {})
+    },
     body: JSON.stringify(payload)
   });
 
@@ -776,47 +783,362 @@ async function logout() {
   }
 }
 
+// Shows the "create your username" onboarding once, right after a
+// successful login, but only for accounts that predate this feature
+// (preferences.username still null) - never blocks anything else.
+function maybeShowUsernameOnboarding(preferences) {
+  if (preferences?.username) return;
+  const modal = document.getElementById('usernameOnboardingModal');
+  if (!modal) return;
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden', 'false');
+  modal.removeAttribute('inert');
+  document.body.classList.add('modal-open');
+  modal.querySelector('input')?.focus();
+}
+
+function closeUsernameOnboarding() {
+  const modal = document.getElementById('usernameOnboardingModal');
+  if (!modal) return;
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden', 'true');
+  modal.setAttribute('inert', '');
+  document.body.classList.remove('modal-open');
+}
+
+// Loads the official supabase-js UMD bundle from a CDN - the one exception
+// to "the frontend never talks to Supabase directly" (see server.js's
+// /api/auth/client-config comment for why this specific screen needs it:
+// the password-recovery token Supabase appends to the redirect URL only
+// ever reaches the browser, never our backend).
+function loadSupabaseJs() {
+  if (window.supabase?.createClient) return Promise.resolve();
+  return new Promise((resolve, reject) => {
+    const existing = document.querySelector('script[data-supabase-js]');
+    if (existing) {
+      existing.addEventListener('load', () => resolve());
+      existing.addEventListener('error', () => reject(new Error('load failed')));
+      return;
+    }
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js';
+    script.dataset.supabaseJs = 'true';
+    script.addEventListener('load', () => resolve());
+    script.addEventListener('error', () => reject(new Error('load failed')));
+    document.head.appendChild(script);
+  });
+}
+
+// Drives /reset-password: the link Supabase emails (via
+// authService.requestPasswordReset's resetPasswordForEmail call) lands here
+// with a recovery token in the URL that only supabase-js can read and turn
+// into a session - our backend never sees it. Everything else in ANDERGO
+// goes through our own /api/*; this one screen is the deliberate exception.
+async function initResetPasswordPage() {
+  const form = document.getElementById('resetPasswordForm');
+  const successEl = document.getElementById('resetPasswordSuccess');
+  const invalidEl = document.getElementById('resetPasswordInvalid');
+  const statusEl = document.getElementById('resetPasswordStatus');
+  if (!form || !successEl || !invalidEl) return;
+
+  function showInvalid() {
+    form.hidden = true;
+    successEl.hidden = true;
+    invalidEl.hidden = false;
+  }
+
+  let clientConfig;
+  try {
+    const res = await fetch(`${backendBaseUrl}/api/auth/client-config`);
+    clientConfig = await res.json();
+  } catch {
+    showInvalid();
+    return;
+  }
+  if (!clientConfig?.supabaseUrl || !clientConfig?.supabaseAnonKey) {
+    showInvalid();
+    return;
+  }
+
+  try {
+    await loadSupabaseJs();
+  } catch {
+    showInvalid();
+    return;
+  }
+  if (!window.supabase?.createClient) {
+    showInvalid();
+    return;
+  }
+
+  const client = window.supabase.createClient(
+    clientConfig.supabaseUrl,
+    clientConfig.supabaseAnonKey
+  );
+  let recoveryReady = false;
+
+  const revealForm = () => {
+    if (recoveryReady) return;
+    recoveryReady = true;
+    form.hidden = false;
+    form.querySelector('input')?.focus();
+  };
+
+  client.auth.onAuthStateChange((event) => {
+    if (event === 'PASSWORD_RECOVERY') revealForm();
+  });
+
+  // Some Supabase configurations establish the recovery session before the
+  // listener above attaches - check directly instead of only reacting to
+  // the event, and only give up if neither ever shows a session.
+  window.setTimeout(async () => {
+    if (recoveryReady) return;
+    const { data } = await client.auth.getSession();
+    if (data?.session) {
+      revealForm();
+    } else {
+      showInvalid();
+    }
+  }, 2500);
+
+  setupPasswordStrengthMeter('resetNewPassword', 'resetPasswordStrength');
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const password = document.getElementById('resetNewPassword')?.value || '';
+    const confirmPassword = document.getElementById('resetConfirmPassword')?.value || '';
+    statusEl.classList.remove('is-error');
+
+    if (password !== confirmPassword) {
+      statusEl.textContent = 'Las contraseñas no coinciden.';
+      statusEl.classList.add('is-error');
+      return;
+    }
+
+    const submitBtn = form.querySelector('button[type="submit"]');
+    if (submitBtn) submitBtn.disabled = true;
+    statusEl.textContent = '';
+
+    try {
+      const { error } = await client.auth.updateUser({ password });
+      if (error) throw error;
+      form.hidden = true;
+      successEl.hidden = false;
+    } catch {
+      statusEl.textContent = 'No se pudo actualizar la contraseña. Solicita un nuevo enlace.';
+      statusEl.classList.add('is-error');
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
+    }
+  });
+}
+
+async function afterAuthSuccess() {
+  const welcomeName = getDisplayName();
+  setAuthMessage(`Bienvenido${welcomeName ? `, ${welcomeName}` : ''}!`, false);
+  await loadProgress();
+  const preferences = await loadPreferences();
+  applyPreferencesToSelects(preferences);
+  await loadLearningPath(preferences || {});
+  closeAuth();
+  maybeShowUsernameOnboarding(preferences);
+}
+
 function attachAuthHandlers() {
-  const forms = document.querySelectorAll('.auth-form');
+  document.getElementById('loginForm')?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const identifier = document.getElementById('loginIdentifier')?.value.trim() || '';
+    const password = document.getElementById('loginPassword')?.value || '';
 
-  forms.forEach((form) => {
-    form.addEventListener('submit', async (event) => {
-      event.preventDefault();
-      const isSignup = form.id === 'signupForm';
-      const payload = {
-        name: form.querySelector('input[type="text"]')?.value || '',
-        email: form.querySelector('input[type="email"]')?.value || '',
-        password: form.querySelector('input[type="password"]')?.value || ''
-      };
+    try {
+      const data = await postJson('/api/auth', { action: 'login', identifier, password });
+      saveSession(data.user, data.session);
+      await afterAuthSuccess();
+    } catch (error) {
+      setAuthMessage(error.message, true);
+    }
+  });
 
+  document.getElementById('signupForm')?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const username = document.getElementById('signupUsername')?.value.trim() || '';
+    const email = document.getElementById('signupEmail')?.value.trim() || '';
+    const password = document.getElementById('signupPassword')?.value || '';
+    const confirmPassword = document.getElementById('signupConfirmPassword')?.value || '';
+
+    if (password !== confirmPassword) {
+      setAuthMessage('Las contraseñas no coinciden.', true);
+      return;
+    }
+
+    try {
+      const data = await postJson('/api/auth', {
+        action: 'register',
+        username,
+        email,
+        password
+      });
+
+      // Pending email confirmation is not a signed-in state: no session,
+      // no dashboard/progress load, modal stays open showing the pending
+      // screen instead of closing.
+      if (data.requiresEmailConfirmation) {
+        showSignupPending(email);
+        return;
+      }
+
+      saveSession(data.user, data.session);
+      await afterAuthSuccess();
+    } catch (error) {
+      setAuthMessage(error.message, true);
+    }
+  });
+
+  document.getElementById('forgotPasswordForm')?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const email = document.getElementById('forgotEmail')?.value.trim() || '';
+    const submitBtn = event.target.querySelector('button[type="submit"]');
+    if (submitBtn) submitBtn.disabled = true;
+    try {
+      const data = await postJson('/api/auth/request-password-reset', { email });
+      setAuthMessage(
+        data.message ||
+          'Si el correo está asociado a una cuenta, recibirás un enlace para restablecer tu contraseña.',
+        false
+      );
+    } catch (error) {
+      // requestPasswordReset is designed to never throw a distinguishing
+      // error, but keep a safe generic fallback just in case of a network
+      // failure reaching our own backend.
+      setAuthMessage('No se pudo procesar la solicitud. Intenta de nuevo.', true);
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
+    }
+  });
+
+  document.getElementById('usernameOnboardingForm')?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const input = document.getElementById('onboardingUsername');
+    const statusEl = document.getElementById('onboardingUsernameStatus');
+    const username = input?.value.trim() || '';
+    const submitBtn = event.target.querySelector('button[type="submit"]');
+    if (submitBtn) submitBtn.disabled = true;
+    try {
+      await postJson('/api/profile/username', { username }, { auth: true });
+      closeUsernameOnboarding();
+      showHomeToast('Nombre de usuario guardado.');
+    } catch (error) {
+      if (statusEl) {
+        statusEl.textContent = error.message || 'No se pudo guardar el nombre de usuario.';
+        statusEl.classList.add('is-error');
+      }
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
+    }
+  });
+
+  document.querySelectorAll('[data-password-toggle]').forEach((toggleBtn) => {
+    toggleBtn.addEventListener('click', () => {
+      const target = document.getElementById(toggleBtn.dataset.passwordToggle);
+      if (!target) return;
+      const showing = target.type === 'text';
+      target.type = showing ? 'password' : 'text';
+      toggleBtn.setAttribute('aria-label', showing ? 'Mostrar contraseña' : 'Ocultar contraseña');
+      toggleBtn.textContent = showing ? '👁' : '🙈';
+    });
+  });
+
+  setupUsernameAvailabilityCheck('signupUsername', 'signupUsernameStatus');
+  setupUsernameAvailabilityCheck('onboardingUsername', 'onboardingUsernameStatus');
+  setupPasswordStrengthMeter('signupPassword', 'signupPasswordStrength');
+}
+
+// Debounced GET /api/auth/username-available - purely advisory (the note
+// under the field already says so): the partial unique index on
+// username_normalized is the real, final authority, this only avoids
+// making the student wait until they submit the whole form to find out
+// their pick is taken.
+function setupUsernameAvailabilityCheck(inputId, statusId) {
+  const input = document.getElementById(inputId);
+  const statusEl = document.getElementById(statusId);
+  if (!input || !statusEl) return;
+
+  let debounceId = null;
+  let requestToken = 0;
+
+  input.addEventListener('input', () => {
+    const value = input.value.trim();
+    statusEl.classList.remove('is-error', 'is-available');
+    if (debounceId) window.clearTimeout(debounceId);
+
+    if (!value) {
+      statusEl.textContent = '';
+      return;
+    }
+
+    statusEl.textContent = 'Comprobando disponibilidad…';
+    const thisToken = ++requestToken;
+
+    debounceId = window.setTimeout(async () => {
       try {
-        const data = await postJson('/api/auth', {
-          action: isSignup ? 'register' : 'login',
-          name: payload.name,
-          email: payload.email,
-          password: payload.password
-        });
+        const response = await fetch(
+          `${backendBaseUrl}/api/auth/username-available?u=${encodeURIComponent(value)}`
+        );
+        const data = await response.json().catch(() => ({}));
+        if (thisToken !== requestToken) return; // a newer keystroke already superseded this check
 
-        // Pending email confirmation is not a signed-in state: no session,
-        // no dashboard/progress load, modal stays open showing the pending
-        // screen instead of closing.
-        if (isSignup && data.requiresEmailConfirmation) {
-          showSignupPending(payload.email);
+        if (!response.ok || !data.ok) {
+          statusEl.textContent = data.message || 'Nombre de usuario no válido.';
+          statusEl.classList.add('is-error');
           return;
         }
-
-        saveSession(data.user, data.session);
-        const welcomeName = getDisplayName();
-        setAuthMessage(`Bienvenido${welcomeName ? `, ${welcomeName}` : ''}!`, false);
-        await loadProgress();
-        const preferences = await loadPreferences();
-        applyPreferencesToSelects(preferences);
-        await loadLearningPath(preferences || {});
-        closeAuth();
-      } catch (error) {
-        setAuthMessage(error.message, true);
+        if (data.available) {
+          statusEl.textContent = `"${data.normalizedUsername}" está disponible.`;
+          statusEl.classList.add('is-available');
+        } else {
+          statusEl.textContent = 'Ese nombre de usuario no está disponible.';
+          statusEl.classList.add('is-error');
+        }
+      } catch {
+        if (thisToken === requestToken) statusEl.textContent = '';
       }
-    });
+    }, 400);
+  });
+}
+
+// Client-side-only signal (never the source of truth for whether a
+// password is "good enough" - Supabase Auth's own password policy is what
+// actually enforces that) - just gives the student quick visual feedback.
+function setupPasswordStrengthMeter(inputId, statusId) {
+  const input = document.getElementById(inputId);
+  const statusEl = document.getElementById(statusId);
+  if (!input || !statusEl) return;
+
+  input.addEventListener('input', () => {
+    const value = input.value;
+    if (!value) {
+      statusEl.textContent = '';
+      statusEl.className = 'password-strength';
+      return;
+    }
+    let score = 0;
+    if (value.length >= 8) score += 1;
+    if (value.length >= 12) score += 1;
+    if (/[a-z]/.test(value) && /[A-Z]/.test(value)) score += 1;
+    if (/\d/.test(value)) score += 1;
+    if (/[^a-zA-Z0-9]/.test(value)) score += 1;
+
+    const levels = [
+      { label: 'Muy débil', className: 'is-weak' },
+      { label: 'Débil', className: 'is-weak' },
+      { label: 'Aceptable', className: 'is-fair' },
+      { label: 'Buena', className: 'is-good' },
+      { label: 'Fuerte', className: 'is-strong' },
+      { label: 'Muy fuerte', className: 'is-strong' }
+    ];
+    const level = levels[Math.min(score, levels.length - 1)];
+    statusEl.textContent = level.label;
+    statusEl.className = `password-strength ${level.className}`;
   });
 }
 
@@ -3360,7 +3682,8 @@ const VIEW_SECTIONS = {
   reading: ['#reading'],
   writing: ['#writing'],
   grammar: ['#grammar'],
-  vocabulary: ['#vocabulary']
+  vocabulary: ['#vocabulary'],
+  'reset-password': ['#resetPasswordSection']
 };
 
 // Focus target per view: the one heading a screen reader / keyboard user
@@ -3582,6 +3905,21 @@ function enableHomepageActions() {
     const dictateStopBtn = event.target.closest('.tutor-dictate-stop-btn');
     if (dictateStopBtn) {
       stopTutorDictation();
+      return;
+    }
+
+    if (event.target.closest('[data-action="open-forgot-password"]')) {
+      setAuthMessage('');
+      openModal('forgotPassword');
+      return;
+    }
+    if (event.target.closest('[data-action="back-to-login"]')) {
+      setAuthMessage('');
+      openModal('login');
+      return;
+    }
+    if (event.target.closest('[data-action="dismiss-username-onboarding"]')) {
+      closeUsernameOnboarding();
       return;
     }
 
@@ -4088,7 +4426,16 @@ enableHomepageActions();
 loadProgress();
 setupLearningPathControls();
 initScrollReveal();
-showView(getViewFromHash());
+
+// /reset-password is a plain path (not a #hash), reached only via the link
+// Supabase emails - it overrides the normal hash-based view for this one
+// load, regardless of whatever hash/query Supabase also appended to it.
+if (window.location.pathname === '/reset-password') {
+  showView('reset-password');
+  initResetPasswordPage();
+} else {
+  showView(getViewFromHash());
+}
 
 // Checked once at load, not only on click - "oculta o desactiva el botón"
 // applies from the start on browsers without the Web Speech API, not just

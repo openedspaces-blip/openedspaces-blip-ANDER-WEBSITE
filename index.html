@@ -858,6 +858,83 @@
           </article>
         </div>
       </section>
+
+      <!-- Reached at https://andergo.online/reset-password after the student
+           clicks the emailed recovery link (see authService.requestPasswordReset).
+           Supabase appends the recovery token to this URL as a fragment/query
+           only the browser can read, so this is the one screen in ANDERGO
+           that loads supabase-js directly (see script.js's initResetPasswordPage). -->
+      <section
+        id="resetPasswordSection"
+        class="section reset-password-section compact-hidden-section"
+        aria-label="Restablecer contraseña"
+      >
+        <div class="section-heading">
+          <span>ANDERGO</span>
+          <h2 tabindex="-1">Crea una nueva contraseña</h2>
+          <p>Ingresa y confirma tu nueva contraseña para continuar.</p>
+        </div>
+
+        <div class="reset-password-card">
+          <form id="resetPasswordForm" hidden>
+            <label for="resetNewPassword"
+              >Nueva contraseña
+              <span class="password-field">
+                <input
+                  type="password"
+                  id="resetNewPassword"
+                  name="password"
+                  placeholder="Nueva contraseña"
+                  autocomplete="new-password"
+                  required
+                />
+                <button
+                  type="button"
+                  class="password-toggle-btn"
+                  data-password-toggle="resetNewPassword"
+                  aria-label="Mostrar contraseña"
+                >
+                  👁
+                </button>
+              </span>
+            </label>
+            <p class="password-strength" id="resetPasswordStrength" aria-live="polite"></p>
+            <label for="resetConfirmPassword"
+              >Confirmar nueva contraseña
+              <span class="password-field">
+                <input
+                  type="password"
+                  id="resetConfirmPassword"
+                  name="confirmPassword"
+                  placeholder="Confirmar nueva contraseña"
+                  autocomplete="new-password"
+                  required
+                />
+                <button
+                  type="button"
+                  class="password-toggle-btn"
+                  data-password-toggle="resetConfirmPassword"
+                  aria-label="Mostrar contraseña"
+                >
+                  👁
+                </button>
+              </span>
+            </label>
+            <button type="submit" class="primary-btn">Guardar nueva contraseña</button>
+            <p class="reset-password-status" id="resetPasswordStatus" aria-live="polite"></p>
+          </form>
+          <div class="reset-password-success" id="resetPasswordSuccess" hidden>
+            <h3>✅ Contraseña actualizada</h3>
+            <p>Ya puedes iniciar sesión con tu nueva contraseña.</p>
+            <a href="/" class="primary-btn">Ir a iniciar sesión</a>
+          </div>
+          <div class="reset-password-invalid" id="resetPasswordInvalid" hidden>
+            <h3>Enlace no válido o expirado</h3>
+            <p>Solicita un nuevo enlace de recuperación desde la pantalla de inicio de sesión.</p>
+            <a href="/" class="secondary-btn">Volver a ANDERGO</a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <div class="auth-modal" id="authModal" aria-hidden="true" inert>
@@ -870,14 +947,41 @@
         <div class="auth-forms">
           <form class="auth-form active" id="loginForm">
             <h3>Iniciar sesión</h3>
-            <label
-              >Correo electrónico
-              <input type="email" placeholder="tu@correo.com" required />
+            <label for="loginIdentifier"
+              >Nombre de usuario o correo electrónico
+              <input
+                type="text"
+                id="loginIdentifier"
+                name="identifier"
+                placeholder="usuario o tu@correo.com"
+                autocomplete="username"
+                required
+              />
             </label>
-            <label
+            <label for="loginPassword"
               >Contraseña
-              <input type="password" placeholder="Contraseña" required />
+              <span class="password-field">
+                <input
+                  type="password"
+                  id="loginPassword"
+                  name="password"
+                  placeholder="Contraseña"
+                  autocomplete="current-password"
+                  required
+                />
+                <button
+                  type="button"
+                  class="password-toggle-btn"
+                  data-password-toggle="loginPassword"
+                  aria-label="Mostrar contraseña"
+                >
+                  👁
+                </button>
+              </span>
             </label>
+            <button type="button" class="auth-forgot-link" data-action="open-forgot-password">
+              ¿Olvidaste tu contraseña?
+            </button>
             <button type="submit" class="primary-btn">Entrar</button>
             <p class="auth-note">¿No tienes cuenta? Regístrate con el botón de Registrarse.</p>
           </form>
@@ -885,18 +989,83 @@
           <form class="auth-form" id="signupForm">
             <h3>Registrarse</h3>
             <div class="signup-fields">
-              <label
-                >Nombre
-                <input type="text" placeholder="Tu nombre" required />
+              <label for="signupUsername"
+                >Nombre de usuario
+                <input
+                  type="text"
+                  id="signupUsername"
+                  name="username"
+                  placeholder="anderson2026"
+                  autocomplete="username"
+                  minlength="4"
+                  maxlength="24"
+                  required
+                />
               </label>
-              <label
+              <p class="auth-field-hint">El nombre de usuario será visible en ANDERGO.</p>
+              <p
+                class="username-availability-status"
+                id="signupUsernameStatus"
+                aria-live="polite"
+              ></p>
+
+              <label for="signupEmail"
                 >Correo electrónico
-                <input type="email" placeholder="tu@correo.com" required />
+                <input
+                  type="email"
+                  id="signupEmail"
+                  name="email"
+                  placeholder="tu@correo.com"
+                  autocomplete="email"
+                  required
+                />
               </label>
-              <label
+
+              <label for="signupPassword"
                 >Contraseña
-                <input type="password" placeholder="Contraseña" required />
+                <span class="password-field">
+                  <input
+                    type="password"
+                    id="signupPassword"
+                    name="password"
+                    placeholder="Contraseña"
+                    autocomplete="new-password"
+                    required
+                  />
+                  <button
+                    type="button"
+                    class="password-toggle-btn"
+                    data-password-toggle="signupPassword"
+                    aria-label="Mostrar contraseña"
+                  >
+                    👁
+                  </button>
+                </span>
               </label>
+              <p class="password-strength" id="signupPasswordStrength" aria-live="polite"></p>
+
+              <label for="signupConfirmPassword"
+                >Confirmar contraseña
+                <span class="password-field">
+                  <input
+                    type="password"
+                    id="signupConfirmPassword"
+                    name="confirmPassword"
+                    placeholder="Confirmar contraseña"
+                    autocomplete="new-password"
+                    required
+                  />
+                  <button
+                    type="button"
+                    class="password-toggle-btn"
+                    data-password-toggle="signupConfirmPassword"
+                    aria-label="Mostrar contraseña"
+                  >
+                    👁
+                  </button>
+                </span>
+              </label>
+
               <button type="submit" class="primary-btn">Crear cuenta</button>
               <p class="auth-note">Al crear cuenta aceptas nuestros términos de uso.</p>
             </div>
@@ -910,6 +1079,26 @@
                 Ir a iniciar sesión
               </button>
             </div>
+          </form>
+
+          <form class="auth-form" id="forgotPasswordForm">
+            <h3>Recuperar contraseña</h3>
+            <label for="forgotEmail"
+              >Correo electrónico asociado
+              <input
+                type="email"
+                id="forgotEmail"
+                name="email"
+                placeholder="tu@correo.com"
+                autocomplete="email"
+                required
+              />
+            </label>
+            <p class="auth-field-hint">Te enviaremos un enlace para crear una nueva contraseña.</p>
+            <button type="submit" class="primary-btn">Enviar enlace</button>
+            <button type="button" class="secondary-btn" data-action="back-to-login">
+              ← Volver a iniciar sesión
+            </button>
           </form>
         </div>
       </div>
@@ -929,6 +1118,54 @@
             Sí, cerrar sesión
           </button>
         </div>
+      </div>
+    </div>
+
+    <!-- Shown once, right after login, only when profiles.username is null
+         (pre-migration accounts). Does not block anything else the student
+         does - "Ahora no" just closes it and it reappears on the next login
+         until a username is set. -->
+    <div class="username-onboarding-modal" id="usernameOnboardingModal" aria-hidden="true" inert>
+      <div
+        class="auth-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="usernameOnboardingTitle"
+      >
+        <button
+          class="close-modal"
+          type="button"
+          aria-label="Cerrar"
+          data-action="dismiss-username-onboarding"
+        >
+          ×
+        </button>
+        <h3 id="usernameOnboardingTitle">Crea tu nombre de usuario de ANDERGO.</h3>
+        <p class="auth-field-hint">Será tu identidad visible en ANDERGO.</p>
+        <form id="usernameOnboardingForm">
+          <label for="onboardingUsername"
+            >Nombre de usuario
+            <input
+              type="text"
+              id="onboardingUsername"
+              name="username"
+              placeholder="anderson2026"
+              autocomplete="username"
+              minlength="4"
+              maxlength="24"
+              required
+            />
+          </label>
+          <p
+            class="username-availability-status"
+            id="onboardingUsernameStatus"
+            aria-live="polite"
+          ></p>
+          <button type="submit" class="primary-btn">Guardar nombre de usuario</button>
+          <button type="button" class="secondary-btn" data-action="dismiss-username-onboarding">
+            Ahora no
+          </button>
+        </form>
       </div>
     </div>
 

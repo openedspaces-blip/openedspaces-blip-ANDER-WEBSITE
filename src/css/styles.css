@@ -785,6 +785,191 @@ a:focus-visible {
   font-size: 1rem;
 }
 
+.auth-tabs.is-hidden {
+  display: none;
+}
+
+.password-field {
+  position: relative;
+  display: block;
+}
+
+.password-field input {
+  padding-right: 52px;
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.15rem;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 12px;
+}
+
+.password-toggle-btn:hover {
+  background: rgba(15, 23, 42, 0.06);
+}
+
+.password-toggle-btn:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.auth-field-hint {
+  margin: -8px 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.username-availability-status {
+  margin: -8px 0 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  min-height: 1.1em;
+  color: var(--muted);
+}
+
+.username-availability-status.is-available {
+  color: #15803d;
+}
+
+.username-availability-status.is-error {
+  color: #dc2626;
+}
+
+.password-strength {
+  margin: -8px 0 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+  min-height: 1.1em;
+  color: var(--muted);
+}
+
+.password-strength.is-weak {
+  color: #dc2626;
+}
+
+.password-strength.is-fair {
+  color: #d97706;
+}
+
+.password-strength.is-good {
+  color: #2563eb;
+}
+
+.password-strength.is-strong {
+  color: #15803d;
+}
+
+.auth-forgot-link {
+  justify-self: start;
+  border: none;
+  background: none;
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0;
+  cursor: pointer;
+}
+
+.auth-forgot-link:hover {
+  text-decoration: underline;
+}
+
+.reset-password-status {
+  min-height: 1.1em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.reset-password-status.is-error {
+  color: #dc2626;
+}
+
+/* Username onboarding - reuses .auth-modal/.auth-panel's backdrop and card
+   conventions, same as .confirm-modal, since this is another modal-like
+   surface shown on top of any view. */
+.username-onboarding-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 21, 47, 0.6);
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 50;
+}
+
+.username-onboarding-modal.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.username-onboarding-modal .auth-panel {
+  width: min(440px, 92%);
+}
+
+.username-onboarding-modal form {
+  display: grid;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.username-onboarding-modal .primary-btn,
+.username-onboarding-modal .secondary-btn {
+  width: 100%;
+  padding: 14px 18px;
+}
+
+.reset-password-section {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.reset-password-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.reset-password-card form {
+  display: grid;
+  gap: 18px;
+}
+
+.reset-password-card label {
+  display: grid;
+  gap: 10px;
+  color: var(--navy-2);
+  font-weight: 700;
+}
+
+.reset-password-card input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 14px 16px;
+  font-size: 1rem;
+  color: var(--navy-2);
+}
+
+.reset-password-success,
+.reset-password-invalid {
+  display: grid;
+  gap: 12px;
+  text-align: center;
+}
+
 /* Logout confirmation dialog - reuses .auth-modal/.auth-panel's backdrop
    and card conventions (same tokens, same open/close pattern) since this
    is the only other modal-like surface in the app. */
