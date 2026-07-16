@@ -2427,6 +2427,11 @@ async function sendTutorMessage({
   currentQuestion,
   selectedAnswer
 }) {
+  // Guards against a second click/Enter firing before the first request's
+  // `sendBtn.disabled = true` (set a few lines below) has taken effect, and
+  // against any caller triggering this twice in a row for the same button.
+  if (sendBtn?.disabled) return null;
+
   const customPrompt = promptEl?.value.trim() || '';
   const finalPrompt =
     customPrompt || selectedSuggestion || fallbackPrompt || 'Quiero practicar esta habilidad.';
