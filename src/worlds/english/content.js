@@ -8,91 +8,53 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": "Survival English: Preséntate en 4 frases usando my name is, I am, I like.",
+        "text": "English A1: Listen to two friends planning a trip based on the weather.",
         "suggestions": [
-          "The speaker is talking about...",
-          "I heard the words...",
-          "The person's name is...",
-          "Could you repeat that, please?"
+          "What's the weather like?",
+          "It's sunny/rainy/cold.",
+          "It's going to rain.",
+          "Let's..."
         ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Survival English: Preséntate en 4 frases usando my name is, I am, I like.",
+        "text": "English A1: Tell a partner what the weather is like today and one place you are going to visit soon.",
         "suggestions": [
-          "Hello! My name is...",
-          "I am ... years old.",
-          "I am from...",
-          "This is my mother / father / friend."
+          "It's sunny/rainy/cold/hot today.",
+          "I'm going to travel to...",
+          "What's the weather like?",
+          "I'm going to pack..."
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Survival English: Preséntate en 4 frases usando my name is, I am, I like.",
+        "text": "English A1: Write 3-4 sentences about a trip you are going to take, including the weather and what you are going to pack.",
         "suggestions": [
-          "My name is...",
-          "I am from...",
-          "I have a ...",
-          "My favorite ... is ..."
+          "I'm going to travel to...",
+          "The weather is going to be...",
+          "I'm going to pack...",
+          "I am excited because..."
         ]
       }
     },
-    "vocab": [
-      [
-        "Hello",
-        "Hola"
-      ],
-      [
-        "Name",
-        "Nombre"
-      ],
-      [
-        "Teacher",
-        "Profesor/a"
-      ],
-      [
-        "Friend",
-        "Amigo/a"
-      ],
-      [
-        "Family",
-        "Familia"
-      ],
-      [
-        "Good morning",
-        "Buenos días"
-      ],
-      [
-        "Sister",
-        "Hermana"
-      ],
-      [
-        "Student",
-        "Estudiante"
-      ]
-    ],
+    "vocab": [],
     "grammar": [
       [
         "A1",
-        "Verb to be, pronouns, articles, plurals, present simple."
+        "Guided grammar practice."
       ],
       [
         "Mission",
-        "Preséntate en 4 frases usando my name is, I am, I like."
+        "A short text about a student's first day of English class."
       ]
     ],
     "reading": {
       "title": "English A1 Reading",
-      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
+      "text": "Next month, my family is going to travel to the mountains. The weather there is usually cool, not hot like the beach. We are going to pack jackets and warm clothes. My father is going to drive, and the trip takes about three hours. I am very excited because it is going to be my first time in the mountains!",
       "questions": [
-        "What is the main idea of the text?",
-        "How old is Ana?",
-        "Who are the people in Ana's family?",
-        "What time does Ana get up?",
-        "Who is Mr. Green?",
-        "Name two of Ana's favorite words.",
-        "Why is Ana learning English?",
-        "Write one short sentence about yourself."
+        "Where is the family going to travel?",
+        "What is the weather like there?",
+        "How long does the trip take?"
       ]
     }
   },
@@ -557,893 +519,330 @@
   window.ANDERGO_LANGUAGE_WORLDS.lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons || {};
   window.ANDERGO_LANGUAGE_WORLDS.lessons.english = [
   {
-    "slug": "english-a1-listening",
-    "level": "A1",
-    "skill": "listening",
-    "title": "English A1 · Listening Lab",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 10,
-    "estimatedMinutes": 10,
-    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "A1 Listening: understand slow, clear speech about greetings, names, ages, countries, family members, classroom instructions, and simple daily activities. You will train your ear with short audios, songs, and classroom dialogues, learning to catch key words even when you do not understand everything.",
-    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
-    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
-    "phrases": [
-      "The speaker is talking about...",
-      "I heard the words...",
-      "The person's name is...",
-      "Could you repeat that, please?",
-      "Can you speak more slowly, please?"
-    ],
-    "vocabulary": [
-      {
-        "word": "Hello",
-        "translation": "Hola",
-        "example": "Hello, my name is Ana."
-      },
-      {
-        "word": "Name",
-        "translation": "Nombre",
-        "example": "My name is Luis."
-      },
-      {
-        "word": "Teacher",
-        "translation": "Profesor/a",
-        "example": "My teacher is kind."
-      },
-      {
-        "word": "Friend",
-        "translation": "Amigo/a",
-        "example": "She is my friend."
-      },
-      {
-        "word": "Family",
-        "translation": "Familia",
-        "example": "My family is small."
-      },
-      {
-        "word": "Good morning",
-        "translation": "Buenos días",
-        "example": "Good morning, class."
-      },
-      {
-        "word": "Sister",
-        "translation": "Hermana",
-        "example": "I have one sister."
-      },
-      {
-        "word": "Student",
-        "translation": "Estudiante",
-        "example": "I am a student."
-      },
-      {
-        "word": "Please",
-        "translation": "Por favor",
-        "example": "Water, please."
-      },
-      {
-        "word": "Thank you",
-        "translation": "Gracias",
-        "example": "Thank you very much."
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Ana",
-        "line": "Hello! My name is Ana. What's your name?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Nice to meet you too. Where are you from?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "I'm from Italy. And you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "I'm from the Dominican Republic. How old are you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "I'm twelve years old. Is this your first English class?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, it is! Our teacher is Mr. Green.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Great! Let's sit together. Do you have a pencil?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, here you are.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Thank you very much, Ana!",
-        "translation": ""
-      }
-    ],
-    "reading": {
-      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
-      "questions": [
-        "What is the main idea of the text?",
-        "How old is Ana?",
-        "Who are the people in Ana's family?",
-        "What time does Ana get up?",
-        "Who is Mr. Green?",
-        "Name two of Ana's favorite words.",
-        "Why is Ana learning English?",
-        "Write one short sentence about yourself."
-      ]
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"Hello\"?",
-        "options": [
-          "Hola",
-          "Nombre",
-          "Profesor/a",
-          "Amigo/a"
-        ]
-      },
-      {
-        "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
-      },
-      {
-        "type": "speaking",
-        "prompt": "Lee en voz alta: My name is..."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"Thank you\"?",
-        "options": [
-          "Gracias",
-          "Hermana",
-          "Estudiante",
-          "Por favor"
-        ]
-      },
-      {
-        "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
-      }
-    ]
-  },
-  {
-    "slug": "english-a1-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "title": "English A1 · Speaking Mission",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 20,
-    "estimatedMinutes": 10,
-    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "A1 Speaking: introduce yourself, greet people, spell your name, say your age and nationality, describe your family, and ask simple questions. You will practice pronunciation of basic sounds, short question-and-answer exchanges, and mini role-plays about everyday school and home situations.",
-    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
-    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
-    "phrases": [
-      "Hello! My name is...",
-      "I am ... years old.",
-      "I am from...",
-      "This is my mother / father / friend.",
-      "Nice to meet you!"
-    ],
-    "vocabulary": [
-      {
-        "word": "Hello",
-        "translation": "Hola",
-        "example": "Hello, my name is Ana."
-      },
-      {
-        "word": "Name",
-        "translation": "Nombre",
-        "example": "My name is Luis."
-      },
-      {
-        "word": "Teacher",
-        "translation": "Profesor/a",
-        "example": "My teacher is kind."
-      },
-      {
-        "word": "Friend",
-        "translation": "Amigo/a",
-        "example": "She is my friend."
-      },
-      {
-        "word": "Family",
-        "translation": "Familia",
-        "example": "My family is small."
-      },
-      {
-        "word": "Good morning",
-        "translation": "Buenos días",
-        "example": "Good morning, class."
-      },
-      {
-        "word": "Sister",
-        "translation": "Hermana",
-        "example": "I have one sister."
-      },
-      {
-        "word": "Student",
-        "translation": "Estudiante",
-        "example": "I am a student."
-      },
-      {
-        "word": "Please",
-        "translation": "Por favor",
-        "example": "Water, please."
-      },
-      {
-        "word": "Thank you",
-        "translation": "Gracias",
-        "example": "Thank you very much."
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Ana",
-        "line": "Hello! My name is Ana. What's your name?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Nice to meet you too. Where are you from?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "I'm from Italy. And you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "I'm from the Dominican Republic. How old are you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "I'm twelve years old. Is this your first English class?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, it is! Our teacher is Mr. Green.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Great! Let's sit together. Do you have a pencil?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, here you are.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Thank you very much, Ana!",
-        "translation": ""
-      }
-    ],
-    "reading": {
-      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
-      "questions": [
-        "What is the main idea of the text?",
-        "How old is Ana?",
-        "Who are the people in Ana's family?",
-        "What time does Ana get up?",
-        "Who is Mr. Green?",
-        "Name two of Ana's favorite words.",
-        "Why is Ana learning English?",
-        "Write one short sentence about yourself."
-      ]
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"Hello\"?",
-        "options": [
-          "Hola",
-          "Nombre",
-          "Profesor/a",
-          "Amigo/a"
-        ]
-      },
-      {
-        "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
-      },
-      {
-        "type": "speaking",
-        "prompt": "Lee en voz alta: My name is..."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"Thank you\"?",
-        "options": [
-          "Gracias",
-          "Hermana",
-          "Estudiante",
-          "Por favor"
-        ]
-      },
-      {
-        "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
-      }
-    ]
-  },
-  {
-    "slug": "english-a1-reading",
+    "slug": "english-a1-hello-reading",
     "level": "A1",
     "skill": "reading",
-    "title": "English A1 · Reading Quest",
+    "unitId": "hello",
+    "title": "Hello, Class!",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 10,
+    "estimatedMinutes": 10,
+    "description": "A short text about a student's first day of English class.",
+    "intro": "A short text about a student's first day of English class.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Hello, Class!",
+      "text": "Hello! My name is Ana. Today is my first English class. My teacher is Mr. Green. He says, \"Good morning, class!\" and we answer, \"Good morning, Mr. Green!\" I sit next to a boy named Leo. \"Hi, I'm Leo,\" he says. \"Nice to meet you,\" I answer. We say our names and spell them with the alphabet. It is a good first day.",
+      "questions": [
+        "What is the girl's name?",
+        "Who is the teacher?",
+        "What does the class say to Mr. Green?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is the teacher's name?",
+        "options": [
+          "Mr. Green",
+          "Mr. Leo",
+          "Mr. Ana",
+          "Mr. Class"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who sits next to Ana?",
+        "options": [
+          "Mr. Green",
+          "Leo",
+          "Sofia",
+          "Marco"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do they practice with the alphabet?",
+        "options": [
+          "Numbers",
+          "Spelling their names",
+          "Colors",
+          "Drawing"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-hello-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "hello",
+    "title": "Nice to Meet You",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 11,
+    "estimatedMinutes": 10,
+    "description": "Listen to two students meeting for the first time.",
+    "intro": "Listen to Ana and Leo meeting on the first day of class. Focus on how they say hello and introduce themselves.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "What's your name?",
+      "Nice to meet you.",
+      "How are you?",
+      "See you later!"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Ana",
+        "line": "Hello! My name is Ana. What's your name?",
+        "translation": "Hola, me llamo Ana. ¿Cómo te llamas?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
+        "translation": "Hola, Ana. Soy Leo. Mucho gusto."
+      },
+      {
+        "speaker": "Ana",
+        "line": "Nice to meet you too. How are you?",
+        "translation": "Igualmente. ¿Cómo estás?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "I'm fine, thanks. And you?",
+        "translation": "Estoy bien, gracias. ¿Y tú?"
+      },
+      {
+        "speaker": "Ana",
+        "line": "Good morning! I mean... I'm fine too!",
+        "translation": "¡Buenos días! Digo... ¡yo también estoy bien!"
+      },
+      {
+        "speaker": "Leo",
+        "line": "See you later, Ana!",
+        "translation": "¡Hasta luego, Ana!"
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does Leo say when he meets Ana?",
+        "options": [
+          "Goodbye",
+          "Nice to meet you",
+          "What time is it?",
+          "I am hungry"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How does Ana say goodbye at the end?",
+        "options": [
+          "Good morning",
+          "Hello",
+          "See you later",
+          "Thank you"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does Leo answer to \"How are you?\"",
+        "options": [
+          "I'm Leo",
+          "I'm fine, thanks",
+          "Nice to meet you",
+          "What's your name?"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-hello-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "hello",
+    "title": "Say Hello",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 30,
-    "estimatedMinutes": 10,
-    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "A1 Reading: read very short, simple texts such as name tags, class lists, family descriptions, simple profiles, and short messages. You will learn to recognize high-frequency words on sight, use pictures to predict meaning, and find specific information like names, ages, and countries.",
-    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
-    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
+    "orderIndex": 12,
+    "estimatedMinutes": 8,
+    "description": "Practice greeting someone and introducing yourself out loud.",
+    "intro": "Practice greeting someone and introducing yourself out loud.",
+    "mission": "Say hello to a partner, introduce yourself with your name, and ask how they are.",
+    "grammar": "",
     "phrases": [
-      "The text is about...",
-      "The person in the text is...",
-      "I can see the words...",
-      "This word probably means...",
-      "The text says that..."
+      "Hello! / Hi!",
+      "My name is...",
+      "Nice to meet you.",
+      "How are you?",
+      "I'm fine, thank you."
     ],
-    "vocabulary": [
-      {
-        "word": "Hello",
-        "translation": "Hola",
-        "example": "Hello, my name is Ana."
-      },
-      {
-        "word": "Name",
-        "translation": "Nombre",
-        "example": "My name is Luis."
-      },
-      {
-        "word": "Teacher",
-        "translation": "Profesor/a",
-        "example": "My teacher is kind."
-      },
-      {
-        "word": "Friend",
-        "translation": "Amigo/a",
-        "example": "She is my friend."
-      },
-      {
-        "word": "Family",
-        "translation": "Familia",
-        "example": "My family is small."
-      },
-      {
-        "word": "Good morning",
-        "translation": "Buenos días",
-        "example": "Good morning, class."
-      },
-      {
-        "word": "Sister",
-        "translation": "Hermana",
-        "example": "I have one sister."
-      },
-      {
-        "word": "Student",
-        "translation": "Estudiante",
-        "example": "I am a student."
-      },
-      {
-        "word": "Please",
-        "translation": "Por favor",
-        "example": "Water, please."
-      },
-      {
-        "word": "Thank you",
-        "translation": "Gracias",
-        "example": "Thank you very much."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Ana",
-        "line": "Hello! My name is Ana. What's your name?",
-        "translation": ""
+        "speaker": "You",
+        "line": "Hello! My name is...",
+        "translation": "Hola, me llamo..."
       },
       {
-        "speaker": "Leo",
-        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
-        "translation": ""
+        "speaker": "Partner",
+        "line": "Hi! I'm... Nice to meet you.",
+        "translation": "Hola, soy... Mucho gusto."
       },
       {
-        "speaker": "Ana",
-        "line": "Nice to meet you too. Where are you from?",
-        "translation": ""
+        "speaker": "You",
+        "line": "Nice to meet you too. How are you?",
+        "translation": "Igualmente. ¿Cómo estás?"
       },
       {
-        "speaker": "Leo",
-        "line": "I'm from Italy. And you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "I'm from the Dominican Republic. How old are you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "I'm twelve years old. Is this your first English class?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, it is! Our teacher is Mr. Green.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Great! Let's sit together. Do you have a pencil?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, here you are.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Thank you very much, Ana!",
-        "translation": ""
+        "speaker": "Partner",
+        "line": "I'm fine, thank you. And you?",
+        "translation": "Estoy bien, gracias. ¿Y tú?"
       }
     ],
-    "reading": {
-      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
-      "questions": [
-        "What is the main idea of the text?",
-        "How old is Ana?",
-        "Who are the people in Ana's family?",
-        "What time does Ana get up?",
-        "Who is Mr. Green?",
-        "Name two of Ana's favorite words.",
-        "Why is Ana learning English?",
-        "Write one short sentence about yourself."
-      ]
-    },
+    "reading": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"Hello\"?",
-        "options": [
-          "Hola",
-          "Nombre",
-          "Profesor/a",
-          "Amigo/a"
-        ]
-      },
-      {
-        "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
-      },
-      {
         "type": "speaking",
-        "prompt": "Lee en voz alta: My name is..."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"Thank you\"?",
-        "options": [
-          "Gracias",
-          "Hermana",
-          "Estudiante",
-          "Por favor"
-        ]
+        "prompt": "Say out loud: \"Hello, my name is...\" and finish the sentence with your own name."
       },
       {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
+        "prompt": "Practice the greeting dialogue with a partner, then switch roles."
       }
     ]
   },
   {
-    "slug": "english-a1-writing",
+    "slug": "english-a1-hello-writing",
     "level": "A1",
     "skill": "writing",
-    "title": "English A1 · Writing Challenge",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 40,
-    "estimatedMinutes": 10,
-    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "A1 Writing: write your first sentences in English about yourself, your family, your classroom, and your daily life. You will practice copying models, completing gapped sentences, using capital letters and periods correctly, and building short personal texts of four to six sentences.",
-    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
-    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
+    "unitId": "hello",
+    "title": "Write Your Introduction",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 13,
+    "estimatedMinutes": 12,
+    "description": "Write three simple sentences introducing yourself.",
+    "intro": "Write three simple sentences introducing yourself.",
+    "mission": "Write 3 sentences: your name, how you are today, and one thing you say hello with (e.g. a friend's name).",
+    "grammar": "",
     "phrases": [
       "My name is...",
-      "I am from...",
-      "I have a ...",
-      "My favorite ... is ...",
-      "I like ... very much."
+      "I am fine.",
+      "Hello,...!"
     ],
-    "vocabulary": [
-      {
-        "word": "Hello",
-        "translation": "Hola",
-        "example": "Hello, my name is Ana."
-      },
-      {
-        "word": "Name",
-        "translation": "Nombre",
-        "example": "My name is Luis."
-      },
-      {
-        "word": "Teacher",
-        "translation": "Profesor/a",
-        "example": "My teacher is kind."
-      },
-      {
-        "word": "Friend",
-        "translation": "Amigo/a",
-        "example": "She is my friend."
-      },
-      {
-        "word": "Family",
-        "translation": "Familia",
-        "example": "My family is small."
-      },
-      {
-        "word": "Good morning",
-        "translation": "Buenos días",
-        "example": "Good morning, class."
-      },
-      {
-        "word": "Sister",
-        "translation": "Hermana",
-        "example": "I have one sister."
-      },
-      {
-        "word": "Student",
-        "translation": "Estudiante",
-        "example": "I am a student."
-      },
-      {
-        "word": "Please",
-        "translation": "Por favor",
-        "example": "Water, please."
-      },
-      {
-        "word": "Thank you",
-        "translation": "Gracias",
-        "example": "Thank you very much."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Ana",
-        "line": "Hello! My name is Ana. What's your name?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Nice to meet you too. Where are you from?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "I'm from Italy. And you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "I'm from the Dominican Republic. How old are you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "I'm twelve years old. Is this your first English class?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, it is! Our teacher is Mr. Green.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Great! Let's sit together. Do you have a pencil?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, here you are.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Thank you very much, Ana!",
-        "translation": ""
+        "speaker": "Model",
+        "line": "My name is Ana. I am fine today. Hello, Leo!",
+        "translation": "Me llamo Ana. Estoy bien hoy. ¡Hola, Leo!"
       }
     ],
-    "reading": {
-      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
-      "questions": [
-        "What is the main idea of the text?",
-        "How old is Ana?",
-        "Who are the people in Ana's family?",
-        "What time does Ana get up?",
-        "Who is Mr. Green?",
-        "Name two of Ana's favorite words.",
-        "Why is Ana learning English?",
-        "Write one short sentence about yourself."
-      ]
-    },
+    "reading": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"Hello\"?",
-        "options": [
-          "Hola",
-          "Nombre",
-          "Profesor/a",
-          "Amigo/a"
-        ]
-      },
-      {
         "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
-      },
-      {
-        "type": "speaking",
-        "prompt": "Lee en voz alta: My name is..."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"Thank you\"?",
-        "options": [
-          "Gracias",
-          "Hermana",
-          "Estudiante",
-          "Por favor"
-        ]
-      },
-      {
-        "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
+        "prompt": "Write 3 short sentences to introduce yourself, using \"My name is...\", \"I am...\", and \"Hello, ...!\""
       }
     ]
   },
   {
-    "slug": "english-a1-grammar",
+    "slug": "english-a1-hello-grammar",
     "level": "A1",
     "skill": "grammar",
-    "title": "English A1 · Grammar Focus",
-    "accessTier": "premium",
-    "isFree": false,
+    "unitId": "hello",
+    "title": "The Verb \"To Be\": am / is / are",
+    "accessTier": "free",
+    "isFree": true,
     "xpReward": 20,
-    "orderIndex": 50,
-    "estimatedMinutes": 10,
-    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "Introduce yourself, understand basic classroom instructions, and produce short sentences about personal information, family, school, routines, and preferences.",
-    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
-    "grammar": "Verb be; Subject pronouns; Articles; Plural nouns; Possessive adjectives; Simple present basics; Can for ability; Question words; Negatives with be; Demonstratives; There is / There are; Numbers and dates; Prepositions of place; Have got / have",
+    "orderIndex": 14,
+    "estimatedMinutes": 8,
+    "description": "Learn how to use am, is and are with I, you, he/she/it, we, they.",
+    "intro": "Learn how to use am, is and are with I, you, he/she/it, we, they.",
+    "mission": "",
+    "grammar": "The verb \"to be\" changes depending on the subject: I am, you are, he/she/it is, we are, they are. We use it to say names, feelings, and where we are from. Example: \"I am Ana. You are my friend. He is the teacher.\"",
     "phrases": [
-      "My name is...",
-      "I am from...",
-      "Nice to meet you.",
-      "Can you repeat, please?",
-      "See you later.",
-      "Where are you from?"
+      "I am...",
+      "You are...",
+      "He/She is...",
+      "We are...",
+      "They are..."
     ],
-    "vocabulary": [
-      {
-        "word": "Hello",
-        "translation": "Hola",
-        "example": "Hello, my name is Ana."
-      },
-      {
-        "word": "Name",
-        "translation": "Nombre",
-        "example": "My name is Luis."
-      },
-      {
-        "word": "Teacher",
-        "translation": "Profesor/a",
-        "example": "My teacher is kind."
-      },
-      {
-        "word": "Friend",
-        "translation": "Amigo/a",
-        "example": "She is my friend."
-      },
-      {
-        "word": "Family",
-        "translation": "Familia",
-        "example": "My family is small."
-      },
-      {
-        "word": "Good morning",
-        "translation": "Buenos días",
-        "example": "Good morning, class."
-      },
-      {
-        "word": "Sister",
-        "translation": "Hermana",
-        "example": "I have one sister."
-      },
-      {
-        "word": "Student",
-        "translation": "Estudiante",
-        "example": "I am a student."
-      },
-      {
-        "word": "Please",
-        "translation": "Por favor",
-        "example": "Water, please."
-      },
-      {
-        "word": "Thank you",
-        "translation": "Gracias",
-        "example": "Thank you very much."
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Ana",
-        "line": "Hello! My name is Ana. What's your name?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Nice to meet you too. Where are you from?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "I'm from Italy. And you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "I'm from the Dominican Republic. How old are you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "I'm twelve years old. Is this your first English class?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, it is! Our teacher is Mr. Green.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Great! Let's sit together. Do you have a pencil?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, here you are.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Thank you very much, Ana!",
-        "translation": ""
-      }
-    ],
-    "reading": {
-      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
-      "questions": [
-        "What is the main idea of the text?",
-        "How old is Ana?",
-        "Who are the people in Ana's family?",
-        "What time does Ana get up?",
-        "Who is Mr. Green?",
-        "Name two of Ana's favorite words.",
-        "Why is Ana learning English?",
-        "Write one short sentence about yourself."
-      ]
-    },
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Hello\"?",
+        "prompt": "I ___ a student.",
         "options": [
-          "Hola",
-          "Nombre",
-          "Profesor/a",
-          "Amigo/a"
+          "am",
+          "is",
+          "are",
+          "be"
         ]
-      },
-      {
-        "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
-      },
-      {
-        "type": "speaking",
-        "prompt": "Lee en voz alta: My name is..."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Thank you\"?",
+        "prompt": "She ___ my teacher.",
         "options": [
-          "Gracias",
-          "Hermana",
-          "Estudiante",
-          "Por favor"
+          "am",
+          "is",
+          "are",
+          "be"
         ]
       },
       {
-        "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
+        "type": "mcq",
+        "prompt": "They ___ my classmates.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "You ___ very kind.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ]
       }
     ]
   },
   {
-    "slug": "english-a1-vocabulary",
+    "slug": "english-a1-hello-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
-    "title": "English A1 · Vocabulary Boost",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 10,
-    "orderIndex": 60,
-    "estimatedMinutes": 10,
-    "description": "Survival English: Puedo saludar, presentarme y pedir información básica.",
-    "intro": "Foundation: greetings, identity, classroom language, family, and everyday survival phrases",
-    "mission": "Preséntate en 4 frases usando my name is, I am, I like.",
-    "grammar": "Verb to be, pronouns, articles, plurals, present simple.",
-    "phrases": [
-      "My name is...",
-      "I am from...",
-      "Nice to meet you.",
-      "Can you repeat, please?",
-      "See you later.",
-      "Where are you from?"
-    ],
+    "unitId": "hello",
+    "title": "Greeting Words",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 15,
+    "estimatedMinutes": 6,
+    "description": "Key words for saying hello and introducing yourself.",
+    "intro": "Key words for saying hello and introducing yourself.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
     "vocabulary": [
       {
         "word": "Hello",
@@ -1451,148 +850,2053 @@
         "example": "Hello, my name is Ana."
       },
       {
+        "word": "Good morning",
+        "translation": "Buenos días",
+        "example": "Good morning, class!"
+      },
+      {
         "word": "Name",
         "translation": "Nombre",
-        "example": "My name is Luis."
+        "example": "My name is Leo."
       },
       {
         "word": "Teacher",
         "translation": "Profesor/a",
-        "example": "My teacher is kind."
+        "example": "My teacher is Mr. Green."
       },
       {
         "word": "Friend",
         "translation": "Amigo/a",
-        "example": "She is my friend."
+        "example": "Leo is my friend."
       },
       {
-        "word": "Family",
-        "translation": "Familia",
-        "example": "My family is small."
+        "word": "Nice to meet you",
+        "translation": "Mucho gusto",
+        "example": "Nice to meet you, Ana."
       },
       {
-        "word": "Good morning",
-        "translation": "Buenos días",
-        "example": "Good morning, class."
-      },
-      {
-        "word": "Sister",
-        "translation": "Hermana",
-        "example": "I have one sister."
-      },
-      {
-        "word": "Student",
-        "translation": "Estudiante",
-        "example": "I am a student."
+        "word": "Goodbye",
+        "translation": "Adiós",
+        "example": "Goodbye, see you tomorrow."
       },
       {
         "word": "Please",
         "translation": "Por favor",
-        "example": "Water, please."
-      },
-      {
-        "word": "Thank you",
-        "translation": "Gracias",
-        "example": "Thank you very much."
+        "example": "Repeat that, please."
       }
     ],
-    "dialogue": [
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
       {
-        "speaker": "Ana",
-        "line": "Hello! My name is Ana. What's your name?",
-        "translation": ""
+        "type": "mcq",
+        "prompt": "What does \"Hello\" mean?",
+        "options": [
+          "Hola",
+          "Adiós",
+          "Gracias",
+          "Nombre"
+        ]
       },
       {
-        "speaker": "Leo",
-        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
-        "translation": ""
+        "type": "mcq",
+        "prompt": "What does \"Nice to meet you\" mean?",
+        "options": [
+          "Buenos días",
+          "Mucho gusto",
+          "Por favor",
+          "Amigo"
+        ]
       },
       {
-        "speaker": "Ana",
-        "line": "Nice to meet you too. Where are you from?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "I'm from Italy. And you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "I'm from the Dominican Republic. How old are you?",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "I'm twelve years old. Is this your first English class?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, it is! Our teacher is Mr. Green.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Great! Let's sit together. Do you have a pencil?",
-        "translation": ""
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, here you are.",
-        "translation": ""
-      },
-      {
-        "speaker": "Leo",
-        "line": "Thank you very much, Ana!",
-        "translation": ""
+        "type": "mcq",
+        "prompt": "What does \"Teacher\" mean?",
+        "options": [
+          "Amigo/a",
+          "Nombre",
+          "Profesor/a",
+          "Adiós"
+        ]
       }
-    ],
+    ]
+  },
+  {
+    "slug": "english-a1-about-me-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "about-me",
+    "title": "My Profile",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 20,
+    "estimatedMinutes": 10,
+    "description": "A short profile text about a student from the Dominican Republic.",
+    "intro": "A short profile text about a student from the Dominican Republic.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
     "reading": {
-      "text": "My name is Ana. I am twelve years old, and I study English at school. I live with my family: my mother, my father, and my little brother, Marco. Every morning, I get up at seven o'clock, eat breakfast, and walk to school with my friend Sofia. In class, I say hello to my teacher, Mr. Green, and write new words in my notebook. My favorite words are family, school, and friend. In the afternoon, I do my homework and play with Marco. I practice English every day because I want to speak with people from other countries.",
+      "title": "My Profile",
+      "text": "My name is Marco. I am twelve years old. I am from the Dominican Republic, and I live in Santo Domingo. I am happy today because it is my birthday! I am not tired, and I am not sad. I am a student, and I am also a good friend. My favorite color is blue.",
       "questions": [
-        "What is the main idea of the text?",
-        "How old is Ana?",
-        "Who are the people in Ana's family?",
-        "What time does Ana get up?",
-        "Who is Mr. Green?",
-        "Name two of Ana's favorite words.",
-        "Why is Ana learning English?",
-        "Write one short sentence about yourself."
+        "How old is Marco?",
+        "Where is Marco from?",
+        "Why is Marco happy today?"
       ]
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Hello\"?",
+        "prompt": "How old is Marco?",
         "options": [
-          "Hola",
-          "Nombre",
-          "Profesor/a",
-          "Amigo/a"
+          "Ten",
+          "Eleven",
+          "Twelve",
+          "Thirteen"
         ]
-      },
-      {
-        "type": "writing",
-        "prompt": "Preséntate en 4 frases usando my name is, I am, I like."
-      },
-      {
-        "type": "speaking",
-        "prompt": "Lee en voz alta: My name is..."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Thank you\"?",
+        "prompt": "Where does Marco live?",
         "options": [
-          "Gracias",
-          "Hermana",
-          "Estudiante",
-          "Por favor"
+          "Santo Domingo",
+          "Madrid",
+          "New York",
+          "Santiago"
         ]
       },
       {
+        "type": "mcq",
+        "prompt": "Why is Marco happy?",
+        "options": [
+          "It is his birthday",
+          "He has a new friend",
+          "He is on vacation",
+          "He got a good grade"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-about-me-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "about-me",
+    "title": "Where Are You From?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 21,
+    "estimatedMinutes": 10,
+    "description": "Listen to two students talking about their age and country.",
+    "intro": "Listen to Sofia and Leo talking about where they are from and how old they are.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Where are you from?",
+      "I am from...",
+      "How old are you?",
+      "I am ... years old."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Where are you from, Leo?",
+        "translation": "¿De dónde eres, Leo?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "I am from Italy. And you?",
+        "translation": "Soy de Italia. ¿Y tú?"
+      },
+      {
+        "speaker": "Sofia",
+        "line": "I am from the Dominican Republic. How old are you?",
+        "translation": "Soy de República Dominicana. ¿Cuántos años tienes?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "I am twelve years old. What about you?",
+        "translation": "Tengo doce años. ¿Y tú?"
+      },
+      {
+        "speaker": "Sofia",
+        "line": "I am eleven. Are you happy at this school?",
+        "translation": "Tengo once. ¿Estás feliz en esta escuela?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "Yes, I am very happy here!",
+        "translation": "Sí, ¡estoy muy feliz aquí!"
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Where is Leo from?",
+        "options": [
+          "Spain",
+          "Italy",
+          "Dominican Republic",
+          "France"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How old is Sofia?",
+        "options": [
+          "Ten",
+          "Eleven",
+          "Twelve",
+          "Thirteen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Is Leo happy at the school?",
+        "options": [
+          "Yes",
+          "No",
+          "He doesn't say",
+          "A little sad"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-about-me-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "about-me",
+    "title": "Talk About Yourself",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 22,
+    "estimatedMinutes": 8,
+    "description": "Practice saying your age, country and how you feel today.",
+    "intro": "Practice saying your age, country and how you feel today.",
+    "mission": "Tell a partner your name, your age, where you are from, and how you feel today.",
+    "grammar": "",
+    "phrases": [
+      "I am ... years old.",
+      "I am from...",
+      "Today I am happy/tired/fine.",
+      "Are you...?"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "You",
+        "line": "I am ... years old and I am from...",
+        "translation": "Tengo ... años y soy de..."
+      },
+      {
+        "speaker": "Partner",
+        "line": "Nice! How do you feel today?",
+        "translation": "¡Qué bien! ¿Cómo te sientes hoy?"
+      },
+      {
+        "speaker": "You",
+        "line": "Today I am happy because...",
+        "translation": "Hoy estoy feliz porque..."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Say out loud: your age, your country, and one feeling you have today."
+      },
+      {
         "type": "practice",
-        "prompt": "Practica el diálogo con un compañero usando \"where are you from\" y \"I am from...\"."
+        "prompt": "Ask a partner \"How old are you?\" and \"Where are you from?\" and answer their questions too."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-about-me-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "about-me",
+    "title": "Write a Mini Profile",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 23,
+    "estimatedMinutes": 12,
+    "description": "Write four sentences about yourself: name, age, country, feeling.",
+    "intro": "Write four sentences about yourself: name, age, country, feeling.",
+    "mission": "Write 4 sentences about yourself using \"My name is...\", \"I am ... years old\", \"I am from...\", and \"Today I am...\".",
+    "grammar": "",
+    "phrases": [
+      "My name is...",
+      "I am ... years old.",
+      "I am from...",
+      "Today I am..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "My name is Marco. I am twelve years old. I am from the Dominican Republic. Today I am happy.",
+        "translation": "Me llamo Marco. Tengo doce años. Soy de República Dominicana. Hoy estoy feliz."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Write a 4-sentence mini profile about yourself (name, age, country, feeling today)."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-about-me-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "about-me",
+    "title": "To Be: Negative and Questions",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 24,
+    "estimatedMinutes": 8,
+    "description": "Learn \"I am not...\", \"Is he...?\" and possessive adjectives my/your.",
+    "intro": "Learn \"I am not...\", \"Is he...?\" and possessive adjectives my/your.",
+    "mission": "",
+    "grammar": "To make \"to be\" negative, add \"not\": I am not tired. She is not sad. To ask a question, put the verb first: Are you happy? Is he from Spain? We also use \"my\" (mine) and \"your\" (yours) before a noun: my name, your country.",
+    "phrases": [
+      "I am not...",
+      "Are you...?",
+      "Is he/she...?",
+      "my name / your name"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "I ___ tired today. (negative)",
+        "options": [
+          "am not",
+          "not am",
+          "isn't",
+          "aren't"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ you from Italy?",
+        "options": [
+          "Is",
+          "Am",
+          "Are",
+          "Be"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ she happy today?",
+        "options": [
+          "Are",
+          "Is",
+          "Am",
+          "Do"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is ___ name? (talking to a friend)",
+        "options": [
+          "my",
+          "your",
+          "he",
+          "is"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-about-me-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "about-me",
+    "title": "Feelings and Countries",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 25,
+    "estimatedMinutes": 6,
+    "description": "Words to describe age, countries and feelings.",
+    "intro": "Words to describe age, countries and feelings.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Happy",
+        "translation": "Feliz",
+        "example": "I am happy today."
+      },
+      {
+        "word": "Sad",
+        "translation": "Triste",
+        "example": "She is a little sad."
+      },
+      {
+        "word": "Tired",
+        "translation": "Cansado/a",
+        "example": "I am not tired."
+      },
+      {
+        "word": "Country",
+        "translation": "País",
+        "example": "What country are you from?"
+      },
+      {
+        "word": "Age",
+        "translation": "Edad",
+        "example": "What is your age?"
+      },
+      {
+        "word": "Years old",
+        "translation": "Años (de edad)",
+        "example": "I am eleven years old."
+      },
+      {
+        "word": "Fine",
+        "translation": "Bien",
+        "example": "I am fine, thank you."
+      },
+      {
+        "word": "Student",
+        "translation": "Estudiante",
+        "example": "I am a student."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Happy\" mean?",
+        "options": [
+          "Triste",
+          "Feliz",
+          "Cansado",
+          "País"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Tired\" mean?",
+        "options": [
+          "Cansado/a",
+          "Feliz",
+          "Edad",
+          "Bien"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Country\" mean?",
+        "options": [
+          "Estudiante",
+          "Edad",
+          "País",
+          "Triste"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-family-and-friends-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "family-and-friends",
+    "title": "My Family",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 30,
+    "estimatedMinutes": 10,
+    "description": "A short text about Ana's family members.",
+    "intro": "A short text about Ana's family members.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "My Family",
+      "text": "This is my family. My mother's name is Carmen, and my father's name is Julio. I have one sister and one brother. My sister's name is Sofia; she is sixteen. My brother's name is Marco; he is nine. My grandmother lives with us too. Her name is Rosa, and she is very kind. We are a happy family.",
+      "questions": [
+        "What is the mother's name?",
+        "How many brothers and sisters does the writer have?",
+        "Who lives with the family besides the parents?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is the father's name?",
+        "options": [
+          "Marco",
+          "Julio",
+          "Rosa",
+          "Sofia"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How old is the sister?",
+        "options": [
+          "Nine",
+          "Twelve",
+          "Sixteen",
+          "Twenty"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who is Rosa?",
+        "options": [
+          "The mother",
+          "The sister",
+          "The grandmother",
+          "A friend"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-family-and-friends-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "family-and-friends",
+    "title": "This Is My Brother",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 31,
+    "estimatedMinutes": 10,
+    "description": "Listen to Ana introducing her brother to a friend.",
+    "intro": "Listen to Ana showing a photo of her family to her friend Leo and introducing her brother.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "This is my...",
+      "Who is this?",
+      "Do you have a...?",
+      "My brother/sister is..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Leo",
+        "line": "Is this your family, Ana?",
+        "translation": "¿Esta es tu familia, Ana?"
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes! This is my mother and this is my father.",
+        "translation": "Sí, esta es mi madre y este es mi padre."
+      },
+      {
+        "speaker": "Leo",
+        "line": "And who is this boy?",
+        "translation": "¿Y quién es este niño?"
+      },
+      {
+        "speaker": "Ana",
+        "line": "That's my brother, Marco. He is nine years old.",
+        "translation": "Ese es mi hermano, Marco. Tiene nueve años."
+      },
+      {
+        "speaker": "Leo",
+        "line": "Do you have a sister too?",
+        "translation": "¿También tienes una hermana?"
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, my sister's name is Sofia.",
+        "translation": "Sí, mi hermana se llama Sofia."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is the brother's name?",
+        "options": [
+          "Leo",
+          "Marco",
+          "Julio",
+          "Sofia"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How old is the brother?",
+        "options": [
+          "Six",
+          "Nine",
+          "Eleven",
+          "Sixteen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does Ana have besides a brother?",
+        "options": [
+          "A dog",
+          "A sister",
+          "A cousin",
+          "Nothing else"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-family-and-friends-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "family-and-friends",
+    "title": "Describe Your Family",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 32,
+    "estimatedMinutes": 8,
+    "description": "Practice talking about the people in your family.",
+    "intro": "Practice talking about the people in your family.",
+    "mission": "Tell a partner about two people in your family: who they are and one thing about them.",
+    "grammar": "",
+    "phrases": [
+      "This is my mother/father.",
+      "I have a sister/brother.",
+      "His/Her name is...",
+      "He/She is ... years old."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "You",
+        "line": "I have a sister. Her name is...",
+        "translation": "Tengo una hermana. Se llama..."
+      },
+      {
+        "speaker": "Partner",
+        "line": "How old is she?",
+        "translation": "¿Cuántos años tiene?"
+      },
+      {
+        "speaker": "You",
+        "line": "She is ... years old.",
+        "translation": "Tiene ... años."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Say out loud two sentences about a family member (name and age or one detail)."
+      },
+      {
+        "type": "practice",
+        "prompt": "Ask a partner \"Do you have a sister or brother?\" and listen to their answer."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-family-and-friends-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "family-and-friends",
+    "title": "Write About Your Family",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 33,
+    "estimatedMinutes": 12,
+    "description": "Write a short paragraph describing your family.",
+    "intro": "Write a short paragraph describing your family.",
+    "mission": "Write 3-4 sentences describing your family: who is in it and one detail about each person.",
+    "grammar": "",
+    "phrases": [
+      "This is my...",
+      "I have a...",
+      "...'s name is...",
+      "He/She is ... years old."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "This is my family. I have one sister. My sister's name is Sofia. She is sixteen years old.",
+        "translation": "Esta es mi familia. Tengo una hermana. Mi hermana se llama Sofia. Tiene dieciséis años."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Write 3-4 sentences describing your family members and one detail about each."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-family-and-friends-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "family-and-friends",
+    "title": "Possessive 's and Plural Nouns",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 34,
+    "estimatedMinutes": 8,
+    "description": "Learn how to show who something belongs to and how to make plurals.",
+    "intro": "Learn how to show who something belongs to and how to make plurals.",
+    "mission": "",
+    "grammar": "We add 's to a name or person to show possession: Ana's brother, my sister's name. To make most nouns plural, add -s: one brother → two brothers, one friend → three friends. Some plurals are irregular: one child → two children.",
+    "phrases": [
+      "Ana's brother",
+      "my sister's name",
+      "two brothers",
+      "three friends"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How do you say the name belonging to Ana's mother?",
+        "options": [
+          "Ana mother name",
+          "Ana's mother's name",
+          "Ana is mother name",
+          "Mother's Ana name"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the plural of \"friend\"?",
+        "options": [
+          "friend",
+          "friends",
+          "friendes",
+          "friendies"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the plural of \"child\"?",
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "child"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the correct sentence.",
+        "options": [
+          "This is my sister brother.",
+          "This is my sister's brother.",
+          "This is my sisters brother.",
+          "This my sister's is brother."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-family-and-friends-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "family-and-friends",
+    "title": "Family Members",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 35,
+    "estimatedMinutes": 6,
+    "description": "Words for the people in your family.",
+    "intro": "Words for the people in your family.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Mother",
+        "translation": "Madre",
+        "example": "My mother's name is Carmen."
+      },
+      {
+        "word": "Father",
+        "translation": "Padre",
+        "example": "My father works at a school."
+      },
+      {
+        "word": "Sister",
+        "translation": "Hermana",
+        "example": "My sister is sixteen years old."
+      },
+      {
+        "word": "Brother",
+        "translation": "Hermano",
+        "example": "My brother is nine."
+      },
+      {
+        "word": "Grandmother",
+        "translation": "Abuela",
+        "example": "My grandmother is very kind."
+      },
+      {
+        "word": "Grandfather",
+        "translation": "Abuelo",
+        "example": "My grandfather tells great stories."
+      },
+      {
+        "word": "Cousin",
+        "translation": "Primo/a",
+        "example": "My cousin lives in Santiago."
+      },
+      {
+        "word": "Family",
+        "translation": "Familia",
+        "example": "We are a happy family."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Brother\" mean?",
+        "options": [
+          "Hermana",
+          "Hermano",
+          "Padre",
+          "Primo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Grandmother\" mean?",
+        "options": [
+          "Abuelo",
+          "Madre",
+          "Abuela",
+          "Prima"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Cousin\" mean?",
+        "options": [
+          "Primo/a",
+          "Hermano",
+          "Padre",
+          "Familia"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-school-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "my-school",
+    "title": "My Classroom",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 40,
+    "estimatedMinutes": 10,
+    "description": "A short text describing a classroom and school subjects.",
+    "intro": "A short text describing a classroom and school subjects.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "My Classroom",
+      "text": "My classroom is big and bright. There is a whiteboard, a teacher's desk, and twenty student desks. There are books, pencils, and a big clock on the wall. My favorite subject is English, but I also like Math and Art. There isn't a computer in my classroom, but there is a computer lab at school. I like my school very much.",
+      "questions": [
+        "What is on the wall of the classroom?",
+        "What is the writer's favorite subject?",
+        "Where is the computer?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is on the wall?",
+        "options": [
+          "A window",
+          "A clock",
+          "A door",
+          "A map"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the favorite subject?",
+        "options": [
+          "Math",
+          "Art",
+          "English",
+          "Science"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Where is the computer?",
+        "options": [
+          "In the classroom",
+          "At home",
+          "In the computer lab",
+          "There is no computer"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-school-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "my-school",
+    "title": "What's in Your Bag?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 41,
+    "estimatedMinutes": 10,
+    "description": "Listen to two classmates checking their school bags.",
+    "intro": "Listen to Sofia and Marco talking about what is in their school bags before class.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Do you have a...?",
+      "Can I borrow...?",
+      "Here you are.",
+      "Is there a... in your bag?"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Do you have a pencil, Marco?",
+        "translation": "¿Tienes un lápiz, Marco?"
+      },
+      {
+        "speaker": "Marco",
+        "line": "Yes, I have two pencils and a pen.",
+        "translation": "Sí, tengo dos lápices y un bolígrafo."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Great, can I borrow one, please?",
+        "translation": "Genial, ¿me prestas uno, por favor?"
+      },
+      {
+        "speaker": "Marco",
+        "line": "Sure, here you are.",
+        "translation": "Claro, aquí tienes."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Thank you! Is there a notebook in your bag too?",
+        "translation": "¡Gracias! ¿Hay también un cuaderno en tu mochila?"
+      },
+      {
+        "speaker": "Marco",
+        "line": "Yes, there is one notebook and one book.",
+        "translation": "Sí, hay un cuaderno y un libro."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How many pencils does Marco have?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "None"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does Sofia ask to borrow?",
+        "options": [
+          "A book",
+          "A pencil",
+          "A notebook",
+          "A pen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What else is in Marco's bag?",
+        "options": [
+          "A notebook and a book",
+          "A ruler",
+          "A computer",
+          "Nothing else"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-school-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "my-school",
+    "title": "What's in Your Bag?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 42,
+    "estimatedMinutes": 8,
+    "description": "Practice asking and answering about school objects.",
+    "intro": "Practice asking and answering about school objects.",
+    "mission": "Ask a partner what is in their school bag and answer about your own bag.",
+    "grammar": "",
+    "phrases": [
+      "Do you have a...?",
+      "There is a... / There are...",
+      "Can I borrow...?",
+      "My favorite subject is..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "You",
+        "line": "What is in your bag?",
+        "translation": "¿Qué hay en tu mochila?"
+      },
+      {
+        "speaker": "Partner",
+        "line": "There is a notebook and two pens.",
+        "translation": "Hay un cuaderno y dos bolígrafos."
+      },
+      {
+        "speaker": "You",
+        "line": "What is your favorite subject?",
+        "translation": "¿Cuál es tu materia favorita?"
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Say out loud three school objects that are in your bag."
+      },
+      {
+        "type": "practice",
+        "prompt": "Ask a partner \"What is your favorite subject?\" and tell them yours."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-school-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "my-school",
+    "title": "Write About Your Classroom",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 43,
+    "estimatedMinutes": 12,
+    "description": "Write sentences describing your classroom and favorite subject.",
+    "intro": "Write sentences describing your classroom and favorite subject.",
+    "mission": "Write 3-4 sentences describing your classroom (what is in it) and your favorite subject.",
+    "grammar": "",
+    "phrases": [
+      "There is a...",
+      "There are...",
+      "My favorite subject is...",
+      "I like..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "There is a whiteboard and there are twenty desks in my classroom. My favorite subject is English.",
+        "translation": "Hay una pizarra y hay veinte pupitres en mi salón. Mi materia favorita es inglés."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Write 3-4 sentences about your classroom and your favorite subject, using \"There is/There are\"."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-school-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "my-school",
+    "title": "There Is / There Are + Articles",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 44,
+    "estimatedMinutes": 8,
+    "description": "Learn to say what exists using there is / there are, and a / an / the.",
+    "intro": "Learn to say what exists using there is / there are, and a / an / the.",
+    "mission": "",
+    "grammar": "We use \"there is\" with singular nouns and \"there are\" with plural nouns: There is a clock. There are twenty desks. Use \"a\" before a consonant sound (a pen) and \"an\" before a vowel sound (an eraser). Use \"the\" when both speakers know exactly which thing we mean: the whiteboard (the one in our classroom).",
+    "phrases": [
+      "There is a...",
+      "There are...",
+      "a pencil / an eraser",
+      "the classroom"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "___ a computer lab at school.",
+        "options": [
+          "There is",
+          "There are",
+          "Is there",
+          "It is"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ twenty students in my class.",
+        "options": [
+          "There is",
+          "There are",
+          "Is there",
+          "It are"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I have ___ eraser in my bag.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "some"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I have ___ pencil.",
+        "options": [
+          "a",
+          "an",
+          "are",
+          "is"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-school-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "my-school",
+    "title": "School Objects and Subjects",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 45,
+    "estimatedMinutes": 6,
+    "description": "Words for classroom objects and school subjects.",
+    "intro": "Words for classroom objects and school subjects.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Classroom",
+        "translation": "Salón de clases",
+        "example": "My classroom is big."
+      },
+      {
+        "word": "Pencil",
+        "translation": "Lápiz",
+        "example": "I have two pencils."
+      },
+      {
+        "word": "Notebook",
+        "translation": "Cuaderno",
+        "example": "Write it in your notebook."
+      },
+      {
+        "word": "Whiteboard",
+        "translation": "Pizarra",
+        "example": "The teacher writes on the whiteboard."
+      },
+      {
+        "word": "Subject",
+        "translation": "Materia",
+        "example": "English is my favorite subject."
+      },
+      {
+        "word": "Desk",
+        "translation": "Pupitre / escritorio",
+        "example": "There are twenty desks."
+      },
+      {
+        "word": "Homework",
+        "translation": "Tarea",
+        "example": "I do my homework after school."
+      },
+      {
+        "word": "Book",
+        "translation": "Libro",
+        "example": "Open your book, please."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Notebook\" mean?",
+        "options": [
+          "Cuaderno",
+          "Lápiz",
+          "Pizarra",
+          "Libro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Subject\" mean?",
+        "options": [
+          "Salón",
+          "Materia",
+          "Pupitre",
+          "Tarea"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Homework\" mean?",
+        "options": [
+          "Tarea",
+          "Libro",
+          "Cuaderno",
+          "Pizarra"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-daily-routine-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "daily-routine",
+    "title": "A Normal Day",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 50,
+    "estimatedMinutes": 10,
+    "description": "A short text about Ana's daily routine.",
+    "intro": "A short text about Ana's daily routine.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "A Normal Day",
+      "text": "Every day, I get up at seven o'clock. I brush my teeth and eat breakfast with my family. Then I walk to school with my friend Sofia. School starts at eight o'clock. After school, I do my homework and I play with my brother. I have dinner at seven in the evening, and I go to bed at nine thirty. I always sleep well!",
+      "questions": [
+        "What time does the writer get up?",
+        "Who does she walk to school with?",
+        "What time does she go to bed?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What time does she get up?",
+        "options": [
+          "Six o'clock",
+          "Seven o'clock",
+          "Eight o'clock",
+          "Nine o'clock"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does she do after school?",
+        "options": [
+          "She sleeps",
+          "She eats breakfast",
+          "She does homework and plays",
+          "She goes to work"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What time does she go to bed?",
+        "options": [
+          "Seven o'clock",
+          "Eight thirty",
+          "Nine o'clock",
+          "Nine thirty"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-daily-routine-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "daily-routine",
+    "title": "What Time Do You Wake Up?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 51,
+    "estimatedMinutes": 10,
+    "description": "Listen to two friends comparing their daily routines.",
+    "intro": "Listen to Leo and Marco talking about what time they do things every day.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "What time do you...?",
+      "I wake up at...",
+      "I get up at...",
+      "School starts at..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Leo",
+        "line": "What time do you wake up, Marco?",
+        "translation": "¿A qué hora te despiertas, Marco?"
+      },
+      {
+        "speaker": "Marco",
+        "line": "I wake up at six thirty. What about you?",
+        "translation": "Me despierto a las seis y media. ¿Y tú?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "I get up at seven. Then I eat breakfast quickly.",
+        "translation": "Yo me levanto a las siete. Luego desayuno rápido."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Do you walk to school?",
+        "translation": "¿Caminas a la escuela?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "Yes, I walk with my sister every day.",
+        "translation": "Sí, camino con mi hermana todos los días."
+      },
+      {
+        "speaker": "Marco",
+        "line": "I take the bus. School starts at eight.",
+        "translation": "Yo tomo el autobús. La escuela empieza a las ocho."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What time does Marco wake up?",
+        "options": [
+          "Six thirty",
+          "Seven",
+          "Eight",
+          "Nine"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How does Leo go to school?",
+        "options": [
+          "By bus",
+          "By car",
+          "He walks",
+          "By bike"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What time does school start?",
+        "options": [
+          "Six thirty",
+          "Seven",
+          "Eight",
+          "Nine"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-daily-routine-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "daily-routine",
+    "title": "Talk About Your Day",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 52,
+    "estimatedMinutes": 8,
+    "description": "Practice describing your daily routine.",
+    "intro": "Practice describing your daily routine.",
+    "mission": "Tell a partner three things you do every day and what time you do them.",
+    "grammar": "",
+    "phrases": [
+      "I get up at...",
+      "I go to school at...",
+      "I do my homework...",
+      "I go to bed at..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "You",
+        "line": "I get up at... and I eat breakfast at...",
+        "translation": "Me levanto a las... y desayuno a las..."
+      },
+      {
+        "speaker": "Partner",
+        "line": "What time do you go to bed?",
+        "translation": "¿A qué hora te acuestas?"
+      },
+      {
+        "speaker": "You",
+        "line": "I go to bed at...",
+        "translation": "Me acuesto a las..."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Say out loud three things you do every day, with the time for each one."
+      },
+      {
+        "type": "practice",
+        "prompt": "Ask a partner \"What time do you wake up?\" and compare your answers."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-daily-routine-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "daily-routine",
+    "title": "Write Your Daily Routine",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 53,
+    "estimatedMinutes": 12,
+    "description": "Write a short paragraph about your typical day.",
+    "intro": "Write a short paragraph about your typical day.",
+    "mission": "Write 4-5 sentences describing your daily routine, from waking up to going to bed.",
+    "grammar": "",
+    "phrases": [
+      "I get up at...",
+      "After that, I...",
+      "In the evening, I...",
+      "I go to bed at..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "I get up at seven o'clock. I eat breakfast and walk to school. After school, I do my homework. I go to bed at nine thirty.",
+        "translation": "Me levanto a las siete. Desayuno y camino a la escuela. Después de la escuela, hago mi tarea. Me acuesto a las nueve y media."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Write 4-5 sentences describing your daily routine from morning to night."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-daily-routine-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "daily-routine",
+    "title": "Present Simple (Affirmative)",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 54,
+    "estimatedMinutes": 8,
+    "description": "Learn how to talk about habits and daily routines.",
+    "intro": "Learn how to talk about habits and daily routines.",
+    "mission": "",
+    "grammar": "We use the present simple for habits and routines. Add -s to the verb with he/she/it: I get up at seven, but She gets up at seven. I eat breakfast, but He eats breakfast. Time expressions like \"every day\" and \"always\" often go with this tense.",
+    "phrases": [
+      "I get up...",
+      "She gets up...",
+      "I eat breakfast.",
+      "He eats breakfast."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "She ___ up at seven every day.",
+        "options": [
+          "get",
+          "gets",
+          "getting",
+          "to get"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I ___ breakfast at home.",
+        "options": [
+          "eat",
+          "eats",
+          "eating",
+          "ate"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "My brother ___ to school by bus.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "gone"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ dinner at seven in the evening.",
+        "options": [
+          "has",
+          "have",
+          "having",
+          "had"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-daily-routine-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "daily-routine",
+    "title": "Daily Actions",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 55,
+    "estimatedMinutes": 6,
+    "description": "Words and verbs for everyday routines.",
+    "intro": "Words and verbs for everyday routines.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Wake up",
+        "translation": "Despertarse",
+        "example": "I wake up at six thirty."
+      },
+      {
+        "word": "Get up",
+        "translation": "Levantarse",
+        "example": "I get up at seven."
+      },
+      {
+        "word": "Breakfast",
+        "translation": "Desayuno",
+        "example": "I eat breakfast every morning."
+      },
+      {
+        "word": "Walk to school",
+        "translation": "Caminar a la escuela",
+        "example": "I walk to school with Sofia."
+      },
+      {
+        "word": "Homework",
+        "translation": "Tarea",
+        "example": "I do my homework after school."
+      },
+      {
+        "word": "Dinner",
+        "translation": "Cena",
+        "example": "We have dinner at seven."
+      },
+      {
+        "word": "Go to bed",
+        "translation": "Irse a dormir",
+        "example": "I go to bed at nine thirty."
+      },
+      {
+        "word": "Every day",
+        "translation": "Todos los días",
+        "example": "I brush my teeth every day."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Wake up\" mean?",
+        "options": [
+          "Despertarse",
+          "Cenar",
+          "Caminar",
+          "Levantarse"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Dinner\" mean?",
+        "options": [
+          "Desayuno",
+          "Cena",
+          "Tarea",
+          "Escuela"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Go to bed\" mean?",
+        "options": [
+          "Levantarse",
+          "Despertarse",
+          "Irse a dormir",
+          "Caminar"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-time-and-dates-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "time-and-dates",
+    "title": "My Weekly Schedule",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 60,
+    "estimatedMinutes": 10,
+    "description": "A short text about a student's weekly schedule.",
+    "intro": "A short text about a student's weekly schedule.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "My Weekly Schedule",
+      "text": "My English class is on Monday, Wednesday, and Friday at nine o'clock in the morning. My favorite day is Saturday because I don't have school. My birthday is in June, on the fifteenth. This year, my birthday is on a Sunday! In the summer, in July and August, we don't have classes at all.",
+      "questions": [
+        "What days does the writer have English class?",
+        "When is the writer's birthday?",
+        "Which months have no classes?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What time is English class?",
+        "options": [
+          "Eight o'clock",
+          "Nine o'clock",
+          "Ten o'clock",
+          "Noon"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When is the writer's birthday?",
+        "options": [
+          "May 15th",
+          "June 15th",
+          "July 15th",
+          "June 5th"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which day has no school?",
+        "options": [
+          "Monday",
+          "Wednesday",
+          "Friday",
+          "Saturday"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-time-and-dates-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "time-and-dates",
+    "title": "What Time Is It?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 61,
+    "estimatedMinutes": 10,
+    "description": "Listen to two friends checking the time and making plans.",
+    "intro": "Listen to Sofia and Leo talking about what time it is and their plans for the day.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "What time is it?",
+      "It's ... o'clock.",
+      "What day is...?",
+      "It's on..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Excuse me, what time is it?",
+        "translation": "Disculpa, ¿qué hora es?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "It's a quarter past three.",
+        "translation": "Son las tres y cuarto."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Great, my class starts at four o'clock.",
+        "translation": "Genial, mi clase empieza a las cuatro."
+      },
+      {
+        "speaker": "Leo",
+        "line": "What day is your English test?",
+        "translation": "¿Qué día es tu examen de inglés?"
+      },
+      {
+        "speaker": "Sofia",
+        "line": "It's on Friday, at half past ten in the morning.",
+        "translation": "Es el viernes, a las diez y media de la mañana."
+      },
+      {
+        "speaker": "Leo",
+        "line": "Good luck! See you on Friday.",
+        "translation": "¡Buena suerte! Nos vemos el viernes."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What time is it in the dialogue?",
+        "options": [
+          "Three o'clock",
+          "A quarter past three",
+          "Half past three",
+          "Four o'clock"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What day is Sofia's test?",
+        "options": [
+          "Monday",
+          "Wednesday",
+          "Friday",
+          "Sunday"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What time is the test?",
+        "options": [
+          "Ten o'clock",
+          "Half past ten",
+          "Quarter past ten",
+          "Eleven o'clock"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-time-and-dates-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "time-and-dates",
+    "title": "Ask About Time and Dates",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 62,
+    "estimatedMinutes": 8,
+    "description": "Practice asking and telling the time and days.",
+    "intro": "Practice asking and telling the time and days.",
+    "mission": "Ask a partner what time it is and what day their favorite class is.",
+    "grammar": "",
+    "phrases": [
+      "What time is it?",
+      "It's ... o'clock.",
+      "What day is it today?",
+      "My favorite day is..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "You",
+        "line": "What time is it?",
+        "translation": "¿Qué hora es?"
+      },
+      {
+        "speaker": "Partner",
+        "line": "It's half past ten.",
+        "translation": "Son las diez y media."
+      },
+      {
+        "speaker": "You",
+        "line": "What is your favorite day of the week?",
+        "translation": "¿Cuál es tu día favorito de la semana?"
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Say the current time out loud in English, and your favorite day of the week."
+      },
+      {
+        "type": "practice",
+        "prompt": "Ask a partner \"What time is your favorite class?\" and answer their question too."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-time-and-dates-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "time-and-dates",
+    "title": "Write Your Weekly Schedule",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 63,
+    "estimatedMinutes": 12,
+    "description": "Write sentences about your school days and your birthday.",
+    "intro": "Write sentences about your school days and your birthday.",
+    "mission": "Write 3-4 sentences about which days you have classes and when your birthday is.",
+    "grammar": "",
+    "phrases": [
+      "My class is on...",
+      "at ... o'clock",
+      "My birthday is in...",
+      "on the ___ of ___"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "My English class is on Monday and Wednesday at nine o'clock. My birthday is in June.",
+        "translation": "Mi clase de inglés es el lunes y el miércoles a las nueve. Mi cumpleaños es en junio."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Write 3-4 sentences about your school days, the time, and your birthday month."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-time-and-dates-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "time-and-dates",
+    "title": "Prepositions of Time: at / on / in",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 64,
+    "estimatedMinutes": 8,
+    "description": "Learn when to use at, on and in with times, days and months.",
+    "intro": "Learn when to use at, on and in with times, days and months.",
+    "mission": "",
+    "grammar": "Use \"at\" with exact times: at seven o'clock, at noon. Use \"on\" with days and dates: on Monday, on June 15th. Use \"in\" with months, years and longer periods: in June, in the morning, in summer. Questions with these use \"What time...?\" and \"What day...?\".",
+    "phrases": [
+      "at seven o'clock",
+      "on Monday",
+      "in June",
+      "in the morning"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "My class starts ___ nine o'clock.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "by"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "My birthday is ___ June.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "by"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We have English ___ Monday.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "by"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I do my homework ___ the evening.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "by"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-time-and-dates-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "time-and-dates",
+    "title": "Days, Months and Time Words",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 65,
+    "estimatedMinutes": 6,
+    "description": "Words for telling time and talking about dates.",
+    "intro": "Words for telling time and talking about dates.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "O'clock",
+        "translation": "En punto",
+        "example": "It's three o'clock."
+      },
+      {
+        "word": "Quarter past",
+        "translation": "Y cuarto",
+        "example": "It's a quarter past three."
+      },
+      {
+        "word": "Half past",
+        "translation": "Y media",
+        "example": "It's half past ten."
+      },
+      {
+        "word": "Monday",
+        "translation": "Lunes",
+        "example": "I have class on Monday."
+      },
+      {
+        "word": "Weekend",
+        "translation": "Fin de semana",
+        "example": "I don't have school on the weekend."
+      },
+      {
+        "word": "Birthday",
+        "translation": "Cumpleaños",
+        "example": "My birthday is in June."
+      },
+      {
+        "word": "Month",
+        "translation": "Mes",
+        "example": "What month were you born?"
+      },
+      {
+        "word": "Today",
+        "translation": "Hoy",
+        "example": "Today is Friday."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Weekend\" mean?",
+        "options": [
+          "Semana",
+          "Fin de semana",
+          "Cumpleaños",
+          "Mes"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Half past\" mean?",
+        "options": [
+          "En punto",
+          "Y cuarto",
+          "Y media",
+          "Menos cuarto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Birthday\" mean?",
+        "options": [
+          "Cumpleaños",
+          "Hoy",
+          "Mes",
+          "Lunes"
+        ]
       }
     ]
   },
@@ -1600,6 +2904,7 @@
     "slug": "english-a2-listening",
     "level": "A2",
     "skill": "listening",
+    "unitId": null,
     "title": "English A2 · Listening Lab",
     "accessTier": "free",
     "isFree": true,
@@ -1770,9 +3075,406 @@
     ]
   },
   {
+    "slug": "english-a1-food-and-drinks-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "food-and-drinks",
+    "title": "Lunch at School",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 70,
+    "estimatedMinutes": 10,
+    "description": "A short text about what a student eats for lunch.",
+    "intro": "A short text about what a student eats for lunch.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Lunch at School",
+      "text": "At lunchtime, I usually eat rice, chicken, and some vegetables. I love fruit, especially bananas and mangoes. I don't like fish very much, but my brother loves it. For drinks, I have some water or juice. I don't drink coffee because it's only for adults. On Fridays, we sometimes have pizza, and everybody is happy!",
+      "questions": [
+        "What does the writer usually eat for lunch?",
+        "What fruit does the writer love?",
+        "What do they eat on Fridays?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does the writer usually eat?",
+        "options": [
+          "Pizza",
+          "Rice, chicken and vegetables",
+          "Only fruit",
+          "Fish and rice"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who loves fish?",
+        "options": [
+          "The writer",
+          "The brother",
+          "Nobody",
+          "The teacher"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do they have on Fridays?",
+        "options": [
+          "Fish",
+          "Coffee",
+          "Pizza",
+          "Soup"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-food-and-drinks-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "food-and-drinks",
+    "title": "What Would You Like?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 71,
+    "estimatedMinutes": 10,
+    "description": "Listen to a short conversation at a small restaurant.",
+    "intro": "Listen to a waiter and a customer ordering food and drinks at a restaurant.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "I'd like...",
+      "Would you like...?",
+      "Do you like...?",
+      "I love / I don't like..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Waiter",
+        "line": "Good afternoon! What would you like to eat?",
+        "translation": "¡Buenas tardes! ¿Qué le gustaría comer?"
+      },
+      {
+        "speaker": "Customer",
+        "line": "I'd like some rice and chicken, please.",
+        "translation": "Quisiera arroz y pollo, por favor."
+      },
+      {
+        "speaker": "Waiter",
+        "line": "And would you like something to drink?",
+        "translation": "¿Y algo para beber?"
+      },
+      {
+        "speaker": "Customer",
+        "line": "Yes, some water, please. No sugar.",
+        "translation": "Sí, agua, por favor. Sin azúcar."
+      },
+      {
+        "speaker": "Waiter",
+        "line": "Do you like fruit? We have mangoes today.",
+        "translation": "¿Le gusta la fruta? Hoy tenemos mangos."
+      },
+      {
+        "speaker": "Customer",
+        "line": "Yes, I love mangoes! One, please.",
+        "translation": "Sí, ¡me encantan los mangos! Uno, por favor."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does the customer order to eat?",
+        "options": [
+          "Fish and salad",
+          "Rice and chicken",
+          "Pizza",
+          "Soup"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does the customer drink?",
+        "options": [
+          "Juice",
+          "Coffee",
+          "Water",
+          "Milk"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Does the customer like mangoes?",
+        "options": [
+          "Yes",
+          "No",
+          "They don't say",
+          "They are allergic"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-food-and-drinks-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "food-and-drinks",
+    "title": "Order Food and Drinks",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 72,
+    "estimatedMinutes": 8,
+    "description": "Practice ordering food like at a restaurant.",
+    "intro": "Practice ordering food like at a restaurant.",
+    "mission": "Act out a short restaurant scene: order one food and one drink, and say if you like fruit.",
+    "grammar": "",
+    "phrases": [
+      "I'd like...",
+      "Can I have...?",
+      "I like / I don't like...",
+      "No sugar, please."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "You",
+        "line": "I'd like some rice and chicken, please.",
+        "translation": "Quisiera arroz y pollo, por favor."
+      },
+      {
+        "speaker": "Partner",
+        "line": "Would you like something to drink?",
+        "translation": "¿Algo para tomar?"
+      },
+      {
+        "speaker": "You",
+        "line": "Yes, some juice, please.",
+        "translation": "Sí, jugo, por favor."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Say out loud what food and drink you would like to order at a restaurant."
+      },
+      {
+        "type": "practice",
+        "prompt": "Practice the restaurant dialogue with a partner, then switch roles (waiter/customer)."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-food-and-drinks-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "food-and-drinks",
+    "title": "Write About Your Favorite Food",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 73,
+    "estimatedMinutes": 12,
+    "description": "Write sentences about food and drinks you like and don't like.",
+    "intro": "Write sentences about food and drinks you like and don't like.",
+    "mission": "Write 3-4 sentences about your favorite food, a food you don't like, and your favorite drink.",
+    "grammar": "",
+    "phrases": [
+      "My favorite food is...",
+      "I like...",
+      "I don't like...",
+      "My favorite drink is..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "My favorite food is pizza. I like fruit, but I don't like fish. My favorite drink is juice.",
+        "translation": "Mi comida favorita es la pizza. Me gusta la fruta, pero no me gusta el pescado. Mi bebida favorita es el jugo."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Write 3-4 sentences about the food and drinks you like and don't like."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-food-and-drinks-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "food-and-drinks",
+    "title": "Some, Any and Countable/Uncountable Nouns",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 74,
+    "estimatedMinutes": 8,
+    "description": "Learn how to talk about food using some, any, and countable/uncountable nouns.",
+    "intro": "Learn how to talk about food using some, any, and countable/uncountable nouns.",
+    "mission": "",
+    "grammar": "Countable nouns can be counted: one banana, two bananas. Uncountable nouns cannot: rice, water, juice (we don't say \"one rice\"). We use \"some\" in affirmative sentences (I'd like some water) and \"any\" in negatives and questions (I don't have any juice. Do you have any bananas?).",
+    "phrases": [
+      "some water",
+      "any juice",
+      "one banana / two bananas",
+      "I'd like some..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "I'd like ___ rice, please.",
+        "options": [
+          "some",
+          "any",
+          "a",
+          "many"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I don't have ___ juice at home.",
+        "options": [
+          "some",
+          "any",
+          "a",
+          "an"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which word can we count? \"I have two ___.\"",
+        "options": [
+          "water",
+          "rice",
+          "bananas",
+          "juice"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Do you have ___ bananas?",
+        "options": [
+          "some",
+          "any",
+          "a",
+          "the"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-food-and-drinks-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "food-and-drinks",
+    "title": "Food and Drink Words",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 75,
+    "estimatedMinutes": 6,
+    "description": "Common words for food and drinks.",
+    "intro": "Common words for food and drinks.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Rice",
+        "translation": "Arroz",
+        "example": "I usually eat rice for lunch."
+      },
+      {
+        "word": "Chicken",
+        "translation": "Pollo",
+        "example": "She likes chicken with vegetables."
+      },
+      {
+        "word": "Fruit",
+        "translation": "Fruta",
+        "example": "I love fruit, especially mangoes."
+      },
+      {
+        "word": "Vegetables",
+        "translation": "Verduras",
+        "example": "Vegetables are good for you."
+      },
+      {
+        "word": "Water",
+        "translation": "Agua",
+        "example": "Can I have some water, please?"
+      },
+      {
+        "word": "Juice",
+        "translation": "Jugo",
+        "example": "I like orange juice."
+      },
+      {
+        "word": "Breakfast",
+        "translation": "Desayuno",
+        "example": "What do you eat for breakfast?"
+      },
+      {
+        "word": "Hungry",
+        "translation": "Tener hambre",
+        "example": "I am hungry, let's eat."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Vegetables\" mean?",
+        "options": [
+          "Verduras",
+          "Fruta",
+          "Pollo",
+          "Arroz"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Hungry\" mean?",
+        "options": [
+          "Tener sed",
+          "Tener hambre",
+          "Comer",
+          "Beber"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Juice\" mean?",
+        "options": [
+          "Agua",
+          "Leche",
+          "Jugo",
+          "Café"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-speaking",
     "level": "A2",
     "skill": "speaking",
+    "unitId": null,
     "title": "English A2 · Speaking Mission",
     "accessTier": "free",
     "isFree": true,
@@ -1943,9 +3645,406 @@
     ]
   },
   {
+    "slug": "english-a1-my-home-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "my-home",
+    "title": "My House",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 80,
+    "estimatedMinutes": 10,
+    "description": "A short text describing the rooms in a house.",
+    "intro": "A short text describing the rooms in a house.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "My House",
+      "text": "My house has five rooms: a kitchen, a living room, two bedrooms, and a bathroom. In my bedroom, there is a bed, a desk, and a small closet. My favorite room is the living room because there is a big sofa and a television. Our cat, Luna, is usually under the table in the kitchen. I love my home.",
+      "questions": [
+        "How many rooms does the house have?",
+        "What is in the writer's bedroom?",
+        "Where is the cat usually?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How many bedrooms are there?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the favorite room?",
+        "options": [
+          "The kitchen",
+          "The bedroom",
+          "The living room",
+          "The bathroom"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Where is Luna the cat usually?",
+        "options": [
+          "On the bed",
+          "Under the table",
+          "In the closet",
+          "On the sofa"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-home-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "my-home",
+    "title": "Where Is My Backpack?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 81,
+    "estimatedMinutes": 10,
+    "description": "Listen to a family looking for a missing backpack.",
+    "intro": "Listen to Marco asking his mother where his backpack is before school.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Where is my...?",
+      "Is it under/next to...?",
+      "It's in the...",
+      "It's here!"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Marco",
+        "line": "Mom, where is my backpack?",
+        "translation": "Mamá, ¿dónde está mi mochila?"
+      },
+      {
+        "speaker": "Mother",
+        "line": "Is it under your bed?",
+        "translation": "¿Está debajo de tu cama?"
+      },
+      {
+        "speaker": "Marco",
+        "line": "No, it isn't there.",
+        "translation": "No, no está ahí."
+      },
+      {
+        "speaker": "Mother",
+        "line": "Look next to the door, in the living room.",
+        "translation": "Mira al lado de la puerta, en la sala."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Yes! It's here, next to the sofa!",
+        "translation": "¡Sí! Está aquí, al lado del sofá."
+      },
+      {
+        "speaker": "Mother",
+        "line": "Good. Now put your shoes on!",
+        "translation": "Bien. ¡Ahora ponte los zapatos!"
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Where does Marco look first?",
+        "options": [
+          "In the kitchen",
+          "Under his bed",
+          "In the bathroom",
+          "In the closet"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Where is the backpack finally?",
+        "options": [
+          "Under the bed",
+          "In the kitchen",
+          "Next to the sofa",
+          "In the bedroom"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does the mother say at the end?",
+        "options": [
+          "Eat breakfast",
+          "Put your shoes on",
+          "Go to bed",
+          "Do your homework"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-home-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "my-home",
+    "title": "Describe Your Room",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 82,
+    "estimatedMinutes": 8,
+    "description": "Practice describing where things are in your room.",
+    "intro": "Practice describing where things are in your room.",
+    "mission": "Describe your bedroom to a partner: name two things in it and where they are.",
+    "grammar": "",
+    "phrases": [
+      "There is a... in my room.",
+      "It's next to/under/on the...",
+      "My favorite room is...",
+      "Where is your...?"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "You",
+        "line": "There is a bed and a desk in my room.",
+        "translation": "Hay una cama y un escritorio en mi habitación."
+      },
+      {
+        "speaker": "Partner",
+        "line": "Where is the desk?",
+        "translation": "¿Dónde está el escritorio?"
+      },
+      {
+        "speaker": "You",
+        "line": "It's next to the window.",
+        "translation": "Está al lado de la ventana."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Describe your bedroom out loud: name two objects and where they are."
+      },
+      {
+        "type": "practice",
+        "prompt": "Ask a partner \"What is your favorite room?\" and why."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-home-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "my-home",
+    "title": "Write About Your House",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 83,
+    "estimatedMinutes": 12,
+    "description": "Write sentences describing the rooms in your house.",
+    "intro": "Write sentences describing the rooms in your house.",
+    "mission": "Write 4 sentences describing your house: how many rooms, your favorite room, and where one piece of furniture is.",
+    "grammar": "",
+    "phrases": [
+      "My house has...",
+      "My favorite room is...",
+      "There is a...",
+      "It's in/next to/under..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "My house has four rooms. My favorite room is the living room. There is a big sofa next to the window.",
+        "translation": "Mi casa tiene cuatro habitaciones. Mi habitación favorita es la sala. Hay un sofá grande al lado de la ventana."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Write 4 sentences describing your house, your favorite room, and where one object is."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-home-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "my-home",
+    "title": "Prepositions of Place",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 84,
+    "estimatedMinutes": 8,
+    "description": "Learn in, on, under, next to, and behind to describe where things are.",
+    "intro": "Learn in, on, under, next to, and behind to describe where things are.",
+    "mission": "",
+    "grammar": "Prepositions of place tell us where something is: in (the box), on (the table), under (the bed), next to (the door), behind (the sofa). Example: \"The cat is under the table.\" \"My backpack is next to the sofa.\"",
+    "phrases": [
+      "in the kitchen",
+      "on the table",
+      "under the bed",
+      "next to the door"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "The cat is ___ the table. (below it)",
+        "options": [
+          "on",
+          "in",
+          "under",
+          "next to"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "My books are ___ the desk. (on top of it)",
+        "options": [
+          "on",
+          "under",
+          "behind",
+          "in"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "The backpack is ___ the sofa. (at the side of it)",
+        "options": [
+          "under",
+          "on",
+          "next to",
+          "in"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "My clothes are ___ the closet. (inside it)",
+        "options": [
+          "in",
+          "on",
+          "under",
+          "next to"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-home-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "my-home",
+    "title": "Rooms and Furniture",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 85,
+    "estimatedMinutes": 6,
+    "description": "Words for rooms and furniture in a house.",
+    "intro": "Words for rooms and furniture in a house.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Kitchen",
+        "translation": "Cocina",
+        "example": "We eat breakfast in the kitchen."
+      },
+      {
+        "word": "Bedroom",
+        "translation": "Dormitorio",
+        "example": "My bedroom is small but nice."
+      },
+      {
+        "word": "Living room",
+        "translation": "Sala",
+        "example": "We watch TV in the living room."
+      },
+      {
+        "word": "Bathroom",
+        "translation": "Baño",
+        "example": "The bathroom is next to my room."
+      },
+      {
+        "word": "Bed",
+        "translation": "Cama",
+        "example": "My bed is next to the window."
+      },
+      {
+        "word": "Sofa",
+        "translation": "Sofá",
+        "example": "The cat sleeps on the sofa."
+      },
+      {
+        "word": "Closet",
+        "translation": "Clóset / armario",
+        "example": "My clothes are in the closet."
+      },
+      {
+        "word": "Table",
+        "translation": "Mesa",
+        "example": "The books are on the table."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Bedroom\" mean?",
+        "options": [
+          "Cocina",
+          "Dormitorio",
+          "Sala",
+          "Baño"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Closet\" mean?",
+        "options": [
+          "Mesa",
+          "Cama",
+          "Clóset / armario",
+          "Sofá"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Living room\" mean?",
+        "options": [
+          "Sala",
+          "Baño",
+          "Cocina",
+          "Dormitorio"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-reading",
     "level": "A2",
     "skill": "reading",
+    "unitId": null,
     "title": "English A2 · Reading Quest",
     "accessTier": "free",
     "isFree": true,
@@ -2116,9 +4215,406 @@
     ]
   },
   {
+    "slug": "english-a1-my-town-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "my-town",
+    "title": "My Neighborhood",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 90,
+    "estimatedMinutes": 10,
+    "description": "A short text about the places near a student's home.",
+    "intro": "A short text about the places near a student's home.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "My Neighborhood",
+      "text": "There is a small park near my house, and I play there with my friends. There is also a supermarket, a bakery, and a pharmacy on my street. My school is not far; it is only a ten-minute walk. On Saturdays, my family goes to the market to buy fresh fruit and vegetables. I like my neighborhood because everything is close.",
+      "questions": [
+        "What places are on the writer's street?",
+        "How far is the school?",
+        "What do they buy at the market?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is near the writer's house?",
+        "options": [
+          "A beach",
+          "A park",
+          "A mountain",
+          "A river"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How far is the school?",
+        "options": [
+          "A ten-minute walk",
+          "One hour",
+          "Very far",
+          "They don't say"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Where do they buy fruit and vegetables?",
+        "options": [
+          "The bakery",
+          "The pharmacy",
+          "The market",
+          "The school"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-town-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "my-town",
+    "title": "Excuse Me, Where Is the Bank?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 91,
+    "estimatedMinutes": 10,
+    "description": "Listen to someone asking for directions in town.",
+    "intro": "Listen to a tourist asking a local person for directions to the bank.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Excuse me, where is...?",
+      "Go straight.",
+      "Turn left/right.",
+      "Is it far?"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Tourist",
+        "line": "Excuse me, where is the bank, please?",
+        "translation": "Disculpe, ¿dónde está el banco, por favor?"
+      },
+      {
+        "speaker": "Local",
+        "line": "Go straight and turn left at the supermarket.",
+        "translation": "Siga derecho y doble a la izquierda en el supermercado."
+      },
+      {
+        "speaker": "Tourist",
+        "line": "Turn left at the supermarket. Is it far?",
+        "translation": "Doblar a la izquierda en el supermercado. ¿Está lejos?"
+      },
+      {
+        "speaker": "Local",
+        "line": "No, it's not far. It's next to the park.",
+        "translation": "No, no está lejos. Está al lado del parque."
+      },
+      {
+        "speaker": "Tourist",
+        "line": "Thank you very much!",
+        "translation": "¡Muchas gracias!"
+      },
+      {
+        "speaker": "Local",
+        "line": "You're welcome. Have a nice day!",
+        "translation": "De nada. ¡Que tenga un buen día!"
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is the tourist looking for?",
+        "options": [
+          "A park",
+          "A bank",
+          "A school",
+          "A market"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Where should the tourist turn left?",
+        "options": [
+          "At the park",
+          "At the bakery",
+          "At the supermarket",
+          "At the school"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Is the bank far?",
+        "options": [
+          "Yes, very far",
+          "No, it's close",
+          "They don't know",
+          "It's closed"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-town-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "my-town",
+    "title": "Ask for Directions",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 92,
+    "estimatedMinutes": 8,
+    "description": "Practice asking for and giving simple directions.",
+    "intro": "Practice asking for and giving simple directions.",
+    "mission": "Ask a partner for directions to a place in your town and give them directions to another place.",
+    "grammar": "",
+    "phrases": [
+      "Excuse me, where is...?",
+      "Go straight.",
+      "Turn left/right.",
+      "It's next to/near..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "You",
+        "line": "Excuse me, where is the supermarket?",
+        "translation": "Disculpe, ¿dónde está el supermercado?"
+      },
+      {
+        "speaker": "Partner",
+        "line": "Go straight and turn right. It's next to the park.",
+        "translation": "Siga derecho y doble a la derecha. Está al lado del parque."
+      },
+      {
+        "speaker": "You",
+        "line": "Thank you very much!",
+        "translation": "¡Muchas gracias!"
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Say out loud directions from your house to your school."
+      },
+      {
+        "type": "practice",
+        "prompt": "Practice asking \"Where is the...?\" and giving directions with a partner, then switch roles."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-town-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "my-town",
+    "title": "Write About Your Neighborhood",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 93,
+    "estimatedMinutes": 12,
+    "description": "Write sentences describing the places near your home.",
+    "intro": "Write sentences describing the places near your home.",
+    "mission": "Write 3-4 sentences about the places near your house and how far your school is.",
+    "grammar": "",
+    "phrases": [
+      "There is a... near my house.",
+      "It's next to...",
+      "My school is a ... walk.",
+      "I like my neighborhood because..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "There is a park near my house. There is also a supermarket next to the park. My school is a ten-minute walk.",
+        "translation": "Hay un parque cerca de mi casa. También hay un supermercado al lado del parque. Mi escuela está a diez minutos caminando."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Write 3-4 sentences about the places near your house and how far your school is."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-town-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "my-town",
+    "title": "Imperatives for Directions",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 94,
+    "estimatedMinutes": 8,
+    "description": "Learn to give instructions using the imperative form.",
+    "intro": "Learn to give instructions using the imperative form.",
+    "mission": "",
+    "grammar": "To give directions or instructions, use the base form of the verb without a subject: Go straight. Turn left. Cross the street. Use \"don't\" for a negative instruction: Don't turn right, turn left. This is also how we give simple classroom instructions: Open your book. Listen carefully.",
+    "phrases": [
+      "Go straight.",
+      "Turn left/right.",
+      "Cross the street.",
+      "Don't turn right."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which sentence gives a direction correctly?",
+        "options": [
+          "You go straight.",
+          "Go straight.",
+          "Going straight.",
+          "Goes straight."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ left at the supermarket.",
+        "options": [
+          "Turn",
+          "Turns",
+          "Turning",
+          "To turn"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the negative instruction.",
+        "options": [
+          "Don't turn right.",
+          "Not turn right.",
+          "No turn right.",
+          "Turn not right."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which is a classroom instruction?",
+        "options": [
+          "I open my book.",
+          "Open your book.",
+          "Opening the book.",
+          "Books are open."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-town-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "my-town",
+    "title": "Places in Town",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 95,
+    "estimatedMinutes": 6,
+    "description": "Words for common places and directions.",
+    "intro": "Words for common places and directions.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Park",
+        "translation": "Parque",
+        "example": "I play in the park with my friends."
+      },
+      {
+        "word": "Supermarket",
+        "translation": "Supermercado",
+        "example": "We buy food at the supermarket."
+      },
+      {
+        "word": "Bank",
+        "translation": "Banco",
+        "example": "The bank is next to the park."
+      },
+      {
+        "word": "Bakery",
+        "translation": "Panadería",
+        "example": "The bakery has fresh bread."
+      },
+      {
+        "word": "Pharmacy",
+        "translation": "Farmacia",
+        "example": "There is a pharmacy on my street."
+      },
+      {
+        "word": "Straight",
+        "translation": "Derecho / recto",
+        "example": "Go straight for two blocks."
+      },
+      {
+        "word": "Near",
+        "translation": "Cerca",
+        "example": "My school is near my house."
+      },
+      {
+        "word": "Far",
+        "translation": "Lejos",
+        "example": "The market is not far."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Pharmacy\" mean?",
+        "options": [
+          "Panadería",
+          "Farmacia",
+          "Banco",
+          "Parque"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Near\" mean?",
+        "options": [
+          "Lejos",
+          "Cerca",
+          "Derecho",
+          "Parque"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Straight\" mean?",
+        "options": [
+          "Derecho / recto",
+          "Lejos",
+          "Cerca",
+          "Banco"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-writing",
     "level": "A2",
     "skill": "writing",
+    "unitId": null,
     "title": "English A2 · Writing Challenge",
     "accessTier": "premium",
     "isFree": false,
@@ -2289,9 +4785,406 @@
     ]
   },
   {
+    "slug": "english-a1-free-time-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "free-time",
+    "title": "My Weekend",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 100,
+    "estimatedMinutes": 10,
+    "description": "A short text about how a student spends the weekend.",
+    "intro": "A short text about how a student spends the weekend.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "My Weekend",
+      "text": "On weekends, I usually play soccer with my friends in the park. I always watch a movie on Friday night with my family. I sometimes read books, but I never do homework on Sunday morning! My sister usually plays the guitar, and she is very good at it. Free time is important because it makes me happy.",
+      "questions": [
+        "What does the writer usually do on weekends?",
+        "What does the family always do on Friday night?",
+        "What does the sister do in her free time?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does the writer usually play?",
+        "options": [
+          "Guitar",
+          "Soccer",
+          "Chess",
+          "Basketball"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do they always do on Friday night?",
+        "options": [
+          "Play soccer",
+          "Read books",
+          "Watch a movie",
+          "Do homework"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does the writer never do on Sunday morning?",
+        "options": [
+          "Sleep",
+          "Homework",
+          "Play soccer",
+          "Watch TV"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-free-time-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "free-time",
+    "title": "What Do You Do in Your Free Time?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 101,
+    "estimatedMinutes": 10,
+    "description": "Listen to two friends talking about their hobbies.",
+    "intro": "Listen to Ana and Leo talking about what they usually do in their free time.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "What do you usually do?",
+      "I sometimes/always/never...",
+      "Do you play any sports?",
+      "I love..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Ana",
+        "line": "What do you usually do in your free time, Leo?",
+        "translation": "¿Qué haces normalmente en tu tiempo libre, Leo?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "I usually play video games. And you?",
+        "translation": "Normalmente juego videojuegos. ¿Y tú?"
+      },
+      {
+        "speaker": "Ana",
+        "line": "I sometimes paint, and I always read before bed.",
+        "translation": "A veces pinto, y siempre leo antes de dormir."
+      },
+      {
+        "speaker": "Leo",
+        "line": "Do you play any sports?",
+        "translation": "¿Practicas algún deporte?"
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, I play basketball on Saturdays.",
+        "translation": "Sí, juego baloncesto los sábados."
+      },
+      {
+        "speaker": "Leo",
+        "line": "I never play basketball, but I love swimming!",
+        "translation": "Yo nunca juego baloncesto, ¡pero me encanta nadar!"
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does Leo usually do?",
+        "options": [
+          "Read",
+          "Paint",
+          "Play video games",
+          "Play basketball"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When does Ana play basketball?",
+        "options": [
+          "Every day",
+          "On Saturdays",
+          "Never",
+          "On Fridays"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does Leo love?",
+        "options": [
+          "Painting",
+          "Reading",
+          "Swimming",
+          "Basketball"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-free-time-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "free-time",
+    "title": "Talk About Your Hobbies",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 102,
+    "estimatedMinutes": 8,
+    "description": "Practice talking about your free time activities.",
+    "intro": "Practice talking about your free time activities.",
+    "mission": "Tell a partner two things you usually do in your free time and one thing you never do.",
+    "grammar": "",
+    "phrases": [
+      "I usually...",
+      "I sometimes...",
+      "I never...",
+      "What do you like doing?"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "You",
+        "line": "I usually play soccer and I sometimes read.",
+        "translation": "Normalmente juego fútbol y a veces leo."
+      },
+      {
+        "speaker": "Partner",
+        "line": "Do you ever play video games?",
+        "translation": "¿Alguna vez juegas videojuegos?"
+      },
+      {
+        "speaker": "You",
+        "line": "I never play video games, but I love music.",
+        "translation": "Nunca juego videojuegos, pero me encanta la música."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Say out loud two hobbies you usually do and one you never do."
+      },
+      {
+        "type": "practice",
+        "prompt": "Ask a partner \"What do you do in your free time?\" and listen to their answer."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-free-time-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "free-time",
+    "title": "Write About Your Free Time",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 103,
+    "estimatedMinutes": 12,
+    "description": "Write sentences using adverbs of frequency.",
+    "intro": "Write sentences using adverbs of frequency.",
+    "mission": "Write 3-4 sentences about your free time using \"always\", \"usually\", \"sometimes\" or \"never\".",
+    "grammar": "",
+    "phrases": [
+      "I always...",
+      "I usually...",
+      "I sometimes...",
+      "I never..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "I usually play soccer on weekends. I always watch a movie on Friday. I never do homework on Sunday morning.",
+        "translation": "Normalmente juego fútbol los fines de semana. Siempre veo una película el viernes. Nunca hago tarea el domingo por la mañana."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Write 3-4 sentences about your free time activities using adverbs of frequency."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-free-time-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "free-time",
+    "title": "Adverbs of Frequency",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 104,
+    "estimatedMinutes": 8,
+    "description": "Learn always, usually, sometimes and never.",
+    "intro": "Learn always, usually, sometimes and never.",
+    "mission": "",
+    "grammar": "Adverbs of frequency say how often we do something: always (100%), usually (often), sometimes (occasionally), never (0%). They go before the main verb, but after the verb \"to be\": I always play soccer. She is never late. I sometimes read on the weekend.",
+    "phrases": [
+      "I always play...",
+      "She is never late.",
+      "I sometimes read...",
+      "We usually watch..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "I ___ play soccer on weekends. (100% of the time)",
+        "options": [
+          "never",
+          "sometimes",
+          "always",
+          "usually not"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the correct word order.",
+        "options": [
+          "I play always soccer.",
+          "I always play soccer.",
+          "Always I play soccer.",
+          "I play soccer always."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "She ___ late for class. (0% of the time)",
+        "options": [
+          "is never",
+          "never is",
+          "is not never",
+          "never be"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I ___ read books, but not every day.",
+        "options": [
+          "always",
+          "never",
+          "sometimes",
+          "be"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-free-time-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "free-time",
+    "title": "Hobbies and Sports",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 105,
+    "estimatedMinutes": 6,
+    "description": "Words for free-time activities and sports.",
+    "intro": "Words for free-time activities and sports.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Soccer",
+        "translation": "Fútbol",
+        "example": "I play soccer in the park."
+      },
+      {
+        "word": "Basketball",
+        "translation": "Baloncesto",
+        "example": "She plays basketball on Saturdays."
+      },
+      {
+        "word": "Swimming",
+        "translation": "Natación",
+        "example": "Leo loves swimming."
+      },
+      {
+        "word": "Read",
+        "translation": "Leer",
+        "example": "I always read before bed."
+      },
+      {
+        "word": "Paint",
+        "translation": "Pintar",
+        "example": "I sometimes paint on weekends."
+      },
+      {
+        "word": "Video game",
+        "translation": "Videojuego",
+        "example": "He usually plays video games."
+      },
+      {
+        "word": "Weekend",
+        "translation": "Fin de semana",
+        "example": "What do you do on the weekend?"
+      },
+      {
+        "word": "Free time",
+        "translation": "Tiempo libre",
+        "example": "Free time makes me happy."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Swimming\" mean?",
+        "options": [
+          "Natación",
+          "Fútbol",
+          "Leer",
+          "Pintar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Paint\" mean?",
+        "options": [
+          "Leer",
+          "Nadar",
+          "Pintar",
+          "Jugar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Free time\" mean?",
+        "options": [
+          "Fin de semana",
+          "Tiempo libre",
+          "Videojuego",
+          "Deporte"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-grammar",
     "level": "A2",
     "skill": "grammar",
+    "unitId": null,
     "title": "English A2 · Grammar Focus",
     "accessTier": "premium",
     "isFree": false,
@@ -2463,9 +5356,406 @@
     ]
   },
   {
+    "slug": "english-a1-clothes-and-shopping-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "clothes-and-shopping",
+    "title": "At the Clothing Store",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 110,
+    "estimatedMinutes": 10,
+    "description": "A short text about shopping for new clothes.",
+    "intro": "A short text about shopping for new clothes.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "At the Clothing Store",
+      "text": "Yesterday, I went to the store with my mother to buy new clothes for school. I tried on a blue shirt and some black pants. The shirt was too big, so I asked for a smaller size. I also bought a pair of white shoes. My mother said, \"This shirt looks great on you!\" We paid and went home happy.",
+      "questions": [
+        "Why did the writer go to the store?",
+        "What was wrong with the first shirt?",
+        "What did the writer buy?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Why did they go to the store?",
+        "options": [
+          "To buy food",
+          "To buy new clothes",
+          "To buy shoes only",
+          "To buy books"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What was wrong with the shirt?",
+        "options": [
+          "Wrong color",
+          "Too small",
+          "Too big",
+          "Too expensive"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What color were the shoes?",
+        "options": [
+          "Black",
+          "Blue",
+          "White",
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-clothes-and-shopping-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "clothes-and-shopping",
+    "title": "How Much Is This?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 111,
+    "estimatedMinutes": 10,
+    "description": "Listen to a customer asking about the price of clothes.",
+    "intro": "Listen to a shop assistant helping a customer find a T-shirt.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "How much is this?",
+      "What size do you need?",
+      "Do you have it in...?",
+      "Can I try it on?"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Customer",
+        "line": "Excuse me, how much is this T-shirt?",
+        "translation": "Disculpe, ¿cuánto cuesta esta camiseta?"
+      },
+      {
+        "speaker": "Assistant",
+        "line": "It's ten dollars. What size do you need?",
+        "translation": "Cuesta diez dólares. ¿Qué talla necesita?"
+      },
+      {
+        "speaker": "Customer",
+        "line": "Medium, please. Do you have it in red?",
+        "translation": "Mediana, por favor. ¿La tiene en rojo?"
+      },
+      {
+        "speaker": "Assistant",
+        "line": "Yes, here you are. Do you want to try it on?",
+        "translation": "Sí, aquí tiene. ¿Quiere probársela?"
+      },
+      {
+        "speaker": "Customer",
+        "line": "Yes, please. Where is the fitting room?",
+        "translation": "Sí, por favor. ¿Dónde está el probador?"
+      },
+      {
+        "speaker": "Assistant",
+        "line": "It's over there, next to the shoes.",
+        "translation": "Está allí, al lado de los zapatos."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How much is the T-shirt?",
+        "options": [
+          "Five dollars",
+          "Ten dollars",
+          "Fifteen dollars",
+          "Twenty dollars"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What color does the customer want?",
+        "options": [
+          "Blue",
+          "Black",
+          "Red",
+          "White"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Where is the fitting room?",
+        "options": [
+          "Next to the shoes",
+          "Next to the door",
+          "Upstairs",
+          "Next to the shirts"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-clothes-and-shopping-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "clothes-and-shopping",
+    "title": "Go Shopping",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 112,
+    "estimatedMinutes": 8,
+    "description": "Practice a shopping conversation for clothes.",
+    "intro": "Practice a shopping conversation for clothes.",
+    "mission": "Act out a shopping scene: ask the price of an item of clothing and its size or color.",
+    "grammar": "",
+    "phrases": [
+      "How much is this?",
+      "Do you have it in...?",
+      "What size is it?",
+      "Can I try it on?"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "You",
+        "line": "How much is this shirt?",
+        "translation": "¿Cuánto cuesta esta camisa?"
+      },
+      {
+        "speaker": "Partner",
+        "line": "It's twelve dollars. What size do you need?",
+        "translation": "Cuesta doce dólares. ¿Qué talla necesitas?"
+      },
+      {
+        "speaker": "You",
+        "line": "Small, please. Do you have it in blue?",
+        "translation": "Pequeña, por favor. ¿La tienes en azul?"
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Say out loud a shopping question: ask the price and color of an item."
+      },
+      {
+        "type": "practice",
+        "prompt": "Practice the shopping dialogue with a partner (customer/shop assistant), then switch roles."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-clothes-and-shopping-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "clothes-and-shopping",
+    "title": "Write About Your Clothes",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 113,
+    "estimatedMinutes": 12,
+    "description": "Write sentences describing what you are wearing today.",
+    "intro": "Write sentences describing what you are wearing today.",
+    "mission": "Write 3-4 sentences describing the clothes you are wearing today, including colors.",
+    "grammar": "",
+    "phrases": [
+      "I am wearing...",
+      "It is... (color)",
+      "My favorite clothes are...",
+      "I like..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "Today I am wearing a blue shirt and black pants. I am also wearing white shoes. My favorite color is blue.",
+        "translation": "Hoy llevo una camisa azul y pantalones negros. También llevo zapatos blancos. Mi color favorito es el azul."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Write 3-4 sentences describing the clothes you are wearing today, with colors."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-clothes-and-shopping-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "clothes-and-shopping",
+    "title": "This / That / These / Those",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 114,
+    "estimatedMinutes": 8,
+    "description": "Learn demonstratives and \"How much...?\" for shopping.",
+    "intro": "Learn demonstratives and \"How much...?\" for shopping.",
+    "mission": "",
+    "grammar": "Use \"this\" (singular, near) and \"these\" (plural, near) for things close to you: This shirt, these shoes. Use \"that\" (singular, far) and \"those\" (plural, far) for things farther away: That shirt (over there), those shoes. Ask about price with \"How much is/are...?\": How much is this shirt? How much are these shoes?",
+    "phrases": [
+      "this shirt",
+      "these shoes",
+      "that dress (over there)",
+      "How much is/are...?"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "___ shirt (in my hand) is blue.",
+        "options": [
+          "This",
+          "These",
+          "Those",
+          "That"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ shoes (over there) are nice.",
+        "options": [
+          "This",
+          "That",
+          "Those",
+          "It"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How much ___ this T-shirt?",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How much ___ these shoes?",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-clothes-and-shopping-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "clothes-and-shopping",
+    "title": "Clothes and Colors",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 115,
+    "estimatedMinutes": 6,
+    "description": "Words for clothing items and colors.",
+    "intro": "Words for clothing items and colors.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Shirt",
+        "translation": "Camisa",
+        "example": "I bought a blue shirt."
+      },
+      {
+        "word": "Pants",
+        "translation": "Pantalones",
+        "example": "These black pants are new."
+      },
+      {
+        "word": "Shoes",
+        "translation": "Zapatos",
+        "example": "My shoes are white."
+      },
+      {
+        "word": "Dress",
+        "translation": "Vestido",
+        "example": "She is wearing a red dress."
+      },
+      {
+        "word": "Size",
+        "translation": "Talla",
+        "example": "What size do you need?"
+      },
+      {
+        "word": "Price",
+        "translation": "Precio",
+        "example": "What is the price of this shirt?"
+      },
+      {
+        "word": "Wear",
+        "translation": "Llevar puesto",
+        "example": "I wear a jacket in winter."
+      },
+      {
+        "word": "Color",
+        "translation": "Color",
+        "example": "What is your favorite color?"
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Size\" mean?",
+        "options": [
+          "Talla",
+          "Precio",
+          "Color",
+          "Vestido"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Wear\" mean?",
+        "options": [
+          "Comprar",
+          "Vender",
+          "Llevar puesto",
+          "Lavar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Price\" mean?",
+        "options": [
+          "Precio",
+          "Color",
+          "Talla",
+          "Zapatos"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
+    "unitId": null,
     "title": "English A2 · Vocabulary Boost",
     "accessTier": "premium",
     "isFree": false,
@@ -2637,9 +5927,406 @@
     ]
   },
   {
+    "slug": "english-a1-weather-and-travel-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "weather-and-travel",
+    "title": "Our Trip to the Mountains",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 120,
+    "estimatedMinutes": 10,
+    "description": "A short text about a family trip and the weather.",
+    "intro": "A short text about a family trip and the weather.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Our Trip to the Mountains",
+      "text": "Next month, my family is going to travel to the mountains. The weather there is usually cool, not hot like the beach. We are going to pack jackets and warm clothes. My father is going to drive, and the trip takes about three hours. I am very excited because it is going to be my first time in the mountains!",
+      "questions": [
+        "Where is the family going to travel?",
+        "What is the weather like there?",
+        "How long does the trip take?"
+      ]
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Where is the family going?",
+        "options": [
+          "The beach",
+          "The mountains",
+          "Another country",
+          "The city"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the weather usually like there?",
+        "options": [
+          "Very hot",
+          "Cool",
+          "Rainy every day",
+          "Snowy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How long does the trip take?",
+        "options": [
+          "One hour",
+          "Two hours",
+          "Three hours",
+          "A whole day"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-weather-and-travel-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "weather-and-travel",
+    "title": "What's the Weather Like?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 121,
+    "estimatedMinutes": 10,
+    "description": "Listen to two friends planning a trip based on the weather.",
+    "intro": "Listen to Sofia and Marco checking the weather before planning a weekend trip.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "What's the weather like?",
+      "It's sunny/rainy/cold.",
+      "It's going to rain.",
+      "Let's..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "What's the weather like today?",
+        "translation": "¿Cómo está el clima hoy?"
+      },
+      {
+        "speaker": "Marco",
+        "line": "It's sunny and warm. Perfect for the beach!",
+        "translation": "Está soleado y cálido. ¡Perfecto para la playa!"
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Great! What about tomorrow?",
+        "translation": "¡Genial! ¿Y mañana?"
+      },
+      {
+        "speaker": "Marco",
+        "line": "Tomorrow it's going to rain, I think.",
+        "translation": "Mañana va a llover, creo."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Then let's go to the beach today and travel tomorrow.",
+        "translation": "Entonces vamos a la playa hoy y viajamos mañana."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Good idea! Let's pack our bags.",
+        "translation": "¡Buena idea! Empaquemos nuestras maletas."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is the weather like today?",
+        "options": [
+          "Rainy",
+          "Sunny and warm",
+          "Cold",
+          "Snowy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the weather going to be like tomorrow?",
+        "options": [
+          "Sunny",
+          "Very hot",
+          "Rainy",
+          "Windy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do they decide to do today?",
+        "options": [
+          "Stay home",
+          "Go to the beach",
+          "Travel to the mountains",
+          "Go to school"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-weather-and-travel-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "weather-and-travel",
+    "title": "Talk About the Weather and Plans",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 122,
+    "estimatedMinutes": 8,
+    "description": "Practice describing the weather and travel plans.",
+    "intro": "Practice describing the weather and travel plans.",
+    "mission": "Tell a partner what the weather is like today and one place you are going to visit soon.",
+    "grammar": "",
+    "phrases": [
+      "It's sunny/rainy/cold/hot today.",
+      "I'm going to travel to...",
+      "What's the weather like?",
+      "I'm going to pack..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "You",
+        "line": "It's sunny today. I'm going to go to the park.",
+        "translation": "Hoy está soleado. Voy a ir al parque."
+      },
+      {
+        "speaker": "Partner",
+        "line": "What are you going to wear?",
+        "translation": "¿Qué vas a usar?"
+      },
+      {
+        "speaker": "You",
+        "line": "I'm going to wear a T-shirt because it's hot.",
+        "translation": "Voy a usar una camiseta porque hace calor."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Say out loud today's weather and one travel or weekend plan."
+      },
+      {
+        "type": "practice",
+        "prompt": "Ask a partner \"What are you going to do this weekend?\" and listen to their plan."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-weather-and-travel-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "weather-and-travel",
+    "title": "Write About a Trip",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 123,
+    "estimatedMinutes": 12,
+    "description": "Write sentences about a future trip using \"going to\".",
+    "intro": "Write sentences about a future trip using \"going to\".",
+    "mission": "Write 3-4 sentences about a trip you are going to take, including the weather and what you are going to pack.",
+    "grammar": "",
+    "phrases": [
+      "I'm going to travel to...",
+      "The weather is going to be...",
+      "I'm going to pack...",
+      "I am excited because..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "Next month I am going to travel to the mountains. The weather is going to be cool. I am going to pack a jacket.",
+        "translation": "El próximo mes voy a viajar a las montañas. El clima va a estar fresco. Voy a empacar una chaqueta."
+      }
+    ],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Write 3-4 sentences about a trip you are going to take, using \"going to\"."
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-weather-and-travel-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "weather-and-travel",
+    "title": "Present Continuous and \"Going To\" for Plans",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 124,
+    "estimatedMinutes": 8,
+    "description": "Learn to describe the weather now and talk about future plans.",
+    "intro": "Learn to describe the weather now and talk about future plans.",
+    "mission": "",
+    "grammar": "We use the present continuous (is/am/are + verb-ing) to describe what is happening now, including weather: It is raining. It is snowing. We use \"going to\" + verb to talk about future plans: I am going to travel. She is going to pack a jacket. Both need the correct form of \"to be\" before the main verb.",
+    "phrases": [
+      "It is raining.",
+      "It is snowing.",
+      "I am going to travel.",
+      "She is going to pack..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Look outside - it ___ raining right now.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Next week, we ___ going to visit the mountains.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "She ___ going to pack a jacket because it's cold.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the correct sentence for \"now\".",
+        "options": [
+          "It rain today.",
+          "It is rain today.",
+          "It is raining today.",
+          "It raining today."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-weather-and-travel-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "weather-and-travel",
+    "title": "Weather and Travel Words",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 125,
+    "estimatedMinutes": 6,
+    "description": "Words for weather conditions and travel.",
+    "intro": "Words for weather conditions and travel.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Sunny",
+        "translation": "Soleado",
+        "example": "It's sunny today."
+      },
+      {
+        "word": "Rainy",
+        "translation": "Lluvioso",
+        "example": "Tomorrow is going to be rainy."
+      },
+      {
+        "word": "Cold",
+        "translation": "Frío",
+        "example": "It's cold in the mountains."
+      },
+      {
+        "word": "Hot",
+        "translation": "Caluroso",
+        "example": "It's very hot at the beach."
+      },
+      {
+        "word": "Trip",
+        "translation": "Viaje",
+        "example": "Our trip is next month."
+      },
+      {
+        "word": "Pack",
+        "translation": "Empacar",
+        "example": "I need to pack my bag."
+      },
+      {
+        "word": "Beach",
+        "translation": "Playa",
+        "example": "We are going to the beach."
+      },
+      {
+        "word": "Mountain",
+        "translation": "Montaña",
+        "example": "The mountains are beautiful."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Rainy\" mean?",
+        "options": [
+          "Soleado",
+          "Lluvioso",
+          "Frío",
+          "Caluroso"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Pack\" mean?",
+        "options": [
+          "Viajar",
+          "Empacar",
+          "Llegar",
+          "Nadar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Mountain\" mean?",
+        "options": [
+          "Playa",
+          "Ciudad",
+          "Montaña",
+          "Río"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-b1-listening",
     "level": "B1",
     "skill": "listening",
+    "unitId": null,
     "title": "English B1 · Listening Lab",
     "accessTier": "free",
     "isFree": true,
@@ -2813,6 +6500,7 @@
     "slug": "english-b1-speaking",
     "level": "B1",
     "skill": "speaking",
+    "unitId": null,
     "title": "English B1 · Speaking Mission",
     "accessTier": "free",
     "isFree": true,
@@ -2986,6 +6674,7 @@
     "slug": "english-b1-reading",
     "level": "B1",
     "skill": "reading",
+    "unitId": null,
     "title": "English B1 · Reading Quest",
     "accessTier": "free",
     "isFree": true,
@@ -3159,6 +6848,7 @@
     "slug": "english-b1-writing",
     "level": "B1",
     "skill": "writing",
+    "unitId": null,
     "title": "English B1 · Writing Challenge",
     "accessTier": "premium",
     "isFree": false,
@@ -3332,6 +7022,7 @@
     "slug": "english-b1-grammar",
     "level": "B1",
     "skill": "grammar",
+    "unitId": null,
     "title": "English B1 · Grammar Focus",
     "accessTier": "premium",
     "isFree": false,
@@ -3506,6 +7197,7 @@
     "slug": "english-b1-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
+    "unitId": null,
     "title": "English B1 · Vocabulary Boost",
     "accessTier": "premium",
     "isFree": false,
@@ -3680,6 +7372,7 @@
     "slug": "english-b2-listening",
     "level": "B2",
     "skill": "listening",
+    "unitId": null,
     "title": "English B2 · Listening Lab",
     "accessTier": "free",
     "isFree": true,
@@ -3851,6 +7544,7 @@
     "slug": "english-b2-speaking",
     "level": "B2",
     "skill": "speaking",
+    "unitId": null,
     "title": "English B2 · Speaking Mission",
     "accessTier": "free",
     "isFree": true,
@@ -4022,6 +7716,7 @@
     "slug": "english-b2-reading",
     "level": "B2",
     "skill": "reading",
+    "unitId": null,
     "title": "English B2 · Reading Quest",
     "accessTier": "free",
     "isFree": true,
@@ -4193,6 +7888,7 @@
     "slug": "english-b2-writing",
     "level": "B2",
     "skill": "writing",
+    "unitId": null,
     "title": "English B2 · Writing Challenge",
     "accessTier": "premium",
     "isFree": false,
@@ -4364,6 +8060,7 @@
     "slug": "english-b2-grammar",
     "level": "B2",
     "skill": "grammar",
+    "unitId": null,
     "title": "English B2 · Grammar Focus",
     "accessTier": "premium",
     "isFree": false,
@@ -4536,6 +8233,7 @@
     "slug": "english-b2-vocabulary",
     "level": "B2",
     "skill": "vocabulary",
+    "unitId": null,
     "title": "English B2 · Vocabulary Boost",
     "accessTier": "premium",
     "isFree": false,
@@ -4708,6 +8406,7 @@
     "slug": "english-c1-listening",
     "level": "C1",
     "skill": "listening",
+    "unitId": null,
     "title": "English C1 · Listening Lab",
     "accessTier": "free",
     "isFree": true,
@@ -4879,6 +8578,7 @@
     "slug": "english-c1-speaking",
     "level": "C1",
     "skill": "speaking",
+    "unitId": null,
     "title": "English C1 · Speaking Mission",
     "accessTier": "premium",
     "isFree": false,
@@ -5050,6 +8750,7 @@
     "slug": "english-c1-reading",
     "level": "C1",
     "skill": "reading",
+    "unitId": null,
     "title": "English C1 · Reading Quest",
     "accessTier": "premium",
     "isFree": false,
@@ -5221,6 +8922,7 @@
     "slug": "english-c1-writing",
     "level": "C1",
     "skill": "writing",
+    "unitId": null,
     "title": "English C1 · Writing Challenge",
     "accessTier": "premium",
     "isFree": false,
@@ -5392,6 +9094,7 @@
     "slug": "english-c1-grammar",
     "level": "C1",
     "skill": "grammar",
+    "unitId": null,
     "title": "English C1 · Grammar Focus",
     "accessTier": "premium",
     "isFree": false,
@@ -5564,6 +9267,7 @@
     "slug": "english-c1-vocabulary",
     "level": "C1",
     "skill": "vocabulary",
+    "unitId": null,
     "title": "English C1 · Vocabulary Boost",
     "accessTier": "premium",
     "isFree": false,
@@ -5736,6 +9440,7 @@
     "slug": "english-c2-listening",
     "level": "C2",
     "skill": "listening",
+    "unitId": null,
     "title": "English C2 · Listening Lab",
     "accessTier": "free",
     "isFree": true,
@@ -5909,6 +9614,7 @@
     "slug": "english-c2-speaking",
     "level": "C2",
     "skill": "speaking",
+    "unitId": null,
     "title": "English C2 · Speaking Mission",
     "accessTier": "premium",
     "isFree": false,
@@ -6082,6 +9788,7 @@
     "slug": "english-c2-reading",
     "level": "C2",
     "skill": "reading",
+    "unitId": null,
     "title": "English C2 · Reading Quest",
     "accessTier": "premium",
     "isFree": false,
@@ -6255,6 +9962,7 @@
     "slug": "english-c2-writing",
     "level": "C2",
     "skill": "writing",
+    "unitId": null,
     "title": "English C2 · Writing Challenge",
     "accessTier": "premium",
     "isFree": false,
@@ -6428,6 +10136,7 @@
     "slug": "english-c2-grammar",
     "level": "C2",
     "skill": "grammar",
+    "unitId": null,
     "title": "English C2 · Grammar Focus",
     "accessTier": "premium",
     "isFree": false,
@@ -6602,6 +10311,7 @@
     "slug": "english-c2-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
+    "unitId": null,
     "title": "English C2 · Vocabulary Boost",
     "accessTier": "premium",
     "isFree": false,
@@ -6771,6 +10481,118 @@
         "prompt": "Produce dos versiones del mismo mensaje en registros distintos (formal e informal)."
       }
     ]
+  }
+];
+
+  window.ANDERGO_LANGUAGE_WORLDS.units = window.ANDERGO_LANGUAGE_WORLDS.units || {};
+  window.ANDERGO_LANGUAGE_WORLDS.units.english = [
+  {
+    "id": "hello",
+    "slug": "hello",
+    "level": "A1",
+    "title": "Hello!",
+    "titleEs": "¡Hola!",
+    "description": "Greetings, introductions and the alphabet.",
+    "order": 1
+  },
+  {
+    "id": "about-me",
+    "slug": "about-me",
+    "level": "A1",
+    "title": "About Me",
+    "titleEs": "Sobre mí",
+    "description": "Name, age, nationality and feelings.",
+    "order": 2
+  },
+  {
+    "id": "family-and-friends",
+    "slug": "family-and-friends",
+    "level": "A1",
+    "title": "My Family and Friends",
+    "titleEs": "Mi familia y amigos",
+    "description": "Family members, possessive 's, and describing people.",
+    "order": 3
+  },
+  {
+    "id": "my-school",
+    "slug": "my-school",
+    "level": "A1",
+    "title": "My School",
+    "titleEs": "Mi escuela",
+    "description": "School objects, subjects and classroom language.",
+    "order": 4
+  },
+  {
+    "id": "daily-routine",
+    "slug": "daily-routine",
+    "level": "A1",
+    "title": "My Daily Routine",
+    "titleEs": "Mi rutina diaria",
+    "description": "Daily activities and the present simple.",
+    "order": 5
+  },
+  {
+    "id": "time-and-dates",
+    "slug": "time-and-dates",
+    "level": "A1",
+    "title": "Time and Dates",
+    "titleEs": "La hora y las fechas",
+    "description": "Telling time, days, months and prepositions of time.",
+    "order": 6
+  },
+  {
+    "id": "food-and-drinks",
+    "slug": "food-and-drinks",
+    "level": "A1",
+    "title": "Food and Drinks",
+    "titleEs": "Comidas y bebidas",
+    "description": "Food vocabulary, likes/dislikes, and countable/uncountable nouns.",
+    "order": 7
+  },
+  {
+    "id": "my-home",
+    "slug": "my-home",
+    "level": "A1",
+    "title": "My Home",
+    "titleEs": "Mi hogar",
+    "description": "Rooms, furniture, and prepositions of place.",
+    "order": 8
+  },
+  {
+    "id": "my-town",
+    "slug": "my-town",
+    "level": "A1",
+    "title": "My Town",
+    "titleEs": "Mi ciudad",
+    "description": "Places in town and giving directions.",
+    "order": 9
+  },
+  {
+    "id": "free-time",
+    "slug": "free-time",
+    "level": "A1",
+    "title": "Free Time",
+    "titleEs": "Tiempo libre",
+    "description": "Hobbies, sports and adverbs of frequency.",
+    "order": 10
+  },
+  {
+    "id": "clothes-and-shopping",
+    "slug": "clothes-and-shopping",
+    "level": "A1",
+    "title": "Clothes and Shopping",
+    "titleEs": "Ropa y compras",
+    "description": "Clothing items, colors and shopping dialogues.",
+    "order": 11
+  },
+  {
+    "id": "weather-and-travel",
+    "slug": "weather-and-travel",
+    "level": "A1",
+    "title": "Weather and Travel",
+    "titleEs": "El clima y los viajes",
+    "description": "Weather expressions, seasons, and travel plans.",
+    "order": 12
   }
 ];
 })();

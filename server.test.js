@@ -100,14 +100,22 @@ test(
   }
 );
 
-test('fallback worlds include six lessons per level for every supported language', () => {
+// English A1 is now organized into 12 thematic units with one activity per
+// skill each (72 activities) instead of a single lesson per skill (6) -
+// see scripts/content/english-a1-units.js. Every other language/level keeps
+// the original flat, single-lesson-per-skill shape.
+const ENGLISH_A1_ACTIVITY_COUNT = 72;
+
+test('fallback worlds include six lessons per level for every supported language (English A1: 12 units x 6 skills)', () => {
   for (const language of WORLD_LANGUAGES) {
     const lessons = getLocalLessons(language);
-    assert.equal(lessons.length, 36);
+    const expectedTotal = language === 'english' ? 36 - 6 + ENGLISH_A1_ACTIVITY_COUNT : 36;
+    assert.equal(lessons.length, expectedTotal);
 
     for (const level of LEVELS) {
       const levelLessons = lessons.filter((lesson) => lesson.level === level);
-      assert.equal(levelLessons.length, 6);
+      const expectedLevelCount = language === 'english' && level === 'A1' ? ENGLISH_A1_ACTIVITY_COUNT : 6;
+      assert.equal(levelLessons.length, expectedLevelCount);
       assert.deepEqual(
         [...new Set(levelLessons.map((lesson) => lesson.skill))].sort(),
         [...SKILLS].sort()
@@ -195,7 +203,7 @@ test('lessons endpoint returns the A1 learning path', async () => {
   }
 });
 
-test('lessons endpoint returns expanded A1 worlds for every supported language', async () => {
+test('lessons endpoint returns expanded A1 worlds for every supported language (English: 12 units x 6 skills)', async () => {
   const { server, port } = await startTestServer();
   try {
     for (const language of WORLD_LANGUAGES) {
@@ -204,11 +212,18 @@ test('lessons endpoint returns expanded A1 worlds for every supported language',
       );
       assert.equal(response.status, 200);
       const body = await response.json();
-      assert.equal(body.lessons.length, 6);
+      const expectedCount = language === 'english' ? ENGLISH_A1_ACTIVITY_COUNT : 6;
+      assert.equal(body.lessons.length, expectedCount);
       assert.deepEqual(
         [...new Set(body.lessons.map((lesson) => lesson.skill))].sort(),
         [...SKILLS].sort()
       );
+      if (language === 'english') {
+        assert.ok(
+          body.lessons.every((lesson) => typeof lesson.unitId === 'string' && lesson.unitId.length > 0),
+          'expected every English A1 activity to have a unitId'
+        );
+      }
     }
   } finally {
     server.close();

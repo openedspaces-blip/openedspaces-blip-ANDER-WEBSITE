@@ -3996,6 +3996,190 @@ footer small {
   opacity: 0.7;
 }
 
+/* Ruta/Reading/Listening/.../Vocabulary tab strip, repeated at the top of
+   #learning-path and each of the 6 skill sections. Same visual language as
+   .auth-tabs/.auth-tab. */
+.level-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 1.25rem;
+}
+
+.level-tab {
+  border: 1px solid var(--line);
+  background: #f8fafc;
+  color: var(--navy-2);
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    border-color 150ms ease,
+    background 150ms ease,
+    color 150ms ease;
+}
+
+.level-tab:hover {
+  border-color: var(--blue);
+}
+
+.level-tab.active {
+  background: linear-gradient(135deg, var(--blue), var(--cyan));
+  color: #fff;
+  border-color: transparent;
+}
+
+/* Unit accordion (Ruta tab for unit-aware languages, e.g. English A1's 12
+   thematic units) - each <details> extends the same card language as
+   .path-module below it. */
+.unit-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.path-unit {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.path-unit[open] {
+  border-color: var(--blue);
+}
+
+.path-unit-header {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.75rem 0.9rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.path-unit-header::-webkit-details-marker {
+  display: none;
+}
+
+.path-unit-order {
+  flex-shrink: 0;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--blue);
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+.path-unit-titles {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  gap: 0.1rem;
+}
+
+.path-unit-title {
+  font-weight: 800;
+  font-size: 0.92rem;
+  color: var(--navy-2);
+}
+
+.path-unit-title-es {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.path-unit-progress-label {
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.path-unit .path-module-body {
+  padding: 0 0.9rem 0.9rem;
+}
+
+/* Skill library grid (Reading/Listening/.../Vocabulary tabs for unit-aware
+   languages): every activity of that skill across all units, one card each. */
+.skill-library-intro {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0 0 1rem;
+}
+
+.skill-library-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.9rem;
+}
+
+.skill-library-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  text-align: left;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-soft);
+  transition:
+    border-color 150ms ease,
+    transform 150ms ease;
+}
+
+.skill-library-card:hover {
+  border-color: var(--blue);
+  transform: translateY(-2px);
+}
+
+.skill-library-card:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.skill-library-card-unit {
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--blue);
+}
+
+.skill-library-card-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--navy-2);
+}
+
+.skill-library-card-desc {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.skill-library-card-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-weight: 600;
+  margin-top: 0.2rem;
+}
+
 /* Lesson workspace panel */
 .lesson-workspace {
   background: var(--surface);

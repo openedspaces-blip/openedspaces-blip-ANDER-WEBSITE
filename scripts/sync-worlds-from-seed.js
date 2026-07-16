@@ -4,6 +4,8 @@
 const fs = require('fs');
 const path = require('path');
 const seedLessons = require('../lib/seed-lessons.json');
+const SEED_UNITS_PATH = path.join(__dirname, '..', 'lib', 'seed-units.json');
+const seedUnits = fs.existsSync(SEED_UNITS_PATH) ? require(SEED_UNITS_PATH) : [];
 
 const ROOT = path.join(__dirname, '..');
 const LANGUAGES = {
@@ -111,6 +113,7 @@ function shapeBrowserLesson(row) {
     slug: row.slug,
     level: row.level,
     skill: row.skill,
+    unitId: row.unit_slug || null,
     title: row.title,
     accessTier: row.access_tier || (row.is_free === false ? 'premium' : 'free'),
     isFree: row.is_free !== false,
@@ -129,6 +132,28 @@ function shapeBrowserLesson(row) {
   };
 }
 
+// Unit metadata (id/slug/title/order) is invariant per course, so it ships
+// in the same static bundle as the lessons - keeps the local-fallback path
+// (getLocalFallbackLessons() in script.js) fully unit-aware with zero
+// backend dependency. `id` is the slug (not a DB uuid) so it matches
+// unitId on the shaped lessons above regardless of data source (see
+// lib/courseLessonsService.js#getLessons, which resolves the real
+// course_units uuid back to this same slug before it reaches the client).
+function buildUnits(language) {
+  return seedUnits
+    .filter((unit) => unit.target_language === language)
+    .sort((a, b) => (a.order_index || 0) - (b.order_index || 0))
+    .map((unit) => ({
+      id: unit.slug,
+      slug: unit.slug,
+      level: unit.level,
+      title: unit.title,
+      titleEs: unit.title_es || '',
+      description: unit.description || '',
+      order: unit.order_index || 0
+    }));
+}
+
 function buildFile(language) {
   const lessons = seedLessons
     .filter((row) => row.target_language === language)
@@ -144,6 +169,9 @@ function buildFile(language) {
 
   window.ANDERGO_LANGUAGE_WORLDS.lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons || {};
   window.ANDERGO_LANGUAGE_WORLDS.lessons.${language} = ${JSON.stringify(lessons, null, 2)};
+
+  window.ANDERGO_LANGUAGE_WORLDS.units = window.ANDERGO_LANGUAGE_WORLDS.units || {};
+  window.ANDERGO_LANGUAGE_WORLDS.units.${language} = ${JSON.stringify(buildUnits(language), null, 2)};
 })();
 `;
 }

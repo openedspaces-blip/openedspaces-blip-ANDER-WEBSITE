@@ -1638,6 +1638,10 @@ document.getElementById('mfaVerifyEnrollBtn')?.addEventListener('click', async (
 
 const learningPathState = {
   lessons: [],
+  // Thematic units for the current language+level (e.g. English A1's 12
+  // units). Empty for every language/level that doesn't have units yet -
+  // see hasUnits() below, which every unit-aware render path is gated on.
+  units: [],
   activeSlug: null,
   language: 'english',
   level: 'A1',
@@ -1648,6 +1652,28 @@ const learningPathState = {
   // never trusts this client-side copy.
   exerciseResults: {}
 };
+
+// True only for language/level combos that have thematic units (English A1
+// today). Every unit-aware render path (unit accordion, skill libraries)
+// branches on this so every other language/level keeps today's exact
+// single-lesson-per-skill behavior untouched.
+function hasUnits() {
+  return learningPathState.units.length > 0;
+}
+
+function getSkillActivities(skill) {
+  return learningPathState.lessons
+    .filter((item) => item.skill === skill)
+    .sort((a, b) => {
+      const unitA = learningPathState.units.find((u) => u.id === a.unitId);
+      const unitB = learningPathState.units.find((u) => u.id === b.unitId);
+      return (unitA?.order ?? 0) - (unitB?.order ?? 0);
+    });
+}
+
+function getUnitActivities(unitId) {
+  return learningPathState.lessons.filter((item) => item.unitId === unitId);
+}
 
 function getExerciseProgress(lesson) {
   const total = lesson.exercises?.length || 0;
@@ -1982,39 +2008,20 @@ function getLessonStateInfo(lesson, isActive, nextSlug) {
   return { key: 'available', label: 'Disponible' };
 }
 
-function renderSkillGraph() {
-  const container = document.getElementById('skillGraph');
-  if (!container) return;
+function renderLessonItemHtml(lesson, nextSlug) {
+  const isActive = lesson.slug === learningPathState.activeSlug;
+  const icon = SKILL_ICONS[lesson.skill?.toLowerCase()] || '📚';
+  const skillLabel = SKILL_LABELS[lesson.skill] || lesson.skill;
+  const duration = getLessonDurationMinutes(lesson);
+  const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
+  const state = getLessonStateInfo(lesson, isActive, nextSlug);
+  const progressPct = lesson.completed
+    ? 100
+    : lesson.progressStatus === 'in_progress'
+      ? (lesson.bestScore ?? 50)
+      : 0;
 
-  const lessons = learningPathState.lessons;
-  if (!lessons.length) {
-    container.innerHTML = '<p class="skill-graph-empty">No hay lecciones disponibles.</p>';
-    return;
-  }
-
-  const targetLabel =
-    languageDisplayNames[learningPathState.language] || learningPathState.language;
-  const level = learningPathState.level;
-  const completedCount = lessons.filter((item) => item.completed).length;
-  const pct = Math.round((completedCount / lessons.length) * 100);
-  const nextLesson = getNextRecommendedLesson();
-  const nextSkillLabel = nextLesson ? SKILL_LABELS[nextLesson.skill] || nextLesson.skill : '—';
-
-  const itemsHtml = lessons
-    .map((lesson) => {
-      const isActive = lesson.slug === learningPathState.activeSlug;
-      const icon = SKILL_ICONS[lesson.skill?.toLowerCase()] || '📚';
-      const skillLabel = SKILL_LABELS[lesson.skill] || lesson.skill;
-      const duration = getLessonDurationMinutes(lesson);
-      const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
-      const state = getLessonStateInfo(lesson, isActive, nextLesson?.slug);
-      const progressPct = lesson.completed
-        ? 100
-        : lesson.progressStatus === 'in_progress'
-          ? (lesson.bestScore ?? 50)
-          : 0;
-
-      return `
+  return `
       <button
         type="button"
         class="path-lesson-item path-lesson-item--${state.key}"
@@ -2034,8 +2041,63 @@ function renderSkillGraph() {
         <span class="path-lesson-state path-lesson-state--${state.key}">${state.label}</span>
       </button>
     `;
+}
+
+// The Ruta tab for a unit-aware language+level (English A1 today): 12
+// thematic units in order, each with its own ≤6 activities, instead of one
+// flat module. Reuses renderLessonItemHtml() so a unit's activities look
+// and behave exactly like the legacy flat list's items.
+function renderUnitAccordionHtml(nextSlug) {
+  return learningPathState.units
+    .map((unit) => {
+      const activities = getUnitActivities(unit.id);
+      const completedCount = activities.filter((item) => item.completed).length;
+      const unitPct = activities.length ? Math.round((completedCount / activities.length) * 100) : 0;
+      const containsActive = activities.some((item) => item.slug === learningPathState.activeSlug);
+
+      return `
+      <details class="path-unit" ${containsActive ? 'open' : ''}>
+        <summary class="path-unit-header">
+          <span class="path-unit-order">${escapeHtml(String(unit.order))}</span>
+          <span class="path-unit-titles">
+            <span class="path-unit-title">${escapeHtml(unit.title)}</span>
+            ${unit.titleEs ? `<span class="path-unit-title-es">${escapeHtml(unit.titleEs)}</span>` : ''}
+          </span>
+          <span class="path-unit-progress-label">${completedCount}/${activities.length} · ${unitPct}%</span>
+        </summary>
+        <div class="path-module-body">${activities.map((item) => renderLessonItemHtml(item, nextSlug)).join('')}</div>
+      </details>
+    `;
     })
     .join('');
+}
+
+function renderSkillGraph() {
+  const container = document.getElementById('skillGraph');
+  if (!container) return;
+
+  const lessons = learningPathState.lessons;
+  if (!lessons.length) {
+    container.innerHTML = '<p class="skill-graph-empty">No hay lecciones disponibles.</p>';
+    return;
+  }
+
+  const targetLabel =
+    languageDisplayNames[learningPathState.language] || learningPathState.language;
+  const level = learningPathState.level;
+  const completedCount = lessons.filter((item) => item.completed).length;
+  const pct = Math.round((completedCount / lessons.length) * 100);
+  const nextLesson = getNextRecommendedLesson();
+  const nextSkillLabel = nextLesson ? SKILL_LABELS[nextLesson.skill] || nextLesson.skill : '—';
+
+  const bodyHtml = hasUnits()
+    ? `<div class="unit-accordion">${renderUnitAccordionHtml(nextLesson?.slug)}</div>`
+    : `
+    <div class="path-module">
+      <div class="path-module-header">Módulo ${escapeHtml(level)} · ${escapeHtml(targetLabel)}</div>
+      <div class="path-module-body">${lessons.map((item) => renderLessonItemHtml(item, nextLesson?.slug)).join('')}</div>
+    </div>
+  `;
 
   container.innerHTML = `
     <div class="path-summary">
@@ -2045,10 +2107,7 @@ function renderSkillGraph() {
       </div>
       <span class="path-summary-detail">${completedCount}/${lessons.length} completadas · Próximo: ${escapeHtml(nextSkillLabel)}</span>
     </div>
-    <div class="path-module">
-      <div class="path-module-header">Módulo ${escapeHtml(level)} · ${escapeHtml(targetLabel)}</div>
-      <div class="path-module-body">${itemsHtml}</div>
-    </div>
+    ${bodyHtml}
   `;
 
   container.querySelectorAll('.path-lesson-item').forEach((nodeEl) => {
@@ -2300,6 +2359,31 @@ function renderSkillCards() {
       return;
     }
 
+    // Unit-aware languages (English A1 today) have up to 12 activities per
+    // skill instead of one - the card becomes a library entry point, so its
+    // status/progress summarize all of that skill's activities rather than
+    // a single lesson's.
+    if (hasUnits()) {
+      const activities = getSkillActivities(skill);
+      const completedCount = activities.filter((item) => item.completed).length;
+      const pct = activities.length ? Math.round((completedCount / activities.length) * 100) : 0;
+      if (statusEl) {
+        statusEl.textContent = `${completedCount}/${activities.length} completadas`;
+        statusEl.className = 'skill-card-status skill-card-status-available';
+      }
+      if (progressWrap) {
+        progressWrap.hidden = false;
+        progressWrap.setAttribute('aria-label', `Progreso: ${pct}%`);
+      }
+      if (progressBar) progressBar.style.width = `${pct}%`;
+      if (xpEl) xpEl.textContent = `${activities.length} actividades`;
+      card.setAttribute(
+        'aria-label',
+        `${SKILL_LABELS[skill] || skill}: biblioteca, ${completedCount}/${activities.length} completadas`
+      );
+      return;
+    }
+
     // Listening's status depends on which audio source is actually
     // available (GET /api/listening/audio) rather than being permanently
     // "Próximamente" - see spec §12's 3 real states.
@@ -2421,9 +2505,90 @@ function applyChangeCombination() {
   showView(getViewFromHash());
 }
 
+const SKILL_VIEW_RENDERERS = {
+  listening: (section, lesson) => renderListeningView(section, lesson),
+  reading: (section, lesson) => renderReadingView(section, lesson),
+  writing: (section, lesson) => renderWritingView(section, lesson),
+  speaking: (section, lesson) => renderSpeakingView(section, lesson),
+  grammar: (section, lesson) => renderGrammarView(section, lesson),
+  vocabulary: (section, lesson) => renderVocabularyView(section, lesson)
+};
+
+// The section's "← Volver a la ruta" link is static markup (untouched by
+// renderSkillView's .skill-view-content re-renders), so its label/behavior
+// is toggled in place: back-to-the-Ruta-tab by default, or back-to-this-
+// skill's-library when a unit-aware language (English A1) has an activity
+// open from that library. onclick assignment (not addEventListener) is
+// intentionally idempotent - each call just replaces the previous handler.
+function updateSkillViewBackLink(section, skill, showLibraryBack) {
+  const link = section.querySelector('.back-to-route-btn');
+  if (!link) return;
+  if (showLibraryBack) {
+    link.textContent = '← Volver a la biblioteca';
+    link.href = `#${skill}`;
+    link.onclick = (event) => {
+      event.preventDefault();
+      learningPathState.activeSlug = '';
+      renderSkillView(skill);
+    };
+  } else {
+    link.textContent = '← Volver a la ruta';
+    link.href = '#learn';
+    link.onclick = null;
+  }
+}
+
+// A grid of every activity for this skill across all units (e.g. every
+// Reading activity in English A1), ordered by unit - this is what "Cuando
+// el usuario seleccione Reading, debe abrir una biblioteca con todos los
+// readings" asks for, instead of a single generic lesson per skill.
+function renderSkillLibraryHtml(skill, activities) {
+  if (!activities.length) {
+    return `<p class="skill-graph-empty">No hay actividades de ${SKILL_LABELS[skill] || skill} disponibles en este nivel todavía.</p>`;
+  }
+  const nextSlug = getNextRecommendedLesson()?.slug;
+  const cardsHtml = activities
+    .map((item) => {
+      const unit = learningPathState.units.find((u) => u.id === item.unitId);
+      const duration = getLessonDurationMinutes(item);
+      const xp = item.xpReward ?? item.xp_reward ?? 20;
+      const state = getLessonStateInfo(item, false, nextSlug);
+      return `
+      <button type="button" class="skill-library-card skill-library-card--${state.key}" data-lesson-slug="${escapeHtml(item.slug)}">
+        ${unit ? `<span class="skill-library-card-unit">Unidad ${escapeHtml(String(unit.order))} · ${escapeHtml(unit.title)}</span>` : ''}
+        <span class="skill-library-card-title">${escapeHtml(item.title)}</span>
+        <span class="skill-library-card-desc">${escapeHtml(item.description || '')}</span>
+        <span class="skill-library-card-meta">
+          ${duration ? `<span>⏱ ${escapeHtml(String(duration))} min</span>` : ''}
+          <span>⭐ ${escapeHtml(String(xp))} XP</span>
+          <span class="path-lesson-state path-lesson-state--${state.key}">${state.label}</span>
+        </span>
+      </button>
+    `;
+    })
+    .join('');
+
+  return `
+    <p class="skill-library-intro">${activities.length} actividades de ${SKILL_LABELS[skill] || skill} en English A1, una por unidad.</p>
+    <div class="skill-library-grid">${cardsHtml}</div>
+  `;
+}
+
+function wireSkillLibrary(section, skill) {
+  section.querySelectorAll('.skill-library-card').forEach((card) => {
+    card.addEventListener('click', () => {
+      learningPathState.activeSlug = card.dataset.lessonSlug;
+      renderSkillView(skill);
+    });
+  });
+}
+
 // Dispatches to the right renderer for the currently-active skill view,
 // loading lessons first if they haven't been fetched yet for this
 // language/level (mirrors the loading guard the old inline card handler had).
+// Unit-aware languages (English A1 today) get a library-then-detail flow
+// (see renderSkillLibraryHtml/wireSkillLibrary above); every other
+// language/level keeps the original single-lesson-per-skill behavior.
 function renderSkillView(skill) {
   const section = document.getElementById(skill);
   if (!section) return;
@@ -2433,29 +2598,40 @@ function renderSkillView(skill) {
   if (!learningPathState.lessons.length) {
     if (content)
       content.innerHTML = `<p class="skill-graph-empty">Preparando ${SKILL_LABELS[skill] || skill}…</p>`;
+    updateSkillViewBackLink(section, skill, false);
     loadLearningPath({ language: learningPathState.language, level: learningPathState.level }).then(
       () => renderSkillView(skill)
     );
     return;
   }
 
+  if (hasUnits()) {
+    const activities = getSkillActivities(skill);
+    const selected = activities.find((item) => item.slug === learningPathState.activeSlug);
+    section.dataset.activeLessonSlug = selected?.slug || '';
+
+    if (!selected) {
+      if (content) content.innerHTML = renderSkillLibraryHtml(skill, activities);
+      updateSkillViewBackLink(section, skill, false);
+      wireSkillLibrary(section, skill);
+      return;
+    }
+
+    updateSkillViewBackLink(section, skill, true);
+    SKILL_VIEW_RENDERERS[skill]?.(section, selected);
+    return;
+  }
+
   const lesson = learningPathState.lessons.find((item) => item.skill === skill);
   section.dataset.activeLessonSlug = lesson?.slug || '';
+  updateSkillViewBackLink(section, skill, false);
   if (!lesson) {
     if (content)
       content.innerHTML = `<p class="skill-graph-empty">No hay lección de ${SKILL_LABELS[skill] || skill} disponible en este nivel todavía.</p>`;
     return;
   }
 
-  const renderers = {
-    listening: renderListeningView,
-    reading: renderReadingView,
-    writing: renderWritingView,
-    speaking: renderSpeakingView,
-    grammar: renderGrammarView,
-    vocabulary: renderVocabularyView
-  };
-  renderers[skill]?.(section, lesson);
+  SKILL_VIEW_RENDERERS[skill]?.(section, lesson);
 }
 
 function renderReadingView(section, lesson) {
@@ -3842,9 +4018,23 @@ function getLocalFallbackLessons(language, level) {
     }));
 }
 
+// Unit metadata (id/slug/title/order) is invariant per language+level, so
+// it always ships in the static bundle (window.ANDERGO_LANGUAGE_WORLDS.units,
+// generated by scripts/sync-worlds-from-seed.js) regardless of whether the
+// lessons themselves came from the backend or the local fallback below -
+// this is what makes hasUnits() true for English A1 either way.
+function getUnitsForLanguageLevel(language, level) {
+  const units = window.ANDERGO_LANGUAGE_WORLDS?.units?.[language] || [];
+  return units.filter((unit) => unit.level === level).sort((a, b) => a.order - b.order);
+}
+
 async function loadLearningPath(options = {}) {
   learningPathState.language = options.language || learningPathState.language;
   learningPathState.level = options.level || learningPathState.level;
+  learningPathState.units = getUnitsForLanguageLevel(
+    learningPathState.language,
+    learningPathState.level
+  );
 
   const graphContainer = document.getElementById('skillGraph');
   if (graphContainer) {
@@ -4160,6 +4350,20 @@ function showView(viewId) {
 
   document.querySelectorAll('.nav-group a[href^="#"]').forEach((link) => {
     const isActive = link.getAttribute('href') === `#${resolved}`;
+    link.classList.toggle('active', isActive);
+    if (isActive) {
+      link.setAttribute('aria-current', 'page');
+    } else {
+      link.removeAttribute('aria-current');
+    }
+  });
+
+  // Ruta/Reading/Listening/.../Vocabulary tab strip repeated at the top of
+  // #learning-path and each of the 6 skill sections (index.html's
+  // .level-tabs) - same active/aria-current toggling as the main nav above.
+  document.querySelectorAll('.level-tab[href^="#"]').forEach((link) => {
+    const linkView = link.dataset.tab === 'learn' ? 'learn' : link.dataset.tab;
+    const isActive = linkView === resolved;
     link.classList.toggle('active', isActive);
     if (isActive) {
       link.setAttribute('aria-current', 'page');
