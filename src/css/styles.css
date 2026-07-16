@@ -4790,6 +4790,127 @@ footer small {
   margin-top: 1rem;
 }
 
+/* Highlights whichever Parte is currently being spoken by the reading
+   audio player, without needing a second simultaneous text view. */
+.reading-part-viewer.is-reading-active {
+  box-shadow: inset 3px 0 0 var(--blue);
+}
+
+/* Full-reading Text-to-Speech player (spec section A) - always above the
+   Parte 1/2/3 text, never replacing it. */
+.reading-audio-player {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.1rem;
+  margin-bottom: 1.25rem;
+}
+
+.reading-audio-player.is-completed {
+  border-color: var(--blue);
+}
+
+.reading-audio-unavailable {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.reading-audio-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.reading-audio-btn {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid rgba(96, 165, 250, 0.35);
+  border-radius: var(--radius-md);
+  background: var(--surface, #fff);
+  color: var(--navy-2);
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition:
+    border-color 150ms ease,
+    background 150ms ease,
+    color 150ms ease;
+}
+
+.reading-audio-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.reading-audio-btn.is-active,
+.reading-audio-btn:active:not(:disabled) {
+  border-color: var(--blue);
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--blue);
+}
+
+.reading-audio-btn[hidden] {
+  display: none;
+}
+
+.reading-audio-rate-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+.reading-audio-rate-btn {
+  min-height: 44px;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface, #fff);
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.reading-audio-rate-btn.is-active {
+  border-color: var(--blue);
+  color: var(--blue);
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.reading-audio-progress {
+  height: 8px;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 0.85rem;
+}
+
+.reading-audio-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  border-radius: 999px;
+  transition: width 200ms linear;
+}
+
+.reading-audio-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 360px) {
+  .reading-audio-btn {
+    flex: 1 1 calc(50% - 0.5rem);
+  }
+}
+
 .reading-full-text {
   border: 1px dashed var(--line);
   border-radius: var(--radius-md);

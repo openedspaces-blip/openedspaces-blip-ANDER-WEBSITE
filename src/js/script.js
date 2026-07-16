@@ -1749,6 +1749,548 @@ function getDefaultPronunciationRate(language = learningPathState.language, leve
   return language === 'english' && level === 'A1' ? 0.86 : 1;
 }
 
+// ---------------------------------------------------------------------
+// Reading Text-to-Speech player - reads a whole reading (title + every
+// part, concatenated) aloud continuously, independent of speakText()
+// above (which flashcards/AI Tutor keep using unchanged, fire-and-forget,
+// one utterance at a time). This section owns its own
+// SpeechSynthesisUtterance lifecycle because it needs pause/resume,
+// segment-level rewind, and a persistent playing/paused state that
+// speakText() was never designed for.
+//
+// Text is split into short sentence-ish "segments" (see
+// splitReadingSentences()) rather than spoken as one giant utterance,
+// because the Web Speech API has no seek: "rewind 5 seconds" is
+// approximated by cancelling the current utterance and restarting
+// playback from whichever earlier segment's estimated start time is
+// closest to (elapsed - 5s). Durations are estimated from word count at
+// the current rate, not measured - there is no reliable cross-browser
+// timing signal from speechSynthesis itself.
+// ---------------------------------------------------------------------
+
+const READING_RATE_PRESETS = { slow: 0.75, normal: 0.95 };
+
+// Best-effort classification of common OS/browser TTS voices as
+// masculine/feminine, curated by us - never inferred automatically from
+// a voice's name (a name alone isn't a reliable gender signal). Any
+// voice not in this list falls back to a neutral "Voz 1"/"Voz 2" label.
+const KNOWN_VOICE_GENDERS = {
+  Samantha: 'female',
+  Victoria: 'female',
+  Karen: 'female',
+  Moira: 'female',
+  Tessa: 'female',
+  Alex: 'male',
+  Daniel: 'male',
+  Fred: 'male',
+  'Google US English': 'female',
+  'Google UK English Female': 'female',
+  'Google UK English Male': 'male',
+  'Google français': 'female',
+  'Google español': 'female',
+  'Microsoft David - English (United States)': 'male',
+  'Microsoft Zira - English (United States)': 'female',
+  'Microsoft Mark - English (United States)': 'male',
+  'Microsoft Hortense - French (France)': 'female',
+  'Microsoft Paul - French (France)': 'male',
+  'Microsoft Helena - Spanish (Spain)': 'female',
+  'Microsoft Pablo - Spanish (Spain)': 'male',
+  Amelie: 'female',
+  Thomas: 'male',
+  Monica: 'female',
+  Jorge: 'male',
+  Paulina: 'female',
+  Juan: 'male'
+};
+
+function getStoredReadingVoiceName(language) {
+  try {
+    return localStorage.getItem(`andergo_voice_${language}`) || '';
+  } catch {
+    return '';
+  }
+}
+
+function setStoredReadingVoiceName(language, name) {
+  try {
+    localStorage.setItem(`andergo_voice_${language}`, name || '');
+  } catch {
+    /* private-mode/unavailable localStorage - voice choice just won't persist */
+  }
+}
+
+function getStoredReadingRate(language) {
+  try {
+    const raw = localStorage.getItem(`andergo_rate_${language}`);
+    return raw === 'slow' || raw === 'normal' ? raw : null;
+  } catch {
+    return null;
+  }
+}
+
+function setStoredReadingRate(language, rateKey) {
+  try {
+    localStorage.setItem(`andergo_rate_${language}`, rateKey);
+  } catch {
+    /* ignore */
+  }
+}
+
+// Exact-locale match first (e.g. es-ES), falling back to any voice that
+// shares the bare language prefix (e.g. any "es-*") - mirrors
+// getPronunciationLocale()'s per-language defaults above.
+function getReadingVoicesForLocale(locale) {
+  if (!supportsSpeech()) return [];
+  const all = window.speechSynthesis.getVoices() || [];
+  const prefix = (locale || '').split('-')[0];
+  const exact = all.filter((voice) => voice.lang === locale);
+  const pool = exact.length ? exact : all.filter((voice) => voice.lang?.startsWith(prefix));
+  const seen = new Set();
+  return pool.filter((voice) => {
+    if (seen.has(voice.name)) return false;
+    seen.add(voice.name);
+    return true;
+  });
+}
+
+function splitReadingSentences(text) {
+  if (!text) return [];
+  const matches = text.match(/[^.!?]+[.!?]+(?:\s+|$)|[^.!?]+$/g);
+  return (matches || [text]).map((sentence) => sentence.trim()).filter(Boolean);
+}
+
+function estimateReadingSegmentSeconds(text, rate) {
+  const words = text.trim().split(/\s+/).filter(Boolean).length || 1;
+  const wordsPerSecond = 2.6 * (rate || 1);
+  return Math.max(0.6, words / wordsPerSecond);
+}
+
+// Builds the full spoken script for a reading: title, then every
+// part's sentences in order (never comprehension questions, ordering
+// events, vocabulary, or Spanish translations - those aren't part of
+// lesson.reading.parts/text). Falls back to the single-block
+// lesson.reading.text/lesson.description shape used by every
+// non-English-A1 reading today (see renderReadingView's `hasParts`).
+function buildReadingSegments(lesson, rate) {
+  const parts =
+    Array.isArray(lesson.reading?.parts) && lesson.reading.parts.length
+      ? lesson.reading.parts
+      : [lesson.reading?.text || lesson.description || ''];
+  const segments = [];
+  let cursor = 0;
+  const addSegment = (text, partIndex) => {
+    const trimmed = text.trim();
+    if (!trimmed) return;
+    const duration = estimateReadingSegmentSeconds(trimmed, rate);
+    segments.push({
+      text: trimmed,
+      partIndex,
+      segmentIndex: segments.length,
+      estimatedStartSeconds: cursor,
+      estimatedDurationSeconds: duration
+    });
+    cursor += duration;
+  };
+  if (lesson.title) addSegment(lesson.title, 0);
+  parts.forEach((partText, partIndex) => {
+    splitReadingSentences(partText).forEach((sentence) => addSegment(sentence, partIndex));
+  });
+  return { segments, totalDurationSeconds: cursor, partsCount: parts.length };
+}
+
+function findReadingSegmentIndexAtTime(segments, timeSeconds) {
+  for (let i = segments.length - 1; i >= 0; i--) {
+    if (segments[i].estimatedStartSeconds <= timeSeconds) return i;
+  }
+  return 0;
+}
+
+function formatReadingTime(totalSeconds) {
+  const safe = Number.isFinite(totalSeconds) ? Math.max(0, totalSeconds) : 0;
+  const minutes = Math.floor(safe / 60);
+  const seconds = Math.floor(safe % 60);
+  return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+}
+
+// ---------------------------------------------------------------------
+// Engine abstraction (kept deliberately thin) so the player above never
+// has to change shape when a Premium neural engine is wired in later -
+// only this factory's `engine: 'azure'` branch would gain a real
+// implementation (an HTMLAudioElement over a server-generated clip from
+// lib/ttsService.js, with real seek/duration). No Azure credentials are
+// configured yet, so that branch intentionally falls back to `browser`
+// rather than doing nothing.
+// ---------------------------------------------------------------------
+function createReadingAudioPlayer({ engine = 'browser', language, voice, rate } = {}) {
+  const resolvedEngine = engine === 'azure' ? 'browser' : engine;
+  return {
+    engine: resolvedEngine,
+    speakSegment(segment, { onStart, onEnd, onError } = {}) {
+      if (!supportsSpeech() || !segment) {
+        onEnd?.();
+        return null;
+      }
+      const utterance = new SpeechSynthesisUtterance(segment.text);
+      utterance.lang = getPronunciationLocale(language);
+      utterance.rate = rate || 1;
+      if (voice) utterance.voice = voice;
+      utterance.onstart = () => onStart?.();
+      utterance.onend = () => onEnd?.();
+      utterance.onerror = () => onError?.();
+      window.speechSynthesis.speak(utterance);
+      return utterance;
+    }
+  };
+}
+
+// Singleton controller - only one reading can ever be "the" audio
+// playing at a time (see attach()/teardown()). Exposes exactly the
+// function names the product spec calls for: playReading, pauseReading,
+// resumeReading, rewindReading(seconds), stopReading, changeReadingVoice,
+// changeReadingRate - plus attach/teardown/setHandlers/getSnapshot for
+// renderReadingView to wire itself up to.
+const readingSpeechPlayer = (() => {
+  const PAUSE_WATCHDOG_MS = 350;
+
+  let state = 'idle'; // idle | playing | paused | stopped | completed | error
+  let lesson = null;
+  let language = null;
+  let segments = [];
+  let totalDurationSeconds = 0;
+  let partsCount = 1;
+  let currentSegmentIndex = 0;
+  let currentPartIndex = 0;
+  let elapsedBeforeCurrentSegment = 0;
+  let segmentStartedAt = 0;
+  let rateKey = 'normal';
+  let voices = [];
+  let voiceIndex = 0;
+  let progressTimer = null;
+  let playbackToken = 0; // bumped on every intentional interrupt, so stale utterance callbacks (cancel(), then a new one starts) never act twice
+  let onUpdate = null;
+  let onPartChange = null;
+
+  function currentVoice() {
+    return voices[voiceIndex] || null;
+  }
+
+  function rateValue() {
+    return READING_RATE_PRESETS[rateKey] || READING_RATE_PRESETS.normal;
+  }
+
+  function voiceDisplayLabel() {
+    const voice = currentVoice();
+    if (!voice) return '';
+    const gender = KNOWN_VOICE_GENDERS[voice.name];
+    if (gender === 'female') return 'Voz femenina';
+    if (gender === 'male') return 'Voz masculina';
+    return `Voz ${voiceIndex + 1}`;
+  }
+
+  function loadVoices() {
+    const locale = getPronunciationLocale(language);
+    voices = getReadingVoicesForLocale(locale);
+    const storedName = getStoredReadingVoiceName(language);
+    const storedIndex = storedName ? voices.findIndex((voice) => voice.name === storedName) : -1;
+    voiceIndex = storedIndex >= 0 ? storedIndex : 0;
+  }
+
+  function clearTimer() {
+    if (progressTimer) {
+      clearInterval(progressTimer);
+      progressTimer = null;
+    }
+  }
+
+  function startTimer() {
+    clearTimer();
+    progressTimer = setInterval(emitUpdate, 250);
+  }
+
+  function snapshot() {
+    const seg = segments[currentSegmentIndex];
+    const withinSegment =
+      state === 'playing' && seg
+        ? Math.min((performance.now() - segmentStartedAt) / 1000, seg.estimatedDurationSeconds)
+        : 0;
+    const elapsedSeconds = Math.min(totalDurationSeconds, elapsedBeforeCurrentSegment + withinSegment);
+    const progressPct =
+      totalDurationSeconds > 0 ? Math.min(100, Math.round((elapsedSeconds / totalDurationSeconds) * 100)) : 0;
+    return {
+      state,
+      currentPart: currentPartIndex,
+      partsCount,
+      elapsedSeconds,
+      totalDurationSeconds,
+      progressPct,
+      rateKey,
+      voiceLabel: voiceDisplayLabel(),
+      voiceName: currentVoice()?.name || '',
+      canChangeVoice: voices.length > 1
+    };
+  }
+
+  function emitUpdate() {
+    onUpdate?.(snapshot());
+  }
+
+  function setPart(partIndex) {
+    if (partIndex === currentPartIndex) return;
+    currentPartIndex = partIndex;
+    onPartChange?.(currentPartIndex);
+  }
+
+  function finish() {
+    state = 'completed';
+    clearTimer();
+    currentSegmentIndex = segments.length;
+    elapsedBeforeCurrentSegment = totalDurationSeconds;
+    setPart(partsCount - 1);
+    emitUpdate();
+  }
+
+  function speakCurrentSegment() {
+    const seg = segments[currentSegmentIndex];
+    if (!seg) {
+      finish();
+      return;
+    }
+    setPart(seg.partIndex);
+    if (!supportsSpeech()) {
+      state = 'error';
+      clearTimer();
+      emitUpdate();
+      return;
+    }
+    window.speechSynthesis.cancel();
+    playbackToken += 1;
+    const myToken = playbackToken;
+    const player = createReadingAudioPlayer({
+      engine: 'browser',
+      language,
+      voice: currentVoice(),
+      rate: rateValue()
+    });
+    segmentStartedAt = performance.now();
+    player.speakSegment(seg, {
+      onEnd: () => {
+        if (myToken !== playbackToken || state !== 'playing') return;
+        elapsedBeforeCurrentSegment += seg.estimatedDurationSeconds;
+        currentSegmentIndex += 1;
+        speakCurrentSegment();
+      },
+      onError: () => {
+        if (myToken !== playbackToken || state !== 'playing') return;
+        state = 'error';
+        clearTimer();
+        emitUpdate();
+      }
+    });
+    startTimer();
+    emitUpdate();
+  }
+
+  function attach(lessonToAttach, languageKey) {
+    const isSameLesson = lesson && lesson.slug === lessonToAttach.slug && language === languageKey;
+    if (isSameLesson) return;
+    teardown();
+    lesson = lessonToAttach;
+    language = languageKey;
+    rateKey = getStoredReadingRate(language) || 'normal';
+    loadVoices();
+    const built = buildReadingSegments(lesson, rateValue());
+    segments = built.segments;
+    totalDurationSeconds = built.totalDurationSeconds;
+    partsCount = built.partsCount;
+    currentSegmentIndex = 0;
+    currentPartIndex = segments[0]?.partIndex ?? 0;
+    elapsedBeforeCurrentSegment = 0;
+    state = segments.length ? 'idle' : 'error';
+  }
+
+  function setHandlers(handlers) {
+    onUpdate = handlers?.onUpdate || null;
+    onPartChange = handlers?.onPartChange || null;
+  }
+
+  function playReading() {
+    if (!supportsSpeech() || !segments.length) return;
+    if (state === 'paused') {
+      resumeReading();
+      return;
+    }
+    if (state === 'completed' || state === 'stopped' || state === 'error') {
+      currentSegmentIndex = 0;
+      elapsedBeforeCurrentSegment = 0;
+    }
+    window.speechSynthesis.cancel(); // only one reading (or flashcard/tutor) utterance is ever active at a time
+    state = 'playing';
+    speakCurrentSegment();
+  }
+
+  function pauseReading() {
+    if (state !== 'playing' || !supportsSpeech()) return;
+    const seg = segments[currentSegmentIndex];
+    elapsedBeforeCurrentSegment += Math.min(
+      (performance.now() - segmentStartedAt) / 1000,
+      seg?.estimatedDurationSeconds || 0
+    );
+    state = 'paused';
+    clearTimer();
+    window.speechSynthesis.pause();
+    emitUpdate();
+    setTimeout(() => {
+      // Some mobile browsers silently ignore pause() and keep talking -
+      // if so, force a hard stop; resumeReading() re-speaks the frozen
+      // segment from its start either way, so nothing is lost.
+      if (state === 'paused' && window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+        playbackToken += 1;
+        window.speechSynthesis.cancel();
+      }
+    }, PAUSE_WATCHDOG_MS);
+  }
+
+  function resumeReading() {
+    if (state !== 'paused' || !supportsSpeech()) return;
+    if (window.speechSynthesis.paused) {
+      state = 'playing';
+      segmentStartedAt = performance.now();
+      window.speechSynthesis.resume();
+      startTimer();
+      emitUpdate();
+      setTimeout(() => {
+        // resume() sometimes silently no-ops (notably iOS Safari) - detect
+        // that and fall back to re-speaking the current segment.
+        if (state === 'playing' && !window.speechSynthesis.speaking) {
+          speakCurrentSegment();
+        }
+      }, PAUSE_WATCHDOG_MS);
+    } else {
+      // pause() never actually took effect earlier (the watchdog above
+      // already cancelled it) - nothing to resume, so re-speak the
+      // current segment from its start.
+      state = 'playing';
+      speakCurrentSegment();
+    }
+  }
+
+  function stopReading() {
+    playbackToken += 1;
+    state = 'stopped';
+    clearTimer();
+    if (supportsSpeech()) window.speechSynthesis.cancel();
+    currentSegmentIndex = 0;
+    elapsedBeforeCurrentSegment = 0;
+    setPart(segments[0]?.partIndex ?? 0);
+    emitUpdate();
+  }
+
+  function rewindReading(seconds = 5) {
+    if (!segments.length) return;
+    const wasPlaying = state === 'playing';
+    const seg = segments[currentSegmentIndex];
+    const currentElapsed =
+      elapsedBeforeCurrentSegment +
+      (wasPlaying ? Math.min((performance.now() - segmentStartedAt) / 1000, seg?.estimatedDurationSeconds || 0) : 0);
+    const targetTime = Math.max(0, currentElapsed - seconds);
+    const targetIndex = findReadingSegmentIndexAtTime(segments, targetTime);
+    playbackToken += 1;
+    if (supportsSpeech()) window.speechSynthesis.cancel();
+    currentSegmentIndex = targetIndex;
+    elapsedBeforeCurrentSegment = segments[targetIndex].estimatedStartSeconds;
+    setPart(segments[targetIndex].partIndex);
+    if (wasPlaying) {
+      state = 'playing';
+      speakCurrentSegment();
+    } else {
+      clearTimer();
+      emitUpdate();
+    }
+  }
+
+  function changeReadingVoice() {
+    if (voices.length < 2) return;
+    voiceIndex = (voiceIndex + 1) % voices.length;
+    setStoredReadingVoiceName(language, currentVoice()?.name || '');
+    if (state === 'playing') {
+      playbackToken += 1;
+      if (supportsSpeech()) window.speechSynthesis.cancel();
+      speakCurrentSegment();
+    } else {
+      emitUpdate();
+    }
+  }
+
+  function rebuildDurationsFromCurrentSegment() {
+    let cursor = elapsedBeforeCurrentSegment;
+    for (let i = currentSegmentIndex; i < segments.length; i++) {
+      segments[i].estimatedStartSeconds = cursor;
+      segments[i].estimatedDurationSeconds = estimateReadingSegmentSeconds(segments[i].text, rateValue());
+      cursor += segments[i].estimatedDurationSeconds;
+    }
+    totalDurationSeconds = cursor;
+  }
+
+  function changeReadingRate(nextRateKey) {
+    if (!READING_RATE_PRESETS[nextRateKey] || nextRateKey === rateKey) return;
+    rateKey = nextRateKey;
+    setStoredReadingRate(language, rateKey);
+    rebuildDurationsFromCurrentSegment();
+    if (state === 'playing') {
+      playbackToken += 1;
+      if (supportsSpeech()) window.speechSynthesis.cancel();
+      speakCurrentSegment();
+    } else {
+      emitUpdate();
+    }
+  }
+
+  function teardown() {
+    playbackToken += 1;
+    clearTimer();
+    if (supportsSpeech()) window.speechSynthesis.cancel();
+    state = 'idle';
+    lesson = null;
+    language = null;
+    segments = [];
+    totalDurationSeconds = 0;
+    partsCount = 1;
+    currentSegmentIndex = 0;
+    currentPartIndex = 0;
+    elapsedBeforeCurrentSegment = 0;
+    voices = [];
+    voiceIndex = 0;
+    onUpdate = null;
+    onPartChange = null;
+  }
+
+  if (supportsSpeech()) {
+    // Chrome (desktop especially) returns an empty voice list until this
+    // fires once, asynchronously, after page load.
+    window.speechSynthesis.addEventListener('voiceschanged', () => {
+      if (lesson) {
+        loadVoices();
+        emitUpdate();
+      }
+    });
+  }
+
+  return {
+    isSupported: supportsSpeech,
+    attach,
+    teardown,
+    setHandlers,
+    getSnapshot: snapshot,
+    playReading,
+    pauseReading,
+    resumeReading,
+    rewindReading,
+    stopReading,
+    changeReadingVoice,
+    changeReadingRate
+  };
+})();
+
 function escapeHtml(value = '') {
   return String(value)
     .replaceAll('&', '&amp;')
@@ -2731,6 +3273,7 @@ function updateSkillViewBackLink(section, skill, showLibraryBack) {
     link.href = `#${skill}`;
     link.onclick = (event) => {
       event.preventDefault();
+      if (skill === 'reading') readingSpeechPlayer.teardown();
       learningPathState.activeSlug = '';
       renderSkillView(skill);
     };
@@ -2899,6 +3442,104 @@ function renderReadingOrderingHtml(lesson, runtime) {
   `;
 }
 
+// Markup for the full-reading audio player (spec section A) - rendered
+// above the paginated Parte 1/2/3 text, never replacing it. Hidden
+// entirely (with a short explanatory message, no console errors) when
+// the browser has no speechSynthesis at all - same graceful-degradation
+// rule as flashcard pronunciation.
+function renderReadingAudioPlayerHtml(snapshot) {
+  if (!readingSpeechPlayer.isSupported()) {
+    return `<p class="reading-audio-unavailable no-print">La reproducción de voz no está disponible en este dispositivo.</p>`;
+  }
+  const isPlaying = snapshot.state === 'playing';
+  const isPaused = snapshot.state === 'paused';
+  const playPauseLabel = isPlaying ? '⏸ Pausar' : isPaused ? '▶ Continuar' : '▶ Reproducir';
+  const playPauseAria = isPlaying
+    ? 'Pausar lectura'
+    : isPaused
+      ? 'Continuar lectura'
+      : 'Reproducir lectura completa';
+  return `
+    <div class="reading-audio-player no-print" role="group" aria-label="Reproductor de la lectura completa">
+      <div class="reading-audio-controls">
+        <button type="button" class="reading-audio-btn reading-audio-playpause-btn${isPlaying ? ' is-active' : ''}" aria-label="${playPauseAria}">${playPauseLabel}</button>
+        <button type="button" class="reading-audio-btn reading-audio-rewind-btn" aria-label="Retroceder cinco segundos" ${snapshot.state === 'idle' || snapshot.state === 'error' ? 'disabled' : ''}>↶ 5 s</button>
+        <button type="button" class="reading-audio-btn reading-audio-stop-btn" aria-label="Detener lectura" ${snapshot.state === 'idle' || snapshot.state === 'stopped' ? 'disabled' : ''}>⏹ Detener</button>
+        <button type="button" class="reading-audio-btn reading-audio-voice-btn" aria-label="Cambiar voz" title="${snapshot.voiceName ? `Voz: ${escapeHtml(snapshot.voiceName)}` : ''}" ${snapshot.canChangeVoice ? '' : 'hidden'}>🔄 <span class="reading-audio-voice-label">${escapeHtml(snapshot.voiceLabel || '')}</span></button>
+      </div>
+      <div class="reading-audio-rate-group" role="group" aria-label="Velocidad de lectura">
+        <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'slow' ? ' is-active' : ''}" data-rate="slow" aria-pressed="${snapshot.rateKey === 'slow'}">Lenta</button>
+        <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'normal' ? ' is-active' : ''}" data-rate="normal" aria-pressed="${snapshot.rateKey === 'normal'}">Normal</button>
+      </div>
+      <div class="reading-audio-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${snapshot.progressPct}" aria-label="Progreso de la lectura">
+        <div class="reading-audio-progress-fill" style="width:${snapshot.progressPct}%"></div>
+      </div>
+      <div class="reading-audio-meta">
+        <span class="reading-audio-time">${formatReadingTime(snapshot.elapsedSeconds)} / ${formatReadingTime(snapshot.totalDurationSeconds)}</span>
+        <span class="reading-audio-percent">${snapshot.progressPct}%</span>
+      </div>
+    </div>
+  `;
+}
+
+// Patches the audio player's own DOM in place (progress bar, clock,
+// button labels/states) rather than re-rendering the whole reading -
+// this runs up to 4x/second while playing, and a full re-render would
+// wipe focus, scroll position and any in-progress exercise selections.
+// Full re-renders only happen on real part transitions (see
+// renderReadingView's onPartChange handler) or manual Anterior/Continuar,
+// both rare by comparison.
+function updateReadingPlayerUI(section, snapshot) {
+  const player = section.querySelector('.reading-audio-player');
+  if (!player) return;
+
+  const fill = player.querySelector('.reading-audio-progress-fill');
+  if (fill) fill.style.width = `${snapshot.progressPct}%`;
+  const progressWrap = player.querySelector('.reading-audio-progress');
+  if (progressWrap) progressWrap.setAttribute('aria-valuenow', String(snapshot.progressPct));
+
+  const timeEl = player.querySelector('.reading-audio-time');
+  if (timeEl) {
+    timeEl.textContent = `${formatReadingTime(snapshot.elapsedSeconds)} / ${formatReadingTime(snapshot.totalDurationSeconds)}`;
+  }
+  const pctEl = player.querySelector('.reading-audio-percent');
+  if (pctEl) pctEl.textContent = `${snapshot.progressPct}%`;
+
+  const playPauseBtn = player.querySelector('.reading-audio-playpause-btn');
+  if (playPauseBtn) {
+    const isPlaying = snapshot.state === 'playing';
+    const isPaused = snapshot.state === 'paused';
+    playPauseBtn.textContent = isPlaying ? '⏸ Pausar' : isPaused ? '▶ Continuar' : '▶ Reproducir';
+    playPauseBtn.setAttribute(
+      'aria-label',
+      isPlaying ? 'Pausar lectura' : isPaused ? 'Continuar lectura' : 'Reproducir lectura completa'
+    );
+    playPauseBtn.classList.toggle('is-active', isPlaying);
+  }
+
+  const rewindBtn = player.querySelector('.reading-audio-rewind-btn');
+  if (rewindBtn) rewindBtn.disabled = snapshot.state === 'idle' || snapshot.state === 'error';
+
+  const stopBtn = player.querySelector('.reading-audio-stop-btn');
+  if (stopBtn) stopBtn.disabled = snapshot.state === 'idle' || snapshot.state === 'stopped';
+
+  const voiceBtn = player.querySelector('.reading-audio-voice-btn');
+  if (voiceBtn) {
+    voiceBtn.hidden = !snapshot.canChangeVoice;
+    voiceBtn.title = snapshot.voiceName ? `Voz: ${snapshot.voiceName}` : '';
+    const label = voiceBtn.querySelector('.reading-audio-voice-label');
+    if (label) label.textContent = snapshot.voiceLabel || '';
+  }
+
+  player.querySelectorAll('.reading-audio-rate-btn').forEach((btn) => {
+    const isActive = btn.dataset.rate === snapshot.rateKey;
+    btn.classList.toggle('is-active', isActive);
+    btn.setAttribute('aria-pressed', String(isActive));
+  });
+
+  player.classList.toggle('is-completed', snapshot.state === 'completed');
+}
+
 function renderReadingView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
@@ -2934,29 +3575,33 @@ function renderReadingView(section, lesson) {
   const bridgeLabel = languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
   const targetLabel =
     languageDisplayNames[learningPathState.language] || learningPathState.language;
-  const canSpeak = supportsSpeech();
-  const speakLocale = getPronunciationLocale(learningPathState.language);
-  const speakRate = getDefaultPronunciationRate();
+
+  // Attaching is a no-op when this is the same lesson already loaded
+  // (e.g. a manual Anterior/Continuar re-render, or a part-transition
+  // re-render triggered by the player itself) - continuous playback
+  // survives the DOM rebuild below either way.
+  readingSpeechPlayer.attach(lesson, learningPathState.language);
+  const audioSnapshot = readingSpeechPlayer.getSnapshot();
+  const audioPlayerHtml = renderReadingAudioPlayerHtml(audioSnapshot);
 
   // Paginated part viewer (English A1's 3-part readings) vs. the original
   // single-block layout (every reading without lesson.reading.parts - every
   // other language, unaffected) - both end up inside the same print area, so
-  // downloading a PDF always shows the complete text either way.
+  // downloading a PDF always shows the complete text either way. While the
+  // player is actively speaking, the displayed part follows its progress
+  // (see the onPartChange handler below); otherwise it follows manual
+  // Anterior/Continuar clicks - both just move the same runtime.currentPart.
   let readingBodyHtml;
   if (hasParts) {
     const runtime = getReadingPartRuntime(lesson);
     const currentPart = Math.min(runtime.currentPart, parts.length - 1);
     const isLastPart = currentPart === parts.length - 1;
+    const isPartPlaying = audioSnapshot.state === 'playing' && audioSnapshot.currentPart === currentPart;
     readingBodyHtml = `
-      <div class="reading-part-viewer no-print">
+      <div class="reading-part-viewer no-print${isPartPlaying ? ' is-reading-active' : ''}">
         <p class="reading-part-progress">Parte ${currentPart + 1} de ${parts.length}</p>
         <div class="reading-part-text"><p>${escapeHtml(parts[currentPart])}</p></div>
         <div class="reading-part-actions">
-          ${
-            canSpeak
-              ? `<button type="button" class="secondary-btn reading-part-listen-btn" data-speak-text="${escapeHtml(parts[currentPart])}" data-speak-locale="${escapeHtml(speakLocale)}" data-speak-rate="${speakRate}">🔊 Escuchar esta parte</button>`
-              : ''
-          }
           <button type="button" class="secondary-btn reading-part-prev-btn" ${currentPart === 0 ? 'disabled' : ''}>← Anterior</button>
           ${
             isLastPart
@@ -2986,6 +3631,7 @@ function renderReadingView(section, lesson) {
       <h3>${escapeHtml(lesson.title)}</h3>
       <p class="reading-level-tag">${escapeHtml(lesson.level)} · Reading</p>
       <div class="reading-progress-bar no-print" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
+      ${audioPlayerHtml}
       ${readingBodyHtml}
       <div class="reading-vocab-section no-print">
         <button type="button" class="secondary-btn reading-toggle-vocab">Ver vocabulario</button>
@@ -3019,6 +3665,18 @@ function renderReadingView(section, lesson) {
       <button type="button" class="primary-btn reading-print-btn">Descargar PDF</button>
     </div>
   `;
+
+  // Re-registered on every render (cheap, idempotent) so the player's
+  // callbacks always point at the DOM/lesson/runtime this exact render
+  // produced, even though attach() above only actually resets playback
+  // state when the lesson changes.
+  readingSpeechPlayer.setHandlers({
+    onUpdate: (snap) => updateReadingPlayerUI(section, snap),
+    onPartChange: (partIndex) => {
+      if (hasParts) getReadingPartRuntime(lesson).currentPart = partIndex;
+      renderReadingView(section, lesson);
+    }
+  });
 }
 
 function renderWritingView(section, lesson) {
@@ -4438,6 +5096,11 @@ function getUnitsForLanguageLevel(language, level) {
 }
 
 async function loadLearningPath(options = {}) {
+  // Changing language or level always invalidates whatever reading is
+  // currently attached to the audio player, even if the user isn't on
+  // the Reading view right now - no reading audio should keep playing
+  // in the background across a language/level switch.
+  readingSpeechPlayer.teardown();
   learningPathState.language = options.language || learningPathState.language;
   learningPathState.level = options.level || learningPathState.level;
   learningPathState.units = getUnitsForLanguageLevel(
@@ -4745,6 +5408,9 @@ function showView(viewId) {
   // drop any in-progress Speaking recording - a no-op when nothing is active.
   resetSpeakingRecorder();
   stopTutorDictation();
+  // Same rule for reading audio - no view change should leave a reading
+  // playing in the background (also a no-op when nothing is attached).
+  readingSpeechPlayer.teardown();
 
   Object.entries(VIEW_SECTIONS).forEach(([id, selectors]) => {
     const active = id === resolved;
@@ -5336,12 +6002,35 @@ function enableHomepageActions() {
       }
       return;
     }
-    const readingPartListenBtn = event.target.closest('.reading-part-listen-btn');
-    if (readingPartListenBtn) {
-      speakText(readingPartListenBtn.dataset.speakText, {
-        locale: readingPartListenBtn.dataset.speakLocale,
-        rate: Number(readingPartListenBtn.dataset.speakRate) || 1
-      });
+    // Full-reading audio player (spec section A/C) - a single toggle
+    // button cycles Reproducir -> Pausar -> Continuar -> Pausar..., the
+    // rest are one-shot actions on the shared readingSpeechPlayer singleton.
+    const readingAudioPlayPauseBtn = event.target.closest('.reading-audio-playpause-btn');
+    if (readingAudioPlayPauseBtn) {
+      const snap = readingSpeechPlayer.getSnapshot();
+      if (snap.state === 'playing') readingSpeechPlayer.pauseReading();
+      else if (snap.state === 'paused') readingSpeechPlayer.resumeReading();
+      else readingSpeechPlayer.playReading();
+      return;
+    }
+    const readingAudioRewindBtn = event.target.closest('.reading-audio-rewind-btn');
+    if (readingAudioRewindBtn) {
+      readingSpeechPlayer.rewindReading(5);
+      return;
+    }
+    const readingAudioStopBtn = event.target.closest('.reading-audio-stop-btn');
+    if (readingAudioStopBtn) {
+      readingSpeechPlayer.stopReading();
+      return;
+    }
+    const readingAudioVoiceBtn = event.target.closest('.reading-audio-voice-btn');
+    if (readingAudioVoiceBtn) {
+      readingSpeechPlayer.changeReadingVoice();
+      return;
+    }
+    const readingAudioRateBtn = event.target.closest('.reading-audio-rate-btn');
+    if (readingAudioRateBtn) {
+      readingSpeechPlayer.changeReadingRate(readingAudioRateBtn.dataset.rate);
       return;
     }
 
