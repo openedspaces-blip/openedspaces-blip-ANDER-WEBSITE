@@ -42,6 +42,18 @@ const units = [
     description: "Salutations, présentations et l'alphabet, avec Camila à son premier jour à Tours.",
     order: 1,
     accessTier: 'free',
+    unitOverview: {
+      objective: "Se présenter, saluer et rencontrer d'autres personnes.",
+      outcomes: [
+        'dire ton nom',
+        "demander le nom de quelqu'un d'autre",
+        'utiliser des salutations formelles et informelles',
+        'épeler des informations de base'
+      ],
+      grammar: ['verbe être', 'pronoms sujets', 'questions de base'],
+      vocabulary: ['salutations', 'noms', 'expressions de classe', 'nombres 0–20'],
+      scenario: 'Ton premier jour dans un cours de français.'
+    },
     activities: {
       reading: activity('reading', {
         title: 'Bienvenue à Tours !',

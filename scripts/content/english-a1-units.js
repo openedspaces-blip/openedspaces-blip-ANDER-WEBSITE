@@ -31,6 +31,18 @@ const units = [
     titleEs: '¡Hola!',
     description: 'Greetings, introductions and the alphabet.',
     order: 1,
+    unitOverview: {
+      objective: 'Presentarte, saludar y conocer a otras personas.',
+      outcomes: [
+        'decir tu nombre',
+        'preguntar el nombre de otra persona',
+        'usar saludos formales e informales',
+        'deletrear información básica'
+      ],
+      grammar: ['verb to be', 'subject pronouns', 'basic questions'],
+      vocabulary: ['greetings', 'names', 'classroom expressions', 'numbers 0–20'],
+      scenario: 'Tu primer día en una clase de inglés.'
+    },
     activities: {
       reading: activity('reading', {
         title: 'Hello, Class!',
