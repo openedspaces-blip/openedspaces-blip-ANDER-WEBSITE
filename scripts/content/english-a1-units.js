@@ -1,19 +1,14 @@
 // scripts/content/english-a1-units.js
-// Hand-authored English A1 content: 12 thematic units, 7 real activities
-// each (reading/listening/speaking/writing/grammar/vocabulary/dialogue) -
-// one per skill per unit, plus a standalone dialogue, not a single generic
-// "Quest/Lab/Mission" card per skill. The dialogue skill follows the same
-// recurring cast used across the other activities (Ana, Leo, Sofia, Marco,
-// Mr. Green), one scene per unit, matching that unit's theme - mirrors the
-// shape of scripts/content/french-a1-units.js.
+// Hand-authored English A1 content: 12 thematic units, 6 real activities
+// each (reading/listening/speaking/writing/grammar/vocabulary) - one per
+// skill per unit, not a single generic "Quest/Lab/Mission" card per skill.
 // Everything the learner sees (titles, texts, dialogue, exercises) is in
 // English; Spanish only appears in vocabulary/dialogue `translation` fields
 // and each unit's `titleEs`, both optional-support fields the frontend
 // already renders hidden-by-default (see resolveVocabTranslation()).
 //
 // Consumed by scripts/build-english-a1-seed.js, which flattens this into
-// lib/seed-lessons.json (84 rows: 72 core + 12 dialogues) + lib/seed-units.json
-// (12 rows).
+// lib/seed-lessons.json (72 rows) + lib/seed-units.json (12 rows).
 
 const DEFAULTS = {
   reading: { duration: 10, xp: 25 },
@@ -21,8 +16,7 @@ const DEFAULTS = {
   speaking: { duration: 8, xp: 20 },
   writing: { duration: 12, xp: 25 },
   grammar: { duration: 8, xp: 20 },
-  vocabulary: { duration: 6, xp: 20 },
-  dialogue: { duration: 10, xp: 20 }
+  vocabulary: { duration: 6, xp: 20 }
 };
 
 function activity(skill, fields) {
@@ -149,30 +143,6 @@ const units = [
           { type: 'mcq', prompt: 'What does "Nice to meet you" mean?', options: ['Buenos días', 'Mucho gusto', 'Por favor', 'Amigo'], answer: 1 },
           { type: 'mcq', prompt: 'What does "Teacher" mean?', options: ['Amigo/a', 'Nombre', 'Profesor/a', 'Adiós'], answer: 2 }
         ]
-      }),
-      dialogue: activity('dialogue', {
-        title: 'Meeting a New Classmate',
-        description: 'Sofia meets Leo, a new classmate, on his first day.',
-        intro: 'Leo is new at school. Sofia notices him standing alone and decides to say hello before class starts.',
-        dialogue: [
-          { speaker: 'Sofia', line: 'Hi! Are you new here?', translation: '¡Hola! ¿Eres nuevo aquí?' },
-          { speaker: 'Leo', line: "Yes, I am. My name is Leo. What's your name?", translation: 'Sí, lo soy. Me llamo Leo. ¿Cómo te llamas?' },
-          { speaker: 'Sofia', line: "I'm Sofia. Nice to meet you, Leo.", translation: 'Soy Sofia. Mucho gusto, Leo.' },
-          { speaker: 'Leo', line: 'Nice to meet you too. Is this seat free?', translation: 'Igualmente. ¿Está libre este asiento?' },
-          { speaker: 'Sofia', line: 'Yes, sit here! Welcome to our class.', translation: '¡Sí, siéntate aquí! Bienvenido a nuestra clase.' },
-          { speaker: 'Leo', line: "Thank you! I'm a little nervous today.", translation: '¡Gracias! Estoy un poco nervioso hoy.' },
-          { speaker: 'Sofia', line: "Don't worry, everyone is friendly here.", translation: 'No te preocupes, todos son amables aquí.' }
-        ],
-        phrases: ['Are you new here?', 'Is this seat free?', "Don't worry.", 'Welcome to our class.'],
-        vocabulary: [
-          { word: 'New', translation: 'Nuevo/a', example: 'Leo is new here.' },
-          { word: 'Seat', translation: 'Asiento', example: 'Is this seat free?' }
-        ],
-        exercises: [
-          { type: 'mcq', prompt: 'Who is new in class?', options: ['Sofia', 'Leo', 'Mr. Green', 'Ana'], answer: 1 },
-          { type: 'mcq', prompt: 'What does Sofia offer Leo?', options: ['A book', 'A pencil', 'A seat next to her', 'A snack'], answer: 2 },
-          { type: 'mcq', prompt: 'How does Leo feel?', options: ['Angry', 'A little nervous', 'Tired', 'Bored'], answer: 1 }
-        ]
       })
     }
   },
@@ -295,31 +265,6 @@ const units = [
           { type: 'mcq', prompt: 'What does "Tired" mean?', options: ['Cansado/a', 'Feliz', 'Edad', 'Bien'], answer: 0 },
           { type: 'mcq', prompt: 'What does "Country" mean?', options: ['Estudiante', 'Edad', 'País', 'Triste'], answer: 2 }
         ]
-      }),
-      dialogue: activity('dialogue', {
-        title: 'Sharing Personal Information',
-        description: 'Leo registers at the school office and answers questions about himself.',
-        intro: 'Leo goes to the school office to finish his registration. The secretary asks him some personal questions.',
-        dialogue: [
-          { speaker: 'Secretary', line: "Good morning! What's your full name, please?", translation: '¡Buenos días! ¿Cuál es tu nombre completo, por favor?' },
-          { speaker: 'Leo', line: 'My name is Leo Bianchi.', translation: 'Me llamo Leo Bianchi.' },
-          { speaker: 'Secretary', line: 'How old are you, Leo?', translation: '¿Cuántos años tienes, Leo?' },
-          { speaker: 'Leo', line: "I'm twelve years old.", translation: 'Tengo doce años.' },
-          { speaker: 'Secretary', line: 'Where are you from?', translation: '¿De dónde eres?' },
-          { speaker: 'Leo', line: "I'm from Italy.", translation: 'Soy de Italia.' },
-          { speaker: 'Secretary', line: "Great! And what's your favorite subject?", translation: '¡Genial! ¿Y cuál es tu materia favorita?' },
-          { speaker: 'Leo', line: 'My favorite subject is Art.', translation: 'Mi materia favorita es Arte.' }
-        ],
-        phrases: ["What's your full name?", 'How old are you?', 'Where are you from?', "What's your favorite subject?"],
-        vocabulary: [
-          { word: 'Full name', translation: 'Nombre completo', example: "What's your full name?" },
-          { word: 'Favorite subject', translation: 'Materia favorita', example: 'My favorite subject is Art.' }
-        ],
-        exercises: [
-          { type: 'mcq', prompt: "What is Leo's full name?", options: ['Leo Green', 'Leo Bianchi', 'Leo Marco', 'Leo Ana'], answer: 1 },
-          { type: 'mcq', prompt: 'How old is Leo?', options: ['Eleven', 'Twelve', 'Thirteen', 'Fourteen'], answer: 1 },
-          { type: 'mcq', prompt: "What is Leo's favorite subject?", options: ['Math', 'Science', 'Art', 'English'], answer: 2 }
-        ]
       })
     }
   },
@@ -441,30 +386,6 @@ const units = [
           { type: 'mcq', prompt: 'What does "Brother" mean?', options: ['Hermana', 'Hermano', 'Padre', 'Primo'], answer: 1 },
           { type: 'mcq', prompt: 'What does "Grandmother" mean?', options: ['Abuelo', 'Madre', 'Abuela', 'Prima'], answer: 2 },
           { type: 'mcq', prompt: 'What does "Cousin" mean?', options: ['Primo/a', 'Hermano', 'Padre', 'Familia'], answer: 0 }
-        ]
-      }),
-      dialogue: activity('dialogue', {
-        title: 'Talking About Family',
-        description: "Leo visits Ana's house and meets her mother and grandmother.",
-        intro: "Ana invites Leo to her house after school. Leo meets Ana's mother, Carmen, and her grandmother, Rosa.",
-        dialogue: [
-          { speaker: 'Ana', line: 'Leo, welcome to my house! This is my mother, Carmen.', translation: 'Leo, ¡bienvenido a mi casa! Esta es mi madre, Carmen.' },
-          { speaker: 'Leo', line: 'Nice to meet you, Mrs. Carmen.', translation: 'Mucho gusto, señora Carmen.' },
-          { speaker: 'Carmen', line: 'Nice to meet you too, Leo. Are you hungry?', translation: 'Igualmente, Leo. ¿Tienes hambre?' },
-          { speaker: 'Leo', line: 'A little, thank you!', translation: 'Un poco, ¡gracias!' },
-          { speaker: 'Ana', line: 'And this is my grandmother, Rosa. She makes the best food.', translation: 'Y esta es mi abuela, Rosa. Ella cocina la mejor comida.' },
-          { speaker: 'Rosa', line: 'Hello, Leo! Sit down, please.', translation: '¡Hola, Leo! Siéntate, por favor.' },
-          { speaker: 'Leo', line: 'Thank you very much. Your family is very kind.', translation: 'Muchas gracias. Su familia es muy amable.' }
-        ],
-        phrases: ['Welcome to my house.', 'Nice to meet you.', 'Are you hungry?', 'Sit down, please.'],
-        vocabulary: [
-          { word: 'Welcome', translation: 'Bienvenido/a', example: 'Welcome to my house.' },
-          { word: 'Kind', translation: 'Amable', example: 'Your family is very kind.' }
-        ],
-        exercises: [
-          { type: 'mcq', prompt: 'Who does Ana introduce first?', options: ['Her grandmother', 'Her mother, Carmen', 'Her sister', 'Her father'], answer: 1 },
-          { type: 'mcq', prompt: 'What does Carmen ask Leo?', options: ['If he is tired', 'If he is hungry', 'If he is happy', 'If he is late'], answer: 1 },
-          { type: 'mcq', prompt: "What does Leo say about Ana's family?", options: ['They are very busy', 'They are very kind', 'They are very quiet', 'They are very strict'], answer: 1 }
         ]
       })
     }
