@@ -252,6 +252,7 @@
           <a href="#reading" class="level-tab" data-tab="reading">Reading</a>
           <a href="#listening" class="level-tab" data-tab="listening">Listening</a>
           <a href="#speaking" class="level-tab" data-tab="speaking">Speaking</a>
+          <a href="#dialogue" class="level-tab" data-tab="dialogue">Dialogues</a>
           <a href="#writing" class="level-tab" data-tab="writing">Writing</a>
           <a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a>
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
@@ -268,6 +269,13 @@
           <article class="skill-competency-card" data-skill="speaking" role="button" tabindex="0">
             <div class="icon">🎙</div>
             <h3>Speaking</h3>
+            <span class="skill-card-status skill-card-status-loading">Cargando…</span>
+            <div class="skill-card-progress" hidden><div style="width: 0%"></div></div>
+            <span class="skill-card-xp"></span>
+          </article>
+          <article class="skill-competency-card" data-skill="dialogue" role="button" tabindex="0">
+            <div class="icon">💬</div>
+            <h3>Dialogues</h3>
             <span class="skill-card-status skill-card-status-loading">Cargando…</span>
             <div class="skill-card-progress" hidden><div style="width: 0%"></div></div>
             <span class="skill-card-xp"></span>
@@ -367,6 +375,7 @@
           <a href="#reading" class="level-tab" data-tab="reading">Reading</a>
           <a href="#listening" class="level-tab" data-tab="listening">Listening</a>
           <a href="#speaking" class="level-tab" data-tab="speaking">Speaking</a>
+          <a href="#dialogue" class="level-tab" data-tab="dialogue">Dialogues</a>
           <a href="#writing" class="level-tab" data-tab="writing">Writing</a>
           <a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a>
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
@@ -412,6 +421,7 @@
           <a href="#reading" class="level-tab" data-tab="reading">Reading</a>
           <a href="#listening" class="level-tab" data-tab="listening">Listening</a>
           <a href="#speaking" class="level-tab" data-tab="speaking">Speaking</a>
+          <a href="#dialogue" class="level-tab" data-tab="dialogue">Dialogues</a>
           <a href="#writing" class="level-tab" data-tab="writing">Writing</a>
           <a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a>
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
@@ -457,6 +467,7 @@
           <a href="#reading" class="level-tab" data-tab="reading">Reading</a>
           <a href="#listening" class="level-tab" data-tab="listening">Listening</a>
           <a href="#speaking" class="level-tab" data-tab="speaking">Speaking</a>
+          <a href="#dialogue" class="level-tab" data-tab="dialogue">Dialogues</a>
           <a href="#writing" class="level-tab" data-tab="writing">Writing</a>
           <a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a>
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
@@ -502,6 +513,7 @@
           <a href="#reading" class="level-tab" data-tab="reading">Reading</a>
           <a href="#listening" class="level-tab" data-tab="listening">Listening</a>
           <a href="#speaking" class="level-tab" data-tab="speaking">Speaking</a>
+          <a href="#dialogue" class="level-tab" data-tab="dialogue">Dialogues</a>
           <a href="#writing" class="level-tab" data-tab="writing">Writing</a>
           <a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a>
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
@@ -547,6 +559,7 @@
           <a href="#reading" class="level-tab" data-tab="reading">Reading</a>
           <a href="#listening" class="level-tab" data-tab="listening">Listening</a>
           <a href="#speaking" class="level-tab" data-tab="speaking">Speaking</a>
+          <a href="#dialogue" class="level-tab" data-tab="dialogue">Dialogues</a>
           <a href="#writing" class="level-tab" data-tab="writing">Writing</a>
           <a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a>
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
@@ -592,6 +605,7 @@
           <a href="#reading" class="level-tab" data-tab="reading">Reading</a>
           <a href="#listening" class="level-tab" data-tab="listening">Listening</a>
           <a href="#speaking" class="level-tab" data-tab="speaking">Speaking</a>
+          <a href="#dialogue" class="level-tab" data-tab="dialogue">Dialogues</a>
           <a href="#writing" class="level-tab" data-tab="writing">Writing</a>
           <a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a>
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
@@ -619,6 +633,52 @@
         </div>
         <div class="skill-view-content">
           <p class="skill-graph-empty">Listening estará disponible próximamente.</p>
+        </div>
+      </section>
+
+      <section
+        id="dialogue"
+        class="section skill-view-section compact-hidden-section"
+        data-skill="dialogue"
+        aria-label="Dialogues"
+      >
+        <div class="section-heading">
+          <span>Dialogues</span>
+          <h2 tabindex="-1">Diálogos guiados</h2>
+        </div>
+        <nav class="level-tabs" aria-label="Secciones del nivel">
+          <a href="#learn" class="level-tab" data-tab="learn">Ruta</a>
+          <a href="#reading" class="level-tab" data-tab="reading">Reading</a>
+          <a href="#listening" class="level-tab" data-tab="listening">Listening</a>
+          <a href="#speaking" class="level-tab" data-tab="speaking">Speaking</a>
+          <a href="#dialogue" class="level-tab" data-tab="dialogue">Dialogues</a>
+          <a href="#writing" class="level-tab" data-tab="writing">Writing</a>
+          <a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a>
+          <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
+        </nav>
+        <div class="skill-view-header">
+          <div class="skill-view-pills">
+            <span class="skill-view-pill"
+              >Idioma puente: <strong data-field="bridge">Español</strong></span
+            >
+            <span class="skill-view-pill"
+              >Idioma meta: <strong data-field="target">English</strong></span
+            >
+            <span class="skill-view-pill">Nivel: <strong data-field="level">A1</strong></span>
+          </div>
+          <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
+          <div class="skill-view-actions">
+            <button type="button" class="secondary-btn change-combination-btn">
+              Cambiar combinación
+            </button>
+            <a href="#learn" class="secondary-btn back-to-route-btn">← Volver a la ruta</a>
+            <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">
+              Abrir Tutor IA
+            </button>
+          </div>
+        </div>
+        <div class="skill-view-content">
+          <p class="skill-graph-empty">Preparando Dialogues…</p>
         </div>
       </section>
 

@@ -5306,6 +5306,139 @@ footer small {
   outline: none;
 }
 
+/* Dialogues: situation + 3-mode selector (Écouter/Jouer un rôle/Tuteur IA) +
+   line-by-line playback/roleplay list. See renderDialogueView() in
+   src/js/script.js. */
+.dialogue-situation {
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.dialogue-modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.dialogue-mode-btn.is-active {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.dialogue-panel {
+  margin-bottom: 1.25rem;
+}
+
+.dialogue-lines-list,
+.dialogue-roleplay-lines {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.dialogue-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.65rem 0.9rem;
+  max-width: 100%;
+}
+
+.dialogue-line--mine {
+  flex-direction: column;
+  align-items: stretch;
+  border-color: var(--blue);
+}
+
+.dialogue-speaker {
+  font-weight: 700;
+  min-width: 5rem;
+}
+
+.dialogue-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  word-break: break-word;
+}
+
+.dialogue-line-speak-btn {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 999px;
+  width: 1.9rem;
+  height: 1.9rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.dialogue-translation {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--muted);
+  width: 100%;
+}
+
+/* Never show the Spanish support translation until the student opts in
+   (see the reading-vocab-support / dialogue-toggle-translation-btn
+   handler in script.js) - without this, the class rule above's
+   `display: block` wins over the [hidden] attribute's UA-stylesheet
+   `display: none`, since both have equal specificity and this
+   author stylesheet loads after it. */
+.dialogue-translation[hidden] {
+  display: none;
+}
+
+.dialogue-role-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.dialogue-role-btn.is-active {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.dialogue-roleplay-input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.5rem 0.65rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.dialogue-model-line {
+  font-size: 0.85rem;
+  color: var(--muted);
+  background: var(--bg-soft, rgba(96, 165, 250, 0.08));
+  border-radius: 10px;
+  padding: 0.5rem 0.7rem;
+}
+
+.dialogue-phrases {
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 1.25rem;
+}
+
+.dialogue-phrases ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.1rem;
+}
+
 /* Listening: status cards (no audio / AI offer / error) */
 .listening-status-card {
   text-align: center;

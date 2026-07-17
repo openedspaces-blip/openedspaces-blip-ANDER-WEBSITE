@@ -165,23 +165,39 @@ test('health endpoint reports AI tutor configuration without leaking keys or oth
 
 // English A1 is now organized into 12 thematic units with one activity per
 // skill each (72 activities) instead of a single lesson per skill (6) -
-// see scripts/content/english-a1-units.js. Every other language/level keeps
-// the original flat, single-lesson-per-skill shape.
+// see scripts/content/english-a1-units.js. French A1 got the same
+// unit-based treatment plus an extra 'dialogue' skill (12 units x 7 skills
+// = 84 activities) - see scripts/content/french-a1-units.js and the
+// dialogue_skill/dialogue_mission migration. Every other language/level
+// keeps the original flat, single-lesson-per-skill shape.
 const ENGLISH_A1_ACTIVITY_COUNT = 72;
+const FRENCH_A1_ACTIVITY_COUNT = 84;
+const UNIT_SKILLS_BY_LANGUAGE = { french: [...SKILLS, 'dialogue'] };
 
-test('fallback worlds include six lessons per level for every supported language (English A1: 12 units x 6 skills)', () => {
+function unitSkillsFor(language) {
+  return UNIT_SKILLS_BY_LANGUAGE[language] || SKILLS;
+}
+
+test('fallback worlds include six lessons per level for every supported language (English A1: 12 units x 6 skills, French A1: 12 units x 7 skills)', () => {
   for (const language of WORLD_LANGUAGES) {
     const lessons = getLocalLessons(language);
-    const expectedTotal = language === 'english' ? 36 - 6 + ENGLISH_A1_ACTIVITY_COUNT : 36;
+    const a1Count =
+      language === 'english'
+        ? ENGLISH_A1_ACTIVITY_COUNT
+        : language === 'french'
+          ? FRENCH_A1_ACTIVITY_COUNT
+          : 6;
+    const expectedTotal = 36 - 6 + a1Count;
     assert.equal(lessons.length, expectedTotal);
 
     for (const level of LEVELS) {
       const levelLessons = lessons.filter((lesson) => lesson.level === level);
-      const expectedLevelCount = language === 'english' && level === 'A1' ? ENGLISH_A1_ACTIVITY_COUNT : 6;
+      const expectedLevelCount = level === 'A1' ? a1Count : 6;
       assert.equal(levelLessons.length, expectedLevelCount);
+      const expectedSkills = level === 'A1' ? unitSkillsFor(language) : SKILLS;
       assert.deepEqual(
         [...new Set(levelLessons.map((lesson) => lesson.skill))].sort(),
-        [...SKILLS].sort()
+        [...expectedSkills].sort()
       );
     }
   }
@@ -266,7 +282,7 @@ test('lessons endpoint returns the A1 learning path', async () => {
   }
 });
 
-test('lessons endpoint returns expanded A1 worlds for every supported language (English: 12 units x 6 skills)', async () => {
+test('lessons endpoint returns expanded A1 worlds for every supported language (English: 12 units x 6 skills, French: 12 units x 7 skills)', async () => {
   const { server, port } = await startTestServer();
   try {
     for (const language of WORLD_LANGUAGES) {
@@ -275,16 +291,21 @@ test('lessons endpoint returns expanded A1 worlds for every supported language (
       );
       assert.equal(response.status, 200);
       const body = await response.json();
-      const expectedCount = language === 'english' ? ENGLISH_A1_ACTIVITY_COUNT : 6;
+      const expectedCount =
+        language === 'english'
+          ? ENGLISH_A1_ACTIVITY_COUNT
+          : language === 'french'
+            ? FRENCH_A1_ACTIVITY_COUNT
+            : 6;
       assert.equal(body.lessons.length, expectedCount);
       assert.deepEqual(
         [...new Set(body.lessons.map((lesson) => lesson.skill))].sort(),
-        [...SKILLS].sort()
+        [...unitSkillsFor(language)].sort()
       );
-      if (language === 'english') {
+      if (language === 'english' || language === 'french') {
         assert.ok(
           body.lessons.every((lesson) => typeof lesson.unitId === 'string' && lesson.unitId.length > 0),
-          'expected every English A1 activity to have a unitId'
+          `expected every ${language} A1 activity to have a unitId`
         );
       }
     }
@@ -377,4 +398,102 @@ test('isPremiumActive rejects a free-tier profile', () => {
     false
   );
   assert.equal(isPremiumActive(null), false);
+});
+
+// French A1 content shape (scripts/content/french-a1-units.js, flattened by
+// scripts/build-french-a1-seed.js into lib/seed-lessons.json/seed-units.json).
+// These read the seed files directly - no server/Supabase needed - mirroring
+// how migrate-french-a1-units.js itself guards against a malformed seed
+// before ever touching the database.
+const seedUnits = require('./lib/seed-units.json');
+const seedLessons = require('./lib/seed-lessons.json');
+
+test('French A1 has exactly 12 units, in order, units 1-2 free and 3-12 premium', () => {
+  const units = seedUnits
+    .filter((row) => row.target_language === 'french' && row.level === 'A1')
+    .sort((a, b) => (a.order_index || 0) - (b.order_index || 0));
+  assert.equal(units.length, 12);
+  units.forEach((unit, index) => {
+    assert.equal(unit.order_index, index + 1, `unit "${unit.slug}" should be order ${index + 1}`);
+  });
+
+  const lessonsByUnit = {};
+  seedLessons
+    .filter((row) => row.target_language === 'french' && row.level === 'A1')
+    .forEach((row) => {
+      (lessonsByUnit[row.unit_slug] = lessonsByUnit[row.unit_slug] || []).push(row);
+    });
+
+  units.forEach((unit, index) => {
+    const rows = lessonsByUnit[unit.slug] || [];
+    assert.ok(rows.length > 0, `expected activities for unit "${unit.slug}"`);
+    const expectedTier = index < 2 ? 'free' : 'premium';
+    rows.forEach((row) => {
+      assert.equal(
+        row.access_tier,
+        expectedTier,
+        `expected ${row.slug} (unit ${index + 1}) to be access_tier="${expectedTier}", got "${row.access_tier}"`
+      );
+    });
+  });
+});
+
+test('French A1 has exactly 84 activities: 72 core skills + 12 standalone dialogues', () => {
+  const rows = seedLessons.filter((row) => row.target_language === 'french' && row.level === 'A1');
+  assert.equal(rows.length, 84);
+
+  const dialogueRows = rows.filter((row) => row.skill === 'dialogue');
+  assert.equal(dialogueRows.length, 12);
+
+  const CORE_SKILLS = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
+  const unitSlugs = [...new Set(rows.map((row) => row.unit_slug))];
+  assert.equal(unitSlugs.length, 12);
+  unitSlugs.forEach((unitSlug) => {
+    const skillsForUnit = rows.filter((row) => row.unit_slug === unitSlug).map((row) => row.skill);
+    assert.deepEqual([...skillsForUnit].sort(), [...CORE_SKILLS, 'dialogue'].sort());
+  });
+});
+
+test('every French A1 reading has 3 parts and exactly 8 exercises (4 mcq + 3 vrai/faux + 1 vocabulary-in-context)', () => {
+  const readingRows = seedLessons.filter(
+    (row) => row.target_language === 'french' && row.level === 'A1' && row.skill === 'reading'
+  );
+  assert.equal(readingRows.length, 12);
+
+  readingRows.forEach((row) => {
+    const reading = row.content_json.reading;
+    assert.equal(reading.parts.length, 3, `${row.slug} should have 3 reading parts`);
+
+    const exercises = row.content_json.exercises;
+    assert.equal(exercises.length, 8, `${row.slug} should have 8 exercises`);
+
+    const vraiFaux = exercises.filter(
+      (ex) => Array.isArray(ex.options) && ex.options.length === 2 && ex.options.includes('Vrai')
+    );
+    assert.equal(vraiFaux.length, 3, `${row.slug} should have 3 vrai/faux exercises`);
+
+    const mcqComprehension = exercises.filter((ex) => !vraiFaux.includes(ex));
+    assert.equal(mcqComprehension.length, 5, `${row.slug} should have 5 remaining mcq (4 comprehension + 1 vocabulary-in-context)`);
+  });
+});
+
+test('every French A1 unit has a dialogue activity with dialogue lines and comprehension questions', () => {
+  const dialogueRows = seedLessons.filter(
+    (row) => row.target_language === 'french' && row.level === 'A1' && row.skill === 'dialogue'
+  );
+  assert.equal(dialogueRows.length, 12);
+  dialogueRows.forEach((row) => {
+    assert.ok(row.content_json.dialogue.length > 0, `${row.slug} should have dialogue lines`);
+    assert.ok(row.content_json.exercises.length > 0, `${row.slug} should have comprehension exercises`);
+  });
+});
+
+// The dedicated 'dialogue' skill type is generic (see SKILL_VIEW_RENDERERS
+// in src/js/script.js) - assert English A1 wasn't given any dialogue rows,
+// i.e. this is additive-only for English.
+test('English A1 has no dialogue-skill activities (dialogue is French-A1-only for now)', () => {
+  const englishDialogueRows = seedLessons.filter(
+    (row) => row.target_language === 'english' && row.skill === 'dialogue'
+  );
+  assert.equal(englishDialogueRows.length, 0);
 });

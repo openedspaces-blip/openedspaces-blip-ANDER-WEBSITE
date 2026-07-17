@@ -239,6 +239,7 @@ function setTargetLanguage(lang, options = {}) {
   loadLearningPath({ language: resolved, level });
   updatePathPairPreview();
   updateAiTutorContext();
+  updateLevelTabLabels();
   if (options.persist !== false) savePreferences(resolved, level, currentBridgeLanguage);
   return true;
 }
@@ -3075,12 +3076,14 @@ function renderLearningPath() {
 }
 
 const SKILL_LABELS = {
+  learn: 'Ruta',
   listening: 'Listening',
   speaking: 'Speaking',
   reading: 'Reading',
   writing: 'Writing',
   grammar: 'Grammar',
-  vocabulary: 'Vocabulary'
+  vocabulary: 'Vocabulary',
+  dialogue: 'Dialogues'
 };
 
 // French A1's pedagogical content is authored entirely in French (see
@@ -3089,6 +3092,7 @@ const SKILL_LABELS = {
 // 'dialogue' type) stay the same for code compatibility. Every other
 // language keeps the SKILL_LABELS map above unchanged.
 const SKILL_LABELS_FRENCH = {
+  learn: 'Parcours',
   listening: 'Compréhension orale',
   speaking: 'Expression orale',
   reading: 'Lecture',
@@ -3101,6 +3105,22 @@ const SKILL_LABELS_FRENCH = {
 function getSkillLabel(skill, language = learningPathState.language) {
   if (language === 'french') return SKILL_LABELS_FRENCH[skill] || SKILL_LABELS[skill] || skill;
   return SKILL_LABELS[skill] || skill;
+}
+
+// Updates every repeated .level-tabs strip (one per skill section, see
+// index.html) and every .skill-competency-card <h3> to match the active
+// target language - these are plain static markup otherwise, so without
+// this they'd keep showing English/Spanish labels no matter which
+// language's course is open. Cheap full-DOM sweep, called on every
+// navigation (showView) and language switch (setTargetLanguage).
+function updateLevelTabLabels() {
+  document.querySelectorAll('.level-tab[data-tab]').forEach((link) => {
+    link.textContent = getSkillLabel(link.dataset.tab);
+  });
+  document.querySelectorAll('.skill-competency-card[data-skill]').forEach((card) => {
+    const heading = card.querySelector('h3');
+    if (heading) heading.textContent = getSkillLabel(card.dataset.skill);
+  });
 }
 
 // Populates each of the 6 skill-competency-cards with real status/progress/XP
@@ -3279,7 +3299,8 @@ const SKILL_VIEW_RENDERERS = {
   writing: (section, lesson) => renderWritingView(section, lesson),
   speaking: (section, lesson) => renderSpeakingView(section, lesson),
   grammar: (section, lesson) => renderGrammarView(section, lesson),
-  vocabulary: (section, lesson) => renderVocabularyView(section, lesson)
+  vocabulary: (section, lesson) => renderVocabularyView(section, lesson),
+  dialogue: (section, lesson) => renderDialogueView(section, lesson)
 };
 
 // The section's "← Volver a la ruta" link is static markup (untouched by
@@ -4214,7 +4235,7 @@ function renderDialogueView(section, lesson) {
     const btn = event.currentTarget;
     const nowHidden = content.querySelector('.dialogue-translation')?.hidden;
     content.querySelectorAll('.dialogue-translation').forEach((el) => {
-      el.hidden = !nowHidden ? true : false;
+      el.hidden = !nowHidden;
     });
     btn.textContent = nowHidden
       ? t("Masquer l'aide en espagnol", 'Ocultar apoyo en español')
@@ -5552,7 +5573,7 @@ if (menuToggle && siteMenu) {
 // content inside #learning-path's small lesson-workspace card) - listed
 // once here since several places (router, card click handler, header
 // renderer) all need to agree on the same set.
-const SKILL_VIEWS = ['listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary'];
+const SKILL_VIEWS = ['listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary', 'dialogue'];
 
 const VIEW_SECTIONS = {
   home: ['.hero', '#language-picker'],
@@ -5569,6 +5590,7 @@ const VIEW_SECTIONS = {
   writing: ['#writing'],
   grammar: ['#grammar'],
   vocabulary: ['#vocabulary'],
+  dialogue: ['#dialogue'],
   'reset-password': ['#resetPasswordSection']
 };
 
@@ -5590,7 +5612,8 @@ const VIEW_TITLE_SELECTORS = {
   reading: '#reading h2',
   writing: '#writing h2',
   grammar: '#grammar h2',
-  vocabulary: '#vocabulary h2'
+  vocabulary: '#vocabulary h2',
+  dialogue: '#dialogue h2'
 };
 
 function getViewFromHash() {
@@ -5645,6 +5668,7 @@ function showView(viewId) {
       link.removeAttribute('aria-current');
     }
   });
+  updateLevelTabLabels();
 
   if (resolved === 'learn') {
     // Mobile's route drawer is user-driven ("Ver ruta"/"Volver a la ruta") -
