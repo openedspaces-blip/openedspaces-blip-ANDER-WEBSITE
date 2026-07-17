@@ -54,7 +54,12 @@ const backendBaseUrl =
     : '';
 const authStatus = {
   user: null,
-  session: null
+  session: null,
+  // Populated only from GET /api/dashboard's `entitlements` field (see
+  // lib/entitlementsService.js) - never set from username/email/localStorage,
+  // so the CEO/Premium badge below can only ever reflect what the server
+  // just verified, not a client-side guess.
+  entitlements: null
 };
 
 // Holds the aal1 session while a second factor is pending, in memory only -
@@ -134,7 +139,13 @@ function renderAuthState() {
 
   if (userChip) {
     userChip.hidden = !isSignedIn;
-    userChip.textContent = isSignedIn ? (name ? `Hola, ${name}` : 'Hola') : '';
+    const greeting = name ? `Hola, ${name}` : 'Hola';
+    // entitlements.role comes straight from GET /api/dashboard, computed
+    // server-side by getUserEntitlements() - this only ever renders what the
+    // backend already decided, it never decides authorization itself.
+    const roleBadge =
+      isSignedIn && authStatus.entitlements?.role === 'ceo' ? ' · CEO · Premium' : '';
+    userChip.textContent = isSignedIn ? `${greeting}${roleBadge}` : '';
   }
 
   if (logoutButton) logoutButton.hidden = !isSignedIn;
@@ -397,6 +408,10 @@ async function postJson(path, payload, { auth = false } = {}) {
     const code = data.code || (data.message ? data.error : undefined);
     const error = new Error(message);
     if (code) error.code = code;
+    // Only ever present on the EMAIL_NOT_CONFIRMED login error (see
+    // lib/authService.js) - undefined everywhere else, so this never adds a
+    // field to any other endpoint's thrown error.
+    if (data.email) error.email = data.email;
     throw error;
   }
 
@@ -689,11 +704,16 @@ let dashboardPreferences = null;
 function renderDashboard(data) {
   if (!data) {
     dashboardPreferences = null;
+    authStatus.entitlements = null;
     renderDashboardSignedOut();
     return;
   }
 
   dashboardPreferences = data.preferences;
+  if (data.entitlements) {
+    authStatus.entitlements = data.entitlements;
+    renderAuthState();
+  }
   renderDashboardStats(data);
   renderDashboardGoal(data.goal, data.preferences);
   renderDashboardActivity(data.activity);
@@ -1053,6 +1073,16 @@ function attachAuthHandlers() {
       saveSession(data.user, data.session);
       await afterAuthSuccess();
     } catch (error) {
+      // Existing account, correct password, just never confirmed - route to
+      // the same OTP panel signup uses instead of a dead-end inline message,
+      // per spec section 7. error.email is only ever set on this exact error
+      // (see authService.login/postJson above) and is safe to use here: the
+      // password already checked out, so this isn't an enumeration leak.
+      if (error.code === 'EMAIL_NOT_CONFIRMED' && error.email) {
+        openModal('signup');
+        showSignupPending(error.email, { source: 'login-unconfirmed' });
+        return;
+      }
       setAuthMessage(error.message, true);
     }
   });
@@ -1538,14 +1568,31 @@ function setResendOtpCooldown(seconds) {
   }, 1000);
 }
 
-function showSignupPending(email) {
+// source distinguishes the two ways this same panel gets shown:
+//  - 'register' (default): right after signUp(), account has no password to
+//    lose track of, heading reassures "Verifica tu cuenta".
+//  - 'login-unconfirmed': an *existing* account with a correct password hit
+//    EMAIL_NOT_CONFIRMED at login (see the loginForm handler below) - the
+//    heading instead reads "Tu cuenta está pendiente de verificación." per
+//    spec, since this isn't a brand-new signup.
+let signupPendingSource = 'register';
+
+function showSignupPending(email, { source = 'register' } = {}) {
   lastSignupEmail = email;
+  signupPendingSource = source;
   const fields = document.querySelector('#signupForm .signup-fields');
   const pending = document.getElementById('signupPending');
   const verifyStep = document.getElementById('verifyAccountStep');
   const verifySuccess = document.getElementById('verifyAccountSuccess');
   const statusEl = document.getElementById('otpStatus');
+  const headingEl = document.getElementById('verifyAccountHeading');
   if (fields) fields.hidden = true;
+  if (headingEl) {
+    headingEl.textContent =
+      source === 'login-unconfirmed'
+        ? 'Tu cuenta está pendiente de verificación.'
+        : 'Verifica tu cuenta';
+  }
   if (pending) {
     pending.hidden = false;
     const messageEl = pending.querySelector('.signup-pending-message');
@@ -1560,7 +1607,7 @@ function showSignupPending(email) {
     statusEl.classList.remove('is-error');
   }
   clearOtpDigits();
-  setResendOtpCooldown(30);
+  setResendOtpCooldown(60);
 }
 
 function resetSignupPending() {
@@ -1590,7 +1637,17 @@ document.getElementById('otpInputRow')?.addEventListener('input', (event) => {
 
 document.getElementById('otpInputRow')?.addEventListener('keydown', (event) => {
   const input = event.target.closest('.otp-digit');
-  if (!input || event.key !== 'Backspace' || input.value) return;
+  if (!input) return;
+
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    document
+      .querySelector('#verifyAccountStep [data-action="confirm-otp"]')
+      ?.click();
+    return;
+  }
+
+  if (event.key !== 'Backspace' || input.value) return;
   const inputs = getOtpDigitInputs();
   const prev = inputs[inputs.indexOf(input) - 1];
   prev?.focus();
@@ -1622,6 +1679,27 @@ document.getElementById('signupPending')?.addEventListener('click', async (event
     return;
   }
 
+  if (button.dataset.action === 'change-email') {
+    if (signupPendingSource === 'login-unconfirmed') {
+      // This account already exists - "changing" the email here means going
+      // back to the login form to try a different identifier, not editing a
+      // signup form that was never filled in for this flow.
+      resetSignupPending();
+      openModal('login');
+      const loginIdentifierInput = document.getElementById('loginIdentifier');
+      loginIdentifierInput?.focus();
+      loginIdentifierInput?.select();
+    } else {
+      // Fresh signup: keep the username/password already typed, just let
+      // them correct the email address before re-submitting.
+      resetSignupPending();
+      const emailInput = document.getElementById('signupEmail');
+      emailInput?.focus();
+      emailInput?.select();
+    }
+    return;
+  }
+
   if (button.dataset.action === 'confirm-otp') {
     const statusEl = document.getElementById('otpStatus');
     const code = getOtpCode();
@@ -1646,7 +1724,7 @@ document.getElementById('signupPending')?.addEventListener('click', async (event
       });
       const data = await response.json().catch(() => ({}));
       if (!response.ok || !data.ok) {
-        throw new Error(data.message || 'Código incorrecto. Intenta de nuevo.');
+        throw new Error(data.message || 'El código no es válido.');
       }
 
       const verifyStep = document.getElementById('verifyAccountStep');
@@ -1655,7 +1733,7 @@ document.getElementById('signupPending')?.addEventListener('click', async (event
       if (verifySuccess) verifySuccess.hidden = false;
     } catch (error) {
       if (statusEl) {
-        statusEl.textContent = error.message || 'Código incorrecto. Intenta de nuevo.';
+        statusEl.textContent = error.message || 'El código no es válido.';
         statusEl.classList.add('is-error');
       }
       clearOtpDigits();
@@ -1685,10 +1763,10 @@ document.getElementById('signupPending')?.addEventListener('click', async (event
       }
     } catch (error) {
       console.warn('Could not resend OTP', error);
-      if (statusEl) statusEl.textContent = 'No se pudo reenviar el código. Intenta de nuevo.';
+      if (statusEl) statusEl.textContent = 'No pudimos enviar el código. Intenta nuevamente.';
     } finally {
       clearOtpDigits();
-      setResendOtpCooldown(30);
+      setResendOtpCooldown(60);
     }
   }
 });
@@ -1901,6 +1979,11 @@ const learningPathState = {
   // see hasUnits() below, which every unit-aware render path is gated on.
   units: [],
   activeSlug: null,
+  // id of the unit currently selected in the unit accordion / skill library
+  // (english-a1-unit-02, etc.) - null for languages/levels without units
+  // (see hasUnits()). This is the single source of truth for "which unit is
+  // open"; selectUnit() below is the only place that should write it.
+  unitId: null,
   language: 'english',
   level: 'A1',
   // Practice results recorded locally as the student answers, keyed by
@@ -1931,6 +2014,42 @@ function getSkillActivities(skill) {
 
 function getUnitActivities(unitId) {
   return learningPathState.lessons.filter((item) => item.unitId === unitId);
+}
+
+// Single place that writes activeSlug - keeps it in sync with unitId so a
+// lesson picked from anywhere (unit accordion, skill library) always moves
+// learningPathState.unitId to that lesson's unit too. Before this, only
+// activeSlug was tracked; nothing recorded which unit was selected, so
+// selecting a unit with no lesson click left every unit-scoped fallback
+// (getActiveLearningLesson, getNextRecommendedLesson, the accordion's
+// open/closed state) still resolving against whatever unit came first.
+function setActiveLesson(slug) {
+  learningPathState.activeSlug = slug || '';
+  if (slug) {
+    const lesson = learningPathState.lessons.find((item) => item.slug === slug);
+    if (lesson?.unitId) learningPathState.unitId = lesson.unitId;
+  }
+}
+
+// Wired to unit accordion header clicks. Selecting a unit that doesn't
+// contain the currently active lesson clears the stale activeSlug and picks
+// that unit's first available (not completed/locked) lesson instead of
+// leaving the content panel pointed at the previous unit's lesson.
+function selectUnit(unitId, options = {}) {
+  if (!unitId) return;
+  const changingUnit = unitId !== learningPathState.unitId;
+  learningPathState.unitId = unitId;
+  if (changingUnit) {
+    const activities = getUnitActivities(unitId);
+    const stillValid = activities.some((item) => item.slug === learningPathState.activeSlug);
+    if (!stillValid) {
+      const next =
+        activities.find((item) => !item.completed && !item.locked) || activities[0] || null;
+      setActiveLesson(next?.slug || '');
+      learningPathState.unitId = unitId;
+    }
+  }
+  if (options.render !== false) renderLearningPath();
 }
 
 function getExerciseProgress(lesson) {
@@ -2760,7 +2879,8 @@ function showLearnState(state) {
 function openLesson(slug) {
   if (!slug) return;
   stopTutorDictation();
-  learningPathState.activeSlug = slug;
+  setActiveLesson(slug);
+  updateLearnHash();
   renderLearningPath();
   showLearnState('lesson');
   if (authStatus.session?.access_token) {
@@ -2772,11 +2892,23 @@ function openLesson(slug) {
 }
 
 function getActiveLearningLesson() {
-  return (
-    learningPathState.lessons.find((item) => item.slug === learningPathState.activeSlug) ||
-    learningPathState.lessons[0] ||
-    null
+  const direct = learningPathState.lessons.find(
+    (item) => item.slug === learningPathState.activeSlug
   );
+  if (direct) return direct;
+  // No direct match (activeSlug empty/stale). Previously this fell straight
+  // to learningPathState.lessons[0], which - since lessons are ordered by
+  // unit - is always Unidad 1's first activity: the Tutor IA context and
+  // "next activity" would silently stick to Unidad 1 even right after the
+  // user selected a different unit. Prefer a lesson from the selected unit
+  // first, and only fall back to the course-wide recommendation otherwise.
+  if (learningPathState.unitId) {
+    const unitActivities = getUnitActivities(learningPathState.unitId);
+    const unitFallback =
+      unitActivities.find((item) => !item.completed && !item.locked) || unitActivities[0];
+    if (unitFallback) return unitFallback;
+  }
+  return getNextRecommendedLesson() || null;
 }
 
 function updateAiTutorContext() {
@@ -3054,16 +3186,27 @@ function renderLessonItemHtml(lesson, nextSlug) {
 // flat module. Reuses renderLessonItemHtml() so a unit's activities look
 // and behave exactly like the legacy flat list's items.
 function renderUnitAccordionHtml(nextSlug) {
+  // If nothing has explicitly selected a unit yet (fresh load / language or
+  // level switch, which resets unitId), default to the unit that holds the
+  // active lesson, or failing that the recommended "next" lesson - so the
+  // accordion opens somewhere sensible instead of every unit collapsed.
+  if (!learningPathState.unitId) {
+    const fallbackLesson = learningPathState.lessons.find(
+      (item) => item.slug === learningPathState.activeSlug || item.slug === nextSlug
+    );
+    if (fallbackLesson?.unitId) learningPathState.unitId = fallbackLesson.unitId;
+  }
+
   return learningPathState.units
     .map((unit) => {
       const activities = getUnitActivities(unit.id);
       const completedCount = activities.filter((item) => item.completed).length;
       const unitPct = activities.length ? Math.round((completedCount / activities.length) * 100) : 0;
-      const containsActive = activities.some((item) => item.slug === learningPathState.activeSlug);
+      const isSelected = unit.id === learningPathState.unitId;
 
       return `
-      <details class="path-unit" ${containsActive ? 'open' : ''}>
-        <summary class="path-unit-header">
+      <details class="path-unit${isSelected ? ' path-unit--selected' : ''}" data-unit-id="${escapeHtml(unit.id)}" ${isSelected ? 'open' : ''}>
+        <summary class="path-unit-header" ${isSelected ? 'aria-current="true"' : ''}>
           <span class="path-unit-order">${escapeHtml(String(unit.order))}</span>
           <span class="path-unit-titles">
             <span class="path-unit-title">${escapeHtml(unit.title)}</span>
@@ -3118,6 +3261,22 @@ function renderSkillGraph() {
 
   container.querySelectorAll('.path-lesson-item').forEach((nodeEl) => {
     nodeEl.addEventListener('click', () => openLesson(nodeEl.dataset.lessonSlug));
+  });
+
+  // Clicking a unit header selects that unit (see selectUnit()): it becomes
+  // the source of truth in learningPathState.unitId, its first available
+  // lesson is auto-picked when the previously active lesson belonged to a
+  // different unit, and the whole graph re-renders - which is also what
+  // opens this unit's <details> and closes every other one, since the
+  // native toggle is fully overridden here rather than left to the browser.
+  container.querySelectorAll('.path-unit-header').forEach((headerEl) => {
+    headerEl.addEventListener('click', (event) => {
+      event.preventDefault();
+      const unitId = headerEl.closest('.path-unit')?.dataset.unitId;
+      if (!unitId) return;
+      selectUnit(unitId);
+      updateLearnHash('learn');
+    });
   });
 
   // Keep the active lesson in view when the list re-renders (e.g. after
@@ -3624,8 +3783,9 @@ function renderSkillLibraryHtml(skill, activities) {
 function wireSkillLibrary(section, skill) {
   section.querySelectorAll('.skill-library-card').forEach((card) => {
     card.addEventListener('click', () => {
-      learningPathState.activeSlug = card.dataset.lessonSlug;
+      setActiveLesson(card.dataset.lessonSlug);
       renderSkillView(skill);
+      updateLearnHash(skill);
     });
   });
 }
@@ -3646,9 +3806,19 @@ function renderSkillView(skill) {
     if (content)
       content.innerHTML = `<p class="skill-graph-empty">Preparando ${getSkillLabel(skill)}…</p>`;
     updateSkillViewBackLink(section, skill, false);
-    loadLearningPath({ language: learningPathState.language, level: learningPathState.level }).then(
-      () => renderSkillView(skill)
-    );
+    // Consult the hash here too (not just bootstrapLearningPath) - a cold
+    // reload/shared link straight into a skill view (e.g.
+    // #reading/french/A1/unit-02/lesson-slug) reaches this branch before
+    // bootstrapLearningPath's own restore runs, since lessons are still
+    // empty at that point. Loading with the hash's language/level here
+    // avoids a flash of the wrong language before the correct one loads.
+    const hashState = parseLearnHashState();
+    loadLearningPath({
+      language: hashState.language || learningPathState.language,
+      level: hashState.level || learningPathState.level,
+      restoreUnitId: hashState.unitId,
+      restoreSlug: hashState.lessonSlug
+    }).then(() => renderSkillView(skill));
     return;
   }
 
@@ -5590,6 +5760,28 @@ async function loadLearningPath(options = {}) {
     graphContainer.innerHTML = '<p class="skill-graph-empty">Preparando tu ruta…</p>';
   }
 
+  // Applies options.restoreSlug/options.restoreUnitId (from a hash restored
+  // on load, or Back/Forward through history) now that lessons/units for
+  // this language+level have actually loaded. Falls back to the original
+  // "no auto-selection" behavior - an empty activeSlug is what makes
+  // renderLessonWorkspace() show the "continue" card (next recommended
+  // lesson) instead of always jumping straight to lessons[0]'s full detail.
+  const applyLoadedSelection = () => {
+    if (
+      options.restoreSlug &&
+      learningPathState.lessons.some((item) => item.slug === options.restoreSlug)
+    ) {
+      setActiveLesson(options.restoreSlug);
+      return;
+    }
+    learningPathState.activeSlug = '';
+    learningPathState.unitId =
+      options.restoreUnitId &&
+      learningPathState.units.some((unit) => unit.id === options.restoreUnitId)
+        ? options.restoreUnitId
+        : null;
+  };
+
   try {
     const params = new URLSearchParams({
       level: learningPathState.level,
@@ -5604,10 +5796,7 @@ async function loadLearningPath(options = {}) {
     learningPathState.lessons = data.lessons?.length
       ? data.lessons
       : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
-    // No auto-selection - an empty activeSlug is what makes
-    // renderLessonWorkspace() show the "continue" card (next recommended
-    // lesson) instead of always jumping straight to lessons[0]'s full detail.
-    learningPathState.activeSlug = '';
+    applyLoadedSelection();
     renderLearningPath();
   } catch (error) {
     console.warn('Could not load learning path from backend, using local content', error);
@@ -5615,10 +5804,7 @@ async function loadLearningPath(options = {}) {
       learningPathState.language,
       learningPathState.level
     );
-    // No auto-selection - an empty activeSlug is what makes
-    // renderLessonWorkspace() show the "continue" card (next recommended
-    // lesson) instead of always jumping straight to lessons[0]'s full detail.
-    learningPathState.activeSlug = '';
+    applyLoadedSelection();
     renderLearningPath();
   }
 }
@@ -5816,7 +6002,7 @@ if (menuToggle && siteMenu) {
   });
 
   window.addEventListener('resize', () => {
-    if (window.innerWidth > 980) {
+    if (window.innerWidth > 1100) {
       siteMenu.classList.remove('is-open');
       menuToggle.setAttribute('aria-expanded', 'false');
     }
@@ -5841,6 +6027,9 @@ const VIEW_SECTIONS = {
   goals: ['#goals'],
   tutor: ['#tutor'],
   premium: ['#premium'],
+  'how-it-works': ['#how-it-works'],
+  translator: ['#translator'],
+  about: ['#about'],
   listening: ['#listening'],
   speaking: ['#speaking'],
   reading: ['#reading'],
@@ -5864,6 +6053,9 @@ const VIEW_TITLE_SELECTORS = {
   goals: '#goals h2',
   tutor: '#tutor h2',
   premium: '#premium h2',
+  'how-it-works': '#how-it-works h2',
+  translator: '#translator h2',
+  about: '#about h2',
   listening: '#listening h2',
   speaking: '#speaking h2',
   reading: '#reading h2',
@@ -5874,10 +6066,50 @@ const VIEW_TITLE_SELECTORS = {
 };
 
 function getViewFromHash() {
-  const raw = window.location.hash.replace('#', '');
+  // Only the first /-separated segment is the view id - 'learn' and skill
+  // views can carry /<language>/<level>/<unitId>/<lessonSlug> after it (see
+  // updateLearnHash/parseLearnHashState below), which used to make this
+  // whole lookup miss (VIEW_SECTIONS['reading/french/A1/...'] is undefined)
+  // and silently fall back to 'home'.
+  const raw = window.location.hash.replace('#', '').split('/')[0];
   if (!raw) return 'home';
   if (raw.startsWith('language-') || targetLanguageMap[raw]) return 'learn';
   return VIEW_SECTIONS[raw] ? raw : 'home';
+}
+
+// Parses the optional /<language>/<level>/<unitId>/<lessonSlug> segments a
+// 'learn' or skill-view hash can carry after the view id - e.g.
+// #reading/french/A1/french-a1-unit-02/french-a1-unit-02-reading-01, written
+// by updateLearnHash() below. Any/all of these can be absent (plain
+// #reading, or the legacy #language-french marketing links keep working
+// unchanged since they never match VIEW_SECTIONS as a view id here).
+function parseLearnHashState() {
+  const [, language, level, unitId, lessonSlug] = window.location.hash
+    .replace('#', '')
+    .split('/');
+  return {
+    language: language && languageDisplayNames[language] ? language : null,
+    level: level || null,
+    unitId: unitId || null,
+    lessonSlug: lessonSlug || null
+  };
+}
+
+// Keeps the hash in sync with language/level/unit/lesson for 'learn' and
+// skill views, so reload, Back/Forward (via the popstate listener below),
+// and sharing the link restore the exact same content instead of always
+// landing on whichever unit/lesson happens to load first. Every other view
+// keeps its plain #viewId hash untouched.
+function updateLearnHash(viewOverride) {
+  const view = viewOverride || getViewFromHash();
+  if (view !== 'learn' && !SKILL_VIEWS.includes(view)) return;
+  const parts = [view, learningPathState.language, learningPathState.level];
+  if (learningPathState.unitId) {
+    parts.push(learningPathState.unitId);
+    if (learningPathState.activeSlug) parts.push(learningPathState.activeSlug);
+  }
+  const next = `#${parts.join('/')}`;
+  if (window.location.hash !== next) history.pushState(null, '', next);
 }
 
 function showView(viewId) {
@@ -5927,6 +6159,50 @@ function showView(viewId) {
   });
   updateLevelTabLabels();
 
+  // Restores language/level/unit/lesson from the hash for 'learn' and skill
+  // views (see updateLearnHash/parseLearnHashState) - only once lessons are
+  // already loaded (cold-boot restore is handled separately by
+  // renderSkillView's own loading guard and bootstrapLearningPath, since
+  // learningPathState.lessons is still empty at that point).
+  if ((resolved === 'learn' || SKILL_VIEWS.includes(resolved)) && learningPathState.lessons.length) {
+    const hashState = parseLearnHashState();
+    const languageChanged = hashState.language && hashState.language !== learningPathState.language;
+    const levelChanged = hashState.level && hashState.level !== learningPathState.level;
+    if (languageChanged || levelChanged) {
+      const nextLanguage = hashState.language || learningPathState.language;
+      currentTargetLanguage = nextLanguage;
+      const pathLanguageSelect = document.getElementById('pathLanguageSelect');
+      if (pathLanguageSelect) pathLanguageSelect.value = nextLanguage;
+      loadLearningPath({
+        language: nextLanguage,
+        level: hashState.level || learningPathState.level,
+        restoreUnitId: hashState.unitId,
+        restoreSlug: hashState.lessonSlug
+      }).then(() => {
+        if (SKILL_VIEWS.includes(resolved)) renderSkillView(resolved);
+        updateLearnHash(resolved);
+      });
+    } else {
+      let changed = false;
+      if (
+        hashState.lessonSlug &&
+        hashState.lessonSlug !== learningPathState.activeSlug &&
+        learningPathState.lessons.some((item) => item.slug === hashState.lessonSlug)
+      ) {
+        setActiveLesson(hashState.lessonSlug);
+        changed = true;
+      } else if (
+        hashState.unitId &&
+        hashState.unitId !== learningPathState.unitId &&
+        learningPathState.units.some((unit) => unit.id === hashState.unitId)
+      ) {
+        selectUnit(hashState.unitId, { render: false });
+        changed = true;
+      }
+      if (changed && resolved === 'learn') renderLearningPath();
+    }
+  }
+
   if (resolved === 'learn') {
     // Mobile's route drawer is user-driven ("Ver ruta"/"Volver a la ruta") -
     // entering #learn should land on the lesson panel (continue card or the
@@ -5943,6 +6219,21 @@ function showView(viewId) {
   if (resolved === 'security') loadSecurityStatus();
   if (SKILL_VIEWS.includes(resolved)) renderSkillView(resolved);
 
+  // Normalizes the hash to reflect the state that actually just rendered -
+  // covers plain nav-tab clicks (<a href="#reading">, no unit/lesson
+  // suffix), which would otherwise "forget" the previously selected
+  // unit/lesson in the address bar even though the content itself is still
+  // correct. A no-op when nothing changed (updateLearnHash only pushes when
+  // the computed hash differs from the current one).
+  // Guarded on lessons.length: on a cold load this fires before
+  // bootstrapLearningPath has fetched anything, with learningPathState still
+  // at its english/A1 defaults - without this guard it would overwrite a
+  // deep-linked hash (e.g. #reading/french/A1/...) with those defaults
+  // before bootstrapLearningPath's own parseLearnHashState() ever reads it.
+  if ((resolved === 'learn' || SKILL_VIEWS.includes(resolved)) && learningPathState.lessons.length) {
+    updateLearnHash(resolved);
+  }
+
   // The floating Tutor IA button is redundant on the dedicated Tutor view,
   // and the drawer shouldn't stay open across a navigation - it loses
   // whatever context it had anyway.
@@ -5954,6 +6245,12 @@ function showView(viewId) {
 }
 
 window.addEventListener('hashchange', () => showView(getViewFromHash()));
+
+// goTo() (handleHomeAction) navigates via history.pushState, which never
+// fires 'hashchange' - only a real link click or address-bar edit does.
+// Without this, the browser's Back/Forward buttons moved the URL bar but
+// left the previous view rendered on screen.
+window.addEventListener('popstate', () => showView(getViewFromHash()));
 
 closeModal?.addEventListener('click', closeAuth);
 authModal?.addEventListener('click', (event) => {
@@ -6036,16 +6333,8 @@ function handleHomeAction(action) {
       setTargetLanguage('frances');
       goTo('learn');
       break;
-    case 'explore-italiano':
-      setTargetLanguage('italiano');
-      goTo('learn');
-      break;
     case 'explore-espanol':
       setTargetLanguage('espanol');
-      goTo('learn');
-      break;
-    case 'explore-deutsch':
-      setTargetLanguage('deutsch');
       goTo('learn');
       break;
     default:
@@ -6774,9 +7063,122 @@ function initScrollReveal() {
   });
 }
 
+// ---------------------------------------------------------------------
+// Translator (#translator) - English/French/Spanish only, matching the rest
+// of the public frontend. Always calls POST /api/translator (never Azure
+// directly - see lib/translatorService.js); when that route reports
+// configured:false this shows the pending-configuration message instead of
+// ever fabricating a translation.
+function setupTranslator() {
+  const sourceSelect = document.getElementById('translatorSourceLang');
+  const targetSelect = document.getElementById('translatorTargetLang');
+  const swapBtn = document.getElementById('translatorSwapBtn');
+  const input = document.getElementById('translatorInput');
+  const output = document.getElementById('translatorOutput');
+  const charCount = document.getElementById('translatorCharCount');
+  const clearBtn = document.getElementById('translatorClearBtn');
+  const copyBtn = document.getElementById('translatorCopyBtn');
+  const listenSourceBtn = document.getElementById('translatorListenSourceBtn');
+  const listenOutputBtn = document.getElementById('translatorListenOutputBtn');
+  const submitBtn = document.getElementById('translatorSubmitBtn');
+  const status = document.getElementById('translatorStatus');
+  if (!input || !output || !submitBtn || !status) return;
+
+  const MAX_LENGTH = 1000;
+
+  const setStatus = (text, mode) => {
+    status.textContent = text;
+    status.classList.remove('is-loading', 'is-success', 'is-unavailable');
+    if (mode) status.classList.add(mode);
+  };
+
+  const updateCharCount = () => {
+    if (charCount) charCount.textContent = `${input.value.length} / ${MAX_LENGTH}`;
+  };
+
+  input.addEventListener('input', updateCharCount);
+  updateCharCount();
+
+  swapBtn?.addEventListener('click', () => {
+    // Swapping the selects only makes sense when the source is a real
+    // language - with 'auto' there is nothing known to place in the target
+    // slot, so leave both selects as-is and just swap the text either way.
+    if (sourceSelect.value !== 'auto' && targetSelect) {
+      const sourceValue = sourceSelect.value;
+      sourceSelect.value = targetSelect.value;
+      targetSelect.value = sourceValue;
+    }
+    const inputValue = input.value;
+    input.value = output.value;
+    output.value = inputValue;
+    updateCharCount();
+  });
+
+  clearBtn?.addEventListener('click', () => {
+    input.value = '';
+    output.value = '';
+    updateCharCount();
+    setStatus('Listo');
+  });
+
+  copyBtn?.addEventListener('click', async () => {
+    if (!output.value) return;
+    try {
+      await navigator.clipboard.writeText(output.value);
+      showHomeToast('Traducción copiada.');
+    } catch {
+      showHomeToast('No se pudo copiar la traducción.');
+    }
+  });
+
+  listenSourceBtn?.addEventListener('click', () => {
+    const lang = sourceSelect?.value;
+    speakText(input.value, { locale: lang && lang !== 'auto' ? LANGUAGE_LOCALES[lang] : undefined });
+  });
+
+  listenOutputBtn?.addEventListener('click', () => {
+    speakText(output.value, { locale: LANGUAGE_LOCALES[targetSelect?.value] });
+  });
+
+  submitBtn.addEventListener('click', async () => {
+    const text = input.value.trim();
+    if (!text) {
+      setStatus('Escribe un texto para traducir.', 'is-unavailable');
+      return;
+    }
+
+    setStatus('Traduciendo…', 'is-loading');
+    submitBtn.disabled = true;
+    try {
+      const data = await postJson('/api/translator', {
+        text,
+        sourceLanguage: sourceSelect?.value || 'auto',
+        targetLanguage: targetSelect?.value || 'spanish'
+      });
+
+      if (data.ok) {
+        output.value = data.translatedText || '';
+        setStatus('Completada', 'is-success');
+      } else if (data.configured === false) {
+        output.value = '';
+        setStatus('El traductor está temporalmente en configuración.', 'is-unavailable');
+      } else {
+        output.value = '';
+        setStatus(data.message || 'No disponible. Inténtalo de nuevo.', 'is-unavailable');
+      }
+    } catch (error) {
+      output.value = '';
+      setStatus(error.message || 'No disponible. Inténtalo de nuevo.', 'is-unavailable');
+    } finally {
+      submitBtn.disabled = false;
+    }
+  });
+}
+
 enableHomepageActions();
 loadProgress();
 setupLearningPathControls();
+setupTranslator();
 initScrollReveal();
 
 // /reset-password is a plain path (not a #hash), reached only via the link
@@ -6818,10 +7220,34 @@ document.querySelectorAll('.nav-group a[data-scroll-target]').forEach((link) => 
 // first render, so the learning path never flashes English A1 and then
 // jumps to the real preference a moment later.
 (async function bootstrapLearningPath() {
+  // A hash carrying /<language>/<level>/... (see parseLearnHashState) wins
+  // over the account's saved preferences on load - a reloaded or shared
+  // #reading/french/A1/... link should open exactly that, not silently
+  // revert to whatever language/level the account had saved.
+  const hashState = parseLearnHashState();
   const preferences = await loadPreferences();
-  applyPreferencesToSelects(preferences);
-  await loadLearningPath(preferences || {});
+  const effectivePreferences =
+    hashState.language || hashState.level
+      ? {
+          language: hashState.language || preferences?.language || learningPathState.language,
+          level: hashState.level || preferences?.level || learningPathState.level,
+          bridgeLanguage: preferences?.bridgeLanguage
+        }
+      : preferences;
+  applyPreferencesToSelects(effectivePreferences);
+  await loadLearningPath({
+    ...(effectivePreferences || {}),
+    restoreUnitId: hashState.unitId,
+    restoreSlug: hashState.lessonSlug
+  });
   updatePathPairPreview();
+  // renderSkillView's own loading-guard branch (see above) already fires an
+  // equivalent load if the user landed cold on a skill view (lessons were
+  // still empty then) - this re-render is what applies the final restored
+  // unit/lesson to that view once this load has actually finished, in case
+  // that earlier branch resolved first with an incomplete/default state.
+  const resolvedView = getViewFromHash();
+  if (SKILL_VIEWS.includes(resolvedView)) renderSkillView(resolvedView);
 })();
 
 document.getElementById('aiTutorPrompt')?.addEventListener('keydown', (event) => {
