@@ -11824,7 +11824,28 @@
     "title": "Bonjour et bienvenue",
     "titleEs": "Hola y bienvenida",
     "description": "Salutations, présentations et l'alphabet, avec Camila à son premier jour à Tours.",
-    "order": 1
+    "order": 1,
+    "unitOverview": {
+      "objective": "Se présenter, saluer et rencontrer d'autres personnes.",
+      "outcomes": [
+        "dire ton nom",
+        "demander le nom de quelqu'un d'autre",
+        "utiliser des salutations formelles et informelles",
+        "épeler des informations de base"
+      ],
+      "grammar": [
+        "verbe être",
+        "pronoms sujets",
+        "questions de base"
+      ],
+      "vocabulary": [
+        "salutations",
+        "noms",
+        "expressions de classe",
+        "nombres 0–20"
+      ],
+      "scenario": "Ton premier jour dans un cours de français."
+    }
   },
   {
     "id": "je-me-presente",
@@ -11833,7 +11854,8 @@
     "title": "Je me présente",
     "titleEs": "Me presento",
     "description": "Âge, nationalité et centres d'intérêt : Camila et ses camarades se présentent.",
-    "order": 2
+    "order": 2,
+    "unitOverview": null
   },
   {
     "id": "ma-famille-et-mes-amis",
@@ -11842,7 +11864,8 @@
     "title": "Ma famille et mes amis",
     "titleEs": "Mi familia y mis amigos",
     "description": "Camila présente sa famille de Saint-Domingue et sa famille d'accueil à Tours.",
-    "order": 3
+    "order": 3,
+    "unitOverview": null
   },
   {
     "id": "a-l-ecole",
@@ -11851,7 +11874,8 @@
     "title": "À l'école",
     "titleEs": "En la escuela",
     "description": "Karim fait visiter le collège de Tours à Camila.",
-    "order": 4
+    "order": 4,
+    "unitOverview": null
   },
   {
     "id": "ma-journee",
@@ -11860,7 +11884,8 @@
     "title": "Ma journée",
     "titleEs": "Mi día",
     "description": "La routine quotidienne de Camila chez la famille Lambert.",
-    "order": 5
+    "order": 5,
+    "unitOverview": null
   },
   {
     "id": "l-heure-et-les-dates",
@@ -11869,7 +11894,8 @@
     "title": "L'heure et les dates",
     "titleEs": "La hora y las fechas",
     "description": "Camila et Karim organisent une fête surprise pour l'anniversaire de Léa.",
-    "order": 6
+    "order": 6,
+    "unitOverview": null
   },
   {
     "id": "a-table",
@@ -11878,7 +11904,8 @@
     "title": "À table",
     "titleEs": "A la mesa",
     "description": "Camila découvre les repas en famille et la nourriture française.",
-    "order": 7
+    "order": 7,
+    "unitOverview": null
   },
   {
     "id": "chez-moi",
@@ -11887,7 +11914,8 @@
     "title": "Chez moi",
     "titleEs": "En mi casa",
     "description": "Camila décrit sa chambre chez la famille Lambert.",
-    "order": 8
+    "order": 8,
+    "unitOverview": null
   },
   {
     "id": "dans-ma-ville",
@@ -11896,7 +11924,8 @@
     "title": "Dans ma ville",
     "titleEs": "En mi ciudad",
     "description": "Camila et Léa se promènent dans Tours et demandent leur chemin.",
-    "order": 9
+    "order": 9,
+    "unitOverview": null
   },
   {
     "id": "mes-loisirs",
@@ -11905,7 +11934,8 @@
     "title": "Mes loisirs",
     "titleEs": "Mis pasatiempos",
     "description": "Camila, Léa et Karim partagent leurs loisirs le week-end.",
-    "order": 10
+    "order": 10,
+    "unitOverview": null
   },
   {
     "id": "les-vetements-et-les-achats",
@@ -11914,7 +11944,8 @@
     "title": "Les vêtements et les achats",
     "titleEs": "La ropa y las compras",
     "description": "Léa et Camila font du shopping dans le centre-ville de Tours.",
-    "order": 11
+    "order": 11,
+    "unitOverview": null
   },
   {
     "id": "la-meteo-et-les-voyages",
@@ -11923,7 +11954,8 @@
     "title": "La météo et les voyages",
     "titleEs": "El clima y los viajes",
     "description": "Camila prépare un voyage à Paris avec la famille Lambert.",
-    "order": 12
+    "order": 12,
+    "unitOverview": null
   }
 ];
 })();

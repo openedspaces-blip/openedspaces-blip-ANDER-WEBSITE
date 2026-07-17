@@ -11393,7 +11393,28 @@
     "title": "Hello!",
     "titleEs": "¡Hola!",
     "description": "Greetings, introductions and the alphabet.",
-    "order": 1
+    "order": 1,
+    "unitOverview": {
+      "objective": "Presentarte, saludar y conocer a otras personas.",
+      "outcomes": [
+        "decir tu nombre",
+        "preguntar el nombre de otra persona",
+        "usar saludos formales e informales",
+        "deletrear información básica"
+      ],
+      "grammar": [
+        "verb to be",
+        "subject pronouns",
+        "basic questions"
+      ],
+      "vocabulary": [
+        "greetings",
+        "names",
+        "classroom expressions",
+        "numbers 0–20"
+      ],
+      "scenario": "Tu primer día en una clase de inglés."
+    }
   },
   {
     "id": "about-me",
@@ -11402,7 +11423,8 @@
     "title": "About Me",
     "titleEs": "Sobre mí",
     "description": "Name, age, nationality and feelings.",
-    "order": 2
+    "order": 2,
+    "unitOverview": null
   },
   {
     "id": "family-and-friends",
@@ -11411,7 +11433,8 @@
     "title": "My Family and Friends",
     "titleEs": "Mi familia y amigos",
     "description": "Family members, possessive 's, and describing people.",
-    "order": 3
+    "order": 3,
+    "unitOverview": null
   },
   {
     "id": "my-school",
@@ -11420,7 +11443,8 @@
     "title": "My School",
     "titleEs": "Mi escuela",
     "description": "School objects, subjects and classroom language.",
-    "order": 4
+    "order": 4,
+    "unitOverview": null
   },
   {
     "id": "daily-routine",
@@ -11429,7 +11453,8 @@
     "title": "My Daily Routine",
     "titleEs": "Mi rutina diaria",
     "description": "Daily activities and the present simple.",
-    "order": 5
+    "order": 5,
+    "unitOverview": null
   },
   {
     "id": "time-and-dates",
@@ -11438,7 +11463,8 @@
     "title": "Time and Dates",
     "titleEs": "La hora y las fechas",
     "description": "Telling time, days, months and prepositions of time.",
-    "order": 6
+    "order": 6,
+    "unitOverview": null
   },
   {
     "id": "food-and-drinks",
@@ -11447,7 +11473,8 @@
     "title": "Food and Drinks",
     "titleEs": "Comidas y bebidas",
     "description": "Food vocabulary, likes/dislikes, and countable/uncountable nouns.",
-    "order": 7
+    "order": 7,
+    "unitOverview": null
   },
   {
     "id": "my-home",
@@ -11456,7 +11483,8 @@
     "title": "My Home",
     "titleEs": "Mi hogar",
     "description": "Rooms, furniture, and prepositions of place.",
-    "order": 8
+    "order": 8,
+    "unitOverview": null
   },
   {
     "id": "my-town",
@@ -11465,7 +11493,8 @@
     "title": "My Town",
     "titleEs": "Mi ciudad",
     "description": "Places in town and giving directions.",
-    "order": 9
+    "order": 9,
+    "unitOverview": null
   },
   {
     "id": "free-time",
@@ -11474,7 +11503,8 @@
     "title": "Free Time",
     "titleEs": "Tiempo libre",
     "description": "Hobbies, sports and adverbs of frequency.",
-    "order": 10
+    "order": 10,
+    "unitOverview": null
   },
   {
     "id": "clothes-and-shopping",
@@ -11483,7 +11513,8 @@
     "title": "Clothes and Shopping",
     "titleEs": "Ropa y compras",
     "description": "Clothing items, colors and shopping dialogues.",
-    "order": 11
+    "order": 11,
+    "unitOverview": null
   },
   {
     "id": "weather-and-travel",
@@ -11492,7 +11523,8 @@
     "title": "Weather and Travel",
     "titleEs": "El clima y los viajes",
     "description": "Weather expressions, seasons, and travel plans.",
-    "order": 12
+    "order": 12,
+    "unitOverview": null
   }
 ];
 })();

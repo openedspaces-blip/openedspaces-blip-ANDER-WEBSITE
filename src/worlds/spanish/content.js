@@ -9741,7 +9741,28 @@
     "title": "¡Hola! Mucho gusto",
     "titleEs": "",
     "description": "Saludos, despedidas, presentarse y el alfabeto.",
-    "order": 1
+    "order": 1,
+    "unitOverview": {
+      "objective": "Presentarte, saludar y conocer a otras personas.",
+      "outcomes": [
+        "decir tu nombre",
+        "preguntar el nombre de otra persona",
+        "usar saludos formales e informales",
+        "deletrear información básica"
+      ],
+      "grammar": [
+        "verbo to be",
+        "subject pronouns",
+        "basic questions"
+      ],
+      "vocabulary": [
+        "greetings",
+        "names",
+        "classroom expressions",
+        "numbers 0–20"
+      ],
+      "scenario": "Tu primer día en una clase de inglés."
+    }
   },
   {
     "id": "informacion-personal",
@@ -9750,7 +9771,8 @@
     "title": "Información personal",
     "titleEs": "",
     "description": "Edad, nacionalidad, procedencia y datos de contacto.",
-    "order": 2
+    "order": 2,
+    "unitOverview": null
   },
   {
     "id": "mi-familia-y-mis-amigos",
@@ -9759,7 +9781,8 @@
     "title": "Mi familia y mis amigos",
     "titleEs": "",
     "description": "Miembros de la familia, posesivos y describir personas.",
-    "order": 3
+    "order": 3,
+    "unitOverview": null
   },
   {
     "id": "mi-rutina-diaria",
@@ -9768,7 +9791,8 @@
     "title": "Mi rutina diaria",
     "titleEs": "",
     "description": "Actividades cotidianas, la hora y el presente de indicativo.",
-    "order": 4
+    "order": 4,
+    "unitOverview": null
   },
   {
     "id": "mi-casa",
@@ -9777,7 +9801,8 @@
     "title": "Mi casa",
     "titleEs": "",
     "description": "Habitaciones, muebles y describir una vivienda.",
-    "order": 5
+    "order": 5,
+    "unitOverview": null
   },
   {
     "id": "mi-barrio-y-mi-ciudad",
@@ -9786,7 +9811,8 @@
     "title": "Mi barrio y mi ciudad",
     "titleEs": "",
     "description": "Lugares de la ciudad, direcciones y transporte.",
-    "order": 6
+    "order": 6,
+    "unitOverview": null
   },
   {
     "id": "comida-y-bebida",
@@ -9795,7 +9821,8 @@
     "title": "Comida y bebida",
     "titleEs": "",
     "description": "Alimentos, pedir comida y expresar gustos.",
-    "order": 7
+    "order": 7,
+    "unitOverview": null
   },
   {
     "id": "de-compras",
@@ -9804,7 +9831,8 @@
     "title": "De compras",
     "titleEs": "",
     "description": "Ropa, colores, tallas y precios.",
-    "order": 8
+    "order": 8,
+    "unitOverview": null
   },
   {
     "id": "estudios-y-trabajo",
@@ -9813,7 +9841,8 @@
     "title": "Estudios y trabajo",
     "titleEs": "",
     "description": "Estudios, profesiones y responsabilidades sencillas.",
-    "order": 9
+    "order": 9,
+    "unitOverview": null
   },
   {
     "id": "tiempo-libre",
@@ -9822,7 +9851,8 @@
     "title": "Tiempo libre",
     "titleEs": "",
     "description": "Pasatiempos, preferencias e invitaciones.",
-    "order": 10
+    "order": 10,
+    "unitOverview": null
   },
   {
     "id": "salud-y-bienestar",
@@ -9831,7 +9861,8 @@
     "title": "Salud y bienestar",
     "titleEs": "",
     "description": "Partes del cuerpo, síntomas sencillos y pedir ayuda.",
-    "order": 11
+    "order": 11,
+    "unitOverview": null
   },
   {
     "id": "planes-y-repaso",
@@ -9840,7 +9871,8 @@
     "title": "Planes y repaso",
     "titleEs": "",
     "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
-    "order": 12
+    "order": 12,
+    "unitOverview": null
   }
 ];
 })();

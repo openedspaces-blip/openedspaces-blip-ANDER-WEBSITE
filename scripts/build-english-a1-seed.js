@@ -69,7 +69,11 @@ function buildUnitRow(unit) {
     title: unit.title,
     title_es: unit.titleEs || '',
     description: unit.description || '',
-    order_index: unit.order
+    order_index: unit.order,
+    // Optional: objective/outcomes/grammar/vocabulary/scenario for the
+    // Ruta de aprendizaje's unit overview panel (see
+    // src/js/script.js#renderUnitOverviewCard). Not every unit has it yet.
+    unit_overview: unit.unitOverview || null
   };
 }
 

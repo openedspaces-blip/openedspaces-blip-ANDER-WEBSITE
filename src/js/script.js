@@ -1,14 +1,18 @@
 const nativeLanguageSelect = document.getElementById('nativeLanguage');
 let currentTargetLanguage = 'english';
-let currentNativeLanguage = 'es';
 
-// Bridge language: the language the student already speaks, used for
-// explanations/hints (persisted server-side as profiles.bridge_language,
-// paired with preferred_language/learningPathState.language - the target
-// language being learned). Full language names (english/spanish/...), same
-// vocabulary as learningPathState.language, unlike the older 2-letter-code
-// #nativeLanguage select which this stays in sync with for backward
-// compatibility.
+// L1/bridge/interface language and L2/target language helpers
+// (getInterfaceLabel/getSupportText/getTargetContent/getLanguagePairLabel) -
+// see src/js/language-pair.js for the full definitions. bridgeLanguage IS
+// the interface language in this architecture (one field, not two) - it is
+// the language the platform's navigation, instructions, explanations, help
+// and system messages appear in, not merely "a language the student already
+// knows". Persisted server-side as profiles.bridge_language, paired with
+// preferred_language/learningPathState.language (the target language being
+// learned). Full language names (english/spanish/...), same vocabulary as
+// learningPathState.language, unlike the older 2-letter-code #nativeLanguage
+// select which this stays in sync with for backward compatibility.
+const LanguagePair = window.AndergoLanguagePair;
 let currentBridgeLanguage = 'spanish';
 const bridgeCodeToName = {
   es: 'spanish',
@@ -204,13 +208,37 @@ function setBridgeLanguage(bridgeName, options = {}) {
   return true;
 }
 
+// Refreshes every static interface-chrome label tied to the bridge/target
+// pair (selector labels, pill label prefixes, the AI tutor's "Idioma" pill)
+// to the current bridgeLanguage - see src/js/language-pair.js's
+// getInterfaceLabel and the data-field="...Label" spans added alongside
+// each one in index.html. Safe to call as often as needed and from any
+// screen; a querySelectorAll pass only ever touches elements that exist on
+// the current page, so no caller needs to know which ones are present.
+function refreshLanguagePairChrome() {
+  if (!LanguagePair) return;
+  [
+    'bridgeSelectLabel',
+    'targetSelectLabel',
+    'levelSelectLabel',
+    'bridgeLabel',
+    'targetLabel',
+    'levelLabel',
+    'aiLanguageLabel'
+  ].forEach((key) => {
+    document.querySelectorAll(`[data-field="${key}"]`).forEach((el) => {
+      el.textContent = LanguagePair.getInterfaceLabel(key, currentBridgeLanguage);
+    });
+  });
+}
+
 function updatePathPairPreview() {
+  refreshLanguagePairChrome();
   const preview = document.getElementById('pathPairPreview');
   if (!preview) return;
-  const targetLabel =
-    languageDisplayNames[learningPathState.language] || learningPathState.language;
-  const bridgeLabel = languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
-  preview.textContent = `Aprenderás ${targetLabel} con apoyo en ${bridgeLabel}.`;
+  preview.textContent = LanguagePair
+    ? LanguagePair.getLanguagePairLabel(currentBridgeLanguage, learningPathState.language)
+    : `Aprenderás ${languageDisplayNames[learningPathState.language] || learningPathState.language} con apoyo en ${languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage}.`;
 }
 
 // Accepts either a real language key (english/spanish/french/italian/german,
@@ -2039,15 +2067,14 @@ function selectUnit(unitId, options = {}) {
   if (!unitId) return;
   const changingUnit = unitId !== learningPathState.unitId;
   learningPathState.unitId = unitId;
+  // Switching units lands on that unit's overview panel (see
+  // renderUnitOverviewCard) rather than auto-opening one of its lessons -
+  // the previously active lesson (if any) belonged to the old unit, so it
+  // can't stay open here. Picking a specific activity to practice is a
+  // separate, deliberate action (clicking it directly, or the overview's
+  // own "Comenzar/Continuar/Repasar unidad" button).
   if (changingUnit) {
-    const activities = getUnitActivities(unitId);
-    const stillValid = activities.some((item) => item.slug === learningPathState.activeSlug);
-    if (!stillValid) {
-      const next =
-        activities.find((item) => !item.completed && !item.locked) || activities[0] || null;
-      setActiveLesson(next?.slug || '');
-      learningPathState.unitId = unitId;
-    }
+    learningPathState.activeSlug = '';
   }
   if (options.render !== false) renderLearningPath();
 }
@@ -2914,11 +2941,13 @@ function getActiveLearningLesson() {
 function updateAiTutorContext() {
   const contextRoot = document.querySelector('#tutor .tutor-context');
   if (!contextRoot) return;
+  refreshLanguagePairChrome();
 
   const lesson = getActiveLearningLesson();
   const values = {
-    language:
-      languageDisplayNames[learningPathState.language] || learningPathState.language || 'English',
+    language: LanguagePair
+      ? LanguagePair.languageNameIn(currentBridgeLanguage, learningPathState.language)
+      : languageDisplayNames[learningPathState.language] || learningPathState.language || 'English',
     level: learningPathState.level || 'A1',
     lesson: lesson?.title || 'Ruta inicial'
   };
@@ -3367,6 +3396,119 @@ function renderContinueCard(lesson) {
   `;
 }
 
+// unit.unitOverview is optional hand-authored content (see
+// scripts/content/*-a1-units.js's unitOverview field) - most units don't
+// have it filled in yet, so every field here falls back to something safe
+// instead of rendering "undefined" or an empty list.
+function getUnitOverviewData(unit) {
+  const overview = unit.unitOverview || {};
+  return {
+    objective: overview.objective || unit.description || '',
+    outcomes: Array.isArray(overview.outcomes) ? overview.outcomes : [],
+    grammar: Array.isArray(overview.grammar) ? overview.grammar : [],
+    vocabulary: Array.isArray(overview.vocabulary) ? overview.vocabulary : [],
+    scenario: overview.scenario || ''
+  };
+}
+
+// Contextual CTA for the unit overview panel: label and target activity
+// both follow the unit's own completion state, never a specific lesson name
+// (that's what the left column's per-activity labels are for - see
+// renderLessonItemHtml/getLessonStateInfo).
+function getUnitActionState(unit) {
+  const activities = getUnitActivities(unit.id);
+  const total = activities.length;
+  const completedCount = activities.filter((item) => item.completed).length;
+  const started = activities.some(
+    (item) => item.completed || item.progressStatus === 'in_progress'
+  );
+  const allCompleted = total > 0 && completedCount === total;
+
+  let label = 'Comenzar unidad';
+  if (allCompleted) label = 'Repasar unidad';
+  else if (started) label = 'Continuar unidad';
+
+  const target = allCompleted
+    ? activities[0]
+    : activities.find((item) => !item.completed && !item.locked) || activities[0];
+
+  return { total, completedCount, label, targetSlug: target?.slug || '' };
+}
+
+function renderUnitOverviewList(items) {
+  if (!items.length) return '';
+  return `<ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`;
+}
+
+// The 2-column grid from .unit-overview-body (see styles.css): outcomes and
+// grammar side by side, vocabulary spanning the full width below. Any
+// section with no data (unit has no unitOverview yet) is simply omitted.
+function renderUnitOverviewBody(data) {
+  const outcomesHtml = data.outcomes.length
+    ? `<div class="unit-overview-column"><h4>Aprenderás a</h4>${renderUnitOverviewList(data.outcomes)}</div>`
+    : '';
+  const grammarHtml = data.grammar.length
+    ? `<div class="unit-overview-column"><h4>Gramática</h4>${renderUnitOverviewList(data.grammar)}</div>`
+    : '';
+  const vocabularyHtml = data.vocabulary.length
+    ? `<div class="unit-overview-column unit-overview-column--full"><h4>Vocabulario</h4>${renderUnitOverviewList(data.vocabulary)}</div>`
+    : '';
+  return `${outcomesHtml}${grammarHtml}${vocabularyHtml}`;
+}
+
+// Right-panel default state for unit-aware languages/levels (English,
+// Français, Español A1 today - see hasUnits()): describes the *selected
+// unit* (title, communicative objective, outcomes, grammar, vocabulary,
+// scenario, this unit's own progress) instead of naming one specific
+// lesson. This is what stops the right column from repeating the exact
+// next-lesson title/duration/XP/global progress the left column's unit
+// accordion already shows - see renderLessonItemHtml/renderUnitAccordionHtml
+// for that per-activity detail, and renderContinueCard (still used for
+// languages/levels without units) for the shape this replaces.
+//
+// Stable across every activity click within the same unit: nothing here
+// depends on which activity is highlighted, only on unitId and this unit's
+// completion state, so opening a different lesson to practice (which
+// replaces this panel with renderLessonDetail) is the only thing that
+// changes it - not merely looking at a different activity in the list.
+function renderUnitOverviewCard(unit) {
+  const data = getUnitOverviewData(unit);
+  const action = getUnitActionState(unit);
+  const pct = action.total ? Math.round((action.completedCount / action.total) * 100) : 0;
+  const bodyHtml = renderUnitOverviewBody(data);
+
+  return `
+    <div class="unit-overview-panel">
+      <div class="unit-overview-header">
+        <h3 class="unit-title">${escapeHtml(unit.title)}</h3>
+        ${data.objective ? `<p class="unit-objective">${escapeHtml(data.objective)}</p>` : ''}
+        ${data.scenario ? `<p class="unit-scenario">“${escapeHtml(data.scenario)}”</p>` : ''}
+      </div>
+      <div class="unit-overview-progress">
+        <div class="unit-overview-progress-bar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
+          <div style="width:${pct}%"></div>
+        </div>
+        <span class="unit-overview-progress-label">${action.completedCount}/${action.total} actividades completadas en esta unidad</span>
+      </div>
+      ${
+        bodyHtml
+          ? `
+      <div class="unit-overview-desktop">
+        <div class="unit-overview-body">${bodyHtml}</div>
+      </div>
+      <details class="unit-overview-collapsible">
+        <summary>Ver detalles de la unidad</summary>
+        <div class="unit-overview-body">${bodyHtml}</div>
+      </details>`
+          : ''
+      }
+      <div class="unit-overview-actions">
+        <button type="button" class="primary-btn unit-action-btn" data-lesson-slug="${escapeHtml(action.targetSlug)}">${escapeHtml(action.label)}</button>
+      </div>
+    </div>
+  `;
+}
+
 function renderLessonDetail(lesson) {
   const vocabulary =
     lesson.vocabulary
@@ -3457,12 +3599,15 @@ function renderLessonDetail(lesson) {
 }
 
 // The right panel is never empty: with no lesson explicitly opened yet it
-// shows a "continue" card for the next recommended lesson; once the student
-// picks a node in the path it shows that lesson's full detail. Both branches
-// fully own workspace.innerHTML (see the delegated .lesson-complete-btn/
-// .learn-back-to-route/.lesson-continue-btn handlers below - they can't be
-// one-time listeners bound to a single element, since that element gets
-// replaced on every render).
+// shows the selected unit's overview (renderUnitOverviewCard) for
+// unit-aware languages/levels, or a "continue" card for the next
+// recommended lesson otherwise (languages/levels without units - see
+// hasUnits()); once the student opens a specific activity to practice it
+// shows that lesson's full detail. All three branches fully own
+// workspace.innerHTML (see the delegated .lesson-complete-btn/
+// .learn-back-to-route/.lesson-continue-btn/.unit-action-btn handlers below
+// - they can't be one-time listeners bound to a single element, since that
+// element gets replaced on every render).
 function renderLessonWorkspace() {
   const workspace = document.getElementById('lessonWorkspace');
   if (!workspace) return;
@@ -3474,14 +3619,27 @@ function renderLessonWorkspace() {
 
   if (activeLesson) {
     workspace.innerHTML = renderLessonDetail(activeLesson);
-    workspace.classList.remove('lesson-workspace--continue');
+    workspace.classList.remove('lesson-workspace--continue', 'lesson-workspace--unit-overview');
     return;
+  }
+
+  if (hasUnits()) {
+    const unit =
+      learningPathState.units.find((item) => item.id === learningPathState.unitId) ||
+      learningPathState.units[0];
+    if (unit) {
+      workspace.innerHTML = renderUnitOverviewCard(unit);
+      workspace.classList.add('lesson-workspace--unit-overview');
+      workspace.classList.remove('lesson-workspace--continue');
+      return;
+    }
   }
 
   const nextLesson = getNextRecommendedLesson();
   if (!nextLesson) return;
   workspace.innerHTML = renderContinueCard(nextLesson);
   workspace.classList.add('lesson-workspace--continue');
+  workspace.classList.remove('lesson-workspace--unit-overview');
 }
 
 function renderLearningPath() {
@@ -3662,9 +3820,13 @@ function renderSkillCards() {
 // updatePathPairPreview() already uses - so it can never disagree with #learn.
 function renderSkillViewHeader(section) {
   if (!section) return;
-  const bridgeLabel = languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
-  const targetLabel =
-    languageDisplayNames[learningPathState.language] || learningPathState.language;
+  refreshLanguagePairChrome();
+  const bridgeLabel = LanguagePair
+    ? LanguagePair.languageNameIn(currentBridgeLanguage, currentBridgeLanguage)
+    : languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
+  const targetLabel = LanguagePair
+    ? LanguagePair.languageNameIn(currentBridgeLanguage, learningPathState.language)
+    : languageDisplayNames[learningPathState.language] || learningPathState.language;
   const level = learningPathState.level;
   const bridgeEl = section.querySelector('[data-field="bridge"]');
   const targetEl = section.querySelector('[data-field="target"]');
@@ -3673,7 +3835,11 @@ function renderSkillViewHeader(section) {
   if (bridgeEl) bridgeEl.textContent = bridgeLabel;
   if (targetEl) targetEl.textContent = targetLabel;
   if (levelEl) levelEl.textContent = level;
-  if (sentenceEl) sentenceEl.textContent = `Aprenderás ${targetLabel} con apoyo en ${bridgeLabel}.`;
+  if (sentenceEl) {
+    sentenceEl.textContent = LanguagePair
+      ? LanguagePair.getLanguagePairLabel(currentBridgeLanguage, learningPathState.language)
+      : `Aprenderás ${targetLabel} con apoyo en ${bridgeLabel}.`;
+  }
 }
 
 function openChangeCombinationPopover() {
@@ -4081,9 +4247,12 @@ function renderReadingView(section, lesson) {
   const trueFalseHtml = trueFalseExercises
     .map((item, index) => renderLessonExercise(item, comprehensionExercises.length + index, lesson))
     .join('');
-  const bridgeLabel = languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
-  const targetLabel =
-    languageDisplayNames[learningPathState.language] || learningPathState.language;
+  const bridgeLabel = LanguagePair
+    ? LanguagePair.languageNameIn(currentBridgeLanguage, currentBridgeLanguage)
+    : languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
+  const targetLabel = LanguagePair
+    ? LanguagePair.languageNameIn(currentBridgeLanguage, learningPathState.language)
+    : languageDisplayNames[learningPathState.language] || learningPathState.language;
 
   // Attaching is a no-op when this is the same lesson already loaded
   // (e.g. a manual Anterior/Continuar re-render, or a part-transition
@@ -5770,6 +5939,7 @@ function openTutorDrawer(overrides = {}) {
   drawer.setAttribute('aria-hidden', 'false');
   drawer.removeAttribute('inert');
   document.body.classList.add('modal-open');
+  refreshLanguagePairChrome();
 
   const skillEl = drawer.querySelector('[data-drawer-context="skill"]');
   const levelEl = drawer.querySelector('[data-drawer-context="level"]');
@@ -6143,6 +6313,7 @@ async function completeActiveLesson() {
   }
 }
 
+refreshLanguagePairChrome();
 attachAuthHandlers();
 restoreSession();
 
@@ -6200,6 +6371,12 @@ document.addEventListener('click', async (event) => {
   const continueBtn = event.target.closest('.lesson-continue-btn');
   if (continueBtn) {
     openLesson(continueBtn.dataset.lessonSlug);
+    return;
+  }
+
+  const unitActionBtn = event.target.closest('.unit-action-btn');
+  if (unitActionBtn) {
+    openLesson(unitActionBtn.dataset.lessonSlug);
     return;
   }
 

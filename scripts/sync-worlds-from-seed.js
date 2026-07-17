@@ -161,7 +161,12 @@ function buildUnits(language) {
       title: unit.title,
       titleEs: unit.title_es || '',
       description: unit.description || '',
-      order: unit.order_index || 0
+      order: unit.order_index || 0,
+      // Optional unit-level content (objective/outcomes/grammar/vocabulary/
+      // scenario) for the Ruta de aprendizaje's unit overview panel - see
+      // src/js/script.js#renderUnitOverviewCard. null for units that don't
+      // have it yet.
+      unitOverview: unit.unit_overview || null
     }));
 }
 

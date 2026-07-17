@@ -10,6 +10,7 @@ const { isAnyProviderConfigured: isTutorConfigured } = require('./lib/aiTutorSer
 const { isPremiumActive, LIMIT_MESSAGE } = require('./lib/voiceAccessService');
 const config = require('./lib/config');
 const { getSupabaseAdmin } = require('./lib/supabaseClient');
+const LanguagePair = require('./src/js/language-pair');
 
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -852,3 +853,66 @@ test(
     }
   }
 );
+
+// L1 (bridge/interface language) vs L2 (target language) - see
+// src/js/language-pair.js's header comment for the definitions. Pure
+// functions, no server/Supabase needed.
+test('language pair: getLanguagePairLabel renders the correct pair per spec §8 items 1-3', () => {
+  assert.equal(
+    LanguagePair.getLanguagePairLabel('spanish', 'english'),
+    'Aprenderás inglés con apoyo en español.'
+  );
+  assert.equal(
+    LanguagePair.getLanguagePairLabel('english', 'french'),
+    'You will learn French with support in English.'
+  );
+  assert.equal(
+    LanguagePair.getLanguagePairLabel('french', 'spanish'),
+    'Vous apprendrez espagnol avec un accompagnement en français.'
+  );
+});
+
+test('language pair: getInterfaceLabel uses L1, not L2, for interface chrome (§8 item 4)', () => {
+  // Same label key, different bridgeLanguage in each call - the interface
+  // label must follow L1 regardless of what's being learned.
+  assert.equal(LanguagePair.getInterfaceLabel('bridgeSelectLabel', 'spanish'), 'Idioma de apoyo (L1)');
+  assert.equal(LanguagePair.getInterfaceLabel('bridgeSelectLabel', 'english'), 'Support language (L1)');
+  assert.equal(LanguagePair.getInterfaceLabel('bridgeSelectLabel', 'french'), "Langue d'appui (L1)");
+  assert.equal(LanguagePair.getInterfaceLabel('levelSelectLabel', 'french'), 'Niveau');
+});
+
+test('language pair: getTargetContent returns the L2 entry, untranslated (§8 item 5)', () => {
+  const content = { english: 'Hello!', french: 'Bonjour !', spanish: '¡Hola!' };
+  assert.equal(LanguagePair.getTargetContent(content, 'french'), 'Bonjour !');
+  assert.equal(LanguagePair.getTargetContent(content, 'english'), 'Hello!');
+});
+
+test('language pair: getSupportText returns the L1 entry, falling back to Spanish (§8 item 6)', () => {
+  const content = {
+    spanish: 'Escucha y selecciona la respuesta correcta.',
+    english: 'Listen and choose the correct answer.'
+  };
+  assert.equal(LanguagePair.getSupportText(content, 'english'), 'Listen and choose the correct answer.');
+  // No French entry authored yet - must fall back to Spanish, never throw
+  // or fabricate a French sentence that isn't real data.
+  assert.equal(LanguagePair.getSupportText(content, 'french'), 'Escucha y selecciona la respuesta correcta.');
+});
+
+test('language pair: getLanguagePairLabel matches the dynamic-text example verbatim (§8 item 7)', () => {
+  assert.equal(
+    LanguagePair.getLanguagePairLabel('spanish', 'english'),
+    'Aprenderás inglés con apoyo en español.'
+  );
+});
+
+test('language pair: no Spanish hardcoded as the only option in the shared module (§8 item 8)', () => {
+  // getLanguagePairLabel/getInterfaceLabel must actually branch on the
+  // bridgeLanguage argument, not silently always return the Spanish string
+  // regardless of what's passed in.
+  const spanishLabel = LanguagePair.getLanguagePairLabel('spanish', 'english');
+  const englishLabel = LanguagePair.getLanguagePairLabel('english', 'french');
+  const frenchLabel = LanguagePair.getLanguagePairLabel('french', 'spanish');
+  assert.notEqual(spanishLabel, englishLabel);
+  assert.notEqual(spanishLabel, frenchLabel);
+  assert.notEqual(englishLabel, frenchLabel);
+});

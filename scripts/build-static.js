@@ -14,7 +14,8 @@ const REQUIRED_FILES = [
   'index.html',
   'src/css/styles.css',
   'src/js/script.js',
-  'src/js/username-rules.js'
+  'src/js/username-rules.js',
+  'src/js/language-pair.js'
 ];
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
 const GAMIFICATION_FILES = [
@@ -57,7 +58,13 @@ function main() {
   });
 
   console.log('Checking JavaScript syntax...');
-  [...GAMIFICATION_FILES, 'src/js/script.js', 'src/js/username-rules.js', 'lib/server.js'].forEach((relativePath) => {
+  [
+    ...GAMIFICATION_FILES,
+    'src/js/script.js',
+    'src/js/username-rules.js',
+    'src/js/language-pair.js',
+    'lib/server.js'
+  ].forEach((relativePath) => {
     const fullPath = path.join(ROOT, relativePath);
     if (fs.existsSync(fullPath)) {
       execSync(`node --check "${fullPath}"`, { stdio: 'inherit' });

@@ -6425,15 +6425,42 @@ footer small {
   margin-bottom: 0.25rem;
 }
 
+.unit-overview-header .unit-objective {
+  color: var(--navy-2);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
 .unit-overview-header .unit-scenario {
   color: var(--muted);
   font-size: 0.9rem;
+  font-style: italic;
 }
 
 .unit-overview-progress {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.unit-overview-progress-bar {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.unit-overview-progress-bar div {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  border-radius: 999px;
+  transition: width 300ms ease;
+}
+
+.unit-overview-progress-label {
+  font-size: 0.8rem;
+  color: var(--muted);
 }
 
 .unit-overview-body {
@@ -6443,6 +6470,10 @@ footer small {
   padding-top: 1rem;
   margin-top: 1rem;
   border-top: 1px solid var(--line);
+}
+
+.unit-overview-column--full {
+  grid-column: 1 / -1;
 }
 
 .unit-overview-column h4 {

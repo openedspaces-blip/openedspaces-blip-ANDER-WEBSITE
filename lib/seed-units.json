@@ -6,7 +6,28 @@
     "title": "Hello!",
     "title_es": "¡Hola!",
     "description": "Greetings, introductions and the alphabet.",
-    "order_index": 1
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Presentarte, saludar y conocer a otras personas.",
+      "outcomes": [
+        "decir tu nombre",
+        "preguntar el nombre de otra persona",
+        "usar saludos formales e informales",
+        "deletrear información básica"
+      ],
+      "grammar": [
+        "verb to be",
+        "subject pronouns",
+        "basic questions"
+      ],
+      "vocabulary": [
+        "greetings",
+        "names",
+        "classroom expressions",
+        "numbers 0–20"
+      ],
+      "scenario": "Tu primer día en una clase de inglés."
+    }
   },
   {
     "slug": "about-me",
@@ -15,7 +36,8 @@
     "title": "About Me",
     "title_es": "Sobre mí",
     "description": "Name, age, nationality and feelings.",
-    "order_index": 2
+    "order_index": 2,
+    "unit_overview": null
   },
   {
     "slug": "family-and-friends",
@@ -24,7 +46,8 @@
     "title": "My Family and Friends",
     "title_es": "Mi familia y amigos",
     "description": "Family members, possessive 's, and describing people.",
-    "order_index": 3
+    "order_index": 3,
+    "unit_overview": null
   },
   {
     "slug": "my-school",
@@ -33,7 +56,8 @@
     "title": "My School",
     "title_es": "Mi escuela",
     "description": "School objects, subjects and classroom language.",
-    "order_index": 4
+    "order_index": 4,
+    "unit_overview": null
   },
   {
     "slug": "daily-routine",
@@ -42,7 +66,8 @@
     "title": "My Daily Routine",
     "title_es": "Mi rutina diaria",
     "description": "Daily activities and the present simple.",
-    "order_index": 5
+    "order_index": 5,
+    "unit_overview": null
   },
   {
     "slug": "time-and-dates",
@@ -51,7 +76,8 @@
     "title": "Time and Dates",
     "title_es": "La hora y las fechas",
     "description": "Telling time, days, months and prepositions of time.",
-    "order_index": 6
+    "order_index": 6,
+    "unit_overview": null
   },
   {
     "slug": "food-and-drinks",
@@ -60,7 +86,8 @@
     "title": "Food and Drinks",
     "title_es": "Comidas y bebidas",
     "description": "Food vocabulary, likes/dislikes, and countable/uncountable nouns.",
-    "order_index": 7
+    "order_index": 7,
+    "unit_overview": null
   },
   {
     "slug": "my-home",
@@ -69,7 +96,8 @@
     "title": "My Home",
     "title_es": "Mi hogar",
     "description": "Rooms, furniture, and prepositions of place.",
-    "order_index": 8
+    "order_index": 8,
+    "unit_overview": null
   },
   {
     "slug": "my-town",
@@ -78,7 +106,8 @@
     "title": "My Town",
     "title_es": "Mi ciudad",
     "description": "Places in town and giving directions.",
-    "order_index": 9
+    "order_index": 9,
+    "unit_overview": null
   },
   {
     "slug": "free-time",
@@ -87,7 +116,8 @@
     "title": "Free Time",
     "title_es": "Tiempo libre",
     "description": "Hobbies, sports and adverbs of frequency.",
-    "order_index": 10
+    "order_index": 10,
+    "unit_overview": null
   },
   {
     "slug": "clothes-and-shopping",
@@ -96,7 +126,8 @@
     "title": "Clothes and Shopping",
     "title_es": "Ropa y compras",
     "description": "Clothing items, colors and shopping dialogues.",
-    "order_index": 11
+    "order_index": 11,
+    "unit_overview": null
   },
   {
     "slug": "weather-and-travel",
@@ -105,7 +136,8 @@
     "title": "Weather and Travel",
     "title_es": "El clima y los viajes",
     "description": "Weather expressions, seasons, and travel plans.",
-    "order_index": 12
+    "order_index": 12,
+    "unit_overview": null
   },
   {
     "slug": "bonjour-et-bienvenue",
@@ -114,7 +146,28 @@
     "title": "Bonjour et bienvenue",
     "title_es": "Hola y bienvenida",
     "description": "Salutations, présentations et l'alphabet, avec Camila à son premier jour à Tours.",
-    "order_index": 1
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Se présenter, saluer et rencontrer d'autres personnes.",
+      "outcomes": [
+        "dire ton nom",
+        "demander le nom de quelqu'un d'autre",
+        "utiliser des salutations formelles et informelles",
+        "épeler des informations de base"
+      ],
+      "grammar": [
+        "verbe être",
+        "pronoms sujets",
+        "questions de base"
+      ],
+      "vocabulary": [
+        "salutations",
+        "noms",
+        "expressions de classe",
+        "nombres 0–20"
+      ],
+      "scenario": "Ton premier jour dans un cours de français."
+    }
   },
   {
     "slug": "je-me-presente",
@@ -123,7 +176,8 @@
     "title": "Je me présente",
     "title_es": "Me presento",
     "description": "Âge, nationalité et centres d'intérêt : Camila et ses camarades se présentent.",
-    "order_index": 2
+    "order_index": 2,
+    "unit_overview": null
   },
   {
     "slug": "ma-famille-et-mes-amis",
@@ -132,7 +186,8 @@
     "title": "Ma famille et mes amis",
     "title_es": "Mi familia y mis amigos",
     "description": "Camila présente sa famille de Saint-Domingue et sa famille d'accueil à Tours.",
-    "order_index": 3
+    "order_index": 3,
+    "unit_overview": null
   },
   {
     "slug": "a-l-ecole",
@@ -141,7 +196,8 @@
     "title": "À l'école",
     "title_es": "En la escuela",
     "description": "Karim fait visiter le collège de Tours à Camila.",
-    "order_index": 4
+    "order_index": 4,
+    "unit_overview": null
   },
   {
     "slug": "ma-journee",
@@ -150,7 +206,8 @@
     "title": "Ma journée",
     "title_es": "Mi día",
     "description": "La routine quotidienne de Camila chez la famille Lambert.",
-    "order_index": 5
+    "order_index": 5,
+    "unit_overview": null
   },
   {
     "slug": "l-heure-et-les-dates",
@@ -159,7 +216,8 @@
     "title": "L'heure et les dates",
     "title_es": "La hora y las fechas",
     "description": "Camila et Karim organisent une fête surprise pour l'anniversaire de Léa.",
-    "order_index": 6
+    "order_index": 6,
+    "unit_overview": null
   },
   {
     "slug": "a-table",
@@ -168,7 +226,8 @@
     "title": "À table",
     "title_es": "A la mesa",
     "description": "Camila découvre les repas en famille et la nourriture française.",
-    "order_index": 7
+    "order_index": 7,
+    "unit_overview": null
   },
   {
     "slug": "chez-moi",
@@ -177,7 +236,8 @@
     "title": "Chez moi",
     "title_es": "En mi casa",
     "description": "Camila décrit sa chambre chez la famille Lambert.",
-    "order_index": 8
+    "order_index": 8,
+    "unit_overview": null
   },
   {
     "slug": "dans-ma-ville",
@@ -186,7 +246,8 @@
     "title": "Dans ma ville",
     "title_es": "En mi ciudad",
     "description": "Camila et Léa se promènent dans Tours et demandent leur chemin.",
-    "order_index": 9
+    "order_index": 9,
+    "unit_overview": null
   },
   {
     "slug": "mes-loisirs",
@@ -195,7 +256,8 @@
     "title": "Mes loisirs",
     "title_es": "Mis pasatiempos",
     "description": "Camila, Léa et Karim partagent leurs loisirs le week-end.",
-    "order_index": 10
+    "order_index": 10,
+    "unit_overview": null
   },
   {
     "slug": "les-vetements-et-les-achats",
@@ -204,7 +266,8 @@
     "title": "Les vêtements et les achats",
     "title_es": "La ropa y las compras",
     "description": "Léa et Camila font du shopping dans le centre-ville de Tours.",
-    "order_index": 11
+    "order_index": 11,
+    "unit_overview": null
   },
   {
     "slug": "la-meteo-et-les-voyages",
@@ -213,7 +276,8 @@
     "title": "La météo et les voyages",
     "title_es": "El clima y los viajes",
     "description": "Camila prépare un voyage à Paris avec la famille Lambert.",
-    "order_index": 12
+    "order_index": 12,
+    "unit_overview": null
   },
   {
     "slug": "hola-mucho-gusto",
@@ -222,7 +286,28 @@
     "title": "¡Hola! Mucho gusto",
     "title_es": "",
     "description": "Saludos, despedidas, presentarse y el alfabeto.",
-    "order_index": 1
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Presentarte, saludar y conocer a otras personas.",
+      "outcomes": [
+        "decir tu nombre",
+        "preguntar el nombre de otra persona",
+        "usar saludos formales e informales",
+        "deletrear información básica"
+      ],
+      "grammar": [
+        "verbo to be",
+        "subject pronouns",
+        "basic questions"
+      ],
+      "vocabulary": [
+        "greetings",
+        "names",
+        "classroom expressions",
+        "numbers 0–20"
+      ],
+      "scenario": "Tu primer día en una clase de inglés."
+    }
   },
   {
     "slug": "informacion-personal",
@@ -231,7 +316,8 @@
     "title": "Información personal",
     "title_es": "",
     "description": "Edad, nacionalidad, procedencia y datos de contacto.",
-    "order_index": 2
+    "order_index": 2,
+    "unit_overview": null
   },
   {
     "slug": "mi-familia-y-mis-amigos",
@@ -240,7 +326,8 @@
     "title": "Mi familia y mis amigos",
     "title_es": "",
     "description": "Miembros de la familia, posesivos y describir personas.",
-    "order_index": 3
+    "order_index": 3,
+    "unit_overview": null
   },
   {
     "slug": "mi-rutina-diaria",
@@ -249,7 +336,8 @@
     "title": "Mi rutina diaria",
     "title_es": "",
     "description": "Actividades cotidianas, la hora y el presente de indicativo.",
-    "order_index": 4
+    "order_index": 4,
+    "unit_overview": null
   },
   {
     "slug": "mi-casa",
@@ -258,7 +346,8 @@
     "title": "Mi casa",
     "title_es": "",
     "description": "Habitaciones, muebles y describir una vivienda.",
-    "order_index": 5
+    "order_index": 5,
+    "unit_overview": null
   },
   {
     "slug": "mi-barrio-y-mi-ciudad",
@@ -267,7 +356,8 @@
     "title": "Mi barrio y mi ciudad",
     "title_es": "",
     "description": "Lugares de la ciudad, direcciones y transporte.",
-    "order_index": 6
+    "order_index": 6,
+    "unit_overview": null
   },
   {
     "slug": "comida-y-bebida",
@@ -276,7 +366,8 @@
     "title": "Comida y bebida",
     "title_es": "",
     "description": "Alimentos, pedir comida y expresar gustos.",
-    "order_index": 7
+    "order_index": 7,
+    "unit_overview": null
   },
   {
     "slug": "de-compras",
@@ -285,7 +376,8 @@
     "title": "De compras",
     "title_es": "",
     "description": "Ropa, colores, tallas y precios.",
-    "order_index": 8
+    "order_index": 8,
+    "unit_overview": null
   },
   {
     "slug": "estudios-y-trabajo",
@@ -294,7 +386,8 @@
     "title": "Estudios y trabajo",
     "title_es": "",
     "description": "Estudios, profesiones y responsabilidades sencillas.",
-    "order_index": 9
+    "order_index": 9,
+    "unit_overview": null
   },
   {
     "slug": "tiempo-libre",
@@ -303,7 +396,8 @@
     "title": "Tiempo libre",
     "title_es": "",
     "description": "Pasatiempos, preferencias e invitaciones.",
-    "order_index": 10
+    "order_index": 10,
+    "unit_overview": null
   },
   {
     "slug": "salud-y-bienestar",
@@ -312,7 +406,8 @@
     "title": "Salud y bienestar",
     "title_es": "",
     "description": "Partes del cuerpo, síntomas sencillos y pedir ayuda.",
-    "order_index": 11
+    "order_index": 11,
+    "unit_overview": null
   },
   {
     "slug": "planes-y-repaso",
@@ -321,6 +416,7 @@
     "title": "Planes y repaso",
     "title_es": "",
     "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
-    "order_index": 12
+    "order_index": 12,
+    "unit_overview": null
   }
 ]
