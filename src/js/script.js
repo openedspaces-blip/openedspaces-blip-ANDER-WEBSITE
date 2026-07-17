@@ -7181,10 +7181,16 @@ setupLearningPathControls();
 setupTranslator();
 initScrollReveal();
 
-// /reset-password is a plain path (not a #hash), reached only via the link
-// Supabase emails - it overrides the normal hash-based view for this one
-// load, regardless of whatever hash/query Supabase also appended to it.
-if (window.location.pathname === '/reset-password') {
+// Reached only via the link Supabase emails (authService's
+// PASSWORD_RESET_REDIRECT_URL = '/?auth=recovery') - it overrides the normal
+// hash-based view for this one load, regardless of whatever hash Supabase
+// also appended to it. The legacy /reset-password path is also recognized
+// for any links sent before that redirect URL changed.
+const isPasswordRecoveryLink =
+  window.location.pathname === '/reset-password' ||
+  new URLSearchParams(window.location.search).get('auth') === 'recovery';
+
+if (isPasswordRecoveryLink) {
   showView('reset-password');
   initResetPasswordPage();
 } else {
