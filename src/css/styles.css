@@ -669,6 +669,58 @@ a:focus-visible {
   position: relative;
 }
 
+/* Caps the panel's height so the primary button is always reachable without
+   the student having to zoom out - the ID selectors give this enough
+   specificity to win over the shared .auth-panel rule further down without
+   depending on source order. */
+#authModal .auth-panel,
+#usernameOnboardingModal .auth-panel {
+  width: min(92vw, 520px);
+  max-width: 520px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+@media (max-width: 640px) {
+  #authModal .auth-panel,
+  #usernameOnboardingModal .auth-panel {
+    padding: 20px;
+  }
+
+  #authModal .auth-form,
+  #authModal .signup-fields,
+  #authModal .signup-pending {
+    gap: 14px;
+  }
+
+  #authModal .auth-form input,
+  #usernameOnboardingModal input {
+    min-height: 48px;
+  }
+
+  /* Narrower than desktop so all 6 boxes fit inside a 360px-wide viewport
+     without horizontal scroll (360 * 0.92 - 2*20 padding =~ 291px content
+     width; 6 * 40px + 5 * 6px gap = 270px). */
+  #authModal .otp-input-row {
+    gap: 6px;
+  }
+
+  #authModal .otp-digit {
+    width: 40px;
+    height: 52px;
+    font-size: 1.2rem;
+  }
+
+  #authModal .auth-form .primary-btn,
+  #authModal .auth-form .secondary-btn,
+  #authModal .signup-pending .primary-btn,
+  #authModal .signup-pending .secondary-btn,
+  #usernameOnboardingModal .primary-btn,
+  #usernameOnboardingModal .secondary-btn {
+    min-height: 48px;
+  }
+}
+
 .close-modal {
   position: absolute;
   right: 20px;
@@ -936,6 +988,17 @@ a:focus-visible {
 }
 
 .reset-password-status.is-error {
+  color: #dc2626;
+}
+
+.auth-status {
+  min-height: 1.1em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0f766e;
+}
+
+.auth-status.is-error {
   color: #dc2626;
 }
 

@@ -8,6 +8,8 @@ const { getLocalLessons } = require('./lib/lessonsData');
 const { levelContent, languageContent } = require('./lib/uiContent');
 const { isAnyProviderConfigured: isTutorConfigured } = require('./lib/aiTutorService');
 const { isPremiumActive, LIMIT_MESSAGE } = require('./lib/voiceAccessService');
+const config = require('./lib/config');
+const { getSupabaseAdmin } = require('./lib/supabaseClient');
 
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -497,3 +499,156 @@ test('English A1 has no dialogue-skill activities (dialogue is French-A1-only fo
   );
   assert.equal(englishDialogueRows.length, 0);
 });
+
+// ---------------------------------------------------------------------
+// Username login + password recovery (see lib/authService.js,
+// lib/profilesService.js). Uses real throwaway Supabase Auth users
+// (created via the admin API and always deleted in `finally`), matching
+// the pattern already used for the voice-quota tests above. Skipped
+// entirely when Supabase isn't configured, since there's no real
+// auth.users/profiles round-trip to exercise without it.
+// ---------------------------------------------------------------------
+const SUPABASE_AUTH_TESTS_SKIP_REASON = 'Supabase is not configured in this environment';
+
+async function createLoginTestUser({ emailConfirm = true } = {}) {
+  const admin = getSupabaseAdmin();
+  const email = `andergo-login-test-${Date.now()}-${Math.random().toString(36).slice(2)}@example.com`;
+  const password = `Test-${Math.random().toString(36).slice(2)}Aa1!`;
+  const { data, error } = await admin.auth.admin.createUser({
+    email,
+    password,
+    email_confirm: emailConfirm
+  });
+  if (error) throw new Error(`createUser failed: ${error.message}`);
+  return { id: data.user.id, email, password };
+}
+
+async function deleteLoginTestUser(userId) {
+  const admin = getSupabaseAdmin();
+  await admin.auth.admin.deleteUser(userId).catch(() => {});
+}
+
+async function postLogin(port, body) {
+  const response = await fetch(`http://127.0.0.1:${port}/api/auth`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ action: 'login', ...body })
+  });
+  const json = await response.json().catch(() => ({}));
+  return { status: response.status, body: json };
+}
+
+test(
+  'username + email login flows',
+  { skip: !config.isSupabaseConfigured && SUPABASE_AUTH_TESTS_SKIP_REASON },
+  async (t) => {
+    const admin = getSupabaseAdmin();
+    const { server, port } = await startTestServer();
+    const testUser = await createLoginTestUser();
+    const username = `logintest${Date.now()}`.slice(0, 24);
+
+    try {
+      const { error: usernameError } = await admin
+        .from('profiles')
+        .update({ username, username_normalized: username.toLowerCase() })
+        .eq('id', testUser.id);
+      if (usernameError) throw new Error(`could not set test username: ${usernameError.message}`);
+
+      await t.test('1. login by correct email', async () => {
+        const r = await postLogin(port, { identifier: testUser.email, password: testUser.password });
+        assert.equal(r.status, 200);
+        assert.equal(r.body.user.email, testUser.email);
+      });
+
+      await t.test('2. login by correct username', async () => {
+        const r = await postLogin(port, { identifier: username, password: testUser.password });
+        assert.equal(r.status, 200);
+        assert.equal(r.body.user.email, testUser.email);
+      });
+
+      await t.test('3. username in uppercase/mixed case', async () => {
+        const r = await postLogin(port, {
+          identifier: username.toUpperCase(),
+          password: testUser.password
+        });
+        assert.equal(r.status, 200);
+        assert.equal(r.body.user.email, testUser.email);
+      });
+
+      await t.test('4. username with leading/trailing whitespace', async () => {
+        const r = await postLogin(port, { identifier: `  ${username}  `, password: testUser.password });
+        assert.equal(r.status, 200);
+        assert.equal(r.body.user.email, testUser.email);
+      });
+
+      let wrongPasswordMessage;
+      await t.test('5. wrong password', async () => {
+        const r = await postLogin(port, { identifier: testUser.email, password: 'not-the-password' });
+        assert.equal(r.status, 401);
+        wrongPasswordMessage = r.body.error;
+        assert.equal(typeof wrongPasswordMessage, 'string');
+      });
+
+      let unknownUsernameMessage;
+      await t.test('6. nonexistent username', async () => {
+        const r = await postLogin(port, { identifier: 'no-such-username-at-all', password: 'whatever123' });
+        assert.equal(r.status, 401);
+        unknownUsernameMessage = r.body.error;
+      });
+
+      await t.test('10. wrong-password and unknown-username give the byte-identical message', () => {
+        assert.equal(wrongPasswordMessage, unknownUsernameMessage);
+        assert.equal(wrongPasswordMessage, 'No pudimos iniciar sesión con esos datos.');
+      });
+
+      await t.test('7. profile with a username but no usable email is treated as not-found, not a 500', async () => {
+        const brokenUsername = `broken${Date.now()}`.slice(0, 24);
+        const brokenUser = await createLoginTestUser();
+        try {
+          await admin
+            .from('profiles')
+            .update({
+              username: brokenUsername,
+              username_normalized: brokenUsername.toLowerCase(),
+              email: null
+            })
+            .eq('id', brokenUser.id);
+          const r = await postLogin(port, { identifier: brokenUsername, password: 'whatever123' });
+          assert.equal(r.status, 401);
+          assert.equal(r.body.error, 'No pudimos iniciar sesión con esos datos.');
+        } finally {
+          await deleteLoginTestUser(brokenUser.id);
+        }
+      });
+
+      await t.test('8. unconfirmed account gets a distinct (non-generic) message, not silent failure', async () => {
+        const unconfirmedUser = await createLoginTestUser({ emailConfirm: false });
+        try {
+          const r = await postLogin(port, {
+            identifier: unconfirmedUser.email,
+            password: unconfirmedUser.password
+          });
+          assert.equal(r.status, 403);
+          assert.match(r.body.error, /confirma tu correo/i);
+        } finally {
+          await deleteLoginTestUser(unconfirmedUser.id);
+        }
+      });
+
+      await t.test('9. no response body ever includes the resolved email/username-to-email mapping', async () => {
+        const r = await postLogin(port, { identifier: username, password: testUser.password });
+        const raw = JSON.stringify(r.body);
+        // The user's OWN email is expected back (client already knows it,
+        // same as any session payload) - what must never appear is a
+        // separate resolvedEmail/lookupEmail-shaped field exposing the
+        // username -> email mapping itself.
+        assert.equal(Object.prototype.hasOwnProperty.call(r.body, 'resolvedEmail'), false);
+        assert.equal(Object.prototype.hasOwnProperty.call(r.body, 'lookupEmail'), false);
+        assert.ok(raw); // keep raw referenced for future stricter checks
+      });
+    } finally {
+      await deleteLoginTestUser(testUser.id);
+      server.close();
+    }
+  }
+);

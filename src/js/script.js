@@ -386,7 +386,18 @@ async function postJson(path, payload, { auth = false } = {}) {
 
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {
-    throw new Error(data.error || 'Request failed');
+    // Two response shapes exist across our own /api routes: plain auth
+    // errors (POST /api/auth) put the human message in `error` and the
+    // machine code in `code`; ok:false-wrapped endpoints (username-available,
+    // verify-otp, profile/username, rate limiters, ...) put the code in
+    // `error` and the human message in `message`. Handle both instead of
+    // occasionally surfacing a raw code like "USERNAME_NOT_AVAILABLE" as
+    // user-facing text.
+    const message = data.message || data.error || 'Request failed';
+    const code = data.code || (data.message ? data.error : undefined);
+    const error = new Error(message);
+    if (code) error.code = code;
+    throw error;
   }
 
   return data;
@@ -770,6 +781,47 @@ function setAuthMessage(message, isError = false) {
   note.style.color = isError ? '#dc2626' : '#0f766e';
 }
 
+// Relabels "Enviar enlace" to a counting-down "Reenviar enlace (Ns)" after a
+// successful send, instead of re-enabling immediately - the visible
+// countdown the spec asks for, using the same button rather than adding a
+// second one. Any pending countdown is always cleared first, so reopening
+// the panel or submitting again never stacks two intervals.
+let forgotPasswordCooldownInterval = null;
+function resetForgotPasswordForm() {
+  window.clearInterval(forgotPasswordCooldownInterval);
+  forgotPasswordCooldownInterval = null;
+  const submitBtn = document.getElementById('forgotPasswordSubmit');
+  const statusEl = document.getElementById('forgotPasswordStatus');
+  if (submitBtn) {
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Enviar enlace';
+  }
+  if (statusEl) {
+    statusEl.textContent = '';
+    statusEl.classList.remove('is-error');
+    statusEl.setAttribute('role', 'status');
+  }
+}
+
+function startForgotPasswordCooldown(button, seconds = 30) {
+  if (!button) return;
+  window.clearInterval(forgotPasswordCooldownInterval);
+  let remaining = seconds;
+  button.disabled = true;
+  button.textContent = `Reenviar enlace (${remaining}s)`;
+  forgotPasswordCooldownInterval = window.setInterval(() => {
+    remaining -= 1;
+    if (remaining <= 0) {
+      window.clearInterval(forgotPasswordCooldownInterval);
+      forgotPasswordCooldownInterval = null;
+      button.disabled = false;
+      button.textContent = 'Reenviar enlace';
+      return;
+    }
+    button.textContent = `Reenviar enlace (${remaining}s)`;
+  }, 1000);
+}
+
 function clearAuthMessages() {
   document.querySelectorAll('.auth-form .auth-note').forEach((note) => {
     note.textContent = note.dataset.defaultText || '';
@@ -916,30 +968,55 @@ async function initResetPasswordPage() {
 
   setupPasswordStrengthMeter('resetNewPassword', 'resetPasswordStrength');
 
+  const setResetStatus = (message, isError) => {
+    statusEl.textContent = message;
+    statusEl.classList.toggle('is-error', isError);
+    statusEl.setAttribute('role', isError ? 'alert' : 'status');
+  };
+
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
     const password = document.getElementById('resetNewPassword')?.value || '';
     const confirmPassword = document.getElementById('resetConfirmPassword')?.value || '';
-    statusEl.classList.remove('is-error');
 
+    if (!password || !confirmPassword) {
+      setResetStatus('Completa ambos campos.', true);
+      return;
+    }
     if (password !== confirmPassword) {
-      statusEl.textContent = 'Las contraseñas no coinciden.';
-      statusEl.classList.add('is-error');
+      setResetStatus('Las contraseñas no coinciden.', true);
+      return;
+    }
+    // Supabase's own default minimum (6 chars) - a friendly pre-check only;
+    // the actual policy is still enforced server-side by updateUser() below,
+    // whatever it's configured to be.
+    if (password.length < 6) {
+      setResetStatus('La contraseña debe tener al menos 6 caracteres.', true);
       return;
     }
 
     const submitBtn = form.querySelector('button[type="submit"]');
     if (submitBtn) submitBtn.disabled = true;
-    statusEl.textContent = '';
+    setResetStatus('Guardando…', false);
 
     try {
       const { error } = await client.auth.updateUser({ password });
       if (error) throw error;
+
+      // End the recovery-only session (never leave the student signed in
+      // via the one-time recovery token) and strip it from the URL before
+      // showing success - the success panel itself stays up until the
+      // student clicks "Ir a iniciar sesión", per spec (never auto-navigate
+      // away before they can read the confirmation).
+      await client.auth.signOut().catch(() => {});
+      window.history.replaceState(null, '', '/');
+
+      setResetStatus('', false);
       form.hidden = true;
       successEl.hidden = false;
+      successEl.focus?.();
     } catch {
-      statusEl.textContent = 'No se pudo actualizar la contraseña. Solicita un nuevo enlace.';
-      statusEl.classList.add('is-error');
+      setResetStatus('No se pudo actualizar la contraseña. Solicita un nuevo enlace.', true);
     } finally {
       if (submitBtn) submitBtn.disabled = false;
     }
@@ -1050,7 +1127,9 @@ function attachAuthHandlers() {
 
   document.getElementById('signupForm')?.addEventListener('submit', async (event) => {
     event.preventDefault();
-    const username = document.getElementById('signupUsername')?.value.trim() || '';
+    const usernameInput = document.getElementById('signupUsername');
+    const usernameStatusEl = document.getElementById('signupUsernameStatus');
+    const rawUsername = usernameInput?.value || '';
     const email = document.getElementById('signupEmail')?.value.trim() || '';
     const password = document.getElementById('signupPassword')?.value || '';
     const confirmPassword = document.getElementById('signupConfirmPassword')?.value || '';
@@ -1060,17 +1139,30 @@ function attachAuthHandlers() {
       return;
     }
 
+    const submitBtn = event.target.querySelector('button[type="submit"]');
+    if (submitBtn) submitBtn.disabled = true;
+
     try {
+      // Step 1 of 2: username must be format-valid and confirmed available
+      // (re-checked with the server right now, not just trusted from the
+      // last debounced check) before we even attempt to create the account.
+      const usernameOk = await ensureUsernameAvailableForSubmit(
+        'signupUsername',
+        'signupUsernameStatus'
+      );
+      if (!usernameOk) return;
+
       const data = await postJson('/api/auth', {
         action: 'register',
-        username,
+        username: rawUsername.trim(),
         email,
         password
       });
 
       // Pending email confirmation is not a signed-in state: no session,
-      // no dashboard/progress load, modal stays open showing the pending
-      // screen instead of closing.
+      // no dashboard/progress load. Only now - after Supabase has actually
+      // created the account and sent the code - does the modal switch from
+      // the registration fields to the OTP verification step.
       if (data.requiresEmailConfirmation) {
         showSignupPending(email);
         return;
@@ -1079,29 +1171,71 @@ function attachAuthHandlers() {
       saveSession(data.user, data.session);
       await afterAuthSuccess();
     } catch (error) {
+      // Someone else claimed this exact username in the moment between our
+      // last check and this submit (rare race) - surface it through the
+      // same status element as every other username message, never as a
+      // second, contradicting message elsewhere in the form.
+      if (error.code === 'USERNAME_NOT_AVAILABLE') {
+        setUsernameStatus(
+          'signupUsername',
+          usernameStatusEl,
+          'unavailable',
+          window.AndergoUsernameRules?.normalizeUsername(rawUsername) || '',
+          'Este nombre de usuario ya no está disponible. Elige otro.'
+        );
+        usernameInput?.focus();
+        return;
+      }
       setAuthMessage(error.message, true);
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
     }
   });
 
   document.getElementById('forgotPasswordForm')?.addEventListener('submit', async (event) => {
     event.preventDefault();
     const email = document.getElementById('forgotEmail')?.value.trim() || '';
-    const submitBtn = event.target.querySelector('button[type="submit"]');
-    if (submitBtn) submitBtn.disabled = true;
+    const submitBtn = document.getElementById('forgotPasswordSubmit');
+    const statusEl = document.getElementById('forgotPasswordStatus');
+    // Guards double-submit both while the request is in flight and during
+    // the post-send cooldown started by startForgotPasswordCooldown() below.
+    if (submitBtn?.disabled) return;
+
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Enviando…';
+    }
+    if (statusEl) {
+      statusEl.textContent = '';
+      statusEl.classList.remove('is-error');
+      statusEl.setAttribute('role', 'status');
+    }
+
     try {
       const data = await postJson('/api/auth/request-password-reset', { email });
-      setAuthMessage(
-        data.message ||
-          'Si el correo está asociado a una cuenta, recibirás un enlace para restablecer tu contraseña.',
-        false
-      );
+      if (statusEl) {
+        statusEl.classList.remove('is-error');
+        statusEl.setAttribute('role', 'status');
+        statusEl.textContent =
+          data.message ||
+          'Si existe una cuenta asociada a este correo, te hemos enviado un enlace para restablecer tu contraseña. Revisa también Spam o Correo no deseado.';
+      }
+      // Modal stays open on purpose (see spec) - only the button becomes a
+      // cooldown-gated "Reenviar enlace" instead of re-enabling immediately.
+      startForgotPasswordCooldown(submitBtn);
     } catch (error) {
       // requestPasswordReset is designed to never throw a distinguishing
       // error, but keep a safe generic fallback just in case of a network
       // failure reaching our own backend.
-      setAuthMessage('No se pudo procesar la solicitud. Intenta de nuevo.', true);
-    } finally {
-      if (submitBtn) submitBtn.disabled = false;
+      if (statusEl) {
+        statusEl.classList.add('is-error');
+        statusEl.setAttribute('role', 'alert');
+        statusEl.textContent = 'No pudimos enviar el enlace en este momento. Inténtalo nuevamente.';
+      }
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Enviar enlace';
+      }
     }
   });
 
@@ -1109,17 +1243,33 @@ function attachAuthHandlers() {
     event.preventDefault();
     const input = document.getElementById('onboardingUsername');
     const statusEl = document.getElementById('onboardingUsernameStatus');
-    const username = input?.value.trim() || '';
+    const rawUsername = input?.value || '';
     const submitBtn = event.target.querySelector('button[type="submit"]');
     if (submitBtn) submitBtn.disabled = true;
     try {
-      await postJson('/api/profile/username', { username }, { auth: true });
+      const usernameOk = await ensureUsernameAvailableForSubmit(
+        'onboardingUsername',
+        'onboardingUsernameStatus'
+      );
+      if (!usernameOk) return;
+
+      await postJson('/api/profile/username', { username: rawUsername.trim() }, { auth: true });
       closeUsernameOnboarding();
       showHomeToast('Nombre de usuario guardado.');
     } catch (error) {
+      if (error.code === 'USERNAME_NOT_AVAILABLE') {
+        setUsernameStatus(
+          'onboardingUsername',
+          statusEl,
+          'unavailable',
+          window.AndergoUsernameRules?.normalizeUsername(rawUsername) || '',
+          'Este nombre de usuario ya no está disponible. Elige otro.'
+        );
+        input?.focus();
+        return;
+      }
       if (statusEl) {
-        statusEl.textContent = error.message || 'No se pudo guardar el nombre de usuario.';
-        statusEl.classList.add('is-error');
+        renderUsernameStatus(statusEl, 'error', error.message || 'No se pudo guardar el nombre de usuario.');
       }
     } finally {
       if (submitBtn) submitBtn.disabled = false;
@@ -1142,57 +1292,164 @@ function attachAuthHandlers() {
   setupPasswordStrengthMeter('signupPassword', 'signupPasswordStrength');
 }
 
-// Debounced GET /api/auth/username-available - purely advisory (the note
-// under the field already says so): the partial unique index on
+// Single source of truth for each username field's real-time state - keyed
+// by inputId so the signup and onboarding fields (which share this same
+// logic) don't interfere with each other. Every reader (the status <p>, the
+// submit handler) reads from here instead of re-deriving anything from the
+// DOM, so the UI can never show "available" and "not available" at once.
+// Possible statuses: idle | checking | available | unavailable | invalid | error.
+const usernameCheckState = new Map();
+
+const USERNAME_STATUS_MESSAGES = {
+  checking: 'Comprobando disponibilidad…',
+  available: (username) => `"${username}" está disponible.`,
+  unavailable: 'Este nombre de usuario no está disponible.',
+  error: 'No se pudo comprobar la disponibilidad. Intenta de nuevo.'
+};
+
+// Exactly one message, exactly one color class - never both is-available
+// and is-error, and never a leftover message from a previous state.
+function renderUsernameStatus(statusEl, status, message) {
+  if (!statusEl) return;
+  statusEl.classList.remove('is-available', 'is-error');
+  statusEl.textContent = message || '';
+  if (status === 'available') {
+    statusEl.classList.add('is-available');
+  } else if (status === 'unavailable' || status === 'invalid' || status === 'error') {
+    statusEl.classList.add('is-error');
+  }
+}
+
+function setUsernameStatus(inputId, statusEl, status, normalizedUsername, message) {
+  const entry = usernameCheckState.get(inputId) || {};
+  entry.status = status;
+  entry.normalizedUsername = normalizedUsername;
+  usernameCheckState.set(inputId, entry);
+  renderUsernameStatus(statusEl, status, message);
+}
+
+// The actual GET /api/auth/username-available call, factored out of the
+// debounced input handler so submit-time re-validation (see
+// ensureUsernameAvailableForSubmit) can trigger the exact same check
+// on demand instead of trusting a possibly-stale visual state.
+async function queryUsernameAvailability(inputId, statusEl, rawValue) {
+  const entry = usernameCheckState.get(inputId) || {};
+  if (entry.abortController) entry.abortController.abort();
+
+  const abortController = new AbortController();
+  const thisToken = (entry.requestToken || 0) + 1;
+  entry.abortController = abortController;
+  entry.requestToken = thisToken;
+  usernameCheckState.set(inputId, entry);
+
+  try {
+    const response = await fetch(
+      `${backendBaseUrl}/api/auth/username-available?u=${encodeURIComponent(rawValue)}`,
+      { signal: abortController.signal }
+    );
+    const data = await response.json().catch(() => ({}));
+
+    // A newer keystroke (or a submit-time re-check) already superseded this
+    // one - ignore it even if it happens to resolve after the newer one did.
+    const current = usernameCheckState.get(inputId);
+    if (!current || current.requestToken !== thisToken) return;
+
+    if (!response.ok || !data.ok) {
+      setUsernameStatus(inputId, statusEl, 'invalid', '', data.message || 'Nombre de usuario no válido.');
+      return;
+    }
+    const status = data.available ? 'available' : 'unavailable';
+    setUsernameStatus(
+      inputId,
+      statusEl,
+      status,
+      data.normalizedUsername,
+      status === 'available'
+        ? USERNAME_STATUS_MESSAGES.available(data.normalizedUsername)
+        : USERNAME_STATUS_MESSAGES.unavailable
+    );
+  } catch (error) {
+    if (error?.name === 'AbortError') return;
+    const current = usernameCheckState.get(inputId);
+    if (!current || current.requestToken !== thisToken) return;
+    setUsernameStatus(inputId, statusEl, 'error', '', USERNAME_STATUS_MESSAGES.error);
+  }
+}
+
+// Debounced (450ms) availability check - purely advisory (the note under
+// the field already says so): the partial unique index on
 // username_normalized is the real, final authority, this only avoids
 // making the student wait until they submit the whole form to find out
-// their pick is taken.
+// their pick is invalid or already taken. Format is checked locally first
+// (via the rules shared with the server) so an obviously-malformed value
+// never even reaches the network.
 function setupUsernameAvailabilityCheck(inputId, statusId) {
   const input = document.getElementById(inputId);
   const statusEl = document.getElementById(statusId);
-  if (!input || !statusEl) return;
+  const rules = window.AndergoUsernameRules;
+  if (!input || !statusEl || !rules) return;
 
+  usernameCheckState.set(inputId, { status: 'idle', normalizedUsername: '' });
   let debounceId = null;
-  let requestToken = 0;
 
   input.addEventListener('input', () => {
-    const value = input.value.trim();
-    statusEl.classList.remove('is-error', 'is-available');
     if (debounceId) window.clearTimeout(debounceId);
+    const rawValue = input.value;
 
-    if (!value) {
-      statusEl.textContent = '';
+    if (!rawValue.trim()) {
+      setUsernameStatus(inputId, statusEl, 'idle', '', '');
       return;
     }
 
-    statusEl.textContent = 'Comprobando disponibilidad…';
-    const thisToken = ++requestToken;
+    const formatCheck = rules.validateUsernameFormat(rawValue);
+    if (!formatCheck.valid) {
+      setUsernameStatus(inputId, statusEl, 'invalid', '', formatCheck.message);
+      return;
+    }
 
-    debounceId = window.setTimeout(async () => {
-      try {
-        const response = await fetch(
-          `${backendBaseUrl}/api/auth/username-available?u=${encodeURIComponent(value)}`
-        );
-        const data = await response.json().catch(() => ({}));
-        if (thisToken !== requestToken) return; // a newer keystroke already superseded this check
-
-        if (!response.ok || !data.ok) {
-          statusEl.textContent = data.message || 'Nombre de usuario no válido.';
-          statusEl.classList.add('is-error');
-          return;
-        }
-        if (data.available) {
-          statusEl.textContent = `"${data.normalizedUsername}" está disponible.`;
-          statusEl.classList.add('is-available');
-        } else {
-          statusEl.textContent = 'Ese nombre de usuario no está disponible.';
-          statusEl.classList.add('is-error');
-        }
-      } catch {
-        if (thisToken === requestToken) statusEl.textContent = '';
-      }
-    }, 400);
+    setUsernameStatus(
+      inputId,
+      statusEl,
+      'checking',
+      rules.normalizeUsername(rawValue),
+      USERNAME_STATUS_MESSAGES.checking
+    );
+    debounceId = window.setTimeout(() => {
+      queryUsernameAvailability(inputId, statusEl, rawValue);
+    }, 450);
   });
+}
+
+// Re-validates format, then confirms with the server one last time before
+// letting the form submit - never trusts the visual "available" state alone
+// (it could be stale if the student clicked submit mid-debounce, or never
+// triggered an input event at all, e.g. browser autofill).
+async function ensureUsernameAvailableForSubmit(inputId, statusId) {
+  const input = document.getElementById(inputId);
+  const statusEl = document.getElementById(statusId);
+  const rules = window.AndergoUsernameRules;
+  if (!input || !statusEl || !rules) return false;
+
+  const rawValue = input.value;
+  const formatCheck = rules.validateUsernameFormat(rawValue);
+  if (!formatCheck.valid) {
+    setUsernameStatus(inputId, statusEl, 'invalid', '', formatCheck.message);
+    input.focus();
+    return false;
+  }
+
+  const normalizedUsername = rules.normalizeUsername(rawValue);
+  const state = usernameCheckState.get(inputId);
+  if (state?.status !== 'available' || state.normalizedUsername !== normalizedUsername) {
+    await queryUsernameAvailability(inputId, statusEl, rawValue);
+  }
+
+  const freshState = usernameCheckState.get(inputId);
+  if (freshState?.status === 'available' && freshState.normalizedUsername === normalizedUsername) {
+    return true;
+  }
+  input.focus();
+  return false;
 }
 
 // Client-side-only signal (never the source of truth for whether a
@@ -5839,11 +6096,13 @@ function enableHomepageActions() {
 
     if (event.target.closest('[data-action="open-forgot-password"]')) {
       setAuthMessage('');
+      resetForgotPasswordForm();
       openModal('forgotPassword');
       return;
     }
     if (event.target.closest('[data-action="back-to-login"]')) {
       setAuthMessage('');
+      resetForgotPasswordForm();
       clearPendingMfa();
       openModal('login');
       return;

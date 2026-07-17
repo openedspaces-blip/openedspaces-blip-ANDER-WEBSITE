@@ -1101,16 +1101,16 @@
               </span>
             </label>
             <button type="submit" class="primary-btn">Guardar nueva contraseña</button>
-            <p class="reset-password-status" id="resetPasswordStatus" aria-live="polite"></p>
+            <p class="reset-password-status" id="resetPasswordStatus" role="status" aria-live="polite"></p>
           </form>
-          <div class="reset-password-success" id="resetPasswordSuccess" hidden>
-            <h3>✅ Contraseña actualizada</h3>
+          <div class="reset-password-success" id="resetPasswordSuccess" role="status" aria-live="polite" hidden>
+            <h3>✅ Tu contraseña fue actualizada correctamente.</h3>
             <p>Ya puedes iniciar sesión con tu nueva contraseña.</p>
             <a href="/" class="primary-btn">Ir a iniciar sesión</a>
           </div>
-          <div class="reset-password-invalid" id="resetPasswordInvalid" hidden>
+          <div class="reset-password-invalid" id="resetPasswordInvalid" role="alert" hidden>
             <h3>Enlace no válido o expirado</h3>
-            <p>Solicita un nuevo enlace de recuperación desde la pantalla de inicio de sesión.</p>
+            <p>El enlace de recuperación no es válido o ya expiró. Solicita uno nuevo.</p>
             <a href="/" class="secondary-btn">Volver a ANDERGO</a>
           </div>
         </div>
@@ -1338,7 +1338,8 @@
               />
             </label>
             <p class="auth-field-hint">Te enviaremos un enlace para crear una nueva contraseña.</p>
-            <button type="submit" class="primary-btn">Enviar enlace</button>
+            <button type="submit" class="primary-btn" id="forgotPasswordSubmit">Enviar enlace</button>
+            <p class="auth-status" id="forgotPasswordStatus" role="status" aria-live="polite"></p>
             <button type="button" class="secondary-btn" data-action="back-to-login">
               ← Volver a iniciar sesión
             </button>
@@ -1576,6 +1577,7 @@
     <script src="/src/js/gamification/toasts.js"></script>
     <script src="/src/js/gamification/render.js"></script>
     <script src="/src/js/gamification/index.js"></script>
+    <script src="/src/js/username-rules.js"></script>
     <script src="/src/js/script.js"></script>
   </body>
 </html>
