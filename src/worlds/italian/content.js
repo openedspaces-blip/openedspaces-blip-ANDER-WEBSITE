@@ -531,6 +531,8 @@
         "¿Qué gusto personal menciona la persona?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -620,6 +622,8 @@
         "¿A qué hora estudia?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -709,6 +713,8 @@
         "Cosa fa dopo la lezione?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -798,6 +804,8 @@
         "¿Qué lugar visita después de clases?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -887,6 +895,8 @@
         "¿Quién llega hoy?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -976,6 +986,8 @@
         "¿Cómo está la calle?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1065,6 +1077,8 @@
         "¿Para qué momento del día compra la fruta?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1154,6 +1168,8 @@
         "¿Qué lugar encuentra al final del camino?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1244,6 +1260,8 @@
         "Di cosa parlano?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1333,6 +1351,8 @@
         "¿Cuándo piensa volver?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1422,6 +1442,8 @@
         "¿Cómo compara el café de hoy con el de ayer?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1511,6 +1533,8 @@
         "¿Qué prepara al volver a casa?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1600,6 +1624,8 @@
         "¿Cómo se siente ahora?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1689,6 +1715,8 @@
         "¿Qué beneficio menciona el texto?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1779,6 +1807,8 @@
         "Cosa pensa la sua insegnante?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1868,6 +1898,8 @@
         "¿Cómo terminó sintiéndose?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1957,6 +1989,8 @@
         "¿Por qué cambió su plan?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2046,6 +2080,8 @@
         "¿Qué meta cumplió el grupo?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2135,6 +2171,8 @@
         "¿Qué ventaja reconocen ambos?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2224,6 +2262,8 @@
         "¿Qué impacto les preocupa?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2314,6 +2354,8 @@
         "Cosa hanno fatto alcune università per mantenere gli studenti coinvolti?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2403,6 +2445,8 @@
         "¿Qué aspecto técnico mencionan?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2492,6 +2536,8 @@
         "¿Qué recomienda revisar el texto?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2581,6 +2627,8 @@
         "¿Qué resultado logró el debate?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2670,6 +2718,8 @@
         "¿Qué relación hay entre lengua e identidad?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2759,6 +2809,8 @@
         "¿Qué efecto busca al matizar su respuesta?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2849,6 +2901,8 @@
         "Cosa può aiutare a fare il riconoscere questa distinzione?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2938,6 +2992,8 @@
         "¿Cómo valora el enfoque general?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3027,6 +3083,8 @@
         "¿Qué efecto produce un registro más preciso?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3116,6 +3174,8 @@
         "¿Qué elemento sostiene la conclusión?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3205,6 +3265,8 @@
         "¿Qué papel tiene el tono en la interpretación?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3294,6 +3356,8 @@
         "¿Qué propone al final?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3384,6 +3448,8 @@
         "Cosa sviluppa spesso chi accetta l'ambiguità?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3473,6 +3539,8 @@
         "¿Cómo termina el texto?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3562,6 +3630,8 @@
         "¿Qué aspecto sostiene la autoridad textual?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3651,6 +3721,8 @@
         "¿Qué delimita el registro?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",

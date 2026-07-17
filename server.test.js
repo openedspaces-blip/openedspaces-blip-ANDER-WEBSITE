@@ -167,28 +167,34 @@ test('health endpoint reports AI tutor configuration without leaking keys or oth
 
 // English A1 is now organized into 12 thematic units with one activity per
 // skill each (72 activities) instead of a single lesson per skill (6) -
-// see scripts/content/english-a1-units.js. French A1 got the same
-// unit-based treatment plus an extra 'dialogue' skill (12 units x 7 skills
-// = 84 activities) - see scripts/content/french-a1-units.js and the
+// see scripts/content/english-a1-units.js. Español A1 got the identical
+// unit-based treatment (12 units x 6 skills = 72 activities, no separate
+// 'dialogue' skill - dialogues live inside listening via listeningType:
+// 'dialogue', see scripts/content/spanish-a1-units.js). French A1 got the
+// same unit-based treatment plus an extra 'dialogue' skill (12 units x 7
+// skills = 84 activities) - see scripts/content/french-a1-units.js and the
 // dialogue_skill/dialogue_mission migration. Every other language/level
-// keeps the original flat, single-lesson-per-skill shape.
+// keeps the original flat, single-lesson-per-skill shape. Per-language
+// expectations are deliberately kept separate (not one global constant)
+// because these structures genuinely differ.
 const ENGLISH_A1_ACTIVITY_COUNT = 72;
+const SPANISH_A1_ACTIVITY_COUNT = 72;
 const FRENCH_A1_ACTIVITY_COUNT = 84;
 const UNIT_SKILLS_BY_LANGUAGE = { french: [...SKILLS, 'dialogue'] };
+const A1_ACTIVITY_COUNT_BY_LANGUAGE = {
+  english: ENGLISH_A1_ACTIVITY_COUNT,
+  spanish: SPANISH_A1_ACTIVITY_COUNT,
+  french: FRENCH_A1_ACTIVITY_COUNT
+};
 
 function unitSkillsFor(language) {
   return UNIT_SKILLS_BY_LANGUAGE[language] || SKILLS;
 }
 
-test('fallback worlds include six lessons per level for every supported language (English A1: 12 units x 6 skills, French A1: 12 units x 7 skills)', () => {
+test('fallback worlds include six lessons per level for every supported language (English A1 and Español A1: 12 units x 6 skills, French A1: 12 units x 7 skills)', () => {
   for (const language of WORLD_LANGUAGES) {
     const lessons = getLocalLessons(language);
-    const a1Count =
-      language === 'english'
-        ? ENGLISH_A1_ACTIVITY_COUNT
-        : language === 'french'
-          ? FRENCH_A1_ACTIVITY_COUNT
-          : 6;
+    const a1Count = A1_ACTIVITY_COUNT_BY_LANGUAGE[language] || 6;
     const expectedTotal = 36 - 6 + a1Count;
     assert.equal(lessons.length, expectedTotal);
 
@@ -284,7 +290,7 @@ test('lessons endpoint returns the A1 learning path', async () => {
   }
 });
 
-test('lessons endpoint returns expanded A1 worlds for every supported language (English: 12 units x 6 skills, French: 12 units x 7 skills)', async () => {
+test('lessons endpoint returns expanded A1 worlds for every supported language (English/Español: 12 units x 6 skills, French: 12 units x 7 skills)', async () => {
   const { server, port } = await startTestServer();
   try {
     for (const language of WORLD_LANGUAGES) {
@@ -293,18 +299,20 @@ test('lessons endpoint returns expanded A1 worlds for every supported language (
       );
       assert.equal(response.status, 200);
       const body = await response.json();
-      const expectedCount =
-        language === 'english'
-          ? ENGLISH_A1_ACTIVITY_COUNT
-          : language === 'french'
-            ? FRENCH_A1_ACTIVITY_COUNT
-            : 6;
+      // Español A1's 72-activity content (scripts/content/spanish-a1-units.js,
+      // migrated via scripts/migrate-spanish-a1-units.js) is now live, so the
+      // endpoint serves the same expanded structure as English/French A1.
+      const expectedCount = A1_ACTIVITY_COUNT_BY_LANGUAGE[language] || 6;
       assert.equal(body.lessons.length, expectedCount);
       assert.deepEqual(
         [...new Set(body.lessons.map((lesson) => lesson.skill))].sort(),
         [...unitSkillsFor(language)].sort()
       );
-      if (language === 'english' || language === 'french') {
+      // Every unit-based A1 course migrated into the normalized Supabase
+      // schema carries a unitId on each activity - English, French, and
+      // now Español (scripts/migrate-spanish-a1-units.js has been run
+      // against this environment's Supabase project).
+      if (language === 'english' || language === 'french' || language === 'spanish') {
         assert.ok(
           body.lessons.every((lesson) => typeof lesson.unitId === 'string' && lesson.unitId.length > 0),
           `expected every ${language} A1 activity to have a unitId`
@@ -498,6 +506,198 @@ test('English A1 has no dialogue-skill activities (dialogue is French-A1-only fo
     (row) => row.target_language === 'english' && row.skill === 'dialogue'
   );
   assert.equal(englishDialogueRows.length, 0);
+});
+
+// ---------------------------------------------------------------------
+// Español A1 (scripts/content/spanish-a1-units.js, flattened by
+// scripts/build-spanish-a1-seed.js into lib/seed-lessons.json/seed-units.json).
+// English A1 is the technical template here: 12 units x 6 core skills, no
+// separate 'dialogue' skill row - dialogues live inside listening via
+// listeningType: 'dialogue' + the `dialogue` field. Free/Premium follows
+// the split explicitly requested for Español A1 (units 1-2 free, 3-12
+// premium), which differs from English A1's own 100%-free policy - see
+// the seed/build scripts' comments for why these aren't unified.
+// ---------------------------------------------------------------------
+
+const SPANISH_CORE_SKILLS = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
+const ALLOWED_LISTENING_TYPES = [
+  'dialogue',
+  'interview',
+  'announcement',
+  'voice-message',
+  'story',
+  'dictation',
+  'phonetic-transcription'
+];
+
+function spanishA1Rows() {
+  return seedLessons.filter((row) => row.target_language === 'spanish' && row.level === 'A1');
+}
+
+test('Español A1 has exactly 12 units, in order, units 1-2 free and 3-12 premium', () => {
+  const units = seedUnits
+    .filter((row) => row.target_language === 'spanish' && row.level === 'A1')
+    .sort((a, b) => (a.order_index || 0) - (b.order_index || 0));
+  assert.equal(units.length, 12);
+  units.forEach((unit, index) => {
+    assert.equal(unit.order_index, index + 1, `unit "${unit.slug}" should be order ${index + 1}`);
+  });
+
+  const lessonsByUnit = {};
+  spanishA1Rows().forEach((row) => {
+    (lessonsByUnit[row.unit_slug] = lessonsByUnit[row.unit_slug] || []).push(row);
+  });
+
+  units.forEach((unit, index) => {
+    const rows = lessonsByUnit[unit.slug] || [];
+    assert.ok(rows.length > 0, `expected activities for unit "${unit.slug}"`);
+    const expectedTier = index < 2 ? 'free' : 'premium';
+    rows.forEach((row) => {
+      assert.equal(
+        row.access_tier,
+        expectedTier,
+        `expected ${row.slug} (unit ${index + 1}) to be access_tier="${expectedTier}", got "${row.access_tier}"`
+      );
+    });
+  });
+});
+
+test('Español A1 has exactly 72 activities: 12 units x 6 core skills, no standalone dialogue skill', () => {
+  const rows = spanishA1Rows();
+  assert.equal(rows.length, 72);
+
+  const dialogueSkillRows = rows.filter((row) => row.skill === 'dialogue');
+  assert.equal(
+    dialogueSkillRows.length,
+    0,
+    'Español A1 must not have a standalone "dialogue" skill - dialogues live inside listening'
+  );
+
+  const unitSlugs = [...new Set(rows.map((row) => row.unit_slug))];
+  assert.equal(unitSlugs.length, 12);
+  unitSlugs.forEach((unitSlug) => {
+    const skillsForUnit = rows.filter((row) => row.unit_slug === unitSlug).map((row) => row.skill);
+    assert.deepEqual([...skillsForUnit].sort(), [...SPANISH_CORE_SKILLS].sort());
+  });
+});
+
+test('every Español A1 activity has language "spanish" and level "A1"', () => {
+  spanishA1Rows().forEach((row) => {
+    assert.equal(row.target_language, 'spanish');
+    assert.equal(row.level, 'A1');
+    assert.equal(row.content_json.language_key, 'spanish');
+  });
+});
+
+test('every Español A1 slug and unit_slug is unique and every unit_slug resolves to a real unit', () => {
+  const rows = spanishA1Rows();
+  const slugs = rows.map((row) => row.slug);
+  assert.equal(slugs.length, new Set(slugs).size, 'expected every Español A1 activity slug to be unique');
+
+  const unitSlugs = seedUnits
+    .filter((row) => row.target_language === 'spanish' && row.level === 'A1')
+    .map((row) => row.slug);
+  const uniqueUnitSlugs = new Set(unitSlugs);
+  assert.equal(unitSlugs.length, uniqueUnitSlugs.size, 'expected every Español A1 unit slug to be unique');
+  rows.forEach((row) => {
+    assert.ok(
+      uniqueUnitSlugs.has(row.unit_slug),
+      `${row.slug} references unit_slug "${row.unit_slug}", which has no matching unit row`
+    );
+  });
+});
+
+test('every Español A1 reading has 3 parts and exactly 8 exercises (4 mcq + 3 verdadero/falso + 1 vocabulario en contexto)', () => {
+  const readingRows = spanishA1Rows().filter((row) => row.skill === 'reading');
+  assert.equal(readingRows.length, 12);
+
+  readingRows.forEach((row) => {
+    const reading = row.content_json.reading;
+    assert.equal(reading.parts.length, 3, `${row.slug} should have 3 reading parts`);
+
+    const exercises = row.content_json.exercises;
+    assert.equal(exercises.length, 8, `${row.slug} should have 8 exercises`);
+
+    const trueFalse = exercises.filter(
+      (ex) => Array.isArray(ex.options) && ex.options.length === 2 && ex.options.includes('Verdadero')
+    );
+    assert.equal(trueFalse.length, 3, `${row.slug} should have 3 verdadero/falso exercises`);
+
+    const remaining = exercises.filter((ex) => !trueFalse.includes(ex));
+    assert.equal(remaining.length, 5, `${row.slug} should have 5 remaining mcq (4 comprehension + 1 vocabulary-in-context)`);
+  });
+});
+
+test('every Español A1 listening has a valid listeningType, transcript and comprehension questions; dialogues carry dialogue lines', () => {
+  const listeningRows = spanishA1Rows().filter((row) => row.skill === 'listening');
+  assert.equal(listeningRows.length, 12);
+
+  listeningRows.forEach((row) => {
+    const content = row.content_json;
+    const listeningType = content.extra?.listeningType;
+    assert.ok(
+      ALLOWED_LISTENING_TYPES.includes(listeningType),
+      `${row.slug} has listeningType "${listeningType}", expected one of ${ALLOWED_LISTENING_TYPES.join(', ')}`
+    );
+    assert.notEqual(listeningType, 'instructions', `${row.slug} must not use the disallowed "instructions" listeningType`);
+    assert.ok(content.transcript && content.transcript.length > 0, `${row.slug} should have a transcript`);
+    assert.ok(content.exercises.length > 0, `${row.slug} should have comprehension exercises`);
+    if (listeningType === 'dialogue') {
+      assert.ok(content.dialogue.length > 0, `${row.slug} (dialogue) should have dialogue lines`);
+    }
+  });
+});
+
+test('every Español A1 listening has phonetic support and dictation segments flagged as reviewable', () => {
+  const listeningRows = spanishA1Rows().filter((row) => row.skill === 'listening');
+  listeningRows.forEach((row) => {
+    const phonetic = row.content_json.extra?.phoneticSupport;
+    assert.ok(phonetic, `${row.slug} should have phoneticSupport`);
+    assert.equal(phonetic.locale, 'es-419');
+    assert.equal(phonetic.reviewStatus, 'pending-review');
+    assert.ok(row.content_json.dictation?.segments?.length > 0, `${row.slug} should have dictation segments`);
+  });
+});
+
+test('every Español A1 writing activity has an assignment and criteria (exercises)', () => {
+  const writingRows = spanishA1Rows().filter((row) => row.skill === 'writing');
+  assert.equal(writingRows.length, 12);
+  writingRows.forEach((row) => {
+    assert.ok(row.content_json.mission?.length > 0, `${row.slug} should have a mission/prompt`);
+    assert.ok(row.content_json.exercises.length > 0, `${row.slug} should have at least one writing exercise`);
+  });
+});
+
+test('every Español A1 grammar activity has an explanation and exercises', () => {
+  const grammarRows = spanishA1Rows().filter((row) => row.skill === 'grammar');
+  assert.equal(grammarRows.length, 12);
+  grammarRows.forEach((row) => {
+    assert.ok(row.content_json.grammar?.length > 0, `${row.slug} should have a grammar explanation`);
+    assert.ok(row.content_json.exercises.length > 0, `${row.slug} should have grammar exercises`);
+  });
+});
+
+test('every Español A1 vocabulary activity has 15-25 flashcards', () => {
+  const vocabRows = spanishA1Rows().filter((row) => row.skill === 'vocabulary');
+  assert.equal(vocabRows.length, 12);
+  vocabRows.forEach((row) => {
+    const count = row.content_json.vocabulary.length;
+    assert.ok(count >= 15 && count <= 25, `${row.slug} should have 15-25 vocabulary items, got ${count}`);
+  });
+});
+
+test('Español A1 does not expose answer keys or dictation text in the public browser bundle', () => {
+  const code = fs.readFileSync(path.join(__dirname, 'src/worlds/spanish/content.js'), 'utf8');
+  const window = {};
+  vm.runInContext(code, vm.createContext({ window }), { filename: 'src/worlds/spanish/content.js' });
+  const spanishLessons = window.ANDERGO_LANGUAGE_WORLDS.lessons.spanish.filter((l) => l.level === 'A1');
+  assert.equal(spanishLessons.length, 72);
+  spanishLessons.forEach((lesson) => {
+    (lesson.exercises || []).forEach((exercise) => {
+      assert.equal('answer' in exercise, false, `${lesson.slug} exercise leaks an "answer" field to the public bundle`);
+    });
+    assert.equal('dictation' in lesson, false, `${lesson.slug} must not ship dictation segment text to the public bundle`);
+  });
 });
 
 // ---------------------------------------------------------------------

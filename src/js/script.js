@@ -5003,8 +5003,10 @@ function buildListeningPlayerMarkup({ sourceLabel, sourceIsAi, title }) {
       <div class="listening-player-controls">
         <button type="button" class="listening-ctrl-btn listening-play-btn" aria-label="Reproducir" disabled>▶ Reproducir</button>
         <button type="button" class="listening-ctrl-btn listening-restart-btn" aria-label="Reiniciar" disabled>⏮ Reiniciar</button>
+        <button type="button" class="listening-ctrl-btn listening-back5-btn" aria-label="Retroceder 5 segundos" disabled>⏪ 5s</button>
+        <button type="button" class="listening-ctrl-btn listening-fwd5-btn" aria-label="Avanzar 5 segundos" disabled>⏩ 5s</button>
         <button type="button" class="listening-ctrl-btn listening-repeat-btn" aria-label="Repetir audio" aria-pressed="false" disabled>🔁 Repetir</button>
-        <button type="button" class="listening-ctrl-btn listening-speed-btn" aria-label="Cambiar a velocidad lenta" disabled>🐢 Velocidad lenta</button>
+        <button type="button" class="listening-ctrl-btn listening-speed-btn" aria-label="Cambiar velocidad" disabled>🐢 Normal</button>
       </div>
       <div class="listening-player-progress-row">
         <span class="listening-time-elapsed" aria-hidden="true">0:00</span>
@@ -5029,6 +5031,8 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
   const statusEl = content.querySelector('.listening-player-status');
   const playBtn = content.querySelector('.listening-play-btn');
   const restartBtn = content.querySelector('.listening-restart-btn');
+  const back5Btn = content.querySelector('.listening-back5-btn');
+  const fwd5Btn = content.querySelector('.listening-fwd5-btn');
   const repeatBtn = content.querySelector('.listening-repeat-btn');
   const speedBtn = content.querySelector('.listening-speed-btn');
   const elapsedEl = content.querySelector('.listening-time-elapsed');
@@ -5047,7 +5051,7 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
   };
 
   const enableControls = () => {
-    [playBtn, restartBtn, repeatBtn, speedBtn, rangeEl].forEach((el) => {
+    [playBtn, restartBtn, back5Btn, fwd5Btn, repeatBtn, speedBtn, rangeEl].forEach((el) => {
       if (el) el.disabled = false;
     });
     if (speedBtn && !meta.slowUrl)
@@ -5096,7 +5100,7 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
   });
   audioEl.addEventListener('error', () => {
     setState('error', 'No pudimos cargar este audio. Reintentar.');
-    [playBtn, restartBtn, repeatBtn, speedBtn, rangeEl].forEach((el) => {
+    [playBtn, restartBtn, back5Btn, fwd5Btn, repeatBtn, speedBtn, rangeEl].forEach((el) => {
       if (el) el.disabled = true;
     });
   });
@@ -5113,16 +5117,34 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
     if (elapsedEl) elapsedEl.textContent = '0:00';
     if (rangeEl) rangeEl.value = '0';
   });
+  back5Btn?.addEventListener('click', () => {
+    audioEl.currentTime = Math.max(0, audioEl.currentTime - 5);
+  });
+  fwd5Btn?.addEventListener('click', () => {
+    const max = Number.isFinite(audioEl.duration) ? audioEl.duration : audioEl.currentTime + 5;
+    audioEl.currentTime = Math.min(max, audioEl.currentTime + 5);
+  });
   repeatBtn?.addEventListener('click', () => {
     audioEl.loop = !audioEl.loop;
     repeatBtn.setAttribute('aria-pressed', String(audioEl.loop));
     repeatBtn.classList.toggle('is-active', audioEl.loop);
   });
+  // Three-tier speed cycle: normal -> lento -> muy lento -> normal. Any
+  // speed missing a recorded file (slowUrl/verySlowUrl) falls back to a
+  // client-side playbackRate reduction on the normal audio instead of
+  // switching src, same behavior the two-tier version already had.
+  const SPEED_TIERS = ['normal', 'slow', 'verySlow'];
+  const SPEED_LABEL = { normal: '🐢 Normal', slow: '🐇 Lento', verySlow: '🐌 Muy lento' };
+  const SPEED_RATE = { normal: 1, slow: 0.75, verySlow: 0.5 };
+  runtime.speedTier = runtime.speedTier || 'normal';
   speedBtn?.addEventListener('click', () => {
     const wasPlaying = !audioEl.paused;
-    runtime.usingSlow = !runtime.usingSlow;
-    if (meta.slowUrl) {
-      audioEl.src = runtime.usingSlow ? meta.slowUrl : meta.mainUrl;
+    const currentIndex = SPEED_TIERS.indexOf(runtime.speedTier);
+    runtime.speedTier = SPEED_TIERS[(currentIndex + 1) % SPEED_TIERS.length];
+    const recordedUrl =
+      runtime.speedTier === 'slow' ? meta.slowUrl : runtime.speedTier === 'verySlow' ? meta.verySlowUrl : meta.mainUrl;
+    if (recordedUrl && recordedUrl !== audioEl.src) {
+      audioEl.src = recordedUrl;
       audioEl.playbackRate = 1;
       setState('loading', 'Cargando audio…');
       audioEl.load();
@@ -5131,13 +5153,10 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
           once: true
         });
     } else {
-      audioEl.playbackRate = runtime.usingSlow ? 0.75 : 1;
+      audioEl.playbackRate = SPEED_RATE[runtime.speedTier];
     }
-    speedBtn.textContent = runtime.usingSlow ? '🐇 Velocidad normal' : '🐢 Velocidad lenta';
-    speedBtn.setAttribute(
-      'aria-label',
-      runtime.usingSlow ? 'Cambiar a velocidad normal' : 'Cambiar a velocidad lenta'
-    );
+    speedBtn.textContent = SPEED_LABEL[runtime.speedTier];
+    speedBtn.setAttribute('aria-label', `Velocidad actual: ${SPEED_LABEL[runtime.speedTier].replace(/^\S+\s/, '')}. Cambiar velocidad.`);
   });
   rangeEl?.addEventListener('input', () => {
     if (Number.isFinite(audioEl.duration) && audioEl.duration > 0) {
@@ -5273,6 +5292,187 @@ function computeListeningTutorQuestionContext(lesson) {
   };
 }
 
+// ---------------------------------------------------------------------
+// Rich Listening extra modes (Dictado / Transcripción fonética /
+// Diálogo-Role-play) - additive, only rendered when the lesson carries
+// `extra`/`dictation` data (currently Español A1 only; see
+// scripts/content/spanish-a1-units.js and
+// supabase/migrations/202607220001_rich_listening_content.sql). English
+// A1/French A1 lessons have no `extra`, so renderListeningExtraModesHtml
+// returns '' for them and nothing else in this section runs - zero
+// behavior change for existing languages.
+// ---------------------------------------------------------------------
+
+function listeningExtraModeList(lesson) {
+  const modes = [];
+  if (lesson.dictation?.segments?.length) modes.push({ id: 'dictation', label: 'Dictado' });
+  if (lesson.extra?.phoneticSupport) modes.push({ id: 'phonetic', label: 'Transcripción fonética' });
+  if (lesson.extra?.listeningType === 'dialogue' && lesson.dialogue?.length)
+    modes.push({ id: 'dialogue', label: 'Diálogo / Role-play' });
+  return modes;
+}
+
+function renderListeningExtraModesHtml(lesson, runtime) {
+  const modes = listeningExtraModeList(lesson);
+  if (!modes.length) return '';
+  if (!runtime.extraMode || !modes.some((m) => m.id === runtime.extraMode)) {
+    runtime.extraMode = modes[0].id;
+  }
+  const tabsHtml = modes
+    .map(
+      (m) =>
+        `<button type="button" class="listening-mode-tab${m.id === runtime.extraMode ? ' is-active' : ''}" data-mode="${m.id}" aria-pressed="${m.id === runtime.extraMode}">${escapeHtml(m.label)}</button>`
+    )
+    .join('');
+  return `
+    <div class="listening-extra-modes">
+      <div class="listening-mode-tabs" role="tablist">${tabsHtml}</div>
+      <div class="listening-mode-panel"></div>
+    </div>
+  `;
+}
+
+function renderListeningDictationPanel(lesson, runtime) {
+  const segments = lesson.dictation?.segments || [];
+  runtime.dictationAnswers = runtime.dictationAnswers || {};
+  const rowsHtml = segments
+    .map((segment, index) => {
+      const value = escapeHtml(runtime.dictationAnswers[segment.id] || '');
+      const result = runtime.dictationResults?.segments?.find((r) => String(r.segmentId) === String(segment.id));
+      const feedback = result
+        ? `<span class="dictation-segment-feedback">${result.correctWords}/${result.totalWords} palabras correctas</span>`
+        : '';
+      return `
+        <div class="dictation-segment" data-segment-id="${escapeHtml(String(segment.id))}">
+          <span class="dictation-segment-label">Frase ${index + 1}</span>
+          <textarea class="dictation-segment-input" rows="2" placeholder="Escribe lo que escuchas...">${value}</textarea>
+          ${feedback}
+        </div>
+      `;
+    })
+    .join('');
+  const overall = runtime.dictationResults
+    ? `<p class="dictation-overall-result">Resultado: ${runtime.dictationResults.correctWords}/${runtime.dictationResults.totalWords} palabras correctas (${runtime.dictationResults.percentage}%). Intento ${runtime.dictationResults.attemptNumber}.</p>`
+    : '';
+  return `
+    <div class="listening-dictation">
+      <p class="listening-dictation-intro">Escucha cada frase (usa los controles de velocidad si lo necesitas) y escribe exactamente lo que escuchas.</p>
+      ${rowsHtml}
+      ${overall}
+      <button type="button" class="secondary-btn listening-dictation-check-btn">Revisar dictado</button>
+    </div>
+  `;
+}
+
+function renderListeningPhoneticPanel(lesson) {
+  const ps = lesson.extra?.phoneticSupport;
+  if (!ps) return '<p class="skill-graph-empty">No hay transcripción fonética para esta lección.</p>';
+  const segmentsHtml = (ps.segments || [])
+    .map((s) => `<li><strong>${escapeHtml(s.text)}</strong> <span class="phonetic-ipa">${escapeHtml(s.ipa || '')}</span></li>`)
+    .join('');
+  const syllabHtml = (ps.syllabification || [])
+    .map((s) => `<li>${escapeHtml(s.word)}: <em>${escapeHtml(s.syllables)}</em></li>`)
+    .join('');
+  return `
+    <div class="listening-phonetic">
+      <p class="listening-phonetic-focus">${escapeHtml(ps.focus || '')}</p>
+      ${segmentsHtml ? `<ul class="listening-phonetic-segments">${segmentsHtml}</ul>` : ''}
+      ${(ps.stressedWords || []).length ? `<p><strong>Palabras con acento clave:</strong> ${(ps.stressedWords || []).map(escapeHtml).join(', ')}</p>` : ''}
+      ${syllabHtml ? `<ul class="listening-phonetic-syllables">${syllabHtml}</ul>` : ''}
+      ${(ps.difficultSounds || []).length ? `<p><strong>Sonidos a practicar:</strong> ${(ps.difficultSounds || []).map(escapeHtml).join(', ')}</p>` : ''}
+      <p class="listening-phonetic-note">Contenido pedagógico de apoyo, sujeto a revisión.</p>
+    </div>
+  `;
+}
+
+function renderListeningDialoguePanel(lesson, runtime) {
+  const linesHtml = (lesson.dialogue || [])
+    .map(
+      (line, index) => `
+        <div class="listening-dialogue-line">
+          <span class="listening-dialogue-speaker">${escapeHtml(line.speaker)}</span>
+          <span class="listening-dialogue-text">${escapeHtml(line.line)}</span>
+          <button type="button" class="listening-dialogue-translate-btn" data-line-index="${index}">${runtime.dialogueTranslationsShown?.[index] ? 'Ocultar' : 'Traducir'}</button>
+          <span class="listening-dialogue-translation" ${runtime.dialogueTranslationsShown?.[index] ? '' : 'hidden'}>${escapeHtml(line.translation || '')}</span>
+        </div>
+      `
+    )
+    .join('');
+  return `
+    <div class="listening-dialogue-panel">
+      <p class="listening-roleplay-note">Modo diálogo: lee el guion en pareja. Modo role-play: cada persona toma un rol y lo dice en voz alta, sin leer.</p>
+      ${linesHtml}
+    </div>
+  `;
+}
+
+async function submitDictationCheck(lesson, runtime, content) {
+  const segments = lesson.dictation?.segments || [];
+  const attempts = segments.map((segment) => ({
+    segmentId: segment.id,
+    text: runtime.dictationAnswers?.[segment.id] || ''
+  }));
+  runtime.dictationAttemptNumber = (runtime.dictationAttemptNumber || 0) + 1;
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/dictation/check`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({ attempts, attemptNumber: runtime.dictationAttemptNumber })
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.error || 'No se pudo revisar el dictado.');
+    runtime.dictationResults = data;
+    wireListeningModePanel(content, lesson, runtime);
+  } catch (error) {
+    showHomeToast(error.message || 'No se pudo revisar el dictado.');
+  }
+}
+
+function wireListeningModePanel(content, lesson, runtime) {
+  const panel = content.querySelector('.listening-mode-panel');
+  if (!panel) return;
+  if (runtime.extraMode === 'dictation') panel.innerHTML = renderListeningDictationPanel(lesson, runtime);
+  else if (runtime.extraMode === 'phonetic') panel.innerHTML = renderListeningPhoneticPanel(lesson);
+  else if (runtime.extraMode === 'dialogue') panel.innerHTML = renderListeningDialoguePanel(lesson, runtime);
+
+  panel.querySelectorAll('.dictation-segment-input').forEach((el) => {
+    el.addEventListener('input', () => {
+      const segmentId = el.closest('.dictation-segment')?.dataset.segmentId;
+      if (segmentId) {
+        runtime.dictationAnswers = runtime.dictationAnswers || {};
+        runtime.dictationAnswers[segmentId] = el.value;
+      }
+    });
+  });
+  panel.querySelector('.listening-dictation-check-btn')?.addEventListener('click', () => {
+    submitDictationCheck(lesson, runtime, content);
+  });
+  panel.querySelectorAll('.listening-dialogue-translate-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const index = Number(btn.dataset.lineIndex);
+      runtime.dialogueTranslationsShown = runtime.dialogueTranslationsShown || {};
+      runtime.dialogueTranslationsShown[index] = !runtime.dialogueTranslationsShown[index];
+      wireListeningModePanel(content, lesson, runtime);
+    });
+  });
+}
+
+function wireListeningExtraModes(content, lesson, runtime) {
+  const tabsWrap = content.querySelector('.listening-mode-tabs');
+  if (!tabsWrap) return;
+  tabsWrap.querySelectorAll('.listening-mode-tab').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      runtime.extraMode = btn.dataset.mode;
+      tabsWrap.querySelectorAll('.listening-mode-tab').forEach((b) => {
+        b.classList.toggle('is-active', b === btn);
+        b.setAttribute('aria-pressed', String(b === btn));
+      });
+      wireListeningModePanel(content, lesson, runtime);
+    });
+  });
+  wireListeningModePanel(content, lesson, runtime);
+}
+
 function renderListeningOfficial(content, lesson, runtime, audio) {
   const { total, attempted, allAttempted } = getExerciseProgress(lesson);
   const pct = total ? Math.round((attempted / total) * 100) : 0;
@@ -5294,6 +5494,7 @@ function renderListeningOfficial(content, lesson, runtime, audio) {
       <strong>Vocabulario</strong>
       <div class="listening-vocab-list">${(lesson.vocabulary || []).map((item) => `<span class="listening-vocab-item">${escapeHtml(item.word)}<small>${escapeHtml(resolveVocabTranslation(item))}</small></span>`).join('')}</div>
     </div>
+    ${renderListeningExtraModesHtml(lesson, runtime)}
     <div class="listening-questions-section">
       <h4>Preguntas de comprensión</h4>
       <div class="listening-progress-bar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
@@ -5310,9 +5511,11 @@ function renderListeningOfficial(content, lesson, runtime, audio) {
   wireListeningPlayerControls(content, lesson, runtime, {
     mainUrl: audio.audioUrl,
     slowUrl: audio.slowAudioUrl,
+    verySlowUrl: audio.verySlowAudioUrl,
     transcript: audio.transcript,
     sourceIsAi: false
   });
+  wireListeningExtraModes(content, lesson, runtime);
   content
     .querySelector('.listening-complete-btn')
     ?.addEventListener('click', () => completeListeningLesson(lesson, content));

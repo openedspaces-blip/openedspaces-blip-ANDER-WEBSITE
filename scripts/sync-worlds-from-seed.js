@@ -128,6 +128,17 @@ function shapeBrowserLesson(row) {
     vocabulary: content.vocabulary || [],
     dialogue: content.dialogue || [],
     reading: content.reading || null,
+    transcript: content.transcript || '',
+    // extra (listeningType/phoneticSupport/speakers/durationSeconds/
+    // difficulty) is display-only, safe to ship as-is. `dictation` is
+    // deliberately NOT included here: this file is a public static asset
+    // (window.ANDERGO_LANGUAGE_WORLDS), and dictation.segments[].text is
+    // the answer key for that exercise - only the backend
+    // (lib/courseLessonsService.js#checkDictation, reading from
+    // lesson_dictation_segments) may ever see it. Offline/no-backend mode
+    // simply doesn't support graded dictation, same limitation `answer`
+    // already has for mcq exercises in this bundle.
+    extra: content.extra || null,
     exercises: (content.exercises || []).map(sanitizeExerciseForClient)
   };
 }

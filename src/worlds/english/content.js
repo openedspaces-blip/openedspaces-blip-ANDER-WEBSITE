@@ -559,6 +559,8 @@
       },
       "text": "Hello! My name is Ana. Today is my first English class. I am a little nervous, but also excited. My teacher is Mr. Green. He says, \"Good morning, class!\" and we answer, \"Good morning, Mr. Green!\" He has a big smile and a friendly voice.\n\nI sit next to a boy named Leo. \"Hi, I'm Leo,\" he says. \"Nice to meet you,\" I answer. We shake hands and smile. Leo is from Italy, and this is his first day too. We both feel happy to have a new friend.\n\nMr. Green asks us to say our names and spell them with the alphabet. I spell my name: A-N-A. Leo spells his name too: L-E-O. It is a good first day. I already have one new friend, and I want to learn more English words tomorrow."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -691,6 +693,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -770,6 +774,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -810,6 +816,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -842,6 +850,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -945,6 +955,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1019,6 +1031,8 @@
       },
       "text": "My name is Marco. I am twelve years old. I am from the Dominican Republic, and I live in Santo Domingo. My city is big and colorful, with many parks and friendly people. I go to a school near my house with my sister.\n\nToday is a special day for me: it is my birthday! I am very happy today. I am not tired, and I am not sad at all. My friends say \"Happy birthday!\" to me at school, and I feel very lucky.\n\nI am a student, and I am also a good friend. I like to help my classmates with their homework. My favorite color is blue, like the sky. Tonight, my family is going to have a small party for my birthday."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1151,6 +1165,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1224,6 +1240,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -1265,6 +1283,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -1296,6 +1316,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1399,6 +1421,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1473,6 +1497,8 @@
       },
       "text": "This is my family. My mother's name is Carmen, and my father's name is Julio. My parents work near our house, and they always have dinner with us. We live in a small house with a big garden.\n\nI have one sister and one brother. My sister's name is Sofia; she is sixteen years old, and she loves music. My brother's name is Marco; he is nine, and he loves soccer. We play together every weekend.\n\nMy grandmother lives with us too. Her name is Rosa, and she is very kind. She cooks delicious food for the family. On Sundays, we all eat lunch together and talk about our week. We are a happy family."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1605,6 +1631,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1678,6 +1706,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -1719,6 +1749,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -1750,6 +1782,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1853,6 +1887,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1927,6 +1963,8 @@
       },
       "text": "My classroom is big and bright. There is a whiteboard, a teacher's desk, and twenty student desks. There are books, pencils, and a big clock on the wall. The walls are yellow, and there are colorful posters everywhere.\n\nMy favorite subject is English, but I also like Math and Art. In English class, we learn new words and sing songs. In Art class, we draw and paint pictures. Math is difficult sometimes, but my teacher helps me.\n\nThere isn't a computer in my classroom, but there is a computer lab at school. We go there once a week to use computers. I like my school very much because my teachers are kind and my friends are fun."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2059,6 +2097,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2132,6 +2172,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -2173,6 +2215,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -2204,6 +2248,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2307,6 +2353,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2381,6 +2429,8 @@
       },
       "text": "Every day, I get up at seven o'clock. First, I brush my teeth and wash my face. Then I eat breakfast with my family: bread, eggs, and juice. After breakfast, I walk to school with my friend Sofia. We talk about our homework on the way.\n\nSchool starts at eight o'clock. I have English, Math, and Science in the morning. At noon, I eat lunch with my classmates in the cafeteria. In the afternoon, I do my homework at home, and then I play soccer with my brother in the garden.\n\nIn the evening, my family has dinner together at seven o'clock. We talk about our day and laugh a lot. After dinner, I read a book for a little while. I go to bed at nine thirty. I always sleep well because my day is full of activities!"
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2513,6 +2563,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2586,6 +2638,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -2627,6 +2681,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -2658,6 +2714,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2761,6 +2819,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2835,6 +2895,8 @@
       },
       "text": "My English class is on Monday, Wednesday, and Friday, at nine o'clock in the morning. I also have Math on Tuesday and Thursday, at ten o'clock. My classes finish at two o'clock in the afternoon, and then I go home for lunch.\n\nMy favorite day is Saturday because I don't have school. On Saturday mornings, I usually clean my room and help my mother. In the afternoon, I play with my friends in the park. Sunday is a quiet day; my family rests and visits my grandmother.\n\nMy birthday is in June, on the fifteenth. This year, my birthday is on a Sunday, so I can celebrate all day with my family! In the summer, in July and August, we don't have classes at all. I love summer because I can sleep late and travel."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2967,6 +3029,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3040,6 +3104,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -3081,6 +3147,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -3112,6 +3180,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3215,6 +3285,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3387,6 +3459,8 @@
         "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3463,6 +3537,8 @@
       },
       "text": "At lunchtime, I usually eat rice, chicken, and some vegetables. My mother cooks a big lunch for the whole family every day. We eat together at the table and talk about our morning. Lunch is my favorite meal of the day.\n\nI love fruit, especially bananas and mangoes. I eat fruit every afternoon as a snack. I don't like fish very much, but my brother loves it. He eats fish two or three times a week. We don't always like the same food!\n\nFor drinks, I have some water or juice with my meals. I don't drink coffee because it's only for adults. On Fridays, we sometimes have pizza for dinner, and everybody is happy! Pizza with cheese is my favorite kind."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3595,6 +3671,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3668,6 +3746,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -3709,6 +3789,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -3740,6 +3822,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3843,6 +3927,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4015,6 +4101,8 @@
         "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4091,6 +4179,8 @@
       },
       "text": "My house has five rooms: a kitchen, a living room, two bedrooms, and a bathroom. The kitchen is next to the living room, and it is always warm because my mother cooks there every day. Our house is small, but very comfortable.\n\nIn my bedroom, there is a bed, a desk, and a small closet. My bed is next to the window, so I can see the garden. I keep my clothes in the closet and my books on the desk. I share my bedroom with my sister.\n\nMy favorite room is the living room because there is a big sofa and a television. We watch movies there on weekends. Our cat, Luna, is usually under the table in the kitchen, but sometimes she sleeps on the sofa too. I love my home."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4223,6 +4313,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4296,6 +4388,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -4337,6 +4431,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -4368,6 +4464,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4471,6 +4569,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4643,6 +4743,8 @@
         "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4719,6 +4821,8 @@
       },
       "text": "There is a small park near my house, and I play there with my friends every afternoon. There is also a supermarket, a bakery, and a pharmacy on my street. The bakery smells wonderful in the morning because they bake fresh bread.\n\nMy school is not far; it is only a ten-minute walk. I walk there every day with my neighbor. Next to my school, there is a small bookstore where I buy notebooks and pencils. My town also has a beautiful library with many books.\n\nOn Saturdays, my family goes to the market to buy fresh fruit and vegetables. The market is busy and colorful, with many friendly sellers. I like my neighborhood because everything is close, and I know almost everybody who lives here."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4851,6 +4955,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4924,6 +5030,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -4965,6 +5073,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -4996,6 +5106,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5099,6 +5211,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5271,6 +5385,8 @@
         "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5347,6 +5463,8 @@
       },
       "text": "On weekends, I usually play soccer with my friends in the park. We play for almost two hours, and it is great exercise. I always watch a movie on Friday night with my family. We choose a different movie every week and eat popcorn together.\n\nI sometimes read books on Saturday afternoon, especially adventure stories. But I never do homework on Sunday morning! Sunday morning is only for relaxing and having a big breakfast with my family. I finish my homework on Sunday evening instead.\n\nMy sister usually plays the guitar, and she is very good at it. She practices every weekend and sometimes plays songs for the family. Free time is important because it makes me happy and helps me relax after a busy week at school."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5479,6 +5597,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5552,6 +5672,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -5593,6 +5715,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -5624,6 +5748,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5727,6 +5853,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5900,6 +6028,8 @@
         "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5976,6 +6106,8 @@
       },
       "text": "Yesterday, I went to the store with my mother to buy new clothes for school. The store was big, with many colors and styles. I tried on a blue shirt and some black pants. I looked at myself in the big mirror.\n\nThe shirt was too big, so I asked the shop assistant for a smaller size. She was very helpful and brought me a medium shirt. It fit perfectly! I also bought a pair of white shoes because my old shoes were too small.\n\nMy mother said, \"This shirt looks great on you!\" I felt happy and confident in my new clothes. We paid at the counter and went home happy. Tomorrow, I am going to wear my new shirt and shoes to school!"
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6108,6 +6240,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6181,6 +6315,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -6222,6 +6358,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -6253,6 +6391,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6356,6 +6496,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6529,6 +6671,8 @@
         "Write three sentences about your last weekend using first, then, and finally."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6605,6 +6749,8 @@
       },
       "text": "Next month, my family is going to travel to the mountains. The weather there is usually cool, not hot like the beach. In the mountains, it sometimes rains in the afternoon, so we need to check the weather before we go. I am already thinking about what to pack.\n\nWe are going to pack jackets and warm clothes because the nights are cold. My father is going to drive, and the trip takes about three hours. My mother is going to bring snacks and water for the journey. We are also going to bring a camera to take photos.\n\nI am very excited because it is going to be my first time in the mountains! My brother says there are beautiful views and many trails for walking. We are going to stay in a small cabin near a lake. I can't wait for our trip!"
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6737,6 +6883,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6810,6 +6958,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -6851,6 +7001,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -6882,6 +7034,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6985,6 +7139,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7157,6 +7313,8 @@
         "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7331,6 +7489,8 @@
         "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7505,6 +7665,8 @@
         "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7679,6 +7841,8 @@
         "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7854,6 +8018,8 @@
         "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8029,6 +8195,8 @@
         "Would you like to study abroad? Explain your opinion with two reasons."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8201,6 +8369,8 @@
         "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8373,6 +8543,8 @@
         "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8545,6 +8717,8 @@
         "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8717,6 +8891,8 @@
         "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8890,6 +9066,8 @@
         "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9063,6 +9241,8 @@
         "Do you think remote work is generally positive or negative? Support your opinion with one reason."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9235,6 +9415,8 @@
         "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9407,6 +9589,8 @@
         "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9579,6 +9763,8 @@
         "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9751,6 +9937,8 @@
         "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9924,6 +10112,8 @@
         "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10097,6 +10287,8 @@
         "Do you find the author's argument convincing? Justify your answer with reference to the text."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10271,6 +10463,8 @@
         "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10445,6 +10639,8 @@
         "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10619,6 +10815,8 @@
         "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10793,6 +10991,8 @@
         "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10968,6 +11168,8 @@
         "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -11143,6 +11345,8 @@
         "Perform the author's exercise: write a paragraph on attention avoiding all economic vocabulary."
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",

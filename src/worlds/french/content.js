@@ -541,6 +541,8 @@
       },
       "text": "Bonjour ! Je m'appelle Camila. Je viens de Saint-Domingue, en République dominicaine. Aujourd'hui, c'est mon premier jour à l'école, à Tours, en France. Je suis un peu nerveuse, mais je suis très contente. J'habite chez une famille française, la famille Lambert. Le matin, je prends mon sac et je marche vers l'école avec Léa, la fille de la famille. Léa a quinze ans, comme moi. Elle est sympathique et elle parle lentement pour m'aider. Devant l'école, il y a beaucoup d'élèves. Ils parlent, ils rient, et moi, j'observe tout en silence.\n\nDans la salle de classe, la professeure s'appelle Madame Dubois. Elle a un grand sourire et une voix calme. Elle dit : « Bonjour, la classe ! Bienvenue ! » et les élèves répondent : « Bonjour, madame ! » Je m'assois à côté d'un garçon sympathique. Il s'appelle Karim. « Salut ! Tu es nouvelle ? » demande-t-il. « Oui, je m'appelle Camila. Je suis dominicaine », je réponds. « Enchanté, Camila ! Bienvenue à Tours », dit Karim avec un grand sourire. Léa est assise juste derrière nous. Elle chuchote : « Ne t'inquiète pas, tout va bien se passer ! »\n\nMadame Dubois demande à chaque élève d'épeler son prénom avec l'alphabet. J'épelle mon prénom : C-A-M-I-L-A. Karim épelle le sien : K-A-R-I-M. Tout le monde applaudit. À la fin du cours, Léa me dit : « Bravo, Camila ! C'est un bon début. » Je souris. J'ai déjà deux nouveaux amis, Léa et Karim, et j'ai envie d'apprendre encore plus de français. Ce premier jour à Tours restera un très bon souvenir."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -673,6 +675,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -752,6 +756,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -792,6 +798,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -825,6 +833,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -968,6 +978,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1072,6 +1084,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1146,6 +1160,8 @@
       },
       "text": "Aujourd'hui, dans la classe de Madame Dubois, nous avons une activité amusante : remplir une fiche de présentation. J'écris mon prénom, mon âge et ma nationalité. Je m'appelle Camila Ramírez. J'ai seize ans. Je suis dominicaine, mais j'habite maintenant à Tours, en France. Sur ma fiche, j'écris aussi mes centres d'intérêt : la musique, la danse et les langues. Madame Dubois demande : « Qui a une fiche originale ? » Karim lève la main tout de suite.\n\nKarim se présente : « Je m'appelle Karim Haddad. J'ai quinze ans. Je suis marocain et français, parce que ma famille vient du Maroc, mais je suis né à Tours. » Léa continue : « Moi, je m'appelle Léa Lambert. J'ai quinze ans aussi. Je suis française, de Tours. » Madame Dubois pose une question à toute la classe : « D'où venez-vous ? » Nous répondons chacun notre tour, avec notre pays d'origine et notre ville.\n\nÀ la fin de l'activité, Madame Dubois affiche toutes les fiches sur le mur de la classe. « Vous n'êtes pas seuls », dit-elle. « Cette classe a des élèves de plusieurs pays, et c'est une richesse. » Je regarde ma fiche à côté de celle de Karim et de Léa. Je ne suis pas triste d'être loin de Saint-Domingue, parce que j'ai déjà de nouveaux amis à Tours. Ce jour-là, je comprends que ma nouvelle vie en France commence vraiment bien."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1283,6 +1299,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1361,6 +1379,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -1402,6 +1422,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -1433,6 +1455,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1571,6 +1595,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1670,6 +1696,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1744,6 +1772,8 @@
       },
       "text": "Aujourd'hui, je vais vous présenter ma famille. À Saint-Domingue, j'habite avec mes parents et mon frère et ma sœur. Ma mère s'appelle Rosa. Elle est infirmière et elle est très patiente. Mon père s'appelle Miguel. Il est professeur de mathématiques. J'ai un petit frère, Diego. Il a dix ans et il adore le football. J'ai aussi une grande sœur, Sofía. Elle a dix-neuf ans et elle étudie à l'université. Ma famille me manque un peu, mais nous parlons par vidéo tous les dimanches.\n\nIci, à Tours, j'habite avec ma famille d'accueil, la famille Lambert. Madame Lambert est la mère de Léa. Elle est architecte et elle est très accueillante. Monsieur Lambert est le père de Léa. Il est cuisinier dans un restaurant, alors les repas chez eux sont délicieux ! Léa est fille unique, donc elle est très contente d'avoir « une sœur » pendant cette année. Son chat s'appelle Minou et il dort toujours sur mon lit.\n\nMes deux familles sont très différentes, mais toutes les deux sont importantes pour moi. Ma famille dominicaine me donne des racines, et ma famille d'accueil me donne un nouveau foyer. Léa dit souvent : « Ta famille est loin, mais ici, tu as aussi une famille. » J'aime cette phrase. Maintenant, j'ai deux familles et deux maisons, une à Saint-Domingue et une à Tours."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1881,6 +1911,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -1954,6 +1986,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -1994,6 +2028,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -2025,6 +2061,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2163,6 +2201,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2257,6 +2297,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2331,6 +2373,8 @@
       },
       "text": "Le collège de Tours est très différent de mon ancienne école à Saint-Domingue. Il y a une grande cour, une bibliothèque, un gymnase et une cantine. Karim me fait visiter le collège pendant la pause. « Regarde, dans cette salle, il y a un tableau, des tables et des chaises pour trente élèves », dit-il. Sur mon bureau, j'ai un cahier, un stylo, une trousse et un livre de français. Dans mon sac, il y a aussi une calculatrice pour les cours de mathématiques.\n\nAprès la visite, nous allons à la bibliothèque. « Il y a beaucoup de livres ici, » dit Karim, « et un ordinateur pour chercher des informations. » Je vois une affiche avec l'emploi du temps de la semaine. Le lundi, il y a français, mathématiques et sport. Le mercredi après-midi, il n'y a pas de cours ; c'est libre pour les activités. Karim me demande : « Tu as combien de cours par jour ? » Je réponds : « Ici, j'ai six cours, comme toi ! »\n\nÀ la fin de la journée, je retourne dans la salle de classe pour prendre mon sac. Madame Dubois pose une question à la classe : « Qu'est-ce qu'il y a dans une trousse ? » Les élèves répondent : « Un stylo, un crayon, une gomme et une règle ! » Je souris, parce que maintenant je connais bien le vocabulaire de l'école. Ce collège commence à devenir ma deuxième maison."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2468,6 +2512,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2540,6 +2586,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -2580,6 +2628,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -2611,6 +2661,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2749,6 +2801,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2837,6 +2891,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -2911,6 +2967,8 @@
       },
       "text": "Ma journée à Tours commence tôt. Je me réveille à six heures et demie. Je me lève tout de suite, parce que j'aime avoir du temps le matin. Je me lave et je m'habille rapidement. Ensuite, je descends dans la cuisine pour prendre le petit-déjeuner avec la famille Lambert. Madame Lambert prépare toujours du pain, du beurre et de la confiture. Je mange avec Léa et nous parlons un peu en français. À sept heures et demie, nous partons pour le collège, à pied, parce que l'école n'est pas loin de la maison.\n\nLes cours commencent à huit heures et finissent à seize heures trente. Entre les cours, il y a une pause de dix minutes. À midi, je mange à la cantine avec Karim et Léa. Nous parlons souvent de nos activités préférées. Après les cours, je rentre à la maison avec Léa. Je fais mes devoirs pendant une heure, puis je me repose un peu. Le soir, je dîne avec la famille Lambert, et parfois, j'aide Madame Lambert à préparer le repas.\n\nAvant de dormir, j'écris toujours quelques lignes dans mon journal, en français. J'écris sur ma journée, mes émotions et mes progrès. Je me couche généralement à vingt-deux heures, parce que je me lève tôt le lendemain. Ma routine à Tours est différente de ma routine à Saint-Domingue, mais je commence à m'habituer. Chaque jour, j'apprends un peu plus de français, et chaque jour, je me sens un peu plus chez moi."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3043,6 +3101,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3116,6 +3176,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -3157,6 +3219,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -3187,6 +3251,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3325,6 +3391,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3413,6 +3481,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3487,6 +3557,8 @@
       },
       "text": "Le quinze octobre, c'est l'anniversaire de Léa. Elle va avoir seize ans. Avec Karim, nous décidons d'organiser une petite fête surprise. La fête commence à dix-huit heures, chez la famille Lambert, mais Léa ne le sait pas encore ! Nous devons tout préparer avant son retour du collège. Karim s'occupe de la musique, et moi, je m'occupe des décorations et du gâteau.\n\nMadame Lambert nous aide à organiser l'emploi du temps de la journée. « Léa rentre du collège à seize heures trente, » dit-elle. « Vous avez deux heures pour tout préparer. » Nous accrochons des ballons dans le salon et nous préparons un gâteau au chocolat. À dix-sept heures quarante-cinq, les premiers invités arrivent : trois camarades de classe. Tout le monde se cache derrière le canapé pour la surprise.\n\nÀ dix-huit heures précises, la porte s'ouvre. Léa entre, fatiguée après sa journée. Tout le monde crie : « Joyeux anniversaire ! » Léa est très surprise et très heureuse. « Merci beaucoup ! Quelle belle surprise ! » dit-elle en riant. Nous mangeons le gâteau, nous dansons et nous parlons jusqu'à vingt et une heures. C'est le premier anniversaire de Léa que je célèbre avec elle, et c'est un moment inoubliable."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3619,6 +3691,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3691,6 +3765,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -3731,6 +3807,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -3762,6 +3840,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3875,6 +3955,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -3962,6 +4044,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4036,6 +4120,8 @@
       },
       "text": "Le dîner chez la famille Lambert est un moment que j'adore. Chaque soir, nous mangeons tous ensemble autour de la table. Monsieur Lambert, qui est cuisinier, prépare souvent des plats délicieux. Ce soir, il y a du poulet, des légumes et du riz. « Tu veux du pain, Camila ? » demande Madame Lambert. « Oui, merci, j'adore le pain français ! » je réponds. Léa n'aime pas beaucoup les légumes, mais elle adore le fromage. Moi, je préfère les fruits pour le dessert.\n\nAprès le plat principal, Madame Lambert apporte du fromage et de la salade. « Tu veux de la salade ? » me demande-t-elle. « Un peu, s'il vous plaît, » je réponds. Léa prend beaucoup de fromage, mais elle ne prend pas de salade du tout. « Je n'aime pas la salade, » dit-elle en riant. Pour le dessert, il y a des fruits et un gâteau au chocolat. Je voudrais un peu des deux, s'il vous plaît !\n\nAprès le repas, nous aidons tous à débarrasser la table. J'apprends beaucoup de mots nouveaux pendant les repas : le pain, le fromage, les légumes, les fruits. Madame Lambert dit toujours : « Bon appétit ! » avant de manger, et nous répondons « Merci, vous aussi ! » Ces repas en famille sont devenus mon moment préféré de la journée, parce que nous parlons, nous rions et nous partageons beaucoup de choses ensemble."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4168,6 +4254,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4240,6 +4328,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -4280,6 +4370,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -4311,6 +4403,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4444,6 +4538,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4532,6 +4628,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4606,6 +4704,8 @@
       },
       "text": "Ma chambre, chez la famille Lambert, est petite mais très confortable. Il y a un lit, une armoire et un bureau. Sur le bureau, il y a mon ordinateur et des photos de ma famille dominicaine. Devant la fenêtre, il y a une jolie plante verte que Madame Lambert m'a offerte. Le lit est à côté de la fenêtre, et l'armoire est en face du lit.\n\nSous mon lit, il y a une grande valise avec des souvenirs de Saint-Domingue. Entre le bureau et l'armoire, il y a une petite étagère avec mes livres de français. Le chat de Léa, Minou, aime dormir sur mon lit, à côté de mon oreiller. Derrière la porte, il y a un miroir où je me regarde avant de partir à l'école.\n\nMa chambre à Saint-Domingue était plus grande, avec des couleurs vives, mais celle-ci est calme et chaleureuse. Léa m'a aidée à décorer les murs avec des photos et des dessins. « C'est ta chambre maintenant, » dit-elle souvent. J'aime beaucoup cet espace : c'est un petit coin de chez moi, ici, à Tours."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4738,6 +4838,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -4811,6 +4913,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -4851,6 +4955,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -4881,6 +4987,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5009,6 +5117,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5097,6 +5207,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5171,6 +5283,8 @@
       },
       "text": "Le samedi après-midi, Léa et moi aimons nous promener dans Tours. Nous allons souvent au parc, à la piscine ou au cinéma. Aujourd'hui, nous allons à la médiathèque pour emprunter des livres. Le centre-ville de Tours est joli, avec de vieilles maisons et de petites rues. Nous passons devant la cathédrale, qui est très grande et impressionnante.\n\nEnsuite, nous voulons aller au marché pour acheter des fruits. « Excusez-moi, où se trouve le marché ? » demande Léa à une dame. « Tournez à droite, puis continuez tout droit jusqu'à la place. Le marché est juste là, » répond la dame. Nous suivons ses indications et nous arrivons rapidement au marché. Il y a beaucoup de fruits, de légumes et de fleurs.\n\nAprès le marché, nous allons à la boulangerie pour acheter du pain, puis nous rentrons à la maison. Sur le chemin, nous croisons Karim, qui va à la piscine avec son frère. « À demain, à l'école ! » nous dit-il. Cette promenade dans Tours me permet de mieux connaître la ville, et chaque semaine, je découvre un nouvel endroit intéressant."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5303,6 +5417,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5375,6 +5491,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -5414,6 +5532,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -5445,6 +5565,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5568,6 +5690,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5656,6 +5780,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5730,6 +5856,8 @@
       },
       "text": "Le week-end, j'aime faire beaucoup d'activités différentes avec mes amis de Tours. Le samedi matin, je fais du sport avec Léa : nous faisons du vélo au bord de la Loire, et nous nous arrêtons pour prendre des photos du fleuve. L'après-midi, je joue au volley avec des amis du collège, sur le terrain près de chez nous. Karim, lui, préfère jouer de la guitare ; il en joue depuis quatre ans et il sait jouer plusieurs chansons françaises et même quelques chansons espagnoles pour me faire plaisir.\n\nLe dimanche, je fais souvent de la danse, parce que c'est ma passion depuis toujours, même avant mon départ pour la France. Léa ne sait pas danser la bachata, alors je lui apprends quelques pas simples dans le salon de la maison. « Tu peux venir avec moi au cours de danse dimanche prochain ? » je lui demande. « Bien sûr, j'adore essayer de nouvelles choses ! » répond-elle avec un grand sourire. Karim, lui, ne peut pas venir parce qu'il a un match de football tous les dimanches matin, avec son équipe du quartier.\n\nGrâce à mes amis, je découvre de nouveaux loisirs à Tours : le vélo au bord de la Loire, le volley entre copains, la guitare de Karim le soir. Et grâce à moi, Léa découvre petit à petit la danse dominicaine, et elle adore ça ! Nous partageons nos passions et nous apprenons les uns des autres, toutes les semaines. Ce mélange de cultures rend ma vie à Tours vraiment riche, amusante, et pleine de nouvelles découvertes."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5862,6 +5990,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -5935,6 +6065,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -5975,6 +6107,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -6005,6 +6139,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6128,6 +6264,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6216,6 +6354,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6290,6 +6430,8 @@
       },
       "text": "Léa m'invite à faire du shopping dans le centre-ville de Tours, pour chercher une tenue pour une fête à l'école. Nous entrons dans un magasin de vêtements près de la place. « Regarde cette robe bleue, elle est jolie ! » dit Léa. Je préfère ce pull rouge et ce jean noir. La vendeuse nous demande : « Vous cherchez quelque chose de particulier ? » « Je cherche une tenue simple mais élégante, » je réponds. Elle me montre plusieurs vêtements de différentes couleurs : vert, jaune, blanc et violet.\n\nJ'essaie cette robe verte et ces chaussures blanches. « Combien coûte cette robe ? » je demande à la vendeuse. « Elle coûte quarante-cinq euros, » répond-elle. C'est un peu cher pour moi, alors je cherche autre chose. Finalement, je trouve un beau chemisier jaune à vingt euros. Léa, elle, prend cette jupe noire et ce chapeau blanc. « Ces vêtements te vont très bien ! » me dit-elle en souriant.\n\nÀ la caisse, je prends mon chemisier jaune, et Léa prend sa jupe et son chapeau. « Merci pour votre visite ! » nous dit la vendeuse. En sortant du magasin, nous sommes très contentes de nos achats. Cette sortie shopping avec Léa était amusante, et maintenant, j'ai une nouvelle tenue pour la fête de l'école. J'adore découvrir la mode française avec mon amie."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6422,6 +6564,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6494,6 +6638,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -6533,6 +6679,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -6563,6 +6711,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6681,6 +6831,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6769,6 +6921,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6843,6 +6997,8 @@
       },
       "text": "Le mois prochain, je vais voyager à Paris avec la famille Lambert. Nous allons visiter la tour Eiffel, le Louvre et Notre-Dame. Avant de partir, je regarde la météo sur mon téléphone. « Il va faire beau et il va faire seize degrés, » dit l'application. « Parfait, » dit Madame Lambert, « nous n'allons pas avoir besoin de parapluie ! » Karim, un peu jaloux, me dit : « Tu vas adorer Paris, c'est une ville magnifique. »\n\nLe jour du départ, il fait beau, mais un peu frais le matin. Nous allons prendre le train à la gare de Tours. Le voyage va durer environ une heure. Dans le train, Léa et moi regardons le paysage : des champs, des rivières et de petits villages. « Nous allons arriver à Paris vers midi, » dit Monsieur Lambert en regardant sa montre. Léa est très excitée, parce que c'est aussi son premier voyage à Paris cette année.\n\nÀ Paris, il commence à pleuvoir un peu l'après-midi, mais cela ne nous empêche pas de visiter la tour Eiffel. « Il pleut, mais ce n'est pas grave, » dit Léa en riant, « nous avons des parapluies ! » Ce voyage à Paris va être un des meilleurs souvenirs de mon année en France. Bientôt, je vais retourner à Saint-Domingue, mais je sais que je vais garder ces moments dans mon cœur pour toujours."
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -6975,6 +7131,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7047,6 +7205,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "speaking",
@@ -7087,6 +7247,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "writing",
@@ -7116,6 +7278,8 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7234,6 +7398,8 @@
     ],
     "dialogue": [],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7322,6 +7488,8 @@
       }
     ],
     "reading": null,
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7461,6 +7629,8 @@
         "Qui rencontre Marc l’après-midi ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7602,6 +7772,8 @@
         "Qui rencontre Marc l’après-midi ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7743,6 +7915,8 @@
         "De quoi parlent-ils ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -7884,6 +8058,8 @@
         "Qui rencontre Marc l’après-midi ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8025,6 +8201,8 @@
         "Qui rencontre Marc l’après-midi ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8166,6 +8344,8 @@
         "Qui rencontre Marc l’après-midi ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8307,6 +8487,8 @@
         "Qu’est-ce qui rend Nadia constante ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8448,6 +8630,8 @@
         "Qu’est-ce qui rend Nadia constante ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8589,6 +8773,8 @@
         "Que pense sa professeure ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8730,6 +8916,8 @@
         "Qu’est-ce qui rend Nadia constante ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -8871,6 +9059,8 @@
         "Qu’est-ce qui rend Nadia constante ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9012,6 +9202,8 @@
         "Qu’est-ce qui rend Nadia constante ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9153,6 +9345,8 @@
         "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9294,6 +9488,8 @@
         "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9435,6 +9631,8 @@
         "Qu'ont fait certaines universités pour maintenir l'engagement des étudiants ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9576,6 +9774,8 @@
         "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9717,6 +9917,8 @@
         "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9858,6 +10060,8 @@
         "Quel inconvénient majeur mentionnent les critiques ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -9999,6 +10203,8 @@
         "D’où provient souvent cette ambiguïté ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10140,6 +10346,8 @@
         "D’où provient souvent cette ambiguïté ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10281,6 +10489,8 @@
         "Que peut aider à faire la reconnaissance de cette distinction ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10422,6 +10632,8 @@
         "D’où provient souvent cette ambiguïté ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10563,6 +10775,8 @@
         "D’où provient souvent cette ambiguïté ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10704,6 +10918,8 @@
         "D’où provient souvent cette ambiguïté ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10845,6 +11061,8 @@
         "Que doit discerner un locuteur cohésif ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -10986,6 +11204,8 @@
         "Que doit discerner un locuteur cohésif ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -11127,6 +11347,8 @@
         "Que développent souvent ceux qui acceptent l'ambiguïté ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -11268,6 +11490,8 @@
         "Que doit discerner un locuteur cohésif ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -11409,6 +11633,8 @@
         "Que doit discerner un locuteur cohésif ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
@@ -11550,6 +11776,8 @@
         "Que doit discerner un locuteur cohésif ?"
       ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
