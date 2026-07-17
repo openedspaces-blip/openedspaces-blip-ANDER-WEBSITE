@@ -4012,6 +4012,43 @@ function updateReadingPlayerUI(section, snapshot) {
   player.classList.toggle('is-completed', snapshot.state === 'completed');
 }
 
+// Deterministic inline SVG gradient, used whenever a reading fragment has
+// no specific illustration and its unit has no generic one configured
+// either - keeps the illustration strip always present (per spec) without
+// depending on any external image asset. Same look for every fragment of
+// the same unit/lesson (seeded by unitId/slug), different across units.
+function buildGenericIllustrationDataUri(seed) {
+  let hash = 0;
+  for (let i = 0; i < seed.length; i += 1) hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
+  const hue = hash % 360;
+  const hue2 = (hue + 42) % 360;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="160"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${hue},60%,55%)"/><stop offset="1" stop-color="hsl(${hue2},65%,42%)"/></linearGradient></defs><rect width="400" height="160" fill="url(#g)"/></svg>`;
+  return `data:image/svg+xml,${encodeURIComponent(svg)}`;
+}
+
+// Shared component for every paginated reading (English A1, Français A1,
+// Español A1 - anywhere lesson.reading.parts is set). Resolution order:
+// 1. a per-fragment illustration (lesson.reading.illustrations[partIndex]),
+// 2. a unit-level generic illustration (lesson.reading.illustration or
+//    lesson.unitIllustration), both optional `{ src, alt }` objects,
+// 3. a deterministically generated gradient, so the strip is never a
+//    broken image while real artwork hasn't been authored yet.
+function resolveReadingIllustration(lesson, partIndex) {
+  const specific = lesson.reading?.illustrations?.[partIndex];
+  const unitFallback = lesson.reading?.illustration || lesson.unitIllustration;
+  const chosen = specific?.src ? specific : unitFallback?.src ? unitFallback : null;
+  const seed = lesson.unitId || lesson.slug || lesson.title || 'andergo';
+  return {
+    src: chosen?.src || buildGenericIllustrationDataUri(String(seed)),
+    alt: chosen?.alt || lesson.title || ''
+  };
+}
+
+function renderReadingIllustrationHtml(lesson, partIndex) {
+  const { src, alt } = resolveReadingIllustration(lesson, partIndex);
+  return `<img class="reading-illustration no-print" src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy">`;
+}
+
 function renderReadingView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
@@ -4071,7 +4108,7 @@ function renderReadingView(section, lesson) {
     const isPartPlaying = audioSnapshot.state === 'playing' && audioSnapshot.currentPart === currentPart;
     readingBodyHtml = `
       <div class="reading-part-viewer no-print${isPartPlaying ? ' is-reading-active' : ''}">
-        <p class="reading-part-progress">Parte ${currentPart + 1} de ${parts.length}</p>
+        ${renderReadingIllustrationHtml(lesson, currentPart)}
         <div class="reading-part-text"><p>${escapeHtml(parts[currentPart])}</p></div>
         <div class="reading-part-actions">
           <button type="button" class="secondary-btn reading-part-prev-btn" ${currentPart === 0 ? 'disabled' : ''}>← Anterior</button>

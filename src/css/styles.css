@@ -5083,13 +5083,23 @@ footer small {
   margin-bottom: 1.25rem;
 }
 
-.reading-part-progress {
-  font-size: 0.72rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--blue);
-  margin-bottom: 0.5rem;
+/* Subtle contextual illustration strip shown above each reading fragment's
+   text, replacing the old "Parte X de Y" label - shared by every paginated
+   reading (English A1, Français A1, Español A1). Sized as a slim band, not
+   a hero banner: text stays the primary element. */
+.reading-illustration {
+  width: 100%;
+  height: clamp(120px, 14vw, 160px);
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .reading-illustration {
+    height: clamp(100px, 22vw, 130px);
+  }
 }
 
 .reading-part-text p {
