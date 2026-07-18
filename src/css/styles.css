@@ -5750,6 +5750,30 @@ footer small {
   margin-bottom: 1rem;
 }
 
+/* Grammar notes can be several short paragraphs (rule + examples + a brief
+   Spanish support line) separated by blank lines in the source content -
+   this preserves those breaks instead of squashing them into one block. */
+.grammar-explanation p {
+  white-space: pre-line;
+}
+
+/* Printable Grammar/Vocabulary worksheet question list (see
+   renderPrintableExerciseList) - independent from the interactive
+   .mcq-option buttons used on-screen. */
+.skill-print-question {
+  margin-bottom: 0.9rem;
+}
+
+.skill-print-options {
+  list-style: none;
+  margin: 0.3rem 0 0;
+  padding: 0;
+}
+
+.skill-print-option {
+  margin-bottom: 0.2rem;
+}
+
 .grammar-example {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -6532,9 +6556,12 @@ footer small {
 }
 
 /* ===================================================================
-   Reading → PDF: prints only #readingPrintArea, hides everything else,
-   drops the on-screen action buttons (.no-print) and reveals the
-   print-only header/answer space.
+   Reading/Grammar/Vocabulary → PDF: prints only the active .skill-print-area,
+   hides everything else, drops the on-screen action buttons (.no-print) and
+   reveals the print-only header/answer space. One shared rule instead of a
+   separate one per skill - Reading, Grammar and Vocabulary's print buttons
+   all target this same class (see renderReadingView/renderGrammarView/
+   renderVocabularyView in src/js/script.js).
    =================================================================== */
 @page {
   size: A4;
@@ -6546,12 +6573,12 @@ footer small {
     visibility: hidden;
   }
 
-  #readingPrintArea,
-  #readingPrintArea * {
+  .skill-print-area,
+  .skill-print-area * {
     visibility: visible;
   }
 
-  #readingPrintArea {
+  .skill-print-area {
     position: absolute;
     top: 0;
     left: 0;
@@ -6569,13 +6596,13 @@ footer small {
     display: block !important;
   }
 
-  .reading-print-header {
+  .skill-print-header {
     margin-bottom: 1.5cm;
     border-bottom: 2px solid #000;
     padding-bottom: 0.5cm;
   }
 
-  .reading-print-logo {
+  .skill-print-logo {
     font-weight: 900;
     font-size: 1.4rem;
     letter-spacing: 0.05em;
@@ -6587,9 +6614,18 @@ footer small {
     widows: 3;
   }
 
-  .reading-print-answer-space {
+  .skill-print-answer-space {
     margin-top: 1cm;
     page-break-before: auto;
+  }
+
+  /* Answer-key print only (role==='ceo' - see renderPrintableExerciseList):
+     correct options are marked, never shown to a student's own print output. */
+  .skill-print-option.is-correct-answer {
+    font-weight: 800;
+  }
+  .skill-print-option.is-correct-answer::after {
+    content: ' ✓';
   }
 }
 

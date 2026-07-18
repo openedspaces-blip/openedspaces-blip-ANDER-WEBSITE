@@ -418,5 +418,32 @@
     "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
     "order_index": 12,
     "unit_overview": null
+  },
+  {
+    "slug": "everyday-life",
+    "target_language": "english",
+    "level": "A2",
+    "title": "Everyday Life",
+    "title_es": "La vida cotidiana",
+    "description": "Routines, schedules and activities happening right now.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Hablar de rutinas diarias, horarios y lo que está pasando en este momento.",
+      "outcomes": [
+        "describir tu rutina diaria con adverbios de frecuencia",
+        "distinguir cuándo usar Present Simple y cuándo Present Continuous",
+        "hablar de tareas domésticas y del tiempo libre",
+        "entender y escribir un correo o mensaje sobre tu semana"
+      ],
+      "grammar": [
+        "Present Simple vs. Present Continuous"
+      ],
+      "vocabulary": [
+        "daily routines",
+        "time expressions",
+        "household activities"
+      ],
+      "scenario": "Una semana normal se vuelve especial cuando recibes una visita inesperada."
+    }
   }
 ]

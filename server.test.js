@@ -499,6 +499,109 @@ test('every French A1 unit has a dialogue activity with dialogue lines and compr
   });
 });
 
+// English A2 Phase 1 content shape (scripts/content/english-a2-units.js,
+// flattened by scripts/build-english-a2-seed.js). Only Unit 1 (Everyday
+// Life) exists so far - these checks are written to keep passing as units
+// 2-10 are added in later phases (no hardcoded "10 units" expectation yet),
+// while guarding the hard rules from the spec this content was written
+// against: no true/false, no ordering, no drag-drop, single-view readings
+// (no `parts`), every mcq has exactly 4 options and a valid answer index.
+test('English A2 units are in order, and Phase 1 units 1-2 are free', () => {
+  const units = seedUnits
+    .filter((row) => row.target_language === 'english' && row.level === 'A2')
+    .sort((a, b) => (a.order_index || 0) - (b.order_index || 0));
+  assert.ok(units.length >= 1, 'expected at least Unit 1 (Everyday Life)');
+  units.forEach((unit, index) => {
+    assert.equal(unit.order_index, index + 1, `unit "${unit.slug}" should be order ${index + 1}`);
+  });
+
+  const lessonsByUnit = {};
+  seedLessons
+    .filter((row) => row.target_language === 'english' && row.level === 'A2')
+    .forEach((row) => {
+      (lessonsByUnit[row.unit_slug] = lessonsByUnit[row.unit_slug] || []).push(row);
+    });
+
+  units.forEach((unit, index) => {
+    const rows = lessonsByUnit[unit.slug] || [];
+    assert.ok(rows.length > 0, `expected activities for unit "${unit.slug}"`);
+    const expectedTier = index < 2 ? 'free' : 'premium';
+    rows.forEach((row) => {
+      assert.equal(
+        row.access_tier,
+        expectedTier,
+        `expected ${row.slug} (unit ${index + 1}) to be access_tier="${expectedTier}", got "${row.access_tier}"`
+      );
+    });
+  });
+});
+
+test('English A2 Unit 1 has all 6 core skills, each a real (non-generic) activity', () => {
+  const rows = seedLessons.filter(
+    (row) => row.target_language === 'english' && row.level === 'A2' && row.unit_slug === 'everyday-life'
+  );
+  const CORE_SKILLS = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
+  assert.deepEqual(
+    [...rows.map((r) => r.skill)].sort(),
+    [...CORE_SKILLS].sort()
+  );
+  rows.forEach((row) => {
+    assert.notEqual(row.title.trim(), '', `${row.slug} must have a real title`);
+    assert.ok(
+      !/^A2 (Reading|Listening|Speaking|Writing|Grammar|Vocabulary):/.test(row.title),
+      `${row.slug} must not be a generic placeholder title`
+    );
+  });
+});
+
+test('English A2 Unit 1 reading is a single 350-550 word view, no parts/ordering, 8 mcq comprehension questions', () => {
+  const row = seedLessons.find(
+    (r) =>
+      r.target_language === 'english' &&
+      r.level === 'A2' &&
+      r.unit_slug === 'everyday-life' &&
+      r.skill === 'reading'
+  );
+  assert.ok(row, 'expected the Unit 1 reading activity to exist');
+  const reading = row.content_json.reading;
+  assert.ok(!reading.parts, 'A2 readings must not be split into parts');
+  assert.equal(row.content_json.exercises.length, 8);
+
+  const wordCount = reading.text.split(/\s+/).filter(Boolean).length;
+  assert.ok(
+    wordCount >= 350 && wordCount <= 550,
+    `expected 350-550 words, got ${wordCount}`
+  );
+});
+
+test('English A2 Unit 1 grammar/vocabulary have the required question-bank sizes, and no true/false or ordering anywhere', () => {
+  const rows = seedLessons.filter(
+    (r) => r.target_language === 'english' && r.level === 'A2' && r.unit_slug === 'everyday-life'
+  );
+  const grammarRow = rows.find((r) => r.skill === 'grammar');
+  const vocabRow = rows.find((r) => r.skill === 'vocabulary');
+
+  assert.ok(grammarRow.content_json.exercises.length >= 10 && grammarRow.content_json.exercises.length <= 15);
+  assert.ok(vocabRow.content_json.vocabulary.length >= 18 && vocabRow.content_json.vocabulary.length <= 25);
+  assert.ok(vocabRow.content_json.exercises.length >= 10 && vocabRow.content_json.exercises.length <= 15);
+
+  rows.forEach((row) => {
+    assert.equal('ordering' in (row.content_json.reading || {}), false, `${row.slug} must not use ordering`);
+    (row.content_json.exercises || [])
+      .filter((ex) => ex.type === 'mcq')
+      .forEach((ex, index) => {
+        assert.equal(ex.options.length, 4, `${row.slug} exercise #${index} must have exactly 4 options`);
+        assert.ok(
+          Number.isInteger(ex.answer) && ex.answer >= 0 && ex.answer <= 3,
+          `${row.slug} exercise #${index} must have a valid 0-3 answer index`
+        );
+        const looksTrueFalse =
+          ex.options.length === 2 || ex.options.map((o) => o.toLowerCase()).includes('true');
+        assert.equal(looksTrueFalse, false, `${row.slug} exercise #${index} must not be true/false`);
+      });
+  });
+});
+
 // The dedicated 'dialogue' skill type is generic (see SKILL_VIEW_RENDERERS
 // in src/js/script.js) - assert English A1 wasn't given any dialogue rows,
 // i.e. this is additive-only for English.

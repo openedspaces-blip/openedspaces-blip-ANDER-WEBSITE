@@ -4457,9 +4457,9 @@ function renderReadingView(section, lesson) {
   const durationLabel = lesson.estimatedMinutes ? `${lesson.estimatedMinutes} min · ` : '';
 
   content.innerHTML = `
-    <div class="reading-print-area" id="readingPrintArea">
-      <div class="print-only reading-print-header">
-        <div class="reading-print-logo">ANDERGO</div>
+    <div class="reading-print-area skill-print-area">
+      <div class="print-only reading-print-header skill-print-header">
+        <div class="reading-print-logo skill-print-logo">ANDERGO</div>
         <p>${escapeHtml(bridgeLabel)} → ${escapeHtml(targetLabel)} · ${escapeHtml(lesson.level)}</p>
         <p class="reading-print-date">${escapeHtml(new Date().toLocaleDateString('es'))}</p>
       </div>
@@ -4493,7 +4493,7 @@ function renderReadingView(section, lesson) {
           : ''
       }
       ${renderReadingOrderingHtml(lesson, getReadingOrderingRuntime(lesson))}
-      <div class="reading-print-answer-space print-only">
+      <div class="reading-print-answer-space skill-print-answer-space print-only">
         <h4>Tus respuestas</h4>
         <div class="reading-print-answer-lines"><div></div><div></div><div></div><div></div></div>
       </div>
@@ -5583,6 +5583,60 @@ function renderSpeakingView(section, lesson) {
   renderSpeakingModeContent(content, lesson);
 }
 
+// Print-only Q&A worksheet shared by Grammar and Vocabulary PDFs -
+// deliberately independent from the interactive .mcq-option exercises
+// rendered on-screen (renderLessonExercise), so the printable answer key
+// (showAnswers: true) never touches or risks the interactive component.
+// Letters (A/B/C/D) are a print-worksheet convention only - the on-screen
+// exercises never show them (see renderLessonExercise).
+function renderPrintableExerciseList(exercises, { showAnswers = false } = {}) {
+  const letters = ['A', 'B', 'C', 'D'];
+  return (exercises || [])
+    .filter((item) => item.type === 'mcq' && Array.isArray(item.options))
+    .map((item, index) => {
+      const optionsHtml = item.options
+        .map((option, optIndex) => {
+          const isCorrect = showAnswers && optIndex === Number(item.answer);
+          return `<li class="skill-print-option${isCorrect ? ' is-correct-answer' : ''}">${letters[optIndex] || optIndex + 1}) ${escapeHtml(option)}</li>`;
+        })
+        .join('');
+      return `
+        <div class="skill-print-question">
+          <p><strong>${index + 1}.</strong> ${escapeHtml(item.prompt)}</p>
+          <ul class="skill-print-options">${optionsHtml}</ul>
+        </div>
+      `;
+    })
+    .join('');
+}
+
+// Shared print header/answer-space markup for Grammar/Vocabulary PDFs -
+// mirrors Reading's (see renderReadingView) via the same .skill-print-*
+// classes/CSS. `answerKey` renders the teacher/admin variant (correct
+// options marked) instead of the student worksheet (blank answer lines) -
+// gated by entitlements.role==='ceo' (this app's only staff/admin role
+// today - see lib/entitlementsService.js) at the call site, never decided
+// here.
+function renderSkillPrintHeaderHtml() {
+  const bridgeLabel = LanguagePair
+    ? LanguagePair.languageNameIn(currentBridgeLanguage, currentBridgeLanguage)
+    : languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
+  const targetLabel = LanguagePair
+    ? LanguagePair.languageNameIn(currentBridgeLanguage, learningPathState.language)
+    : languageDisplayNames[learningPathState.language] || learningPathState.language;
+  return `
+    <div class="print-only reading-print-header skill-print-header">
+      <div class="reading-print-logo skill-print-logo">ANDERGO</div>
+      <p>${escapeHtml(bridgeLabel)} → ${escapeHtml(targetLabel)} · ${escapeHtml(learningPathState.level)}</p>
+      <p class="reading-print-date">${escapeHtml(new Date().toLocaleDateString('es'))}</p>
+    </div>
+  `;
+}
+
+function isStaffEntitled() {
+  return authStatus.entitlements?.role === 'ceo';
+}
+
 function renderGrammarView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
@@ -5591,29 +5645,47 @@ function renderGrammarView(section, lesson) {
     .filter((item) => item.type === 'mcq')
     .map((item, index) => renderLessonExercise(item, index, lesson))
     .join('');
+  const staff = isStaffEntitled();
+  const printExercisesHtml = renderPrintableExerciseList(lesson.exercises, { showAnswers: staff });
 
   content.innerHTML = `
-    <h3>${escapeHtml(lesson.title)}</h3>
-    <div class="grammar-explanation">
-      <strong>Estructura</strong>
-      <p>${escapeHtml(lesson.grammar || lesson.description || '')}</p>
-    </div>
-    ${
-      example
-        ? `
-      <div class="grammar-example">
-        <div class="grammar-example-target"><span>Target</span><strong>${escapeHtml(example.line || example.word || '')}</strong></div>
-        <div class="grammar-example-bridge"><span>Bridge</span><strong>${escapeHtml(resolveVocabTranslation(example))}</strong></div>
+    <div class="skill-print-area">
+      ${renderSkillPrintHeaderHtml()}
+      <h3>${escapeHtml(lesson.title)}</h3>
+      <div class="grammar-explanation">
+        <strong>Estructura</strong>
+        <p>${escapeHtml(lesson.grammar || lesson.description || '')}</p>
       </div>
-    `
-        : ''
-    }
-    <div class="grammar-exercise">
-      <h4>Mini ejercicio</h4>
-      ${exercisesHtml || '<p class="skill-graph-empty">No hay ejercicios de gramática para esta lección.</p>'}
+      ${
+        example
+          ? `
+        <div class="grammar-example no-print">
+          <div class="grammar-example-target"><span>Target</span><strong>${escapeHtml(example.line || example.word || '')}</strong></div>
+          <div class="grammar-example-bridge"><span>Bridge</span><strong>${escapeHtml(resolveVocabTranslation(example))}</strong></div>
+        </div>
+      `
+          : ''
+      }
+      <div class="grammar-exercise no-print">
+        <h4>Mini ejercicio</h4>
+        ${exercisesHtml || '<p class="skill-graph-empty">No hay ejercicios de gramática para esta lección.</p>'}
+      </div>
+      <div class="print-only">
+        <h4>${staff ? 'Clave de respuestas' : 'Actividad para completar'}</h4>
+        ${printExercisesHtml || '<p>No hay ejercicios para esta lección.</p>'}
+        ${
+          staff
+            ? ''
+            : `<div class="reading-print-answer-space skill-print-answer-space print-only">
+                <h4>Tus respuestas</h4>
+                <div class="reading-print-answer-lines"><div></div><div></div><div></div><div></div></div>
+              </div>`
+        }
+      </div>
     </div>
-    <div class="skill-view-tutor-cta">
+    <div class="skill-view-tutor-cta no-print">
       <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Explícame por qué se usa esta estructura: ${escapeHtml(lesson.grammar || '')}" data-support-mode="explain">Explícame esta estructura</button>
+      <button type="button" class="secondary-btn skill-print-btn">${staff ? 'Descargar clave de respuestas' : 'Descargar actividad en PDF'}</button>
     </div>
   `;
 }
@@ -5623,46 +5695,74 @@ function renderGrammarView(section, lesson) {
 // back to the word itself / the current target language's locale / the
 // level-based default rate) - see speakText()/getPronunciationLocale()/
 // getDefaultPronunciationRate() above.
+// vocabCardOrder holds the current (possibly shuffled) display order for
+// the active lesson's flashcard deck - reset every time a new vocabulary
+// lesson is rendered, never persisted, purely a display convenience so
+// "Mezclar tarjetas" can re-render without touching lesson.vocabulary itself.
+let vocabCardOrder = [];
+
 function renderVocabularyView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
   const cards = lesson.vocabulary || [];
+  if (vocabCardOrder.length !== cards.length || vocabCardOrder.lessonSlug !== lesson.slug) {
+    vocabCardOrder = cards.map((_, index) => index);
+    vocabCardOrder.lessonSlug = lesson.slug;
+  }
   const canSpeak = supportsSpeech();
   const cardLocale = getPronunciationLocale(learningPathState.language);
   const cardRate = getDefaultPronunciationRate();
+  // Present Present Continuous... i.e. a second, slower rate for "escuchar
+  // lentamente" - same speakText()/data-speak-rate mechanism as the normal
+  // button, just a lower multiplier, never a separate audio system.
+  const slowRate = Math.max(0.5, cardRate - 0.25);
   const isFrench = learningPathState.language === 'french';
   const speakAriaLabel = (word) =>
     isFrench ? `Écouter la prononciation de ${word}` : `Escuchar pronunciación de ${word}`;
-  const speakTitle = isFrench ? 'Écouter la prononciation' : 'Escuchar pronunciación';
+  const speakSlowAriaLabel = (word) =>
+    isFrench ? `Écouter lentement la prononciation de ${word}` : `Escuchar lentamente la pronunciación de ${word}`;
+  const staff = isStaffEntitled();
+  const testExercisesHtml = (lesson.exercises || [])
+    .filter((item) => item.type === 'mcq')
+    .map((item, index) => renderLessonExercise(item, index, lesson))
+    .join('');
+  const printExercisesHtml = renderPrintableExerciseList(lesson.exercises, { showAnswers: staff });
 
   content.innerHTML = `
     <h3>${escapeHtml(lesson.title)}</h3>
+    <div class="vocab-card-deck-controls no-print">
+      <button type="button" class="secondary-btn vocab-shuffle-btn">🔀 Mezclar tarjetas</button>
+    </div>
     <div class="vocab-card-deck">
-      ${cards
-        .map((item, index) => {
+      ${vocabCardOrder
+        .map((cardIndex) => {
+          const item = cards[cardIndex];
           const pronunciationText = item.pronunciationText || item.word;
           const locale = item.pronunciationLocale || cardLocale;
           const rate = item.pronunciationRate ?? cardRate;
           return `
-        <div class="vocab-flip-card" data-index="${index}" data-speak-text="${escapeHtml(pronunciationText)}" data-speak-locale="${escapeHtml(locale)}" data-speak-rate="${rate}">
+        <div class="vocab-flip-card" data-index="${cardIndex}" data-speak-text="${escapeHtml(pronunciationText)}" data-speak-locale="${escapeHtml(locale)}" data-speak-rate="${rate}">
           <div class="vocab-flip-card-inner">
             <div class="vocab-flip-front">
               <strong>${escapeHtml(item.word)}</strong>
+              ${item.partOfSpeech ? `<span class="vocab-part-of-speech">${escapeHtml(item.partOfSpeech)}</span>` : ''}
               ${
                 canSpeak
-                  ? `<button type="button" class="vocab-speak-btn" aria-label="${escapeHtml(speakAriaLabel(item.word))}" title="${escapeHtml(speakTitle)}">🔊</button>`
+                  ? `<button type="button" class="vocab-speak-btn" aria-label="${escapeHtml(speakAriaLabel(item.word))}" title="${escapeHtml(speakTitle(isFrench))}">🔊</button>
+                     <button type="button" class="vocab-speak-slow-btn" data-speak-rate-override="${slowRate}" aria-label="${escapeHtml(speakSlowAriaLabel(item.word))}" title="${escapeHtml(isFrench ? 'Écouter lentement' : 'Escuchar lentamente')}">🐢</button>`
                   : ''
               }
             </div>
             <div class="vocab-flip-back">
               <strong>${escapeHtml(item.translation)}</strong>
+              ${item.definition ? `<p class="vocab-definition">${escapeHtml(item.definition)}</p>` : ''}
               <p class="${canSpeak && item.example ? 'vocab-example-speak' : ''}" ${canSpeak && item.example ? `data-speak-text="${escapeHtml(item.example)}" data-speak-locale="${escapeHtml(locale)}" data-speak-rate="${rate}" role="button" tabindex="0" aria-label="Escuchar oración de ejemplo" title="Escuchar oración de ejemplo"` : ''}>${escapeHtml(item.example || '')}${canSpeak && item.example ? ' 🔊' : ''}</p>
             </div>
           </div>
           <div class="vocab-card-actions">
-            <button type="button" class="vocab-flip-btn">Ver traducción</button>
+            <button type="button" class="vocab-flip-btn">Mostrar respuesta</button>
             <button type="button" class="vocab-know-btn">Ya la sé</button>
-            <button type="button" class="vocab-retry-btn">Practicar otra vez</button>
+            <button type="button" class="vocab-retry-btn">Necesito practicar</button>
             <button type="button" class="vocab-example-btn open-tutor-btn" data-tutor-prompt="Dame otro ejemplo de una frase con la palabra '${escapeHtml(item.word)}'." data-support-mode="example">Pedir ejemplo</button>
           </div>
         </div>
@@ -5670,10 +5770,40 @@ function renderVocabularyView(section, lesson) {
         })
         .join('')}
     </div>
-    <div class="skill-view-tutor-cta">
+    <div class="skill-view-tutor-cta no-print">
       <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Ayúdame a practicar este vocabulario: ${escapeHtml(cards.map((c) => c.word).join(', '))}" data-support-mode="practice">Practicar estas palabras</button>
     </div>
+    <div class="vocab-test no-print">
+      <h4>Prueba de vocabulario</h4>
+      ${testExercisesHtml || '<p class="skill-graph-empty">No hay prueba de vocabulario para esta lección.</p>'}
+    </div>
+    <div class="skill-print-area print-only">
+      ${renderSkillPrintHeaderHtml()}
+      <h3 class="print-only">${escapeHtml(lesson.title)}</h3>
+      <div class="print-only">
+        <h4>${staff ? 'Clave de respuestas' : 'Vocabulario y actividad para completar'}</h4>
+        <ul class="skill-print-options">
+          ${cards.map((item) => `<li class="skill-print-option">${escapeHtml(item.word)} — ${escapeHtml(item.translation)}${item.example ? ` (${escapeHtml(item.example)})` : ''}</li>`).join('')}
+        </ul>
+        ${printExercisesHtml}
+        ${
+          staff
+            ? ''
+            : `<div class="reading-print-answer-space skill-print-answer-space print-only">
+                <h4>Tus respuestas</h4>
+                <div class="reading-print-answer-lines"><div></div><div></div><div></div><div></div></div>
+              </div>`
+        }
+      </div>
+    </div>
+    <div class="skill-view-tutor-cta no-print">
+      <button type="button" class="secondary-btn skill-print-btn">${staff ? 'Descargar clave de respuestas' : 'Descargar vocabulario en PDF'}</button>
+    </div>
   `;
+}
+
+function speakTitle(isFrench) {
+  return isFrench ? 'Écouter la prononciation' : 'Escuchar pronunciación';
 }
 
 // ---------------------------------------------------------------------
@@ -7828,8 +7958,22 @@ function enableHomepageActions() {
       area?.querySelector('.reading-show-support')?.removeAttribute('hidden');
       return;
     }
-    if (event.target.closest('.reading-print-btn')) {
+    if (event.target.closest('.reading-print-btn') || event.target.closest('.skill-print-btn')) {
       window.print();
+      return;
+    }
+
+    if (event.target.closest('.vocab-shuffle-btn')) {
+      // Fisher-Yates on the display-order array only - lesson.vocabulary
+      // itself (and therefore the underlying test exercises' indices) never
+      // changes, so "Mezclar tarjetas" only reorders what the student sees.
+      for (let i = vocabCardOrder.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [vocabCardOrder[i], vocabCardOrder[j]] = [vocabCardOrder[j], vocabCardOrder[i]];
+      }
+      const activeSection = event.target.closest('.skill-view-section');
+      const activeLesson = activeSection ? getActiveLearningLesson() : null;
+      if (activeSection && activeLesson) renderVocabularyView(activeSection, activeLesson);
       return;
     }
 
@@ -7987,6 +8131,19 @@ function enableHomepageActions() {
         speakText(card.dataset.speakText, {
           locale: card.dataset.speakLocale,
           rate: Number(card.dataset.speakRate) || 1
+        });
+      return;
+    }
+    // "Escuchar lentamente" - same speakText()/data-speak-text mechanism as
+    // the normal-speed button above, just a lower rate override baked into
+    // the button itself at render time (see renderVocabularyView).
+    const vocabSpeakSlowBtn = event.target.closest('.vocab-speak-slow-btn');
+    if (vocabSpeakSlowBtn) {
+      const card = vocabSpeakSlowBtn.closest('.vocab-flip-card');
+      if (card)
+        speakText(card.dataset.speakText, {
+          locale: card.dataset.speakLocale,
+          rate: Number(vocabSpeakSlowBtn.dataset.speakRateOverride) || 0.7
         });
       return;
     }
