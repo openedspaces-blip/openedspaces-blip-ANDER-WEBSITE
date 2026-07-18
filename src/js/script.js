@@ -8289,6 +8289,42 @@ function initScrollReveal() {
 // directly - see lib/translatorService.js); when that route reports
 // configured:false this shows the pending-configuration message instead of
 // ever fabricating a translation.
+// Local-only translation history (never sent anywhere) - last
+// TRANSLATOR_HISTORY_LIMIT entries, most recent first. Kept as a plain
+// localStorage array rather than anything server-side, matching "historial
+// local opcional" - it's a convenience for the student's own browser, not
+// account data.
+const TRANSLATOR_HISTORY_KEY = 'andergo_translator_history';
+const TRANSLATOR_HISTORY_LIMIT = 20;
+
+function loadTranslatorHistory() {
+  try {
+    const raw = localStorage.getItem(TRANSLATOR_HISTORY_KEY);
+    const parsed = raw ? JSON.parse(raw) : [];
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveTranslatorHistoryEntry(entry) {
+  try {
+    const history = [entry, ...loadTranslatorHistory()].slice(0, TRANSLATOR_HISTORY_LIMIT);
+    localStorage.setItem(TRANSLATOR_HISTORY_KEY, JSON.stringify(history));
+    return history;
+  } catch {
+    return loadTranslatorHistory();
+  }
+}
+
+function clearTranslatorHistory() {
+  try {
+    localStorage.removeItem(TRANSLATOR_HISTORY_KEY);
+  } catch {
+    /* ignore - private browsing / storage disabled */
+  }
+}
+
 function setupTranslator() {
   const sourceSelect = document.getElementById('translatorSourceLang');
   const targetSelect = document.getElementById('translatorTargetLang');
@@ -8302,9 +8338,12 @@ function setupTranslator() {
   const listenOutputBtn = document.getElementById('translatorListenOutputBtn');
   const submitBtn = document.getElementById('translatorSubmitBtn');
   const status = document.getElementById('translatorStatus');
+  const detectedEl = document.getElementById('translatorDetected');
+  const historyList = document.getElementById('translatorHistoryList');
+  const historyClearBtn = document.getElementById('translatorHistoryClearBtn');
   if (!input || !output || !submitBtn || !status) return;
 
-  const MAX_LENGTH = 1000;
+  const MAX_LENGTH = Number(input.getAttribute('maxlength')) || 1000;
 
   const setStatus = (text, mode) => {
     status.textContent = text;
@@ -8316,8 +8355,26 @@ function setupTranslator() {
     if (charCount) charCount.textContent = `${input.value.length} / ${MAX_LENGTH}`;
   };
 
+  const renderHistory = () => {
+    if (!historyList) return;
+    const history = loadTranslatorHistory();
+    historyList.innerHTML = history.length
+      ? history
+          .map(
+            (entry) => `
+        <li class="translator-history-item">
+          <span class="translator-history-pair">${escapeHtml(languageDisplayNames[entry.sourceLanguage] || entry.sourceLanguage || 'Auto')} → ${escapeHtml(languageDisplayNames[entry.targetLanguage] || entry.targetLanguage || '')}</span>
+          <span class="translator-history-source">${escapeHtml(entry.source)}</span>
+          <span class="translator-history-target">${escapeHtml(entry.target)}</span>
+        </li>`
+          )
+          .join('')
+      : '<li class="translator-history-empty">Sin traducciones recientes.</li>';
+  };
+
   input.addEventListener('input', updateCharCount);
   updateCharCount();
+  renderHistory();
 
   swapBtn?.addEventListener('click', () => {
     // Swapping the selects only makes sense when the source is a real
@@ -8337,6 +8394,7 @@ function setupTranslator() {
   clearBtn?.addEventListener('click', () => {
     input.value = '';
     output.value = '';
+    if (detectedEl) detectedEl.hidden = true;
     updateCharCount();
     setStatus('Listo');
   });
@@ -8360,6 +8418,11 @@ function setupTranslator() {
     speakText(output.value, { locale: LANGUAGE_LOCALES[targetSelect?.value] });
   });
 
+  historyClearBtn?.addEventListener('click', () => {
+    clearTranslatorHistory();
+    renderHistory();
+  });
+
   submitBtn.addEventListener('click', async () => {
     const text = input.value.trim();
     if (!text) {
@@ -8367,18 +8430,45 @@ function setupTranslator() {
       return;
     }
 
+    const sourceLanguage = sourceSelect?.value || 'auto';
+    const targetLanguage = targetSelect?.value || 'spanish';
+    // Mirrors the backend's own check (POST /api/translate rejects this the
+    // same way) - checked here too so guessing/typing doesn't need a round
+    // trip to find out. 'auto' is never blocked - the real detected
+    // language isn't known until DeepL responds.
+    if (sourceLanguage !== 'auto' && sourceLanguage === targetLanguage) {
+      setStatus('Selecciona dos idiomas diferentes.', 'is-unavailable');
+      return;
+    }
+
+    if (detectedEl) detectedEl.hidden = true;
     setStatus('Traduciendo…', 'is-loading');
     submitBtn.disabled = true;
     try {
-      const data = await postJson('/api/translator', {
-        text,
-        sourceLanguage: sourceSelect?.value || 'auto',
-        targetLanguage: targetSelect?.value || 'spanish'
-      });
+      // auth: true - sends the session token when signed in, so the backend
+      // can apply the Premium character limit instead of always treating
+      // the request as a guest (see POST /api/translate's attachUserIfPresent).
+      const data = await postJson(
+        '/api/translate',
+        { text, sourceLanguage, targetLanguage },
+        { auth: true }
+      );
 
       if (data.ok) {
         output.value = data.translatedText || '';
         setStatus('Completada', 'is-success');
+        if (sourceLanguage === 'auto' && data.detectedLanguage && detectedEl) {
+          detectedEl.textContent = `Idioma detectado: ${languageDisplayNames[data.detectedLanguage] || data.detectedLanguage}`;
+          detectedEl.hidden = false;
+        }
+        saveTranslatorHistoryEntry({
+          source: text,
+          target: output.value,
+          sourceLanguage: sourceLanguage === 'auto' ? data.detectedLanguage || 'auto' : sourceLanguage,
+          targetLanguage,
+          timestamp: Date.now()
+        });
+        renderHistory();
       } else if (data.configured === false) {
         output.value = '';
         setStatus('El traductor está temporalmente en configuración.', 'is-unavailable');

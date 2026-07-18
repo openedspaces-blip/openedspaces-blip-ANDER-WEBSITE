@@ -2208,6 +2208,71 @@ a:focus-visible {
   color: #b45309;
 }
 
+.translator-detected {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.translator-history {
+  margin-top: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+}
+
+.translator-history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.translator-history-header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.translator-history-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.translator-history-item {
+  display: grid;
+  gap: 2px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm, 8px);
+  background: var(--bg);
+}
+
+.translator-history-pair {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+}
+
+.translator-history-source {
+  color: var(--muted);
+}
+
+.translator-history-target {
+  font-weight: 600;
+}
+
+.translator-history-empty {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 /* About */
 .about-layout {
   display: grid;
