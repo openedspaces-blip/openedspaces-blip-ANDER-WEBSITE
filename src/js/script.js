@@ -3234,17 +3234,14 @@ function renderUnitAccordionHtml(nextSlug) {
       const isSelected = unit.id === learningPathState.unitId;
 
       return `
-      <details class="path-unit${isSelected ? ' path-unit--selected' : ''}" data-unit-id="${escapeHtml(unit.id)}" ${isSelected ? 'open' : ''}>
-        <summary class="path-unit-header" ${isSelected ? 'aria-current="true"' : ''}>
-          <span class="path-unit-order">${escapeHtml(String(unit.order))}</span>
-          <span class="path-unit-titles">
-            <span class="path-unit-title">${escapeHtml(unit.title)}</span>
-            ${unit.titleEs ? `<span class="path-unit-title-es">${escapeHtml(unit.titleEs)}</span>` : ''}
-          </span>
-          <span class="path-unit-progress-label">${completedCount}/${activities.length} · ${unitPct}%</span>
-        </summary>
-        <div class="path-module-body">${activities.map((item) => renderLessonItemHtml(item, nextSlug)).join('')}</div>
-      </details>
+      <button type="button" class="path-unit path-unit-header${isSelected ? ' path-unit--selected' : ''}" data-unit-id="${escapeHtml(unit.id)}" ${isSelected ? 'aria-current="true"' : ''}>
+        <span class="path-unit-order">${escapeHtml(String(unit.order))}</span>
+        <span class="path-unit-titles">
+          <span class="path-unit-title">${escapeHtml(unit.title)}</span>
+          ${unit.titleEs ? `<span class="path-unit-title-es">${escapeHtml(unit.titleEs)}</span>` : ''}
+        </span>
+        <span class="path-unit-progress-label">${completedCount}/${activities.length} · ${unitPct}%</span>
+      </button>
     `;
     })
     .join('');
@@ -3292,12 +3289,13 @@ function renderSkillGraph() {
     nodeEl.addEventListener('click', () => openLesson(nodeEl.dataset.lessonSlug));
   });
 
-  // Clicking a unit header selects that unit (see selectUnit()): it becomes
-  // the source of truth in learningPathState.unitId, its first available
-  // lesson is auto-picked when the previously active lesson belonged to a
-  // different unit, and the whole graph re-renders - which is also what
-  // opens this unit's <details> and closes every other one, since the
-  // native toggle is fully overridden here rather than left to the browser.
+  // Clicking a unit selects it (see selectUnit()): it becomes the source of
+  // truth in learningPathState.unitId, its first available lesson is
+  // auto-picked when the previously active lesson belonged to a different
+  // unit, and the whole graph re-renders - which is also what moves the
+  // aria-current highlight to this unit. The route only ever lists unit
+  // names; per-skill navigation happens in the right-hand unit overview
+  // panel's CTA (renderUnitOverviewCard) and each skill's own level-tabs.
   container.querySelectorAll('.path-unit-header').forEach((headerEl) => {
     headerEl.addEventListener('click', (event) => {
       event.preventDefault();
@@ -3460,11 +3458,12 @@ function renderUnitOverviewBody(data) {
 // Français, Español A1 today - see hasUnits()): describes the *selected
 // unit* (title, communicative objective, outcomes, grammar, vocabulary,
 // scenario, this unit's own progress) instead of naming one specific
-// lesson. This is what stops the right column from repeating the exact
-// next-lesson title/duration/XP/global progress the left column's unit
-// accordion already shows - see renderLessonItemHtml/renderUnitAccordionHtml
-// for that per-activity detail, and renderContinueCard (still used for
-// languages/levels without units) for the shape this replaces.
+// lesson. The left column (renderUnitAccordionHtml) only lists unit names
+// and overall progress - this panel's own "Comenzar/Continuar/Repasar
+// unidad" CTA (action.targetSlug below) is how a student actually enters a
+// specific activity; each skill's own level-tabs nav is the other way in.
+// See renderContinueCard (still used for languages/levels without units)
+// for the shape this replaces.
 //
 // Stable across every activity click within the same unit: nothing here
 // depends on which activity is highlighted, only on unitId and this unit's

@@ -4489,9 +4489,10 @@ footer small {
   border-color: transparent;
 }
 
-/* Unit accordion (Ruta tab for unit-aware languages, e.g. English A1's 12
-   thematic units) - each <details> extends the same card language as
-   .path-module below it. */
+/* Unit list (Ruta tab for unit-aware languages, e.g. English A1's 12
+   thematic units) - just the unit name + progress, one button each. Skill
+   breakdown lives in the right-hand unit overview panel's single CTA
+   (renderUnitOverviewCard) and each skill's own level-tabs nav, not here. */
 .unit-accordion {
   display: flex;
   flex-direction: column;
@@ -4499,27 +4500,22 @@ footer small {
 }
 
 .path-unit {
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  background: var(--surface);
-  overflow: hidden;
-}
-
-.path-unit[open] {
-  border-color: var(--blue);
-}
-
-.path-unit-header {
   display: flex;
   align-items: center;
   gap: 0.7rem;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
   padding: 0.75rem 0.9rem;
+  font: inherit;
+  color: inherit;
+  text-align: left;
   cursor: pointer;
-  list-style: none;
 }
 
-.path-unit-header::-webkit-details-marker {
-  display: none;
+.path-unit--selected {
+  border-color: var(--blue);
 }
 
 .path-unit-order {
@@ -4560,10 +4556,6 @@ footer small {
   font-weight: 700;
   color: var(--muted);
   white-space: nowrap;
-}
-
-.path-unit .path-module-body {
-  padding: 0 0.9rem 0.9rem;
 }
 
 /* Skill library grid (Reading/Listening/.../Vocabulary tabs for unit-aware
