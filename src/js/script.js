@@ -1785,7 +1785,7 @@ document.getElementById('signupPending')?.addEventListener('click', async (event
       // its own message, so only the rate-limit (429) case gets a different,
       // safe-to-show status here.
       if (response.status === 429) {
-        if (statusEl) statusEl.textContent = 'Has solicitado varios códigos. Espera unos minutos.';
+        if (statusEl) statusEl.textContent = 'Espera antes de solicitar otro código.';
       } else {
         if (statusEl) statusEl.textContent = 'Código reenviado. Revisa tu correo.';
       }
@@ -2157,7 +2157,7 @@ function getDefaultPronunciationRate(language = learningPathState.language, leve
 
 // ---------------------------------------------------------------------
 // Reading Text-to-Speech player - reads a whole reading (title + every
-// part, concatenated) aloud continuously, independent of speakText()
+// paragraph, concatenated) aloud continuously, independent of speakText()
 // above (which flashcards/AI Tutor keep using unchanged, fire-and-forget,
 // one utterance at a time). This section owns its own
 // SpeechSynthesisUtterance lifecycle because it needs pause/resume,
@@ -2271,37 +2271,50 @@ function estimateReadingSegmentSeconds(text, rate) {
   return Math.max(0.6, words / wordsPerSecond);
 }
 
+// Single source of truth for "what paragraphs does this reading show" -
+// used both to render the full text on screen (renderReadingView) and to
+// build the spoken script below (buildReadingSegments), so the sentence
+// spans a student sees and the segments the TTS player walks through are
+// always in exact lockstep (same source, same split logic). Readings that
+// already carry lesson.reading.parts (an array of paragraph-length
+// strings) use those directly; everything else falls back to splitting
+// the single-block lesson.reading.text/lesson.description on blank lines.
+function getReadingParagraphs(lesson) {
+  const parts = lesson.reading?.parts;
+  if (Array.isArray(parts) && parts.length) return parts;
+  return (lesson.reading?.text || lesson.description || '')
+    .split(/\n+/)
+    .map((p) => p.trim())
+    .filter(Boolean);
+}
+
 // Builds the full spoken script for a reading: title, then every
-// part's sentences in order (never comprehension questions, ordering
+// paragraph's sentences in order (never comprehension questions, ordering
 // events, vocabulary, or Spanish translations - those aren't part of
-// lesson.reading.parts/text). Falls back to the single-block
-// lesson.reading.text/lesson.description shape used by every
-// non-English-A1 reading today (see renderReadingView's `hasParts`).
+// lesson.reading.parts/text). The reading is always spoken and shown as one
+// continuous text - there is no paginated "part" concept anymore, so a
+// segment's only positional info is its own index within the flat list.
 function buildReadingSegments(lesson, rate) {
-  const parts =
-    Array.isArray(lesson.reading?.parts) && lesson.reading.parts.length
-      ? lesson.reading.parts
-      : [lesson.reading?.text || lesson.description || ''];
+  const paragraphs = getReadingParagraphs(lesson);
   const segments = [];
   let cursor = 0;
-  const addSegment = (text, partIndex) => {
+  const addSegment = (text) => {
     const trimmed = text.trim();
     if (!trimmed) return;
     const duration = estimateReadingSegmentSeconds(trimmed, rate);
     segments.push({
       text: trimmed,
-      partIndex,
       segmentIndex: segments.length,
       estimatedStartSeconds: cursor,
       estimatedDurationSeconds: duration
     });
     cursor += duration;
   };
-  if (lesson.title) addSegment(lesson.title, 0);
-  parts.forEach((partText, partIndex) => {
-    splitReadingSentences(partText).forEach((sentence) => addSegment(sentence, partIndex));
+  if (lesson.title) addSegment(lesson.title);
+  paragraphs.forEach((paragraph) => {
+    splitReadingSentences(paragraph).forEach((sentence) => addSegment(sentence));
   });
-  return { segments, totalDurationSeconds: cursor, partsCount: parts.length };
+  return { segments, totalDurationSeconds: cursor };
 }
 
 function findReadingSegmentIndexAtTime(segments, timeSeconds) {
@@ -2352,8 +2365,9 @@ function createReadingAudioPlayer({ engine = 'browser', language, voice, rate } 
 // Singleton controller - only one reading can ever be "the" audio
 // playing at a time (see attach()/teardown()). Exposes exactly the
 // function names the product spec calls for: playReading, pauseReading,
-// resumeReading, rewindReading(seconds), stopReading, changeReadingVoice,
-// changeReadingRate - plus attach/teardown/setHandlers/getSnapshot for
+// resumeReading, rewindReading(seconds), advanceReading(seconds),
+// restartReading, stopReading, changeReadingVoice, changeReadingRate -
+// plus attach/teardown/setHandlers/getSnapshot for
 // renderReadingView to wire itself up to.
 const readingSpeechPlayer = (() => {
   const PAUSE_WATCHDOG_MS = 350;
@@ -2363,9 +2377,7 @@ const readingSpeechPlayer = (() => {
   let language = null;
   let segments = [];
   let totalDurationSeconds = 0;
-  let partsCount = 1;
   let currentSegmentIndex = 0;
-  let currentPartIndex = 0;
   let elapsedBeforeCurrentSegment = 0;
   let segmentStartedAt = 0;
   let rateKey = 'normal';
@@ -2374,7 +2386,6 @@ const readingSpeechPlayer = (() => {
   let progressTimer = null;
   let playbackToken = 0; // bumped on every intentional interrupt, so stale utterance callbacks (cancel(), then a new one starts) never act twice
   let onUpdate = null;
-  let onPartChange = null;
 
   function currentVoice() {
     return voices[voiceIndex] || null;
@@ -2424,8 +2435,7 @@ const readingSpeechPlayer = (() => {
       totalDurationSeconds > 0 ? Math.min(100, Math.round((elapsedSeconds / totalDurationSeconds) * 100)) : 0;
     return {
       state,
-      currentPart: currentPartIndex,
-      partsCount,
+      currentSegmentIndex,
       elapsedSeconds,
       totalDurationSeconds,
       progressPct,
@@ -2440,18 +2450,11 @@ const readingSpeechPlayer = (() => {
     onUpdate?.(snapshot());
   }
 
-  function setPart(partIndex) {
-    if (partIndex === currentPartIndex) return;
-    currentPartIndex = partIndex;
-    onPartChange?.(currentPartIndex);
-  }
-
   function finish() {
     state = 'completed';
     clearTimer();
     currentSegmentIndex = segments.length;
     elapsedBeforeCurrentSegment = totalDurationSeconds;
-    setPart(partsCount - 1);
     emitUpdate();
   }
 
@@ -2461,7 +2464,6 @@ const readingSpeechPlayer = (() => {
       finish();
       return;
     }
-    setPart(seg.partIndex);
     if (!supportsSpeech()) {
       state = 'error';
       clearTimer();
@@ -2507,16 +2509,13 @@ const readingSpeechPlayer = (() => {
     const built = buildReadingSegments(lesson, rateValue());
     segments = built.segments;
     totalDurationSeconds = built.totalDurationSeconds;
-    partsCount = built.partsCount;
     currentSegmentIndex = 0;
-    currentPartIndex = segments[0]?.partIndex ?? 0;
     elapsedBeforeCurrentSegment = 0;
     state = segments.length ? 'idle' : 'error';
   }
 
   function setHandlers(handlers) {
     onUpdate = handlers?.onUpdate || null;
-    onPartChange = handlers?.onPartChange || null;
   }
 
   function playReading() {
@@ -2587,24 +2586,28 @@ const readingSpeechPlayer = (() => {
     if (supportsSpeech()) window.speechSynthesis.cancel();
     currentSegmentIndex = 0;
     elapsedBeforeCurrentSegment = 0;
-    setPart(segments[0]?.partIndex ?? 0);
     emitUpdate();
   }
 
-  function rewindReading(seconds = 5) {
+  // Seeking is approximated by jumping to whichever segment's estimated
+  // start time is closest to (elapsed +/- seconds) - the Web Speech API has
+  // no real seek, so this can land a sentence or two off from an exact 5s
+  // offset, especially right after a rate change (see
+  // rebuildDurationsFromCurrentSegment). This only ever moves the audio
+  // cursor; it never touches which text is visible on screen.
+  function seekReading(deltaSeconds) {
     if (!segments.length) return;
     const wasPlaying = state === 'playing';
     const seg = segments[currentSegmentIndex];
     const currentElapsed =
       elapsedBeforeCurrentSegment +
       (wasPlaying ? Math.min((performance.now() - segmentStartedAt) / 1000, seg?.estimatedDurationSeconds || 0) : 0);
-    const targetTime = Math.max(0, currentElapsed - seconds);
+    const targetTime = Math.max(0, Math.min(totalDurationSeconds, currentElapsed + deltaSeconds));
     const targetIndex = findReadingSegmentIndexAtTime(segments, targetTime);
     playbackToken += 1;
     if (supportsSpeech()) window.speechSynthesis.cancel();
     currentSegmentIndex = targetIndex;
     elapsedBeforeCurrentSegment = segments[targetIndex].estimatedStartSeconds;
-    setPart(segments[targetIndex].partIndex);
     if (wasPlaying) {
       state = 'playing';
       speakCurrentSegment();
@@ -2612,6 +2615,24 @@ const readingSpeechPlayer = (() => {
       clearTimer();
       emitUpdate();
     }
+  }
+
+  function rewindReading(seconds = 5) {
+    seekReading(-seconds);
+  }
+
+  function advanceReading(seconds = 5) {
+    seekReading(seconds);
+  }
+
+  function restartReading() {
+    if (!segments.length) return;
+    playbackToken += 1;
+    if (supportsSpeech()) window.speechSynthesis.cancel();
+    currentSegmentIndex = 0;
+    elapsedBeforeCurrentSegment = 0;
+    state = 'playing';
+    speakCurrentSegment();
   }
 
   function changeReadingVoice() {
@@ -2660,14 +2681,11 @@ const readingSpeechPlayer = (() => {
     language = null;
     segments = [];
     totalDurationSeconds = 0;
-    partsCount = 1;
     currentSegmentIndex = 0;
-    currentPartIndex = 0;
     elapsedBeforeCurrentSegment = 0;
     voices = [];
     voiceIndex = 0;
     onUpdate = null;
-    onPartChange = null;
   }
 
   if (supportsSpeech()) {
@@ -2691,6 +2709,8 @@ const readingSpeechPlayer = (() => {
     pauseReading,
     resumeReading,
     rewindReading,
+    advanceReading,
+    restartReading,
     stopReading,
     changeReadingVoice,
     changeReadingRate
@@ -3880,8 +3900,7 @@ const SKILL_VIEW_RENDERERS = {
   writing: (section, lesson) => renderWritingView(section, lesson),
   speaking: (section, lesson) => renderSpeakingView(section, lesson),
   grammar: (section, lesson) => renderGrammarView(section, lesson),
-  vocabulary: (section, lesson) => renderVocabularyView(section, lesson),
-  dialogue: (section, lesson) => renderDialogueView(section, lesson)
+  vocabulary: (section, lesson) => renderVocabularyView(section, lesson)
 };
 
 // The section's "← Volver a la ruta" link is static markup (untouched by
@@ -4016,22 +4035,50 @@ function renderSkillView(skill) {
   SKILL_VIEW_RENDERERS[skill]?.(section, lesson);
 }
 
-// Per-lesson UI-only state for the 3-part reading pagination (English A1
-// today - see lesson.reading.parts) - which part is showing, whether the
-// full text has been revealed, and a stable (shuffled once per lesson load)
-// display order for the "put these events in order" activity, if any.
-const readingPartRuntime = new Map();
-function getReadingPartRuntime(lesson) {
-  let runtime = readingPartRuntime.get(lesson.slug);
+// Per-lesson UI-only state for the "put these events in order" activity - a
+// stable (shuffled once per lesson load) display order, kept separate from
+// the render itself so re-rendering the reading (e.g. while the audio
+// player patches its own DOM) never reshuffles the list underneath a
+// student mid-answer.
+const readingOrderingRuntime = new Map();
+function getReadingOrderingRuntime(lesson) {
+  let runtime = readingOrderingRuntime.get(lesson.slug);
   if (!runtime) {
     const events = lesson.reading?.ordering?.events || [];
     const shuffledEvents = events
       .map((text, index) => ({ text, correctPosition: index + 1 }))
       .sort(() => Math.random() - 0.5);
-    runtime = { currentPart: 0, showFullText: false, shuffledEvents };
-    readingPartRuntime.set(lesson.slug, runtime);
+    runtime = { shuffledEvents };
+    readingOrderingRuntime.set(lesson.slug, runtime);
   }
   return runtime;
+}
+
+// Renders every paragraph of the reading as visible text - this is the
+// single source of truth for what's on screen and in the printed PDF alike
+// (nothing else duplicates this markup). Each sentence is wrapped in its
+// own span carrying the same segmentIndex buildReadingSegments() assigns it
+// (both walk the exact same paragraphs via getReadingParagraphs() and the
+// same splitReadingSentences()), so the audio player can highlight
+// whichever sentence is currently being spoken via a plain class toggle -
+// see updateReadingHighlight() - without touching which text is visible,
+// scrolling, or re-rendering anything.
+function renderReadingParagraphsHtml(paragraphs) {
+  let segmentIndex = 1; // 0 is the lesson title - see buildReadingSegments()
+  return paragraphs
+    .map((paragraph) => {
+      const sentences = splitReadingSentences(paragraph);
+      if (!sentences.length) return '';
+      const spansHtml = sentences
+        .map((sentence) => {
+          const span = `<span class="reading-sentence" data-segment-index="${segmentIndex}">${escapeHtml(sentence)}</span>`;
+          segmentIndex += 1;
+          return span;
+        })
+        .join(' ');
+      return `<p>${spansHtml}</p>`;
+    })
+    .join('');
 }
 
 // A plain 2-option True/False (or Vrai/Faux) mcq is grouped under its own
@@ -4079,11 +4126,12 @@ function renderReadingOrderingHtml(lesson, runtime) {
   `;
 }
 
-// Markup for the full-reading audio player (spec section A) - rendered
-// above the paginated Parte 1/2/3 text, never replacing it. Hidden
-// entirely (with a short explanatory message, no console errors) when
-// the browser has no speechSynthesis at all - same graceful-degradation
-// rule as flashcard pronunciation.
+// Markup for the full-reading audio player (spec section A) - the only
+// control surface that can move forward/back through the reading; the
+// visible text below never paginates or otherwise reacts to these
+// buttons. Hidden entirely (with a short explanatory message, no console
+// errors) when the browser has no speechSynthesis at all - same
+// graceful-degradation rule as flashcard pronunciation.
 function renderReadingAudioPlayerHtml(snapshot) {
   if (!readingSpeechPlayer.isSupported()) {
     return `<p class="reading-audio-unavailable no-print">La reproducción de voz no está disponible en este dispositivo.</p>`;
@@ -4096,11 +4144,15 @@ function renderReadingAudioPlayerHtml(snapshot) {
     : isPaused
       ? 'Continuar lectura'
       : 'Reproducir lectura completa';
+  const statusLabel = readingAudioStatusLabel(snapshot.state);
+  const seekDisabled = snapshot.state === 'idle' || snapshot.state === 'error' ? 'disabled' : '';
   return `
     <div class="reading-audio-player no-print" role="group" aria-label="Reproductor de la lectura completa">
       <div class="reading-audio-controls">
         <button type="button" class="reading-audio-btn reading-audio-playpause-btn${isPlaying ? ' is-active' : ''}" aria-label="${playPauseAria}">${playPauseLabel}</button>
-        <button type="button" class="reading-audio-btn reading-audio-rewind-btn" aria-label="Retroceder cinco segundos" ${snapshot.state === 'idle' || snapshot.state === 'error' ? 'disabled' : ''}>↶ 5 s</button>
+        <button type="button" class="reading-audio-btn reading-audio-rewind-btn" aria-label="Retroceder cinco segundos" ${seekDisabled}>↶ 5 s</button>
+        <button type="button" class="reading-audio-btn reading-audio-forward-btn" aria-label="Adelantar cinco segundos" ${seekDisabled}>↷ 5 s</button>
+        <button type="button" class="reading-audio-btn reading-audio-restart-btn" aria-label="Reiniciar lectura" ${seekDisabled}>⟲ Reiniciar</button>
         <button type="button" class="reading-audio-btn reading-audio-stop-btn" aria-label="Detener lectura" ${snapshot.state === 'idle' || snapshot.state === 'stopped' ? 'disabled' : ''}>⏹ Detener</button>
         <button type="button" class="reading-audio-btn reading-audio-voice-btn" aria-label="Cambiar voz" title="${snapshot.voiceName ? `Voz: ${escapeHtml(snapshot.voiceName)}` : ''}" ${snapshot.canChangeVoice ? '' : 'hidden'}>🔄 <span class="reading-audio-voice-label">${escapeHtml(snapshot.voiceLabel || '')}</span></button>
       </div>
@@ -4114,18 +4166,27 @@ function renderReadingAudioPlayerHtml(snapshot) {
       <div class="reading-audio-meta">
         <span class="reading-audio-time">${formatReadingTime(snapshot.elapsedSeconds)} / ${formatReadingTime(snapshot.totalDurationSeconds)}</span>
         <span class="reading-audio-percent">${snapshot.progressPct}%</span>
+        <span class="reading-audio-status" aria-live="polite">${statusLabel}</span>
       </div>
     </div>
   `;
 }
 
+function readingAudioStatusLabel(state) {
+  if (state === 'playing') return 'Leyendo…';
+  if (state === 'paused') return 'En pausa';
+  if (state === 'completed') return 'Lectura completa';
+  return '';
+}
+
 // Patches the audio player's own DOM in place (progress bar, clock,
-// button labels/states) rather than re-rendering the whole reading -
-// this runs up to 4x/second while playing, and a full re-render would
-// wipe focus, scroll position and any in-progress exercise selections.
-// Full re-renders only happen on real part transitions (see
-// renderReadingView's onPartChange handler) or manual Anterior/Continuar,
-// both rare by comparison.
+// button labels/states) rather than re-rendering the whole reading - this
+// runs up to 4x/second while playing, and a full re-render would wipe
+// focus, scroll position and any in-progress exercise selections. There is
+// no other trigger for a full re-render while a reading is open: playing,
+// pausing, rewinding, advancing, restarting and switching voice/rate all
+// only ever patch this player's DOM and the current sentence highlight
+// (see updateReadingHighlight) - the visible text never moves or reflows.
 function updateReadingPlayerUI(section, snapshot) {
   const player = section.querySelector('.reading-audio-player');
   if (!player) return;
@@ -4154,8 +4215,13 @@ function updateReadingPlayerUI(section, snapshot) {
     playPauseBtn.classList.toggle('is-active', isPlaying);
   }
 
+  const seekDisabled = snapshot.state === 'idle' || snapshot.state === 'error';
   const rewindBtn = player.querySelector('.reading-audio-rewind-btn');
-  if (rewindBtn) rewindBtn.disabled = snapshot.state === 'idle' || snapshot.state === 'error';
+  if (rewindBtn) rewindBtn.disabled = seekDisabled;
+  const forwardBtn = player.querySelector('.reading-audio-forward-btn');
+  if (forwardBtn) forwardBtn.disabled = seekDisabled;
+  const restartBtn = player.querySelector('.reading-audio-restart-btn');
+  if (restartBtn) restartBtn.disabled = seekDisabled;
 
   const stopBtn = player.querySelector('.reading-audio-stop-btn');
   if (stopBtn) stopBtn.disabled = snapshot.state === 'idle' || snapshot.state === 'stopped';
@@ -4174,44 +4240,70 @@ function updateReadingPlayerUI(section, snapshot) {
     btn.setAttribute('aria-pressed', String(isActive));
   });
 
+  const statusEl = player.querySelector('.reading-audio-status');
+  if (statusEl) statusEl.textContent = readingAudioStatusLabel(snapshot.state);
+
   player.classList.toggle('is-completed', snapshot.state === 'completed');
 }
 
-// Deterministic inline SVG gradient, used whenever a reading fragment has
-// no specific illustration and its unit has no generic one configured
-// either - keeps the illustration strip always present (per spec) without
-// depending on any external image asset. Same look for every fragment of
-// the same unit/lesson (seeded by unitId/slug), different across units.
+// Toggles which sentence/paragraph reads as "currently being spoken" -
+// pure class patch driven by the player's own segmentIndex, matching the
+// data-segment-index values renderReadingParagraphsHtml() assigned. Never
+// scrolls, never re-renders, never changes what text is visible.
+function updateReadingHighlight(section, snapshot) {
+  const prev = section.querySelector('.reading-sentence.is-speaking');
+  if (prev) prev.classList.remove('is-speaking');
+  if (snapshot.state !== 'playing') return;
+  const current = section.querySelector(`.reading-sentence[data-segment-index="${snapshot.currentSegmentIndex}"]`);
+  if (current) current.classList.add('is-speaking');
+}
+
+// Deterministic inline SVG illustration, used whenever a reading has no
+// artwork of its own configured yet - keeps the illustration figure always
+// present (per spec) without depending on any external image asset, and
+// deliberately not a single flat color block: a soft two-tone card with a
+// couple of layered, gently-toned circles standing in for a scene. Same
+// look for every load of the same lesson (seeded by unitId/slug), a
+// different one across units.
 function buildGenericIllustrationDataUri(seed) {
   let hash = 0;
   for (let i = 0; i < seed.length; i += 1) hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
   const hue = hash % 360;
   const hue2 = (hue + 42) % 360;
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="160"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${hue},60%,55%)"/><stop offset="1" stop-color="hsl(${hue2},65%,42%)"/></linearGradient></defs><rect width="400" height="160" fill="url(#g)"/></svg>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${hue},70%,93%)"/><stop offset="1" stop-color="hsl(${hue2},65%,87%)"/></linearGradient></defs><rect width="400" height="260" fill="url(#g)"/><circle cx="304" cy="76" r="72" fill="hsl(${hue},70%,80%)" opacity="0.55"/><circle cx="86" cy="196" r="94" fill="hsl(${hue2},70%,78%)" opacity="0.5"/><circle cx="220" cy="150" r="46" fill="hsl(${hue},75%,60%)" opacity="0.3"/></svg>`;
   return `data:image/svg+xml,${encodeURIComponent(svg)}`;
 }
 
-// Shared component for every paginated reading (English A1, Français A1,
-// Español A1 - anywhere lesson.reading.parts is set). Resolution order:
-// 1. a per-fragment illustration (lesson.reading.illustrations[partIndex]),
-// 2. a unit-level generic illustration (lesson.reading.illustration or
-//    lesson.unitIllustration), both optional `{ src, alt }` objects,
-// 3. a deterministically generated gradient, so the strip is never a
-//    broken image while real artwork hasn't been authored yet.
-function resolveReadingIllustration(lesson, partIndex) {
-  const specific = lesson.reading?.illustrations?.[partIndex];
-  const unitFallback = lesson.reading?.illustration || lesson.unitIllustration;
-  const chosen = specific?.src ? specific : unitFallback?.src ? unitFallback : null;
+// Each reading can define its own illustration (lesson.reading.illustration
+// = { src, alt }, see scripts/content/*-a1-units.js), falling back to a
+// unit-level one (lesson.unitIllustration) and finally to the generated
+// placeholder above, so the figure is never a broken image while real
+// artwork hasn't been authored for a given lesson yet.
+function resolveReadingIllustration(lesson) {
+  const chosen = lesson.reading?.illustration?.src
+    ? lesson.reading.illustration
+    : lesson.unitIllustration?.src
+      ? lesson.unitIllustration
+      : null;
   const seed = lesson.unitId || lesson.slug || lesson.title || 'andergo';
   return {
-    src: chosen?.src || buildGenericIllustrationDataUri(String(seed)),
+    src: chosen?.src || null,
+    fallbackSrc: buildGenericIllustrationDataUri(String(seed)),
     alt: chosen?.alt || lesson.title || ''
   };
 }
 
-function renderReadingIllustrationHtml(lesson, partIndex) {
-  const { src, alt } = resolveReadingIllustration(lesson, partIndex);
-  return `<img class="reading-illustration no-print" src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy">`;
+// When a real illustration path is configured but the asset hasn't been
+// uploaded yet, onerror swaps it for the generated placeholder instead of
+// showing a broken-image icon.
+function renderReadingIllustrationHtml(lesson) {
+  const { src, fallbackSrc, alt } = resolveReadingIllustration(lesson);
+  const onerror = src ? ` onerror="this.onerror=null;this.src='${fallbackSrc}';"` : '';
+  return `
+    <figure class="reading-illustration no-print">
+      <img src="${escapeHtml(src || fallbackSrc)}" alt="${escapeHtml(alt)}" loading="lazy"${onerror}>
+    </figure>
+  `;
 }
 
 function renderReadingView(section, lesson) {
@@ -4219,11 +4311,13 @@ function renderReadingView(section, lesson) {
   if (!content) return;
   const { total, attempted } = getExerciseProgress(lesson);
   const pct = total ? Math.round((attempted / total) * 100) : 0;
-  const parts = lesson.reading?.parts;
-  const hasParts = Array.isArray(parts) && parts.length > 0;
-  const paragraphs = hasParts
-    ? parts
-    : (lesson.reading?.text || lesson.description || '').split(/\n+/).filter(Boolean);
+  const paragraphs = getReadingParagraphs(lesson);
+  // Only show a separate description line when it's distinct from the
+  // reading body itself - if neither reading.parts nor reading.text is set,
+  // getReadingParagraphs() above falls back to lesson.description as the
+  // body, and repeating it here would duplicate the same text on screen.
+  const hasDedicatedReadingBody =
+    (Array.isArray(lesson.reading?.parts) && lesson.reading.parts.length > 0) || Boolean(lesson.reading?.text);
   const vocabHtml = (lesson.vocabulary || [])
     .map(
       (item) => `
@@ -4253,50 +4347,16 @@ function renderReadingView(section, lesson) {
     ? LanguagePair.languageNameIn(currentBridgeLanguage, learningPathState.language)
     : languageDisplayNames[learningPathState.language] || learningPathState.language;
 
-  // Attaching is a no-op when this is the same lesson already loaded
-  // (e.g. a manual Anterior/Continuar re-render, or a part-transition
-  // re-render triggered by the player itself) - continuous playback
-  // survives the DOM rebuild below either way.
+  // Attaching is a no-op when this is the same lesson already loaded -
+  // continuous playback survives the DOM rebuild below either way, since
+  // nothing during playback (play/pause/rewind/advance/restart/voice/rate)
+  // ever triggers another full re-render - see updateReadingPlayerUI/
+  // updateReadingHighlight below, which patch this render's DOM in place.
   readingSpeechPlayer.attach(lesson, learningPathState.language);
   const audioSnapshot = readingSpeechPlayer.getSnapshot();
   const audioPlayerHtml = renderReadingAudioPlayerHtml(audioSnapshot);
-
-  // Paginated part viewer (English A1's 3-part readings) vs. the original
-  // single-block layout (every reading without lesson.reading.parts - every
-  // other language, unaffected) - both end up inside the same print area, so
-  // downloading a PDF always shows the complete text either way. While the
-  // player is actively speaking, the displayed part follows its progress
-  // (see the onPartChange handler below); otherwise it follows manual
-  // Anterior/Continuar clicks - both just move the same runtime.currentPart.
-  let readingBodyHtml;
-  if (hasParts) {
-    const runtime = getReadingPartRuntime(lesson);
-    const currentPart = Math.min(runtime.currentPart, parts.length - 1);
-    const isLastPart = currentPart === parts.length - 1;
-    const isPartPlaying = audioSnapshot.state === 'playing' && audioSnapshot.currentPart === currentPart;
-    readingBodyHtml = `
-      <div class="reading-part-viewer no-print${isPartPlaying ? ' is-reading-active' : ''}">
-        ${renderReadingIllustrationHtml(lesson, currentPart)}
-        <div class="reading-part-text"><p>${escapeHtml(parts[currentPart])}</p></div>
-        <div class="reading-part-actions">
-          <button type="button" class="secondary-btn reading-part-prev-btn" ${currentPart === 0 ? 'disabled' : ''}>← Anterior</button>
-          ${
-            isLastPart
-              ? `<button type="button" class="secondary-btn reading-part-showfull-btn">${runtime.showFullText ? 'Ocultar texto completo' : 'Ver texto completo'}</button>`
-              : `<button type="button" class="primary-btn reading-part-next-btn">Continuar →</button>`
-          }
-        </div>
-      </div>
-      ${
-        runtime.showFullText
-          ? `<div class="reading-full-text no-print"><h4>Texto completo</h4>${parts.map((p) => `<p>${escapeHtml(p)}</p>`).join('')}</div>`
-          : ''
-      }
-      <div class="reading-paragraphs print-only">${parts.map((p) => `<p>${escapeHtml(p)}</p>`).join('')}</div>
-    `;
-  } else {
-    readingBodyHtml = `<div class="reading-paragraphs">${paragraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join('')}</div>`;
-  }
+  const illustrationHtml = renderReadingIllustrationHtml(lesson);
+  const durationLabel = lesson.estimatedMinutes ? `${lesson.estimatedMinutes} min · ` : '';
 
   content.innerHTML = `
     <div class="reading-print-area" id="readingPrintArea">
@@ -4305,11 +4365,17 @@ function renderReadingView(section, lesson) {
         <p>${escapeHtml(bridgeLabel)} → ${escapeHtml(targetLabel)} · ${escapeHtml(lesson.level)}</p>
         <p class="reading-print-date">${escapeHtml(new Date().toLocaleDateString('es'))}</p>
       </div>
-      <h3>${escapeHtml(lesson.title)}</h3>
-      <p class="reading-level-tag">${escapeHtml(lesson.level)} · ${escapeHtml(getSkillLabel('reading'))}</p>
+      <div class="reading-hero">
+        <div class="reading-heading">
+          <p class="reading-level-tag">${durationLabel}${escapeHtml(lesson.level)} · ${escapeHtml(getSkillLabel('reading'))}</p>
+          <h3><span class="reading-sentence" data-segment-index="0">${escapeHtml(lesson.title)}</span></h3>
+          ${hasDedicatedReadingBody && lesson.description ? `<p class="reading-description">${escapeHtml(lesson.description)}</p>` : ''}
+        </div>
+        ${illustrationHtml}
+      </div>
       <div class="reading-progress-bar no-print" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
       ${audioPlayerHtml}
-      ${readingBodyHtml}
+      <article class="reading-text">${renderReadingParagraphsHtml(paragraphs)}</article>
       <div class="reading-vocab-section no-print">
         <button type="button" class="secondary-btn reading-toggle-vocab">Ver vocabulario</button>
         <div class="reading-vocab-list" hidden>${vocabHtml}</div>
@@ -4328,7 +4394,7 @@ function renderReadingView(section, lesson) {
           ? `<div class="reading-questions"><h4>${learningPathState.language === 'french' ? 'Vrai ou faux' : 'Verdadero o falso'}</h4>${trueFalseHtml}</div>`
           : ''
       }
-      ${renderReadingOrderingHtml(lesson, hasParts ? getReadingPartRuntime(lesson) : { shuffledEvents: [] })}
+      ${renderReadingOrderingHtml(lesson, getReadingOrderingRuntime(lesson))}
       <div class="reading-print-answer-space print-only">
         <h4>Tus respuestas</h4>
         <div class="reading-print-answer-lines"><div></div><div></div><div></div><div></div></div>
@@ -4344,14 +4410,15 @@ function renderReadingView(section, lesson) {
   `;
 
   // Re-registered on every render (cheap, idempotent) so the player's
-  // callbacks always point at the DOM/lesson/runtime this exact render
-  // produced, even though attach() above only actually resets playback
-  // state when the lesson changes.
+  // callbacks always point at the DOM this exact render produced, even
+  // though attach() above only actually resets playback state when the
+  // lesson changes. Both callbacks only ever patch existing DOM in place -
+  // see updateReadingPlayerUI/updateReadingHighlight - so none of them
+  // re-render or reflow the visible reading text.
   readingSpeechPlayer.setHandlers({
-    onUpdate: (snap) => updateReadingPlayerUI(section, snap),
-    onPartChange: (partIndex) => {
-      if (hasParts) getReadingPartRuntime(lesson).currentPart = partIndex;
-      renderReadingView(section, lesson);
+    onUpdate: (snap) => {
+      updateReadingPlayerUI(section, snap);
+      updateReadingHighlight(section, snap);
     }
   });
 }
@@ -4410,9 +4477,10 @@ function renderWritingView(section, lesson) {
 
 // Speaking recorder state - kept in memory only, never in localStorage/
 // sessionStorage/IndexedDB. teardownSpeakingResources() is the single place
-// that releases the mic, stops the MediaRecorder, and revokes the object
-// URL; resetSpeakingRecorder() calls it and returns the UI to idle. Both are
-// safe to call at any time, including when nothing is active (no-op).
+// that releases the mic, stops the MediaRecorder, stops any live
+// transcription, and revokes the object URL; resetSpeakingRecorder() calls
+// it and returns the UI to idle. Both are safe to call at any time,
+// including when nothing is active (no-op).
 let speakingRecorder = {
   mediaRecorder: null,
   stream: null,
@@ -4423,9 +4491,22 @@ let speakingRecorder = {
   mimeType: '',
   timerId: null,
   elapsedSeconds: 0,
-  status: 'idle', // idle | requesting | recording | stopped | sending | denied | unsupported
-  config: { minimumSeconds: 30, maximumSeconds: 60, allowShortSubmission: false },
-  container: null
+  status: 'idle', // idle | requesting | recording | stopped | denied | unsupported
+  config: { minimumSeconds: 5, targetSeconds: 30, maximumSeconds: 60, allowShortSubmission: false },
+  container: null,
+  // Transcription (Web Speech API) runs alongside MediaRecorder purely to
+  // produce editable text for the corrector (§5) - it never replaces the
+  // audio capture above, and nothing about it is ever sent anywhere itself,
+  // only the resulting plain text. `recognition` is the live instance (null
+  // when not listening); `transcriptEdited` stops live results from
+  // clobbering text the student has started correcting by hand.
+  recognition: null,
+  recognitionSupported: null,
+  transcript: '',
+  transcriptEdited: false,
+  // Tutor IA correction result for the current transcript - cleared
+  // together with everything else on delete/redo/teardown.
+  correction: { status: 'idle', text: '', error: '' } // idle | loading | done | error
 };
 
 function pickSpeakingMimeType() {
@@ -4454,6 +4535,14 @@ function teardownSpeakingResources() {
     }
   }
   r.stream?.getTracks().forEach((track) => track.stop());
+  if (r.recognition) {
+    try {
+      r.recognition.stop();
+    } catch {
+      /* already stopped */
+    }
+    r.recognition = null;
+  }
   if (r.audioEl) {
     try {
       r.audioEl.pause();
@@ -4470,6 +4559,9 @@ function teardownSpeakingResources() {
   r.audioUrl = null;
   r.audioEl = null;
   r.elapsedSeconds = 0;
+  r.transcript = '';
+  r.transcriptEdited = false;
+  r.correction = { status: 'idle', text: '', error: '' };
 }
 
 // Called on: Eliminar, before Volver a grabar, on lesson/language/skill
@@ -4489,6 +4581,15 @@ function formatSpeakingTime(totalSeconds) {
   return `${m}:${String(s).padStart(2, '0')}`;
 }
 
+function updateSpeakingCorrectButtonState(container) {
+  const r = speakingRecorder;
+  const btn = container.querySelector('.speaking-correct-btn');
+  if (!btn) return;
+  const hasText = Boolean(r.transcript && r.transcript.trim());
+  btn.disabled = !hasText || r.correction.status === 'loading';
+  btn.textContent = r.correction.status === 'loading' ? 'Revisando…' : 'Revisar con Tutor IA';
+}
+
 function updateSpeakingUI(container) {
   if (!container) return;
   const r = speakingRecorder;
@@ -4496,23 +4597,15 @@ function updateSpeakingUI(container) {
   const meetsMinimum = r.elapsedSeconds >= r.config.minimumSeconds || r.config.allowShortSubmission;
 
   const disabledByStatus = {
-    idle: { record: false, stop: true, play: true, delete: true, redo: true, send: true },
-    requesting: { record: true, stop: true, play: true, delete: true, redo: true, send: true },
-    recording: { record: true, stop: false, play: true, delete: false, redo: true, send: true },
-    stopped: {
-      record: true,
-      stop: true,
-      play: false,
-      delete: false,
-      redo: false,
-      send: !meetsMinimum
-    },
-    sending: { record: true, stop: true, play: true, delete: true, redo: true, send: true },
-    denied: { record: false, stop: true, play: true, delete: true, redo: true, send: true },
-    unsupported: { record: true, stop: true, play: true, delete: true, redo: true, send: true }
+    idle: { record: false, stop: true, play: true, delete: true, redo: true },
+    requesting: { record: true, stop: true, play: true, delete: true, redo: true },
+    recording: { record: true, stop: false, play: true, delete: false, redo: true },
+    stopped: { record: true, stop: true, play: false, delete: false, redo: false },
+    denied: { record: false, stop: true, play: true, delete: true, redo: true },
+    unsupported: { record: true, stop: true, play: true, delete: true, redo: true }
   };
   const d = disabledByStatus[r.status] || disabledByStatus.idle;
-  ['record', 'stop', 'play', 'delete', 'redo', 'send'].forEach((action) => {
+  ['record', 'stop', 'play', 'delete', 'redo'].forEach((action) => {
     const btn = byAction(action);
     if (btn) btn.disabled = d[action];
   });
@@ -4522,9 +4615,8 @@ function updateSpeakingUI(container) {
     requesting: 'Preparando micrófono…',
     recording: 'Grabando…',
     stopped: 'Listo para escuchar',
-    sending: 'Enviando…',
-    denied: 'No se pudo acceder al micrófono. Revisa los permisos de tu navegador.',
-    unsupported: 'Tu navegador no admite grabación de audio. Usa la respuesta escrita.'
+    denied: 'No se pudo acceder al micrófono. Puedes escribir tu respuesta en el cuadro de texto.',
+    unsupported: 'Tu navegador no admite grabación de audio. Escribe tu respuesta en el cuadro de texto.'
   };
   const statusEl = container.querySelector('.speaking-record-status');
   if (statusEl) statusEl.textContent = statusLabels[r.status] || '';
@@ -4532,7 +4624,7 @@ function updateSpeakingUI(container) {
   const timerEl = container.querySelector('.speaking-record-timer');
   if (timerEl) {
     timerEl.hidden = r.status === 'idle' || r.status === 'unsupported' || r.status === 'denied';
-    timerEl.textContent = `${formatSpeakingTime(r.elapsedSeconds)} / ${formatSpeakingTime(r.config.maximumSeconds)}`;
+    timerEl.textContent = `${formatSpeakingTime(r.elapsedSeconds)} / ${formatSpeakingTime(r.config.targetSeconds)} (máx. ${formatSpeakingTime(r.config.maximumSeconds)})`;
   }
 
   const warningEl = container.querySelector('.speaking-record-warning');
@@ -4541,6 +4633,77 @@ function updateSpeakingUI(container) {
     warningEl.hidden = !showWarning;
     if (showWarning) {
       warningEl.textContent = `Tu respuesta es muy corta. Intenta hablar al menos ${r.config.minimumSeconds} segundos.`;
+    }
+  }
+
+  // Only overwrite the textarea from live recognition results while the
+  // student isn't actively focused on/editing it - never fight their cursor.
+  const transcriptEl = container.querySelector('.speaking-transcript');
+  if (transcriptEl && document.activeElement !== transcriptEl && transcriptEl.value !== r.transcript) {
+    transcriptEl.value = r.transcript;
+  }
+
+  updateSpeakingCorrectButtonState(container);
+}
+
+// Runs alongside MediaRecorder (never instead of it) purely to get an
+// editable text transcript for the corrector - see §5 of the Speaking
+// redesign spec. Only the resulting text ever leaves the browser; this is
+// the same browser API (and the same trust boundary) as the Tutor prompt's
+// startTutorDictation() elsewhere in this file, just feeding a different
+// textarea. If unsupported, the recording/playback flow is entirely
+// unaffected - the student just types (or corrects) the transcript by hand.
+function startSpeakingTranscription(container) {
+  const r = speakingRecorder;
+  const Ctor = getSpeechRecognitionCtor();
+  if (!Ctor) {
+    r.recognitionSupported = false;
+    return;
+  }
+  r.recognitionSupported = true;
+  r.transcript = '';
+  r.transcriptEdited = false;
+
+  const recognition = new Ctor();
+  recognition.lang = getPronunciationLocale(learningPathState.language);
+  recognition.continuous = true;
+  recognition.interimResults = true;
+
+  let finalText = '';
+  recognition.onresult = (event) => {
+    let interim = '';
+    for (let i = event.resultIndex; i < event.results.length; i++) {
+      const result = event.results[i];
+      if (result.isFinal) finalText += `${result[0].transcript} `;
+      else interim += result[0].transcript;
+    }
+    if (!r.transcriptEdited) {
+      r.transcript = `${finalText}${interim}`.trim();
+      updateSpeakingUI(container);
+    }
+  };
+  recognition.onerror = () => {
+    /* Silent degrade to manual entry - the audio recording is unaffected. */
+  };
+  recognition.onend = () => {
+    if (r.recognition === recognition) r.recognition = null;
+  };
+
+  try {
+    recognition.start();
+    r.recognition = recognition;
+  } catch {
+    r.recognitionSupported = false;
+  }
+}
+
+function stopSpeakingTranscription() {
+  const r = speakingRecorder;
+  if (r.recognition) {
+    try {
+      r.recognition.stop();
+    } catch {
+      /* already stopped */
     }
   }
 }
@@ -4572,6 +4735,7 @@ async function startSpeakingRecording(container) {
   r.mimeType = mimeType || recorder.mimeType || 'audio/webm';
   r.recordedChunks = [];
   r.elapsedSeconds = 0;
+  r.correction = { status: 'idle', text: '', error: '' };
 
   recorder.addEventListener('dataavailable', (event) => {
     if (event.data && event.data.size > 0) r.recordedChunks.push(event.data);
@@ -4582,11 +4746,13 @@ async function startSpeakingRecording(container) {
     r.stream?.getTracks().forEach((track) => track.stop());
     r.stream = null;
     r.status = 'stopped';
+    stopSpeakingTranscription();
     updateSpeakingUI(container);
   });
 
   recorder.start();
   r.status = 'recording';
+  startSpeakingTranscription(container);
   updateSpeakingUI(container);
 
   r.timerId = window.setInterval(() => {
@@ -4603,6 +4769,7 @@ function stopSpeakingRecording() {
     r.timerId = null;
   }
   if (r.mediaRecorder && r.mediaRecorder.state !== 'inactive') r.mediaRecorder.stop();
+  stopSpeakingTranscription();
 }
 
 function playSpeakingRecording() {
@@ -4625,116 +4792,262 @@ function redoSpeakingRecording(container) {
   startSpeakingRecording(container);
 }
 
-async function sendSpeakingRecording(container, lesson) {
-  const r = speakingRecorder;
-  if (!r.audioBlob) return;
-  r.status = 'sending';
-  updateSpeakingUI(container);
+// Best-effort pull of just the corrected phrase out of the corrector's
+// reply, so "Escuchar modelo" doesn't read labels like "Casi correcta"
+// aloud - falls back to the full (already short, ≤50-word for A1-A2) text
+// when neither pattern matches.
+function extractCorrectedPhrase(text) {
+  const patterns = [/Repite:\s*[""]?([^"\n"]+)[""]?/i, /Corrección:\s*[""]?([^"\n"]+)[""]?/i];
+  for (const pattern of patterns) {
+    const match = text.match(pattern);
+    if (match?.[1]) return match[1].trim();
+  }
+  return text;
+}
 
-  const ext = r.mimeType.includes('ogg') ? 'ogg' : r.mimeType.includes('mp4') ? 'mp4' : 'webm';
-  const formData = new FormData();
-  formData.append('audio', r.audioBlob, `speaking-response.${ext}`);
-  formData.append('language', learningPathState.language || '');
-  formData.append('level', learningPathState.level || '');
-  formData.append('lessonId', lesson?.slug || '');
-  formData.append('expectedPrompt', lesson?.dialogue?.[0]?.line || lesson?.phrases?.[0] || '');
-  formData.append('durationSeconds', String(r.elapsedSeconds));
-
-  const resultEl = container.querySelector('.speaking-record-result');
-
+// Model-phrase audio for the correction card (§14): tries the same real
+// neural-voice backend the AI Tutor's own voice controls already use
+// (/api/speech/synthesize - OpenAI/ElevenLabs, gated by sign-in plus the
+// existing free-tier voice quota - see voiceAccessService.js), then falls
+// back to the browser's speechSynthesis. Always uses
+// getPronunciationLocale(targetLanguage), never the interface/bridge
+// language's voice. Azure Speech is intentionally NOT wired up here (no
+// credentials/authorization) - this is the one slot it would occupy later,
+// ahead of the speechSynthesis fallback.
+async function playModelPhrase(text, locale) {
+  if (!text) return;
   try {
-    const response = await fetch(`${backendBaseUrl}/api/speaking/analyze`, {
+    const response = await fetch(`${backendBaseUrl}/api/speech/synthesize`, {
       method: 'POST',
-      headers: { ...authHeaders() },
-      body: formData
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({
+        text,
+        language: learningPathState.language,
+        locale,
+        speed: 'normal',
+        turnIndex: 1
+      })
     });
     const data = await response.json().catch(() => ({}));
-    if (!response.ok || !data.ok) throw new Error(data.message || 'No se pudo procesar el audio.');
+    if (response.ok && data.mode === 'neural' && data.audioBase64) {
+      const audio = new Audio(`data:${data.mimeType || 'audio/mpeg'};base64,${data.audioBase64}`);
+      await audio.play();
+      return;
+    }
+  } catch {
+    /* fall through to speechSynthesis */
+  }
+  speakText(text, {
+    locale,
+    rate: getDefaultPronunciationRate(learningPathState.language, learningPathState.level)
+  });
+}
 
-    teardownSpeakingResources();
-    r.status = 'idle';
-    updateSpeakingUI(container);
-    if (resultEl) {
-      resultEl.hidden = false;
-      resultEl.textContent = data.analyzed
-        ? data.feedback || 'Audio procesado y eliminado de forma segura.'
-        : `${data.message} Audio procesado y eliminado de forma segura.`;
-    }
+// Marks a Speaking activity done the first time it earns a correction - "at
+// least one valid attempt", never a perfect answer (§15). Reuses the same
+// /api/lessons/:slug/complete endpoint and success-handling every other
+// skill already goes through (updateProgressDisplay/gamification/XP toast);
+// guests simply don't persist progress, same as the rest of the app. Only
+// completed/attempts-implicit/XP/date are ever sent - no audio, no
+// transcript.
+async function completeSpeakingActivity(lesson) {
+  if (!lesson || lesson.completed || !authStatus.session?.access_token) return;
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/complete`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({ answers: [] })
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.error || 'No se pudo guardar tu progreso.');
+    lesson.completed = true;
+    updateProgressDisplay(data, true);
+    window.AndergoGamification?.recordLessonCompletion({
+      slug: lesson.slug,
+      language: learningPathState.language,
+      score: data.score ?? 100,
+      xpReward: lesson.xpReward || 20
+    });
+    window.AndergoGamification?.syncFromServer(data);
+    showHomeToast(`Actividad completada. +${data.earnedXp || lesson.xpReward || 20} XP`);
   } catch (error) {
-    r.status = 'stopped';
-    updateSpeakingUI(container);
-    if (resultEl) {
-      resultEl.hidden = false;
-      resultEl.textContent = error.message || 'No se pudo enviar el audio. Intenta de nuevo.';
-    }
+    console.warn('No se pudo guardar el progreso de Speaking', error);
   }
 }
 
-function renderSpeakingView(section, lesson) {
-  const content = section.querySelector('.skill-view-content');
-  if (!content) return;
-  resetSpeakingRecorder();
-
-  const situacion = lesson.mission || lesson.intro || lesson.description || '';
-  const fraseModelo = lesson.dialogue?.[0]?.line || lesson.phrases?.[0] || '';
-  const taskConfig = {
-    minimumSeconds: 30,
-    maximumSeconds: 60,
-    allowShortSubmission: false,
-    ...(lesson.speakingTask || {})
-  };
-  speakingRecorder.config = taskConfig;
-
-  content.innerHTML = `
-    <h3>${escapeHtml(lesson.title)}</h3>
-    <p class="speaking-situation"><strong>Situación:</strong> ${escapeHtml(situacion)}</p>
-    <p class="speaking-model"><strong>Frase modelo:</strong> ${escapeHtml(fraseModelo)}</p>
-    <label class="speaking-response-label" for="speakingResponse">Tu respuesta (escrita)</label>
-    <textarea id="speakingResponse" class="speaking-response" rows="4" placeholder="Escribe lo que dirías…"></textarea>
-
-    <div class="speaking-record-row" role="group" aria-label="Grabación de voz">
-      <button type="button" class="speaking-record-btn" data-recording-action="record" aria-label="Grabar respuesta">🔴 Grabar</button>
-      <button type="button" class="speaking-record-btn" data-recording-action="stop" aria-label="Detener grabación">⏹ Detener</button>
-      <button type="button" class="speaking-record-btn" data-recording-action="play" aria-label="Reproducir grabación">▶ Reproducir</button>
-      <button type="button" class="speaking-record-btn" data-recording-action="delete" aria-label="Eliminar grabación">🗑 Eliminar</button>
-      <button type="button" class="speaking-record-btn" data-recording-action="redo" aria-label="Volver a grabar">↺ Volver a grabar</button>
-      <button type="button" class="speaking-record-btn" data-recording-action="send" aria-label="Enviar grabación">📤 Enviar</button>
-    </div>
-    <p class="speaking-record-status" aria-live="polite"></p>
-    <p class="speaking-record-timer" hidden></p>
-    <p class="speaking-record-warning" role="alert" hidden></p>
-    <p class="speaking-record-result" aria-live="polite" hidden></p>
-    <p class="speaking-record-note">La grabación se procesa temporalmente y no se conserva.</p>
-
-    <div class="skill-view-tutor-cta">
-      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Quiero practicar esta conversación: ${escapeHtml(situacion)}" data-support-mode="practice">Practicar con Tutor IA</button>
+function renderSpeakingCorrectionResult(container, lesson, text) {
+  const resultEl = container.querySelector('.speaking-correction-result');
+  if (!resultEl) return;
+  const locale = getPronunciationLocale(learningPathState.language);
+  const modelPhrase = extractCorrectedPhrase(text);
+  resultEl.hidden = false;
+  resultEl.innerHTML = `
+    <div class="speaking-correction-card">
+      <p class="speaking-correction-text">${escapeHtml(text).replace(/\n/g, '<br>')}</p>
+      <div class="speaking-correction-actions">
+        <button type="button" class="secondary-btn speaking-listen-model-btn">🔊 Escuchar modelo</button>
+        <button type="button" class="secondary-btn speaking-retry-btn">↻ Volver a intentarlo</button>
+      </div>
     </div>
   `;
-
-  // `content`, not just the button row, is used as the shared reference so
-  // updateSpeakingUI can also reach the status/timer/warning/result <p>
-  // elements, which are siblings of .speaking-record-row rather than
-  // children of it.
-  speakingRecorder.container = content;
-  updateSpeakingUI(content);
-
-  content.querySelector('[data-recording-action="record"]')?.addEventListener('click', () => {
-    startSpeakingRecording(content);
+  resultEl.querySelector('.speaking-listen-model-btn')?.addEventListener('click', () => {
+    playModelPhrase(modelPhrase, locale);
   });
-  content.querySelector('[data-recording-action="stop"]')?.addEventListener('click', () => {
+  resultEl.querySelector('.speaking-retry-btn')?.addEventListener('click', () => {
+    redoSpeakingRecording(container);
+  });
+}
+
+// Sends only the transcribed TEXT (never audio - §5/§12) to the Tutor IA's
+// speaking-correction task. Payload is deliberately narrow (§10): no full
+// unit/lesson content, no whole Tutor history - just this activity's own
+// situation/turn/response plus the last couple of conversation turns.
+async function requestSpeakingCorrection(container, lesson, context = {}) {
+  const r = speakingRecorder;
+  const transcript = (r.transcript || '').trim();
+  if (!transcript) return;
+
+  r.correction = { status: 'loading', text: '', error: '' };
+  updateSpeakingUI(container);
+
+  const resultEl = container.querySelector('.speaking-correction-result');
+  if (resultEl) {
+    resultEl.hidden = false;
+    resultEl.innerHTML = '<p class="speaking-correction-loading">Revisando tu respuesta…</p>';
+  }
+
+  const payload = {
+    task: 'speaking_correction',
+    language: learningPathState.language,
+    bridgeLanguage: currentBridgeLanguage,
+    level: learningPathState.level,
+    skill: 'speaking',
+    unitId: lesson?.unitId || '',
+    lessonId: lesson?.slug || '',
+    activityType: context.activityType || 'free_response',
+    situation: (context.situation || '').slice(0, 400),
+    prompt: (context.prompt || '').slice(0, 400),
+    studentResponse: transcript.slice(0, 800),
+    conversationHistory: (context.conversationHistory || []).slice(-3).map((turn) => ({
+      role: turn.role === 'tutor' ? 'tutor' : 'student',
+      content: String(turn.content || '').slice(0, 300)
+    }))
+  };
+
+  let fullText = '';
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/ai/tutor`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify(payload)
+    });
+    if (!response.ok || !response.body) {
+      const data = await response.json().catch(() => ({}));
+      throw new Error(data.error || 'No se pudo conectar con el Tutor IA.');
+    }
+
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+    let sawError = null;
+    let done = false;
+    while (!done) {
+      const chunk = await reader.read();
+      done = chunk.done;
+      if (chunk.value) buffer += decoder.decode(chunk.value, { stream: true });
+      let frameEnd;
+      while ((frameEnd = buffer.indexOf('\n\n')) !== -1) {
+        const frame = buffer.slice(0, frameEnd);
+        buffer = buffer.slice(frameEnd + 2);
+        const line = frame.split('\n').find((l) => l.startsWith('data: '));
+        if (!line) continue;
+        const parsed = JSON.parse(line.slice(6));
+        if (parsed.delta) fullText += parsed.delta;
+        if (parsed.error) sawError = parsed.message;
+      }
+    }
+    if (sawError) throw new Error(sawError);
+    if (!fullText.trim()) throw new Error('El Tutor IA no devolvió una corrección.');
+
+    r.correction = { status: 'done', text: fullText.trim(), error: '' };
+    renderSpeakingCorrectionResult(container, lesson, fullText.trim());
+    completeSpeakingActivity(lesson);
+  } catch (error) {
+    r.correction = {
+      status: 'error',
+      text: '',
+      error: error.message || 'No se pudo revisar tu respuesta.'
+    };
+    if (resultEl) {
+      resultEl.innerHTML = `<p class="speaking-correction-error" role="alert">${escapeHtml(error.message || 'No se pudo revisar tu respuesta. Intenta de nuevo.')}</p>`;
+    }
+  }
+  updateSpeakingUI(container);
+}
+
+// Shared building block reused by every Speaking mode (Práctica guiada,
+// Diálogos, Respuesta libre): record/stop/play/delete/redo, an always-
+// editable transcript textarea (auto-filled by Web Speech API results when
+// available, plain manual entry otherwise - §5/§6), and the "Revisar con
+// Tutor IA" correction action + result card. One instance is ever wired at
+// a time (speakingRecorder.container), matching the single-recorder-at-once
+// assumption the rest of this feature already relies on.
+function renderSpeakingRecorderHtml() {
+  return `
+    <div class="speaking-recorder-block">
+      <div class="speaking-record-row" role="group" aria-label="Grabación de voz">
+        <button type="button" class="speaking-record-btn" data-recording-action="record" aria-label="Grabar respuesta">🎙 Grabar</button>
+        <button type="button" class="speaking-record-btn" data-recording-action="stop" aria-label="Detener grabación">■ Detener</button>
+        <button type="button" class="speaking-record-btn" data-recording-action="play" aria-label="Escuchar mi voz">▶ Escuchar</button>
+        <button type="button" class="speaking-record-btn" data-recording-action="delete" aria-label="Eliminar grabación">🗑 Eliminar</button>
+        <button type="button" class="speaking-record-btn" data-recording-action="redo" aria-label="Volver a grabar">↻ Volver a grabar</button>
+      </div>
+      <p class="speaking-record-status" aria-live="polite"></p>
+      <p class="speaking-record-timer" hidden></p>
+      <p class="speaking-record-warning" role="alert" hidden></p>
+      <div class="speaking-transcript-block">
+        <label class="speaking-transcript-label" for="speakingTranscript">Esto fue lo que entendimos:</label>
+        <textarea id="speakingTranscript" class="speaking-transcript" rows="3" placeholder="Escribe o corrige aquí lo que dijiste…" aria-label="Transcripción de tu respuesta, editable"></textarea>
+        <p class="speaking-transcript-hint">Corrige una palabra, completa lo que no se reconoció, o vuelve a grabar antes de enviarlo.</p>
+      </div>
+      <div class="speaking-actions">
+        <button type="button" class="primary-btn speaking-correct-btn" disabled>Revisar con Tutor IA</button>
+      </div>
+      <div class="speaking-correction-result" aria-live="polite" hidden></div>
+      <p class="speaking-privacy-note">Tu grabación se procesa temporalmente y no se conserva. Puedes revisar el texto antes de enviarlo al Tutor IA.</p>
+    </div>
+  `;
+}
+
+function wireSpeakingRecorderControls(container, lesson, context) {
+  speakingRecorder.container = container;
+  updateSpeakingUI(container);
+
+  container.querySelector('[data-recording-action="record"]')?.addEventListener('click', () => {
+    startSpeakingRecording(container);
+  });
+  container.querySelector('[data-recording-action="stop"]')?.addEventListener('click', () => {
     stopSpeakingRecording();
   });
-  content.querySelector('[data-recording-action="play"]')?.addEventListener('click', () => {
+  container.querySelector('[data-recording-action="play"]')?.addEventListener('click', () => {
     playSpeakingRecording();
   });
-  content.querySelector('[data-recording-action="delete"]')?.addEventListener('click', () => {
-    deleteSpeakingRecording(content);
+  container.querySelector('[data-recording-action="delete"]')?.addEventListener('click', () => {
+    deleteSpeakingRecording(container);
   });
-  content.querySelector('[data-recording-action="redo"]')?.addEventListener('click', () => {
-    redoSpeakingRecording(content);
+  container.querySelector('[data-recording-action="redo"]')?.addEventListener('click', () => {
+    redoSpeakingRecording(container);
   });
-  content.querySelector('[data-recording-action="send"]')?.addEventListener('click', () => {
-    sendSpeakingRecording(content, lesson);
+
+  const transcriptEl = container.querySelector('.speaking-transcript');
+  transcriptEl?.addEventListener('input', () => {
+    speakingRecorder.transcript = transcriptEl.value;
+    speakingRecorder.transcriptEdited = true;
+    updateSpeakingCorrectButtonState(container);
+  });
+
+  container.querySelector('.speaking-correct-btn')?.addEventListener('click', () => {
+    requestSpeakingCorrection(container, lesson, context);
   });
 }
 
@@ -4743,17 +5056,19 @@ window.addEventListener('beforeunload', () => {
 });
 
 // ---------------------------------------------------------------------
-// Dialogues: a new, generic skill type (not English-A1-specific - see
-// SKILL_VIEW_RENDERERS below) built for French A1's 12 standalone dialogue
-// activities. Reuses the same lesson.dialogue/{speaker,line,translation}
-// shape already persisted by every other skill (see courseLessonsService's
-// dialogue_line sections), lesson.phrases, and the existing mcq exercise
-// renderer/Tutor-IA drawer - no new backend schema for grading. Three
-// modes: Écouter (sequential playback of every line), Jouer un rôle (pick
-// a character, the other side plays automatically, the student's own
-// lines stay hidden behind an optional "show model" toggle - never
-// strictly graded), and Parler avec le tuteur IA (opens the existing
-// tutor drawer via the standard .open-tutor-btn mechanism).
+// Speaking: reorganized so Dialogues live inside it instead of as their own
+// top-level skill/nav destination (see the removed #dialogue section/
+// SKILL_VIEWS entry). Three modes share the recorder block above:
+//   - guided: turn-by-turn walkthrough of the unit's dialogue lines.
+//   - dialogue: Écouter/Escuchar + Jouer un rôle/Interpretar un papel,
+//     migrated from the old standalone Dialogue view.
+//   - free: the original open speaking prompt.
+// Dialogue content comes from the sibling `dialogue`-skill lesson in the
+// same unit when one exists (French A1's 12 standalone dialogue
+// activities), or falls back to this Speaking lesson's own lesson.dialogue
+// array (English/Español A1) - never hardcoded in this component.
+// ---------------------------------------------------------------------
+
 function playDialogueLinesSequentially(lines, locale, rate, index = 0) {
   if (index >= lines.length) return;
   speakText(lines[index], {
@@ -4763,19 +5078,138 @@ function playDialogueLinesSequentially(lines, locale, rate, index = 0) {
   });
 }
 
-function renderDialogueView(section, lesson) {
-  const content = section.querySelector('.skill-view-content');
-  if (!content) return;
+// Per-lesson UI-only state for which Speaking mode/turn is showing - reset
+// whenever a different lesson is opened (see renderSpeakingView).
+let speakingViewState = { lessonSlug: '', mode: 'guided', guidedTurnIndex: 0 };
 
-  const lines = lesson.dialogue || [];
+function getSpeakingDialogueSource(lesson) {
+  const sibling = learningPathState.lessons.find(
+    (item) => item.unitId && item.unitId === lesson.unitId && item.skill === 'dialogue'
+  );
+  const source = sibling || lesson;
+  return {
+    // sourceLesson (not necessarily `lesson` itself) is what comprehension
+    // exercises actually belong to - renderLessonExercise tags each mcq
+    // with this lesson's own slug so answers grade against the right row
+    // (POST /api/lessons/:slug/check-answer), not the Speaking activity's.
+    sourceLesson: source,
+    lines: source.dialogue || [],
+    situacion: source.intro || source.description || lesson.mission || lesson.intro || '',
+    phrases: source.phrases?.length ? source.phrases : lesson.phrases || [],
+    exercises: source.exercises || []
+  };
+}
+
+function renderSpeakingModeTabsHtml(activeMode) {
+  const modes = [
+    { id: 'guided', label: '🧭 Práctica guiada' },
+    { id: 'dialogue', label: '💬 Diálogos' },
+    { id: 'free', label: '🗣 Respuesta libre' }
+  ];
+  return `
+    <div class="speaking-mode-tabs" role="group" aria-label="Modos de Speaking">
+      ${modes
+        .map(
+          (mode) =>
+            `<button type="button" class="secondary-btn speaking-mode-btn${mode.id === activeMode ? ' is-active' : ''}" data-speaking-mode="${mode.id}" aria-pressed="${mode.id === activeMode}">${mode.label}</button>`
+        )
+        .join('')}
+    </div>
+  `;
+}
+
+// Turn-by-turn walkthrough (§3.A): the first distinct speaker plays as the
+// tutor/character turn (auto-playable, "Continuar" advances); the second
+// distinct speaker is treated as the student's turn and gets the shared
+// recorder block. Kept short by construction - it just replays however many
+// turns the unit's own dialogue already has (3-7 for A1 content), never
+// invented here.
+function renderGuidedPracticeHtml(lesson, dialogueSource) {
+  const lines = dialogueSource.lines;
+  if (!lines.length) {
+    return `<p class="skill-graph-empty">Todavía no hay un diálogo guiado para esta unidad.</p>`;
+  }
   const participants = [...new Set(lines.map((line) => line.speaker).filter(Boolean))];
-  const situacion = lesson.intro || lesson.description || '';
-  const isFrench = learningPathState.language === 'french';
+  const studentRole = participants[1] || participants[0];
+  const turnIndex = Math.min(speakingViewState.guidedTurnIndex, lines.length - 1);
+  const turn = lines[turnIndex];
+  const isStudentTurn = turn.speaker === studentRole && participants.length > 1;
+  const progressLabel = `Turno ${turnIndex + 1} de ${lines.length}`;
+
+  const historyHtml = lines
+    .slice(0, turnIndex)
+    .map(
+      (line) =>
+        `<li class="dialogue-line dialogue-line--done"><span class="dialogue-speaker">${escapeHtml(line.speaker || '')}</span><span class="dialogue-text">${escapeHtml(line.line || '')}</span></li>`
+    )
+    .join('');
+
+  return `
+    <p class="speaking-situation"><strong>Situación:</strong> ${escapeHtml(dialogueSource.situacion)}</p>
+    <p class="speaking-guided-progress">${escapeHtml(progressLabel)}</p>
+    ${historyHtml ? `<ul class="dialogue-lines-list dialogue-lines-list--history">${historyHtml}</ul>` : ''}
+    <div class="speaking-guided-turn">
+      <span class="dialogue-speaker">${escapeHtml(turn.speaker || '')}${isStudentTurn ? ' (tú)' : ''}</span>
+      <p class="speaking-guided-turn-text">${escapeHtml(turn.line || '')}</p>
+      ${supportsSpeech() ? `<button type="button" class="secondary-btn speaking-guided-listen-btn">🔊 Escuchar</button>` : ''}
+    </div>
+    ${
+      isStudentTurn
+        ? renderSpeakingRecorderHtml() +
+          `<div class="speaking-guided-actions"><button type="button" class="secondary-btn speaking-guided-next-btn" ${turnIndex >= lines.length - 1 ? 'hidden' : ''}>Continuar diálogo →</button></div>`
+        : `<div class="speaking-guided-actions"><button type="button" class="primary-btn speaking-guided-next-btn" ${turnIndex >= lines.length - 1 ? 'hidden' : ''}>Continuar →</button></div>`
+    }
+  `;
+}
+
+function wireGuidedPracticeMode(content, lesson, dialogueSource) {
+  const lines = dialogueSource.lines;
+  if (!lines.length) return;
+  const participants = [...new Set(lines.map((line) => line.speaker).filter(Boolean))];
+  const studentRole = participants[1] || participants[0];
+  const turnIndex = Math.min(speakingViewState.guidedTurnIndex, lines.length - 1);
+  const turn = lines[turnIndex];
+  const isStudentTurn = turn.speaker === studentRole && participants.length > 1;
   const locale = getPronunciationLocale(learningPathState.language);
   const rate = getDefaultPronunciationRate();
+
+  content.querySelector('.speaking-guided-listen-btn')?.addEventListener('click', () => {
+    speakText(turn.line, { locale, rate });
+  });
+
+  if (isStudentTurn) {
+    const priorTurns = lines.slice(Math.max(0, turnIndex - 3), turnIndex).map((line) => ({
+      role: line.speaker === studentRole ? 'student' : 'tutor',
+      content: line.line
+    }));
+    resetSpeakingRecorder();
+    wireSpeakingRecorderControls(content, lesson, {
+      activityType: 'guided_dialogue',
+      situation: dialogueSource.situacion,
+      prompt: turn.line,
+      conversationHistory: priorTurns
+    });
+  }
+
+  content.querySelector('.speaking-guided-next-btn')?.addEventListener('click', () => {
+    speakingViewState.guidedTurnIndex = Math.min(turnIndex + 1, lines.length - 1);
+    renderSpeakingModeContent(content.closest('.skill-view-content'), lesson);
+  });
+}
+
+// Diálogos cotidianos (§2/§3.B): Écouter (sequential + per-line playback,
+// translation toggle) and Jouer un rôle (pick a character; the other role's
+// lines play back as scripted audio/text - not a live AI improvisation, see
+// the redesign report's noted limitation; the student's own lines now get
+// the full record/transcribe/correct block instead of a plain textarea).
+function renderDialogueModeHtml(dialogueSource) {
+  const lines = dialogueSource.lines;
+  const participants = [...new Set(lines.map((line) => line.speaker).filter(Boolean))];
   const canSpeak = supportsSpeech();
 
-  const t = (fr, es) => (isFrench ? fr : es);
+  if (!lines.length) {
+    return `<p class="speaking-situation"><strong>Situación:</strong> ${escapeHtml(dialogueSource.situacion)}</p><p class="skill-graph-empty">Todavía no hay un diálogo de ejemplo para esta unidad.</p>`;
+  }
 
   const linesHtml = lines
     .map(
@@ -4783,69 +5217,62 @@ function renderDialogueView(section, lesson) {
       <li class="dialogue-line" data-index="${index}">
         <span class="dialogue-speaker">${escapeHtml(line.speaker || '')}</span>
         <span class="dialogue-text">${escapeHtml(line.line || '')}</span>
-        ${
-          canSpeak
-            ? `<button type="button" class="dialogue-line-speak-btn" data-speak-text="${escapeHtml(line.line || '')}" aria-label="${escapeHtml(t('Écouter cette réplique', 'Escuchar esta línea'))}" title="${escapeHtml(t('Écouter', 'Escuchar'))}">🔊</button>`
-            : ''
-        }
+        ${canSpeak ? `<button type="button" class="dialogue-line-speak-btn" data-speak-text="${escapeHtml(line.line || '')}" aria-label="Escuchar esta línea" title="Escuchar">🔊</button>` : ''}
         ${line.translation ? `<span class="dialogue-translation reading-vocab-support" hidden>${escapeHtml(line.translation)}</span>` : ''}
       </li>`
     )
     .join('');
 
   const roleOptionsHtml = participants
-    .map((name) => `<button type="button" class="secondary-btn dialogue-role-btn" data-role="${escapeHtml(name)}">${escapeHtml(name)}</button>`)
+    .map(
+      (name) =>
+        `<button type="button" class="secondary-btn dialogue-role-btn" data-role="${escapeHtml(name)}">${escapeHtml(name)}</button>`
+    )
     .join('');
 
-  const exercisesHtml = (lesson.exercises || [])
+  const exercisesHtml = (dialogueSource.exercises || [])
     .filter((item) => item.type === 'mcq')
-    .map((item, index) => renderLessonExercise(item, index, lesson))
+    .map((item, index) => renderLessonExercise(item, index, dialogueSource.sourceLesson))
     .join('');
 
-  content.innerHTML = `
-    <h3>${escapeHtml(lesson.title)}</h3>
-    <p class="dialogue-situation"><strong>${t('Situation', 'Situación')} :</strong> ${escapeHtml(situacion)}</p>
-
-    <div class="dialogue-modes" role="group" aria-label="${t('Modes du dialogue', 'Modos del diálogo')}">
-      <button type="button" class="secondary-btn dialogue-mode-btn is-active" data-mode="listen">🎧 ${t('Écouter', 'Escuchar')}</button>
-      <button type="button" class="secondary-btn dialogue-mode-btn" data-mode="roleplay">🎭 ${t('Jouer un rôle', 'Interpretar un papel')}</button>
-      <button type="button" class="secondary-btn dialogue-mode-btn" data-mode="tutor">🤖 ${t("Parler avec le tuteur IA", 'Hablar con el tutor IA')}</button>
+  return `
+    <p class="dialogue-situation"><strong>Situación:</strong> ${escapeHtml(dialogueSource.situacion)}</p>
+    <div class="dialogue-modes" role="group" aria-label="Modos del diálogo">
+      <button type="button" class="secondary-btn dialogue-mode-btn is-active" data-mode="listen">🎧 Escuchar</button>
+      <button type="button" class="secondary-btn dialogue-mode-btn" data-mode="roleplay">🎭 Interpretar un papel</button>
     </div>
-
     <div class="dialogue-panel dialogue-listen-panel">
-      ${canSpeak ? `<button type="button" class="primary-btn dialogue-play-all-btn">▶ ${t('Écouter tout le dialogue', 'Escuchar todo el diálogo')}</button>` : ''}
+      ${canSpeak ? `<button type="button" class="primary-btn dialogue-play-all-btn">▶ Escuchar todo el diálogo</button>` : ''}
       <ul class="dialogue-lines-list">${linesHtml}</ul>
-      ${lines.some((line) => line.translation) ? `<button type="button" class="secondary-btn dialogue-toggle-translation-btn">${t("Afficher l'aide en espagnol", 'Mostrar apoyo en español')}</button>` : ''}
+      ${lines.some((line) => line.translation) ? `<button type="button" class="secondary-btn dialogue-toggle-translation-btn">Mostrar apoyo en español</button>` : ''}
     </div>
-
     <div class="dialogue-panel dialogue-roleplay-panel" hidden>
-      <p>${t('Choisis ton personnage :', 'Elige tu personaje:')}</p>
+      <p>Elige tu personaje:</p>
       <div class="dialogue-role-options">${roleOptionsHtml}</div>
       <ul class="dialogue-roleplay-lines"></ul>
     </div>
-
     ${
-      lesson.phrases?.length
-        ? `<div class="dialogue-phrases"><strong>${t('Expressions utiles', 'Expresiones útiles')}</strong><ul>${lesson.phrases.map((phrase) => `<li>${escapeHtml(phrase)}</li>`).join('')}</ul></div>`
+      dialogueSource.phrases?.length
+        ? `<div class="dialogue-phrases"><strong>Vocabulario útil</strong><ul>${dialogueSource.phrases.map((phrase) => `<li>${escapeHtml(phrase)}</li>`).join('')}</ul></div>`
         : ''
     }
-
-    <div class="reading-questions">
-      <h4>${t('Questions de compréhension', 'Preguntas de comprensión')}</h4>
-      ${exercisesHtml || `<p class="skill-graph-empty">${t("Il n'y a pas de questions pour ce dialogue.", 'No hay preguntas para este diálogo.')}</p>`}
-    </div>
-
-    <div class="skill-view-tutor-cta">
-      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="${escapeHtml(t('Je veux pratiquer ce dialogue : ', 'Quiero practicar este diálogo: ') + situacion)}" data-support-mode="practice">${t('Parler avec le tuteur IA', 'Hablar con el tutor IA')}</button>
-    </div>
+    ${
+      exercisesHtml
+        ? `<div class="reading-questions"><h4>Preguntas de comprensión</h4>${exercisesHtml}</div>`
+        : ''
+    }
   `;
+}
+
+function wireDialogueMode(content, lesson, dialogueSource) {
+  const lines = dialogueSource.lines;
+  if (!lines.length) return;
+  const locale = getPronunciationLocale(learningPathState.language);
+  const rate = getDefaultPronunciationRate();
+  const canSpeak = supportsSpeech();
 
   content.querySelectorAll('.dialogue-mode-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
-      if (btn.dataset.mode === 'tutor') {
-        content.querySelector('.open-tutor-btn')?.click();
-        return;
-      }
       content.querySelectorAll('.dialogue-mode-btn').forEach((b) => b.classList.toggle('is-active', b === btn));
       const showListen = btn.dataset.mode === 'listen';
       content.querySelector('.dialogue-listen-panel')?.toggleAttribute('hidden', !showListen);
@@ -4858,9 +5285,7 @@ function renderDialogueView(section, lesson) {
   });
 
   content.querySelectorAll('.dialogue-line-speak-btn').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      speakText(btn.dataset.speakText, { locale, rate });
-    });
+    btn.addEventListener('click', () => speakText(btn.dataset.speakText, { locale, rate }));
   });
 
   content.querySelector('.dialogue-toggle-translation-btn')?.addEventListener('click', (event) => {
@@ -4869,9 +5294,7 @@ function renderDialogueView(section, lesson) {
     content.querySelectorAll('.dialogue-translation').forEach((el) => {
       el.hidden = !nowHidden;
     });
-    btn.textContent = nowHidden
-      ? t("Masquer l'aide en espagnol", 'Ocultar apoyo en español')
-      : t("Afficher l'aide en espagnol", 'Mostrar apoyo en español');
+    btn.textContent = nowHidden ? 'Ocultar apoyo en español' : 'Mostrar apoyo en español';
   });
 
   content.querySelectorAll('.dialogue-role-btn').forEach((btn) => {
@@ -4880,6 +5303,12 @@ function renderDialogueView(section, lesson) {
       const myRole = btn.dataset.role;
       const list = content.querySelector('.dialogue-roleplay-lines');
       if (!list) return;
+
+      // Rebuilding the list below would otherwise orphan a live
+      // "Responder oralmente" recorder if one was mounted for the
+      // previously chosen character - release it first.
+      resetSpeakingRecorder();
+
       list.innerHTML = lines
         .map((line, index) => {
           const isMine = line.speaker === myRole;
@@ -4888,29 +5317,172 @@ function renderDialogueView(section, lesson) {
               <li class="dialogue-line">
                 <span class="dialogue-speaker">${escapeHtml(line.speaker || '')}</span>
                 <span class="dialogue-text">${escapeHtml(line.line || '')}</span>
-                ${canSpeak ? `<button type="button" class="dialogue-line-speak-btn" data-speak-text="${escapeHtml(line.line || '')}" aria-label="${escapeHtml(t('Écouter cette réplique', 'Escuchar esta línea'))}">🔊</button>` : ''}
+                ${canSpeak ? `<button type="button" class="dialogue-line-speak-btn" data-speak-text="${escapeHtml(line.line || '')}" aria-label="Escuchar esta línea">🔊</button>` : ''}
               </li>`;
           }
           return `
             <li class="dialogue-line dialogue-line--mine" data-index="${index}">
-              <span class="dialogue-speaker">${escapeHtml(line.speaker || '')} (${t('toi', 'tú')})</span>
-              <textarea class="dialogue-roleplay-input" rows="2" placeholder="${escapeHtml(t('Écris ou dis ta réplique…', 'Escribe o di tu línea…'))}"></textarea>
-              <button type="button" class="secondary-btn dialogue-show-model-btn">${t('Voir le modèle', 'Ver el modelo')}</button>
+              <span class="dialogue-speaker">${escapeHtml(line.speaker || '')} (tú)</span>
               <p class="dialogue-model-line" hidden>${escapeHtml(line.line || '')}</p>
+              <button type="button" class="secondary-btn dialogue-show-model-btn">Ver el modelo</button>
+              <button type="button" class="secondary-btn dialogue-respond-btn" data-index="${index}">🎙 Responder oralmente</button>
+              <div class="dialogue-respond-block" hidden></div>
             </li>`;
         })
         .join('');
+
       list.querySelectorAll('.dialogue-line-speak-btn').forEach((speakBtn) => {
         speakBtn.addEventListener('click', () => speakText(speakBtn.dataset.speakText, { locale, rate }));
       });
       list.querySelectorAll('.dialogue-show-model-btn').forEach((modelBtn) => {
         modelBtn.addEventListener('click', () => {
-          const modelLine = modelBtn.nextElementSibling;
+          const modelLine = modelBtn.previousElementSibling;
           if (modelLine) modelLine.hidden = !modelLine.hidden;
+        });
+      });
+      // "Responder oralmente" lazily mounts the shared recorder block into
+      // this specific line's own slot, the first time it's clicked, so
+      // switching characters never leaves multiple live recorders wired at
+      // once (only the most recently mounted one is ever active - matches
+      // speakingRecorder's single-instance assumption).
+      list.querySelectorAll('.dialogue-respond-btn').forEach((respondBtn) => {
+        respondBtn.addEventListener('click', () => {
+          const li = respondBtn.closest('.dialogue-line--mine');
+          const block = li?.querySelector('.dialogue-respond-block');
+          if (!block) return;
+
+          // Only one "Responder oralmente" recorder is ever mounted at a
+          // time - collapsing any other already-open one first avoids two
+          // live copies of the shared recorder block (duplicate ids,
+          // stale button handlers still pointing at a container that's no
+          // longer speakingRecorder.container) if the student answers more
+          // than one line in the same roleplay pass.
+          resetSpeakingRecorder();
+          list.querySelectorAll('.dialogue-respond-block:not([hidden])').forEach((openBlock) => {
+            openBlock.hidden = true;
+            openBlock.innerHTML = '';
+          });
+          list.querySelectorAll('.dialogue-respond-btn[hidden]').forEach((hiddenBtn) => {
+            hiddenBtn.hidden = false;
+          });
+
+          const lineIndex = Number(respondBtn.dataset.index);
+          const priorTurns = lines.slice(Math.max(0, lineIndex - 3), lineIndex).map((l) => ({
+            role: l.speaker === myRole ? 'student' : 'tutor',
+            content: l.line
+          }));
+          block.hidden = false;
+          block.innerHTML = renderSpeakingRecorderHtml();
+          wireSpeakingRecorderControls(block, lesson, {
+            activityType: 'roleplay',
+            situation: dialogueSource.situacion,
+            prompt: lines[lineIndex]?.line || '',
+            conversationHistory: priorTurns
+          });
+          respondBtn.hidden = true;
         });
       });
     });
   });
+}
+
+// Respuesta libre (§13's original flow): the open speaking prompt this
+// section always had, now feeding the shared recorder/transcript/correction
+// block instead of the old plain textarea + audio-upload button.
+function renderFreeResponseHtml(lesson) {
+  const situacion = lesson.mission || lesson.intro || lesson.description || '';
+  const fraseModelo = lesson.dialogue?.[0]?.line || lesson.phrases?.[0] || '';
+  return `
+    <p class="speaking-situation"><strong>Situación:</strong> ${escapeHtml(situacion)}</p>
+    ${fraseModelo ? `<p class="speaking-model"><strong>Frase o turno del Tutor:</strong> ${escapeHtml(fraseModelo)}</p>` : ''}
+    ${
+      lesson.phrases?.length
+        ? `<div class="dialogue-phrases"><strong>Vocabulario útil</strong><ul>${lesson.phrases.map((phrase) => `<li>${escapeHtml(phrase)}</li>`).join('')}</ul></div>`
+        : ''
+    }
+    ${renderSpeakingRecorderHtml()}
+  `;
+}
+
+function wireFreeResponseMode(content, lesson) {
+  const situacion = lesson.mission || lesson.intro || lesson.description || '';
+  const fraseModelo = lesson.dialogue?.[0]?.line || lesson.phrases?.[0] || '';
+  resetSpeakingRecorder();
+  wireSpeakingRecorderControls(content, lesson, {
+    activityType: 'free_response',
+    situation: situacion,
+    prompt: fraseModelo,
+    conversationHistory: []
+  });
+}
+
+// Renders whichever mode is active into #speakingStage without touching the
+// mode tabs or the lesson header - called on first render and again every
+// time the student switches modes or advances a guided-practice turn.
+function renderSpeakingModeContent(content, lesson) {
+  const stage = content.querySelector('#speakingStage');
+  if (!stage) return;
+  // Rebuilding the stage's innerHTML below would otherwise orphan a live
+  // MediaRecorder/mic stream or Web Speech recognition instance if the
+  // student switches modes (or advances a guided-practice turn) mid-
+  // recording - always release it first, exactly like navigating away from
+  // Speaking entirely already does.
+  resetSpeakingRecorder();
+  const dialogueSource = getSpeakingDialogueSource(lesson);
+
+  content.querySelectorAll('.speaking-mode-btn').forEach((btn) => {
+    btn.classList.toggle('is-active', btn.dataset.speakingMode === speakingViewState.mode);
+    btn.setAttribute('aria-pressed', String(btn.dataset.speakingMode === speakingViewState.mode));
+  });
+
+  if (speakingViewState.mode === 'dialogue') {
+    stage.innerHTML = renderDialogueModeHtml(dialogueSource);
+    wireDialogueMode(stage, lesson, dialogueSource);
+  } else if (speakingViewState.mode === 'free') {
+    stage.innerHTML = renderFreeResponseHtml(lesson);
+    wireFreeResponseMode(stage, lesson);
+  } else {
+    stage.innerHTML = renderGuidedPracticeHtml(lesson, dialogueSource);
+    wireGuidedPracticeMode(stage, lesson, dialogueSource);
+  }
+}
+
+function renderSpeakingView(section, lesson) {
+  const content = section.querySelector('.skill-view-content');
+  if (!content) return;
+  resetSpeakingRecorder();
+
+  if (speakingViewState.lessonSlug !== lesson.slug) {
+    speakingViewState = { lessonSlug: lesson.slug, mode: 'guided', guidedTurnIndex: 0 };
+  }
+
+  const taskConfig = {
+    minimumSeconds: 5,
+    targetSeconds: 30,
+    maximumSeconds: 60,
+    allowShortSubmission: false,
+    ...(lesson.speakingTask || {})
+  };
+  speakingRecorder.config = taskConfig;
+
+  content.innerHTML = `
+    <h3>${escapeHtml(lesson.title)}</h3>
+    ${renderSpeakingModeTabsHtml(speakingViewState.mode)}
+    <div id="speakingStage" class="speaking-stage"></div>
+    <div class="skill-view-tutor-cta">
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Quiero practicar esta conversación de Speaking." data-support-mode="practice">Abrir Tutor IA (chat libre)</button>
+    </div>
+  `;
+
+  content.querySelectorAll('.speaking-mode-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      speakingViewState.mode = btn.dataset.speakingMode;
+      speakingViewState.guidedTurnIndex = 0;
+      renderSpeakingModeContent(content, lesson);
+    });
+  });
+
+  renderSpeakingModeContent(content, lesson);
 }
 
 function renderGrammarView(section, lesson) {
@@ -6432,7 +7004,7 @@ if (menuToggle && siteMenu) {
 // content inside #learning-path's small lesson-workspace card) - listed
 // once here since several places (router, card click handler, header
 // renderer) all need to agree on the same set.
-const SKILL_VIEWS = ['listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary', 'dialogue'];
+const SKILL_VIEWS = ['listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary'];
 
 const VIEW_SECTIONS = {
   home: ['.hero', '#language-picker'],
@@ -6451,7 +7023,6 @@ const VIEW_SECTIONS = {
   writing: ['#writing'],
   grammar: ['#grammar'],
   vocabulary: ['#vocabulary'],
-  dialogue: ['#dialogue'],
   'reset-password': ['#resetPasswordSection']
 };
 
@@ -6475,8 +7046,7 @@ const VIEW_TITLE_SELECTORS = {
   reading: '#reading h2',
   writing: '#writing h2',
   grammar: '#grammar h2',
-  vocabulary: '#vocabulary h2',
-  dialogue: '#dialogue h2'
+  vocabulary: '#vocabulary h2'
 };
 
 function getViewFromHash() {
@@ -7151,45 +7721,12 @@ function enableHomepageActions() {
       return;
     }
 
-    // Reading part pagination (English A1's 3-part readings) - re-renders
-    // the whole view after mutating getReadingPartRuntime()'s state, same
-    // pattern as the listening view's runtime map.
-    const readingPartPrevBtn = event.target.closest('.reading-part-prev-btn');
-    if (readingPartPrevBtn) {
-      const sec = readingPartPrevBtn.closest('.skill-view-section');
-      const lsn = learningPathState.lessons.find((item) => item.slug === sec?.dataset.activeLessonSlug);
-      if (lsn) {
-        getReadingPartRuntime(lsn).currentPart = Math.max(0, getReadingPartRuntime(lsn).currentPart - 1);
-        renderReadingView(sec, lsn);
-      }
-      return;
-    }
-    const readingPartNextBtn = event.target.closest('.reading-part-next-btn');
-    if (readingPartNextBtn) {
-      const sec = readingPartNextBtn.closest('.skill-view-section');
-      const lsn = learningPathState.lessons.find((item) => item.slug === sec?.dataset.activeLessonSlug);
-      if (lsn) {
-        const totalParts = lsn.reading?.parts?.length || 1;
-        const runtime = getReadingPartRuntime(lsn);
-        runtime.currentPart = Math.min(totalParts - 1, runtime.currentPart + 1);
-        renderReadingView(sec, lsn);
-      }
-      return;
-    }
-    const readingPartShowFullBtn = event.target.closest('.reading-part-showfull-btn');
-    if (readingPartShowFullBtn) {
-      const sec = readingPartShowFullBtn.closest('.skill-view-section');
-      const lsn = learningPathState.lessons.find((item) => item.slug === sec?.dataset.activeLessonSlug);
-      if (lsn) {
-        const runtime = getReadingPartRuntime(lsn);
-        runtime.showFullText = !runtime.showFullText;
-        renderReadingView(sec, lsn);
-      }
-      return;
-    }
-    // Full-reading audio player (spec section A/C) - a single toggle
-    // button cycles Reproducir -> Pausar -> Continuar -> Pausar..., the
-    // rest are one-shot actions on the shared readingSpeechPlayer singleton.
+    // Full-reading audio player (spec section A/C) - the only controls that
+    // move forward/back through a reading; they act on the audio only and
+    // never touch which text is visible (no pagination, no part viewer). A
+    // single toggle button cycles Reproducir -> Pausar -> Continuar ->
+    // Pausar..., the rest are one-shot actions on the shared
+    // readingSpeechPlayer singleton.
     const readingAudioPlayPauseBtn = event.target.closest('.reading-audio-playpause-btn');
     if (readingAudioPlayPauseBtn) {
       const snap = readingSpeechPlayer.getSnapshot();
@@ -7201,6 +7738,16 @@ function enableHomepageActions() {
     const readingAudioRewindBtn = event.target.closest('.reading-audio-rewind-btn');
     if (readingAudioRewindBtn) {
       readingSpeechPlayer.rewindReading(5);
+      return;
+    }
+    const readingAudioForwardBtn = event.target.closest('.reading-audio-forward-btn');
+    if (readingAudioForwardBtn) {
+      readingSpeechPlayer.advanceReading(5);
+      return;
+    }
+    const readingAudioRestartBtn = event.target.closest('.reading-audio-restart-btn');
+    if (readingAudioRestartBtn) {
+      readingSpeechPlayer.restartReading();
       return;
     }
     const readingAudioStopBtn = event.target.closest('.reading-audio-stop-btn');
@@ -7221,7 +7768,7 @@ function enableHomepageActions() {
 
     // "Order the events" activity - self-checked client-side (the correct
     // order isn't a secured answer key the way mcq options are, see
-    // getReadingPartRuntime()'s docs above), comparing each shuffled event's
+    // getReadingOrderingRuntime()'s docs above), comparing each shuffled event's
     // assigned position against its real position in lesson.reading.ordering.events.
     const readingOrderingCheckBtn = event.target.closest('.reading-ordering-check-btn');
     if (readingOrderingCheckBtn) {
@@ -7229,7 +7776,7 @@ function enableHomepageActions() {
       const selects = container?.querySelectorAll('.reading-ordering-select') || [];
       const sec = readingOrderingCheckBtn.closest('.skill-view-section');
       const lsn = learningPathState.lessons.find((item) => item.slug === sec?.dataset.activeLessonSlug);
-      const runtime = lsn ? getReadingPartRuntime(lsn) : null;
+      const runtime = lsn ? getReadingOrderingRuntime(lsn) : null;
       let allCorrect = true;
       let allFilled = true;
       selects.forEach((select) => {

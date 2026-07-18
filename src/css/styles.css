@@ -5071,11 +5071,99 @@ footer small {
   border-radius: 999px;
 }
 
-.reading-paragraphs p {
+/* Reading hero: title/level/duration/description on the left, a small
+   illustration on the right - see .reading-illustration below. Stacks to a
+   single column on narrower screens (media query further down). */
+.reading-hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.reading-heading {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.reading-heading h3 {
+  margin: 0.15rem 0 0.4rem;
+}
+
+.reading-description {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* Small, subtle illustration - a moderate accent next to the title, never
+   a large color block competing with the text. Sized per spec: roughly
+   320-420px wide / 180-240px tall on desktop, full-width under it on
+   mobile (see the max-width media query below). */
+.reading-illustration {
+  flex: 0 0 auto;
+  width: clamp(220px, 30vw, 380px);
+  aspect-ratio: 3 / 2;
+  margin: 0;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  animation: reading-illustration-float 7s ease-in-out infinite;
+}
+
+.reading-illustration img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Very light vertical drift - a "breathing" motion, not a bounce. Kept
+   short-throw (a few pixels) and slow so it reads as ambient, not as
+   something demanding attention. */
+@keyframes reading-illustration-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reading-illustration {
+    animation: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .reading-hero {
+    flex-direction: column;
+  }
+  .reading-illustration {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+/* Reading full text - the single source of truth for what's on screen and
+   in the printed PDF alike (see renderReadingParagraphsHtml/#readingPrintArea
+   in script.js) - never duplicated elsewhere. */
+.reading-text p {
   font-size: 1.05rem;
   line-height: 1.7;
   margin-bottom: 1rem;
   color: var(--navy-2);
+  max-width: 75ch;
+}
+
+/* Highlights whichever sentence the audio player is currently speaking -
+   a background tint only, no size/layout change, so the text never jumps. */
+.reading-sentence.is-speaking {
+  background: rgba(37, 99, 235, 0.12);
+  border-radius: 6px;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
 }
 
 .reading-vocab-section,
@@ -5123,63 +5211,19 @@ footer small {
   display: none;
 }
 
-/* .print-only elements (reading-print-header, reading-print-answer-space,
-   reading-paragraphs) are only meant to be visible inside the PDF/print
-   layout - @media print below flips this back to display:block !important.
-   Without this base rule, .reading-paragraphs.print-only renders on screen
-   right under the paginated reading-part-viewer, duplicating the text. */
+/* .print-only elements (reading-print-header, reading-print-answer-space)
+   are only meant to be visible inside the PDF/print layout - @media print
+   below flips this back to display:block !important. The reading's full
+   text (.reading-text) is not print-only - it has no visibility:hidden
+   base rule, so it shows on screen and inside #readingPrintArea's printed
+   output identically, with nothing duplicating it either place. */
 .print-only {
   display: none;
 }
 
-/* Reading pagination (English A1's 3-part readings) */
-.reading-part-viewer {
-  background: var(--bg);
-  border-radius: var(--radius-md);
-  padding: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-/* Subtle contextual illustration strip shown above each reading fragment's
-   text, replacing the old "Parte X de Y" label - shared by every paginated
-   reading (English A1, Français A1, Español A1). Sized as a slim band, not
-   a hero banner: text stays the primary element. */
-.reading-illustration {
-  width: 100%;
-  height: clamp(120px, 14vw, 160px);
-  object-fit: cover;
-  border-radius: var(--radius-md);
-  margin-bottom: 1rem;
-  display: block;
-}
-
-@media (max-width: 640px) {
-  .reading-illustration {
-    height: clamp(100px, 22vw, 130px);
-  }
-}
-
-.reading-part-text p {
-  font-size: 1.05rem;
-  line-height: 1.7;
-  color: var(--navy-2);
-}
-
-.reading-part-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  margin-top: 1rem;
-}
-
-/* Highlights whichever Parte is currently being spoken by the reading
-   audio player, without needing a second simultaneous text view. */
-.reading-part-viewer.is-reading-active {
-  box-shadow: inset 3px 0 0 var(--blue);
-}
-
-/* Full-reading Text-to-Speech player (spec section A) - always above the
-   Parte 1/2/3 text, never replacing it. */
+/* Full-reading Text-to-Speech player (spec section A) - the only control
+   surface for moving through the audio; it sits above the always-visible
+   full reading text and never replaces or reflows it. */
 .reading-audio-player {
   background: var(--bg);
   border: 1px solid var(--line);
@@ -5280,6 +5324,8 @@ footer small {
 .reading-audio-meta {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.4rem;
   font-size: 0.8rem;
@@ -5287,23 +5333,15 @@ footer small {
   font-variant-numeric: tabular-nums;
 }
 
+.reading-audio-status {
+  font-weight: 700;
+  color: var(--blue);
+}
+
 @media (max-width: 360px) {
   .reading-audio-btn {
     flex: 1 1 calc(50% - 0.5rem);
   }
-}
-
-.reading-full-text {
-  border: 1px dashed var(--line);
-  border-radius: var(--radius-md);
-  padding: 1rem 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.reading-full-text p {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: var(--navy-2);
 }
 
 /* "Order the events" activity */
@@ -5485,7 +5523,8 @@ footer small {
   border: 1px solid var(--line);
   background: var(--bg);
   border-radius: 999px;
-  padding: 0.5rem 0.9rem;
+  padding: 0.6rem 1rem;
+  min-height: 44px;
   font-weight: 700;
   font-size: 0.85rem;
   cursor: pointer;
@@ -5540,6 +5579,157 @@ footer small {
   font-size: 0.8rem;
   color: var(--muted);
   margin-bottom: 1rem;
+}
+
+/* Speaking: mode tabs (Práctica guiada / Diálogos / Respuesta libre) - see
+   renderSpeakingView()/renderSpeakingModeContent() in src/js/script.js.
+   Dialogues live here instead of as their own top-level skill/nav
+   destination. */
+.speaking-mode-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.speaking-mode-btn.is-active {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.speaking-stage {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaking-guided-progress {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.dialogue-lines-list--history {
+  opacity: 0.65;
+}
+
+.dialogue-line--done {
+  border-style: dashed;
+}
+
+.speaking-guided-turn {
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.speaking-guided-turn-text {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0.35rem 0 0.6rem;
+}
+
+.speaking-guided-actions {
+  margin: 0.75rem 0 1.25rem;
+}
+
+/* Recorder block (shared by every Speaking mode): record/stop/play/delete/
+   redo controls, the always-editable transcript, and the correction
+   result. See renderSpeakingRecorderHtml()/wireSpeakingRecorderControls(). */
+.speaking-recorder-block {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  margin: 0.5rem 0 1.25rem;
+  background: var(--surface);
+}
+
+.speaking-transcript-block {
+  margin: 0.75rem 0;
+}
+
+.speaking-transcript-label {
+  display: block;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.35rem;
+}
+
+.speaking-transcript {
+  width: 100%;
+  min-height: 4.5rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.7rem 0.85rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  resize: vertical;
+}
+
+.speaking-transcript-hint {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: 0.35rem;
+}
+
+.speaking-actions {
+  margin: 0.75rem 0;
+}
+
+.speaking-correct-btn {
+  min-height: 44px;
+}
+
+.speaking-correction-result {
+  margin: 0.75rem 0;
+}
+
+.speaking-correction-loading {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.speaking-correction-error {
+  color: #b91c1c;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.speaking-correction-card {
+  background: var(--bg-soft, rgba(96, 165, 250, 0.08));
+  border-radius: 14px;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--line);
+}
+
+.speaking-correction-text {
+  white-space: pre-line;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.speaking-correction-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.speaking-privacy-note {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+/* Dialogues inside Speaking: "Responder oralmente" mounts the same shared
+   recorder block into a specific roleplay line's own slot. */
+.dialogue-respond-btn {
+  min-height: 44px;
+}
+
+.dialogue-respond-block {
+  margin-top: 0.5rem;
 }
 
 /* Grammar */
@@ -5756,8 +5946,8 @@ footer small {
   border: 1px solid var(--line);
   background: var(--surface);
   border-radius: 999px;
-  width: 1.9rem;
-  height: 1.9rem;
+  width: 44px;
+  height: 44px;
   cursor: pointer;
   font-size: 0.9rem;
   flex-shrink: 0;
@@ -6381,7 +6571,7 @@ footer small {
     letter-spacing: 0.05em;
   }
 
-  .reading-paragraphs p {
+  .reading-text p {
     color: #000;
     orphans: 3;
     widows: 3;
