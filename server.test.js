@@ -761,6 +761,31 @@ test(
         assert.equal(r.body.user.email, testUser.email);
       });
 
+      // Regression test for the "username onboarding modal reopens for
+      // every login" bug: the frontend's loadPreferences() used to silently
+      // drop `username` from GET /api/preferences, so preferences.username
+      // was always undefined regardless of the real DB value (profiles.username
+      // is the authoritative source - see hasValidUsername() in
+      // src/js/script.js). Also confirms the login response's own
+      // emailConfirmedAt (a temporary fallback only, read from
+      // user_metadata/auth.users - never the profiles table) is populated
+      // for a confirmed account.
+      await t.test(
+        '11. GET /api/preferences carries the real username; login response carries emailConfirmedAt (username onboarding regression)',
+        async () => {
+          const r = await postLogin(port, { identifier: testUser.email, password: testUser.password });
+          assert.equal(r.status, 200);
+          assert.ok(r.body.user.emailConfirmedAt, 'expected a non-null emailConfirmedAt for a confirmed account');
+
+          const prefsRes = await fetch(`http://127.0.0.1:${port}/api/preferences`, {
+            headers: { Authorization: `Bearer ${r.body.session.access_token}` }
+          });
+          const prefsBody = await prefsRes.json().catch(() => ({}));
+          assert.equal(prefsRes.status, 200);
+          assert.equal(prefsBody.username, username);
+        }
+      );
+
       await t.test('2. login by correct username', async () => {
         const r = await postLogin(port, { identifier: username, password: testUser.password });
         assert.equal(r.status, 200);

@@ -238,6 +238,37 @@
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
         </nav>
 
+        <div class="path-controls">
+          <label
+            ><span data-field="bridgeSelectLabel">Idioma de apoyo (L1)</span>
+            <select id="pathBridgeSelect">
+              <option value="spanish">🇪🇸 Español</option>
+              <option value="english">🇺🇸 English</option>
+              <option value="french">🇫🇷 Français</option>
+            </select>
+          </label>
+          <label
+            ><span data-field="targetSelectLabel">Idioma objetivo (L2)</span>
+            <select id="pathLanguageSelect">
+              <option value="english">🇺🇸 English</option>
+              <option value="spanish">🇪🇸 Español</option>
+              <option value="french">🇫🇷 Français</option>
+            </select>
+          </label>
+          <label
+            ><span data-field="levelSelectLabel">Nivel</span>
+            <select id="pathLevelSelect">
+              <option value="A1">A1</option>
+              <option value="A2">A2</option>
+              <option value="B1">B1</option>
+              <option value="B2">B2</option>
+              <option value="C1">C1</option>
+              <option value="C2">C2</option>
+            </select>
+          </label>
+        </div>
+        <p class="path-pair-preview" id="pathPairPreview" aria-live="polite"></p>
+
         <div class="features-grid compact-skills-row">
           <article class="skill-competency-card" data-skill="listening" role="button" tabindex="0">
             <div class="icon">🎧</div>
@@ -283,36 +314,6 @@
           </article>
         </div>
 
-        <div class="path-controls">
-          <label
-            ><span data-field="bridgeSelectLabel">Idioma de apoyo (L1)</span>
-            <select id="pathBridgeSelect">
-              <option value="spanish">🇪🇸 Español</option>
-              <option value="english">🇺🇸 English</option>
-              <option value="french">🇫🇷 Français</option>
-            </select>
-          </label>
-          <label
-            ><span data-field="targetSelectLabel">Idioma objetivo (L2)</span>
-            <select id="pathLanguageSelect">
-              <option value="english">🇺🇸 English</option>
-              <option value="spanish">🇪🇸 Español</option>
-              <option value="french">🇫🇷 Français</option>
-            </select>
-          </label>
-          <label
-            ><span data-field="levelSelectLabel">Nivel</span>
-            <select id="pathLevelSelect">
-              <option value="A1">A1</option>
-              <option value="A2">A2</option>
-              <option value="B1">B1</option>
-              <option value="B2">B2</option>
-              <option value="C1">C1</option>
-              <option value="C2">C2</option>
-            </select>
-          </label>
-        </div>
-        <p class="path-pair-preview" id="pathPairPreview" aria-live="polite"></p>
         <button class="learn-route-toggle" type="button" aria-expanded="false">📍 Ver ruta</button>
 
         <div class="learning-path-layout">

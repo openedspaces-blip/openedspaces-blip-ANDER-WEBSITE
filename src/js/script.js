@@ -519,6 +519,14 @@ async function loadProgress() {
 // Returns the signed-in user's saved language/level, or null for guests or
 // on any failure - callers keep using learningPathState's current defaults
 // in that case, so a failed fetch never blocks navigation.
+//
+// username MUST be forwarded here - it used to be silently dropped (this
+// function only returned language/level/bridgeLanguage), which meant
+// maybeShowUsernameOnboarding() below always saw preferences.username as
+// undefined and opened the modal for every single login, even for accounts
+// that already had a real username (e.g. profiles.username = 'anderson2026').
+// See shouldShowUsernameOnboarding()'s profileStatus state machine for how
+// this is now evaluated safely.
 async function loadPreferences() {
   if (!authStatus.session?.access_token) return null;
   try {
@@ -529,7 +537,8 @@ async function loadPreferences() {
     return {
       language: data.language,
       level: data.level,
-      bridgeLanguage: data.bridgeLanguage || 'spanish'
+      bridgeLanguage: data.bridgeLanguage || 'spanish',
+      username: data.username ?? null
     };
   } catch (error) {
     console.warn('Could not load saved preferences', error);
@@ -738,6 +747,12 @@ function renderDashboard(data) {
   }
 
   dashboardPreferences = data.preferences;
+  // Defense-in-depth for shouldShowUsernameOnboarding()'s race-condition
+  // rule: if the dashboard's own preferences (also carrying username)
+  // resolve while the onboarding modal happens to still be open, close it
+  // immediately rather than leaving a stale "create your username" prompt
+  // up for an account that already has one.
+  closeUsernameOnboardingIfNowSatisfied(data.preferences);
   if (data.entitlements) {
     authStatus.entitlements = data.entitlements;
     renderAuthState();
@@ -889,6 +904,11 @@ async function logout() {
     authStatus.user = null;
     authStatus.session = null;
     localStorage.removeItem('andergoSession');
+    // A dismissal only ever applies to the account that dismissed it - the
+    // next login (same tab or not) re-evaluates fresh instead of inheriting
+    // a previous account's "Ahora no".
+    sessionStorage.removeItem(USERNAME_ONBOARDING_DISMISSED_KEY);
+    profileStatus = 'idle';
     renderAuthState();
     updateProgressDisplay();
     renderDashboard(null);
@@ -896,11 +916,88 @@ async function logout() {
   }
 }
 
+// Tracks the GET /api/preferences fetch that maybeShowUsernameOnboarding()
+// depends on - 'loading'/'error'/a preferences object still in flight or a
+// transient failure must never be read as "no username", or the modal would
+// wrongly open for an account that has a real username the moment a request
+// is merely slow or a network blip returns null. See afterAuthSuccess() for
+// the only place this transitions away from 'idle'.
+let profileStatus = 'idle';
+
+const USERNAME_ONBOARDING_DISMISSED_KEY = 'username_onboarding_dismissed';
+
+// Single source of truth for "does this account already have a username" -
+// profiles.username_normalized/profiles.username (loaded via
+// GET /api/preferences into `profile`) is authoritative; user.username (from
+// the login/register response's user_metadata.username, see
+// lib/authService.js) is only ever a fallback for the brief window right
+// after login before that preferences fetch resolves.
+function hasValidUsername({ profile, user }) {
+  const profileUsername = profile?.username;
+  const metadataUsername = user?.username;
+  return Boolean(String(profileUsername || metadataUsername || '').trim());
+}
+
+// Centralizes every condition that must hold before the "create your
+// username" onboarding is allowed to open - see the equivalent checklist in
+// the task this was written against: no session, no confirmed email, a
+// profile fetch that hasn't finished (or failed) yet, or an account that
+// already has a username must all block it, not just "preferences.username
+// was falsy" (that one omission is what caused the modal to reopen for
+// every account, including ones with a real username - see loadPreferences()
+// above).
+function shouldShowUsernameOnboarding({ session, user, profile, profileStatus: status }) {
+  if (!session?.access_token) return false;
+  if (!user?.emailConfirmedAt) return false;
+  if (status !== 'loaded') return false;
+  if (sessionStorage.getItem(USERNAME_ONBOARDING_DISMISSED_KEY) === 'true') return false;
+  if (hasValidUsername({ profile, user })) return false;
+  return true;
+}
+
 // Shows the "create your username" onboarding once, right after a
-// successful login, but only for accounts that predate this feature
-// (preferences.username still null) - never blocks anything else.
-function maybeShowUsernameOnboarding(preferences) {
-  if (preferences?.username) return;
+// successful login, but only for accounts that predate this feature (no
+// username anywhere yet) - never blocks anything else. See
+// shouldShowUsernameOnboarding() for the full gate.
+//
+// One extra step before that gate: if profiles has no username yet but the
+// signup metadata does (user.username - see lib/authService.js), try to
+// persist it server-side first instead of either trusting it forever or
+// discarding it (§9) - claimUsername() only succeeds if that exact username
+// is still available, so this can never silently steal/overwrite one. This
+// is most commonly the rare handle_new_user() collision case (see the
+// 202607150001 migration's comments) where the metadata username was
+// already claimed by someone else in the same instant; then the sync fails
+// and onboarding is the correct outcome, not a silently-skipped prompt.
+async function maybeShowUsernameOnboarding(preferences) {
+  let user = authStatus.user;
+
+  // profileStatus !== 'loaded' already makes shouldShowUsernameOnboarding()
+  // return false below regardless - skip the sync network call too in that
+  // case (profile fetch still in flight or failed) rather than firing it
+  // pointlessly.
+  if (profileStatus === 'loaded' && !preferences?.username && user?.username) {
+    try {
+      await postJson('/api/profile/username', { username: user.username }, { auth: true });
+      preferences = { ...preferences, username: user.username };
+    } catch {
+      // That exact username wasn't usable - it must stop counting as
+      // "valid" below, or a failed sync would be treated the same as a
+      // successful one and onboarding would never open for this account.
+      user = { ...user, username: null };
+    }
+  }
+
+  if (
+    !shouldShowUsernameOnboarding({
+      session: authStatus.session,
+      user,
+      profile: preferences,
+      profileStatus
+    })
+  ) {
+    return;
+  }
   const modal = document.getElementById('usernameOnboardingModal');
   if (!modal) return;
   modal.classList.add('open');
@@ -908,6 +1005,19 @@ function maybeShowUsernameOnboarding(preferences) {
   modal.removeAttribute('inert');
   document.body.classList.add('modal-open');
   modal.querySelector('input')?.focus();
+}
+
+// Safety net for the (rare, non-racy-today, but worth guarding) case where a
+// username becomes known - e.g. profile data resolves after the modal was
+// already opened, or the account gets a username via another path this
+// session - while the onboarding modal is still open: close it immediately
+// rather than leaving a stale prompt up for a username that already exists.
+function closeUsernameOnboardingIfNowSatisfied(preferences) {
+  const modal = document.getElementById('usernameOnboardingModal');
+  if (!modal || !modal.classList.contains('open')) return;
+  if (hasValidUsername({ profile: preferences, user: authStatus.user })) {
+    closeUsernameOnboarding();
+  }
 }
 
 function closeUsernameOnboarding() {
@@ -1075,11 +1185,21 @@ async function afterAuthSuccess() {
   const welcomeName = getDisplayName();
   setAuthMessage(`Bienvenido${welcomeName ? `, ${welcomeName}` : ''}!`, false);
   await loadProgress();
+
+  // profileStatus gates maybeShowUsernameOnboarding() below - it must reach
+  // 'loaded' (a real preferences object, username included) before the
+  // onboarding modal is even considered, never while the fetch is still
+  // 'loading' or ended in 'error' (loadPreferences() only ever returns null
+  // on a genuine fetch/parse failure here, since every profile row already
+  // has language/level defaults - see preferencesService.js).
+  profileStatus = 'loading';
   const preferences = await loadPreferences();
+  profileStatus = preferences ? 'loaded' : 'error';
+
   applyPreferencesToSelects(preferences);
   await loadLearningPath(preferences || {});
   closeAuth();
-  maybeShowUsernameOnboarding(preferences);
+  await maybeShowUsernameOnboarding(preferences);
 }
 
 function attachAuthHandlers() {
@@ -2059,10 +2179,10 @@ function setActiveLesson(slug) {
   }
 }
 
-// Wired to unit accordion header clicks. Selecting a unit that doesn't
-// contain the currently active lesson clears the stale activeSlug and picks
-// that unit's first available (not completed/locked) lesson instead of
-// leaving the content panel pointed at the previous unit's lesson.
+// Wired to unit accordion header clicks. See the comment on
+// renderLessonWorkspace/renderUnitOverviewCard for why switching units
+// clears activeSlug (rather than auto-picking a lesson) instead of leaving
+// the content panel pointed at the previous unit's lesson.
 function selectUnit(unitId, options = {}) {
   if (!unitId) return;
   const changingUnit = unitId !== learningPathState.unitId;
@@ -2365,9 +2485,8 @@ function createReadingAudioPlayer({ engine = 'browser', language, voice, rate } 
 // Singleton controller - only one reading can ever be "the" audio
 // playing at a time (see attach()/teardown()). Exposes exactly the
 // function names the product spec calls for: playReading, pauseReading,
-// resumeReading, rewindReading(seconds), advanceReading(seconds),
-// restartReading, stopReading, changeReadingVoice, changeReadingRate -
-// plus attach/teardown/setHandlers/getSnapshot for
+// resumeReading, rewindReading(seconds), stopReading, changeReadingVoice,
+// changeReadingRate - plus attach/teardown/setHandlers/getSnapshot for
 // renderReadingView to wire itself up to.
 const readingSpeechPlayer = (() => {
   const PAUSE_WATCHDOG_MS = 350;
@@ -2589,20 +2708,20 @@ const readingSpeechPlayer = (() => {
     emitUpdate();
   }
 
-  // Seeking is approximated by jumping to whichever segment's estimated
-  // start time is closest to (elapsed +/- seconds) - the Web Speech API has
-  // no real seek, so this can land a sentence or two off from an exact 5s
-  // offset, especially right after a rate change (see
+  // Rewinding is approximated by jumping to whichever earlier segment's
+  // estimated start time is closest to (elapsed - seconds) - the Web
+  // Speech API has no real seek, so this can land a sentence or two off
+  // from an exact 5s offset, especially right after a rate change (see
   // rebuildDurationsFromCurrentSegment). This only ever moves the audio
   // cursor; it never touches which text is visible on screen.
-  function seekReading(deltaSeconds) {
+  function rewindReading(seconds = 5) {
     if (!segments.length) return;
     const wasPlaying = state === 'playing';
     const seg = segments[currentSegmentIndex];
     const currentElapsed =
       elapsedBeforeCurrentSegment +
       (wasPlaying ? Math.min((performance.now() - segmentStartedAt) / 1000, seg?.estimatedDurationSeconds || 0) : 0);
-    const targetTime = Math.max(0, Math.min(totalDurationSeconds, currentElapsed + deltaSeconds));
+    const targetTime = Math.max(0, currentElapsed - seconds);
     const targetIndex = findReadingSegmentIndexAtTime(segments, targetTime);
     playbackToken += 1;
     if (supportsSpeech()) window.speechSynthesis.cancel();
@@ -2615,24 +2734,6 @@ const readingSpeechPlayer = (() => {
       clearTimer();
       emitUpdate();
     }
-  }
-
-  function rewindReading(seconds = 5) {
-    seekReading(-seconds);
-  }
-
-  function advanceReading(seconds = 5) {
-    seekReading(seconds);
-  }
-
-  function restartReading() {
-    if (!segments.length) return;
-    playbackToken += 1;
-    if (supportsSpeech()) window.speechSynthesis.cancel();
-    currentSegmentIndex = 0;
-    elapsedBeforeCurrentSegment = 0;
-    state = 'playing';
-    speakCurrentSegment();
   }
 
   function changeReadingVoice() {
@@ -2709,8 +2810,6 @@ const readingSpeechPlayer = (() => {
     pauseReading,
     resumeReading,
     rewindReading,
-    advanceReading,
-    restartReading,
     stopReading,
     changeReadingVoice,
     changeReadingRate
@@ -4148,17 +4247,16 @@ function renderReadingAudioPlayerHtml(snapshot) {
   const seekDisabled = snapshot.state === 'idle' || snapshot.state === 'error' ? 'disabled' : '';
   return `
     <div class="reading-audio-player no-print" role="group" aria-label="Reproductor de la lectura completa">
+      <p class="reading-audio-label">🔊 Escucha el texto completo de esta lectura</p>
       <div class="reading-audio-controls">
         <button type="button" class="reading-audio-btn reading-audio-playpause-btn${isPlaying ? ' is-active' : ''}" aria-label="${playPauseAria}">${playPauseLabel}</button>
         <button type="button" class="reading-audio-btn reading-audio-rewind-btn" aria-label="Retroceder cinco segundos" ${seekDisabled}>↶ 5 s</button>
-        <button type="button" class="reading-audio-btn reading-audio-forward-btn" aria-label="Adelantar cinco segundos" ${seekDisabled}>↷ 5 s</button>
-        <button type="button" class="reading-audio-btn reading-audio-restart-btn" aria-label="Reiniciar lectura" ${seekDisabled}>⟲ Reiniciar</button>
         <button type="button" class="reading-audio-btn reading-audio-stop-btn" aria-label="Detener lectura" ${snapshot.state === 'idle' || snapshot.state === 'stopped' ? 'disabled' : ''}>⏹ Detener</button>
         <button type="button" class="reading-audio-btn reading-audio-voice-btn" aria-label="Cambiar voz" title="${snapshot.voiceName ? `Voz: ${escapeHtml(snapshot.voiceName)}` : ''}" ${snapshot.canChangeVoice ? '' : 'hidden'}>🔄 <span class="reading-audio-voice-label">${escapeHtml(snapshot.voiceLabel || '')}</span></button>
-      </div>
-      <div class="reading-audio-rate-group" role="group" aria-label="Velocidad de lectura">
-        <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'slow' ? ' is-active' : ''}" data-rate="slow" aria-pressed="${snapshot.rateKey === 'slow'}">Lenta</button>
-        <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'normal' ? ' is-active' : ''}" data-rate="normal" aria-pressed="${snapshot.rateKey === 'normal'}">Normal</button>
+        <div class="reading-audio-rate-group" role="group" aria-label="Velocidad de lectura">
+          <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'slow' ? ' is-active' : ''}" data-rate="slow" aria-pressed="${snapshot.rateKey === 'slow'}">Lenta</button>
+          <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'normal' ? ' is-active' : ''}" data-rate="normal" aria-pressed="${snapshot.rateKey === 'normal'}">Normal</button>
+        </div>
       </div>
       <div class="reading-audio-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${snapshot.progressPct}" aria-label="Progreso de la lectura">
         <div class="reading-audio-progress-fill" style="width:${snapshot.progressPct}%"></div>
@@ -4184,9 +4282,9 @@ function readingAudioStatusLabel(state) {
 // runs up to 4x/second while playing, and a full re-render would wipe
 // focus, scroll position and any in-progress exercise selections. There is
 // no other trigger for a full re-render while a reading is open: playing,
-// pausing, rewinding, advancing, restarting and switching voice/rate all
-// only ever patch this player's DOM and the current sentence highlight
-// (see updateReadingHighlight) - the visible text never moves or reflows.
+// pausing, rewinding and switching voice/rate all only ever patch this
+// player's DOM and the current sentence highlight (see
+// updateReadingHighlight) - the visible text never moves or reflows.
 function updateReadingPlayerUI(section, snapshot) {
   const player = section.querySelector('.reading-audio-player');
   if (!player) return;
@@ -4215,13 +4313,8 @@ function updateReadingPlayerUI(section, snapshot) {
     playPauseBtn.classList.toggle('is-active', isPlaying);
   }
 
-  const seekDisabled = snapshot.state === 'idle' || snapshot.state === 'error';
   const rewindBtn = player.querySelector('.reading-audio-rewind-btn');
-  if (rewindBtn) rewindBtn.disabled = seekDisabled;
-  const forwardBtn = player.querySelector('.reading-audio-forward-btn');
-  if (forwardBtn) forwardBtn.disabled = seekDisabled;
-  const restartBtn = player.querySelector('.reading-audio-restart-btn');
-  if (restartBtn) restartBtn.disabled = seekDisabled;
+  if (rewindBtn) rewindBtn.disabled = snapshot.state === 'idle' || snapshot.state === 'error';
 
   const stopBtn = player.querySelector('.reading-audio-stop-btn');
   if (stopBtn) stopBtn.disabled = snapshot.state === 'idle' || snapshot.state === 'stopped';
@@ -4260,17 +4353,22 @@ function updateReadingHighlight(section, snapshot) {
 
 // Deterministic inline SVG illustration, used whenever a reading has no
 // artwork of its own configured yet - keeps the illustration figure always
-// present (per spec) without depending on any external image asset, and
-// deliberately not a single flat color block: a soft two-tone card with a
-// couple of layered, gently-toned circles standing in for a scene. Same
-// look for every load of the same lesson (seeded by unitId/slug), a
-// different one across units.
+// present (per spec) without depending on any external image asset - a
+// small, flat, pastel icon card (an open-book glyph on a soft rounded
+// square), not a hero-sized gradient block. No animation: at this size a
+// static icon reads as an intentional design element, while motion on
+// something this small mostly reads as a distracting flicker. Same look
+// for every load of the same lesson (seeded by unitId/slug), a different
+// (but always muted, low-saturation) hue across units.
 function buildGenericIllustrationDataUri(seed) {
   let hash = 0;
   for (let i = 0; i < seed.length; i += 1) hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
   const hue = hash % 360;
-  const hue2 = (hue + 42) % 360;
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${hue},70%,93%)"/><stop offset="1" stop-color="hsl(${hue2},65%,87%)"/></linearGradient></defs><rect width="400" height="260" fill="url(#g)"/><circle cx="304" cy="76" r="72" fill="hsl(${hue},70%,80%)" opacity="0.55"/><circle cx="86" cy="196" r="94" fill="hsl(${hue2},70%,78%)" opacity="0.5"/><circle cx="220" cy="150" r="46" fill="hsl(${hue},75%,60%)" opacity="0.3"/></svg>`;
+  const bg = `hsl(${hue}, 45%, 96%)`;
+  const border = `hsl(${hue}, 35%, 87%)`;
+  const page = `hsl(${hue}, 30%, 91%)`;
+  const ink = `hsl(${hue}, 45%, 42%)`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160"><rect x="1.5" y="1.5" width="157" height="157" rx="24" fill="${bg}" stroke="${border}" stroke-width="2"/><path d="M80 54 C62 43 38 45 28 54 L28 104 C38 95 62 93 80 104 Z" fill="${page}" stroke="${ink}" stroke-width="3" stroke-linejoin="round"/><path d="M80 54 C98 43 122 45 132 54 L132 104 C122 95 98 93 80 104 Z" fill="${page}" stroke="${ink}" stroke-width="3" stroke-linejoin="round"/><line x1="80" y1="54" x2="80" y2="104" stroke="${ink}" stroke-width="3"/><line x1="42" y1="63" x2="66" y2="59" stroke="${ink}" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/><line x1="42" y1="73" x2="66" y2="69" stroke="${ink}" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/><line x1="42" y1="83" x2="66" y2="79" stroke="${ink}" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/><line x1="94" y1="59" x2="118" y2="63" stroke="${ink}" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/><line x1="94" y1="69" x2="118" y2="73" stroke="${ink}" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/><line x1="94" y1="79" x2="118" y2="83" stroke="${ink}" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/></svg>`;
   return `data:image/svg+xml,${encodeURIComponent(svg)}`;
 }
 
@@ -6788,6 +6886,15 @@ async function loadLearningPath(options = {}) {
     applyLoadedSelection();
     renderLearningPath();
   }
+
+  // Single choke point for every caller (language/level selects,
+  // setTargetLanguage, the hash-restore paths in showView/renderSkillView/
+  // bootstrapLearningPath) - updates the hash to the language+level+unit+
+  // lesson that actually finished loading, rather than each caller having to
+  // remember to do it (and risk using the pre-fetch, stale unitId/activeSlug -
+  // see applyLoadedSelection above). No-ops when the current view isn't
+  // 'learn' or a skill view (see updateLearnHash's own guard).
+  updateLearnHash(getViewFromHash());
 }
 
 async function completeActiveLesson() {
@@ -7382,6 +7489,11 @@ function enableHomepageActions() {
     }
     if (event.target.closest('[data-action="dismiss-username-onboarding"]')) {
       closeUsernameOnboarding();
+      // Session-only, not a source of truth for "has a username" (that's
+      // always profiles.username_normalized/username) - just stops this
+      // same tab from reopening the modal on every nav change for the rest
+      // of the session. A brand new session (new login) re-evaluates fresh.
+      sessionStorage.setItem(USERNAME_ONBOARDING_DISMISSED_KEY, 'true');
       return;
     }
 
@@ -7738,16 +7850,6 @@ function enableHomepageActions() {
     const readingAudioRewindBtn = event.target.closest('.reading-audio-rewind-btn');
     if (readingAudioRewindBtn) {
       readingSpeechPlayer.rewindReading(5);
-      return;
-    }
-    const readingAudioForwardBtn = event.target.closest('.reading-audio-forward-btn');
-    if (readingAudioForwardBtn) {
-      readingSpeechPlayer.advanceReading(5);
-      return;
-    }
-    const readingAudioRestartBtn = event.target.closest('.reading-audio-restart-btn');
-    if (readingAudioRestartBtn) {
-      readingSpeechPlayer.restartReading();
       return;
     }
     const readingAudioStopBtn = event.target.closest('.reading-audio-stop-btn');
