@@ -538,6 +538,10 @@
     "dialogue": [],
     "reading": {
       "title": "Hello, Class!",
+      "illustration": {
+        "src": "/assets/readings/english/a1/hello-class.webp",
+        "alt": "Ana meets her new classmates on the first day of English class"
+      },
       "parts": [
         "Hello! My name is Ana. Today is my first English class. I am a little nervous, but also excited. My teacher is Mr. Green. He says, \"Good morning, class!\" and we answer, \"Good morning, Mr. Green!\" He has a big smile and a friendly voice.",
         "I sit next to a boy named Leo. \"Hi, I'm Leo,\" he says. \"Nice to meet you,\" I answer. We shake hands and smile. Leo is from Italy, and this is his first day too. We both feel happy to have a new friend.",

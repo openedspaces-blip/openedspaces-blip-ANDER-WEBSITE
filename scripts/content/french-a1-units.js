@@ -60,6 +60,10 @@ const units = [
         description: "Le premier jour de Camila à l'école, en trois parties.",
         reading: {
           title: 'Bienvenue à Tours !',
+          illustration: {
+            src: '/assets/readings/french/a1/bienvenue-a-tours.webp',
+            alt: 'Camila llega a su nueva escuela en Tours, Francia'
+          },
           parts: [
             "Bonjour ! Je m'appelle Camila. Je viens de Saint-Domingue, en République dominicaine. Aujourd'hui, c'est mon premier jour à l'école, à Tours, en France. Je suis un peu nerveuse, mais je suis très contente. J'habite chez une famille française, la famille Lambert. Le matin, je prends mon sac et je marche vers l'école avec Léa, la fille de la famille. Léa a quinze ans, comme moi. Elle est sympathique et elle parle lentement pour m'aider. Devant l'école, il y a beaucoup d'élèves. Ils parlent, ils rient, et moi, j'observe tout en silence.",
             "Dans la salle de classe, la professeure s'appelle Madame Dubois. Elle a un grand sourire et une voix calme. Elle dit : « Bonjour, la classe ! Bienvenue ! » et les élèves répondent : « Bonjour, madame ! » Je m'assois à côté d'un garçon sympathique. Il s'appelle Karim. « Salut ! Tu es nouvelle ? » demande-t-il. « Oui, je m'appelle Camila. Je suis dominicaine », je réponds. « Enchanté, Camila ! Bienvenue à Tours », dit Karim avec un grand sourire. Léa est assise juste derrière nous. Elle chuchote : « Ne t'inquiète pas, tout va bien se passer ! »",

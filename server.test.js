@@ -799,7 +799,7 @@ test(
 
       await t.test('10. wrong-password and unknown-username give the byte-identical message', () => {
         assert.equal(wrongPasswordMessage, unknownUsernameMessage);
-        assert.equal(wrongPasswordMessage, 'No pudimos iniciar sesión con esos datos.');
+        assert.equal(wrongPasswordMessage, 'Nombre de usuario, correo o contraseña incorrectos.');
       });
 
       await t.test('7. profile with a username but no usable email is treated as not-found, not a 500', async () => {
@@ -816,7 +816,7 @@ test(
             .eq('id', brokenUser.id);
           const r = await postLogin(port, { identifier: brokenUsername, password: 'whatever123' });
           assert.equal(r.status, 401);
-          assert.equal(r.body.error, 'No pudimos iniciar sesión con esos datos.');
+          assert.equal(r.body.error, 'Nombre de usuario, correo o contraseña incorrectos.');
         } finally {
           await deleteLoginTestUser(brokenUser.id);
         }

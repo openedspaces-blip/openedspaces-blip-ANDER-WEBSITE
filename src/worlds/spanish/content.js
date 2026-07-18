@@ -462,6 +462,10 @@
     "dialogue": [],
     "reading": {
       "title": "El primer día de clase",
+      "illustration": {
+        "src": "/assets/readings/spanish/a1/el-primer-dia-de-clase.webp",
+        "alt": "Valentina conoce a su profesor y a un compañero en su primer día de clase"
+      },
       "parts": [
         "Hola, me llamo Valentina. Hoy es mi primer día de clase de español. Estoy un poco nerviosa, pero también contenta.",
         "Mi profesor se llama Diego. Él dice: \"¡Buenos días, clase!\" y nosotros respondemos: \"¡Buenos días, profesor!\".",
