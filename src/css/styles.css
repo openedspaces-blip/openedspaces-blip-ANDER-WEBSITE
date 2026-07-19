@@ -7394,6 +7394,10 @@ footer small {
     margin-bottom: 1.5cm;
     border-bottom: 2px solid #000;
     padding-bottom: 0.5cm;
+    /* Keeps the title/language/level/unit/date block from ever splitting
+       across the page boundary - always the very first thing on page 1. */
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   .skill-print-logo {
@@ -7402,10 +7406,34 @@ footer small {
     letter-spacing: 0.05em;
   }
 
+  .skill-print-unit {
+    color: #333;
+    font-size: 0.85rem;
+    margin-top: 0.15cm;
+  }
+
   .reading-text p {
     color: #000;
     orphans: 3;
     widows: 3;
+    /* A paragraph is the smallest self-contained reading unit - never let
+       the browser split one across two pages. */
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Every question/list-row-shaped block below can be several lines tall
+     (a prompt + 4 lettered options, or a word + translation + example) -
+     avoid: none (the pre-fix default) let the browser split one of these
+     mid-item, leaving orphaned option letters at the top of the next page.
+     .skill-print-question wraps a Grammar prompt + its lettered options;
+     .skill-print-option is also reused directly by Vocabulary's
+     word/translation/example rows (no separate question wrapper there). */
+  .skill-print-question,
+  .skill-print-option,
+  .reading-print-answer-lines {
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   .skill-print-answer-space {
@@ -7421,6 +7449,16 @@ footer small {
   .skill-print-option.is-correct-answer::after {
     content: ' ✓';
   }
+
+  /* Browsers do not support CSS Paged Media page-number counters
+     (@page { @bottom-center: counter(page) }) in the print-to-PDF path
+     window.print() uses - no mainstream engine renders them from page
+     CSS. Only the browser's own "Headers and footers" print-dialog
+     checkbox can add page numbers, and that's the user's choice, not
+     something this stylesheet can control. Not attempted here to avoid
+     shipping something that silently does nothing in every browser.
+     "Pie de página discreto" is instead covered by the compact
+     .skill-print-header (page 1 only) and ANDERGO branding within it. */
 }
 
 /* Unit Overview Panel */

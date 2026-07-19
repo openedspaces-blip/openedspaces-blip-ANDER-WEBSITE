@@ -4440,12 +4440,6 @@ function renderReadingView(section, lesson) {
   const trueFalseHtml = trueFalseExercises
     .map((item, index) => renderLessonExercise(item, comprehensionExercises.length + index, lesson))
     .join('');
-  const bridgeLabel = LanguagePair
-    ? LanguagePair.languageNameIn(currentBridgeLanguage, currentBridgeLanguage)
-    : languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
-  const targetLabel = LanguagePair
-    ? LanguagePair.languageNameIn(currentBridgeLanguage, learningPathState.language)
-    : languageDisplayNames[learningPathState.language] || learningPathState.language;
 
   // Attaching is a no-op when this is the same lesson already loaded -
   // continuous playback survives the DOM rebuild below either way, since
@@ -4460,11 +4454,7 @@ function renderReadingView(section, lesson) {
 
   content.innerHTML = `
     <div class="reading-print-area skill-print-area">
-      <div class="print-only reading-print-header skill-print-header">
-        <div class="reading-print-logo skill-print-logo">ANDERGO</div>
-        <p>${escapeHtml(bridgeLabel)} → ${escapeHtml(targetLabel)} · ${escapeHtml(lesson.level)}</p>
-        <p class="reading-print-date">${escapeHtml(new Date().toLocaleDateString('es'))}</p>
-      </div>
+      ${renderSkillPrintHeaderHtml(lesson)}
       <div class="reading-hero">
         <div class="reading-heading">
           <p class="reading-level-tag">${durationLabel}${escapeHtml(lesson.level)} · ${escapeHtml(getSkillLabel('reading'))}</p>
@@ -5613,24 +5603,29 @@ function renderPrintableExerciseList(exercises, { showAnswers = false } = {}) {
     .join('');
 }
 
-// Shared print header/answer-space markup for Grammar/Vocabulary PDFs -
-// mirrors Reading's (see renderReadingView) via the same .skill-print-*
-// classes/CSS. `answerKey` renders the teacher/admin variant (correct
-// options marked) instead of the student worksheet (blank answer lines) -
-// gated by entitlements.role==='ceo' (this app's only staff/admin role
-// today - see lib/entitlementsService.js) at the call site, never decided
-// here.
-function renderSkillPrintHeaderHtml() {
+// Shared print header/answer-space markup for Reading/Grammar/Vocabulary
+// PDFs - one function instead of Reading keeping its own drifted inline
+// copy, so title/language/level/unit/date/branding can never go out of
+// sync between skills. `answerKey` renders the teacher/admin variant
+// (correct options marked) instead of the student worksheet (blank answer
+// lines) - gated by entitlements.role==='ceo' (this app's only staff/admin
+// role today - see lib/entitlementsService.js) at the call site, never
+// decided here. `lesson` is optional (only used to resolve the unit title).
+function renderSkillPrintHeaderHtml(lesson) {
   const bridgeLabel = LanguagePair
     ? LanguagePair.languageNameIn(currentBridgeLanguage, currentBridgeLanguage)
     : languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
   const targetLabel = LanguagePair
     ? LanguagePair.languageNameIn(currentBridgeLanguage, learningPathState.language)
     : languageDisplayNames[learningPathState.language] || learningPathState.language;
+  const unit = lesson?.unitId
+    ? learningPathState.units.find((item) => item.id === lesson.unitId)
+    : null;
   return `
     <div class="print-only reading-print-header skill-print-header">
       <div class="reading-print-logo skill-print-logo">ANDERGO</div>
       <p>${escapeHtml(bridgeLabel)} → ${escapeHtml(targetLabel)} · ${escapeHtml(learningPathState.level)}</p>
+      ${unit?.title ? `<p class="skill-print-unit">${escapeHtml(unit.title)}</p>` : ''}
       <p class="reading-print-date">${escapeHtml(new Date().toLocaleDateString('es'))}</p>
     </div>
   `;
@@ -5661,7 +5656,7 @@ function renderGrammarView(section, lesson) {
 
   content.innerHTML = `
     <div class="skill-print-area">
-      ${renderSkillPrintHeaderHtml()}
+      ${renderSkillPrintHeaderHtml(lesson)}
       <h3>${escapeHtml(lesson.title)}</h3>
       <div class="grammar-explanation">
         <strong>Estructura</strong>
@@ -6192,7 +6187,7 @@ function renderVocabularyView(section, lesson) {
       ${testExercisesHtml || '<p class="skill-graph-empty">No hay prueba de vocabulario para esta lección.</p>'}
     </div>
     <div class="skill-print-area print-only">
-      ${renderSkillPrintHeaderHtml()}
+      ${renderSkillPrintHeaderHtml(lesson)}
       <h3 class="print-only">${escapeHtml(lesson.title)}</h3>
       <div class="print-only">
         <h4>${staff ? 'Clave de respuestas' : 'Vocabulario y actividad para completar'}</h4>
@@ -8590,7 +8585,14 @@ function enableHomepageActions() {
       return;
     }
     if (event.target.closest('.reading-print-btn') || event.target.closest('.skill-print-btn')) {
-      window.print();
+      // window.print() itself rarely throws, but embedding contexts that
+      // block it (some sandboxed iframes/webviews) do - never leave the
+      // student with silent nothing-happened.
+      try {
+        window.print();
+      } catch {
+        showHomeToast('No pudimos generar el PDF. Inténtalo nuevamente.');
+      }
       return;
     }
 
