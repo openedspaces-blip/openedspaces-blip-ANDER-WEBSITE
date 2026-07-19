@@ -4968,6 +4968,7 @@ async function completeSpeakingActivity(lesson) {
     });
     window.AndergoGamification?.syncFromServer(data);
     showHomeToast(`Actividad completada. +${data.earnedXp || lesson.xpReward || 20} XP`);
+    celebrateActivityCompletion();
   } catch (error) {
     console.warn('No se pudo guardar el progreso de Speaking', error);
   }
@@ -6458,6 +6459,7 @@ async function completeListeningLesson(lesson, content) {
     showHomeToast(
       `Actividad de Listening completada. +${data.earnedXp || lesson.xpReward || 20} XP`
     );
+    celebrateActivityCompletion();
     if (btn) {
       btn.disabled = true;
       btn.textContent = 'Completada';
@@ -7305,6 +7307,7 @@ async function completeActiveLesson() {
     }
 
     showHomeToast(`Lección completada. +${data.earnedXp || activeLesson.xpReward || 20} XP`);
+    celebrateActivityCompletion();
   } catch (error) {
     console.error('Could not complete lesson', error);
     showHomeToast(error.message || 'No se pudo completar la lección.');
@@ -7699,6 +7702,35 @@ function showCelebration(message = '') {
     celebration.classList.remove('is-visible');
     window.setTimeout(() => celebration.remove(), 400);
   }, 3200);
+}
+
+// Purely visual reaction to an activity being completed - called right
+// after showHomeToast()'s "+X XP" toast at each completion call site
+// (Speaking/Listening/lesson workspace). Never reads or writes
+// scoring/progress data, only reacts to it once the server has already
+// confirmed completion. Confetti node creation is skipped under
+// prefers-reduced-motion since CSS alone can animate a burst away
+// instantly but can't prevent the DOM churn of creating it.
+function celebrateActivityCompletion() {
+  const toast = document.querySelector('.home-toast');
+  toast?.classList.add('xp-celebrate');
+  window.setTimeout(() => toast?.classList.remove('xp-celebrate'), 700);
+
+  if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return;
+
+  const burst = document.createElement('div');
+  burst.className = 'confetti-burst';
+  const pieceCount = 18;
+  for (let i = 0; i < pieceCount; i += 1) {
+    const piece = document.createElement('span');
+    piece.className = 'confetti-piece';
+    piece.style.left = `${Math.random() * 100}vw`;
+    piece.style.background = `var(--confetti-${(i % 4) + 1})`;
+    piece.style.animationDelay = `${Math.random() * 200}ms`;
+    burst.appendChild(piece);
+  }
+  document.body.appendChild(burst);
+  window.setTimeout(() => burst.remove(), 1500);
 }
 
 function handleHomeAction(action) {
@@ -8369,6 +8401,21 @@ function enableHomepageActions() {
       setVocabCardMastery(vocabRetryBtn.closest('.vocab-card'), 'practicing');
       return;
     }
+    // Convenience carried over from the old flashcards: tapping the card
+    // body itself also speaks the word, so listening never strictly
+    // requires hitting the small speaker button. Only fires when the click
+    // wasn't already handled by a more specific control above.
+    const vocabCardBody = event.target.closest('.vocab-card');
+    if (vocabCardBody && !event.target.closest('button, summary, a')) {
+      const audioBtn = vocabCardBody.querySelector('.vocab-card-audio-btn');
+      audioBtn?.classList.add('is-playing');
+      speakText(vocabCardBody.dataset.speakText, {
+        locale: vocabCardBody.dataset.speakLocale,
+        rate: Number(vocabCardBody.dataset.speakRate) || 1,
+        onEnd: () => audioBtn?.classList.remove('is-playing')
+      });
+      return;
+    }
   });
 
   document.getElementById('tutorFab')?.addEventListener('click', () => openTutorDrawer());
@@ -8438,7 +8485,7 @@ function setupLearningPathControls() {
 
 function initScrollReveal() {
   const elements = document.querySelectorAll(
-    '.section-heading, .features-grid article, .plan, .missions-panel, .badges-panel, .goal-card, .download-box, .course-card'
+    '.section-heading, .features-grid article, .plan, .missions-panel, .badges-panel, .goal-card, .download-box, .course-card, .how-it-works-step'
   );
   if (!elements.length) return;
 

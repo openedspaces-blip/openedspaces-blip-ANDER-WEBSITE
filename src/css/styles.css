@@ -29,6 +29,24 @@
   --radius-xl: 24px;
   --radius-2xl: 32px;
   --radius-pill: 999px;
+
+  /* Gradients — built from the palette above only, no new hues */
+  --gradient-primary: linear-gradient(135deg, var(--blue), var(--cyan));
+  --gradient-accent: linear-gradient(135deg, var(--purple), var(--blue));
+  --gradient-success: linear-gradient(135deg, var(--green), var(--cyan));
+
+  /* Motion tokens — shared by every animation utility below, so
+     prefers-reduced-motion only has to be handled in one place. */
+  --ease-standard: cubic-bezier(0.2, 0.7, 0.3, 1);
+  --duration-fast: 150ms;
+  --duration-base: 300ms;
+  --duration-slow: 600ms;
+
+  /* Confetti palette — same 4 brand colors, no new hues */
+  --confetti-1: var(--blue);
+  --confetti-2: var(--cyan);
+  --confetti-3: var(--purple);
+  --confetti-4: var(--green);
 }
 
 /* Base */
@@ -99,8 +117,8 @@ body.modal-open {
   opacity: 0;
   transform: translateY(22px);
   transition:
-    opacity 0.7s cubic-bezier(0.2, 0.7, 0.3, 1),
-    transform 0.7s cubic-bezier(0.2, 0.7, 0.3, 1);
+    opacity 0.7s var(--ease-standard),
+    transform 0.7s var(--ease-standard);
 }
 
 .reveal-on-scroll.is-visible {
@@ -114,6 +132,130 @@ body.modal-open {
     transform: none;
     transition: none;
   }
+}
+
+/* ---------------------------------------------------------------------
+   Animation utilities — shared building blocks so every view opts into
+   the same small set of effects via class names instead of bespoke
+   per-view animation code. All covered by the global
+   prefers-reduced-motion block further down (it zeroes every
+   animation-duration/transition-duration on the page), so none of these
+   need their own reduced-motion override. */
+
+/* Entrance for content injected dynamically after load (e.g. a
+   freshly-rendered lesson list), where an IntersectionObserver isn't
+   warranted - use .reveal-on-scroll above for anything already in the
+   viewport-observed flow. */
+.card-enter {
+  animation: fade-in-up var(--duration-slow) var(--ease-standard);
+}
+
+/* Large, clear buttons still need a tactile response on click - kept to
+   a small scale so it never feels like the button "jumps". */
+.btn-press {
+  transition: transform var(--duration-fast) var(--ease-standard);
+}
+
+.btn-press:active {
+  transform: scale(0.97);
+}
+
+/* Hover lift capped at 2-4px per the design spec - never more, so it
+   reads as responsive rather than floaty. */
+.hover-lift {
+  transition:
+    transform var(--duration-base) var(--ease-standard),
+    box-shadow var(--duration-base) var(--ease-standard);
+}
+
+.hover-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-soft);
+}
+
+/* Applied to progress-bar fill elements that already render an inline
+   `style="width:X%"` - the browser animates the width transition
+   automatically on the next re-render, no JS timing logic needed. */
+.progress-fill-animated {
+  transition: width var(--duration-slow) var(--ease-standard);
+}
+
+/* Confetti burst - a handful of .confetti-piece nodes spawned inside a
+   fixed .confetti-burst container, self-removing on animationend. See
+   celebrateActivityCompletion() in script.js. */
+.confetti-burst {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.confetti-piece {
+  position: absolute;
+  top: -12px;
+  width: 8px;
+  height: 14px;
+  border-radius: 2px;
+  animation: confetti-fall 1.1s ease-in forwards;
+}
+
+@keyframes confetti-fall {
+  from {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(70vh) rotate(340deg);
+    opacity: 0;
+  }
+}
+
+/* XP badge micro-animation on activity completion - a brief scale/glow,
+   not a persistent state, so it's a plain keyframe rather than a toggled
+   :hover/:active rule. */
+@keyframes xp-pulse {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0 rgba(0, 194, 255, 0));
+  }
+  40% {
+    transform: scale(1.18);
+    filter: drop-shadow(0 0 10px rgba(0, 194, 255, 0.55));
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0 rgba(0, 194, 255, 0));
+  }
+}
+
+.xp-celebrate {
+  animation: xp-pulse var(--duration-slow) var(--ease-standard);
+}
+
+/* Small pulsing dot/bar shown next to the currently-playing audio
+   control - toggled alongside the existing .is-active play/pause state
+   classes, not a replacement for them. */
+@keyframes audio-pulse {
+  0%,
+  100% {
+    transform: scaleY(0.4);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+.audio-playing-indicator {
+  display: inline-block;
+  width: 3px;
+  height: 12px;
+  margin-left: 2px;
+  border-radius: var(--radius-pill);
+  background: var(--gradient-primary);
+  animation: audio-pulse 0.9s ease-in-out infinite;
 }
 
 a {
@@ -4433,6 +4575,7 @@ footer small {
   height: 100%;
   background: var(--green);
   border-radius: 999px;
+  transition: width var(--duration-slow) var(--ease-standard);
 }
 
 .path-lesson-state {
@@ -4744,8 +4887,9 @@ footer small {
 
 .lesson-continue-progress div {
   height: 100%;
-  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  background: var(--gradient-primary);
   border-radius: 999px;
+  transition: width var(--duration-slow) var(--ease-standard);
 }
 
 .lesson-continue-count {
@@ -5095,8 +5239,9 @@ footer small {
 
 .reading-progress-bar div {
   height: 100%;
-  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  background: var(--gradient-primary);
   border-radius: 999px;
+  transition: width var(--duration-slow) var(--ease-standard);
 }
 
 /* Reading hero: title/level/duration on the left, a small icon card on the
@@ -5320,6 +5465,22 @@ footer small {
   border-color: var(--blue);
   background: rgba(37, 99, 235, 0.08);
   color: var(--blue);
+}
+
+/* Animated indicator while audio is playing - purely decorative,
+   reuses the existing .is-active state already toggled in JS to mark
+   the play/pause button as "currently playing" (see script.js's
+   reading-audio-playpause-btn render). No new JS hook needed. */
+.reading-audio-playpause-btn.is-active::after {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 12px;
+  margin-left: 8px;
+  vertical-align: middle;
+  border-radius: var(--radius-pill);
+  background: var(--gradient-primary);
+  animation: audio-pulse 0.9s ease-in-out infinite;
 }
 
 .reading-audio-btn[hidden] {
@@ -5833,7 +5994,7 @@ footer small {
 .vocab-card-deck {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.25rem;
+  gap: 1rem;
   align-items: stretch;
 }
 
@@ -5852,13 +6013,14 @@ footer small {
 .vocab-card {
   display: flex;
   flex-direction: column;
-  gap: 0.65rem;
+  gap: 0.4rem;
   height: 100%;
-  padding: 1.25rem;
+  padding: 0.9rem;
   background: var(--white);
   border: 1px solid var(--line);
-  border-radius: var(--radius-xl);
+  border-radius: var(--radius-lg);
   box-shadow: var(--shadow-xs);
+  cursor: pointer;
   transition:
     transform 180ms ease,
     box-shadow 180ms ease,
@@ -5888,7 +6050,7 @@ footer small {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  min-height: 1.9rem;
+  min-height: 1.6rem;
 }
 
 .vocab-card-tag {
@@ -5957,15 +6119,15 @@ footer small {
 
 .vocab-card-target {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: 1.02rem;
   font-weight: 800;
   color: var(--navy-2);
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 .vocab-card-translation {
-  margin: 0.15rem 0 0;
-  font-size: 0.85rem;
+  margin: 0.1rem 0 0;
+  font-size: 0.78rem;
   font-weight: 500;
   color: var(--muted);
 }
@@ -5973,14 +6135,14 @@ footer small {
 .vocab-card-visual {
   display: grid;
   place-items: center;
-  min-height: 84px;
+  min-height: 50px;
   border-radius: var(--radius-md);
   background: var(--light);
 }
 
 .vocab-card-image {
   max-width: 100%;
-  max-height: 110px;
+  max-height: 76px;
   object-fit: contain;
   border-radius: var(--radius-sm);
 }
@@ -5991,17 +6153,17 @@ footer small {
 }
 
 .vocab-card-visual-icon {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .vocab-card-visual-initial {
-  width: 2.75rem;
-  height: 2.75rem;
+  width: 2.1rem;
+  height: 2.1rem;
   border-radius: 999px;
   background: var(--accent-soft);
   color: var(--blue);
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
 }
 
 /* Answer (example + phonetic + support text) - collapsed by default and
@@ -6103,14 +6265,14 @@ footer small {
   margin-top: auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: 0.3rem;
   align-items: center;
 }
 
 .vocab-card-actions button {
-  font-size: 0.74rem;
+  font-size: 0.68rem;
   font-weight: 600;
-  padding: 0.4rem 0.7rem;
+  padding: 0.32rem 0.55rem;
   border-radius: var(--radius-pill);
   border: 1px solid var(--line);
   background: var(--light);
@@ -6670,8 +6832,9 @@ footer small {
 
 .listening-progress-bar div {
   height: 100%;
-  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  background: var(--gradient-primary);
   border-radius: 999px;
+  transition: width var(--duration-slow) var(--ease-standard);
 }
 
 .listening-ai-complete-note {
