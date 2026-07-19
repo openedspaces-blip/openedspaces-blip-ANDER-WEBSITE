@@ -52,6 +52,8 @@ const menuToggle = document.querySelector('.menu-toggle');
 const siteMenu = document.getElementById('siteMenu');
 const userChip = document.querySelector('.user-chip');
 const logoutButton = document.querySelector('.logout-btn');
+const footerYearEl = document.getElementById('footerYear');
+if (footerYearEl) footerYearEl.textContent = String(new Date().getFullYear());
 const backendBaseUrl =
   typeof window !== 'undefined' && window.location.protocol === 'file:'
     ? 'http://127.0.0.1:3000'
@@ -5641,6 +5643,14 @@ function isStaffEntitled() {
 function renderGrammarView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
+  // Scored Grammar test pilot (course_lessons.extra.grammarTest, see
+  // lib/grammarTestSanitizer.js) - only a couple of lessons have this so
+  // far; every other Grammar lesson falls through to the flat
+  // inline-feedback view below, unchanged.
+  if (lesson.extra?.grammarTest?.questions?.length) {
+    renderGrammarTestView(content, lesson);
+    return;
+  }
   const example = lesson.dialogue?.[0] || lesson.vocabulary?.[0] || null;
   const exercisesHtml = (lesson.exercises || [])
     .filter((item) => item.type === 'mcq')
@@ -5687,6 +5697,261 @@ function renderGrammarView(section, lesson) {
     <div class="skill-view-tutor-cta no-print">
       <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Explícame por qué se usa esta estructura: ${escapeHtml(lesson.grammar || '')}" data-support-mode="explain">Explícame esta estructura</button>
       <button type="button" class="secondary-btn skill-print-btn">${staff ? 'Descargar clave de respuestas' : 'Descargar actividad en PDF'}</button>
+    </div>
+  `;
+}
+
+// ---------------------------------------------------------------------
+// Scored Grammar test (course_lessons.extra.grammarTest - see
+// lib/grammarTestSanitizer.js). State is purely local (which question
+// we're on, what's been typed/picked so far) until the student submits -
+// the server re-grades everything from the real answer key
+// (lib/courseLessonsService.js#gradeGrammarTest), this never trusts its
+// own scoring or shows a result the server didn't compute.
+const grammarTestState = new Map();
+
+function getGrammarTestRuntime(lesson) {
+  let runtime = grammarTestState.get(lesson.slug);
+  if (!runtime) {
+    runtime = { phase: 'instructions', currentIndex: 0, answers: {}, lastResult: null };
+    grammarTestState.set(lesson.slug, runtime);
+  }
+  return runtime;
+}
+
+// 90-100/80-89/70-79/60-69/<60 per the spec - "Necesitas practicar", never
+// "reprobado", for a platform used by kids as young as ~9.
+function gradeBandForScore(score) {
+  if (score >= 90) return { label: 'Excelente', emoji: '🌟' };
+  if (score >= 80) return { label: 'Muy bien', emoji: '👍' };
+  if (score >= 70) return { label: 'Bien', emoji: '🙂' };
+  if (score >= 60) return { label: 'En progreso', emoji: '💪' };
+  return { label: 'Necesitas practicar', emoji: '📚' };
+}
+
+function isGrammarTestQuestionAnswered(runtime, question) {
+  const value = runtime.answers[question.id];
+  if (value === undefined || value === null) return false;
+  if (Array.isArray(value)) return value.length > 0 && value.length === (question.items || []).length;
+  return String(value).trim().length > 0;
+}
+
+function renderGrammarTestView(content, lesson) {
+  const test = lesson.extra.grammarTest;
+  const runtime = getGrammarTestRuntime(lesson);
+  if (runtime.phase === 'question') {
+    content.innerHTML = renderGrammarTestQuestionHtml(lesson, test, runtime);
+  } else if (runtime.phase === 'review') {
+    content.innerHTML = renderGrammarTestReviewHtml(lesson, test, runtime);
+  } else if (runtime.phase === 'results') {
+    content.innerHTML = renderGrammarTestResultsHtml(lesson, test, runtime);
+  } else {
+    content.innerHTML = renderGrammarTestInstructionsHtml(lesson, test, runtime);
+  }
+}
+
+function renderGrammarTestInstructionsHtml(lesson, test) {
+  const total = test.questions.length;
+  return `
+    <div class="grammar-test-card card-enter">
+      <h3>${escapeHtml(lesson.title)}</h3>
+      <p class="grammar-test-instructions-text">${escapeHtml(lesson.description || 'Responde el test para poner a prueba lo que aprendiste en esta lección.')}</p>
+      <ul class="grammar-test-meta-list">
+        <li>📝 ${total} preguntas</li>
+        <li>🎯 Aprobación recomendada: ${test.passingScore || 70}/100</li>
+        ${lesson.bestScore != null ? `<li>🏆 Mejor puntuación: ${lesson.bestScore}/100</li>` : ''}
+      </ul>
+      <button type="button" class="primary-btn hover-lift btn-press grammar-test-start-btn">Comenzar prueba</button>
+    </div>
+  `;
+}
+
+function renderGrammarTestQuestionHtml(lesson, test, runtime) {
+  const total = test.questions.length;
+  const index = Math.min(runtime.currentIndex, total - 1);
+  const question = test.questions[index];
+  const pct = Math.round(((index + 1) / total) * 100);
+  const isLast = index === total - 1;
+
+  return `
+    <div class="grammar-test-card card-enter">
+      <div class="grammar-test-progress-row">
+        <span class="grammar-test-counter">Pregunta ${index + 1} de ${total}</span>
+        <div class="grammar-test-progress-bar"><div class="progress-fill-animated" style="width:${pct}%"></div></div>
+      </div>
+      <p class="grammar-test-question-prompt">${escapeHtml(question.prompt)}</p>
+      ${renderGrammarTestQuestionBodyHtml(question, runtime)}
+      <div class="grammar-test-nav-row">
+        <button type="button" class="secondary-btn hover-lift btn-press grammar-test-prev-btn" ${index === 0 ? 'disabled' : ''}>Anterior</button>
+        <button type="button" class="primary-btn hover-lift btn-press grammar-test-next-btn">${isLast ? 'Revisar' : 'Siguiente'}</button>
+      </div>
+    </div>
+  `;
+}
+
+function renderGrammarTestQuestionBodyHtml(question, runtime) {
+  const saved = runtime.answers[question.id];
+
+  if (question.type === 'mcq') {
+    const optionsHtml = (question.options || [])
+      .map((opt) => {
+        const isSelected = saved != null && String(saved) === String(opt.id);
+        return `<button type="button" class="grammar-test-option${isSelected ? ' is-selected' : ''}" data-option-id="${escapeHtml(opt.id)}">${escapeHtml(opt.text)}</button>`;
+      })
+      .join('');
+    return `<div class="grammar-test-options">${optionsHtml}</div>`;
+  }
+
+  if (question.type === 'fill_blank') {
+    return `
+      <div class="grammar-test-fill-wrap">
+        <input type="text" class="grammar-test-fill-input" value="${escapeHtml(saved || '')}" autocomplete="off" placeholder="Escribe tu respuesta" />
+      </div>
+    `;
+  }
+
+  if (question.type === 'ordering') {
+    const savedOrder = Array.isArray(saved) ? saved : [];
+    const itemCount = (question.items || []).length;
+    const itemsHtml = (question.items || [])
+      .map((item) => {
+        const savedPosition = savedOrder.indexOf(item.id) + 1; // 0 if not picked yet
+        const positionOptionsHtml = Array.from({ length: itemCount }, (_, i) => i + 1)
+          .map(
+            (position) =>
+              `<option value="${position}" ${position === savedPosition ? 'selected' : ''}>${position}</option>`
+          )
+          .join('');
+        return `
+          <li class="grammar-test-order-item">
+            <select class="grammar-test-order-select" data-item-id="${escapeHtml(item.id)}" aria-label="Posición de ${escapeHtml(item.text)}">
+              <option value="" ${savedPosition === 0 ? 'selected' : ''}>#</option>
+              ${positionOptionsHtml}
+            </select>
+            <span>${escapeHtml(item.text)}</span>
+          </li>
+        `;
+      })
+      .join('');
+    return `<ol class="grammar-test-order-list">${itemsHtml}</ol>`;
+  }
+
+  return '';
+}
+
+// Reads whatever is currently on screen for the active question straight
+// out of the DOM and stores it into runtime.answers - called right before
+// every navigation (prev/next/review), so nothing is lost moving between
+// questions without needing a live input/change listener on every field.
+function collectGrammarTestAnswer(content, test, runtime) {
+  const question = test.questions[runtime.currentIndex];
+  if (!question) return;
+
+  if (question.type === 'mcq') {
+    const selected = content.querySelector('.grammar-test-option.is-selected');
+    if (selected) {
+      runtime.answers[question.id] = selected.dataset.optionId;
+    } else {
+      delete runtime.answers[question.id];
+    }
+    return;
+  }
+
+  if (question.type === 'fill_blank') {
+    const value = content.querySelector('.grammar-test-fill-input')?.value.trim() || '';
+    if (value) runtime.answers[question.id] = value;
+    else delete runtime.answers[question.id];
+    return;
+  }
+
+  if (question.type === 'ordering') {
+    const picks = [...content.querySelectorAll('.grammar-test-order-select')].map((select) => ({
+      itemId: select.dataset.itemId,
+      position: Number(select.value)
+    }));
+    const complete = picks.length > 0 && picks.every((p) => p.position);
+    const positions = picks.map((p) => p.position);
+    const noDuplicates = new Set(positions).size === positions.length;
+    if (complete && noDuplicates) {
+      runtime.answers[question.id] = picks
+        .slice()
+        .sort((a, b) => a.position - b.position)
+        .map((p) => p.itemId);
+    } else {
+      delete runtime.answers[question.id];
+    }
+  }
+}
+
+function renderGrammarTestReviewHtml(lesson, test, runtime) {
+  const itemsHtml = test.questions
+    .map((question, index) => {
+      const answered = isGrammarTestQuestionAnswered(runtime, question);
+      return `
+        <li class="grammar-test-review-item${answered ? ' is-answered' : ' is-unanswered'}">
+          <span class="grammar-test-review-status" aria-hidden="true">${answered ? '✅' : '⚠️'}</span>
+          <span class="grammar-test-review-prompt">${index + 1}. ${escapeHtml(question.prompt)}</span>
+          <button type="button" class="secondary-btn grammar-test-review-edit-btn" data-question-index="${index}">${answered ? 'Editar' : 'Responder'}</button>
+        </li>
+      `;
+    })
+    .join('');
+  const allAnswered = test.questions.every((question) => isGrammarTestQuestionAnswered(runtime, question));
+
+  return `
+    <div class="grammar-test-card card-enter">
+      <h3>Revisa tus respuestas</h3>
+      <p class="grammar-test-instructions-text">Puedes editar cualquier pregunta antes de enviar la prueba.</p>
+      <ul class="grammar-test-review-list">${itemsHtml}</ul>
+      ${!allAnswered ? '<p class="grammar-test-review-warning">Responde todas las preguntas para poder enviar la prueba.</p>' : ''}
+      <div class="grammar-test-nav-row">
+        <button type="button" class="secondary-btn hover-lift btn-press grammar-test-review-edit-btn" data-question-index="${test.questions.length - 1}">Volver a la última pregunta</button>
+        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" ${!allAnswered ? 'disabled' : ''}>Enviar prueba</button>
+      </div>
+    </div>
+  `;
+}
+
+function renderGrammarTestResultsHtml(lesson, test, runtime) {
+  const result = runtime.lastResult;
+  if (!result) {
+    runtime.phase = 'instructions';
+    return renderGrammarTestInstructionsHtml(lesson, test);
+  }
+
+  const band = gradeBandForScore(result.score);
+  const resultsByQuestionId = new Map((result.results || []).map((r) => [String(r.questionId), r]));
+  const correctCount = (result.results || []).filter((r) => r.correct).length;
+
+  const breakdownHtml = test.questions
+    .map((question, index) => {
+      const r = resultsByQuestionId.get(String(question.id));
+      const correct = Boolean(r?.correct);
+      return `
+        <li class="grammar-test-breakdown-item${correct ? ' is-correct' : ' is-incorrect'}">
+          <span class="grammar-test-breakdown-icon" aria-hidden="true">${correct ? '✅' : '❌'}</span>
+          <div>
+            <p class="grammar-test-breakdown-prompt">${index + 1}. ${escapeHtml(question.prompt)}</p>
+            ${r?.explanation ? `<p class="grammar-test-breakdown-explanation">${escapeHtml(r.explanation)}</p>` : ''}
+          </div>
+        </li>
+      `;
+    })
+    .join('');
+
+  return `
+    <div class="grammar-test-card card-enter">
+      <div class="grammar-test-score-band">
+        <span class="grammar-test-score-emoji" aria-hidden="true">${band.emoji}</span>
+        <strong class="grammar-test-score-number">${result.score}/100</strong>
+        <span class="grammar-test-score-label">${band.label}</span>
+      </div>
+      <p class="grammar-test-score-detail">Respuestas correctas: ${correctCount} de ${test.questions.length}</p>
+      <p class="grammar-test-score-detail">
+        ${result.bestScore != null ? `Mejor puntuación: ${result.bestScore}/100 · ` : ''}Intento n.º ${result.attemptNumber ?? ''} · ${new Date().toLocaleDateString('es-DO')}
+      </p>
+      <ul class="grammar-test-breakdown-list">${breakdownHtml}</ul>
+      <button type="button" class="primary-btn hover-lift btn-press grammar-test-retry-btn">Intentar de nuevo</button>
     </div>
   `;
 }
@@ -5828,42 +6093,46 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, slowRate }) {
   return `
     <div class="vocab-card" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-mastery="${escapeHtml(item.masteryStatus)}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}">
       <div class="vocab-card-header">
-        ${item.category ? `<span class="vocab-card-tag">${escapeHtml(item.category)}</span>` : '<span class="vocab-card-tag vocab-card-tag-spacer" aria-hidden="true"></span>'}
+        <div class="vocab-card-header-tags">
+          ${item.category ? `<span class="vocab-card-tag">${escapeHtml(item.category)}</span>` : ''}
+          <span class="vocab-card-status" aria-live="polite">
+            <span class="vocab-status-dot" aria-hidden="true">${meta.glyph}</span>
+            <span class="vocab-status-label">${meta.label}</span>
+          </span>
+        </div>
         ${
           canSpeak
             ? `<button type="button" class="vocab-card-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
             : ''
         }
       </div>
+      <div class="vocab-card-visual">${visualHtml}</div>
       <div class="vocab-card-word-block">
         <p class="vocab-card-target">${escapeHtml(item.targetWord)}</p>
         ${item.translation ? `<p class="vocab-card-translation">${escapeHtml(item.translation)}</p>` : ''}
       </div>
-      <div class="vocab-card-visual">${visualHtml}</div>
       <div class="vocab-card-answer" aria-hidden="true">
         ${item.example ? `<p class="vocab-card-example">${escapeHtml(item.example)} ${exampleAudioBtn}</p>` : ''}
         ${item.phonetic ? `<p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>` : ''}
         ${item.supportText ? `<p class="vocab-card-support">${escapeHtml(item.supportText)}</p>` : ''}
       </div>
-      <div class="vocab-card-status" aria-live="polite">
-        <span class="vocab-status-dot" aria-hidden="true">${meta.glyph}</span>
-        <span class="vocab-status-label">${meta.label}</span>
-      </div>
       <div class="vocab-card-actions">
         <button type="button" class="vocab-flip-btn">Mostrar respuesta</button>
-        <button type="button" class="vocab-know-btn">Ya la sé</button>
-        <button type="button" class="vocab-retry-btn">Necesito practicar</button>
-        <details class="vocab-card-menu">
-          <summary aria-label="${isFrench ? 'Plus d’options' : 'Más opciones'}">⋯</summary>
-          <div class="vocab-card-menu-panel">
-            <button type="button" class="vocab-example-btn open-tutor-btn" data-tutor-prompt="Dame otro ejemplo de una frase con la palabra '${escapeHtml(item.targetWord)}'." data-support-mode="example">Pedir ejemplo</button>
-            ${
-              canSpeak
-                ? `<button type="button" class="vocab-speak-slow-btn" data-speak-rate-override="${slowRate}">🐢 ${isFrench ? 'Écouter lentement' : 'Escuchar lentamente'}</button>`
-                : ''
-            }
-          </div>
-        </details>
+        <div class="vocab-card-actions-row">
+          <button type="button" class="vocab-know-btn" aria-label="${isFrench ? 'Je la connais déjà' : 'Ya sé esta palabra'}" title="${isFrench ? 'Je la connais déjà' : 'Ya sé esta palabra'}">✓ Ya la sé</button>
+          <button type="button" class="vocab-retry-btn" aria-label="${isFrench ? 'À continuer à pratiquer' : 'Marcar para seguir practicando'}" title="${isFrench ? 'À continuer à pratiquer' : 'Marcar para seguir practicando'}">↻ Practicar</button>
+          <details class="vocab-card-menu">
+            <summary aria-label="${isFrench ? 'Plus d’options' : 'Más opciones'}">⋯</summary>
+            <div class="vocab-card-menu-panel">
+              <button type="button" class="vocab-example-btn open-tutor-btn" data-tutor-prompt="Dame otro ejemplo de una frase con la palabra '${escapeHtml(item.targetWord)}'." data-support-mode="example">Pedir ejemplo</button>
+              ${
+                canSpeak
+                  ? `<button type="button" class="vocab-speak-slow-btn" data-speak-rate-override="${slowRate}">🐢 ${isFrench ? 'Écouter lentement' : 'Escuchar lentamente'}</button>`
+                  : ''
+              }
+            </div>
+          </details>
+        </div>
       </div>
     </div>
   `;
@@ -5966,7 +6235,7 @@ function wireVocabCardImageFallbacks(container) {
 // Reveal/hide the answer (translation is already visible up front - see
 // renderVocabCardHtml - so "revealed" here means example + phonetic +
 // support text). Marks a never-touched card "learning" the first time it's
-// revealed; "Ya la sé"/"Necesito practicar" always set an explicit status.
+// revealed; "Ya la sé"/"Practicar" always set an explicit status.
 function toggleVocabCardReveal(card, triggerBtn) {
   if (!card) return;
   const willReveal = !card.classList.contains('is-revealed');
@@ -8014,6 +8283,145 @@ function enableHomepageActions() {
         renderSkillView(currentView);
       } else {
         renderLessonWorkspace();
+      }
+      return;
+    }
+
+    // Scored Grammar test (see renderGrammarTestView and friends above).
+    // Every handler below resolves the active lesson the same way the
+    // Listening "regenerate" handler above does: via the enclosing
+    // .skill-view-section's data-active-lesson-slug, not a slug stashed on
+    // the clicked element itself.
+    function getGrammarTestContext(target) {
+      const skillSection = target.closest('.skill-view-section');
+      const lesson = learningPathState.lessons.find(
+        (item) => item.slug === skillSection?.dataset.activeLessonSlug
+      );
+      const content = skillSection?.querySelector('.skill-view-content');
+      if (!lesson?.extra?.grammarTest?.questions?.length || !content) return null;
+      return { lesson, content, test: lesson.extra.grammarTest, runtime: getGrammarTestRuntime(lesson) };
+    }
+
+    const grammarTestStartBtn = event.target.closest('.grammar-test-start-btn');
+    if (grammarTestStartBtn) {
+      const ctx = getGrammarTestContext(grammarTestStartBtn);
+      if (!ctx) return;
+      ctx.runtime.phase = 'question';
+      ctx.runtime.currentIndex = 0;
+      renderGrammarTestView(ctx.content, ctx.lesson);
+      return;
+    }
+
+    const grammarTestOption = event.target.closest('.grammar-test-option');
+    if (grammarTestOption) {
+      const optionsWrap = grammarTestOption.closest('.grammar-test-options');
+      optionsWrap
+        ?.querySelectorAll('.grammar-test-option')
+        .forEach((btn) => btn.classList.remove('is-selected'));
+      grammarTestOption.classList.add('is-selected');
+      return;
+    }
+
+    const grammarTestPrevBtn = event.target.closest('.grammar-test-prev-btn');
+    if (grammarTestPrevBtn) {
+      const ctx = getGrammarTestContext(grammarTestPrevBtn);
+      if (!ctx) return;
+      collectGrammarTestAnswer(ctx.content, ctx.test, ctx.runtime);
+      ctx.runtime.currentIndex = Math.max(0, ctx.runtime.currentIndex - 1);
+      renderGrammarTestView(ctx.content, ctx.lesson);
+      return;
+    }
+
+    const grammarTestNextBtn = event.target.closest('.grammar-test-next-btn');
+    if (grammarTestNextBtn) {
+      const ctx = getGrammarTestContext(grammarTestNextBtn);
+      if (!ctx) return;
+      collectGrammarTestAnswer(ctx.content, ctx.test, ctx.runtime);
+      if (ctx.runtime.currentIndex >= ctx.test.questions.length - 1) {
+        ctx.runtime.phase = 'review';
+      } else {
+        ctx.runtime.currentIndex += 1;
+      }
+      renderGrammarTestView(ctx.content, ctx.lesson);
+      return;
+    }
+
+    const grammarTestReviewEditBtn = event.target.closest('.grammar-test-review-edit-btn');
+    if (grammarTestReviewEditBtn) {
+      const ctx = getGrammarTestContext(grammarTestReviewEditBtn);
+      if (!ctx) return;
+      ctx.runtime.currentIndex = Number(grammarTestReviewEditBtn.dataset.questionIndex) || 0;
+      ctx.runtime.phase = 'question';
+      renderGrammarTestView(ctx.content, ctx.lesson);
+      return;
+    }
+
+    const grammarTestRetryBtn = event.target.closest('.grammar-test-retry-btn');
+    if (grammarTestRetryBtn) {
+      const ctx = getGrammarTestContext(grammarTestRetryBtn);
+      if (!ctx) return;
+      grammarTestState.set(ctx.lesson.slug, {
+        phase: 'question',
+        currentIndex: 0,
+        answers: {},
+        lastResult: null
+      });
+      renderGrammarTestView(ctx.content, ctx.lesson);
+      return;
+    }
+
+    const grammarTestSubmitBtn = event.target.closest('.grammar-test-submit-btn');
+    if (grammarTestSubmitBtn) {
+      const ctx = getGrammarTestContext(grammarTestSubmitBtn);
+      if (!ctx || grammarTestSubmitBtn.disabled) return;
+
+      if (!authStatus.session?.access_token) {
+        setAuthMessage('Crea tu cuenta gratis para guardar el resultado de tu prueba.');
+        openModal('signup');
+        return;
+      }
+
+      const { lesson, content, test, runtime } = ctx;
+      grammarTestSubmitBtn.disabled = true;
+      grammarTestSubmitBtn.textContent = 'Enviando...';
+
+      try {
+        const answers = test.questions.map((q) => ({ questionId: q.id, answer: runtime.answers[q.id] }));
+        const response = await fetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/complete`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', ...authHeaders() },
+          body: JSON.stringify({ answers })
+        });
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(data.error || 'No se pudo enviar la prueba.');
+
+        lesson.completed = true;
+        if (data.bestScore != null) lesson.bestScore = data.bestScore;
+        updateProgressDisplay(data, true);
+        renderSkillCards();
+        window.AndergoGamification?.recordLessonCompletion({
+          slug: lesson.slug,
+          language: learningPathState.language,
+          score: data.score ?? 100,
+          xpReward: lesson.xpReward || 20
+        });
+        window.AndergoGamification?.syncFromServer(data);
+        if (data.newBadges?.length) {
+          data.newBadges.forEach((badge) =>
+            showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`)
+          );
+        }
+        if (data.leveledUp) showCelebration(`🎉 ¡Subiste a nivel ${data.level}!`);
+        showHomeToast(`Prueba completada. +${data.earnedXp || lesson.xpReward || 20} XP`);
+        celebrateActivityCompletion();
+
+        runtime.lastResult = data;
+        runtime.phase = 'results';
+        renderGrammarTestView(content, lesson);
+      } catch (error) {
+        grammarTestSubmitBtn.disabled = false;
+        grammarTestSubmitBtn.textContent = 'Enviar prueba';
+        showHomeToast(error.message || 'No se pudo enviar la prueba.');
       }
       return;
     }
