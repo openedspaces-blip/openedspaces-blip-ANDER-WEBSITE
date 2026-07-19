@@ -1866,43 +1866,6 @@ a:focus-visible {
   box-shadow: 0 10px 20px rgba(37, 99, 235, 0.22);
 }
 
-.vocab-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-  margin-top: 16px;
-}
-
-.vocab-grid div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  background: var(--light);
-  border: 1px solid rgba(96, 165, 250, 0.14);
-  border-radius: var(--radius-md);
-  padding: 14px 16px;
-  transition:
-    transform 0.2s ease,
-    border-color 0.2s ease;
-}
-
-.vocab-grid div:hover {
-  transform: translateY(-1px);
-  border-color: rgba(37, 99, 235, 0.3);
-}
-
-.vocab-grid strong {
-  color: var(--navy-2);
-  font-weight: 800;
-}
-
-.vocab-grid span {
-  color: var(--blue);
-  font-weight: 700;
-  font-size: 0.92rem;
-}
-
 .grammar-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -5863,116 +5826,382 @@ footer small {
   margin-bottom: 0.25rem;
 }
 
-/* Vocabulary */
+/* Vocabulary flashcards - one shared card component (see
+   renderVocabCardHtml() in src/js/script.js) reused for every language,
+   level and unit, the shuffled review order, and the mini vocabulary quiz
+   below the deck. Never fork this markup/CSS per language. */
 .vocab-card-deck {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.25rem;
+  align-items: stretch;
 }
 
-.vocab-flip-card {
-  perspective: 1000px;
+@media (max-width: 900px) {
+  .vocab-card-deck {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .vocab-card-deck {
+    grid-template-columns: 1fr;
+  }
+}
+
+.vocab-card {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-}
-
-.vocab-flip-card-inner {
-  position: relative;
-  min-height: 130px;
-  transition: transform 0.5s;
-  transform-style: preserve-3d;
+  gap: 0.65rem;
+  height: 100%;
+  padding: 1.25rem;
+  background: var(--white);
   border: 1px solid var(--line);
-  border-radius: 16px;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-xs);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
 }
 
-.vocab-flip-card.is-flipped .vocab-flip-card-inner {
-  transform: rotateY(180deg);
+.vocab-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
 }
 
-.vocab-flip-card.is-known {
-  opacity: 0.5;
+.vocab-card:focus-within {
+  border-color: var(--blue);
 }
 
-.vocab-flip-front,
-.vocab-flip-back {
-  position: absolute;
-  inset: 0;
-  backface-visibility: hidden;
+/* Mastery status tints the border - always paired with the text/icon status
+   chip below (.vocab-card-status) so nothing depends on color alone. */
+.vocab-card[data-mastery='practicing'] {
+  border-color: rgba(217, 119, 6, 0.35);
+}
+
+.vocab-card[data-mastery='mastered'] {
+  border-color: rgba(34, 197, 94, 0.4);
+}
+
+.vocab-card-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.4rem;
-  padding: 1rem;
-  text-align: center;
-  border-radius: 16px;
-  background: var(--surface);
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 1.9rem;
 }
 
-.vocab-flip-back {
-  transform: rotateY(180deg);
+.vocab-card-tag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--blue);
+  background: var(--accent-soft);
+  border-radius: var(--radius-pill);
+  padding: 0.2rem 0.55rem;
 }
 
-.vocab-flip-back p {
-  font-size: 0.8rem;
+.vocab-card-tag-spacer {
+  background: transparent;
+  padding: 0;
+}
+
+.vocab-card-audio-btn {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--light);
+  box-shadow: var(--shadow-xs);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  transition:
+    border-color 150ms ease,
+    background 150ms ease;
+}
+
+.vocab-card-audio-btn:hover {
+  border-color: var(--blue);
+  background: var(--accent-soft);
+}
+
+.vocab-card-audio-btn:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.vocab-card-audio-btn.is-playing {
+  border-color: var(--blue);
+  background: var(--accent-soft);
+  animation: vocab-audio-pulse 900ms ease-in-out infinite;
+}
+
+@keyframes vocab-audio-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+.vocab-card-word-block {
+  text-align: left;
+}
+
+.vocab-card-target {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--navy-2);
+  line-height: 1.25;
+}
+
+.vocab-card-translation {
+  margin: 0.15rem 0 0;
+  font-size: 0.85rem;
+  font-weight: 500;
   color: var(--muted);
 }
 
+.vocab-card-visual {
+  display: grid;
+  place-items: center;
+  min-height: 84px;
+  border-radius: var(--radius-md);
+  background: var(--light);
+}
+
+.vocab-card-image {
+  max-width: 100%;
+  max-height: 110px;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+}
+
+.vocab-card-visual-fallback {
+  display: grid;
+  place-items: center;
+}
+
+.vocab-card-visual-icon {
+  font-size: 2rem;
+}
+
+.vocab-card-visual-initial {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--blue);
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+/* Answer (example + phonetic + support text) - collapsed by default and
+   revealed with a soft height/opacity transition, never a 3D flip, so it
+   stays cheap and predictable for screen readers and low-power devices. */
+.vocab-card-answer {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows 220ms ease,
+    opacity 200ms ease;
+}
+
+.vocab-card-answer > * {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.vocab-card.is-revealed .vocab-card-answer {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.vocab-card-answer p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: left;
+}
+
+.vocab-card-example {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.vocab-card-phonetic {
+  font-style: italic;
+  opacity: 0.85;
+}
+
+.vocab-card-support {
+  font-size: 0.78rem;
+}
+
+.vocab-example-audio-btn {
+  flex-shrink: 0;
+  width: 1.6rem;
+  height: 1.6rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  cursor: pointer;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+.vocab-example-audio-btn:hover {
+  border-color: var(--blue);
+}
+
+.vocab-example-audio-btn:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.vocab-example-audio-btn.is-playing {
+  border-color: var(--blue);
+  background: var(--accent-soft);
+}
+
+.vocab-card-status {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.vocab-status-dot {
+  font-size: 0.6rem;
+}
+
+.vocab-card[data-mastery='practicing'] .vocab-status-dot,
+.vocab-card[data-mastery='practicing'] .vocab-status-label {
+  color: #b45309;
+}
+
+.vocab-card[data-mastery='mastered'] .vocab-status-dot,
+.vocab-card[data-mastery='mastered'] .vocab-status-label {
+  color: #15803d;
+}
+
 .vocab-card-actions {
+  margin-top: auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.3rem;
-  justify-content: center;
+  gap: 0.4rem;
+  align-items: center;
 }
 
 .vocab-card-actions button {
-  font-size: 0.72rem;
-  padding: 0.35rem 0.6rem;
-  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  border-radius: var(--radius-pill);
   border: 1px solid var(--line);
-  background: var(--bg);
+  background: var(--light);
   cursor: pointer;
+  transition:
+    border-color 150ms ease,
+    background 150ms ease;
 }
 
-/* Pronunciation: a small speaker button pinned to the card's front face,
-   plus the example sentence (back face) doubling as a tappable "listen"
-   target. Both just call speakText() - see src/js/script.js. */
-.vocab-speak-btn {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
+.vocab-card-actions button:hover {
+  border-color: var(--blue);
+}
+
+.vocab-card-actions button:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.vocab-know-btn {
+  color: #15803d;
+}
+
+.vocab-retry-btn {
+  color: #b45309;
+}
+
+/* Secondary actions ("Pedir ejemplo", "Escuchar lentamente") tucked behind a
+   native <details>/<summary> menu so the card only surfaces its three
+   primary actions at once. */
+.vocab-card-menu {
+  position: relative;
+  margin-left: auto;
+}
+
+.vocab-card-menu summary {
+  list-style: none;
   width: 1.9rem;
   height: 1.9rem;
   display: grid;
   place-items: center;
   border-radius: 999px;
   border: 1px solid var(--line);
-  background: var(--surface);
-  box-shadow: var(--shadow-xs);
+  background: var(--light);
   cursor: pointer;
-  font-size: 0.95rem;
-  line-height: 1;
+  font-weight: 700;
+  color: var(--muted);
 }
 
-.vocab-speak-btn:hover {
+.vocab-card-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.vocab-card-menu summary:hover {
   border-color: var(--blue);
+  color: var(--blue);
 }
 
-.vocab-speak-btn:focus-visible {
+.vocab-card-menu summary:focus-visible {
   outline: 3px solid var(--blue);
   outline-offset: 2px;
 }
 
-.vocab-example-speak {
-  cursor: pointer;
-  border-radius: 10px;
-  padding: 0.2rem 0.4rem;
-  transition: background 150ms ease;
+.vocab-card-menu-panel {
+  position: absolute;
+  z-index: 5;
+  bottom: calc(100% + 0.4rem);
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 180px;
+  padding: 0.5rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
 }
 
-.vocab-example-speak:hover,
-.vocab-example-speak:focus-visible {
+.vocab-card-menu-panel button {
+  width: 100%;
+  text-align: left;
+  font-size: 0.78rem;
+  padding: 0.4rem 0.5rem;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.vocab-card-menu-panel button:hover,
+.vocab-card-menu-panel button:focus-visible {
   background: var(--accent-soft);
   outline: none;
 }

@@ -5690,11 +5690,184 @@ function renderGrammarView(section, lesson) {
   `;
 }
 
-// Flashcards accept term/translation/example plus optional per-card
-// pronunciationText/pronunciationLocale/pronunciationRate overrides (falling
-// back to the word itself / the current target language's locale / the
-// level-based default rate) - see speakText()/getPronunciationLocale()/
-// getDefaultPronunciationRate() above.
+// ---------------------------------------------------------------------
+// Shared vocabulary flashcard component. One normalizer + one render
+// function produce every vocab card in the app (English/French/Spanish,
+// every level/unit, the shuffled "review" order, and any future reuse) -
+// see renderVocabularyView() below. Never fork this per language.
+//
+// normalizeVocabularyItem() maps whatever shape a lesson's raw vocabulary
+// entry happens to have (word vs targetWord, category only on some Spanish
+// items, partOfSpeech/definition only on some English items, the Spanish
+// course's translation direction being reversed vs. every other course)
+// onto one consistent card schema, so the renderer never has to branch on
+// language or content vintage. Existing raw fields are read, never removed,
+// so nothing upstream breaks.
+function normalizeVocabularyItem(item, { language, level, bridgeLanguage, index = 0, lessonSlug = '' } = {}) {
+  if (!item) return null;
+  const targetLanguage = language || learningPathState.language;
+  const resolvedBridge = bridgeLanguage || currentBridgeLanguage;
+  const targetWord = item.targetWord || item.word || '';
+  const id = item.id || `${lessonSlug}-${slugifyVocabWord(targetWord)}-${index}`;
+  return {
+    id,
+    targetWord,
+    translation: resolveVocabTranslation(item, resolvedBridge),
+    example: item.example || '',
+    phonetic: item.phonetic || item.pronunciationIpa || '',
+    image: item.image || item.imageUrl || '',
+    imageAlt: item.imageAlt || targetWord,
+    audioText: item.pronunciationText || targetWord,
+    supportText: item.supportText || item.definition || '',
+    category: item.category || item.partOfSpeech || '',
+    masteryStatus: getStoredVocabMastery(id) || item.masteryStatus || 'new',
+    difficulty: item.difficulty || level || learningPathState.level || '',
+    language: targetLanguage,
+    bridgeLanguage: resolvedBridge,
+    targetLanguage,
+    pronunciationLocale: item.pronunciationLocale || getPronunciationLocale(targetLanguage),
+    pronunciationRate: item.pronunciationRate ?? getDefaultPronunciationRate(targetLanguage, level)
+  };
+}
+
+function slugifyVocabWord(word = '') {
+  return (
+    String(word)
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '') || 'word'
+  );
+}
+
+// Per-word mastery is purely a client-side study aid (no server-side vocab
+// progress model exists yet - see getExerciseProgress() for the real,
+// persisted lesson-completion progress). Stored the same way as the app's
+// other localStorage preferences (andergo_voice_*, andergo_rate_*).
+const VOCAB_MASTERY_STORAGE_KEY = 'andergo_vocab_mastery_v1';
+const VOCAB_MASTERY_META = {
+  new: { label: 'Nueva', glyph: '●' },
+  learning: { label: 'Aprendiendo', glyph: '◐' },
+  practicing: { label: 'En práctica', glyph: '◑' },
+  mastered: { label: 'Dominada', glyph: '✓' }
+};
+
+function readVocabMasteryStore() {
+  try {
+    return JSON.parse(localStorage.getItem(VOCAB_MASTERY_STORAGE_KEY) || '{}');
+  } catch {
+    return {};
+  }
+}
+
+function getStoredVocabMastery(id) {
+  return readVocabMasteryStore()[id] || null;
+}
+
+function setStoredVocabMastery(id, status) {
+  const store = readVocabMasteryStore();
+  store[id] = status;
+  try {
+    localStorage.setItem(VOCAB_MASTERY_STORAGE_KEY, JSON.stringify(store));
+  } catch {
+    // Storage unavailable (private browsing / quota) - mastery just won't
+    // survive a reload; never block the UI on it.
+  }
+}
+
+// Pedagogical fallback when a card has no image (true for 100% of current
+// content) or the image fails to load: a category-appropriate emoji, else
+// the word's initial in a circle - never a broken-image icon.
+const VOCAB_CATEGORY_GLYPHS = {
+  saludo: '👋', greeting: '👋', salutation: '👋',
+  despedida: '🚶', farewell: '🚶', adieu: '🚶',
+  presentación: '🙋', introduction: '🙋', présentation: '🙋',
+  verb: '🏃', verbo: '🏃', verbe: '🏃',
+  noun: '🏷️', sustantivo: '🏷️', nom: '🏷️',
+  adjective: '🎨', adjetivo: '🎨', adjectif: '🎨',
+  food: '🍽️', comida: '🍽️', nourriture: '🍽️',
+  family: '👪', familia: '👪', famille: '👪',
+  number: '🔢', número: '🔢', nombre: '🔢',
+  color: '🎨', colour: '🎨', couleur: '🎨',
+  time: '🕒', tiempo: '🕒', temps: '🕒',
+  travel: '✈️', viaje: '✈️', voyage: '✈️',
+  weather: '☀️', clima: '☀️', météo: '☀️',
+  animal: '🐾', animales: '🐾', animaux: '🐾',
+  clothing: '👕', ropa: '👕', vêtements: '👕',
+  home: '🏠', casa: '🏠', maison: '🏠',
+  work: '💼', trabajo: '💼', travail: '💼',
+  school: '🎒', escuela: '🎒', école: '🎒',
+  body: '🧍', cuerpo: '🧍', corps: '🧍',
+  health: '❤️', salud: '❤️', santé: '❤️',
+  emotion: '😊', emoción: '😊', émotion: '😊'
+};
+
+function getVocabFallbackVisual(item) {
+  const key = (item.category || '').toLowerCase().trim();
+  if (key && VOCAB_CATEGORY_GLYPHS[key]) return { kind: 'icon', value: VOCAB_CATEGORY_GLYPHS[key] };
+  const initial = (item.targetWord || '?').trim().charAt(0).toUpperCase() || '?';
+  return { kind: 'initial', value: initial };
+}
+
+function renderVocabCardHtml(item, { canSpeak, isFrench, slowRate }) {
+  const meta = VOCAB_MASTERY_META[item.masteryStatus] || VOCAB_MASTERY_META.new;
+  const fallback = getVocabFallbackVisual(item);
+  const visualHtml = item.image
+    ? `<img class="vocab-card-image" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.imageAlt)}" loading="lazy" data-fallback-kind="${escapeHtml(fallback.kind)}" data-fallback-value="${escapeHtml(fallback.value)}">`
+    : `<div class="vocab-card-visual-fallback vocab-card-visual-${fallback.kind}" aria-hidden="true">${escapeHtml(fallback.value)}</div>`;
+  const speakAriaLabel = isFrench
+    ? `Écouter la prononciation de ${item.targetWord}`
+    : `Escuchar pronunciación de ${item.targetWord}`;
+  const exampleAudioBtn =
+    canSpeak && item.example
+      ? `<button type="button" class="vocab-example-audio-btn" tabindex="-1" data-speak-text="${escapeHtml(item.example)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${isFrench ? 'Écouter la phrase d’exemple' : 'Escuchar frase de ejemplo'}" title="${isFrench ? 'Écouter la phrase' : 'Escuchar frase'}">🔊</button>`
+      : '';
+
+  return `
+    <div class="vocab-card" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-mastery="${escapeHtml(item.masteryStatus)}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}">
+      <div class="vocab-card-header">
+        ${item.category ? `<span class="vocab-card-tag">${escapeHtml(item.category)}</span>` : '<span class="vocab-card-tag vocab-card-tag-spacer" aria-hidden="true"></span>'}
+        ${
+          canSpeak
+            ? `<button type="button" class="vocab-card-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
+            : ''
+        }
+      </div>
+      <div class="vocab-card-word-block">
+        <p class="vocab-card-target">${escapeHtml(item.targetWord)}</p>
+        ${item.translation ? `<p class="vocab-card-translation">${escapeHtml(item.translation)}</p>` : ''}
+      </div>
+      <div class="vocab-card-visual">${visualHtml}</div>
+      <div class="vocab-card-answer" aria-hidden="true">
+        ${item.example ? `<p class="vocab-card-example">${escapeHtml(item.example)} ${exampleAudioBtn}</p>` : ''}
+        ${item.phonetic ? `<p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>` : ''}
+        ${item.supportText ? `<p class="vocab-card-support">${escapeHtml(item.supportText)}</p>` : ''}
+      </div>
+      <div class="vocab-card-status" aria-live="polite">
+        <span class="vocab-status-dot" aria-hidden="true">${meta.glyph}</span>
+        <span class="vocab-status-label">${meta.label}</span>
+      </div>
+      <div class="vocab-card-actions">
+        <button type="button" class="vocab-flip-btn">Mostrar respuesta</button>
+        <button type="button" class="vocab-know-btn">Ya la sé</button>
+        <button type="button" class="vocab-retry-btn">Necesito practicar</button>
+        <details class="vocab-card-menu">
+          <summary aria-label="${isFrench ? 'Plus d’options' : 'Más opciones'}">⋯</summary>
+          <div class="vocab-card-menu-panel">
+            <button type="button" class="vocab-example-btn open-tutor-btn" data-tutor-prompt="Dame otro ejemplo de una frase con la palabra '${escapeHtml(item.targetWord)}'." data-support-mode="example">Pedir ejemplo</button>
+            ${
+              canSpeak
+                ? `<button type="button" class="vocab-speak-slow-btn" data-speak-rate-override="${slowRate}">🐢 ${isFrench ? 'Écouter lentement' : 'Escuchar lentamente'}</button>`
+                : ''
+            }
+          </div>
+        </details>
+      </div>
+    </div>
+  `;
+}
+
 // vocabCardOrder holds the current (possibly shuffled) display order for
 // the active lesson's flashcard deck - reset every time a new vocabulary
 // lesson is rendered, never persisted, purely a display convenience so
@@ -5704,23 +5877,26 @@ let vocabCardOrder = [];
 function renderVocabularyView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
-  const cards = lesson.vocabulary || [];
-  if (vocabCardOrder.length !== cards.length || vocabCardOrder.lessonSlug !== lesson.slug) {
-    vocabCardOrder = cards.map((_, index) => index);
+  const rawCards = lesson.vocabulary || [];
+  if (vocabCardOrder.length !== rawCards.length || vocabCardOrder.lessonSlug !== lesson.slug) {
+    vocabCardOrder = rawCards.map((_, index) => index);
     vocabCardOrder.lessonSlug = lesson.slug;
   }
+  const cards = rawCards.map((raw, index) =>
+    normalizeVocabularyItem(raw, {
+      language: learningPathState.language,
+      level: lesson.level,
+      lessonSlug: lesson.slug,
+      index
+    })
+  );
   const canSpeak = supportsSpeech();
-  const cardLocale = getPronunciationLocale(learningPathState.language);
   const cardRate = getDefaultPronunciationRate();
-  // Present Present Continuous... i.e. a second, slower rate for "escuchar
-  // lentamente" - same speakText()/data-speak-rate mechanism as the normal
-  // button, just a lower multiplier, never a separate audio system.
+  // Slower rate for "escuchar lentamente" - same speakText()/data-speak-rate
+  // mechanism as the normal button, just a lower multiplier, never a
+  // separate audio system.
   const slowRate = Math.max(0.5, cardRate - 0.25);
   const isFrench = learningPathState.language === 'french';
-  const speakAriaLabel = (word) =>
-    isFrench ? `Écouter la prononciation de ${word}` : `Escuchar pronunciación de ${word}`;
-  const speakSlowAriaLabel = (word) =>
-    isFrench ? `Écouter lentement la prononciation de ${word}` : `Escuchar lentamente la pronunciación de ${word}`;
   const staff = isStaffEntitled();
   const testExercisesHtml = (lesson.exercises || [])
     .filter((item) => item.type === 'mcq')
@@ -5735,43 +5911,11 @@ function renderVocabularyView(section, lesson) {
     </div>
     <div class="vocab-card-deck">
       ${vocabCardOrder
-        .map((cardIndex) => {
-          const item = cards[cardIndex];
-          const pronunciationText = item.pronunciationText || item.word;
-          const locale = item.pronunciationLocale || cardLocale;
-          const rate = item.pronunciationRate ?? cardRate;
-          return `
-        <div class="vocab-flip-card" data-index="${cardIndex}" data-speak-text="${escapeHtml(pronunciationText)}" data-speak-locale="${escapeHtml(locale)}" data-speak-rate="${rate}">
-          <div class="vocab-flip-card-inner">
-            <div class="vocab-flip-front">
-              <strong>${escapeHtml(item.word)}</strong>
-              ${item.partOfSpeech ? `<span class="vocab-part-of-speech">${escapeHtml(item.partOfSpeech)}</span>` : ''}
-              ${
-                canSpeak
-                  ? `<button type="button" class="vocab-speak-btn" aria-label="${escapeHtml(speakAriaLabel(item.word))}" title="${escapeHtml(speakTitle(isFrench))}">🔊</button>
-                     <button type="button" class="vocab-speak-slow-btn" data-speak-rate-override="${slowRate}" aria-label="${escapeHtml(speakSlowAriaLabel(item.word))}" title="${escapeHtml(isFrench ? 'Écouter lentement' : 'Escuchar lentamente')}">🐢</button>`
-                  : ''
-              }
-            </div>
-            <div class="vocab-flip-back">
-              <strong>${escapeHtml(item.translation)}</strong>
-              ${item.definition ? `<p class="vocab-definition">${escapeHtml(item.definition)}</p>` : ''}
-              <p class="${canSpeak && item.example ? 'vocab-example-speak' : ''}" ${canSpeak && item.example ? `data-speak-text="${escapeHtml(item.example)}" data-speak-locale="${escapeHtml(locale)}" data-speak-rate="${rate}" role="button" tabindex="0" aria-label="Escuchar oración de ejemplo" title="Escuchar oración de ejemplo"` : ''}>${escapeHtml(item.example || '')}${canSpeak && item.example ? ' 🔊' : ''}</p>
-            </div>
-          </div>
-          <div class="vocab-card-actions">
-            <button type="button" class="vocab-flip-btn">Mostrar respuesta</button>
-            <button type="button" class="vocab-know-btn">Ya la sé</button>
-            <button type="button" class="vocab-retry-btn">Necesito practicar</button>
-            <button type="button" class="vocab-example-btn open-tutor-btn" data-tutor-prompt="Dame otro ejemplo de una frase con la palabra '${escapeHtml(item.word)}'." data-support-mode="example">Pedir ejemplo</button>
-          </div>
-        </div>
-      `;
-        })
+        .map((cardIndex) => renderVocabCardHtml({ ...cards[cardIndex], _displayIndex: cardIndex }, { canSpeak, isFrench, slowRate }))
         .join('')}
     </div>
     <div class="skill-view-tutor-cta no-print">
-      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Ayúdame a practicar este vocabulario: ${escapeHtml(cards.map((c) => c.word).join(', '))}" data-support-mode="practice">Practicar estas palabras</button>
+      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Ayúdame a practicar este vocabulario: ${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-support-mode="practice">Practicar estas palabras</button>
     </div>
     <div class="vocab-test no-print">
       <h4>Prueba de vocabulario</h4>
@@ -5783,7 +5927,7 @@ function renderVocabularyView(section, lesson) {
       <div class="print-only">
         <h4>${staff ? 'Clave de respuestas' : 'Vocabulario y actividad para completar'}</h4>
         <ul class="skill-print-options">
-          ${cards.map((item) => `<li class="skill-print-option">${escapeHtml(item.word)} — ${escapeHtml(item.translation)}${item.example ? ` (${escapeHtml(item.example)})` : ''}</li>`).join('')}
+          ${cards.map((item) => `<li class="skill-print-option">${escapeHtml(item.targetWord)} — ${escapeHtml(item.translation)}${item.example ? ` (${escapeHtml(item.example)})` : ''}</li>`).join('')}
         </ul>
         ${printExercisesHtml}
         ${
@@ -5800,6 +5944,53 @@ function renderVocabularyView(section, lesson) {
       <button type="button" class="secondary-btn skill-print-btn">${staff ? 'Descargar clave de respuestas' : 'Descargar vocabulario en PDF'}</button>
     </div>
   `;
+  wireVocabCardImageFallbacks(content);
+}
+
+function wireVocabCardImageFallbacks(container) {
+  container.querySelectorAll('.vocab-card-image').forEach((img) => {
+    img.addEventListener(
+      'error',
+      () => {
+        const wrap = img.closest('.vocab-card-visual');
+        if (!wrap) return;
+        const kind = img.dataset.fallbackKind === 'icon' ? 'icon' : 'initial';
+        wrap.innerHTML = `<div class="vocab-card-visual-fallback vocab-card-visual-${kind}" aria-hidden="true">${escapeHtml(img.dataset.fallbackValue || '?')}</div>`;
+      },
+      { once: true }
+    );
+  });
+}
+
+// Reveal/hide the answer (translation is already visible up front - see
+// renderVocabCardHtml - so "revealed" here means example + phonetic +
+// support text). Marks a never-touched card "learning" the first time it's
+// revealed; "Ya la sé"/"Necesito practicar" always set an explicit status.
+function toggleVocabCardReveal(card, triggerBtn) {
+  if (!card) return;
+  const willReveal = !card.classList.contains('is-revealed');
+  card.classList.toggle('is-revealed', willReveal);
+  const answer = card.querySelector('.vocab-card-answer');
+  if (answer) {
+    answer.setAttribute('aria-hidden', willReveal ? 'false' : 'true');
+    answer.querySelectorAll('button').forEach((btn) => {
+      btn.tabIndex = willReveal ? 0 : -1;
+    });
+  }
+  const btn = triggerBtn || card.querySelector('.vocab-flip-btn');
+  if (btn) btn.textContent = willReveal ? 'Ocultar respuesta' : 'Mostrar respuesta';
+  if (willReveal && card.dataset.mastery === 'new') setVocabCardMastery(card, 'learning');
+}
+
+function setVocabCardMastery(card, status) {
+  if (!card) return;
+  const meta = VOCAB_MASTERY_META[status] || VOCAB_MASTERY_META.new;
+  card.dataset.mastery = status;
+  setStoredVocabMastery(card.dataset.cardId, status);
+  const label = card.querySelector('.vocab-status-label');
+  const dot = card.querySelector('.vocab-status-dot');
+  if (label) label.textContent = meta.label;
+  if (dot) dot.textContent = meta.glyph;
 }
 
 function speakTitle(isFrench) {
@@ -8121,25 +8312,41 @@ function enableHomepageActions() {
       return;
     }
 
-    // Repeats the term's pronunciation without re-flipping - the "keep a
-    // speaker button available to repeat" requirement. Checked before the
-    // broader .vocab-flip-card handler below so it doesn't also toggle flip.
-    const vocabSpeakBtn = event.target.closest('.vocab-speak-btn');
-    if (vocabSpeakBtn) {
-      const card = vocabSpeakBtn.closest('.vocab-flip-card');
-      if (card)
+    // Header speaker button - plays the target word. Marks itself
+    // "is-playing" while speaking (speakText's onEnd clears it) so the
+    // playing state is visible, not just audible.
+    const vocabAudioBtn = event.target.closest('.vocab-card-audio-btn');
+    if (vocabAudioBtn) {
+      const card = vocabAudioBtn.closest('.vocab-card');
+      if (card) {
+        vocabAudioBtn.classList.add('is-playing');
         speakText(card.dataset.speakText, {
           locale: card.dataset.speakLocale,
-          rate: Number(card.dataset.speakRate) || 1
+          rate: Number(card.dataset.speakRate) || 1,
+          onEnd: () => vocabAudioBtn.classList.remove('is-playing')
         });
+      }
       return;
     }
-    // "Escuchar lentamente" - same speakText()/data-speak-text mechanism as
-    // the normal-speed button above, just a lower rate override baked into
-    // the button itself at render time (see renderVocabularyView).
+    // Example sentence's own speaker button (only rendered when there's an
+    // example to speak - never a second button for the same word).
+    const vocabExampleAudioBtn = event.target.closest('.vocab-example-audio-btn');
+    if (vocabExampleAudioBtn) {
+      vocabExampleAudioBtn.classList.add('is-playing');
+      speakText(vocabExampleAudioBtn.dataset.speakText, {
+        locale: vocabExampleAudioBtn.dataset.speakLocale,
+        rate: Number(vocabExampleAudioBtn.dataset.speakRate) || 1,
+        onEnd: () => vocabExampleAudioBtn.classList.remove('is-playing')
+      });
+      return;
+    }
+    // "Escuchar lentamente" lives in the card's secondary "⋯" menu - same
+    // speakText()/data-speak-text mechanism as the header button, just a
+    // lower rate override baked into the button itself at render time (see
+    // renderVocabularyView).
     const vocabSpeakSlowBtn = event.target.closest('.vocab-speak-slow-btn');
     if (vocabSpeakSlowBtn) {
-      const card = vocabSpeakSlowBtn.closest('.vocab-flip-card');
+      const card = vocabSpeakSlowBtn.closest('.vocab-card');
       if (card)
         speakText(card.dataset.speakText, {
           locale: card.dataset.speakLocale,
@@ -8147,44 +8354,19 @@ function enableHomepageActions() {
         });
       return;
     }
-    // Tapping the example sentence (back of the card) reads the full
-    // sentence aloud, separately from the term itself.
-    const vocabExampleSpeak = event.target.closest('.vocab-example-speak');
-    if (vocabExampleSpeak) {
-      speakText(vocabExampleSpeak.dataset.speakText, {
-        locale: vocabExampleSpeak.dataset.speakLocale,
-        rate: Number(vocabExampleSpeak.dataset.speakRate) || 1
-      });
-      return;
-    }
     const vocabFlipBtn = event.target.closest('.vocab-flip-btn');
     if (vocabFlipBtn) {
-      vocabFlipBtn.closest('.vocab-flip-card')?.classList.toggle('is-flipped');
+      toggleVocabCardReveal(vocabFlipBtn.closest('.vocab-card'), vocabFlipBtn);
       return;
     }
     const vocabKnowBtn = event.target.closest('.vocab-know-btn');
     if (vocabKnowBtn) {
-      vocabKnowBtn.closest('.vocab-flip-card')?.classList.add('is-known');
+      setVocabCardMastery(vocabKnowBtn.closest('.vocab-card'), 'mastered');
       return;
     }
     const vocabRetryBtn = event.target.closest('.vocab-retry-btn');
     if (vocabRetryBtn) {
-      vocabRetryBtn.closest('.vocab-flip-card')?.classList.remove('is-known', 'is-flipped');
-      return;
-    }
-    // Tapping/clicking anywhere else on the card itself: cancel any
-    // in-flight pronunciation, speak the term, and flip the card - the core
-    // flashcard interaction. Placed last among the vocab checks so the more
-    // specific buttons above (speak/example/flip/know/retry) - and
-    // .vocab-example-btn's .open-tutor-btn handling, earlier in this same
-    // delegated handler - all short-circuit first.
-    const vocabFlipCard = event.target.closest('.vocab-flip-card');
-    if (vocabFlipCard) {
-      speakText(vocabFlipCard.dataset.speakText, {
-        locale: vocabFlipCard.dataset.speakLocale,
-        rate: Number(vocabFlipCard.dataset.speakRate) || 1
-      });
-      vocabFlipCard.classList.add('is-flipped');
+      setVocabCardMastery(vocabRetryBtn.closest('.vocab-card'), 'practicing');
       return;
     }
   });
