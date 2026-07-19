@@ -255,6 +255,220 @@ const units = [
         ]
       })
     }
+  },
+  // ---------------------------------------------------------------
+  {
+    slug: 'family-and-relationships',
+    title: 'Family and Relationships',
+    titleEs: 'La familia y las relaciones',
+    description: 'Family members, personalities, and a big Sunday lunch with the whole family.',
+    order: 2,
+    accessTier: 'free',
+    unitOverview: {
+      objective: 'Hablar de tu familia, describir personalidades y relaciones usando have got/has got.',
+      outcomes: [
+        'describir a los miembros de tu familia y sus características',
+        'usar have got / has got para hablar de posesiones y rasgos físicos',
+        'usar el genitivo sajón (\'s) para mostrar relaciones y pertenencia',
+        'entender un texto sobre una reunión familiar'
+      ],
+      grammar: ["Have got / Has got", "Possessive 's"],
+      vocabulary: ['family members', 'relationships', 'personality adjectives'],
+      scenario: 'La familia de Sarah se reúne cada mes para un gran almuerzo dominical, y hoy Sarah lleva a alguien nuevo.'
+    },
+    activities: {
+      reading: activity('reading', {
+        title: 'A Sunday Lunch with the Whole Family',
+        description:
+          "Sarah's family gathers for their monthly Sunday lunch, and this time she brings someone new to meet everyone.",
+        reading: {
+          title: 'A Sunday Lunch with the Whole Family',
+          illustration: {
+            src: '/assets/readings/english/a2/unit-02-sunday-lunch.webp',
+            alt: "Sarah's family sitting around a table for Sunday lunch",
+            animation: 'subtle-float'
+          },
+          text:
+            "Sarah's family has a tradition: on the first Sunday of every month, everyone meets at her parents' house for a big lunch. Today is one of those Sundays, and the house is full of noise, laughter, and the smell of roast chicken.\n\n" +
+            "Sarah's parents, Michael and Diane, live in a small house with a big garden near Manchester. Michael has got short grey hair and a loud, friendly laugh. Diane has got long dark hair, and she loves cooking for the whole family. Every month, she spends the whole morning in the kitchen.\n\n" +
+            "Sarah's sister Lucy arrives first, with a bottle of wine and a big smile. \"I've got some news,\" she says, but she doesn't explain yet. A few minutes later, their grandmother, Rose, arrives too. She is eighty-two years old, and she still walks to the house every Sunday, with her small dog, Biscuit.\n\n" +
+            "Sarah's aunt Carol and uncle Tom come next, with their son, Jake. Jake is Sarah's cousin, and he is only ten years old, but he has got a lot of energy. He runs straight into the garden to play football with Biscuit.\n\n" +
+            "At one o'clock, everyone sits down at the big table in the dining room. There are nine people today: Sarah, Lucy, their parents, their grandmother, their aunt and uncle, their cousin Jake, and Sarah's new boyfriend, Daniel, who is meeting the family for the first time.\n\n" +
+            '"So, Daniel," says Michael, "what\'s your job?" Daniel explains that he\'s a teacher at a secondary school in the city. Diane asks him lots of questions about his family, his hobbies, and his favourite food. Daniel answers every question calmly, and by the end of lunch, he already feels like part of the family.\n\n' +
+            "After lunch, Lucy finally shares her news. \"I've got a new flat in Leeds,\" she says, \"with a spare room for visitors!\" Everyone is happy for her, and Sarah promises to visit soon.\n\n" +
+            "In the afternoon, Jake and Biscuit play in the garden, Rose falls asleep in the armchair, and the adults have coffee and talk about old family stories. Sarah's family isn't perfect, and lunch is often loud and a little chaotic, but she wouldn't change it for anything.\n\n" +
+            '"Same time next month?" asks Diane, as everyone says goodbye at the door. "Of course," Sarah answers. "We wouldn\'t miss it."',
+          questions: [
+            '¿Tu familia tiene una tradición parecida a la de Sarah? Descríbela.',
+            'Escribe dos frases sobre un miembro de tu familia, usando has got.'
+          ]
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'What is the reading mainly about?', options: ['A birthday party', "A family's monthly Sunday lunch tradition", 'A trip to Leeds', "Daniel's new job"], answer: 1 },
+          { type: 'mcq', prompt: 'Who cooks lunch every month?', options: ['Rose', 'Lucy', 'Diane, Sarah\'s mother', 'Carol'], answer: 2 },
+          { type: 'mcq', prompt: "What does Rose bring with her every Sunday?", options: ['A bottle of wine', 'Her dog, Biscuit', 'A cake', 'Her grandson Jake'], answer: 1 },
+          { type: 'mcq', prompt: 'Why is Daniel at lunch?', options: ['He is Diane\'s brother', 'He is meeting the family for the first time', 'He is Jake\'s teacher', 'He lives next door'], answer: 1 },
+          { type: 'mcq', prompt: 'In "lunch is often loud and a little chaotic," what does chaotic mean?', options: ['Very quiet and calm', 'Boring and slow', 'Disorganized and busy', 'Sad'], answer: 2 },
+          { type: 'mcq', prompt: 'What news does Lucy share after lunch?', options: ['She has a new job', 'She has a new flat in Leeds', 'She is moving to Manchester', 'She is getting married'], answer: 1 },
+          { type: 'mcq', prompt: 'What can you infer about how Sarah feels about her family?', options: ['She finds them boring', 'She loves them, even though lunch is chaotic', 'She rarely sees them', 'She prefers to eat alone'], answer: 1 },
+          { type: 'mcq', prompt: 'What does Diane mean by "Same time next month?"', options: ['She is planning a different event', 'She is confirming the next monthly lunch', 'She is asking Daniel to leave', 'She is talking about work'], answer: 1 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Meeting the Family',
+        description: 'Listen to Sarah and Lucy talking on the phone the night before the Sunday lunch.',
+        intro: "Listen to Sarah and Lucy's phone call the night before lunch. Focus on the family details and Lucy's questions about Daniel.",
+        dialogue: [
+          { speaker: 'Lucy', line: "Hi, Sarah! Are you ready for tomorrow? Daniel's finally meeting everyone!", translation: '¡Hola, Sarah! ¿Estás lista para mañana? ¡Daniel por fin va a conocer a todos!' },
+          { speaker: 'Sarah', line: "I know, I'm a little nervous. Mum's going to ask him a hundred questions.", translation: 'Lo sé, estoy un poco nerviosa. Mamá le va a hacer cien preguntas.' },
+          { speaker: 'Lucy', line: "That's normal! What's Daniel like, exactly?", translation: 'Eso es normal. ¿Cómo es Daniel exactamente?' },
+          { speaker: 'Sarah', line: "He's got a great sense of humour, and he's very calm. I think he'll be fine.", translation: 'Tiene mucho sentido del humor y es muy tranquilo. Creo que estará bien.' },
+          { speaker: 'Lucy', line: "Has he got any brothers or sisters?", translation: '¿Tiene hermanos o hermanas?' },
+          { speaker: 'Sarah', line: "Yes, he's got one younger brother, but he lives in Scotland.", translation: 'Sí, tiene un hermano menor, pero vive en Escocia.' },
+          { speaker: 'Lucy', line: "And is Jake going to be there too? He's a lot of energy for a first meeting!", translation: '¿Y Jake también va a estar? ¡Es mucha energía para una primera reunión!' },
+          { speaker: 'Sarah', line: "Ha! Yes, he'll probably want to show Daniel his football skills.", translation: '¡Ja! Sí, probablemente querrá mostrarle a Daniel sus habilidades de fútbol.' },
+          { speaker: 'Lucy', line: "Well, don't worry. Our family's loud, but we're friendly. Daniel will love it.", translation: 'Bueno, no te preocupes. Nuestra familia es ruidosa, pero somos amigables. A Daniel le encantará.' },
+          { speaker: 'Sarah', line: "I hope so! See you tomorrow, Lucy.", translation: '¡Eso espero! Nos vemos mañana, Lucy.' }
+        ],
+        phrases: [
+          "He's got a great sense of humour.",
+          'Has he got any brothers or sisters?',
+          "I'm a little nervous.",
+          "Don't worry.",
+          "See you tomorrow."
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Why is Sarah a little nervous?', options: ['She is late for lunch', 'Her mum will ask Daniel lots of questions', 'She lost her phone', 'Daniel cancelled'], answer: 1 },
+          { type: 'mcq', prompt: "How does Sarah describe Daniel's personality?", options: ['Shy and quiet', 'Funny and calm', 'Serious and strict', 'Loud and energetic'], answer: 1 },
+          { type: 'mcq', prompt: "Has Daniel got any siblings?", options: ['No, he is an only child', 'Yes, one younger brother', 'Yes, two older sisters', 'Yes, a twin sister'], answer: 1 },
+          { type: 'mcq', prompt: 'Where does Daniel\'s brother live?', options: ['Leeds', 'Manchester', 'Scotland', 'London'], answer: 2 },
+          { type: 'mcq', prompt: 'What does Lucy say about Jake?', options: ['He is shy with new people', "He'll probably show Daniel his football skills", 'He is not coming tomorrow', 'He does not like football'], answer: 1 },
+          { type: 'mcq', prompt: 'How does Lucy describe their family?', options: ['Quiet and formal', 'Loud but friendly', 'Small and serious', 'Distant'], answer: 1 },
+          { type: 'mcq', prompt: 'What is the purpose of this phone call?', options: ['To cancel the lunch', 'To talk about Daniel before he meets the family', 'To plan a trip to Scotland', 'To argue about Jake'], answer: 1 },
+          { type: 'mcq', prompt: 'What does Lucy mean by "Daniel will love it"?', options: ['Daniel will love the food', 'Daniel will enjoy the loud, friendly family', 'Daniel will love Manchester', 'Daniel will love playing football'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Describing My Family',
+        description: "Describe your own family members using have got/has got and possessive 's.",
+        mission:
+          "Describe three members of your family: who they are, what they look like or have got, and one thing about their personality.",
+        phrases: [
+          "My... has got...",
+          "He's/She's got a great sense of humour.",
+          "My sister's name is...",
+          "We're a big/small family."
+        ],
+        dialogue: [
+          { speaker: 'You', line: "I've got a big family. My mum has got dark hair and she's very kind.", translation: 'Tengo una familia grande. Mi mamá tiene el pelo oscuro y es muy amable.' },
+          { speaker: 'Partner', line: "Have you got any brothers or sisters?", translation: '¿Tienes hermanos o hermanas?' },
+          { speaker: 'You', line: "Yes, I've got one brother. He's got a lot of energy, like Jake in the story!", translation: 'Sí, tengo un hermano. Tiene mucha energía, ¡como Jake en la historia!' },
+          { speaker: 'Partner', line: "That sounds like a fun family lunch!", translation: '¡Eso suena como un almuerzo familiar divertido!' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: "Describe three members of your family using have got/has got (appearance or possessions).", answer: 'Oral practice' },
+          { type: 'speaking', prompt: "Now say one sentence about each person's personality, using an adjective.", answer: 'Oral practice' },
+          { type: 'practice', prompt: 'Practice the dialogue about describing family with a partner, then switch roles.', answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'My Family Tree',
+        description: 'Write a short description of your family, like the one about Sarah\'s family lunch.',
+        mission:
+          "Write 80-130 words describing your family: who is in it, what they are like, and one family tradition or gathering you have (like Sarah's Sunday lunch).",
+        phrases: [
+          "My family is...",
+          "My... has got...",
+          "Every..., we...",
+          "I love my family because..."
+        ],
+        dialogue: [
+          {
+            speaker: 'Model',
+            line:
+              "My family is quite small. I've got one sister and two parents. My sister's name is Elena, and she's got a great sense of humour - she always makes us laugh. My dad has got grey hair and he loves cooking, just like Diane in the story. Every Sunday, we have lunch together at my grandmother's house. It's not always calm, but it's always fun. I love my family because we're always there for each other, even when things are chaotic.",
+            translation:
+              'Mi familia es bastante pequeña. Tengo una hermana y dos padres. Mi hermana se llama Elena y tiene mucho sentido del humor; siempre nos hace reír. Mi papá tiene el pelo canoso y le encanta cocinar, igual que Diane en la historia. Cada domingo almorzamos juntos en casa de mi abuela. No siempre es tranquilo, pero siempre es divertido. Amo a mi familia porque siempre estamos ahí para el otro, incluso cuando las cosas están caóticas.'
+          }
+        ],
+        exercises: [
+          {
+            type: 'writing',
+            prompt:
+              "Write 80-130 words about your family: who is in it, at least two descriptions using has got, and one family tradition or gathering.",
+            answer: 'Open answer'
+          }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: "Have Got / Has Got and Possessive 's",
+        description: "Talk about family, possessions and appearance with have got/has got and the possessive 's.",
+        grammarNote:
+          "Use have got (I/you/we/they) and has got (he/she/it) to talk about what people have, including family members, possessions, and physical features: \"I've got a brother,\" \"She has got long hair.\" The negative is haven't got / hasn't got, and the question is Have you got...? / Has he got...?\n\n" +
+          "Use the possessive 's to show who something belongs to or a relationship: \"Sarah's sister,\" \"my grandmother's dog.\" For plural nouns already ending in -s, just add an apostrophe: \"my parents' house.\"\n\n" +
+          "Apoyo: usa have got/has got para hablar de lo que alguien tiene (familia, posesiones, apariencia); usa 's para mostrar posesión o relación entre personas.",
+        phrases: [
+          "I've got.../ She's got...",
+          "Have you got...? / Has he got...?",
+          "I haven't got... / She hasn't got...",
+          "Sarah's sister / my parents' house"
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'My brother ___ a new bike.', options: ['have got', 'has got', 'is got', 'got has'], answer: 1 },
+          { type: 'mcq', prompt: '___ you got any pets?', options: ['Do', 'Have', 'Has', 'Are'], answer: 1 },
+          { type: 'mcq', prompt: 'This is ___ car, not mine.', options: ['Sarah', "Sarah's", "Sarahs'", 'of Sarah'], answer: 1 },
+          { type: 'mcq', prompt: 'We ___ got a big garden.', options: ['has', "haven't", "have", 'is'], answer: 2 },
+          { type: 'mcq', prompt: 'She ___ got two brothers.', options: ['have', 'has', "haven't", 'is'], answer: 1 },
+          { type: 'mcq', prompt: 'I like their house - it ___ got a lovely kitchen.', options: ['have', 'has', "haven't", 'am'], answer: 1 },
+          { type: 'mcq', prompt: 'Those are the ___ shoes, not the children\'s.', options: ['parent', "parents'", "parent's", 'parents'], answer: 1 },
+          { type: 'mcq', prompt: 'He ___ got a car - he always takes the bus.', options: ["hasn't", "haven't", 'has', 'is'], answer: 0 },
+          { type: 'mcq', prompt: '___ your sister got a job yet?', options: ['Do', 'Is', 'Has', 'Have'], answer: 2 },
+          { type: 'mcq', prompt: 'My ___ dog is called Biscuit.', options: ['grandmother', "grandmother's", "grandmothers'", 'of grandmother'], answer: 1 },
+          { type: 'mcq', prompt: 'They ___ got a lot of free time this week.', options: ['has', "haven't", 'is', "isn't"], answer: 1 },
+          { type: 'mcq', prompt: 'What colour hair ___ she got?', options: ['have', 'has', 'is', 'does'], answer: 1 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'Family Members and Relationships',
+        description: 'Key words for family, relationships, and describing personality.',
+        vocabulary: [
+          { word: 'sibling', translation: 'hermano/a', definition: 'A brother or a sister.', example: 'I have two siblings, a brother and a sister.', partOfSpeech: 'noun' },
+          { word: 'grandparent', translation: 'abuelo/a', definition: 'The parent of your mother or father.', example: 'My grandparents live in a small village.', partOfSpeech: 'noun' },
+          { word: 'cousin', translation: 'primo/a', definition: "The child of your aunt or uncle.", example: 'My cousin Jake loves football.', partOfSpeech: 'noun' },
+          { word: 'relative', translation: 'pariente', definition: 'A member of your family.', example: 'We have relatives all over the country.', partOfSpeech: 'noun' },
+          { word: 'in-laws', translation: 'suegros/familia política', definition: "Your husband's or wife's family.", example: 'My in-laws are visiting next weekend.', partOfSpeech: 'noun' },
+          { word: 'only child', translation: 'hijo/a único/a', definition: 'A child with no brothers or sisters.', example: 'She is an only child, so she has no siblings.', partOfSpeech: 'noun phrase' },
+          { word: 'twin', translation: 'gemelo/a', definition: 'One of two children born to the same mother at the same time.', example: 'My twin brother and I look very similar.', partOfSpeech: 'noun' },
+          { word: 'close', translation: 'cercano/unido', definition: 'Having a strong relationship with someone.', example: 'I am very close to my grandmother.', partOfSpeech: 'adjective' },
+          { word: 'resemble', translation: 'parecerse a', definition: 'To look similar to someone.', example: 'Sarah really resembles her mother.', partOfSpeech: 'verb' },
+          { word: 'get on well (with)', translation: 'llevarse bien (con)', definition: 'To have a good relationship with someone.', example: 'I get on well with my brother.', partOfSpeech: 'phrasal verb' },
+          { word: 'argue', translation: 'discutir', definition: 'To disagree with someone, often loudly.', example: 'Siblings sometimes argue about small things.', partOfSpeech: 'verb' },
+          { word: 'reunion', translation: 'reunión (familiar)', definition: 'A meeting of family or friends who have not seen each other for a while.', example: 'The family reunion happens every summer.', partOfSpeech: 'noun' },
+          { word: 'generous', translation: 'generoso/a', definition: 'Willing to give money, help, or time.', example: 'My uncle is very generous with his time.', partOfSpeech: 'adjective' },
+          { word: 'strict', translation: 'estricto/a', definition: 'Expecting people to follow rules exactly.', example: 'My father was quite strict when I was young.', partOfSpeech: 'adjective' },
+          { word: 'easy-going', translation: 'de trato fácil, relajado/a', definition: 'Relaxed and not easily worried or annoyed.', example: 'Daniel is very easy-going, so he fits in well.', partOfSpeech: 'adjective' },
+          { word: 'stubborn', translation: 'terco/a', definition: 'Refusing to change your opinion or way of doing things.', example: 'My grandmother is lovely but very stubborn.', partOfSpeech: 'adjective' },
+          { word: 'supportive', translation: 'que brinda apoyo', definition: 'Giving help and encouragement.', example: 'My family is always supportive of my decisions.', partOfSpeech: 'adjective' },
+          { word: 'raise (a child)', translation: 'criar (a un hijo)', definition: 'To care for a child until they are an adult.', example: 'They raised three children in that house.', partOfSpeech: 'verb' },
+          { word: 'household', translation: 'hogar/casa', definition: 'A home and the people who live there together.', example: 'There are five people in our household.', partOfSpeech: 'noun' },
+          { word: 'extended family', translation: 'familia extendida', definition: 'Family members beyond parents and siblings, like aunts, uncles, and cousins.', example: 'We invited our extended family to the wedding.', partOfSpeech: 'noun phrase' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'What is a "sibling"?', options: ['A cousin', 'A brother or a sister', 'A grandparent', 'An in-law'], answer: 1 },
+          { type: 'mcq', prompt: 'Which word describes someone with no brothers or sisters?', options: ['Twin', 'Only child', 'Sibling', 'Cousin'], answer: 1 },
+          { type: 'mcq', prompt: 'Which word means "to look similar to someone"?', options: ['Argue', 'Resemble', 'Raise', 'Get on well'], answer: 1 },
+          { type: 'mcq', prompt: '"My uncle always shares what he has and helps others" describes someone who is...', options: ['strict', 'stubborn', 'generous', 'easy-going'], answer: 2 },
+          { type: 'mcq', prompt: 'Which word means "relaxed and not easily annoyed"?', options: ['Strict', 'Easy-going', 'Stubborn', 'Supportive'], answer: 1 },
+          { type: 'mcq', prompt: 'Complete: "My brother and I ___ well - we rarely argue."', options: ['get on', 'resemble', 'raise', 'argue'], answer: 0 },
+          { type: 'mcq', prompt: 'Which word means "a meeting of family after a long time apart"?', options: ['Household', 'Reunion', 'In-laws', 'Extended family'], answer: 1 },
+          { type: 'mcq', prompt: 'Your husband\'s parents are your...', options: ['siblings', 'in-laws', 'cousins', 'twins'], answer: 1 },
+          { type: 'mcq', prompt: 'Which word describes someone who expects rules to be followed exactly?', options: ['Generous', 'Strict', 'Supportive', 'Easy-going'], answer: 1 },
+          { type: 'mcq', prompt: 'Which word means "to disagree with someone, often loudly"?', options: ['Argue', 'Resemble', 'Support', 'Raise'], answer: 0 },
+          { type: 'mcq', prompt: 'Aunts, uncles, and cousins are part of your...', options: ['household', 'extended family', 'in-laws', 'siblings'], answer: 1 },
+          { type: 'mcq', prompt: 'Which word describes a family that always encourages and helps you?', options: ['Stubborn', 'Strict', 'Supportive', 'Distant'], answer: 2 }
+        ]
+      })
+    }
   }
 ];
 
