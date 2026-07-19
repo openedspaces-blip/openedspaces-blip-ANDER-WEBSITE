@@ -297,15 +297,16 @@ a:focus-visible {
 
 .navbar {
   width: 100%;
-  padding: 22px 6%;
+  padding: 14px 6%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
   position: sticky;
   top: 0;
   background: rgba(255, 255, 255, 0.86);
   backdrop-filter: blur(20px);
-  z-index: 10;
+  z-index: 30;
   border-bottom: 1px solid rgba(99, 102, 241, 0.1);
   box-shadow: 0 10px 30px rgba(7, 21, 47, 0.04);
 }
@@ -313,16 +314,18 @@ a:focus-visible {
 .brand {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  min-width: 0;
 }
 
 .brand-icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 18px;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 14px;
   display: grid;
   place-items: center;
   color: white;
@@ -332,15 +335,20 @@ a:focus-visible {
 }
 
 .brand h1 {
-  font-size: 1.3rem;
-  letter-spacing: 0.14em;
+  font-size: 1.1rem;
+  letter-spacing: 0.12em;
   font-weight: 900;
+  line-height: 1.15;
 }
 
 .brand p {
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   color: var(--muted);
   font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 26ch;
 }
 
 .menu-toggle {
@@ -362,15 +370,18 @@ a:focus-visible {
 
 .menu {
   display: flex;
-  gap: 28px;
+  align-items: center;
+  gap: 20px;
   font-weight: 700;
   color: #334155;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
+  flex-wrap: nowrap;
 }
 
 .menu a {
   position: relative;
   padding: 6px 0;
+  white-space: nowrap;
 }
 
 .menu a:hover {

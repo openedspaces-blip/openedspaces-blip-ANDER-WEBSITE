@@ -4,6 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 const seedLessons = require('../lib/seed-lessons.json');
+const { sanitizeGrammarTestForClient } = require('../lib/grammarTestSanitizer');
 const SEED_UNITS_PATH = path.join(__dirname, '..', 'lib', 'seed-units.json');
 const seedUnits = fs.existsSync(SEED_UNITS_PATH) ? require(SEED_UNITS_PATH) : [];
 
@@ -130,15 +131,21 @@ function shapeBrowserLesson(row) {
     reading: content.reading || null,
     transcript: content.transcript || '',
     // extra (listeningType/phoneticSupport/speakers/durationSeconds/
-    // difficulty) is display-only, safe to ship as-is. `dictation` is
-    // deliberately NOT included here: this file is a public static asset
+    // difficulty) is display-only, safe to ship as-is - except
+    // grammarTest, which carries correct answers (correctOptionId/
+    // acceptedAnswers/correctOrder/explanation) and must go through the
+    // same sanitizer as the live API (lib/courseLessonsService.js) so this
+    // static bundle can't leak them. `dictation` is deliberately NOT
+    // included here: this file is a public static asset
     // (window.ANDERGO_LANGUAGE_WORLDS), and dictation.segments[].text is
     // the answer key for that exercise - only the backend
     // (lib/courseLessonsService.js#checkDictation, reading from
     // lesson_dictation_segments) may ever see it. Offline/no-backend mode
     // simply doesn't support graded dictation, same limitation `answer`
     // already has for mcq exercises in this bundle.
-    extra: content.extra || null,
+    extra: content.extra
+      ? { ...content.extra, grammarTest: sanitizeGrammarTestForClient(content.extra.grammarTest) }
+      : content.extra || null,
     exercises: (content.exercises || []).map(sanitizeExerciseForClient)
   };
 }

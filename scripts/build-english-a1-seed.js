@@ -27,6 +27,19 @@ function shapeReading(reading) {
   return { ...reading, text: reading.parts.join('\n\n') };
 }
 
+// Extra pedagogical fields beyond what English A1 has always carried -
+// stored under content_json.extra (see
+// 202607220001_rich_listening_content.sql, course_lessons.extra jsonb).
+// Mirrors scripts/build-spanish-a1-seed.js#shapeExtra. grammarTest is the
+// answer-bearing question bank for a scored Grammar test (see
+// lib/grammarTestSanitizer.js) - it is never sent to the client as-is,
+// only through that sanitizer.
+function shapeExtra(a) {
+  const extra = {};
+  if (a.grammarTest) extra.grammarTest = a.grammarTest;
+  return Object.keys(extra).length ? extra : null;
+}
+
 function buildActivityRow(unit, skill) {
   const a = unit.activities[skill];
   if (!a) throw new Error(`Unit "${unit.slug}" is missing a "${skill}" activity`);
