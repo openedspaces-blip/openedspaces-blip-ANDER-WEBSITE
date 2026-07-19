@@ -214,7 +214,150 @@ const units = [
           { type: 'mcq', prompt: 'Be quiet, please! I ___ on the phone.', options: ['talk', 'talks', 'am talking', 'talking'], answer: 2 },
           { type: 'mcq', prompt: 'Sara ___ her homework every day after school.', options: ['do', 'does', 'is doing', 'doing'], answer: 1 },
           { type: 'mcq', prompt: 'At the moment, the children ___ in the garden.', options: ['play', 'plays', 'is playing', 'are playing'], answer: 3 }
-        ]
+        ],
+        // Scored Grammar test pilot (see lib/grammarTestSanitizer.js) -
+        // mixed question types built from the same sentences/context as
+        // the inline `exercises` above, which stay unchanged for the old
+        // immediate-feedback view.
+        grammarTest: {
+          id: 'english-a2-everyday-life-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'My brother ___ football every Saturday.',
+              options: [
+                { id: 'o1', text: 'play' },
+                { id: 'o2', text: 'plays' },
+                { id: 'o3', text: 'is playing' },
+                { id: 'o4', text: 'playing' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A routine ("every Saturday") uses the Present Simple: he/she plays.'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'Look! It ___ outside right now.',
+              options: [
+                { id: 'o1', text: 'rains' },
+                { id: 'o2', text: 'rain' },
+                { id: 'o3', text: 'is raining' },
+                { id: 'o4', text: 'raining' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Right now" signals the Present Continuous: it is raining.'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'I usually ___ to work by bus.',
+              options: [
+                { id: 'o1', text: 'go' },
+                { id: 'o2', text: 'goes' },
+                { id: 'o3', text: 'am going' },
+                { id: 'o4', text: 'going' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"Usually" signals a routine: the Present Simple with I is "go".'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'She ___ a shower at the moment.',
+              options: [
+                { id: 'o1', text: 'takes' },
+                { id: 'o2', text: 'take' },
+                { id: 'o3', text: 'is taking' },
+                { id: 'o4', text: 'taking' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"At the moment" signals the Present Continuous: she is taking.'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'He never ___ breakfast before school.',
+              options: [
+                { id: 'o1', text: 'eat' },
+                { id: 'o2', text: 'eats' },
+                { id: 'o3', text: 'is eating' },
+                { id: 'o4', text: 'eating' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Never" signals a routine: he/she eats in the Present Simple.'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'At the moment, the children ___ in the garden.',
+              options: [
+                { id: 'o1', text: 'play' },
+                { id: 'o2', text: 'plays' },
+                { id: 'o3', text: 'is playing' },
+                { id: 'o4', text: 'are playing' }
+              ],
+              correctOptionId: 'o4',
+              explanation: '"At the moment" + plural subject: they are playing.'
+            },
+            {
+              id: 'q7',
+              type: 'fill_blank',
+              prompt: 'My parents ___ (live) in a small house near the park.',
+              acceptedAnswers: ['live'],
+              explanation: 'A general fact uses the Present Simple: they live.'
+            },
+            {
+              id: 'q8',
+              type: 'fill_blank',
+              prompt: 'Sara ___ (do) her homework every day after school.',
+              acceptedAnswers: ['does'],
+              explanation: '"Every day" is a routine: he/she does in the Present Simple.'
+            },
+            {
+              id: 'q9',
+              type: 'fill_blank',
+              prompt: 'Right now, they ___ (wait) for the bus.',
+              acceptedAnswers: ['are waiting'],
+              explanation: '"Right now" + plural subject: they are waiting.'
+            },
+            {
+              id: 'q10',
+              type: 'fill_blank',
+              prompt: 'Be quiet, please! I ___ (talk) on the phone.',
+              acceptedAnswers: ['am talking'],
+              explanation: 'An action happening right now with "I": I am talking.'
+            },
+            {
+              id: 'q11',
+              type: 'ordering',
+              prompt: 'Put the words in the right order.',
+              items: [
+                { id: 'w1', text: 'The' },
+                { id: 'w2', text: 'baby' },
+                { id: 'w3', text: 'is' },
+                { id: 'w4', text: 'crying' }
+              ],
+              correctOrder: ['w1', 'w2', 'w3', 'w4'],
+              explanation: '"The baby is crying." - subject + "is" + verb+ing for a right-now action.'
+            },
+            {
+              id: 'q12',
+              type: 'ordering',
+              prompt: 'Put the words in the right order.',
+              items: [
+                { id: 'w1', text: 'We' },
+                { id: 'w2', text: 'have' },
+                { id: 'w3', text: 'dinner' },
+                { id: 'w4', text: 'every' },
+                { id: 'w5', text: 'evening' }
+              ],
+              correctOrder: ['w1', 'w2', 'w3', 'w4', 'w5'],
+              explanation: '"We have dinner every evening." - subject + Present Simple verb + routine.'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Daily Routines and Household Activities',

@@ -69,6 +69,7 @@ function buildActivityRow(unit, skill) {
       dialogue: a.dialogue || [],
       reading: shapeReading(a.reading),
       exercises: a.exercises || [],
+      extra: shapeExtra(a),
       xp_reward: a.xp
     }
   };

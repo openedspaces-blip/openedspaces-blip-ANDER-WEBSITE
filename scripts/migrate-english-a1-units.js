@@ -121,7 +121,8 @@ async function main() {
           access_tier: row.access_tier || (row.is_free === false ? 'premium' : 'free'),
           estimated_minutes: row.estimated_minutes || 10,
           audio_url: row.audio_url || null,
-          is_published: true
+          is_published: true,
+          extra: content.extra || null
         },
         { onConflict: 'slug' }
       )

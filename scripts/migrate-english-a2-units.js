@@ -130,7 +130,8 @@ async function main() {
           is_published: true,
           mission: content.mission || null,
           grammar_note: content.grammar || null,
-          phrases: content.phrases && content.phrases.length ? content.phrases : null
+          phrases: content.phrases && content.phrases.length ? content.phrases : null,
+          extra: content.extra || null
         },
         { onConflict: 'slug' }
       )

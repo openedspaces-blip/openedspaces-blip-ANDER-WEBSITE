@@ -33,6 +33,13 @@ function shapeReading(reading) {
   return { ...reading, text: reading.parts.join('\n\n') };
 }
 
+// Mirrors build-english-a1-seed.js#shapeExtra / build-spanish-a1-seed.js#shapeExtra.
+function shapeExtra(a) {
+  const extra = {};
+  if (a.grammarTest) extra.grammarTest = a.grammarTest;
+  return Object.keys(extra).length ? extra : null;
+}
+
 function buildActivityRow(unit, skill, orderInUnit) {
   const a = unit.activities[skill];
   if (!a) throw new Error(`Unit "${unit.slug}" is missing a "${skill}" activity`);
@@ -62,6 +69,7 @@ function buildActivityRow(unit, skill, orderInUnit) {
       dialogue: a.dialogue || [],
       reading: shapeReading(a.reading),
       exercises: a.exercises || [],
+      extra: shapeExtra(a),
       xp_reward: a.xp
     }
   };

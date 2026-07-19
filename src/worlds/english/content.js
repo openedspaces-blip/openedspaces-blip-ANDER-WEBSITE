@@ -499,6 +499,10 @@
     "dialogue": [],
     "reading": {
       "title": "Hello, Class!",
+      "illustration": {
+        "src": "/assets/readings/english/a1/hello-class.webp",
+        "alt": "Ana meets her new classmates on the first day of English class"
+      },
       "parts": [
         "Hello! My name is Ana. Today is my first English class. I am a little nervous, but also excited. My teacher is Mr. Green. He says, \"Good morning, class!\" and we answer, \"Good morning, Mr. Green!\" He has a big smile and a friendly voice.",
         "I sit next to a boy named Leo. \"Hi, I'm Leo,\" he says. \"Nice to meet you,\" I answer. We shake hands and smile. Leo is from Italy, and this is his first day too. We both feel happy to have a new friend.",
@@ -1191,7 +1195,172 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-a1-hello-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "I ___ a student.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "am"
+              },
+              {
+                "id": "o2",
+                "text": "is"
+              },
+              {
+                "id": "o3",
+                "text": "are"
+              },
+              {
+                "id": "o4",
+                "text": "be"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "She ___ my teacher.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "am"
+              },
+              {
+                "id": "o2",
+                "text": "is"
+              },
+              {
+                "id": "o3",
+                "text": "are"
+              },
+              {
+                "id": "o4",
+                "text": "be"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "They ___ my classmates.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "am"
+              },
+              {
+                "id": "o2",
+                "text": "is"
+              },
+              {
+                "id": "o3",
+                "text": "are"
+              },
+              {
+                "id": "o4",
+                "text": "be"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "You ___ very kind.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "am"
+              },
+              {
+                "id": "o2",
+                "text": "is"
+              },
+              {
+                "id": "o3",
+                "text": "are"
+              },
+              {
+                "id": "o4",
+                "text": "be"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "fill_blank",
+            "prompt": "My name ___ Ana."
+          },
+          {
+            "id": "q6",
+            "type": "fill_blank",
+            "prompt": "We ___ from Santo Domingo."
+          },
+          {
+            "id": "q7",
+            "type": "fill_blank",
+            "prompt": "He ___ my friend."
+          },
+          {
+            "id": "q8",
+            "type": "fill_blank",
+            "prompt": "I ___ happy today."
+          },
+          {
+            "id": "q9",
+            "type": "ordering",
+            "prompt": "Put the words in the right order.",
+            "items": [
+              {
+                "id": "w1",
+                "text": "She"
+              },
+              {
+                "id": "w2",
+                "text": "is"
+              },
+              {
+                "id": "w3",
+                "text": "my"
+              },
+              {
+                "id": "w4",
+                "text": "teacher"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "ordering",
+            "prompt": "Put the words in the right order.",
+            "items": [
+              {
+                "id": "w1",
+                "text": "We"
+              },
+              {
+                "id": "w2",
+                "text": "are"
+              },
+              {
+                "id": "w3",
+                "text": "good"
+              },
+              {
+                "id": "w4",
+                "text": "friends"
+              }
+            ]
+          }
+        ]
+      }
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -1260,7 +1429,222 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-a2-everyday-life-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "My brother ___ football every Saturday.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "play"
+              },
+              {
+                "id": "o2",
+                "text": "plays"
+              },
+              {
+                "id": "o3",
+                "text": "is playing"
+              },
+              {
+                "id": "o4",
+                "text": "playing"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Look! It ___ outside right now.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "rains"
+              },
+              {
+                "id": "o2",
+                "text": "rain"
+              },
+              {
+                "id": "o3",
+                "text": "is raining"
+              },
+              {
+                "id": "o4",
+                "text": "raining"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "I usually ___ to work by bus.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "go"
+              },
+              {
+                "id": "o2",
+                "text": "goes"
+              },
+              {
+                "id": "o3",
+                "text": "am going"
+              },
+              {
+                "id": "o4",
+                "text": "going"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "She ___ a shower at the moment.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "takes"
+              },
+              {
+                "id": "o2",
+                "text": "take"
+              },
+              {
+                "id": "o3",
+                "text": "is taking"
+              },
+              {
+                "id": "o4",
+                "text": "taking"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "He never ___ breakfast before school.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "eat"
+              },
+              {
+                "id": "o2",
+                "text": "eats"
+              },
+              {
+                "id": "o3",
+                "text": "is eating"
+              },
+              {
+                "id": "o4",
+                "text": "eating"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "At the moment, the children ___ in the garden.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "play"
+              },
+              {
+                "id": "o2",
+                "text": "plays"
+              },
+              {
+                "id": "o3",
+                "text": "is playing"
+              },
+              {
+                "id": "o4",
+                "text": "are playing"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "fill_blank",
+            "prompt": "My parents ___ (live) in a small house near the park."
+          },
+          {
+            "id": "q8",
+            "type": "fill_blank",
+            "prompt": "Sara ___ (do) her homework every day after school."
+          },
+          {
+            "id": "q9",
+            "type": "fill_blank",
+            "prompt": "Right now, they ___ (wait) for the bus."
+          },
+          {
+            "id": "q10",
+            "type": "fill_blank",
+            "prompt": "Be quiet, please! I ___ (talk) on the phone."
+          },
+          {
+            "id": "q11",
+            "type": "ordering",
+            "prompt": "Put the words in the right order.",
+            "items": [
+              {
+                "id": "w1",
+                "text": "The"
+              },
+              {
+                "id": "w2",
+                "text": "baby"
+              },
+              {
+                "id": "w3",
+                "text": "is"
+              },
+              {
+                "id": "w4",
+                "text": "crying"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "ordering",
+            "prompt": "Put the words in the right order.",
+            "items": [
+              {
+                "id": "w1",
+                "text": "We"
+              },
+              {
+                "id": "w2",
+                "text": "have"
+              },
+              {
+                "id": "w3",
+                "text": "dinner"
+              },
+              {
+                "id": "w4",
+                "text": "every"
+              },
+              {
+                "id": "w5",
+                "text": "evening"
+              }
+            ]
+          }
+        ]
+      }
+    },
     "exercises": [
       {
         "type": "mcq",

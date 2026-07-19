@@ -656,7 +656,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {
@@ -1191,7 +1192,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {
@@ -1717,7 +1719,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {
@@ -2272,7 +2275,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {
@@ -2794,7 +2798,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {
@@ -3349,7 +3354,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {
@@ -3904,7 +3910,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {
@@ -4464,7 +4471,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {
@@ -5021,7 +5029,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {
@@ -5576,7 +5585,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {
@@ -6131,7 +6141,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {
@@ -6654,7 +6665,8 @@
         ],
         "reviewStatus": "pending-review"
       },
-      "dictationSegmentCount": 3
+      "dictationSegmentCount": 3,
+      "grammarTest": null
     },
     "exercises": [
       {

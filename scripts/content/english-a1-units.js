@@ -139,7 +139,123 @@ const units = [
           { type: 'mcq', prompt: 'She ___ my teacher.', options: ['am', 'is', 'are', 'be'], answer: 1 },
           { type: 'mcq', prompt: 'They ___ my classmates.', options: ['am', 'is', 'are', 'be'], answer: 2 },
           { type: 'mcq', prompt: 'You ___ very kind.', options: ['am', 'is', 'are', 'be'], answer: 2 }
-        ]
+        ],
+        // Scored Grammar test pilot (see lib/grammarTestSanitizer.js) - a
+        // richer, mixed-type companion to the inline `exercises` above,
+        // which stay as-is for the old immediate-feedback view. Never
+        // include this data unsanitized anywhere client-facing.
+        grammarTest: {
+          id: 'english-a1-hello-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'I ___ a student.',
+              options: [
+                { id: 'o1', text: 'am' },
+                { id: 'o2', text: 'is' },
+                { id: 'o3', text: 'are' },
+                { id: 'o4', text: 'be' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'With "I", the verb "to be" is always "am".'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'She ___ my teacher.',
+              options: [
+                { id: 'o1', text: 'am' },
+                { id: 'o2', text: 'is' },
+                { id: 'o3', text: 'are' },
+                { id: 'o4', text: 'be' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'With "he/she/it", the verb "to be" is "is".'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'They ___ my classmates.',
+              options: [
+                { id: 'o1', text: 'am' },
+                { id: 'o2', text: 'is' },
+                { id: 'o3', text: 'are' },
+                { id: 'o4', text: 'be' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'With "they", the verb "to be" is "are".'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'You ___ very kind.',
+              options: [
+                { id: 'o1', text: 'am' },
+                { id: 'o2', text: 'is' },
+                { id: 'o3', text: 'are' },
+                { id: 'o4', text: 'be' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'With "you", the verb "to be" is "are".'
+            },
+            {
+              id: 'q5',
+              type: 'fill_blank',
+              prompt: 'My name ___ Ana.',
+              acceptedAnswers: ['is'],
+              explanation: '"My name" is he/she/it, so the verb is "is".'
+            },
+            {
+              id: 'q6',
+              type: 'fill_blank',
+              prompt: 'We ___ from Santo Domingo.',
+              acceptedAnswers: ['are'],
+              explanation: 'With "we", the verb "to be" is "are".'
+            },
+            {
+              id: 'q7',
+              type: 'fill_blank',
+              prompt: 'He ___ my friend.',
+              acceptedAnswers: ['is'],
+              explanation: 'With "he", the verb "to be" is "is".'
+            },
+            {
+              id: 'q8',
+              type: 'fill_blank',
+              prompt: 'I ___ happy today.',
+              acceptedAnswers: ['am'],
+              explanation: 'With "I", the verb "to be" is always "am".'
+            },
+            {
+              id: 'q9',
+              type: 'ordering',
+              prompt: 'Put the words in the right order.',
+              items: [
+                { id: 'w1', text: 'She' },
+                { id: 'w2', text: 'is' },
+                { id: 'w3', text: 'my' },
+                { id: 'w4', text: 'teacher' }
+              ],
+              correctOrder: ['w1', 'w2', 'w3', 'w4'],
+              explanation: '"She is my teacher." - subject + verb "to be" + rest of the sentence.'
+            },
+            {
+              id: 'q10',
+              type: 'ordering',
+              prompt: 'Put the words in the right order.',
+              items: [
+                { id: 'w1', text: 'We' },
+                { id: 'w2', text: 'are' },
+                { id: 'w3', text: 'good' },
+                { id: 'w4', text: 'friends' }
+              ],
+              correctOrder: ['w1', 'w2', 'w3', 'w4'],
+              explanation: '"We are good friends." - subject + verb "to be" + rest of the sentence.'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Greeting Words',
