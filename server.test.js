@@ -181,27 +181,41 @@ test('health endpoint reports AI tutor configuration without leaking keys or oth
 const ENGLISH_A1_ACTIVITY_COUNT = 72;
 const SPANISH_A1_ACTIVITY_COUNT = 72;
 const FRENCH_A1_ACTIVITY_COUNT = 84;
+// English A2 (scripts/content/english-a2-units.js) is unit-based too, same
+// mechanism as A1 above, just for a different level - all 10 units are now
+// authored (units 1-2 free, 3-10 premium), 6 core skills each, no extra
+// 'dialogue' skill (unlike French A1).
+const ENGLISH_A2_ACTIVITY_COUNT = 60;
 const UNIT_SKILLS_BY_LANGUAGE = { french: [...SKILLS, 'dialogue'] };
-const A1_ACTIVITY_COUNT_BY_LANGUAGE = {
-  english: ENGLISH_A1_ACTIVITY_COUNT,
-  spanish: SPANISH_A1_ACTIVITY_COUNT,
-  french: FRENCH_A1_ACTIVITY_COUNT
+// Per-language, per-level override for languages/levels with real unit-based
+// content instead of the flat 6-lessons-per-level fallback shape. Any
+// language/level combo not listed here is assumed to be the flat shape.
+const LEVEL_ACTIVITY_COUNT_BY_LANGUAGE = {
+  english: { A1: ENGLISH_A1_ACTIVITY_COUNT, A2: ENGLISH_A2_ACTIVITY_COUNT },
+  spanish: { A1: SPANISH_A1_ACTIVITY_COUNT },
+  french: { A1: FRENCH_A1_ACTIVITY_COUNT }
 };
 
 function unitSkillsFor(language) {
   return UNIT_SKILLS_BY_LANGUAGE[language] || SKILLS;
 }
 
-test('fallback worlds include six lessons per level for every supported language (English A1 and Español A1: 12 units x 6 skills, French A1: 12 units x 7 skills)', () => {
+function expectedActivityCountFor(language, level) {
+  return (LEVEL_ACTIVITY_COUNT_BY_LANGUAGE[language] || {})[level] ?? 6;
+}
+
+test('fallback worlds include six lessons per level for every supported language (English A1/A2 and Español A1: 12/4 units x 6 skills, French A1: 12 units x 7 skills)', () => {
   for (const language of WORLD_LANGUAGES) {
     const lessons = getLocalLessons(language);
-    const a1Count = A1_ACTIVITY_COUNT_BY_LANGUAGE[language] || 6;
-    const expectedTotal = 36 - 6 + a1Count;
+    const expectedTotal = LEVELS.reduce(
+      (sum, level) => sum + expectedActivityCountFor(language, level),
+      0
+    );
     assert.equal(lessons.length, expectedTotal);
 
     for (const level of LEVELS) {
       const levelLessons = lessons.filter((lesson) => lesson.level === level);
-      const expectedLevelCount = level === 'A1' ? a1Count : 6;
+      const expectedLevelCount = expectedActivityCountFor(language, level);
       assert.equal(levelLessons.length, expectedLevelCount);
       const expectedSkills = level === 'A1' ? unitSkillsFor(language) : SKILLS;
       assert.deepEqual(
@@ -303,7 +317,7 @@ test('lessons endpoint returns expanded A1 worlds for every supported language (
       // Español A1's 72-activity content (scripts/content/spanish-a1-units.js,
       // migrated via scripts/migrate-spanish-a1-units.js) is now live, so the
       // endpoint serves the same expanded structure as English/French A1.
-      const expectedCount = A1_ACTIVITY_COUNT_BY_LANGUAGE[language] || 6;
+      const expectedCount = expectedActivityCountFor(language, 'A1');
       assert.equal(body.lessons.length, expectedCount);
       assert.deepEqual(
         [...new Set(body.lessons.map((lesson) => lesson.skill))].sort(),
@@ -536,69 +550,93 @@ test('English A2 units are in order, and Phase 1 units 1-2 are free', () => {
   });
 });
 
-test('English A2 Unit 1 has all 6 core skills, each a real (non-generic) activity', () => {
-  const rows = seedLessons.filter(
-    (row) => row.target_language === 'english' && row.level === 'A2' && row.unit_slug === 'everyday-life'
-  );
+// Every check below runs across all currently-authored A2 units (not just
+// Unit 1) - scripts/content/english-a2-units.js is written in batches (see
+// its header comment), so this keeps passing as later batches add units
+// 5-10 without needing another update here.
+const englishA2UnitSlugs = [
+  ...new Set(
+    seedLessons
+      .filter((row) => row.target_language === 'english' && row.level === 'A2')
+      .map((row) => row.unit_slug)
+  )
+];
+
+test('English A2 units each have all 6 core skills, each a real (non-generic) activity', () => {
   const CORE_SKILLS = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
-  assert.deepEqual(
-    [...rows.map((r) => r.skill)].sort(),
-    [...CORE_SKILLS].sort()
-  );
-  rows.forEach((row) => {
-    assert.notEqual(row.title.trim(), '', `${row.slug} must have a real title`);
+  englishA2UnitSlugs.forEach((unitSlug) => {
+    const rows = seedLessons.filter(
+      (row) => row.target_language === 'english' && row.level === 'A2' && row.unit_slug === unitSlug
+    );
+    assert.deepEqual([...rows.map((r) => r.skill)].sort(), [...CORE_SKILLS].sort(), unitSlug);
+    rows.forEach((row) => {
+      assert.notEqual(row.title.trim(), '', `${row.slug} must have a real title`);
+      assert.ok(
+        !/^A2 (Reading|Listening|Speaking|Writing|Grammar|Vocabulary):/.test(row.title),
+        `${row.slug} must not be a generic placeholder title`
+      );
+    });
+  });
+});
+
+test('English A2 readings are each a single 350-550 word view, no parts/ordering, 8 mcq comprehension questions', () => {
+  englishA2UnitSlugs.forEach((unitSlug) => {
+    const row = seedLessons.find(
+      (r) =>
+        r.target_language === 'english' &&
+        r.level === 'A2' &&
+        r.unit_slug === unitSlug &&
+        r.skill === 'reading'
+    );
+    assert.ok(row, `expected a reading activity for unit "${unitSlug}"`);
+    const reading = row.content_json.reading;
+    assert.ok(!reading.parts, `${unitSlug}: A2 readings must not be split into parts`);
+    assert.equal(row.content_json.exercises.length, 8, unitSlug);
+
+    const wordCount = reading.text.split(/\s+/).filter(Boolean).length;
     assert.ok(
-      !/^A2 (Reading|Listening|Speaking|Writing|Grammar|Vocabulary):/.test(row.title),
-      `${row.slug} must not be a generic placeholder title`
+      wordCount >= 350 && wordCount <= 550,
+      `${unitSlug}: expected 350-550 words, got ${wordCount}`
     );
   });
 });
 
-test('English A2 Unit 1 reading is a single 350-550 word view, no parts/ordering, 8 mcq comprehension questions', () => {
-  const row = seedLessons.find(
-    (r) =>
-      r.target_language === 'english' &&
-      r.level === 'A2' &&
-      r.unit_slug === 'everyday-life' &&
-      r.skill === 'reading'
-  );
-  assert.ok(row, 'expected the Unit 1 reading activity to exist');
-  const reading = row.content_json.reading;
-  assert.ok(!reading.parts, 'A2 readings must not be split into parts');
-  assert.equal(row.content_json.exercises.length, 8);
+test('English A2 grammar/vocabulary have the required question-bank sizes, and no true/false or ordering anywhere', () => {
+  englishA2UnitSlugs.forEach((unitSlug) => {
+    const rows = seedLessons.filter(
+      (r) => r.target_language === 'english' && r.level === 'A2' && r.unit_slug === unitSlug
+    );
+    const grammarRow = rows.find((r) => r.skill === 'grammar');
+    const vocabRow = rows.find((r) => r.skill === 'vocabulary');
 
-  const wordCount = reading.text.split(/\s+/).filter(Boolean).length;
-  assert.ok(
-    wordCount >= 350 && wordCount <= 550,
-    `expected 350-550 words, got ${wordCount}`
-  );
-});
+    assert.ok(
+      grammarRow.content_json.exercises.length >= 10 && grammarRow.content_json.exercises.length <= 15,
+      unitSlug
+    );
+    assert.ok(
+      vocabRow.content_json.vocabulary.length >= 18 && vocabRow.content_json.vocabulary.length <= 25,
+      unitSlug
+    );
+    assert.ok(
+      vocabRow.content_json.exercises.length >= 10 && vocabRow.content_json.exercises.length <= 15,
+      unitSlug
+    );
 
-test('English A2 Unit 1 grammar/vocabulary have the required question-bank sizes, and no true/false or ordering anywhere', () => {
-  const rows = seedLessons.filter(
-    (r) => r.target_language === 'english' && r.level === 'A2' && r.unit_slug === 'everyday-life'
-  );
-  const grammarRow = rows.find((r) => r.skill === 'grammar');
-  const vocabRow = rows.find((r) => r.skill === 'vocabulary');
-
-  assert.ok(grammarRow.content_json.exercises.length >= 10 && grammarRow.content_json.exercises.length <= 15);
-  assert.ok(vocabRow.content_json.vocabulary.length >= 18 && vocabRow.content_json.vocabulary.length <= 25);
-  assert.ok(vocabRow.content_json.exercises.length >= 10 && vocabRow.content_json.exercises.length <= 15);
-
-  rows.forEach((row) => {
-    assert.equal('ordering' in (row.content_json.reading || {}), false, `${row.slug} must not use ordering`);
-    (row.content_json.exercises || [])
-      .filter((ex) => ex.type === 'mcq')
-      .forEach((ex, index) => {
-        assert.equal(ex.options.length, 4, `${row.slug} exercise #${index} must have exactly 4 options`);
-        assert.ok(
-          Number.isInteger(ex.answer) && ex.answer >= 0 && ex.answer <= 3,
-          `${row.slug} exercise #${index} must have a valid 0-3 answer index`
-        );
-        const looksTrueFalse =
-          ex.options.length === 2 || ex.options.map((o) => o.toLowerCase()).includes('true');
-        assert.equal(looksTrueFalse, false, `${row.slug} exercise #${index} must not be true/false`);
-      });
+    rows.forEach((row) => {
+      assert.equal('ordering' in (row.content_json.reading || {}), false, `${row.slug} must not use ordering`);
+      (row.content_json.exercises || [])
+        .filter((ex) => ex.type === 'mcq')
+        .forEach((ex, index) => {
+          assert.equal(ex.options.length, 4, `${row.slug} exercise #${index} must have exactly 4 options`);
+          assert.ok(
+            Number.isInteger(ex.answer) && ex.answer >= 0 && ex.answer <= 3,
+            `${row.slug} exercise #${index} must have a valid 0-3 answer index`
+          );
+          const looksTrueFalse =
+            ex.options.length === 2 || ex.options.map((o) => o.toLowerCase()).includes('true');
+          assert.equal(looksTrueFalse, false, `${row.slug} exercise #${index} must not be true/false`);
+        });
+    });
   });
 });
 
