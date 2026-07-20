@@ -132,19 +132,23 @@ function shapeBrowserLesson(row) {
     transcript: content.transcript || '',
     // extra (listeningType/phoneticSupport/speakers/durationSeconds/
     // difficulty) is display-only, safe to ship as-is - except
-    // grammarTest, which carries correct answers (correctOptionId/
-    // acceptedAnswers/correctOrder/explanation) and must go through the
-    // same sanitizer as the live API (lib/courseLessonsService.js) so this
-    // static bundle can't leak them. `dictation` is deliberately NOT
-    // included here: this file is a public static asset
-    // (window.ANDERGO_LANGUAGE_WORLDS), and dictation.segments[].text is
-    // the answer key for that exercise - only the backend
-    // (lib/courseLessonsService.js#checkDictation, reading from
-    // lesson_dictation_segments) may ever see it. Offline/no-backend mode
-    // simply doesn't support graded dictation, same limitation `answer`
-    // already has for mcq exercises in this bundle.
+    // grammarTest/listeningComprehension, which carry correct answers
+    // (correctOptionId/acceptedAnswers/correctOrder/explanation) and must
+    // go through the same sanitizer as the live API
+    // (lib/courseLessonsService.js) so this static bundle can't leak them.
+    // `dictation` is deliberately NOT included here: this file is a public
+    // static asset (window.ANDERGO_LANGUAGE_WORLDS), and
+    // dictation.segments[].text is the answer key for that exercise - only
+    // the backend (lib/courseLessonsService.js#checkDictation, reading
+    // from lesson_dictation_segments) may ever see it. Offline/no-backend
+    // mode simply doesn't support graded dictation, same limitation
+    // `answer` already has for mcq exercises in this bundle.
     extra: content.extra
-      ? { ...content.extra, grammarTest: sanitizeGrammarTestForClient(content.extra.grammarTest) }
+      ? {
+          ...content.extra,
+          grammarTest: sanitizeGrammarTestForClient(content.extra.grammarTest),
+          listeningComprehension: sanitizeGrammarTestForClient(content.extra.listeningComprehension)
+        }
       : content.extra || null,
     exercises: (content.exercises || []).map(sanitizeExerciseForClient)
   };

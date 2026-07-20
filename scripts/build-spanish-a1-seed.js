@@ -46,6 +46,10 @@ function shapeExtra(a) {
   if (a.speakers) extra.speakers = a.speakers;
   if (a.phoneticSupport) extra.phoneticSupport = a.phoneticSupport;
   if (a.dictation) extra.dictationSegmentCount = (a.dictation.segments || []).length;
+  // Scored Comprehension test (see lib/grammarTestSanitizer.js) - answer
+  // key stays in this raw source file only; never sent to the client
+  // as-is, only through that sanitizer.
+  if (a.listeningComprehension) extra.listeningComprehension = a.listeningComprehension;
   return Object.keys(extra).length ? extra : null;
 }
 

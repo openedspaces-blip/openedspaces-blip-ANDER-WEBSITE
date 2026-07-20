@@ -140,146 +140,6 @@
     "unit_overview": null
   },
   {
-    "slug": "hola-mucho-gusto",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "¡Hola! Mucho gusto",
-    "title_es": "",
-    "description": "Saludos, despedidas, presentarse y el alfabeto.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Presentarte, saludar y conocer a otras personas.",
-      "outcomes": [
-        "decir tu nombre",
-        "preguntar el nombre de otra persona",
-        "usar saludos formales e informales",
-        "deletrear información básica"
-      ],
-      "grammar": [
-        "verbo to be",
-        "subject pronouns",
-        "basic questions"
-      ],
-      "vocabulary": [
-        "greetings",
-        "names",
-        "classroom expressions",
-        "numbers 0–20"
-      ],
-      "scenario": "Tu primer día en una clase de inglés."
-    }
-  },
-  {
-    "slug": "informacion-personal",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Información personal",
-    "title_es": "",
-    "description": "Edad, nacionalidad, procedencia y datos de contacto.",
-    "order_index": 2,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-familia-y-mis-amigos",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi familia y mis amigos",
-    "title_es": "",
-    "description": "Miembros de la familia, posesivos y describir personas.",
-    "order_index": 3,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-rutina-diaria",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi rutina diaria",
-    "title_es": "",
-    "description": "Actividades cotidianas, la hora y el presente de indicativo.",
-    "order_index": 4,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-casa",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi casa",
-    "title_es": "",
-    "description": "Habitaciones, muebles y describir una vivienda.",
-    "order_index": 5,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-barrio-y-mi-ciudad",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi barrio y mi ciudad",
-    "title_es": "",
-    "description": "Lugares de la ciudad, direcciones y transporte.",
-    "order_index": 6,
-    "unit_overview": null
-  },
-  {
-    "slug": "comida-y-bebida",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Comida y bebida",
-    "title_es": "",
-    "description": "Alimentos, pedir comida y expresar gustos.",
-    "order_index": 7,
-    "unit_overview": null
-  },
-  {
-    "slug": "de-compras",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "De compras",
-    "title_es": "",
-    "description": "Ropa, colores, tallas y precios.",
-    "order_index": 8,
-    "unit_overview": null
-  },
-  {
-    "slug": "estudios-y-trabajo",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Estudios y trabajo",
-    "title_es": "",
-    "description": "Estudios, profesiones y responsabilidades sencillas.",
-    "order_index": 9,
-    "unit_overview": null
-  },
-  {
-    "slug": "tiempo-libre",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Tiempo libre",
-    "title_es": "",
-    "description": "Pasatiempos, preferencias e invitaciones.",
-    "order_index": 10,
-    "unit_overview": null
-  },
-  {
-    "slug": "salud-y-bienestar",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Salud y bienestar",
-    "title_es": "",
-    "description": "Partes del cuerpo, síntomas sencillos y pedir ayuda.",
-    "order_index": 11,
-    "unit_overview": null
-  },
-  {
-    "slug": "planes-y-repaso",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Planes y repaso",
-    "title_es": "",
-    "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
-    "order_index": 12,
-    "unit_overview": null
-  },
-  {
     "slug": "hello",
     "target_language": "english",
     "level": "A1",
@@ -693,5 +553,145 @@
       ],
       "scenario": "En Nochevieja, Sarah y Daniel repasan todo lo que han vivido y logrado juntos a lo largo del año."
     }
+  },
+  {
+    "slug": "hola-mucho-gusto",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "¡Hola! Mucho gusto",
+    "title_es": "",
+    "description": "Saludos, despedidas, presentarse y el alfabeto.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Presentarte, saludar y conocer a otras personas.",
+      "outcomes": [
+        "decir tu nombre",
+        "preguntar el nombre de otra persona",
+        "usar saludos formales e informales",
+        "deletrear información básica"
+      ],
+      "grammar": [
+        "verbo to be",
+        "subject pronouns",
+        "basic questions"
+      ],
+      "vocabulary": [
+        "greetings",
+        "names",
+        "classroom expressions",
+        "numbers 0–20"
+      ],
+      "scenario": "Tu primer día en una clase de inglés."
+    }
+  },
+  {
+    "slug": "informacion-personal",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Información personal",
+    "title_es": "",
+    "description": "Edad, nacionalidad, procedencia y datos de contacto.",
+    "order_index": 2,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-familia-y-mis-amigos",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi familia y mis amigos",
+    "title_es": "",
+    "description": "Miembros de la familia, posesivos y describir personas.",
+    "order_index": 3,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-rutina-diaria",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi rutina diaria",
+    "title_es": "",
+    "description": "Actividades cotidianas, la hora y el presente de indicativo.",
+    "order_index": 4,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-casa",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi casa",
+    "title_es": "",
+    "description": "Habitaciones, muebles y describir una vivienda.",
+    "order_index": 5,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-barrio-y-mi-ciudad",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi barrio y mi ciudad",
+    "title_es": "",
+    "description": "Lugares de la ciudad, direcciones y transporte.",
+    "order_index": 6,
+    "unit_overview": null
+  },
+  {
+    "slug": "comida-y-bebida",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Comida y bebida",
+    "title_es": "",
+    "description": "Alimentos, pedir comida y expresar gustos.",
+    "order_index": 7,
+    "unit_overview": null
+  },
+  {
+    "slug": "de-compras",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "De compras",
+    "title_es": "",
+    "description": "Ropa, colores, tallas y precios.",
+    "order_index": 8,
+    "unit_overview": null
+  },
+  {
+    "slug": "estudios-y-trabajo",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Estudios y trabajo",
+    "title_es": "",
+    "description": "Estudios, profesiones y responsabilidades sencillas.",
+    "order_index": 9,
+    "unit_overview": null
+  },
+  {
+    "slug": "tiempo-libre",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Tiempo libre",
+    "title_es": "",
+    "description": "Pasatiempos, preferencias e invitaciones.",
+    "order_index": 10,
+    "unit_overview": null
+  },
+  {
+    "slug": "salud-y-bienestar",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Salud y bienestar",
+    "title_es": "",
+    "description": "Partes del cuerpo, síntomas sencillos y pedir ayuda.",
+    "order_index": 11,
+    "unit_overview": null
+  },
+  {
+    "slug": "planes-y-repaso",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Planes y repaso",
+    "title_es": "",
+    "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
+    "order_index": 12,
+    "unit_overview": null
   }
 ]

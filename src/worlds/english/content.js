@@ -1359,7 +1359,8 @@
             ]
           }
         ]
-      }
+      },
+      "listeningComprehension": null
     },
     "exercises": [
       {
@@ -1643,7 +1644,8 @@
             ]
           }
         ]
-      }
+      },
+      "listeningComprehension": null
     },
     "exercises": [
       {

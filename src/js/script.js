@@ -5952,6 +5952,166 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
 }
 
 // ---------------------------------------------------------------------
+// Scored Listening Comprehension test (course_lessons.extra.
+// listeningComprehension - same shape/sanitizer/grading as Grammar's
+// extra.grammarTest, see lib/grammarTestSanitizer.js and
+// lib/courseLessonsService.js#gradeExercises). Renders inside Listening's
+// existing tab panel (.listening-mode-panel), not the whole skill view, so
+// it needs its own container/nav wrappers - but reuses Grammar's
+// per-question body renderer, answer-collector and score-band helper
+// as-is (renderGrammarTestQuestionBodyHtml/collectGrammarTestAnswer/
+// gradeBandForScore/isGrammarTestQuestionAnswered are already fully
+// generic: they only ever read `question`/`test`/`runtime`, never
+// anything grammar-specific), so the question-level markup/interaction
+// (.grammar-test-option/-fill-input/-order-select and their click/read
+// logic) is identical and shared, not duplicated.
+const listeningComprehensionState = new Map();
+
+function getListeningComprehensionRuntime(lesson) {
+  let runtime = listeningComprehensionState.get(lesson.slug);
+  if (!runtime) {
+    runtime = { phase: 'instructions', currentIndex: 0, answers: {}, lastResult: null };
+    listeningComprehensionState.set(lesson.slug, runtime);
+  }
+  return runtime;
+}
+
+// Legacy fallback for every Listening lesson that doesn't have a
+// listeningComprehension question bank yet - today's flat, ungated
+// exercises list, unchanged (see the old inline block this replaced in
+// renderListeningOfficial).
+function renderListeningComprehensionLegacyHtml(lesson) {
+  const { total, attempted } = getExerciseProgress(lesson);
+  const pct = total ? Math.round((attempted / total) * 100) : 0;
+  const exercisesHtml = (lesson.exercises || [])
+    .filter((item) => item.type === 'mcq')
+    .map((item, index) => renderLessonExercise(item, index, lesson))
+    .join('');
+  return `
+    <div class="listening-questions-section">
+      <div class="listening-progress-bar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
+      <div class="listening-questions">${exercisesHtml || '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>'}</div>
+    </div>
+  `;
+}
+
+function renderListeningComprehensionInstructionsHtml(lesson, bank) {
+  const total = bank.questions.length;
+  return `
+    <div class="grammar-test-card card-enter">
+      <p class="grammar-test-instructions-text">Responde estas preguntas para comprobar cuánto entendiste del audio.</p>
+      <ul class="grammar-test-meta-list">
+        <li>📝 ${total} preguntas</li>
+        <li>🎯 Aprobación recomendada: ${bank.passingScore || 70}/100</li>
+        ${lesson.listeningComprehensionBestScore != null ? `<li>🏆 Mejor puntuación: ${lesson.listeningComprehensionBestScore}/100</li>` : ''}
+      </ul>
+      <button type="button" class="primary-btn hover-lift btn-press listening-comp-start-btn">Comenzar</button>
+    </div>
+  `;
+}
+
+function renderListeningComprehensionQuestionHtml(lesson, bank, runtime) {
+  const total = bank.questions.length;
+  const index = Math.min(runtime.currentIndex, total - 1);
+  const question = bank.questions[index];
+  const pct = Math.round(((index + 1) / total) * 100);
+  const isLast = index === total - 1;
+  return `
+    <div class="grammar-test-card card-enter">
+      <div class="grammar-test-progress-row">
+        <span class="grammar-test-counter">Pregunta ${index + 1} de ${total}</span>
+        <div class="grammar-test-progress-bar"><div class="progress-fill-animated" style="width:${pct}%"></div></div>
+      </div>
+      <p class="grammar-test-question-prompt">${escapeHtml(question.prompt)}</p>
+      ${renderGrammarTestQuestionBodyHtml(question, runtime)}
+      <div class="grammar-test-nav-row">
+        <button type="button" class="secondary-btn hover-lift btn-press listening-comp-prev-btn" ${index === 0 ? 'disabled' : ''}>Anterior</button>
+        <button type="button" class="primary-btn hover-lift btn-press listening-comp-next-btn">${isLast ? 'Revisar' : 'Siguiente'}</button>
+      </div>
+    </div>
+  `;
+}
+
+function renderListeningComprehensionReviewHtml(lesson, bank, runtime) {
+  const itemsHtml = bank.questions
+    .map((question, index) => {
+      const answered = isGrammarTestQuestionAnswered(runtime, question);
+      return `
+        <li class="grammar-test-review-item${answered ? ' is-answered' : ' is-unanswered'}">
+          <span class="grammar-test-review-status" aria-hidden="true">${answered ? '✅' : '⚠️'}</span>
+          <span class="grammar-test-review-prompt">${index + 1}. ${escapeHtml(question.prompt)}</span>
+          <button type="button" class="secondary-btn listening-comp-review-edit-btn" data-question-index="${index}">${answered ? 'Editar' : 'Responder'}</button>
+        </li>
+      `;
+    })
+    .join('');
+  const allAnswered = bank.questions.every((question) => isGrammarTestQuestionAnswered(runtime, question));
+  return `
+    <div class="grammar-test-card card-enter">
+      <h4>Revisa tus respuestas</h4>
+      <ul class="grammar-test-review-list">${itemsHtml}</ul>
+      ${!allAnswered ? '<p class="grammar-test-review-warning">Responde todas las preguntas para poder enviar.</p>' : ''}
+      <div class="grammar-test-nav-row">
+        <button type="button" class="secondary-btn hover-lift btn-press listening-comp-review-edit-btn" data-question-index="${bank.questions.length - 1}">Volver a la última pregunta</button>
+        <button type="button" class="primary-btn hover-lift btn-press listening-comp-submit-btn" ${!allAnswered ? 'disabled' : ''}>Enviar</button>
+      </div>
+    </div>
+  `;
+}
+
+function renderListeningComprehensionResultsHtml(lesson, bank, runtime) {
+  const result = runtime.lastResult;
+  if (!result) {
+    runtime.phase = 'instructions';
+    return renderListeningComprehensionInstructionsHtml(lesson, bank);
+  }
+  const band = gradeBandForScore(result.score);
+  const resultsByQuestionId = new Map((result.results || []).map((r) => [String(r.questionId), r]));
+  const correctCount = (result.results || []).filter((r) => r.correct).length;
+  const breakdownHtml = bank.questions
+    .map((question, index) => {
+      const r = resultsByQuestionId.get(String(question.id));
+      const correct = Boolean(r?.correct);
+      return `
+        <li class="grammar-test-breakdown-item${correct ? ' is-correct' : ' is-incorrect'}">
+          <span class="grammar-test-breakdown-icon" aria-hidden="true">${correct ? '✅' : '❌'}</span>
+          <div>
+            <p class="grammar-test-breakdown-prompt">${index + 1}. ${escapeHtml(question.prompt)}</p>
+            ${r?.explanation ? `<p class="grammar-test-breakdown-explanation">${escapeHtml(r.explanation)}</p>` : ''}
+          </div>
+        </li>
+      `;
+    })
+    .join('');
+  return `
+    <div class="grammar-test-card card-enter">
+      <div class="grammar-test-score-band">
+        <span class="grammar-test-score-emoji" aria-hidden="true">${band.emoji}</span>
+        <strong class="grammar-test-score-number">${result.score}/100</strong>
+        <span class="grammar-test-score-label">${band.label}</span>
+      </div>
+      <p class="grammar-test-score-detail">Respuestas correctas: ${correctCount} de ${bank.questions.length}</p>
+      <p class="grammar-test-score-detail">
+        ${result.bestScore != null ? `Mejor puntuación: ${result.bestScore}/100 · ` : ''}Intento n.º ${result.attemptNumber ?? ''} · ${new Date().toLocaleDateString('es-DO')}
+      </p>
+      <ul class="grammar-test-breakdown-list">${breakdownHtml}</ul>
+      <button type="button" class="primary-btn hover-lift btn-press listening-comp-retry-btn">Intentar de nuevo</button>
+    </div>
+  `;
+}
+
+function renderListeningComprehensionPanel(lesson) {
+  const bank = lesson.extra?.listeningComprehension;
+  if (!bank?.questions?.length) return renderListeningComprehensionLegacyHtml(lesson);
+
+  const runtime = getListeningComprehensionRuntime(lesson);
+  if (runtime.phase === 'question') return renderListeningComprehensionQuestionHtml(lesson, bank, runtime);
+  if (runtime.phase === 'review') return renderListeningComprehensionReviewHtml(lesson, bank, runtime);
+  if (runtime.phase === 'results') return renderListeningComprehensionResultsHtml(lesson, bank, runtime);
+  return renderListeningComprehensionInstructionsHtml(lesson, bank);
+}
+
+// ---------------------------------------------------------------------
 // Shared vocabulary flashcard component. One normalizer + one render
 // function produce every vocab card in the app (English/French/Spanish,
 // every level/unit, the shuffled "review" order, and any future reuse) -
@@ -6479,6 +6639,19 @@ function buildListeningPlayerMarkup({ sourceLabel, sourceIsAi, title }) {
         <input type="range" class="listening-volume-range" min="0" max="1" step="0.05" value="1" aria-label="Volumen">
       </label>
     </div>
+  `;
+}
+
+// Transcript is its own tab (see listeningModeList/wireListeningModePanel)
+// rather than embedded in the player markup, so it can be shown next to
+// Diálogos/Dictado/Transcripción fonética/Comprensión instead of always
+// taking up space under the audio controls. renderListeningTranscriptControls
+// re-queries these two elements from `content` (not scoped to this panel),
+// so it works the same whether they're inline or in a separate tab panel -
+// only requirement is they exist in the DOM when that function runs, which
+// wireListeningModePanel guarantees by rendering this panel first.
+function renderListeningTranscriptPanel() {
+  return `
     <div class="listening-transcript">
       <div class="listening-transcript-controls"></div>
       <div class="listening-transcript-text" hidden></div>
@@ -6503,7 +6676,12 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
   const textEl = content.querySelector('.listening-transcript-text');
   if (!audioEl || !playerEl) return;
 
-  if (textEl) textEl.textContent = meta.transcript || '';
+  // Stashed on runtime (not just set on textEl directly) because the
+  // transcript is now its own tab - textEl may not exist in the DOM yet if
+  // that tab isn't the active one, so wireListeningModePanel re-reads
+  // runtime.transcript when the student switches to it.
+  runtime.transcript = meta.transcript || '';
+  if (textEl) textEl.textContent = runtime.transcript;
   renderListeningTranscriptControls(content, lesson, runtime);
 
   const setState = (state, statusText) => {
@@ -6765,12 +6943,20 @@ function computeListeningTutorQuestionContext(lesson) {
 // behavior change for existing languages.
 // ---------------------------------------------------------------------
 
+// Despite the name (kept to avoid a wider rename across every call site),
+// this is no longer just "extra" content - Transcripción and Comprensión
+// are always present, so every Listening lesson gets at least a 2-tab bar
+// below the always-visible player; Diálogo/Dictado/Transcripción fonética
+// join it only for lessons that actually have that content (today: the
+// Spanish A1 catalog).
 function listeningExtraModeList(lesson) {
   const modes = [];
-  if (lesson.dictation?.segments?.length) modes.push({ id: 'dictation', label: 'Dictado' });
-  if (lesson.extra?.phoneticSupport) modes.push({ id: 'phonetic', label: 'Transcripción fonética' });
   if (lesson.extra?.listeningType === 'dialogue' && lesson.dialogue?.length)
-    modes.push({ id: 'dialogue', label: 'Diálogo / Role-play' });
+    modes.push({ id: 'dialogue', label: 'Diálogos' });
+  if (lesson.dictation?.segments?.length) modes.push({ id: 'dictation', label: 'Dictado' });
+  modes.push({ id: 'transcript', label: 'Transcripción' });
+  if (lesson.extra?.phoneticSupport) modes.push({ id: 'phonetic', label: 'Transcripción fonética' });
+  modes.push({ id: 'comprehension', label: 'Comprensión' });
   return modes;
 }
 
@@ -6896,6 +7082,14 @@ function wireListeningModePanel(content, lesson, runtime) {
   if (runtime.extraMode === 'dictation') panel.innerHTML = renderListeningDictationPanel(lesson, runtime);
   else if (runtime.extraMode === 'phonetic') panel.innerHTML = renderListeningPhoneticPanel(lesson);
   else if (runtime.extraMode === 'dialogue') panel.innerHTML = renderListeningDialoguePanel(lesson, runtime);
+  else if (runtime.extraMode === 'transcript') panel.innerHTML = renderListeningTranscriptPanel();
+  else if (runtime.extraMode === 'comprehension') panel.innerHTML = renderListeningComprehensionPanel(lesson);
+
+  if (runtime.extraMode === 'transcript') {
+    const textEl = panel.querySelector('.listening-transcript-text');
+    if (textEl) textEl.textContent = runtime.transcript || '';
+    renderListeningTranscriptControls(content, lesson, runtime);
+  }
 
   panel.querySelectorAll('.dictation-segment-input').forEach((el) => {
     el.addEventListener('input', () => {
@@ -6936,12 +7130,14 @@ function wireListeningExtraModes(content, lesson, runtime) {
 }
 
 function renderListeningOfficial(content, lesson, runtime, audio) {
-  const { total, attempted, allAttempted } = getExerciseProgress(lesson);
-  const pct = total ? Math.round((attempted / total) * 100) : 0;
-  const exercisesHtml = (lesson.exercises || [])
-    .filter((item) => item.type === 'mcq')
-    .map((item, index) => renderLessonExercise(item, index, lesson))
-    .join('');
+  // Scored Comprehension (extra.listeningComprehension) replaces the old
+  // "Completar" button the same way Grammar's scored test replaced its
+  // old completion flow - submitting the test inside the Comprensión tab
+  // already calls the shared /complete endpoint, so the nav-row button
+  // would just be a confusing second path to the same action. Lessons
+  // without that question bank keep today's button/gating unchanged.
+  const hasScoredComprehension = Boolean(lesson.extra?.listeningComprehension?.questions?.length);
+  const { allAttempted } = getExerciseProgress(lesson);
   const objective = lesson.mission || lesson.intro || lesson.description || '';
   const durationLabel = audio.duration ? `${Math.round(audio.duration)}s` : 'No especificada';
   const tutorCtx = computeListeningTutorQuestionContext(lesson);
@@ -6957,17 +7153,16 @@ function renderListeningOfficial(content, lesson, runtime, audio) {
       <div class="listening-vocab-list">${(lesson.vocabulary || []).map((item) => `<span class="listening-vocab-item">${escapeHtml(item.word)}<small>${escapeHtml(resolveVocabTranslation(item))}</small></span>`).join('')}</div>
     </div>
     ${renderListeningExtraModesHtml(lesson, runtime)}
-    <div class="listening-questions-section">
-      <h4>Preguntas de comprensión</h4>
-      <div class="listening-progress-bar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
-      <div class="listening-questions">${exercisesHtml || '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>'}</div>
-    </div>
     <div class="skill-view-tutor-cta">
       ${listeningTutorButtonsHtml(lesson, { transcript: audio.transcript, vocabulary: (lesson.vocabulary || []).map((v) => v.word).join(', '), ...tutorCtx })}
     </div>
-    <div class="listening-nav-row">
-      <button type="button" class="primary-btn listening-complete-btn" ${!allAttempted || lesson.completed ? 'disabled' : ''}>${lesson.completed ? 'Completada' : 'Completar'}</button>
-    </div>
+    ${
+      hasScoredComprehension
+        ? ''
+        : `<div class="listening-nav-row">
+            <button type="button" class="primary-btn listening-complete-btn" ${!allAttempted || lesson.completed ? 'disabled' : ''}>${lesson.completed ? 'Completada' : 'Completar'}</button>
+          </div>`
+    }
   `;
 
   wireListeningPlayerControls(content, lesson, runtime, {
@@ -8416,6 +8611,142 @@ function enableHomepageActions() {
       } catch (error) {
         grammarTestSubmitBtn.disabled = false;
         grammarTestSubmitBtn.textContent = 'Enviar prueba';
+        showHomeToast(error.message || 'No se pudo enviar la prueba.');
+      }
+      return;
+    }
+
+    // Scored Listening Comprehension (see renderListeningComprehensionPanel
+    // and friends above) - same shape/endpoint as the Grammar test handlers
+    // just above, but resolves into .listening-mode-panel (one tab among
+    // Escuchar/Diálogos/Dictado/Transcripción/Transcripción fonética)
+    // instead of the whole .skill-view-content, and reads
+    // lesson.extra.listeningComprehension instead of lesson.extra.grammarTest.
+    function getListeningComprehensionContext(target) {
+      const skillSection = target.closest('.skill-view-section');
+      const lesson = learningPathState.lessons.find(
+        (item) => item.slug === skillSection?.dataset.activeLessonSlug
+      );
+      const panel = skillSection?.querySelector('.listening-mode-panel');
+      if (!lesson?.extra?.listeningComprehension?.questions?.length || !panel) return null;
+      return {
+        lesson,
+        content: skillSection.querySelector('.skill-view-content'),
+        panel,
+        bank: lesson.extra.listeningComprehension,
+        runtime: getListeningComprehensionRuntime(lesson)
+      };
+    }
+
+    const listeningCompStartBtn = event.target.closest('.listening-comp-start-btn');
+    if (listeningCompStartBtn) {
+      const ctx = getListeningComprehensionContext(listeningCompStartBtn);
+      if (!ctx) return;
+      ctx.runtime.phase = 'question';
+      ctx.runtime.currentIndex = 0;
+      ctx.panel.innerHTML = renderListeningComprehensionPanel(ctx.lesson);
+      return;
+    }
+
+    const listeningCompPrevBtn = event.target.closest('.listening-comp-prev-btn');
+    if (listeningCompPrevBtn) {
+      const ctx = getListeningComprehensionContext(listeningCompPrevBtn);
+      if (!ctx) return;
+      collectGrammarTestAnswer(ctx.panel, ctx.bank, ctx.runtime);
+      ctx.runtime.currentIndex = Math.max(0, ctx.runtime.currentIndex - 1);
+      ctx.panel.innerHTML = renderListeningComprehensionPanel(ctx.lesson);
+      return;
+    }
+
+    const listeningCompNextBtn = event.target.closest('.listening-comp-next-btn');
+    if (listeningCompNextBtn) {
+      const ctx = getListeningComprehensionContext(listeningCompNextBtn);
+      if (!ctx) return;
+      collectGrammarTestAnswer(ctx.panel, ctx.bank, ctx.runtime);
+      if (ctx.runtime.currentIndex >= ctx.bank.questions.length - 1) {
+        ctx.runtime.phase = 'review';
+      } else {
+        ctx.runtime.currentIndex += 1;
+      }
+      ctx.panel.innerHTML = renderListeningComprehensionPanel(ctx.lesson);
+      return;
+    }
+
+    const listeningCompReviewEditBtn = event.target.closest('.listening-comp-review-edit-btn');
+    if (listeningCompReviewEditBtn) {
+      const ctx = getListeningComprehensionContext(listeningCompReviewEditBtn);
+      if (!ctx) return;
+      ctx.runtime.currentIndex = Number(listeningCompReviewEditBtn.dataset.questionIndex) || 0;
+      ctx.runtime.phase = 'question';
+      ctx.panel.innerHTML = renderListeningComprehensionPanel(ctx.lesson);
+      return;
+    }
+
+    const listeningCompRetryBtn = event.target.closest('.listening-comp-retry-btn');
+    if (listeningCompRetryBtn) {
+      const ctx = getListeningComprehensionContext(listeningCompRetryBtn);
+      if (!ctx) return;
+      listeningComprehensionState.set(ctx.lesson.slug, {
+        phase: 'question',
+        currentIndex: 0,
+        answers: {},
+        lastResult: null
+      });
+      ctx.panel.innerHTML = renderListeningComprehensionPanel(ctx.lesson);
+      return;
+    }
+
+    const listeningCompSubmitBtn = event.target.closest('.listening-comp-submit-btn');
+    if (listeningCompSubmitBtn) {
+      const ctx = getListeningComprehensionContext(listeningCompSubmitBtn);
+      if (!ctx || listeningCompSubmitBtn.disabled) return;
+
+      if (!authStatus.session?.access_token) {
+        setAuthMessage('Crea tu cuenta gratis para guardar el resultado de esta prueba.');
+        openModal('signup');
+        return;
+      }
+
+      const { lesson, panel, bank, runtime } = ctx;
+      listeningCompSubmitBtn.disabled = true;
+      listeningCompSubmitBtn.textContent = 'Enviando...';
+
+      try {
+        const answers = bank.questions.map((q) => ({ questionId: q.id, answer: runtime.answers[q.id] }));
+        const response = await fetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/complete`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', ...authHeaders() },
+          body: JSON.stringify({ answers })
+        });
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(data.error || 'No se pudo enviar la prueba.');
+
+        lesson.completed = true;
+        if (data.bestScore != null) lesson.listeningComprehensionBestScore = data.bestScore;
+        updateProgressDisplay(data, true);
+        renderSkillCards();
+        window.AndergoGamification?.recordLessonCompletion({
+          slug: lesson.slug,
+          language: learningPathState.language,
+          score: data.score ?? 100,
+          xpReward: lesson.xpReward || 20
+        });
+        window.AndergoGamification?.syncFromServer(data);
+        if (data.newBadges?.length) {
+          data.newBadges.forEach((badge) =>
+            showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`)
+          );
+        }
+        if (data.leveledUp) showCelebration(`🎉 ¡Subiste a nivel ${data.level}!`);
+        showHomeToast(`Comprensión completada. +${data.earnedXp || lesson.xpReward || 20} XP`);
+        celebrateActivityCompletion();
+
+        runtime.lastResult = data;
+        runtime.phase = 'results';
+        panel.innerHTML = renderListeningComprehensionPanel(lesson);
+      } catch (error) {
+        listeningCompSubmitBtn.disabled = false;
+        listeningCompSubmitBtn.textContent = 'Enviar';
         showHomeToast(error.message || 'No se pudo enviar la prueba.');
       }
       return;

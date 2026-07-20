@@ -148,7 +148,84 @@ const units = [
           { type: 'mcq', prompt: '¿Qué dice Marco cuando conoce a Valentina?', options: ['Adiós', 'Mucho gusto', '¿Qué hora es?', 'Tengo hambre'], answer: 1 },
           { type: 'mcq', prompt: '¿Cómo se despide Marco al final?', options: ['Buenos días', 'Hola', 'Nos vemos en clase', 'Gracias'], answer: 2 },
           { type: 'mcq', prompt: '¿Qué responde Marco a "¿Cómo estás?"?', options: ['Soy Marco', 'Estoy bien, gracias', 'Mucho gusto', '¿Cómo te llamas?'], answer: 1 }
-        ]
+        ],
+        // Scored Comprensión test pilot for Listening's 6-tab reorganization
+        // (see lib/grammarTestSanitizer.js - same shape/sanitizer/grading as
+        // Grammar's extra.grammarTest, just under extra.listeningComprehension).
+        // Built from the same dialogue as `exercises`/`dialogue` above,
+        // which stay unchanged for the old ungated inline-feedback view.
+        listeningComprehension: {
+          id: 'spanish-a1-hola-mucho-gusto-listening-comprehension',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: '¿Qué dice Marco cuando conoce a Valentina?',
+              options: [
+                { id: 'o1', text: 'Adiós' },
+                { id: 'o2', text: 'Mucho gusto' },
+                { id: 'o3', text: '¿Qué hora es?' },
+                { id: 'o4', text: 'Tengo hambre' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Marco responde al saludo de Valentina con "Mucho gusto".'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: '¿Cómo se despide Marco al final?',
+              options: [
+                { id: 'o1', text: 'Buenos días' },
+                { id: 'o2', text: 'Hola' },
+                { id: 'o3', text: 'Nos vemos en clase' },
+                { id: 'o4', text: 'Gracias' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Marco se despide diciendo "¡Nos vemos en clase!".'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: '¿Qué responde Marco a "¿Cómo estás?"?',
+              options: [
+                { id: 'o1', text: 'Soy Marco' },
+                { id: 'o2', text: 'Estoy bien, gracias' },
+                { id: 'o3', text: 'Mucho gusto' },
+                { id: 'o4', text: '¿Cómo te llamas?' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Marco contesta "Estoy bien, gracias. ¿Y tú?".'
+            },
+            {
+              id: 'q4',
+              type: 'fill_blank',
+              prompt: 'Valentina dice: "¡Hola! Me llamo Valentina. ¿Cómo te ___ tú?"',
+              acceptedAnswers: ['llamas'],
+              explanation: 'La pregunta completa es "¿Cómo te llamas tú?".'
+            },
+            {
+              id: 'q5',
+              type: 'fill_blank',
+              prompt: 'Marco dice: "Soy ___ aquí."',
+              acceptedAnswers: ['de'],
+              explanation: 'Marco dice "Soy de aquí" para explicar de dónde es.'
+            },
+            {
+              id: 'q6',
+              type: 'ordering',
+              prompt: 'Ordena las líneas del diálogo.',
+              items: [
+                { id: 'w1', text: '¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?' },
+                { id: 'w2', text: 'Hola, Valentina. Soy Marco. Mucho gusto.' },
+                { id: 'w3', text: 'Mucho gusto, Marco. ¿Cómo estás?' },
+                { id: 'w4', text: 'Estoy bien, gracias. ¿Y tú?' }
+              ],
+              correctOrder: ['w1', 'w2', 'w3', 'w4'],
+              explanation: 'Valentina saluda y pregunta el nombre; Marco se presenta; Valentina pregunta cómo está; Marco responde.'
+            }
+          ]
+        }
       }),
       speaking: activity('speaking', {
         title: 'Saluda y preséntate',

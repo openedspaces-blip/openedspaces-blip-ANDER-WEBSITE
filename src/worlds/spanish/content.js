@@ -462,6 +462,10 @@
     "dialogue": [],
     "reading": {
       "title": "El primer día de clase",
+      "illustration": {
+        "src": "/assets/readings/spanish/a1/el-primer-dia-de-clase.webp",
+        "alt": "Valentina conoce a su profesor y a un compañero en su primer día de clase"
+      },
       "parts": [
         "Hola, me llamo Valentina. Hoy es mi primer día de clase de español. Estoy un poco nerviosa, pero también contenta.",
         "Mi profesor se llama Diego. Él dice: \"¡Buenos días, clase!\" y nosotros respondemos: \"¡Buenos días, profesor!\".",
@@ -657,6 +661,114 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-hola-mucho-gusto-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "¿Qué dice Marco cuando conoce a Valentina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Adiós"
+              },
+              {
+                "id": "o2",
+                "text": "Mucho gusto"
+              },
+              {
+                "id": "o3",
+                "text": "¿Qué hora es?"
+              },
+              {
+                "id": "o4",
+                "text": "Tengo hambre"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "¿Cómo se despide Marco al final?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenos días"
+              },
+              {
+                "id": "o2",
+                "text": "Hola"
+              },
+              {
+                "id": "o3",
+                "text": "Nos vemos en clase"
+              },
+              {
+                "id": "o4",
+                "text": "Gracias"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué responde Marco a \"¿Cómo estás?\"?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Soy Marco"
+              },
+              {
+                "id": "o2",
+                "text": "Estoy bien, gracias"
+              },
+              {
+                "id": "o3",
+                "text": "Mucho gusto"
+              },
+              {
+                "id": "o4",
+                "text": "¿Cómo te llamas?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "fill_blank",
+            "prompt": "Valentina dice: \"¡Hola! Me llamo Valentina. ¿Cómo te ___ tú?\""
+          },
+          {
+            "id": "q5",
+            "type": "fill_blank",
+            "prompt": "Marco dice: \"Soy ___ aquí.\""
+          },
+          {
+            "id": "q6",
+            "type": "ordering",
+            "prompt": "Ordena las líneas del diálogo.",
+            "items": [
+              {
+                "id": "w1",
+                "text": "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?"
+              },
+              {
+                "id": "w2",
+                "text": "Hola, Valentina. Soy Marco. Mucho gusto."
+              },
+              {
+                "id": "w3",
+                "text": "Mucho gusto, Marco. ¿Cómo estás?"
+              },
+              {
+                "id": "w4",
+                "text": "Estoy bien, gracias. ¿Y tú?"
+              }
+            ]
+          }
+        ]
+      },
       "grammarTest": null
     },
     "exercises": [
@@ -1193,7 +1305,8 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
@@ -1720,7 +1833,8 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
@@ -2276,7 +2390,8 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
@@ -2799,7 +2914,8 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
@@ -3355,7 +3471,8 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
@@ -3911,7 +4028,8 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
@@ -4472,7 +4590,8 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
@@ -5030,7 +5149,8 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
@@ -5586,7 +5706,8 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
@@ -6142,7 +6263,8 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
@@ -6666,7 +6788,8 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
