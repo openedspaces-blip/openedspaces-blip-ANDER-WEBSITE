@@ -2643,12 +2643,17 @@ const languageDisplayNames = {
 // override) at call time, not baked into this function.
 // ---------------------------------------------------------------------
 
+// es-419 (Latin American Spanish) rather than es-ES, matching this app's
+// actual Spanish content/audience. pt-BR isn't a selectable target
+// language yet, but is mapped defensively so a future one doesn't default
+// to the wrong voice. Must match lib/server.js's SUPPORTED_SPEECH_LOCALES.
 const LANGUAGE_LOCALES = {
   english: 'en-US',
   french: 'fr-FR',
-  spanish: 'es-ES',
+  spanish: 'es-419',
   italian: 'it-IT',
-  german: 'de-DE'
+  german: 'de-DE',
+  portuguese: 'pt-BR'
 };
 
 function supportsSpeech() {
@@ -3268,6 +3273,103 @@ function escapeHtml(value = '') {
     .replaceAll("'", '&#039;');
 }
 
+// ---------------------------------------------------------------------
+// Tutor reply Markdown cleanup - aiTutorService.js's TUTOR_INSTRUCTIONS ask
+// the model not to use Markdown, but never trust that: both functions below
+// always escape HTML first and only ever re-introduce <strong>/<ul>/<ol>/
+// <li>/<br> themselves - never raw innerHTML from an un-escaped source, and
+// never any attribute a reply could hide a script or handler in.
+// ---------------------------------------------------------------------
+const TUTOR_BULLET_LINE = /^[-*]\s+(.*)$/;
+const TUTOR_NUMBERED_LINE = /^\d+[.)]\s+(.*)$/;
+const TUTOR_HEADING_LINE = /^#{1,6}\s+(.*)$/;
+
+// **bold** becomes <strong> on already-escaped text; any leftover single/
+// double asterisk (unterminated bold, or plain emphasis) is dropped rather
+// than turned into <em> - the spec's ask is "no visible asterisks", not
+// "support italics". Safe on a partial/still-streaming line: an
+// unterminated `**` just has no closing match yet, so it stays plain text
+// (then gets stripped) until the closing `**` arrives.
+function formatTutorInlineHtml(escapedLine) {
+  return escapedLine.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/\*/g, '');
+}
+
+function matchTutorListLine(trimmedLine) {
+  const bulletMatch = trimmedLine.match(TUTOR_BULLET_LINE);
+  if (bulletMatch) return { type: 'ul', content: bulletMatch[1] };
+  const numberedMatch = trimmedLine.match(TUTOR_NUMBERED_LINE);
+  if (numberedMatch) return { type: 'ol', content: numberedMatch[1] };
+  return null;
+}
+
+// Renders a raw Tutor reply into safe HTML for the response card: escapes
+// HTML, then converts **bold**, "- "/"* " bullet lists and "1. " numbered
+// lists into real <strong>/<ul>/<ol>/<li>, strips leading #/##/... heading
+// markers (kept as a plain line - the spec asks for no long headings, not a
+// differently-styled one), and preserves blank-line paragraph breaks as
+// <br>. Used for both the live-streaming message body and the final text.
+function renderTutorMarkdownHtml(rawText) {
+  const lines = String(rawText || '').split('\n');
+  const htmlParts = [];
+  let listBuffer = [];
+  let listType = null;
+
+  const flushList = () => {
+    if (!listBuffer.length) return;
+    htmlParts.push(`<${listType}>${listBuffer.join('')}</${listType}>`);
+    listBuffer = [];
+    listType = null;
+  };
+
+  lines.forEach((line) => {
+    const trimmed = line.trim();
+    if (!trimmed) {
+      flushList();
+      return;
+    }
+
+    const listLine = matchTutorListLine(trimmed);
+    if (listLine) {
+      if (listType && listType !== listLine.type) flushList();
+      listType = listLine.type;
+      listBuffer.push(`<li>${formatTutorInlineHtml(escapeHtml(listLine.content))}</li>`);
+      return;
+    }
+
+    flushList();
+    const headingMatch = trimmed.match(TUTOR_HEADING_LINE);
+    const content = headingMatch ? headingMatch[1] : trimmed;
+    htmlParts.push(formatTutorInlineHtml(escapeHtml(content)));
+  });
+  flushList();
+
+  return htmlParts.join('<br>');
+}
+
+// Plain-text counterpart of renderTutorMarkdownHtml(), for the text actually
+// sent to TTS (messageEl.dataset.ttsText / /api/speech/synthesize) -
+// speechSynthesis must never read "asterisk asterisk Pattern asterisk
+// asterisk" aloud. Strips the same markers but returns readable text, not
+// HTML - list bullets/numbers are dropped (nothing reads "dash" aloud
+// either) and lines are joined with a space, relying on each line's own
+// sentence punctuation for natural pauses.
+function cleanTutorTextForSpeech(rawText) {
+  return String(rawText || '')
+    .split('\n')
+    .map((line) => {
+      const trimmed = line.trim();
+      if (!trimmed) return '';
+      const listLine = matchTutorListLine(trimmed);
+      const headingMatch = trimmed.match(TUTOR_HEADING_LINE);
+      const content = listLine?.content ?? headingMatch?.[1] ?? trimmed;
+      return content.replace(/\*\*([^*]+)\*\*/g, '$1').replace(/\*/g, '');
+    })
+    .filter(Boolean)
+    .join(' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 // Returns the message wrapper <div> (not just its body <p>) so streaming
 // callers (see sendTutorMessage()) can keep updating its text as chunks
 // arrive, and so tutor voice controls (renderTutorVoiceControls()) have
@@ -3279,10 +3381,15 @@ function appendTutorMessage(container, role, text, { isError = false } = {}) {
 
   const label = document.createElement('span');
   label.className = 'tutor-message-label';
-  label.textContent = role === 'user' ? 'Tú' : 'Tutor IA ANDERGO';
+  label.textContent = role === 'user' ? 'Tú' : '🤖 Tutor IA ANDERGO';
 
   const body = document.createElement('p');
-  body.innerHTML = escapeHtml(text).replace(/\n/g, '<br>');
+  // Only real Tutor replies go through the Markdown cleanup - error strings
+  // are our own plain text, never the model's, so they stay a simple escape.
+  body.innerHTML =
+    role === 'tutor' && !isError
+      ? renderTutorMarkdownHtml(text)
+      : escapeHtml(text).replace(/\n/g, '<br>');
 
   message.append(label, body);
   container.appendChild(message);
@@ -3320,7 +3427,7 @@ function appendTutorUsageNotice(container, message, { locked = false } = {}) {
 function updateTutorMessageBody(messageEl, container, text) {
   if (!messageEl) return;
   const body = messageEl.querySelector('p');
-  if (body) body.innerHTML = escapeHtml(text).replace(/\n/g, '<br>');
+  if (body) body.innerHTML = renderTutorMarkdownHtml(text);
   if (container) container.scrollTop = container.scrollHeight;
 }
 
@@ -3449,15 +3556,15 @@ function renderTutorVoiceControls(messageEl) {
   const controls = document.createElement('div');
   controls.className = 'tutor-voice-controls';
   controls.innerHTML = `
-    <button type="button" class="tutor-voice-btn tutor-voice-listen">🔊 Escuchar</button>
-    <button type="button" class="tutor-voice-btn tutor-voice-pause" disabled>⏸ Pausar</button>
-    <button type="button" class="tutor-voice-btn tutor-voice-rewind" disabled hidden>⏪ 5s</button>
-    <button type="button" class="tutor-voice-btn tutor-voice-stop" disabled>⏹ Detener</button>
-    <div class="tutor-voice-speed-group">
-      <button type="button" class="tutor-voice-speed-btn is-active" data-speed="normal">▶ Normal</button>
-      <button type="button" class="tutor-voice-speed-btn" data-speed="slow">🐢 Lenta</button>
+    <button type="button" class="tutor-voice-btn tutor-voice-listen" aria-label="Reproducir respuesta del tutor">🔊 Escuchar</button>
+    <button type="button" class="tutor-voice-btn tutor-voice-pause" disabled aria-label="Pausar reproducción">⏸ Pausar</button>
+    <button type="button" class="tutor-voice-btn tutor-voice-rewind" disabled hidden aria-label="Retroceder 5 segundos">⏪ 5s</button>
+    <button type="button" class="tutor-voice-btn tutor-voice-stop" disabled aria-label="Detener reproducción">⏹ Detener</button>
+    <div class="tutor-voice-speed-group" role="group" aria-label="Velocidad de voz">
+      <button type="button" class="tutor-voice-speed-btn is-active" data-speed="normal" aria-label="Velocidad normal" aria-pressed="true">▶ Normal</button>
+      <button type="button" class="tutor-voice-speed-btn" data-speed="slow" aria-label="Velocidad lenta" aria-pressed="false">🐢 Lenta</button>
     </div>
-    <span class="tutor-voice-limit-message" hidden></span>
+    <span class="tutor-voice-limit-message" role="status" aria-live="polite" hidden></span>
   `;
   messageEl.appendChild(controls);
 }
@@ -3587,7 +3694,10 @@ async function requestTutorSpeech(messageEl, { auto = false } = {}) {
     if (listenBtn) listenBtn.disabled = false;
   } catch (error) {
     if (auto) console.warn('[Tutor] auto-play request failed:', error?.message || error);
-    showDiscreetNotice('El audio no está disponible en este momento.');
+    // Only ever surfaced after a real playback attempt (manual click or
+    // autoplay) failed - never shown up front, and never blocks the reply
+    // text itself, which stays visible either way.
+    showDiscreetNotice('No pudimos reproducir el audio. Puedes continuar leyendo la respuesta.');
     if (listenBtn) listenBtn.disabled = false;
   }
 }
@@ -8563,7 +8673,9 @@ async function sendTutorMessage({
                 updateTutorMessageBody(messageEl, conversationEl, fullText);
               }
               if (messageEl) {
-                messageEl.dataset.ttsText = fullText;
+                // Cleaned, not raw - speechSynthesis/the neural TTS provider
+                // must never read Markdown syntax (**/#/- ) aloud.
+                messageEl.dataset.ttsText = cleanTutorTextForSpeech(fullText);
                 // Enable voice as soon as the first complete sentence has
                 // streamed in, not only once the whole reply finishes.
                 if (!voiceControlsShown && /[.!?](\s|$)/.test(fullText)) {
@@ -10112,7 +10224,11 @@ function enableHomepageActions() {
       tutorVoiceSpeedBtn
         .closest('.tutor-voice-speed-group')
         ?.querySelectorAll('.tutor-voice-speed-btn')
-        .forEach((btn) => btn.classList.toggle('is-active', btn === tutorVoiceSpeedBtn));
+        .forEach((btn) => {
+          const isActive = btn === tutorVoiceSpeedBtn;
+          btn.classList.toggle('is-active', isActive);
+          btn.setAttribute('aria-pressed', String(isActive));
+        });
       return;
     }
 

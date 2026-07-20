@@ -3129,11 +3129,48 @@ footer small {
   color: #fff;
 }
 
+/* The Tutor's own reply - deliberately a full-width, standalone card (not
+   a chat bubble like .tutor-message--user) so it reads as the primary
+   answer, not text tucked in a dim box. */
 .tutor-message--tutor {
-  align-self: flex-start;
+  align-self: stretch;
+  width: 100%;
+  max-width: 100%;
   background: #fff;
-  border: 1px solid rgba(148, 163, 184, 0.35);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  border-radius: 22px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  padding: 24px;
   color: #1e293b;
+  margin-top: 0.35rem;
+}
+
+.tutor-message--tutor .tutor-message-label {
+  color: var(--blue);
+  opacity: 1;
+  margin-bottom: 0.15rem;
+}
+
+.tutor-message--tutor p {
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.tutor-message--tutor ul,
+.tutor-message--tutor ol {
+  margin: 0.4rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.tutor-message--tutor li {
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 480px) {
+  .tutor-message--tutor {
+    padding: 18px;
+    border-radius: 20px;
+  }
 }
 
 .tutor-message--error {
