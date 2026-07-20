@@ -1296,6 +1296,47 @@
           </div>
         </div>
       </section>
+
+      <!-- Reached only when a student taps the confirmation-LINK variant of
+           Supabase's "Confirm signup" email instead of typing the 6-digit
+           OTP (showSignupPending() in script.js is still the primary
+           confirmation path) - ?auth=confirmed. Same reasoning as
+           #resetPasswordSection above: only this screen needs supabase-js
+           directly, since the session/code Supabase appends is only
+           readable client-side. See script.js's initEmailConfirmedPage. -->
+      <section
+        id="emailConfirmedSection"
+        class="section reset-password-section compact-hidden-section"
+        aria-label="Correo confirmado"
+      >
+        <div class="section-heading">
+          <span>ANDERGO</span>
+          <h2 tabindex="-1">Confirmación de correo</h2>
+        </div>
+        <div class="reset-password-card">
+          <div
+            class="reset-password-success"
+            id="emailConfirmedSuccess"
+            role="status"
+            aria-live="polite"
+            hidden
+          >
+            <h3>✅ Tu correo fue confirmado correctamente.</h3>
+            <p>Ya puedes iniciar sesión con tu cuenta.</p>
+            <button type="button" class="primary-btn" data-action="email-confirmed-login">
+              Iniciar sesión
+            </button>
+          </div>
+          <div class="reset-password-invalid" id="emailConfirmedInvalid" role="alert" hidden>
+            <h3>Enlace no válido o expirado</h3>
+            <p>
+              Este enlace de confirmación no es válido o ya expiró. Usa el código de 6 dígitos que
+              recibiste por correo, o solicita uno nuevo desde "Registrarse".
+            </p>
+            <a href="/" class="secondary-btn">Volver a ANDERGO</a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <div class="auth-modal" id="authModal" aria-hidden="true" inert>

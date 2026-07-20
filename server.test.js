@@ -1082,3 +1082,193 @@ test('language pair: no Spanish hardcoded as the only option in the shared modul
   assert.notEqual(spanishLabel, frenchLabel);
   assert.notEqual(englishLabel, frenchLabel);
 });
+
+// ---------------------------------------------------------------------
+// Auth/email flow (lib/authService.js, src/js/script.js). Never calls the
+// real signUp()/resend()/resetPasswordForEmail() here, even though this
+// environment does have a real Supabase project configured (see the
+// "username + email login flows" suite above): those three would each send
+// a real email through the live Brevo SMTP relay on every test run, which
+// is exactly the "don't build a second email system / don't spam a real
+// inbox from CI" constraint the whole flow was fixed under. Coverage here
+// splits into:
+//  - direct unit tests of the pure/constant pieces (redirect URLs,
+//    classifyEmailError) exported from authService.js for this purpose;
+//  - a live but side-effect-free run of resendConfirmation()/
+//    requestPasswordReset() with config.isSupabaseConfigured temporarily
+//    forced off, exercising the exact neutral-response code path without
+//    ever reaching Supabase;
+//  - source-level regression guards for the frontend behavior (closing the
+//    Auth modal on sign-in, not duplicating listeners, restoring body
+//    scroll, etc.) that this project's test setup (Node's test runner
+//    against a live Express server, no browser/DOM harness) has no way to
+//    execute directly.
+// ---------------------------------------------------------------------
+const authService = require('./lib/authService');
+
+test('authService: signup/resend confirmation link points at ?auth=confirmed', () => {
+  assert.equal(authService.EMAIL_CONFIRM_REDIRECT_URL, 'https://andergo.online/?auth=confirmed');
+});
+
+test('authService: password reset link points at ?auth=recovery', () => {
+  assert.equal(authService.PASSWORD_RESET_REDIRECT_URL, 'https://andergo.online/?auth=recovery');
+});
+
+test('authService: signUp/resend actually pass EMAIL_CONFIRM_REDIRECT_URL as emailRedirectTo', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'lib', 'authService.js'), 'utf8');
+  const occurrences = source.match(/emailRedirectTo:\s*EMAIL_CONFIRM_REDIRECT_URL/g) || [];
+  // One inside auth.signUp()'s options, one inside auth.resend()'s options -
+  // defining the constant is not enough, both call sites must use it.
+  assert.equal(occurrences.length, 2, 'expected signUp() and resend() to both set emailRedirectTo');
+  assert.match(source, /auth\.resend\(\{\s*type:\s*'signup'/);
+  assert.match(source, /auth\.resetPasswordForEmail\([^)]*redirectTo:\s*PASSWORD_RESET_REDIRECT_URL/s);
+});
+
+test('authService.classifyEmailError: maps known GoTrue codes to the internal taxonomy, never the raw code', () => {
+  assert.equal(authService.classifyEmailError({ code: 'over_email_send_rate_limit' }), 'EMAIL_RATE_LIMIT');
+  assert.equal(authService.classifyEmailError({ status: 429 }), 'EMAIL_RATE_LIMIT');
+  assert.equal(authService.classifyEmailError({ code: 'unexpected_failure' }), 'SMTP_DELIVERY_ERROR');
+  assert.equal(authService.classifyEmailError({ code: 'signup_disabled' }), 'SMTP_CONFIGURATION_ERROR');
+  assert.equal(authService.classifyEmailError({ code: 'otp_expired' }), 'INVALID_TOKEN');
+  assert.equal(
+    authService.classifyEmailError({ code: 'unauthorized_redirect_url' }),
+    'INVALID_REDIRECT'
+  );
+  assert.equal(authService.classifyEmailError({ code: 'totally_unknown_thing' }), 'UNKNOWN_EMAIL_ERROR');
+  assert.equal(authService.classifyEmailError(undefined), 'UNKNOWN_EMAIL_ERROR');
+});
+
+test(
+  'authService.resendConfirmation/requestPasswordReset: neutral response, never a raw Supabase error',
+  async () => {
+    // Forces the devStore/no-Supabase branch for just these two calls, the
+    // same neutral-response code path a misconfigured deployment would take
+    // - never reaches auth.resend()/resetPasswordForEmail(), so this is safe
+    // to run even against this environment's real Supabase project.
+    const original = config.isSupabaseConfigured;
+    config.isSupabaseConfigured = false;
+    try {
+      const resendResult = await authService.resendConfirmation('someone@example.com');
+      assert.equal(resendResult.ok, true);
+      assert.match(resendResult.message, /nuevo código/);
+
+      const resetResult = await authService.requestPasswordReset('someone@example.com');
+      assert.equal(resetResult.ok, true);
+      assert.match(resetResult.message, /recibirás un enlace/);
+      assert.match(resetResult.message, /Spam/);
+    } finally {
+      config.isSupabaseConfigured = original;
+    }
+  }
+);
+
+test('health endpoint exposes emailAuth status and never leaks SMTP/API credentials', async () => {
+  const { server, port } = await startTestServer();
+  try {
+    const response = await fetch(`http://127.0.0.1:${port}/api/health`);
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    assert.deepEqual(body.emailAuth, {
+      provider: 'supabase-brevo-smtp',
+      sender: config.noReplyEmail,
+      configured: 'dashboard-managed'
+    });
+    // Excludes the response's own expected 'supabase-brevo-smtp' provider
+    // string before checking - that's the one legitimate "smtp" substring
+    // this endpoint should ever contain.
+    const raw = JSON.stringify(body).toLowerCase().replace(/supabase-brevo-smtp/g, '');
+    ['smtp_pass', 'smtp_user', 'smtp_host', 'password', 'service_role', 'apikey', 'api_key', 'secret'].forEach(
+      (needle) => {
+        assert.equal(raw.includes(needle), false, `/api/health leaked a "${needle}"-shaped field`);
+      }
+    );
+  } finally {
+    server.close();
+  }
+});
+
+test('logout endpoint responds ok even with no session (idempotent, never requires auth)', async () => {
+  const { server, port } = await startTestServer();
+  try {
+    const response = await fetch(`http://127.0.0.1:${port}/api/auth/logout`, { method: 'POST' });
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    assert.equal(body.ok, true);
+  } finally {
+    server.close();
+  }
+});
+
+// Source-level regression guards for script.js's Auth-UI behavior - this
+// project's test runner (node:test + a live Express server) has no
+// browser/DOM harness to actually click through the modal, so these assert
+// the specific call sites the spec requires are present and wired the way
+// the spec describes, rather than executing them.
+test('script.js: closeAllAuthUI() exists once and is used by every required call site', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+
+  assert.match(source, /function closeAllAuthUI\(\)\s*\{/);
+  // Defined exactly once - a second definition would silently shadow the
+  // first instead of erroring, which is worse than never catching it here.
+  assert.equal((source.match(/function closeAllAuthUI\(\)/g) || []).length, 1);
+
+  // 1) login success / MFA-completed login / confirmation-then-login all
+  // funnel through afterAuthSuccess(), which must close the modal as its
+  // very first action (see the "Called right after saveSession()" comment
+  // right above it) - before, not only after, the slower per-account loads.
+  const afterAuthSuccessBody = source.match(
+    /async function afterAuthSuccess\(\) \{([\s\S]*?)\n\}/
+  )?.[1];
+  assert.ok(afterAuthSuccessBody, 'expected to find afterAuthSuccess() body');
+  assert.match(afterAuthSuccessBody.trim(), /^closeAllAuthUI\(\);/);
+
+  // 2) a valid restored session (this app's INITIAL_SESSION equivalent -
+  // see restoreSession()'s own comment) must never leave the modal open.
+  const restoreSessionBody = source.match(/function restoreSession\(\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(restoreSessionBody, 'expected to find restoreSession() body');
+  assert.match(restoreSessionBody, /closeAllAuthUI\(\);/);
+
+  // 3) manual close (X/backdrop/Escape) still goes through the same shared
+  // function, via the closeAuth() alias - never a second parallel
+  // implementation that could drift from closeAllAuthUI().
+  assert.match(source, /function closeAuth\(\) \{\s*closeAllAuthUI\(\);\s*\}/);
+
+  // closeAllAuthUI() itself must restore body scroll and clear stale
+  // sensitive fields (spec §6) - not just hide the modal.
+  const closeAllAuthUIBody = source.match(/function closeAllAuthUI\(\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.match(closeAllAuthUIBody, /document\.body\.classList\.remove\('modal-open'\)/);
+  assert.match(closeAllAuthUIBody, /clearAuthMessages\(\)/);
+  assert.match(closeAllAuthUIBody, /loginPassword/);
+});
+
+test('script.js: logout() never re-opens the login modal and updates the header', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const logoutBody = source.match(/async function logout\(\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(logoutBody, 'expected to find logout() body');
+  assert.doesNotMatch(logoutBody, /openModal\(/);
+  assert.match(logoutBody, /renderAuthState\(\)/);
+});
+
+test('script.js: exactly one global hashchange listener is registered (no duplicate routers)', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const occurrences = source.match(/addEventListener\('hashchange'/g) || [];
+  assert.equal(occurrences.length, 1);
+});
+
+test('script.js: the reset-password page opens the recovery form only on PASSWORD_RECOVERY, and email confirmation never does', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const resetPageBody = source.match(
+    /async function initResetPasswordPage\(\) \{([\s\S]*?)\n\}/
+  )?.[1];
+  assert.ok(resetPageBody, 'expected to find initResetPasswordPage() body');
+  assert.match(resetPageBody, /onAuthStateChange\(\(event\) => \{\s*if \(event === 'PASSWORD_RECOVERY'\)/);
+
+  const confirmedPageBody = source.match(
+    /async function initEmailConfirmedPage\(\) \{([\s\S]*?)\n\}/
+  )?.[1];
+  assert.ok(confirmedPageBody, 'expected to find initEmailConfirmedPage() body');
+  // Must never open the reset-password form - no PASSWORD_RECOVERY handling
+  // and no reference to the reset form's own elements anywhere in this path.
+  assert.doesNotMatch(confirmedPageBody, /PASSWORD_RECOVERY/);
+  assert.doesNotMatch(confirmedPageBody, /resetPasswordForm/);
+});

@@ -157,12 +157,21 @@ function saveSession(user, session) {
   localStorage.setItem('andergoSession', JSON.stringify({ user, session }));
 }
 
+// Runs once at page load (the closest equivalent this app's own
+// REST-backed session model has to supabase-js's INITIAL_SESSION event -
+// see saveSession()/logout() above and below for the SIGNED_IN/SIGNED_OUT
+// equivalents). A valid restored session must never show the Auth modal or
+// leave one open - closeAllAuthUI() is a no-op here in every current flow
+// (authModal starts closed on a fresh load) but stays defensive on purpose,
+// so this keeps holding even if some future deep link opens it before this
+// runs.
 function restoreSession() {
   try {
     const stored = JSON.parse(localStorage.getItem('andergoSession') || 'null');
     if (stored?.session?.access_token) {
       authStatus.user = stored.user || null;
       authStatus.session = stored.session;
+      closeAllAuthUI();
     }
   } catch {
     localStorage.removeItem('andergoSession');
@@ -451,14 +460,43 @@ function openModal(panel) {
   authModal.querySelector('.auth-form.active input')?.focus();
 }
 
-function closeAuth() {
+// Single shared close for every Auth-entry panel - login, signup (including
+// its OTP verification step), forgotPassword and mfaChallenge all live as
+// tabs/steps inside this one #authModal dialog, so hiding it once closes all
+// of them at once. Called both for a manual close (X button/Escape/backdrop,
+// via the closeAuth() alias below) and right after a successful
+// login/MFA/confirmation-then-login or a valid restored session (see
+// afterAuthSuccess and restoreSession) so the modal can never linger visible
+// over an already-signed-in UI.
+function closeAllAuthUI() {
   authModal.classList.remove('open');
   authModal.setAttribute('aria-hidden', 'true');
   authModal.setAttribute('inert', '');
+  // Only ever removed here, never set unconditionally: logoutConfirmModal/
+  // paywallModal/usernameOnboardingModal toggle this same body class for
+  // their own open state, but none of them can be open at the same time as
+  // authModal in this app's actual flows (see the modals' own open*() -
+  // each is only ever triggered from a state where authModal is already
+  // closed), so this never fights another modal's lock.
   document.body.classList.remove('modal-open');
   (authModalReturnFocus || document.querySelector('[data-action="open-auth"]'))?.focus();
   authModalReturnFocus = null;
   clearPendingMfa();
+  clearAuthMessages();
+  // Never leave a password/OTP value sitting in the DOM once the panel that
+  // collected it is hidden - a later reopen (or a screen reader landing on
+  // stale text) must never show a previous attempt's sensitive input.
+  ['loginPassword', 'signupPassword', 'signupConfirmPassword', 'mfaChallengeCode'].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) el.value = '';
+  });
+  document.querySelectorAll('#otpInputRow .otp-digit').forEach((input) => {
+    input.value = '';
+  });
+}
+
+function closeAuth() {
+  closeAllAuthUI();
 }
 
 const logoutConfirmModal = document.getElementById('logoutConfirmModal');
@@ -1079,6 +1117,12 @@ function clearAuthMessages() {
   });
 }
 
+// Views that only ever show an "Inicia sesión para..." placeholder for a
+// guest (see renderDashboardSignedOut/loadSecurityStatus) - unlike 'learn'
+// and 'tutor', which stay genuinely usable signed out (free lessons, an
+// uncapped Tutor IA chat) and so are deliberately left off this list.
+const MEMBER_ONLY_VIEWS_AFTER_LOGOUT = ['progress', 'achievements', 'goals', 'security'];
+
 async function logout() {
   try {
     if (authStatus.session?.access_token) {
@@ -1100,6 +1144,13 @@ async function logout() {
     updateProgressDisplay();
     renderDashboard(null);
     window.AndergoGamification?.load('guest');
+    // "Volver a la página pública" (spec §8) - never leave a signed-out
+    // student stranded on a now-empty member-only view; never opens the
+    // login modal automatically either (that stays the student's choice).
+    if (MEMBER_ONLY_VIEWS_AFTER_LOGOUT.includes(getViewFromHash())) {
+      if (window.location.hash !== '#home') history.pushState(null, '', '#home');
+      showView('home');
+    }
   }
 }
 
@@ -1368,25 +1419,125 @@ async function initResetPasswordPage() {
   });
 }
 
+// Drives the confirmation-LINK variant landing (#emailConfirmedSection,
+// ?auth=confirmed) - the 6-digit OTP in showSignupPending() is the primary
+// confirmation path; this only covers a student tapping the email's link
+// instead. Supabase's confirmation link can arrive either as a PKCE `code`
+// query param (exchangeCodeForSession) or with the session already
+// established via the URL fragment (supabase-js's detectSessionInUrl reads
+// that automatically on client creation) - both are handled the same way
+// below: confirm a session exists, then immediately sign it back out. That
+// session is never adopted as this app's own signed-in state (which only
+// ever comes from POST /api/auth - see login() in lib/authService.js) and
+// never left lingering - per spec, confirming an email must never auto-log
+// the student in or land them on a password form; it only ever shows the
+// confirmation message and sends them to the normal login.
+async function initEmailConfirmedPage() {
+  const successEl = document.getElementById('emailConfirmedSuccess');
+  const invalidEl = document.getElementById('emailConfirmedInvalid');
+  if (!successEl || !invalidEl) return;
+
+  function showInvalid() {
+    successEl.hidden = true;
+    invalidEl.hidden = false;
+  }
+
+  function showSuccess(email) {
+    successEl.hidden = false;
+    invalidEl.hidden = true;
+    const loginIdentifierInput = document.getElementById('loginIdentifier');
+    if (loginIdentifierInput && email) loginIdentifierInput.value = email;
+  }
+
+  let clientConfig;
+  try {
+    const res = await fetch(`${backendBaseUrl}/api/auth/client-config`);
+    clientConfig = await res.json();
+  } catch {
+    showInvalid();
+    return;
+  }
+  if (!clientConfig?.supabaseUrl || !clientConfig?.supabaseAnonKey) {
+    showInvalid();
+    return;
+  }
+
+  try {
+    await loadSupabaseJs();
+  } catch {
+    showInvalid();
+    return;
+  }
+  if (!window.supabase?.createClient) {
+    showInvalid();
+    return;
+  }
+
+  const client = window.supabase.createClient(
+    clientConfig.supabaseUrl,
+    clientConfig.supabaseAnonKey
+  );
+
+  try {
+    const code = new URLSearchParams(window.location.search).get('code');
+    if (code) {
+      const { error } = await client.auth.exchangeCodeForSession(code);
+      if (error) throw error;
+    }
+
+    const { data } = await client.auth.getSession();
+    if (!data?.session) throw new Error('No confirmation session');
+    const email = data.session.user?.email || null;
+
+    await client.auth.signOut().catch(() => {});
+    window.history.replaceState(null, '', '/');
+    showSuccess(email);
+  } catch {
+    showInvalid();
+  }
+}
+
+document.getElementById('emailConfirmedSuccess')?.addEventListener('click', (event) => {
+  if (!event.target.closest('[data-action="email-confirmed-login"]')) return;
+  if (window.location.hash !== '#home') history.pushState(null, '', '#home');
+  showView('home');
+  openModal('login');
+});
+
+// Called right after saveSession() on every successful sign-in path (plain
+// login, MFA-completed login, and register()'s immediate-session dev-store
+// fallback) - see loginForm/mfaChallengeForm/signupForm's submit handlers
+// below. The session is already saved by the time this runs, so the modal
+// closes immediately, before any of the slower per-account loads below -
+// previously closeAuth() only ran after all of them resolved, so a slow or
+// failed loadProgress()/loadPreferences()/loadLearningPath() left the Auth
+// modal sitting open over an already-signed-in page instead of closing on
+// login as expected.
 async function afterAuthSuccess() {
-  const welcomeName = getDisplayName();
-  setAuthMessage(`Bienvenido${welcomeName ? `, ${welcomeName}` : ''}!`, false);
-  await loadProgress();
+  closeAllAuthUI();
 
-  // profileStatus gates maybeShowUsernameOnboarding() below - it must reach
-  // 'loaded' (a real preferences object, username included) before the
-  // onboarding modal is even considered, never while the fetch is still
-  // 'loading' or ended in 'error' (loadPreferences() only ever returns null
-  // on a genuine fetch/parse failure here, since every profile row already
-  // has language/level defaults - see preferencesService.js).
-  profileStatus = 'loading';
-  const preferences = await loadPreferences();
-  profileStatus = preferences ? 'loaded' : 'error';
+  try {
+    await loadProgress();
 
-  applyPreferencesToSelects(preferences);
-  await loadLearningPath(preferences || {});
-  closeAuth();
-  await maybeShowUsernameOnboarding(preferences);
+    // profileStatus gates maybeShowUsernameOnboarding() below - it must reach
+    // 'loaded' (a real preferences object, username included) before the
+    // onboarding modal is even considered, never while the fetch is still
+    // 'loading' or ended in 'error' (loadPreferences() only ever returns null
+    // on a genuine fetch/parse failure here, since every profile row already
+    // has language/level defaults - see preferencesService.js).
+    profileStatus = 'loading';
+    const preferences = await loadPreferences();
+    profileStatus = preferences ? 'loaded' : 'error';
+
+    applyPreferencesToSelects(preferences);
+    await loadLearningPath(preferences || {});
+    await maybeShowUsernameOnboarding(preferences);
+  } catch (error) {
+    // The signed-in UI itself (header/dashboard) is already showing - never
+    // let a hiccup in one of these secondary loads throw back up into the
+    // caller and look like the login itself failed.
+    console.warn('Post-login setup failed', error);
+  }
 }
 
 function attachAuthHandlers() {
@@ -1583,19 +1734,24 @@ function attachAuthHandlers() {
         statusEl.setAttribute('role', 'status');
         statusEl.textContent =
           data.message ||
-          'Si existe una cuenta asociada a este correo, te hemos enviado un enlace para restablecer tu contraseña. Revisa también Spam o Correo no deseado.';
+          'Si existe una cuenta asociada a este correo, recibirás un enlace para restablecer tu contraseña. Revisa también Spam o Correo no deseado.';
       }
       // Modal stays open on purpose (see spec) - only the button becomes a
       // cooldown-gated "Reenviar enlace" instead of re-enabling immediately.
       startForgotPasswordCooldown(submitBtn);
     } catch (error) {
-      // requestPasswordReset is designed to never throw a distinguishing
-      // error, but keep a safe generic fallback just in case of a network
-      // failure reaching our own backend.
+      // requestPasswordReset itself is designed to never throw a
+      // distinguishing error - this only ever catches passwordResetLimiter's
+      // own 429 (error.code === 'RATE_LIMITED', see lib/server.js) or a
+      // genuine network failure reaching our own backend, so those two get
+      // their own distinct message instead of collapsing into one.
       if (statusEl) {
         statusEl.classList.add('is-error');
         statusEl.setAttribute('role', 'alert');
-        statusEl.textContent = 'No pudimos enviar el enlace en este momento. Inténtalo nuevamente.';
+        statusEl.textContent =
+          error.code === 'RATE_LIMITED'
+            ? 'Espera un momento antes de solicitar otro correo.'
+            : 'No pudimos procesar el envío en este momento. Inténtalo nuevamente.';
       }
       if (submitBtn) {
         submitBtn.disabled = false;
@@ -2079,8 +2235,14 @@ document.getElementById('signupPending')?.addEventListener('click', async (event
   }
 
   if (button.dataset.action === 'resend-otp') {
+    // idle -> sending -> sent | rate-limited | error (spec §4) - button text
+    // itself carries the "sending" state; the other three only ever differ
+    // in otpStatus's text, never a second indicator.
     button.disabled = true;
+    const originalLabel = button.textContent;
+    button.textContent = 'Enviando…';
     const statusEl = document.getElementById('otpStatus');
+    if (statusEl) statusEl.classList.remove('is-error');
     try {
       const response = await fetch(`${backendBaseUrl}/api/auth/resend-otp`, {
         method: 'POST',
@@ -2092,14 +2254,18 @@ document.getElementById('signupPending')?.addEventListener('click', async (event
       // its own message, so only the rate-limit (429) case gets a different,
       // safe-to-show status here.
       if (response.status === 429) {
-        if (statusEl) statusEl.textContent = 'Espera antes de solicitar otro código.';
+        if (statusEl) statusEl.textContent = 'Espera un momento antes de solicitar otro correo.';
       } else {
         if (statusEl) statusEl.textContent = 'Código reenviado. Revisa tu correo.';
       }
     } catch (error) {
       console.warn('Could not resend OTP', error);
-      if (statusEl) statusEl.textContent = 'No pudimos enviar el código. Intenta nuevamente.';
+      if (statusEl) {
+        statusEl.textContent = 'No pudimos procesar el envío en este momento. Inténtalo nuevamente.';
+        statusEl.classList.add('is-error');
+      }
     } finally {
+      button.textContent = originalLabel;
       clearOtpDigits();
       setResendOtpCooldown(60);
     }
@@ -8713,7 +8879,8 @@ const VIEW_SECTIONS = {
   writing: ['#writing'],
   grammar: ['#grammar'],
   vocabulary: ['#vocabulary'],
-  'reset-password': ['#resetPasswordSection']
+  'reset-password': ['#resetPasswordSection'],
+  'email-confirmed': ['#emailConfirmedSection']
 };
 
 // Focus target per view: the one heading a screen reader / keyboard user
@@ -10437,9 +10604,18 @@ const isPasswordRecoveryLink =
   window.location.pathname === '/reset-password' ||
   new URLSearchParams(window.location.search).get('auth') === 'recovery';
 
+// Reached via the confirmation-LINK variant of Supabase's "Confirm signup"
+// email (authService's EMAIL_CONFIRM_REDIRECT_URL = '/?auth=confirmed') -
+// the 6-digit OTP in showSignupPending() is still the primary confirmation
+// path; this only covers an account confirming via the email's link instead.
+const isEmailConfirmedLink = new URLSearchParams(window.location.search).get('auth') === 'confirmed';
+
 if (isPasswordRecoveryLink) {
   showView('reset-password');
   initResetPasswordPage();
+} else if (isEmailConfirmedLink) {
+  showView('email-confirmed');
+  initEmailConfirmedPage();
 } else {
   showView(getViewFromHash());
   // Direct/bookmarked load of #premium: resolves to the home view (see
