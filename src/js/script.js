@@ -2849,6 +2849,31 @@ function appendTutorMessage(container, role, text, { isError = false } = {}) {
   return message;
 }
 
+// Discreet inline status/paywall notice for the Tutor's monthly free-query
+// cap (lib/usageLimitService.js, feature='tutor_query') - visually
+// distinct from a normal tutor/user bubble (no "Tú"/"Tutor AI" label).
+// `locked` reuses the same .premium-lock-box + .upgrade-btn pattern
+// already used for locked lessons, so a full lockout looks consistent
+// with the rest of the app's paywall UI instead of inventing a new one.
+function appendTutorUsageNotice(container, message, { locked = false } = {}) {
+  if (!container) return null;
+  const notice = document.createElement('div');
+  notice.className = `tutor-usage-notice${locked ? ' premium-lock-box' : ''}`;
+  const text = document.createElement('p');
+  text.textContent = message;
+  notice.appendChild(text);
+  if (locked) {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'primary-btn upgrade-btn';
+    btn.textContent = 'Obtener Premium';
+    notice.appendChild(btn);
+  }
+  container.appendChild(notice);
+  container.scrollTop = container.scrollHeight;
+  return notice;
+}
+
 // Updates an in-progress tutor message bubble's text (see appendTutorMessage's
 // returned wrapper) as streamed chunks accumulate.
 function updateTutorMessageBody(messageEl, container, text) {
@@ -2879,11 +2904,55 @@ function resetTutorVoiceButtons(messageEl) {
   if (!controls) return;
   const listenBtn = controls.querySelector('.tutor-voice-listen');
   const stopBtn = controls.querySelector('.tutor-voice-stop');
+  const pauseBtn = controls.querySelector('.tutor-voice-pause');
+  const rewindBtn = controls.querySelector('.tutor-voice-rewind');
   if (listenBtn) {
     listenBtn.disabled = false;
     if (listenBtn.dataset.played) listenBtn.textContent = '🔁 Repetir';
   }
   if (stopBtn) stopBtn.disabled = true;
+  if (pauseBtn) {
+    pauseBtn.disabled = true;
+    pauseBtn.textContent = '⏸ Pausar';
+  }
+  // Rewind only ever makes sense for the neural <audio> path - speechSynthesis
+  // has no seek API, so it stays hidden in browser-fallback mode (see
+  // requestTutorSpeech, which sets messageEl.dataset.ttsMode on success).
+  if (rewindBtn) {
+    rewindBtn.disabled = true;
+    rewindBtn.hidden = messageEl.dataset.ttsMode !== 'neural';
+  }
+}
+
+// Pauses/resumes in place - never regenerates the audio (same clip/
+// utterance, whether neural <audio> or the speechSynthesis fallback).
+function toggleTutorVoicePause(messageEl) {
+  if (!messageEl || currentTutorAudio.messageEl !== messageEl) return;
+  const pauseBtn = messageEl.querySelector('.tutor-voice-pause');
+  if (currentTutorAudio.element) {
+    if (currentTutorAudio.element.paused) {
+      currentTutorAudio.element.play();
+      if (pauseBtn) pauseBtn.textContent = '⏸ Pausar';
+    } else {
+      currentTutorAudio.element.pause();
+      if (pauseBtn) pauseBtn.textContent = '▶ Continuar';
+    }
+  } else if (supportsSpeech()) {
+    if (window.speechSynthesis.paused) {
+      window.speechSynthesis.resume();
+      if (pauseBtn) pauseBtn.textContent = '⏸ Pausar';
+    } else {
+      window.speechSynthesis.pause();
+      if (pauseBtn) pauseBtn.textContent = '▶ Continuar';
+    }
+  }
+}
+
+// Neural <audio> only - speechSynthesis has no seek API (button stays
+// hidden in that mode, see requestTutorSpeech/resetTutorVoiceButtons).
+function rewindTutorVoice(seconds) {
+  if (!currentTutorAudio.element) return;
+  currentTutorAudio.element.currentTime = Math.max(0, currentTutorAudio.element.currentTime - seconds);
 }
 
 function stopAllTutorAudio() {
@@ -2910,6 +2979,8 @@ function renderTutorVoiceControls(messageEl) {
   controls.className = 'tutor-voice-controls';
   controls.innerHTML = `
     <button type="button" class="tutor-voice-btn tutor-voice-listen">🔊 Escuchar</button>
+    <button type="button" class="tutor-voice-btn tutor-voice-pause" disabled>⏸ Pausar</button>
+    <button type="button" class="tutor-voice-btn tutor-voice-rewind" disabled hidden>⏪ 5s</button>
     <button type="button" class="tutor-voice-btn tutor-voice-stop" disabled>⏹ Detener</button>
     <div class="tutor-voice-speed-group">
       <button type="button" class="tutor-voice-speed-btn is-active" data-speed="normal">▶ Normal</button>
@@ -2926,6 +2997,8 @@ async function requestTutorSpeech(messageEl) {
   const controls = messageEl.querySelector('.tutor-voice-controls');
   const listenBtn = controls?.querySelector('.tutor-voice-listen');
   const stopBtn = controls?.querySelector('.tutor-voice-stop');
+  const pauseBtn = controls?.querySelector('.tutor-voice-pause');
+  const rewindBtn = controls?.querySelector('.tutor-voice-rewind');
   const limitMsg = controls?.querySelector('.tutor-voice-limit-message');
   const speed = controls?.querySelector('.tutor-voice-speed-btn.is-active')?.dataset.speed || 'normal';
   const text = messageEl.dataset.ttsText || '';
@@ -2966,7 +3039,18 @@ async function requestTutorSpeech(messageEl) {
     }
 
     messageEl.classList.add('is-playing');
+    messageEl.dataset.ttsMode = data.mode;
     if (stopBtn) stopBtn.disabled = false;
+    if (pauseBtn) {
+      pauseBtn.disabled = false;
+      pauseBtn.textContent = '⏸ Pausar';
+    }
+    if (rewindBtn) {
+      // Rewind needs a seekable <audio> element - speechSynthesis has no
+      // seek API, so it stays hidden in browser-fallback mode.
+      rewindBtn.hidden = data.mode !== 'neural';
+      rewindBtn.disabled = data.mode !== 'neural';
+    }
     if (listenBtn) listenBtn.dataset.played = 'true';
 
     if (data.mode === 'neural' && data.audioBase64) {
@@ -7716,6 +7800,11 @@ async function sendTutorMessage({
   if (connectionStatusEl) connectionStatusEl.textContent = 'Comprobando conexión…';
   if (sendBtn) sendBtn.disabled = true;
 
+  // Set when the Tutor's monthly free-query cap has been hit (see
+  // lib/usageLimitService.js) - keeps the send button disabled past this
+  // call's `finally`, since retrying won't help until next month/Premium.
+  let lockedOut = false;
+
   try {
     const response = await fetch(`${backendBaseUrl}/api/ai/tutor`, {
       method: 'POST',
@@ -7743,6 +7832,12 @@ async function sendTutorMessage({
     });
     if (!response.ok) {
       const data = await response.json().catch(() => ({}));
+      if (data.limited) {
+        lockedOut = true;
+        if (conversationEl) appendTutorUsageNotice(conversationEl, data.error, { locked: true });
+        if (connectionStatusEl) connectionStatusEl.textContent = 'Límite mensual alcanzado';
+        return null;
+      }
       throw new Error(data.error || 'No se pudo conectar con el tutor IA.');
     }
 
@@ -7757,6 +7852,7 @@ async function sendTutorMessage({
     let messageEl = null;
     let voiceControlsShown = false;
     let streamError = null;
+    let tutorQueryUsage = null;
 
     if (reader) {
       let done = false;
@@ -7781,6 +7877,8 @@ async function sendTutorMessage({
 
           if (payload.error) {
             streamError = payload.message || 'No se pudo conectar con el tutor IA.';
+          } else if (payload.done) {
+            if (payload.usage) tutorQueryUsage = payload.usage;
           } else if (payload.delta) {
             fullText += payload.delta;
             if (thinkingEl) thinkingEl.hidden = true;
@@ -7790,8 +7888,9 @@ async function sendTutorMessage({
                 if (messageEl) {
                   messageEl.dataset.ttsLocale = getPronunciationLocale(language);
                   // Position among this conversation's tutor replies so far -
-                  // the free tier's "3 turns per conversation" voice limit
-                  // (see lib/voiceAccessService.js) is checked against this.
+                  // sent to /api/speech/synthesize for logging/context only;
+                  // the free-tier voice cap itself is a monthly total now
+                  // (lib/usageLimitService.js), not turn-scoped.
                   messageEl.dataset.turnIndex = String(
                     conversationEl.querySelectorAll('.tutor-message--tutor').length
                   );
@@ -7816,6 +7915,18 @@ async function sendTutorMessage({
 
     if (conversationEl && messageEl && !voiceControlsShown) renderTutorVoiceControls(messageEl);
 
+    // "Te quedan N de 30..." only becomes worth surfacing once it's low -
+    // matches the spec's "cuando queden 5 o menos" threshold. The full
+    // "has utilizado tus 30 consultas" + Premium lock is shown separately,
+    // on the *next* request that actually gets rejected (see the
+    // `data.limited` branch above), not here.
+    if (conversationEl && tutorQueryUsage?.remaining != null && tutorQueryUsage.remaining <= 5) {
+      appendTutorUsageNotice(
+        conversationEl,
+        `Te quedan ${tutorQueryUsage.remaining} consultas gratuitas al Tutor IA.`
+      );
+    }
+
     if (streamError && !fullText) throw new Error(streamError);
 
     if (connectionStatusEl) connectionStatusEl.textContent = 'Conectado';
@@ -7832,7 +7943,9 @@ async function sendTutorMessage({
     return null;
   } finally {
     if (thinkingEl) thinkingEl.hidden = true;
-    if (sendBtn) sendBtn.disabled = false;
+    // Stays disabled once the monthly free-query cap is hit - re-enabling
+    // it would just let the student hit the same 403 again next click.
+    if (sendBtn && !lockedOut) sendBtn.disabled = false;
   }
 }
 
@@ -9259,6 +9372,16 @@ function enableHomepageActions() {
     if (tutorVoiceListenBtn) {
       const messageEl = tutorVoiceListenBtn.closest('.tutor-message');
       if (messageEl) requestTutorSpeech(messageEl);
+      return;
+    }
+    const tutorVoicePauseBtn = event.target.closest('.tutor-voice-pause');
+    if (tutorVoicePauseBtn) {
+      toggleTutorVoicePause(tutorVoicePauseBtn.closest('.tutor-message'));
+      return;
+    }
+    const tutorVoiceRewindBtn = event.target.closest('.tutor-voice-rewind');
+    if (tutorVoiceRewindBtn) {
+      rewindTutorVoice(5);
       return;
     }
     const tutorVoiceStopBtn = event.target.closest('.tutor-voice-stop');

@@ -5138,6 +5138,25 @@ footer small {
   font-size: 1rem;
 }
 
+/* Discreet inline notice for the Tutor's monthly free-query/voice caps
+   (see appendTutorUsageNotice in script.js) - the locked variant reuses
+   .premium-lock-box above (added as a second class) instead of its own
+   background/border. */
+.tutor-usage-notice {
+  margin: 0.5rem 0;
+  padding: 0.6rem 0.9rem;
+  border-radius: var(--radius-md);
+  background: var(--accent-soft);
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.tutor-usage-notice.premium-lock-box {
+  font-size: 0.95rem;
+  color: var(--navy-2);
+}
+
 /* Responsive adjustments */
 
 /* Tablet: narrower left panel, tighter gap, still side by side */
