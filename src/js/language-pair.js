@@ -186,13 +186,106 @@
     return sentence(targetName, bridgeName);
   }
 
+  // Central list of bridge->target combinations with real course content and
+  // a fully-authored interface (see the INTERFACE_LABELS/PAIR_SENTENCE scope
+  // note above) - the single place that decides which pairs are selectable.
+  // Deliberately narrower than SUPPORTED_LANGUAGES: italian/german have
+  // language-name entries (so languageNameIn never returns a raw key) but no
+  // course content or interface copy yet, so they're left out of this list
+  // rather than offered as a pair that silently falls back to Spanish
+  // content/interface. Add a row here (plus the matching INTERFACE_LABELS/
+  // PAIR_SENTENCE entries) when a new pair gets real content - nowhere else
+  // in the codebase should hardcode this combination list.
+  const LANGUAGE_PAIRS = [
+    { bridge: 'spanish', target: 'english' },
+    { bridge: 'english', target: 'spanish' },
+    { bridge: 'spanish', target: 'french' },
+    { bridge: 'french', target: 'spanish' },
+    { bridge: 'french', target: 'english' },
+    { bridge: 'english', target: 'french' }
+  ];
+
+  // True only for a bridge/target pair that's both (a) two different,
+  // known languages and (b) actually listed in LANGUAGE_PAIRS above - never
+  // throws on an unrecognized language key, just returns false.
+  function isLanguagePairSupported(bridgeLanguage, targetLanguage) {
+    if (!bridgeLanguage || !targetLanguage || bridgeLanguage === targetLanguage) return false;
+    return LANGUAGE_PAIRS.some(
+      (pair) => pair.bridge === bridgeLanguage && pair.target === targetLanguage
+    );
+  }
+
+  // Every target language with a supported pair for this bridge, in
+  // LANGUAGE_PAIRS' own order - e.g. getAvailableTargetLanguages('spanish')
+  // -> ['english', 'french']. Empty array (never throws) for a bridge with
+  // no supported pair at all.
+  function getAvailableTargetLanguages(bridgeLanguage) {
+    return LANGUAGE_PAIRS.filter((pair) => pair.bridge === bridgeLanguage).map(
+      (pair) => pair.target
+    );
+  }
+
+  // The mirror of getAvailableTargetLanguages: every bridge language that can
+  // reach this target - e.g. getAvailableBridgeLanguages('english') ->
+  // ['spanish', 'french'].
+  function getAvailableBridgeLanguages(targetLanguage) {
+    return LANGUAGE_PAIRS.filter((pair) => pair.target === targetLanguage).map(
+      (pair) => pair.bridge
+    );
+  }
+
+  // Swaps bridge<->target (Español -> Inglés becomes Inglés -> Español) only
+  // if the swapped pair is itself supported - returns null instead of an
+  // unsupported/invalid pair so callers can't accidentally land somewhere
+  // with no content. Never returns bridge === target.
+  function swapLanguagePair(bridgeLanguage, targetLanguage) {
+    if (!isLanguagePairSupported(targetLanguage, bridgeLanguage)) return null;
+    return { bridge: targetLanguage, target: bridgeLanguage };
+  }
+
+  // Resolves a requested bridge/target pair to the closest supported one,
+  // without ever silently defaulting to Spanish->English behind the caller's
+  // back. Returns { bridge, target, changed, reason }, where `changed` is
+  // true only when the requested pair itself was invalid and something had
+  // to give, and `reason` explains what happened:
+  //   'same-language'     - bridge and target were equal.
+  //   'unsupported-pair'  - a real, distinct pair with no content yet.
+  //   null                - the requested pair was already valid, unchanged.
+  // On a fixable case (bridge valid, target needs to change or vice versa)
+  // it prefers keeping the field the caller didn't just change and picks the
+  // first available option for the other one; if nothing at all is
+  // resolvable it falls back to the platform default (spanish -> english).
+  function normalizeLanguagePair(bridgeLanguage, targetLanguage) {
+    if (isLanguagePairSupported(bridgeLanguage, targetLanguage)) {
+      return { bridge: bridgeLanguage, target: targetLanguage, changed: false, reason: null };
+    }
+
+    const reason = bridgeLanguage === targetLanguage ? 'same-language' : 'unsupported-pair';
+
+    const targetsForBridge = getAvailableTargetLanguages(bridgeLanguage);
+    if (targetsForBridge.length) {
+      return { bridge: bridgeLanguage, target: targetsForBridge[0], changed: true, reason };
+    }
+    const bridgesForTarget = getAvailableBridgeLanguages(targetLanguage);
+    if (bridgesForTarget.length) {
+      return { bridge: bridgesForTarget[0], target: targetLanguage, changed: true, reason };
+    }
+    return { bridge: 'spanish', target: 'english', changed: true, reason };
+  }
+
   return {
     SUPPORTED_LANGUAGES,
     LANGUAGE_NAME_IN,
+    LANGUAGE_PAIRS,
     languageNameIn,
     getInterfaceLabel,
     getSupportText,
     getTargetContent,
-    getLanguagePairLabel
+    getLanguagePairLabel,
+    isLanguagePairSupported,
+    getAvailableTargetLanguages,
+    getAvailableBridgeLanguages,
+    swapLanguagePair,
+    normalizeLanguagePair
   };
 });

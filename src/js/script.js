@@ -1,5 +1,4 @@
 const nativeLanguageSelect = document.getElementById('nativeLanguage');
-let currentTargetLanguage = 'english';
 
 // L1/bridge/interface language and L2/target language helpers
 // (getInterfaceLabel/getSupportText/getTargetContent/getLanguagePairLabel) -
@@ -12,8 +11,15 @@ let currentTargetLanguage = 'english';
 // learned). Full language names (english/spanish/...), same vocabulary as
 // learningPathState.language, unlike the older 2-letter-code #nativeLanguage
 // select which this stays in sync with for backward compatibility.
+//
+// Both live on learningPathState (learningPathState.bridgeLanguage /
+// .language) - there used to be separate learningPathState.bridgeLanguage/
+// currentTargetLanguage globals that had to be kept in sync by hand on every
+// write; that duplication caused a real bug (the home cards/#languages tabs
+// once updated only the target mirror, never learningPathState.language, so
+// the two disagreed - see normalizeLanguageKey's comment below) and has been
+// removed. learningPathState is the single source of truth for both.
 const LanguagePair = window.AndergoLanguagePair;
-let currentBridgeLanguage = 'spanish';
 const bridgeCodeToName = {
   es: 'spanish',
   en: 'english',
@@ -283,13 +289,13 @@ function setBridgeLanguage(bridgeName, options = {}) {
   if (bridgeName === target) {
     showHomeToast('El idioma puente debe ser diferente del idioma que deseas aprender.');
     if (nativeLanguageSelect)
-      nativeLanguageSelect.value = bridgeNameToCode[currentBridgeLanguage] || 'es';
+      nativeLanguageSelect.value = bridgeNameToCode[learningPathState.bridgeLanguage] || 'es';
     const staleBridgeSelect = document.getElementById('pathBridgeSelect');
-    if (staleBridgeSelect) staleBridgeSelect.value = currentBridgeLanguage;
+    if (staleBridgeSelect) staleBridgeSelect.value = learningPathState.bridgeLanguage;
     return false;
   }
 
-  currentBridgeLanguage = bridgeName;
+  learningPathState.bridgeLanguage = bridgeName;
   if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[bridgeName] || 'es';
   const bridgeSelect = document.getElementById('pathBridgeSelect');
   if (bridgeSelect) bridgeSelect.value = bridgeName;
@@ -319,7 +325,7 @@ function refreshLanguagePairChrome() {
     'aiLanguageLabel'
   ].forEach((key) => {
     document.querySelectorAll(`[data-field="${key}"]`).forEach((el) => {
-      el.textContent = LanguagePair.getInterfaceLabel(key, currentBridgeLanguage);
+      el.textContent = LanguagePair.getInterfaceLabel(key, learningPathState.bridgeLanguage);
     });
   });
 }
@@ -329,8 +335,8 @@ function updatePathPairPreview() {
   const preview = document.getElementById('pathPairPreview');
   if (!preview) return;
   preview.textContent = LanguagePair
-    ? LanguagePair.getLanguagePairLabel(currentBridgeLanguage, learningPathState.language)
-    : `Aprenderás ${languageDisplayNames[learningPathState.language] || learningPathState.language} con apoyo en ${languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage}.`;
+    ? LanguagePair.getLanguagePairLabel(learningPathState.bridgeLanguage, learningPathState.language)
+    : `Aprenderás ${languageDisplayNames[learningPathState.language] || learningPathState.language} con apoyo en ${languageDisplayNames[learningPathState.bridgeLanguage] || learningPathState.bridgeLanguage}.`;
 }
 
 // Accepts either a real language key (english/spanish/french/italian/german,
@@ -350,7 +356,7 @@ function setTargetLanguage(lang, options = {}) {
   const resolved = normalizeLanguageKey(lang);
   if (!resolved || !languageDisplayNames[resolved] || resolved === 'ai') return false;
 
-  if (resolved === currentBridgeLanguage) {
+  if (resolved === learningPathState.bridgeLanguage) {
     showHomeToast('El idioma puente debe ser diferente del idioma que deseas aprender.');
     return false;
   }
@@ -371,7 +377,7 @@ function setTargetLanguage(lang, options = {}) {
   updatePathPairPreview();
   updateAiTutorContext();
   updateLevelTabLabels();
-  if (options.persist !== false) savePreferences(resolved, level, currentBridgeLanguage);
+  if (options.persist !== false) savePreferences(resolved, level, learningPathState.bridgeLanguage);
   return true;
 }
 
@@ -381,7 +387,7 @@ function setTargetLanguage(lang, options = {}) {
 // For any other bridge language, label the Spanish text as a reference
 // instead of presenting it as a translation into the student's actual
 // bridge language - never fabricate a translation that isn't real data.
-function resolveVocabTranslation(item, bridgeLanguage = currentBridgeLanguage) {
+function resolveVocabTranslation(item, bridgeLanguage = learningPathState.bridgeLanguage) {
   if (!item?.translation) return item?.translation || '';
   if (bridgeLanguage === 'spanish') return item.translation;
   return `${item.translation} (referencia en español)`;
@@ -727,9 +733,9 @@ function applyPreferencesToSelects(preferences) {
   if (languageSelect) languageSelect.value = preferences.language;
   if (levelSelect) levelSelect.value = preferences.level;
   if (bridgeSelect) bridgeSelect.value = preferences.bridgeLanguage || 'spanish';
-  currentBridgeLanguage = preferences.bridgeLanguage || 'spanish';
+  learningPathState.bridgeLanguage = preferences.bridgeLanguage || 'spanish';
   if (nativeLanguageSelect)
-    nativeLanguageSelect.value = bridgeNameToCode[currentBridgeLanguage] || 'es';
+    nativeLanguageSelect.value = bridgeNameToCode[learningPathState.bridgeLanguage] || 'es';
   updatePathPairPreview();
 }
 
@@ -2318,6 +2324,10 @@ const learningPathState = {
   // open"; selectUnit() below is the only place that should write it.
   unitId: null,
   language: 'english',
+  // The learner's bridge/interface language (see the comment near
+  // LanguagePair above) - was a separate learningPathState.bridgeLanguage global,
+  // folded in here so bridge/target/level all live on one object.
+  bridgeLanguage: 'spanish',
   level: 'A1',
   // Practice results recorded locally as the student answers, keyed by
   // lesson slug -> exercise index -> { selectedOption } | { practiced: true }.
@@ -3434,7 +3444,7 @@ function updateAiTutorContext() {
   const lesson = getActiveLearningLesson();
   const values = {
     language: LanguagePair
-      ? LanguagePair.languageNameIn(currentBridgeLanguage, learningPathState.language)
+      ? LanguagePair.languageNameIn(learningPathState.bridgeLanguage, learningPathState.language)
       : languageDisplayNames[learningPathState.language] || learningPathState.language || 'English',
     level: learningPathState.level || 'A1',
     lesson: lesson?.title || 'Ruta inicial'
@@ -4533,10 +4543,10 @@ function renderSkillViewHeader(section) {
   if (!section) return;
   refreshLanguagePairChrome();
   const bridgeLabel = LanguagePair
-    ? LanguagePair.languageNameIn(currentBridgeLanguage, currentBridgeLanguage)
-    : languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
+    ? LanguagePair.languageNameIn(learningPathState.bridgeLanguage, learningPathState.bridgeLanguage)
+    : languageDisplayNames[learningPathState.bridgeLanguage] || learningPathState.bridgeLanguage;
   const targetLabel = LanguagePair
-    ? LanguagePair.languageNameIn(currentBridgeLanguage, learningPathState.language)
+    ? LanguagePair.languageNameIn(learningPathState.bridgeLanguage, learningPathState.language)
     : languageDisplayNames[learningPathState.language] || learningPathState.language;
   const level = learningPathState.level;
   const bridgeEl = section.querySelector('[data-field="bridge"]');
@@ -4548,7 +4558,7 @@ function renderSkillViewHeader(section) {
   if (levelEl) levelEl.textContent = level;
   if (sentenceEl) {
     sentenceEl.textContent = LanguagePair
-      ? LanguagePair.getLanguagePairLabel(currentBridgeLanguage, learningPathState.language)
+      ? LanguagePair.getLanguagePairLabel(learningPathState.bridgeLanguage, learningPathState.language)
       : `Aprenderás ${targetLabel} con apoyo en ${bridgeLabel}.`;
   }
 }
@@ -4559,7 +4569,7 @@ function openChangeCombinationPopover() {
   const bridgeSelect = document.getElementById('comboBridgeSelect');
   const languageSelect = document.getElementById('comboLanguageSelect');
   const levelSelect = document.getElementById('comboLevelSelect');
-  if (bridgeSelect) bridgeSelect.value = currentBridgeLanguage;
+  if (bridgeSelect) bridgeSelect.value = learningPathState.bridgeLanguage;
   if (languageSelect) languageSelect.value = learningPathState.language;
   if (levelSelect) levelSelect.value = learningPathState.level;
   popover.hidden = false;
@@ -5687,7 +5697,7 @@ async function requestSpeakingCorrection(container, lesson, context = {}) {
   const payload = {
     task: 'speaking_correction',
     language: learningPathState.language,
-    bridgeLanguage: currentBridgeLanguage,
+    bridgeLanguage: learningPathState.bridgeLanguage,
     level: learningPathState.level,
     skill: 'speaking',
     unitId: lesson?.unitId || '',
@@ -6290,10 +6300,10 @@ function renderPrintableExerciseList(exercises, { showAnswers = false } = {}) {
 // decided here. `lesson` is optional (only used to resolve the unit title).
 function renderSkillPrintHeaderHtml(lesson) {
   const bridgeLabel = LanguagePair
-    ? LanguagePair.languageNameIn(currentBridgeLanguage, currentBridgeLanguage)
-    : languageDisplayNames[currentBridgeLanguage] || currentBridgeLanguage;
+    ? LanguagePair.languageNameIn(learningPathState.bridgeLanguage, learningPathState.bridgeLanguage)
+    : languageDisplayNames[learningPathState.bridgeLanguage] || learningPathState.bridgeLanguage;
   const targetLabel = LanguagePair
-    ? LanguagePair.languageNameIn(currentBridgeLanguage, learningPathState.language)
+    ? LanguagePair.languageNameIn(learningPathState.bridgeLanguage, learningPathState.language)
     : languageDisplayNames[learningPathState.language] || learningPathState.language;
   const unit = lesson?.unitId
     ? learningPathState.units.find((item) => item.id === lesson.unitId)
@@ -6804,7 +6814,7 @@ function renderListeningComprehensionPanel(lesson) {
 function normalizeVocabularyItem(item, { language, level, bridgeLanguage, index = 0, lessonSlug = '' } = {}) {
   if (!item) return null;
   const targetLanguage = language || learningPathState.language;
-  const resolvedBridge = bridgeLanguage || currentBridgeLanguage;
+  const resolvedBridge = bridgeLanguage || learningPathState.bridgeLanguage;
   const targetWord = item.targetWord || item.word || '';
   const id = item.id || `${lessonSlug}-${slugifyVocabWord(targetWord)}-${index}`;
   return {
@@ -7217,7 +7227,7 @@ async function generateAiListeningPractice(lesson, topic) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', ...authHeaders() },
     body: JSON.stringify({
-      bridgeLanguage: currentBridgeLanguage,
+      bridgeLanguage: learningPathState.bridgeLanguage,
       targetLanguage: learningPathState.language,
       level: learningPathState.level,
       topic: topic || lesson.title || 'greetings',
@@ -9732,7 +9742,7 @@ function enableHomepageActions() {
         skill: activeSkill,
         level: learningPathState.level || 'A1',
         language: learningPathState.language,
-        bridgeLanguage: currentBridgeLanguage,
+        bridgeLanguage: learningPathState.bridgeLanguage,
         lessonTitle: activeLesson?.title || '',
         lessonIntro: activeLesson?.intro || activeLesson?.description || '',
         lessonSlug: activeLesson?.slug || '',
@@ -9947,7 +9957,7 @@ function enableHomepageActions() {
         skill: 'writing',
         level: learningPathState.level || 'A1',
         language: learningPathState.language,
-        bridgeLanguage: currentBridgeLanguage,
+        bridgeLanguage: learningPathState.bridgeLanguage,
         lessonTitle: lesson?.title || '',
         lessonIntro: lesson?.intro || lesson?.description || '',
         lessonSlug: lesson?.slug || '',
@@ -10061,7 +10071,7 @@ function enableHomepageActions() {
       skill: tutorDrawerContext.skill,
       level: learningPathState.level || 'A1',
       language: learningPathState.language,
-      bridgeLanguage: currentBridgeLanguage,
+      bridgeLanguage: learningPathState.bridgeLanguage,
       lessonTitle: tutorDrawerContext.lessonTitle,
       lessonIntro: tutorDrawerContext.lessonIntro,
       lessonSlug: tutorDrawerContext.lessonSlug,
