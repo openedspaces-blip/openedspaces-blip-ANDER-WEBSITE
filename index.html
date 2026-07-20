@@ -1738,6 +1738,15 @@
       >
         <div class="tutor-drawer-head">
           <h2 id="tutorDrawerTitle">Tutor IA</h2>
+          <label class="tutor-autoplay-toggle" title="Reproducir respuestas automáticamente">
+            <input
+              type="checkbox"
+              id="tutorAutoplayToggle"
+              checked
+              aria-label="Reproducir respuestas automáticamente"
+            />
+            🔊 Auto
+          </label>
           <button
             type="button"
             class="close-modal"
@@ -1758,10 +1767,6 @@
           <span class="tutor-connection-status" id="tutorDrawerConnectionStatus" aria-live="polite"
             >Comprobando conexión…</span
           >
-          <label class="tutor-autoplay-toggle">
-            <input type="checkbox" id="tutorAutoplayToggle" checked />
-            Reproducir respuestas automáticamente
-          </label>
         </div>
         <div
           class="tutor-conversation"

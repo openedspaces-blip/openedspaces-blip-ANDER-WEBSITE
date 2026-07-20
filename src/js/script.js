@@ -3114,6 +3114,26 @@ function getSharedTutorAudioElement() {
   return sharedTutorAudioEl;
 }
 
+// Browsers only allow <audio>.play() with sound once *some* play() call has
+// happened synchronously inside a real user gesture on that element - once
+// that's happened, later programmatic play() calls on the same element (e.g.
+// requestTutorSpeech's auto-trigger, which runs well after the click, at the
+// end of an async fetch chain) keep working for the rest of the session.
+// Calling this at the very top of the Enviar click handler - before any
+// `await` - is what makes the autoplay-after-reply flow actually audible
+// instead of silently blocked; the attempt itself is wrapped so an empty/
+// unsupported source here never surfaces as an error.
+function primeTutorAudioForAutoplay() {
+  const audio = getSharedTutorAudioElement();
+  try {
+    const playAttempt = audio.play();
+    if (playAttempt?.catch) playAttempt.catch(() => {});
+  } catch {
+    /* ignore - this call only exists to register gesture-driven playback */
+  }
+  audio.pause();
+}
+
 function resetTutorVoiceButtons(messageEl) {
   const controls = messageEl?.querySelector('.tutor-voice-controls');
   if (!controls) return;
@@ -3222,7 +3242,10 @@ async function requestTutorSpeech(messageEl, { auto = false } = {}) {
   const speed = controls?.querySelector('.tutor-voice-speed-btn.is-active')?.dataset.speed || 'normal';
   const text = messageEl.dataset.ttsText || '';
   const locale = messageEl.dataset.ttsLocale || getPronunciationLocale();
-  if (!text) return;
+  if (!text) {
+    if (auto) console.warn('[Tutor] auto-play skipped: no ttsText on message element yet.');
+    return;
+  }
 
   stopAllTutorAudio();
   if (listenBtn) listenBtn.disabled = true;
@@ -3309,6 +3332,9 @@ async function requestTutorSpeech(messageEl, { auto = false } = {}) {
         await audio.play();
       } catch (playError) {
         currentTutorAudio = { element: null, messageEl: null };
+        if (auto) {
+          console.warn('[Tutor] autoplay blocked:', playError?.name, playError?.message);
+        }
         if (playError?.name === 'NotAllowedError') {
           showDiscreetNotice('Pulsa reproducir para escuchar la respuesta.');
           if (listenBtn) listenBtn.disabled = false;
@@ -3324,6 +3350,7 @@ async function requestTutorSpeech(messageEl, { auto = false } = {}) {
     markPlaying();
     if (listenBtn) listenBtn.disabled = false;
   } catch (error) {
+    if (auto) console.warn('[Tutor] auto-play request failed:', error?.message || error);
     showDiscreetNotice('El audio no está disponible en este momento.');
     if (listenBtn) listenBtn.disabled = false;
   }
@@ -9681,6 +9708,7 @@ function enableHomepageActions() {
 
     const tutorButton = event.target.closest('.tutor-chat-btn');
     if (tutorButton) {
+      primeTutorAudioForAutoplay();
       const card = tutorButton.closest('#tutor');
       const activeSkill =
         card?.querySelector('.skill-tab-button.active')?.dataset.skill || 'speaking';
@@ -10022,6 +10050,7 @@ function enableHomepageActions() {
   document.getElementById('tutorFab')?.addEventListener('click', () => openTutorDrawer());
 
   document.getElementById('tutorDrawerSend')?.addEventListener('click', async () => {
+    primeTutorAudioForAutoplay();
     const sendBtn = document.getElementById('tutorDrawerSend');
     await sendTutorMessage({
       conversationEl: document.getElementById('tutorDrawerConversation'),
