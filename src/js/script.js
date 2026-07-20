@@ -13,13 +13,26 @@ const nativeLanguageSelect = document.getElementById('nativeLanguage');
 // select which this stays in sync with for backward compatibility.
 //
 // Both live on learningPathState (learningPathState.bridgeLanguage /
-// .language) - there used to be separate learningPathState.bridgeLanguage/
+// .language) - there used to be separate currentBridgeLanguage/
 // currentTargetLanguage globals that had to be kept in sync by hand on every
 // write; that duplication caused a real bug (the home cards/#languages tabs
 // once updated only the target mirror, never learningPathState.language, so
 // the two disagreed - see normalizeLanguageKey's comment below) and has been
 // removed. learningPathState is the single source of truth for both.
 const LanguagePair = window.AndergoLanguagePair;
+
+// Whether the student has manually changed the Traductor's OWN source/target
+// selects this session - once true, syncTranslatorLanguagesFromState() stops
+// overwriting them on every visit to #translator, since the Traductor is
+// intentionally able to translate a different pair than the one being
+// studied (see setupTranslator()). Reset to false whenever the platform's
+// own bridge/target pair changes, so the next visit to Traductor re-syncs to
+// the new pair instead of staying stuck on a stale manual choice.
+let translatorUserAdjustedPair = false;
+// { hash, label } set by openTranslator() when it's opened from a lesson
+// shortcut - drives #translatorReturnLink ("‹ Volver a la lección").
+let translatorReturnContext = null;
+
 const bridgeCodeToName = {
   es: 'spanish',
   en: 'english',
@@ -296,7 +309,15 @@ nativeLanguageSelect?.addEventListener('change', (event) => {
 function setBridgeLanguage(bridgeName, options = {}) {
   const target = learningPathState.language;
   if (bridgeName === target) {
-    showHomeToast('El idioma puente debe ser diferente del idioma que deseas aprender.');
+    showHomeToast('El idioma de apoyo y el idioma que aprendes deben ser diferentes.');
+    if (nativeLanguageSelect)
+      nativeLanguageSelect.value = bridgeNameToCode[learningPathState.bridgeLanguage] || 'es';
+    const staleBridgeSelect = document.getElementById('pathBridgeSelect');
+    if (staleBridgeSelect) staleBridgeSelect.value = learningPathState.bridgeLanguage;
+    return false;
+  }
+  if (LanguagePair && !LanguagePair.isLanguagePairSupported(bridgeName, target)) {
+    showHomeToast('Esta combinación estará disponible próximamente.');
     if (nativeLanguageSelect)
       nativeLanguageSelect.value = bridgeNameToCode[learningPathState.bridgeLanguage] || 'es';
     const staleBridgeSelect = document.getElementById('pathBridgeSelect');
@@ -305,6 +326,7 @@ function setBridgeLanguage(bridgeName, options = {}) {
   }
 
   learningPathState.bridgeLanguage = bridgeName;
+  translatorUserAdjustedPair = false;
   if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[bridgeName] || 'es';
   const bridgeSelect = document.getElementById('pathBridgeSelect');
   if (bridgeSelect) bridgeSelect.value = bridgeName;
@@ -366,7 +388,11 @@ function setTargetLanguage(lang, options = {}) {
   if (!resolved || !languageDisplayNames[resolved] || resolved === 'ai') return false;
 
   if (resolved === learningPathState.bridgeLanguage) {
-    showHomeToast('El idioma puente debe ser diferente del idioma que deseas aprender.');
+    showHomeToast('El idioma de apoyo y el idioma que aprendes deben ser diferentes.');
+    return false;
+  }
+  if (LanguagePair && !LanguagePair.isLanguagePairSupported(learningPathState.bridgeLanguage, resolved)) {
+    showHomeToast('Esta combinación estará disponible próximamente.');
     return false;
   }
 
@@ -375,8 +401,8 @@ function setTargetLanguage(lang, options = {}) {
   // old language.
   stopTutorDictation();
 
-  currentTargetLanguage = resolved;
   learningPathState.language = resolved;
+  translatorUserAdjustedPair = false;
 
   const pathLanguageSelect = document.getElementById('pathLanguageSelect');
   if (pathLanguageSelect) pathLanguageSelect.value = resolved;
@@ -387,6 +413,44 @@ function setTargetLanguage(lang, options = {}) {
   updateAiTutorContext();
   updateLevelTabLabels();
   if (options.persist !== false) savePreferences(resolved, level, learningPathState.bridgeLanguage);
+  return true;
+}
+
+// Swaps bridge<->target (Español -> Inglés becomes Inglés -> Español) for the
+// prominent pair selector's ⇄ button. Deliberately not just two calls to
+// setBridgeLanguage()/setTargetLanguage() in sequence - each of those checks
+// its new value against the OTHER field's CURRENT value, so calling them
+// back-to-back mid-swap would see the not-yet-updated other side and reject
+// a perfectly valid swapped pair (new bridge === still-old target). Updates
+// both fields together, then runs the same side effects setTargetLanguage
+// does (select sync, reload lessons, persist, refresh chrome).
+function swapLearningPathLanguages() {
+  if (!LanguagePair) return false;
+  const swapped = LanguagePair.swapLanguagePair(
+    learningPathState.bridgeLanguage,
+    learningPathState.language
+  );
+  if (!swapped) {
+    showHomeToast('Esta combinación estará disponible próximamente.');
+    return false;
+  }
+
+  stopTutorDictation();
+  learningPathState.bridgeLanguage = swapped.bridge;
+  learningPathState.language = swapped.target;
+  translatorUserAdjustedPair = false;
+
+  if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[swapped.bridge] || 'es';
+  const bridgeSelect = document.getElementById('pathBridgeSelect');
+  if (bridgeSelect) bridgeSelect.value = swapped.bridge;
+  const pathLanguageSelect = document.getElementById('pathLanguageSelect');
+  if (pathLanguageSelect) pathLanguageSelect.value = swapped.target;
+
+  loadLearningPath({ language: swapped.target, level: learningPathState.level });
+  updatePathPairPreview();
+  updateAiTutorContext();
+  updateLevelTabLabels();
+  savePreferences(swapped.target, learningPathState.level, swapped.bridge);
   return true;
 }
 
@@ -3215,7 +3279,7 @@ function appendTutorMessage(container, role, text, { isError = false } = {}) {
 
   const label = document.createElement('span');
   label.className = 'tutor-message-label';
-  label.textContent = role === 'user' ? 'Tú' : 'Tutor AI';
+  label.textContent = role === 'user' ? 'Tú' : 'Tutor IA ANDERGO';
 
   const body = document.createElement('p');
   body.innerHTML = escapeHtml(text).replace(/\n/g, '<br>');
@@ -5333,6 +5397,12 @@ function renderReadingView(section, lesson) {
   const audioPlayerHtml = renderReadingAudioPlayerHtml(audioSnapshot);
   const illustrationHtml = renderReadingIllustrationHtml(lesson);
   const durationLabel = lesson.estimatedMinutes ? `${lesson.estimatedMinutes} min · ` : '';
+  // Full reading text + vocabulary word list, reused as context for both the
+  // Tutor shortcuts (data-tutor-transcript/-vocabulary) and the "Traducir
+  // este texto" shortcut below - so both actually know what's on screen
+  // instead of just a generic prompt string.
+  const readingTranscript = paragraphs.join(' ');
+  const readingVocabWords = (lesson.vocabulary || []).map((item) => item.word).join(', ');
 
   content.innerHTML = `
     <div class="reading-print-area skill-print-area">
@@ -5366,10 +5436,11 @@ function renderReadingView(section, lesson) {
       </div>
     </div>
     <div class="skill-view-tutor-cta no-print">
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Explícame este párrafo: ${escapeHtml(paragraphs[0] || lesson.title)}" data-support-mode="explain">Explicar este párrafo</button>
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Resume esta lectura en un par de frases." data-support-mode="explain">Resumir con Tutor IA</button>
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Dame una pista para responder las preguntas de comprensión, sin darme la respuesta." data-support-mode="hint">Pedir pista</button>
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Crea otra pregunta de comprensión sobre este texto." data-support-mode="practice">Crear otra pregunta</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Explícame este párrafo: ${escapeHtml(paragraphs[0] || lesson.title)}" data-support-mode="explain" data-tutor-transcript="${escapeHtml(readingTranscript)}" data-tutor-vocabulary="${escapeHtml(readingVocabWords)}">Explicar este párrafo</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Resume esta lectura en un par de frases." data-support-mode="explain" data-tutor-transcript="${escapeHtml(readingTranscript)}" data-tutor-vocabulary="${escapeHtml(readingVocabWords)}">Resumir con Tutor IA</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Dame una pista para responder las preguntas de comprensión, sin darme la respuesta." data-support-mode="hint" data-tutor-transcript="${escapeHtml(readingTranscript)}">Pedir pista</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Crea otra pregunta de comprensión sobre este texto." data-support-mode="practice" data-tutor-transcript="${escapeHtml(readingTranscript)}">Crear otra pregunta</button>
+      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(readingTranscript)}" data-return-label="Volver a Reading">Traducir este texto</button>
       <button type="button" class="primary-btn reading-print-btn">Descargar PDF</button>
     </div>
   `;
@@ -6437,6 +6508,7 @@ function renderSpeakingView(section, lesson) {
     <div id="speakingStage" class="speaking-stage"></div>
     <div class="skill-view-tutor-cta">
       <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Quiero practicar esta conversación de Speaking." data-support-mode="practice">Abrir Tutor IA (chat libre)</button>
+      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="" data-return-label="Volver a Speaking">Traducir</button>
     </div>
   `;
 
@@ -6565,7 +6637,8 @@ function renderGrammarView(section, lesson) {
       </div>
     </div>
     <div class="skill-view-tutor-cta no-print">
-      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Explícame por qué se usa esta estructura: ${escapeHtml(lesson.grammar || '')}" data-support-mode="explain">Explícame esta estructura</button>
+      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Explícame por qué se usa esta estructura: ${escapeHtml(lesson.grammar || '')}" data-support-mode="explain" data-tutor-transcript="${escapeHtml(lesson.grammar || '')}">Explícame esta estructura</button>
+      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(lesson.grammar || '')}" data-return-label="Volver a Grammar">Traducir explicación</button>
       <button type="button" class="secondary-btn skill-print-btn">${staff ? 'Descargar clave de respuestas' : 'Descargar actividad en PDF'}</button>
     </div>
   `;
@@ -7202,7 +7275,8 @@ function renderVocabularyView(section, lesson) {
         .join('')}
     </div>
     <div class="skill-view-tutor-cta no-print">
-      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Ayúdame a practicar este vocabulario: ${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-support-mode="practice">Practicar estas palabras</button>
+      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Ayúdame a practicar este vocabulario: ${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-support-mode="practice" data-tutor-vocabulary="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}">Practicar estas palabras</button>
+      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-return-label="Volver a Vocabulary">Traducir estas palabras</button>
     </div>
     <div class="vocab-test no-print">
       <h4>Prueba de vocabulario</h4>
@@ -9011,7 +9085,6 @@ function showView(viewId) {
     const levelChanged = hashState.level && hashState.level !== learningPathState.level;
     if (languageChanged || levelChanged) {
       const nextLanguage = hashState.language || learningPathState.language;
-      currentTargetLanguage = nextLanguage;
       const pathLanguageSelect = document.getElementById('pathLanguageSelect');
       if (pathLanguageSelect) pathLanguageSelect.value = nextLanguage;
       loadLearningPath({
@@ -9057,6 +9130,7 @@ function showView(viewId) {
     checkTutorConnection();
     refreshTutorUsageCounter();
   }
+  if (resolved === 'translator') syncTranslatorLanguagesFromState();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
   if (SKILL_VIEWS.includes(resolved)) renderSkillView(resolved);
@@ -9352,7 +9426,7 @@ function enableHomepageActions() {
       const skillPanel = suggestion.closest('.skill-panel');
       window.AndergoGamification?.recordSkillTouched(
         skillPanel?.dataset.skill,
-        currentTargetLanguage
+        learningPathState.language
       );
       return;
     }
@@ -9459,7 +9533,7 @@ function enableHomepageActions() {
           window.AndergoGamification?.recordCorrectAnswer();
           window.AndergoGamification?.recordSkillTouched(
             questionItem.dataset.skill,
-            questionItem.dataset.language || currentTargetLanguage
+            questionItem.dataset.language || learningPathState.language
           );
         }
       } catch (error) {
@@ -9915,7 +9989,7 @@ function enableHomepageActions() {
       window.AndergoGamification?.recordCorrectAnswer();
       window.AndergoGamification?.recordSkillTouched(
         exerciseBlock.dataset.skill,
-        exerciseBlock.dataset.language || currentTargetLanguage
+        exerciseBlock.dataset.language || learningPathState.language
       );
 
       renderLessonWorkspace();
@@ -9927,7 +10001,7 @@ function enableHomepageActions() {
       const conversation = document.getElementById('tutorConversation');
       if (conversation) {
         conversation.innerHTML =
-          '<p class="tutor-welcome">👋 Soy Tutor AI. Pregúntame lo que quieras sobre esta habilidad, nivel o lección, y te ayudo con correcciones, ejemplos y práctica.</p>';
+          '<p class="tutor-welcome">👋 Soy el Tutor IA ANDERGO Academy. Pregúntame lo que quieras sobre esta habilidad, nivel o lección, y te ayudo con correcciones, ejemplos y práctica.</p>';
       }
       return;
     }
@@ -9990,6 +10064,22 @@ function enableHomepageActions() {
         vocabulary: openTutorBtn.dataset.tutorVocabulary || '',
         currentQuestion: openTutorBtn.dataset.tutorCurrentQuestion || '',
         selectedAnswer: openTutorBtn.dataset.tutorSelectedAnswer || ''
+      });
+      return;
+    }
+
+    // "Traducir" shortcuts from Reading/Grammar/Vocabulary/Speaking - see
+    // openTranslator(). Always translates target-language content back into
+    // the student's bridge language; data-return-label lets each view name
+    // itself in "‹ Volver a ...".
+    const openTranslatorBtn = event.target.closest('.open-translator-btn');
+    if (openTranslatorBtn) {
+      openTranslator({
+        text: openTranslatorBtn.dataset.translateText || '',
+        sourceLanguage: learningPathState.language,
+        targetLanguage: learningPathState.bridgeLanguage,
+        returnHash: window.location.hash || '#learn',
+        returnLabel: openTranslatorBtn.dataset.returnLabel || 'Volver a la lección'
       });
       return;
     }
@@ -10307,7 +10397,7 @@ function enableHomepageActions() {
     const conversation = document.getElementById('tutorDrawerConversation');
     if (conversation)
       conversation.innerHTML =
-        '<p class="tutor-welcome">👋 Soy Tutor AI. Cuéntame qué quieres practicar.</p>';
+        '<p class="tutor-welcome">👋 Soy el Tutor IA ANDERGO Academy. Cuéntame qué quieres practicar.</p>';
   });
 
   document.getElementById('tutorDrawerPrompt')?.addEventListener('keydown', (event) => {
@@ -10345,6 +10435,9 @@ function setupLearningPathControls() {
   bridgeSelect?.addEventListener('change', () => {
     setBridgeLanguage(bridgeSelect.value);
   });
+  document
+    .getElementById('pathSwapLanguagesBtn')
+    ?.addEventListener('click', () => swapLearningPathLanguages());
 }
 
 function initScrollReveal() {
@@ -10418,6 +10511,75 @@ function clearTranslatorHistory() {
   }
 }
 
+// Prefills the Traductor's own source/target selects from the platform's
+// current bridge/target pair the first time the student lands on #translator
+// in a given session - see translatorUserAdjustedPair's comment for why this
+// stops once the student has picked a pair inside the Traductor itself.
+// bridge->target (not the other way) matches the rest of the app's "Puente
+// -> Objetivo" framing: translate what I want to say FROM my own language
+// INTO the one I'm learning.
+function syncTranslatorLanguagesFromState() {
+  if (translatorUserAdjustedPair) return;
+  const sourceSelect = document.getElementById('translatorSourceLang');
+  const targetSelect = document.getElementById('translatorTargetLang');
+  if (!sourceSelect || !targetSelect) return;
+  const bridge = learningPathState.bridgeLanguage;
+  const target = learningPathState.language;
+  if ([...sourceSelect.options].some((opt) => opt.value === bridge)) sourceSelect.value = bridge;
+  if ([...targetSelect.options].some((opt) => opt.value === target)) targetSelect.value = target;
+}
+
+// Opens the Traductor pre-filled with context from another view (Reading/
+// Grammar/Vocabulary/Speaking's "Traducir" shortcuts) - the sibling of
+// openTutorDrawer() for the Traductor. Defaults to translating FROM the
+// target language INTO the bridge language (the "explain this to me"
+// direction those shortcuts need), overridable via overrides.sourceLanguage/
+// targetLanguage. overrides.returnHash/returnLabel wire up
+// #translatorReturnLink so the student can get back to exactly where they
+// were instead of hunting through the nav.
+function openTranslator(overrides = {}) {
+  const sourceSelect = document.getElementById('translatorSourceLang');
+  const targetSelect = document.getElementById('translatorTargetLang');
+  const input = document.getElementById('translatorInput');
+  const returnLink = document.getElementById('translatorReturnLink');
+
+  const sourceLang = overrides.sourceLanguage || learningPathState.language;
+  const targetLang = overrides.targetLanguage || learningPathState.bridgeLanguage;
+  if (sourceSelect && [...sourceSelect.options].some((opt) => opt.value === sourceLang)) {
+    sourceSelect.value = sourceLang;
+  }
+  if (targetSelect && [...targetSelect.options].some((opt) => opt.value === targetLang)) {
+    targetSelect.value = targetLang;
+  }
+  // An explicit shortcut always wins over the generic sync for the rest of
+  // this session - the student (or the lesson view on their behalf) just
+  // chose this pair on purpose.
+  translatorUserAdjustedPair = true;
+
+  if (input && overrides.text) {
+    const maxLength = Number(input.getAttribute('maxlength')) || 1000;
+    input.value = String(overrides.text).slice(0, maxLength);
+    input.dispatchEvent(new Event('input'));
+  }
+
+  if (returnLink) {
+    if (overrides.returnHash) {
+      translatorReturnContext = {
+        hash: overrides.returnHash,
+        label: overrides.returnLabel || 'Volver a la lección'
+      };
+      returnLink.textContent = `‹ ${translatorReturnContext.label}`;
+      returnLink.hidden = false;
+    } else {
+      translatorReturnContext = null;
+      returnLink.hidden = true;
+    }
+  }
+
+  if (window.location.hash !== '#translator') history.pushState(null, '', '#translator');
+  showView('translator');
+}
+
 function setupTranslator() {
   const sourceSelect = document.getElementById('translatorSourceLang');
   const targetSelect = document.getElementById('translatorTargetLang');
@@ -10471,9 +10633,26 @@ function setupTranslator() {
 
   // recognition.lang is fixed for the life of a SpeechRecognition instance -
   // a source-language switch mid-dictation would otherwise keep listening
-  // in the old language.
+  // in the old language. Any manual change here also opts this session out
+  // of syncTranslatorLanguagesFromState()'s auto-sync (see its comment) -
+  // the student picked this pair on purpose.
   sourceSelect?.addEventListener('change', () => {
     stopTranslatorDictation();
+    translatorUserAdjustedPair = true;
+  });
+  targetSelect?.addEventListener('change', () => {
+    translatorUserAdjustedPair = true;
+  });
+
+  const returnLink = document.getElementById('translatorReturnLink');
+  returnLink?.addEventListener('click', (event) => {
+    event.preventDefault();
+    if (!translatorReturnContext) return;
+    const hash = translatorReturnContext.hash;
+    translatorReturnContext = null;
+    returnLink.hidden = true;
+    if (window.location.hash !== hash) history.pushState(null, '', hash);
+    showView(getViewFromHash());
   });
 
   swapBtn?.addEventListener('click', () => {
