@@ -159,6 +159,13 @@ drop policy if exists "Service role manages subscriptions" on public.subscriptio
 create policy "Service role manages subscriptions" on public.subscriptions
   for all using (auth.role() = 'service_role');
 
+-- Explicit, minimal grants (RLS above still gates which rows/operations
+-- each role can actually reach) - authenticated only needs to read its own
+-- row; every write goes through lib/subscriptionService.js's service-role
+-- admin client.
+grant select on public.subscriptions to authenticated;
+grant select, insert, update, delete on public.subscriptions to service_role;
+
 drop trigger if exists trg_subscriptions_updated_at on public.subscriptions;
 create trigger trg_subscriptions_updated_at before update on public.subscriptions
   for each row execute function public.set_updated_at();
