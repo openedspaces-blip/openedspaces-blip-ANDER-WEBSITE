@@ -1499,11 +1499,13 @@ async function initResetPasswordPage() {
 async function initEmailConfirmedPage() {
   const successEl = document.getElementById('emailConfirmedSuccess');
   const invalidEl = document.getElementById('emailConfirmedInvalid');
+  const invalidMessageEl = document.getElementById('emailConfirmedInvalidMessage');
   if (!successEl || !invalidEl) return;
 
-  function showInvalid() {
+  function showInvalid(message) {
     successEl.hidden = true;
     invalidEl.hidden = false;
+    if (invalidMessageEl && message) invalidMessageEl.textContent = message;
   }
 
   function showSuccess(email) {
@@ -1511,6 +1513,22 @@ async function initEmailConfirmedPage() {
     invalidEl.hidden = true;
     const loginIdentifierInput = document.getElementById('loginIdentifier');
     if (loginIdentifierInput && email) loginIdentifierInput.value = email;
+  }
+
+  // Supabase's own error redirect (expired/already-used/invalid link) lands
+  // here with ?error&error_code&error_description instead of a `code` -
+  // that request never reaches exchangeCodeForSession at all, so this must
+  // be checked first, before even loading supabase-js.
+  const callbackParams = new URLSearchParams(window.location.search);
+  const errorCode = callbackParams.get('error_code');
+  if (callbackParams.get('error') || errorCode) {
+    window.history.replaceState(null, '', '/');
+    showInvalid(
+      errorCode === 'otp_expired'
+        ? 'El enlace de confirmación expiró. Solicita uno nuevo.'
+        : undefined
+    );
+    return;
   }
 
   let clientConfig;
@@ -10903,6 +10921,12 @@ const isPasswordRecoveryLink =
 // email (authService's EMAIL_CONFIRM_REDIRECT_URL = '/?auth=confirmed') -
 // the 6-digit OTP in showSignupPending() is still the primary confirmation
 // path; this only covers an account confirming via the email's link instead.
+// Supabase's own error redirect (expired/already-used link) still lands here
+// with `auth=confirmed` intact plus `error`/`error_code`/`error_description`
+// appended - it redirects to the full redirect_to it was given, not a
+// stripped-down version of it - so this one check already covers both the
+// success and error cases; initEmailConfirmedPage() branches on the error
+// params once it's here.
 const isEmailConfirmedLink = new URLSearchParams(window.location.search).get('auth') === 'confirmed';
 
 if (isPasswordRecoveryLink) {

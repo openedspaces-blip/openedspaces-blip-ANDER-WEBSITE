@@ -28,9 +28,11 @@ Suggested template:
 
   {{ .Token }}
 
-  Este código es temporal.
+  Este código es temporal y expira si no lo usas pronto - si eso pasa, pide
+  uno nuevo desde la pantalla de verificación.
 
-  Si no creaste esta cuenta, ignora este mensaje.
+  Si no creaste esta cuenta, ignora este mensaje o escríbenos a
+  support@andergo.online.
   ```
 
 `{{ .Data.username }}` resolves because `authService.register()` passes
@@ -38,31 +40,41 @@ Suggested template:
 `auth.users.raw_user_meta_data`) - confirmed against this codebase, not
 assumed.
 
-## 2. SMTP (do not ship on the Supabase default)
+Do not replace `{{ .Token }}` (or, on the link-based fallback page this app
+also handles - see `initEmailConfirmedPage()` in `src/js/script.js` - a
+`{{ .ConfirmationURL }}`) with a manually-written URL/code: only Supabase's
+own template variable carries the real, single-use token.
+
+## 2. SMTP (Brevo - configured)
 
 **Authentication → SMTP Settings**
 
-Supabase's built-in mailer is shared across all projects on the free/default
-tier and is heavily rate-limited - fine for local development, not for real
-signups. This system is **not production-ready** until a dedicated SMTP
-provider is configured here. Required fields:
+This project uses **Custom SMTP via Brevo**, not Supabase's shared default
+mailer:
 
-| Field | Notes |
+| Field | Value |
 |---|---|
-| SMTP host | From your provider (e.g. Postmark, SES, Resend, SendGrid) |
-| SMTP port | Usually `587` (STARTTLS) or `465` (SSL) |
-| SMTP username | Provider-issued, not a personal email login |
-| SMTP password / API key | Provider-issued |
+| SMTP host | `smtp-relay.brevo.com` |
+| SMTP port | `587` |
 | Sender name | `ANDERGO` |
-| Sender email | `no-reply@andergo.online` (matches the domain already used by `EMAIL_CONFIRM_REDIRECT_URL` in `lib/authService.js`) |
+| Sender email | `no-reply@andergo.online` (matches `EMAIL_CONFIRM_REDIRECT_URL`'s domain in `lib/authService.js`) |
+| SMTP username / password | Brevo-issued - dashboard-only, see below |
 
-**Never** put any of these values in frontend code, a committed `.env`, or a
-GitHub Actions log - they only ever belong in the Supabase dashboard's SMTP
-settings (or, for infra-as-code setups, a secrets manager that provisions
-that same dashboard field).
+DKIM and DMARC for `andergo.online` are verified in Brevo. Deliverability
+issues (a signup that shows `success` here but the student never sees the
+email) should be diagnosed in **Brevo → Transactional Logs** first - check
+whether the recipient shows Delivered, Deferred, Blocked or Bounce there
+before assuming this app's code is at fault. `lib/authService.js`'s
+`logEmailOperation()` gives the matching server-side signal
+(`operation=REGISTER_EMAIL_REQUEST status=... errorCode=...`) to narrow down
+whether the request even reached Brevo in the first place. A `Delivered`
+status in Brevo with nothing visible in Gmail's Primary tab means the SMTP
+send succeeded - check Spam, Promociones and Todos next, not the app.
 
-## What still uses the default template/mailer today
-
-Until both of the above are configured in the actual Supabase project, the
-app works (confirmed end-to-end against a real account) but is running on
-shared infrastructure not meant for production email volume.
+**Never** put the SMTP username/password in frontend code, a committed
+`.env`, or a GitHub Actions log - they only ever belong in the Supabase
+dashboard's SMTP settings (or, for infra-as-code setups, a secrets manager
+that provisions that same dashboard field). This app never sends email
+itself (no Nodemailer, no direct send from Vercel) - every email goes
+through Supabase Auth's own `signUp`/`resend`/`resetPasswordForEmail` calls,
+which is what actually talks to Brevo.
