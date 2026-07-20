@@ -2993,50 +2993,6 @@ footer small {
   }
 }
 
-/* Home Premium teaser card - non-invasive upsell, not an ad: shown only to
-   guests/Free accounts (script.js hides it for Premium/CEO entitlements),
-   matches the .premium-plan/.plan-badge palette used in #premium so it
-   reads as "part of this app" rather than a banner. */
-.home-premium-teaser {
-  max-width: 420px;
-  margin: 1.5rem auto 0;
-  padding: 1.25rem 1.5rem;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--line);
-  background: linear-gradient(135deg, var(--accent-soft), rgba(37, 99, 235, 0.02));
-  text-align: center;
-}
-
-.home-premium-teaser-title {
-  margin: 0;
-  font-weight: 700;
-  color: var(--navy-2);
-}
-
-.home-premium-teaser-subtitle {
-  margin: 0.15rem 0 0.75rem;
-  color: var(--muted);
-}
-
-.home-premium-teaser-list {
-  list-style: none;
-  margin: 0 0 0.9rem;
-  padding: 0;
-  display: grid;
-  gap: 0.35rem;
-  font-size: 0.9rem;
-  color: var(--navy-2);
-  text-align: left;
-  max-width: 260px;
-  margin-inline: auto;
-}
-
-.home-premium-teaser-price {
-  margin: 0 0 0.9rem;
-  font-weight: 600;
-  color: var(--blue);
-}
-
 .price-annual {
   margin-top: -0.4rem;
   color: var(--muted);
@@ -3280,6 +3236,19 @@ footer small {
   margin: 0.75rem 0;
 }
 
+/* Discreet Tutor IA usage counter ("Te quedan N de 30 consultas") - plain
+   muted text, not a promo. Empty (guest/Premium/ceo, see
+   renderTutorUsageCounter) collapses to nothing via :empty. */
+.tutor-usage-counter {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.tutor-usage-counter:empty {
+  display: none;
+}
+
 .tutor-thinking {
   margin: 0;
   color: #475569;
@@ -3350,6 +3319,27 @@ footer small {
 .tutor-autoplay-toggle input {
   accent-color: var(--blue);
   cursor: pointer;
+}
+
+/* Shown only when the Traductor/Tutor was opened from a lesson (see
+   openTranslator()/openTutorDrawer() context) so the student can get back to
+   exactly where they were instead of hunting through the main nav. */
+.translator-return-link,
+.tutor-return-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.translator-return-link:hover,
+.tutor-return-link:hover {
+  text-decoration: underline;
 }
 
 .tutor-input-group {
@@ -3606,18 +3596,6 @@ footer small {
 
 .home-guest-actions[hidden] {
   display: none;
-}
-
-.home-pricing-teaser {
-  margin-top: 18px;
-  font-size: 0.92rem;
-  color: var(--muted);
-}
-
-.home-pricing-teaser a {
-  color: var(--blue);
-  font-weight: 800;
-  margin-left: 6px;
 }
 
 /* Goals section */
@@ -4377,14 +4355,23 @@ footer small {
 }
 
 /* Learning path language/level controls */
-.path-controls {
+/* Prominent "Puente ⇄ Objetivo  [Nivel]" selector - the one place on the
+   Aprender view the student always sees which two languages they're paired
+   in, so it gets its own highlighted panel instead of blending in as plain
+   label+select rows like the rest of the page's forms. */
+.language-pair-bar {
   display: flex;
-  gap: 1rem;
+  align-items: flex-end;
+  gap: 0.85rem;
   flex-wrap: wrap;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.75rem;
+  padding: 1rem 1.25rem;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(124, 58, 237, 0.08));
+  border: 1px solid rgba(37, 99, 235, 0.16);
 }
 
-.path-controls label {
+.language-pair-field {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
@@ -4393,13 +4380,58 @@ footer small {
   font-weight: 600;
 }
 
-.path-controls select {
-  padding: 0.5rem 0.75rem;
-  border-radius: 10px;
+.language-pair-field select {
+  padding: 0.6rem 0.85rem;
+  border-radius: 12px;
   border: 1px solid var(--line);
   background: var(--white);
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1rem;
   color: var(--navy-2);
+  min-width: 9.5rem;
+}
+
+.language-pair-field-level select {
+  min-width: 5rem;
+}
+
+.language-pair-swap-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  border: 1px solid rgba(37, 99, 235, 0.3);
+  background: var(--white);
+  color: var(--blue);
+  font-size: 1.2rem;
+  font-weight: 800;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition:
+    transform 160ms ease,
+    background 160ms ease;
+}
+
+.language-pair-swap-btn:hover {
+  background: rgba(37, 99, 235, 0.1);
+  transform: rotate(180deg);
+}
+
+@media (max-width: 640px) {
+  .language-pair-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.6rem;
+  }
+  .language-pair-swap-btn {
+    align-self: center;
+    transform: rotate(90deg);
+  }
+  .language-pair-swap-btn:hover {
+    transform: rotate(270deg);
+  }
 }
 
 /* Interactive multiple-choice questions (reading comprehension + lesson exercises) */

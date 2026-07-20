@@ -86,12 +86,6 @@
             <div><strong>Progreso real</strong><span>medible cada semana</span></div>
             <div><strong>Práctica personalizada</strong><span>según tu nivel</span></div>
           </div>
-
-          <p class="home-pricing-teaser">
-            Prueba gratis. Desbloquea ANDERGO Premium desde
-            <span data-premium-monthly-price>USD 4.99</span>/mes.
-            <a href="#premium">Ver Premium</a>
-          </p>
         </div>
 
         <div class="hero-card">
@@ -132,21 +126,6 @@
           </article>
         </div>
       </section>
-
-      <aside class="home-premium-teaser" id="homePremiumTeaser" aria-label="ANDERGO Premium">
-        <p class="home-premium-teaser-title">🚀 ANDERGO Premium</p>
-        <p class="home-premium-teaser-subtitle">Aprende sin límites.</p>
-        <ul class="home-premium-teaser-list">
-          <li>✔ Tutor IA avanzado</li>
-          <li>✔ Conversación por voz</li>
-          <li>✔ Pronunciación corregida</li>
-          <li>✔ Todos los cursos</li>
-        </ul>
-        <p class="home-premium-teaser-price">
-          Desde <span data-premium-monthly-price>USD 4.99</span>/mes
-        </p>
-        <a href="#premium" class="primary-btn" data-home-action="upgrade">Actualizar</a>
-      </aside>
 
       <section
         id="progress"
@@ -229,6 +208,58 @@
             <button type="button" class="language-preview-btn" data-home-action="explore-espanol">
               Explorar ruta
             </button>
+          </article>
+        </div>
+      </section>
+
+      <section id="premium" class="section pricing-section compact-hidden-section">
+        <div class="section-heading">
+          <span>Planes</span>
+          <h2 tabindex="-1">Elige tu plan ANDERGO.</h2>
+          <p>
+            Empieza gratis y actualiza a Premium cuando quieras aprender sin límites.
+          </p>
+        </div>
+
+        <div class="pricing-layout">
+          <article class="plan free-plan">
+            <span class="plan-badge">Free</span>
+            <h3>Plan Free</h3>
+            <p class="price">USD 0</p>
+            <ul>
+              <li>Parte de los cursos: lecturas, gramática, listening y speaking básicos.</li>
+              <li>Text-to-Speech, traductor, flashcards y vocabulario.</li>
+              <li>Tutor IA: 30 consultas al mes.</li>
+              <li>Conversación por voz: 10 al mes.</li>
+            </ul>
+            <a href="#learn" class="secondary-btn" data-home-action="start-free">Probar gratis</a>
+          </article>
+
+          <article class="plan premium-plan">
+            <span class="plan-badge">Premium</span>
+            <h3>ANDERGO Premium</h3>
+            <p class="price">
+              <span data-premium-monthly-price>USD 4.99</span> <small>/ mes</small>
+            </p>
+            <p class="price-annual">
+              o <span data-premium-yearly-price>USD 39.99</span> <small>/ año</small>
+            </p>
+            <div class="premium-badge-row">
+              <span class="premium-badge">Sin límites</span>
+              <span class="premium-badge">Conversación por voz</span>
+              <span class="premium-badge">Corrección de pronunciación</span>
+            </div>
+            <ul>
+              <li>Todos los idiomas y todos los niveles.</li>
+              <li>Todo Reading, Grammar, Vocabulary, Listening y Speaking.</li>
+              <li>Diálogos completos y Tutor IA sin límites.</li>
+              <li>Conversación por voz ilimitada con corrección de pronunciación.</li>
+              <li>Estadísticas completas y certificados.</li>
+              <li>Sin publicidad.</li>
+            </ul>
+            <a href="#premium" class="primary-btn" data-home-action="upgrade">
+              Actualizar a Premium — <span data-premium-monthly-price>USD 4.99</span>/mes
+            </a>
           </article>
         </div>
       </section>
@@ -782,10 +813,7 @@
           >
         </div>
 
-        <div class="premium-badge-row">
-          <span class="premium-badge">Conversación por voz</span>
-          <span class="premium-badge">Corrección de pronunciación</span>
-        </div>
+        <p class="tutor-usage-counter" id="tutorUsageCounter" aria-live="polite"></p>
 
         <div class="skill-tabs is-open">
           <div class="skill-tab-list">
@@ -950,58 +978,6 @@
           <div id="goalsCrudBody">
             <p class="skill-graph-empty">Inicia sesión para crear y guardar tu objetivo.</p>
           </div>
-        </div>
-      </section>
-
-      <section id="premium" class="section pricing-section compact-hidden-section">
-        <div class="section-heading">
-          <span>Planes</span>
-          <h2 tabindex="-1">Elige tu plan ANDERGO.</h2>
-          <p>
-            Empieza gratis y actualiza a Premium cuando quieras aprender sin límites.
-          </p>
-        </div>
-
-        <div class="pricing-layout">
-          <article class="plan free-plan">
-            <span class="plan-badge">Free</span>
-            <h3>Plan Free</h3>
-            <p class="price">USD 0</p>
-            <ul>
-              <li>Parte de los cursos: lecturas, gramática, listening y speaking básicos.</li>
-              <li>Text-to-Speech, traductor, flashcards y vocabulario.</li>
-              <li>Tutor IA: 30 consultas al mes.</li>
-              <li>Conversación por voz: 10 al mes.</li>
-            </ul>
-            <a href="#learn" class="secondary-btn" data-home-action="start-free">Probar gratis</a>
-          </article>
-
-          <article class="plan premium-plan">
-            <span class="plan-badge">Premium</span>
-            <h3>ANDERGO Premium</h3>
-            <p class="price">
-              <span data-premium-monthly-price>USD 4.99</span> <small>/ mes</small>
-            </p>
-            <p class="price-annual">
-              o <span data-premium-yearly-price>USD 39.99</span> <small>/ año</small>
-            </p>
-            <div class="premium-badge-row">
-              <span class="premium-badge">Sin límites</span>
-              <span class="premium-badge">Conversación por voz</span>
-              <span class="premium-badge">Corrección de pronunciación</span>
-            </div>
-            <ul>
-              <li>Todos los idiomas y todos los niveles.</li>
-              <li>Todo Reading, Grammar, Vocabulary, Listening y Speaking.</li>
-              <li>Diálogos completos y Tutor IA sin límites.</li>
-              <li>Conversación por voz ilimitada con corrección de pronunciación.</li>
-              <li>Estadísticas completas y certificados.</li>
-              <li>Sin publicidad.</li>
-            </ul>
-            <a href="#premium" class="primary-btn" data-home-action="upgrade">
-              Actualizar a Premium — <span data-premium-monthly-price>USD 4.99</span>/mes
-            </a>
-          </article>
         </div>
       </section>
 

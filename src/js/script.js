@@ -518,16 +518,24 @@ const PAYWALL_PREMIUM_HIGHLIGHTS = [
   'Certificados y estadísticas completas'
 ];
 
-function openPaywallModal({ featureLabel, used, limit }) {
+// title/message let a caller override the two spots worded around a usage
+// cap ("Has alcanzado el límite...") for cases that aren't a cap at all -
+// e.g. a Premium-only lesson a Free account just tapped into (see the
+// lesson workspace's 'open-lesson-paywall' handler below).
+function openPaywallModal({ featureLabel, used, limit, title, message } = {}) {
   if (!paywallModal) return;
   paywallReturnFocus = document.activeElement;
+
+  const titleEl = document.getElementById('paywallModalTitle');
+  if (titleEl) titleEl.textContent = title || 'Has alcanzado el límite de tu plan gratuito.';
 
   const usageLine = document.getElementById('paywallUsageLine');
   if (usageLine) {
     usageLine.textContent =
-      used != null && limit != null
+      message ||
+      (used != null && limit != null
         ? `Usaste ${used} de ${limit} ${featureLabel} este mes.`
-        : `Alcanzaste el límite de ${featureLabel} de tu plan gratuito.`;
+        : `Alcanzaste el límite de ${featureLabel} de tu plan gratuito.`);
   }
 
   const featuresList = document.getElementById('paywallFeatures');
@@ -917,22 +925,11 @@ function renderDashboardSignedOut() {
 
 let dashboardPreferences = null;
 
-// Home Premium card (index.html#homePremiumTeaser) - non-invasive upsell,
-// shown by default (guests included) and hidden only once the server says
-// this account already has full access. Never the reverse: absence of
-// entitlements data must not hide it, only a confirmed Premium/CEO account.
-function updateHomePremiumTeaser(entitlements) {
-  const teaser = document.getElementById('homePremiumTeaser');
-  if (!teaser) return;
-  teaser.hidden = Boolean(entitlements?.isPremium || entitlements?.role === 'ceo');
-}
-
 function renderDashboard(data) {
   if (!data) {
     dashboardPreferences = null;
     authStatus.entitlements = null;
     renderDashboardSignedOut();
-    updateHomePremiumTeaser(null);
     return;
   }
 
@@ -946,7 +943,6 @@ function renderDashboard(data) {
   if (data.entitlements) {
     authStatus.entitlements = data.entitlements;
     renderAuthState();
-    updateHomePremiumTeaser(data.entitlements);
   }
   renderDashboardStats(data);
   renderDashboardGoal(data.goal, data.preferences);
@@ -3472,6 +3468,33 @@ async function checkTutorConnection(statusElId = 'tutorConnectionStatus') {
   }
 }
 
+// Discreet "Te quedan N de 30 consultas" line - replaces the old permanent
+// "Conversación por voz / Corrección de pronunciación" Premium badge row
+// that used to sit here regardless of how much of the free quota was left.
+// Says nothing about Premium at all until the student actually hits the
+// limit (see openPaywallModal, called separately from the /api/ai/tutor
+// rejection). remaining: null (guest, or Premium/ceo - see
+// usageLimitService.checkUsage) means "no cap to show", so the line stays empty.
+function renderTutorUsageCounter({ remaining, limit }) {
+  const el = document.getElementById('tutorUsageCounter');
+  if (!el) return;
+  el.textContent =
+    remaining != null && limit != null ? `Te quedan ${remaining} de ${limit} consultas.` : '';
+}
+
+async function refreshTutorUsageCounter() {
+  const el = document.getElementById('tutorUsageCounter');
+  if (!el) return;
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/ai/tutor/usage`, { headers: authHeaders() });
+    if (!response.ok) return;
+    const data = await response.json();
+    renderTutorUsageCounter(data);
+  } catch (error) {
+    // Silent - a stale/missing counter is never worth surfacing an error for.
+  }
+}
+
 // ---------------------------------------------------------------------
 // Speech transcript punctuation normalization. The Web Speech API used by
 // startTutorDictation below returns raw text with no punctuation and no
@@ -4266,8 +4289,7 @@ function renderLessonDetail(lesson) {
     ? `
     <div class="premium-lock-box">
       <strong>🔒 Lección premium</strong>
-      <span>Desbloquea esta lección y la ruta completa con el único plan: USD ${premiumPriceUsd}.</span>
-      <button type="button" class="primary-btn upgrade-btn">Desbloquear por USD ${premiumPriceUsd}</button>
+      <button type="button" class="primary-btn" data-action="open-lesson-paywall">Desbloquear</button>
     </div>
   `
     : lesson.exercises?.map((item, index) => renderLessonExercise(item, index, lesson)).join('') ||
@@ -8317,17 +8339,12 @@ async function sendTutorMessage({
 
     if (conversationEl && messageEl && !voiceControlsShown) renderTutorVoiceControls(messageEl);
 
-    // "Te quedan N de 30..." only becomes worth surfacing once it's low -
-    // matches the spec's "cuando queden 5 o menos" threshold. The full
-    // "has utilizado tus 30 consultas" + Premium lock is shown separately,
-    // on the *next* request that actually gets rejected (see the
-    // `data.limited` branch above), not here.
-    if (conversationEl && tutorQueryUsage?.remaining != null && tutorQueryUsage.remaining <= 5) {
-      appendTutorUsageNotice(
-        conversationEl,
-        `Te quedan ${tutorQueryUsage.remaining} consultas gratuitas al Tutor IA.`
-      );
-    }
+    // Keeps the persistent "Te quedan N de 30 consultas" counter in sync
+    // with the count this reply just consumed, instead of waiting for the
+    // next view-open refetch. The full "has utilizado tus 30 consultas" +
+    // Premium lock is shown separately, on the *next* request that actually
+    // gets rejected (see the `data.limited` branch above), not here.
+    if (tutorQueryUsage) renderTutorUsageCounter(tutorQueryUsage);
 
     if (streamError && !fullText) throw new Error(streamError);
 
@@ -8677,14 +8694,17 @@ if (menuToggle && siteMenu) {
 const SKILL_VIEWS = ['listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary'];
 
 const VIEW_SECTIONS = {
-  home: ['.hero', '#language-picker'],
+  // #premium (the Free/Premium plans section) lives at the end of the home
+  // view now, not as its own nav destination - see handleHomeAction's
+  // 'upgrade' case, which stays on/goes to 'home' and scrolls to it instead
+  // of routing to a dedicated 'premium' view.
+  home: ['.hero', '#language-picker', '#premium'],
   learn: ['#learning-path'],
   progress: ['#progress'],
   achievements: ['#achievements'],
   security: ['#security'],
   goals: ['#goals'],
   tutor: ['#tutor'],
-  premium: ['#premium'],
   translator: ['#translator'],
   about: ['#about'],
   listening: ['#listening'],
@@ -8708,7 +8728,6 @@ const VIEW_TITLE_SELECTORS = {
   security: '#security h2',
   goals: '#goals h2',
   tutor: '#tutor h2',
-  premium: '#premium h2',
   translator: '#translator h2',
   about: '#about h2',
   listening: '#listening h2',
@@ -8869,6 +8888,7 @@ function showView(viewId) {
   if (resolved === 'tutor') {
     updateAiTutorContext();
     checkTutorConnection();
+    refreshTutorUsageCounter();
   }
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
@@ -8899,7 +8919,17 @@ function showView(viewId) {
   document.querySelector(VIEW_TITLE_SELECTORS[resolved])?.focus({ preventScroll: true });
 }
 
-window.addEventListener('hashchange', () => showView(getViewFromHash()));
+window.addEventListener('hashchange', () => {
+  showView(getViewFromHash());
+  // A plain <a href="#premium"> (nav/footer) fires a real hashchange, unlike
+  // handleHomeAction's 'upgrade' case above - #premium resolves to the home
+  // view (it's no longer its own VIEW_SECTIONS entry), so land on it too.
+  if (window.location.hash === '#premium') {
+    window.setTimeout(() => {
+      document.getElementById('premium')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
+  }
+});
 
 // goTo() (handleHomeAction) navigates via history.pushState, which never
 // fires 'hashchange' - only a real link click or address-bar edit does.
@@ -8995,7 +9025,14 @@ function handleHomeAction(action) {
       goTo('progress', 'Aquí puedes ver tu progreso y actividad reciente.');
       break;
     case 'upgrade':
-      goTo('premium', `Plan premium único: USD ${premiumPriceUsd}.`);
+      // #premium now lives at the end of the home view (see VIEW_SECTIONS)
+      // instead of being its own destination - go home, then scroll to it,
+      // same pattern as 'explore-languages' below.
+      goTo('home');
+      window.setTimeout(() => {
+        document.getElementById('premium')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 50);
+      showHomeToast(`Plan premium único: USD ${premiumPriceUsd}.`);
       break;
     case 'ai-tutor':
       goTo('tutor', 'Tutor IA abierto. Practica listening, speaking o writing.');
@@ -9096,6 +9133,18 @@ function enableHomepageActions() {
       // same tab from reopening the modal on every nav change for the rest
       // of the session. A brand new session (new login) re-evaluates fresh.
       sessionStorage.setItem(USERNAME_ONBOARDING_DISMISSED_KEY, 'true');
+      return;
+    }
+
+    // A locked lesson's "Desbloquear" button (see renderLessonWorkspace's
+    // premium-lock-box) opens the same paywall modal used for usage-limit
+    // lockouts instead of navigating away to the plans section - the
+    // student is already looking at exactly what they'd unlock.
+    if (event.target.closest('[data-action="open-lesson-paywall"]')) {
+      openPaywallModal({
+        title: 'Esta lección es Premium.',
+        message: `Desbloquea esta lección y toda la ruta por USD ${premiumPriceUsd}.`
+      });
       return;
     }
 
@@ -10393,6 +10442,13 @@ if (isPasswordRecoveryLink) {
   initResetPasswordPage();
 } else {
   showView(getViewFromHash());
+  // Direct/bookmarked load of #premium: resolves to the home view (see
+  // getViewFromHash), so land on the plans section instead of the hero.
+  if (window.location.hash === '#premium') {
+    window.setTimeout(() => {
+      document.getElementById('premium')?.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }, 50);
+  }
 }
 
 // Checked once at load, not only on click - "oculta o desactiva el botón"
