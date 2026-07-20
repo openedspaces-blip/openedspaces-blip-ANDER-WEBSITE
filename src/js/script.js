@@ -5215,8 +5215,7 @@ function renderReadingAudioPlayerHtml(snapshot) {
   const statusLabel = readingAudioStatusLabel(snapshot.state);
   const seekDisabled = snapshot.state === 'idle' || snapshot.state === 'error' ? 'disabled' : '';
   return `
-    <div class="reading-audio-player no-print" role="group" aria-label="Reproductor de la lectura completa">
-      <p class="reading-audio-label">🔊 Escucha el texto completo de esta lectura</p>
+    <div class="reading-audio-player no-print" role="group" aria-label="Reproductor de audio: escucha el texto completo de esta lectura">
       <div class="reading-audio-controls">
         <button type="button" class="reading-audio-btn reading-audio-playpause-btn${isPlaying ? ' is-active' : ''}" aria-label="${playPauseAria}">${playPauseLabel}</button>
         <button type="button" class="reading-audio-btn reading-audio-rewind-btn" aria-label="Retroceder cinco segundos" ${seekDisabled}>↶ 5 s</button>
@@ -5226,14 +5225,14 @@ function renderReadingAudioPlayerHtml(snapshot) {
           <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'slow' ? ' is-active' : ''}" data-rate="slow" aria-pressed="${snapshot.rateKey === 'slow'}">Lenta</button>
           <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'normal' ? ' is-active' : ''}" data-rate="normal" aria-pressed="${snapshot.rateKey === 'normal'}">Normal</button>
         </div>
-      </div>
-      <div class="reading-audio-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${snapshot.progressPct}" aria-label="Progreso de la lectura">
-        <div class="reading-audio-progress-fill" style="width:${snapshot.progressPct}%"></div>
-      </div>
-      <div class="reading-audio-meta">
-        <span class="reading-audio-time">${formatReadingTime(snapshot.elapsedSeconds)} / ${formatReadingTime(snapshot.totalDurationSeconds)}</span>
-        <span class="reading-audio-percent">${snapshot.progressPct}%</span>
-        <span class="reading-audio-status" aria-live="polite">${statusLabel}</span>
+        <div class="reading-audio-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${snapshot.progressPct}" aria-label="Progreso de la lectura">
+          <div class="reading-audio-progress-fill" style="width:${snapshot.progressPct}%"></div>
+        </div>
+        <div class="reading-audio-meta">
+          <span class="reading-audio-time">${formatReadingTime(snapshot.elapsedSeconds)} / ${formatReadingTime(snapshot.totalDurationSeconds)}</span>
+          <span class="reading-audio-percent">${snapshot.progressPct}%</span>
+          <span class="reading-audio-status" aria-live="polite">${statusLabel}</span>
+        </div>
       </div>
     </div>
   `;

@@ -1328,3 +1328,89 @@ test('script.js: the confirmation callback handles error params, never double-pr
   assert.match(confirmedPageBody, /function showInvalid\(message\) \{\s*\n\s*window\.history\.replaceState/);
   assert.match(confirmedPageBody, /function showSuccess\(email\) \{\s*\n\s*window\.history\.replaceState/);
 });
+
+test('reading audio player: play/pause/continue button cycles through the right labels', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+
+  const rendered = source.match(/function renderReadingAudioPlayerHtml\(snapshot\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(rendered, 'expected to find renderReadingAudioPlayerHtml() body');
+  // Idle/stopped/completed -> "Reproducir"; playing -> "Pausar"; paused -> "Continuar".
+  assert.match(
+    rendered,
+    /const playPauseLabel = isPlaying \? '⏸ Pausar' : isPaused \? '▶ Continuar' : '▶ Reproducir';/
+  );
+
+  const patched = source.match(/function updateReadingPlayerUI\(section, snapshot\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(patched, 'expected to find updateReadingPlayerUI() body');
+  assert.match(
+    patched,
+    /playPauseBtn\.textContent = isPlaying \? '⏸ Pausar' : isPaused \? '▶ Continuar' : '▶ Reproducir';/
+  );
+});
+
+test('reading audio player: markup keeps every required control (play/pause, rewind 5s, stop, voice, rate, time, progress)', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const rendered = source.match(/function renderReadingAudioPlayerHtml\(snapshot\) \{([\s\S]*?)^\}/m)?.[1];
+  assert.ok(rendered, 'expected to find renderReadingAudioPlayerHtml() body');
+
+  for (const needle of [
+    'reading-audio-playpause-btn',
+    'reading-audio-rewind-btn',
+    'reading-audio-stop-btn',
+    'reading-audio-voice-btn',
+    'reading-audio-rate-btn',
+    'reading-audio-progress',
+    'reading-audio-time',
+    'reading-audio-percent'
+  ]) {
+    assert.ok(rendered.includes(needle), `expected reading audio player markup to keep .${needle}`);
+  }
+});
+
+test('reading audio player: is compact (~54-66px tall on desktop, 4-5px progress bar, 36-40px buttons)', () => {
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+
+  const playerRule = css.match(/\.reading-audio-player \{([\s\S]*?)\}/)?.[1];
+  assert.ok(playerRule, 'expected .reading-audio-player rule');
+  const paddingMatch = playerRule.match(/padding:\s*([\d.]+)rem\s+[\d.]+rem;/);
+  assert.ok(paddingMatch, 'expected .reading-audio-player padding');
+  const verticalPaddingPx = parseFloat(paddingMatch[1]) * 16;
+  assert.ok(
+    verticalPaddingPx >= 6 && verticalPaddingPx <= 12,
+    `expected ~8-10px vertical padding, got ${verticalPaddingPx}px`
+  );
+
+  const btnRule = css.match(/\.reading-audio-btn \{([\s\S]*?)\}/)?.[1];
+  assert.ok(btnRule, 'expected .reading-audio-btn rule');
+  const btnHeightMatch = btnRule.match(/min-height:\s*(\d+)px;/);
+  assert.ok(btnHeightMatch, 'expected .reading-audio-btn min-height');
+  const btnHeight = parseInt(btnHeightMatch[1], 10);
+  assert.ok(btnHeight >= 36 && btnHeight <= 40, `expected buttons 36-40px tall, got ${btnHeight}px`);
+
+  // .reading-audio-progress also appears inside a @media override (just a
+  // flex-basis tweak) - pick the base rule, the one that actually sets height.
+  const progressRule = [...css.matchAll(/\.reading-audio-progress \{([\s\S]*?)\}/g)]
+    .map((m) => m[1])
+    .find((body) => /height:/.test(body));
+  assert.ok(progressRule, 'expected .reading-audio-progress base rule with a height');
+  const progressHeightMatch = progressRule.match(/height:\s*(\d+)px;/);
+  assert.ok(progressHeightMatch, 'expected .reading-audio-progress height');
+  const progressHeight = parseInt(progressHeightMatch[1], 10);
+  assert.ok(
+    progressHeight >= 4 && progressHeight <= 5,
+    `expected a 4-5px progress bar, got ${progressHeight}px`
+  );
+
+  const totalHeight = verticalPaddingPx * 2 + btnHeight;
+  assert.ok(
+    totalHeight >= 54 && totalHeight <= 66,
+    `expected total player height ~54-66px on desktop, computed ${totalHeight}px`
+  );
+
+  // Single row on desktop: controls, rate group, progress bar and time/status
+  // metadata all live inside the one flex-wrap .reading-audio-controls row
+  // (no more separate stacked label/progress/meta blocks).
+  const controlsRule = css.match(/\.reading-audio-controls \{([\s\S]*?)\}/)?.[1];
+  assert.match(controlsRule, /display:\s*flex;/);
+  assert.match(controlsRule, /flex-wrap:\s*wrap;/);
+});
