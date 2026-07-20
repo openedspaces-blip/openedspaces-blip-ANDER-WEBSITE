@@ -4285,25 +4285,6 @@ function renderSkillView(skill) {
   SKILL_VIEW_RENDERERS[skill]?.(section, lesson);
 }
 
-// Per-lesson UI-only state for the "put these events in order" activity - a
-// stable (shuffled once per lesson load) display order, kept separate from
-// the render itself so re-rendering the reading (e.g. while the audio
-// player patches its own DOM) never reshuffles the list underneath a
-// student mid-answer.
-const readingOrderingRuntime = new Map();
-function getReadingOrderingRuntime(lesson) {
-  let runtime = readingOrderingRuntime.get(lesson.slug);
-  if (!runtime) {
-    const events = lesson.reading?.ordering?.events || [];
-    const shuffledEvents = events
-      .map((text, index) => ({ text, correctPosition: index + 1 }))
-      .sort(() => Math.random() - 0.5);
-    runtime = { shuffledEvents };
-    readingOrderingRuntime.set(lesson.slug, runtime);
-  }
-  return runtime;
-}
-
 // Renders every paragraph of the reading as visible text - this is the
 // single source of truth for what's on screen and in the printed PDF alike
 // (nothing else duplicates this markup). Each sentence is wrapped in its
@@ -4349,38 +4330,6 @@ function isTrueFalseExercise(item) {
       )
     )
   );
-}
-
-function renderReadingOrderingHtml(lesson, runtime) {
-  const ordering = lesson.reading?.ordering;
-  if (!ordering?.events?.length) return '';
-  const optionsHtml = ordering.events
-    .map((_, position) => `<option value="${position + 1}">${position + 1}</option>`)
-    .join('');
-
-  const itemsHtml = runtime.shuffledEvents
-    .map(
-      (event, index) => `
-      <li class="reading-ordering-item">
-        <select class="reading-ordering-select" data-index="${index}" aria-label="Posición del evento ${index + 1}">
-          <option value="">#</option>
-          ${optionsHtml}
-        </select>
-        <span>${escapeHtml(event.text)}</span>
-      </li>
-    `
-    )
-    .join('');
-
-  return `
-    <div class="reading-ordering no-print">
-      <h4>Ordena los acontecimientos</h4>
-      <p class="reading-ordering-prompt">${escapeHtml(ordering.prompt)}</p>
-      <ol class="reading-ordering-list">${itemsHtml}</ol>
-      <button type="button" class="secondary-btn reading-ordering-check-btn">Comprobar orden</button>
-      <span class="reading-ordering-feedback" aria-live="polite"></span>
-    </div>
-  `;
 }
 
 // Markup for the full-reading audio player (spec section A) - the only
@@ -4721,19 +4670,18 @@ function renderReadingView(section, lesson) {
     )
     .join('');
   // Keep each exercise's real position in lesson.exercises (not its position
-  // within these filtered subsets) - check-answer grades by that real index
-  // server-side (lib/lessonsService.js#checkAnswer), and non-mcq exercises or
-  // comprehension/true-false items interleaved in the source data would
-  // otherwise desync the index sent from the one actually graded.
+  // within this filtered subset) - check-answer grades by that real index
+  // server-side (lib/lessonsService.js#checkAnswer), and non-mcq exercises
+  // interleaved in the source data would otherwise desync the index sent
+  // from the one actually graded.
   const mcqEntries = (lesson.exercises || [])
     .map((item, exerciseIndex) => ({ item, exerciseIndex }))
     .filter(({ item }) => item.type === 'mcq');
-  const trueFalseEntries = mcqEntries.filter(({ item }) => isTrueFalseExercise(item));
+  // True/false questions are not shown in Reading (product decision - only
+  // the 4-option comprehension quiz is graded here) - excluded so they never
+  // leak into it either.
   const comprehensionEntries = mcqEntries.filter(({ item }) => !isTrueFalseExercise(item));
   const exercisesHtml = renderReadingComprehensionQuiz(lesson, comprehensionEntries);
-  const trueFalseHtml = trueFalseEntries
-    .map(({ item, exerciseIndex }) => renderLessonExercise(item, exerciseIndex, lesson))
-    .join('');
 
   // Attaching is a no-op when this is the same lesson already loaded -
   // continuous playback survives the DOM rebuild below either way, since
@@ -4772,12 +4720,6 @@ function renderReadingView(section, lesson) {
         <h4>Preguntas de comprensión</h4>
         ${exercisesHtml}
       </div>
-      ${
-        trueFalseHtml
-          ? `<div class="reading-questions"><h4>${learningPathState.language === 'french' ? 'Vrai ou faux' : 'Verdadero o falso'}</h4>${trueFalseHtml}</div>`
-          : ''
-      }
-      ${renderReadingOrderingHtml(lesson, getReadingOrderingRuntime(lesson))}
       <div class="reading-print-answer-space skill-print-answer-space print-only">
         <h4>Tus respuestas</h4>
         <div class="reading-print-answer-lines"><div></div><div></div><div></div><div></div></div>
@@ -9441,41 +9383,6 @@ function enableHomepageActions() {
     const readingAudioRateBtn = event.target.closest('.reading-audio-rate-btn');
     if (readingAudioRateBtn) {
       readingSpeechPlayer.changeReadingRate(readingAudioRateBtn.dataset.rate);
-      return;
-    }
-
-    // "Order the events" activity - self-checked client-side (the correct
-    // order isn't a secured answer key the way mcq options are, see
-    // getReadingOrderingRuntime()'s docs above), comparing each shuffled event's
-    // assigned position against its real position in lesson.reading.ordering.events.
-    const readingOrderingCheckBtn = event.target.closest('.reading-ordering-check-btn');
-    if (readingOrderingCheckBtn) {
-      const container = readingOrderingCheckBtn.closest('.reading-ordering');
-      const selects = container?.querySelectorAll('.reading-ordering-select') || [];
-      const sec = readingOrderingCheckBtn.closest('.skill-view-section');
-      const lsn = learningPathState.lessons.find((item) => item.slug === sec?.dataset.activeLessonSlug);
-      const runtime = lsn ? getReadingOrderingRuntime(lsn) : null;
-      let allCorrect = true;
-      let allFilled = true;
-      selects.forEach((select) => {
-        const index = Number(select.dataset.index);
-        const item = select.closest('.reading-ordering-item');
-        if (!select.value) {
-          allFilled = false;
-          item?.classList.remove('is-correct', 'is-incorrect');
-          return;
-        }
-        const correct = runtime && Number(select.value) === runtime.shuffledEvents[index]?.correctPosition;
-        item?.classList.toggle('is-correct', Boolean(correct));
-        item?.classList.toggle('is-incorrect', !correct);
-        if (!correct) allCorrect = false;
-      });
-      const feedback = container?.querySelector('.reading-ordering-feedback');
-      if (feedback) {
-        if (!allFilled) feedback.textContent = 'Asigna una posición a cada evento.';
-        else if (allCorrect) feedback.textContent = '¡Correcto! El orden es correcto.';
-        else feedback.textContent = 'Algunos eventos no están en el orden correcto. Inténtalo de nuevo.';
-      }
       return;
     }
 
