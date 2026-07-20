@@ -49,7 +49,7 @@
           <a href="#progress">Progreso</a>
           <a href="#achievements">Logros</a>
           <a href="#goals">Objetivos</a>
-          <a href="#tutor">Tutor IA</a>
+          <a href="#tutor">Tutor IA ANDERGO</a>
           <a href="#translator">Traductor</a>
           <a href="#about">Acerca de</a>
           <a href="#security">Seguridad</a>
@@ -285,8 +285,8 @@
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
         </nav>
 
-        <div class="path-controls">
-          <label
+        <div class="language-pair-bar" role="group" aria-label="Selector de idioma puente, idioma objetivo y nivel">
+          <label class="language-pair-field"
             ><span data-field="bridgeSelectLabel">Idioma de apoyo (L1)</span>
             <select id="pathBridgeSelect">
               <option value="spanish">🇪🇸 Español</option>
@@ -294,7 +294,16 @@
               <option value="french">🇫🇷 Français</option>
             </select>
           </label>
-          <label
+          <button
+            type="button"
+            id="pathSwapLanguagesBtn"
+            class="language-pair-swap-btn"
+            aria-label="Intercambiar idioma de apoyo e idioma objetivo"
+            title="Intercambiar idiomas"
+          >
+            ⇄
+          </button>
+          <label class="language-pair-field"
             ><span data-field="targetSelectLabel">Idioma objetivo (L2)</span>
             <select id="pathLanguageSelect">
               <option value="english">🇺🇸 English</option>
@@ -302,7 +311,7 @@
               <option value="french">🇫🇷 Français</option>
             </select>
           </label>
-          <label
+          <label class="language-pair-field language-pair-field-level"
             ><span data-field="levelSelectLabel">Nivel</span>
             <select id="pathLevelSelect">
               <option value="A1">A1</option>
@@ -789,10 +798,10 @@
       <section
         id="tutor"
         class="section tutor-section compact-hidden-section"
-        aria-label="Tutor IA"
+        aria-label="Tutor IA ANDERGO Academy"
       >
         <div class="section-heading">
-          <span>Tutor IA</span>
+          <span>Tutor IA ANDERGO Academy</span>
           <h2 tabindex="-1">Practica conversando con tu tutor de idiomas.</h2>
           <p>Corrige, explica y propone ejercicios según tu idioma, nivel y habilidad.</p>
         </div>
@@ -885,12 +894,12 @@
             aria-label="Conversación con el tutor IA"
           >
             <p class="tutor-welcome">
-              👋 Soy Tutor AI. Pregúntame lo que quieras sobre esta habilidad, nivel o lección, y te
-              ayudo con correcciones, ejemplos y práctica.
+              👋 Soy el Tutor IA ANDERGO Academy. Pregúntame lo que quieras sobre esta habilidad,
+              nivel o lección, y te ayudo con correcciones, ejemplos y práctica.
             </p>
           </div>
           <p class="tutor-thinking" id="tutorThinking" hidden aria-hidden="true">
-            Tutor AI está escribiendo…
+            Tutor IA ANDERGO está escribiendo…
           </p>
 
           <label class="tutor-input-group" for="aiTutorPrompt">
@@ -987,6 +996,9 @@
           <h2 tabindex="-1">Traductor rápido de ANDERGO</h2>
           <p>Traduce frases entre inglés, francés y español mientras practicas.</p>
         </div>
+        <a href="#" id="translatorReturnLink" class="translator-return-link" hidden
+          >‹ Volver a la lección</a
+        >
 
         <div class="translator-panel">
           <div class="translator-controls">
@@ -1743,7 +1755,7 @@
       </div>
     </div>
 
-    <button type="button" class="tutor-fab" id="tutorFab" aria-label="Abrir Tutor IA">🤖</button>
+    <button type="button" class="tutor-fab" id="tutorFab" aria-label="Abrir Tutor IA ANDERGO">🤖</button>
 
     <div class="tutor-drawer" id="tutorDrawer" aria-hidden="true" inert>
       <div class="tutor-drawer-backdrop" data-action="close-tutor-drawer"></div>
@@ -1751,10 +1763,10 @@
         class="tutor-drawer-panel"
         role="dialog"
         aria-modal="true"
-        aria-labelledby="tutorDrawerTitle"
+        aria-label="Tutor IA ANDERGO Academy"
       >
         <div class="tutor-drawer-head">
-          <h2 id="tutorDrawerTitle">Tutor IA</h2>
+          <h2 id="tutorDrawerTitle">Tutor IA ANDERGO</h2>
           <label class="tutor-autoplay-toggle" title="Reproducir respuestas automáticamente">
             <input
               type="checkbox"
@@ -1768,7 +1780,7 @@
             type="button"
             class="close-modal"
             data-action="close-tutor-drawer"
-            aria-label="Cerrar Tutor IA"
+            aria-label="Cerrar Tutor IA ANDERGO"
           >
             ×
           </button>
@@ -1792,10 +1804,10 @@
           aria-live="polite"
           aria-label="Conversación con el tutor IA"
         >
-          <p class="tutor-welcome">👋 Soy Tutor AI. Cuéntame qué quieres practicar.</p>
+          <p class="tutor-welcome">👋 Soy el Tutor IA ANDERGO Academy. Cuéntame qué quieres practicar.</p>
         </div>
         <p class="tutor-thinking" id="tutorDrawerThinking" hidden aria-hidden="true">
-          Tutor AI está escribiendo…
+          Tutor IA ANDERGO está escribiendo…
         </p>
         <label class="tutor-input-group" for="tutorDrawerPrompt">
           <span>Escribe qué quieres practicar</span>
