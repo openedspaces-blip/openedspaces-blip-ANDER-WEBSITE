@@ -6506,11 +6506,17 @@ footer small {
   color: var(--navy-2);
 }
 
+/* The only flexible/scrollable region on the back face - header, translation
+   and actions are all flex-shrink: 0 (pinned to natural size), so on a short
+   card with 3 contexts this is what scrolls instead of spilling out over the
+   action buttons below it. */
 .vocab-card-contexts {
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
   gap: 0.55rem;
   min-height: 0;
+  overflow-y: auto;
 }
 
 .vocab-card-context {
