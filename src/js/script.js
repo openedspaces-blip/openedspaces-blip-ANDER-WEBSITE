@@ -4331,16 +4331,23 @@ function renderReadingParagraphsHtml(paragraphs) {
     .join('');
 }
 
-// A plain 2-option True/False (or Vrai/Faux) mcq is grouped under its own
-// heading in the reading view so it reads as a distinct activity type,
-// without needing a separate schema field - see
-// scripts/content/english-a1-units.js (['True', 'False']) and
-// scripts/content/french-a1-units.js (['Vrai', 'Faux']).
+// A plain 2-option True/False (or Vrai/Faux, or Verdadero/Falso) mcq is
+// grouped under its own heading in the reading view so it reads as a
+// distinct activity type, without needing a separate schema field - see
+// scripts/content/english-a1-units.js (['True', 'False']),
+// scripts/content/french-a1-units.js (['Vrai', 'Faux']) and Spanish content
+// (['Verdadero', 'Falso']). Without 'verdadero'/'falso' here, Spanish
+// true/false questions fell through into the 4-option "Preguntas de
+// comprensión" section instead of their own block.
 function isTrueFalseExercise(item) {
   return (
     Array.isArray(item.options) &&
     item.options.length === 2 &&
-    item.options.some((opt) => ['true', 'vrai'].includes(optionLabel(opt).trim().toLowerCase()))
+    item.options.some((opt) =>
+      ['true', 'vrai', 'verdadero', 'false', 'faux', 'falso'].includes(
+        optionLabel(opt).trim().toLowerCase()
+      )
+    )
   );
 }
 
@@ -4555,6 +4562,142 @@ function renderReadingIllustrationHtml(lesson) {
   `;
 }
 
+// ---------------------------------------------------------------------
+// Reading comprehension quiz ("Preguntas de comprensión"): batch-graded,
+// four-option (A/B/C/D) multiple choice. Picking an option only stores it
+// locally (single-select, picking another swaps it) - nothing is checked
+// until "Calificar" is pressed, which grades every question against the
+// real answer key (kept server-side only, never shipped to the browser -
+// see lib/lessonsService.js#sanitizeExerciseForClient/checkAnswer) via the
+// same /check-answer endpoint the rest of the app already uses, then shows
+// a 0-100 score plus per-question correct/incorrect feedback. Kept
+// deliberately separate from renderLessonExercise/.mcq-option (shared by
+// Listening/Grammar/dialogue exercises, which keep their existing
+// immediate-grading behavior) - only Reading's comprehension section
+// changes shape here.
+const readingComprehensionState = new Map();
+
+function getReadingComprehensionRuntime(slug) {
+  let runtime = readingComprehensionState.get(slug);
+  if (!runtime) {
+    runtime = { selections: {}, results: {}, graded: false, grading: false, error: '' };
+    readingComprehensionState.set(slug, runtime);
+  }
+  return runtime;
+}
+
+function resetReadingComprehensionRuntime(slug) {
+  readingComprehensionState.set(slug, {
+    selections: {},
+    results: {},
+    graded: false,
+    grading: false,
+    error: ''
+  });
+}
+
+// 90-100/80-89/70-79/60-69/<60 score bands - wording per spec, never
+// "reprobado", for a platform used by kids as young as ~9.
+function readingComprehensionScoreMessage(score) {
+  if (score >= 90) return '¡Excelente comprensión del texto!';
+  if (score >= 80) return '¡Muy buen trabajo!';
+  if (score >= 70) return 'Buen trabajo. Sigue practicando.';
+  if (score >= 60) return 'Vas avanzando. Revisa el texto nuevamente.';
+  return 'Repasa la lectura e inténtalo otra vez.';
+}
+
+function renderReadingComprehensionResultHtml(runtime, total) {
+  const correctCount = Object.values(runtime.results).filter((r) => r.correct).length;
+  const incorrectCount = total - correctCount;
+  const score = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+  return `
+    <div class="reading-comp-result">
+      <p class="reading-comp-result-score">Puntuación: ${score}/100</p>
+      <p class="reading-comp-result-detail">${correctCount} de ${total} respuestas correctas</p>
+      <p class="reading-comp-result-detail">${incorrectCount} incorrecta${incorrectCount === 1 ? '' : 's'} · ${score}%</p>
+      <p class="reading-comp-result-message">${escapeHtml(readingComprehensionScoreMessage(score))}</p>
+    </div>
+  `;
+}
+
+function renderReadingComprehensionQuiz(lesson, entries) {
+  if (!entries.length) {
+    return '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>';
+  }
+
+  const runtime = getReadingComprehensionRuntime(lesson.slug);
+  const total = entries.length;
+
+  const questionsHtml = entries
+    .map(({ item, exerciseIndex }, displayIndex) => {
+      const selectedKey = runtime.selections[exerciseIndex];
+      const result = runtime.graded ? runtime.results[exerciseIndex] : null;
+
+      const optionsHtml = (item.options || [])
+        .map((option, optionIndex) => {
+          const key = optionKey(option, optionIndex);
+          const letter = String.fromCharCode(65 + optionIndex);
+          const isSelected = selectedKey != null && String(selectedKey) === String(key);
+          const classes = ['reading-comp-option'];
+          if (isSelected) classes.push('is-selected');
+          if (result) {
+            const isCorrectOption =
+              result.correctOption != null && String(result.correctOption) === String(key);
+            if (isSelected) classes.push(result.correct ? 'is-correct' : 'is-incorrect');
+            else if (isCorrectOption) classes.push('is-correct-answer');
+          }
+          const disabled = runtime.graded || runtime.grading ? 'disabled' : '';
+          return `
+            <button type="button" class="${classes.join(' ')}" data-option-key="${escapeHtml(String(key))}" ${disabled}>
+              <span class="reading-comp-option-letter">${letter}</span>
+              <span class="reading-comp-option-text">${escapeHtml(optionLabel(option))}</span>
+            </button>
+          `;
+        })
+        .join('');
+
+      let feedbackHtml = '';
+      if (result) {
+        feedbackHtml = result.correct
+          ? '<span class="reading-comp-feedback is-correct">✅ Correcto</span>'
+          : `<span class="reading-comp-feedback is-incorrect">❌ Incorrecto${result.correctLabel ? ` · Respuesta correcta: ${escapeHtml(result.correctLabel)}` : ''}</span>`;
+      }
+
+      return `
+        <div class="reading-comp-question" data-exercise-index="${exerciseIndex}" data-lesson-slug="${escapeHtml(lesson.slug || '')}">
+          <strong class="reading-comp-prompt">${displayIndex + 1}. ${escapeHtml(item.prompt)}</strong>
+          <div class="reading-comp-options">${optionsHtml}</div>
+          ${feedbackHtml}
+        </div>
+      `;
+    })
+    .join('');
+
+  const answeredCount = entries.filter(
+    ({ exerciseIndex }) => runtime.selections[exerciseIndex] != null
+  ).length;
+  const allAnswered = answeredCount === total;
+
+  const actionsHtml = runtime.graded
+    ? `<button type="button" class="primary-btn reading-comp-retry-btn" data-lesson-slug="${escapeHtml(lesson.slug)}">Intentar de nuevo</button>`
+    : `
+      <button type="button" class="primary-btn reading-comp-submit-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" ${allAnswered && !runtime.grading ? '' : 'disabled'}>${runtime.grading ? 'Calificando…' : 'Calificar'}</button>
+      ${!allAnswered ? '<p class="reading-comp-hint">Responde todas las preguntas antes de calificar.</p>' : ''}
+    `;
+
+  const errorHtml = runtime.error ? `<p class="reading-comp-error">${escapeHtml(runtime.error)}</p>` : '';
+  const resultHtml = runtime.graded ? renderReadingComprehensionResultHtml(runtime, total) : '';
+
+  return `
+    <div class="reading-comp-quiz">
+      ${questionsHtml}
+      <div class="reading-comp-actions">${actionsHtml}</div>
+      ${errorHtml}
+      ${resultHtml}
+    </div>
+  `;
+}
+
 function renderReadingView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
@@ -4577,17 +4720,19 @@ function renderReadingView(section, lesson) {
   `
     )
     .join('');
-  const reflectHtml = (lesson.reading?.questions || [])
-    .map((q) => `<li>${escapeHtml(q)}</li>`)
-    .join('');
-  const mcqExercises = (lesson.exercises || []).filter((item) => item.type === 'mcq');
-  const trueFalseExercises = mcqExercises.filter(isTrueFalseExercise);
-  const comprehensionExercises = mcqExercises.filter((item) => !isTrueFalseExercise(item));
-  const exercisesHtml = comprehensionExercises
-    .map((item, index) => renderLessonExercise(item, index, lesson))
-    .join('');
-  const trueFalseHtml = trueFalseExercises
-    .map((item, index) => renderLessonExercise(item, comprehensionExercises.length + index, lesson))
+  // Keep each exercise's real position in lesson.exercises (not its position
+  // within these filtered subsets) - check-answer grades by that real index
+  // server-side (lib/lessonsService.js#checkAnswer), and non-mcq exercises or
+  // comprehension/true-false items interleaved in the source data would
+  // otherwise desync the index sent from the one actually graded.
+  const mcqEntries = (lesson.exercises || [])
+    .map((item, exerciseIndex) => ({ item, exerciseIndex }))
+    .filter(({ item }) => item.type === 'mcq');
+  const trueFalseEntries = mcqEntries.filter(({ item }) => isTrueFalseExercise(item));
+  const comprehensionEntries = mcqEntries.filter(({ item }) => !isTrueFalseExercise(item));
+  const exercisesHtml = renderReadingComprehensionQuiz(lesson, comprehensionEntries);
+  const trueFalseHtml = trueFalseEntries
+    .map(({ item, exerciseIndex }) => renderLessonExercise(item, exerciseIndex, lesson))
     .join('');
 
   // Attaching is a no-op when this is the same lesson already loaded -
@@ -4623,10 +4768,9 @@ function renderReadingView(section, lesson) {
         <button type="button" class="secondary-btn reading-show-support">${escapeHtml(learningPathState.language === 'french' ? "Afficher l'aide en espagnol" : 'Mostrar apoyo en español')}</button>
         <button type="button" class="secondary-btn reading-hide-support" hidden>${escapeHtml(learningPathState.language === 'french' ? "Masquer l'aide en espagnol" : 'Ocultar apoyo')}</button>
       </div>
-      ${reflectHtml ? `<div class="reading-reflect"><h4>Reflexiona</h4><ul>${reflectHtml}</ul></div>` : ''}
       <div class="reading-questions">
         <h4>Preguntas de comprensión</h4>
-        ${exercisesHtml || '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>'}
+        ${exercisesHtml}
       </div>
       ${
         trueFalseHtml
@@ -8030,8 +8174,9 @@ const brandLink = document.querySelector('.brand');
 brandLink?.addEventListener('click', (event) => {
   if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
     event.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
     history.pushState(null, '', '/');
+    showView('home');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 });
 
@@ -8647,6 +8792,150 @@ function enableHomepageActions() {
       // (Reading/Grammar/Listening each keep their own progress bar) rather
       // than always refreshing the legacy #lessonWorkspace, which otherwise
       // goes stale until the student navigates away and back.
+      const currentView = getViewFromHash();
+      if (SKILL_VIEWS.includes(currentView)) {
+        renderSkillView(currentView);
+      } else {
+        renderLessonWorkspace();
+      }
+      return;
+    }
+
+    // Reading comprehension quiz (see renderReadingComprehensionQuiz above):
+    // selecting an option only stores the pick locally (radio-like - picking
+    // another option in the same question swaps it, nothing is graded yet).
+    const readingCompOption = event.target.closest('.reading-comp-option');
+    if (readingCompOption) {
+      if (readingCompOption.disabled) return;
+      const questionItem = readingCompOption.closest('.reading-comp-question');
+      const slug = questionItem?.dataset.lessonSlug;
+      if (!questionItem || !slug) return;
+
+      const runtime = getReadingComprehensionRuntime(slug);
+      if (runtime.graded || runtime.grading) return;
+
+      const exerciseIndex = Number(questionItem.dataset.exerciseIndex);
+      runtime.selections[exerciseIndex] = readingCompOption.dataset.optionKey;
+      runtime.error = '';
+
+      const currentView = getViewFromHash();
+      if (SKILL_VIEWS.includes(currentView)) {
+        renderSkillView(currentView);
+      } else {
+        renderLessonWorkspace();
+      }
+      return;
+    }
+
+    // "Calificar": grades every comprehension question at once against the
+    // real (server-side-only) answer key, then shows the 0-100 score.
+    const readingCompSubmitBtn = event.target.closest('.reading-comp-submit-btn');
+    if (readingCompSubmitBtn) {
+      if (readingCompSubmitBtn.disabled) return;
+      const slug = readingCompSubmitBtn.dataset.lessonSlug;
+      const lesson = learningPathState.lessons.find((item) => item.slug === slug);
+      if (!lesson) return;
+
+      const runtime = getReadingComprehensionRuntime(slug);
+      const comprehensionEntries = (lesson.exercises || [])
+        .map((item, exerciseIndex) => ({ item, exerciseIndex }))
+        .filter(({ item }) => item.type === 'mcq' && !isTrueFalseExercise(item));
+      const unanswered = comprehensionEntries.some(
+        ({ exerciseIndex }) => runtime.selections[exerciseIndex] == null
+      );
+      if (unanswered || runtime.grading) return;
+
+      runtime.grading = true;
+      runtime.error = '';
+      readingCompSubmitBtn.disabled = true;
+      readingCompSubmitBtn.textContent = 'Calificando…';
+
+      try {
+        const gradedResults = await Promise.all(
+          comprehensionEntries.map(async ({ item, exerciseIndex }) => {
+            const selected = runtime.selections[exerciseIndex];
+            const payload = item.id
+              ? { exerciseId: item.id, selectedOptionId: selected }
+              : { index: exerciseIndex, selectedOption: Number(selected) };
+            const response = await fetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload)
+            });
+            const data = await response.json().catch(() => ({}));
+            if (!response.ok) throw new Error(data.error || 'No se pudo calificar. Intenta de nuevo.');
+
+            // Only the key of the correct option comes back from the server
+            // (never the answer itself ahead of time) - the option's own
+            // text is already public in the client bundle, so this just
+            // looks up the matching option locally to build a human label.
+            const correctKey = data.correctOption ?? data.correctOptionId ?? null;
+            const correctOptionIndex = (item.options || []).findIndex(
+              (option, optionIndex) => String(optionKey(option, optionIndex)) === String(correctKey)
+            );
+            const correctLabel =
+              correctOptionIndex >= 0
+                ? `${String.fromCharCode(65 + correctOptionIndex)}. ${optionLabel(item.options[correctOptionIndex])}`
+                : '';
+
+            return {
+              exerciseIndex,
+              correct: Boolean(data.correct),
+              correctOption: correctKey,
+              correctLabel,
+              selectedOption: selected
+            };
+          })
+        );
+
+        gradedResults.forEach((result) => {
+          runtime.results[result.exerciseIndex] = result;
+          learningPathState.exerciseResults[slug] = learningPathState.exerciseResults[slug] || {};
+          learningPathState.exerciseResults[slug][result.exerciseIndex] = {
+            selectedOption: result.selectedOption,
+            correct: result.correct
+          };
+        });
+        runtime.graded = true;
+        runtime.grading = false;
+
+        const correctCount = gradedResults.filter((r) => r.correct).length;
+        if (correctCount > 0) {
+          window.AndergoGamification?.recordSkillTouched('reading', learningPathState.language);
+        }
+        for (let i = 0; i < correctCount; i += 1) window.AndergoGamification?.recordCorrectAnswer();
+      } catch (error) {
+        runtime.grading = false;
+        runtime.error = error.message || 'No se pudo calificar. Intenta de nuevo.';
+      }
+
+      const currentView = getViewFromHash();
+      if (SKILL_VIEWS.includes(currentView)) {
+        renderSkillView(currentView);
+      } else {
+        renderLessonWorkspace();
+      }
+      return;
+    }
+
+    // "Intentar de nuevo": clears selections/results and returns the score
+    // to zero without touching the questions themselves or re-fetching the
+    // reading (see resetReadingComprehensionRuntime above).
+    const readingCompRetryBtn = event.target.closest('.reading-comp-retry-btn');
+    if (readingCompRetryBtn) {
+      const slug = readingCompRetryBtn.dataset.lessonSlug;
+      if (!slug) return;
+      const lesson = learningPathState.lessons.find((item) => item.slug === slug);
+
+      resetReadingComprehensionRuntime(slug);
+      if (lesson && learningPathState.exerciseResults[slug]) {
+        (lesson.exercises || []).forEach((item, exerciseIndex) => {
+          if (item.type === 'mcq' && !isTrueFalseExercise(item)) {
+            delete learningPathState.exerciseResults[slug][exerciseIndex];
+          }
+        });
+      }
+
       const currentView = getViewFromHash();
       if (SKILL_VIEWS.includes(currentView)) {
         renderSkillView(currentView);

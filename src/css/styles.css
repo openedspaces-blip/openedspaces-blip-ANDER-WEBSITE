@@ -5404,14 +5404,199 @@ footer small {
   color: var(--muted);
 }
 
-.reading-reflect,
 .reading-questions {
   margin-top: 1.5rem;
 }
 
-.reading-reflect ul {
-  padding-left: 1.25rem;
+/* Reading comprehension quiz (see renderReadingComprehensionQuiz() in
+   src/js/script.js) - four-option (A/B/C/D) multiple choice, single
+   selection per question, graded as a batch via "Calificar". */
+.reading-comp-quiz {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.reading-comp-question {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.reading-comp-question:last-of-type {
+  border-bottom: none;
+}
+
+.reading-comp-prompt {
+  font-size: 0.95rem;
+  color: var(--navy-2);
+}
+
+.reading-comp-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .reading-comp-options {
+    grid-template-columns: 1fr;
+  }
+}
+
+.reading-comp-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+  border-radius: 10px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--navy-2);
+  cursor: pointer;
+  text-align: left;
+  transition:
+    background 150ms ease,
+    border-color 150ms ease,
+    transform 150ms ease;
+}
+
+.reading-comp-option:hover:not(:disabled) {
+  border-color: var(--blue);
+  transform: translateY(-1px);
+}
+
+.reading-comp-option:disabled {
+  cursor: default;
+}
+
+.reading-comp-option-letter {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--bg);
+  color: var(--blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.reading-comp-option-text {
+  flex: 1;
+}
+
+.reading-comp-option.is-selected {
+  border-color: var(--blue);
+  background: var(--accent-soft);
+}
+
+.reading-comp-option.is-selected .reading-comp-option-letter {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.reading-comp-option.is-correct {
+  border-color: var(--green);
+  background: rgba(34, 197, 94, 0.15);
+  color: #15803d;
+}
+
+.reading-comp-option.is-correct .reading-comp-option-letter {
+  background: var(--green);
+  color: var(--white);
+}
+
+.reading-comp-option.is-incorrect {
+  border-color: #dc2626;
+  background: rgba(220, 38, 38, 0.12);
+  color: #b91c1c;
+}
+
+.reading-comp-option.is-incorrect .reading-comp-option-letter {
+  background: #dc2626;
+  color: var(--white);
+}
+
+.reading-comp-option.is-correct-answer {
+  border-color: var(--green);
+  border-style: dashed;
+}
+
+.reading-comp-feedback {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.reading-comp-feedback.is-correct {
+  color: #15803d;
+}
+
+.reading-comp-feedback.is-incorrect {
+  color: #b91c1c;
+}
+
+.reading-comp-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+
+.reading-comp-submit-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.reading-comp-hint {
+  font-size: 0.82rem;
   color: var(--muted);
+  margin: 0;
+}
+
+.reading-comp-error {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #b91c1c;
+  margin: 0;
+}
+
+.reading-comp-result {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.reading-comp-result-score {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--navy-2);
+  margin: 0;
+}
+
+.reading-comp-result-detail {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.reading-comp-result-message {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--blue);
+  margin: 0.25rem 0 0;
 }
 
 .reading-print-answer-space,
