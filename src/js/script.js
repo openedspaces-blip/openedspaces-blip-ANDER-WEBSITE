@@ -29,7 +29,47 @@ const bridgeNameToCode = {
   german: 'de'
 };
 
-const premiumPriceUsd = '5.95';
+// Fallback values only, used for the very first paint before GET /api/plans
+// resolves below - lib/plansConfig.js on the server is the single source of
+// truth for these numbers; nothing in this file should hardcode a price
+// anywhere else. Kept as strings (already formatted, e.g. '4.99') since
+// every call site below just interpolates them into "USD ${...}" text.
+let premiumMonthlyPriceUsd = '4.99';
+let premiumYearlyPriceUsd = '39.99';
+// Back-compat alias for the few call sites below that only ever showed the
+// monthly figure - avoids touching every interpolation site individually.
+let premiumPriceUsd = premiumMonthlyPriceUsd;
+
+// Re-applies the fetched prices to any already-painted markup that shows
+// them as static text (the #premium pricing section) - everything else
+// below reads the `premium*PriceUsd` variables directly at render time, so
+// only DOM already in the page before loadPlans() resolves needs patching.
+function refreshPremiumPricingUI() {
+  document.querySelectorAll('[data-premium-monthly-price]').forEach((el) => {
+    el.textContent = `USD ${premiumMonthlyPriceUsd}`;
+  });
+  document.querySelectorAll('[data-premium-yearly-price]').forEach((el) => {
+    el.textContent = `USD ${premiumYearlyPriceUsd}`;
+  });
+}
+
+async function loadPlans() {
+  try {
+    const res = await fetch('/api/plans');
+    if (!res.ok) return;
+    const { plans } = await res.json();
+    const premium = plans?.find((plan) => plan.slug === 'premium');
+    if (!premium) return;
+    premiumMonthlyPriceUsd = Number(premium.monthlyPriceUsd).toFixed(2);
+    premiumYearlyPriceUsd = Number(premium.yearlyPriceUsd).toFixed(2);
+    premiumPriceUsd = premiumMonthlyPriceUsd;
+    refreshPremiumPricingUI();
+  } catch {
+    // Keep the fallback values above - pricing display must never block
+    // or break the rest of the page on a network hiccup.
+  }
+}
+loadPlans();
 
 const targetLanguageMap = {
   english: 'english',
@@ -452,12 +492,93 @@ logoutConfirmModal?.addEventListener('click', (event) => {
   }
 });
 
+// Shown when a Free-tier monthly cap (Tutor IA: 30/mes, voz: 10/mes) is
+// reached - see openPaywallModal() below for what fills its content, and
+// the /api/ai/tutor and /api/speech/synthesize callers further down for
+// where USAGE_LIMIT_REACHED triggers it. Never fakes a purchase: the
+// "Obtener Premium" button only scrolls to #premium (see the existing
+// .upgrade-btn delegated handler) - no gateway exists yet (lib/billingService.js
+// is a stub), so nothing here calls changePlan or flips the user to Premium.
+const paywallModal = document.getElementById('paywallModal');
+let paywallReturnFocus = null;
+
+// Short, curated subset of lib/plansConfig.js's premium feature list (the
+// full list lives in the #premium pricing section) - just enough for the
+// "qué obtiene Premium" bullet the spec asks the modal to show.
+const PAYWALL_PREMIUM_HIGHLIGHTS = [
+  'Tutor IA y conversación por voz sin límites',
+  'Todos los idiomas y todos los niveles',
+  'Corrección de pronunciación',
+  'Certificados y estadísticas completas'
+];
+
+function openPaywallModal({ featureLabel, used, limit }) {
+  if (!paywallModal) return;
+  paywallReturnFocus = document.activeElement;
+
+  const usageLine = document.getElementById('paywallUsageLine');
+  if (usageLine) {
+    usageLine.textContent =
+      used != null && limit != null
+        ? `Usaste ${used} de ${limit} ${featureLabel} este mes.`
+        : `Alcanzaste el límite de ${featureLabel} de tu plan gratuito.`;
+  }
+
+  const featuresList = document.getElementById('paywallFeatures');
+  if (featuresList) {
+    featuresList.innerHTML = PAYWALL_PREMIUM_HIGHLIGHTS.map(
+      (item) => `<li>${escapeHtml(item)}</li>`
+    ).join('');
+  }
+
+  // Prices are never hardcoded here - refreshPremiumPricingUI() (see
+  // loadPlans() near the top of this file) fills in the same
+  // [data-premium-monthly-price]/[data-premium-yearly-price] spans this
+  // modal's markup uses, from GET /api/plans.
+  refreshPremiumPricingUI();
+
+  paywallModal.classList.add('open');
+  paywallModal.setAttribute('aria-hidden', 'false');
+  paywallModal.removeAttribute('inert');
+  document.body.classList.add('modal-open');
+  paywallModal.querySelector('[data-action="dismiss-paywall"]')?.focus();
+}
+
+function closePaywallModal() {
+  if (!paywallModal) return;
+  paywallModal.classList.remove('open');
+  paywallModal.setAttribute('aria-hidden', 'true');
+  paywallModal.setAttribute('inert', '');
+  document.body.classList.remove('modal-open');
+  paywallReturnFocus?.focus();
+  paywallReturnFocus = null;
+}
+
+paywallModal?.addEventListener('click', (event) => {
+  if (event.target === paywallModal) {
+    closePaywallModal();
+    return;
+  }
+  const action = event.target.closest('[data-action]')?.dataset.action;
+  if (action === 'dismiss-paywall') {
+    closePaywallModal();
+  } else if (action === 'paywall-upgrade') {
+    // Navigation to #premium is handled by the global .upgrade-btn
+    // delegated click handler (this button carries that class too) - this
+    // listener only closes the modal so it doesn't stay open over the
+    // pricing section.
+    closePaywallModal();
+  }
+});
+
 document.addEventListener('keydown', (event) => {
   if (event.key !== 'Escape') return;
   if (logoutConfirmModal?.classList.contains('open')) {
     closeLogoutConfirm();
   } else if (authModal?.classList.contains('open')) {
     closeAuth();
+  } else if (paywallModal?.classList.contains('open')) {
+    closePaywallModal();
   } else if (document.getElementById('tutorDrawer')?.classList.contains('open')) {
     closeTutorDrawer();
   } else if (document.getElementById('changeComboPopover')?.hidden === false) {
@@ -790,11 +911,22 @@ function renderDashboardSignedOut() {
 
 let dashboardPreferences = null;
 
+// Home Premium card (index.html#homePremiumTeaser) - non-invasive upsell,
+// shown by default (guests included) and hidden only once the server says
+// this account already has full access. Never the reverse: absence of
+// entitlements data must not hide it, only a confirmed Premium/CEO account.
+function updateHomePremiumTeaser(entitlements) {
+  const teaser = document.getElementById('homePremiumTeaser');
+  if (!teaser) return;
+  teaser.hidden = Boolean(entitlements?.isPremium || entitlements?.role === 'ceo');
+}
+
 function renderDashboard(data) {
   if (!data) {
     dashboardPreferences = null;
     authStatus.entitlements = null;
     renderDashboardSignedOut();
+    updateHomePremiumTeaser(null);
     return;
   }
 
@@ -808,6 +940,7 @@ function renderDashboard(data) {
   if (data.entitlements) {
     authStatus.entitlements = data.entitlements;
     renderAuthState();
+    updateHomePremiumTeaser(data.entitlements);
   }
   renderDashboardStats(data);
   renderDashboardGoal(data.goal, data.preferences);
@@ -2414,6 +2547,28 @@ function setStoredReadingRate(language, rateKey) {
   }
 }
 
+// Whether the Tutor's spoken replies should start playing as soon as they're
+// ready, with no extra click - defaults to on (missing key = never set, or
+// private-mode/localStorage unavailable) since that's the natural fit for a
+// voice conversation (see requestTutorSpeech's { auto } path and
+// sendTutorMessage's post-stream trigger).
+function getTutorAutoplayPref() {
+  try {
+    const raw = localStorage.getItem('andergo_tutor_autoplay');
+    return raw === null ? true : raw === 'true';
+  } catch {
+    return true;
+  }
+}
+
+function setTutorAutoplayPref(enabled) {
+  try {
+    localStorage.setItem('andergo_tutor_autoplay', enabled ? 'true' : 'false');
+  } catch {
+    /* private-mode/unavailable localStorage - preference just won't persist */
+  }
+}
+
 // Exact-locale match first (e.g. es-ES), falling back to any voice that
 // shares the bare language prefix (e.g. any "es-*") - mirrors
 // getPronunciationLocale()'s per-language defaults above.
@@ -2949,6 +3104,16 @@ function updateTutorMessageBody(messageEl, container, text) {
 // with what was already playing.
 let currentTutorAudio = { element: null, messageEl: null };
 
+// One <audio> element reused for every neural tutor reply in the session,
+// instead of a fresh `new Audio()` per message - avoids piling up media
+// elements as the conversation grows and keeps the "only one thing plays at
+// a time" rule (stopAllTutorAudio) working against a single, known element.
+let sharedTutorAudioEl = null;
+function getSharedTutorAudioElement() {
+  if (!sharedTutorAudioEl) sharedTutorAudioEl = new Audio();
+  return sharedTutorAudioEl;
+}
+
 function resetTutorVoiceButtons(messageEl) {
   const controls = messageEl?.querySelector('.tutor-voice-controls');
   if (!controls) return;
@@ -3041,9 +3206,13 @@ function renderTutorVoiceControls(messageEl) {
   messageEl.appendChild(controls);
 }
 
-// Only ever called from a click handler (Escuchar/Repetir) - never
-// automatically - satisfying "no autoplay, especially on mobile" for free.
-async function requestTutorSpeech(messageEl) {
+// Called from the Escuchar/Repetir click handler, and also automatically
+// right after a tutor reply finishes streaming when the "reproducir
+// automáticamente" preference is on (see sendTutorMessage and
+// getTutorAutoplayPref). `auto: true` only changes how a blocked/failed
+// playback is reported - it never skips the fetch or plays without going
+// through the same synthesize call a manual click would.
+async function requestTutorSpeech(messageEl, { auto = false } = {}) {
   const controls = messageEl.querySelector('.tutor-voice-controls');
   const listenBtn = controls?.querySelector('.tutor-voice-listen');
   const stopBtn = controls?.querySelector('.tutor-voice-stop');
@@ -3057,11 +3226,23 @@ async function requestTutorSpeech(messageEl) {
 
   stopAllTutorAudio();
   if (listenBtn) listenBtn.disabled = true;
+  if (limitMsg) limitMsg.hidden = true;
 
   const onEnd = () => {
     messageEl.classList.remove('is-playing');
     if (currentTutorAudio.messageEl === messageEl) currentTutorAudio = { element: null, messageEl: null };
     resetTutorVoiceButtons(messageEl);
+  };
+
+  // Only ever shown for the two cases the spec calls out explicitly: the
+  // browser blocked autoplay, or synthesis/playback failed outright - never
+  // the raw error/rejection, which could be a technical, untranslated string.
+  const showDiscreetNotice = (message) => {
+    onEnd();
+    if (limitMsg) {
+      limitMsg.textContent = message;
+      limitMsg.hidden = false;
+    }
   };
 
   try {
@@ -3083,42 +3264,67 @@ async function requestTutorSpeech(messageEl) {
         limitMsg.textContent = data.message;
         limitMsg.hidden = false;
         if (listenBtn) listenBtn.disabled = true; // stays disabled for the rest of the session
+        openPaywallModal({
+          featureLabel: 'conversaciones de voz',
+          used: data.used,
+          limit: data.limit
+        });
         return;
       }
-      throw new Error(data.error || 'No se pudo generar la voz del tutor.');
+      throw new Error('synthesize-failed');
     }
 
-    messageEl.classList.add('is-playing');
     messageEl.dataset.ttsMode = data.mode;
-    if (stopBtn) stopBtn.disabled = false;
-    if (pauseBtn) {
-      pauseBtn.disabled = false;
-      pauseBtn.textContent = '⏸ Pausar';
-    }
-    if (rewindBtn) {
-      // Rewind needs a seekable <audio> element - speechSynthesis has no
-      // seek API, so it stays hidden in browser-fallback mode.
-      rewindBtn.hidden = data.mode !== 'neural';
-      rewindBtn.disabled = data.mode !== 'neural';
-    }
-    if (listenBtn) listenBtn.dataset.played = 'true';
+
+    // Controls only flip to "playing" once playback has actually started -
+    // if audio.play() below rejects (e.g. autoplay blocked), the message
+    // bubble/buttons must stay in their normal, not-playing state instead of
+    // looking stuck on "reproduciendo" with nothing audible.
+    const markPlaying = () => {
+      messageEl.classList.add('is-playing');
+      if (stopBtn) stopBtn.disabled = false;
+      if (pauseBtn) {
+        pauseBtn.disabled = false;
+        pauseBtn.textContent = '⏸ Pausar';
+      }
+      if (rewindBtn) {
+        // Rewind needs a seekable <audio> element - speechSynthesis has no
+        // seek API, so it stays hidden in browser-fallback mode.
+        rewindBtn.hidden = data.mode !== 'neural';
+        rewindBtn.disabled = data.mode !== 'neural';
+      }
+      if (listenBtn) listenBtn.dataset.played = 'true';
+    };
 
     if (data.mode === 'neural' && data.audioBase64) {
-      const audio = new Audio(`data:${data.mimeType || 'audio/mpeg'};base64,${data.audioBase64}`);
+      const audio = getSharedTutorAudioElement();
+      audio.pause();
+      audio.currentTime = 0;
+      audio.src = `data:${data.mimeType || 'audio/mpeg'};base64,${data.audioBase64}`;
+      audio.playbackRate = 1;
+      audio.onended = onEnd;
+      audio.onerror = onEnd;
       currentTutorAudio = { element: audio, messageEl };
-      audio.addEventListener('ended', onEnd);
-      audio.addEventListener('error', onEnd);
-      await audio.play();
+      try {
+        await audio.play();
+      } catch (playError) {
+        currentTutorAudio = { element: null, messageEl: null };
+        if (playError?.name === 'NotAllowedError') {
+          showDiscreetNotice('Pulsa reproducir para escuchar la respuesta.');
+          if (listenBtn) listenBtn.disabled = false;
+          return;
+        }
+        throw playError;
+      }
     } else {
       currentTutorAudio = { element: null, messageEl };
       speakText(text, { locale, rate: speed === 'slow' ? 0.75 : 1, onEnd });
     }
+
+    markPlaying();
     if (listenBtn) listenBtn.disabled = false;
   } catch (error) {
-    if (limitMsg) {
-      limitMsg.textContent = error.message || 'No se pudo generar la voz del tutor.';
-      limitMsg.hidden = false;
-    }
+    showDiscreetNotice('El audio no está disponible en este momento.');
     if (listenBtn) listenBtn.disabled = false;
   }
 }
@@ -3227,6 +3433,77 @@ async function checkTutorConnection(statusElId = 'tutorConnectionStatus') {
   } catch (error) {
     status.textContent = 'No disponible';
   }
+}
+
+// ---------------------------------------------------------------------
+// Speech transcript punctuation normalization. The Web Speech API used by
+// startTutorDictation below returns raw text with no punctuation and no
+// capitalization at all - there's no "provider punctuation" tier to lean on
+// here, so this rule-based pass is the whole fix (deliberately not an AI
+// call: a network round-trip per dictation would add latency and burn the
+// Tutor's free-query quota for what's just spacing/capitalization cleanup,
+// see §8/§9 of the spec this implements). It only ever touches whitespace,
+// capitalization and terminal punctuation - never vocabulary, word order or
+// meaning - and is applied once, when dictation ends, never on the live
+// interim text (which would otherwise flicker).
+// ---------------------------------------------------------------------
+const TRANSCRIPT_LANGUAGE_CODES = { english: 'en', spanish: 'es', french: 'fr' };
+
+// Sentence-initial cues used only to pick "?" vs "." for the one terminal
+// mark this function may add - never used to add/remove/reorder words.
+const TRANSCRIPT_QUESTION_STARTERS = {
+  en: /^(what|why|when|where|who|whom|whose|which|how|is|are|am|was|were|do|does|did|can|could|will|would|shall|should|may|might|have|has|had)\b/i,
+  es: /^(qué|que|cómo|como|cuándo|cuando|dónde|donde|quién|quien|cuál|cual|cuánto|cuanto|puedes|puede|podrías|podría|eres|es|estás|estas|tienes|tiene|vas|va)\b/i,
+  fr: /^(que|qu'|quoi|comment|quand|où|qui|quel|quelle|quels|quelles|pourquoi|combien|es-tu|est-il|est-elle|peux-tu|pouvez-vous|as-tu|avez-vous|vas-tu|allez-vous)\b/i
+};
+
+// Collapses duplicate whitespace and fixes spacing around , . ; : ! ? -
+// never removes accents/apostrophes, never touches word content.
+function normalizeTranscriptSpacing(text) {
+  return String(text)
+    .replace(/\s+/g, ' ')
+    .replace(/\s+([,.;:!?])/g, '$1')
+    .replace(/([,.;:!?])(?=[^\s.!?…])/g, '$1 ')
+    .replace(/\.{4,}/g, '...')
+    .trim();
+}
+
+// Reusable, single-purpose formatter for a finished speech transcript -
+// capitalization, spacing and terminal punctuation only, per language
+// (en/es/fr supported; anything else still gets safe spacing/capitalization,
+// just no question-mark heuristic since we have no starter word list for it).
+function normalizeSpeechTranscript(text, language) {
+  if (!text) return text;
+  const lang = TRANSCRIPT_LANGUAGE_CODES[language] || null;
+
+  let normalized = String(text)
+    .split('\n')
+    .map(normalizeTranscriptSpacing)
+    .join('\n')
+    .trim();
+  if (!normalized) return normalized;
+
+  // Capitalize the very first letter and the start of any sentence that
+  // follows a ./!/?/… plus whitespace - interior words are never touched.
+  normalized = normalized.replace(/(^|[.!?…]\s+)([a-zà-öø-ÿ])/g, (match, lead, letter) =>
+    lead + letter.toUpperCase()
+  );
+
+  const endsWithTerminal = /[.!?…]["')\]]?$/.test(normalized);
+  if (!endsWithTerminal) {
+    const isQuestion = lang && TRANSCRIPT_QUESTION_STARTERS[lang]?.test(normalized);
+    normalized += isQuestion ? '?' : '.';
+  }
+
+  if (lang === 'es') {
+    if (/\?$/.test(normalized) && !normalized.startsWith('¿')) normalized = `¿${normalized}`;
+  } else if (lang === 'fr') {
+    // French convention: a space before ! ? ; : - already stripped by
+    // normalizeTranscriptSpacing above, added back only for these four.
+    normalized = normalized.replace(/\s*([!?;:])/g, ' $1');
+  }
+
+  return normalized;
 }
 
 // Voice dictation for the Tutor prompt textareas - converts speech to text
@@ -3385,6 +3662,10 @@ function startTutorDictation(textareaId) {
   // message (e.g. permission denied) with a generic one.
   recognition.addEventListener('end', () => {
     const hadFinalText = Boolean(finalTranscript.trim());
+    if (hadFinalText) {
+      const polished = normalizeSpeechTranscript(finalTranscript.trim(), learningPathState.language);
+      textarea.value = [baseText, polished].filter(Boolean).join(' ');
+    }
     tutorDictation = { recognition: null, status: 'idle', textareaId: null, timeoutId: null };
     resetDictationUI(textareaId);
     if (hadFinalText) {
@@ -7768,6 +8049,29 @@ let tutorDrawerContext = {
   selectedAnswer: ''
 };
 
+// Minimal Tab-cycling focus trap for the drawer's open state - keeps
+// keyboard navigation inside .tutor-drawer-panel while it's open, without
+// needing a focus-trap library. Attached in openTutorDrawer, removed in
+// closeTutorDrawer so it never runs against a closed/inert drawer.
+function tutorDrawerFocusTrapHandler(event) {
+  if (event.key !== 'Tab') return;
+  const panel = document.querySelector('#tutorDrawer .tutor-drawer-panel');
+  if (!panel) return;
+  const focusable = panel.querySelectorAll(
+    'button:not([disabled]), [href], input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])'
+  );
+  if (!focusable.length) return;
+  const first = focusable[0];
+  const last = focusable[focusable.length - 1];
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
+}
+
 function openTutorDrawer(overrides = {}) {
   const drawer = document.getElementById('tutorDrawer');
   if (!drawer) return;
@@ -7779,6 +8083,7 @@ function openTutorDrawer(overrides = {}) {
   drawer.setAttribute('aria-hidden', 'false');
   drawer.removeAttribute('inert');
   document.body.classList.add('modal-open');
+  document.addEventListener('keydown', tutorDrawerFocusTrapHandler);
   refreshLanguagePairChrome();
 
   const skillEl = drawer.querySelector('[data-drawer-context="skill"]');
@@ -7786,6 +8091,9 @@ function openTutorDrawer(overrides = {}) {
   if (skillEl)
     skillEl.textContent = getSkillLabel(tutorDrawerContext.skill);
   if (levelEl) levelEl.textContent = learningPathState.level;
+
+  const autoplayToggle = document.getElementById('tutorAutoplayToggle');
+  if (autoplayToggle) autoplayToggle.checked = getTutorAutoplayPref();
 
   const prompt = document.getElementById('tutorDrawerPrompt');
   if (prompt) prompt.value = overrides.prefill || '';
@@ -7797,10 +8105,12 @@ function closeTutorDrawer() {
   const drawer = document.getElementById('tutorDrawer');
   if (!drawer || !drawer.classList.contains('open')) return;
   stopTutorDictation();
+  stopAllTutorAudio();
   drawer.classList.remove('open');
   drawer.setAttribute('aria-hidden', 'true');
   drawer.setAttribute('inert', '');
   document.body.classList.remove('modal-open');
+  document.removeEventListener('keydown', tutorDrawerFocusTrapHandler);
   (tutorDrawerReturnFocus || document.getElementById('tutorFab'))?.focus();
   tutorDrawerReturnFocus = null;
 }
@@ -7886,6 +8196,11 @@ async function sendTutorMessage({
         lockedOut = true;
         if (conversationEl) appendTutorUsageNotice(conversationEl, data.error, { locked: true });
         if (connectionStatusEl) connectionStatusEl.textContent = 'Límite mensual alcanzado';
+        openPaywallModal({
+          featureLabel: 'consultas al Tutor IA',
+          used: data.limit != null ? data.limit - (data.remaining || 0) : null,
+          limit: data.limit
+        });
         return null;
       }
       throw new Error(data.error || 'No se pudo conectar con el tutor IA.');
@@ -7980,6 +8295,15 @@ async function sendTutorMessage({
     if (streamError && !fullText) throw new Error(streamError);
 
     if (connectionStatusEl) connectionStatusEl.textContent = 'Conectado';
+
+    // Fire-and-forget: starts the reply's audio as soon as it's ready
+    // (§3 of the Tutor voice spec) without delaying sendTutorMessage's own
+    // return or re-enabling of sendBtn below. requestTutorSpeech's own
+    // NotAllowedError handling covers a browser blocking this autoplay.
+    if (messageEl && getTutorAutoplayPref() && messageEl.querySelector('.tutor-voice-controls')) {
+      requestTutorSpeech(messageEl, { auto: true });
+    }
+
     return { reply: fullText };
   } catch (error) {
     if (conversationEl)
@@ -9736,6 +10060,14 @@ function enableHomepageActions() {
     event.preventDefault();
     document.getElementById('tutorDrawerSend')?.click();
   });
+
+  const autoplayToggle = document.getElementById('tutorAutoplayToggle');
+  if (autoplayToggle) {
+    autoplayToggle.checked = getTutorAutoplayPref();
+    autoplayToggle.addEventListener('change', () => {
+      setTutorAutoplayPref(autoplayToggle.checked);
+    });
+  }
 }
 
 function setupLearningPathControls() {

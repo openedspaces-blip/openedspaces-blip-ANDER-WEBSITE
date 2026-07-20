@@ -1275,9 +1275,46 @@ a:focus-visible {
   flex-wrap: wrap;
 }
 
-.confirm-actions button {
+.confirm-actions button,
+.confirm-actions a.primary-btn {
   flex: 1;
   min-width: 140px;
+  text-align: center;
+}
+
+/* Paywall modal (shown when a Free-tier monthly cap is reached) - reuses
+   .confirm-modal/.confirm-panel for the overlay and card, adds only the
+   pricing-specific bits below. */
+.paywall-panel {
+  width: min(460px, 90%);
+}
+
+.paywall-usage-line {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: -12px;
+  margin-bottom: 14px;
+}
+
+.paywall-features {
+  list-style: none;
+  margin: 14px 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: var(--navy-2);
+}
+
+.paywall-features li::before {
+  content: '✔ ';
+  color: var(--blue);
+}
+
+.paywall-price-line {
+  font-weight: 700;
+  color: var(--navy-2);
+  margin-bottom: 22px;
 }
 
 .path-pair-preview {
@@ -2956,6 +2993,56 @@ footer small {
   }
 }
 
+/* Home Premium teaser card - non-invasive upsell, not an ad: shown only to
+   guests/Free accounts (script.js hides it for Premium/CEO entitlements),
+   matches the .premium-plan/.plan-badge palette used in #premium so it
+   reads as "part of this app" rather than a banner. */
+.home-premium-teaser {
+  max-width: 420px;
+  margin: 1.5rem auto 0;
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: linear-gradient(135deg, var(--accent-soft), rgba(37, 99, 235, 0.02));
+  text-align: center;
+}
+
+.home-premium-teaser-title {
+  margin: 0;
+  font-weight: 700;
+  color: var(--navy-2);
+}
+
+.home-premium-teaser-subtitle {
+  margin: 0.15rem 0 0.75rem;
+  color: var(--muted);
+}
+
+.home-premium-teaser-list {
+  list-style: none;
+  margin: 0 0 0.9rem;
+  padding: 0;
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--navy-2);
+  text-align: left;
+  max-width: 260px;
+  margin-inline: auto;
+}
+
+.home-premium-teaser-price {
+  margin: 0 0 0.9rem;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.price-annual {
+  margin-top: -0.4rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 /* ANDERGO compact homepage and active button behavior */
 .compact-hidden-section {
   display: none !important;
@@ -3236,6 +3323,25 @@ footer small {
   color: #15803d;
   font-weight: 700;
   font-size: 0.85rem;
+}
+
+.tutor-autoplay-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.12);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  color: #334155;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tutor-autoplay-toggle input {
+  accent-color: var(--blue);
+  cursor: pointer;
 }
 
 .tutor-input-group {
@@ -7413,11 +7519,19 @@ footer small {
   display: none;
 }
 
-/* Tutor IA drawer */
+/* Tutor IA drawer - centered modal on desktop/tablet, full-screen sheet on
+   mobile. .tutor-drawer is the fixed full-viewport flex wrapper that centers
+   .tutor-drawer-panel (the actual visible card); only .tutor-conversation
+   inside the panel scrolls, so header/context/input stay pinned and there's
+   never more than one scrollbar. */
 .tutor-drawer {
   position: fixed;
   inset: 0;
   z-index: 65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(0px, 3vw, 32px);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.25s ease;
@@ -7435,44 +7549,91 @@ footer small {
 }
 
 .tutor-drawer-panel {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: min(420px, 100%);
+  position: relative;
+  width: min(80vw, 1200px);
+  height: min(86dvh, 900px);
+  max-width: 1200px;
+  max-height: 86dvh;
   background: white;
-  box-shadow: -20px 0 60px rgba(15, 23, 42, 0.25);
+  border-radius: 24px;
+  box-shadow: 0 30px 80px rgba(15, 23, 42, 0.35);
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  transform: translateX(100%);
-  transition: transform 0.3s ease;
-  overflow-y: auto;
+  transform: translateY(18px) scale(0.98);
+  opacity: 0;
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
+  overflow: hidden;
 }
 
 .tutor-drawer.open .tutor-drawer-panel {
-  transform: translateX(0);
+  transform: translateY(0) scale(1);
+  opacity: 1;
 }
 
 .tutor-drawer-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-shrink: 0;
 }
 
 .tutor-drawer-head h2 {
   font-size: 1.3rem;
 }
 
-.tutor-drawer .tutor-conversation {
-  flex: 1;
-  min-height: 160px;
+.tutor-drawer .tutor-context {
+  flex-shrink: 0;
 }
 
-@media (max-width: 640px) {
+.tutor-drawer .tutor-autoplay-toggle {
+  flex-shrink: 0;
+}
+
+.tutor-drawer .tutor-conversation {
+  flex: 1;
+  min-height: 0;
+  max-height: none;
+  overflow-y: auto;
+}
+
+.tutor-drawer .tutor-thinking,
+.tutor-drawer .tutor-input-group,
+.tutor-drawer .tutor-dictate-status,
+.tutor-drawer .tutor-dictate-note,
+.tutor-drawer .tutor-buttons {
+  flex-shrink: 0;
+}
+
+.tutor-drawer .tutor-input {
+  min-height: 100px;
+  max-height: 160px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
   .tutor-drawer-panel {
-    width: 100%;
+    width: min(92vw, 1200px);
+    height: min(90dvh, 900px);
+  }
+}
+
+/* Mobile - full-screen sheet, no outer padding/rounding, no horizontal
+   scroll risk since the panel exactly matches the viewport. */
+@media (max-width: 640px) {
+  .tutor-drawer {
+    padding: 0;
+  }
+  .tutor-drawer-panel {
+    width: 100vw;
+    height: 100dvh;
+    max-width: 100vw;
+    max-height: 100dvh;
+    border-radius: 0;
+    padding: 1rem;
   }
   .tutor-fab {
     right: 1rem;

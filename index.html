@@ -88,7 +88,8 @@
           </div>
 
           <p class="home-pricing-teaser">
-            Prueba gratis. Desbloquea la ruta completa por USD 5.95 al mes.
+            Prueba gratis. Desbloquea ANDERGO Premium desde
+            <span data-premium-monthly-price>USD 4.99</span>/mes.
             <a href="#premium">Ver Premium</a>
           </p>
         </div>
@@ -131,6 +132,21 @@
           </article>
         </div>
       </section>
+
+      <aside class="home-premium-teaser" id="homePremiumTeaser" aria-label="ANDERGO Premium">
+        <p class="home-premium-teaser-title">🚀 ANDERGO Premium</p>
+        <p class="home-premium-teaser-subtitle">Aprende sin límites.</p>
+        <ul class="home-premium-teaser-list">
+          <li>✔ Tutor IA avanzado</li>
+          <li>✔ Conversación por voz</li>
+          <li>✔ Pronunciación corregida</li>
+          <li>✔ Todos los cursos</li>
+        </ul>
+        <p class="home-premium-teaser-price">
+          Desde <span data-premium-monthly-price>USD 4.99</span>/mes
+        </p>
+        <a href="#premium" class="primary-btn" data-home-action="upgrade">Actualizar</a>
+      </aside>
 
       <section
         id="progress"
@@ -939,47 +955,52 @@
 
       <section id="premium" class="section pricing-section compact-hidden-section">
         <div class="section-heading">
-          <span>Precio simple</span>
-          <h2 tabindex="-1">Un solo precio para desbloquear ANDERGO Premium.</h2>
+          <span>Planes</span>
+          <h2 tabindex="-1">Elige tu plan ANDERGO.</h2>
           <p>
-            Sin planes confusos: prueba gratis y desbloquea la ruta completa cuando estés listo.
+            Empieza gratis y actualiza a Premium cuando quieras aprender sin límites.
           </p>
         </div>
 
         <div class="pricing-layout">
           <article class="plan free-plan">
-            <span class="plan-badge">Gratis</span>
-            <h3>Ruta de prueba</h3>
+            <span class="plan-badge">Free</span>
+            <h3>Plan Free</h3>
             <p class="price">USD 0</p>
             <ul>
-              <li>3 lecciones gratis en cada nivel de A1 a B2.</li>
-              <li>1 lección gratis en C1.</li>
-              <li>1 lección gratis en C2.</li>
-              <li>Vocabulario, diálogo, lectura y mini ejercicios.</li>
+              <li>Parte de los cursos: lecturas, gramática, listening y speaking básicos.</li>
+              <li>Text-to-Speech, traductor, flashcards y vocabulario.</li>
+              <li>Tutor IA: 30 consultas al mes.</li>
+              <li>Conversación por voz: 10 al mes.</li>
             </ul>
             <a href="#learn" class="secondary-btn" data-home-action="start-free">Probar gratis</a>
           </article>
 
           <article class="plan premium-plan">
-            <span class="plan-badge">Plan único</span>
+            <span class="plan-badge">Premium</span>
             <h3>ANDERGO Premium</h3>
-            <p class="price">USD 5.95 <small>/ mes</small></p>
+            <p class="price">
+              <span data-premium-monthly-price>USD 4.99</span> <small>/ mes</small>
+            </p>
+            <p class="price-annual">
+              o <span data-premium-yearly-price>USD 39.99</span> <small>/ año</small>
+            </p>
             <div class="premium-badge-row">
-              <span class="premium-badge">ANDERGO Premium</span>
+              <span class="premium-badge">Sin límites</span>
               <span class="premium-badge">Conversación por voz</span>
               <span class="premium-badge">Corrección de pronunciación</span>
             </div>
             <ul>
-              <li>Desbloquea todas las lecciones premium.</li>
-              <li>Acceso a todos los idiomas y niveles.</li>
-              <li>Voz neuronal de alta calidad para el Tutor IA.</li>
-              <li>Conversaciones de voz más extensas, guiadas o libres, con role-play.</li>
-              <li>Practica gamificada con XP, racha y misiones.</li>
-              <li>Ideal para avanzar sin limitarte a las lecciones gratis.</li>
+              <li>Todos los idiomas y todos los niveles.</li>
+              <li>Todo Reading, Grammar, Vocabulary, Listening y Speaking.</li>
+              <li>Diálogos completos y Tutor IA sin límites.</li>
+              <li>Conversación por voz ilimitada con corrección de pronunciación.</li>
+              <li>Estadísticas completas y certificados.</li>
+              <li>Sin publicidad.</li>
             </ul>
-            <a href="#premium" class="primary-btn" data-home-action="upgrade"
-              >Desbloquear por USD 5.95</a
-            >
+            <a href="#premium" class="primary-btn" data-home-action="upgrade">
+              Actualizar a Premium — <span data-premium-monthly-price>USD 4.99</span>/mes
+            </a>
           </article>
         </div>
       </section>
@@ -1577,6 +1598,46 @@
       </div>
     </div>
 
+    <!-- Shown when a Free-tier monthly cap (Tutor IA, conversación por voz)
+         is reached - never a plain block: explains what ran out, how much
+         was used, what Premium unlocks, and both prices, always with an
+         easy "Quizás más tarde" out. Content is filled in by
+         openPaywallModal() in script.js right before it opens. -->
+    <div class="confirm-modal paywall-modal" id="paywallModal" aria-hidden="true" inert>
+      <div
+        class="confirm-panel paywall-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="paywallModalTitle"
+      >
+        <button
+          class="close-modal"
+          type="button"
+          aria-label="Cerrar"
+          data-action="dismiss-paywall"
+        >
+          ×
+        </button>
+        <h3 id="paywallModalTitle">Has alcanzado el límite de tu plan gratuito.</h3>
+        <p class="paywall-usage-line" id="paywallUsageLine"></p>
+        <p>Actualiza a ANDERGO Premium para continuar aprendiendo sin estas restricciones.</p>
+        <ul class="paywall-features" id="paywallFeatures"></ul>
+        <p class="paywall-price-line">
+          <span data-premium-monthly-price>USD 4.99</span><small>/mes</small>
+          &nbsp;o&nbsp;
+          <span data-premium-yearly-price>USD 39.99</span><small>/año</small>
+        </p>
+        <div class="confirm-actions">
+          <button type="button" class="secondary-btn" data-action="dismiss-paywall">
+            Quizás más tarde
+          </button>
+          <button type="button" class="primary-btn upgrade-btn" data-action="paywall-upgrade">
+            Obtener Premium
+          </button>
+        </div>
+      </div>
+    </div>
+
     <!-- Shown once, right after login, only when profiles.username is null
          (pre-migration accounts). Does not block anything else the student
          does - "Ahora no" just closes it and it reappears on the next login
@@ -1697,6 +1758,10 @@
           <span class="tutor-connection-status" id="tutorDrawerConnectionStatus" aria-live="polite"
             >Comprobando conexión…</span
           >
+          <label class="tutor-autoplay-toggle">
+            <input type="checkbox" id="tutorAutoplayToggle" checked />
+            Reproducir respuestas automáticamente
+          </label>
         </div>
         <div
           class="tutor-conversation"
