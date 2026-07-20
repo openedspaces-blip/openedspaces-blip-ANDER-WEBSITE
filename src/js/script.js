@@ -126,6 +126,56 @@ function restoreSession() {
   window.AndergoGamification?.load(gamificationKeyFor(authStatus.user));
 }
 
+// Supabase access tokens expire (~1h) but the app never refreshed them, so
+// any long-lived tab started silently 401ing on every requireAuth route
+// ("Debes iniciar sesión para continuar.") while the UI still showed the
+// user as signed in - saveSession()/restoreSession() only ever stored
+// session.refresh_token, nothing ever spent it. Called from authFetch()
+// below on a 401; a quiet background swap, not a full saveSession() (no
+// loadDashboard()/gamification reload needed just to renew a token).
+async function refreshAuthSession() {
+  const refreshToken = authStatus.session?.refresh_token;
+  if (!refreshToken) return false;
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/auth/refresh`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ refreshToken })
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok || !data.session?.access_token) return false;
+
+    authStatus.user = data.user || authStatus.user;
+    authStatus.session = data.session;
+    localStorage.setItem(
+      'andergoSession',
+      JSON.stringify({ user: authStatus.user, session: authStatus.session })
+    );
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+// fetch() wrapper for requireAuth-gated routes: attaches the current
+// access token, and on a 401 tries refreshAuthSession() once, retrying the
+// original request with the renewed token before giving up. Everything
+// else about the response (ok/not-ok, body shape) is left for the caller
+// to handle exactly as if this were a plain fetch.
+async function authFetch(url, options = {}) {
+  const withAuth = (opts) => ({
+    ...opts,
+    headers: { ...(opts.headers || {}), ...authHeaders() }
+  });
+
+  let response = await fetch(url, withAuth(options));
+  if (response.status === 401 && authStatus.session?.refresh_token) {
+    const refreshed = await refreshAuthSession();
+    if (refreshed) response = await fetch(url, withAuth(options));
+  }
+  return response;
+}
+
 // The backend's user.name is upstream data we don't control here - if it's
 // malformed (e.g. truncated to something like "aos") this guard keeps it off
 // screen instead of rendering "Hola, aos": falls back to the email's local
