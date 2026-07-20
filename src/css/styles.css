@@ -3288,7 +3288,9 @@ footer small {
 }
 
 .tutor-dictate-btn,
-.tutor-dictate-stop-btn {
+.tutor-dictate-stop-btn,
+.translator-dictate-btn,
+.translator-dictate-stop-btn {
   border: 1px solid rgba(37, 99, 235, 0.35);
   background: #fff;
   color: #1d4ed8;
@@ -3304,30 +3306,37 @@ footer small {
 }
 
 .tutor-dictate-btn:hover:not(:disabled),
-.tutor-dictate-stop-btn:hover {
+.tutor-dictate-stop-btn:hover,
+.translator-dictate-btn:hover:not(:disabled),
+.translator-dictate-stop-btn:hover {
   background: rgba(37, 99, 235, 0.08);
   border-color: rgba(37, 99, 235, 0.55);
 }
 
 .tutor-dictate-btn:focus-visible,
-.tutor-dictate-stop-btn:focus-visible {
+.tutor-dictate-stop-btn:focus-visible,
+.translator-dictate-btn:focus-visible,
+.translator-dictate-stop-btn:focus-visible {
   outline: 3px solid #1d4ed8;
   outline-offset: 2px;
 }
 
-.tutor-dictate-btn:disabled {
+.tutor-dictate-btn:disabled,
+.translator-dictate-btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.tutor-dictate-btn.is-listening {
+.tutor-dictate-btn.is-listening,
+.translator-dictate-btn.is-listening {
   background: rgba(220, 38, 38, 0.1);
   border-color: #dc2626;
   color: #b91c1c;
   animation: tutor-dictate-pulse 1.6s ease-in-out infinite;
 }
 
-.tutor-dictate-stop-btn {
+.tutor-dictate-stop-btn,
+.translator-dictate-stop-btn {
   border-color: rgba(220, 38, 38, 0.4);
   color: #b91c1c;
 }

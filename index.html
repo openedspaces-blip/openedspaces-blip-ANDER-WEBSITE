@@ -1033,6 +1033,7 @@
               <p class="translator-char-count" id="translatorCharCount" aria-live="polite">
                 0 / 1000
               </p>
+              <p class="tutor-dictate-status" id="translatorInputDictateStatus" aria-live="polite"></p>
               <div class="translator-field-actions">
                 <button type="button" class="secondary-btn" id="translatorClearBtn">
                   Limpiar
@@ -1044,6 +1045,26 @@
                   aria-label="Escuchar texto original"
                 >
                   🔊 Escuchar
+                </button>
+                <button
+                  type="button"
+                  class="translator-dictate-btn"
+                  id="translatorDictateBtn"
+                  data-dictate-target="translatorInput"
+                  aria-label="Hablarle al traductor"
+                  aria-pressed="false"
+                >
+                  🎙 Hablar
+                </button>
+                <button
+                  type="button"
+                  class="translator-dictate-stop-btn"
+                  id="translatorDictateStopBtn"
+                  data-dictate-target="translatorInput"
+                  aria-label="Detener dictado"
+                  hidden
+                >
+                  ⏹ Detener
                 </button>
               </div>
             </div>
