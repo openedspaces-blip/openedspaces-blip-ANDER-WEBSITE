@@ -996,7 +996,7 @@ test(
             password: unconfirmedUser.password
           });
           assert.equal(r.status, 403);
-          assert.match(r.body.error, /confirma tu correo/i);
+          assert.match(r.body.error, /confirmar tu correo/i);
         } finally {
           await deleteLoginTestUser(unconfirmedUser.id);
         }
@@ -1138,6 +1138,23 @@ test('authService.classifyEmailError: maps known GoTrue codes to the internal ta
   assert.equal(authService.classifyEmailError(undefined), 'UNKNOWN_EMAIL_ERROR');
 });
 
+test('authService.classifyConfirmationCallbackError: maps to the CONFIRMATION_CALLBACK taxonomy (spec §8)', () => {
+  assert.equal(
+    authService.classifyConfirmationCallbackError({ code: 'otp_expired' }),
+    'EXPIRED_CONFIRMATION_LINK'
+  );
+  assert.equal(
+    authService.classifyConfirmationCallbackError({ code: 'over_email_send_rate_limit' }),
+    'EMAIL_RATE_LIMIT'
+  );
+  assert.equal(authService.classifyConfirmationCallbackError({ status: 429 }), 'EMAIL_RATE_LIMIT');
+  assert.equal(
+    authService.classifyConfirmationCallbackError({ code: 'invalid_token' }),
+    'INVALID_CONFIRMATION_LINK'
+  );
+  assert.equal(authService.classifyConfirmationCallbackError(undefined), 'AUTH_CALLBACK_FAILED');
+});
+
 test(
   'authService.resendConfirmation/requestPasswordReset: neutral response, never a raw Supabase error',
   async () => {
@@ -1271,4 +1288,43 @@ test('script.js: the reset-password page opens the recovery form only on PASSWOR
   // and no reference to the reset form's own elements anywhere in this path.
   assert.doesNotMatch(confirmedPageBody, /PASSWORD_RECOVERY/);
   assert.doesNotMatch(confirmedPageBody, /resetPasswordForm/);
+});
+
+test('script.js: the confirmation callback handles error params, never double-processes a code, checks email_confirmed_at, and cleans the URL', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+
+  // Never runs twice for the same page load - a `code` is single-use on
+  // Supabase's side (spec §3 item 4).
+  assert.match(source, /let emailConfirmationCallbackHandled = false;/);
+  assert.match(source, /if \(emailConfirmationCallbackHandled\) return;\s*\n\s*emailConfirmationCallbackHandled = true;/);
+
+  const confirmedPageBody = source.match(
+    /async function initEmailConfirmedPage\(\) \{([\s\S]*?)\n\}/
+  )?.[1];
+  assert.ok(confirmedPageBody, 'expected to find initEmailConfirmedPage() body');
+
+  // Detects Supabase's own error redirect (spec §3 item: error/error_code/
+  // error_description), distinct from a successful `code` exchange.
+  assert.match(confirmedPageBody, /error_code/);
+  assert.match(confirmedPageBody, /callbackParams\.get\('error'\)/);
+
+  // getSession() is read before exchangeCodeForSession() is ever attempted,
+  // and the exchange is gated on both a code being present AND no session
+  // existing yet (spec §3 items 2-3).
+  assert.match(confirmedPageBody, /getSession\(\)/);
+  assert.match(
+    confirmedPageBody,
+    /if \(code && !data\?\.session\) \{\s*\n\s*const \{ error \} = await client\.auth\.exchangeCodeForSession\(code\);/
+  );
+
+  // Confirms the account actually has a confirmed email before declaring
+  // success (spec §3 item 5).
+  assert.match(confirmedPageBody, /email_confirmed_at/);
+
+  // The URL is only ever cleaned inside showInvalid()/showSuccess() - both
+  // are only ever called once the callback has actually been processed
+  // (after the error-param check, or after getSession()/exchangeCode
+  // resolve), never eagerly before that (spec §3 item 7).
+  assert.match(confirmedPageBody, /function showInvalid\(message\) \{\s*\n\s*window\.history\.replaceState/);
+  assert.match(confirmedPageBody, /function showSuccess\(email\) \{\s*\n\s*window\.history\.replaceState/);
 });

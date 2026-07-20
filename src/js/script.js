@@ -1483,6 +1483,14 @@ async function initResetPasswordPage() {
   });
 }
 
+// Guards initEmailConfirmedPage() below against ever processing the same
+// confirmation `code` twice: it runs exactly once today (called once at
+// load - see the bottom of this file), but a `code` is single-use on
+// Supabase's side, so a second run (e.g. a bfcache restore replaying this
+// script) must short-circuit instead of sending an already-spent code back
+// to exchangeCodeForSession().
+let emailConfirmationCallbackHandled = false;
+
 // Drives the confirmation-LINK variant landing (#emailConfirmedSection,
 // ?auth=confirmed) - the 6-digit OTP in showSignupPending() is the primary
 // confirmation path; this only covers a student tapping the email's link
@@ -1497,18 +1505,28 @@ async function initResetPasswordPage() {
 // the student in or land them on a password form; it only ever shows the
 // confirmation message and sends them to the normal login.
 async function initEmailConfirmedPage() {
+  if (emailConfirmationCallbackHandled) return;
+  emailConfirmationCallbackHandled = true;
+
   const successEl = document.getElementById('emailConfirmedSuccess');
   const invalidEl = document.getElementById('emailConfirmedInvalid');
   const invalidMessageEl = document.getElementById('emailConfirmedInvalidMessage');
   if (!successEl || !invalidEl) return;
 
+  // The URL's callback params (?auth=confirmed / code / error*) are only
+  // ever meaningful for this one load - stripped once, after processing
+  // finishes (success or not), never before, so a reload never re-attempts
+  // an already-spent code and never leaves a stale error dangling in the
+  // address bar either.
   function showInvalid(message) {
+    window.history.replaceState(null, '', '/');
     successEl.hidden = true;
     invalidEl.hidden = false;
     if (invalidMessageEl && message) invalidMessageEl.textContent = message;
   }
 
   function showSuccess(email) {
+    window.history.replaceState(null, '', '/');
     successEl.hidden = false;
     invalidEl.hidden = true;
     const loginIdentifierInput = document.getElementById('loginIdentifier');
@@ -1522,7 +1540,6 @@ async function initEmailConfirmedPage() {
   const callbackParams = new URLSearchParams(window.location.search);
   const errorCode = callbackParams.get('error_code');
   if (callbackParams.get('error') || errorCode) {
-    window.history.replaceState(null, '', '/');
     showInvalid(
       errorCode === 'otp_expired'
         ? 'El enlace de confirmación expiró. Solicita uno nuevo.'
@@ -1560,19 +1577,32 @@ async function initEmailConfirmedPage() {
     clientConfig.supabaseAnonKey
   );
 
+  // Registered immediately, before any of the getSession()/
+  // exchangeCodeForSession() calls below - a purely observational
+  // safeguard: this app's REST-backed session model (see login() in
+  // lib/authService.js) never adopts a supabase-js session as its own
+  // signed-in state, so nothing here reacts to the event itself, but it
+  // must exist from the start rather than risk missing a SIGNED_IN that
+  // fires while the client is still finishing setup.
+  client.auth.onAuthStateChange(() => {});
+
   try {
-    const code = new URLSearchParams(window.location.search).get('code');
-    if (code) {
+    const code = callbackParams.get('code');
+    let { data } = await client.auth.getSession();
+    // Only exchange if there's a code AND no session yet - never re-run
+    // this for a code that already produced a session (see
+    // emailConfirmationCallbackHandled above for the same guarantee across
+    // repeated calls to this function).
+    if (code && !data?.session) {
       const { error } = await client.auth.exchangeCodeForSession(code);
       if (error) throw error;
+      ({ data } = await client.auth.getSession());
     }
-
-    const { data } = await client.auth.getSession();
     if (!data?.session) throw new Error('No confirmation session');
+    if (!data.session.user?.email_confirmed_at) throw new Error('Email not confirmed');
     const email = data.session.user?.email || null;
 
     await client.auth.signOut().catch(() => {});
-    window.history.replaceState(null, '', '/');
     showSuccess(email);
   } catch {
     showInvalid();
