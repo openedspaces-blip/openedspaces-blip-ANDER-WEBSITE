@@ -26,8 +26,16 @@
 // course-audio/spanish/a1/unit-NN/activity-slug/{normal,slow,very-slow}.mp3).
 require('dotenv').config();
 const { units, language, level } = require('./content/spanish-a1-units');
+const { getSupabaseAdmin } = require('../lib/supabaseClient');
+const { generateSpeechMp3, isConfigured: isTtsConfigured } = require('../lib/ttsService');
 
 const CONFIRM = process.argv.includes('--confirm');
+const BUCKET = 'course-audio';
+// Approved pilot scope (see this file's header): --confirm only ever
+// generates this one unit, single-narrator, not the full 12-unit catalog
+// and not per-speaker multi-voice dialogue (needs audio-clip stitching
+// this project doesn't have a tool for yet).
+const PILOT_UNIT_SLUG = 'hola-mucho-gusto';
 
 // eleven_v3 for dialogue (multi-speaker, more expressive), eleven_multilingual_v2
 // for single-narrator listenings (voice-message/story/interview), per the
@@ -112,13 +120,71 @@ function printReport(rows) {
   console.log('Este es un reporte de solo lectura. Ejecuta con --confirm para generar y subir audio real (requiere ELEVENLABS_API_KEY y credenciales de Supabase).');
 }
 
-async function generateAndUpload(rows) {
-  // Real generation path - intentionally not wired to any ElevenLabs SDK
-  // call yet. Left as an explicit stub so this script can be reviewed and
-  // approved (voices, scripts, cost) before any implementation that spends
-  // money or writes to Storage is added and run.
-  throw new Error(
-    'Generación real de audio no implementada todavía: pendiente de aprobación explícita (guiones/voces/costo) antes de conectar la API de ElevenLabs. Ver cabecera de este archivo.'
+async function ensureBucket(supabase) {
+  const { data: buckets, error } = await supabase.storage.listBuckets();
+  if (error) throw error;
+  if (buckets?.some((bucket) => bucket.name === BUCKET)) return;
+
+  const { error: createError } = await supabase.storage.createBucket(BUCKET, { public: true });
+  if (createError && !/already exists/i.test(createError.message || '')) throw createError;
+}
+
+// Pilot generation: single-narrator reading of activity.transcript for
+// PILOT_UNIT_SLUG only (see header). Reuses lib/ttsService.js#generateSpeechMp3
+// (provider-agnostic; ElevenLabs when ELEVENLABS_API_KEY is set, per that
+// file's own ttsProvider() logic) instead of calling the ElevenLabs SDK
+// directly here, so this script never has to duplicate provider/voice
+// resolution logic.
+async function generateAndUpload() {
+  if (!isTtsConfigured()) {
+    throw new Error(
+      'Ningún proveedor de TTS está configurado (falta ELEVENLABS_API_KEY o OPENAI_API_KEY). Agrégalo a .env y vuelve a intentar.'
+    );
+  }
+
+  const unit = units.find((u) => u.slug === PILOT_UNIT_SLUG);
+  if (!unit) throw new Error(`No se encontró la unidad piloto "${PILOT_UNIT_SLUG}".`);
+  const activity = unit.activities.listening;
+  const text = activity.transcript || activity.dialogue?.map((l) => l.line).join(' ') || '';
+  if (!text.trim()) throw new Error(`La unidad piloto "${PILOT_UNIT_SLUG}" no tiene transcript.`);
+
+  const activitySlug = `spanish-a1-${unit.slug}-listening`;
+  const storagePath = `${language}/${level.toLowerCase()}/unit-${String(unit.order).padStart(2, '0')}/${activitySlug}/normal.mp3`;
+
+  console.log(`Generando audio para ${activitySlug} (${text.length} caracteres) ...`);
+  const supabase = getSupabaseAdmin();
+  await ensureBucket(supabase);
+
+  const mp3Buffer = await generateSpeechMp3(text, { language });
+
+  const { error: uploadError } = await supabase.storage
+    .from(BUCKET)
+    .upload(storagePath, mp3Buffer, { contentType: 'audio/mpeg', upsert: true });
+  if (uploadError) throw new Error(`Error subiendo a Storage: ${uploadError.message}`);
+
+  const { data: publicUrlData } = supabase.storage.from(BUCKET).getPublicUrl(storagePath);
+  const audioUrl = publicUrlData?.publicUrl;
+  if (!audioUrl) throw new Error('No se pudo obtener la URL pública del audio subido.');
+
+  const { error: upsertError } = await supabase.from('lesson_audio').upsert(
+    {
+      language,
+      level: level.toUpperCase(),
+      lesson_slug: activitySlug,
+      title: activity.title,
+      source_type: 'official',
+      main_file_path: audioUrl,
+      transcript: activity.transcript || '',
+      status: 'published',
+      published_at: new Date().toISOString()
+    },
+    { onConflict: 'language,level,lesson_slug' }
+  );
+  if (upsertError) throw new Error(`Error guardando lesson_audio: ${upsertError.message}`);
+
+  console.log(`Listo: ${audioUrl}`);
+  console.log(
+    'Nota: slow_file_path queda sin definir - el reproductor ya usa una reducción de playbackRate en el cliente cuando falta, mismo comportamiento que el resto del catálogo.'
   );
 }
 
@@ -126,9 +192,12 @@ async function main() {
   const rows = buildReport();
   if (!CONFIRM) {
     printReport(rows);
+    console.log(
+      `\nAlcance real de --confirm: solo la unidad piloto aprobada ("${PILOT_UNIT_SLUG}"), narrador único (no las 12 unidades ni voces por personaje).`
+    );
     return;
   }
-  await generateAndUpload(rows);
+  await generateAndUpload();
 }
 
 main().catch((error) => {
