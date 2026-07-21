@@ -3358,6 +3358,61 @@ footer small {
   cursor: pointer;
 }
 
+/* Premium hands-free voice conversation toggle - .is-locked (default, no
+   Premium) opens the paywall on click instead of arming the mode; .is-active
+   is only ever added once entitlements.isPremium is actually true (see
+   setTutorConversationMode() in script.js), never on the locked state. */
+.tutor-conversation-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.12);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  color: #334155;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
+}
+
+.tutor-conversation-toggle-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--blue), var(--purple));
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.tutor-conversation-toggle:hover {
+  border-color: rgba(37, 99, 235, 0.45);
+}
+
+.tutor-conversation-toggle.is-active {
+  background: rgba(37, 99, 235, 0.12);
+  border-color: var(--blue);
+  color: #1d4ed8;
+}
+
+.tutor-conversation-toggle.is-active .tutor-conversation-toggle-badge {
+  display: none;
+}
+
+.tutor-conversation-toggle.is-listening {
+  background: rgba(220, 38, 38, 0.1);
+  border-color: #dc2626;
+  color: #b91c1c;
+  animation: tutor-dictate-pulse 1.6s ease-in-out infinite;
+}
+
 /* Shown only when the Traductor/Tutor was opened from a lesson (see
    openTranslator()/openTutorDrawer() context) so the student can get back to
    exactly where they were instead of hunting through the main nav. */
@@ -7715,24 +7770,64 @@ footer small {
   flex-shrink: 0;
 }
 
-.tutor-drawer .tutor-conversation {
+/* Two panels side by side, same pattern as .translator-grid: conversation
+   transcript on the left (gets the extra space), practice controls
+   (text/voice input + send) on the right - instead of everything stacked in
+   one long column. flex:1/min-height:0 lets this grid fill the remaining
+   drawer height so only .tutor-conversation itself scrolls. */
+.tutor-panel-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 1.25rem;
+  flex: 1;
+  min-height: 0;
+}
+
+.tutor-panel-conversation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-height: 0;
+}
+
+.tutor-panel-conversation .tutor-conversation {
   flex: 1;
   min-height: 220px;
   max-height: none;
   overflow-y: auto;
 }
 
-.tutor-drawer .tutor-thinking,
-.tutor-drawer .tutor-input-group,
-.tutor-drawer .tutor-dictate-status,
-.tutor-drawer .tutor-dictate-note,
-.tutor-drawer .tutor-buttons {
+.tutor-panel-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1rem;
+  border-radius: 20px;
+  background: rgba(148, 163, 184, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  overflow-y: auto;
+}
+
+.tutor-panel-controls .tutor-input-group,
+.tutor-panel-controls .tutor-dictate-status,
+.tutor-panel-controls .tutor-dictate-note,
+.tutor-panel-controls .tutor-buttons {
   flex-shrink: 0;
 }
 
-.tutor-drawer .tutor-input {
-  min-height: 100px;
-  max-height: 160px;
+.tutor-panel-controls .tutor-input {
+  flex: 1;
+  min-height: 140px;
+}
+
+.tutor-panel-controls .tutor-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tutor-panel-controls .tutor-clear-btn {
+  align-self: flex-start;
 }
 
 /* Tablet */
@@ -7740,6 +7835,22 @@ footer small {
   .tutor-drawer-panel {
     width: min(92vw, 1200px);
     height: min(90dvh, 900px);
+  }
+}
+
+/* Below this, two side-by-side panels no longer have room to breathe -
+   stack conversation above controls instead (same breakpoint spirit as
+   .translator-grid's own @media (max-width: 780px)). */
+@media (max-width: 860px) {
+  .tutor-panel-grid {
+    grid-template-columns: 1fr;
+    overflow-y: auto;
+  }
+  .tutor-panel-conversation .tutor-conversation {
+    min-height: 180px;
+  }
+  .tutor-panel-controls {
+    overflow-y: visible;
   }
 }
 

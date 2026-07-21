@@ -654,6 +654,14 @@ const PAYWALL_PREMIUM_HIGHLIGHTS = [
   'Certificados y estadísticas completas'
 ];
 
+// authStatus.entitlements is only ever populated from GET /api/dashboard
+// (see saveSession() above) - never derived from localStorage/username, so
+// this is safe to gate real features on (e.g. the Tutor's hands-free
+// conversation mode below), not just cosmetic copy.
+function isPremiumUser() {
+  return Boolean(authStatus.entitlements?.isPremium);
+}
+
 // title/message let a caller override the two spots worded around a usage
 // cap ("Has alcanzado el límite...") for cases that aren't a cap at all -
 // e.g. a Premium-only lesson a Free account just tapped into (see the
@@ -3665,11 +3673,15 @@ function renderTutorVoiceControls(messageEl) {
 
 // Called from the Escuchar/Repetir click handler, and also automatically
 // right after a tutor reply finishes streaming when the "reproducir
-// automáticamente" preference is on (see sendTutorMessage and
-// getTutorAutoplayPref). `auto: true` only changes how a blocked/failed
-// playback is reported - it never skips the fetch or plays without going
-// through the same synthesize call a manual click would.
-async function requestTutorSpeech(messageEl, { auto = false } = {}) {
+// automáticamente" preference is on, or when the Premium hands-free
+// conversation mode is active (see sendTutorMessage and getTutorAutoplayPref).
+// `auto: true` only changes how a blocked/failed playback is reported - it
+// never skips the fetch or plays without going through the same synthesize
+// call a manual click would. `onPlaybackEnd`, when given, always fires
+// exactly once - on a normal end, a blocked/failed playback, or even a
+// missing ttsText - so a caller chaining off it (resumeTutorConversationListening)
+// never waits forever on a turn that never actually produced audio.
+async function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
   const controls = messageEl.querySelector('.tutor-voice-controls');
   const listenBtn = controls?.querySelector('.tutor-voice-listen');
   const stopBtn = controls?.querySelector('.tutor-voice-stop');
@@ -3681,6 +3693,7 @@ async function requestTutorSpeech(messageEl, { auto = false } = {}) {
   const locale = messageEl.dataset.ttsLocale || getPronunciationLocale();
   if (!text) {
     if (auto) console.warn('[Tutor] auto-play skipped: no ttsText on message element yet.');
+    onPlaybackEnd?.();
     return;
   }
 
@@ -3691,6 +3704,7 @@ async function requestTutorSpeech(messageEl, { auto = false } = {}) {
   const onEnd = () => {
     messageEl.classList.remove('is-playing');
     if (currentTutorAudio.messageEl === messageEl) currentTutorAudio = { element: null, messageEl: null };
+    onPlaybackEnd?.();
     resetTutorVoiceButtons(messageEl);
   };
 
@@ -3729,6 +3743,7 @@ async function requestTutorSpeech(messageEl, { auto = false } = {}) {
           used: data.used,
           limit: data.limit
         });
+        onPlaybackEnd?.();
         return;
       }
       throw new Error('synthesize-failed');
@@ -4079,7 +4094,15 @@ function stopTutorDictation() {
   stopDictationRecognizer();
 }
 
-function startTutorDictation(textareaId) {
+// continuous/silenceMs/autoSend back the Premium "Conversar" hands-free mode
+// (see resumeTutorConversationListening/setTutorConversationMode above):
+// continuous keeps the recognizer open instead of stopping after one
+// phrase, silenceMs auto-stops it after that many ms without a new result
+// (i.e. "wait N seconds after the student stops talking"), and autoSend
+// clicks the send button once a real transcript comes back instead of
+// leaving it for the student to review. All three default to the original
+// single-shot manual-dictation behavior when omitted.
+function startTutorDictation(textareaId, { continuous = false, silenceMs = null, autoSend = false } = {}) {
   const textarea = document.getElementById(textareaId);
   const Ctor = getSpeechRecognitionCtor();
   if (!Ctor || !textarea) {
@@ -4105,13 +4128,18 @@ function startTutorDictation(textareaId) {
   const recognition = new Ctor();
   recognition.lang = DICTATION_LANGUAGE_CODES[learningPathState.language] || 'en-US';
   recognition.interimResults = true;
-  recognition.continuous = false;
+  recognition.continuous = continuous;
 
   tutorDictation = { recognition, status: 'listening', textareaId, timeoutId: null };
 
   const baseText = textarea.value.trim();
   let finalTranscript = '';
   let hadError = false;
+  // Only armed once continuous+silenceMs are both set, and only starts
+  // counting once the student has actually said something (first 'result')
+  // - never from the moment the mic opens, so thinking time before speaking
+  // is never mistaken for "finished talking".
+  let silenceTimerId = null;
 
   const micBtn = document.querySelector(`.tutor-dictate-btn[data-dictate-target="${textareaId}"]`);
   const stopBtn = document.querySelector(
@@ -4125,7 +4153,7 @@ function startTutorDictation(textareaId) {
   if (stopBtn) stopBtn.hidden = false;
   const sendBtn = getDictationSendButton(textareaId);
   if (sendBtn) sendBtn.disabled = true;
-  setDictationStatusText(textareaId, 'Escuchando…');
+  setDictationStatusText(textareaId, continuous ? 'Escuchando… habla cuando quieras.' : 'Escuchando…');
 
   recognition.addEventListener('result', (event) => {
     let interim = '';
@@ -4135,6 +4163,11 @@ function startTutorDictation(textareaId) {
       else interim += chunk;
     }
     textarea.value = [baseText, (finalTranscript + interim).trim()].filter(Boolean).join(' ');
+
+    if (continuous && silenceMs) {
+      if (silenceTimerId) window.clearTimeout(silenceTimerId);
+      silenceTimerId = window.setTimeout(() => stopTutorDictation(), silenceMs);
+    }
   });
 
   recognition.addEventListener('error', (event) => {
@@ -4155,6 +4188,7 @@ function startTutorDictation(textareaId) {
   // hadError guards against this handler overwriting a more specific
   // message (e.g. permission denied) with a generic one.
   recognition.addEventListener('end', () => {
+    if (silenceTimerId) window.clearTimeout(silenceTimerId);
     const hadFinalText = Boolean(finalTranscript.trim());
     if (hadFinalText) {
       const polished = normalizeSpeechTranscript(finalTranscript.trim(), learningPathState.language);
@@ -4162,10 +4196,20 @@ function startTutorDictation(textareaId) {
     }
     tutorDictation = { recognition: null, status: 'idle', textareaId: null, timeoutId: null };
     resetDictationUI(textareaId);
+    if (hadFinalText && autoSend) {
+      setDictationStatusText(textareaId, 'Enviando…');
+      getDictationSendButton(textareaId)?.click();
+      return;
+    }
     if (hadFinalText) {
       setDictationStatusText(textareaId, 'Texto listo. Puedes editarlo antes de enviar.');
     } else if (!hadError && !textarea.value.trim()) {
-      setDictationStatusText(textareaId, 'No se entendió el audio. Intenta de nuevo.');
+      setDictationStatusText(
+        textareaId,
+        continuous && tutorConversationMode
+          ? 'No se detectó voz. Pulsa "Hablar" cuando quieras continuar.'
+          : 'No se entendió el audio. Intenta de nuevo.'
+      );
     }
     textarea.focus();
   });
@@ -8635,10 +8679,72 @@ function tutorDrawerFocusTrapHandler(event) {
   }
 }
 
+// ---------------------------------------------------------------------
+// Tutor hands-free voice conversation mode (Premium-only): arms the
+// drawer's mic button to listen continuously, auto-send 2s after the
+// student stops talking (see startTutorDictation's continuous/silenceMs
+// options below), and automatically resume listening once the tutor's
+// spoken reply finishes (see resumeTutorConversationListening, wired from
+// sendTutorMessage/requestTutorSpeech). Off by default every time the
+// drawer opens - never persisted, so a shared/public device never keeps a
+// mic "armed" across sessions.
+// ---------------------------------------------------------------------
+let tutorConversationMode = false;
+
+function updateTutorConversationToggleUI() {
+  const toggle = document.getElementById('tutorConversationToggle');
+  if (!toggle) return;
+  const premium = isPremiumUser();
+  toggle.classList.toggle('is-active', premium && tutorConversationMode);
+  toggle.setAttribute('aria-pressed', String(premium && tutorConversationMode));
+  toggle.title = premium
+    ? 'Conversar por voz: hablas y el Tutor responde automáticamente.'
+    : 'Conversar por voz es una función Premium.';
+  const badge = toggle.querySelector('.tutor-conversation-toggle-badge');
+  if (badge) badge.hidden = premium;
+}
+
+function setTutorConversationMode(enabled) {
+  tutorConversationMode = enabled;
+  if (!enabled) stopTutorDictation();
+  updateTutorConversationToggleUI();
+  const note = document.getElementById('tutorDrawerDictateNote');
+  if (note) {
+    note.textContent = enabled
+      ? 'Modo conversación activo: habla y el Tutor te responderá en voz automáticamente. Pulsa "Hablar" para empezar.'
+      : 'Tu voz se convierte en texto y no se conserva.';
+  }
+}
+
+function handleTutorConversationToggleClick() {
+  if (!isPremiumUser()) {
+    openPaywallModal({
+      title: 'Conversar por voz es Premium',
+      message:
+        'Habla con el Tutor IA y escucha sus respuestas automáticamente, sin escribir. Desbloquea ANDERGO Premium para conversar sin límites.',
+      featureLabel: 'modo conversación'
+    });
+    return;
+  }
+  setTutorConversationMode(!tutorConversationMode);
+}
+
+// Restarts listening once the tutor's spoken reply has finished playing (or
+// immediately if there was nothing to play) - only while conversation mode
+// is still armed and the drawer is still open, so closing the drawer or
+// turning the mode off mid-reply never leaves a stray recognizer running.
+function resumeTutorConversationListening() {
+  if (!tutorConversationMode) return;
+  const drawer = document.getElementById('tutorDrawer');
+  if (!drawer || !drawer.classList.contains('open')) return;
+  startTutorDictation('tutorDrawerPrompt', { continuous: true, silenceMs: 2000, autoSend: true });
+}
+
 function openTutorDrawer(overrides = {}) {
   const drawer = document.getElementById('tutorDrawer');
   if (!drawer) return;
   stopTutorDictation();
+  setTutorConversationMode(false);
   tutorDrawerContext = { ...tutorDrawerContext, ...overrides };
   tutorDrawerReturnFocus = document.activeElement;
 
@@ -8657,6 +8763,7 @@ function openTutorDrawer(overrides = {}) {
 
   const autoplayToggle = document.getElementById('tutorAutoplayToggle');
   if (autoplayToggle) autoplayToggle.checked = getTutorAutoplayPref();
+  updateTutorConversationToggleUI();
 
   const prompt = document.getElementById('tutorDrawerPrompt');
   if (prompt) prompt.value = overrides.prefill || '';
@@ -8667,6 +8774,7 @@ function openTutorDrawer(overrides = {}) {
 function closeTutorDrawer() {
   const drawer = document.getElementById('tutorDrawer');
   if (!drawer || !drawer.classList.contains('open')) return;
+  setTutorConversationMode(false);
   stopTutorDictation();
   stopAllTutorAudio();
   drawer.classList.remove('open');
@@ -8860,8 +8968,23 @@ async function sendTutorMessage({
     // (§3 of the Tutor voice spec) without delaying sendTutorMessage's own
     // return or re-enabling of sendBtn below. requestTutorSpeech's own
     // NotAllowedError handling covers a browser blocking this autoplay.
-    if (messageEl && getTutorAutoplayPref() && messageEl.querySelector('.tutor-voice-controls')) {
-      requestTutorSpeech(messageEl, { auto: true });
+    // The Premium hands-free conversation mode (drawer only) always speaks
+    // the reply regardless of the general autoplay preference - "conversar"
+    // wouldn't be hands-free otherwise - and resumes listening once that
+    // reply finishes playing (resumeTutorConversationListening).
+    const isDrawerConversation = conversationEl?.id === 'tutorDrawerConversation';
+    const shouldForceSpeech = isDrawerConversation && tutorConversationMode;
+    if (messageEl && (getTutorAutoplayPref() || shouldForceSpeech) && messageEl.querySelector('.tutor-voice-controls')) {
+      requestTutorSpeech(messageEl, {
+        auto: true,
+        onPlaybackEnd: shouldForceSpeech ? resumeTutorConversationListening : undefined
+      });
+    } else if (shouldForceSpeech) {
+      // No voice controls on this browser (speechSynthesis unsupported) or
+      // no messageEl at all - nothing will ever call onPlaybackEnd, so
+      // resume listening directly instead of leaving the loop stuck
+      // waiting on audio that will never play.
+      resumeTutorConversationListening();
     }
 
     return { reply: fullText };
@@ -9603,7 +9726,15 @@ function enableHomepageActions() {
 
     const dictateBtn = event.target.closest('.tutor-dictate-btn');
     if (dictateBtn) {
-      startTutorDictation(dictateBtn.dataset.dictateTarget);
+      const target = dictateBtn.dataset.dictateTarget;
+      // Only the drawer's own textarea (tutorDrawerPrompt) can be in
+      // Premium conversation mode - the in-page #tutor variant always uses
+      // plain single-shot dictation, same as before.
+      if (target === 'tutorDrawerPrompt' && tutorConversationMode) {
+        startTutorDictation(target, { continuous: true, silenceMs: 2000, autoSend: true });
+      } else {
+        startTutorDictation(target);
+      }
       return;
     }
     const dictateStopBtn = event.target.closest('.tutor-dictate-stop-btn');
@@ -10684,6 +10815,10 @@ function enableHomepageActions() {
       setTutorAutoplayPref(autoplayToggle.checked);
     });
   }
+
+  document.getElementById('tutorConversationToggle')?.addEventListener('click', () => {
+    handleTutorConversationToggleClick();
+  });
 }
 
 function setupLearningPathControls() {

@@ -1768,6 +1768,15 @@
       >
         <div class="tutor-drawer-head">
           <h2 id="tutorDrawerTitle">Tutor IA ANDERGO</h2>
+          <button
+            type="button"
+            class="tutor-conversation-toggle"
+            id="tutorConversationToggle"
+            aria-pressed="false"
+            title="Conversar por voz (Premium)"
+          >
+            🎧 Conversar <span class="tutor-conversation-toggle-badge">Premium</span>
+          </button>
           <label class="tutor-autoplay-toggle" title="Reproducir respuestas automáticamente">
             <input
               type="checkbox"
@@ -1798,47 +1807,57 @@
             >Comprobando conexión…</span
           >
         </div>
-        <div
-          class="tutor-conversation"
-          id="tutorDrawerConversation"
-          role="log"
-          aria-live="polite"
-          aria-label="Conversación con el tutor IA"
-        >
-          <p class="tutor-welcome">👋 Soy el Tutor IA ANDERGO Academy. Cuéntame qué quieres practicar.</p>
-        </div>
-        <p class="tutor-thinking" id="tutorDrawerThinking" hidden aria-hidden="true">
-          Tutor IA ANDERGO está escribiendo…
-        </p>
-        <label class="tutor-input-group" for="tutorDrawerPrompt">
-          <span>Escribe qué quieres practicar</span>
-          <textarea id="tutorDrawerPrompt" class="tutor-input" rows="3"></textarea>
-        </label>
-        <p class="tutor-dictate-status" id="tutorDrawerPromptDictateStatus" aria-live="polite"></p>
-        <p class="tutor-dictate-note">Tu voz se convierte en texto y no se conserva.</p>
-        <div class="tutor-buttons">
-          <button
-            type="button"
-            class="tutor-dictate-btn"
-            data-dictate-target="tutorDrawerPrompt"
-            aria-label="Hablar con el Tutor"
-            aria-pressed="false"
-          >
-            🎙 Hablar
-          </button>
-          <button
-            type="button"
-            class="tutor-dictate-stop-btn"
-            data-dictate-target="tutorDrawerPrompt"
-            aria-label="Detener dictado"
-            hidden
-          >
-            ⏹ Detener
-          </button>
-          <button type="button" class="primary-btn" id="tutorDrawerSend">Enviar</button>
-          <button type="button" class="tutor-clear-btn" id="tutorDrawerClear">
-            Limpiar conversación
-          </button>
+
+        <div class="tutor-panel-grid">
+          <div class="tutor-panel-conversation">
+            <div
+              class="tutor-conversation"
+              id="tutorDrawerConversation"
+              role="log"
+              aria-live="polite"
+              aria-label="Conversación con el tutor IA"
+            >
+              <p class="tutor-welcome">👋 Soy el Tutor IA ANDERGO Academy. Cuéntame qué quieres practicar.</p>
+            </div>
+            <p class="tutor-thinking" id="tutorDrawerThinking" hidden aria-hidden="true">
+              Tutor IA ANDERGO está escribiendo…
+            </p>
+          </div>
+
+          <div class="tutor-panel-controls">
+            <label class="tutor-input-group" for="tutorDrawerPrompt">
+              <span>Escribe qué quieres practicar</span>
+              <textarea id="tutorDrawerPrompt" class="tutor-input" rows="4"></textarea>
+            </label>
+            <p class="tutor-dictate-status" id="tutorDrawerPromptDictateStatus" aria-live="polite"></p>
+            <p class="tutor-dictate-note" id="tutorDrawerDictateNote">
+              Tu voz se convierte en texto y no se conserva.
+            </p>
+            <div class="tutor-buttons">
+              <button
+                type="button"
+                class="tutor-dictate-btn"
+                data-dictate-target="tutorDrawerPrompt"
+                aria-label="Hablar con el Tutor"
+                aria-pressed="false"
+              >
+                🎙 Hablar
+              </button>
+              <button
+                type="button"
+                class="tutor-dictate-stop-btn"
+                data-dictate-target="tutorDrawerPrompt"
+                aria-label="Detener dictado"
+                hidden
+              >
+                ⏹ Detener
+              </button>
+              <button type="button" class="primary-btn" id="tutorDrawerSend">Enviar</button>
+            </div>
+            <button type="button" class="tutor-clear-btn" id="tutorDrawerClear">
+              Limpiar conversación
+            </button>
+          </div>
         </div>
       </div>
     </div>
