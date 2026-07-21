@@ -480,122 +480,6 @@
   window.ANDERGO_LANGUAGE_WORLDS.lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons || {};
   window.ANDERGO_LANGUAGE_WORLDS.lessons.english = [
   {
-    "slug": "english-a2-everyday-life-reading",
-    "level": "A2",
-    "skill": "reading",
-    "unitId": "everyday-life",
-    "title": "A Busy Week in Manchester",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 10,
-    "estimatedMinutes": 15,
-    "description": "Sarah's normal weekly routine changes when her sister comes to visit - a single full-length A2 reading about everyday life, habits, and one memorable weekend.",
-    "intro": "Sarah's normal weekly routine changes when her sister comes to visit - a single full-length A2 reading about everyday life, habits, and one memorable weekend.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "A Busy Week in Manchester",
-      "illustration": {
-        "src": "/assets/readings/english/a2/unit-01-busy-week.webp",
-        "alt": "Sarah checking her weekly schedule at her desk in Manchester",
-        "animation": "subtle-float"
-      },
-      "text": "Sarah lives in Manchester and works at a small design company in the city center. Every week looks almost the same for her, but this week is a little different, because her sister Lucy is visiting from Leeds.\n\nOn Monday, Sarah wakes up at half past six, just like every day. She has a quick breakfast, checks her emails, and takes the bus to work at eight o'clock. She usually finishes work at five and goes straight home. But this Monday, she picks Lucy up from the train station at six, so she leaves work a little early.\n\nOn Tuesday and Wednesday, Sarah follows her normal routine. She goes to the gym after work on Tuesday, and on Wednesday she meets her friend Amy for dinner. Lucy stays at the apartment and explores the city on her own. She visits the market and buys some fruit and cheese for later.\n\nThursday is different, because Sarah is working from home today. She and Lucy have breakfast together and talk about their plans for the weekend. In the afternoon, Sarah has three online meetings, so Lucy reads a book in the living room and waits patiently.\n\nOn Friday evening, everything changes. Sarah finishes work early, and the two sisters take the train to the countryside. They stay at a small hotel near a lake. First, they walk around the lake and take photos. Then, they have dinner at a small restaurant that Lucy found online. The food is delicious, and they talk for hours about their family and their childhood.\n\nOn Saturday, they wake up late because they are tired from the trip. They have a big breakfast at the hotel, and after that, they go for a long walk in the hills. The weather is sunny, so they decide to have a picnic near the lake. It is a perfect afternoon.\n\nOn Sunday, they take the train back to Manchester. Sarah feels happy but a little sad, because Lucy is leaving on Monday morning. \"This was a great week,\" Lucy says at the station. \"Yes, it was,\" Sarah answers, \"but next time, you have to visit for longer!\"\n\nSarah's normal week is usually busy and predictable, but this week she had a wonderful surprise. She learned that a small change in her routine can make a big difference.",
-      "questions": [
-        "¿Qué parte de la rutina de Sarah se parece más a la tuya?",
-        "Escribe dos frases sobre un cambio inesperado que hizo especial a una semana normal para ti."
-      ]
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "What is the reading mainly about?",
-        "options": [
-          "A business trip to Leeds",
-          "A normal week that becomes special because of a visit",
-          "A new job in Manchester",
-          "A problem at the design company"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Sarah usually do right after breakfast on a normal day?",
-        "options": [
-          "She goes to the gym",
-          "She checks her emails",
-          "She meets Amy for dinner",
-          "She takes the train to the countryside"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does Sarah leave work early on Monday?",
-        "options": [
-          "She feels sick",
-          "She has an online meeting",
-          "She has to pick Lucy up from the station",
-          "The office closes early"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "In the sentence \"she goes straight home,\" what does straight mean here?",
-        "options": [
-          "Slowly",
-          "Directly, without stopping",
-          "By bus",
-          "Late"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "In \"The food is delicious, and they talk for hours,\" who does they refer to?",
-        "options": [
-          "Sarah and Amy",
-          "Sarah and her boss",
-          "Sarah and Lucy",
-          "The waiter and Sarah"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why do Sarah and Lucy wake up late on Saturday?",
-        "options": [
-          "They have no plans",
-          "They are tired from the trip",
-          "The hotel is very noisy",
-          "It is raining outside"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What can you infer about how Sarah feels about the week with Lucy?",
-        "options": [
-          "She found it boring",
-          "She was happy but is sad it is ending",
-          "She wanted to work instead",
-          "She did not enjoy the countryside"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Sarah mean when she says, \"next time, you have to visit for longer\"?",
-        "options": [
-          "She wants Lucy to leave sooner next time",
-          "She enjoyed the visit and wants a longer one next time",
-          "She thinks the trip was too long",
-          "She is asking Lucy to move to Manchester"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "english-a1-hello-reading",
     "level": "A1",
     "skill": "reading",
@@ -715,6 +599,212 @@
           "friendly",
           "sad",
           "tired"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a2-everyday-life-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "everyday-life",
+    "title": "A Busy Week in Manchester",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 10,
+    "estimatedMinutes": 15,
+    "description": "Sarah's normal weekly routine changes when her sister comes to visit - a single full-length A2 reading about everyday life, habits, and one memorable weekend.",
+    "intro": "Sarah's normal weekly routine changes when her sister comes to visit - a single full-length A2 reading about everyday life, habits, and one memorable weekend.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "A Busy Week in Manchester",
+      "illustration": {
+        "src": "/assets/readings/english/a2/unit-01-busy-week.webp",
+        "alt": "Sarah checking her weekly schedule at her desk in Manchester",
+        "animation": "subtle-float"
+      },
+      "text": "Sarah lives in Manchester and works at a small design company in the city center. Every week looks almost the same for her, but this week is a little different, because her sister Lucy is visiting from Leeds.\n\nOn Monday, Sarah wakes up at half past six, just like every day. She has a quick breakfast, checks her emails, and takes the bus to work at eight o'clock. She usually finishes work at five and goes straight home. But this Monday, she picks Lucy up from the train station at six, so she leaves work a little early.\n\nOn Tuesday and Wednesday, Sarah follows her normal routine. She goes to the gym after work on Tuesday, and on Wednesday she meets her friend Amy for dinner. Lucy stays at the apartment and explores the city on her own. She visits the market and buys some fruit and cheese for later.\n\nThursday is different, because Sarah is working from home today. She and Lucy have breakfast together and talk about their plans for the weekend. In the afternoon, Sarah has three online meetings, so Lucy reads a book in the living room and waits patiently.\n\nOn Friday evening, everything changes. Sarah finishes work early, and the two sisters take the train to the countryside. They stay at a small hotel near a lake. First, they walk around the lake and take photos. Then, they have dinner at a small restaurant that Lucy found online. The food is delicious, and they talk for hours about their family and their childhood.\n\nOn Saturday, they wake up late because they are tired from the trip. They have a big breakfast at the hotel, and after that, they go for a long walk in the hills. The weather is sunny, so they decide to have a picnic near the lake. It is a perfect afternoon.\n\nOn Sunday, they take the train back to Manchester. Sarah feels happy but a little sad, because Lucy is leaving on Monday morning. \"This was a great week,\" Lucy says at the station. \"Yes, it was,\" Sarah answers, \"but next time, you have to visit for longer!\"\n\nSarah's normal week is usually busy and predictable, but this week she had a wonderful surprise. She learned that a small change in her routine can make a big difference.",
+      "questions": [
+        "¿Qué parte de la rutina de Sarah se parece más a la tuya?",
+        "Escribe dos frases sobre un cambio inesperado que hizo especial a una semana normal para ti."
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is the reading mainly about?",
+        "options": [
+          "A business trip to Leeds",
+          "A normal week that becomes special because of a visit",
+          "A new job in Manchester",
+          "A problem at the design company"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does Sarah usually do right after breakfast on a normal day?",
+        "options": [
+          "She goes to the gym",
+          "She checks her emails",
+          "She meets Amy for dinner",
+          "She takes the train to the countryside"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does Sarah leave work early on Monday?",
+        "options": [
+          "She feels sick",
+          "She has an online meeting",
+          "She has to pick Lucy up from the station",
+          "The office closes early"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "In the sentence \"she goes straight home,\" what does straight mean here?",
+        "options": [
+          "Slowly",
+          "Directly, without stopping",
+          "By bus",
+          "Late"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "In \"The food is delicious, and they talk for hours,\" who does they refer to?",
+        "options": [
+          "Sarah and Amy",
+          "Sarah and her boss",
+          "Sarah and Lucy",
+          "The waiter and Sarah"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why do Sarah and Lucy wake up late on Saturday?",
+        "options": [
+          "They have no plans",
+          "They are tired from the trip",
+          "The hotel is very noisy",
+          "It is raining outside"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What can you infer about how Sarah feels about the week with Lucy?",
+        "options": [
+          "She found it boring",
+          "She was happy but is sad it is ending",
+          "She wanted to work instead",
+          "She did not enjoy the countryside"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does Sarah mean when she says, \"next time, you have to visit for longer\"?",
+        "options": [
+          "She wants Lucy to leave sooner next time",
+          "She enjoyed the visit and wants a longer one next time",
+          "She thinks the trip was too long",
+          "She is asking Lucy to move to Manchester"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-hello-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "hello",
+    "title": "Nice to Meet You",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 11,
+    "estimatedMinutes": 10,
+    "description": "Listen to two students meeting for the first time.",
+    "intro": "Listen to Ana and Leo meeting on the first day of class. Focus on how they say hello and introduce themselves.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "What's your name?",
+      "Nice to meet you.",
+      "How are you?",
+      "See you later!"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Ana",
+        "line": "Hello! My name is Ana. What's your name?",
+        "translation": "Hola, me llamo Ana. ¿Cómo te llamas?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
+        "translation": "Hola, Ana. Soy Leo. Mucho gusto."
+      },
+      {
+        "speaker": "Ana",
+        "line": "Nice to meet you too. How are you?",
+        "translation": "Igualmente. ¿Cómo estás?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "I'm fine, thanks. And you?",
+        "translation": "Estoy bien, gracias. ¿Y tú?"
+      },
+      {
+        "speaker": "Ana",
+        "line": "Good morning! I mean... I'm fine too!",
+        "translation": "¡Buenos días! Digo... ¡yo también estoy bien!"
+      },
+      {
+        "speaker": "Leo",
+        "line": "See you later, Ana!",
+        "translation": "¡Hasta luego, Ana!"
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does Leo say when he meets Ana?",
+        "options": [
+          "Goodbye",
+          "Nice to meet you",
+          "What time is it?",
+          "I am hungry"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How does Ana say goodbye at the end?",
+        "options": [
+          "Good morning",
+          "Hello",
+          "See you later",
+          "Thank you"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does Leo answer to \"How are you?\"",
+        "options": [
+          "I'm Leo",
+          "I'm fine, thanks",
+          "Nice to meet you",
+          "What's your name?"
         ]
       }
     ]
@@ -881,57 +971,48 @@
     ]
   },
   {
-    "slug": "english-a1-hello-listening",
+    "slug": "english-a1-hello-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "hello",
-    "title": "Nice to Meet You",
+    "title": "Say Hello",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 11,
-    "estimatedMinutes": 10,
-    "description": "Listen to two students meeting for the first time.",
-    "intro": "Listen to Ana and Leo meeting on the first day of class. Focus on how they say hello and introduce themselves.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 12,
+    "estimatedMinutes": 8,
+    "description": "Practice greeting someone and introducing yourself out loud.",
+    "intro": "Practice greeting someone and introducing yourself out loud.",
+    "mission": "Say hello to a partner, introduce yourself with your name, and ask how they are.",
     "grammar": "",
     "phrases": [
-      "What's your name?",
+      "Hello! / Hi!",
+      "My name is...",
       "Nice to meet you.",
       "How are you?",
-      "See you later!"
+      "I'm fine, thank you."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Ana",
-        "line": "Hello! My name is Ana. What's your name?",
-        "translation": "Hola, me llamo Ana. ¿Cómo te llamas?"
+        "speaker": "You",
+        "line": "Hello! My name is...",
+        "translation": "Hola, me llamo..."
       },
       {
-        "speaker": "Leo",
-        "line": "Hi, Ana! I'm Leo. Nice to meet you.",
-        "translation": "Hola, Ana. Soy Leo. Mucho gusto."
+        "speaker": "Partner",
+        "line": "Hi! I'm... Nice to meet you.",
+        "translation": "Hola, soy... Mucho gusto."
       },
       {
-        "speaker": "Ana",
+        "speaker": "You",
         "line": "Nice to meet you too. How are you?",
         "translation": "Igualmente. ¿Cómo estás?"
       },
       {
-        "speaker": "Leo",
-        "line": "I'm fine, thanks. And you?",
+        "speaker": "Partner",
+        "line": "I'm fine, thank you. And you?",
         "translation": "Estoy bien, gracias. ¿Y tú?"
-      },
-      {
-        "speaker": "Ana",
-        "line": "Good morning! I mean... I'm fine too!",
-        "translation": "¡Buenos días! Digo... ¡yo también estoy bien!"
-      },
-      {
-        "speaker": "Leo",
-        "line": "See you later, Ana!",
-        "translation": "¡Hasta luego, Ana!"
       }
     ],
     "reading": null,
@@ -939,34 +1020,12 @@
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "What does Leo say when he meets Ana?",
-        "options": [
-          "Goodbye",
-          "Nice to meet you",
-          "What time is it?",
-          "I am hungry"
-        ]
+        "type": "speaking",
+        "prompt": "Say out loud: \"Hello, my name is...\" and finish the sentence with your own name."
       },
       {
-        "type": "mcq",
-        "prompt": "How does Ana say goodbye at the end?",
-        "options": [
-          "Good morning",
-          "Hello",
-          "See you later",
-          "Thank you"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Leo answer to \"How are you?\"",
-        "options": [
-          "I'm Leo",
-          "I'm fine, thanks",
-          "Nice to meet you",
-          "What's your name?"
-        ]
+        "type": "practice",
+        "prompt": "Practice the greeting dialogue with a partner, then switch roles."
       }
     ]
   },
@@ -1033,48 +1092,31 @@
     ]
   },
   {
-    "slug": "english-a1-hello-speaking",
+    "slug": "english-a1-hello-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "hello",
-    "title": "Say Hello",
+    "title": "Write Your Introduction",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 12,
-    "estimatedMinutes": 8,
-    "description": "Practice greeting someone and introducing yourself out loud.",
-    "intro": "Practice greeting someone and introducing yourself out loud.",
-    "mission": "Say hello to a partner, introduce yourself with your name, and ask how they are.",
+    "xpReward": 25,
+    "orderIndex": 13,
+    "estimatedMinutes": 12,
+    "description": "Write three simple sentences introducing yourself.",
+    "intro": "Write three simple sentences introducing yourself.",
+    "mission": "Write 3 sentences: your name, how you are today, and one thing you say hello with (e.g. a friend's name).",
     "grammar": "",
     "phrases": [
-      "Hello! / Hi!",
       "My name is...",
-      "Nice to meet you.",
-      "How are you?",
-      "I'm fine, thank you."
+      "I am fine.",
+      "Hello,...!"
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "You",
-        "line": "Hello! My name is...",
-        "translation": "Hola, me llamo..."
-      },
-      {
-        "speaker": "Partner",
-        "line": "Hi! I'm... Nice to meet you.",
-        "translation": "Hola, soy... Mucho gusto."
-      },
-      {
-        "speaker": "You",
-        "line": "Nice to meet you too. How are you?",
-        "translation": "Igualmente. ¿Cómo estás?"
-      },
-      {
-        "speaker": "Partner",
-        "line": "I'm fine, thank you. And you?",
-        "translation": "Estoy bien, gracias. ¿Y tú?"
+        "speaker": "Model",
+        "line": "My name is Ana. I am fine today. Hello, Leo!",
+        "translation": "Me llamo Ana. Estoy bien hoy. ¡Hola, Leo!"
       }
     ],
     "reading": null,
@@ -1082,12 +1124,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Say out loud: \"Hello, my name is...\" and finish the sentence with your own name."
-      },
-      {
-        "type": "practice",
-        "prompt": "Practice the greeting dialogue with a partner, then switch roles."
+        "type": "writing",
+        "prompt": "Write 3 short sentences to introduce yourself, using \"My name is...\", \"I am...\", and \"Hello, ...!\""
       }
     ]
   },
@@ -1128,409 +1166,6 @@
       {
         "type": "writing",
         "prompt": "Write 80-130 words in two short paragraphs: (1) your normal daily routine using the Present Simple, and (2) one special day, using sequence connectors (first, then, after that, finally)."
-      }
-    ]
-  },
-  {
-    "slug": "english-a1-hello-writing",
-    "level": "A1",
-    "skill": "writing",
-    "unitId": "hello",
-    "title": "Write Your Introduction",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 13,
-    "estimatedMinutes": 12,
-    "description": "Write three simple sentences introducing yourself.",
-    "intro": "Write three simple sentences introducing yourself.",
-    "mission": "Write 3 sentences: your name, how you are today, and one thing you say hello with (e.g. a friend's name).",
-    "grammar": "",
-    "phrases": [
-      "My name is...",
-      "I am fine.",
-      "Hello,...!"
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Model",
-        "line": "My name is Ana. I am fine today. Hello, Leo!",
-        "translation": "Me llamo Ana. Estoy bien hoy. ¡Hola, Leo!"
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Write 3 short sentences to introduce yourself, using \"My name is...\", \"I am...\", and \"Hello, ...!\""
-      }
-    ]
-  },
-  {
-    "slug": "english-a2-everyday-life-grammar",
-    "level": "A2",
-    "skill": "grammar",
-    "unitId": "everyday-life",
-    "title": "Present Simple vs. Present Continuous",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 14,
-    "estimatedMinutes": 12,
-    "description": "Choose between routines/facts and actions happening right now.",
-    "intro": "Choose between routines/facts and actions happening right now.",
-    "mission": "",
-    "grammar": "Use the Present Simple for routines, habits, and things that are always true, like \"I go to work by bus\" or \"She lives in Manchester.\" Use the Present Continuous for actions happening right now, at this exact moment, like \"I am writing an email\" or \"They are waiting for the bus.\"\n\nA common mistake is using the Present Continuous for permanent routines: say \"I go to the gym on Tuesdays,\" not \"I am going to the gym on Tuesdays\" as a habit. Time words like every day, usually, and on Saturdays signal the Present Simple; now, right now, and at the moment signal the Present Continuous.\n\nApoyo: usa el Present Simple para rutinas y hechos generales; usa el Present Continuous para acciones que ocurren en este momento.",
-    "phrases": [
-      "I usually... / She always...",
-      "Right now, I am... / Look! It is...",
-      "every day / on Saturdays / usually",
-      "now / right now / at the moment"
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-a2-everyday-life-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "My brother ___ football every Saturday.",
-            "options": [
-              {
-                "id": "o1",
-                "text": "play"
-              },
-              {
-                "id": "o2",
-                "text": "plays"
-              },
-              {
-                "id": "o3",
-                "text": "is playing"
-              },
-              {
-                "id": "o4",
-                "text": "playing"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Look! It ___ outside right now.",
-            "options": [
-              {
-                "id": "o1",
-                "text": "rains"
-              },
-              {
-                "id": "o2",
-                "text": "rain"
-              },
-              {
-                "id": "o3",
-                "text": "is raining"
-              },
-              {
-                "id": "o4",
-                "text": "raining"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "I usually ___ to work by bus.",
-            "options": [
-              {
-                "id": "o1",
-                "text": "go"
-              },
-              {
-                "id": "o2",
-                "text": "goes"
-              },
-              {
-                "id": "o3",
-                "text": "am going"
-              },
-              {
-                "id": "o4",
-                "text": "going"
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "She ___ a shower at the moment.",
-            "options": [
-              {
-                "id": "o1",
-                "text": "takes"
-              },
-              {
-                "id": "o2",
-                "text": "take"
-              },
-              {
-                "id": "o3",
-                "text": "is taking"
-              },
-              {
-                "id": "o4",
-                "text": "taking"
-              }
-            ]
-          },
-          {
-            "id": "q5",
-            "type": "mcq",
-            "prompt": "He never ___ breakfast before school.",
-            "options": [
-              {
-                "id": "o1",
-                "text": "eat"
-              },
-              {
-                "id": "o2",
-                "text": "eats"
-              },
-              {
-                "id": "o3",
-                "text": "is eating"
-              },
-              {
-                "id": "o4",
-                "text": "eating"
-              }
-            ]
-          },
-          {
-            "id": "q6",
-            "type": "mcq",
-            "prompt": "At the moment, the children ___ in the garden.",
-            "options": [
-              {
-                "id": "o1",
-                "text": "play"
-              },
-              {
-                "id": "o2",
-                "text": "plays"
-              },
-              {
-                "id": "o3",
-                "text": "is playing"
-              },
-              {
-                "id": "o4",
-                "text": "are playing"
-              }
-            ]
-          },
-          {
-            "id": "q7",
-            "type": "fill_blank",
-            "prompt": "My parents ___ (live) in a small house near the park."
-          },
-          {
-            "id": "q8",
-            "type": "fill_blank",
-            "prompt": "Sara ___ (do) her homework every day after school."
-          },
-          {
-            "id": "q9",
-            "type": "fill_blank",
-            "prompt": "Right now, they ___ (wait) for the bus."
-          },
-          {
-            "id": "q10",
-            "type": "fill_blank",
-            "prompt": "Be quiet, please! I ___ (talk) on the phone."
-          },
-          {
-            "id": "q11",
-            "type": "ordering",
-            "prompt": "Put the words in the right order.",
-            "items": [
-              {
-                "id": "w1",
-                "text": "The"
-              },
-              {
-                "id": "w2",
-                "text": "baby"
-              },
-              {
-                "id": "w3",
-                "text": "is"
-              },
-              {
-                "id": "w4",
-                "text": "crying"
-              }
-            ]
-          },
-          {
-            "id": "q12",
-            "type": "ordering",
-            "prompt": "Put the words in the right order.",
-            "items": [
-              {
-                "id": "w1",
-                "text": "We"
-              },
-              {
-                "id": "w2",
-                "text": "have"
-              },
-              {
-                "id": "w3",
-                "text": "dinner"
-              },
-              {
-                "id": "w4",
-                "text": "every"
-              },
-              {
-                "id": "w5",
-                "text": "evening"
-              }
-            ]
-          }
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "My brother ___ football every Saturday.",
-        "options": [
-          "play",
-          "plays",
-          "is playing",
-          "playing"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Look! It ___ outside right now.",
-        "options": [
-          "rains",
-          "rain",
-          "is raining",
-          "raining"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I usually ___ to work by bus.",
-        "options": [
-          "go",
-          "goes",
-          "am going",
-          "going"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "She ___ a shower at the moment.",
-        "options": [
-          "takes",
-          "take",
-          "is taking",
-          "taking"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ dinner together every evening.",
-        "options": [
-          "have",
-          "has",
-          "are having",
-          "having"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Listen! The baby ___.",
-        "options": [
-          "cries",
-          "cry",
-          "is crying",
-          "crying"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "He never ___ breakfast before school.",
-        "options": [
-          "eat",
-          "eats",
-          "is eating",
-          "eating"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Right now, they ___ for the bus.",
-        "options": [
-          "wait",
-          "waits",
-          "are waiting",
-          "waiting"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "My parents ___ in a small house near the park.",
-        "options": [
-          "live",
-          "lives",
-          "are living",
-          "living"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Be quiet, please! I ___ on the phone.",
-        "options": [
-          "talk",
-          "talks",
-          "am talking",
-          "talking"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Sara ___ her homework every day after school.",
-        "options": [
-          "do",
-          "does",
-          "is doing",
-          "doing"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "At the moment, the children ___ in the garden.",
-        "options": [
-          "play",
-          "plays",
-          "is playing",
-          "are playing"
-        ]
       }
     ]
   },
@@ -1901,6 +1536,546 @@
     ]
   },
   {
+    "slug": "english-a2-everyday-life-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "everyday-life",
+    "title": "Present Simple vs. Present Continuous",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 14,
+    "estimatedMinutes": 12,
+    "description": "Choose between routines/facts and actions happening right now.",
+    "intro": "Choose between routines/facts and actions happening right now.",
+    "mission": "",
+    "grammar": "Goal: choose correctly between the Present Simple (routines/facts) and the Present Continuous (actions happening right now).\n\nRule: use the Present Simple for routines, habits, and things that are always true, like \"I go to work by bus\" or \"She lives in Manchester.\" Use the Present Continuous for actions happening right now, at this exact moment, like \"I am writing an email\" or \"They are waiting for the bus.\"\n\nPattern: Present Simple → I/you/we/they + base verb; he/she/it + verb-s. Present Continuous → subject + am/is/are + verb-ing.\n\nExamples:\n1. My brother plays football every Saturday.\n2. Look! It is raining outside right now.\n3. I usually go to work by bus.\n4. She is taking a shower at the moment.\n5. We have dinner together every evening.\n6. Listen! The baby is crying.\n7. He never eats breakfast before school.\n8. Right now, they are waiting for the bus.\n\nAffirmative: subject + base verb(+s) for routines; subject + am/is/are + verb-ing for now. Example: \"She lives in Manchester.\" / \"She is living with her sister this month\" (temporary).\n\nNegative: don't/doesn't + base verb for routines; am/is/are + not + verb-ing for now. Example: \"He doesn't eat breakfast.\" \"They aren't waiting anymore.\"\n\nQuestions: Do/Does + subject + base verb...? for routines; Am/Is/Are + subject + verb-ing...? for now. Example: \"Does she live near here?\" \"Is it raining?\"\n\nContractions: don't = do not, doesn't = does not, isn't = is not, aren't = are not, I'm = I am.\n\nCommon mistakes: a common mistake is using the Present Continuous for permanent routines: say \"I go to the gym on Tuesdays,\" not \"I am going to the gym on Tuesdays\" as a habit. Time words like every day, usually, and on Saturdays signal the Present Simple; now, right now, and at the moment signal the Present Continuous.\n\nCompare: \"I play tennis\" (a general fact/hobby) vs \"I am playing tennis\" (happening at this moment, maybe temporary); stative verbs like know, like, want, need are rarely used in the continuous form: say \"I know the answer,\" not \"I am knowing the answer.\"\n\nMini practice: choose the right form. \"She (work) ___ in a hospital.\" → works. \"Look, she (work) ___ on a new project right now.\" → is working.\n\nSummary: use the Present Simple for routines/facts (with time words like every day, usually, never) and the Present Continuous for actions in progress right now (with now, right now, at the moment, look!, listen!).\n\nApoyo: usa el Present Simple para rutinas y hechos generales; usa el Present Continuous para acciones que ocurren en este momento.",
+    "phrases": [
+      "I usually... / She always...",
+      "Right now, I am... / Look! It is...",
+      "every day / on Saturdays / usually",
+      "now / right now / at the moment"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "english-a2-everyday-life-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "My brother ___ football every Saturday.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o2",
+                "text": "plays"
+              },
+              {
+                "id": "o1",
+                "text": "play"
+              },
+              {
+                "id": "o3",
+                "text": "is playing"
+              },
+              {
+                "id": "o4",
+                "text": "playing"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Look! It ___ outside right now.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "rains"
+              },
+              {
+                "id": "o3",
+                "text": "is raining"
+              },
+              {
+                "id": "o2",
+                "text": "rain"
+              },
+              {
+                "id": "o4",
+                "text": "raining"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "I usually ___ to work by bus.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o2",
+                "text": "goes"
+              },
+              {
+                "id": "o3",
+                "text": "am going"
+              },
+              {
+                "id": "o1",
+                "text": "go"
+              },
+              {
+                "id": "o4",
+                "text": "going"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "She ___ a shower at the moment.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "takes"
+              },
+              {
+                "id": "o2",
+                "text": "take"
+              },
+              {
+                "id": "o4",
+                "text": "taking"
+              },
+              {
+                "id": "o3",
+                "text": "is taking"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "He never ___ breakfast before school.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "eats"
+              },
+              {
+                "id": "o1",
+                "text": "eat"
+              },
+              {
+                "id": "o3",
+                "text": "is eating"
+              },
+              {
+                "id": "o4",
+                "text": "eating"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "At the moment, the children ___ in the garden.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "play"
+              },
+              {
+                "id": "o4",
+                "text": "are playing"
+              },
+              {
+                "id": "o2",
+                "text": "plays"
+              },
+              {
+                "id": "o3",
+                "text": "is playing"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "My parents ___ in a small house near the park.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "lives"
+              },
+              {
+                "id": "o3",
+                "text": "are living"
+              },
+              {
+                "id": "o1",
+                "text": "live"
+              },
+              {
+                "id": "o4",
+                "text": "living"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Sara ___ her homework every day after school.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "do"
+              },
+              {
+                "id": "o3",
+                "text": "is doing"
+              },
+              {
+                "id": "o4",
+                "text": "doing"
+              },
+              {
+                "id": "o2",
+                "text": "does"
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Right now, they ___ for the bus.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "are waiting"
+              },
+              {
+                "id": "o1",
+                "text": "wait"
+              },
+              {
+                "id": "o2",
+                "text": "waits"
+              },
+              {
+                "id": "o4",
+                "text": "waiting"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "Be quiet, please! I ___ on the phone.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "talk"
+              },
+              {
+                "id": "o3",
+                "text": "am talking"
+              },
+              {
+                "id": "o2",
+                "text": "talks"
+              },
+              {
+                "id": "o4",
+                "text": "talking"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Choose the correct sentence.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "The baby cries now."
+              },
+              {
+                "id": "o3",
+                "text": "The baby crying is."
+              },
+              {
+                "id": "o2",
+                "text": "The baby is crying."
+              },
+              {
+                "id": "o4",
+                "text": "Is crying the baby."
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Choose the sentence that describes a daily routine, not something happening now.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "We are having dinner."
+              },
+              {
+                "id": "o2",
+                "text": "Look, we are eating."
+              },
+              {
+                "id": "o4",
+                "text": "We are dinner every evening."
+              },
+              {
+                "id": "o3",
+                "text": "We have dinner every evening."
+              }
+            ]
+          }
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "My brother ___ football every Saturday.",
+        "options": [
+          "play",
+          "plays",
+          "is playing",
+          "playing"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Look! It ___ outside right now.",
+        "options": [
+          "rains",
+          "rain",
+          "is raining",
+          "raining"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I usually ___ to work by bus.",
+        "options": [
+          "go",
+          "goes",
+          "am going",
+          "going"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "She ___ a shower at the moment.",
+        "options": [
+          "takes",
+          "take",
+          "is taking",
+          "taking"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ dinner together every evening.",
+        "options": [
+          "have",
+          "has",
+          "are having",
+          "having"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Listen! The baby ___.",
+        "options": [
+          "cries",
+          "cry",
+          "is crying",
+          "crying"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "He never ___ breakfast before school.",
+        "options": [
+          "eat",
+          "eats",
+          "is eating",
+          "eating"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Right now, they ___ for the bus.",
+        "options": [
+          "wait",
+          "waits",
+          "are waiting",
+          "waiting"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "My parents ___ in a small house near the park.",
+        "options": [
+          "live",
+          "lives",
+          "are living",
+          "living"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Be quiet, please! I ___ on the phone.",
+        "options": [
+          "talk",
+          "talks",
+          "am talking",
+          "talking"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Sara ___ her homework every day after school.",
+        "options": [
+          "do",
+          "does",
+          "is doing",
+          "doing"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "At the moment, the children ___ in the garden.",
+        "options": [
+          "play",
+          "plays",
+          "is playing",
+          "are playing"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-hello-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "hello",
+    "title": "Greeting Words",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 15,
+    "estimatedMinutes": 6,
+    "description": "Key words for saying hello and introducing yourself.",
+    "intro": "Key words for saying hello and introducing yourself.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Hello",
+        "translation": "Hola",
+        "example": "Hello, my name is Ana."
+      },
+      {
+        "word": "Good morning",
+        "translation": "Buenos días",
+        "example": "Good morning, class!"
+      },
+      {
+        "word": "Name",
+        "translation": "Nombre",
+        "example": "My name is Leo."
+      },
+      {
+        "word": "Teacher",
+        "translation": "Profesor/a",
+        "example": "My teacher is Mr. Green."
+      },
+      {
+        "word": "Friend",
+        "translation": "Amigo/a",
+        "example": "Leo is my friend."
+      },
+      {
+        "word": "Nice to meet you",
+        "translation": "Mucho gusto",
+        "example": "Nice to meet you, Ana."
+      },
+      {
+        "word": "Goodbye",
+        "translation": "Adiós",
+        "example": "Goodbye, see you tomorrow."
+      },
+      {
+        "word": "Please",
+        "translation": "Por favor",
+        "example": "Repeat that, please."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Hello\" mean?",
+        "options": [
+          "Hola",
+          "Adiós",
+          "Gracias",
+          "Nombre"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Nice to meet you\" mean?",
+        "options": [
+          "Buenos días",
+          "Mucho gusto",
+          "Por favor",
+          "Amigo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Teacher\" mean?",
+        "options": [
+          "Amigo/a",
+          "Nombre",
+          "Profesor/a",
+          "Adiós"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-everyday-life-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
@@ -2186,96 +2361,121 @@
     ]
   },
   {
-    "slug": "english-a1-hello-vocabulary",
+    "slug": "english-a1-about-me-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "hello",
-    "title": "Greeting Words",
+    "skill": "reading",
+    "unitId": "about-me",
+    "title": "My Profile",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 15,
-    "estimatedMinutes": 6,
-    "description": "Key words for saying hello and introducing yourself.",
-    "intro": "Key words for saying hello and introducing yourself.",
+    "xpReward": 25,
+    "orderIndex": 20,
+    "estimatedMinutes": 10,
+    "description": "A short profile text about a student from the Dominican Republic, in three parts.",
+    "intro": "A short profile text about a student from the Dominican Republic, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Hello",
-        "translation": "Hola",
-        "example": "Hello, my name is Ana."
-      },
-      {
-        "word": "Good morning",
-        "translation": "Buenos días",
-        "example": "Good morning, class!"
-      },
-      {
-        "word": "Name",
-        "translation": "Nombre",
-        "example": "My name is Leo."
-      },
-      {
-        "word": "Teacher",
-        "translation": "Profesor/a",
-        "example": "My teacher is Mr. Green."
-      },
-      {
-        "word": "Friend",
-        "translation": "Amigo/a",
-        "example": "Leo is my friend."
-      },
-      {
-        "word": "Nice to meet you",
-        "translation": "Mucho gusto",
-        "example": "Nice to meet you, Ana."
-      },
-      {
-        "word": "Goodbye",
-        "translation": "Adiós",
-        "example": "Goodbye, see you tomorrow."
-      },
-      {
-        "word": "Please",
-        "translation": "Por favor",
-        "example": "Repeat that, please."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "My Profile",
+      "parts": [
+        "My name is Marco. I am twelve years old. I am from the Dominican Republic, and I live in Santo Domingo. My city is big and colorful, with many parks and friendly people. I go to a school near my house with my sister.",
+        "Today is a special day for me: it is my birthday! I am very happy today. I am not tired, and I am not sad at all. My friends say \"Happy birthday!\" to me at school, and I feel very lucky.",
+        "I am a student, and I am also a good friend. I like to help my classmates with their homework. My favorite color is blue, like the sky. Tonight, my family is going to have a small party for my birthday."
+      ],
+      "questions": [
+        "How old is Marco?",
+        "Where is Marco from?",
+        "Why is Marco happy today?"
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "Marco wakes up on his birthday.",
+          "His friends say \"Happy birthday\" at school.",
+          "Marco helps a classmate with homework.",
+          "Marco's family has a small party."
+        ]
+      },
+      "text": "My name is Marco. I am twelve years old. I am from the Dominican Republic, and I live in Santo Domingo. My city is big and colorful, with many parks and friendly people. I go to a school near my house with my sister.\n\nToday is a special day for me: it is my birthday! I am very happy today. I am not tired, and I am not sad at all. My friends say \"Happy birthday!\" to me at school, and I feel very lucky.\n\nI am a student, and I am also a good friend. I like to help my classmates with their homework. My favorite color is blue, like the sky. Tonight, my family is going to have a small party for my birthday."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does \"Hello\" mean?",
+        "prompt": "How old is Marco?",
         "options": [
-          "Hola",
-          "Adiós",
-          "Gracias",
-          "Nombre"
+          "Ten",
+          "Eleven",
+          "Twelve",
+          "Thirteen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Nice to meet you\" mean?",
+        "prompt": "Where does Marco live?",
         "options": [
-          "Buenos días",
-          "Mucho gusto",
-          "Por favor",
-          "Amigo"
+          "Santo Domingo",
+          "Madrid",
+          "New York",
+          "Santiago"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Teacher\" mean?",
+        "prompt": "Why is Marco happy?",
         "options": [
-          "Amigo/a",
-          "Nombre",
-          "Profesor/a",
-          "Adiós"
+          "It is his birthday",
+          "He has a new friend",
+          "He is on vacation",
+          "He got a good grade"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who does Marco help at school?",
+        "options": [
+          "His teacher",
+          "His classmates",
+          "His sister",
+          "Mr. Green"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Marco is tired today.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Marco's favorite color is blue.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Marco's family is having a party tonight.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: My city is big and ___, with many parks.",
+        "options": [
+          "colorful",
+          "boring",
+          "empty",
+          "cold"
         ]
       }
     ]
@@ -2397,52 +2597,76 @@
     ]
   },
   {
-    "slug": "english-a1-about-me-reading",
+    "slug": "english-a1-about-me-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "about-me",
-    "title": "My Profile",
+    "title": "Where Are You From?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 20,
+    "orderIndex": 21,
     "estimatedMinutes": 10,
-    "description": "A short profile text about a student from the Dominican Republic, in three parts.",
-    "intro": "A short profile text about a student from the Dominican Republic, in three parts.",
+    "description": "Listen to two students talking about their age and country.",
+    "intro": "Listen to Sofia and Leo talking about where they are from and how old they are.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "Where are you from?",
+      "I am from...",
+      "How old are you?",
+      "I am ... years old."
+    ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "My Profile",
-      "parts": [
-        "My name is Marco. I am twelve years old. I am from the Dominican Republic, and I live in Santo Domingo. My city is big and colorful, with many parks and friendly people. I go to a school near my house with my sister.",
-        "Today is a special day for me: it is my birthday! I am very happy today. I am not tired, and I am not sad at all. My friends say \"Happy birthday!\" to me at school, and I feel very lucky.",
-        "I am a student, and I am also a good friend. I like to help my classmates with their homework. My favorite color is blue, like the sky. Tonight, my family is going to have a small party for my birthday."
-      ],
-      "questions": [
-        "How old is Marco?",
-        "Where is Marco from?",
-        "Why is Marco happy today?"
-      ],
-      "ordering": {
-        "prompt": "Put the events of the story in order.",
-        "events": [
-          "Marco wakes up on his birthday.",
-          "His friends say \"Happy birthday\" at school.",
-          "Marco helps a classmate with homework.",
-          "Marco's family has a small party."
-        ]
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Where are you from, Leo?",
+        "translation": "¿De dónde eres, Leo?"
       },
-      "text": "My name is Marco. I am twelve years old. I am from the Dominican Republic, and I live in Santo Domingo. My city is big and colorful, with many parks and friendly people. I go to a school near my house with my sister.\n\nToday is a special day for me: it is my birthday! I am very happy today. I am not tired, and I am not sad at all. My friends say \"Happy birthday!\" to me at school, and I feel very lucky.\n\nI am a student, and I am also a good friend. I like to help my classmates with their homework. My favorite color is blue, like the sky. Tonight, my family is going to have a small party for my birthday."
-    },
+      {
+        "speaker": "Leo",
+        "line": "I am from Italy. And you?",
+        "translation": "Soy de Italia. ¿Y tú?"
+      },
+      {
+        "speaker": "Sofia",
+        "line": "I am from the Dominican Republic. How old are you?",
+        "translation": "Soy de República Dominicana. ¿Cuántos años tienes?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "I am twelve years old. What about you?",
+        "translation": "Tengo doce años. ¿Y tú?"
+      },
+      {
+        "speaker": "Sofia",
+        "line": "I am eleven. Are you happy at this school?",
+        "translation": "Tengo once. ¿Estás feliz en esta escuela?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "Yes, I am very happy here!",
+        "translation": "Sí, ¡estoy muy feliz aquí!"
+      }
+    ],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "How old is Marco?",
+        "prompt": "Where is Leo from?",
+        "options": [
+          "Spain",
+          "Italy",
+          "Dominican Republic",
+          "France"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How old is Sofia?",
         "options": [
           "Ten",
           "Eleven",
@@ -2452,66 +2676,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "Where does Marco live?",
+        "prompt": "Is Leo happy at the school?",
         "options": [
-          "Santo Domingo",
-          "Madrid",
-          "New York",
-          "Santiago"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is Marco happy?",
-        "options": [
-          "It is his birthday",
-          "He has a new friend",
-          "He is on vacation",
-          "He got a good grade"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Who does Marco help at school?",
-        "options": [
-          "His teacher",
-          "His classmates",
-          "His sister",
-          "Mr. Green"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Marco is tired today.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Marco's favorite color is blue.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Marco's family is having a party tonight.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: My city is big and ___, with many parks.",
-        "options": [
-          "colorful",
-          "boring",
-          "empty",
-          "cold"
+          "Yes",
+          "No",
+          "He doesn't say",
+          "A little sad"
         ]
       }
     ]
@@ -2678,57 +2848,42 @@
     ]
   },
   {
-    "slug": "english-a1-about-me-listening",
+    "slug": "english-a1-about-me-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "about-me",
-    "title": "Where Are You From?",
+    "title": "Talk About Yourself",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 21,
-    "estimatedMinutes": 10,
-    "description": "Listen to two students talking about their age and country.",
-    "intro": "Listen to Sofia and Leo talking about where they are from and how old they are.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 22,
+    "estimatedMinutes": 8,
+    "description": "Practice saying your age, country and how you feel today.",
+    "intro": "Practice saying your age, country and how you feel today.",
+    "mission": "Tell a partner your name, your age, where you are from, and how you feel today.",
     "grammar": "",
     "phrases": [
-      "Where are you from?",
+      "I am ... years old.",
       "I am from...",
-      "How old are you?",
-      "I am ... years old."
+      "Today I am happy/tired/fine.",
+      "Are you...?"
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Sofia",
-        "line": "Where are you from, Leo?",
-        "translation": "¿De dónde eres, Leo?"
+        "speaker": "You",
+        "line": "I am ... years old and I am from...",
+        "translation": "Tengo ... años y soy de..."
       },
       {
-        "speaker": "Leo",
-        "line": "I am from Italy. And you?",
-        "translation": "Soy de Italia. ¿Y tú?"
+        "speaker": "Partner",
+        "line": "Nice! How do you feel today?",
+        "translation": "¡Qué bien! ¿Cómo te sientes hoy?"
       },
       {
-        "speaker": "Sofia",
-        "line": "I am from the Dominican Republic. How old are you?",
-        "translation": "Soy de República Dominicana. ¿Cuántos años tienes?"
-      },
-      {
-        "speaker": "Leo",
-        "line": "I am twelve years old. What about you?",
-        "translation": "Tengo doce años. ¿Y tú?"
-      },
-      {
-        "speaker": "Sofia",
-        "line": "I am eleven. Are you happy at this school?",
-        "translation": "Tengo once. ¿Estás feliz en esta escuela?"
-      },
-      {
-        "speaker": "Leo",
-        "line": "Yes, I am very happy here!",
-        "translation": "Sí, ¡estoy muy feliz aquí!"
+        "speaker": "You",
+        "line": "Today I am happy because...",
+        "translation": "Hoy estoy feliz porque..."
       }
     ],
     "reading": null,
@@ -2736,34 +2891,12 @@
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "Where is Leo from?",
-        "options": [
-          "Spain",
-          "Italy",
-          "Dominican Republic",
-          "France"
-        ]
+        "type": "speaking",
+        "prompt": "Say out loud: your age, your country, and one feeling you have today."
       },
       {
-        "type": "mcq",
-        "prompt": "How old is Sofia?",
-        "options": [
-          "Ten",
-          "Eleven",
-          "Twelve",
-          "Thirteen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Is Leo happy at the school?",
-        "options": [
-          "Yes",
-          "No",
-          "He doesn't say",
-          "A little sad"
-        ]
+        "type": "practice",
+        "prompt": "Ask a partner \"How old are you?\" and \"Where are you from?\" and answer their questions too."
       }
     ]
   },
@@ -2830,98 +2963,6 @@
     ]
   },
   {
-    "slug": "english-a1-about-me-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "about-me",
-    "title": "Talk About Yourself",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 22,
-    "estimatedMinutes": 8,
-    "description": "Practice saying your age, country and how you feel today.",
-    "intro": "Practice saying your age, country and how you feel today.",
-    "mission": "Tell a partner your name, your age, where you are from, and how you feel today.",
-    "grammar": "",
-    "phrases": [
-      "I am ... years old.",
-      "I am from...",
-      "Today I am happy/tired/fine.",
-      "Are you...?"
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "You",
-        "line": "I am ... years old and I am from...",
-        "translation": "Tengo ... años y soy de..."
-      },
-      {
-        "speaker": "Partner",
-        "line": "Nice! How do you feel today?",
-        "translation": "¡Qué bien! ¿Cómo te sientes hoy?"
-      },
-      {
-        "speaker": "You",
-        "line": "Today I am happy because...",
-        "translation": "Hoy estoy feliz porque..."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Say out loud: your age, your country, and one feeling you have today."
-      },
-      {
-        "type": "practice",
-        "prompt": "Ask a partner \"How old are you?\" and \"Where are you from?\" and answer their questions too."
-      }
-    ]
-  },
-  {
-    "slug": "english-a2-family-and-relationships-writing",
-    "level": "A2",
-    "skill": "writing",
-    "unitId": "family-and-relationships",
-    "title": "My Family Tree",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 23,
-    "estimatedMinutes": 15,
-    "description": "Write a short description of your family, like the one about Sarah's family lunch.",
-    "intro": "Write a short description of your family, like the one about Sarah's family lunch.",
-    "mission": "Write 80-130 words describing your family: who is in it, what they are like, and one family tradition or gathering you have (like Sarah's Sunday lunch).",
-    "grammar": "",
-    "phrases": [
-      "My family is...",
-      "My... has got...",
-      "Every..., we...",
-      "I love my family because..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Model",
-        "line": "My family is quite small. I've got one sister and two parents. My sister's name is Elena, and she's got a great sense of humour - she always makes us laugh. My dad has got grey hair and he loves cooking, just like Diane in the story. Every Sunday, we have lunch together at my grandmother's house. It's not always calm, but it's always fun. I love my family because we're always there for each other, even when things are chaotic.",
-        "translation": "Mi familia es bastante pequeña. Tengo una hermana y dos padres. Mi hermana se llama Elena y tiene mucho sentido del humor; siempre nos hace reír. Mi papá tiene el pelo canoso y le encanta cocinar, igual que Diane en la historia. Cada domingo almorzamos juntos en casa de mi abuela. No siempre es tranquilo, pero siempre es divertido. Amo a mi familia porque siempre estamos ahí para el otro, incluso cuando las cosas están caóticas."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Write 80-130 words about your family: who is in it, at least two descriptions using has got, and one family tradition or gathering."
-      }
-    ]
-  },
-  {
     "slug": "english-a1-about-me-writing",
     "level": "A1",
     "skill": "writing",
@@ -2961,151 +3002,41 @@
     ]
   },
   {
-    "slug": "english-a2-family-and-relationships-grammar",
+    "slug": "english-a2-family-and-relationships-writing",
     "level": "A2",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "family-and-relationships",
-    "title": "Have Got / Has Got and Possessive 's",
+    "title": "My Family Tree",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 24,
-    "estimatedMinutes": 12,
-    "description": "Talk about family, possessions and appearance with have got/has got and the possessive 's.",
-    "intro": "Talk about family, possessions and appearance with have got/has got and the possessive 's.",
-    "mission": "",
-    "grammar": "Use have got (I/you/we/they) and has got (he/she/it) to talk about what people have, including family members, possessions, and physical features: \"I've got a brother,\" \"She has got long hair.\" The negative is haven't got / hasn't got, and the question is Have you got...? / Has he got...?\n\nUse the possessive 's to show who something belongs to or a relationship: \"Sarah's sister,\" \"my grandmother's dog.\" For plural nouns already ending in -s, just add an apostrophe: \"my parents' house.\"\n\nApoyo: usa have got/has got para hablar de lo que alguien tiene (familia, posesiones, apariencia); usa 's para mostrar posesión o relación entre personas.",
+    "xpReward": 30,
+    "orderIndex": 23,
+    "estimatedMinutes": 15,
+    "description": "Write a short description of your family, like the one about Sarah's family lunch.",
+    "intro": "Write a short description of your family, like the one about Sarah's family lunch.",
+    "mission": "Write 80-130 words describing your family: who is in it, what they are like, and one family tradition or gathering you have (like Sarah's Sunday lunch).",
+    "grammar": "",
     "phrases": [
-      "I've got.../ She's got...",
-      "Have you got...? / Has he got...?",
-      "I haven't got... / She hasn't got...",
-      "Sarah's sister / my parents' house"
+      "My family is...",
+      "My... has got...",
+      "Every..., we...",
+      "I love my family because..."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "My family is quite small. I've got one sister and two parents. My sister's name is Elena, and she's got a great sense of humour - she always makes us laugh. My dad has got grey hair and he loves cooking, just like Diane in the story. Every Sunday, we have lunch together at my grandmother's house. It's not always calm, but it's always fun. I love my family because we're always there for each other, even when things are chaotic.",
+        "translation": "Mi familia es bastante pequeña. Tengo una hermana y dos padres. Mi hermana se llama Elena y tiene mucho sentido del humor; siempre nos hace reír. Mi papá tiene el pelo canoso y le encanta cocinar, igual que Diane en la historia. Cada domingo almorzamos juntos en casa de mi abuela. No siempre es tranquilo, pero siempre es divertido. Amo a mi familia porque siempre estamos ahí para el otro, incluso cuando las cosas están caóticas."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "My brother ___ a new bike.",
-        "options": [
-          "have got",
-          "has got",
-          "is got",
-          "got has"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ you got any pets?",
-        "options": [
-          "Do",
-          "Have",
-          "Has",
-          "Are"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "This is ___ car, not mine.",
-        "options": [
-          "Sarah",
-          "Sarah's",
-          "Sarahs'",
-          "of Sarah"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ got a big garden.",
-        "options": [
-          "has",
-          "haven't",
-          "have",
-          "is"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "She ___ got two brothers.",
-        "options": [
-          "have",
-          "has",
-          "haven't",
-          "is"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I like their house - it ___ got a lovely kitchen.",
-        "options": [
-          "have",
-          "has",
-          "haven't",
-          "am"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Those are the ___ shoes, not the children's.",
-        "options": [
-          "parent",
-          "parents'",
-          "parent's",
-          "parents"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "He ___ got a car - he always takes the bus.",
-        "options": [
-          "hasn't",
-          "haven't",
-          "has",
-          "is"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ your sister got a job yet?",
-        "options": [
-          "Do",
-          "Is",
-          "Has",
-          "Have"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "My ___ dog is called Biscuit.",
-        "options": [
-          "grandmother",
-          "grandmother's",
-          "grandmothers'",
-          "of grandmother"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "They ___ got a lot of free time this week.",
-        "options": [
-          "has",
-          "haven't",
-          "is",
-          "isn't"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What colour hair ___ she got?",
-        "options": [
-          "have",
-          "has",
-          "is",
-          "does"
-        ]
+        "type": "writing",
+        "prompt": "Write 80-130 words about your family: who is in it, at least two descriptions using has got, and one family tradition or gathering."
       }
     ]
   },
@@ -3475,6 +3406,546 @@
     ]
   },
   {
+    "slug": "english-a2-family-and-relationships-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "family-and-relationships",
+    "title": "Have Got / Has Got and Possessive 's",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 24,
+    "estimatedMinutes": 12,
+    "description": "Talk about family, possessions and appearance with have got/has got and the possessive 's.",
+    "intro": "Talk about family, possessions and appearance with have got/has got and the possessive 's.",
+    "mission": "",
+    "grammar": "Goal: talk about family, possessions and physical features with have got/has got, and show possession/relationships with 's.\n\nRule: use have got (I/you/we/they) and has got (he/she/it) to talk about what people have, including family members, possessions, and physical features: \"I've got a brother,\" \"She has got long hair.\" Use the possessive 's to show who something belongs to or a relationship: \"Sarah's sister.\"\n\nPattern: Subject + have/has + got + noun. Negative: haven't/hasn't + got. Question: Have/Has + subject + got...? Owner + 's + noun (or owner ending in -s + just an apostrophe).\n\nExamples:\n1. My brother has got a new bike.\n2. We have got a big garden.\n3. She has got two brothers.\n4. This is Sarah's car.\n5. My grandmother's dog is called Biscuit.\n6. My parents' house is near the park.\n7. Have you got any pets?\n8. He hasn't got a car.\n\nAffirmative: subject + have/has + got + noun. Example: \"I've got a sister.\"\n\nNegative: subject + haven't/hasn't + got + noun. Example: \"He hasn't got a car - he always takes the bus.\"\n\nQuestions: Have/Has + subject + got...? Example: \"Has your sister got a job yet?\" \"Have you got any pets?\"\n\nContractions: I've got = I have got, she's got = she has got, haven't = have not, hasn't = has not.\n\nCommon mistakes: ✗ \"She have got a brother\" → ✓ \"She has got a brother\" (he/she/it needs \"has\"). ✗ \"Sarah car\" → ✓ \"Sarah's car\" (don't forget the 's for possession). ✗ \"the parents's house\" → ✓ \"the parents' house\" (plural owners ending in -s just take an apostrophe).\n\nCompare: \"have got\" describes possession/features informally (mostly spoken British English); \"'s\" shows WHO owns something. They often appear together: \"Sarah's dog has got short legs.\"\n\nMini practice: complete. \"My cousin (have) ___ two cats.\" → has got. \"This is my (grandmother) ___ house.\" → grandmother's.\n\nSummary: use have got/has got to talk about possessions and features (haven't/hasn't got for negatives, Have/Has...? for questions); use 's after the owner's name to show possession, or just an apostrophe after a plural owner already ending in -s.\n\nApoyo: usa have got/has got para hablar de lo que alguien tiene (familia, posesiones, apariencia); usa 's para mostrar posesión o relación entre personas.",
+    "phrases": [
+      "I've got.../ She's got...",
+      "Have you got...? / Has he got...?",
+      "I haven't got... / She hasn't got...",
+      "Sarah's sister / my parents' house"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "english-a2-family-and-relationships-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "My brother ___ a new bike.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o2",
+                "text": "has got"
+              },
+              {
+                "id": "o1",
+                "text": "have got"
+              },
+              {
+                "id": "o3",
+                "text": "is got"
+              },
+              {
+                "id": "o4",
+                "text": "got has"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "___ you got any pets?",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Do"
+              },
+              {
+                "id": "o2",
+                "text": "Have"
+              },
+              {
+                "id": "o3",
+                "text": "Has"
+              },
+              {
+                "id": "o4",
+                "text": "Are"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "This is ___ car, not mine.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah"
+              },
+              {
+                "id": "o3",
+                "text": "Sarahs'"
+              },
+              {
+                "id": "o2",
+                "text": "Sarah's"
+              },
+              {
+                "id": "o4",
+                "text": "of Sarah"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "We ___ got a big garden.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "has"
+              },
+              {
+                "id": "o2",
+                "text": "haven't"
+              },
+              {
+                "id": "o4",
+                "text": "is"
+              },
+              {
+                "id": "o3",
+                "text": "have"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "He ___ got a car - he always takes the bus.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "hasn't"
+              },
+              {
+                "id": "o2",
+                "text": "haven't"
+              },
+              {
+                "id": "o3",
+                "text": "has"
+              },
+              {
+                "id": "o4",
+                "text": "is"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "___ your sister got a job yet?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Do"
+              },
+              {
+                "id": "o3",
+                "text": "Has"
+              },
+              {
+                "id": "o2",
+                "text": "Is"
+              },
+              {
+                "id": "o4",
+                "text": "Have"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Those are the ___ shoes, not the children's.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "parent"
+              },
+              {
+                "id": "o3",
+                "text": "parent's"
+              },
+              {
+                "id": "o2",
+                "text": "parents'"
+              },
+              {
+                "id": "o4",
+                "text": "parents"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "My ___ dog is called Biscuit.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "grandmother"
+              },
+              {
+                "id": "o3",
+                "text": "grandmothers'"
+              },
+              {
+                "id": "o4",
+                "text": "of grandmother"
+              },
+              {
+                "id": "o2",
+                "text": "grandmother's"
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Find the mistake: \"She have got a brother.\"",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "It should be \"She has got a brother\""
+              },
+              {
+                "id": "o1",
+                "text": "There is no mistake"
+              },
+              {
+                "id": "o3",
+                "text": "It should be \"She haves got a brother\""
+              },
+              {
+                "id": "o4",
+                "text": "It should be \"She is got a brother\""
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "What colour hair ___ she got?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "have"
+              },
+              {
+                "id": "o2",
+                "text": "has"
+              },
+              {
+                "id": "o3",
+                "text": "is"
+              },
+              {
+                "id": "o4",
+                "text": "does"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Choose the sentence equivalent to \"The house that belongs to my parents is near the park.\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "My parent's house is near the park."
+              },
+              {
+                "id": "o3",
+                "text": "My parents house is near the park."
+              },
+              {
+                "id": "o2",
+                "text": "My parents' house is near the park."
+              },
+              {
+                "id": "o4",
+                "text": "The house of my parents near the park."
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Put in order: \"got / a lot of / they / free time / have / this week\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "They got have a lot of free time this week."
+              },
+              {
+                "id": "o4",
+                "text": "Have they got a lot of free time this week they."
+              },
+              {
+                "id": "o2",
+                "text": "A lot of free time they have got this week."
+              },
+              {
+                "id": "o1",
+                "text": "They have got a lot of free time this week."
+              }
+            ]
+          }
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "My brother ___ a new bike.",
+        "options": [
+          "have got",
+          "has got",
+          "is got",
+          "got has"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ you got any pets?",
+        "options": [
+          "Do",
+          "Have",
+          "Has",
+          "Are"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "This is ___ car, not mine.",
+        "options": [
+          "Sarah",
+          "Sarah's",
+          "Sarahs'",
+          "of Sarah"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ got a big garden.",
+        "options": [
+          "has",
+          "haven't",
+          "have",
+          "is"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "She ___ got two brothers.",
+        "options": [
+          "have",
+          "has",
+          "haven't",
+          "is"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I like their house - it ___ got a lovely kitchen.",
+        "options": [
+          "have",
+          "has",
+          "haven't",
+          "am"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Those are the ___ shoes, not the children's.",
+        "options": [
+          "parent",
+          "parents'",
+          "parent's",
+          "parents"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "He ___ got a car - he always takes the bus.",
+        "options": [
+          "hasn't",
+          "haven't",
+          "has",
+          "is"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ your sister got a job yet?",
+        "options": [
+          "Do",
+          "Is",
+          "Has",
+          "Have"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "My ___ dog is called Biscuit.",
+        "options": [
+          "grandmother",
+          "grandmother's",
+          "grandmothers'",
+          "of grandmother"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "They ___ got a lot of free time this week.",
+        "options": [
+          "has",
+          "haven't",
+          "is",
+          "isn't"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What colour hair ___ she got?",
+        "options": [
+          "have",
+          "has",
+          "is",
+          "does"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-about-me-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "about-me",
+    "title": "Feelings and Countries",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 25,
+    "estimatedMinutes": 6,
+    "description": "Words to describe age, countries and feelings.",
+    "intro": "Words to describe age, countries and feelings.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Happy",
+        "translation": "Feliz",
+        "example": "I am happy today."
+      },
+      {
+        "word": "Sad",
+        "translation": "Triste",
+        "example": "She is a little sad."
+      },
+      {
+        "word": "Tired",
+        "translation": "Cansado/a",
+        "example": "I am not tired."
+      },
+      {
+        "word": "Country",
+        "translation": "País",
+        "example": "What country are you from?"
+      },
+      {
+        "word": "Age",
+        "translation": "Edad",
+        "example": "What is your age?"
+      },
+      {
+        "word": "Years old",
+        "translation": "Años (de edad)",
+        "example": "I am eleven years old."
+      },
+      {
+        "word": "Fine",
+        "translation": "Bien",
+        "example": "I am fine, thank you."
+      },
+      {
+        "word": "Student",
+        "translation": "Estudiante",
+        "example": "I am a student."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Happy\" mean?",
+        "options": [
+          "Triste",
+          "Feliz",
+          "Cansado",
+          "País"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Tired\" mean?",
+        "options": [
+          "Cansado/a",
+          "Feliz",
+          "Edad",
+          "Bien"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Country\" mean?",
+        "options": [
+          "Estudiante",
+          "Edad",
+          "País",
+          "Triste"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-family-and-relationships-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
@@ -3760,96 +4231,121 @@
     ]
   },
   {
-    "slug": "english-a1-about-me-vocabulary",
+    "slug": "english-a1-family-and-friends-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "about-me",
-    "title": "Feelings and Countries",
+    "skill": "reading",
+    "unitId": "family-and-friends",
+    "title": "My Family",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 25,
-    "estimatedMinutes": 6,
-    "description": "Words to describe age, countries and feelings.",
-    "intro": "Words to describe age, countries and feelings.",
+    "xpReward": 25,
+    "orderIndex": 30,
+    "estimatedMinutes": 10,
+    "description": "A short text about Ana's family members, in three parts.",
+    "intro": "A short text about Ana's family members, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Happy",
-        "translation": "Feliz",
-        "example": "I am happy today."
-      },
-      {
-        "word": "Sad",
-        "translation": "Triste",
-        "example": "She is a little sad."
-      },
-      {
-        "word": "Tired",
-        "translation": "Cansado/a",
-        "example": "I am not tired."
-      },
-      {
-        "word": "Country",
-        "translation": "País",
-        "example": "What country are you from?"
-      },
-      {
-        "word": "Age",
-        "translation": "Edad",
-        "example": "What is your age?"
-      },
-      {
-        "word": "Years old",
-        "translation": "Años (de edad)",
-        "example": "I am eleven years old."
-      },
-      {
-        "word": "Fine",
-        "translation": "Bien",
-        "example": "I am fine, thank you."
-      },
-      {
-        "word": "Student",
-        "translation": "Estudiante",
-        "example": "I am a student."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "My Family",
+      "parts": [
+        "This is my family. My mother's name is Carmen, and my father's name is Julio. My parents work near our house, and they always have dinner with us. We live in a small house with a big garden.",
+        "I have one sister and one brother. My sister's name is Sofia; she is sixteen years old, and she loves music. My brother's name is Marco; he is nine, and he loves soccer. We play together every weekend.",
+        "My grandmother lives with us too. Her name is Rosa, and she is very kind. She cooks delicious food for the family. On Sundays, we all eat lunch together and talk about our week. We are a happy family."
+      ],
+      "questions": [
+        "What is the mother's name?",
+        "How many brothers and sisters does the writer have?",
+        "Who lives with the family besides the parents?"
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "Carmen and Julio have dinner with the family.",
+          "Sofia and Marco play together on the weekend.",
+          "Rosa cooks lunch on Sunday.",
+          "The family eats lunch together and talks."
+        ]
+      },
+      "text": "This is my family. My mother's name is Carmen, and my father's name is Julio. My parents work near our house, and they always have dinner with us. We live in a small house with a big garden.\n\nI have one sister and one brother. My sister's name is Sofia; she is sixteen years old, and she loves music. My brother's name is Marco; he is nine, and he loves soccer. We play together every weekend.\n\nMy grandmother lives with us too. Her name is Rosa, and she is very kind. She cooks delicious food for the family. On Sundays, we all eat lunch together and talk about our week. We are a happy family."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does \"Happy\" mean?",
+        "prompt": "What is the father's name?",
         "options": [
-          "Triste",
-          "Feliz",
-          "Cansado",
-          "País"
+          "Marco",
+          "Julio",
+          "Rosa",
+          "Sofia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Tired\" mean?",
+        "prompt": "How old is the sister?",
         "options": [
-          "Cansado/a",
-          "Feliz",
-          "Edad",
-          "Bien"
+          "Nine",
+          "Twelve",
+          "Sixteen",
+          "Twenty"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Country\" mean?",
+        "prompt": "Who is Rosa?",
         "options": [
-          "Estudiante",
-          "Edad",
-          "País",
-          "Triste"
+          "The mother",
+          "The sister",
+          "The grandmother",
+          "A friend"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does Marco love?",
+        "options": [
+          "Music",
+          "Soccer",
+          "Cooking",
+          "Reading"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Sofia loves music.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The family lives in a big city apartment.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Rosa cooks for the family.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Rosa is very ___; she cooks delicious food for us.",
+        "options": [
+          "kind",
+          "angry",
+          "lazy",
+          "sad"
         ]
       }
     ]
@@ -3971,121 +4467,91 @@
     ]
   },
   {
-    "slug": "english-a1-family-and-friends-reading",
+    "slug": "english-a1-family-and-friends-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "family-and-friends",
-    "title": "My Family",
+    "title": "This Is My Brother",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 30,
+    "orderIndex": 31,
     "estimatedMinutes": 10,
-    "description": "A short text about Ana's family members, in three parts.",
-    "intro": "A short text about Ana's family members, in three parts.",
+    "description": "Listen to Ana introducing her brother to a friend.",
+    "intro": "Listen to Ana showing a photo of her family to her friend Leo and introducing her brother.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "This is my...",
+      "Who is this?",
+      "Do you have a...?",
+      "My brother/sister is..."
+    ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "My Family",
-      "parts": [
-        "This is my family. My mother's name is Carmen, and my father's name is Julio. My parents work near our house, and they always have dinner with us. We live in a small house with a big garden.",
-        "I have one sister and one brother. My sister's name is Sofia; she is sixteen years old, and she loves music. My brother's name is Marco; he is nine, and he loves soccer. We play together every weekend.",
-        "My grandmother lives with us too. Her name is Rosa, and she is very kind. She cooks delicious food for the family. On Sundays, we all eat lunch together and talk about our week. We are a happy family."
-      ],
-      "questions": [
-        "What is the mother's name?",
-        "How many brothers and sisters does the writer have?",
-        "Who lives with the family besides the parents?"
-      ],
-      "ordering": {
-        "prompt": "Put the events of the story in order.",
-        "events": [
-          "Carmen and Julio have dinner with the family.",
-          "Sofia and Marco play together on the weekend.",
-          "Rosa cooks lunch on Sunday.",
-          "The family eats lunch together and talks."
-        ]
+    "dialogue": [
+      {
+        "speaker": "Leo",
+        "line": "Is this your family, Ana?",
+        "translation": "¿Esta es tu familia, Ana?"
       },
-      "text": "This is my family. My mother's name is Carmen, and my father's name is Julio. My parents work near our house, and they always have dinner with us. We live in a small house with a big garden.\n\nI have one sister and one brother. My sister's name is Sofia; she is sixteen years old, and she loves music. My brother's name is Marco; he is nine, and he loves soccer. We play together every weekend.\n\nMy grandmother lives with us too. Her name is Rosa, and she is very kind. She cooks delicious food for the family. On Sundays, we all eat lunch together and talk about our week. We are a happy family."
-    },
+      {
+        "speaker": "Ana",
+        "line": "Yes! This is my mother and this is my father.",
+        "translation": "Sí, esta es mi madre y este es mi padre."
+      },
+      {
+        "speaker": "Leo",
+        "line": "And who is this boy?",
+        "translation": "¿Y quién es este niño?"
+      },
+      {
+        "speaker": "Ana",
+        "line": "That's my brother, Marco. He is nine years old.",
+        "translation": "Ese es mi hermano, Marco. Tiene nueve años."
+      },
+      {
+        "speaker": "Leo",
+        "line": "Do you have a sister too?",
+        "translation": "¿También tienes una hermana?"
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, my sister's name is Sofia.",
+        "translation": "Sí, mi hermana se llama Sofia."
+      }
+    ],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the father's name?",
+        "prompt": "What is the brother's name?",
         "options": [
+          "Leo",
           "Marco",
           "Julio",
-          "Rosa",
           "Sofia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How old is the sister?",
+        "prompt": "How old is the brother?",
         "options": [
+          "Six",
           "Nine",
-          "Twelve",
-          "Sixteen",
-          "Twenty"
+          "Eleven",
+          "Sixteen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Who is Rosa?",
+        "prompt": "What does Ana have besides a brother?",
         "options": [
-          "The mother",
-          "The sister",
-          "The grandmother",
-          "A friend"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Marco love?",
-        "options": [
-          "Music",
-          "Soccer",
-          "Cooking",
-          "Reading"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Sofia loves music.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The family lives in a big city apartment.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Rosa cooks for the family.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: Rosa is very ___; she cooks delicious food for us.",
-        "options": [
-          "kind",
-          "angry",
-          "lazy",
-          "sad"
+          "A dog",
+          "A sister",
+          "A cousin",
+          "Nothing else"
         ]
       }
     ]
@@ -4252,57 +4718,42 @@
     ]
   },
   {
-    "slug": "english-a1-family-and-friends-listening",
+    "slug": "english-a1-family-and-friends-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "family-and-friends",
-    "title": "This Is My Brother",
+    "title": "Describe Your Family",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 31,
-    "estimatedMinutes": 10,
-    "description": "Listen to Ana introducing her brother to a friend.",
-    "intro": "Listen to Ana showing a photo of her family to her friend Leo and introducing her brother.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 32,
+    "estimatedMinutes": 8,
+    "description": "Practice talking about the people in your family.",
+    "intro": "Practice talking about the people in your family.",
+    "mission": "Tell a partner about two people in your family: who they are and one thing about them.",
     "grammar": "",
     "phrases": [
-      "This is my...",
-      "Who is this?",
-      "Do you have a...?",
-      "My brother/sister is..."
+      "This is my mother/father.",
+      "I have a sister/brother.",
+      "His/Her name is...",
+      "He/She is ... years old."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Leo",
-        "line": "Is this your family, Ana?",
-        "translation": "¿Esta es tu familia, Ana?"
+        "speaker": "You",
+        "line": "I have a sister. Her name is...",
+        "translation": "Tengo una hermana. Se llama..."
       },
       {
-        "speaker": "Ana",
-        "line": "Yes! This is my mother and this is my father.",
-        "translation": "Sí, esta es mi madre y este es mi padre."
+        "speaker": "Partner",
+        "line": "How old is she?",
+        "translation": "¿Cuántos años tiene?"
       },
       {
-        "speaker": "Leo",
-        "line": "And who is this boy?",
-        "translation": "¿Y quién es este niño?"
-      },
-      {
-        "speaker": "Ana",
-        "line": "That's my brother, Marco. He is nine years old.",
-        "translation": "Ese es mi hermano, Marco. Tiene nueve años."
-      },
-      {
-        "speaker": "Leo",
-        "line": "Do you have a sister too?",
-        "translation": "¿También tienes una hermana?"
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, my sister's name is Sofia.",
-        "translation": "Sí, mi hermana se llama Sofia."
+        "speaker": "You",
+        "line": "She is ... years old.",
+        "translation": "Tiene ... años."
       }
     ],
     "reading": null,
@@ -4310,34 +4761,12 @@
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "What is the brother's name?",
-        "options": [
-          "Leo",
-          "Marco",
-          "Julio",
-          "Sofia"
-        ]
+        "type": "speaking",
+        "prompt": "Say out loud two sentences about a family member (name and age or one detail)."
       },
       {
-        "type": "mcq",
-        "prompt": "How old is the brother?",
-        "options": [
-          "Six",
-          "Nine",
-          "Eleven",
-          "Sixteen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Ana have besides a brother?",
-        "options": [
-          "A dog",
-          "A sister",
-          "A cousin",
-          "Nothing else"
-        ]
+        "type": "practice",
+        "prompt": "Ask a partner \"Do you have a sister or brother?\" and listen to their answer."
       }
     ]
   },
@@ -4404,98 +4833,6 @@
     ]
   },
   {
-    "slug": "english-a1-family-and-friends-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "family-and-friends",
-    "title": "Describe Your Family",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 32,
-    "estimatedMinutes": 8,
-    "description": "Practice talking about the people in your family.",
-    "intro": "Practice talking about the people in your family.",
-    "mission": "Tell a partner about two people in your family: who they are and one thing about them.",
-    "grammar": "",
-    "phrases": [
-      "This is my mother/father.",
-      "I have a sister/brother.",
-      "His/Her name is...",
-      "He/She is ... years old."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "You",
-        "line": "I have a sister. Her name is...",
-        "translation": "Tengo una hermana. Se llama..."
-      },
-      {
-        "speaker": "Partner",
-        "line": "How old is she?",
-        "translation": "¿Cuántos años tiene?"
-      },
-      {
-        "speaker": "You",
-        "line": "She is ... years old.",
-        "translation": "Tiene ... años."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Say out loud two sentences about a family member (name and age or one detail)."
-      },
-      {
-        "type": "practice",
-        "prompt": "Ask a partner \"Do you have a sister or brother?\" and listen to their answer."
-      }
-    ]
-  },
-  {
-    "slug": "english-a2-home-and-neighborhood-writing",
-    "level": "A2",
-    "skill": "writing",
-    "unitId": "home-and-neighborhood",
-    "title": "My Ideal Home",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 33,
-    "estimatedMinutes": 15,
-    "description": "Write a short description of your ideal home and its neighborhood.",
-    "intro": "Write a short description of your ideal home and its neighborhood.",
-    "mission": "Write 80-130 words describing your ideal home: the rooms, the furniture, and the neighborhood around it, using there is/there are and prepositions of place.",
-    "grammar": "",
-    "phrases": [
-      "In my ideal home, there is/are...",
-      "My favourite room would be...",
-      "Near my house, there is...",
-      "It would be perfect because..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Model",
-        "line": "My ideal home is a small flat in the city, like Lucy's. There are two bedrooms, a large kitchen, and a balcony with a view of the park. In the living room, there is a comfortable sofa next to a big window, and a bookshelf in the corner. Near my house, there is a bakery, a small supermarket, and a quiet park with a bench under a tree. It would be perfect because everything I need is close, and the neighborhood feels friendly and safe.",
-        "translation": "Mi casa ideal es un piso pequeño en la ciudad, como el de Lucy. Hay dos habitaciones, una cocina grande y un balcón con vista al parque. En la sala hay un sofá cómodo al lado de una ventana grande, y un librero en la esquina. Cerca de mi casa hay una panadería, un supermercado pequeño y un parque tranquilo con una banca bajo un árbol. Sería perfecto porque todo lo que necesito está cerca, y el vecindario se siente amigable y seguro."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Write 80-130 words describing your ideal home and neighborhood, using there is/there are and at least two prepositions of place."
-      }
-    ]
-  },
-  {
     "slug": "english-a1-family-and-friends-writing",
     "level": "A1",
     "skill": "writing",
@@ -4535,151 +4872,41 @@
     ]
   },
   {
-    "slug": "english-a2-home-and-neighborhood-grammar",
+    "slug": "english-a2-home-and-neighborhood-writing",
     "level": "A2",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "home-and-neighborhood",
-    "title": "There is / There are and Prepositions of Place",
+    "title": "My Ideal Home",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 34,
-    "estimatedMinutes": 12,
-    "description": "Talk about what exists in a place and exactly where it is.",
-    "intro": "Talk about what exists in a place and exactly where it is.",
-    "mission": "",
-    "grammar": "Use there is with singular/uncountable nouns and there are with plural nouns to say that something exists: \"There is a park near my house,\" \"There are two bedrooms.\" The negative is there isn't / there aren't, and the question is Is there...? / Are there...?\n\nPrepositions of place tell us exactly where something is: next to (beside), between (in the middle of two things), opposite (facing), near (close to), and on the corner of (where two streets meet). Example: \"The bakery is on the corner, between a pharmacy and a coffee shop.\"\n\nApoyo: usa there is/are para decir que algo existe en un lugar; usa preposiciones de lugar para decir exactamente dónde está.",
+    "xpReward": 30,
+    "orderIndex": 33,
+    "estimatedMinutes": 15,
+    "description": "Write a short description of your ideal home and its neighborhood.",
+    "intro": "Write a short description of your ideal home and its neighborhood.",
+    "mission": "Write 80-130 words describing your ideal home: the rooms, the furniture, and the neighborhood around it, using there is/there are and prepositions of place.",
+    "grammar": "",
     "phrases": [
-      "There is a... / There are...",
-      "Is there...? / Are there...?",
-      "next to / between / opposite / near",
-      "on the corner of..."
+      "In my ideal home, there is/are...",
+      "My favourite room would be...",
+      "Near my house, there is...",
+      "It would be perfect because..."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "My ideal home is a small flat in the city, like Lucy's. There are two bedrooms, a large kitchen, and a balcony with a view of the park. In the living room, there is a comfortable sofa next to a big window, and a bookshelf in the corner. Near my house, there is a bakery, a small supermarket, and a quiet park with a bench under a tree. It would be perfect because everything I need is close, and the neighborhood feels friendly and safe.",
+        "translation": "Mi casa ideal es un piso pequeño en la ciudad, como el de Lucy. Hay dos habitaciones, una cocina grande y un balcón con vista al parque. En la sala hay un sofá cómodo al lado de una ventana grande, y un librero en la esquina. Cerca de mi casa hay una panadería, un supermercado pequeño y un parque tranquilo con una banca bajo un árbol. Sería perfecto porque todo lo que necesito está cerca, y el vecindario se siente amigable y seguro."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "___ a park near my house.",
-        "options": [
-          "There is",
-          "There are",
-          "There has",
-          "Is there"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ two bathrooms in the flat.",
-        "options": [
-          "There is",
-          "There are",
-          "There has",
-          "Is there"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ a supermarket on this street?",
-        "options": [
-          "There is",
-          "Is there",
-          "There are",
-          "Are"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "The bookshelf is ___ the window.",
-        "options": [
-          "between",
-          "next to",
-          "opposite of",
-          "near of"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "The bakery is ___ a pharmacy and a coffee shop.",
-        "options": [
-          "next to",
-          "opposite",
-          "between",
-          "on"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "The supermarket is ___ the building, so it is very convenient.",
-        "options": [
-          "opposite",
-          "between",
-          "on the corner",
-          "far"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ any good restaurants near the park?",
-        "options": [
-          "Is there",
-          "Are there",
-          "There is",
-          "There are"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "There ___ a television in the living room yet.",
-        "options": [
-          "isn't",
-          "aren't",
-          "is",
-          "are"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "The shop is ___ my street, where it meets the main road.",
-        "options": [
-          "between",
-          "on the corner of",
-          "opposite",
-          "next"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ many parks in this neighborhood.",
-        "options": [
-          "There is",
-          "There are",
-          "Is there",
-          "There has"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Our house is ___ the school, so we can see it from the window.",
-        "options": [
-          "opposite",
-          "between",
-          "on the corner",
-          "next"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ a desk and a wardrobe in the spare room.",
-        "options": [
-          "There is",
-          "There are",
-          "Is there",
-          "Are there"
-        ]
+        "type": "writing",
+        "prompt": "Write 80-130 words describing your ideal home and neighborhood, using there is/there are and at least two prepositions of place."
       }
     ]
   },
@@ -5049,6 +5276,546 @@
     ]
   },
   {
+    "slug": "english-a2-home-and-neighborhood-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "home-and-neighborhood",
+    "title": "There is / There are and Prepositions of Place",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 34,
+    "estimatedMinutes": 12,
+    "description": "Talk about what exists in a place and exactly where it is.",
+    "intro": "Talk about what exists in a place and exactly where it is.",
+    "mission": "",
+    "grammar": "Goal: say what exists in a place with there is/are, and describe exactly where it is with prepositions of place.\n\nRule: use there is with singular/uncountable nouns and there are with plural nouns to say that something exists: \"There is a park near my house,\" \"There are two bedrooms.\" Prepositions of place then say exactly where something is.\n\nPattern: There is/are + noun + (preposition + place). Negative: there isn't/aren't. Question: Is/Are there...?\n\nExamples:\n1. There is a park near my house.\n2. There are two bathrooms in the flat.\n3. The bookshelf is next to the window.\n4. The bakery is between a pharmacy and a coffee shop.\n5. The supermarket is opposite the building.\n6. The shop is on the corner of my street.\n7. There isn't a television in the living room yet.\n8. Are there any good restaurants near the park?\n\nAffirmative: There is/are + noun. Example: \"There are many parks in this neighborhood.\"\n\nNegative: There isn't/aren't + noun. Example: \"There isn't a television in the living room yet.\"\n\nQuestions: Is/Are there...? Example: \"Is there a supermarket on this street?\" \"Are there any good restaurants near the park?\"\n\nContractions: there's = there is, isn't = is not, aren't = are not.\n\nCommon mistakes: ✗ \"There is two bathrooms\" → ✓ \"There are two bathrooms\" (plural noun needs \"are\"). ✗ \"The bakery is between a pharmacy\" (only one thing mentioned) → ✓ \"between a pharmacy and a coffee shop\" (between needs two things). ✗ \"opposite of the school\" → ✓ \"opposite the school\" (no \"of\" after opposite).\n\nCompare: \"next to\" (touching/beside) vs \"near\" (close, but not touching) vs \"opposite\" (facing, across from) vs \"between\" (in the middle of two things) vs \"on the corner of\" (where two streets meet).\n\nMini practice: complete. \"___ ___ a good view from the balcony.\" → There is. \"The pharmacy is ___ the bakery and the bank.\" → between.\n\nSummary: use there is + singular/uncountable and there are + plural to say something exists; use next to/between/opposite/near/on the corner of to say exactly where.\n\nApoyo: usa there is/are para decir que algo existe en un lugar; usa preposiciones de lugar para decir exactamente dónde está.",
+    "phrases": [
+      "There is a... / There are...",
+      "Is there...? / Are there...?",
+      "next to / between / opposite / near",
+      "on the corner of..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "english-a2-home-and-neighborhood-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "___ a park near my house.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "There is"
+              },
+              {
+                "id": "o2",
+                "text": "There are"
+              },
+              {
+                "id": "o3",
+                "text": "There has"
+              },
+              {
+                "id": "o4",
+                "text": "Is there"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "___ two bathrooms in the flat.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "There is"
+              },
+              {
+                "id": "o2",
+                "text": "There are"
+              },
+              {
+                "id": "o3",
+                "text": "There has"
+              },
+              {
+                "id": "o4",
+                "text": "Is there"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "___ a supermarket on this street?",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "There is"
+              },
+              {
+                "id": "o3",
+                "text": "There are"
+              },
+              {
+                "id": "o2",
+                "text": "Is there"
+              },
+              {
+                "id": "o4",
+                "text": "Are"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "The bookshelf is ___ the window.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "between"
+              },
+              {
+                "id": "o3",
+                "text": "opposite of"
+              },
+              {
+                "id": "o4",
+                "text": "near of"
+              },
+              {
+                "id": "o2",
+                "text": "next to"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "The bakery is ___ a pharmacy and a coffee shop.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o3",
+                "text": "between"
+              },
+              {
+                "id": "o1",
+                "text": "next to"
+              },
+              {
+                "id": "o2",
+                "text": "opposite"
+              },
+              {
+                "id": "o4",
+                "text": "on"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Find the mistake: \"The supermarket is opposite of the building.\"",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "There is no mistake"
+              },
+              {
+                "id": "o2",
+                "text": "It should be \"opposite the building\" (no \"of\")"
+              },
+              {
+                "id": "o3",
+                "text": "It should be \"the supermarket are opposite\""
+              },
+              {
+                "id": "o4",
+                "text": "It should be \"opposite building of the\""
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "___ any good restaurants near the park?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Is there"
+              },
+              {
+                "id": "o3",
+                "text": "There is"
+              },
+              {
+                "id": "o2",
+                "text": "Are there"
+              },
+              {
+                "id": "o4",
+                "text": "There are"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "There ___ a television in the living room yet.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "aren't"
+              },
+              {
+                "id": "o3",
+                "text": "is"
+              },
+              {
+                "id": "o4",
+                "text": "are"
+              },
+              {
+                "id": "o1",
+                "text": "isn't"
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "The shop is ___ my street, where it meets the main road.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "on the corner of"
+              },
+              {
+                "id": "o1",
+                "text": "between"
+              },
+              {
+                "id": "o3",
+                "text": "opposite"
+              },
+              {
+                "id": "o4",
+                "text": "next"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "Choose the sentence equivalent to \"A good view exists from the balcony.\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "It is a good view from the balcony."
+              },
+              {
+                "id": "o1",
+                "text": "There is a good view from the balcony."
+              },
+              {
+                "id": "o4",
+                "text": "A good view there is from the balcony."
+              },
+              {
+                "id": "o2",
+                "text": "There are a good view from the balcony."
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Put in order: \"corner / is / of / the / on / the shop / my street\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "On the corner is the shop of my street."
+              },
+              {
+                "id": "o4",
+                "text": "The shop on the corner is of my street."
+              },
+              {
+                "id": "o1",
+                "text": "The shop is on the corner of my street."
+              },
+              {
+                "id": "o2",
+                "text": "My street is on the corner of the shop."
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Our house is ___ the school, so we can see it from the window.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o2",
+                "text": "between"
+              },
+              {
+                "id": "o3",
+                "text": "on the corner"
+              },
+              {
+                "id": "o4",
+                "text": "next"
+              },
+              {
+                "id": "o1",
+                "text": "opposite"
+              }
+            ]
+          }
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "___ a park near my house.",
+        "options": [
+          "There is",
+          "There are",
+          "There has",
+          "Is there"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ two bathrooms in the flat.",
+        "options": [
+          "There is",
+          "There are",
+          "There has",
+          "Is there"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ a supermarket on this street?",
+        "options": [
+          "There is",
+          "Is there",
+          "There are",
+          "Are"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "The bookshelf is ___ the window.",
+        "options": [
+          "between",
+          "next to",
+          "opposite of",
+          "near of"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "The bakery is ___ a pharmacy and a coffee shop.",
+        "options": [
+          "next to",
+          "opposite",
+          "between",
+          "on"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "The supermarket is ___ the building, so it is very convenient.",
+        "options": [
+          "opposite",
+          "between",
+          "on the corner",
+          "far"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ any good restaurants near the park?",
+        "options": [
+          "Is there",
+          "Are there",
+          "There is",
+          "There are"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "There ___ a television in the living room yet.",
+        "options": [
+          "isn't",
+          "aren't",
+          "is",
+          "are"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "The shop is ___ my street, where it meets the main road.",
+        "options": [
+          "between",
+          "on the corner of",
+          "opposite",
+          "next"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ many parks in this neighborhood.",
+        "options": [
+          "There is",
+          "There are",
+          "Is there",
+          "There has"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Our house is ___ the school, so we can see it from the window.",
+        "options": [
+          "opposite",
+          "between",
+          "on the corner",
+          "next"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ a desk and a wardrobe in the spare room.",
+        "options": [
+          "There is",
+          "There are",
+          "Is there",
+          "Are there"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-family-and-friends-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "family-and-friends",
+    "title": "Family Members",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 35,
+    "estimatedMinutes": 6,
+    "description": "Words for the people in your family.",
+    "intro": "Words for the people in your family.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Mother",
+        "translation": "Madre",
+        "example": "My mother's name is Carmen."
+      },
+      {
+        "word": "Father",
+        "translation": "Padre",
+        "example": "My father works at a school."
+      },
+      {
+        "word": "Sister",
+        "translation": "Hermana",
+        "example": "My sister is sixteen years old."
+      },
+      {
+        "word": "Brother",
+        "translation": "Hermano",
+        "example": "My brother is nine."
+      },
+      {
+        "word": "Grandmother",
+        "translation": "Abuela",
+        "example": "My grandmother is very kind."
+      },
+      {
+        "word": "Grandfather",
+        "translation": "Abuelo",
+        "example": "My grandfather tells great stories."
+      },
+      {
+        "word": "Cousin",
+        "translation": "Primo/a",
+        "example": "My cousin lives in Santiago."
+      },
+      {
+        "word": "Family",
+        "translation": "Familia",
+        "example": "We are a happy family."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Brother\" mean?",
+        "options": [
+          "Hermana",
+          "Hermano",
+          "Padre",
+          "Primo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Grandmother\" mean?",
+        "options": [
+          "Abuelo",
+          "Madre",
+          "Abuela",
+          "Prima"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Cousin\" mean?",
+        "options": [
+          "Primo/a",
+          "Hermano",
+          "Padre",
+          "Familia"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-home-and-neighborhood-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
@@ -5334,96 +6101,121 @@
     ]
   },
   {
-    "slug": "english-a1-family-and-friends-vocabulary",
+    "slug": "english-a1-my-school-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "family-and-friends",
-    "title": "Family Members",
+    "skill": "reading",
+    "unitId": "my-school",
+    "title": "My Classroom",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 35,
-    "estimatedMinutes": 6,
-    "description": "Words for the people in your family.",
-    "intro": "Words for the people in your family.",
+    "xpReward": 25,
+    "orderIndex": 40,
+    "estimatedMinutes": 10,
+    "description": "A short text describing a classroom and school subjects, in three parts.",
+    "intro": "A short text describing a classroom and school subjects, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Mother",
-        "translation": "Madre",
-        "example": "My mother's name is Carmen."
-      },
-      {
-        "word": "Father",
-        "translation": "Padre",
-        "example": "My father works at a school."
-      },
-      {
-        "word": "Sister",
-        "translation": "Hermana",
-        "example": "My sister is sixteen years old."
-      },
-      {
-        "word": "Brother",
-        "translation": "Hermano",
-        "example": "My brother is nine."
-      },
-      {
-        "word": "Grandmother",
-        "translation": "Abuela",
-        "example": "My grandmother is very kind."
-      },
-      {
-        "word": "Grandfather",
-        "translation": "Abuelo",
-        "example": "My grandfather tells great stories."
-      },
-      {
-        "word": "Cousin",
-        "translation": "Primo/a",
-        "example": "My cousin lives in Santiago."
-      },
-      {
-        "word": "Family",
-        "translation": "Familia",
-        "example": "We are a happy family."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "My Classroom",
+      "parts": [
+        "My classroom is big and bright. There is a whiteboard, a teacher's desk, and twenty student desks. There are books, pencils, and a big clock on the wall. The walls are yellow, and there are colorful posters everywhere.",
+        "My favorite subject is English, but I also like Math and Art. In English class, we learn new words and sing songs. In Art class, we draw and paint pictures. Math is difficult sometimes, but my teacher helps me.",
+        "There isn't a computer in my classroom, but there is a computer lab at school. We go there once a week to use computers. I like my school very much because my teachers are kind and my friends are fun."
+      ],
+      "questions": [
+        "What is on the wall of the classroom?",
+        "What is the writer's favorite subject?",
+        "Where is the computer?"
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "Students sit at their desks in the classroom.",
+          "The class studies English and sings songs.",
+          "The class studies Art and paints pictures.",
+          "The class visits the computer lab."
+        ]
+      },
+      "text": "My classroom is big and bright. There is a whiteboard, a teacher's desk, and twenty student desks. There are books, pencils, and a big clock on the wall. The walls are yellow, and there are colorful posters everywhere.\n\nMy favorite subject is English, but I also like Math and Art. In English class, we learn new words and sing songs. In Art class, we draw and paint pictures. Math is difficult sometimes, but my teacher helps me.\n\nThere isn't a computer in my classroom, but there is a computer lab at school. We go there once a week to use computers. I like my school very much because my teachers are kind and my friends are fun."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does \"Brother\" mean?",
+        "prompt": "What is on the wall?",
         "options": [
-          "Hermana",
-          "Hermano",
-          "Padre",
-          "Primo"
+          "A window",
+          "A clock",
+          "A door",
+          "A map"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Grandmother\" mean?",
+        "prompt": "What is the favorite subject?",
         "options": [
-          "Abuelo",
-          "Madre",
-          "Abuela",
-          "Prima"
+          "Math",
+          "Art",
+          "English",
+          "Science"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Cousin\" mean?",
+        "prompt": "Where is the computer?",
         "options": [
-          "Primo/a",
-          "Hermano",
-          "Padre",
-          "Familia"
+          "In the classroom",
+          "At home",
+          "In the computer lab",
+          "There is no computer"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do they do in Art class?",
+        "options": [
+          "Sing songs",
+          "Draw and paint",
+          "Use computers",
+          "Read books"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The classroom walls are yellow.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: There is a computer in the classroom.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Math is always easy for the writer.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: The classroom is big and ___, with yellow walls.",
+        "options": [
+          "bright",
+          "dark",
+          "small",
+          "empty"
         ]
       }
     ]
@@ -5545,121 +6337,91 @@
     ]
   },
   {
-    "slug": "english-a1-my-school-reading",
+    "slug": "english-a1-my-school-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "my-school",
-    "title": "My Classroom",
+    "title": "What's in Your Bag?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 40,
+    "orderIndex": 41,
     "estimatedMinutes": 10,
-    "description": "A short text describing a classroom and school subjects, in three parts.",
-    "intro": "A short text describing a classroom and school subjects, in three parts.",
+    "description": "Listen to two classmates checking their school bags.",
+    "intro": "Listen to Sofia and Marco talking about what is in their school bags before class.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "Do you have a...?",
+      "Can I borrow...?",
+      "Here you are.",
+      "Is there a... in your bag?"
+    ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "My Classroom",
-      "parts": [
-        "My classroom is big and bright. There is a whiteboard, a teacher's desk, and twenty student desks. There are books, pencils, and a big clock on the wall. The walls are yellow, and there are colorful posters everywhere.",
-        "My favorite subject is English, but I also like Math and Art. In English class, we learn new words and sing songs. In Art class, we draw and paint pictures. Math is difficult sometimes, but my teacher helps me.",
-        "There isn't a computer in my classroom, but there is a computer lab at school. We go there once a week to use computers. I like my school very much because my teachers are kind and my friends are fun."
-      ],
-      "questions": [
-        "What is on the wall of the classroom?",
-        "What is the writer's favorite subject?",
-        "Where is the computer?"
-      ],
-      "ordering": {
-        "prompt": "Put the events of the story in order.",
-        "events": [
-          "Students sit at their desks in the classroom.",
-          "The class studies English and sings songs.",
-          "The class studies Art and paints pictures.",
-          "The class visits the computer lab."
-        ]
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Do you have a pencil, Marco?",
+        "translation": "¿Tienes un lápiz, Marco?"
       },
-      "text": "My classroom is big and bright. There is a whiteboard, a teacher's desk, and twenty student desks. There are books, pencils, and a big clock on the wall. The walls are yellow, and there are colorful posters everywhere.\n\nMy favorite subject is English, but I also like Math and Art. In English class, we learn new words and sing songs. In Art class, we draw and paint pictures. Math is difficult sometimes, but my teacher helps me.\n\nThere isn't a computer in my classroom, but there is a computer lab at school. We go there once a week to use computers. I like my school very much because my teachers are kind and my friends are fun."
-    },
+      {
+        "speaker": "Marco",
+        "line": "Yes, I have two pencils and a pen.",
+        "translation": "Sí, tengo dos lápices y un bolígrafo."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Great, can I borrow one, please?",
+        "translation": "Genial, ¿me prestas uno, por favor?"
+      },
+      {
+        "speaker": "Marco",
+        "line": "Sure, here you are.",
+        "translation": "Claro, aquí tienes."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Thank you! Is there a notebook in your bag too?",
+        "translation": "¡Gracias! ¿Hay también un cuaderno en tu mochila?"
+      },
+      {
+        "speaker": "Marco",
+        "line": "Yes, there is one notebook and one book.",
+        "translation": "Sí, hay un cuaderno y un libro."
+      }
+    ],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is on the wall?",
+        "prompt": "How many pencils does Marco have?",
         "options": [
-          "A window",
-          "A clock",
-          "A door",
-          "A map"
+          "One",
+          "Two",
+          "Three",
+          "None"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What is the favorite subject?",
+        "prompt": "What does Sofia ask to borrow?",
         "options": [
-          "Math",
-          "Art",
-          "English",
-          "Science"
+          "A book",
+          "A pencil",
+          "A notebook",
+          "A pen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Where is the computer?",
+        "prompt": "What else is in Marco's bag?",
         "options": [
-          "In the classroom",
-          "At home",
-          "In the computer lab",
-          "There is no computer"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What do they do in Art class?",
-        "options": [
-          "Sing songs",
-          "Draw and paint",
-          "Use computers",
-          "Read books"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The classroom walls are yellow.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: There is a computer in the classroom.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Math is always easy for the writer.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: The classroom is big and ___, with yellow walls.",
-        "options": [
-          "bright",
-          "dark",
-          "small",
-          "empty"
+          "A notebook and a book",
+          "A ruler",
+          "A computer",
+          "Nothing else"
         ]
       }
     ]
@@ -5826,57 +6588,42 @@
     ]
   },
   {
-    "slug": "english-a1-my-school-listening",
+    "slug": "english-a1-my-school-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "my-school",
     "title": "What's in Your Bag?",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 41,
-    "estimatedMinutes": 10,
-    "description": "Listen to two classmates checking their school bags.",
-    "intro": "Listen to Sofia and Marco talking about what is in their school bags before class.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 42,
+    "estimatedMinutes": 8,
+    "description": "Practice asking and answering about school objects.",
+    "intro": "Practice asking and answering about school objects.",
+    "mission": "Ask a partner what is in their school bag and answer about your own bag.",
     "grammar": "",
     "phrases": [
       "Do you have a...?",
+      "There is a... / There are...",
       "Can I borrow...?",
-      "Here you are.",
-      "Is there a... in your bag?"
+      "My favorite subject is..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Sofia",
-        "line": "Do you have a pencil, Marco?",
-        "translation": "¿Tienes un lápiz, Marco?"
+        "speaker": "You",
+        "line": "What is in your bag?",
+        "translation": "¿Qué hay en tu mochila?"
       },
       {
-        "speaker": "Marco",
-        "line": "Yes, I have two pencils and a pen.",
-        "translation": "Sí, tengo dos lápices y un bolígrafo."
+        "speaker": "Partner",
+        "line": "There is a notebook and two pens.",
+        "translation": "Hay un cuaderno y dos bolígrafos."
       },
       {
-        "speaker": "Sofia",
-        "line": "Great, can I borrow one, please?",
-        "translation": "Genial, ¿me prestas uno, por favor?"
-      },
-      {
-        "speaker": "Marco",
-        "line": "Sure, here you are.",
-        "translation": "Claro, aquí tienes."
-      },
-      {
-        "speaker": "Sofia",
-        "line": "Thank you! Is there a notebook in your bag too?",
-        "translation": "¡Gracias! ¿Hay también un cuaderno en tu mochila?"
-      },
-      {
-        "speaker": "Marco",
-        "line": "Yes, there is one notebook and one book.",
-        "translation": "Sí, hay un cuaderno y un libro."
+        "speaker": "You",
+        "line": "What is your favorite subject?",
+        "translation": "¿Cuál es tu materia favorita?"
       }
     ],
     "reading": null,
@@ -5884,34 +6631,12 @@
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "How many pencils does Marco have?",
-        "options": [
-          "One",
-          "Two",
-          "Three",
-          "None"
-        ]
+        "type": "speaking",
+        "prompt": "Say out loud three school objects that are in your bag."
       },
       {
-        "type": "mcq",
-        "prompt": "What does Sofia ask to borrow?",
-        "options": [
-          "A book",
-          "A pencil",
-          "A notebook",
-          "A pen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What else is in Marco's bag?",
-        "options": [
-          "A notebook and a book",
-          "A ruler",
-          "A computer",
-          "Nothing else"
-        ]
+        "type": "practice",
+        "prompt": "Ask a partner \"What is your favorite subject?\" and tell them yours."
       }
     ]
   },
@@ -5978,98 +6703,6 @@
     ]
   },
   {
-    "slug": "english-a1-my-school-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "my-school",
-    "title": "What's in Your Bag?",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 42,
-    "estimatedMinutes": 8,
-    "description": "Practice asking and answering about school objects.",
-    "intro": "Practice asking and answering about school objects.",
-    "mission": "Ask a partner what is in their school bag and answer about your own bag.",
-    "grammar": "",
-    "phrases": [
-      "Do you have a...?",
-      "There is a... / There are...",
-      "Can I borrow...?",
-      "My favorite subject is..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "You",
-        "line": "What is in your bag?",
-        "translation": "¿Qué hay en tu mochila?"
-      },
-      {
-        "speaker": "Partner",
-        "line": "There is a notebook and two pens.",
-        "translation": "Hay un cuaderno y dos bolígrafos."
-      },
-      {
-        "speaker": "You",
-        "line": "What is your favorite subject?",
-        "translation": "¿Cuál es tu materia favorita?"
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Say out loud three school objects that are in your bag."
-      },
-      {
-        "type": "practice",
-        "prompt": "Ask a partner \"What is your favorite subject?\" and tell them yours."
-      }
-    ]
-  },
-  {
-    "slug": "english-a2-food-and-shopping-writing",
-    "level": "A2",
-    "skill": "writing",
-    "unitId": "food-and-shopping",
-    "title": "A Meal I Cooked",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 43,
-    "estimatedMinutes": 15,
-    "description": "Write about a meal you cooked, including your shopping list and the result.",
-    "intro": "Write about a meal you cooked, including your shopping list and the result.",
-    "mission": "Write 80-130 words about a meal you cooked (or would like to cook) for someone: the ingredients you needed, and how it turned out.",
-    "grammar": "",
-    "phrases": [
-      "I decided to cook...",
-      "I needed some/a bit of...",
-      "I didn't have much/many...",
-      "In the end, it was..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Model",
-        "line": "Last month, I decided to cook dinner for my best friend's birthday. I needed some chicken, a bit of garlic, and a lot of vegetables, so I went to the market in the morning. I didn't have much time, because she was arriving at seven. I also didn't have any dessert, so I bought a small cake on the way home. In the end, the dinner was delicious, and we talked for hours. It wasn't perfect, but she loved it, and that's what mattered most.",
-        "translation": "El mes pasado, decidí cocinar cena para el cumpleaños de mi mejor amiga. Necesitaba algo de pollo, un poco de ajo y muchas verduras, así que fui al mercado en la mañana. No tenía mucho tiempo, porque ella llegaba a las siete. Tampoco tenía postre, así que compré un pastel pequeño de camino a casa. Al final, la cena estuvo deliciosa y hablamos por horas. No fue perfecta, pero a ella le encantó, y eso fue lo más importante."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Write 80-130 words about a meal you cooked or would like to cook for someone, using some/a bit of/a lot of/much/many."
-      }
-    ]
-  },
-  {
     "slug": "english-a1-my-school-writing",
     "level": "A1",
     "skill": "writing",
@@ -6109,151 +6742,41 @@
     ]
   },
   {
-    "slug": "english-a2-food-and-shopping-grammar",
+    "slug": "english-a2-food-and-shopping-writing",
     "level": "A2",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "food-and-shopping",
-    "title": "Countable and Uncountable Nouns; Some / Any / Much / Many",
+    "title": "A Meal I Cooked",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 44,
-    "estimatedMinutes": 12,
-    "description": "Talk about quantities of food and other things correctly.",
-    "intro": "Talk about quantities of food and other things correctly.",
-    "mission": "",
-    "grammar": "Countable nouns can be counted and have a plural form: one tomato, two tomatoes. Uncountable nouns cannot be counted and have no plural: rice, cheese, water, bread. Use a/an or a number with countable nouns, and words like some/a bit of/a lot of with uncountable nouns.\n\nUse some in positive sentences and offers (\"I need some milk\"), and any in negatives and questions (\"I don't have any milk,\" \"Do you have any milk?\"). Use many with countable plural nouns (\"How many eggs?\") and much with uncountable nouns (\"How much cheese?\"), especially in questions and negatives; a lot of works with both in positive sentences.\n\nApoyo: usa some (afirmaciones/ofertas) y any (negaciones/preguntas); usa many con contables y much con incontables.",
+    "xpReward": 30,
+    "orderIndex": 43,
+    "estimatedMinutes": 15,
+    "description": "Write about a meal you cooked, including your shopping list and the result.",
+    "intro": "Write about a meal you cooked, including your shopping list and the result.",
+    "mission": "Write 80-130 words about a meal you cooked (or would like to cook) for someone: the ingredients you needed, and how it turned out.",
+    "grammar": "",
     "phrases": [
-      "some / any",
-      "much / many",
-      "How much...? / How many...?",
-      "a lot of / a bit of"
+      "I decided to cook...",
+      "I needed some/a bit of...",
+      "I didn't have much/many...",
+      "In the end, it was..."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "Last month, I decided to cook dinner for my best friend's birthday. I needed some chicken, a bit of garlic, and a lot of vegetables, so I went to the market in the morning. I didn't have much time, because she was arriving at seven. I also didn't have any dessert, so I bought a small cake on the way home. In the end, the dinner was delicious, and we talked for hours. It wasn't perfect, but she loved it, and that's what mattered most.",
+        "translation": "El mes pasado, decidí cocinar cena para el cumpleaños de mi mejor amiga. Necesitaba algo de pollo, un poco de ajo y muchas verduras, así que fui al mercado en la mañana. No tenía mucho tiempo, porque ella llegaba a las siete. Tampoco tenía postre, así que compré un pastel pequeño de camino a casa. Al final, la cena estuvo deliciosa y hablamos por horas. No fue perfecta, pero a ella le encantó, y eso fue lo más importante."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "Which noun is uncountable?",
-        "options": [
-          "Tomato",
-          "Egg",
-          "Rice",
-          "Apple"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I need ___ milk for the recipe.",
-        "options": [
-          "a",
-          "some",
-          "many",
-          "a few"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I don't have ___ eggs left.",
-        "options": [
-          "some",
-          "any",
-          "much",
-          "a"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ cheese do you want?",
-        "options": [
-          "How many",
-          "How much",
-          "How",
-          "What"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ apples are there in the bag?",
-        "options": [
-          "How much",
-          "How many",
-          "How",
-          "What"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "There are ___ tomatoes in the fridge - we need to buy more.",
-        "options": [
-          "not much",
-          "not many",
-          "much",
-          "any"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Would you like ___ coffee?",
-        "options": [
-          "some",
-          "any",
-          "many",
-          "a"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We have ___ pasta - too much for two people!",
-        "options": [
-          "a few",
-          "a lot of",
-          "many",
-          "any"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Is there ___ bread in the kitchen?",
-        "options": [
-          "some",
-          "any",
-          "much",
-          "many"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I only have ___ money, so I can't buy everything.",
-        "options": [
-          "a little",
-          "a few",
-          "many",
-          "some"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "She bought ___ new potatoes at the market.",
-        "options": [
-          "a little",
-          "a few",
-          "much",
-          "a bit of"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ oil do we need for the pasta sauce?",
-        "options": [
-          "How many",
-          "How much",
-          "How",
-          "What"
-        ]
+        "type": "writing",
+        "prompt": "Write 80-130 words about a meal you cooked or would like to cook for someone, using some/a bit of/a lot of/much/many."
       }
     ]
   },
@@ -6623,6 +7146,546 @@
     ]
   },
   {
+    "slug": "english-a2-food-and-shopping-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "food-and-shopping",
+    "title": "Countable and Uncountable Nouns; Some / Any / Much / Many",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 44,
+    "estimatedMinutes": 12,
+    "description": "Talk about quantities of food and other things correctly.",
+    "intro": "Talk about quantities of food and other things correctly.",
+    "mission": "",
+    "grammar": "Goal: use countable/uncountable nouns and some/any/much/many correctly when talking about quantities.\n\nRule: countable nouns can be counted and have a plural form: one tomato, two tomatoes. Uncountable nouns cannot be counted and have no plural: rice, cheese, water, bread.\n\nPattern: a/an/number + countable noun. some/a bit of + uncountable noun. How many + countable? How much + uncountable?\n\nExamples:\n1. I need some milk for the recipe.\n2. I don't have any eggs left.\n3. How much cheese do you want?\n4. How many apples are there in the bag?\n5. Would you like some coffee?\n6. We have a lot of pasta.\n7. Is there any bread in the kitchen?\n8. I only have a little money.\n\nAffirmative: some + noun, or a lot of + noun (either type). Example: \"We have a lot of pasta.\"\n\nNegative: any + noun (with don't/doesn't/isn't/aren't), or not much/not many. Example: \"I don't have any eggs left.\" \"There aren't many tomatoes.\"\n\nQuestions: any + noun for yes/no questions; How much/How many for quantity questions. Example: \"Do you have any bananas?\" \"How much cheese do you want?\"\n\nContractions: don't = do not, doesn't = does not, isn't = is not, aren't = are not.\n\nCommon mistakes: ✗ \"How much apples?\" → ✓ \"How many apples?\" (apples is countable, use many). ✗ \"How many cheese?\" → ✓ \"How much cheese?\" (cheese is uncountable, use much). ✗ \"I need a milk\" → ✓ \"I need some milk\" (uncountable nouns don't take \"a\").\n\nCompare: some (affirmative/offers) vs any (negatives/questions); many + countable (How many eggs?) vs much + uncountable (How much cheese?); a little (uncountable, small amount) vs a few (countable, small number).\n\nMini practice: complete. \"She bought ___ new potatoes.\" → a few. \"I only have ___ money.\" → a little. \"___ oil do we need?\" → How much.\n\nSummary: use some for affirmatives/offers and any for negatives/questions; use many with countable plurals and much with uncountables (especially in questions/negatives); a lot of works with both in affirmative sentences.\n\nApoyo: usa some (afirmaciones/ofertas) y any (negaciones/preguntas); usa many con contables y much con incontables.",
+    "phrases": [
+      "some / any",
+      "much / many",
+      "How much...? / How many...?",
+      "a lot of / a bit of"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "english-a2-food-and-shopping-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which noun is uncountable?",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o3",
+                "text": "Rice"
+              },
+              {
+                "id": "o1",
+                "text": "Tomato"
+              },
+              {
+                "id": "o2",
+                "text": "Egg"
+              },
+              {
+                "id": "o4",
+                "text": "Apple"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "I need ___ milk for the recipe.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "a"
+              },
+              {
+                "id": "o2",
+                "text": "some"
+              },
+              {
+                "id": "o3",
+                "text": "many"
+              },
+              {
+                "id": "o4",
+                "text": "a few"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "I don't have ___ eggs left.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "some"
+              },
+              {
+                "id": "o3",
+                "text": "much"
+              },
+              {
+                "id": "o2",
+                "text": "any"
+              },
+              {
+                "id": "o4",
+                "text": "a"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "___ cheese do you want?",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "How many"
+              },
+              {
+                "id": "o3",
+                "text": "How"
+              },
+              {
+                "id": "o4",
+                "text": "What"
+              },
+              {
+                "id": "o2",
+                "text": "How much"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "___ apples are there in the bag?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "How many"
+              },
+              {
+                "id": "o1",
+                "text": "How much"
+              },
+              {
+                "id": "o3",
+                "text": "How"
+              },
+              {
+                "id": "o4",
+                "text": "What"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "There are ___ tomatoes in the fridge - we need to buy more.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "not much"
+              },
+              {
+                "id": "o2",
+                "text": "not many"
+              },
+              {
+                "id": "o3",
+                "text": "much"
+              },
+              {
+                "id": "o4",
+                "text": "any"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Find the mistake: \"How much apples do we need?\"",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "There is no mistake"
+              },
+              {
+                "id": "o3",
+                "text": "It should be \"How much apple\""
+              },
+              {
+                "id": "o2",
+                "text": "It should be \"How many apples\""
+              },
+              {
+                "id": "o4",
+                "text": "It should be \"How many apple\""
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "We have ___ pasta - too much for two people!",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "a few"
+              },
+              {
+                "id": "o3",
+                "text": "many"
+              },
+              {
+                "id": "o4",
+                "text": "any"
+              },
+              {
+                "id": "o2",
+                "text": "a lot of"
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Choose the equivalent sentence to \"We have zero bread at home.\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "We don't have any bread."
+              },
+              {
+                "id": "o3",
+                "text": "We have some bread."
+              },
+              {
+                "id": "o4",
+                "text": "We have many bread."
+              },
+              {
+                "id": "o2",
+                "text": "We have a bread."
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "I only have ___ money, so I can't buy everything.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o2",
+                "text": "a few"
+              },
+              {
+                "id": "o1",
+                "text": "a little"
+              },
+              {
+                "id": "o3",
+                "text": "many"
+              },
+              {
+                "id": "o4",
+                "text": "some"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "She bought ___ new potatoes at the market.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "a little"
+              },
+              {
+                "id": "o3",
+                "text": "much"
+              },
+              {
+                "id": "o2",
+                "text": "a few"
+              },
+              {
+                "id": "o4",
+                "text": "a bit of"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Put in order: \"oil / we / how much / for the sauce / need / do\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "We need how much oil for the sauce?"
+              },
+              {
+                "id": "o4",
+                "text": "Do we need for the sauce how much oil?"
+              },
+              {
+                "id": "o2",
+                "text": "How much do we need oil for the sauce?"
+              },
+              {
+                "id": "o1",
+                "text": "How much oil do we need for the sauce?"
+              }
+            ]
+          }
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which noun is uncountable?",
+        "options": [
+          "Tomato",
+          "Egg",
+          "Rice",
+          "Apple"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I need ___ milk for the recipe.",
+        "options": [
+          "a",
+          "some",
+          "many",
+          "a few"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I don't have ___ eggs left.",
+        "options": [
+          "some",
+          "any",
+          "much",
+          "a"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ cheese do you want?",
+        "options": [
+          "How many",
+          "How much",
+          "How",
+          "What"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ apples are there in the bag?",
+        "options": [
+          "How much",
+          "How many",
+          "How",
+          "What"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "There are ___ tomatoes in the fridge - we need to buy more.",
+        "options": [
+          "not much",
+          "not many",
+          "much",
+          "any"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Would you like ___ coffee?",
+        "options": [
+          "some",
+          "any",
+          "many",
+          "a"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We have ___ pasta - too much for two people!",
+        "options": [
+          "a few",
+          "a lot of",
+          "many",
+          "any"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Is there ___ bread in the kitchen?",
+        "options": [
+          "some",
+          "any",
+          "much",
+          "many"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I only have ___ money, so I can't buy everything.",
+        "options": [
+          "a little",
+          "a few",
+          "many",
+          "some"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "She bought ___ new potatoes at the market.",
+        "options": [
+          "a little",
+          "a few",
+          "much",
+          "a bit of"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ oil do we need for the pasta sauce?",
+        "options": [
+          "How many",
+          "How much",
+          "How",
+          "What"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-school-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "my-school",
+    "title": "School Objects and Subjects",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 45,
+    "estimatedMinutes": 6,
+    "description": "Words for classroom objects and school subjects.",
+    "intro": "Words for classroom objects and school subjects.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Classroom",
+        "translation": "Salón de clases",
+        "example": "My classroom is big."
+      },
+      {
+        "word": "Pencil",
+        "translation": "Lápiz",
+        "example": "I have two pencils."
+      },
+      {
+        "word": "Notebook",
+        "translation": "Cuaderno",
+        "example": "Write it in your notebook."
+      },
+      {
+        "word": "Whiteboard",
+        "translation": "Pizarra",
+        "example": "The teacher writes on the whiteboard."
+      },
+      {
+        "word": "Subject",
+        "translation": "Materia",
+        "example": "English is my favorite subject."
+      },
+      {
+        "word": "Desk",
+        "translation": "Pupitre / escritorio",
+        "example": "There are twenty desks."
+      },
+      {
+        "word": "Homework",
+        "translation": "Tarea",
+        "example": "I do my homework after school."
+      },
+      {
+        "word": "Book",
+        "translation": "Libro",
+        "example": "Open your book, please."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Notebook\" mean?",
+        "options": [
+          "Cuaderno",
+          "Lápiz",
+          "Pizarra",
+          "Libro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Subject\" mean?",
+        "options": [
+          "Salón",
+          "Materia",
+          "Pupitre",
+          "Tarea"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Homework\" mean?",
+        "options": [
+          "Tarea",
+          "Libro",
+          "Cuaderno",
+          "Pizarra"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-food-and-shopping-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
@@ -6908,96 +7971,121 @@
     ]
   },
   {
-    "slug": "english-a1-my-school-vocabulary",
+    "slug": "english-a1-daily-routine-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "my-school",
-    "title": "School Objects and Subjects",
+    "skill": "reading",
+    "unitId": "daily-routine",
+    "title": "A Normal Day",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 45,
-    "estimatedMinutes": 6,
-    "description": "Words for classroom objects and school subjects.",
-    "intro": "Words for classroom objects and school subjects.",
+    "xpReward": 25,
+    "orderIndex": 50,
+    "estimatedMinutes": 10,
+    "description": "A short text about Ana's daily routine, in three parts.",
+    "intro": "A short text about Ana's daily routine, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Classroom",
-        "translation": "Salón de clases",
-        "example": "My classroom is big."
-      },
-      {
-        "word": "Pencil",
-        "translation": "Lápiz",
-        "example": "I have two pencils."
-      },
-      {
-        "word": "Notebook",
-        "translation": "Cuaderno",
-        "example": "Write it in your notebook."
-      },
-      {
-        "word": "Whiteboard",
-        "translation": "Pizarra",
-        "example": "The teacher writes on the whiteboard."
-      },
-      {
-        "word": "Subject",
-        "translation": "Materia",
-        "example": "English is my favorite subject."
-      },
-      {
-        "word": "Desk",
-        "translation": "Pupitre / escritorio",
-        "example": "There are twenty desks."
-      },
-      {
-        "word": "Homework",
-        "translation": "Tarea",
-        "example": "I do my homework after school."
-      },
-      {
-        "word": "Book",
-        "translation": "Libro",
-        "example": "Open your book, please."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "A Normal Day",
+      "parts": [
+        "Every day, I get up at seven o'clock. First, I brush my teeth and wash my face. Then I eat breakfast with my family: bread, eggs, and juice. After breakfast, I walk to school with my friend Sofia. We talk about our homework on the way.",
+        "School starts at eight o'clock. I have English, Math, and Science in the morning. At noon, I eat lunch with my classmates in the cafeteria. In the afternoon, I do my homework at home, and then I play soccer with my brother in the garden.",
+        "In the evening, my family has dinner together at seven o'clock. We talk about our day and laugh a lot. After dinner, I read a book for a little while. I go to bed at nine thirty. I always sleep well because my day is full of activities!"
+      ],
+      "questions": [
+        "What time does the writer get up?",
+        "Who does she walk to school with?",
+        "What time does she go to bed?"
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "Ana gets up and eats breakfast.",
+          "Ana walks to school with Sofia.",
+          "Ana does her homework and plays soccer.",
+          "The family has dinner together."
+        ]
+      },
+      "text": "Every day, I get up at seven o'clock. First, I brush my teeth and wash my face. Then I eat breakfast with my family: bread, eggs, and juice. After breakfast, I walk to school with my friend Sofia. We talk about our homework on the way.\n\nSchool starts at eight o'clock. I have English, Math, and Science in the morning. At noon, I eat lunch with my classmates in the cafeteria. In the afternoon, I do my homework at home, and then I play soccer with my brother in the garden.\n\nIn the evening, my family has dinner together at seven o'clock. We talk about our day and laugh a lot. After dinner, I read a book for a little while. I go to bed at nine thirty. I always sleep well because my day is full of activities!"
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does \"Notebook\" mean?",
+        "prompt": "What time does she get up?",
         "options": [
-          "Cuaderno",
-          "Lápiz",
-          "Pizarra",
-          "Libro"
+          "Six o'clock",
+          "Seven o'clock",
+          "Eight o'clock",
+          "Nine o'clock"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Subject\" mean?",
+        "prompt": "What does she eat for breakfast?",
         "options": [
-          "Salón",
-          "Materia",
-          "Pupitre",
-          "Tarea"
+          "Rice and chicken",
+          "Bread, eggs and juice",
+          "Pizza",
+          "Only fruit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Homework\" mean?",
+        "prompt": "What does she do after school?",
         "options": [
-          "Tarea",
-          "Libro",
-          "Cuaderno",
-          "Pizarra"
+          "She sleeps",
+          "She eats breakfast",
+          "She does homework and plays soccer",
+          "She goes to work"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What time does the family have dinner?",
+        "options": [
+          "Six o'clock",
+          "Seven o'clock",
+          "Eight o'clock",
+          "Nine o'clock"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: She walks to school alone.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: She has English, Math and Science in the morning.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: She goes to bed at eight thirty.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: We talk about our day and ___ a lot at dinner.",
+        "options": [
+          "laugh",
+          "cry",
+          "sleep",
+          "cook"
         ]
       }
     ]
@@ -7119,121 +8207,91 @@
     ]
   },
   {
-    "slug": "english-a1-daily-routine-reading",
+    "slug": "english-a1-daily-routine-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "daily-routine",
-    "title": "A Normal Day",
+    "title": "What Time Do You Wake Up?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 50,
+    "orderIndex": 51,
     "estimatedMinutes": 10,
-    "description": "A short text about Ana's daily routine, in three parts.",
-    "intro": "A short text about Ana's daily routine, in three parts.",
+    "description": "Listen to two friends comparing their daily routines.",
+    "intro": "Listen to Leo and Marco talking about what time they do things every day.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "What time do you...?",
+      "I wake up at...",
+      "I get up at...",
+      "School starts at..."
+    ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "A Normal Day",
-      "parts": [
-        "Every day, I get up at seven o'clock. First, I brush my teeth and wash my face. Then I eat breakfast with my family: bread, eggs, and juice. After breakfast, I walk to school with my friend Sofia. We talk about our homework on the way.",
-        "School starts at eight o'clock. I have English, Math, and Science in the morning. At noon, I eat lunch with my classmates in the cafeteria. In the afternoon, I do my homework at home, and then I play soccer with my brother in the garden.",
-        "In the evening, my family has dinner together at seven o'clock. We talk about our day and laugh a lot. After dinner, I read a book for a little while. I go to bed at nine thirty. I always sleep well because my day is full of activities!"
-      ],
-      "questions": [
-        "What time does the writer get up?",
-        "Who does she walk to school with?",
-        "What time does she go to bed?"
-      ],
-      "ordering": {
-        "prompt": "Put the events of the story in order.",
-        "events": [
-          "Ana gets up and eats breakfast.",
-          "Ana walks to school with Sofia.",
-          "Ana does her homework and plays soccer.",
-          "The family has dinner together."
-        ]
+    "dialogue": [
+      {
+        "speaker": "Leo",
+        "line": "What time do you wake up, Marco?",
+        "translation": "¿A qué hora te despiertas, Marco?"
       },
-      "text": "Every day, I get up at seven o'clock. First, I brush my teeth and wash my face. Then I eat breakfast with my family: bread, eggs, and juice. After breakfast, I walk to school with my friend Sofia. We talk about our homework on the way.\n\nSchool starts at eight o'clock. I have English, Math, and Science in the morning. At noon, I eat lunch with my classmates in the cafeteria. In the afternoon, I do my homework at home, and then I play soccer with my brother in the garden.\n\nIn the evening, my family has dinner together at seven o'clock. We talk about our day and laugh a lot. After dinner, I read a book for a little while. I go to bed at nine thirty. I always sleep well because my day is full of activities!"
-    },
+      {
+        "speaker": "Marco",
+        "line": "I wake up at six thirty. What about you?",
+        "translation": "Me despierto a las seis y media. ¿Y tú?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "I get up at seven. Then I eat breakfast quickly.",
+        "translation": "Yo me levanto a las siete. Luego desayuno rápido."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Do you walk to school?",
+        "translation": "¿Caminas a la escuela?"
+      },
+      {
+        "speaker": "Leo",
+        "line": "Yes, I walk with my sister every day.",
+        "translation": "Sí, camino con mi hermana todos los días."
+      },
+      {
+        "speaker": "Marco",
+        "line": "I take the bus. School starts at eight.",
+        "translation": "Yo tomo el autobús. La escuela empieza a las ocho."
+      }
+    ],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What time does she get up?",
+        "prompt": "What time does Marco wake up?",
         "options": [
-          "Six o'clock",
-          "Seven o'clock",
-          "Eight o'clock",
-          "Nine o'clock"
+          "Six thirty",
+          "Seven",
+          "Eight",
+          "Nine"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does she eat for breakfast?",
+        "prompt": "How does Leo go to school?",
         "options": [
-          "Rice and chicken",
-          "Bread, eggs and juice",
-          "Pizza",
-          "Only fruit"
+          "By bus",
+          "By car",
+          "He walks",
+          "By bike"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does she do after school?",
+        "prompt": "What time does school start?",
         "options": [
-          "She sleeps",
-          "She eats breakfast",
-          "She does homework and plays soccer",
-          "She goes to work"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What time does the family have dinner?",
-        "options": [
-          "Six o'clock",
-          "Seven o'clock",
-          "Eight o'clock",
-          "Nine o'clock"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: She walks to school alone.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: She has English, Math and Science in the morning.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: She goes to bed at eight thirty.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: We talk about our day and ___ a lot at dinner.",
-        "options": [
-          "laugh",
-          "cry",
-          "sleep",
-          "cook"
+          "Six thirty",
+          "Seven",
+          "Eight",
+          "Nine"
         ]
       }
     ]
@@ -7400,57 +8458,42 @@
     ]
   },
   {
-    "slug": "english-a1-daily-routine-listening",
+    "slug": "english-a1-daily-routine-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "daily-routine",
-    "title": "What Time Do You Wake Up?",
+    "title": "Talk About Your Day",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 51,
-    "estimatedMinutes": 10,
-    "description": "Listen to two friends comparing their daily routines.",
-    "intro": "Listen to Leo and Marco talking about what time they do things every day.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 52,
+    "estimatedMinutes": 8,
+    "description": "Practice describing your daily routine.",
+    "intro": "Practice describing your daily routine.",
+    "mission": "Tell a partner three things you do every day and what time you do them.",
     "grammar": "",
     "phrases": [
-      "What time do you...?",
-      "I wake up at...",
       "I get up at...",
-      "School starts at..."
+      "I go to school at...",
+      "I do my homework...",
+      "I go to bed at..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Leo",
-        "line": "What time do you wake up, Marco?",
-        "translation": "¿A qué hora te despiertas, Marco?"
+        "speaker": "You",
+        "line": "I get up at... and I eat breakfast at...",
+        "translation": "Me levanto a las... y desayuno a las..."
       },
       {
-        "speaker": "Marco",
-        "line": "I wake up at six thirty. What about you?",
-        "translation": "Me despierto a las seis y media. ¿Y tú?"
+        "speaker": "Partner",
+        "line": "What time do you go to bed?",
+        "translation": "¿A qué hora te acuestas?"
       },
       {
-        "speaker": "Leo",
-        "line": "I get up at seven. Then I eat breakfast quickly.",
-        "translation": "Yo me levanto a las siete. Luego desayuno rápido."
-      },
-      {
-        "speaker": "Marco",
-        "line": "Do you walk to school?",
-        "translation": "¿Caminas a la escuela?"
-      },
-      {
-        "speaker": "Leo",
-        "line": "Yes, I walk with my sister every day.",
-        "translation": "Sí, camino con mi hermana todos los días."
-      },
-      {
-        "speaker": "Marco",
-        "line": "I take the bus. School starts at eight.",
-        "translation": "Yo tomo el autobús. La escuela empieza a las ocho."
+        "speaker": "You",
+        "line": "I go to bed at...",
+        "translation": "Me acuesto a las..."
       }
     ],
     "reading": null,
@@ -7458,34 +8501,12 @@
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "What time does Marco wake up?",
-        "options": [
-          "Six thirty",
-          "Seven",
-          "Eight",
-          "Nine"
-        ]
+        "type": "speaking",
+        "prompt": "Say out loud three things you do every day, with the time for each one."
       },
       {
-        "type": "mcq",
-        "prompt": "How does Leo go to school?",
-        "options": [
-          "By bus",
-          "By car",
-          "He walks",
-          "By bike"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What time does school start?",
-        "options": [
-          "Six thirty",
-          "Seven",
-          "Eight",
-          "Nine"
-        ]
+        "type": "practice",
+        "prompt": "Ask a partner \"What time do you wake up?\" and compare your answers."
       }
     ]
   },
@@ -7552,98 +8573,6 @@
     ]
   },
   {
-    "slug": "english-a1-daily-routine-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "daily-routine",
-    "title": "Talk About Your Day",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 52,
-    "estimatedMinutes": 8,
-    "description": "Practice describing your daily routine.",
-    "intro": "Practice describing your daily routine.",
-    "mission": "Tell a partner three things you do every day and what time you do them.",
-    "grammar": "",
-    "phrases": [
-      "I get up at...",
-      "I go to school at...",
-      "I do my homework...",
-      "I go to bed at..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "You",
-        "line": "I get up at... and I eat breakfast at...",
-        "translation": "Me levanto a las... y desayuno a las..."
-      },
-      {
-        "speaker": "Partner",
-        "line": "What time do you go to bed?",
-        "translation": "¿A qué hora te acuestas?"
-      },
-      {
-        "speaker": "You",
-        "line": "I go to bed at...",
-        "translation": "Me acuesto a las..."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Say out loud three things you do every day, with the time for each one."
-      },
-      {
-        "type": "practice",
-        "prompt": "Ask a partner \"What time do you wake up?\" and compare your answers."
-      }
-    ]
-  },
-  {
-    "slug": "english-a2-past-experiences-writing",
-    "level": "A2",
-    "skill": "writing",
-    "unitId": "past-experiences",
-    "title": "A Trip I Will Never Forget",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 53,
-    "estimatedMinutes": 15,
-    "description": "Write about a memorable trip or experience from your past.",
-    "intro": "Write about a memorable trip or experience from your past.",
-    "mission": "Write 80-130 words about a memorable trip or experience from your past, using the Past Simple and time expressions like first, then, after that.",
-    "grammar": "",
-    "phrases": [
-      "... years ago, I...",
-      "First, ... Then, ...",
-      "I didn't... but I...",
-      "It was unforgettable because..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Model",
-        "line": "Three years ago, I visited the mountains with my family for the first time. We drove for six hours and arrived late at night. The next morning, we walked to a beautiful waterfall and had a picnic near the river. We didn't plan much, but we found a small village with amazing food. On the last day, it rained all morning, so we played cards in the cabin and told stories. It wasn't a perfect trip, but it was unforgettable because we laughed so much together.",
-        "translation": "Hace tres años, visité las montañas con mi familia por primera vez. Manejamos durante seis horas y llegamos tarde en la noche. A la mañana siguiente, caminamos hasta una hermosa cascada e hicimos un picnic cerca del río. No planeamos mucho, pero encontramos un pueblo pequeño con comida increíble. El último día, llovió toda la mañana, así que jugamos cartas en la cabaña y contamos historias. No fue un viaje perfecto, pero fue inolvidable porque nos reímos mucho juntos."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Write 80-130 words about a memorable trip or experience from your past, using the Past Simple and at least two time-sequence words (first, then, after that, finally)."
-      }
-    ]
-  },
-  {
     "slug": "english-a1-daily-routine-writing",
     "level": "A1",
     "skill": "writing",
@@ -7683,151 +8612,41 @@
     ]
   },
   {
-    "slug": "english-a2-past-experiences-grammar",
+    "slug": "english-a2-past-experiences-writing",
     "level": "A2",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "past-experiences",
-    "title": "Past Simple (Regular and Irregular Verbs)",
+    "title": "A Trip I Will Never Forget",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 54,
-    "estimatedMinutes": 12,
-    "description": "Talk about completed actions and experiences in the past.",
-    "intro": "Talk about completed actions and experiences in the past.",
-    "mission": "",
-    "grammar": "Use the Past Simple for completed actions at a specific time in the past: \"We visited Paris in June.\" Regular verbs add -ed: visit -> visited, travel -> travelled. Irregular verbs change form completely and must be memorised: go -> went, see -> saw, have -> had, get -> got.\n\nThe negative uses didn't + base verb for all subjects: \"We didn't sleep much.\" The question uses Did + subject + base verb: \"Did you visit Rome?\" Time expressions like yesterday, last year, two weeks ago, and in June often signal the Past Simple.\n\nApoyo: usa el Past Simple para acciones terminadas en el pasado; recuerda que los verbos irregulares cambian de forma y deben memorizarse.",
+    "xpReward": 30,
+    "orderIndex": 53,
+    "estimatedMinutes": 15,
+    "description": "Write about a memorable trip or experience from your past.",
+    "intro": "Write about a memorable trip or experience from your past.",
+    "mission": "Write 80-130 words about a memorable trip or experience from your past, using the Past Simple and time expressions like first, then, after that.",
+    "grammar": "",
     "phrases": [
-      "I/We visited... (regular)",
-      "I/We went... (irregular)",
-      "I/We didn't...",
-      "Did you...?"
+      "... years ago, I...",
+      "First, ... Then, ...",
+      "I didn't... but I...",
+      "It was unforgettable because..."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "Three years ago, I visited the mountains with my family for the first time. We drove for six hours and arrived late at night. The next morning, we walked to a beautiful waterfall and had a picnic near the river. We didn't plan much, but we found a small village with amazing food. On the last day, it rained all morning, so we played cards in the cabin and told stories. It wasn't a perfect trip, but it was unforgettable because we laughed so much together.",
+        "translation": "Hace tres años, visité las montañas con mi familia por primera vez. Manejamos durante seis horas y llegamos tarde en la noche. A la mañana siguiente, caminamos hasta una hermosa cascada e hicimos un picnic cerca del río. No planeamos mucho, pero encontramos un pueblo pequeño con comida increíble. El último día, llovió toda la mañana, así que jugamos cartas en la cabaña y contamos historias. No fue un viaje perfecto, pero fue inolvidable porque nos reímos mucho juntos."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "They ___ to Paris last summer.",
-        "options": [
-          "fly",
-          "flied",
-          "flew",
-          "flown"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ the museum yesterday.",
-        "options": [
-          "visit",
-          "visited",
-          "visiting",
-          "visits"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "She ___ have much money when she travelled.",
-        "options": [
-          "doesn't",
-          "didn't",
-          "don't",
-          "wasn't"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ you enjoy the trip?",
-        "options": [
-          "Do",
-          "Does",
-          "Did",
-          "Were"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I ___ lost in the old city.",
-        "options": [
-          "get",
-          "gets",
-          "getting",
-          "got"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ some amazing photos on that trip.",
-        "options": [
-          "take",
-          "took",
-          "taken",
-          "taking"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "He ___ his backpack at the hostel.",
-        "options": [
-          "leave",
-          "left",
-          "leaves",
-          "leaving"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "They ___ not stay in a hotel - it was too expensive.",
-        "options": [
-          "did",
-          "was",
-          "do",
-          "were"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ a lot of new people during the trip.",
-        "options": [
-          "meet",
-          "meeted",
-          "met",
-          "meets"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Last year, I ___ to Italy for the first time.",
-        "options": [
-          "go",
-          "goed",
-          "went",
-          "gone"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ they travel by train or by bus?",
-        "options": [
-          "Do",
-          "Does",
-          "Did",
-          "Were"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I ___ that view - it was unforgettable.",
-        "options": [
-          "never forget",
-          "never forgot",
-          "will never forget",
-          "not forget"
-        ]
+        "type": "writing",
+        "prompt": "Write 80-130 words about a memorable trip or experience from your past, using the Past Simple and at least two time-sequence words (first, then, after that, finally)."
       }
     ]
   },
@@ -8197,6 +9016,546 @@
     ]
   },
   {
+    "slug": "english-a2-past-experiences-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "past-experiences",
+    "title": "Past Simple (Regular and Irregular Verbs)",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 54,
+    "estimatedMinutes": 12,
+    "description": "Talk about completed actions and experiences in the past.",
+    "intro": "Talk about completed actions and experiences in the past.",
+    "mission": "",
+    "grammar": "Goal: describe completed actions and experiences in the past, with both regular and irregular verbs.\n\nRule: use the Past Simple for completed actions at a specific time in the past: \"We visited Paris in June.\" Regular verbs add -ed; irregular verbs change form completely and must be memorised.\n\nPattern: Regular → verb + -ed (visit → visited, travel → travelled). Irregular → memorised form (go → went, see → saw, have → had, get → got). Negative: didn't + base verb. Question: Did + subject + base verb?\n\nExamples:\n1. They flew to Paris last summer.\n2. We visited the museum yesterday.\n3. I got lost in the old city.\n4. We took some amazing photos.\n5. He left his backpack at the hostel.\n6. We met a lot of new people.\n7. Last year, I went to Italy for the first time.\n8. She didn't have much money when she travelled.\n\nAffirmative: subject + past form of the verb. Example: \"We visited the museum yesterday.\" \"I went to Italy.\"\n\nNegative: subject + didn't + base verb (the same for every subject, and the verb goes back to its base form). Example: \"They didn't stay in a hotel.\" \"She didn't have much money.\"\n\nQuestions: Did + subject + base verb...? Example: \"Did you enjoy the trip?\" \"Did they travel by train or by bus?\"\n\nContractions: didn't = did not.\n\nCommon mistakes: ✗ \"She goed to Italy\" → ✓ \"She went to Italy\" (go is irregular, never \"goed\"). ✗ \"Did you visited Rome?\" → ✓ \"Did you visit Rome?\" (after \"did\", use the base verb, not the past form). ✗ \"They didn't went\" → ✓ \"They didn't go\" (same rule - base verb after didn't).\n\nCompare: regular verbs are predictable (-ed ending: visited, travelled, meeted is WRONG, the correct irregular form is \"met\"); irregular verbs like go/see/have/get/take/leave/meet/fly must simply be learned, since there is no rule for their past form.\n\nMini practice: complete. \"Last summer, they (fly) ___ to Paris.\" → flew. \"We (meet) ___ a lot of new people.\" → met. \"___ you (enjoy) the trip?\" → Did you enjoy.\n\nSummary: use the Past Simple for finished actions in the past (regular verbs + -ed, irregular verbs memorised); use didn't + base verb for negatives and Did + subject + base verb for questions, with time words like yesterday, last year, two weeks ago.\n\nApoyo: usa el Past Simple para acciones terminadas en el pasado; recuerda que los verbos irregulares cambian de forma y deben memorizarse.",
+    "phrases": [
+      "I/We visited... (regular)",
+      "I/We went... (irregular)",
+      "I/We didn't...",
+      "Did you...?"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "english-a2-past-experiences-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "They ___ to Paris last summer.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o3",
+                "text": "flew"
+              },
+              {
+                "id": "o1",
+                "text": "fly"
+              },
+              {
+                "id": "o2",
+                "text": "flied"
+              },
+              {
+                "id": "o4",
+                "text": "flown"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "We ___ the museum yesterday.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visit"
+              },
+              {
+                "id": "o2",
+                "text": "visited"
+              },
+              {
+                "id": "o3",
+                "text": "visiting"
+              },
+              {
+                "id": "o4",
+                "text": "visits"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "She ___ have much money when she travelled.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "doesn't"
+              },
+              {
+                "id": "o3",
+                "text": "don't"
+              },
+              {
+                "id": "o2",
+                "text": "didn't"
+              },
+              {
+                "id": "o4",
+                "text": "wasn't"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "___ you enjoy the trip?",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Do"
+              },
+              {
+                "id": "o2",
+                "text": "Does"
+              },
+              {
+                "id": "o4",
+                "text": "Were"
+              },
+              {
+                "id": "o3",
+                "text": "Did"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "I ___ lost in the old city.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o4",
+                "text": "got"
+              },
+              {
+                "id": "o1",
+                "text": "get"
+              },
+              {
+                "id": "o2",
+                "text": "gets"
+              },
+              {
+                "id": "o3",
+                "text": "getting"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Find the mistake: \"Last year, I goed to Italy.\"",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "There is no mistake"
+              },
+              {
+                "id": "o2",
+                "text": "It should be \"I went to Italy\""
+              },
+              {
+                "id": "o3",
+                "text": "It should be \"I gone to Italy\""
+              },
+              {
+                "id": "o4",
+                "text": "It should be \"I go to Italy\""
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Choose the correct question.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Did you visited Rome?"
+              },
+              {
+                "id": "o3",
+                "text": "Did you visits Rome?"
+              },
+              {
+                "id": "o2",
+                "text": "Did you visit Rome?"
+              },
+              {
+                "id": "o4",
+                "text": "You did visit Rome?"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "We ___ a lot of new people during the trip.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "meet"
+              },
+              {
+                "id": "o2",
+                "text": "meeted"
+              },
+              {
+                "id": "o4",
+                "text": "meets"
+              },
+              {
+                "id": "o3",
+                "text": "met"
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "They ___ not stay in a hotel - it was too expensive.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "did"
+              },
+              {
+                "id": "o2",
+                "text": "was"
+              },
+              {
+                "id": "o3",
+                "text": "do"
+              },
+              {
+                "id": "o4",
+                "text": "were"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "Choose the sentence equivalent to \"He put his backpack down at the hostel and did not take it.\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "He leaves his backpack at the hostel."
+              },
+              {
+                "id": "o1",
+                "text": "He left his backpack at the hostel."
+              },
+              {
+                "id": "o4",
+                "text": "He leave his backpack at the hostel."
+              },
+              {
+                "id": "o2",
+                "text": "He leaved his backpack at the hostel."
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Put in order: \"by train / did / travel / they / or by bus\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "They did travel by train or by bus?"
+              },
+              {
+                "id": "o4",
+                "text": "Travel did they by train or by bus?"
+              },
+              {
+                "id": "o1",
+                "text": "Did they travel by train or by bus?"
+              },
+              {
+                "id": "o2",
+                "text": "Did travel they by train or by bus?"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "I ___ that view - it was unforgettable.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "never forget"
+              },
+              {
+                "id": "o3",
+                "text": "will never forget"
+              },
+              {
+                "id": "o4",
+                "text": "not forget"
+              },
+              {
+                "id": "o2",
+                "text": "never forgot"
+              }
+            ]
+          }
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "They ___ to Paris last summer.",
+        "options": [
+          "fly",
+          "flied",
+          "flew",
+          "flown"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ the museum yesterday.",
+        "options": [
+          "visit",
+          "visited",
+          "visiting",
+          "visits"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "She ___ have much money when she travelled.",
+        "options": [
+          "doesn't",
+          "didn't",
+          "don't",
+          "wasn't"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ you enjoy the trip?",
+        "options": [
+          "Do",
+          "Does",
+          "Did",
+          "Were"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I ___ lost in the old city.",
+        "options": [
+          "get",
+          "gets",
+          "getting",
+          "got"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ some amazing photos on that trip.",
+        "options": [
+          "take",
+          "took",
+          "taken",
+          "taking"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "He ___ his backpack at the hostel.",
+        "options": [
+          "leave",
+          "left",
+          "leaves",
+          "leaving"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "They ___ not stay in a hotel - it was too expensive.",
+        "options": [
+          "did",
+          "was",
+          "do",
+          "were"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ a lot of new people during the trip.",
+        "options": [
+          "meet",
+          "meeted",
+          "met",
+          "meets"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Last year, I ___ to Italy for the first time.",
+        "options": [
+          "go",
+          "goed",
+          "went",
+          "gone"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ they travel by train or by bus?",
+        "options": [
+          "Do",
+          "Does",
+          "Did",
+          "Were"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I ___ that view - it was unforgettable.",
+        "options": [
+          "never forget",
+          "never forgot",
+          "will never forget",
+          "not forget"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-daily-routine-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "daily-routine",
+    "title": "Daily Actions",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 55,
+    "estimatedMinutes": 6,
+    "description": "Words and verbs for everyday routines.",
+    "intro": "Words and verbs for everyday routines.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Wake up",
+        "translation": "Despertarse",
+        "example": "I wake up at six thirty."
+      },
+      {
+        "word": "Get up",
+        "translation": "Levantarse",
+        "example": "I get up at seven."
+      },
+      {
+        "word": "Breakfast",
+        "translation": "Desayuno",
+        "example": "I eat breakfast every morning."
+      },
+      {
+        "word": "Walk to school",
+        "translation": "Caminar a la escuela",
+        "example": "I walk to school with Sofia."
+      },
+      {
+        "word": "Homework",
+        "translation": "Tarea",
+        "example": "I do my homework after school."
+      },
+      {
+        "word": "Dinner",
+        "translation": "Cena",
+        "example": "We have dinner at seven."
+      },
+      {
+        "word": "Go to bed",
+        "translation": "Irse a dormir",
+        "example": "I go to bed at nine thirty."
+      },
+      {
+        "word": "Every day",
+        "translation": "Todos los días",
+        "example": "I brush my teeth every day."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Wake up\" mean?",
+        "options": [
+          "Despertarse",
+          "Cenar",
+          "Caminar",
+          "Levantarse"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Dinner\" mean?",
+        "options": [
+          "Desayuno",
+          "Cena",
+          "Tarea",
+          "Escuela"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Go to bed\" mean?",
+        "options": [
+          "Levantarse",
+          "Despertarse",
+          "Irse a dormir",
+          "Caminar"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-past-experiences-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
@@ -8482,96 +9841,121 @@
     ]
   },
   {
-    "slug": "english-a1-daily-routine-vocabulary",
+    "slug": "english-a1-time-and-dates-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "daily-routine",
-    "title": "Daily Actions",
+    "skill": "reading",
+    "unitId": "time-and-dates",
+    "title": "My Weekly Schedule",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 55,
-    "estimatedMinutes": 6,
-    "description": "Words and verbs for everyday routines.",
-    "intro": "Words and verbs for everyday routines.",
+    "xpReward": 25,
+    "orderIndex": 60,
+    "estimatedMinutes": 10,
+    "description": "A short text about a student's weekly schedule, in three parts.",
+    "intro": "A short text about a student's weekly schedule, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Wake up",
-        "translation": "Despertarse",
-        "example": "I wake up at six thirty."
-      },
-      {
-        "word": "Get up",
-        "translation": "Levantarse",
-        "example": "I get up at seven."
-      },
-      {
-        "word": "Breakfast",
-        "translation": "Desayuno",
-        "example": "I eat breakfast every morning."
-      },
-      {
-        "word": "Walk to school",
-        "translation": "Caminar a la escuela",
-        "example": "I walk to school with Sofia."
-      },
-      {
-        "word": "Homework",
-        "translation": "Tarea",
-        "example": "I do my homework after school."
-      },
-      {
-        "word": "Dinner",
-        "translation": "Cena",
-        "example": "We have dinner at seven."
-      },
-      {
-        "word": "Go to bed",
-        "translation": "Irse a dormir",
-        "example": "I go to bed at nine thirty."
-      },
-      {
-        "word": "Every day",
-        "translation": "Todos los días",
-        "example": "I brush my teeth every day."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "My Weekly Schedule",
+      "parts": [
+        "My English class is on Monday, Wednesday, and Friday, at nine o'clock in the morning. I also have Math on Tuesday and Thursday, at ten o'clock. My classes finish at two o'clock in the afternoon, and then I go home for lunch.",
+        "My favorite day is Saturday because I don't have school. On Saturday mornings, I usually clean my room and help my mother. In the afternoon, I play with my friends in the park. Sunday is a quiet day; my family rests and visits my grandmother.",
+        "My birthday is in June, on the fifteenth. This year, my birthday is on a Sunday, so I can celebrate all day with my family! In the summer, in July and August, we don't have classes at all. I love summer because I can sleep late and travel."
+      ],
+      "questions": [
+        "What days does the writer have English class?",
+        "When is the writer's birthday?",
+        "Which months have no classes?"
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The writer goes to English class on Monday.",
+          "The writer cleans her room on Saturday morning.",
+          "The writer plays with friends on Saturday afternoon.",
+          "The writer celebrates her birthday in June."
+        ]
+      },
+      "text": "My English class is on Monday, Wednesday, and Friday, at nine o'clock in the morning. I also have Math on Tuesday and Thursday, at ten o'clock. My classes finish at two o'clock in the afternoon, and then I go home for lunch.\n\nMy favorite day is Saturday because I don't have school. On Saturday mornings, I usually clean my room and help my mother. In the afternoon, I play with my friends in the park. Sunday is a quiet day; my family rests and visits my grandmother.\n\nMy birthday is in June, on the fifteenth. This year, my birthday is on a Sunday, so I can celebrate all day with my family! In the summer, in July and August, we don't have classes at all. I love summer because I can sleep late and travel."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does \"Wake up\" mean?",
+        "prompt": "What time is English class?",
         "options": [
-          "Despertarse",
-          "Cenar",
-          "Caminar",
-          "Levantarse"
+          "Eight o'clock",
+          "Nine o'clock",
+          "Ten o'clock",
+          "Noon"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Dinner\" mean?",
+        "prompt": "When is the writer's birthday?",
         "options": [
-          "Desayuno",
-          "Cena",
-          "Tarea",
-          "Escuela"
+          "May 15th",
+          "June 15th",
+          "July 15th",
+          "June 5th"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Go to bed\" mean?",
+        "prompt": "Which day has no school?",
         "options": [
-          "Levantarse",
-          "Despertarse",
-          "Irse a dormir",
-          "Caminar"
+          "Monday",
+          "Wednesday",
+          "Friday",
+          "Saturday"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What time do classes finish?",
+        "options": [
+          "One o'clock",
+          "Two o'clock",
+          "Three o'clock",
+          "Four o'clock"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Math class is on Tuesday and Thursday.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer's birthday is in July.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: There are no classes in July and August.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Sunday is a ___ day; my family rests.",
+        "options": [
+          "quiet",
+          "noisy",
+          "busy",
+          "short"
         ]
       }
     ]
@@ -8693,121 +10077,91 @@
     ]
   },
   {
-    "slug": "english-a1-time-and-dates-reading",
+    "slug": "english-a1-time-and-dates-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "time-and-dates",
-    "title": "My Weekly Schedule",
+    "title": "What Time Is It?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 60,
+    "orderIndex": 61,
     "estimatedMinutes": 10,
-    "description": "A short text about a student's weekly schedule, in three parts.",
-    "intro": "A short text about a student's weekly schedule, in three parts.",
+    "description": "Listen to two friends checking the time and making plans.",
+    "intro": "Listen to Sofia and Leo talking about what time it is and their plans for the day.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "What time is it?",
+      "It's ... o'clock.",
+      "What day is...?",
+      "It's on..."
+    ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "My Weekly Schedule",
-      "parts": [
-        "My English class is on Monday, Wednesday, and Friday, at nine o'clock in the morning. I also have Math on Tuesday and Thursday, at ten o'clock. My classes finish at two o'clock in the afternoon, and then I go home for lunch.",
-        "My favorite day is Saturday because I don't have school. On Saturday mornings, I usually clean my room and help my mother. In the afternoon, I play with my friends in the park. Sunday is a quiet day; my family rests and visits my grandmother.",
-        "My birthday is in June, on the fifteenth. This year, my birthday is on a Sunday, so I can celebrate all day with my family! In the summer, in July and August, we don't have classes at all. I love summer because I can sleep late and travel."
-      ],
-      "questions": [
-        "What days does the writer have English class?",
-        "When is the writer's birthday?",
-        "Which months have no classes?"
-      ],
-      "ordering": {
-        "prompt": "Put the events of the story in order.",
-        "events": [
-          "The writer goes to English class on Monday.",
-          "The writer cleans her room on Saturday morning.",
-          "The writer plays with friends on Saturday afternoon.",
-          "The writer celebrates her birthday in June."
-        ]
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Excuse me, what time is it?",
+        "translation": "Disculpa, ¿qué hora es?"
       },
-      "text": "My English class is on Monday, Wednesday, and Friday, at nine o'clock in the morning. I also have Math on Tuesday and Thursday, at ten o'clock. My classes finish at two o'clock in the afternoon, and then I go home for lunch.\n\nMy favorite day is Saturday because I don't have school. On Saturday mornings, I usually clean my room and help my mother. In the afternoon, I play with my friends in the park. Sunday is a quiet day; my family rests and visits my grandmother.\n\nMy birthday is in June, on the fifteenth. This year, my birthday is on a Sunday, so I can celebrate all day with my family! In the summer, in July and August, we don't have classes at all. I love summer because I can sleep late and travel."
-    },
+      {
+        "speaker": "Leo",
+        "line": "It's a quarter past three.",
+        "translation": "Son las tres y cuarto."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Great, my class starts at four o'clock.",
+        "translation": "Genial, mi clase empieza a las cuatro."
+      },
+      {
+        "speaker": "Leo",
+        "line": "What day is your English test?",
+        "translation": "¿Qué día es tu examen de inglés?"
+      },
+      {
+        "speaker": "Sofia",
+        "line": "It's on Friday, at half past ten in the morning.",
+        "translation": "Es el viernes, a las diez y media de la mañana."
+      },
+      {
+        "speaker": "Leo",
+        "line": "Good luck! See you on Friday.",
+        "translation": "¡Buena suerte! Nos vemos el viernes."
+      }
+    ],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What time is English class?",
+        "prompt": "What time is it in the dialogue?",
         "options": [
-          "Eight o'clock",
-          "Nine o'clock",
-          "Ten o'clock",
-          "Noon"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "When is the writer's birthday?",
-        "options": [
-          "May 15th",
-          "June 15th",
-          "July 15th",
-          "June 5th"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which day has no school?",
-        "options": [
-          "Monday",
-          "Wednesday",
-          "Friday",
-          "Saturday"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What time do classes finish?",
-        "options": [
-          "One o'clock",
-          "Two o'clock",
           "Three o'clock",
+          "A quarter past three",
+          "Half past three",
           "Four o'clock"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "True or false: Math class is on Tuesday and Thursday.",
+        "prompt": "What day is Sofia's test?",
         "options": [
-          "True",
-          "False"
+          "Monday",
+          "Wednesday",
+          "Friday",
+          "Sunday"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "True or false: The writer's birthday is in July.",
+        "prompt": "What time is the test?",
         "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: There are no classes in July and August.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: Sunday is a ___ day; my family rests.",
-        "options": [
-          "quiet",
-          "noisy",
-          "busy",
-          "short"
+          "Ten o'clock",
+          "Half past ten",
+          "Quarter past ten",
+          "Eleven o'clock"
         ]
       }
     ]
@@ -8973,57 +10327,42 @@
     ]
   },
   {
-    "slug": "english-a1-time-and-dates-listening",
+    "slug": "english-a1-time-and-dates-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "time-and-dates",
-    "title": "What Time Is It?",
+    "title": "Ask About Time and Dates",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 61,
-    "estimatedMinutes": 10,
-    "description": "Listen to two friends checking the time and making plans.",
-    "intro": "Listen to Sofia and Leo talking about what time it is and their plans for the day.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 62,
+    "estimatedMinutes": 8,
+    "description": "Practice asking and telling the time and days.",
+    "intro": "Practice asking and telling the time and days.",
+    "mission": "Ask a partner what time it is and what day their favorite class is.",
     "grammar": "",
     "phrases": [
       "What time is it?",
       "It's ... o'clock.",
-      "What day is...?",
-      "It's on..."
+      "What day is it today?",
+      "My favorite day is..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Sofia",
-        "line": "Excuse me, what time is it?",
-        "translation": "Disculpa, ¿qué hora es?"
+        "speaker": "You",
+        "line": "What time is it?",
+        "translation": "¿Qué hora es?"
       },
       {
-        "speaker": "Leo",
-        "line": "It's a quarter past three.",
-        "translation": "Son las tres y cuarto."
+        "speaker": "Partner",
+        "line": "It's half past ten.",
+        "translation": "Son las diez y media."
       },
       {
-        "speaker": "Sofia",
-        "line": "Great, my class starts at four o'clock.",
-        "translation": "Genial, mi clase empieza a las cuatro."
-      },
-      {
-        "speaker": "Leo",
-        "line": "What day is your English test?",
-        "translation": "¿Qué día es tu examen de inglés?"
-      },
-      {
-        "speaker": "Sofia",
-        "line": "It's on Friday, at half past ten in the morning.",
-        "translation": "Es el viernes, a las diez y media de la mañana."
-      },
-      {
-        "speaker": "Leo",
-        "line": "Good luck! See you on Friday.",
-        "translation": "¡Buena suerte! Nos vemos el viernes."
+        "speaker": "You",
+        "line": "What is your favorite day of the week?",
+        "translation": "¿Cuál es tu día favorito de la semana?"
       }
     ],
     "reading": null,
@@ -9031,34 +10370,12 @@
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "What time is it in the dialogue?",
-        "options": [
-          "Three o'clock",
-          "A quarter past three",
-          "Half past three",
-          "Four o'clock"
-        ]
+        "type": "speaking",
+        "prompt": "Say the current time out loud in English, and your favorite day of the week."
       },
       {
-        "type": "mcq",
-        "prompt": "What day is Sofia's test?",
-        "options": [
-          "Monday",
-          "Wednesday",
-          "Friday",
-          "Sunday"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What time is the test?",
-        "options": [
-          "Ten o'clock",
-          "Half past ten",
-          "Quarter past ten",
-          "Eleven o'clock"
-        ]
+        "type": "practice",
+        "prompt": "Ask a partner \"What time is your favorite class?\" and answer their question too."
       }
     ]
   },
@@ -9125,98 +10442,6 @@
     ]
   },
   {
-    "slug": "english-a1-time-and-dates-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "time-and-dates",
-    "title": "Ask About Time and Dates",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 62,
-    "estimatedMinutes": 8,
-    "description": "Practice asking and telling the time and days.",
-    "intro": "Practice asking and telling the time and days.",
-    "mission": "Ask a partner what time it is and what day their favorite class is.",
-    "grammar": "",
-    "phrases": [
-      "What time is it?",
-      "It's ... o'clock.",
-      "What day is it today?",
-      "My favorite day is..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "You",
-        "line": "What time is it?",
-        "translation": "¿Qué hora es?"
-      },
-      {
-        "speaker": "Partner",
-        "line": "It's half past ten.",
-        "translation": "Son las diez y media."
-      },
-      {
-        "speaker": "You",
-        "line": "What is your favorite day of the week?",
-        "translation": "¿Cuál es tu día favorito de la semana?"
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Say the current time out loud in English, and your favorite day of the week."
-      },
-      {
-        "type": "practice",
-        "prompt": "Ask a partner \"What time is your favorite class?\" and answer their question too."
-      }
-    ]
-  },
-  {
-    "slug": "english-a2-travel-and-transportation-writing",
-    "level": "A2",
-    "skill": "writing",
-    "unitId": "travel-and-transportation",
-    "title": "Comparing Two Destinations",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 63,
-    "estimatedMinutes": 15,
-    "description": "Write a short comparison of two travel destinations or ways of travelling.",
-    "intro": "Write a short comparison of two travel destinations or ways of travelling.",
-    "mission": "Write 80-130 words comparing two travel destinations (or two ways of travelling), and say which one you would choose and why.",
-    "grammar": "",
-    "phrases": [
-      "... is more/less... than...",
-      "The biggest difference is...",
-      "In the end, I would choose... because...",
-      "It is the best/cheapest/most convenient option."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Model",
-        "line": "I once compared a trip to the mountains and a trip to the beach. The mountains are quieter and cheaper than the beach in summer, but the beach is more relaxing and has better weather. The biggest difference is the activities: in the mountains, we go hiking, but at the beach, we usually just swim and rest. In the end, I would choose the beach for a short holiday, because it is more relaxing and less tiring than hiking all day.",
-        "translation": "Una vez comparé un viaje a las montañas y un viaje a la playa. Las montañas son más tranquilas y más baratas que la playa en verano, pero la playa es más relajante y tiene mejor clima. La diferencia más grande son las actividades: en las montañas hacemos senderismo, pero en la playa normalmente solo nadamos y descansamos. Al final, elegiría la playa para unas vacaciones cortas, porque es más relajante y menos cansada que caminar todo el día."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Write 80-130 words comparing two travel destinations or two ways of travelling, using at least three comparative or superlative adjectives."
-      }
-    ]
-  },
-  {
     "slug": "english-a1-time-and-dates-writing",
     "level": "A1",
     "skill": "writing",
@@ -9256,151 +10481,41 @@
     ]
   },
   {
-    "slug": "english-a2-travel-and-transportation-grammar",
+    "slug": "english-a2-travel-and-transportation-writing",
     "level": "A2",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "travel-and-transportation",
-    "title": "Comparative and Superlative Adjectives",
+    "title": "Comparing Two Destinations",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 64,
-    "estimatedMinutes": 12,
-    "description": "Compare two or more things using comparative and superlative forms.",
-    "intro": "Compare two or more things using comparative and superlative forms.",
-    "mission": "",
-    "grammar": "Use comparative adjectives to compare two things: short adjectives add -er (cheap -> cheaper), and longer adjectives use more (expensive -> more expensive). Use than to introduce the second thing: \"The train is faster than the bus.\"\n\nUse superlative adjectives to compare three or more things and show the extreme: short adjectives add the -est (cheap -> the cheapest), and longer adjectives use the most (expensive -> the most expensive). Some adjectives are irregular: good -> better -> the best; bad -> worse -> the worst.\n\nApoyo: usa comparativos (-er/more + than) para comparar dos cosas; usa superlativos (the -est/the most) para comparar tres o más cosas.",
+    "xpReward": 30,
+    "orderIndex": 63,
+    "estimatedMinutes": 15,
+    "description": "Write a short comparison of two travel destinations or ways of travelling.",
+    "intro": "Write a short comparison of two travel destinations or ways of travelling.",
+    "mission": "Write 80-130 words comparing two travel destinations (or two ways of travelling), and say which one you would choose and why.",
+    "grammar": "",
     "phrases": [
-      "... -er than / more... than",
-      "the -est / the most...",
-      "better than / the best",
-      "worse than / the worst"
+      "... is more/less... than...",
+      "The biggest difference is...",
+      "In the end, I would choose... because...",
+      "It is the best/cheapest/most convenient option."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "I once compared a trip to the mountains and a trip to the beach. The mountains are quieter and cheaper than the beach in summer, but the beach is more relaxing and has better weather. The biggest difference is the activities: in the mountains, we go hiking, but at the beach, we usually just swim and rest. In the end, I would choose the beach for a short holiday, because it is more relaxing and less tiring than hiking all day.",
+        "translation": "Una vez comparé un viaje a las montañas y un viaje a la playa. Las montañas son más tranquilas y más baratas que la playa en verano, pero la playa es más relajante y tiene mejor clima. La diferencia más grande son las actividades: en las montañas hacemos senderismo, pero en la playa normalmente solo nadamos y descansamos. Al final, elegiría la playa para unas vacaciones cortas, porque es más relajante y menos cansada que caminar todo el día."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "The train is ___ than the bus.",
-        "options": [
-          "fast",
-          "faster",
-          "fastest",
-          "more fast"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "This is ___ hotel in the city.",
-        "options": [
-          "expensive",
-          "more expensive",
-          "the most expensive",
-          "expensiver"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Flying is usually ___ than taking the train.",
-        "options": [
-          "expensive",
-          "more expensive",
-          "the most expensive",
-          "expensivest"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "This is ___ trip we have ever taken.",
-        "options": [
-          "good",
-          "better",
-          "the best",
-          "best"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "October is ___ than summer for travelling.",
-        "options": [
-          "cheap",
-          "cheaper",
-          "the cheapest",
-          "cheapest"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "This room is ___ than the other one - I can hear the street.",
-        "options": [
-          "noisy",
-          "noisier",
-          "the noisiest",
-          "more noisy"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Of all three hotels, this one is ___.",
-        "options": [
-          "luxurious",
-          "more luxurious",
-          "the most luxurious",
-          "luxuriouser"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Walking is ___ way to see the city.",
-        "options": [
-          "good",
-          "the best",
-          "better",
-          "best"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "This bus is ___ than I expected.",
-        "options": [
-          "comfortable",
-          "more comfortable",
-          "the most comfortable",
-          "comfortabler"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "That was ___ meal of the whole trip.",
-        "options": [
-          "bad",
-          "worse",
-          "the worst",
-          "worst"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dublin is ___ than Edinburgh in some ways.",
-        "options": [
-          "interesting",
-          "more interesting",
-          "the most interesting",
-          "interestinger"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "This is ___ way to travel - it saves a lot of money.",
-        "options": [
-          "cheap",
-          "cheaper",
-          "the cheapest",
-          "more cheap"
-        ]
+        "type": "writing",
+        "prompt": "Write 80-130 words comparing two travel destinations or two ways of travelling, using at least three comparative or superlative adjectives."
       }
     ]
   },
@@ -9770,6 +10885,546 @@
     ]
   },
   {
+    "slug": "english-a2-travel-and-transportation-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "travel-and-transportation",
+    "title": "Comparative and Superlative Adjectives",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 64,
+    "estimatedMinutes": 12,
+    "description": "Compare two or more things using comparative and superlative forms.",
+    "intro": "Compare two or more things using comparative and superlative forms.",
+    "mission": "",
+    "grammar": "Goal: compare two things (comparative) or three or more things (superlative).\n\nRule: comparative adjectives compare two things; superlative adjectives compare three or more and show the extreme. Short adjectives add -er/-est; longer adjectives use more/the most.\n\nPattern: Comparative → adjective + -er + than (short) / more + adjective + than (long). Superlative → the + adjective + -est (short) / the most + adjective (long).\n\nExamples:\n1. The train is faster than the bus.\n2. This is the most expensive hotel in the city.\n3. Flying is usually more expensive than taking the train.\n4. This is the best trip we have ever taken.\n5. October is cheaper than summer for travelling.\n6. This room is noisier than the other one.\n7. Of all three hotels, this one is the most luxurious.\n8. That was the worst meal of the whole trip.\n\nAffirmative: subject + is/are + comparative/superlative + (than + second thing). Example: \"Dublin is more interesting than Edinburgh in some ways.\"\n\nNegative: subject + isn't/aren't + as + adjective + as. Example: \"This hotel isn't as expensive as the other one.\"\n\nQuestions: Which is + comparative/superlative...? Example: \"Which is cheaper, the train or the bus?\" \"Which is the most luxurious hotel?\"\n\nContractions: isn't = is not, aren't = are not.\n\nCommon mistakes: ✗ \"more cheaper\" → ✓ \"cheaper\" (don't use \"more\" AND \"-er\" together). ✗ \"the expensivest hotel\" → ✓ \"the most expensive hotel\" (long adjectives use \"the most\", not \"-est\"). ✗ \"gooder\" → ✓ \"better\" (good/bad are irregular).\n\nCompare: good → better → the best; bad → worse → the worst (irregular, must be memorised); most one- or two-syllable adjectives just add -er/-est (cheap → cheaper → the cheapest), but adjectives ending in -y change to -ier/-iest (noisy → noisier → the noisiest).\n\nMini practice: complete. \"This bus is (comfortable) ___ than I expected.\" → more comfortable. \"Walking is (good) ___ way to see the city.\" → the best.\n\nSummary: use comparative + than to compare two things (-er for short adjectives, more for long ones); use the + superlative to compare three or more (-est for short adjectives, the most for long ones); memorise irregular forms like better/best and worse/worst.\n\nApoyo: usa comparativos (-er/more + than) para comparar dos cosas; usa superlativos (the -est/the most) para comparar tres o más cosas.",
+    "phrases": [
+      "... -er than / more... than",
+      "the -est / the most...",
+      "better than / the best",
+      "worse than / the worst"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "english-a2-travel-and-transportation-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "The train is ___ than the bus.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o2",
+                "text": "faster"
+              },
+              {
+                "id": "o1",
+                "text": "fast"
+              },
+              {
+                "id": "o3",
+                "text": "fastest"
+              },
+              {
+                "id": "o4",
+                "text": "more fast"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "This is ___ hotel in the city.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "expensive"
+              },
+              {
+                "id": "o3",
+                "text": "the most expensive"
+              },
+              {
+                "id": "o2",
+                "text": "more expensive"
+              },
+              {
+                "id": "o4",
+                "text": "expensiver"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Flying is usually ___ than taking the train.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "expensive"
+              },
+              {
+                "id": "o3",
+                "text": "the most expensive"
+              },
+              {
+                "id": "o2",
+                "text": "more expensive"
+              },
+              {
+                "id": "o4",
+                "text": "expensivest"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "This is ___ trip we have ever taken.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "good"
+              },
+              {
+                "id": "o2",
+                "text": "better"
+              },
+              {
+                "id": "o4",
+                "text": "best"
+              },
+              {
+                "id": "o3",
+                "text": "the best"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "This room is ___ than the other one - I can hear the street.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "noisier"
+              },
+              {
+                "id": "o1",
+                "text": "noisy"
+              },
+              {
+                "id": "o3",
+                "text": "the noisiest"
+              },
+              {
+                "id": "o4",
+                "text": "more noisy"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Find the mistake: \"This trip is more cheaper than the last one.\"",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "There is no mistake"
+              },
+              {
+                "id": "o2",
+                "text": "It should be just \"cheaper\""
+              },
+              {
+                "id": "o3",
+                "text": "It should be \"the cheapest\""
+              },
+              {
+                "id": "o4",
+                "text": "It should be \"cheap\""
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Of all three hotels, this one is ___.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "luxurious"
+              },
+              {
+                "id": "o2",
+                "text": "more luxurious"
+              },
+              {
+                "id": "o3",
+                "text": "the most luxurious"
+              },
+              {
+                "id": "o4",
+                "text": "luxuriouser"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "That was ___ meal of the whole trip.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "bad"
+              },
+              {
+                "id": "o2",
+                "text": "worse"
+              },
+              {
+                "id": "o4",
+                "text": "worst"
+              },
+              {
+                "id": "o3",
+                "text": "the worst"
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Choose the correct question.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "Which is cheaper, the train or the bus?"
+              },
+              {
+                "id": "o1",
+                "text": "Which is cheap, the train or the bus?"
+              },
+              {
+                "id": "o3",
+                "text": "Which is the cheap, the train or the bus?"
+              },
+              {
+                "id": "o4",
+                "text": "Which cheaper is the train or the bus?"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "Choose the sentence equivalent to \"Dublin has more interesting things than Edinburgh, in some ways.\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "Dublin is the most interesting than Edinburgh."
+              },
+              {
+                "id": "o1",
+                "text": "Dublin is more interesting than Edinburgh in some ways."
+              },
+              {
+                "id": "o4",
+                "text": "Dublin is interestinger than Edinburgh."
+              },
+              {
+                "id": "o2",
+                "text": "Dublin is interesting than Edinburgh."
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Put in order: \"way / this / is / cheapest / the / to travel\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "The cheapest this is way to travel."
+              },
+              {
+                "id": "o4",
+                "text": "This way is to travel the cheapest."
+              },
+              {
+                "id": "o1",
+                "text": "This is the cheapest way to travel."
+              },
+              {
+                "id": "o2",
+                "text": "Is this the cheapest way to travel."
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Choose the negative sentence equivalent to \"This hotel is cheaper than that one.\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "This hotel isn't as cheap as that one."
+              },
+              {
+                "id": "o4",
+                "text": "That hotel is as cheap as this one."
+              },
+              {
+                "id": "o2",
+                "text": "This hotel is as cheap as that one."
+              },
+              {
+                "id": "o1",
+                "text": "That hotel isn't as cheap as this one."
+              }
+            ]
+          }
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "The train is ___ than the bus.",
+        "options": [
+          "fast",
+          "faster",
+          "fastest",
+          "more fast"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "This is ___ hotel in the city.",
+        "options": [
+          "expensive",
+          "more expensive",
+          "the most expensive",
+          "expensiver"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Flying is usually ___ than taking the train.",
+        "options": [
+          "expensive",
+          "more expensive",
+          "the most expensive",
+          "expensivest"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "This is ___ trip we have ever taken.",
+        "options": [
+          "good",
+          "better",
+          "the best",
+          "best"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "October is ___ than summer for travelling.",
+        "options": [
+          "cheap",
+          "cheaper",
+          "the cheapest",
+          "cheapest"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "This room is ___ than the other one - I can hear the street.",
+        "options": [
+          "noisy",
+          "noisier",
+          "the noisiest",
+          "more noisy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Of all three hotels, this one is ___.",
+        "options": [
+          "luxurious",
+          "more luxurious",
+          "the most luxurious",
+          "luxuriouser"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Walking is ___ way to see the city.",
+        "options": [
+          "good",
+          "the best",
+          "better",
+          "best"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "This bus is ___ than I expected.",
+        "options": [
+          "comfortable",
+          "more comfortable",
+          "the most comfortable",
+          "comfortabler"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "That was ___ meal of the whole trip.",
+        "options": [
+          "bad",
+          "worse",
+          "the worst",
+          "worst"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Dublin is ___ than Edinburgh in some ways.",
+        "options": [
+          "interesting",
+          "more interesting",
+          "the most interesting",
+          "interestinger"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "This is ___ way to travel - it saves a lot of money.",
+        "options": [
+          "cheap",
+          "cheaper",
+          "the cheapest",
+          "more cheap"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-time-and-dates-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "time-and-dates",
+    "title": "Days, Months and Time Words",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 65,
+    "estimatedMinutes": 6,
+    "description": "Words for telling time and talking about dates.",
+    "intro": "Words for telling time and talking about dates.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "O'clock",
+        "translation": "En punto",
+        "example": "It's three o'clock."
+      },
+      {
+        "word": "Quarter past",
+        "translation": "Y cuarto",
+        "example": "It's a quarter past three."
+      },
+      {
+        "word": "Half past",
+        "translation": "Y media",
+        "example": "It's half past ten."
+      },
+      {
+        "word": "Monday",
+        "translation": "Lunes",
+        "example": "I have class on Monday."
+      },
+      {
+        "word": "Weekend",
+        "translation": "Fin de semana",
+        "example": "I don't have school on the weekend."
+      },
+      {
+        "word": "Birthday",
+        "translation": "Cumpleaños",
+        "example": "My birthday is in June."
+      },
+      {
+        "word": "Month",
+        "translation": "Mes",
+        "example": "What month were you born?"
+      },
+      {
+        "word": "Today",
+        "translation": "Hoy",
+        "example": "Today is Friday."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Weekend\" mean?",
+        "options": [
+          "Semana",
+          "Fin de semana",
+          "Cumpleaños",
+          "Mes"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Half past\" mean?",
+        "options": [
+          "En punto",
+          "Y cuarto",
+          "Y media",
+          "Menos cuarto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Birthday\" mean?",
+        "options": [
+          "Cumpleaños",
+          "Hoy",
+          "Mes",
+          "Lunes"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-travel-and-transportation-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
@@ -10055,96 +11710,121 @@
     ]
   },
   {
-    "slug": "english-a1-time-and-dates-vocabulary",
+    "slug": "english-a1-food-and-drinks-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "time-and-dates",
-    "title": "Days, Months and Time Words",
+    "skill": "reading",
+    "unitId": "food-and-drinks",
+    "title": "Lunch at School",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 65,
-    "estimatedMinutes": 6,
-    "description": "Words for telling time and talking about dates.",
-    "intro": "Words for telling time and talking about dates.",
+    "xpReward": 25,
+    "orderIndex": 70,
+    "estimatedMinutes": 10,
+    "description": "A short text about what a student eats for lunch, in three parts.",
+    "intro": "A short text about what a student eats for lunch, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "O'clock",
-        "translation": "En punto",
-        "example": "It's three o'clock."
-      },
-      {
-        "word": "Quarter past",
-        "translation": "Y cuarto",
-        "example": "It's a quarter past three."
-      },
-      {
-        "word": "Half past",
-        "translation": "Y media",
-        "example": "It's half past ten."
-      },
-      {
-        "word": "Monday",
-        "translation": "Lunes",
-        "example": "I have class on Monday."
-      },
-      {
-        "word": "Weekend",
-        "translation": "Fin de semana",
-        "example": "I don't have school on the weekend."
-      },
-      {
-        "word": "Birthday",
-        "translation": "Cumpleaños",
-        "example": "My birthday is in June."
-      },
-      {
-        "word": "Month",
-        "translation": "Mes",
-        "example": "What month were you born?"
-      },
-      {
-        "word": "Today",
-        "translation": "Hoy",
-        "example": "Today is Friday."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "Lunch at School",
+      "parts": [
+        "At lunchtime, I usually eat rice, chicken, and some vegetables. My mother cooks a big lunch for the whole family every day. We eat together at the table and talk about our morning. Lunch is my favorite meal of the day.",
+        "I love fruit, especially bananas and mangoes. I eat fruit every afternoon as a snack. I don't like fish very much, but my brother loves it. He eats fish two or three times a week. We don't always like the same food!",
+        "For drinks, I have some water or juice with my meals. I don't drink coffee because it's only for adults. On Fridays, we sometimes have pizza for dinner, and everybody is happy! Pizza with cheese is my favorite kind."
+      ],
+      "questions": [
+        "What does the writer usually eat for lunch?",
+        "What fruit does the writer love?",
+        "What do they eat on Fridays?"
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The family eats lunch together.",
+          "The writer eats fruit in the afternoon.",
+          "The writer drinks water or juice with dinner.",
+          "The family eats pizza on Friday."
+        ]
+      },
+      "text": "At lunchtime, I usually eat rice, chicken, and some vegetables. My mother cooks a big lunch for the whole family every day. We eat together at the table and talk about our morning. Lunch is my favorite meal of the day.\n\nI love fruit, especially bananas and mangoes. I eat fruit every afternoon as a snack. I don't like fish very much, but my brother loves it. He eats fish two or three times a week. We don't always like the same food!\n\nFor drinks, I have some water or juice with my meals. I don't drink coffee because it's only for adults. On Fridays, we sometimes have pizza for dinner, and everybody is happy! Pizza with cheese is my favorite kind."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does \"Weekend\" mean?",
+        "prompt": "What does the writer usually eat?",
         "options": [
-          "Semana",
-          "Fin de semana",
-          "Cumpleaños",
-          "Mes"
+          "Pizza",
+          "Rice, chicken and vegetables",
+          "Only fruit",
+          "Fish and rice"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Half past\" mean?",
+        "prompt": "Who loves fish?",
         "options": [
-          "En punto",
-          "Y cuarto",
-          "Y media",
-          "Menos cuarto"
+          "The writer",
+          "The brother",
+          "Nobody",
+          "The teacher"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Birthday\" mean?",
+        "prompt": "What do they have on Fridays?",
         "options": [
-          "Cumpleaños",
-          "Hoy",
-          "Mes",
-          "Lunes"
+          "Fish",
+          "Coffee",
+          "Pizza",
+          "Soup"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When does the writer eat fruit?",
+        "options": [
+          "In the morning",
+          "Every afternoon",
+          "At night",
+          "Never"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer's favorite meal is lunch.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer drinks coffee every day.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The brother eats fish two or three times a week.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: We eat together and ___ about our morning.",
+        "options": [
+          "talk",
+          "sleep",
+          "run",
+          "paint"
         ]
       }
     ]
@@ -10266,121 +11946,91 @@
     ]
   },
   {
-    "slug": "english-a1-food-and-drinks-reading",
+    "slug": "english-a1-food-and-drinks-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "food-and-drinks",
-    "title": "Lunch at School",
+    "title": "What Would You Like?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 70,
+    "orderIndex": 71,
     "estimatedMinutes": 10,
-    "description": "A short text about what a student eats for lunch, in three parts.",
-    "intro": "A short text about what a student eats for lunch, in three parts.",
+    "description": "Listen to a short conversation at a small restaurant.",
+    "intro": "Listen to a waiter and a customer ordering food and drinks at a restaurant.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "I'd like...",
+      "Would you like...?",
+      "Do you like...?",
+      "I love / I don't like..."
+    ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Lunch at School",
-      "parts": [
-        "At lunchtime, I usually eat rice, chicken, and some vegetables. My mother cooks a big lunch for the whole family every day. We eat together at the table and talk about our morning. Lunch is my favorite meal of the day.",
-        "I love fruit, especially bananas and mangoes. I eat fruit every afternoon as a snack. I don't like fish very much, but my brother loves it. He eats fish two or three times a week. We don't always like the same food!",
-        "For drinks, I have some water or juice with my meals. I don't drink coffee because it's only for adults. On Fridays, we sometimes have pizza for dinner, and everybody is happy! Pizza with cheese is my favorite kind."
-      ],
-      "questions": [
-        "What does the writer usually eat for lunch?",
-        "What fruit does the writer love?",
-        "What do they eat on Fridays?"
-      ],
-      "ordering": {
-        "prompt": "Put the events of the story in order.",
-        "events": [
-          "The family eats lunch together.",
-          "The writer eats fruit in the afternoon.",
-          "The writer drinks water or juice with dinner.",
-          "The family eats pizza on Friday."
-        ]
+    "dialogue": [
+      {
+        "speaker": "Waiter",
+        "line": "Good afternoon! What would you like to eat?",
+        "translation": "¡Buenas tardes! ¿Qué le gustaría comer?"
       },
-      "text": "At lunchtime, I usually eat rice, chicken, and some vegetables. My mother cooks a big lunch for the whole family every day. We eat together at the table and talk about our morning. Lunch is my favorite meal of the day.\n\nI love fruit, especially bananas and mangoes. I eat fruit every afternoon as a snack. I don't like fish very much, but my brother loves it. He eats fish two or three times a week. We don't always like the same food!\n\nFor drinks, I have some water or juice with my meals. I don't drink coffee because it's only for adults. On Fridays, we sometimes have pizza for dinner, and everybody is happy! Pizza with cheese is my favorite kind."
-    },
+      {
+        "speaker": "Customer",
+        "line": "I'd like some rice and chicken, please.",
+        "translation": "Quisiera arroz y pollo, por favor."
+      },
+      {
+        "speaker": "Waiter",
+        "line": "And would you like something to drink?",
+        "translation": "¿Y algo para beber?"
+      },
+      {
+        "speaker": "Customer",
+        "line": "Yes, some water, please. No sugar.",
+        "translation": "Sí, agua, por favor. Sin azúcar."
+      },
+      {
+        "speaker": "Waiter",
+        "line": "Do you like fruit? We have mangoes today.",
+        "translation": "¿Le gusta la fruta? Hoy tenemos mangos."
+      },
+      {
+        "speaker": "Customer",
+        "line": "Yes, I love mangoes! One, please.",
+        "translation": "Sí, ¡me encantan los mangos! Uno, por favor."
+      }
+    ],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does the writer usually eat?",
+        "prompt": "What does the customer order to eat?",
         "options": [
-          "Pizza",
-          "Rice, chicken and vegetables",
-          "Only fruit",
-          "Fish and rice"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Who loves fish?",
-        "options": [
-          "The writer",
-          "The brother",
-          "Nobody",
-          "The teacher"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What do they have on Fridays?",
-        "options": [
-          "Fish",
-          "Coffee",
+          "Fish and salad",
+          "Rice and chicken",
           "Pizza",
           "Soup"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "When does the writer eat fruit?",
+        "prompt": "What does the customer drink?",
         "options": [
-          "In the morning",
-          "Every afternoon",
-          "At night",
-          "Never"
+          "Juice",
+          "Coffee",
+          "Water",
+          "Milk"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "True or false: The writer's favorite meal is lunch.",
+        "prompt": "Does the customer like mangoes?",
         "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The writer drinks coffee every day.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The brother eats fish two or three times a week.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: We eat together and ___ about our morning.",
-        "options": [
-          "talk",
-          "sleep",
-          "run",
-          "paint"
+          "Yes",
+          "No",
+          "They don't say",
+          "They are allergic"
         ]
       }
     ]
@@ -10546,57 +12196,42 @@
     ]
   },
   {
-    "slug": "english-a1-food-and-drinks-listening",
+    "slug": "english-a1-food-and-drinks-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "food-and-drinks",
-    "title": "What Would You Like?",
+    "title": "Order Food and Drinks",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 71,
-    "estimatedMinutes": 10,
-    "description": "Listen to a short conversation at a small restaurant.",
-    "intro": "Listen to a waiter and a customer ordering food and drinks at a restaurant.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 72,
+    "estimatedMinutes": 8,
+    "description": "Practice ordering food like at a restaurant.",
+    "intro": "Practice ordering food like at a restaurant.",
+    "mission": "Act out a short restaurant scene: order one food and one drink, and say if you like fruit.",
     "grammar": "",
     "phrases": [
       "I'd like...",
-      "Would you like...?",
-      "Do you like...?",
-      "I love / I don't like..."
+      "Can I have...?",
+      "I like / I don't like...",
+      "No sugar, please."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Waiter",
-        "line": "Good afternoon! What would you like to eat?",
-        "translation": "¡Buenas tardes! ¿Qué le gustaría comer?"
-      },
-      {
-        "speaker": "Customer",
+        "speaker": "You",
         "line": "I'd like some rice and chicken, please.",
         "translation": "Quisiera arroz y pollo, por favor."
       },
       {
-        "speaker": "Waiter",
-        "line": "And would you like something to drink?",
-        "translation": "¿Y algo para beber?"
+        "speaker": "Partner",
+        "line": "Would you like something to drink?",
+        "translation": "¿Algo para tomar?"
       },
       {
-        "speaker": "Customer",
-        "line": "Yes, some water, please. No sugar.",
-        "translation": "Sí, agua, por favor. Sin azúcar."
-      },
-      {
-        "speaker": "Waiter",
-        "line": "Do you like fruit? We have mangoes today.",
-        "translation": "¿Le gusta la fruta? Hoy tenemos mangos."
-      },
-      {
-        "speaker": "Customer",
-        "line": "Yes, I love mangoes! One, please.",
-        "translation": "Sí, ¡me encantan los mangos! Uno, por favor."
+        "speaker": "You",
+        "line": "Yes, some juice, please.",
+        "translation": "Sí, jugo, por favor."
       }
     ],
     "reading": null,
@@ -10604,34 +12239,12 @@
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "What does the customer order to eat?",
-        "options": [
-          "Fish and salad",
-          "Rice and chicken",
-          "Pizza",
-          "Soup"
-        ]
+        "type": "speaking",
+        "prompt": "Say out loud what food and drink you would like to order at a restaurant."
       },
       {
-        "type": "mcq",
-        "prompt": "What does the customer drink?",
-        "options": [
-          "Juice",
-          "Coffee",
-          "Water",
-          "Milk"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Does the customer like mangoes?",
-        "options": [
-          "Yes",
-          "No",
-          "They don't say",
-          "They are allergic"
-        ]
+        "type": "practice",
+        "prompt": "Practice the restaurant dialogue with a partner, then switch roles (waiter/customer)."
       }
     ]
   },
@@ -10698,98 +12311,6 @@
     ]
   },
   {
-    "slug": "english-a1-food-and-drinks-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "food-and-drinks",
-    "title": "Order Food and Drinks",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 72,
-    "estimatedMinutes": 8,
-    "description": "Practice ordering food like at a restaurant.",
-    "intro": "Practice ordering food like at a restaurant.",
-    "mission": "Act out a short restaurant scene: order one food and one drink, and say if you like fruit.",
-    "grammar": "",
-    "phrases": [
-      "I'd like...",
-      "Can I have...?",
-      "I like / I don't like...",
-      "No sugar, please."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "You",
-        "line": "I'd like some rice and chicken, please.",
-        "translation": "Quisiera arroz y pollo, por favor."
-      },
-      {
-        "speaker": "Partner",
-        "line": "Would you like something to drink?",
-        "translation": "¿Algo para tomar?"
-      },
-      {
-        "speaker": "You",
-        "line": "Yes, some juice, please.",
-        "translation": "Sí, jugo, por favor."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Say out loud what food and drink you would like to order at a restaurant."
-      },
-      {
-        "type": "practice",
-        "prompt": "Practice the restaurant dialogue with a partner, then switch roles (waiter/customer)."
-      }
-    ]
-  },
-  {
-    "slug": "english-a2-health-and-healthy-habits-writing",
-    "level": "A2",
-    "skill": "writing",
-    "unitId": "health-and-healthy-habits",
-    "title": "My Healthy Habits",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 73,
-    "estimatedMinutes": 15,
-    "description": "Write about your healthy habits, or habits you want to improve.",
-    "intro": "Write about your healthy habits, or habits you want to improve.",
-    "mission": "Write 80-130 words about your health habits: what you should do more of, what you shouldn't do, and one small change you want to make.",
-    "grammar": "",
-    "phrases": [
-      "I think I should...",
-      "I shouldn't...",
-      "I don't have to..., but I choose to...",
-      "A small change I want to make is..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Model",
-        "line": "I think I should exercise more - I usually walk very little during the week. I shouldn't eat so much fast food when I'm busy, because it makes me feel tired afterwards. I don't have to go to the gym every day, but I choose to go three times a week, because it helps my mood. A small change I want to make is drinking more water and less coffee. I know small changes are usually the ones that last, so I'm starting slowly.",
-        "translation": "Creo que debería hacer más ejercicio; normalmente camino muy poco durante la semana. No debería comer tanta comida rápida cuando estoy ocupado, porque me hace sentir cansado después. No tengo que ir al gimnasio todos los días, pero elijo ir tres veces por semana, porque ayuda a mi estado de ánimo. Un pequeño cambio que quiero hacer es tomar más agua y menos café. Sé que los pequeños cambios suelen ser los que duran, así que estoy empezando despacio."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Write 80-130 words about your health habits, using should/shouldn't and have to/don't have to at least twice each."
-      }
-    ]
-  },
-  {
     "slug": "english-a1-food-and-drinks-writing",
     "level": "A1",
     "skill": "writing",
@@ -10829,151 +12350,41 @@
     ]
   },
   {
-    "slug": "english-a2-health-and-healthy-habits-grammar",
+    "slug": "english-a2-health-and-healthy-habits-writing",
     "level": "A2",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "health-and-healthy-habits",
-    "title": "Should / Shouldn't and Have to / Don't Have to",
+    "title": "My Healthy Habits",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 74,
-    "estimatedMinutes": 12,
-    "description": "Give advice and talk about obligations related to health.",
-    "intro": "Give advice and talk about obligations related to health.",
-    "mission": "",
-    "grammar": "Use should to give advice or say what is a good idea: \"You should rest.\" Use shouldn't for advice against something: \"You shouldn't skip breakfast.\" The question form is Should I...?\n\nUse have to for obligations or necessary rules: \"I have to take this medicine.\" Use don't have to when something is not necessary, but not forbidden: \"You don't have to stay home all week.\" This is different from shouldn't, which means it's a bad idea, not just unnecessary.\n\nApoyo: usa should/shouldn't para dar consejos; usa have to para obligaciones necesarias y don't have to cuando algo NO es necesario (pero no está prohibido).",
+    "xpReward": 30,
+    "orderIndex": 73,
+    "estimatedMinutes": 15,
+    "description": "Write about your healthy habits, or habits you want to improve.",
+    "intro": "Write about your healthy habits, or habits you want to improve.",
+    "mission": "Write 80-130 words about your health habits: what you should do more of, what you shouldn't do, and one small change you want to make.",
+    "grammar": "",
     "phrases": [
-      "You should... / You shouldn't...",
-      "Should I...?",
-      "I have to... / I don't have to...",
-      "Do I have to...?"
+      "I think I should...",
+      "I shouldn't...",
+      "I don't have to..., but I choose to...",
+      "A small change I want to make is..."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "I think I should exercise more - I usually walk very little during the week. I shouldn't eat so much fast food when I'm busy, because it makes me feel tired afterwards. I don't have to go to the gym every day, but I choose to go three times a week, because it helps my mood. A small change I want to make is drinking more water and less coffee. I know small changes are usually the ones that last, so I'm starting slowly.",
+        "translation": "Creo que debería hacer más ejercicio; normalmente camino muy poco durante la semana. No debería comer tanta comida rápida cuando estoy ocupado, porque me hace sentir cansado después. No tengo que ir al gimnasio todos los días, pero elijo ir tres veces por semana, porque ayuda a mi estado de ánimo. Un pequeño cambio que quiero hacer es tomar más agua y menos café. Sé que los pequeños cambios suelen ser los que duran, así que estoy empezando despacio."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "You ___ drink plenty of water when you have a cold.",
-        "options": [
-          "should",
-          "shouldn't",
-          "has to",
-          "have"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "You ___ smoke - it is very bad for your health.",
-        "options": [
-          "should",
-          "shouldn't",
-          "have to",
-          "don't have to"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ I take this medicine before or after food?",
-        "options": [
-          "Do",
-          "Should",
-          "Have",
-          "Am"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I ___ to see a doctor - it is just a small cold.",
-        "options": [
-          "don't have",
-          "shouldn't have",
-          "have",
-          "doesn't have"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Patients ___ to wear a mask in this clinic - it is a rule.",
-        "options": [
-          "don't have",
-          "have",
-          "shouldn't",
-          "should not"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "You ___ exercise until you feel completely better.",
-        "options": [
-          "shouldn't",
-          "should",
-          "have to",
-          "don't have to"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ I have to take antibiotics for a cold?",
-        "options": [
-          "Should",
-          "Do",
-          "Have",
-          "Am"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "You ___ eat more vegetables - it would help your health.",
-        "options": [
-          "shouldn't",
-          "should",
-          "don't have to",
-          "has to"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ pay for this appointment - it is free.",
-        "options": [
-          "don't have to",
-          "have to",
-          "shouldn't",
-          "should"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "You ___ stay in bed all day, just rest when you feel tired.",
-        "options": [
-          "don't have to",
-          "have to",
-          "should",
-          "shouldn't"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "He ___ go to work today - his temperature is still high.",
-        "options": [
-          "shouldn't",
-          "should",
-          "doesn't have to",
-          "has to"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "You ___ sleep at least eight hours a night for good health.",
-        "options": [
-          "shouldn't",
-          "should",
-          "don't have to",
-          "has to"
-        ]
+        "type": "writing",
+        "prompt": "Write 80-130 words about your health habits, using should/shouldn't and have to/don't have to at least twice each."
       }
     ]
   },
@@ -11343,6 +12754,546 @@
     ]
   },
   {
+    "slug": "english-a2-health-and-healthy-habits-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "health-and-healthy-habits",
+    "title": "Should / Shouldn't and Have to / Don't Have to",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 74,
+    "estimatedMinutes": 12,
+    "description": "Give advice and talk about obligations related to health.",
+    "intro": "Give advice and talk about obligations related to health.",
+    "mission": "",
+    "grammar": "Goal: give health advice with should/shouldn't, and talk about obligations with have to/don't have to.\n\nRule: use should for advice or a good idea, and shouldn't for advice against something. Use have to for obligations/necessary rules, and don't have to when something is not necessary (but not forbidden).\n\nPattern: subject + should/shouldn't + base verb. Subject + have to/has to/don't have to/doesn't have to + base verb.\n\nExamples:\n1. You should drink plenty of water when you have a cold.\n2. You shouldn't smoke - it is very bad for your health.\n3. I have to take this medicine.\n4. You don't have to stay home all week.\n5. Patients have to wear a mask in this clinic.\n6. We don't have to pay for this appointment - it is free.\n7. He shouldn't go to work today.\n8. You should sleep at least eight hours a night.\n\nAffirmative: subject + should/have to + base verb. Example: \"You should rest.\" \"I have to take this medicine.\"\n\nNegative: subject + shouldn't/don't have to + base verb. Example: \"You shouldn't skip breakfast.\" \"You don't have to stay home all week.\"\n\nQuestions: Should + subject + base verb...? Do/Does + subject + have to + base verb...? Example: \"Should I take this medicine before or after food?\" \"Do I have to take antibiotics for a cold?\"\n\nContractions: shouldn't = should not, don't = do not, doesn't = does not.\n\nCommon mistakes: ✗ \"You should to rest\" → ✓ \"You should rest\" (no \"to\" after should). ✗ \"I don't should smoke\" → ✓ \"I shouldn't smoke\" (shouldn't is one word, not \"don't should\"). ✗ using shouldn't when something is simply unnecessary → use don't have to instead: not necessary is different from a bad idea.\n\nCompare: shouldn't (bad idea/advice against it) vs don't have to (not necessary, but still okay to do it) - \"You don't have to stay home all week\" (staying home is fine, just not required) is very different from \"You shouldn't go to work today\" (going to work would be a bad idea).\n\nMini practice: complete. \"You (should/rest) ___ until you feel better.\" → should rest. \"We (not/have to) ___ pay - it's free.\" → don't have to pay.\n\nSummary: use should/shouldn't to give or reject advice; use have to/don't have to to talk about obligations and what is or isn't necessary - remember don't have to means \"not necessary\", not \"forbidden\".\n\nApoyo: usa should/shouldn't para dar consejos; usa have to para obligaciones necesarias y don't have to cuando algo NO es necesario (pero no está prohibido).",
+    "phrases": [
+      "You should... / You shouldn't...",
+      "Should I...?",
+      "I have to... / I don't have to...",
+      "Do I have to...?"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "english-a2-health-and-healthy-habits-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "You ___ drink plenty of water when you have a cold.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "should"
+              },
+              {
+                "id": "o2",
+                "text": "shouldn't"
+              },
+              {
+                "id": "o3",
+                "text": "has to"
+              },
+              {
+                "id": "o4",
+                "text": "have"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "You ___ smoke - it is very bad for your health.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "should"
+              },
+              {
+                "id": "o2",
+                "text": "shouldn't"
+              },
+              {
+                "id": "o3",
+                "text": "have to"
+              },
+              {
+                "id": "o4",
+                "text": "don't have to"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "___ I take this medicine before or after food?",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Do"
+              },
+              {
+                "id": "o3",
+                "text": "Have"
+              },
+              {
+                "id": "o2",
+                "text": "Should"
+              },
+              {
+                "id": "o4",
+                "text": "Am"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "I ___ to see a doctor - it is just a small cold.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o2",
+                "text": "shouldn't have"
+              },
+              {
+                "id": "o3",
+                "text": "have"
+              },
+              {
+                "id": "o4",
+                "text": "doesn't have"
+              },
+              {
+                "id": "o1",
+                "text": "don't have"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Patients ___ to wear a mask in this clinic - it is a rule.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "have"
+              },
+              {
+                "id": "o1",
+                "text": "don't have"
+              },
+              {
+                "id": "o3",
+                "text": "shouldn't"
+              },
+              {
+                "id": "o4",
+                "text": "should not"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Find the mistake: \"You should to rest until you feel better.\"",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "There is no mistake"
+              },
+              {
+                "id": "o2",
+                "text": "It should be \"You should rest\" (no \"to\")"
+              },
+              {
+                "id": "o3",
+                "text": "It should be \"You shoulds rest\""
+              },
+              {
+                "id": "o4",
+                "text": "It should be \"You should resting\""
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "___ I have to take antibiotics for a cold?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Should"
+              },
+              {
+                "id": "o3",
+                "text": "Have"
+              },
+              {
+                "id": "o2",
+                "text": "Do"
+              },
+              {
+                "id": "o4",
+                "text": "Am"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "We ___ pay for this appointment - it is free.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "have to"
+              },
+              {
+                "id": "o3",
+                "text": "shouldn't"
+              },
+              {
+                "id": "o4",
+                "text": "should"
+              },
+              {
+                "id": "o1",
+                "text": "don't have to"
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Choose the sentence equivalent to \"It's fine to stay home, but it's not required.\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o2",
+                "text": "You don't have to stay home."
+              },
+              {
+                "id": "o1",
+                "text": "You shouldn't stay home."
+              },
+              {
+                "id": "o3",
+                "text": "You have to stay home."
+              },
+              {
+                "id": "o4",
+                "text": "You should stay home."
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "He ___ go to work today - his temperature is still high.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o2",
+                "text": "should"
+              },
+              {
+                "id": "o1",
+                "text": "shouldn't"
+              },
+              {
+                "id": "o3",
+                "text": "doesn't have to"
+              },
+              {
+                "id": "o4",
+                "text": "has to"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Put in order: \"sleep / should / you / eight hours / at least / a night\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "Should you sleep at least eight hours a night."
+              },
+              {
+                "id": "o4",
+                "text": "At least eight hours you should sleep a night."
+              },
+              {
+                "id": "o1",
+                "text": "You should sleep at least eight hours a night."
+              },
+              {
+                "id": "o2",
+                "text": "You sleep should at least eight hours a night."
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Choose the best advice for someone with a very bad cough who insists on going out dancing.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "You don't have to go dancing."
+              },
+              {
+                "id": "o3",
+                "text": "You have to go dancing."
+              },
+              {
+                "id": "o4",
+                "text": "Do you have to go dancing?"
+              },
+              {
+                "id": "o2",
+                "text": "You shouldn't go dancing."
+              }
+            ]
+          }
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "You ___ drink plenty of water when you have a cold.",
+        "options": [
+          "should",
+          "shouldn't",
+          "has to",
+          "have"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "You ___ smoke - it is very bad for your health.",
+        "options": [
+          "should",
+          "shouldn't",
+          "have to",
+          "don't have to"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ I take this medicine before or after food?",
+        "options": [
+          "Do",
+          "Should",
+          "Have",
+          "Am"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I ___ to see a doctor - it is just a small cold.",
+        "options": [
+          "don't have",
+          "shouldn't have",
+          "have",
+          "doesn't have"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Patients ___ to wear a mask in this clinic - it is a rule.",
+        "options": [
+          "don't have",
+          "have",
+          "shouldn't",
+          "should not"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "You ___ exercise until you feel completely better.",
+        "options": [
+          "shouldn't",
+          "should",
+          "have to",
+          "don't have to"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ I have to take antibiotics for a cold?",
+        "options": [
+          "Should",
+          "Do",
+          "Have",
+          "Am"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "You ___ eat more vegetables - it would help your health.",
+        "options": [
+          "shouldn't",
+          "should",
+          "don't have to",
+          "has to"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ pay for this appointment - it is free.",
+        "options": [
+          "don't have to",
+          "have to",
+          "shouldn't",
+          "should"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "You ___ stay in bed all day, just rest when you feel tired.",
+        "options": [
+          "don't have to",
+          "have to",
+          "should",
+          "shouldn't"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "He ___ go to work today - his temperature is still high.",
+        "options": [
+          "shouldn't",
+          "should",
+          "doesn't have to",
+          "has to"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "You ___ sleep at least eight hours a night for good health.",
+        "options": [
+          "shouldn't",
+          "should",
+          "don't have to",
+          "has to"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-food-and-drinks-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "food-and-drinks",
+    "title": "Food and Drink Words",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 75,
+    "estimatedMinutes": 6,
+    "description": "Common words for food and drinks.",
+    "intro": "Common words for food and drinks.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Rice",
+        "translation": "Arroz",
+        "example": "I usually eat rice for lunch."
+      },
+      {
+        "word": "Chicken",
+        "translation": "Pollo",
+        "example": "She likes chicken with vegetables."
+      },
+      {
+        "word": "Fruit",
+        "translation": "Fruta",
+        "example": "I love fruit, especially mangoes."
+      },
+      {
+        "word": "Vegetables",
+        "translation": "Verduras",
+        "example": "Vegetables are good for you."
+      },
+      {
+        "word": "Water",
+        "translation": "Agua",
+        "example": "Can I have some water, please?"
+      },
+      {
+        "word": "Juice",
+        "translation": "Jugo",
+        "example": "I like orange juice."
+      },
+      {
+        "word": "Breakfast",
+        "translation": "Desayuno",
+        "example": "What do you eat for breakfast?"
+      },
+      {
+        "word": "Hungry",
+        "translation": "Tener hambre",
+        "example": "I am hungry, let's eat."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Vegetables\" mean?",
+        "options": [
+          "Verduras",
+          "Fruta",
+          "Pollo",
+          "Arroz"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Hungry\" mean?",
+        "options": [
+          "Tener sed",
+          "Tener hambre",
+          "Comer",
+          "Beber"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Juice\" mean?",
+        "options": [
+          "Agua",
+          "Leche",
+          "Jugo",
+          "Café"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-health-and-healthy-habits-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
@@ -11628,96 +13579,121 @@
     ]
   },
   {
-    "slug": "english-a1-food-and-drinks-vocabulary",
+    "slug": "english-a1-my-home-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "food-and-drinks",
-    "title": "Food and Drink Words",
+    "skill": "reading",
+    "unitId": "my-home",
+    "title": "My House",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 75,
-    "estimatedMinutes": 6,
-    "description": "Common words for food and drinks.",
-    "intro": "Common words for food and drinks.",
+    "xpReward": 25,
+    "orderIndex": 80,
+    "estimatedMinutes": 10,
+    "description": "A short text describing the rooms in a house, in three parts.",
+    "intro": "A short text describing the rooms in a house, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Rice",
-        "translation": "Arroz",
-        "example": "I usually eat rice for lunch."
-      },
-      {
-        "word": "Chicken",
-        "translation": "Pollo",
-        "example": "She likes chicken with vegetables."
-      },
-      {
-        "word": "Fruit",
-        "translation": "Fruta",
-        "example": "I love fruit, especially mangoes."
-      },
-      {
-        "word": "Vegetables",
-        "translation": "Verduras",
-        "example": "Vegetables are good for you."
-      },
-      {
-        "word": "Water",
-        "translation": "Agua",
-        "example": "Can I have some water, please?"
-      },
-      {
-        "word": "Juice",
-        "translation": "Jugo",
-        "example": "I like orange juice."
-      },
-      {
-        "word": "Breakfast",
-        "translation": "Desayuno",
-        "example": "What do you eat for breakfast?"
-      },
-      {
-        "word": "Hungry",
-        "translation": "Tener hambre",
-        "example": "I am hungry, let's eat."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "My House",
+      "parts": [
+        "My house has five rooms: a kitchen, a living room, two bedrooms, and a bathroom. The kitchen is next to the living room, and it is always warm because my mother cooks there every day. Our house is small, but very comfortable.",
+        "In my bedroom, there is a bed, a desk, and a small closet. My bed is next to the window, so I can see the garden. I keep my clothes in the closet and my books on the desk. I share my bedroom with my sister.",
+        "My favorite room is the living room because there is a big sofa and a television. We watch movies there on weekends. Our cat, Luna, is usually under the table in the kitchen, but sometimes she sleeps on the sofa too. I love my home."
+      ],
+      "questions": [
+        "How many rooms does the house have?",
+        "What is in the writer's bedroom?",
+        "Where is the cat usually?"
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The writer wakes up in her bedroom.",
+          "Mother cooks in the warm kitchen.",
+          "The family watches a movie in the living room.",
+          "Luna the cat sleeps under the kitchen table."
+        ]
+      },
+      "text": "My house has five rooms: a kitchen, a living room, two bedrooms, and a bathroom. The kitchen is next to the living room, and it is always warm because my mother cooks there every day. Our house is small, but very comfortable.\n\nIn my bedroom, there is a bed, a desk, and a small closet. My bed is next to the window, so I can see the garden. I keep my clothes in the closet and my books on the desk. I share my bedroom with my sister.\n\nMy favorite room is the living room because there is a big sofa and a television. We watch movies there on weekends. Our cat, Luna, is usually under the table in the kitchen, but sometimes she sleeps on the sofa too. I love my home."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does \"Vegetables\" mean?",
+        "prompt": "How many bedrooms are there?",
         "options": [
-          "Verduras",
-          "Fruta",
-          "Pollo",
-          "Arroz"
+          "One",
+          "Two",
+          "Three",
+          "Four"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Hungry\" mean?",
+        "prompt": "What is the favorite room?",
         "options": [
-          "Tener sed",
-          "Tener hambre",
-          "Comer",
-          "Beber"
+          "The kitchen",
+          "The bedroom",
+          "The living room",
+          "The bathroom"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Juice\" mean?",
+        "prompt": "Where is Luna the cat usually?",
         "options": [
-          "Agua",
-          "Leche",
-          "Jugo",
-          "Café"
+          "On the bed",
+          "Under the table",
+          "In the closet",
+          "On the sofa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who does the writer share a bedroom with?",
+        "options": [
+          "Her mother",
+          "Her sister",
+          "Her father",
+          "Nobody"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The kitchen is always warm.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The house has ten rooms.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The family watches movies in the living room.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Our house is small, but very ___.",
+        "options": [
+          "comfortable",
+          "cold",
+          "empty",
+          "dangerous"
         ]
       }
     ]
@@ -11839,121 +13815,91 @@
     ]
   },
   {
-    "slug": "english-a1-my-home-reading",
+    "slug": "english-a1-my-home-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "my-home",
-    "title": "My House",
+    "title": "Where Is My Backpack?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 80,
+    "orderIndex": 81,
     "estimatedMinutes": 10,
-    "description": "A short text describing the rooms in a house, in three parts.",
-    "intro": "A short text describing the rooms in a house, in three parts.",
+    "description": "Listen to a family looking for a missing backpack.",
+    "intro": "Listen to Marco asking his mother where his backpack is before school.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "Where is my...?",
+      "Is it under/next to...?",
+      "It's in the...",
+      "It's here!"
+    ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "My House",
-      "parts": [
-        "My house has five rooms: a kitchen, a living room, two bedrooms, and a bathroom. The kitchen is next to the living room, and it is always warm because my mother cooks there every day. Our house is small, but very comfortable.",
-        "In my bedroom, there is a bed, a desk, and a small closet. My bed is next to the window, so I can see the garden. I keep my clothes in the closet and my books on the desk. I share my bedroom with my sister.",
-        "My favorite room is the living room because there is a big sofa and a television. We watch movies there on weekends. Our cat, Luna, is usually under the table in the kitchen, but sometimes she sleeps on the sofa too. I love my home."
-      ],
-      "questions": [
-        "How many rooms does the house have?",
-        "What is in the writer's bedroom?",
-        "Where is the cat usually?"
-      ],
-      "ordering": {
-        "prompt": "Put the events of the story in order.",
-        "events": [
-          "The writer wakes up in her bedroom.",
-          "Mother cooks in the warm kitchen.",
-          "The family watches a movie in the living room.",
-          "Luna the cat sleeps under the kitchen table."
-        ]
+    "dialogue": [
+      {
+        "speaker": "Marco",
+        "line": "Mom, where is my backpack?",
+        "translation": "Mamá, ¿dónde está mi mochila?"
       },
-      "text": "My house has five rooms: a kitchen, a living room, two bedrooms, and a bathroom. The kitchen is next to the living room, and it is always warm because my mother cooks there every day. Our house is small, but very comfortable.\n\nIn my bedroom, there is a bed, a desk, and a small closet. My bed is next to the window, so I can see the garden. I keep my clothes in the closet and my books on the desk. I share my bedroom with my sister.\n\nMy favorite room is the living room because there is a big sofa and a television. We watch movies there on weekends. Our cat, Luna, is usually under the table in the kitchen, but sometimes she sleeps on the sofa too. I love my home."
-    },
+      {
+        "speaker": "Mother",
+        "line": "Is it under your bed?",
+        "translation": "¿Está debajo de tu cama?"
+      },
+      {
+        "speaker": "Marco",
+        "line": "No, it isn't there.",
+        "translation": "No, no está ahí."
+      },
+      {
+        "speaker": "Mother",
+        "line": "Look next to the door, in the living room.",
+        "translation": "Mira al lado de la puerta, en la sala."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Yes! It's here, next to the sofa!",
+        "translation": "¡Sí! Está aquí, al lado del sofá."
+      },
+      {
+        "speaker": "Mother",
+        "line": "Good. Now put your shoes on!",
+        "translation": "Bien. ¡Ahora ponte los zapatos!"
+      }
+    ],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "How many bedrooms are there?",
+        "prompt": "Where does Marco look first?",
         "options": [
-          "One",
-          "Two",
-          "Three",
-          "Four"
+          "In the kitchen",
+          "Under his bed",
+          "In the bathroom",
+          "In the closet"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What is the favorite room?",
+        "prompt": "Where is the backpack finally?",
         "options": [
-          "The kitchen",
-          "The bedroom",
-          "The living room",
-          "The bathroom"
+          "Under the bed",
+          "In the kitchen",
+          "Next to the sofa",
+          "In the bedroom"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Where is Luna the cat usually?",
+        "prompt": "What does the mother say at the end?",
         "options": [
-          "On the bed",
-          "Under the table",
-          "In the closet",
-          "On the sofa"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Who does the writer share a bedroom with?",
-        "options": [
-          "Her mother",
-          "Her sister",
-          "Her father",
-          "Nobody"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The kitchen is always warm.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The house has ten rooms.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The family watches movies in the living room.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: Our house is small, but very ___.",
-        "options": [
-          "comfortable",
-          "cold",
-          "empty",
-          "dangerous"
+          "Eat breakfast",
+          "Put your shoes on",
+          "Go to bed",
+          "Do your homework"
         ]
       }
     ]
@@ -12119,57 +14065,42 @@
     ]
   },
   {
-    "slug": "english-a1-my-home-listening",
+    "slug": "english-a1-my-home-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "my-home",
-    "title": "Where Is My Backpack?",
+    "title": "Describe Your Room",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 81,
-    "estimatedMinutes": 10,
-    "description": "Listen to a family looking for a missing backpack.",
-    "intro": "Listen to Marco asking his mother where his backpack is before school.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 82,
+    "estimatedMinutes": 8,
+    "description": "Practice describing where things are in your room.",
+    "intro": "Practice describing where things are in your room.",
+    "mission": "Describe your bedroom to a partner: name two things in it and where they are.",
     "grammar": "",
     "phrases": [
-      "Where is my...?",
-      "Is it under/next to...?",
-      "It's in the...",
-      "It's here!"
+      "There is a... in my room.",
+      "It's next to/under/on the...",
+      "My favorite room is...",
+      "Where is your...?"
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Marco",
-        "line": "Mom, where is my backpack?",
-        "translation": "Mamá, ¿dónde está mi mochila?"
+        "speaker": "You",
+        "line": "There is a bed and a desk in my room.",
+        "translation": "Hay una cama y un escritorio en mi habitación."
       },
       {
-        "speaker": "Mother",
-        "line": "Is it under your bed?",
-        "translation": "¿Está debajo de tu cama?"
+        "speaker": "Partner",
+        "line": "Where is the desk?",
+        "translation": "¿Dónde está el escritorio?"
       },
       {
-        "speaker": "Marco",
-        "line": "No, it isn't there.",
-        "translation": "No, no está ahí."
-      },
-      {
-        "speaker": "Mother",
-        "line": "Look next to the door, in the living room.",
-        "translation": "Mira al lado de la puerta, en la sala."
-      },
-      {
-        "speaker": "Marco",
-        "line": "Yes! It's here, next to the sofa!",
-        "translation": "¡Sí! Está aquí, al lado del sofá."
-      },
-      {
-        "speaker": "Mother",
-        "line": "Good. Now put your shoes on!",
-        "translation": "Bien. ¡Ahora ponte los zapatos!"
+        "speaker": "You",
+        "line": "It's next to the window.",
+        "translation": "Está al lado de la ventana."
       }
     ],
     "reading": null,
@@ -12177,34 +14108,12 @@
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "Where does Marco look first?",
-        "options": [
-          "In the kitchen",
-          "Under his bed",
-          "In the bathroom",
-          "In the closet"
-        ]
+        "type": "speaking",
+        "prompt": "Describe your bedroom out loud: name two objects and where they are."
       },
       {
-        "type": "mcq",
-        "prompt": "Where is the backpack finally?",
-        "options": [
-          "Under the bed",
-          "In the kitchen",
-          "Next to the sofa",
-          "In the bedroom"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does the mother say at the end?",
-        "options": [
-          "Eat breakfast",
-          "Put your shoes on",
-          "Go to bed",
-          "Do your homework"
-        ]
+        "type": "practice",
+        "prompt": "Ask a partner \"What is your favorite room?\" and why."
       }
     ]
   },
@@ -12271,98 +14180,6 @@
     ]
   },
   {
-    "slug": "english-a1-my-home-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "my-home",
-    "title": "Describe Your Room",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 82,
-    "estimatedMinutes": 8,
-    "description": "Practice describing where things are in your room.",
-    "intro": "Practice describing where things are in your room.",
-    "mission": "Describe your bedroom to a partner: name two things in it and where they are.",
-    "grammar": "",
-    "phrases": [
-      "There is a... in my room.",
-      "It's next to/under/on the...",
-      "My favorite room is...",
-      "Where is your...?"
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "You",
-        "line": "There is a bed and a desk in my room.",
-        "translation": "Hay una cama y un escritorio en mi habitación."
-      },
-      {
-        "speaker": "Partner",
-        "line": "Where is the desk?",
-        "translation": "¿Dónde está el escritorio?"
-      },
-      {
-        "speaker": "You",
-        "line": "It's next to the window.",
-        "translation": "Está al lado de la ventana."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Describe your bedroom out loud: name two objects and where they are."
-      },
-      {
-        "type": "practice",
-        "prompt": "Ask a partner \"What is your favorite room?\" and why."
-      }
-    ]
-  },
-  {
-    "slug": "english-a2-plans-and-celebrations-writing",
-    "level": "A2",
-    "skill": "writing",
-    "unitId": "plans-and-celebrations",
-    "title": "A Celebration I Am Planning",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 83,
-    "estimatedMinutes": 15,
-    "description": "Write about plans for an upcoming celebration.",
-    "intro": "Write about plans for an upcoming celebration.",
-    "mission": "Write 80-130 words about a celebration you are planning (real or imaginary), using going to for plans and will for at least one spontaneous decision or offer.",
-    "grammar": "",
-    "phrases": [
-      "I'm going to celebrate...",
-      "We're going to invite...",
-      "I'll... / If..., we'll...",
-      "It's going to be..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Model",
-        "line": "Next month, I'm going to celebrate my sister's graduation. We're going to have a small party at home, with close family and friends. My mum is going to cook her special lasagne, and I'm going to make a cake for the first time. If the weather is nice, we'll have the party in the garden; if not, we'll stay inside. I'll also prepare a short speech to celebrate her achievement. It's going to be a simple celebration, but I know it will be really special.",
-        "translation": "El próximo mes voy a celebrar la graduación de mi hermana. Vamos a hacer una pequeña fiesta en casa, con familia cercana y amigos. Mi mamá va a cocinar su lasaña especial, y yo voy a hacer un pastel por primera vez. Si hace buen clima, haremos la fiesta en el jardín; si no, nos quedaremos adentro. También prepararé un pequeño discurso para celebrar su logro. Va a ser una celebración sencilla, pero sé que será muy especial."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Write 80-130 words about a celebration you are planning, using going to for plans and will at least once for a spontaneous decision or offer."
-      }
-    ]
-  },
-  {
     "slug": "english-a1-my-home-writing",
     "level": "A1",
     "skill": "writing",
@@ -12402,151 +14219,41 @@
     ]
   },
   {
-    "slug": "english-a2-plans-and-celebrations-grammar",
+    "slug": "english-a2-plans-and-celebrations-writing",
     "level": "A2",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "plans-and-celebrations",
-    "title": "Going to (Plans) and Will (Spontaneous Decisions/Predictions)",
+    "title": "A Celebration I Am Planning",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 84,
-    "estimatedMinutes": 12,
-    "description": "Talk about plans already decided and spontaneous decisions or predictions.",
-    "intro": "Talk about plans already decided and spontaneous decisions or predictions.",
-    "mission": "",
-    "grammar": "Use going to for plans and intentions decided before the moment of speaking: \"I'm going to invite everyone this week\" (already decided). Use will for decisions made at the moment of speaking, offers, and promises: \"I'll bring a cake!\" (deciding right now).\n\nWill is also used for predictions, often with think/probably: \"I think it will rain.\" Going to is used for predictions based on evidence you can see now: \"Look at those clouds - it's going to rain.\"\n\nApoyo: usa going to para planes ya decididos; usa will para decisiones espontáneas, ofrecimientos, promesas y predicciones generales.",
+    "xpReward": 30,
+    "orderIndex": 83,
+    "estimatedMinutes": 15,
+    "description": "Write about plans for an upcoming celebration.",
+    "intro": "Write about plans for an upcoming celebration.",
+    "mission": "Write 80-130 words about a celebration you are planning (real or imaginary), using going to for plans and will for at least one spontaneous decision or offer.",
+    "grammar": "",
     "phrases": [
-      "I'm going to... (plan)",
-      "I'll... (spontaneous decision)",
-      "I think it will...",
-      "It's going to... (evidence)"
+      "I'm going to celebrate...",
+      "We're going to invite...",
+      "I'll... / If..., we'll...",
+      "It's going to be..."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "Next month, I'm going to celebrate my sister's graduation. We're going to have a small party at home, with close family and friends. My mum is going to cook her special lasagne, and I'm going to make a cake for the first time. If the weather is nice, we'll have the party in the garden; if not, we'll stay inside. I'll also prepare a short speech to celebrate her achievement. It's going to be a simple celebration, but I know it will be really special.",
+        "translation": "El próximo mes voy a celebrar la graduación de mi hermana. Vamos a hacer una pequeña fiesta en casa, con familia cercana y amigos. Mi mamá va a cocinar su lasaña especial, y yo voy a hacer un pastel por primera vez. Si hace buen clima, haremos la fiesta en el jardín; si no, nos quedaremos adentro. También prepararé un pequeño discurso para celebrar su logro. Va a ser una celebración sencilla, pero sé que será muy especial."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "I've already decided - I ___ study medicine next year.",
-        "options": [
-          "will",
-          "am going to",
-          "am",
-          "do"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "The phone is ringing - I ___ answer it!",
-        "options": [
-          "am going to",
-          "'ll",
-          "am",
-          "do"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Look at those clouds - it ___ rain soon.",
-        "options": [
-          "'ll",
-          "is going to",
-          "does",
-          "is"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ have a party next Saturday - it's all planned.",
-        "options": [
-          "'ll",
-          "are going to",
-          "are",
-          "do"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I don't know what to bring... I ___ bring a salad!",
-        "options": [
-          "'ll",
-          "am going to",
-          "am",
-          "do"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I think our team ___ win the match tomorrow.",
-        "options": [
-          "is going to",
-          "'ll",
-          "does",
-          "is"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "She ___ study abroad next year - the plan is already made.",
-        "options": [
-          "will",
-          "is going to",
-          "is",
-          "does"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "That box looks heavy - I ___ help you with it.",
-        "options": [
-          "'ll",
-          "am going to",
-          "am",
-          "do"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ you come to the party on Saturday?",
-        "options": [
-          "Will",
-          "Do",
-          "Are",
-          "Have"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We've already booked the cake, so we ___ have chocolate flavour.",
-        "options": [
-          "will",
-          "are going to",
-          "do",
-          "have"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "A: \"We need more chairs.\" B: \"OK, I ___ bring some from my house.\"",
-        "options": [
-          "'ll",
-          "am going to",
-          "am",
-          "do"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I promise I ___ never tell your secret.",
-        "options": [
-          "'ll",
-          "am going to",
-          "am",
-          "do"
-        ]
+        "type": "writing",
+        "prompt": "Write 80-130 words about a celebration you are planning, using going to for plans and will at least once for a spontaneous decision or offer."
       }
     ]
   },
@@ -12916,6 +14623,546 @@
     ]
   },
   {
+    "slug": "english-a2-plans-and-celebrations-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "plans-and-celebrations",
+    "title": "Going to (Plans) and Will (Spontaneous Decisions/Predictions)",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 84,
+    "estimatedMinutes": 12,
+    "description": "Talk about plans already decided and spontaneous decisions or predictions.",
+    "intro": "Talk about plans already decided and spontaneous decisions or predictions.",
+    "mission": "",
+    "grammar": "Goal: choose between going to (plans already decided) and will (spontaneous decisions, offers, promises, predictions).\n\nRule: use going to for plans and intentions decided before the moment of speaking. Use will for decisions made at the moment of speaking, offers, promises, and general predictions.\n\nPattern: subject + am/is/are + going to + base verb (plan). Subject + will/'ll + base verb (spontaneous/prediction).\n\nExamples:\n1. I'm going to study medicine next year.\n2. The phone is ringing - I'll answer it!\n3. Look at those clouds - it's going to rain soon.\n4. We are going to have a party next Saturday.\n5. I don't know what to bring... I'll bring a salad!\n6. I think our team will win the match tomorrow.\n7. That box looks heavy - I'll help you with it.\n8. I promise I'll never tell your secret.\n\nAffirmative: subject + am/is/are + going to + verb (plan); subject + will + verb (spontaneous). Example: \"She is going to study abroad next year.\"\n\nNegative: subject + am/is/are + not + going to + verb; subject + won't + verb. Example: \"I'm not going to invite him.\" \"I won't tell anyone.\"\n\nQuestions: Am/Is/Are + subject + going to + verb...? Will + subject + verb...? Example: \"Are you going to come?\" \"Will you come to the party?\"\n\nContractions: I'll = I will, won't = will not, I'm = I am.\n\nCommon mistakes: ✗ \"I go to study medicine\" → ✓ \"I'm going to study medicine\" (don't drop \"am/is/are\"). ✗ using \"will\" for an already-decided plan → use \"going to\": \"We're going to have a party\" (already planned), not \"We'll have a party\". ✗ using \"going to\" for a decision made right now → use \"will\": \"The phone is ringing - I'll answer it!\", not \"I'm going to answer it\" for that instant decision.\n\nCompare: going to = decided BEFORE speaking (a plan); will = decided AT the moment of speaking (spontaneous), or an offer/promise/general prediction; going to is also used for a prediction based on visible evidence (\"Look at those clouds - it's going to rain\"), while will is used for a prediction based on opinion (\"I think it will rain\").\n\nMini practice: complete. \"We've already booked the cake, so we (have) ___ chocolate flavour.\" → are going to have. \"OK, I (bring) ___ some chairs from my house.\" → 'll bring.\n\nSummary: use going to for plans decided before now and evidence-based predictions; use will for decisions made right now, offers, promises, and opinion-based predictions.\n\nApoyo: usa going to para planes ya decididos; usa will para decisiones espontáneas, ofrecimientos, promesas y predicciones generales.",
+    "phrases": [
+      "I'm going to... (plan)",
+      "I'll... (spontaneous decision)",
+      "I think it will...",
+      "It's going to... (evidence)"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "english-a2-plans-and-celebrations-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "I've already decided - I ___ study medicine next year.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o2",
+                "text": "am going to"
+              },
+              {
+                "id": "o1",
+                "text": "will"
+              },
+              {
+                "id": "o3",
+                "text": "am"
+              },
+              {
+                "id": "o4",
+                "text": "do"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "The phone is ringing - I ___ answer it!",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "am going to"
+              },
+              {
+                "id": "o2",
+                "text": "'ll"
+              },
+              {
+                "id": "o3",
+                "text": "am"
+              },
+              {
+                "id": "o4",
+                "text": "do"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Look at those clouds - it ___ rain soon.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "'ll"
+              },
+              {
+                "id": "o3",
+                "text": "does"
+              },
+              {
+                "id": "o2",
+                "text": "is going to"
+              },
+              {
+                "id": "o4",
+                "text": "is"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "We ___ have a party next Saturday - it's all planned.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "'ll"
+              },
+              {
+                "id": "o3",
+                "text": "are"
+              },
+              {
+                "id": "o4",
+                "text": "do"
+              },
+              {
+                "id": "o2",
+                "text": "are going to"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "I don't know what to bring... I ___ bring a salad!",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "'ll"
+              },
+              {
+                "id": "o2",
+                "text": "am going to"
+              },
+              {
+                "id": "o3",
+                "text": "am"
+              },
+              {
+                "id": "o4",
+                "text": "do"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "I think our team ___ win the match tomorrow.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "is going to"
+              },
+              {
+                "id": "o2",
+                "text": "'ll"
+              },
+              {
+                "id": "o3",
+                "text": "does"
+              },
+              {
+                "id": "o4",
+                "text": "is"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Find the mistake: \"The phone is ringing - I am going to answer it!\"",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "There is no mistake"
+              },
+              {
+                "id": "o3",
+                "text": "It should be \"I answer it\""
+              },
+              {
+                "id": "o2",
+                "text": "It should be \"I'll answer it\" (spontaneous decision)"
+              },
+              {
+                "id": "o4",
+                "text": "It should be \"I answered it\""
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "That box looks heavy - I ___ help you with it.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "am going to"
+              },
+              {
+                "id": "o3",
+                "text": "am"
+              },
+              {
+                "id": "o4",
+                "text": "do"
+              },
+              {
+                "id": "o1",
+                "text": "'ll"
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "___ you come to the party on Saturday?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Will"
+              },
+              {
+                "id": "o2",
+                "text": "Do"
+              },
+              {
+                "id": "o3",
+                "text": "Are"
+              },
+              {
+                "id": "o4",
+                "text": "Have"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "We've already booked the cake, so we ___ have chocolate flavour.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will"
+              },
+              {
+                "id": "o2",
+                "text": "are going to"
+              },
+              {
+                "id": "o3",
+                "text": "do"
+              },
+              {
+                "id": "o4",
+                "text": "have"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Choose the sentence equivalent to \"I promise not to tell anyone.\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "I'm never going to tell your secret."
+              },
+              {
+                "id": "o4",
+                "text": "I never tell your secret."
+              },
+              {
+                "id": "o1",
+                "text": "I'll never tell your secret."
+              },
+              {
+                "id": "o2",
+                "text": "I never told your secret."
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Put in order: \"we / have a party / going to / are / next Saturday\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "Are we going to have a party next Saturday."
+              },
+              {
+                "id": "o4",
+                "text": "We have going to a party next Saturday are."
+              },
+              {
+                "id": "o2",
+                "text": "Going to we are have a party next Saturday."
+              },
+              {
+                "id": "o1",
+                "text": "We are going to have a party next Saturday."
+              }
+            ]
+          }
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "I've already decided - I ___ study medicine next year.",
+        "options": [
+          "will",
+          "am going to",
+          "am",
+          "do"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "The phone is ringing - I ___ answer it!",
+        "options": [
+          "am going to",
+          "'ll",
+          "am",
+          "do"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Look at those clouds - it ___ rain soon.",
+        "options": [
+          "'ll",
+          "is going to",
+          "does",
+          "is"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ have a party next Saturday - it's all planned.",
+        "options": [
+          "'ll",
+          "are going to",
+          "are",
+          "do"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I don't know what to bring... I ___ bring a salad!",
+        "options": [
+          "'ll",
+          "am going to",
+          "am",
+          "do"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I think our team ___ win the match tomorrow.",
+        "options": [
+          "is going to",
+          "'ll",
+          "does",
+          "is"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "She ___ study abroad next year - the plan is already made.",
+        "options": [
+          "will",
+          "is going to",
+          "is",
+          "does"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "That box looks heavy - I ___ help you with it.",
+        "options": [
+          "'ll",
+          "am going to",
+          "am",
+          "do"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ you come to the party on Saturday?",
+        "options": [
+          "Will",
+          "Do",
+          "Are",
+          "Have"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We've already booked the cake, so we ___ have chocolate flavour.",
+        "options": [
+          "will",
+          "are going to",
+          "do",
+          "have"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "A: \"We need more chairs.\" B: \"OK, I ___ bring some from my house.\"",
+        "options": [
+          "'ll",
+          "am going to",
+          "am",
+          "do"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I promise I ___ never tell your secret.",
+        "options": [
+          "'ll",
+          "am going to",
+          "am",
+          "do"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-home-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "my-home",
+    "title": "Rooms and Furniture",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 85,
+    "estimatedMinutes": 6,
+    "description": "Words for rooms and furniture in a house.",
+    "intro": "Words for rooms and furniture in a house.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Kitchen",
+        "translation": "Cocina",
+        "example": "We eat breakfast in the kitchen."
+      },
+      {
+        "word": "Bedroom",
+        "translation": "Dormitorio",
+        "example": "My bedroom is small but nice."
+      },
+      {
+        "word": "Living room",
+        "translation": "Sala",
+        "example": "We watch TV in the living room."
+      },
+      {
+        "word": "Bathroom",
+        "translation": "Baño",
+        "example": "The bathroom is next to my room."
+      },
+      {
+        "word": "Bed",
+        "translation": "Cama",
+        "example": "My bed is next to the window."
+      },
+      {
+        "word": "Sofa",
+        "translation": "Sofá",
+        "example": "The cat sleeps on the sofa."
+      },
+      {
+        "word": "Closet",
+        "translation": "Clóset / armario",
+        "example": "My clothes are in the closet."
+      },
+      {
+        "word": "Table",
+        "translation": "Mesa",
+        "example": "The books are on the table."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Bedroom\" mean?",
+        "options": [
+          "Cocina",
+          "Dormitorio",
+          "Sala",
+          "Baño"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Closet\" mean?",
+        "options": [
+          "Mesa",
+          "Cama",
+          "Clóset / armario",
+          "Sofá"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Living room\" mean?",
+        "options": [
+          "Sala",
+          "Baño",
+          "Cocina",
+          "Dormitorio"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-plans-and-celebrations-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
@@ -13201,96 +15448,121 @@
     ]
   },
   {
-    "slug": "english-a1-my-home-vocabulary",
+    "slug": "english-a1-my-town-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "my-home",
-    "title": "Rooms and Furniture",
+    "skill": "reading",
+    "unitId": "my-town",
+    "title": "My Neighborhood",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 85,
-    "estimatedMinutes": 6,
-    "description": "Words for rooms and furniture in a house.",
-    "intro": "Words for rooms and furniture in a house.",
+    "xpReward": 25,
+    "orderIndex": 90,
+    "estimatedMinutes": 10,
+    "description": "A short text about the places near a student's home, in three parts.",
+    "intro": "A short text about the places near a student's home, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Kitchen",
-        "translation": "Cocina",
-        "example": "We eat breakfast in the kitchen."
-      },
-      {
-        "word": "Bedroom",
-        "translation": "Dormitorio",
-        "example": "My bedroom is small but nice."
-      },
-      {
-        "word": "Living room",
-        "translation": "Sala",
-        "example": "We watch TV in the living room."
-      },
-      {
-        "word": "Bathroom",
-        "translation": "Baño",
-        "example": "The bathroom is next to my room."
-      },
-      {
-        "word": "Bed",
-        "translation": "Cama",
-        "example": "My bed is next to the window."
-      },
-      {
-        "word": "Sofa",
-        "translation": "Sofá",
-        "example": "The cat sleeps on the sofa."
-      },
-      {
-        "word": "Closet",
-        "translation": "Clóset / armario",
-        "example": "My clothes are in the closet."
-      },
-      {
-        "word": "Table",
-        "translation": "Mesa",
-        "example": "The books are on the table."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "My Neighborhood",
+      "parts": [
+        "There is a small park near my house, and I play there with my friends every afternoon. There is also a supermarket, a bakery, and a pharmacy on my street. The bakery smells wonderful in the morning because they bake fresh bread.",
+        "My school is not far; it is only a ten-minute walk. I walk there every day with my neighbor. Next to my school, there is a small bookstore where I buy notebooks and pencils. My town also has a beautiful library with many books.",
+        "On Saturdays, my family goes to the market to buy fresh fruit and vegetables. The market is busy and colorful, with many friendly sellers. I like my neighborhood because everything is close, and I know almost everybody who lives here."
+      ],
+      "questions": [
+        "What places are on the writer's street?",
+        "How far is the school?",
+        "What do they buy at the market?"
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The writer plays in the park with friends.",
+          "The writer walks to school with a neighbor.",
+          "The writer buys notebooks at the bookstore.",
+          "The family shops at the market on Saturday."
+        ]
+      },
+      "text": "There is a small park near my house, and I play there with my friends every afternoon. There is also a supermarket, a bakery, and a pharmacy on my street. The bakery smells wonderful in the morning because they bake fresh bread.\n\nMy school is not far; it is only a ten-minute walk. I walk there every day with my neighbor. Next to my school, there is a small bookstore where I buy notebooks and pencils. My town also has a beautiful library with many books.\n\nOn Saturdays, my family goes to the market to buy fresh fruit and vegetables. The market is busy and colorful, with many friendly sellers. I like my neighborhood because everything is close, and I know almost everybody who lives here."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does \"Bedroom\" mean?",
+        "prompt": "What is near the writer's house?",
         "options": [
-          "Cocina",
-          "Dormitorio",
-          "Sala",
-          "Baño"
+          "A beach",
+          "A park",
+          "A mountain",
+          "A river"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Closet\" mean?",
+        "prompt": "How far is the school?",
         "options": [
-          "Mesa",
-          "Cama",
-          "Clóset / armario",
-          "Sofá"
+          "A ten-minute walk",
+          "One hour",
+          "Very far",
+          "They don't say"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Living room\" mean?",
+        "prompt": "Where do they buy fruit and vegetables?",
         "options": [
-          "Sala",
-          "Baño",
-          "Cocina",
-          "Dormitorio"
+          "The bakery",
+          "The pharmacy",
+          "The market",
+          "The school"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is next to the school?",
+        "options": [
+          "A bakery",
+          "A bookstore",
+          "A bank",
+          "A hospital"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The bakery smells good in the morning.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer walks to school alone.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The market is quiet and empty on Saturdays.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: The market is busy and ___, with many sellers.",
+        "options": [
+          "colorful",
+          "boring",
+          "silent",
+          "empty"
         ]
       }
     ]
@@ -13412,121 +15684,91 @@
     ]
   },
   {
-    "slug": "english-a1-my-town-reading",
+    "slug": "english-a1-my-town-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "my-town",
-    "title": "My Neighborhood",
+    "title": "Excuse Me, Where Is the Bank?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 90,
+    "orderIndex": 91,
     "estimatedMinutes": 10,
-    "description": "A short text about the places near a student's home, in three parts.",
-    "intro": "A short text about the places near a student's home, in three parts.",
+    "description": "Listen to someone asking for directions in town.",
+    "intro": "Listen to a tourist asking a local person for directions to the bank.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "Excuse me, where is...?",
+      "Go straight.",
+      "Turn left/right.",
+      "Is it far?"
+    ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "My Neighborhood",
-      "parts": [
-        "There is a small park near my house, and I play there with my friends every afternoon. There is also a supermarket, a bakery, and a pharmacy on my street. The bakery smells wonderful in the morning because they bake fresh bread.",
-        "My school is not far; it is only a ten-minute walk. I walk there every day with my neighbor. Next to my school, there is a small bookstore where I buy notebooks and pencils. My town also has a beautiful library with many books.",
-        "On Saturdays, my family goes to the market to buy fresh fruit and vegetables. The market is busy and colorful, with many friendly sellers. I like my neighborhood because everything is close, and I know almost everybody who lives here."
-      ],
-      "questions": [
-        "What places are on the writer's street?",
-        "How far is the school?",
-        "What do they buy at the market?"
-      ],
-      "ordering": {
-        "prompt": "Put the events of the story in order.",
-        "events": [
-          "The writer plays in the park with friends.",
-          "The writer walks to school with a neighbor.",
-          "The writer buys notebooks at the bookstore.",
-          "The family shops at the market on Saturday."
-        ]
+    "dialogue": [
+      {
+        "speaker": "Tourist",
+        "line": "Excuse me, where is the bank, please?",
+        "translation": "Disculpe, ¿dónde está el banco, por favor?"
       },
-      "text": "There is a small park near my house, and I play there with my friends every afternoon. There is also a supermarket, a bakery, and a pharmacy on my street. The bakery smells wonderful in the morning because they bake fresh bread.\n\nMy school is not far; it is only a ten-minute walk. I walk there every day with my neighbor. Next to my school, there is a small bookstore where I buy notebooks and pencils. My town also has a beautiful library with many books.\n\nOn Saturdays, my family goes to the market to buy fresh fruit and vegetables. The market is busy and colorful, with many friendly sellers. I like my neighborhood because everything is close, and I know almost everybody who lives here."
-    },
+      {
+        "speaker": "Local",
+        "line": "Go straight and turn left at the supermarket.",
+        "translation": "Siga derecho y doble a la izquierda en el supermercado."
+      },
+      {
+        "speaker": "Tourist",
+        "line": "Turn left at the supermarket. Is it far?",
+        "translation": "Doblar a la izquierda en el supermercado. ¿Está lejos?"
+      },
+      {
+        "speaker": "Local",
+        "line": "No, it's not far. It's next to the park.",
+        "translation": "No, no está lejos. Está al lado del parque."
+      },
+      {
+        "speaker": "Tourist",
+        "line": "Thank you very much!",
+        "translation": "¡Muchas gracias!"
+      },
+      {
+        "speaker": "Local",
+        "line": "You're welcome. Have a nice day!",
+        "translation": "De nada. ¡Que tenga un buen día!"
+      }
+    ],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is near the writer's house?",
+        "prompt": "What is the tourist looking for?",
         "options": [
-          "A beach",
           "A park",
-          "A mountain",
-          "A river"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How far is the school?",
-        "options": [
-          "A ten-minute walk",
-          "One hour",
-          "Very far",
-          "They don't say"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Where do they buy fruit and vegetables?",
-        "options": [
-          "The bakery",
-          "The pharmacy",
-          "The market",
-          "The school"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is next to the school?",
-        "options": [
-          "A bakery",
-          "A bookstore",
           "A bank",
-          "A hospital"
+          "A school",
+          "A market"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "True or false: The bakery smells good in the morning.",
+        "prompt": "Where should the tourist turn left?",
         "options": [
-          "True",
-          "False"
+          "At the park",
+          "At the bakery",
+          "At the supermarket",
+          "At the school"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "True or false: The writer walks to school alone.",
+        "prompt": "Is the bank far?",
         "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The market is quiet and empty on Saturdays.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: The market is busy and ___, with many sellers.",
-        "options": [
-          "colorful",
-          "boring",
-          "silent",
-          "empty"
+          "Yes, very far",
+          "No, it's close",
+          "They don't know",
+          "It's closed"
         ]
       }
     ]
@@ -13692,57 +15934,42 @@
     ]
   },
   {
-    "slug": "english-a1-my-town-listening",
+    "slug": "english-a1-my-town-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "my-town",
-    "title": "Excuse Me, Where Is the Bank?",
+    "title": "Ask for Directions",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 91,
-    "estimatedMinutes": 10,
-    "description": "Listen to someone asking for directions in town.",
-    "intro": "Listen to a tourist asking a local person for directions to the bank.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 92,
+    "estimatedMinutes": 8,
+    "description": "Practice asking for and giving simple directions.",
+    "intro": "Practice asking for and giving simple directions.",
+    "mission": "Ask a partner for directions to a place in your town and give them directions to another place.",
     "grammar": "",
     "phrases": [
       "Excuse me, where is...?",
       "Go straight.",
       "Turn left/right.",
-      "Is it far?"
+      "It's next to/near..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tourist",
-        "line": "Excuse me, where is the bank, please?",
-        "translation": "Disculpe, ¿dónde está el banco, por favor?"
+        "speaker": "You",
+        "line": "Excuse me, where is the supermarket?",
+        "translation": "Disculpe, ¿dónde está el supermercado?"
       },
       {
-        "speaker": "Local",
-        "line": "Go straight and turn left at the supermarket.",
-        "translation": "Siga derecho y doble a la izquierda en el supermercado."
+        "speaker": "Partner",
+        "line": "Go straight and turn right. It's next to the park.",
+        "translation": "Siga derecho y doble a la derecha. Está al lado del parque."
       },
       {
-        "speaker": "Tourist",
-        "line": "Turn left at the supermarket. Is it far?",
-        "translation": "Doblar a la izquierda en el supermercado. ¿Está lejos?"
-      },
-      {
-        "speaker": "Local",
-        "line": "No, it's not far. It's next to the park.",
-        "translation": "No, no está lejos. Está al lado del parque."
-      },
-      {
-        "speaker": "Tourist",
+        "speaker": "You",
         "line": "Thank you very much!",
         "translation": "¡Muchas gracias!"
-      },
-      {
-        "speaker": "Local",
-        "line": "You're welcome. Have a nice day!",
-        "translation": "De nada. ¡Que tenga un buen día!"
       }
     ],
     "reading": null,
@@ -13750,34 +15977,12 @@
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "What is the tourist looking for?",
-        "options": [
-          "A park",
-          "A bank",
-          "A school",
-          "A market"
-        ]
+        "type": "speaking",
+        "prompt": "Say out loud directions from your house to your school."
       },
       {
-        "type": "mcq",
-        "prompt": "Where should the tourist turn left?",
-        "options": [
-          "At the park",
-          "At the bakery",
-          "At the supermarket",
-          "At the school"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Is the bank far?",
-        "options": [
-          "Yes, very far",
-          "No, it's close",
-          "They don't know",
-          "It's closed"
-        ]
+        "type": "practice",
+        "prompt": "Practice asking \"Where is the...?\" and giving directions with a partner, then switch roles."
       }
     ]
   },
@@ -13844,98 +16049,6 @@
     ]
   },
   {
-    "slug": "english-a1-my-town-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "my-town",
-    "title": "Ask for Directions",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 92,
-    "estimatedMinutes": 8,
-    "description": "Practice asking for and giving simple directions.",
-    "intro": "Practice asking for and giving simple directions.",
-    "mission": "Ask a partner for directions to a place in your town and give them directions to another place.",
-    "grammar": "",
-    "phrases": [
-      "Excuse me, where is...?",
-      "Go straight.",
-      "Turn left/right.",
-      "It's next to/near..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "You",
-        "line": "Excuse me, where is the supermarket?",
-        "translation": "Disculpe, ¿dónde está el supermercado?"
-      },
-      {
-        "speaker": "Partner",
-        "line": "Go straight and turn right. It's next to the park.",
-        "translation": "Siga derecho y doble a la derecha. Está al lado del parque."
-      },
-      {
-        "speaker": "You",
-        "line": "Thank you very much!",
-        "translation": "¡Muchas gracias!"
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Say out loud directions from your house to your school."
-      },
-      {
-        "type": "practice",
-        "prompt": "Practice asking \"Where is the...?\" and giving directions with a partner, then switch roles."
-      }
-    ]
-  },
-  {
-    "slug": "english-a2-school-and-work-writing",
-    "level": "A2",
-    "skill": "writing",
-    "unitId": "school-and-work",
-    "title": "My Skills and Abilities",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 93,
-    "estimatedMinutes": 15,
-    "description": "Write about your skills and abilities for school or work.",
-    "intro": "Write about your skills and abilities for school or work.",
-    "mission": "Write 80-130 words about your skills and abilities: what you can do well, what you couldn't do before but can now, and one skill you would like to develop.",
-    "grammar": "",
-    "phrases": [
-      "I can... / I am able to...",
-      "A few years ago, I couldn't...",
-      "Now I can...",
-      "I would like to be able to..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Model",
-        "line": "I can organize my time well, and I am able to explain difficult ideas simply, which helps a lot at work. A few years ago, I couldn't speak in front of a group without feeling very nervous, but now I can give a presentation without a problem. I can also work well under pressure when there is a tight deadline. In the future, I would like to be able to manage a small team, like Sarah in the reading.",
-        "translation": "Puedo organizar bien mi tiempo, y soy capaz de explicar ideas difíciles de forma sencilla, lo cual ayuda mucho en el trabajo. Hace unos años, no podía hablar frente a un grupo sin sentirme muy nervioso, pero ahora puedo dar una presentación sin problema. También puedo trabajar bien bajo presión cuando hay una fecha límite ajustada. En el futuro, me gustaría poder liderar un pequeño equipo, como Sarah en la lectura."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Write 80-130 words about your skills and abilities, using can/be able to and could at least twice each."
-      }
-    ]
-  },
-  {
     "slug": "english-a1-my-town-writing",
     "level": "A1",
     "skill": "writing",
@@ -13975,151 +16088,41 @@
     ]
   },
   {
-    "slug": "english-a2-school-and-work-grammar",
+    "slug": "english-a2-school-and-work-writing",
     "level": "A2",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "school-and-work",
-    "title": "Can / Could / Be Able To (Ability)",
+    "title": "My Skills and Abilities",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 94,
-    "estimatedMinutes": 12,
-    "description": "Talk about present and past abilities.",
-    "intro": "Talk about present and past abilities.",
-    "mission": "",
-    "grammar": "Use can for present ability: \"I can design websites.\" Use could for general ability in the past: \"She could speak French as a child.\" Use was/were able to especially for a specific achievement in the past (one occasion): \"She was able to finish the project on time.\"\n\nBe able to is also used where can/could is not possible, like after another modal or in the future: \"I will be able to help tomorrow,\" \"I haven't been able to finish yet.\"\n\nApoyo: usa can para habilidad presente; usa could para habilidad general en el pasado; usa was/were able to especialmente para un logro específico en el pasado.",
+    "xpReward": 30,
+    "orderIndex": 93,
+    "estimatedMinutes": 15,
+    "description": "Write about your skills and abilities for school or work.",
+    "intro": "Write about your skills and abilities for school or work.",
+    "mission": "Write 80-130 words about your skills and abilities: what you can do well, what you couldn't do before but can now, and one skill you would like to develop.",
+    "grammar": "",
     "phrases": [
-      "I can... (present ability)",
-      "I could... (past general ability)",
-      "I was able to... (specific past achievement)",
-      "I will be able to..."
+      "I can... / I am able to...",
+      "A few years ago, I couldn't...",
+      "Now I can...",
+      "I would like to be able to..."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "I can organize my time well, and I am able to explain difficult ideas simply, which helps a lot at work. A few years ago, I couldn't speak in front of a group without feeling very nervous, but now I can give a presentation without a problem. I can also work well under pressure when there is a tight deadline. In the future, I would like to be able to manage a small team, like Sarah in the reading.",
+        "translation": "Puedo organizar bien mi tiempo, y soy capaz de explicar ideas difíciles de forma sencilla, lo cual ayuda mucho en el trabajo. Hace unos años, no podía hablar frente a un grupo sin sentirme muy nervioso, pero ahora puedo dar una presentación sin problema. También puedo trabajar bien bajo presión cuando hay una fecha límite ajustada. En el futuro, me gustaría poder liderar un pequeño equipo, como Sarah en la lectura."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "She ___ speak three languages fluently.",
-        "options": [
-          "can",
-          "could",
-          "is able",
-          "will"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "When he was young, he ___ run very fast.",
-        "options": [
-          "can",
-          "could",
-          "is able to",
-          "will"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Despite the problems, we ___ finish the project on time.",
-        "options": [
-          "could",
-          "were able to",
-          "can",
-          "will"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I ___ help you tomorrow if you need it.",
-        "options": [
-          "can",
-          "could",
-          "will be able to",
-          "am able"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ you drive when you were eighteen?",
-        "options": [
-          "Can",
-          "Could",
-          "Are able to",
-          "Will"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I ___ finish the report - can you help me?",
-        "options": [
-          "can't",
-          "couldn't",
-          "am not able",
-          "wasn't able to"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "After months of practice, she ___ finally able to give the presentation confidently.",
-        "options": [
-          "is",
-          "was",
-          "can",
-          "could"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "He ___ speak any English before he moved to the UK.",
-        "options": [
-          "can't",
-          "couldn't",
-          "isn't able to",
-          "wasn't able"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We hope we ___ able to travel next year.",
-        "options": [
-          "will be",
-          "can be",
-          "could be",
-          "are"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Priya ___ work well under pressure - it's one of her strengths.",
-        "options": [
-          "can",
-          "is able",
-          "could",
-          "was able"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I haven't ___ to finish the design yet.",
-        "options": [
-          "can",
-          "could",
-          "been able",
-          "able"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Sarah ___ lead a team a year ago, but now she can.",
-        "options": [
-          "couldn't",
-          "can't",
-          "wasn't able",
-          "is not able"
-        ]
+        "type": "writing",
+        "prompt": "Write 80-130 words about your skills and abilities, using can/be able to and could at least twice each."
       }
     ]
   },
@@ -14489,6 +16492,546 @@
     ]
   },
   {
+    "slug": "english-a2-school-and-work-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "school-and-work",
+    "title": "Can / Could / Be Able To (Ability)",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 94,
+    "estimatedMinutes": 12,
+    "description": "Talk about present and past abilities.",
+    "intro": "Talk about present and past abilities.",
+    "mission": "",
+    "grammar": "Goal: talk about present and past ability with can, could, and be able to.\n\nRule: use can for present ability, could for general ability in the past, and was/were able to especially for a specific achievement on one occasion. Be able to also fills in where can/could is impossible, like after another modal or in the future.\n\nPattern: subject + can/could + base verb (ability). Subject + was/were/will be + able to + base verb.\n\nExamples:\n1. She can speak three languages fluently.\n2. When he was young, he could run very fast.\n3. Despite the problems, we were able to finish the project on time.\n4. I will be able to help you tomorrow.\n5. Could you drive when you were eighteen?\n6. He couldn't speak any English before he moved to the UK.\n7. We hope we will be able to travel next year.\n8. I haven't been able to finish the design yet.\n\nAffirmative: subject + can/could/was-were able to + base verb. Example: \"Priya can work well under pressure.\"\n\nNegative: subject + can't/couldn't/wasn't-weren't able to + base verb. Example: \"I can't finish the report.\" \"Sarah couldn't lead a team a year ago.\"\n\nQuestions: Can/Could + subject + base verb...? Example: \"Can you help me?\" \"Could you drive when you were eighteen?\"\n\nContractions: can't = cannot, couldn't = could not.\n\nCommon mistakes: ✗ \"I can to help\" → ✓ \"I can help\" (no \"to\" after can/could). ✗ \"She cans speak\" → ✓ \"She can speak\" (can never takes -s, even with he/she/it). ✗ using \"could\" for one specific past success → prefer \"was/were able to\": \"Despite the problems, we were able to finish\" (not \"we could finish\", which suggests general ability rather than one achievement).\n\nCompare: could = general ability in the past (over time); was/were able to = a specific success on one occasion, especially when there was difficulty; will be able to fills the future (can has no future form); been able to fills the present perfect (can has no perfect form).\n\nMini practice: complete. \"After months of practice, she (be) ___ finally able to give the presentation confidently.\" → was. \"I haven't (be) ___ able to finish the design yet.\" → been.\n\nSummary: use can for present ability, could for general past ability, was/were able to for a specific past achievement, and will be able to / have been able to when can/could doesn't fit grammatically (future, perfect tenses, after another modal).\n\nApoyo: usa can para habilidad presente; usa could para habilidad general en el pasado; usa was/were able to especialmente para un logro específico en el pasado.",
+    "phrases": [
+      "I can... (present ability)",
+      "I could... (past general ability)",
+      "I was able to... (specific past achievement)",
+      "I will be able to..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "english-a2-school-and-work-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "She ___ speak three languages fluently.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "can"
+              },
+              {
+                "id": "o2",
+                "text": "could"
+              },
+              {
+                "id": "o3",
+                "text": "is able"
+              },
+              {
+                "id": "o4",
+                "text": "will"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "When he was young, he ___ run very fast.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "can"
+              },
+              {
+                "id": "o2",
+                "text": "could"
+              },
+              {
+                "id": "o3",
+                "text": "is able to"
+              },
+              {
+                "id": "o4",
+                "text": "will"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Despite the problems, we ___ finish the project on time.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "could"
+              },
+              {
+                "id": "o3",
+                "text": "can"
+              },
+              {
+                "id": "o2",
+                "text": "were able to"
+              },
+              {
+                "id": "o4",
+                "text": "will"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "I ___ help you tomorrow if you need it.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "can"
+              },
+              {
+                "id": "o2",
+                "text": "could"
+              },
+              {
+                "id": "o4",
+                "text": "am able"
+              },
+              {
+                "id": "o3",
+                "text": "will be able to"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "___ you drive when you were eighteen?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "Could"
+              },
+              {
+                "id": "o1",
+                "text": "Can"
+              },
+              {
+                "id": "o3",
+                "text": "Are able to"
+              },
+              {
+                "id": "o4",
+                "text": "Will"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "I ___ finish the report - can you help me?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "couldn't"
+              },
+              {
+                "id": "o1",
+                "text": "can't"
+              },
+              {
+                "id": "o3",
+                "text": "am not able"
+              },
+              {
+                "id": "o4",
+                "text": "wasn't able to"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Find the mistake: \"I can to help you tomorrow.\"",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "There is no mistake"
+              },
+              {
+                "id": "o3",
+                "text": "It should be \"I cans help you\""
+              },
+              {
+                "id": "o2",
+                "text": "It should be \"I can help you\" (no \"to\")"
+              },
+              {
+                "id": "o4",
+                "text": "It should be \"I can helping you\""
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "He ___ speak any English before he moved to the UK.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "can't"
+              },
+              {
+                "id": "o3",
+                "text": "isn't able to"
+              },
+              {
+                "id": "o4",
+                "text": "wasn't able"
+              },
+              {
+                "id": "o2",
+                "text": "couldn't"
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "We hope we ___ able to travel next year.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will be"
+              },
+              {
+                "id": "o2",
+                "text": "can be"
+              },
+              {
+                "id": "o3",
+                "text": "could be"
+              },
+              {
+                "id": "o4",
+                "text": "are"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "I haven't ___ to finish the design yet.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "can"
+              },
+              {
+                "id": "o3",
+                "text": "been able"
+              },
+              {
+                "id": "o2",
+                "text": "could"
+              },
+              {
+                "id": "o4",
+                "text": "able"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Choose the sentence equivalent to \"A year ago, Sarah did not have the ability to lead a team, but she does now.\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "Sarah can't lead a team a year ago, but now she could."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah wasn't able lead a team, but now she can."
+              },
+              {
+                "id": "o1",
+                "text": "Sarah couldn't lead a team a year ago, but now she can."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah can lead a team a year ago, but now she couldn't."
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Put in order: \"well / can / priya / under pressure / work\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "Can priya work well under pressure."
+              },
+              {
+                "id": "o4",
+                "text": "Priya work can well under pressure."
+              },
+              {
+                "id": "o2",
+                "text": "Well priya can work under pressure."
+              },
+              {
+                "id": "o1",
+                "text": "Priya can work well under pressure."
+              }
+            ]
+          }
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "She ___ speak three languages fluently.",
+        "options": [
+          "can",
+          "could",
+          "is able",
+          "will"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When he was young, he ___ run very fast.",
+        "options": [
+          "can",
+          "could",
+          "is able to",
+          "will"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Despite the problems, we ___ finish the project on time.",
+        "options": [
+          "could",
+          "were able to",
+          "can",
+          "will"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I ___ help you tomorrow if you need it.",
+        "options": [
+          "can",
+          "could",
+          "will be able to",
+          "am able"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ you drive when you were eighteen?",
+        "options": [
+          "Can",
+          "Could",
+          "Are able to",
+          "Will"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I ___ finish the report - can you help me?",
+        "options": [
+          "can't",
+          "couldn't",
+          "am not able",
+          "wasn't able to"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After months of practice, she ___ finally able to give the presentation confidently.",
+        "options": [
+          "is",
+          "was",
+          "can",
+          "could"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "He ___ speak any English before he moved to the UK.",
+        "options": [
+          "can't",
+          "couldn't",
+          "isn't able to",
+          "wasn't able"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We hope we ___ able to travel next year.",
+        "options": [
+          "will be",
+          "can be",
+          "could be",
+          "are"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Priya ___ work well under pressure - it's one of her strengths.",
+        "options": [
+          "can",
+          "is able",
+          "could",
+          "was able"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I haven't ___ to finish the design yet.",
+        "options": [
+          "can",
+          "could",
+          "been able",
+          "able"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Sarah ___ lead a team a year ago, but now she can.",
+        "options": [
+          "couldn't",
+          "can't",
+          "wasn't able",
+          "is not able"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-my-town-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "my-town",
+    "title": "Places in Town",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 95,
+    "estimatedMinutes": 6,
+    "description": "Words for common places and directions.",
+    "intro": "Words for common places and directions.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Park",
+        "translation": "Parque",
+        "example": "I play in the park with my friends."
+      },
+      {
+        "word": "Supermarket",
+        "translation": "Supermercado",
+        "example": "We buy food at the supermarket."
+      },
+      {
+        "word": "Bank",
+        "translation": "Banco",
+        "example": "The bank is next to the park."
+      },
+      {
+        "word": "Bakery",
+        "translation": "Panadería",
+        "example": "The bakery has fresh bread."
+      },
+      {
+        "word": "Pharmacy",
+        "translation": "Farmacia",
+        "example": "There is a pharmacy on my street."
+      },
+      {
+        "word": "Straight",
+        "translation": "Derecho / recto",
+        "example": "Go straight for two blocks."
+      },
+      {
+        "word": "Near",
+        "translation": "Cerca",
+        "example": "My school is near my house."
+      },
+      {
+        "word": "Far",
+        "translation": "Lejos",
+        "example": "The market is not far."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Pharmacy\" mean?",
+        "options": [
+          "Panadería",
+          "Farmacia",
+          "Banco",
+          "Parque"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Near\" mean?",
+        "options": [
+          "Lejos",
+          "Cerca",
+          "Derecho",
+          "Parque"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Straight\" mean?",
+        "options": [
+          "Derecho / recto",
+          "Lejos",
+          "Cerca",
+          "Banco"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-school-and-work-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
@@ -14774,96 +17317,121 @@
     ]
   },
   {
-    "slug": "english-a1-my-town-vocabulary",
+    "slug": "english-a1-free-time-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "my-town",
-    "title": "Places in Town",
+    "skill": "reading",
+    "unitId": "free-time",
+    "title": "My Weekend",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 95,
-    "estimatedMinutes": 6,
-    "description": "Words for common places and directions.",
-    "intro": "Words for common places and directions.",
+    "xpReward": 25,
+    "orderIndex": 100,
+    "estimatedMinutes": 10,
+    "description": "A short text about how a student spends the weekend, in three parts.",
+    "intro": "A short text about how a student spends the weekend, in three parts.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Park",
-        "translation": "Parque",
-        "example": "I play in the park with my friends."
-      },
-      {
-        "word": "Supermarket",
-        "translation": "Supermercado",
-        "example": "We buy food at the supermarket."
-      },
-      {
-        "word": "Bank",
-        "translation": "Banco",
-        "example": "The bank is next to the park."
-      },
-      {
-        "word": "Bakery",
-        "translation": "Panadería",
-        "example": "The bakery has fresh bread."
-      },
-      {
-        "word": "Pharmacy",
-        "translation": "Farmacia",
-        "example": "There is a pharmacy on my street."
-      },
-      {
-        "word": "Straight",
-        "translation": "Derecho / recto",
-        "example": "Go straight for two blocks."
-      },
-      {
-        "word": "Near",
-        "translation": "Cerca",
-        "example": "My school is near my house."
-      },
-      {
-        "word": "Far",
-        "translation": "Lejos",
-        "example": "The market is not far."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "My Weekend",
+      "parts": [
+        "On weekends, I usually play soccer with my friends in the park. We play for almost two hours, and it is great exercise. I always watch a movie on Friday night with my family. We choose a different movie every week and eat popcorn together.",
+        "I sometimes read books on Saturday afternoon, especially adventure stories. But I never do homework on Sunday morning! Sunday morning is only for relaxing and having a big breakfast with my family. I finish my homework on Sunday evening instead.",
+        "My sister usually plays the guitar, and she is very good at it. She practices every weekend and sometimes plays songs for the family. Free time is important because it makes me happy and helps me relax after a busy week at school."
+      ],
+      "questions": [
+        "What does the writer usually do on weekends?",
+        "What does the family always do on Friday night?",
+        "What does the sister do in her free time?"
+      ],
+      "ordering": {
+        "prompt": "Put the events of the story in order.",
+        "events": [
+          "The writer plays soccer with friends.",
+          "The family watches a movie on Friday night.",
+          "The writer reads a book on Saturday afternoon.",
+          "The sister plays guitar for the family."
+        ]
+      },
+      "text": "On weekends, I usually play soccer with my friends in the park. We play for almost two hours, and it is great exercise. I always watch a movie on Friday night with my family. We choose a different movie every week and eat popcorn together.\n\nI sometimes read books on Saturday afternoon, especially adventure stories. But I never do homework on Sunday morning! Sunday morning is only for relaxing and having a big breakfast with my family. I finish my homework on Sunday evening instead.\n\nMy sister usually plays the guitar, and she is very good at it. She practices every weekend and sometimes plays songs for the family. Free time is important because it makes me happy and helps me relax after a busy week at school."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does \"Pharmacy\" mean?",
+        "prompt": "What does the writer usually play?",
         "options": [
-          "Panadería",
-          "Farmacia",
-          "Banco",
-          "Parque"
+          "Guitar",
+          "Soccer",
+          "Chess",
+          "Basketball"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Near\" mean?",
+        "prompt": "What do they always do on Friday night?",
         "options": [
-          "Lejos",
-          "Cerca",
-          "Derecho",
-          "Parque"
+          "Play soccer",
+          "Read books",
+          "Watch a movie",
+          "Do homework"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What does \"Straight\" mean?",
+        "prompt": "What does the writer never do on Sunday morning?",
         "options": [
-          "Derecho / recto",
-          "Lejos",
-          "Cerca",
-          "Banco"
+          "Sleep",
+          "Homework",
+          "Play soccer",
+          "Watch TV"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When does the writer finish homework?",
+        "options": [
+          "Saturday morning",
+          "Sunday morning",
+          "Sunday evening",
+          "Friday night"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer plays soccer for two hours on weekends.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The sister never plays guitar.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The family eats popcorn on movie night.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Sunday morning is only for ___ and having a big breakfast.",
+        "options": [
+          "relaxing",
+          "working",
+          "studying",
+          "shopping"
         ]
       }
     ]
@@ -14985,121 +17553,91 @@
     ]
   },
   {
-    "slug": "english-a1-free-time-reading",
+    "slug": "english-a1-free-time-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "free-time",
-    "title": "My Weekend",
+    "title": "What Do You Do in Your Free Time?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 100,
+    "orderIndex": 101,
     "estimatedMinutes": 10,
-    "description": "A short text about how a student spends the weekend, in three parts.",
-    "intro": "A short text about how a student spends the weekend, in three parts.",
+    "description": "Listen to two friends talking about their hobbies.",
+    "intro": "Listen to Ana and Leo talking about what they usually do in their free time.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "What do you usually do?",
+      "I sometimes/always/never...",
+      "Do you play any sports?",
+      "I love..."
+    ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "My Weekend",
-      "parts": [
-        "On weekends, I usually play soccer with my friends in the park. We play for almost two hours, and it is great exercise. I always watch a movie on Friday night with my family. We choose a different movie every week and eat popcorn together.",
-        "I sometimes read books on Saturday afternoon, especially adventure stories. But I never do homework on Sunday morning! Sunday morning is only for relaxing and having a big breakfast with my family. I finish my homework on Sunday evening instead.",
-        "My sister usually plays the guitar, and she is very good at it. She practices every weekend and sometimes plays songs for the family. Free time is important because it makes me happy and helps me relax after a busy week at school."
-      ],
-      "questions": [
-        "What does the writer usually do on weekends?",
-        "What does the family always do on Friday night?",
-        "What does the sister do in her free time?"
-      ],
-      "ordering": {
-        "prompt": "Put the events of the story in order.",
-        "events": [
-          "The writer plays soccer with friends.",
-          "The family watches a movie on Friday night.",
-          "The writer reads a book on Saturday afternoon.",
-          "The sister plays guitar for the family."
-        ]
+    "dialogue": [
+      {
+        "speaker": "Ana",
+        "line": "What do you usually do in your free time, Leo?",
+        "translation": "¿Qué haces normalmente en tu tiempo libre, Leo?"
       },
-      "text": "On weekends, I usually play soccer with my friends in the park. We play for almost two hours, and it is great exercise. I always watch a movie on Friday night with my family. We choose a different movie every week and eat popcorn together.\n\nI sometimes read books on Saturday afternoon, especially adventure stories. But I never do homework on Sunday morning! Sunday morning is only for relaxing and having a big breakfast with my family. I finish my homework on Sunday evening instead.\n\nMy sister usually plays the guitar, and she is very good at it. She practices every weekend and sometimes plays songs for the family. Free time is important because it makes me happy and helps me relax after a busy week at school."
-    },
+      {
+        "speaker": "Leo",
+        "line": "I usually play video games. And you?",
+        "translation": "Normalmente juego videojuegos. ¿Y tú?"
+      },
+      {
+        "speaker": "Ana",
+        "line": "I sometimes paint, and I always read before bed.",
+        "translation": "A veces pinto, y siempre leo antes de dormir."
+      },
+      {
+        "speaker": "Leo",
+        "line": "Do you play any sports?",
+        "translation": "¿Practicas algún deporte?"
+      },
+      {
+        "speaker": "Ana",
+        "line": "Yes, I play basketball on Saturdays.",
+        "translation": "Sí, juego baloncesto los sábados."
+      },
+      {
+        "speaker": "Leo",
+        "line": "I never play basketball, but I love swimming!",
+        "translation": "Yo nunca juego baloncesto, ¡pero me encanta nadar!"
+      }
+    ],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does the writer usually play?",
+        "prompt": "What does Leo usually do?",
         "options": [
-          "Guitar",
-          "Soccer",
-          "Chess",
+          "Read",
+          "Paint",
+          "Play video games",
+          "Play basketball"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When does Ana play basketball?",
+        "options": [
+          "Every day",
+          "On Saturdays",
+          "Never",
+          "On Fridays"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does Leo love?",
+        "options": [
+          "Painting",
+          "Reading",
+          "Swimming",
           "Basketball"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What do they always do on Friday night?",
-        "options": [
-          "Play soccer",
-          "Read books",
-          "Watch a movie",
-          "Do homework"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does the writer never do on Sunday morning?",
-        "options": [
-          "Sleep",
-          "Homework",
-          "Play soccer",
-          "Watch TV"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "When does the writer finish homework?",
-        "options": [
-          "Saturday morning",
-          "Sunday morning",
-          "Sunday evening",
-          "Friday night"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The writer plays soccer for two hours on weekends.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The sister never plays guitar.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The family eats popcorn on movie night.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: Sunday morning is only for ___ and having a big breakfast.",
-        "options": [
-          "relaxing",
-          "working",
-          "studying",
-          "shopping"
         ]
       }
     ]
@@ -15265,57 +17803,42 @@
     ]
   },
   {
-    "slug": "english-a1-free-time-listening",
+    "slug": "english-a1-free-time-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "free-time",
-    "title": "What Do You Do in Your Free Time?",
+    "title": "Talk About Your Hobbies",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 101,
-    "estimatedMinutes": 10,
-    "description": "Listen to two friends talking about their hobbies.",
-    "intro": "Listen to Ana and Leo talking about what they usually do in their free time.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 102,
+    "estimatedMinutes": 8,
+    "description": "Practice talking about your free time activities.",
+    "intro": "Practice talking about your free time activities.",
+    "mission": "Tell a partner two things you usually do in your free time and one thing you never do.",
     "grammar": "",
     "phrases": [
-      "What do you usually do?",
-      "I sometimes/always/never...",
-      "Do you play any sports?",
-      "I love..."
+      "I usually...",
+      "I sometimes...",
+      "I never...",
+      "What do you like doing?"
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Ana",
-        "line": "What do you usually do in your free time, Leo?",
-        "translation": "¿Qué haces normalmente en tu tiempo libre, Leo?"
+        "speaker": "You",
+        "line": "I usually play soccer and I sometimes read.",
+        "translation": "Normalmente juego fútbol y a veces leo."
       },
       {
-        "speaker": "Leo",
-        "line": "I usually play video games. And you?",
-        "translation": "Normalmente juego videojuegos. ¿Y tú?"
+        "speaker": "Partner",
+        "line": "Do you ever play video games?",
+        "translation": "¿Alguna vez juegas videojuegos?"
       },
       {
-        "speaker": "Ana",
-        "line": "I sometimes paint, and I always read before bed.",
-        "translation": "A veces pinto, y siempre leo antes de dormir."
-      },
-      {
-        "speaker": "Leo",
-        "line": "Do you play any sports?",
-        "translation": "¿Practicas algún deporte?"
-      },
-      {
-        "speaker": "Ana",
-        "line": "Yes, I play basketball on Saturdays.",
-        "translation": "Sí, juego baloncesto los sábados."
-      },
-      {
-        "speaker": "Leo",
-        "line": "I never play basketball, but I love swimming!",
-        "translation": "Yo nunca juego baloncesto, ¡pero me encanta nadar!"
+        "speaker": "You",
+        "line": "I never play video games, but I love music.",
+        "translation": "Nunca juego videojuegos, pero me encanta la música."
       }
     ],
     "reading": null,
@@ -15323,34 +17846,12 @@
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "What does Leo usually do?",
-        "options": [
-          "Read",
-          "Paint",
-          "Play video games",
-          "Play basketball"
-        ]
+        "type": "speaking",
+        "prompt": "Say out loud two hobbies you usually do and one you never do."
       },
       {
-        "type": "mcq",
-        "prompt": "When does Ana play basketball?",
-        "options": [
-          "Every day",
-          "On Saturdays",
-          "Never",
-          "On Fridays"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Leo love?",
-        "options": [
-          "Painting",
-          "Reading",
-          "Swimming",
-          "Basketball"
-        ]
+        "type": "practice",
+        "prompt": "Ask a partner \"What do you do in your free time?\" and listen to their answer."
       }
     ]
   },
@@ -15417,98 +17918,6 @@
     ]
   },
   {
-    "slug": "english-a1-free-time-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "free-time",
-    "title": "Talk About Your Hobbies",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 102,
-    "estimatedMinutes": 8,
-    "description": "Practice talking about your free time activities.",
-    "intro": "Practice talking about your free time activities.",
-    "mission": "Tell a partner two things you usually do in your free time and one thing you never do.",
-    "grammar": "",
-    "phrases": [
-      "I usually...",
-      "I sometimes...",
-      "I never...",
-      "What do you like doing?"
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "You",
-        "line": "I usually play soccer and I sometimes read.",
-        "translation": "Normalmente juego fútbol y a veces leo."
-      },
-      {
-        "speaker": "Partner",
-        "line": "Do you ever play video games?",
-        "translation": "¿Alguna vez juegas videojuegos?"
-      },
-      {
-        "speaker": "You",
-        "line": "I never play video games, but I love music.",
-        "translation": "Nunca juego videojuegos, pero me encanta la música."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Say out loud two hobbies you usually do and one you never do."
-      },
-      {
-        "type": "practice",
-        "prompt": "Ask a partner \"What do you do in your free time?\" and listen to their answer."
-      }
-    ]
-  },
-  {
-    "slug": "english-a2-stories-and-achievements-writing",
-    "level": "A2",
-    "skill": "writing",
-    "unitId": "stories-and-achievements",
-    "title": "My Achievements This Year",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 103,
-    "estimatedMinutes": 15,
-    "description": "Write a reflection on your achievements and experiences this year.",
-    "intro": "Write a reflection on your achievements and experiences this year.",
-    "mission": "Write 80-130 words reflecting on this year: what you have achieved, one thing you have never done before, and how you feel looking back.",
-    "grammar": "",
-    "phrases": [
-      "This year, I've...",
-      "I've never... before.",
-      "I've just / already...",
-      "Looking back, I feel..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Model",
-        "line": "This year, I've achieved more than I expected. I've started a new job, and I've made new friends there. I've never travelled alone before, but this year I finally did it, and it changed the way I see myself. I've also just finished a course I've wanted to do for years. Looking back, I feel proud and a little surprised at how much has changed. I think next year, I'll try to be even braver.",
-        "translation": "Este año, he logrado más de lo que esperaba. Empecé un nuevo trabajo, e hice nuevos amigos ahí. Nunca había viajado sola antes, pero este año finalmente lo hice, y cambió la forma en que me veo a mí misma. También acabo de terminar un curso que quería hacer desde hace años. Mirando atrás, me siento orgullosa y un poco sorprendida de cuánto ha cambiado. Creo que el próximo año, intentaré ser aún más valiente."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Write 80-130 words reflecting on your achievements this year, using the Present Perfect and at least one of ever/never/just/already."
-      }
-    ]
-  },
-  {
     "slug": "english-a1-free-time-writing",
     "level": "A1",
     "skill": "writing",
@@ -15548,151 +17957,41 @@
     ]
   },
   {
-    "slug": "english-a2-stories-and-achievements-grammar",
+    "slug": "english-a2-stories-and-achievements-writing",
     "level": "A2",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "stories-and-achievements",
-    "title": "Present Perfect: Ever, Never, Just, Already",
+    "title": "My Achievements This Year",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 104,
-    "estimatedMinutes": 12,
-    "description": "Talk about life experiences and recent actions using the Present Perfect.",
-    "intro": "Talk about life experiences and recent actions using the Present Perfect.",
-    "mission": "",
-    "grammar": "Use the Present Perfect (have/has + past participle) for life experiences without a specific time, or actions with a present result: \"I've visited Edinburgh,\" \"She has just arrived.\"\n\nUse ever in questions (\"Have you ever been to Italy?\"), never for negative experience (\"I've never tried sushi\"), just for something that happened a very short time ago (\"I've just finished\"), and already for something completed sooner than expected (\"I've already eaten\").\n\nApoyo: usa el Present Perfect para experiencias de vida y acciones recientes; ever en preguntas, never para negar experiencia, just para algo reciente, already para algo completado antes de lo esperado.",
+    "xpReward": 30,
+    "orderIndex": 103,
+    "estimatedMinutes": 15,
+    "description": "Write a reflection on your achievements and experiences this year.",
+    "intro": "Write a reflection on your achievements and experiences this year.",
+    "mission": "Write 80-130 words reflecting on this year: what you have achieved, one thing you have never done before, and how you feel looking back.",
+    "grammar": "",
     "phrases": [
-      "I've / She's + past participle",
-      "Have you ever...?",
-      "I've never...",
-      "I've just... / I've already..."
+      "This year, I've...",
+      "I've never... before.",
+      "I've just / already...",
+      "Looking back, I feel..."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Model",
+        "line": "This year, I've achieved more than I expected. I've started a new job, and I've made new friends there. I've never travelled alone before, but this year I finally did it, and it changed the way I see myself. I've also just finished a course I've wanted to do for years. Looking back, I feel proud and a little surprised at how much has changed. I think next year, I'll try to be even braver.",
+        "translation": "Este año, he logrado más de lo que esperaba. Empecé un nuevo trabajo, e hice nuevos amigos ahí. Nunca había viajado sola antes, pero este año finalmente lo hice, y cambió la forma en que me veo a mí misma. También acabo de terminar un curso que quería hacer desde hace años. Mirando atrás, me siento orgullosa y un poco sorprendida de cuánto ha cambiado. Creo que el próximo año, intentaré ser aún más valiente."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "___ you ever visited Scotland?",
-        "options": [
-          "Do",
-          "Have",
-          "Did",
-          "Are"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I ___ never eaten Ethiopian food before.",
-        "options": [
-          "have",
-          "has",
-          "am",
-          "did"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "She ___ just finished her project.",
-        "options": [
-          "have",
-          "has",
-          "is",
-          "did"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ already had dinner, so we're not hungry.",
-        "options": [
-          "have",
-          "has",
-          "are",
-          "did"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I've ___ seen that film - I don't want to watch it again.",
-        "options": [
-          "ever",
-          "never",
-          "already",
-          "just"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Have you ___ tried sushi?",
-        "options": [
-          "ever",
-          "never",
-          "already",
-          "just"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "She's ___ arrived - give her a minute to settle in.",
-        "options": [
-          "ever",
-          "never",
-          "already",
-          "just"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "They ___ never been to Rome, but they want to go.",
-        "options": [
-          "have",
-          "has",
-          "are",
-          "did"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I ___ finished the book - it was excellent.",
-        "options": [
-          "'ve just",
-          "ever",
-          "never",
-          "do"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Has he ___ worked abroad?",
-        "options": [
-          "already",
-          "ever",
-          "just",
-          "never"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "I haven't ___ been to Asia, but I'd love to go.",
-        "options": [
-          "already",
-          "just",
-          "ever",
-          "yet"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ finished the report early - it wasn't due until Friday.",
-        "options": [
-          "'ve already",
-          "ever",
-          "never",
-          "do"
-        ]
+        "type": "writing",
+        "prompt": "Write 80-130 words reflecting on your achievements this year, using the Present Perfect and at least one of ever/never/just/already."
       }
     ]
   },
@@ -16062,6 +18361,546 @@
     ]
   },
   {
+    "slug": "english-a2-stories-and-achievements-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "stories-and-achievements",
+    "title": "Present Perfect: Ever, Never, Just, Already",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 104,
+    "estimatedMinutes": 12,
+    "description": "Talk about life experiences and recent actions using the Present Perfect.",
+    "intro": "Talk about life experiences and recent actions using the Present Perfect.",
+    "mission": "",
+    "grammar": "Goal: talk about life experiences and recent actions using the Present Perfect, with ever/never/just/already.\n\nRule: use the Present Perfect (have/has + past participle) for life experiences without a specific time, or actions with a present result. Ever/never/just/already add extra meaning about when or whether something happened.\n\nPattern: subject + have/has + past participle. I/you/we/they + have. He/she/it + has.\n\nExamples:\n1. Have you ever visited Scotland?\n2. I have never eaten Ethiopian food before.\n3. She has just finished her project.\n4. We have already had dinner.\n5. I've never seen that film.\n6. Has he ever worked abroad?\n7. I haven't ever been to Asia.\n8. We've already finished the report early.\n\nAffirmative: subject + have/has + past participle. Example: \"They have never been to Rome.\"\n\nNegative: subject + haven't/hasn't + past participle. Example: \"I haven't been to Asia yet.\"\n\nQuestions: Have/Has + subject + past participle...? Example: \"Have you ever tried sushi?\" \"Has he ever worked abroad?\"\n\nContractions: I've = I have, she's = she has, haven't = have not, hasn't = has not.\n\nCommon mistakes: ✗ \"I have never went\" → ✓ \"I have never been/gone\" (use the past participle, not the past simple form, after have/has). ✗ \"She have just finished\" → ✓ \"She has just finished\" (he/she/it needs \"has\"). ✗ placing \"ever\" in an affirmative statement → \"ever\" belongs mainly in questions: \"Have you ever...?\", not \"I have ever visited\".\n\nCompare: ever = at any time (mostly questions); never = at no time (negative experience); just = a very short time ago; already = completed sooner than expected (usually affirmative statements, sometimes surprised questions).\n\nMini practice: complete. \"___ you ___ visited Scotland?\" → Have...ever. \"She's ___ arrived - give her a minute.\" → just.\n\nSummary: use have/has + past participle for life experiences and recent actions; use ever in questions, never for a negative experience, just for something very recent, and already for something finished sooner than expected.\n\nApoyo: usa el Present Perfect para experiencias de vida y acciones recientes; ever en preguntas, never para negar experiencia, just para algo reciente, already para algo completado antes de lo esperado.",
+    "phrases": [
+      "I've / She's + past participle",
+      "Have you ever...?",
+      "I've never...",
+      "I've just... / I've already..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "english-a2-stories-and-achievements-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "___ you ever visited Scotland?",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o2",
+                "text": "Have"
+              },
+              {
+                "id": "o1",
+                "text": "Do"
+              },
+              {
+                "id": "o3",
+                "text": "Did"
+              },
+              {
+                "id": "o4",
+                "text": "Are"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "I ___ never eaten Ethiopian food before.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o2",
+                "text": "has"
+              },
+              {
+                "id": "o1",
+                "text": "have"
+              },
+              {
+                "id": "o3",
+                "text": "am"
+              },
+              {
+                "id": "o4",
+                "text": "did"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "She ___ just finished her project.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "have"
+              },
+              {
+                "id": "o3",
+                "text": "is"
+              },
+              {
+                "id": "o2",
+                "text": "has"
+              },
+              {
+                "id": "o4",
+                "text": "did"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "We ___ already had dinner, so we're not hungry.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o2",
+                "text": "has"
+              },
+              {
+                "id": "o3",
+                "text": "are"
+              },
+              {
+                "id": "o4",
+                "text": "did"
+              },
+              {
+                "id": "o1",
+                "text": "have"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "I've ___ seen that film - I don't want to watch it again.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o3",
+                "text": "already"
+              },
+              {
+                "id": "o1",
+                "text": "ever"
+              },
+              {
+                "id": "o2",
+                "text": "never"
+              },
+              {
+                "id": "o4",
+                "text": "just"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Have you ___ tried sushi?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "never"
+              },
+              {
+                "id": "o1",
+                "text": "ever"
+              },
+              {
+                "id": "o3",
+                "text": "already"
+              },
+              {
+                "id": "o4",
+                "text": "just"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Find the mistake: \"She have just finished the project.\"",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "There is no mistake"
+              },
+              {
+                "id": "o3",
+                "text": "It should be \"She haves just finished\""
+              },
+              {
+                "id": "o2",
+                "text": "It should be \"She has just finished\""
+              },
+              {
+                "id": "o4",
+                "text": "It should be \"She just have finished\""
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "They ___ never been to Rome, but they want to go.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "has"
+              },
+              {
+                "id": "o3",
+                "text": "are"
+              },
+              {
+                "id": "o4",
+                "text": "did"
+              },
+              {
+                "id": "o1",
+                "text": "have"
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Has he ___ worked abroad?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o2",
+                "text": "ever"
+              },
+              {
+                "id": "o1",
+                "text": "already"
+              },
+              {
+                "id": "o3",
+                "text": "just"
+              },
+              {
+                "id": "o4",
+                "text": "never"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "Choose the sentence equivalent to \"I finished the book a very short time ago, and it was excellent.\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "I've never finished the book - it was excellent."
+              },
+              {
+                "id": "o1",
+                "text": "I've just finished the book - it was excellent."
+              },
+              {
+                "id": "o4",
+                "text": "I finish the book - it was excellent."
+              },
+              {
+                "id": "o2",
+                "text": "I've ever finished the book - it was excellent."
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "I haven't ___ been to Asia, but I'd love to go.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "already"
+              },
+              {
+                "id": "o2",
+                "text": "just"
+              },
+              {
+                "id": "o3",
+                "text": "ever"
+              },
+              {
+                "id": "o4",
+                "text": "yet"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Put in order: \"the report / already / we / finished / early / have\"",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o3",
+                "text": "Already we have finished the report early."
+              },
+              {
+                "id": "o4",
+                "text": "We finished have already the report early."
+              },
+              {
+                "id": "o2",
+                "text": "Have we already finished the report early."
+              },
+              {
+                "id": "o1",
+                "text": "We have already finished the report early."
+              }
+            ]
+          }
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "___ you ever visited Scotland?",
+        "options": [
+          "Do",
+          "Have",
+          "Did",
+          "Are"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I ___ never eaten Ethiopian food before.",
+        "options": [
+          "have",
+          "has",
+          "am",
+          "did"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "She ___ just finished her project.",
+        "options": [
+          "have",
+          "has",
+          "is",
+          "did"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ already had dinner, so we're not hungry.",
+        "options": [
+          "have",
+          "has",
+          "are",
+          "did"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I've ___ seen that film - I don't want to watch it again.",
+        "options": [
+          "ever",
+          "never",
+          "already",
+          "just"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Have you ___ tried sushi?",
+        "options": [
+          "ever",
+          "never",
+          "already",
+          "just"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "She's ___ arrived - give her a minute to settle in.",
+        "options": [
+          "ever",
+          "never",
+          "already",
+          "just"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "They ___ never been to Rome, but they want to go.",
+        "options": [
+          "have",
+          "has",
+          "are",
+          "did"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I ___ finished the book - it was excellent.",
+        "options": [
+          "'ve just",
+          "ever",
+          "never",
+          "do"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Has he ___ worked abroad?",
+        "options": [
+          "already",
+          "ever",
+          "just",
+          "never"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I haven't ___ been to Asia, but I'd love to go.",
+        "options": [
+          "already",
+          "just",
+          "ever",
+          "yet"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ finished the report early - it wasn't due until Friday.",
+        "options": [
+          "'ve already",
+          "ever",
+          "never",
+          "do"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "english-a1-free-time-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "free-time",
+    "title": "Hobbies and Sports",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 105,
+    "estimatedMinutes": 6,
+    "description": "Words for free-time activities and sports.",
+    "intro": "Words for free-time activities and sports.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Soccer",
+        "translation": "Fútbol",
+        "example": "I play soccer in the park."
+      },
+      {
+        "word": "Basketball",
+        "translation": "Baloncesto",
+        "example": "She plays basketball on Saturdays."
+      },
+      {
+        "word": "Swimming",
+        "translation": "Natación",
+        "example": "Leo loves swimming."
+      },
+      {
+        "word": "Read",
+        "translation": "Leer",
+        "example": "I always read before bed."
+      },
+      {
+        "word": "Paint",
+        "translation": "Pintar",
+        "example": "I sometimes paint on weekends."
+      },
+      {
+        "word": "Video game",
+        "translation": "Videojuego",
+        "example": "He usually plays video games."
+      },
+      {
+        "word": "Weekend",
+        "translation": "Fin de semana",
+        "example": "What do you do on the weekend?"
+      },
+      {
+        "word": "Free time",
+        "translation": "Tiempo libre",
+        "example": "Free time makes me happy."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"Swimming\" mean?",
+        "options": [
+          "Natación",
+          "Fútbol",
+          "Leer",
+          "Pintar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Paint\" mean?",
+        "options": [
+          "Leer",
+          "Nadar",
+          "Pintar",
+          "Jugar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"Free time\" mean?",
+        "options": [
+          "Fin de semana",
+          "Tiempo libre",
+          "Videojuego",
+          "Deporte"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "english-a2-stories-and-achievements-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
@@ -16342,101 +19181,6 @@
           "Mysterious",
           "Lucky",
           "Incredible"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "english-a1-free-time-vocabulary",
-    "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "free-time",
-    "title": "Hobbies and Sports",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 105,
-    "estimatedMinutes": 6,
-    "description": "Words for free-time activities and sports.",
-    "intro": "Words for free-time activities and sports.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Soccer",
-        "translation": "Fútbol",
-        "example": "I play soccer in the park."
-      },
-      {
-        "word": "Basketball",
-        "translation": "Baloncesto",
-        "example": "She plays basketball on Saturdays."
-      },
-      {
-        "word": "Swimming",
-        "translation": "Natación",
-        "example": "Leo loves swimming."
-      },
-      {
-        "word": "Read",
-        "translation": "Leer",
-        "example": "I always read before bed."
-      },
-      {
-        "word": "Paint",
-        "translation": "Pintar",
-        "example": "I sometimes paint on weekends."
-      },
-      {
-        "word": "Video game",
-        "translation": "Videojuego",
-        "example": "He usually plays video games."
-      },
-      {
-        "word": "Weekend",
-        "translation": "Fin de semana",
-        "example": "What do you do on the weekend?"
-      },
-      {
-        "word": "Free time",
-        "translation": "Tiempo libre",
-        "example": "Free time makes me happy."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "What does \"Swimming\" mean?",
-        "options": [
-          "Natación",
-          "Fútbol",
-          "Leer",
-          "Pintar"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does \"Paint\" mean?",
-        "options": [
-          "Leer",
-          "Nadar",
-          "Pintar",
-          "Jugar"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does \"Free time\" mean?",
-        "options": [
-          "Fin de semana",
-          "Tiempo libre",
-          "Videojuego",
-          "Deporte"
         ]
       }
     ]
@@ -22178,33 +24922,6 @@
   window.ANDERGO_LANGUAGE_WORLDS.units = window.ANDERGO_LANGUAGE_WORLDS.units || {};
   window.ANDERGO_LANGUAGE_WORLDS.units.english = [
   {
-    "id": "everyday-life",
-    "slug": "everyday-life",
-    "level": "A2",
-    "title": "Everyday Life",
-    "titleEs": "La vida cotidiana",
-    "description": "Routines, schedules and activities happening right now.",
-    "order": 1,
-    "unitOverview": {
-      "objective": "Hablar de rutinas diarias, horarios y lo que está pasando en este momento.",
-      "outcomes": [
-        "describir tu rutina diaria con adverbios de frecuencia",
-        "distinguir cuándo usar Present Simple y cuándo Present Continuous",
-        "hablar de tareas domésticas y del tiempo libre",
-        "entender y escribir un correo o mensaje sobre tu semana"
-      ],
-      "grammar": [
-        "Present Simple vs. Present Continuous"
-      ],
-      "vocabulary": [
-        "daily routines",
-        "time expressions",
-        "household activities"
-      ],
-      "scenario": "Una semana normal se vuelve especial cuando recibes una visita inesperada."
-    }
-  },
-  {
     "id": "hello",
     "slug": "hello",
     "level": "A1",
@@ -22235,6 +24952,43 @@
     }
   },
   {
+    "id": "everyday-life",
+    "slug": "everyday-life",
+    "level": "A2",
+    "title": "Everyday Life",
+    "titleEs": "La vida cotidiana",
+    "description": "Routines, schedules and activities happening right now.",
+    "order": 1,
+    "unitOverview": {
+      "objective": "Hablar de rutinas diarias, horarios y lo que está pasando en este momento.",
+      "outcomes": [
+        "describir tu rutina diaria con adverbios de frecuencia",
+        "distinguir cuándo usar Present Simple y cuándo Present Continuous",
+        "hablar de tareas domésticas y del tiempo libre",
+        "entender y escribir un correo o mensaje sobre tu semana"
+      ],
+      "grammar": [
+        "Present Simple vs. Present Continuous"
+      ],
+      "vocabulary": [
+        "daily routines",
+        "time expressions",
+        "household activities"
+      ],
+      "scenario": "Una semana normal se vuelve especial cuando recibes una visita inesperada."
+    }
+  },
+  {
+    "id": "about-me",
+    "slug": "about-me",
+    "level": "A1",
+    "title": "About Me",
+    "titleEs": "Sobre mí",
+    "description": "Name, age, nationality and feelings.",
+    "order": 2,
+    "unitOverview": null
+  },
+  {
     "id": "family-and-relationships",
     "slug": "family-and-relationships",
     "level": "A2",
@@ -22263,13 +25017,13 @@
     }
   },
   {
-    "id": "about-me",
-    "slug": "about-me",
+    "id": "family-and-friends",
+    "slug": "family-and-friends",
     "level": "A1",
-    "title": "About Me",
-    "titleEs": "Sobre mí",
-    "description": "Name, age, nationality and feelings.",
-    "order": 2,
+    "title": "My Family and Friends",
+    "titleEs": "Mi familia y amigos",
+    "description": "Family members, possessive 's, and describing people.",
+    "order": 3,
     "unitOverview": null
   },
   {
@@ -22301,13 +25055,13 @@
     }
   },
   {
-    "id": "family-and-friends",
-    "slug": "family-and-friends",
+    "id": "my-school",
+    "slug": "my-school",
     "level": "A1",
-    "title": "My Family and Friends",
-    "titleEs": "Mi familia y amigos",
-    "description": "Family members, possessive 's, and describing people.",
-    "order": 3,
+    "title": "My School",
+    "titleEs": "Mi escuela",
+    "description": "School objects, subjects and classroom language.",
+    "order": 4,
     "unitOverview": null
   },
   {
@@ -22339,13 +25093,13 @@
     }
   },
   {
-    "id": "my-school",
-    "slug": "my-school",
+    "id": "daily-routine",
+    "slug": "daily-routine",
     "level": "A1",
-    "title": "My School",
-    "titleEs": "Mi escuela",
-    "description": "School objects, subjects and classroom language.",
-    "order": 4,
+    "title": "My Daily Routine",
+    "titleEs": "Mi rutina diaria",
+    "description": "Daily activities and the present simple.",
+    "order": 5,
     "unitOverview": null
   },
   {
@@ -22376,13 +25130,13 @@
     }
   },
   {
-    "id": "daily-routine",
-    "slug": "daily-routine",
+    "id": "time-and-dates",
+    "slug": "time-and-dates",
     "level": "A1",
-    "title": "My Daily Routine",
-    "titleEs": "Mi rutina diaria",
-    "description": "Daily activities and the present simple.",
-    "order": 5,
+    "title": "Time and Dates",
+    "titleEs": "La hora y las fechas",
+    "description": "Telling time, days, months and prepositions of time.",
+    "order": 6,
     "unitOverview": null
   },
   {
@@ -22413,13 +25167,13 @@
     }
   },
   {
-    "id": "time-and-dates",
-    "slug": "time-and-dates",
+    "id": "food-and-drinks",
+    "slug": "food-and-drinks",
     "level": "A1",
-    "title": "Time and Dates",
-    "titleEs": "La hora y las fechas",
-    "description": "Telling time, days, months and prepositions of time.",
-    "order": 6,
+    "title": "Food and Drinks",
+    "titleEs": "Comidas y bebidas",
+    "description": "Food vocabulary, likes/dislikes, and countable/uncountable nouns.",
+    "order": 7,
     "unitOverview": null
   },
   {
@@ -22451,13 +25205,13 @@
     }
   },
   {
-    "id": "food-and-drinks",
-    "slug": "food-and-drinks",
+    "id": "my-home",
+    "slug": "my-home",
     "level": "A1",
-    "title": "Food and Drinks",
-    "titleEs": "Comidas y bebidas",
-    "description": "Food vocabulary, likes/dislikes, and countable/uncountable nouns.",
-    "order": 7,
+    "title": "My Home",
+    "titleEs": "Mi hogar",
+    "description": "Rooms, furniture, and prepositions of place.",
+    "order": 8,
     "unitOverview": null
   },
   {
@@ -22489,13 +25243,13 @@
     }
   },
   {
-    "id": "my-home",
-    "slug": "my-home",
+    "id": "my-town",
+    "slug": "my-town",
     "level": "A1",
-    "title": "My Home",
-    "titleEs": "Mi hogar",
-    "description": "Rooms, furniture, and prepositions of place.",
-    "order": 8,
+    "title": "My Town",
+    "titleEs": "Mi ciudad",
+    "description": "Places in town and giving directions.",
+    "order": 9,
     "unitOverview": null
   },
   {
@@ -22526,13 +25280,13 @@
     }
   },
   {
-    "id": "my-town",
-    "slug": "my-town",
+    "id": "free-time",
+    "slug": "free-time",
     "level": "A1",
-    "title": "My Town",
-    "titleEs": "Mi ciudad",
-    "description": "Places in town and giving directions.",
-    "order": 9,
+    "title": "Free Time",
+    "titleEs": "Tiempo libre",
+    "description": "Hobbies, sports and adverbs of frequency.",
+    "order": 10,
     "unitOverview": null
   },
   {
@@ -22561,16 +25315,6 @@
       ],
       "scenario": "En Nochevieja, Sarah y Daniel repasan todo lo que han vivido y logrado juntos a lo largo del año."
     }
-  },
-  {
-    "id": "free-time",
-    "slug": "free-time",
-    "level": "A1",
-    "title": "Free Time",
-    "titleEs": "Tiempo libre",
-    "description": "Hobbies, sports and adverbs of frequency.",
-    "order": 10,
-    "unitOverview": null
   },
   {
     "id": "clothes-and-shopping",

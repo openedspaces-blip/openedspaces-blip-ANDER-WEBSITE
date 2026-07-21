@@ -793,6 +793,82 @@ test('gradeQuestionBank feedback (results[]) corresponds to the right question a
   });
 });
 
+// English A2 (scripts/content/english-a2-units.js) - same expanded 12-
+// question multiple-choice grammarTest requirement as English A1 above,
+// across all 10 units (mirrors englishA2UnitSlugs used by the earlier A2
+// content-shape tests).
+test('English A2 has exactly 10 units, each with a Grammar lesson carrying a well-formed 12-question multiple-choice test', () => {
+  assert.equal(englishA2UnitSlugs.length, 10);
+  englishA2UnitSlugs.forEach((unitSlug) => {
+    const bank = grammarTestBankFor('english', 'A2', unitSlug);
+    assertWellFormedGrammarTest(bank, `english-a2-${unitSlug}`);
+  });
+});
+
+test('English A2 grammarTest question banks never leak the answer key through the client sanitizer', () => {
+  englishA2UnitSlugs.forEach((unitSlug) => {
+    const bank = grammarTestBankFor('english', 'A2', unitSlug);
+    const sanitized = sanitizeGrammarTestForClient(bank);
+    assert.equal(sanitized.questions.length, 12);
+    sanitized.questions.forEach((question) => {
+      assert.equal('correctOptionId' in question, false, `${unitSlug}/${question.id}: leaks correctOptionId`);
+      assert.equal('explanation' in question, false, `${unitSlug}/${question.id}: leaks the per-question explanation before submission`);
+      assert.equal(question.options.length, 4);
+      question.options.forEach((opt) => {
+        assert.deepEqual(Object.keys(opt).sort(), ['id', 'text']);
+      });
+    });
+  });
+});
+
+test('English A2 public browser bundle (src/worlds/english/content.js) does not expose grammarTest answer keys', () => {
+  const code = fs.readFileSync(path.join(__dirname, 'src/worlds/english/content.js'), 'utf8');
+  const window = {};
+  vm.runInContext(code, vm.createContext({ window }), { filename: 'src/worlds/english/content.js' });
+  const englishA2Lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons.english.filter(
+    (l) => l.level === 'A2' && l.skill === 'grammar'
+  );
+  assert.equal(englishA2Lessons.length, 10);
+  englishA2Lessons.forEach((lesson) => {
+    const bank = lesson.extra && lesson.extra.grammarTest;
+    assert.ok(bank, `${lesson.slug}: expected a grammarTest in the public bundle`);
+    assert.equal(bank.questions.length, 12);
+    bank.questions.forEach((question) => {
+      assert.equal('correctOptionId' in question, false, `${lesson.slug}/${question.id}: leaks correctOptionId`);
+      assert.equal('acceptedAnswers' in question, false, `${lesson.slug}/${question.id}: leaks acceptedAnswers`);
+      assert.equal('correctOrder' in question, false, `${lesson.slug}/${question.id}: leaks correctOrder`);
+    });
+  });
+});
+
+test('gradeQuestionBank scores every English A2 grammarTest out of 100, matching the spec table exactly', () => {
+  englishA2UnitSlugs.forEach((unitSlug) => {
+    const bank = grammarTestBankFor('english', 'A2', unitSlug);
+    function scoreFor(correctCount) {
+      const answers = bank.questions.map((q, index) => ({
+        questionId: q.id,
+        answer: index < correctCount ? q.correctOptionId : `${q.correctOptionId}-wrong`
+      }));
+      return gradeQuestionBank(bank, answers).score;
+    }
+    assert.equal(scoreFor(12), 100, unitSlug);
+    assert.equal(scoreFor(11), 92, unitSlug);
+    assert.equal(scoreFor(10), 83, unitSlug);
+    assert.equal(scoreFor(9), 75, unitSlug);
+    assert.equal(scoreFor(8), 67, unitSlug);
+    assert.equal(scoreFor(7), 58, unitSlug);
+    assert.equal(scoreFor(6), 50, unitSlug);
+  });
+});
+
+test('English A2 grammarTest correct answers are spread across all four option positions, not clustered in one', () => {
+  englishA2UnitSlugs.forEach((unitSlug) => {
+    const bank = grammarTestBankFor('english', 'A2', unitSlug);
+    const positions = bank.questions.map((q) => q.options.findIndex((o) => o.id === q.correctOptionId));
+    assert.equal(new Set(positions).size, 4, `${unitSlug}: expected all 4 option positions to be used`);
+  });
+});
+
 // ---------------------------------------------------------------------
 // Español A1 (scripts/content/spanish-a1-units.js, flattened by
 // scripts/build-spanish-a1-seed.js into lib/seed-lessons.json/seed-units.json).
@@ -1862,4 +1938,104 @@ test('progress stays separated by targetLanguage/level/skill regardless of learn
     /exerciseResults\[.*bridgeLanguage/,
     'exerciseResults must stay keyed by lesson slug, never by bridgeLanguage/learningMode'
   );
+});
+
+function unit1VocabularyOf(contentFile) {
+  const content = require(path.join(__dirname, 'scripts', 'content', contentFile));
+  const unit1 = content.units.find((u) => u.order === 1);
+  assert.ok(unit1, `expected an order:1 unit in ${contentFile}`);
+  const vocab = unit1.activities?.vocabulary?.vocabulary;
+  assert.ok(Array.isArray(vocab) && vocab.length, `expected a non-empty vocabulary list in ${contentFile} unit 1`);
+  return vocab;
+}
+
+test('direct-mode pilot content: English/French/Spanish A1 Unit 1 vocabulary all have real directSupport (definition, simpleDefinition, up to 3 examples, no image placeholders)', () => {
+  const pilots = [
+    ['english-a1-units.js', 'english'],
+    ['french-a1-units.js', 'french'],
+    ['spanish-a1-units.js', 'spanish']
+  ];
+
+  for (const [file, lang] of pilots) {
+    const vocab = unit1VocabularyOf(file);
+    for (const item of vocab) {
+      const support = item.directSupport;
+      assert.ok(support, `${lang} unit 1 word "${item.word}" is missing directSupport`);
+      assert.ok(
+        typeof support.definition === 'string' && support.definition.trim().length > 0,
+        `${lang} "${item.word}": definition must be a non-empty string`
+      );
+      assert.ok(
+        typeof support.simpleDefinition === 'string' && support.simpleDefinition.trim().length > 0,
+        `${lang} "${item.word}": simpleDefinition must be a non-empty string`
+      );
+      // Spec §6: A1 definitions stay short (5-12 words) and simple.
+      const wordCount = support.simpleDefinition.trim().split(/\s+/).length;
+      assert.ok(
+        wordCount <= 14,
+        `${lang} "${item.word}": simpleDefinition should be a short A1 phrase, got ${wordCount} words`
+      );
+      assert.ok(Array.isArray(support.contextExamples), `${lang} "${item.word}": contextExamples must be an array`);
+      assert.ok(
+        support.contextExamples.length >= 1 && support.contextExamples.length <= 3,
+        `${lang} "${item.word}": spec §6 caps A1 examples at 2-3, got ${support.contextExamples.length}`
+      );
+      // Spec §10: never add an image/imageAlt without a real, useful asset -
+      // this pilot has none, so neither field should be present at all
+      // (an empty string would still be a "no image" signal downstream, but
+      // asserting absence here catches an accidental placeholder being added).
+      assert.equal(support.image, undefined, `${lang} "${item.word}": must not have a placeholder image yet`);
+    }
+  }
+});
+
+test('script.js: normalizeVocabularyItem() computes learningMode and suppresses translation in direct mode', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const body = source.match(
+    /function normalizeVocabularyItem\(item, \{ language, level, bridgeLanguage, index = 0, lessonSlug = '' \} = \{\}\) \{([\s\S]*?)\n\}/
+  )?.[1];
+  assert.ok(body, 'expected to find normalizeVocabularyItem() body');
+  assert.match(body, /LanguagePair\.getLearningMode\(/);
+  assert.match(body, /LanguagePair\.getLearningSupport\(/);
+  assert.match(body, /translation: support \? '' : resolveVocabTranslation/);
+  assert.match(body, /definition: support\?\.definition/);
+  assert.match(body, /image: support\?\.image/);
+});
+
+test('script.js: renderVocabCardHtml() shows definition/synonyms/opposites/image in direct mode, and only renders the image when one exists', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const body = source.match(/function renderVocabCardHtml\(item, \{ canSpeak, isFrench \}\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(body, 'expected to find renderVocabCardHtml() body');
+  assert.match(body, /item\.learningMode === 'direct'/);
+  assert.match(body, /item\.image \? `<img class="vocab-card-image"/);
+  assert.match(body, /item\.definition \? `<p class="vocab-card-definition">/);
+  assert.match(body, /LanguagePair\.t\('vocabSynonyms', lang\)/);
+  assert.match(body, /LanguagePair\.t\('vocabOpposites', lang\)/);
+});
+
+test('language-pair.js: vocabSynonyms/vocabOpposites are translated in spanish/english/french', () => {
+  assert.equal(LanguagePair.t('vocabSynonyms', 'spanish'), 'Sinónimos');
+  assert.equal(LanguagePair.t('vocabSynonyms', 'english'), 'Synonyms');
+  assert.equal(LanguagePair.t('vocabSynonyms', 'french'), 'Synonymes');
+  assert.equal(LanguagePair.t('vocabOpposites', 'spanish'), 'Antónimos');
+  assert.equal(LanguagePair.t('vocabOpposites', 'english'), 'Opposites');
+  assert.equal(LanguagePair.t('vocabOpposites', 'french'), 'Contraires');
+});
+
+test('direct-mode pilot content end-to-end: getLearningSupport() on a real authored English A1 Unit 1 word returns L2 definition/examples, no translation', () => {
+  const vocab = unit1VocabularyOf('english-a1-units.js');
+  const teacher = vocab.find((v) => v.word === 'Teacher');
+  assert.ok(teacher, 'expected "Teacher" in English A1 Unit 1 vocabulary');
+
+  const support = LanguagePair.getLearningSupport({
+    item: teacher,
+    bridgeLanguage: 'english',
+    targetLanguage: 'english',
+    learningMode: 'direct'
+  });
+  assert.equal(support.mode, 'direct');
+  assert.equal(support.word, 'Teacher');
+  assert.equal(support.definition, 'A person who helps students learn.');
+  assert.deepEqual(support.examples, ['My teacher is Mr. Green.', 'The teacher writes on the board.']);
+  assert.equal(support.translation, undefined);
 });

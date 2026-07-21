@@ -192,8 +192,18 @@ const units = [
         title: 'Present Simple vs. Present Continuous',
         description: 'Choose between routines/facts and actions happening right now.',
         grammarNote:
-          'Use the Present Simple for routines, habits, and things that are always true, like "I go to work by bus" or "She lives in Manchester." Use the Present Continuous for actions happening right now, at this exact moment, like "I am writing an email" or "They are waiting for the bus."\n\n' +
-          'A common mistake is using the Present Continuous for permanent routines: say "I go to the gym on Tuesdays," not "I am going to the gym on Tuesdays" as a habit. Time words like every day, usually, and on Saturdays signal the Present Simple; now, right now, and at the moment signal the Present Continuous.\n\n' +
+          'Goal: choose correctly between the Present Simple (routines/facts) and the Present Continuous (actions happening right now).\n\n' +
+          'Rule: use the Present Simple for routines, habits, and things that are always true, like "I go to work by bus" or "She lives in Manchester." Use the Present Continuous for actions happening right now, at this exact moment, like "I am writing an email" or "They are waiting for the bus."\n\n' +
+          'Pattern: Present Simple → I/you/we/they + base verb; he/she/it + verb-s. Present Continuous → subject + am/is/are + verb-ing.\n\n' +
+          'Examples:\n1. My brother plays football every Saturday.\n2. Look! It is raining outside right now.\n3. I usually go to work by bus.\n4. She is taking a shower at the moment.\n5. We have dinner together every evening.\n6. Listen! The baby is crying.\n7. He never eats breakfast before school.\n8. Right now, they are waiting for the bus.\n\n' +
+          'Affirmative: subject + base verb(+s) for routines; subject + am/is/are + verb-ing for now. Example: "She lives in Manchester." / "She is living with her sister this month" (temporary).\n\n' +
+          'Negative: don\'t/doesn\'t + base verb for routines; am/is/are + not + verb-ing for now. Example: "He doesn\'t eat breakfast." "They aren\'t waiting anymore."\n\n' +
+          'Questions: Do/Does + subject + base verb...? for routines; Am/Is/Are + subject + verb-ing...? for now. Example: "Does she live near here?" "Is it raining?"\n\n' +
+          'Contractions: don\'t = do not, doesn\'t = does not, isn\'t = is not, aren\'t = are not, I\'m = I am.\n\n' +
+          'Common mistakes: a common mistake is using the Present Continuous for permanent routines: say "I go to the gym on Tuesdays," not "I am going to the gym on Tuesdays" as a habit. Time words like every day, usually, and on Saturdays signal the Present Simple; now, right now, and at the moment signal the Present Continuous.\n\n' +
+          'Compare: "I play tennis" (a general fact/hobby) vs "I am playing tennis" (happening at this moment, maybe temporary); stative verbs like know, like, want, need are rarely used in the continuous form: say "I know the answer," not "I am knowing the answer."\n\n' +
+          'Mini practice: choose the right form. "She (work) ___ in a hospital." → works. "Look, she (work) ___ on a new project right now." → is working.\n\n' +
+          'Summary: use the Present Simple for routines/facts (with time words like every day, usually, never) and the Present Continuous for actions in progress right now (with now, right now, at the moment, look!, listen!).\n\n' +
           'Apoyo: usa el Present Simple para rutinas y hechos generales; usa el Present Continuous para acciones que ocurren en este momento.',
         phrases: [
           'I usually... / She always...',
@@ -228,13 +238,14 @@ const units = [
               type: 'mcq',
               prompt: 'My brother ___ football every Saturday.',
               options: [
-                { id: 'o1', text: 'play' },
                 { id: 'o2', text: 'plays' },
+                { id: 'o1', text: 'play' },
                 { id: 'o3', text: 'is playing' },
                 { id: 'o4', text: 'playing' }
               ],
               correctOptionId: 'o2',
-              explanation: 'A routine ("every Saturday") uses the Present Simple: he/she plays.'
+              explanation: 'A routine ("every Saturday") uses the Present Simple: he/she plays.',
+              difficulty: 'easy'
             },
             {
               id: 'q2',
@@ -242,25 +253,27 @@ const units = [
               prompt: 'Look! It ___ outside right now.',
               options: [
                 { id: 'o1', text: 'rains' },
-                { id: 'o2', text: 'rain' },
                 { id: 'o3', text: 'is raining' },
+                { id: 'o2', text: 'rain' },
                 { id: 'o4', text: 'raining' }
               ],
               correctOptionId: 'o3',
-              explanation: '"Right now" signals the Present Continuous: it is raining.'
+              explanation: '"Right now" signals the Present Continuous: it is raining.',
+              difficulty: 'easy'
             },
             {
               id: 'q3',
               type: 'mcq',
               prompt: 'I usually ___ to work by bus.',
               options: [
-                { id: 'o1', text: 'go' },
                 { id: 'o2', text: 'goes' },
                 { id: 'o3', text: 'am going' },
+                { id: 'o1', text: 'go' },
                 { id: 'o4', text: 'going' }
               ],
               correctOptionId: 'o1',
-              explanation: '"Usually" signals a routine: the Present Simple with I is "go".'
+              explanation: '"Usually" signals a routine: the Present Simple with I is "go".',
+              difficulty: 'easy'
             },
             {
               id: 'q4',
@@ -269,24 +282,26 @@ const units = [
               options: [
                 { id: 'o1', text: 'takes' },
                 { id: 'o2', text: 'take' },
-                { id: 'o3', text: 'is taking' },
-                { id: 'o4', text: 'taking' }
+                { id: 'o4', text: 'taking' },
+                { id: 'o3', text: 'is taking' }
               ],
               correctOptionId: 'o3',
-              explanation: '"At the moment" signals the Present Continuous: she is taking.'
+              explanation: '"At the moment" signals the Present Continuous: she is taking.',
+              difficulty: 'medium'
             },
             {
               id: 'q5',
               type: 'mcq',
               prompt: 'He never ___ breakfast before school.',
               options: [
-                { id: 'o1', text: 'eat' },
                 { id: 'o2', text: 'eats' },
+                { id: 'o1', text: 'eat' },
                 { id: 'o3', text: 'is eating' },
                 { id: 'o4', text: 'eating' }
               ],
               correctOptionId: 'o2',
-              explanation: '"Never" signals a routine: he/she eats in the Present Simple.'
+              explanation: '"Never" signals a routine: he/she eats in the Present Simple.',
+              difficulty: 'medium'
             },
             {
               id: 'q6',
@@ -294,67 +309,97 @@ const units = [
               prompt: 'At the moment, the children ___ in the garden.',
               options: [
                 { id: 'o1', text: 'play' },
+                { id: 'o4', text: 'are playing' },
                 { id: 'o2', text: 'plays' },
-                { id: 'o3', text: 'is playing' },
-                { id: 'o4', text: 'are playing' }
+                { id: 'o3', text: 'is playing' }
               ],
               correctOptionId: 'o4',
-              explanation: '"At the moment" + plural subject: they are playing.'
+              explanation: '"At the moment" + plural subject: they are playing.',
+              difficulty: 'medium'
             },
             {
               id: 'q7',
-              type: 'fill_blank',
-              prompt: 'My parents ___ (live) in a small house near the park.',
-              acceptedAnswers: ['live'],
-              explanation: 'A general fact uses the Present Simple: they live.'
+              type: 'mcq',
+              prompt: 'My parents ___ in a small house near the park.',
+              options: [
+                { id: 'o2', text: 'lives' },
+                { id: 'o3', text: 'are living' },
+                { id: 'o1', text: 'live' },
+                { id: 'o4', text: 'living' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'A general fact uses the Present Simple: they live.',
+              difficulty: 'medium'
             },
             {
               id: 'q8',
-              type: 'fill_blank',
-              prompt: 'Sara ___ (do) her homework every day after school.',
-              acceptedAnswers: ['does'],
-              explanation: '"Every day" is a routine: he/she does in the Present Simple.'
+              type: 'mcq',
+              prompt: 'Sara ___ her homework every day after school.',
+              options: [
+                { id: 'o1', text: 'do' },
+                { id: 'o3', text: 'is doing' },
+                { id: 'o4', text: 'doing' },
+                { id: 'o2', text: 'does' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Every day" is a routine: he/she does in the Present Simple.',
+              difficulty: 'medium'
             },
             {
               id: 'q9',
-              type: 'fill_blank',
-              prompt: 'Right now, they ___ (wait) for the bus.',
-              acceptedAnswers: ['are waiting'],
-              explanation: '"Right now" + plural subject: they are waiting.'
+              type: 'mcq',
+              prompt: 'Right now, they ___ for the bus.',
+              options: [
+                { id: 'o3', text: 'are waiting' },
+                { id: 'o1', text: 'wait' },
+                { id: 'o2', text: 'waits' },
+                { id: 'o4', text: 'waiting' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Right now" + plural subject: they are waiting.',
+              difficulty: 'hard'
             },
             {
               id: 'q10',
-              type: 'fill_blank',
-              prompt: 'Be quiet, please! I ___ (talk) on the phone.',
-              acceptedAnswers: ['am talking'],
-              explanation: 'An action happening right now with "I": I am talking.'
+              type: 'mcq',
+              prompt: 'Be quiet, please! I ___ on the phone.',
+              options: [
+                { id: 'o1', text: 'talk' },
+                { id: 'o3', text: 'am talking' },
+                { id: 'o2', text: 'talks' },
+                { id: 'o4', text: 'talking' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'An action happening right now with "I": I am talking.',
+              difficulty: 'hard'
             },
             {
               id: 'q11',
-              type: 'ordering',
-              prompt: 'Put the words in the right order.',
-              items: [
-                { id: 'w1', text: 'The' },
-                { id: 'w2', text: 'baby' },
-                { id: 'w3', text: 'is' },
-                { id: 'w4', text: 'crying' }
+              type: 'mcq',
+              prompt: 'Choose the correct sentence.',
+              options: [
+                { id: 'o1', text: 'The baby cries now.' },
+                { id: 'o3', text: 'The baby crying is.' },
+                { id: 'o2', text: 'The baby is crying.' },
+                { id: 'o4', text: 'Is crying the baby.' }
               ],
-              correctOrder: ['w1', 'w2', 'w3', 'w4'],
-              explanation: '"The baby is crying." - subject + "is" + verb+ing for a right-now action.'
+              correctOptionId: 'o2',
+              explanation: '"The baby is crying." - subject + "is" + verb+ing for a right-now action.',
+              difficulty: 'hard'
             },
             {
               id: 'q12',
-              type: 'ordering',
-              prompt: 'Put the words in the right order.',
-              items: [
-                { id: 'w1', text: 'We' },
-                { id: 'w2', text: 'have' },
-                { id: 'w3', text: 'dinner' },
-                { id: 'w4', text: 'every' },
-                { id: 'w5', text: 'evening' }
+              type: 'mcq',
+              prompt: 'Choose the sentence that describes a daily routine, not something happening now.',
+              options: [
+                { id: 'o1', text: 'We are having dinner.' },
+                { id: 'o2', text: 'Look, we are eating.' },
+                { id: 'o4', text: 'We are dinner every evening.' },
+                { id: 'o3', text: 'We have dinner every evening.' }
               ],
-              correctOrder: ['w1', 'w2', 'w3', 'w4', 'w5'],
-              explanation: '"We have dinner every evening." - subject + Present Simple verb + routine.'
+              correctOptionId: 'o3',
+              explanation: '"Every evening" signals a routine, using the Present Simple: we have dinner.',
+              difficulty: 'hard'
             }
           ]
         }
@@ -549,8 +594,18 @@ const units = [
         title: "Have Got / Has Got and Possessive 's",
         description: "Talk about family, possessions and appearance with have got/has got and the possessive 's.",
         grammarNote:
-          "Use have got (I/you/we/they) and has got (he/she/it) to talk about what people have, including family members, possessions, and physical features: \"I've got a brother,\" \"She has got long hair.\" The negative is haven't got / hasn't got, and the question is Have you got...? / Has he got...?\n\n" +
-          "Use the possessive 's to show who something belongs to or a relationship: \"Sarah's sister,\" \"my grandmother's dog.\" For plural nouns already ending in -s, just add an apostrophe: \"my parents' house.\"\n\n" +
+          "Goal: talk about family, possessions and physical features with have got/has got, and show possession/relationships with 's.\n\n" +
+          "Rule: use have got (I/you/we/they) and has got (he/she/it) to talk about what people have, including family members, possessions, and physical features: \"I've got a brother,\" \"She has got long hair.\" Use the possessive 's to show who something belongs to or a relationship: \"Sarah's sister.\"\n\n" +
+          "Pattern: Subject + have/has + got + noun. Negative: haven't/hasn't + got. Question: Have/Has + subject + got...? Owner + 's + noun (or owner ending in -s + just an apostrophe).\n\n" +
+          "Examples:\n1. My brother has got a new bike.\n2. We have got a big garden.\n3. She has got two brothers.\n4. This is Sarah's car.\n5. My grandmother's dog is called Biscuit.\n6. My parents' house is near the park.\n7. Have you got any pets?\n8. He hasn't got a car.\n\n" +
+          "Affirmative: subject + have/has + got + noun. Example: \"I've got a sister.\"\n\n" +
+          "Negative: subject + haven't/hasn't + got + noun. Example: \"He hasn't got a car - he always takes the bus.\"\n\n" +
+          "Questions: Have/Has + subject + got...? Example: \"Has your sister got a job yet?\" \"Have you got any pets?\"\n\n" +
+          "Contractions: I've got = I have got, she's got = she has got, haven't = have not, hasn't = has not.\n\n" +
+          "Common mistakes: ✗ \"She have got a brother\" → ✓ \"She has got a brother\" (he/she/it needs \"has\"). ✗ \"Sarah car\" → ✓ \"Sarah's car\" (don't forget the 's for possession). ✗ \"the parents's house\" → ✓ \"the parents' house\" (plural owners ending in -s just take an apostrophe).\n\n" +
+          "Compare: \"have got\" describes possession/features informally (mostly spoken British English); \"'s\" shows WHO owns something. They often appear together: \"Sarah's dog has got short legs.\"\n\n" +
+          "Mini practice: complete. \"My cousin (have) ___ two cats.\" → has got. \"This is my (grandmother) ___ house.\" → grandmother's.\n\n" +
+          "Summary: use have got/has got to talk about possessions and features (haven't/hasn't got for negatives, Have/Has...? for questions); use 's after the owner's name to show possession, or just an apostrophe after a plural owner already ending in -s.\n\n" +
           "Apoyo: usa have got/has got para hablar de lo que alguien tiene (familia, posesiones, apariencia); usa 's para mostrar posesión o relación entre personas.",
         phrases: [
           "I've got.../ She's got...",
@@ -571,7 +626,181 @@ const units = [
           { type: 'mcq', prompt: 'My ___ dog is called Biscuit.', options: ['grandmother', "grandmother's", "grandmothers'", 'of grandmother'], answer: 1 },
           { type: 'mcq', prompt: 'They ___ got a lot of free time this week.', options: ['has', "haven't", 'is', "isn't"], answer: 1 },
           { type: 'mcq', prompt: 'What colour hair ___ she got?', options: ['have', 'has', 'is', 'does'], answer: 1 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a2-family-and-relationships-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'My brother ___ a new bike.',
+              options: [
+                { id: 'o2', text: 'has got' },
+                { id: 'o1', text: 'have got' },
+                { id: 'o3', text: 'is got' },
+                { id: 'o4', text: 'got has' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"My brother" is he/she/it, so we use "has got".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: '___ you got any pets?',
+              options: [
+                { id: 'o1', text: 'Do' },
+                { id: 'o2', text: 'Have' },
+                { id: 'o3', text: 'Has' },
+                { id: 'o4', text: 'Are' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'With "you", the question form is "Have you got...?"',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'This is ___ car, not mine.',
+              options: [
+                { id: 'o1', text: 'Sarah' },
+                { id: 'o3', text: "Sarahs'" },
+                { id: 'o2', text: "Sarah's" },
+                { id: 'o4', text: 'of Sarah' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Possession needs \'s after the owner\'s name: "Sarah\'s car".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'We ___ got a big garden.',
+              options: [
+                { id: 'o1', text: 'has' },
+                { id: 'o2', text: "haven't" },
+                { id: 'o4', text: 'is' },
+                { id: 'o3', text: 'have' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'With "we", the affirmative form is "have got".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'He ___ got a car - he always takes the bus.',
+              options: [
+                { id: 'o1', text: "hasn't" },
+                { id: 'o2', text: "haven't" },
+                { id: 'o3', text: 'has' },
+                { id: 'o4', text: 'is' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"He" needs the negative "hasn\'t got" (no car, takes the bus instead).',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: '___ your sister got a job yet?',
+              options: [
+                { id: 'o1', text: 'Do' },
+                { id: 'o3', text: 'Has' },
+                { id: 'o2', text: 'Is' },
+                { id: 'o4', text: 'Have' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Your sister" is he/she/it, so the question uses "Has...got?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'Those are the ___ shoes, not the children\'s.',
+              options: [
+                { id: 'o1', text: 'parent' },
+                { id: 'o3', text: "parent's" },
+                { id: 'o2', text: "parents'" },
+                { id: 'o4', text: 'parents' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A plural owner already ending in -s just takes an apostrophe: "parents\'".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'My ___ dog is called Biscuit.',
+              options: [
+                { id: 'o1', text: 'grandmother' },
+                { id: 'o3', text: "grandmothers'" },
+                { id: 'o4', text: 'of grandmother' },
+                { id: 'o2', text: "grandmother's" }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A singular owner takes \'s: "grandmother\'s dog".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Find the mistake: "She have got a brother."',
+              options: [
+                { id: 'o2', text: 'It should be "She has got a brother"' },
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o3', text: 'It should be "She haves got a brother"' },
+                { id: 'o4', text: 'It should be "She is got a brother"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"She" needs "has got", not "have got".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'What colour hair ___ she got?',
+              options: [
+                { id: 'o1', text: 'have' },
+                { id: 'o2', text: 'has' },
+                { id: 'o3', text: 'is' },
+                { id: 'o4', text: 'does' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"She" takes "has got" even in questions with a question word.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "The house that belongs to my parents is near the park."',
+              options: [
+                { id: 'o1', text: "My parent's house is near the park." },
+                { id: 'o3', text: 'My parents house is near the park.' },
+                { id: 'o2', text: "My parents' house is near the park." },
+                { id: 'o4', text: 'The house of my parents near the park.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Parents" already ends in -s, so we just add an apostrophe: parents\'.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Put in order: "got / a lot of / they / free time / have / this week"',
+              options: [
+                { id: 'o3', text: 'They got have a lot of free time this week.' },
+                { id: 'o4', text: 'Have they got a lot of free time this week they.' },
+                { id: 'o2', text: 'A lot of free time they have got this week.' },
+                { id: 'o1', text: 'They have got a lot of free time this week.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural order: subject + have/has + got + noun + time expression.',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Family Members and Relationships',
@@ -762,8 +991,18 @@ const units = [
         title: 'There is / There are and Prepositions of Place',
         description: 'Talk about what exists in a place and exactly where it is.',
         grammarNote:
-          'Use there is with singular/uncountable nouns and there are with plural nouns to say that something exists: "There is a park near my house," "There are two bedrooms." The negative is there isn\'t / there aren\'t, and the question is Is there...? / Are there...?\n\n' +
-          "Prepositions of place tell us exactly where something is: next to (beside), between (in the middle of two things), opposite (facing), near (close to), and on the corner of (where two streets meet). Example: \"The bakery is on the corner, between a pharmacy and a coffee shop.\"\n\n" +
+          'Goal: say what exists in a place with there is/are, and describe exactly where it is with prepositions of place.\n\n' +
+          'Rule: use there is with singular/uncountable nouns and there are with plural nouns to say that something exists: "There is a park near my house," "There are two bedrooms." Prepositions of place then say exactly where something is.\n\n' +
+          'Pattern: There is/are + noun + (preposition + place). Negative: there isn\'t/aren\'t. Question: Is/Are there...?\n\n' +
+          'Examples:\n1. There is a park near my house.\n2. There are two bathrooms in the flat.\n3. The bookshelf is next to the window.\n4. The bakery is between a pharmacy and a coffee shop.\n5. The supermarket is opposite the building.\n6. The shop is on the corner of my street.\n7. There isn\'t a television in the living room yet.\n8. Are there any good restaurants near the park?\n\n' +
+          'Affirmative: There is/are + noun. Example: "There are many parks in this neighborhood."\n\n' +
+          'Negative: There isn\'t/aren\'t + noun. Example: "There isn\'t a television in the living room yet."\n\n' +
+          'Questions: Is/Are there...? Example: "Is there a supermarket on this street?" "Are there any good restaurants near the park?"\n\n' +
+          'Contractions: there\'s = there is, isn\'t = is not, aren\'t = are not.\n\n' +
+          "Common mistakes: ✗ \"There is two bathrooms\" → ✓ \"There are two bathrooms\" (plural noun needs \"are\"). ✗ \"The bakery is between a pharmacy\" (only one thing mentioned) → ✓ \"between a pharmacy and a coffee shop\" (between needs two things). ✗ \"opposite of the school\" → ✓ \"opposite the school\" (no \"of\" after opposite).\n\n" +
+          'Compare: "next to" (touching/beside) vs "near" (close, but not touching) vs "opposite" (facing, across from) vs "between" (in the middle of two things) vs "on the corner of" (where two streets meet).\n\n' +
+          'Mini practice: complete. "___ ___ a good view from the balcony." → There is. "The pharmacy is ___ the bakery and the bank." → between.\n\n' +
+          'Summary: use there is + singular/uncountable and there are + plural to say something exists; use next to/between/opposite/near/on the corner of to say exactly where.\n\n' +
           'Apoyo: usa there is/are para decir que algo existe en un lugar; usa preposiciones de lugar para decir exactamente dónde está.',
         phrases: [
           "There is a... / There are...",
@@ -784,7 +1023,181 @@ const units = [
           { type: 'mcq', prompt: '___ many parks in this neighborhood.', options: ['There is', 'There are', 'Is there', 'There has'], answer: 1 },
           { type: 'mcq', prompt: 'Our house is ___ the school, so we can see it from the window.', options: ['opposite', 'between', 'on the corner', 'next'], answer: 0 },
           { type: 'mcq', prompt: '___ a desk and a wardrobe in the spare room.', options: ['There is', 'There are', 'Is there', 'Are there'], answer: 1 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a2-home-and-neighborhood-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: '___ a park near my house.',
+              options: [
+                { id: 'o1', text: 'There is' },
+                { id: 'o2', text: 'There are' },
+                { id: 'o3', text: 'There has' },
+                { id: 'o4', text: 'Is there' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"A park" is singular, so we use "There is".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: '___ two bathrooms in the flat.',
+              options: [
+                { id: 'o1', text: 'There is' },
+                { id: 'o2', text: 'There are' },
+                { id: 'o3', text: 'There has' },
+                { id: 'o4', text: 'Is there' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Two bathrooms" is plural, so we use "There are".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: '___ a supermarket on this street?',
+              options: [
+                { id: 'o1', text: 'There is' },
+                { id: 'o3', text: 'There are' },
+                { id: 'o2', text: 'Is there' },
+                { id: 'o4', text: 'Are' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Yes/no questions move "is" before "there": "Is there...?"',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'The bookshelf is ___ the window.',
+              options: [
+                { id: 'o1', text: 'between' },
+                { id: 'o3', text: 'opposite of' },
+                { id: 'o4', text: 'near of' },
+                { id: 'o2', text: 'next to' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Beside something is "next to".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'The bakery is ___ a pharmacy and a coffee shop.',
+              options: [
+                { id: 'o3', text: 'between' },
+                { id: 'o1', text: 'next to' },
+                { id: 'o2', text: 'opposite' },
+                { id: 'o4', text: 'on' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'In the middle of two things is "between".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Find the mistake: "The supermarket is opposite of the building."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "opposite the building" (no "of")' },
+                { id: 'o3', text: 'It should be "the supermarket are opposite"' },
+                { id: 'o4', text: 'It should be "opposite building of the"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Opposite" never takes "of": "opposite the building".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: '___ any good restaurants near the park?',
+              options: [
+                { id: 'o1', text: 'Is there' },
+                { id: 'o3', text: 'There is' },
+                { id: 'o2', text: 'Are there' },
+                { id: 'o4', text: 'There are' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Restaurants" is plural, so the question uses "Are there...?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'There ___ a television in the living room yet.',
+              options: [
+                { id: 'o2', text: "aren't" },
+                { id: 'o3', text: 'is' },
+                { id: 'o4', text: 'are' },
+                { id: 'o1', text: "isn't" }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"A television" is singular, so the negative is "there isn\'t".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'The shop is ___ my street, where it meets the main road.',
+              options: [
+                { id: 'o2', text: 'on the corner of' },
+                { id: 'o1', text: 'between' },
+                { id: 'o3', text: 'opposite' },
+                { id: 'o4', text: 'next' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Where two streets meet is "on the corner of".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "A good view exists from the balcony."',
+              options: [
+                { id: 'o3', text: 'It is a good view from the balcony.' },
+                { id: 'o1', text: 'There is a good view from the balcony.' },
+                { id: 'o4', text: 'A good view there is from the balcony.' },
+                { id: 'o2', text: 'There are a good view from the balcony.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"View" is singular/uncountable here, so "there is" fits.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Put in order: "corner / is / of / the / on / the shop / my street"',
+              options: [
+                { id: 'o3', text: 'On the corner is the shop of my street.' },
+                { id: 'o4', text: 'The shop on the corner is of my street.' },
+                { id: 'o1', text: 'The shop is on the corner of my street.' },
+                { id: 'o2', text: 'My street is on the corner of the shop.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural order: subject + is + on the corner of + place.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Our house is ___ the school, so we can see it from the window.',
+              options: [
+                { id: 'o2', text: 'between' },
+                { id: 'o3', text: 'on the corner' },
+                { id: 'o4', text: 'next' },
+                { id: 'o1', text: 'opposite' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Facing something, across from it, is "opposite".',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Rooms, Furniture and the Neighborhood',
@@ -976,8 +1389,18 @@ const units = [
         title: 'Countable and Uncountable Nouns; Some / Any / Much / Many',
         description: 'Talk about quantities of food and other things correctly.',
         grammarNote:
-          'Countable nouns can be counted and have a plural form: one tomato, two tomatoes. Uncountable nouns cannot be counted and have no plural: rice, cheese, water, bread. Use a/an or a number with countable nouns, and words like some/a bit of/a lot of with uncountable nouns.\n\n' +
-          "Use some in positive sentences and offers (\"I need some milk\"), and any in negatives and questions (\"I don't have any milk,\" \"Do you have any milk?\"). Use many with countable plural nouns (\"How many eggs?\") and much with uncountable nouns (\"How much cheese?\"), especially in questions and negatives; a lot of works with both in positive sentences.\n\n" +
+          'Goal: use countable/uncountable nouns and some/any/much/many correctly when talking about quantities.\n\n' +
+          'Rule: countable nouns can be counted and have a plural form: one tomato, two tomatoes. Uncountable nouns cannot be counted and have no plural: rice, cheese, water, bread.\n\n' +
+          'Pattern: a/an/number + countable noun. some/a bit of + uncountable noun. How many + countable? How much + uncountable?\n\n' +
+          'Examples:\n1. I need some milk for the recipe.\n2. I don\'t have any eggs left.\n3. How much cheese do you want?\n4. How many apples are there in the bag?\n5. Would you like some coffee?\n6. We have a lot of pasta.\n7. Is there any bread in the kitchen?\n8. I only have a little money.\n\n' +
+          'Affirmative: some + noun, or a lot of + noun (either type). Example: "We have a lot of pasta."\n\n' +
+          "Negative: any + noun (with don't/doesn't/isn't/aren't), or not much/not many. Example: \"I don't have any eggs left.\" \"There aren't many tomatoes.\"\n\n" +
+          "Questions: any + noun for yes/no questions; How much/How many for quantity questions. Example: \"Do you have any bananas?\" \"How much cheese do you want?\"\n\n" +
+          "Contractions: don't = do not, doesn't = does not, isn't = is not, aren't = are not.\n\n" +
+          "Common mistakes: ✗ \"How much apples?\" → ✓ \"How many apples?\" (apples is countable, use many). ✗ \"How many cheese?\" → ✓ \"How much cheese?\" (cheese is uncountable, use much). ✗ \"I need a milk\" → ✓ \"I need some milk\" (uncountable nouns don't take \"a\").\n\n" +
+          "Compare: some (affirmative/offers) vs any (negatives/questions); many + countable (How many eggs?) vs much + uncountable (How much cheese?); a little (uncountable, small amount) vs a few (countable, small number).\n\n" +
+          'Mini practice: complete. "She bought ___ new potatoes." → a few. "I only have ___ money." → a little. "___ oil do we need?" → How much.\n\n' +
+          "Summary: use some for affirmatives/offers and any for negatives/questions; use many with countable plurals and much with uncountables (especially in questions/negatives); a lot of works with both in affirmative sentences.\n\n" +
           'Apoyo: usa some (afirmaciones/ofertas) y any (negaciones/preguntas); usa many con contables y much con incontables.',
         phrases: [
           'some / any',
@@ -998,7 +1421,181 @@ const units = [
           { type: 'mcq', prompt: 'I only have ___ money, so I can\'t buy everything.', options: ['a little', 'a few', 'many', 'some'], answer: 0 },
           { type: 'mcq', prompt: 'She bought ___ new potatoes at the market.', options: ['a little', 'a few', 'much', 'a bit of'], answer: 1 },
           { type: 'mcq', prompt: '___ oil do we need for the pasta sauce?', options: ['How many', 'How much', 'How', 'What'], answer: 1 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a2-food-and-shopping-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'Which noun is uncountable?',
+              options: [
+                { id: 'o3', text: 'Rice' },
+                { id: 'o1', text: 'Tomato' },
+                { id: 'o2', text: 'Egg' },
+                { id: 'o4', text: 'Apple' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Rice" cannot be counted one by one, so it is uncountable.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'I need ___ milk for the recipe.',
+              options: [
+                { id: 'o1', text: 'a' },
+                { id: 'o2', text: 'some' },
+                { id: 'o3', text: 'many' },
+                { id: 'o4', text: 'a few' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'An affirmative request for an uncountable noun uses "some".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: "I don't have ___ eggs left.",
+              options: [
+                { id: 'o1', text: 'some' },
+                { id: 'o3', text: 'much' },
+                { id: 'o2', text: 'any' },
+                { id: 'o4', text: 'a' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Negative sentences use "any": "I don\'t have any eggs left."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: '___ cheese do you want?',
+              options: [
+                { id: 'o1', text: 'How many' },
+                { id: 'o3', text: 'How' },
+                { id: 'o4', text: 'What' },
+                { id: 'o2', text: 'How much' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Cheese" is uncountable, so we use "How much".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: '___ apples are there in the bag?',
+              options: [
+                { id: 'o2', text: 'How many' },
+                { id: 'o1', text: 'How much' },
+                { id: 'o3', text: 'How' },
+                { id: 'o4', text: 'What' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Apples" is countable, so we use "How many".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'There are ___ tomatoes in the fridge - we need to buy more.',
+              options: [
+                { id: 'o1', text: 'not much' },
+                { id: 'o2', text: 'not many' },
+                { id: 'o3', text: 'much' },
+                { id: 'o4', text: 'any' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Tomatoes" is countable, so the negative quantity is "not many".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'Find the mistake: "How much apples do we need?"',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o3', text: 'It should be "How much apple"' },
+                { id: 'o2', text: 'It should be "How many apples"' },
+                { id: 'o4', text: 'It should be "How many apple"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Apples" is countable, so the question word is "many", not "much".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'We have ___ pasta - too much for two people!',
+              options: [
+                { id: 'o1', text: 'a few' },
+                { id: 'o3', text: 'many' },
+                { id: 'o4', text: 'any' },
+                { id: 'o2', text: 'a lot of' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"A lot of" works with uncountable nouns like pasta in affirmative sentences.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Choose the equivalent sentence to "We have zero bread at home."',
+              options: [
+                { id: 'o1', text: "We don't have any bread." },
+                { id: 'o3', text: 'We have some bread.' },
+                { id: 'o4', text: 'We have many bread.' },
+                { id: 'o2', text: 'We have a bread.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"Zero" means none, matching the negative "don\'t have any bread."',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'I only have ___ money, so I can\'t buy everything.',
+              options: [
+                { id: 'o2', text: 'a few' },
+                { id: 'o1', text: 'a little' },
+                { id: 'o3', text: 'many' },
+                { id: 'o4', text: 'some' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"Money" is uncountable, so a small amount is "a little".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'She bought ___ new potatoes at the market.',
+              options: [
+                { id: 'o1', text: 'a little' },
+                { id: 'o3', text: 'much' },
+                { id: 'o2', text: 'a few' },
+                { id: 'o4', text: 'a bit of' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Potatoes" is countable, so a small number is "a few".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Put in order: "oil / we / how much / for the sauce / need / do"',
+              options: [
+                { id: 'o3', text: 'We need how much oil for the sauce?' },
+                { id: 'o4', text: 'Do we need for the sauce how much oil?' },
+                { id: 'o2', text: 'How much do we need oil for the sauce?' },
+                { id: 'o1', text: 'How much oil do we need for the sauce?' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural question order: How much + noun + do + subject + verb...?',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Food, Ingredients and Quantities',
@@ -1190,8 +1787,18 @@ const units = [
         title: 'Past Simple (Regular and Irregular Verbs)',
         description: 'Talk about completed actions and experiences in the past.',
         grammarNote:
-          'Use the Past Simple for completed actions at a specific time in the past: "We visited Paris in June." Regular verbs add -ed: visit -> visited, travel -> travelled. Irregular verbs change form completely and must be memorised: go -> went, see -> saw, have -> had, get -> got.\n\n' +
-          "The negative uses didn't + base verb for all subjects: \"We didn't sleep much.\" The question uses Did + subject + base verb: \"Did you visit Rome?\" Time expressions like yesterday, last year, two weeks ago, and in June often signal the Past Simple.\n\n" +
+          'Goal: describe completed actions and experiences in the past, with both regular and irregular verbs.\n\n' +
+          'Rule: use the Past Simple for completed actions at a specific time in the past: "We visited Paris in June." Regular verbs add -ed; irregular verbs change form completely and must be memorised.\n\n' +
+          "Pattern: Regular → verb + -ed (visit → visited, travel → travelled). Irregular → memorised form (go → went, see → saw, have → had, get → got). Negative: didn't + base verb. Question: Did + subject + base verb?\n\n" +
+          'Examples:\n1. They flew to Paris last summer.\n2. We visited the museum yesterday.\n3. I got lost in the old city.\n4. We took some amazing photos.\n5. He left his backpack at the hostel.\n6. We met a lot of new people.\n7. Last year, I went to Italy for the first time.\n8. She didn\'t have much money when she travelled.\n\n' +
+          'Affirmative: subject + past form of the verb. Example: "We visited the museum yesterday." "I went to Italy."\n\n' +
+          "Negative: subject + didn't + base verb (the same for every subject, and the verb goes back to its base form). Example: \"They didn't stay in a hotel.\" \"She didn't have much money.\"\n\n" +
+          'Questions: Did + subject + base verb...? Example: "Did you enjoy the trip?" "Did they travel by train or by bus?"\n\n' +
+          "Contractions: didn't = did not.\n\n" +
+          "Common mistakes: ✗ \"She goed to Italy\" → ✓ \"She went to Italy\" (go is irregular, never \"goed\"). ✗ \"Did you visited Rome?\" → ✓ \"Did you visit Rome?\" (after \"did\", use the base verb, not the past form). ✗ \"They didn't went\" → ✓ \"They didn't go\" (same rule - base verb after didn't).\n\n" +
+          'Compare: regular verbs are predictable (-ed ending: visited, travelled, meeted is WRONG, the correct irregular form is "met"); irregular verbs like go/see/have/get/take/leave/meet/fly must simply be learned, since there is no rule for their past form.\n\n' +
+          'Mini practice: complete. "Last summer, they (fly) ___ to Paris." → flew. "We (meet) ___ a lot of new people." → met. "___ you (enjoy) the trip?" → Did you enjoy.\n\n' +
+          'Summary: use the Past Simple for finished actions in the past (regular verbs + -ed, irregular verbs memorised); use didn\'t + base verb for negatives and Did + subject + base verb for questions, with time words like yesterday, last year, two weeks ago.\n\n' +
           'Apoyo: usa el Past Simple para acciones terminadas en el pasado; recuerda que los verbos irregulares cambian de forma y deben memorizarse.',
         phrases: [
           'I/We visited... (regular)',
@@ -1212,7 +1819,181 @@ const units = [
           { type: 'mcq', prompt: 'Last year, I ___ to Italy for the first time.', options: ['go', 'goed', 'went', 'gone'], answer: 2 },
           { type: 'mcq', prompt: '___ they travel by train or by bus?', options: ['Do', 'Does', 'Did', 'Were'], answer: 2 },
           { type: 'mcq', prompt: 'I ___ that view - it was unforgettable.', options: ['never forget', 'never forgot', 'will never forget', 'not forget'], answer: 2 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a2-past-experiences-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'They ___ to Paris last summer.',
+              options: [
+                { id: 'o3', text: 'flew' },
+                { id: 'o1', text: 'fly' },
+                { id: 'o2', text: 'flied' },
+                { id: 'o4', text: 'flown' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Fly" is irregular: its past form is "flew".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'We ___ the museum yesterday.',
+              options: [
+                { id: 'o1', text: 'visit' },
+                { id: 'o2', text: 'visited' },
+                { id: 'o3', text: 'visiting' },
+                { id: 'o4', text: 'visits' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Visit" is regular: add -ed for the past.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'She ___ have much money when she travelled.',
+              options: [
+                { id: 'o1', text: "doesn't" },
+                { id: 'o3', text: "don't" },
+                { id: 'o2', text: "didn't" },
+                { id: 'o4', text: "wasn't" }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'The past negative for every subject is "didn\'t" + base verb.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: '___ you enjoy the trip?',
+              options: [
+                { id: 'o1', text: 'Do' },
+                { id: 'o2', text: 'Does' },
+                { id: 'o4', text: 'Were' },
+                { id: 'o3', text: 'Did' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Past questions use "Did" + subject + base verb.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'I ___ lost in the old city.',
+              options: [
+                { id: 'o4', text: 'got' },
+                { id: 'o1', text: 'get' },
+                { id: 'o2', text: 'gets' },
+                { id: 'o3', text: 'getting' }
+              ],
+              correctOptionId: 'o4',
+              explanation: '"Get" is irregular: its past form is "got".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Find the mistake: "Last year, I goed to Italy."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "I went to Italy"' },
+                { id: 'o3', text: 'It should be "I gone to Italy"' },
+                { id: 'o4', text: 'It should be "I go to Italy"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Go" is irregular; its past form is "went", never "goed".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'Choose the correct question.',
+              options: [
+                { id: 'o1', text: 'Did you visited Rome?' },
+                { id: 'o3', text: 'Did you visits Rome?' },
+                { id: 'o2', text: 'Did you visit Rome?' },
+                { id: 'o4', text: 'You did visit Rome?' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'After "did", the verb goes back to its base form: "visit".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'We ___ a lot of new people during the trip.',
+              options: [
+                { id: 'o1', text: 'meet' },
+                { id: 'o2', text: 'meeted' },
+                { id: 'o4', text: 'meets' },
+                { id: 'o3', text: 'met' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Meet" is irregular: its past form is "met", not "meeted".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'They ___ not stay in a hotel - it was too expensive.',
+              options: [
+                { id: 'o1', text: 'did' },
+                { id: 'o2', text: 'was' },
+                { id: 'o3', text: 'do' },
+                { id: 'o4', text: 'were' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'The past negative auxiliary for every subject is "did" (+ not).',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "He put his backpack down at the hostel and did not take it."',
+              options: [
+                { id: 'o3', text: 'He leaves his backpack at the hostel.' },
+                { id: 'o1', text: 'He left his backpack at the hostel.' },
+                { id: 'o4', text: 'He leave his backpack at the hostel.' },
+                { id: 'o2', text: 'He leaved his backpack at the hostel.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"Leave" is irregular: its past form is "left", not "leaved".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Put in order: "by train / did / travel / they / or by bus"',
+              options: [
+                { id: 'o3', text: 'They did travel by train or by bus?' },
+                { id: 'o4', text: 'Travel did they by train or by bus?' },
+                { id: 'o1', text: 'Did they travel by train or by bus?' },
+                { id: 'o2', text: 'Did travel they by train or by bus?' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Question order: Did + subject + base verb + rest.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'I ___ that view - it was unforgettable.',
+              options: [
+                { id: 'o1', text: 'never forget' },
+                { id: 'o3', text: 'will never forget' },
+                { id: 'o4', text: 'not forget' },
+                { id: 'o2', text: 'never forgot' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A past, completed experience uses the Past Simple: "never forgot".',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Travel and Past Experiences',
@@ -1400,8 +2181,18 @@ const units = [
         title: 'Comparative and Superlative Adjectives',
         description: 'Compare two or more things using comparative and superlative forms.',
         grammarNote:
-          'Use comparative adjectives to compare two things: short adjectives add -er (cheap -> cheaper), and longer adjectives use more (expensive -> more expensive). Use than to introduce the second thing: "The train is faster than the bus."\n\n' +
-          'Use superlative adjectives to compare three or more things and show the extreme: short adjectives add the -est (cheap -> the cheapest), and longer adjectives use the most (expensive -> the most expensive). Some adjectives are irregular: good -> better -> the best; bad -> worse -> the worst.\n\n' +
+          'Goal: compare two things (comparative) or three or more things (superlative).\n\n' +
+          'Rule: comparative adjectives compare two things; superlative adjectives compare three or more and show the extreme. Short adjectives add -er/-est; longer adjectives use more/the most.\n\n' +
+          'Pattern: Comparative → adjective + -er + than (short) / more + adjective + than (long). Superlative → the + adjective + -est (short) / the most + adjective (long).\n\n' +
+          'Examples:\n1. The train is faster than the bus.\n2. This is the most expensive hotel in the city.\n3. Flying is usually more expensive than taking the train.\n4. This is the best trip we have ever taken.\n5. October is cheaper than summer for travelling.\n6. This room is noisier than the other one.\n7. Of all three hotels, this one is the most luxurious.\n8. That was the worst meal of the whole trip.\n\n' +
+          'Affirmative: subject + is/are + comparative/superlative + (than + second thing). Example: "Dublin is more interesting than Edinburgh in some ways."\n\n' +
+          "Negative: subject + isn't/aren't + as + adjective + as. Example: \"This hotel isn't as expensive as the other one.\"\n\n" +
+          'Questions: Which is + comparative/superlative...? Example: "Which is cheaper, the train or the bus?" "Which is the most luxurious hotel?"\n\n' +
+          "Contractions: isn't = is not, aren't = are not.\n\n" +
+          "Common mistakes: ✗ \"more cheaper\" → ✓ \"cheaper\" (don't use \"more\" AND \"-er\" together). ✗ \"the expensivest hotel\" → ✓ \"the most expensive hotel\" (long adjectives use \"the most\", not \"-est\"). ✗ \"gooder\" → ✓ \"better\" (good/bad are irregular).\n\n" +
+          'Compare: good → better → the best; bad → worse → the worst (irregular, must be memorised); most one- or two-syllable adjectives just add -er/-est (cheap → cheaper → the cheapest), but adjectives ending in -y change to -ier/-iest (noisy → noisier → the noisiest).\n\n' +
+          'Mini practice: complete. "This bus is (comfortable) ___ than I expected." → more comfortable. "Walking is (good) ___ way to see the city." → the best.\n\n' +
+          'Summary: use comparative + than to compare two things (-er for short adjectives, more for long ones); use the + superlative to compare three or more (-est for short adjectives, the most for long ones); memorise irregular forms like better/best and worse/worst.\n\n' +
           'Apoyo: usa comparativos (-er/more + than) para comparar dos cosas; usa superlativos (the -est/the most) para comparar tres o más cosas.',
         phrases: [
           '... -er than / more... than',
@@ -1422,7 +2213,181 @@ const units = [
           { type: 'mcq', prompt: 'That was ___ meal of the whole trip.', options: ['bad', 'worse', 'the worst', 'worst'], answer: 2 },
           { type: 'mcq', prompt: 'Dublin is ___ than Edinburgh in some ways.', options: ['interesting', 'more interesting', 'the most interesting', 'interestinger'], answer: 1 },
           { type: 'mcq', prompt: 'This is ___ way to travel - it saves a lot of money.', options: ['cheap', 'cheaper', 'the cheapest', 'more cheap'], answer: 2 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a2-travel-and-transportation-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'The train is ___ than the bus.',
+              options: [
+                { id: 'o2', text: 'faster' },
+                { id: 'o1', text: 'fast' },
+                { id: 'o3', text: 'fastest' },
+                { id: 'o4', text: 'more fast' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Fast" is short, so the comparative just adds -er.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'This is ___ hotel in the city.',
+              options: [
+                { id: 'o1', text: 'expensive' },
+                { id: 'o3', text: 'the most expensive' },
+                { id: 'o2', text: 'more expensive' },
+                { id: 'o4', text: 'expensiver' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Comparing among all hotels in the city needs the superlative: "the most expensive".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'Flying is usually ___ than taking the train.',
+              options: [
+                { id: 'o1', text: 'expensive' },
+                { id: 'o3', text: 'the most expensive' },
+                { id: 'o2', text: 'more expensive' },
+                { id: 'o4', text: 'expensivest' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Comparing two things ("than") with a long adjective needs "more".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'This is ___ trip we have ever taken.',
+              options: [
+                { id: 'o1', text: 'good' },
+                { id: 'o2', text: 'better' },
+                { id: 'o4', text: 'best' },
+                { id: 'o3', text: 'the best' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Good" is irregular; the superlative is "the best".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'This room is ___ than the other one - I can hear the street.',
+              options: [
+                { id: 'o2', text: 'noisier' },
+                { id: 'o1', text: 'noisy' },
+                { id: 'o3', text: 'the noisiest' },
+                { id: 'o4', text: 'more noisy' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Adjectives ending in -y change to -ier for the comparative: noisy → noisier.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Find the mistake: "This trip is more cheaper than the last one."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be just "cheaper"' },
+                { id: 'o3', text: 'It should be "the cheapest"' },
+                { id: 'o4', text: 'It should be "cheap"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Never combine "more" and "-er": just "cheaper".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'Of all three hotels, this one is ___.',
+              options: [
+                { id: 'o1', text: 'luxurious' },
+                { id: 'o2', text: 'more luxurious' },
+                { id: 'o3', text: 'the most luxurious' },
+                { id: 'o4', text: 'luxuriouser' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Comparing three or more things needs the superlative: "the most luxurious".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'That was ___ meal of the whole trip.',
+              options: [
+                { id: 'o1', text: 'bad' },
+                { id: 'o2', text: 'worse' },
+                { id: 'o4', text: 'worst' },
+                { id: 'o3', text: 'the worst' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Bad" is irregular; the superlative is "the worst".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Choose the correct question.',
+              options: [
+                { id: 'o2', text: 'Which is cheaper, the train or the bus?' },
+                { id: 'o1', text: 'Which is cheap, the train or the bus?' },
+                { id: 'o3', text: 'Which is the cheap, the train or the bus?' },
+                { id: 'o4', text: 'Which cheaper is the train or the bus?' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Comparing two options uses the comparative: "Which is cheaper...?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "Dublin has more interesting things than Edinburgh, in some ways."',
+              options: [
+                { id: 'o3', text: 'Dublin is the most interesting than Edinburgh.' },
+                { id: 'o1', text: 'Dublin is more interesting than Edinburgh in some ways.' },
+                { id: 'o4', text: 'Dublin is interestinger than Edinburgh.' },
+                { id: 'o2', text: 'Dublin is interesting than Edinburgh.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'A long adjective comparing two things needs "more...than".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Put in order: "way / this / is / cheapest / the / to travel"',
+              options: [
+                { id: 'o3', text: 'The cheapest this is way to travel.' },
+                { id: 'o4', text: 'This way is to travel the cheapest.' },
+                { id: 'o1', text: 'This is the cheapest way to travel.' },
+                { id: 'o2', text: 'Is this the cheapest way to travel.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural order: subject + is + the + superlative + noun + rest.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Choose the negative sentence equivalent to "This hotel is cheaper than that one."',
+              options: [
+                { id: 'o3', text: "This hotel isn't as cheap as that one." },
+                { id: 'o4', text: "That hotel is as cheap as this one." },
+                { id: 'o2', text: "This hotel is as cheap as that one." },
+                { id: 'o1', text: "That hotel isn't as cheap as this one." }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"This hotel is cheaper" means that one is NOT as cheap: "That hotel isn\'t as cheap as this one."',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Transportation and Travel Planning',
@@ -1612,8 +2577,18 @@ const units = [
         title: "Should / Shouldn't and Have to / Don't Have to",
         description: 'Give advice and talk about obligations related to health.',
         grammarNote:
-          "Use should to give advice or say what is a good idea: \"You should rest.\" Use shouldn't for advice against something: \"You shouldn't skip breakfast.\" The question form is Should I...?\n\n" +
-          "Use have to for obligations or necessary rules: \"I have to take this medicine.\" Use don't have to when something is not necessary, but not forbidden: \"You don't have to stay home all week.\" This is different from shouldn't, which means it's a bad idea, not just unnecessary.\n\n" +
+          "Goal: give health advice with should/shouldn't, and talk about obligations with have to/don't have to.\n\n" +
+          "Rule: use should for advice or a good idea, and shouldn't for advice against something. Use have to for obligations/necessary rules, and don't have to when something is not necessary (but not forbidden).\n\n" +
+          "Pattern: subject + should/shouldn't + base verb. Subject + have to/has to/don't have to/doesn't have to + base verb.\n\n" +
+          'Examples:\n1. You should drink plenty of water when you have a cold.\n2. You shouldn\'t smoke - it is very bad for your health.\n3. I have to take this medicine.\n4. You don\'t have to stay home all week.\n5. Patients have to wear a mask in this clinic.\n6. We don\'t have to pay for this appointment - it is free.\n7. He shouldn\'t go to work today.\n8. You should sleep at least eight hours a night.\n\n' +
+          "Affirmative: subject + should/have to + base verb. Example: \"You should rest.\" \"I have to take this medicine.\"\n\n" +
+          "Negative: subject + shouldn't/don't have to + base verb. Example: \"You shouldn't skip breakfast.\" \"You don't have to stay home all week.\"\n\n" +
+          "Questions: Should + subject + base verb...? Do/Does + subject + have to + base verb...? Example: \"Should I take this medicine before or after food?\" \"Do I have to take antibiotics for a cold?\"\n\n" +
+          "Contractions: shouldn't = should not, don't = do not, doesn't = does not.\n\n" +
+          "Common mistakes: ✗ \"You should to rest\" → ✓ \"You should rest\" (no \"to\" after should). ✗ \"I don't should smoke\" → ✓ \"I shouldn't smoke\" (shouldn't is one word, not \"don't should\"). ✗ using shouldn't when something is simply unnecessary → use don't have to instead: not necessary is different from a bad idea.\n\n" +
+          "Compare: shouldn't (bad idea/advice against it) vs don't have to (not necessary, but still okay to do it) - \"You don't have to stay home all week\" (staying home is fine, just not required) is very different from \"You shouldn't go to work today\" (going to work would be a bad idea).\n\n" +
+          'Mini practice: complete. "You (should/rest) ___ until you feel better." → should rest. "We (not/have to) ___ pay - it\'s free." → don\'t have to pay.\n\n' +
+          "Summary: use should/shouldn't to give or reject advice; use have to/don't have to to talk about obligations and what is or isn't necessary - remember don't have to means \"not necessary\", not \"forbidden\".\n\n" +
           "Apoyo: usa should/shouldn't para dar consejos; usa have to para obligaciones necesarias y don't have to cuando algo NO es necesario (pero no está prohibido).",
         phrases: [
           "You should... / You shouldn't...",
@@ -1634,7 +2609,181 @@ const units = [
           { type: 'mcq', prompt: 'You ___ stay in bed all day, just rest when you feel tired.', options: ["don't have to", 'have to', 'should', "shouldn't"], answer: 0 },
           { type: 'mcq', prompt: 'He ___ go to work today - his temperature is still high.', options: ["shouldn't", 'should', "doesn't have to", 'has to'], answer: 0 },
           { type: 'mcq', prompt: 'You ___ sleep at least eight hours a night for good health.', options: ["shouldn't", 'should', "don't have to", 'has to'], answer: 1 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a2-health-and-healthy-habits-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'You ___ drink plenty of water when you have a cold.',
+              options: [
+                { id: 'o1', text: 'should' },
+                { id: 'o2', text: "shouldn't" },
+                { id: 'o3', text: 'has to' },
+                { id: 'o4', text: 'have' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Good advice for a cold uses "should": "You should drink water."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'You ___ smoke - it is very bad for your health.',
+              options: [
+                { id: 'o1', text: 'should' },
+                { id: 'o2', text: "shouldn't" },
+                { id: 'o3', text: 'have to' },
+                { id: 'o4', text: "don't have to" }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Advice against something (bad for health) uses "shouldn\'t".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: '___ I take this medicine before or after food?',
+              options: [
+                { id: 'o1', text: 'Do' },
+                { id: 'o3', text: 'Have' },
+                { id: 'o2', text: 'Should' },
+                { id: 'o4', text: 'Am' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Asking for advice uses "Should I...?"',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'I ___ to see a doctor - it is just a small cold.',
+              options: [
+                { id: 'o2', text: "shouldn't have" },
+                { id: 'o3', text: 'have' },
+                { id: 'o4', text: "doesn't have" },
+                { id: 'o1', text: "don't have" }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Something not necessary (a small cold) uses "don\'t have to see".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'Patients ___ to wear a mask in this clinic - it is a rule.',
+              options: [
+                { id: 'o2', text: 'have' },
+                { id: 'o1', text: "don't have" },
+                { id: 'o3', text: "shouldn't" },
+                { id: 'o4', text: 'should not' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A clinic rule is an obligation: "have to wear a mask".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Find the mistake: "You should to rest until you feel better."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "You should rest" (no "to")' },
+                { id: 'o3', text: 'It should be "You shoulds rest"' },
+                { id: 'o4', text: 'It should be "You should resting"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Should" is followed directly by the base verb, never "to".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: '___ I have to take antibiotics for a cold?',
+              options: [
+                { id: 'o1', text: 'Should' },
+                { id: 'o3', text: 'Have' },
+                { id: 'o2', text: 'Do' },
+                { id: 'o4', text: 'Am' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Questions about obligation with "have to" use "Do/Does": "Do I have to...?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'We ___ pay for this appointment - it is free.',
+              options: [
+                { id: 'o2', text: 'have to' },
+                { id: 'o3', text: "shouldn't" },
+                { id: 'o4', text: 'should' },
+                { id: 'o1', text: "don't have to" }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Something free is not necessary: "don\'t have to pay".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "It\'s fine to stay home, but it\'s not required."',
+              options: [
+                { id: 'o2', text: "You don't have to stay home." },
+                { id: 'o1', text: "You shouldn't stay home." },
+                { id: 'o3', text: 'You have to stay home.' },
+                { id: 'o4', text: 'You should stay home.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Not required, but okay" matches "don\'t have to", not "shouldn\'t" (which means a bad idea).',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'He ___ go to work today - his temperature is still high.',
+              options: [
+                { id: 'o2', text: 'should' },
+                { id: 'o1', text: "shouldn't" },
+                { id: 'o3', text: "doesn't have to" },
+                { id: 'o4', text: 'has to' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'A high temperature means going to work is a bad idea: "shouldn\'t go".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Put in order: "sleep / should / you / eight hours / at least / a night"',
+              options: [
+                { id: 'o3', text: 'Should you sleep at least eight hours a night.' },
+                { id: 'o4', text: 'At least eight hours you should sleep a night.' },
+                { id: 'o1', text: 'You should sleep at least eight hours a night.' },
+                { id: 'o2', text: 'You sleep should at least eight hours a night.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural order: subject + should + base verb + rest.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Choose the best advice for someone with a very bad cough who insists on going out dancing.',
+              options: [
+                { id: 'o1', text: "You don't have to go dancing." },
+                { id: 'o3', text: 'You have to go dancing.' },
+                { id: 'o4', text: 'Do you have to go dancing?' },
+                { id: 'o2', text: "You shouldn't go dancing." }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Strong advice against a bad idea uses "shouldn\'t", not just "don\'t have to".',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Illness, Symptoms and Healthy Habits',
@@ -1824,8 +2973,18 @@ const units = [
         title: "Going to (Plans) and Will (Spontaneous Decisions/Predictions)",
         description: 'Talk about plans already decided and spontaneous decisions or predictions.',
         grammarNote:
-          "Use going to for plans and intentions decided before the moment of speaking: \"I'm going to invite everyone this week\" (already decided). Use will for decisions made at the moment of speaking, offers, and promises: \"I'll bring a cake!\" (deciding right now).\n\n" +
-          "Will is also used for predictions, often with think/probably: \"I think it will rain.\" Going to is used for predictions based on evidence you can see now: \"Look at those clouds - it's going to rain.\"\n\n" +
+          "Goal: choose between going to (plans already decided) and will (spontaneous decisions, offers, promises, predictions).\n\n" +
+          "Rule: use going to for plans and intentions decided before the moment of speaking. Use will for decisions made at the moment of speaking, offers, promises, and general predictions.\n\n" +
+          "Pattern: subject + am/is/are + going to + base verb (plan). Subject + will/'ll + base verb (spontaneous/prediction).\n\n" +
+          "Examples:\n1. I'm going to study medicine next year.\n2. The phone is ringing - I'll answer it!\n3. Look at those clouds - it's going to rain soon.\n4. We are going to have a party next Saturday.\n5. I don't know what to bring... I'll bring a salad!\n6. I think our team will win the match tomorrow.\n7. That box looks heavy - I'll help you with it.\n8. I promise I'll never tell your secret.\n\n" +
+          "Affirmative: subject + am/is/are + going to + verb (plan); subject + will + verb (spontaneous). Example: \"She is going to study abroad next year.\"\n\n" +
+          "Negative: subject + am/is/are + not + going to + verb; subject + won't + verb. Example: \"I'm not going to invite him.\" \"I won't tell anyone.\"\n\n" +
+          "Questions: Am/Is/Are + subject + going to + verb...? Will + subject + verb...? Example: \"Are you going to come?\" \"Will you come to the party?\"\n\n" +
+          "Contractions: I'll = I will, won't = will not, I'm = I am.\n\n" +
+          "Common mistakes: ✗ \"I go to study medicine\" → ✓ \"I'm going to study medicine\" (don't drop \"am/is/are\"). ✗ using \"will\" for an already-decided plan → use \"going to\": \"We're going to have a party\" (already planned), not \"We'll have a party\". ✗ using \"going to\" for a decision made right now → use \"will\": \"The phone is ringing - I'll answer it!\", not \"I'm going to answer it\" for that instant decision.\n\n" +
+          "Compare: going to = decided BEFORE speaking (a plan); will = decided AT the moment of speaking (spontaneous), or an offer/promise/general prediction; going to is also used for a prediction based on visible evidence (\"Look at those clouds - it's going to rain\"), while will is used for a prediction based on opinion (\"I think it will rain\").\n\n" +
+          'Mini practice: complete. "We\'ve already booked the cake, so we (have) ___ chocolate flavour." → are going to have. "OK, I (bring) ___ some chairs from my house." → \'ll bring.\n\n' +
+          "Summary: use going to for plans decided before now and evidence-based predictions; use will for decisions made right now, offers, promises, and opinion-based predictions.\n\n" +
           "Apoyo: usa going to para planes ya decididos; usa will para decisiones espontáneas, ofrecimientos, promesas y predicciones generales.",
         phrases: [
           "I'm going to... (plan)",
@@ -1846,7 +3005,181 @@ const units = [
           { type: 'mcq', prompt: "We've already booked the cake, so we ___ have chocolate flavour.", options: ['will', "are going to", 'do', 'have'], answer: 1 },
           { type: 'mcq', prompt: "A: \"We need more chairs.\" B: \"OK, I ___ bring some from my house.\"", options: ["'ll", "am going to", 'am', 'do'], answer: 0 },
           { type: 'mcq', prompt: 'I promise I ___ never tell your secret.', options: ["'ll", "am going to", 'am', 'do'], answer: 0 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a2-plans-and-celebrations-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: "I've already decided - I ___ study medicine next year.",
+              options: [
+                { id: 'o2', text: 'am going to' },
+                { id: 'o1', text: 'will' },
+                { id: 'o3', text: 'am' },
+                { id: 'o4', text: 'do' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'An already-decided plan uses "going to".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'The phone is ringing - I ___ answer it!',
+              options: [
+                { id: 'o1', text: 'am going to' },
+                { id: 'o2', text: "'ll" },
+                { id: 'o3', text: 'am' },
+                { id: 'o4', text: 'do' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A decision made right now uses "will" ("\'ll").',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'Look at those clouds - it ___ rain soon.',
+              options: [
+                { id: 'o1', text: "'ll" },
+                { id: 'o3', text: 'does' },
+                { id: 'o2', text: 'is going to' },
+                { id: 'o4', text: 'is' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A prediction based on visible evidence (clouds) uses "going to".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: "We ___ have a party next Saturday - it's all planned.",
+              options: [
+                { id: 'o1', text: "'ll" },
+                { id: 'o3', text: 'are' },
+                { id: 'o4', text: 'do' },
+                { id: 'o2', text: 'are going to' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"It\'s all planned" signals "going to", not "will".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: "I don't know what to bring... I ___ bring a salad!",
+              options: [
+                { id: 'o1', text: "'ll" },
+                { id: 'o2', text: 'am going to' },
+                { id: 'o3', text: 'am' },
+                { id: 'o4', text: 'do' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Deciding right now (not planned before) uses "will".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'I think our team ___ win the match tomorrow.',
+              options: [
+                { id: 'o1', text: 'is going to' },
+                { id: 'o2', text: "'ll" },
+                { id: 'o3', text: 'does' },
+                { id: 'o4', text: 'is' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"I think" signals an opinion-based prediction, using "will".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'Find the mistake: "The phone is ringing - I am going to answer it!"',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o3', text: 'It should be "I answer it"' },
+                { id: 'o2', text: 'It should be "I\'ll answer it" (spontaneous decision)' },
+                { id: 'o4', text: 'It should be "I answered it"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A decision made at the moment of speaking needs "will", not "going to".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: "That box looks heavy - I ___ help you with it.",
+              options: [
+                { id: 'o2', text: 'am going to' },
+                { id: 'o3', text: 'am' },
+                { id: 'o4', text: 'do' },
+                { id: 'o1', text: "'ll" }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'An offer made right now uses "will".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: '___ you come to the party on Saturday?',
+              options: [
+                { id: 'o1', text: 'Will' },
+                { id: 'o2', text: 'Do' },
+                { id: 'o3', text: 'Are' },
+                { id: 'o4', text: 'Have' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Asking about a future action/invitation uses "Will you...?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: "We've already booked the cake, so we ___ have chocolate flavour.",
+              options: [
+                { id: 'o1', text: 'will' },
+                { id: 'o2', text: 'are going to' },
+                { id: 'o3', text: 'do' },
+                { id: 'o4', text: 'have' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'An already-booked detail is a plan: "are going to have".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "I promise not to tell anyone."',
+              options: [
+                { id: 'o3', text: "I'm never going to tell your secret." },
+                { id: 'o4', text: "I never tell your secret." },
+                { id: 'o1', text: "I'll never tell your secret." },
+                { id: 'o2', text: "I never told your secret." }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'A promise made now uses "will": "I\'ll never tell your secret."',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Put in order: "we / have a party / going to / are / next Saturday"',
+              options: [
+                { id: 'o3', text: 'Are we going to have a party next Saturday.' },
+                { id: 'o4', text: 'We have going to a party next Saturday are.' },
+                { id: 'o2', text: 'Going to we are have a party next Saturday.' },
+                { id: 'o1', text: 'We are going to have a party next Saturday.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural order: subject + am/is/are + going to + verb + rest.',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Celebrations and Party Planning',
@@ -2035,8 +3368,18 @@ const units = [
         title: 'Can / Could / Be Able To (Ability)',
         description: 'Talk about present and past abilities.',
         grammarNote:
-          "Use can for present ability: \"I can design websites.\" Use could for general ability in the past: \"She could speak French as a child.\" Use was/were able to especially for a specific achievement in the past (one occasion): \"She was able to finish the project on time.\"\n\n" +
-          "Be able to is also used where can/could is not possible, like after another modal or in the future: \"I will be able to help tomorrow,\" \"I haven't been able to finish yet.\"\n\n" +
+          "Goal: talk about present and past ability with can, could, and be able to.\n\n" +
+          "Rule: use can for present ability, could for general ability in the past, and was/were able to especially for a specific achievement on one occasion. Be able to also fills in where can/could is impossible, like after another modal or in the future.\n\n" +
+          "Pattern: subject + can/could + base verb (ability). Subject + was/were/will be + able to + base verb.\n\n" +
+          "Examples:\n1. She can speak three languages fluently.\n2. When he was young, he could run very fast.\n3. Despite the problems, we were able to finish the project on time.\n4. I will be able to help you tomorrow.\n5. Could you drive when you were eighteen?\n6. He couldn't speak any English before he moved to the UK.\n7. We hope we will be able to travel next year.\n8. I haven't been able to finish the design yet.\n\n" +
+          "Affirmative: subject + can/could/was-were able to + base verb. Example: \"Priya can work well under pressure.\"\n\n" +
+          "Negative: subject + can't/couldn't/wasn't-weren't able to + base verb. Example: \"I can't finish the report.\" \"Sarah couldn't lead a team a year ago.\"\n\n" +
+          "Questions: Can/Could + subject + base verb...? Example: \"Can you help me?\" \"Could you drive when you were eighteen?\"\n\n" +
+          "Contractions: can't = cannot, couldn't = could not.\n\n" +
+          "Common mistakes: ✗ \"I can to help\" → ✓ \"I can help\" (no \"to\" after can/could). ✗ \"She cans speak\" → ✓ \"She can speak\" (can never takes -s, even with he/she/it). ✗ using \"could\" for one specific past success → prefer \"was/were able to\": \"Despite the problems, we were able to finish\" (not \"we could finish\", which suggests general ability rather than one achievement).\n\n" +
+          "Compare: could = general ability in the past (over time); was/were able to = a specific success on one occasion, especially when there was difficulty; will be able to fills the future (can has no future form); been able to fills the present perfect (can has no perfect form).\n\n" +
+          'Mini practice: complete. "After months of practice, she (be) ___ finally able to give the presentation confidently." → was. "I haven\'t (be) ___ able to finish the design yet." → been.\n\n' +
+          "Summary: use can for present ability, could for general past ability, was/were able to for a specific past achievement, and will be able to / have been able to when can/could doesn't fit grammatically (future, perfect tenses, after another modal).\n\n" +
           "Apoyo: usa can para habilidad presente; usa could para habilidad general en el pasado; usa was/were able to especialmente para un logro específico en el pasado.",
         phrases: [
           "I can... (present ability)",
@@ -2057,7 +3400,181 @@ const units = [
           { type: 'mcq', prompt: 'Priya ___ work well under pressure - it\'s one of her strengths.', options: ['can', 'is able', 'could', 'was able'], answer: 0 },
           { type: 'mcq', prompt: 'I haven\'t ___ to finish the design yet.', options: ['can', 'could', 'been able', 'able'], answer: 2 },
           { type: 'mcq', prompt: 'Sarah ___ lead a team a year ago, but now she can.', options: ["couldn't", "can't", "wasn't able", 'is not able'], answer: 0 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a2-school-and-work-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'She ___ speak three languages fluently.',
+              options: [
+                { id: 'o1', text: 'can' },
+                { id: 'o2', text: 'could' },
+                { id: 'o3', text: 'is able' },
+                { id: 'o4', text: 'will' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'A present ability uses "can".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'When he was young, he ___ run very fast.',
+              options: [
+                { id: 'o1', text: 'can' },
+                { id: 'o2', text: 'could' },
+                { id: 'o3', text: 'is able to' },
+                { id: 'o4', text: 'will' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A general past ability uses "could".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'Despite the problems, we ___ finish the project on time.',
+              options: [
+                { id: 'o1', text: 'could' },
+                { id: 'o3', text: 'can' },
+                { id: 'o2', text: 'were able to' },
+                { id: 'o4', text: 'will' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A specific past achievement (despite difficulty) uses "were able to".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'I ___ help you tomorrow if you need it.',
+              options: [
+                { id: 'o1', text: 'can' },
+                { id: 'o2', text: 'could' },
+                { id: 'o4', text: 'am able' },
+                { id: 'o3', text: 'will be able to' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Can" has no future form, so we use "will be able to".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: '___ you drive when you were eighteen?',
+              options: [
+                { id: 'o2', text: 'Could' },
+                { id: 'o1', text: 'Can' },
+                { id: 'o3', text: 'Are able to' },
+                { id: 'o4', text: 'Will' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A question about past general ability uses "Could".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'I ___ finish the report - can you help me?',
+              options: [
+                { id: 'o2', text: "couldn't" },
+                { id: 'o1', text: "can't" },
+                { id: 'o3', text: 'am not able' },
+                { id: 'o4', text: "wasn't able to" }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'A present inability uses "can\'t".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'Find the mistake: "I can to help you tomorrow."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o3', text: 'It should be "I cans help you"' },
+                { id: 'o2', text: 'It should be "I can help you" (no "to")' },
+                { id: 'o4', text: 'It should be "I can helping you"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Can" is followed directly by the base verb, never "to".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'He ___ speak any English before he moved to the UK.',
+              options: [
+                { id: 'o1', text: "can't" },
+                { id: 'o3', text: "isn't able to" },
+                { id: 'o4', text: "wasn't able" },
+                { id: 'o2', text: "couldn't" }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A general past inability uses "couldn\'t".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'We hope we ___ able to travel next year.',
+              options: [
+                { id: 'o1', text: 'will be' },
+                { id: 'o2', text: 'can be' },
+                { id: 'o3', text: 'could be' },
+                { id: 'o4', text: 'are' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'After "hope", a future ability needs "will be able to".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'I haven\'t ___ to finish the design yet.',
+              options: [
+                { id: 'o1', text: 'can' },
+                { id: 'o3', text: 'been able' },
+                { id: 'o2', text: 'could' },
+                { id: 'o4', text: 'able' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Can" has no present perfect form, so we use "been able to".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "A year ago, Sarah did not have the ability to lead a team, but she does now."',
+              options: [
+                { id: 'o3', text: "Sarah can't lead a team a year ago, but now she could." },
+                { id: 'o4', text: "Sarah wasn't able lead a team, but now she can." },
+                { id: 'o1', text: "Sarah couldn't lead a team a year ago, but now she can." },
+                { id: 'o2', text: "Sarah can lead a team a year ago, but now she couldn't." }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Past general inability uses "couldn\'t"; present ability uses "can".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Put in order: "well / can / priya / under pressure / work"',
+              options: [
+                { id: 'o3', text: 'Can priya work well under pressure.' },
+                { id: 'o4', text: 'Priya work can well under pressure.' },
+                { id: 'o2', text: 'Well priya can work under pressure.' },
+                { id: 'o1', text: 'Priya can work well under pressure.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural order: subject + can + base verb + adverb + rest.',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Work, Projects and Skills',
@@ -2248,8 +3765,18 @@ const units = [
         title: 'Present Perfect: Ever, Never, Just, Already',
         description: 'Talk about life experiences and recent actions using the Present Perfect.',
         grammarNote:
-          "Use the Present Perfect (have/has + past participle) for life experiences without a specific time, or actions with a present result: \"I've visited Edinburgh,\" \"She has just arrived.\"\n\n" +
-          "Use ever in questions (\"Have you ever been to Italy?\"), never for negative experience (\"I've never tried sushi\"), just for something that happened a very short time ago (\"I've just finished\"), and already for something completed sooner than expected (\"I've already eaten\").\n\n" +
+          "Goal: talk about life experiences and recent actions using the Present Perfect, with ever/never/just/already.\n\n" +
+          "Rule: use the Present Perfect (have/has + past participle) for life experiences without a specific time, or actions with a present result. Ever/never/just/already add extra meaning about when or whether something happened.\n\n" +
+          "Pattern: subject + have/has + past participle. I/you/we/they + have. He/she/it + has.\n\n" +
+          "Examples:\n1. Have you ever visited Scotland?\n2. I have never eaten Ethiopian food before.\n3. She has just finished her project.\n4. We have already had dinner.\n5. I've never seen that film.\n6. Has he ever worked abroad?\n7. I haven't ever been to Asia.\n8. We've already finished the report early.\n\n" +
+          "Affirmative: subject + have/has + past participle. Example: \"They have never been to Rome.\"\n\n" +
+          "Negative: subject + haven't/hasn't + past participle. Example: \"I haven't been to Asia yet.\"\n\n" +
+          "Questions: Have/Has + subject + past participle...? Example: \"Have you ever tried sushi?\" \"Has he ever worked abroad?\"\n\n" +
+          "Contractions: I've = I have, she's = she has, haven't = have not, hasn't = has not.\n\n" +
+          "Common mistakes: ✗ \"I have never went\" → ✓ \"I have never been/gone\" (use the past participle, not the past simple form, after have/has). ✗ \"She have just finished\" → ✓ \"She has just finished\" (he/she/it needs \"has\"). ✗ placing \"ever\" in an affirmative statement → \"ever\" belongs mainly in questions: \"Have you ever...?\", not \"I have ever visited\".\n\n" +
+          "Compare: ever = at any time (mostly questions); never = at no time (negative experience); just = a very short time ago; already = completed sooner than expected (usually affirmative statements, sometimes surprised questions).\n\n" +
+          'Mini practice: complete. "___ you ___ visited Scotland?" → Have...ever. "She\'s ___ arrived - give her a minute." → just.\n\n' +
+          "Summary: use have/has + past participle for life experiences and recent actions; use ever in questions, never for a negative experience, just for something very recent, and already for something finished sooner than expected.\n\n" +
           "Apoyo: usa el Present Perfect para experiencias de vida y acciones recientes; ever en preguntas, never para negar experiencia, just para algo reciente, already para algo completado antes de lo esperado.",
         phrases: [
           "I've / She's + past participle",
@@ -2270,7 +3797,181 @@ const units = [
           { type: 'mcq', prompt: 'Has he ___ worked abroad?', options: ['already', 'ever', 'just', 'never'], answer: 1 },
           { type: 'mcq', prompt: "I haven't ___ been to Asia, but I'd love to go.", options: ['already', 'just', 'ever', 'yet'], answer: 2 },
           { type: 'mcq', prompt: 'We ___ finished the report early - it wasn\'t due until Friday.', options: ["'ve already", 'ever', 'never', 'do'], answer: 0 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a2-stories-and-achievements-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: '___ you ever visited Scotland?',
+              options: [
+                { id: 'o2', text: 'Have' },
+                { id: 'o1', text: 'Do' },
+                { id: 'o3', text: 'Did' },
+                { id: 'o4', text: 'Are' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Life-experience questions with "ever" use "Have you ever...?"',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'I ___ never eaten Ethiopian food before.',
+              options: [
+                { id: 'o2', text: 'has' },
+                { id: 'o1', text: 'have' },
+                { id: 'o3', text: 'am' },
+                { id: 'o4', text: 'did' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'With "I", the Present Perfect auxiliary is "have".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'She ___ just finished her project.',
+              options: [
+                { id: 'o1', text: 'have' },
+                { id: 'o3', text: 'is' },
+                { id: 'o2', text: 'has' },
+                { id: 'o4', text: 'did' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'With "she", the Present Perfect auxiliary is "has".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: "We ___ already had dinner, so we're not hungry.",
+              options: [
+                { id: 'o2', text: 'has' },
+                { id: 'o3', text: 'are' },
+                { id: 'o4', text: 'did' },
+                { id: 'o1', text: 'have' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'With "we", the Present Perfect auxiliary is "have".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: "I've ___ seen that film - I don't want to watch it again.",
+              options: [
+                { id: 'o3', text: 'already' },
+                { id: 'o1', text: 'ever' },
+                { id: 'o2', text: 'never' },
+                { id: 'o4', text: 'just' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Not wanting to watch it again shows it was completed before: "already".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Have you ___ tried sushi?',
+              options: [
+                { id: 'o2', text: 'never' },
+                { id: 'o1', text: 'ever' },
+                { id: 'o3', text: 'already' },
+                { id: 'o4', text: 'just' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Asking about a life experience at any time uses "ever".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'Find the mistake: "She have just finished the project."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o3', text: 'It should be "She haves just finished"' },
+                { id: 'o2', text: 'It should be "She has just finished"' },
+                { id: 'o4', text: 'It should be "She just have finished"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"She" needs "has", not "have".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'They ___ never been to Rome, but they want to go.',
+              options: [
+                { id: 'o2', text: 'has' },
+                { id: 'o3', text: 'are' },
+                { id: 'o4', text: 'did' },
+                { id: 'o1', text: 'have' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'With "they", the Present Perfect auxiliary is "have".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Has he ___ worked abroad?',
+              options: [
+                { id: 'o2', text: 'ever' },
+                { id: 'o1', text: 'already' },
+                { id: 'o3', text: 'just' },
+                { id: 'o4', text: 'never' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A question about life experience uses "ever".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "I finished the book a very short time ago, and it was excellent."',
+              options: [
+                { id: 'o3', text: "I've never finished the book - it was excellent." },
+                { id: 'o1', text: "I've just finished the book - it was excellent." },
+                { id: 'o4', text: "I finish the book - it was excellent." },
+                { id: 'o2', text: "I've ever finished the book - it was excellent." }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'A very short time ago matches "just".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: "I haven't ___ been to Asia, but I'd love to go.",
+              options: [
+                { id: 'o1', text: 'already' },
+                { id: 'o2', text: 'just' },
+                { id: 'o3', text: 'ever' },
+                { id: 'o4', text: 'yet' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'A negative life experience with "haven\'t" pairs with "ever".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Put in order: "the report / already / we / finished / early / have"',
+              options: [
+                { id: 'o3', text: 'Already we have finished the report early.' },
+                { id: 'o4', text: 'We finished have already the report early.' },
+                { id: 'o2', text: 'Have we already finished the report early.' },
+                { id: 'o1', text: 'We have already finished the report early.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural order: subject + have + already + past participle + rest.',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Life Experiences and Achievements',
