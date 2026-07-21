@@ -334,15 +334,106 @@ const units = [
       vocabulary: activity('vocabulary', {
         title: 'Greeting Words',
         description: 'Key words for saying hello and introducing yourself.',
+        // directSupport: direct/immersion-mode pilot (English->English, spec
+        // §3/§4/§9) - definitions, synonyms/opposites and extra examples,
+        // all in English, for LanguagePair.getLearningSupport(). No `image`/
+        // `imageAlt` yet (spec §10: never add a placeholder image without a
+        // real pedagogically-useful asset) - the renderer skips the image
+        // block cleanly when absent. Pilot scope: Unit 1 only.
         vocabulary: [
-          { word: 'Hello', translation: 'Hola', example: 'Hello, my name is Ana.' },
-          { word: 'Good morning', translation: 'Buenos días', example: 'Good morning, class!' },
-          { word: 'Name', translation: 'Nombre', example: 'My name is Leo.' },
-          { word: 'Teacher', translation: 'Profesor/a', example: 'My teacher is Mr. Green.' },
-          { word: 'Friend', translation: 'Amigo/a', example: 'Leo is my friend.' },
-          { word: 'Nice to meet you', translation: 'Mucho gusto', example: 'Nice to meet you, Ana.' },
-          { word: 'Goodbye', translation: 'Adiós', example: 'Goodbye, see you tomorrow.' },
-          { word: 'Please', translation: 'Por favor', example: 'Repeat that, please.' }
+          {
+            word: 'Hello',
+            translation: 'Hola',
+            example: 'Hello, my name is Ana.',
+            directSupport: {
+              definition: 'A friendly word you say when you meet someone.',
+              simpleDefinition: 'A word to greet someone.',
+              synonyms: ['Hi'],
+              opposites: ['Goodbye'],
+              usageNote: 'Used at the start of a conversation.',
+              contextExamples: ['Hello, my name is Ana.', 'Hello! How are you?']
+            }
+          },
+          {
+            word: 'Good morning',
+            translation: 'Buenos días',
+            example: 'Good morning, class!',
+            directSupport: {
+              definition: 'A greeting you use early in the day, before noon.',
+              simpleDefinition: 'Hello, but only in the morning.',
+              opposites: ['Good night'],
+              usageNote: 'Used only before midday.',
+              contextExamples: ['Good morning, class!', 'Good morning, Mr. Green.']
+            }
+          },
+          {
+            word: 'Name',
+            translation: 'Nombre',
+            example: 'My name is Leo.',
+            directSupport: {
+              definition: 'The word people use to call you.',
+              simpleDefinition: 'What you are called.',
+              contextExamples: ['My name is Leo.', 'What is your name?']
+            }
+          },
+          {
+            word: 'Teacher',
+            translation: 'Profesor/a',
+            example: 'My teacher is Mr. Green.',
+            directSupport: {
+              definition: 'A person who helps students learn.',
+              simpleDefinition: 'Someone who teaches you at school.',
+              synonyms: ['Instructor'],
+              opposites: ['Student'],
+              contextExamples: ['My teacher is Mr. Green.', 'The teacher writes on the board.']
+            }
+          },
+          {
+            word: 'Friend',
+            translation: 'Amigo/a',
+            example: 'Leo is my friend.',
+            directSupport: {
+              definition: 'A person you like and enjoy spending time with.',
+              simpleDefinition: 'Someone you like and trust.',
+              synonyms: ['Buddy'],
+              opposites: ['Stranger'],
+              contextExamples: ['Leo is my friend.', 'She is my best friend.']
+            }
+          },
+          {
+            word: 'Nice to meet you',
+            translation: 'Mucho gusto',
+            example: 'Nice to meet you, Ana.',
+            directSupport: {
+              definition: 'A polite phrase you say the first time you meet someone.',
+              simpleDefinition: 'Something polite you say when you meet someone new.',
+              usageNote: 'Said only the first time you meet someone.',
+              contextExamples: ['Nice to meet you, Ana.', 'Nice to meet you too!']
+            }
+          },
+          {
+            word: 'Goodbye',
+            translation: 'Adiós',
+            example: 'Goodbye, see you tomorrow.',
+            directSupport: {
+              definition: 'A word you say when you leave or end a conversation.',
+              simpleDefinition: 'A word to say when you leave.',
+              synonyms: ['Bye'],
+              opposites: ['Hello'],
+              contextExamples: ['Goodbye, see you tomorrow.', 'Goodbye! Have a nice day.']
+            }
+          },
+          {
+            word: 'Please',
+            translation: 'Por favor',
+            example: 'Repeat that, please.',
+            directSupport: {
+              definition: 'A polite word you add when you ask for something.',
+              simpleDefinition: 'A polite word used when you ask for something.',
+              usageNote: 'Makes a request sound more polite.',
+              contextExamples: ['Repeat that, please.', 'Can you help me, please?']
+            }
+          }
         ],
         exercises: [
           { type: 'mcq', prompt: 'What does "Hello" mean?', options: ['Hola', 'Adiós', 'Gracias', 'Nombre'], answer: 0 },

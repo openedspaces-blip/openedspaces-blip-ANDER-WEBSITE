@@ -6834,6 +6834,44 @@ footer small {
   color: var(--navy-2);
 }
 
+/* Direct/immersion mode (spec §5/§9) - definition/synonyms/opposites/image
+   in L2, shown instead of .vocab-card-translation (empty in that mode).
+   Only ever present when real content was authored - no placeholder image
+   or empty boxes (spec §10). */
+.vocab-card-image {
+  flex-shrink: 0;
+  width: 100%;
+  max-height: 120px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+}
+
+.vocab-card-definition {
+  flex-shrink: 0;
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--navy-2);
+  text-align: left;
+}
+
+.vocab-card-synonyms-opposites {
+  flex-shrink: 0;
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-align: left;
+}
+
+.vocab-card-usage-note {
+  flex-shrink: 0;
+  margin: 0;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--muted);
+  text-align: left;
+}
+
 /* The only flexible/scrollable region on the back face - header, translation
    and actions are all flex-shrink: 0 (pinned to natural size), so on a short
    card with 3 contexts this is what scrolls instead of spilling out over the

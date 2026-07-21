@@ -269,23 +269,198 @@ const units = [
       vocabulary: activity('vocabulary', {
         title: 'Saludos y presentaciones',
         description: 'Palabras clave para saludar y presentarte.',
+        // directSupport: direct/immersion-mode pilot (Spanish->Spanish, spec
+        // §3/§4/§9) - definitions, synonyms/opposites and extra examples,
+        // all in Spanish. No image/imageAlt yet (spec §10). Pilot scope:
+        // Unit 1 only.
         vocabulary: [
-          { word: 'Hola', category: 'saludo', translation: 'Hello', example: 'Hola, ¿cómo estás?' },
-          { word: 'Buenos días', category: 'saludo', translation: 'Good morning', example: 'Buenos días, profesor.' },
-          { word: 'Buenas tardes', category: 'saludo', translation: 'Good afternoon', example: 'Buenas tardes a todos.' },
-          { word: 'Buenas noches', category: 'saludo', translation: 'Good evening/night', example: 'Buenas noches, hasta mañana.' },
-          { word: 'Adiós', category: 'despedida', translation: 'Goodbye', example: 'Adiós, nos vemos mañana.' },
-          { word: 'Hasta luego', category: 'despedida', translation: 'See you later', example: '¡Hasta luego, Marco!' },
-          { word: 'Nombre', category: 'presentación', translation: 'Name', example: 'Mi nombre es Valentina.' },
-          { word: 'Mucho gusto', category: 'presentación', translation: 'Nice to meet you', example: 'Mucho gusto, me llamo Diego.' },
-          { word: 'Por favor', category: 'cortesía', translation: 'Please', example: 'Repite, por favor.' },
-          { word: 'Gracias', category: 'cortesía', translation: 'Thank you', example: 'Gracias por tu ayuda.' },
-          { word: 'De nada', category: 'cortesía', translation: "You're welcome", example: '—Gracias. —De nada.' },
-          { word: 'Amigo/a', category: 'personas', translation: 'Friend', example: 'Marco es mi amigo.' },
-          { word: 'Profesor/a', category: 'personas', translation: 'Teacher', example: 'Mi profesor se llama Diego.' },
-          { word: 'Uno, dos, tres', category: 'números', translation: 'One, two, three', example: 'Uno, dos, tres, cuatro, cinco.' },
-          { word: 'Diez', category: 'números', translation: 'Ten', example: 'Tengo diez lápices.' },
-          { word: 'Veinte', category: 'números', translation: 'Twenty', example: 'Hay veinte estudiantes.' }
+          {
+            word: 'Hola',
+            category: 'saludo',
+            translation: 'Hello',
+            example: 'Hola, ¿cómo estás?',
+            directSupport: {
+              definition: 'Palabra que se usa para saludar a alguien.',
+              simpleDefinition: 'Una palabra para saludar.',
+              opposites: ['Adiós'],
+              contextExamples: ['Hola, ¿cómo estás?', 'Hola, buenos días.']
+            }
+          },
+          {
+            word: 'Buenos días',
+            category: 'saludo',
+            translation: 'Good morning',
+            example: 'Buenos días, profesor.',
+            directSupport: {
+              definition: 'Saludo que se usa por la mañana, antes del mediodía.',
+              simpleDefinition: 'Hola, pero solo en la mañana.',
+              opposites: ['Buenas noches'],
+              contextExamples: ['Buenos días, profesor.', 'Buenos días a todos.']
+            }
+          },
+          {
+            word: 'Buenas tardes',
+            category: 'saludo',
+            translation: 'Good afternoon',
+            example: 'Buenas tardes a todos.',
+            directSupport: {
+              definition: 'Saludo que se usa por la tarde.',
+              simpleDefinition: 'Hola, pero solo en la tarde.',
+              contextExamples: ['Buenas tardes a todos.', 'Buenas tardes, señora.']
+            }
+          },
+          {
+            word: 'Buenas noches',
+            category: 'saludo',
+            translation: 'Good evening/night',
+            example: 'Buenas noches, hasta mañana.',
+            directSupport: {
+              definition: 'Saludo o despedida que se usa por la noche.',
+              simpleDefinition: 'Hola o adiós, pero solo de noche.',
+              opposites: ['Buenos días'],
+              contextExamples: ['Buenas noches, hasta mañana.', 'Buenas noches a todos.']
+            }
+          },
+          {
+            word: 'Adiós',
+            category: 'despedida',
+            translation: 'Goodbye',
+            example: 'Adiós, nos vemos mañana.',
+            directSupport: {
+              definition: 'Palabra que se dice al despedirse de alguien.',
+              simpleDefinition: 'Una palabra para despedirse.',
+              synonyms: ['Hasta luego'],
+              opposites: ['Hola'],
+              contextExamples: ['Adiós, nos vemos mañana.', 'Adiós, que tengas buen día.']
+            }
+          },
+          {
+            word: 'Hasta luego',
+            category: 'despedida',
+            translation: 'See you later',
+            example: '¡Hasta luego, Marco!',
+            directSupport: {
+              definition: 'Expresión que se usa al despedirse, cuando vas a ver a la persona pronto.',
+              simpleDefinition: 'Adiós, hasta otro momento.',
+              synonyms: ['Adiós'],
+              contextExamples: ['¡Hasta luego, Marco!', 'Hasta luego, nos vemos mañana.']
+            }
+          },
+          {
+            word: 'Nombre',
+            category: 'presentación',
+            translation: 'Name',
+            example: 'Mi nombre es Valentina.',
+            directSupport: {
+              definition: 'Palabra que usan las personas para llamarte.',
+              simpleDefinition: 'Cómo te llamas.',
+              contextExamples: ['Mi nombre es Valentina.', '¿Cuál es tu nombre?']
+            }
+          },
+          {
+            word: 'Mucho gusto',
+            category: 'presentación',
+            translation: 'Nice to meet you',
+            example: 'Mucho gusto, me llamo Diego.',
+            directSupport: {
+              definition: 'Expresión cortés que se dice al conocer a alguien por primera vez.',
+              simpleDefinition: 'Lo que dices al conocer a alguien nuevo.',
+              contextExamples: ['Mucho gusto, me llamo Diego.', 'Mucho gusto en conocerte.']
+            }
+          },
+          {
+            word: 'Por favor',
+            category: 'cortesía',
+            translation: 'Please',
+            example: 'Repite, por favor.',
+            directSupport: {
+              definition: 'Palabra cortés que se usa al pedir algo.',
+              simpleDefinition: 'Una palabra amable para pedir algo.',
+              contextExamples: ['Repite, por favor.', 'Ayúdame, por favor.']
+            }
+          },
+          {
+            word: 'Gracias',
+            category: 'cortesía',
+            translation: 'Thank you',
+            example: 'Gracias por tu ayuda.',
+            directSupport: {
+              definition: 'Palabra que se usa para agradecer a alguien.',
+              simpleDefinition: 'Una palabra de agradecimiento.',
+              opposites: ['De nada'],
+              contextExamples: ['Gracias por tu ayuda.', 'Muchas gracias.']
+            }
+          },
+          {
+            word: 'De nada',
+            category: 'cortesía',
+            translation: "You're welcome",
+            example: '—Gracias. —De nada.',
+            directSupport: {
+              definition: 'Respuesta cortés cuando alguien te da las gracias.',
+              simpleDefinition: 'Lo que dices cuando alguien te agradece.',
+              opposites: ['Gracias'],
+              contextExamples: ['—Gracias. —De nada.', 'De nada, fue un placer.']
+            }
+          },
+          {
+            word: 'Amigo/a',
+            category: 'personas',
+            translation: 'Friend',
+            example: 'Marco es mi amigo.',
+            directSupport: {
+              definition: 'Persona que te cae bien y en quien confías.',
+              simpleDefinition: 'Alguien que te cae bien.',
+              opposites: ['Desconocido/a'],
+              contextExamples: ['Marco es mi amigo.', 'Ella es mi mejor amiga.']
+            }
+          },
+          {
+            word: 'Profesor/a',
+            category: 'personas',
+            translation: 'Teacher',
+            example: 'Mi profesor se llama Diego.',
+            directSupport: {
+              definition: 'Persona que ayuda a los estudiantes a aprender.',
+              simpleDefinition: 'Alguien que enseña en la escuela.',
+              synonyms: ['Maestro/a'],
+              opposites: ['Estudiante'],
+              contextExamples: ['Mi profesor se llama Diego.', 'La profesora explica la lección.']
+            }
+          },
+          {
+            word: 'Uno, dos, tres',
+            category: 'números',
+            translation: 'One, two, three',
+            example: 'Uno, dos, tres, cuatro, cinco.',
+            directSupport: {
+              definition: 'Los primeros tres números al contar.',
+              simpleDefinition: 'Los números 1, 2 y 3.',
+              contextExamples: ['Uno, dos, tres, cuatro, cinco.', 'Cuento uno, dos, tres.']
+            }
+          },
+          {
+            word: 'Diez',
+            category: 'números',
+            translation: 'Ten',
+            example: 'Tengo diez lápices.',
+            directSupport: {
+              definition: 'El número que sigue después del nueve.',
+              simpleDefinition: 'El número 10.',
+              contextExamples: ['Tengo diez lápices.', 'Somos diez estudiantes.']
+            }
+          },
+          {
+            word: 'Veinte',
+            category: 'números',
+            translation: 'Twenty',
+            example: 'Hay veinte estudiantes.',
+            directSupport: {
+              definition: 'El número que equivale a dos veces diez.',
+              simpleDefinition: 'El número 20.',
+              contextExamples: ['Hay veinte estudiantes.', 'Tengo veinte años.']
+            }
+          }
         ],
         exercises: [
           { type: 'mcq', prompt: '¿Qué significa "Mucho gusto"?', options: ['Nice to meet you', 'Good morning', 'Thank you', 'See you later'], answer: 0 },

@@ -157,23 +157,183 @@ const units = [
       vocabulary: activity('vocabulary', {
         title: 'Les mots de bienvenue',
         description: 'Le vocabulaire essentiel pour saluer et se présenter.',
+        // directSupport: direct/immersion-mode pilot (French->French, spec
+        // §3/§4/§9) - definitions, synonyms/opposites and extra examples,
+        // all in French. No image/imageAlt yet (spec §10). Pilot scope:
+        // Unit 1 only.
         vocabulary: [
-          { word: 'Bonjour', translation: 'Buenos días / Hola', example: 'Bonjour, madame !' },
-          { word: 'Salut', translation: 'Hola (familiar)', example: 'Salut, Karim !' },
-          { word: 'Merci', translation: 'Gracias', example: 'Merci beaucoup, Léa.' },
-          { word: "S'il te plaît", translation: 'Por favor (familiar)', example: "Répète, s'il te plaît." },
-          { word: 'Enchanté(e)', translation: 'Encantado/a', example: 'Enchantée, Camila.' },
-          { word: 'Au revoir', translation: 'Adiós', example: 'Au revoir, à demain !' },
-          { word: 'À bientôt', translation: 'Hasta pronto', example: 'À bientôt, Léa !' },
-          { word: 'Comment ça va ?', translation: '¿Cómo estás?', example: 'Comment ça va, Karim ?' },
-          { word: 'Ça va bien', translation: 'Estoy bien', example: 'Ça va bien, merci.' },
-          { word: 'Le prénom', translation: 'El nombre de pila', example: "Mon prénom, c'est Camila." },
-          { word: 'La salle de classe', translation: 'El salón de clase', example: 'La salle de classe est grande.' },
-          { word: 'Le professeur / la professeure', translation: 'El profesor / la profesora', example: 'Madame Dubois est ma professeure.' },
-          { word: "L'élève", translation: 'El/la estudiante', example: 'Karim est un bon élève.' },
-          { word: "L'ami(e)", translation: 'El amigo / la amiga', example: 'Léa est mon amie.' },
-          { word: 'Bienvenue', translation: 'Bienvenida/o', example: 'Bienvenue à Tours !' },
-          { word: 'Nouveau / nouvelle', translation: 'Nuevo / nueva', example: "Je suis nouvelle à l'école." }
+          {
+            word: 'Bonjour',
+            translation: 'Buenos días / Hola',
+            example: 'Bonjour, madame !',
+            directSupport: {
+              definition: 'Un mot pour saluer quelqu\'un pendant la journée.',
+              simpleDefinition: 'Un mot pour dire bonjour.',
+              opposites: ['Au revoir'],
+              contextExamples: ['Bonjour, madame !', 'Bonjour, comment allez-vous ?']
+            }
+          },
+          {
+            word: 'Salut',
+            translation: 'Hola (familiar)',
+            example: 'Salut, Karim !',
+            directSupport: {
+              definition: 'Une façon simple et amicale de dire bonjour.',
+              simpleDefinition: 'Bonjour, en langage familier.',
+              opposites: ['Au revoir'],
+              usageNote: 'Utilisé avec les amis ou la famille.',
+              contextExamples: ['Salut, Karim !', 'Salut, ça va ?']
+            }
+          },
+          {
+            word: 'Merci',
+            translation: 'Gracias',
+            example: 'Merci beaucoup, Léa.',
+            directSupport: {
+              definition: 'Un mot pour remercier quelqu\'un.',
+              simpleDefinition: 'Un mot de remerciement.',
+              contextExamples: ['Merci beaucoup, Léa.', 'Merci pour ton aide.']
+            }
+          },
+          {
+            word: "S'il te plaît",
+            translation: 'Por favor (familiar)',
+            example: "Répète, s'il te plaît.",
+            directSupport: {
+              definition: 'Une expression polie utilisée pour demander quelque chose.',
+              simpleDefinition: 'Un mot poli pour demander quelque chose.',
+              usageNote: 'Forme familière - utilisée avec les amis ou la famille.',
+              contextExamples: ["Répète, s'il te plaît.", "Aide-moi, s'il te plaît."]
+            }
+          },
+          {
+            word: 'Enchanté(e)',
+            translation: 'Encantado/a',
+            example: 'Enchantée, Camila.',
+            directSupport: {
+              definition: 'Une expression polie que l\'on dit en rencontrant quelqu\'un pour la première fois.',
+              simpleDefinition: 'Ce qu\'on dit à une nouvelle rencontre.',
+              contextExamples: ['Enchantée, Camila.', 'Enchanté de vous rencontrer.']
+            }
+          },
+          {
+            word: 'Au revoir',
+            translation: 'Adiós',
+            example: 'Au revoir, à demain !',
+            directSupport: {
+              definition: 'Un mot que l\'on dit en quittant quelqu\'un.',
+              simpleDefinition: 'Un mot pour dire au revoir.',
+              synonyms: ['À bientôt'],
+              opposites: ['Bonjour'],
+              contextExamples: ['Au revoir, à demain !', 'Au revoir et bonne journée.']
+            }
+          },
+          {
+            word: 'À bientôt',
+            translation: 'Hasta pronto',
+            example: 'À bientôt, Léa !',
+            directSupport: {
+              definition: 'Une façon de dire au revoir quand on va revoir la personne bientôt.',
+              simpleDefinition: 'Au revoir, à une prochaine fois.',
+              synonyms: ['Au revoir'],
+              contextExamples: ['À bientôt, Léa !', "À bientôt, j'espère."]
+            }
+          },
+          {
+            word: 'Comment ça va ?',
+            translation: '¿Cómo estás?',
+            example: 'Comment ça va, Karim ?',
+            directSupport: {
+              definition: 'Une question pour demander comment quelqu\'un se sent.',
+              simpleDefinition: 'Une question pour savoir si tout va bien.',
+              contextExamples: ['Comment ça va, Karim ?', 'Salut ! Comment ça va ?']
+            }
+          },
+          {
+            word: 'Ça va bien',
+            translation: 'Estoy bien',
+            example: 'Ça va bien, merci.',
+            directSupport: {
+              definition: 'Une réponse pour dire que tout va bien.',
+              simpleDefinition: 'Une réponse qui veut dire « tout va bien ».',
+              contextExamples: ['Ça va bien, merci.', 'Ça va bien, et toi ?']
+            }
+          },
+          {
+            word: 'Le prénom',
+            translation: 'El nombre de pila',
+            example: "Mon prénom, c'est Camila.",
+            directSupport: {
+              definition: 'Le nom que l\'on donne à une personne à sa naissance.',
+              simpleDefinition: "Le premier nom d'une personne.",
+              contextExamples: ["Mon prénom, c'est Camila.", 'Quel est ton prénom ?']
+            }
+          },
+          {
+            word: 'La salle de classe',
+            translation: 'El salón de clase',
+            example: 'La salle de classe est grande.',
+            directSupport: {
+              definition: 'La pièce où les élèves étudient avec le professeur.',
+              simpleDefinition: "La pièce où l'on a cours.",
+              contextExamples: ['La salle de classe est grande.', 'Nous sommes dans la salle de classe.']
+            }
+          },
+          {
+            word: 'Le professeur / la professeure',
+            translation: 'El profesor / la profesora',
+            example: 'Madame Dubois est ma professeure.',
+            directSupport: {
+              definition: 'La personne qui enseigne aux élèves.',
+              simpleDefinition: "La personne qui enseigne à l'école.",
+              synonyms: ['Enseignant(e)'],
+              opposites: ["L'élève"],
+              contextExamples: ['Madame Dubois est ma professeure.', 'Le professeur explique la leçon.']
+            }
+          },
+          {
+            word: "L'élève",
+            translation: 'El/la estudiante',
+            example: 'Karim est un bon élève.',
+            directSupport: {
+              definition: "Une personne qui apprend à l'école.",
+              simpleDefinition: "Une personne qui étudie à l'école.",
+              opposites: ['Le professeur'],
+              contextExamples: ['Karim est un bon élève.', "L'élève écoute le professeur."]
+            }
+          },
+          {
+            word: "L'ami(e)",
+            translation: 'El amigo / la amiga',
+            example: 'Léa est mon amie.',
+            directSupport: {
+              definition: 'Une personne que l\'on aime bien et en qui on a confiance.',
+              simpleDefinition: "Une personne que l'on aime bien.",
+              opposites: ['Un inconnu / une inconnue'],
+              contextExamples: ['Léa est mon amie.', "C'est mon meilleur ami."]
+            }
+          },
+          {
+            word: 'Bienvenue',
+            translation: 'Bienvenida/o',
+            example: 'Bienvenue à Tours !',
+            directSupport: {
+              definition: "Un mot que l'on dit pour accueillir quelqu'un.",
+              simpleDefinition: "Un mot pour accueillir quelqu'un.",
+              contextExamples: ['Bienvenue à Tours !', 'Bienvenue dans notre classe.']
+            }
+          },
+          {
+            word: 'Nouveau / nouvelle',
+            translation: 'Nuevo / nueva',
+            example: "Je suis nouvelle à l'école.",
+            directSupport: {
+              definition: "Qui vient d'arriver ou qui n'existait pas avant.",
+              simpleDefinition: "Qui vient d'arriver.",
+              opposites: ['Ancien(ne)'],
+              contextExamples: ["Je suis nouvelle à l'école.", 'Il y a un nouvel élève.']
+            }
+          }
         ],
         exercises: [
           { type: 'mcq', prompt: 'Que signifie « merci » ?', options: ['Hola', 'Gracias', 'Adiós', 'Por favor'], answer: 1 },

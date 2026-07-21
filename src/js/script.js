@@ -7281,12 +7281,35 @@ function normalizeVocabularyItem(item, { language, level, bridgeLanguage, index 
   const resolvedBridge = bridgeLanguage || learningPathState.bridgeLanguage;
   const targetWord = item.targetWord || item.word || '';
   const id = item.id || `${lessonSlug}-${slugifyVocabWord(targetWord)}-${index}`;
+  // Direct/immersion mode (spec §3/§5/§9): L1 === L2, no translation shown -
+  // definition/examples/synonyms/opposites/image in L2 instead, via the
+  // shared getLearningSupport() normalizer (src/js/language-pair.js). Falls
+  // back to the plain bilingual shape when LanguagePair isn't loaded or the
+  // item has no directSupport authored yet (existing bilingual content keeps
+  // working unchanged either way).
+  const learningMode = LanguagePair
+    ? LanguagePair.getLearningMode(resolvedBridge, targetLanguage)
+    : resolvedBridge === targetLanguage
+      ? 'direct'
+      : 'bilingual';
+  const support =
+    learningMode === 'direct' && LanguagePair
+      ? LanguagePair.getLearningSupport({ item, bridgeLanguage: resolvedBridge, targetLanguage, learningMode })
+      : null;
   return {
     id,
     targetWord,
-    translation: resolveVocabTranslation(item, resolvedBridge),
+    // Never show a translation in direct mode, even if the raw item still
+    // carries legacy `translation` data (spec §5: "No mostrar traducción").
+    translation: support ? '' : resolveVocabTranslation(item, resolvedBridge),
     example: item.example || '',
-    contexts: normalizeVocabContexts(item),
+    // Direct mode prefers directSupport's own (up to 3) context examples
+    // over the single legacy `example` string, when authored (spec §6: max
+    // 2-3 examples at A1).
+    contexts:
+      support?.examples?.length
+        ? support.examples.slice(0, 3).map((text) => ({ targetText: text, supportText: '' }))
+        : normalizeVocabContexts(item),
     phonetic: item.phonetic || item.pronunciationIpa || '',
     audioText: item.pronunciationText || targetWord,
     category: item.category || item.partOfSpeech || '',
@@ -7296,7 +7319,18 @@ function normalizeVocabularyItem(item, { language, level, bridgeLanguage, index 
     bridgeLanguage: resolvedBridge,
     targetLanguage,
     pronunciationLocale: item.pronunciationLocale || getPronunciationLocale(targetLanguage),
-    pronunciationRate: item.pronunciationRate ?? getDefaultPronunciationRate(targetLanguage, level)
+    pronunciationRate: item.pronunciationRate ?? getDefaultPronunciationRate(targetLanguage, level),
+    learningMode,
+    definition: support?.definition || '',
+    simpleDefinition: support?.simpleDefinition || '',
+    synonyms: support?.synonyms || [],
+    opposites: support?.opposites || [],
+    usageNote: support?.usageNote || '',
+    // Only set when a real, pedagogically-useful image is authored (spec
+    // §10) - never a placeholder. renderVocabCardHtml skips the image block
+    // entirely when this is empty, no broken box/alt text ever shown.
+    image: support?.image || '',
+    imageAlt: support?.imageAlt || ''
   };
 }
 
@@ -7402,6 +7436,32 @@ function renderVocabCardHtml(item, { canSpeak, isFrench }) {
         .join('')}</div>`
     : '';
 
+  // Direct/immersion mode (spec §5/§9): definition + synonyms/opposites +
+  // image instead of a translation - translation is already '' for these
+  // items (see normalizeVocabularyItem), so the vocab-card-translation
+  // block above naturally stays empty. Image only renders when a real one
+  // is authored (spec §10) - no placeholder box, no broken alt text.
+  const lang = learningPathState.bridgeLanguage;
+  const synonymsOppositesParts = [];
+  if (item.synonyms?.length) {
+    synonymsOppositesParts.push(
+      `<span class="vocab-card-synonyms">${escapeHtml(LanguagePair.t('vocabSynonyms', lang))}: ${escapeHtml(item.synonyms.join(', '))}</span>`
+    );
+  }
+  if (item.opposites?.length) {
+    synonymsOppositesParts.push(
+      `<span class="vocab-card-opposites">${escapeHtml(LanguagePair.t('vocabOpposites', lang))}: ${escapeHtml(item.opposites.join(', '))}</span>`
+    );
+  }
+  const directSupportHtml =
+    item.learningMode === 'direct'
+      ? `
+    ${item.image ? `<img class="vocab-card-image" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.imageAlt || item.targetWord)}" loading="lazy" />` : ''}
+    ${item.definition ? `<p class="vocab-card-definition">${escapeHtml(item.definition)}</p>` : ''}
+    ${synonymsOppositesParts.length ? `<p class="vocab-card-synonyms-opposites">${synonymsOppositesParts.join(' · ')}</p>` : ''}
+    ${item.usageNote ? `<p class="vocab-card-usage-note">${escapeHtml(item.usageNote)}</p>` : ''}`
+      : '';
+
   return `
     <div class="vocab-card" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-mastery="${escapeHtml(item.masteryStatus)}" data-flipped="false" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" role="button" tabindex="0" aria-expanded="false" aria-label="${escapeHtml(vocabCardAriaLabel(item.targetWord, false, isFrench))}">
       <div class="vocab-card-inner">
@@ -7424,6 +7484,7 @@ function renderVocabCardHtml(item, { canSpeak, isFrench }) {
         <div class="vocab-card-face vocab-card-back" aria-hidden="true">
           <div class="vocab-card-header">${statusChipHtml}</div>
           ${item.translation ? `<p class="vocab-card-translation">${escapeHtml(item.translation)}</p>` : ''}
+          ${directSupportHtml}
           ${contextsHtml}
           <div class="vocab-card-actions" role="group" aria-label="${isFrench ? 'Actions d’apprentissage' : 'Acciones de aprendizaje'}">
             <button type="button" class="vocab-know-btn" tabindex="-1" aria-label="${isFrench ? 'Je la connais déjà' : 'Ya sé esta palabra'}" title="${isFrench ? 'Je la connais déjà' : 'Ya sé esta palabra'}">✓ Ya la sé</button>

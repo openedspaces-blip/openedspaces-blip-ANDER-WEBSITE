@@ -233,7 +233,9 @@
       premiumGetBtn: 'Obtener Premium',
       translatorSelectDifferent: 'Selecciona dos idiomas diferentes.',
       translatorTranslating: 'Traduciendo…',
-      skillNotAvailableLevel: 'No disponible en este nivel'
+      skillNotAvailableLevel: 'No disponible en este nivel',
+      vocabSynonyms: 'Sinónimos',
+      vocabOpposites: 'Antónimos'
     },
     english: {
       skipLink: 'Skip to content',
@@ -310,7 +312,9 @@
       premiumGetBtn: 'Get Premium',
       translatorSelectDifferent: 'Select two different languages.',
       translatorTranslating: 'Translating…',
-      skillNotAvailableLevel: 'Not available at this level'
+      skillNotAvailableLevel: 'Not available at this level',
+      vocabSynonyms: 'Synonyms',
+      vocabOpposites: 'Opposites'
     },
     french: {
       skipLink: 'Aller au contenu',
@@ -388,7 +392,9 @@
       premiumGetBtn: 'Obtenir Premium',
       translatorSelectDifferent: 'Sélectionnez deux langues différentes.',
       translatorTranslating: 'Traduction en cours…',
-      skillNotAvailableLevel: 'Non disponible à ce niveau'
+      skillNotAvailableLevel: 'Non disponible à ce niveau',
+      vocabSynonyms: 'Synonymes',
+      vocabOpposites: 'Contraires'
     }
   };
 
