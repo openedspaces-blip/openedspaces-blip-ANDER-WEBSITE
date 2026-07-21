@@ -1378,7 +1378,34 @@ a:focus-visible {
   font-weight: 700;
   font-size: 0.95rem;
   margin-top: -8px;
+  margin-bottom: 6px;
+}
+
+/* Discreet "Método directo"/"Modo bilingüe" indicator - a small pill, not a
+   protagonist banner, shown right under the pair preview sentence. */
+.path-pair-mode-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
   margin-bottom: 18px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.path-pair-mode-badge:empty {
+  display: none;
+}
+
+.path-pair-mode-badge.is-direct-mode {
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--blue);
+}
+
+.path-pair-mode-badge.is-bilingual-mode {
+  background: var(--line);
+  color: var(--muted);
 }
 
 .skill-tabs {

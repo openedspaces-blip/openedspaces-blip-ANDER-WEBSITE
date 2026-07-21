@@ -2039,3 +2039,178 @@ test('direct-mode pilot content end-to-end: getLearningSupport() on a real autho
   assert.deepEqual(support.examples, ['My teacher is Mr. Green.', 'The teacher writes on the board.']);
   assert.equal(support.translation, undefined);
 });
+
+// ---------------------------------------------------------------------
+// L1 = L2 integration/verification pass (post-migration 202607200001):
+// full save -> read-back -> learningMode flow for every combination in
+// scope, run against lib/preferencesService.js directly (devStore-backed
+// in this test environment, same code path production hits when Supabase
+// is configured) - not just unit-level LanguagePair assertions.
+// ---------------------------------------------------------------------
+
+test('preferencesService + LanguagePair: full round trip (save, read back, learningMode) for every in-scope combination', async () => {
+  const preferencesService = require('./lib/preferencesService');
+  const crypto = require('crypto');
+
+  // Forces the devStore branch (same pattern as the resendConfirmation/
+  // requestPasswordReset test above) - this environment has a real Supabase
+  // project configured, and these userIds are throwaway UUIDs with no
+  // matching row in public.profiles, so hitting the real Supabase branch
+  // would silently update 0 rows and read back nothing but defaults. Never
+  // touches real Supabase data either way.
+  const originalIsSupabaseConfigured = config.isSupabaseConfigured;
+  config.isSupabaseConfigured = false;
+  try {
+    const combos = [
+      { label: 'A. English -> English', bridgeLanguage: 'english', language: 'english', expectedMode: 'direct' },
+      { label: 'B. French -> French', bridgeLanguage: 'french', language: 'french', expectedMode: 'direct' },
+      { label: 'C. Spanish -> Spanish', bridgeLanguage: 'spanish', language: 'spanish', expectedMode: 'direct' },
+      { label: 'D. Spanish -> English', bridgeLanguage: 'spanish', language: 'english', expectedMode: 'bilingual' },
+      { label: 'E. English -> French', bridgeLanguage: 'english', language: 'french', expectedMode: 'bilingual' }
+    ];
+
+    for (const combo of combos) {
+      const userId = crypto.randomUUID();
+
+      // Selección + guardado (equivalent to the client calling PUT /api/preferences).
+      const saved = await preferencesService.updatePreferences(userId, {
+        language: combo.language,
+        level: 'A1',
+        bridgeLanguage: combo.bridgeLanguage
+      });
+      assert.equal(saved.language, combo.language, `${combo.label}: save should return the saved target language`);
+      assert.equal(
+        saved.bridgeLanguage,
+        combo.bridgeLanguage,
+        `${combo.label}: save should return the saved bridge language`
+      );
+
+      // Persistencia tras recargar / restauración al iniciar sesión: a
+      // SEPARATE read (equivalent to GET /api/preferences on next load),
+      // not just the object updatePreferences happened to return, so a bug
+      // that "worked" only in-memory but didn't actually persist would fail
+      // this. The equal pair must come back exactly as saved - no silent
+      // fallback to spanish/english defaults.
+      const restored = await preferencesService.getPreferences(userId);
+      assert.equal(restored.language, combo.language, `${combo.label}: restored target language must match`);
+      assert.equal(
+        restored.bridgeLanguage,
+        combo.bridgeLanguage,
+        `${combo.label}: restored bridge language must match (equal pairs must not be replaced by defaults)`
+      );
+
+      // learningMode recalculado desde los dos campos restaurados - nunca
+      // desde un valor separado que pudiera desincronizarse.
+      assert.equal(
+        LanguagePair.getLearningMode(restored.bridgeLanguage, restored.language),
+        combo.expectedMode,
+        `${combo.label}: expected learningMode "${combo.expectedMode}"`
+      );
+      assert.equal(
+        LanguagePair.isLanguagePairSupported(restored.bridgeLanguage, restored.language),
+        true,
+        `${combo.label}: pair must be accepted as supported`
+      );
+    }
+  } finally {
+    config.isSupabaseConfigured = originalIsSupabaseConfigured;
+  }
+});
+
+test('preferencesService: an unsupported language is still rejected (admitted-language validation preserved)', async () => {
+  const preferencesService = require('./lib/preferencesService');
+  const crypto = require('crypto');
+  const userId = crypto.randomUUID();
+
+  await assert.rejects(
+    () => preferencesService.updatePreferences(userId, { language: 'klingon', level: 'A1', bridgeLanguage: 'spanish' }),
+    /Idioma no válido/,
+    'an unrecognized target language must still be rejected'
+  );
+  await assert.rejects(
+    () =>
+      preferencesService.updatePreferences(userId, { language: 'english', level: 'A1', bridgeLanguage: 'klingon' }),
+    /Idioma puente no válido/,
+    'an unrecognized bridge language must still be rejected'
+  );
+});
+
+test('index.html + script.js: a discreet "Método directo"/"Modo bilingüe" badge exists and is driven by learningMode', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  assert.match(html, /id="pathPairModeBadge"/, 'expected a #pathPairModeBadge element next to the pair preview');
+
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const body = source.match(/function updatePathPairPreview\(\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(body, 'expected to find updatePathPairPreview() body');
+  assert.match(body, /pathPairModeBadge/);
+  assert.match(body, /learningPathState\.learningMode === 'direct'/);
+  assert.match(body, /LanguagePair\.t\(\s*\n?\s*isDirect \? 'directModeBadge' : 'bilingualModeBadge'/);
+
+  assert.equal(LanguagePair.t('directModeBadge', 'spanish'), 'Método directo');
+  assert.equal(LanguagePair.t('directModeBadge', 'english'), 'Direct method');
+  assert.equal(LanguagePair.t('directModeBadge', 'french'), 'Méthode directe');
+  assert.equal(LanguagePair.t('bilingualModeBadge', 'spanish'), 'Modo bilingüe');
+  assert.equal(LanguagePair.t('bilingualModeBadge', 'english'), 'Bilingual mode');
+  assert.equal(LanguagePair.t('bilingualModeBadge', 'french'), 'Mode bilingue');
+});
+
+test('index.html: the L1 and L2 selects both offer the same three languages - neither hides the other\'s current value', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const bridgeOptions = html.match(/<select id="pathBridgeSelect">([\s\S]*?)<\/select>/)?.[1];
+  const targetOptions = html.match(/<select id="pathLanguageSelect">([\s\S]*?)<\/select>/)?.[1];
+  assert.ok(bridgeOptions && targetOptions, 'expected both language-pair selects in index.html');
+
+  const valuesOf = (block) => [...block.matchAll(/<option value="(\w+)"/g)].map((m) => m[1]).sort();
+  assert.deepEqual(valuesOf(bridgeOptions), ['english', 'french', 'spanish']);
+  assert.deepEqual(valuesOf(targetOptions), ['english', 'french', 'spanish']);
+  // No disabled/hidden attribute on any option - nothing filters out the
+  // language already chosen in the other select.
+  assert.doesNotMatch(bridgeOptions, /disabled|hidden/);
+  assert.doesNotMatch(targetOptions, /disabled|hidden/);
+});
+
+test('LanguagePair.getLearningSupport(): direct mode never breaks or shows undefined/null for a word with no directSupport authored yet (spec §8 fallback)', () => {
+  const bareItem = { word: 'Umbrella', translation: 'Paraguas', example: 'Take an umbrella, it might rain.' };
+  const support = LanguagePair.getLearningSupport({
+    item: bareItem,
+    bridgeLanguage: 'english',
+    targetLanguage: 'english',
+    learningMode: 'direct'
+  });
+  assert.equal(support.mode, 'direct');
+  assert.equal(support.translation, undefined, 'direct mode must never surface a translation, even as a fallback');
+  // Every field is a safe, renderable value (empty string/array/null) -
+  // never literally undefined/null in a way a template would print as text.
+  assert.equal(typeof support.definition, 'string');
+  assert.equal(typeof support.simpleDefinition, 'string');
+  assert.ok(Array.isArray(support.synonyms));
+  assert.ok(Array.isArray(support.opposites));
+  assert.equal(typeof support.usageNote, 'string');
+  assert.ok(Array.isArray(support.examples));
+  assert.equal(support.image, null);
+  assert.equal(typeof support.imageAlt, 'string');
+});
+
+test('script.js: renderVocabCardHtml never prints "undefined"/"null" and skips the image block when item.image is empty', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const body = source.match(/function renderVocabCardHtml\(item, \{ canSpeak, isFrench \}\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(body, 'expected to find renderVocabCardHtml() body');
+  // Every direct-mode field is gated behind a truthy check before being
+  // interpolated - none of them get printed unconditionally.
+  assert.match(body, /\$\{item\.image \?/);
+  assert.match(body, /\$\{item\.definition \?/);
+  assert.match(body, /synonymsOppositesParts\.length \?/);
+  assert.match(body, /\$\{item\.usageNote \?/);
+});
+
+test('script.js: no duplicated bridge===target comparison outside the central getLearningMode()/syncLearningMode() - getLanguagePairLabel reuses getLearningMode', () => {
+  const langPairSource = fs.readFileSync(path.join(__dirname, 'src', 'js', 'language-pair.js'), 'utf8');
+  const labelBody = langPairSource.match(/function getLanguagePairLabel\(bridgeLanguage, targetLanguage, interfaceLanguage\) \{([\s\S]*?)\n  \}/)?.[1];
+  assert.ok(labelBody, 'expected to find getLanguagePairLabel() body');
+  assert.match(labelBody, /getLearningMode\(bridgeLanguage, targetLanguage\) === 'direct'/);
+  assert.doesNotMatch(
+    labelBody,
+    /if \(bridgeLanguage === targetLanguage\)/,
+    'getLanguagePairLabel should delegate to getLearningMode(), not re-compare bridge/target itself'
+  );
+});

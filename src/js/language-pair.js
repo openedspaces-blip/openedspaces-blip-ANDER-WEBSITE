@@ -235,7 +235,9 @@
       translatorTranslating: 'Traduciendo…',
       skillNotAvailableLevel: 'No disponible en este nivel',
       vocabSynonyms: 'Sinónimos',
-      vocabOpposites: 'Antónimos'
+      vocabOpposites: 'Antónimos',
+      directModeBadge: 'Método directo',
+      bilingualModeBadge: 'Modo bilingüe'
     },
     english: {
       skipLink: 'Skip to content',
@@ -314,7 +316,9 @@
       translatorTranslating: 'Translating…',
       skillNotAvailableLevel: 'Not available at this level',
       vocabSynonyms: 'Synonyms',
-      vocabOpposites: 'Opposites'
+      vocabOpposites: 'Opposites',
+      directModeBadge: 'Direct method',
+      bilingualModeBadge: 'Bilingual mode'
     },
     french: {
       skipLink: 'Aller au contenu',
@@ -394,7 +398,9 @@
       translatorTranslating: 'Traduction en cours…',
       skillNotAvailableLevel: 'Non disponible à ce niveau',
       vocabSynonyms: 'Synonymes',
-      vocabOpposites: 'Contraires'
+      vocabOpposites: 'Contraires',
+      directModeBadge: 'Méthode directe',
+      bilingualModeBadge: 'Mode bilingue'
     }
   };
 
@@ -515,7 +521,10 @@
     // Same-language pair (direct/immersion mode, spec §3/§8) - "support in
     // X" makes no sense when bridge and target are the same language, so
     // this uses the immersion-flavored sentence instead of PAIR_SENTENCE.
-    if (bridgeLanguage === targetLanguage) {
+    // Reuses getLearningMode() rather than re-comparing bridge/target here,
+    // so this stays the one place that decision is made (integration-audit
+    // requirement: don't duplicate the bridge===target comparison).
+    if (getLearningMode(bridgeLanguage, targetLanguage) === 'direct') {
       const directSentence = PAIR_SENTENCE_DIRECT[uiLanguage] || PAIR_SENTENCE_DIRECT.spanish;
       return directSentence(targetName);
     }

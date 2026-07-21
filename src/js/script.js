@@ -399,10 +399,25 @@ function syncLearningMode() {
 function updatePathPairPreview() {
   refreshLanguagePairChrome();
   const preview = document.getElementById('pathPairPreview');
-  if (!preview) return;
-  preview.textContent = LanguagePair
-    ? LanguagePair.getLanguagePairLabel(learningPathState.bridgeLanguage, learningPathState.language)
-    : `Aprenderás ${languageDisplayNames[learningPathState.language] || learningPathState.language} con apoyo en ${languageDisplayNames[learningPathState.bridgeLanguage] || learningPathState.bridgeLanguage}.`;
+  if (preview) {
+    preview.textContent = LanguagePair
+      ? LanguagePair.getLanguagePairLabel(learningPathState.bridgeLanguage, learningPathState.language)
+      : `Aprenderás ${languageDisplayNames[learningPathState.language] || learningPathState.language} con apoyo en ${languageDisplayNames[learningPathState.bridgeLanguage] || learningPathState.bridgeLanguage}.`;
+  }
+
+  // Discreet "Método directo"/"Modo bilingüe" badge (spec: L1=L2 integration
+  // phase, §6) - always kept in sync with the same learningMode
+  // syncLearningMode() maintains, in the current interface language.
+  const modeBadge = document.getElementById('pathPairModeBadge');
+  if (modeBadge && LanguagePair) {
+    const isDirect = learningPathState.learningMode === 'direct';
+    modeBadge.textContent = LanguagePair.t(
+      isDirect ? 'directModeBadge' : 'bilingualModeBadge',
+      learningPathState.bridgeLanguage
+    );
+    modeBadge.classList.toggle('is-direct-mode', isDirect);
+    modeBadge.classList.toggle('is-bilingual-mode', !isDirect);
+  }
 }
 
 // Accepts either a real language key (english/spanish/french/italian/german,
