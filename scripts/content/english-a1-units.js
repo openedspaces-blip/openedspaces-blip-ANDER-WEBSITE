@@ -84,24 +84,203 @@ const units = [
           { type: 'mcq', prompt: 'Choose the best word: Mr. Green has a big smile and a very ___ voice.', options: ['angry', 'friendly', 'sad', 'tired'], answer: 1 }
         ]
       }),
+      // Pilot unit for Listening's 5-tab reorganization (Escuchar / Diálogo /
+      // Dictado / Transcripción y pronunciación / Comprensión) - see
+      // scripts/content/spanish-a1-units.js's hola-mucho-gusto listening
+      // activity for the validated schema this mirrors (listeningType,
+      // phoneticSupport, dictation, listeningComprehension). Only this one
+      // unit carries the rich fields today; units 2-12 stay on the legacy
+      // shape until a later phase authors them too.
       listening: activity('listening', {
         title: 'Nice to Meet You',
         description: 'Listen to two students meeting for the first time.',
-        intro: 'Listen to Ana and Leo meeting on the first day of class. Focus on how they say hello and introduce themselves.',
+        listeningType: 'dialogue',
+        difficulty: 'A1',
+        durationSeconds: 45,
+        speakers: ['Ana', 'Leo'],
+        intro: 'Listen to Ana and Leo meeting on the first day of class. Focus on greetings, names and where they are from.',
         dialogue: [
-          { speaker: 'Ana', line: 'Hello! My name is Ana. What\'s your name?', translation: 'Hola, me llamo Ana. ¿Cómo te llamas?' },
-          { speaker: 'Leo', line: 'Hi, Ana! I\'m Leo. Nice to meet you.', translation: 'Hola, Ana. Soy Leo. Mucho gusto.' },
-          { speaker: 'Ana', line: 'Nice to meet you too. How are you?', translation: 'Igualmente. ¿Cómo estás?' },
+          { speaker: 'Ana', line: 'Good morning! My name is Ana. What\'s your name?', translation: '¡Buenos días! Me llamo Ana. ¿Cómo te llamas?' },
+          { speaker: 'Leo', line: 'Hi, Ana! I\'m Leo. Nice to meet you.', translation: '¡Hola, Ana! Soy Leo. Mucho gusto.' },
+          { speaker: 'Ana', line: 'Nice to meet you too, Leo. How are you today?', translation: 'Mucho gusto también, Leo. ¿Cómo estás hoy?' },
           { speaker: 'Leo', line: 'I\'m fine, thanks. And you?', translation: 'Estoy bien, gracias. ¿Y tú?' },
-          { speaker: 'Ana', line: 'Good morning! I mean... I\'m fine too!', translation: '¡Buenos días! Digo... ¡yo también estoy bien!' },
-          { speaker: 'Leo', line: 'See you later, Ana!', translation: '¡Hasta luego, Ana!' }
+          { speaker: 'Ana', line: 'I\'m great, thank you. Where are you from, Leo?', translation: 'Estoy muy bien, gracias. ¿De dónde eres, Leo?' },
+          { speaker: 'Leo', line: 'I\'m from Italy. And you? Where are you from?', translation: 'Soy de Italia. ¿Y tú? ¿De dónde eres?' },
+          { speaker: 'Ana', line: 'I\'m from the Dominican Republic.', translation: 'Soy de República Dominicana.' },
+          { speaker: 'Leo', line: 'Nice! Is this your first English class?', translation: '¡Qué bien! ¿Es tu primera clase de inglés?' },
+          { speaker: 'Ana', line: 'Yes, it is. It\'s my first day.', translation: 'Sí. Es mi primer día.' },
+          { speaker: 'Leo', line: 'Don\'t worry, Ana. See you in class!', translation: 'No te preocupes, Ana. ¡Nos vemos en clase!' },
+          { speaker: 'Ana', line: 'See you later, Leo! Goodbye!', translation: '¡Hasta luego, Leo! ¡Adiós!' }
         ],
-        phrases: ['What\'s your name?', 'Nice to meet you.', 'How are you?', 'See you later!'],
+        transcript:
+          'Good morning! My name is Ana. What\'s your name? Hi, Ana! I\'m Leo. Nice to meet you. Nice to meet you too, Leo. How are you today? I\'m fine, thanks. And you? I\'m great, thank you. Where are you from, Leo? I\'m from Italy. And you? Where are you from? I\'m from the Dominican Republic. Nice! Is this your first English class? Yes, it is. It\'s my first day. Don\'t worry, Ana. See you in class! See you later, Leo! Goodbye!',
+        phrases: ['Good morning!', 'What\'s your name?', 'Nice to meet you.', 'How are you?', 'Where are you from?', 'I\'m from...', 'See you later!'],
+        // Key vocabulary for this activity's own "Vocabulario" block -
+        // separate from the unit's dedicated `vocabulary` skill activity
+        // below. directSupport (spec §3/§9 direct-mode pilot) mirrors the
+        // shape already validated on that vocabulary activity's items.
+        vocabulary: [
+          {
+            word: 'Good morning',
+            translation: 'Buenos días',
+            example: 'Good morning! My name is Ana.',
+            directSupport: {
+              definition: 'A friendly greeting people use early in the day.',
+              simpleDefinition: 'Hello, but only in the morning.',
+              opposites: ['Good night'],
+              contextExamples: ['Good morning, everyone!', 'Good morning, Ana.']
+            }
+          },
+          {
+            word: 'Nice to meet you',
+            translation: 'Mucho gusto',
+            example: 'Nice to meet you, Leo.',
+            directSupport: {
+              definition: 'A polite phrase you say the first time you meet someone.',
+              simpleDefinition: 'Something nice you say when you meet a new person.',
+              contextExamples: ['Nice to meet you too!', 'Hi, I\'m Leo. Nice to meet you.']
+            }
+          },
+          {
+            word: 'from',
+            translation: 'de (procedencia)',
+            example: 'I\'m from Italy.',
+            directSupport: {
+              definition: 'Shows the country or city where a person is originally from.',
+              simpleDefinition: 'The place where you were born or live.',
+              contextExamples: ['I\'m from the Dominican Republic.', 'Where are you from?']
+            }
+          },
+          {
+            word: 'See you later',
+            translation: 'Hasta luego',
+            example: 'See you later, Ana!',
+            directSupport: {
+              definition: 'A friendly way to say goodbye to someone you will see again soon.',
+              simpleDefinition: 'A short goodbye for someone you will see again.',
+              opposites: ['Good morning'],
+              contextExamples: ['See you later, Leo!', 'See you in class!']
+            }
+          }
+        ],
+        // Not certified IPA - a pending-review pronunciation aid (see
+        // reviewStatus below). renderListeningTranscriptPanel labels this
+        // "Pronunciación aproximada" instead of presenting it as verified IPA.
+        phoneticSupport: {
+          enabled: true,
+          locale: 'en-US',
+          focus: 'La "h" de "Hello"/"How" sí se pronuncia en inglés (a diferencia del español); el sonido /ð/ de "the"/"this" no existe en español.',
+          fullIpa: null,
+          segments: [
+            { text: 'Good morning', ipa: '/ɡʊd ˈmɔːrnɪŋ/' },
+            { text: 'Nice to meet you', ipa: '/naɪs tə miːt juː/' },
+            { text: 'What\'s your name?', ipa: '/wʌts jʊr neɪm/' },
+            { text: 'Where are you from?', ipa: '/wɛr ɑːr juː frʌm/' }
+          ],
+          stressedWords: ['morning', 'meet', 'from'],
+          syllabification: [
+            { word: 'morning', syllables: 'mor-ning' },
+            { word: 'later', syllables: 'la-ter' }
+          ],
+          difficultSounds: ['/ð/ en "the"/"this"', '/h/ aspirada en "Hello"/"How"'],
+          reviewStatus: 'pending-review'
+        },
+        // 5 short dictation segments, each a literal line/fragment from the
+        // dialogue above: (1) one word, (2) short greeting, (3) short
+        // question, (4) affirmative sentence, (5) farewell - text is the
+        // authoring-time answer key only; scripts/build-english-a1-seed.js /
+        // scripts/migrate-english-a1-units.js keep it out of the public
+        // bundle and out of course_lessons.extra respectively (mirrors
+        // scripts/content/spanish-a1-units.js).
+        dictation: {
+          segments: [
+            { order: 0, text: 'Ana.' },
+            { order: 1, text: 'Good morning!' },
+            { order: 2, text: 'How are you?' },
+            { order: 3, text: 'I\'m from Italy.' },
+            { order: 4, text: 'See you later!' }
+          ]
+        },
         exercises: [
           { type: 'mcq', prompt: 'What does Leo say when he meets Ana?', options: ['Goodbye', 'Nice to meet you', 'What time is it?', 'I am hungry'], answer: 1 },
-          { type: 'mcq', prompt: 'How does Ana say goodbye at the end?', options: ['Good morning', 'Hello', 'See you later', 'Thank you'], answer: 2 },
-          { type: 'mcq', prompt: 'What does Leo answer to "How are you?"', options: ['I\'m Leo', 'I\'m fine, thanks', 'Nice to meet you', 'What\'s your name?'], answer: 1 }
-        ]
+          { type: 'mcq', prompt: 'How does Ana say goodbye at the end?', options: ['Good morning', 'Hello', 'See you later! Goodbye!', 'Thank you'], answer: 2 },
+          { type: 'mcq', prompt: 'What does Leo answer to "How are you today?"', options: ['I\'m Leo', 'I\'m fine, thanks. And you?', 'Nice to meet you', 'What\'s your name?'], answer: 1 }
+        ],
+        // Scored Comprensión test pilot (see lib/grammarTestSanitizer.js -
+        // same shape/sanitizer/grading as Grammar's extra.grammarTest, just
+        // under extra.listeningComprehension). One question per required
+        // category: name, origin, greeting, explicit information, farewell.
+        listeningComprehension: {
+          id: 'english-a1-hello-listening-comprehension',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'What is the girl\'s name in the dialogue?',
+              options: [
+                { id: 'o1', text: 'Ana' },
+                { id: 'o2', text: 'Leo' },
+                { id: 'o3', text: 'Sofia' },
+                { id: 'o4', text: 'Marco' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Ana says: "My name is Ana."'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'Where is Leo from?',
+              options: [
+                { id: 'o1', text: 'Spain' },
+                { id: 'o2', text: 'Italy' },
+                { id: 'o3', text: 'France' },
+                { id: 'o4', text: 'Dominican Republic' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Leo says: "I\'m from Italy."'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'What does Ana say at the beginning of the dialogue?',
+              options: [
+                { id: 'o1', text: 'Good morning!' },
+                { id: 'o2', text: 'Good night!' },
+                { id: 'o3', text: 'See you later!' },
+                { id: 'o4', text: 'How old are you?' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Ana opens the conversation with "Good morning!"'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'How does Leo answer "How are you today?"',
+              options: [
+                { id: 'o1', text: 'I\'m fine, thanks. And you?' },
+                { id: 'o2', text: 'I\'m from Italy.' },
+                { id: 'o3', text: 'Nice to meet you.' },
+                { id: 'o4', text: 'See you later.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Leo answers: "I\'m fine, thanks. And you?"'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'What does Ana say to end the conversation?',
+              options: [
+                { id: 'o1', text: 'Nice to meet you.' },
+                { id: 'o2', text: 'What\'s your name?' },
+                { id: 'o3', text: 'See you later, Leo! Goodbye!' },
+                { id: 'o4', text: 'Where are you from?' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Ana says goodbye with "See you later, Leo! Goodbye!"'
+            }
+          ]
+        }
       }),
       speaking: activity('speaking', {
         title: 'Say Hello',

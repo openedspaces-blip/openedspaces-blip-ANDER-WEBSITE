@@ -30,13 +30,22 @@ function shapeReading(reading) {
 // Extra pedagogical fields beyond what English A1 has always carried -
 // stored under content_json.extra (see
 // 202607220001_rich_listening_content.sql, course_lessons.extra jsonb).
-// Mirrors scripts/build-spanish-a1-seed.js#shapeExtra. grammarTest is the
-// answer-bearing question bank for a scored Grammar test (see
-// lib/grammarTestSanitizer.js) - it is never sent to the client as-is,
-// only through that sanitizer.
+// Mirrors scripts/build-spanish-a1-seed.js#shapeExtra exactly, now that the
+// Listening pilot unit (scripts/content/english-a1-units.js's "hello" unit)
+// carries the same rich fields Spanish A1 already does. grammarTest and
+// listeningComprehension are answer-bearing question banks (see
+// lib/grammarTestSanitizer.js) - never sent to the client as-is, only
+// through that sanitizer (see scripts/sync-worlds-from-seed.js).
 function shapeExtra(a) {
   const extra = {};
   if (a.grammarTest) extra.grammarTest = a.grammarTest;
+  if (a.listeningType) extra.listeningType = a.listeningType;
+  if (a.difficulty) extra.difficulty = a.difficulty;
+  if (a.durationSeconds) extra.durationSeconds = a.durationSeconds;
+  if (a.speakers) extra.speakers = a.speakers;
+  if (a.phoneticSupport) extra.phoneticSupport = a.phoneticSupport;
+  if (a.dictation) extra.dictationSegmentCount = (a.dictation.segments || []).length;
+  if (a.listeningComprehension) extra.listeningComprehension = a.listeningComprehension;
   return Object.keys(extra).length ? extra : null;
 }
 
@@ -68,6 +77,12 @@ function buildActivityRow(unit, skill) {
       vocabulary: a.vocabulary || [],
       dialogue: a.dialogue || [],
       reading: shapeReading(a.reading),
+      transcript: a.transcript || '',
+      // dictation.segments here carries `text` - authoring-time answer key
+      // only (mirrors scripts/build-spanish-a1-seed.js). Never reaches the
+      // browser: scripts/sync-worlds-from-seed.js#shapeBrowserLesson
+      // intentionally omits `dictation` from the public bundle.
+      dictation: a.dictation || null,
       exercises: a.exercises || [],
       extra: shapeExtra(a),
       xp_reward: a.xp

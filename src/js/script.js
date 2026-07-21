@@ -1,5 +1,3 @@
-const nativeLanguageSelect = document.getElementById('nativeLanguage');
-
 // L1/bridge/interface language and L2/target language helpers
 // (getInterfaceLabel/getSupportText/getTargetContent/getLanguagePairLabel) -
 // see src/js/language-pair.js for the full definitions. bridgeLanguage IS
@@ -8,9 +6,7 @@ const nativeLanguageSelect = document.getElementById('nativeLanguage');
 // and system messages appear in, not merely "a language the student already
 // knows". Persisted server-side as profiles.bridge_language, paired with
 // preferred_language/learningPathState.language (the target language being
-// learned). Full language names (english/spanish/...), same vocabulary as
-// learningPathState.language, unlike the older 2-letter-code #nativeLanguage
-// select which this stays in sync with for backward compatibility.
+// learned).
 //
 // Both live on learningPathState (learningPathState.bridgeLanguage /
 // .language) - there used to be separate currentBridgeLanguage/
@@ -32,21 +28,6 @@ let translatorUserAdjustedPair = false;
 // { hash, label } set by openTranslator() when it's opened from a lesson
 // shortcut - drives #translatorReturnLink ("‹ Volver a la lección").
 let translatorReturnContext = null;
-
-const bridgeCodeToName = {
-  es: 'spanish',
-  en: 'english',
-  fr: 'french',
-  it: 'italian',
-  de: 'german'
-};
-const bridgeNameToCode = {
-  spanish: 'es',
-  english: 'en',
-  french: 'fr',
-  italian: 'it',
-  german: 'de'
-};
 
 // Fallback values only, used for the very first paint before GET /api/plans
 // resolves below - lib/plansConfig.js on the server is the single source of
@@ -295,23 +276,17 @@ function renderAuthState() {
   }
 }
 
-nativeLanguageSelect?.addEventListener('change', (event) => {
-  setBridgeLanguage(bridgeCodeToName[event.target.value] || 'spanish');
-});
-
 // Single source of truth for the bridge (already-known) language - keeps
-// both selects (the learning-path #pathBridgeSelect and the older
-// #nativeLanguage one) in sync and persists the change. bridgeName ===
-// target is allowed (spec §3: direct/immersion learning mode, L1 === L2) -
-// only an actually-unsupported pair (see LanguagePair.isLanguagePairSupported)
-// is rejected. Rejects and reverts the visible selects if the pair is
-// invalid, instead of silently accepting an impossible combination.
+// the learning-path #pathBridgeSelect in sync and persists the change.
+// bridgeName === target is allowed (spec §3: direct/immersion learning mode,
+// L1 === L2) - only an actually-unsupported pair (see
+// LanguagePair.isLanguagePairSupported) is rejected. Rejects and reverts the
+// visible select if the pair is invalid, instead of silently accepting an
+// impossible combination.
 function setBridgeLanguage(bridgeName, options = {}) {
   const target = learningPathState.language;
   if (LanguagePair && !LanguagePair.isLanguagePairSupported(bridgeName, target)) {
     showHomeToast('Esta combinación estará disponible próximamente.');
-    if (nativeLanguageSelect)
-      nativeLanguageSelect.value = bridgeNameToCode[learningPathState.bridgeLanguage] || 'es';
     const staleBridgeSelect = document.getElementById('pathBridgeSelect');
     if (staleBridgeSelect) staleBridgeSelect.value = learningPathState.bridgeLanguage;
     return false;
@@ -320,7 +295,6 @@ function setBridgeLanguage(bridgeName, options = {}) {
   learningPathState.bridgeLanguage = bridgeName;
   syncLearningMode();
   translatorUserAdjustedPair = false;
-  if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[bridgeName] || 'es';
   const bridgeSelect = document.getElementById('pathBridgeSelect');
   if (bridgeSelect) bridgeSelect.value = bridgeName;
   applyInterfaceLanguage(bridgeName);
@@ -488,7 +462,6 @@ function swapLearningPathLanguages() {
   syncLearningMode();
   translatorUserAdjustedPair = false;
 
-  if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[swapped.bridge] || 'es';
   const bridgeSelect = document.getElementById('pathBridgeSelect');
   if (bridgeSelect) bridgeSelect.value = swapped.bridge;
   const pathLanguageSelect = document.getElementById('pathLanguageSelect');
@@ -899,12 +872,33 @@ function applyPreferencesToSelects(preferences) {
   const languageSelect = document.getElementById('pathLanguageSelect');
   const levelSelect = document.getElementById('pathLevelSelect');
   const bridgeSelect = document.getElementById('pathBridgeSelect');
+
+  preferences.bridgeLanguage = preferences.bridgeLanguage || 'spanish';
+
+  // A stored/shared pair can be unsupported (saved before a validation fix,
+  // or written directly through the API bypassing the client) - never apply
+  // it as-is, same rule every interactive change already enforces
+  // (setBridgeLanguage/setTargetLanguage/swapLearningPathLanguages below).
+  // Corrects `preferences` in place (not just local variables) because both
+  // call sites (afterAuthSuccess, bootstrapLearningPath) reuse this same
+  // object for their own loadLearningPath() call right after this one.
+  if (
+    LanguagePair &&
+    !LanguagePair.isLanguagePairSupported(preferences.bridgeLanguage, preferences.language)
+  ) {
+    const resolved = LanguagePair.normalizeLanguagePair(
+      preferences.bridgeLanguage,
+      preferences.language
+    );
+    preferences.bridgeLanguage = resolved.bridge;
+    preferences.language = resolved.target;
+    showHomeToast('Esta combinación estará disponible próximamente.');
+  }
+
   if (languageSelect) languageSelect.value = preferences.language;
   if (levelSelect) levelSelect.value = preferences.level;
-  if (bridgeSelect) bridgeSelect.value = preferences.bridgeLanguage || 'spanish';
-  learningPathState.bridgeLanguage = preferences.bridgeLanguage || 'spanish';
-  if (nativeLanguageSelect)
-    nativeLanguageSelect.value = bridgeNameToCode[learningPathState.bridgeLanguage] || 'es';
+  if (bridgeSelect) bridgeSelect.value = preferences.bridgeLanguage;
+  learningPathState.bridgeLanguage = preferences.bridgeLanguage;
   applyInterfaceLanguage(learningPathState.bridgeLanguage);
   updatePathPairPreview();
 }
@@ -7946,44 +7940,44 @@ function renderAiListeningQuestions(lesson, runtime) {
 
 function renderListeningTranscriptControls(content, lesson, runtime) {
   const controlsEl = content.querySelector('.listening-transcript-controls');
-  const textEl = content.querySelector('.listening-transcript-text');
-  if (!controlsEl || !textEl) return;
+  const bodyEl = content.querySelector('.listening-transcript-body');
+  if (!controlsEl || !bodyEl) return;
   const allAttempted = getListeningAllAttempted(lesson, runtime);
   const gate = getTranscriptGateState(lesson.level, runtime, allAttempted);
 
   if (gate === 'locked-until-review') {
     controlsEl.innerHTML = `
-      <button type="button" class="secondary-btn listening-transcript-toggle" disabled>Ver transcripción</button>
+      <button type="button" class="secondary-btn listening-transcript-toggle" disabled>Ver transcripción y pronunciación</button>
       <p class="listening-transcript-note">Disponible como repaso después de responder todas las preguntas.</p>
     `;
-    textEl.hidden = true;
+    bodyEl.hidden = true;
     return;
   }
 
   if (gate === 'soft-gate') {
     controlsEl.innerHTML = `
-      <button type="button" class="secondary-btn listening-transcript-toggle" disabled>Ver transcripción</button>
+      <button type="button" class="secondary-btn listening-transcript-toggle" disabled>Ver transcripción y pronunciación</button>
       <p class="listening-transcript-note">Te recomendamos escuchar el audio primero.
         <button type="button" class="secondary-btn listening-transcript-override-btn">Ver de todas formas</button>
       </p>
     `;
-    textEl.hidden = true;
+    bodyEl.hidden = true;
     controlsEl
       .querySelector('.listening-transcript-override-btn')
       ?.addEventListener('click', () => {
         runtime.transcriptSoftGateOverride = true;
         runtime.transcriptRevealed = true;
-        textEl.hidden = false;
+        bodyEl.hidden = false;
         renderListeningTranscriptControls(content, lesson, runtime);
       });
     return;
   }
 
-  controlsEl.innerHTML = `<button type="button" class="secondary-btn listening-transcript-toggle">${runtime.transcriptRevealed ? 'Ocultar transcripción' : 'Ver transcripción'}</button>`;
-  textEl.hidden = !runtime.transcriptRevealed;
+  controlsEl.innerHTML = `<button type="button" class="secondary-btn listening-transcript-toggle">${runtime.transcriptRevealed ? 'Ocultar transcripción y pronunciación' : 'Ver transcripción y pronunciación'}</button>`;
+  bodyEl.hidden = !runtime.transcriptRevealed;
   controlsEl.querySelector('.listening-transcript-toggle')?.addEventListener('click', () => {
     runtime.transcriptRevealed = !runtime.transcriptRevealed;
-    textEl.hidden = !runtime.transcriptRevealed;
+    bodyEl.hidden = !runtime.transcriptRevealed;
     renderListeningTranscriptControls(content, lesson, runtime);
   });
 }
@@ -8021,19 +8015,181 @@ function buildListeningPlayerMarkup({ sourceLabel, sourceIsAi, title }) {
 
 // Transcript is its own tab (see listeningModeList/wireListeningModePanel)
 // rather than embedded in the player markup, so it can be shown next to
-// Diálogos/Dictado/Transcripción fonética/Comprensión instead of always
-// taking up space under the audio controls. renderListeningTranscriptControls
-// re-queries these two elements from `content` (not scoped to this panel),
-// so it works the same whether they're inline or in a separate tab panel -
-// only requirement is they exist in the DOM when that function runs, which
-// wireListeningModePanel guarantees by rendering this panel first.
+// Diálogo/Dictado/Comprensión instead of always taking up space under the
+// audio controls. renderListeningTranscriptControls re-queries these two
+// elements from `content` (not scoped to this panel), so it works the same
+// whether they're inline or in a separate tab panel - only requirement is
+// they exist in the DOM when that function runs, which wireListeningModePanel
+// guarantees by rendering this panel first.
+//
+// "Transcripción" and "Transcripción fonética" used to be two separate tabs;
+// they're now one ("Transcripción y pronunciación" - see
+// listeningExtraModeList) so pronunciation support sits right under the line
+// it belongs to instead of in a disconnected tab. .listening-transcript-body
+// is filled by renderListeningTranscriptBodyHtml below, not plain text.
 function renderListeningTranscriptPanel() {
   return `
     <div class="listening-transcript">
       <div class="listening-transcript-controls"></div>
-      <div class="listening-transcript-text" hidden></div>
+      <div class="listening-transcript-body" hidden></div>
     </div>
   `;
+}
+
+// One entry per dialogue turn when the lesson has a `dialogue` array
+// (today: lessons with extra.listeningType === 'dialogue', e.g. the
+// English A1 "Hello!" pilot unit); otherwise falls back to sentence-split
+// plain text (reusing Reading's splitReadingSentences) with no per-line
+// speaker/translation, since a flat transcript blob carries neither.
+function listeningTranscriptLines(lesson, runtime) {
+  if (lesson.dialogue?.length) {
+    return lesson.dialogue.map((item) => ({
+      speaker: item.speaker || '',
+      text: item.line || '',
+      translation: item.translation || ''
+    }));
+  }
+  const text = runtime.transcript || lesson.transcript || '';
+  return splitReadingSentences(text).map((sentence) => ({
+    speaker: '',
+    text: sentence,
+    translation: ''
+  }));
+}
+
+// Matches pre-authored phoneticSupport.segments to the line they belong to
+// by substring, so pronunciation shows up right under its line - never
+// generates/guesses IPA that isn't already in the lesson's own data.
+function findPhoneticSegmentsForLine(phoneticSupport, lineText) {
+  if (!phoneticSupport?.segments?.length || !lineText) return [];
+  const lower = lineText.toLowerCase();
+  return phoneticSupport.segments.filter(
+    (seg) => seg.text && lower.includes(String(seg.text).toLowerCase())
+  );
+}
+
+// Direct mode (L1 === L2, spec §3/§9) never shows a translation - instead,
+// when the lesson's own `vocabulary` carries directSupport.simpleDefinition
+// (English-only glosses, same shape normalizeVocabularyItem's directSupport
+// already uses), a compact glossary substitutes for the hidden L1 line.
+function renderListeningDirectGlossaryHtml(lesson) {
+  const items = (lesson.vocabulary || []).filter((item) => item.directSupport?.simpleDefinition);
+  if (!items.length) return '';
+  return `
+    <div class="listening-direct-glossary">
+      <strong>Key words</strong>
+      <ul>
+        ${items
+          .map(
+            (item) =>
+              `<li><strong>${escapeHtml(item.word)}</strong>: ${escapeHtml(item.directSupport.simpleDefinition)}</li>`
+          )
+          .join('')}
+      </ul>
+    </div>
+  `;
+}
+
+function renderListeningTranscriptBodyHtml(lesson, runtime) {
+  const lines = listeningTranscriptLines(lesson, runtime);
+  if (!lines.length) {
+    return '<p class="skill-graph-empty">Todavía no hay transcripción disponible para esta lección.</p>';
+  }
+  const isDirectMode = learningPathState.learningMode === 'direct';
+  const phoneticSupport = lesson.extra?.phoneticSupport;
+  // phoneticSupport.reviewStatus is set by content authors, never inferred -
+  // anything other than an explicit 'verified' is labeled as an approximate
+  // aid, never presented as certified IPA (spec: "no inventes IPA").
+  const isApproxPronunciation = Boolean(phoneticSupport) && phoneticSupport.reviewStatus !== 'verified';
+
+  const linesHtml = lines
+    .map((line, index) => {
+      const segments = findPhoneticSegmentsForLine(phoneticSupport, line.text);
+      const pronunciationHtml = segments.length
+        ? `<p class="listening-transcript-pron" data-line-index="${index}" hidden>${segments
+            .map((s) => `<span class="phonetic-ipa">${escapeHtml(s.ipa || '')}</span>`)
+            .join(' · ')}${isApproxPronunciation ? ' <span class="listening-pron-approx-tag">Pronunciación aproximada</span>' : ''}</p>`
+        : '';
+      const l1Html =
+        !isDirectMode && line.translation
+          ? `<p class="listening-transcript-l1" data-line-index="${index}" hidden>${escapeHtml(line.translation)}</p>`
+          : '';
+      return `
+        <div class="listening-transcript-line">
+          <p class="listening-transcript-en">${line.speaker ? `<span class="listening-transcript-speaker">${escapeHtml(line.speaker)}</span> ` : ''}${escapeHtml(line.text)}</p>
+          ${l1Html}
+          ${pronunciationHtml}
+        </div>
+      `;
+    })
+    .join('');
+
+  const hasAnyL1 = !isDirectMode && lines.some((line) => line.translation);
+  const hasAnyPron =
+    lines.some((line) => findPhoneticSegmentsForLine(phoneticSupport, line.text).length) ||
+    Boolean(phoneticSupport);
+  const directGlossaryHtml = isDirectMode ? renderListeningDirectGlossaryHtml(lesson) : '';
+  // Lesson-wide pronunciation guidance (focus note, stressed words,
+  // syllabification, difficult sounds) - previously its own "Transcripción
+  // fonética" tab, now folded into the bottom of this merged tab, shown
+  // together with the per-line IPA behind the same pronunciation toggle.
+  const guideHtml = phoneticSupport ? renderListeningPhoneticGuideHtml(phoneticSupport) : '';
+
+  return `
+    <div class="listening-transcript-lines">${linesHtml}</div>
+    <div class="listening-transcript-toggle-row">
+      ${hasAnyL1 ? '<button type="button" class="secondary-btn listening-l1-toggle" aria-pressed="false">Mostrar apoyo en español</button>' : ''}
+      ${hasAnyPron ? '<button type="button" class="secondary-btn listening-pron-toggle" aria-pressed="false">Mostrar pronunciación</button>' : ''}
+    </div>
+    ${directGlossaryHtml}
+    ${guideHtml}
+  `;
+}
+
+// The lesson-wide portion of extra.phoneticSupport (as opposed to the
+// per-line segments matched in renderListeningTranscriptBodyHtml above) -
+// hidden/shown by the same "Mostrar/Ocultar pronunciación" toggle.
+function renderListeningPhoneticGuideHtml(ps) {
+  const isApprox = ps.reviewStatus !== 'verified';
+  const syllabHtml = (ps.syllabification || [])
+    .map((s) => `<li>${escapeHtml(s.word)}: <em>${escapeHtml(s.syllables)}</em></li>`)
+    .join('');
+  return `
+    <div class="listening-phonetic-guide" hidden>
+      ${isApprox ? '<p class="listening-pron-approx-tag">Pronunciación aproximada, sujeta a revisión.</p>' : ''}
+      ${ps.focus ? `<p class="listening-phonetic-focus">${escapeHtml(ps.focus)}</p>` : ''}
+      ${(ps.stressedWords || []).length ? `<p><strong>Palabras con acento clave:</strong> ${(ps.stressedWords || []).map(escapeHtml).join(', ')}</p>` : ''}
+      ${syllabHtml ? `<ul class="listening-phonetic-syllables">${syllabHtml}</ul>` : ''}
+      ${(ps.difficultSounds || []).length ? `<p><strong>Sonidos a practicar:</strong> ${(ps.difficultSounds || []).map(escapeHtml).join(', ')}</p>` : ''}
+    </div>
+  `;
+}
+
+// Global show/hide for every line's L1/pronunciation line at once (rather
+// than per-line buttons, which listening-dialogue-translate-btn already
+// covers in the separate Diálogo tab) - both toggles are independent and
+// "ocultable" per spec.
+function wireListeningTranscriptToggles(panel) {
+  const l1Toggle = panel.querySelector('.listening-l1-toggle');
+  l1Toggle?.addEventListener('click', () => {
+    const next = l1Toggle.getAttribute('aria-pressed') !== 'true';
+    l1Toggle.setAttribute('aria-pressed', String(next));
+    l1Toggle.textContent = next ? 'Ocultar apoyo en español' : 'Mostrar apoyo en español';
+    panel.querySelectorAll('.listening-transcript-l1').forEach((el) => {
+      el.hidden = !next;
+    });
+  });
+  const pronToggle = panel.querySelector('.listening-pron-toggle');
+  pronToggle?.addEventListener('click', () => {
+    const next = pronToggle.getAttribute('aria-pressed') !== 'true';
+    pronToggle.setAttribute('aria-pressed', String(next));
+    pronToggle.textContent = next ? 'Ocultar pronunciación' : 'Mostrar pronunciación';
+    panel.querySelectorAll('.listening-transcript-pron').forEach((el) => {
+      el.hidden = !next;
+    });
+    const guideEl = panel.querySelector('.listening-phonetic-guide');
+    if (guideEl) guideEl.hidden = !next;
+  });
 }
 
 function wireListeningPlayerControls(content, lesson, runtime, meta) {
@@ -8050,15 +8206,14 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
   const durationEl = content.querySelector('.listening-time-duration');
   const rangeEl = content.querySelector('.listening-progress-range');
   const volumeEl = content.querySelector('.listening-volume-range');
-  const textEl = content.querySelector('.listening-transcript-text');
   if (!audioEl || !playerEl) return;
 
-  // Stashed on runtime (not just set on textEl directly) because the
-  // transcript is now its own tab - textEl may not exist in the DOM yet if
-  // that tab isn't the active one, so wireListeningModePanel re-reads
-  // runtime.transcript when the student switches to it.
+  // Stashed on runtime, not written straight into the DOM here, because the
+  // transcript is now its own tab (merged with pronunciation - see
+  // renderListeningTranscriptBodyHtml) - its container may not exist in the
+  // DOM yet if that tab isn't the active one, so wireListeningModePanel
+  // re-reads runtime.transcript when the student switches to it.
   runtime.transcript = meta.transcript || '';
-  if (textEl) textEl.textContent = runtime.transcript;
   renderListeningTranscriptControls(content, lesson, runtime);
 
   const setState = (state, statusText) => {
@@ -8326,15 +8481,37 @@ function computeListeningTutorQuestionContext(lesson) {
 // below the always-visible player; Diálogo/Dictado/Transcripción fonética
 // join it only for lessons that actually have that content (today: the
 // Spanish A1 catalog).
+// "Transcripción" and "Transcripción fonética" are a single tab
+// ("Transcripción y pronunciación") - see renderListeningTranscriptBodyHtml,
+// which shows pronunciation support inline under each line instead of in a
+// disconnected tab. Dictado and Comprensión stay separate on purpose: one is
+// a write-what-you-hear exercise, the other is a scored comprehension check.
 function listeningExtraModeList(lesson) {
   const modes = [];
   if (lesson.extra?.listeningType === 'dialogue' && lesson.dialogue?.length)
     modes.push({ id: 'dialogue', label: 'Diálogos' });
   if (lesson.dictation?.segments?.length) modes.push({ id: 'dictation', label: 'Dictado' });
-  modes.push({ id: 'transcript', label: 'Transcripción' });
-  if (lesson.extra?.phoneticSupport) modes.push({ id: 'phonetic', label: 'Transcripción fonética' });
+  modes.push({ id: 'transcript', label: 'Transcripción y pronunciación' });
   modes.push({ id: 'comprehension', label: 'Comprensión' });
   return modes;
+}
+
+// True when a lesson has at least one of the rich Diálogo/Dictado/
+// Transcripción-y-pronunciación/Comprensión tabs worth showing, independent
+// of whether official/AI audio exists yet. Lets renderListeningAiOffer/
+// renderListeningUnavailable below show those tabs under the honest
+// "no audio yet" status card instead of hiding the whole unit behind an
+// audio file that hasn't been published - never fabricates a player, never
+// auto-calls a TTS provider, just stops blocking read/write content that
+// doesn't itself need audio to work (dictation grading, comprehension
+// questions, the dialogue script, the transcript).
+function listeningHasRichExtras(lesson) {
+  return Boolean(
+    (lesson.extra?.listeningType === 'dialogue' && lesson.dialogue?.length) ||
+      lesson.dictation?.segments?.length ||
+      lesson.extra?.phoneticSupport ||
+      lesson.extra?.listeningComprehension?.questions?.length
+  );
 }
 
 function renderListeningExtraModesHtml(lesson, runtime) {
@@ -8389,27 +8566,6 @@ function renderListeningDictationPanel(lesson, runtime) {
   `;
 }
 
-function renderListeningPhoneticPanel(lesson) {
-  const ps = lesson.extra?.phoneticSupport;
-  if (!ps) return '<p class="skill-graph-empty">No hay transcripción fonética para esta lección.</p>';
-  const segmentsHtml = (ps.segments || [])
-    .map((s) => `<li><strong>${escapeHtml(s.text)}</strong> <span class="phonetic-ipa">${escapeHtml(s.ipa || '')}</span></li>`)
-    .join('');
-  const syllabHtml = (ps.syllabification || [])
-    .map((s) => `<li>${escapeHtml(s.word)}: <em>${escapeHtml(s.syllables)}</em></li>`)
-    .join('');
-  return `
-    <div class="listening-phonetic">
-      <p class="listening-phonetic-focus">${escapeHtml(ps.focus || '')}</p>
-      ${segmentsHtml ? `<ul class="listening-phonetic-segments">${segmentsHtml}</ul>` : ''}
-      ${(ps.stressedWords || []).length ? `<p><strong>Palabras con acento clave:</strong> ${(ps.stressedWords || []).map(escapeHtml).join(', ')}</p>` : ''}
-      ${syllabHtml ? `<ul class="listening-phonetic-syllables">${syllabHtml}</ul>` : ''}
-      ${(ps.difficultSounds || []).length ? `<p><strong>Sonidos a practicar:</strong> ${(ps.difficultSounds || []).map(escapeHtml).join(', ')}</p>` : ''}
-      <p class="listening-phonetic-note">Contenido pedagógico de apoyo, sujeto a revisión.</p>
-    </div>
-  `;
-}
-
 function renderListeningDialoguePanel(lesson, runtime) {
   const linesHtml = (lesson.dialogue || [])
     .map(
@@ -8457,15 +8613,15 @@ function wireListeningModePanel(content, lesson, runtime) {
   const panel = content.querySelector('.listening-mode-panel');
   if (!panel) return;
   if (runtime.extraMode === 'dictation') panel.innerHTML = renderListeningDictationPanel(lesson, runtime);
-  else if (runtime.extraMode === 'phonetic') panel.innerHTML = renderListeningPhoneticPanel(lesson);
   else if (runtime.extraMode === 'dialogue') panel.innerHTML = renderListeningDialoguePanel(lesson, runtime);
   else if (runtime.extraMode === 'transcript') panel.innerHTML = renderListeningTranscriptPanel();
   else if (runtime.extraMode === 'comprehension') panel.innerHTML = renderListeningComprehensionPanel(lesson);
 
   if (runtime.extraMode === 'transcript') {
-    const textEl = panel.querySelector('.listening-transcript-text');
-    if (textEl) textEl.textContent = runtime.transcript || '';
+    const bodyEl = panel.querySelector('.listening-transcript-body');
+    if (bodyEl) bodyEl.innerHTML = renderListeningTranscriptBodyHtml(lesson, runtime);
     renderListeningTranscriptControls(content, lesson, runtime);
+    wireListeningTranscriptToggles(panel);
   }
 
   panel.querySelectorAll('.dictation-segment-input').forEach((el) => {
@@ -8624,6 +8780,7 @@ function renderListeningAiPlayer(content, lesson, runtime, practice) {
 
 function renderListeningAiOffer(content, lesson, runtime) {
   const loggedIn = Boolean(authStatus.session?.access_token);
+  const hasExtras = listeningHasRichExtras(lesson);
   content.innerHTML = `
     <div class="listening-status-card listening-ai-offer">
       <div class="listening-status-icon" aria-hidden="true">🤖🎧</div>
@@ -8636,6 +8793,12 @@ function renderListeningAiOffer(content, lesson, runtime) {
       }
       <p class="listening-status-error" hidden></p>
     </div>
+    ${
+      hasExtras
+        ? '<p class="listening-status-detail listening-extras-note">Mientras tanto, ya puedes usar Diálogo, Dictado, Transcripción y pronunciación, y Comprensión con el guion de esta lección.</p>'
+        : ''
+    }
+    ${hasExtras ? renderListeningExtraModesHtml(lesson, runtime) : ''}
   `;
   content.querySelector('.listening-generate-btn')?.addEventListener('click', async (event) => {
     const btn = event.currentTarget;
@@ -8658,9 +8821,11 @@ function renderListeningAiOffer(content, lesson, runtime) {
       btn.textContent = 'Generar práctica de Listening con IA';
     }
   });
+  if (hasExtras) wireListeningExtraModes(content, lesson, runtime);
 }
 
-function renderListeningUnavailable(content, lesson, section) {
+function renderListeningUnavailable(content, lesson, section, runtime) {
+  const hasExtras = listeningHasRichExtras(lesson);
   content.innerHTML = `
     <div class="listening-status-card">
       <div class="listening-status-icon" aria-hidden="true">🎧</div>
@@ -8668,12 +8833,19 @@ function renderListeningUnavailable(content, lesson, section) {
       <p class="listening-status-detail">Aún no hay un audio oficial publicado y la práctica generada por IA no está configurada en este entorno. Intenta más tarde.</p>
       <button type="button" class="secondary-btn listening-retry-btn">Intenta más tarde: reintentar</button>
     </div>
+    ${
+      hasExtras
+        ? '<p class="listening-status-detail listening-extras-note">Mientras tanto, ya puedes usar Diálogo, Dictado, Transcripción y pronunciación, y Comprensión con el guion de esta lección.</p>'
+        : ''
+    }
+    ${hasExtras ? renderListeningExtraModesHtml(lesson, runtime) : ''}
   `;
   content.querySelector('.listening-retry-btn')?.addEventListener('click', () => {
     listeningAudioStatusCache.delete(listeningStatusCacheKey(lesson));
     content.dataset.listeningReady = 'false';
     renderListeningView(section, lesson);
   });
+  if (hasExtras) wireListeningExtraModes(content, lesson, runtime);
 }
 
 function renderListeningError(content, lesson, section, message) {
@@ -8705,7 +8877,7 @@ function renderListeningResolved(content, lesson, runtime, statusData, section) 
     renderListeningError(content, lesson, section, statusData.error);
     return;
   }
-  renderListeningUnavailable(content, lesson, section);
+  renderListeningUnavailable(content, lesson, section, runtime);
 }
 
 function renderListeningView(section, lesson) {

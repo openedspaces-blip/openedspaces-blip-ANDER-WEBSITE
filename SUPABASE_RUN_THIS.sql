@@ -1,5 +1,36 @@
 
 -- =========================================================
+-- ⚠ THIS FILE IS A PARTIAL, OUT-OF-DATE SNAPSHOT - READ BEFORE RUNNING ⚠
+-- =========================================================
+-- This hand-curated concatenation was last kept in sync through migration
+-- 202607190001_voice_premium.sql. Every migration added after that date is
+-- NOT included here, among them:
+--   - 202607120002_profile_preferences.sql (adds preferred_language/preferred_level)
+--   - 202607140001_bridge_language.sql (adds bridge_language + an original
+--     "must differ from preferred_language" CHECK constraint)
+--   - 202607200001_allow_same_language_direct_mode.sql (DROPS that
+--     constraint - this is what allows L1 = L2 / direct-immersion mode)
+--   - every migration in supabase/migrations/ dated 202607200001 or later
+-- Running ONLY this file against a fresh database will NOT create the
+-- bridge_language/preferred_language/username/role columns at all, and will
+-- NOT include direct/immersion-mode support, gamification triggers added
+-- after this snapshot, listening/grammar-attempt tables, usage counters, or
+-- subscription plans.
+--
+-- The one command that is always complete and correct, regardless of this
+-- file's staleness, is:
+--     npm run db:setup
+-- (scripts/setup-database.js runs this file first, then EVERY file in
+-- supabase/migrations/ sorted by filename - so the incremental migrations
+-- are applied either way, this snapshot's gaps notwithstanding.)
+--
+-- Do not treat this file as a standalone "run this and you're done" schema
+-- dump - it is not one. If you need a real from-scratch base schema, either
+-- run `npm run db:setup` or regenerate this file from
+-- supabase/migrations/*.sql in filename order.
+-- =========================================================
+
+-- =========================================================
 -- 202601010001_andergo_lessons.sql
 -- =========================================================
 -- ANDERGO Free English Lessons Schema

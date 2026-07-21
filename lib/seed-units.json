@@ -280,146 +280,6 @@
     "unit_overview": null
   },
   {
-    "slug": "hello",
-    "target_language": "english",
-    "level": "A1",
-    "title": "Hello!",
-    "title_es": "¡Hola!",
-    "description": "Greetings, introductions and the alphabet.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Presentarte, saludar y conocer a otras personas.",
-      "outcomes": [
-        "decir tu nombre",
-        "preguntar el nombre de otra persona",
-        "usar saludos formales e informales",
-        "deletrear información básica"
-      ],
-      "grammar": [
-        "verb to be",
-        "subject pronouns",
-        "basic questions"
-      ],
-      "vocabulary": [
-        "greetings",
-        "names",
-        "classroom expressions",
-        "numbers 0–20"
-      ],
-      "scenario": "Tu primer día en una clase de inglés."
-    }
-  },
-  {
-    "slug": "about-me",
-    "target_language": "english",
-    "level": "A1",
-    "title": "About Me",
-    "title_es": "Sobre mí",
-    "description": "Name, age, nationality and feelings.",
-    "order_index": 2,
-    "unit_overview": null
-  },
-  {
-    "slug": "family-and-friends",
-    "target_language": "english",
-    "level": "A1",
-    "title": "My Family and Friends",
-    "title_es": "Mi familia y amigos",
-    "description": "Family members, possessive 's, and describing people.",
-    "order_index": 3,
-    "unit_overview": null
-  },
-  {
-    "slug": "my-school",
-    "target_language": "english",
-    "level": "A1",
-    "title": "My School",
-    "title_es": "Mi escuela",
-    "description": "School objects, subjects and classroom language.",
-    "order_index": 4,
-    "unit_overview": null
-  },
-  {
-    "slug": "daily-routine",
-    "target_language": "english",
-    "level": "A1",
-    "title": "My Daily Routine",
-    "title_es": "Mi rutina diaria",
-    "description": "Daily activities and the present simple.",
-    "order_index": 5,
-    "unit_overview": null
-  },
-  {
-    "slug": "time-and-dates",
-    "target_language": "english",
-    "level": "A1",
-    "title": "Time and Dates",
-    "title_es": "La hora y las fechas",
-    "description": "Telling time, days, months and prepositions of time.",
-    "order_index": 6,
-    "unit_overview": null
-  },
-  {
-    "slug": "food-and-drinks",
-    "target_language": "english",
-    "level": "A1",
-    "title": "Food and Drinks",
-    "title_es": "Comidas y bebidas",
-    "description": "Food vocabulary, likes/dislikes, and countable/uncountable nouns.",
-    "order_index": 7,
-    "unit_overview": null
-  },
-  {
-    "slug": "my-home",
-    "target_language": "english",
-    "level": "A1",
-    "title": "My Home",
-    "title_es": "Mi hogar",
-    "description": "Rooms, furniture, and prepositions of place.",
-    "order_index": 8,
-    "unit_overview": null
-  },
-  {
-    "slug": "my-town",
-    "target_language": "english",
-    "level": "A1",
-    "title": "My Town",
-    "title_es": "Mi ciudad",
-    "description": "Places in town and giving directions.",
-    "order_index": 9,
-    "unit_overview": null
-  },
-  {
-    "slug": "free-time",
-    "target_language": "english",
-    "level": "A1",
-    "title": "Free Time",
-    "title_es": "Tiempo libre",
-    "description": "Hobbies, sports and adverbs of frequency.",
-    "order_index": 10,
-    "unit_overview": null
-  },
-  {
-    "slug": "clothes-and-shopping",
-    "target_language": "english",
-    "level": "A1",
-    "title": "Clothes and Shopping",
-    "title_es": "Ropa y compras",
-    "description": "Clothing items, colors and shopping dialogues.",
-    "order_index": 11,
-    "unit_overview": null
-  },
-  {
-    "slug": "weather-and-travel",
-    "target_language": "english",
-    "level": "A1",
-    "title": "Weather and Travel",
-    "title_es": "El clima y los viajes",
-    "description": "Weather expressions, seasons, and travel plans.",
-    "order_index": 12,
-    "unit_overview": null
-  },
-  {
     "slug": "everyday-life",
     "target_language": "english",
     "level": "A2",
@@ -693,5 +553,145 @@
       ],
       "scenario": "En Nochevieja, Sarah y Daniel repasan todo lo que han vivido y logrado juntos a lo largo del año."
     }
+  },
+  {
+    "slug": "hello",
+    "target_language": "english",
+    "level": "A1",
+    "title": "Hello!",
+    "title_es": "¡Hola!",
+    "description": "Greetings, introductions and the alphabet.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Presentarte, saludar y conocer a otras personas.",
+      "outcomes": [
+        "decir tu nombre",
+        "preguntar el nombre de otra persona",
+        "usar saludos formales e informales",
+        "deletrear información básica"
+      ],
+      "grammar": [
+        "verb to be",
+        "subject pronouns",
+        "basic questions"
+      ],
+      "vocabulary": [
+        "greetings",
+        "names",
+        "classroom expressions",
+        "numbers 0–20"
+      ],
+      "scenario": "Tu primer día en una clase de inglés."
+    }
+  },
+  {
+    "slug": "about-me",
+    "target_language": "english",
+    "level": "A1",
+    "title": "About Me",
+    "title_es": "Sobre mí",
+    "description": "Name, age, nationality and feelings.",
+    "order_index": 2,
+    "unit_overview": null
+  },
+  {
+    "slug": "family-and-friends",
+    "target_language": "english",
+    "level": "A1",
+    "title": "My Family and Friends",
+    "title_es": "Mi familia y amigos",
+    "description": "Family members, possessive 's, and describing people.",
+    "order_index": 3,
+    "unit_overview": null
+  },
+  {
+    "slug": "my-school",
+    "target_language": "english",
+    "level": "A1",
+    "title": "My School",
+    "title_es": "Mi escuela",
+    "description": "School objects, subjects and classroom language.",
+    "order_index": 4,
+    "unit_overview": null
+  },
+  {
+    "slug": "daily-routine",
+    "target_language": "english",
+    "level": "A1",
+    "title": "My Daily Routine",
+    "title_es": "Mi rutina diaria",
+    "description": "Daily activities and the present simple.",
+    "order_index": 5,
+    "unit_overview": null
+  },
+  {
+    "slug": "time-and-dates",
+    "target_language": "english",
+    "level": "A1",
+    "title": "Time and Dates",
+    "title_es": "La hora y las fechas",
+    "description": "Telling time, days, months and prepositions of time.",
+    "order_index": 6,
+    "unit_overview": null
+  },
+  {
+    "slug": "food-and-drinks",
+    "target_language": "english",
+    "level": "A1",
+    "title": "Food and Drinks",
+    "title_es": "Comidas y bebidas",
+    "description": "Food vocabulary, likes/dislikes, and countable/uncountable nouns.",
+    "order_index": 7,
+    "unit_overview": null
+  },
+  {
+    "slug": "my-home",
+    "target_language": "english",
+    "level": "A1",
+    "title": "My Home",
+    "title_es": "Mi hogar",
+    "description": "Rooms, furniture, and prepositions of place.",
+    "order_index": 8,
+    "unit_overview": null
+  },
+  {
+    "slug": "my-town",
+    "target_language": "english",
+    "level": "A1",
+    "title": "My Town",
+    "title_es": "Mi ciudad",
+    "description": "Places in town and giving directions.",
+    "order_index": 9,
+    "unit_overview": null
+  },
+  {
+    "slug": "free-time",
+    "target_language": "english",
+    "level": "A1",
+    "title": "Free Time",
+    "title_es": "Tiempo libre",
+    "description": "Hobbies, sports and adverbs of frequency.",
+    "order_index": 10,
+    "unit_overview": null
+  },
+  {
+    "slug": "clothes-and-shopping",
+    "target_language": "english",
+    "level": "A1",
+    "title": "Clothes and Shopping",
+    "title_es": "Ropa y compras",
+    "description": "Clothing items, colors and shopping dialogues.",
+    "order_index": 11,
+    "unit_overview": null
+  },
+  {
+    "slug": "weather-and-travel",
+    "target_language": "english",
+    "level": "A1",
+    "title": "Weather and Travel",
+    "title_es": "El clima y los viajes",
+    "description": "Weather expressions, seasons, and travel plans.",
+    "order_index": 12,
+    "unit_overview": null
   }
 ]

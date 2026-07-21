@@ -7506,7 +7506,7 @@ footer small {
   gap: 0.5rem;
 }
 
-.listening-transcript-text {
+.listening-transcript-body {
   margin-top: 0.75rem;
   background: var(--bg);
   border-radius: 12px;
@@ -7514,7 +7514,7 @@ footer small {
   line-height: 1.6;
 }
 
-.listening-transcript-text[hidden] {
+.listening-transcript-body[hidden] {
   display: none;
 }
 
@@ -7543,9 +7543,10 @@ footer small {
   color: var(--muted);
 }
 
-/* Rich Listening extra modes (Dictado / Transcripción fonética /
-   Diálogo-Role-play) - see renderListeningExtraModesHtml in src/js/script.js.
-   Only rendered for lessons that carry `extra`/`dictation` data. */
+/* Rich Listening extra modes (Diálogo / Dictado / Transcripción y
+   pronunciación / Comprensión) - see renderListeningExtraModesHtml in
+   src/js/script.js. Only rendered for lessons that carry `extra`/`dictation`
+   data (today: English A1's "hello" pilot unit and Spanish A1). */
 .listening-extra-modes {
   margin: 1.25rem 0;
 }
@@ -7554,6 +7555,21 @@ footer small {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+/* Small screens: one row that scrolls horizontally instead of wrapping to
+   several lines, so five tabs stay reachable without eating vertical space. */
+@media (max-width: 640px) {
+  .listening-mode-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.25rem;
+  }
+
+  .listening-mode-tab {
+    flex: 0 0 auto;
+  }
 }
 
 .listening-mode-tab {
@@ -7623,6 +7639,85 @@ footer small {
   font-size: 0.8rem;
   color: var(--muted);
   margin-top: 0.6rem;
+}
+
+/* Transcripción y pronunciación (merged tab) - one block per line, L1
+   support and pronunciation each independently toggle-able. */
+.listening-transcript-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.listening-transcript-line {
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.listening-transcript-line:last-child {
+  border-bottom: none;
+}
+
+.listening-transcript-en {
+  margin: 0;
+}
+
+.listening-transcript-speaker {
+  font-weight: 600;
+  margin-right: 0.35rem;
+}
+
+.listening-transcript-l1,
+.listening-transcript-pron {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.listening-transcript-l1[hidden],
+.listening-transcript-pron[hidden] {
+  display: none;
+}
+
+.listening-pron-approx-tag {
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.listening-transcript-toggle-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.listening-direct-glossary {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+}
+
+.listening-direct-glossary ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.listening-phonetic-guide {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.listening-phonetic-guide[hidden] {
+  display: none;
+}
+
+.listening-extras-note {
+  margin: -0.5rem auto 1.25rem;
+  max-width: 480px;
+  text-align: center;
+  font-size: 0.85rem;
 }
 
 .listening-dialogue-line {
