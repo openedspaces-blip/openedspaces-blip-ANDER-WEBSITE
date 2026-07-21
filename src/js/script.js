@@ -867,6 +867,44 @@ async function loadPreferences() {
   }
 }
 
+// LocalStorage mirror of the language pair (bridge/target/level) - Supabase
+// profiles.bridge_language/preferred_language/preferred_level remain the
+// source of truth once signed in (see savePreferences/loadPreferences below),
+// but a signed-out visitor has no account to save to at all: without this,
+// every L1/L2/level choice a guest made only ever lived in the in-memory
+// learningPathState and was lost on reload, a section change, or a fresh tab,
+// always reverting to the hardcoded spanish/english defaults. Reads/writes
+// merge with whatever is already stored rather than overwriting blindly,
+// since some callers (the level select's change handler) only ever pass
+// language+level, never bridgeLanguage - same "omitting a field leaves it
+// unchanged" contract savePreferences already has with the backend.
+const LANGUAGE_PAIR_STORAGE_KEY = 'andergo_language_pair';
+
+function getSavedLanguagePairLocally() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(LANGUAGE_PAIR_STORAGE_KEY) || 'null');
+    return parsed && typeof parsed === 'object' ? parsed : null;
+  } catch {
+    return null;
+  }
+}
+
+function saveLanguagePairLocally(language, level, bridgeLanguage) {
+  try {
+    const current = getSavedLanguagePairLocally() || {};
+    localStorage.setItem(
+      LANGUAGE_PAIR_STORAGE_KEY,
+      JSON.stringify({
+        language: language ?? current.language,
+        level: level ?? current.level,
+        bridgeLanguage: bridgeLanguage ?? current.bridgeLanguage
+      })
+    );
+  } catch {
+    /* private-mode/unavailable localStorage - guest preference just won't persist across reloads */
+  }
+}
+
 function applyPreferencesToSelects(preferences) {
   if (!preferences) return;
   const languageSelect = document.getElementById('pathLanguageSelect');
@@ -898,16 +936,26 @@ function applyPreferencesToSelects(preferences) {
   if (languageSelect) languageSelect.value = preferences.language;
   if (levelSelect) levelSelect.value = preferences.level;
   if (bridgeSelect) bridgeSelect.value = preferences.bridgeLanguage;
+  // Both fields are written straight to learningPathState here, not left for
+  // a caller's follow-up loadLearningPath() call to patch up - this is the
+  // one place restored preferences become learningPathState, so it has to be
+  // complete on its own instead of relying on call-order elsewhere.
   learningPathState.bridgeLanguage = preferences.bridgeLanguage;
+  learningPathState.language = preferences.language;
+  learningPathState.level = preferences.level;
+  syncLearningMode();
   applyInterfaceLanguage(learningPathState.bridgeLanguage);
   updatePathPairPreview();
 }
 
 // Fire-and-forget: the dropdowns already reflect the choice locally, so a
 // failed save shouldn't interrupt the student's navigation. bridgeLanguage
-// is optional - omitting it (undefined) drops the key from the JSON body,
-// so the backend leaves that field unchanged.
+// is optional - omitting it (undefined) drops it from both the localStorage
+// mirror (saveLanguagePairLocally merges instead of overwriting) and the PUT
+// body (the backend leaves that field unchanged). The localStorage write
+// always runs, signed in or not; Supabase is only reachable once signed in.
 function savePreferences(language, level, bridgeLanguage) {
+  saveLanguagePairLocally(language, level, bridgeLanguage);
   if (!authStatus.session?.access_token) return;
   fetch(`${backendBaseUrl}/api/preferences`, {
     method: 'PUT',
@@ -8778,28 +8826,58 @@ function renderListeningAiPlayer(content, lesson, runtime, practice) {
   updateAiCompleteNote(content, lesson, runtime);
 }
 
+// Compact, non-blocking notice used instead of the full-size
+// .listening-status-card whenever the lesson already has real content to
+// show (Diálogo/Dictado/Transcripción y pronunciación/Comprensión) - see
+// listeningHasRichExtras. The big centered card is accurate and fine when
+// there's truly nothing else on the page (hasExtras === false); once a
+// lesson has real work in it, a giant "no disponible" card misrepresents
+// how much of the lesson is actually ready, so this shrinks it to a single
+// inline banner that reads as "the recording is still coming" rather than
+// "this lesson isn't ready" - the recorded audio is the only missing piece.
+function renderListeningAudioPendingBannerHtml({ icon, title, detail, actionsHtml }) {
+  return `
+    <div class="listening-audio-pending-banner">
+      <span class="listening-audio-pending-icon" aria-hidden="true">${icon}</span>
+      <div class="listening-audio-pending-body">
+        <p class="listening-audio-pending-title">${title}</p>
+        <p class="listening-audio-pending-detail">${detail}</p>
+        ${actionsHtml || ''}
+        <p class="listening-status-error" hidden></p>
+      </div>
+    </div>
+  `;
+}
+
 function renderListeningAiOffer(content, lesson, runtime) {
   const loggedIn = Boolean(authStatus.session?.access_token);
   const hasExtras = listeningHasRichExtras(lesson);
-  content.innerHTML = `
-    <div class="listening-status-card listening-ai-offer">
-      <div class="listening-status-icon" aria-hidden="true">🤖🎧</div>
-      <p class="listening-status-title">Todavía no hay un audio oficial para esta lección.</p>
-      <p class="listening-status-detail">Tutor IA puede preparar una práctica de Listening generada por IA: un guion adaptado a tu nivel, con vocabulario y preguntas de comprensión. Nunca se presenta como una grabación humana.</p>
-      ${
-        loggedIn
-          ? '<button type="button" class="primary-btn listening-generate-btn">Generar práctica de Listening con IA</button>'
-          : '<p class="listening-status-detail">Inicia sesión para generar esta práctica.</p>'
-      }
-      <p class="listening-status-error" hidden></p>
-    </div>
-    ${
-      hasExtras
-        ? '<p class="listening-status-detail listening-extras-note">Mientras tanto, ya puedes usar Diálogo, Dictado, Transcripción y pronunciación, y Comprensión con el guion de esta lección.</p>'
-        : ''
-    }
-    ${hasExtras ? renderListeningExtraModesHtml(lesson, runtime) : ''}
-  `;
+  const generateActionHtml = loggedIn
+    ? '<button type="button" class="secondary-btn listening-generate-btn">Generar práctica de Listening con IA</button>'
+    : '<p class="listening-audio-pending-detail">Inicia sesión para generar esta práctica.</p>';
+
+  content.innerHTML = hasExtras
+    ? renderListeningAudioPendingBannerHtml({
+        icon: '🤖🎧',
+        title: 'Grabación de audio en preparación.',
+        detail:
+          'Todavía no hay un audio oficial para "Escuchar", pero ya puedes practicar con el diálogo, dictado, transcripción y pronunciación, y comprensión de esta lección. Tutor IA también puede preparar una práctica generada por IA (guion adaptado a tu nivel, nunca presentada como grabación humana) mientras tanto.',
+        actionsHtml: generateActionHtml
+      }) + renderListeningExtraModesHtml(lesson, runtime)
+    : `
+      <div class="listening-status-card listening-ai-offer">
+        <div class="listening-status-icon" aria-hidden="true">🤖🎧</div>
+        <p class="listening-status-title">Todavía no hay un audio oficial para esta lección.</p>
+        <p class="listening-status-detail">Tutor IA puede preparar una práctica de Listening generada por IA: un guion adaptado a tu nivel, con vocabulario y preguntas de comprensión. Nunca se presenta como una grabación humana.</p>
+        ${
+          loggedIn
+            ? '<button type="button" class="primary-btn listening-generate-btn">Generar práctica de Listening con IA</button>'
+            : '<p class="listening-status-detail">Inicia sesión para generar esta práctica.</p>'
+        }
+        <p class="listening-status-error" hidden></p>
+      </div>
+    `;
+
   content.querySelector('.listening-generate-btn')?.addEventListener('click', async (event) => {
     const btn = event.currentTarget;
     const errorEl = content.querySelector('.listening-status-error');
@@ -8826,20 +8904,24 @@ function renderListeningAiOffer(content, lesson, runtime) {
 
 function renderListeningUnavailable(content, lesson, section, runtime) {
   const hasExtras = listeningHasRichExtras(lesson);
-  content.innerHTML = `
-    <div class="listening-status-card">
-      <div class="listening-status-icon" aria-hidden="true">🎧</div>
-      <p class="listening-status-title">Listening no está disponible todavía para esta lección.</p>
-      <p class="listening-status-detail">Aún no hay un audio oficial publicado y la práctica generada por IA no está configurada en este entorno. Intenta más tarde.</p>
-      <button type="button" class="secondary-btn listening-retry-btn">Intenta más tarde: reintentar</button>
-    </div>
-    ${
-      hasExtras
-        ? '<p class="listening-status-detail listening-extras-note">Mientras tanto, ya puedes usar Diálogo, Dictado, Transcripción y pronunciación, y Comprensión con el guion de esta lección.</p>'
-        : ''
-    }
-    ${hasExtras ? renderListeningExtraModesHtml(lesson, runtime) : ''}
-  `;
+
+  content.innerHTML = hasExtras
+    ? renderListeningAudioPendingBannerHtml({
+        icon: '🎧',
+        title: 'Grabación de audio en preparación.',
+        detail:
+          'Todavía no hay una grabación oficial para "Escuchar" en este entorno. Mientras tanto, ya puedes practicar con el diálogo, dictado, transcripción y pronunciación, y comprensión de esta lección.',
+        actionsHtml: '<button type="button" class="secondary-btn listening-retry-btn">Comprobar de nuevo</button>'
+      }) + renderListeningExtraModesHtml(lesson, runtime)
+    : `
+      <div class="listening-status-card">
+        <div class="listening-status-icon" aria-hidden="true">🎧</div>
+        <p class="listening-status-title">Listening no está disponible todavía para esta lección.</p>
+        <p class="listening-status-detail">Aún no hay un audio oficial publicado y la práctica generada por IA no está configurada en este entorno. Intenta más tarde.</p>
+        <button type="button" class="secondary-btn listening-retry-btn">Intenta más tarde: reintentar</button>
+      </div>
+    `;
+
   content.querySelector('.listening-retry-btn')?.addEventListener('click', () => {
     listeningAudioStatusCache.delete(listeningStatusCacheKey(lesson));
     content.dataset.listeningReady = 'false';
@@ -9609,6 +9691,7 @@ const VIEW_SECTIONS = {
   tutor: ['#tutor'],
   translator: ['#translator'],
   about: ['#about'],
+  verbs: ['#verbs'],
   listening: ['#listening'],
   speaking: ['#speaking'],
   reading: ['#reading'],
@@ -9633,6 +9716,7 @@ const VIEW_TITLE_SELECTORS = {
   tutor: '#tutor h2',
   translator: '#translator h2',
   about: '#about h2',
+  verbs: '#verbs h2',
   listening: '#listening h2',
   speaking: '#speaking h2',
   reading: '#reading h2',
@@ -9795,6 +9879,7 @@ function showView(viewId) {
   if (resolved === 'translator') syncTranslatorLanguagesFromState();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
+  if (resolved === 'verbs') window.renderVerbsView?.();
   if (SKILL_VIEWS.includes(resolved)) renderSkillView(resolved);
 
   // Normalizes the hash to reflect the state that actually just rendered -
@@ -11534,14 +11619,21 @@ document.querySelectorAll('.nav-group a[data-scroll-target]').forEach((link) => 
   // revert to whatever language/level the account had saved.
   const hashState = parseLearnHashState();
   const preferences = await loadPreferences();
+  // Guests (loadPreferences() is Supabase-only - see its own comment above -
+  // and returns null without a session) have no account to restore from:
+  // fall back to the localStorage mirror savePreferences() keeps updated on
+  // every change, so a signed-out visitor's L1/L2/level choice survives a
+  // reload too, the same guarantee signed-in students get from Supabase.
+  const localPair = preferences ? null : getSavedLanguagePairLocally();
   const effectivePreferences =
     hashState.language || hashState.level
       ? {
-          language: hashState.language || preferences?.language || learningPathState.language,
-          level: hashState.level || preferences?.level || learningPathState.level,
-          bridgeLanguage: preferences?.bridgeLanguage
+          language:
+            hashState.language || preferences?.language || localPair?.language || learningPathState.language,
+          level: hashState.level || preferences?.level || localPair?.level || learningPathState.level,
+          bridgeLanguage: preferences?.bridgeLanguage || localPair?.bridgeLanguage
         }
-      : preferences;
+      : preferences || localPair;
   applyPreferencesToSelects(effectivePreferences);
   // Guests (no saved preferences) skip applyPreferencesToSelects' own
   // applyInterfaceLanguage call - run it unconditionally so the interface

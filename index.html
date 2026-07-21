@@ -47,6 +47,7 @@
         </span>
         <span class="nav-group nav-group-member" hidden>
           <a href="#learn" data-i18n="navLearnMember">Aprender</a>
+          <a href="#verbs" data-i18n="navVerbs">Verbos</a>
           <a href="#progress" data-i18n="navProgress">Progreso</a>
           <a href="#achievements" data-i18n="navAchievements">Logros</a>
           <a href="#goals" data-i18n="navGoals">Objetivos</a>
@@ -679,6 +680,92 @@
         </div>
         <div class="skill-view-content">
           <p class="skill-graph-empty">Listening estará disponible próximamente.</p>
+        </div>
+      </section>
+
+      <!-- Fase 2 pilot: 10 English verbs, hardcoded via
+           src/js/verbs/english-verbs-pilot.js (see src/js/verbs/verbs-view.js
+           for the renderer). Français/Español and the Conjugador/Practicar/
+           Mi progreso subsections are placeholders until later phases. -->
+      <section id="verbs" class="section verbs-section compact-hidden-section" aria-label="Verbos">
+        <div class="section-heading">
+          <span>Verbos</span>
+          <h2 tabindex="-1">Los verbos más usados, para consultar, conjugar y practicar</h2>
+          <p>Piloto: 10 verbos en inglés. Français y Español llegan en próximas fases.</p>
+        </div>
+
+        <div class="skill-tabs is-open" id="verbsTabs">
+          <div class="skill-tab-list">
+            <button class="skill-tab-button active" type="button" data-skill="list">Verbos</button>
+            <button class="skill-tab-button" type="button" data-skill="conjugator">Conjugador</button>
+            <button class="skill-tab-button" type="button" data-skill="practice">Practicar</button>
+            <button class="skill-tab-button" type="button" data-skill="progress">Mi progreso</button>
+          </div>
+
+          <div class="skill-panel active" data-skill="list">
+            <div class="verbs-toolbar no-print">
+              <label class="verbs-search-field"
+                ><span>Buscar verbo</span>
+                <input type="search" id="verbsSearchInput" placeholder="be, tener, aller…" />
+              </label>
+              <label class="verbs-filter-field"
+                ><span>Mostrar</span>
+                <select id="verbsFilterSelect">
+                  <option value="all">Todos</option>
+                  <option value="favorite">Favoritos</option>
+                  <option value="new">Nuevo</option>
+                  <option value="learning">Aprendiendo</option>
+                  <option value="practicing">Necesito practicar</option>
+                  <option value="mastered">Dominado</option>
+                </select>
+              </label>
+              <button type="button" class="secondary-btn" id="verbsSortToggleBtn" data-sort="frequency">
+                🔢 Ordenar por frecuencia
+              </button>
+            </div>
+            <div class="vocab-card-deck" id="verbsCardDeck">
+              <p class="skill-graph-empty">Preparando Verbos…</p>
+            </div>
+          </div>
+
+          <div class="skill-panel" data-skill="conjugator">
+            <div class="verbs-toolbar no-print">
+              <label class="verbs-filter-field"
+                ><span>Elige un verbo</span>
+                <select id="verbsConjugatorSelect"></select>
+              </label>
+            </div>
+            <div id="verbsConjugatorContent">
+              <p class="skill-graph-empty">Preparando el Conjugador…</p>
+            </div>
+          </div>
+
+          <div class="skill-panel" data-skill="practice">
+            <div id="verbsPracticeSetup" class="verb-practice-setup">
+              <label class="verbs-filter-field"
+                ><span>¿Qué quieres practicar?</span>
+                <select id="verbsPracticePoolSelect">
+                  <option value="all">Todos los verbos</option>
+                  <option value="new">Verbos nuevos</option>
+                  <option value="practicing">Verbos fallados (necesito practicar)</option>
+                  <option value="favorite">Verbos favoritos</option>
+                  <option value="random">Selección aleatoria</option>
+                </select>
+              </label>
+              <button type="button" class="primary-btn" id="verbsPracticeStartBtn">
+                ▶ Empezar práctica
+              </button>
+              <p class="skill-graph-empty" id="verbsPracticeSetupMessage" hidden></p>
+            </div>
+            <div id="verbsPracticeContent"></div>
+          </div>
+
+          <div class="skill-panel" data-skill="progress">
+            <span class="skill-card-status skill-card-status-soon">Próximamente</span>
+            <p class="skill-graph-empty">
+              El resumen de tu dominio, intentos y racha por verbo llega en una fase siguiente.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -1922,6 +2009,8 @@
     <script src="/src/js/gamification/index.js"></script>
     <script src="/src/js/username-rules.js"></script>
     <script src="/src/js/language-pair.js"></script>
+    <script src="/src/js/verbs/english-verbs-pilot.js"></script>
+    <script src="/src/js/verbs/verbs-view.js"></script>
     <script src="/src/js/script.js"></script>
   </body>
 </html>

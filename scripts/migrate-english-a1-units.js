@@ -203,6 +203,33 @@ async function main() {
         if (optionsError) throw new Error(`exercise_options (${row.slug} #${index}): ${optionsError.message}`);
       }
     }
+
+    // Dictation segments (Listening only, currently just the "hello" pilot
+    // unit): wipe and re-insert. `text` is real pedagogical content and
+    // stays service-role-only from here on (see
+    // 202607220001_rich_listening_content.sql) - audio path columns are
+    // left null until a Listening audio-generation pass fills them in.
+    // Mirrors scripts/migrate-spanish-a1-units.js exactly. Every other
+    // lesson has no `content.dictation`, so this is a no-op for them.
+    await supabase.from('lesson_dictation_segments').delete().eq('lesson_id', lesson.id);
+    const dictationSegments = content.dictation?.segments || [];
+    if (dictationSegments.length) {
+      const segmentRows = dictationSegments.map((segment, index) => ({
+        lesson_id: lesson.id,
+        order_index: segment.order ?? index,
+        text: segment.text,
+        start_time: segment.startTime ?? null,
+        end_time: segment.endTime ?? null,
+        normal_file_path: segment.normalAudioUrl ?? null,
+        slow_file_path: segment.slowAudioUrl ?? null,
+        very_slow_file_path: segment.verySlowAudioUrl ?? null
+      }));
+      const { error: dictationError } = await supabase
+        .from('lesson_dictation_segments')
+        .insert(segmentRows);
+      if (dictationError)
+        throw new Error(`lesson_dictation_segments (${row.slug}): ${dictationError.message}`);
+    }
   }
 
   // Remove old course_lessons for this course that are no longer part of the

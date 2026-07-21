@@ -7713,11 +7713,43 @@ footer small {
   display: none;
 }
 
-.listening-extras-note {
-  margin: -0.5rem auto 1.25rem;
-  max-width: 480px;
-  text-align: center;
+/* Compact "audio recording still coming" notice - see
+   renderListeningAudioPendingBannerHtml in src/js/script.js. Used instead
+   of the full .listening-status-card whenever the lesson already has real
+   Diálogo/Dictado/Transcripción-y-pronunciación/Comprensión content, so
+   that content stays the visual focus instead of a large "not available"
+   card. */
+.listening-audio-pending-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent, #4f46e5);
+  border-radius: 14px;
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 1.25rem;
+}
+
+.listening-audio-pending-icon {
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+.listening-audio-pending-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.listening-audio-pending-title {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.listening-audio-pending-detail {
+  color: var(--muted);
   font-size: 0.85rem;
+  margin-bottom: 0.5rem;
 }
 
 .listening-dialogue-line {
@@ -8320,4 +8352,179 @@ footer small {
   .unit-overview-body {
     grid-template-columns: 1fr;
   }
+}
+
+/* Verbos (Fase 2 pilot) - the card deck and sub-tabs reuse .vocab-card and
+   .skill-tabs as-is; only the search/filter/sort toolbar and the per-card
+   favorite/conjugate row below each flashcard are new. */
+.verbs-toolbar {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.verbs-search-field,
+.verbs-filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.verbs-search-field input,
+.verbs-filter-field select {
+  padding: 0.6rem 0.85rem;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--navy-2);
+  min-width: 9.5rem;
+}
+
+.verb-card-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.verb-card-extra-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.verb-favorite-btn.is-active {
+  background: rgba(234, 179, 8, 0.14);
+  border-color: rgba(234, 179, 8, 0.4);
+  color: #92700a;
+}
+
+/* Conjugador (Fase 3 pilot) */
+.verb-conjugation-card {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 1.5rem;
+  background: var(--white);
+}
+
+.verb-conjugation-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.verb-conjugation-head h3 {
+  margin: 0 0 0.35rem;
+  text-transform: capitalize;
+}
+
+.verb-conjugation-support {
+  color: var(--muted);
+  font-weight: 600;
+  margin: 0.5rem 0 1.25rem;
+}
+
+.verb-conjugation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.verb-conjugation-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: 14px;
+  background: var(--light);
+  border: 1px solid var(--line);
+}
+
+.verb-conjugation-cell span {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.verb-conjugation-cell strong {
+  font-size: 1rem;
+  color: var(--navy-2);
+}
+
+.verb-conjugation-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.verb-conjugation-example {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.verb-conjugation-example-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--blue);
+}
+
+.verb-conjugation-example p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+/* Practicar (Fase 4 pilot) - question card itself reuses .grammar-test-*
+   as-is; only the setup screen, inline feedback and the correct/incorrect
+   option states (Grammar's own test defers that to a separate results
+   screen instead of inline) are new. */
+.verb-practice-setup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+/* Author display:flex above beats the UA [hidden] stylesheet rule at equal
+   specificity - without this, setting .hidden = true in JS left the setup
+   toolbar visibly on screen above the active question/results card. */
+.verb-practice-setup[hidden] {
+  display: none;
+}
+
+.grammar-test-option.is-correct {
+  border-color: var(--green);
+  background: rgba(34, 197, 94, 0.12);
+  color: #15803d;
+}
+
+.grammar-test-option.is-incorrect {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+  color: #b91c1c;
+}
+
+.verb-practice-feedback {
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.verb-practice-feedback.is-correct {
+  color: #15803d;
+}
+
+.verb-practice-feedback.is-incorrect {
+  color: #b91c1c;
 }
