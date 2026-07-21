@@ -330,6 +330,7 @@ function setBridgeLanguage(bridgeName, options = {}) {
   if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[bridgeName] || 'es';
   const bridgeSelect = document.getElementById('pathBridgeSelect');
   if (bridgeSelect) bridgeSelect.value = bridgeName;
+  applyInterfaceLanguage(bridgeName);
   updatePathPairPreview();
   if (options.persist !== false) {
     savePreferences(learningPathState.language, learningPathState.level, bridgeName);
@@ -359,6 +360,35 @@ function refreshLanguagePairChrome() {
       el.textContent = LanguagePair.getInterfaceLabel(key, learningPathState.bridgeLanguage);
     });
   });
+}
+
+// L1/bridgeLanguage -> <html lang="..."> code, for accessibility/SEO only
+// (screen readers, browser translate prompts). Falls back to Spanish, same
+// rule as every other lookup in this file's language-pair layer.
+const bridgeLanguageToHtmlLang = { spanish: 'es', english: 'en', french: 'fr', italian: 'it', german: 'de' };
+
+// Applies the platform-wide interface language (spec §2: L1 controls
+// navigation, buttons, instructions, system messages, dashboard, auth,
+// Premium, tutor, translator, footer, About - everything except the L2
+// learning content itself). Patches every element carrying a data-i18n*
+// attribute in place via LanguagePair.t() (src/js/language-pair.js) rather
+// than re-rendering, so it's safe to call on every bridgeLanguage change
+// without disturbing focus, scroll position or in-progress input. Also
+// refreshes the narrower language-pair-selector chrome (refreshLanguagePairChrome)
+// and <html lang> so the two interface-language mechanisms never disagree.
+function applyInterfaceLanguage(bridgeLanguage) {
+  if (!LanguagePair) return;
+  document.documentElement.lang = bridgeLanguageToHtmlLang[bridgeLanguage] || 'es';
+  document.querySelectorAll('[data-i18n]').forEach((el) => {
+    el.textContent = LanguagePair.t(el.dataset.i18n, bridgeLanguage);
+  });
+  document.querySelectorAll('[data-i18n-aria-label]').forEach((el) => {
+    el.setAttribute('aria-label', LanguagePair.t(el.dataset.i18nAriaLabel, bridgeLanguage));
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
+    el.setAttribute('placeholder', LanguagePair.t(el.dataset.i18nPlaceholder, bridgeLanguage));
+  });
+  refreshLanguagePairChrome();
 }
 
 function updatePathPairPreview() {
@@ -445,6 +475,7 @@ function swapLearningPathLanguages() {
   if (bridgeSelect) bridgeSelect.value = swapped.bridge;
   const pathLanguageSelect = document.getElementById('pathLanguageSelect');
   if (pathLanguageSelect) pathLanguageSelect.value = swapped.target;
+  applyInterfaceLanguage(swapped.bridge);
 
   loadLearningPath({ language: swapped.target, level: learningPathState.level });
   updatePathPairPreview();
@@ -767,8 +798,10 @@ function updateProgressDisplay(
   if (progressText) {
     progressText.hidden = !isSignedIn;
     if (isSignedIn) {
-      if (isLoading) progressText.textContent = 'Cargando tu progreso…';
-      else if (isError) progressText.textContent = 'No se pudo cargar tu progreso.';
+      if (isLoading)
+        progressText.textContent = LanguagePair.t('dashboardLoadingProgress', learningPathState.bridgeLanguage);
+      else if (isError)
+        progressText.textContent = LanguagePair.t('progressLoadFailed', learningPathState.bridgeLanguage);
       else
         progressText.textContent = `${name ? `${name}: ` : ''}${normalizedProgress}% completado · ${streak} días de racha`;
     }
@@ -846,6 +879,7 @@ function applyPreferencesToSelects(preferences) {
   learningPathState.bridgeLanguage = preferences.bridgeLanguage || 'spanish';
   if (nativeLanguageSelect)
     nativeLanguageSelect.value = bridgeNameToCode[learningPathState.bridgeLanguage] || 'es';
+  applyInterfaceLanguage(learningPathState.bridgeLanguage);
   updatePathPairPreview();
 }
 
@@ -987,27 +1021,30 @@ function renderDashboardActivity(activity) {
 }
 
 function renderDashboardLoading() {
+  const lang = learningPathState.bridgeLanguage;
   const grid = document.getElementById('dashboardStatsGrid');
-  if (grid) grid.innerHTML = '<p class="skill-graph-empty">Cargando tu panel…</p>';
+  if (grid)
+    grid.innerHTML = `<p class="skill-graph-empty">${escapeHtml(LanguagePair.t('dashboardLoadingPanel', lang))}</p>`;
   const goalBody = document.getElementById('goalsCrudBody');
-  if (goalBody) goalBody.innerHTML = '<p class="skill-graph-empty">Cargando tu objetivo…</p>';
+  if (goalBody)
+    goalBody.innerHTML = `<p class="skill-graph-empty">${escapeHtml(LanguagePair.t('dashboardLoadingGoal', lang))}</p>`;
   const activityList = document.getElementById('dashboardActivityList');
   if (activityList)
-    activityList.innerHTML = '<li class="skill-graph-empty">Cargando actividad…</li>';
+    activityList.innerHTML = `<li class="skill-graph-empty">${escapeHtml(LanguagePair.t('dashboardLoadingActivity', lang))}</li>`;
   // The home hero's goal one-liner is a separate DOM node (renderDashboardGoal
   // only touches it once real data arrives) - without this it would keep
   // showing the static "Sin objetivo activo" placeholder while this loads.
   const homeGoalSummary = document.querySelector('#homeGoalSummary strong');
-  if (homeGoalSummary) homeGoalSummary.textContent = 'Cargando…';
+  if (homeGoalSummary) homeGoalSummary.textContent = LanguagePair.t('genericLoading', lang);
 }
 
 function renderDashboardError() {
+  const lang = learningPathState.bridgeLanguage;
   const grid = document.getElementById('dashboardStatsGrid');
   if (grid)
-    grid.innerHTML =
-      '<p class="skill-graph-empty">No se pudo cargar tu panel. Intenta recargar la página.</p>';
+    grid.innerHTML = `<p class="skill-graph-empty">${escapeHtml(LanguagePair.t('panelLoadFailed', lang))}</p>`;
   const homeGoalSummary = document.querySelector('#homeGoalSummary strong');
-  if (homeGoalSummary) homeGoalSummary.textContent = 'No se pudo cargar';
+  if (homeGoalSummary) homeGoalSummary.textContent = LanguagePair.t('genericLoadFailed', lang);
 }
 
 function renderDashboardSignedOut() {
@@ -1146,7 +1183,7 @@ function resetForgotPasswordForm() {
   const statusEl = document.getElementById('forgotPasswordStatus');
   if (submitBtn) {
     submitBtn.disabled = false;
-    submitBtn.textContent = 'Enviar enlace';
+    submitBtn.textContent = LanguagePair.t('authSendLink', learningPathState.bridgeLanguage);
   }
   if (statusEl) {
     statusEl.textContent = '';
@@ -1159,18 +1196,19 @@ function startForgotPasswordCooldown(button, seconds = 30) {
   if (!button) return;
   window.clearInterval(forgotPasswordCooldownInterval);
   let remaining = seconds;
+  const resendLabel = LanguagePair.t('authResendLink', learningPathState.bridgeLanguage);
   button.disabled = true;
-  button.textContent = `Reenviar enlace (${remaining}s)`;
+  button.textContent = `${resendLabel} (${remaining}s)`;
   forgotPasswordCooldownInterval = window.setInterval(() => {
     remaining -= 1;
     if (remaining <= 0) {
       window.clearInterval(forgotPasswordCooldownInterval);
       forgotPasswordCooldownInterval = null;
       button.disabled = false;
-      button.textContent = 'Reenviar enlace';
+      button.textContent = resendLabel;
       return;
     }
-    button.textContent = `Reenviar enlace (${remaining}s)`;
+    button.textContent = `${resendLabel} (${remaining}s)`;
   }, 1000);
 }
 
@@ -1867,7 +1905,7 @@ function attachAuthHandlers() {
       }
       if (submitBtn) {
         submitBtn.disabled = false;
-        submitBtn.textContent = 'Enviar enlace';
+        submitBtn.textContent = LanguagePair.t('authSendLink', learningPathState.bridgeLanguage);
       }
     }
   });
@@ -2308,7 +2346,7 @@ document.getElementById('signupPending')?.addEventListener('click', async (event
     const code = getOtpCode();
     if (!/^\d{6}$/.test(code)) {
       if (statusEl) {
-        statusEl.textContent = 'Ingresa los 6 dígitos del código.';
+        statusEl.textContent = LanguagePair.t('authEnterCode', learningPathState.bridgeLanguage);
         statusEl.classList.add('is-error');
       }
       return;
@@ -2368,7 +2406,8 @@ document.getElementById('signupPending')?.addEventListener('click', async (event
       if (response.status === 429) {
         if (statusEl) statusEl.textContent = 'Espera un momento antes de solicitar otro correo.';
       } else {
-        if (statusEl) statusEl.textContent = 'Código reenviado. Revisa tu correo.';
+        if (statusEl)
+          statusEl.textContent = LanguagePair.t('authCodeResent', learningPathState.bridgeLanguage);
       }
     } catch (error) {
       console.warn('Could not resend OTP', error);
@@ -2432,8 +2471,7 @@ async function loadSecurityStatus() {
   } catch (error) {
     console.warn('Could not load security status', error);
     if (status)
-      status.innerHTML =
-        '<p class="skill-graph-empty">No se pudo cargar tu estado de seguridad. Intenta recargar.</p>';
+      status.innerHTML = `<p class="skill-graph-empty">${escapeHtml(LanguagePair.t('securityLoadFailed', learningPathState.bridgeLanguage))}</p>`;
   }
 }
 
@@ -2530,7 +2568,7 @@ document.getElementById('mfaVerifyEnrollBtn')?.addEventListener('click', async (
   }
   if (!/^\d{6}$/.test(code)) {
     if (enrollStatus) {
-      enrollStatus.textContent = 'Ingresa los 6 dígitos del código.';
+      enrollStatus.textContent = LanguagePair.t('authEnterCode', learningPathState.bridgeLanguage);
       enrollStatus.classList.add('is-error');
     }
     return;
@@ -3462,7 +3500,7 @@ function appendTutorUsageNotice(container, message, { locked = false } = {}) {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'primary-btn upgrade-btn';
-    btn.textContent = 'Obtener Premium';
+    btn.textContent = LanguagePair.t('premiumGetBtn', learningPathState.bridgeLanguage);
     notice.appendChild(btn);
   }
   container.appendChild(notice);
@@ -4843,8 +4881,8 @@ function renderSkillCards() {
     if (!lesson) {
       if (statusEl) {
         statusEl.textContent = learningPathState.lessons.length
-          ? 'No disponible en este nivel'
-          : 'Cargando…';
+          ? LanguagePair.t('skillNotAvailableLevel', learningPathState.bridgeLanguage)
+          : LanguagePair.t('genericLoading', learningPathState.bridgeLanguage);
         statusEl.className = 'skill-card-status skill-card-status-loading';
       }
       if (progressWrap) progressWrap.hidden = true;
@@ -10883,12 +10921,12 @@ function setupTranslator() {
     // trip to find out. 'auto' is never blocked - the real detected
     // language isn't known until DeepL responds.
     if (sourceLanguage !== 'auto' && sourceLanguage === targetLanguage) {
-      setStatus('Selecciona dos idiomas diferentes.', 'is-unavailable');
+      setStatus(LanguagePair.t('translatorSelectDifferent', learningPathState.bridgeLanguage), 'is-unavailable');
       return;
     }
 
     if (detectedEl) detectedEl.hidden = true;
-    setStatus('Traduciendo…', 'is-loading');
+    setStatus(LanguagePair.t('translatorTranslating', learningPathState.bridgeLanguage), 'is-loading');
     submitBtn.disabled = true;
     try {
       // auth: true - sends the session token when signed in, so the backend
@@ -11028,6 +11066,11 @@ document.querySelectorAll('.nav-group a[data-scroll-target]').forEach((link) => 
         }
       : preferences;
   applyPreferencesToSelects(effectivePreferences);
+  // Guests (no saved preferences) skip applyPreferencesToSelects' own
+  // applyInterfaceLanguage call - run it unconditionally so the interface
+  // language is always in sync with learningPathState.bridgeLanguage
+  // (default 'spanish') on first paint, not just for signed-in students.
+  applyInterfaceLanguage(learningPathState.bridgeLanguage);
   await loadLearningPath({
     ...(effectivePreferences || {}),
     restoreUnitId: hashState.unitId,

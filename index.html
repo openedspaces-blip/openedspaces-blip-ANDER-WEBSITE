@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <a class="skip-link" href="#content">Saltar al contenido</a>
+    <a class="skip-link" href="#content" data-i18n="skipLink">Saltar al contenido</a>
 
     <header class="navbar">
       <a class="brand" href="/" aria-label="ANDERGO - Ir al inicio">
@@ -30,6 +30,7 @@
         aria-expanded="false"
         aria-controls="siteMenu"
         aria-label="Abrir menú"
+        data-i18n-aria-label="menuToggleAria"
       >
         <span></span>
         <span></span>
@@ -38,29 +39,29 @@
 
       <nav class="menu" id="siteMenu">
         <span class="nav-group nav-group-visitor">
-          <a href="#home">Inicio</a>
-          <a href="#learn">Idiomas</a>
-          <a href="#premium">Premium</a>
-          <a href="#translator">Traductor</a>
-          <a href="#about">Acerca de</a>
+          <a href="#home" data-i18n="navHome">Inicio</a>
+          <a href="#learn" data-i18n="navLearnVisitor">Idiomas</a>
+          <a href="#premium" data-i18n="navPremium">Premium</a>
+          <a href="#translator" data-i18n="navTranslator">Traductor</a>
+          <a href="#about" data-i18n="navAbout">Acerca de</a>
         </span>
         <span class="nav-group nav-group-member" hidden>
-          <a href="#learn">Aprender</a>
-          <a href="#progress">Progreso</a>
-          <a href="#achievements">Logros</a>
-          <a href="#goals">Objetivos</a>
-          <a href="#tutor">Tutor IA ANDERGO</a>
-          <a href="#translator">Traductor</a>
-          <a href="#about">Acerca de</a>
-          <a href="#security">Seguridad</a>
+          <a href="#learn" data-i18n="navLearnMember">Aprender</a>
+          <a href="#progress" data-i18n="navProgress">Progreso</a>
+          <a href="#achievements" data-i18n="navAchievements">Logros</a>
+          <a href="#goals" data-i18n="navGoals">Objetivos</a>
+          <a href="#tutor" data-i18n="navTutor">Tutor IA ANDERGO</a>
+          <a href="#translator" data-i18n="navTranslator">Traductor</a>
+          <a href="#about" data-i18n="navAbout">Acerca de</a>
+          <a href="#security" data-i18n="navSecurity">Seguridad</a>
         </span>
       </nav>
 
       <div class="nav-actions">
         <span class="user-chip" hidden></span>
-        <a class="login" href="#" data-action="open-auth" data-panel="login">Iniciar sesión</a>
-        <a class="signup" href="#" data-action="open-auth" data-panel="signup">Comenzar gratis</a>
-        <button class="logout-btn" type="button" hidden>Salir</button>
+        <a class="login" href="#" data-action="open-auth" data-panel="login" data-i18n="loginBtn">Iniciar sesión</a>
+        <a class="signup" href="#" data-action="open-auth" data-panel="signup" data-i18n="signupBtn">Comenzar gratis</a>
+        <button class="logout-btn" type="button" hidden data-i18n="logoutBtn">Salir</button>
       </div>
     </header>
 
@@ -336,35 +337,35 @@
           <article class="skill-competency-card" data-skill="speaking" role="button" tabindex="0">
             <div class="icon">🎙</div>
             <h3>Speaking</h3>
-            <span class="skill-card-status skill-card-status-loading">Cargando…</span>
+            <span class="skill-card-status skill-card-status-loading" data-i18n="genericLoading">Cargando…</span>
             <div class="skill-card-progress" hidden><div style="width: 0%"></div></div>
             <span class="skill-card-xp"></span>
           </article>
           <article class="skill-competency-card" data-skill="reading" role="button" tabindex="0">
             <div class="icon">📖</div>
             <h3>Reading</h3>
-            <span class="skill-card-status skill-card-status-loading">Cargando…</span>
+            <span class="skill-card-status skill-card-status-loading" data-i18n="genericLoading">Cargando…</span>
             <div class="skill-card-progress" hidden><div style="width: 0%"></div></div>
             <span class="skill-card-xp"></span>
           </article>
           <article class="skill-competency-card" data-skill="writing" role="button" tabindex="0">
             <div class="icon">✍️</div>
             <h3>Writing</h3>
-            <span class="skill-card-status skill-card-status-loading">Cargando…</span>
+            <span class="skill-card-status skill-card-status-loading" data-i18n="genericLoading">Cargando…</span>
             <div class="skill-card-progress" hidden><div style="width: 0%"></div></div>
             <span class="skill-card-xp"></span>
           </article>
           <article class="skill-competency-card" data-skill="grammar" role="button" tabindex="0">
             <div class="icon">📚</div>
             <h3>Grammar</h3>
-            <span class="skill-card-status skill-card-status-loading">Cargando…</span>
+            <span class="skill-card-status skill-card-status-loading" data-i18n="genericLoading">Cargando…</span>
             <div class="skill-card-progress" hidden><div style="width: 0%"></div></div>
             <span class="skill-card-xp"></span>
           </article>
           <article class="skill-competency-card" data-skill="vocabulary" role="button" tabindex="0">
             <div class="icon">🧠</div>
             <h3>Vocabulary</h3>
-            <span class="skill-card-status skill-card-status-loading">Cargando…</span>
+            <span class="skill-card-status skill-card-status-loading" data-i18n="genericLoading">Cargando…</span>
             <div class="skill-card-progress" hidden><div style="width: 0%"></div></div>
             <span class="skill-card-xp"></span>
           </article>
@@ -1123,70 +1124,70 @@
 
       <section id="about" class="section about-section compact-hidden-section" aria-label="Acerca de">
         <div class="section-heading">
-          <span>Acerca de</span>
-          <h2 tabindex="-1">Sobre ANDERGO</h2>
+          <span data-i18n="aboutBadge">Acerca de</span>
+          <h2 tabindex="-1" data-i18n="aboutTitle">Sobre ANDERGO</h2>
         </div>
 
         <div class="about-layout">
           <article class="about-block">
-            <h3>Qué es ANDERGO</h3>
-            <p>
+            <h3 data-i18n="aboutWhatTitle">Qué es ANDERGO</h3>
+            <p data-i18n="aboutWhatP1">
               ANDERGO es una plataforma para aprender inglés, francés y español con una ruta clara
               de A1 a C2. Cada nivel combina vocabulario, diálogos, lectura, escritura, gramática y
               práctica oral guiada, apoyada por un Tutor IA que responde en tiempo real y una voz
               neuronal para practicar pronunciación.
             </p>
-            <p>
+            <p data-i18n="aboutWhatP2">
               Tu progreso, racha y objetivos se guardan de forma segura y solo tú puedes verlos. La
               interfaz está pensada para ser clara, rápida y accesible desde cualquier dispositivo.
             </p>
           </article>
 
           <article class="about-block about-block-full">
-            <h3>Cómo funciona</h3>
-            <p>Sin planes confusos ni pasos innecesarios: elige, practica y mide tu progreso.</p>
+            <h3 data-i18n="aboutHowTitle">Cómo funciona</h3>
+            <p data-i18n="aboutHowSubtitle">Sin planes confusos ni pasos innecesarios: elige, practica y mide tu progreso.</p>
             <div class="how-it-works-grid">
               <article class="how-it-works-step">
                 <div class="icon" aria-hidden="true">🧭</div>
-                <h3>1. Elige tu idioma y nivel</h3>
-                <p>Selecciona inglés, francés o español, y el nivel A1–C2 que mejor se ajuste a ti.</p>
+                <h3 data-i18n="aboutStep1Title">1. Elige tu idioma y nivel</h3>
+                <p data-i18n="aboutStep1Text">Selecciona inglés, francés o español, y el nivel A1–C2 que mejor se ajuste a ti.</p>
               </article>
               <article class="how-it-works-step">
                 <div class="icon" aria-hidden="true">📚</div>
-                <h3>2. Practica lecciones guiadas</h3>
-                <p>Vocabulario, diálogos, lectura, escritura, gramática y ejercicios reales en cada unidad.</p>
+                <h3 data-i18n="aboutStep2Title">2. Practica lecciones guiadas</h3>
+                <p data-i18n="aboutStep2Text">Vocabulario, diálogos, lectura, escritura, gramática y ejercicios reales en cada unidad.</p>
               </article>
               <article class="how-it-works-step">
                 <div class="icon" aria-hidden="true">🤖</div>
-                <h3>3. Habla con el Tutor IA</h3>
-                <p>Resuelve dudas, practica conversación y recibe corrección al instante.</p>
+                <h3 data-i18n="aboutStep3Title">3. Habla con el Tutor IA</h3>
+                <p data-i18n="aboutStep3Text">Resuelve dudas, practica conversación y recibe corrección al instante.</p>
               </article>
               <article class="how-it-works-step">
                 <div class="icon" aria-hidden="true">📈</div>
-                <h3>4. Mide tu progreso real</h3>
-                <p>Sigue tu racha, tus objetivos y tu avance cada semana desde tu panel.</p>
+                <h3 data-i18n="aboutStep4Title">4. Mide tu progreso real</h3>
+                <p data-i18n="aboutStep4Text">Sigue tu racha, tus objetivos y tu avance cada semana desde tu panel.</p>
               </article>
             </div>
             <div class="how-it-works-cta">
-              <a href="#learn" class="primary-btn" data-home-action="start-free">Comenzar gratis</a>
+              <a href="#learn" class="primary-btn" data-home-action="start-free" data-i18n="aboutStartFreeBtn">Comenzar gratis</a>
             </div>
           </article>
 
           <article class="about-block">
-            <h3>Qué incluye la plataforma</h3>
+            <h3 data-i18n="aboutIncludesTitle">Qué incluye la plataforma</h3>
             <ul class="about-includes-list">
-              <li>Rutas completas de A1 a C2 en inglés, francés y español.</li>
-              <li>Listening, Speaking, Reading, Writing, Grammar y Vocabulary en cada unidad.</li>
-              <li>Tutor IA disponible en cualquier momento para practicar y resolver dudas.</li>
-              <li>Voz neuronal para practicar pronunciación y comprensión auditiva.</li>
-              <li>Seguimiento de progreso, racha y objetivos personales.</li>
-              <li>Traductor rápido integrado entre los tres idiomas.</li>
-              <li>Acceso Premium para desbloquear contenido adicional.</li>
+              <li data-i18n="aboutIncludesItem1">Rutas completas de A1 a C2 en inglés, francés y español.</li>
+              <li data-i18n="aboutIncludesItem2">Listening, Speaking, Reading, Writing, Grammar y Vocabulary en cada unidad.</li>
+              <li data-i18n="aboutIncludesItem3">Tutor IA disponible en cualquier momento para practicar y resolver dudas.</li>
+              <li data-i18n="aboutIncludesItem4">Voz neuronal para practicar pronunciación y comprensión auditiva.</li>
+              <li data-i18n="aboutIncludesItem5">Seguimiento de progreso, racha y objetivos personales.</li>
+              <li data-i18n="aboutIncludesItem6">Traductor rápido integrado entre los tres idiomas.</li>
+              <li data-i18n="aboutIncludesItem7">Acceso Premium para desbloquear contenido adicional.</li>
             </ul>
           </article>
 
           <article class="about-block about-block-full about-creator-block">
-            <h3>Sobre el creador</h3>
+            <h3 data-i18n="aboutCreatorTitle">Sobre el creador</h3>
             <div class="about-creator-layout">
               <img
                 class="about-creator-photo"
@@ -1196,13 +1197,13 @@
               />
               <div class="about-creator-text">
                 <p><strong>Anderson Almánzar de la Cruz</strong></p>
-                <p>
+                <p data-i18n="aboutCreatorP1">
                   ANDERGO fue creado por Anderson Almánzar de la Cruz, docente de inglés y
                   especialista en Lingüística Aplicada al Idioma Inglés. La plataforma nace con el
                   propósito de ofrecer una experiencia de aprendizaje de idiomas más práctica,
                   accesible, interactiva y centrada en el progreso real de cada estudiante.
                 </p>
-                <p>
+                <p data-i18n="aboutCreatorP2">
                   Con años de experiencia como docente de inglés, Anderson ha dedicado su carrera a
                   la enseñanza de idiomas con un enfoque cercano y práctico, siempre atento a los
                   retos reales que enfrenta un estudiante al aprender un idioma nuevo. Ese interés
@@ -1216,15 +1217,15 @@
           </article>
 
           <article class="about-block about-block-full about-contact-block">
-            <h3>Contacto y soporte</h3>
+            <h3 data-i18n="aboutContactTitle">Contacto y soporte</h3>
             <p>
-              Para consultas, asistencia técnica o reportar un problema, escríbenos a
+              <span data-i18n="aboutContactIntro">Para consultas, asistencia técnica o reportar un problema, escríbenos a</span>
               <a href="mailto:support@andergo.online">support@andergo.online</a>.
             </p>
-            <a class="primary-btn about-contact-btn" href="mailto:support@andergo.online"
+            <a class="primary-btn about-contact-btn" href="mailto:support@andergo.online" data-i18n="aboutContactBtn"
               >Contactar soporte</a
             >
-            <p class="about-editable-note">
+            <p class="about-editable-note" data-i18n="aboutContactNote">
               non-reply@andergo.online se utiliza únicamente para notificaciones automáticas,
               confirmaciones y recuperación de cuenta.
             </p>
@@ -1575,7 +1576,7 @@
               />
             </label>
             <p class="auth-field-hint">Te enviaremos un enlace para crear una nueva contraseña.</p>
-            <button type="submit" class="primary-btn" id="forgotPasswordSubmit">Enviar enlace</button>
+            <button type="submit" class="primary-btn" id="forgotPasswordSubmit" data-i18n="authSendLink">Enviar enlace</button>
             <p class="auth-status" id="forgotPasswordStatus" role="status" aria-live="polite"></p>
             <button type="button" class="secondary-btn" data-action="back-to-login">
               ← Volver a iniciar sesión
@@ -1660,7 +1661,7 @@
           <button type="button" class="secondary-btn" data-action="dismiss-paywall">
             Quizás más tarde
           </button>
-          <button type="button" class="primary-btn upgrade-btn" data-action="paywall-upgrade">
+          <button type="button" class="primary-btn upgrade-btn" data-action="paywall-upgrade" data-i18n="premiumGetBtn">
             Obtener Premium
           </button>
         </div>
@@ -1850,25 +1851,25 @@
         </div>
         <nav class="footer-links" aria-label="Enlaces de ANDERGO">
           <div class="footer-links-col">
-            <h4>Navegación</h4>
-            <a href="#home">Inicio</a>
-            <a href="#learn">Idiomas</a>
-            <a href="#premium">Premium</a>
-            <a href="#translator">Traductor</a>
-            <a href="#about">Acerca de</a>
-            <a href="#about">Soporte</a>
+            <h4 data-i18n="footerNavHeading">Navegación</h4>
+            <a href="#home" data-i18n="navHome">Inicio</a>
+            <a href="#learn" data-i18n="navLearnVisitor">Idiomas</a>
+            <a href="#premium" data-i18n="navPremium">Premium</a>
+            <a href="#translator" data-i18n="navTranslator">Traductor</a>
+            <a href="#about" data-i18n="navAbout">Acerca de</a>
+            <a href="#about" data-i18n="footerSupport">Soporte</a>
           </div>
           <div class="footer-links-col">
-            <h4>Contacto</h4>
+            <h4 data-i18n="footerContactHeading">Contacto</h4>
             <a href="mailto:support@andergo.online">support@andergo.online</a>
-            <p class="footer-contact-note">
+            <p class="footer-contact-note" data-i18n="footerContactNote">
               Los mensajes automáticos de ANDERGO pueden enviarse desde
               non-reply@andergo.online. No respondas a ese correo.
             </p>
           </div>
         </nav>
       </div>
-      <small>© <span id="footerYear">2026</span> ANDERGO. Todos los derechos reservados.</small>
+      <small>© <span id="footerYear">2026</span> <span data-i18n="footerRights">ANDERGO. Todos los derechos reservados.</span></small>
     </footer>
     <script src="/src/worlds/english/content.js"></script>
     <script src="/src/worlds/spanish/content.js"></script>

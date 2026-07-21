@@ -123,11 +123,279 @@
   // Dynamic pair sentence template, spec §1/§4: "Aprenderás {L2} con apoyo
   // en {L1}." rendered in the interface language, with target/bridge names
   // already localized via languageNameIn() before being interpolated here.
+  // When bridge === target (direct/same-language learning mode, spec §3/§8)
+  // callers use PAIR_SENTENCE_DIRECT instead - see getLanguagePairLabel().
   const PAIR_SENTENCE = {
     spanish: (target, bridge) => `Aprenderás ${target} con apoyo en ${bridge}.`,
     english: (target, bridge) => `You will learn ${target} with support in ${bridge}.`,
     french: (target, bridge) => `Vous apprendrez ${target} avec un accompagnement en ${bridge}.`
   };
+
+  // "Aprenderás {L2} mediante inmersión y definiciones en {L2}." (spec §8) -
+  // shown instead of PAIR_SENTENCE when bridge === target, since "support in
+  // X" makes no sense when the support language and the target are the same.
+  const PAIR_SENTENCE_DIRECT = {
+    spanish: (target) => `Aprenderás ${target} mediante inmersión y definiciones en ${target}.`,
+    english: (target) => `You will learn ${target} through immersion and ${target} definitions.`,
+    french: (target) => `Vous apprendrez ${target} par immersion et avec des définitions en ${target}.`
+  };
+
+  // General-purpose UI-chrome dictionary (spec §2: L1 controls navigation,
+  // buttons, instructions, system messages, dashboard, auth, Premium, tutor,
+  // translator, footer, About...). Unlike INTERFACE_LABELS above (7 keys,
+  // scoped to the language-pair selector only), this is the app-wide string
+  // table. It is not yet exhaustive - every string used in index.html via
+  // data-i18n/data-i18n-aria-label/data-i18n-placeholder and every string
+  // read through t() in script.js is covered; strings not yet migrated stay
+  // hardcoded Spanish prose until a follow-up pass moves them here too (see
+  // the commit that introduced this table for the exact migrated surface:
+  // nav, footer, About, dashboard loading/error states, auth key messages,
+  // Premium CTA, translator status). Falls back to Spanish, same rule as
+  // every other table in this file.
+  const UI_STRINGS = {
+    spanish: {
+      skipLink: 'Saltar al contenido',
+      menuToggleAria: 'Abrir menú',
+      navHome: 'Inicio',
+      navLearnVisitor: 'Idiomas',
+      navPremium: 'Premium',
+      navTranslator: 'Traductor',
+      navAbout: 'Acerca de',
+      navLearnMember: 'Aprender',
+      navProgress: 'Progreso',
+      navAchievements: 'Logros',
+      navGoals: 'Objetivos',
+      navTutor: 'Tutor IA ANDERGO',
+      navSecurity: 'Seguridad',
+      loginBtn: 'Iniciar sesión',
+      signupBtn: 'Comenzar gratis',
+      logoutBtn: 'Salir',
+      footerNavHeading: 'Navegación',
+      footerSupport: 'Soporte',
+      footerContactHeading: 'Contacto',
+      footerContactNote:
+        'Los mensajes automáticos de ANDERGO pueden enviarse desde non-reply@andergo.online. No respondas a ese correo.',
+      footerRights: 'ANDERGO. Todos los derechos reservados.',
+      aboutBadge: 'Acerca de',
+      aboutTitle: 'Sobre ANDERGO',
+      aboutWhatTitle: 'Qué es ANDERGO',
+      aboutWhatP1:
+        'ANDERGO es una plataforma para aprender inglés, francés y español con una ruta clara de A1 a C2. Cada nivel combina vocabulario, diálogos, lectura, escritura, gramática y práctica oral guiada, apoyada por un Tutor IA que responde en tiempo real y una voz neuronal para practicar pronunciación.',
+      aboutWhatP2:
+        'Tu progreso, racha y objetivos se guardan de forma segura y solo tú puedes verlos. La interfaz está pensada para ser clara, rápida y accesible desde cualquier dispositivo.',
+      aboutHowTitle: 'Cómo funciona',
+      aboutHowSubtitle: 'Sin planes confusos ni pasos innecesarios: elige, practica y mide tu progreso.',
+      aboutStep1Title: '1. Elige tu idioma y nivel',
+      aboutStep1Text: 'Selecciona inglés, francés o español, y el nivel A1–C2 que mejor se ajuste a ti.',
+      aboutStep2Title: '2. Practica lecciones guiadas',
+      aboutStep2Text: 'Vocabulario, diálogos, lectura, escritura, gramática y ejercicios reales en cada unidad.',
+      aboutStep3Title: '3. Habla con el Tutor IA',
+      aboutStep3Text: 'Resuelve dudas, practica conversación y recibe corrección al instante.',
+      aboutStep4Title: '4. Mide tu progreso real',
+      aboutStep4Text: 'Sigue tu racha, tus objetivos y tu avance cada semana desde tu panel.',
+      aboutStartFreeBtn: 'Comenzar gratis',
+      aboutIncludesTitle: 'Qué incluye la plataforma',
+      aboutIncludesItem1: 'Rutas completas de A1 a C2 en inglés, francés y español.',
+      aboutIncludesItem2: 'Listening, Speaking, Reading, Writing, Grammar y Vocabulary en cada unidad.',
+      aboutIncludesItem3: 'Tutor IA disponible en cualquier momento para practicar y resolver dudas.',
+      aboutIncludesItem4: 'Voz neuronal para practicar pronunciación y comprensión auditiva.',
+      aboutIncludesItem5: 'Seguimiento de progreso, racha y objetivos personales.',
+      aboutIncludesItem6: 'Traductor rápido integrado entre los tres idiomas.',
+      aboutIncludesItem7: 'Acceso Premium para desbloquear contenido adicional.',
+      aboutCreatorTitle: 'Sobre el creador',
+      aboutCreatorP1:
+        'ANDERGO fue creado por Anderson Almánzar de la Cruz, docente de inglés y especialista en Lingüística Aplicada al Idioma Inglés. La plataforma nace con el propósito de ofrecer una experiencia de aprendizaje de idiomas más práctica, accesible, interactiva y centrada en el progreso real de cada estudiante.',
+      aboutCreatorP2:
+        'Con años de experiencia como docente de inglés, Anderson ha dedicado su carrera a la enseñanza de idiomas con un enfoque cercano y práctico, siempre atento a los retos reales que enfrenta un estudiante al aprender un idioma nuevo. Ese interés por la enseñanza dio forma a la visión educativa de ANDERGO: una plataforma donde cada persona practica de verdad, recibe retroalimentación clara y avanza a su propio ritmo. Su compromiso es ofrecer una educación de idiomas accesible y de calidad para cualquier persona, sin importar dónde se encuentre.',
+      aboutContactTitle: 'Contacto y soporte',
+      aboutContactIntro: 'Para consultas, asistencia técnica o reportar un problema, escríbenos a',
+      aboutContactBtn: 'Contactar soporte',
+      aboutContactNote:
+        'non-reply@andergo.online se utiliza únicamente para notificaciones automáticas, confirmaciones y recuperación de cuenta.',
+      genericLoading: 'Cargando…',
+      genericLoadFailed: 'No se pudo cargar',
+      dashboardLoadingProgress: 'Cargando tu progreso…',
+      dashboardLoadingPanel: 'Cargando tu panel…',
+      dashboardLoadingGoal: 'Cargando tu objetivo…',
+      dashboardLoadingActivity: 'Cargando actividad…',
+      progressLoadFailed: 'No se pudo cargar tu progreso.',
+      panelLoadFailed: 'No se pudo cargar tu panel. Intenta recargar la página.',
+      securityLoadFailed: 'No se pudo cargar tu estado de seguridad. Intenta recargar.',
+      authSendLink: 'Enviar enlace',
+      authResendLink: 'Reenviar enlace',
+      authEnterCode: 'Ingresa los 6 dígitos del código.',
+      authCodeResent: 'Código reenviado. Revisa tu correo.',
+      premiumGetBtn: 'Obtener Premium',
+      translatorSelectDifferent: 'Selecciona dos idiomas diferentes.',
+      translatorTranslating: 'Traduciendo…',
+      skillNotAvailableLevel: 'No disponible en este nivel'
+    },
+    english: {
+      skipLink: 'Skip to content',
+      menuToggleAria: 'Open menu',
+      navHome: 'Home',
+      navLearnVisitor: 'Languages',
+      navPremium: 'Premium',
+      navTranslator: 'Translator',
+      navAbout: 'About',
+      navLearnMember: 'Learn',
+      navProgress: 'Progress',
+      navAchievements: 'Achievements',
+      navGoals: 'Goals',
+      navTutor: 'ANDERGO AI Tutor',
+      navSecurity: 'Security',
+      loginBtn: 'Log in',
+      signupBtn: 'Start for free',
+      logoutBtn: 'Log out',
+      footerNavHeading: 'Navigation',
+      footerSupport: 'Support',
+      footerContactHeading: 'Contact',
+      footerContactNote:
+        "ANDERGO's automated messages may be sent from non-reply@andergo.online. Please don't reply to that address.",
+      footerRights: 'ANDERGO. All rights reserved.',
+      aboutBadge: 'About',
+      aboutTitle: 'About ANDERGO',
+      aboutWhatTitle: 'What ANDERGO is',
+      aboutWhatP1:
+        'ANDERGO is a platform for learning English, French and Spanish with a clear path from A1 to C2. Each level combines vocabulary, dialogues, reading, writing, grammar and guided speaking practice, backed by an AI Tutor that replies in real time and a neural voice for pronunciation practice.',
+      aboutWhatP2:
+        'Your progress, streak and goals are saved securely and only you can see them. The interface is designed to be clear, fast and accessible from any device.',
+      aboutHowTitle: 'How it works',
+      aboutHowSubtitle: 'No confusing plans or unnecessary steps: choose, practice and track your progress.',
+      aboutStep1Title: '1. Choose your language and level',
+      aboutStep1Text: 'Pick English, French or Spanish, and the A1–C2 level that fits you best.',
+      aboutStep2Title: '2. Practice guided lessons',
+      aboutStep2Text: 'Vocabulary, dialogues, reading, writing, grammar and real exercises in every unit.',
+      aboutStep3Title: '3. Talk with the AI Tutor',
+      aboutStep3Text: 'Clear up doubts, practice conversation and get instant correction.',
+      aboutStep4Title: '4. Track your real progress',
+      aboutStep4Text: 'Follow your streak, your goals and your weekly progress from your dashboard.',
+      aboutStartFreeBtn: 'Start for free',
+      aboutIncludesTitle: 'What the platform includes',
+      aboutIncludesItem1: 'Complete A1-to-C2 paths in English, French and Spanish.',
+      aboutIncludesItem2: 'Listening, Speaking, Reading, Writing, Grammar and Vocabulary in every unit.',
+      aboutIncludesItem3: 'An AI Tutor available any time to practice and clear up doubts.',
+      aboutIncludesItem4: 'A neural voice for pronunciation and listening-comprehension practice.',
+      aboutIncludesItem5: 'Progress, streak and personal-goal tracking.',
+      aboutIncludesItem6: 'A quick translator built in across all three languages.',
+      aboutIncludesItem7: 'Premium access to unlock additional content.',
+      aboutCreatorTitle: 'About the creator',
+      aboutCreatorP1:
+        'ANDERGO was created by Anderson Almánzar de la Cruz, an English teacher and specialist in Applied Linguistics for the English Language. The platform was born to offer a more practical, accessible, interactive language-learning experience centered on every student’s real progress.',
+      aboutCreatorP2:
+        "With years of experience teaching English, Anderson has devoted his career to language teaching with a close, practical approach, always attentive to the real challenges a student faces when learning a new language. That interest in teaching shaped ANDERGO's educational vision: a platform where every person practices for real, gets clear feedback and moves forward at their own pace. His commitment is to offer accessible, quality language education to anyone, wherever they are.",
+      aboutContactTitle: 'Contact and support',
+      aboutContactIntro: 'For questions, technical help or to report an issue, write to us at',
+      aboutContactBtn: 'Contact support',
+      aboutContactNote:
+        'non-reply@andergo.online is used only for automated notifications, confirmations and account recovery.',
+      genericLoading: 'Loading…',
+      genericLoadFailed: 'Could not load',
+      dashboardLoadingProgress: 'Loading your progress…',
+      dashboardLoadingPanel: 'Loading your dashboard…',
+      dashboardLoadingGoal: 'Loading your goal…',
+      dashboardLoadingActivity: 'Loading activity…',
+      progressLoadFailed: 'Could not load your progress.',
+      panelLoadFailed: 'Could not load your dashboard. Try reloading the page.',
+      securityLoadFailed: 'Could not load your security status. Try reloading.',
+      authSendLink: 'Send link',
+      authResendLink: 'Resend link',
+      authEnterCode: 'Enter the 6-digit code.',
+      authCodeResent: 'Code resent. Check your email.',
+      premiumGetBtn: 'Get Premium',
+      translatorSelectDifferent: 'Select two different languages.',
+      translatorTranslating: 'Translating…',
+      skillNotAvailableLevel: 'Not available at this level'
+    },
+    french: {
+      skipLink: 'Aller au contenu',
+      menuToggleAria: 'Ouvrir le menu',
+      navHome: 'Accueil',
+      navLearnVisitor: 'Langues',
+      navPremium: 'Premium',
+      navTranslator: 'Traducteur',
+      navAbout: 'À propos',
+      navLearnMember: 'Apprendre',
+      navProgress: 'Progrès',
+      navAchievements: 'Succès',
+      navGoals: 'Objectifs',
+      navTutor: 'Tuteur IA ANDERGO',
+      navSecurity: 'Sécurité',
+      loginBtn: 'Se connecter',
+      signupBtn: 'Commencer gratuitement',
+      logoutBtn: 'Se déconnecter',
+      footerNavHeading: 'Navigation',
+      footerSupport: 'Assistance',
+      footerContactHeading: 'Contact',
+      footerContactNote:
+        "Les messages automatiques d'ANDERGO peuvent être envoyés depuis non-reply@andergo.online. Merci de ne pas répondre à cette adresse.",
+      footerRights: 'ANDERGO. Tous droits réservés.',
+      aboutBadge: 'À propos',
+      aboutTitle: "À propos d'ANDERGO",
+      aboutWhatTitle: "Qu'est-ce qu'ANDERGO",
+      aboutWhatP1:
+        "ANDERGO est une plateforme pour apprendre l'anglais, le français et l'espagnol avec un parcours clair de A1 à C2. Chaque niveau combine vocabulaire, dialogues, lecture, écriture, grammaire et pratique orale guidée, avec un Tuteur IA qui répond en temps réel et une voix neuronale pour s'entraîner à la prononciation.",
+      aboutWhatP2:
+        "Votre progression, votre série et vos objectifs sont enregistrés en toute sécurité et vous seul pouvez les voir. L'interface est conçue pour être claire, rapide et accessible depuis n'importe quel appareil.",
+      aboutHowTitle: 'Comment ça marche',
+      aboutHowSubtitle:
+        'Pas de formules confuses ni d’étapes inutiles : choisissez, pratiquez et suivez vos progrès.',
+      aboutStep1Title: '1. Choisissez votre langue et votre niveau',
+      aboutStep1Text: "Sélectionnez l'anglais, le français ou l'espagnol, et le niveau A1–C2 qui vous convient.",
+      aboutStep2Title: '2. Pratiquez des leçons guidées',
+      aboutStep2Text: 'Vocabulaire, dialogues, lecture, écriture, grammaire et exercices réels dans chaque unité.',
+      aboutStep3Title: '3. Parlez avec le Tuteur IA',
+      aboutStep3Text: 'Répondez à vos questions, pratiquez la conversation et recevez une correction instantanée.',
+      aboutStep4Title: '4. Suivez vos progrès réels',
+      aboutStep4Text: 'Suivez votre série, vos objectifs et votre progression chaque semaine depuis votre tableau de bord.',
+      aboutStartFreeBtn: 'Commencer gratuitement',
+      aboutIncludesTitle: 'Ce que la plateforme inclut',
+      aboutIncludesItem1: 'Des parcours complets de A1 à C2 en anglais, français et espagnol.',
+      aboutIncludesItem2: 'Listening, Speaking, Reading, Writing, Grammar et Vocabulary dans chaque unité.',
+      aboutIncludesItem3: 'Un Tuteur IA disponible à tout moment pour pratiquer et répondre aux questions.',
+      aboutIncludesItem4: "Une voix neuronale pour s'entraîner à la prononciation et à la compréhension orale.",
+      aboutIncludesItem5: 'Un suivi de la progression, de la série et des objectifs personnels.',
+      aboutIncludesItem6: 'Un traducteur rapide intégré entre les trois langues.',
+      aboutIncludesItem7: 'Un accès Premium pour débloquer du contenu supplémentaire.',
+      aboutCreatorTitle: 'À propos du créateur',
+      aboutCreatorP1:
+        "ANDERGO a été créé par Anderson Almánzar de la Cruz, professeur d'anglais et spécialiste en linguistique appliquée à l'anglais. La plateforme est née dans le but d'offrir une expérience d'apprentissage des langues plus pratique, accessible, interactive et centrée sur les progrès réels de chaque étudiant.",
+      aboutCreatorP2:
+        "Fort de plusieurs années d'expérience en tant que professeur d'anglais, Anderson a consacré sa carrière à l'enseignement des langues avec une approche proche et pratique, toujours attentif aux défis réels que rencontre un étudiant en apprenant une nouvelle langue. Cet intérêt pour l'enseignement a façonné la vision éducative d'ANDERGO : une plateforme où chaque personne pratique réellement, reçoit des retours clairs et progresse à son propre rythme. Son engagement est d'offrir une éducation linguistique accessible et de qualité à tous, où qu'ils se trouvent.",
+      aboutContactTitle: 'Contact et assistance',
+      aboutContactIntro: "Pour toute question, assistance technique ou signalement d'un problème, écrivez-nous à",
+      aboutContactBtn: "Contacter l'assistance",
+      aboutContactNote:
+        "non-reply@andergo.online est utilisé uniquement pour les notifications automatiques, les confirmations et la récupération de compte.",
+      genericLoading: 'Chargement…',
+      genericLoadFailed: 'Échec du chargement',
+      dashboardLoadingProgress: 'Chargement de vos progrès…',
+      dashboardLoadingPanel: 'Chargement de votre tableau de bord…',
+      dashboardLoadingGoal: 'Chargement de votre objectif…',
+      dashboardLoadingActivity: 'Chargement de l’activité…',
+      progressLoadFailed: 'Impossible de charger vos progrès.',
+      panelLoadFailed: 'Impossible de charger votre tableau de bord. Essayez de recharger la page.',
+      securityLoadFailed: 'Impossible de charger votre statut de sécurité. Essayez de recharger.',
+      authSendLink: 'Envoyer le lien',
+      authResendLink: 'Renvoyer le lien',
+      authEnterCode: 'Saisissez le code à 6 chiffres.',
+      authCodeResent: 'Code renvoyé. Vérifiez votre e-mail.',
+      premiumGetBtn: 'Obtenir Premium',
+      translatorSelectDifferent: 'Sélectionnez deux langues différentes.',
+      translatorTranslating: 'Traduction en cours…',
+      skillNotAvailableLevel: 'Non disponible à ce niveau'
+    }
+  };
+
+  // t(key, bridgeLanguage) - the app-wide interface-chrome string, in the
+  // student's L1/bridge/interface language (see the file-top note: these are
+  // the same field). Falls back to Spanish, then to the raw key - never
+  // throws on an unknown bridgeLanguage/key, matching getInterfaceLabel()'s
+  // contract above.
+  function t(key, bridgeLanguage) {
+    const table = UI_STRINGS[bridgeLanguage] || UI_STRINGS.spanish;
+    return table[key] || UI_STRINGS.spanish[key] || key;
+  }
 
   // How `languageKey`'s name is written for a reader whose interface
   // language is `interfaceLanguage`. Falls back to Spanish (this app's
@@ -279,6 +547,7 @@
     LANGUAGE_PAIRS,
     languageNameIn,
     getInterfaceLabel,
+    t,
     getSupportText,
     getTargetContent,
     getLanguagePairLabel,

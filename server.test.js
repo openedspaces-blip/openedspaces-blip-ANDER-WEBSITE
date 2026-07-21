@@ -11,6 +11,8 @@ const { isPremiumActive, LIMIT_MESSAGE } = require('./lib/voiceAccessService');
 const config = require('./lib/config');
 const { getSupabaseAdmin } = require('./lib/supabaseClient');
 const LanguagePair = require('./src/js/language-pair');
+const { sanitizeGrammarTestForClient } = require('./lib/grammarTestSanitizer');
+const { gradeQuestionBank } = require('./lib/courseLessonsService');
 
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -648,6 +650,147 @@ test('English A1 has no dialogue-skill activities (dialogue is French-A1-only fo
     (row) => row.target_language === 'english' && row.skill === 'dialogue'
   );
   assert.equal(englishDialogueRows.length, 0);
+});
+
+// ---------------------------------------------------------------------
+// English A1/A2 Grammar assessments (scripts/content/english-a1-units.js
+// and english-a2-units.js, flattened into lib/seed-lessons.json's
+// `content_json.extra.grammarTest`). Every Grammar lesson now carries a
+// scored, 12-question, multiple-choice-only test bank - see
+// lib/grammarTestSanitizer.js (never ships correctOptionId/explanation-of-
+// the-answer before submission) and lib/courseLessonsService.js's
+// gradeQuestionBank (the score-out-of-100 formula). These checks read the
+// seed file / pure grading function directly, exactly like the English A2
+// question-bank tests above, so they pass regardless of whether Supabase
+// has been re-seeded with this content yet.
+function grammarTestBankFor(languageCode, levelCode, unitSlug) {
+  const row = seedLessons.find(
+    (r) =>
+      r.target_language === languageCode &&
+      r.level === levelCode &&
+      r.unit_slug === unitSlug &&
+      r.skill === 'grammar'
+  );
+  return row && row.content_json.extra && row.content_json.extra.grammarTest;
+}
+
+function assertWellFormedGrammarTest(bank, label) {
+  assert.ok(bank, `${label}: expected a grammarTest question bank`);
+  assert.equal(bank.questions.length, 12, `${label}: expected exactly 12 questions`);
+
+  const questionIds = new Set();
+  const correctPositions = [];
+  bank.questions.forEach((question) => {
+    assert.equal(question.type, 'mcq', `${label}/${question.id}: every question must be multiple choice`);
+    assert.equal(questionIds.has(question.id), false, `${label}: duplicate question id "${question.id}"`);
+    questionIds.add(question.id);
+
+    assert.equal(question.options.length, 4, `${label}/${question.id}: expected exactly 4 options`);
+    const optionIds = new Set(question.options.map((o) => o.id));
+    assert.equal(optionIds.size, 4, `${label}/${question.id}: duplicate option ids`);
+    assert.ok(
+      optionIds.has(question.correctOptionId),
+      `${label}/${question.id}: correctOptionId must reference one of the 4 options`
+    );
+    assert.ok(question.explanation && question.explanation.trim().length > 0, `${label}/${question.id}: missing explanation`);
+    correctPositions.push(question.options.findIndex((o) => o.id === question.correctOptionId));
+  });
+
+  const distinctPositions = new Set(correctPositions);
+  assert.ok(
+    distinctPositions.size >= 2,
+    `${label}: correct answers must not always sit in the same option position`
+  );
+}
+
+test('English A1 has exactly 12 units, each with a Grammar lesson carrying a well-formed 12-question multiple-choice test', () => {
+  const englishA1UnitSlugs = [
+    ...new Set(seedLessons.filter((r) => r.target_language === 'english' && r.level === 'A1').map((r) => r.unit_slug))
+  ];
+  assert.equal(englishA1UnitSlugs.length, 12);
+  englishA1UnitSlugs.forEach((unitSlug) => {
+    const bank = grammarTestBankFor('english', 'A1', unitSlug);
+    assertWellFormedGrammarTest(bank, `english-a1-${unitSlug}`);
+  });
+});
+
+test('English A1 grammarTest question banks never leak the answer key through the client sanitizer', () => {
+  const englishA1UnitSlugs = [
+    ...new Set(seedLessons.filter((r) => r.target_language === 'english' && r.level === 'A1').map((r) => r.unit_slug))
+  ];
+  englishA1UnitSlugs.forEach((unitSlug) => {
+    const bank = grammarTestBankFor('english', 'A1', unitSlug);
+    const sanitized = sanitizeGrammarTestForClient(bank);
+    assert.equal(sanitized.questions.length, 12);
+    sanitized.questions.forEach((question) => {
+      assert.equal('correctOptionId' in question, false, `${unitSlug}/${question.id}: leaks correctOptionId`);
+      assert.equal('explanation' in question, false, `${unitSlug}/${question.id}: leaks the per-question explanation before submission`);
+      assert.equal(question.options.length, 4);
+      question.options.forEach((opt) => {
+        assert.deepEqual(Object.keys(opt).sort(), ['id', 'text']);
+      });
+    });
+  });
+});
+
+test('English A1 public browser bundle (src/worlds/english/content.js) does not expose grammarTest answer keys', () => {
+  const code = fs.readFileSync(path.join(__dirname, 'src/worlds/english/content.js'), 'utf8');
+  const window = {};
+  vm.runInContext(code, vm.createContext({ window }), { filename: 'src/worlds/english/content.js' });
+  const englishA1Lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons.english.filter(
+    (l) => l.level === 'A1' && l.skill === 'grammar'
+  );
+  assert.equal(englishA1Lessons.length, 12);
+  englishA1Lessons.forEach((lesson) => {
+    const bank = lesson.extra && lesson.extra.grammarTest;
+    assert.ok(bank, `${lesson.slug}: expected a grammarTest in the public bundle`);
+    assert.equal(bank.questions.length, 12);
+    bank.questions.forEach((question) => {
+      assert.equal('correctOptionId' in question, false, `${lesson.slug}/${question.id}: leaks correctOptionId`);
+      assert.equal('acceptedAnswers' in question, false, `${lesson.slug}/${question.id}: leaks acceptedAnswers`);
+      assert.equal('correctOrder' in question, false, `${lesson.slug}/${question.id}: leaks correctOrder`);
+    });
+  });
+});
+
+test('gradeQuestionBank scores a 12-question grammarTest out of 100, matching the spec table exactly', () => {
+  const bank = grammarTestBankFor('english', 'A1', 'hello');
+  assert.ok(bank, 'expected the english-a1-hello grammarTest bank to exist');
+
+  function scoreFor(correctCount) {
+    const answers = bank.questions.map((q, index) => ({
+      questionId: q.id,
+      // Answer correctly for the first `correctCount` questions, wrongly for the rest.
+      answer: index < correctCount ? q.correctOptionId : `${q.correctOptionId}-wrong`
+    }));
+    return gradeQuestionBank(bank, answers).score;
+  }
+
+  assert.equal(scoreFor(12), 100);
+  assert.equal(scoreFor(11), 92);
+  assert.equal(scoreFor(10), 83);
+  assert.equal(scoreFor(9), 75);
+  assert.equal(scoreFor(8), 67);
+  assert.equal(scoreFor(7), 58);
+  assert.equal(scoreFor(6), 50);
+});
+
+test('gradeQuestionBank feedback (results[]) corresponds to the right question and its own explanation', () => {
+  const bank = grammarTestBankFor('english', 'A1', 'about-me');
+  assert.ok(bank);
+  const answers = bank.questions.map((q, index) => ({
+    questionId: q.id,
+    // Alternate right/wrong so both correct=true and correct=false paths are exercised.
+    answer: index % 2 === 0 ? q.correctOptionId : `${q.correctOptionId}-wrong`
+  }));
+  const { results } = gradeQuestionBank(bank, answers);
+  assert.equal(results.length, 12);
+  results.forEach((result, index) => {
+    const question = bank.questions[index];
+    assert.equal(result.questionId, question.id);
+    assert.equal(result.correct, index % 2 === 0);
+    assert.equal(result.explanation, question.explanation);
+  });
 });
 
 // ---------------------------------------------------------------------
@@ -1413,4 +1556,133 @@ test('reading audio player: is compact (~54-66px tall on desktop, 4-5px progress
   const controlsRule = css.match(/\.reading-audio-controls \{([\s\S]*?)\}/)?.[1];
   assert.match(controlsRule, /display:\s*flex;/);
   assert.match(controlsRule, /flex-wrap:\s*wrap;/);
+});
+
+test('LanguagePair.t(): translates app-wide UI chrome strings into spanish/english/french and falls back to Spanish', () => {
+  assert.equal(LanguagePair.t('loginBtn', 'spanish'), 'Iniciar sesión');
+  assert.equal(LanguagePair.t('loginBtn', 'english'), 'Log in');
+  assert.equal(LanguagePair.t('loginBtn', 'french'), 'Se connecter');
+  // Unsupported bridge language (e.g. italian/german, no course content yet)
+  // falls back to Spanish, same rule as every other table in this file.
+  assert.equal(LanguagePair.t('loginBtn', 'italian'), LanguagePair.t('loginBtn', 'spanish'));
+  // Unknown key never throws, returns the raw key back.
+  assert.equal(LanguagePair.t('thisKeyDoesNotExist', 'english'), 'thisKeyDoesNotExist');
+
+  // A representative sample across nav/footer/about/dashboard/auth/premium -
+  // every key must actually be translated (not silently falling back to the
+  // Spanish string) for all three fully-supported bridge languages.
+  const sampleKeys = [
+    'navHome',
+    'navTranslator',
+    'navAbout',
+    'footerNavHeading',
+    'footerRights',
+    'aboutTitle',
+    'aboutWhatTitle',
+    'aboutStartFreeBtn',
+    'dashboardLoadingPanel',
+    'authSendLink',
+    'authEnterCode',
+    'premiumGetBtn',
+    'translatorSelectDifferent'
+  ];
+  for (const key of sampleKeys) {
+    const es = LanguagePair.t(key, 'spanish');
+    const en = LanguagePair.t(key, 'english');
+    const fr = LanguagePair.t(key, 'french');
+    assert.notEqual(en, es, `expected an actual English translation for "${key}", not the Spanish fallback`);
+    assert.notEqual(fr, es, `expected an actual French translation for "${key}", not the Spanish fallback`);
+    assert.notEqual(en, key, `expected "${key}" to be translated, not returned as the raw key`);
+  }
+});
+
+test('language-pair.js: UI_STRINGS has the exact same key set for spanish/english/french (no missing translations)', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'language-pair.js'), 'utf8');
+  const block = source.match(
+    /const UI_STRINGS = \{\n {4}spanish: \{([\s\S]*?)\n {4}\},\n {4}english: \{([\s\S]*?)\n {4}\},\n {4}french: \{([\s\S]*?)\n {4}\}\n {2}\};/
+  );
+  assert.ok(block, 'expected to find the UI_STRINGS table with spanish/english/french blocks');
+
+  const keysOf = (body) =>
+    [...body.matchAll(/^\s*(\w+):/gm)].map((m) => m[1]).sort();
+
+  const spanishKeys = keysOf(block[1]);
+  const englishKeys = keysOf(block[2]);
+  const frenchKeys = keysOf(block[3]);
+  assert.ok(spanishKeys.length > 30, 'expected a substantial UI_STRINGS table, not a stub');
+  assert.deepEqual(englishKeys, spanishKeys, 'english UI_STRINGS is missing/has extra keys vs spanish');
+  assert.deepEqual(frenchKeys, spanishKeys, 'french UI_STRINGS is missing/has extra keys vs spanish');
+});
+
+test('index.html: nav, footer and About section text is driven by data-i18n, not hardcoded Spanish', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+
+  for (const key of [
+    'skipLink',
+    'menuToggleAria',
+    'navHome',
+    'navLearnVisitor',
+    'navPremium',
+    'navTranslator',
+    'navAbout',
+    'navLearnMember',
+    'navTutor',
+    'loginBtn',
+    'signupBtn',
+    'logoutBtn',
+    'footerNavHeading',
+    'footerContactHeading',
+    'footerRights',
+    'aboutBadge',
+    'aboutTitle',
+    'aboutWhatTitle',
+    'aboutHowTitle',
+    'aboutIncludesTitle',
+    'aboutCreatorTitle',
+    'aboutContactTitle',
+    'premiumGetBtn',
+    'authSendLink'
+  ]) {
+    assert.match(
+      html,
+      new RegExp(`data-i18n(-aria-label)?="${key}"`),
+      `expected index.html to have a data-i18n (or data-i18n-aria-label) for "${key}"`
+    );
+  }
+});
+
+test('script.js: applyInterfaceLanguage() exists, patches data-i18n/-aria-label/-placeholder elements, and is wired to every bridgeLanguage change', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+
+  const body = source.match(/function applyInterfaceLanguage\(bridgeLanguage\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(body, 'expected to find applyInterfaceLanguage() body');
+  assert.match(body, /data-i18n/);
+  assert.match(body, /data-i18n-aria-label/);
+  assert.match(body, /data-i18n-placeholder/);
+  assert.match(body, /LanguagePair\.t\(/);
+  assert.match(body, /refreshLanguagePairChrome\(\);/);
+
+  // Every place bridgeLanguage is actually reassigned must re-apply the
+  // interface language - otherwise switching L1 would leave stale-language
+  // chrome on screen until the next unrelated re-render (spec §2).
+  const setBridgeBody = source.match(/function setBridgeLanguage\(bridgeName, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.match(setBridgeBody, /applyInterfaceLanguage\(bridgeName\);/);
+
+  const swapBody = source.match(/function swapLearningPathLanguages\(\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.match(swapBody, /applyInterfaceLanguage\(swapped\.bridge\);/);
+
+  const applyPrefsBody = source.match(/function applyPreferencesToSelects\(preferences\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.match(applyPrefsBody, /applyInterfaceLanguage\(learningPathState\.bridgeLanguage\);/);
+});
+
+test('script.js: L2 (target language) still drives the learning content, independent of L1', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  // loadLearningPath (the function that fetches/renders lesson content) is
+  // keyed off learningPathState.language (L2), never off bridgeLanguage (L1)
+  // - the two stay independent axes, per spec §2's example (bridge=spanish,
+  // target=english -> Spanish interface, English content).
+  assert.match(source, /function setTargetLanguage\(lang, options = \{\}\) \{/);
+  const setTargetBody = source.match(/function setTargetLanguage\(lang, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.match(setTargetBody, /learningPathState\.language = resolved;/);
+  assert.doesNotMatch(setTargetBody, /learningPathState\.bridgeLanguage = resolved;/);
 });
