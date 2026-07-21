@@ -132,7 +132,19 @@ const units = [
       grammar: activity('grammar', {
         title: 'The Verb "To Be": am / is / are',
         description: 'Learn how to use am, is and are with I, you, he/she/it, we, they.',
-        grammarNote: 'The verb "to be" changes depending on the subject: I am, you are, he/she/it is, we are, they are. We use it to say names, feelings, and where we are from. Example: "I am Ana. You are my friend. He is the teacher."',
+        grammarNote:
+          'Goal: use the correct form of the verb "to be" (am / is / are) with every subject pronoun.\n\n' +
+          'Rule: "to be" is the most important verb in English. It changes depending on the subject: I am, you are, he/she/it is, we are, they are. We use it to say names, feelings, ages, jobs and where people are from.\n\n' +
+          'Pattern: Subject + am/is/are + (a/an) + noun or adjective.\nI / am\nYou, We, They / are\nHe, She, It / is\n\n' +
+          'Examples:\n1. I am Ana.\n2. You are my friend.\n3. He is the teacher.\n4. She is happy.\n5. It is a big school.\n6. We are students.\n7. They are from the Dominican Republic.\n8. My name is Leo.\n\n' +
+          'Affirmative: Subject + am/is/are + rest of the sentence. Example: "She is my teacher."\n\n' +
+          'Negative: add "not" right after am/is/are. Example: "I am not tired." "They are not late." "He is not my brother."\n\n' +
+          'Questions: put am/is/are before the subject. Example: "Are you a student?" "Is she your teacher?" "Am I right?"\n\n' +
+          'Contractions: I\'m = I am. You\'re = you are. He\'s = he is. She\'s = she is. It\'s = it is. We\'re = we are. They\'re = they are. Negative contractions: isn\'t = is not, aren\'t = are not.\n\n' +
+          'Common mistakes: ✗ "I is a student" → ✓ "I am a student". ✗ "She are my friend" → ✓ "She is my friend". ✗ "They is happy" → ✓ "They are happy". Remember: never use "be" alone in a sentence (✗ "I be tired").\n\n' +
+          'Compare: use "is" only with he/she/it (one person or thing); use "are" with you/we/they (more than one, or when talking directly to someone); use "am" only with "I".\n\n' +
+          'Mini practice: say these out loud and check the verb. "My mother ___ a nurse." (is) "My parents ___ from Santiago." (are) "I ___ ready." (am)\n\n' +
+          'Summary: am goes with I; is goes with he/she/it; are goes with you/we/they. Add "not" for negatives, and move the verb before the subject for questions.',
         phrases: ['I am...', 'You are...', 'He/She is...', 'We are...', 'They are...'],
         exercises: [
           { type: 'mcq', prompt: 'I ___ a student.', options: ['am', 'is', 'are', 'be'], answer: 0 },
@@ -140,8 +152,8 @@ const units = [
           { type: 'mcq', prompt: 'They ___ my classmates.', options: ['am', 'is', 'are', 'be'], answer: 2 },
           { type: 'mcq', prompt: 'You ___ very kind.', options: ['am', 'is', 'are', 'be'], answer: 2 }
         ],
-        // Scored Grammar test pilot (see lib/grammarTestSanitizer.js) - a
-        // richer, mixed-type companion to the inline `exercises` above,
+        // Scored Grammar test (see lib/grammarTestSanitizer.js) - a richer,
+        // multiple-choice-only companion to the inline `exercises` above,
         // which stay as-is for the old immediate-feedback view. Never
         // include this data unsanitized anywhere client-facing.
         grammarTest: {
@@ -159,20 +171,22 @@ const units = [
                 { id: 'o4', text: 'be' }
               ],
               correctOptionId: 'o1',
-              explanation: 'With "I", the verb "to be" is always "am".'
+              explanation: 'With "I", the verb "to be" is always "am".',
+              difficulty: 'easy'
             },
             {
               id: 'q2',
               type: 'mcq',
               prompt: 'She ___ my teacher.',
               options: [
-                { id: 'o1', text: 'am' },
+                { id: 'o1', text: 'are' },
                 { id: 'o2', text: 'is' },
-                { id: 'o3', text: 'are' },
+                { id: 'o3', text: 'am' },
                 { id: 'o4', text: 'be' }
               ],
               correctOptionId: 'o2',
-              explanation: 'With "he/she/it", the verb "to be" is "is".'
+              explanation: 'With "he/she/it", the verb "to be" is "is".',
+              difficulty: 'easy'
             },
             {
               id: 'q3',
@@ -185,74 +199,134 @@ const units = [
                 { id: 'o4', text: 'be' }
               ],
               correctOptionId: 'o3',
-              explanation: 'With "they", the verb "to be" is "are".'
+              explanation: 'With "they", the verb "to be" is "are".',
+              difficulty: 'easy'
             },
             {
               id: 'q4',
               type: 'mcq',
-              prompt: 'You ___ very kind.',
+              prompt: 'Choose the correct sentence.',
               options: [
-                { id: 'o1', text: 'am' },
-                { id: 'o2', text: 'is' },
+                { id: 'o1', text: 'You is very kind.' },
+                { id: 'o2', text: 'You am very kind.' },
+                { id: 'o3', text: 'You are very kind.' },
+                { id: 'o4', text: 'You be very kind.' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'With "you", the verb "to be" is "are": "You are very kind."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'My name ___ Ana.',
+              options: [
+                { id: 'o1', text: 'are' },
+                { id: 'o2', text: 'am' },
+                { id: 'o3', text: 'be' },
+                { id: 'o4', text: 'is' }
+              ],
+              correctOptionId: 'o4',
+              explanation: '"My name" is he/she/it, so the verb is "is".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'We ___ from Santo Domingo.',
+              options: [
+                { id: 'o1', text: 'is' },
+                { id: 'o2', text: 'am' },
                 { id: 'o3', text: 'are' },
                 { id: 'o4', text: 'be' }
               ],
               correctOptionId: 'o3',
-              explanation: 'With "you", the verb "to be" is "are".'
-            },
-            {
-              id: 'q5',
-              type: 'fill_blank',
-              prompt: 'My name ___ Ana.',
-              acceptedAnswers: ['is'],
-              explanation: '"My name" is he/she/it, so the verb is "is".'
-            },
-            {
-              id: 'q6',
-              type: 'fill_blank',
-              prompt: 'We ___ from Santo Domingo.',
-              acceptedAnswers: ['are'],
-              explanation: 'With "we", the verb "to be" is "are".'
+              explanation: 'With "we", the verb "to be" is "are".',
+              difficulty: 'medium'
             },
             {
               id: 'q7',
-              type: 'fill_blank',
-              prompt: 'He ___ my friend.',
-              acceptedAnswers: ['is'],
-              explanation: 'With "he", the verb "to be" is "is".'
+              type: 'mcq',
+              prompt: 'Find the mistake: "He are my friend."',
+              options: [
+                { id: 'o1', text: 'The subject is wrong' },
+                { id: 'o2', text: '"are" should be "is"' },
+                { id: 'o3', text: '"friend" should be "friends"' },
+                { id: 'o4', text: 'There is no mistake' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"He" is he/she/it, so the sentence should be "He is my friend."',
+              difficulty: 'medium'
             },
             {
               id: 'q8',
-              type: 'fill_blank',
-              prompt: 'I ___ happy today.',
-              acceptedAnswers: ['am'],
-              explanation: 'With "I", the verb "to be" is always "am".'
+              type: 'mcq',
+              prompt: 'I ___ happy today. (negative)',
+              options: [
+                { id: 'o1', text: "isn't" },
+                { id: 'o2', text: 'am not' },
+                { id: 'o3', text: "aren't" },
+                { id: 'o4', text: 'not am' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'The negative of "I am" is "I am not" - there is no contraction "amn\'t" used here.',
+              difficulty: 'medium'
             },
             {
               id: 'q9',
-              type: 'ordering',
-              prompt: 'Put the words in the right order.',
-              items: [
-                { id: 'w1', text: 'She' },
-                { id: 'w2', text: 'is' },
-                { id: 'w3', text: 'my' },
-                { id: 'w4', text: 'teacher' }
+              type: 'mcq',
+              prompt: 'Which question is correct?',
+              options: [
+                { id: 'o1', text: 'You are a student?' },
+                { id: 'o2', text: 'Are you a student?' },
+                { id: 'o3', text: 'Is you a student?' },
+                { id: 'o4', text: 'Am you a student?' }
               ],
-              correctOrder: ['w1', 'w2', 'w3', 'w4'],
-              explanation: '"She is my teacher." - subject + verb "to be" + rest of the sentence.'
+              correctOptionId: 'o2',
+              explanation: 'Questions with "to be" put the verb before the subject: "Are you...?"',
+              difficulty: 'medium'
             },
             {
               id: 'q10',
-              type: 'ordering',
-              prompt: 'Put the words in the right order.',
-              items: [
-                { id: 'w1', text: 'We' },
-                { id: 'w2', text: 'are' },
-                { id: 'w3', text: 'good' },
-                { id: 'w4', text: 'friends' }
+              type: 'mcq',
+              prompt: 'Choose the correct order.',
+              options: [
+                { id: 'o1', text: 'Is my teacher she.' },
+                { id: 'o2', text: 'My teacher is she.' },
+                { id: 'o3', text: 'She is my teacher.' },
+                { id: 'o4', text: 'She my teacher is.' }
               ],
-              correctOrder: ['w1', 'w2', 'w3', 'w4'],
-              explanation: '"We are good friends." - subject + verb "to be" + rest of the sentence.'
+              correctOptionId: 'o3',
+              explanation: 'Subject + verb "to be" + rest of the sentence: "She is my teacher."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'What is the short form (contraction) of "they are"?',
+              options: [
+                { id: 'o1', text: "they's" },
+                { id: 'o2', text: "they'r" },
+                { id: 'o3', text: "they're" },
+                { id: 'o4', text: "their" }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"They are" contracts to "they\'re".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'A: "___ he your brother?" B: "Yes, he is."',
+              options: [
+                { id: 'o1', text: 'Are' },
+                { id: 'o2', text: 'Am' },
+                { id: 'o3', text: 'Do' },
+                { id: 'o4', text: 'Is' }
+              ],
+              correctOptionId: 'o4',
+              explanation: 'The answer uses "he is", so the question must use "Is he...?"',
+              difficulty: 'hard'
             }
           ]
         }
@@ -370,14 +444,200 @@ const units = [
       grammar: activity('grammar', {
         title: 'To Be: Negative and Questions',
         description: 'Learn "I am not...", "Is he...?" and possessive adjectives my/your.',
-        grammarNote: 'To make "to be" negative, add "not": I am not tired. She is not sad. To ask a question, put the verb first: Are you happy? Is he from Spain? We also use "my" (mine) and "your" (yours) before a noun: my name, your country.',
+        grammarNote:
+          'Goal: make negative sentences and questions with "to be", and use "my"/"your" to talk about people.\n\n' +
+          'Rule: to make "to be" negative, add "not" right after am/is/are. To ask a question, move the verb before the subject. "My" and "your" go before a noun to show who it belongs to.\n\n' +
+          'Pattern: Negative → Subject + am/is/are + not + rest. Question → Am/Is/Are + subject + rest?\n\n' +
+          'Examples:\n1. I am not tired.\n2. She is not sad.\n3. They are not from Spain.\n4. Are you happy?\n5. Is he your brother?\n6. Am I late?\n7. What is your name?\n8. My name is Ana.\n\n' +
+          'Affirmative reminder: "I am fine. My name is Leo." (see the previous lesson for the full affirmative forms).\n\n' +
+          'Negative: I am not / you are not / he is not / she is not / it is not / we are not / they are not. Example: "He is not my teacher."\n\n' +
+          'Questions: Am I...? / Are you...? / Is he/she/it...? / Are we/they...? Example: "Is she from Italy?" Answer short: "Yes, she is." / "No, she isn\'t."\n\n' +
+          'Contractions: I\'m not, you\'re not / you aren\'t, he\'s not / he isn\'t, she\'s not / she isn\'t, they\'re not / they aren\'t.\n\n' +
+          'Common mistakes: ✗ "She not is sad" → ✓ "She is not sad" (not goes after the verb, not before). ✗ "You is happy?" → ✓ "Are you happy?" ✗ "What is you name?" → ✓ "What is your name?" (your, not you, before a noun).\n\n' +
+          'Compare: "my" = belongs to me (my name); "your" = belongs to you (your country). Both come before a noun, never alone.\n\n' +
+          'Mini practice: make these negative and then a question. "He is tired." → "He is not tired." → "Is he tired?"\n\n' +
+          'Summary: add "not" after am/is/are for negatives; move am/is/are before the subject for questions; use my/your before a noun to show possession.',
         phrases: ['I am not...', 'Are you...?', 'Is he/she...?', 'my name / your name'],
         exercises: [
           { type: 'mcq', prompt: 'I ___ tired today. (negative)', options: ['am not', 'not am', 'isn\'t', 'aren\'t'], answer: 0 },
           { type: 'mcq', prompt: '___ you from Italy?', options: ['Is', 'Am', 'Are', 'Be'], answer: 2 },
           { type: 'mcq', prompt: '___ she happy today?', options: ['Are', 'Is', 'Am', 'Do'], answer: 1 },
           { type: 'mcq', prompt: 'What is ___ name? (talking to a friend)', options: ['my', 'your', 'he', 'is'], answer: 1 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a1-about-me-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'I ___ tired today. (negative)',
+              options: [
+                { id: 'o1', text: 'am not' },
+                { id: 'o2', text: 'not am' },
+                { id: 'o3', text: "isn't" },
+                { id: 'o4', text: "aren't" }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'With "I", the negative form is "am not".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: '___ you from Italy?',
+              options: [
+                { id: 'o1', text: 'Is' },
+                { id: 'o2', text: 'Am' },
+                { id: 'o3', text: 'Are' },
+                { id: 'o4', text: 'Be' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'With "you", questions use "Are".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: '___ she happy today?',
+              options: [
+                { id: 'o1', text: 'Are' },
+                { id: 'o2', text: 'Is' },
+                { id: 'o3', text: 'Am' },
+                { id: 'o4', text: 'Do' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'With "she", questions use "Is".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'What is ___ name? (talking to a friend)',
+              options: [
+                { id: 'o1', text: 'is' },
+                { id: 'o2', text: 'my' },
+                { id: 'o3', text: 'he' },
+                { id: 'o4', text: 'your' }
+              ],
+              correctOptionId: 'o4',
+              explanation: 'Talking to a friend, we ask about "your" name.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'Choose the correct sentence.',
+              options: [
+                { id: 'o1', text: 'She not is sad.' },
+                { id: 'o2', text: 'She is not sad.' },
+                { id: 'o3', text: 'Not she is sad.' },
+                { id: 'o4', text: 'She isn\'t not sad.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Not" goes right after the verb "to be": "She is not sad."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Find the mistake: "You is happy?"',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: '"happy" should be "happier"' },
+                { id: 'o3', text: 'It should be "Are you happy?"' },
+                { id: 'o4', text: 'It should be "You are happy."' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Questions with "you" need "Are" before the subject: "Are you happy?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'He ___ my brother. (negative)',
+              options: [
+                { id: 'o1', text: "aren't" },
+                { id: 'o2', text: 'is not' },
+                { id: 'o3', text: 'not is' },
+                { id: 'o4', text: 'am not' },
+              ],
+              correctOptionId: 'o2',
+              explanation: 'With "he", the negative form is "is not" (or "isn\'t").',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'What is the short form of "is not"?',
+              options: [
+                { id: 'o1', text: "aren't" },
+                { id: 'o2', text: "amn't" },
+                { id: 'o3', text: "not's" },
+                { id: 'o4', text: "isn't" }
+              ],
+              correctOptionId: 'o4',
+              explanation: '"is not" contracts to "isn\'t".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'A: "Is she your teacher?" B: "No, ___."',
+              options: [
+                { id: 'o1', text: "she's" },
+                { id: 'o2', text: 'she isn\'t' },
+                { id: 'o3', text: 'she aren\'t' },
+                { id: 'o4', text: 'she not' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A short negative answer with "she" is "she isn\'t".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'Complete the dialogue: A: "___ your name?" B: "My name is Leo."',
+              options: [
+                { id: 'o1', text: 'Who is' },
+                { id: 'o2', text: 'What is' },
+                { id: 'o3', text: 'Are you' },
+                { id: 'o4', text: 'Is your' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'We ask for a name with "What is your name?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Choose the equivalent sentence to "He is not from Spain."',
+              options: [
+                { id: 'o1', text: 'He isn\'t from Spain.' },
+                { id: 'o2', text: 'He aren\'t from Spain.' },
+                { id: 'o3', text: 'He not from Spain.' },
+                { id: 'o4', text: 'Isn\'t he from Spain.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"He is not..." and "He isn\'t..." mean exactly the same.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'A: "Are your parents doctors?" B: "Yes, ___."',
+              options: [
+                { id: 'o1', text: "they're" },
+                { id: 'o2', text: 'they are' },
+                { id: 'o3', text: 'they is' },
+                { id: 'o4', text: 'they am' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Short affirmative answers do not use a contraction: "Yes, they are."',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Feelings and Countries',
@@ -492,14 +752,200 @@ const units = [
       grammar: activity('grammar', {
         title: 'Possessive \'s and Plural Nouns',
         description: 'Learn how to show who something belongs to and how to make plurals.',
-        grammarNote: 'We add \'s to a name or person to show possession: Ana\'s brother, my sister\'s name. To make most nouns plural, add -s: one brother → two brothers, one friend → three friends. Some plurals are irregular: one child → two children.',
+        grammarNote:
+          'Goal: show who something belongs to with \'s, and make nouns plural correctly.\n\n' +
+          'Rule: add \'s to a name or person to show possession (the owner comes first). To make most nouns plural, add -s or -es; some nouns change completely (irregular plurals).\n\n' +
+          'Pattern: Owner + \'s + noun (Ana\'s brother). Noun + -s / -es for regular plurals (friend → friends, box → boxes). Irregular: child → children, man → men, woman → women.\n\n' +
+          'Examples:\n1. Ana\'s brother is nine.\n2. My sister\'s name is Sofia.\n3. This is my teacher\'s book.\n4. One brother, two brothers.\n5. One friend, three friends.\n6. One child, two children.\n7. My parents\' house is big.\n8. The boy\'s bag is red.\n\n' +
+          'Affirmative use: possessive \'s always attaches to the owner, not the thing owned: "my sister\'s name" (NOT "my sister name\'s").\n\n' +
+          'Plural nouns don\'t have a negative form, but remember: after a number greater than one, the noun must be plural: "I have two brothers" (not "two brother").\n\n' +
+          'Questions: "Whose book is this?" - "It is Ana\'s." / "How many brothers do you have?" - "I have two brothers."\n\n' +
+          'Contractions: \'s after a singular owner (Ana\'s) is the same mark used for "is" (she\'s), but the meaning is different - context tells you which one it is. For plural owners ending in -s, just add an apostrophe: my parents\' house.\n\n' +
+          'Common mistakes: ✗ "Ana brother" → ✓ "Ana\'s brother" (don\'t forget the \'s). ✗ "two childs" → ✓ "two children" (irregular plural). ✗ "friendes" → ✓ "friends" (only add -s, not -es, unless the word ends in s/sh/ch/x).\n\n' +
+          'Compare: \'s shows possession (Ana\'s book = the book that belongs to Ana); plain -s on a noun just shows there is more than one (two books = quantity, no owner).\n\n' +
+          'Mini practice: complete: "This is my (sister) ___ book." → sister\'s. "I have three (friend) ___." → friends. "Look at the (child) ___ over there." → children.\n\n' +
+          'Summary: use \'s after the owner\'s name to show possession; add -s/-es to most nouns for plurals; memorize irregular plurals like children, men and women.',
         phrases: ['Ana\'s brother', 'my sister\'s name', 'two brothers', 'three friends'],
         exercises: [
           { type: 'mcq', prompt: 'How do you say the name belonging to Ana\'s mother?', options: ['Ana mother name', 'Ana\'s mother\'s name', 'Ana is mother name', 'Mother\'s Ana name'], answer: 1 },
           { type: 'mcq', prompt: 'What is the plural of "friend"?', options: ['friend', 'friends', 'friendes', 'friendies'], answer: 1 },
           { type: 'mcq', prompt: 'What is the plural of "child"?', options: ['childs', 'childes', 'children', 'child'], answer: 2 },
           { type: 'mcq', prompt: 'Choose the correct sentence.', options: ['This is my sister brother.', 'This is my sister\'s brother.', 'This is my sisters brother.', 'This my sister\'s is brother.'], answer: 1 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a1-family-and-friends-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'This is ___ bag. (belongs to Ana)',
+              options: [
+                { id: 'o1', text: 'Ana' },
+                { id: 'o2', text: "Ana's" },
+                { id: 'o3', text: "Anas" },
+                { id: 'o4', text: "Ana is" }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Add \'s to the owner\'s name: "Ana\'s bag."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'What is the plural of "friend"?',
+              options: [
+                { id: 'o1', text: 'friendes' },
+                { id: 'o2', text: 'friend' },
+                { id: 'o3', text: 'friends' },
+                { id: 'o4', text: 'friendies' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Most nouns add just -s: friend → friends.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'What is the plural of "child"?',
+              options: [
+                { id: 'o1', text: 'childs' },
+                { id: 'o2', text: 'childes' },
+                { id: 'o3', text: 'child' },
+                { id: 'o4', text: 'children' }
+              ],
+              correctOptionId: 'o4',
+              explanation: '"Child" has an irregular plural: children.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'Choose the correct sentence.',
+              options: [
+                { id: 'o1', text: 'This is my sister brother.' },
+                { id: 'o2', text: 'This is my sisters brother.' },
+                { id: 'o3', text: "This is my sister's brother." },
+                { id: 'o4', text: "This my sister's is brother." }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'The owner (sister) needs \'s before the thing owned (brother).',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'I have two ___.',
+              options: [
+                { id: 'o1', text: 'brother' },
+                { id: 'o2', text: "brother's" },
+                { id: 'o3', text: 'brothers' },
+                { id: 'o4', text: 'brotheres' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'After a number greater than one, use the plural: two brothers.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Find the mistake: "I have three friendes."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "friend"' },
+                { id: 'o3', text: 'It should be "friends"' },
+                { id: 'o4', text: 'It should be "friend\'s"' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Friend" only needs -s for the plural: friends.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'What is the plural of "woman"?',
+              options: [
+                { id: 'o1', text: 'womans' },
+                { id: 'o2', text: 'women' },
+                { id: 'o3', text: 'womens' },
+                { id: 'o4', text: 'woman' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Woman" has the irregular plural "women".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'A: "Whose book is this?" B: "It is ___."',
+              options: [
+                { id: 'o1', text: 'Ana' },
+                { id: 'o2', text: 'Ana book' },
+                { id: 'o3', text: "Ana's" },
+                { id: 'o4', text: 'Anas' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'We answer "whose" with the owner + \'s: "It is Ana\'s."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Choose the sentence with the same meaning as "The book that belongs to my teacher."',
+              options: [
+                { id: 'o1', text: "My teacher's book." },
+                { id: 'o2', text: 'My teachers book.' },
+                { id: 'o3', text: 'My teacher book.' },
+                { id: 'o4', text: 'The my teacher book.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Possessive \'s expresses "the book that belongs to my teacher": "my teacher\'s book."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'My ___ house is near the school. (belongs to my parents, plural)',
+              options: [
+                { id: 'o1', text: "parent's" },
+                { id: 'o2', text: "parents's" },
+                { id: 'o3', text: "parents'" },
+                { id: 'o4', text: 'parents' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'For a plural owner already ending in -s, just add an apostrophe: parents\'.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Choose the correct order: "brother / my / is / this"',
+              options: [
+                { id: 'o1', text: 'Brother this my is.' },
+                { id: 'o2', text: 'This is my brother.' },
+                { id: 'o3', text: 'Is this my brother.' },
+                { id: 'o4', text: 'My this is brother.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'The natural order is subject + verb + rest: "This is my brother."',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'How many children does the family have if they say "We have one boy and one girl"?',
+              options: [
+                { id: 'o1', text: 'One child' },
+                { id: 'o2', text: 'Two child' },
+                { id: 'o3', text: 'Two children' },
+                { id: 'o4', text: 'Two childs' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'One boy + one girl = two children (irregular plural).',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Family Members',
@@ -614,14 +1060,200 @@ const units = [
       grammar: activity('grammar', {
         title: 'There Is / There Are + Articles',
         description: 'Learn to say what exists using there is / there are, and a / an / the.',
-        grammarNote: 'We use "there is" with singular nouns and "there are" with plural nouns: There is a clock. There are twenty desks. Use "a" before a consonant sound (a pen) and "an" before a vowel sound (an eraser). Use "the" when both speakers know exactly which thing we mean: the whiteboard (the one in our classroom).',
+        grammarNote:
+          'Goal: say what exists in a place with "there is/are", and choose the right article (a/an/the).\n\n' +
+          'Rule: "there is" introduces one thing (singular); "there are" introduces more than one (plural). "A/an" introduce something new or not specific; "the" points to something both speakers already know.\n\n' +
+          'Pattern: There is + a/an + singular noun. There are + plural noun. A + consonant sound. An + vowel sound. The + noun already known.\n\n' +
+          'Examples:\n1. There is a clock on the wall.\n2. There are twenty desks.\n3. There is an eraser in my bag.\n4. There are some books on the desk.\n5. I have a pencil.\n6. She has an orange notebook.\n7. The whiteboard is white.\n8. There isn\'t a computer in this room.\n\n' +
+          'Affirmative: There is/are + noun. Example: "There is a map on the wall."\n\n' +
+          'Negative: There isn\'t / there aren\'t + noun. Example: "There isn\'t a window here." "There aren\'t any chairs."\n\n' +
+          'Questions: Is there / Are there + noun...? Example: "Is there a library?" "Are there computers in the lab?" Short answers: "Yes, there is." / "No, there aren\'t."\n\n' +
+          'Contractions: there\'s = there is, there isn\'t = there is not, there aren\'t = there are not.\n\n' +
+          'Common mistakes: ✗ "There is twenty desks" → ✓ "There are twenty desks" (plural noun needs "are"). ✗ "There are a pencil" → ✓ "There is a pencil". ✗ "I have a eraser" → ✓ "I have an eraser" (vowel sound needs "an").\n\n' +
+          'Compare: "there is/are" says something exists; "it is" describes something already mentioned. "A/an" = one, not specific yet; "the" = the specific one we both know.\n\n' +
+          'Mini practice: complete with is/are, a/an/the. "___ ___ orange on the desk." → There is an orange on the desk. "___ ___ many students in the class." → There are many students in the class.\n\n' +
+          'Summary: use "there is" + singular, "there are" + plural; use "a" before consonant sounds, "an" before vowel sounds, and "the" for something specific both people know.',
         phrases: ['There is a...', 'There are...', 'a pencil / an eraser', 'the classroom'],
         exercises: [
           { type: 'mcq', prompt: '___ a computer lab at school.', options: ['There is', 'There are', 'Is there', 'It is'], answer: 0 },
           { type: 'mcq', prompt: '___ twenty students in my class.', options: ['There is', 'There are', 'Is there', 'It are'], answer: 1 },
           { type: 'mcq', prompt: 'I have ___ eraser in my bag.', options: ['a', 'an', 'the', 'some'], answer: 1 },
           { type: 'mcq', prompt: 'I have ___ pencil.', options: ['a', 'an', 'are', 'is'], answer: 0 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a1-my-school-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: '___ a computer lab at school.',
+              options: [
+                { id: 'o1', text: 'There is' },
+                { id: 'o2', text: 'There are' },
+                { id: 'o3', text: 'Is there' },
+                { id: 'o4', text: 'It is' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"Computer lab" is singular, so we use "There is".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: '___ twenty students in my class.',
+              options: [
+                { id: 'o1', text: 'It is' },
+                { id: 'o2', text: 'There are' },
+                { id: 'o3', text: 'There is' },
+                { id: 'o4', text: 'Is there' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Twenty students" is plural, so we use "There are".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'I have ___ eraser in my bag.',
+              options: [
+                { id: 'o1', text: 'a' },
+                { id: 'o2', text: 'an' },
+                { id: 'o3', text: 'the' },
+                { id: 'o4', text: 'some' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Eraser" starts with a vowel sound, so we use "an".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'I have ___ pencil.',
+              options: [
+                { id: 'o1', text: 'a' },
+                { id: 'o2', text: 'an' },
+                { id: 'o3', text: 'are' },
+                { id: 'o4', text: 'is' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"Pencil" starts with a consonant sound, so we use "a".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'Find the mistake: "There is twenty desks."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "There are twenty desks"' },
+                { id: 'o3', text: 'It should be "There is a desks"' },
+                { id: 'o4', text: '"twenty" should be "twentieth"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Desks" is plural, so the sentence needs "There are".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Choose the correct negative sentence.',
+              options: [
+                { id: 'o1', text: "There don't a window here." },
+                { id: 'o2', text: "There isn't a window here." },
+                { id: 'o3', text: "There is not a windows here." },
+                { id: 'o4', text: "There no is a window here." }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'The negative of "there is" is "there isn\'t".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'Which question is correct?',
+              options: [
+                { id: 'o1', text: 'There is a library?' },
+                { id: 'o2', text: 'Is a library there?' },
+                { id: 'o3', text: 'Is there a library?' },
+                { id: 'o4', text: 'There a library is?' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Questions move "is" before "there": "Is there a library?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'A: "Are there computers in the lab?" B: "Yes, ___."',
+              options: [
+                { id: 'o1', text: 'there are' },
+                { id: 'o2', text: 'there is' },
+                { id: 'o3', text: 'they are' },
+                { id: 'o4', text: 'it is' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'A short answer to "Are there...?" is "Yes, there are."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Choose the sentence that means the same as "A map exists on the wall."',
+              options: [
+                { id: 'o1', text: 'There is a map on the wall.' },
+                { id: 'o2', text: 'It is a map on the wall.' },
+                { id: 'o3', text: 'A map is there on the wall.' },
+                { id: 'o4', text: 'There map is on the wall.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"There is/are" is how English says something exists somewhere.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'I already told you about the whiteboard, so now I say: "___ whiteboard is white."',
+              options: [
+                { id: 'o1', text: 'A' },
+                { id: 'o2', text: 'An' },
+                { id: 'o3', text: 'The' },
+                { id: 'o4', text: 'There' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'When both speakers already know which thing we mean, we use "the".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'What is the short form of "there is not"?',
+              options: [
+                { id: 'o1', text: "there'sn't" },
+                { id: 'o3', text: "theren't" },
+                { id: 'o4', text: "there'not" },
+                { id: 'o2', text: "there isn't" }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"There is not" contracts to "there isn\'t".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Choose the correct sentence for "one orange on the desk, not mentioned before."',
+              options: [
+                { id: 'o1', text: 'There is the orange on the desk.' },
+                { id: 'o2', text: 'There is an orange on the desk.' },
+                { id: 'o3', text: 'There are orange on the desk.' },
+                { id: 'o4', text: 'There is a orange on the desk.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Something new and singular uses "there is an" (vowel sound), not "the".',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'School Objects and Subjects',
@@ -736,14 +1368,200 @@ const units = [
       grammar: activity('grammar', {
         title: 'Present Simple (Affirmative)',
         description: 'Learn how to talk about habits and daily routines.',
-        grammarNote: 'We use the present simple for habits and routines. Add -s to the verb with he/she/it: I get up at seven, but She gets up at seven. I eat breakfast, but He eats breakfast. Time expressions like "every day" and "always" often go with this tense.',
+        grammarNote:
+          'Goal: describe habits, routines and facts using the present simple.\n\n' +
+          'Rule: we use the present simple for things that happen regularly or are always true. With he/she/it, the verb takes an extra -s (or -es/changes y to i).\n\n' +
+          'Pattern: I/You/We/They + base verb. He/She/It + verb + -s. Special: have → has.\n\n' +
+          'Examples:\n1. I get up at seven.\n2. She gets up at seven.\n3. I eat breakfast every day.\n4. He eats breakfast at home.\n5. My brother goes to school by bus.\n6. We have dinner at seven.\n7. She has a big breakfast.\n8. They walk to school together.\n\n' +
+          'Affirmative: subject + verb(+s with he/she/it). Example: "He brushes his teeth every morning." Note the spelling: go → goes, watch → watches, study → studies (consonant + y → ies).\n\n' +
+          'Negative: don\'t/doesn\'t + base verb (the -s moves to "does"). Example: "I don\'t eat breakfast." "She doesn\'t get up early."\n\n' +
+          'Questions: Do/Does + subject + base verb? Example: "Do you walk to school?" "Does she get up at seven?"\n\n' +
+          'Contractions: don\'t = do not, doesn\'t = does not.\n\n' +
+          'Common mistakes: ✗ "She get up at seven" → ✓ "She gets up at seven" (don\'t forget the -s). ✗ "He haves breakfast" → ✓ "He has breakfast" (have is irregular). ✗ "Does she gets up early?" → ✓ "Does she get up early?" (only one -s per sentence, on "does").\n\n' +
+          'Compare: "have" (I/you/we/they) becomes "has" (he/she/it) - it does not just add -s like regular verbs. Time words like "every day", "always" and "usually" signal the present simple.\n\n' +
+          'Mini practice: complete with the correct form. "My sister (have) ___ breakfast at seven." → has. "I (walk) ___ to school." → walk. "He (study) ___ English every day." → studies.\n\n' +
+          'Summary: use the base verb for I/you/we/they and add -s (or -es, or change y to ies) for he/she/it; "have" becomes "has"; use don\'t/doesn\'t for negatives and do/does for questions.',
         phrases: ['I get up...', 'She gets up...', 'I eat breakfast.', 'He eats breakfast.'],
         exercises: [
           { type: 'mcq', prompt: 'She ___ up at seven every day.', options: ['get', 'gets', 'getting', 'to get'], answer: 1 },
           { type: 'mcq', prompt: 'I ___ breakfast at home.', options: ['eat', 'eats', 'eating', 'ate'], answer: 0 },
           { type: 'mcq', prompt: 'My brother ___ to school by bus.', options: ['go', 'goes', 'going', 'gone'], answer: 1 },
           { type: 'mcq', prompt: 'We ___ dinner at seven in the evening.', options: ['has', 'have', 'having', 'had'], answer: 1 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a1-daily-routine-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'She ___ up at seven every day.',
+              options: [
+                { id: 'o2', text: 'gets' },
+                { id: 'o1', text: 'get' },
+                { id: 'o3', text: 'getting' },
+                { id: 'o4', text: 'to get' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'With "she", the verb takes -s: gets.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'I ___ breakfast at home.',
+              options: [
+                { id: 'o1', text: 'eats' },
+                { id: 'o2', text: 'eating' },
+                { id: 'o3', text: 'eat' },
+                { id: 'o4', text: 'ate' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'With "I", we use the base form: eat.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'My brother ___ to school by bus.',
+              options: [
+                { id: 'o1', text: 'go' },
+                { id: 'o2', text: 'goes' },
+                { id: 'o3', text: 'going' },
+                { id: 'o4', text: 'gone' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'With "my brother" (he), the verb takes -es: goes.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'We ___ dinner at seven in the evening.',
+              options: [
+                { id: 'o1', text: 'has' },
+                { id: 'o2', text: 'have' },
+                { id: 'o3', text: 'having' },
+                { id: 'o4', text: 'had' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'With "we", the verb "have" stays the same: have.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'She ___ a big breakfast every morning.',
+              options: [
+                { id: 'o1', text: 'have' },
+                { id: 'o2', text: 'haves' },
+                { id: 'o3', text: 'has' },
+                { id: 'o4', text: 'having' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Have" is irregular with he/she/it: has.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'I ___ eat breakfast on weekends. (negative)',
+              options: [
+                { id: 'o1', text: "doesn't" },
+                { id: 'o2', text: "don't" },
+                { id: 'o3', text: "not" },
+                { id: 'o4', text: "am not" }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'With "I", the negative auxiliary is "don\'t".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'She ___ get up early on Sundays. (negative)',
+              options: [
+                { id: 'o1', text: "don't" },
+                { id: 'o2', text: "doesn't" },
+                { id: 'o3', text: "isn't" },
+                { id: 'o4', text: "not" }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'With "she", the negative auxiliary is "doesn\'t", and the verb loses its -s.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'Which question is correct?',
+              options: [
+                { id: 'o1', text: 'Does she gets up at seven?' },
+                { id: 'o2', text: 'Do she get up at seven?' },
+                { id: 'o3', text: 'Does she get up at seven?' },
+                { id: 'o4', text: 'Is she get up at seven?' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Questions with he/she/it use "Does" + base verb (no extra -s).',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Find the mistake: "He haves breakfast at seven."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "He have breakfast"' },
+                { id: 'o3', text: 'It should be "He has breakfast"' },
+                { id: 'o4', text: 'It should be "He is having breakfast"' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Have" is irregular: "he has", never "he haves".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'My sister ___ English every day. (study)',
+              options: [
+                { id: 'o1', text: 'studys' },
+                { id: 'o2', text: 'study' },
+                { id: 'o3', text: 'studying' },
+                { id: 'o4', text: 'studies' }
+              ],
+              correctOptionId: 'o4',
+              explanation: 'Verbs ending in consonant + y change y to ies: study → studies.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'A: "Does he walk to school?" B: "Yes, ___."',
+              options: [
+                { id: 'o1', text: 'he walks' },
+                { id: 'o2', text: 'he does' },
+                { id: 'o3', text: 'he do' },
+                { id: 'o4', text: 'he is' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Short answers repeat the auxiliary: "Yes, he does."',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Choose the sentence that best fits: "It is always true that my mother teaches at this school."',
+              options: [
+                { id: 'o1', text: 'My mother is teaching at this school.' },
+                { id: 'o2', text: 'My mother teaches at this school.' },
+                { id: 'o3', text: 'My mother taught at this school.' },
+                { id: 'o4', text: 'My mother teach at this school.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A general truth/routine uses the present simple with -s for "she/mother": teaches.',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Daily Actions',
@@ -858,14 +1676,200 @@ const units = [
       grammar: activity('grammar', {
         title: 'Prepositions of Time: at / on / in',
         description: 'Learn when to use at, on and in with times, days and months.',
-        grammarNote: 'Use "at" with exact times: at seven o\'clock, at noon. Use "on" with days and dates: on Monday, on June 15th. Use "in" with months, years and longer periods: in June, in the morning, in summer. Questions with these use "What time...?" and "What day...?".',
+        grammarNote:
+          'Goal: choose the right preposition of time (at/on/in) for clocks, days and months.\n\n' +
+          'Rule: "at" is for exact points in time, "on" is for days and dates, and "in" is for longer periods like months, years and parts of the day.\n\n' +
+          'Pattern: at + clock time/noon/night. on + day/date. in + month/year/season/morning-afternoon-evening.\n\n' +
+          'Examples:\n1. My class starts at nine o\'clock.\n2. I go to bed at night.\n3. We have English on Monday.\n4. My birthday is on June 15th.\n5. My birthday is in June.\n6. I do my homework in the evening.\n7. School starts in September.\n8. I play soccer at noon.\n\n' +
+          'Affirmative: subject + verb + at/on/in + time expression. Example: "The party is on Saturday."\n\n' +
+          'Negative: add don\'t/doesn\'t (or isn\'t) before the verb, the preposition doesn\'t change. Example: "I don\'t have class at nine." "We don\'t have school on Sunday."\n\n' +
+          'Questions: "What time...?" asks for a clock time (uses "at"); "What day...?" asks for a day (uses "on"); "When...?" can ask for any of the three. Example: "What time does class start?" "What day is the party?"\n\n' +
+          'Contractions: none of these prepositions contract, but remember "o\'clock" is short for "of the clock".\n\n' +
+          'Common mistakes: ✗ "at Monday" → ✓ "on Monday". ✗ "on nine o\'clock" → ✓ "at nine o\'clock". ✗ "at June" → ✓ "in June". A helpful memory trick: AT a point, ON a day, IN a longer period.\n\n' +
+          'Compare: "on Monday" (one day) vs "in the morning" (a longer part of the day) vs "at seven" (an exact time) - the size of the time period decides the preposition.\n\n' +
+          'Mini practice: complete with at/on/in. "The movie starts ___ eight o\'clock." → at. "We don\'t have school ___ Sunday." → on. "It often rains ___ summer." → in.\n\n' +
+          'Summary: use "at" for exact times, "on" for days and dates, and "in" for months, years, seasons and parts of the day.',
         phrases: ['at seven o\'clock', 'on Monday', 'in June', 'in the morning'],
         exercises: [
           { type: 'mcq', prompt: 'My class starts ___ nine o\'clock.', options: ['at', 'on', 'in', 'by'], answer: 0 },
           { type: 'mcq', prompt: 'My birthday is ___ June.', options: ['at', 'on', 'in', 'by'], answer: 2 },
           { type: 'mcq', prompt: 'We have English ___ Monday.', options: ['at', 'on', 'in', 'by'], answer: 1 },
           { type: 'mcq', prompt: 'I do my homework ___ the evening.', options: ['at', 'on', 'in', 'by'], answer: 2 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a1-time-and-dates-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'My class starts ___ nine o\'clock.',
+              options: [
+                { id: 'o2', text: 'on' },
+                { id: 'o3', text: 'in' },
+                { id: 'o4', text: 'by' },
+                { id: 'o1', text: 'at' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'An exact clock time uses "at".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'My birthday is ___ June.',
+              options: [
+                { id: 'o1', text: 'at' },
+                { id: 'o2', text: 'on' },
+                { id: 'o3', text: 'in' },
+                { id: 'o4', text: 'by' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'A month uses "in".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'We have English ___ Monday.',
+              options: [
+                { id: 'o1', text: 'at' },
+                { id: 'o2', text: 'on' },
+                { id: 'o3', text: 'in' },
+                { id: 'o4', text: 'by' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A day of the week uses "on".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'I do my homework ___ the evening.',
+              options: [
+                { id: 'o1', text: 'at' },
+                { id: 'o2', text: 'on' },
+                { id: 'o3', text: 'in' },
+                { id: 'o4', text: 'by' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'A part of the day (morning/afternoon/evening) uses "in".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'Find the mistake: "The party is at Saturday."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "on Saturday"' },
+                { id: 'o3', text: 'It should be "in Saturday"' },
+                { id: 'o4', text: 'It should be "Saturday at"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Days take "on", not "at": "on Saturday".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Choose the correct sentence.',
+              options: [
+                { id: 'o1', text: 'School starts on September.' },
+                { id: 'o2', text: 'School starts at September.' },
+                { id: 'o3', text: 'School starts in September.' },
+                { id: 'o4', text: 'School starts September.' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Months take "in": "in September".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'A: "What time does the movie start?" B: "It starts ___ eight."',
+              options: [
+                { id: 'o1', text: 'on' },
+                { id: 'o2', text: 'in' },
+                { id: 'o3', text: 'at' },
+                { id: 'o4', text: 'by' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"What time" is answered with an exact time, using "at".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'We don\'t have school ___ Sunday. (negative)',
+              options: [
+                { id: 'o1', text: 'at' },
+                { id: 'o2', text: 'on' },
+                { id: 'o3', text: 'in' },
+                { id: 'o4', text: 'by' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'The preposition doesn\'t change in the negative: still "on Sunday".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'It often rains ___ summer.',
+              options: [
+                { id: 'o1', text: 'at' },
+                { id: 'o2', text: 'on' },
+                { id: 'o3', text: 'in' },
+                { id: 'o4', text: 'by' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Seasons take "in": "in summer".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'Choose the best question for the answer "On June 15th."',
+              options: [
+                { id: 'o1', text: 'What time is the party?' },
+                { id: 'o2', text: 'When is the party?' },
+                { id: 'o3', text: 'How is the party?' },
+                { id: 'o4', text: 'Who is the party?' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"When" is the general question word that fits a date answer.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "I sleep during the night."',
+              options: [
+                { id: 'o1', text: 'I sleep on the night.' },
+                { id: 'o2', text: 'I sleep in the night.' },
+                { id: 'o3', text: 'I sleep at night.' },
+                { id: 'o4', text: 'I sleep by night.' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Night" is an exception that uses "at": "at night".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Put in order: "starts / at / class / nine / my"',
+              options: [
+                { id: 'o1', text: 'My class starts at nine.' },
+                { id: 'o2', text: 'At nine my class starts.' },
+                { id: 'o3', text: 'My class at nine starts.' },
+                { id: 'o4', text: 'Starts my class at nine.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural order: subject + verb + preposition + time: "My class starts at nine."',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Days, Months and Time Words',
@@ -980,14 +1984,200 @@ const units = [
       grammar: activity('grammar', {
         title: 'Some, Any and Countable/Uncountable Nouns',
         description: 'Learn how to talk about food using some, any, and countable/uncountable nouns.',
-        grammarNote: 'Countable nouns can be counted: one banana, two bananas. Uncountable nouns cannot: rice, water, juice (we don\'t say "one rice"). We use "some" in affirmative sentences (I\'d like some water) and "any" in negatives and questions (I don\'t have any juice. Do you have any bananas?).',
+        grammarNote:
+          'Goal: tell countable and uncountable food nouns apart, and use "some" and "any" correctly.\n\n' +
+          'Rule: countable nouns can be counted one by one (a banana, two bananas); uncountable nouns cannot (rice, water, juice - no plural, no "a/an"). "Some" is for affirmative sentences and offers; "any" is for negatives and most questions.\n\n' +
+          'Pattern: Some + noun (affirmative). Any + noun (negative/question). Countable noun + -s for plural; uncountable noun stays the same.\n\n' +
+          'Examples:\n1. I\'d like some water.\n2. I have two bananas.\n3. I don\'t have any juice.\n4. Do you have any bananas?\n5. There is some rice in the bowl.\n6. There aren\'t any apples left.\n7. Can I have some bread, please?\n8. We don\'t have any milk.\n\n' +
+          'Affirmative: some + noun. Example: "I have some rice for lunch."\n\n' +
+          'Negative: any + noun (with don\'t/doesn\'t/isn\'t/aren\'t). Example: "I don\'t have any juice." "There isn\'t any bread."\n\n' +
+          'Questions: usually "any" (Do you have any bananas?), but "some" appears in polite offers/requests: "Would you like some water?" "Can I have some rice?"\n\n' +
+          'Contractions: don\'t = do not, doesn\'t = does not, isn\'t = is not, aren\'t = are not (all common before "any" in negatives).\n\n' +
+          'Common mistakes: ✗ "I have some banana" → ✓ "I have some bananas" (countable plural). ✗ "I don\'t have some juice" → ✓ "I don\'t have any juice" (any in negatives). ✗ "one rice" → ✓ "some rice" (uncountable nouns have no "one/a").\n\n' +
+          'Compare: "some" (affirmative/offers) vs "any" (negatives/most questions); countable (can say "how many": bananas, apples) vs uncountable (can say "how much": rice, water, juice).\n\n' +
+          'Mini practice: complete with some/any. "I\'d like ___ chicken, please." → some. "We don\'t have ___ vegetables." → any. "Do you want ___ fruit?" → some (an offer).\n\n' +
+          'Summary: use "some" in affirmative sentences and polite offers, "any" in negatives and regular questions; remember countable nouns can be plural but uncountable nouns cannot.',
         phrases: ['some water', 'any juice', 'one banana / two bananas', 'I\'d like some...'],
         exercises: [
           { type: 'mcq', prompt: 'I\'d like ___ rice, please.', options: ['some', 'any', 'a', 'many'], answer: 0 },
           { type: 'mcq', prompt: 'I don\'t have ___ juice at home.', options: ['some', 'any', 'a', 'an'], answer: 1 },
           { type: 'mcq', prompt: 'Which word can we count? "I have two ___."', options: ['water', 'rice', 'bananas', 'juice'], answer: 2 },
           { type: 'mcq', prompt: 'Do you have ___ bananas?', options: ['some', 'any', 'a', 'the'], answer: 1 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a1-food-and-drinks-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'I\'d like ___ rice, please.',
+              options: [
+                { id: 'o1', text: 'some' },
+                { id: 'o2', text: 'any' },
+                { id: 'o3', text: 'a' },
+                { id: 'o4', text: 'many' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'A polite affirmative request uses "some": "I\'d like some rice."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'I don\'t have ___ juice at home.',
+              options: [
+                { id: 'o1', text: 'some' },
+                { id: 'o2', text: 'any' },
+                { id: 'o3', text: 'a' },
+                { id: 'o4', text: 'an' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Negative sentences use "any": "I don\'t have any juice."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'Which word can we count? "I have two ___."',
+              options: [
+                { id: 'o1', text: 'water' },
+                { id: 'o2', text: 'rice' },
+                { id: 'o3', text: 'juice' },
+                { id: 'o4', text: 'bananas' }
+              ],
+              correctOptionId: 'o4',
+              explanation: '"Banana" is countable, so it can have a plural: bananas.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'Do you have ___ bananas?',
+              options: [
+                { id: 'o1', text: 'some' },
+                { id: 'o2', text: 'any' },
+                { id: 'o3', text: 'a' },
+                { id: 'o4', text: 'the' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Regular questions use "any": "Do you have any bananas?"',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'Find the mistake: "I have some banana."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "any banana"' },
+                { id: 'o3', text: 'It should be "some bananas"' },
+                { id: 'o4', text: 'It should be "a bananas"' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Banana" is countable, so with "some" it should be plural: "some bananas."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Choose the correct sentence.',
+              options: [
+                { id: 'o1', text: "I don't have some milk." },
+                { id: 'o2', text: "I don't have any milk." },
+                { id: 'o3', text: "I don't have a milk." },
+                { id: 'o4', text: "I don't have milks." }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Negative sentences use "any", not "some": "I don\'t have any milk."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'A polite offer: "Would you like ___ water?"',
+              options: [
+                { id: 'o1', text: 'any' },
+                { id: 'o2', text: 'some' },
+                { id: 'o3', text: 'a' },
+                { id: 'o4', text: 'many' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Polite offers use "some" even in a question: "Would you like some water?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'Which noun is uncountable?',
+              options: [
+                { id: 'o1', text: 'apple' },
+                { id: 'o2', text: 'rice' },
+                { id: 'o3', text: 'banana' },
+                { id: 'o4', text: 'egg' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Rice" cannot be counted one by one, so it is uncountable.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'There ___ any apples left.',
+              options: [
+                { id: 'o1', text: "isn't" },
+                { id: 'o2', text: 'aren\'t' },
+                { id: 'o3', text: "don't" },
+                { id: 'o4', text: "doesn't" }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Apples" is plural, so we use "there aren\'t any".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "We have zero milk at home."',
+              options: [
+                { id: 'o1', text: "We don't have any milk." },
+                { id: 'o2', text: 'We have some milk.' },
+                { id: 'o3', text: 'We have a milk.' },
+                { id: 'o4', text: 'We have any milk.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"Zero milk" means none, so the negative "don\'t have any milk" fits.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Which question word goes with an uncountable noun like water?',
+              options: [
+                { id: 'o1', text: 'How many' },
+                { id: 'o2', text: 'How much' },
+                { id: 'o3', text: 'How old' },
+                { id: 'o4', text: 'How long' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Uncountable nouns use "How much": "How much water do you want?"',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Put in order: "some / like / I\'d / chicken"',
+              options: [
+                { id: 'o1', text: "I'd like some chicken." },
+                { id: 'o2', text: "Some I'd like chicken." },
+                { id: 'o3', text: "I'd chicken like some." },
+                { id: 'o4', text: "Like I'd some chicken." }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural order: subject + verb + some + noun: "I\'d like some chicken."',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Food and Drink Words',
@@ -1102,14 +2292,200 @@ const units = [
       grammar: activity('grammar', {
         title: 'Prepositions of Place',
         description: 'Learn in, on, under, next to, and behind to describe where things are.',
-        grammarNote: 'Prepositions of place tell us where something is: in (the box), on (the table), under (the bed), next to (the door), behind (the sofa). Example: "The cat is under the table." "My backpack is next to the sofa."',
+        grammarNote:
+          'Goal: describe where things are in a house using prepositions of place.\n\n' +
+          'Rule: prepositions of place tell us the exact position of something: in (inside), on (on top of a surface), under (below), next to (at the side of), behind (at the back of).\n\n' +
+          'Pattern: Subject + is/are + preposition + the + place/object.\n\n' +
+          'Examples:\n1. The cat is under the table.\n2. My backpack is next to the sofa.\n3. My books are on the desk.\n4. My clothes are in the closet.\n5. The lamp is behind the TV.\n6. My bed is next to the window.\n7. The keys are on the table.\n8. The shoes are under the bed.\n\n' +
+          'Affirmative: subject + is/are + preposition + place. Example: "The sofa is in the living room."\n\n' +
+          'Negative: subject + isn\'t/aren\'t + preposition + place. Example: "The cat isn\'t under the bed." "The books aren\'t on the table."\n\n' +
+          'Questions: "Where is/are...?" Example: "Where is my backpack?" - "It\'s next to the sofa." "Where are my shoes?" - "They\'re under the bed."\n\n' +
+          'Contractions: it\'s = it is, they\'re = they are, isn\'t = is not, aren\'t = are not.\n\n' +
+          'Common mistakes: ✗ "The cat is in the table" → ✓ "The cat is under the table" (in means inside something, not on top or below). ✗ "My backpack is at next to the sofa" → ✓ "My backpack is next to the sofa" (no extra "at" needed). ✗ "Where my backpack is?" → ✓ "Where is my backpack?" (verb before subject in questions).\n\n' +
+          'Compare: "in" = inside a closed space (in the closet); "on" = touching a surface from above (on the table); "under" = below something (under the bed); "next to" = beside; "behind" = at the back.\n\n' +
+          'Mini practice: complete with in/on/under/next to/behind. "My shoes are ___ the bed." → under. "The lamp is ___ the desk." → on. "My room is ___ the bathroom." → next to.\n\n' +
+          'Summary: use in/on/under/next to/behind + the + place to say exactly where something is, and ask with "Where is/are...?" to find out.',
         phrases: ['in the kitchen', 'on the table', 'under the bed', 'next to the door'],
         exercises: [
           { type: 'mcq', prompt: 'The cat is ___ the table. (below it)', options: ['on', 'in', 'under', 'next to'], answer: 2 },
           { type: 'mcq', prompt: 'My books are ___ the desk. (on top of it)', options: ['on', 'under', 'behind', 'in'], answer: 0 },
           { type: 'mcq', prompt: 'The backpack is ___ the sofa. (at the side of it)', options: ['under', 'on', 'next to', 'in'], answer: 2 },
           { type: 'mcq', prompt: 'My clothes are ___ the closet. (inside it)', options: ['in', 'on', 'under', 'next to'], answer: 0 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a1-my-home-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'The cat is ___ the table. (below it)',
+              options: [
+                { id: 'o1', text: 'on' },
+                { id: 'o2', text: 'in' },
+                { id: 'o3', text: 'under' },
+                { id: 'o4', text: 'next to' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Below something is "under".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'My books are ___ the desk. (on top of it)',
+              options: [
+                { id: 'o1', text: 'under' },
+                { id: 'o2', text: 'on' },
+                { id: 'o3', text: 'behind' },
+                { id: 'o4', text: 'in' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'On top of a surface is "on".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'The backpack is ___ the sofa. (at the side of it)',
+              options: [
+                { id: 'o1', text: 'under' },
+                { id: 'o2', text: 'on' },
+                { id: 'o3', text: 'next to' },
+                { id: 'o4', text: 'in' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Beside something is "next to".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'My clothes are ___ the closet. (inside it)',
+              options: [
+                { id: 'o1', text: 'in' },
+                { id: 'o2', text: 'on' },
+                { id: 'o3', text: 'under' },
+                { id: 'o4', text: 'next to' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Inside a closed space is "in".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'Find the mistake: "The cat is in the table."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "on the table" or "under the table"' },
+                { id: 'o3', text: 'It should be "the cat are"' },
+                { id: 'o4', text: 'It should be "table in the cat"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"In" means inside a closed space; a table\'s surface is "on" and beneath it is "under".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Choose the correct negative sentence.',
+              options: [
+                { id: 'o1', text: "The cat don't under the bed." },
+                { id: 'o2', text: "The cat isn't under the bed." },
+                { id: 'o3', text: "The cat not is under the bed." },
+                { id: 'o4', text: "The cat aren't under the bed." }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"The cat" is singular (it), so the negative is "isn\'t".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'Which question is correct?',
+              options: [
+                { id: 'o1', text: 'Where my backpack is?' },
+                { id: 'o2', text: 'Where is my backpack?' },
+                { id: 'o3', text: 'My backpack where is?' },
+                { id: 'o4', text: 'Is where my backpack?' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Questions move the verb before the subject: "Where is my backpack?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'A: "Where are my shoes?" B: "They\'re ___ the bed."',
+              options: [
+                { id: 'o1', text: 'under' },
+                { id: 'o2', text: 'is under' },
+                { id: 'o3', text: 'are under' },
+                { id: 'o4', text: 'under is' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'After "They\'re" we just add the preposition and place: "They\'re under the bed."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'The lamp is ___ the TV. (at the back of it)',
+              options: [
+                { id: 'o1', text: 'next to' },
+                { id: 'o2', text: 'on' },
+                { id: 'o3', text: 'under' },
+                { id: 'o4', text: 'behind' }
+              ],
+              correctOptionId: 'o4',
+              explanation: 'At the back of something is "behind".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "The sofa is inside the living room."',
+              options: [
+                { id: 'o1', text: 'The sofa is on the living room.' },
+                { id: 'o2', text: 'The sofa is in the living room.' },
+                { id: 'o3', text: 'The sofa is under the living room.' },
+                { id: 'o4', text: 'The sofa is next the living room.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Inside" a room is expressed with "in".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Choose the correct order: "next to / is / my bed / the window"',
+              options: [
+                { id: 'o1', text: 'My bed is next to the window.' },
+                { id: 'o2', text: 'Next to my bed is the window.' },
+                { id: 'o3', text: 'My bed next to is the window.' },
+                { id: 'o4', text: 'Is my bed the window next to.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural order: subject + is + preposition + place: "My bed is next to the window."',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'What is the short form of "they are" in "They\'re under the bed"?',
+              options: [
+                { id: 'o1', text: 'they is' },
+                { id: 'o2', text: 'they are' },
+                { id: 'o3', text: "they're" },
+                { id: 'o4', text: 'there' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"They are" contracts to "they\'re".',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Rooms and Furniture',
@@ -1224,14 +2600,200 @@ const units = [
       grammar: activity('grammar', {
         title: 'Imperatives for Directions',
         description: 'Learn to give instructions using the imperative form.',
-        grammarNote: 'To give directions or instructions, use the base form of the verb without a subject: Go straight. Turn left. Cross the street. Use "don\'t" for a negative instruction: Don\'t turn right, turn left. This is also how we give simple classroom instructions: Open your book. Listen carefully.',
+        grammarNote:
+          'Goal: give directions and simple instructions using the imperative.\n\n' +
+          'Rule: the imperative uses the base form of the verb, with no subject and no -s, even when talking to one person or many. It gives an order, instruction or direction directly.\n\n' +
+          'Pattern: Verb (base form) + rest of the sentence. Negative: Don\'t + verb + rest.\n\n' +
+          'Examples:\n1. Go straight.\n2. Turn left at the bank.\n3. Cross the street.\n4. Open your book.\n5. Listen carefully.\n6. Turn right at the corner.\n7. Don\'t turn right, turn left.\n8. Walk two blocks and stop.\n\n' +
+          'Affirmative: verb + rest of sentence, no subject. Example: "Turn left at the supermarket."\n\n' +
+          'Negative: Don\'t + verb + rest of sentence. Example: "Don\'t cross here." "Don\'t turn right."\n\n' +
+          'Questions: imperatives don\'t use questions to give orders, but we can ask for directions with "How do I get to...?" or "Where is...?" and the answer is often an imperative: "Turn left and go straight."\n\n' +
+          'Contractions: don\'t = do not (the only contraction used with imperatives).\n\n' +
+          'Common mistakes: ✗ "You go straight" → ✓ "Go straight" (no subject in an imperative). ✗ "Goes straight" → ✓ "Go straight" (no -s, always the base form). ✗ "Not turn right" → ✓ "Don\'t turn right" (use "don\'t", not "not", to make it negative).\n\n' +
+          'Compare: a statement describes a fact ("You go straight" = habit), while an imperative gives an instruction ("Go straight!" = command) - same verb, very different use, and the imperative drops the subject completely.\n\n' +
+          'Mini practice: give these instructions. "(turn) ___ left here." → Turn left here. "(not/cross) ___ now, the light is red." → Don\'t cross now, the light is red.\n\n' +
+          'Summary: use the base verb with no subject to give an instruction (Go, Turn, Cross); add "don\'t" before the verb to make it negative.',
         phrases: ['Go straight.', 'Turn left/right.', 'Cross the street.', 'Don\'t turn right.'],
         exercises: [
           { type: 'mcq', prompt: 'Which sentence gives a direction correctly?', options: ['You go straight.', 'Go straight.', 'Going straight.', 'Goes straight.'], answer: 1 },
           { type: 'mcq', prompt: '___ left at the supermarket.', options: ['Turn', 'Turns', 'Turning', 'To turn'], answer: 0 },
           { type: 'mcq', prompt: 'Choose the negative instruction.', options: ['Don\'t turn right.', 'Not turn right.', 'No turn right.', 'Turn not right.'], answer: 0 },
           { type: 'mcq', prompt: 'Which is a classroom instruction?', options: ['I open my book.', 'Open your book.', 'Opening the book.', 'Books are open.'], answer: 1 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a1-my-town-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'Which sentence gives a direction correctly?',
+              options: [
+                { id: 'o1', text: 'You go straight.' },
+                { id: 'o2', text: 'Go straight.' },
+                { id: 'o3', text: 'Going straight.' },
+                { id: 'o4', text: 'Goes straight.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Imperatives use the base verb with no subject: "Go straight."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: '___ left at the supermarket.',
+              options: [
+                { id: 'o1', text: 'Turn' },
+                { id: 'o2', text: 'Turns' },
+                { id: 'o3', text: 'Turning' },
+                { id: 'o4', text: 'To turn' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'The base form of the verb starts an imperative: "Turn left."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'Choose the negative instruction.',
+              options: [
+                { id: 'o1', text: "Don't turn right." },
+                { id: 'o2', text: 'Not turn right.' },
+                { id: 'o3', text: 'No turn right.' },
+                { id: 'o4', text: 'Turn not right.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'The negative imperative uses "Don\'t" + verb.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'Which is a classroom instruction?',
+              options: [
+                { id: 'o1', text: 'I open my book.' },
+                { id: 'o2', text: 'Open your book.' },
+                { id: 'o3', text: 'Opening the book.' },
+                { id: 'o4', text: 'Books are open.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'An instruction uses the base verb with no subject: "Open your book."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'Find the mistake: "You cross the street now."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'As an instruction, it should be "Cross the street now."' },
+                { id: 'o3', text: 'It should be "Crosses the street now."' },
+                { id: 'o4', text: 'It should be "Crossing the street now."' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Imperatives drop the subject "you": "Cross the street now."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Choose the correct instruction meaning "please listen with attention."',
+              options: [
+                { id: 'o1', text: 'You listen carefully.' },
+                { id: 'o2', text: 'Listen carefully.' },
+                { id: 'o3', text: 'Listens carefully.' },
+                { id: 'o4', text: 'Listening carefully.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'The imperative is the base verb alone: "Listen carefully."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'A: "How do I get to the bank?" B: "___ straight and turn left."',
+              options: [
+                { id: 'o1', text: 'You go' },
+                { id: 'o3', text: 'Goes' },
+                { id: 'o2', text: 'Go' },
+                { id: 'o4', text: 'Going' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Directions are given as imperatives: "Go straight and turn left."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'Choose the equivalent instruction to "Please don\'t cross here."',
+              options: [
+                { id: 'o1', text: 'Not cross here.' },
+                { id: 'o2', text: "Don't cross here." },
+                { id: 'o3', text: 'No crosses here.' },
+                { id: 'o4', text: 'Crossing not here.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Don\'t" + base verb is the correct negative imperative.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Complete the dialogue: A: "Excuse me, where is the park?" B: "___ two blocks and turn right."',
+              options: [
+                { id: 'o2', text: 'You walk' },
+                { id: 'o3', text: 'Walks' },
+                { id: 'o4', text: 'Walked' },
+                { id: 'o1', text: 'Walk' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Giving directions uses the base verb form: "Walk two blocks..."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'Put in order: "left / at / turn / the bank"',
+              options: [
+                { id: 'o1', text: 'Turn left at the bank.' },
+                { id: 'o2', text: 'At the bank turn left.' },
+                { id: 'o3', text: 'Left turn at the bank.' },
+                { id: 'o4', text: 'Turn at the bank left.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Natural order for directions: verb + direction + at + place: "Turn left at the bank."',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Which sentence is a fact/habit, NOT an instruction?',
+              options: [
+                { id: 'o1', text: 'Go straight.' },
+                { id: 'o2', text: 'She goes straight home after school.' },
+                { id: 'o3', text: 'Turn left.' },
+                { id: 'o4', text: "Don't turn right." }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"She goes..." has a subject and -s: it is a present simple statement, not an imperative.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Choose the best classroom instruction for a teacher wanting quiet.',
+              options: [
+                { id: 'o1', text: 'You are quiet.' },
+                { id: 'o2', text: 'Be quiet, please.' },
+                { id: 'o3', text: 'Quiet are you.' },
+                { id: 'o4', text: 'Being quiet.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Be" is the base form of "to be", so the imperative is "Be quiet."',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Places in Town',
@@ -1346,14 +2908,200 @@ const units = [
       grammar: activity('grammar', {
         title: 'Adverbs of Frequency',
         description: 'Learn always, usually, sometimes and never.',
-        grammarNote: 'Adverbs of frequency say how often we do something: always (100%), usually (often), sometimes (occasionally), never (0%). They go before the main verb, but after the verb "to be": I always play soccer. She is never late. I sometimes read on the weekend.',
+        grammarNote:
+          'Goal: say how often you do something using adverbs of frequency.\n\n' +
+          'Rule: adverbs of frequency show how often an action happens: always (100%), usually (often), sometimes (occasionally), never (0%). Their position in the sentence depends on the verb.\n\n' +
+          'Pattern: Subject + adverb + main verb (I always play soccer). Subject + to be + adverb (She is never late).\n\n' +
+          'Examples:\n1. I always play soccer on weekends.\n2. She is never late.\n3. I sometimes read on the weekend.\n4. We usually watch movies on Friday.\n5. He always does his homework.\n6. They are usually happy after the game.\n7. I never eat breakfast in bed.\n8. She sometimes paints on Sundays.\n\n' +
+          'Affirmative: subject + adverb + verb (or subject + to be + adverb). Example: "We usually play video games."\n\n' +
+          'Negative: adverbs like "always/usually/sometimes" rarely appear with "not"; instead, "never" already means 0%, so we don\'t add "not": "I never play soccer" (NOT "I don\'t never play soccer").\n\n' +
+          'Questions: "How often do you...?" Example: "How often do you play soccer?" - "I usually play on Saturdays."\n\n' +
+          'Contractions: none for the adverbs themselves, but remember "isn\'t/aren\'t" if you need a true negative sentence without "never": "She isn\'t usually late."\n\n' +
+          'Common mistakes: ✗ "I play always soccer" → ✓ "I always play soccer" (adverb before the main verb). ✗ "She never is late" → ✓ "She is never late" (adverb after "to be"). ✗ "I don\'t never read" → ✓ "I never read" (never already means 0%, don\'t double the negative).\n\n' +
+          'Compare: always (100%) > usually (often) > sometimes (occasionally) > never (0%) - the frequency gets lower as you move down the scale.\n\n' +
+          'Mini practice: put the adverb in the right place. "(always) I / play soccer." → I always play soccer. "(never) She / is / late." → She is never late.\n\n' +
+          'Summary: put frequency adverbs before the main verb, but after "to be"; "never" already means zero times, so don\'t add another negative word.',
         phrases: ['I always play...', 'She is never late.', 'I sometimes read...', 'We usually watch...'],
         exercises: [
           { type: 'mcq', prompt: 'I ___ play soccer on weekends. (100% of the time)', options: ['never', 'sometimes', 'always', 'usually not'], answer: 2 },
           { type: 'mcq', prompt: 'Choose the correct word order.', options: ['I play always soccer.', 'I always play soccer.', 'Always I play soccer.', 'I play soccer always.'], answer: 1 },
           { type: 'mcq', prompt: 'She ___ late for class. (0% of the time)', options: ['is never', 'never is', 'is not never', 'never be'], answer: 0 },
           { type: 'mcq', prompt: 'I ___ read books, but not every day.', options: ['always', 'never', 'sometimes', 'be'], answer: 2 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a1-free-time-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'I ___ play soccer on weekends. (100% of the time)',
+              options: [
+                { id: 'o1', text: 'never' },
+                { id: 'o2', text: 'sometimes' },
+                { id: 'o4', text: 'usually not' },
+                { id: 'o3', text: 'always' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Always" means 100% of the time.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'Choose the correct word order.',
+              options: [
+                { id: 'o1', text: 'I play always soccer.' },
+                { id: 'o2', text: 'Always I play soccer.' },
+                { id: 'o3', text: 'I always play soccer.' },
+                { id: 'o4', text: 'I play soccer always.' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'The adverb goes before the main verb: "I always play soccer."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'She ___ late for class. (0% of the time)',
+              options: [
+                { id: 'o1', text: 'is never' },
+                { id: 'o2', text: 'never is' },
+                { id: 'o3', text: 'is not never' },
+                { id: 'o4', text: 'never be' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'With "to be", the adverb goes after: "She is never late."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'I ___ read books, but not every day.',
+              options: [
+                { id: 'o1', text: 'always' },
+                { id: 'o2', text: 'never' },
+                { id: 'o3', text: 'sometimes' },
+                { id: 'o4', text: 'be' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"Not every day" but still sometimes = occasionally.',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'Find the mistake: "She never is late."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "She is never late"' },
+                { id: 'o3', text: 'It should be "She never be late"' },
+                { id: 'o4', text: 'It should be "Never she is late"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'With "to be", the adverb comes after the verb: "She is never late."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Choose the correct sentence.',
+              options: [
+                { id: 'o1', text: "I don't never play video games." },
+                { id: 'o2', text: 'I never play video games.' },
+                { id: 'o3', text: "I not never play video games." },
+                { id: 'o4', text: 'I never don\'t play video games.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Never" already means 0%, so we don\'t add another negative word.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'A: "How often do you play soccer?" B: "I ___ play on Saturdays."',
+              options: [
+                { id: 'o1', text: 'usually' },
+                { id: 'o2', text: 'play usually' },
+                { id: 'o3', text: 'am usually' },
+                { id: 'o4', text: 'usually am' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'The adverb goes right before the main verb: "I usually play on Saturdays."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'Order the adverbs from most to least frequent: always / sometimes / usually / never',
+              options: [
+                { id: 'o1', text: 'always, usually, sometimes, never' },
+                { id: 'o2', text: 'never, sometimes, usually, always' },
+                { id: 'o3', text: 'usually, always, never, sometimes' },
+                { id: 'o4', text: 'sometimes, never, always, usually' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'From 100% to 0%: always, usually, sometimes, never.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "She paints on Sundays, but not every Sunday."',
+              options: [
+                { id: 'o1', text: 'She always paints on Sundays.' },
+                { id: 'o2', text: 'She sometimes paints on Sundays.' },
+                { id: 'o3', text: 'She never paints on Sundays.' },
+                { id: 'o4', text: 'She paints Sundays sometimes on.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Not every time" matches "sometimes".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'We ___ watch movies on Friday. (this happens most weeks)',
+              options: [
+                { id: 'o1', text: 'never' },
+                { id: 'o2', text: 'usually' },
+                { id: 'o3', text: 'usually watch' },
+                { id: 'o4', text: 'watch usually' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Usually" fits between subject and verb: "We usually watch movies."',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Put in order: "late / is / for / never / class / she"',
+              options: [
+                { id: 'o1', text: 'She is never late for class.' },
+                { id: 'o2', text: 'She never is late for class.' },
+                { id: 'o3', text: 'Never she is late for class.' },
+                { id: 'o4', text: 'She is late never for class.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Subject + to be + adverb + rest: "She is never late for class."',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Choose the best question for the answer "I always do my homework right after school."',
+              options: [
+                { id: 'o1', text: 'What do you do?' },
+                { id: 'o2', text: 'How often do you do your homework?' },
+                { id: 'o3', text: 'Where do you do your homework?' },
+                { id: 'o4', text: 'Who does your homework?' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'A question about frequency uses "How often...?"',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Hobbies and Sports',
@@ -1468,14 +3216,200 @@ const units = [
       grammar: activity('grammar', {
         title: 'This / That / These / Those',
         description: 'Learn demonstratives and "How much...?" for shopping.',
-        grammarNote: 'Use "this" (singular, near) and "these" (plural, near) for things close to you: This shirt, these shoes. Use "that" (singular, far) and "those" (plural, far) for things farther away: That shirt (over there), those shoes. Ask about price with "How much is/are...?": How much is this shirt? How much are these shoes?',
+        grammarNote:
+          'Goal: point to things while shopping using this/that/these/those, and ask about price.\n\n' +
+          'Rule: demonstratives depend on two things - is it near or far, and is it one thing or more than one? This (near, singular), these (near, plural), that (far, singular), those (far, plural).\n\n' +
+          'Pattern: This/That + singular noun. These/Those + plural noun. How much + is/are + demonstrative + noun?\n\n' +
+          'Examples:\n1. This shirt is blue.\n2. These shoes are nice.\n3. That dress (over there) is red.\n4. Those pants are new.\n5. How much is this T-shirt?\n6. How much are these shoes?\n7. I like that jacket.\n8. Those shoes are too small.\n\n' +
+          'Affirmative: This/That/These/Those + is/are + adjective or noun. Example: "This shirt is blue."\n\n' +
+          'Negative: add not after is/are. Example: "This shirt isn\'t blue." "Those shoes aren\'t expensive."\n\n' +
+          'Questions: "How much is/are...?" for price; "Is/Are this/that/these/those...?" for yes/no questions. Example: "Is that dress red?" "Are these shoes yours?"\n\n' +
+          'Contractions: isn\'t = is not, aren\'t = are not, that\'s = that is.\n\n' +
+          'Common mistakes: ✗ "This shoes are nice" → ✓ "These shoes are nice" (shoes is plural, so "these", not "this"). ✗ "How much is these shoes?" → ✓ "How much are these shoes?" (plural noun needs "are"). ✗ "Those shirt" → ✓ "That shirt" (singular noun needs "that", not "those").\n\n' +
+          'Compare: this/that = one thing (singular verb "is"); these/those = more than one thing (plural verb "are"). Near = this/these; far = that/those.\n\n' +
+          'Mini practice: complete. "___ shoes (in my hands) are white." → These. "___ jacket (across the store) is nice." → That. "How much ___ this shirt?" → is.\n\n' +
+          'Summary: use this/these for things close to you and that/those for things farther away; match singular nouns with this/that + is, and plural nouns with these/those + are.',
         phrases: ['this shirt', 'these shoes', 'that dress (over there)', 'How much is/are...?'],
         exercises: [
           { type: 'mcq', prompt: '___ shirt (in my hand) is blue.', options: ['This', 'These', 'Those', 'That'], answer: 0 },
           { type: 'mcq', prompt: '___ shoes (over there) are nice.', options: ['This', 'That', 'Those', 'It'], answer: 2 },
           { type: 'mcq', prompt: 'How much ___ this T-shirt?', options: ['is', 'are', 'am', 'be'], answer: 0 },
           { type: 'mcq', prompt: 'How much ___ these shoes?', options: ['is', 'are', 'am', 'be'], answer: 1 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a1-clothes-and-shopping-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: '___ shirt (in my hand) is blue.',
+              options: [
+                { id: 'o2', text: 'These' },
+                { id: 'o3', text: 'Those' },
+                { id: 'o4', text: 'That' },
+                { id: 'o1', text: 'This' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Near + singular = "This".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: '___ shoes (over there) are nice.',
+              options: [
+                { id: 'o1', text: 'This' },
+                { id: 'o2', text: 'That' },
+                { id: 'o3', text: 'Those' },
+                { id: 'o4', text: 'It' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Far + plural = "Those".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'How much ___ this T-shirt?',
+              options: [
+                { id: 'o1', text: 'is' },
+                { id: 'o2', text: 'are' },
+                { id: 'o3', text: 'am' },
+                { id: 'o4', text: 'be' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"T-shirt" is singular, so we use "is".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'How much ___ these shoes?',
+              options: [
+                { id: 'o1', text: 'is' },
+                { id: 'o2', text: 'are' },
+                { id: 'o3', text: 'am' },
+                { id: 'o4', text: 'be' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Shoes" is plural, so we use "are".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'Find the mistake: "This shoes are nice."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "These shoes are nice"' },
+                { id: 'o3', text: 'It should be "This shoes is nice"' },
+                { id: 'o4', text: 'It should be "That shoes are nice"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Shoes" is plural, so it needs "these", not "this".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Choose the correct negative sentence.',
+              options: [
+                { id: 'o1', text: "This shirt don't blue." },
+                { id: 'o2', text: "This shirt isn't blue." },
+                { id: 'o3', text: "This shirt not is blue." },
+                { id: 'o4', text: "This shirt aren't blue." }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Shirt" is singular, so the negative is "isn\'t".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'Which question is correct?',
+              options: [
+                { id: 'o1', text: 'That dress is red?' },
+                { id: 'o2', text: 'Is that dress red?' },
+                { id: 'o3', text: 'Is red that dress?' },
+                { id: 'o4', text: 'That is dress red?' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Yes/no questions move "is" before the subject: "Is that dress red?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'A jacket far away from you: "I like ___ jacket."',
+              options: [
+                { id: 'o1', text: 'this' },
+                { id: 'o2', text: 'these' },
+                { id: 'o3', text: 'that' },
+                { id: 'o4', text: 'those' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Far + singular = "that".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Choose the sentence equivalent to "Those shoes are not expensive."',
+              options: [
+                { id: 'o1', text: "Those shoes isn't expensive." },
+                { id: 'o2', text: "Those shoes aren't expensive." },
+                { id: 'o3', text: 'Those shoes not expensive.' },
+                { id: 'o4', text: "That shoes aren't expensive." }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Shoes" is plural, so the contraction is "aren\'t".',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'Complete the dialogue: A: "How much are those pants?" B: "___ twenty dollars."',
+              options: [
+                { id: 'o1', text: "They're" },
+                { id: 'o2', text: "It's" },
+                { id: 'o3', text: 'This is' },
+                { id: 'o4', text: 'That is' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"Pants" is plural, so we answer with "They\'re twenty dollars."',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Put in order: "is / how much / T-shirt / this"',
+              options: [
+                { id: 'o1', text: 'How much is this T-shirt?' },
+                { id: 'o2', text: 'This T-shirt how much is?' },
+                { id: 'o3', text: 'Is how much this T-shirt?' },
+                { id: 'o4', text: 'How much this T-shirt is?' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'The question word order is "How much + is + subject?"',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Choose the best word for one dress you are holding right now.',
+              options: [
+                { id: 'o1', text: 'that' },
+                { id: 'o2', text: 'those' },
+                { id: 'o3', text: 'this' },
+                { id: 'o4', text: 'these' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'Something you are holding is near and singular: "this".',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Clothes and Colors',
@@ -1590,14 +3524,200 @@ const units = [
       grammar: activity('grammar', {
         title: 'Present Continuous and "Going To" for Plans',
         description: 'Learn to describe the weather now and talk about future plans.',
-        grammarNote: 'We use the present continuous (is/am/are + verb-ing) to describe what is happening now, including weather: It is raining. It is snowing. We use "going to" + verb to talk about future plans: I am going to travel. She is going to pack a jacket. Both need the correct form of "to be" before the main verb.',
+        grammarNote:
+          'Goal: describe what is happening right now (weather) and talk about future plans.\n\n' +
+          'Rule: the present continuous (is/am/are + verb-ing) describes something happening at this moment, including weather. "Going to" + base verb talks about a plan or intention for the future. Both need the correct form of "to be" before the main verb.\n\n' +
+          'Pattern: Subject + am/is/are + verb-ing (now). Subject + am/is/are + going to + base verb (future plan).\n\n' +
+          'Examples:\n1. It is raining right now.\n2. It is snowing in the mountains.\n3. I am going to travel next month.\n4. She is going to pack a jacket.\n5. We are going to visit the beach.\n6. Look! It is getting cloudy.\n7. They are going to stay home because it\'s cold.\n8. He is packing his bag now.\n\n' +
+          'Affirmative: subject + am/is/are + verb-ing OR going to + verb. Example: "We are going to visit the mountains."\n\n' +
+          'Negative: add not after am/is/are. Example: "It isn\'t raining now." "I am not going to travel this weekend."\n\n' +
+          'Questions: Am/Is/Are + subject + verb-ing/going to + verb...? Example: "Is it raining?" "Are you going to pack a jacket?"\n\n' +
+          'Contractions: it\'s = it is, I\'m = I am, isn\'t = is not, aren\'t = are not.\n\n' +
+          'Common mistakes: ✗ "It rain now" → ✓ "It is raining now" (need "to be" + verb-ing). ✗ "She going to pack" → ✓ "She is going to pack" (don\'t forget "is/am/are"). ✗ "We going visit" → ✓ "We are going to visit" (need "to" between going and the verb).\n\n' +
+          'Compare: present continuous for NOW (It is raining = happening this second); "going to" for a PLAN (I am going to travel = decided before, will happen later).\n\n' +
+          'Mini practice: complete. "Look outside, it (rain) ___ ." → is raining. "Next week, we (visit) ___ the mountains." → are going to visit.\n\n' +
+          'Summary: use is/am/are + verb-ing for what is happening now (including weather); use is/am/are + going to + verb for future plans.',
         phrases: ['It is raining.', 'It is snowing.', 'I am going to travel.', 'She is going to pack...'],
         exercises: [
           { type: 'mcq', prompt: 'Look outside - it ___ raining right now.', options: ['is', 'are', 'am', 'be'], answer: 0 },
           { type: 'mcq', prompt: 'Next week, we ___ going to visit the mountains.', options: ['is', 'am', 'are', 'be'], answer: 2 },
           { type: 'mcq', prompt: 'She ___ going to pack a jacket because it\'s cold.', options: ['am', 'is', 'are', 'be'], answer: 1 },
           { type: 'mcq', prompt: 'Choose the correct sentence for "now".', options: ['It rain today.', 'It is rain today.', 'It is raining today.', 'It raining today.'], answer: 2 }
-        ]
+        ],
+        grammarTest: {
+          id: 'english-a1-weather-and-travel-grammar-test',
+          passingScore: 70,
+          questions: [
+            {
+              id: 'q1',
+              type: 'mcq',
+              prompt: 'Look outside - it ___ raining right now.',
+              options: [
+                { id: 'o2', text: 'are' },
+                { id: 'o3', text: 'am' },
+                { id: 'o4', text: 'be' },
+                { id: 'o1', text: 'is' }
+              ],
+              correctOptionId: 'o1',
+              explanation: '"It" needs "is" before the -ing verb: "It is raining."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q2',
+              type: 'mcq',
+              prompt: 'Next week, we ___ going to visit the mountains.',
+              options: [
+                { id: 'o1', text: 'is' },
+                { id: 'o2', text: 'am' },
+                { id: 'o3', text: 'are' },
+                { id: 'o4', text: 'be' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"We" needs "are": "we are going to visit".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
+              prompt: 'She ___ going to pack a jacket because it\'s cold.',
+              options: [
+                { id: 'o1', text: 'am' },
+                { id: 'o2', text: 'is' },
+                { id: 'o3', text: 'are' },
+                { id: 'o4', text: 'be' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"She" needs "is": "she is going to pack".',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q4',
+              type: 'mcq',
+              prompt: 'Choose the correct sentence for "now".',
+              options: [
+                { id: 'o1', text: 'It rain today.' },
+                { id: 'o2', text: 'It is rain today.' },
+                { id: 'o3', text: 'It is raining today.' },
+                { id: 'o4', text: 'It raining today.' }
+              ],
+              correctOptionId: 'o3',
+              explanation: 'The present continuous needs "is" + verb-ing: "It is raining today."',
+              difficulty: 'easy'
+            },
+            {
+              id: 'q5',
+              type: 'mcq',
+              prompt: 'Find the mistake: "We going to visit the beach."',
+              options: [
+                { id: 'o1', text: 'There is no mistake' },
+                { id: 'o2', text: 'It should be "We are going to visit the beach"' },
+                { id: 'o3', text: 'It should be "We goes to visit the beach"' },
+                { id: 'o4', text: 'It should be "We go to visit the beach"' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Going to" needs "to be" before it: "We are going to visit..."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q6',
+              type: 'mcq',
+              prompt: 'Choose the correct negative sentence.',
+              options: [
+                { id: 'o1', text: "It don't raining now." },
+                { id: 'o2', text: "It isn't raining now." },
+                { id: 'o3', text: "It not is raining now." },
+                { id: 'o4', text: "It doesn't raining now." }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'The negative of "it is" is "it isn\'t": "It isn\'t raining now."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q7',
+              type: 'mcq',
+              prompt: 'Which question is correct?',
+              options: [
+                { id: 'o1', text: 'Is it raining?' },
+                { id: 'o2', text: 'It is raining?' },
+                { id: 'o3', text: 'Is raining it?' },
+                { id: 'o4', text: 'It raining is?' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Questions move "is" before the subject: "Is it raining?"',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q8',
+              type: 'mcq',
+              prompt: 'A: "Are you going to pack a jacket?" B: "Yes, ___."',
+              options: [
+                { id: 'o1', text: 'I is' },
+                { id: 'o2', text: 'I am' },
+                { id: 'o3', text: 'I do' },
+                { id: 'o4', text: 'I are' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'The short answer for "I" is "Yes, I am."',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q9',
+              type: 'mcq',
+              prompt: 'Choose the sentence that describes a future plan, not something happening now.',
+              options: [
+                { id: 'o1', text: 'It is snowing in the mountains.' },
+                { id: 'o2', text: 'I am going to travel next month.' },
+                { id: 'o3', text: 'Look, it is raining.' },
+                { id: 'o4', text: 'She is packing her bag right now.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: '"Going to" + verb describes a future plan; the others describe now.',
+              difficulty: 'medium'
+            },
+            {
+              id: 'q10',
+              type: 'mcq',
+              prompt: 'What is the short form of "it is" in "It\'s raining"?',
+              options: [
+                { id: 'o1', text: 'it is' },
+                { id: 'o2', text: 'its' },
+                { id: 'o3', text: "it's" },
+                { id: 'o4', text: 'it are' }
+              ],
+              correctOptionId: 'o3',
+              explanation: '"It is" contracts to "it\'s".',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q11',
+              type: 'mcq',
+              prompt: 'Put in order: "visit / going to / are / they / the beach"',
+              options: [
+                { id: 'o1', text: 'They are going to visit the beach.' },
+                { id: 'o2', text: 'They going to are visit the beach.' },
+                { id: 'o3', text: 'Are they going to visit the beach they.' },
+                { id: 'o4', text: 'Going to they are visit the beach.' }
+              ],
+              correctOptionId: 'o1',
+              explanation: 'Order: subject + to be + going to + base verb + rest.',
+              difficulty: 'hard'
+            },
+            {
+              id: 'q12',
+              type: 'mcq',
+              prompt: 'Choose the equivalent sentence to "It is very cold and white snow is falling."',
+              options: [
+                { id: 'o1', text: 'It is sunny.' },
+                { id: 'o2', text: 'It is snowing.' },
+                { id: 'o3', text: 'It is going to snow.' },
+                { id: 'o4', text: 'It snows every winter.' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Snow falling right now is described with the present continuous: "It is snowing."',
+              difficulty: 'hard'
+            }
+          ]
+        }
       }),
       vocabulary: activity('vocabulary', {
         title: 'Weather and Travel Words',
