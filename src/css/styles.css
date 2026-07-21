@@ -846,6 +846,7 @@ a:focus-visible {
 
   #authModal .auth-form,
   #authModal .signup-fields,
+  #authModal .signup-step,
   #authModal .signup-pending {
     gap: 14px;
   }
@@ -964,6 +965,61 @@ a:focus-visible {
 .signup-fields {
   display: grid;
   gap: 18px;
+}
+
+.signup-step-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.signup-step-indicator .step-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--muted);
+  opacity: 0.35;
+  transition:
+    background 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.signup-step-indicator .step-dot.active {
+  background: var(--blue);
+  opacity: 1;
+}
+
+.auth-step-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.signup-step {
+  display: grid;
+  gap: 18px;
+}
+
+.signup-step[hidden] {
+  display: none;
+}
+
+.signup-step-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.signup-step-actions .primary-btn,
+.signup-step-actions .secondary-btn {
+  flex: 1;
+  width: auto;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .signup-step-actions {
+    flex-direction: column;
+  }
 }
 
 .signup-pending {

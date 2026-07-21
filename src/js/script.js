@@ -1804,6 +1804,12 @@ function attachAuthHandlers() {
 
   document.getElementById('signupForm')?.addEventListener('submit', async (event) => {
     event.preventDefault();
+    // The only type="submit" control lives in step 2 (Crear cuenta), but
+    // guard anyway against any stray native submit reaching here while step 1
+    // is still showing - account creation must never fire before the
+    // password step's own validation has run.
+    if (signupStep !== 2) return;
+
     const usernameInput = document.getElementById('signupUsername');
     const usernameStatusEl = document.getElementById('signupUsernameStatus');
     const rawUsername = usernameInput?.value || '';
@@ -1820,15 +1826,11 @@ function attachAuthHandlers() {
     if (submitBtn) submitBtn.disabled = true;
 
     try {
-      // Step 1 of 2: username must be format-valid and confirmed available
-      // (re-checked with the server right now, not just trusted from the
-      // last debounced check) before we even attempt to create the account.
-      const usernameOk = await ensureUsernameAvailableForSubmit(
-        'signupUsername',
-        'signupUsernameStatus'
-      );
-      if (!usernameOk) return;
-
+      // Username availability was already confirmed with the server when
+      // advancing from step 1 (see handleSignupContinue) - the partial
+      // unique index on username_normalized is still the real, final
+      // authority, so no need to re-check it a second time here before
+      // attempting to create the account.
       const data = await postJson('/api/auth', {
         action: 'register',
         username: rawUsername.trim(),
@@ -1850,8 +1852,8 @@ function attachAuthHandlers() {
     } catch (error) {
       // Someone else claimed this exact username in the moment between our
       // last check and this submit (rare race) - surface it through the
-      // same status element as every other username message, never as a
-      // second, contradicting message elsewhere in the form.
+      // same status element as every other username message, and send the
+      // student back to step 1 so that element (and the input) are visible.
       if (error.code === 'USERNAME_NOT_AVAILABLE') {
         setUsernameStatus(
           'signupUsername',
@@ -1860,7 +1862,7 @@ function attachAuthHandlers() {
           window.AndergoUsernameRules?.normalizeUsername(rawUsername) || '',
           'Este nombre de usuario ya no está disponible. Elige otro.'
         );
-        usernameInput?.focus();
+        goToSignupStep(1);
         return;
       }
       setAuthMessage(error.message, true);
@@ -2271,7 +2273,90 @@ function resetSignupPending() {
     window.clearInterval(resendOtpCooldownId);
     resendOtpCooldownId = null;
   }
+  // Whenever the editable fields come back into view (fresh modal open,
+  // "Volver al inicio", or "Cambiar correo"), always start from step 1 -
+  // never leave the student stranded on the password step with no visible
+  // way back to it.
+  goToSignupStep(1, { focus: false });
 }
+
+// Which half of #signupForm is currently visible - the account-info fields
+// (step 1) or the password fields (step 2). Reset to 1 by resetSignupPending
+// above, advanced/rewound only via goToSignupStep below.
+let signupStep = 1;
+
+function goToSignupStep(step, { focus = true } = {}) {
+  signupStep = step;
+  const step1El = document.getElementById('signupStep1');
+  const step2El = document.getElementById('signupStep2');
+  if (step1El) step1El.hidden = step !== 1;
+  if (step2El) step2El.hidden = step !== 2;
+  document.querySelectorAll('#signupStepIndicator .step-dot').forEach((dot) => {
+    dot.classList.toggle('active', Number(dot.dataset.stepDot) === step);
+  });
+  const labelEl = document.getElementById('signupStepLabel');
+  if (labelEl) labelEl.textContent = `Paso ${step} de 2`;
+  if (!focus) return;
+  if (step === 1) {
+    document.getElementById('signupUsername')?.focus();
+  } else {
+    document.getElementById('signupPassword')?.focus();
+  }
+}
+
+// Step 1 -> step 2: confirms the account-info fields are valid (and the
+// username still available) but never calls Supabase here - account
+// creation only ever happens from the step-2 submit handler below.
+async function handleSignupContinue() {
+  if (signupStep !== 1) return;
+  const usernameInput = document.getElementById('signupUsername');
+  const emailInput = document.getElementById('signupEmail');
+  const continueBtn = document.getElementById('signupContinueBtn');
+  if (!usernameInput || !emailInput || continueBtn?.disabled) return;
+
+  if (!emailInput.checkValidity()) {
+    emailInput.reportValidity();
+    emailInput.focus();
+    return;
+  }
+  if (!usernameInput.checkValidity()) {
+    usernameInput.reportValidity();
+    usernameInput.focus();
+    return;
+  }
+
+  if (continueBtn) continueBtn.disabled = true;
+  try {
+    const usernameOk = await ensureUsernameAvailableForSubmit(
+      'signupUsername',
+      'signupUsernameStatus'
+    );
+    if (!usernameOk) return;
+    goToSignupStep(2);
+  } finally {
+    if (continueBtn) continueBtn.disabled = false;
+  }
+}
+
+document.getElementById('signupContinueBtn')?.addEventListener('click', handleSignupContinue);
+
+document.getElementById('signupBackBtn')?.addEventListener('click', () => {
+  goToSignupStep(1);
+});
+
+// Enter should always drive whichever step is currently visible instead of
+// the browser's own implicit-submission pick (unreliable once one step's
+// button is hidden) - scoped to .signup-fields so it never fires for Enter
+// inside the separate OTP-verification step further down this same form.
+document.querySelector('#signupForm .signup-fields')?.addEventListener('keydown', (event) => {
+  if (event.key !== 'Enter' || event.target.tagName === 'BUTTON') return;
+  event.preventDefault();
+  if (signupStep === 1) {
+    handleSignupContinue();
+  } else {
+    document.getElementById('signupForm')?.requestSubmit();
+  }
+});
 
 // Auto-advance/backspace/paste across the 6 individual digit boxes - kept
 // scoped to #otpInputRow so it never interferes with any other input on the

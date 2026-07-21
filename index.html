@@ -1404,85 +1404,103 @@
           <form class="auth-form" id="signupForm">
             <h3>Registrarse</h3>
             <div class="signup-fields">
-              <label for="signupUsername"
-                >Nombre de usuario
-                <input
-                  type="text"
-                  id="signupUsername"
-                  name="username"
-                  placeholder="anderson2026"
-                  autocomplete="username"
-                  minlength="4"
-                  maxlength="24"
-                  required
-                />
-              </label>
-              <p class="auth-field-hint">El nombre de usuario será visible en ANDERGO.</p>
-              <p
-                class="username-availability-status"
-                id="signupUsernameStatus"
-                aria-live="polite"
-              ></p>
+              <div class="signup-step-indicator" id="signupStepIndicator">
+                <span class="step-dot active" data-step-dot="1" aria-hidden="true"></span>
+                <span class="step-dot" data-step-dot="2" aria-hidden="true"></span>
+                <span class="auth-step-label" id="signupStepLabel" aria-live="polite"
+                  >Paso 1 de 2</span
+                >
+              </div>
 
-              <label for="signupEmail"
-                >Correo electrónico
-                <input
-                  type="email"
-                  id="signupEmail"
-                  name="email"
-                  placeholder="tu@correo.com"
-                  autocomplete="email"
-                  required
-                />
-              </label>
-
-              <label for="signupPassword"
-                >Contraseña
-                <span class="password-field">
+              <div class="signup-step" id="signupStep1">
+                <label for="signupUsername"
+                  >Nombre de usuario
                   <input
-                    type="password"
-                    id="signupPassword"
-                    name="password"
-                    placeholder="Contraseña"
-                    autocomplete="new-password"
+                    type="text"
+                    id="signupUsername"
+                    name="username"
+                    placeholder="anderson2026"
+                    autocomplete="username"
+                    minlength="4"
+                    maxlength="24"
                     required
                   />
-                  <button
-                    type="button"
-                    class="password-toggle-btn"
-                    data-password-toggle="signupPassword"
-                    aria-label="Mostrar contraseña"
-                  >
-                    👁
-                  </button>
-                </span>
-              </label>
-              <p class="password-strength" id="signupPasswordStrength" aria-live="polite"></p>
+                </label>
+                <p class="auth-field-hint">El nombre de usuario será visible en ANDERGO.</p>
+                <p
+                  class="username-availability-status"
+                  id="signupUsernameStatus"
+                  aria-live="polite"
+                ></p>
 
-              <label for="signupConfirmPassword"
-                >Confirmar contraseña
-                <span class="password-field">
+                <label for="signupEmail"
+                  >Correo electrónico
                   <input
-                    type="password"
-                    id="signupConfirmPassword"
-                    name="confirmPassword"
-                    placeholder="Confirmar contraseña"
-                    autocomplete="new-password"
+                    type="email"
+                    id="signupEmail"
+                    name="email"
+                    placeholder="tu@correo.com"
+                    autocomplete="email"
                     required
                   />
-                  <button
-                    type="button"
-                    class="password-toggle-btn"
-                    data-password-toggle="signupConfirmPassword"
-                    aria-label="Mostrar contraseña"
-                  >
-                    👁
-                  </button>
-                </span>
-              </label>
+                </label>
 
-              <button type="submit" class="primary-btn">Crear cuenta</button>
-              <p class="auth-note">Al crear cuenta aceptas nuestros términos de uso.</p>
+                <button type="button" class="primary-btn" id="signupContinueBtn">Continuar</button>
+              </div>
+
+              <div class="signup-step" id="signupStep2" hidden>
+                <label for="signupPassword"
+                  >Contraseña
+                  <span class="password-field">
+                    <input
+                      type="password"
+                      id="signupPassword"
+                      name="password"
+                      placeholder="Contraseña"
+                      autocomplete="new-password"
+                      required
+                    />
+                    <button
+                      type="button"
+                      class="password-toggle-btn"
+                      data-password-toggle="signupPassword"
+                      aria-label="Mostrar contraseña"
+                    >
+                      👁
+                    </button>
+                  </span>
+                </label>
+                <p class="password-strength" id="signupPasswordStrength" aria-live="polite"></p>
+                <p class="auth-field-hint">Usa al menos 8 caracteres, combinando letras y números.</p>
+
+                <label for="signupConfirmPassword"
+                  >Confirmar contraseña
+                  <span class="password-field">
+                    <input
+                      type="password"
+                      id="signupConfirmPassword"
+                      name="confirmPassword"
+                      placeholder="Confirmar contraseña"
+                      autocomplete="new-password"
+                      required
+                    />
+                    <button
+                      type="button"
+                      class="password-toggle-btn"
+                      data-password-toggle="signupConfirmPassword"
+                      aria-label="Mostrar contraseña"
+                    >
+                      👁
+                    </button>
+                  </span>
+                </label>
+
+                <div class="signup-step-actions">
+                  <button type="button" class="secondary-btn" id="signupBackBtn">← Volver</button>
+                  <button type="submit" class="primary-btn">Crear cuenta</button>
+                </div>
+                <p class="auth-note">Al crear cuenta aceptas nuestros términos de uso.</p>
+              </div>
             </div>
             <div class="signup-pending" id="signupPending" role="status" aria-live="polite" hidden>
               <div class="verify-account-step" id="verifyAccountStep">
