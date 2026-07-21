@@ -1184,9 +1184,18 @@ test('language pair: getLanguagePairLabel renders the correct pair per spec §8 
 test('language pair: getInterfaceLabel uses L1, not L2, for interface chrome (§8 item 4)', () => {
   // Same label key, different bridgeLanguage in each call - the interface
   // label must follow L1 regardless of what's being learned.
-  assert.equal(LanguagePair.getInterfaceLabel('bridgeSelectLabel', 'spanish'), 'Idioma de apoyo (L1)');
-  assert.equal(LanguagePair.getInterfaceLabel('bridgeSelectLabel', 'english'), 'Support language (L1)');
-  assert.equal(LanguagePair.getInterfaceLabel('bridgeSelectLabel', 'french'), "Langue d'appui (L1)");
+  assert.equal(
+    LanguagePair.getInterfaceLabel('bridgeSelectLabel', 'spanish'),
+    'Idioma de la plataforma y apoyo (L1)'
+  );
+  assert.equal(
+    LanguagePair.getInterfaceLabel('bridgeSelectLabel', 'english'),
+    'Platform & support language (L1)'
+  );
+  assert.equal(
+    LanguagePair.getInterfaceLabel('bridgeSelectLabel', 'french'),
+    "Langue de la plateforme et d'appui (L1)"
+  );
   assert.equal(LanguagePair.getInterfaceLabel('levelSelectLabel', 'french'), 'Niveau');
 });
 
@@ -1685,4 +1694,172 @@ test('script.js: L2 (target language) still drives the learning content, indepen
   const setTargetBody = source.match(/function setTargetLanguage\(lang, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1];
   assert.match(setTargetBody, /learningPathState\.language = resolved;/);
   assert.doesNotMatch(setTargetBody, /learningPathState\.bridgeLanguage = resolved;/);
+});
+
+test('LanguagePair: same-language pairs (L1 = L2) are supported for spanish/english/french, direct/immersion mode', () => {
+  for (const lang of ['spanish', 'english', 'french']) {
+    assert.equal(
+      LanguagePair.isLanguagePairSupported(lang, lang),
+      true,
+      `expected ${lang}->${lang} to be a supported (direct-mode) pair`
+    );
+    assert.equal(LanguagePair.getLearningMode(lang, lang), 'direct');
+  }
+  // Not authored languages (no course content) - same-language still
+  // correctly unsupported, distinct from "blocked because equal".
+  assert.equal(LanguagePair.isLanguagePairSupported('italian', 'italian'), false);
+  assert.equal(LanguagePair.isLanguagePairSupported('german', 'german'), false);
+});
+
+test('LanguagePair.getLearningMode(): "bilingual" for distinct languages, "direct" for L1 = L2', () => {
+  assert.equal(LanguagePair.getLearningMode('spanish', 'english'), 'bilingual');
+  assert.equal(LanguagePair.getLearningMode('english', 'french'), 'bilingual');
+  assert.equal(LanguagePair.getLearningMode('spanish', 'spanish'), 'direct');
+  assert.equal(LanguagePair.getLearningMode('english', 'english'), 'direct');
+  assert.equal(LanguagePair.getLearningMode('french', 'french'), 'direct');
+});
+
+test('LanguagePair.getLanguagePairLabel(): direct mode shows the immersion sentence, in the interface language, no "support in" phrasing', () => {
+  assert.equal(
+    LanguagePair.getLanguagePairLabel('spanish', 'spanish'),
+    'Aprenderás español mediante inmersión y definiciones en español.'
+  );
+  assert.equal(
+    LanguagePair.getLanguagePairLabel('english', 'english'),
+    'You will learn English through immersion and English definitions.'
+  );
+  assert.equal(
+    LanguagePair.getLanguagePairLabel('french', 'french'),
+    'Vous apprendrez le français par immersion et avec des définitions en français.'
+  );
+  // Bilingual pairs are unaffected - still the original "support in" sentence.
+  assert.equal(
+    LanguagePair.getLanguagePairLabel('spanish', 'english'),
+    'Aprenderás inglés con apoyo en español.'
+  );
+});
+
+test('LanguagePair.getLearningSupport(): direct mode returns definitions/examples/image in L2, never a translation', () => {
+  const item = {
+    word: { english: 'teacher' },
+    translationSupport: { spanish: 'profesor' },
+    examples: ['Old bilingual example - should not be used in direct mode.'],
+    directSupport: {
+      definition: 'A person who helps students learn.',
+      simpleDefinition: 'Someone who teaches.',
+      synonyms: ['instructor'],
+      contextExamples: ['My teacher is very kind.', 'The teacher writes on the board.'],
+      image: '/img/teacher.webp',
+      imageAlt: 'A teacher helping a student at a desk'
+    }
+  };
+  const support = LanguagePair.getLearningSupport({
+    item,
+    bridgeLanguage: 'english',
+    targetLanguage: 'english',
+    learningMode: 'direct'
+  });
+  assert.equal(support.mode, 'direct');
+  assert.equal(support.word, 'teacher');
+  assert.equal(support.definition, 'A person who helps students learn.');
+  assert.equal(support.simpleDefinition, 'Someone who teaches.');
+  assert.deepEqual(support.synonyms, ['instructor']);
+  assert.deepEqual(support.examples, ['My teacher is very kind.', 'The teacher writes on the board.']);
+  assert.equal(support.image, '/img/teacher.webp');
+  assert.equal(support.imageAlt, 'A teacher helping a student at a desk');
+  assert.equal(support.translation, undefined, 'direct mode must never surface a translation field');
+});
+
+test('LanguagePair.getLearningSupport(): bilingual mode returns the L1 translation, no direct-mode fields', () => {
+  const item = {
+    word: { english: 'teacher' },
+    translationSupport: { spanish: 'profesor' },
+    examples: ['My teacher is very kind.'],
+    directSupport: { definition: 'Should not be used in bilingual mode.' }
+  };
+  const support = LanguagePair.getLearningSupport({
+    item,
+    bridgeLanguage: 'spanish',
+    targetLanguage: 'english',
+    learningMode: 'bilingual'
+  });
+  assert.equal(support.mode, 'bilingual');
+  assert.equal(support.word, 'teacher');
+  assert.equal(support.translation, 'profesor');
+  assert.deepEqual(support.examples, ['My teacher is very kind.']);
+  assert.equal(support.definition, undefined, 'bilingual mode must never surface direct-mode definition fields');
+});
+
+test('LanguagePair.getLearningSupport(): learningMode defaults to the derived mode when not passed explicitly', () => {
+  const item = { word: { english: 'house' }, translationSupport: { spanish: 'casa' } };
+  const bilingual = LanguagePair.getLearningSupport({ item, bridgeLanguage: 'spanish', targetLanguage: 'english' });
+  assert.equal(bilingual.mode, 'bilingual');
+  const direct = LanguagePair.getLearningSupport({ item, bridgeLanguage: 'english', targetLanguage: 'english' });
+  assert.equal(direct.mode, 'direct');
+});
+
+test('script.js: setBridgeLanguage()/setTargetLanguage() no longer reject L1 = L2', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.doesNotMatch(
+    source,
+    /El idioma de apoyo y el idioma que aprendes deben ser diferentes/,
+    'the old "choose two different languages" rejection message must be gone from the learning-path selector'
+  );
+
+  const setBridgeBody = source.match(/function setBridgeLanguage\(bridgeName, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.doesNotMatch(setBridgeBody, /bridgeName === target/);
+  assert.match(setBridgeBody, /LanguagePair\.isLanguagePairSupported\(bridgeName, target\)/);
+
+  const setTargetBody = source.match(/function setTargetLanguage\(lang, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.doesNotMatch(setTargetBody, /resolved === learningPathState\.bridgeLanguage/);
+  assert.match(setTargetBody, /LanguagePair\.isLanguagePairSupported\(learningPathState\.bridgeLanguage, resolved\)/);
+});
+
+test('script.js: learningPathState.learningMode is kept in sync with bridge/target on every change', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(source, /function syncLearningMode\(\) \{([\s\S]*?)\n\}/);
+
+  const setBridgeBody = source.match(/function setBridgeLanguage\(bridgeName, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.match(setBridgeBody, /syncLearningMode\(\);/);
+
+  const setTargetBody = source.match(/function setTargetLanguage\(lang, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.match(setTargetBody, /syncLearningMode\(\);/);
+
+  const swapBody = source.match(/function swapLearningPathLanguages\(\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.match(swapBody, /syncLearningMode\(\);/);
+
+  const loadPathBody = source.match(/async function loadLearningPath\(options = \{\}\) \{([\s\S]*?)\n  const graphContainer/)?.[1];
+  assert.match(loadPathBody, /syncLearningMode\(\);/);
+});
+
+test('lib/preferencesService.js: no longer rejects bridgeLanguage === language, and the DB CHECK constraint is dropped', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'lib', 'preferencesService.js'), 'utf8');
+  assert.doesNotMatch(
+    source,
+    /nextLanguage === nextBridge/,
+    'preferencesService must no longer reject a same-language bridge/target pair'
+  );
+  assert.doesNotMatch(source, /El idioma puente debe ser diferente del idioma que deseas aprender/);
+
+  const migration = fs.readFileSync(
+    path.join(__dirname, 'supabase', 'migrations', '202607200001_allow_same_language_direct_mode.sql'),
+    'utf8'
+  );
+  assert.match(migration, /drop constraint if exists profiles_bridge_not_target_check/);
+});
+
+test('progress stays separated by targetLanguage/level/skill regardless of learningMode (spec §11) - lesson slugs never depend on bridgeLanguage', () => {
+  // Practice results are keyed by lesson slug (getSkillActivities/exerciseResults),
+  // and every lesson slug is generated from language+level+skill/unit -
+  // switching bridgeLanguage (and therefore learningMode) never changes
+  // which slug a given target-language/level/skill activity has, so
+  // switching between bilingual and direct for the same target/level can
+  // never merge or reset progress recorded under the other mode.
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(source, /exerciseResults: \{\}/);
+  assert.doesNotMatch(
+    source,
+    /exerciseResults\[.*bridgeLanguage/,
+    'exerciseResults must stay keyed by lesson slug, never by bridgeLanguage/learningMode'
+  );
 });

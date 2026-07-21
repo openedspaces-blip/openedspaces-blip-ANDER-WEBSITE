@@ -301,21 +301,13 @@ nativeLanguageSelect?.addEventListener('change', (event) => {
 
 // Single source of truth for the bridge (already-known) language - keeps
 // both selects (the learning-path #pathBridgeSelect and the older
-// #nativeLanguage one) in sync, blocks bridge === target (the learning
-// path's target, learningPathState.language - the one that's actually
-// persisted alongside bridge_language server-side), and persists the
-// change. Rejects and reverts the visible selects if the pair is invalid,
-// instead of silently accepting an impossible combination.
+// #nativeLanguage one) in sync and persists the change. bridgeName ===
+// target is allowed (spec §3: direct/immersion learning mode, L1 === L2) -
+// only an actually-unsupported pair (see LanguagePair.isLanguagePairSupported)
+// is rejected. Rejects and reverts the visible selects if the pair is
+// invalid, instead of silently accepting an impossible combination.
 function setBridgeLanguage(bridgeName, options = {}) {
   const target = learningPathState.language;
-  if (bridgeName === target) {
-    showHomeToast('El idioma de apoyo y el idioma que aprendes deben ser diferentes.');
-    if (nativeLanguageSelect)
-      nativeLanguageSelect.value = bridgeNameToCode[learningPathState.bridgeLanguage] || 'es';
-    const staleBridgeSelect = document.getElementById('pathBridgeSelect');
-    if (staleBridgeSelect) staleBridgeSelect.value = learningPathState.bridgeLanguage;
-    return false;
-  }
   if (LanguagePair && !LanguagePair.isLanguagePairSupported(bridgeName, target)) {
     showHomeToast('Esta combinación estará disponible próximamente.');
     if (nativeLanguageSelect)
@@ -326,6 +318,7 @@ function setBridgeLanguage(bridgeName, options = {}) {
   }
 
   learningPathState.bridgeLanguage = bridgeName;
+  syncLearningMode();
   translatorUserAdjustedPair = false;
   if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[bridgeName] || 'es';
   const bridgeSelect = document.getElementById('pathBridgeSelect');
@@ -391,6 +384,18 @@ function applyInterfaceLanguage(bridgeLanguage) {
   refreshLanguagePairChrome();
 }
 
+// Keeps learningPathState.learningMode ('direct' | 'bilingual', spec §3) in
+// sync with bridgeLanguage/targetLanguage. Derived, not independently set -
+// call this after every place that changes either field, same rule as
+// applyInterfaceLanguage for bridgeLanguage changes.
+function syncLearningMode() {
+  learningPathState.learningMode = LanguagePair
+    ? LanguagePair.getLearningMode(learningPathState.bridgeLanguage, learningPathState.language)
+    : learningPathState.bridgeLanguage === learningPathState.language
+      ? 'direct'
+      : 'bilingual';
+}
+
 function updatePathPairPreview() {
   refreshLanguagePairChrome();
   const preview = document.getElementById('pathPairPreview');
@@ -417,10 +422,6 @@ function setTargetLanguage(lang, options = {}) {
   const resolved = normalizeLanguageKey(lang);
   if (!resolved || !languageDisplayNames[resolved] || resolved === 'ai') return false;
 
-  if (resolved === learningPathState.bridgeLanguage) {
-    showHomeToast('El idioma de apoyo y el idioma que aprendes deben ser diferentes.');
-    return false;
-  }
   if (LanguagePair && !LanguagePair.isLanguagePairSupported(learningPathState.bridgeLanguage, resolved)) {
     showHomeToast('Esta combinación estará disponible próximamente.');
     return false;
@@ -432,6 +433,7 @@ function setTargetLanguage(lang, options = {}) {
   stopTutorDictation();
 
   learningPathState.language = resolved;
+  syncLearningMode();
   translatorUserAdjustedPair = false;
 
   const pathLanguageSelect = document.getElementById('pathLanguageSelect');
@@ -468,6 +470,7 @@ function swapLearningPathLanguages() {
   stopTutorDictation();
   learningPathState.bridgeLanguage = swapped.bridge;
   learningPathState.language = swapped.target;
+  syncLearningMode();
   translatorUserAdjustedPair = false;
 
   if (nativeLanguageSelect) nativeLanguageSelect.value = bridgeNameToCode[swapped.bridge] || 'es';
@@ -2641,6 +2644,11 @@ const learningPathState = {
   // folded in here so bridge/target/level all live on one object.
   bridgeLanguage: 'spanish',
   level: 'A1',
+  // 'bilingual' | 'direct' (spec §3) - derived from bridgeLanguage/language,
+  // never written to directly. See syncLearningMode(), called after every
+  // assignment to either field. Initialized consistently with the two
+  // defaults above (spanish !== english -> bilingual).
+  learningMode: 'bilingual',
   // Practice results recorded locally as the student answers, keyed by
   // lesson slug -> exercise index -> { selectedOption } | { practiced: true }.
   // Only used to drive the UI (which exercises are left, when "Completar"
@@ -8844,6 +8852,7 @@ async function loadLearningPath(options = {}) {
   readingSpeechPlayer.teardown();
   learningPathState.language = options.language || learningPathState.language;
   learningPathState.level = options.level || learningPathState.level;
+  syncLearningMode();
   learningPathState.units = getUnitsForLanguageLevel(
     learningPathState.language,
     learningPathState.level

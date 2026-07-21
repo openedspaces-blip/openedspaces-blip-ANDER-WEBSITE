@@ -92,8 +92,8 @@
   // this file was introduced in for the explicit scope boundary).
   const INTERFACE_LABELS = {
     spanish: {
-      bridgeSelectLabel: 'Idioma de apoyo (L1)',
-      targetSelectLabel: 'Idioma objetivo (L2)',
+      bridgeSelectLabel: 'Idioma de la plataforma y apoyo (L1)',
+      targetSelectLabel: 'Idioma que deseas aprender (L2)',
       levelSelectLabel: 'Nivel',
       bridgeLabel: 'Idioma puente',
       targetLabel: 'Idioma meta',
@@ -101,8 +101,8 @@
       aiLanguageLabel: 'Idioma'
     },
     english: {
-      bridgeSelectLabel: 'Support language (L1)',
-      targetSelectLabel: 'Target language (L2)',
+      bridgeSelectLabel: 'Platform & support language (L1)',
+      targetSelectLabel: 'Language you want to learn (L2)',
       levelSelectLabel: 'Level',
       bridgeLabel: 'Bridge language',
       targetLabel: 'Target language',
@@ -110,8 +110,8 @@
       aiLanguageLabel: 'Language'
     },
     french: {
-      bridgeSelectLabel: "Langue d'appui (L1)",
-      targetSelectLabel: 'Langue cible (L2)',
+      bridgeSelectLabel: "Langue de la plateforme et d'appui (L1)",
+      targetSelectLabel: 'Langue que vous voulez apprendre (L2)',
       levelSelectLabel: 'Niveau',
       bridgeLabel: "Langue d'appui",
       targetLabel: 'Langue cible',
@@ -134,10 +134,15 @@
   // "Aprenderás {L2} mediante inmersión y definiciones en {L2}." (spec §8) -
   // shown instead of PAIR_SENTENCE when bridge === target, since "support in
   // X" makes no sense when the support language and the target are the same.
+  // Only ever called with target === the interface language itself (direct
+  // mode is same-language by definition), so french's target is always
+  // "français" - needs its definite article ("le français"), unlike the
+  // other two languages' bare noun forms.
   const PAIR_SENTENCE_DIRECT = {
     spanish: (target) => `Aprenderás ${target} mediante inmersión y definiciones en ${target}.`,
     english: (target) => `You will learn ${target} through immersion and ${target} definitions.`,
-    french: (target) => `Vous apprendrez ${target} par immersion et avec des définitions en ${target}.`
+    french: (target) =>
+      `Vous apprendrez ${target === 'français' ? 'le français' : target} par immersion et avec des définitions en ${target}.`
   };
 
   // General-purpose UI-chrome dictionary (spec §2: L1 controls navigation,
@@ -439,6 +444,58 @@
     return content[targetLanguage] != null ? content[targetLanguage] : '';
   }
 
+  // getLearningSupport({ item, bridgeLanguage, targetLanguage, learningMode })
+  // (spec §9) - the one place content items (vocabulary/reading glossary
+  // entries/etc.) get normalized into what a learner actually sees, so
+  // renderers never have to branch on learningMode themselves. `item` may
+  // carry both `translationSupport` (per-bridge-language strings, same
+  // shape as getSupportText's `content` param - used in bilingual mode) and
+  // `directSupport` ({ definition, simpleDefinition, synonyms, opposites,
+  // usageNote, image, imageAlt } - used in direct mode, spec §9/§10); items
+  // authored before direct mode existed may only have the older
+  // `translation`/`image`/`imageAlt` fields, which this still reads as a
+  // fallback so existing bilingual content keeps working unchanged.
+  //
+  // bilingual -> { mode, word, translation, examples, image, imageAlt }
+  // direct    -> { mode, word, definition, simpleDefinition, synonyms,
+  //                opposites, usageNote, examples, image, imageAlt }
+  // Never throws on a missing item/fields - returns null for no item, and
+  // empty strings/arrays for support fields that aren't authored yet (spec
+  // §10: no broken placeholders - callers should skip rendering an empty
+  // image/imageAlt rather than showing a broken box).
+  function getLearningSupport({ item, bridgeLanguage, targetLanguage, learningMode }) {
+    if (!item) return null;
+    const mode = learningMode || getLearningMode(bridgeLanguage, targetLanguage);
+    const word = getTargetContent(item.word || item.term, targetLanguage) || item.word || item.term || '';
+
+    if (mode === 'direct') {
+      const direct = item.directSupport || {};
+      return {
+        mode: 'direct',
+        word,
+        definition: direct.definition || '',
+        simpleDefinition: direct.simpleDefinition || direct.definition || '',
+        synonyms: direct.synonyms || [],
+        opposites: direct.opposites || [],
+        usageNote: direct.usageNote || '',
+        examples: direct.contextExamples || item.examples || [],
+        image: direct.image || item.image || null,
+        imageAlt: direct.imageAlt || item.imageAlt || ''
+      };
+    }
+
+    return {
+      mode: 'bilingual',
+      word,
+      translation: item.translationSupport
+        ? getSupportText(item.translationSupport, bridgeLanguage)
+        : getSupportText(item.translation, bridgeLanguage),
+      examples: item.examples || [],
+      image: item.image || null,
+      imageAlt: item.imageAlt || ''
+    };
+  }
+
   // getLanguagePairLabel(bridgeLanguage, targetLanguage[, interfaceLanguage])
   // -> "Aprenderás {L2} con apoyo en {L1}." (or the equivalent in the
   // interface language). interfaceLanguage defaults to bridgeLanguage, per
@@ -448,10 +505,28 @@
   //   "Aprenderás inglés con apoyo en español."
   function getLanguagePairLabel(bridgeLanguage, targetLanguage, interfaceLanguage) {
     const uiLanguage = interfaceLanguage || bridgeLanguage;
-    const sentence = PAIR_SENTENCE[uiLanguage] || PAIR_SENTENCE.spanish;
     const targetName = languageNameIn(uiLanguage, targetLanguage);
+    // Same-language pair (direct/immersion mode, spec §3/§8) - "support in
+    // X" makes no sense when bridge and target are the same language, so
+    // this uses the immersion-flavored sentence instead of PAIR_SENTENCE.
+    if (bridgeLanguage === targetLanguage) {
+      const directSentence = PAIR_SENTENCE_DIRECT[uiLanguage] || PAIR_SENTENCE_DIRECT.spanish;
+      return directSentence(targetName);
+    }
+    const sentence = PAIR_SENTENCE[uiLanguage] || PAIR_SENTENCE.spanish;
     const bridgeName = languageNameIn(uiLanguage, bridgeLanguage);
     return sentence(targetName, bridgeName);
+  }
+
+  // getLearningMode(bridgeLanguage, targetLanguage) -> 'direct' | 'bilingual'
+  // (spec §3). Deliberately derived, not a separately-persisted field: it is
+  // fully determined by bridgeLanguage/targetLanguage, the two fields that
+  // ARE persisted (profiles.bridge_language/preferred_language) - storing a
+  // third, redundant field would risk drifting out of sync with them. Same
+  // "single source of truth, documented" principle as interfaceLanguage ===
+  // bridgeLanguage at the top of this file.
+  function getLearningMode(bridgeLanguage, targetLanguage) {
+    return bridgeLanguage && bridgeLanguage === targetLanguage ? 'direct' : 'bilingual';
   }
 
   // Central list of bridge->target combinations with real course content and
@@ -464,20 +539,31 @@
   // content/interface. Add a row here (plus the matching INTERFACE_LABELS/
   // PAIR_SENTENCE entries) when a new pair gets real content - nowhere else
   // in the codebase should hardcode this combination list.
+  //
+  // Same-language rows (english-english/spanish-spanish/french-french) are
+  // the direct/immersion learning mode (spec §3): L1 === L2, definitions and
+  // examples stay in that one language instead of being bridged. Only listed
+  // for the three languages with real course content, same rule as every
+  // other row here.
   const LANGUAGE_PAIRS = [
     { bridge: 'spanish', target: 'english' },
     { bridge: 'english', target: 'spanish' },
     { bridge: 'spanish', target: 'french' },
     { bridge: 'french', target: 'spanish' },
     { bridge: 'french', target: 'english' },
-    { bridge: 'english', target: 'french' }
+    { bridge: 'english', target: 'french' },
+    { bridge: 'spanish', target: 'spanish' },
+    { bridge: 'english', target: 'english' },
+    { bridge: 'french', target: 'french' }
   ];
 
-  // True only for a bridge/target pair that's both (a) two different,
-  // known languages and (b) actually listed in LANGUAGE_PAIRS above - never
-  // throws on an unrecognized language key, just returns false.
+  // True only for a bridge/target pair that's both (a) two known languages
+  // and (b) actually listed in LANGUAGE_PAIRS above - never throws on an
+  // unrecognized language key, just returns false. bridgeLanguage ===
+  // targetLanguage is allowed (spec §3, direct/immersion mode) whenever
+  // that same-language row is itself in LANGUAGE_PAIRS.
   function isLanguagePairSupported(bridgeLanguage, targetLanguage) {
-    if (!bridgeLanguage || !targetLanguage || bridgeLanguage === targetLanguage) return false;
+    if (!bridgeLanguage || !targetLanguage) return false;
     return LANGUAGE_PAIRS.some(
       (pair) => pair.bridge === bridgeLanguage && pair.target === targetLanguage
     );
@@ -505,7 +591,8 @@
   // Swaps bridge<->target (Español -> Inglés becomes Inglés -> Español) only
   // if the swapped pair is itself supported - returns null instead of an
   // unsupported/invalid pair so callers can't accidentally land somewhere
-  // with no content. Never returns bridge === target.
+  // with no content. For a direct/immersion pair (bridge === target, spec
+  // §3) this is a harmless no-op swap - the result is the same pair.
   function swapLanguagePair(bridgeLanguage, targetLanguage) {
     if (!isLanguagePairSupported(targetLanguage, bridgeLanguage)) return null;
     return { bridge: targetLanguage, target: bridgeLanguage };
@@ -550,6 +637,8 @@
     t,
     getSupportText,
     getTargetContent,
+    getLearningMode,
+    getLearningSupport,
     getLanguagePairLabel,
     isLanguagePairSupported,
     getAvailableTargetLanguages,
