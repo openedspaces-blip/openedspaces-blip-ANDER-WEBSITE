@@ -8771,13 +8771,13 @@ function listeningExtraModeList(lesson) {
 
 // True when a lesson has at least one of the rich Diálogo/Dictado/
 // Transcripción-y-pronunciación/Comprensión tabs worth showing, independent
-// of whether official/AI audio exists yet. Lets renderListeningAiOffer/
-// renderListeningUnavailable below show those tabs under the honest
-// "no audio yet" status card instead of hiding the whole unit behind an
-// audio file that hasn't been published - never fabricates a player, never
-// auto-calls a TTS provider, just stops blocking read/write content that
-// doesn't itself need audio to work (dictation grading, comprehension
-// questions, the dialogue script, the transcript).
+// of whether official audio exists yet. Lets renderListeningUnavailable
+// below show those tabs under the honest "no audio yet" status card instead
+// of hiding the whole unit behind an audio file that hasn't been published -
+// never fabricates a player, never auto-calls a TTS provider, just stops
+// blocking read/write content that doesn't itself need audio to work
+// (dictation grading, comprehension questions, the dialogue script, the
+// transcript).
 function listeningHasRichExtras(lesson) {
   return Boolean(
     (lesson.extra?.listeningType === 'dialogue' && lesson.dialogue?.length) ||
