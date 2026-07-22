@@ -238,7 +238,15 @@
       vocabSynonyms: 'Sinónimos',
       vocabOpposites: 'Antónimos',
       directModeBadge: 'Método directo',
-      bilingualModeBadge: 'Modo bilingüe'
+      bilingualModeBadge: 'Modo bilingüe',
+      verbsBadge: 'Verbos',
+      verbsTitle: 'Los verbos más frecuentes en inglés',
+      verbsDescription: 'Aprende, conjuga y practica los verbos más frecuentes en inglés.',
+      verbsLoading: 'Cargando verbos…',
+      verbsEmpty: 'Ningún verbo coincide con tu búsqueda.',
+      verbsErrorRetry: 'En este momento no pudimos cargar los verbos. Inténtalo nuevamente.',
+      verbsRetryBtn: 'Reintentar',
+      verbsLoadMoreBtn: 'Cargar más'
     },
     english: {
       skipLink: 'Skip to content',

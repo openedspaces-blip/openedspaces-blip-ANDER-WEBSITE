@@ -3614,11 +3614,14 @@ function cleanTutorTextForSpeech(rawText) {
     .trim();
 }
 
-// Must match lib/aiTutorService.js's L1_SUPPORT_MARKER exactly - the one
-// place the model is allowed to write native-language (L1) text, always
-// after a complete L2-only main response, on 'bilingual' learningMode only
-// (never emitted in 'direct' mode - see that file's TUTOR_INSTRUCTIONS).
+// Must match the marker lib/aiTutorService.js's TUTOR_INSTRUCTIONS forbids
+// the model from emitting at all - the Tutor is strictly monolingual in L2
+// now (no L1 support block), but a provider can still ignore instructions,
+// so this is a client-side backstop: strip the marker and anything after it
+// (and any other "[[TAG]]"-shaped internal marker) before the reply is ever
+// shown or spoken. The real fix lives in the prompt, not here.
 const TUTOR_L1_SUPPORT_MARKER = '[[L1_SUPPORT]]';
+const TUTOR_INTERNAL_MARKER_RE = /\[\[[A-Z0-9_]+\]\]/g;
 
 // Tolerates a marker that's only partially streamed in so far (e.g. the
 // chunk boundary landed mid-marker) by trimming any trailing prefix of the
@@ -3634,58 +3637,18 @@ function stripPartialL1Marker(text) {
   return text;
 }
 
-// Splits a raw tutor reply into its L2-only main body and the optional L1
-// support blurb (spec: "cualquier apoyo en L1 debe aparecer en un bloque
-// separado y opcional"). `l1` is '' whenever the marker hasn't appeared
-// (direct mode, or a bilingual reply that didn't need L1 support) - callers
-// simply skip rendering the toggle in that case.
-function splitTutorL1Support(text) {
+// Sanitizes a raw tutor reply into the L2-only text that should actually be
+// shown/spoken: cuts off everything from [[L1_SUPPORT]] onward (a provider
+// that ignores the "never emit this" instruction shouldn't be able to leak
+// L1 text into the UI), strips any partially-streamed marker prefix, and
+// removes any other internal "[[TAG]]"-shaped marker. Legitimate foreign
+// words the Tutor is explaining as part of the L2 lesson are left untouched -
+// this only ever removes app-generated marker syntax, never prose.
+function sanitizeTutorReplyText(text) {
   const raw = String(text || '');
   const idx = raw.indexOf(TUTOR_L1_SUPPORT_MARKER);
-  if (idx === -1) return { main: stripPartialL1Marker(raw), l1: '' };
-  return { main: raw.slice(0, idx).trim(), l1: raw.slice(idx + TUTOR_L1_SUPPORT_MARKER.length).trim() };
-}
-
-function renderTutorL1SupportHtml(l1) {
-  if (!l1) return '';
-  const bridgeLabel = languageDisplayNames[learningPathState.bridgeLanguage] || learningPathState.bridgeLanguage;
-  return `
-    <div class="tutor-l1-support">
-      <button type="button" class="tutor-l1-toggle-btn" aria-expanded="false">Mostrar apoyo en ${escapeHtml(bridgeLabel)}</button>
-      <p class="tutor-l1-text" hidden></p>
-    </div>
-  `;
-}
-
-function wireTutorL1Toggle(messageEl) {
-  const btn = messageEl.querySelector('.tutor-l1-toggle-btn');
-  const textEl = messageEl.querySelector('.tutor-l1-text');
-  if (!btn || !textEl || btn.dataset.wired) return;
-  btn.dataset.wired = 'true';
-  const bridgeLabel = languageDisplayNames[learningPathState.bridgeLanguage] || learningPathState.bridgeLanguage;
-  btn.addEventListener('click', () => {
-    const nowHidden = !textEl.hidden;
-    textEl.hidden = nowHidden;
-    btn.setAttribute('aria-expanded', String(!nowHidden));
-    btn.textContent = nowHidden
-      ? `Mostrar apoyo en ${bridgeLabel}`
-      : `Ocultar apoyo en ${bridgeLabel}`;
-  });
-}
-
-// Renders/updates the optional L1 support block for a tutor message,
-// creating it on first appearance (marker just streamed in) and keeping its
-// (still-hidden-by-default) text in sync on every later delta.
-function syncTutorL1SupportBlock(messageEl, l1) {
-  if (!l1) return;
-  let wrap = messageEl.querySelector('.tutor-l1-support');
-  if (!wrap) {
-    messageEl.insertAdjacentHTML('beforeend', renderTutorL1SupportHtml(l1));
-    wireTutorL1Toggle(messageEl);
-    wrap = messageEl.querySelector('.tutor-l1-support');
-  }
-  const textEl = wrap?.querySelector('.tutor-l1-text');
-  if (textEl) textEl.innerHTML = renderTutorMarkdownHtml(l1);
+  const cut = idx === -1 ? stripPartialL1Marker(raw) : raw.slice(0, idx);
+  return cut.replace(TUTOR_INTERNAL_MARKER_RE, '').trim();
 }
 
 // Returns the message wrapper <div> (not just its body <p>) so streaming
@@ -3703,16 +3666,15 @@ function appendTutorMessage(container, role, text, { isError = false } = {}) {
 
   const body = document.createElement('p');
   const isTutorReply = role === 'tutor' && !isError;
-  // Only real Tutor replies go through the Markdown cleanup/L1 split - error
+  // Only real Tutor replies go through the Markdown/marker cleanup - error
   // strings are our own plain text, never the model's, so they stay a
   // simple escape.
-  const { main, l1 } = isTutorReply ? splitTutorL1Support(text) : { main: text, l1: '' };
+  const main = isTutorReply ? sanitizeTutorReplyText(text) : text;
   body.innerHTML = isTutorReply
     ? renderTutorMarkdownHtml(main)
     : escapeHtml(text).replace(/\n/g, '<br>');
 
   message.append(label, body);
-  if (isTutorReply && l1) syncTutorL1SupportBlock(message, l1);
   container.appendChild(message);
   container.scrollTop = container.scrollHeight;
   return message;
