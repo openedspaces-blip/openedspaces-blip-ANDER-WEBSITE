@@ -1321,6 +1321,10 @@ async function logout() {
       if (window.location.hash !== '#home') history.pushState(null, '', '#home');
       showView('home');
     }
+    // Verbos stays public (list/Conjugador) even after logout - only its
+    // Practicar/Mi progreso subtabs re-gate, and only if one of them happens
+    // to be the currently open subtab.
+    window.regateVerbsFeatureTabs?.();
   }
 }
 
@@ -1756,6 +1760,11 @@ async function afterAuthSuccess() {
     // caller and look like the login itself failed.
     console.warn('Post-login setup failed', error);
   }
+
+  // No-op unless the student reached Auth via the Verbos Practicar/Mi
+  // progreso guard (verbs-view.js) - restores that exact subtab instead of
+  // leaving it on the access-required panel it briefly showed.
+  window.restoreVerbsPendingRoute?.();
 }
 
 function attachAuthHandlers() {

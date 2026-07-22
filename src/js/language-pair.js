@@ -328,7 +328,15 @@
       vocabSynonyms: 'Synonyms',
       vocabOpposites: 'Opposites',
       directModeBadge: 'Direct method',
-      bilingualModeBadge: 'Bilingual mode'
+      bilingualModeBadge: 'Bilingual mode',
+      verbsBadge: 'Verbs',
+      verbsTitle: 'The most common verbs in English',
+      verbsDescription: 'Learn, conjugate, and practice the most common verbs in English.',
+      verbsLoading: 'Loading verbs…',
+      verbsEmpty: 'No verb matches your search.',
+      verbsErrorRetry: "We couldn't load the verbs right now. Please try again.",
+      verbsRetryBtn: 'Retry',
+      verbsLoadMoreBtn: 'Load more'
     },
     french: {
       skipLink: 'Aller au contenu',
@@ -411,7 +419,15 @@
       vocabSynonyms: 'Synonymes',
       vocabOpposites: 'Contraires',
       directModeBadge: 'Méthode directe',
-      bilingualModeBadge: 'Mode bilingue'
+      bilingualModeBadge: 'Mode bilingue',
+      verbsBadge: 'Verbes',
+      verbsTitle: 'Les verbes les plus fréquents en anglais',
+      verbsDescription: 'Apprends, conjugue et pratique les verbes anglais les plus courants.',
+      verbsLoading: 'Chargement des verbes…',
+      verbsEmpty: 'Aucun verbe ne correspond à ta recherche.',
+      verbsErrorRetry: "Nous n'avons pas pu charger les verbes pour le moment. Réessaie.",
+      verbsRetryBtn: 'Réessayer',
+      verbsLoadMoreBtn: 'Charger plus'
     }
   };
 

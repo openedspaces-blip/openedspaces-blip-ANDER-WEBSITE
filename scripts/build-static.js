@@ -28,13 +28,16 @@ const GAMIFICATION_FILES = [
   'src/js/gamification/render.js',
   'src/js/gamification/index.js'
 ];
-// Verbos pilot (English only for now) - index.html loads these as plain
-// <script> tags after script.js. Was missing from every list below
-// (REQUIRED_FILES/mirror/syntax-check) since they were added, so `npm run
-// build` never actually refreshed public/src/js/verbs/*.js after a source
-// edit - public/ silently kept serving whatever was there from the first
-// manual copy. Fixed here, not a Verbos feature change.
-const VERBS_FILES = ['src/js/verbs/english-verbs-pilot.js', 'src/js/verbs/verbs-view.js'];
+// Verbos section (src/js/verbs/*.js) - was missing from every list below
+// (REQUIRED_FILES/filesToMirror), so `npm run build` never actually copied
+// it into public/ even though index.html's <script> tags reference it at
+// that exact path; it only worked in the checked-out project root. Fixed as
+// part of the Verbos Fase 1 pass.
+const VERBS_FILES = [
+  'src/js/verbs/english-verbs-data.js',
+  'src/js/verbs/verb-conjugation-engine.js',
+  'src/js/verbs/verbs-view.js'
+];
 
 function assertExists(relativePath) {
   const fullPath = path.join(ROOT, relativePath);

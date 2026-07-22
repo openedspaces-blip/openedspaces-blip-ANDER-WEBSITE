@@ -683,15 +683,16 @@
         </div>
       </section>
 
-      <!-- Fase 2 pilot: 10 English verbs, hardcoded via
-           src/js/verbs/english-verbs-pilot.js (see src/js/verbs/verbs-view.js
-           for the renderer). Français/Español and the Conjugador/Practicar/
-           Mi progreso subsections are placeholders until later phases. -->
+      <!-- English A1-B1: 100 verbs, data in src/js/verbs/english-verbs-data.js
+           (see src/js/verbs/verbs-view.js for the renderer). Responds to L2 -
+           only 'english' is populated today; Français/Español are added the
+           same way in later phases (see that file's own header comment). -->
       <section id="verbs" class="section verbs-section compact-hidden-section" aria-label="Verbos">
-        <div class="section-heading">
-          <span>Verbos</span>
-          <h2 tabindex="-1">Los verbos más usados, para consultar, conjugar y practicar</h2>
-          <p>Piloto: 10 verbos en inglés. Français y Español llegan en próximas fases.</p>
+        <div class="section-heading section-heading-compact">
+          <span data-i18n="verbsBadge">Verbos</span>
+          <h2 tabindex="-1" data-i18n="verbsTitle">Los verbos más frecuentes en inglés</h2>
+          <p data-i18n="verbsDescription">Aprende, conjuga y practica los verbos más frecuentes en inglés.</p>
+          <p class="verbs-heading-meta" id="verbsHeadingMeta" aria-live="polite"></p>
         </div>
 
         <div class="skill-tabs is-open" id="verbsTabs">
@@ -706,25 +707,47 @@
             <div class="verbs-toolbar no-print">
               <label class="verbs-search-field"
                 ><span>Buscar verbo</span>
-                <input type="search" id="verbsSearchInput" placeholder="be, tener, aller…" />
+                <input
+                  type="search"
+                  id="verbsSearchInput"
+                  placeholder="have, tener, went, gone…"
+                  autocomplete="off"
+                />
               </label>
               <label class="verbs-filter-field"
                 ><span>Mostrar</span>
                 <select id="verbsFilterSelect">
                   <option value="all">Todos</option>
+                  <option value="regular">Regulares</option>
+                  <option value="irregular">Irregulares</option>
+                  <option value="A1">A1</option>
+                  <option value="A2">A2</option>
+                  <option value="B1">B1</option>
                   <option value="favorite">Favoritos</option>
-                  <option value="new">Nuevo</option>
-                  <option value="learning">Aprendiendo</option>
                   <option value="practicing">Necesito practicar</option>
-                  <option value="mastered">Dominado</option>
+                  <option value="mastered">Dominados</option>
                 </select>
               </label>
-              <button type="button" class="secondary-btn" id="verbsSortToggleBtn" data-sort="frequency">
-                🔢 Ordenar por frecuencia
-              </button>
+              <label class="verbs-filter-field"
+                ><span>Ordenar por</span>
+                <select id="verbsSortSelect">
+                  <option value="frequency">Frecuencia</option>
+                  <option value="alphaAsc">Alfabético A-Z</option>
+                  <option value="alphaDesc">Alfabético Z-A</option>
+                  <option value="level">Nivel</option>
+                  <option value="mastery">Dominio</option>
+                  <option value="mostPracticed">Más practicados</option>
+                  <option value="leastMastered">Menos dominados</option>
+                </select>
+              </label>
             </div>
-            <div class="vocab-card-deck" id="verbsCardDeck">
-              <p class="skill-graph-empty">Preparando Verbos…</p>
+            <div class="vocab-card-deck" id="verbsCardDeck" aria-live="polite">
+              <p class="skill-graph-empty">Cargando verbos…</p>
+            </div>
+            <div class="verbs-load-more-row no-print" id="verbsLoadMoreRow" hidden>
+              <button type="button" class="secondary-btn" id="verbsLoadMoreBtn" data-i18n="verbsLoadMoreBtn">
+                Cargar más
+              </button>
             </div>
           </div>
 
@@ -736,7 +759,7 @@
               </label>
             </div>
             <div id="verbsConjugatorContent">
-              <p class="skill-graph-empty">Preparando el Conjugador…</p>
+              <p class="skill-graph-empty">Cargando…</p>
             </div>
           </div>
 
@@ -752,6 +775,15 @@
                   <option value="random">Selección aleatoria</option>
                 </select>
               </label>
+              <label class="verbs-filter-field"
+                ><span>¿Cuántas preguntas?</span>
+                <select id="verbsPracticeLengthSelect">
+                  <option value="5">5</option>
+                  <option value="10" selected>10</option>
+                  <option value="20">20</option>
+                  <option value="all">Todas</option>
+                </select>
+              </label>
               <button type="button" class="primary-btn" id="verbsPracticeStartBtn">
                 ▶ Empezar práctica
               </button>
@@ -762,7 +794,12 @@
 
           <div class="skill-panel" data-skill="progress">
             <div id="verbsProgressContent">
-              <p class="skill-graph-empty">Preparando Mi progreso…</p>
+              <p class="skill-graph-empty">Cargando…</p>
+            </div>
+            <div class="verb-progress-reset-row no-print">
+              <button type="button" class="secondary-btn" id="verbsProgressResetBtn">
+                ↺ Reiniciar progreso de Verbos
+              </button>
             </div>
           </div>
         </div>
@@ -2008,7 +2045,8 @@
     <script src="/src/js/gamification/index.js"></script>
     <script src="/src/js/username-rules.js"></script>
     <script src="/src/js/language-pair.js"></script>
-    <script src="/src/js/verbs/english-verbs-pilot.js"></script>
+    <script src="/src/js/verbs/english-verbs-data.js"></script>
+    <script src="/src/js/verbs/verb-conjugation-engine.js"></script>
     <script src="/src/js/verbs/verbs-view.js"></script>
     <script src="/src/js/script.js"></script>
   </body>

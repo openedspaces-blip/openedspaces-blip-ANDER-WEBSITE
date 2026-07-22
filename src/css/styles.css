@@ -8736,6 +8736,54 @@ footer small {
   color: #15803d;
 }
 
+/* Fase 4 - overall mastery bar, one proportional read of all 100 verbs
+   above the per-status tiles (same counts, this just adds "relative to the
+   whole set" that plain numbers don't convey). Colors match
+   .verb-progress-mastery-badge--* so the two never disagree visually. */
+.verb-progress-bar {
+  display: flex;
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--light);
+  margin-bottom: 0.85rem;
+}
+
+.verb-progress-bar-seg {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.verb-progress-bar-seg--new {
+  background: rgba(148, 163, 184, 0.7);
+}
+
+.verb-progress-bar-seg--learning {
+  background: rgba(37, 99, 235, 0.65);
+}
+
+.verb-progress-bar-seg--practicing {
+  background: rgba(234, 179, 8, 0.75);
+}
+
+.verb-progress-bar-seg--mastered {
+  background: #22c55e;
+}
+
+.verb-progress-reset-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.verb-practice-results-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
 .verb-progress-stat {
   font-size: 0.82rem;
   color: var(--muted);
@@ -8743,4 +8791,176 @@ footer small {
 
 .verb-progress-last {
   margin-left: auto;
+}
+
+/* Verbos Fase 1 - compact header variant. .section-heading is a large,
+   centered marketing-style hero (up to 3.4rem title, 46px bottom margin) -
+   fine for landing sections, far too tall for a study-tool utility section.
+   This modifier only shrinks spacing/typography and left-aligns; it doesn't
+   change .section-heading's own rules, so any other section could reuse it
+   later without a separate class needed. */
+.section-heading-compact {
+  max-width: none;
+  margin: 0 0 18px;
+  text-align: left;
+}
+
+.section-heading-compact::before {
+  margin: 0 0 10px;
+}
+
+.section-heading-compact h2 {
+  font-size: clamp(1.4rem, 2.4vw, 1.9rem);
+  margin: 4px 0;
+}
+
+.section-heading-compact p {
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.verbs-heading-meta {
+  margin: 6px 0 0 !important;
+  font-size: 0.82rem !important;
+  font-weight: 700;
+  color: var(--navy-2, inherit);
+}
+
+@media (max-width: 640px) {
+  .section-heading-compact {
+    text-align: center;
+  }
+}
+
+/* Search/filter/sort toolbar - one row on desktop when there's room (spec:
+   "filtros en una sola línea cuando sea posible"), stacked on narrower
+   screens (spec: "filtros apilables" on mobile) - .verbs-toolbar's existing
+   flex-wrap already does this without a media query; this only trims the
+   minimum width per control so all three fit more often before wrapping. */
+.verbs-search-field input,
+.verbs-filter-field select {
+  min-width: 8rem;
+}
+
+.verb-card-meta-line {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.verbs-load-more-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.verbs-error-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.verb-conjugation-collocations,
+.verb-conjugation-notes {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0.4rem 0 0;
+}
+
+/* Fase 3 - full tense conjugation table (src/js/verbs/
+   verb-conjugation-engine.js). Reuses .skill-tab-button's look for the
+   tense pills instead of inventing a second tab visual language. */
+.verb-tense-heading {
+  margin: 1.25rem 0 0.6rem;
+  font-size: 0.95rem;
+}
+
+.verb-tense-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.85rem;
+}
+
+.verb-tense-tab {
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--navy-2, inherit);
+}
+
+.verb-tense-tab.active {
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  color: #fff;
+  border-color: transparent;
+}
+
+.verb-tense-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.86rem;
+}
+
+.verb-tense-row {
+  display: grid;
+  grid-template-columns: minmax(90px, 0.9fr) repeat(3, 1.4fr);
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.verb-tense-header-row {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 2px solid var(--line);
+}
+
+.verb-tense-pronoun {
+  font-weight: 700;
+}
+
+.verb-tense-table--imperative .verb-tense-row:not(.verb-tense-header-row) {
+  grid-template-columns: minmax(90px, 0.9fr) 1.4fr 1.4fr;
+}
+
+.verb-tense-note {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .verb-tense-row {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+    padding: 0.5rem 0;
+  }
+
+  .verb-tense-header-row {
+    display: none;
+  }
+
+  .verb-tense-pronoun {
+    color: var(--muted);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+
+  .verb-tense-cell::before {
+    content: attr(data-label);
+    font-weight: 700;
+    font-size: 0.72rem;
+    color: var(--muted);
+  }
 }
