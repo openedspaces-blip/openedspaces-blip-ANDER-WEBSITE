@@ -693,5 +693,157 @@
     "description": "Weather expressions, seasons, and travel plans.",
     "order_index": 12,
     "unit_overview": null
+  },
+  {
+    "slug": "les-achats",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Les achats",
+    "title_es": "Las compras",
+    "description": "Camila et Léa font des courses au marché et achètent des vêtements en ville.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Demander un prix, comparer deux articles et payer dans un magasin.",
+      "outcomes": [
+        "demander le prix d’un produit",
+        "comparer deux articles avec plus/moins/aussi... que",
+        "utiliser le passé composé pour raconter un achat",
+        "remplacer un nom par le/la/les"
+      ],
+      "grammar": [
+        "passé composé avec avoir",
+        "comparatifs",
+        "pronoms d’objet direct"
+      ],
+      "vocabulary": [
+        "le marché",
+        "la taille",
+        "la caisse",
+        "le reçu",
+        "échanger"
+      ],
+      "scenario": "Camila accompagne Léa faire des courses un samedi matin."
+    }
+  },
+  {
+    "slug": "au-restaurant",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Au restaurant",
+    "title_es": "En el restaurante",
+    "description": "La famille Lambert fête l’anniversaire de Léa au restaurant et Camila apprend à commander et à réclamer poliment.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Réserver une table, commander un repas et exprimer poliment une préférence ou une plainte.",
+      "outcomes": [
+        "réserver une table par téléphone",
+        "commander un repas et poser des questions sur un plat",
+        "exprimer une obligation avec devoir/il faut",
+        "faire une réclamation polie avec « pourriez-vous »"
+      ],
+      "grammar": [
+        "vouloir/pouvoir au conditionnel de politesse",
+        "devoir et il faut",
+        "négations ne... jamais/plus/rien"
+      ],
+      "vocabulary": [
+        "réserver une table",
+        "la carte",
+        "l’addition",
+        "pourriez-vous..."
+      ],
+      "scenario": "La famille Lambert fête l’anniversaire de Léa dans un restaurant du centre-ville."
+    }
+  },
+  {
+    "slug": "se-deplacer",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Se déplacer",
+    "title_es": "Desplazarse",
+    "description": "Camila apprend à prendre le bus et à demander son chemin dans Tours.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Demander et comprendre un itinéraire, utiliser les transports en commun.",
+      "outcomes": [
+        "demander son chemin",
+        "comprendre des indications simples",
+        "acheter un ticket de bus",
+        "utiliser l’impératif pour donner une indication"
+      ],
+      "grammar": [
+        "impératif",
+        "prépositions de lieu",
+        "futur proche (révision)"
+      ],
+      "vocabulary": [
+        "l’arrêt de bus",
+        "tout droit",
+        "tournez à gauche/à droite",
+        "le ticket"
+      ],
+      "scenario": "Camila doit se rendre seule chez Karim pour la première fois."
+    }
+  },
+  {
+    "slug": "la-sante",
+    "target_language": "french",
+    "level": "A2",
+    "title": "La santé",
+    "title_es": "La salud",
+    "description": "Camila ne se sent pas bien et va consulter un médecin avec Madame Lambert.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Décrire des symptômes simples et comprendre les conseils d’un médecin.",
+      "outcomes": [
+        "décrire un symptôme",
+        "prendre rendez-vous chez le médecin",
+        "comprendre des conseils de santé",
+        "utiliser les verbes pronominaux liés au corps"
+      ],
+      "grammar": [
+        "verbes pronominaux",
+        "avoir mal à...",
+        "devoir + infinitif"
+      ],
+      "vocabulary": [
+        "avoir mal à la tête/gorge",
+        "la fièvre",
+        "le rendez-vous médical",
+        "le médicament"
+      ],
+      "scenario": "Camila se sent fatiguée et a mal à la gorge depuis deux jours."
+    }
+  },
+  {
+    "slug": "projets-et-avenir",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Projets et avenir",
+    "title_es": "Proyectos y futuro",
+    "description": "Camila réfléchit à son avenir et discute de ses projets avec Léa et Karim.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Exprimer un projet, formuler une hypothèse et justifier un choix.",
+      "outcomes": [
+        "parler de projets avec le futur simple",
+        "exprimer une hypothèse avec si + présent",
+        "donner son opinion et la justifier",
+        "comparer deux options avec nuance"
+      ],
+      "grammar": [
+        "futur simple",
+        "hypothèse avec si + présent",
+        "conditionnel présent (politesse et hypothèse)",
+        "connecteurs d’opinion"
+      ],
+      "vocabulary": [
+        "le projet",
+        "l’avenir",
+        "à mon avis",
+        "d’un côté / de l’autre côté"
+      ],
+      "scenario": "À quelques mois de la fin de son année d’échange, Camila doit décider si elle prolonge son séjour en France."
+    }
   }
 ]

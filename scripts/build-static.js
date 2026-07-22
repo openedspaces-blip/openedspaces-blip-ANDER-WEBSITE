@@ -15,7 +15,16 @@ const REQUIRED_FILES = [
   'src/css/styles.css',
   'src/js/script.js',
   'src/js/username-rules.js',
-  'src/js/language-pair.js'
+  'src/js/language-pair.js',
+  // translator-languages.js/translator-predictive.js were referenced by
+  // index.html's <script> tags but missing from every mirrored-files list
+  // below, so `npm run build` never copied them into public/ - the Traductor
+  // worked from the checked-out project root but silently lost its L1/L2
+  // <select> population (window.AndergoTranslatorLanguages undefined -> 404
+  // on the deployed public/ build, same class of bug as the Verbos fix
+  // below).
+  'src/js/translator-languages.js',
+  'src/js/translator-predictive.js'
 ];
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
 const GAMIFICATION_FILES = [
