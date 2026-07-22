@@ -16,11 +16,27 @@ const seedLessons = require('../lib/seed-lessons.json');
 const seedUnits = require('../lib/seed-units.json');
 const { getSupabaseAdmin } = require('../lib/supabaseClient');
 const config = require('../lib/config');
+const { validateLevel } = require('./validate-french-content');
+const french_b1_units = require('./content/french-b1-units');
 
 const LANGUAGE = 'french';
 const LEVEL = 'B1';
+const MIN_UNITS = 10;
+const MAX_UNITS = 12;
 
 async function main() {
+  const contentErrors = validateLevel(french_b1_units, {
+    minUnits: MIN_UNITS,
+    maxUnits: MAX_UNITS,
+    readingRange: [280, 500],
+    label: 'B1'
+  });
+  if (contentErrors.length) {
+    console.error(`B1 incompleto o inválido (${contentErrors.length} problema(s)). Abortando sin tocar Supabase:`);
+    contentErrors.forEach((e) => console.error(' - ' + e));
+    process.exit(1);
+  }
+
   if (!config.isSupabaseConfigured) {
     console.error('Supabase no está configurado. Nada que migrar.');
     process.exit(1);
@@ -35,8 +51,10 @@ async function main() {
     .filter((row) => row.target_language === LANGUAGE && row.level === LEVEL)
     .sort((a, b) => (a.order_index || 0) - (b.order_index || 0));
 
-  if (!units.length) {
-    console.error('No encontré unidades de French B1 en el seed. Abortando.');
+  if (units.length < MIN_UNITS || units.length > MAX_UNITS) {
+    console.error(
+      `B1 inválido: se encontraron ${units.length} unidades en el seed; se requieren entre ${MIN_UNITS} y ${MAX_UNITS}. ¿Corriste build-french-b1-seed.js después de editar el contenido?`
+    );
     process.exit(1);
   }
   if (lessons.length !== units.length * 7) {

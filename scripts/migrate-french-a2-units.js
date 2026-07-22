@@ -16,11 +16,31 @@ const seedLessons = require('../lib/seed-lessons.json');
 const seedUnits = require('../lib/seed-units.json');
 const { getSupabaseAdmin } = require('../lib/supabaseClient');
 const config = require('../lib/config');
+const { validateLevel } = require('./validate-french-content');
+const french_a2_units = require('./content/french-a2-units');
 
 const LANGUAGE = 'french';
 const LEVEL = 'A2';
+const MIN_UNITS = 10;
+const MAX_UNITS = 12;
 
 async function main() {
+  // Hard content gate (Fase "no migrar contenido incompleto"): refuse to
+  // touch Supabase at all if French A2 doesn't yet meet the minimum
+  // enriched-course bar (>= 10 units, 7 activities each, valid mcq answers,
+  // no empty fields, reading word counts/question counts in range).
+  const contentErrors = validateLevel(french_a2_units, {
+    minUnits: MIN_UNITS,
+    maxUnits: MAX_UNITS,
+    readingRange: [180, 300],
+    label: 'A2'
+  });
+  if (contentErrors.length) {
+    console.error(`A2 incompleto o inválido (${contentErrors.length} problema(s)). Abortando sin tocar Supabase:`);
+    contentErrors.forEach((e) => console.error(' - ' + e));
+    process.exit(1);
+  }
+
   if (!config.isSupabaseConfigured) {
     console.error('Supabase no está configurado. Nada que migrar.');
     process.exit(1);
@@ -35,8 +55,10 @@ async function main() {
     .filter((row) => row.target_language === LANGUAGE && row.level === LEVEL)
     .sort((a, b) => (a.order_index || 0) - (b.order_index || 0));
 
-  if (!units.length) {
-    console.error('No encontré unidades de French A2 en el seed. Abortando.');
+  if (units.length < MIN_UNITS || units.length > MAX_UNITS) {
+    console.error(
+      `A2 inválido: se encontraron ${units.length} unidades en el seed; se requieren entre ${MIN_UNITS} y ${MAX_UNITS}. ¿Corriste build-french-a2-seed.js después de editar el contenido?`
+    );
     process.exit(1);
   }
   if (lessons.length !== units.length * 7) {

@@ -644,6 +644,901 @@ const units = [
         ]
       })
     }
+  },
+  // ---------------------------------------------------------------
+  {
+    slug: 'la-vie-quotidienne',
+    title: 'La vie quotidienne',
+    titleEs: 'La vida cotidiana',
+    description: 'Camila décrit sa routine chez les Lambert, ses horaires et l’organisation de sa semaine.',
+    order: 5,
+    accessTier: 'free',
+    unitOverview: {
+      objective: 'Décrire une routine détaillée avec des horaires et des adverbes de fréquence.',
+      outcomes: [
+        'décrire une routine avec précision',
+        'utiliser les adverbes de fréquence',
+        'utiliser les verbes pronominaux du quotidien',
+        'organiser un récit avec des connecteurs temporels'
+      ],
+      grammar: ['verbes pronominaux', 'adverbes de fréquence', 'prépositions de temps'],
+      vocabulary: ['se réveiller', 'toujours / souvent / parfois / jamais', 'l’emploi du temps', 'd’habitude'],
+      scenario: 'Camila explique sa nouvelle routine à sa mère, par appel vidéo depuis Tours.'
+    },
+    activities: {
+      reading: activity('reading', {
+        title: 'Ma nouvelle routine à Tours',
+        description: 'Camila explique à sa mère comment se passe une journée typique chez les Lambert.',
+        reading: {
+          title: 'Ma nouvelle routine à Tours',
+          parts: [
+            "« Alors, raconte-moi ta journée typique ! » demande la mère de Camila pendant leur appel vidéo du dimanche. Camila sourit et commence : « D'habitude, je me réveille à sept heures. Je me lave, je m'habille, puis je prends le petit-déjeuner avec toute la famille Lambert. On mange souvent des tartines et on boit toujours du chocolat chaud. Ensuite, je pars à l'école avec Léa vers huit heures moins le quart. »",
+            "« Et l'après-midi ? » demande sa mère, curieuse. « Les cours finissent généralement vers dix-sept heures. Après, je fais souvent mes devoirs avec Karim à la bibliothèque, puis je rentre à la maison vers dix-huit heures trente. Le mercredi, par contre, je ne rentre jamais directement : j'ai un cours de danse avec Léa. C'est mon activité préférée de la semaine ! » Camila continue : « Le soir, on dîne tous ensemble vers dix-neuf heures trente, on discute, et je me couche généralement vers vingt-deux heures. »",
+            "« Tu ne t'ennuies jamais ? » demande sa mère en riant. « Jamais ! Parfois, le week-end, on sort avec Karim et Léa, on va au cinéma ou on se promène en ville. J'adore cette routine, elle est différente de celle que j'avais à Saint-Domingue, mais je m'y suis vite habituée. » Sa mère, rassurée, sourit à l'écran : « Je vois que tu es vraiment bien organisée maintenant ! »"
+          ],
+          questions: [
+            'À quelle heure Camila se réveille-t-elle ?',
+            'Que fait-elle le mercredi après les cours ?',
+            'Comment Camila décrit-elle sa nouvelle routine ?'
+          ],
+          ordering: {
+            prompt: 'Remets les événements de la journée de Camila dans l’ordre.',
+            events: [
+              'Camila se réveille et prend le petit-déjeuner.',
+              'Elle va à l’école avec Léa.',
+              'Elle fait ses devoirs avec Karim à la bibliothèque.',
+              'Toute la famille dîne ensemble le soir.'
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'À quelle heure Camila se réveille-t-elle d’habitude ?', options: ['Six heures', 'Sept heures', 'Huit heures', 'Neuf heures'], answer: 1 },
+          { type: 'mcq', prompt: 'Que boit toujours la famille au petit-déjeuner ?', options: ['Du café', 'Du jus d’orange', 'Du chocolat chaud', 'Du thé'], answer: 2 },
+          { type: 'mcq', prompt: 'À quelle heure finissent généralement les cours ?', options: ['Seize heures', 'Dix-sept heures', 'Dix-huit heures', 'Dix-neuf heures'], answer: 1 },
+          { type: 'mcq', prompt: 'Que fait Camila le mercredi après les cours ?', options: ['Elle fait ses devoirs', 'Elle a un cours de danse', 'Elle rentre directement', 'Elle regarde la télévision'], answer: 1 },
+          { type: 'mcq', prompt: 'À quelle heure la famille dîne-t-elle ?', options: ['Dix-huit heures', 'Dix-neuf heures trente', 'Vingt et une heures', 'Vingt-deux heures'], answer: 1 },
+          { type: 'mcq', prompt: 'Que fait Camila le week-end, selon le texte ?', options: ['Elle reste toujours seule', 'Elle sort parfois avec Karim et Léa', 'Elle travaille', 'Elle voyage chaque semaine'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Camila s’ennuie souvent dans sa nouvelle routine.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Dans le texte, « je m’y suis vite habituée » signifie...', options: ['Elle a mis longtemps à s’adapter', 'Elle s’est adaptée rapidement', 'Elle n’aime pas sa routine', 'Elle a changé de routine'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle est l’activité préférée de la semaine de Camila ?', options: ['Les devoirs à la bibliothèque', 'Le dîner en famille', 'Le cours de danse du mercredi', 'Le petit-déjeuner'], answer: 2 },
+          { type: 'mcq', prompt: 'Quel est le ton général de la conversation ?', options: ['Inquiet et tendu', 'Chaleureux et rassurant', 'Fâché', 'Indifférent'], answer: 1 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'L’emploi du temps de Camila',
+        description: 'Écoute Camila qui décrit son emploi du temps de la semaine à Karim.',
+        intro: 'Écoute Camila expliquer à Karim comment s’organise sa semaine.',
+        dialogue: [
+          { speaker: 'Karim', line: 'Tu as un emploi du temps chargé cette semaine ?', translation: '¿Tienes un horario cargado esta semana?' },
+          { speaker: 'Camila', line: 'Assez, oui. Le lundi et le jeudi, j’ai cours jusqu’à dix-sept heures.', translation: 'Bastante, sí. Los lunes y jueves tengo clases hasta las cinco.' },
+          { speaker: 'Karim', line: 'Et le mercredi, tu as toujours ton cours de danse ?', translation: '¿Y los miércoles siempre tienes tu clase de baile?' },
+          { speaker: 'Camila', line: 'Oui, toujours ! Je ne le rate jamais, j’adore ça.', translation: 'Sí, ¡siempre! Nunca me la pierdo, me encanta.' },
+          { speaker: 'Karim', line: 'D’accord, alors on se voit à la bibliothèque le vendredi comme d’habitude ?', translation: 'De acuerdo, ¿entonces nos vemos en la biblioteca el viernes como siempre?' }
+        ],
+        phrases: ['un emploi du temps chargé', 'jusqu’à...', 'toujours / jamais', 'comme d’habitude'],
+        exercises: [
+          { type: 'mcq', prompt: 'Jusqu’à quelle heure Camila a-t-elle cours le lundi et le jeudi ?', options: ['Seize heures', 'Dix-sept heures', 'Dix-huit heures', 'Dix-neuf heures'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel jour Camila a-t-elle son cours de danse ?', options: ['Le lundi', 'Le mercredi', 'Le jeudi', 'Le vendredi'], answer: 1 },
+          { type: 'mcq', prompt: 'Où se voient Camila et Karim le vendredi ?', options: ['Au cinéma', 'À la bibliothèque', 'Chez Léa', 'Au marché'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment Camila décrit-elle son cours de danse ?', options: ['Elle le rate souvent', 'Elle ne le rate jamais', 'Elle n’aime pas ça', 'Elle vient d’arrêter'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Décris ta routine',
+        description: 'Décris ta propre routine quotidienne avec des adverbes de fréquence.',
+        mission: 'Décris ta journée typique à voix haute, du réveil au coucher, en utilisant au moins trois adverbes de fréquence (toujours, souvent, parfois, jamais).',
+        phrases: ['D’habitude, je...', 'Je me réveille à...', 'Je... toujours/souvent/parfois.', 'Le soir, je...'],
+        dialogue: [
+          { speaker: 'Toi', line: 'D’habitude, je me réveille à sept heures et je prends toujours un café.', translation: 'Normalmente me despierto a las siete y siempre tomo un café.' },
+          { speaker: 'Toi', line: 'Le week-end, je sors parfois avec mes amis.', translation: 'El fin de semana a veces salgo con mis amigos.' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: 'Décris ta routine quotidienne complète, du matin au soir, avec des adverbes de fréquence.', answer: 'Oral practice' },
+          { type: 'practice', prompt: 'Compare ta routine avec celle d’un/une camarade et trouvez trois différences.', answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Mon emploi du temps',
+        description: 'Décris ton emploi du temps hebdomadaire.',
+        mission: 'Écris 80 à 100 mots pour décrire ton emploi du temps de la semaine, avec des horaires précis et des adverbes de fréquence.',
+        phrases: ['D’habitude...', 'Le lundi, je...', 'Je... toujours/souvent/parfois/jamais.', 'Le week-end...'],
+        dialogue: [
+          { speaker: 'Modèle', line: 'D’habitude, je me réveille à sept heures. Le lundi et le mercredi, j’ai cours jusqu’à dix-sept heures. Je fais souvent mes devoirs le soir, mais je ne travaille jamais après vingt-deux heures.', translation: 'Normalmente me despierto a las siete. Los lunes y miércoles tengo clases hasta las cinco. A menudo hago mis deberes por la noche, pero nunca trabajo después de las diez.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Écris 80 à 100 mots décrivant ton emploi du temps hebdomadaire, avec au moins trois adverbes de fréquence.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: 'Les adverbes de fréquence et les verbes pronominaux',
+        description: 'Exprimer la fréquence d’une action et décrire des actions réfléchies.',
+        grammarNote: 'Les adverbes de fréquence (toujours, souvent, parfois, rarement, jamais) se placent généralement après le verbe conjugué : « Je me réveille toujours à sept heures. » Les verbes pronominaux (se réveiller, se laver, s’habiller, se coucher) utilisent un pronom réfléchi qui change avec le sujet : je me réveille, tu te réveilles, il/elle se réveille, nous nous réveillons.',
+        phrases: ['Je me réveille toujours à...', 'Il/elle s’habille souvent...', 'Nous nous couchons parfois...', 'Ils ne se lèvent jamais tôt.'],
+        exercises: [
+          { type: 'mcq', prompt: 'Je ___ toujours à sept heures.', options: ['réveille', 'me réveille', 'te réveilles', 'réveillent'], answer: 1 },
+          { type: 'mcq', prompt: 'Léa et Camila ___ ensemble le matin.', options: ['s’habille', 's’habillent', 'habillent', 'habille'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel adverbe signifie « nunca » ?', options: ['Toujours', 'Souvent', 'Parfois', 'Jamais'], answer: 3 },
+          { type: 'mcq', prompt: 'Nous ___ vers vingt-deux heures.', options: ['couchons', 'nous couchons', 'se couchent', 'couche'], answer: 1 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'Le vocabulaire de la routine',
+        description: 'Le vocabulaire essentiel pour décrire une journée typique.',
+        vocabulary: [
+          { word: 'se réveiller', translation: 'despertarse', example: 'Je me réveille à sept heures.' },
+          { word: 'd’habitude', translation: 'de costumbre, normalmente', example: 'D’habitude, je prends le petit-déjeuner à huit heures.' },
+          { word: 'toujours / souvent / parfois / jamais', translation: 'siempre / a menudo / a veces / nunca', example: 'Je ne suis jamais en retard.' },
+          { word: 'l’emploi du temps', translation: 'el horario', example: 'Mon emploi du temps est très chargé cette semaine.' },
+          { word: 'se coucher', translation: 'acostarse', example: 'Je me couche vers vingt-deux heures.' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « se réveiller » ?', options: ['Acostarse', 'Despertarse', 'Ducharse', 'Vestirse'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « l’emploi du temps » ?', options: ['El trabajo', 'El horario', 'La rutina diaria', 'El descanso'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « d’habitude » ?', options: ['Nunca', 'De costumbre', 'A veces', 'Rara vez'], answer: 1 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'Le dimanche chez les Lambert',
+        description: 'Camila découvre la routine spéciale du dimanche chez la famille Lambert.',
+        intro: 'C’est dimanche matin, et la routine chez les Lambert est différente du reste de la semaine.',
+        dialogue: [
+          { speaker: 'Mme Lambert', line: 'Le dimanche, on ne se réveille jamais tôt, on peut dormir plus longtemps.', translation: 'Los domingos nunca nos despertamos temprano, podemos dormir más.' },
+          { speaker: 'Camila', line: 'C’est vrai, j’ai remarqué ! Et on prend toujours un grand petit-déjeuner.', translation: 'Es verdad, ¡lo noté! Y siempre tomamos un gran desayuno.' },
+          { speaker: 'Léa', line: 'Oui, et l’après-midi, on se promène souvent au bord de la Loire.', translation: 'Sí, y por la tarde a menudo paseamos junto al Loira.' },
+          { speaker: 'Camila', line: 'J’adore cette routine du dimanche, elle est très différente de la semaine !', translation: '¡Me encanta esta rutina del domingo, es muy diferente de la semana!' }
+        ],
+        phrases: ['On ne se réveille jamais tôt.', 'On prend toujours...', 'On se promène souvent...', 'C’est différent de...'],
+        exercises: [
+          { type: 'mcq', prompt: 'Que fait la famille le dimanche matin, selon Mme Lambert ?', options: ['Elle se réveille très tôt', 'Elle dort plus longtemps', 'Elle part immédiatement en ville', 'Elle travaille'], answer: 1 },
+          { type: 'mcq', prompt: 'Que font-ils souvent l’après-midi ?', options: ['Ils regardent la télévision', 'Ils se promènent au bord de la Loire', 'Ils vont à l’école', 'Ils font les courses'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment Camila trouve-t-elle la routine du dimanche ?', options: ['Ennuyeuse', 'Différente et agréable', 'Fatigante', 'Identique à la semaine'], answer: 1 }
+        ]
+      })
+    }
+  },
+  // ---------------------------------------------------------------
+  {
+    slug: 'les-experiences-passees',
+    title: 'Les expériences passées',
+    titleEs: 'Las experiencias pasadas',
+    description: 'Camila raconte son premier mois en France et les expériences marquantes qu’elle a vécues.',
+    order: 6,
+    accessTier: 'free',
+    unitOverview: {
+      objective: 'Raconter des expériences passées avec le passé composé (avoir et être).',
+      outcomes: [
+        'utiliser le passé composé avec avoir',
+        'utiliser le passé composé avec être',
+        'reconnaître les participes passés fréquents',
+        'faire l’accord du participe passé avec être'
+      ],
+      grammar: ['passé composé avec avoir', 'passé composé avec être', 'accord du participe passé avec être'],
+      vocabulary: ['une expérience', 'inoubliable', 'la première fois', 'se souvenir de'],
+      scenario: 'Camila écrit dans son journal les expériences les plus marquantes de son premier mois en France.'
+    },
+    activities: {
+      reading: activity('reading', {
+        title: 'Mon premier mois en France',
+        description: 'Camila raconte, dans son journal, les expériences marquantes de son premier mois à Tours.',
+        reading: {
+          title: 'Mon premier mois en France',
+          parts: [
+            "Cher journal, ça fait maintenant un mois que je suis arrivée en France, et tellement de choses se sont passées ! Le premier jour, je suis arrivée à l'aéroport de Paris, fatiguée mais très excitée. La famille Lambert est venue me chercher, et nous avons pris le train ensemble jusqu'à Tours. J'ai tout de suite aimé la ville, avec ses vieilles rues et sa rivière.",
+            "La semaine suivante, je suis allée à l'école pour la première fois. J'ai rencontré Léa et Karim, qui sont devenus mes meilleurs amis ici. Nous avons visité le château de Chenonceau ensemble, et j'ai pris des centaines de photos ! Un week-end, toute la famille est partie à Paris en train : nous sommes montés à la tour Eiffel, nous avons marché le long de la Seine, et j'ai goûté mon premier vrai croissant parisien, c'était délicieux.",
+            "Il y a deux semaines, j'ai eu un petit accident : je suis tombée de vélo devant l'école et je me suis fait mal au genou ! Heureusement, ce n'était pas grave. Léa m'a aidée à rentrer et Madame Lambert m'a soignée avec beaucoup de gentillesse. Cette expérience m'a montré à quel point cette famille est devenue importante pour moi. En un mois seulement, j'ai appris tellement de choses : une nouvelle langue, une nouvelle ville, et surtout, de nouvelles amitiés inoubliables."
+          ],
+          questions: [
+            'Comment Camila et la famille Lambert sont-elles allées de Paris à Tours ?',
+            'Qu’est-ce que Camila et ses amis ont visité ensemble ?',
+            'Que s’est-il passé il y a deux semaines ?'
+          ],
+          ordering: {
+            prompt: 'Remets les événements du mois de Camila dans l’ordre.',
+            events: [
+              'Camila arrive à l’aéroport de Paris.',
+              'Elle rencontre Léa et Karim à l’école.',
+              'Toute la famille visite Paris en train.',
+              'Camila tombe de vélo devant l’école.'
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'Comment Camila est-elle arrivée en France ?', options: ['En bateau', 'En avion', 'En voiture', 'En train depuis l’Espagne'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’ont visité Camila et ses amis ensemble ?', options: ['Le Louvre', 'Le château de Chenonceau', 'La tour Eiffel seulement', 'Un musée à Tours'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’a goûté Camila à Paris ?', options: ['Une baguette', 'Un croissant', 'Un macaron', 'Une crêpe'], answer: 1 },
+          { type: 'mcq', prompt: 'Que s’est-il passé il y a deux semaines ?', options: ['Camila est tombée de vélo', 'Camila est tombée malade', 'Camila a perdu son téléphone', 'Camila s’est disputée avec Léa'], answer: 0 },
+          { type: 'mcq', prompt: 'Qui a aidé Camila après son accident ?', options: ['Karim', 'Léa et Madame Lambert', 'Personne', 'Le médecin seulement'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment Camila décrit-elle ses nouvelles amitiés ?', options: ['Ennuyeuses', 'Inoubliables', 'Difficiles', 'Sans importance'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : l’accident de vélo était très grave.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Dans le texte, « à quel point » signifie...', options: ['Combien / à quel degré', 'À quel endroit', 'Quand exactement', 'Pourquoi'], answer: 0 },
+          { type: 'mcq', prompt: 'Quel sentiment domine ce journal ?', options: ['La déception', 'La gratitude et l’enthousiasme', 'La colère', 'L’indifférence'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur la relation de Camila avec la famille Lambert ?', options: ['Elle est distante', 'Elle est devenue proche et importante pour elle', 'Elle veut déménager', 'Elle ne les voit presque jamais'], answer: 1 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Le week-end à Paris',
+        description: 'Écoute Camila raconter son week-end à Paris à sa mère.',
+        intro: 'Écoute Camila décrire, par téléphone, son week-end à Paris avec la famille Lambert.',
+        dialogue: [
+          { speaker: 'Camila', line: 'Maman, on est allés à Paris ce week-end, c’était incroyable !', translation: 'Mamá, fuimos a París este fin de semana, ¡fue increíble!' },
+          { speaker: 'La mère', line: 'Raconte-moi ! Qu’est-ce que vous avez fait ?', translation: '¡Cuéntame! ¿Qué hicieron?' },
+          { speaker: 'Camila', line: 'Nous sommes montés à la tour Eiffel et nous avons marché le long de la Seine.', translation: 'Subimos a la torre Eiffel y caminamos junto al Sena.' },
+          { speaker: 'La mère', line: 'Et vous avez mangé quelque chose de spécial ?', translation: '¿Y comieron algo especial?' },
+          { speaker: 'Camila', line: 'Oui, j’ai goûté mon premier vrai croissant parisien, c’était délicieux !', translation: 'Sí, probé mi primer croissant parisino de verdad, ¡estaba delicioso!' }
+        ],
+        phrases: ['On est allés à...', 'Nous sommes montés à...', 'J’ai goûté...', 'C’était incroyable !'],
+        exercises: [
+          { type: 'mcq', prompt: 'Où la famille est-elle allée ce week-end ?', options: ['À Tours', 'À Paris', 'À Chenonceau', 'À Saint-Domingue'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’ont-ils fait à Paris ?', options: ['Ils sont montés à la tour Eiffel', 'Ils ont visité un château', 'Ils sont allés à la plage', 'Ils ont fait du vélo'], answer: 0 },
+          { type: 'mcq', prompt: 'Qu’a goûté Camila ?', options: ['Une pizza', 'Un croissant', 'Une glace', 'Un chocolat chaud'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Raconte une expérience marquante',
+        description: 'Raconte une expérience personnelle marquante au passé composé.',
+        mission: 'Raconte à voix haute une expérience marquante de ta vie (un voyage, une première fois, un événement important), en utilisant le passé composé avec avoir et être.',
+        phrases: ['J’ai vécu...', 'Je suis allé(e)...', 'C’était la première fois que...', 'Je ne l’oublierai jamais.'],
+        dialogue: [
+          { speaker: 'Toi', line: 'L’année dernière, je suis allé(e) en France pour la première fois. J’ai visité Paris et j’ai adoré la tour Eiffel.', translation: 'El año pasado fui a Francia por primera vez. Visité París y me encantó la torre Eiffel.' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: 'Raconte une expérience marquante de ta vie, avec au moins trois verbes au passé composé (avoir et être).', answer: 'Oral practice' },
+          { type: 'practice', prompt: 'Écoute l’expérience d’un/une camarade et pose-lui deux questions sur son récit.', answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Mon expérience inoubliable',
+        description: 'Écris le récit d’une expérience marquante.',
+        mission: 'Écris 80 à 100 mots pour raconter une expérience inoubliable, en utilisant le passé composé avec avoir et avec être.',
+        phrases: ['J’ai vécu une expérience...', 'Je suis allé(e) à...', 'J’ai rencontré...', 'C’était inoubliable.'],
+        dialogue: [
+          { speaker: 'Modèle', line: 'L’été dernier, je suis parti(e) en voyage avec ma famille. Nous avons visité une nouvelle ville et j’ai rencontré des gens formidables. C’était une expérience inoubliable que je n’oublierai jamais.', translation: 'El verano pasado me fui de viaje con mi familia. Visitamos una nueva ciudad y conocí gente formidable. Fue una experiencia inolvidable que nunca olvidaré.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Écris 80 à 100 mots racontant une expérience marquante, avec au moins deux verbes au passé composé avec avoir et deux avec être.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: 'Le passé composé avec être',
+        description: 'Former le passé composé avec être et faire l’accord du participe passé.',
+        grammarNote: 'Certains verbes forment leur passé composé avec être plutôt qu’avoir (aller, venir, arriver, partir, monter, descendre, tomber, rester, naître, mourir...). Avec être, le participe passé s’accorde en genre et en nombre avec le sujet : « Elle est allée à Paris. Ils sont montés à la tour Eiffel. Nous sommes parties. »',
+        phrases: ['Je suis allé(e)...', 'Elle est tombée...', 'Nous sommes montés...', 'Ils sont partis...'],
+        exercises: [
+          { type: 'mcq', prompt: 'Camila ___ tombée de vélo.', options: ['a', 'est', 'suis', 'as'], answer: 1 },
+          { type: 'mcq', prompt: 'Léa et Camila ___ allées à Paris.', options: ['sont', 'ont', 'est', 'a'], answer: 0 },
+          { type: 'mcq', prompt: 'Nous ___ montés à la tour Eiffel.', options: ['avons', 'sommes', 'êtes', 'ont'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel verbe utilise « être » au passé composé ?', options: ['Manger', 'Voir', 'Arriver', 'Acheter'], answer: 2 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'Le vocabulaire des expériences',
+        description: 'Le vocabulaire essentiel pour raconter une expérience passée.',
+        vocabulary: [
+          { word: 'une expérience', translation: 'una experiencia', example: 'C’était une expérience inoubliable.' },
+          { word: 'inoubliable', translation: 'inolvidable', example: 'Ce voyage était inoubliable.' },
+          { word: 'la première fois', translation: 'la primera vez', example: 'C’était la première fois que je voyais la tour Eiffel.' },
+          { word: 'se souvenir de', translation: 'acordarse de', example: 'Je me souviens de ce jour-là.' },
+          { word: 'un accident', translation: 'un accidente', example: 'J’ai eu un petit accident de vélo.' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « inoubliable » ?', options: ['Olvidable', 'Inolvidable', 'Aburrido', 'Normal'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « se souvenir de » ?', options: ['Olvidar', 'Acordarse de', 'Preguntar', 'Explicar'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « la première fois » ?', options: ['La última vez', 'A veces', 'La primera vez', 'Nunca'], answer: 2 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'L’accident de vélo',
+        description: 'Léa aide Camila après sa chute de vélo devant l’école.',
+        intro: 'Camila vient de tomber de vélo devant l’école, et Léa se précipite pour l’aider.',
+        dialogue: [
+          { speaker: 'Léa', line: 'Camila ! Tu es tombée ! Ça va ?', translation: '¡Camila! ¡Te caíste! ¿Estás bien?' },
+          { speaker: 'Camila', line: 'Aïe, je me suis fait mal au genou, mais ça va.', translation: 'Ay, me lastimé la rodilla, pero estoy bien.' },
+          { speaker: 'Léa', line: 'Viens, je t’aide à rentrer. On va appeler ma mère.', translation: 'Ven, te ayudo a volver a casa. Vamos a llamar a mi madre.' },
+          { speaker: 'Camila', line: 'Merci, Léa. Heureusement, tu étais là !', translation: 'Gracias, Léa. ¡Menos mal que estabas ahí!' }
+        ],
+        phrases: ['Tu es tombée !', 'Je me suis fait mal à...', 'Je t’aide à...', 'Heureusement, tu étais là.'],
+        exercises: [
+          { type: 'mcq', prompt: 'Que s’est-il passé à Camila ?', options: ['Elle est tombée de vélo', 'Elle a perdu son sac', 'Elle a raté le bus', 'Elle s’est disputée avec Karim'], answer: 0 },
+          { type: 'mcq', prompt: 'Où Camila s’est-elle fait mal ?', options: ['Au bras', 'Au genou', 'À la tête', 'Au dos'], answer: 1 },
+          { type: 'mcq', prompt: 'Que propose Léa pour aider Camila ?', options: ['De continuer seule', 'De l’aider à rentrer et appeler sa mère', 'D’appeler une ambulance', 'De ne rien faire'], answer: 1 }
+        ]
+      })
+    }
+  },
+  // ---------------------------------------------------------------
+  {
+    slug: 'les-voyages-et-les-vacances',
+    title: 'Les voyages et les vacances',
+    titleEs: 'Los viajes y las vacaciones',
+    description: 'Camila et la famille Lambert préparent leurs vacances de printemps et réservent un hôtel.',
+    order: 7,
+    accessTier: 'free',
+    unitOverview: {
+      objective: 'Organiser un voyage, réserver un hôtel et raconter une expérience de voyage.',
+      outcomes: [
+        'réserver une chambre d’hôtel',
+        'parler de transport et de destinations',
+        'décrire une expérience de voyage',
+        'utiliser le futur proche pour planifier'
+      ],
+      grammar: ['futur proche', 'prépositions de lieu (à, en, au)', 'passé composé (révision)'],
+      vocabulary: ['réserver une chambre', 'la destination', 'faire les valises', 'un séjour'],
+      scenario: 'La famille Lambert prépare un voyage de printemps dans le sud de la France.'
+    },
+    activities: {
+      reading: activity('reading', {
+        title: 'Un voyage dans le sud',
+        description: 'La famille Lambert organise un voyage de printemps et réserve un hôtel à Nice.',
+        reading: {
+          title: 'Un voyage dans le sud',
+          parts: [
+            "Pour les vacances de printemps, la famille Lambert a décidé d'organiser un voyage dans le sud de la France, à Nice. « On va prendre le train jusqu'à Nice, ça va prendre environ six heures », explique Monsieur Lambert en regardant les horaires sur son ordinateur. Camila est très excitée : elle n'a jamais vu la mer Méditerranée ! Madame Lambert s'occupe de réserver une chambre d'hôtel avec vue sur la mer, pour cinq personnes.",
+            "Le soir, toute la famille prépare les valises ensemble. « N'oublie pas ton maillot de bain, Camila, on va se baigner tous les jours ! » dit Léa en riant. Camila fait sa valise avec soin : des vêtements légers, de la crème solaire, et un appareil photo pour capturer tous les moments de ce voyage. Le lendemain matin, ils prennent le train très tôt, avec beaucoup d'excitation et un peu de fatigue.",
+            "Après six heures de voyage, ils arrivent enfin à Nice. La vue depuis leur hôtel est magnifique : la mer bleue s'étend à perte de vue. Pendant leur séjour, ils vont se baigner tous les jours, visiter la vieille ville, et goûter la cuisine locale, notamment la fameuse salade niçoise. Camila prend des centaines de photos pour les montrer à sa famille à Saint-Domingue. Ce voyage restera l'un des plus beaux souvenirs de son année en France, et elle espère revenir un jour dans cette magnifique région."
+          ],
+          questions: [
+            'Comment la famille Lambert va-t-elle voyager jusqu’à Nice ?',
+            'Que réserve Madame Lambert ?',
+            'Que font-ils pendant leur séjour à Nice ?'
+          ],
+          ordering: {
+            prompt: 'Remets les événements du voyage dans l’ordre.',
+            events: [
+              'La famille décide d’organiser un voyage à Nice.',
+              'Ils préparent leurs valises ensemble.',
+              'Ils prennent le train tôt le matin.',
+              'Ils arrivent à Nice et découvrent la vue sur la mer.'
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'Où la famille Lambert va-t-elle en vacances ?', options: ['À Paris', 'À Nice', 'À Tours', 'En Espagne'], answer: 1 },
+          { type: 'mcq', prompt: 'Combien de temps dure le voyage en train ?', options: ['Deux heures', 'Quatre heures', 'Six heures', 'Huit heures'], answer: 2 },
+          { type: 'mcq', prompt: 'Que réserve Madame Lambert ?', options: ['Un restaurant', 'Une chambre d’hôtel avec vue sur la mer', 'Une voiture', 'Des billets d’avion'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’est-ce que Léa rappelle à Camila d’emporter ?', options: ['Son passeport', 'Son maillot de bain', 'Son ordinateur', 'Ses livres d’école'], answer: 1 },
+          { type: 'mcq', prompt: 'Que font-ils tous les jours pendant leur séjour ?', options: ['Ils vont au musée', 'Ils se baignent', 'Ils font du shopping', 'Ils restent à l’hôtel'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel plat local goûtent-ils ?', options: ['La bouillabaisse', 'La salade niçoise', 'La ratatouille', 'La quiche lorraine'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Camila avait déjà vu la mer Méditerranée avant ce voyage.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Dans le texte, « à perte de vue » signifie...', options: ['Très petite', 'Aussi loin que l’œil peut voir', 'Cachée', 'Dangereuse'], answer: 1 },
+          { type: 'mcq', prompt: 'Pourquoi Camila prend-elle beaucoup de photos ?', options: ['Pour les vendre', 'Pour les montrer à sa famille à Saint-Domingue', 'Parce que c’est obligatoire', 'Pour un devoir scolaire'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel est le sentiment général de Camila à propos de ce voyage ?', options: ['La déception', 'L’enthousiasme et la joie', 'L’ennui', 'La peur'], answer: 1 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Réserver une chambre d’hôtel',
+        description: 'Écoute Madame Lambert qui réserve une chambre d’hôtel par téléphone.',
+        intro: 'Écoute l’appel de Madame Lambert à l’hôtel de Nice.',
+        dialogue: [
+          { speaker: 'Mme Lambert', line: 'Bonjour, je voudrais réserver une chambre pour cinq personnes.', translation: 'Hola, quisiera reservar una habitación para cinco personas.' },
+          { speaker: 'L’hôtel', line: 'Bien sûr, pour quelles dates ?', translation: 'Claro, ¿para qué fechas?' },
+          { speaker: 'Mme Lambert', line: 'Du quinze au vingt avril, s’il vous plaît.', translation: 'Del quince al veinte de abril, por favor.' },
+          { speaker: 'L’hôtel', line: 'Parfait, nous avons une chambre avec vue sur la mer.', translation: 'Perfecto, tenemos una habitación con vista al mar.' },
+          { speaker: 'Mme Lambert', line: 'C’est exactement ce que nous cherchions, merci !', translation: '¡Eso es exactamente lo que buscábamos, gracias!' }
+        ],
+        phrases: ['Je voudrais réserver...', 'Pour quelles dates ?', 'Du... au...', 'Une chambre avec vue sur...'],
+        exercises: [
+          { type: 'mcq', prompt: 'Pour combien de personnes est la réservation ?', options: ['Trois', 'Quatre', 'Cinq', 'Six'], answer: 2 },
+          { type: 'mcq', prompt: 'Pour quelles dates réserve-t-elle ?', options: ['Du 5 au 10 avril', 'Du 15 au 20 avril', 'Du 1er au 7 mai', 'Du 20 au 25 avril'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel type de chambre l’hôtel propose-t-il ?', options: ['Une chambre sans fenêtre', 'Une chambre avec vue sur la mer', 'Une chambre familiale sans vue', 'Une suite présidentielle'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Organiser un voyage',
+        description: 'Simule l’organisation d’un voyage de vacances.',
+        mission: 'Présente un projet de voyage : destination, moyen de transport, dates et une activité que tu vas faire (futur proche).',
+        phrases: ['Je vais aller à...', 'On va prendre le train/l’avion...', 'On va visiter...', 'Ça va être...'],
+        dialogue: [
+          { speaker: 'Toi', line: 'Cet été, je vais aller à Nice avec ma famille. On va prendre le train et on va se baigner tous les jours.', translation: 'Este verano voy a ir a Niza con mi familia. Vamos a tomar el tren y nos vamos a bañar todos los días.' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: 'Présente un projet de voyage complet (destination, transport, activités) avec le futur proche.', answer: 'Oral practice' },
+          { type: 'practice', prompt: 'Compare ton projet de voyage avec celui d’un/une camarade.', answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Une carte postale de vacances',
+        description: 'Écris une carte postale décrivant tes vacances.',
+        mission: 'Écris 80 à 100 mots sous forme de carte postale décrivant un voyage (réel ou imaginaire) : destination, activités et impressions.',
+        phrases: ['Je suis à...', 'On a visité...', 'C’était...', 'À bientôt !'],
+        dialogue: [
+          { speaker: 'Modèle', line: 'Chère maman, je suis à Nice avec la famille Lambert ! On s’est baignés tous les jours et on a visité la vieille ville. La vue depuis l’hôtel est magnifique. C’était un voyage inoubliable. À bientôt, Camila.', translation: 'Querida mamá, ¡estoy en Niza con la familia Lambert! Nos bañamos todos los días y visitamos el casco antiguo. La vista desde el hotel es magnífica. Fue un viaje inolvidable. Hasta pronto, Camila.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Écris une carte postale de 80 à 100 mots décrivant un voyage de vacances.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: 'Le futur proche et les prépositions de lieu',
+        description: 'Exprimer un projet proche et utiliser à/en/au avec les destinations.',
+        grammarNote: 'Le futur proche se forme avec aller au présent + infinitif : « Nous allons visiter Nice. » Les prépositions de lieu varient selon le pays/la ville : à + ville (à Nice), en + pays féminin (en France), au + pays masculin (au Portugal).',
+        phrases: ['Je vais aller à...', 'Nous allons visiter...', 'Ils vont voyager en...', 'On va partir au...'],
+        exercises: [
+          { type: 'mcq', prompt: 'Nous ___ visiter Nice le mois prochain.', options: ['allons', 'allez', 'vais', 'va'], answer: 0 },
+          { type: 'mcq', prompt: 'La famille va voyager ___ France.', options: ['à', 'en', 'au', 'de'], answer: 1 },
+          { type: 'mcq', prompt: 'Ils vont passer une semaine ___ Nice.', options: ['en', 'au', 'à', 'du'], answer: 2 },
+          { type: 'mcq', prompt: 'Quelle est la structure correcte du futur proche ?', options: ['Aller + participe passé', 'Aller (présent) + infinitif', 'Avoir + infinitif', 'Être + gérondif'], answer: 1 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'Le vocabulaire des voyages',
+        description: 'Le vocabulaire essentiel pour organiser un voyage et parler de vacances.',
+        vocabulary: [
+          { word: 'réserver une chambre', translation: 'reservar una habitación', example: 'Nous avons réservé une chambre avec vue sur la mer.' },
+          { word: 'la destination', translation: 'el destino', example: 'Notre destination cette année, c’est Nice.' },
+          { word: 'faire les valises', translation: 'hacer las maletas', example: 'On fait les valises la veille du départ.' },
+          { word: 'un séjour', translation: 'una estancia', example: 'Nous avons passé un séjour inoubliable à Nice.' },
+          { word: 'se baigner', translation: 'bañarse', example: 'On va se baigner tous les jours.' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « faire les valises » ?', options: ['Hacer las maletas', 'Reservar un hotel', 'Ir a la playa', 'Comprar billetes'], answer: 0 },
+          { type: 'mcq', prompt: 'Que signifie « un séjour » ?', options: ['Un viaje corto', 'Una estancia', 'Un billete', 'Una maleta'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « se baigner » ?', options: ['Nadar/bañarse', 'Caminar', 'Comer', 'Dormir'], answer: 0 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'Faire les valises',
+        description: 'Camila et Léa préparent leurs valises la veille du départ pour Nice.',
+        intro: 'C’est la veille du départ, et Camila et Léa préparent leurs affaires ensemble.',
+        dialogue: [
+          { speaker: 'Léa', line: 'N’oublie pas ton maillot de bain, on va se baigner tous les jours !', translation: '¡No olvides tu traje de baño, nos vamos a bañar todos los días!' },
+          { speaker: 'Camila', line: 'Bonne idée ! Et de la crème solaire aussi.', translation: '¡Buena idea! Y protector solar también.' },
+          { speaker: 'Léa', line: 'Tu emmènes ton appareil photo ?', translation: '¿Llevas tu cámara?' },
+          { speaker: 'Camila', line: 'Bien sûr, je vais prendre des centaines de photos pour ma famille !', translation: '¡Claro, voy a tomar cientos de fotos para mi familia!' }
+        ],
+        phrases: ['N’oublie pas...', 'On va se baigner...', 'Tu emmènes... ?', 'Je vais prendre des photos.'],
+        exercises: [
+          { type: 'mcq', prompt: 'Que rappelle Léa à Camila d’emporter ?', options: ['Son passeport', 'Son maillot de bain', 'Son livre préféré', 'Son ordinateur'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’ajoute Camila à sa valise ?', options: ['Un parapluie', 'De la crème solaire', 'Un manteau', 'Des bottes'], answer: 1 },
+          { type: 'mcq', prompt: 'Pourquoi Camila emmène-t-elle son appareil photo ?', options: ['Pour le vendre', 'Pour prendre des photos pour sa famille', 'Parce que c’est obligatoire', 'Elle ne l’emmène pas'], answer: 1 }
+        ]
+      })
+    }
+  },
+  // ---------------------------------------------------------------
+  {
+    slug: 'le-logement',
+    title: 'Le logement',
+    titleEs: 'La vivienda',
+    description: 'Karim aide Camila à comprendre comment on cherche un appartement en France, pour un projet d’école.',
+    order: 8,
+    accessTier: 'free',
+    unitOverview: {
+      objective: 'Décrire un logement, comparer deux appartements et comprendre une annonce immobilière.',
+      outcomes: [
+        'décrire les pièces d’un logement',
+        'comparer deux logements',
+        'comprendre une petite annonce immobilière',
+        'parler des meubles et des services d’un appartement'
+      ],
+      grammar: ['comparatifs (révision)', 'il y a / il n’y a pas de', 'prépositions de lieu dans la maison'],
+      vocabulary: ['la chambre', 'le loyer', 'meublé', 'le quartier'],
+      scenario: 'Pour un projet d’école, Camila et Karim comparent deux annonces d’appartements à louer à Tours.'
+    },
+    activities: {
+      reading: activity('reading', {
+        title: 'Deux appartements à comparer',
+        description: 'Pour un projet d’école, Camila et Karim comparent deux annonces d’appartements à louer.',
+        reading: {
+          title: 'Deux appartements à comparer',
+          parts: [
+            "Pour un projet d'école sur la vie quotidienne en France, Camila et Karim doivent comparer deux annonces d'appartements à louer à Tours. La première annonce décrit un studio meublé au centre-ville : une seule pièce avec un coin cuisine, une salle de bain, et un petit balcon. Le loyer est de quatre cents euros par mois, charges comprises. « C'est petit, mais c'est très bien situé, près de tout », remarque Karim.",
+            "La deuxième annonce présente un appartement plus grand, avec deux chambres, un salon, une cuisine séparée et une salle de bain, dans un quartier plus calme, un peu éloigné du centre-ville. Le loyer est de six cents euros par mois, mais les charges ne sont pas comprises. « Cet appartement est plus grand que le studio, mais il est aussi plus cher », observe Camila. « Et il est moins bien situé, il faut prendre le bus pour aller au centre. »",
+            "Après avoir comparé les deux annonces, Camila et Karim discutent des avantages et des inconvénients de chaque option pour leur projet. Le studio est moins cher et très central, mais il est petit et n'a pas de vraie chambre séparée. L'appartement est plus spacieux et plus confortable pour une famille, mais il est plus cher et moins pratique pour se déplacer. « Ça dépend vraiment des besoins de chaque personne », conclut Karim. « Pour un étudiant seul, je choisirais le studio ; pour une famille, l'appartement est mieux. » Camila est d'accord et ils décident de présenter les deux options dans leur projet, avec cette conclusion."
+          ],
+          questions: [
+            'Que doivent faire Camila et Karim pour leur projet d’école ?',
+            'Quelle est la différence de loyer entre les deux logements ?',
+            'Quelle conclusion tirent-ils à la fin de leur comparaison ?'
+          ],
+          ordering: {
+            prompt: 'Remets les événements dans l’ordre.',
+            events: [
+              'Camila et Karim lisent la première annonce, un studio meublé.',
+              'Ils lisent la deuxième annonce, un appartement plus grand.',
+              'Ils comparent les avantages et les inconvénients de chaque option.',
+              'Ils décident de présenter les deux options dans leur projet.'
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'Combien de pièces a le studio meublé ?', options: ['Une seule pièce', 'Deux pièces', 'Trois pièces', 'Quatre pièces'], answer: 0 },
+          { type: 'mcq', prompt: 'Combien coûte le loyer du studio ?', options: ['Trois cents euros', 'Quatre cents euros', 'Cinq cents euros', 'Six cents euros'], answer: 1 },
+          { type: 'mcq', prompt: 'Combien de chambres a le deuxième appartement ?', options: ['Une', 'Deux', 'Trois', 'Quatre'], answer: 1 },
+          { type: 'mcq', prompt: 'Pourquoi le deuxième appartement est-il moins pratique pour se déplacer ?', options: ['Il est au centre-ville', 'Il est dans un quartier calme, éloigné du centre', 'Il n’a pas de bus proche jamais', 'Il n’a pas de rue'], answer: 1 },
+          { type: 'mcq', prompt: 'Les charges sont-elles comprises dans le loyer du studio ?', options: ['Oui', 'Non', 'Le texte ne le dit pas', 'Seulement en hiver'], answer: 0 },
+          { type: 'mcq', prompt: 'Que recommande Karim pour un étudiant seul ?', options: ['L’appartement', 'Le studio', 'Aucun des deux', 'Un troisième logement'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : le studio a un balcon.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Dans le texte, « charges comprises » signifie...', options: ['Les charges sont en plus du loyer', 'Les charges sont incluses dans le prix', 'Il n’y a pas de charges', 'Les charges sont très élevées'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle est l’intention principale de Camila et Karim dans ce texte ?', options: ['Choisir un logement pour eux-mêmes', 'Comparer deux annonces pour un projet scolaire', 'Vendre un appartement', 'Se plaindre d’un logement'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle conclusion tirent-ils finalement ?', options: ['Le studio est toujours meilleur', 'L’appartement est toujours meilleur', 'Le meilleur choix dépend des besoins de chaque personne', 'Aucun des deux logements n’est bon'], answer: 2 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Une visite d’appartement',
+        description: 'Écoute une agente immobilière qui décrit un appartement à visiter.',
+        intro: 'Écoute la description d’un appartement par une agente immobilière.',
+        dialogue: [
+          { speaker: 'L’agente', line: 'Voici le salon : il est grand et très lumineux.', translation: 'Aquí está el salón: es grande y muy luminoso.' },
+          { speaker: 'Karim', line: 'Il y a combien de chambres ?', translation: '¿Cuántas habitaciones hay?' },
+          { speaker: 'L’agente', line: 'Il y a deux chambres, et une salle de bain avec une baignoire.', translation: 'Hay dos habitaciones, y un baño con bañera.' },
+          { speaker: 'Camila', line: 'Et la cuisine, elle est séparée ?', translation: '¿Y la cocina, está separada?' },
+          { speaker: 'L’agente', line: 'Oui, la cuisine est séparée et complètement équipée.', translation: 'Sí, la cocina está separada y completamente equipada.' }
+        ],
+        phrases: ['Il y a...', 'La cuisine est séparée.', 'C’est lumineux.', 'complètement équipé(e)'],
+        exercises: [
+          { type: 'mcq', prompt: 'Combien de chambres a l’appartement ?', options: ['Une', 'Deux', 'Trois', 'Quatre'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment est décrit le salon ?', options: ['Petit et sombre', 'Grand et lumineux', 'Moyen et froid', 'Sans fenêtre'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment est la cuisine ?', options: ['Dans le salon', 'Séparée et équipée', 'Il n’y en a pas', 'Très petite'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Décris ton logement',
+        description: 'Décris ton logement idéal ou réel.',
+        mission: 'Décris ton logement (réel ou idéal) : nombre de pièces, meubles, quartier, et pourquoi tu l’aimes.',
+        phrases: ['Il y a... pièces.', 'Ma chambre est...', 'Le quartier est...', 'J’aime ce logement parce que...'],
+        dialogue: [
+          { speaker: 'Toi', line: 'Mon appartement a deux chambres et un grand salon. Le quartier est calme et j’aime beaucoup ça.', translation: 'Mi apartamento tiene dos habitaciones y un gran salón. El barrio es tranquilo y me gusta mucho.' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: 'Décris ton logement (réel ou idéal) en détail, avec au moins un comparatif.', answer: 'Oral practice' },
+          { type: 'practice', prompt: 'Compare ton logement avec celui d’un/une camarade.', answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Une annonce immobilière',
+        description: 'Écris une petite annonce pour louer un logement.',
+        mission: 'Écris 80 à 100 mots pour décrire un appartement à louer (nombre de pièces, meubles, quartier, prix).',
+        phrases: ['À louer :', 'Il y a...', 'Le loyer est de...', 'Situé dans le quartier de...'],
+        dialogue: [
+          { speaker: 'Modèle', line: 'À louer : appartement meublé avec deux chambres, un salon lumineux et une cuisine séparée. Situé dans un quartier calme, près du centre-ville. Loyer : cinq cents euros par mois, charges comprises.', translation: 'Se alquila: apartamento amueblado con dos habitaciones, un salón luminoso y una cocina separada. Ubicado en un barrio tranquilo, cerca del centro. Alquiler: quinientos euros al mes, gastos incluidos.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Écris une petite annonce de 80 à 100 mots pour un logement à louer.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: 'Il y a / il n’y a pas de et les comparatifs',
+        description: 'Décrire l’existence de quelque chose et comparer deux logements.',
+        grammarNote: '« Il y a » indique la présence de quelque chose : « Il y a deux chambres. » À la forme négative, on utilise « il n’y a pas de » : « Il n’y a pas de balcon. » Pour comparer deux logements, on réutilise plus/moins/aussi + adjectif + que : « Cet appartement est plus grand que le studio. »',
+        phrases: ['Il y a...', 'Il n’y a pas de...', 'C’est plus grand que...', 'C’est moins cher que...'],
+        exercises: [
+          { type: 'mcq', prompt: '___ deux chambres dans cet appartement.', options: ['Il y a', 'Il n’y a pas', 'C’est', 'Il est'], answer: 0 },
+          { type: 'mcq', prompt: 'Dans le studio, ___ de balcon.', options: ['il y a', 'il n’y a pas', 'il est', 'c’est'], answer: 1 },
+          { type: 'mcq', prompt: 'Cet appartement est ___ que le studio.', options: ['plus grand', 'plus grande', 'grand plus', 'aussi grand comme'], answer: 0 },
+          { type: 'mcq', prompt: 'Le loyer du studio est ___ cher que celui de l’appartement.', options: ['moins', 'aussi', 'plus', 'que'], answer: 0 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'Le vocabulaire du logement',
+        description: 'Le vocabulaire essentiel pour décrire un logement.',
+        vocabulary: [
+          { word: 'la chambre', translation: 'la habitación', example: 'Ma chambre est petite mais confortable.' },
+          { word: 'le loyer', translation: 'el alquiler', example: 'Le loyer est de quatre cents euros par mois.' },
+          { word: 'meublé', translation: 'amueblado', example: 'C’est un studio meublé.' },
+          { word: 'le quartier', translation: 'el barrio', example: 'Le quartier est calme et sympathique.' },
+          { word: 'charges comprises', translation: 'gastos incluidos', example: 'Le loyer est de cinq cents euros, charges comprises.' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « le loyer » ?', options: ['El alquiler', 'La habitación', 'El barrio', 'El mueble'], answer: 0 },
+          { type: 'mcq', prompt: 'Que signifie « meublé » ?', options: ['Vacío', 'Amueblado', 'Sucio', 'Nuevo'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « le quartier » ?', options: ['El barrio', 'El piso', 'La ciudad', 'El país'], answer: 0 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'Quel appartement choisir ?',
+        description: 'Camila et Karim discutent de leur préférence entre les deux appartements.',
+        intro: 'Après la visite, Camila et Karim comparent leurs impressions sur les deux logements.',
+        dialogue: [
+          { speaker: 'Karim', line: 'Alors, tu préfères le studio ou l’appartement ?', translation: 'Entonces, ¿prefieres el estudio o el apartamento?' },
+          { speaker: 'Camila', line: 'Je préfère l’appartement, il est plus grand et plus confortable.', translation: 'Prefiero el apartamento, es más grande y más cómodo.' },
+          { speaker: 'Karim', line: 'Mais il est plus cher et moins bien situé !', translation: '¡Pero es más caro y está peor ubicado!' },
+          { speaker: 'Camila', line: 'C’est vrai, mais pour une famille, je pense que c’est le meilleur choix.', translation: 'Es verdad, pero para una familia, creo que es la mejor opción.' }
+        ],
+        phrases: ['Je préfère...', 'Il est plus... que...', 'C’est le meilleur choix.', 'Ça dépend de...'],
+        exercises: [
+          { type: 'mcq', prompt: 'Quel logement Camila préfère-t-elle ?', options: ['Le studio', 'L’appartement', 'Aucun des deux', 'Elle ne sait pas'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel inconvénient Karim mentionne-t-il ?', options: ['Il est trop petit', 'Il est plus cher et moins bien situé', 'Il n’a pas de cuisine', 'Il est trop loin de l’école'], answer: 1 },
+          { type: 'mcq', prompt: 'Pour qui Camila pense-t-elle que l’appartement est le meilleur choix ?', options: ['Pour un étudiant seul', 'Pour une famille', 'Pour un couple sans enfants', 'Pour personne'], answer: 1 }
+        ]
+      })
+    }
+  },
+  // ---------------------------------------------------------------
+  {
+    slug: 'les-loisirs-et-les-medias',
+    title: 'Les loisirs et les médias',
+    titleEs: 'El ocio y los medios',
+    description: 'Camila, Léa et Karim discutent de leurs films, séries et réseaux sociaux préférés.',
+    order: 9,
+    accessTier: 'free',
+    unitOverview: {
+      objective: 'Exprimer une préférence culturelle et discuter d’un film ou d’une série.',
+      outcomes: [
+        'parler de ses loisirs préférés',
+        'donner son opinion sur un film ou une série',
+        'comparer deux préférences',
+        'parler des réseaux sociaux de façon simple'
+      ],
+      grammar: ['pronoms toniques (moi, toi, lui...)', 'expression de préférence (préférer, aimer mieux)', 'négation ne... rien / ne... personne'],
+      vocabulary: ['un film', 'une série', 'les réseaux sociaux', 'à mon avis'],
+      scenario: 'Un vendredi soir, Camila, Léa et Karim débattent de quel film regarder ensemble.'
+    },
+    activities: {
+      reading: activity('reading', {
+        title: 'Quel film regarder ce soir ?',
+        description: 'Camila, Léa et Karim n’arrivent pas à se mettre d’accord sur le film à regarder.',
+        reading: {
+          title: 'Quel film regarder ce soir ?',
+          parts: [
+            "Vendredi soir, Camila, Léa et Karim se retrouvent chez les Lambert pour une soirée cinéma. Le problème, c'est qu'ils n'arrivent pas à se mettre d'accord sur le film à regarder. « Moi, je préfère les comédies, elles me font toujours rire », dit Léa. « Personnellement, je préfère les films d'action, ils sont plus intéressants », répond Karim. Camila, elle, n'aime ni les comédies ni les films d'action : « Moi, j'aime mieux les films romantiques, mais je sais que vous n'aimez pas ça du tout. »",
+            "Après quelques minutes de discussion, ils décident de regarder les avis sur leurs téléphones. Léa propose une série qu'elle suit sur les réseaux sociaux : « Tout le monde en parle en ce moment, ça a l'air très bien ! » Karim n'est pas très convaincu : « Je ne fais jamais confiance aux réseaux sociaux pour choisir un film, les avis sont souvent faux. » Camila propose alors une solution : « Et si on regardait un documentaire ? Ce n'est ni une comédie, ni un film d'action, ni un film romantique, ça devrait convenir à tout le monde ! »",
+            "Finalement, tous les trois acceptent l'idée de Camila et choisissent un documentaire sur les océans. Après le film, ils sont tous surpris : ils l'ont adoré, même Karim qui n'aime jamais les documentaires d'habitude ! « À mon avis, on devrait regarder plus de documentaires ensemble », dit Léa en riant. Cette soirée leur montre qu'il n'est pas toujours facile de se mettre d'accord, mais qu'il existe toujours une solution qui satisfait tout le monde."
+          ],
+          questions: [
+            'Pourquoi Camila, Léa et Karim ont-ils du mal à choisir un film ?',
+            'Que propose Camila comme solution ?',
+            'Comment se termine la soirée ?'
+          ],
+          ordering: {
+            prompt: 'Remets les événements de la soirée dans l’ordre.',
+            events: [
+              'Chacun exprime sa préférence de film.',
+              'Léa propose une série vue sur les réseaux sociaux.',
+              'Camila propose de regarder un documentaire.',
+              'Tous les trois adorent le documentaire sur les océans.'
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'Quel genre de film Léa préfère-t-elle ?', options: ['Les films d’action', 'Les comédies', 'Les films romantiques', 'Les documentaires'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel genre de film Karim préfère-t-il ?', options: ['Les comédies', 'Les films d’action', 'Les films romantiques', 'Les documentaires'], answer: 1 },
+          { type: 'mcq', prompt: 'Pourquoi Karim ne fait-il pas confiance aux réseaux sociaux ?', options: ['Il ne les utilise jamais', 'Les avis sont souvent faux', 'Ils sont trop lents', 'Il préfère les livres'], answer: 1 },
+          { type: 'mcq', prompt: 'Que propose Camila comme solution ?', options: ['Ne rien regarder', 'Regarder un documentaire', 'Regarder trois films différents', 'Aller au cinéma'], answer: 1 },
+          { type: 'mcq', prompt: 'Sur quel sujet est le documentaire qu’ils regardent ?', options: ['L’espace', 'Les océans', 'Les animaux d’Afrique', 'L’histoire de France'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment réagit Karim après le documentaire ?', options: ['Il n’aime pas du tout', 'Il est surpris et il adore', 'Il s’endort', 'Il refuse de commenter'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Karim aime habituellement les documentaires.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Dans le texte, « ça devrait convenir à tout le monde » signifie...', options: ['Ça ne va plaire à personne', 'Ça devrait satisfaire tout le monde', 'C’est interdit', 'Personne ne le sait'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle leçon peut-on tirer de cette soirée ?', options: ['Il est impossible de se mettre d’accord', 'Il existe toujours une solution qui satisfait tout le monde', 'Il faut toujours choisir seul', 'Les documentaires sont ennuyeux'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle phrase exprime une opinion, pas un fait ?', options: ['Ils se retrouvent chez les Lambert.', 'Personnellement, je préfère les films d’action.', 'Ils regardent un documentaire sur les océans.', 'Léa propose une série.'], answer: 1 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Mon film préféré',
+        description: 'Écoute Léa parler de son film préféré à Camila.',
+        intro: 'Écoute Léa expliquer pourquoi elle aime tant ce film en particulier.',
+        dialogue: [
+          { speaker: 'Léa', line: 'Mon film préféré, c’est une comédie française avec des acteurs incroyables.', translation: 'Mi película favorita es una comedia francesa con actores increíbles.' },
+          { speaker: 'Camila', line: 'Pourquoi tu l’aimes autant ?', translation: '¿Por qué te gusta tanto?' },
+          { speaker: 'Léa', line: 'Parce qu’elle me fait toujours rire, même après l’avoir vue dix fois.', translation: 'Porque siempre me hace reír, incluso después de haberla visto diez veces.' },
+          { speaker: 'Camila', line: 'Moi, je ne l’ai jamais vue. On peut la regarder ensemble ?', translation: 'Yo nunca la he visto. ¿Podemos verla juntas?' },
+          { speaker: 'Léa', line: 'Bien sûr, avec plaisir !', translation: '¡Claro, con mucho gusto!' }
+        ],
+        phrases: ['Mon film préféré, c’est...', 'Il/elle me fait rire.', 'Je ne l’ai jamais vu(e).', 'Avec plaisir !'],
+        exercises: [
+          { type: 'mcq', prompt: 'Quel genre est le film préféré de Léa ?', options: ['Un film d’action', 'Une comédie', 'Un documentaire', 'Un film romantique'], answer: 1 },
+          { type: 'mcq', prompt: 'Pourquoi Léa aime-t-elle ce film ?', options: ['Il la fait pleurer', 'Il la fait rire', 'Il est très long', 'Il est éducatif'], answer: 1 },
+          { type: 'mcq', prompt: 'Combien de fois Léa a-t-elle vu ce film ?', options: ['Une fois', 'Cinq fois', 'Dix fois', 'Elle ne se souvient pas'], answer: 2 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Parle de tes loisirs préférés',
+        description: 'Décris tes loisirs préférés et donne ton opinion.',
+        mission: 'Parle de ton film, série ou activité de loisir préférée, et explique pourquoi tu l’aimes.',
+        phrases: ['Mon/ma... préféré(e), c’est...', 'Je l’aime parce que...', 'À mon avis...', 'Je préfère... à...'],
+        dialogue: [
+          { speaker: 'Toi', line: 'Ma série préférée, c’est une série française. Je l’aime parce que l’histoire est passionnante.', translation: 'Mi serie favorita es una serie francesa. Me gusta porque la historia es apasionante.' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: 'Parle de ton loisir préféré (film, série, musique) et justifie ton opinion.', answer: 'Oral practice' },
+          { type: 'practice', prompt: 'Compare tes préférences avec celles d’un/une camarade et trouvez un point commun.', answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Mon avis sur un film',
+        description: 'Écris ton opinion sur un film ou une série.',
+        mission: 'Écris 80 à 100 mots donnant ton opinion sur un film ou une série que tu as vu récemment.',
+        phrases: ['À mon avis...', 'J’ai beaucoup aimé...', 'Je ne recommande pas...', 'Ce film parle de...'],
+        dialogue: [
+          { speaker: 'Modèle', line: 'À mon avis, ce documentaire sur les océans est excellent. J’ai beaucoup aimé les images sous-marines et les explications claires. Je le recommande à tout le monde, même à ceux qui n’aiment pas normalement les documentaires.', translation: 'En mi opinión, este documental sobre los océanos es excelente. Me gustaron mucho las imágenes submarinas y las explicaciones claras. Lo recomiendo a todos, incluso a quienes normalmente no les gustan los documentales.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Écris 80 à 100 mots donnant ton opinion sur un film ou une série, avec au moins une justification.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: 'Les pronoms toniques et l’expression de préférence',
+        description: 'Utiliser moi/toi/lui/elle pour insister sur une préférence personnelle.',
+        grammarNote: 'Les pronoms toniques (moi, toi, lui, elle, nous, vous, eux, elles) s’utilisent pour insister sur le sujet, souvent en début de phrase : « Moi, je préfère les comédies. » Pour exprimer une préférence, on utilise préférer + nom, ou aimer mieux + verbe : « Je préfère les films d’action. J’aime mieux regarder des documentaires. »',
+        phrases: ['Moi, je préfère...', 'Toi, tu aimes...', 'Lui, il préfère...', 'J’aime mieux...'],
+        exercises: [
+          { type: 'mcq', prompt: '___ je préfère les comédies.', options: ['Je', 'Moi,', 'Me', 'Mien'], answer: 1 },
+          { type: 'mcq', prompt: 'Karim ___ préfère les films d’action.', options: ['lui', 'il', 'le', 'eux'], answer: 1 },
+          { type: 'mcq', prompt: 'J’aime mieux ___ des documentaires.', options: ['regarde', 'regarder', 'regardé', 'regardant'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel pronom tonique correspond à « elles » ?', options: ['Eux', 'Elles', 'Leur', 'Les'], answer: 1 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'Le vocabulaire des loisirs et médias',
+        description: 'Le vocabulaire essentiel pour parler de films, séries et réseaux sociaux.',
+        vocabulary: [
+          { word: 'un film', translation: 'una película', example: 'On regarde un film ce soir ?' },
+          { word: 'une série', translation: 'una serie', example: 'Cette série est passionnante.' },
+          { word: 'les réseaux sociaux', translation: 'las redes sociales', example: 'Tout le monde en parle sur les réseaux sociaux.' },
+          { word: 'à mon avis', translation: 'en mi opinión', example: 'À mon avis, ce film est excellent.' },
+          { word: 'un documentaire', translation: 'un documental', example: 'On a regardé un documentaire sur les océans.' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « une série » ?', options: ['Una serie', 'Una película', 'Un documental', 'Una red social'], answer: 0 },
+          { type: 'mcq', prompt: 'Que signifie « les réseaux sociaux » ?', options: ['Los amigos', 'Las redes sociales', 'Los documentales', 'Las películas'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « à mon avis » ?', options: ['En mi opinión', 'A veces', 'Nunca', 'Por supuesto'], answer: 0 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'Une soirée cinéma réussie',
+        description: 'Après le documentaire, les trois amis discutent de leur soirée.',
+        intro: 'Le documentaire vient de se terminer, et les trois amis partagent leurs impressions.',
+        dialogue: [
+          { speaker: 'Karim', line: 'Je n’aime jamais les documentaires normalement, mais celui-là était génial !', translation: 'Normalmente nunca me gustan los documentales, ¡pero ese estuvo genial!' },
+          { speaker: 'Léa', line: 'À mon avis, on devrait regarder plus de documentaires ensemble.', translation: 'En mi opinión, deberíamos ver más documentales juntos.' },
+          { speaker: 'Camila', line: 'Je suis contente que ma proposition ait plu à tout le monde !', translation: '¡Estoy contenta de que mi propuesta haya gustado a todos!' },
+          { speaker: 'Karim', line: 'La prochaine fois, c’est moi qui choisis, promis !', translation: '¡La próxima vez, elijo yo, lo prometo!' }
+        ],
+        phrases: ['Je n’aime jamais...', 'À mon avis, on devrait...', 'Je suis content(e) que...', 'La prochaine fois...'],
+        exercises: [
+          { type: 'mcq', prompt: 'Que pense Karim du documentaire, contrairement à d’habitude ?', options: ['Il ne l’aime pas', 'Il l’a trouvé génial', 'Il s’est endormi', 'Il ne l’a pas regardé'], answer: 1 },
+          { type: 'mcq', prompt: 'Que propose Léa pour les prochaines soirées ?', options: ['Ne plus regarder de films', 'Regarder plus de documentaires ensemble', 'Regarder seulement des comédies', 'Arrêter les soirées cinéma'], answer: 1 },
+          { type: 'mcq', prompt: 'Que promet Karim pour la prochaine fois ?', options: ['De ne jamais choisir', 'De choisir le prochain film', 'De ne plus venir', 'De regarder seul'], answer: 1 }
+        ]
+      })
+    }
+  },
+  // ---------------------------------------------------------------
+  {
+    slug: 'relations-et-communication',
+    title: 'Relations et communication',
+    titleEs: 'Relaciones y comunicación',
+    description: 'Camila écrit un e-mail à sa meilleure amie de Saint-Domingue pour lui raconter sa vie en France.',
+    order: 10,
+    accessTier: 'free',
+    unitOverview: {
+      objective: 'Parler de ses relations personnelles et écrire un message informel.',
+      outcomes: [
+        'décrire une relation d’amitié ou de famille',
+        'exprimer un accord ou un désaccord poliment',
+        'utiliser les pronoms relatifs qui, que et où',
+        'écrire un e-mail personnel'
+      ],
+      grammar: ['pronoms relatifs qui, que, où', 'expressions d’accord/désaccord', 'présent + passé composé (révision combinée)'],
+      vocabulary: ['la meilleure amie', 'être d’accord / ne pas être d’accord', 'manquer à quelqu’un', 'garder contact'],
+      scenario: 'Camila écrit à Sofía, sa meilleure amie restée à Saint-Domingue, pour lui raconter sa vie et ses nouvelles amitiés.'
+    },
+    activities: {
+      reading: activity('reading', {
+        title: 'Un e-mail à Sofía',
+        description: 'Camila écrit à sa meilleure amie de Saint-Domingue pour lui raconter sa nouvelle vie.',
+        reading: {
+          title: 'Un e-mail à Sofía',
+          parts: [
+            "Chère Sofía, ça fait longtemps que je ne t'ai pas écrit, excuse-moi ! La vie ici, en France, est tellement différente de celle qu'on avait à Saint-Domingue. Je me suis fait deux amis formidables : Léa, la fille de la famille qui m'héberge, et Karim, un garçon de ma classe qui est toujours prêt à m'aider. Ce sont des amis avec qui je passe presque tout mon temps libre, et je crois que je ne les oublierai jamais.",
+            "Je dois t'avouer que tu me manques énormément, ainsi que le reste de notre groupe d'amies. Je pense souvent aux moments qu'on passait ensemble, dans le quartier où on a grandi. Mais je suis aussi très heureuse ici : j'apprends une nouvelle langue, je découvre une nouvelle culture, et j'ai rencontré des personnes qui, comme toi, sont devenues très importantes pour moi. Léa et moi, on n'est pas toujours d'accord sur tout (elle adore les comédies romantiques, alors que moi, je préfère les documentaires !), mais on se respecte et on rigole beaucoup ensemble.",
+            "J'espère qu'on pourra garder contact, même quand je rentrerai à Saint-Domingue. Peut-être que tu pourrais venir me rendre visite en France un jour, ou que je pourrais te présenter Léa et Karim par appel vidéo ! En attendant, je t'envoie plein de photos de Tours, la ville où j'habite maintenant. Réponds-moi vite, j'ai hâte d'avoir de tes nouvelles. Je t'embrasse très fort, Camila."
+          ],
+          questions: [
+            'Qui sont les deux nouveaux amis de Camila en France ?',
+            'Sur quoi Camila et Léa ne sont-elles pas toujours d’accord ?',
+            'Que propose Camila pour garder contact avec Sofía ?'
+          ],
+          ordering: {
+            prompt: 'Remets les idées de l’e-mail dans l’ordre.',
+            events: [
+              'Camila s’excuse de ne pas avoir écrit depuis longtemps.',
+              'Elle raconte comment elle s’est fait deux nouveaux amis.',
+              'Elle avoue que Sofía et ses amies lui manquent.',
+              'Elle propose de garder contact avec Sofía.'
+            ]
+          }
+        },
+        exercises: [
+          { type: 'mcq', prompt: 'Qui sont les deux nouveaux amis de Camila ?', options: ['Léa et Karim', 'Sofía et Karim', 'Madame et Monsieur Lambert', 'Léa et Madame Lambert'], answer: 0 },
+          { type: 'mcq', prompt: 'Qui manque énormément à Camila ?', options: ['Léa', 'Karim', 'Sofía et son groupe d’amies', 'Madame Lambert'], answer: 2 },
+          { type: 'mcq', prompt: 'Sur quoi Camila et Léa ne sont-elles pas d’accord ?', options: ['Le type de films qu’elles préfèrent', 'La routine du matin', 'Le choix de l’école', 'Le pays où voyager'], answer: 0 },
+          { type: 'mcq', prompt: 'Que propose Camila pour rester en contact avec Sofía ?', options: ['Ne plus jamais lui écrire', 'Se voir en France ou par appel vidéo', 'Attendre son retour définitif', 'Écrire seulement une fois par an'], answer: 1 },
+          { type: 'mcq', prompt: 'Que dit Camila à propos de la ville où elle habite ?', options: ['Elle la déteste', 'Elle envoie des photos de Tours à Sofía', 'Elle veut déménager', 'Elle n’en parle pas'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment Camila décrit-elle sa relation avec Léa et Karim ?', options: ['Distante et froide', 'Proche, malgré quelques désaccords', 'Conflictuelle', 'Sans importance'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Camila regrette d’être partie en France.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Dans le texte, « j’ai hâte de » signifie...', options: ['Je n’ai pas envie de', 'J’attends avec impatience', 'J’ai peur de', 'Je refuse de'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle est l’intention principale de cet e-mail ?', options: ['Se plaindre de la France', 'Partager des nouvelles et maintenir le lien d’amitié', 'Demander de l’argent', 'Annoncer un retour définitif'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle phrase du texte exprime un sentiment, et non un fait ?', options: ['Léa est la fille de la famille qui m’héberge.', 'Tu me manques énormément.', 'Karim est un garçon de ma classe.', 'J’habite à Tours maintenant.'], answer: 1 }
+        ]
+      }),
+      listening: activity('listening', {
+        title: 'Un appel vidéo entre amies',
+        description: 'Écoute Camila et Sofía qui se parlent enfin par appel vidéo.',
+        intro: 'Écoute la conversation vidéo entre Camila et Sofía, après plusieurs semaines sans se parler.',
+        dialogue: [
+          { speaker: 'Sofía', line: 'Camila ! Enfin, on se voit ! Tu m’as tellement manqué.', translation: '¡Camila! ¡Por fin nos vemos! Te he extrañado muchísimo.' },
+          { speaker: 'Camila', line: 'Toi aussi ! Raconte-moi tout, comment vont les autres filles ?', translation: '¡Tú también! Cuéntame todo, ¿cómo están las demás chicas?' },
+          { speaker: 'Sofía', line: 'Elles vont bien, on pense souvent à toi. Et toi, comment vas-tu là-bas ?', translation: 'Están bien, pensamos mucho en ti. ¿Y tú, cómo estás allá?' },
+          { speaker: 'Camila', line: 'Très bien ! Je me suis fait des amis formidables, je te les présente bientôt.', translation: '¡Muy bien! Me hice amigos formidables, te los presento pronto.' }
+        ],
+        phrases: ['Tu m’as manqué.', 'Raconte-moi tout.', 'On pense souvent à toi.', 'Je te les présente bientôt.'],
+        exercises: [
+          { type: 'mcq', prompt: 'Comment se parlent Camila et Sofía ?', options: ['Par lettre', 'Par appel vidéo', 'En personne', 'Par message texte'], answer: 1 },
+          { type: 'mcq', prompt: 'Que demande Camila à Sofía ?', options: ['Comment va la France', 'Comment vont les autres filles', 'Quand elle va venir', 'Ce qu’elle a mangé'], answer: 1 },
+          { type: 'mcq', prompt: 'Que promet Camila à Sofía ?', options: ['De ne plus l’appeler', 'De lui présenter ses nouveaux amis', 'De rentrer immédiatement', 'De ne rien lui dire'], answer: 1 }
+        ]
+      }),
+      speaking: activity('speaking', {
+        title: 'Parler d’une relation importante',
+        description: 'Décris une relation personnelle importante pour toi.',
+        mission: 'Décris une personne importante dans ta vie (ami/amie, membre de la famille) et explique pourquoi cette relation compte pour toi.',
+        phrases: ['C’est une personne qui...', 'Nous sommes toujours d’accord sur...', 'Parfois, on n’est pas d’accord sur...', 'Cette personne compte pour moi parce que...'],
+        dialogue: [
+          { speaker: 'Toi', line: 'Ma meilleure amie est une personne qui me comprend toujours. Nous ne sommes pas toujours d’accord, mais notre amitié est très importante pour moi.', translation: 'Mi mejor amiga es una persona que siempre me entiende. No siempre estamos de acuerdo, pero nuestra amistad es muy importante para mí.' }
+        ],
+        exercises: [
+          { type: 'speaking', prompt: 'Décris une relation personnelle importante, en utilisant au moins un pronom relatif (qui/que/où).', answer: 'Oral practice' },
+          { type: 'practice', prompt: 'Écoute la description d’un/une camarade et pose-lui une question sur cette relation.', answer: 'Oral practice' }
+        ]
+      }),
+      writing: activity('writing', {
+        title: 'Un e-mail à un ami éloigné',
+        description: 'Écris un e-mail personnel à un ami ou un membre de ta famille qui vit loin.',
+        mission: 'Écris 80 à 100 mots sous forme d’e-mail à un ami ou un membre de ta famille qui vit loin, pour lui raconter tes nouvelles.',
+        phrases: ['Cher/chère...', 'Ça fait longtemps que...', 'Tu me manques.', 'Garde contact !'],
+        dialogue: [
+          { speaker: 'Modèle', line: 'Chère Sofía, ça fait longtemps que je ne t’ai pas écrit ! Je me suis fait de nouveaux amis en France, mais tu me manques beaucoup. J’espère qu’on pourra garder contact. Je t’embrasse fort, Camila.', translation: 'Querida Sofía, ¡hace tiempo que no te escribo! Hice nuevos amigos en Francia, pero te extraño mucho. Espero que podamos mantener el contacto. Un abrazo fuerte, Camila.' }
+        ],
+        exercises: [
+          { type: 'writing', prompt: 'Écris un e-mail de 80 à 100 mots à un ami ou un membre de ta famille éloigné, avec au moins un pronom relatif.', answer: 'Open answer' }
+        ]
+      }),
+      grammar: activity('grammar', {
+        title: 'Les pronoms relatifs qui, que et où',
+        description: 'Relier deux phrases avec les pronoms relatifs qui, que et où.',
+        grammarNote: '« Qui » remplace le sujet : « J’ai un ami qui m’aide toujours. » « Que » remplace le complément d’objet direct : « C’est une amie que j’adore. » « Où » remplace un lieu ou un moment : « C’est la ville où j’habite. »',
+        phrases: ['C’est une personne qui...', 'C’est un film que j’aime...', 'C’est l’endroit où...', 'J’ai un ami qui...'],
+        exercises: [
+          { type: 'mcq', prompt: 'C’est une amie ___ me comprend toujours.', options: ['qui', 'que', 'où', 'dont'], answer: 0 },
+          { type: 'mcq', prompt: 'C’est un documentaire ___ j’ai beaucoup aimé.', options: ['qui', 'que', 'où', 'qu’'], answer: 3 },
+          { type: 'mcq', prompt: 'Tours est la ville ___ j’habite maintenant.', options: ['qui', 'que', 'où', 'dont'], answer: 2 },
+          { type: 'mcq', prompt: 'J’ai des amis ___ sont formidables.', options: ['qui', 'que', 'où', 'quoi'], answer: 0 }
+        ]
+      }),
+      vocabulary: activity('vocabulary', {
+        title: 'Le vocabulaire des relations',
+        description: 'Le vocabulaire essentiel pour parler de ses relations personnelles.',
+        vocabulary: [
+          { word: 'la meilleure amie', translation: 'la mejor amiga', example: 'Sofía est ma meilleure amie.' },
+          { word: 'être d’accord / ne pas être d’accord', translation: 'estar de acuerdo / no estar de acuerdo', example: 'Nous ne sommes pas toujours d’accord.' },
+          { word: 'manquer à quelqu’un', translation: 'extrañar a alguien', example: 'Tu me manques beaucoup.' },
+          { word: 'garder contact', translation: 'mantener el contacto', example: 'J’espère qu’on va garder contact.' },
+          { word: 'héberger', translation: 'hospedar', example: 'La famille Lambert m’héberge cette année.' }
+        ],
+        exercises: [
+          { type: 'mcq', prompt: 'Que signifie « manquer à quelqu’un » ?', options: ['Extrañar a alguien', 'Olvidar a alguien', 'Ayudar a alguien', 'Visitar a alguien'], answer: 0 },
+          { type: 'mcq', prompt: 'Que signifie « garder contact » ?', options: ['Perder el contacto', 'Mantener el contacto', 'Cambiar de número', 'Bloquear a alguien'], answer: 1 },
+          { type: 'mcq', prompt: 'Que signifie « être d’accord » ?', options: ['Estar de acuerdo', 'Estar enojado', 'Estar cansado', 'Estar solo'], answer: 0 }
+        ]
+      }),
+      dialogue: activity('dialogue', {
+        title: 'Un léger désaccord',
+        description: 'Léa et Camila ont un petit désaccord amical, qu’elles résolvent avec respect.',
+        intro: 'Léa et Camila discutent de leurs projets pour le week-end et ne sont pas d’accord.',
+        dialogue: [
+          { speaker: 'Léa', line: 'On pourrait aller au cinéma samedi ?', translation: '¿Podríamos ir al cine el sábado?' },
+          { speaker: 'Camila', line: 'Je ne suis pas vraiment d’accord, je préfère rester à la maison ce week-end.', translation: 'No estoy muy de acuerdo, prefiero quedarme en casa este fin de semana.' },
+          { speaker: 'Léa', line: 'D’accord, je comprends. On peut regarder un film ici, alors ?', translation: 'De acuerdo, entiendo. ¿Podemos ver una película aquí, entonces?' },
+          { speaker: 'Camila', line: 'Avec plaisir ! C’est une bonne solution pour nous deux.', translation: '¡Con mucho gusto! Es una buena solución para las dos.' }
+        ],
+        phrases: ['Je ne suis pas d’accord.', 'Je comprends.', 'On peut... alors ?', 'C’est une bonne solution.'],
+        exercises: [
+          { type: 'mcq', prompt: 'Que propose Léa au début ?', options: ['Rester à la maison', 'Aller au cinéma', 'Faire les courses', 'Aller au restaurant'], answer: 1 },
+          { type: 'mcq', prompt: 'Pourquoi Camila n’est-elle pas d’accord ?', options: ['Elle n’aime pas Léa', 'Elle préfère rester à la maison', 'Elle n’a pas d’argent', 'Elle est malade'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment résolvent-elles leur désaccord ?', options: ['Elles se disputent', 'Elles trouvent un compromis', 'Elles ne se parlent plus', 'Camila change complètement d’avis'], answer: 1 }
+        ]
+      })
+    }
   }
 ];
 
