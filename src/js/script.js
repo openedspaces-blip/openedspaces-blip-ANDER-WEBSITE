@@ -2965,10 +2965,20 @@ function getPronunciationLocale(language = learningPathState.language) {
 // whether playback finished normally or errored out - used by the AI
 // Tutor's voice controls to know when to reset their Stop/Repetir state
 // (flashcards don't need it and don't pass it).
-function speakText(text, { locale, rate = 1, onEnd } = {}) {
+//
+// onStart/onBoundary/onPause/onResume (optional, additive - existing callers
+// that don't pass them see zero behavior change) wire straight to the
+// utterance's own events, for the Tutor's word-highlight sync
+// (requestTutorSpeech below). onBoundary receives the raw SpeechSynthesis
+// event so the caller can read event.charIndex itself - this function has
+// no opinion on word/sentence granularity, that's the caller's job.
+// Returns the utterance so a caller can compare it against whatever's
+// current later (e.g. to ignore a stale onboundary from a cancelled/replaced
+// utterance), though nothing here requires that.
+function speakText(text, { locale, rate = 1, onEnd, onStart, onBoundary, onPause, onResume } = {}) {
   if (!supportsSpeech() || !text) {
     onEnd?.();
-    return;
+    return null;
   }
   try {
     window.speechSynthesis.cancel();
@@ -2979,10 +2989,16 @@ function speakText(text, { locale, rate = 1, onEnd } = {}) {
       utterance.onend = onEnd;
       utterance.onerror = onEnd;
     }
+    if (onStart) utterance.onstart = onStart;
+    if (onBoundary) utterance.onboundary = onBoundary;
+    if (onPause) utterance.onpause = onPause;
+    if (onResume) utterance.onresume = onResume;
     window.speechSynthesis.speak(utterance);
+    return utterance;
   } catch {
     /* speechSynthesis unavailable/misbehaving - the card stays usable without audio */
     onEnd?.();
+    return null;
   }
 }
 
@@ -3813,6 +3829,146 @@ function primeTutorAudioForAutoplay() {
   audio.pause();
 }
 
+// ---------------------------------------------------------------------
+// Word-highlight sync (TTS reads aloud, the currently-spoken word/segment
+// gets a visual highlight in the message bubble). Centralized state per
+// spec §11 - activeMessageEl/activeTokens/activeWordIndex here play the
+// role of "activeTutorMessageId/activeUtterance/activeCharIndex", scoped to
+// this module instead of duplicated per message element.
+//
+// Only ever applies to the free browser speechSynthesis path
+// (requestTutorSpeech below) - the separate Premium neural <audio> clip has
+// no boundary-event equivalent and is out of scope here (spec: "no
+// modificar la función Premium de conversación de audio a audio").
+// ---------------------------------------------------------------------
+let tutorHighlight = { messageEl: null, tokens: null, wordIndex: -1 };
+
+// Splits `text` (the exact string handed to SpeechSynthesisUtterance - see
+// requestTutorSpeech) into whitespace-separated tokens with [start, end)
+// character offsets into that SAME string, so a SpeechSynthesisEvent's
+// charIndex always falls inside exactly one token's range. Punctuation
+// stays attached to its word (spec's own example: "You've" is one token),
+// matching how a person would naturally read the sentence word by word.
+function tokenizeTutorTextForHighlight(text) {
+  const tokens = [];
+  const re = /\S+/g;
+  let match = re.exec(text);
+  while (match) {
+    tokens.push({ start: match.index, end: match.index + match[0].length, text: match[0] });
+    match = re.exec(text);
+  }
+  return tokens;
+}
+
+// One <span class="tutor-word"> per token, escaped (spec §5: never insert
+// raw model output as HTML) and joined with plain spaces (not wrapped in a
+// span) so word-wrapping stays natural. This REPLACES the Markdown-rendered
+// body (renderTutorMarkdownHtml) once a reply is complete and ready to be
+// spoken - the trade-off (no more **bold**/line-break rendering in that one
+// paragraph) is deliberate: spec §5 requires the exact string spoken and the
+// exact string shown as spans to be the same one, and the model is already
+// instructed to write in plain text with no Markdown, so this rarely gives
+// up anything real.
+function renderTutorHighlightSpansHtml(tokens) {
+  return tokens
+    .map((token, index) => `<span class="tutor-word" data-index="${index}">${escapeHtml(token.text)}</span>`)
+    .join(' ');
+}
+
+// Called once a reply's final text is known (renderTutorVoiceControls, right
+// after streaming ends) - swaps the bubble's rendered body for the
+// tokenized span version and stashes the token list on the element itself
+// (avoids re-tokenizing on every single onboundary event during playback).
+// A no-op (keeps the Markdown-rendered body) if there's no ttsText yet or
+// speech isn't supported at all, since spans only ever exist to be
+// highlighted.
+function prepareTutorMessageForHighlight(messageEl) {
+  if (!supportsSpeech()) return;
+  const body = messageEl.querySelector('p');
+  const text = messageEl.dataset.ttsText || '';
+  if (!body || !text) return;
+  const tokens = tokenizeTutorTextForHighlight(text);
+  if (!tokens.length) return;
+  messageEl._tutorHighlightTokens = tokens;
+  body.innerHTML = renderTutorHighlightSpansHtml(tokens);
+}
+
+function clearTutorHighlight() {
+  if (tutorHighlight.messageEl) {
+    tutorHighlight.messageEl.querySelector('.tutor-word.is-current')?.classList.remove('is-current');
+  }
+  tutorHighlight = { messageEl: null, tokens: null, wordIndex: -1 };
+}
+
+// Auto-follow the highlighted word (spec §8) - suppressed for a few seconds
+// right after the student scrolls the conversation manually (see the
+// capture-phase 'scroll' listener below), and skipped under
+// prefers-reduced-motion in favor of an instant jump instead of a smooth
+// one (spec §9), never skipped entirely - the student still needs to find
+// the word.
+let tutorAutoScrollSuppressedUntil = 0;
+let tutorAutoScrollInProgress = false;
+
+function scrollTutorWordIntoView(span) {
+  if (Date.now() < tutorAutoScrollSuppressedUntil) return;
+  const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  tutorAutoScrollInProgress = true;
+  span.scrollIntoView({ block: 'nearest', behavior: reduceMotion ? 'auto' : 'smooth' });
+  // Smooth scrolling fires its own 'scroll' events while it animates - this
+  // window keeps the manual-scroll listener below from mistaking our own
+  // scroll for the student's and immediately re-suppressing auto-follow.
+  window.setTimeout(() => {
+    tutorAutoScrollInProgress = false;
+  }, 500);
+}
+
+// event.charIndex (from onboundary) maps to the token whose [start, end)
+// contains it. Works unchanged whether the browser fires boundary per WORD
+// or only per SENTENCE (spec §7 tiers A/B): a sentence-level charIndex still
+// lands inside some word's range, it just jumps further between highlights -
+// no separate code path needed for the coarser granularity. Tier C (no
+// boundary events at all) needs no code here either: this function simply
+// never gets called, so no highlight ever appears and playback is
+// unaffected either way.
+function setTutorHighlightWord(messageEl, tokens, charIndex) {
+  let index = tokens.findIndex((t) => charIndex >= t.start && charIndex < t.end);
+  if (index === -1) {
+    // Defensive fallback for a charIndex that lands on inter-word
+    // whitespace instead of inside a token - the last token that had
+    // already started by this charIndex is still the "current" word.
+    for (let i = tokens.length - 1; i >= 0; i -= 1) {
+      if (tokens[i].start <= charIndex) {
+        index = i;
+        break;
+      }
+    }
+  }
+  if (index === -1 || (tutorHighlight.messageEl === messageEl && tutorHighlight.wordIndex === index)) return;
+
+  messageEl.querySelector('.tutor-word.is-current')?.classList.remove('is-current');
+  const span = messageEl.querySelector(`.tutor-word[data-index="${index}"]`);
+  if (span) {
+    span.classList.add('is-current');
+    scrollTutorWordIntoView(span);
+  }
+  tutorHighlight = { messageEl, tokens, wordIndex: index };
+}
+
+// Capture phase so this sees scroll events from any descendant of
+// .tutor-conversation (the 'scroll' event itself doesn't bubble) - both the
+// main Tutor view and the drawer use this same class. Ignores our own
+// auto-follow scrolls (tutorAutoScrollInProgress) so following the voice
+// never looks like "the student scrolled, so stop following".
+document.addEventListener(
+  'scroll',
+  (event) => {
+    if (tutorAutoScrollInProgress) return;
+    if (!event.target?.classList?.contains?.('tutor-conversation')) return;
+    tutorAutoScrollSuppressedUntil = Date.now() + 3000;
+  },
+  true
+);
+
 function resetTutorVoiceButtons(messageEl) {
   const controls = messageEl?.querySelector('.tutor-voice-controls');
   if (!controls) return;
@@ -3855,9 +4011,15 @@ function toggleTutorVoicePause(messageEl) {
     if (window.speechSynthesis.paused) {
       window.speechSynthesis.resume();
       if (pauseBtn) pauseBtn.textContent = '⏸ Pausar';
+      messageEl.classList.remove('is-tts-paused');
     } else {
       window.speechSynthesis.pause();
       if (pauseBtn) pauseBtn.textContent = '▶ Continuar';
+      // Spec §6: "al pausar, conservar la palabra actual resaltada; mostrar
+      // estado Pausado" - the highlighted word itself is untouched (nothing
+      // here clears it), this class just gives it a paused look in CSS
+      // (e.g. drop the pulse) instead of a separate status label.
+      messageEl.classList.add('is-tts-paused');
     }
   }
 }
@@ -3873,10 +4035,16 @@ function stopAllTutorAudio() {
   if (supportsSpeech()) window.speechSynthesis.cancel();
   currentTutorAudio.element?.pause?.();
   if (currentTutorAudio.messageEl) {
-    currentTutorAudio.messageEl.classList.remove('is-playing');
+    currentTutorAudio.messageEl.classList.remove('is-playing', 'is-tts-paused');
     resetTutorVoiceButtons(currentTutorAudio.messageEl);
   }
   currentTutorAudio = { element: null, messageEl: null };
+  // Spec §6 ("al detener: cancelar speechSynthesis, eliminar resaltado") and
+  // §11 ("no permitir dos utterances simultáneos") - every path that starts
+  // a new utterance (Escuchar/Repetir on any message, speed change) already
+  // calls this first, so the previous message's highlight never lingers
+  // once a different/new one starts speaking.
+  clearTutorHighlight();
 }
 
 // The controls row is injected only once the streamed reply has finished
@@ -3886,6 +4054,10 @@ function stopAllTutorAudio() {
 // mirrors the flashcard pronunciation feature's graceful-degradation rule.
 function renderTutorVoiceControls(messageEl) {
   if (!supportsSpeech() || messageEl.querySelector('.tutor-voice-controls')) return;
+  // The reply is fully known now (never mid-stream, see this function's own
+  // header comment) - safe to swap the bubble to the highlightable
+  // span version once, here, rather than re-tokenizing on every play.
+  prepareTutorMessageForHighlight(messageEl);
   const controls = document.createElement('div');
   controls.className = 'tutor-voice-controls';
   controls.innerHTML = `
@@ -3939,10 +4111,20 @@ function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
   messageEl.dataset.ttsMode = 'browser';
 
   const onEnd = () => {
-    messageEl.classList.remove('is-playing');
+    messageEl.classList.remove('is-playing', 'is-tts-paused');
     if (currentTutorAudio.messageEl === messageEl) currentTutorAudio = { element: null, messageEl: null };
     onPlaybackEnd?.();
     resetTutorVoiceButtons(messageEl);
+    // Spec §6: "al terminar, eliminar resaltado después de una transición
+    // breve; conservar el texto completo". The word spans (and their full
+    // text) stay exactly as rendered - only the .is-current class goes,
+    // and only after a short delay so the last word doesn't just vanish
+    // the instant audio stops.
+    if (tutorHighlight.messageEl === messageEl) {
+      window.setTimeout(() => {
+        if (tutorHighlight.messageEl === messageEl) clearTutorHighlight();
+      }, 400);
+    }
   };
 
   if (!supportsSpeech()) {
@@ -3955,8 +4137,29 @@ function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
     return;
   }
 
+  // Repetir (same messageEl, already spoken once) must restart the
+  // highlight from scratch (spec §6) - stopAllTutorAudio() above already
+  // cleared any active highlight, so a fresh tokens list + wordIndex -1 is
+  // exactly the right starting state whether this is the first play or a
+  // repeat.
+  const tokens = messageEl._tutorHighlightTokens || null;
+
   currentTutorAudio = { element: null, messageEl };
-  speakText(text, { locale, rate: speed === 'slow' ? 0.75 : 1, onEnd });
+  speakText(text, {
+    locale,
+    rate: speed === 'slow' ? 0.75 : 1,
+    onEnd,
+    onBoundary: tokens
+      ? (event) => {
+          // Ignore a stray event from an utterance speechSynthesis is still
+          // tearing down after a cancel() elsewhere (e.g. Detener/Repetir
+          // fired a moment ago) - only ever trust boundary events while this
+          // message is still the one actually current.
+          if (currentTutorAudio.messageEl !== messageEl) return;
+          setTutorHighlightWord(messageEl, tokens, event.charIndex ?? 0);
+        }
+      : undefined
+  });
 
   messageEl.classList.add('is-playing');
   if (stopBtn) stopBtn.disabled = false;
@@ -11016,6 +11219,8 @@ function enableHomepageActions() {
     }
     const tutorVoiceSpeedBtn = event.target.closest('.tutor-voice-speed-btn');
     if (tutorVoiceSpeedBtn) {
+      const messageEl = tutorVoiceSpeedBtn.closest('.tutor-message');
+      const wasPlaying = messageEl && currentTutorAudio.messageEl === messageEl;
       tutorVoiceSpeedBtn
         .closest('.tutor-voice-speed-group')
         ?.querySelectorAll('.tutor-voice-speed-btn')
@@ -11024,6 +11229,13 @@ function enableHomepageActions() {
           btn.classList.toggle('is-active', isActive);
           btn.setAttribute('aria-pressed', String(isActive));
         });
+      // Spec §6: "al cambiar entre Normal y Lenta: detener la lectura
+      // actual, reiniciar desde el comienzo con la nueva velocidad" -
+      // requestTutorSpeech already calls stopAllTutorAudio() first thing,
+      // so re-calling it here (only when this message was the one actually
+      // speaking) restarts fresh at wordIndex -1 instead of resuming
+      // mid-utterance at the old rate.
+      if (wasPlaying) requestTutorSpeech(messageEl);
       return;
     }
 

@@ -3387,6 +3387,41 @@ footer small {
   box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.16);
 }
 
+/* Word-highlight sync (script.js: tokenizeTutorTextForHighlight/
+   setTutorHighlightWord). .tutor-word with no .is-current is the normal,
+   unhighlighted state (spec §6) - no visual difference from plain text
+   besides the word-boundary span wrapper. */
+.tutor-word {
+  border-radius: 5px;
+  padding: 0 1px;
+  transition: background-color 120ms ease;
+}
+
+.tutor-word.is-current {
+  background: rgba(37, 99, 235, 0.18);
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.3);
+}
+
+.dark .tutor-word.is-current {
+  background: rgba(96, 165, 250, 0.32);
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.45);
+}
+
+/* Paused (spec §6: "conservar la palabra actual resaltada; mostrar estado
+   Pausado") - same word stays highlighted, just a static/dimmer treatment
+   instead of the active transition, so pausing is visually distinguishable
+   from actively-being-read without a separate text label. */
+.tutor-message.is-tts-paused .tutor-word.is-current {
+  background: rgba(148, 163, 184, 0.3);
+  box-shadow: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tutor-word {
+    transition: none;
+  }
+}
+
 .tutor-voice-controls {
   display: flex;
   flex-wrap: wrap;
