@@ -6887,8 +6887,11 @@ footer small {
    same height and avoids grid jumps on flip. */
 .vocab-card-deck {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  /* Matches .skill-library-grid's own column sizing (220px/0.9rem gap) -
+     Vocabulary/Verbos flashcards should read as the same size as the
+     library's unit cards, not a visibly larger tile. */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.9rem;
   align-items: stretch;
 }
 
@@ -6907,7 +6910,11 @@ footer small {
 .vocab-card {
   position: relative;
   height: 100%;
-  min-height: 280px;
+  /* Matches .skill-library-card's typical rendered height - was 280px, a
+     visibly taller tile than the library cards next to it. .vocab-card-face
+     keeps overflow-y: auto (below), so back-face content that doesn't fit
+     at this height scrolls internally instead of forcing the card taller. */
+  min-height: 190px;
   perspective: 1400px;
   border-radius: var(--radius-xl);
   cursor: pointer;
@@ -6915,13 +6922,13 @@ footer small {
 
 @media (max-width: 900px) {
   .vocab-card {
-    min-height: 310px;
+    min-height: 200px;
   }
 }
 
 @media (max-width: 560px) {
   .vocab-card {
-    min-height: 270px;
+    min-height: 190px;
   }
 }
 
@@ -6948,9 +6955,11 @@ footer small {
   inset: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.65rem;
+  gap: 0.4rem;
   overflow-y: auto;
-  padding: 22px;
+  /* Was 22px - matches .skill-library-card's 1rem (16px) padding now that
+     the card itself is the same size as a library card. */
+  padding: 1rem;
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
@@ -7061,7 +7070,9 @@ footer small {
 
 .vocab-card-target {
   margin: 0;
-  font-size: 1.4rem;
+  /* Was 1.4rem - scaled down with the rest of the card to match
+     .skill-library-card-title's 0.95rem-ish scale. */
+  font-size: 1.1rem;
   font-weight: 800;
   color: var(--navy-2);
   line-height: 1.25;
@@ -7090,7 +7101,7 @@ footer small {
 .vocab-card-translation {
   flex-shrink: 0;
   margin: 0;
-  font-size: 1.15rem;
+  font-size: 0.98rem;
   font-weight: 800;
   color: var(--navy-2);
 }
@@ -8513,13 +8524,22 @@ footer small {
 .verb-card-wrap {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.35rem;
 }
 
 .verb-card-extra-actions {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.35rem;
   flex-wrap: wrap;
+}
+
+/* Favorito/Ver conjugación/Practicar - same .secondary-btn as the rest of
+   the app, just tighter here: this row sits below a card now sized to
+   match .skill-library-card, so it keeps its own footprint as small as
+   the 3 buttons' text allows instead of adding a full button-sized gap. */
+.verb-card-extra-actions .secondary-btn {
+  padding: 0.3rem 0.55rem;
+  font-size: 0.72rem;
 }
 
 .verb-favorite-btn.is-active {
