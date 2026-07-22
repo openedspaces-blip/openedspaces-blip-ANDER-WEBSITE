@@ -2824,14 +2824,49 @@ function hasUnits() {
   return learningPathState.units.length > 0;
 }
 
+// Listening biblioteca, phase 1: only these units have (or are about to
+// have) an official recording registered in public.lesson_audio - see
+// docs/audio-architecture.md. Deliberately NOT every unit that already has
+// listening content authored in scripts/content/*-units.js (all 12 do) -
+// only the ones approved for real audio production. Extend this map (never
+// remove existing entries) once a further level/language's six lessons are
+// approved and recorded; until then every other unit's Listening activity
+// is left out of the biblioteca entirely rather than shown as a dead link.
+const LISTENING_ENABLED_SLUGS = {
+  english: {
+    A1: [
+      'english-a1-hello-listening',
+      'english-a1-about-me-listening',
+      'english-a1-family-and-friends-listening',
+      'english-a1-my-school-listening',
+      'english-a1-daily-routine-listening',
+      'english-a1-food-and-drinks-listening'
+    ]
+  }
+};
+
+function getListeningEnabledSlugs(language, level) {
+  return LISTENING_ENABLED_SLUGS[language]?.[level] || null;
+}
+
 function getSkillActivities(skill) {
-  return learningPathState.lessons
+  const activities = learningPathState.lessons
     .filter((item) => item.skill === skill)
     .sort((a, b) => {
       const unitA = learningPathState.units.find((u) => u.id === a.unitId);
       const unitB = learningPathState.units.find((u) => u.id === b.unitId);
       return (unitA?.order ?? 0) - (unitB?.order ?? 0);
     });
+
+  if (skill === 'listening') {
+    const allowedSlugs = getListeningEnabledSlugs(
+      learningPathState.language,
+      learningPathState.level
+    );
+    if (allowedSlugs) return activities.filter((item) => allowedSlugs.includes(item.slug));
+  }
+
+  return activities;
 }
 
 function getUnitActivities(unitId) {
@@ -2886,6 +2921,9 @@ const languageDisplayNames = {
   french: 'Français',
   italian: 'Italiano',
   german: 'Deutsch',
+  portuguese: 'Português',
+  japanese: '日本語',
+  chinese: '中文 (简体)',
   ai: 'AI Tutor'
 };
 
@@ -2897,16 +2935,19 @@ const languageDisplayNames = {
 // ---------------------------------------------------------------------
 
 // es-419 (Latin American Spanish) rather than es-ES, matching this app's
-// actual Spanish content/audience. pt-BR isn't a selectable target
-// language yet, but is mapped defensively so a future one doesn't default
-// to the wrong voice. Must match lib/server.js's SUPPORTED_SPEECH_LOCALES.
+// actual Spanish content/audience. Must match lib/server.js's
+// SUPPORTED_SPEECH_LOCALES and src/js/translator-languages.js's own locale
+// per entry (Traductor-specific list) - kept in sync by hand, same pattern
+// this app already uses across its language tables.
 const LANGUAGE_LOCALES = {
   english: 'en-US',
   french: 'fr-FR',
   spanish: 'es-419',
   italian: 'it-IT',
   german: 'de-DE',
-  portuguese: 'pt-BR'
+  portuguese: 'pt-BR',
+  japanese: 'ja-JP',
+  chinese: 'zh-CN'
 };
 
 function supportsSpeech() {
@@ -4141,7 +4182,10 @@ const DICTATION_LANGUAGE_CODES = {
   spanish: 'es-ES',
   french: 'fr-FR',
   italian: 'it-IT',
-  german: 'de-DE'
+  german: 'de-DE',
+  portuguese: 'pt-BR',
+  japanese: 'ja-JP',
+  chinese: 'zh-CN'
 };
 const DICTATION_MAX_SECONDS = 45;
 
@@ -5193,9 +5237,9 @@ function renderSkillCards() {
       return;
     }
 
-    // Listening's status depends on which audio source is actually
-    // available (GET /api/listening/audio) rather than being permanently
-    // "Próximamente" - see spec §12's 3 real states.
+    // Listening's status depends solely on whether public.lesson_audio has a
+    // published row for this lesson (GET /api/listening/audio) - only two
+    // real states now, 'official' or not; no AI-generated fallback status.
     if (skill === 'listening') {
       if (statusEl) {
         statusEl.textContent = 'Comprobando disponibilidad…';
@@ -5221,14 +5265,10 @@ function renderSkillCards() {
             'aria-label',
             `Listening: disponible, ${pct}% completado, ${lesson.xpReward || 20} XP`
           );
-        } else if (data.status === 'ai-available') {
-          statusEl.textContent = 'Práctica IA disponible';
-          statusEl.className = 'skill-card-status skill-card-status-available';
-          card.setAttribute('aria-label', 'Listening: práctica generada por IA disponible');
         } else {
-          statusEl.textContent = 'Intenta más tarde';
+          statusEl.textContent = 'Próximamente';
           statusEl.className = 'skill-card-status skill-card-status-soon';
-          card.setAttribute('aria-label', 'Listening: intenta más tarde');
+          card.setAttribute('aria-label', 'Listening: próximamente');
         }
       });
       return;
@@ -5365,12 +5405,20 @@ function renderSkillLibraryHtml(skill, activities) {
     return `<p class="skill-graph-empty">No hay actividades de ${getSkillLabel(skill)} disponibles en este nivel todavía.</p>`;
   }
   const nextSlug = getNextRecommendedLesson()?.slug;
+  const isListening = skill === 'listening';
   const cardsHtml = activities
     .map((item) => {
       const unit = learningPathState.units.find((u) => u.id === item.unitId);
       const duration = getLessonDurationMinutes(item);
       const xp = item.xpReward ?? item.xp_reward ?? 20;
-      const state = getLessonStateInfo(item, false, nextSlug);
+      // Listening's badge reflects real official-audio availability (see
+      // wireSkillLibrary's fetchListeningAudioStatus call below), not the
+      // generic completed/locked/next state every other skill uses -
+      // "disponible" must never be shown for a lesson with no lesson_audio
+      // row yet.
+      const state = isListening
+        ? { key: 'loading', label: 'Comprobando…' }
+        : getLessonStateInfo(item, false, nextSlug);
       return `
       <button type="button" class="skill-library-card skill-library-card--${state.key}" data-lesson-slug="${escapeHtml(item.slug)}">
         ${unit ? `<span class="skill-library-card-unit">Unidad ${escapeHtml(String(unit.order))} · ${escapeHtml(unit.title)}</span>` : ''}
@@ -5379,7 +5427,7 @@ function renderSkillLibraryHtml(skill, activities) {
         <span class="skill-library-card-meta">
           ${duration ? `<span>⏱ ${escapeHtml(String(duration))} min</span>` : ''}
           <span>⭐ ${escapeHtml(String(xp))} XP</span>
-          <span class="path-lesson-state path-lesson-state--${state.key}">${state.label}</span>
+          <span class="path-lesson-state path-lesson-state--${state.key}"${isListening ? ' data-listening-state' : ''}>${state.label}</span>
         </span>
       </button>
     `;
@@ -5398,6 +5446,26 @@ function wireSkillLibrary(section, skill) {
       setActiveLesson(card.dataset.lessonSlug);
       renderSkillView(skill);
       updateLearnHash(skill);
+    });
+  });
+
+  // Listening only: replace each card's "Comprobando…" placeholder with the
+  // real state (spec §13 - "disponible" only once at least the normal audio
+  // exists in public.lesson_audio, "próximamente" otherwise). Never assumes
+  // availability from local content/state, only from the same
+  // GET /api/listening/audio call the player itself uses.
+  if (skill !== 'listening') return;
+  section.querySelectorAll('.skill-library-card').forEach((card) => {
+    const slug = card.dataset.lessonSlug;
+    const lesson = learningPathState.lessons.find((item) => item.slug === slug);
+    const stateEl = card.querySelector('[data-listening-state]');
+    if (!lesson || !stateEl) return;
+    fetchListeningAudioStatus(lesson).then((data) => {
+      const available = data.status === 'official';
+      card.classList.remove('skill-library-card--loading');
+      card.classList.add(available ? 'skill-library-card--available' : 'skill-library-card--soon');
+      stateEl.className = `path-lesson-state path-lesson-state--${available ? 'available' : 'soon'}`;
+      stateEl.textContent = available ? 'Disponible' : 'Próximamente';
     });
   });
 }
@@ -8091,8 +8159,6 @@ function getListeningRuntime(lesson) {
       transcriptRevealed: false,
       hasPlayedOnce: false,
       transcriptSoftGateOverride: false,
-      aiPractice: null,
-      aiAnswers: {},
       usingSlow: false
     };
     listeningViewRuntime.set(lesson.slug, runtime);
@@ -8135,12 +8201,7 @@ function formatListeningTime(seconds) {
   return `${m}:${String(s).padStart(2, '0')}`;
 }
 
-function getListeningAllAttempted(lesson, runtime) {
-  if (runtime.aiPractice) {
-    const total = runtime.aiPractice.questions?.length || 0;
-    const attempted = Object.keys(runtime.aiAnswers || {}).length;
-    return total > 0 && attempted >= total;
-  }
+function getListeningAllAttempted(lesson) {
   return getExerciseProgress(lesson).allAttempted;
 }
 
@@ -8154,63 +8215,11 @@ function getTranscriptGateState(level, runtime, allAttempted) {
   return 'open';
 }
 
-async function generateAiListeningPractice(lesson, topic) {
-  const response = await fetch(`${backendBaseUrl}/api/listening/generate`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', ...authHeaders() },
-    body: JSON.stringify({
-      bridgeLanguage: learningPathState.bridgeLanguage,
-      targetLanguage: learningPathState.language,
-      level: learningPathState.level,
-      topic: topic || lesson.title || 'greetings',
-      durationSeconds: 30
-    })
-  });
-  const data = await response.json().catch(() => ({}));
-  if (!response.ok || !data.success)
-    throw new Error(data.error || 'No se pudo generar la práctica de Listening.');
-  return data;
-}
-
-function renderAiListeningQuestions(lesson, runtime) {
-  const questions = runtime.aiPractice?.questions || [];
-  if (!questions.length)
-    return '<p class="skill-graph-empty">Esta práctica no incluyó preguntas de comprensión.</p>';
-  return questions
-    .map((q, index) => {
-      const recorded = runtime.aiAnswers[index];
-      const optionsHtml = (q.options || [])
-        .map((opt, optIndex) => {
-          const isChosen = recorded && recorded.selectedIndex === optIndex;
-          const cls = isChosen ? (recorded.correct ? 'correct' : 'incorrect') : '';
-          const disabled = recorded ? 'disabled' : '';
-          return `<button type="button" class="mcq-option ai-listening-option ${cls}" data-question-index="${index}" data-option-index="${optIndex}" ${disabled}>${escapeHtml(opt)}</button>`;
-        })
-        .join('');
-      const answeredClass = recorded
-        ? `answered ${recorded.correct ? 'is-correct' : 'is-incorrect'}`
-        : '';
-      const feedbackText = recorded
-        ? recorded.correct
-          ? '¡Correcto!'
-          : 'No es correcto. Puedes pedirle al Tutor IA que te explique por qué.'
-        : '';
-      return `
-      <div class="mcq-question lesson-exercise ${answeredClass}" data-question-index="${index}">
-        <strong>${index + 1}. ${escapeHtml(q.prompt)}</strong>
-        <div class="mcq-options">${optionsHtml}</div>
-        <span class="mcq-feedback" aria-live="polite">${feedbackText}</span>
-      </div>
-    `;
-    })
-    .join('');
-}
-
 function renderListeningTranscriptControls(content, lesson, runtime) {
   const controlsEl = content.querySelector('.listening-transcript-controls');
   const bodyEl = content.querySelector('.listening-transcript-body');
   if (!controlsEl || !bodyEl) return;
-  const allAttempted = getListeningAllAttempted(lesson, runtime);
+  const allAttempted = getListeningAllAttempted(lesson);
   const gate = getTranscriptGateState(lesson.level, runtime, allAttempted);
 
   if (gate === 'locked-until-review') {
@@ -8250,11 +8259,14 @@ function renderListeningTranscriptControls(content, lesson, runtime) {
   });
 }
 
-function buildListeningPlayerMarkup({ sourceLabel, sourceIsAi, title }) {
+// Listening only ever plays official course audio now (no AI-generated
+// fallback - see docs/audio-architecture.md), so this banner always reads
+// "Audio oficial"; sourceLabel is still a param in case a future distinct
+// official variant (e.g. dialogue performance) wants its own label.
+function buildListeningPlayerMarkup({ sourceLabel, title }) {
   return `
-    <div class="listening-source-banner ${sourceIsAi ? 'is-ai' : 'is-official'}">
+    <div class="listening-source-banner is-official">
       <span class="listening-source-label">${escapeHtml(sourceLabel)}</span>
-      ${sourceIsAi ? '<p class="listening-ai-disclosure">Práctica generada por IA. No es una grabación humana.</p>' : ''}
     </div>
     <h3 class="listening-title">${escapeHtml(title)}</h3>
     <div class="listening-player" data-state="preparing">
@@ -8611,13 +8623,7 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
 }
 
 function listeningTutorButtonsHtml(lesson, ctx) {
-  const {
-    transcript = '',
-    vocabulary = '',
-    currentQuestion = '',
-    selectedAnswer = '',
-    canRegenerate = false
-  } = ctx;
+  const { transcript = '', vocabulary = '', currentQuestion = '', selectedAnswer = '' } = ctx;
   const esc = (value) => escapeHtml(value || '');
   const firstWord = (lesson.vocabulary || [])[0]?.word || '';
   return `
@@ -8627,7 +8633,6 @@ function listeningTutorButtonsHtml(lesson, ctx) {
     <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice" data-tutor-prompt="Crea otra pregunta de comprensión sobre este audio." data-tutor-transcript="${esc(transcript)}">Crea otra pregunta</button>
     <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice" data-tutor-prompt="Ayúdame a practicar este vocabulario." data-tutor-vocabulary="${esc(vocabulary)}">Practicar vocabulario</button>
     <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="explain" data-tutor-prompt="Explícame por qué mi respuesta está mal." data-tutor-transcript="${esc(transcript)}" data-tutor-current-question="${esc(currentQuestion)}" data-tutor-selected-answer="${esc(selectedAnswer)}">Explícame por qué mi respuesta está mal</button>
-    ${canRegenerate ? '<button type="button" class="secondary-btn listening-regenerate-btn">Generar una práctica parecida</button>' : ''}
   `;
 }
 
@@ -8948,7 +8953,7 @@ function renderListeningOfficial(content, lesson, runtime, audio) {
       <span class="listening-meta-item">Objetivo: ${escapeHtml(objective)}</span>
       <span class="listening-meta-item">Duración: ${escapeHtml(durationLabel)}</span>
     </div>
-    ${buildListeningPlayerMarkup({ sourceLabel: 'Audio oficial', sourceIsAi: false, title: lesson.title })}
+    ${buildListeningPlayerMarkup({ sourceLabel: 'Audio oficial', title: lesson.title })}
     <div class="listening-vocab">
       <strong>Vocabulario</strong>
       <div class="listening-vocab-list">${(lesson.vocabulary || []).map((item) => `<span class="listening-vocab-item">${escapeHtml(item.word)}<small>${escapeHtml(resolveVocabTranslation(item))}</small></span>`).join('')}</div>
@@ -8970,8 +8975,7 @@ function renderListeningOfficial(content, lesson, runtime, audio) {
     mainUrl: audio.audioUrl,
     slowUrl: audio.slowAudioUrl,
     verySlowUrl: audio.verySlowAudioUrl,
-    transcript: audio.transcript,
-    sourceIsAi: false
+    transcript: audio.transcript
   });
   wireListeningExtraModes(content, lesson, runtime);
   content
@@ -8997,55 +9001,6 @@ function updateListeningOfficialQuestions(content, lesson, runtime) {
   renderListeningTranscriptControls(content, lesson, runtime);
 }
 
-function updateAiCompleteNote(content, lesson, runtime) {
-  const note = content.querySelector('.listening-ai-complete-note');
-  if (!note) return;
-  const total = runtime.aiPractice?.questions?.length || 0;
-  const attempted = Object.keys(runtime.aiAnswers || {}).length;
-  note.hidden = !(total > 0 && attempted >= total);
-}
-
-function renderListeningAiQuestionsInPlace(content, lesson, runtime) {
-  const wrap = content.querySelector('.listening-questions');
-  if (wrap) wrap.innerHTML = renderAiListeningQuestions(lesson, runtime);
-  updateAiCompleteNote(content, lesson, runtime);
-  renderListeningTranscriptControls(content, lesson, runtime);
-}
-
-function renderListeningAiPlayer(content, lesson, runtime, practice) {
-  const objective = lesson.mission || lesson.intro || lesson.description || '';
-  const durationLabel = practice.durationSeconds
-    ? `${practice.durationSeconds}s (aprox.)`
-    : 'No especificada';
-
-  content.innerHTML = `
-    <div class="listening-meta-row">
-      <span class="listening-meta-item">Objetivo: ${escapeHtml(objective)}</span>
-      <span class="listening-meta-item">Duración: ${escapeHtml(durationLabel)}</span>
-    </div>
-    ${buildListeningPlayerMarkup({ sourceLabel: 'Práctica de Listening generada por IA', sourceIsAi: true, title: practice.title || lesson.title })}
-    <div class="listening-vocab">
-      <strong>Vocabulario</strong>
-      <div class="listening-vocab-list">${(practice.vocabulary || []).map((item) => `<span class="listening-vocab-item">${escapeHtml(item.word)}<small>${escapeHtml(item.translation || '')}</small></span>`).join('')}</div>
-    </div>
-    <div class="listening-questions-section">
-      <h4>Preguntas de comprensión</h4>
-      <div class="listening-questions">${renderAiListeningQuestions(lesson, runtime)}</div>
-      <p class="listening-ai-complete-note" hidden>Práctica completada. Esta actividad generada por IA no otorga XP - genera otra práctica o continúa con una lección oficial para ganar XP.</p>
-    </div>
-    <div class="skill-view-tutor-cta">
-      ${listeningTutorButtonsHtml(lesson, { transcript: practice.transcript, vocabulary: (practice.vocabulary || []).map((v) => v.word).join(', '), canRegenerate: true })}
-    </div>
-  `;
-  wireListeningPlayerControls(content, lesson, runtime, {
-    mainUrl: practice.audioUrl,
-    slowUrl: practice.slowAudioUrl,
-    transcript: practice.transcript,
-    sourceIsAi: true
-  });
-  updateAiCompleteNote(content, lesson, runtime);
-}
-
 // Compact, non-blocking notice used instead of the full-size
 // .listening-status-card whenever the lesson already has real content to
 // show (Diálogo/Dictado/Transcripción y pronunciación/Comprensión) - see
@@ -9069,84 +9024,29 @@ function renderListeningAudioPendingBannerHtml({ icon, title, detail, actionsHtm
   `;
 }
 
-function renderListeningAiOffer(content, lesson, runtime) {
-  const loggedIn = Boolean(authStatus.session?.access_token);
-  const hasExtras = listeningHasRichExtras(lesson);
-  const generateActionHtml = loggedIn
-    ? '<button type="button" class="secondary-btn listening-generate-btn">Generar práctica de Listening con IA</button>'
-    : '<p class="listening-audio-pending-detail">Inicia sesión para generar esta práctica.</p>';
-
-  content.innerHTML = hasExtras
-    ? renderListeningAudioPendingBannerHtml({
-        icon: '🤖🎧',
-        title: 'Grabación de audio en preparación.',
-        detail:
-          'Todavía no hay un audio oficial para "Escuchar", pero ya puedes practicar con el diálogo, dictado, transcripción y pronunciación, y comprensión de esta lección. Tutor IA también puede preparar una práctica generada por IA (guion adaptado a tu nivel, nunca presentada como grabación humana) mientras tanto.',
-        actionsHtml: generateActionHtml
-      }) + renderListeningExtraModesHtml(lesson, runtime)
-    : `
-      <div class="listening-status-card listening-ai-offer">
-        <div class="listening-status-icon" aria-hidden="true">🤖🎧</div>
-        <p class="listening-status-title">Todavía no hay un audio oficial para esta lección.</p>
-        <p class="listening-status-detail">Tutor IA puede preparar una práctica de Listening generada por IA: un guion adaptado a tu nivel, con vocabulario y preguntas de comprensión. Nunca se presenta como una grabación humana.</p>
-        ${
-          loggedIn
-            ? '<button type="button" class="primary-btn listening-generate-btn">Generar práctica de Listening con IA</button>'
-            : '<p class="listening-status-detail">Inicia sesión para generar esta práctica.</p>'
-        }
-        <p class="listening-status-error" hidden></p>
-      </div>
-    `;
-
-  content.querySelector('.listening-generate-btn')?.addEventListener('click', async (event) => {
-    const btn = event.currentTarget;
-    const errorEl = content.querySelector('.listening-status-error');
-    btn.disabled = true;
-    btn.textContent = 'Generando…';
-    try {
-      const practice = await generateAiListeningPractice(lesson);
-      runtime.aiPractice = practice;
-      runtime.aiAnswers = {};
-      runtime.transcriptRevealed = false;
-      runtime.hasPlayedOnce = false;
-      renderListeningAiPlayer(content, lesson, runtime, practice);
-    } catch (error) {
-      if (errorEl) {
-        errorEl.hidden = false;
-        errorEl.textContent = error.message || 'No se pudo generar la práctica.';
-      }
-      btn.disabled = false;
-      btn.textContent = 'Generar práctica de Listening con IA';
-    }
-  });
-  if (hasExtras) wireListeningExtraModes(content, lesson, runtime);
-}
-
-function renderListeningUnavailable(content, lesson, section, runtime) {
+// Listening's only "no audio yet" state - no device voice, no AI-generated
+// practice, no auto-play, no unnecessary retry button (nothing changes here
+// without a real upload + lesson_audio row, so "reintentar" would just be
+// misleading). Other tabs (Diálogo/Dictado/Transcripción y pronunciación/
+// Comprensión) stay available below when the lesson already has that content.
+function renderListeningUnavailable(content, lesson, runtime) {
   const hasExtras = listeningHasRichExtras(lesson);
 
   content.innerHTML = hasExtras
     ? renderListeningAudioPendingBannerHtml({
         icon: '🎧',
-        title: 'Grabación de audio en preparación.',
+        title: 'Audio oficial no disponible todavía.',
         detail:
-          'Todavía no hay una grabación oficial para "Escuchar" en este entorno. Mientras tanto, ya puedes practicar con el diálogo, dictado, transcripción y pronunciación, y comprensión de esta lección.',
-        actionsHtml: '<button type="button" class="secondary-btn listening-retry-btn">Comprobar de nuevo</button>'
+          'Mientras tanto, ya puedes practicar con el diálogo, dictado, transcripción y pronunciación, y comprensión de esta lección.',
+        actionsHtml: ''
       }) + renderListeningExtraModesHtml(lesson, runtime)
     : `
       <div class="listening-status-card">
         <div class="listening-status-icon" aria-hidden="true">🎧</div>
-        <p class="listening-status-title">Listening no está disponible todavía para esta lección.</p>
-        <p class="listening-status-detail">Aún no hay un audio oficial publicado y la práctica generada por IA no está configurada en este entorno. Intenta más tarde.</p>
-        <button type="button" class="secondary-btn listening-retry-btn">Intenta más tarde: reintentar</button>
+        <p class="listening-status-title">Audio oficial no disponible todavía.</p>
       </div>
     `;
 
-  content.querySelector('.listening-retry-btn')?.addEventListener('click', () => {
-    listeningAudioStatusCache.delete(listeningStatusCacheKey(lesson));
-    content.dataset.listeningReady = 'false';
-    renderListeningView(section, lesson);
-  });
   if (hasExtras) wireListeningExtraModes(content, lesson, runtime);
 }
 
@@ -9171,15 +9071,11 @@ function renderListeningResolved(content, lesson, runtime, statusData, section) 
     renderListeningOfficial(content, lesson, runtime, statusData.audio);
     return;
   }
-  if (statusData.status === 'ai-available') {
-    renderListeningAiOffer(content, lesson, runtime);
-    return;
-  }
   if (statusData.status === 'error') {
     renderListeningError(content, lesson, section, statusData.error);
     return;
   }
-  renderListeningUnavailable(content, lesson, section, runtime);
+  renderListeningUnavailable(content, lesson, runtime);
 }
 
 function renderListeningView(section, lesson) {
@@ -10498,64 +10394,6 @@ function enableHomepageActions() {
       return;
     }
 
-    // AI-generated Listening questions are graded locally (no real lesson
-    // row/slug exists for ephemeral practice, so there's nothing for
-    // /api/lessons/:slug/check-answer to check against) - checked before the
-    // generic .mcq-option branch below since these buttons carry both classes.
-    const aiListeningOption = event.target.closest('.ai-listening-option');
-    if (aiListeningOption) {
-      const questionItem = aiListeningOption.closest('.mcq-question');
-      const skillSection = aiListeningOption.closest('.skill-view-section');
-      const lesson = learningPathState.lessons.find(
-        (item) => item.slug === skillSection?.dataset.activeLessonSlug
-      );
-      const runtime = lesson ? getListeningRuntime(lesson) : null;
-      if (!questionItem || questionItem.classList.contains('answered') || !runtime?.aiPractice)
-        return;
-
-      const qIndex = Number(questionItem.dataset.questionIndex);
-      const optIndex = Number(aiListeningOption.dataset.optionIndex);
-      const question = runtime.aiPractice.questions[qIndex];
-      const correct = Number(question?.correctIndex) === optIndex;
-      runtime.aiAnswers[qIndex] = { selectedIndex: optIndex, correct };
-      if (correct)
-        window.AndergoGamification?.recordSkillTouched('listening', learningPathState.language);
-
-      const content = skillSection?.querySelector('.skill-view-content');
-      if (content) renderListeningAiQuestionsInPlace(content, lesson, runtime);
-      return;
-    }
-
-    // "Generar una práctica parecida" (Listening's Tutor IA function): a new
-    // AI-generated script/audio on the same topic, never an exact copy.
-    const listeningRegenerateBtn = event.target.closest('.listening-regenerate-btn');
-    if (listeningRegenerateBtn) {
-      const skillSection = listeningRegenerateBtn.closest('.skill-view-section');
-      const lesson = learningPathState.lessons.find(
-        (item) => item.slug === skillSection?.dataset.activeLessonSlug
-      );
-      const content = skillSection?.querySelector('.skill-view-content');
-      if (!lesson || !content) return;
-      const runtime = getListeningRuntime(lesson);
-
-      listeningRegenerateBtn.disabled = true;
-      listeningRegenerateBtn.textContent = 'Generando…';
-      try {
-        const practice = await generateAiListeningPractice(lesson, lesson.title);
-        runtime.aiPractice = practice;
-        runtime.aiAnswers = {};
-        runtime.transcriptRevealed = false;
-        runtime.hasPlayedOnce = false;
-        renderListeningAiPlayer(content, lesson, runtime, practice);
-        showHomeToast('Nueva práctica de Listening generada.');
-      } catch (error) {
-        showHomeToast(error.message || 'No se pudo generar una nueva práctica.');
-        listeningRegenerateBtn.disabled = false;
-        listeningRegenerateBtn.textContent = 'Generar una práctica parecida';
-      }
-      return;
-    }
-
     const mcqOption = event.target.closest('.mcq-option');
     if (mcqOption) {
       const questionItem = mcqOption.closest('.mcq-question');
@@ -11661,7 +11499,39 @@ function openTranslator(overrides = {}) {
   showView('translator');
 }
 
+// Builds the Traductor's source/target <option> lists from the central
+// src/js/translator-languages.js list instead of two hand-duplicated
+// <option> blocks in index.html (Fase 1 spec: "sustituye la lista rígida
+// por una lista central de idiomas admitidos"). Only DeepL-supported
+// languages appear - Haitian Creole/Hawaiian stay out of the selector
+// entirely until a compatible provider exists (spec item 7, "fuera del
+// selector" option). Idempotent (only (re)populates when empty), same
+// pattern as verbs-view.js's ensureConjugatorSelectOptions - safe to call
+// every time setupTranslator() runs without disturbing a live selection.
+function populateTranslatorLanguageSelects() {
+  const sourceSelect = document.getElementById('translatorSourceLang');
+  const targetSelect = document.getElementById('translatorTargetLang');
+  const languages = window.AndergoTranslatorLanguages?.getSelectableLanguages() || [];
+  if (!languages.length) return;
+
+  const optionHtml = (lang) => `<option value="${escapeHtml(lang.key)}">${lang.flag} ${escapeHtml(lang.label)}</option>`;
+
+  if (sourceSelect && sourceSelect.options.length <= 1) {
+    sourceSelect.innerHTML =
+      '<option value="auto">Detectar idioma</option>' + languages.map(optionHtml).join('');
+    sourceSelect.value = 'auto';
+  }
+  if (targetSelect && !targetSelect.options.length) {
+    targetSelect.innerHTML = languages.map(optionHtml).join('');
+    // 'spanish' matches the Traductor's long-standing default target
+    // (English/French bridge students translating into Spanish) - falls
+    // back to the first selectable language if that ever changes.
+    targetSelect.value = languages.some((lang) => lang.key === 'spanish') ? 'spanish' : languages[0].key;
+  }
+}
+
 function setupTranslator() {
+  populateTranslatorLanguageSelects();
   const sourceSelect = document.getElementById('translatorSourceLang');
   const targetSelect = document.getElementById('translatorTargetLang');
   const swapBtn = document.getElementById('translatorSwapBtn');
@@ -11677,6 +11547,8 @@ function setupTranslator() {
   const detectedEl = document.getElementById('translatorDetected');
   const historyList = document.getElementById('translatorHistoryList');
   const historyClearBtn = document.getElementById('translatorHistoryClearBtn');
+  const suggestionsList = document.getElementById('translatorSuggestions');
+  const suggestionsToggle = document.getElementById('translatorSuggestionsToggle');
   if (!input || !output || !submitBtn || !status) return;
 
   const MAX_LENGTH = Number(input.getAttribute('maxlength')) || 1000;
@@ -11708,9 +11580,191 @@ function setupTranslator() {
       : '<li class="translator-history-empty">Sin traducciones recientes.</li>';
   };
 
+  // ---------------------------------------------------------------------
+  // Predictive text (Fase 4) - English/Spanish/French only, purely local
+  // (src/js/translator-predictive.js: a curated word list + a handful of
+  // common two-word sequences, never DeepL, never an AI call per
+  // keystroke). Distinguishes three suggestion kinds via each item's
+  // `type` (autocompletado/corrección ortográfica/predicción contextual -
+  // see that module's getSuggestions()); tagged in the DOM
+  // (data-type) so CSS can render them distinctly.
+  // ---------------------------------------------------------------------
+  const PREDICTIVE_ENABLED_KEY = 'andergo_translator_predictive_enabled';
+  const PREDICTIVE_LANGUAGES = new Set(['english', 'spanish', 'french']);
+  const SUGGESTIONS_DEBOUNCE_MS = 200;
+
+  let suggestionItems = [];
+  let activeSuggestionIndex = -1;
+  let suggestionsDebounceId = null;
+
+  function isPredictiveEnabled() {
+    try {
+      return localStorage.getItem(PREDICTIVE_ENABLED_KEY) !== 'false';
+    } catch {
+      return true;
+    }
+  }
+
+  function renderSuggestions(items) {
+    suggestionItems = items;
+    activeSuggestionIndex = -1;
+    if (!suggestionsList) return;
+    if (!items.length) {
+      suggestionsList.hidden = true;
+      suggestionsList.innerHTML = '';
+      input.setAttribute('aria-expanded', 'false');
+      return;
+    }
+    // Small visual tag per suggestion kind - autocompletado has none (the
+    // default/expected case), corrección ortográfica gets ✎, predicción
+    // contextual gets →, so the three stay visually distinct as required.
+    const typeGlyph = { spelling: '✎ ', contextual: '→ ' };
+    suggestionsList.innerHTML = items
+      .map(
+        (item, index) => `
+        <li class="translator-suggestion-item" data-index="${index}" data-type="${escapeHtml(item.type)}" role="option" aria-selected="false">${typeGlyph[item.type] || ''}${escapeHtml(item.text)}</li>`
+      )
+      .join('');
+    suggestionsList.hidden = false;
+    input.setAttribute('aria-expanded', 'true');
+  }
+
+  function hideSuggestions() {
+    renderSuggestions([]);
+  }
+
+  function updateSuggestionHighlight() {
+    if (!suggestionsList) return;
+    suggestionsList.querySelectorAll('.translator-suggestion-item').forEach((el, index) => {
+      const active = index === activeSuggestionIndex;
+      el.classList.toggle('is-active', active);
+      el.setAttribute('aria-selected', String(active));
+    });
+  }
+
+  // Replaces only the word currently being typed (or, for a contextual
+  // suggestion, inserts the next word right after the caret) - never
+  // touches the rest of the text, and always leaves a trailing space so
+  // the student can keep typing immediately.
+  function acceptSuggestion(index) {
+    const item = suggestionItems[index];
+    if (!item) return;
+    const caret = input.selectionStart ?? input.value.length;
+    const before = input.value.slice(0, caret);
+    const after = input.value.slice(caret);
+    const wordMatch = /(\S*)$/.exec(before);
+    const wordStart = caret - (wordMatch ? wordMatch[1].length : 0);
+    const newBefore = `${before.slice(0, wordStart)}${item.text} `;
+    input.value = newBefore + after;
+    const newCaret = newBefore.length;
+    input.setSelectionRange(newCaret, newCaret);
+    hideSuggestions();
+    input.dispatchEvent(new Event('input'));
+    input.focus();
+  }
+
+  function scheduleSuggestions() {
+    window.clearTimeout(suggestionsDebounceId);
+    if (!isPredictiveEnabled()) {
+      hideSuggestions();
+      return;
+    }
+    const language = sourceSelect?.value;
+    const engine = window.AndergoTranslatorPredictive;
+    if (!engine || !language || !PREDICTIVE_LANGUAGES.has(language)) {
+      hideSuggestions();
+      return;
+    }
+    suggestionsDebounceId = window.setTimeout(() => {
+      const caret = input.selectionStart ?? input.value.length;
+      renderSuggestions(engine.getSuggestions(language, input.value.slice(0, caret)));
+    }, SUGGESTIONS_DEBOUNCE_MS);
+  }
+
+  input.addEventListener('input', scheduleSuggestions);
+  // A short delay (not an immediate hide) lets a mousedown on a suggestion
+  // (see the delegated listener below, which itself preventDefault()s the
+  // mousedown so focus never actually leaves the textarea) register before
+  // any blur-driven hide could beat it to it.
+  input.addEventListener('blur', () => {
+    window.setTimeout(hideSuggestions, 100);
+  });
+
+  suggestionsList?.addEventListener('mousedown', (event) => {
+    const item = event.target.closest('.translator-suggestion-item');
+    if (!item) return;
+    event.preventDefault(); // keep focus (and the caret) in the textarea
+    acceptSuggestion(Number(item.dataset.index));
+  });
+
+  if (suggestionsToggle) {
+    suggestionsToggle.checked = isPredictiveEnabled();
+    suggestionsToggle.addEventListener('change', () => {
+      try {
+        localStorage.setItem(PREDICTIVE_ENABLED_KEY, String(suggestionsToggle.checked));
+      } catch {
+        // Storage unavailable - the toggle still works for this session,
+        // it just won't be remembered next visit.
+      }
+      if (!suggestionsToggle.checked) hideSuggestions();
+    });
+  }
+
   input.addEventListener('input', updateCharCount);
   updateCharCount();
   renderHistory();
+
+  // "Textos muy cortos" (Fase 2 spec): DeepL's own auto-detection is far
+  // less reliable on a couple of words than on a full sentence - never
+  // trust it blindly. Below this rough word-count threshold, the
+  // detected-language line adds an explicit caution; either way, whenever
+  // sourceLanguage was 'auto' this also renders a one-click way to pick the
+  // real language and retranslate with it ("permitir corregirlo antes de
+  // volver a traducir") instead of only ever showing the guess as plain
+  // text.
+  const SHORT_TEXT_WORD_THRESHOLD = 3;
+
+  function renderTranslatorDetectedLanguage(detectedKey, originalText) {
+    if (!detectedEl) return;
+    const languages = window.AndergoTranslatorLanguages?.getSelectableLanguages() || [];
+    const label = languageDisplayNames[detectedKey] || detectedKey;
+    const wordCount = originalText.trim().split(/\s+/).filter(Boolean).length;
+    const isShortText = wordCount > 0 && wordCount <= SHORT_TEXT_WORD_THRESHOLD;
+
+    const cautionHtml = isShortText
+      ? '<span class="translator-detected-caution">Los textos muy cortos pueden confundir la detección automática.</span> '
+      : '';
+
+    const optionsHtml = languages
+      .map(
+        (lang) =>
+          `<option value="${escapeHtml(lang.key)}"${lang.key === detectedKey ? ' selected' : ''}>${lang.flag} ${escapeHtml(lang.label)}</option>`
+      )
+      .join('');
+
+    detectedEl.innerHTML = `
+      ${cautionHtml}<span>Idioma detectado: <strong>${escapeHtml(label)}</strong></span>
+      <span class="translator-detected-correct">
+        <label for="translatorDetectedCorrectSelect">¿No es correcto?</label>
+        <select id="translatorDetectedCorrectSelect">${optionsHtml}</select>
+        <button type="button" class="secondary-btn" id="translatorDetectedCorrectBtn">Volver a traducir</button>
+      </span>`;
+    detectedEl.hidden = false;
+  }
+
+  // Delegated (detectedEl's own innerHTML is rebuilt on every detection, so
+  // a listener bound directly to the button would be orphaned each time).
+  detectedEl?.addEventListener('click', (event) => {
+    if (!event.target.closest('#translatorDetectedCorrectBtn')) return;
+    const correctSelect = document.getElementById('translatorDetectedCorrectSelect');
+    const chosen = correctSelect?.value;
+    if (!chosen || !sourceSelect) return;
+    // The student just told us the real source language - use it explicitly
+    // from now on instead of leaving 'auto' to guess wrong again.
+    sourceSelect.value = chosen;
+    translatorUserAdjustedPair = true;
+    runTranslation();
+  });
 
   // recognition.lang is fixed for the life of a SpeechRecognition instance -
   // a source-language switch mid-dictation would otherwise keep listening
@@ -11720,6 +11774,10 @@ function setupTranslator() {
   sourceSelect?.addEventListener('change', () => {
     stopTranslatorDictation();
     translatorUserAdjustedPair = true;
+    // Suggestions are language-specific and tied to whatever was typed
+    // under the old language - stale once the source changes; a fresh set
+    // (if any) is computed on the next keystroke.
+    hideSuggestions();
   });
   targetSelect?.addEventListener('change', () => {
     translatorUserAdjustedPair = true;
@@ -11738,6 +11796,7 @@ function setupTranslator() {
 
   swapBtn?.addEventListener('click', () => {
     stopTranslatorDictation();
+    hideSuggestions();
     // Swapping the selects only makes sense when the source is a real
     // language - with 'auto' there is nothing known to place in the target
     // slot, so leave both selects as-is and just swap the text either way.
@@ -11756,6 +11815,7 @@ function setupTranslator() {
     // Otherwise the next dictation 'result' event would overwrite the
     // clear with the baseText captured when dictation started.
     stopTranslatorDictation();
+    hideSuggestions();
     input.value = '';
     output.value = '';
     if (detectedEl) detectedEl.hidden = true;
@@ -11793,6 +11853,7 @@ function setupTranslator() {
   // entry points can double-submit or send empty content.
   async function runTranslation() {
     if (submitBtn.disabled) return; // already in flight - never a second request
+    hideSuggestions();
 
     // Manual translate (Enter or the Traducir button) while the mic is
     // still listening: grabs whatever's in the textarea right now (already
@@ -11837,9 +11898,8 @@ function setupTranslator() {
       if (data.ok) {
         output.value = data.translatedText || '';
         setStatus('Completada', 'is-success');
-        if (sourceLanguage === 'auto' && data.detectedLanguage && detectedEl) {
-          detectedEl.textContent = `Idioma detectado: ${languageDisplayNames[data.detectedLanguage] || data.detectedLanguage}`;
-          detectedEl.hidden = false;
+        if (sourceLanguage === 'auto' && data.detectedLanguage) {
+          renderTranslatorDetectedLanguage(data.detectedLanguage, text);
         }
         saveTranslatorHistoryEntry({
           source: text,
@@ -11871,7 +11931,34 @@ function setupTranslator() {
   // "double submit" guard needed here beyond runTranslation's own
   // submitBtn.disabled check - a held-down Enter key or a click landing
   // mid-request both just no-op against an already-disabled button.
+  //
+  // Fase 4 adds three things ahead of that: Up/Down move the highlighted
+  // suggestion, Escape closes the list without touching the text, and
+  // Enter accepts the highlighted suggestion INSTEAD of translating - only
+  // when one is actually highlighted; otherwise Enter still translates,
+  // exactly as before.
   input.addEventListener('keydown', (event) => {
+    if (suggestionItems.length && (event.key === 'ArrowDown' || event.key === 'ArrowUp')) {
+      event.preventDefault();
+      if (event.key === 'ArrowDown') {
+        activeSuggestionIndex = (activeSuggestionIndex + 1) % suggestionItems.length;
+      } else {
+        activeSuggestionIndex = (activeSuggestionIndex - 1 + suggestionItems.length) % suggestionItems.length;
+      }
+      updateSuggestionHighlight();
+      return;
+    }
+    if (suggestionItems.length && event.key === 'Escape') {
+      event.preventDefault();
+      hideSuggestions();
+      return;
+    }
+    if (event.key === 'Enter' && !event.shiftKey && suggestionItems.length && activeSuggestionIndex >= 0) {
+      event.preventDefault();
+      acceptSuggestion(activeSuggestionIndex);
+      return;
+    }
+
     if (event.key !== 'Enter' || event.shiftKey) return;
     event.preventDefault();
     runTranslation();
@@ -11880,10 +11967,185 @@ function setupTranslator() {
   translateTranslatorInputNow = runTranslation;
 }
 
+// ---------------------------------------------------------------------
+// Corrector (#translator's "Corrector" tab, Fase 3) - a distinct mode from
+// the Traductor above, never a target language: it fixes grammar/spelling
+// in the SAME language the student wrote in and never translates (POST
+// /api/correct-text, the AI Tutor cascade - never DeepL). English/Spanish/
+// French only, per spec. Shares the .skill-tabs markup/behavior with Verbos
+// and Tutor (activateSkillTab/initSkillTabsAccessibility), so switching
+// tabs here needs no extra wiring beyond this function's own controls.
+// ---------------------------------------------------------------------
+function renderCorrectorHighlighted(correctedText, changes) {
+  if (!Array.isArray(changes) || !changes.length) return escapeHtml(correctedText);
+
+  // Wraps each changed fragment in <mark> without corrupting HTML-escaping:
+  // a placeholder token (a Private-Use-Area marker, never in real text) is
+  // inserted into the RAW text first, the whole string is escaped once,
+  // then each token is swapped for its escaped, <mark>-wrapped fragment.
+  const MARKER = String.fromCharCode(0xe000); // Private Use Area - never in real text
+  let working = correctedText;
+  const placeholders = [];
+  changes.forEach((change, index) => {
+    if (!change.corrected) return;
+    const idx = working.indexOf(change.corrected);
+    if (idx === -1) return;
+    const token = `${MARKER}${index}${MARKER}`;
+    working = working.slice(0, idx) + token + working.slice(idx + change.corrected.length);
+    placeholders.push({ token, text: change.corrected });
+  });
+
+  let escaped = escapeHtml(working);
+  placeholders.forEach(({ token, text }) => {
+    escaped = escaped.split(token).join(`<mark>${escapeHtml(text)}</mark>`);
+  });
+  return escaped;
+}
+
+function setupCorrector() {
+  const langSelect = document.getElementById('correctorLangSelect');
+  const input = document.getElementById('correctorInput');
+  const output = document.getElementById('correctorOutput');
+  const charCount = document.getElementById('correctorCharCount');
+  const clearBtn = document.getElementById('correctorClearBtn');
+  const copyBtn = document.getElementById('correctorCopyBtn');
+  const listenBtn = document.getElementById('correctorListenBtn');
+  const applyBtn = document.getElementById('correctorApplyBtn');
+  const submitBtn = document.getElementById('correctorSubmitBtn');
+  const status = document.getElementById('correctorStatus');
+  if (!input || !output || !submitBtn || !status) return;
+
+  const MAX_LENGTH = Number(input.getAttribute('maxlength')) || 1000;
+  let lastCorrection = null; // { correctedText, explanation, changes } from the last successful call
+
+  const setStatus = (text, mode) => {
+    status.textContent = text;
+    status.classList.remove('is-loading', 'is-success', 'is-unavailable');
+    if (mode) status.classList.add(mode);
+  };
+
+  const updateCharCount = () => {
+    if (charCount) charCount.textContent = `${input.value.length} / ${MAX_LENGTH}`;
+  };
+
+  const setResultActionsEnabled = (enabled) => {
+    if (copyBtn) copyBtn.disabled = !enabled;
+    if (listenBtn) listenBtn.disabled = !enabled;
+    if (applyBtn) applyBtn.disabled = !enabled;
+  };
+
+  const resetOutput = () => {
+    output.innerHTML = '<p class="skill-graph-empty">La corrección aparecerá aquí.</p>';
+    lastCorrection = null;
+    setResultActionsEnabled(false);
+  };
+
+  input.addEventListener('input', updateCharCount);
+  updateCharCount();
+
+  // A new language or a freshly-edited text invalidates whatever correction
+  // is currently shown - never let a stale "Aplicar corrección"/"Escuchar"
+  // apply text from a previous language or a previous version of the input.
+  langSelect?.addEventListener('change', resetOutput);
+  input.addEventListener('input', () => {
+    if (lastCorrection) resetOutput();
+  });
+
+  async function runCorrection() {
+    if (submitBtn.disabled) return; // already in flight - never a second request
+
+    const text = input.value.trim();
+    if (!text) {
+      setStatus('Escribe un texto para corregir.', 'is-unavailable');
+      return;
+    }
+
+    const language = langSelect?.value || 'english';
+    setStatus('Corrigiendo…', 'is-loading');
+    submitBtn.disabled = true;
+    try {
+      // auth: true, same as the Traductor's own call - lets the backend
+      // apply Premium limits instead of always treating the request as a
+      // guest (see POST /api/correct-text's attachUserIfPresent).
+      const data = await postJson('/api/correct-text', { text, language }, { auth: true });
+
+      if (data.ok) {
+        lastCorrection = {
+          originalText: text,
+          correctedText: data.correctedText || '',
+          explanation: data.explanation || '',
+          changes: data.changes || []
+        };
+        output.innerHTML = `
+          <div class="corrector-original">
+            <span class="corrector-result-label">Original</span>
+            <p>${escapeHtml(text)}</p>
+          </div>
+          <div class="corrector-corrected">
+            <span class="corrector-result-label">Corrección</span>
+            <p>${renderCorrectorHighlighted(lastCorrection.correctedText, lastCorrection.changes)}</p>
+          </div>
+          ${lastCorrection.explanation ? `<p class="corrector-explanation">${escapeHtml(lastCorrection.explanation)}</p>` : ''}
+        `;
+        setResultActionsEnabled(true);
+        setStatus('Completada', 'is-success');
+      } else if (data.configured === false) {
+        resetOutput();
+        setStatus('El corrector está temporalmente en configuración.', 'is-unavailable');
+      } else {
+        resetOutput();
+        setStatus(data.message || 'No disponible. Inténtalo de nuevo.', 'is-unavailable');
+      }
+    } catch (error) {
+      resetOutput();
+      setStatus(error.message || 'No disponible. Inténtalo de nuevo.', 'is-unavailable');
+    } finally {
+      submitBtn.disabled = false;
+    }
+  }
+
+  submitBtn.addEventListener('click', runCorrection);
+
+  clearBtn?.addEventListener('click', () => {
+    input.value = '';
+    updateCharCount();
+    resetOutput();
+    setStatus('Listo');
+  });
+
+  copyBtn?.addEventListener('click', async () => {
+    if (!lastCorrection?.correctedText) return;
+    try {
+      await navigator.clipboard.writeText(lastCorrection.correctedText);
+      showHomeToast('Corrección copiada.');
+    } catch {
+      showHomeToast('No se pudo copiar la corrección.');
+    }
+  });
+
+  listenBtn?.addEventListener('click', () => {
+    if (!lastCorrection?.correctedText) return;
+    speakText(lastCorrection.correctedText, { locale: LANGUAGE_LOCALES[langSelect?.value] });
+  });
+
+  // "Aplicar corrección": replaces the student's own draft with the
+  // corrected version, same direct-field-mutation pattern the Traductor's
+  // own swap button already uses - lets the student keep editing or
+  // re-submit from the corrected text.
+  applyBtn?.addEventListener('click', () => {
+    if (!lastCorrection?.correctedText) return;
+    input.value = lastCorrection.correctedText;
+    updateCharCount();
+    resetOutput();
+    setStatus('Corrección aplicada. Puedes seguir editando.', 'is-success');
+  });
+}
+
 enableHomepageActions();
 loadProgress();
 setupLearningPathControls();
 setupTranslator();
+setupCorrector();
 initScrollReveal();
 
 // Reached only via the link Supabase emails (authService's

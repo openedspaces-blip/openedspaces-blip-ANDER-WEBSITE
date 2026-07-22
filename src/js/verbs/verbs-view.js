@@ -263,38 +263,178 @@
     };
   }
 
-  // The always-visible summary line under the shared flashcard (spec: "no
-  // sobrecargar la tarjeta" - one compact line, not a table). Full forms +
-  // all three example sentences stay in the Conjugador, reached via "Ver
-  // conjugación" right below this line - that IS the "expandir detalles"
-  // the spec asks for, no separate expand/collapse widget needed here.
-  function verbMetaLineHtml(raw) {
-    const regularity = raw.regular ? 'Regular' : 'Irregular';
-    const forms = raw.forms || {};
-    const formsText = [forms.pastSimple, forms.pastParticiple].filter(Boolean).join(' · ');
-    return `#${raw.rank} · ${escapeHtml(raw.level || '')} · ${regularity}${formsText ? ` · ${escapeHtml(formsText)}` : ''}`;
-  }
+  const TILE_MASTERY_LABEL = {
+    new: 'Nuevo',
+    learning: 'Aprendiendo',
+    practicing: 'Necesita práctica',
+    mastered: 'Dominado'
+  };
 
-  function verbCardWrapHtml(item, raw, renderOpts) {
-    const cardHtml =
-      typeof renderVocabCardHtml === 'function' ? renderVocabCardHtml(item, renderOpts) : '';
+  // Compact tile (redesign pass): only what the spec's "contenido visible"
+  // list allows - rank, word, pronunciation+audio, one line of L1
+  // translation/L2 definition, a tiny regular/irregular tag, a discrete
+  // mastery dot, and a 3-icon action row. Everything else (forms, level
+  // repeated, examples, synonyms, notes...) moved to the "Ver detalles"
+  // modal (openVerbDetailHtml below) - never rendered in the grid itself,
+  // so 100 tiles stay small and fast to scan instead of 100 small tables.
+  // The tile itself is the "Ver detalles" trigger (role=button, own
+  // keydown handler below) - same div-with-role=button + nested real
+  // buttons + stopPropagation pattern script.js's own .vocab-card already
+  // uses, so nested icons never also trigger the tile's own open action.
+  function renderVerbTileHtml(item, raw, { canSpeak }) {
     const favLabel = item.isFavorite ? 'Quitar de favoritos' : 'Marcar como favorito';
+    const supportText = item.learningMode === 'direct' ? item.simpleDefinition : item.translation;
+    const regLabel = raw.regular ? 'Reg' : 'Irr';
+    const regTitle = raw.regular ? 'Verbo regular' : 'Verbo irregular';
+    const masteryLabel = TILE_MASTERY_LABEL[item.masteryStatus] || TILE_MASTERY_LABEL.new;
+    const audioBtnHtml = canSpeak
+      ? `<button type="button" class="vocab-example-audio-btn verb-tile-audio-btn" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar ${escapeHtml(item.targetWord)}" title="Escuchar">🔊</button>`
+      : '';
+
     return `
-      <div class="verb-card-wrap">
-        ${cardHtml}
-        <p class="verb-card-meta-line">${verbMetaLineHtml(raw)}</p>
-        <div class="verb-card-extra-actions no-print">
-          <button type="button" class="secondary-btn verb-favorite-btn${item.isFavorite ? ' is-active' : ''}" data-verb-id="${escapeHtml(item.id)}" aria-pressed="${item.isFavorite}" aria-label="${favLabel}" title="${favLabel}">
-            ${item.isFavorite ? '★ Favorito' : '☆ Favorito'}
+      <div
+        class="verb-tile"
+        data-verb-id="${escapeHtml(item.id)}"
+        data-mastery="${escapeHtml(item.masteryStatus)}"
+        role="button"
+        tabindex="0"
+        aria-haspopup="dialog"
+        aria-label="Ver detalles de ${escapeHtml(item.targetWord)}"
+      >
+        <div class="verb-tile-top-row">
+          <span class="verb-tile-rank">#${item.frequencyRank}</span>
+          <span class="verb-tile-reg-badge" title="${regTitle}">${regLabel}</span>
+          <span class="verb-tile-status-dot verb-tile-status-dot--${escapeHtml(item.masteryStatus)}" title="${escapeHtml(masteryLabel)}" aria-hidden="true"></span>
+        </div>
+        <p class="verb-tile-word">${escapeHtml(item.targetWord)}</p>
+        <div class="verb-tile-pron-row">
+          ${item.phonetic ? `<span class="verb-tile-pron">${escapeHtml(item.phonetic)}</span>` : ''}
+          ${audioBtnHtml}
+        </div>
+        ${supportText ? `<p class="verb-tile-support" title="${escapeHtml(supportText)}">${escapeHtml(supportText)}</p>` : ''}
+        <div class="verb-tile-actions no-print" role="group" aria-label="Acciones de ${escapeHtml(item.targetWord)}">
+          <button type="button" class="verb-tile-action-btn verb-favorite-btn${item.isFavorite ? ' is-active' : ''}" data-verb-id="${escapeHtml(item.id)}" aria-pressed="${item.isFavorite}" aria-label="${favLabel}" title="${favLabel}">
+            <span aria-hidden="true">${item.isFavorite ? '★' : '☆'}</span>
           </button>
-          <button type="button" class="secondary-btn verb-conjugate-btn" data-verb-id="${escapeHtml(item.id)}" data-verb-word="${escapeHtml(item.targetWord)}">
-            📖 Ver conjugación
+          <button type="button" class="verb-tile-action-btn verb-conjugate-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Ver conjugación de ${escapeHtml(item.targetWord)}" title="Ver conjugación">
+            <span aria-hidden="true">📖</span>
           </button>
-          <button type="button" class="secondary-btn verb-practice-one-btn" data-verb-id="${escapeHtml(item.id)}">
-            🎯 Practicar
+          <button type="button" class="verb-tile-action-btn verb-practice-one-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Practicar ${escapeHtml(item.targetWord)}" title="Practicar">
+            <span aria-hidden="true">🎯</span>
           </button>
         </div>
       </div>`;
+  }
+
+  function cssEscapeId(id) {
+    return window.CSS?.escape ? CSS.escape(id) : id;
+  }
+
+  // "Ver detalles" panel content - everything the compact tile deliberately
+  // leaves out: full forms grid, all 3 examples, synonyms/antonyms, notes,
+  // and labeled (not icon-only) action buttons. Reuses CONJUGATION_FIELDS/
+  // conjugatorAudioBtnHtml (defined below, for Conjugador) so the two
+  // "every principal form" displays never drift into two different layouts
+  // for the same data. Reuses the exact .verb-favorite-btn/.verb-conjugate-btn/
+  // .verb-practice-one-btn classes the grid tile uses, so the single
+  // delegated click handler for each already works here unmodified.
+  function renderVerbDetailContentHtml(raw, item) {
+    const audioOpts = { locale: item.pronunciationLocale, rate: item.pronunciationRate };
+    const supportLine = item.learningMode === 'direct' ? item.simpleDefinition : item.translation;
+
+    const fieldsHtml = CONJUGATION_FIELDS.map(
+      ([key, label]) => `
+        <div class="verb-conjugation-cell">
+          <span>${escapeHtml(label)}</span>
+          <strong>${escapeHtml(raw.forms?.[key] || '—')}</strong>
+        </div>`
+    ).join('');
+
+    const examples = raw.examples || {};
+    const exampleRow = (label, text) =>
+      text
+        ? `
+        <div class="verb-conjugation-example">
+          <span class="verb-conjugation-example-label">${escapeHtml(label)}</span>
+          <p>${escapeHtml(text)} ${conjugatorAudioBtnHtml(text, audioOpts)}</p>
+        </div>`
+        : '';
+
+    const favLabel = item.isFavorite ? 'Quitar de favoritos' : 'Marcar como favorito';
+    const synonymsHtml = raw.synonyms?.length
+      ? `<p class="verb-detail-line"><strong>Sinónimos:</strong> ${escapeHtml(raw.synonyms.join(', '))}</p>`
+      : '';
+    const antonymsHtml = raw.antonyms?.length
+      ? `<p class="verb-detail-line"><strong>Antónimos:</strong> ${escapeHtml(raw.antonyms.join(', '))}</p>`
+      : '';
+    const notesHtml = raw.notes ? `<p class="verb-conjugation-notes">${escapeHtml(raw.notes)}</p>` : '';
+
+    return `
+      <div class="verb-detail-head">
+        <div>
+          <h3 id="verbDetailTitle">${escapeHtml(item.targetWord)} ${item.phonetic ? `<span class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</span>` : ''}</h3>
+          <span class="vocab-card-tag">${raw.regular ? 'Regular' : 'Irregular'} · ${escapeHtml(raw.level || '')}</span>
+        </div>
+        ${conjugatorAudioBtnHtml(item.audioText, audioOpts)}
+      </div>
+      ${supportLine ? `<p class="verb-conjugation-support">${escapeHtml(supportLine)}</p>` : ''}
+      <div class="verb-conjugation-grid">${fieldsHtml}</div>
+      <div class="verb-conjugation-examples">
+        ${exampleRow('Afirmativa', examples.affirmative)}
+        ${exampleRow('Negativa', examples.negative)}
+        ${exampleRow('Interrogativa', examples.interrogative)}
+      </div>
+      ${synonymsHtml}
+      ${antonymsHtml}
+      ${notesHtml}
+      <div class="verb-detail-actions no-print" role="group" aria-label="Acciones de ${escapeHtml(item.targetWord)}">
+        <button type="button" class="secondary-btn verb-favorite-btn${item.isFavorite ? ' is-active' : ''}" data-verb-id="${escapeHtml(item.id)}" aria-pressed="${item.isFavorite}" aria-label="${favLabel}" title="${favLabel}">
+          <span aria-hidden="true">${item.isFavorite ? '★' : '☆'}</span> Favorito
+        </button>
+        <button type="button" class="secondary-btn verb-conjugate-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Ver conjugación de ${escapeHtml(item.targetWord)}">
+          📖 Ver conjugación
+        </button>
+        <button type="button" class="secondary-btn verb-practice-one-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Practicar ${escapeHtml(item.targetWord)}">
+          🎯 Practicar
+        </button>
+      </div>`;
+  }
+
+  let verbDetailLastFocusedTile = null;
+
+  // Single shared modal (#verbDetailModal, index.html) - opening a new verb
+  // just replaces its content, so "solo un panel a la vez" (spec) is true by
+  // construction, not something this code has to enforce separately.
+  function openVerbDetail(verbId) {
+    const modal = document.getElementById('verbDetailModal');
+    const content = document.getElementById('verbDetailContent');
+    if (!modal || !content) return;
+    const raw = getVerbById(verbId, 'english');
+    if (!raw) return;
+
+    const bridgeLanguage =
+      (typeof learningPathState !== 'undefined' && learningPathState.bridgeLanguage) || 'spanish';
+    const item = normalizeVerbItem(raw, { bridgeLanguage, targetLanguage: 'english' });
+    content.innerHTML = renderVerbDetailContentHtml(raw, item);
+
+    verbDetailLastFocusedTile = document.querySelector(`.verb-tile[data-verb-id="${cssEscapeId(verbId)}"]`);
+    verbDetailLastFocusedTile?.setAttribute('aria-expanded', 'true');
+
+    modal.classList.add('open');
+    modal.removeAttribute('inert');
+    modal.setAttribute('aria-hidden', 'false');
+    modal.querySelector('.verb-detail-close-btn')?.focus();
+  }
+
+  function closeVerbDetail() {
+    const modal = document.getElementById('verbDetailModal');
+    if (!modal || !modal.classList.contains('open')) return;
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    modal.setAttribute('inert', '');
+    verbDetailLastFocusedTile?.setAttribute('aria-expanded', 'false');
+    verbDetailLastFocusedTile?.focus();
+    verbDetailLastFocusedTile = null;
   }
 
   // Every field the spec's search list names: infinitive, L1 translation,
@@ -418,11 +558,7 @@
 
       const canSpeak = typeof supportsSpeech === 'function' ? supportsSpeech() : false;
       const visible = sorted.slice(0, verbsVisibleCount);
-      deck.innerHTML = visible
-        .map(({ raw, item }, index) =>
-          verbCardWrapHtml({ ...item, _displayIndex: index }, raw, { canSpeak, isFrench: false })
-        )
-        .join('');
+      deck.innerHTML = visible.map(({ raw, item }) => renderVerbTileHtml(item, raw, { canSpeak })).join('');
 
       if (loadMoreRow) loadMoreRow.hidden = sorted.length <= visible.length;
     } catch (error) {
@@ -608,6 +744,7 @@
   // same mechanism activateSkillTab() (script.js) already uses for a plain
   // tab click, then re-renders Conjugador's own content for this verb id.
   function openConjugatorForVerb(verbId) {
+    closeVerbDetail();
     const tabsRoot = document.getElementById('verbsTabs');
     const conjugatorTabBtn = tabsRoot?.querySelector('.skill-tab-button[data-skill="conjugator"]');
     if (conjugatorTabBtn && typeof activateSkillTab === 'function') {
@@ -869,6 +1006,7 @@
   function startVerbsPracticeForVerb(verbId) {
     const verb = getVerbById(verbId, 'english');
     if (!verb) return;
+    closeVerbDetail();
     const tabsRoot = document.getElementById('verbsTabs');
     const practiceTabBtn = tabsRoot?.querySelector('.skill-tab-button[data-skill="practice"]');
     if (practiceTabBtn && typeof activateSkillTab === 'function') {
@@ -1354,10 +1492,21 @@
     if (favBtn) {
       event.stopPropagation();
       if (!requireAuthForCardAction('Inicia sesión para guardar este verbo en tu progreso.')) return;
-      const nextState = toggleVerbFavorite(favBtn.dataset.verbId);
-      favBtn.classList.toggle('is-active', nextState);
-      favBtn.setAttribute('aria-pressed', String(nextState));
-      favBtn.textContent = nextState ? '★ Favorito' : '☆ Favorito';
+      const verbId = favBtn.dataset.verbId;
+      const nextState = toggleVerbFavorite(verbId);
+      const favLabel = nextState ? 'Quitar de favoritos' : 'Marcar como favorito';
+      // Updates every instance of this button on screen (the grid tile AND
+      // the detail modal both render one for the same verb id) - icon-only,
+      // never overwrites the button with plain text (spec: "sin texto largo
+      // en cada botón").
+      document.querySelectorAll(`.verb-favorite-btn[data-verb-id="${window.CSS?.escape ? CSS.escape(verbId) : verbId}"]`).forEach((btn) => {
+        btn.classList.toggle('is-active', nextState);
+        btn.setAttribute('aria-pressed', String(nextState));
+        btn.setAttribute('aria-label', favLabel);
+        btn.title = favLabel;
+        const icon = btn.querySelector('span[aria-hidden]');
+        if (icon) icon.textContent = nextState ? '★' : '☆';
+      });
       return;
     }
 
@@ -1373,6 +1522,31 @@
       event.stopPropagation();
       if (!requireAuthForVerbFeature('practice', { verbId: practiceOneBtn.dataset.verbId })) return;
       startVerbsPracticeForVerb(practiceOneBtn.dataset.verbId);
+      return;
+    }
+
+    // Audio playback on a tile is script.js's own delegate (.vocab-example-
+    // audio-btn, registered after this file - see conjugatorAudioBtnHtml's
+    // header comment) - just stop it from also falling through to the
+    // "open details" tile click below, never handle the actual sound here.
+    if (event.target.closest('.verb-tile-audio-btn')) return;
+
+    // Detail modal open/close (redesign pass). Checked after every
+    // more-specific button above, so clicking a tile's own favorite/
+    // conjugate/practice/audio icon never also opens the modal underneath
+    // it (same "specific controls first, generic tap-target last" order
+    // script.js's own .vocab-card body-click handler already uses).
+    if (event.target.closest('.verb-detail-close-btn')) {
+      closeVerbDetail();
+      return;
+    }
+    if (event.target.id === 'verbDetailModal') {
+      closeVerbDetail();
+      return;
+    }
+    const verbTile = event.target.closest('.verb-tile');
+    if (verbTile) {
+      openVerbDetail(verbTile.dataset.verbId);
       return;
     }
 
@@ -1426,6 +1600,30 @@
         rate: Number(practiceAudioBtn.dataset.speakRate) || 1
       });
       return;
+    }
+  });
+
+  // Escape closes the detail modal from anywhere; Enter/Space activates a
+  // focused tile the same way a click does (role="button" divs get no free
+  // keyboard activation from the browser, unlike a real <button>). Skipped
+  // when focus is already on one of the tile's own nested buttons so their
+  // native Enter/Space activation isn't double-handled - same guard
+  // script.js's own .vocab-card keydown listener already uses.
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      const modal = document.getElementById('verbDetailModal');
+      if (modal?.classList.contains('open')) {
+        event.preventDefault();
+        closeVerbDetail();
+      }
+      return;
+    }
+
+    const tile = event.target.closest?.('.verb-tile');
+    if (tile && (event.key === 'Enter' || event.key === ' ')) {
+      if (event.target.closest('button')) return;
+      event.preventDefault();
+      openVerbDetail(tile.dataset.verbId);
     }
   });
 })();

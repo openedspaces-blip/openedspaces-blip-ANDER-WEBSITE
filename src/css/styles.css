@@ -2450,9 +2450,127 @@ a:focus-visible {
 }
 
 .translator-detected {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px 10px;
   text-align: center;
   font-size: 0.85rem;
   color: var(--muted);
+}
+
+.translator-detected-caution {
+  color: #b45309;
+}
+
+.translator-detected-correct {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+}
+
+.translator-detected-correct select {
+  font-size: 0.85rem;
+}
+
+/* Corrector (Fase 3) - reuses .translator-panel/.translator-field/
+   .translator-field-actions/.translator-actions/.translator-status as-is;
+   only its own result box and highlight marks are new. */
+.corrector-output {
+  min-height: 160px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm, 8px);
+  padding: 12px 14px;
+  background: var(--bg);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.corrector-result-label {
+  display: block;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.corrector-output p {
+  margin: 0;
+}
+
+.corrector-output mark {
+  background: #fde68a;
+  color: inherit;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+
+.corrector-explanation {
+  font-size: 0.85rem;
+  color: var(--muted);
+  border-top: 1px dashed var(--border);
+  padding-top: 8px;
+}
+
+/* Predictive text (Fase 4) */
+.translator-input-wrap {
+  position: relative;
+}
+
+.translator-suggestions {
+  position: absolute;
+  z-index: 5;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 4px 0 0;
+  padding: 4px;
+  list-style: none;
+  background: var(--surface, #fff);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm, 8px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.translator-suggestion-item {
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.translator-suggestion-item:hover,
+.translator-suggestion-item.is-active {
+  background: var(--bg);
+}
+
+/* Spelling corrections and contextual next-word suggestions read slightly
+   differently from a plain autocomplete match (spec: "distinguir
+   autocompletado / corrección ortográfica / predicción contextual"). */
+.translator-suggestion-item[data-type='spelling'] {
+  font-style: italic;
+}
+
+.translator-suggestion-item[data-type='contextual'] {
+  color: var(--blue);
+}
+
+.translator-suggestions-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 400;
 }
 
 .translator-history {
@@ -8521,31 +8639,265 @@ footer small {
   min-width: 9.5rem;
 }
 
-.verb-card-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-
-.verb-card-extra-actions {
-  display: flex;
-  gap: 0.35rem;
-  flex-wrap: wrap;
-}
-
-/* Favorito/Ver conjugación/Practicar - same .secondary-btn as the rest of
-   the app, just tighter here: this row sits below a card now sized to
-   match .skill-library-card, so it keeps its own footprint as small as
-   the 3 buttons' text allows instead of adding a full button-sized gap. */
-.verb-card-extra-actions .secondary-btn {
-  padding: 0.3rem 0.55rem;
-  font-size: 0.72rem;
-}
-
 .verb-favorite-btn.is-active {
   background: rgba(234, 179, 8, 0.14);
   border-color: rgba(234, 179, 8, 0.4);
   color: #92700a;
+}
+
+/* ---------------------------------------------------------------------
+   Verbos card redesign - compact tile (replaces the old flip-card reuse of
+   .vocab-card/.vocab-card-deck for this section only; Vocabulary keeps
+   .vocab-card exactly as it is, untouched). Sized to match
+   .skill-library-card (~130-160px), not a bigger flashcard next to it.
+   --------------------------------------------------------------------- */
+.verb-tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 0.7rem;
+}
+
+@media (max-width: 560px) {
+  .verb-tile-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 340px) {
+  .verb-tile-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.verb-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-xs);
+  cursor: pointer;
+  transition:
+    border-color 150ms ease,
+    transform 150ms ease,
+    box-shadow 150ms ease;
+}
+
+.verb-tile:hover {
+  border-color: var(--blue);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-soft);
+}
+
+.verb-tile:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+/* Mastery tints the border only (never the only signal - each state also
+   has the dot below, with a text tooltip via [title]). */
+.verb-tile[data-mastery='practicing'] {
+  border-color: rgba(217, 119, 6, 0.35);
+}
+
+.verb-tile[data-mastery='mastered'] {
+  border-color: rgba(34, 197, 94, 0.4);
+}
+
+.verb-tile-top-row {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.verb-tile-rank {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--muted);
+  opacity: 0.8;
+}
+
+.verb-tile-reg-badge {
+  font-size: 0.62rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--blue);
+  background: var(--accent-soft);
+  padding: 0.05rem 0.35rem;
+  border-radius: 999px;
+}
+
+.verb-tile-status-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  margin-left: auto;
+  background: rgba(148, 163, 184, 0.7);
+}
+
+.verb-tile-status-dot--learning {
+  background: rgba(37, 99, 235, 0.75);
+}
+
+.verb-tile-status-dot--practicing {
+  background: #d97706;
+}
+
+.verb-tile-status-dot--mastered {
+  background: #22c55e;
+}
+
+.verb-tile-word {
+  margin: 0.15rem 0 0;
+  font-size: 1.55rem;
+  font-weight: 800;
+  color: var(--navy-2);
+  line-height: 1.1;
+  text-align: center;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.verb-tile-pron-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  min-height: 1.4rem;
+}
+
+.verb-tile-pron {
+  font-size: 0.72rem;
+  font-style: italic;
+  color: var(--muted);
+  opacity: 0.85;
+}
+
+.verb-tile-audio-btn.vocab-example-audio-btn {
+  width: 1.35rem;
+  height: 1.35rem;
+  min-width: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  font-size: 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  cursor: pointer;
+}
+
+.verb-tile-support {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.verb-tile-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+  margin-top: 0.15rem;
+}
+
+.verb-tile-action-btn {
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  font-size: 0.82rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  cursor: pointer;
+  transition:
+    border-color 150ms ease,
+    background-color 150ms ease;
+}
+
+.verb-tile-action-btn:hover {
+  border-color: var(--blue);
+  background: var(--accent-soft);
+}
+
+.verb-tile-action-btn:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------------
+   "Ver detalles" modal - same open/close visual language as #authModal
+   (fixed overlay, .open toggles opacity/pointer-events), scoped entirely
+   to Verbos.
+   --------------------------------------------------------------------- */
+.verb-detail-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 21, 47, 0.6);
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 55;
+  padding: 1rem;
+}
+
+.verb-detail-modal.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.verb-detail-panel {
+  position: relative;
+  width: min(480px, 100%);
+  max-height: 85vh;
+  overflow-y: auto;
+  background: var(--white);
+  border-radius: 24px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.verb-detail-close-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+}
+
+.verb-detail-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-right: 2rem;
+}
+
+.verb-detail-head h3 {
+  margin: 0 0 0.35rem;
+  text-transform: capitalize;
+}
+
+.verb-detail-line {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0.4rem 0 0;
+}
+
+.verb-detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
 }
 
 /* Conjugador (Fase 3 pilot) */
@@ -8862,12 +9214,6 @@ footer small {
   min-width: 8rem;
 }
 
-.verb-card-meta-line {
-  margin: 0;
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--muted);
-}
 
 .verbs-load-more-row {
   display: flex;

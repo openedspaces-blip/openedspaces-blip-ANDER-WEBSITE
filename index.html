@@ -741,7 +741,7 @@
                 </select>
               </label>
             </div>
-            <div class="vocab-card-deck" id="verbsCardDeck" aria-live="polite">
+            <div class="verb-tile-grid" id="verbsCardDeck" aria-live="polite">
               <p class="skill-graph-empty">Cargando verbos…</p>
             </div>
             <div class="verbs-load-more-row no-print" id="verbsLoadMoreRow" hidden>
@@ -801,6 +801,18 @@
                 ↺ Reiniciar progreso de Verbos
               </button>
             </div>
+          </div>
+        </div>
+
+        <!-- Compact-tile "Ver detalles" panel (spec: "modal compacto", only
+             one open at a time - a single shared element, not one per
+             tile). Same open/close pattern as #authModal (aria-hidden +
+             inert toggled by JS, .open class drives the transition) but
+             scoped entirely to Verbos - never shared markup with auth. -->
+        <div class="verb-detail-modal" id="verbDetailModal" aria-hidden="true" inert>
+          <div class="verb-detail-panel" role="dialog" aria-modal="true" aria-labelledby="verbDetailTitle">
+            <button type="button" class="close-modal verb-detail-close-btn" aria-label="Cerrar detalles">×</button>
+            <div id="verbDetailContent"></div>
           </div>
         </div>
       </section>
@@ -1119,21 +1131,31 @@
         <div class="section-heading">
           <span>Traductor</span>
           <h2 tabindex="-1">Traductor rápido de ANDERGO</h2>
-          <p>Traduce frases entre inglés, francés y español mientras practicas.</p>
+          <p>Traduce frases entre varios idiomas mientras practicas.</p>
         </div>
         <a href="#" id="translatorReturnLink" class="translator-return-link" hidden
           >‹ Volver a la lección</a
         >
 
+        <!-- Corrector (Fase 3) is a separate mode, never a "target language" -
+             its own tab/panel, never mixed into the Traducir call above. -->
+        <div class="skill-tabs is-open" id="translatorTabs">
+          <div class="skill-tab-list">
+            <button class="skill-tab-button active" type="button" data-skill="translate">Traducir</button>
+            <button class="skill-tab-button" type="button" data-skill="corrector">Corrector</button>
+          </div>
+
+        <div class="skill-panel active" data-skill="translate">
         <div class="translator-panel">
           <div class="translator-controls">
             <label for="translatorSourceLang"
               >Idioma de origen
+              <!-- Options are populated at runtime by
+                   populateTranslatorLanguageSelects() (src/js/script.js)
+                   from the central src/js/translator-languages.js list -
+                   only the "Detectar idioma" option is static. -->
               <select id="translatorSourceLang">
                 <option value="auto">Detectar idioma</option>
-                <option value="english">🇺🇸 English</option>
-                <option value="french">🇫🇷 Français</option>
-                <option value="spanish">🇪🇸 Español</option>
               </select>
             </label>
             <button
@@ -1146,27 +1168,45 @@
             </button>
             <label for="translatorTargetLang"
               >Idioma de destino
-              <select id="translatorTargetLang">
-                <option value="spanish">🇪🇸 Español</option>
-                <option value="english">🇺🇸 English</option>
-                <option value="french">🇫🇷 Français</option>
-              </select>
+              <!-- Populated at runtime, same as translatorSourceLang above. -->
+              <select id="translatorTargetLang"></select>
             </label>
           </div>
 
           <div class="translator-grid">
             <div class="translator-field">
               <label for="translatorInput">Texto original</label>
-              <textarea
-                id="translatorInput"
-                class="tutor-input"
-                rows="6"
-                maxlength="1000"
-                placeholder="Escribe el texto que quieres traducir…"
-              ></textarea>
+              <div class="translator-input-wrap">
+                <textarea
+                  id="translatorInput"
+                  class="tutor-input"
+                  rows="6"
+                  maxlength="1000"
+                  placeholder="Escribe el texto que quieres traducir…"
+                  role="combobox"
+                  aria-expanded="false"
+                  aria-controls="translatorSuggestions"
+                  aria-autocomplete="list"
+                ></textarea>
+                <!-- Fase 4: populated at runtime by setupTranslator()'s
+                     predictive-text logic (src/js/script.js), sourced from
+                     src/js/translator-predictive.js - purely local, never a
+                     DeepL/AI call. -->
+                <ul
+                  class="translator-suggestions"
+                  id="translatorSuggestions"
+                  role="listbox"
+                  aria-label="Sugerencias"
+                  hidden
+                ></ul>
+              </div>
               <p class="translator-char-count" id="translatorCharCount" aria-live="polite">
                 0 / 1000
               </p>
+              <label class="translator-suggestions-toggle">
+                <input type="checkbox" id="translatorSuggestionsToggle" checked />
+                Sugerencias predictivas
+              </label>
               <p class="tutor-dictate-status" id="translatorInputDictateStatus" aria-live="polite"></p>
               <div class="translator-field-actions">
                 <button type="button" class="secondary-btn" id="translatorClearBtn">
@@ -1243,6 +1283,73 @@
             </div>
             <ul class="translator-history-list" id="translatorHistoryList"></ul>
           </div>
+        </div>
+        </div>
+
+        <div class="skill-panel" data-skill="corrector">
+          <div class="translator-panel corrector-panel">
+            <div class="translator-controls">
+              <label for="correctorLangSelect"
+                >Idioma del texto
+                <select id="correctorLangSelect">
+                  <option value="english">🇺🇸 English</option>
+                  <option value="spanish">🇪🇸 Español</option>
+                  <option value="french">🇫🇷 Français</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="translator-grid">
+              <div class="translator-field">
+                <label for="correctorInput">Tu texto</label>
+                <textarea
+                  id="correctorInput"
+                  class="tutor-input"
+                  rows="6"
+                  maxlength="1000"
+                  placeholder="Escribe el texto que quieres corregir…"
+                ></textarea>
+                <p class="translator-char-count" id="correctorCharCount" aria-live="polite">
+                  0 / 1000
+                </p>
+                <div class="translator-field-actions">
+                  <button type="button" class="secondary-btn" id="correctorClearBtn">Limpiar</button>
+                </div>
+              </div>
+
+              <div class="translator-field">
+                <span class="corrector-result-label">Resultado</span>
+                <div class="corrector-output" id="correctorOutput" aria-live="polite">
+                  <p class="skill-graph-empty">La corrección aparecerá aquí.</p>
+                </div>
+                <div class="translator-field-actions">
+                  <button type="button" class="secondary-btn" id="correctorCopyBtn" disabled>
+                    Copiar
+                  </button>
+                  <button
+                    type="button"
+                    class="secondary-btn translator-listen-btn"
+                    id="correctorListenBtn"
+                    aria-label="Escuchar corrección"
+                    disabled
+                  >
+                    🔊 Escuchar
+                  </button>
+                  <button type="button" class="primary-btn" id="correctorApplyBtn" disabled>
+                    Aplicar corrección
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="translator-actions">
+              <button type="button" class="primary-btn" id="correctorSubmitBtn">Corregir</button>
+              <span class="translator-status" id="correctorStatus" role="status" aria-live="polite"
+                >Listo</span
+              >
+            </div>
+          </div>
+        </div>
         </div>
       </section>
 
@@ -2045,6 +2152,8 @@
     <script src="/src/js/gamification/index.js"></script>
     <script src="/src/js/username-rules.js"></script>
     <script src="/src/js/language-pair.js"></script>
+    <script src="/src/js/translator-languages.js"></script>
+    <script src="/src/js/translator-predictive.js"></script>
     <script src="/src/js/verbs/english-verbs-data.js"></script>
     <script src="/src/js/verbs/verb-conjugation-engine.js"></script>
     <script src="/src/js/verbs/verbs-view.js"></script>
