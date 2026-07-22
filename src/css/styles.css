@@ -3269,35 +3269,6 @@ footer small {
   box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.16);
 }
 
-/* Optional, collapsible L1 support block (bilingual learningMode only -
-   see splitTutorL1Support/renderTutorL1SupportHtml in script.js). Never
-   rendered in direct mode, since the model never emits the marker there. */
-.tutor-l1-support {
-  margin-top: 0.6rem;
-  padding-top: 0.5rem;
-  border-top: 1px dashed rgba(148, 163, 184, 0.35);
-}
-
-.tutor-l1-toggle-btn {
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 0.3rem 0.65rem;
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  background: var(--bg);
-  cursor: pointer;
-}
-
-.tutor-l1-text {
-  margin: 0.5rem 0 0;
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-
-.tutor-l1-text[hidden] {
-  display: none;
-}
-
 .tutor-voice-controls {
   display: flex;
   flex-wrap: wrap;

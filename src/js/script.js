@@ -3706,15 +3706,14 @@ function appendTutorUsageNotice(container, message, { locked = false } = {}) {
 }
 
 // Updates an in-progress tutor message bubble's text (see appendTutorMessage's
-// returned wrapper) as streamed chunks accumulate. Splits off the optional
-// L1 support block (see splitTutorL1Support) on every update so the visible
-// main body is always L2-only, even mid-stream.
+// returned wrapper) as streamed chunks accumulate. Sanitizes on every update
+// (see sanitizeTutorReplyText) so the visible body is always L2-only, even
+// mid-stream.
 function updateTutorMessageBody(messageEl, container, text) {
   if (!messageEl) return;
-  const { main, l1 } = splitTutorL1Support(text);
+  const main = sanitizeTutorReplyText(text);
   const body = messageEl.querySelector('p');
   if (body) body.innerHTML = renderTutorMarkdownHtml(main);
-  syncTutorL1SupportBlock(messageEl, l1);
   if (container) container.scrollTop = container.scrollHeight;
 }
 
@@ -4153,6 +4152,49 @@ let tutorDictation = {
 // session is ever active at a time.
 let tutorDictationManualSendSuppressed = false;
 
+// Centralized auto-send state (spec §5/§6): the editable "will send in ~2s"
+// window that opens once a final transcript is ready, plus dedup against a
+// manual send racing the same timer. Only one dictation session is ever
+// active at a time (tutorDictation), so one module-level timer/id is enough -
+// no per-textarea map needed.
+let tutorAutoSendTimerId = null;
+let tutorLastAutoSentTranscript = '';
+
+function clearTutorAutoSendTimer() {
+  if (tutorAutoSendTimerId) {
+    window.clearTimeout(tutorAutoSendTimerId);
+    tutorAutoSendTimerId = null;
+  }
+}
+
+// Opens the editable auto-send window: shows the "se enviará automáticamente"
+// status, then after ~2s (any keystroke on the textarea restarts this - see
+// the keydown listeners on aiTutorPrompt/tutorDrawerPrompt) clicks the same
+// send button a manual click would. Reads the textarea fresh at fire time
+// (not the transcript captured at recognition-end) so edits made during the
+// window are what actually gets sent.
+function scheduleTutorAutoSend(textareaId) {
+  clearTutorAutoSendTimer();
+  setDictationStatusText(textareaId, 'Texto listo. Se enviará automáticamente en 2 segundos.');
+  tutorAutoSendTimerId = window.setTimeout(() => {
+    tutorAutoSendTimerId = null;
+    const textarea = document.getElementById(textareaId);
+    const normalized = (textarea?.value || '').trim();
+    const sendBtn = getDictationSendButton(textareaId);
+    if (!normalized || normalized === tutorLastAutoSentTranscript || sendBtn?.disabled) return;
+    setDictationStatusText(textareaId, 'Enviando…');
+    sendBtn?.click();
+  }, 2000);
+}
+
+// Restarts the pending auto-send window on any keystroke while the student
+// is editing the transcript (spec §5: "cualquier pulsación de tecla debe
+// reiniciar el contador de 2 segundos") - a no-op when no auto-send is
+// currently pending, so normal typing outside this window is unaffected.
+function restartTutorAutoSendIfPending(textareaId) {
+  if (tutorAutoSendTimerId) scheduleTutorAutoSend(textareaId);
+}
+
 function getSpeechRecognitionCtor() {
   return window.SpeechRecognition || window.webkitSpeechRecognition || null;
 }
@@ -4187,6 +4229,12 @@ function resetDictationUI(textareaId) {
 // nothing is active. Fires the 'end' handler registered in startDictation,
 // which does the actual UI/state cleanup, so callers don't duplicate that.
 function stopDictationRecognizer() {
+  // Covers every cleanup path at once (closing the Tutor, changing language,
+  // clearing the conversation, navigating away, starting a fresh dictation
+  // session, a real error) since they all funnel through here - spec §6:
+  // "Limpiar timers... cuando se cierre el Tutor / se cambie de idioma / se
+  // limpie la conversación / se navegue fuera / se produzca un error."
+  clearTutorAutoSendTimer();
   if (tutorDictation.timeoutId) {
     window.clearTimeout(tutorDictation.timeoutId);
     tutorDictation.timeoutId = null;
@@ -4256,6 +4304,7 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
   // - never from the moment the mic opens, so thinking time before speaking
   // is never mistaken for "finished talking".
   let silenceTimerId = null;
+  let waitingStatusTimerId = null;
 
   const micBtn = document.querySelector(`.tutor-dictate-btn[data-dictate-target="${textareaId}"]`);
   const stopBtn = document.querySelector(
@@ -4284,6 +4333,15 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
 
     if (continuous && silenceMs) {
       if (silenceTimerId) window.clearTimeout(silenceTimerId);
+      if (waitingStatusTimerId) window.clearTimeout(waitingStatusTimerId);
+      setDictationStatusText(textareaId, 'Voz detectada…');
+      // "Esperando…" covers the rest of the silence countdown once the
+      // brief "Voz detectada…" beat has shown - both are cleared/restarted
+      // together by the next result, so a student who keeps talking never
+      // sees them flicker.
+      waitingStatusTimerId = window.setTimeout(() => {
+        setDictationStatusText(textareaId, 'Esperando…');
+      }, Math.min(400, silenceMs));
       silenceTimerId = window.setTimeout(() => stopTutorDictation(), silenceMs);
     }
   });
@@ -4307,6 +4365,7 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
   // message (e.g. permission denied) with a generic one.
   recognition.addEventListener('end', () => {
     if (silenceTimerId) window.clearTimeout(silenceTimerId);
+    if (waitingStatusTimerId) window.clearTimeout(waitingStatusTimerId);
     // A manual send (sendTutorMessage) already stopped this recognizer and
     // read/cleared the textarea itself - don't repopulate it with the
     // now-stale transcript, and don't auto-click send a second time.
@@ -4321,8 +4380,7 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
     resetDictationUI(textareaId);
     if (suppressed) return;
     if (hadFinalText && autoSend) {
-      setDictationStatusText(textareaId, 'Procesando…');
-      getDictationSendButton(textareaId)?.click();
+      scheduleTutorAutoSend(textareaId);
       return;
     }
     if (hadFinalText) {
@@ -9324,7 +9382,8 @@ async function sendTutorMessage({
 }) {
   // Guards against a second click/Enter firing before the first request's
   // `sendBtn.disabled = true` (set a few lines below) has taken effect, and
-  // against any caller triggering this twice in a row for the same button.
+  // against any caller triggering this twice in a row for the same button -
+  // the isSubmitting state (spec §6).
   if (sendBtn?.disabled) return null;
 
   // Manual send while the mic is still listening for this same textarea
@@ -9337,11 +9396,17 @@ async function sendTutorMessage({
     tutorDictationManualSendSuppressed = true;
     stopDictationRecognizer();
   }
+  // Also covers a manual click landing during the post-dictation "se
+  // enviará automáticamente" editable window (dictation already ended, so
+  // the branch above doesn't apply) - cancels the pending auto-send so it
+  // can never fire a second time after this manual send.
+  clearTutorAutoSendTimer();
 
   const customPrompt = promptEl?.value.trim() || '';
   const finalPrompt =
     customPrompt || selectedSuggestion || fallbackPrompt || 'Quiero practicar esta habilidad.';
   if (!finalPrompt) return null;
+  tutorLastAutoSentTranscript = customPrompt;
 
   if (conversationEl) appendTutorMessage(conversationEl, 'user', finalPrompt);
   if (promptEl) promptEl.value = '';
@@ -9365,10 +9430,9 @@ async function sendTutorMessage({
         level,
         nativeLanguage: bridgeLanguage,
         bridgeLanguage,
-        // 'bilingual' | 'direct' - drives the L2-only-main-response /
-        // optional-L1-support-block rule server-side (see
-        // lib/aiTutorService.js#buildTutorInput). Always the live global
-        // state, not a per-call param, since it's a single app-wide setting.
+        // 'bilingual' | 'direct' - kept for other backend consumers; no
+        // longer affects the Tutor's own reply, which is always L2-only
+        // regardless of this value (see lib/aiTutorService.js#buildTutorInput).
         learningMode: learningPathState.learningMode,
         prompt: finalPrompt,
         userMessage: finalPrompt,
@@ -9461,7 +9525,7 @@ async function sendTutorMessage({
                 // block is never read aloud) - speechSynthesis/the neural
                 // TTS provider must never read Markdown syntax (**/#/- ) or
                 // native-language support text aloud.
-                messageEl.dataset.ttsText = cleanTutorTextForSpeech(splitTutorL1Support(fullText).main);
+                messageEl.dataset.ttsText = cleanTutorTextForSpeech(sanitizeTutorReplyText(fullText));
               }
             }
           }
@@ -9791,18 +9855,89 @@ document.addEventListener('click', async (event) => {
 
   const button = event.target.closest('.skill-tab-button');
   if (!button) return;
+  activateSkillTab(button);
+});
 
+// Single place that actually switches tabs (.active class + ARIA state) -
+// both the click handler above and the arrow-key navigation below call this,
+// so the two ways of activating a tab (mouse and keyboard) can never drift
+// out of sync with each other.
+function activateSkillTab(button, { scroll = true } = {}) {
   const skill = button.dataset.skill;
   const parent = button.closest('.skill-tabs');
   const buttons = parent?.querySelectorAll('.skill-tab-button') || [];
   const panels = parent?.querySelectorAll('.skill-panel') || [];
 
-  buttons.forEach((btn) => btn.classList.toggle('active', btn === button));
+  buttons.forEach((btn) => {
+    const isActive = btn === button;
+    btn.classList.toggle('active', isActive);
+    btn.setAttribute('aria-selected', String(isActive));
+    btn.tabIndex = isActive ? 0 : -1;
+  });
   panels.forEach((panel) => {
     panel.classList.toggle('active', panel.dataset.skill === skill);
   });
 
-  parent?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  if (scroll) parent?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+// ARIA roles/relationships for every .skill-tabs block on the page (Tutor,
+// Verbos - any future one for free) - ids/aria-controls/aria-labelledby are
+// generated here rather than hardcoded per instance in index.html, so a new
+// .skill-tabs block never needs to remember to wire this up by hand. Runs
+// once at load; .active in the markup decides the initial selected tab, same
+// source of truth activateSkillTab() uses afterward.
+function initSkillTabsAccessibility() {
+  document.querySelectorAll('.skill-tabs').forEach((tabs, tabsIndex) => {
+    const list = tabs.querySelector('.skill-tab-list');
+    if (list) list.setAttribute('role', 'tablist');
+
+    const buttons = tabs.querySelectorAll('.skill-tab-button');
+    buttons.forEach((btn, index) => {
+      const skill = btn.dataset.skill || String(index);
+      const tabId = btn.id || `skill-tab-${tabsIndex}-${skill}`;
+      const panel = tabs.querySelector(`.skill-panel[data-skill="${skill}"]`);
+      const panelId = panel && (panel.id || `skill-panel-${tabsIndex}-${skill}`);
+      btn.id = tabId;
+      btn.setAttribute('role', 'tab');
+      const isActive = btn.classList.contains('active');
+      btn.setAttribute('aria-selected', String(isActive));
+      btn.tabIndex = isActive ? 0 : -1;
+      if (panel && panelId) {
+        panel.id = panelId;
+        panel.setAttribute('role', 'tabpanel');
+        panel.setAttribute('aria-labelledby', tabId);
+        btn.setAttribute('aria-controls', panelId);
+      }
+    });
+  });
+}
+initSkillTabsAccessibility();
+
+// Left/Right/Home/End on a focused tab moves focus AND activates the target
+// tab (standard ARIA tabs pattern) - matches how activateSkillTab() already
+// switches on click, so keyboard and mouse users land on the exact same
+// state. Delegated on the document (one listener for every .skill-tabs
+// block, present or future) rather than one per tablist.
+document.addEventListener('keydown', (event) => {
+  if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+  const currentTab = event.target.closest('.skill-tab-button');
+  if (!currentTab) return;
+  const list = currentTab.closest('.skill-tab-list');
+  const buttons = Array.from(list?.querySelectorAll('.skill-tab-button') || []);
+  if (!buttons.length) return;
+  event.preventDefault();
+
+  const currentIndex = buttons.indexOf(currentTab);
+  let nextIndex = currentIndex;
+  if (event.key === 'ArrowRight') nextIndex = (currentIndex + 1) % buttons.length;
+  else if (event.key === 'ArrowLeft') nextIndex = (currentIndex - 1 + buttons.length) % buttons.length;
+  else if (event.key === 'Home') nextIndex = 0;
+  else if (event.key === 'End') nextIndex = buttons.length - 1;
+
+  const nextButton = buttons[nextIndex];
+  activateSkillTab(nextButton, { scroll: false });
+  nextButton.focus();
 });
 
 const brandLink = document.querySelector('.brand');
@@ -11330,6 +11465,10 @@ function enableHomepageActions() {
   });
 
   document.getElementById('tutorDrawerPrompt')?.addEventListener('keydown', (event) => {
+    // Any keystroke while a post-dictation auto-send is pending restarts its
+    // 2s window (spec §5), letting the student finish an edit before it
+    // fires - a no-op the rest of the time.
+    restartTutorAutoSendIfPending('tutorDrawerPrompt');
     if (event.key !== 'Enter' || event.shiftKey) return;
     event.preventDefault();
     document.getElementById('tutorDrawerSend')?.click();
@@ -11857,6 +11996,7 @@ document.querySelectorAll('.nav-group a[data-scroll-target]').forEach((link) => 
 })();
 
 document.getElementById('aiTutorPrompt')?.addEventListener('keydown', (event) => {
+  restartTutorAutoSendIfPending('aiTutorPrompt');
   if (event.key !== 'Enter' || event.shiftKey) return;
   event.preventDefault();
   event.target.closest('.tutor-action')?.querySelector('.tutor-chat-btn')?.click();
