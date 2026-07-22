@@ -3269,6 +3269,35 @@ footer small {
   box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.16);
 }
 
+/* Optional, collapsible L1 support block (bilingual learningMode only -
+   see splitTutorL1Support/renderTutorL1SupportHtml in script.js). Never
+   rendered in direct mode, since the model never emits the marker there. */
+.tutor-l1-support {
+  margin-top: 0.6rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed rgba(148, 163, 184, 0.35);
+}
+
+.tutor-l1-toggle-btn {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  cursor: pointer;
+}
+
+.tutor-l1-text {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.tutor-l1-text[hidden] {
+  display: none;
+}
+
 .tutor-voice-controls {
   display: flex;
   flex-wrap: wrap;
@@ -6571,6 +6600,9 @@ footer small {
 }
 
 .grammar-test-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   border: 1px solid var(--line);
   background: var(--white);
   border-radius: var(--radius-md);
@@ -6583,6 +6615,26 @@ footer small {
     background var(--duration-fast) var(--ease-standard),
     border-color var(--duration-fast) var(--ease-standard),
     transform var(--duration-fast) var(--ease-standard);
+}
+
+/* A/B/C/D badge (spec §4) - aria-hidden on the letter itself since the
+   option's real accessible name is its text + aria-pressed state, not the
+   letter (which is just a visual reference for "which option is which"). */
+.grammar-test-option-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--light);
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.grammar-test-option.is-selected .grammar-test-option-letter {
+  background: var(--blue);
+  color: white;
 }
 
 .grammar-test-option:hover {
@@ -6747,6 +6799,106 @@ footer small {
   color: var(--muted);
   font-size: 0.85rem;
   margin-top: 0.2rem;
+}
+
+/* Explicit, visible "Correcta"/"Incorrecta" text next to the emoji (spec
+   §4: never color-only feedback) and the explicit correct-answer reveal
+   when the student got it wrong. */
+.grammar-test-breakdown-status-text {
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  margin-right: 0.3rem;
+}
+
+.grammar-test-breakdown-item.is-correct .grammar-test-breakdown-status-text {
+  color: #15803d;
+}
+
+.grammar-test-breakdown-item.is-incorrect .grammar-test-breakdown-status-text {
+  color: #b91c1c;
+}
+
+.grammar-test-breakdown-correct-answer {
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  color: var(--navy-2);
+}
+
+/* "Lección completa" (spec §4) - shown before the test starts, parsed from
+   the same hand-authored grammarNote every unit already carries (see
+   parseGrammarNoteSections in src/js/script.js). */
+.grammar-lesson-content {
+  margin: 1rem 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 0.9rem 1.1rem;
+  background: var(--surface);
+}
+
+.grammar-lesson-content summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.grammar-lesson-section {
+  margin-top: 0.9rem;
+}
+
+.grammar-lesson-section h4 {
+  margin: 0 0 0.25rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--blue);
+}
+
+.grammar-lesson-section p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+/* Historial de intentos (spec §4) */
+.grammar-test-history {
+  margin-top: 1rem;
+}
+
+.grammar-test-history-details summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.grammar-test-history-list {
+  list-style: none;
+  margin: 0.6rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.grammar-test-history-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.grammar-test-history-item.is-best {
+  border-color: #eab308;
+  background: rgba(234, 179, 8, 0.08);
+}
+
+.grammar-test-history-best-tag {
+  margin-left: auto;
+  font-weight: 700;
+  color: #92700a;
 }
 
 /* Vocabulary flashcards - one shared card component (see
@@ -8527,4 +8679,97 @@ footer small {
 
 .verb-practice-feedback.is-incorrect {
   color: #b91c1c;
+}
+
+/* Mi progreso (Fase 3) - reuses getStoredVocabMastery/VERB_PRACTICE_STATS_KEY,
+   see verbs-view.js#renderVerbsProgress. No new data model, just a display. */
+.verb-progress-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.verb-progress-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.85rem 0.9rem;
+  border-radius: 14px;
+  background: var(--light);
+  border: 1px solid var(--line);
+  text-align: center;
+}
+
+.verb-progress-tile strong {
+  font-size: 1.4rem;
+  color: var(--navy-2);
+}
+
+.verb-progress-tile span {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.verb-progress-totals {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0 0 1.25rem;
+}
+
+.verb-progress-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.verb-progress-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+
+.verb-progress-word {
+  font-weight: 700;
+  text-transform: capitalize;
+  min-width: 70px;
+}
+
+.verb-progress-mastery-badge--new {
+  background: rgba(148, 163, 184, 0.16);
+  color: #475569;
+}
+
+.verb-progress-mastery-badge--learning {
+  background: rgba(37, 99, 235, 0.1);
+  color: #1e3a8a;
+}
+
+.verb-progress-mastery-badge--practicing {
+  background: rgba(234, 179, 8, 0.14);
+  color: #92700a;
+}
+
+.verb-progress-mastery-badge--mastered {
+  background: rgba(34, 197, 94, 0.12);
+  color: #15803d;
+}
+
+.verb-progress-stat {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.verb-progress-last {
+  margin-left: auto;
 }

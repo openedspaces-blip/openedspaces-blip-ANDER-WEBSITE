@@ -122,6 +122,17 @@ async function main() {
           estimated_minutes: row.estimated_minutes || 10,
           audio_url: row.audio_url || null,
           is_published: true,
+          // Was missing here (present in scripts/migrate-spanish-a1-units.js's
+          // equivalent upsert since it was written) - loadLessonFull() reads
+          // grammar_note/mission/phrases straight off course_lessons, so
+          // without these every English A1 lesson's `lesson.grammar` (Grammar's
+          // "lección completa" content, mission text, and phrase list) was
+          // silently null in the live app, even though content_json/
+          // lib/seed-lessons.json always had them. Fixed here, not run yet -
+          // only takes effect the next time this migration is actually executed.
+          mission: content.mission || null,
+          grammar_note: content.grammar || null,
+          phrases: content.phrases && content.phrases.length ? content.phrases : null,
           extra: content.extra || null
         },
         { onConflict: 'slug' }

@@ -312,10 +312,27 @@
 
   function recordVerbAttempt(verbId, isCorrect) {
     const store = readPracticeStatsStore();
-    const stats = store[verbId] || { attempts: 0, correct: 0, incorrect: 0, lastPracticedAt: null };
+    const stats = store[verbId] || {
+      attempts: 0,
+      correct: 0,
+      incorrect: 0,
+      lastPracticedAt: null,
+      // Consecutive-correct streak for this verb (spec: "racha") - resets to
+      // 0 on any incorrect answer, tracked alongside bestStreak (Mi
+      // progreso's headline number) the same way attempts/correct/incorrect
+      // already are, in the same store - not a parallel system.
+      streak: 0,
+      bestStreak: 0
+    };
     stats.attempts += 1;
-    if (isCorrect) stats.correct += 1;
-    else stats.incorrect += 1;
+    if (isCorrect) {
+      stats.correct += 1;
+      stats.streak = (stats.streak || 0) + 1;
+      stats.bestStreak = Math.max(stats.bestStreak || 0, stats.streak);
+    } else {
+      stats.incorrect += 1;
+      stats.streak = 0;
+    }
     stats.lastPracticedAt = new Date().toISOString();
     store[verbId] = stats;
     try {
@@ -599,6 +616,117 @@
     `;
   }
 
+  // ---------------------------------------------------------------------
+  // Mi progreso. Reuses the exact two stores everything else on this page
+  // already reads/writes - getStoredVocabMastery (shared with Vocabulary,
+  // spec: "no crear un sistema paralelo si el progreso actual puede
+  // reutilizarse") for the Nuevo/Aprendiendo/Necesito practicar/Dominado
+  // status, and this file's own VERB_PRACTICE_STATS_KEY (already recording
+  // attempts/correct/incorrect/lastPracticedAt/streak via recordVerbAttempt)
+  // for the rest. No new storage, no network, nothing Supabase-facing.
+  // ---------------------------------------------------------------------
+
+  const MASTERY_LABELS = {
+    new: 'Nuevo',
+    learning: 'Aprendiendo',
+    practicing: 'Necesito practicar',
+    mastered: 'Dominado'
+  };
+
+  function formatLastPracticed(iso) {
+    if (!iso) return 'Todavía no practicado';
+    const date = new Date(iso);
+    if (Number.isNaN(date.getTime())) return 'Todavía no practicado';
+    return date.toLocaleDateString('es-DO', { day: 'numeric', month: 'short', year: 'numeric' });
+  }
+
+  function computeVerbsProgressSummary(targetLanguage) {
+    const verbs = getVerbsForLanguage(targetLanguage);
+    const statsStore = readPracticeStatsStore();
+    const rows = verbs
+      .map((verb) => {
+        const stats = statsStore[verb.id] || {
+          attempts: 0,
+          correct: 0,
+          incorrect: 0,
+          lastPracticedAt: null,
+          streak: 0,
+          bestStreak: 0
+        };
+        const mastery = getStoredVocabMastery(verb.id) || 'new';
+        return { verb, mastery, ...stats };
+      })
+      .sort((a, b) => (b.attempts || 0) - (a.attempts || 0) || (a.verb.frequencyRank || 0) - (b.verb.frequencyRank || 0));
+
+    const counts = { new: 0, learning: 0, practicing: 0, mastered: 0 };
+    rows.forEach((row) => {
+      counts[row.mastery] = (counts[row.mastery] || 0) + 1;
+    });
+    const totalVerbs = rows.length;
+    const masteredPct = totalVerbs ? Math.round((counts.mastered / totalVerbs) * 100) : 0;
+    const totalAttempts = rows.reduce((sum, row) => sum + (row.attempts || 0), 0);
+    const totalCorrect = rows.reduce((sum, row) => sum + (row.correct || 0), 0);
+    const totalIncorrect = rows.reduce((sum, row) => sum + (row.incorrect || 0), 0);
+    // "Racha" headline number: the longest streak currently active among all
+    // 10 verbs (an active streak, not a lifetime best - one wrong answer on
+    // that verb resets it, same as recordVerbAttempt does per-verb).
+    const currentStreak = rows.reduce((max, row) => Math.max(max, row.streak || 0), 0);
+
+    return { rows, counts, totalVerbs, masteredPct, totalAttempts, totalCorrect, totalIncorrect, currentStreak };
+  }
+
+  function renderVerbsProgress() {
+    const content = document.getElementById('verbsProgressContent');
+    if (!content) return;
+
+    const targetLanguage = 'english'; // pilot: English only (see index.html note)
+    const summary = computeVerbsProgressSummary(targetLanguage);
+
+    if (!summary.totalVerbs) {
+      content.innerHTML = '<p class="skill-graph-empty">No hay verbos disponibles todavía.</p>';
+      return;
+    }
+
+    const statTileHtml = (label, value) => `
+      <div class="verb-progress-tile">
+        <strong>${escapeHtml(String(value))}</strong>
+        <span>${escapeHtml(label)}</span>
+      </div>`;
+
+    const summaryHtml = `
+      <div class="verb-progress-summary">
+        ${statTileHtml('Nuevo', summary.counts.new || 0)}
+        ${statTileHtml('Aprendiendo', summary.counts.learning || 0)}
+        ${statTileHtml('Necesito practicar', summary.counts.practicing || 0)}
+        ${statTileHtml('Dominado', summary.counts.mastered || 0)}
+        ${statTileHtml('% de dominio', `${summary.masteredPct}%`)}
+        ${statTileHtml('Racha actual', summary.currentStreak)}
+      </div>
+      <p class="verb-progress-totals">
+        Intentos totales: ${summary.totalAttempts} · Aciertos: ${summary.totalCorrect} · Errores: ${summary.totalIncorrect}
+      </p>`;
+
+    const rowsHtml = summary.rows
+      .map(
+        (row) => `
+        <li class="verb-progress-row">
+          <span class="verb-progress-word">${escapeHtml(row.verb.infinitive)}</span>
+          <span class="vocab-card-tag verb-progress-mastery-badge verb-progress-mastery-badge--${escapeHtml(row.mastery)}">${escapeHtml(MASTERY_LABELS[row.mastery] || row.mastery)}</span>
+          <span class="verb-progress-stat">Intentos: ${row.attempts || 0}</span>
+          <span class="verb-progress-stat">Aciertos: ${row.correct || 0}</span>
+          <span class="verb-progress-stat">Errores: ${row.incorrect || 0}</span>
+          <span class="verb-progress-stat">Racha: ${row.streak || 0}</span>
+          <span class="verb-progress-stat verb-progress-last">${escapeHtml(formatLastPracticed(row.lastPracticedAt))}</span>
+        </li>`
+      )
+      .join('');
+
+    content.innerHTML = `
+      ${summaryHtml}
+      <ul class="verb-progress-list">${rowsHtml}</ul>
+    `;
+  }
+
   // Entry point - called from script.js's showView() when the resolved view
   // is 'verbs'. Normalizes the hash to carry the language segment
   // (#verbs/english), same spirit as updateLearnHash() but scoped locally
@@ -609,6 +737,7 @@
     }
     renderVerbsDeck();
     renderVerbsConjugator();
+    renderVerbsProgress();
   };
 
   document.addEventListener('input', (event) => {
@@ -657,6 +786,16 @@
       // this reuses the markup pattern from; 'start' scrolls the target
       // flush under the sticky .navbar, which then overlaps it.
       conjugatorPanel?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+
+    // Refreshes Mi progreso every time its tab is opened (not only on the
+    // #verbs entry point) - the student may have just finished a Practicar
+    // session and switched tabs without leaving/re-entering #verbs. The
+    // generic .skill-tab-button visibility toggle (script.js) still handles
+    // showing/hiding the panel itself; this only re-renders its content.
+    if (event.target.closest('#verbsTabs .skill-tab-button[data-skill="progress"]')) {
+      renderVerbsProgress();
       return;
     }
 

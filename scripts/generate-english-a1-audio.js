@@ -176,9 +176,20 @@ function genderForSpeakerIndex(index) {
   return index % 2 === 0 ? 'female' : 'male';
 }
 
+// Only accurate for activityType: 'dialogue' calls - resolveElevenLabsVoiceId
+// (lib/ttsService.js) only branches on gender when activityType is exactly
+// 'dialogue'; for every other call (the narrator tiers, dictation segments)
+// it ignores gender entirely and always resolves to NARRATOR_VOICE_ENV_LABEL
+// below, regardless of what item.gender/narratorGender() computed. Keep
+// these two labels separate rather than reusing one for both, so the
+// dry-run report never claims a narrator clip depends on
+// ELEVENLABS_VOICE_ID_EN_FEMALE when it actually depends on
+// ELEVENLABS_VOICE_ID_EN.
 function voiceLabelForGender(gender) {
   return gender === 'male' ? 'ELEVENLABS_VOICE_ID_EN_MALE' : 'ELEVENLABS_VOICE_ID_EN_FEMALE';
 }
+
+const NARRATOR_VOICE_ENV_LABEL = 'ELEVENLABS_VOICE_ID_EN (o ELEVENLABS_VOICE_ID_EN_FEMALE / ELEVENLABS_VOICE_ID como respaldo)';
 
 function genderForSpeaker(speaker, speakers) {
   const index = (speakers || []).indexOf(speaker);
@@ -364,7 +375,7 @@ function printPlan(plan, existing) {
   plan.mainItems.forEach((item) => {
     const done = existing ? mainItemAlreadyDone(item, existing) : false;
     console.log(
-      `    [${done ? 'YA EXISTE - se omite salvo --force' : 'pendiente'}] ${item.tier} -> ${BUCKET}/${item.storagePath} (${voiceLabelForGender(item.gender)}, modelo: ${item.model || 'default'}, speed: ${item.speed ?? 'default'}, ${item.chars} caracteres)`
+      `    [${done ? 'YA EXISTE - se omite salvo --force' : 'pendiente'}] ${item.tier} -> ${BUCKET}/${item.storagePath} (${NARRATOR_VOICE_ENV_LABEL}, modelo: ${item.model || 'default'}, speed: ${item.speed ?? 'default'}, ${item.chars} caracteres)`
     );
   });
   if (plan.dialogueItem) {
@@ -383,7 +394,7 @@ function printPlan(plan, existing) {
   plan.dictationItems.forEach((item) => {
     const done = existing ? dictationItemAlreadyDone(item, existing) : false;
     console.log(
-      `    [${done ? 'YA EXISTE - se omite salvo --force' : 'pendiente'}] segmento ${item.order} -> ${BUCKET}/${item.storagePath} (voz: ${item.speaker || 'Narrador'}, ${voiceLabelForGender(item.gender)}, ${item.chars} caracteres) "${item.text}"`
+      `    [${done ? 'YA EXISTE - se omite salvo --force' : 'pendiente'}] segmento ${item.order} -> ${BUCKET}/${item.storagePath} (línea de referencia: ${item.speaker || 'Narrador'}, voz real: ${NARRATOR_VOICE_ENV_LABEL}, ${item.chars} caracteres) "${item.text}"`
     );
   });
   console.log('');
@@ -439,10 +450,25 @@ async function main() {
 
   const results = { generated: [], skipped: [], failed: [] };
 
-  // 1) Narrator tiers - one voice, full transcript, 3 speeds.
+  // 1) Narrator tiers - one voice, full transcript, 3 speeds. Processed in
+  // plan.mainItems' order (normal, slow, verySlow - see SPEED_TIERS), which
+  // matters for mainRowWillExist below: main_file_path is NOT NULL with no
+  // default, so a slow/verySlow-only upsert would violate that constraint
+  // on a lesson_audio row that doesn't exist yet - only possible if the
+  // 'normal' tier itself failed this same run (row was never created).
+  // Skipping slow/verySlow in that one case (instead of letting Postgres
+  // reject the insert) turns a confusing DB error into a clear message.
+  let mainRowWillExist = Boolean(existing.audioRow);
   for (const item of plan.mainItems) {
     if (!force && mainItemAlreadyDone(item, existing)) {
       results.skipped.push(item.storagePath);
+      if (item.tier === 'normal') mainRowWillExist = true;
+      continue;
+    }
+    if (item.tier !== 'normal' && !mainRowWillExist) {
+      results.failed.push(
+        `${item.storagePath}: se omite - la fila lesson_audio no existe todavía y el nivel "normal" (main_file_path, NOT NULL) falló o fue omitido en esta misma corrida.`
+      );
       continue;
     }
     try {
@@ -479,6 +505,7 @@ async function main() {
         .upsert(patch, { onConflict: 'language,level,lesson_slug' });
       if (upsertError) throw new Error(upsertError.message);
 
+      if (item.tier === 'normal') mainRowWillExist = true;
       results.generated.push(item.storagePath);
     } catch (err) {
       results.failed.push(`${item.storagePath}: ${err.message}`);
@@ -490,6 +517,14 @@ async function main() {
     const item = plan.dialogueItem;
     if (!force && dialogueItemAlreadyDone(item, existing)) {
       results.skipped.push(item.storagePath);
+    } else if (!mainRowWillExist) {
+      // Same NOT NULL guard as the narrator loop above: dialogue_file_path
+      // is nullable, but this upsert still needs an existing row (or
+      // main_file_path alongside it) to attach to - never worth spending an
+      // ElevenLabs call on a file this run can't actually link anywhere.
+      results.failed.push(
+        `${item.storagePath}: se omite - la fila lesson_audio no existe todavía (el nivel "normal" falló o fue omitido en esta misma corrida).`
+      );
     } else {
       try {
         const lines = item.lines.map((line) => ({

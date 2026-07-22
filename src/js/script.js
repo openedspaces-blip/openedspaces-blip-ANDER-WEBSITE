@@ -3614,10 +3614,84 @@ function cleanTutorTextForSpeech(rawText) {
     .trim();
 }
 
+// Must match lib/aiTutorService.js's L1_SUPPORT_MARKER exactly - the one
+// place the model is allowed to write native-language (L1) text, always
+// after a complete L2-only main response, on 'bilingual' learningMode only
+// (never emitted in 'direct' mode - see that file's TUTOR_INSTRUCTIONS).
+const TUTOR_L1_SUPPORT_MARKER = '[[L1_SUPPORT]]';
+
+// Tolerates a marker that's only partially streamed in so far (e.g. the
+// chunk boundary landed mid-marker) by trimming any trailing prefix of the
+// marker from the visible text until the rest of it arrives - same
+// "safe on a partial/still-streaming line" tolerance formatTutorInlineHtml
+// already relies on for **bold**.
+function stripPartialL1Marker(text) {
+  for (let len = TUTOR_L1_SUPPORT_MARKER.length - 1; len > 0; len--) {
+    if (text.endsWith(TUTOR_L1_SUPPORT_MARKER.slice(0, len))) {
+      return text.slice(0, text.length - len);
+    }
+  }
+  return text;
+}
+
+// Splits a raw tutor reply into its L2-only main body and the optional L1
+// support blurb (spec: "cualquier apoyo en L1 debe aparecer en un bloque
+// separado y opcional"). `l1` is '' whenever the marker hasn't appeared
+// (direct mode, or a bilingual reply that didn't need L1 support) - callers
+// simply skip rendering the toggle in that case.
+function splitTutorL1Support(text) {
+  const raw = String(text || '');
+  const idx = raw.indexOf(TUTOR_L1_SUPPORT_MARKER);
+  if (idx === -1) return { main: stripPartialL1Marker(raw), l1: '' };
+  return { main: raw.slice(0, idx).trim(), l1: raw.slice(idx + TUTOR_L1_SUPPORT_MARKER.length).trim() };
+}
+
+function renderTutorL1SupportHtml(l1) {
+  if (!l1) return '';
+  const bridgeLabel = languageDisplayNames[learningPathState.bridgeLanguage] || learningPathState.bridgeLanguage;
+  return `
+    <div class="tutor-l1-support">
+      <button type="button" class="tutor-l1-toggle-btn" aria-expanded="false">Mostrar apoyo en ${escapeHtml(bridgeLabel)}</button>
+      <p class="tutor-l1-text" hidden></p>
+    </div>
+  `;
+}
+
+function wireTutorL1Toggle(messageEl) {
+  const btn = messageEl.querySelector('.tutor-l1-toggle-btn');
+  const textEl = messageEl.querySelector('.tutor-l1-text');
+  if (!btn || !textEl || btn.dataset.wired) return;
+  btn.dataset.wired = 'true';
+  const bridgeLabel = languageDisplayNames[learningPathState.bridgeLanguage] || learningPathState.bridgeLanguage;
+  btn.addEventListener('click', () => {
+    const nowHidden = !textEl.hidden;
+    textEl.hidden = nowHidden;
+    btn.setAttribute('aria-expanded', String(!nowHidden));
+    btn.textContent = nowHidden
+      ? `Mostrar apoyo en ${bridgeLabel}`
+      : `Ocultar apoyo en ${bridgeLabel}`;
+  });
+}
+
+// Renders/updates the optional L1 support block for a tutor message,
+// creating it on first appearance (marker just streamed in) and keeping its
+// (still-hidden-by-default) text in sync on every later delta.
+function syncTutorL1SupportBlock(messageEl, l1) {
+  if (!l1) return;
+  let wrap = messageEl.querySelector('.tutor-l1-support');
+  if (!wrap) {
+    messageEl.insertAdjacentHTML('beforeend', renderTutorL1SupportHtml(l1));
+    wireTutorL1Toggle(messageEl);
+    wrap = messageEl.querySelector('.tutor-l1-support');
+  }
+  const textEl = wrap?.querySelector('.tutor-l1-text');
+  if (textEl) textEl.innerHTML = renderTutorMarkdownHtml(l1);
+}
+
 // Returns the message wrapper <div> (not just its body <p>) so streaming
 // callers (see sendTutorMessage()) can keep updating its text as chunks
 // arrive, and so tutor voice controls (renderTutorVoiceControls()) have
-// somewhere to attach once the first complete sentence has streamed in.
+// somewhere to attach once the reply has finished streaming.
 function appendTutorMessage(container, role, text, { isError = false } = {}) {
   if (!container) return null;
   const message = document.createElement('div');
@@ -3628,14 +3702,17 @@ function appendTutorMessage(container, role, text, { isError = false } = {}) {
   label.textContent = role === 'user' ? 'Tú' : '🤖 Tutor IA ANDERGO';
 
   const body = document.createElement('p');
-  // Only real Tutor replies go through the Markdown cleanup - error strings
-  // are our own plain text, never the model's, so they stay a simple escape.
-  body.innerHTML =
-    role === 'tutor' && !isError
-      ? renderTutorMarkdownHtml(text)
-      : escapeHtml(text).replace(/\n/g, '<br>');
+  const isTutorReply = role === 'tutor' && !isError;
+  // Only real Tutor replies go through the Markdown cleanup/L1 split - error
+  // strings are our own plain text, never the model's, so they stay a
+  // simple escape.
+  const { main, l1 } = isTutorReply ? splitTutorL1Support(text) : { main: text, l1: '' };
+  body.innerHTML = isTutorReply
+    ? renderTutorMarkdownHtml(main)
+    : escapeHtml(text).replace(/\n/g, '<br>');
 
   message.append(label, body);
+  if (isTutorReply && l1) syncTutorL1SupportBlock(message, l1);
   container.appendChild(message);
   container.scrollTop = container.scrollHeight;
   return message;
@@ -3667,11 +3744,15 @@ function appendTutorUsageNotice(container, message, { locked = false } = {}) {
 }
 
 // Updates an in-progress tutor message bubble's text (see appendTutorMessage's
-// returned wrapper) as streamed chunks accumulate.
+// returned wrapper) as streamed chunks accumulate. Splits off the optional
+// L1 support block (see splitTutorL1Support) on every update so the visible
+// main body is always L2-only, even mid-stream.
 function updateTutorMessageBody(messageEl, container, text) {
   if (!messageEl) return;
+  const { main, l1 } = splitTutorL1Support(text);
   const body = messageEl.querySelector('p');
-  if (body) body.innerHTML = renderTutorMarkdownHtml(text);
+  if (body) body.innerHTML = renderTutorMarkdownHtml(main);
+  syncTutorL1SupportBlock(messageEl, l1);
   if (container) container.scrollTop = container.scrollHeight;
 }
 
@@ -3787,14 +3868,11 @@ function stopAllTutorAudio() {
   currentTutorAudio = { element: null, messageEl: null };
 }
 
-// The controls row is injected once the streamed reply reaches its first
-// complete sentence (see sendTutorMessage()'s SSE loop), not only once the
-// whole reply is done - lets the student start listening earlier. Hidden
+// The controls row is injected only once the streamed reply has finished
+// completely (see sendTutorMessage()'s SSE loop) - never mid-stream, so
+// "Escuchar" can never read a partial/incomplete reply aloud. Hidden
 // entirely (never rendered) when the browser has no speechSynthesis at all -
 // mirrors the flashcard pronunciation feature's graceful-degradation rule.
-// A user without speechSynthesis could in principle still be a Premium
-// account eligible for neural-only playback, but that's rare enough that
-// gating the whole row on the same signal as flashcards keeps this simple.
 function renderTutorVoiceControls(messageEl) {
   if (!supportsSpeech() || messageEl.querySelector('.tutor-voice-controls')) return;
   const controls = document.createElement('div');
@@ -3817,18 +3895,22 @@ function renderTutorVoiceControls(messageEl) {
 // right after a tutor reply finishes streaming when the "reproducir
 // automáticamente" preference is on, or when the Premium hands-free
 // conversation mode is active (see sendTutorMessage and getTutorAutoplayPref).
-// `auto: true` only changes how a blocked/failed playback is reported - it
-// never skips the fetch or plays without going through the same synthesize
-// call a manual click would. `onPlaybackEnd`, when given, always fires
-// exactly once - on a normal end, a blocked/failed playback, or even a
-// missing ttsText - so a caller chaining off it (resumeTutorConversationListening)
-// never waits forever on a turn that never actually produced audio.
-async function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
+// Reads the reply aloud entirely client-side via the browser's own
+// speechSynthesis (speakText) - no network call, no login requirement, no
+// per-message/monthly limit: TTS is not a Premium feature and must never be
+// artificially capped (distinct from the separate Premium hands-free
+// "Conversar" audio-to-audio mode this same function also powers - that
+// mode's Premium gate lives in handleTutorConversationToggleClick, not
+// here). `auto: true` only changes how a blocked autoplay is reported.
+// `onPlaybackEnd`, when given, always fires exactly once - on a normal end,
+// a blocked autoplay, or a missing ttsText/unsupported browser - so a caller
+// chaining off it (resumeTutorConversationListening) never waits forever on
+// a turn that never actually produced audio.
+function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
   const controls = messageEl.querySelector('.tutor-voice-controls');
-  const listenBtn = controls?.querySelector('.tutor-voice-listen');
   const stopBtn = controls?.querySelector('.tutor-voice-stop');
   const pauseBtn = controls?.querySelector('.tutor-voice-pause');
-  const rewindBtn = controls?.querySelector('.tutor-voice-rewind');
+  const listenBtn = controls?.querySelector('.tutor-voice-listen');
   const limitMsg = controls?.querySelector('.tutor-voice-limit-message');
   const speed = controls?.querySelector('.tutor-voice-speed-btn.is-active')?.dataset.speed || 'normal';
   const text = messageEl.dataset.ttsText || '';
@@ -3839,9 +3921,11 @@ async function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {
     return;
   }
 
+  // Always stops whatever was playing before (any earlier reply, or this
+  // same one) - never two utterances overlapping.
   stopAllTutorAudio();
-  if (listenBtn) listenBtn.disabled = true;
   if (limitMsg) limitMsg.hidden = true;
+  messageEl.dataset.ttsMode = 'browser';
 
   const onEnd = () => {
     messageEl.classList.remove('is-playing');
@@ -3850,107 +3934,26 @@ async function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {
     resetTutorVoiceButtons(messageEl);
   };
 
-  // Only ever shown for the two cases the spec calls out explicitly: the
-  // browser blocked autoplay, or synthesis/playback failed outright - never
-  // the raw error/rejection, which could be a technical, untranslated string.
-  const showDiscreetNotice = (message) => {
+  if (!supportsSpeech()) {
+    if (auto) console.warn('[Tutor] auto-play skipped: speechSynthesis unsupported.');
     onEnd();
     if (limitMsg) {
-      limitMsg.textContent = message;
+      limitMsg.textContent = 'Este navegador no admite lectura en voz alta. Puedes continuar leyendo la respuesta.';
       limitMsg.hidden = false;
     }
-  };
-
-  try {
-    const response = await fetch(`${backendBaseUrl}/api/speech/synthesize`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeaders() },
-      body: JSON.stringify({
-        text,
-        language: learningPathState.language,
-        locale,
-        speed,
-        turnIndex: Number(messageEl.dataset.turnIndex) || 1
-      })
-    });
-    const data = await response.json().catch(() => ({}));
-
-    if (!response.ok) {
-      if (data.limited && limitMsg) {
-        limitMsg.textContent = data.message;
-        limitMsg.hidden = false;
-        if (listenBtn) listenBtn.disabled = true; // stays disabled for the rest of the session
-        openPaywallModal({
-          featureLabel: 'conversaciones de voz',
-          used: data.used,
-          limit: data.limit
-        });
-        onPlaybackEnd?.();
-        return;
-      }
-      throw new Error('synthesize-failed');
-    }
-
-    messageEl.dataset.ttsMode = data.mode;
-
-    // Controls only flip to "playing" once playback has actually started -
-    // if audio.play() below rejects (e.g. autoplay blocked), the message
-    // bubble/buttons must stay in their normal, not-playing state instead of
-    // looking stuck on "reproduciendo" with nothing audible.
-    const markPlaying = () => {
-      messageEl.classList.add('is-playing');
-      if (stopBtn) stopBtn.disabled = false;
-      if (pauseBtn) {
-        pauseBtn.disabled = false;
-        pauseBtn.textContent = '⏸ Pausar';
-      }
-      if (rewindBtn) {
-        // Rewind needs a seekable <audio> element - speechSynthesis has no
-        // seek API, so it stays hidden in browser-fallback mode.
-        rewindBtn.hidden = data.mode !== 'neural';
-        rewindBtn.disabled = data.mode !== 'neural';
-      }
-      if (listenBtn) listenBtn.dataset.played = 'true';
-    };
-
-    if (data.mode === 'neural' && data.audioBase64) {
-      const audio = getSharedTutorAudioElement();
-      audio.pause();
-      audio.currentTime = 0;
-      audio.src = `data:${data.mimeType || 'audio/mpeg'};base64,${data.audioBase64}`;
-      audio.playbackRate = 1;
-      audio.onended = onEnd;
-      audio.onerror = onEnd;
-      currentTutorAudio = { element: audio, messageEl };
-      try {
-        await audio.play();
-      } catch (playError) {
-        currentTutorAudio = { element: null, messageEl: null };
-        if (auto) {
-          console.warn('[Tutor] autoplay blocked:', playError?.name, playError?.message);
-        }
-        if (playError?.name === 'NotAllowedError') {
-          showDiscreetNotice('Pulsa reproducir para escuchar la respuesta.');
-          if (listenBtn) listenBtn.disabled = false;
-          return;
-        }
-        throw playError;
-      }
-    } else {
-      currentTutorAudio = { element: null, messageEl };
-      speakText(text, { locale, rate: speed === 'slow' ? 0.75 : 1, onEnd });
-    }
-
-    markPlaying();
-    if (listenBtn) listenBtn.disabled = false;
-  } catch (error) {
-    if (auto) console.warn('[Tutor] auto-play request failed:', error?.message || error);
-    // Only ever surfaced after a real playback attempt (manual click or
-    // autoplay) failed - never shown up front, and never blocks the reply
-    // text itself, which stays visible either way.
-    showDiscreetNotice('No pudimos reproducir el audio. Puedes continuar leyendo la respuesta.');
-    if (listenBtn) listenBtn.disabled = false;
+    return;
   }
+
+  currentTutorAudio = { element: null, messageEl };
+  speakText(text, { locale, rate: speed === 'slow' ? 0.75 : 1, onEnd });
+
+  messageEl.classList.add('is-playing');
+  if (stopBtn) stopBtn.disabled = false;
+  if (pauseBtn) {
+    pauseBtn.disabled = false;
+    pauseBtn.textContent = '⏸ Pausar';
+  }
+  if (listenBtn) listenBtn.dataset.played = 'true';
 }
 
 // Course-backed lessons (normalized schema, e.g. English A1) send options as
@@ -4179,6 +4182,15 @@ let tutorDictation = {
   timeoutId: null
 };
 
+// Set right before sendTutorMessage stops an in-progress recognition to send
+// early (spec: "el usuario también debe poder enviar manualmente antes de
+// que terminen los dos segundos") - tells the recognizer's own 'end' handler
+// not to also overwrite the textarea (now cleared by the send that just
+// happened) or auto-click send a second time. Read once and reset by that
+// handler; a single module-level flag is enough since only one recognition
+// session is ever active at a time.
+let tutorDictationManualSendSuppressed = false;
+
 function getSpeechRecognitionCtor() {
   return window.SpeechRecognition || window.webkitSpeechRecognition || null;
 }
@@ -4293,8 +4305,10 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
     micBtn.setAttribute('aria-pressed', 'true');
   }
   if (stopBtn) stopBtn.hidden = false;
-  const sendBtn = getDictationSendButton(textareaId);
-  if (sendBtn) sendBtn.disabled = true;
+  // Send stays enabled while listening - the student can send manually
+  // before the ~2s silence auto-send fires (see sendTutorMessage, which
+  // stops this recognizer and suppresses its own auto-send when that
+  // happens).
   setDictationStatusText(textareaId, continuous ? 'Escuchando… habla cuando quieras.' : 'Escuchando…');
 
   recognition.addEventListener('result', (event) => {
@@ -4331,15 +4345,21 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
   // message (e.g. permission denied) with a generic one.
   recognition.addEventListener('end', () => {
     if (silenceTimerId) window.clearTimeout(silenceTimerId);
+    // A manual send (sendTutorMessage) already stopped this recognizer and
+    // read/cleared the textarea itself - don't repopulate it with the
+    // now-stale transcript, and don't auto-click send a second time.
+    const suppressed = tutorDictationManualSendSuppressed;
+    tutorDictationManualSendSuppressed = false;
     const hadFinalText = Boolean(finalTranscript.trim());
-    if (hadFinalText) {
+    if (hadFinalText && !suppressed) {
       const polished = normalizeSpeechTranscript(finalTranscript.trim(), learningPathState.language);
       textarea.value = [baseText, polished].filter(Boolean).join(' ');
     }
     tutorDictation = { recognition: null, status: 'idle', textareaId: null, timeoutId: null };
     resetDictationUI(textareaId);
+    if (suppressed) return;
     if (hadFinalText && autoSend) {
-      setDictationStatusText(textareaId, 'Enviando…');
+      setDictationStatusText(textareaId, 'Procesando…');
       getDictationSendButton(textareaId)?.click();
       return;
     }
@@ -4379,6 +4399,18 @@ let translatorDictation = {
   status: 'idle', // idle | listening | unsupported
   timeoutId: null
 };
+
+// Set by setupTranslator() once the Traductor view's runTranslation() closure
+// exists - lets startTranslatorDictation() (defined earlier in the file,
+// outside that closure) trigger the same auto-translate-after-silence flow
+// the Enter key and the Traducir button use, without duplicating its logic.
+let translateTranslatorInputNow = null;
+
+// Mirrors tutorDictationManualSendSuppressed: set right before runTranslation
+// stops an in-progress recognition to translate early (manual Enter/click
+// while still listening) - tells the recognizer's 'end' handler not to also
+// overwrite the textarea or auto-translate a second time.
+let translatorDictationManualSendSuppressed = false;
 
 function setTranslatorDictateStatusText(text) {
   const statusEl = document.getElementById('translatorInputDictateStatus');
@@ -4445,13 +4477,20 @@ function startTranslatorDictation() {
   // so it falls back to Spanish - most likely tongue for this app's users.
   recognition.lang = DICTATION_LANGUAGE_CODES[sourceSelect?.value] || 'es-ES';
   recognition.interimResults = true;
-  recognition.continuous = false;
+  // Stays open (instead of stopping after one phrase) so the ~2s-silence
+  // timer below decides when the student is actually done talking, same
+  // pattern as the Tutor's mic (startTutorDictation).
+  recognition.continuous = true;
 
   translatorDictation = { recognition, status: 'listening', timeoutId: null };
 
   const baseText = textarea.value.trim();
   let finalTranscript = '';
   let hadError = false;
+  // Only starts counting once the student has actually said something
+  // (first 'result'), and restarts on every new result - "esperar ~2
+  // segundos sin nueva voz" / "cancelar el temporizador si vuelve a hablar".
+  let silenceTimerId = null;
 
   const micBtn = document.getElementById('translatorDictateBtn');
   const stopBtn = document.getElementById('translatorDictateStopBtn');
@@ -4473,6 +4512,9 @@ function startTranslatorDictation() {
     textarea.value = [baseText, (finalTranscript + interim).trim()].filter(Boolean).join(' ');
     // Keeps the char counter (bound to 'input') live while dictating.
     textarea.dispatchEvent(new Event('input'));
+
+    if (silenceTimerId) window.clearTimeout(silenceTimerId);
+    silenceTimerId = window.setTimeout(() => stopTranslatorDictation(), 2000);
   });
 
   recognition.addEventListener('error', (event) => {
@@ -4492,11 +4534,24 @@ function startTranslatorDictation() {
   // hadError guards against this handler overwriting a more specific
   // message (e.g. permission denied) with a generic one.
   recognition.addEventListener('end', () => {
+    if (silenceTimerId) window.clearTimeout(silenceTimerId);
+    // A manual translate (runTranslation, via Enter or the Traducir button)
+    // already stopped this recognizer and read/cleared the textarea itself -
+    // don't repopulate it with the now-stale transcript, and don't
+    // auto-translate a second time.
+    const suppressed = translatorDictationManualSendSuppressed;
+    translatorDictationManualSendSuppressed = false;
+    // No textarea rewrite here (unlike the Tutor's dictation) - the
+    // 'result' handler above already keeps textarea.value current with the
+    // final transcript as it arrives, and the original translator flow
+    // never re-normalized it, so this doesn't change that.
     const hadFinalText = Boolean(finalTranscript.trim());
     translatorDictation = { recognition: null, status: 'idle', timeoutId: null };
     resetTranslatorDictateUI();
+    if (suppressed) return;
     if (hadFinalText) {
-      setTranslatorDictateStatusText('Texto listo. Puedes editarlo antes de traducir.');
+      setTranslatorDictateStatusText('Traduciendo…');
+      translateTranslatorInputNow?.();
     } else if (!hadError && !textarea.value.trim()) {
       setTranslatorDictateStatusText('No se entendió el audio. Intenta de nuevo.');
     }
@@ -7068,6 +7123,64 @@ function isGrammarTestQuestionAnswered(runtime, question) {
   return String(value).trim().length > 0;
 }
 
+// "Lección completa" (spec §4: objetivo/explicación/patrones/ejemplos/
+// afirmativa/negativa/interrogativa/contracciones/errores frecuentes/
+// práctica guiada/resumen). Already hand-authored, one field per unit
+// (course_lessons.grammar_note / lesson.grammar), as a sequence of
+// "Label: body" paragraphs separated by a blank line - confirmed the exact
+// same label set across all 12 English A1 units. This just splits that
+// text back into labeled sections for display instead of one long
+// undifferentiated paragraph; it doesn't invent or reformat any content.
+const GRAMMAR_NOTE_SECTION_TITLES = [
+  { match: /^goal/i, title: 'Objetivo' },
+  { match: /^rule/i, title: 'Explicación' },
+  { match: /^pattern/i, title: 'Patrón' },
+  { match: /^examples/i, title: 'Ejemplos' },
+  { match: /^affirmative/i, title: 'Forma afirmativa' },
+  { match: /^negative/i, title: 'Forma negativa' },
+  { match: /^questions/i, title: 'Forma interrogativa' },
+  { match: /^contractions/i, title: 'Contracciones' },
+  { match: /^common mistakes/i, title: 'Errores frecuentes' },
+  { match: /^compare/i, title: 'Comparación' },
+  { match: /^mini practice/i, title: 'Práctica guiada' },
+  { match: /^summary/i, title: 'Resumen' }
+];
+
+function parseGrammarNoteSections(grammarNote) {
+  return String(grammarNote || '')
+    .split(/\n\n+/)
+    .map((para) => para.trim())
+    .filter(Boolean)
+    .map((para) => {
+      const colonIdx = para.indexOf(':');
+      const label = colonIdx > -1 ? para.slice(0, colonIdx).trim() : '';
+      const body = (colonIdx > -1 ? para.slice(colonIdx + 1).trim() : para) || '';
+      const known = GRAMMAR_NOTE_SECTION_TITLES.find((entry) => entry.match.test(label));
+      return { title: known ? known.title : label || 'Nota', body };
+    })
+    .filter((section) => section.body);
+}
+
+function renderGrammarLessonContentHtml(lesson) {
+  const sections = parseGrammarNoteSections(lesson.grammar);
+  if (!sections.length) return '';
+  const sectionsHtml = sections
+    .map(
+      (section) => `
+        <div class="grammar-lesson-section">
+          <h4>${escapeHtml(section.title)}</h4>
+          <p>${escapeHtml(section.body).replace(/\n/g, '<br>')}</p>
+        </div>`
+    )
+    .join('');
+  return `
+    <details class="grammar-lesson-content" open>
+      <summary>📘 Lección completa</summary>
+      ${sectionsHtml}
+    </details>
+  `;
+}
+
 function renderGrammarTestView(content, lesson) {
   const test = lesson.extra.grammarTest;
   const runtime = getGrammarTestRuntime(lesson);
@@ -7077,8 +7190,10 @@ function renderGrammarTestView(content, lesson) {
     content.innerHTML = renderGrammarTestReviewHtml(lesson, test, runtime);
   } else if (runtime.phase === 'results') {
     content.innerHTML = renderGrammarTestResultsHtml(lesson, test, runtime);
+    loadGrammarTestHistory(lesson, content.querySelector('.grammar-test-history'));
   } else {
     content.innerHTML = renderGrammarTestInstructionsHtml(lesson, test, runtime);
+    loadGrammarTestHistory(lesson, content.querySelector('.grammar-test-history'));
   }
 }
 
@@ -7088,12 +7203,14 @@ function renderGrammarTestInstructionsHtml(lesson, test) {
     <div class="grammar-test-card card-enter">
       <h3>${escapeHtml(lesson.title)}</h3>
       <p class="grammar-test-instructions-text">${escapeHtml(lesson.description || 'Responde el test para poner a prueba lo que aprendiste en esta lección.')}</p>
+      ${renderGrammarLessonContentHtml(lesson)}
       <ul class="grammar-test-meta-list">
         <li>📝 ${total} preguntas</li>
         <li>🎯 Aprobación recomendada: ${test.passingScore || 70}/100</li>
         ${lesson.bestScore != null ? `<li>🏆 Mejor puntuación: ${lesson.bestScore}/100</li>` : ''}
       </ul>
       <button type="button" class="primary-btn hover-lift btn-press grammar-test-start-btn">Comenzar prueba</button>
+      <div class="grammar-test-history"></div>
     </div>
   `;
 }
@@ -7125,10 +7242,16 @@ function renderGrammarTestQuestionBodyHtml(question, runtime) {
   const saved = runtime.answers[question.id];
 
   if (question.type === 'mcq') {
+    // A/B/C/D letters (spec §4: "opciones A, B, C y D") + aria-pressed so
+    // the selected option is never signaled by color/the .is-selected class
+    // alone - same "no depender únicamente del color" rule the results
+    // breakdown follows.
+    const optionLetters = ['A', 'B', 'C', 'D', 'E', 'F'];
     const optionsHtml = (question.options || [])
-      .map((opt) => {
+      .map((opt, index) => {
         const isSelected = saved != null && String(saved) === String(opt.id);
-        return `<button type="button" class="grammar-test-option${isSelected ? ' is-selected' : ''}" data-option-id="${escapeHtml(opt.id)}">${escapeHtml(opt.text)}</button>`;
+        const letter = optionLetters[index] || String(index + 1);
+        return `<button type="button" class="grammar-test-option${isSelected ? ' is-selected' : ''}" data-option-id="${escapeHtml(opt.id)}" aria-pressed="${isSelected}"><span class="grammar-test-option-letter" aria-hidden="true">${letter}</span><span class="grammar-test-option-text">${escapeHtml(opt.text)}</span></button>`;
       })
       .join('');
     return `<div class="grammar-test-options">${optionsHtml}</div>`;
@@ -7244,6 +7367,26 @@ function renderGrammarTestReviewHtml(lesson, test, runtime) {
   `;
 }
 
+// Looks up the actual correct answer's display text from the (already
+// sanitized, option-text-only) question data + the result row's
+// correctOptionId/correctAnswer/correctOrder - see
+// lib/courseLessonsService.js#correctAnswerForQuestion, only ever attached
+// to a result AFTER that question has been graded server-side.
+function resolveGrammarCorrectAnswerText(question, result) {
+  if (!result) return '';
+  if (question.type === 'mcq' && result.correctOptionId) {
+    return question.options?.find((opt) => String(opt.id) === String(result.correctOptionId))?.text || '';
+  }
+  if (question.type === 'fill_blank' && result.correctAnswer) return result.correctAnswer;
+  if (question.type === 'ordering' && Array.isArray(result.correctOrder)) {
+    return result.correctOrder
+      .map((id) => question.items?.find((item) => item.id === id)?.text)
+      .filter(Boolean)
+      .join(' → ');
+  }
+  return '';
+}
+
 function renderGrammarTestResultsHtml(lesson, test, runtime) {
   const result = runtime.lastResult;
   if (!result) {
@@ -7259,11 +7402,20 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
     .map((question, index) => {
       const r = resultsByQuestionId.get(String(question.id));
       const correct = Boolean(r?.correct);
+      // Never color-only (spec §4: "no depender únicamente del color; usar
+      // icono, texto y atributos accesibles") - the emoji is aria-hidden,
+      // but the "Correcta"/"Incorrecta" text right next to it is real,
+      // visible, screen-reader-readable text, not just a CSS color class.
+      const correctAnswerText = !correct ? resolveGrammarCorrectAnswerText(question, r) : '';
       return `
         <li class="grammar-test-breakdown-item${correct ? ' is-correct' : ' is-incorrect'}">
           <span class="grammar-test-breakdown-icon" aria-hidden="true">${correct ? '✅' : '❌'}</span>
           <div>
-            <p class="grammar-test-breakdown-prompt">${index + 1}. ${escapeHtml(question.prompt)}</p>
+            <p class="grammar-test-breakdown-prompt">
+              <span class="grammar-test-breakdown-status-text">${correct ? 'Correcta' : 'Incorrecta'}:</span>
+              ${index + 1}. ${escapeHtml(question.prompt)}
+            </p>
+            ${correctAnswerText ? `<p class="grammar-test-breakdown-correct-answer">Respuesta correcta: <strong>${escapeHtml(correctAnswerText)}</strong></p>` : ''}
             ${r?.explanation ? `<p class="grammar-test-breakdown-explanation">${escapeHtml(r.explanation)}</p>` : ''}
           </div>
         </li>
@@ -7284,8 +7436,47 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
       </p>
       <ul class="grammar-test-breakdown-list">${breakdownHtml}</ul>
       <button type="button" class="primary-btn hover-lift btn-press grammar-test-retry-btn">Intentar de nuevo</button>
+      <div class="grammar-test-history"></div>
     </div>
   `;
+}
+
+// "Historial de intentos" (spec §4) - fetched lazily after the instructions/
+// results screen is already on screen, so a slow/failed request never
+// blocks the test itself. Guest students (no session) simply see nothing -
+// the endpoint requires auth the same way submitting the test already does.
+async function loadGrammarTestHistory(lesson, containerEl) {
+  if (!containerEl || !authStatus.session?.access_token) return;
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/grammar-test-history`, {
+      headers: authHeaders()
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok || !Array.isArray(data.history) || !data.history.length) return;
+
+    const rowsHtml = data.history
+      .map((attempt) => {
+        const date = attempt.completedAt ? new Date(attempt.completedAt).toLocaleDateString('es-DO') : '';
+        return `
+          <li class="grammar-test-history-item${attempt.isBest ? ' is-best' : ''}">
+            <span>Intento ${attempt.attemptNumber}</span>
+            <span>${attempt.score}/100</span>
+            <span>${attempt.correctAnswers}/${attempt.totalQuestions} correctas</span>
+            <span>${escapeHtml(date)}</span>
+            ${attempt.isBest ? '<span class="grammar-test-history-best-tag">🏆 Mejor</span>' : ''}
+          </li>`;
+      })
+      .join('');
+    containerEl.innerHTML = `
+      <details class="grammar-test-history-details">
+        <summary>🕘 Historial de intentos (${data.history.length})</summary>
+        <ul class="grammar-test-history-list">${rowsHtml}</ul>
+      </details>
+    `;
+  } catch {
+    // Silent - the history list is a nice-to-have, never worth an error
+    // toast interrupting the test/results flow.
+  }
 }
 
 // ---------------------------------------------------------------------
@@ -9174,6 +9365,17 @@ async function sendTutorMessage({
   // against any caller triggering this twice in a row for the same button.
   if (sendBtn?.disabled) return null;
 
+  // Manual send while the mic is still listening for this same textarea
+  // (spec: "el usuario debe poder enviar manualmente antes de que terminen
+  // los dos segundos") - grabs whatever's in the textarea right now (already
+  // live-updated with interim results) and stops the recognizer, marking
+  // its 'end' handler to skip both the textarea-overwrite and its own
+  // auto-send click, so this manual send is never duplicated.
+  if (promptEl && tutorDictation.status === 'listening' && tutorDictation.textareaId === promptEl.id) {
+    tutorDictationManualSendSuppressed = true;
+    stopDictationRecognizer();
+  }
+
   const customPrompt = promptEl?.value.trim() || '';
   const finalPrompt =
     customPrompt || selectedSuggestion || fallbackPrompt || 'Quiero practicar esta habilidad.';
@@ -9201,6 +9403,11 @@ async function sendTutorMessage({
         level,
         nativeLanguage: bridgeLanguage,
         bridgeLanguage,
+        // 'bilingual' | 'direct' - drives the L2-only-main-response /
+        // optional-L1-support-block rule server-side (see
+        // lib/aiTutorService.js#buildTutorInput). Always the live global
+        // state, not a per-call param, since it's a single app-wide setting.
+        learningMode: learningPathState.learningMode,
         prompt: finalPrompt,
         userMessage: finalPrompt,
         lessonTitle: lessonTitle || '',
@@ -9240,7 +9447,6 @@ async function sendTutorMessage({
     let buffer = '';
     let fullText = '';
     let messageEl = null;
-    let voiceControlsShown = false;
     let streamError = null;
     let tutorQueryUsage = null;
 
@@ -9289,15 +9495,11 @@ async function sendTutorMessage({
                 updateTutorMessageBody(messageEl, conversationEl, fullText);
               }
               if (messageEl) {
-                // Cleaned, not raw - speechSynthesis/the neural TTS provider
-                // must never read Markdown syntax (**/#/- ) aloud.
-                messageEl.dataset.ttsText = cleanTutorTextForSpeech(fullText);
-                // Enable voice as soon as the first complete sentence has
-                // streamed in, not only once the whole reply finishes.
-                if (!voiceControlsShown && /[.!?](\s|$)/.test(fullText)) {
-                  voiceControlsShown = true;
-                  renderTutorVoiceControls(messageEl);
-                }
+                // Cleaned, not raw, and L2-only (the optional L1 support
+                // block is never read aloud) - speechSynthesis/the neural
+                // TTS provider must never read Markdown syntax (**/#/- ) or
+                // native-language support text aloud.
+                messageEl.dataset.ttsText = cleanTutorTextForSpeech(splitTutorL1Support(fullText).main);
               }
             }
           }
@@ -9305,7 +9507,11 @@ async function sendTutorMessage({
       }
     }
 
-    if (conversationEl && messageEl && !voiceControlsShown) renderTutorVoiceControls(messageEl);
+    // Voice controls (the "Escuchar" button) only appear once the full
+    // reply has finished streaming - never mid-stream, so a click can never
+    // read a partial/incomplete sentence aloud (spec: "no reproducir
+    // fragmentos mientras llega el streaming").
+    if (conversationEl && messageEl) renderTutorVoiceControls(messageEl);
 
     // Keeps the persistent "Te quedan N de 30 consultas" counter in sync
     // with the count this reply just consumed, instead of waiting for the
@@ -10084,14 +10290,14 @@ function enableHomepageActions() {
     const dictateBtn = event.target.closest('.tutor-dictate-btn');
     if (dictateBtn) {
       const target = dictateBtn.dataset.dictateTarget;
-      // Only the drawer's own textarea (tutorDrawerPrompt) can be in
-      // Premium conversation mode - the in-page #tutor variant always uses
-      // plain single-shot dictation, same as before.
-      if (target === 'tutorDrawerPrompt' && tutorConversationMode) {
-        startTutorDictation(target, { continuous: true, silenceMs: 2000, autoSend: true });
-      } else {
-        startTutorDictation(target);
-      }
+      // Every mic use on the Tutor (drawer or in-page) waits ~2s of silence
+      // after the student stops talking and then sends automatically - not
+      // only the Premium hands-free "Conversar" mode. What's still
+      // Premium-only is resumeTutorConversationListening auto-re-arming the
+      // mic after the tutor's reply finishes (see sendTutorMessage's
+      // shouldForceSpeech) - a single recording auto-sending on silence is
+      // not that.
+      startTutorDictation(target, { continuous: true, silenceMs: 2000, autoSend: true });
       return;
     }
     const dictateStopBtn = event.target.closest('.tutor-dictate-stop-btn');
@@ -10484,10 +10690,12 @@ function enableHomepageActions() {
     const grammarTestOption = event.target.closest('.grammar-test-option');
     if (grammarTestOption) {
       const optionsWrap = grammarTestOption.closest('.grammar-test-options');
-      optionsWrap
-        ?.querySelectorAll('.grammar-test-option')
-        .forEach((btn) => btn.classList.remove('is-selected'));
+      optionsWrap?.querySelectorAll('.grammar-test-option').forEach((btn) => {
+        btn.classList.remove('is-selected');
+        btn.setAttribute('aria-pressed', 'false');
+      });
       grammarTestOption.classList.add('is-selected');
+      grammarTestOption.setAttribute('aria-pressed', 'true');
       return;
     }
 
@@ -11469,7 +11677,23 @@ function setupTranslator() {
     renderHistory();
   });
 
-  submitBtn.addEventListener('click', async () => {
+  // Shared by the Traducir button, Enter-to-translate, and the ~2s
+  // auto-translate after voice dictation (startTranslatorDictation) - one
+  // place decides "can we translate right now", so none of those three
+  // entry points can double-submit or send empty content.
+  async function runTranslation() {
+    if (submitBtn.disabled) return; // already in flight - never a second request
+
+    // Manual translate (Enter or the Traducir button) while the mic is
+    // still listening: grabs whatever's in the textarea right now (already
+    // live-updated with interim results) and stops the recognizer, marking
+    // its 'end' handler to skip its own auto-translate so this one is never
+    // duplicated.
+    if (translatorDictation.status === 'listening') {
+      translatorDictationManualSendSuppressed = true;
+      stopTranslatorDictationRecognizer();
+    }
+
     const text = input.value.trim();
     if (!text) {
       setStatus('Escribe un texto para traducir.', 'is-unavailable');
@@ -11528,7 +11752,22 @@ function setupTranslator() {
     } finally {
       submitBtn.disabled = false;
     }
+  }
+
+  submitBtn.addEventListener('click', runTranslation);
+
+  // Enter translates immediately; Shift+Enter inserts a newline (the
+  // textarea's own default behavior, so it's left alone). No separate
+  // "double submit" guard needed here beyond runTranslation's own
+  // submitBtn.disabled check - a held-down Enter key or a click landing
+  // mid-request both just no-op against an already-disabled button.
+  input.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' || event.shiftKey) return;
+    event.preventDefault();
+    runTranslation();
   });
+
+  translateTranslatorInputNow = runTranslation;
 }
 
 enableHomepageActions();

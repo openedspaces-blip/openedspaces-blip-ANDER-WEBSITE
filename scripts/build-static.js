@@ -28,6 +28,13 @@ const GAMIFICATION_FILES = [
   'src/js/gamification/render.js',
   'src/js/gamification/index.js'
 ];
+// Verbos pilot (English only for now) - index.html loads these as plain
+// <script> tags after script.js. Was missing from every list below
+// (REQUIRED_FILES/mirror/syntax-check) since they were added, so `npm run
+// build` never actually refreshed public/src/js/verbs/*.js after a source
+// edit - public/ silently kept serving whatever was there from the first
+// manual copy. Fixed here, not a Verbos feature change.
+const VERBS_FILES = ['src/js/verbs/english-verbs-pilot.js', 'src/js/verbs/verbs-view.js'];
 
 function assertExists(relativePath) {
   const fullPath = path.join(ROOT, relativePath);
@@ -60,6 +67,7 @@ function main() {
   console.log('Checking JavaScript syntax...');
   [
     ...GAMIFICATION_FILES,
+    ...VERBS_FILES,
     'src/js/script.js',
     'src/js/username-rules.js',
     'src/js/language-pair.js',
@@ -77,7 +85,7 @@ function main() {
   });
 
   console.log('Mirroring static assets into public/ ...');
-  const filesToMirror = [...REQUIRED_FILES, ...GAMIFICATION_FILES];
+  const filesToMirror = [...REQUIRED_FILES, ...GAMIFICATION_FILES, ...VERBS_FILES];
   if (fs.existsSync(path.join(ROOT, 'andergo-logo.png'))) filesToMirror.push('andergo-logo.png');
   // Sobre el creador photo (index.html's #about section) - optional like the
   // logo above: mirrored once it exists, build stays green either way.
