@@ -2429,7 +2429,8 @@ a:focus-visible {
   align-items: center;
   gap: 18px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-top: 4px;
 }
 
 .translator-status {

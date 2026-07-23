@@ -4571,6 +4571,7 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
   const baseText = textarea.value.trim();
   let finalTranscript = '';
   let hadError = false;
+  let lastErrorCode = null;
   // Only armed once continuous+silenceMs are both set, and only starts
   // counting once the student has actually said something (first 'result')
   // - never from the moment the mic opens, so thinking time before speaking
@@ -4620,12 +4621,19 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
 
   recognition.addEventListener('error', (event) => {
     hadError = true;
+    lastErrorCode = event.error;
     if (event.error === 'not-allowed' || event.error === 'permission-denied') {
       setDictationStatusText(
         textareaId,
         'No se pudo acceder al micrófono. Revisa los permisos del navegador.'
       );
     } else if (event.error === 'no-speech') {
+      // In conversation mode this is normal, not a real failure - the
+      // browser's own SpeechRecognition instance times itself out after a
+      // few seconds of silence even with continuous:true. The 'end' handler
+      // below auto-restarts listening in that case instead of showing this
+      // as an error, so this message only actually reaches the student
+      // outside conversation mode (see the 'end' handler's own check).
       setDictationStatusText(textareaId, 'No se entendió el audio. Intenta de nuevo.');
     } else {
       setDictationStatusText(textareaId, 'No se pudo completar el dictado. Intenta de nuevo.');
@@ -4653,6 +4661,22 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
     if (suppressed) return;
     if (hadFinalText && autoSend) {
       scheduleTutorAutoSend(textareaId);
+      return;
+    }
+    // Conversation mode must keep listening on its own - a silence timeout
+    // or a 'no-speech' error (the browser's own SpeechRecognition instance
+    // gives up after a few seconds of silence even with continuous:true)
+    // is normal here, not something that should force the student to press
+    // "Hablar" again. Only a real permission problem stops the loop.
+    if (
+      !hadFinalText &&
+      continuous &&
+      tutorConversationMode &&
+      lastErrorCode !== 'not-allowed' &&
+      lastErrorCode !== 'permission-denied'
+    ) {
+      setDictationStatusText(textareaId, 'Escuchando… habla cuando quieras.');
+      window.setTimeout(() => resumeTutorConversationListening(), 400);
       return;
     }
     if (hadFinalText) {
@@ -4703,6 +4727,12 @@ let translateTranslatorInputNow = null;
 // while still listening) - tells the recognizer's 'end' handler not to also
 // overwrite the textarea or auto-translate a second time.
 let translatorDictationManualSendSuppressed = false;
+
+// Set right before the ~2s-silence auto-translate (voice dictation only,
+// never Enter/the Traducir button) - runTranslation() reads and clears this
+// once, so only a translation that was actually triggered by speaking gets
+// its result read aloud automatically afterwards.
+let translatorAutoPlayAfterVoice = false;
 
 function setTranslatorDictateStatusText(text) {
   const statusEl = document.getElementById('translatorInputDictateStatus');
@@ -4843,6 +4873,7 @@ function startTranslatorDictation() {
     if (suppressed) return;
     if (hadFinalText) {
       setTranslatorDictateStatusText('Traduciendo…');
+      translatorAutoPlayAfterVoice = true;
       translateTranslatorInputNow?.();
     } else if (!hadError && !textarea.value.trim()) {
       setTranslatorDictateStatusText('No se entendió el audio. Intenta de nuevo.');
@@ -12104,6 +12135,12 @@ function setupTranslator() {
       stopTranslatorDictationRecognizer();
     }
 
+    // A stale dictation message (e.g. "No se entendió el audio.") from an
+    // earlier voice attempt must never linger once the student translates
+    // by any means (typing + Enter/Traducir included) - it reads as if the
+    // translation that just succeeded had failed.
+    setTranslatorDictateStatusText('');
+
     const text = input.value.trim();
     if (!text) {
       setStatus('Escribe un texto para traducir.', 'is-unavailable');
@@ -12148,6 +12185,12 @@ function setupTranslator() {
           timestamp: Date.now()
         });
         renderHistory();
+        // Only when this translation was itself triggered by speaking (see
+        // startTranslatorDictation's 'end' handler) - a manual Enter/Traducir
+        // translation never auto-plays, only the voice path does.
+        if (translatorAutoPlayAfterVoice && output.value) {
+          speakText(output.value, { locale: LANGUAGE_LOCALES[targetLanguage] });
+        }
       } else if (data.configured === false) {
         output.value = '';
         setStatus('El traductor está temporalmente en configuración.', 'is-unavailable');
@@ -12159,6 +12202,7 @@ function setupTranslator() {
       output.value = '';
       setStatus(error.message || 'No disponible. Inténtalo de nuevo.', 'is-unavailable');
     } finally {
+      translatorAutoPlayAfterVoice = false;
       submitBtn.disabled = false;
     }
   }
