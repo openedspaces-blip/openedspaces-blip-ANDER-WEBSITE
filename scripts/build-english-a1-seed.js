@@ -40,6 +40,16 @@ function shapeExtra(a) {
   const extra = {};
   if (a.grammarTest) extra.grammarTest = a.grammarTest;
   if (a.listeningType) extra.listeningType = a.listeningType;
+  // storyTitle/mainTranscript/transcriptSegments: the official ElevenLabs
+  // story narration's title, literal transcript, and per-sentence
+  // breakdown (see scripts/content/english-a1-units.js's own header note on
+  // these fields - never edited, only copied straight through). Was missing
+  // here entirely, so units 2-12's story transcripts never reached
+  // lib/seed-lessons.json/course_lessons.extra even after a migration run -
+  // added alongside the transcript data itself, not a separate pass.
+  if (a.storyTitle) extra.storyTitle = a.storyTitle;
+  if (a.mainTranscript) extra.mainTranscript = a.mainTranscript;
+  if (a.transcriptSegments) extra.transcriptSegments = a.transcriptSegments;
   if (a.difficulty) extra.difficulty = a.difficulty;
   if (a.durationSeconds) extra.durationSeconds = a.durationSeconds;
   if (a.speakers) extra.speakers = a.speakers;

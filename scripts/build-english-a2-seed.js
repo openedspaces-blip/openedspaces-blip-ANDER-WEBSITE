@@ -34,9 +34,18 @@ function shapeReading(reading) {
 }
 
 // Mirrors build-english-a1-seed.js#shapeExtra / build-spanish-a1-seed.js#shapeExtra.
+// listeningType/storyTitle/mainTranscript/transcriptSegments added alongside
+// the 10 official ElevenLabs story transcripts in
+// scripts/content/english-a2-units.js - previously missing entirely here,
+// so none of that data would have reached course_lessons.extra even after a
+// migration run.
 function shapeExtra(a) {
   const extra = {};
   if (a.grammarTest) extra.grammarTest = a.grammarTest;
+  if (a.listeningType) extra.listeningType = a.listeningType;
+  if (a.storyTitle) extra.storyTitle = a.storyTitle;
+  if (a.mainTranscript) extra.mainTranscript = a.mainTranscript;
+  if (a.transcriptSegments) extra.transcriptSegments = a.transcriptSegments;
   return Object.keys(extra).length ? extra : null;
 }
 

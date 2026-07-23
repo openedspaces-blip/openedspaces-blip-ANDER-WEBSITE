@@ -17,7 +17,11 @@ function wordCount(parts) {
 
 // readingRange: [min, max] words. minListeningQuestions: floor for the
 // listening activity's exercises array (spec: 5 a 10 preguntas).
-function validateLevel(mod, { minUnits, maxUnits, readingRange, label }) {
+// skills: which activities are required per unit - defaults to the full
+// 7-activity course shape (A2/B1/B2), but C1/C2 currently only author
+// reading/vocabulary/grammar per unit (spec: "solo secciones reading,
+// vocabulary y grammar"), so callers pass a narrower list for those.
+function validateLevel(mod, { minUnits, maxUnits, readingRange, label, skills = CORE_SKILLS }) {
   const errors = [];
   const { units } = mod;
 
@@ -36,14 +40,14 @@ function validateLevel(mod, { minUnits, maxUnits, readingRange, label }) {
     seenUnitSlugs.add(unit.slug);
     if (!unit.title || !unit.title.trim()) errors.push(`${label} (${unit.slug}): título de unidad vacío.`);
 
-    const presentSkills = CORE_SKILLS.filter((s) => unit.activities[s]);
-    if (presentSkills.length !== 7) {
+    const presentSkills = skills.filter((s) => unit.activities[s]);
+    if (presentSkills.length !== skills.length) {
       errors.push(
-        `${label} (${unit.slug}): tiene ${presentSkills.length} actividades (${presentSkills.join(', ')}); debe tener exactamente 7.`
+        `${label} (${unit.slug}): tiene ${presentSkills.length} actividades (${presentSkills.join(', ')}); debe tener exactamente ${skills.length} (${skills.join(', ')}).`
       );
     }
 
-    CORE_SKILLS.forEach((skill) => {
+    skills.forEach((skill) => {
       const a = unit.activities[skill];
       if (!a) return;
 
