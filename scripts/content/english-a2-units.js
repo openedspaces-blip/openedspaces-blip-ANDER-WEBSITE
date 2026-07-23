@@ -102,6 +102,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'A Busy Weekday',
+        mainTranscript:
+          'Daniel has a very busy weekday. He wakes up at six o’clock and prepares breakfast before going to work. He usually takes the train because the traffic is heavy in the morning. His workday starts at eight thirty and ends at five. During lunch, he often eats with two coworkers at a small café near the office. After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class. When he gets home, he cooks dinner, checks his messages, and prepares his clothes for the next day. He usually goes to bed before eleven.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Daniel has a very busy weekday.' },
+          { id: 'segment-02', order: 2, text: 'He wakes up at six o’clock and prepares breakfast before going to work.' },
+          { id: 'segment-03', order: 3, text: 'He usually takes the train because the traffic is heavy in the morning.' },
+          { id: 'segment-04', order: 4, text: 'His workday starts at eight thirty and ends at five.' },
+          { id: 'segment-05', order: 5, text: 'During lunch, he often eats with two coworkers at a small café near the office.' },
+          { id: 'segment-06', order: 6, text: 'After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class.' },
+          { id: 'segment-07', order: 7, text: 'When he gets home, he cooks dinner, checks his messages, and prepares his clothes for the next day.' },
+          { id: 'segment-08', order: 8, text: 'He usually goes to bed before eleven.' }
+        ],
         title: 'Planning the Visit',
         description: "Listen to Sarah and Lucy's phone call planning the weekend trip mentioned in the reading.",
         intro: 'Listen to the phone call between Sarah and Lucy before the visit. Focus on times, days, and their plans for the weekend.',
@@ -505,6 +519,19 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'A Special Family Sunday',
+        mainTranscript:
+          'Every Sunday, Emma visits her grandparents with her parents and younger brother. They live in a quiet town about forty minutes away. Emma’s grandmother prepares lunch, and everyone helps set the table. Her grandfather often tells stories about his childhood. Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly. After lunch, the family walks in the garden or looks at old photographs. Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Every Sunday, Emma visits her grandparents with her parents and younger brother.' },
+          { id: 'segment-02', order: 2, text: 'They live in a quiet town about forty minutes away.' },
+          { id: 'segment-03', order: 3, text: 'Emma’s grandmother prepares lunch, and everyone helps set the table.' },
+          { id: 'segment-04', order: 4, text: 'Her grandfather often tells stories about his childhood.' },
+          { id: 'segment-05', order: 5, text: 'Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly.' },
+          { id: 'segment-06', order: 6, text: 'After lunch, the family walks in the garden or looks at old photographs.' },
+          { id: 'segment-07', order: 7, text: 'Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves.' }
+        ],
         title: 'Meeting the Family',
         description: 'Listen to Sarah and Lucy talking on the phone the night before the Sunday lunch.',
         intro: "Listen to Sarah and Lucy's phone call the night before lunch. Focus on the family details and Lucy's questions about Daniel.",
@@ -902,6 +929,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'Moving to a New Neighborhood',
+        mainTranscript:
+          'Last month, Henry moved to a new apartment in a different neighborhood. At first, he felt nervous because he did not know anyone. The area is quieter than his old neighborhood, and there are many useful places nearby. A supermarket, a pharmacy, and a small park are all within walking distance. There is also a bus stop across from his building. On his first day, the woman next door introduced herself and helped him carry some boxes. Since then, Henry has met several friendly neighbors. He still misses his old friends, but he is beginning to feel comfortable in his new home.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Last month, Henry moved to a new apartment in a different neighborhood.' },
+          { id: 'segment-02', order: 2, text: 'At first, he felt nervous because he did not know anyone.' },
+          { id: 'segment-03', order: 3, text: 'The area is quieter than his old neighborhood, and there are many useful places nearby.' },
+          { id: 'segment-04', order: 4, text: 'A supermarket, a pharmacy, and a small park are all within walking distance.' },
+          { id: 'segment-05', order: 5, text: 'There is also a bus stop across from his building.' },
+          { id: 'segment-06', order: 6, text: 'On his first day, the woman next door introduced herself and helped him carry some boxes.' },
+          { id: 'segment-07', order: 7, text: 'Since then, Henry has met several friendly neighbors.' },
+          { id: 'segment-08', order: 8, text: 'He still misses his old friends, but he is beginning to feel comfortable in his new home.' }
+        ],
         title: 'Calling the Letting Agent',
         description: 'Listen to Lucy on the phone with the letting agent, asking about the flat before she moved in.',
         intro: "Listen to Lucy's phone call with the letting agent before she rented the flat. Focus on the rooms and the neighborhood.",
@@ -1300,6 +1341,21 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'Shopping for Dinner',
+        mainTranscript:
+          'Grace and Samuel decide to cook dinner together. They check the kitchen and discover that they have chicken but not enough vegetables. At the supermarket, they compare prices and look for fresh food. Grace chooses carrots, onions, and potatoes. Samuel finds a bag of rice that is on sale. They also buy some juice and a small dessert. Grace wants to buy organic vegetables, but Samuel thinks they are too expensive. In the end, they choose a mix of regular and organic products. When they return home, they prepare the meal together and are pleased with the result.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Grace and Samuel decide to cook dinner together.' },
+          { id: 'segment-02', order: 2, text: 'They check the kitchen and discover that they have chicken but not enough vegetables.' },
+          { id: 'segment-03', order: 3, text: 'At the supermarket, they compare prices and look for fresh food.' },
+          { id: 'segment-04', order: 4, text: 'Grace chooses carrots, onions, and potatoes.' },
+          { id: 'segment-05', order: 5, text: 'Samuel finds a bag of rice that is on sale.' },
+          { id: 'segment-06', order: 6, text: 'They also buy some juice and a small dessert.' },
+          { id: 'segment-07', order: 7, text: 'Grace wants to buy organic vegetables, but Samuel thinks they are too expensive.' },
+          { id: 'segment-08', order: 8, text: 'In the end, they choose a mix of regular and organic products.' },
+          { id: 'segment-09', order: 9, text: 'When they return home, they prepare the meal together and are pleased with the result.' }
+        ],
         title: 'At the Supermarket',
         description: "Listen to Sarah's conversation with the shop assistant while she looks for ingredients.",
         intro: "Listen to Sarah asking the shop assistant for help finding ingredients. Focus on quantities and countable/uncountable words.",
@@ -1698,6 +1754,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'A Weekend in the Countryside',
+        mainTranscript:
+          'Last weekend, Ryan visited his grandparents in the countryside. He traveled there with his sister early on Saturday morning. The weather was cool and sunny, so they spent most of the day outside. Ryan helped his grandfather work in the garden, while his sister cooked lunch with their grandmother. In the afternoon, they walked near a small river and took several pictures. That evening, the family sat outside and listened to old stories. Ryan had not visited for several months, so the weekend felt very special. He returned home tired but happy on Sunday afternoon.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Last weekend, Ryan visited his grandparents in the countryside.' },
+          { id: 'segment-02', order: 2, text: 'He traveled there with his sister early on Saturday morning.' },
+          { id: 'segment-03', order: 3, text: 'The weather was cool and sunny, so they spent most of the day outside.' },
+          { id: 'segment-04', order: 4, text: 'Ryan helped his grandfather work in the garden, while his sister cooked lunch with their grandmother.' },
+          { id: 'segment-05', order: 5, text: 'In the afternoon, they walked near a small river and took several pictures.' },
+          { id: 'segment-06', order: 6, text: 'That evening, the family sat outside and listened to old stories.' },
+          { id: 'segment-07', order: 7, text: 'Ryan had not visited for several months, so the weekend felt very special.' },
+          { id: 'segment-08', order: 8, text: 'He returned home tired but happy on Sunday afternoon.' }
+        ],
         title: 'Remembering the Trip',
         description: 'Listen to Sarah and Lucy on the phone, remembering their old backpacking trip together.',
         intro: "Listen to Sarah and Lucy's phone call about their old trip. Focus on the Past Simple questions and answers.",
@@ -2093,6 +2163,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'Finding the Train Station',
+        mainTranscript:
+          'Sofia arrives in a new city and needs to find the train station. She first tries to follow a map on her phone, but the signal is weak. She asks a police officer for help. He explains that she can take bus number fourteen from the stop across the street. The journey usually takes about twenty minutes. Sofia needs to get off at Market Square and walk behind a large hotel. She buys a ticket on the bus and watches the street signs carefully. When she finally reaches the station, she still has enough time to buy a drink before her train leaves.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Sofia arrives in a new city and needs to find the train station.' },
+          { id: 'segment-02', order: 2, text: 'She first tries to follow a map on her phone, but the signal is weak.' },
+          { id: 'segment-03', order: 3, text: 'She asks a police officer for help.' },
+          { id: 'segment-04', order: 4, text: 'He explains that she can take bus number fourteen from the stop across the street.' },
+          { id: 'segment-05', order: 5, text: 'The journey usually takes about twenty minutes.' },
+          { id: 'segment-06', order: 6, text: 'Sofia needs to get off at Market Square and walk behind a large hotel.' },
+          { id: 'segment-07', order: 7, text: 'She buys a ticket on the bus and watches the street signs carefully.' },
+          { id: 'segment-08', order: 8, text: 'When she finally reaches the station, she still has enough time to buy a drink before her train leaves.' }
+        ],
         title: 'Booking the Hotel',
         description: 'Listen to Daniel calling the hotel in Edinburgh to confirm the booking.',
         intro: "Listen to Daniel's phone call to the hotel. Focus on the comparisons he makes about rooms and prices.",
@@ -2489,6 +2573,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'A Visit to the Doctor',
+        mainTranscript:
+          'For two days, Lucas has had a sore throat, a headache, and a slight fever. He feels tired and has difficulty sleeping. His mother takes him to the doctor in the morning. The doctor asks several questions and checks his temperature. Lucas explains that he has been very busy at school and has not been drinking enough water. The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days. She also gives him some medicine. Lucas decides to follow the advice because he wants to feel better before an important school activity.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'For two days, Lucas has had a sore throat, a headache, and a slight fever.' },
+          { id: 'segment-02', order: 2, text: 'He feels tired and has difficulty sleeping.' },
+          { id: 'segment-03', order: 3, text: 'His mother takes him to the doctor in the morning.' },
+          { id: 'segment-04', order: 4, text: 'The doctor asks several questions and checks his temperature.' },
+          { id: 'segment-05', order: 5, text: 'Lucas explains that he has been very busy at school and has not been drinking enough water.' },
+          { id: 'segment-06', order: 6, text: 'The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days.' },
+          { id: 'segment-07', order: 7, text: 'She also gives him some medicine.' },
+          { id: 'segment-08', order: 8, text: 'Lucas decides to follow the advice because he wants to feel better before an important school activity.' }
+        ],
         title: "At the Doctor's",
         description: "Listen to Sarah's consultation with the doctor after she catches a cold.",
         intro: "Listen to the consultation between Sarah and the doctor. Focus on the advice given with should/shouldn't and have to/don't have to.",
@@ -2885,6 +2983,21 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'Planning a Birthday Surprise',
+        mainTranscript:
+          'Laura and Chris are planning a surprise birthday party for their friend Daniel. They book a small room at the community center for Saturday evening. About twenty people are coming, and everyone must arrive before Daniel. Laura is responsible for the decorations and music. Chris orders pizza and prepares a list of drinks and snacks. Daniel’s sister is making the birthday cake. The group also creates a short video with messages from friends who cannot attend. They still need to decide who will bring Daniel to the party. They hope the surprise will make him feel very special.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Laura and Chris are planning a surprise birthday party for their friend Daniel.' },
+          { id: 'segment-02', order: 2, text: 'They book a small room at the community center for Saturday evening.' },
+          { id: 'segment-03', order: 3, text: 'About twenty people are coming, and everyone must arrive before Daniel.' },
+          { id: 'segment-04', order: 4, text: 'Laura is responsible for the decorations and music.' },
+          { id: 'segment-05', order: 5, text: 'Chris orders pizza and prepares a list of drinks and snacks.' },
+          { id: 'segment-06', order: 6, text: 'Daniel’s sister is making the birthday cake.' },
+          { id: 'segment-07', order: 7, text: 'The group also creates a short video with messages from friends who cannot attend.' },
+          { id: 'segment-08', order: 8, text: 'They still need to decide who will bring Daniel to the party.' },
+          { id: 'segment-09', order: 9, text: 'They hope the surprise will make him feel very special.' }
+        ],
         title: 'Calling Marcus',
         description: "Listen to Sarah's phone call with Daniel's best friend Marcus about the surprise party.",
         intro: "Listen to Sarah's call with Marcus. Focus on the plans (going to) and spontaneous decisions (will).",
@@ -3280,6 +3393,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'My First Part-Time Job',
+        mainTranscript:
+          'Isabella recently started a part-time job at a bookstore. She works three afternoons a week after school. Her main responsibilities are organizing shelves, helping customers, and working at the cash register. During her first week, she found the computer system difficult to use. She also needed time to learn where the different types of books were located. Her coworkers were patient and gave her useful advice. Now Isabella feels more confident and enjoys meeting new people. The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Isabella recently started a part-time job at a bookstore.' },
+          { id: 'segment-02', order: 2, text: 'She works three afternoons a week after school.' },
+          { id: 'segment-03', order: 3, text: 'Her main responsibilities are organizing shelves, helping customers, and working at the cash register.' },
+          { id: 'segment-04', order: 4, text: 'During her first week, she found the computer system difficult to use.' },
+          { id: 'segment-05', order: 5, text: 'She also needed time to learn where the different types of books were located.' },
+          { id: 'segment-06', order: 6, text: 'Her coworkers were patient and gave her useful advice.' },
+          { id: 'segment-07', order: 7, text: 'Now Isabella feels more confident and enjoys meeting new people.' },
+          { id: 'segment-08', order: 8, text: 'The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible.' }
+        ],
         title: "Helen's Offer",
         description: "Listen to the conversation between Sarah and Helen when she is offered the new project.",
         intro: "Listen to Helen offering Sarah the new project. Focus on can, could, and be able to.",
@@ -3677,6 +3804,21 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'Reaching an Important Goal',
+        mainTranscript:
+          'For many years, Marcus wanted to complete a city marathon. Six months ago, he began training seriously. At first, he could only run a few kilometers before feeling exhausted. He followed a weekly plan, changed his eating habits, and trained even on rainy mornings. There were days when he wanted to stop, but his coach and family encouraged him. On the day of the marathon, Marcus felt nervous but prepared. The final kilometers were difficult, yet he continued running. When he crossed the finish line, he felt proud and emotional. He learned that steady effort can lead to great achievements.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'For many years, Marcus wanted to complete a city marathon.' },
+          { id: 'segment-02', order: 2, text: 'Six months ago, he began training seriously.' },
+          { id: 'segment-03', order: 3, text: 'At first, he could only run a few kilometers before feeling exhausted.' },
+          { id: 'segment-04', order: 4, text: 'He followed a weekly plan, changed his eating habits, and trained even on rainy mornings.' },
+          { id: 'segment-05', order: 5, text: 'There were days when he wanted to stop, but his coach and family encouraged him.' },
+          { id: 'segment-06', order: 6, text: 'On the day of the marathon, Marcus felt nervous but prepared.' },
+          { id: 'segment-07', order: 7, text: 'The final kilometers were difficult, yet he continued running.' },
+          { id: 'segment-08', order: 8, text: 'When he crossed the finish line, he felt proud and emotional.' },
+          { id: 'segment-09', order: 9, text: 'He learned that steady effort can lead to great achievements.' }
+        ],
         title: "Lucy's New Year Call",
         description: "Listen to Sarah and Lucy's phone call on New Year's Eve, reflecting on the year's achievements.",
         intro: "Listen to Sarah and Lucy's New Year phone call. Focus on the Present Perfect and words like ever, never, just, and already.",

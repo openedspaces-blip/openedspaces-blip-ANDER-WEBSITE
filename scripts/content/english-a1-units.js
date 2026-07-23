@@ -92,9 +92,34 @@ const units = [
       // unit carries the rich fields today; units 2-12 stay on the legacy
       // shape until a later phase authors them too.
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'Nice to Meet You',
+        mainTranscript:
+          'Hello! My name is Ana. I am eighteen years old, and I am from the Dominican Republic. Today is my first English class. I feel a little nervous, but I am also excited. When I enter the classroom, I meet a student named Leo. He smiles and says hello. I tell him my name, and he tells me his. Leo is from Italy. We talk about our countries and our new class. At the end, we say, “Nice to meet you” and “See you tomorrow.” It is a very good first day.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Hello!' },
+          { id: 'segment-02', order: 2, text: 'My name is Ana.' },
+          { id: 'segment-03', order: 3, text: 'I am eighteen years old, and I am from the Dominican Republic.' },
+          { id: 'segment-04', order: 4, text: 'Today is my first English class.' },
+          { id: 'segment-05', order: 5, text: 'I feel a little nervous, but I am also excited.' },
+          { id: 'segment-06', order: 6, text: 'When I enter the classroom, I meet a student named Leo.' },
+          { id: 'segment-07', order: 7, text: 'He smiles and says hello.' },
+          { id: 'segment-08', order: 8, text: 'I tell him my name, and he tells me his.' },
+          { id: 'segment-09', order: 9, text: 'Leo is from Italy.' },
+          { id: 'segment-10', order: 10, text: 'We talk about our countries and our new class.' },
+          { id: 'segment-11', order: 11, text: 'At the end, we say, “Nice to meet you” and “See you tomorrow.”' },
+          { id: 'segment-12', order: 12, text: 'It is a very good first day.' }
+        ],
         title: 'Nice to Meet You',
         description: 'Listen to two students meeting for the first time.',
-        listeningType: 'dialogue',
+        // listeningType is now 'story' (set above) - was 'dialogue' before
+        // the official ElevenLabs story narration replaced the old ad hoc
+        // "greetings" two-voice recording as this lesson's audio.
+        // dialogue/phrases/phoneticSupport/dictation/listeningComprehension
+        // below are untouched (still real content, still consumed by the
+        // extra tabs) but no longer what the Diálogo tab gates on - see
+        // listeningHasRichExtras in src/js/script.js, which checks
+        // extra.listeningType === 'dialogue' specifically.
         difficulty: 'A1',
         durationSeconds: 45,
         speakers: ['Ana', 'Leo'],
@@ -668,6 +693,21 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'This Is Me',
+        mainTranscript:
+          'My name is Daniel. I am nineteen years old, and I live in Santo Domingo. I am a student, and I study English at a language school. I speak Spanish, and I understand a little English. I am friendly and quiet. My favorite color is blue, and my favorite food is pizza. I like music, soccer, and video games. On weekends, I visit my grandparents or play soccer with my friends. I want to improve my English because I would like to travel and meet people from different countries.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'My name is Daniel.' },
+          { id: 'segment-02', order: 2, text: 'I am nineteen years old, and I live in Santo Domingo.' },
+          { id: 'segment-03', order: 3, text: 'I am a student, and I study English at a language school.' },
+          { id: 'segment-04', order: 4, text: 'I speak Spanish, and I understand a little English.' },
+          { id: 'segment-05', order: 5, text: 'I am friendly and quiet.' },
+          { id: 'segment-06', order: 6, text: 'My favorite color is blue, and my favorite food is pizza.' },
+          { id: 'segment-07', order: 7, text: 'I like music, soccer, and video games.' },
+          { id: 'segment-08', order: 8, text: 'On weekends, I visit my grandparents or play soccer with my friends.' },
+          { id: 'segment-09', order: 9, text: 'I want to improve my English because I would like to travel and meet people from different countries.' }
+        ],
         title: 'Where Are You From?',
         description: 'Listen to two students talking about their age and country.',
         intro: 'Listen to Sofia and Leo talking about where they are from and how old they are.',
@@ -976,6 +1016,23 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'My Family Photo',
+        mainTranscript:
+          'This is a photo of my family. My mother’s name is Laura, and my father’s name is Carlos. My mother is a nurse, and my father is a teacher. I have one brother and one sister. My brother, David, is fifteen years old. He likes soccer and science. My sister, Emma, is ten years old. She loves drawing and dancing. We also have a small dog named Coco. On Sundays, we eat lunch together at home. My family is busy, but we are very close and happy.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'This is a photo of my family.' },
+          { id: 'segment-02', order: 2, text: 'My mother’s name is Laura, and my father’s name is Carlos.' },
+          { id: 'segment-03', order: 3, text: 'My mother is a nurse, and my father is a teacher.' },
+          { id: 'segment-04', order: 4, text: 'I have one brother and one sister.' },
+          { id: 'segment-05', order: 5, text: 'My brother, David, is fifteen years old.' },
+          { id: 'segment-06', order: 6, text: 'He likes soccer and science.' },
+          { id: 'segment-07', order: 7, text: 'My sister, Emma, is ten years old.' },
+          { id: 'segment-08', order: 8, text: 'She loves drawing and dancing.' },
+          { id: 'segment-09', order: 9, text: 'We also have a small dog named Coco.' },
+          { id: 'segment-10', order: 10, text: 'On Sundays, we eat lunch together at home.' },
+          { id: 'segment-11', order: 11, text: 'My family is busy, but we are very close and happy.' }
+        ],
         title: 'This Is My Brother',
         description: 'Listen to Ana introducing her brother to a friend.',
         intro: 'Listen to Ana showing a photo of her family to her friend Leo and introducing her brother.',
@@ -1284,6 +1341,23 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'My First School Day',
+        mainTranscript:
+          'Today is my first day at a new school. My classroom is large and bright. There are twenty desks, a whiteboard, and a computer. My teacher’s name is Mrs. Brown. She is kind and friendly. I sit next to a student named Mia. In my school bag, I have two notebooks, three pencils, a ruler, and an English book. Our first class is English. After English, we have math and science. At lunchtime, I eat with Mia. I feel happy because my new school is interesting.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Today is my first day at a new school.' },
+          { id: 'segment-02', order: 2, text: 'My classroom is large and bright.' },
+          { id: 'segment-03', order: 3, text: 'There are twenty desks, a whiteboard, and a computer.' },
+          { id: 'segment-04', order: 4, text: 'My teacher’s name is Mrs. Brown.' },
+          { id: 'segment-05', order: 5, text: 'She is kind and friendly.' },
+          { id: 'segment-06', order: 6, text: 'I sit next to a student named Mia.' },
+          { id: 'segment-07', order: 7, text: 'In my school bag, I have two notebooks, three pencils, a ruler, and an English book.' },
+          { id: 'segment-08', order: 8, text: 'Our first class is English.' },
+          { id: 'segment-09', order: 9, text: 'After English, we have math and science.' },
+          { id: 'segment-10', order: 10, text: 'At lunchtime, I eat with Mia.' },
+          { id: 'segment-11', order: 11, text: 'I feel happy because my new school is interesting.' }
+        ],
         title: 'What\'s in Your Bag?',
         description: 'Listen to two classmates checking their school bags.',
         intro: 'Listen to Sofia and Marco talking about what is in their school bags before class.',
@@ -1592,6 +1666,21 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'My Busy Morning',
+        mainTranscript:
+          'I wake up at six thirty every morning. First, I get out of bed and take a shower. Then I get dressed and brush my teeth. At seven o’clock, I eat breakfast with my family. I usually have eggs, bread, and juice. After breakfast, I put my books in my school bag. I leave home at seven thirty and take the bus to school. My classes start at eight o’clock. I am sometimes tired in the morning, but I like seeing my friends and learning new things.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'I wake up at six thirty every morning.' },
+          { id: 'segment-02', order: 2, text: 'First, I get out of bed and take a shower.' },
+          { id: 'segment-03', order: 3, text: 'Then I get dressed and brush my teeth.' },
+          { id: 'segment-04', order: 4, text: 'At seven o’clock, I eat breakfast with my family.' },
+          { id: 'segment-05', order: 5, text: 'I usually have eggs, bread, and juice.' },
+          { id: 'segment-06', order: 6, text: 'After breakfast, I put my books in my school bag.' },
+          { id: 'segment-07', order: 7, text: 'I leave home at seven thirty and take the bus to school.' },
+          { id: 'segment-08', order: 8, text: 'My classes start at eight o’clock.' },
+          { id: 'segment-09', order: 9, text: 'I am sometimes tired in the morning, but I like seeing my friends and learning new things.' }
+        ],
         title: 'What Time Do You Wake Up?',
         description: 'Listen to two friends comparing their daily routines.',
         intro: 'Listen to Leo and Marco talking about what time they do things every day.',
@@ -1900,6 +1989,21 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'An Important Day',
+        mainTranscript:
+          'Today is Monday, March twelfth. It is an important day for Sofia because she has an English test. Her test starts at ten o’clock in the morning. She arrives at school at nine fifteen. Before the test, she reviews her notes in the library. At twelve thirty, she has lunch with her friends. In the afternoon, there is a school activity at two o’clock. Sofia goes home at four thirty. She is tired, but she is happy because she thinks she did well on her test.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Today is Monday, March twelfth.' },
+          { id: 'segment-02', order: 2, text: 'It is an important day for Sofia because she has an English test.' },
+          { id: 'segment-03', order: 3, text: 'Her test starts at ten o’clock in the morning.' },
+          { id: 'segment-04', order: 4, text: 'She arrives at school at nine fifteen.' },
+          { id: 'segment-05', order: 5, text: 'Before the test, she reviews her notes in the library.' },
+          { id: 'segment-06', order: 6, text: 'At twelve thirty, she has lunch with her friends.' },
+          { id: 'segment-07', order: 7, text: 'In the afternoon, there is a school activity at two o’clock.' },
+          { id: 'segment-08', order: 8, text: 'Sofia goes home at four thirty.' },
+          { id: 'segment-09', order: 9, text: 'She is tired, but she is happy because she thinks she did well on her test.' }
+        ],
         title: 'What Time Is It?',
         description: 'Listen to two friends checking the time and making plans.',
         intro: 'Listen to Sofia and Leo talking about what time it is and their plans for the day.',
@@ -2208,6 +2312,22 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'Lunch at a Café',
+        mainTranscript:
+          'Julia goes to a small café for lunch. She looks at the menu and chooses a chicken sandwich and a salad. She also orders a glass of orange juice. Her friend Mark orders a hamburger, French fries, and some water. The café is busy, but the service is fast. Julia likes her sandwich because it is fresh and delicious. Mark enjoys his hamburger too. After lunch, they share a small piece of chocolate cake. They pay the bill and leave the café. It is a simple but very nice lunch.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Julia goes to a small café for lunch.' },
+          { id: 'segment-02', order: 2, text: 'She looks at the menu and chooses a chicken sandwich and a salad.' },
+          { id: 'segment-03', order: 3, text: 'She also orders a glass of orange juice.' },
+          { id: 'segment-04', order: 4, text: 'Her friend Mark orders a hamburger, French fries, and some water.' },
+          { id: 'segment-05', order: 5, text: 'The café is busy, but the service is fast.' },
+          { id: 'segment-06', order: 6, text: 'Julia likes her sandwich because it is fresh and delicious.' },
+          { id: 'segment-07', order: 7, text: 'Mark enjoys his hamburger too.' },
+          { id: 'segment-08', order: 8, text: 'After lunch, they share a small piece of chocolate cake.' },
+          { id: 'segment-09', order: 9, text: 'They pay the bill and leave the café.' },
+          { id: 'segment-10', order: 10, text: 'It is a simple but very nice lunch.' }
+        ],
         title: 'What Would You Like?',
         description: 'Listen to a short conversation at a small restaurant.',
         intro: 'Listen to a waiter and a customer ordering food and drinks at a restaurant.',
@@ -2516,6 +2636,22 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'Where Is My Backpack?',
+        mainTranscript:
+          'Lucas is getting ready for school, but he cannot find his backpack. He looks in his bedroom, under the bed, and next to his desk. The backpack is not there. He goes to the living room and looks behind the sofa. It is not there either. Then he checks the kitchen. His backpack is under the kitchen table, next to a chair. Lucas remembers that he did his homework there last night. He puts his books inside the backpack and leaves quickly. He does not want to be late for school.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Lucas is getting ready for school, but he cannot find his backpack.' },
+          { id: 'segment-02', order: 2, text: 'He looks in his bedroom, under the bed, and next to his desk.' },
+          { id: 'segment-03', order: 3, text: 'The backpack is not there.' },
+          { id: 'segment-04', order: 4, text: 'He goes to the living room and looks behind the sofa.' },
+          { id: 'segment-05', order: 5, text: 'It is not there either.' },
+          { id: 'segment-06', order: 6, text: 'Then he checks the kitchen.' },
+          { id: 'segment-07', order: 7, text: 'His backpack is under the kitchen table, next to a chair.' },
+          { id: 'segment-08', order: 8, text: 'Lucas remembers that he did his homework there last night.' },
+          { id: 'segment-09', order: 9, text: 'He puts his books inside the backpack and leaves quickly.' },
+          { id: 'segment-10', order: 10, text: 'He does not want to be late for school.' }
+        ],
         title: 'Where Is My Backpack?',
         description: 'Listen to a family looking for a missing backpack.',
         intro: 'Listen to Marco asking his mother where his backpack is before school.',
@@ -2824,6 +2960,21 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'A Walk Through My Town',
+        mainTranscript:
+          'My town is small, but it has many useful places. There is a bank next to the post office. Across from the bank, there is a supermarket. The pharmacy is between the bakery and the bus station. My favorite place is the park because it has many trees and benches. On Saturdays, I walk to the library with my sister. The library is behind the town hall. After reading, we sometimes buy ice cream near the park. I like my town because it is quiet, friendly, and easy to explore.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'My town is small, but it has many useful places.' },
+          { id: 'segment-02', order: 2, text: 'There is a bank next to the post office.' },
+          { id: 'segment-03', order: 3, text: 'Across from the bank, there is a supermarket.' },
+          { id: 'segment-04', order: 4, text: 'The pharmacy is between the bakery and the bus station.' },
+          { id: 'segment-05', order: 5, text: 'My favorite place is the park because it has many trees and benches.' },
+          { id: 'segment-06', order: 6, text: 'On Saturdays, I walk to the library with my sister.' },
+          { id: 'segment-07', order: 7, text: 'The library is behind the town hall.' },
+          { id: 'segment-08', order: 8, text: 'After reading, we sometimes buy ice cream near the park.' },
+          { id: 'segment-09', order: 9, text: 'I like my town because it is quiet, friendly, and easy to explore.' }
+        ],
         title: 'Excuse Me, Where Is the Bank?',
         description: 'Listen to someone asking for directions in town.',
         intro: 'Listen to a tourist asking a local person for directions to the bank.',
@@ -3132,6 +3283,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'My Favorite Weekend Activities',
+        mainTranscript:
+          'On weekends, I have more free time. On Saturday morning, I play basketball with my friends at the park. In the afternoon, I listen to music and read adventure stories. Sometimes I watch a movie with my family. On Sunday, I usually visit my grandparents. My grandmother makes a delicious lunch, and my grandfather tells funny stories. In the evening, I prepare my school bag and check my homework. I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'On weekends, I have more free time.' },
+          { id: 'segment-02', order: 2, text: 'On Saturday morning, I play basketball with my friends at the park.' },
+          { id: 'segment-03', order: 3, text: 'In the afternoon, I listen to music and read adventure stories.' },
+          { id: 'segment-04', order: 4, text: 'Sometimes I watch a movie with my family.' },
+          { id: 'segment-05', order: 5, text: 'On Sunday, I usually visit my grandparents.' },
+          { id: 'segment-06', order: 6, text: 'My grandmother makes a delicious lunch, and my grandfather tells funny stories.' },
+          { id: 'segment-07', order: 7, text: 'In the evening, I prepare my school bag and check my homework.' },
+          { id: 'segment-08', order: 8, text: 'I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities.' }
+        ],
         title: 'What Do You Do in Your Free Time?',
         description: 'Listen to two friends talking about their hobbies.',
         intro: 'Listen to Ana and Leo talking about what they usually do in their free time.',
@@ -3440,6 +3605,22 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'A New Shirt',
+        mainTranscript:
+          'Maria needs a new shirt for a family party. She goes to a clothing store with her mother. Maria sees a blue shirt that she really likes. The shirt is twenty-five dollars. She asks for a small size and tries it on. The shirt fits well, but the sleeves are a little long. Her mother finds a similar white shirt on sale. It costs only eighteen dollars. Maria tries it on and likes it very much. She buys the white shirt and a pair of black pants for the party.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'Maria needs a new shirt for a family party.' },
+          { id: 'segment-02', order: 2, text: 'She goes to a clothing store with her mother.' },
+          { id: 'segment-03', order: 3, text: 'Maria sees a blue shirt that she really likes.' },
+          { id: 'segment-04', order: 4, text: 'The shirt is twenty-five dollars.' },
+          { id: 'segment-05', order: 5, text: 'She asks for a small size and tries it on.' },
+          { id: 'segment-06', order: 6, text: 'The shirt fits well, but the sleeves are a little long.' },
+          { id: 'segment-07', order: 7, text: 'Her mother finds a similar white shirt on sale.' },
+          { id: 'segment-08', order: 8, text: 'It costs only eighteen dollars.' },
+          { id: 'segment-09', order: 9, text: 'Maria tries it on and likes it very much.' },
+          { id: 'segment-10', order: 10, text: 'She buys the white shirt and a pair of black pants for the party.' }
+        ],
         title: 'How Much Is This?',
         description: 'Listen to a customer asking about the price of clothes.',
         intro: 'Listen to a shop assistant helping a customer find a T-shirt.',
@@ -3748,6 +3929,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
+        listeningType: 'story',
+        storyTitle: 'A Day at the Beach',
+        mainTranscript:
+          'It is Saturday morning, and the weather is sunny and warm. Sofia and her family decide to go to the beach. They pack towels, water, food, and sunscreen. The weather forecast says it may rain in the afternoon, so they also take an umbrella. They leave home at nine o’clock and arrive at the beach one hour later. Sofia swims in the sea and plays with her brother. At two o’clock, dark clouds appear. The family packs their things and goes home before the rain begins.',
+        transcriptSegments: [
+          { id: 'segment-01', order: 1, text: 'It is Saturday morning, and the weather is sunny and warm.' },
+          { id: 'segment-02', order: 2, text: 'Sofia and her family decide to go to the beach.' },
+          { id: 'segment-03', order: 3, text: 'They pack towels, water, food, and sunscreen.' },
+          { id: 'segment-04', order: 4, text: 'The weather forecast says it may rain in the afternoon, so they also take an umbrella.' },
+          { id: 'segment-05', order: 5, text: 'They leave home at nine o’clock and arrive at the beach one hour later.' },
+          { id: 'segment-06', order: 6, text: 'Sofia swims in the sea and plays with her brother.' },
+          { id: 'segment-07', order: 7, text: 'At two o’clock, dark clouds appear.' },
+          { id: 'segment-08', order: 8, text: 'The family packs their things and goes home before the rain begins.' }
+        ],
         title: 'What\'s the Weather Like?',
         description: 'Listen to two friends planning a trip based on the weather.',
         intro: 'Listen to Sofia and Marco checking the weather before planning a weekend trip.',

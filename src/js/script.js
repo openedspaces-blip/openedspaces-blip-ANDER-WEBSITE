@@ -5488,8 +5488,9 @@ function renderSkillCards() {
     }
 
     // Listening's status depends solely on whether public.lesson_audio has a
-    // published row for this lesson (GET /api/listening/audio) - only two
-    // real states now, 'official' or not; no AI-generated fallback status.
+    // published row for this lesson (GET /api/listening/audio) - three real
+    // states (spec §3): 'official' (normal+slow), 'partial' (normal only),
+    // or anything else (no published row) = próximamente.
     if (skill === 'listening') {
       if (statusEl) {
         statusEl.textContent = 'Comprobando disponibilidad…';
@@ -5502,9 +5503,12 @@ function renderSkillCards() {
         if (!statusEl) return;
         const { total, attempted } = getExerciseProgress(lesson);
         const pct = total ? Math.round((attempted / total) * 100) : 0;
-        if (data.status === 'official') {
-          statusEl.textContent = 'Disponible';
-          statusEl.className = 'skill-card-status skill-card-status-available';
+        if (data.status === 'official' || data.status === 'partial') {
+          statusEl.textContent = data.status === 'official' ? 'Disponible' : 'Parcial';
+          statusEl.className =
+            data.status === 'official'
+              ? 'skill-card-status skill-card-status-available'
+              : 'skill-card-status skill-card-status-partial';
           if (progressWrap) {
             progressWrap.hidden = false;
             progressWrap.setAttribute('aria-label', `Progreso: ${pct}%`);
@@ -5513,7 +5517,7 @@ function renderSkillCards() {
           if (xpEl) xpEl.textContent = `+${lesson.xpReward || 20} XP`;
           card.setAttribute(
             'aria-label',
-            `Listening: disponible, ${pct}% completado, ${lesson.xpReward || 20} XP`
+            `Listening: ${data.status === 'official' ? 'disponible' : 'parcial, sin audio lento'}, ${pct}% completado, ${lesson.xpReward || 20} XP`
           );
         } else {
           statusEl.textContent = 'Próximamente';
@@ -8424,7 +8428,13 @@ async function fetchListeningAudioStatus(lesson) {
       const params = new URLSearchParams({
         language: learningPathState.language,
         level: learningPathState.level,
-        lessonSlug: lesson.slug
+        lessonSlug: lesson.slug,
+        // Real lesson_id (course_lessons.id) when this lesson came from the
+        // normalized schema - server.js prefers this over language/level/
+        // slug (spec: resolve audio by the real lesson_id, not just a slug).
+        // Empty string for legacy-schema lessons; server.js's uuid guard
+        // then falls straight through to the slug-based lookup.
+        lessonId: lesson.id || ''
       });
       const response = await fetch(`${backendBaseUrl}/api/listening/audio?${params.toString()}`, {
         headers: authHeaders()
@@ -8695,10 +8705,8 @@ function renderListeningPhoneticGuideHtml(ps) {
   `;
 }
 
-// Global show/hide for every line's L1/pronunciation line at once (rather
-// than per-line buttons, which listening-dialogue-translate-btn already
-// covers in the separate Diálogo tab) - both toggles are independent and
-// "ocultable" per spec.
+// Global show/hide for every line's L1/pronunciation line at once - both
+// toggles are independent and "ocultable" per spec.
 function wireListeningTranscriptToggles(panel) {
   const l1Toggle = panel.querySelector('.listening-l1-toggle');
   l1Toggle?.addEventListener('click', () => {
@@ -9020,29 +9028,28 @@ function computeListeningTutorQuestionContext(lesson) {
 // which shows pronunciation support inline under each line instead of in a
 // disconnected tab. Dictado and Comprensión stay separate on purpose: one is
 // a write-what-you-hear exercise, the other is a scored comprehension check.
+// Diálogos is Speaking's tab (renderSpeakingModeTabsHtml) only - Listening
+// never shows it, even for lessons authored with listeningType: 'dialogue'.
 function listeningExtraModeList(lesson) {
   const modes = [];
-  if (lesson.extra?.listeningType === 'dialogue' && lesson.dialogue?.length)
-    modes.push({ id: 'dialogue', label: 'Diálogos' });
   if (lesson.dictation?.segments?.length) modes.push({ id: 'dictation', label: 'Dictado' });
   modes.push({ id: 'transcript', label: 'Transcripción y pronunciación' });
   modes.push({ id: 'comprehension', label: 'Comprensión' });
   return modes;
 }
 
-// True when a lesson has at least one of the rich Diálogo/Dictado/
-// Transcripción-y-pronunciación/Comprensión tabs worth showing, independent
-// of whether official audio exists yet. Lets renderListeningUnavailable
-// below show those tabs under the honest "no audio yet" status card instead
-// of hiding the whole unit behind an audio file that hasn't been published -
-// never fabricates a player, never auto-calls a TTS provider, just stops
-// blocking read/write content that doesn't itself need audio to work
-// (dictation grading, comprehension questions, the dialogue script, the
-// transcript).
+// True when a lesson has at least one of the rich Dictado/Transcripción-y-
+// pronunciación/Comprensión tabs worth showing, independent of whether
+// official audio exists yet. Lets renderListeningUnavailable below show
+// those tabs under the honest "no audio yet" status card instead of hiding
+// the whole unit behind an audio file that hasn't been published - never
+// fabricates a player, never auto-calls a TTS provider, just stops blocking
+// read/write content that doesn't itself need audio to work (dictation
+// grading, comprehension questions, the transcript). Diálogos is
+// deliberately excluded - it's Speaking's tab only, never Listening's.
 function listeningHasRichExtras(lesson) {
   return Boolean(
-    (lesson.extra?.listeningType === 'dialogue' && lesson.dialogue?.length) ||
-      lesson.dictation?.segments?.length ||
+    lesson.dictation?.segments?.length ||
       lesson.extra?.phoneticSupport ||
       lesson.extra?.listeningComprehension?.questions?.length
   );
@@ -9068,10 +9075,27 @@ function renderListeningExtraModesHtml(lesson, runtime) {
   `;
 }
 
+// A dictation segment is only real practice if it has its own audio
+// fragment, or real start/end timestamps into the main official track -
+// spec §8: never invent timestamps, never fall back to speechSynthesis.
+function listeningDictationSegmentHasAudio(segment) {
+  return Boolean(
+    segment.normalAudioUrl || (Number.isFinite(segment.startTime) && Number.isFinite(segment.endTime))
+  );
+}
+
 function renderListeningDictationPanel(lesson, runtime) {
   const segments = lesson.dictation?.segments || [];
+  if (!segments.length || !segments.some(listeningDictationSegmentHasAudio)) {
+    return `
+      <div class="listening-dictation listening-dictation-pending">
+        <p class="listening-dictation-pending-message">El dictado de esta lección está pendiente: todavía no hay fragmentos de audio ni marcas de tiempo reales para practicarlo.</p>
+      </div>
+    `;
+  }
   runtime.dictationAnswers = runtime.dictationAnswers || {};
   const rowsHtml = segments
+    .filter(listeningDictationSegmentHasAudio)
     .map((segment, index) => {
       const value = escapeHtml(runtime.dictationAnswers[segment.id] || '');
       const result = runtime.dictationResults?.segments?.find((r) => String(r.segmentId) === String(segment.id));
@@ -9100,29 +9124,8 @@ function renderListeningDictationPanel(lesson, runtime) {
   `;
 }
 
-function renderListeningDialoguePanel(lesson, runtime) {
-  const linesHtml = (lesson.dialogue || [])
-    .map(
-      (line, index) => `
-        <div class="listening-dialogue-line">
-          <span class="listening-dialogue-speaker">${escapeHtml(line.speaker)}</span>
-          <span class="listening-dialogue-text">${escapeHtml(line.line)}</span>
-          <button type="button" class="listening-dialogue-translate-btn" data-line-index="${index}">${runtime.dialogueTranslationsShown?.[index] ? 'Ocultar' : 'Traducir'}</button>
-          <span class="listening-dialogue-translation" ${runtime.dialogueTranslationsShown?.[index] ? '' : 'hidden'}>${escapeHtml(line.translation || '')}</span>
-        </div>
-      `
-    )
-    .join('');
-  return `
-    <div class="listening-dialogue-panel">
-      <p class="listening-roleplay-note">Modo diálogo: lee el guion en pareja. Modo role-play: cada persona toma un rol y lo dice en voz alta, sin leer.</p>
-      ${linesHtml}
-    </div>
-  `;
-}
-
 async function submitDictationCheck(lesson, runtime, content) {
-  const segments = lesson.dictation?.segments || [];
+  const segments = (lesson.dictation?.segments || []).filter(listeningDictationSegmentHasAudio);
   const attempts = segments.map((segment) => ({
     segmentId: segment.id,
     text: runtime.dictationAnswers?.[segment.id] || ''
@@ -9147,7 +9150,6 @@ function wireListeningModePanel(content, lesson, runtime) {
   const panel = content.querySelector('.listening-mode-panel');
   if (!panel) return;
   if (runtime.extraMode === 'dictation') panel.innerHTML = renderListeningDictationPanel(lesson, runtime);
-  else if (runtime.extraMode === 'dialogue') panel.innerHTML = renderListeningDialoguePanel(lesson, runtime);
   else if (runtime.extraMode === 'transcript') panel.innerHTML = renderListeningTranscriptPanel();
   else if (runtime.extraMode === 'comprehension') panel.innerHTML = renderListeningComprehensionPanel(lesson);
 
@@ -9170,14 +9172,6 @@ function wireListeningModePanel(content, lesson, runtime) {
   panel.querySelector('.listening-dictation-check-btn')?.addEventListener('click', () => {
     submitDictationCheck(lesson, runtime, content);
   });
-  panel.querySelectorAll('.listening-dialogue-translate-btn').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const index = Number(btn.dataset.lineIndex);
-      runtime.dialogueTranslationsShown = runtime.dialogueTranslationsShown || {};
-      runtime.dialogueTranslationsShown[index] = !runtime.dialogueTranslationsShown[index];
-      wireListeningModePanel(content, lesson, runtime);
-    });
-  });
 }
 
 function wireListeningExtraModes(content, lesson, runtime) {
@@ -9196,7 +9190,7 @@ function wireListeningExtraModes(content, lesson, runtime) {
   wireListeningModePanel(content, lesson, runtime);
 }
 
-function renderListeningOfficial(content, lesson, runtime, audio) {
+function renderListeningOfficial(content, lesson, runtime, audio, status = 'official') {
   // Scored Comprehension (extra.listeningComprehension) replaces the old
   // "Completar" button the same way Grammar's scored test replaced its
   // old completion flow - submitting the test inside the Comprensión tab
@@ -9213,6 +9207,7 @@ function renderListeningOfficial(content, lesson, runtime, audio) {
     <div class="listening-meta-row">
       <span class="listening-meta-item">Objetivo: ${escapeHtml(objective)}</span>
       <span class="listening-meta-item">Duración: ${escapeHtml(durationLabel)}</span>
+      ${status === 'partial' ? '<span class="listening-meta-item listening-meta-partial">Audio lento no disponible todavía</span>' : ''}
     </div>
     ${buildListeningPlayerMarkup({ sourceLabel: 'Audio oficial', title: lesson.title })}
     <div class="listening-vocab">
@@ -9288,7 +9283,7 @@ function renderListeningAudioPendingBannerHtml({ icon, title, detail, actionsHtm
 // Listening's only "no audio yet" state - no device voice, no AI-generated
 // practice, no auto-play, no unnecessary retry button (nothing changes here
 // without a real upload + lesson_audio row, so "reintentar" would just be
-// misleading). Other tabs (Diálogo/Dictado/Transcripción y pronunciación/
+// misleading). Other tabs (Dictado/Transcripción y pronunciación/
 // Comprensión) stay available below when the lesson already has that content.
 function renderListeningUnavailable(content, lesson, runtime) {
   const hasExtras = listeningHasRichExtras(lesson);
@@ -9298,7 +9293,7 @@ function renderListeningUnavailable(content, lesson, runtime) {
         icon: '🎧',
         title: 'Audio oficial no disponible todavía.',
         detail:
-          'Mientras tanto, ya puedes practicar con el diálogo, dictado, transcripción y pronunciación, y comprensión de esta lección.',
+          'Mientras tanto, ya puedes practicar con el dictado, transcripción y pronunciación, y comprensión de esta lección.',
         actionsHtml: ''
       }) + renderListeningExtraModesHtml(lesson, runtime)
     : `
@@ -9328,8 +9323,8 @@ function renderListeningError(content, lesson, section, message) {
 }
 
 function renderListeningResolved(content, lesson, runtime, statusData, section) {
-  if (statusData.status === 'official' && statusData.audio) {
-    renderListeningOfficial(content, lesson, runtime, statusData.audio);
+  if ((statusData.status === 'official' || statusData.status === 'partial') && statusData.audio) {
+    renderListeningOfficial(content, lesson, runtime, statusData.audio, statusData.status);
     return;
   }
   if (statusData.status === 'error') {

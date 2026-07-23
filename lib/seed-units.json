@@ -1295,5 +1295,365 @@
       ],
       "scenario": "Camila et Léa se disputent pour la première fois à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit."
     }
+  },
+  {
+    "slug": "retour-a-saint-domingue",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Retour à Saint-Domingue",
+    "title_es": "Regreso a Santo Domingo",
+    "description": "Camila retrouve sa famille et ses amis d’enfance à Saint-Domingue, avec un regard transformé par son année en France.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Décrire un retour au pays et exprimer un sentiment ambivalent avec nuance.",
+      "outcomes": [
+        "décrire des retrouvailles avec précision émotionnelle",
+        "exprimer une nostalgie tout en valorisant le présent",
+        "utiliser le plus-que-parfait pour situer un souvenir dans le passé",
+        "nuancer une opinion sur deux lieux de vie différents"
+      ],
+      "grammar": [
+        "plus-que-parfait",
+        "concordance des temps (passé)",
+        "nuance et modération de l’opinion"
+      ],
+      "vocabulary": [
+        "les retrouvailles",
+        "le mal du pays",
+        "ambivalent(e)",
+        "avoir le sentiment de"
+      ],
+      "scenario": "Camila atterrit à Saint-Domingue après un an d’absence et retrouve sa famille et Sofía à l’aéroport."
+    }
+  },
+  {
+    "slug": "candidature-universitaire",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Candidature universitaire",
+    "title_es": "Solicitud universitaria",
+    "description": "Camila prépare sa candidature pour étudier à l’université en France, avec l’aide à distance de Léa et Karim.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Rédiger une lettre de motivation et argumenter un projet académique de façon structurée.",
+      "outcomes": [
+        "structurer une lettre de motivation formelle",
+        "argumenter un choix académique avec des exemples concrets",
+        "utiliser le subjonctif passé pour évoquer une expérience accomplie",
+        "nuancer une auto-présentation sans excès de modestie ni d’arrogance"
+      ],
+      "grammar": [
+        "subjonctif passé",
+        "connecteurs d’argumentation avancés (par ailleurs, en outre)",
+        "structure d’une lettre de motivation"
+      ],
+      "vocabulary": [
+        "une lettre de motivation",
+        "un dossier de candidature",
+        "convaincant(e)",
+        "se démarquer"
+      ],
+      "scenario": "Camila rédige sa lettre de motivation pour candidater à une licence de langues à l’université de Tours."
+    }
+  },
+  {
+    "slug": "debats-de-societe",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Débats de société",
+    "title_es": "Debates de sociedad",
+    "description": "Dans un club de discussion en ligne avec Karim, Camila débat de sujets de société complexes en français.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Participer à un débat structuré sur un sujet de société et défendre une position nuancée.",
+      "outcomes": [
+        "structurer un argument avec des connecteurs logiques avancés",
+        "anticiper et réfuter un contre-argument",
+        "utiliser la voix passive dans un contexte argumentatif",
+        "nuancer une position sans paraître catégorique"
+      ],
+      "grammar": [
+        "la voix passive",
+        "connecteurs d’argumentation avancés (néanmoins, or, par conséquent)",
+        "nuance argumentative (il me semble que, dans une certaine mesure)"
+      ],
+      "vocabulary": [
+        "un point de vue",
+        "réfuter",
+        "dans une certaine mesure",
+        "un contre-argument"
+      ],
+      "scenario": "Camila rejoint un club de discussion en ligne où des étudiants francophones débattent de sujets de société, dont l’usage des écrans chez les jeunes."
+    }
+  },
+  {
+    "slug": "le-teletravail-et-lavenir-professionnel",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Le télétravail et l’avenir professionnel",
+    "title_es": "El teletrabajo y el futuro profesional",
+    "description": "En attendant la réponse de l’université, Camila décroche un petit emploi de traduction à distance et découvre les avantages et limites du télétravail.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Décrire une expérience professionnelle et peser les avantages et inconvénients du télétravail.",
+      "outcomes": [
+        "décrire une routine de travail à distance",
+        "peser des avantages et des inconvénients avec nuance",
+        "utiliser le gérondif pour exprimer la simultanéité",
+        "employer des pronoms relatifs composés (dont, ce dont)"
+      ],
+      "grammar": [
+        "le gérondif (en + participe présent)",
+        "pronoms relatifs composés (dont, ce dont)",
+        "expressions de nuance professionnelle"
+      ],
+      "vocabulary": [
+        "le télétravail",
+        "la productivité",
+        "l’isolement",
+        "gérer son temps"
+      ],
+      "scenario": "Camila commence un petit emploi de traduction à distance pour une agence tout en attendant la réponse de l’université."
+    }
+  },
+  {
+    "slug": "litterature-francophone",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Littérature francophone",
+    "title_es": "Literatura francófona",
+    "description": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen, mêlant sa propre culture à la langue qu’elle a apprise.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Analyser un extrait littéraire simple et rapporter les propos d’un auteur au discours indirect.",
+      "outcomes": [
+        "analyser le thème et le ton d’un extrait littéraire",
+        "rapporter des propos au discours indirect au passé",
+        "utiliser des pronoms relatifs composés (lequel, laquelle)",
+        "exprimer une impression de lecture avec nuance"
+      ],
+      "grammar": [
+        "discours indirect au passé",
+        "pronoms relatifs composés (lequel, auquel, duquel)",
+        "expressions d’analyse littéraire"
+      ],
+      "vocabulary": [
+        "un extrait",
+        "le narrateur",
+        "évoquer",
+        "un thème récurrent"
+      ],
+      "scenario": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen évoquant l’identité et le déracinement."
+    }
+  },
+  {
+    "slug": "cinema-et-critique",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Cinéma et critique",
+    "title_es": "Cine y crítica",
+    "description": "Camila regarde un film français avec Sofía et rédige sa première critique de cinéma argumentée.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Rédiger une critique de film structurée avec des arguments et une évaluation nuancée.",
+      "outcomes": [
+        "décrire l’intrigue d’un film sans trop en révéler",
+        "évaluer la mise en scène et le jeu des acteurs",
+        "utiliser ce qui / ce que pour résumer une impression",
+        "nuancer une critique entre points forts et points faibles"
+      ],
+      "grammar": [
+        "ce qui / ce que (récapitulatif)",
+        "expressions d’évaluation critique",
+        "comparatifs et superlatifs avancés"
+      ],
+      "vocabulary": [
+        "la mise en scène",
+        "le scénario",
+        "un rebondissement",
+        "convaincant(e) (cinéma)"
+      ],
+      "scenario": "Camila et Sofía regardent ensemble un film français récent, et Camila décide d’en écrire une critique pour son blog personnel."
+    }
+  },
+  {
+    "slug": "dilemmes-ethiques",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Dilemmes éthiques",
+    "title_es": "Dilemas éticos",
+    "description": "Dans un forum de discussion philosophique, Camila débat d’un dilemme moral et explore des hypothèses complexes avec le club de lecture.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Discuter d’un dilemme moral et formuler des hypothèses complexes sur le passé.",
+      "outcomes": [
+        "présenter un dilemme éthique avec précision",
+        "formuler une hypothèse irréelle sur le passé",
+        "utiliser le conditionnel passé pour exprimer un regret ou un reproche",
+        "nuancer un jugement moral sans catégoriser trop vite"
+      ],
+      "grammar": [
+        "hypothèse avec si + plus-que-parfait / conditionnel passé",
+        "le conditionnel passé (regret, reproche)",
+        "nuance du jugement moral"
+      ],
+      "vocabulary": [
+        "un dilemme",
+        "une valeur",
+        "juger",
+        "se mettre à la place de"
+      ],
+      "scenario": "Camila participe à un forum de discussion philosophique en ligne où l’on débat d’un dilemme moral classique."
+    }
+  },
+  {
+    "slug": "sciences-et-innovations",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Sciences et innovations",
+    "title_es": "Ciencias e innovaciones",
+    "description": "Karim partage un article de vulgarisation scientifique sur l’intelligence artificielle, et Camila apprend à discuter de sciences en français.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Comprendre et discuter d’un texte de vulgarisation scientifique avec nuance.",
+      "outcomes": [
+        "comprendre un texte de vulgarisation scientifique",
+        "exprimer une incertitude ou une probabilité scientifique",
+        "utiliser des connecteurs de cause scientifique (étant donné que, dans la mesure où)",
+        "nuancer une opinion sur une innovation technologique"
+      ],
+      "grammar": [
+        "subjonctif d’incertitude (il est possible que, il se peut que)",
+        "connecteurs de cause avancés (étant donné que, dans la mesure où)",
+        "expression de la probabilité"
+      ],
+      "vocabulary": [
+        "l’intelligence artificielle",
+        "un algorithme",
+        "une avancée",
+        "les répercussions"
+      ],
+      "scenario": "Karim, passionné de technologie, partage avec Camila un article sur l’intelligence artificielle et ses répercussions sur la société."
+    }
+  },
+  {
+    "slug": "histoire-et-memoire",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Histoire et mémoire",
+    "title_es": "Historia y memoria",
+    "description": "En regardant un documentaire avec sa grand-mère, Camila explore l’histoire partagée de la Caraïbe francophone et hispanophone.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Comprendre un récit historique et discuter de la mémoire collective avec nuance.",
+      "outcomes": [
+        "comprendre un récit historique complexe",
+        "discuter de la mémoire collective et de ses interprétations multiples",
+        "utiliser les pronoms démonstratifs (celui, celle, ceux, celles)",
+        "nuancer un point de vue sur un événement historique sensible"
+      ],
+      "grammar": [
+        "pronoms démonstratifs (celui, celle, ceux, celles, celui-ci/celui-là)",
+        "l’accord du participe passé avec avoir (complément direct antéposé)",
+        "expressions de la mémoire historique"
+      ],
+      "vocabulary": [
+        "la mémoire collective",
+        "un héritage",
+        "une perspective",
+        "transmettre"
+      ],
+      "scenario": "Camila regarde un documentaire sur l’histoire partagée d’Haïti et de la République dominicaine avec sa grand-mère, qui lui raconte ses propres souvenirs familiaux."
+    }
+  },
+  {
+    "slug": "ecologie-et-engagement-citoyen",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Écologie et engagement citoyen",
+    "title_es": "Ecología y compromiso ciudadano",
+    "description": "Camila rejoint un groupe de jeunes engagés pour la protection des mangroves de Saint-Domingue et rédige une pétition en français pour un partenariat associatif.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Exprimer un but et une opinion négative nuancée dans un contexte d’engagement citoyen.",
+      "outcomes": [
+        "exprimer un but avec afin que + subjonctif",
+        "formuler une opinion négative nuancée (je ne pense pas que + subjonctif)",
+        "rédiger une pétition ou un appel à l’action structuré",
+        "comparer des politiques environnementales avec des comparatifs avancés"
+      ],
+      "grammar": [
+        "expression du but (afin que, pour que + subjonctif)",
+        "opinion négative + subjonctif (je ne pense pas que, je ne crois pas que)",
+        "comparatifs et superlatifs dans un contexte argumentatif"
+      ],
+      "vocabulary": [
+        "une mangrove",
+        "la biodiversité",
+        "un engagement citoyen",
+        "une pétition"
+      ],
+      "scenario": "Camila rejoint un groupe de jeunes bénévoles qui protège les mangroves près de Saint-Domingue et doit rédiger, en français, une demande de partenariat à une association francophone."
+    }
+  },
+  {
+    "slug": "art-et-creativite",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Art et créativité",
+    "title_es": "Arte y creatividad",
+    "description": "Camila interviewe, pour son blog, une artiste peintre franco-dominicaine qui explore l’identité caribéenne dans son travail.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Mener une interview structurée et rapporter des propos sur le processus créatif.",
+      "outcomes": [
+        "préparer et mener une interview structurée",
+        "rapporter les propos d’un artiste avec précision",
+        "utiliser des comparatifs et superlatifs avancés dans un contexte artistique",
+        "décrire un processus créatif avec un vocabulaire précis"
+      ],
+      "grammar": [
+        "comparatifs et superlatifs avancés (autant que, de moins en moins)",
+        "discours rapporté (révision élargie)",
+        "expressions du processus créatif"
+      ],
+      "vocabulary": [
+        "une œuvre",
+        "un processus créatif",
+        "s’inspirer de",
+        "une exposition"
+      ],
+      "scenario": "Pour son blog, Camila interviewe une artiste peintre franco-dominicaine dont le travail explore l’identité caribéenne."
+    }
+  },
+  {
+    "slug": "bilan-et-projets-davenir",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Bilan et projets d’avenir",
+    "title_es": "Balance y proyectos de futuro",
+    "description": "Camila reçoit la réponse de l’université de Tours et fait le bilan de tout ce qu’elle a accompli et appris depuis son premier jour d’échange scolaire.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Faire un bilan personnel structuré et exprimer des projets d’avenir avec assurance.",
+      "outcomes": [
+        "faire le bilan d’un parcours personnel complet",
+        "exprimer un projet d’avenir avec des hypothèses nuancées",
+        "utiliser le conditionnel passé pour évoquer ce qui aurait pu se passer différemment",
+        "conclure une réflexion personnelle avec clarté et maturité"
+      ],
+      "grammar": [
+        "récapitulatif : conditionnel passé, subjonctif, hypothèses complexes",
+        "expressions de bilan (avec le recul, en fin de compte)",
+        "expression de la certitude et de la détermination"
+      ],
+      "vocabulary": [
+        "un bilan",
+        "avec le recul",
+        "un accomplissement",
+        "être déterminé(e) à"
+      ],
+      "scenario": "Camila reçoit enfin la réponse de l’université de Tours et écrit une lettre ouverte à la Camila d’il y a deux ans, avant son départ pour la France."
+    }
   }
 ]

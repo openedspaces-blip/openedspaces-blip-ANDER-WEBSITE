@@ -5473,6 +5473,15 @@ footer small {
   color: var(--muted);
 }
 
+.skill-card-status-partial {
+  background: rgba(234, 179, 8, 0.14);
+  color: #a16207;
+}
+
+.listening-meta-partial {
+  color: #a16207;
+}
+
 .skill-card-progress {
   width: 100%;
   height: 5px;
