@@ -2824,14 +2824,12 @@ function hasUnits() {
   return learningPathState.units.length > 0;
 }
 
-// Listening biblioteca, phase 1: only these units have (or are about to
-// have) an official recording registered in public.lesson_audio - see
-// docs/audio-architecture.md. Deliberately NOT every unit that already has
-// listening content authored in scripts/content/*-units.js (all 12 do) -
-// only the ones approved for real audio production. Extend this map (never
-// remove existing entries) once a further level/language's six lessons are
-// approved and recorded; until then every other unit's Listening activity
-// is left out of the biblioteca entirely rather than shown as a dead link.
+// Listening biblioteca: only these units have an official recording
+// registered in public.lesson_audio (verified against the real "lesson-audio"
+// Storage bucket, not assumed) - see docs/audio-architecture.md. Every other
+// unit's Listening activity is left out of the biblioteca entirely rather
+// than shown as a dead link. Extend this map (never remove existing entries)
+// as further levels/languages get real audio recorded and registered.
 const LISTENING_ENABLED_SLUGS = {
   english: {
     A1: [
@@ -2840,7 +2838,25 @@ const LISTENING_ENABLED_SLUGS = {
       'english-a1-family-and-friends-listening',
       'english-a1-my-school-listening',
       'english-a1-daily-routine-listening',
-      'english-a1-food-and-drinks-listening'
+      'english-a1-time-and-dates-listening',
+      'english-a1-food-and-drinks-listening',
+      'english-a1-my-home-listening',
+      'english-a1-my-town-listening',
+      'english-a1-free-time-listening',
+      'english-a1-clothes-and-shopping-listening',
+      'english-a1-weather-and-travel-listening'
+    ],
+    A2: [
+      'english-a2-everyday-life-listening',
+      'english-a2-family-and-relationships-listening',
+      'english-a2-home-and-neighborhood-listening',
+      'english-a2-food-and-shopping-listening',
+      'english-a2-past-experiences-listening',
+      'english-a2-travel-and-transportation-listening',
+      'english-a2-health-and-healthy-habits-listening',
+      'english-a2-plans-and-celebrations-listening',
+      'english-a2-school-and-work-listening',
+      'english-a2-stories-and-achievements-listening'
     ]
   }
 };
@@ -8481,7 +8497,7 @@ function buildListeningPlayerMarkup({ sourceLabel, title }) {
         <button type="button" class="listening-ctrl-btn listening-back5-btn" aria-label="Retroceder 5 segundos" disabled>⏪ 5s</button>
         <button type="button" class="listening-ctrl-btn listening-fwd5-btn" aria-label="Avanzar 5 segundos" disabled>⏩ 5s</button>
         <button type="button" class="listening-ctrl-btn listening-repeat-btn" aria-label="Repetir audio" aria-pressed="false" disabled>🔁 Repetir</button>
-        <button type="button" class="listening-ctrl-btn listening-speed-btn" aria-label="Cambiar velocidad" disabled>🐢 Normal</button>
+        <button type="button" class="listening-ctrl-btn listening-speed-btn" aria-label="Cambiar velocidad" disabled>🔊 1×</button>
       </div>
       <div class="listening-player-progress-row">
         <span class="listening-time-elapsed" aria-hidden="true">0:00</span>
@@ -8783,20 +8799,23 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
     repeatBtn.setAttribute('aria-pressed', String(audioEl.loop));
     repeatBtn.classList.toggle('is-active', audioEl.loop);
   });
-  // Three-tier speed cycle: normal -> lento -> muy lento -> normal. Any
-  // speed missing a recorded file (slowUrl/verySlowUrl) falls back to a
-  // client-side playbackRate reduction on the normal audio instead of
-  // switching src, same behavior the two-tier version already had.
-  const SPEED_TIERS = ['normal', 'slow', 'verySlow'];
-  const SPEED_LABEL = { normal: '🐢 Normal', slow: '🐇 Lento', verySlow: '🐌 Muy lento' };
-  const SPEED_RATE = { normal: 1, slow: 0.75, verySlow: 0.5 };
+  // Playback speed cycle: 1x -> 0.75x -> 0.5x -> 1.25x -> 1x. Most lessons
+  // today only have a single recorded file (main_file_path), so every tier
+  // besides 1x is a client-side playbackRate change on that same file - the
+  // button still prefers a real recorded slow/very-slow file when one
+  // exists (meta.slowUrl/verySlowUrl), switching src instead of just the
+  // rate. Numeric labels (not "Lento"/"Muy lento") because the tier is a
+  // rate, not a fixed grabación - accurate either way this ends up applied.
+  const SPEED_TIERS = ['normal', 'slow', 'verySlow', 'fast'];
+  const SPEED_LABEL = { normal: '1×', slow: '0.75×', verySlow: '0.5×', fast: '1.25×' };
+  const SPEED_RATE = { normal: 1, slow: 0.75, verySlow: 0.5, fast: 1.25 };
   runtime.speedTier = runtime.speedTier || 'normal';
   speedBtn?.addEventListener('click', () => {
     const wasPlaying = !audioEl.paused;
     const currentIndex = SPEED_TIERS.indexOf(runtime.speedTier);
     runtime.speedTier = SPEED_TIERS[(currentIndex + 1) % SPEED_TIERS.length];
     const recordedUrl =
-      runtime.speedTier === 'slow' ? meta.slowUrl : runtime.speedTier === 'verySlow' ? meta.verySlowUrl : meta.mainUrl;
+      runtime.speedTier === 'slow' ? meta.slowUrl : runtime.speedTier === 'verySlow' ? meta.verySlowUrl : null;
     if (recordedUrl && recordedUrl !== audioEl.src) {
       audioEl.src = recordedUrl;
       audioEl.playbackRate = 1;
@@ -8807,10 +8826,18 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
           once: true
         });
     } else {
+      if (audioEl.src !== meta.mainUrl) {
+        audioEl.src = meta.mainUrl;
+        audioEl.load();
+        if (wasPlaying)
+          audioEl.addEventListener('loadedmetadata', () => audioEl.play().catch(() => {}), {
+            once: true
+          });
+      }
       audioEl.playbackRate = SPEED_RATE[runtime.speedTier];
     }
-    speedBtn.textContent = SPEED_LABEL[runtime.speedTier];
-    speedBtn.setAttribute('aria-label', `Velocidad actual: ${SPEED_LABEL[runtime.speedTier].replace(/^\S+\s/, '')}. Cambiar velocidad.`);
+    speedBtn.textContent = `🔊 ${SPEED_LABEL[runtime.speedTier]}`;
+    speedBtn.setAttribute('aria-label', `Velocidad actual: ${SPEED_LABEL[runtime.speedTier]}. Cambiar velocidad.`);
   });
   rangeEl?.addEventListener('input', () => {
     if (Number.isFinite(audioEl.duration) && audioEl.duration > 0) {
