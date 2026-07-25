@@ -3030,6 +3030,24 @@ function openUnitSequenceStep(skill, lessonSlug = '') {
     renderUnitVerbContext();
     return;
   }
+  if (skill === 'dialogue' && lessonSlug) {
+    const dialogueLesson = learningPathState.lessons.find((item) => item.slug === lessonSlug);
+    const speakingLesson =
+      learningPathState.lessons.find(
+        (item) => item.unitId === dialogueLesson?.unitId && item.skill === 'speaking'
+      ) || dialogueLesson;
+    if (!speakingLesson) return;
+    setActiveLesson(speakingLesson.slug);
+    speakingViewState = {
+      lessonSlug: speakingLesson.slug,
+      mode: 'dialogue',
+      guidedTurnIndex: 0
+    };
+    showView('speaking');
+    renderSkillView('speaking');
+    updateLearnHash('speaking');
+    return;
+  }
   if (!SKILL_VIEWS.includes(skill) || !lessonSlug) return;
   setActiveLesson(lessonSlug);
   showView(skill);
