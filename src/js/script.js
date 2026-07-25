@@ -12105,14 +12105,35 @@ function handleHomeAction(action) {
     showView(view);
     if (toast) showHomeToast(toast);
   };
+  const openLanguageSelector = (language = '') => {
+    goTo('home');
+    if (language) {
+      if (
+        language === learningPathState.bridgeLanguage &&
+        learningPathState.language !== learningPathState.bridgeLanguage
+      ) {
+        swapLearningPathLanguages();
+      } else {
+        setTargetLanguage(language);
+      }
+    }
+    window.setTimeout(() => {
+      document
+        .querySelector('.global-language-controls')
+        ?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      document.getElementById(language ? 'pathLevelSelect' : 'pathLanguageSelect')?.focus({
+        preventScroll: true
+      });
+    }, 50);
+  };
 
   switch (action) {
     case 'continue-lesson':
       goTo('learn', 'Ruta de lecciones abierta. Elige una lección y completa el reto.');
       break;
     case 'start-free':
-      setTargetLanguage('english');
-      goTo('learn', 'Elige un nivel. A1-B2 tienen 3 lecciones gratis; C1-C2 tienen 1.');
+      openLanguageSelector();
+      showHomeToast('Elige idioma y nivel para comenzar.');
       break;
     case 'goals':
       goTo('goals', 'Elige o gestiona tu objetivo.');
@@ -12146,25 +12167,20 @@ function handleHomeAction(action) {
       goTo('tutor', 'Tutor IA abierto. Practica listening, speaking o writing.');
       break;
     case 'explore-languages':
-      goTo('home');
-      window.setTimeout(() => {
-        document
-          .getElementById('language-picker')
-          ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }, 50);
+      openLanguageSelector();
       showHomeToast('Elige un idioma para ver su ruta completa.');
       break;
     case 'explore-english':
-      setTargetLanguage('english');
-      goTo('learn');
+      openLanguageSelector('english');
+      showHomeToast('English seleccionado. Elige tu nivel.');
       break;
     case 'explore-frances':
-      setTargetLanguage('frances');
-      goTo('learn');
+      openLanguageSelector('french');
+      showHomeToast('Français seleccionado. Elige tu nivel.');
       break;
     case 'explore-espanol':
-      setTargetLanguage('espanol');
-      goTo('learn');
+      openLanguageSelector('spanish');
+      showHomeToast('Español seleccionado. Elige tu nivel.');
       break;
     default:
       break;
