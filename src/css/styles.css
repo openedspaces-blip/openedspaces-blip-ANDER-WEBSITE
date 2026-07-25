@@ -11484,3 +11484,41 @@ footer small {
     min-height: 285px;
   }
 }
+.verbs-language-switcher {
+  width: min(100%, 430px);
+  margin: 0 auto 1rem;
+  padding: 0.75rem 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: var(--shadow-xs);
+}
+
+.verbs-language-switcher label {
+  flex-shrink: 0;
+  color: var(--navy-2);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.verbs-language-switcher select {
+  flex: 1;
+  min-width: 0;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--white);
+  color: var(--navy-2);
+  font: inherit;
+  font-weight: 750;
+}
+
+@media (max-width: 560px) {
+  .verbs-language-switcher {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

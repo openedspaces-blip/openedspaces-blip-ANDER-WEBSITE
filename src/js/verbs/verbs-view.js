@@ -1504,6 +1504,10 @@
     // in sync with L1 on every bridgeLanguage change, the same as every
     // other section's static chrome - nothing extra to do for them here.
     renderVerbsHeaderMeta();
+    const languageSelect = document.getElementById('verbsLanguageSelect');
+    if (languageSelect) languageSelect.value = currentVerbLanguage();
+    const navLink = document.querySelector('a[data-i18n="navVerbs"]');
+    if (navLink) navLink.href = `#verbs/${currentVerbLanguage()}/list`;
     renderLanguageGroupFilters();
     resetVerbsPagination();
     renderVerbsDeck();
@@ -1540,6 +1544,17 @@
   });
 
   document.addEventListener('change', (event) => {
+    if (event.target.id === 'verbsLanguageSelect') {
+      const language = event.target.value;
+      if (!VERB_LANGUAGES.has(language)) return;
+      history.pushState(null, '', `#verbs/${language}/list`);
+      const searchInput = document.getElementById('verbsSearchInput');
+      const filterSelect = document.getElementById('verbsFilterSelect');
+      if (searchInput) searchInput.value = '';
+      if (filterSelect) filterSelect.value = 'all';
+      window.renderVerbsView();
+      return;
+    }
     if (event.target.id === 'verbsFilterSelect' || event.target.id === 'verbsSortSelect') {
       resetVerbsPagination();
       renderVerbsDeck();
