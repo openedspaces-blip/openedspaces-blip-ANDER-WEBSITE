@@ -1,6 +1,6 @@
 // English C2: extended interdisciplinary essays, high-precision vocabulary
 // and grammar for nuanced academic/professional argument. Full L2 immersion.
-const topics = [
+const legacyTopics = [
   ['epistemic-fragmentation','Epistemic Fragmentation and Public Knowledge','When Facts Lose Their Common Ground',
     'Public disagreement increasingly concerns not only conclusions but the institutions, methods and witnesses considered credible.',
     'Fragmented media systems can widen participation while dissolving the shared procedures through which claims are corrected.',
@@ -87,8 +87,25 @@ const topics = [
     'Build noun phrases with coordinated premodifiers and layered relative, prepositional and participle postmodification; control attachment so each modifier has one plausible head.']
 ];
 
+const topics = require('./english-c2-learning-science-topics');
+const frenchLearningScienceTopics = require('./french-c2-learning-science-topics');
+
 const q=(prompt,options,answer,explanation)=>({type:'mcq',prompt,options,answer,explanation});
 const activity=(skill,fields)=>({skill,duration:skill==='reading'?32:skill==='grammar'?24:22,xp:skill==='reading'?60:50,...fields});
+const spanishVocabularyByTopic = {
+  'epistemic-fragmentation': ['epistémico','procedencia','corroboración','falsabilidad','testimonial','dirimir','déficit de credibilidad','ecosistema informativo','metodológico','formación de consenso','contraevidencia','humildad epistémica'],
+  'quantum-security': ['criptográfico','descifrado','tolerante a fallos','computacionalmente intratable','interoperabilidad','ruta de migración','modelo de amenazas','exposición retrospectiva','contingencia','agilidad de protocolo','cifrado asimétrico','horizonte de riesgo'],
+  'synthetic-biology': ['seguridad biológica','bioprotección','contención','impulso genético','doble uso','liberación ecológica','reversibilidad','distributivo','precautorio','gestión responsable','propiedad emergente','brecha de gobernanza'],
+  'solar-geoengineering': ['forzamiento radiativo','aerosol estratosférico','choque de terminación','umbral de despliegue','transfronterizo','riesgo moral','atribución climática','modelización de escenarios','legitimidad','moratoria','arquitectura de gobernanza','irreversibilidad'],
+  'neurotechnology-agency': ['inferencia neuronal','libertad cognitiva','privacidad mental','probabilístico','neurodiscriminación','consentimiento informado','autonomía decisoria','biométrico','extralimitación interpretativa','neuroplasticidad','validez clínica','afirmación identitaria'],
+  'democratic-resilience': ['retroceso democrático','captura institucional','engrandecimiento del poder ejecutivo','pesos y contrapesos','incremental','pluralismo','independencia judicial','integridad electoral','espacio cívico','mecanismo de rendición de cuentas','legalismo autoritario','resiliencia institucional'],
+  'global-tax-justice': ['base imponible','traslado de beneficios','jurisdicción','titularidad real','precios de transferencia','incidencia fiscal','soberanía fiscal','tipo efectivo mínimo','regla de asignación','arbitraje regulatorio','carga de cumplimiento','justicia distributiva'],
+  'museum-restitution': ['restitución','repatriación','investigación de procedencia','inalienable','custodia','adquisición colonial','patrimonio cultural','título jurídico','reivindicación ética','gestión compartida','desincorporación','reparación histórica'],
+  'rights-of-nature': ['personalidad jurídica','legitimación procesal','titular de derechos','tutela jurídica','integridad ecológica','recurso jurídico','justiciable','jurisprudencia indígena','antropocéntrico','ontología relacional','exigibilidad','deber legal'],
+  'exoplanet-biosignatures': ['biofirma','espectroscopía','composición atmosférica','falso positivo','abiótico','habitabilidad','cadena inferencial','relación señal-ruido','evidencia convergente','fotoquímica','restricción observacional','biofirma agnóstica'],
+  'translation-worldviews': ['intraducibilidad','rango semántico','fuerza pragmática','domesticación','extranjerización','mediación cultural','paratexto','equivalencia','polisemia','cambio de registro','pérdida interpretativa','relatividad lingüística'],
+  'existential-risk': ['riesgo existencial','intergeneracional','valor esperado','riesgo de cola gruesa','incertidumbre moral','valor de opción','tasa de descuento','principio de precaución','umbral catastrófico','política robusta','largoplacismo','sesgo del presente']
+};
 const referencesByTopic = {
   'epistemic-fragmentation': [
     { author: 'UNESCO', title: 'Internet for Trust', url: 'https://www.unesco.org/en/internet-trust' }
@@ -128,6 +145,25 @@ const referencesByTopic = {
   ]
 };
 
+Object.assign(spanishVocabularyByTopic, {
+  'adult-neuroplasticity': ['neuroplasticidad','período sensible','red funcional','materia gris','estudio transversal','inferencia causal','control cognitivo','planificación articulatoria','dependiente de la experiencia','variabilidad individual','evidencia longitudinal','neuromito'],
+  'retrieval-spacing': ['práctica de recuperación','efecto de espaciamiento','dificultad deseable','huella de memoria','ilusión de familiaridad','interferencia','criterio de dominio','intervalo creciente','tarea de reconocimiento','recuerdo productivo','intervalo de retención','juicio metacognitivo'],
+  'sleep-consolidation': ['consolidación de la memoria','integración léxica','codificación','sueño de ondas lentas','sueño de movimientos oculares rápidos','procesamiento fuera de línea','reconsolidación','ganancia de retención','ritmo circadiano','privación del sueño','prueba diferida','variable de confusión'],
+  'incidental-acquisition': ['input comprensible','aprendizaje incidental','percepción consciente','saturación de input','cobertura léxica','inferencia','glosa','asociación forma-significado','umbral de frecuencia','realce textual','sobrecarga cognitiva','incorporación'],
+  'multimodal-learning': ['multimodalidad','codificación dual','subtitulado','efecto de redundancia','atención dividida','señalización','principio de modalidad','prominencia visual','información transitoria','toma de apuntes','andamiaje','retirada gradual'],
+  'interaction-output': ['negociación del significado','comprobación de comprensión','solicitud de aclaración','comprobación de confirmación','producción modificada','producción exigida','retroalimentación interactiva','ruptura comunicativa','percepción de la brecha','esencialidad de la tarea','asignación de turnos','reparación colaborativa'],
+  'corrective-feedback': ['retroalimentación correctiva','reformulación','elicitación','pista metalingüística','incorporación','reparación','prominencia del error','preparación evolutiva','fosilización','momento de la retroalimentación','costo interactivo','autocorrección'],
+  'speech-perception': ['contraste fonémico','percepción categorial','asimilación perceptiva','par mínimo','variación alofónica','inteligibilidad','comprensibilidad','grado de acento','entrenamiento de alta variabilidad','configuración articulatoria','prosodia','efecto de transferencia'],
+  'anxiety-attention': ['ansiedad lingüística','memoria de trabajo','control atencional','automonitoreo','carga cognitiva','temor a la evaluación','conducta de evitación','disposición a comunicarse','filtro afectivo','complejidad de la tarea','presión de rendimiento','seguridad psicológica'],
+  'individual-differences': ['aptitud lingüística','memoria fonológica','capacidad analítica','velocidad de procesamiento','perfil del estudiante','diferencia entre grupos','variación intragrupal','validez predictiva','mentalidad fija','oportunidad de aprender','enseñanza diferenciada','enfoque deficitario'],
+  'contextual-vocabulary': ['profundidad léxica','red semántica','colocación','polisemia','registro','familia de palabras','secuencia formulaica','inferencia contextual','glosa bilingüe','prosodia semántica','conocimiento receptivo','conocimiento productivo'],
+  'ai-language-tutoring': ['modelo generativo','alucinación','retroalimentación adaptativa','modelo del estudiante','sesgo algorítmico','procedencia de los datos','supervisión humana','explicabilidad','sesgo de automatización','privacidad desde el diseño','validez pedagógica','filtración del banco de pruebas']
+});
+
+topics.forEach((topic, index) => {
+  referencesByTopic[topic[0]] = frenchLearningScienceTopics[index]?.references || [];
+});
+
 function essay(topic) {
   const [,,title,problem,tension,response]=topic;
   return [
@@ -148,8 +184,19 @@ function essay(topic) {
 
 function vocab(topic) {
   const words=topic[6];
+  const translations=spanishVocabularyByTopic[topic[0]] || [];
   const out=[];
-  for(let i=0;i<words.length;i+=2) out.push({word:words[i],translation:'',definition:words[i+1],example:`The essay uses “${words[i]}” to make a precise distinction.`,partOfSpeech:words[i].includes(' ')?'phrase':'noun'});
+  for(let i=0;i<words.length;i+=2) {
+    const vocabularyIndex=i/2;
+    out.push({
+      word:words[i],
+      translation:translations[vocabularyIndex] || '',
+      definition:words[i+1],
+      example:`In the article, “${words[i]}” helps the writer analyse ${topic[1].toLowerCase()} with greater precision.`,
+      exampleTranslation:`En el artículo, «${translations[vocabularyIndex] || words[i]}» ayuda a analizar el tema con mayor precisión.`,
+      partOfSpeech:words[i].includes(' ')?'phrase':'noun'
+    });
+  }
   return out;
 }
 
@@ -167,7 +214,14 @@ function grammarExercises(topic) {
     ['Which sentence shows cohesive control across clauses?',`The first account explains the timing; the second, the institutional conditions that made the outcome possible.`],
     [`Which statement accurately describes ${name}?`,rule]
   ];
-  return stems.map(([prompt,correct],index)=>q(
+  const questionStems = [
+    ...stems,
+    ...stems.map(([prompt, correct], index) => [
+      `Advanced application ${index + 11}: ${prompt}`,
+      correct
+    ])
+  ];
+  return questionStems.map(([prompt,correct],index)=>q(
     prompt,
     [
       index % 4 === 0 ? correct : 'The claim proves itself because complexity always guarantees accuracy.',

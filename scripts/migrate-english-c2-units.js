@@ -11,8 +11,10 @@ async function main(){
   await c.connect();
   try{
     await c.query('begin');
-    const language=(await c.query(`insert into languages(code,name) values('english','English') on conflict(code) do update set name=excluded.name returning id`)).rows[0];
-    const level=(await c.query(`insert into levels(code,name,sort_order) values('C2','C2 - Mastery',6) on conflict(code) do update set name=excluded.name,sort_order=excluded.sort_order returning id`)).rows[0];
+    let language=(await c.query(`select id from languages where code='english'`)).rows[0];
+    if(!language)language=(await c.query(`insert into languages(code,name) values('english','English') returning id`)).rows[0];
+    let level=(await c.query(`select id from levels where code='C2'`)).rows[0];
+    if(!level)level=(await c.query(`insert into levels(code,name,sort_order) values('C2','C2 - Mastery',6) returning id`)).rows[0];
     const course=(await c.query(`insert into courses(language_id,level_id,title,description) values($1,$2,'English C2','Mastery-level English through extended interdisciplinary essays, conceptual vocabulary and advanced grammatical control.') on conflict(language_id,level_id) do update set title=excluded.title,description=excluded.description returning id`,[language.id,level.id])).rows[0];
     const ids={};
     for(const u of units)ids[u.slug]=(await c.query(`insert into course_units(course_id,slug,title,description,order_index) values($1,$2,$3,$4,$5) on conflict(slug) do update set course_id=excluded.course_id,title=excluded.title,description=excluded.description,order_index=excluded.order_index returning id`,[course.id,u.slug,u.title,u.description||'',u.order_index])).rows[0].id;

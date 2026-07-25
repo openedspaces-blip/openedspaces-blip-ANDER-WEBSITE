@@ -9108,18 +9108,10 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
       ? `
     ${item.image ? `<img class="vocab-card-image" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.imageAlt || item.targetWord)}" loading="lazy" />` : ''}
     ${
-      item.simpleDefinition || item.definition
-        ? `<div class="vocab-card-brief-definition">
-            <span>${isFrench ? 'Définition brève' : 'Definición breve'}</span>
-            <p class="vocab-card-definition">${escapeHtml(item.simpleDefinition || item.definition)}</p>
-          </div>`
-        : ''
-    }
-    ${
-      item.isAdvancedDirect && showL1Translation
+      showL1Translation && item.l1Translation
         ? `<div class="vocab-card-l1-translation">
             <span>${escapeHtml(l2Ui.translation)}</span>
-            <p>${escapeHtml(item.l1Translation || item.simpleDefinition || item.definition || l2Ui.translationUnavailable)}</p>
+            <p>${escapeHtml(item.l1Translation)}</p>
           </div>`
         : ''
     }

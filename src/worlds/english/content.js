@@ -259,12 +259,12 @@
       ],
       [
         "Mission",
-        "An extended C2 essay on epistemic fragmentation and public knowledge."
+        "An extended C2 essay on adult neuroplasticity and second-language mastery."
       ]
     ],
     "reading": {
       "title": "English C2 Reading",
-      "text": "The Ethics of Unborn Generations begins with a difficulty that resists the usual demand for a simple position. Long-term risk analysis asks present institutions to consider harms whose probability, scale and timing are radically uncertain. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nAttention to catastrophic risk can correct political short-termism, yet abstract future populations may displace urgent duties to people already vulnerable. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nSerious long-term governance should connect prevention with present justice, democratic accountability and policies valuable across several plausible futures. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "text": "A Fluent Answer Is Not Always a Reliable Teacher begins with a difficulty that resists the usual demand for a simple position. Generative systems can create examples, explanations and simulated interaction at scale, but linguistic fluency does not guarantee factual or pedagogical reliability. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nPersonalisation may increase practice while obscuring data use, reinforcing learner errors or narrowing instruction to what an automated system can easily measure. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nResponsible AI tutoring requires transparent limits, human oversight, privacy protection and evaluation based on learning rather than novelty or conversational polish. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -898,26 +898,26 @@
     ]
   },
   {
-    "slug": "english-c2-epistemic-fragmentation-reading",
+    "slug": "english-c2-adult-neuroplasticity-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "epistemic-fragmentation",
-    "title": "When Facts Lose Their Common Ground",
+    "unitId": "adult-neuroplasticity",
+    "title": "The Adult Brain Is Still Learning",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 60,
     "orderIndex": 10,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on epistemic fragmentation and public knowledge.",
-    "intro": "An extended C2 essay on epistemic fragmentation and public knowledge.",
+    "description": "An extended C2 essay on adult neuroplasticity and second-language mastery.",
+    "intro": "An extended C2 essay on adult neuroplasticity and second-language mastery.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "When Facts Lose Their Common Ground",
-      "text": "When Facts Lose Their Common Ground begins with a difficulty that resists the usual demand for a simple position. Public disagreement increasingly concerns not only conclusions but the institutions, methods and witnesses considered credible. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nFragmented media systems can widen participation while dissolving the shared procedures through which claims are corrected. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nA durable response must distinguish plural interpretation from indifference to evidence and rebuild transparent practices of verification. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "The Adult Brain Is Still Learning",
+      "text": "The Adult Brain Is Still Learning begins with a difficulty that resists the usual demand for a simple position. Claims that adult language learning is biologically doomed confuse reduced probability with impossibility and overlook experience-dependent neural change. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nSensitive periods matter, especially in phonology, yet age interacts with attention, prior knowledge, motivation, sleep and opportunities for sustained use. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nA defensible pedagogy replaces neurological fatalism with demanding, distributed practice measured through meaningful communicative performance. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -925,9 +925,22 @@
       ],
       "references": [
         {
-          "author": "UNESCO",
-          "title": "Internet for Trust",
-          "url": "https://www.unesco.org/en/internet-trust"
+          "author": "Mechelli et al.",
+          "year": "2004",
+          "title": "Structural plasticity in the bilingual brain",
+          "url": "https://www.nature.com/articles/431757a"
+        },
+        {
+          "author": "Kousaie et al.",
+          "year": "2024",
+          "title": "Enhanced efficiency in the bilingual brain through the inter-hemispheric cortico-cerebellar pathway",
+          "url": "https://www.nature.com/articles/s42003-024-06965-1"
+        },
+        {
+          "author": "Ripollés et al.",
+          "year": "2021",
+          "title": "The challenge of learning a new language in adulthood: Evidence from a multi-methodological neuroscientific approach",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33606715/"
         }
       ]
     },
@@ -935,9 +948,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "UNESCO",
-          "title": "Internet for Trust",
-          "url": "https://www.unesco.org/en/internet-trust"
+          "author": "Mechelli et al.",
+          "year": "2004",
+          "title": "Structural plasticity in the bilingual brain",
+          "url": "https://www.nature.com/articles/431757a"
+        },
+        {
+          "author": "Kousaie et al.",
+          "year": "2024",
+          "title": "Enhanced efficiency in the bilingual brain through the inter-hemispheric cortico-cerebellar pathway",
+          "url": "https://www.nature.com/articles/s42003-024-06965-1"
+        },
+        {
+          "author": "Ripollés et al.",
+          "year": "2021",
+          "title": "The challenge of learning a new language in adulthood: Evidence from a multi-methodological neuroscientific approach",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33606715/"
         }
       ],
       "grammarTest": null,
@@ -1046,9 +1072,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Epistemic Fragmentation and Public Knowledge”?",
+        "prompt": "Which response best fits the unit “Adult Neuroplasticity and Second-Language Mastery”?",
         "options": [
-          "A durable response must distinguish plural interpretation from indifference to evidence and rebuild transparent practices of verification.",
+          "A defensible pedagogy replaces neurological fatalism with demanding, distributed practice measured through meaningful communicative performance.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -2000,11 +2026,11 @@
     ]
   },
   {
-    "slug": "english-c2-epistemic-fragmentation-vocabulary",
+    "slug": "english-c2-adult-neuroplasticity-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "epistemic-fragmentation",
-    "title": "Conceptual Vocabulary: Epistemic Fragmentation and Public Knowledge",
+    "unitId": "adult-neuroplasticity",
+    "title": "Conceptual Vocabulary: Adult Neuroplasticity and Second-Language Mastery",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 50,
@@ -2017,88 +2043,100 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "epistemic",
-        "translation": "",
-        "definition": "knowledge-related",
-        "example": "The essay uses “epistemic” to make a precise distinction.",
+        "word": "neuroplasticity",
+        "translation": "neuroplasticidad",
+        "definition": "the nervous system’s capacity to change through experience",
+        "example": "In the article, “neuroplasticity” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «neuroplasticidad» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "provenance",
-        "translation": "",
-        "definition": "documented origin",
-        "example": "The essay uses “provenance” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "corroboration",
-        "translation": "",
-        "definition": "independent confirmation",
-        "example": "The essay uses “corroboration” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "falsifiability",
-        "translation": "",
-        "definition": "capacity to be disproved",
-        "example": "The essay uses “falsifiability” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "testimonial",
-        "translation": "",
-        "definition": "based on a witness account",
-        "example": "The essay uses “testimonial” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "adjudicate",
-        "translation": "",
-        "definition": "judge between competing claims",
-        "example": "The essay uses “adjudicate” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "credibility deficit",
-        "translation": "",
-        "definition": "shortage of public trust",
-        "example": "The essay uses “credibility deficit” to make a precise distinction.",
+        "word": "sensitive period",
+        "translation": "período sensible",
+        "definition": "a developmental phase especially favourable to particular learning",
+        "example": "In the article, “sensitive period” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «período sensible» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "information ecology",
-        "translation": "",
-        "definition": "system through which information circulates",
-        "example": "The essay uses “information ecology” to make a precise distinction.",
+        "word": "functional network",
+        "translation": "red funcional",
+        "definition": "interacting brain regions supporting a task",
+        "example": "In the article, “functional network” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «red funcional» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "methodological",
-        "translation": "",
-        "definition": "concerning methods of inquiry",
-        "example": "The essay uses “methodological” to make a precise distinction.",
+        "word": "grey matter",
+        "translation": "materia gris",
+        "definition": "neural tissue rich in cell bodies",
+        "example": "In the article, “grey matter” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «materia gris» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "cross-sectional study",
+        "translation": "estudio transversal",
+        "definition": "research comparing groups at one point in time",
+        "example": "In the article, “cross-sectional study” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «estudio transversal» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "causal inference",
+        "translation": "inferencia causal",
+        "definition": "a conclusion that one factor produces an effect",
+        "example": "In the article, “causal inference” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «inferencia causal» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "cognitive control",
+        "translation": "control cognitivo",
+        "definition": "regulation of attention and competing responses",
+        "example": "In the article, “cognitive control” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «control cognitivo» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "articulatory planning",
+        "translation": "planificación articulatoria",
+        "definition": "preparation of movements required for speech",
+        "example": "In the article, “articulatory planning” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «planificación articulatoria» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "experience-dependent",
+        "translation": "dependiente de la experiencia",
+        "definition": "shaped by repeated activity or exposure",
+        "example": "In the article, “experience-dependent” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «dependiente de la experiencia» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "consensus formation",
-        "translation": "",
-        "definition": "process of reaching qualified agreement",
-        "example": "The essay uses “consensus formation” to make a precise distinction.",
+        "word": "individual variability",
+        "translation": "variabilidad individual",
+        "definition": "meaningful differences among learners",
+        "example": "In the article, “individual variability” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «variabilidad individual» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "counterevidence",
-        "translation": "",
-        "definition": "evidence opposing a claim",
-        "example": "The essay uses “counterevidence” to make a precise distinction.",
+        "word": "longitudinal evidence",
+        "translation": "evidencia longitudinal",
+        "definition": "data collected from the same participants over time",
+        "example": "In the article, “longitudinal evidence” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «evidencia longitudinal» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "neuromyth",
+        "translation": "neuromito",
+        "definition": "an educational claim that misrepresents neuroscience",
+        "example": "In the article, “neuromyth” helps the writer analyse adult neuroplasticity and second-language mastery with greater precision.",
+        "exampleTranslation": "En el artículo, «neuromito» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
-      },
-      {
-        "word": "epistemic humility",
-        "translation": "",
-        "definition": "recognition of the limits of knowledge",
-        "example": "The essay uses “epistemic humility” to make a precise distinction.",
-        "partOfSpeech": "phrase"
       }
     ],
     "dialogue": [],
@@ -2108,122 +2146,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “knowledge-related”?",
+        "prompt": "Which term means “the nervous system’s capacity to change through experience”?",
         "options": [
-          "falsifiability",
-          "provenance",
-          "epistemic",
-          "adjudicate"
+          "grey matter",
+          "sensitive period",
+          "neuroplasticity",
+          "causal inference"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “documented origin”?",
+        "prompt": "Which term means “a developmental phase especially favourable to particular learning”?",
         "options": [
-          "testimonial",
-          "corroboration",
-          "provenance",
-          "credibility deficit"
+          "cross-sectional study",
+          "functional network",
+          "sensitive period",
+          "cognitive control"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “independent confirmation”?",
+        "prompt": "Which term means “interacting brain regions supporting a task”?",
         "options": [
-          "adjudicate",
-          "falsifiability",
-          "corroboration",
-          "information ecology"
+          "causal inference",
+          "grey matter",
+          "functional network",
+          "articulatory planning"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “capacity to be disproved”?",
+        "prompt": "Which term means “neural tissue rich in cell bodies”?",
         "options": [
-          "credibility deficit",
-          "testimonial",
-          "falsifiability",
-          "methodological"
+          "cognitive control",
+          "cross-sectional study",
+          "grey matter",
+          "experience-dependent"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “based on a witness account”?",
+        "prompt": "Which term means “research comparing groups at one point in time”?",
         "options": [
-          "information ecology",
-          "adjudicate",
-          "testimonial",
-          "consensus formation"
+          "articulatory planning",
+          "causal inference",
+          "cross-sectional study",
+          "individual variability"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “judge between competing claims”?",
+        "prompt": "Which term means “a conclusion that one factor produces an effect”?",
         "options": [
-          "methodological",
-          "credibility deficit",
-          "adjudicate",
-          "counterevidence"
+          "experience-dependent",
+          "cognitive control",
+          "causal inference",
+          "longitudinal evidence"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “shortage of public trust”?",
+        "prompt": "Which term means “regulation of attention and competing responses”?",
         "options": [
-          "consensus formation",
-          "information ecology",
-          "credibility deficit",
-          "epistemic humility"
+          "individual variability",
+          "articulatory planning",
+          "cognitive control",
+          "neuromyth"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “system through which information circulates”?",
+        "prompt": "Which term means “preparation of movements required for speech”?",
         "options": [
-          "counterevidence",
-          "methodological",
-          "information ecology",
-          "epistemic"
+          "longitudinal evidence",
+          "experience-dependent",
+          "articulatory planning",
+          "neuroplasticity"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “concerning methods of inquiry”?",
+        "prompt": "Which term means “shaped by repeated activity or exposure”?",
         "options": [
-          "epistemic humility",
-          "consensus formation",
-          "methodological",
-          "provenance"
+          "neuromyth",
+          "individual variability",
+          "experience-dependent",
+          "sensitive period"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “process of reaching qualified agreement”?",
+        "prompt": "Which term means “meaningful differences among learners”?",
         "options": [
-          "epistemic",
-          "counterevidence",
-          "consensus formation",
-          "corroboration"
+          "neuroplasticity",
+          "longitudinal evidence",
+          "individual variability",
+          "functional network"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “evidence opposing a claim”?",
+        "prompt": "Which term means “data collected from the same participants over time”?",
         "options": [
-          "provenance",
-          "epistemic humility",
-          "counterevidence",
-          "falsifiability"
+          "sensitive period",
+          "neuromyth",
+          "longitudinal evidence",
+          "grey matter"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “recognition of the limits of knowledge”?",
+        "prompt": "Which term means “an educational claim that misrepresents neuroscience”?",
         "options": [
-          "corroboration",
-          "epistemic",
-          "epistemic humility",
-          "testimonial"
+          "functional network",
+          "neuroplasticity",
+          "neuromyth",
+          "cross-sectional study"
         ]
       }
     ]
@@ -3503,20 +3541,20 @@
     ]
   },
   {
-    "slug": "english-c2-epistemic-fragmentation-grammar",
+    "slug": "english-c2-adult-neuroplasticity-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "epistemic-fragmentation",
-    "title": "Layered concession and counterexpectation",
+    "unitId": "adult-neuroplasticity",
+    "title": "Calibrated comparison and concessive clauses",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 50,
     "orderIndex": 12,
     "estimatedMinutes": 24,
-    "description": "Use Layered concession and counterexpectation to analyse “When Facts Lose Their Common Ground”.",
-    "intro": "Use Layered concession and counterexpectation to analyse “When Facts Lose Their Common Ground”.",
+    "description": "Use Calibrated comparison and concessive clauses to analyse “The Adult Brain Is Still Learning”.",
+    "intro": "Use Calibrated comparison and concessive clauses to analyse “The Adult Brain Is Still Learning”.",
     "mission": "",
-    "grammar": "Goal: acknowledge legitimate plurality while defending evidential standards.\n\nRule: Use much as, even granting that, for all that and be that as it may to concede a substantial point before introducing a carefully delimited counterclaim.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “When Facts Lose Their Common Ground”.",
+    "grammar": "Goal: compare age-related tendencies without converting group averages into individual destinies.\n\nRule: Use whereas, while, even though, much as and notwithstanding to contrast trajectories while preserving the scope and limitations of each claim.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “The Adult Brain Is Still Learning”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -3529,13 +3567,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-epistemic-fragmentation-grammar-test",
+        "id": "english-c2-adult-neuroplasticity-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-epistemic-fragmentation-grammar-q1",
+            "id": "english-c2-adult-neuroplasticity-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Layered concession and counterexpectation?",
+            "prompt": "Which sentence best demonstrates controlled use of Calibrated comparison and concessive clauses?",
             "options": [
               {
                 "id": "a",
@@ -3556,9 +3594,9 @@
             ]
           },
           {
-            "id": "english-c2-epistemic-fragmentation-grammar-q2",
+            "id": "english-c2-adult-neuroplasticity-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “acknowledge legitimate plurality while defending evidential standards”?",
+            "prompt": "Which revision best serves the purpose “compare age-related tendencies without converting group averages into individual destinies”?",
             "options": [
               {
                 "id": "a",
@@ -3579,7 +3617,7 @@
             ]
           },
           {
-            "id": "english-c2-epistemic-fragmentation-grammar-q3",
+            "id": "english-c2-adult-neuroplasticity-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -3602,7 +3640,7 @@
             ]
           },
           {
-            "id": "english-c2-epistemic-fragmentation-grammar-q4",
+            "id": "english-c2-adult-neuroplasticity-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -3625,7 +3663,7 @@
             ]
           },
           {
-            "id": "english-c2-epistemic-fragmentation-grammar-q5",
+            "id": "english-c2-adult-neuroplasticity-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -3648,7 +3686,7 @@
             ]
           },
           {
-            "id": "english-c2-epistemic-fragmentation-grammar-q6",
+            "id": "english-c2-adult-neuroplasticity-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -3671,7 +3709,7 @@
             ]
           },
           {
-            "id": "english-c2-epistemic-fragmentation-grammar-q7",
+            "id": "english-c2-adult-neuroplasticity-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -3694,7 +3732,7 @@
             ]
           },
           {
-            "id": "english-c2-epistemic-fragmentation-grammar-q8",
+            "id": "english-c2-adult-neuroplasticity-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -3717,7 +3755,7 @@
             ]
           },
           {
-            "id": "english-c2-epistemic-fragmentation-grammar-q9",
+            "id": "english-c2-adult-neuroplasticity-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -3740,9 +3778,9 @@
             ]
           },
           {
-            "id": "english-c2-epistemic-fragmentation-grammar-q10",
+            "id": "english-c2-adult-neuroplasticity-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Layered concession and counterexpectation?",
+            "prompt": "Which statement accurately describes Calibrated comparison and concessive clauses?",
             "options": [
               {
                 "id": "a",
@@ -3750,7 +3788,7 @@
               },
               {
                 "id": "b",
-                "text": "Use much as, even granting that, for all that and be that as it may to concede a substantial point before introducing a carefully delimited counterclaim."
+                "text": "Use whereas, while, even though, much as and notwithstanding to contrast trajectories while preserving the scope and limitations of each claim."
               },
               {
                 "id": "c",
@@ -3761,14 +3799,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-adult-neuroplasticity-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Calibrated comparison and concessive clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-adult-neuroplasticity-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “compare age-related tendencies without converting group averages into individual destinies”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-adult-neuroplasticity-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-adult-neuroplasticity-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-adult-neuroplasticity-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-adult-neuroplasticity-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-adult-neuroplasticity-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-adult-neuroplasticity-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-adult-neuroplasticity-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-adult-neuroplasticity-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Calibrated comparison and concessive clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Use whereas, while, even though, much as and notwithstanding to contrast trajectories while preserving the scope and limitations of each claim."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Layered concession and counterexpectation",
-        "context": "Grammar connected to the C2 essay “When Facts Lose Their Common Ground”.",
-        "explanation": "Use much as, even granting that, for all that and be that as it may to concede a substantial point before introducing a carefully delimited counterclaim.",
-        "purpose": "acknowledge legitimate plurality while defending evidential standards",
+        "name": "Calibrated comparison and concessive clauses",
+        "context": "Grammar connected to the C2 essay “The Adult Brain Is Still Learning”.",
+        "explanation": "Use whereas, while, even though, much as and notwithstanding to contrast trajectories while preserving the scope and limitations of each claim.",
+        "purpose": "compare age-related tendencies without converting group averages into individual destinies",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -3781,25 +4049,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Layered concession and counterexpectation?",
+        "prompt": "Which sentence best demonstrates controlled use of Calibrated comparison and concessive clauses?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Layered concession and counterexpectation with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “acknowledge legitimate plurality while defending evidential standards”?",
+        "prompt": "Which revision best serves the purpose “compare age-related tendencies without converting group averages into individual destinies”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Layered concession and counterexpectation with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -3810,7 +4078,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Layered concession and counterexpectation with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -3821,7 +4089,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Layered concession and counterexpectation with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -3832,7 +4100,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Layered concession and counterexpectation with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -3843,7 +4111,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Layered concession and counterexpectation with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -3854,7 +4122,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Layered concession and counterexpectation with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -3865,7 +4133,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Layered concession and counterexpectation with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -3876,18 +4144,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Layered concession and counterexpectation with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Layered concession and counterexpectation?",
+        "prompt": "Which statement accurately describes Calibrated comparison and concessive clauses?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Use much as, even granting that, for all that and be that as it may to concede a substantial point before introducing a carefully delimited counterclaim.",
+          "Use whereas, while, even though, much as and notwithstanding to contrast trajectories while preserving the scope and limitations of each claim.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Layered concession and counterexpectation with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Calibrated comparison and concessive clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “compare age-related tendencies without converting group averages into individual destinies”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Calibrated comparison and concessive clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Use whereas, while, even though, much as and notwithstanding to contrast trajectories while preserving the scope and limitations of each claim."
+        ],
+        "explanation": "The correct option applies Calibrated comparison and concessive clauses with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -6727,26 +7105,26 @@
     ]
   },
   {
-    "slug": "english-c2-quantum-security-reading",
+    "slug": "english-c2-retrieval-spacing-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "quantum-security",
-    "title": "Security Before the Breakthrough",
+    "unitId": "retrieval-spacing",
+    "title": "Why Remembering Is Harder Than Rereading",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 60,
     "orderIndex": 20,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on quantum computing and cryptographic transition.",
-    "intro": "An extended C2 essay on quantum computing and cryptographic transition.",
+    "description": "An extended C2 essay on retrieval practice, spacing and durable learning.",
+    "intro": "An extended C2 essay on retrieval practice, spacing and durable learning.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Security Before the Breakthrough",
-      "text": "Security Before the Breakthrough begins with a difficulty that resists the usual demand for a simple position. Quantum computing remains technically uncertain, yet institutions must decide when to replace cryptographic systems whose failure could expose data retrospectively. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nPreparing too slowly creates long-term vulnerability; preparing indiscriminately can waste resources and produce a false sense of security. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nRisk governance should combine cryptographic inventory, staged migration, interoperability and explicit assumptions about technological timelines. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "Why Remembering Is Harder Than Rereading",
+      "text": "Why Remembering Is Harder Than Rereading begins with a difficulty that resists the usual demand for a simple position. Rereading produces immediate familiarity, whereas retrieving a word without seeing it tests whether that word is genuinely accessible. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nDesirable difficulty can strengthen retention, but intervals that are too long, feedback that is too weak or tasks that test only recognition can distort the benefit. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nDurable vocabulary practice combines contextual encounters, multidirectional retrieval, expanding intervals and corrective feedback. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -6754,10 +7132,22 @@
       ],
       "references": [
         {
-          "author": "National Institute of Standards and Technology",
-          "year": "2024",
-          "title": "NIST Releases First 3 Finalized Post-Quantum Encryption Standards",
-          "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards"
+          "author": "Rawson et al.",
+          "year": "2011",
+          "title": "Optimizing schedules of retrieval practice for durable and efficient learning",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21707204/"
+        },
+        {
+          "author": "Yanagisawa, Webb et Uchihara",
+          "year": "2020",
+          "title": "How do different forms of glossing contribute to L2 vocabulary learning?",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/how-do-different-forms-of-glossing-contribute-to-l2-vocabulary-learning-from-reading/38124150D59DF3039EE1FF5AE88FE922"
+        },
+        {
+          "author": "Yu et Trainin",
+          "year": "2022",
+          "title": "A meta-analysis examining technology-assisted L2 vocabulary learning",
+          "url": "https://www.cambridge.org/core/journals/recall/article/metaanalysis-examining-technologyassisted-l2-vocabulary-learning/08A549A6CFD1078406E6A4F8AFE28184"
         }
       ]
     },
@@ -6765,10 +7155,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "National Institute of Standards and Technology",
-          "year": "2024",
-          "title": "NIST Releases First 3 Finalized Post-Quantum Encryption Standards",
-          "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards"
+          "author": "Rawson et al.",
+          "year": "2011",
+          "title": "Optimizing schedules of retrieval practice for durable and efficient learning",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21707204/"
+        },
+        {
+          "author": "Yanagisawa, Webb et Uchihara",
+          "year": "2020",
+          "title": "How do different forms of glossing contribute to L2 vocabulary learning?",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/how-do-different-forms-of-glossing-contribute-to-l2-vocabulary-learning-from-reading/38124150D59DF3039EE1FF5AE88FE922"
+        },
+        {
+          "author": "Yu et Trainin",
+          "year": "2022",
+          "title": "A meta-analysis examining technology-assisted L2 vocabulary learning",
+          "url": "https://www.cambridge.org/core/journals/recall/article/metaanalysis-examining-technologyassisted-l2-vocabulary-learning/08A549A6CFD1078406E6A4F8AFE28184"
         }
       ],
       "grammarTest": null,
@@ -6877,9 +7279,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Quantum Computing and Cryptographic Transition”?",
+        "prompt": "Which response best fits the unit “Retrieval Practice, Spacing and Durable Learning”?",
         "options": [
-          "Risk governance should combine cryptographic inventory, staged migration, interoperability and explicit assumptions about technological timelines.",
+          "Durable vocabulary practice combines contextual encounters, multidirectional retrieval, expanding intervals and corrective feedback.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -7797,11 +8199,11 @@
     ]
   },
   {
-    "slug": "english-c2-quantum-security-vocabulary",
+    "slug": "english-c2-retrieval-spacing-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "quantum-security",
-    "title": "Conceptual Vocabulary: Quantum Computing and Cryptographic Transition",
+    "unitId": "retrieval-spacing",
+    "title": "Conceptual Vocabulary: Retrieval Practice, Spacing and Durable Learning",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 50,
@@ -7814,87 +8216,99 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "cryptographic",
-        "translation": "",
-        "definition": "related to coded information security",
-        "example": "The essay uses “cryptographic” to make a precise distinction.",
+        "word": "retrieval practice",
+        "translation": "práctica de recuperación",
+        "definition": "active recall of information without first reviewing it",
+        "example": "In the article, “retrieval practice” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «práctica de recuperación» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "spacing effect",
+        "translation": "efecto de espaciamiento",
+        "definition": "improved retention produced by distributing study over time",
+        "example": "In the article, “spacing effect” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «efecto de espaciamiento» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "desirable difficulty",
+        "translation": "dificultad deseable",
+        "definition": "effort that strengthens learning when appropriately calibrated",
+        "example": "In the article, “desirable difficulty” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «dificultad deseable» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "memory trace",
+        "translation": "huella de memoria",
+        "definition": "a representation left in memory by experience",
+        "example": "In the article, “memory trace” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «huella de memoria» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "familiarity illusion",
+        "translation": "ilusión de familiaridad",
+        "definition": "the feeling of knowing without reliable recall",
+        "example": "In the article, “familiarity illusion” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «ilusión de familiaridad» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "interference",
+        "translation": "interferencia",
+        "definition": "disruption caused by competing information",
+        "example": "In the article, “interference” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «interferencia» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "decryption",
-        "translation": "",
-        "definition": "conversion of coded data into readable form",
-        "example": "The essay uses “decryption” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "fault-tolerant",
-        "translation": "",
-        "definition": "able to operate despite component failures",
-        "example": "The essay uses “fault-tolerant” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "computationally intractable",
-        "translation": "",
-        "definition": "impractical to solve with available computation",
-        "example": "The essay uses “computationally intractable” to make a precise distinction.",
+        "word": "mastery criterion",
+        "translation": "criterio de dominio",
+        "definition": "performance required before practice becomes less frequent",
+        "example": "In the article, “mastery criterion” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «criterio de dominio» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "interoperability",
-        "translation": "",
-        "definition": "ability of systems to work together",
-        "example": "The essay uses “interoperability” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "migration pathway",
-        "translation": "",
-        "definition": "planned route from one system to another",
-        "example": "The essay uses “migration pathway” to make a precise distinction.",
+        "word": "expanding interval",
+        "translation": "intervalo creciente",
+        "definition": "a progressively longer delay between reviews",
+        "example": "In the article, “expanding interval” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «intervalo creciente» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "threat model",
-        "translation": "",
-        "definition": "structured account of possible attacks",
-        "example": "The essay uses “threat model” to make a precise distinction.",
+        "word": "recognition task",
+        "translation": "tarea de reconocimiento",
+        "definition": "a task requiring identification rather than production",
+        "example": "In the article, “recognition task” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «tarea de reconocimiento» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "retrospective exposure",
-        "translation": "",
-        "definition": "future disclosure of previously collected data",
-        "example": "The essay uses “retrospective exposure” to make a precise distinction.",
+        "word": "productive recall",
+        "translation": "recuerdo productivo",
+        "definition": "generation of a form without being shown it",
+        "example": "In the article, “productive recall” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «recuerdo productivo» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "contingency",
-        "translation": "",
-        "definition": "provision for an uncertain event",
-        "example": "The essay uses “contingency” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "protocol agility",
-        "translation": "",
-        "definition": "capacity to replace security methods",
-        "example": "The essay uses “protocol agility” to make a precise distinction.",
+        "word": "retention interval",
+        "translation": "intervalo de retención",
+        "definition": "time between learning and later testing",
+        "example": "In the article, “retention interval” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «intervalo de retención» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "asymmetric encryption",
-        "translation": "",
-        "definition": "encryption using paired public and private keys",
-        "example": "The essay uses “asymmetric encryption” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "risk horizon",
-        "translation": "",
-        "definition": "time period over which danger is assessed",
-        "example": "The essay uses “risk horizon” to make a precise distinction.",
+        "word": "metacognitive judgement",
+        "translation": "juicio metacognitivo",
+        "definition": "an estimate of one’s own knowledge or performance",
+        "example": "In the article, “metacognitive judgement” helps the writer analyse retrieval practice, spacing and durable learning with greater precision.",
+        "exampleTranslation": "En el artículo, «juicio metacognitivo» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       }
     ],
@@ -7905,122 +8319,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “related to coded information security”?",
+        "prompt": "Which term means “active recall of information without first reviewing it”?",
         "options": [
-          "computationally intractable",
-          "decryption",
-          "cryptographic",
-          "migration pathway"
+          "memory trace",
+          "spacing effect",
+          "retrieval practice",
+          "interference"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “conversion of coded data into readable form”?",
+        "prompt": "Which term means “improved retention produced by distributing study over time”?",
         "options": [
-          "interoperability",
-          "fault-tolerant",
-          "decryption",
-          "threat model"
+          "familiarity illusion",
+          "desirable difficulty",
+          "spacing effect",
+          "mastery criterion"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “able to operate despite component failures”?",
+        "prompt": "Which term means “effort that strengthens learning when appropriately calibrated”?",
         "options": [
-          "migration pathway",
-          "computationally intractable",
-          "fault-tolerant",
-          "retrospective exposure"
+          "interference",
+          "memory trace",
+          "desirable difficulty",
+          "expanding interval"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “impractical to solve with available computation”?",
+        "prompt": "Which term means “a representation left in memory by experience”?",
         "options": [
-          "threat model",
-          "interoperability",
-          "computationally intractable",
-          "contingency"
+          "mastery criterion",
+          "familiarity illusion",
+          "memory trace",
+          "recognition task"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “ability of systems to work together”?",
+        "prompt": "Which term means “the feeling of knowing without reliable recall”?",
         "options": [
-          "retrospective exposure",
-          "migration pathway",
-          "interoperability",
-          "protocol agility"
+          "expanding interval",
+          "interference",
+          "familiarity illusion",
+          "productive recall"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “planned route from one system to another”?",
+        "prompt": "Which term means “disruption caused by competing information”?",
         "options": [
-          "contingency",
-          "threat model",
-          "migration pathway",
-          "asymmetric encryption"
+          "recognition task",
+          "mastery criterion",
+          "interference",
+          "retention interval"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “structured account of possible attacks”?",
+        "prompt": "Which term means “performance required before practice becomes less frequent”?",
         "options": [
-          "protocol agility",
-          "retrospective exposure",
-          "threat model",
-          "risk horizon"
+          "productive recall",
+          "expanding interval",
+          "mastery criterion",
+          "metacognitive judgement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “future disclosure of previously collected data”?",
+        "prompt": "Which term means “a progressively longer delay between reviews”?",
         "options": [
-          "asymmetric encryption",
-          "contingency",
-          "retrospective exposure",
-          "cryptographic"
+          "retention interval",
+          "recognition task",
+          "expanding interval",
+          "retrieval practice"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “provision for an uncertain event”?",
+        "prompt": "Which term means “a task requiring identification rather than production”?",
         "options": [
-          "risk horizon",
-          "protocol agility",
-          "contingency",
-          "decryption"
+          "metacognitive judgement",
+          "productive recall",
+          "recognition task",
+          "spacing effect"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “capacity to replace security methods”?",
+        "prompt": "Which term means “generation of a form without being shown it”?",
         "options": [
-          "cryptographic",
-          "asymmetric encryption",
-          "protocol agility",
-          "fault-tolerant"
+          "retrieval practice",
+          "retention interval",
+          "productive recall",
+          "desirable difficulty"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “encryption using paired public and private keys”?",
+        "prompt": "Which term means “time between learning and later testing”?",
         "options": [
-          "decryption",
-          "risk horizon",
-          "asymmetric encryption",
-          "computationally intractable"
+          "spacing effect",
+          "metacognitive judgement",
+          "retention interval",
+          "memory trace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “time period over which danger is assessed”?",
+        "prompt": "Which term means “an estimate of one’s own knowledge or performance”?",
         "options": [
-          "fault-tolerant",
-          "cryptographic",
-          "risk horizon",
-          "interoperability"
+          "desirable difficulty",
+          "retrieval practice",
+          "metacognitive judgement",
+          "familiarity illusion"
         ]
       }
     ]
@@ -9294,20 +9708,20 @@
     ]
   },
   {
-    "slug": "english-c2-quantum-security-grammar",
+    "slug": "english-c2-retrieval-spacing-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "quantum-security",
-    "title": "Future-in-the-past and prospective perfect aspect",
+    "unitId": "retrieval-spacing",
+    "title": "Non-finite clauses and information compression",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 50,
     "orderIndex": 22,
     "estimatedMinutes": 24,
-    "description": "Use Future-in-the-past and prospective perfect aspect to analyse “Security Before the Breakthrough”.",
-    "intro": "Use Future-in-the-past and prospective perfect aspect to analyse “Security Before the Breakthrough”.",
+    "description": "Use Non-finite clauses and information compression to analyse “Why Remembering Is Harder Than Rereading”.",
+    "intro": "Use Non-finite clauses and information compression to analyse “Why Remembering Is Harder Than Rereading”.",
     "mission": "",
-    "grammar": "Goal: locate forecasts, obligations and completed transitions across uncertain timelines.\n\nRule: Use was/were to have, would have been, is projected to have and will have been to distinguish abandoned plans, retrospective expectations and future completion.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “Security Before the Breakthrough”.",
+    "grammar": "Goal: explain sequences of study and recall without obscuring time or agency.\n\nRule: Use gerund clauses, infinitive clauses and perfect participles only when their understood subject and temporal relationship remain unambiguous.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “Why Remembering Is Harder Than Rereading”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -9320,13 +9734,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-quantum-security-grammar-test",
+        "id": "english-c2-retrieval-spacing-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-quantum-security-grammar-q1",
+            "id": "english-c2-retrieval-spacing-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Future-in-the-past and prospective perfect aspect?",
+            "prompt": "Which sentence best demonstrates controlled use of Non-finite clauses and information compression?",
             "options": [
               {
                 "id": "a",
@@ -9347,9 +9761,9 @@
             ]
           },
           {
-            "id": "english-c2-quantum-security-grammar-q2",
+            "id": "english-c2-retrieval-spacing-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “locate forecasts, obligations and completed transitions across uncertain timelines”?",
+            "prompt": "Which revision best serves the purpose “explain sequences of study and recall without obscuring time or agency”?",
             "options": [
               {
                 "id": "a",
@@ -9370,7 +9784,7 @@
             ]
           },
           {
-            "id": "english-c2-quantum-security-grammar-q3",
+            "id": "english-c2-retrieval-spacing-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -9393,7 +9807,7 @@
             ]
           },
           {
-            "id": "english-c2-quantum-security-grammar-q4",
+            "id": "english-c2-retrieval-spacing-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -9416,7 +9830,7 @@
             ]
           },
           {
-            "id": "english-c2-quantum-security-grammar-q5",
+            "id": "english-c2-retrieval-spacing-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -9439,7 +9853,7 @@
             ]
           },
           {
-            "id": "english-c2-quantum-security-grammar-q6",
+            "id": "english-c2-retrieval-spacing-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -9462,7 +9876,7 @@
             ]
           },
           {
-            "id": "english-c2-quantum-security-grammar-q7",
+            "id": "english-c2-retrieval-spacing-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -9485,7 +9899,7 @@
             ]
           },
           {
-            "id": "english-c2-quantum-security-grammar-q8",
+            "id": "english-c2-retrieval-spacing-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -9508,7 +9922,7 @@
             ]
           },
           {
-            "id": "english-c2-quantum-security-grammar-q9",
+            "id": "english-c2-retrieval-spacing-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -9531,9 +9945,9 @@
             ]
           },
           {
-            "id": "english-c2-quantum-security-grammar-q10",
+            "id": "english-c2-retrieval-spacing-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Future-in-the-past and prospective perfect aspect?",
+            "prompt": "Which statement accurately describes Non-finite clauses and information compression?",
             "options": [
               {
                 "id": "a",
@@ -9541,7 +9955,7 @@
               },
               {
                 "id": "b",
-                "text": "Use was/were to have, would have been, is projected to have and will have been to distinguish abandoned plans, retrospective expectations and future completion."
+                "text": "Use gerund clauses, infinitive clauses and perfect participles only when their understood subject and temporal relationship remain unambiguous."
               },
               {
                 "id": "c",
@@ -9552,14 +9966,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-retrieval-spacing-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Non-finite clauses and information compression?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-retrieval-spacing-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “explain sequences of study and recall without obscuring time or agency”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-retrieval-spacing-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-retrieval-spacing-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-retrieval-spacing-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-retrieval-spacing-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-retrieval-spacing-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-retrieval-spacing-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-retrieval-spacing-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-retrieval-spacing-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Non-finite clauses and information compression?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Use gerund clauses, infinitive clauses and perfect participles only when their understood subject and temporal relationship remain unambiguous."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Future-in-the-past and prospective perfect aspect",
-        "context": "Grammar connected to the C2 essay “Security Before the Breakthrough”.",
-        "explanation": "Use was/were to have, would have been, is projected to have and will have been to distinguish abandoned plans, retrospective expectations and future completion.",
-        "purpose": "locate forecasts, obligations and completed transitions across uncertain timelines",
+        "name": "Non-finite clauses and information compression",
+        "context": "Grammar connected to the C2 essay “Why Remembering Is Harder Than Rereading”.",
+        "explanation": "Use gerund clauses, infinitive clauses and perfect participles only when their understood subject and temporal relationship remain unambiguous.",
+        "purpose": "explain sequences of study and recall without obscuring time or agency",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -9572,25 +10216,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Future-in-the-past and prospective perfect aspect?",
+        "prompt": "Which sentence best demonstrates controlled use of Non-finite clauses and information compression?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Future-in-the-past and prospective perfect aspect with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “locate forecasts, obligations and completed transitions across uncertain timelines”?",
+        "prompt": "Which revision best serves the purpose “explain sequences of study and recall without obscuring time or agency”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Future-in-the-past and prospective perfect aspect with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -9601,7 +10245,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Future-in-the-past and prospective perfect aspect with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -9612,7 +10256,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Future-in-the-past and prospective perfect aspect with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -9623,7 +10267,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Future-in-the-past and prospective perfect aspect with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -9634,7 +10278,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Future-in-the-past and prospective perfect aspect with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -9645,7 +10289,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Future-in-the-past and prospective perfect aspect with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -9656,7 +10300,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Future-in-the-past and prospective perfect aspect with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -9667,18 +10311,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Future-in-the-past and prospective perfect aspect with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Future-in-the-past and prospective perfect aspect?",
+        "prompt": "Which statement accurately describes Non-finite clauses and information compression?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Use was/were to have, would have been, is projected to have and will have been to distinguish abandoned plans, retrospective expectations and future completion.",
+          "Use gerund clauses, infinitive clauses and perfect participles only when their understood subject and temporal relationship remain unambiguous.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Future-in-the-past and prospective perfect aspect with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Non-finite clauses and information compression?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “explain sequences of study and recall without obscuring time or agency”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Non-finite clauses and information compression?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Use gerund clauses, infinitive clauses and perfect participles only when their understood subject and temporal relationship remain unambiguous."
+        ],
+        "explanation": "The correct option applies Non-finite clauses and information compression with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -12422,26 +13176,26 @@
     ]
   },
   {
-    "slug": "english-c2-synthetic-biology-reading",
+    "slug": "english-c2-sleep-consolidation-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "synthetic-biology",
-    "title": "Designing Life, Distributing Risk",
+    "unitId": "sleep-consolidation",
+    "title": "What Sleep Does After Study",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 60,
     "orderIndex": 30,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on synthetic biology and the governance of creation.",
-    "intro": "An extended C2 essay on synthetic biology and the governance of creation.",
+    "description": "An extended C2 essay on sleep, memory and vocabulary consolidation.",
+    "intro": "An extended C2 essay on sleep, memory and vocabulary consolidation.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Designing Life, Distributing Risk",
-      "text": "Designing Life, Distributing Risk begins with a difficulty that resists the usual demand for a simple position. Synthetic biology increasingly treats biological systems as design spaces, creating potential benefits in medicine, manufacturing and environmental repair. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nThe language of engineering promises control, although living systems evolve, interact with environments and exceed laboratory intentions. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nLegitimate governance must connect technical containment with public deliberation, distributional analysis and responsibility across long time horizons. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "What Sleep Does After Study",
+      "text": "What Sleep Does After Study begins with a difficulty that resists the usual demand for a simple position. Popular accounts often imply that new language can be acquired passively during sleep, although research more cautiously concerns consolidation after waking study. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nSleep may stabilise and reorganise recently encoded words, but results depend on age, task, testing delay and the quality of the original learning episode. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nLearners should treat sleep as part of a wider learning system rather than as a substitute for attentive exposure, retrieval and use. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -12449,10 +13203,22 @@
       ],
       "references": [
         {
-          "author": "World Health Organization",
-          "year": "2022",
-          "title": "Global guidance framework for the responsible use of the life sciences",
-          "url": "https://www.who.int/publications-detail-redirect/9789240056107/"
+          "author": "Schimke et al.",
+          "year": "2021",
+          "title": "The effect of sleep on novel word learning in healthy adults: A systematic review and meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34549375/"
+        },
+        {
+          "author": "Batterink, Westerberg et Paller",
+          "year": "2017",
+          "title": "Vocabulary learning benefits from REM after slow-wave sleep",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28697944/"
+        },
+        {
+          "author": "James et al.",
+          "year": "2025",
+          "title": "Does overnight memory consolidation support next-day learning?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40675054/"
         }
       ]
     },
@@ -12460,10 +13226,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "World Health Organization",
-          "year": "2022",
-          "title": "Global guidance framework for the responsible use of the life sciences",
-          "url": "https://www.who.int/publications-detail-redirect/9789240056107/"
+          "author": "Schimke et al.",
+          "year": "2021",
+          "title": "The effect of sleep on novel word learning in healthy adults: A systematic review and meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34549375/"
+        },
+        {
+          "author": "Batterink, Westerberg et Paller",
+          "year": "2017",
+          "title": "Vocabulary learning benefits from REM after slow-wave sleep",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28697944/"
+        },
+        {
+          "author": "James et al.",
+          "year": "2025",
+          "title": "Does overnight memory consolidation support next-day learning?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40675054/"
         }
       ],
       "grammarTest": null,
@@ -12572,9 +13350,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Synthetic Biology and the Governance of Creation”?",
+        "prompt": "Which response best fits the unit “Sleep, Memory and Vocabulary Consolidation”?",
         "options": [
-          "Legitimate governance must connect technical containment with public deliberation, distributional analysis and responsibility across long time horizons.",
+          "Learners should treat sleep as part of a wider learning system rather than as a substitute for attentive exposure, retrieval and use.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -13502,11 +14280,11 @@
     ]
   },
   {
-    "slug": "english-c2-synthetic-biology-vocabulary",
+    "slug": "english-c2-sleep-consolidation-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "synthetic-biology",
-    "title": "Conceptual Vocabulary: Synthetic Biology and the Governance of Creation",
+    "unitId": "sleep-consolidation",
+    "title": "Conceptual Vocabulary: Sleep, Memory and Vocabulary Consolidation",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
@@ -13519,87 +14297,99 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "biosafety",
-        "translation": "",
-        "definition": "prevention of accidental biological harm",
-        "example": "The essay uses “biosafety” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "biosecurity",
-        "translation": "",
-        "definition": "prevention of deliberate biological misuse",
-        "example": "The essay uses “biosecurity” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "containment",
-        "translation": "",
-        "definition": "measures restricting spread",
-        "example": "The essay uses “containment” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "gene drive",
-        "translation": "",
-        "definition": "genetic mechanism increasing inheritance of a trait",
-        "example": "The essay uses “gene drive” to make a precise distinction.",
+        "word": "memory consolidation",
+        "translation": "consolidación de la memoria",
+        "definition": "stabilisation and reorganisation of a new memory",
+        "example": "In the article, “memory consolidation” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «consolidación de la memoria» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "dual-use",
-        "translation": "",
-        "definition": "capable of beneficial and harmful application",
-        "example": "The essay uses “dual-use” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "ecological release",
-        "translation": "",
-        "definition": "introduction into an ecosystem",
-        "example": "The essay uses “ecological release” to make a precise distinction.",
+        "word": "lexical integration",
+        "translation": "integración léxica",
+        "definition": "incorporation of a word into an existing vocabulary network",
+        "example": "In the article, “lexical integration” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «integración léxica» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "reversibility",
-        "translation": "",
-        "definition": "capacity for an intervention to be undone",
-        "example": "The essay uses “reversibility” to make a precise distinction.",
+        "word": "encoding",
+        "translation": "codificación",
+        "definition": "initial formation of a memory representation",
+        "example": "In the article, “encoding” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «codificación» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "distributional",
-        "translation": "",
-        "definition": "concerning how effects are shared",
-        "example": "The essay uses “distributional” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "precautionary",
-        "translation": "",
-        "definition": "intended to prevent harm under uncertainty",
-        "example": "The essay uses “precautionary” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "stewardship",
-        "translation": "",
-        "definition": "responsible long-term management",
-        "example": "The essay uses “stewardship” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "emergent property",
-        "translation": "",
-        "definition": "system behaviour not reducible to individual parts",
-        "example": "The essay uses “emergent property” to make a precise distinction.",
+        "word": "slow-wave sleep",
+        "translation": "sueño de ondas lentas",
+        "definition": "a deep sleep stage associated with particular neural rhythms",
+        "example": "In the article, “slow-wave sleep” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «sueño de ondas lentas» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "governance gap",
-        "translation": "",
-        "definition": "absence of adequate rules or institutions",
-        "example": "The essay uses “governance gap” to make a precise distinction.",
+        "word": "rapid eye movement sleep",
+        "translation": "sueño de movimientos oculares rápidos",
+        "definition": "a sleep stage marked by vivid dreaming and distinctive brain activity",
+        "example": "In the article, “rapid eye movement sleep” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «sueño de movimientos oculares rápidos» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "offline processing",
+        "translation": "procesamiento fuera de línea",
+        "definition": "change occurring after practice has ended",
+        "example": "In the article, “offline processing” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «procesamiento fuera de línea» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "reconsolidation",
+        "translation": "reconsolidación",
+        "definition": "updating of a memory after it is reactivated",
+        "example": "In the article, “reconsolidation” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «reconsolidación» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "retention gain",
+        "translation": "ganancia de retención",
+        "definition": "improvement measured after a delay",
+        "example": "In the article, “retention gain” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «ganancia de retención» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "circadian rhythm",
+        "translation": "ritmo circadiano",
+        "definition": "the roughly daily cycle regulating sleep and alertness",
+        "example": "In the article, “circadian rhythm” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «ritmo circadiano» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "sleep deprivation",
+        "translation": "privación del sueño",
+        "definition": "insufficient sleep relative to biological need",
+        "example": "In the article, “sleep deprivation” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «privación del sueño» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "delayed test",
+        "translation": "prueba diferida",
+        "definition": "assessment administered after a substantial interval",
+        "example": "In the article, “delayed test” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «prueba diferida» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "confounding variable",
+        "translation": "variable de confusión",
+        "definition": "an uncontrolled factor that may explain an apparent effect",
+        "example": "In the article, “confounding variable” helps the writer analyse sleep, memory and vocabulary consolidation with greater precision.",
+        "exampleTranslation": "En el artículo, «variable de confusión» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       }
     ],
@@ -13610,122 +14400,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “prevention of accidental biological harm”?",
+        "prompt": "Which term means “stabilisation and reorganisation of a new memory”?",
         "options": [
-          "gene drive",
-          "biosecurity",
-          "biosafety",
-          "ecological release"
+          "slow-wave sleep",
+          "lexical integration",
+          "memory consolidation",
+          "offline processing"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “prevention of deliberate biological misuse”?",
+        "prompt": "Which term means “incorporation of a word into an existing vocabulary network”?",
         "options": [
-          "dual-use",
-          "containment",
-          "biosecurity",
-          "reversibility"
+          "rapid eye movement sleep",
+          "encoding",
+          "lexical integration",
+          "reconsolidation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “measures restricting spread”?",
+        "prompt": "Which term means “initial formation of a memory representation”?",
         "options": [
-          "ecological release",
-          "gene drive",
-          "containment",
-          "distributional"
+          "offline processing",
+          "slow-wave sleep",
+          "encoding",
+          "retention gain"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “genetic mechanism increasing inheritance of a trait”?",
+        "prompt": "Which term means “a deep sleep stage associated with particular neural rhythms”?",
         "options": [
-          "reversibility",
-          "dual-use",
-          "gene drive",
-          "precautionary"
+          "reconsolidation",
+          "rapid eye movement sleep",
+          "slow-wave sleep",
+          "circadian rhythm"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “capable of beneficial and harmful application”?",
+        "prompt": "Which term means “a sleep stage marked by vivid dreaming and distinctive brain activity”?",
         "options": [
-          "distributional",
-          "ecological release",
-          "dual-use",
-          "stewardship"
+          "retention gain",
+          "offline processing",
+          "rapid eye movement sleep",
+          "sleep deprivation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “introduction into an ecosystem”?",
+        "prompt": "Which term means “change occurring after practice has ended”?",
         "options": [
-          "precautionary",
-          "reversibility",
-          "ecological release",
-          "emergent property"
+          "circadian rhythm",
+          "reconsolidation",
+          "offline processing",
+          "delayed test"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “capacity for an intervention to be undone”?",
+        "prompt": "Which term means “updating of a memory after it is reactivated”?",
         "options": [
-          "stewardship",
-          "distributional",
-          "reversibility",
-          "governance gap"
+          "sleep deprivation",
+          "retention gain",
+          "reconsolidation",
+          "confounding variable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “concerning how effects are shared”?",
+        "prompt": "Which term means “improvement measured after a delay”?",
         "options": [
-          "emergent property",
-          "precautionary",
-          "distributional",
-          "biosafety"
+          "delayed test",
+          "circadian rhythm",
+          "retention gain",
+          "memory consolidation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “intended to prevent harm under uncertainty”?",
+        "prompt": "Which term means “the roughly daily cycle regulating sleep and alertness”?",
         "options": [
-          "governance gap",
-          "stewardship",
-          "precautionary",
-          "biosecurity"
+          "confounding variable",
+          "sleep deprivation",
+          "circadian rhythm",
+          "lexical integration"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “responsible long-term management”?",
+        "prompt": "Which term means “insufficient sleep relative to biological need”?",
         "options": [
-          "biosafety",
-          "emergent property",
-          "stewardship",
-          "containment"
+          "memory consolidation",
+          "delayed test",
+          "sleep deprivation",
+          "encoding"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “system behaviour not reducible to individual parts”?",
+        "prompt": "Which term means “assessment administered after a substantial interval”?",
         "options": [
-          "biosecurity",
-          "governance gap",
-          "emergent property",
-          "gene drive"
+          "lexical integration",
+          "confounding variable",
+          "delayed test",
+          "slow-wave sleep"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “absence of adequate rules or institutions”?",
+        "prompt": "Which term means “an uncontrolled factor that may explain an apparent effect”?",
         "options": [
-          "containment",
-          "biosafety",
-          "governance gap",
-          "dual-use"
+          "encoding",
+          "memory consolidation",
+          "confounding variable",
+          "rapid eye movement sleep"
         ]
       }
     ]
@@ -14999,20 +15789,20 @@
     ]
   },
   {
-    "slug": "english-c2-synthetic-biology-grammar",
+    "slug": "english-c2-sleep-consolidation-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "synthetic-biology",
-    "title": "Advanced passive and responsibility framing",
+    "unitId": "sleep-consolidation",
+    "title": "Temporal perspective and perfect aspect",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
     "orderIndex": 32,
     "estimatedMinutes": 24,
-    "description": "Use Advanced passive and responsibility framing to analyse “Designing Life, Distributing Risk”.",
-    "intro": "Use Advanced passive and responsibility framing to analyse “Designing Life, Distributing Risk”.",
+    "description": "Use Temporal perspective and perfect aspect to analyse “What Sleep Does After Study”.",
+    "intro": "Use Temporal perspective and perfect aspect to analyse “What Sleep Does After Study”.",
     "mission": "",
-    "grammar": "Goal: control when agency is backgrounded and restore it when accountability matters.\n\nRule: Combine passive reporting, get-passives, have something done and explicit by-phrases; choose agency strategically rather than automatically.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “Designing Life, Distributing Risk”.",
+    "grammar": "Goal: locate encoding, consolidation and later retrieval across carefully distinguished time frames.\n\nRule: Use present perfect, past perfect, future perfect and perfect infinitives to show whether a learning event precedes another reference point.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “What Sleep Does After Study”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -15025,13 +15815,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-synthetic-biology-grammar-test",
+        "id": "english-c2-sleep-consolidation-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-synthetic-biology-grammar-q1",
+            "id": "english-c2-sleep-consolidation-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Advanced passive and responsibility framing?",
+            "prompt": "Which sentence best demonstrates controlled use of Temporal perspective and perfect aspect?",
             "options": [
               {
                 "id": "a",
@@ -15052,9 +15842,9 @@
             ]
           },
           {
-            "id": "english-c2-synthetic-biology-grammar-q2",
+            "id": "english-c2-sleep-consolidation-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “control when agency is backgrounded and restore it when accountability matters”?",
+            "prompt": "Which revision best serves the purpose “locate encoding, consolidation and later retrieval across carefully distinguished time frames”?",
             "options": [
               {
                 "id": "a",
@@ -15075,7 +15865,7 @@
             ]
           },
           {
-            "id": "english-c2-synthetic-biology-grammar-q3",
+            "id": "english-c2-sleep-consolidation-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -15098,7 +15888,7 @@
             ]
           },
           {
-            "id": "english-c2-synthetic-biology-grammar-q4",
+            "id": "english-c2-sleep-consolidation-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -15121,7 +15911,7 @@
             ]
           },
           {
-            "id": "english-c2-synthetic-biology-grammar-q5",
+            "id": "english-c2-sleep-consolidation-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -15144,7 +15934,7 @@
             ]
           },
           {
-            "id": "english-c2-synthetic-biology-grammar-q6",
+            "id": "english-c2-sleep-consolidation-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -15167,7 +15957,7 @@
             ]
           },
           {
-            "id": "english-c2-synthetic-biology-grammar-q7",
+            "id": "english-c2-sleep-consolidation-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -15190,7 +15980,7 @@
             ]
           },
           {
-            "id": "english-c2-synthetic-biology-grammar-q8",
+            "id": "english-c2-sleep-consolidation-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -15213,7 +16003,7 @@
             ]
           },
           {
-            "id": "english-c2-synthetic-biology-grammar-q9",
+            "id": "english-c2-sleep-consolidation-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -15236,9 +16026,9 @@
             ]
           },
           {
-            "id": "english-c2-synthetic-biology-grammar-q10",
+            "id": "english-c2-sleep-consolidation-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Advanced passive and responsibility framing?",
+            "prompt": "Which statement accurately describes Temporal perspective and perfect aspect?",
             "options": [
               {
                 "id": "a",
@@ -15246,7 +16036,7 @@
               },
               {
                 "id": "b",
-                "text": "Combine passive reporting, get-passives, have something done and explicit by-phrases; choose agency strategically rather than automatically."
+                "text": "Use present perfect, past perfect, future perfect and perfect infinitives to show whether a learning event precedes another reference point."
               },
               {
                 "id": "c",
@@ -15257,14 +16047,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-sleep-consolidation-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Temporal perspective and perfect aspect?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-sleep-consolidation-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “locate encoding, consolidation and later retrieval across carefully distinguished time frames”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-sleep-consolidation-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-sleep-consolidation-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-sleep-consolidation-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-sleep-consolidation-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-sleep-consolidation-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-sleep-consolidation-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-sleep-consolidation-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-sleep-consolidation-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Temporal perspective and perfect aspect?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Use present perfect, past perfect, future perfect and perfect infinitives to show whether a learning event precedes another reference point."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Advanced passive and responsibility framing",
-        "context": "Grammar connected to the C2 essay “Designing Life, Distributing Risk”.",
-        "explanation": "Combine passive reporting, get-passives, have something done and explicit by-phrases; choose agency strategically rather than automatically.",
-        "purpose": "control when agency is backgrounded and restore it when accountability matters",
+        "name": "Temporal perspective and perfect aspect",
+        "context": "Grammar connected to the C2 essay “What Sleep Does After Study”.",
+        "explanation": "Use present perfect, past perfect, future perfect and perfect infinitives to show whether a learning event precedes another reference point.",
+        "purpose": "locate encoding, consolidation and later retrieval across carefully distinguished time frames",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -15277,25 +16297,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Advanced passive and responsibility framing?",
+        "prompt": "Which sentence best demonstrates controlled use of Temporal perspective and perfect aspect?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Advanced passive and responsibility framing with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “control when agency is backgrounded and restore it when accountability matters”?",
+        "prompt": "Which revision best serves the purpose “locate encoding, consolidation and later retrieval across carefully distinguished time frames”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Advanced passive and responsibility framing with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -15306,7 +16326,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Advanced passive and responsibility framing with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -15317,7 +16337,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Advanced passive and responsibility framing with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -15328,7 +16348,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Advanced passive and responsibility framing with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -15339,7 +16359,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Advanced passive and responsibility framing with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -15350,7 +16370,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Advanced passive and responsibility framing with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -15361,7 +16381,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Advanced passive and responsibility framing with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -15372,18 +16392,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Advanced passive and responsibility framing with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Advanced passive and responsibility framing?",
+        "prompt": "Which statement accurately describes Temporal perspective and perfect aspect?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Combine passive reporting, get-passives, have something done and explicit by-phrases; choose agency strategically rather than automatically.",
+          "Use present perfect, past perfect, future perfect and perfect infinitives to show whether a learning event precedes another reference point.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Advanced passive and responsibility framing with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Temporal perspective and perfect aspect?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “locate encoding, consolidation and later retrieval across carefully distinguished time frames”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Temporal perspective and perfect aspect?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Use present perfect, past perfect, future perfect and perfect infinitives to show whether a learning event precedes another reference point."
+        ],
+        "explanation": "The correct option applies Temporal perspective and perfect aspect with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -18127,26 +19257,26 @@
     ]
   },
   {
-    "slug": "english-c2-solar-geoengineering-reading",
+    "slug": "english-c2-incidental-acquisition-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "solar-geoengineering",
-    "title": "Who May Dim the Sun?",
+    "unitId": "incidental-acquisition",
+    "title": "Understanding More Than You Were Taught",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 60,
     "orderIndex": 40,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on solar geoengineering and climate authority.",
-    "intro": "An extended C2 essay on solar geoengineering and climate authority.",
+    "description": "An extended C2 essay on comprehensible input and incidental acquisition.",
+    "intro": "An extended C2 essay on comprehensible input and incidental acquisition.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Who May Dim the Sun?",
-      "text": "Who May Dim the Sun? begins with a difficulty that resists the usual demand for a simple position. Proposals to reflect a small proportion of sunlight force climate politics to confront interventions whose effects would cross every border. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nModelling suggests possible temperature reduction, but regional consequences, termination risk and political conflict remain deeply uncertain. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nResearch governance must not become tacit authorisation for deployment; it requires public oversight, international restraint and explicit exit conditions. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "Understanding More Than You Were Taught",
+      "text": "Understanding More Than You Were Taught begins with a difficulty that resists the usual demand for a simple position. Learners acquire some vocabulary while reading or listening for meaning, yet exposure does not guarantee that every unfamiliar form will be noticed or retained. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nSimplification can improve access while removing useful linguistic richness, and highly authentic input can overwhelm the attention needed for form-meaning mapping. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nEffective input is meaningfully challenging, recurrent and supported by selective glosses, inference and later retrieval. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -18154,10 +19284,22 @@
       ],
       "references": [
         {
-          "author": "United Nations Environment Programme",
+          "author": "Webb, Uchihara et Yanagisawa",
           "year": "2023",
-          "title": "One Atmosphere: An Independent Expert Review on Solar Radiation Modification Research and Deployment",
-          "url": "https://www.unep.org/resources/report/Solar-Radiation-Modification-research-deployment"
+          "title": "How effective is second language incidental vocabulary learning? A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/how-effective-is-second-language-incidental-vocabulary-learning-a-metaanalysis/E38E3468FD2090B1FA3051051DE8E70C"
+        },
+        {
+          "author": "Mackey",
+          "year": "2018",
+          "title": "Interaction and instructed second language acquisition",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/interaction-and-instructed-second-language-acquisition/78A156EE200F744F5978F99BFB073DBE"
+        },
+        {
+          "author": "Yanagisawa, Webb et Uchihara",
+          "year": "2020",
+          "title": "How do different forms of glossing contribute to L2 vocabulary learning?",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/how-do-different-forms-of-glossing-contribute-to-l2-vocabulary-learning-from-reading/38124150D59DF3039EE1FF5AE88FE922"
         }
       ]
     },
@@ -18165,10 +19307,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "United Nations Environment Programme",
+          "author": "Webb, Uchihara et Yanagisawa",
           "year": "2023",
-          "title": "One Atmosphere: An Independent Expert Review on Solar Radiation Modification Research and Deployment",
-          "url": "https://www.unep.org/resources/report/Solar-Radiation-Modification-research-deployment"
+          "title": "How effective is second language incidental vocabulary learning? A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/how-effective-is-second-language-incidental-vocabulary-learning-a-metaanalysis/E38E3468FD2090B1FA3051051DE8E70C"
+        },
+        {
+          "author": "Mackey",
+          "year": "2018",
+          "title": "Interaction and instructed second language acquisition",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/interaction-and-instructed-second-language-acquisition/78A156EE200F744F5978F99BFB073DBE"
+        },
+        {
+          "author": "Yanagisawa, Webb et Uchihara",
+          "year": "2020",
+          "title": "How do different forms of glossing contribute to L2 vocabulary learning?",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/how-do-different-forms-of-glossing-contribute-to-l2-vocabulary-learning-from-reading/38124150D59DF3039EE1FF5AE88FE922"
         }
       ],
       "grammarTest": null,
@@ -18277,9 +19431,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Solar Geoengineering and Climate Authority”?",
+        "prompt": "Which response best fits the unit “Comprehensible Input and Incidental Acquisition”?",
         "options": [
-          "Research governance must not become tacit authorisation for deployment; it requires public oversight, international restraint and explicit exit conditions.",
+          "Effective input is meaningfully challenging, recurrent and supported by selective glosses, inference and later retrieval.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -19207,11 +20361,11 @@
     ]
   },
   {
-    "slug": "english-c2-solar-geoengineering-vocabulary",
+    "slug": "english-c2-incidental-acquisition-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "solar-geoengineering",
-    "title": "Conceptual Vocabulary: Solar Geoengineering and Climate Authority",
+    "unitId": "incidental-acquisition",
+    "title": "Conceptual Vocabulary: Comprehensible Input and Incidental Acquisition",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
@@ -19224,87 +20378,99 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "radiative forcing",
-        "translation": "",
-        "definition": "change in the balance of incoming and outgoing energy",
-        "example": "The essay uses “radiative forcing” to make a precise distinction.",
+        "word": "comprehensible input",
+        "translation": "input comprensible",
+        "definition": "language that can be understood despite containing new elements",
+        "example": "In the article, “comprehensible input” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «input comprensible» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "stratospheric aerosol",
-        "translation": "",
-        "definition": "small particle introduced into the upper atmosphere",
-        "example": "The essay uses “stratospheric aerosol” to make a precise distinction.",
+        "word": "incidental learning",
+        "translation": "aprendizaje incidental",
+        "definition": "learning occurring without the item being the primary study target",
+        "example": "In the article, “incidental learning” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «aprendizaje incidental» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "termination shock",
-        "translation": "",
-        "definition": "rapid warming after an intervention stops",
-        "example": "The essay uses “termination shock” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "deployment threshold",
-        "translation": "",
-        "definition": "condition required before use",
-        "example": "The essay uses “deployment threshold” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "transboundary",
-        "translation": "",
-        "definition": "crossing national borders",
-        "example": "The essay uses “transboundary” to make a precise distinction.",
+        "word": "noticing",
+        "translation": "percepción consciente",
+        "definition": "conscious registration of a linguistic feature",
+        "example": "In the article, “noticing” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «percepción consciente» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "moral hazard",
-        "translation": "",
-        "definition": "risk that protection encourages greater risk-taking",
-        "example": "The essay uses “moral hazard” to make a precise distinction.",
+        "word": "input flood",
+        "translation": "saturación de input",
+        "definition": "high concentration of a target form in exposure",
+        "example": "In the article, “input flood” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «saturación de input» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "climate attribution",
-        "translation": "",
-        "definition": "analysis connecting events to climatic causes",
-        "example": "The essay uses “climate attribution” to make a precise distinction.",
+        "word": "lexical coverage",
+        "translation": "cobertura léxica",
+        "definition": "proportion of running words already known",
+        "example": "In the article, “lexical coverage” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «cobertura léxica» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "scenario modelling",
-        "translation": "",
-        "definition": "simulation of possible future conditions",
-        "example": "The essay uses “scenario modelling” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "legitimacy",
-        "translation": "",
-        "definition": "justified and accepted authority",
-        "example": "The essay uses “legitimacy” to make a precise distinction.",
+        "word": "inferencing",
+        "translation": "inferencia",
+        "definition": "deriving meaning from contextual evidence",
+        "example": "In the article, “inferencing” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «inferencia» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "moratorium",
-        "translation": "",
-        "definition": "temporary prohibition",
-        "example": "The essay uses “moratorium” to make a precise distinction.",
+        "word": "gloss",
+        "translation": "glosa",
+        "definition": "brief explanation attached to an unfamiliar item",
+        "example": "In the article, “gloss” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «glosa» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "governance architecture",
-        "translation": "",
-        "definition": "arrangement of institutions and rules",
-        "example": "The essay uses “governance architecture” to make a precise distinction.",
+        "word": "form-meaning mapping",
+        "translation": "asociación forma-significado",
+        "definition": "connection between a linguistic form and its meaning",
+        "example": "In the article, “form-meaning mapping” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «asociación forma-significado» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "irreversibility",
-        "translation": "",
-        "definition": "inability to restore a previous state",
-        "example": "The essay uses “irreversibility” to make a precise distinction.",
+        "word": "frequency threshold",
+        "translation": "umbral de frecuencia",
+        "definition": "amount of recurrence associated with likely learning",
+        "example": "In the article, “frequency threshold” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «umbral de frecuencia» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "textual enhancement",
+        "translation": "realce textual",
+        "definition": "visual marking intended to draw attention to form",
+        "example": "In the article, “textual enhancement” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «realce textual» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "cognitive overload",
+        "translation": "sobrecarga cognitiva",
+        "definition": "demand exceeding available processing capacity",
+        "example": "In the article, “cognitive overload” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «sobrecarga cognitiva» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "uptake",
+        "translation": "incorporación",
+        "definition": "information from input that becomes available for learning",
+        "example": "In the article, “uptake” helps the writer analyse comprehensible input and incidental acquisition with greater precision.",
+        "exampleTranslation": "En el artículo, «incorporación» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       }
     ],
@@ -19315,122 +20481,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “change in the balance of incoming and outgoing energy”?",
+        "prompt": "Which term means “language that can be understood despite containing new elements”?",
         "options": [
-          "deployment threshold",
-          "stratospheric aerosol",
-          "radiative forcing",
-          "moral hazard"
+          "input flood",
+          "incidental learning",
+          "comprehensible input",
+          "inferencing"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “small particle introduced into the upper atmosphere”?",
+        "prompt": "Which term means “learning occurring without the item being the primary study target”?",
         "options": [
-          "transboundary",
-          "termination shock",
-          "stratospheric aerosol",
-          "climate attribution"
+          "lexical coverage",
+          "noticing",
+          "incidental learning",
+          "gloss"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “rapid warming after an intervention stops”?",
+        "prompt": "Which term means “conscious registration of a linguistic feature”?",
         "options": [
-          "moral hazard",
-          "deployment threshold",
-          "termination shock",
-          "scenario modelling"
+          "inferencing",
+          "input flood",
+          "noticing",
+          "form-meaning mapping"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “condition required before use”?",
+        "prompt": "Which term means “high concentration of a target form in exposure”?",
         "options": [
-          "climate attribution",
-          "transboundary",
-          "deployment threshold",
-          "legitimacy"
+          "gloss",
+          "lexical coverage",
+          "input flood",
+          "frequency threshold"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “crossing national borders”?",
+        "prompt": "Which term means “proportion of running words already known”?",
         "options": [
-          "scenario modelling",
-          "moral hazard",
-          "transboundary",
-          "moratorium"
+          "form-meaning mapping",
+          "inferencing",
+          "lexical coverage",
+          "textual enhancement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “risk that protection encourages greater risk-taking”?",
+        "prompt": "Which term means “deriving meaning from contextual evidence”?",
         "options": [
-          "legitimacy",
-          "climate attribution",
-          "moral hazard",
-          "governance architecture"
+          "frequency threshold",
+          "gloss",
+          "inferencing",
+          "cognitive overload"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “analysis connecting events to climatic causes”?",
+        "prompt": "Which term means “brief explanation attached to an unfamiliar item”?",
         "options": [
-          "moratorium",
-          "scenario modelling",
-          "climate attribution",
-          "irreversibility"
+          "textual enhancement",
+          "form-meaning mapping",
+          "gloss",
+          "uptake"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “simulation of possible future conditions”?",
+        "prompt": "Which term means “connection between a linguistic form and its meaning”?",
         "options": [
-          "governance architecture",
-          "legitimacy",
-          "scenario modelling",
-          "radiative forcing"
+          "cognitive overload",
+          "frequency threshold",
+          "form-meaning mapping",
+          "comprehensible input"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “justified and accepted authority”?",
+        "prompt": "Which term means “amount of recurrence associated with likely learning”?",
         "options": [
-          "irreversibility",
-          "moratorium",
-          "legitimacy",
-          "stratospheric aerosol"
+          "uptake",
+          "textual enhancement",
+          "frequency threshold",
+          "incidental learning"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “temporary prohibition”?",
+        "prompt": "Which term means “visual marking intended to draw attention to form”?",
         "options": [
-          "radiative forcing",
-          "governance architecture",
-          "moratorium",
-          "termination shock"
+          "comprehensible input",
+          "cognitive overload",
+          "textual enhancement",
+          "noticing"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “arrangement of institutions and rules”?",
+        "prompt": "Which term means “demand exceeding available processing capacity”?",
         "options": [
-          "stratospheric aerosol",
-          "irreversibility",
-          "governance architecture",
-          "deployment threshold"
+          "incidental learning",
+          "uptake",
+          "cognitive overload",
+          "input flood"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “inability to restore a previous state”?",
+        "prompt": "Which term means “information from input that becomes available for learning”?",
         "options": [
-          "termination shock",
-          "radiative forcing",
-          "irreversibility",
-          "transboundary"
+          "noticing",
+          "comprehensible input",
+          "uptake",
+          "lexical coverage"
         ]
       }
     ]
@@ -20704,20 +21870,20 @@
     ]
   },
   {
-    "slug": "english-c2-solar-geoengineering-grammar",
+    "slug": "english-c2-incidental-acquisition-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "solar-geoengineering",
-    "title": "Inversion across complex negative adverbials",
+    "unitId": "incidental-acquisition",
+    "title": "Hedging and epistemic modality",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
     "orderIndex": 42,
     "estimatedMinutes": 24,
-    "description": "Use Inversion across complex negative adverbials to analyse “Who May Dim the Sun?”.",
-    "intro": "Use Inversion across complex negative adverbials to analyse “Who May Dim the Sun?”.",
+    "description": "Use Hedging and epistemic modality to analyse “Understanding More Than You Were Taught”.",
+    "intro": "Use Hedging and epistemic modality to analyse “Understanding More Than You Were Taught”.",
     "mission": "",
-    "grammar": "Goal: create controlled emphasis in formal warnings and limitations.\n\nRule: Invert auxiliary and subject after under no circumstances, only insofar as, not merely and little did; avoid inversion when the negative phrase is not fronted.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “Who May Dim the Sun?”.",
+    "grammar": "Goal: distinguish plausible acquisition from demonstrated learning.\n\nRule: Combine may, might, appears to, is likely to and cannot be assumed to with explicit evidence and scope rather than using them as vague signs of caution.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “Understanding More Than You Were Taught”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -20730,13 +21896,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-solar-geoengineering-grammar-test",
+        "id": "english-c2-incidental-acquisition-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-solar-geoengineering-grammar-q1",
+            "id": "english-c2-incidental-acquisition-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Inversion across complex negative adverbials?",
+            "prompt": "Which sentence best demonstrates controlled use of Hedging and epistemic modality?",
             "options": [
               {
                 "id": "a",
@@ -20757,9 +21923,9 @@
             ]
           },
           {
-            "id": "english-c2-solar-geoengineering-grammar-q2",
+            "id": "english-c2-incidental-acquisition-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “create controlled emphasis in formal warnings and limitations”?",
+            "prompt": "Which revision best serves the purpose “distinguish plausible acquisition from demonstrated learning”?",
             "options": [
               {
                 "id": "a",
@@ -20780,7 +21946,7 @@
             ]
           },
           {
-            "id": "english-c2-solar-geoengineering-grammar-q3",
+            "id": "english-c2-incidental-acquisition-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -20803,7 +21969,7 @@
             ]
           },
           {
-            "id": "english-c2-solar-geoengineering-grammar-q4",
+            "id": "english-c2-incidental-acquisition-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -20826,7 +21992,7 @@
             ]
           },
           {
-            "id": "english-c2-solar-geoengineering-grammar-q5",
+            "id": "english-c2-incidental-acquisition-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -20849,7 +22015,7 @@
             ]
           },
           {
-            "id": "english-c2-solar-geoengineering-grammar-q6",
+            "id": "english-c2-incidental-acquisition-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -20872,7 +22038,7 @@
             ]
           },
           {
-            "id": "english-c2-solar-geoengineering-grammar-q7",
+            "id": "english-c2-incidental-acquisition-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -20895,7 +22061,7 @@
             ]
           },
           {
-            "id": "english-c2-solar-geoengineering-grammar-q8",
+            "id": "english-c2-incidental-acquisition-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -20918,7 +22084,7 @@
             ]
           },
           {
-            "id": "english-c2-solar-geoengineering-grammar-q9",
+            "id": "english-c2-incidental-acquisition-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -20941,9 +22107,9 @@
             ]
           },
           {
-            "id": "english-c2-solar-geoengineering-grammar-q10",
+            "id": "english-c2-incidental-acquisition-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Inversion across complex negative adverbials?",
+            "prompt": "Which statement accurately describes Hedging and epistemic modality?",
             "options": [
               {
                 "id": "a",
@@ -20951,7 +22117,7 @@
               },
               {
                 "id": "b",
-                "text": "Invert auxiliary and subject after under no circumstances, only insofar as, not merely and little did; avoid inversion when the negative phrase is not fronted."
+                "text": "Combine may, might, appears to, is likely to and cannot be assumed to with explicit evidence and scope rather than using them as vague signs of caution."
               },
               {
                 "id": "c",
@@ -20962,14 +22128,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-incidental-acquisition-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Hedging and epistemic modality?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-incidental-acquisition-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “distinguish plausible acquisition from demonstrated learning”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-incidental-acquisition-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-incidental-acquisition-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-incidental-acquisition-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-incidental-acquisition-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-incidental-acquisition-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-incidental-acquisition-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-incidental-acquisition-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-incidental-acquisition-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Hedging and epistemic modality?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Combine may, might, appears to, is likely to and cannot be assumed to with explicit evidence and scope rather than using them as vague signs of caution."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Inversion across complex negative adverbials",
-        "context": "Grammar connected to the C2 essay “Who May Dim the Sun?”.",
-        "explanation": "Invert auxiliary and subject after under no circumstances, only insofar as, not merely and little did; avoid inversion when the negative phrase is not fronted.",
-        "purpose": "create controlled emphasis in formal warnings and limitations",
+        "name": "Hedging and epistemic modality",
+        "context": "Grammar connected to the C2 essay “Understanding More Than You Were Taught”.",
+        "explanation": "Combine may, might, appears to, is likely to and cannot be assumed to with explicit evidence and scope rather than using them as vague signs of caution.",
+        "purpose": "distinguish plausible acquisition from demonstrated learning",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -20982,25 +22378,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Inversion across complex negative adverbials?",
+        "prompt": "Which sentence best demonstrates controlled use of Hedging and epistemic modality?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Inversion across complex negative adverbials with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “create controlled emphasis in formal warnings and limitations”?",
+        "prompt": "Which revision best serves the purpose “distinguish plausible acquisition from demonstrated learning”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Inversion across complex negative adverbials with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -21011,7 +22407,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Inversion across complex negative adverbials with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -21022,7 +22418,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Inversion across complex negative adverbials with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -21033,7 +22429,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Inversion across complex negative adverbials with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -21044,7 +22440,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Inversion across complex negative adverbials with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -21055,7 +22451,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Inversion across complex negative adverbials with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -21066,7 +22462,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Inversion across complex negative adverbials with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -21077,18 +22473,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Inversion across complex negative adverbials with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Inversion across complex negative adverbials?",
+        "prompt": "Which statement accurately describes Hedging and epistemic modality?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Invert auxiliary and subject after under no circumstances, only insofar as, not merely and little did; avoid inversion when the negative phrase is not fronted.",
+          "Combine may, might, appears to, is likely to and cannot be assumed to with explicit evidence and scope rather than using them as vague signs of caution.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Inversion across complex negative adverbials with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Hedging and epistemic modality?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “distinguish plausible acquisition from demonstrated learning”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Hedging and epistemic modality?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Combine may, might, appears to, is likely to and cannot be assumed to with explicit evidence and scope rather than using them as vague signs of caution."
+        ],
+        "explanation": "The correct option applies Hedging and epistemic modality with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -23832,26 +25338,26 @@
     ]
   },
   {
-    "slug": "english-c2-neurotechnology-agency-reading",
+    "slug": "english-c2-multimodal-learning-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "neurotechnology-agency",
-    "title": "The Last Private Territory",
+    "unitId": "multimodal-learning",
+    "title": "When Words, Sound and Image Compete",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 60,
     "orderIndex": 50,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on neurotechnology, agency and mental privacy.",
-    "intro": "An extended C2 essay on neurotechnology, agency and mental privacy.",
+    "description": "An extended C2 essay on reading, listening and multimodal learning.",
+    "intro": "An extended C2 essay on reading, listening and multimodal learning.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "The Last Private Territory",
-      "text": "The Last Private Territory begins with a difficulty that resists the usual demand for a simple position. Devices that infer or influence neural activity challenge legal distinctions between thought, behaviour, health data and personal identity. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nClinical benefits may be profound, yet commercial systems can convert probabilistic signals into claims about intention or character. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nMental privacy requires limits on collection and inference, meaningful consent and protection against discrimination based on uncertain neural predictions. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "When Words, Sound and Image Compete",
+      "text": "When Words, Sound and Image Compete begins with a difficulty that resists the usual demand for a simple position. Video, captions, audio and written text can provide complementary cues, but adding modes does not automatically create deeper learning. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nCaptions may connect sound with spelling while also encouraging learners to ignore speech; images may clarify meaning while distracting from relevant language. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nMultimodal design should coordinate rather than merely accumulate information and should gradually reduce support as perception becomes more independent. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -23859,10 +25365,22 @@
       ],
       "references": [
         {
-          "author": "UNESCO",
-          "year": "2025",
-          "title": "Recommendation on the Ethics of Neurotechnology",
-          "url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-neurotechnology"
+          "author": "Sutton et Webb",
+          "year": "2026",
+          "title": "The effects of audiovisual input on second language learning: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/effects-of-audiovisual-input-on-second-language-learning-a-metaanalysis/9B61BAEF14F110F01148E398D171634A"
+        },
+        {
+          "author": "Jin et Webb",
+          "year": "2024",
+          "title": "The effectiveness of note taking through exposure to L2 input: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/effectiveness-of-note-taking-through-exposure-to-l2-input-a-metaanalysis/C5CA68C9A1B1E873754EFCFEFF55A005"
+        },
+        {
+          "author": "Yanagisawa, Webb et Uchihara",
+          "year": "2020",
+          "title": "How do different forms of glossing contribute to L2 vocabulary learning?",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/how-do-different-forms-of-glossing-contribute-to-l2-vocabulary-learning-from-reading/38124150D59DF3039EE1FF5AE88FE922"
         }
       ]
     },
@@ -23870,10 +25388,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "UNESCO",
-          "year": "2025",
-          "title": "Recommendation on the Ethics of Neurotechnology",
-          "url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-neurotechnology"
+          "author": "Sutton et Webb",
+          "year": "2026",
+          "title": "The effects of audiovisual input on second language learning: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/effects-of-audiovisual-input-on-second-language-learning-a-metaanalysis/9B61BAEF14F110F01148E398D171634A"
+        },
+        {
+          "author": "Jin et Webb",
+          "year": "2024",
+          "title": "The effectiveness of note taking through exposure to L2 input: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/effectiveness-of-note-taking-through-exposure-to-l2-input-a-metaanalysis/C5CA68C9A1B1E873754EFCFEFF55A005"
+        },
+        {
+          "author": "Yanagisawa, Webb et Uchihara",
+          "year": "2020",
+          "title": "How do different forms of glossing contribute to L2 vocabulary learning?",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/how-do-different-forms-of-glossing-contribute-to-l2-vocabulary-learning-from-reading/38124150D59DF3039EE1FF5AE88FE922"
         }
       ],
       "grammarTest": null,
@@ -23982,9 +25512,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Neurotechnology, Agency and Mental Privacy”?",
+        "prompt": "Which response best fits the unit “Reading, Listening and Multimodal Learning”?",
         "options": [
-          "Mental privacy requires limits on collection and inference, meaningful consent and protection against discrimination based on uncertain neural predictions.",
+          "Multimodal design should coordinate rather than merely accumulate information and should gradually reduce support as perception becomes more independent.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -24902,11 +26432,11 @@
     ]
   },
   {
-    "slug": "english-c2-neurotechnology-agency-vocabulary",
+    "slug": "english-c2-multimodal-learning-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "neurotechnology-agency",
-    "title": "Conceptual Vocabulary: Neurotechnology, Agency and Mental Privacy",
+    "unitId": "multimodal-learning",
+    "title": "Conceptual Vocabulary: Reading, Listening and Multimodal Learning",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
@@ -24919,88 +26449,100 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "neural inference",
-        "translation": "",
-        "definition": "conclusion drawn from nervous-system signals",
-        "example": "The essay uses “neural inference” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "cognitive liberty",
-        "translation": "",
-        "definition": "freedom over one’s own mental processes",
-        "example": "The essay uses “cognitive liberty” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "mental privacy",
-        "translation": "",
-        "definition": "protection of thoughts and neural information",
-        "example": "The essay uses “mental privacy” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "probabilistic",
-        "translation": "",
-        "definition": "expressed in terms of likelihood",
-        "example": "The essay uses “probabilistic” to make a precise distinction.",
+        "word": "multimodality",
+        "translation": "multimodalidad",
+        "definition": "communication through more than one representational mode",
+        "example": "In the article, “multimodality” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «multimodalidad» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "neurodiscrimination",
-        "translation": "",
-        "definition": "unfair treatment based on neural data",
-        "example": "The essay uses “neurodiscrimination” to make a precise distinction.",
+        "word": "dual coding",
+        "translation": "codificación dual",
+        "definition": "use of verbal and non-verbal representations in learning",
+        "example": "In the article, “dual coding” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «codificación dual» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "captioning",
+        "translation": "subtitulado",
+        "definition": "display of spoken language as synchronised text",
+        "example": "In the article, “captioning” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «subtitulado» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "informed consent",
-        "translation": "",
-        "definition": "agreement based on adequate understanding",
-        "example": "The essay uses “informed consent” to make a precise distinction.",
+        "word": "redundancy effect",
+        "translation": "efecto de redundancia",
+        "definition": "learning cost caused by unnecessary repetition across modes",
+        "example": "In the article, “redundancy effect” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «efecto de redundancia» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "decisional autonomy",
-        "translation": "",
-        "definition": "capacity to make one’s own choices",
-        "example": "The essay uses “decisional autonomy” to make a precise distinction.",
+        "word": "split attention",
+        "translation": "atención dividida",
+        "definition": "need to divide attention among competing information sources",
+        "example": "In the article, “split attention” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «atención dividida» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "biometric",
-        "translation": "",
-        "definition": "based on measurable biological characteristics",
-        "example": "The essay uses “biometric” to make a precise distinction.",
+        "word": "signalling",
+        "translation": "señalización",
+        "definition": "cues directing attention to relevant material",
+        "example": "In the article, “signalling” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «señalización» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "interpretive overreach",
-        "translation": "",
-        "definition": "conclusion extending beyond what data supports",
-        "example": "The essay uses “interpretive overreach” to make a precise distinction.",
+        "word": "modality principle",
+        "translation": "principio de modalidad",
+        "definition": "design claim concerning the distribution of words across speech and text",
+        "example": "In the article, “modality principle” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «principio de modalidad» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "neuroplasticity",
-        "translation": "",
-        "definition": "capacity of the brain to change",
-        "example": "The essay uses “neuroplasticity” to make a precise distinction.",
+        "word": "visual salience",
+        "translation": "prominencia visual",
+        "definition": "capacity of an element to attract attention",
+        "example": "In the article, “visual salience” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «prominencia visual» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "transient information",
+        "translation": "información transitoria",
+        "definition": "content that disappears before it can be reviewed",
+        "example": "In the article, “transient information” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «información transitoria» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "note-taking",
+        "translation": "toma de apuntes",
+        "definition": "selective external recording of information",
+        "example": "In the article, “note-taking” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «toma de apuntes» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "clinical validity",
-        "translation": "",
-        "definition": "evidence that a measure reflects a condition",
-        "example": "The essay uses “clinical validity” to make a precise distinction.",
-        "partOfSpeech": "phrase"
+        "word": "scaffolding",
+        "translation": "andamiaje",
+        "definition": "temporary support enabling performance beyond current independence",
+        "example": "In the article, “scaffolding” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «andamiaje» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "noun"
       },
       {
-        "word": "identity claim",
-        "translation": "",
-        "definition": "assertion about who a person fundamentally is",
-        "example": "The essay uses “identity claim” to make a precise distinction.",
-        "partOfSpeech": "phrase"
+        "word": "fading",
+        "translation": "retirada gradual",
+        "definition": "gradual removal of instructional support",
+        "example": "In the article, “fading” helps the writer analyse reading, listening and multimodal learning with greater precision.",
+        "exampleTranslation": "En el artículo, «retirada gradual» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "noun"
       }
     ],
     "dialogue": [],
@@ -25010,122 +26552,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “conclusion drawn from nervous-system signals”?",
+        "prompt": "Which term means “communication through more than one representational mode”?",
         "options": [
-          "probabilistic",
-          "cognitive liberty",
-          "neural inference",
-          "informed consent"
+          "redundancy effect",
+          "dual coding",
+          "multimodality",
+          "signalling"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “freedom over one’s own mental processes”?",
+        "prompt": "Which term means “use of verbal and non-verbal representations in learning”?",
         "options": [
-          "neurodiscrimination",
-          "mental privacy",
-          "cognitive liberty",
-          "decisional autonomy"
+          "split attention",
+          "captioning",
+          "dual coding",
+          "modality principle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “protection of thoughts and neural information”?",
+        "prompt": "Which term means “display of spoken language as synchronised text”?",
         "options": [
-          "informed consent",
-          "probabilistic",
-          "mental privacy",
-          "biometric"
+          "signalling",
+          "redundancy effect",
+          "captioning",
+          "visual salience"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “expressed in terms of likelihood”?",
+        "prompt": "Which term means “learning cost caused by unnecessary repetition across modes”?",
         "options": [
-          "decisional autonomy",
-          "neurodiscrimination",
-          "probabilistic",
-          "interpretive overreach"
+          "modality principle",
+          "split attention",
+          "redundancy effect",
+          "transient information"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “unfair treatment based on neural data”?",
+        "prompt": "Which term means “need to divide attention among competing information sources”?",
         "options": [
-          "biometric",
-          "informed consent",
-          "neurodiscrimination",
-          "neuroplasticity"
+          "visual salience",
+          "signalling",
+          "split attention",
+          "note-taking"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “agreement based on adequate understanding”?",
+        "prompt": "Which term means “cues directing attention to relevant material”?",
         "options": [
-          "interpretive overreach",
-          "decisional autonomy",
-          "informed consent",
-          "clinical validity"
+          "transient information",
+          "modality principle",
+          "signalling",
+          "scaffolding"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “capacity to make one’s own choices”?",
+        "prompt": "Which term means “design claim concerning the distribution of words across speech and text”?",
         "options": [
-          "neuroplasticity",
-          "biometric",
-          "decisional autonomy",
-          "identity claim"
+          "note-taking",
+          "visual salience",
+          "modality principle",
+          "fading"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “based on measurable biological characteristics”?",
+        "prompt": "Which term means “capacity of an element to attract attention”?",
         "options": [
-          "clinical validity",
-          "interpretive overreach",
-          "biometric",
-          "neural inference"
+          "scaffolding",
+          "transient information",
+          "visual salience",
+          "multimodality"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “conclusion extending beyond what data supports”?",
+        "prompt": "Which term means “content that disappears before it can be reviewed”?",
         "options": [
-          "identity claim",
-          "neuroplasticity",
-          "interpretive overreach",
-          "cognitive liberty"
+          "fading",
+          "note-taking",
+          "transient information",
+          "dual coding"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “capacity of the brain to change”?",
+        "prompt": "Which term means “selective external recording of information”?",
         "options": [
-          "neural inference",
-          "clinical validity",
-          "neuroplasticity",
-          "mental privacy"
+          "multimodality",
+          "scaffolding",
+          "note-taking",
+          "captioning"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “evidence that a measure reflects a condition”?",
+        "prompt": "Which term means “temporary support enabling performance beyond current independence”?",
         "options": [
-          "cognitive liberty",
-          "identity claim",
-          "clinical validity",
-          "probabilistic"
+          "dual coding",
+          "fading",
+          "scaffolding",
+          "redundancy effect"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “assertion about who a person fundamentally is”?",
+        "prompt": "Which term means “gradual removal of instructional support”?",
         "options": [
-          "mental privacy",
-          "neural inference",
-          "identity claim",
-          "neurodiscrimination"
+          "captioning",
+          "multimodality",
+          "fading",
+          "split attention"
         ]
       }
     ]
@@ -26399,20 +27941,20 @@
     ]
   },
   {
-    "slug": "english-c2-neurotechnology-agency-grammar",
+    "slug": "english-c2-multimodal-learning-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "neurotechnology-agency",
-    "title": "Clefting, fronting and thematic progression",
+    "unitId": "multimodal-learning",
+    "title": "Referencing, substitution and cohesive economy",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
     "orderIndex": 52,
     "estimatedMinutes": 24,
-    "description": "Use Clefting, fronting and thematic progression to analyse “The Last Private Territory”.",
-    "intro": "Use Clefting, fronting and thematic progression to analyse “The Last Private Territory”.",
+    "description": "Use Referencing, substitution and cohesive economy to analyse “When Words, Sound and Image Compete”.",
+    "intro": "Use Referencing, substitution and cohesive economy to analyse “When Words, Sound and Image Compete”.",
     "mission": "",
-    "grammar": "Goal: manage information focus across dense analytical paragraphs.\n\nRule: Use it-clefts, wh-clefts and fronted complements to connect given information to new emphasis without producing theatrical or ambiguous prose.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “The Last Private Territory”.",
+    "grammar": "Goal: track information across modes without ambiguous repetition.\n\nRule: Use this, that, such, the former, the latter, do so and one/ones only when the intended antecedent remains unmistakable.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “When Words, Sound and Image Compete”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -26425,13 +27967,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-neurotechnology-agency-grammar-test",
+        "id": "english-c2-multimodal-learning-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-neurotechnology-agency-grammar-q1",
+            "id": "english-c2-multimodal-learning-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Clefting, fronting and thematic progression?",
+            "prompt": "Which sentence best demonstrates controlled use of Referencing, substitution and cohesive economy?",
             "options": [
               {
                 "id": "a",
@@ -26452,9 +27994,9 @@
             ]
           },
           {
-            "id": "english-c2-neurotechnology-agency-grammar-q2",
+            "id": "english-c2-multimodal-learning-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “manage information focus across dense analytical paragraphs”?",
+            "prompt": "Which revision best serves the purpose “track information across modes without ambiguous repetition”?",
             "options": [
               {
                 "id": "a",
@@ -26475,7 +28017,7 @@
             ]
           },
           {
-            "id": "english-c2-neurotechnology-agency-grammar-q3",
+            "id": "english-c2-multimodal-learning-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -26498,7 +28040,7 @@
             ]
           },
           {
-            "id": "english-c2-neurotechnology-agency-grammar-q4",
+            "id": "english-c2-multimodal-learning-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -26521,7 +28063,7 @@
             ]
           },
           {
-            "id": "english-c2-neurotechnology-agency-grammar-q5",
+            "id": "english-c2-multimodal-learning-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -26544,7 +28086,7 @@
             ]
           },
           {
-            "id": "english-c2-neurotechnology-agency-grammar-q6",
+            "id": "english-c2-multimodal-learning-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -26567,7 +28109,7 @@
             ]
           },
           {
-            "id": "english-c2-neurotechnology-agency-grammar-q7",
+            "id": "english-c2-multimodal-learning-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -26590,7 +28132,7 @@
             ]
           },
           {
-            "id": "english-c2-neurotechnology-agency-grammar-q8",
+            "id": "english-c2-multimodal-learning-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -26613,7 +28155,7 @@
             ]
           },
           {
-            "id": "english-c2-neurotechnology-agency-grammar-q9",
+            "id": "english-c2-multimodal-learning-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -26636,9 +28178,9 @@
             ]
           },
           {
-            "id": "english-c2-neurotechnology-agency-grammar-q10",
+            "id": "english-c2-multimodal-learning-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Clefting, fronting and thematic progression?",
+            "prompt": "Which statement accurately describes Referencing, substitution and cohesive economy?",
             "options": [
               {
                 "id": "a",
@@ -26646,7 +28188,7 @@
               },
               {
                 "id": "b",
-                "text": "Use it-clefts, wh-clefts and fronted complements to connect given information to new emphasis without producing theatrical or ambiguous prose."
+                "text": "Use this, that, such, the former, the latter, do so and one/ones only when the intended antecedent remains unmistakable."
               },
               {
                 "id": "c",
@@ -26657,14 +28199,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-multimodal-learning-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Referencing, substitution and cohesive economy?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-multimodal-learning-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “track information across modes without ambiguous repetition”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-multimodal-learning-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-multimodal-learning-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-multimodal-learning-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-multimodal-learning-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-multimodal-learning-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-multimodal-learning-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-multimodal-learning-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-multimodal-learning-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Referencing, substitution and cohesive economy?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Use this, that, such, the former, the latter, do so and one/ones only when the intended antecedent remains unmistakable."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Clefting, fronting and thematic progression",
-        "context": "Grammar connected to the C2 essay “The Last Private Territory”.",
-        "explanation": "Use it-clefts, wh-clefts and fronted complements to connect given information to new emphasis without producing theatrical or ambiguous prose.",
-        "purpose": "manage information focus across dense analytical paragraphs",
+        "name": "Referencing, substitution and cohesive economy",
+        "context": "Grammar connected to the C2 essay “When Words, Sound and Image Compete”.",
+        "explanation": "Use this, that, such, the former, the latter, do so and one/ones only when the intended antecedent remains unmistakable.",
+        "purpose": "track information across modes without ambiguous repetition",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -26677,25 +28449,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Clefting, fronting and thematic progression?",
+        "prompt": "Which sentence best demonstrates controlled use of Referencing, substitution and cohesive economy?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Clefting, fronting and thematic progression with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “manage information focus across dense analytical paragraphs”?",
+        "prompt": "Which revision best serves the purpose “track information across modes without ambiguous repetition”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Clefting, fronting and thematic progression with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -26706,7 +28478,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Clefting, fronting and thematic progression with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -26717,7 +28489,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Clefting, fronting and thematic progression with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -26728,7 +28500,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Clefting, fronting and thematic progression with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -26739,7 +28511,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Clefting, fronting and thematic progression with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -26750,7 +28522,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Clefting, fronting and thematic progression with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -26761,7 +28533,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Clefting, fronting and thematic progression with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -26772,18 +28544,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Clefting, fronting and thematic progression with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Clefting, fronting and thematic progression?",
+        "prompt": "Which statement accurately describes Referencing, substitution and cohesive economy?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Use it-clefts, wh-clefts and fronted complements to connect given information to new emphasis without producing theatrical or ambiguous prose.",
+          "Use this, that, such, the former, the latter, do so and one/ones only when the intended antecedent remains unmistakable.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Clefting, fronting and thematic progression with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Referencing, substitution and cohesive economy?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “track information across modes without ambiguous repetition”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Referencing, substitution and cohesive economy?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Use this, that, such, the former, the latter, do so and one/ones only when the intended antecedent remains unmistakable."
+        ],
+        "explanation": "The correct option applies Referencing, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -29527,26 +31409,26 @@
     ]
   },
   {
-    "slug": "english-c2-democratic-resilience-reading",
+    "slug": "english-c2-interaction-output-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "democratic-resilience",
-    "title": "The Coup That Never Arrives",
+    "unitId": "interaction-output",
+    "title": "Learning in the Repair of Conversation",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 60,
     "orderIndex": 60,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on democratic resilience and institutional erosion.",
-    "intro": "An extended C2 essay on democratic resilience and institutional erosion.",
+    "description": "An extended C2 essay on interaction, output and negotiation of meaning.",
+    "intro": "An extended C2 essay on interaction, output and negotiation of meaning.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "The Coup That Never Arrives",
-      "text": "The Coup That Never Arrives begins with a difficulty that resists the usual demand for a simple position. Contemporary democratic decline often proceeds through legal-looking changes that gradually weaken oversight, competition and independent administration. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nEach isolated reform may appear defensible, while their cumulative interaction transforms the conditions under which power can be challenged. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nResilience depends less on ceremonial commitments than on enforceable constraints, professional institutions and citizens able to recognise incremental capture. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "Learning in the Repair of Conversation",
+      "text": "Learning in the Repair of Conversation begins with a difficulty that resists the usual demand for a simple position. Conversation creates opportunities for acquisition when misunderstanding prompts clarification, reformulation and more precise production. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nInteraction alone is not sufficient: unequal participation, anxiety or superficial task completion may generate speech without useful attention to language. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nWell-designed interaction gives learners reasons to exchange information, notice gaps, request help and revise what they have attempted to say. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -29554,10 +31436,22 @@
       ],
       "references": [
         {
-          "author": "V-Dem Institute",
-          "year": "2026",
-          "title": "Democracy Report 2026: Unraveling the Democratic Era?",
-          "url": "https://v-dem.net/publications/democracy-reports/"
+          "author": "Mackey",
+          "year": "2018",
+          "title": "Interaction and instructed second language acquisition",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/interaction-and-instructed-second-language-acquisition/78A156EE200F744F5978F99BFB073DBE"
+        },
+        {
+          "author": "Lyster et Saito",
+          "year": "2010",
+          "title": "Oral feedback in classroom SLA: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/volume/0A4A03B3E1A1CAEB8501324E49446E70"
+        },
+        {
+          "author": "Webb, Uchihara et Yanagisawa",
+          "year": "2023",
+          "title": "How effective is second language incidental vocabulary learning? A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/how-effective-is-second-language-incidental-vocabulary-learning-a-metaanalysis/E38E3468FD2090B1FA3051051DE8E70C"
         }
       ]
     },
@@ -29565,10 +31459,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "V-Dem Institute",
-          "year": "2026",
-          "title": "Democracy Report 2026: Unraveling the Democratic Era?",
-          "url": "https://v-dem.net/publications/democracy-reports/"
+          "author": "Mackey",
+          "year": "2018",
+          "title": "Interaction and instructed second language acquisition",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/interaction-and-instructed-second-language-acquisition/78A156EE200F744F5978F99BFB073DBE"
+        },
+        {
+          "author": "Lyster et Saito",
+          "year": "2010",
+          "title": "Oral feedback in classroom SLA: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/volume/0A4A03B3E1A1CAEB8501324E49446E70"
+        },
+        {
+          "author": "Webb, Uchihara et Yanagisawa",
+          "year": "2023",
+          "title": "How effective is second language incidental vocabulary learning? A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/how-effective-is-second-language-incidental-vocabulary-learning-a-metaanalysis/E38E3468FD2090B1FA3051051DE8E70C"
         }
       ],
       "grammarTest": null,
@@ -29677,9 +31583,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Democratic Resilience and Institutional Erosion”?",
+        "prompt": "Which response best fits the unit “Interaction, Output and Negotiation of Meaning”?",
         "options": [
-          "Resilience depends less on ceremonial commitments than on enforceable constraints, professional institutions and citizens able to recognise incremental capture.",
+          "Well-designed interaction gives learners reasons to exchange information, notice gaps, request help and revise what they have attempted to say.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -30596,11 +32502,11 @@
     ]
   },
   {
-    "slug": "english-c2-democratic-resilience-vocabulary",
+    "slug": "english-c2-interaction-output-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "democratic-resilience",
-    "title": "Conceptual Vocabulary: Democratic Resilience and Institutional Erosion",
+    "unitId": "interaction-output",
+    "title": "Conceptual Vocabulary: Interaction, Output and Negotiation of Meaning",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
@@ -30613,87 +32519,99 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "democratic backsliding",
-        "translation": "",
-        "definition": "gradual decline in democratic standards",
-        "example": "The essay uses “democratic backsliding” to make a precise distinction.",
+        "word": "negotiation of meaning",
+        "translation": "negociación del significado",
+        "definition": "interactive work used to resolve incomplete understanding",
+        "example": "In the article, “negotiation of meaning” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «negociación del significado» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "institutional capture",
-        "translation": "",
-        "definition": "control of institutions for private or partisan ends",
-        "example": "The essay uses “institutional capture” to make a precise distinction.",
+        "word": "comprehension check",
+        "translation": "comprobación de comprensión",
+        "definition": "question testing whether a message was understood",
+        "example": "In the article, “comprehension check” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «comprobación de comprensión» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "executive aggrandisement",
-        "translation": "",
-        "definition": "expansion of executive power through legal means",
-        "example": "The essay uses “executive aggrandisement” to make a precise distinction.",
+        "word": "clarification request",
+        "translation": "solicitud de aclaración",
+        "definition": "signal that part of a message needs explanation",
+        "example": "In the article, “clarification request” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «solicitud de aclaración» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "checks and balances",
-        "translation": "",
-        "definition": "institutions that limit one another’s power",
-        "example": "The essay uses “checks and balances” to make a precise distinction.",
+        "word": "confirmation check",
+        "translation": "comprobación de confirmación",
+        "definition": "question verifying a tentative interpretation",
+        "example": "In the article, “confirmation check” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «comprobación de confirmación» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "incremental",
-        "translation": "",
-        "definition": "occurring through small successive changes",
-        "example": "The essay uses “incremental” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "pluralism",
-        "translation": "",
-        "definition": "coexistence of competing groups and views",
-        "example": "The essay uses “pluralism” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "judicial independence",
-        "translation": "",
-        "definition": "freedom of courts from improper influence",
-        "example": "The essay uses “judicial independence” to make a precise distinction.",
+        "word": "modified output",
+        "translation": "producción modificada",
+        "definition": "revised production following difficulty or feedback",
+        "example": "In the article, “modified output” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «producción modificada» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "electoral integrity",
-        "translation": "",
-        "definition": "fairness and reliability of elections",
-        "example": "The essay uses “electoral integrity” to make a precise distinction.",
+        "word": "pushed output",
+        "translation": "producción exigida",
+        "definition": "language produced with pressure toward greater precision",
+        "example": "In the article, “pushed output” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «producción exigida» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "civic space",
-        "translation": "",
-        "definition": "conditions enabling public participation and organisation",
-        "example": "The essay uses “civic space” to make a precise distinction.",
+        "word": "interactional feedback",
+        "translation": "retroalimentación interactiva",
+        "definition": "information supplied through conversational response",
+        "example": "In the article, “interactional feedback” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «retroalimentación interactiva» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "accountability mechanism",
-        "translation": "",
-        "definition": "process requiring power holders to explain actions",
-        "example": "The essay uses “accountability mechanism” to make a precise distinction.",
+        "word": "communication breakdown",
+        "translation": "ruptura comunicativa",
+        "definition": "failure to establish sufficient shared understanding",
+        "example": "In the article, “communication breakdown” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «ruptura comunicativa» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "authoritarian legalism",
-        "translation": "",
-        "definition": "use of law to weaken democratic competition",
-        "example": "The essay uses “authoritarian legalism” to make a precise distinction.",
+        "word": "noticing the gap",
+        "translation": "percepción de la brecha",
+        "definition": "recognition of a difference between intended and available language",
+        "example": "In the article, “noticing the gap” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «percepción de la brecha» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "institutional resilience",
-        "translation": "",
-        "definition": "capacity of institutions to resist and recover",
-        "example": "The essay uses “institutional resilience” to make a precise distinction.",
+        "word": "task essentialness",
+        "translation": "esencialidad de la tarea",
+        "definition": "degree to which a form is necessary for task completion",
+        "example": "In the article, “task essentialness” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «esencialidad de la tarea» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "turn allocation",
+        "translation": "asignación de turnos",
+        "definition": "distribution of speaking opportunities",
+        "example": "In the article, “turn allocation” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «asignación de turnos» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "collaborative repair",
+        "translation": "reparación colaborativa",
+        "definition": "joint resolution of a problem in talk",
+        "example": "In the article, “collaborative repair” helps the writer analyse interaction, output and negotiation of meaning with greater precision.",
+        "exampleTranslation": "En el artículo, «reparación colaborativa» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       }
     ],
@@ -30704,122 +32622,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “gradual decline in democratic standards”?",
+        "prompt": "Which term means “interactive work used to resolve incomplete understanding”?",
         "options": [
-          "checks and balances",
-          "institutional capture",
-          "democratic backsliding",
-          "pluralism"
+          "confirmation check",
+          "comprehension check",
+          "negotiation of meaning",
+          "pushed output"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “control of institutions for private or partisan ends”?",
+        "prompt": "Which term means “question testing whether a message was understood”?",
         "options": [
-          "incremental",
-          "executive aggrandisement",
-          "institutional capture",
-          "judicial independence"
+          "modified output",
+          "clarification request",
+          "comprehension check",
+          "interactional feedback"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “expansion of executive power through legal means”?",
+        "prompt": "Which term means “signal that part of a message needs explanation”?",
         "options": [
-          "pluralism",
-          "checks and balances",
-          "executive aggrandisement",
-          "electoral integrity"
+          "pushed output",
+          "confirmation check",
+          "clarification request",
+          "communication breakdown"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “institutions that limit one another’s power”?",
+        "prompt": "Which term means “question verifying a tentative interpretation”?",
         "options": [
-          "judicial independence",
-          "incremental",
-          "checks and balances",
-          "civic space"
+          "interactional feedback",
+          "modified output",
+          "confirmation check",
+          "noticing the gap"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “occurring through small successive changes”?",
+        "prompt": "Which term means “revised production following difficulty or feedback”?",
         "options": [
-          "electoral integrity",
-          "pluralism",
-          "incremental",
-          "accountability mechanism"
+          "communication breakdown",
+          "pushed output",
+          "modified output",
+          "task essentialness"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “coexistence of competing groups and views”?",
+        "prompt": "Which term means “language produced with pressure toward greater precision”?",
         "options": [
-          "civic space",
-          "judicial independence",
-          "pluralism",
-          "authoritarian legalism"
+          "noticing the gap",
+          "interactional feedback",
+          "pushed output",
+          "turn allocation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “freedom of courts from improper influence”?",
+        "prompt": "Which term means “information supplied through conversational response”?",
         "options": [
-          "accountability mechanism",
-          "electoral integrity",
-          "judicial independence",
-          "institutional resilience"
+          "task essentialness",
+          "communication breakdown",
+          "interactional feedback",
+          "collaborative repair"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “fairness and reliability of elections”?",
+        "prompt": "Which term means “failure to establish sufficient shared understanding”?",
         "options": [
-          "authoritarian legalism",
-          "civic space",
-          "electoral integrity",
-          "democratic backsliding"
+          "turn allocation",
+          "noticing the gap",
+          "communication breakdown",
+          "negotiation of meaning"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “conditions enabling public participation and organisation”?",
+        "prompt": "Which term means “recognition of a difference between intended and available language”?",
         "options": [
-          "institutional resilience",
-          "accountability mechanism",
-          "civic space",
-          "institutional capture"
+          "collaborative repair",
+          "task essentialness",
+          "noticing the gap",
+          "comprehension check"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “process requiring power holders to explain actions”?",
+        "prompt": "Which term means “degree to which a form is necessary for task completion”?",
         "options": [
-          "democratic backsliding",
-          "authoritarian legalism",
-          "accountability mechanism",
-          "executive aggrandisement"
+          "negotiation of meaning",
+          "turn allocation",
+          "task essentialness",
+          "clarification request"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “use of law to weaken democratic competition”?",
+        "prompt": "Which term means “distribution of speaking opportunities”?",
         "options": [
-          "institutional capture",
-          "institutional resilience",
-          "authoritarian legalism",
-          "checks and balances"
+          "comprehension check",
+          "collaborative repair",
+          "turn allocation",
+          "confirmation check"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “capacity of institutions to resist and recover”?",
+        "prompt": "Which term means “joint resolution of a problem in talk”?",
         "options": [
-          "executive aggrandisement",
-          "democratic backsliding",
-          "institutional resilience",
-          "incremental"
+          "clarification request",
+          "negotiation of meaning",
+          "collaborative repair",
+          "modified output"
         ]
       }
     ]
@@ -32093,20 +34011,20 @@
     ]
   },
   {
-    "slug": "english-c2-democratic-resilience-grammar",
+    "slug": "english-c2-interaction-output-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "democratic-resilience",
-    "title": "Complex conditionals with implicit premises",
+    "unitId": "interaction-output",
+    "title": "Reported speech and polyphonic stance",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
     "orderIndex": 62,
     "estimatedMinutes": 24,
-    "description": "Use Complex conditionals with implicit premises to analyse “The Coup That Never Arrives”.",
-    "intro": "Use Complex conditionals with implicit premises to analyse “The Coup That Never Arrives”.",
+    "description": "Use Reported speech and polyphonic stance to analyse “Learning in the Repair of Conversation”.",
+    "intro": "Use Reported speech and polyphonic stance to analyse “Learning in the Repair of Conversation”.",
     "mission": "",
-    "grammar": "Goal: reason about institutional paths without repetitive if-clauses.\n\nRule: Use but for, otherwise, supposing, provided that and inverted had/were/should clauses to encode necessary, sufficient and counterfactual conditions precisely.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “The Coup That Never Arrives”.",
+    "grammar": "Goal: represent several speakers while preserving responsibility for each claim.\n\nRule: Use reporting verbs, backshift, free indirect forms and attributed stance to distinguish quotation, interpretation, endorsement and distance.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “Learning in the Repair of Conversation”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -32119,13 +34037,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-democratic-resilience-grammar-test",
+        "id": "english-c2-interaction-output-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-democratic-resilience-grammar-q1",
+            "id": "english-c2-interaction-output-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Complex conditionals with implicit premises?",
+            "prompt": "Which sentence best demonstrates controlled use of Reported speech and polyphonic stance?",
             "options": [
               {
                 "id": "a",
@@ -32146,9 +34064,9 @@
             ]
           },
           {
-            "id": "english-c2-democratic-resilience-grammar-q2",
+            "id": "english-c2-interaction-output-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “reason about institutional paths without repetitive if-clauses”?",
+            "prompt": "Which revision best serves the purpose “represent several speakers while preserving responsibility for each claim”?",
             "options": [
               {
                 "id": "a",
@@ -32169,7 +34087,7 @@
             ]
           },
           {
-            "id": "english-c2-democratic-resilience-grammar-q3",
+            "id": "english-c2-interaction-output-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -32192,7 +34110,7 @@
             ]
           },
           {
-            "id": "english-c2-democratic-resilience-grammar-q4",
+            "id": "english-c2-interaction-output-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -32215,7 +34133,7 @@
             ]
           },
           {
-            "id": "english-c2-democratic-resilience-grammar-q5",
+            "id": "english-c2-interaction-output-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -32238,7 +34156,7 @@
             ]
           },
           {
-            "id": "english-c2-democratic-resilience-grammar-q6",
+            "id": "english-c2-interaction-output-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -32261,7 +34179,7 @@
             ]
           },
           {
-            "id": "english-c2-democratic-resilience-grammar-q7",
+            "id": "english-c2-interaction-output-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -32284,7 +34202,7 @@
             ]
           },
           {
-            "id": "english-c2-democratic-resilience-grammar-q8",
+            "id": "english-c2-interaction-output-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -32307,7 +34225,7 @@
             ]
           },
           {
-            "id": "english-c2-democratic-resilience-grammar-q9",
+            "id": "english-c2-interaction-output-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -32330,9 +34248,9 @@
             ]
           },
           {
-            "id": "english-c2-democratic-resilience-grammar-q10",
+            "id": "english-c2-interaction-output-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Complex conditionals with implicit premises?",
+            "prompt": "Which statement accurately describes Reported speech and polyphonic stance?",
             "options": [
               {
                 "id": "a",
@@ -32340,7 +34258,7 @@
               },
               {
                 "id": "b",
-                "text": "Use but for, otherwise, supposing, provided that and inverted had/were/should clauses to encode necessary, sufficient and counterfactual conditions precisely."
+                "text": "Use reporting verbs, backshift, free indirect forms and attributed stance to distinguish quotation, interpretation, endorsement and distance."
               },
               {
                 "id": "c",
@@ -32351,14 +34269,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-interaction-output-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Reported speech and polyphonic stance?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-interaction-output-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “represent several speakers while preserving responsibility for each claim”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-interaction-output-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-interaction-output-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-interaction-output-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-interaction-output-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-interaction-output-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-interaction-output-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-interaction-output-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-interaction-output-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Reported speech and polyphonic stance?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Use reporting verbs, backshift, free indirect forms and attributed stance to distinguish quotation, interpretation, endorsement and distance."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Complex conditionals with implicit premises",
-        "context": "Grammar connected to the C2 essay “The Coup That Never Arrives”.",
-        "explanation": "Use but for, otherwise, supposing, provided that and inverted had/were/should clauses to encode necessary, sufficient and counterfactual conditions precisely.",
-        "purpose": "reason about institutional paths without repetitive if-clauses",
+        "name": "Reported speech and polyphonic stance",
+        "context": "Grammar connected to the C2 essay “Learning in the Repair of Conversation”.",
+        "explanation": "Use reporting verbs, backshift, free indirect forms and attributed stance to distinguish quotation, interpretation, endorsement and distance.",
+        "purpose": "represent several speakers while preserving responsibility for each claim",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -32371,25 +34519,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Complex conditionals with implicit premises?",
+        "prompt": "Which sentence best demonstrates controlled use of Reported speech and polyphonic stance?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Complex conditionals with implicit premises with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “reason about institutional paths without repetitive if-clauses”?",
+        "prompt": "Which revision best serves the purpose “represent several speakers while preserving responsibility for each claim”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Complex conditionals with implicit premises with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -32400,7 +34548,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Complex conditionals with implicit premises with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -32411,7 +34559,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Complex conditionals with implicit premises with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -32422,7 +34570,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Complex conditionals with implicit premises with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -32433,7 +34581,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Complex conditionals with implicit premises with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -32444,7 +34592,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Complex conditionals with implicit premises with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -32455,7 +34603,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Complex conditionals with implicit premises with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -32466,18 +34614,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Complex conditionals with implicit premises with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Complex conditionals with implicit premises?",
+        "prompt": "Which statement accurately describes Reported speech and polyphonic stance?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Use but for, otherwise, supposing, provided that and inverted had/were/should clauses to encode necessary, sufficient and counterfactual conditions precisely.",
+          "Use reporting verbs, backshift, free indirect forms and attributed stance to distinguish quotation, interpretation, endorsement and distance.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Complex conditionals with implicit premises with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Reported speech and polyphonic stance?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “represent several speakers while preserving responsibility for each claim”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Reported speech and polyphonic stance?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Use reporting verbs, backshift, free indirect forms and attributed stance to distinguish quotation, interpretation, endorsement and distance."
+        ],
+        "explanation": "The correct option applies Reported speech and polyphonic stance with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -35221,26 +37479,26 @@
     ]
   },
   {
-    "slug": "english-c2-global-tax-justice-reading",
+    "slug": "english-c2-corrective-feedback-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "global-tax-justice",
-    "title": "Where Does Profit Belong?",
+    "unitId": "corrective-feedback",
+    "title": "Which Errors Should Interrupt the Conversation?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 60,
     "orderIndex": 70,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on global taxation, mobility and justice.",
-    "intro": "An extended C2 essay on global taxation, mobility and justice.",
+    "description": "An extended C2 essay on corrective feedback and the productive role of error.",
+    "intro": "An extended C2 essay on corrective feedback and the productive role of error.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Where Does Profit Belong?",
-      "text": "Where Does Profit Belong? begins with a difficulty that resists the usual demand for a simple position. Digital production and mobile capital complicate the idea that taxable profit belongs neatly where a company is formally registered. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nCoordination can reduce artificial profit shifting, yet uniform rules may constrain lower-income states differently from wealthy market jurisdictions. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nA defensible settlement must address allocation, enforcement capacity, transparency and the unequal bargaining power embedded in technical standards. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "Which Errors Should Interrupt the Conversation?",
+      "text": "Which Errors Should Interrupt the Conversation? begins with a difficulty that resists the usual demand for a simple position. Correction can make linguistic gaps visible, but feedback that is constant, opaque or socially threatening may reduce attention and willingness to communicate. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nExplicit explanation is memorable but intrusive; implicit reformulation preserves conversational flow yet may pass unnoticed as correction. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nFeedback should match the goal, error type and learner’s readiness while creating an immediate opportunity to interpret and reuse the corrected form. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -35248,9 +37506,22 @@
       ],
       "references": [
         {
-          "author": "OECD",
-          "title": "Global Anti-Base Erosion Model Rules (Pillar Two)",
-          "url": "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html"
+          "author": "Lyster et Saito",
+          "year": "2010",
+          "title": "Oral feedback in classroom SLA: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/volume/0A4A03B3E1A1CAEB8501324E49446E70"
+        },
+        {
+          "author": "Mackey",
+          "year": "2018",
+          "title": "Interaction and instructed second language acquisition",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/interaction-and-instructed-second-language-acquisition/78A156EE200F744F5978F99BFB073DBE"
+        },
+        {
+          "author": "Ngo, Chen et Lai",
+          "year": "2023",
+          "title": "The effectiveness of automatic speech recognition in ESL/EFL pronunciation: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/recall/article/effectiveness-of-automatic-speech-recognition-in-eslefl-pronunciation-a-metaanalysis/A915444CF252B61D14961D2FE733822D"
         }
       ]
     },
@@ -35258,9 +37529,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "OECD",
-          "title": "Global Anti-Base Erosion Model Rules (Pillar Two)",
-          "url": "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html"
+          "author": "Lyster et Saito",
+          "year": "2010",
+          "title": "Oral feedback in classroom SLA: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/volume/0A4A03B3E1A1CAEB8501324E49446E70"
+        },
+        {
+          "author": "Mackey",
+          "year": "2018",
+          "title": "Interaction and instructed second language acquisition",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/interaction-and-instructed-second-language-acquisition/78A156EE200F744F5978F99BFB073DBE"
+        },
+        {
+          "author": "Ngo, Chen et Lai",
+          "year": "2023",
+          "title": "The effectiveness of automatic speech recognition in ESL/EFL pronunciation: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/recall/article/effectiveness-of-automatic-speech-recognition-in-eslefl-pronunciation-a-metaanalysis/A915444CF252B61D14961D2FE733822D"
         }
       ],
       "grammarTest": null,
@@ -35369,9 +37653,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Global Taxation, Mobility and Justice”?",
+        "prompt": "Which response best fits the unit “Corrective Feedback and the Productive Role of Error”?",
         "options": [
-          "A defensible settlement must address allocation, enforcement capacity, transparency and the unequal bargaining power embedded in technical standards.",
+          "Feedback should match the goal, error type and learner’s readiness while creating an immediate opportunity to interpret and reuse the corrected form.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -36293,11 +38577,11 @@
     ]
   },
   {
-    "slug": "english-c2-global-tax-justice-vocabulary",
+    "slug": "english-c2-corrective-feedback-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "global-tax-justice",
-    "title": "Conceptual Vocabulary: Global Taxation, Mobility and Justice",
+    "unitId": "corrective-feedback",
+    "title": "Conceptual Vocabulary: Corrective Feedback and the Productive Role of Error",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
@@ -36310,88 +38594,100 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "tax base",
-        "translation": "",
-        "definition": "income or activity subject to taxation",
-        "example": "The essay uses “tax base” to make a precise distinction.",
+        "word": "corrective feedback",
+        "translation": "retroalimentación correctiva",
+        "definition": "response indicating that part of a learner’s production is inaccurate",
+        "example": "In the article, “corrective feedback” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «retroalimentación correctiva» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "profit shifting",
-        "translation": "",
-        "definition": "moving reported profit to reduce tax",
-        "example": "The essay uses “profit shifting” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "jurisdiction",
-        "translation": "",
-        "definition": "territory with legal authority",
-        "example": "The essay uses “jurisdiction” to make a precise distinction.",
+        "word": "recast",
+        "translation": "reformulación",
+        "definition": "implicit reformulation of an erroneous utterance",
+        "example": "In the article, “recast” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «reformulación» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "beneficial ownership",
-        "translation": "",
-        "definition": "person who ultimately controls or benefits",
-        "example": "The essay uses “beneficial ownership” to make a precise distinction.",
+        "word": "elicitation",
+        "translation": "elicitación",
+        "definition": "prompt inviting the learner to self-correct",
+        "example": "In the article, “elicitation” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «elicitación» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "metalinguistic clue",
+        "translation": "pista metalingüística",
+        "definition": "comment about form without directly supplying the answer",
+        "example": "In the article, “metalinguistic clue” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «pista metalingüística» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "transfer pricing",
-        "translation": "",
-        "definition": "pricing of transactions within a corporate group",
-        "example": "The essay uses “transfer pricing” to make a precise distinction.",
+        "word": "uptake",
+        "translation": "incorporación",
+        "definition": "learner response following feedback",
+        "example": "In the article, “uptake” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «incorporación» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "repair",
+        "translation": "reparación",
+        "definition": "successful revision of problematic language",
+        "example": "In the article, “repair” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «reparación» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "error salience",
+        "translation": "prominencia del error",
+        "definition": "degree to which an error attracts attention",
+        "example": "In the article, “error salience” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «prominencia del error» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "tax incidence",
-        "translation": "",
-        "definition": "distribution of who ultimately bears a tax",
-        "example": "The essay uses “tax incidence” to make a precise distinction.",
+        "word": "developmental readiness",
+        "translation": "preparación evolutiva",
+        "definition": "capacity to benefit from a form at a given stage",
+        "example": "In the article, “developmental readiness” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «preparación evolutiva» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "fiscal sovereignty",
-        "translation": "",
-        "definition": "authority of a state over taxation",
-        "example": "The essay uses “fiscal sovereignty” to make a precise distinction.",
+        "word": "fossilisation",
+        "translation": "fosilización",
+        "definition": "persistent stabilisation of a non-target form",
+        "example": "In the article, “fossilisation” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «fosilización» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "feedback timing",
+        "translation": "momento de la retroalimentación",
+        "definition": "point at which correction is delivered",
+        "example": "In the article, “feedback timing” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «momento de la retroalimentación» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "minimum effective rate",
-        "translation": "",
-        "definition": "lowest actual tax rate after adjustments",
-        "example": "The essay uses “minimum effective rate” to make a precise distinction.",
+        "word": "interactional cost",
+        "translation": "costo interactivo",
+        "definition": "disruption that feedback creates in communication",
+        "example": "In the article, “interactional cost” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «costo interactivo» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "allocation rule",
-        "translation": "",
-        "definition": "formula assigning taxing rights",
-        "example": "The essay uses “allocation rule” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "regulatory arbitrage",
-        "translation": "",
-        "definition": "use of differences between legal systems",
-        "example": "The essay uses “regulatory arbitrage” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "compliance burden",
-        "translation": "",
-        "definition": "cost of meeting regulatory requirements",
-        "example": "The essay uses “compliance burden” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "distributional justice",
-        "translation": "",
-        "definition": "fairness in the allocation of benefits and burdens",
-        "example": "The essay uses “distributional justice” to make a precise distinction.",
-        "partOfSpeech": "phrase"
+        "word": "self-correction",
+        "translation": "autocorrección",
+        "definition": "revision initiated or completed by the learner",
+        "example": "In the article, “self-correction” helps the writer analyse corrective feedback and the productive role of error with greater precision.",
+        "exampleTranslation": "En el artículo, «autocorrección» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "noun"
       }
     ],
     "dialogue": [],
@@ -36401,122 +38697,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “income or activity subject to taxation”?",
+        "prompt": "Which term means “response indicating that part of a learner’s production is inaccurate”?",
         "options": [
-          "beneficial ownership",
-          "profit shifting",
-          "tax base",
-          "tax incidence"
+          "metalinguistic clue",
+          "recast",
+          "corrective feedback",
+          "repair"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “moving reported profit to reduce tax”?",
+        "prompt": "Which term means “implicit reformulation of an erroneous utterance”?",
         "options": [
-          "transfer pricing",
-          "jurisdiction",
-          "profit shifting",
-          "fiscal sovereignty"
+          "uptake",
+          "elicitation",
+          "recast",
+          "error salience"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “territory with legal authority”?",
+        "prompt": "Which term means “prompt inviting the learner to self-correct”?",
         "options": [
-          "tax incidence",
-          "beneficial ownership",
-          "jurisdiction",
-          "minimum effective rate"
+          "repair",
+          "metalinguistic clue",
+          "elicitation",
+          "developmental readiness"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “person who ultimately controls or benefits”?",
+        "prompt": "Which term means “comment about form without directly supplying the answer”?",
         "options": [
-          "fiscal sovereignty",
-          "transfer pricing",
-          "beneficial ownership",
-          "allocation rule"
+          "error salience",
+          "uptake",
+          "metalinguistic clue",
+          "fossilisation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “pricing of transactions within a corporate group”?",
+        "prompt": "Which term means “learner response following feedback”?",
         "options": [
-          "minimum effective rate",
-          "tax incidence",
-          "transfer pricing",
-          "regulatory arbitrage"
+          "developmental readiness",
+          "repair",
+          "uptake",
+          "feedback timing"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “distribution of who ultimately bears a tax”?",
+        "prompt": "Which term means “successful revision of problematic language”?",
         "options": [
-          "allocation rule",
-          "fiscal sovereignty",
-          "tax incidence",
-          "compliance burden"
+          "fossilisation",
+          "error salience",
+          "repair",
+          "interactional cost"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “authority of a state over taxation”?",
+        "prompt": "Which term means “degree to which an error attracts attention”?",
         "options": [
-          "regulatory arbitrage",
-          "minimum effective rate",
-          "fiscal sovereignty",
-          "distributional justice"
+          "feedback timing",
+          "developmental readiness",
+          "error salience",
+          "self-correction"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “lowest actual tax rate after adjustments”?",
+        "prompt": "Which term means “capacity to benefit from a form at a given stage”?",
         "options": [
-          "compliance burden",
-          "allocation rule",
-          "minimum effective rate",
-          "tax base"
+          "interactional cost",
+          "fossilisation",
+          "developmental readiness",
+          "corrective feedback"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “formula assigning taxing rights”?",
+        "prompt": "Which term means “persistent stabilisation of a non-target form”?",
         "options": [
-          "distributional justice",
-          "regulatory arbitrage",
-          "allocation rule",
-          "profit shifting"
+          "self-correction",
+          "feedback timing",
+          "fossilisation",
+          "recast"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “use of differences between legal systems”?",
+        "prompt": "Which term means “point at which correction is delivered”?",
         "options": [
-          "tax base",
-          "compliance burden",
-          "regulatory arbitrage",
-          "jurisdiction"
+          "corrective feedback",
+          "interactional cost",
+          "feedback timing",
+          "elicitation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “cost of meeting regulatory requirements”?",
+        "prompt": "Which term means “disruption that feedback creates in communication”?",
         "options": [
-          "profit shifting",
-          "distributional justice",
-          "compliance burden",
-          "beneficial ownership"
+          "recast",
+          "self-correction",
+          "interactional cost",
+          "metalinguistic clue"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “fairness in the allocation of benefits and burdens”?",
+        "prompt": "Which term means “revision initiated or completed by the learner”?",
         "options": [
-          "jurisdiction",
-          "tax base",
-          "distributional justice",
-          "transfer pricing"
+          "elicitation",
+          "corrective feedback",
+          "self-correction",
+          "uptake"
         ]
       }
     ]
@@ -37790,20 +40086,20 @@
     ]
   },
   {
-    "slug": "english-c2-global-tax-justice-grammar",
+    "slug": "english-c2-corrective-feedback-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "global-tax-justice",
-    "title": "Nominalisation, grammatical metaphor and unpacking",
+    "unitId": "corrective-feedback",
+    "title": "Mandative structures and evaluative subjunctives",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
     "orderIndex": 72,
     "estimatedMinutes": 24,
-    "description": "Use Nominalisation, grammatical metaphor and unpacking to analyse “Where Does Profit Belong?”.",
-    "intro": "Use Nominalisation, grammatical metaphor and unpacking to analyse “Where Does Profit Belong?”.",
+    "description": "Use Mandative structures and evaluative subjunctives to analyse “Which Errors Should Interrupt the Conversation?”.",
+    "intro": "Use Mandative structures and evaluative subjunctives to analyse “Which Errors Should Interrupt the Conversation?”.",
     "mission": "",
-    "grammar": "Goal: compress technical argument without obscuring actors or causal sequence.\n\nRule: Use nominalisation to build abstract reasoning, then unpack dense noun phrases with finite clauses whenever agency, time or causation would otherwise disappear.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “Where Does Profit Belong?”.",
+    "grammar": "Goal: formulate correction criteria without presenting preference as incontrovertible fact.\n\nRule: Use the mandative subjunctive after recommend, require and essential that, and combine it with concessive or hypothetical clauses when conditions remain disputed.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “Which Errors Should Interrupt the Conversation?”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -37816,13 +40112,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-global-tax-justice-grammar-test",
+        "id": "english-c2-corrective-feedback-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-global-tax-justice-grammar-q1",
+            "id": "english-c2-corrective-feedback-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Nominalisation, grammatical metaphor and unpacking?",
+            "prompt": "Which sentence best demonstrates controlled use of Mandative structures and evaluative subjunctives?",
             "options": [
               {
                 "id": "a",
@@ -37843,9 +40139,9 @@
             ]
           },
           {
-            "id": "english-c2-global-tax-justice-grammar-q2",
+            "id": "english-c2-corrective-feedback-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “compress technical argument without obscuring actors or causal sequence”?",
+            "prompt": "Which revision best serves the purpose “formulate correction criteria without presenting preference as incontrovertible fact”?",
             "options": [
               {
                 "id": "a",
@@ -37866,7 +40162,7 @@
             ]
           },
           {
-            "id": "english-c2-global-tax-justice-grammar-q3",
+            "id": "english-c2-corrective-feedback-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -37889,7 +40185,7 @@
             ]
           },
           {
-            "id": "english-c2-global-tax-justice-grammar-q4",
+            "id": "english-c2-corrective-feedback-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -37912,7 +40208,7 @@
             ]
           },
           {
-            "id": "english-c2-global-tax-justice-grammar-q5",
+            "id": "english-c2-corrective-feedback-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -37935,7 +40231,7 @@
             ]
           },
           {
-            "id": "english-c2-global-tax-justice-grammar-q6",
+            "id": "english-c2-corrective-feedback-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -37958,7 +40254,7 @@
             ]
           },
           {
-            "id": "english-c2-global-tax-justice-grammar-q7",
+            "id": "english-c2-corrective-feedback-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -37981,7 +40277,7 @@
             ]
           },
           {
-            "id": "english-c2-global-tax-justice-grammar-q8",
+            "id": "english-c2-corrective-feedback-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -38004,7 +40300,7 @@
             ]
           },
           {
-            "id": "english-c2-global-tax-justice-grammar-q9",
+            "id": "english-c2-corrective-feedback-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -38027,9 +40323,9 @@
             ]
           },
           {
-            "id": "english-c2-global-tax-justice-grammar-q10",
+            "id": "english-c2-corrective-feedback-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Nominalisation, grammatical metaphor and unpacking?",
+            "prompt": "Which statement accurately describes Mandative structures and evaluative subjunctives?",
             "options": [
               {
                 "id": "a",
@@ -38037,7 +40333,7 @@
               },
               {
                 "id": "b",
-                "text": "Use nominalisation to build abstract reasoning, then unpack dense noun phrases with finite clauses whenever agency, time or causation would otherwise disappear."
+                "text": "Use the mandative subjunctive after recommend, require and essential that, and combine it with concessive or hypothetical clauses when conditions remain disputed."
               },
               {
                 "id": "c",
@@ -38048,14 +40344,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-corrective-feedback-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Mandative structures and evaluative subjunctives?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-corrective-feedback-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “formulate correction criteria without presenting preference as incontrovertible fact”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-corrective-feedback-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-corrective-feedback-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-corrective-feedback-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-corrective-feedback-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-corrective-feedback-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-corrective-feedback-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-corrective-feedback-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-corrective-feedback-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Mandative structures and evaluative subjunctives?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Use the mandative subjunctive after recommend, require and essential that, and combine it with concessive or hypothetical clauses when conditions remain disputed."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Nominalisation, grammatical metaphor and unpacking",
-        "context": "Grammar connected to the C2 essay “Where Does Profit Belong?”.",
-        "explanation": "Use nominalisation to build abstract reasoning, then unpack dense noun phrases with finite clauses whenever agency, time or causation would otherwise disappear.",
-        "purpose": "compress technical argument without obscuring actors or causal sequence",
+        "name": "Mandative structures and evaluative subjunctives",
+        "context": "Grammar connected to the C2 essay “Which Errors Should Interrupt the Conversation?”.",
+        "explanation": "Use the mandative subjunctive after recommend, require and essential that, and combine it with concessive or hypothetical clauses when conditions remain disputed.",
+        "purpose": "formulate correction criteria without presenting preference as incontrovertible fact",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -38068,25 +40594,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Nominalisation, grammatical metaphor and unpacking?",
+        "prompt": "Which sentence best demonstrates controlled use of Mandative structures and evaluative subjunctives?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Nominalisation, grammatical metaphor and unpacking with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “compress technical argument without obscuring actors or causal sequence”?",
+        "prompt": "Which revision best serves the purpose “formulate correction criteria without presenting preference as incontrovertible fact”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Nominalisation, grammatical metaphor and unpacking with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -38097,7 +40623,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Nominalisation, grammatical metaphor and unpacking with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -38108,7 +40634,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Nominalisation, grammatical metaphor and unpacking with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -38119,7 +40645,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Nominalisation, grammatical metaphor and unpacking with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -38130,7 +40656,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Nominalisation, grammatical metaphor and unpacking with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -38141,7 +40667,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Nominalisation, grammatical metaphor and unpacking with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -38152,7 +40678,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Nominalisation, grammatical metaphor and unpacking with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -38163,18 +40689,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Nominalisation, grammatical metaphor and unpacking with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Nominalisation, grammatical metaphor and unpacking?",
+        "prompt": "Which statement accurately describes Mandative structures and evaluative subjunctives?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Use nominalisation to build abstract reasoning, then unpack dense noun phrases with finite clauses whenever agency, time or causation would otherwise disappear.",
+          "Use the mandative subjunctive after recommend, require and essential that, and combine it with concessive or hypothetical clauses when conditions remain disputed.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Nominalisation, grammatical metaphor and unpacking with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Mandative structures and evaluative subjunctives?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “formulate correction criteria without presenting preference as incontrovertible fact”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Mandative structures and evaluative subjunctives?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Use the mandative subjunctive after recommend, require and essential that, and combine it with concessive or hypothetical clauses when conditions remain disputed."
+        ],
+        "explanation": "The correct option applies Mandative structures and evaluative subjunctives with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -40918,26 +43554,26 @@
     ]
   },
   {
-    "slug": "english-c2-museum-restitution-reading",
+    "slug": "english-c2-speech-perception-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "museum-restitution",
-    "title": "The Object That Refuses to Stay Silent",
+    "unitId": "speech-perception",
+    "title": "Hearing the Contrast Before Producing It",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 60,
     "orderIndex": 80,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on museum restitution and colonial collections.",
-    "intro": "An extended C2 essay on museum restitution and colonial collections.",
+    "description": "An extended C2 essay on speech perception, accent and pronunciation training.",
+    "intro": "An extended C2 essay on speech perception, accent and pronunciation training.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "The Object That Refuses to Stay Silent",
-      "text": "The Object That Refuses to Stay Silent begins with a difficulty that resists the usual demand for a simple position. Debates over restitution concern legal title, violent acquisition, cultural continuity and the authority to interpret objects removed under colonial rule. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nUniversal museums claim to preserve shared heritage, but universality can mask histories in which access and possession were radically unequal. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nResponsible resolution may include return, shared custody, provenance research and institutional transformation rather than a single formula for every object. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "Hearing the Contrast Before Producing It",
+      "text": "Hearing the Contrast Before Producing It begins with a difficulty that resists the usual demand for a simple position. Learners do not hear second-language speech through a neutral channel; established categories influence which contrasts are perceived as meaningful. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nPerceptual training can improve discrimination, although gains do not always transfer automatically to spontaneous pronunciation or unfamiliar speakers. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nPronunciation work should integrate varied listening, intelligibility, articulatory guidance and communicative use rather than pursue accent erasure. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -40945,10 +43581,22 @@
       ],
       "references": [
         {
-          "author": "UNESCO",
-          "year": "1970",
-          "title": "Convention on the Means of Prohibiting and Preventing the Illicit Transfer of Ownership of Cultural Property",
-          "url": "https://www.unesco.org/en/legal-affairs/convention-means-prohibiting-and-preventing-illicit-import-export-and-transfer-ownership-cultural"
+          "author": "Sakai et Moorman",
+          "year": "2018",
+          "title": "Can perception training improve the production of second language phonemes?",
+          "url": "https://www.cambridge.org/core/journals/applied-psycholinguistics/article/abs/can-perception-training-improve-the-production-of-second-language-phonemes-a-metaanalytic-review-of-25-years-of-perception-training-research/57401D28450902EE96659AD10AA11488"
+        },
+        {
+          "author": "Ngo, Chen et Lai",
+          "year": "2023",
+          "title": "The effectiveness of automatic speech recognition in ESL/EFL pronunciation: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/recall/article/effectiveness-of-automatic-speech-recognition-in-eslefl-pronunciation-a-metaanalysis/A915444CF252B61D14961D2FE733822D"
+        },
+        {
+          "author": "Mackey",
+          "year": "2018",
+          "title": "Interaction and instructed second language acquisition",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/interaction-and-instructed-second-language-acquisition/78A156EE200F744F5978F99BFB073DBE"
         }
       ]
     },
@@ -40956,10 +43604,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "UNESCO",
-          "year": "1970",
-          "title": "Convention on the Means of Prohibiting and Preventing the Illicit Transfer of Ownership of Cultural Property",
-          "url": "https://www.unesco.org/en/legal-affairs/convention-means-prohibiting-and-preventing-illicit-import-export-and-transfer-ownership-cultural"
+          "author": "Sakai et Moorman",
+          "year": "2018",
+          "title": "Can perception training improve the production of second language phonemes?",
+          "url": "https://www.cambridge.org/core/journals/applied-psycholinguistics/article/abs/can-perception-training-improve-the-production-of-second-language-phonemes-a-metaanalytic-review-of-25-years-of-perception-training-research/57401D28450902EE96659AD10AA11488"
+        },
+        {
+          "author": "Ngo, Chen et Lai",
+          "year": "2023",
+          "title": "The effectiveness of automatic speech recognition in ESL/EFL pronunciation: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/recall/article/effectiveness-of-automatic-speech-recognition-in-eslefl-pronunciation-a-metaanalysis/A915444CF252B61D14961D2FE733822D"
+        },
+        {
+          "author": "Mackey",
+          "year": "2018",
+          "title": "Interaction and instructed second language acquisition",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/interaction-and-instructed-second-language-acquisition/78A156EE200F744F5978F99BFB073DBE"
         }
       ],
       "grammarTest": null,
@@ -41068,9 +43728,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Museum Restitution and Colonial Collections”?",
+        "prompt": "Which response best fits the unit “Speech Perception, Accent and Pronunciation Training”?",
         "options": [
-          "Responsible resolution may include return, shared custody, provenance research and institutional transformation rather than a single formula for every object.",
+          "Pronunciation work should integrate varied listening, intelligibility, articulatory guidance and communicative use rather than pursue accent erasure.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -41997,11 +44657,11 @@
     ]
   },
   {
-    "slug": "english-c2-museum-restitution-vocabulary",
+    "slug": "english-c2-speech-perception-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "museum-restitution",
-    "title": "Conceptual Vocabulary: Museum Restitution and Colonial Collections",
+    "unitId": "speech-perception",
+    "title": "Conceptual Vocabulary: Speech Perception, Accent and Pronunciation Training",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
@@ -42014,87 +44674,99 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "restitution",
-        "translation": "",
-        "definition": "return of property to a rightful holder",
-        "example": "The essay uses “restitution” to make a precise distinction.",
+        "word": "phonemic contrast",
+        "translation": "contraste fonémico",
+        "definition": "difference between sounds that can distinguish words",
+        "example": "In the article, “phonemic contrast” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «contraste fonémico» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "categorical perception",
+        "translation": "percepción categorial",
+        "definition": "hearing a continuum as discrete sound categories",
+        "example": "In the article, “categorical perception” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «percepción categorial» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "perceptual assimilation",
+        "translation": "asimilación perceptiva",
+        "definition": "interpretation of unfamiliar sounds through existing categories",
+        "example": "In the article, “perceptual assimilation” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «asimilación perceptiva» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "minimal pair",
+        "translation": "par mínimo",
+        "definition": "two words differing in only one relevant sound",
+        "example": "In the article, “minimal pair” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «par mínimo» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "allophonic variation",
+        "translation": "variación alofónica",
+        "definition": "different realisations of one phoneme",
+        "example": "In the article, “allophonic variation” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «variación alofónica» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "intelligibility",
+        "translation": "inteligibilidad",
+        "definition": "degree to which speech is understood",
+        "example": "In the article, “intelligibility” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «inteligibilidad» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "repatriation",
-        "translation": "",
-        "definition": "return to a country or community of origin",
-        "example": "The essay uses “repatriation” to make a precise distinction.",
+        "word": "comprehensibility",
+        "translation": "comprensibilidad",
+        "definition": "degree of effort required to understand speech",
+        "example": "In the article, “comprehensibility” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «comprensibilidad» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "provenance research",
-        "translation": "",
-        "definition": "investigation of an object’s ownership history",
-        "example": "The essay uses “provenance research” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "inalienable",
-        "translation": "",
-        "definition": "not legally transferable",
-        "example": "The essay uses “inalienable” to make a precise distinction.",
+        "word": "accentedness",
+        "translation": "grado de acento",
+        "definition": "degree to which pronunciation is perceived as non-local",
+        "example": "In the article, “accentedness” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «grado de acento» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "custodianship",
-        "translation": "",
-        "definition": "responsibility for care rather than ownership",
-        "example": "The essay uses “custodianship” to make a precise distinction.",
+        "word": "high-variability training",
+        "translation": "entrenamiento de alta variabilidad",
+        "definition": "practice using many speakers and phonetic contexts",
+        "example": "In the article, “high-variability training” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «entrenamiento de alta variabilidad» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "articulatory setting",
+        "translation": "configuración articulatoria",
+        "definition": "habitual positioning of the speech organs",
+        "example": "In the article, “articulatory setting” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «configuración articulatoria» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "prosody",
+        "translation": "prosodia",
+        "definition": "rhythm, stress and intonation across speech",
+        "example": "In the article, “prosody” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «prosodia» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "colonial acquisition",
-        "translation": "",
-        "definition": "obtaining objects under colonial power relations",
-        "example": "The essay uses “colonial acquisition” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "cultural patrimony",
-        "translation": "",
-        "definition": "heritage associated with a community or nation",
-        "example": "The essay uses “cultural patrimony” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "legal title",
-        "translation": "",
-        "definition": "formal right of ownership",
-        "example": "The essay uses “legal title” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "ethical claim",
-        "translation": "",
-        "definition": "demand grounded in moral reasoning",
-        "example": "The essay uses “ethical claim” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "shared stewardship",
-        "translation": "",
-        "definition": "joint responsibility for care and interpretation",
-        "example": "The essay uses “shared stewardship” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "deaccession",
-        "translation": "",
-        "definition": "formal removal from a collection",
-        "example": "The essay uses “deaccession” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "historical redress",
-        "translation": "",
-        "definition": "action intended to remedy past injustice",
-        "example": "The essay uses “historical redress” to make a precise distinction.",
+        "word": "transfer effect",
+        "translation": "efecto de transferencia",
+        "definition": "application of learning to an unpractised task or context",
+        "example": "In the article, “transfer effect” helps the writer analyse speech perception, accent and pronunciation training with greater precision.",
+        "exampleTranslation": "En el artículo, «efecto de transferencia» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       }
     ],
@@ -42105,122 +44777,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “return of property to a rightful holder”?",
+        "prompt": "Which term means “difference between sounds that can distinguish words”?",
         "options": [
-          "inalienable",
-          "repatriation",
-          "restitution",
-          "colonial acquisition"
+          "minimal pair",
+          "categorical perception",
+          "phonemic contrast",
+          "intelligibility"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “return to a country or community of origin”?",
+        "prompt": "Which term means “hearing a continuum as discrete sound categories”?",
         "options": [
-          "custodianship",
-          "provenance research",
-          "repatriation",
-          "cultural patrimony"
+          "allophonic variation",
+          "perceptual assimilation",
+          "categorical perception",
+          "comprehensibility"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “investigation of an object’s ownership history”?",
+        "prompt": "Which term means “interpretation of unfamiliar sounds through existing categories”?",
         "options": [
-          "colonial acquisition",
-          "inalienable",
-          "provenance research",
-          "legal title"
+          "intelligibility",
+          "minimal pair",
+          "perceptual assimilation",
+          "accentedness"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “not legally transferable”?",
+        "prompt": "Which term means “two words differing in only one relevant sound”?",
         "options": [
-          "cultural patrimony",
-          "custodianship",
-          "inalienable",
-          "ethical claim"
+          "comprehensibility",
+          "allophonic variation",
+          "minimal pair",
+          "high-variability training"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “responsibility for care rather than ownership”?",
+        "prompt": "Which term means “different realisations of one phoneme”?",
         "options": [
-          "legal title",
-          "colonial acquisition",
-          "custodianship",
-          "shared stewardship"
+          "accentedness",
+          "intelligibility",
+          "allophonic variation",
+          "articulatory setting"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “obtaining objects under colonial power relations”?",
+        "prompt": "Which term means “degree to which speech is understood”?",
         "options": [
-          "ethical claim",
-          "cultural patrimony",
-          "colonial acquisition",
-          "deaccession"
+          "high-variability training",
+          "comprehensibility",
+          "intelligibility",
+          "prosody"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “heritage associated with a community or nation”?",
+        "prompt": "Which term means “degree of effort required to understand speech”?",
         "options": [
-          "shared stewardship",
-          "legal title",
-          "cultural patrimony",
-          "historical redress"
+          "articulatory setting",
+          "accentedness",
+          "comprehensibility",
+          "transfer effect"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “formal right of ownership”?",
+        "prompt": "Which term means “degree to which pronunciation is perceived as non-local”?",
         "options": [
-          "deaccession",
-          "ethical claim",
-          "legal title",
-          "restitution"
+          "prosody",
+          "high-variability training",
+          "accentedness",
+          "phonemic contrast"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “demand grounded in moral reasoning”?",
+        "prompt": "Which term means “practice using many speakers and phonetic contexts”?",
         "options": [
-          "historical redress",
-          "shared stewardship",
-          "ethical claim",
-          "repatriation"
+          "transfer effect",
+          "articulatory setting",
+          "high-variability training",
+          "categorical perception"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “joint responsibility for care and interpretation”?",
+        "prompt": "Which term means “habitual positioning of the speech organs”?",
         "options": [
-          "restitution",
-          "deaccession",
-          "shared stewardship",
-          "provenance research"
+          "phonemic contrast",
+          "prosody",
+          "articulatory setting",
+          "perceptual assimilation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “formal removal from a collection”?",
+        "prompt": "Which term means “rhythm, stress and intonation across speech”?",
         "options": [
-          "repatriation",
-          "historical redress",
-          "deaccession",
-          "inalienable"
+          "categorical perception",
+          "transfer effect",
+          "prosody",
+          "minimal pair"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “action intended to remedy past injustice”?",
+        "prompt": "Which term means “application of learning to an unpractised task or context”?",
         "options": [
-          "provenance research",
-          "restitution",
-          "historical redress",
-          "custodianship"
+          "perceptual assimilation",
+          "phonemic contrast",
+          "transfer effect",
+          "allophonic variation"
         ]
       }
     ]
@@ -43494,20 +46166,20 @@
     ]
   },
   {
-    "slug": "english-c2-museum-restitution-grammar",
+    "slug": "english-c2-speech-perception-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "museum-restitution",
-    "title": "Distancing, evidentiality and attributed stance",
+    "unitId": "speech-perception",
+    "title": "Passive voice and accountable agency",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
     "orderIndex": 82,
     "estimatedMinutes": 24,
-    "description": "Use Distancing, evidentiality and attributed stance to analyse “The Object That Refuses to Stay Silent”.",
-    "intro": "Use Distancing, evidentiality and attributed stance to analyse “The Object That Refuses to Stay Silent”.",
+    "description": "Use Passive voice and accountable agency to analyse “Hearing the Contrast Before Producing It”.",
+    "intro": "Use Passive voice and accountable agency to analyse “Hearing the Contrast Before Producing It”.",
     "mission": "",
-    "grammar": "Goal: represent contested historical claims without false neutrality.\n\nRule: Use is said to, is understood to have, reportedly, according to and stance-rich reporting verbs to distinguish evidence, attribution and institutional position.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “The Object That Refuses to Stay Silent”.",
+    "grammar": "Goal: foreground perceptual processes while retaining the researchers or systems responsible for interpretation.\n\nRule: Use the passive when the process or result is thematic, but restore an explicit agent whenever its omission would hide a consequential analytical decision.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “Hearing the Contrast Before Producing It”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -43520,13 +46192,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-museum-restitution-grammar-test",
+        "id": "english-c2-speech-perception-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-museum-restitution-grammar-q1",
+            "id": "english-c2-speech-perception-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Distancing, evidentiality and attributed stance?",
+            "prompt": "Which sentence best demonstrates controlled use of Passive voice and accountable agency?",
             "options": [
               {
                 "id": "a",
@@ -43547,9 +46219,9 @@
             ]
           },
           {
-            "id": "english-c2-museum-restitution-grammar-q2",
+            "id": "english-c2-speech-perception-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “represent contested historical claims without false neutrality”?",
+            "prompt": "Which revision best serves the purpose “foreground perceptual processes while retaining the researchers or systems responsible for interpretation”?",
             "options": [
               {
                 "id": "a",
@@ -43570,7 +46242,7 @@
             ]
           },
           {
-            "id": "english-c2-museum-restitution-grammar-q3",
+            "id": "english-c2-speech-perception-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -43593,7 +46265,7 @@
             ]
           },
           {
-            "id": "english-c2-museum-restitution-grammar-q4",
+            "id": "english-c2-speech-perception-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -43616,7 +46288,7 @@
             ]
           },
           {
-            "id": "english-c2-museum-restitution-grammar-q5",
+            "id": "english-c2-speech-perception-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -43639,7 +46311,7 @@
             ]
           },
           {
-            "id": "english-c2-museum-restitution-grammar-q6",
+            "id": "english-c2-speech-perception-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -43662,7 +46334,7 @@
             ]
           },
           {
-            "id": "english-c2-museum-restitution-grammar-q7",
+            "id": "english-c2-speech-perception-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -43685,7 +46357,7 @@
             ]
           },
           {
-            "id": "english-c2-museum-restitution-grammar-q8",
+            "id": "english-c2-speech-perception-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -43708,7 +46380,7 @@
             ]
           },
           {
-            "id": "english-c2-museum-restitution-grammar-q9",
+            "id": "english-c2-speech-perception-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -43731,9 +46403,9 @@
             ]
           },
           {
-            "id": "english-c2-museum-restitution-grammar-q10",
+            "id": "english-c2-speech-perception-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Distancing, evidentiality and attributed stance?",
+            "prompt": "Which statement accurately describes Passive voice and accountable agency?",
             "options": [
               {
                 "id": "a",
@@ -43741,7 +46413,7 @@
               },
               {
                 "id": "b",
-                "text": "Use is said to, is understood to have, reportedly, according to and stance-rich reporting verbs to distinguish evidence, attribution and institutional position."
+                "text": "Use the passive when the process or result is thematic, but restore an explicit agent whenever its omission would hide a consequential analytical decision."
               },
               {
                 "id": "c",
@@ -43752,14 +46424,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-speech-perception-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Passive voice and accountable agency?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-speech-perception-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “foreground perceptual processes while retaining the researchers or systems responsible for interpretation”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-speech-perception-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-speech-perception-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-speech-perception-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-speech-perception-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-speech-perception-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-speech-perception-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-speech-perception-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-speech-perception-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Passive voice and accountable agency?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Use the passive when the process or result is thematic, but restore an explicit agent whenever its omission would hide a consequential analytical decision."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Distancing, evidentiality and attributed stance",
-        "context": "Grammar connected to the C2 essay “The Object That Refuses to Stay Silent”.",
-        "explanation": "Use is said to, is understood to have, reportedly, according to and stance-rich reporting verbs to distinguish evidence, attribution and institutional position.",
-        "purpose": "represent contested historical claims without false neutrality",
+        "name": "Passive voice and accountable agency",
+        "context": "Grammar connected to the C2 essay “Hearing the Contrast Before Producing It”.",
+        "explanation": "Use the passive when the process or result is thematic, but restore an explicit agent whenever its omission would hide a consequential analytical decision.",
+        "purpose": "foreground perceptual processes while retaining the researchers or systems responsible for interpretation",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -43772,25 +46674,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Distancing, evidentiality and attributed stance?",
+        "prompt": "Which sentence best demonstrates controlled use of Passive voice and accountable agency?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Distancing, evidentiality and attributed stance with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “represent contested historical claims without false neutrality”?",
+        "prompt": "Which revision best serves the purpose “foreground perceptual processes while retaining the researchers or systems responsible for interpretation”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Distancing, evidentiality and attributed stance with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -43801,7 +46703,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Distancing, evidentiality and attributed stance with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -43812,7 +46714,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Distancing, evidentiality and attributed stance with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -43823,7 +46725,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Distancing, evidentiality and attributed stance with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -43834,7 +46736,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Distancing, evidentiality and attributed stance with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -43845,7 +46747,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Distancing, evidentiality and attributed stance with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -43856,7 +46758,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Distancing, evidentiality and attributed stance with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -43867,18 +46769,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Distancing, evidentiality and attributed stance with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Distancing, evidentiality and attributed stance?",
+        "prompt": "Which statement accurately describes Passive voice and accountable agency?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Use is said to, is understood to have, reportedly, according to and stance-rich reporting verbs to distinguish evidence, attribution and institutional position.",
+          "Use the passive when the process or result is thematic, but restore an explicit agent whenever its omission would hide a consequential analytical decision.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Distancing, evidentiality and attributed stance with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Passive voice and accountable agency?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “foreground perceptual processes while retaining the researchers or systems responsible for interpretation”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Passive voice and accountable agency?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Use the passive when the process or result is thematic, but restore an explicit agent whenever its omission would hide a consequential analytical decision."
+        ],
+        "explanation": "The correct option applies Passive voice and accountable agency with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -46622,26 +49634,26 @@
     ]
   },
   {
-    "slug": "english-c2-rights-of-nature-reading",
+    "slug": "english-c2-anxiety-attention-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "rights-of-nature",
-    "title": "Can a River Speak in Court?",
+    "unitId": "anxiety-attention",
+    "title": "When Self-Monitoring Consumes the Message",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 60,
     "orderIndex": 90,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on rights of nature and legal personhood.",
-    "intro": "An extended C2 essay on rights of nature and legal personhood.",
+    "description": "An extended C2 essay on language anxiety, attention and working memory.",
+    "intro": "An extended C2 essay on language anxiety, attention and working memory.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Can a River Speak in Court?",
-      "text": "Can a River Speak in Court? begins with a difficulty that resists the usual demand for a simple position. Legal systems increasingly experiment with recognising ecosystems as rights-bearing entities represented by guardians or communities. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nPersonhood may create standing and reshape legal imagination, but symbolic rights achieve little without institutions, funding and enforceable remedies. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nThe strongest models connect ecological limits with representation, indigenous authority and clearly specified duties for governments and private actors. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "When Self-Monitoring Consumes the Message",
+      "text": "When Self-Monitoring Consumes the Message begins with a difficulty that resists the usual demand for a simple position. Anxiety can redirect limited attention from meaning toward self-evaluation, anticipated judgement and the monitoring of possible errors. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nModerate arousal may sharpen preparation for some learners, whereas persistent threat can restrict participation and make working-memory demands harder to manage. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nSupportive practice should lower avoidable social threat without eliminating the challenge, uncertainty and public use through which communicative confidence develops. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -46649,10 +49661,22 @@
       ],
       "references": [
         {
-          "author": "United Nations General Assembly",
-          "year": "2019",
-          "title": "Harmony with Nature: Report of the Secretary-General",
-          "url": "https://documents.un.org/doc/undoc/gen/n19/232/63/pdf/n1923263.pdf"
+          "author": "Yu",
+          "year": "2024",
+          "title": "Foreign language anxiety research in System between 2004 and 2023",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1373290/full"
+        },
+        {
+          "author": "Mackey",
+          "year": "2018",
+          "title": "Interaction and instructed second language acquisition",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/interaction-and-instructed-second-language-acquisition/78A156EE200F744F5978F99BFB073DBE"
+        },
+        {
+          "author": "Lyster et Saito",
+          "year": "2010",
+          "title": "Oral feedback in classroom SLA: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/volume/0A4A03B3E1A1CAEB8501324E49446E70"
         }
       ]
     },
@@ -46660,10 +49684,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "United Nations General Assembly",
-          "year": "2019",
-          "title": "Harmony with Nature: Report of the Secretary-General",
-          "url": "https://documents.un.org/doc/undoc/gen/n19/232/63/pdf/n1923263.pdf"
+          "author": "Yu",
+          "year": "2024",
+          "title": "Foreign language anxiety research in System between 2004 and 2023",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1373290/full"
+        },
+        {
+          "author": "Mackey",
+          "year": "2018",
+          "title": "Interaction and instructed second language acquisition",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/interaction-and-instructed-second-language-acquisition/78A156EE200F744F5978F99BFB073DBE"
+        },
+        {
+          "author": "Lyster et Saito",
+          "year": "2010",
+          "title": "Oral feedback in classroom SLA: A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/volume/0A4A03B3E1A1CAEB8501324E49446E70"
         }
       ],
       "grammarTest": null,
@@ -46772,9 +49808,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Rights of Nature and Legal Personhood”?",
+        "prompt": "Which response best fits the unit “Language Anxiety, Attention and Working Memory”?",
         "options": [
-          "The strongest models connect ecological limits with representation, indigenous authority and clearly specified duties for governments and private actors.",
+          "Supportive practice should lower avoidable social threat without eliminating the challenge, uncertainty and public use through which communicative confidence develops.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -47691,11 +50727,11 @@
     ]
   },
   {
-    "slug": "english-c2-rights-of-nature-vocabulary",
+    "slug": "english-c2-anxiety-attention-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "rights-of-nature",
-    "title": "Conceptual Vocabulary: Rights of Nature and Legal Personhood",
+    "unitId": "anxiety-attention",
+    "title": "Conceptual Vocabulary: Language Anxiety, Attention and Working Memory",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
@@ -47708,87 +50744,99 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "legal personhood",
-        "translation": "",
-        "definition": "status of being recognised as a legal person",
-        "example": "The essay uses “legal personhood” to make a precise distinction.",
+        "word": "language anxiety",
+        "translation": "ansiedad lingüística",
+        "definition": "situation-specific worry associated with language use",
+        "example": "In the article, “language anxiety” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «ansiedad lingüística» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "standing",
-        "translation": "",
-        "definition": "right to bring a matter before a court",
-        "example": "The essay uses “standing” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "rights-bearing",
-        "translation": "",
-        "definition": "possessing legally recognised rights",
-        "example": "The essay uses “rights-bearing” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "guardianship",
-        "translation": "",
-        "definition": "authority to represent another’s interests",
-        "example": "The essay uses “guardianship” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "ecological integrity",
-        "translation": "",
-        "definition": "wholeness and functioning of an ecosystem",
-        "example": "The essay uses “ecological integrity” to make a precise distinction.",
+        "word": "working memory",
+        "translation": "memoria de trabajo",
+        "definition": "limited system for maintaining and manipulating current information",
+        "example": "In the article, “working memory” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «memoria de trabajo» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "remedy",
-        "translation": "",
-        "definition": "legal means of correcting harm",
-        "example": "The essay uses “remedy” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "justiciable",
-        "translation": "",
-        "definition": "capable of being decided by a court",
-        "example": "The essay uses “justiciable” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "indigenous jurisprudence",
-        "translation": "",
-        "definition": "legal reasoning rooted in indigenous traditions",
-        "example": "The essay uses “indigenous jurisprudence” to make a precise distinction.",
+        "word": "attentional control",
+        "translation": "control atencional",
+        "definition": "ability to direct and sustain focus",
+        "example": "In the article, “attentional control” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «control atencional» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "anthropocentric",
-        "translation": "",
-        "definition": "centred on human interests",
-        "example": "The essay uses “anthropocentric” to make a precise distinction.",
+        "word": "self-monitoring",
+        "translation": "automonitoreo",
+        "definition": "observation and evaluation of one’s own performance",
+        "example": "In the article, “self-monitoring” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «automonitoreo» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "relational ontology",
-        "translation": "",
-        "definition": "view that entities exist through relationships",
-        "example": "The essay uses “relational ontology” to make a precise distinction.",
+        "word": "cognitive load",
+        "translation": "carga cognitiva",
+        "definition": "mental demand imposed by a task",
+        "example": "In the article, “cognitive load” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «carga cognitiva» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "enforceability",
-        "translation": "",
-        "definition": "capacity of a rule to be applied effectively",
-        "example": "The essay uses “enforceability” to make a precise distinction.",
-        "partOfSpeech": "noun"
+        "word": "evaluation apprehension",
+        "translation": "temor a la evaluación",
+        "definition": "fear of being negatively judged",
+        "example": "In the article, “evaluation apprehension” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «temor a la evaluación» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
       },
       {
-        "word": "statutory duty",
-        "translation": "",
-        "definition": "obligation created by legislation",
-        "example": "The essay uses “statutory duty” to make a precise distinction.",
+        "word": "avoidance behaviour",
+        "translation": "conducta de evitación",
+        "definition": "action intended to escape a threatening task",
+        "example": "In the article, “avoidance behaviour” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «conducta de evitación» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "willingness to communicate",
+        "translation": "disposición a comunicarse",
+        "definition": "readiness to initiate speech when choice is possible",
+        "example": "In the article, “willingness to communicate” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «disposición a comunicarse» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "affective filter",
+        "translation": "filtro afectivo",
+        "definition": "metaphor for emotional conditions limiting engagement with input",
+        "example": "In the article, “affective filter” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «filtro afectivo» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "task complexity",
+        "translation": "complejidad de la tarea",
+        "definition": "combined cognitive demands of an activity",
+        "example": "In the article, “task complexity” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «complejidad de la tarea» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "performance pressure",
+        "translation": "presión de rendimiento",
+        "definition": "stress created by consequences attached to performance",
+        "example": "In the article, “performance pressure” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «presión de rendimiento» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "psychological safety",
+        "translation": "seguridad psicológica",
+        "definition": "shared expectation that interpersonal risk will not be punished",
+        "example": "In the article, “psychological safety” helps the writer analyse language anxiety, attention and working memory with greater precision.",
+        "exampleTranslation": "En el artículo, «seguridad psicológica» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       }
     ],
@@ -47799,122 +50847,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “status of being recognised as a legal person”?",
+        "prompt": "Which term means “situation-specific worry associated with language use”?",
         "options": [
-          "guardianship",
-          "standing",
-          "legal personhood",
-          "remedy"
+          "self-monitoring",
+          "working memory",
+          "language anxiety",
+          "evaluation apprehension"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “right to bring a matter before a court”?",
+        "prompt": "Which term means “limited system for maintaining and manipulating current information”?",
         "options": [
-          "ecological integrity",
-          "rights-bearing",
-          "standing",
-          "justiciable"
+          "cognitive load",
+          "attentional control",
+          "working memory",
+          "avoidance behaviour"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “possessing legally recognised rights”?",
+        "prompt": "Which term means “ability to direct and sustain focus”?",
         "options": [
-          "remedy",
-          "guardianship",
-          "rights-bearing",
-          "indigenous jurisprudence"
+          "evaluation apprehension",
+          "self-monitoring",
+          "attentional control",
+          "willingness to communicate"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “authority to represent another’s interests”?",
+        "prompt": "Which term means “observation and evaluation of one’s own performance”?",
         "options": [
-          "justiciable",
-          "ecological integrity",
-          "guardianship",
-          "anthropocentric"
+          "avoidance behaviour",
+          "cognitive load",
+          "self-monitoring",
+          "affective filter"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “wholeness and functioning of an ecosystem”?",
+        "prompt": "Which term means “mental demand imposed by a task”?",
         "options": [
-          "indigenous jurisprudence",
-          "remedy",
-          "ecological integrity",
-          "relational ontology"
+          "willingness to communicate",
+          "evaluation apprehension",
+          "cognitive load",
+          "task complexity"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “legal means of correcting harm”?",
+        "prompt": "Which term means “fear of being negatively judged”?",
         "options": [
-          "anthropocentric",
-          "justiciable",
-          "remedy",
-          "enforceability"
+          "affective filter",
+          "avoidance behaviour",
+          "evaluation apprehension",
+          "performance pressure"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “capable of being decided by a court”?",
+        "prompt": "Which term means “action intended to escape a threatening task”?",
         "options": [
-          "relational ontology",
-          "indigenous jurisprudence",
-          "justiciable",
-          "statutory duty"
+          "task complexity",
+          "willingness to communicate",
+          "avoidance behaviour",
+          "psychological safety"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “legal reasoning rooted in indigenous traditions”?",
+        "prompt": "Which term means “readiness to initiate speech when choice is possible”?",
         "options": [
-          "enforceability",
-          "anthropocentric",
-          "indigenous jurisprudence",
-          "legal personhood"
+          "performance pressure",
+          "affective filter",
+          "willingness to communicate",
+          "language anxiety"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “centred on human interests”?",
+        "prompt": "Which term means “metaphor for emotional conditions limiting engagement with input”?",
         "options": [
-          "statutory duty",
-          "relational ontology",
-          "anthropocentric",
-          "standing"
+          "psychological safety",
+          "task complexity",
+          "affective filter",
+          "working memory"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “view that entities exist through relationships”?",
+        "prompt": "Which term means “combined cognitive demands of an activity”?",
         "options": [
-          "legal personhood",
-          "enforceability",
-          "relational ontology",
-          "rights-bearing"
+          "language anxiety",
+          "performance pressure",
+          "task complexity",
+          "attentional control"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “capacity of a rule to be applied effectively”?",
+        "prompt": "Which term means “stress created by consequences attached to performance”?",
         "options": [
-          "standing",
-          "statutory duty",
-          "enforceability",
-          "guardianship"
+          "working memory",
+          "psychological safety",
+          "performance pressure",
+          "self-monitoring"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “obligation created by legislation”?",
+        "prompt": "Which term means “shared expectation that interpersonal risk will not be punished”?",
         "options": [
-          "rights-bearing",
-          "legal personhood",
-          "statutory duty",
-          "ecological integrity"
+          "attentional control",
+          "language anxiety",
+          "psychological safety",
+          "cognitive load"
         ]
       }
     ]
@@ -49188,20 +52236,20 @@
     ]
   },
   {
-    "slug": "english-c2-rights-of-nature-grammar",
+    "slug": "english-c2-anxiety-attention-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "rights-of-nature",
-    "title": "Subjunctive, mandative and formulaic legal structures",
+    "unitId": "anxiety-attention",
+    "title": "Mixed and implicit conditionals",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
     "orderIndex": 92,
     "estimatedMinutes": 24,
-    "description": "Use Subjunctive, mandative and formulaic legal structures to analyse “Can a River Speak in Court?”.",
-    "intro": "Use Subjunctive, mandative and formulaic legal structures to analyse “Can a River Speak in Court?”.",
+    "description": "Use Mixed and implicit conditionals to analyse “When Self-Monitoring Consumes the Message”.",
+    "intro": "Use Mixed and implicit conditionals to analyse “When Self-Monitoring Consumes the Message”.",
     "mission": "",
-    "grammar": "Goal: express recommendations, requirements and hypothetical legal reasoning.\n\nRule: Use the mandative subjunctive after demand/recommend/essential that, were-subjunctive in hypotheticals and fixed forms such as be that as it may.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “Can a River Speak in Court?”.",
+    "grammar": "Goal: reason about possible effects without converting correlations into deterministic predictions.\n\nRule: Use mixed conditionals, but for, otherwise and inverted had/were/should clauses to express interacting past and present conditions with calibrated certainty.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “When Self-Monitoring Consumes the Message”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -49214,13 +52262,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-rights-of-nature-grammar-test",
+        "id": "english-c2-anxiety-attention-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-rights-of-nature-grammar-q1",
+            "id": "english-c2-anxiety-attention-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Subjunctive, mandative and formulaic legal structures?",
+            "prompt": "Which sentence best demonstrates controlled use of Mixed and implicit conditionals?",
             "options": [
               {
                 "id": "a",
@@ -49241,9 +52289,9 @@
             ]
           },
           {
-            "id": "english-c2-rights-of-nature-grammar-q2",
+            "id": "english-c2-anxiety-attention-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “express recommendations, requirements and hypothetical legal reasoning”?",
+            "prompt": "Which revision best serves the purpose “reason about possible effects without converting correlations into deterministic predictions”?",
             "options": [
               {
                 "id": "a",
@@ -49264,7 +52312,7 @@
             ]
           },
           {
-            "id": "english-c2-rights-of-nature-grammar-q3",
+            "id": "english-c2-anxiety-attention-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -49287,7 +52335,7 @@
             ]
           },
           {
-            "id": "english-c2-rights-of-nature-grammar-q4",
+            "id": "english-c2-anxiety-attention-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -49310,7 +52358,7 @@
             ]
           },
           {
-            "id": "english-c2-rights-of-nature-grammar-q5",
+            "id": "english-c2-anxiety-attention-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -49333,7 +52381,7 @@
             ]
           },
           {
-            "id": "english-c2-rights-of-nature-grammar-q6",
+            "id": "english-c2-anxiety-attention-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -49356,7 +52404,7 @@
             ]
           },
           {
-            "id": "english-c2-rights-of-nature-grammar-q7",
+            "id": "english-c2-anxiety-attention-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -49379,7 +52427,7 @@
             ]
           },
           {
-            "id": "english-c2-rights-of-nature-grammar-q8",
+            "id": "english-c2-anxiety-attention-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -49402,7 +52450,7 @@
             ]
           },
           {
-            "id": "english-c2-rights-of-nature-grammar-q9",
+            "id": "english-c2-anxiety-attention-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -49425,9 +52473,9 @@
             ]
           },
           {
-            "id": "english-c2-rights-of-nature-grammar-q10",
+            "id": "english-c2-anxiety-attention-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Subjunctive, mandative and formulaic legal structures?",
+            "prompt": "Which statement accurately describes Mixed and implicit conditionals?",
             "options": [
               {
                 "id": "a",
@@ -49435,7 +52483,7 @@
               },
               {
                 "id": "b",
-                "text": "Use the mandative subjunctive after demand/recommend/essential that, were-subjunctive in hypotheticals and fixed forms such as be that as it may."
+                "text": "Use mixed conditionals, but for, otherwise and inverted had/were/should clauses to express interacting past and present conditions with calibrated certainty."
               },
               {
                 "id": "c",
@@ -49446,14 +52494,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-anxiety-attention-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Mixed and implicit conditionals?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-anxiety-attention-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “reason about possible effects without converting correlations into deterministic predictions”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-anxiety-attention-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-anxiety-attention-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-anxiety-attention-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-anxiety-attention-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-anxiety-attention-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-anxiety-attention-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-anxiety-attention-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-anxiety-attention-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Mixed and implicit conditionals?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Use mixed conditionals, but for, otherwise and inverted had/were/should clauses to express interacting past and present conditions with calibrated certainty."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Subjunctive, mandative and formulaic legal structures",
-        "context": "Grammar connected to the C2 essay “Can a River Speak in Court?”.",
-        "explanation": "Use the mandative subjunctive after demand/recommend/essential that, were-subjunctive in hypotheticals and fixed forms such as be that as it may.",
-        "purpose": "express recommendations, requirements and hypothetical legal reasoning",
+        "name": "Mixed and implicit conditionals",
+        "context": "Grammar connected to the C2 essay “When Self-Monitoring Consumes the Message”.",
+        "explanation": "Use mixed conditionals, but for, otherwise and inverted had/were/should clauses to express interacting past and present conditions with calibrated certainty.",
+        "purpose": "reason about possible effects without converting correlations into deterministic predictions",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -49466,25 +52744,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Subjunctive, mandative and formulaic legal structures?",
+        "prompt": "Which sentence best demonstrates controlled use of Mixed and implicit conditionals?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Subjunctive, mandative and formulaic legal structures with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “express recommendations, requirements and hypothetical legal reasoning”?",
+        "prompt": "Which revision best serves the purpose “reason about possible effects without converting correlations into deterministic predictions”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Subjunctive, mandative and formulaic legal structures with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -49495,7 +52773,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Subjunctive, mandative and formulaic legal structures with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -49506,7 +52784,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Subjunctive, mandative and formulaic legal structures with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -49517,7 +52795,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Subjunctive, mandative and formulaic legal structures with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -49528,7 +52806,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Subjunctive, mandative and formulaic legal structures with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -49539,7 +52817,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Subjunctive, mandative and formulaic legal structures with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -49550,7 +52828,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Subjunctive, mandative and formulaic legal structures with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -49561,18 +52839,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Subjunctive, mandative and formulaic legal structures with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Subjunctive, mandative and formulaic legal structures?",
+        "prompt": "Which statement accurately describes Mixed and implicit conditionals?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Use the mandative subjunctive after demand/recommend/essential that, were-subjunctive in hypotheticals and fixed forms such as be that as it may.",
+          "Use mixed conditionals, but for, otherwise and inverted had/were/should clauses to express interacting past and present conditions with calibrated certainty.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Subjunctive, mandative and formulaic legal structures with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Mixed and implicit conditionals?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “reason about possible effects without converting correlations into deterministic predictions”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Mixed and implicit conditionals?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Use mixed conditionals, but for, otherwise and inverted had/were/should clauses to express interacting past and present conditions with calibrated certainty."
+        ],
+        "explanation": "The correct option applies Mixed and implicit conditionals with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -52316,26 +55704,26 @@
     ]
   },
   {
-    "slug": "english-c2-exoplanet-biosignatures-reading",
+    "slug": "english-c2-individual-differences-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "exoplanet-biosignatures",
-    "title": "A Signal Is Not a Discovery",
+    "unitId": "individual-differences",
+    "title": "Why the Average Learner Does Not Exist",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 60,
     "orderIndex": 100,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on exoplanets, biosignatures and scientific restraint.",
-    "intro": "An extended C2 essay on exoplanets, biosignatures and scientific restraint.",
+    "description": "An extended C2 essay on age, aptitude and individual differences.",
+    "intro": "An extended C2 essay on age, aptitude and individual differences.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "A Signal Is Not a Discovery",
-      "text": "A Signal Is Not a Discovery begins with a difficulty that resists the usual demand for a simple position. Astronomers can infer atmospheric composition across immense distances, but a possible biosignature remains several inferential steps from evidence of life. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nIndividual gases may have biological sources while also arising through poorly understood geological or photochemical processes. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nStrong discovery claims require converging observations, explicit alternative hypotheses and instruments capable of testing rather than merely repeating an anomaly. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "Why the Average Learner Does Not Exist",
+      "text": "Why the Average Learner Does Not Exist begins with a difficulty that resists the usual demand for a simple position. Group averages describe tendencies, yet they can conceal learners whose profiles differ in memory, prior education, motivation, time and linguistic experience. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nAptitude measures can guide support but may also be treated as fixed ceilings, particularly when opportunity and quality of instruction are unevenly distributed. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nResponsible differentiation changes routes, pacing and support while maintaining ambitious communicative outcomes and revisable expectations. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -52343,9 +55731,22 @@
       ],
       "references": [
         {
-          "author": "NASA Science",
-          "title": "Ladder of Life Detection",
-          "url": "https://science.nasa.gov/astrobiology/researchers/life-detection-resources/ladder-of-life-detection/"
+          "author": "Perani et al.",
+          "year": "1998",
+          "title": "The bilingual brain: Proficiency and age of acquisition of the second language",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9798741/"
+        },
+        {
+          "author": "Kousaie et al.",
+          "year": "2024",
+          "title": "Enhanced efficiency in the bilingual brain through the inter-hemispheric cortico-cerebellar pathway",
+          "url": "https://www.nature.com/articles/s42003-024-06965-1"
+        },
+        {
+          "author": "Ripollés et al.",
+          "year": "2021",
+          "title": "The challenge of learning a new language in adulthood: Evidence from a multi-methodological neuroscientific approach",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33606715/"
         }
       ]
     },
@@ -52353,9 +55754,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "NASA Science",
-          "title": "Ladder of Life Detection",
-          "url": "https://science.nasa.gov/astrobiology/researchers/life-detection-resources/ladder-of-life-detection/"
+          "author": "Perani et al.",
+          "year": "1998",
+          "title": "The bilingual brain: Proficiency and age of acquisition of the second language",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9798741/"
+        },
+        {
+          "author": "Kousaie et al.",
+          "year": "2024",
+          "title": "Enhanced efficiency in the bilingual brain through the inter-hemispheric cortico-cerebellar pathway",
+          "url": "https://www.nature.com/articles/s42003-024-06965-1"
+        },
+        {
+          "author": "Ripollés et al.",
+          "year": "2021",
+          "title": "The challenge of learning a new language in adulthood: Evidence from a multi-methodological neuroscientific approach",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33606715/"
         }
       ],
       "grammarTest": null,
@@ -52464,9 +55878,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Exoplanets, Biosignatures and Scientific Restraint”?",
+        "prompt": "Which response best fits the unit “Age, Aptitude and Individual Differences”?",
         "options": [
-          "Strong discovery claims require converging observations, explicit alternative hypotheses and instruments capable of testing rather than merely repeating an anomaly.",
+          "Responsible differentiation changes routes, pacing and support while maintaining ambitious communicative outcomes and revisable expectations.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -53383,11 +56797,11 @@
     ]
   },
   {
-    "slug": "english-c2-exoplanet-biosignatures-vocabulary",
+    "slug": "english-c2-individual-differences-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "exoplanet-biosignatures",
-    "title": "Conceptual Vocabulary: Exoplanets, Biosignatures and Scientific Restraint",
+    "unitId": "individual-differences",
+    "title": "Conceptual Vocabulary: Age, Aptitude and Individual Differences",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
@@ -53400,87 +56814,99 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "biosignature",
-        "translation": "",
-        "definition": "feature that may indicate biological activity",
-        "example": "The essay uses “biosignature” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "spectroscopy",
-        "translation": "",
-        "definition": "analysis of matter through its interaction with light",
-        "example": "The essay uses “spectroscopy” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "atmospheric composition",
-        "translation": "",
-        "definition": "mixture of gases surrounding a planet",
-        "example": "The essay uses “atmospheric composition” to make a precise distinction.",
+        "word": "language aptitude",
+        "translation": "aptitud lingüística",
+        "definition": "profile of capacities associated with language-learning performance",
+        "example": "In the article, “language aptitude” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «aptitud lingüística» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "false positive",
-        "translation": "",
-        "definition": "result incorrectly suggesting the phenomenon sought",
-        "example": "The essay uses “false positive” to make a precise distinction.",
+        "word": "phonological memory",
+        "translation": "memoria fonológica",
+        "definition": "ability to retain unfamiliar sound sequences briefly",
+        "example": "In the article, “phonological memory” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «memoria fonológica» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "abiotic",
-        "translation": "",
-        "definition": "not produced by living processes",
-        "example": "The essay uses “abiotic” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "habitability",
-        "translation": "",
-        "definition": "capacity of an environment to support life",
-        "example": "The essay uses “habitability” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "inferential chain",
-        "translation": "",
-        "definition": "sequence of reasoning from evidence to conclusion",
-        "example": "The essay uses “inferential chain” to make a precise distinction.",
+        "word": "analytic ability",
+        "translation": "capacidad analítica",
+        "definition": "capacity to identify linguistic patterns and relations",
+        "example": "In the article, “analytic ability” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «capacidad analítica» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "signal-to-noise ratio",
-        "translation": "",
-        "definition": "strength of a signal relative to interference",
-        "example": "The essay uses “signal-to-noise ratio” to make a precise distinction.",
+        "word": "processing speed",
+        "translation": "velocidad de procesamiento",
+        "definition": "rate at which information can be handled accurately",
+        "example": "In the article, “processing speed” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «velocidad de procesamiento» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "convergent evidence",
-        "translation": "",
-        "definition": "independent evidence supporting the same conclusion",
-        "example": "The essay uses “convergent evidence” to make a precise distinction.",
+        "word": "learner profile",
+        "translation": "perfil del estudiante",
+        "definition": "structured description of relevant strengths and needs",
+        "example": "In the article, “learner profile” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «perfil del estudiante» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "photochemistry",
-        "translation": "",
-        "definition": "chemical reactions driven by light",
-        "example": "The essay uses “photochemistry” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "observational constraint",
-        "translation": "",
-        "definition": "measurement limiting possible explanations",
-        "example": "The essay uses “observational constraint” to make a precise distinction.",
+        "word": "between-group difference",
+        "translation": "diferencia entre grupos",
+        "definition": "average contrast observed across groups",
+        "example": "In the article, “between-group difference” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «diferencia entre grupos» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "agnostic biosignature",
-        "translation": "",
-        "definition": "possible sign of life not tied to familiar biology",
-        "example": "The essay uses “agnostic biosignature” to make a precise distinction.",
+        "word": "within-group variation",
+        "translation": "variación intragrupal",
+        "definition": "diversity among members of the same group",
+        "example": "In the article, “within-group variation” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «variación intragrupal» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "predictive validity",
+        "translation": "validez predictiva",
+        "definition": "accuracy with which a measure forecasts later outcomes",
+        "example": "In the article, “predictive validity” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «validez predictiva» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "fixed mindset",
+        "translation": "mentalidad fija",
+        "definition": "belief that ability cannot meaningfully develop",
+        "example": "In the article, “fixed mindset” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «mentalidad fija» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "opportunity to learn",
+        "translation": "oportunidad de aprender",
+        "definition": "access to relevant exposure, teaching and practice",
+        "example": "In the article, “opportunity to learn” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «oportunidad de aprender» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "differentiated instruction",
+        "translation": "enseñanza diferenciada",
+        "definition": "adaptation of support or route to learner needs",
+        "example": "In the article, “differentiated instruction” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «enseñanza diferenciada» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "deficit framing",
+        "translation": "enfoque deficitario",
+        "definition": "description of difference primarily as inadequacy",
+        "example": "In the article, “deficit framing” helps the writer analyse age, aptitude and individual differences with greater precision.",
+        "exampleTranslation": "En el artículo, «enfoque deficitario» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       }
     ],
@@ -53491,122 +56917,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “feature that may indicate biological activity”?",
+        "prompt": "Which term means “profile of capacities associated with language-learning performance”?",
         "options": [
-          "false positive",
-          "spectroscopy",
-          "biosignature",
-          "habitability"
+          "processing speed",
+          "phonological memory",
+          "language aptitude",
+          "between-group difference"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “analysis of matter through its interaction with light”?",
+        "prompt": "Which term means “ability to retain unfamiliar sound sequences briefly”?",
         "options": [
-          "abiotic",
-          "atmospheric composition",
-          "spectroscopy",
-          "inferential chain"
+          "learner profile",
+          "analytic ability",
+          "phonological memory",
+          "within-group variation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “mixture of gases surrounding a planet”?",
+        "prompt": "Which term means “capacity to identify linguistic patterns and relations”?",
         "options": [
-          "habitability",
-          "false positive",
-          "atmospheric composition",
-          "signal-to-noise ratio"
+          "between-group difference",
+          "processing speed",
+          "analytic ability",
+          "predictive validity"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “result incorrectly suggesting the phenomenon sought”?",
+        "prompt": "Which term means “rate at which information can be handled accurately”?",
         "options": [
-          "inferential chain",
-          "abiotic",
-          "false positive",
-          "convergent evidence"
+          "within-group variation",
+          "learner profile",
+          "processing speed",
+          "fixed mindset"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “not produced by living processes”?",
+        "prompt": "Which term means “structured description of relevant strengths and needs”?",
         "options": [
-          "signal-to-noise ratio",
-          "habitability",
-          "abiotic",
-          "photochemistry"
+          "predictive validity",
+          "between-group difference",
+          "learner profile",
+          "opportunity to learn"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “capacity of an environment to support life”?",
+        "prompt": "Which term means “average contrast observed across groups”?",
         "options": [
-          "convergent evidence",
-          "inferential chain",
-          "habitability",
-          "observational constraint"
+          "fixed mindset",
+          "within-group variation",
+          "between-group difference",
+          "differentiated instruction"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “sequence of reasoning from evidence to conclusion”?",
+        "prompt": "Which term means “diversity among members of the same group”?",
         "options": [
-          "photochemistry",
-          "signal-to-noise ratio",
-          "inferential chain",
-          "agnostic biosignature"
+          "opportunity to learn",
+          "predictive validity",
+          "within-group variation",
+          "deficit framing"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “strength of a signal relative to interference”?",
+        "prompt": "Which term means “accuracy with which a measure forecasts later outcomes”?",
         "options": [
-          "observational constraint",
-          "convergent evidence",
-          "signal-to-noise ratio",
-          "biosignature"
+          "differentiated instruction",
+          "fixed mindset",
+          "predictive validity",
+          "language aptitude"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “independent evidence supporting the same conclusion”?",
+        "prompt": "Which term means “belief that ability cannot meaningfully develop”?",
         "options": [
-          "agnostic biosignature",
-          "photochemistry",
-          "convergent evidence",
-          "spectroscopy"
+          "deficit framing",
+          "opportunity to learn",
+          "fixed mindset",
+          "phonological memory"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “chemical reactions driven by light”?",
+        "prompt": "Which term means “access to relevant exposure, teaching and practice”?",
         "options": [
-          "biosignature",
-          "observational constraint",
-          "photochemistry",
-          "atmospheric composition"
+          "language aptitude",
+          "differentiated instruction",
+          "opportunity to learn",
+          "analytic ability"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “measurement limiting possible explanations”?",
+        "prompt": "Which term means “adaptation of support or route to learner needs”?",
         "options": [
-          "spectroscopy",
-          "agnostic biosignature",
-          "observational constraint",
-          "false positive"
+          "phonological memory",
+          "deficit framing",
+          "differentiated instruction",
+          "processing speed"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “possible sign of life not tied to familiar biology”?",
+        "prompt": "Which term means “description of difference primarily as inadequacy”?",
         "options": [
-          "atmospheric composition",
-          "biosignature",
-          "agnostic biosignature",
-          "abiotic"
+          "analytic ability",
+          "language aptitude",
+          "deficit framing",
+          "learner profile"
         ]
       }
     ]
@@ -54880,20 +58306,20 @@
     ]
   },
   {
-    "slug": "english-c2-exoplanet-biosignatures-grammar",
+    "slug": "english-c2-individual-differences-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "exoplanet-biosignatures",
-    "title": "Epistemic modality and scalar certainty",
+    "unitId": "individual-differences",
+    "title": "Complex relative and supplementary clauses",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
     "orderIndex": 102,
     "estimatedMinutes": 24,
-    "description": "Use Epistemic modality and scalar certainty to analyse “A Signal Is Not a Discovery”.",
-    "intro": "Use Epistemic modality and scalar certainty to analyse “A Signal Is Not a Discovery”.",
+    "description": "Use Complex relative and supplementary clauses to analyse “Why the Average Learner Does Not Exist”.",
+    "intro": "Use Complex relative and supplementary clauses to analyse “Why the Average Learner Does Not Exist”.",
     "mission": "",
-    "grammar": "Goal: align grammatical commitment with the strength of scientific inference.\n\nRule: Distinguish must, should, may, might conceivably and cannot yet be excluded; combine modality with evidential source and scope to avoid inflated certainty.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “A Signal Is Not a Discovery”.",
+    "grammar": "Goal: add precise learner information without losing the antecedent or status of the evidence.\n\nRule: Control defining and non-defining relatives, preposition plus which/whom, sentential which and reduced relatives so that every modifier has one plausible attachment.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “Why the Average Learner Does Not Exist”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -54906,13 +58332,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-exoplanet-biosignatures-grammar-test",
+        "id": "english-c2-individual-differences-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-exoplanet-biosignatures-grammar-q1",
+            "id": "english-c2-individual-differences-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Epistemic modality and scalar certainty?",
+            "prompt": "Which sentence best demonstrates controlled use of Complex relative and supplementary clauses?",
             "options": [
               {
                 "id": "a",
@@ -54933,9 +58359,9 @@
             ]
           },
           {
-            "id": "english-c2-exoplanet-biosignatures-grammar-q2",
+            "id": "english-c2-individual-differences-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “align grammatical commitment with the strength of scientific inference”?",
+            "prompt": "Which revision best serves the purpose “add precise learner information without losing the antecedent or status of the evidence”?",
             "options": [
               {
                 "id": "a",
@@ -54956,7 +58382,7 @@
             ]
           },
           {
-            "id": "english-c2-exoplanet-biosignatures-grammar-q3",
+            "id": "english-c2-individual-differences-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -54979,7 +58405,7 @@
             ]
           },
           {
-            "id": "english-c2-exoplanet-biosignatures-grammar-q4",
+            "id": "english-c2-individual-differences-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -55002,7 +58428,7 @@
             ]
           },
           {
-            "id": "english-c2-exoplanet-biosignatures-grammar-q5",
+            "id": "english-c2-individual-differences-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -55025,7 +58451,7 @@
             ]
           },
           {
-            "id": "english-c2-exoplanet-biosignatures-grammar-q6",
+            "id": "english-c2-individual-differences-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -55048,7 +58474,7 @@
             ]
           },
           {
-            "id": "english-c2-exoplanet-biosignatures-grammar-q7",
+            "id": "english-c2-individual-differences-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -55071,7 +58497,7 @@
             ]
           },
           {
-            "id": "english-c2-exoplanet-biosignatures-grammar-q8",
+            "id": "english-c2-individual-differences-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -55094,7 +58520,7 @@
             ]
           },
           {
-            "id": "english-c2-exoplanet-biosignatures-grammar-q9",
+            "id": "english-c2-individual-differences-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -55117,9 +58543,9 @@
             ]
           },
           {
-            "id": "english-c2-exoplanet-biosignatures-grammar-q10",
+            "id": "english-c2-individual-differences-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Epistemic modality and scalar certainty?",
+            "prompt": "Which statement accurately describes Complex relative and supplementary clauses?",
             "options": [
               {
                 "id": "a",
@@ -55127,7 +58553,7 @@
               },
               {
                 "id": "b",
-                "text": "Distinguish must, should, may, might conceivably and cannot yet be excluded; combine modality with evidential source and scope to avoid inflated certainty."
+                "text": "Control defining and non-defining relatives, preposition plus which/whom, sentential which and reduced relatives so that every modifier has one plausible attachment."
               },
               {
                 "id": "c",
@@ -55138,14 +58564,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-individual-differences-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Complex relative and supplementary clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-individual-differences-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “add precise learner information without losing the antecedent or status of the evidence”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-individual-differences-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-individual-differences-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-individual-differences-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-individual-differences-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-individual-differences-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-individual-differences-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-individual-differences-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-individual-differences-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Complex relative and supplementary clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Control defining and non-defining relatives, preposition plus which/whom, sentential which and reduced relatives so that every modifier has one plausible attachment."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Epistemic modality and scalar certainty",
-        "context": "Grammar connected to the C2 essay “A Signal Is Not a Discovery”.",
-        "explanation": "Distinguish must, should, may, might conceivably and cannot yet be excluded; combine modality with evidential source and scope to avoid inflated certainty.",
-        "purpose": "align grammatical commitment with the strength of scientific inference",
+        "name": "Complex relative and supplementary clauses",
+        "context": "Grammar connected to the C2 essay “Why the Average Learner Does Not Exist”.",
+        "explanation": "Control defining and non-defining relatives, preposition plus which/whom, sentential which and reduced relatives so that every modifier has one plausible attachment.",
+        "purpose": "add precise learner information without losing the antecedent or status of the evidence",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -55158,25 +58814,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Epistemic modality and scalar certainty?",
+        "prompt": "Which sentence best demonstrates controlled use of Complex relative and supplementary clauses?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Epistemic modality and scalar certainty with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “align grammatical commitment with the strength of scientific inference”?",
+        "prompt": "Which revision best serves the purpose “add precise learner information without losing the antecedent or status of the evidence”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Epistemic modality and scalar certainty with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -55187,7 +58843,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Epistemic modality and scalar certainty with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -55198,7 +58854,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Epistemic modality and scalar certainty with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -55209,7 +58865,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Epistemic modality and scalar certainty with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -55220,7 +58876,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Epistemic modality and scalar certainty with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -55231,7 +58887,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Epistemic modality and scalar certainty with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -55242,7 +58898,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Epistemic modality and scalar certainty with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -55253,18 +58909,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Epistemic modality and scalar certainty with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Epistemic modality and scalar certainty?",
+        "prompt": "Which statement accurately describes Complex relative and supplementary clauses?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Distinguish must, should, may, might conceivably and cannot yet be excluded; combine modality with evidential source and scope to avoid inflated certainty.",
+          "Control defining and non-defining relatives, preposition plus which/whom, sentential which and reduced relatives so that every modifier has one plausible attachment.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Epistemic modality and scalar certainty with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Complex relative and supplementary clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “add precise learner information without losing the antecedent or status of the evidence”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Complex relative and supplementary clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Control defining and non-defining relatives, preposition plus which/whom, sentential which and reduced relatives so that every modifier has one plausible attachment."
+        ],
+        "explanation": "The correct option applies Complex relative and supplementary clauses with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -57892,26 +61658,26 @@
     ]
   },
   {
-    "slug": "english-c2-translation-worldviews-reading",
+    "slug": "english-c2-contextual-vocabulary-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "translation-worldviews",
-    "title": "What Survives Between Languages?",
+    "unitId": "contextual-vocabulary",
+    "title": "A Word Is More Than Its Translation",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 60,
     "orderIndex": 110,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on translation, worldviews and untranslatability.",
-    "intro": "An extended C2 essay on translation, worldviews and untranslatability.",
+    "description": "An extended C2 essay on contextual vocabulary, glosses and semantic networks.",
+    "intro": "An extended C2 essay on contextual vocabulary, glosses and semantic networks.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "What Survives Between Languages?",
-      "text": "What Survives Between Languages? begins with a difficulty that resists the usual demand for a simple position. Literary and cultural translation does not move a stable package of meaning between interchangeable codes; it reconstructs relations among voice, history and expectation. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nClaims of untranslatability protect difference but can also romanticise linguistic isolation and underestimate creative interpretation. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nEthical translation makes losses and choices visible, preserves productive strangeness and treats readers as capable of encountering unfamiliar conceptual worlds. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "A Word Is More Than Its Translation",
+      "text": "A Word Is More Than Its Translation begins with a difficulty that resists the usual demand for a simple position. Knowing a word includes form, meaning, collocation, register, grammatical behaviour and the contexts in which one interpretation becomes preferable. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nTranslation and glosses can accelerate access, but isolated equivalence may encourage learners to treat partially overlapping words as interchangeable. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nVocabulary instruction should connect concise L1 support with rich L2 examples, retrieval, word families and repeated encounters across contrasting contexts. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -57919,9 +61685,22 @@
       ],
       "references": [
         {
-          "author": "UNESCO",
-          "title": "Multilingualism and Linguistic Diversity",
-          "url": "https://www.unesco.org/en/multilingualism-linguistic-diversity"
+          "author": "Yanagisawa, Webb et Uchihara",
+          "year": "2020",
+          "title": "How do different forms of glossing contribute to L2 vocabulary learning?",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/how-do-different-forms-of-glossing-contribute-to-l2-vocabulary-learning-from-reading/38124150D59DF3039EE1FF5AE88FE922"
+        },
+        {
+          "author": "Yu et Trainin",
+          "year": "2022",
+          "title": "A meta-analysis examining technology-assisted L2 vocabulary learning",
+          "url": "https://www.cambridge.org/core/journals/recall/article/metaanalysis-examining-technologyassisted-l2-vocabulary-learning/08A549A6CFD1078406E6A4F8AFE28184"
+        },
+        {
+          "author": "Webb, Uchihara et Yanagisawa",
+          "year": "2023",
+          "title": "How effective is second language incidental vocabulary learning? A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/how-effective-is-second-language-incidental-vocabulary-learning-a-metaanalysis/E38E3468FD2090B1FA3051051DE8E70C"
         }
       ]
     },
@@ -57929,9 +61708,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "UNESCO",
-          "title": "Multilingualism and Linguistic Diversity",
-          "url": "https://www.unesco.org/en/multilingualism-linguistic-diversity"
+          "author": "Yanagisawa, Webb et Uchihara",
+          "year": "2020",
+          "title": "How do different forms of glossing contribute to L2 vocabulary learning?",
+          "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/how-do-different-forms-of-glossing-contribute-to-l2-vocabulary-learning-from-reading/38124150D59DF3039EE1FF5AE88FE922"
+        },
+        {
+          "author": "Yu et Trainin",
+          "year": "2022",
+          "title": "A meta-analysis examining technology-assisted L2 vocabulary learning",
+          "url": "https://www.cambridge.org/core/journals/recall/article/metaanalysis-examining-technologyassisted-l2-vocabulary-learning/08A549A6CFD1078406E6A4F8AFE28184"
+        },
+        {
+          "author": "Webb, Uchihara et Yanagisawa",
+          "year": "2023",
+          "title": "How effective is second language incidental vocabulary learning? A meta-analysis",
+          "url": "https://www.cambridge.org/core/journals/language-teaching/article/how-effective-is-second-language-incidental-vocabulary-learning-a-metaanalysis/E38E3468FD2090B1FA3051051DE8E70C"
         }
       ],
       "grammarTest": null,
@@ -58040,9 +61832,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Translation, Worldviews and Untranslatability”?",
+        "prompt": "Which response best fits the unit “Contextual Vocabulary, Glosses and Semantic Networks”?",
         "options": [
-          "Ethical translation makes losses and choices visible, preserves productive strangeness and treats readers as capable of encountering unfamiliar conceptual worlds.",
+          "Vocabulary instruction should connect concise L1 support with rich L2 examples, retrieval, word families and repeated encounters across contrasting contexts.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -58698,11 +62490,11 @@
     ]
   },
   {
-    "slug": "english-c2-translation-worldviews-vocabulary",
+    "slug": "english-c2-contextual-vocabulary-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "translation-worldviews",
-    "title": "Conceptual Vocabulary: Translation, Worldviews and Untranslatability",
+    "unitId": "contextual-vocabulary",
+    "title": "Conceptual Vocabulary: Contextual Vocabulary, Glosses and Semantic Networks",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
@@ -58715,87 +62507,99 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "untranslatability",
-        "translation": "",
-        "definition": "resistance to complete transfer between languages",
-        "example": "The essay uses “untranslatability” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "semantic range",
-        "translation": "",
-        "definition": "set of meanings a form may carry",
-        "example": "The essay uses “semantic range” to make a precise distinction.",
+        "word": "lexical depth",
+        "translation": "profundidad léxica",
+        "definition": "quality and interconnectedness of knowledge about a word",
+        "example": "In the article, “lexical depth” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «profundidad léxica» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "pragmatic force",
-        "translation": "",
-        "definition": "effect an utterance has in context",
-        "example": "The essay uses “pragmatic force” to make a precise distinction.",
+        "word": "semantic network",
+        "translation": "red semántica",
+        "definition": "system of meaning relations among lexical items",
+        "example": "In the article, “semantic network” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «red semántica» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "domestication",
-        "translation": "",
-        "definition": "translation adapted strongly to target expectations",
-        "example": "The essay uses “domestication” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "foreignisation",
-        "translation": "",
-        "definition": "translation preserving features of source difference",
-        "example": "The essay uses “foreignisation” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "cultural mediation",
-        "translation": "",
-        "definition": "interpretation between cultural contexts",
-        "example": "The essay uses “cultural mediation” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "paratext",
-        "translation": "",
-        "definition": "material surrounding a main text, such as notes",
-        "example": "The essay uses “paratext” to make a precise distinction.",
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "equivalence",
-        "translation": "",
-        "definition": "claimed correspondence between forms or meanings",
-        "example": "The essay uses “equivalence” to make a precise distinction.",
+        "word": "collocation",
+        "translation": "colocación",
+        "definition": "words that conventionally occur together",
+        "example": "In the article, “collocation” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «colocación» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
         "word": "polysemy",
-        "translation": "",
-        "definition": "presence of multiple related meanings",
-        "example": "The essay uses “polysemy” to make a precise distinction.",
+        "translation": "polisemia",
+        "definition": "presence of several related meanings in one form",
+        "example": "In the article, “polysemy” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «polisemia» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "register shift",
-        "translation": "",
-        "definition": "change in social or stylistic level",
-        "example": "The essay uses “register shift” to make a precise distinction.",
+        "word": "register",
+        "translation": "registro",
+        "definition": "language variation associated with situation and social relationship",
+        "example": "In the article, “register” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «registro» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "word family",
+        "translation": "familia de palabras",
+        "definition": "set of morphologically related forms",
+        "example": "In the article, “word family” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «familia de palabras» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "interpretive loss",
-        "translation": "",
-        "definition": "meaning diminished through interpretation",
-        "example": "The essay uses “interpretive loss” to make a precise distinction.",
+        "word": "formulaic sequence",
+        "translation": "secuencia formulaica",
+        "definition": "multiword unit stored or processed as a recurring pattern",
+        "example": "In the article, “formulaic sequence” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «secuencia formulaica» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "linguistic relativity",
-        "translation": "",
-        "definition": "relationship between language and habitual thought",
-        "example": "The essay uses “linguistic relativity” to make a precise distinction.",
+        "word": "contextual inference",
+        "translation": "inferencia contextual",
+        "definition": "derivation of meaning from surrounding discourse",
+        "example": "In the article, “contextual inference” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «inferencia contextual» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "bilingual gloss",
+        "translation": "glosa bilingüe",
+        "definition": "brief L1 support attached to an L2 item",
+        "example": "In the article, “bilingual gloss” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «glosa bilingüe» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "semantic prosody",
+        "translation": "prosodia semántica",
+        "definition": "evaluative colouring created by typical co-occurrences",
+        "example": "In the article, “semantic prosody” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «prosodia semántica» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "receptive knowledge",
+        "translation": "conocimiento receptivo",
+        "definition": "ability to understand a form when encountered",
+        "example": "In the article, “receptive knowledge” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «conocimiento receptivo» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "productive knowledge",
+        "translation": "conocimiento productivo",
+        "definition": "ability to retrieve and use a form appropriately",
+        "example": "In the article, “productive knowledge” helps the writer analyse contextual vocabulary, glosses and semantic networks with greater precision.",
+        "exampleTranslation": "En el artículo, «conocimiento productivo» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       }
     ],
@@ -58806,122 +62610,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “resistance to complete transfer between languages”?",
+        "prompt": "Which term means “quality and interconnectedness of knowledge about a word”?",
         "options": [
-          "domestication",
-          "semantic range",
-          "untranslatability",
-          "cultural mediation"
+          "polysemy",
+          "semantic network",
+          "lexical depth",
+          "word family"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “set of meanings a form may carry”?",
+        "prompt": "Which term means “system of meaning relations among lexical items”?",
         "options": [
-          "foreignisation",
-          "pragmatic force",
-          "semantic range",
-          "paratext"
+          "register",
+          "collocation",
+          "semantic network",
+          "formulaic sequence"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “effect an utterance has in context”?",
+        "prompt": "Which term means “words that conventionally occur together”?",
         "options": [
-          "cultural mediation",
-          "domestication",
-          "pragmatic force",
-          "equivalence"
+          "word family",
+          "polysemy",
+          "collocation",
+          "contextual inference"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “translation adapted strongly to target expectations”?",
+        "prompt": "Which term means “presence of several related meanings in one form”?",
         "options": [
-          "paratext",
-          "foreignisation",
-          "domestication",
+          "formulaic sequence",
+          "register",
+          "polysemy",
+          "bilingual gloss"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which term means “language variation associated with situation and social relationship”?",
+        "options": [
+          "contextual inference",
+          "word family",
+          "register",
+          "semantic prosody"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which term means “set of morphologically related forms”?",
+        "options": [
+          "bilingual gloss",
+          "formulaic sequence",
+          "word family",
+          "receptive knowledge"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which term means “multiword unit stored or processed as a recurring pattern”?",
+        "options": [
+          "semantic prosody",
+          "contextual inference",
+          "formulaic sequence",
+          "productive knowledge"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which term means “derivation of meaning from surrounding discourse”?",
+        "options": [
+          "receptive knowledge",
+          "bilingual gloss",
+          "contextual inference",
+          "lexical depth"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which term means “brief L1 support attached to an L2 item”?",
+        "options": [
+          "productive knowledge",
+          "semantic prosody",
+          "bilingual gloss",
+          "semantic network"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which term means “evaluative colouring created by typical co-occurrences”?",
+        "options": [
+          "lexical depth",
+          "receptive knowledge",
+          "semantic prosody",
+          "collocation"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which term means “ability to understand a form when encountered”?",
+        "options": [
+          "semantic network",
+          "productive knowledge",
+          "receptive knowledge",
           "polysemy"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “translation preserving features of source difference”?",
+        "prompt": "Which term means “ability to retrieve and use a form appropriately”?",
         "options": [
-          "equivalence",
-          "cultural mediation",
-          "foreignisation",
-          "register shift"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term means “interpretation between cultural contexts”?",
-        "options": [
-          "polysemy",
-          "paratext",
-          "cultural mediation",
-          "interpretive loss"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term means “material surrounding a main text, such as notes”?",
-        "options": [
-          "register shift",
-          "equivalence",
-          "paratext",
-          "linguistic relativity"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term means “claimed correspondence between forms or meanings”?",
-        "options": [
-          "interpretive loss",
-          "polysemy",
-          "equivalence",
-          "untranslatability"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term means “presence of multiple related meanings”?",
-        "options": [
-          "linguistic relativity",
-          "register shift",
-          "polysemy",
-          "semantic range"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term means “change in social or stylistic level”?",
-        "options": [
-          "untranslatability",
-          "interpretive loss",
-          "register shift",
-          "pragmatic force"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term means “meaning diminished through interpretation”?",
-        "options": [
-          "semantic range",
-          "linguistic relativity",
-          "interpretive loss",
-          "domestication"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term means “relationship between language and habitual thought”?",
-        "options": [
-          "pragmatic force",
-          "untranslatability",
-          "linguistic relativity",
-          "foreignisation"
+          "collocation",
+          "lexical depth",
+          "productive knowledge",
+          "register"
         ]
       }
     ]
@@ -60133,20 +63937,20 @@
     ]
   },
   {
-    "slug": "english-c2-translation-worldviews-grammar",
+    "slug": "english-c2-contextual-vocabulary-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "translation-worldviews",
-    "title": "Ellipsis, substitution and cohesive economy",
+    "unitId": "contextual-vocabulary",
+    "title": "Nominalisation and grammatical metaphor",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
     "orderIndex": 112,
     "estimatedMinutes": 24,
-    "description": "Use Ellipsis, substitution and cohesive economy to analyse “What Survives Between Languages?”.",
-    "intro": "Use Ellipsis, substitution and cohesive economy to analyse “What Survives Between Languages?”.",
+    "description": "Use Nominalisation and grammatical metaphor to analyse “A Word Is More Than Its Translation”.",
+    "intro": "Use Nominalisation and grammatical metaphor to analyse “A Word Is More Than Its Translation”.",
     "mission": "",
-    "grammar": "Goal: create sophisticated cohesion without ambiguous omission.\n\nRule: Use do so, so/not, one/ones, auxiliary ellipsis and comparative deletion when the recoverable material is exact; repeat the noun when competing antecedents exist.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “What Survives Between Languages?”.",
+    "grammar": "Goal: build lexical analysis while keeping agents, time and causal relations recoverable.\n\nRule: Use nominalisation for conceptual continuity, then unpack dense noun phrases with finite clauses whenever compression would obscure who did what and when.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “A Word Is More Than Its Translation”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -60159,13 +63963,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-translation-worldviews-grammar-test",
+        "id": "english-c2-contextual-vocabulary-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-translation-worldviews-grammar-q1",
+            "id": "english-c2-contextual-vocabulary-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Ellipsis, substitution and cohesive economy?",
+            "prompt": "Which sentence best demonstrates controlled use of Nominalisation and grammatical metaphor?",
             "options": [
               {
                 "id": "a",
@@ -60186,9 +63990,9 @@
             ]
           },
           {
-            "id": "english-c2-translation-worldviews-grammar-q2",
+            "id": "english-c2-contextual-vocabulary-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “create sophisticated cohesion without ambiguous omission”?",
+            "prompt": "Which revision best serves the purpose “build lexical analysis while keeping agents, time and causal relations recoverable”?",
             "options": [
               {
                 "id": "a",
@@ -60209,7 +64013,7 @@
             ]
           },
           {
-            "id": "english-c2-translation-worldviews-grammar-q3",
+            "id": "english-c2-contextual-vocabulary-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -60232,7 +64036,7 @@
             ]
           },
           {
-            "id": "english-c2-translation-worldviews-grammar-q4",
+            "id": "english-c2-contextual-vocabulary-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -60255,7 +64059,7 @@
             ]
           },
           {
-            "id": "english-c2-translation-worldviews-grammar-q5",
+            "id": "english-c2-contextual-vocabulary-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -60278,7 +64082,7 @@
             ]
           },
           {
-            "id": "english-c2-translation-worldviews-grammar-q6",
+            "id": "english-c2-contextual-vocabulary-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -60301,7 +64105,7 @@
             ]
           },
           {
-            "id": "english-c2-translation-worldviews-grammar-q7",
+            "id": "english-c2-contextual-vocabulary-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -60324,7 +64128,7 @@
             ]
           },
           {
-            "id": "english-c2-translation-worldviews-grammar-q8",
+            "id": "english-c2-contextual-vocabulary-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -60347,7 +64151,7 @@
             ]
           },
           {
-            "id": "english-c2-translation-worldviews-grammar-q9",
+            "id": "english-c2-contextual-vocabulary-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -60370,9 +64174,9 @@
             ]
           },
           {
-            "id": "english-c2-translation-worldviews-grammar-q10",
+            "id": "english-c2-contextual-vocabulary-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Ellipsis, substitution and cohesive economy?",
+            "prompt": "Which statement accurately describes Nominalisation and grammatical metaphor?",
             "options": [
               {
                 "id": "a",
@@ -60380,7 +64184,7 @@
               },
               {
                 "id": "b",
-                "text": "Use do so, so/not, one/ones, auxiliary ellipsis and comparative deletion when the recoverable material is exact; repeat the noun when competing antecedents exist."
+                "text": "Use nominalisation for conceptual continuity, then unpack dense noun phrases with finite clauses whenever compression would obscure who did what and when."
               },
               {
                 "id": "c",
@@ -60391,14 +64195,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-contextual-vocabulary-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Nominalisation and grammatical metaphor?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-contextual-vocabulary-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “build lexical analysis while keeping agents, time and causal relations recoverable”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-contextual-vocabulary-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-contextual-vocabulary-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-contextual-vocabulary-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-contextual-vocabulary-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-contextual-vocabulary-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-contextual-vocabulary-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-contextual-vocabulary-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-contextual-vocabulary-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Nominalisation and grammatical metaphor?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Use nominalisation for conceptual continuity, then unpack dense noun phrases with finite clauses whenever compression would obscure who did what and when."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Ellipsis, substitution and cohesive economy",
-        "context": "Grammar connected to the C2 essay “What Survives Between Languages?”.",
-        "explanation": "Use do so, so/not, one/ones, auxiliary ellipsis and comparative deletion when the recoverable material is exact; repeat the noun when competing antecedents exist.",
-        "purpose": "create sophisticated cohesion without ambiguous omission",
+        "name": "Nominalisation and grammatical metaphor",
+        "context": "Grammar connected to the C2 essay “A Word Is More Than Its Translation”.",
+        "explanation": "Use nominalisation for conceptual continuity, then unpack dense noun phrases with finite clauses whenever compression would obscure who did what and when.",
+        "purpose": "build lexical analysis while keeping agents, time and causal relations recoverable",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -60411,25 +64445,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Ellipsis, substitution and cohesive economy?",
+        "prompt": "Which sentence best demonstrates controlled use of Nominalisation and grammatical metaphor?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Ellipsis, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “create sophisticated cohesion without ambiguous omission”?",
+        "prompt": "Which revision best serves the purpose “build lexical analysis while keeping agents, time and causal relations recoverable”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Ellipsis, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -60440,7 +64474,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Ellipsis, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -60451,7 +64485,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Ellipsis, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -60462,7 +64496,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Ellipsis, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -60473,7 +64507,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Ellipsis, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -60484,7 +64518,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Ellipsis, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -60495,7 +64529,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Ellipsis, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -60506,18 +64540,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Ellipsis, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Ellipsis, substitution and cohesive economy?",
+        "prompt": "Which statement accurately describes Nominalisation and grammatical metaphor?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Use do so, so/not, one/ones, auxiliary ellipsis and comparative deletion when the recoverable material is exact; repeat the noun when competing antecedents exist.",
+          "Use nominalisation for conceptual continuity, then unpack dense noun phrases with finite clauses whenever compression would obscure who did what and when.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Ellipsis, substitution and cohesive economy with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Nominalisation and grammatical metaphor?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “build lexical analysis while keeping agents, time and causal relations recoverable”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Nominalisation and grammatical metaphor?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Use nominalisation for conceptual continuity, then unpack dense noun phrases with finite clauses whenever compression would obscure who did what and when."
+        ],
+        "explanation": "The correct option applies Nominalisation and grammatical metaphor with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -62409,26 +66553,26 @@
     ]
   },
   {
-    "slug": "english-c2-existential-risk-reading",
+    "slug": "english-c2-ai-language-tutoring-reading",
     "level": "C2",
     "skill": "reading",
-    "unitId": "existential-risk",
-    "title": "The Ethics of Unborn Generations",
+    "unitId": "ai-language-tutoring",
+    "title": "A Fluent Answer Is Not Always a Reliable Teacher",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 60,
     "orderIndex": 120,
     "estimatedMinutes": 32,
-    "description": "An extended C2 essay on existential risk and obligations to the future.",
-    "intro": "An extended C2 essay on existential risk and obligations to the future.",
+    "description": "An extended C2 essay on artificial intelligence and the future of language tutoring.",
+    "intro": "An extended C2 essay on artificial intelligence and the future of language tutoring.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "The Ethics of Unborn Generations",
-      "text": "The Ethics of Unborn Generations begins with a difficulty that resists the usual demand for a simple position. Long-term risk analysis asks present institutions to consider harms whose probability, scale and timing are radically uncertain. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nAttention to catastrophic risk can correct political short-termism, yet abstract future populations may displace urgent duties to people already vulnerable. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nSerious long-term governance should connect prevention with present justice, democratic accountability and policies valuable across several plausible futures. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
+      "title": "A Fluent Answer Is Not Always a Reliable Teacher",
+      "text": "A Fluent Answer Is Not Always a Reliable Teacher begins with a difficulty that resists the usual demand for a simple position. Generative systems can create examples, explanations and simulated interaction at scale, but linguistic fluency does not guarantee factual or pedagogical reliability. At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.\n\nThe issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.\n\nPersonalisation may increase practice while obscuring data use, reinforcing learner errors or narrowing instruction to what an automated system can easily measure. The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.\n\nEvidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.\n\nLanguage plays a constitutive role. Passive constructions can appropriately foreground a process, but they can also remove the actor responsible for it. Nominalisation can condense a chain of reasoning, yet an overloaded noun phrase may conceal time, causation or disagreement. Modal verbs similarly encode a hierarchy of confidence: what must follow logically is not the same as what may occur under a scenario.\n\nA serious counterargument deserves more than ceremonial mention. It should identify the strongest competing explanation, specify the evidence that would support it and show which premise of the original claim it challenges. This practice differs from false balance: not every position has equal evidential standing, but every consequential conclusion benefits from exposure to the best available objection.\n\nHistorical comparison can sharpen that objection, provided analogy is not mistaken for identity. Earlier controversies reveal how categories, institutions and incentives developed; they do not mechanically predict the present. The disciplined reader asks which structural features genuinely recur, which differences alter the causal pathway and whose archive has been preserved strongly enough to shape the comparison.\n\nScale further complicates evaluation. A policy that appears efficient globally may impose concentrated costs locally; an intervention that succeeds in a controlled setting may depend on institutions unavailable elsewhere. Distribution is therefore not an optional ethical appendix. It changes feasibility, compliance and the durability of the result.\n\nImplementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.\n\nResponsible AI tutoring requires transparent limits, human oversight, privacy protection and evaluation based on learning rather than novelty or conversational polish. This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.\n\nThe broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.\n\nUltimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.",
       "questions": [
         "What is the essay’s central analytical demand?",
         "Why is the innovation-versus-restraint framing incomplete?",
@@ -62436,10 +66580,22 @@
       ],
       "references": [
         {
-          "author": "United Nations",
+          "author": "Guan, Zhang et Gu",
           "year": "2024",
-          "title": "Pact for the Future",
-          "url": "https://www.un.org/pact-for-the-future/en/pact-future-0"
+          "title": "Examining generative AI-mediated informal digital learning of English practices",
+          "url": "https://www.cambridge.org/core/journals/recall/article/examining-generative-aimediated-informal-digital-learning-of-english-practices-with-social-cognitive-theory/F9B7ACD7BFEC6A3864463DD7F228AC27"
+        },
+        {
+          "author": "Koç et Savaş",
+          "year": "2024",
+          "title": "The use of artificially intelligent chatbots in English language learning",
+          "url": "https://www.cambridge.org/core/journals/recall/article/use-of-artificially-intelligent-chatbots-in-english-language-learning-a-systematic-metasynthesis-study-of-articles-published-between-2010-and-2024/118654390007CCA33DEAD142D45C8D4F"
+        },
+        {
+          "author": "Bao et al.",
+          "year": "2025",
+          "title": "A systematic review of AI in second language acquisition using the expanded SAMR model",
+          "url": "https://link.springer.com/article/10.1007/s10791-025-09833-6"
         }
       ]
     },
@@ -62447,10 +66603,22 @@
     "extra": {
       "readingReferences": [
         {
-          "author": "United Nations",
+          "author": "Guan, Zhang et Gu",
           "year": "2024",
-          "title": "Pact for the Future",
-          "url": "https://www.un.org/pact-for-the-future/en/pact-future-0"
+          "title": "Examining generative AI-mediated informal digital learning of English practices",
+          "url": "https://www.cambridge.org/core/journals/recall/article/examining-generative-aimediated-informal-digital-learning-of-english-practices-with-social-cognitive-theory/F9B7ACD7BFEC6A3864463DD7F228AC27"
+        },
+        {
+          "author": "Koç et Savaş",
+          "year": "2024",
+          "title": "The use of artificially intelligent chatbots in English language learning",
+          "url": "https://www.cambridge.org/core/journals/recall/article/use-of-artificially-intelligent-chatbots-in-english-language-learning-a-systematic-metasynthesis-study-of-articles-published-between-2010-and-2024/118654390007CCA33DEAD142D45C8D4F"
+        },
+        {
+          "author": "Bao et al.",
+          "year": "2025",
+          "title": "A systematic review of AI in second language acquisition using the expanded SAMR model",
+          "url": "https://link.springer.com/article/10.1007/s10791-025-09833-6"
         }
       ],
       "grammarTest": null,
@@ -62559,9 +66727,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which response best fits the unit “Existential Risk and Obligations to the Future”?",
+        "prompt": "Which response best fits the unit “Artificial Intelligence and the Future of Language Tutoring”?",
         "options": [
-          "Serious long-term governance should connect prevention with present justice, democratic accountability and policies valuable across several plausible futures.",
+          "Responsible AI tutoring requires transparent limits, human oversight, privacy protection and evaluation based on learning rather than novelty or conversational polish.",
           "No institutional response is possible",
           "Only individual opinion matters",
           "Evidence should remain private"
@@ -63207,11 +67375,11 @@
     ]
   },
   {
-    "slug": "english-c2-existential-risk-vocabulary",
+    "slug": "english-c2-ai-language-tutoring-vocabulary",
     "level": "C2",
     "skill": "vocabulary",
-    "unitId": "existential-risk",
-    "title": "Conceptual Vocabulary: Existential Risk and Obligations to the Future",
+    "unitId": "ai-language-tutoring",
+    "title": "Conceptual Vocabulary: Artificial Intelligence and the Future of Language Tutoring",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
@@ -63224,87 +67392,99 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "existential risk",
-        "translation": "",
-        "definition": "risk threatening humanity’s long-term potential or survival",
-        "example": "The essay uses “existential risk” to make a precise distinction.",
+        "word": "generative model",
+        "translation": "modelo generativo",
+        "definition": "system producing new output from learned statistical patterns",
+        "example": "In the article, “generative model” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «modelo generativo» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "intergenerational",
-        "translation": "",
-        "definition": "involving relationships between generations",
-        "example": "The essay uses “intergenerational” to make a precise distinction.",
+        "word": "hallucination",
+        "translation": "alucinación",
+        "definition": "confidently generated content unsupported by reliable evidence",
+        "example": "In the article, “hallucination” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «alucinación» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "expected value",
-        "translation": "",
-        "definition": "probability-weighted value of possible outcomes",
-        "example": "The essay uses “expected value” to make a precise distinction.",
+        "word": "adaptive feedback",
+        "translation": "retroalimentación adaptativa",
+        "definition": "response modified according to learner performance",
+        "example": "In the article, “adaptive feedback” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «retroalimentación adaptativa» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "fat-tailed risk",
-        "translation": "",
-        "definition": "risk distribution allowing extreme outcomes",
-        "example": "The essay uses “fat-tailed risk” to make a precise distinction.",
+        "word": "learner model",
+        "translation": "modelo del estudiante",
+        "definition": "computational representation of a student’s knowledge or needs",
+        "example": "In the article, “learner model” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «modelo del estudiante» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "moral uncertainty",
-        "translation": "",
-        "definition": "uncertainty about which ethical theory is correct",
-        "example": "The essay uses “moral uncertainty” to make a precise distinction.",
+        "word": "algorithmic bias",
+        "translation": "sesgo algorítmico",
+        "definition": "systematic unfairness produced or amplified by an automated system",
+        "example": "In the article, “algorithmic bias” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «sesgo algorítmico» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "option value",
-        "translation": "",
-        "definition": "benefit of preserving future choices",
-        "example": "The essay uses “option value” to make a precise distinction.",
+        "word": "data provenance",
+        "translation": "procedencia de los datos",
+        "definition": "documented origin and processing history of data",
+        "example": "In the article, “data provenance” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «procedencia de los datos» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "discount rate",
-        "translation": "",
-        "definition": "rate reducing the present value of future effects",
-        "example": "The essay uses “discount rate” to make a precise distinction.",
+        "word": "human oversight",
+        "translation": "supervisión humana",
+        "definition": "meaningful review and intervention by accountable people",
+        "example": "In the article, “human oversight” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «supervisión humana» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       },
       {
-        "word": "precautionary principle",
-        "translation": "",
-        "definition": "reason to prevent serious harm despite uncertainty",
-        "example": "The essay uses “precautionary principle” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "catastrophic threshold",
-        "translation": "",
-        "definition": "point beyond which damage becomes extreme",
-        "example": "The essay uses “catastrophic threshold” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "robust policy",
-        "translation": "",
-        "definition": "policy performing acceptably across scenarios",
-        "example": "The essay uses “robust policy” to make a precise distinction.",
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "longtermism",
-        "translation": "",
-        "definition": "view emphasising effects on the far future",
-        "example": "The essay uses “longtermism” to make a precise distinction.",
+        "word": "explainability",
+        "translation": "explicabilidad",
+        "definition": "capacity to provide understandable reasons for a system’s output",
+        "example": "In the article, “explainability” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «explicabilidad» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "noun"
       },
       {
-        "word": "present bias",
-        "translation": "",
-        "definition": "tendency to favour immediate outcomes",
-        "example": "The essay uses “present bias” to make a precise distinction.",
+        "word": "automation bias",
+        "translation": "sesgo de automatización",
+        "definition": "tendency to over-trust computer-generated recommendations",
+        "example": "In the article, “automation bias” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «sesgo de automatización» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "privacy by design",
+        "translation": "privacidad desde el diseño",
+        "definition": "integration of data protection into a system from the outset",
+        "example": "In the article, “privacy by design” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «privacidad desde el diseño» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "pedagogical validity",
+        "translation": "validez pedagógica",
+        "definition": "evidence that a tool supports its claimed learning purpose",
+        "example": "In the article, “pedagogical validity” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «validez pedagógica» ayuda a analizar el tema con mayor precisión.",
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "benchmark leakage",
+        "translation": "filtración del banco de pruebas",
+        "definition": "contamination of evaluation through prior exposure to test material",
+        "example": "In the article, “benchmark leakage” helps the writer analyse artificial intelligence and the future of language tutoring with greater precision.",
+        "exampleTranslation": "En el artículo, «filtración del banco de pruebas» ayuda a analizar el tema con mayor precisión.",
         "partOfSpeech": "phrase"
       }
     ],
@@ -63315,122 +67495,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which term means “risk threatening humanity’s long-term potential or survival”?",
+        "prompt": "Which term means “system producing new output from learned statistical patterns”?",
         "options": [
-          "fat-tailed risk",
-          "intergenerational",
-          "existential risk",
-          "option value"
+          "learner model",
+          "hallucination",
+          "generative model",
+          "data provenance"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “involving relationships between generations”?",
+        "prompt": "Which term means “confidently generated content unsupported by reliable evidence”?",
         "options": [
-          "moral uncertainty",
-          "expected value",
-          "intergenerational",
-          "discount rate"
+          "algorithmic bias",
+          "adaptive feedback",
+          "hallucination",
+          "human oversight"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “probability-weighted value of possible outcomes”?",
+        "prompt": "Which term means “response modified according to learner performance”?",
         "options": [
-          "option value",
-          "fat-tailed risk",
-          "expected value",
-          "precautionary principle"
+          "data provenance",
+          "learner model",
+          "adaptive feedback",
+          "explainability"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “risk distribution allowing extreme outcomes”?",
+        "prompt": "Which term means “computational representation of a student’s knowledge or needs”?",
         "options": [
-          "discount rate",
-          "moral uncertainty",
-          "fat-tailed risk",
-          "catastrophic threshold"
+          "human oversight",
+          "algorithmic bias",
+          "learner model",
+          "automation bias"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “uncertainty about which ethical theory is correct”?",
+        "prompt": "Which term means “systematic unfairness produced or amplified by an automated system”?",
         "options": [
-          "precautionary principle",
-          "option value",
-          "moral uncertainty",
-          "robust policy"
+          "explainability",
+          "data provenance",
+          "algorithmic bias",
+          "privacy by design"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “benefit of preserving future choices”?",
+        "prompt": "Which term means “documented origin and processing history of data”?",
         "options": [
-          "catastrophic threshold",
-          "discount rate",
-          "option value",
-          "longtermism"
+          "automation bias",
+          "human oversight",
+          "data provenance",
+          "pedagogical validity"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “rate reducing the present value of future effects”?",
+        "prompt": "Which term means “meaningful review and intervention by accountable people”?",
         "options": [
-          "robust policy",
-          "precautionary principle",
-          "discount rate",
-          "present bias"
+          "privacy by design",
+          "explainability",
+          "human oversight",
+          "benchmark leakage"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “reason to prevent serious harm despite uncertainty”?",
+        "prompt": "Which term means “capacity to provide understandable reasons for a system’s output”?",
         "options": [
-          "longtermism",
-          "catastrophic threshold",
-          "precautionary principle",
-          "existential risk"
+          "pedagogical validity",
+          "automation bias",
+          "explainability",
+          "generative model"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “point beyond which damage becomes extreme”?",
+        "prompt": "Which term means “tendency to over-trust computer-generated recommendations”?",
         "options": [
-          "present bias",
-          "robust policy",
-          "catastrophic threshold",
-          "intergenerational"
+          "benchmark leakage",
+          "privacy by design",
+          "automation bias",
+          "hallucination"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “policy performing acceptably across scenarios”?",
+        "prompt": "Which term means “integration of data protection into a system from the outset”?",
         "options": [
-          "existential risk",
-          "longtermism",
-          "robust policy",
-          "expected value"
+          "generative model",
+          "pedagogical validity",
+          "privacy by design",
+          "adaptive feedback"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “view emphasising effects on the far future”?",
+        "prompt": "Which term means “evidence that a tool supports its claimed learning purpose”?",
         "options": [
-          "intergenerational",
-          "present bias",
-          "longtermism",
-          "fat-tailed risk"
+          "hallucination",
+          "benchmark leakage",
+          "pedagogical validity",
+          "learner model"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which term means “tendency to favour immediate outcomes”?",
+        "prompt": "Which term means “contamination of evaluation through prior exposure to test material”?",
         "options": [
-          "expected value",
-          "existential risk",
-          "present bias",
-          "moral uncertainty"
+          "adaptive feedback",
+          "generative model",
+          "benchmark leakage",
+          "algorithmic bias"
         ]
       }
     ]
@@ -64642,20 +68822,20 @@
     ]
   },
   {
-    "slug": "english-c2-existential-risk-grammar",
+    "slug": "english-c2-ai-language-tutoring-grammar",
     "level": "C2",
     "skill": "grammar",
-    "unitId": "existential-risk",
-    "title": "Dense noun phrases and postmodification",
+    "unitId": "ai-language-tutoring",
+    "title": "Distancing, evidentiality and qualified reporting",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 50,
     "orderIndex": 122,
     "estimatedMinutes": 24,
-    "description": "Use Dense noun phrases and postmodification to analyse “The Ethics of Unborn Generations”.",
-    "intro": "Use Dense noun phrases and postmodification to analyse “The Ethics of Unborn Generations”.",
+    "description": "Use Distancing, evidentiality and qualified reporting to analyse “A Fluent Answer Is Not Always a Reliable Teacher”.",
+    "intro": "Use Distancing, evidentiality and qualified reporting to analyse “A Fluent Answer Is Not Always a Reliable Teacher”.",
     "mission": "",
-    "grammar": "Goal: construct and decode information-rich C2 academic sentences.\n\nRule: Build noun phrases with coordinated premodifiers and layered relative, prepositional and participle postmodification; control attachment so each modifier has one plausible head.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “The Ethics of Unborn Generations”.",
+    "grammar": "Goal: evaluate technological claims without confusing reported performance with independently verified learning.\n\nRule: Use reportedly, is claimed to, appears to have, according to and evidence suggests while naming the source, scope and limitations of the attributed claim.\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “A Fluent Answer Is Not Always a Reliable Teacher”.",
     "phrases": [
       "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
       "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -64668,13 +68848,13 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "english-c2-existential-risk-grammar-test",
+        "id": "english-c2-ai-language-tutoring-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "english-c2-existential-risk-grammar-q1",
+            "id": "english-c2-ai-language-tutoring-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Dense noun phrases and postmodification?",
+            "prompt": "Which sentence best demonstrates controlled use of Distancing, evidentiality and qualified reporting?",
             "options": [
               {
                 "id": "a",
@@ -64695,9 +68875,9 @@
             ]
           },
           {
-            "id": "english-c2-existential-risk-grammar-q2",
+            "id": "english-c2-ai-language-tutoring-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “construct and decode information-rich C2 academic sentences”?",
+            "prompt": "Which revision best serves the purpose “evaluate technological claims without confusing reported performance with independently verified learning”?",
             "options": [
               {
                 "id": "a",
@@ -64718,7 +68898,7 @@
             ]
           },
           {
-            "id": "english-c2-existential-risk-grammar-q3",
+            "id": "english-c2-ai-language-tutoring-grammar-q3",
             "type": "mcq",
             "prompt": "Which sentence most accurately calibrates certainty?",
             "options": [
@@ -64741,7 +68921,7 @@
             ]
           },
           {
-            "id": "english-c2-existential-risk-grammar-q4",
+            "id": "english-c2-ai-language-tutoring-grammar-q4",
             "type": "mcq",
             "prompt": "Which option maintains an appropriately formal C2 register?",
             "options": [
@@ -64764,7 +68944,7 @@
             ]
           },
           {
-            "id": "english-c2-existential-risk-grammar-q5",
+            "id": "english-c2-ai-language-tutoring-grammar-q5",
             "type": "mcq",
             "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
@@ -64787,7 +68967,7 @@
             ]
           },
           {
-            "id": "english-c2-existential-risk-grammar-q6",
+            "id": "english-c2-ai-language-tutoring-grammar-q6",
             "type": "mcq",
             "prompt": "Which option avoids concealing responsibility?",
             "options": [
@@ -64810,7 +68990,7 @@
             ]
           },
           {
-            "id": "english-c2-existential-risk-grammar-q7",
+            "id": "english-c2-ai-language-tutoring-grammar-q7",
             "type": "mcq",
             "prompt": "Which sentence integrates a substantial counterargument?",
             "options": [
@@ -64833,7 +69013,7 @@
             ]
           },
           {
-            "id": "english-c2-existential-risk-grammar-q8",
+            "id": "english-c2-ai-language-tutoring-grammar-q8",
             "type": "mcq",
             "prompt": "Which conclusion is most appropriately qualified?",
             "options": [
@@ -64856,7 +69036,7 @@
             ]
           },
           {
-            "id": "english-c2-existential-risk-grammar-q9",
+            "id": "english-c2-ai-language-tutoring-grammar-q9",
             "type": "mcq",
             "prompt": "Which sentence shows cohesive control across clauses?",
             "options": [
@@ -64879,9 +69059,9 @@
             ]
           },
           {
-            "id": "english-c2-existential-risk-grammar-q10",
+            "id": "english-c2-ai-language-tutoring-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Dense noun phrases and postmodification?",
+            "prompt": "Which statement accurately describes Distancing, evidentiality and qualified reporting?",
             "options": [
               {
                 "id": "a",
@@ -64889,7 +69069,7 @@
               },
               {
                 "id": "b",
-                "text": "Build noun phrases with coordinated premodifiers and layered relative, prepositional and participle postmodification; control attachment so each modifier has one plausible head."
+                "text": "Use reportedly, is claimed to, appears to have, according to and evidence suggests while naming the source, scope and limitations of the attributed claim."
               },
               {
                 "id": "c",
@@ -64900,14 +69080,244 @@
                 "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
               }
             ]
+          },
+          {
+            "id": "english-c2-ai-language-tutoring-grammar-q11",
+            "type": "mcq",
+            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Distancing, evidentiality and qualified reporting?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "Although the evidence remains incomplete, the conclusion may still be provisionally warranted."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-ai-language-tutoring-grammar-q12",
+            "type": "mcq",
+            "prompt": "Advanced application 12: Which revision best serves the purpose “evaluate technological claims without confusing reported performance with independently verified learning”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Even granting the objection, the narrower claim remains defensible on the available evidence."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-ai-language-tutoring-grammar-q13",
+            "type": "mcq",
+            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-ai-language-tutoring-grammar-q14",
+            "type": "mcq",
+            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-ai-language-tutoring-grammar-q15",
+            "type": "mcq",
+            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-ai-language-tutoring-grammar-q16",
+            "type": "mcq",
+            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-ai-language-tutoring-grammar-q17",
+            "type": "mcq",
+            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-ai-language-tutoring-grammar-q18",
+            "type": "mcq",
+            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-ai-language-tutoring-grammar-q19",
+            "type": "mcq",
+            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The first account explains the timing; the second, the institutional conditions that made the outcome possible."
+              },
+              {
+                "id": "d",
+                "text": "Having considered by the evidence, the policy definitely must perhaps succeed."
+              }
+            ]
+          },
+          {
+            "id": "english-c2-ai-language-tutoring-grammar-q20",
+            "type": "mcq",
+            "prompt": "Advanced application 20: Which statement accurately describes Distancing, evidentiality and qualified reporting?",
+            "options": [
+              {
+                "id": "a",
+                "text": "The claim proves itself because complexity always guarantees accuracy."
+              },
+              {
+                "id": "b",
+                "text": "Evidence is being perhaps conclusion without any stated limitation."
+              },
+              {
+                "id": "c",
+                "text": "The issue is very big and people should basically fix it somehow."
+              },
+              {
+                "id": "d",
+                "text": "Use reportedly, is claimed to, appears to have, according to and evidence suggests while naming the source, scope and limitations of the attributed claim."
+              }
+            ]
           }
         ]
       },
       "grammarProfile": {
-        "name": "Dense noun phrases and postmodification",
-        "context": "Grammar connected to the C2 essay “The Ethics of Unborn Generations”.",
-        "explanation": "Build noun phrases with coordinated premodifiers and layered relative, prepositional and participle postmodification; control attachment so each modifier has one plausible head.",
-        "purpose": "construct and decode information-rich C2 academic sentences",
+        "name": "Distancing, evidentiality and qualified reporting",
+        "context": "Grammar connected to the C2 essay “A Fluent Answer Is Not Always a Reliable Teacher”.",
+        "explanation": "Use reportedly, is claimed to, appears to have, according to and evidence suggests while naming the source, scope and limitations of the attributed claim.",
+        "purpose": "evaluate technological claims without confusing reported performance with independently verified learning",
         "examples": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
@@ -64920,25 +69330,25 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which sentence best demonstrates controlled use of Dense noun phrases and postmodification?",
+        "prompt": "Which sentence best demonstrates controlled use of Distancing, evidentiality and qualified reporting?",
         "options": [
           "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
           "Evidence is being perhaps conclusion without any stated limitation.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Dense noun phrases and postmodification with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which revision best serves the purpose “construct and decode information-rich C2 academic sentences”?",
+        "prompt": "Which revision best serves the purpose “evaluate technological claims without confusing reported performance with independently verified learning”?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
           "Even granting the objection, the narrower claim remains defensible on the available evidence.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Dense noun phrases and postmodification with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -64949,7 +69359,7 @@
           "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Dense noun phrases and postmodification with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -64960,7 +69370,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "The proposal warrants scrutiny insofar as its assumptions have not been independently tested."
         ],
-        "explanation": "The correct option applies Dense noun phrases and postmodification with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -64971,7 +69381,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Dense noun phrases and postmodification with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -64982,7 +69392,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Dense noun phrases and postmodification with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -64993,7 +69403,7 @@
           "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Dense noun phrases and postmodification with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -65004,7 +69414,7 @@
           "The issue is very big and people should basically fix it somehow.",
           "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable."
         ],
-        "explanation": "The correct option applies Dense noun phrases and postmodification with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
@@ -65015,18 +69425,128 @@
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Dense noun phrases and postmodification with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
       },
       {
         "type": "mcq",
-        "prompt": "Which statement accurately describes Dense noun phrases and postmodification?",
+        "prompt": "Which statement accurately describes Distancing, evidentiality and qualified reporting?",
         "options": [
           "The claim proves itself because complexity always guarantees accuracy.",
-          "Build noun phrases with coordinated premodifiers and layered relative, prepositional and participle postmodification; control attachment so each modifier has one plausible head.",
+          "Use reportedly, is claimed to, appears to have, according to and evidence suggests while naming the source, scope and limitations of the attributed claim.",
           "The issue is very big and people should basically fix it somehow.",
           "Having considered by the evidence, the policy definitely must perhaps succeed."
         ],
-        "explanation": "The correct option applies Dense noun phrases and postmodification with controlled form, scope, register and evidential commitment."
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Distancing, evidentiality and qualified reporting?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "Although the evidence remains incomplete, the conclusion may still be provisionally warranted.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 12: Which revision best serves the purpose “evaluate technological claims without confusing reported performance with independently verified learning”?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Even granting the objection, the narrower claim remains defensible on the available evidence."
+        ],
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+        "options": [
+          "The mechanism cannot yet be confirmed, though it should not be excluded from further analysis.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "The proposal warrants scrutiny insofar as its assumptions have not been independently tested.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The observation supports the hypothesis; it does not, by itself, establish the predicted causal pathway.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "The regulatory agency delayed publication, leaving affected communities unable to evaluate the decision."
+        ],
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+        "options": [
+          "Much as the model improves prediction, it does not resolve the distributional question on which implementation depends.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "On balance, the policy appears defensible, provided that its safeguards remain independently enforceable.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The first account explains the timing; the second, the institutional conditions that made the outcome possible.",
+          "Having considered by the evidence, the policy definitely must perhaps succeed."
+        ],
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Advanced application 20: Which statement accurately describes Distancing, evidentiality and qualified reporting?",
+        "options": [
+          "The claim proves itself because complexity always guarantees accuracy.",
+          "Evidence is being perhaps conclusion without any stated limitation.",
+          "The issue is very big and people should basically fix it somehow.",
+          "Use reportedly, is claimed to, appears to have, according to and evidence suggests while naming the source, scope and limitations of the attributed claim."
+        ],
+        "explanation": "The correct option applies Distancing, evidentiality and qualified reporting with controlled form, scope, register and evidential commitment."
       }
     ]
   },
@@ -66562,15 +71082,15 @@
     }
   },
   {
-    "id": "epistemic-fragmentation",
-    "slug": "epistemic-fragmentation",
+    "id": "adult-neuroplasticity",
+    "slug": "adult-neuroplasticity",
     "level": "C2",
-    "title": "Epistemic Fragmentation and Public Knowledge",
-    "titleEs": "Epistemic Fragmentation and Public Knowledge",
-    "description": "C2 interdisciplinary inquiry: When Facts Lose Their Common Ground.",
+    "title": "Adult Neuroplasticity and Second-Language Mastery",
+    "titleEs": "Adult Neuroplasticity and Second-Language Mastery",
+    "description": "C2 interdisciplinary inquiry: The Adult Brain Is Still Learning.",
     "order": 1,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in epistemic fragmentation and public knowledge.",
+      "objective": "Evaluate competing frameworks in adult neuroplasticity and second-language mastery.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -66578,17 +71098,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Layered concession and counterexpectation"
+        "Calibrated comparison and concessive clauses"
       ],
       "vocabulary": [
-        "epistemic",
-        "provenance",
-        "corroboration",
-        "falsifiability",
-        "testimonial",
-        "adjudicate"
+        "neuroplasticity",
+        "sensitive period",
+        "functional network",
+        "grey matter",
+        "cross-sectional study",
+        "causal inference"
       ],
-      "scenario": "When Facts Lose Their Common Ground"
+      "scenario": "The Adult Brain Is Still Learning"
     }
   },
   {
@@ -66714,15 +71234,15 @@
     }
   },
   {
-    "id": "quantum-security",
-    "slug": "quantum-security",
+    "id": "retrieval-spacing",
+    "slug": "retrieval-spacing",
     "level": "C2",
-    "title": "Quantum Computing and Cryptographic Transition",
-    "titleEs": "Quantum Computing and Cryptographic Transition",
-    "description": "C2 interdisciplinary inquiry: Security Before the Breakthrough.",
+    "title": "Retrieval Practice, Spacing and Durable Learning",
+    "titleEs": "Retrieval Practice, Spacing and Durable Learning",
+    "description": "C2 interdisciplinary inquiry: Why Remembering Is Harder Than Rereading.",
     "order": 2,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in quantum computing and cryptographic transition.",
+      "objective": "Evaluate competing frameworks in retrieval practice, spacing and durable learning.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -66730,17 +71250,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Future-in-the-past and prospective perfect aspect"
+        "Non-finite clauses and information compression"
       ],
       "vocabulary": [
-        "cryptographic",
-        "decryption",
-        "fault-tolerant",
-        "computationally intractable",
-        "interoperability",
-        "migration pathway"
+        "retrieval practice",
+        "spacing effect",
+        "desirable difficulty",
+        "memory trace",
+        "familiarity illusion",
+        "interference"
       ],
-      "scenario": "Security Before the Breakthrough"
+      "scenario": "Why Remembering Is Harder Than Rereading"
     }
   },
   {
@@ -66866,15 +71386,15 @@
     }
   },
   {
-    "id": "synthetic-biology",
-    "slug": "synthetic-biology",
+    "id": "sleep-consolidation",
+    "slug": "sleep-consolidation",
     "level": "C2",
-    "title": "Synthetic Biology and the Governance of Creation",
-    "titleEs": "Synthetic Biology and the Governance of Creation",
-    "description": "C2 interdisciplinary inquiry: Designing Life, Distributing Risk.",
+    "title": "Sleep, Memory and Vocabulary Consolidation",
+    "titleEs": "Sleep, Memory and Vocabulary Consolidation",
+    "description": "C2 interdisciplinary inquiry: What Sleep Does After Study.",
     "order": 3,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in synthetic biology and the governance of creation.",
+      "objective": "Evaluate competing frameworks in sleep, memory and vocabulary consolidation.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -66882,17 +71402,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Advanced passive and responsibility framing"
+        "Temporal perspective and perfect aspect"
       ],
       "vocabulary": [
-        "biosafety",
-        "biosecurity",
-        "containment",
-        "gene drive",
-        "dual-use",
-        "ecological release"
+        "memory consolidation",
+        "lexical integration",
+        "encoding",
+        "slow-wave sleep",
+        "rapid eye movement sleep",
+        "offline processing"
       ],
-      "scenario": "Designing Life, Distributing Risk"
+      "scenario": "What Sleep Does After Study"
     }
   },
   {
@@ -67018,15 +71538,15 @@
     }
   },
   {
-    "id": "solar-geoengineering",
-    "slug": "solar-geoengineering",
+    "id": "incidental-acquisition",
+    "slug": "incidental-acquisition",
     "level": "C2",
-    "title": "Solar Geoengineering and Climate Authority",
-    "titleEs": "Solar Geoengineering and Climate Authority",
-    "description": "C2 interdisciplinary inquiry: Who May Dim the Sun?.",
+    "title": "Comprehensible Input and Incidental Acquisition",
+    "titleEs": "Comprehensible Input and Incidental Acquisition",
+    "description": "C2 interdisciplinary inquiry: Understanding More Than You Were Taught.",
     "order": 4,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in solar geoengineering and climate authority.",
+      "objective": "Evaluate competing frameworks in comprehensible input and incidental acquisition.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -67034,17 +71554,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Inversion across complex negative adverbials"
+        "Hedging and epistemic modality"
       ],
       "vocabulary": [
-        "radiative forcing",
-        "stratospheric aerosol",
-        "termination shock",
-        "deployment threshold",
-        "transboundary",
-        "moral hazard"
+        "comprehensible input",
+        "incidental learning",
+        "noticing",
+        "input flood",
+        "lexical coverage",
+        "inferencing"
       ],
-      "scenario": "Who May Dim the Sun?"
+      "scenario": "Understanding More Than You Were Taught"
     }
   },
   {
@@ -67169,15 +71689,15 @@
     }
   },
   {
-    "id": "neurotechnology-agency",
-    "slug": "neurotechnology-agency",
+    "id": "multimodal-learning",
+    "slug": "multimodal-learning",
     "level": "C2",
-    "title": "Neurotechnology, Agency and Mental Privacy",
-    "titleEs": "Neurotechnology, Agency and Mental Privacy",
-    "description": "C2 interdisciplinary inquiry: The Last Private Territory.",
+    "title": "Reading, Listening and Multimodal Learning",
+    "titleEs": "Reading, Listening and Multimodal Learning",
+    "description": "C2 interdisciplinary inquiry: When Words, Sound and Image Compete.",
     "order": 5,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in neurotechnology, agency and mental privacy.",
+      "objective": "Evaluate competing frameworks in reading, listening and multimodal learning.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -67185,17 +71705,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Clefting, fronting and thematic progression"
+        "Referencing, substitution and cohesive economy"
       ],
       "vocabulary": [
-        "neural inference",
-        "cognitive liberty",
-        "mental privacy",
-        "probabilistic",
-        "neurodiscrimination",
-        "informed consent"
+        "multimodality",
+        "dual coding",
+        "captioning",
+        "redundancy effect",
+        "split attention",
+        "signalling"
       ],
-      "scenario": "The Last Private Territory"
+      "scenario": "When Words, Sound and Image Compete"
     }
   },
   {
@@ -67320,15 +71840,15 @@
     }
   },
   {
-    "id": "democratic-resilience",
-    "slug": "democratic-resilience",
+    "id": "interaction-output",
+    "slug": "interaction-output",
     "level": "C2",
-    "title": "Democratic Resilience and Institutional Erosion",
-    "titleEs": "Democratic Resilience and Institutional Erosion",
-    "description": "C2 interdisciplinary inquiry: The Coup That Never Arrives.",
+    "title": "Interaction, Output and Negotiation of Meaning",
+    "titleEs": "Interaction, Output and Negotiation of Meaning",
+    "description": "C2 interdisciplinary inquiry: Learning in the Repair of Conversation.",
     "order": 6,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in democratic resilience and institutional erosion.",
+      "objective": "Evaluate competing frameworks in interaction, output and negotiation of meaning.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -67336,17 +71856,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Complex conditionals with implicit premises"
+        "Reported speech and polyphonic stance"
       ],
       "vocabulary": [
-        "democratic backsliding",
-        "institutional capture",
-        "executive aggrandisement",
-        "checks and balances",
-        "incremental",
-        "pluralism"
+        "negotiation of meaning",
+        "comprehension check",
+        "clarification request",
+        "confirmation check",
+        "modified output",
+        "pushed output"
       ],
-      "scenario": "The Coup That Never Arrives"
+      "scenario": "Learning in the Repair of Conversation"
     }
   },
   {
@@ -67472,15 +71992,15 @@
     }
   },
   {
-    "id": "global-tax-justice",
-    "slug": "global-tax-justice",
+    "id": "corrective-feedback",
+    "slug": "corrective-feedback",
     "level": "C2",
-    "title": "Global Taxation, Mobility and Justice",
-    "titleEs": "Global Taxation, Mobility and Justice",
-    "description": "C2 interdisciplinary inquiry: Where Does Profit Belong?.",
+    "title": "Corrective Feedback and the Productive Role of Error",
+    "titleEs": "Corrective Feedback and the Productive Role of Error",
+    "description": "C2 interdisciplinary inquiry: Which Errors Should Interrupt the Conversation?.",
     "order": 7,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in global taxation, mobility and justice.",
+      "objective": "Evaluate competing frameworks in corrective feedback and the productive role of error.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -67488,17 +72008,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Nominalisation, grammatical metaphor and unpacking"
+        "Mandative structures and evaluative subjunctives"
       ],
       "vocabulary": [
-        "tax base",
-        "profit shifting",
-        "jurisdiction",
-        "beneficial ownership",
-        "transfer pricing",
-        "tax incidence"
+        "corrective feedback",
+        "recast",
+        "elicitation",
+        "metalinguistic clue",
+        "uptake",
+        "repair"
       ],
-      "scenario": "Where Does Profit Belong?"
+      "scenario": "Which Errors Should Interrupt the Conversation?"
     }
   },
   {
@@ -67624,15 +72144,15 @@
     }
   },
   {
-    "id": "museum-restitution",
-    "slug": "museum-restitution",
+    "id": "speech-perception",
+    "slug": "speech-perception",
     "level": "C2",
-    "title": "Museum Restitution and Colonial Collections",
-    "titleEs": "Museum Restitution and Colonial Collections",
-    "description": "C2 interdisciplinary inquiry: The Object That Refuses to Stay Silent.",
+    "title": "Speech Perception, Accent and Pronunciation Training",
+    "titleEs": "Speech Perception, Accent and Pronunciation Training",
+    "description": "C2 interdisciplinary inquiry: Hearing the Contrast Before Producing It.",
     "order": 8,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in museum restitution and colonial collections.",
+      "objective": "Evaluate competing frameworks in speech perception, accent and pronunciation training.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -67640,17 +72160,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Distancing, evidentiality and attributed stance"
+        "Passive voice and accountable agency"
       ],
       "vocabulary": [
-        "restitution",
-        "repatriation",
-        "provenance research",
-        "inalienable",
-        "custodianship",
-        "colonial acquisition"
+        "phonemic contrast",
+        "categorical perception",
+        "perceptual assimilation",
+        "minimal pair",
+        "allophonic variation",
+        "intelligibility"
       ],
-      "scenario": "The Object That Refuses to Stay Silent"
+      "scenario": "Hearing the Contrast Before Producing It"
     }
   },
   {
@@ -67775,15 +72295,15 @@
     }
   },
   {
-    "id": "rights-of-nature",
-    "slug": "rights-of-nature",
+    "id": "anxiety-attention",
+    "slug": "anxiety-attention",
     "level": "C2",
-    "title": "Rights of Nature and Legal Personhood",
-    "titleEs": "Rights of Nature and Legal Personhood",
-    "description": "C2 interdisciplinary inquiry: Can a River Speak in Court?.",
+    "title": "Language Anxiety, Attention and Working Memory",
+    "titleEs": "Language Anxiety, Attention and Working Memory",
+    "description": "C2 interdisciplinary inquiry: When Self-Monitoring Consumes the Message.",
     "order": 9,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in rights of nature and legal personhood.",
+      "objective": "Evaluate competing frameworks in language anxiety, attention and working memory.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -67791,17 +72311,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Subjunctive, mandative and formulaic legal structures"
+        "Mixed and implicit conditionals"
       ],
       "vocabulary": [
-        "legal personhood",
-        "standing",
-        "rights-bearing",
-        "guardianship",
-        "ecological integrity",
-        "remedy"
+        "language anxiety",
+        "working memory",
+        "attentional control",
+        "self-monitoring",
+        "cognitive load",
+        "evaluation apprehension"
       ],
-      "scenario": "Can a River Speak in Court?"
+      "scenario": "When Self-Monitoring Consumes the Message"
     }
   },
   {
@@ -67926,15 +72446,15 @@
     }
   },
   {
-    "id": "exoplanet-biosignatures",
-    "slug": "exoplanet-biosignatures",
+    "id": "individual-differences",
+    "slug": "individual-differences",
     "level": "C2",
-    "title": "Exoplanets, Biosignatures and Scientific Restraint",
-    "titleEs": "Exoplanets, Biosignatures and Scientific Restraint",
-    "description": "C2 interdisciplinary inquiry: A Signal Is Not a Discovery.",
+    "title": "Age, Aptitude and Individual Differences",
+    "titleEs": "Age, Aptitude and Individual Differences",
+    "description": "C2 interdisciplinary inquiry: Why the Average Learner Does Not Exist.",
     "order": 10,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in exoplanets, biosignatures and scientific restraint.",
+      "objective": "Evaluate competing frameworks in age, aptitude and individual differences.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -67942,17 +72462,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Epistemic modality and scalar certainty"
+        "Complex relative and supplementary clauses"
       ],
       "vocabulary": [
-        "biosignature",
-        "spectroscopy",
-        "atmospheric composition",
-        "false positive",
-        "abiotic",
-        "habitability"
+        "language aptitude",
+        "phonological memory",
+        "analytic ability",
+        "processing speed",
+        "learner profile",
+        "between-group difference"
       ],
-      "scenario": "A Signal Is Not a Discovery"
+      "scenario": "Why the Average Learner Does Not Exist"
     }
   },
   {
@@ -68050,15 +72570,15 @@
     }
   },
   {
-    "id": "translation-worldviews",
-    "slug": "translation-worldviews",
+    "id": "contextual-vocabulary",
+    "slug": "contextual-vocabulary",
     "level": "C2",
-    "title": "Translation, Worldviews and Untranslatability",
-    "titleEs": "Translation, Worldviews and Untranslatability",
-    "description": "C2 interdisciplinary inquiry: What Survives Between Languages?.",
+    "title": "Contextual Vocabulary, Glosses and Semantic Networks",
+    "titleEs": "Contextual Vocabulary, Glosses and Semantic Networks",
+    "description": "C2 interdisciplinary inquiry: A Word Is More Than Its Translation.",
     "order": 11,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in translation, worldviews and untranslatability.",
+      "objective": "Evaluate competing frameworks in contextual vocabulary, glosses and semantic networks.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -68066,17 +72586,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Ellipsis, substitution and cohesive economy"
+        "Nominalisation and grammatical metaphor"
       ],
       "vocabulary": [
-        "untranslatability",
-        "semantic range",
-        "pragmatic force",
-        "domestication",
-        "foreignisation",
-        "cultural mediation"
+        "lexical depth",
+        "semantic network",
+        "collocation",
+        "polysemy",
+        "register",
+        "word family"
       ],
-      "scenario": "What Survives Between Languages?"
+      "scenario": "A Word Is More Than Its Translation"
     }
   },
   {
@@ -68174,15 +72694,15 @@
     }
   },
   {
-    "id": "existential-risk",
-    "slug": "existential-risk",
+    "id": "ai-language-tutoring",
+    "slug": "ai-language-tutoring",
     "level": "C2",
-    "title": "Existential Risk and Obligations to the Future",
-    "titleEs": "Existential Risk and Obligations to the Future",
-    "description": "C2 interdisciplinary inquiry: The Ethics of Unborn Generations.",
+    "title": "Artificial Intelligence and the Future of Language Tutoring",
+    "titleEs": "Artificial Intelligence and the Future of Language Tutoring",
+    "description": "C2 interdisciplinary inquiry: A Fluent Answer Is Not Always a Reliable Teacher.",
     "order": 12,
     "unitOverview": {
-      "objective": "Evaluate competing frameworks in existential risk and obligations to the future.",
+      "objective": "Evaluate competing frameworks in artificial intelligence and the future of language tutoring.",
       "outcomes": [
         "reconstruct implicit premises",
         "evaluate layered evidence",
@@ -68190,17 +72710,17 @@
         "control advanced grammar and register"
       ],
       "grammar": [
-        "Dense noun phrases and postmodification"
+        "Distancing, evidentiality and qualified reporting"
       ],
       "vocabulary": [
-        "existential risk",
-        "intergenerational",
-        "expected value",
-        "fat-tailed risk",
-        "moral uncertainty",
-        "option value"
+        "generative model",
+        "hallucination",
+        "adaptive feedback",
+        "learner model",
+        "algorithmic bias",
+        "data provenance"
       ],
-      "scenario": "The Ethics of Unborn Generations"
+      "scenario": "A Fluent Answer Is Not Always a Reliable Teacher"
     }
   }
 ];

@@ -3005,366 +3005,6 @@
     }
   },
   {
-    "slug": "epistemic-fragmentation",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Epistemic Fragmentation and Public Knowledge",
-    "title_es": "Epistemic Fragmentation and Public Knowledge",
-    "description": "C2 interdisciplinary inquiry: When Facts Lose Their Common Ground.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in epistemic fragmentation and public knowledge.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Layered concession and counterexpectation"
-      ],
-      "vocabulary": [
-        "epistemic",
-        "provenance",
-        "corroboration",
-        "falsifiability",
-        "testimonial",
-        "adjudicate"
-      ],
-      "scenario": "When Facts Lose Their Common Ground"
-    }
-  },
-  {
-    "slug": "quantum-security",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Quantum Computing and Cryptographic Transition",
-    "title_es": "Quantum Computing and Cryptographic Transition",
-    "description": "C2 interdisciplinary inquiry: Security Before the Breakthrough.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in quantum computing and cryptographic transition.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Future-in-the-past and prospective perfect aspect"
-      ],
-      "vocabulary": [
-        "cryptographic",
-        "decryption",
-        "fault-tolerant",
-        "computationally intractable",
-        "interoperability",
-        "migration pathway"
-      ],
-      "scenario": "Security Before the Breakthrough"
-    }
-  },
-  {
-    "slug": "synthetic-biology",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Synthetic Biology and the Governance of Creation",
-    "title_es": "Synthetic Biology and the Governance of Creation",
-    "description": "C2 interdisciplinary inquiry: Designing Life, Distributing Risk.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in synthetic biology and the governance of creation.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Advanced passive and responsibility framing"
-      ],
-      "vocabulary": [
-        "biosafety",
-        "biosecurity",
-        "containment",
-        "gene drive",
-        "dual-use",
-        "ecological release"
-      ],
-      "scenario": "Designing Life, Distributing Risk"
-    }
-  },
-  {
-    "slug": "solar-geoengineering",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Solar Geoengineering and Climate Authority",
-    "title_es": "Solar Geoengineering and Climate Authority",
-    "description": "C2 interdisciplinary inquiry: Who May Dim the Sun?.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in solar geoengineering and climate authority.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Inversion across complex negative adverbials"
-      ],
-      "vocabulary": [
-        "radiative forcing",
-        "stratospheric aerosol",
-        "termination shock",
-        "deployment threshold",
-        "transboundary",
-        "moral hazard"
-      ],
-      "scenario": "Who May Dim the Sun?"
-    }
-  },
-  {
-    "slug": "neurotechnology-agency",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Neurotechnology, Agency and Mental Privacy",
-    "title_es": "Neurotechnology, Agency and Mental Privacy",
-    "description": "C2 interdisciplinary inquiry: The Last Private Territory.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in neurotechnology, agency and mental privacy.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Clefting, fronting and thematic progression"
-      ],
-      "vocabulary": [
-        "neural inference",
-        "cognitive liberty",
-        "mental privacy",
-        "probabilistic",
-        "neurodiscrimination",
-        "informed consent"
-      ],
-      "scenario": "The Last Private Territory"
-    }
-  },
-  {
-    "slug": "democratic-resilience",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Democratic Resilience and Institutional Erosion",
-    "title_es": "Democratic Resilience and Institutional Erosion",
-    "description": "C2 interdisciplinary inquiry: The Coup That Never Arrives.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in democratic resilience and institutional erosion.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Complex conditionals with implicit premises"
-      ],
-      "vocabulary": [
-        "democratic backsliding",
-        "institutional capture",
-        "executive aggrandisement",
-        "checks and balances",
-        "incremental",
-        "pluralism"
-      ],
-      "scenario": "The Coup That Never Arrives"
-    }
-  },
-  {
-    "slug": "global-tax-justice",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Global Taxation, Mobility and Justice",
-    "title_es": "Global Taxation, Mobility and Justice",
-    "description": "C2 interdisciplinary inquiry: Where Does Profit Belong?.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in global taxation, mobility and justice.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Nominalisation, grammatical metaphor and unpacking"
-      ],
-      "vocabulary": [
-        "tax base",
-        "profit shifting",
-        "jurisdiction",
-        "beneficial ownership",
-        "transfer pricing",
-        "tax incidence"
-      ],
-      "scenario": "Where Does Profit Belong?"
-    }
-  },
-  {
-    "slug": "museum-restitution",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Museum Restitution and Colonial Collections",
-    "title_es": "Museum Restitution and Colonial Collections",
-    "description": "C2 interdisciplinary inquiry: The Object That Refuses to Stay Silent.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in museum restitution and colonial collections.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Distancing, evidentiality and attributed stance"
-      ],
-      "vocabulary": [
-        "restitution",
-        "repatriation",
-        "provenance research",
-        "inalienable",
-        "custodianship",
-        "colonial acquisition"
-      ],
-      "scenario": "The Object That Refuses to Stay Silent"
-    }
-  },
-  {
-    "slug": "rights-of-nature",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Rights of Nature and Legal Personhood",
-    "title_es": "Rights of Nature and Legal Personhood",
-    "description": "C2 interdisciplinary inquiry: Can a River Speak in Court?.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in rights of nature and legal personhood.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Subjunctive, mandative and formulaic legal structures"
-      ],
-      "vocabulary": [
-        "legal personhood",
-        "standing",
-        "rights-bearing",
-        "guardianship",
-        "ecological integrity",
-        "remedy"
-      ],
-      "scenario": "Can a River Speak in Court?"
-    }
-  },
-  {
-    "slug": "exoplanet-biosignatures",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Exoplanets, Biosignatures and Scientific Restraint",
-    "title_es": "Exoplanets, Biosignatures and Scientific Restraint",
-    "description": "C2 interdisciplinary inquiry: A Signal Is Not a Discovery.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in exoplanets, biosignatures and scientific restraint.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Epistemic modality and scalar certainty"
-      ],
-      "vocabulary": [
-        "biosignature",
-        "spectroscopy",
-        "atmospheric composition",
-        "false positive",
-        "abiotic",
-        "habitability"
-      ],
-      "scenario": "A Signal Is Not a Discovery"
-    }
-  },
-  {
-    "slug": "translation-worldviews",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Translation, Worldviews and Untranslatability",
-    "title_es": "Translation, Worldviews and Untranslatability",
-    "description": "C2 interdisciplinary inquiry: What Survives Between Languages?.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in translation, worldviews and untranslatability.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Ellipsis, substitution and cohesive economy"
-      ],
-      "vocabulary": [
-        "untranslatability",
-        "semantic range",
-        "pragmatic force",
-        "domestication",
-        "foreignisation",
-        "cultural mediation"
-      ],
-      "scenario": "What Survives Between Languages?"
-    }
-  },
-  {
-    "slug": "existential-risk",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Existential Risk and Obligations to the Future",
-    "title_es": "Existential Risk and Obligations to the Future",
-    "description": "C2 interdisciplinary inquiry: The Ethics of Unborn Generations.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in existential risk and obligations to the future.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Dense noun phrases and postmodification"
-      ],
-      "vocabulary": [
-        "existential risk",
-        "intergenerational",
-        "expected value",
-        "fat-tailed risk",
-        "moral uncertainty",
-        "option value"
-      ],
-      "scenario": "The Ethics of Unborn Generations"
-    }
-  },
-  {
     "slug": "neuroplasticite-adulte",
     "target_language": "french",
     "level": "C2",
@@ -3782,6 +3422,366 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "slug": "adult-neuroplasticity",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Adult Neuroplasticity and Second-Language Mastery",
+    "title_es": "Adult Neuroplasticity and Second-Language Mastery",
+    "description": "C2 interdisciplinary inquiry: The Adult Brain Is Still Learning.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in adult neuroplasticity and second-language mastery.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Calibrated comparison and concessive clauses"
+      ],
+      "vocabulary": [
+        "neuroplasticity",
+        "sensitive period",
+        "functional network",
+        "grey matter",
+        "cross-sectional study",
+        "causal inference"
+      ],
+      "scenario": "The Adult Brain Is Still Learning"
+    }
+  },
+  {
+    "slug": "retrieval-spacing",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Retrieval Practice, Spacing and Durable Learning",
+    "title_es": "Retrieval Practice, Spacing and Durable Learning",
+    "description": "C2 interdisciplinary inquiry: Why Remembering Is Harder Than Rereading.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in retrieval practice, spacing and durable learning.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Non-finite clauses and information compression"
+      ],
+      "vocabulary": [
+        "retrieval practice",
+        "spacing effect",
+        "desirable difficulty",
+        "memory trace",
+        "familiarity illusion",
+        "interference"
+      ],
+      "scenario": "Why Remembering Is Harder Than Rereading"
+    }
+  },
+  {
+    "slug": "sleep-consolidation",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Sleep, Memory and Vocabulary Consolidation",
+    "title_es": "Sleep, Memory and Vocabulary Consolidation",
+    "description": "C2 interdisciplinary inquiry: What Sleep Does After Study.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in sleep, memory and vocabulary consolidation.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Temporal perspective and perfect aspect"
+      ],
+      "vocabulary": [
+        "memory consolidation",
+        "lexical integration",
+        "encoding",
+        "slow-wave sleep",
+        "rapid eye movement sleep",
+        "offline processing"
+      ],
+      "scenario": "What Sleep Does After Study"
+    }
+  },
+  {
+    "slug": "incidental-acquisition",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Comprehensible Input and Incidental Acquisition",
+    "title_es": "Comprehensible Input and Incidental Acquisition",
+    "description": "C2 interdisciplinary inquiry: Understanding More Than You Were Taught.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in comprehensible input and incidental acquisition.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Hedging and epistemic modality"
+      ],
+      "vocabulary": [
+        "comprehensible input",
+        "incidental learning",
+        "noticing",
+        "input flood",
+        "lexical coverage",
+        "inferencing"
+      ],
+      "scenario": "Understanding More Than You Were Taught"
+    }
+  },
+  {
+    "slug": "multimodal-learning",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Reading, Listening and Multimodal Learning",
+    "title_es": "Reading, Listening and Multimodal Learning",
+    "description": "C2 interdisciplinary inquiry: When Words, Sound and Image Compete.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in reading, listening and multimodal learning.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Referencing, substitution and cohesive economy"
+      ],
+      "vocabulary": [
+        "multimodality",
+        "dual coding",
+        "captioning",
+        "redundancy effect",
+        "split attention",
+        "signalling"
+      ],
+      "scenario": "When Words, Sound and Image Compete"
+    }
+  },
+  {
+    "slug": "interaction-output",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Interaction, Output and Negotiation of Meaning",
+    "title_es": "Interaction, Output and Negotiation of Meaning",
+    "description": "C2 interdisciplinary inquiry: Learning in the Repair of Conversation.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in interaction, output and negotiation of meaning.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Reported speech and polyphonic stance"
+      ],
+      "vocabulary": [
+        "negotiation of meaning",
+        "comprehension check",
+        "clarification request",
+        "confirmation check",
+        "modified output",
+        "pushed output"
+      ],
+      "scenario": "Learning in the Repair of Conversation"
+    }
+  },
+  {
+    "slug": "corrective-feedback",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Corrective Feedback and the Productive Role of Error",
+    "title_es": "Corrective Feedback and the Productive Role of Error",
+    "description": "C2 interdisciplinary inquiry: Which Errors Should Interrupt the Conversation?.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in corrective feedback and the productive role of error.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Mandative structures and evaluative subjunctives"
+      ],
+      "vocabulary": [
+        "corrective feedback",
+        "recast",
+        "elicitation",
+        "metalinguistic clue",
+        "uptake",
+        "repair"
+      ],
+      "scenario": "Which Errors Should Interrupt the Conversation?"
+    }
+  },
+  {
+    "slug": "speech-perception",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Speech Perception, Accent and Pronunciation Training",
+    "title_es": "Speech Perception, Accent and Pronunciation Training",
+    "description": "C2 interdisciplinary inquiry: Hearing the Contrast Before Producing It.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in speech perception, accent and pronunciation training.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Passive voice and accountable agency"
+      ],
+      "vocabulary": [
+        "phonemic contrast",
+        "categorical perception",
+        "perceptual assimilation",
+        "minimal pair",
+        "allophonic variation",
+        "intelligibility"
+      ],
+      "scenario": "Hearing the Contrast Before Producing It"
+    }
+  },
+  {
+    "slug": "anxiety-attention",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Language Anxiety, Attention and Working Memory",
+    "title_es": "Language Anxiety, Attention and Working Memory",
+    "description": "C2 interdisciplinary inquiry: When Self-Monitoring Consumes the Message.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in language anxiety, attention and working memory.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Mixed and implicit conditionals"
+      ],
+      "vocabulary": [
+        "language anxiety",
+        "working memory",
+        "attentional control",
+        "self-monitoring",
+        "cognitive load",
+        "evaluation apprehension"
+      ],
+      "scenario": "When Self-Monitoring Consumes the Message"
+    }
+  },
+  {
+    "slug": "individual-differences",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Age, Aptitude and Individual Differences",
+    "title_es": "Age, Aptitude and Individual Differences",
+    "description": "C2 interdisciplinary inquiry: Why the Average Learner Does Not Exist.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in age, aptitude and individual differences.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Complex relative and supplementary clauses"
+      ],
+      "vocabulary": [
+        "language aptitude",
+        "phonological memory",
+        "analytic ability",
+        "processing speed",
+        "learner profile",
+        "between-group difference"
+      ],
+      "scenario": "Why the Average Learner Does Not Exist"
+    }
+  },
+  {
+    "slug": "contextual-vocabulary",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Contextual Vocabulary, Glosses and Semantic Networks",
+    "title_es": "Contextual Vocabulary, Glosses and Semantic Networks",
+    "description": "C2 interdisciplinary inquiry: A Word Is More Than Its Translation.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in contextual vocabulary, glosses and semantic networks.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Nominalisation and grammatical metaphor"
+      ],
+      "vocabulary": [
+        "lexical depth",
+        "semantic network",
+        "collocation",
+        "polysemy",
+        "register",
+        "word family"
+      ],
+      "scenario": "A Word Is More Than Its Translation"
+    }
+  },
+  {
+    "slug": "ai-language-tutoring",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Artificial Intelligence and the Future of Language Tutoring",
+    "title_es": "Artificial Intelligence and the Future of Language Tutoring",
+    "description": "C2 interdisciplinary inquiry: A Fluent Answer Is Not Always a Reliable Teacher.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in artificial intelligence and the future of language tutoring.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Distancing, evidentiality and qualified reporting"
+      ],
+      "vocabulary": [
+        "generative model",
+        "hallucination",
+        "adaptive feedback",
+        "learner model",
+        "algorithmic bias",
+        "data provenance"
+      ],
+      "scenario": "A Fluent Answer Is Not Always a Reliable Teacher"
     }
   }
 ]
