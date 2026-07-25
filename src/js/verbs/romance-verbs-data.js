@@ -75,6 +75,32 @@
   const FR_PP = {être:'été',avoir:'eu',faire:'fait',dire:'dit',aller:'allé',voir:'vu',savoir:'su',pouvoir:'pu',vouloir:'voulu',venir:'venu',devoir:'dû',prendre:'pris',mettre:'mis',croire:'cru',connaître:'connu',tenir:'tenu',comprendre:'compris',rendre:'rendu',attendre:'attendu',sortir:'sorti',vivre:'vécu',mourir:'mort',partir:'parti',suivre:'suivi',écrire:'écrit',ouvrir:'ouvert',perdre:'perdu',lire:'lu',boire:'bu',courir:'couru',dormir:'dormi',apprendre:'appris',recevoir:'reçu',conduire:'conduit',naître:'né',rire:'ri',servir:'servi',vendre:'vendu',construire:'construit'};
   const FR_PRESENT_PARTICIPLE = {être:'étant',avoir:'ayant',savoir:'sachant'};
   const FR_FUTURE = {être:'ser',avoir:'aur',faire:'fer',aller:'ir',voir:'verr',savoir:'saur',pouvoir:'pourr',vouloir:'voudr',venir:'viendr',devoir:'devr',tenir:'tiendr',recevoir:'recevr',falloir:'faudr',mourir:'mourr',courir:'courr',envoyer:'enverr'};
+  const FR_SUBJUNCTIVE = {
+    être:['sois','sois','soit','soyons','soyez','soient'],
+    avoir:['aie','aies','ait','ayons','ayez','aient'],
+    faire:['fasse','fasses','fasse','fassions','fassiez','fassent'],
+    aller:['aille','ailles','aille','allions','alliez','aillent'],
+    savoir:['sache','saches','sache','sachions','sachiez','sachent'],
+    pouvoir:['puisse','puisses','puisse','puissions','puissiez','puissent'],
+    vouloir:['veuille','veuilles','veuille','voulions','vouliez','veuillent'],
+    venir:['vienne','viennes','vienne','venions','veniez','viennent'],
+    devoir:['doive','doives','doive','devions','deviez','doivent'],
+    prendre:['prenne','prennes','prenne','prenions','preniez','prennent'],
+    tenir:['tienne','tiennes','tienne','tenions','teniez','tiennent'],
+    dire:['dise','dises','dise','disions','disiez','disent'],
+    voir:['voie','voies','voie','voyions','voyiez','voient'],
+    croire:['croie','croies','croie','croyions','croyiez','croient'],
+    boire:['boive','boives','boive','buvions','buviez','boivent'],
+    recevoir:['reçoive','reçoives','reçoive','recevions','receviez','reçoivent'],
+    mourir:['meure','meures','meure','mourions','mouriez','meurent'],
+    falloir:['faille','faille','faille','faille','faille','faille']
+  };
+  const FR_IMPERATIVE = {
+    être:['sois','soyons','soyez'],
+    avoir:['aie','ayons','ayez'],
+    savoir:['sache','sachons','sachez'],
+    vouloir:['veuille','voulons','veuillez']
+  };
   const FR_ETRE_AUX = new Set(['aller','venir','arriver','devenir','revenir','mourir','partir','sortir','entrer','tomber','naître','rester','monter']);
 
   function frenchPresent(inf) {
@@ -137,12 +163,38 @@
         const stem=FR_FUTURE[inf] || (inf.endsWith('re')?inf.slice(0,-1):inf);
         forms=(id==='futureSimple'?futEnd:condEnd).map(e=>stem+e);
       } else if(id==='subjunctive') {
-        const stem=present[5].replace(/ent$/,'');
-        forms=['e','es','e','ions','iez','ent'].map((e,i)=>(i===3||i===4?present[3].replace(/ons$/,''):stem)+e);
+        if (FR_SUBJUNCTIVE[inf]) forms=FR_SUBJUNCTIVE[inf];
+        else if (inf.endsWith('venir')) {
+          const prefix=inf.slice(0,-5);
+          forms=FR_SUBJUNCTIVE.venir.map((form)=>prefix+form);
+        } else if (inf.endsWith('prendre')) {
+          const prefix=inf.slice(0,-7);
+          forms=FR_SUBJUNCTIVE.prendre.map((form)=>prefix+form);
+        } else if (inf.endsWith('tenir')) {
+          const prefix=inf.slice(0,-5);
+          forms=FR_SUBJUNCTIVE.tenir.map((form)=>prefix+form);
+        } else {
+          const stem=present[5].replace(/ent$/,'');
+          forms=['e','es','e','ions','iez','ent'].map((e,i)=>(i===3||i===4?present[3].replace(/ons$/,''):stem)+e);
+        }
       } else if(id==='imperative') {
-        return {rows:[{label:'tu',affirmative:present[1],negative:`ne ${present[1]} pas`,interrogative:''},{label:'nous',affirmative:present[3],negative:`ne ${present[3]} pas`,interrogative:''},{label:'vous',affirmative:present[4],negative:`ne ${present[4]} pas`,interrogative:''}],note:null};
+        const imperativeRow=(label,form)=>({label,affirmative:form,negative:`ne ${form} pas`.replace(/^ne ([aeiouyh])/i,"n'$1"),interrogative:''});
+        const imperative=FR_IMPERATIVE[inf] || [present[1],present[3],present[4]];
+        return {rows:[imperativeRow('tu',imperative[0]),imperativeRow('nous',imperative[1]),imperativeRow('vous',imperative[2])],note:null};
       } else return null;
-      return {rows:forms.map((form,i)=>({label:persons[i],affirmative:`${persons[i]} ${form}`.replace(/^Je ([aeiouyh])/i,"J'$1"),negative:`${persons[i]} ne ${form} pas`.replace(/^Je ne ([aeiouyh])/i,"Je n'$1"),interrogative:`${form.replace(/ .*/, '')}-${persons[i].toLowerCase().replace(' / ', '/')} ?`})),note:null};
+      return {rows:forms.map((form,i)=>{
+        const subject=persons[i],compound=id==='pastSimple'||id==='presentPerfect';
+        const affirmative=`${subject} ${form}`.replace(/^Je ([aeiouyh])/i,"J'$1");
+        const parts=form.split(' '),first=parts.shift(),rest=parts.join(' ');
+        const negative=(compound
+          ? `${subject} ne ${first} pas${rest?` ${rest}`:''}`
+          : `${subject} ne ${form} pas`).replace(/^Je ne ([aeiouyh])/i,"Je n'$1");
+        const question=`Est-ce que ${subject.toLowerCase()} ${form} ?`
+          .replace(/^Est-ce que je ([aeiouyh])/i,"Est-ce que j'$1")
+          .replace(/^Est-ce que il \/ elle /i,"Est-ce qu'il / elle ")
+          .replace(/^Est-ce que ils \/ elles /i,"Est-ce qu'ils / elles ");
+        return{label:subject,affirmative,negative,interrogative:question};
+      }),note:null};
     }
     return {TENSES:tenses,conjugateTense,principalForms(inf){const p=frenchPresent(inf),pp=frenchPp(inf);return{thirdPersonSingular:p[2],pastSimple:`${FR_ETRE_AUX.has(inf)?'est':'a'} ${pp}`,pastParticiple:pp,presentParticiple:FR_PRESENT_PARTICIPLE[inf]||((p[3].replace(/ons$/,'')||inf)+'ant')};}};
   }
@@ -165,14 +217,33 @@
     ofrecer:['ofrezco','ofreces','ofrece','ofrecemos','ofrecéis','ofrecen'],dirigir:['dirijo','diriges','dirige','dirigimos','dirigís','dirigen']
   };
   const ES_PRET = {
-    ser:['fui','fuiste','fue','fuimos','fuisteis','fueron'],ir:['fui','fuiste','fue','fuimos','fuisteis','fueron'],tener:['tuve','tuviste','tuvo','tuvimos','tuvisteis','tuvieron'],
+    ser:['fui','fuiste','fue','fuimos','fuisteis','fueron'],ir:['fui','fuiste','fue','fuimos','fuisteis','fueron'],haber:['hube','hubiste','hubo','hubimos','hubisteis','hubieron'],tener:['tuve','tuviste','tuvo','tuvimos','tuvisteis','tuvieron'],
     estar:['estuve','estuviste','estuvo','estuvimos','estuvisteis','estuvieron'],hacer:['hice','hiciste','hizo','hicimos','hicisteis','hicieron'],poder:['pude','pudiste','pudo','pudimos','pudisteis','pudieron'],
     decir:['dije','dijiste','dijo','dijimos','dijisteis','dijeron'],venir:['vine','viniste','vino','vinimos','vinisteis','vinieron'],poner:['puse','pusiste','puso','pusimos','pusisteis','pusieron'],
     saber:['supe','supiste','supo','supimos','supisteis','supieron'],querer:['quise','quisiste','quiso','quisimos','quisisteis','quisieron'],dar:['di','diste','dio','dimos','disteis','dieron'],
-    ver:['vi','viste','vio','vimos','visteis','vieron'],traer:['traje','trajiste','trajo','trajimos','trajisteis','trajeron']
+    ver:['vi','viste','vio','vimos','visteis','vieron'],traer:['traje','trajiste','trajo','trajimos','trajisteis','trajeron'],
+    pedir:['pedí','pediste','pidió','pedimos','pedisteis','pidieron'],sentir:['sentí','sentiste','sintió','sentimos','sentisteis','sintieron'],
+    seguir:['seguí','seguiste','siguió','seguimos','seguisteis','siguieron'],morir:['morí','moriste','murió','morimos','moristeis','murieron'],
+    dormir:['dormí','dormiste','durmió','dormimos','dormisteis','durmieron'],leer:['leí','leíste','leyó','leímos','leísteis','leyeron'],
+    oír:['oí','oíste','oyó','oímos','oísteis','oyeron'],caer:['caí','caíste','cayó','caímos','caísteis','cayeron'],
+    construir:['construí','construiste','construyó','construimos','construisteis','construyeron'],
+    producir:['produje','produjiste','produjo','produjimos','produjisteis','produjeron'],
+    conducir:['conduje','condujiste','condujo','condujimos','condujisteis','condujeron']
   };
   const ES_PP={abrir:'abierto',decir:'dicho',escribir:'escrito',hacer:'hecho',morir:'muerto',poner:'puesto',romper:'roto',ver:'visto',volver:'vuelto',descubrir:'descubierto'};
   const ES_FUT={tener:'tendr',haber:'habr',hacer:'har',poder:'podr',poner:'pondr',querer:'querr',saber:'sabr',salir:'saldr',venir:'vendr',decir:'dir'};
+  const ES_IMPERFECT={
+    ser:['era','eras','era','éramos','erais','eran'],
+    ir:['iba','ibas','iba','íbamos','ibais','iban'],
+    ver:['veía','veías','veía','veíamos','veíais','veían']
+  };
+  const ES_GERUND={ser:'siendo',ir:'yendo',poder:'pudiendo',decir:'diciendo',dormir:'durmiendo',morir:'muriendo',pedir:'pidiendo',venir:'viniendo',seguir:'siguiendo',oír:'oyendo'};
+  const ES_SUBJUNCTIVE={
+    ser:['sea','seas','sea','seamos','seáis','sean'],haber:['haya','hayas','haya','hayamos','hayáis','hayan'],
+    estar:['esté','estés','esté','estemos','estéis','estén'],ir:['vaya','vayas','vaya','vayamos','vayáis','vayan'],
+    dar:['dé','des','dé','demos','deis','den'],saber:['sepa','sepas','sepa','sepamos','sepáis','sepan']
+  };
+  const ES_IMPERATIVE_TU={decir:'di',hacer:'haz',ir:'ve',poner:'pon',salir:'sal',ser:'sé',tener:'ten',venir:'ven',haber:'he'};
   function spanishPresent(inf){
     if(ES_PRESENT[inf])return ES_PRESENT[inf];
     const end=inf.slice(-2),stem=inf.slice(0,-2), endings=end==='ar'?['o','as','a','amos','áis','an']:end==='er'?['o','es','e','emos','éis','en']:['o','es','e','imos','ís','en'];
@@ -188,6 +259,16 @@
     return forms;
   }
   function spanishPp(inf){return ES_PP[inf]||inf.slice(0,-2)+(inf.endsWith('ar')?'ado':'ido');}
+  function spanishSubjunctive(inf,present){
+    if(ES_SUBJUNCTIVE[inf])return ES_SUBJUNCTIVE[inf];
+    const end=inf.slice(-2);
+    let stem=present[0].replace(/o$/,'');
+    if(inf.endsWith('car'))stem=inf.slice(0,-3)+'qu';
+    if(inf.endsWith('gar'))stem=inf.slice(0,-3)+'gu';
+    if(inf.endsWith('zar'))stem=inf.slice(0,-3)+'c';
+    const endings=end==='ar'?['e','es','e','emos','éis','en']:['a','as','a','amos','áis','an'];
+    return endings.map(e=>stem+e);
+  }
   function spanishEngine(){
     const persons=['Yo','Tú','Él / Ella','Nosotros','Vosotros','Ellos / Ellas'],haber=['he','has','ha','hemos','habéis','han'];
     const tenses=[{id:'presentSimple',label:'Presente'},{id:'pastSimple',label:'Pretérito indefinido'},{id:'imperfect',label:'Pretérito imperfecto'},{id:'presentPerfect',label:'Pretérito perfecto'},{id:'futureSimple',label:'Futuro simple'},{id:'conditional',label:'Condicional'},{id:'subjunctive',label:'Presente de subjuntivo'},{id:'imperative',label:'Imperativo'}];
@@ -195,15 +276,24 @@
       const inf=raw.infinitive,pres=spanishPresent(inf),pret=spanishPret(inf),stem=inf.slice(0,-2),end=inf.slice(-2),pp=spanishPp(inf);let forms=[];
       if(id==='presentSimple')forms=pres;
       else if(id==='pastSimple')forms=pret;
-      else if(id==='imperfect')forms=(end==='ar'?['aba','abas','aba','ábamos','abais','aban']:['ía','ías','ía','íamos','íais','ían']).map(e=>stem+e);
+      else if(id==='imperfect')forms=ES_IMPERFECT[inf]||(end==='ar'?['aba','abas','aba','ábamos','abais','aban']:['ía','ías','ía','íamos','íais','ían']).map(e=>stem+e);
       else if(id==='presentPerfect')forms=haber.map(h=>`${h} ${pp}`);
       else if(id==='futureSimple'||id==='conditional'){const s=ES_FUT[inf]||inf;forms=(id==='futureSimple'?['é','ás','á','emos','éis','án']:['ía','ías','ía','íamos','íais','ían']).map(e=>s+e);}
-      else if(id==='subjunctive'){const s=pres[0].replace(/o$/,'');forms=(end==='ar'?['e','es','e','emos','éis','en']:['a','as','a','amos','áis','an']).map(e=>s+e);}
-      else if(id==='imperative')return{rows:[{label:'tú',affirmative:pres[2],negative:`no ${pres[1]}`,interrogative:''},{label:'usted',affirmative:pres[0].replace(/o$/,'')+(end==='ar'?'e':'a'),negative:`no ${pres[0].replace(/o$/,'')+(end==='ar'?'e':'a')}`,interrogative:''},{label:'vosotros',affirmative:inf.slice(0,-1)+'d',negative:`no ${pres[4]}`,interrogative:''}],note:null};
+      else if(id==='subjunctive')forms=spanishSubjunctive(inf,pres);
+      else if(id==='imperative'){
+        const subj=spanishSubjunctive(inf,pres),affirmativeTu=ES_IMPERATIVE_TU[inf]||pres[2];
+        return{rows:[
+          {label:'tú',affirmative:affirmativeTu,negative:`no ${subj[1]}`,interrogative:''},
+          {label:'usted',affirmative:subj[2],negative:`no ${subj[2]}`,interrogative:''},
+          {label:'nosotros',affirmative:subj[3],negative:`no ${subj[3]}`,interrogative:''},
+          {label:'vosotros',affirmative:inf.slice(0,-1)+'d',negative:`no ${subj[4]}`,interrogative:''},
+          {label:'ustedes',affirmative:subj[5],negative:`no ${subj[5]}`,interrogative:''}
+        ],note:inf==='haber'?'El imperativo de «haber» es raro fuera de expresiones fijadas.':null};
+      }
       else return null;
-      return{rows:forms.map((f,i)=>({label:persons[i],affirmative:`${persons[i]} ${f}`,negative:`${persons[i]} no ${f}`,interrogative:`¿${f} ${persons[i].toLowerCase().replace(' / ','/')}?`})),note:null};
+      return{rows:forms.map((f,i)=>({label:persons[i],affirmative:`${persons[i]} ${f}`,negative:`${persons[i]} no ${f}`,interrogative:`¿${f} ${persons[i].toLowerCase().replace(' / ','/')}?`})),note:inf==='haber'?'«Haber» funciona principalmente como auxiliar; «hay» es su forma impersonal más frecuente en presente.':null};
     }
-    return{TENSES:tenses,conjugateTense,principalForms(inf){const p=spanishPresent(inf),pr=spanishPret(inf);return{thirdPersonSingular:p[2],pastSimple:pr[0],pastParticiple:spanishPp(inf),presentParticiple:inf.slice(0,-2)+(inf.endsWith('ar')?'ando':'iendo')};}};
+    return{TENSES:tenses,conjugateTense,principalForms(inf){const p=spanishPresent(inf),pr=spanishPret(inf);return{thirdPersonSingular:p[2],pastSimple:pr[0],pastParticiple:spanishPp(inf),presentParticiple:ES_GERUND[inf]||inf.slice(0,-2)+(inf.endsWith('ar')?'ando':'iendo')};}};
   }
 
   const engines={french:frenchEngine(),spanish:spanishEngine()};

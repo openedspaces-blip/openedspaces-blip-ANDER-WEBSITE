@@ -668,8 +668,8 @@
         <div class="verb-tense-row">
           <span class="verb-tense-pronoun">${escapeHtml(row.label)}</span>
           <span class="verb-tense-cell" data-label="Afirmativa: ">${escapeHtml(row.affirmative)} ${conjugatorAudioBtnHtml(row.affirmative, audioOpts)}</span>
-          <span class="verb-tense-cell" data-label="Negativa: ">${escapeHtml(row.negative)}</span>
-          <span class="verb-tense-cell" data-label="Interrogativa: ">${row.interrogative ? escapeHtml(row.interrogative) : '—'}</span>
+          <span class="verb-tense-cell" data-label="Negativa: ">${escapeHtml(row.negative)} ${row.negative ? conjugatorAudioBtnHtml(row.negative, audioOpts) : ''}</span>
+          <span class="verb-tense-cell" data-label="Interrogativa: ">${row.interrogative ? `${escapeHtml(row.interrogative)} ${conjugatorAudioBtnHtml(row.interrogative, audioOpts)}` : '—'}</span>
         </div>`
       )
       .join('');
