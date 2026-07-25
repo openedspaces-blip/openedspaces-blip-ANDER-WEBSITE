@@ -6807,6 +6807,16 @@ footer small {
   max-width: none;
 }
 
+.skill-view-section {
+  padding-top: clamp(6rem, 7vw, 7rem);
+}
+
+@media (max-width: 720px) {
+  .skill-view-section {
+    padding-top: 2.5rem;
+  }
+}
+
 .skill-view-header {
   background: var(--surface);
   border: 1px solid var(--line);

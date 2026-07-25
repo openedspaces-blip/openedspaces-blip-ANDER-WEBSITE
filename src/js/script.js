@@ -11846,12 +11846,12 @@ const VIEW_TITLE_SELECTORS = {
   translator: '#translator h2',
   about: '#about h2',
   verbs: '#verbs h2',
-  listening: '#listening h2',
-  speaking: '#speaking h2',
-  reading: '#reading h2',
-  writing: '#writing h2',
-  grammar: '#grammar h2',
-  vocabulary: '#vocabulary h2'
+  listening: '#listening .level-tab[data-tab="listening"]',
+  speaking: '#speaking .level-tab[data-tab="speaking"]',
+  reading: '#reading .level-tab[data-tab="reading"]',
+  writing: '#writing .level-tab[data-tab="writing"]',
+  grammar: '#grammar .level-tab[data-tab="grammar"]',
+  vocabulary: '#vocabulary .level-tab[data-tab="vocabulary"]'
 };
 
 function getViewFromHash() {
