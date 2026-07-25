@@ -274,6 +274,25 @@ function renderAuthState() {
         : 'Esta es tu ruta personalizada.'
       : 'Inicia sesión para ver tu progreso, racha y objetivo.';
   }
+  renderCurrentPlanSummary();
+}
+
+function renderCurrentPlanSummary() {
+  const premium = isPremiumUser();
+  const name = document.querySelector('[data-current-plan-name]');
+  const price = document.querySelector('[data-current-plan-price]');
+  if (name) name.textContent = premium ? 'Premium' : 'Free';
+  if (price) price.textContent = premium ? `USD ${premiumPriceUsd}/mes` : 'USD 0/mes';
+}
+
+function setPricingExpanded(expanded) {
+  const details = document.querySelector('.pricing-details');
+  const toggle = document.querySelector('.current-plan-toggle');
+  if (details) details.hidden = !expanded;
+  if (toggle) {
+    toggle.setAttribute('aria-expanded', String(expanded));
+    toggle.textContent = expanded ? 'Ocultar planes' : 'Ver planes';
+  }
 }
 
 // Single source of truth for the bridge (already-known) language - keeps
@@ -12106,11 +12125,23 @@ function handleHomeAction(action) {
       // instead of being its own destination - go home, then scroll to it,
       // same pattern as 'explore-languages' below.
       goTo('home');
+      setPricingExpanded(true);
       window.setTimeout(() => {
         document.getElementById('premium')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 50);
       showHomeToast(`Plan premium único: USD ${premiumPriceUsd}.`);
       break;
+    case 'view-plans': {
+      const details = document.querySelector('.pricing-details');
+      const expand = Boolean(details?.hidden);
+      setPricingExpanded(expand);
+      if (expand) {
+        window.setTimeout(() => {
+          details?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 50);
+      }
+      break;
+    }
     case 'ai-tutor':
       goTo('tutor', 'Tutor IA abierto. Practica listening, speaking o writing.');
       break;

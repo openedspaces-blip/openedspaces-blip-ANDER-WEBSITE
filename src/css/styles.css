@@ -4611,9 +4611,64 @@ footer small {
   background: #fff;
 }
 
+.current-plan-summary {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.current-plan-summary > div {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.75rem;
+}
+
+.current-plan-label {
+  width: 100%;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.current-plan-summary strong {
+  color: var(--navy-2);
+  font-size: 1.2rem;
+}
+
+.current-plan-summary [data-current-plan-price] {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.pricing-details {
+  margin-top: 2rem;
+}
+
 .pricing-layout {
   max-width: 1040px;
   gap: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .current-plan-summary {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .current-plan-toggle {
+    width: 100%;
+  }
 }
 
 .plan {
