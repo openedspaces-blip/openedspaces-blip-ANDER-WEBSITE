@@ -11679,3 +11679,171 @@ footer small {
     flex-direction: column;
   }
 }
+
+/* ==========================================================================
+   Language entry screen — one compact, intentional starting point
+   ========================================================================== */
+
+.language-picker-section {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: clamp(3rem, 5vw, 5rem) clamp(1.25rem, 6vw, 6rem);
+  background:
+    radial-gradient(circle at 12% 18%, rgba(37, 99, 235, 0.1), transparent 27%),
+    radial-gradient(circle at 88% 78%, rgba(0, 194, 255, 0.11), transparent 25%),
+    linear-gradient(180deg, #f5f9ff 0%, #eef7ff 100%);
+}
+
+.language-picker-section > .section-heading {
+  order: 1;
+  margin-bottom: 1.6rem;
+}
+
+.language-picker-section > .section-heading h2 {
+  max-width: 740px;
+  margin-inline: auto;
+  font-size: clamp(2.1rem, 3.6vw, 3.45rem);
+}
+
+.language-picker-section > .global-language-controls {
+  order: 2;
+  width: min(1080px, 100%);
+  margin: 0 auto 1.6rem;
+  padding: 1.2rem 1.35rem;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 20px 50px rgba(37, 99, 235, 0.12);
+}
+
+.language-picker-section .language-pair-bar {
+  flex: 1;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.language-picker-section .path-start-learning-btn {
+  min-width: 9rem;
+  box-shadow: 0 12px 28px rgba(37, 99, 235, 0.24);
+}
+
+.language-picker-section > .language-preview-grid {
+  order: 3;
+  width: min(1080px, 100%);
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.language-picker-section .language-preview-card {
+  min-height: 215px;
+  padding: 1.35rem;
+  border-color: rgba(37, 99, 235, 0.12);
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.065);
+}
+
+.language-picker-section .language-preview-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 36px rgba(37, 99, 235, 0.13);
+}
+
+.language-picker-section .language-preview-card.is-selected {
+  border-color: var(--blue);
+  background: linear-gradient(160deg, #ffffff 25%, #eef6ff 100%);
+  box-shadow:
+    0 0 0 3px rgba(37, 99, 235, 0.1),
+    0 18px 38px rgba(37, 99, 235, 0.14);
+}
+
+.language-picker-section .language-preview-card.is-selected::before {
+  opacity: 1;
+}
+
+.language-picker-section .language-preview-flag {
+  margin-bottom: 0.45rem;
+  font-size: 2.25rem;
+}
+
+.language-picker-section .language-preview-levels {
+  margin: 0.15rem 0 0.45rem;
+}
+
+.language-picker-section .language-preview-desc {
+  min-height: 2.9em;
+  margin-bottom: 0.5rem;
+  font-size: 0.84rem;
+}
+
+.language-picker-section .language-preview-btn {
+  min-height: 2.55rem;
+  padding: 0.55rem 1rem;
+}
+
+.language-picker-section .language-preview-card.is-selected .language-preview-btn {
+  border-color: transparent;
+  background: var(--gradient-primary);
+  color: var(--white);
+}
+
+.language-picker-section > .current-plan-summary {
+  order: 4;
+  width: min(1080px, 100%);
+  margin: 1rem auto 0;
+  padding: 0.8rem 1rem;
+  border-color: rgba(37, 99, 235, 0.14);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: none;
+}
+
+.pricing-section:not([hidden]) {
+  padding-block: clamp(3.5rem, 6vw, 5.5rem);
+}
+
+footer {
+  padding: 44px 6% 28px;
+}
+
+.footer-top {
+  gap: 28px;
+  margin-bottom: 20px;
+}
+
+footer small {
+  padding-top: 14px;
+}
+
+@media (max-width: 900px) {
+  .language-picker-section > .global-language-controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .language-picker-section .language-pair-bar {
+    justify-content: flex-start;
+  }
+
+  .language-picker-section .global-language-summary {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 720px) {
+  .language-picker-section {
+    padding: 2.5rem 1rem;
+  }
+
+  .language-picker-section > .language-preview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .language-picker-section .language-preview-card {
+    min-height: 0;
+  }
+
+  .language-picker-section > .current-plan-summary {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

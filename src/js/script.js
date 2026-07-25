@@ -287,7 +287,9 @@ function renderCurrentPlanSummary() {
 
 function setPricingExpanded(expanded) {
   const details = document.querySelector('.pricing-details');
+  const section = document.getElementById('premium');
   const toggle = document.querySelector('.current-plan-toggle');
+  if (section) section.hidden = !expanded;
   if (details) details.hidden = !expanded;
   if (toggle) {
     toggle.setAttribute('aria-expanded', String(expanded));
@@ -467,6 +469,7 @@ function setTargetLanguage(lang, options = {}) {
 
   const pathLanguageSelect = document.getElementById('pathLanguageSelect');
   if (pathLanguageSelect) pathLanguageSelect.value = resolved;
+  updateLanguagePreviewSelection();
 
   const level = options.level || learningPathState.level;
   loadLearningPath({ language: resolved, level });
@@ -6793,6 +6796,16 @@ function updateStartLearningButton() {
   );
 }
 
+function updateLanguagePreviewSelection() {
+  document.querySelectorAll('.language-preview-card[data-preview-language]').forEach((card) => {
+    const selected = card.dataset.previewLanguage === learningPathState.language;
+    card.classList.toggle('is-selected', selected);
+    card.setAttribute('aria-current', selected ? 'true' : 'false');
+    const button = card.querySelector('.language-preview-btn');
+    if (button) button.textContent = selected ? 'Idioma seleccionado' : 'Seleccionar idioma';
+  });
+}
+
 function setReadingDisplayPreferences(preferences) {
   try {
     localStorage.setItem(READING_DISPLAY_STORAGE_KEY, JSON.stringify(preferences));
@@ -11798,7 +11811,7 @@ const VIEW_SECTIONS = {
   // view now, not as its own nav destination - see handleHomeAction's
   // 'upgrade' case, which stays on/goes to 'home' and scrolls to it instead
   // of routing to a dedicated 'premium' view.
-  home: ['.hero', '#language-picker', '#premium'],
+  home: ['.hero', '#language-picker'],
   learn: ['#language-picker', '#learning-path'],
   progress: ['#progress'],
   achievements: ['#achievements'],
@@ -11890,6 +11903,7 @@ function updateLearnHash(viewOverride) {
 
 function showView(viewId) {
   const resolved = VIEW_SECTIONS[viewId] ? viewId : 'home';
+  if (resolved !== 'home') setPricingExpanded(false);
 
   // Any navigation away from the current view must release the mic and
   // drop any in-progress Speaking recording - a no-op when nothing is active.
@@ -13577,6 +13591,7 @@ function setupLearningPathControls() {
     document.querySelector('#learning-path h2')?.focus({ preventScroll: true });
   });
   updateStartLearningButton();
+  updateLanguagePreviewSelection();
 }
 
 function initScrollReveal() {

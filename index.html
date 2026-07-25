@@ -215,7 +215,7 @@
         </div>
 
         <div class="language-preview-grid">
-          <article class="language-preview-card">
+          <article class="language-preview-card" data-preview-language="english">
             <span class="language-preview-flag" aria-hidden="true">🇺🇸</span>
             <h3>English</h3>
             <p class="language-preview-levels">Niveles A1 - C2</p>
@@ -227,7 +227,7 @@
               Explorar ruta
             </button>
           </article>
-          <article class="language-preview-card">
+          <article class="language-preview-card" data-preview-language="french">
             <span class="language-preview-flag" aria-hidden="true">🇫🇷</span>
             <h3>Français</h3>
             <p class="language-preview-levels">Niveles A1 - C2</p>
@@ -238,7 +238,7 @@
               Explorar ruta
             </button>
           </article>
-          <article class="language-preview-card">
+          <article class="language-preview-card" data-preview-language="spanish">
             <span class="language-preview-flag" aria-hidden="true">🇪🇸</span>
             <h3>Español</h3>
             <p class="language-preview-levels">Niveles A1 - C2</p>
@@ -289,9 +289,7 @@
             <p class="path-pair-preview" id="pathPairPreview" aria-live="polite"></p>
           </div>
         </div>
-      </section>
 
-      <section id="premium" class="section pricing-section compact-hidden-section">
         <div class="current-plan-summary" aria-live="polite">
           <div>
             <span class="current-plan-label">Tu plan actual</span>
@@ -302,7 +300,9 @@
             Ver planes
           </button>
         </div>
+      </section>
 
+      <section id="premium" class="section pricing-section compact-hidden-section" hidden>
         <div class="pricing-details" hidden>
           <div class="section-heading">
             <span>Planes</span>
