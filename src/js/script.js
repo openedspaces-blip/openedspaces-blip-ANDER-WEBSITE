@@ -5281,8 +5281,8 @@ function renderContinueCard(lesson) {
 
   return `
     <div class="lesson-continue-card">
-      <span class="lesson-continue-kicker">Módulo ${escapeHtml(lesson.level)} · ${escapeHtml(targetLabel)}</span>
-      <h3>Tu próxima lección</h3>
+      <span class="lesson-continue-kicker">${escapeHtml(targetLabel)} · Nivel ${escapeHtml(lesson.level)}</span>
+      <h3>${lesson.progressStatus === 'in_progress' ? 'Continúa tu lección' : 'Tu próxima lección está lista'}</h3>
       <p class="lesson-continue-title">${escapeHtml(skillLabel)} · ${escapeHtml(lesson.title)}</p>
       <p class="lesson-continue-desc">${escapeHtml(lesson.intro || lesson.description || '')}</p>
       <div class="lesson-continue-meta">
@@ -5293,7 +5293,7 @@ function renderContinueCard(lesson) {
         <div style="width:${pct}%"></div>
       </div>
       <p class="lesson-continue-count">${completedCount}/${total} lecciones completadas en ${escapeHtml(lesson.level)}</p>
-      <button type="button" class="primary-btn lesson-continue-btn" data-lesson-slug="${escapeHtml(lesson.slug)}">Continuar →</button>
+      <button type="button" class="primary-btn lesson-continue-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" data-lesson-skill="${escapeHtml(lesson.skill)}">${lesson.progressStatus === 'in_progress' ? 'Continuar ahora' : 'Empezar ahora'} →</button>
     </div>
   `;
 }
@@ -5533,20 +5533,12 @@ function renderLessonWorkspace() {
     return;
   }
 
-  if (hasUnits()) {
-    const unit =
-      learningPathState.units.find((item) => item.id === learningPathState.unitId) ||
-      learningPathState.units[0];
-    if (unit) {
-      workspace.innerHTML = renderUnitOverviewCard(unit);
-      workspace.classList.add('lesson-workspace--unit-overview');
-      workspace.classList.remove('lesson-workspace--continue');
-      wireUnitSequence(workspace);
-      return;
-    }
-  }
-
-  const nextLesson = getNextRecommendedLesson();
+  const selectedUnitActivities =
+    hasUnits() && learningPathState.unitId ? getUnitActivities(learningPathState.unitId) : [];
+  const nextLesson =
+    selectedUnitActivities.find((item) => !item.completed && !item.locked) ||
+    selectedUnitActivities[0] ||
+    getNextRecommendedLesson();
   if (!nextLesson) return;
   workspace.innerHTML = renderContinueCard(nextLesson);
   workspace.classList.add('lesson-workspace--continue');
@@ -11628,7 +11620,7 @@ document.addEventListener('click', async (event) => {
 
   const continueBtn = event.target.closest('.lesson-continue-btn');
   if (continueBtn) {
-    openLesson(continueBtn.dataset.lessonSlug);
+    openUnitSequenceStep(continueBtn.dataset.lessonSkill, continueBtn.dataset.lessonSlug);
     return;
   }
 

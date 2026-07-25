@@ -5849,7 +5849,8 @@ footer small {
 
 .learning-path-layout {
   display: grid;
-  grid-template-columns: minmax(360px, 420px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 340px);
+  grid-template-areas: 'lesson route';
   gap: 28px;
   align-items: start;
   width: 100%;
@@ -5876,6 +5877,7 @@ footer small {
 }
 
 .skill-graph {
+  grid-area: route;
   overflow-y: auto;
   max-height: 640px;
   background: var(--surface);
@@ -6263,6 +6265,7 @@ footer small {
 
 /* Lesson workspace panel */
 .lesson-workspace {
+  grid-area: lesson;
   background: var(--surface);
   border-radius: 20px;
   padding: 1.5rem;
@@ -6302,7 +6305,10 @@ footer small {
 .lesson-continue-card {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.75rem;
+  min-height: 360px;
+  justify-content: center;
+  padding: clamp(0.25rem, 2vw, 1.25rem);
 }
 
 .lesson-continue-kicker {
@@ -6314,7 +6320,7 @@ footer small {
 }
 
 .lesson-continue-card h3 {
-  font-size: 1.4rem;
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
   margin: 0;
 }
 
@@ -6582,10 +6588,10 @@ footer small {
 
 /* Responsive adjustments */
 
-/* Tablet: narrower left panel, tighter gap, still side by side */
+/* Tablet: keep the recommended lesson prominent and the route secondary. */
 @media (max-width: 1024px) and (min-width: 641px) {
   .learning-path-layout {
-    grid-template-columns: minmax(300px, 340px) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 300px);
     gap: 20px;
   }
   .skill-graph {
