@@ -8185,6 +8185,74 @@ footer small {
 }
 
 /* Grammar */
+.skill-view-section[data-skill='grammar'] .skill-print-area {
+  width: 100%;
+  padding: clamp(1.15rem, 2.4vw, 2rem);
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
+
+.skill-view-section[data-skill='grammar'] .skill-print-area > h3 {
+  margin: 0 0 1.25rem;
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+  color: var(--navy-2);
+}
+
+.grammar-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.grammar-concept-card {
+  position: relative;
+  min-width: 0;
+  min-height: 170px;
+  padding: 1.15rem 1.2rem 1.2rem;
+  overflow: hidden;
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  border-radius: 18px;
+  background: linear-gradient(145deg, #ffffff 15%, #f5f9ff 100%);
+}
+
+.grammar-concept-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg, var(--blue), var(--cyan));
+}
+
+.grammar-concept-card > span {
+  display: inline-flex;
+  margin-bottom: 0.55rem;
+  padding: 0.24rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.09);
+  color: var(--blue);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.grammar-concept-card h4 {
+  margin: 0 0 0.55rem;
+  color: var(--navy-2);
+  font-size: 1.02rem;
+}
+
+.grammar-concept-card p {
+  margin: 0;
+  color: #475569;
+  font-size: 0.94rem;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
 .grammar-explanation {
   background: var(--bg);
   border-radius: 14px;
@@ -8228,6 +8296,7 @@ footer small {
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 0.85rem 1rem;
+  background: #f8fbff;
 }
 
 .grammar-example-target span,
@@ -8238,6 +8307,34 @@ footer small {
   letter-spacing: 0.04em;
   color: var(--muted);
   margin-bottom: 0.25rem;
+}
+
+.grammar-exercise {
+  padding: clamp(1rem, 2vw, 1.4rem);
+  border: 1px solid rgba(37, 99, 235, 0.14);
+  border-radius: 18px;
+  background: #f8fbff;
+}
+
+.grammar-exercise > h4 {
+  margin: 0 0 1rem;
+  color: var(--navy-2);
+  font-size: 1.08rem;
+}
+
+@media (max-width: 720px) {
+  .skill-view-section[data-skill='grammar'] .skill-print-area {
+    padding: 1rem;
+    border-radius: 18px;
+  }
+
+  .grammar-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grammar-concept-card {
+    min-height: 0;
+  }
 }
 
 /* Scored Grammar test (course_lessons.extra.grammarTest - see

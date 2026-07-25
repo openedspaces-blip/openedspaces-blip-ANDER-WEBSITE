@@ -364,6 +364,10 @@ function isFrenchAdvancedImmersion() {
   return learningPathState.language === 'french' && isAdvancedImmersionLevel();
 }
 
+function isFrenchTargetLanguage() {
+  return learningPathState.language === 'french';
+}
+
 function advancedFrenchText(defaultText, frenchText) {
   return isFrenchAdvancedImmersion() ? frenchText : defaultText;
 }
@@ -8132,11 +8136,11 @@ function renderGrammarConceptCards(lesson) {
     .split(/(?<=[.!?])\s+/)
     .map((item) => item.trim())
     .filter(Boolean);
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchTargetLanguage();
   const cards = [
     {
       label: french ? 'Définition' : 'Definition',
-      title: french ? 'Ce qu’est cette structure' : 'What this grammar is',
+      title: french ? 'Comprendre la règle' : 'What this grammar is',
       body:
         profile.definition ||
         profile.explanation ||
@@ -8146,7 +8150,7 @@ function renderGrammarConceptCards(lesson) {
     },
     {
       label: 'Structure',
-      title: french ? 'Comment elle se construit' : 'How it is formed',
+      title: french ? 'Construire la phrase' : 'How it is formed',
       body:
         profile.structure ||
         sectionBody('pattern', 'affirmative', 'negative', 'questions') ||
@@ -8157,7 +8161,7 @@ function renderGrammarConceptCards(lesson) {
             : `Study the form and sentence position of ${profile.name || lesson.title}.`)
     },
     {
-      label: french ? 'Fonction en français' : 'Function in English',
+      label: french ? 'Emploi en français' : 'Function in English',
       title: french ? 'Ce qu’elle permet d’exprimer' : 'What it communicates',
       body:
         profile.function ||
@@ -8169,8 +8173,8 @@ function renderGrammarConceptCards(lesson) {
           : 'Use it to communicate the main ideas clearly and accurately.')
     },
     {
-      label: french ? 'Exemples pratiques' : 'Practical examples',
-      title: french ? 'Exemples tirés de la leçon' : 'Examples from the lesson',
+      label: french ? 'Exemples' : 'Practical examples',
+      title: french ? 'Formes à retenir' : 'Examples from the lesson',
       body:
         (profile.examples || []).filter(Boolean).join(' · ') ||
         sectionBody('examples', 'affirmative', 'negative', 'questions') ||
@@ -8202,7 +8206,7 @@ function renderGrammarConceptCards(lesson) {
 function renderGrammarView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchTargetLanguage();
   // Scored Grammar test pilot (course_lessons.extra.grammarTest, see
   // lib/grammarTestSanitizer.js) - only a couple of lessons have this so
   // far; every other Grammar lesson falls through to the flat
@@ -8280,7 +8284,7 @@ function getGrammarTestRuntime(lesson) {
 // 90-100/80-89/70-79/60-69/<60 per the spec - "Necesitas practicar", never
 // "reprobado", for a platform used by kids as young as ~9.
 function gradeBandForScore(score) {
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchTargetLanguage();
   if (score >= 90) return { label: french ? 'Excellent' : 'Excellent', emoji: '🌟' };
   if (score >= 80) return { label: french ? 'Très bien' : 'Very good', emoji: '👍' };
   if (score >= 70) return { label: french ? 'Bien' : 'Good', emoji: '🙂' };
@@ -8304,22 +8308,23 @@ function isGrammarTestQuestionAnswered(runtime, question) {
 // text back into labeled sections for display instead of one long
 // undifferentiated paragraph; it doesn't invent or reformat any content.
 const GRAMMAR_NOTE_SECTION_TITLES = [
-  { key: 'goal', match: /^goal/i, title: 'What it is used for' },
-  { key: 'use', match: /^use/i, title: 'What it is used for' },
-  { key: 'rule', match: /^rule/i, title: 'Brief explanation' },
-  { key: 'pattern', match: /^pattern/i, title: 'Pattern' },
-  { key: 'examples', match: /^examples/i, title: 'Practical examples' },
-  { key: 'affirmative', match: /^affirmative/i, title: 'Affirmative form' },
-  { key: 'negative', match: /^negative/i, title: 'Negative form' },
-  { key: 'questions', match: /^questions/i, title: 'Question form' },
-  { key: 'contractions', match: /^contractions/i, title: 'Contractions' },
-  { key: 'common-mistakes', match: /^common mistakes/i, title: 'Common mistakes' },
-  { key: 'compare', match: /^compare/i, title: 'Comparison' },
-  { key: 'mini-practice', match: /^mini practice/i, title: 'Guided practice' },
-  { key: 'summary', match: /^summary/i, title: 'Summary' }
+  { key: 'goal', match: /^(goal|objectif|but)/i, title: 'What it is used for', frenchTitle: 'Objectif' },
+  { key: 'use', match: /^(use|emploi|usage)/i, title: 'What it is used for', frenchTitle: 'Emploi' },
+  { key: 'rule', match: /^(rule|règle)/i, title: 'Brief explanation', frenchTitle: 'Règle essentielle' },
+  { key: 'pattern', match: /^(pattern|structure|schéma)/i, title: 'Pattern', frenchTitle: 'Structure' },
+  { key: 'examples', match: /^(examples|exemples)/i, title: 'Practical examples', frenchTitle: 'Exemples pratiques' },
+  { key: 'affirmative', match: /^(affirmative|forme affirmative)/i, title: 'Affirmative form', frenchTitle: 'Forme affirmative' },
+  { key: 'negative', match: /^(negative|négative|forme négative)/i, title: 'Negative form', frenchTitle: 'Forme négative' },
+  { key: 'questions', match: /^(questions|interrogation|forme interrogative)/i, title: 'Question form', frenchTitle: 'Forme interrogative' },
+  { key: 'contractions', match: /^contractions/i, title: 'Contractions', frenchTitle: 'Contractions' },
+  { key: 'common-mistakes', match: /^(common mistakes|erreurs fréquentes)/i, title: 'Common mistakes', frenchTitle: 'Erreurs fréquentes' },
+  { key: 'compare', match: /^(compare|comparaison)/i, title: 'Comparison', frenchTitle: 'Comparaison' },
+  { key: 'mini-practice', match: /^(mini practice|pratique guidée)/i, title: 'Guided practice', frenchTitle: 'Pratique guidée' },
+  { key: 'summary', match: /^(summary|résumé)/i, title: 'Summary', frenchTitle: 'Résumé' }
 ];
 
 function parseGrammarNoteSections(grammarNote) {
+  const french = isFrenchTargetLanguage();
   return String(grammarNote || '')
     .split(/\n\n+/)
     .map((para) => para.trim())
@@ -8329,7 +8334,11 @@ function parseGrammarNoteSections(grammarNote) {
       const label = colonIdx > -1 ? para.slice(0, colonIdx).trim() : '';
       const body = (colonIdx > -1 ? para.slice(colonIdx + 1).trim() : para) || '';
       const known = GRAMMAR_NOTE_SECTION_TITLES.find((entry) => entry.match.test(label));
-      return { key: known?.key || 'note', title: known ? known.title : label || 'Note', body };
+      return {
+        key: known?.key || 'note',
+        title: known ? (french ? known.frenchTitle : known.title) : label || (french ? 'Note' : 'Note'),
+        body
+      };
     })
     .filter((section) => section.body);
 }
@@ -8348,7 +8357,7 @@ function renderGrammarLessonContentHtml(lesson) {
     .join('');
   return `
     <details class="grammar-lesson-content" open>
-      <summary>📘 ${advancedFrenchText('Complete grammar lesson', 'Leçon de grammaire complète')}</summary>
+      <summary>📘 ${isFrenchTargetLanguage() ? 'Leçon de grammaire complète' : 'Complete grammar lesson'}</summary>
       <div class="grammar-lesson-sections-grid">${sectionsHtml}</div>
     </details>
   `;
@@ -8372,7 +8381,7 @@ function renderGrammarTestView(content, lesson) {
 
 function renderGrammarTestInstructionsHtml(lesson, test) {
   const total = test.questions.length;
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchTargetLanguage();
   return `
     <div class="grammar-test-card card-enter">
       <h3>${escapeHtml(lesson.title)}</h3>
@@ -8396,7 +8405,7 @@ function renderGrammarTestQuestionHtml(lesson, test, runtime) {
     isGrammarTestQuestionAnswered(runtime, question)
   ).length;
   const pct = Math.round((answered / total) * 100);
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchTargetLanguage();
   const questionsHtml = test.questions
     .map(
       (question, index) => `
@@ -8426,6 +8435,7 @@ function renderGrammarTestQuestionHtml(lesson, test, runtime) {
 }
 
 function renderGrammarTestQuestionBodyHtml(question, runtime) {
+  const french = isFrenchTargetLanguage();
   const saved = runtime.answers[question.id];
 
   if (question.type === 'mcq') {
@@ -8447,7 +8457,7 @@ function renderGrammarTestQuestionBodyHtml(question, runtime) {
   if (question.type === 'fill_blank') {
     return `
       <div class="grammar-test-fill-wrap">
-        <input type="text" class="grammar-test-fill-input" value="${escapeHtml(saved || '')}" autocomplete="off" placeholder="Escribe tu respuesta" />
+        <input type="text" class="grammar-test-fill-input" value="${escapeHtml(saved || '')}" autocomplete="off" placeholder="${french ? 'Écrivez votre réponse' : 'Write your answer'}" />
       </div>
     `;
   }
@@ -8466,7 +8476,7 @@ function renderGrammarTestQuestionBodyHtml(question, runtime) {
           .join('');
         return `
           <li class="grammar-test-order-item">
-            <select class="grammar-test-order-select" data-item-id="${escapeHtml(item.id)}" aria-label="Posición de ${escapeHtml(item.text)}">
+            <select class="grammar-test-order-select" data-item-id="${escapeHtml(item.id)}" aria-label="${french ? 'Position de' : 'Position of'} ${escapeHtml(item.text)}">
               <option value="" ${savedPosition === 0 ? 'selected' : ''}>#</option>
               ${positionOptionsHtml}
             </select>
@@ -8526,7 +8536,7 @@ function collectGrammarTestAnswer(content, test, runtime) {
 }
 
 function renderGrammarTestReviewHtml(lesson, test, runtime) {
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchTargetLanguage();
   const itemsHtml = test.questions
     .map((question, index) => {
       const answered = isGrammarTestQuestionAnswered(runtime, question);
@@ -8583,7 +8593,7 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
   }
 
   const band = gradeBandForScore(result.score);
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchTargetLanguage();
   const resultsByQuestionId = new Map((result.results || []).map((r) => [String(r.questionId), r]));
   const correctCount = (result.results || []).filter((r) => r.correct).length;
 
@@ -8641,6 +8651,7 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
 // the endpoint requires auth the same way submitting the test already does.
 async function loadGrammarTestHistory(lesson, containerEl) {
   if (!containerEl || !authStatus.session?.access_token) return;
+  const french = isFrenchTargetLanguage();
   try {
     const response = await fetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/grammar-test-history`, {
       headers: authHeaders()
@@ -8650,20 +8661,22 @@ async function loadGrammarTestHistory(lesson, containerEl) {
 
     const rowsHtml = data.history
       .map((attempt) => {
-        const date = attempt.completedAt ? new Date(attempt.completedAt).toLocaleDateString('es-DO') : '';
+        const date = attempt.completedAt
+          ? new Date(attempt.completedAt).toLocaleDateString(french ? 'fr-FR' : 'en-US')
+          : '';
         return `
           <li class="grammar-test-history-item${attempt.isBest ? ' is-best' : ''}">
-            <span>Intento ${attempt.attemptNumber}</span>
+            <span>${french ? 'Tentative' : 'Attempt'} ${attempt.attemptNumber}</span>
             <span>${attempt.score}/100</span>
-            <span>${attempt.correctAnswers}/${attempt.totalQuestions} correctas</span>
+            <span>${attempt.correctAnswers}/${attempt.totalQuestions} ${french ? 'réponses correctes' : 'correct answers'}</span>
             <span>${escapeHtml(date)}</span>
-            ${attempt.isBest ? '<span class="grammar-test-history-best-tag">🏆 Mejor</span>' : ''}
+            ${attempt.isBest ? `<span class="grammar-test-history-best-tag">🏆 ${french ? 'Meilleur' : 'Best'}</span>` : ''}
           </li>`;
       })
       .join('');
     containerEl.innerHTML = `
       <details class="grammar-test-history-details">
-        <summary>🕘 Historial de intentos (${data.history.length})</summary>
+        <summary>🕘 ${french ? 'Historique des tentatives' : 'Attempt history'} (${data.history.length})</summary>
         <ul class="grammar-test-history-list">${rowsHtml}</ul>
       </details>
     `;
