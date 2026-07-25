@@ -30,6 +30,8 @@
       lastActiveDate: null,
       badges: [],
       completedSlugs: [],
+      completedUnitIds: [],
+      skillCompletions: {},
       languagesTouched: [],
       skillsTouchedToday: [],
       correctAnswersToday: 0,

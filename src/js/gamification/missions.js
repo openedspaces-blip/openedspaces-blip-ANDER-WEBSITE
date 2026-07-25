@@ -3,30 +3,30 @@
 (function () {
   const G = window.__andergoGamification;
 
-  const MISSION_POOL = [
-    { id: 'complete-lesson', label: 'Completa 1 lección hoy', target: 1, xpReward: 15 },
+  const DAILY_MISSIONS = [
+    { id: 'complete-lesson', label: 'Completa la actividad recomendada', target: 1, xpReward: 15 },
     {
       id: 'correct-answers',
       label: 'Responde 3 ejercicios correctamente',
       target: 3,
       xpReward: 15
     },
-    { id: 'practice-skills', label: 'Practica 2 habilidades distintas', target: 2, xpReward: 15 },
-    { id: 'explore-language', label: 'Explora otro idioma', target: 1, xpReward: 10 }
+    { id: 'practice-skills', label: 'Practica 2 habilidades distintas', target: 2, xpReward: 15 }
   ];
 
   G.ensureDailyMissions = function ensureDailyMissions() {
     const today = G.todayIso();
-    if (G.state.missions?.date === today) return;
+    if (G.state.missions?.date === today && G.state.missions?.version === 2) return;
 
-    // Reset "today" counters and pick 3 fresh missions.
+    // Keep the goals predictable and pedagogical: continuity, successful
+    // practice and variety. Navigation by itself should not earn a reward.
     G.state.skillsTouchedToday = [];
     G.state.correctAnswersToday = 0;
     G.state.languagesTouchedToday = [];
-    const shuffled = [...MISSION_POOL].sort(() => Math.random() - 0.5).slice(0, 3);
     G.state.missions = {
       date: today,
-      items: shuffled.map((mission) => ({ ...mission, progress: 0, done: false }))
+      version: 2,
+      items: DAILY_MISSIONS.map((mission) => ({ ...mission, progress: 0, done: false }))
     };
     G.persist();
   };

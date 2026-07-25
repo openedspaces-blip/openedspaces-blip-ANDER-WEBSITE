@@ -17,6 +17,10 @@
     } catch {
       G.state = G.defaultState();
     }
+    if (!Array.isArray(G.state.completedUnitIds)) G.state.completedUnitIds = [];
+    if (!G.state.skillCompletions || typeof G.state.skillCompletions !== 'object') {
+      G.state.skillCompletions = {};
+    }
     G.ensureDailyMissions();
     G.render();
   }
@@ -46,24 +50,56 @@
     }
   }
 
-  function recordLessonCompletion({ slug, language, score = 100, xpReward = 20 } = {}) {
+  function recordUnitCompletion(unitId) {
+    if (!unitId || G.state.completedUnitIds.includes(unitId)) return false;
+    G.state.completedUnitIds.push(unitId);
+    G.addXp(30, 'Unidad completada');
+    const newBadges = G.evaluateBadges();
+    newBadges.forEach((badge) => G.notify('badge-unlocked', badge));
+    G.notify('unit-complete', { unitId, xpReward: 30 });
+    G.persist();
+    G.render();
+    return true;
+  }
+
+  function recordLessonCompletion({
+    slug,
+    language,
+    skill,
+    unitId,
+    unitCompleted = false,
+    score = 100,
+    xpReward = 20
+  } = {}) {
     G.ensureDailyMissions();
     G.bumpStreak();
     const alreadyCompleted = G.state.completedSlugs.includes(slug);
-    if (!alreadyCompleted) G.state.completedSlugs.push(slug);
+    if (!alreadyCompleted) {
+      G.state.completedSlugs.push(slug);
+      if (skill) {
+        G.state.skillCompletions[skill] = (G.state.skillCompletions[skill] || 0) + 1;
+      }
+    }
     if (score >= 100) G.state.hasPerfectScore = true;
     if (language && !G.state.languagesTouched.includes(language))
       G.state.languagesTouched.push(language);
 
     G.addXp(alreadyCompleted ? Math.round(xpReward * 0.2) : xpReward, 'Lección completada');
     if (!alreadyCompleted) G.updateMissionProgress('complete-lesson', 1);
+    const newlyCompletedUnit = unitCompleted ? recordUnitCompletion(unitId) : false;
 
     const newBadges = G.evaluateBadges();
     G.persist();
     G.render();
     newBadges.forEach((badge) => G.notify('badge-unlocked', badge));
     G.notify('streak', { streak: G.state.streak });
-    return { newBadges, streak: G.state.streak, xp: G.state.xp, level: G.state.level };
+    return {
+      newBadges,
+      newlyCompletedUnit,
+      streak: G.state.streak,
+      xp: G.state.xp,
+      level: G.state.level
+    };
   }
 
   // Merge server-confirmed values (source of truth once signed in) without
@@ -94,6 +130,7 @@
     recordCorrectAnswer,
     recordSkillTouched,
     recordLessonCompletion,
+    recordUnitCompletion,
     syncFromServer,
     onEvent: G.onEvent,
     getState,

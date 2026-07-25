@@ -61,8 +61,11 @@
     if (streakValue) streakValue.textContent = String(G.state.streak);
     if (bestStreakValue)
       bestStreakValue.textContent = String(Math.max(G.state.longestStreak || 0, G.state.streak));
-    if (badgesValue)
-      badgesValue.textContent = `${G.state.badges.length}/${G.BADGE_DEFINITIONS.length}`;
+    if (badgesValue) {
+      const validIds = new Set(G.BADGE_DEFINITIONS.map((badge) => badge.id));
+      const unlockedCount = G.state.badges.filter((id) => validIds.has(id)).length;
+      badgesValue.textContent = `${unlockedCount}/${G.BADGE_DEFINITIONS.length}`;
+    }
   };
 
   G.renderBadges = function renderBadges() {

@@ -13,76 +13,76 @@
       target: 1
     },
     {
-      id: 'five-lessons',
-      label: 'En marcha',
-      description: 'Completa 5 lecciones.',
-      icon: '🚀',
-      statKey: 'completedCount',
+      id: 'reader-5',
+      label: 'Lector crítico',
+      description: 'Completa 5 actividades de Reading.',
+      icon: '📖',
+      statKey: 'readingCompleted',
       target: 5
     },
     {
-      id: 'ten-lessons',
-      label: 'Constante',
-      description: 'Completa 10 lecciones.',
-      icon: '🏅',
-      statKey: 'completedCount',
-      target: 10
+      id: 'listener-5',
+      label: 'Oído atento',
+      description: 'Completa 5 actividades de Listening.',
+      icon: '🎧',
+      statKey: 'listeningCompleted',
+      target: 5
     },
     {
-      id: 'twenty-five-lessons',
-      label: 'Imparable',
-      description: 'Completa 25 lecciones.',
-      icon: '🏆',
-      statKey: 'completedCount',
-      target: 25
+      id: 'vocabulary-5',
+      label: 'Explorador de palabras',
+      description: 'Completa 5 actividades de Vocabulary.',
+      icon: '🧠',
+      statKey: 'vocabularyCompleted',
+      target: 5
     },
     {
-      id: 'streak-3',
-      label: 'Racha de 3',
-      description: '3 días seguidos practicando.',
-      icon: '🔥',
-      statKey: 'streak',
-      target: 3
+      id: 'grammar-5',
+      label: 'Constructor de frases',
+      description: 'Completa 5 actividades de Grammar.',
+      icon: '🧩',
+      statKey: 'grammarCompleted',
+      target: 5
+    },
+    {
+      id: 'speaker-5',
+      label: 'Voz en acción',
+      description: 'Completa 5 actividades de Speaking.',
+      icon: '🎙️',
+      statKey: 'speakingCompleted',
+      target: 5
+    },
+    {
+      id: 'writer-5',
+      label: 'Escritor constante',
+      description: 'Completa 5 actividades de Writing.',
+      icon: '✍️',
+      statKey: 'writingCompleted',
+      target: 5
+    },
+    {
+      id: 'unit-1',
+      label: 'Primera misión completa',
+      description: 'Completa todas las actividades de una unidad.',
+      icon: '🏁',
+      statKey: 'unitsCompleted',
+      target: 1
+    },
+    {
+      id: 'unit-5',
+      label: 'Avance con propósito',
+      description: 'Completa 5 unidades.',
+      icon: '🗺️',
+      statKey: 'unitsCompleted',
+      target: 5
     },
     {
       id: 'streak-7',
-      label: 'Racha de 7',
-      description: 'Una semana completa de práctica.',
+      label: 'Semana constante',
+      description: 'Cumple tu práctica durante 7 días.',
       icon: '🔥',
       statKey: 'streak',
       target: 7
-    },
-    {
-      id: 'streak-30',
-      label: 'Racha de 30',
-      description: 'Un mes entero sin fallar.',
-      icon: '🔥',
-      statKey: 'streak',
-      target: 30
-    },
-    {
-      id: 'level-5',
-      label: 'Nivel 5',
-      description: 'Alcanza el nivel 5 de XP.',
-      icon: '⭐',
-      statKey: 'level',
-      target: 5
-    },
-    {
-      id: 'level-10',
-      label: 'Nivel 10',
-      description: 'Alcanza el nivel 10 de XP.',
-      icon: '🌟',
-      statKey: 'level',
-      target: 10
-    },
-    {
-      id: 'polyglot',
-      label: 'Políglota',
-      description: 'Practica en 2 o más idiomas.',
-      icon: '🌍',
-      statKey: 'languagesStarted',
-      target: 2
     },
     {
       id: 'perfectionist',
@@ -98,8 +98,13 @@
     return {
       completedCount: G.state.completedSlugs.length,
       streak: G.state.streak,
-      level: G.state.level,
-      languagesStarted: G.state.languagesTouched.length,
+      unitsCompleted: G.state.completedUnitIds?.length || 0,
+      readingCompleted: G.state.skillCompletions?.reading || 0,
+      listeningCompleted: G.state.skillCompletions?.listening || 0,
+      vocabularyCompleted: G.state.skillCompletions?.vocabulary || 0,
+      grammarCompleted: G.state.skillCompletions?.grammar || 0,
+      speakingCompleted: G.state.skillCompletions?.speaking || 0,
+      writingCompleted: G.state.skillCompletions?.writing || 0,
       hasPerfectScore: G.state.hasPerfectScore ? 1 : 0
     };
   };

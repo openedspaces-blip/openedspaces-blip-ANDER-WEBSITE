@@ -2954,6 +2954,16 @@ function getUnitProgressMetrics(unitId) {
   };
 }
 
+function getLessonGamificationContext(lesson) {
+  if (!lesson) return {};
+  const metrics = lesson.unitId ? getUnitProgressMetrics(lesson.unitId) : null;
+  return {
+    skill: lesson.skill || '',
+    unitId: lesson.unitId || '',
+    unitCompleted: Boolean(metrics && metrics.total > 0 && metrics.completedCount === metrics.total)
+  };
+}
+
 function getCourseProgressMetrics() {
   const lessonScoreTotal = learningPathState.lessons.reduce(
     (sum, item) => sum + Number(item.bestScore || 0),
@@ -7411,6 +7421,7 @@ async function completeSpeakingActivity(lesson) {
     window.AndergoGamification?.recordLessonCompletion({
       slug: lesson.slug,
       language: learningPathState.language,
+      ...getLessonGamificationContext(lesson),
       score: data.score ?? 100,
       xpReward: lesson.xpReward || 20
     });
@@ -10427,6 +10438,7 @@ async function completeListeningLesson(lesson, content) {
     const gamResult = window.AndergoGamification?.recordLessonCompletion({
       slug: lesson.slug,
       language: learningPathState.language,
+      ...getLessonGamificationContext(lesson),
       score: data.score ?? 100,
       xpReward: lesson.xpReward || 20
     });
@@ -11398,6 +11410,10 @@ window.recordUnitVerbScore = async function recordUnitVerbScore(score) {
     lastScore: data.score,
     attemptsCount: data.attemptsCount
   };
+  const unitMetrics = getUnitProgressMetrics(learningPathState.unitId);
+  if (unitMetrics.total > 0 && unitMetrics.completedCount === unitMetrics.total) {
+    window.AndergoGamification?.recordUnitCompletion(learningPathState.unitId);
+  }
   renderLearningPath();
   loadDashboard();
   return data;
@@ -11555,6 +11571,7 @@ async function completeActiveLesson() {
     const gamResult = window.AndergoGamification?.recordLessonCompletion({
       slug: activeLesson.slug,
       language: learningPathState.language,
+      ...getLessonGamificationContext(activeLesson),
       score: data.score ?? 100,
       xpReward: activeLesson.xpReward || 20
     });
@@ -12070,6 +12087,69 @@ function showCelebration(message = '') {
   }, 3200);
 }
 
+function showUnitCompletionPanel({ unitId, xpReward = 30 } = {}) {
+  const unit = learningPathState.units.find((item) => item.id === unitId);
+  if (!unit) return;
+  document.querySelector('.unit-completion-overlay')?.remove();
+  const nextUnit = learningPathState.units.find((item) => item.order === unit.order + 1);
+  const metrics = getUnitProgressMetrics(unitId);
+  const overlay = document.createElement('div');
+  overlay.className = 'unit-completion-overlay';
+  overlay.innerHTML = `
+    <section class="unit-completion-card" role="dialog" aria-modal="true" aria-labelledby="unitCompletionTitle">
+      <button type="button" class="unit-completion-close" aria-label="Cerrar">×</button>
+      <span class="unit-completion-icon" aria-hidden="true">🏁</span>
+      <span class="unit-completion-kicker">Unidad completada</span>
+      <h2 id="unitCompletionTitle">${escapeHtml(unit.title)}</h2>
+      <p>Completaste el recorrido de comprensión, vocabulario, gramática y producción.</p>
+      <div class="unit-completion-results">
+        <span><strong>${metrics.completedCount}/${metrics.total}</strong> actividades</span>
+        <span><strong>${metrics.progressPercent}/100</strong> score</span>
+        <span><strong>+${escapeHtml(String(xpReward))}</strong> XP</span>
+      </div>
+      <div class="unit-completion-actions">
+        ${
+          nextUnit
+            ? `<button type="button" class="primary-btn unit-completion-next" data-unit-id="${escapeHtml(nextUnit.id)}">Continuar a la siguiente unidad →</button>`
+            : '<button type="button" class="primary-btn unit-completion-progress">Ver mi progreso</button>'
+        }
+        ${nextUnit ? '<button type="button" class="secondary-btn unit-completion-progress">Ver mi progreso</button>' : ''}
+      </div>
+    </section>
+  `;
+  document.body.appendChild(overlay);
+  overlay.querySelector('.unit-completion-close')?.focus();
+  const close = () => overlay.remove();
+  overlay.querySelector('.unit-completion-close')?.addEventListener('click', close);
+  overlay.addEventListener('click', (event) => {
+    if (event.target === overlay) close();
+  });
+  overlay.querySelector('.unit-completion-progress')?.addEventListener('click', () => {
+    close();
+    history.pushState(null, '', '#progress');
+    showView('progress');
+  });
+  overlay.querySelector('.unit-completion-next')?.addEventListener('click', () => {
+    const selected = learningPathState.units.find(
+      (item) => item.id === overlay.querySelector('.unit-completion-next')?.dataset.unitId
+    );
+    if (!selected) return;
+    close();
+    selectUnit(selected.id, { render: false });
+    const action = getUnitActionState(selected);
+    const lesson = learningPathState.lessons.find((item) => item.slug === action.targetSlug);
+    if (lesson) openUnitSequenceStep(lesson.skill, lesson.slug);
+    else {
+      showView('learn');
+      renderLearningPath();
+    }
+  });
+}
+
+window.AndergoGamification?.onEvent((type, payload) => {
+  if (type === 'unit-complete') showUnitCompletionPanel(payload);
+});
+
 // Purely visual reaction to an activity being completed - called right
 // after showHomeToast()'s "+X XP" toast at each completion call site
 // (Speaking/Listening/lesson workspace). Never reads or writes
@@ -12522,6 +12602,7 @@ function enableHomepageActions() {
           window.AndergoGamification?.recordLessonCompletion({
             slug: lesson.slug,
             language: learningPathState.language,
+            ...getLessonGamificationContext(lesson),
             score: data.score,
             xpReward: lesson.xpReward || 20
           });
@@ -12787,6 +12868,7 @@ function enableHomepageActions() {
         window.AndergoGamification?.recordLessonCompletion({
           slug: lesson.slug,
           language: learningPathState.language,
+          ...getLessonGamificationContext(lesson),
           score: data.score ?? 100,
           xpReward: lesson.xpReward || 20
         });
@@ -12924,6 +13006,7 @@ function enableHomepageActions() {
         window.AndergoGamification?.recordLessonCompletion({
           slug: lesson.slug,
           language: learningPathState.language,
+          ...getLessonGamificationContext(lesson),
           score: data.score ?? 100,
           xpReward: lesson.xpReward || 20
         });
