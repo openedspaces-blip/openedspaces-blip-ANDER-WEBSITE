@@ -1975,6 +1975,12 @@ const units = [
   }
 ];
 
+require('./french-a1-official-listening').applyFrenchA1OfficialListening(units);
+require('./official-listening-utils').enrichOfficialListening(units, {
+  language: 'french',
+  level: 'A1'
+});
+
 module.exports = {
   language: 'french',
   level: 'A1',

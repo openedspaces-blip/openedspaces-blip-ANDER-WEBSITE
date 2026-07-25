@@ -33,6 +33,18 @@ function shapeReading(reading) {
   return { ...reading, text: reading.parts.join('\n\n') };
 }
 
+function shapeExtra(a) {
+  const extra = {};
+  if (a.listeningType) extra.listeningType = a.listeningType;
+  if (a.storyTitle) extra.storyTitle = a.storyTitle;
+  if (a.mainTranscript) extra.mainTranscript = a.mainTranscript;
+  if (a.transcriptSegments) extra.transcriptSegments = a.transcriptSegments;
+  if (a.phoneticSupport) extra.phoneticSupport = a.phoneticSupport;
+  if (a.dictation) extra.dictationSegmentCount = (a.dictation.segments || []).length;
+  if (a.listeningComprehension) extra.listeningComprehension = a.listeningComprehension;
+  return Object.keys(extra).length ? extra : null;
+}
+
 function buildActivityRow(unit, skill, orderInUnit) {
   const a = unit.activities[skill];
   if (!a) throw new Error(`Unit "${unit.slug}" is missing a "${skill}" activity`);
@@ -61,7 +73,10 @@ function buildActivityRow(unit, skill, orderInUnit) {
       vocabulary: a.vocabulary || [],
       dialogue: a.dialogue || [],
       reading: shapeReading(a.reading),
+      transcript: a.transcript || '',
+      dictation: a.dictation || null,
       exercises: a.exercises || [],
+      extra: shapeExtra(a),
       xp_reward: a.xp
     }
   };

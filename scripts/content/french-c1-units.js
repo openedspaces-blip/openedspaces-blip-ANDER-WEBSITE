@@ -209,11 +209,13 @@ const units = [
   }
 ];
 
+units.push(...require('./french-c1-advanced-units'));
+
 module.exports = {
   language: 'french',
   level: 'C1',
   courseTitle: 'Français C1',
   courseDescription:
-    'Français avancé (niveau C1) : registre universitaire et soutenu, organisé en unités thématiques qui poursuivent le parcours de Camila devenue étudiante à l’université de Tours. Portée actuelle : unités 1 et 2, sections reading/vocabulary/grammar.',
+    'Français avancé (niveau C1) : douze unités thématiques de Reading, Vocabulary et Grammar consacrées aux textes complexes, au lexique analytique et aux structures grammaticales avancées.',
   units
 };

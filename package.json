@@ -15,6 +15,7 @@
     "db:setup": "node scripts/setup-database.js",
     "audio:generate": "node scripts/generate-listening-audio.js",
     "verify:all": "node scripts/verify-all.js",
+    "validate:listening": "node scripts/validate-official-listening.js",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },

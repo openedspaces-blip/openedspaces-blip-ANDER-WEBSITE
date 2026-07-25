@@ -1,0 +1,237 @@
+// 100 verbes français + 100 verbos españoles, con conjugadores locales.
+// No API ni IA: los paradigmas se producen con reglas revisables y mapas
+// explícitos para los verbos irregulares de mayor frecuencia.
+(function () {
+  const FR = [
+    ['être','be','ser / estar',3],['avoir','have','tener / haber',3],['faire','do / make','hacer',3],['dire','say','decir',3],
+    ['aller','go','ir',3],['voir','see','ver',3],['savoir','know','saber',3],['pouvoir','can','poder',3],
+    ['vouloir','want','querer',3],['venir','come','venir',3],['devoir','must / owe','deber',3],['prendre','take','tomar',3],
+    ['trouver','find','encontrar',1],['donner','give','dar',1],['falloir','be necessary','ser necesario',3],['parler','speak','hablar',1],
+    ['mettre','put','poner',3],['passer','pass / spend','pasar',1],['regarder','look / watch','mirar',1],['aimer','like / love','amar / gustar',1],
+    ['croire','believe','creer',3],['demander','ask','preguntar / pedir',1],['rester','stay','quedarse',1],['répondre','answer','responder',3],
+    ['entendre','hear','oír',3],['penser','think','pensar',1],['arriver','arrive','llegar',1],['connaître','know','conocer',3],
+    ['devenir','become','convertirse',3],['sentir','feel / smell','sentir',3],['sembler','seem','parecer',1],['tenir','hold','sostener',3],
+    ['comprendre','understand','comprender',3],['rendre','return / make','devolver / hacer',3],['attendre','wait','esperar',3],['sortir','go out','salir',3],
+    ['vivre','live','vivir',3],['entrer','enter','entrar',1],['reprendre','resume / take back','retomar',3],['porter','carry / wear','llevar',1],
+    ['chercher','look for','buscar',1],['revenir','come back','volver',3],['appeler','call','llamar',1],['mourir','die','morir',3],
+    ['partir','leave','partir / salir',3],['jeter','throw','tirar',1],['suivre','follow','seguir',3],['écrire','write','escribir',3],
+    ['montrer','show','mostrar',1],['tomber','fall','caer',1],['ouvrir','open','abrir',3],['arrêter','stop','detener',1],
+    ['perdre','lose','perder',3],['commencer','begin','comenzar',1],['paraître','appear','parecer',3],['marcher','walk / work','caminar / funcionar',1],
+    ['lever','raise','levantar',1],['permettre','allow','permitir',3],['asseoir','seat','sentar',3],['écouter','listen','escuchar',1],
+    ['monter','go up','subir',1],['apercevoir','notice','percibir',3],['recevoir','receive','recibir',3],['servir','serve','servir',3],
+    ['finir','finish','terminar',2],['rire','laugh','reír',3],['lire','read','leer',3],['quitter','leave','dejar',1],
+    ['reprendre','take again','retomar',3],['continuer','continue','continuar',1],['manger','eat','comer',1],['boire','drink','beber',3],
+    ['courir','run','correr',3],['dormir','sleep','dormir',3],['travailler','work','trabajar',1],['jouer','play','jugar',1],
+    ['étudier','study','estudiar',1],['apprendre','learn','aprender',3],['choisir','choose','elegir',2],['réussir','succeed','lograr',2],
+    ['réfléchir','reflect','reflexionar',2],['remplir','fill','llenar',2],['grandir','grow','crecer',2],['agir','act','actuar',2],
+    ['essayer','try','intentar',1],['utiliser','use','usar',1],['changer','change','cambiar',1],['aider','help','ayudar',1],
+    ['gagner','win / earn','ganar',1],['oublier','forget','olvidar',1],['fermer','close','cerrar',1],['expliquer','explain','explicar',1],
+    ['acheter','buy','comprar',1],['vendre','sell','vender',3],['envoyer','send','enviar',1],['conduire','drive','conducir',3],
+    ['construire','build','construir',3],['naître','be born','nacer',3],['lancer','launch / throw','lanzar',1],['décider','decide','decidir',1],
+    ['laisser','leave / let','dejar / permitir',1]
+  ].filter((row, index, rows) => rows.findIndex((other) => other[0] === row[0]) === index).slice(0, 100);
+
+  const ES = [
+    ['ser','be','être'],['haber','have / there be','avoir'],['estar','be / stay','être / rester'],['tener','have','avoir'],['hacer','do / make','faire'],
+    ['poder','can','pouvoir'],['decir','say','dire'],['ir','go','aller'],['ver','see','voir'],['dar','give','donner'],
+    ['saber','know','savoir'],['querer','want / love','vouloir / aimer'],['llegar','arrive','arriver'],['pasar','pass / spend','passer'],['deber','must / owe','devoir'],
+    ['poner','put','mettre'],['parecer','seem','sembler'],['quedar','remain','rester'],['creer','believe','croire'],['hablar','speak','parler'],
+    ['llevar','carry / wear','porter'],['dejar','leave / allow','laisser'],['seguir','follow / continue','suivre'],['encontrar','find','trouver'],['llamar','call','appeler'],
+    ['venir','come','venir'],['pensar','think','penser'],['salir','go out','sortir'],['volver','return','revenir'],['tomar','take / drink','prendre'],
+    ['conocer','know / meet','connaître'],['vivir','live','vivre'],['sentir','feel','sentir'],['tratar','try / treat','essayer / traiter'],['mirar','look','regarder'],
+    ['contar','count / tell','compter / raconter'],['empezar','begin','commencer'],['esperar','wait / hope','attendre / espérer'],['buscar','look for','chercher'],['existir','exist','exister'],
+    ['entrar','enter','entrer'],['trabajar','work','travailler'],['escribir','write','écrire'],['perder','lose','perdre'],['producir','produce','produire'],
+    ['ocurrir','happen','arriver'],['entender','understand','comprendre'],['pedir','ask for','demander'],['recibir','receive','recevoir'],['recordar','remember','se souvenir'],
+    ['terminar','finish','finir'],['permitir','allow','permettre'],['aparecer','appear','apparaître'],['conseguir','obtain','obtenir'],['comenzar','begin','commencer'],
+    ['servir','serve','servir'],['sacar','take out','sortir'],['necesitar','need','avoir besoin'],['mantener','maintain','maintenir'],['resultar','result / turn out','résulter'],
+    ['leer','read','lire'],['caer','fall','tomber'],['cambiar','change','changer'],['presentar','present','présenter'],['crear','create','créer'],
+    ['abrir','open','ouvrir'],['considerar','consider','considérer'],['oír','hear','entendre'],['acabar','finish','finir'],['convertir','convert','convertir'],
+    ['ganar','win / earn','gagner'],['formar','form','former'],['traer','bring','apporter'],['partir','leave / split','partir'],['morir','die','mourir'],
+    ['aceptar','accept','accepter'],['realizar','carry out','réaliser'],['suponer','suppose','supposer'],['comprender','understand','comprendre'],['lograr','achieve','réussir'],
+    ['explicar','explain','expliquer'],['preguntar','ask','demander'],['tocar','touch / play','toucher / jouer'],['reconocer','recognize','reconnaître'],['estudiar','study','étudier'],
+    ['alcanzar','reach','atteindre'],['nacer','be born','naître'],['dirigir','direct','diriger'],['correr','run','courir'],['utilizar','use','utiliser'],
+    ['pagar','pay','payer'],['ayudar','help','aider'],['gustar','like','aimer'],['jugar','play','jouer'],['escuchar','listen','écouter'],
+    ['cumplir','fulfill','accomplir'],['ofrecer','offer','offrir'],['descubrir','discover','découvrir'],['levantar','raise','lever'],['intentar','try','essayer']
+  ].slice(0, 100);
+
+  const FR_PRESENT = {
+    être:['suis','es','est','sommes','êtes','sont'],avoir:['ai','as','a','avons','avez','ont'],faire:['fais','fais','fait','faisons','faites','font'],
+    dire:['dis','dis','dit','disons','dites','disent'],aller:['vais','vas','va','allons','allez','vont'],voir:['vois','vois','voit','voyons','voyez','voient'],
+    savoir:['sais','sais','sait','savons','savez','savent'],pouvoir:['peux','peux','peut','pouvons','pouvez','peuvent'],vouloir:['veux','veux','veut','voulons','voulez','veulent'],
+    venir:['viens','viens','vient','venons','venez','viennent'],devoir:['dois','dois','doit','devons','devez','doivent'],prendre:['prends','prends','prend','prenons','prenez','prennent'],
+    falloir:['faut','faut','faut','faut','faut','faut'],mettre:['mets','mets','met','mettons','mettez','mettent'],croire:['crois','crois','croit','croyons','croyez','croient'],
+    connaître:['connais','connais','connaît','connaissons','connaissez','connaissent'],tenir:['tiens','tiens','tient','tenons','tenez','tiennent'],
+    comprendre:['comprends','comprends','comprend','comprenons','comprenez','comprennent'],sortir:['sors','sors','sort','sortons','sortez','sortent'],
+    vivre:['vis','vis','vit','vivons','vivez','vivent'],mourir:['meurs','meurs','meurt','mourons','mourez','meurent'],partir:['pars','pars','part','partons','partez','partent'],
+    suivre:['suis','suis','suit','suivons','suivez','suivent'],écrire:['écris','écris','écrit','écrivons','écrivez','écrivent'],ouvrir:['ouvre','ouvres','ouvre','ouvrons','ouvrez','ouvrent'],
+    perdre:['perds','perds','perd','perdons','perdez','perdent'],lire:['lis','lis','lit','lisons','lisez','lisent'],boire:['bois','bois','boit','buvons','buvez','boivent'],
+    courir:['cours','cours','court','courons','courez','courent'],dormir:['dors','dors','dort','dormons','dormez','dorment'],apprendre:['apprends','apprends','apprend','apprenons','apprenez','apprennent'],
+    recevoir:['reçois','reçois','reçoit','recevons','recevez','reçoivent'],conduire:['conduis','conduis','conduit','conduisons','conduisez','conduisent'],
+    naître:['nais','nais','naît','naissons','naissez','naissent'],rire:['ris','ris','rit','rions','riez','rient'],servir:['sers','sers','sert','servons','servez','servent'],
+    sentir:['sens','sens','sent','sentons','sentez','sentent'],paraître:['parais','parais','paraît','paraissons','paraissez','paraissent'],
+    asseoir:['assieds','assieds','assied','asseyons','asseyez','asseyent'],apercevoir:['aperçois','aperçois','aperçoit','apercevons','apercevez','aperçoivent'],
+    jeter:['jette','jettes','jette','jetons','jetez','jettent'],lever:['lève','lèves','lève','levons','levez','lèvent']
+  };
+  const FR_PP = {être:'été',avoir:'eu',faire:'fait',dire:'dit',aller:'allé',voir:'vu',savoir:'su',pouvoir:'pu',vouloir:'voulu',venir:'venu',devoir:'dû',prendre:'pris',mettre:'mis',croire:'cru',connaître:'connu',tenir:'tenu',comprendre:'compris',rendre:'rendu',attendre:'attendu',sortir:'sorti',vivre:'vécu',mourir:'mort',partir:'parti',suivre:'suivi',écrire:'écrit',ouvrir:'ouvert',perdre:'perdu',lire:'lu',boire:'bu',courir:'couru',dormir:'dormi',apprendre:'appris',recevoir:'reçu',conduire:'conduit',naître:'né',rire:'ri',servir:'servi',vendre:'vendu',construire:'construit'};
+  const FR_PRESENT_PARTICIPLE = {être:'étant',avoir:'ayant',savoir:'sachant'};
+  const FR_FUTURE = {être:'ser',avoir:'aur',faire:'fer',aller:'ir',voir:'verr',savoir:'saur',pouvoir:'pourr',vouloir:'voudr',venir:'viendr',devoir:'devr',tenir:'tiendr',recevoir:'recevr',falloir:'faudr',mourir:'mourr',courir:'courr',envoyer:'enverr'};
+  const FR_ETRE_AUX = new Set(['aller','venir','arriver','devenir','revenir','mourir','partir','sortir','entrer','tomber','naître','rester','monter']);
+
+  function frenchPresent(inf) {
+    if (FR_PRESENT[inf]) return FR_PRESENT[inf];
+    if (inf.endsWith('venir')) {
+      const prefix=inf.slice(0,-5);
+      return FR_PRESENT.venir.map((form)=>prefix+form);
+    }
+    if (inf.endsWith('prendre')) {
+      const prefix=inf.slice(0,-7);
+      return FR_PRESENT.prendre.map((form)=>prefix+form);
+    }
+    if (inf.endsWith('mettre')) {
+      const prefix=inf.slice(0,-6);
+      return FR_PRESENT.mettre.map((form)=>prefix+form);
+    }
+    if (inf.endsWith('er')) {
+      let stem = inf.slice(0,-2);
+      if (inf === 'appeler') return ['appelle','appelles','appelle','appelons','appelez','appellent'];
+      if (inf === 'acheter') return ['achète','achètes','achète','achetons','achetez','achètent'];
+      if (inf === 'envoyer') return ['envoie','envoies','envoie','envoyons','envoyez','envoient'];
+      return ['e','es','e','ons','ez','ent'].map((e,i)=>stem + ((inf.endsWith('ger')&&i===3)?'e'+e:(inf.endsWith('cer')&&i===3)?'ç'+e:e));
+    }
+    if (inf.endsWith('ir')) {
+      const stem=inf.slice(0,-2);
+      return ['is','is','it','issons','issez','issent'].map(e=>stem+e);
+    }
+    const stem=inf.replace(/re$/,'');
+    return ['s','s','','ons','ez','ent'].map(e=>stem+e);
+  }
+  function frenchPp(inf) {
+    if (FR_PP[inf]) return FR_PP[inf];
+    if (inf.endsWith('venir')) return inf.slice(0,-5)+'venu';
+    if (inf.endsWith('prendre')) return inf.slice(0,-7)+'pris';
+    if (inf.endsWith('mettre')) return inf.slice(0,-6)+'mis';
+    return inf.endsWith('er')?inf.slice(0,-2)+'é':inf.endsWith('ir')?inf.slice(0,-2)+'i':inf.endsWith('re')?inf.slice(0,-2)+'u':inf;
+  }
+  function frenchEngine() {
+    const persons=['Je','Tu','Il / Elle','Nous','Vous','Ils / Elles'];
+    const auxAvoir=['ai','as','a','avons','avez','ont'], auxEtre=['suis','es','est','sommes','êtes','sont'];
+    const impEnd=['ais','ais','ait','ions','iez','aient'], futEnd=['ai','as','a','ons','ez','ont'];
+    const condEnd=['ais','ais','ait','ions','iez','aient'];
+    const tenses=[
+      {id:'presentSimple',label:'Présent'}, {id:'pastSimple',label:'Passé composé'}, {id:'imperfect',label:'Imparfait'},
+      {id:'presentPerfect',label:'Plus-que-parfait'}, {id:'futureSimple',label:'Futur simple'}, {id:'conditional',label:'Conditionnel présent'},
+      {id:'subjunctive',label:'Subjonctif présent'}, {id:'imperative',label:'Impératif'}
+    ];
+    function conjugateTense(raw,id) {
+      const inf=raw.infinitive, present=frenchPresent(inf), pp=frenchPp(inf), etre=FR_ETRE_AUX.has(inf);
+      let forms=[];
+      if(id==='presentSimple') forms=present;
+      else if(id==='pastSimple') forms=(etre?auxEtre:auxAvoir).map(a=>`${a} ${pp}`);
+      else if(id==='imperfect') {
+        const stem=present[3].replace(/ons$/,'');
+        forms=impEnd.map(e=>(inf==='être'?'ét':stem)+e);
+      } else if(id==='presentPerfect') {
+        const stem=(etre?'ét':'av');
+        forms=impEnd.map(e=>`${stem+e} ${pp}`);
+      } else if(id==='futureSimple'||id==='conditional') {
+        const stem=FR_FUTURE[inf] || (inf.endsWith('re')?inf.slice(0,-1):inf);
+        forms=(id==='futureSimple'?futEnd:condEnd).map(e=>stem+e);
+      } else if(id==='subjunctive') {
+        const stem=present[5].replace(/ent$/,'');
+        forms=['e','es','e','ions','iez','ent'].map((e,i)=>(i===3||i===4?present[3].replace(/ons$/,''):stem)+e);
+      } else if(id==='imperative') {
+        return {rows:[{label:'tu',affirmative:present[1],negative:`ne ${present[1]} pas`,interrogative:''},{label:'nous',affirmative:present[3],negative:`ne ${present[3]} pas`,interrogative:''},{label:'vous',affirmative:present[4],negative:`ne ${present[4]} pas`,interrogative:''}],note:null};
+      } else return null;
+      return {rows:forms.map((form,i)=>({label:persons[i],affirmative:`${persons[i]} ${form}`.replace(/^Je ([aeiouyh])/i,"J'$1"),negative:`${persons[i]} ne ${form} pas`.replace(/^Je ne ([aeiouyh])/i,"Je n'$1"),interrogative:`${form.replace(/ .*/, '')}-${persons[i].toLowerCase().replace(' / ', '/')} ?`})),note:null};
+    }
+    return {TENSES:tenses,conjugateTense,principalForms(inf){const p=frenchPresent(inf),pp=frenchPp(inf);return{thirdPersonSingular:p[2],pastSimple:`${FR_ETRE_AUX.has(inf)?'est':'a'} ${pp}`,pastParticiple:pp,presentParticiple:FR_PRESENT_PARTICIPLE[inf]||((p[3].replace(/ons$/,'')||inf)+'ant')};}};
+  }
+
+  const ES_PRESENT = {
+    ser:['soy','eres','es','somos','sois','son'],haber:['he','has','ha','hemos','habéis','han'],estar:['estoy','estás','está','estamos','estáis','están'],
+    tener:['tengo','tienes','tiene','tenemos','tenéis','tienen'],hacer:['hago','haces','hace','hacemos','hacéis','hacen'],poder:['puedo','puedes','puede','podemos','podéis','pueden'],
+    decir:['digo','dices','dice','decimos','decís','dicen'],ir:['voy','vas','va','vamos','vais','van'],ver:['veo','ves','ve','vemos','veis','ven'],dar:['doy','das','da','damos','dais','dan'],
+    saber:['sé','sabes','sabe','sabemos','sabéis','saben'],querer:['quiero','quieres','quiere','queremos','queréis','quieren'],poner:['pongo','pones','pone','ponemos','ponéis','ponen'],
+    venir:['vengo','vienes','viene','venimos','venís','vienen'],salir:['salgo','sales','sale','salimos','salís','salen'],seguir:['sigo','sigues','sigue','seguimos','seguís','siguen'],
+    pensar:['pienso','piensas','piensa','pensamos','pensáis','piensan'],encontrar:['encuentro','encuentras','encuentra','encontramos','encontráis','encuentran'],
+    volver:['vuelvo','vuelves','vuelve','volvemos','volvéis','vuelven'],sentir:['siento','sientes','siente','sentimos','sentís','sienten'],pedir:['pido','pides','pide','pedimos','pedís','piden'],
+    oír:['oigo','oyes','oye','oímos','oís','oyen'],traer:['traigo','traes','trae','traemos','traéis','traen'],caer:['caigo','caes','cae','caemos','caéis','caen'],
+    conocer:['conozco','conoces','conoce','conocemos','conocéis','conocen'],producir:['produzco','produces','produce','producimos','producís','producen'],
+    parecer:['parezco','pareces','parece','parecemos','parecéis','parecen'],entender:['entiendo','entiendes','entiende','entendemos','entendéis','entienden'],
+    contar:['cuento','cuentas','cuenta','contamos','contáis','cuentan'],empezar:['empiezo','empiezas','empieza','empezamos','empezáis','empiezan'],
+    comenzar:['comienzo','comienzas','comienza','comenzamos','comenzáis','comienzan'],conseguir:['consigo','consigues','consigue','conseguimos','conseguís','consiguen'],
+    recordar:['recuerdo','recuerdas','recuerda','recordamos','recordáis','recuerdan'],morir:['muero','mueres','muere','morimos','morís','mueren'],
+    jugar:['juego','juegas','juega','jugamos','jugáis','juegan'],reconocer:['reconozco','reconoces','reconoce','reconocemos','reconocéis','reconocen'],
+    ofrecer:['ofrezco','ofreces','ofrece','ofrecemos','ofrecéis','ofrecen'],dirigir:['dirijo','diriges','dirige','dirigimos','dirigís','dirigen']
+  };
+  const ES_PRET = {
+    ser:['fui','fuiste','fue','fuimos','fuisteis','fueron'],ir:['fui','fuiste','fue','fuimos','fuisteis','fueron'],tener:['tuve','tuviste','tuvo','tuvimos','tuvisteis','tuvieron'],
+    estar:['estuve','estuviste','estuvo','estuvimos','estuvisteis','estuvieron'],hacer:['hice','hiciste','hizo','hicimos','hicisteis','hicieron'],poder:['pude','pudiste','pudo','pudimos','pudisteis','pudieron'],
+    decir:['dije','dijiste','dijo','dijimos','dijisteis','dijeron'],venir:['vine','viniste','vino','vinimos','vinisteis','vinieron'],poner:['puse','pusiste','puso','pusimos','pusisteis','pusieron'],
+    saber:['supe','supiste','supo','supimos','supisteis','supieron'],querer:['quise','quisiste','quiso','quisimos','quisisteis','quisieron'],dar:['di','diste','dio','dimos','disteis','dieron'],
+    ver:['vi','viste','vio','vimos','visteis','vieron'],traer:['traje','trajiste','trajo','trajimos','trajisteis','trajeron']
+  };
+  const ES_PP={abrir:'abierto',decir:'dicho',escribir:'escrito',hacer:'hecho',morir:'muerto',poner:'puesto',romper:'roto',ver:'visto',volver:'vuelto',descubrir:'descubierto'};
+  const ES_FUT={tener:'tendr',haber:'habr',hacer:'har',poder:'podr',poner:'pondr',querer:'querr',saber:'sabr',salir:'saldr',venir:'vendr',decir:'dir'};
+  function spanishPresent(inf){
+    if(ES_PRESENT[inf])return ES_PRESENT[inf];
+    const end=inf.slice(-2),stem=inf.slice(0,-2), endings=end==='ar'?['o','as','a','amos','áis','an']:end==='er'?['o','es','e','emos','éis','en']:['o','es','e','imos','ís','en'];
+    return endings.map(e=>stem+e);
+  }
+  function spanishPret(inf){
+    if(ES_PRET[inf])return ES_PRET[inf];
+    const end=inf.slice(-2),stem=inf.slice(0,-2), endings=end==='ar'?['é','aste','ó','amos','asteis','aron']:['í','iste','ió','imos','isteis','ieron'];
+    const forms=endings.map(e=>stem+e);
+    if(inf.endsWith('car'))forms[0]=inf.slice(0,-3)+'qué';
+    if(inf.endsWith('gar'))forms[0]=inf.slice(0,-3)+'gué';
+    if(inf.endsWith('zar'))forms[0]=inf.slice(0,-3)+'cé';
+    return forms;
+  }
+  function spanishPp(inf){return ES_PP[inf]||inf.slice(0,-2)+(inf.endsWith('ar')?'ado':'ido');}
+  function spanishEngine(){
+    const persons=['Yo','Tú','Él / Ella','Nosotros','Vosotros','Ellos / Ellas'],haber=['he','has','ha','hemos','habéis','han'];
+    const tenses=[{id:'presentSimple',label:'Presente'},{id:'pastSimple',label:'Pretérito indefinido'},{id:'imperfect',label:'Pretérito imperfecto'},{id:'presentPerfect',label:'Pretérito perfecto'},{id:'futureSimple',label:'Futuro simple'},{id:'conditional',label:'Condicional'},{id:'subjunctive',label:'Presente de subjuntivo'},{id:'imperative',label:'Imperativo'}];
+    function conjugateTense(raw,id){
+      const inf=raw.infinitive,pres=spanishPresent(inf),pret=spanishPret(inf),stem=inf.slice(0,-2),end=inf.slice(-2),pp=spanishPp(inf);let forms=[];
+      if(id==='presentSimple')forms=pres;
+      else if(id==='pastSimple')forms=pret;
+      else if(id==='imperfect')forms=(end==='ar'?['aba','abas','aba','ábamos','abais','aban']:['ía','ías','ía','íamos','íais','ían']).map(e=>stem+e);
+      else if(id==='presentPerfect')forms=haber.map(h=>`${h} ${pp}`);
+      else if(id==='futureSimple'||id==='conditional'){const s=ES_FUT[inf]||inf;forms=(id==='futureSimple'?['é','ás','á','emos','éis','án']:['ía','ías','ía','íamos','íais','ían']).map(e=>s+e);}
+      else if(id==='subjunctive'){const s=pres[0].replace(/o$/,'');forms=(end==='ar'?['e','es','e','emos','éis','en']:['a','as','a','amos','áis','an']).map(e=>s+e);}
+      else if(id==='imperative')return{rows:[{label:'tú',affirmative:pres[2],negative:`no ${pres[1]}`,interrogative:''},{label:'usted',affirmative:pres[0].replace(/o$/,'')+(end==='ar'?'e':'a'),negative:`no ${pres[0].replace(/o$/,'')+(end==='ar'?'e':'a')}`,interrogative:''},{label:'vosotros',affirmative:inf.slice(0,-1)+'d',negative:`no ${pres[4]}`,interrogative:''}],note:null};
+      else return null;
+      return{rows:forms.map((f,i)=>({label:persons[i],affirmative:`${persons[i]} ${f}`,negative:`${persons[i]} no ${f}`,interrogative:`¿${f} ${persons[i].toLowerCase().replace(' / ','/')}?`})),note:null};
+    }
+    return{TENSES:tenses,conjugateTense,principalForms(inf){const p=spanishPresent(inf),pr=spanishPret(inf);return{thirdPersonSingular:p[2],pastSimple:pr[0],pastParticiple:spanishPp(inf),presentParticiple:inf.slice(0,-2)+(inf.endsWith('ar')?'ando':'iendo')};}};
+  }
+
+  const engines={french:frenchEngine(),spanish:spanishEngine()};
+  function level(rank){return rank<=35?'A1':rank<=70?'A2':'B1';}
+  function buildFrench([inf,en,es,group],index){
+    const forms=engines.french.principalForms(inf),present=frenchPresent(inf);
+    const vowelSound=/^[aeiouyhàâäéèêëîïôöùûü]/i.test(present[0]);
+    const subject=vowelSound?`J’${present[0]}`:`Je ${present[0]}`;
+    const negative=vowelSound?`Je n’${present[0]} pas`:`Je ne ${present[0]} pas`;
+    const question=vowelSound?`Est-ce que j’${present[0]}`:`Est-ce que je ${present[0]}`;
+    return{id:`verb-french-${inf}`,rank:index+1,infinitive:inf,regular:group!==3,group:`${group}${group===1?'er':group===2?'e':'e'} groupe`,level:level(index+1),forms,
+      translation:{spanish:es,english:en},directDefinition:{french:`Verbe fréquent qui signifie « ${es} » en espagnol.`,english:`A frequent French verb meaning “${en}”.`},
+      pronunciation:'',audioText:inf,examples:{affirmative:`${subject} aujourd’hui.`,negative:`${negative} aujourd’hui.`,interrogative:`${question} aujourd’hui ?`},
+      commonCollocations:[],synonyms:[],antonyms:[],notes:`Verbe du ${group}${group===1?'er':group===2?'e':'e'} groupe.`};
+  }
+  function buildSpanish([inf,en,fr],index){
+    const forms=engines.spanish.principalForms(inf),present=spanishPresent(inf),ending=inf.slice(-2);
+    const group=ending==='ar'?'verbos en -ar':ending==='er'?'verbos en -er':'verbos en -ir';
+    return{id:`verb-spanish-${inf}`,rank:index+1,infinitive:inf,regular:!ES_PRESENT[inf]&&!ES_PRET[inf],group,level:level(index+1),forms,
+      translation:{english:en,french:fr,spanish:`Definición: ${en}.`},directDefinition:{spanish:`Verbo frecuente que significa « ${en} » en inglés.`,english:`A frequent Spanish verb meaning “${en}”.`},
+      pronunciation:'',audioText:inf,examples:{affirmative:`Yo ${present[0]} hoy.`,negative:`Yo no ${present[0]} hoy.`,interrogative:`¿Yo ${present[0]} hoy?`},
+      commonCollocations:[],synonyms:[],antonyms:[],notes:`Pertenece al grupo de ${group}.`};
+  }
+  window.ANDERGO_VERBS_DATA=window.ANDERGO_VERBS_DATA||{};
+  window.ANDERGO_VERBS_DATA.french=FR.map(buildFrench);
+  window.ANDERGO_VERBS_DATA.spanish=ES.map(buildSpanish);
+  window.AndergoVerbConjugations=window.AndergoVerbConjugations||{};
+  window.AndergoVerbConjugations.french=engines.french;
+  window.AndergoVerbConjugations.spanish=engines.spanish;
+  if(window.AndergoVerbConjugation)window.AndergoVerbConjugations.english=window.AndergoVerbConjugation;
+})();

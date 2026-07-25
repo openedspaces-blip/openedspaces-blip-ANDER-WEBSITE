@@ -36,6 +36,25 @@
   const VERB_FAVORITES_KEY = 'andergo_verb_favorites_v1';
   const VERB_PRACTICE_STATS_KEY = 'andergo_verb_practice_stats_v1';
   const PAGE_SIZE = 20;
+  const VERB_LANGUAGES = new Set(['english', 'french', 'spanish']);
+
+  function currentVerbLanguage() {
+    const routeLanguage = window.location.hash.replace('#', '').split('/')[1];
+    if (VERB_LANGUAGES.has(routeLanguage)) return routeLanguage;
+    const selectedLanguage =
+      typeof learningPathState !== 'undefined' ? learningPathState.language : 'english';
+    return VERB_LANGUAGES.has(selectedLanguage) ? selectedLanguage : 'english';
+  }
+
+  function verbRoute(feature) {
+    return `#verbs/${currentVerbLanguage()}${feature ? `/${feature}` : ''}`;
+  }
+
+  function currentConjugationEngine() {
+    const language = currentVerbLanguage();
+    return window.AndergoVerbConjugations?.[language] ||
+      (language === 'english' ? window.AndergoVerbConjugation : null);
+  }
 
   // ---------------------------------------------------------------------
   // Scoped auth guard. Only "practice" and "progress" (plus the persistent
@@ -98,7 +117,7 @@
       // Storage unavailable - restoring after login just won't happen;
       // never blocks showing the access-required panel itself.
     }
-    const newHash = `#verbs/english/${feature}`;
+    const newHash = verbRoute(feature);
     if (window.location.hash !== newHash) history.replaceState(null, '', newHash);
 
     if (feature === 'practice') renderPracticeAccessRequired();
@@ -151,7 +170,7 @@
     }
 
     if (!window.location.hash.startsWith('#verbs')) return;
-    history.replaceState(null, '', `#verbs/english/${feature}`);
+    history.replaceState(null, '', verbRoute(feature));
     const tabBtn = document.querySelector(`#verbsTabs .skill-tab-button[data-skill="${feature}"]`);
     if (tabBtn && typeof activateSkillTab === 'function') activateSkillTab(tabBtn, { scroll: false });
 
@@ -238,7 +257,7 @@
       contexts: raw.examples?.affirmative ? [{ targetText: raw.examples.affirmative, supportText: '' }] : [],
       phonetic: raw.pronunciation || '',
       audioText: raw.audioText || raw.infinitive,
-      category: raw.regular ? 'regular verb' : 'irregular verb',
+      category: raw.group || (raw.regular ? 'regular verb' : 'irregular verb'),
       masteryStatus: (typeof getStoredVocabMastery === 'function' ? getStoredVocabMastery(raw.id) : null) || 'new',
       difficulty: raw.level || '',
       language: targetLanguage,
@@ -251,8 +270,11 @@
           ? getDefaultPronunciationRate(targetLanguage, raw.level)
           : 1,
       learningMode,
-      definition: isDirect ? raw.directDefinition?.english || '' : '',
-      simpleDefinition: raw.directDefinition?.english || '',
+      definition: isDirect
+        ? raw.directDefinition?.[targetLanguage] || raw.directDefinition?.english || ''
+        : '',
+      simpleDefinition:
+        raw.directDefinition?.[targetLanguage] || raw.directDefinition?.english || '',
       synonyms: raw.synonyms || [],
       opposites: raw.antonyms || [],
       usageNote: raw.notes || '',
@@ -409,12 +431,13 @@
     const modal = document.getElementById('verbDetailModal');
     const content = document.getElementById('verbDetailContent');
     if (!modal || !content) return;
-    const raw = getVerbById(verbId, 'english');
+    const targetLanguage = currentVerbLanguage();
+    const raw = getVerbById(verbId, targetLanguage);
     if (!raw) return;
 
     const bridgeLanguage =
       (typeof learningPathState !== 'undefined' && learningPathState.bridgeLanguage) || 'spanish';
-    const item = normalizeVerbItem(raw, { bridgeLanguage, targetLanguage: 'english' });
+    const item = normalizeVerbItem(raw, { bridgeLanguage, targetLanguage });
     content.innerHTML = renderVerbDetailContentHtml(raw, item);
 
     verbDetailLastFocusedTile = document.querySelector(`.verb-tile[data-verb-id="${cssEscapeId(verbId)}"]`);
@@ -473,6 +496,12 @@
       if (filter === 'favorite') return item.isFavorite;
       if (filter === 'regular') return raw.regular === true;
       if (filter === 'irregular') return raw.regular === false;
+      if (filter === 'french-1') return raw.group?.startsWith('1');
+      if (filter === 'french-2') return raw.group?.startsWith('2');
+      if (filter === 'french-3') return raw.group?.startsWith('3');
+      if (filter === 'spanish-ar') return raw.group?.includes('-ar');
+      if (filter === 'spanish-er') return raw.group?.includes('-er');
+      if (filter === 'spanish-ir') return raw.group?.includes('-ir');
       if (LEVEL_FILTERS.has(filter)) return raw.level === filter;
       // practicing / mastered (and any other mastery status) fall through
       // to a plain equality check against the shared mastery store.
@@ -530,7 +559,7 @@
     try {
       const bridgeLanguage =
         (typeof learningPathState !== 'undefined' && learningPathState.bridgeLanguage) || 'spanish';
-      const targetLanguage = 'english'; // Fase 1/2 scope: English only (see file header)
+      const targetLanguage = currentVerbLanguage();
       const rawVerbs = getVerbsForLanguage(targetLanguage);
 
       if (!rawVerbs.length) {
@@ -576,12 +605,31 @@
     }
   }
 
-  const CONJUGATION_FIELDS = [
-    ['thirdPersonSingular', 'Tercera persona (he/she/it)'],
-    ['pastSimple', 'Pasado simple'],
-    ['pastParticiple', 'Participio pasado'],
-    ['presentParticiple', 'Gerundio (-ing)']
-  ];
+  function conjugationFields() {
+    const language = currentVerbLanguage();
+    if (language === 'french') {
+      return [
+        ['thirdPersonSingular', '3e personne du singulier'],
+        ['pastSimple', 'Passé composé (il/elle)'],
+        ['pastParticiple', 'Participe passé'],
+        ['presentParticiple', 'Participe présent']
+      ];
+    }
+    if (language === 'spanish') {
+      return [
+        ['thirdPersonSingular', 'Tercera persona singular'],
+        ['pastSimple', 'Pretérito (yo)'],
+        ['pastParticiple', 'Participio'],
+        ['presentParticiple', 'Gerundio']
+      ];
+    }
+    return [
+      ['thirdPersonSingular', 'Tercera persona (he/she/it)'],
+      ['pastSimple', 'Pasado simple'],
+      ['pastParticiple', 'Participio pasado'],
+      ['presentParticiple', 'Gerundio (-ing)']
+    ];
+  }
 
   function conjugatorAudioBtnHtml(text, { locale, rate }) {
     if (typeof supportsSpeech !== 'function' || !supportsSpeech()) return '';
@@ -597,7 +645,7 @@
   let selectedConjugationTense = 'presentSimple';
 
   function verbTenseTabsHtml() {
-    const Conj = window.AndergoVerbConjugation;
+    const Conj = currentConjugationEngine();
     if (!Conj) return '';
     return `
       <div class="verb-tense-tabs" role="tablist" aria-label="Tiempos verbales">
@@ -609,7 +657,7 @@
   }
 
   function verbTenseTableHtml(raw, audioOpts) {
-    const Conj = window.AndergoVerbConjugation;
+    const Conj = currentConjugationEngine();
     if (!Conj) return '';
     const data = Conj.conjugateTense(raw, selectedConjugationTense);
     if (!data) return '';
@@ -644,7 +692,7 @@
     const audioOpts = { locale: item.pronunciationLocale, rate: item.pronunciationRate };
     const supportLine = item.learningMode === 'direct' ? item.simpleDefinition : item.translation;
 
-    const fieldsHtml = CONJUGATION_FIELDS.map(
+    const fieldsHtml = conjugationFields().map(
       ([key, label]) => `
         <div class="verb-conjugation-cell">
           <span>${escapeHtml(label)}</span>
@@ -699,12 +747,15 @@
   // currently shown.
   function ensureConjugatorSelectOptions(verbs) {
     const select = document.getElementById('verbsConjugatorSelect');
-    if (!select || select.options.length) return select;
+    const language = currentVerbLanguage();
+    if (!select) return select;
+    if (select.options.length && select.dataset.language === language) return select;
     select.innerHTML = verbs
       .slice()
       .sort((a, b) => (a.rank || 0) - (b.rank || 0))
       .map((raw) => `<option value="${escapeHtml(raw.id)}">${escapeHtml(raw.infinitive)}</option>`)
       .join('');
+    select.dataset.language = language;
     return select;
   }
 
@@ -713,7 +764,7 @@
     if (!content) return;
 
     try {
-      const targetLanguage = 'english'; // Fase 1/2 scope: English only
+      const targetLanguage = currentVerbLanguage();
       const verbs = getVerbsForLanguage(targetLanguage);
       if (!verbs.length) {
         content.innerHTML = '<p class="skill-graph-empty">No hay verbos disponibles todavía.</p>';
@@ -858,7 +909,14 @@
   function generatePastFormQuestion(verb, allVerbs) {
     const correctText = verb.forms.pastSimple;
     const distractorTexts = shuffleArray(allVerbs.filter((v) => v.id !== verb.id)).map((v) => v.forms.pastSimple);
-    const prompt = `¿Cuál es el pasado simple de "${verb.infinitive}"?`;
+    const language = currentVerbLanguage();
+    const tenseLabel =
+      language === 'french'
+        ? 'passé composé (il/elle)'
+        : language === 'spanish'
+          ? 'pretérito indefinido (yo)'
+          : 'pasado simple';
+    const prompt = `¿Cuál es la forma de ${tenseLabel} de "${verb.infinitive}"?`;
     return buildMcqQuestion(`past-${verb.id}`, 'past', verb, prompt, correctText, distractorTexts);
   }
 
@@ -867,7 +925,13 @@
     const distractorTexts = shuffleArray(allVerbs.filter((v) => v.id !== verb.id)).map(
       (v) => `${v.forms.pastSimple} / ${v.forms.pastParticiple}`
     );
-    const prompt = `¿Cuáles son el pasado simple y el participio pasado de "${verb.infinitive}"?`;
+    const language = currentVerbLanguage();
+    const prompt =
+      language === 'french'
+        ? `Quel est le passé composé (il/elle) et le participe passé de « ${verb.infinitive} » ?`
+        : language === 'spanish'
+          ? `¿Cuáles son el pretérito (yo) y el participio de "${verb.infinitive}"?`
+          : `¿Cuáles son el pasado simple y el participio pasado de "${verb.infinitive}"?`;
     return buildMcqQuestion(`participle-${verb.id}`, 'participle', verb, prompt, correctText, distractorTexts);
   }
 
@@ -908,9 +972,14 @@
   const PRACTICE_TENSE_IDS = ['presentSimple', 'pastSimple', 'presentContinuous', 'presentPerfect', 'futureSimple'];
 
   function generateTenseFormQuestion(verb, allVerbs) {
-    const Conj = window.AndergoVerbConjugation;
+    const Conj = currentConjugationEngine();
     if (!Conj) return generatePastFormQuestion(verb, allVerbs);
-    const tenseId = PRACTICE_TENSE_IDS[Math.floor(Math.random() * PRACTICE_TENSE_IDS.length)];
+    const availableTenses = PRACTICE_TENSE_IDS.filter((id) =>
+      Conj.TENSES.some((tense) => tense.id === id)
+    );
+    const tenseId =
+      availableTenses[Math.floor(Math.random() * availableTenses.length)] ||
+      Conj.TENSES.find((tense) => tense.id !== 'imperative')?.id;
     const data = Conj.conjugateTense(verb, tenseId);
     if (!data?.rows?.length) return generatePastFormQuestion(verb, allVerbs);
 
@@ -951,7 +1020,7 @@
   }
 
   function beginPracticeSession(pool) {
-    const targetLanguage = 'english';
+    const targetLanguage = currentVerbLanguage();
     const allVerbs = getVerbsForLanguage(targetLanguage);
     const message = document.getElementById('verbsPracticeSetupMessage');
     if (!pool.length) {
@@ -984,7 +1053,10 @@
 
   function startVerbsPractice(poolMode) {
     const lengthSelect = document.getElementById('verbsPracticeLengthSelect');
-    const pool = applySessionLength(getVerbsPool(poolMode, 'english'), lengthSelect?.value || '10');
+    const pool = applySessionLength(
+      getVerbsPool(poolMode, currentVerbLanguage()),
+      lengthSelect?.value || '10'
+    );
     beginPracticeSession(pool);
   }
 
@@ -995,7 +1067,9 @@
     if (!practiceRuntime) return;
     const failedIds = Array.from(new Set(practiceRuntime.results.filter((r) => !r.correct).map((r) => r.verbId)));
     if (!failedIds.length) return;
-    const pool = getVerbsForLanguage('english').filter((v) => failedIds.includes(v.id));
+    const pool = getVerbsForLanguage(currentVerbLanguage()).filter((v) =>
+      failedIds.includes(v.id)
+    );
     beginPracticeSession(pool);
   }
 
@@ -1004,7 +1078,7 @@
   // buttons) - opens the Practicar tab with a 1-question drill for just
   // this verb, same rendering/grading path as a full session.
   function startVerbsPracticeForVerb(verbId) {
-    const verb = getVerbById(verbId, 'english');
+    const verb = getVerbById(verbId, currentVerbLanguage());
     if (!verb) return;
     closeVerbDetail();
     const tabsRoot = document.getElementById('verbsTabs');
@@ -1027,7 +1101,7 @@
 
     const audioBtnHtml =
       question.kind === 'dictation'
-        ? `<button type="button" class="secondary-btn verb-practice-audio-btn" data-speak-text="${escapeHtml(question.audioText)}" data-speak-locale="en-US" data-speak-rate="0.86">🔊 Escuchar de nuevo</button>`
+        ? `<button type="button" class="secondary-btn verb-practice-audio-btn" data-speak-text="${escapeHtml(question.audioText)}" data-speak-locale="${escapeHtml(getPronunciationLocale(currentVerbLanguage()))}" data-speak-rate="0.86">🔊 Escuchar de nuevo</button>`
         : '';
 
     let feedbackHtml = '';
@@ -1088,7 +1162,10 @@
       // checking, so re-rendering the checked state doesn't give the answer
       // away by replaying it).
       practiceRuntime.dictationPlayed[question.id] = true;
-      speakText(question.audioText, { locale: 'en-US', rate: 0.86 });
+      speakText(question.audioText, {
+        locale: getPronunciationLocale(currentVerbLanguage()),
+        rate: 0.86
+      });
     }
   }
 
@@ -1161,6 +1238,14 @@
         </div>
       </div>
     `;
+
+    if (!practiceRuntime.scoreSaved && typeof window.recordUnitVerbScore === 'function') {
+      practiceRuntime.scoreSaved = true;
+      window.recordUnitVerbScore(score).catch((error) => {
+        practiceRuntime.scoreSaved = false;
+        showHomeToast?.(error.message || 'No se pudo guardar el score de Verbos.');
+      });
+    }
   }
 
   // ---------------------------------------------------------------------
@@ -1225,7 +1310,7 @@
     if (!content) return;
 
     try {
-      const targetLanguage = 'english'; // Fase 1/2 scope: English only
+      const targetLanguage = currentVerbLanguage();
       const summary = computeVerbsProgressSummary(targetLanguage);
 
       if (!summary.totalVerbs) {
@@ -1303,7 +1388,7 @@
   // "progress" - Mi progreso never displays them). Local-only, reversible
   // only by practicing again - never touches Supabase.
   function resetVerbsProgress() {
-    const verbs = getVerbsForLanguage('english');
+    const verbs = getVerbsForLanguage(currentVerbLanguage());
     try {
       const masteryStore = JSON.parse(localStorage.getItem(VOCAB_MASTERY_STORAGE_KEY) || '{}');
       verbs.forEach((v) => delete masteryStore[v.id]);
@@ -1331,7 +1416,7 @@
     const LanguagePair = window.AndergoLanguagePair;
     const bridgeLanguage =
       (typeof learningPathState !== 'undefined' && learningPathState.bridgeLanguage) || 'spanish';
-    const targetLanguage = 'english';
+    const targetLanguage = currentVerbLanguage();
     const targetLabel = LanguagePair ? LanguagePair.languageNameIn(bridgeLanguage, targetLanguage) : 'English';
     const isSignedIn = typeof authStatus !== 'undefined' && Boolean(authStatus.session?.access_token);
 
@@ -1343,6 +1428,67 @@
       progressText = ` · ${masteredCount}/${verbs.length} dominados (${pct}%)`;
     }
     meta.textContent = `${targetLabel}${progressText}`;
+
+    const title = document.getElementById('verbsTitle');
+    const description = document.getElementById('verbsDescription');
+    const interfaceLanguage = window.learningPathState?.bridgeLanguage || 'spanish';
+    const languageNames = {
+      spanish: { english: 'inglés', french: 'francés', spanish: 'español' },
+      english: { english: 'English', french: 'French', spanish: 'Spanish' },
+      french: { english: "l’anglais", french: 'le français', spanish: "l’espagnol" },
+    };
+    const languageName =
+      languageNames[interfaceLanguage]?.[targetLanguage] ||
+      languageNames.spanish[targetLanguage] ||
+      targetLanguage;
+    const copy = {
+      spanish: {
+        title: `Los 100 verbos más frecuentes en ${languageName}`,
+        description: `Explora sus formas principales y grupos, consulta la conjugación completa y practica los verbos más frecuentes en ${languageName}.`,
+      },
+      english: {
+        title: `The 100 most frequent verbs in ${languageName}`,
+        description:
+          'Explore their principal forms and groups, consult complete conjugations, and practise with immediate feedback.',
+      },
+      french: {
+        title: `Les 100 verbes les plus fréquents en ${languageName}`,
+        description:
+          'Découvrez leurs formes principales et leurs groupes, consultez la conjugaison complète et entraînez-vous.',
+      },
+    };
+    const localizedCopy = copy[interfaceLanguage] || copy.spanish;
+    if (title) title.textContent = localizedCopy.title;
+    if (description) description.textContent = localizedCopy.description;
+  }
+
+  function renderLanguageGroupFilters() {
+    const select = document.getElementById('verbsFilterSelect');
+    if (!select) return;
+    select.querySelectorAll('.verb-language-group-option').forEach((option) => option.remove());
+    const language = currentVerbLanguage();
+    const options =
+      language === 'french'
+        ? [
+            ['french-1', '1er groupe (-er)'],
+            ['french-2', '2e groupe (-ir)'],
+            ['french-3', '3e groupe (irréguliers)']
+          ]
+        : language === 'spanish'
+          ? [
+              ['spanish-ar', 'Verbos en -ar'],
+              ['spanish-er', 'Verbos en -er'],
+              ['spanish-ir', 'Verbos en -ir']
+            ]
+          : [];
+    const anchor = select.querySelector('option[value="A1"]');
+    options.forEach(([value, label]) => {
+      const option = document.createElement('option');
+      option.value = value;
+      option.textContent = label;
+      option.className = 'verb-language-group-option';
+      select.insertBefore(option, anchor);
+    });
   }
 
   // Entry point - called from script.js's showView() when the resolved view
@@ -1351,13 +1497,14 @@
   // since this phase has only one target language and no unit/lesson state.
   window.renderVerbsView = function renderVerbsView() {
     if (window.location.hash === '#verbs') {
-      history.replaceState(null, '', '#verbs/english');
+      history.replaceState(null, '', verbRoute());
     }
     // The badge/title/description above the deck use plain data-i18n
     // attributes, so applyInterfaceLanguage() (script.js) already keeps them
     // in sync with L1 on every bridgeLanguage change, the same as every
     // other section's static chrome - nothing extra to do for them here.
     renderVerbsHeaderMeta();
+    renderLanguageGroupFilters();
     resetVerbsPagination();
     renderVerbsDeck();
     renderVerbsConjugator();
@@ -1410,7 +1557,10 @@
     const vocabMasteryBtn = event.target.closest('.vocab-know-btn, .vocab-retry-btn');
     if (vocabMasteryBtn) {
       const cardId = vocabMasteryBtn.closest('.vocab-card')?.dataset.cardId || '';
-      if (cardId.startsWith('verb-english-') && !requireAuthForCardAction('Inicia sesión para guardar este verbo en tu progreso.')) {
+      if (
+        /^verb-(english|french|spanish)-/.test(cardId) &&
+        !requireAuthForCardAction('Inicia sesión para guardar este verbo en tu progreso.')
+      ) {
         event.stopImmediatePropagation();
         return;
       }
@@ -1434,7 +1584,7 @@
       } catch {
         // Nothing to clean up if storage is unavailable.
       }
-      history.replaceState(null, '', '#verbs/english');
+      history.replaceState(null, '', verbRoute());
       const listTabBtn = document.querySelector('#verbsTabs .skill-tab-button[data-skill="list"]');
       if (listTabBtn && typeof activateSkillTab === 'function') activateSkillTab(listTabBtn, { scroll: false });
       return;

@@ -25,6 +25,10 @@ function shapeReading(reading) {
   return { ...reading, text: reading.parts.join('\n\n') };
 }
 
+function shapeExtra(a) {
+  return a.grammarTest ? { grammarTest: a.grammarTest } : null;
+}
+
 function buildActivityRow(unit, skill, orderInUnit) {
   const a = unit.activities[skill];
   if (!a) throw new Error(`Unit "${unit.slug}" is missing a "${skill}" activity`);
@@ -54,6 +58,7 @@ function buildActivityRow(unit, skill, orderInUnit) {
       dialogue: a.dialogue || [],
       reading: shapeReading(a.reading),
       exercises: a.exercises || [],
+      extra: shapeExtra(a),
       xp_reward: a.xp
     }
   };

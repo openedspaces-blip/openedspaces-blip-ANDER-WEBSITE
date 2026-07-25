@@ -45,6 +45,7 @@ const GAMIFICATION_FILES = [
 const VERBS_FILES = [
   'src/js/verbs/english-verbs-data.js',
   'src/js/verbs/verb-conjugation-engine.js',
+  'src/js/verbs/romance-verbs-data.js',
   'src/js/verbs/verbs-view.js'
 ];
 
@@ -99,9 +100,10 @@ function main() {
   console.log('Mirroring static assets into public/ ...');
   const filesToMirror = [...REQUIRED_FILES, ...GAMIFICATION_FILES, ...VERBS_FILES];
   if (fs.existsSync(path.join(ROOT, 'andergo-logo.png'))) filesToMirror.push('andergo-logo.png');
-  // Sobre el creador photo (index.html's #about section) - optional like the
-  // logo above: mirrored once it exists, build stays green either way.
-  if (fs.existsSync(path.join(ROOT, 'andergo-creator.jpg'))) filesToMirror.push('andergo-creator.jpg');
+  // Sobre el creador portrait (index.html's #about section).
+  if (fs.existsSync(path.join(ROOT, 'andergo-creator-portrait.png'))) {
+    filesToMirror.push('andergo-creator-portrait.png');
+  }
 
   filesToMirror.forEach((relativePath) => {
     copyFileEnsuringDir(path.join(ROOT, relativePath), path.join(PUBLIC_DIR, relativePath));

@@ -183,22 +183,61 @@ test('health endpoint reports AI tutor configuration without leaking keys or oth
 const ENGLISH_A1_ACTIVITY_COUNT = 72;
 const SPANISH_A1_ACTIVITY_COUNT = 72;
 const FRENCH_A1_ACTIVITY_COUNT = 84;
+const FRENCH_A2_ACTIVITY_COUNT = 70;
+const FRENCH_B1_ACTIVITY_COUNT = 70;
+const FRENCH_B2_ACTIVITY_COUNT = 84;
+const FRENCH_C1_ACTIVITY_COUNT = 36;
+const FRENCH_C2_ACTIVITY_COUNT = 36;
 // English A2 (scripts/content/english-a2-units.js) is unit-based too, same
 // mechanism as A1 above, just for a different level - all 10 units are now
 // authored (units 1-2 free, 3-10 premium), 6 core skills each, no extra
 // 'dialogue' skill (unlike French A1).
 const ENGLISH_A2_ACTIVITY_COUNT = 60;
+// English B1 follows a 12-unit x 6-skill course shape. Reading,
+// Grammar and Vocabulary contain the richer assessed banks authored in
+// scripts/content/english-b1-practice.js.
+const ENGLISH_B1_ACTIVITY_COUNT = 72;
+const ENGLISH_B2_ACTIVITY_COUNT = 36;
+const ENGLISH_C1_ACTIVITY_COUNT = 36;
+const ENGLISH_C2_ACTIVITY_COUNT = 36;
 const UNIT_SKILLS_BY_LANGUAGE = { french: [...SKILLS, 'dialogue'] };
+const LEVEL_SKILLS_BY_LANGUAGE = {
+  english: {
+    B2: ['reading', 'vocabulary', 'grammar'],
+    C1: ['reading', 'vocabulary', 'grammar'],
+    C2: ['reading', 'vocabulary', 'grammar']
+  },
+  french: {
+    C1: ['reading', 'vocabulary', 'grammar'],
+    C2: ['reading', 'vocabulary', 'grammar']
+  }
+};
 // Per-language, per-level override for languages/levels with real unit-based
 // content instead of the flat 6-lessons-per-level fallback shape. Any
 // language/level combo not listed here is assumed to be the flat shape.
 const LEVEL_ACTIVITY_COUNT_BY_LANGUAGE = {
-  english: { A1: ENGLISH_A1_ACTIVITY_COUNT, A2: ENGLISH_A2_ACTIVITY_COUNT },
+  english: {
+    A1: ENGLISH_A1_ACTIVITY_COUNT,
+    A2: ENGLISH_A2_ACTIVITY_COUNT,
+    B1: ENGLISH_B1_ACTIVITY_COUNT,
+    B2: ENGLISH_B2_ACTIVITY_COUNT,
+    C1: ENGLISH_C1_ACTIVITY_COUNT,
+    C2: ENGLISH_C2_ACTIVITY_COUNT
+  },
   spanish: { A1: SPANISH_A1_ACTIVITY_COUNT },
-  french: { A1: FRENCH_A1_ACTIVITY_COUNT }
+  french: {
+    A1: FRENCH_A1_ACTIVITY_COUNT,
+    A2: FRENCH_A2_ACTIVITY_COUNT,
+    B1: FRENCH_B1_ACTIVITY_COUNT,
+    B2: FRENCH_B2_ACTIVITY_COUNT,
+    C1: FRENCH_C1_ACTIVITY_COUNT,
+    C2: FRENCH_C2_ACTIVITY_COUNT
+  }
 };
 
-function unitSkillsFor(language) {
+function unitSkillsFor(language, level = 'A1') {
+  const levelSkills = (LEVEL_SKILLS_BY_LANGUAGE[language] || {})[level];
+  if (levelSkills) return levelSkills;
   return UNIT_SKILLS_BY_LANGUAGE[language] || SKILLS;
 }
 
@@ -206,7 +245,7 @@ function expectedActivityCountFor(language, level) {
   return (LEVEL_ACTIVITY_COUNT_BY_LANGUAGE[language] || {})[level] ?? 6;
 }
 
-test('fallback worlds include six lessons per level for every supported language (English A1/A2 and Español A1: 12/4 units x 6 skills, French A1: 12 units x 7 skills)', () => {
+test('fallback worlds preserve each language-level course structure and lesson count', () => {
   for (const language of WORLD_LANGUAGES) {
     const lessons = getLocalLessons(language);
     const expectedTotal = LEVELS.reduce(
@@ -219,7 +258,7 @@ test('fallback worlds include six lessons per level for every supported language
       const levelLessons = lessons.filter((lesson) => lesson.level === level);
       const expectedLevelCount = expectedActivityCountFor(language, level);
       assert.equal(levelLessons.length, expectedLevelCount);
-      const expectedSkills = level === 'A1' ? unitSkillsFor(language) : SKILLS;
+      const expectedSkills = unitSkillsFor(language, level);
       assert.deepEqual(
         [...new Set(levelLessons.map((lesson) => lesson.skill))].sort(),
         [...expectedSkills].sort()
@@ -642,6 +681,285 @@ test('English A2 grammar/vocabulary have the required question-bank sizes, and n
   });
 });
 
+test('French C1 has 12 units organized as Reading, Vocabulary and Grammar', () => {
+  const units = seedUnits
+    .filter((row) => row.target_language === 'french' && row.level === 'C1')
+    .sort((a, b) => a.order_index - b.order_index);
+  const lessons = seedLessons.filter(
+    (row) => row.target_language === 'french' && row.level === 'C1'
+  );
+  assert.equal(units.length, 12);
+  assert.equal(lessons.length, 36);
+
+  units.forEach((unit, index) => {
+    assert.equal(unit.order_index, index + 1);
+    const rows = lessons.filter((row) => row.unit_slug === unit.slug);
+    assert.deepEqual(
+      [...rows.map((row) => row.skill)].sort(),
+      ['grammar', 'reading', 'vocabulary']
+    );
+    const reading = rows.find((row) => row.skill === 'reading');
+    const wordCount = reading.content_json.reading.text.split(/\s+/).filter(Boolean).length;
+    assert.ok(wordCount >= 400 && wordCount <= 650, `${unit.slug}: ${wordCount} words`);
+    rows.forEach((row) => {
+      (row.content_json.exercises || [])
+        .filter((exercise) => exercise.type === 'mcq')
+        .forEach((exercise) => {
+          assert.equal(exercise.options.length, 4);
+          assert.ok(Number.isInteger(exercise.answer) && exercise.answer >= 0 && exercise.answer <= 3);
+        });
+    });
+  });
+});
+
+test('French C2 has 12 CEFR mastery units entirely in French across Reading, Vocabulary and Grammar', () => {
+  const units = seedUnits
+    .filter((row) => row.target_language === 'french' && row.level === 'C2')
+    .sort((a, b) => a.order_index - b.order_index);
+  const lessons = seedLessons.filter(
+    (row) => row.target_language === 'french' && row.level === 'C2'
+  );
+  assert.equal(units.length, 12);
+  assert.equal(lessons.length, 36);
+
+  units.forEach((unit, index) => {
+    assert.equal(unit.order_index, index + 1);
+    const rows = lessons.filter((row) => row.unit_slug === unit.slug);
+    assert.deepEqual([...rows.map((row) => row.skill)].sort(), [
+      'grammar',
+      'reading',
+      'vocabulary'
+    ]);
+    const reading = rows.find((row) => row.skill === 'reading');
+    const vocabulary = rows.find((row) => row.skill === 'vocabulary');
+    const grammar = rows.find((row) => row.skill === 'grammar');
+    const wordCount = reading.content_json.reading.text.split(/\s+/).filter(Boolean).length;
+    assert.ok(wordCount >= 650 && wordCount <= 950, `${unit.slug}: ${wordCount} words`);
+    assert.equal(reading.content_json.exercises.length, 10);
+    assert.equal(vocabulary.content_json.vocabulary.length, 12);
+    assert.equal(vocabulary.content_json.exercises.length, 12);
+    assert.equal(reading.content_json.reading.parts.length, 6);
+    assert.match(vocabulary.title, /^Le lexique de l’unité/);
+    assert.equal(grammar.content_json.exercises.length, 8);
+    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 8);
+    assert.ok(grammar.content_json.extra.grammarProfile);
+
+    vocabulary.content_json.vocabulary.forEach((item) => {
+      assert.ok(item.definition);
+      assert.equal(item.translation, item.definition);
+    });
+    rows.forEach((row) => {
+      assert.equal(row.content_json.language, 'Français');
+      (row.content_json.exercises || []).forEach((exercise) => {
+        assert.equal(exercise.type, 'mcq');
+        assert.equal(exercise.options.length, 4);
+        assert.ok(Number.isInteger(exercise.answer) && exercise.answer >= 0 && exercise.answer <= 3);
+      });
+    });
+  });
+});
+
+test('English B1 has 12 complete units with assessed Reading, Grammar and Vocabulary', () => {
+  const units = seedUnits
+    .filter((row) => row.target_language === 'english' && row.level === 'B1')
+    .sort((a, b) => a.order_index - b.order_index);
+  const lessons = seedLessons.filter(
+    (row) => row.target_language === 'english' && row.level === 'B1'
+  );
+
+  assert.equal(units.length, 12);
+  assert.equal(lessons.length, 72);
+  units.forEach((unit, index) => {
+    assert.equal(unit.order_index, index + 1);
+    const rows = lessons.filter((row) => row.unit_slug === unit.slug);
+    assert.deepEqual([...rows.map((row) => row.skill)].sort(), [...SKILLS].sort());
+
+    const reading = rows.find((row) => row.skill === 'reading');
+    const grammar = rows.find((row) => row.skill === 'grammar');
+    const vocabulary = rows.find((row) => row.skill === 'vocabulary');
+    assert.equal(reading.content_json.exercises.length, 6, `${unit.slug} reading`);
+    assert.equal(grammar.content_json.exercises.length, 8, `${unit.slug} grammar`);
+    assert.equal(vocabulary.content_json.vocabulary.length, 12, `${unit.slug} vocabulary`);
+    assert.equal(vocabulary.content_json.exercises.length, 12, `${unit.slug} vocabulary exercises`);
+    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 15, `${unit.slug} test`);
+    vocabulary.content_json.vocabulary.forEach((item) => {
+      assert.equal(item.contexts.length, 3, `${unit.slug} ${item.word} subflashcards`);
+    });
+    assert.match(grammar.content_json.grammar, /Goal:/);
+    assert.match(grammar.content_json.grammar, /Pattern:/);
+    assert.match(grammar.content_json.grammar, /Common mistakes:/);
+
+    [reading, grammar, vocabulary].forEach((row) => {
+      row.content_json.exercises.forEach((exercise, exerciseIndex) => {
+        assert.equal(exercise.type, 'mcq');
+        assert.equal(exercise.options.length, 4, `${row.slug} #${exerciseIndex}`);
+        assert.ok(Number.isInteger(exercise.answer) && exercise.answer >= 0 && exercise.answer <= 3);
+      });
+    });
+  });
+});
+
+test('English C1 has 12 scientific-social units across Reading, Vocabulary and Grammar', () => {
+  const units = seedUnits
+    .filter((row) => row.target_language === 'english' && row.level === 'C1')
+    .sort((a, b) => a.order_index - b.order_index);
+  const lessons = seedLessons.filter(
+    (row) => row.target_language === 'english' && row.level === 'C1'
+  );
+
+  assert.equal(units.length, 12);
+  assert.equal(lessons.length, 36);
+  units.forEach((unit, index) => {
+    assert.equal(unit.order_index, index + 1);
+    const rows = lessons.filter((row) => row.unit_slug === unit.slug);
+    assert.deepEqual(
+      [...rows.map((row) => row.skill)].sort(),
+      ['grammar', 'reading', 'vocabulary']
+    );
+    const reading = rows.find((row) => row.skill === 'reading');
+    const vocabulary = rows.find((row) => row.skill === 'vocabulary');
+    const grammar = rows.find((row) => row.skill === 'grammar');
+    const wordCount = reading.content_json.reading.text.split(/\s+/).filter(Boolean).length;
+    assert.ok(wordCount >= 300, `${unit.slug}: expected an extended C1 reading`);
+    assert.equal(reading.content_json.exercises.length, 10);
+    assert.equal(vocabulary.content_json.vocabulary.length, 8);
+    assert.equal(vocabulary.content_json.exercises.length, 8);
+    assert.equal(grammar.content_json.exercises.length, 8);
+    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 20);
+    assert.ok(grammar.content_json.extra.grammarProfile);
+    [reading, vocabulary, grammar].forEach((row) => {
+      row.content_json.exercises.forEach((exercise) => {
+        assert.equal(exercise.type, 'mcq');
+        assert.equal(exercise.options.length, 4);
+        assert.ok(Number.isInteger(exercise.answer) && exercise.answer >= 0 && exercise.answer <= 3);
+      });
+    });
+  });
+});
+
+test('English C1 scientific readings include structured HTTPS references', () => {
+  const { units } = require('./scripts/content/english-c1-units');
+  for (const unit of units) {
+    const references = unit.activities.reading.reading.references;
+    assert.ok(Array.isArray(references) && references.length > 0, `${unit.slug} must include references`);
+    for (const reference of references) {
+      assert.ok(reference.author, `${unit.slug} reference needs an author`);
+      assert.ok(reference.title, `${unit.slug} reference needs a title`);
+      assert.ok(Number.isInteger(reference.year), `${unit.slug} reference needs a numeric year`);
+      assert.match(reference.url, /^https:\/\//, `${unit.slug} reference must use HTTPS`);
+    }
+  }
+});
+
+test('English C2 has 12 mastery units with extended readings, conceptual vocabulary and advanced grammar', () => {
+  const units = seedUnits.filter((row) => row.target_language === 'english' && row.level === 'C2');
+  const lessons = seedLessons.filter((row) => row.target_language === 'english' && row.level === 'C2');
+  assert.equal(units.length, 12);
+  assert.equal(lessons.length, 36);
+  for (const unit of units) {
+    const rows = lessons.filter((row) => row.unit_slug === unit.slug);
+    assert.deepEqual([...rows.map((row) => row.skill)].sort(), ['grammar', 'reading', 'vocabulary']);
+    const reading = rows.find((row) => row.skill === 'reading');
+    const vocabulary = rows.find((row) => row.skill === 'vocabulary');
+    const grammar = rows.find((row) => row.skill === 'grammar');
+    assert.ok(reading.content_json.reading.text.split(/\s+/).length >= 680);
+    assert.ok(
+      Array.isArray(reading.content_json.reading.references) &&
+        reading.content_json.reading.references.length > 0,
+      `${unit.slug} must include academic references`
+    );
+    reading.content_json.reading.references.forEach((reference) => {
+      assert.ok(reference.author, `${unit.slug} reference needs an author`);
+      assert.ok(reference.title, `${unit.slug} reference needs a title`);
+      assert.match(reference.url, /^https:\/\//, `${unit.slug} reference must use HTTPS`);
+    });
+    assert.deepEqual(
+      reading.content_json.extra.readingReferences,
+      reading.content_json.reading.references,
+      `${unit.slug} references must be persisted for the database-backed lesson`
+    );
+    assert.equal(reading.content_json.exercises.length, 12);
+    assert.equal(vocabulary.content_json.vocabulary.length, 12);
+    assert.equal(vocabulary.content_json.exercises.length, 12);
+    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 20);
+    assert.ok(grammar.content_json.extra.grammarProfile);
+    grammar.content_json.extra.grammarTest.questions.forEach((question) => {
+      assert.equal(question.type, 'mcq');
+      assert.equal(question.options.length, 4);
+    });
+  }
+});
+
+test('English C2 academic readings include persisted structured HTTPS references', () => {
+  const units = seedUnits.filter((row) => row.target_language === 'english' && row.level === 'C2');
+  const lessons = seedLessons.filter(
+    (row) => row.target_language === 'english' && row.level === 'C2' && row.skill === 'reading'
+  );
+  assert.equal(units.length, 12);
+  assert.equal(lessons.length, 12);
+  lessons.forEach((lesson) => {
+    const references = lesson.content_json.reading.references;
+    assert.ok(Array.isArray(references) && references.length > 0, `${lesson.slug} needs references`);
+    references.forEach((reference) => {
+      assert.ok(reference.author);
+      assert.ok(reference.title);
+      assert.match(reference.url, /^https:\/\//);
+    });
+    assert.deepEqual(lesson.content_json.extra.readingReferences, references);
+  });
+});
+
+test('Reading selection guidance appears at the foot of the article after References', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const renderBody = source.match(/function renderReadingView\(section, lesson\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(renderBody, 'expected renderReadingView()');
+  assert.ok(
+    renderBody.indexOf('${referencesHtml}') < renderBody.indexOf('reading-selection-hint--footer'),
+    'the selection guidance must be rendered after References'
+  );
+});
+
+test('B2, C1 and C2 force the effective interface language and learning mode to L2', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(source, /function isAdvancedImmersionLevel[\s\S]*?level === 'B2' \|\| level === 'C1' \|\| level === 'C2'/);
+  assert.match(source, /function getEffectiveInterfaceLanguage[\s\S]*?learningPathState\.language[\s\S]*?learningPathState\.bridgeLanguage/);
+  const syncBody = source.match(/function syncLearningMode\(\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.match(syncBody, /isAdvancedImmersionLevel\(\)[\s\S]*?'direct'/);
+  const applyBody = source.match(/function applyInterfaceLanguage\(bridgeLanguage\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.match(applyBody, /getEffectiveInterfaceLanguage\(\)/);
+});
+
+test('English Grammar A1-C2 follows the unified profile and exact exam sizes', () => {
+  const expected = { A1: 10, A2: 10, B1: 15, B2: 15, C1: 20, C2: 20 };
+  for (const [level, questionCount] of Object.entries(expected)) {
+    const rows = seedLessons.filter(
+      (row) => row.target_language === 'english' && row.level === level && row.skill === 'grammar'
+    );
+    assert.ok(rows.length > 0, `${level}: missing Grammar lessons`);
+    for (const row of rows) {
+      const profile = row.content_json.extra.grammarProfile;
+      assert.equal(row.title, profile.name, `${row.slug}: title must be the grammar name`);
+      for (const key of ['definition', 'structure', 'function', 'examples']) {
+        assert.ok(profile[key]?.length, `${row.slug}: missing ${key}`);
+      }
+      assert.equal(row.content_json.extra.grammarTest.questions.length, questionCount);
+    }
+  }
+});
+
+test('Grammar UI shows definition, structure, function and practical examples before assessment', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const body = source.match(/function renderGrammarConceptCards\(lesson\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(body);
+  assert.match(body, /label: french \? 'Définition' : 'Definition'/);
+  assert.match(body, /label: 'Structure'/);
+  assert.match(body, /label: french \? 'Fonction en français' : 'Function in English'/);
+  assert.match(body, /label: french \? 'Exemples pratiques' : 'Practical examples'/);
+  assert.match(source, /french \? 'Bonnes réponses' : 'Correct answers'/);
+  assert.match(source, /grammar-test-breakdown-list/);
+  assert.match(source, /result\.score\}\/100/);
+});
+
 // The dedicated 'dialogue' skill type is generic (see SKILL_VIEW_RENDERERS
 // in src/js/script.js) - assert English A1 wasn't given any dialogue rows,
 // i.e. this is additive-only for English.
@@ -674,9 +992,9 @@ function grammarTestBankFor(languageCode, levelCode, unitSlug) {
   return row && row.content_json.extra && row.content_json.extra.grammarTest;
 }
 
-function assertWellFormedGrammarTest(bank, label) {
+function assertWellFormedGrammarTest(bank, label, expectedCount = 10) {
   assert.ok(bank, `${label}: expected a grammarTest question bank`);
-  assert.equal(bank.questions.length, 12, `${label}: expected exactly 12 questions`);
+  assert.equal(bank.questions.length, expectedCount, `${label}: unexpected question count`);
 
   const questionIds = new Set();
   const correctPositions = [];
@@ -721,7 +1039,7 @@ test('English A1 grammarTest question banks never leak the answer key through th
   englishA1UnitSlugs.forEach((unitSlug) => {
     const bank = grammarTestBankFor('english', 'A1', unitSlug);
     const sanitized = sanitizeGrammarTestForClient(bank);
-    assert.equal(sanitized.questions.length, 12);
+    assert.equal(sanitized.questions.length, 10);
     sanitized.questions.forEach((question) => {
       assert.equal('correctOptionId' in question, false, `${unitSlug}/${question.id}: leaks correctOptionId`);
       assert.equal('explanation' in question, false, `${unitSlug}/${question.id}: leaks the per-question explanation before submission`);
@@ -744,7 +1062,7 @@ test('English A1 public browser bundle (src/worlds/english/content.js) does not 
   englishA1Lessons.forEach((lesson) => {
     const bank = lesson.extra && lesson.extra.grammarTest;
     assert.ok(bank, `${lesson.slug}: expected a grammarTest in the public bundle`);
-    assert.equal(bank.questions.length, 12);
+    assert.equal(bank.questions.length, 10);
     bank.questions.forEach((question) => {
       assert.equal('correctOptionId' in question, false, `${lesson.slug}/${question.id}: leaks correctOptionId`);
       assert.equal('acceptedAnswers' in question, false, `${lesson.slug}/${question.id}: leaks acceptedAnswers`);
@@ -753,7 +1071,7 @@ test('English A1 public browser bundle (src/worlds/english/content.js) does not 
   });
 });
 
-test('gradeQuestionBank scores a 12-question grammarTest out of 100, matching the spec table exactly', () => {
+test('gradeQuestionBank scores a 10-question A1 grammarTest out of 100', () => {
   const bank = grammarTestBankFor('english', 'A1', 'hello');
   assert.ok(bank, 'expected the english-a1-hello grammarTest bank to exist');
 
@@ -766,13 +1084,12 @@ test('gradeQuestionBank scores a 12-question grammarTest out of 100, matching th
     return gradeQuestionBank(bank, answers).score;
   }
 
-  assert.equal(scoreFor(12), 100);
-  assert.equal(scoreFor(11), 92);
-  assert.equal(scoreFor(10), 83);
-  assert.equal(scoreFor(9), 75);
-  assert.equal(scoreFor(8), 67);
-  assert.equal(scoreFor(7), 58);
-  assert.equal(scoreFor(6), 50);
+  assert.equal(scoreFor(10), 100);
+  assert.equal(scoreFor(9), 90);
+  assert.equal(scoreFor(8), 80);
+  assert.equal(scoreFor(7), 70);
+  assert.equal(scoreFor(6), 60);
+  assert.equal(scoreFor(5), 50);
 });
 
 test('gradeQuestionBank feedback (results[]) corresponds to the right question and its own explanation', () => {
@@ -784,7 +1101,7 @@ test('gradeQuestionBank feedback (results[]) corresponds to the right question a
     answer: index % 2 === 0 ? q.correctOptionId : `${q.correctOptionId}-wrong`
   }));
   const { results } = gradeQuestionBank(bank, answers);
-  assert.equal(results.length, 12);
+  assert.equal(results.length, 10);
   results.forEach((result, index) => {
     const question = bank.questions[index];
     assert.equal(result.questionId, question.id);
@@ -809,7 +1126,7 @@ test('English A2 grammarTest question banks never leak the answer key through th
   englishA2UnitSlugs.forEach((unitSlug) => {
     const bank = grammarTestBankFor('english', 'A2', unitSlug);
     const sanitized = sanitizeGrammarTestForClient(bank);
-    assert.equal(sanitized.questions.length, 12);
+    assert.equal(sanitized.questions.length, 10);
     sanitized.questions.forEach((question) => {
       assert.equal('correctOptionId' in question, false, `${unitSlug}/${question.id}: leaks correctOptionId`);
       assert.equal('explanation' in question, false, `${unitSlug}/${question.id}: leaks the per-question explanation before submission`);
@@ -832,7 +1149,7 @@ test('English A2 public browser bundle (src/worlds/english/content.js) does not 
   englishA2Lessons.forEach((lesson) => {
     const bank = lesson.extra && lesson.extra.grammarTest;
     assert.ok(bank, `${lesson.slug}: expected a grammarTest in the public bundle`);
-    assert.equal(bank.questions.length, 12);
+    assert.equal(bank.questions.length, 10);
     bank.questions.forEach((question) => {
       assert.equal('correctOptionId' in question, false, `${lesson.slug}/${question.id}: leaks correctOptionId`);
       assert.equal('acceptedAnswers' in question, false, `${lesson.slug}/${question.id}: leaks acceptedAnswers`);
@@ -1772,17 +2089,14 @@ test('script.js: L2 (target language) still drives the learning content, indepen
   assert.doesNotMatch(setTargetBody, /learningPathState\.bridgeLanguage = resolved;/);
 });
 
-test('LanguagePair: same-language pairs (L1 = L2) are supported for spanish/english/french, direct/immersion mode', () => {
+test('LanguagePair: same-language pairs are rejected because L1 and L2 must differ', () => {
   for (const lang of ['spanish', 'english', 'french']) {
     assert.equal(
       LanguagePair.isLanguagePairSupported(lang, lang),
-      true,
-      `expected ${lang}->${lang} to be a supported (direct-mode) pair`
+      false,
+      `expected ${lang}->${lang} to be rejected`
     );
-    assert.equal(LanguagePair.getLearningMode(lang, lang), 'direct');
   }
-  // Not authored languages (no course content) - same-language still
-  // correctly unsupported, distinct from "blocked because equal".
   assert.equal(LanguagePair.isLanguagePairSupported('italian', 'italian'), false);
   assert.equal(LanguagePair.isLanguagePairSupported('german', 'german'), false);
 });
@@ -1795,20 +2109,7 @@ test('LanguagePair.getLearningMode(): "bilingual" for distinct languages, "direc
   assert.equal(LanguagePair.getLearningMode('french', 'french'), 'direct');
 });
 
-test('LanguagePair.getLanguagePairLabel(): direct mode shows the immersion sentence, in the interface language, no "support in" phrasing', () => {
-  assert.equal(
-    LanguagePair.getLanguagePairLabel('spanish', 'spanish'),
-    'Aprenderás español mediante inmersión y definiciones en español.'
-  );
-  assert.equal(
-    LanguagePair.getLanguagePairLabel('english', 'english'),
-    'You will learn English through immersion and English definitions.'
-  );
-  assert.equal(
-    LanguagePair.getLanguagePairLabel('french', 'french'),
-    'Vous apprendrez le français par immersion et avec des définitions en français.'
-  );
-  // Bilingual pairs are unaffected - still the original "support in" sentence.
+test('LanguagePair.getLanguagePairLabel(): supported pairs always identify distinct L1 support and L2 target', () => {
   assert.equal(
     LanguagePair.getLanguagePairLabel('spanish', 'english'),
     'Aprenderás inglés con apoyo en español.'
@@ -1874,7 +2175,7 @@ test('LanguagePair.getLearningSupport(): learningMode defaults to the derived mo
   assert.equal(direct.mode, 'direct');
 });
 
-test('script.js: setBridgeLanguage()/setTargetLanguage() no longer reject L1 = L2', () => {
+test('script.js: setBridgeLanguage()/setTargetLanguage() reject unsupported and same-language pairs', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.doesNotMatch(
     source,
@@ -1908,20 +2209,9 @@ test('script.js: learningPathState.learningMode is kept in sync with bridge/targ
   assert.match(loadPathBody, /syncLearningMode\(\);/);
 });
 
-test('lib/preferencesService.js: no longer rejects bridgeLanguage === language, and the DB CHECK constraint is dropped', () => {
+test('lib/preferencesService.js: rejects bridgeLanguage === language through shared pair validation', () => {
   const source = fs.readFileSync(path.join(__dirname, 'lib', 'preferencesService.js'), 'utf8');
-  assert.doesNotMatch(
-    source,
-    /nextLanguage === nextBridge/,
-    'preferencesService must no longer reject a same-language bridge/target pair'
-  );
-  assert.doesNotMatch(source, /El idioma puente debe ser diferente del idioma que deseas aprender/);
-
-  const migration = fs.readFileSync(
-    path.join(__dirname, 'supabase', 'migrations', '202607200001_allow_same_language_direct_mode.sql'),
-    'utf8'
-  );
-  assert.match(migration, /drop constraint if exists profiles_bridge_not_target_check/);
+  assert.match(source, /isLanguagePairSupported\(nextBridge, nextLanguage\)/);
 });
 
 test('progress stays separated by targetLanguage/level/skill regardless of learningMode (spec §11) - lesson slugs never depend on bridgeLanguage', () => {
@@ -2004,13 +2294,40 @@ test('script.js: normalizeVocabularyItem() computes learningMode and suppresses 
 
 test('script.js: renderVocabCardHtml() shows definition/synonyms/opposites/image in direct mode, and only renders the image when one exists', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
-  const body = source.match(/function renderVocabCardHtml\(item, \{ canSpeak, isFrench \}\) \{([\s\S]*?)\n\}/)?.[1];
+  const body = source.match(/function renderVocabCardHtml\(item, \{ canSpeak, isFrench, showL1Translation = false \}\) \{([\s\S]*?)\n\}/)?.[1];
   assert.ok(body, 'expected to find renderVocabCardHtml() body');
   assert.match(body, /item\.learningMode === 'direct'/);
   assert.match(body, /item\.image \? `<img class="vocab-card-image"/);
-  assert.match(body, /item\.definition \? `<p class="vocab-card-definition">/);
+  assert.match(body, /item\.simpleDefinition \|\| item\.definition/);
+  assert.match(body, /class="vocab-card-definition"/);
   assert.match(body, /LanguagePair\.t\('vocabSynonyms', lang\)/);
   assert.match(body, /LanguagePair\.t\('vocabOpposites', lang\)/);
+});
+
+test('C1/C2 direct-mode vocabulary shows translation and contextual examples by default', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(source, /class="secondary-btn vocab-l1-translation-btn/);
+  assert.match(source, /learningMode === 'direct' && \['C1', 'C2'\]\.includes/);
+  assert.match(source, /item\.simpleDefinition \|\| item\.definition/);
+  assert.match(source, /let vocabL1TranslationVisible = true/);
+  assert.match(source, /\$\{contextsHtml\}/);
+  assert.match(source, /loadMissingAdvancedVocabTranslations/);
+  assert.match(source, /targetLanguage: 'spanish'/);
+});
+
+test('Vocabulary exposes L2 useful expressions separately and comprehension questions use vocabulary terms only', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(source, /Useful expressions/);
+  assert.match(source, /Des expressions utiles/);
+  assert.match(source, /Expresiones útiles/);
+  assert.match(source, /Espressioni utili/);
+  assert.match(source, /Nützliche Ausdrücke/);
+  assert.match(source, /class="secondary-btn vocab-useful-expressions-toggle"/);
+  assert.match(source, /function isVocabularyTermExercise/);
+  assert.match(source, /const vocabularyExercises = \(lesson\.exercises \|\| \[\]\)\.filter/);
+  assert.match(source, /renderPrintableExerciseList\(vocabularyExercises/);
+  assert.match(source, /function tutorReplyEndsWithQuestion/);
+  assert.match(source, /class="vocab-card-context-info"/);
 });
 
 test('language-pair.js: vocabSynonyms/vocabOpposites are translated in spanish/english/french', () => {
@@ -2062,11 +2379,9 @@ test('preferencesService + LanguagePair: full round trip (save, read back, learn
   config.isSupabaseConfigured = false;
   try {
     const combos = [
-      { label: 'A. English -> English', bridgeLanguage: 'english', language: 'english', expectedMode: 'direct' },
-      { label: 'B. French -> French', bridgeLanguage: 'french', language: 'french', expectedMode: 'direct' },
-      { label: 'C. Spanish -> Spanish', bridgeLanguage: 'spanish', language: 'spanish', expectedMode: 'direct' },
-      { label: 'D. Spanish -> English', bridgeLanguage: 'spanish', language: 'english', expectedMode: 'bilingual' },
-      { label: 'E. English -> French', bridgeLanguage: 'english', language: 'french', expectedMode: 'bilingual' }
+      { label: 'A. Spanish -> English', bridgeLanguage: 'spanish', language: 'english', expectedMode: 'bilingual' },
+      { label: 'B. English -> French', bridgeLanguage: 'english', language: 'french', expectedMode: 'bilingual' },
+      { label: 'C. French -> Spanish', bridgeLanguage: 'french', language: 'spanish', expectedMode: 'bilingual' }
     ];
 
     for (const combo of combos) {
@@ -2135,23 +2450,15 @@ test('preferencesService: an unsupported language is still rejected (admitted-la
   );
 });
 
-test('index.html + script.js: a discreet "Método directo"/"Modo bilingüe" badge exists and is driven by learningMode', () => {
+test('index.html + script.js: no direct-method badge is exposed and equal choices are disabled', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
-  assert.match(html, /id="pathPairModeBadge"/, 'expected a #pathPairModeBadge element next to the pair preview');
+  assert.doesNotMatch(html, /id="pathPairModeBadge"/);
 
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
-  const body = source.match(/function updatePathPairPreview\(\) \{([\s\S]*?)\n\}/)?.[1];
-  assert.ok(body, 'expected to find updatePathPairPreview() body');
-  assert.match(body, /pathPairModeBadge/);
-  assert.match(body, /learningPathState\.learningMode === 'direct'/);
-  assert.match(body, /LanguagePair\.t\(\s*\n?\s*isDirect \? 'directModeBadge' : 'bilingualModeBadge'/);
-
-  assert.equal(LanguagePair.t('directModeBadge', 'spanish'), 'Método directo');
-  assert.equal(LanguagePair.t('directModeBadge', 'english'), 'Direct method');
-  assert.equal(LanguagePair.t('directModeBadge', 'french'), 'Méthode directe');
-  assert.equal(LanguagePair.t('bilingualModeBadge', 'spanish'), 'Modo bilingüe');
-  assert.equal(LanguagePair.t('bilingualModeBadge', 'english'), 'Bilingual mode');
-  assert.equal(LanguagePair.t('bilingualModeBadge', 'french'), 'Mode bilingue');
+  assert.doesNotMatch(source, /pathPairModeBadge/);
+  assert.match(source, /function syncLanguagePairSelectOptions\(\)/);
+  assert.match(source, /option\.disabled = option\.value === learningPathState\.bridgeLanguage/);
+  assert.match(source, /option\.disabled = option\.value === learningPathState\.language/);
 });
 
 test('index.html: the L1 and L2 selects both offer the same three languages - neither hides the other\'s current value', () => {
@@ -2193,24 +2500,235 @@ test('LanguagePair.getLearningSupport(): direct mode never breaks or shows undef
 
 test('script.js: renderVocabCardHtml never prints "undefined"/"null" and skips the image block when item.image is empty', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
-  const body = source.match(/function renderVocabCardHtml\(item, \{ canSpeak, isFrench \}\) \{([\s\S]*?)\n\}/)?.[1];
+  const body = source.match(/function renderVocabCardHtml\(item, \{ canSpeak, isFrench, showL1Translation = false \}\) \{([\s\S]*?)\n\}/)?.[1];
   assert.ok(body, 'expected to find renderVocabCardHtml() body');
   // Every direct-mode field is gated behind a truthy check before being
   // interpolated - none of them get printed unconditionally.
   assert.match(body, /\$\{item\.image \?/);
-  assert.match(body, /\$\{item\.definition \?/);
+  assert.match(body, /item\.simpleDefinition \|\| item\.definition/);
   assert.match(body, /synonymsOppositesParts\.length \?/);
-  assert.match(body, /\$\{item\.usageNote \?/);
+  assert.match(body, /item\.usageNote \?/);
 });
 
-test('script.js: no duplicated bridge===target comparison outside the central getLearningMode()/syncLearningMode() - getLanguagePairLabel reuses getLearningMode', () => {
+test('Vocabulary practice uses 6 words at A1/A2, 8 at B1/B2 and 10 at C1/C2 with A-D scoring', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const countFunction =
+    source.match(/function getVocabularyPracticeCount\([\s\S]*?\n\}/)?.[0] || '';
+  assert.match(countFunction, /level === 'A1' \|\| level === 'A2'\) return 6/);
+  assert.match(countFunction, /level === 'B1' \|\| level === 'B2'\) return 8/);
+  assert.match(countFunction, /return 10/);
+  assert.match(source, /function createVocabularyPractice/);
+  assert.match(source, /String\.fromCharCode\(65 \+ optionIndex\)/);
+  assert.match(source, /class="primary-btn vocab-practice-submit-btn"/);
+  assert.match(source, /Math\.round\(\(correctCount \/ runtime\.questions\.length\) \* 100\)/);
+  assert.match(source, /Correct answer/);
+  assert.match(source, /Practicar con Tutor IA/);
+});
+
+test('Tutor IA teaches requested structures as a CEFR-adapted teacher-guide', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
+  assert.match(source, /actúa como un docente-guía dispuesto a enseñar a un alumno curioso/);
+  assert.match(source, /para qué sirve y qué significado comunica/);
+  assert.match(source, /error frecuente/);
+  assert.match(source, /microcomprobación/);
+  assert.match(source, /isStructureExplanation/);
+});
+
+test('Tutor word limits are maxima only and voice turns continue without a two-second send delay', () => {
+  const service = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const guidance =
+    service.match(/const LEVEL_RESPONSE_GUIDANCE = \{([\s\S]*?)\n\};/)?.[1] || '';
+  const autoSend =
+    source.match(/function scheduleTutorAutoSend\(textareaId\) \{([\s\S]*?)\n\}/)?.[1] || '';
+
+  assert.match(guidance, /MÁXIMO orientativo de 90 palabras, nunca un mínimo/);
+  assert.match(guidance, /MÁXIMO orientativo de 220 palabras, nunca un mínimo/);
+  assert.doesNotMatch(guidance, /responde normalmente entre|aproximadamente 120 a/);
+  assert.match(autoSend, /\}, 0\)/);
+  assert.doesNotMatch(autoSend, /2000|2 segundos/);
+  assert.match(source, /const TUTOR_CONVERSATION_SILENCE_MS = 700/);
+  assert.match(source, /function tutorReplyEndsWithQuestion/);
+  assert.match(source, /activateTutorMicAfterQuestion\(messageEl\)/);
+});
+
+test('Listening keeps the story text hidden until the learner explicitly reveals it', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(source, /storyRevealed:\s*false/);
+  assert.match(source, /class="secondary-btn listening-story-toggle"/);
+  assert.match(source, /runtime\.storyRevealed \? listeningUiText\('Hide Text'/);
+  assert.match(source, /runtime\.storyRevealed \? '' : 'hidden'/);
+});
+
+test('Listening links directly to unit Vocabulary and omits the old auxiliary-mode tabs', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const official = source.match(/function renderListeningOfficial\([\s\S]*?\n\}/)?.[0] || '';
+  assert.match(official, /renderListeningConnectedToolsHtml/);
+  assert.doesNotMatch(official, /renderListeningExtraModesHtml|listening-vocab-list/);
+  assert.match(source, /data-listening-open-vocabulary/);
+  assert.match(source, /openUnitSequenceStep\('vocabulary'/);
+});
+
+test('unit learning route follows Reading, Listening, Vocabulary, Grammar, Speaking, Writing and Verbs', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(
+    source,
+    /UNIT_LEARNING_SEQUENCE\s*=\s*\['reading', 'listening', 'vocabulary', 'grammar', 'speaking', 'writing'\]/
+  );
+  assert.match(source, /renderUnitSequenceStepsHtml/);
+  assert.match(source, /data-sequence-skill="verbs"/);
+  assert.match(source, /renderUnitVerbContext/);
+});
+
+test('unit and dashboard progress combine six lesson scores with persisted Verbos as a seventh activity', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const server = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
+  const dashboard = fs.readFileSync(path.join(__dirname, 'lib', 'dashboardService.js'), 'utf8');
+  const migration = fs.readFileSync(
+    path.join(__dirname, 'supabase', 'migrations', '202607240001_user_unit_verb_progress.sql'),
+    'utf8'
+  );
+  assert.match(source, /function getUnitProgressMetrics/);
+  assert.match(source, /activities\.length \+ 1/);
+  assert.match(source, /Number\(item\.bestScore \|\| 0\)/);
+  assert.match(source, /recordUnitVerbScore/);
+  assert.match(server, /\/api\/verbs\/unit-progress/);
+  assert.match(dashboard, /courseProgress/);
+  assert.match(dashboard, /progressPercent:\s*totalActivities \? Math\.round\(scoreTotal \/ totalActivities\)/);
+  assert.match(migration, /enable row level security/);
+  assert.match(migration, /\(select auth\.uid\(\)\) = user_id/);
+});
+
+test('homepage and printable documents use the official ANDERGO logo and language controls below the language cards', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(html, /class="brand-logo-symbol" role="img"/);
+  assert.match(
+    fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8'),
+    /\.brand-logo-symbol[\s\S]*?background-image:\s*url\('\/andergo-logo\.png'\)/
+  );
+  assert.match(html, /ANDERGO Language Academy/);
+  assert.ok(
+    html.indexOf('class="global-language-controls"') > html.indexOf('id="language-picker"') &&
+      html.indexOf('class="global-language-controls"') < html.indexOf('id="premium"'),
+    'language controls should sit below the available-language cards and before the plans'
+  );
+  assert.match(source, /class="skill-print-brand-image" src="\/andergo-logo\.png"/);
+  const printHeader = source.match(/function renderSkillPrintHeaderHtml\(lesson\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(printHeader, 'expected shared printable-document header');
+  assert.match(printHeader, /Idioma puente:/);
+  assert.match(printHeader, /Idioma meta:/);
+  assert.match(printHeader, /reading-print-date/);
+  assert.doesNotMatch(printHeader, /ANDERGO Language Academy/);
+});
+
+test('reading card aligns with the full progress-bar width while keeping readable text lines', () => {
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  const card = css.match(/\.reading-reader-card \{([\s\S]*?)\n\}/)?.[1];
+  const text = [...css.matchAll(/\.reading-text \{([\s\S]*?)\n\}/g)]
+    .map((match) => match[1])
+    .find((block) => /max-width:\s*1120px/.test(block));
+  assert.ok(card && text);
+  assert.match(card, /width:\s*100%/);
+  assert.doesNotMatch(card, /820px/);
+  assert.match(text, /max-width:\s*1120px/);
+  assert.match(text, /margin-inline:\s*auto/);
+});
+
+test('printable Grammar/Vocabulary worksheets render normalized option objects as text', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const body = source.match(
+    /function renderPrintableExerciseList\(exercises, \{ showAnswers = false \} = \{\}\) \{([\s\S]*?)\n\}/
+  )?.[1];
+  assert.ok(body, 'expected to find renderPrintableExerciseList() body');
+  assert.match(
+    body,
+    /optionLabel\(option\)/,
+    'print output must unwrap { id, text } options instead of rendering [object Object]'
+  );
+  assert.doesNotMatch(body, /escapeHtml\(option\)/);
+});
+
+test('Reading PDF starts at the normal page margin and Word includes comprehension questions', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  const wordExport = source.match(/function downloadReadingWord\(lesson\) \{([\s\S]*?)\n\}/)?.[1];
+  assert.ok(wordExport, 'expected Reading Word exporter');
+  assert.match(wordExport, /renderPrintableExerciseList\(lesson\.exercises\)/);
+  assert.match(wordExport, /Comprehension Questions/);
+  assert.match(wordExport, /skill-print-question/);
+  assert.match(
+    css,
+    /@media print[\s\S]*?\.skill-view-section,[\s\S]*?position:\s*static !important/
+  );
+});
+
+test('script.js: language-pair label always describes L1 support for the distinct L2', () => {
   const langPairSource = fs.readFileSync(path.join(__dirname, 'src', 'js', 'language-pair.js'), 'utf8');
   const labelBody = langPairSource.match(/function getLanguagePairLabel\(bridgeLanguage, targetLanguage, interfaceLanguage\) \{([\s\S]*?)\n  \}/)?.[1];
   assert.ok(labelBody, 'expected to find getLanguagePairLabel() body');
-  assert.match(labelBody, /getLearningMode\(bridgeLanguage, targetLanguage\) === 'direct'/);
-  assert.doesNotMatch(
-    labelBody,
-    /if \(bridgeLanguage === targetLanguage\)/,
-    'getLanguagePairLabel should delegate to getLearningMode(), not re-compare bridge/target itself'
+  assert.match(labelBody, /PAIR_SENTENCE/);
+  assert.doesNotMatch(labelBody, /PAIR_SENTENCE_DIRECT/);
+});
+
+test('Reading selections use the contextual ANDERGO translator and coordinated learning actions', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(source, /closest\?\.\('\.reading-text'\)/);
+  assert.match(source, /function readingWordContextAtPoint\(clientX, clientY\)/);
+  assert.match(source, /if \(data\) openReadingTranslation\(data\)/);
+  assert.match(source, /document\.addEventListener\('dblclick'/);
+  assert.match(source, /isDoubleTap[\s\S]*?handleSelection\(event\)/);
+  assert.doesNotMatch(source, /reading-translation-quick-btn/);
+  assert.doesNotMatch(source, /class="reading-translation-context"/);
+  assert.match(source, /context:\s*state\.context/);
+  assert.match(source, /fetch\(`\$\{backendBaseUrl\}\/api\/translate`/);
+  assert.match(source, /readingTranslationCache/);
+  assert.match(source, /reading-translation-listen/);
+  assert.match(source, /reading-translation-save/);
+  assert.match(source, /reading-translation-tutor/);
+  assert.match(source, /reading-translation-open/);
+  assert.match(source, /Haz doble clic en una palabra o tócala dos veces para traducirla/);
+});
+
+test('saved Reading vocabulary is Premium-only, secured in Supabase and rendered inside Vocabulary', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const serverSource = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
+  const tableMigration = fs.readFileSync(
+    path.join(__dirname, 'supabase', 'migrations', '202607290001_reading_saved_vocabulary.sql'),
+    'utf8'
   );
+  const premiumMigration = fs.readFileSync(
+    path.join(
+      __dirname,
+      'supabase',
+      'migrations',
+      '20260725031303_saved_vocabulary_premium_only.sql'
+    ),
+    'utf8'
+  );
+  assert.match(source, /\/api\/vocabulary\/saved/);
+  assert.match(source, /saved-reading-vocabulary/);
+  assert.match(source, /Guardar palabras en Vocabulary es una función Premium/);
+  assert.doesNotMatch(source, /GUEST_SAVED_VOCABULARY_KEY|saveGuestVocabulary/);
+  assert.match(serverSource, /async function requirePremiumSavedVocabulary/);
+  assert.match(serverSource, /code:\s*'PREMIUM_REQUIRED'/);
+  assert.match(
+    serverSource,
+    /app\.get\('\/api\/vocabulary\/saved', requireAuth, requirePremiumSavedVocabulary/
+  );
+  assert.match(
+    serverSource,
+    /app\.post\('\/api\/vocabulary\/saved', requireAuth, requirePremiumSavedVocabulary/
+  );
+  assert.match(tableMigration, /enable row level security/i);
+  assert.match(premiumMigration, /revoke all privileges[\s\S]*?from authenticated/i);
+  assert.match(premiumMigration, /grant select, insert, update, delete[\s\S]*?to service_role/i);
+});
+
+test('DeepL receives Reading context without translating or exposing it to the client', () => {
+  const translator = fs.readFileSync(path.join(__dirname, 'lib', 'translatorService.js'), 'utf8');
+  const serverSource = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
+  assert.match(translator, /body\.context = String\(context\)\.trim\(\)\.slice\(0, 1000\)/);
+  assert.match(serverSource, /typeof context !== 'string' \|\| context\.length > 1000/);
+  assert.doesNotMatch(serverSource, /console\.(?:log|warn)\([^)]*context/);
 });

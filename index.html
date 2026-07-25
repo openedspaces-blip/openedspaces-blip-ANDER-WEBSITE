@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ANDERGO | Aprende idiomas con rutas claras y gamificación</title>
-    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="/src/css/styles.css?v=20260725-distinct-l1-l2-immersion" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,9 +17,9 @@
 
     <header class="navbar">
       <a class="brand" href="/" aria-label="ANDERGO - Ir al inicio">
-        <div class="brand-icon">A</div>
-        <div>
-          <h1>ANDERGO</h1>
+        <span class="brand-logo-symbol" role="img" aria-label="Símbolo de ANDERGO"></span>
+        <div class="brand-name">
+          <h1>ANDERGO Language Academy</h1>
           <p>Lecciones, práctica guiada y progreso real.</p>
         </div>
       </a>
@@ -70,11 +70,46 @@
       <section class="hero">
         <div class="hero-content">
           <span class="pill">Lecciones guiadas y ejercicios prácticos</span>
-          <h2 tabindex="-1">Aprende idiomas con una ruta clara y práctica real</h2>
-          <p>
-            Practica inglés, francés y español con lecciones guiadas, ejercicios reales y un
-            progreso que puedes medir cada semana.
-          </p>
+          <div class="hero-copy-carousel" aria-roledescription="carrusel" aria-label="Características de ANDERGO">
+            <article class="hero-copy-slide is-active" data-hero-slide aria-hidden="false">
+              <h2 tabindex="-1">Aprende idiomas con una ruta clara y práctica real</h2>
+              <p>
+                ANDERGO Language Academy reúne inglés, francés y español en rutas guiadas con
+                ejercicios reales y un progreso que puedes medir cada semana.
+              </p>
+            </article>
+            <article class="hero-copy-slide" data-hero-slide aria-hidden="true">
+              <h2>Un Tutor IA que practica contigo cuando lo necesitas</h2>
+              <p>
+                Resuelve dudas, ensaya conversaciones y recibe una orientación clara para seguir
+                avanzando con seguridad.
+              </p>
+            </article>
+            <article class="hero-copy-slide" data-hero-slide aria-hidden="true">
+              <h2>Traduce, escucha y corrige tus textos desde un mismo lugar</h2>
+              <p>
+                Usa el traductor, la voz y el corrector para comprender mejor y expresarte con más
+                confianza.
+              </p>
+            </article>
+            <article class="hero-copy-slide" data-hero-slide aria-hidden="true">
+              <h2>Niveles alineados al Marco Común Europeo de Referencia</h2>
+              <p>
+                Avanza de A1 a C2 con objetivos claros y actividades de Reading, Listening,
+                Speaking, Writing, Grammar y Vocabulary.
+              </p>
+            </article>
+            <div class="hero-carousel-controls" aria-label="Controles del carrusel">
+              <button type="button" class="hero-carousel-arrow" data-hero-carousel="previous" aria-label="Característica anterior">←</button>
+              <div class="hero-carousel-dots" role="tablist" aria-label="Características de ANDERGO">
+                <button type="button" class="is-active" data-hero-carousel="0" aria-label="Ver ruta de aprendizaje" aria-selected="true"></button>
+                <button type="button" data-hero-carousel="1" aria-label="Ver Tutor IA" aria-selected="false"></button>
+                <button type="button" data-hero-carousel="2" aria-label="Ver traductor y corrector" aria-selected="false"></button>
+                <button type="button" data-hero-carousel="3" aria-label="Ver niveles MCER" aria-selected="false"></button>
+              </div>
+              <button type="button" class="hero-carousel-arrow" data-hero-carousel="next" aria-label="Siguiente característica">→</button>
+            </div>
+          </div>
 
           <div class="hero-buttons">
             <a href="#learn" class="primary-btn" data-home-action="start-free">Comenzar gratis</a>
@@ -92,6 +127,7 @@
 
         <div class="hero-card">
           <article class="course-card">
+            <span class="hero-card-kicker">TU ESPACIO DE APRENDIZAJE</span>
             <p class="student-greeting">Inicia sesión para ver tu progreso, racha y objetivo.</p>
 
             <div class="home-summary-row" id="homeSummaryRow" hidden>
@@ -127,6 +163,7 @@
             </button>
           </article>
         </div>
+
       </section>
 
       <section
@@ -142,6 +179,7 @@
 
         <div class="dashboard-stats-grid" id="dashboardStatsGrid"></div>
         <p class="progress-gamification-line" id="progressGamificationLine"></p>
+        <div class="course-progress-units" id="courseProgressUnits" aria-live="polite"></div>
 
         <div class="dashboard-panels">
           <article class="dashboard-activity-card" id="dashboardActivityCard">
@@ -211,6 +249,45 @@
               Explorar ruta
             </button>
           </article>
+        </div>
+
+        <div class="global-language-controls" aria-label="Personaliza tu ruta de aprendizaje">
+          <div class="language-pair-bar" role="group" aria-label="Selector de idioma puente, idioma meta y nivel">
+            <label class="language-pair-field"
+              ><span data-field="bridgeSelectLabel">Idioma puente (L1)</span>
+              <select id="pathBridgeSelect">
+                <option value="spanish">🇪🇸 Español</option>
+                <option value="english">🇺🇸 English</option>
+                <option value="french">🇫🇷 Français</option>
+              </select>
+            </label>
+            <button type="button" id="pathSwapLanguagesBtn" class="language-pair-swap-btn" aria-label="Intercambiar idioma puente e idioma meta" title="Intercambiar idiomas">⇄</button>
+            <label class="language-pair-field"
+              ><span data-field="targetSelectLabel">Idioma meta (L2)</span>
+              <select id="pathLanguageSelect">
+                <option value="english">🇺🇸 English</option>
+                <option value="spanish">🇪🇸 Español</option>
+                <option value="french">🇫🇷 Français</option>
+              </select>
+            </label>
+            <label class="language-pair-field language-pair-field-level"
+              ><span data-field="levelSelectLabel">Nivel</span>
+              <select id="pathLevelSelect">
+                <option value="A1">A1</option>
+                <option value="A2">A2</option>
+                <option value="B1">B1</option>
+                <option value="B2">B2</option>
+                <option value="C1">C1</option>
+                <option value="C2">C2</option>
+              </select>
+            </label>
+            <button type="button" id="pathStartLearningBtn" class="primary-btn path-start-learning-btn">
+              Learn
+            </button>
+          </div>
+          <div class="global-language-summary">
+            <p class="path-pair-preview" id="pathPairPreview" aria-live="polite"></p>
+          </div>
         </div>
       </section>
 
@@ -286,47 +363,6 @@
           <a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a>
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
         </nav>
-
-        <div class="language-pair-bar" role="group" aria-label="Selector de idioma puente, idioma objetivo y nivel">
-          <label class="language-pair-field"
-            ><span data-field="bridgeSelectLabel">Idioma de apoyo (L1)</span>
-            <select id="pathBridgeSelect">
-              <option value="spanish">🇪🇸 Español</option>
-              <option value="english">🇺🇸 English</option>
-              <option value="french">🇫🇷 Français</option>
-            </select>
-          </label>
-          <button
-            type="button"
-            id="pathSwapLanguagesBtn"
-            class="language-pair-swap-btn"
-            aria-label="Intercambiar idioma de apoyo e idioma objetivo"
-            title="Intercambiar idiomas"
-          >
-            ⇄
-          </button>
-          <label class="language-pair-field"
-            ><span data-field="targetSelectLabel">Idioma objetivo (L2)</span>
-            <select id="pathLanguageSelect">
-              <option value="english">🇺🇸 English</option>
-              <option value="spanish">🇪🇸 Español</option>
-              <option value="french">🇫🇷 Français</option>
-            </select>
-          </label>
-          <label class="language-pair-field language-pair-field-level"
-            ><span data-field="levelSelectLabel">Nivel</span>
-            <select id="pathLevelSelect">
-              <option value="A1">A1</option>
-              <option value="A2">A2</option>
-              <option value="B1">B1</option>
-              <option value="B2">B2</option>
-              <option value="C1">C1</option>
-              <option value="C2">C2</option>
-            </select>
-          </label>
-        </div>
-        <p class="path-pair-preview" id="pathPairPreview" aria-live="polite"></p>
-        <span class="path-pair-mode-badge" id="pathPairModeBadge"></span>
 
         <div class="features-grid compact-skills-row">
           <article class="skill-competency-card" data-skill="listening" role="button" tabindex="0">
@@ -690,8 +726,8 @@
       <section id="verbs" class="section verbs-section compact-hidden-section" aria-label="Verbos">
         <div class="section-heading section-heading-compact">
           <span data-i18n="verbsBadge">Verbos</span>
-          <h2 tabindex="-1" data-i18n="verbsTitle">Los verbos más frecuentes en inglés</h2>
-          <p data-i18n="verbsDescription">Aprende, conjuga y practica los verbos más frecuentes en inglés.</p>
+          <h2 id="verbsTitle" tabindex="-1">Los verbos más frecuentes en inglés</h2>
+          <p id="verbsDescription">Aprende, conjuga y practica los verbos más frecuentes en inglés.</p>
           <p class="verbs-heading-meta" id="verbsHeadingMeta" aria-live="polite"></p>
         </div>
 
@@ -1200,10 +1236,6 @@
                   hidden
                 ></ul>
               </div>
-              <p class="translator-char-count" id="translatorCharCount" aria-live="polite">
-                0 / 1000
-              </p>
-              <p class="tutor-dictate-status" id="translatorInputDictateStatus" aria-live="polite"></p>
               <div class="translator-field-actions">
                 <button type="button" class="secondary-btn" id="translatorClearBtn">
                   Limpiar
@@ -1237,16 +1269,20 @@
                   ⏹ Detener
                 </button>
               </div>
-              <label class="translator-suggestions-toggle">
-                <input type="checkbox" id="translatorSuggestionsToggle" checked />
-                Sugerencias predictivas
-              </label>
+              <p class="translator-char-count" id="translatorCharCount" aria-live="polite">
+                0 / 1000
+              </p>
               <div class="translator-actions">
                 <button type="button" class="primary-btn" id="translatorSubmitBtn">Traducir</button>
                 <span class="translator-status" id="translatorStatus" role="status" aria-live="polite"
                   >Listo</span
                 >
               </div>
+              <label class="translator-suggestions-toggle">
+                <input type="checkbox" id="translatorSuggestionsToggle" checked />
+                Sugerencias predictivas
+              </label>
+              <p class="tutor-dictate-status" id="translatorInputDictateStatus" aria-live="polite"></p>
             </div>
             <div class="translator-field">
               <label for="translatorOutput">Traducción</label>
@@ -1359,7 +1395,7 @@
         </div>
 
         <div class="about-layout">
-          <article class="about-block">
+          <article class="about-block about-what-block">
             <h3 data-i18n="aboutWhatTitle">Qué es ANDERGO</h3>
             <p data-i18n="aboutWhatP1">
               ANDERGO es una plataforma para aprender inglés, francés y español con una ruta clara
@@ -1373,7 +1409,7 @@
             </p>
           </article>
 
-          <article class="about-block about-block-full">
+          <article class="about-block about-block-full about-how-block">
             <h3 data-i18n="aboutHowTitle">Cómo funciona</h3>
             <p data-i18n="aboutHowSubtitle">Sin planes confusos ni pasos innecesarios: elige, practica y mide tu progreso.</p>
             <div class="how-it-works-grid">
@@ -1403,7 +1439,7 @@
             </div>
           </article>
 
-          <article class="about-block">
+          <article class="about-block about-includes-block">
             <h3 data-i18n="aboutIncludesTitle">Qué incluye la plataforma</h3>
             <ul class="about-includes-list">
               <li data-i18n="aboutIncludesItem1">Rutas completas de A1 a C2 en inglés, francés y español.</li>
@@ -1419,12 +1455,16 @@
           <article class="about-block about-block-full about-creator-block">
             <h3 data-i18n="aboutCreatorTitle">Sobre el creador</h3>
             <div class="about-creator-layout">
-              <img
-                class="about-creator-photo"
-                src="andergo-creator.jpg"
-                alt="Anderson Almánzar de la Cruz hablando en un evento con un micrófono en la mano"
-                loading="lazy"
-              />
+              <figure class="about-creator-photo-frame">
+                <img
+                  class="about-creator-photo"
+                  src="/andergo-creator-portrait.png"
+                  alt="Anderson Almánzar de la Cruz hablando ante una audiencia"
+                  loading="lazy"
+                  width="1024"
+                  height="1536"
+                />
+              </figure>
               <div class="about-creator-text">
                 <p><strong>Anderson Almánzar de la Cruz</strong></p>
                 <p data-i18n="aboutCreatorP1">
@@ -2155,7 +2195,8 @@
     <script src="/src/js/translator-predictive.js"></script>
     <script src="/src/js/verbs/english-verbs-data.js"></script>
     <script src="/src/js/verbs/verb-conjugation-engine.js"></script>
+    <script src="/src/js/verbs/romance-verbs-data.js"></script>
     <script src="/src/js/verbs/verbs-view.js"></script>
-    <script src="/src/js/script.js"></script>
+    <script src="/src/js/script.js?v=20260725-distinct-l1-l2-immersion"></script>
   </body>
 </html>

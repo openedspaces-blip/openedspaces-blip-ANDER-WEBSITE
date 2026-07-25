@@ -314,6 +314,7 @@ function setBridgeLanguage(bridgeName, options = {}) {
 // the current page, so no caller needs to know which ones are present.
 function refreshLanguagePairChrome() {
   if (!LanguagePair) return;
+  const interfaceLanguage = getEffectiveInterfaceLanguage();
   [
     'bridgeSelectLabel',
     'targetSelectLabel',
@@ -324,7 +325,7 @@ function refreshLanguagePairChrome() {
     'aiLanguageLabel'
   ].forEach((key) => {
     document.querySelectorAll(`[data-field="${key}"]`).forEach((el) => {
-      el.textContent = LanguagePair.getInterfaceLabel(key, learningPathState.bridgeLanguage);
+      el.textContent = LanguagePair.getInterfaceLabel(key, interfaceLanguage);
     });
   });
 }
@@ -333,6 +334,24 @@ function refreshLanguagePairChrome() {
 // (screen readers, browser translate prompts). Falls back to Spanish, same
 // rule as every other lookup in this file's language-pair layer.
 const bridgeLanguageToHtmlLang = { spanish: 'es', english: 'en', french: 'fr', italian: 'it', german: 'de' };
+
+function isAdvancedImmersionLevel(level = learningPathState.level) {
+  return level === 'B2' || level === 'C1' || level === 'C2';
+}
+
+function isFrenchAdvancedImmersion() {
+  return learningPathState.language === 'french' && isAdvancedImmersionLevel();
+}
+
+function advancedFrenchText(defaultText, frenchText) {
+  return isFrenchAdvancedImmersion() ? frenchText : defaultText;
+}
+
+function getEffectiveInterfaceLanguage() {
+  return isAdvancedImmersionLevel()
+    ? learningPathState.language
+    : learningPathState.bridgeLanguage;
+}
 
 // Applies the platform-wide interface language (spec §2: L1 controls
 // navigation, buttons, instructions, system messages, dashboard, auth,
@@ -345,53 +364,55 @@ const bridgeLanguageToHtmlLang = { spanish: 'es', english: 'en', french: 'fr', i
 // and <html lang> so the two interface-language mechanisms never disagree.
 function applyInterfaceLanguage(bridgeLanguage) {
   if (!LanguagePair) return;
-  document.documentElement.lang = bridgeLanguageToHtmlLang[bridgeLanguage] || 'es';
+  const interfaceLanguage = getEffectiveInterfaceLanguage() || bridgeLanguage;
+  document.documentElement.lang = bridgeLanguageToHtmlLang[interfaceLanguage] || 'es';
   document.querySelectorAll('[data-i18n]').forEach((el) => {
-    el.textContent = LanguagePair.t(el.dataset.i18n, bridgeLanguage);
+    el.textContent = LanguagePair.t(el.dataset.i18n, interfaceLanguage);
   });
   document.querySelectorAll('[data-i18n-aria-label]').forEach((el) => {
-    el.setAttribute('aria-label', LanguagePair.t(el.dataset.i18nAriaLabel, bridgeLanguage));
+    el.setAttribute('aria-label', LanguagePair.t(el.dataset.i18nAriaLabel, interfaceLanguage));
   });
   document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
-    el.setAttribute('placeholder', LanguagePair.t(el.dataset.i18nPlaceholder, bridgeLanguage));
+    el.setAttribute('placeholder', LanguagePair.t(el.dataset.i18nPlaceholder, interfaceLanguage));
   });
   refreshLanguagePairChrome();
 }
 
-// Keeps learningPathState.learningMode ('direct' | 'bilingual', spec §3) in
-// sync with bridgeLanguage/targetLanguage. Derived, not independently set -
-// call this after every place that changes either field, same rule as
-// applyInterfaceLanguage for bridgeLanguage changes.
+// A1-A2-B1 keep bilingual support. B2-C1-C2 use L2 immersion throughout the
+// interface; Vocabulary remains bilingual because its cards derive their
+// translations from the distinct L1/L2 pair rather than this UI mode.
 function syncLearningMode() {
-  learningPathState.learningMode = LanguagePair
-    ? LanguagePair.getLearningMode(learningPathState.bridgeLanguage, learningPathState.language)
-    : learningPathState.bridgeLanguage === learningPathState.language
-      ? 'direct'
-      : 'bilingual';
+  learningPathState.learningMode = isAdvancedImmersionLevel() ? 'direct' : 'bilingual';
+}
+
+function syncLanguagePairSelectOptions() {
+  const targetSelect = document.getElementById('pathLanguageSelect');
+  const bridgeSelect = document.getElementById('pathBridgeSelect');
+  if (!targetSelect || !bridgeSelect) return;
+
+  Array.from(targetSelect.options).forEach((option) => {
+    option.disabled = option.value === learningPathState.bridgeLanguage;
+  });
+  Array.from(bridgeSelect.options).forEach((option) => {
+    option.disabled = option.value === learningPathState.language;
+  });
 }
 
 function updatePathPairPreview() {
+  syncLanguagePairSelectOptions();
   refreshLanguagePairChrome();
+  updateStartLearningButton();
   const preview = document.getElementById('pathPairPreview');
   if (preview) {
     preview.textContent = LanguagePair
-      ? LanguagePair.getLanguagePairLabel(learningPathState.bridgeLanguage, learningPathState.language)
+      ? LanguagePair.getLanguagePairLabel(
+          learningPathState.bridgeLanguage,
+          learningPathState.language,
+          getEffectiveInterfaceLanguage()
+        )
       : `Aprenderás ${languageDisplayNames[learningPathState.language] || learningPathState.language} con apoyo en ${languageDisplayNames[learningPathState.bridgeLanguage] || learningPathState.bridgeLanguage}.`;
   }
 
-  // Discreet "Método directo"/"Modo bilingüe" badge (spec: L1=L2 integration
-  // phase, §6) - always kept in sync with the same learningMode
-  // syncLearningMode() maintains, in the current interface language.
-  const modeBadge = document.getElementById('pathPairModeBadge');
-  if (modeBadge && LanguagePair) {
-    const isDirect = learningPathState.learningMode === 'direct';
-    modeBadge.textContent = LanguagePair.t(
-      isDirect ? 'directModeBadge' : 'bilingualModeBadge',
-      learningPathState.bridgeLanguage
-    );
-    modeBadge.classList.toggle('is-direct-mode', isDirect);
-    modeBadge.classList.toggle('is-bilingual-mode', !isDirect);
-  }
 }
 
 // Accepts either a real language key (english/spanish/french/italian/german,
@@ -981,6 +1002,7 @@ function renderProgressGamificationSummary() {
 
 function renderDashboardStats(data) {
   const grid = document.getElementById('dashboardStatsGrid');
+  const courseProgress = data.courseProgress;
   if (grid) {
     const langLabel =
       languageDisplayNames[data.preferences?.language] || data.preferences?.language || '—';
@@ -989,7 +1011,12 @@ function renderDashboardStats(data) {
       ['Nivel', escapeHtml(data.preferences?.level || '—')],
       ['Progreso', `${data.progress}%`],
       ['Próxima lección', escapeHtml(data.nextLesson || '—')],
-      ['Lecciones completadas', `${data.completedLessonsCount}`]
+      [
+        'Actividades evaluadas',
+        courseProgress
+          ? `${courseProgress.completedActivities}/${courseProgress.totalActivities}`
+          : `${data.completedLessonsCount}`
+      ]
     ];
     grid.innerHTML = stats
       .map(
@@ -998,6 +1025,32 @@ function renderDashboardStats(data) {
     `
       )
       .join('');
+  }
+  const unitGrid = document.getElementById('courseProgressUnits');
+  if (unitGrid) {
+    unitGrid.innerHTML = courseProgress?.units?.length
+      ? `
+        <div class="course-progress-heading">
+          <h3>Progreso por lección</h3>
+          <span>Cada lección incluye 7 actividades · score sobre 100</span>
+        </div>
+        <div class="course-progress-unit-grid">
+          ${courseProgress.units
+            .map(
+              (unit) => `
+                <article class="course-progress-unit-card">
+                  <span>Lección ${escapeHtml(String(unit.order))}</span>
+                  <strong>${escapeHtml(unit.title)}</strong>
+                  <div class="course-progress-unit-bar" role="progressbar" aria-valuenow="${unit.progressPercent}" aria-valuemin="0" aria-valuemax="100">
+                    <div style="width:${unit.progressPercent}%"></div>
+                  </div>
+                  <p>${unit.completedActivities}/${unit.totalActivities} actividades · ${unit.progressPercent}/100</p>
+                </article>
+              `
+            )
+            .join('')}
+        </div>`
+      : '<p class="skill-graph-empty">El progreso por lección aparecerá cuando comiences una ruta organizada por unidades.</p>';
   }
   renderProgressGamificationSummary();
 }
@@ -1128,6 +1181,10 @@ function renderDashboardSignedOut() {
       '<li class="skill-graph-empty">Inicia sesión para ver tu actividad.</li>';
   const line = document.getElementById('progressGamificationLine');
   if (line) line.textContent = '';
+  const courseProgressUnits = document.getElementById('courseProgressUnits');
+  if (courseProgressUnits)
+    courseProgressUnits.innerHTML =
+      '<p class="skill-graph-empty">Inicia sesión para ver el score y progreso de cada lección.</p>';
 }
 
 let dashboardPreferences = null;
@@ -2808,6 +2865,10 @@ const learningPathState = {
   // assignment to either field. Initialized consistently with the two
   // defaults above (spanish !== english -> bilingual).
   learningMode: 'bilingual',
+  // The seventh activity in every unit is Verbos. Its scored attempts live
+  // in user_unit_verb_progress (separate from course_lessons because the
+  // conjugator/practice engine is shared across units).
+  verbProgressByUnit: {},
   // Practice results recorded locally as the student answers, keyed by
   // lesson slug -> exercise index -> { selectedOption } | { practiced: true }.
   // Only used to drive the UI (which exercises are left, when "Completar"
@@ -2830,41 +2891,6 @@ function hasUnits() {
 // unit's Listening activity is left out of the biblioteca entirely rather
 // than shown as a dead link. Extend this map (never remove existing entries)
 // as further levels/languages get real audio recorded and registered.
-const LISTENING_ENABLED_SLUGS = {
-  english: {
-    A1: [
-      'english-a1-hello-listening',
-      'english-a1-about-me-listening',
-      'english-a1-family-and-friends-listening',
-      'english-a1-my-school-listening',
-      'english-a1-daily-routine-listening',
-      'english-a1-time-and-dates-listening',
-      'english-a1-food-and-drinks-listening',
-      'english-a1-my-home-listening',
-      'english-a1-my-town-listening',
-      'english-a1-free-time-listening',
-      'english-a1-clothes-and-shopping-listening',
-      'english-a1-weather-and-travel-listening'
-    ],
-    A2: [
-      'english-a2-everyday-life-listening',
-      'english-a2-family-and-relationships-listening',
-      'english-a2-home-and-neighborhood-listening',
-      'english-a2-food-and-shopping-listening',
-      'english-a2-past-experiences-listening',
-      'english-a2-travel-and-transportation-listening',
-      'english-a2-health-and-healthy-habits-listening',
-      'english-a2-plans-and-celebrations-listening',
-      'english-a2-school-and-work-listening',
-      'english-a2-stories-and-achievements-listening'
-    ]
-  }
-};
-
-function getListeningEnabledSlugs(language, level) {
-  return LISTENING_ENABLED_SLUGS[language]?.[level] || null;
-}
-
 function getSkillActivities(skill) {
   const activities = learningPathState.lessons
     .filter((item) => item.skill === skill)
@@ -2874,19 +2900,157 @@ function getSkillActivities(skill) {
       return (unitA?.order ?? 0) - (unitB?.order ?? 0);
     });
 
-  if (skill === 'listening') {
-    const allowedSlugs = getListeningEnabledSlugs(
-      learningPathState.language,
-      learningPathState.level
-    );
-    if (allowedSlugs) return activities.filter((item) => allowedSlugs.includes(item.slug));
-  }
-
   return activities;
 }
 
+const UNIT_LEARNING_SEQUENCE = ['reading', 'listening', 'vocabulary', 'grammar', 'speaking', 'writing'];
+
+function unitSkillOrder(skill) {
+  const index = UNIT_LEARNING_SEQUENCE.indexOf(String(skill || '').toLowerCase());
+  return index === -1 ? UNIT_LEARNING_SEQUENCE.length : index;
+}
+
 function getUnitActivities(unitId) {
-  return learningPathState.lessons.filter((item) => item.unitId === unitId);
+  return learningPathState.lessons
+    .filter((item) => item.unitId === unitId)
+    .sort((a, b) => unitSkillOrder(a.skill) - unitSkillOrder(b.skill) || (a.orderIndex || 0) - (b.orderIndex || 0));
+}
+
+function getUnitProgressMetrics(unitId) {
+  const activities = getUnitActivities(unitId);
+  const verbProgress = learningPathState.verbProgressByUnit[unitId] || null;
+  const completedCount =
+    activities.filter((item) => item.completed).length +
+    (verbProgress?.status === 'completed' ? 1 : 0);
+  const total = activities.length + 1;
+  const scoreTotal =
+    activities.reduce((sum, item) => sum + Number(item.bestScore || 0), 0) +
+    Number(verbProgress?.bestScore || 0);
+  return {
+    activities,
+    verbProgress,
+    completedCount,
+    total,
+    progressPercent: total ? Math.round(scoreTotal / total) : 0
+  };
+}
+
+function getCourseProgressMetrics() {
+  const lessonScoreTotal = learningPathState.lessons.reduce(
+    (sum, item) => sum + Number(item.bestScore || 0),
+    0
+  );
+  const verbRows = learningPathState.units.map(
+    (unit) => learningPathState.verbProgressByUnit[unit.id] || null
+  );
+  const total = learningPathState.lessons.length + learningPathState.units.length;
+  const completedCount =
+    learningPathState.lessons.filter((item) => item.completed).length +
+    verbRows.filter((item) => item?.status === 'completed').length;
+  const verbScoreTotal = verbRows.reduce((sum, item) => sum + Number(item?.bestScore || 0), 0);
+  return {
+    total,
+    completedCount,
+    progressPercent: total ? Math.round((lessonScoreTotal + verbScoreTotal) / total) : 0
+  };
+}
+
+function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
+  const activities = getUnitActivities(unitId);
+  const steps = activities
+    .map((lesson, index) => {
+      const isCurrent = lesson.skill === currentSkill;
+      const state = lesson.completed ? 'completed' : isCurrent ? 'current' : lesson.locked ? 'locked' : 'available';
+      return `
+        <button type="button" class="unit-sequence-step unit-sequence-step--${state}" data-sequence-skill="${escapeHtml(lesson.skill)}" data-lesson-slug="${escapeHtml(lesson.slug)}" ${isCurrent ? 'aria-current="step"' : ''}>
+          <span class="unit-sequence-number">${lesson.completed ? '✓' : index + 1}</span>
+          <span>${escapeHtml(getSkillLabel(lesson.skill))}</span>
+        </button>
+      `;
+    })
+    .join('');
+  const verbsNumber = activities.length + 1;
+  const verbProgress = learningPathState.verbProgressByUnit[unitId];
+  const verbState =
+    currentSkill === 'verbs'
+      ? 'current'
+      : verbProgress?.status === 'completed'
+        ? 'completed'
+        : 'available';
+  return `${steps}
+    <button type="button" class="unit-sequence-step unit-sequence-step--verbs unit-sequence-step--${verbState}" data-sequence-skill="verbs" ${currentSkill === 'verbs' ? 'aria-current="step"' : ''}>
+      <span class="unit-sequence-number">${verbProgress?.status === 'completed' ? '✓' : verbsNumber}</span>
+      <span>Verbos</span>
+    </button>`;
+}
+
+function openUnitSequenceStep(skill, lessonSlug = '') {
+  if (skill === 'verbs') {
+    showView('verbs');
+    const verbLanguage = ['english', 'french', 'spanish'].includes(learningPathState.language)
+      ? learningPathState.language
+      : 'english';
+    history.pushState(null, '', `#verbs/${verbLanguage}/list`);
+    renderUnitVerbContext();
+    return;
+  }
+  if (!SKILL_VIEWS.includes(skill) || !lessonSlug) return;
+  setActiveLesson(lessonSlug);
+  showView(skill);
+  renderSkillView(skill);
+  updateLearnHash(skill);
+}
+
+function wireUnitSequence(container) {
+  container?.querySelectorAll('.unit-sequence-step').forEach((button) => {
+    button.addEventListener('click', () =>
+      openUnitSequenceStep(button.dataset.sequenceSkill, button.dataset.lessonSlug || '')
+    );
+  });
+}
+
+function renderSkillUnitSequence(section, lesson) {
+  section.querySelector('.unit-learning-sequence')?.remove();
+  if (!lesson?.unitId) return;
+  const content = section.querySelector('.skill-view-content');
+  if (!content) return;
+  const nav = document.createElement('nav');
+  nav.className = 'unit-learning-sequence';
+  nav.setAttribute('aria-label', 'Secuencia de aprendizaje de la unidad');
+  nav.innerHTML = `
+    <div class="unit-sequence-heading">
+      <strong>Ruta de esta unidad</strong>
+      <span>Avanza de la comprensión a la producción.</span>
+    </div>
+    <div class="unit-sequence-steps">${renderUnitSequenceStepsHtml(lesson.unitId, lesson.skill)}</div>
+  `;
+  content.before(nav);
+  wireUnitSequence(nav);
+}
+
+function renderUnitVerbContext() {
+  const section = document.getElementById('verbs');
+  if (!section) return;
+  section.querySelector('.unit-verbs-context')?.remove();
+  const unit = learningPathState.units.find((item) => item.id === learningPathState.unitId);
+  if (!unit) return;
+  const banner = document.createElement('div');
+  banner.className = 'unit-verbs-context';
+  banner.innerHTML = `
+    <div>
+      <span>Verbos dentro de tu ruta</span>
+      <strong>${escapeHtml(unit.title)}</strong>
+      <p>Explora y practica verbos para completar esta unidad. Después continúa con la siguiente actividad disponible.</p>
+    </div>
+    <button type="button" class="secondary-btn unit-verbs-return-btn">← Volver a la unidad</button>
+  `;
+  section.querySelector('.section-heading')?.after(banner);
+  banner.querySelector('.unit-verbs-return-btn')?.addEventListener('click', () => {
+    const activities = getUnitActivities(unit.id);
+    const target = [...activities].reverse().find((item) => !item.locked) || activities[0];
+    if (target) openUnitSequenceStep(target.skill, target.slug);
+    else showView('learn');
+  });
 }
 
 // Single place that writes activeSlug - keeps it in sync with unitId so a
@@ -4129,7 +4293,8 @@ function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
   const onEnd = () => {
     messageEl.classList.remove('is-playing', 'is-tts-paused');
     if (currentTutorAudio.messageEl === messageEl) currentTutorAudio = { element: null, messageEl: null };
-    onPlaybackEnd?.();
+    if (onPlaybackEnd) onPlaybackEnd();
+    else if (tutorReplyEndsWithQuestion(text)) activateTutorMicAfterQuestion(messageEl);
     resetTutorVoiceButtons(messageEl);
     // Spec §6: "al terminar, eliminar resaltado después de una transición
     // breve; conservar el texto completo". The word spans (and their full
@@ -4424,11 +4589,8 @@ let tutorDictation = {
 // session is ever active at a time.
 let tutorDictationManualSendSuppressed = false;
 
-// Centralized auto-send state (spec §5/§6): the editable "will send in ~2s"
-// window that opens once a final transcript is ready, plus dedup against a
-// manual send racing the same timer. Only one dictation session is ever
-// active at a time (tutorDictation), so one module-level timer/id is enough -
-// no per-textarea map needed.
+// Centralized auto-send state. Once speech recognition has decided that the
+// student finished, there is no second artificial two-second wait.
 let tutorAutoSendTimerId = null;
 let tutorLastAutoSentTranscript = '';
 
@@ -4439,15 +4601,11 @@ function clearTutorAutoSendTimer() {
   }
 }
 
-// Opens the editable auto-send window: shows the "se enviará automáticamente"
-// status, then after ~2s (any keystroke on the textarea restarts this - see
-// the keydown listeners on aiTutorPrompt/tutorDrawerPrompt) clicks the same
-// send button a manual click would. Reads the textarea fresh at fire time
-// (not the transcript captured at recognition-end) so edits made during the
-// window are what actually gets sent.
+// Sends on the next event-loop turn so the recognizer can finish resetting
+// its UI before the normal Send button path runs.
 function scheduleTutorAutoSend(textareaId) {
   clearTutorAutoSendTimer();
-  setDictationStatusText(textareaId, 'Texto listo. Se enviará automáticamente en 2 segundos.');
+  setDictationStatusText(textareaId, 'Enviando…');
   tutorAutoSendTimerId = window.setTimeout(() => {
     tutorAutoSendTimerId = null;
     const textarea = document.getElementById(textareaId);
@@ -4456,13 +4614,11 @@ function scheduleTutorAutoSend(textareaId) {
     if (!normalized || normalized === tutorLastAutoSentTranscript || sendBtn?.disabled) return;
     setDictationStatusText(textareaId, 'Enviando…');
     sendBtn?.click();
-  }, 2000);
+  }, 0);
 }
 
-// Restarts the pending auto-send window on any keystroke while the student
-// is editing the transcript (spec §5: "cualquier pulsación de tecla debe
-// reiniciar el contador de 2 segundos") - a no-op when no auto-send is
-// currently pending, so normal typing outside this window is unaffected.
+// Kept as the single re-scheduling entry point for the brief next-tick
+// window above.
 function restartTutorAutoSendIfPending(textareaId) {
   if (tutorAutoSendTimerId) scheduleTutorAutoSend(textareaId);
 }
@@ -4971,9 +5127,7 @@ function renderUnitAccordionHtml(nextSlug) {
 
   return learningPathState.units
     .map((unit) => {
-      const activities = getUnitActivities(unit.id);
-      const completedCount = activities.filter((item) => item.completed).length;
-      const unitPct = activities.length ? Math.round((completedCount / activities.length) * 100) : 0;
+      const metrics = getUnitProgressMetrics(unit.id);
       const isSelected = unit.id === learningPathState.unitId;
 
       return `
@@ -4983,7 +5137,7 @@ function renderUnitAccordionHtml(nextSlug) {
           <span class="path-unit-title">${escapeHtml(unit.title)}</span>
           ${unit.titleEs ? `<span class="path-unit-title-es">${escapeHtml(unit.titleEs)}</span>` : ''}
         </span>
-        <span class="path-unit-progress-label">${completedCount}/${activities.length} · ${unitPct}%</span>
+        <span class="path-unit-progress-label">${metrics.completedCount}/${metrics.total} · ${metrics.progressPercent}%</span>
       </button>
     `;
     })
@@ -5003,8 +5157,15 @@ function renderSkillGraph() {
   const targetLabel =
     languageDisplayNames[learningPathState.language] || learningPathState.language;
   const level = learningPathState.level;
-  const completedCount = lessons.filter((item) => item.completed).length;
-  const pct = Math.round((completedCount / lessons.length) * 100);
+  const courseMetrics = hasUnits()
+    ? getCourseProgressMetrics()
+    : {
+        completedCount: lessons.filter((item) => item.completed).length,
+        total: lessons.length,
+        progressPercent: Math.round(
+          lessons.reduce((sum, item) => sum + Number(item.bestScore || 0), 0) / lessons.length
+        )
+      };
   const nextLesson = getNextRecommendedLesson();
   const nextSkillLabel = nextLesson ? getSkillLabel(nextLesson.skill) : '—';
 
@@ -5020,10 +5181,10 @@ function renderSkillGraph() {
   container.innerHTML = `
     <div class="path-summary">
       <span class="path-summary-lang">${escapeHtml(targetLabel)} · ${escapeHtml(level)}</span>
-      <div class="path-summary-progress" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
-        <div style="width:${pct}%"></div>
+      <div class="path-summary-progress" role="progressbar" aria-valuenow="${courseMetrics.progressPercent}" aria-valuemin="0" aria-valuemax="100">
+        <div style="width:${courseMetrics.progressPercent}%"></div>
       </div>
-      <span class="path-summary-detail">${completedCount}/${lessons.length} completadas · Próximo: ${escapeHtml(nextSkillLabel)}</span>
+      <span class="path-summary-detail">${courseMetrics.completedCount}/${courseMetrics.total} completadas · Score promedio: ${courseMetrics.progressPercent}/100 · Próximo: ${escapeHtml(nextSkillLabel)}</span>
     </div>
     ${bodyHtml}
   `;
@@ -5157,9 +5318,10 @@ function getUnitOverviewData(unit) {
 // (that's what the left column's per-activity labels are for - see
 // renderLessonItemHtml/getLessonStateInfo).
 function getUnitActionState(unit) {
-  const activities = getUnitActivities(unit.id);
-  const total = activities.length;
-  const completedCount = activities.filter((item) => item.completed).length;
+  const metrics = getUnitProgressMetrics(unit.id);
+  const activities = metrics.activities;
+  const total = metrics.total;
+  const completedCount = metrics.completedCount;
   const started = activities.some(
     (item) => item.completed || item.progressStatus === 'in_progress'
   );
@@ -5216,7 +5378,7 @@ function renderUnitOverviewBody(data) {
 function renderUnitOverviewCard(unit) {
   const data = getUnitOverviewData(unit);
   const action = getUnitActionState(unit);
-  const pct = action.total ? Math.round((action.completedCount / action.total) * 100) : 0;
+  const pct = getUnitProgressMetrics(unit.id).progressPercent;
   const bodyHtml = renderUnitOverviewBody(data);
 
   return `
@@ -5231,6 +5393,13 @@ function renderUnitOverviewCard(unit) {
           <div style="width:${pct}%"></div>
         </div>
         <span class="unit-overview-progress-label">${action.completedCount}/${action.total} actividades completadas en esta unidad</span>
+      </div>
+      <div class="unit-overview-sequence">
+        <div class="unit-sequence-heading">
+          <strong>Recorrido recomendado</strong>
+          <span>Empieza con Reading y avanza paso a paso.</span>
+        </div>
+        <div class="unit-sequence-steps">${renderUnitSequenceStepsHtml(unit.id)}</div>
       </div>
       ${
         bodyHtml
@@ -5372,6 +5541,7 @@ function renderLessonWorkspace() {
       workspace.innerHTML = renderUnitOverviewCard(unit);
       workspace.classList.add('lesson-workspace--unit-overview');
       workspace.classList.remove('lesson-workspace--continue');
+      wireUnitSequence(workspace);
       return;
     }
   }
@@ -5762,6 +5932,7 @@ function renderSkillView(skill) {
     section.dataset.activeLessonSlug = selected?.slug || '';
 
     if (!selected) {
+      section.querySelector('.unit-learning-sequence')?.remove();
       if (content) content.innerHTML = renderSkillLibraryHtml(skill, activities);
       updateSkillViewBackLink(section, skill, false);
       wireSkillLibrary(section, skill);
@@ -5769,6 +5940,7 @@ function renderSkillView(skill) {
     }
 
     updateSkillViewBackLink(section, skill, true);
+    renderSkillUnitSequence(section, selected);
     SKILL_VIEW_RENDERERS[skill]?.(section, selected);
     return;
   }
@@ -5782,6 +5954,7 @@ function renderSkillView(skill) {
     return;
   }
 
+  renderSkillUnitSequence(section, lesson);
   SKILL_VIEW_RENDERERS[skill]?.(section, lesson);
 }
 
@@ -5810,6 +5983,391 @@ function renderReadingParagraphsHtml(paragraphs) {
       return `<p>${spansHtml}</p>`;
     })
     .join('');
+}
+
+const readingTranslationCache = new Map();
+let readingSelectionState = null;
+let readingSelectionRequestId = 0;
+let lastReadingTap = null;
+let lastReadingTouchTranslationAt = 0;
+
+function ensureReadingTranslationPopover() {
+  let popover = document.getElementById('readingTranslationPopover');
+  if (popover) return popover;
+  popover = document.createElement('aside');
+  popover.id = 'readingTranslationPopover';
+  popover.className = 'reading-translation-popover';
+  popover.hidden = true;
+  popover.setAttribute('role', 'dialog');
+  popover.setAttribute('aria-label', 'Traductor contextual de ANDERGO');
+  document.body.appendChild(popover);
+  return popover;
+}
+
+function closeReadingTranslationPopover({ clearSelection = false } = {}) {
+  const popover = document.getElementById('readingTranslationPopover');
+  if (popover) popover.hidden = true;
+  readingSelectionRequestId += 1;
+  readingSelectionState = null;
+  if (clearSelection) window.getSelection()?.removeAllRanges();
+}
+
+function positionReadingTranslationPopover(popover, rect) {
+  const width = Math.min(360, window.innerWidth - 24);
+  const left = Math.max(12, Math.min(rect.left + rect.width / 2 - width / 2, window.innerWidth - width - 12));
+  const top = Math.max(12, Math.min(rect.bottom + 10, window.innerHeight - 180));
+  popover.style.width = `${width}px`;
+  popover.style.left = `${left}px`;
+  popover.style.top = `${top}px`;
+}
+
+function readingContextFromRange(range, term) {
+  const node = range.commonAncestorContainer.nodeType === Node.TEXT_NODE
+    ? range.commonAncestorContainer.parentElement
+    : range.commonAncestorContainer;
+  const readingText = node?.closest?.('.reading-text');
+  if (!readingText || !readingText.contains(range.startContainer) || !readingText.contains(range.endContainer)) {
+    return null;
+  }
+  if (!term || term.length > 120) return null;
+  const paragraph = node.closest?.('p') || range.startContainer.parentElement?.closest?.('p');
+  const context = String(paragraph?.textContent || term).replace(/\s+/g, ' ').trim().slice(0, 1000);
+  const section = readingText.closest('.skill-view-section');
+  const lesson = learningPathState.lessons.find(
+    (item) => item.slug === section?.dataset.activeLessonSlug
+  );
+  return { term, context, lesson, rect: range.getBoundingClientRect() };
+}
+
+function selectedReadingContext(selection) {
+  if (!selection?.rangeCount || selection.isCollapsed) return null;
+  const range = selection.getRangeAt(0);
+  const term = selection.toString().replace(/\s+/g, ' ').trim();
+  return readingContextFromRange(range, term);
+}
+
+function isReadingWordCharacter(character) {
+  return Boolean(character) && /[\p{L}\p{M}\p{N}'’\-]/u.test(character);
+}
+
+function readingWordContextAtPoint(clientX, clientY) {
+  let textNode = null;
+  let offset = 0;
+  if (document.caretPositionFromPoint) {
+    const position = document.caretPositionFromPoint(clientX, clientY);
+    textNode = position?.offsetNode || null;
+    offset = position?.offset || 0;
+  } else if (document.caretRangeFromPoint) {
+    const caretRange = document.caretRangeFromPoint(clientX, clientY);
+    textNode = caretRange?.startContainer || null;
+    offset = caretRange?.startOffset || 0;
+  }
+  if (textNode?.nodeType !== Node.TEXT_NODE || !textNode.parentElement?.closest?.('.reading-text')) {
+    return null;
+  }
+
+  const text = textNode.textContent || '';
+  if (!text) return null;
+  let anchor = Math.min(offset, text.length - 1);
+  if (!isReadingWordCharacter(text[anchor]) && anchor > 0 && isReadingWordCharacter(text[anchor - 1])) {
+    anchor -= 1;
+  }
+  if (!isReadingWordCharacter(text[anchor])) return null;
+
+  let start = anchor;
+  let end = anchor + 1;
+  while (start > 0 && isReadingWordCharacter(text[start - 1])) start -= 1;
+  while (end < text.length && isReadingWordCharacter(text[end])) end += 1;
+  while (start < end && /['’\-]/u.test(text[start])) start += 1;
+  while (end > start && /['’\-]/u.test(text[end - 1])) end -= 1;
+  if (start >= end) return null;
+
+  const range = document.createRange();
+  range.setStart(textNode, start);
+  range.setEnd(textNode, end);
+  const selection = window.getSelection();
+  selection?.removeAllRanges();
+  selection?.addRange(range);
+  return readingContextFromRange(range, text.slice(start, end));
+}
+
+function openReadingTranslation(selectionData) {
+  readingSelectionState = {
+    ...selectionData,
+    sourceLanguage: learningPathState.language,
+    targetLanguage: learningPathState.bridgeLanguage
+  };
+  const popover = ensureReadingTranslationPopover();
+  popover.hidden = false;
+  positionReadingTranslationPopover(popover, selectionData.rect);
+  translateReadingSelection();
+}
+
+function savedVocabularyRequiresUpgrade() {
+  return (
+    !authStatus.session?.access_token ||
+    (authStatus.entitlements !== null && !isPremiumUser())
+  );
+}
+
+function renderReadingTranslationResult(popover, state, translation) {
+  const locale = getPronunciationLocale(state.sourceLanguage);
+  const saveIsLocked = savedVocabularyRequiresUpgrade();
+  popover.innerHTML = `
+    <div class="reading-translation-card">
+      <div class="reading-translation-head">
+        <span>Traductor ANDERGO</span>
+        <button type="button" class="reading-translation-close" aria-label="Cerrar">×</button>
+      </div>
+      <p class="reading-translation-term">${escapeHtml(state.term)}</p>
+      <p class="reading-translation-result">${escapeHtml(translation)}</p>
+      <div class="reading-translation-actions">
+        <button type="button" class="secondary-btn reading-translation-listen">🔊 Escuchar</button>
+        <button type="button" class="secondary-btn reading-translation-save${saveIsLocked ? ' is-premium-only' : ''}">${saveIsLocked ? '🔒 Guardar' : '＋ Guardar'}</button>
+        <button type="button" class="secondary-btn reading-translation-tutor">Tutor</button>
+        <button type="button" class="secondary-btn reading-translation-open">Abrir Traductor</button>
+      </div>
+      <span class="reading-translation-status" role="status" aria-live="polite"></span>
+    </div>
+  `;
+  popover.querySelector('.reading-translation-close')?.addEventListener('click', () =>
+    closeReadingTranslationPopover({ clearSelection: true })
+  );
+  popover.querySelector('.reading-translation-listen')?.addEventListener('click', () =>
+    speakText(state.term, { locale, rate: getDefaultPronunciationRate(state.sourceLanguage, state.lesson?.level) })
+  );
+  popover.querySelector('.reading-translation-open')?.addEventListener('click', () => {
+    openTranslator({
+      text: state.term,
+      sourceLanguage: state.sourceLanguage,
+      targetLanguage: state.targetLanguage,
+      returnHash: window.location.hash || '#reading',
+      returnLabel: 'Volver a Reading'
+    });
+    closeReadingTranslationPopover({ clearSelection: true });
+  });
+  popover.querySelector('.reading-translation-tutor')?.addEventListener('click', () => {
+    openTutorDrawer({
+      skill: 'reading',
+      lessonTitle: state.lesson?.title || '',
+      lessonIntro: state.lesson?.description || '',
+      lessonSlug: state.lesson?.slug || '',
+      supportMode: 'explain',
+      currentActivity: 'Comprendiendo una palabra del Reading',
+      prefill: `Explícame el significado y el uso de “${state.term}” en esta oración: ${state.context}`,
+      transcript: state.context,
+      vocabulary: state.term
+    });
+    closeReadingTranslationPopover({ clearSelection: true });
+  });
+  popover.querySelector('.reading-translation-save')?.addEventListener('click', () =>
+    saveReadingSelectionVocabulary(popover, state, translation)
+  );
+}
+
+async function translateReadingSelection() {
+  const state = readingSelectionState;
+  const popover = ensureReadingTranslationPopover();
+  if (!state) return;
+  const requestId = ++readingSelectionRequestId;
+  popover.innerHTML = '<div class="reading-translation-loading" role="status">Traduciendo con ANDERGO…</div>';
+  const cacheKey = `${state.sourceLanguage}|${state.targetLanguage}|${state.term}|${state.context}`.toLowerCase();
+  try {
+    let translation = readingTranslationCache.get(cacheKey);
+    if (!translation) {
+      const response = await fetch(`${backendBaseUrl}/api/translate`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeaders() },
+        body: JSON.stringify({
+          text: state.term,
+          context: state.context,
+          sourceLanguage: state.sourceLanguage,
+          targetLanguage: state.targetLanguage
+        })
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok || !data.ok) throw new Error(data.message || 'No se pudo traducir esta selección.');
+      translation = data.translatedText;
+      readingTranslationCache.set(cacheKey, translation);
+    }
+    if (requestId !== readingSelectionRequestId || popover.hidden) return;
+    renderReadingTranslationResult(popover, state, translation);
+    positionReadingTranslationPopover(popover, state.rect);
+  } catch (error) {
+    if (requestId !== readingSelectionRequestId || popover.hidden) return;
+    popover.innerHTML = `
+      <div class="reading-translation-error">
+        <p>${escapeHtml(error.message || 'No se pudo traducir esta selección.')}</p>
+        <button type="button" class="secondary-btn reading-translation-open-fallback">Abrir Traductor</button>
+        <button type="button" class="reading-translation-close" aria-label="Cerrar">×</button>
+      </div>
+    `;
+    popover.querySelector('.reading-translation-open-fallback')?.addEventListener('click', () =>
+      openTranslator({
+        text: state.term,
+        sourceLanguage: state.sourceLanguage,
+        targetLanguage: state.targetLanguage,
+        returnHash: window.location.hash || '#reading',
+        returnLabel: 'Volver a Reading'
+      })
+    );
+    popover.querySelector('.reading-translation-close')?.addEventListener('click', () =>
+      closeReadingTranslationPopover({ clearSelection: true })
+    );
+  }
+}
+
+async function saveReadingSelectionVocabulary(popover, state, translation) {
+  const status = popover.querySelector('.reading-translation-status');
+  const item = {
+    sourceLanguage: state.sourceLanguage,
+    targetLanguage: state.targetLanguage,
+    term: state.term,
+    translation,
+    context: state.context,
+    lessonSlug: state.lesson?.slug || '',
+    unitSlug: state.lesson?.unitId || ''
+  };
+  if (savedVocabularyRequiresUpgrade()) {
+    if (status) status.textContent = 'Guardar palabras en Vocabulary es una función Premium.';
+    openPaywallModal({
+      title: 'Guardar palabras es una función Premium.',
+      message: 'Desbloquea el vocabulario personal para guardar, escuchar y repasar palabras de tus lecturas.'
+    });
+    return;
+  }
+  if (!authStatus.session?.access_token) {
+    if (status) status.textContent = 'Tu sesión terminó. Inicia sesión de nuevo para guardar esta palabra.';
+    openModal('login');
+    return;
+  }
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/vocabulary/saved`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify(item)
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      if (response.status === 403 && data.code === 'PREMIUM_REQUIRED') {
+        authStatus.entitlements = { ...(authStatus.entitlements || {}), isPremium: false };
+        openPaywallModal({
+          title: 'Guardar palabras es una función Premium.',
+          message: data.error
+        });
+      }
+      throw new Error(data.error || 'No se pudo guardar esta palabra.');
+    }
+    if (status) status.textContent = 'Guardada en tu Vocabulary.';
+    const saveButton = popover.querySelector('.reading-translation-save');
+    if (saveButton) {
+      saveButton.textContent = '✓ Guardada';
+      saveButton.disabled = true;
+    }
+  } catch (error) {
+    if (status) status.textContent = error.message || 'No se pudo guardar esta palabra.';
+  }
+}
+
+function setupReadingSelectionTranslator() {
+  const handleSelection = (pointerEvent = null) => {
+    window.setTimeout(() => {
+      const data =
+        selectedReadingContext(window.getSelection()) ||
+        (pointerEvent
+          ? readingWordContextAtPoint(pointerEvent.clientX, pointerEvent.clientY)
+          : null);
+      if (data) openReadingTranslation(data);
+    }, 0);
+  };
+  document.addEventListener('pointerup', (event) => {
+    if (event.target.closest?.('#readingTranslationPopover')) return;
+    if (!event.target.closest?.('.reading-text')) {
+      lastReadingTap = null;
+      closeReadingTranslationPopover();
+      return;
+    }
+    if (event.pointerType === 'mouse') return;
+
+    const now = Date.now();
+    const previous = lastReadingTap;
+    const isDoubleTap =
+      previous &&
+      now - previous.time <= 450 &&
+      Math.hypot(event.clientX - previous.clientX, event.clientY - previous.clientY) <= 28;
+    lastReadingTap = isDoubleTap
+      ? null
+      : { time: now, clientX: event.clientX, clientY: event.clientY };
+    if (isDoubleTap) {
+      lastReadingTouchTranslationAt = now;
+      handleSelection(event);
+    }
+  });
+  document.addEventListener('dblclick', (event) => {
+    if (event.target.closest?.('#readingTranslationPopover')) return;
+    if (!event.target.closest?.('.reading-text')) return;
+    if (Date.now() - lastReadingTouchTranslationAt < 600) return;
+    handleSelection(event);
+  });
+  document.addEventListener('keyup', (event) => {
+    if (event.key === 'Escape') {
+      closeReadingTranslationPopover({ clearSelection: true });
+      return;
+    }
+    if (event.key === 'Enter' && event.target.closest?.('.reading-text')) handleSelection();
+  });
+  window.addEventListener('scroll', () => closeReadingTranslationPopover(), { passive: true });
+  window.addEventListener('resize', () => closeReadingTranslationPopover(), { passive: true });
+}
+
+// A lightweight, Word-compatible .doc export for the active reading. The
+// document is HTML by design: Microsoft Word opens it natively, while it
+// keeps the exported text independent from the print dialog and preserves
+// the learner's selected typeface and alignment.
+function downloadReadingWord(lesson) {
+  if (!lesson) return;
+  const preferences = getReadingDisplayPreferences();
+  const paragraphs = getReadingParagraphs(lesson);
+  const comprehensionQuestions = renderPrintableExerciseList(lesson.exercises);
+  const questionsHeading =
+    learningPathState.language === 'french'
+      ? 'Questions de compréhension'
+      : learningPathState.language === 'spanish'
+        ? 'Preguntas de comprensión'
+        : 'Comprehension Questions';
+  const fontFamily = preferences.font === 'times' ? "'Times New Roman', Times, serif" : 'Arial, sans-serif';
+  const textAlign = preferences.alignment === 'justify' ? 'justify' : 'left';
+  const level = lesson.level || learningPathState.level || '';
+  const wordHtml = `<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>${escapeHtml(lesson.title)}</title>
+<style>
+  @page { margin: 2.2cm; }
+  body { font-family: ${fontFamily}; color: #14213d; font-size: 12pt; line-height: 1.7; }
+  h1 { color: #1d4ed8; font-size: 22pt; line-height: 1.2; margin: 0 0 8pt; }
+  h2 { color: #14213d; font-size: 16pt; line-height: 1.25; margin: 26pt 0 12pt; border-bottom: 1px solid #bfdbfe; padding-bottom: 6pt; }
+  .meta { color: #64748b; font-size: 10pt; margin: 0 0 24pt; }
+  p { margin: 0 0 14pt; text-indent: 1.25em; text-align: ${textAlign}; }
+  .skill-print-question { margin: 0 0 16pt; page-break-inside: avoid; }
+  .skill-print-question p { margin: 0 0 6pt; text-indent: 0; text-align: left; }
+  .skill-print-options { margin: 0; padding: 0; list-style: none; }
+  .skill-print-option { margin: 0 0 4pt; padding-left: 12pt; }
+</style></head><body>
+  <h1>${escapeHtml(lesson.title)}</h1>
+  <p class="meta">ANDERGO Language Academy${level ? ` · ${escapeHtml(level)}` : ''}</p>
+  ${paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+  ${comprehensionQuestions ? `<h2>${questionsHeading}</h2>${comprehensionQuestions}` : ''}
+</body></html>`;
+  const file = new Blob(['\ufeff', wordHtml], { type: 'application/msword;charset=utf-8' });
+  const url = URL.createObjectURL(file);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = `${String(lesson.slug || lesson.title || 'andergo-reading')
+    .replace(/[^a-z0-9_-]+/gi, '-')
+    .replace(/(^-|-$)/g, '') || 'andergo-reading'}.doc`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
 }
 
 // A plain 2-option True/False (or Vrai/Faux, or Verdadero/Falso) mcq is
@@ -6028,7 +6586,14 @@ const readingComprehensionState = new Map();
 function getReadingComprehensionRuntime(slug) {
   let runtime = readingComprehensionState.get(slug);
   if (!runtime) {
-    runtime = { selections: {}, results: {}, graded: false, grading: false, error: '' };
+    runtime = {
+      selections: {},
+      results: {},
+      gradingItems: {},
+      graded: false,
+      grading: false,
+      error: ''
+    };
     readingComprehensionState.set(slug, runtime);
   }
   return runtime;
@@ -6038,6 +6603,7 @@ function resetReadingComprehensionRuntime(slug) {
   readingComprehensionState.set(slug, {
     selections: {},
     results: {},
+    gradingItems: {},
     graded: false,
     grading: false,
     error: ''
@@ -6047,30 +6613,47 @@ function resetReadingComprehensionRuntime(slug) {
 // 90-100/80-89/70-79/60-69/<60 score bands - wording per spec, never
 // "reprobado", for a platform used by kids as young as ~9.
 function readingComprehensionScoreMessage(score) {
-  if (score >= 90) return '¡Excelente comprensión del texto!';
-  if (score >= 80) return '¡Muy buen trabajo!';
-  if (score >= 70) return 'Buen trabajo. Sigue practicando.';
-  if (score >= 60) return 'Vas avanzando. Revisa el texto nuevamente.';
-  return 'Repasa la lectura e inténtalo otra vez.';
+  const french = isFrenchAdvancedImmersion();
+  if (score >= 90) return french ? 'Excellente compréhension du texte !' : '¡Excelente comprensión del texto!';
+  if (score >= 80) return french ? 'Très bon travail !' : '¡Muy buen trabajo!';
+  if (score >= 70) return french ? 'Bon travail. Continuez à vous entraîner.' : 'Buen trabajo. Sigue practicando.';
+  if (score >= 60) return french ? 'Vous progressez. Relisez le texte.' : 'Vas avanzando. Revisa el texto nuevamente.';
+  return french ? 'Relisez le texte et réessayez.' : 'Repasa la lectura e inténtalo otra vez.';
 }
 
 function renderReadingComprehensionResultHtml(runtime, total) {
   const correctCount = Object.values(runtime.results).filter((r) => r.correct).length;
   const incorrectCount = total - correctCount;
   const score = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+  const french = isFrenchAdvancedImmersion();
+  const persistenceHtml = !authStatus.session?.access_token
+    ? `<button type="button" class="primary-btn reading-comp-signup-btn">${french ? 'Inscrivez-vous gratuitement pour enregistrer votre résultat, vos XP et vos succès' : 'Regístrate gratis para guardar tu resultado, XP y logros'}</button>`
+    : runtime.serverResult
+      ? `<p class="reading-comp-result-detail">+${runtime.serverResult.earnedXp || 0} XP ${french ? 'enregistrés' : 'registrados'}</p>`
+      : '';
   return `
     <div class="reading-comp-result">
-      <p class="reading-comp-result-score">Puntuación: ${score}/100</p>
-      <p class="reading-comp-result-detail">${correctCount} de ${total} respuestas correctas</p>
-      <p class="reading-comp-result-detail">${incorrectCount} incorrecta${incorrectCount === 1 ? '' : 's'} · ${score}%</p>
+      <p class="reading-comp-result-score">${french ? 'Score' : 'Puntuación'} : ${score}/100</p>
+      <p class="reading-comp-result-detail">${correctCount} ${french ? 'sur' : 'de'} ${total} ${french ? 'bonnes réponses' : 'respuestas correctas'}</p>
+      <p class="reading-comp-result-detail">${incorrectCount} ${french ? `réponse${incorrectCount === 1 ? '' : 's'} incorrecte${incorrectCount === 1 ? '' : 's'}` : `incorrecta${incorrectCount === 1 ? '' : 's'}`} · ${score}%</p>
       <p class="reading-comp-result-message">${escapeHtml(readingComprehensionScoreMessage(score))}</p>
+      ${persistenceHtml}
     </div>
   `;
 }
 
+function getLocalExerciseCorrectKey(item) {
+  if (item?.answer == null) return null;
+  const answerIndex = Number(item.answer);
+  if (!Number.isInteger(answerIndex)) return null;
+  const option = item.options?.[answerIndex];
+  return option != null ? optionKey(option, answerIndex) : null;
+}
+
 function renderReadingComprehensionQuiz(lesson, entries) {
+  const french = isFrenchAdvancedImmersion();
   if (!entries.length) {
-    return '<p class="skill-graph-empty">No hay preguntas de comprensión para esta lección.</p>';
+    return `<p class="skill-graph-empty">${french ? 'Aucune question de compréhension pour cette leçon.' : 'No hay preguntas de comprensión para esta lección.'}</p>`;
   }
 
   const runtime = getReadingComprehensionRuntime(lesson.slug);
@@ -6079,7 +6662,8 @@ function renderReadingComprehensionQuiz(lesson, entries) {
   const questionsHtml = entries
     .map(({ item, exerciseIndex }, displayIndex) => {
       const selectedKey = runtime.selections[exerciseIndex];
-      const result = runtime.graded ? runtime.results[exerciseIndex] : null;
+      const result = runtime.results[exerciseIndex] || null;
+      const isChecking = Boolean(runtime.gradingItems?.[exerciseIndex]);
 
       const optionsHtml = (item.options || [])
         .map((option, optionIndex) => {
@@ -6094,11 +6678,13 @@ function renderReadingComprehensionQuiz(lesson, entries) {
             if (isSelected) classes.push(result.correct ? 'is-correct' : 'is-incorrect');
             else if (isCorrectOption) classes.push('is-correct-answer');
           }
-          const disabled = runtime.graded || runtime.grading ? 'disabled' : '';
+          const statusIcon = isSelected && result ? (result.correct ? '✓' : '×') : '';
+          const disabled = runtime.graded || runtime.grading || isChecking || result ? 'disabled' : '';
           return `
             <button type="button" class="${classes.join(' ')}" data-option-key="${escapeHtml(String(key))}" ${disabled}>
               <span class="reading-comp-option-letter">${letter}</span>
               <span class="reading-comp-option-text">${escapeHtml(optionLabel(option))}</span>
+              ${statusIcon ? `<span class="reading-comp-option-status" aria-hidden="true">${statusIcon}</span>` : ''}
             </button>
           `;
         })
@@ -6107,14 +6693,15 @@ function renderReadingComprehensionQuiz(lesson, entries) {
       let feedbackHtml = '';
       if (result) {
         feedbackHtml = result.correct
-          ? '<span class="reading-comp-feedback is-correct">✅ Correcto</span>'
-          : `<span class="reading-comp-feedback is-incorrect">❌ Incorrecto${result.correctLabel ? ` · Respuesta correcta: ${escapeHtml(result.correctLabel)}` : ''}</span>`;
+          ? `<span class="reading-comp-feedback is-correct">✅ ${french ? 'Correct' : 'Correcto'}</span>`
+          : `<span class="reading-comp-feedback is-incorrect">❌ ${french ? 'Incorrect' : 'Incorrecto'}${result.correctLabel ? ` · ${french ? 'Bonne réponse' : 'Respuesta correcta'} : ${escapeHtml(result.correctLabel)}` : ''}</span>`;
       }
 
       return `
         <div class="reading-comp-question" data-exercise-index="${exerciseIndex}" data-lesson-slug="${escapeHtml(lesson.slug || '')}">
           <strong class="reading-comp-prompt">${displayIndex + 1}. ${escapeHtml(item.prompt)}</strong>
           <div class="reading-comp-options">${optionsHtml}</div>
+          ${isChecking ? `<span class="reading-comp-feedback">${french ? 'Vérification de la réponse…' : 'Comprobando respuesta…'}</span>` : ''}
           ${feedbackHtml}
         </div>
       `;
@@ -6124,13 +6711,15 @@ function renderReadingComprehensionQuiz(lesson, entries) {
   const answeredCount = entries.filter(
     ({ exerciseIndex }) => runtime.selections[exerciseIndex] != null
   ).length;
-  const allAnswered = answeredCount === total;
+  const allAnswered =
+    answeredCount === total &&
+    entries.every(({ exerciseIndex }) => runtime.results[exerciseIndex] != null);
 
   const actionsHtml = runtime.graded
-    ? `<button type="button" class="primary-btn reading-comp-retry-btn" data-lesson-slug="${escapeHtml(lesson.slug)}">Intentar de nuevo</button>`
+    ? `<button type="button" class="primary-btn reading-comp-retry-btn" data-lesson-slug="${escapeHtml(lesson.slug)}">${french ? 'Réessayer' : 'Intentar de nuevo'}</button>`
     : `
-      <button type="button" class="primary-btn reading-comp-submit-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" ${allAnswered && !runtime.grading ? '' : 'disabled'}>${runtime.grading ? 'Calificando…' : 'Calificar'}</button>
-      ${!allAnswered ? '<p class="reading-comp-hint">Responde todas las preguntas antes de calificar.</p>' : ''}
+      <button type="button" class="primary-btn reading-comp-submit-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" ${allAnswered && !runtime.grading ? '' : 'disabled'}>${runtime.grading ? (french ? 'Évaluation…' : 'Evaluando...') : (french ? 'Évaluer' : 'Evaluar')}</button>
+      ${!allAnswered ? `<p class="reading-comp-hint">${french ? 'Répondez à toutes les questions avant l’évaluation.' : 'Responde todas las preguntas antes de evaluar.'}</p>` : ''}
     `;
 
   const errorHtml = runtime.error ? `<p class="reading-comp-error">${escapeHtml(runtime.error)}</p>` : '';
@@ -6143,6 +6732,94 @@ function renderReadingComprehensionQuiz(lesson, entries) {
       ${errorHtml}
       ${resultHtml}
     </div>
+  `;
+}
+
+const READING_DISPLAY_STORAGE_KEY = 'andergoReadingDisplay';
+
+function getReadingDisplayPreferences() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(READING_DISPLAY_STORAGE_KEY) || '{}');
+    return {
+      size: ['small', 'normal', 'large'].includes(saved.size) ? saved.size : 'normal',
+      font: ['arial', 'times', 'sans', 'serif'].includes(saved.font)
+        ? saved.font === 'sans'
+          ? 'arial'
+          : saved.font === 'serif'
+            ? 'times'
+            : saved.font
+        : 'arial',
+      alignment: ['left', 'justify'].includes(saved.alignment) ? saved.alignment : 'left'
+    };
+  } catch {
+    return { size: 'normal', font: 'arial', alignment: 'left' };
+  }
+}
+
+function updateStartLearningButton() {
+  const button = document.getElementById('pathStartLearningBtn');
+  if (!button) return;
+  const labels = {
+    english: 'Learn',
+    french: 'Apprendre',
+    spanish: 'Aprender'
+  };
+  const label = labels[learningPathState.language] || 'Learn';
+  button.textContent = label;
+  button.setAttribute(
+    'aria-label',
+    `${label}: ${languageDisplayNames[learningPathState.language] || learningPathState.language} ${learningPathState.level}`
+  );
+}
+
+function setReadingDisplayPreferences(preferences) {
+  try {
+    localStorage.setItem(READING_DISPLAY_STORAGE_KEY, JSON.stringify(preferences));
+  } catch {
+    // The controls still work for the current reading when storage is unavailable.
+  }
+}
+
+function applyReadingDisplayPreferences(area, preferences) {
+  if (!area) return;
+  area.dataset.readingSize = preferences.size;
+  area.dataset.readingFont = preferences.font;
+  area.dataset.readingAlignment = preferences.alignment;
+  area.querySelectorAll('.reading-size-btn').forEach((button) => {
+    const isActive = button.dataset.readingSize === preferences.size;
+    button.classList.toggle('is-active', isActive);
+    button.setAttribute('aria-pressed', String(isActive));
+  });
+  const fontSelect = area.querySelector('.reading-font-select');
+  if (fontSelect) {
+    fontSelect.value = preferences.font;
+  }
+  const alignButton = area.querySelector('.reading-align-btn');
+  if (alignButton) {
+    const justified = preferences.alignment === 'justify';
+    alignButton.textContent = justified
+      ? advancedFrenchText('↤ Alinear a la izquierda', '↤ Aligner à gauche')
+      : advancedFrenchText('☰ Justificar', '☰ Justifier');
+    alignButton.setAttribute('aria-pressed', String(justified));
+  }
+}
+
+function renderReadingReferencesHtml(references) {
+  const items = (Array.isArray(references) ? references : [])
+    .filter((reference) => reference && reference.title && /^https:\/\//i.test(String(reference.url || '')))
+    .map((reference) => {
+      const author = reference.author ? `${escapeHtml(reference.author)}. ` : '';
+      const year = reference.year ? ` (${escapeHtml(reference.year)}).` : '';
+      return `<li>${author}<a href="${escapeHtml(reference.url)}" target="_blank" rel="noopener noreferrer"><cite>${escapeHtml(reference.title)}</cite></a>${year}</li>`;
+    })
+    .join('');
+
+  if (!items) return '';
+  return `
+    <section class="reading-references" aria-labelledby="reading-references-title">
+      <h4 id="reading-references-title">References</h4>
+      <ol>${items}</ol>
+    </section>
   `;
 }
 
@@ -6198,47 +6875,74 @@ function renderReadingView(section, lesson) {
   // instead of just a generic prompt string.
   const readingTranscript = paragraphs.join(' ');
   const readingVocabWords = (lesson.vocabulary || []).map((item) => item.word).join(', ');
+  const hasVocabulary = Boolean(vocabHtml);
+  const displayPreferences = getReadingDisplayPreferences();
+  const referencesHtml = renderReadingReferencesHtml(lesson.reading?.references);
+  const french = isFrenchAdvancedImmersion();
 
   content.innerHTML = `
-    <div class="reading-print-area skill-print-area">
+    <div class="reading-print-area skill-print-area" data-reading-size="${displayPreferences.size}" data-reading-font="${displayPreferences.font}" data-reading-alignment="${displayPreferences.alignment}">
       ${renderSkillPrintHeaderHtml(lesson)}
-      <div class="reading-hero">
-        <div class="reading-heading">
-          <p class="reading-level-tag">${durationLabel}${escapeHtml(lesson.level)} · ${escapeHtml(getSkillLabel('reading'))}</p>
-          <h3><span class="reading-sentence" data-segment-index="0">${escapeHtml(lesson.title)}</span></h3>
-          ${hasDedicatedReadingBody && lesson.description ? `<p class="reading-description">${escapeHtml(lesson.description)}</p>` : ''}
-        </div>
-        ${illustrationHtml}
-      </div>
       <div class="reading-progress-bar no-print" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
-      ${audioPlayerHtml}
-      <article class="reading-text">${renderReadingParagraphsHtml(paragraphs)}</article>
-      <div class="reading-vocab-section no-print">
-        <button type="button" class="secondary-btn reading-toggle-vocab">Ver vocabulario</button>
+      <div class="reading-reader-card">
+        ${audioPlayerHtml}
+        <div class="reading-display-controls no-print" aria-label="${french ? 'Réglages de lecture' : 'Ajustes de lectura'}">
+          <span class="reading-display-label">${french ? 'Taille du texte' : 'Tamaño del texto'}</span>
+          <div class="reading-size-controls" role="group" aria-label="${french ? 'Taille du texte' : 'Tamaño del texto'}">
+            <button type="button" class="reading-display-btn reading-size-btn" data-reading-size="small" aria-label="${french ? 'Petit texte' : 'Texto pequeño'}">A−</button>
+            <button type="button" class="reading-display-btn reading-size-btn" data-reading-size="normal" aria-label="${french ? 'Texte normal' : 'Texto normal'}">A</button>
+            <button type="button" class="reading-display-btn reading-size-btn" data-reading-size="large" aria-label="${french ? 'Grand texte' : 'Texto grande'}">A+</button>
+          </div>
+          <label class="reading-font-control">${french ? 'Police' : 'Fuente'}
+            <select class="reading-font-select" aria-label="${french ? 'Police du texte' : 'Tipo de letra del texto'}">
+              <option value="arial">Arial</option>
+              <option value="times">Times New Roman</option>
+            </select>
+          </label>
+          <button type="button" class="reading-display-btn reading-align-btn" aria-pressed="false">☰ Justificar</button>
+        </div>
+        <div class="reading-hero reading-hero--near-text">
+          <div class="reading-heading">
+            <p class="reading-level-tag">${durationLabel}${escapeHtml(lesson.level)} · ${escapeHtml(getSkillLabel('reading'))}</p>
+            <h3><span class="reading-sentence" data-segment-index="0">${escapeHtml(lesson.title)}</span></h3>
+            ${hasDedicatedReadingBody && lesson.description ? `<p class="reading-description">${escapeHtml(lesson.description)}</p>` : ''}
+          </div>
+          ${illustrationHtml}
+        </div>
+        <article class="reading-text">${renderReadingParagraphsHtml(paragraphs)}</article>
+        ${referencesHtml}
+        <p class="reading-selection-hint reading-selection-hint--footer no-print">
+          <span aria-hidden="true">🌐</span>
+          ${french ? 'Double-cliquez sur un mot ou touchez-le deux fois pour le traduire, l’écouter ou interroger le Tutor. Les membres Premium peuvent aussi l’enregistrer dans Vocabulary.' : 'Haz doble clic en una palabra o tócala dos veces para traducirla, escucharla o consultarla con el Tutor. Los usuarios Premium también pueden guardarla en Vocabulary.'}
+        </p>
+      </div>
+      <div class="reading-vocab-section no-print"${hasVocabulary ? '' : ' hidden'}>
+        <div class="reading-vocab-actions">
+          <button type="button" class="secondary-btn reading-toggle-vocab" aria-expanded="false">${french ? 'Voir le vocabulaire' : 'Ver vocabulario'}</button>
+          <button type="button" class="secondary-btn reading-toggle-support" aria-pressed="false">${escapeHtml(french ? "Afficher l’aide" : 'Mostrar ayuda en español')}</button>
+        </div>
         <div class="reading-vocab-list" hidden>${vocabHtml}</div>
       </div>
-      <div class="reading-support-toggle no-print">
-        <button type="button" class="secondary-btn reading-show-support">${escapeHtml(learningPathState.language === 'french' ? "Afficher l'aide en espagnol" : 'Mostrar apoyo en español')}</button>
-        <button type="button" class="secondary-btn reading-hide-support" hidden>${escapeHtml(learningPathState.language === 'french' ? "Masquer l'aide en espagnol" : 'Ocultar apoyo')}</button>
-      </div>
       <div class="reading-questions">
-        <h4>Preguntas de comprensión</h4>
+        <h4>${french ? 'Questions de compréhension' : 'Preguntas de comprensión'}</h4>
         ${exercisesHtml}
       </div>
       <div class="reading-print-answer-space skill-print-answer-space print-only">
-        <h4>Tus respuestas</h4>
+        <h4>${french ? 'Vos réponses' : 'Tus respuestas'}</h4>
         <div class="reading-print-answer-lines"><div></div><div></div><div></div><div></div></div>
       </div>
     </div>
     <div class="skill-view-tutor-cta no-print">
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Explícame este párrafo: ${escapeHtml(paragraphs[0] || lesson.title)}" data-support-mode="explain" data-tutor-transcript="${escapeHtml(readingTranscript)}" data-tutor-vocabulary="${escapeHtml(readingVocabWords)}">Explicar este párrafo</button>
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Resume esta lectura en un par de frases." data-support-mode="explain" data-tutor-transcript="${escapeHtml(readingTranscript)}" data-tutor-vocabulary="${escapeHtml(readingVocabWords)}">Resumir con Tutor IA</button>
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Dame una pista para responder las preguntas de comprensión, sin darme la respuesta." data-support-mode="hint" data-tutor-transcript="${escapeHtml(readingTranscript)}">Pedir pista</button>
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Crea otra pregunta de comprensión sobre este texto." data-support-mode="practice" data-tutor-transcript="${escapeHtml(readingTranscript)}">Crear otra pregunta</button>
-      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(readingTranscript)}" data-return-label="Volver a Reading">Traducir este texto</button>
-      <button type="button" class="primary-btn reading-print-btn">Descargar PDF</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Explique-moi ce paragraphe' : 'Explícame este párrafo'} : ${escapeHtml(paragraphs[0] || lesson.title)}" data-support-mode="explain" data-tutor-transcript="${escapeHtml(readingTranscript)}" data-tutor-vocabulary="${escapeHtml(readingVocabWords)}">${french ? 'Expliquer ce paragraphe' : 'Explicar este párrafo'}</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Résume cette lecture en deux phrases.' : 'Resume esta lectura en un par de frases.'}" data-support-mode="explain" data-tutor-transcript="${escapeHtml(readingTranscript)}" data-tutor-vocabulary="${escapeHtml(readingVocabWords)}">${french ? 'Résumer avec le Tutor IA' : 'Resumir con Tutor IA'}</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Donne-moi un indice sans révéler la réponse.' : 'Dame una pista para responder las preguntas de comprensión, sin darme la respuesta.'}" data-support-mode="hint" data-tutor-transcript="${escapeHtml(readingTranscript)}">${french ? 'Demander un indice' : 'Pedir pista'}</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Crée une nouvelle question de compréhension sur ce texte.' : 'Crea otra pregunta de comprensión sobre este texto.'}" data-support-mode="practice" data-tutor-transcript="${escapeHtml(readingTranscript)}">${french ? 'Créer une autre question' : 'Crear otra pregunta'}</button>
+      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(readingTranscript)}" data-return-label="${french ? 'Retour à Reading' : 'Volver a Reading'}">${french ? 'Traduire ce texte' : 'Traducir este texto'}</button>
+      <button type="button" class="primary-btn reading-print-btn">${french ? 'Télécharger en PDF' : 'Descargar PDF'}</button>
+      <button type="button" class="secondary-btn reading-word-btn">${french ? 'Télécharger en Word' : 'Descargar Word'}</button>
     </div>
   `;
+  applyReadingDisplayPreferences(content.querySelector('.reading-print-area'), displayPreferences);
 
   // Re-registered on every render (cheap, idempotent) so the player's
   // callbacks always point at the DOM this exact render produced, even
@@ -7332,7 +8036,7 @@ function renderPrintableExerciseList(exercises, { showAnswers = false } = {}) {
       const optionsHtml = item.options
         .map((option, optIndex) => {
           const isCorrect = showAnswers && optIndex === Number(item.answer);
-          return `<li class="skill-print-option${isCorrect ? ' is-correct-answer' : ''}">${letters[optIndex] || optIndex + 1}) ${escapeHtml(option)}</li>`;
+          return `<li class="skill-print-option${isCorrect ? ' is-correct-answer' : ''}">${letters[optIndex] || optIndex + 1}) ${escapeHtml(optionLabel(option) || '')}</li>`;
         })
         .join('');
       return `
@@ -7345,14 +8049,14 @@ function renderPrintableExerciseList(exercises, { showAnswers = false } = {}) {
     .join('');
 }
 
-// Shared print header/answer-space markup for Reading/Grammar/Vocabulary
-// PDFs - one function instead of Reading keeping its own drifted inline
-// copy, so title/language/level/unit/date/branding can never go out of
-// sync between skills. `answerKey` renders the teacher/admin variant
+// Shared compact print header for every printable skill document. It keeps
+// the course metadata but omits the redundant "ANDERGO Language Academy"
+// line below the official logo so page-one content starts higher.
+// `answerKey` renders the teacher/admin variant
 // (correct options marked) instead of the student worksheet (blank answer
 // lines) - gated by entitlements.role==='ceo' (this app's only staff/admin
 // role today - see lib/entitlementsService.js) at the call site, never
-// decided here. `lesson` is optional (only used to resolve the unit title).
+// decided here.
 function renderSkillPrintHeaderHtml(lesson) {
   const bridgeLabel = LanguagePair
     ? LanguagePair.languageNameIn(learningPathState.bridgeLanguage, learningPathState.bridgeLanguage)
@@ -7365,8 +8069,13 @@ function renderSkillPrintHeaderHtml(lesson) {
     : null;
   return `
     <div class="print-only reading-print-header skill-print-header">
-      <div class="reading-print-logo skill-print-logo">ANDERGO</div>
-      <p>${escapeHtml(bridgeLabel)} → ${escapeHtml(targetLabel)} · ${escapeHtml(learningPathState.level)}</p>
+      <img class="skill-print-brand-image" src="/andergo-logo.png" alt="ANDERGO - Learn Any Language. Unlock Your World." />
+      <p class="skill-print-language-pair">
+        <span>Idioma puente: <strong>${escapeHtml(bridgeLabel)}</strong></span>
+        <span aria-hidden="true">→</span>
+        <span>Idioma meta: <strong>${escapeHtml(targetLabel)}</strong></span>
+        <span>· Nivel <strong>${escapeHtml(learningPathState.level)}</strong></span>
+      </p>
       ${unit?.title ? `<p class="skill-print-unit">${escapeHtml(unit.title)}</p>` : ''}
       <p class="reading-print-date">${escapeHtml(new Date().toLocaleDateString('es'))}</p>
     </div>
@@ -7377,9 +8086,88 @@ function isStaffEntitled() {
   return authStatus.entitlements?.role === 'ceo';
 }
 
+function renderGrammarConceptCards(lesson) {
+  const note = String(lesson.grammar || lesson.description || '').trim();
+  const phrases = Array.isArray(lesson.phrases) ? lesson.phrases.filter(Boolean) : [];
+  const profile = lesson.extra?.grammarProfile || {};
+  const parsedSections = parseGrammarNoteSections(note);
+  const sectionBody = (...keys) =>
+    parsedSections.find((section) => keys.includes(section.key))?.body || '';
+  const sentences = note
+    .split(/(?<=[.!?])\s+/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+  const french = isFrenchAdvancedImmersion();
+  const cards = [
+    {
+      label: french ? 'Définition' : 'Definition',
+      title: french ? 'Ce qu’est cette structure' : 'What this grammar is',
+      body:
+        profile.definition ||
+        profile.explanation ||
+        sectionBody('rule') ||
+        sentences[0] ||
+        note
+    },
+    {
+      label: 'Structure',
+      title: french ? 'Comment elle se construit' : 'How it is formed',
+      body:
+        profile.structure ||
+        sectionBody('pattern', 'affirmative', 'negative', 'questions') ||
+        (phrases[0]
+          ? `${french ? 'Schéma central' : 'Core pattern'} : ${phrases[0]}`
+          : french
+            ? `Étudiez la forme et la place de ${profile.name || lesson.title}.`
+            : `Study the form and sentence position of ${profile.name || lesson.title}.`)
+    },
+    {
+      label: french ? 'Fonction en français' : 'Function in English',
+      title: french ? 'Ce qu’elle permet d’exprimer' : 'What it communicates',
+      body:
+        profile.function ||
+        profile.purpose ||
+        sectionBody('goal', 'use') ||
+        lesson.description ||
+        (french
+          ? 'Utilisez-la pour exprimer des idées complexes avec clarté et précision.'
+          : 'Use it to communicate the main ideas clearly and accurately.')
+    },
+    {
+      label: french ? 'Exemples pratiques' : 'Practical examples',
+      title: french ? 'Exemples tirés de la leçon' : 'Examples from the lesson',
+      body:
+        (profile.examples || []).filter(Boolean).join(' · ') ||
+        sectionBody('examples', 'affirmative', 'negative', 'questions') ||
+        (phrases.length
+          ? phrases.join(' · ')
+          : french
+            ? 'Créez votre propre phrase avec cette structure.'
+            : 'Create your own sentence with this structure.')
+    }
+  ];
+
+  return `
+    <div class="grammar-card-grid">
+      ${cards
+        .map(
+          (card) => `
+        <article class="grammar-concept-card">
+          <span>${escapeHtml(card.label)}</span>
+          <h4>${escapeHtml(card.title)}</h4>
+          <p>${escapeHtml(card.body)}</p>
+        </article>
+      `
+        )
+        .join('')}
+    </div>
+  `;
+}
+
 function renderGrammarView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
+  const french = isFrenchAdvancedImmersion();
   // Scored Grammar test pilot (course_lessons.extra.grammarTest, see
   // lib/grammarTestSanitizer.js) - only a couple of lessons have this so
   // far; every other Grammar lesson falls through to the flat
@@ -7400,41 +8188,38 @@ function renderGrammarView(section, lesson) {
     <div class="skill-print-area">
       ${renderSkillPrintHeaderHtml(lesson)}
       <h3>${escapeHtml(lesson.title)}</h3>
-      <div class="grammar-explanation">
-        <strong>Estructura</strong>
-        <p>${escapeHtml(lesson.grammar || lesson.description || '')}</p>
-      </div>
+      ${renderGrammarConceptCards(lesson)}
       ${
         example
           ? `
         <div class="grammar-example no-print">
-          <div class="grammar-example-target"><span>Target</span><strong>${escapeHtml(example.line || example.word || '')}</strong></div>
-          <div class="grammar-example-bridge"><span>Bridge</span><strong>${escapeHtml(resolveVocabTranslation(example))}</strong></div>
+          <div class="grammar-example-target"><span>${french ? 'Exemple' : 'Target'}</span><strong>${escapeHtml(example.line || example.word || '')}</strong></div>
+          <div class="grammar-example-bridge"><span>${french ? 'Explication' : 'Bridge'}</span><strong>${escapeHtml(resolveVocabTranslation(example))}</strong></div>
         </div>
       `
           : ''
       }
       <div class="grammar-exercise no-print">
-        <h4>Mini ejercicio</h4>
-        ${exercisesHtml || '<p class="skill-graph-empty">No hay ejercicios de gramática para esta lección.</p>'}
+        <h4>${french ? 'Mini-exercice' : 'Mini ejercicio'}</h4>
+        ${exercisesHtml || `<p class="skill-graph-empty">${french ? 'Aucun exercice de grammaire pour cette leçon.' : 'No hay ejercicios de gramática para esta lección.'}</p>`}
       </div>
       <div class="print-only">
-        <h4>${staff ? 'Clave de respuestas' : 'Actividad para completar'}</h4>
-        ${printExercisesHtml || '<p>No hay ejercicios para esta lección.</p>'}
+        <h4>${staff ? (french ? 'Corrigé' : 'Clave de respuestas') : (french ? 'Activité à compléter' : 'Actividad para completar')}</h4>
+        ${printExercisesHtml || `<p>${french ? 'Aucun exercice pour cette leçon.' : 'No hay ejercicios para esta lección.'}</p>`}
         ${
           staff
             ? ''
             : `<div class="reading-print-answer-space skill-print-answer-space print-only">
-                <h4>Tus respuestas</h4>
+                <h4>${french ? 'Vos réponses' : 'Tus respuestas'}</h4>
                 <div class="reading-print-answer-lines"><div></div><div></div><div></div><div></div></div>
               </div>`
         }
       </div>
     </div>
     <div class="skill-view-tutor-cta no-print">
-      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Explícame por qué se usa esta estructura: ${escapeHtml(lesson.grammar || '')}" data-support-mode="explain" data-tutor-transcript="${escapeHtml(lesson.grammar || '')}">Explícame esta estructura</button>
-      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(lesson.grammar || '')}" data-return-label="Volver a Grammar">Traducir explicación</button>
-      <button type="button" class="secondary-btn skill-print-btn">${staff ? 'Descargar clave de respuestas' : 'Descargar actividad en PDF'}</button>
+      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Explique-moi pourquoi cette structure est utilisée' : 'Explícame por qué se usa esta estructura'} : ${escapeHtml(lesson.grammar || '')}" data-support-mode="explain" data-tutor-transcript="${escapeHtml(lesson.grammar || '')}">${french ? 'Expliquer cette structure' : 'Explícame esta estructura'}</button>
+      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(lesson.grammar || '')}" data-return-label="${french ? 'Retour à Grammar' : 'Volver a Grammar'}">${french ? 'Traduire l’explication' : 'Traducir explicación'}</button>
+      <button type="button" class="secondary-btn skill-print-btn">${staff ? (french ? 'Télécharger le corrigé' : 'Descargar clave de respuestas') : (french ? 'Télécharger l’activité en PDF' : 'Descargar actividad en PDF')}</button>
     </div>
   `;
 }
@@ -7460,11 +8245,12 @@ function getGrammarTestRuntime(lesson) {
 // 90-100/80-89/70-79/60-69/<60 per the spec - "Necesitas practicar", never
 // "reprobado", for a platform used by kids as young as ~9.
 function gradeBandForScore(score) {
-  if (score >= 90) return { label: 'Excelente', emoji: '🌟' };
-  if (score >= 80) return { label: 'Muy bien', emoji: '👍' };
-  if (score >= 70) return { label: 'Bien', emoji: '🙂' };
-  if (score >= 60) return { label: 'En progreso', emoji: '💪' };
-  return { label: 'Necesitas practicar', emoji: '📚' };
+  const french = isFrenchAdvancedImmersion();
+  if (score >= 90) return { label: french ? 'Excellent' : 'Excellent', emoji: '🌟' };
+  if (score >= 80) return { label: french ? 'Très bien' : 'Very good', emoji: '👍' };
+  if (score >= 70) return { label: french ? 'Bien' : 'Good', emoji: '🙂' };
+  if (score >= 60) return { label: french ? 'En progression' : 'In progress', emoji: '💪' };
+  return { label: french ? 'Continuez à vous entraîner' : 'Keep practising', emoji: '📚' };
 }
 
 function isGrammarTestQuestionAnswered(runtime, question) {
@@ -7483,18 +8269,19 @@ function isGrammarTestQuestionAnswered(runtime, question) {
 // text back into labeled sections for display instead of one long
 // undifferentiated paragraph; it doesn't invent or reformat any content.
 const GRAMMAR_NOTE_SECTION_TITLES = [
-  { match: /^goal/i, title: 'Objetivo' },
-  { match: /^rule/i, title: 'Explicación' },
-  { match: /^pattern/i, title: 'Patrón' },
-  { match: /^examples/i, title: 'Ejemplos' },
-  { match: /^affirmative/i, title: 'Forma afirmativa' },
-  { match: /^negative/i, title: 'Forma negativa' },
-  { match: /^questions/i, title: 'Forma interrogativa' },
-  { match: /^contractions/i, title: 'Contracciones' },
-  { match: /^common mistakes/i, title: 'Errores frecuentes' },
-  { match: /^compare/i, title: 'Comparación' },
-  { match: /^mini practice/i, title: 'Práctica guiada' },
-  { match: /^summary/i, title: 'Resumen' }
+  { key: 'goal', match: /^goal/i, title: 'What it is used for' },
+  { key: 'use', match: /^use/i, title: 'What it is used for' },
+  { key: 'rule', match: /^rule/i, title: 'Brief explanation' },
+  { key: 'pattern', match: /^pattern/i, title: 'Pattern' },
+  { key: 'examples', match: /^examples/i, title: 'Practical examples' },
+  { key: 'affirmative', match: /^affirmative/i, title: 'Affirmative form' },
+  { key: 'negative', match: /^negative/i, title: 'Negative form' },
+  { key: 'questions', match: /^questions/i, title: 'Question form' },
+  { key: 'contractions', match: /^contractions/i, title: 'Contractions' },
+  { key: 'common-mistakes', match: /^common mistakes/i, title: 'Common mistakes' },
+  { key: 'compare', match: /^compare/i, title: 'Comparison' },
+  { key: 'mini-practice', match: /^mini practice/i, title: 'Guided practice' },
+  { key: 'summary', match: /^summary/i, title: 'Summary' }
 ];
 
 function parseGrammarNoteSections(grammarNote) {
@@ -7507,7 +8294,7 @@ function parseGrammarNoteSections(grammarNote) {
       const label = colonIdx > -1 ? para.slice(0, colonIdx).trim() : '';
       const body = (colonIdx > -1 ? para.slice(colonIdx + 1).trim() : para) || '';
       const known = GRAMMAR_NOTE_SECTION_TITLES.find((entry) => entry.match.test(label));
-      return { title: known ? known.title : label || 'Nota', body };
+      return { key: known?.key || 'note', title: known ? known.title : label || 'Note', body };
     })
     .filter((section) => section.body);
 }
@@ -7526,8 +8313,8 @@ function renderGrammarLessonContentHtml(lesson) {
     .join('');
   return `
     <details class="grammar-lesson-content" open>
-      <summary>📘 Lección completa</summary>
-      ${sectionsHtml}
+      <summary>📘 ${advancedFrenchText('Complete grammar lesson', 'Leçon de grammaire complète')}</summary>
+      <div class="grammar-lesson-sections-grid">${sectionsHtml}</div>
     </details>
   `;
 }
@@ -7550,17 +8337,19 @@ function renderGrammarTestView(content, lesson) {
 
 function renderGrammarTestInstructionsHtml(lesson, test) {
   const total = test.questions.length;
+  const french = isFrenchAdvancedImmersion();
   return `
     <div class="grammar-test-card card-enter">
       <h3>${escapeHtml(lesson.title)}</h3>
-      <p class="grammar-test-instructions-text">${escapeHtml(lesson.description || 'Responde el test para poner a prueba lo que aprendiste en esta lección.')}</p>
+      ${renderGrammarConceptCards(lesson)}
+      <p class="grammar-test-instructions-text">${escapeHtml(lesson.description || (french ? 'Faites le test pour appliquer la grammaire de cette unité.' : 'Take the test to apply the grammar from this story.'))}</p>
       ${renderGrammarLessonContentHtml(lesson)}
       <ul class="grammar-test-meta-list">
-        <li>📝 ${total} preguntas</li>
-        <li>🎯 Aprobación recomendada: ${test.passingScore || 70}/100</li>
-        ${lesson.bestScore != null ? `<li>🏆 Mejor puntuación: ${lesson.bestScore}/100</li>` : ''}
+        <li>📝 ${total} ${french ? 'questions à choix multiple' : 'multiple-choice questions'}</li>
+        <li>🎯 ${french ? 'Score de réussite recommandé' : 'Recommended passing score'} : ${test.passingScore || 70}/100</li>
+        ${lesson.bestScore != null ? `<li>🏆 ${french ? 'Meilleur score' : 'Best score'} : ${lesson.bestScore}/100</li>` : ''}
       </ul>
-      <button type="button" class="primary-btn hover-lift btn-press grammar-test-start-btn">Comenzar prueba</button>
+      <button type="button" class="primary-btn hover-lift btn-press grammar-test-start-btn">${french ? 'Commencer le test' : 'Start practice test'}</button>
       <div class="grammar-test-history"></div>
     </div>
   `;
@@ -7568,22 +8357,34 @@ function renderGrammarTestInstructionsHtml(lesson, test) {
 
 function renderGrammarTestQuestionHtml(lesson, test, runtime) {
   const total = test.questions.length;
-  const index = Math.min(runtime.currentIndex, total - 1);
-  const question = test.questions[index];
-  const pct = Math.round(((index + 1) / total) * 100);
-  const isLast = index === total - 1;
+  const answered = test.questions.filter((question) =>
+    isGrammarTestQuestionAnswered(runtime, question)
+  ).length;
+  const pct = Math.round((answered / total) * 100);
+  const french = isFrenchAdvancedImmersion();
+  const questionsHtml = test.questions
+    .map(
+      (question, index) => `
+        <article class="grammar-test-question-item" data-question-id="${escapeHtml(question.id)}">
+          <p class="grammar-test-question-prompt"><span>${index + 1}.</span> ${escapeHtml(question.prompt)}</p>
+          ${renderGrammarTestQuestionBodyHtml(question, runtime)}
+        </article>
+      `
+    )
+    .join('');
 
   return `
     <div class="grammar-test-card card-enter">
+      <h3>${escapeHtml(lesson.title)} — ${french ? 'Test pratique' : 'Practice test'}</h3>
       <div class="grammar-test-progress-row">
-        <span class="grammar-test-counter">Pregunta ${index + 1} de ${total}</span>
+        <span class="grammar-test-counter">${answered} ${french ? 'sur' : 'of'} ${total} ${french ? 'réponses' : 'answered'}</span>
         <div class="grammar-test-progress-bar"><div class="progress-fill-animated" style="width:${pct}%"></div></div>
       </div>
-      <p class="grammar-test-question-prompt">${escapeHtml(question.prompt)}</p>
-      ${renderGrammarTestQuestionBodyHtml(question, runtime)}
-      <div class="grammar-test-nav-row">
-        <button type="button" class="secondary-btn hover-lift btn-press grammar-test-prev-btn" ${index === 0 ? 'disabled' : ''}>Anterior</button>
-        <button type="button" class="primary-btn hover-lift btn-press grammar-test-next-btn">${isLast ? 'Revisar' : 'Siguiente'}</button>
+      <div class="grammar-test-question-list">${questionsHtml}</div>
+      <p class="grammar-test-review-warning" ${answered === total ? 'hidden' : ''}>${french ? 'Répondez à toutes les questions avant de soumettre le test.' : 'Answer every question before submitting the test.'}</p>
+      <div class="grammar-test-submit-bar">
+        <span>${french ? 'Score final' : 'Final score'} : 0–100</span>
+        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" ${answered === total ? '' : 'disabled'}>${french ? 'Soumettre toutes les réponses' : 'Submit all answers'}</button>
       </div>
     </div>
   `;
@@ -7690,6 +8491,7 @@ function collectGrammarTestAnswer(content, test, runtime) {
 }
 
 function renderGrammarTestReviewHtml(lesson, test, runtime) {
+  const french = isFrenchAdvancedImmersion();
   const itemsHtml = test.questions
     .map((question, index) => {
       const answered = isGrammarTestQuestionAnswered(runtime, question);
@@ -7697,7 +8499,7 @@ function renderGrammarTestReviewHtml(lesson, test, runtime) {
         <li class="grammar-test-review-item${answered ? ' is-answered' : ' is-unanswered'}">
           <span class="grammar-test-review-status" aria-hidden="true">${answered ? '✅' : '⚠️'}</span>
           <span class="grammar-test-review-prompt">${index + 1}. ${escapeHtml(question.prompt)}</span>
-          <button type="button" class="secondary-btn grammar-test-review-edit-btn" data-question-index="${index}">${answered ? 'Editar' : 'Responder'}</button>
+          <button type="button" class="secondary-btn grammar-test-review-edit-btn" data-question-index="${index}">${answered ? (french ? 'Modifier' : 'Editar') : (french ? 'Répondre' : 'Responder')}</button>
         </li>
       `;
     })
@@ -7706,13 +8508,13 @@ function renderGrammarTestReviewHtml(lesson, test, runtime) {
 
   return `
     <div class="grammar-test-card card-enter">
-      <h3>Revisa tus respuestas</h3>
-      <p class="grammar-test-instructions-text">Puedes editar cualquier pregunta antes de enviar la prueba.</p>
+      <h3>${french ? 'Vérifiez vos réponses' : 'Review your answers'}</h3>
+      <p class="grammar-test-instructions-text">${french ? 'Vous pouvez modifier chaque réponse avant de soumettre le test.' : 'You can edit any answer before submitting the test.'}</p>
       <ul class="grammar-test-review-list">${itemsHtml}</ul>
-      ${!allAnswered ? '<p class="grammar-test-review-warning">Responde todas las preguntas para poder enviar la prueba.</p>' : ''}
+      ${!allAnswered ? `<p class="grammar-test-review-warning">${french ? 'Répondez à toutes les questions avant de soumettre le test.' : 'Answer every question before submitting the test.'}</p>` : ''}
       <div class="grammar-test-nav-row">
-        <button type="button" class="secondary-btn hover-lift btn-press grammar-test-review-edit-btn" data-question-index="${test.questions.length - 1}">Volver a la última pregunta</button>
-        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" ${!allAnswered ? 'disabled' : ''}>Enviar prueba</button>
+        <button type="button" class="secondary-btn hover-lift btn-press grammar-test-review-edit-btn" data-question-index="${test.questions.length - 1}">${french ? 'Revenir à la dernière question' : 'Return to last question'}</button>
+        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" ${!allAnswered ? 'disabled' : ''}>${french ? 'Soumettre le test' : 'Submit test'}</button>
       </div>
     </div>
   `;
@@ -7746,6 +8548,7 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
   }
 
   const band = gradeBandForScore(result.score);
+  const french = isFrenchAdvancedImmersion();
   const resultsByQuestionId = new Map((result.results || []).map((r) => [String(r.questionId), r]));
   const correctCount = (result.results || []).filter((r) => r.correct).length;
 
@@ -7763,10 +8566,10 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
           <span class="grammar-test-breakdown-icon" aria-hidden="true">${correct ? '✅' : '❌'}</span>
           <div>
             <p class="grammar-test-breakdown-prompt">
-              <span class="grammar-test-breakdown-status-text">${correct ? 'Correcta' : 'Incorrecta'}:</span>
+              <span class="grammar-test-breakdown-status-text">${correct ? (french ? 'Correcte' : 'Correct') : (french ? 'Incorrecte' : 'Incorrect')}:</span>
               ${index + 1}. ${escapeHtml(question.prompt)}
             </p>
-            ${correctAnswerText ? `<p class="grammar-test-breakdown-correct-answer">Respuesta correcta: <strong>${escapeHtml(correctAnswerText)}</strong></p>` : ''}
+            ${correctAnswerText ? `<p class="grammar-test-breakdown-correct-answer">${french ? 'Bonne réponse' : 'Correct answer'} : <strong>${escapeHtml(correctAnswerText)}</strong></p>` : ''}
             ${r?.explanation ? `<p class="grammar-test-breakdown-explanation">${escapeHtml(r.explanation)}</p>` : ''}
           </div>
         </li>
@@ -7775,18 +8578,23 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
     .join('');
 
   return `
-    <div class="grammar-test-card card-enter">
+    <div class="grammar-test-card card-enter skill-print-area">
+      <div class="print-only">${renderSkillPrintHeaderHtml(lesson)}</div>
+      <h3 class="print-only">${escapeHtml(lesson.title)} — ${french ? 'Résultat du test de grammaire' : 'Grammar test result'}</h3>
       <div class="grammar-test-score-band">
         <span class="grammar-test-score-emoji" aria-hidden="true">${band.emoji}</span>
         <strong class="grammar-test-score-number">${result.score}/100</strong>
         <span class="grammar-test-score-label">${band.label}</span>
       </div>
-      <p class="grammar-test-score-detail">Respuestas correctas: ${correctCount} de ${test.questions.length}</p>
+      <p class="grammar-test-score-detail">${french ? 'Bonnes réponses' : 'Correct answers'} : ${correctCount} ${french ? 'sur' : 'of'} ${test.questions.length}</p>
       <p class="grammar-test-score-detail">
-        ${result.bestScore != null ? `Mejor puntuación: ${result.bestScore}/100 · ` : ''}Intento n.º ${result.attemptNumber ?? ''} · ${new Date().toLocaleDateString('es-DO')}
+        ${result.bestScore != null ? `${french ? 'Meilleur score' : 'Best score'} : ${result.bestScore}/100 · ` : ''}${french ? 'Tentative' : 'Attempt'} ${result.attemptNumber ?? ''} · ${new Date().toLocaleDateString(french ? 'fr-FR' : 'en-US')}
       </p>
       <ul class="grammar-test-breakdown-list">${breakdownHtml}</ul>
-      <button type="button" class="primary-btn hover-lift btn-press grammar-test-retry-btn">Intentar de nuevo</button>
+      <div class="grammar-test-result-actions no-print">
+        <button type="button" class="primary-btn hover-lift btn-press grammar-test-retry-btn">${french ? 'Réessayer' : 'Try again'}</button>
+        <button type="button" class="secondary-btn skill-print-btn">${french ? 'Télécharger le résultat en PDF' : 'Download result as PDF'}</button>
+      </div>
       <div class="grammar-test-history"></div>
     </div>
   `;
@@ -7876,6 +8684,7 @@ function renderListeningComprehensionLegacyHtml(lesson) {
 
 function renderListeningComprehensionInstructionsHtml(lesson, bank) {
   const total = bank.questions.length;
+  const startLabel = listeningUiText('Comenzar', 'Commencer');
   return `
     <div class="grammar-test-card card-enter">
       <p class="grammar-test-instructions-text">Responde estas preguntas para comprobar cuánto entendiste del audio.</p>
@@ -7884,7 +8693,7 @@ function renderListeningComprehensionInstructionsHtml(lesson, bank) {
         <li>🎯 Aprobación recomendada: ${bank.passingScore || 70}/100</li>
         ${lesson.listeningComprehensionBestScore != null ? `<li>🏆 Mejor puntuación: ${lesson.listeningComprehensionBestScore}/100</li>` : ''}
       </ul>
-      <button type="button" class="primary-btn hover-lift btn-press listening-comp-start-btn">Comenzar</button>
+      <button type="button" class="primary-btn hover-lift btn-press listening-comp-start-btn">${startLabel}</button>
     </div>
   `;
 }
@@ -7898,14 +8707,14 @@ function renderListeningComprehensionQuestionHtml(lesson, bank, runtime) {
   return `
     <div class="grammar-test-card card-enter">
       <div class="grammar-test-progress-row">
-        <span class="grammar-test-counter">Pregunta ${index + 1} de ${total}</span>
+        <span class="grammar-test-counter">${listeningUiText('Pregunta', 'Question')} ${index + 1} ${listeningUiText('de', 'sur')} ${total}</span>
         <div class="grammar-test-progress-bar"><div class="progress-fill-animated" style="width:${pct}%"></div></div>
       </div>
       <p class="grammar-test-question-prompt">${escapeHtml(question.prompt)}</p>
       ${renderGrammarTestQuestionBodyHtml(question, runtime)}
       <div class="grammar-test-nav-row">
-        <button type="button" class="secondary-btn hover-lift btn-press listening-comp-prev-btn" ${index === 0 ? 'disabled' : ''}>Anterior</button>
-        <button type="button" class="primary-btn hover-lift btn-press listening-comp-next-btn">${isLast ? 'Revisar' : 'Siguiente'}</button>
+        <button type="button" class="secondary-btn hover-lift btn-press listening-comp-prev-btn" ${index === 0 ? 'disabled' : ''}>${listeningUiText('Anterior', 'Précédent')}</button>
+        <button type="button" class="primary-btn hover-lift btn-press listening-comp-next-btn">${isLast ? listeningUiText('Revisar', 'Vérifier') : listeningUiText('Siguiente', 'Suivant')}</button>
       </div>
     </div>
   `;
@@ -7927,12 +8736,12 @@ function renderListeningComprehensionReviewHtml(lesson, bank, runtime) {
   const allAnswered = bank.questions.every((question) => isGrammarTestQuestionAnswered(runtime, question));
   return `
     <div class="grammar-test-card card-enter">
-      <h4>Revisa tus respuestas</h4>
+      <h4>${listeningUiText('Revisa tus respuestas', 'Vérifiez vos réponses')}</h4>
       <ul class="grammar-test-review-list">${itemsHtml}</ul>
       ${!allAnswered ? '<p class="grammar-test-review-warning">Responde todas las preguntas para poder enviar.</p>' : ''}
       <div class="grammar-test-nav-row">
         <button type="button" class="secondary-btn hover-lift btn-press listening-comp-review-edit-btn" data-question-index="${bank.questions.length - 1}">Volver a la última pregunta</button>
-        <button type="button" class="primary-btn hover-lift btn-press listening-comp-submit-btn" ${!allAnswered ? 'disabled' : ''}>Enviar</button>
+        <button type="button" class="primary-btn hover-lift btn-press listening-comp-submit-btn" ${!allAnswered ? 'disabled' : ''}>${listeningUiText('Enviar', 'Envoyer')}</button>
       </div>
     </div>
   `;
@@ -7974,7 +8783,7 @@ function renderListeningComprehensionResultsHtml(lesson, bank, runtime) {
         ${result.bestScore != null ? `Mejor puntuación: ${result.bestScore}/100 · ` : ''}Intento n.º ${result.attemptNumber ?? ''} · ${new Date().toLocaleDateString('es-DO')}
       </p>
       <ul class="grammar-test-breakdown-list">${breakdownHtml}</ul>
-      <button type="button" class="primary-btn hover-lift btn-press listening-comp-retry-btn">Intentar de nuevo</button>
+      <button type="button" class="primary-btn hover-lift btn-press listening-comp-retry-btn">${listeningUiText('Intentar de nuevo', 'Réessayer')}</button>
     </div>
   `;
 }
@@ -8043,14 +8852,28 @@ function normalizeVocabularyItem(item, { language, level, bridgeLanguage, index 
     category: item.category || item.partOfSpeech || '',
     masteryStatus: getStoredVocabMastery(id) || item.masteryStatus || 'new',
     difficulty: item.difficulty || level || learningPathState.level || '',
+    level: level || learningPathState.level || '',
     language: targetLanguage,
     bridgeLanguage: resolvedBridge,
     targetLanguage,
     pronunciationLocale: item.pronunciationLocale || getPronunciationLocale(targetLanguage),
     pronunciationRate: item.pronunciationRate ?? getDefaultPronunciationRate(targetLanguage, level),
     learningMode,
-    definition: support?.definition || '',
-    simpleDefinition: support?.simpleDefinition || '',
+    isAdvancedDirect:
+      learningMode === 'direct' && ['C1', 'C2'].includes(level || learningPathState.level || ''),
+    l1Translation:
+      learningMode === 'direct' &&
+      item.translation &&
+      item.translation !== item.definition &&
+      item.translation !== item.simpleDefinition
+        ? resolveVocabTranslation(item, 'spanish')
+        : '',
+    definition:
+      support?.definition ||
+      (learningMode === 'direct' ? item.simpleDefinition || item.definition || '' : ''),
+    simpleDefinition:
+      support?.simpleDefinition ||
+      (learningMode === 'direct' ? item.simpleDefinition || item.definition || '' : ''),
     synonyms: support?.synonyms || [],
     opposites: support?.opposites || [],
     usageNote: support?.usageNote || '',
@@ -8080,6 +8903,73 @@ function normalizeVocabContexts(item) {
       targetText: ctx.targetText || ctx.text || '',
       supportText: ctx.supportText || ctx.translation || ''
     }));
+}
+
+const VOCABULARY_L2_UI = {
+  english: {
+    useful: 'Useful expressions',
+    show: 'Show',
+    hide: 'Hide',
+    multipleUses: 'More uses and nuances',
+    questions: 'Vocabulary comprehension questions',
+    translation: 'Meaning / translation',
+    translationUnavailable: 'Meaning unavailable.'
+  },
+  french: {
+    useful: 'Des expressions utiles',
+    show: 'Afficher',
+    hide: 'Masquer',
+    multipleUses: 'Autres emplois et nuances',
+    questions: 'Questions de compréhension du vocabulaire',
+    translation: 'Sens / traduction',
+    translationUnavailable: 'Sens indisponible.'
+  },
+  spanish: {
+    useful: 'Expresiones útiles',
+    show: 'Mostrar',
+    hide: 'Ocultar',
+    multipleUses: 'Otros usos y matices',
+    questions: 'Preguntas de comprensión de vocabulario',
+    translation: 'Significado / traducción',
+    translationUnavailable: 'Significado no disponible.'
+  },
+  italian: {
+    useful: 'Espressioni utili',
+    show: 'Mostra',
+    hide: 'Nascondi',
+    multipleUses: 'Altri usi e sfumature',
+    questions: 'Domande di comprensione del vocabolario',
+    translation: 'Significato / traduzione',
+    translationUnavailable: 'Significato non disponibile.'
+  },
+  german: {
+    useful: 'Nützliche Ausdrücke',
+    show: 'Anzeigen',
+    hide: 'Ausblenden',
+    multipleUses: 'Weitere Verwendungen und Nuancen',
+    questions: 'Fragen zum Wortschatzverständnis',
+    translation: 'Bedeutung / Übersetzung',
+    translationUnavailable: 'Bedeutung nicht verfügbar.'
+  }
+};
+
+function getVocabularyL2Ui(language = learningPathState.language) {
+  return VOCABULARY_L2_UI[language] || VOCABULARY_L2_UI.english;
+}
+
+function renderVocabularyContextHtml(ctx, item, canSpeak, isFrench) {
+  return `
+    <div class="vocab-card-context">
+      <p class="vocab-card-context-target">
+        <span>${escapeHtml(ctx.targetText)}</span>
+        ${
+          canSpeak
+            ? `<button type="button" class="vocab-example-audio-btn" tabindex="-1" data-speak-text="${escapeHtml(ctx.targetText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${isFrench ? 'Écouter la phrase' : 'Escuchar frase'}" title="${isFrench ? 'Écouter la phrase' : 'Escuchar frase'}">🔊</button>`
+            : ''
+        }
+      </p>
+      ${ctx.supportText ? `<p class="vocab-card-context-support">${escapeHtml(ctx.supportText)}</p>` : ''}
+    </div>`;
 }
 
 function slugifyVocabWord(word = '') {
@@ -8135,33 +9025,65 @@ function vocabCardAriaLabel(word, flipped, isFrench) {
   return isFrench ? `Voir le sens de ${word}` : `Ver significado de ${word}`;
 }
 
-function renderVocabCardHtml(item, { canSpeak, isFrench }) {
+function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = false }) {
   const meta = VOCAB_MASTERY_META[item.masteryStatus] || VOCAB_MASTERY_META.new;
+  const frenchStatusLabels = {
+    new: 'Nouvelle',
+    learning: 'En apprentissage',
+    practicing: 'À pratiquer',
+    mastered: 'Maîtrisée'
+  };
   const speakAriaLabel = isFrench
     ? `Écouter la prononciation de ${item.targetWord}`
     : `Escuchar pronunciación de ${item.targetWord}`;
   const statusChipHtml = `
     <span class="vocab-card-status" aria-live="polite">
       <span class="vocab-status-dot" aria-hidden="true">${meta.glyph}</span>
-      <span class="vocab-status-label">${meta.label}</span>
+      <span class="vocab-status-label">${isFrench ? frenchStatusLabels[item.masteryStatus] || 'Nouvelle' : meta.label}</span>
     </span>`;
-  const contextsHtml = item.contexts.length
-    ? `<div class="vocab-card-contexts">${item.contexts
-        .map(
-          (ctx) => `
-        <div class="vocab-card-context">
-          <p class="vocab-card-context-target">
-            <span>${escapeHtml(ctx.targetText)}</span>
-            ${
-              canSpeak
-                ? `<button type="button" class="vocab-example-audio-btn" tabindex="-1" data-speak-text="${escapeHtml(ctx.targetText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${isFrench ? 'Écouter la phrase' : 'Escuchar frase'}" title="${isFrench ? 'Écouter la phrase' : 'Escuchar frase'}">🔊</button>`
-                : ''
-            }
-          </p>
-          ${ctx.supportText ? `<p class="vocab-card-context-support">${escapeHtml(ctx.supportText)}</p>` : ''}
-        </div>`
-        )
-        .join('')}</div>`
+  const l2Ui = getVocabularyL2Ui(item.targetLanguage);
+  const cardUi = {
+    english: {
+      front: 'Word',
+      back: item.learningMode === 'direct' ? 'Meaning in context' : 'Meaning',
+      hint: 'Tap to reveal',
+      mode: 'Direct method'
+    },
+    french: {
+      front: 'Mot',
+      back: item.learningMode === 'direct' ? 'Sens en contexte' : 'Sens',
+      hint: 'Touchez pour découvrir',
+      mode: 'Méthode directe'
+    },
+    spanish: {
+      front: 'Palabra',
+      back: item.learningMode === 'direct' ? 'Significado en contexto' : 'Significado',
+      hint: 'Toca para descubrir',
+      mode: 'Método directo'
+    }
+  }[item.targetLanguage] || {
+    front: 'Word',
+    back: 'Meaning',
+    hint: 'Tap to reveal',
+    mode: 'Direct method'
+  };
+  const firstContext = item.contexts[0];
+  const additionalContexts = item.contexts.slice(1);
+  const contextsHtml = firstContext
+    ? `<div class="vocab-card-contexts">
+        ${renderVocabularyContextHtml(firstContext, item, canSpeak, isFrench)}
+        ${
+          additionalContexts.length || item.usageNote
+            ? `<details class="vocab-card-context-info">
+                <summary aria-label="${escapeHtml(l2Ui.multipleUses)}">ⓘ ${escapeHtml(l2Ui.multipleUses)}</summary>
+                <div class="vocab-card-context-info-body">
+                  ${additionalContexts.map((ctx) => renderVocabularyContextHtml(ctx, item, canSpeak, isFrench)).join('')}
+                  ${item.usageNote ? `<p class="vocab-card-usage-note">${escapeHtml(item.usageNote)}</p>` : ''}
+                </div>
+              </details>`
+            : ''
+        }
+      </div>`
     : '';
 
   // Direct/immersion mode (spec §5/§9): definition + synonyms/opposites +
@@ -8185,17 +9107,32 @@ function renderVocabCardHtml(item, { canSpeak, isFrench }) {
     item.learningMode === 'direct'
       ? `
     ${item.image ? `<img class="vocab-card-image" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.imageAlt || item.targetWord)}" loading="lazy" />` : ''}
-    ${item.definition ? `<p class="vocab-card-definition">${escapeHtml(item.definition)}</p>` : ''}
-    ${synonymsOppositesParts.length ? `<p class="vocab-card-synonyms-opposites">${synonymsOppositesParts.join(' · ')}</p>` : ''}
-    ${item.usageNote ? `<p class="vocab-card-usage-note">${escapeHtml(item.usageNote)}</p>` : ''}`
+    ${
+      item.simpleDefinition || item.definition
+        ? `<div class="vocab-card-brief-definition">
+            <span>${isFrench ? 'Définition brève' : 'Definición breve'}</span>
+            <p class="vocab-card-definition">${escapeHtml(item.simpleDefinition || item.definition)}</p>
+          </div>`
+        : ''
+    }
+    ${
+      item.isAdvancedDirect && showL1Translation
+        ? `<div class="vocab-card-l1-translation">
+            <span>${escapeHtml(l2Ui.translation)}</span>
+            <p>${escapeHtml(item.l1Translation || item.simpleDefinition || item.definition || l2Ui.translationUnavailable)}</p>
+          </div>`
+        : ''
+    }
+    ${!item.isAdvancedDirect && synonymsOppositesParts.length ? `<p class="vocab-card-synonyms-opposites">${synonymsOppositesParts.join(' · ')}</p>` : ''}
+    ${!item.contexts.length && item.usageNote ? `<p class="vocab-card-usage-note">${escapeHtml(item.usageNote)}</p>` : ''}`
       : '';
 
   return `
-    <div class="vocab-card" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-mastery="${escapeHtml(item.masteryStatus)}" data-flipped="false" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" role="button" tabindex="0" aria-expanded="false" aria-label="${escapeHtml(vocabCardAriaLabel(item.targetWord, false, isFrench))}">
+    <div class="vocab-card" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-flipped="false" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" role="button" tabindex="0" aria-expanded="false" aria-label="${escapeHtml(vocabCardAriaLabel(item.targetWord, false, isFrench))}">
       <div class="vocab-card-inner">
         <div class="vocab-card-face vocab-card-front">
           <div class="vocab-card-header">
-            ${statusChipHtml}
+            <span class="vocab-card-side-label">${escapeHtml(cardUi.front)}</span>
             ${
               canSpeak
                 ? `<button type="button" class="vocab-card-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
@@ -8203,20 +9140,27 @@ function renderVocabCardHtml(item, { canSpeak, isFrench }) {
             }
           </div>
           <div class="vocab-card-word-block">
+            ${item.learningMode === 'direct' ? `<span class="vocab-card-method">${escapeHtml(cardUi.mode)}</span>` : ''}
             <p class="vocab-card-target">${escapeHtml(item.targetWord)}</p>
             ${item.phonetic ? `<p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>` : ''}
             ${item.category ? `<span class="vocab-card-tag">${escapeHtml(item.category)}</span>` : ''}
           </div>
-          <p class="vocab-card-hint">${isFrench ? 'Touchez pour voir le sens' : 'Toca para ver significado'}</p>
+          <div class="vocab-card-front-footer">
+            ${statusChipHtml}
+            <p class="vocab-card-hint"><span aria-hidden="true">↻</span> ${escapeHtml(cardUi.hint)}</p>
+          </div>
         </div>
         <div class="vocab-card-face vocab-card-back" aria-hidden="true">
-          <div class="vocab-card-header">${statusChipHtml}</div>
+          <div class="vocab-card-header">
+            <span class="vocab-card-side-label">${escapeHtml(cardUi.back)}</span>
+            ${statusChipHtml}
+          </div>
           ${item.translation ? `<p class="vocab-card-translation">${escapeHtml(item.translation)}</p>` : ''}
           ${directSupportHtml}
           ${contextsHtml}
           <div class="vocab-card-actions" role="group" aria-label="${isFrench ? 'Actions d’apprentissage' : 'Acciones de aprendizaje'}">
-            <button type="button" class="vocab-know-btn" tabindex="-1" aria-label="${isFrench ? 'Je la connais déjà' : 'Ya sé esta palabra'}" title="${isFrench ? 'Je la connais déjà' : 'Ya sé esta palabra'}">✓ Ya la sé</button>
-            <button type="button" class="vocab-retry-btn" tabindex="-1" aria-label="${isFrench ? 'À continuer à pratiquer' : 'Marcar para seguir practicando'}" title="${isFrench ? 'À continuer à pratiquer' : 'Marcar para seguir practicando'}">↻ Practicar</button>
+            <button type="button" class="vocab-know-btn" tabindex="-1" aria-label="${isFrench ? 'Je la connais déjà' : 'Ya sé esta palabra'}" title="${isFrench ? 'Je la connais déjà' : 'Ya sé esta palabra'}">✓ ${isFrench ? 'Je la connais' : 'Ya la sé'}</button>
+            <button type="button" class="vocab-retry-btn" tabindex="-1" aria-label="${isFrench ? 'À continuer à pratiquer' : 'Marcar para seguir practicando'}" title="${isFrench ? 'À continuer à pratiquer' : 'Marcar para seguir practicando'}">↻ ${isFrench ? 'À revoir' : 'Practicar'}</button>
             <button type="button" class="vocab-back-btn" tabindex="-1" aria-label="${vocabCardAriaLabel(item.targetWord, true, isFrench)}" title="${isFrench ? 'Revenir au recto' : 'Volver al frente'}">↩ ${isFrench ? 'Retour' : 'Volver'}</button>
           </div>
         </div>
@@ -8230,6 +9174,370 @@ function renderVocabCardHtml(item, { canSpeak, isFrench }) {
 // lesson is rendered, never persisted, purely a display convenience so
 // "Mezclar tarjetas" can re-render without touching lesson.vocabulary itself.
 let vocabCardOrder = [];
+let vocabL1TranslationVisible = true;
+let vocabTranslationLessonSlug = '';
+const vocabL1TranslationCache = new Map();
+const vocabL1TranslationRequests = new Set();
+const vocabBriefDefinitionCache = new Map();
+const vocabBriefDefinitionRequests = new Set();
+const vocabPracticeState = new Map();
+const vocabPracticeSources = new Map();
+
+async function loadMissingAdvancedVocabTranslations(cards, lessonSlug = '') {
+  const missing = cards.filter((card) => card.isAdvancedDirect && !card.l1Translation);
+  if (
+    !missing.length ||
+    learningPathState.language === 'spanish' ||
+    (lessonSlug && vocabL1TranslationRequests.has(lessonSlug))
+  )
+    return false;
+  if (lessonSlug) vocabL1TranslationRequests.add(lessonSlug);
+  let changed = false;
+  await Promise.all(
+    missing.map(async (card) => {
+      try {
+        const data = await postJson(
+          '/api/translate',
+          {
+            text: card.targetWord,
+            sourceLanguage: learningPathState.language,
+            targetLanguage: 'spanish'
+          },
+          { auth: true }
+        );
+        if (data.ok && data.translatedText) {
+          vocabL1TranslationCache.set(card.id, data.translatedText);
+          card.l1Translation = data.translatedText;
+          changed = true;
+        }
+      } catch {
+        // The card remains useful with its L2 brief definition when the
+        // optional translator is unavailable.
+      }
+    })
+  );
+  return changed;
+}
+
+async function loadMissingAdvancedBriefDefinitions(cards, lessonSlug) {
+  const missing = cards.filter(
+    (card) => card.isAdvancedDirect && !card.simpleDefinition && card.l1Translation
+  );
+  if (!missing.length || vocabBriefDefinitionRequests.has(lessonSlug)) return false;
+  vocabBriefDefinitionRequests.add(lessonSlug);
+  let changed = false;
+  await Promise.all(
+    missing.map(async (card) => {
+      try {
+        const data = await postJson(
+          '/api/translate',
+          {
+            text: card.l1Translation,
+            sourceLanguage: 'spanish',
+            targetLanguage: learningPathState.language
+          },
+          { auth: true }
+        );
+        if (data.ok && data.translatedText) {
+          vocabBriefDefinitionCache.set(card.id, data.translatedText);
+          changed = true;
+        }
+      } catch {
+        /* Keep the definition block empty rather than substituting an example. */
+      }
+    })
+  );
+  return changed;
+}
+
+function getVocabularyPracticeCount(level = learningPathState.level) {
+  if (level === 'A1' || level === 'A2') return 6;
+  if (level === 'B1' || level === 'B2') return 8;
+  return 10;
+}
+
+function shuffleVocabularyItems(items) {
+  const copy = [...items];
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
+  }
+  return copy;
+}
+
+function buildVocabularyPracticePrompt(item) {
+  const french = isFrenchAdvancedImmersion();
+  const context = item.contexts?.[0]?.targetText || item.example || '';
+  if (context) {
+    const escapedWord = String(item.targetWord).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const blanked = context.replace(new RegExp(escapedWord, 'i'), '_____');
+    return blanked !== context
+      ? `${french ? 'Choisissez le mot qui complète la phrase' : 'Choose the word that completes the sentence'} : « ${blanked} »`
+      : `${french ? 'Choisissez le mot qui correspond le mieux à ce contexte' : 'Choose the vocabulary item that best matches this context'} : « ${context} »`;
+  }
+  if (item.definition || item.simpleDefinition) {
+    return `${french ? 'Choisissez le mot correspondant à cette définition' : 'Choose the word for this definition'} : « ${item.simpleDefinition || item.definition} »`;
+  }
+  return `${french ? 'Identifiez le mot de la leçon' : 'Identify this lesson word'} : « ${item.translation || item.targetWord} »`;
+}
+
+function createVocabularyPractice(lesson, cards) {
+  const count = getVocabularyPracticeCount(lesson.level);
+  const shuffled = shuffleVocabularyItems(cards);
+  const selected = Array.from({ length: count }, (_, index) => shuffled[index % shuffled.length]);
+  const questions = selected.map((item, index) => {
+    const distractors = shuffleVocabularyItems(
+      cards.filter((candidate) => candidate.id !== item.id)
+    ).slice(0, 3);
+    return {
+      id: `${lesson.slug}-vocab-practice-${index + 1}`,
+      prompt: buildVocabularyPracticePrompt(item),
+      correctOptionId: item.id,
+      options: shuffleVocabularyItems([item, ...distractors]).map((option) => ({
+        id: option.id,
+        text: option.targetWord
+      }))
+    };
+  });
+  return { questions, answers: {}, submitted: false, score: null, results: [] };
+}
+
+function renderVocabularyPracticePanelHtml(lesson) {
+  const runtime = vocabPracticeState.get(lesson.slug);
+  const count = getVocabularyPracticeCount(lesson.level);
+  const french = isFrenchAdvancedImmersion();
+  if (!runtime) {
+    return `
+      <div class="vocab-practice-intro">
+        <strong>${count} ${french ? 'mots à pratiquer' : 'palabras para practicar'}</strong>
+        <span>${french ? 'Complétez des phrases en contexte, choisissez A–D et obtenez un score sur 100.' : 'Completa frases en contexto, elige A–D y recibe un score sobre 100.'}</span>
+      </div>`;
+  }
+  if (runtime.submitted) {
+    return `
+      <div class="grammar-test-card vocab-practice-results">
+        <div class="grammar-test-score-band">
+          <span class="grammar-test-score-emoji" aria-hidden="true">${runtime.score >= 70 ? '🏆' : '📚'}</span>
+          <strong class="grammar-test-score-number">${runtime.score}/100</strong>
+          <span class="grammar-test-score-label">${runtime.score >= 70 ? (french ? 'Pratique terminée' : 'Practice completed') : (french ? 'Continuez à pratiquer' : 'Keep practicing')}</span>
+        </div>
+        <ul class="grammar-test-breakdown-list">
+          ${runtime.results
+            .map(
+              (result, index) => `
+                <li class="grammar-test-breakdown-item ${result.correct ? 'is-correct' : 'is-incorrect'}">
+                  <span aria-hidden="true">${result.correct ? '✅' : '❌'}</span>
+                  <div>
+                    <p class="grammar-test-breakdown-prompt">${index + 1}. ${escapeHtml(result.prompt)}</p>
+                    <p class="grammar-test-breakdown-correct-answer">${french ? 'Bonne réponse' : 'Correct answer'} : <strong>${escapeHtml(result.correctText)}</strong></p>
+                  </div>
+                </li>`
+            )
+            .join('')}
+        </ul>
+        <button type="button" class="primary-btn vocab-practice-retry-btn">${french ? `Pratiquer ${count} autres mots` : `Practice another ${count} words`}</button>
+      </div>`;
+  }
+  const answered = Object.keys(runtime.answers).length;
+  return `
+    <div class="grammar-test-card vocab-practice-card">
+      <div class="grammar-test-progress-row">
+        <span class="grammar-test-counter">${answered} ${french ? 'sur' : 'of'} ${runtime.questions.length} ${french ? 'réponses' : 'answered'}</span>
+        <div class="grammar-test-progress-bar"><div style="width:${Math.round((answered / runtime.questions.length) * 100)}%"></div></div>
+      </div>
+      <div class="grammar-test-question-list">
+        ${runtime.questions
+          .map(
+            (question, index) => `
+              <article class="grammar-test-question-item vocab-practice-question" data-question-id="${escapeHtml(question.id)}">
+                <p class="grammar-test-question-prompt">${index + 1}. ${escapeHtml(question.prompt)}</p>
+                <div class="grammar-test-options">
+                  ${question.options
+                    .map((option, optionIndex) => {
+                      const selected = runtime.answers[question.id] === option.id;
+                      return `<button type="button" class="grammar-test-option vocab-practice-option${selected ? ' is-selected' : ''}" data-option-id="${escapeHtml(option.id)}" aria-pressed="${selected}">
+                        <span class="grammar-test-option-letter" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span>
+                        <span>${escapeHtml(option.text)}</span>
+                      </button>`;
+                    })
+                    .join('')}
+                </div>
+              </article>`
+          )
+          .join('')}
+      </div>
+      <div class="grammar-test-submit-bar">
+        <span>${french ? 'Score final' : 'Final score'} : 0–100</span>
+        <button type="button" class="primary-btn vocab-practice-submit-btn" ${answered === runtime.questions.length ? '' : 'disabled'}>${french ? 'Évaluer la pratique' : 'Evaluate practice'}</button>
+      </div>
+    </div>`;
+}
+
+async function loadSavedVocabularyForLesson(lesson) {
+  const unitSlug = lesson.unitId || '';
+  if (
+    !authStatus.session?.access_token ||
+    (authStatus.entitlements !== null && !isPremiumUser())
+  ) {
+    return [];
+  }
+  const params = new URLSearchParams();
+  if (unitSlug) params.set('unitSlug', unitSlug);
+  const response = await fetch(`${backendBaseUrl}/api/vocabulary/saved?${params}`, {
+    headers: authHeaders()
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    const error = new Error(data.error || 'No se pudo cargar el vocabulario guardado.');
+    error.code = data.code || '';
+    throw error;
+  }
+  return data.items || [];
+}
+
+function renderSavedVocabularyPremiumShelf(shelf) {
+  shelf.innerHTML = `
+    <div class="saved-reading-vocabulary-premium">
+      <div>
+        <strong>🔒 Palabras guardadas desde Reading</strong>
+        <span>Guarda y repasa tu vocabulario personal con ANDERGO Premium.</span>
+      </div>
+      <button type="button" class="secondary-btn saved-vocabulary-premium-btn">Ver Premium</button>
+    </div>
+  `;
+  shelf.querySelector('.saved-vocabulary-premium-btn')?.addEventListener('click', () =>
+    openPaywallModal({
+      title: 'Guardar palabras es una función Premium.',
+      message: 'Desbloquea el vocabulario personal para guardar, escuchar y repasar palabras de tus lecturas.'
+    })
+  );
+}
+
+async function renderSavedVocabularyShelf(content, lesson) {
+  const shelf = content.querySelector('.saved-reading-vocabulary');
+  if (!shelf) return;
+  if (savedVocabularyRequiresUpgrade()) {
+    renderSavedVocabularyPremiumShelf(shelf);
+    return;
+  }
+  try {
+    const items = await loadSavedVocabularyForLesson(lesson);
+    if (!items.length) {
+      shelf.innerHTML = `
+        <div class="saved-reading-vocabulary-empty">
+          <strong>Palabras guardadas desde Reading</strong>
+          <span>Selecciona una palabra desconocida en la lectura y guárdala para estudiarla aquí.</span>
+        </div>
+      `;
+      return;
+    }
+    shelf.innerHTML = `
+      <div class="saved-reading-vocabulary-heading">
+        <div><strong>Palabras guardadas desde Reading</strong><span>${items.length} en esta unidad</span></div>
+      </div>
+      <div class="saved-reading-vocabulary-grid">
+        ${items
+          .map(
+            (item) => `
+              <article class="saved-reading-word" data-saved-word-id="${escapeHtml(item.id || '')}">
+                <div><strong>${escapeHtml(item.term)}</strong><span>${escapeHtml(item.translation)}</span></div>
+                ${item.context ? `<p>${escapeHtml(item.context)}</p>` : ''}
+                <button type="button" class="saved-reading-word-listen" data-speak-text="${escapeHtml(item.term)}">🔊</button>
+              </article>
+            `
+          )
+          .join('')}
+      </div>
+    `;
+    shelf.querySelectorAll('.saved-reading-word-listen').forEach((button) => {
+      button.addEventListener('click', () =>
+        speakText(button.dataset.speakText || '', {
+          locale: getPronunciationLocale(learningPathState.language),
+          rate: getDefaultPronunciationRate(learningPathState.language, lesson.level)
+        })
+      );
+    });
+  } catch (error) {
+    if (error.code === 'PREMIUM_REQUIRED') {
+      authStatus.entitlements = { ...(authStatus.entitlements || {}), isPremium: false };
+      renderSavedVocabularyPremiumShelf(shelf);
+      return;
+    }
+    shelf.innerHTML = `<p class="skill-graph-empty">${escapeHtml(error.message)}</p>`;
+  }
+}
+
+function getUsefulVocabularyExpressions(lesson, cards) {
+  const authored = (lesson.phrases || [])
+    .map((phrase) =>
+      typeof phrase === 'string'
+        ? { text: phrase, explanation: '' }
+        : {
+            text: phrase?.text || phrase?.expression || phrase?.phrase || '',
+            explanation: phrase?.explanation || phrase?.meaning || phrase?.note || ''
+          }
+    )
+    .filter((item) => item.text);
+  if (authored.length) return authored.slice(0, 8);
+
+  // Older vocabulary lessons did not carry a dedicated phrases array.
+  // Their authored context sentences remain useful expressions, but stay
+  // presentation-only and are never passed to the question generator.
+  const seen = new Set();
+  return cards
+    .flatMap((card) => card.contexts || [])
+    .map((context) => ({
+      text: context.targetText || '',
+      explanation: context.supportText || ''
+    }))
+    .filter((item) => {
+      const key = item.text.trim().toLocaleLowerCase();
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .slice(0, 6);
+}
+
+function renderUsefulVocabularyExpressionsHtml(lesson, cards) {
+  const ui = getVocabularyL2Ui();
+  const expressions = getUsefulVocabularyExpressions(lesson, cards);
+  return `
+    <section class="vocab-useful-expressions no-print">
+      <button type="button" class="secondary-btn vocab-useful-expressions-toggle" aria-expanded="false" data-show-label="${escapeHtml(ui.show)}" data-hide-label="${escapeHtml(ui.hide)}">
+        <span class="vocab-useful-expressions-action">${escapeHtml(ui.show)}</span>
+        <span>${escapeHtml(ui.useful)}</span>
+      </button>
+      <div class="vocab-useful-expressions-panel" hidden>
+        ${
+          expressions.length
+            ? `<ul>${expressions
+                .map(
+                  (item) => `<li>
+                    <strong>${escapeHtml(item.text)}</strong>
+                    ${item.explanation ? `<span>${escapeHtml(item.explanation)}</span>` : ''}
+                  </li>`
+                )
+                .join('')}</ul>`
+            : `<p>${escapeHtml(ui.useful)}</p>`
+        }
+      </div>
+    </section>`;
+}
+
+function isVocabularyTermExercise(exercise, cards) {
+  if (exercise?.type !== 'mcq') return false;
+  const terms = cards
+    .map((card) => String(card.targetWord || '').trim().toLocaleLowerCase())
+    .filter(Boolean);
+  const prompt = String(exercise.prompt || exercise.q || '').toLocaleLowerCase();
+  const options = (exercise.options || []).map((option) =>
+    String(optionLabel(option) || '').trim().toLocaleLowerCase()
+  );
+  return terms.some(
+    (term) => prompt.includes(term) || options.some((option) => option === term)
+  );
+}
 
 function renderVocabularyView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
@@ -8239,6 +9547,10 @@ function renderVocabularyView(section, lesson) {
     vocabCardOrder = rawCards.map((_, index) => index);
     vocabCardOrder.lessonSlug = lesson.slug;
   }
+  if (vocabTranslationLessonSlug !== lesson.slug) {
+    vocabTranslationLessonSlug = lesson.slug;
+    vocabL1TranslationVisible = true;
+  }
   const cards = rawCards.map((raw, index) =>
     normalizeVocabularyItem(raw, {
       language: learningPathState.language,
@@ -8247,38 +9559,71 @@ function renderVocabularyView(section, lesson) {
       index
     })
   );
+  cards.forEach((card) => {
+    const cachedTranslation = vocabL1TranslationCache.get(card.id);
+    if (cachedTranslation) card.l1Translation = cachedTranslation;
+    const cachedDefinition = vocabBriefDefinitionCache.get(card.id);
+    if (cachedDefinition) {
+      card.definition = cachedDefinition;
+      card.simpleDefinition = cachedDefinition;
+    }
+  });
+  const advancedDirect = cards.some((card) => card.isAdvancedDirect);
   const canSpeak = supportsSpeech();
   const isFrench = learningPathState.language === 'french';
+  const french = isFrenchAdvancedImmersion();
   const staff = isStaffEntitled();
-  const testExercisesHtml = (lesson.exercises || [])
-    .filter((item) => item.type === 'mcq')
+  vocabPracticeSources.set(lesson.slug, cards);
+  const vocabularyExercises = (lesson.exercises || []).filter((item) =>
+    isVocabularyTermExercise(item, cards)
+  );
+  const testExercisesHtml = vocabularyExercises
     .map((item, index) => renderLessonExercise(item, index, lesson))
     .join('');
-  const printExercisesHtml = renderPrintableExerciseList(lesson.exercises, { showAnswers: staff });
+  const printExercisesHtml = renderPrintableExerciseList(vocabularyExercises, { showAnswers: staff });
+  const vocabularyUi = getVocabularyL2Ui();
 
   content.innerHTML = `
     <h3>${escapeHtml(lesson.title)}</h3>
+    <section class="saved-reading-vocabulary" aria-live="polite">
+      <p class="skill-graph-empty">${french ? 'Chargement des mots enregistrés depuis Reading…' : 'Cargando palabras guardadas desde Reading…'}</p>
+    </section>
     <div class="vocab-card-deck-controls no-print">
-      <button type="button" class="secondary-btn vocab-shuffle-btn">🔀 Mezclar tarjetas</button>
+      <button type="button" class="secondary-btn vocab-shuffle-btn">🔀 ${french ? 'Mélanger les cartes' : 'Mezclar tarjetas'}</button>
+      ${
+        advancedDirect
+          ? `<button type="button" class="secondary-btn vocab-l1-translation-btn${vocabL1TranslationVisible ? ' is-active' : ''}" aria-pressed="${vocabL1TranslationVisible}">
+              ${vocabL1TranslationVisible ? '◉' : '◎'} ${french ? (vocabL1TranslationVisible ? 'Masquer la traduction L1' : 'Afficher la traduction L1') : (vocabL1TranslationVisible ? 'Desactivar traducción L1' : 'Activar traducción L1')}
+            </button>`
+          : ''
+      }
     </div>
     <div class="vocab-card-deck">
       ${vocabCardOrder
-        .map((cardIndex) => renderVocabCardHtml({ ...cards[cardIndex], _displayIndex: cardIndex }, { canSpeak, isFrench }))
+        .map((cardIndex) =>
+          renderVocabCardHtml(
+            { ...cards[cardIndex], _displayIndex: cardIndex },
+            { canSpeak, isFrench, showL1Translation: vocabL1TranslationVisible }
+          )
+        )
         .join('')}
     </div>
+    ${renderUsefulVocabularyExpressionsHtml(lesson, cards)}
     <div class="skill-view-tutor-cta no-print">
-      <button type="button" class="primary-btn open-tutor-btn" data-tutor-prompt="Ayúdame a practicar este vocabulario: ${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-support-mode="practice" data-tutor-vocabulary="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}">Practicar estas palabras</button>
-      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-return-label="Volver a Vocabulary">Traducir estas palabras</button>
+      <button type="button" class="primary-btn vocab-practice-start-btn">${french ? 'Pratiquer' : 'Practicar'} ${getVocabularyPracticeCount(lesson.level)} ${french ? 'mots' : 'palabras'}</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Aide-moi à pratiquer ce vocabulaire' : 'Ayúdame a practicar este vocabulario'} : ${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-support-mode="practice" data-tutor-vocabulary="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}">${french ? 'Pratiquer avec le Tutor IA' : 'Practicar con Tutor IA'}</button>
+      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-return-label="${french ? 'Retour à Vocabulary' : 'Volver a Vocabulary'}">${french ? 'Traduire ces mots' : 'Traducir estas palabras'}</button>
     </div>
+    <div class="vocab-practice-panel no-print">${renderVocabularyPracticePanelHtml(lesson)}</div>
     <div class="vocab-test no-print">
-      <h4>Prueba de vocabulario</h4>
-      ${testExercisesHtml || '<p class="skill-graph-empty">No hay prueba de vocabulario para esta lección.</p>'}
+      <h4>${escapeHtml(vocabularyUi.questions)}</h4>
+      ${testExercisesHtml || `<p class="skill-graph-empty">${french ? 'Aucun test de vocabulaire pour cette leçon.' : 'No hay prueba de vocabulario para esta lección.'}</p>`}
     </div>
     <div class="skill-print-area print-only">
       ${renderSkillPrintHeaderHtml(lesson)}
       <h3 class="print-only">${escapeHtml(lesson.title)}</h3>
       <div class="print-only">
-        <h4>${staff ? 'Clave de respuestas' : 'Vocabulario y actividad para completar'}</h4>
+        <h4>${staff ? (french ? 'Corrigé' : 'Clave de respuestas') : (french ? 'Vocabulaire et activité à compléter' : 'Vocabulario y actividad para completar')}</h4>
         <ul class="skill-print-options">
           ${cards.map((item) => `<li class="skill-print-option">${escapeHtml(item.targetWord)} — ${escapeHtml(item.translation)}${item.example ? ` (${escapeHtml(item.example)})` : ''}</li>`).join('')}
         </ul>
@@ -8287,17 +9632,127 @@ function renderVocabularyView(section, lesson) {
           staff
             ? ''
             : `<div class="reading-print-answer-space skill-print-answer-space print-only">
-                <h4>Tus respuestas</h4>
+                <h4>${french ? 'Vos réponses' : 'Tus respuestas'}</h4>
                 <div class="reading-print-answer-lines"><div></div><div></div><div></div><div></div></div>
               </div>`
         }
       </div>
     </div>
     <div class="skill-view-tutor-cta no-print">
-      <button type="button" class="secondary-btn skill-print-btn">${staff ? 'Descargar clave de respuestas' : 'Descargar vocabulario en PDF'}</button>
+      <button type="button" class="secondary-btn skill-print-btn">${staff ? (french ? 'Télécharger le corrigé' : 'Descargar clave de respuestas') : (french ? 'Télécharger le vocabulaire en PDF' : 'Descargar vocabulario en PDF')}</button>
     </div>
   `;
+  renderSavedVocabularyShelf(content, lesson);
+  if (advancedDirect && cards.some((card) => !card.l1Translation)) {
+    void loadMissingAdvancedVocabTranslations(cards, lesson.slug).then((changed) => {
+      if (changed && vocabTranslationLessonSlug === lesson.slug && section.isConnected) {
+        renderVocabularyView(section, lesson);
+      }
+    });
+  }
+  if (advancedDirect && cards.some((card) => !card.simpleDefinition)) {
+    void loadMissingAdvancedBriefDefinitions(cards, lesson.slug).then((changed) => {
+      if (
+        changed &&
+        vocabTranslationLessonSlug === lesson.slug &&
+        section.isConnected
+      ) {
+        renderVocabularyView(section, lesson);
+      }
+    });
+  }
 }
+
+function getActiveVocabularyPracticeContext(target) {
+  const section = target.closest('.skill-view-section[data-skill="vocabulary"]');
+  const lesson = learningPathState.lessons.find(
+    (item) => item.slug === section?.dataset.activeLessonSlug
+  );
+  if (!section || !lesson) return null;
+  return { section, lesson, cards: vocabPracticeSources.get(lesson.slug) || [] };
+}
+
+document.addEventListener('click', (event) => {
+  const expressionsToggle = event.target.closest('.vocab-useful-expressions-toggle');
+  if (expressionsToggle) {
+    const panel = expressionsToggle
+      .closest('.vocab-useful-expressions')
+      ?.querySelector('.vocab-useful-expressions-panel');
+    if (!panel) return;
+    const willOpen = panel.hidden;
+    panel.hidden = !willOpen;
+    expressionsToggle.setAttribute('aria-expanded', String(willOpen));
+    const action = expressionsToggle.querySelector('.vocab-useful-expressions-action');
+    if (action) {
+      action.textContent = willOpen
+        ? expressionsToggle.dataset.hideLabel
+        : expressionsToggle.dataset.showLabel;
+    }
+    return;
+  }
+
+  const startButton = event.target.closest('.vocab-practice-start-btn, .vocab-practice-retry-btn');
+  if (startButton) {
+    const context = getActiveVocabularyPracticeContext(startButton);
+    if (!context?.cards.length) return;
+    vocabPracticeState.set(
+      context.lesson.slug,
+      createVocabularyPractice(context.lesson, context.cards)
+    );
+    renderVocabularyView(context.section, context.lesson);
+    context.section
+      .querySelector('.vocab-practice-panel')
+      ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    return;
+  }
+
+  const optionButton = event.target.closest('.vocab-practice-option');
+  if (optionButton) {
+    const context = getActiveVocabularyPracticeContext(optionButton);
+    const runtime = context && vocabPracticeState.get(context.lesson.slug);
+    const questionId = optionButton.closest('.vocab-practice-question')?.dataset.questionId;
+    if (!context || !runtime || !questionId) return;
+    runtime.answers[questionId] = optionButton.dataset.optionId;
+    optionButton
+      .closest('.grammar-test-options')
+      ?.querySelectorAll('.vocab-practice-option')
+      .forEach((button) => {
+        const selected = button === optionButton;
+        button.classList.toggle('is-selected', selected);
+        button.setAttribute('aria-pressed', String(selected));
+      });
+    const answered = Object.keys(runtime.answers).length;
+    const panel = context.section.querySelector('.vocab-practice-panel');
+    const counter = panel?.querySelector('.grammar-test-counter');
+    const progress = panel?.querySelector('.grammar-test-progress-bar div');
+    const submit = panel?.querySelector('.vocab-practice-submit-btn');
+    if (counter) counter.textContent = `${answered} of ${runtime.questions.length} answered`;
+    if (progress)
+      progress.style.width = `${Math.round((answered / runtime.questions.length) * 100)}%`;
+    if (submit) submit.disabled = answered !== runtime.questions.length;
+    return;
+  }
+
+  const submitButton = event.target.closest('.vocab-practice-submit-btn');
+  if (submitButton) {
+    const context = getActiveVocabularyPracticeContext(submitButton);
+    const runtime = context && vocabPracticeState.get(context.lesson.slug);
+    if (!context || !runtime || submitButton.disabled) return;
+    runtime.results = runtime.questions.map((question) => ({
+      prompt: question.prompt,
+      correct: runtime.answers[question.id] === question.correctOptionId,
+      correctText:
+        question.options.find((option) => option.id === question.correctOptionId)?.text || ''
+    }));
+    const correctCount = runtime.results.filter((result) => result.correct).length;
+    runtime.score = Math.round((correctCount / runtime.questions.length) * 100);
+    runtime.submitted = true;
+    renderVocabularyView(context.section, context.lesson);
+    context.section
+      .querySelector('.vocab-practice-panel')
+      ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+});
 
 // Flips a card between its front (word only) and back (translation +
 // contexts + mastery actions), keeping the two faces' focusable buttons,
@@ -8411,6 +9866,7 @@ function getListeningRuntime(lesson) {
   if (!runtime) {
     runtime = {
       transcriptRevealed: false,
+      storyRevealed: false,
       hasPlayedOnce: false,
       transcriptSoftGateOverride: false,
       usingSlow: false
@@ -8418,6 +9874,10 @@ function getListeningRuntime(lesson) {
     listeningViewRuntime.set(lesson.slug, runtime);
   }
   return runtime;
+}
+
+function listeningUiText(spanish, french) {
+  return learningPathState.language === 'french' ? french : spanish;
 }
 
 async function fetchListeningAudioStatus(lesson) {
@@ -8523,33 +9983,41 @@ function renderListeningTranscriptControls(content, lesson, runtime) {
 // fallback - see docs/audio-architecture.md), so this banner always reads
 // "Audio oficial"; sourceLabel is still a param in case a future distinct
 // official variant (e.g. dialogue performance) wants its own label.
-function buildListeningPlayerMarkup({ sourceLabel, title }) {
+function buildListeningPlayerMarkup({ sourceLabel, title, hasSlowVariant }) {
   return `
-    <div class="listening-source-banner is-official">
-      <span class="listening-source-label">${escapeHtml(sourceLabel)}</span>
-    </div>
-    <h3 class="listening-title">${escapeHtml(title)}</h3>
-    <div class="listening-player" data-state="preparing">
-      <audio class="listening-audio-el" preload="metadata"></audio>
-      <p class="listening-player-status" role="status" aria-live="polite">Preparando audio…</p>
-      <div class="listening-player-controls">
-        <button type="button" class="listening-ctrl-btn listening-play-btn" aria-label="Reproducir" disabled>▶ Reproducir</button>
-        <button type="button" class="listening-ctrl-btn listening-restart-btn" aria-label="Reiniciar" disabled>⏮ Reiniciar</button>
-        <button type="button" class="listening-ctrl-btn listening-back5-btn" aria-label="Retroceder 5 segundos" disabled>⏪ 5s</button>
-        <button type="button" class="listening-ctrl-btn listening-fwd5-btn" aria-label="Avanzar 5 segundos" disabled>⏩ 5s</button>
-        <button type="button" class="listening-ctrl-btn listening-repeat-btn" aria-label="Repetir audio" aria-pressed="false" disabled>🔁 Repetir</button>
-        <button type="button" class="listening-ctrl-btn listening-speed-btn" aria-label="Cambiar velocidad" disabled>🔊 1×</button>
+    <section class="listening-audio-stage" aria-label="${escapeHtml(title)}">
+      <div class="listening-stage-heading">
+        <span class="listening-stage-icon" aria-hidden="true">🎧</span>
+        <div>
+          <div class="listening-source-banner is-official">
+            <span class="listening-source-label">${escapeHtml(sourceLabel)}</span>
+          </div>
+          <h3 class="listening-title">${escapeHtml(title)}</h3>
+          <p>Escucha primero sin leer. Puedes volver a reproducir las partes que necesites.</p>
+        </div>
       </div>
-      <div class="listening-player-progress-row">
-        <span class="listening-time-elapsed" aria-hidden="true">0:00</span>
-        <input type="range" class="listening-progress-range" min="0" max="100" value="0" step="1" aria-label="Progreso del audio" disabled>
-        <span class="listening-time-duration" aria-hidden="true">0:00</span>
+      <div class="listening-player" data-state="preparing">
+        <audio class="listening-audio-el" preload="metadata"></audio>
+        <p class="listening-player-status" role="status" aria-live="polite">Preparando audio…</p>
+        <div class="listening-player-controls">
+          <button type="button" class="listening-ctrl-btn listening-play-btn" aria-label="Reproducir" disabled>▶ Reproducir</button>
+          <button type="button" class="listening-ctrl-btn listening-restart-btn" aria-label="Reiniciar" disabled>⏮ Reiniciar</button>
+          <button type="button" class="listening-ctrl-btn listening-back5-btn" aria-label="Retroceder 5 segundos" disabled>⏪ 5s</button>
+          <button type="button" class="listening-ctrl-btn listening-fwd5-btn" aria-label="Avanzar 5 segundos" disabled>⏩ 5s</button>
+          <button type="button" class="listening-ctrl-btn listening-repeat-btn" aria-label="Repetir audio" aria-pressed="false" disabled>🔁 Repetir</button>
+          ${hasSlowVariant ? '<button type="button" class="listening-ctrl-btn listening-speed-btn" aria-label="Cambiar a la grabación lenta" disabled>🔊 Audio normal</button>' : ''}
+        </div>
+        <div class="listening-player-progress-row">
+          <span class="listening-time-elapsed" aria-hidden="true">0:00</span>
+          <input type="range" class="listening-progress-range" min="0" max="100" value="0" step="1" aria-label="Progreso del audio" disabled>
+          <span class="listening-time-duration" aria-hidden="true">0:00</span>
+        </div>
+        <label class="listening-volume-row">
+          <span>Volumen</span>
+          <input type="range" class="listening-volume-range" min="0" max="1" step="0.05" value="1" aria-label="Volumen">
+        </label>
       </div>
-      <label class="listening-volume-row">
-        Volumen
-        <input type="range" class="listening-volume-range" min="0" max="1" step="0.05" value="1" aria-label="Volumen">
-      </label>
-    </div>
+    </section>
   `;
 }
 
@@ -8589,7 +10057,12 @@ function listeningTranscriptLines(lesson, runtime) {
       translation: item.translation || ''
     }));
   }
-  const text = runtime.transcript || lesson.transcript || '';
+  const text =
+    runtime.transcript ||
+    lesson.extra?.mainTranscript ||
+    (lesson.extra?.transcriptSegments || []).map((segment) => segment.text || segment).join(' ') ||
+    lesson.transcript ||
+    '';
   return splitReadingSentences(text).map((sentence) => ({
     speaker: '',
     text: sentence,
@@ -8665,39 +10138,47 @@ function renderListeningTranscriptBodyHtml(lesson, runtime) {
     .join('');
 
   const hasAnyL1 = !isDirectMode && lines.some((line) => line.translation);
-  const hasAnyPron =
-    lines.some((line) => findPhoneticSegmentsForLine(phoneticSupport, line.text).length) ||
-    Boolean(phoneticSupport);
   const directGlossaryHtml = isDirectMode ? renderListeningDirectGlossaryHtml(lesson) : '';
   // Lesson-wide pronunciation guidance (focus note, stressed words,
   // syllabification, difficult sounds) - previously its own "Transcripción
   // fonética" tab, now folded into the bottom of this merged tab, shown
   // together with the per-line IPA behind the same pronunciation toggle.
-  const guideHtml = phoneticSupport ? renderListeningPhoneticGuideHtml(phoneticSupport) : '';
-
   return `
     <div class="listening-transcript-lines">${linesHtml}</div>
     <div class="listening-transcript-toggle-row">
       ${hasAnyL1 ? '<button type="button" class="secondary-btn listening-l1-toggle" aria-pressed="false">Mostrar apoyo en español</button>' : ''}
-      ${hasAnyPron ? '<button type="button" class="secondary-btn listening-pron-toggle" aria-pressed="false">Mostrar pronunciación</button>' : ''}
     </div>
     ${directGlossaryHtml}
-    ${guideHtml}
+  `;
+}
+
+function renderListeningPronunciationPanel(lesson) {
+  const support = lesson.extra?.phoneticSupport;
+  if (!support) {
+    return `<p class="skill-graph-empty">${listeningUiText('No hay apoyo de pronunciación disponible.', 'Aucune aide à la prononciation n’est disponible.')}</p>`;
+  }
+  return `
+    <section class="listening-pronunciation-panel">
+      <h4>${listeningUiText('Pronunciación', 'Prononciation')}</h4>
+      ${renderListeningPhoneticGuideHtml(support, { visible: true })}
+    </section>
   `;
 }
 
 // The lesson-wide portion of extra.phoneticSupport (as opposed to the
 // per-line segments matched in renderListeningTranscriptBodyHtml above) -
 // hidden/shown by the same "Mostrar/Ocultar pronunciación" toggle.
-function renderListeningPhoneticGuideHtml(ps) {
+function renderListeningPhoneticGuideHtml(ps, { visible = false } = {}) {
   const isApprox = ps.reviewStatus !== 'verified';
+  const focusWords = (ps.focusWords || []).map(escapeHtml).join(', ');
   const syllabHtml = (ps.syllabification || [])
     .map((s) => `<li>${escapeHtml(s.word)}: <em>${escapeHtml(s.syllables)}</em></li>`)
     .join('');
   return `
-    <div class="listening-phonetic-guide" hidden>
+    <div class="listening-phonetic-guide"${visible ? '' : ' hidden'}>
       ${isApprox ? '<p class="listening-pron-approx-tag">Pronunciación aproximada, sujeta a revisión.</p>' : ''}
       ${ps.focus ? `<p class="listening-phonetic-focus">${escapeHtml(ps.focus)}</p>` : ''}
+      ${focusWords ? `<p><strong>Palabras para practicar:</strong> ${focusWords}</p>` : ''}
       ${(ps.stressedWords || []).length ? `<p><strong>Palabras con acento clave:</strong> ${(ps.stressedWords || []).map(escapeHtml).join(', ')}</p>` : ''}
       ${syllabHtml ? `<ul class="listening-phonetic-syllables">${syllabHtml}</ul>` : ''}
       ${(ps.difficultSounds || []).length ? `<p><strong>Sonidos a practicar:</strong> ${(ps.difficultSounds || []).map(escapeHtml).join(', ')}</p>` : ''}
@@ -8763,9 +10244,6 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
     [playBtn, restartBtn, back5Btn, fwd5Btn, repeatBtn, speedBtn, rangeEl].forEach((el) => {
       if (el) el.disabled = false;
     });
-    if (speedBtn && !meta.slowUrl)
-      speedBtn.title =
-        'No hay versión lenta grabada: se reduce la velocidad de reproducción del mismo audio.';
   };
 
   audioEl.addEventListener('loadstart', () => setState('loading', 'Cargando audio…'));
@@ -8838,45 +10316,33 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
     repeatBtn.setAttribute('aria-pressed', String(audioEl.loop));
     repeatBtn.classList.toggle('is-active', audioEl.loop);
   });
-  // Playback speed cycle: 1x -> 0.75x -> 0.5x -> 1.25x -> 1x. Most lessons
-  // today only have a single recorded file (main_file_path), so every tier
-  // besides 1x is a client-side playbackRate change on that same file - the
-  // button still prefers a real recorded slow/very-slow file when one
-  // exists (meta.slowUrl/verySlowUrl), switching src instead of just the
-  // rate. Numeric labels (not "Lento"/"Muy lento") because the tier is a
-  // rate, not a fixed grabación - accurate either way this ends up applied.
-  const SPEED_TIERS = ['normal', 'slow', 'verySlow', 'fast'];
-  const SPEED_LABEL = { normal: '1×', slow: '0.75×', verySlow: '0.5×', fast: '1.25×' };
-  const SPEED_RATE = { normal: 1, slow: 0.75, verySlow: 0.5, fast: 1.25 };
-  runtime.speedTier = runtime.speedTier || 'normal';
+  // Only switch between real recorded variants. There is deliberately no
+  // playbackRate/TTS fallback when a slow recording does not exist.
+  const recordedVariants = [
+    { id: 'normal', label: 'Audio normal', url: meta.mainUrl },
+    ...(meta.slowUrl ? [{ id: 'slow', label: 'Audio lento', url: meta.slowUrl }] : []),
+    ...(meta.verySlowUrl
+      ? [{ id: 'verySlow', label: 'Audio muy lento', url: meta.verySlowUrl }]
+      : [])
+  ];
+  runtime.speedTier = recordedVariants.some((item) => item.id === runtime.speedTier)
+    ? runtime.speedTier
+    : 'normal';
   speedBtn?.addEventListener('click', () => {
     const wasPlaying = !audioEl.paused;
-    const currentIndex = SPEED_TIERS.indexOf(runtime.speedTier);
-    runtime.speedTier = SPEED_TIERS[(currentIndex + 1) % SPEED_TIERS.length];
-    const recordedUrl =
-      runtime.speedTier === 'slow' ? meta.slowUrl : runtime.speedTier === 'verySlow' ? meta.verySlowUrl : null;
-    if (recordedUrl && recordedUrl !== audioEl.src) {
-      audioEl.src = recordedUrl;
-      audioEl.playbackRate = 1;
-      setState('loading', 'Cargando audio…');
-      audioEl.load();
-      if (wasPlaying)
-        audioEl.addEventListener('loadedmetadata', () => audioEl.play().catch(() => {}), {
-          once: true
-        });
-    } else {
-      if (audioEl.src !== meta.mainUrl) {
-        audioEl.src = meta.mainUrl;
-        audioEl.load();
-        if (wasPlaying)
-          audioEl.addEventListener('loadedmetadata', () => audioEl.play().catch(() => {}), {
-            once: true
-          });
-      }
-      audioEl.playbackRate = SPEED_RATE[runtime.speedTier];
-    }
-    speedBtn.textContent = `🔊 ${SPEED_LABEL[runtime.speedTier]}`;
-    speedBtn.setAttribute('aria-label', `Velocidad actual: ${SPEED_LABEL[runtime.speedTier]}. Cambiar velocidad.`);
+    const currentIndex = recordedVariants.findIndex((item) => item.id === runtime.speedTier);
+    const next = recordedVariants[(currentIndex + 1) % recordedVariants.length];
+    runtime.speedTier = next.id;
+    audioEl.src = next.url;
+    audioEl.playbackRate = 1;
+    setState('loading', 'Cargando audio…');
+    audioEl.load();
+    if (wasPlaying)
+      audioEl.addEventListener('loadedmetadata', () => audioEl.play().catch(() => {}), {
+        once: true
+      });
+    speedBtn.textContent = `🔊 ${next.label}`;
+    speedBtn.setAttribute('aria-label', `${next.label}. Cambiar grabación.`);
   });
   rangeEl?.addEventListener('input', () => {
     if (Number.isFinite(audioEl.duration) && audioEl.duration > 0) {
@@ -9031,10 +10497,13 @@ function computeListeningTutorQuestionContext(lesson) {
 // Diálogos is Speaking's tab (renderSpeakingModeTabsHtml) only - Listening
 // never shows it, even for lessons authored with listeningType: 'dialogue'.
 function listeningExtraModeList(lesson) {
-  const modes = [];
-  if (lesson.dictation?.segments?.length) modes.push({ id: 'dictation', label: 'Dictado' });
-  modes.push({ id: 'transcript', label: 'Transcripción y pronunciación' });
-  modes.push({ id: 'comprehension', label: 'Comprensión' });
+  const modes = [{ id: 'story', label: listeningUiText('Historia', 'Histoire') }];
+  if (lesson.dictation?.segments?.length)
+    modes.push({ id: 'dictation', label: listeningUiText('Dictado', 'Dictée') });
+  modes.push({ id: 'transcript', label: listeningUiText('Transcripción', 'Transcription') });
+  if (lesson.extra?.phoneticSupport)
+    modes.push({ id: 'pronunciation', label: listeningUiText('Pronunciación', 'Prononciation') });
+  modes.push({ id: 'comprehension', label: listeningUiText('Comprensión', 'Compréhension') });
   return modes;
 }
 
@@ -9049,7 +10518,8 @@ function listeningExtraModeList(lesson) {
 // deliberately excluded - it's Speaking's tab only, never Listening's.
 function listeningHasRichExtras(lesson) {
   return Boolean(
-    lesson.dictation?.segments?.length ||
+    lesson.extra?.mainTranscript ||
+      lesson.dictation?.segments?.length ||
       lesson.extra?.phoneticSupport ||
       lesson.extra?.listeningComprehension?.questions?.length
   );
@@ -9086,16 +10556,15 @@ function listeningDictationSegmentHasAudio(segment) {
 
 function renderListeningDictationPanel(lesson, runtime) {
   const segments = lesson.dictation?.segments || [];
-  if (!segments.length || !segments.some(listeningDictationSegmentHasAudio)) {
+  if (!segments.length || !runtime.hasOfficialAudio) {
     return `
       <div class="listening-dictation listening-dictation-pending">
-        <p class="listening-dictation-pending-message">El dictado de esta lección está pendiente: todavía no hay fragmentos de audio ni marcas de tiempo reales para practicarlo.</p>
+        <p class="listening-dictation-pending-message">El dictado estará disponible cuando se publique el audio oficial de esta lección.</p>
       </div>
     `;
   }
   runtime.dictationAnswers = runtime.dictationAnswers || {};
   const rowsHtml = segments
-    .filter(listeningDictationSegmentHasAudio)
     .map((segment, index) => {
       const value = escapeHtml(runtime.dictationAnswers[segment.id] || '');
       const result = runtime.dictationResults?.segments?.find((r) => String(r.segmentId) === String(segment.id));
@@ -9104,8 +10573,8 @@ function renderListeningDictationPanel(lesson, runtime) {
         : '';
       return `
         <div class="dictation-segment" data-segment-id="${escapeHtml(String(segment.id))}">
-          <span class="dictation-segment-label">Frase ${index + 1}</span>
-          <textarea class="dictation-segment-input" rows="2" placeholder="Escribe lo que escuchas...">${value}</textarea>
+          <span class="dictation-segment-label">${listeningUiText('Frase', 'Phrase')} ${index + 1}</span>
+          <textarea class="dictation-segment-input" rows="2" placeholder="${listeningUiText('Escribe lo que escuchas...', 'Écrivez ce que vous entendez...')}">${value}</textarea>
           ${feedback}
         </div>
       `;
@@ -9119,13 +10588,13 @@ function renderListeningDictationPanel(lesson, runtime) {
       <p class="listening-dictation-intro">Escucha cada frase (usa los controles de velocidad si lo necesitas) y escribe exactamente lo que escuchas.</p>
       ${rowsHtml}
       ${overall}
-      <button type="button" class="secondary-btn listening-dictation-check-btn">Revisar dictado</button>
+      <button type="button" class="secondary-btn listening-dictation-check-btn">${listeningUiText('Revisar dictado', 'Vérifier la dictée')}</button>
     </div>
   `;
 }
 
 async function submitDictationCheck(lesson, runtime, content) {
-  const segments = (lesson.dictation?.segments || []).filter(listeningDictationSegmentHasAudio);
+  const segments = lesson.dictation?.segments || [];
   const attempts = segments.map((segment) => ({
     segmentId: segment.id,
     text: runtime.dictationAnswers?.[segment.id] || ''
@@ -9146,11 +10615,87 @@ async function submitDictationCheck(lesson, runtime, content) {
   }
 }
 
+function renderListeningStoryPanel(lesson, runtime) {
+  const text = runtime.transcript || lesson.extra?.mainTranscript || lesson.transcript || '';
+  return `
+    <article class="listening-story">
+      <div class="listening-story-heading">
+        <div>
+          <span class="listening-story-kicker">${listeningUiText('Apoyo de escucha', "Aide à l'écoute")}</span>
+          <h4>${listeningUiText('Texto de la historia', "Texte de l'histoire")}</h4>
+          <p>${listeningUiText('Intenta comprender el audio antes de desplegar el texto.', "Essayez de comprendre l'audio avant d'afficher le texte.")}</p>
+        </div>
+        <button type="button" class="secondary-btn listening-story-toggle" aria-expanded="${runtime.storyRevealed}">
+          ${runtime.storyRevealed ? listeningUiText('Hide Text', 'Masquer le texte') : listeningUiText('Show Text', 'Afficher le texte')}
+        </button>
+      </div>
+      <div class="listening-story-body" ${runtime.storyRevealed ? '' : 'hidden'}>
+        <p>${escapeHtml(text)}</p>
+      </div>
+    </article>
+  `;
+}
+
+function renderListeningConnectedToolsHtml(lesson, runtime) {
+  const hasComprehension = Boolean(
+    lesson.extra?.listeningComprehension?.questions?.length || lesson.exercises?.length
+  );
+  return `
+    <div class="listening-connected-tools">
+      ${renderListeningStoryPanel(lesson, runtime)}
+      <button type="button" class="listening-vocabulary-link" data-listening-open-vocabulary>
+        <span class="listening-vocabulary-link-icon" aria-hidden="true">🧠</span>
+        <span>
+          <strong>Vocabulary</strong>
+          <small>Estudia las palabras de esta unidad en su actividad completa.</small>
+        </span>
+        <span aria-hidden="true">→</span>
+      </button>
+    </div>
+    ${
+      hasComprehension
+        ? `<section class="listening-comprehension-direct">
+            <div class="listening-section-heading">
+              <span>Comprueba lo que entendiste</span>
+              <h3>Comprensión auditiva</h3>
+            </div>
+            <div class="listening-mode-panel">${renderListeningComprehensionPanel(lesson)}</div>
+          </section>`
+        : ''
+    }
+  `;
+}
+
+function wireListeningConnectedTools(content, lesson, runtime) {
+  const storyButton = content.querySelector('.listening-story-toggle');
+  const storyBody = content.querySelector('.listening-story-body');
+  storyButton?.addEventListener('click', () => {
+    runtime.storyRevealed = !runtime.storyRevealed;
+    if (storyBody) storyBody.hidden = !runtime.storyRevealed;
+    storyButton.setAttribute('aria-expanded', String(runtime.storyRevealed));
+    storyButton.textContent = runtime.storyRevealed
+      ? listeningUiText('Hide Text', 'Masquer le texte')
+      : listeningUiText('Show Text', 'Afficher le texte');
+  });
+
+  content.querySelector('[data-listening-open-vocabulary]')?.addEventListener('click', () => {
+    const vocabularyLesson = getUnitActivities(lesson.unitId).find((item) => item.skill === 'vocabulary');
+    if (vocabularyLesson) {
+      openUnitSequenceStep('vocabulary', vocabularyLesson.slug);
+      return;
+    }
+    showHomeToast('La actividad de Vocabulary de esta unidad estará disponible próximamente.');
+  });
+}
+
 function wireListeningModePanel(content, lesson, runtime) {
   const panel = content.querySelector('.listening-mode-panel');
   if (!panel) return;
-  if (runtime.extraMode === 'dictation') panel.innerHTML = renderListeningDictationPanel(lesson, runtime);
+  if (runtime.extraMode === 'story')
+    panel.innerHTML = renderListeningStoryPanel(lesson, runtime);
+  else if (runtime.extraMode === 'dictation') panel.innerHTML = renderListeningDictationPanel(lesson, runtime);
   else if (runtime.extraMode === 'transcript') panel.innerHTML = renderListeningTranscriptPanel();
+  else if (runtime.extraMode === 'pronunciation') panel.innerHTML = renderListeningPronunciationPanel(lesson);
   else if (runtime.extraMode === 'comprehension') panel.innerHTML = renderListeningComprehensionPanel(lesson);
 
   if (runtime.extraMode === 'transcript') {
@@ -9159,6 +10704,11 @@ function wireListeningModePanel(content, lesson, runtime) {
     renderListeningTranscriptControls(content, lesson, runtime);
     wireListeningTranscriptToggles(panel);
   }
+
+  panel.querySelector('.listening-story-toggle')?.addEventListener('click', () => {
+    runtime.storyRevealed = !runtime.storyRevealed;
+    wireListeningModePanel(content, lesson, runtime);
+  });
 
   panel.querySelectorAll('.dictation-segment-input').forEach((el) => {
     el.addEventListener('input', () => {
@@ -9191,6 +10741,7 @@ function wireListeningExtraModes(content, lesson, runtime) {
 }
 
 function renderListeningOfficial(content, lesson, runtime, audio, status = 'official') {
+  runtime.hasOfficialAudio = true;
   // Scored Comprehension (extra.listeningComprehension) replaces the old
   // "Completar" button the same way Grammar's scored test replaced its
   // old completion flow - submitting the test inside the Comprensión tab
@@ -9207,14 +10758,13 @@ function renderListeningOfficial(content, lesson, runtime, audio, status = 'offi
     <div class="listening-meta-row">
       <span class="listening-meta-item">Objetivo: ${escapeHtml(objective)}</span>
       <span class="listening-meta-item">Duración: ${escapeHtml(durationLabel)}</span>
-      ${status === 'partial' ? '<span class="listening-meta-item listening-meta-partial">Audio lento no disponible todavía</span>' : ''}
     </div>
-    ${buildListeningPlayerMarkup({ sourceLabel: 'Audio oficial', title: lesson.title })}
-    <div class="listening-vocab">
-      <strong>Vocabulario</strong>
-      <div class="listening-vocab-list">${(lesson.vocabulary || []).map((item) => `<span class="listening-vocab-item">${escapeHtml(item.word)}<small>${escapeHtml(resolveVocabTranslation(item))}</small></span>`).join('')}</div>
-    </div>
-    ${renderListeningExtraModesHtml(lesson, runtime)}
+    ${buildListeningPlayerMarkup({
+      sourceLabel: 'Audio oficial',
+      title: lesson.title,
+      hasSlowVariant: Boolean(audio.slowAudioUrl || audio.verySlowAudioUrl)
+    })}
+    ${renderListeningConnectedToolsHtml(lesson, runtime)}
     <div class="skill-view-tutor-cta">
       ${listeningTutorButtonsHtml(lesson, { transcript: audio.transcript, vocabulary: (lesson.vocabulary || []).map((v) => v.word).join(', '), ...tutorCtx })}
     </div>
@@ -9231,9 +10781,9 @@ function renderListeningOfficial(content, lesson, runtime, audio, status = 'offi
     mainUrl: audio.audioUrl,
     slowUrl: audio.slowAudioUrl,
     verySlowUrl: audio.verySlowAudioUrl,
-    transcript: audio.transcript
+    transcript: audio.transcript || lesson.extra?.mainTranscript
   });
-  wireListeningExtraModes(content, lesson, runtime);
+  wireListeningConnectedTools(content, lesson, runtime);
   content
     .querySelector('.listening-complete-btn')
     ?.addEventListener('click', () => completeListeningLesson(lesson, content));
@@ -9286,16 +10836,20 @@ function renderListeningAudioPendingBannerHtml({ icon, title, detail, actionsHtm
 // misleading). Other tabs (Dictado/Transcripción y pronunciación/
 // Comprensión) stay available below when the lesson already has that content.
 function renderListeningUnavailable(content, lesson, runtime) {
+  runtime.hasOfficialAudio = false;
   const hasExtras = listeningHasRichExtras(lesson);
 
   content.innerHTML = hasExtras
     ? renderListeningAudioPendingBannerHtml({
         icon: '🎧',
-        title: 'Audio oficial no disponible todavía.',
+        title:
+          learningPathState.language === 'french'
+            ? 'Audio officiel bientôt disponible'
+            : 'Audio oficial no disponible todavía.',
         detail:
-          'Mientras tanto, ya puedes practicar con el dictado, transcripción y pronunciación, y comprensión de esta lección.',
+          'El audio todavía no está publicado. Puedes revisar el texto o continuar con Vocabulary y comprensión.',
         actionsHtml: ''
-      }) + renderListeningExtraModesHtml(lesson, runtime)
+      }) + renderListeningConnectedToolsHtml(lesson, runtime)
     : `
       <div class="listening-status-card">
         <div class="listening-status-icon" aria-hidden="true">🎧</div>
@@ -9303,7 +10857,7 @@ function renderListeningUnavailable(content, lesson, runtime) {
       </div>
     `;
 
-  if (hasExtras) wireListeningExtraModes(content, lesson, runtime);
+  if (hasExtras) wireListeningConnectedTools(content, lesson, runtime);
 }
 
 function renderListeningError(content, lesson, section, message) {
@@ -9407,8 +10961,8 @@ function tutorDrawerFocusTrapHandler(event) {
 
 // ---------------------------------------------------------------------
 // Tutor hands-free voice conversation mode (Premium-only): arms the
-// drawer's mic button to listen continuously, auto-send 2s after the
-// student stops talking (see startTutorDictation's continuous/silenceMs
+// drawer's mic button to listen continuously, auto-sends after a short
+// natural pause (see startTutorDictation's continuous/silenceMs
 // options below), and automatically resume listening once the tutor's
 // spoken reply finishes (see resumeTutorConversationListening, wired from
 // sendTutorMessage/requestTutorSpeech). Off by default every time the
@@ -9416,6 +10970,27 @@ function tutorDrawerFocusTrapHandler(event) {
 // mic "armed" across sessions.
 // ---------------------------------------------------------------------
 let tutorConversationMode = false;
+const TUTOR_CONVERSATION_SILENCE_MS = 700;
+
+function tutorReplyEndsWithQuestion(text) {
+  return /[?？]\s*["'»”’)\]]*\s*$/.test(String(text || '').trim());
+}
+
+// When a spoken drawer reply ends with a question, the next student turn is
+// ready immediately: the Hablar button enters its active/listening state and
+// the microphone starts. This also works outside Premium conversation mode
+// after an explicitly played question; only the continuous hands-free loop
+// itself remains Premium.
+function activateTutorMicAfterQuestion(messageEl) {
+  if (!messageEl?.closest?.('#tutorDrawer')) return;
+  const drawer = document.getElementById('tutorDrawer');
+  if (!drawer?.classList.contains('open') || tutorDictation.status === 'listening') return;
+  startTutorDictation('tutorDrawerPrompt', {
+    continuous: true,
+    silenceMs: TUTOR_CONVERSATION_SILENCE_MS,
+    autoSend: true
+  });
+}
 
 function updateTutorConversationToggleUI() {
   const toggle = document.getElementById('tutorConversationToggle');
@@ -9463,7 +11038,11 @@ function resumeTutorConversationListening() {
   if (!tutorConversationMode) return;
   const drawer = document.getElementById('tutorDrawer');
   if (!drawer || !drawer.classList.contains('open')) return;
-  startTutorDictation('tutorDrawerPrompt', { continuous: true, silenceMs: 2000, autoSend: true });
+  startTutorDictation('tutorDrawerPrompt', {
+    continuous: true,
+    silenceMs: TUTOR_CONVERSATION_SILENCE_MS,
+    autoSend: true
+  });
 }
 
 function openTutorDrawer(overrides = {}) {
@@ -9775,6 +11354,52 @@ function getUnitsForLanguageLevel(language, level) {
   return units.filter((unit) => unit.level === level).sort((a, b) => a.order - b.order);
 }
 
+async function loadUnitVerbProgress() {
+  learningPathState.verbProgressByUnit = {};
+  if (!authStatus.session?.access_token || !learningPathState.units.length) return;
+  try {
+    const params = new URLSearchParams({
+      language: learningPathState.language,
+      level: learningPathState.level
+    });
+    const response = await authFetch(`${backendBaseUrl}/api/verbs/unit-progress?${params}`);
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.error || 'Could not load verb progress');
+    learningPathState.verbProgressByUnit = (data.progress || []).reduce((map, row) => {
+      if (row.unitSlug) map[row.unitSlug] = row;
+      return map;
+    }, {});
+  } catch (error) {
+    console.warn('Could not load unit Verb progress', error);
+  }
+}
+
+window.recordUnitVerbScore = async function recordUnitVerbScore(score) {
+  if (!authStatus.session?.access_token || !learningPathState.unitId) return null;
+  const response = await authFetch(`${backendBaseUrl}/api/verbs/unit-progress`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      language: learningPathState.language,
+      level: learningPathState.level,
+      unitSlug: learningPathState.unitId,
+      score
+    })
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(data.error || 'No se pudo guardar el score de Verbos.');
+  learningPathState.verbProgressByUnit[learningPathState.unitId] = {
+    unitSlug: learningPathState.unitId,
+    status: 'completed',
+    bestScore: data.bestScore,
+    lastScore: data.score,
+    attemptsCount: data.attemptsCount
+  };
+  renderLearningPath();
+  loadDashboard();
+  return data;
+};
+
 async function loadLearningPath(options = {}) {
   // Changing language or level always invalidates whatever reading is
   // currently attached to the audio player, even if the user isn't on
@@ -9784,6 +11409,8 @@ async function loadLearningPath(options = {}) {
   learningPathState.language = options.language || learningPathState.language;
   learningPathState.level = options.level || learningPathState.level;
   syncLearningMode();
+  applyInterfaceLanguage(learningPathState.bridgeLanguage);
+  updatePathPairPreview();
   learningPathState.units = getUnitsForLanguageLevel(
     learningPathState.language,
     learningPathState.level
@@ -9830,6 +11457,7 @@ async function loadLearningPath(options = {}) {
     learningPathState.lessons = data.lessons?.length
       ? data.lessons
       : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
+    await loadUnitVerbProgress();
     applyLoadedSelection();
     renderLearningPath();
   } catch (error) {
@@ -9838,6 +11466,7 @@ async function loadLearningPath(options = {}) {
       learningPathState.language,
       learningPathState.level
     );
+    await loadUnitVerbProgress();
     applyLoadedSelection();
     renderLearningPath();
   }
@@ -9914,6 +11543,9 @@ async function completeActiveLesson() {
     }
 
     activeLesson.completed = true;
+    if (data.bestScore != null) activeLesson.bestScore = data.bestScore;
+    else if (data.score != null)
+      activeLesson.bestScore = Math.max(Number(activeLesson.bestScore || 0), Number(data.score));
     updateProgressDisplay(data, true);
     renderLearningPath();
 
@@ -10147,7 +11779,7 @@ const VIEW_SECTIONS = {
   // 'upgrade' case, which stays on/goes to 'home' and scrolls to it instead
   // of routing to a dedicated 'premium' view.
   home: ['.hero', '#language-picker', '#premium'],
-  learn: ['#learning-path'],
+  learn: ['#language-picker', '#learning-path'],
   progress: ['#progress'],
   achievements: ['#achievements'],
   security: ['#security'],
@@ -10172,7 +11804,7 @@ const VIEW_SECTIONS = {
 // normal Tab order.
 const VIEW_TITLE_SELECTORS = {
   home: '.hero-content h2',
-  learn: '#learning-path h2',
+  learn: '#language-picker h2',
   progress: '#progress h2',
   achievements: '#achievements h2',
   security: '#security h2',
@@ -10248,15 +11880,21 @@ function showView(viewId) {
   // playing in the background (also a no-op when nothing is attached).
   readingSpeechPlayer.teardown();
 
-  Object.entries(VIEW_SECTIONS).forEach(([id, selectors]) => {
-    const active = id === resolved;
-    selectors.forEach((selector) =>
-      document.querySelectorAll(selector).forEach((el) => {
-        el.classList.toggle('compact-hidden-section', !active);
-        el.hidden = !active;
-        el.setAttribute('aria-hidden', String(!active));
-      })
+  const allViewElements = new Set();
+  Object.values(VIEW_SECTIONS)
+    .flat()
+    .forEach((selector) =>
+      document.querySelectorAll(selector).forEach((element) => allViewElements.add(element))
     );
+  const activeViewElements = new Set();
+  VIEW_SECTIONS[resolved].forEach((selector) =>
+    document.querySelectorAll(selector).forEach((element) => activeViewElements.add(element))
+  );
+  allViewElements.forEach((element) => {
+    const active = activeViewElements.has(element);
+    element.classList.toggle('compact-hidden-section', !active);
+    element.hidden = !active;
+    element.setAttribute('aria-hidden', String(!active));
   });
 
   document.querySelectorAll('.nav-group a[href^="#"]').forEach((link) => {
@@ -10343,7 +11981,10 @@ function showView(viewId) {
   if (resolved === 'translator') syncTranslatorLanguagesFromState();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
-  if (resolved === 'verbs') window.renderVerbsView?.();
+  if (resolved === 'verbs') {
+    window.renderVerbsView?.();
+    renderUnitVerbContext();
+  }
   if (SKILL_VIEWS.includes(resolved)) renderSkillView(resolved);
 
   // Normalizes the hash to reflect the state that actually just rendered -
@@ -10548,14 +12189,18 @@ function enableHomepageActions() {
     const dictateBtn = event.target.closest('.tutor-dictate-btn');
     if (dictateBtn) {
       const target = dictateBtn.dataset.dictateTarget;
-      // Every mic use on the Tutor (drawer or in-page) waits ~2s of silence
-      // after the student stops talking and then sends automatically - not
+      // Every mic use on the Tutor (drawer or in-page) detects a short
+      // natural pause and then sends automatically - not
       // only the Premium hands-free "Conversar" mode. What's still
       // Premium-only is resumeTutorConversationListening auto-re-arming the
       // mic after the tutor's reply finishes (see sendTutorMessage's
       // shouldForceSpeech) - a single recording auto-sending on silence is
       // not that.
-      startTutorDictation(target, { continuous: true, silenceMs: 2000, autoSend: true });
+      startTutorDictation(target, {
+        continuous: true,
+        silenceMs: TUTOR_CONVERSATION_SILENCE_MS,
+        autoSend: true
+      });
       return;
     }
     const dictateStopBtn = event.target.closest('.tutor-dictate-stop-btn');
@@ -10719,8 +12364,8 @@ function enableHomepageActions() {
     }
 
     // Reading comprehension quiz (see renderReadingComprehensionQuiz above):
-    // selecting an option only stores the pick locally (radio-like - picking
-    // another option in the same question swaps it, nothing is graded yet).
+    // every selection is checked immediately, while "Evaluar" remains the
+    // final score/summary action after all items have individual feedback.
     const readingCompOption = event.target.closest('.reading-comp-option');
     if (readingCompOption) {
       if (readingCompOption.disabled) return;
@@ -10732,12 +12377,70 @@ function enableHomepageActions() {
       if (runtime.graded || runtime.grading) return;
 
       const exerciseIndex = Number(questionItem.dataset.exerciseIndex);
+      const lesson = learningPathState.lessons.find((item) => item.slug === slug);
+      const exercise = lesson?.exercises?.[exerciseIndex];
+      if (!lesson || !exercise || runtime.results[exerciseIndex]) return;
+
       runtime.selections[exerciseIndex] = readingCompOption.dataset.optionKey;
+      runtime.gradingItems[exerciseIndex] = true;
       runtime.error = '';
 
       const currentView = getViewFromHash();
       if (SKILL_VIEWS.includes(currentView)) {
         renderSkillView(currentView);
+      } else {
+        renderLessonWorkspace();
+      }
+
+      try {
+        const selected = runtime.selections[exerciseIndex];
+        const payload = exercise.id
+          ? { exerciseId: exercise.id, selectedOptionId: selected }
+          : { index: exerciseIndex, selectedOption: Number(selected) };
+        const response = await fetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(data.error || 'No se pudo comprobar la respuesta.');
+
+        const correctKey = data.correctOption ?? data.correctOptionId ?? null;
+        const correctOptionIndex = (exercise.options || []).findIndex(
+          (option, optionIndex) =>
+            String(optionKey(option, optionIndex)) === String(correctKey)
+        );
+        runtime.results[exerciseIndex] = {
+          correct: Boolean(data.correct),
+          correctOption: correctKey,
+          correctLabel:
+            correctOptionIndex >= 0
+              ? `${String.fromCharCode(65 + correctOptionIndex)}. ${optionLabel(exercise.options[correctOptionIndex])}`
+              : '',
+          selectedOption: selected
+        };
+        learningPathState.exerciseResults[slug] =
+          learningPathState.exerciseResults[slug] || {};
+        learningPathState.exerciseResults[slug][exerciseIndex] = {
+          selectedOption: selected,
+          correct: Boolean(data.correct)
+        };
+        if (data.correct) {
+          window.AndergoGamification?.recordSkillTouched(
+            'reading',
+            learningPathState.language
+          );
+          window.AndergoGamification?.recordCorrectAnswer();
+        }
+      } catch (error) {
+        delete runtime.selections[exerciseIndex];
+        runtime.error = error.message || 'No se pudo comprobar la respuesta.';
+      } finally {
+        delete runtime.gradingItems[exerciseIndex];
+      }
+
+      if (SKILL_VIEWS.includes(getViewFromHash())) {
+        renderSkillView(getViewFromHash());
       } else {
         renderLessonWorkspace();
       }
@@ -10758,10 +12461,61 @@ function enableHomepageActions() {
         .map((item, exerciseIndex) => ({ item, exerciseIndex }))
         .filter(({ item }) => item.type === 'mcq' && !isTrueFalseExercise(item));
       const unanswered = comprehensionEntries.some(
-        ({ exerciseIndex }) => runtime.selections[exerciseIndex] == null
+        ({ exerciseIndex }) =>
+          runtime.selections[exerciseIndex] == null ||
+          runtime.results[exerciseIndex] == null
       );
       if (unanswered || runtime.grading) return;
 
+      runtime.graded = true;
+      runtime.error = '';
+      if (authStatus.session?.access_token) {
+        runtime.grading = true;
+        try {
+          const answers = (lesson.exercises || []).map((item, exerciseIndex) => ({
+            exerciseId: item.id,
+            selectedOptionId: item.type === 'mcq' ? runtime.selections[exerciseIndex] : undefined,
+            practiced: item.type !== 'mcq'
+          }));
+          const response = await fetch(`${backendBaseUrl}/api/lessons/${slug}/complete`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', ...authHeaders() },
+            body: JSON.stringify({ answers })
+          });
+          const data = await response.json().catch(() => ({}));
+          if (!response.ok) throw new Error(data.error || 'No se pudo guardar la evaluación.');
+          lesson.completed = true;
+          runtime.serverResult = data;
+          updateProgressDisplay(data, true);
+          renderSkillCards();
+          window.AndergoGamification?.recordLessonCompletion({
+            slug: lesson.slug,
+            language: learningPathState.language,
+            score: data.score,
+            xpReward: lesson.xpReward || 20
+          });
+          window.AndergoGamification?.syncFromServer(data);
+          if (data.newBadges?.length)
+            data.newBadges.forEach((badge) => showCelebration(`🏅 ¡Insignia desbloqueada! ${badge.label}`));
+          showHomeToast(`Evaluación completada. +${data.earnedXp || lesson.xpReward || 20} XP`);
+        } catch (error) {
+          runtime.error = error.message || 'No se pudo guardar la evaluación.';
+        } finally {
+          runtime.grading = false;
+        }
+      }
+      const summaryView = getViewFromHash();
+      if (SKILL_VIEWS.includes(summaryView)) {
+        renderSkillView(summaryView);
+      } else {
+        renderLessonWorkspace();
+      }
+      return;
+
+      /*
+       * Legacy batch-grading fallback retained below for reference while
+       * older cached clients age out. New clients grade each item on click.
+       */
       runtime.grading = true;
       runtime.error = '';
       readingCompSubmitBtn.disabled = true;
@@ -10835,6 +12589,13 @@ function enableHomepageActions() {
       return;
     }
 
+    const readingCompSignupBtn = event.target.closest('.reading-comp-signup-btn');
+    if (readingCompSignupBtn) {
+      setAuthMessage('Crea tu cuenta gratis para guardar tu nota, XP y logros.');
+      openModal('signup');
+      return;
+    }
+
     // "Intentar de nuevo": clears selections/results and returns the score
     // to zero without touching the questions themselves or re-fetching the
     // reading (see resetReadingComprehensionRuntime above).
@@ -10896,6 +12657,22 @@ function enableHomepageActions() {
       });
       grammarTestOption.classList.add('is-selected');
       grammarTestOption.setAttribute('aria-pressed', 'true');
+      const ctx = getGrammarTestContext(grammarTestOption);
+      const questionId = grammarTestOption.closest('.grammar-test-question-item')?.dataset.questionId;
+      if (ctx && questionId) {
+        ctx.runtime.answers[questionId] = grammarTestOption.dataset.optionId;
+        const answered = ctx.test.questions.filter((question) => ctx.runtime.answers[question.id] != null).length;
+        const total = ctx.test.questions.length;
+        const progress = total ? Math.round((answered / total) * 100) : 0;
+        const counter = ctx.content.querySelector('.grammar-test-counter');
+        const progressBar = ctx.content.querySelector('.grammar-test-progress-bar div');
+        const warning = ctx.content.querySelector('.grammar-test-review-warning');
+        const submit = ctx.content.querySelector('.grammar-test-submit-btn');
+        if (counter) counter.textContent = `${answered} of ${total} answered`;
+        if (progressBar) progressBar.style.width = `${progress}%`;
+        if (warning) warning.hidden = answered === total;
+        if (submit) submit.disabled = answered !== total;
+      }
       return;
     }
 
@@ -10953,8 +12730,8 @@ function enableHomepageActions() {
       if (!ctx || grammarTestSubmitBtn.disabled) return;
 
       if (!authStatus.session?.access_token) {
-        setAuthMessage('Crea tu cuenta gratis para guardar el resultado de tu prueba.');
-        openModal('signup');
+        setAuthMessage('Inicia sesión para guardar el resultado de tu prueba.');
+        openModal('login');
         return;
       }
 
@@ -10964,9 +12741,9 @@ function enableHomepageActions() {
 
       try {
         const answers = test.questions.map((q) => ({ questionId: q.id, answer: runtime.answers[q.id] }));
-        const response = await fetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/complete`, {
+        const response = await authFetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/complete`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json', ...authHeaders() },
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ answers })
         });
         const data = await response.json().catch(() => ({}));
@@ -11089,8 +12866,8 @@ function enableHomepageActions() {
       if (!ctx || listeningCompSubmitBtn.disabled) return;
 
       if (!authStatus.session?.access_token) {
-        setAuthMessage('Crea tu cuenta gratis para guardar el resultado de esta prueba.');
-        openModal('signup');
+        setAuthMessage('Inicia sesión para guardar el resultado de esta prueba.');
+        openModal('login');
         return;
       }
 
@@ -11100,9 +12877,9 @@ function enableHomepageActions() {
 
       try {
         const answers = bank.questions.map((q) => ({ questionId: q.id, answer: runtime.answers[q.id] }));
-        const response = await fetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/complete`, {
+        const response = await authFetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/complete`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json', ...authHeaders() },
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ answers })
         });
         const data = await response.json().catch(() => ({}));
@@ -11110,6 +12887,7 @@ function enableHomepageActions() {
 
         lesson.completed = true;
         if (data.bestScore != null) lesson.listeningComprehensionBestScore = data.bestScore;
+        if (data.bestScore != null) lesson.bestScore = data.bestScore;
         updateProgressDisplay(data, true);
         renderSkillCards();
         window.AndergoGamification?.recordLessonCompletion({
@@ -11311,6 +13089,24 @@ function enableHomepageActions() {
       return;
     }
 
+    const readingSizeButton = event.target.closest('.reading-size-btn');
+    if (readingSizeButton) {
+      const area = readingSizeButton.closest('.reading-print-area');
+      const preferences = getReadingDisplayPreferences();
+      preferences.size = readingSizeButton.dataset.readingSize;
+      applyReadingDisplayPreferences(area, preferences);
+      setReadingDisplayPreferences(preferences);
+      return;
+    }
+    const readingAlignButton = event.target.closest('.reading-align-btn');
+    if (readingAlignButton) {
+      const area = readingAlignButton.closest('.reading-print-area');
+      const preferences = getReadingDisplayPreferences();
+      preferences.alignment = preferences.alignment === 'justify' ? 'left' : 'justify';
+      applyReadingDisplayPreferences(area, preferences);
+      setReadingDisplayPreferences(preferences);
+      return;
+    }
     const readingToggleVocab = event.target.closest('.reading-toggle-vocab');
     if (readingToggleVocab) {
       const list = readingToggleVocab
@@ -11319,27 +13115,38 @@ function enableHomepageActions() {
       if (list) {
         list.hidden = !list.hidden;
         readingToggleVocab.textContent = list.hidden ? 'Ver vocabulario' : 'Ocultar vocabulario';
+        readingToggleVocab.setAttribute('aria-expanded', String(!list.hidden));
       }
       return;
     }
-    const readingShowSupport = event.target.closest('.reading-show-support');
-    if (readingShowSupport) {
-      const area = readingShowSupport.closest('.reading-print-area');
-      area?.querySelectorAll('.reading-vocab-support').forEach((el) => {
-        el.hidden = false;
+    const readingToggleSupport = event.target.closest('.reading-toggle-support');
+    if (readingToggleSupport) {
+      const area = readingToggleSupport.closest('.reading-print-area');
+      const showSupport = readingToggleSupport.getAttribute('aria-pressed') !== 'true';
+      const vocabList = area?.querySelector('.reading-vocab-list');
+      area?.querySelectorAll('.reading-vocab-support').forEach((element) => {
+        element.hidden = !showSupport;
       });
-      readingShowSupport.hidden = true;
-      area?.querySelector('.reading-hide-support')?.removeAttribute('hidden');
+      if (showSupport && vocabList) {
+        vocabList.hidden = false;
+        const vocabButton = area.querySelector('.reading-toggle-vocab');
+        if (vocabButton) {
+          vocabButton.textContent = 'Ocultar vocabulario';
+          vocabButton.setAttribute('aria-expanded', 'true');
+        }
+      }
+      readingToggleSupport.setAttribute('aria-pressed', String(showSupport));
+      readingToggleSupport.textContent = showSupport
+        ? learningPathState.language === 'french'
+          ? "Masquer l'aide en espagnol"
+          : 'Ocultar ayuda en español'
+        : learningPathState.language === 'french'
+          ? "Afficher l'aide en espagnol"
+          : 'Mostrar ayuda en español';
       return;
     }
-    const readingHideSupport = event.target.closest('.reading-hide-support');
-    if (readingHideSupport) {
-      const area = readingHideSupport.closest('.reading-print-area');
-      area?.querySelectorAll('.reading-vocab-support').forEach((el) => {
-        el.hidden = true;
-      });
-      readingHideSupport.hidden = true;
-      area?.querySelector('.reading-show-support')?.removeAttribute('hidden');
+    if (event.target.closest('.reading-word-btn')) {
+      downloadReadingWord(getActiveLearningLesson());
       return;
     }
     if (event.target.closest('.reading-print-btn') || event.target.closest('.skill-print-btn')) {
@@ -11351,6 +13158,26 @@ function enableHomepageActions() {
       } catch {
         showHomeToast('No pudimos generar el PDF. Inténtalo nuevamente.');
       }
+      return;
+    }
+
+    const vocabTranslationButton = event.target.closest('.vocab-l1-translation-btn');
+    if (vocabTranslationButton) {
+      const activeSection = vocabTranslationButton.closest('.skill-view-section');
+      const activeLesson = activeSection ? getActiveLearningLesson() : null;
+      if (!activeSection || !activeLesson) return;
+      vocabL1TranslationVisible = !vocabL1TranslationVisible;
+      if (vocabL1TranslationVisible) {
+        vocabTranslationButton.disabled = true;
+        vocabTranslationButton.textContent = isFrenchAdvancedImmersion()
+          ? 'Traduction en cours…'
+          : 'Traduciendo…';
+        await loadMissingAdvancedVocabTranslations(
+          vocabPracticeSources.get(activeLesson.slug) || [],
+          activeLesson.slug
+        );
+      }
+      renderVocabularyView(activeSection, activeLesson);
       return;
     }
 
@@ -11622,6 +13449,20 @@ function setupLearningPathControls() {
   document
     .getElementById('pathSwapLanguagesBtn')
     ?.addEventListener('click', () => swapLearningPathLanguages());
+  document.getElementById('pathStartLearningBtn')?.addEventListener('click', async () => {
+    const language = languageSelect?.value || learningPathState.language;
+    const level = levelSelect?.value || learningPathState.level;
+    await loadLearningPath({ language, level });
+    savePreferences(language, level);
+    if (getViewFromHash() !== 'learn') {
+      history.pushState(null, '', '#learn');
+      showView('learn');
+    }
+    updateLearnHash('learn');
+    document.getElementById('learning-path')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.querySelector('#learning-path h2')?.focus({ preventScroll: true });
+  });
+  updateStartLearningButton();
 }
 
 function initScrollReveal() {
@@ -12419,11 +14260,84 @@ function setupCorrector() {
   });
 }
 
+function initHeroCopyCarousel() {
+  const carousel = document.querySelector('.hero-copy-carousel');
+  if (!carousel) return;
+
+  const slides = [...carousel.querySelectorAll('[data-hero-slide]')];
+  const controls = [...carousel.querySelectorAll('[data-hero-carousel]')];
+  if (slides.length < 2) return;
+
+  let activeIndex = slides.findIndex((slide) => slide.classList.contains('is-active'));
+  activeIndex = activeIndex < 0 ? 0 : activeIndex;
+  let rotationId = null;
+
+  const activateSlide = (nextIndex) => {
+    activeIndex = (nextIndex + slides.length) % slides.length;
+    slides.forEach((slide, index) => {
+      const isActive = index === activeIndex;
+      slide.classList.toggle('is-active', isActive);
+      slide.setAttribute('aria-hidden', String(!isActive));
+    });
+    controls.forEach((control) => {
+      const target = Number(control.dataset.heroCarousel);
+      if (Number.isNaN(target)) return;
+      const isActive = target === activeIndex;
+      control.classList.toggle('is-active', isActive);
+      control.setAttribute('aria-selected', String(isActive));
+    });
+  };
+
+  const stopRotation = () => {
+    if (rotationId) window.clearInterval(rotationId);
+    rotationId = null;
+  };
+  const startRotation = () => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    stopRotation();
+    rotationId = window.setInterval(() => activateSlide(activeIndex + 1), 6500);
+  };
+
+  controls.forEach((control) => {
+    control.addEventListener('click', () => {
+      const action = control.dataset.heroCarousel;
+      if (action === 'previous') activateSlide(activeIndex - 1);
+      else if (action === 'next') activateSlide(activeIndex + 1);
+      else activateSlide(Number(action));
+      startRotation();
+    });
+  });
+
+  carousel.addEventListener('mouseenter', stopRotation);
+  carousel.addEventListener('mouseleave', startRotation);
+  carousel.addEventListener('focusin', stopRotation);
+  carousel.addEventListener('focusout', (event) => {
+    if (!carousel.contains(event.relatedTarget)) startRotation();
+  });
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) stopRotation();
+    else startRotation();
+  });
+  startRotation();
+}
+
+document.addEventListener('change', (event) => {
+  const fontSelect = event.target.closest?.('.reading-font-select');
+  if (!fontSelect) return;
+  const area = fontSelect.closest('.reading-print-area');
+  const preferences = getReadingDisplayPreferences();
+  preferences.font = fontSelect.value === 'times' ? 'times' : 'arial';
+  applyReadingDisplayPreferences(area, preferences);
+  setReadingDisplayPreferences(preferences);
+});
+
 enableHomepageActions();
+initHeroCopyCarousel();
 loadProgress();
 setupLearningPathControls();
 setupTranslator();
 setupCorrector();
+setupReadingSelectionTranslator();
 initScrollReveal();
 
 // Reached only via the link Supabase emails (authService's

@@ -19,5 +19,10 @@ git_check.txt
 # Temporary duplicate files
 * (2).*
 
+# Local agent worktrees and verification artifacts
+.claude/
+output/
+tmp/
+
 .vercel
 .env*

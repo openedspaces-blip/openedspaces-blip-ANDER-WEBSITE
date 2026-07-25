@@ -138,13 +138,6 @@
   // mode is same-language by definition), so french's target is always
   // "français" - needs its definite article ("le français"), unlike the
   // other two languages' bare noun forms.
-  const PAIR_SENTENCE_DIRECT = {
-    spanish: (target) => `Aprenderás ${target} mediante inmersión y definiciones en ${target}.`,
-    english: (target) => `You will learn ${target} through immersion and ${target} definitions.`,
-    french: (target) =>
-      `Vous apprendrez ${target === 'français' ? 'le français' : target} par immersion et avec des définitions en ${target}.`
-  };
-
   // General-purpose UI-chrome dictionary (spec §2: L1 controls navigation,
   // buttons, instructions, system messages, dashboard, auth, Premium, tutor,
   // translator, footer, About...). Unlike INTERFACE_LABELS above (7 keys,
@@ -237,8 +230,6 @@
       skillNotAvailableLevel: 'No disponible en este nivel',
       vocabSynonyms: 'Sinónimos',
       vocabOpposites: 'Antónimos',
-      directModeBadge: 'Método directo',
-      bilingualModeBadge: 'Modo bilingüe',
       verbsBadge: 'Verbos',
       verbsTitle: 'Los verbos más frecuentes en inglés',
       verbsDescription: 'Aprende, conjuga y practica los verbos más frecuentes en inglés.',
@@ -327,8 +318,6 @@
       skillNotAvailableLevel: 'Not available at this level',
       vocabSynonyms: 'Synonyms',
       vocabOpposites: 'Opposites',
-      directModeBadge: 'Direct method',
-      bilingualModeBadge: 'Bilingual mode',
       verbsBadge: 'Verbs',
       verbsTitle: 'The most common verbs in English',
       verbsDescription: 'Learn, conjugate, and practice the most common verbs in English.',
@@ -418,8 +407,6 @@
       skillNotAvailableLevel: 'Non disponible à ce niveau',
       vocabSynonyms: 'Synonymes',
       vocabOpposites: 'Contraires',
-      directModeBadge: 'Méthode directe',
-      bilingualModeBadge: 'Mode bilingue',
       verbsBadge: 'Verbes',
       verbsTitle: 'Les verbes les plus fréquents en anglais',
       verbsDescription: 'Apprends, conjugue et pratique les verbes anglais les plus courants.',
@@ -551,10 +538,6 @@
     // Reuses getLearningMode() rather than re-comparing bridge/target here,
     // so this stays the one place that decision is made (integration-audit
     // requirement: don't duplicate the bridge===target comparison).
-    if (getLearningMode(bridgeLanguage, targetLanguage) === 'direct') {
-      const directSentence = PAIR_SENTENCE_DIRECT[uiLanguage] || PAIR_SENTENCE_DIRECT.spanish;
-      return directSentence(targetName);
-    }
     const sentence = PAIR_SENTENCE[uiLanguage] || PAIR_SENTENCE.spanish;
     const bridgeName = languageNameIn(uiLanguage, bridgeLanguage);
     return sentence(targetName, bridgeName);
@@ -593,10 +576,7 @@
     { bridge: 'spanish', target: 'french' },
     { bridge: 'french', target: 'spanish' },
     { bridge: 'french', target: 'english' },
-    { bridge: 'english', target: 'french' },
-    { bridge: 'spanish', target: 'spanish' },
-    { bridge: 'english', target: 'english' },
-    { bridge: 'french', target: 'french' }
+    { bridge: 'english', target: 'french' }
   ];
 
   // True only for a bridge/target pair that's both (a) two known languages

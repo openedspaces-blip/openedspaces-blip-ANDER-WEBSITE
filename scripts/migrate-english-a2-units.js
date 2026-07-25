@@ -209,6 +209,25 @@ async function main() {
         if (optionsError) throw new Error(`exercise_options (${row.slug} #${index}): ${optionsError.message}`);
       }
     }
+
+    await supabase.from('lesson_dictation_segments').delete().eq('lesson_id', lesson.id);
+    const dictationSegments = content.dictation?.segments || [];
+    if (dictationSegments.length) {
+      const { error: dictationError } = await supabase.from('lesson_dictation_segments').insert(
+        dictationSegments.map((segment, index) => ({
+          lesson_id: lesson.id,
+          order_index: segment.order ?? index,
+          text: segment.text,
+          start_time: segment.startTime ?? null,
+          end_time: segment.endTime ?? null,
+          normal_file_path: segment.normalAudioUrl ?? null,
+          slow_file_path: segment.slowAudioUrl ?? null,
+          very_slow_file_path: segment.verySlowAudioUrl ?? null
+        }))
+      );
+      if (dictationError)
+        throw new Error(`lesson_dictation_segments (${row.slug}): ${dictationError.message}`);
+    }
   }
 
   // Remove old course_lessons for this course that are no longer part of the

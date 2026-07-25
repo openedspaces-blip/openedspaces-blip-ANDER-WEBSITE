@@ -4207,6 +4207,11 @@ const units = [
   }
 ];
 
+require('./official-listening-utils').enrichOfficialListening(units, {
+  language: 'english',
+  level: 'A1'
+});
+
 module.exports = {
   language: 'english',
   level: 'A1',
