@@ -35,6 +35,7 @@ function shapeReading(reading) {
 
 function shapeExtra(a) {
   const extra = {};
+  if (a.grammarTest) extra.grammarTest = a.grammarTest;
   if (a.listeningType) extra.listeningType = a.listeningType;
   if (a.storyTitle) extra.storyTitle = a.storyTitle;
   if (a.mainTranscript) extra.mainTranscript = a.mainTranscript;

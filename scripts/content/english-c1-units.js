@@ -531,10 +531,16 @@ function buildUnit(topic, index) {
   };
 }
 
+const units = topics.map(buildUnit);
+require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(units, {
+  language: 'english',
+  level: 'C1'
+});
+
 module.exports = {
   language: 'english',
   level: 'C1',
   courseTitle: 'English C1',
-  courseDescription: 'Advanced English through twelve current scientific and social debates, evidence evaluation and precise academic language.',
-  units: topics.map(buildUnit)
+  courseDescription: 'Advanced English through twelve current debates integrating reading, listening, speaking, writing, vocabulary and precise academic grammar.',
+  units
 };

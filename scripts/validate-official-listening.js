@@ -47,6 +47,9 @@ for (const catalog of catalogs) {
         failures.push(`${label}: comprehension answer is not supported literally by the transcript`);
       }
     }
+    if (listening?.listeningComprehension?.questions?.length !== 4) {
+      failures.push(`${label}: comprehension must contain exactly four story questions`);
+    }
     if (listening?.phoneticSupport?.fullIpa) failures.push(`${label}: unverified full IPA found`);
   });
 }

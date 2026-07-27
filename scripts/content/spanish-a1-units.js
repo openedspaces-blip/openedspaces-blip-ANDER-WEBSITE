@@ -1883,24 +1883,36 @@ const units = [
   },
 
   // ===============================================================
-  // UNIDAD 11 - Salud y bienestar (PREMIUM)
+  // UNIDAD 11 - No me siento bien (PREMIUM)
   // ===============================================================
   {
-    slug: 'salud-y-bienestar',
-    title: 'Salud y bienestar',
-    description: 'Partes del cuerpo, síntomas sencillos y pedir ayuda.',
+    slug: 'salud-y-bienestar-a1',
+    title: 'No me siento bien',
+    description: 'Partes del cuerpo, malestares frecuentes y cómo pedir ayuda en una farmacia.',
     order: 11,
     accessTier: 'premium',
+    unitOverview: {
+      objective: 'Expresar cómo te sientes, decir qué te duele y pedir ayuda de forma sencilla.',
+      outcomes: [
+        'nombrar partes básicas del cuerpo',
+        'expresar un dolor o un malestar',
+        'preguntar a otra persona qué le duele',
+        'comprender recomendaciones sencillas'
+      ],
+      grammar: ['me duele + singular', 'me duelen + plural', 'tener + síntoma', 'estar + estado'],
+      vocabulary: ['partes del cuerpo', 'síntomas frecuentes', 'la farmacia', 'recomendaciones básicas'],
+      scenario: 'No te sientes bien y explicas tus síntomas en una farmacia.'
+    },
     activities: {
       reading: activity('reading', {
         title: 'No me siento bien',
-        description: 'Un texto sobre una visita a la farmacia.',
+        description: 'Isabel se siente mal y pide ayuda en una farmacia.',
         reading: {
           title: 'No me siento bien',
           parts: [
-            'Esta mañana, Isabel se despierta y no se siente bien. Le duele la cabeza y también le duele un poco la garganta.',
-            'Isabel decide ir a la farmacia cerca de su casa. El farmacéutico le pregunta: "¿Qué le duele?" Isabel responde: "Me duele la cabeza."',
-            'El farmacéutico le da una medicina sencilla y le dice que descanse y tome mucha agua. Isabel le da las gracias y vuelve a casa a descansar.'
+            'Esta mañana, Isabel se despierta con dolor de cabeza y un poco de dolor de garganta. Está cansada y no se siente bien.',
+            'Como la farmacia está cerca de su casa, decide ir y pedir ayuda. El farmacéutico la saluda y pregunta: «Buenos días, ¿qué le duele?». Isabel responde: «Me duele la cabeza y también la garganta».',
+            'El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora. Isabel le da las gracias y vuelve a casa para descansar.'
           ],
           questions: [
             '¿Qué le duele a Isabel?',
@@ -1921,7 +1933,7 @@ const units = [
           { type: 'mcq', prompt: '¿Qué le duele a Isabel?', options: ['El estómago', 'La cabeza', 'La pierna', 'El brazo'], answer: 1 },
           { type: 'mcq', prompt: '¿A dónde va Isabel?', options: ['Al hospital', 'A la farmacia', 'A la escuela', 'Al parque'], answer: 1 },
           { type: 'mcq', prompt: '¿Qué le pregunta el farmacéutico?', options: ['¿Cómo se llama?', '¿Qué le duele?', '¿Dónde vive?', '¿Cuántos años tiene?'], answer: 1 },
-          { type: 'mcq', prompt: '¿Qué le recomienda el farmacéutico?', options: ['Ir al hospital', 'Descansar y tomar agua', 'Hacer ejercicio', 'Comer mucho'], answer: 1 },
+          { type: 'mcq', prompt: '¿Qué le recomienda el farmacéutico?', options: ['Descansar y beber agua', 'Hacer ejercicio', 'Comer mucho', 'Volver al trabajo'], answer: 0 },
           { type: 'mcq', prompt: 'Verdadero o falso: a Isabel también le duele la garganta.', options: ['Verdadero', 'Falso'], answer: 0 },
           { type: 'mcq', prompt: 'Verdadero o falso: Isabel va al hospital.', options: ['Verdadero', 'Falso'], answer: 1 },
           { type: 'mcq', prompt: 'Verdadero o falso: Isabel vuelve a casa a descansar.', options: ['Verdadero', 'Falso'], answer: 0 },
@@ -1930,7 +1942,7 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'En la farmacia',
-        description: 'Una conversación básica en una farmacia.',
+        description: 'Escucha cómo Isabel explica sus síntomas y recibe una recomendación.',
         listeningType: 'dialogue',
         difficulty: 'A1',
         durationSeconds: 40,
@@ -1941,12 +1953,12 @@ const units = [
           { speaker: 'Isabel', line: 'Me duele la cabeza y la garganta.', translation: 'My head and throat hurt.' },
           { speaker: 'Farmacéutico', line: '¿Tiene fiebre también?', translation: 'Do you have a fever too?' },
           { speaker: 'Isabel', line: 'No, no tengo fiebre. Solo estoy cansada.', translation: "No, I don't have a fever. I am just tired." },
-          { speaker: 'Farmacéutico', line: 'Debe descansar y tomar mucha agua.', translation: 'You should rest and drink a lot of water.' },
+          { speaker: 'Farmacéutico', line: 'Le recomiendo descansar, beber agua y consultar a un médico si no mejora.', translation: 'I recommend resting, drinking water, and seeing a doctor if you do not improve.' },
           { speaker: 'Isabel', line: 'Muchas gracias, lo voy a hacer.', translation: "Thank you very much, I'll do that." }
         ],
         transcript:
-          'Buenas tardes, ¿qué le duele? Me duele la cabeza y la garganta. ¿Tiene fiebre también? No, no tengo fiebre. Solo estoy cansada. Debe descansar y tomar mucha agua. Muchas gracias, lo voy a hacer.',
-        phrases: ['¿Qué le duele?', 'Me duele / me duelen...', 'No tengo fiebre.', 'Debe descansar.'],
+          'Buenas tardes, ¿qué le duele? Me duele la cabeza y la garganta. ¿Tiene fiebre también? No, no tengo fiebre. Solo estoy cansada. Le recomiendo descansar, beber agua y consultar a un médico si no mejora. Muchas gracias, lo voy a hacer.',
+        phrases: ['¿Qué le duele?', 'Me duele / me duelen...', 'No tengo fiebre.', 'Le recomiendo descansar.'],
         phoneticSupport: {
           enabled: true,
           locale: 'es-419',
@@ -1965,19 +1977,19 @@ const units = [
           segments: [
             { order: 0, text: '¿Qué le duele?' },
             { order: 1, text: 'Me duele la cabeza y la garganta.' },
-            { order: 2, text: 'Debe descansar y tomar mucha agua.' }
+            { order: 2, text: 'Le recomiendo descansar y beber agua.' }
           ]
         },
         exercises: [
           { type: 'mcq', prompt: '¿Qué le duele a Isabel?', options: ['El estómago', 'La cabeza y la garganta', 'La pierna', 'El brazo'], answer: 1 },
           { type: 'mcq', prompt: '¿Tiene fiebre Isabel?', options: ['Sí', 'No', 'No dice', 'Un poco'], answer: 1 },
-          { type: 'mcq', prompt: '¿Qué le recomienda el farmacéutico?', options: ['Tomar medicina fuerte', 'Descansar y tomar agua', 'Ir al hospital', 'Hacer ejercicio'], answer: 1 }
+          { type: 'mcq', prompt: '¿Qué le recomienda el farmacéutico?', options: ['Hacer ejercicio', 'Descansar, beber agua y consultar a un médico si no mejora', 'Volver al trabajo', 'Comer más'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
         title: 'Expresa un malestar',
-        description: 'Practica decir qué te duele y cómo te sientes.',
-        mission: 'Dile a un compañero qué te duele hoy y cómo te sientes.',
+        description: 'Practica cómo explicar un malestar en una situación cotidiana.',
+        mission: 'Imagina que no te sientes bien. Graba una respuesta breve: explica cómo te sientes, qué te duele y si tienes fiebre.',
         phrases: ['Me duele / me duelen...', 'No me siento bien.', 'Estoy cansado/a.', '¿Qué te duele?'],
         dialogue: [
           { speaker: 'Tú', line: 'No me siento bien. Me duele la cabeza.', translation: "I don't feel well. My head hurts." },
@@ -1985,23 +1997,23 @@ const units = [
           { speaker: 'Tú', line: 'No, solo estoy cansado/a.', translation: 'No, I am just tired.' }
         ],
         exercises: [
-          { type: 'speaking', prompt: 'Di en voz alta qué te duele hoy y cómo te sientes, usando "me duele/me duelen".', answer: 'Práctica oral' },
-          { type: 'practice', prompt: 'Pregúntale a un compañero "¿Qué te duele?" y escucha su respuesta. Si no tienes micrófono, responde por escrito.', answer: 'Práctica oral o escrita' }
+          { type: 'speaking', prompt: 'Imagina que estás en una farmacia. Di cómo te sientes y usa «me duele» o «me duelen» para describir un malestar.', answer: 'Práctica oral' },
+          { type: 'practice', prompt: 'Pregunta «¿Qué te duele?» y practica una respuesta completa. Si no tienes micrófono, escribe la respuesta.', answer: 'Práctica oral o escrita' }
         ]
       }),
       writing: activity('writing', {
         title: 'Escribe sobre un malestar',
-        description: 'Escribe un pequeño texto sobre un malestar sencillo y qué hacer.',
-        mission: 'Escribe 6-7 oraciones: qué te duele, cómo te sientes y qué vas a hacer para sentirte mejor.',
+        description: 'Escribe un texto breve y guiado para explicar un malestar.',
+        mission: 'Imagina que no te sientes bien. Escribe entre 6 y 7 oraciones: cómo te sientes, qué te duele, si tienes otro síntoma y qué vas a hacer para cuidarte.',
         phrases: ['Me duele / me duelen...', 'No me siento bien.', 'Debo...', 'Voy a...'],
         dialogue: [{ speaker: 'Modelo', line: 'Hoy no me siento bien. Me duele la cabeza y la garganta. No tengo fiebre. Voy a descansar y tomar agua.', translation: "Today I don't feel well. My head and throat hurt. I don't have a fever. I am going to rest and drink water." }],
         exercises: [
-          { type: 'writing', prompt: 'Escribe 6-7 oraciones sobre un malestar sencillo: qué te duele y qué vas a hacer.', answer: 'Respuesta abierta' }
+          { type: 'writing', prompt: 'Escribe entre 6 y 7 oraciones. Sigue este orden: 1) cómo te sientes; 2) qué te duele; 3) otro síntoma; 4) qué vas a hacer para cuidarte.', answer: 'Respuesta abierta' }
         ]
       }),
       grammar: activity('grammar', {
         title: 'Me duele / me duelen',
-        description: 'Aprende a expresar síntomas con doler y estar.',
+        description: 'Distingue «me duele», «me duelen», «tengo» y «estoy».',
         grammarNote:
           '"Doler" funciona como "gustar": me duele la cabeza (singular), me duelen los pies (plural). Usamos "tener" con algunos síntomas: tengo fiebre, tengo tos. Usamos "estar" para estados: estoy cansado/a. Error frecuente: decir "me duele los pies" en vez de "me duelen los pies" (debe concordar en número con lo que duele).',
         phrases: ['Me duele la cabeza.', 'Me duelen los pies.', 'Tengo fiebre.', 'Estoy cansado/a.'],
@@ -2014,7 +2026,7 @@ const units = [
       }),
       vocabulary: activity('vocabulary', {
         title: 'El cuerpo y la salud',
-        description: 'Palabras para partes del cuerpo y síntomas sencillos.',
+        description: 'Aprende palabras básicas para hablar del cuerpo, los síntomas y el cuidado personal.',
         vocabulary: [
           { word: 'Cabeza', category: 'cuerpo', translation: 'Head', example: 'Me duele la cabeza.' },
           { word: 'Garganta', category: 'cuerpo', translation: 'Throat', example: 'Me duele la garganta.' },
@@ -2027,7 +2039,7 @@ const units = [
           { word: 'Farmacia', category: 'lugar', translation: 'Pharmacy', example: 'Voy a la farmacia.' },
           { word: 'Médico/a', category: 'persona', translation: 'Doctor', example: 'El médico me revisa.' },
           { word: 'Descansar', category: 'verbo', translation: 'To rest', example: 'Debo descansar hoy.' },
-          { word: 'Medicina', category: 'salud', translation: 'Medicine', example: 'Tomo la medicina.' },
+          { word: 'Medicamento', category: 'salud', translation: 'Medicine', example: 'Tomo el medicamento según la indicación médica.' },
           { word: 'Diente', category: 'cuerpo', translation: 'Tooth', example: 'Me duele un diente.' },
           { word: 'Ojo', category: 'cuerpo', translation: 'Eye', example: 'Me duele el ojo derecho.' },
           { word: 'Mano', category: 'cuerpo', translation: 'Hand', example: 'Me lavo las manos antes de comer.' }

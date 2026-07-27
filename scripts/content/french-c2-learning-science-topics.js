@@ -357,9 +357,15 @@ function articleParts(topic) {
     topic.practice,
     `${topic.conclusion} En définitive, ${topic.response.toLowerCase()} Cette conclusion reste révisable : elle vaut dans les limites des populations, des tâches et des mesures étudiées. Pour le lecteur C2, l’enjeu consiste précisément à conserver ensemble la force d’un résultat et les conditions qui en bornent la portée, sans réduire l’incertitude à l’ignorance ni transformer une moyenne en destin individuel.`
   ];
-  return Array.from({ length: 4 }, (_, index) =>
-    paragraphs.slice(index * 2, index * 2 + 2).join('\n\n')
-  );
+  // Six reading cards keep the long C2 article manageable without cutting
+  // sentences or duplicating content: 2 + 1 + 1 + 2 + 1 + 1 paragraphs.
+  const groupSizes = [2, 1, 1, 2, 1, 1];
+  let offset = 0;
+  return groupSizes.map((size) => {
+    const part = paragraphs.slice(offset, offset + size).join('\n\n');
+    offset += size;
+    return part;
+  });
 }
 
 function readingQuestions(topic) {

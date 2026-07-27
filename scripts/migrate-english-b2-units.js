@@ -8,7 +8,7 @@ const lessons = seedLessons.filter((row) => row.target_language === 'english' &&
 const units = seedUnits.filter((row) => row.target_language === 'english' && row.level === 'B2');
 
 async function main() {
-  if (units.length !== 12 || lessons.length !== 36) throw new Error('Build English B2 seed first.');
+if (units.length !== 12 || lessons.length !== 72) throw new Error('Build English B2 seed first.');
   const client = new Client({
     connectionString: process.env.SUPABASE_DATABASE_URL,
     ssl: { rejectUnauthorized: false }

@@ -5,10 +5,7 @@
 // target_language 'french' and level 'C1' are replaced, so this never
 // touches the existing French A1/A2/B1/B2 rows. Mirrors
 // scripts/build-french-b2-seed.js, except CORE_SKILLS is restricted to
-// ['reading', 'vocabulary', 'grammar'] per spec ("solo secciones reading,
-// vocabulary y grammar") - C1 units currently have no
-// listening/speaking/writing/dialogue activities. Idempotent: safe to
-// re-run.
+// six core skills, aligned with the guided A1 learning route.
 const fs = require('fs');
 const path = require('path');
 const { units, language, level, courseTitle, courseDescription } = require('./content/french-c1-units');
@@ -17,7 +14,7 @@ const ROOT = path.join(__dirname, '..');
 const SEED_LESSONS_PATH = path.join(ROOT, 'lib', 'seed-lessons.json');
 const SEED_UNITS_PATH = path.join(ROOT, 'lib', 'seed-units.json');
 
-const CORE_SKILLS = ['reading', 'vocabulary', 'grammar'];
+const CORE_SKILLS = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
 
 function shapeReading(reading) {
   if (!reading) return null;
@@ -26,7 +23,16 @@ function shapeReading(reading) {
 }
 
 function shapeExtra(a) {
-  return a.grammarTest ? { grammarTest: a.grammarTest } : null;
+  const extra = {};
+  if (a.grammarTest) extra.grammarTest = a.grammarTest;
+  if (a.listeningType) extra.listeningType = a.listeningType;
+  if (a.difficulty) extra.difficulty = a.difficulty;
+  if (a.durationSeconds) extra.durationSeconds = a.durationSeconds;
+  if (a.speakers) extra.speakers = a.speakers;
+  if (a.phoneticSupport) extra.phoneticSupport = a.phoneticSupport;
+  if (a.communicationGuide) extra.communicationGuide = a.communicationGuide;
+  if (a.writingGuide) extra.writingGuide = a.writingGuide;
+  return Object.keys(extra).length ? extra : null;
 }
 
 function buildActivityRow(unit, skill, orderInUnit) {
@@ -57,6 +63,8 @@ function buildActivityRow(unit, skill, orderInUnit) {
       vocabulary: a.vocabulary || [],
       dialogue: a.dialogue || [],
       reading: shapeReading(a.reading),
+      transcript: a.transcript || '',
+      dictation: a.dictation || null,
       exercises: a.exercises || [],
       extra: shapeExtra(a),
       xp_reward: a.xp

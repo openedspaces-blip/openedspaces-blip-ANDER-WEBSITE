@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-// Replaces the six legacy generic French C2 activities with twelve
-// unit-scoped Reading/Vocabulary/Grammar sequences (36 lessons total).
+// Replaces legacy French C2 activities with twelve six-skill unit sequences.
 const fs = require('fs');
 const path = require('path');
 const {
@@ -14,13 +13,20 @@ const {
 const root = path.join(__dirname, '..');
 const lessonsPath = path.join(root, 'lib', 'seed-lessons.json');
 const unitsPath = path.join(root, 'lib', 'seed-units.json');
-const skills = ['reading', 'vocabulary', 'grammar'];
+const skills = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
 
 function lessonRow(unit, skill, index) {
   const lesson = unit.activities[skill];
   const extra = {};
   if (lesson.grammarTest) extra.grammarTest = lesson.grammarTest;
   if (lesson.grammarProfile) extra.grammarProfile = lesson.grammarProfile;
+  if (lesson.listeningType) extra.listeningType = lesson.listeningType;
+  if (lesson.difficulty) extra.difficulty = lesson.difficulty;
+  if (lesson.durationSeconds) extra.durationSeconds = lesson.durationSeconds;
+  if (lesson.speakers) extra.speakers = lesson.speakers;
+  if (lesson.phoneticSupport) extra.phoneticSupport = lesson.phoneticSupport;
+  if (lesson.communicationGuide) extra.communicationGuide = lesson.communicationGuide;
+  if (lesson.writingGuide) extra.writingGuide = lesson.writingGuide;
   const readingReferences = lesson.readingReferences || lesson.reading?.references;
   if (Array.isArray(readingReferences) && readingReferences.length) {
     extra.readingReferences = readingReferences;
@@ -49,10 +55,15 @@ function lessonRow(unit, skill, index) {
       language: 'Français',
       language_key: language,
       level_title: courseTitle,
+      intro: lesson.intro || '',
+      mission: lesson.mission || '',
       grammar: lesson.grammarNote || '',
       phrases: lesson.phrases || [],
       vocabulary: lesson.vocabulary || [],
+      dialogue: lesson.dialogue || [],
       reading,
+      transcript: lesson.transcript || '',
+      dictation: lesson.dictation || null,
       exercises: lesson.exercises || [],
       extra: Object.keys(extra).length ? extra : null,
       xp_reward: lesson.xp
@@ -96,5 +107,5 @@ fs.writeFileSync(
 console.log(
   `Remplacé ${previousLessons.length - retainedLessons.length} activités historiques par ${nextLessons.length} activités Français C2.`
 );
-console.log(`Créé ${nextUnits.length} unités : Reading, Vocabulary et Grammar.`);
+console.log(`Créé ${nextUnits.length} unités avec six compétences chacune.`);
 console.log(`Cours : ${courseTitle} — ${courseDescription}`);

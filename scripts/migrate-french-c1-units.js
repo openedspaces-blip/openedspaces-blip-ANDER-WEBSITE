@@ -11,7 +11,7 @@ const frenchC1 = require('./content/french-c1-units');
 const LANGUAGE = 'french';
 const LEVEL = 'C1';
 const UNIT_COUNT = 12;
-const ACTIVITIES_PER_UNIT = 3;
+const ACTIVITIES_PER_UNIT = 6;
 
 async function insertSections(client, lessonId, content) {
   await client.query('delete from public.lesson_sections where lesson_id=$1', [lessonId]);

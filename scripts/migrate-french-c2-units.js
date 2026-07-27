@@ -11,7 +11,7 @@ const frenchC2 = require('./content/french-c2-units');
 const LANGUAGE = 'french';
 const LEVEL = 'C2';
 const UNIT_COUNT = 12;
-const SKILLS = ['reading', 'vocabulary', 'grammar'];
+const SKILLS = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
 const DRY_RUN = process.argv.includes('--dry-run');
 
 function assertQueryContract(sql, values = []) {

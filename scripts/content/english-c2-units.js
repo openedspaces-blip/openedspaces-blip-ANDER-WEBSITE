@@ -280,15 +280,21 @@ function buildUnit(topic,index) {
     activities:{
       reading:activity('reading',{title:readingTitle,description:`An extended C2 essay on ${title.toLowerCase()}.`,reading:{title:readingTitle,text:readingText,questions:readingExercises.slice(0,3).map(x=>x.prompt),references:referencesByTopic[slug]||[]},exercises:readingExercises}),
       vocabulary:activity('vocabulary',{title:`Conceptual Vocabulary: ${title}`,description:'Twelve high-precision terms defined and practised entirely in English.',vocabulary,exercises:vocabularyExercises}),
-      grammar:activity('grammar',{title:grammar,description:`Use ${grammar} to analyse “${readingTitle}”.`,grammarNote:`Goal: ${purpose}.\n\nRule: ${rule}\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “${readingTitle}”.`,phrases:gExercises.slice(0,4).map(x=>x.options[x.answer]),grammarProfile:{name:grammar,context:`Grammar connected to the C2 essay “${readingTitle}”.`,explanation:rule,purpose,examples:gExercises.slice(0,4).map(x=>x.options[x.answer])},exercises:gExercises,grammarTest:test(topic,gExercises)})
+      grammar:activity('grammar',{title:grammar,description:`Use ${grammar} to analyse “${readingTitle}”.`,grammarNote:`Goal: ${purpose}.\n\nRule: ${rule}\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “${readingTitle}”.`,phrases:gExercises.slice(0,4).map(x=>x.options[x.answer]),grammarProfile:{name:grammar,context:`Grammar connected to the C2 essay “${readingTitle}”.`,definition:rule,explanation:rule,structure:`Core structure: ${rule}`,purpose,function:purpose,examples:gExercises.slice(0,4).map(x=>x.options[x.answer])},exercises:gExercises,grammarTest:test(topic,gExercises)})
     }
   };
 }
+
+const units=topics.map(buildUnit);
+require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(units,{
+  language:'english',
+  level:'C2'
+});
 
 module.exports={
   language:'english',
   level:'C2',
   courseTitle:'English C2',
-  courseDescription:'Mastery-level English through twelve extended interdisciplinary essays, conceptual vocabulary and advanced grammatical control.',
-  units:topics.map(buildUnit)
+  courseDescription:'Mastery-level English through twelve interdisciplinary units integrating critical reading, expert listening, oral argument, guided writing, conceptual vocabulary and grammatical control.',
+  units
 };

@@ -55,6 +55,7 @@
           <a href="#translator" data-i18n="navTranslator">Traductor</a>
           <a href="#about" data-i18n="navAbout">Acerca de</a>
           <a href="#security" data-i18n="navSecurity">Seguridad</a>
+          <a href="#teacher-curriculum" class="teacher-only-nav" hidden>Panel docente</a>
         </span>
       </nav>
 
@@ -290,64 +291,59 @@
           </div>
         </div>
 
-        <div class="current-plan-summary" aria-live="polite">
-          <div>
-            <span class="current-plan-label">Tu plan actual</span>
-            <strong data-current-plan-name>Free</strong>
-            <span data-current-plan-price>USD 0/mes</span>
-          </div>
-          <button type="button" class="secondary-btn current-plan-toggle" data-home-action="view-plans" aria-expanded="false">
-            Ver planes
-          </button>
-        </div>
       </section>
 
-      <section id="premium" class="section pricing-section compact-hidden-section" hidden>
-        <div class="pricing-details" hidden>
+      <section id="premium" class="section pricing-section">
+        <div class="pricing-details">
           <div class="section-heading">
             <span>Planes</span>
-            <h2 tabindex="-1">Compara solamente cuando lo necesites.</h2>
-            <p>Tu plan Free continúa activo sin costo. Premium es opcional.</p>
+            <h2 tabindex="-1">Elige la experiencia que acompaña mejor tu aprendizaje.</h2>
+            <p>Empieza con Free y amplía tu recorrido cuando quieras con ANDERGO Premium.</p>
           </div>
 
           <div class="pricing-layout">
             <article class="plan free-plan">
-              <span class="plan-badge">Plan actual</span>
+              <span class="plan-badge" data-free-plan-badge>Plan actual</span>
               <h3>Free</h3>
               <p class="price">USD 0 <small>/ mes</small></p>
               <ul>
-                <li>Parte de los cursos: lecturas, gramática, listening y speaking básicos.</li>
-                <li>Text-to-Speech, traductor, flashcards y vocabulario.</li>
+                <li>Unidades iniciales de todos los niveles, de A1 a C2.</li>
+                <li>Reading, Grammar, Vocabulary, Listening y Speaking de las unidades incluidas.</li>
+                <li>Voces naturales del dispositivo, traductor y flashcards.</li>
                 <li>Tutor IA: 30 consultas al mes.</li>
                 <li>Conversación por voz: 10 al mes.</li>
               </ul>
             </article>
 
             <article class="plan premium-plan">
-              <span class="plan-badge">Recomendado</span>
+              <span class="plan-badge" data-premium-plan-badge>Recomendado</span>
               <h3>ANDERGO Premium</h3>
               <p class="price">
                 <span data-premium-monthly-price>USD 4.99</span> <small>/ mes</small>
               </p>
-              <p class="price-annual">
-                o <span data-premium-yearly-price>USD 39.99</span> <small>/ año</small>
-              </p>
+              <p class="price-annual">También disponible con facturación trimestral.</p>
               <div class="premium-badge-row">
-                <span class="premium-badge">Sin límites</span>
+                <span class="premium-badge">Recorrido completo</span>
                 <span class="premium-badge">Conversación por voz</span>
                 <span class="premium-badge">Corrección de pronunciación</span>
               </div>
               <ul>
                 <li>Todos los idiomas y todos los niveles.</li>
                 <li>Todo Reading, Grammar, Vocabulary, Listening y Speaking.</li>
-                <li>Diálogos completos y Tutor IA sin límites.</li>
-                <li>Conversación por voz ilimitada con corrección de pronunciación.</li>
+                <li>Diálogos completos y Tutor IA: 500 consultas al mes.</li>
+                <li>Conversación por voz con corrección de pronunciación.</li>
                 <li>Estadísticas completas y certificados.</li>
                 <li>Sin publicidad.</li>
               </ul>
-              <a href="#premium" class="primary-btn" data-home-action="upgrade">
-                Actualizar a Premium — <span data-premium-monthly-price>USD 4.99</span>/mes
-              </a>
+              <div class="premium-checkout-actions">
+                <button type="button" class="primary-btn paddle-checkout-btn" data-billing-cycle="monthly">
+                  Elegir mensual · <span data-premium-monthly-price>USD 4.99</span>
+                </button>
+                <button type="button" class="secondary-btn paddle-checkout-btn" data-billing-cycle="quarterly">
+                  Elegir trimestral
+                </button>
+              </div>
+              <p class="premium-checkout-status" data-paddle-status aria-live="polite"></p>
             </article>
           </div>
         </div>
@@ -373,6 +369,10 @@
           <a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a>
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
         </nav>
+
+        <div id="learningRouteContext" class="learning-route-context" aria-live="polite">
+          <span>—</span><i aria-hidden="true"></i><span>—</span><i aria-hidden="true"></i><span>—</span>
+        </div>
 
         <button class="learn-route-toggle" type="button" aria-expanded="false">Ver todas las unidades</button>
 
@@ -421,13 +421,14 @@
           </div>
           <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
           <div class="skill-view-actions">
-            <button type="button" class="secondary-btn change-combination-btn">
-              Cambiar combinación
-            </button>
-            <a href="#learn" class="secondary-btn back-to-route-btn">← Volver a la ruta</a>
-            <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">
-              Abrir Tutor IA
-            </button>
+            <a href="#learn" class="secondary-btn back-to-route-btn">← Ruta</a>
+            <details class="skill-view-more">
+              <summary aria-label="Más acciones de aprendizaje">Más</summary>
+              <div class="skill-view-more-menu">
+                <button type="button" class="change-combination-btn">Cambiar combinación</button>
+                <button type="button" class="open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+              </div>
+            </details>
           </div>
         </div>
         <div class="skill-view-content">
@@ -466,13 +467,14 @@
           </div>
           <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
           <div class="skill-view-actions">
-            <button type="button" class="secondary-btn change-combination-btn">
-              Cambiar combinación
-            </button>
-            <a href="#learn" class="secondary-btn back-to-route-btn">← Volver a la ruta</a>
-            <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">
-              Abrir Tutor IA
-            </button>
+            <a href="#learn" class="secondary-btn back-to-route-btn">← Ruta</a>
+            <details class="skill-view-more">
+              <summary aria-label="Más acciones de aprendizaje">Más</summary>
+              <div class="skill-view-more-menu">
+                <button type="button" class="change-combination-btn">Cambiar combinación</button>
+                <button type="button" class="open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+              </div>
+            </details>
           </div>
         </div>
         <div class="skill-view-content">
@@ -511,13 +513,14 @@
           </div>
           <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
           <div class="skill-view-actions">
-            <button type="button" class="secondary-btn change-combination-btn">
-              Cambiar combinación
-            </button>
-            <a href="#learn" class="secondary-btn back-to-route-btn">← Volver a la ruta</a>
-            <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">
-              Abrir Tutor IA
-            </button>
+            <a href="#learn" class="secondary-btn back-to-route-btn">← Ruta</a>
+            <details class="skill-view-more">
+              <summary aria-label="Más acciones de aprendizaje">Más</summary>
+              <div class="skill-view-more-menu">
+                <button type="button" class="change-combination-btn">Cambiar combinación</button>
+                <button type="button" class="open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+              </div>
+            </details>
           </div>
         </div>
         <div class="skill-view-content">
@@ -556,13 +559,14 @@
           </div>
           <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
           <div class="skill-view-actions">
-            <button type="button" class="secondary-btn change-combination-btn">
-              Cambiar combinación
-            </button>
-            <a href="#learn" class="secondary-btn back-to-route-btn">← Volver a la ruta</a>
-            <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">
-              Abrir Tutor IA
-            </button>
+            <a href="#learn" class="secondary-btn back-to-route-btn">← Ruta</a>
+            <details class="skill-view-more">
+              <summary aria-label="Más acciones de aprendizaje">Más</summary>
+              <div class="skill-view-more-menu">
+                <button type="button" class="change-combination-btn">Cambiar combinación</button>
+                <button type="button" class="open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+              </div>
+            </details>
           </div>
         </div>
         <div class="skill-view-content">
@@ -601,13 +605,14 @@
           </div>
           <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
           <div class="skill-view-actions">
-            <button type="button" class="secondary-btn change-combination-btn">
-              Cambiar combinación
-            </button>
-            <a href="#learn" class="secondary-btn back-to-route-btn">← Volver a la ruta</a>
-            <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">
-              Abrir Tutor IA
-            </button>
+            <a href="#learn" class="secondary-btn back-to-route-btn">← Ruta</a>
+            <details class="skill-view-more">
+              <summary aria-label="Más acciones de aprendizaje">Más</summary>
+              <div class="skill-view-more-menu">
+                <button type="button" class="change-combination-btn">Cambiar combinación</button>
+                <button type="button" class="open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+              </div>
+            </details>
           </div>
         </div>
         <div class="skill-view-content">
@@ -646,13 +651,14 @@
           </div>
           <p class="skill-view-sentence" data-field="sentence" aria-live="polite"></p>
           <div class="skill-view-actions">
-            <button type="button" class="secondary-btn change-combination-btn">
-              Cambiar combinación
-            </button>
-            <a href="#learn" class="secondary-btn back-to-route-btn">← Volver a la ruta</a>
-            <button type="button" class="secondary-btn open-tutor-btn" data-support-mode="practice">
-              Abrir Tutor IA
-            </button>
+            <a href="#learn" class="secondary-btn back-to-route-btn">← Ruta</a>
+            <details class="skill-view-more">
+              <summary aria-label="Más acciones de aprendizaje">Más</summary>
+              <div class="skill-view-more-menu">
+                <button type="button" class="change-combination-btn">Cambiar combinación</button>
+                <button type="button" class="open-tutor-btn" data-support-mode="practice">Abrir Tutor IA</button>
+              </div>
+            </details>
           </div>
         </div>
         <div class="skill-view-content">
@@ -751,6 +757,14 @@
 
           <div class="skill-panel" data-skill="practice">
             <div id="verbsPracticeSetup" class="verb-practice-setup">
+              <div class="verb-practice-challenge" aria-label="Elige un reto rápido">
+                <span class="verb-practice-challenge-label">Reto rápido</span>
+                <div class="verb-practice-challenge-options" role="group" aria-label="Cantidad de preguntas">
+                  <button type="button" class="verb-practice-preset is-active" data-practice-length="5">⚡ 5</button>
+                  <button type="button" class="verb-practice-preset" data-practice-length="10">🎯 10</button>
+                  <button type="button" class="verb-practice-preset" data-practice-length="20">🏆 20</button>
+                </div>
+              </div>
               <label class="verbs-filter-field"
                 ><span>¿Qué quieres practicar?</span>
                 <select id="verbsPracticePoolSelect">
@@ -764,8 +778,8 @@
               <label class="verbs-filter-field"
                 ><span>¿Cuántas preguntas?</span>
                 <select id="verbsPracticeLengthSelect">
-                  <option value="5">5</option>
-                  <option value="10" selected>10</option>
+                  <option value="5" selected>5</option>
+                  <option value="10">10</option>
                   <option value="20">20</option>
                   <option value="all">Todas</option>
                 </select>
@@ -1453,6 +1467,26 @@
         </div>
       </section>
 
+      <section
+        id="teacherCurriculum"
+        class="section teacher-curriculum-section compact-hidden-section"
+        aria-label="Panel curricular docente"
+        hidden
+      >
+        <div class="section-heading teacher-curriculum-heading">
+          <span>Modo docente</span>
+          <h2 tabindex="-1">Alineación curricular</h2>
+          <p>Consulta la cobertura MINERD y MCER sin alterar la experiencia del estudiante.</p>
+        </div>
+        <div class="teacher-curriculum-notice">
+          <span aria-hidden="true">🔒</span>
+          <p><strong>Vista académica privada.</strong> Estos datos no forman parte de la ruta estudiantil.</p>
+        </div>
+        <div id="teacherCurriculumPanel" class="teacher-curriculum-panel" aria-live="polite">
+          <p class="skill-graph-empty">Cargando información curricular…</p>
+        </div>
+      </section>
+
       <!-- Reached at https://andergo.online/reset-password after the student
            clicks the emailed recovery link (see authService.requestPasswordReset).
            Supabase appends the recovery token to this URL as a fragment/query
@@ -1617,8 +1651,13 @@
             <button type="button" class="auth-forgot-link" data-action="open-forgot-password">
               ¿Olvidaste tu contraseña?
             </button>
-            <button type="submit" class="primary-btn">Entrar</button>
-            <p class="auth-note">¿No tienes cuenta? Regístrate con el botón de Registrarse.</p>
+            <button type="submit" class="primary-btn" id="loginSubmitBtn">Entrar</button>
+            <p
+              class="auth-note"
+              data-default-text="¿No tienes cuenta? Regístrate con el botón de Registrarse."
+            >
+              ¿No tienes cuenta? Regístrate con el botón de Registrarse.
+            </p>
           </form>
 
           <form class="auth-form" id="signupForm">
@@ -1678,6 +1717,9 @@
                       name="password"
                       placeholder="Contraseña"
                       autocomplete="new-password"
+                      minlength="8"
+                      pattern="(?=.*[A-Za-z])(?=.*[0-9]).{8,}"
+                      title="Usa al menos 8 caracteres, combinando letras y números."
                       required
                     />
                     <button
@@ -1702,6 +1744,9 @@
                       name="confirmPassword"
                       placeholder="Confirmar contraseña"
                       autocomplete="new-password"
+                      minlength="8"
+                      pattern="(?=.*[A-Za-z])(?=.*[0-9]).{8,}"
+                      title="Usa al menos 8 caracteres, combinando letras y números."
                       required
                     />
                     <button
@@ -1719,7 +1764,12 @@
                   <button type="button" class="secondary-btn" id="signupBackBtn">← Volver</button>
                   <button type="submit" class="primary-btn">Crear cuenta</button>
                 </div>
-                <p class="auth-note">Al crear cuenta aceptas nuestros términos de uso.</p>
+                <p
+                  class="auth-note"
+                  data-default-text="Al crear cuenta aceptas nuestros términos de uso."
+                >
+                  Al crear cuenta aceptas nuestros términos de uso.
+                </p>
               </div>
             </div>
             <div class="signup-pending" id="signupPending" role="status" aria-live="polite" hidden>
@@ -1886,14 +1936,13 @@
         >
           ×
         </button>
-        <h3 id="paywallModalTitle">Has alcanzado el límite de tu plan gratuito.</h3>
+        <h3 id="paywallModalTitle">Disponible en ANDERGO Premium.</h3>
         <p class="paywall-usage-line" id="paywallUsageLine"></p>
-        <p>Actualiza a ANDERGO Premium para continuar aprendiendo sin estas restricciones.</p>
+        <p>Continúa tu recorrido con todas las unidades y herramientas Premium.</p>
         <ul class="paywall-features" id="paywallFeatures"></ul>
         <p class="paywall-price-line">
           <span data-premium-monthly-price>USD 4.99</span><small>/mes</small>
-          &nbsp;o&nbsp;
-          <span data-premium-yearly-price>USD 39.99</span><small>/año</small>
+          &nbsp;·&nbsp; plan trimestral disponible
         </p>
         <div class="confirm-actions">
           <button type="button" class="secondary-btn" data-action="dismiss-paywall">
@@ -2128,9 +2177,8 @@
       </div>
       <small>© <span id="footerYear">2026</span> <span data-i18n="footerRights">ANDERGO. Todos los derechos reservados.</span></small>
     </footer>
-    <script src="/src/worlds/english/content.js"></script>
-    <script src="/src/worlds/spanish/content.js"></script>
-    <script src="/src/worlds/french/content.js"></script>
+    <!-- Course worlds load only when their language is selected. Loading all
+         three here made the first visit parse several MB of unused lessons. -->
     <script src="/src/js/gamification/state.js"></script>
     <script src="/src/js/gamification/xp.js"></script>
     <script src="/src/js/gamification/streaks.js"></script>
@@ -2143,10 +2191,7 @@
     <script src="/src/js/language-pair.js"></script>
     <script src="/src/js/translator-languages.js"></script>
     <script src="/src/js/translator-predictive.js"></script>
-    <script src="/src/js/verbs/english-verbs-data.js"></script>
-    <script src="/src/js/verbs/verb-conjugation-engine.js"></script>
-    <script src="/src/js/verbs/romance-verbs-data.js"></script>
-    <script src="/src/js/verbs/verbs-view.js"></script>
+    <!-- Verb data and its view are loaded when #verbs is opened. -->
     <script src="/src/js/script.js?v=20260725-distinct-l1-l2-immersion"></script>
   </body>
 </html>

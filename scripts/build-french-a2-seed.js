@@ -55,6 +55,7 @@ function buildActivityRow(unit, skill, orderInUnit) {
       dialogue: a.dialogue || [],
       reading: shapeReading(a.reading),
       exercises: a.exercises || [],
+      extra: a.grammarTest ? { grammarTest: a.grammarTest } : null,
       xp_reward: a.xp
     }
   };

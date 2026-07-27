@@ -41,18 +41,47 @@ function buildDictation(segments, count) {
 }
 
 function buildComprehension(slug, segments, level, language) {
-  const selectedIndexes = level === 'A2'
-    ? [0, Math.floor(segments.length / 3), Math.floor((segments.length * 2) / 3), segments.length - 1]
-    : [0, Math.floor(segments.length / 2), segments.length - 1];
-  const uniqueIndexes = [...new Set(selectedIndexes)].filter((index) => segments[index]);
+  // All answer choices come from the transcript. The previous generic prompt
+  // ("Which information is stated?") therefore made every choice true. These
+  // questions test when an event happens in the story instead.
+  const substantialSegments = segments
+    .map((segment, index) => ({ ...segment, sourceIndex: index }))
+    .filter((segment) => segment.text.trim().split(/\s+/).length >= 4);
+  const candidates = substantialSegments.length >= 3
+    ? substantialSegments
+    : segments.map((segment, index) => ({ ...segment, sourceIndex: index }));
+  const selectedCandidates = [
+    candidates[0],
+    candidates[Math.floor((candidates.length - 1) / 3)],
+    candidates[Math.floor(((candidates.length - 1) * 2) / 3)],
+    candidates[candidates.length - 1]
+  ].filter((segment, index, list) =>
+    segment && list.findIndex((item) => item.sourceIndex === segment.sourceIndex) === index
+  );
+  const positionPrompts = language === 'french'
+    ? [
+        'Quel détail ouvre l’histoire ?',
+        'Que se passe-t-il ensuite dans l’histoire ?',
+        'Quel événement arrive plus tard dans l’histoire ?',
+        'Comment se termine l’histoire ?'
+      ]
+    : [
+        'Which detail opens the story?',
+        'What happens next in the story?',
+        'Which event happens later in the story?',
+        'How does the story end?'
+      ];
   return {
     id: `${slug}-comprehension`,
     passingScore: 70,
-    questions: uniqueIndexes.map((segmentIndex, questionIndex) => {
-      const answer = segments[segmentIndex].text;
-      const distractors = segments
-        .filter((_, index) => index !== segmentIndex)
-        .sort((a, b) => Math.abs(b.order - segmentIndex) - Math.abs(a.order - segmentIndex))
+    questions: selectedCandidates.map((selectedSegment, questionIndex) => {
+      const answer = selectedSegment.text;
+      const distractors = candidates
+        .filter((segment) => segment.sourceIndex !== selectedSegment.sourceIndex)
+        .sort((a, b) =>
+          Math.abs(b.sourceIndex - selectedSegment.sourceIndex) -
+          Math.abs(a.sourceIndex - selectedSegment.sourceIndex)
+        )
         .slice(0, 3)
         .map((segment) => segment.text);
       const options = [answer, ...distractors].slice(0, 4);
@@ -61,14 +90,7 @@ function buildComprehension(slug, segments, level, language) {
       return {
         id: `q${questionIndex + 1}`,
         type: 'mcq',
-        prompt:
-          language === 'french'
-            ? questionIndex === uniqueIndexes.length - 1 && level === 'A2'
-              ? 'Quelle conclusion est confirmée à la fin de l’audio officiel ?'
-              : `Quelle information est donnée dans l’audio officiel${questionIndex === 0 ? ' au début' : ''} ?`
-            : level === 'A2' && questionIndex === uniqueIndexes.length - 1
-              ? 'Which conclusion is supported by the end of the official audio?'
-              : `Which information is stated in the official audio${questionIndex === 0 ? ' near the beginning' : ''}?`,
+        prompt: positionPrompts[questionIndex],
         options: rotated.map((text, optionIndex) => ({ id: `o${optionIndex + 1}`, text })),
         correctOptionId: `o${rotated.indexOf(answer) + 1}`,
         explanation: answer

@@ -17,6 +17,92 @@
 // removed. learningPathState is the single source of truth for both.
 const LanguagePair = window.AndergoLanguagePair;
 
+// Lightweight, generated exercise feedback: no media files to download and
+// no autoplay. It runs only from a learner's answer/check action. The short
+// tones deliberately stay below speech volume so they reinforce feedback
+// without competing with TTS or the Tutor.
+window.playExerciseFeedbackSound = function playExerciseFeedbackSound(correct) {
+  try {
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContextClass) return;
+    const context = new AudioContextClass();
+    const now = context.currentTime;
+    const celebration = correct === 'celebration';
+    const notes = celebration ? [523, 659, 784, 1046] : correct ? [660, 880] : [240, 180];
+    notes.forEach((frequency, index) => {
+      const oscillator = context.createOscillator();
+      const gain = context.createGain();
+      const start = now + index * (celebration ? 0.1 : 0.09);
+      oscillator.type = correct ? 'sine' : 'triangle';
+      oscillator.frequency.setValueAtTime(frequency, start);
+      gain.gain.setValueAtTime(0.0001, start);
+      gain.gain.exponentialRampToValueAtTime(celebration ? 0.09 : 0.07, start + 0.012);
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + (celebration ? 0.17 : 0.11));
+      oscillator.connect(gain).connect(context.destination);
+      oscillator.start(start);
+      oscillator.stop(start + (celebration ? 0.18 : 0.12));
+    });
+    window.setTimeout(() => context.close().catch(() => {}), celebration ? 650 : 350);
+  } catch {
+    // Audio is an enhancement only; an unavailable/blocked Web Audio API
+    // must never affect scoring or feedback.
+  }
+};
+
+window.getExerciseReinforcement = function getExerciseReinforcement(correctCount, total) {
+  const ratio = total ? correctCount / total : 0;
+  if (ratio === 1) return 'Excelente, eres genial!';
+  if (ratio >= 0.8) return 'Muy bueno, vas muy bien!';
+  if (ratio >= 0.6) return 'Buen intento, puedes seguir mejorando.';
+  if (ratio >= 0.4) return 'Aceptable, lo intentamos de nuevo?';
+  if (ratio > 0) return 'Oh oh, podemos seguir intentando?';
+  return 'No pasa nada, intentemoslo de nuevo paso a paso.';
+};
+
+// Native predictive writing support for every learner-facing editable text
+// field, including fields inserted later by Speaking, Listening, Grammar,
+// Writing, Tutor and Translator renderers. Password/email/number controls
+// are intentionally outside the selector.
+function enablePredictiveTextFields(root = document) {
+  const fields = [];
+  if (root.matches?.('textarea, input[type="text"], input[type="search"], [contenteditable="true"]')) {
+    fields.push(root);
+  }
+  root
+    .querySelectorAll?.(
+      'textarea, input[type="text"], input[type="search"], [contenteditable="true"]'
+    )
+    .forEach((field) => fields.push(field));
+  fields.forEach((field) => {
+    if (field.closest('[data-no-predictive="true"]')) return;
+    field.spellcheck = true;
+    field.setAttribute('spellcheck', 'true');
+    field.setAttribute('autocorrect', 'on');
+    field.setAttribute('autocapitalize', 'sentences');
+    field.setAttribute('inputmode', 'text');
+    field.dataset.predictiveText = 'enabled';
+  });
+}
+
+function initializeGlobalPredictiveText() {
+  enablePredictiveTextFields(document);
+  if (!document.body || typeof MutationObserver === 'undefined') return;
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      mutation.addedNodes.forEach((node) => {
+        if (node.nodeType === Node.ELEMENT_NODE) enablePredictiveTextFields(node);
+      });
+    });
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeGlobalPredictiveText, { once: true });
+} else {
+  initializeGlobalPredictiveText();
+}
+
 // Whether the student has manually changed the Traductor's OWN source/target
 // selects this session - once true, syncTranslatorLanguagesFromState() stops
 // overwriting them on every visit to #translator, since the Traductor is
@@ -35,10 +121,11 @@ let translatorReturnContext = null;
 // anywhere else. Kept as strings (already formatted, e.g. '4.99') since
 // every call site below just interpolates them into "USD ${...}" text.
 let premiumMonthlyPriceUsd = '4.99';
-let premiumYearlyPriceUsd = '39.99';
 // Back-compat alias for the few call sites below that only ever showed the
 // monthly figure - avoids touching every interpolation site individually.
 let premiumPriceUsd = premiumMonthlyPriceUsd;
+let paddleBillingConfig = null;
+let paddleInitialized = false;
 
 // Re-applies the fetched prices to any already-painted markup that shows
 // them as static text (the #premium pricing section) - everything else
@@ -47,9 +134,6 @@ let premiumPriceUsd = premiumMonthlyPriceUsd;
 function refreshPremiumPricingUI() {
   document.querySelectorAll('[data-premium-monthly-price]').forEach((el) => {
     el.textContent = `USD ${premiumMonthlyPriceUsd}`;
-  });
-  document.querySelectorAll('[data-premium-yearly-price]').forEach((el) => {
-    el.textContent = `USD ${premiumYearlyPriceUsd}`;
   });
 }
 
@@ -61,7 +145,6 @@ async function loadPlans() {
     const premium = plans?.find((plan) => plan.slug === 'premium');
     if (!premium) return;
     premiumMonthlyPriceUsd = Number(premium.monthlyPriceUsd).toFixed(2);
-    premiumYearlyPriceUsd = Number(premium.yearlyPriceUsd).toFixed(2);
     premiumPriceUsd = premiumMonthlyPriceUsd;
     refreshPremiumPricingUI();
   } catch {
@@ -70,6 +153,99 @@ async function loadPlans() {
   }
 }
 loadPlans();
+
+async function loadPaddleBillingConfig() {
+  try {
+    const response = await fetch('/api/billing/config');
+    if (!response.ok) return null;
+    paddleBillingConfig = await response.json();
+    return paddleBillingConfig;
+  } catch {
+    return null;
+  }
+}
+
+function loadPaddleScript() {
+  if (window.Paddle) return Promise.resolve(window.Paddle);
+  return new Promise((resolve, reject) => {
+    const existing = document.querySelector('script[data-andergo-paddle]');
+    if (existing) {
+      existing.addEventListener('load', () => resolve(window.Paddle), { once: true });
+      existing.addEventListener('error', reject, { once: true });
+      return;
+    }
+    const script = document.createElement('script');
+    script.src = 'https://cdn.paddle.com/paddle/v2/paddle.js';
+    script.async = true;
+    script.dataset.andergoPaddle = 'true';
+    script.addEventListener('load', () => resolve(window.Paddle), { once: true });
+    script.addEventListener('error', reject, { once: true });
+    document.head.appendChild(script);
+  });
+}
+
+async function openPaddleCheckout(billingCycle, button) {
+  const status = document.querySelector('[data-paddle-status]');
+  if (!authStatus.session?.access_token || !authStatus.user?.id) {
+    openModal('signup', { message: 'Crea una cuenta o inicia sesiÃ³n antes de elegir Premium.' });
+    return;
+  }
+
+  const originalText = button?.innerHTML;
+  if (button) {
+    button.disabled = true;
+    button.textContent = 'Abriendo pago seguroâ€¦';
+  }
+
+  try {
+    const billing = paddleBillingConfig || (await loadPaddleBillingConfig());
+    const priceId = billing?.prices?.[billingCycle];
+    if (!billing?.checkoutConfigured || !billing?.clientSideToken || !priceId) {
+      throw new Error('Paddle todavÃ­a no tiene configurados sus identificadores de pago.');
+    }
+
+    const Paddle = await loadPaddleScript();
+    if (!paddleInitialized) {
+      if (billing.environment === 'sandbox') Paddle.Environment.set('sandbox');
+      Paddle.Initialize({
+        token: billing.clientSideToken,
+        eventCallback(event) {
+          if (event.name === 'checkout.completed') {
+            if (status) {
+              status.textContent =
+                'Pago recibido. Estamos confirmando tu suscripciÃ³n Premium de forma segura.';
+            }
+            window.setTimeout(
+              () => loadCurrentSubscription({ attempts: 4, delayMs: 1500 }),
+              1000
+            );
+          }
+        }
+      });
+      paddleInitialized = true;
+    }
+
+    Paddle.Checkout.open({
+      settings: { displayMode: 'overlay', theme: 'light', locale: 'es' },
+      items: [{ priceId, quantity: 1 }],
+      customer: authStatus.user.email ? { email: authStatus.user.email } : undefined,
+      customData: {
+        user_id: authStatus.user.id,
+        plan: billingCycle
+      }
+    });
+    if (status) status.textContent = '';
+  } catch (error) {
+    if (status) status.textContent = error.message || 'No se pudo abrir Paddle.';
+  } finally {
+    if (button) {
+      button.disabled = false;
+      button.innerHTML = originalText;
+    }
+  }
+}
+
+loadPaddleBillingConfig();
 
 const targetLanguageMap = {
   english: 'english',
@@ -182,7 +358,9 @@ function restoreSession() {
 // session.refresh_token, nothing ever spent it. Called from authFetch()
 // below on a 401; a quiet background swap, not a full saveSession() (no
 // loadDashboard()/gamification reload needed just to renew a token).
-async function refreshAuthSession() {
+let authRefreshPromise = null;
+
+async function performAuthSessionRefresh() {
   const refreshToken = authStatus.session?.refresh_token;
   if (!refreshToken) return false;
   try {
@@ -206,6 +384,16 @@ async function refreshAuthSession() {
   }
 }
 
+async function refreshAuthSession() {
+  if (authRefreshPromise) return authRefreshPromise;
+  authRefreshPromise = performAuthSessionRefresh();
+  try {
+    return await authRefreshPromise;
+  } finally {
+    authRefreshPromise = null;
+  }
+}
+
 // fetch() wrapper for requireAuth-gated routes: attaches the current
 // access token, and on a 401 tries refreshAuthSession() once, retrying the
 // original request with the renewed token before giving up. Everything
@@ -219,10 +407,47 @@ async function authFetch(url, options = {}) {
 
   let response = await fetch(url, withAuth(options));
   if (response.status === 401 && authStatus.session?.refresh_token) {
+    // Another tab may already have renewed and persisted a newer token.
+    // Prefer it before rotating the refresh token again.
+    try {
+      const stored = JSON.parse(localStorage.getItem('andergoSession') || 'null');
+      if (
+        stored?.session?.access_token &&
+        stored.session.access_token !== authStatus.session.access_token
+      ) {
+        authStatus.user = stored.user || authStatus.user;
+        authStatus.session = stored.session;
+        response = await fetch(url, withAuth(options));
+        if (response.status !== 401) return response;
+      }
+    } catch {
+      // Keep the in-memory session and continue with the shared refresh.
+    }
     const refreshed = await refreshAuthSession();
     if (refreshed) response = await fetch(url, withAuth(options));
   }
   return response;
+}
+
+// Safe frontend view of Premium state. The browser sends only its current
+// access token; the server queries subscriptions with its private Supabase
+// client and applies the same status rules used by every gated route.
+async function loadCurrentSubscription({ attempts = 1, delayMs = 0 } = {}) {
+  if (!authStatus.session?.access_token) return null;
+  let latest = null;
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    if (attempt > 0 && delayMs > 0) {
+      await new Promise((resolve) => window.setTimeout(resolve, delayMs));
+    }
+    const response = await authFetch(`${backendBaseUrl}/api/subscription`);
+    if (!response.ok) continue;
+    latest = await response.json();
+    if (latest.isPremium) {
+      await loadDashboard();
+      return latest;
+    }
+  }
+  return latest;
 }
 
 // The backend's user.name is upstream data we don't control here - if it's
@@ -248,8 +473,13 @@ function renderAuthState() {
     // entitlements.role comes straight from GET /api/dashboard, computed
     // server-side by getUserEntitlements() - this only ever renders what the
     // backend already decided, it never decides authorization itself.
+    const currentRole = authStatus.entitlements?.role;
     const roleBadge =
-      isSignedIn && authStatus.entitlements?.role === 'ceo' ? ' · CEO · Premium' : '';
+      isSignedIn && currentRole === 'ceo'
+        ? ' · CEO · Premium'
+        : isSignedIn && currentRole === 'teacher'
+          ? ' · Docente'
+          : '';
     userChip.textContent = isSignedIn ? `${greeting}${roleBadge}` : '';
   }
 
@@ -265,6 +495,9 @@ function renderAuthState() {
   document.querySelectorAll('.nav-group-member').forEach((group) => {
     group.hidden = !isSignedIn;
   });
+  document.querySelectorAll('.teacher-only-nav').forEach((link) => {
+    link.hidden = !isSignedIn || !['teacher', 'ceo'].includes(authStatus.entitlements?.role);
+  });
 
   const greeting = document.querySelector('.student-greeting');
   if (greeting) {
@@ -279,10 +512,10 @@ function renderAuthState() {
 
 function renderCurrentPlanSummary() {
   const premium = isPremiumUser();
-  const name = document.querySelector('[data-current-plan-name]');
-  const price = document.querySelector('[data-current-plan-price]');
-  if (name) name.textContent = premium ? 'Premium' : 'Free';
-  if (price) price.textContent = premium ? `USD ${premiumPriceUsd}/mes` : 'USD 0/mes';
+  const freeBadge = document.querySelector('[data-free-plan-badge]');
+  const premiumBadge = document.querySelector('[data-premium-plan-badge]');
+  if (freeBadge) freeBadge.textContent = premium ? 'Plan disponible' : 'Plan actual';
+  if (premiumBadge) premiumBadge.textContent = premium ? 'Tu plan actual' : 'Recomendado';
 }
 
 function setPricingExpanded(expanded) {
@@ -569,7 +802,7 @@ function getLanguageTabFromHash() {
 
 let authModalReturnFocus = null;
 
-function openModal(panel) {
+function openModal(panel, { message = '', isError = false } = {}) {
   authModalReturnFocus = document.activeElement;
   authModal.classList.add('open');
   authModal.setAttribute('aria-hidden', 'false');
@@ -590,6 +823,7 @@ function openModal(panel) {
     ?.classList.toggle('is-hidden', panel === 'forgotPassword' || panel === 'mfaChallenge');
   clearAuthMessages();
   resetSignupPending();
+  if (message) setAuthMessage(message, isError);
   authModal.querySelector('.auth-form.active input')?.focus();
 }
 
@@ -671,7 +905,7 @@ logoutConfirmModal?.addEventListener('click', (event) => {
 
 // Shown when a Free-tier monthly cap (Tutor IA: 30/mes, voz: 10/mes) is
 // reached - see openPaywallModal() below for what fills its content, and
-// the /api/ai/tutor and /api/speech/synthesize callers further down for
+// the /api/ai/tutor caller further down for
 // where USAGE_LIMIT_REACHED triggers it. Never fakes a purchase: the
 // "Obtener Premium" button only scrolls to #premium (see the existing
 // .upgrade-btn delegated handler) - no gateway exists yet (lib/billingService.js
@@ -683,9 +917,9 @@ let paywallReturnFocus = null;
 // full list lives in the #premium pricing section) - just enough for the
 // "qué obtiene Premium" bullet the spec asks the modal to show.
 const PAYWALL_PREMIUM_HIGHLIGHTS = [
-  'Tutor IA y conversación por voz sin límites',
+  'Tutor IA con 500 consultas al mes',
+  'Conversación por voz y corrección de pronunciación',
   'Todos los idiomas y todos los niveles',
-  'Corrección de pronunciación',
   'Certificados y estadísticas completas'
 ];
 
@@ -726,8 +960,8 @@ function openPaywallModal({ featureLabel, used, limit, title, message } = {}) {
 
   // Prices are never hardcoded here - refreshPremiumPricingUI() (see
   // loadPlans() near the top of this file) fills in the same
-  // [data-premium-monthly-price]/[data-premium-yearly-price] spans this
-  // modal's markup uses, from GET /api/plans.
+  // [data-premium-monthly-price] spans this modal's markup uses, from
+  // GET /api/plans. The quarterly amount is shown by Paddle itself.
   refreshPremiumPricingUI();
 
   paywallModal.classList.add('open');
@@ -1853,9 +2087,15 @@ async function afterAuthSuccess() {
 function attachAuthHandlers() {
   document.getElementById('loginForm')?.addEventListener('submit', async (event) => {
     event.preventDefault();
+    const submitBtn = event.target.querySelector('button[type="submit"]');
+    if (submitBtn?.disabled) return;
     const identifier = document.getElementById('loginIdentifier')?.value.trim() || '';
     const password = document.getElementById('loginPassword')?.value || '';
 
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Entrando…';
+    }
     try {
       const data = await postJson('/api/auth', { action: 'login', identifier, password });
       if (data.requiresMfa) {
@@ -1880,6 +2120,11 @@ function attachAuthHandlers() {
         return;
       }
       setAuthMessage(error.message, true);
+    } finally {
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Entrar';
+      }
     }
   });
 
@@ -2891,6 +3136,9 @@ const learningPathState = {
   // assignment to either field. Initialized consistently with the two
   // defaults above (spanish !== english -> bilingual).
   learningMode: 'bilingual',
+  // Keeps route navigation tied to one unit; Explore intentionally opens
+  // the complete library for a skill instead.
+  skillEntryContext: 'explore',
   // The seventh activity in every unit is Verbos. Its scored attempts live
   // in user_unit_verb_progress (separate from course_lessons because the
   // conjugator/practice engine is shared across units).
@@ -2929,7 +3177,80 @@ function getSkillActivities(skill) {
   return activities;
 }
 
-const UNIT_LEARNING_SEQUENCE = ['reading', 'listening', 'vocabulary', 'grammar', 'speaking', 'writing'];
+function renderTeacherCurriculumSummary(summary) {
+  const panel = document.getElementById('teacherCurriculumPanel');
+  if (!panel) return;
+  const frameworks = Array.isArray(summary?.frameworks) ? summary.frameworks : [];
+  const totals = summary?.totals || {};
+  panel.innerHTML = `
+    <div class="teacher-curriculum-stats">
+      <article><span>Marcos activos</span><strong>${frameworks.length}</strong></article>
+      <article><span>Resultados curriculares</span><strong>${Number(totals.outcomes || 0)}</strong></article>
+      <article><span>Actividades vinculadas</span><strong>${Number(totals.mappings || 0)}</strong></article>
+      <article><span>Evidencias evaluadas</span><strong>${Number(totals.assessedMappings || 0)}</strong></article>
+    </div>
+    <div class="teacher-framework-grid">
+      ${
+        frameworks.length
+          ? frameworks
+              .map(
+                (framework) => `
+            <article class="teacher-framework-card">
+              <header>
+                <span>${escapeHtml(framework.code)}</span>
+                <strong>${escapeHtml(framework.name)}</strong>
+                <small>${escapeHtml([framework.jurisdiction, framework.version].filter(Boolean).join(' · '))}</small>
+              </header>
+              <div class="teacher-framework-metrics">
+                <span><strong>${Number(framework.outcomesCount || 0)}</strong> resultados</span>
+                <span><strong>${Number(framework.mappingsCount || 0)}</strong> mapeos</span>
+                <span><strong>${Number(framework.assessedMappingsCount || 0)}</strong> evaluados</span>
+              </div>
+              ${
+                framework.outcomeTypes?.length
+                  ? `<ul>${framework.outcomeTypes
+                      .map(
+                        (item) =>
+                          `<li><span>${escapeHtml(item.label)}</span><strong>${Number(item.count || 0)}</strong></li>`
+                      )
+                      .join('')}</ul>`
+                  : '<p class="teacher-framework-empty">Marco registrado; pendiente de cargar resultados curriculares.</p>'
+              }
+              ${
+                framework.sourceUrl
+                  ? `<a href="${escapeHtml(framework.sourceUrl)}" target="_blank" rel="noopener noreferrer">Consultar fuente oficial ↗</a>`
+                  : ''
+              }
+            </article>`
+              )
+              .join('')
+          : '<p class="skill-graph-empty">No hay marcos curriculares activos.</p>'
+      }
+    </div>
+  `;
+}
+
+async function loadTeacherCurriculumPanel() {
+  const panel = document.getElementById('teacherCurriculumPanel');
+  if (!panel) return;
+  if (!['teacher', 'ceo'].includes(authStatus.entitlements?.role)) {
+    panel.innerHTML =
+      '<p class="teacher-curriculum-error">No tienes autorización para consultar este panel.</p>';
+    return;
+  }
+  panel.innerHTML = '<p class="skill-graph-empty">Cargando información curricular…</p>';
+  try {
+    const response = await authFetch(`${backendBaseUrl}/api/teacher/curriculum-summary`);
+    const payload = await response.json();
+    if (!response.ok) throw new Error(payload.error || 'No se pudo cargar el panel docente.');
+    renderTeacherCurriculumSummary(payload);
+  } catch (error) {
+    panel.innerHTML = `<p class="teacher-curriculum-error">${escapeHtml(error.message)}</p>`;
+  }
+}
+
+const UNIT_LEARNING_SEQUENCE = ['reading', 'listening', 'speaking', 'grammar', 'vocabulary', 'writing'];
+const UNIT_ROUTE_SKILLS = new Set(UNIT_LEARNING_SEQUENCE);
 
 function unitSkillOrder(skill) {
   const index = UNIT_LEARNING_SEQUENCE.indexOf(String(skill || '').toLowerCase());
@@ -2938,7 +3259,11 @@ function unitSkillOrder(skill) {
 
 function getUnitActivities(unitId) {
   return learningPathState.lessons
-    .filter((item) => item.unitId === unitId)
+    // Standalone dialogues and any future supplementary resources remain
+    // available as lesson content, but do not become extra route stops.
+    // This keeps Français A1's primary route structurally identical to
+    // English A1: six core activities followed by Verbs.
+    .filter((item) => item.unitId === unitId && UNIT_ROUTE_SKILLS.has(item.skill))
     .sort((a, b) => unitSkillOrder(a.skill) - unitSkillOrder(b.skill) || (a.orderIndex || 0) - (b.orderIndex || 0));
 }
 
@@ -2992,15 +3317,46 @@ function getCourseProgressMetrics() {
 }
 
 function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
+  const skillHints = {
+    reading: 'Leer',
+    listening: 'Escuchar',
+    speaking: 'Hablar',
+    writing: 'Escribir',
+    grammar: 'Practicar',
+    vocabulary: 'Repasar'
+  };
   const activities = getUnitActivities(unitId);
+  const recommendedLesson =
+    activities.find((lesson) => !lesson.completed && !lesson.locked) || activities[0] || null;
   const steps = activities
     .map((lesson, index) => {
       const isCurrent = lesson.skill === currentSkill;
-      const state = lesson.completed ? 'completed' : isCurrent ? 'current' : lesson.locked ? 'locked' : 'available';
+      const isRecommended = !currentSkill && lesson.slug === recommendedLesson?.slug;
+      const state = lesson.completed
+        ? 'completed'
+        : isCurrent
+          ? 'current'
+          : lesson.locked
+            ? 'locked'
+            : isRecommended
+              ? 'recommended'
+              : 'available';
+      const actionLabel = lesson.completed
+        ? 'Repasar'
+        : isCurrent
+          ? 'En curso'
+          : isRecommended
+            ? 'Siguiente'
+            : lesson.locked
+              ? 'Premium'
+              : skillHints[lesson.skill] || 'Abrir';
       return `
-        <button type="button" class="unit-sequence-step unit-sequence-step--${state}" data-sequence-skill="${escapeHtml(lesson.skill)}" data-lesson-slug="${escapeHtml(lesson.slug)}" ${isCurrent ? 'aria-current="step"' : ''}>
-          <span class="unit-sequence-number">${lesson.completed ? '✓' : index + 1}</span>
-          <span>${escapeHtml(getSkillLabel(lesson.skill))}</span>
+        <button type="button" class="unit-sequence-step unit-sequence-step--${state}" data-sequence-skill="${escapeHtml(lesson.skill)}" data-lesson-slug="${escapeHtml(lesson.slug)}" ${isCurrent ? 'aria-current="step"' : ''} aria-label="${escapeHtml(`${getSkillLabel(lesson.skill)}: ${actionLabel}`)}">
+          <span class="unit-sequence-number">${lesson.completed ? '✓' : isRecommended ? '★' : index + 1}</span>
+          <span class="unit-sequence-label">
+            <strong>${escapeHtml(getSkillLabel(lesson.skill))}</strong>
+            <small>${escapeHtml(actionLabel)}</small>
+          </span>
         </button>
       `;
     })
@@ -3016,17 +3372,18 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
   return `${steps}
     <button type="button" class="unit-sequence-step unit-sequence-step--verbs unit-sequence-step--${verbState}" data-sequence-skill="verbs" ${currentSkill === 'verbs' ? 'aria-current="step"' : ''}>
       <span class="unit-sequence-number">${verbProgress?.status === 'completed' ? '✓' : verbsNumber}</span>
-      <span>Verbos</span>
+      <span class="unit-sequence-label"><strong>Verbos</strong><small>Practicar</small></span>
     </button>`;
 }
 
 function openUnitSequenceStep(skill, lessonSlug = '') {
+  learningPathState.skillEntryContext = 'route';
   if (skill === 'verbs') {
-    showView('verbs');
     const verbLanguage = ['english', 'french', 'spanish'].includes(learningPathState.language)
       ? learningPathState.language
       : 'english';
-    history.pushState(null, '', `#verbs/${verbLanguage}/list`);
+    history.pushState(null, '', `#verbs/${verbLanguage}/practice`);
+    showView('verbs');
     renderUnitVerbContext();
     return;
   }
@@ -3041,7 +3398,9 @@ function openUnitSequenceStep(skill, lessonSlug = '') {
     speakingViewState = {
       lessonSlug: speakingLesson.slug,
       mode: 'dialogue',
-      guidedTurnIndex: 0
+      guidedTurnIndex: 0,
+      pronunciationIndex: 0,
+      pronunciationOverride: ''
     };
     showView('speaking');
     renderSkillView('speaking');
@@ -3049,6 +3408,11 @@ function openUnitSequenceStep(skill, lessonSlug = '') {
     return;
   }
   if (!SKILL_VIEWS.includes(skill) || !lessonSlug) return;
+  const targetLesson = learningPathState.lessons.find((item) => item.slug === lessonSlug);
+  if (targetLesson?.locked) {
+    handleHomeAction('upgrade');
+    return;
+  }
   setActiveLesson(lessonSlug);
   showView(skill);
   renderSkillView(skill);
@@ -3063,23 +3427,194 @@ function wireUnitSequence(container) {
   });
 }
 
+const readingSectionState = new Map();
+
+function getReadingSectionState(lesson) {
+  const paragraphCount = getReadingParagraphs(lesson).length;
+  // `reading.parts` is an authoring aid for preserving paragraphs, not a
+  // student-facing pagination model. Every level shows one continuous text.
+  return {
+    current: 0,
+    total: 1,
+    pageSize: Math.max(paragraphCount, 1),
+    isPaginated: false
+  };
+}
+
+function renderUnitActivityFooter(section, lesson) {
+  section.querySelector('.unit-activity-footer')?.remove();
+  if (!lesson?.unitId || learningPathState.skillEntryContext !== 'route') return;
+  const content = section.querySelector('.skill-view-content');
+  if (!content) return;
+  const activities = getUnitActivities(lesson.unitId);
+  const activityIndex = activities.findIndex((item) => item.slug === lesson.slug);
+  if (activityIndex < 0) return;
+
+  const readingState = lesson.skill === 'reading' ? getReadingSectionState(lesson) : null;
+  const previousLesson = activities[activityIndex - 1] || null;
+  const nextLesson = activities[activityIndex + 1] || null;
+  const previousTarget =
+    readingState?.isPaginated && readingState.current > 0
+      ? 'reading-section'
+      : previousLesson
+        ? 'lesson'
+        : '';
+  const nextTarget =
+    readingState?.isPaginated && readingState.current < readingState.total - 1
+      ? 'reading-section'
+      : nextLesson
+        ? 'lesson'
+        : 'verbs';
+  const nextLabel =
+    nextTarget === 'reading-section'
+      ? 'Siguiente'
+      : nextLesson
+        ? `Siguiente: ${getSkillLabel(nextLesson.skill)}`
+        : 'Siguiente: Verbos';
+
+  const footer = document.createElement('nav');
+  footer.className = 'unit-activity-footer no-print';
+  footer.setAttribute('aria-label', 'Navegación de la ruta de aprendizaje');
+  footer.innerHTML = `
+    <span class="unit-activity-footer-progress">
+      ${
+        readingState?.isPaginated
+          ? `Reading · Sección ${readingState.current + 1} de ${readingState.total}`
+          : `${getSkillLabel(lesson.skill)} · ${activityIndex + 1} de ${activities.length + 1}`
+      }
+    </span>
+    <div class="unit-activity-footer-actions">
+      ${
+        previousTarget
+          ? `<button type="button" class="secondary-btn unit-activity-prev">← Anterior</button>`
+          : ''
+      }
+      <button type="button" class="primary-btn unit-activity-next">${escapeHtml(nextLabel)} →</button>
+    </div>
+  `;
+  const readingQuizActions =
+    lesson.skill === 'reading' ? content.querySelector('.reading-comp-actions') : null;
+  if (readingQuizActions) {
+    footer.classList.add('unit-activity-footer--reading-inline');
+    readingQuizActions.append(footer);
+  } else {
+    content.after(footer);
+  }
+
+  footer.querySelector('.unit-activity-prev')?.addEventListener('click', () => {
+    if (previousTarget === 'reading-section') {
+      readingSectionState.set(lesson.slug, readingState.current - 1);
+      renderSkillView('reading');
+      return;
+    }
+    if (previousLesson) openUnitSequenceStep(previousLesson.skill, previousLesson.slug);
+  });
+  footer.querySelector('.unit-activity-next')?.addEventListener('click', () => {
+    if (nextTarget === 'reading-section') {
+      readingSectionState.set(lesson.slug, readingState.current + 1);
+      renderSkillView('reading');
+      return;
+    }
+    if (nextLesson) {
+      openUnitSequenceStep(nextLesson.skill, nextLesson.slug);
+      return;
+    }
+    openUnitSequenceStep('verbs');
+  });
+}
+
+function buildLearningRouteContextHtml(activeLesson = null) {
+  const activeUnit = learningPathState.units.find(
+    (unit) => unit.id === (activeLesson?.unitId || learningPathState.unitId)
+  );
+  const language = {
+    english: 'English',
+    french: 'Français',
+    spanish: 'Español',
+    italian: 'Italiano',
+    german: 'Deutsch'
+  }[learningPathState.language] || languageDisplayNames[learningPathState.language] || '—';
+  const lessonNumber =
+    activeUnit?.order ||
+    (activeLesson ? learningPathState.lessons.indexOf(activeLesson) + 1 : 1);
+  const lessonWord = {
+    french: 'Leçon',
+    english: 'Lesson',
+    spanish: 'Lección',
+    italian: 'Lezione',
+    german: 'Lektion'
+  }[learningPathState.language] || 'Lección';
+  return `
+    <span>${escapeHtml(language)}</span>
+    <i aria-hidden="true"></i>
+    <span>${escapeHtml(learningPathState.level || '—')}</span>
+    <i aria-hidden="true"></i>
+    <span title="${escapeHtml(activeLesson?.title || activeUnit?.title || '')}">${escapeHtml(lessonWord)} ${escapeHtml(String(lessonNumber))}</span>
+  `;
+}
+
 function renderSkillUnitSequence(section, lesson) {
   section.querySelector('.unit-learning-sequence')?.remove();
+  section.querySelector('.lesson-curriculum-brief')?.remove();
+  section.querySelector('.activity-route-context')?.remove();
   if (!lesson?.unitId) return;
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
+  const activities = getUnitActivities(lesson.unitId);
+  const currentIndex = Math.max(0, activities.findIndex((item) => item.slug === lesson.slug));
+  const nextLesson = activities.slice(currentIndex + 1).find((item) => !item.locked) || null;
+  const total = activities.length + 1;
+  const routeProgress = total > 1 ? Math.round((currentIndex / (total - 1)) * 100) : 0;
+  const minutes = getLessonDurationMinutes(lesson);
+  const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
+  const verbProgress = learningPathState.verbProgressByUnit[lesson.unitId];
+  const markersHtml = [
+    ...activities.map((activity, index) => {
+      const current = activity.slug === lesson.slug;
+      const state = current
+        ? 'current'
+        : activity.completed
+          ? 'completed'
+          : 'available';
+      return `
+        <button type="button" class="unit-route-marker unit-route-marker--${state}" data-sequence-skill="${escapeHtml(activity.skill)}" data-lesson-slug="${escapeHtml(activity.slug)}" ${current ? 'aria-current="step"' : ''} aria-label="${escapeHtml(`${index + 1}. ${getSkillLabel(activity.skill)}`)}">
+          <span>${activity.completed ? '✓' : index + 1}</span>
+          <small>${escapeHtml(getSkillLabel(activity.skill))}</small>
+        </button>`;
+    }),
+    `
+      <button type="button" class="unit-route-marker unit-route-marker--${verbProgress?.status === 'completed' ? 'completed' : 'available'}" data-sequence-skill="verbs" aria-label="${activities.length + 1}. Verbos">
+        <span>${verbProgress?.status === 'completed' ? '✓' : activities.length + 1}</span>
+        <small>Verbos</small>
+      </button>`
+  ].join('');
   const nav = document.createElement('nav');
-  nav.className = 'unit-learning-sequence';
-  nav.setAttribute('aria-label', 'Secuencia de aprendizaje de la unidad');
+  nav.className = 'unit-learning-sequence unit-mission-strip';
+  nav.setAttribute('aria-label', 'Misión actual de la unidad');
   nav.innerHTML = `
-    <div class="unit-sequence-heading">
-      <strong>Ruta de esta unidad</strong>
-      <span>Avanza de la comprensión a la producción.</span>
+    <div class="unit-mission-copy">
+      <span>🎯 Misión actual · ${currentIndex + 1}/${total}</span>
+      <strong>${escapeHtml(getSkillLabel(lesson.skill))}: ${escapeHtml(lesson.title)}</strong>
+      <small>${minutes ? `⏱ ${escapeHtml(String(minutes))} min · ` : ''}⭐ ${escapeHtml(String(xp))} XP · ${nextLesson ? `Después: ${escapeHtml(getSkillLabel(nextLesson.skill))}` : 'Última actividad antes de Verbos'}</small>
     </div>
-    <div class="unit-sequence-steps">${renderUnitSequenceStepsHtml(lesson.unitId, lesson.skill)}</div>
+    <button type="button" class="secondary-btn unit-mission-route-btn">Ver ruta</button>
+    <div class="unit-route-markers" style="--route-progress-width:${routeProgress * 0.86}%" aria-label="Progreso de la unidad">
+      ${markersHtml}
+    </div>
   `;
+  const routeContext = document.createElement('div');
+  routeContext.className = 'learning-route-context activity-route-context no-print';
+  routeContext.setAttribute('aria-label', 'Idioma, nivel y lección actual');
+  routeContext.innerHTML = buildLearningRouteContextHtml(lesson);
+  content.before(routeContext);
   content.before(nav);
   wireUnitSequence(nav);
+  nav.querySelector('.unit-mission-route-btn')?.addEventListener('click', () => {
+    setActiveLesson('');
+    showView('learn');
+    renderLearningPath();
+    updateLearnHash('learn');
+  });
 }
 
 function renderUnitVerbContext() {
@@ -3088,22 +3623,59 @@ function renderUnitVerbContext() {
   section.querySelector('.unit-verbs-context')?.remove();
   const unit = learningPathState.units.find((item) => item.id === learningPathState.unitId);
   if (!unit) return;
+  const metrics = getUnitProgressMetrics(unit.id);
+  const unitLevel = learningPathState.level || '';
+  const practicePool = document.getElementById('verbsPracticePoolSelect');
+  if (practicePool && unitLevel) {
+    let unitOption = practicePool.querySelector('option[value="unit-level"]');
+    if (!unitOption) {
+      unitOption = document.createElement('option');
+      unitOption.value = 'unit-level';
+      practicePool.prepend(unitOption);
+    }
+    unitOption.textContent = `Verbos del nivel ${unitLevel} para esta unidad`;
+    practicePool.value = 'unit-level';
+  }
   const banner = document.createElement('div');
   banner.className = 'unit-verbs-context';
   banner.innerHTML = `
     <div>
       <span>Verbos dentro de tu ruta</span>
       <strong>${escapeHtml(unit.title)}</strong>
-      <p>Explora y practica verbos para completar esta unidad. Después continúa con la siguiente actividad disponible.</p>
+      <p>Refuerza los verbos de nivel ${escapeHtml(unitLevel)} relacionados con tu avance antes de completar esta unidad.</p>
     </div>
-    <button type="button" class="secondary-btn unit-verbs-return-btn">← Volver a la unidad</button>
+    <div class="unit-verbs-context-actions">
+      <button type="button" class="primary-btn unit-verbs-practice-btn">▶ Practicar verbos</button>
+      <button type="button" class="secondary-btn unit-verbs-return-btn">← Volver a la unidad</button>
+    </div>
+    <nav class="unit-activity-footer unit-activity-footer--verbs no-print" aria-label="Finalización de la unidad">
+      <span class="unit-activity-footer-progress">Score actual: <strong>${metrics.progressPercent}/100 pts</strong></span>
+      <div class="unit-activity-footer-actions">
+        <button type="button" class="secondary-btn unit-verbs-previous-btn">← Anterior</button>
+        <button type="button" class="primary-btn unit-verbs-finish-btn">Finalizar lección ✓</button>
+      </div>
+    </nav>
   `;
   section.querySelector('.section-heading')?.after(banner);
+  banner.querySelector('.unit-verbs-practice-btn')?.addEventListener('click', () => {
+    const practiceTab = document.querySelector('#verbsTabs .skill-tab-button[data-skill="practice"]');
+    practiceTab?.click();
+    document.getElementById('verbsPracticeSetup')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
   banner.querySelector('.unit-verbs-return-btn')?.addEventListener('click', () => {
     const activities = getUnitActivities(unit.id);
     const target = [...activities].reverse().find((item) => !item.locked) || activities[0];
     if (target) openUnitSequenceStep(target.skill, target.slug);
     else showView('learn');
+  });
+  banner.querySelector('.unit-verbs-previous-btn')?.addEventListener('click', () => {
+    const activities = getUnitActivities(unit.id);
+    const target = [...activities].reverse().find((item) => !item.locked) || activities[0];
+    if (target) openUnitSequenceStep(target.skill, target.slug);
+  });
+  banner.querySelector('.unit-verbs-finish-btn')?.addEventListener('click', () => {
+    loadDashboard();
+    showUnitCompletionPanel({ unitId: unit.id, xpReward: 0 });
   });
 }
 
@@ -3128,17 +3700,31 @@ function setActiveLesson(slug) {
 // the content panel pointed at the previous unit's lesson.
 function selectUnit(unitId, options = {}) {
   if (!unitId) return;
+  learningPathState.skillEntryContext = 'route';
   const changingUnit = unitId !== learningPathState.unitId;
   learningPathState.unitId = unitId;
-  // Switching units lands on that unit's overview panel (see
-  // renderUnitOverviewCard) rather than auto-opening one of its lessons -
-  // the previously active lesson (if any) belonged to the old unit, so it
-  // can't stay open here. Picking a specific activity to practice is a
-  // separate, deliberate action (clicking it directly, or the overview's
-  // own "Comenzar/Continuar/Repasar unidad" button).
-  if (changingUnit) {
-    learningPathState.activeSlug = '';
+  // A selected unit is the single navigation context for every skill tab.
+  // Open its first available activity immediately (normally Reading), so
+  // subsequent Reading/Listening/Speaking/etc. tabs resolve directly to the
+  // same unit instead of falling back to the course-wide card catalogue.
+  const activeBelongsToUnit = learningPathState.lessons.some(
+    (item) => item.slug === learningPathState.activeSlug && item.unitId === unitId
+  );
+  if (changingUnit || !activeBelongsToUnit) {
+    const activities = getUnitActivities(unitId);
+    const firstActivity =
+      activities.find((item) => item.skill === 'reading' && !item.locked) ||
+      activities.find((item) => !item.locked) ||
+      activities[0];
+    learningPathState.activeSlug = firstActivity?.slug || '';
+    if (firstActivity?.locked) {
+      openPaywallModal({
+        title: 'Disponible en ANDERGO Premium.',
+        message: 'Esta unidad forma parte del recorrido completo de ANDERGO Premium.'
+      });
+    }
   }
+  updateLevelTabLabels();
   if (options.render !== false) renderLearningPath();
 }
 
@@ -3218,7 +3804,23 @@ function speakText(text, { locale, rate = 1, onEnd, onStart, onBoundary, onPause
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = locale || getPronunciationLocale();
+    const speechLanguage =
+      Object.entries(LANGUAGE_LOCALES).find(([, value]) => value === utterance.lang)?.[0] ||
+      learningPathState.language ||
+      'english';
+    const requestedBase = utterance.lang.toLowerCase().split('-')[0];
+    const preferredVoices = getReadingVoicesForLocale(utterance.lang);
+    const storedVoiceName = getStoredReadingVoiceName(speechLanguage);
+    const matchingVoice =
+      preferredVoices.find((voice) => voice.name === storedVoiceName) ||
+      preferredVoices[0] ||
+      (window.speechSynthesis.getVoices() || []).find(
+        (voice) => voice.lang?.toLowerCase().split('-')[0] === requestedBase
+      );
+    if (matchingVoice) utterance.voice = matchingVoice;
     utterance.rate = rate;
+    utterance.pitch = getStoredSpeechNumber(speechLanguage, 'pitch', 1, 0.5, 1.5);
+    utterance.volume = getStoredSpeechNumber(speechLanguage, 'volume', 1, 0, 1);
     if (onEnd) {
       utterance.onend = onEnd;
       utterance.onerror = onEnd;
@@ -3364,11 +3966,35 @@ function getReadingVoicesForLocale(locale) {
   const exact = all.filter((voice) => voice.lang === locale);
   const pool = exact.length ? exact : all.filter((voice) => voice.lang?.startsWith(prefix));
   const seen = new Set();
-  return pool.filter((voice) => {
+  const uniquePool = pool.filter((voice) => {
     if (seen.has(voice.name)) return false;
     seen.add(voice.name);
     return true;
   });
+  const preferredNames = {
+    en: ['Google US English', 'Google UK English Female', 'Microsoft Zira', 'Microsoft David'],
+    es: ['Google español', 'Google español de Estados Unidos', 'Microsoft Helena', 'Microsoft Pablo'],
+    fr: ['Google français']
+  };
+  const preferred = preferredNames[prefix] || [];
+  uniquePool.sort((left, right) => {
+    const leftName = String(left.name || '').toLocaleLowerCase();
+    const rightName = String(right.name || '').toLocaleLowerCase();
+    const leftRank = preferred.findIndex((name) => leftName.includes(name.toLocaleLowerCase()));
+    const rightRank = preferred.findIndex((name) => rightName.includes(name.toLocaleLowerCase()));
+    return (leftRank < 0 ? 999 : leftRank) - (rightRank < 0 ? 999 : rightRank);
+  });
+  if (prefix === 'fr') {
+    const googleFrenchVoice = uniquePool.find((voice) => {
+      const name = String(voice.name || '').toLocaleLowerCase('fr');
+      return name.includes('google') && (name.includes('français') || name.includes('french'));
+    });
+    // Google français is the designated system fallback for French.
+    // If a device does not provide it, keep the locale-compatible pool so
+    // the learner still receives audio instead of a silent player.
+    return googleFrenchVoice ? [googleFrenchVoice] : uniquePool;
+  }
+  return uniquePool;
 }
 
 function splitReadingSentences(text) {
@@ -3398,6 +4024,30 @@ function getReadingParagraphs(lesson) {
     .split(/\n+/)
     .map((p) => p.trim())
     .filter(Boolean);
+}
+
+function getStoredSpeechNumber(language, key, fallback, min, max) {
+  try {
+    const value = Number(localStorage.getItem(`andergo_${key}_${language}`));
+    return Number.isFinite(value) ? Math.min(max, Math.max(min, value)) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function setStoredSpeechNumber(language, key, value) {
+  try {
+    localStorage.setItem(`andergo_${key}_${language}`, String(value));
+  } catch {
+    /* The current playback still uses the selected value. */
+  }
+}
+
+function getContinuousReadingDescription(description) {
+  return String(description || '')
+    .replace(/,\s*in (?:three|3) parts\.?$/i, '.')
+    .replace(/,\s*en (?:tres|3) partes\.?$/i, '.')
+    .replace(/,\s*en (?:trois|3) parties\.?$/i, '.');
 }
 
 // Builds the full spoken script for a reading: title, then every
@@ -3444,15 +4094,10 @@ function formatReadingTime(totalSeconds) {
 }
 
 // ---------------------------------------------------------------------
-// Engine abstraction (kept deliberately thin) so the player above never
-// has to change shape when a Premium neural engine is wired in later -
-// only this factory's `engine: 'azure'` branch would gain a real
-// implementation (an HTMLAudioElement over a server-generated clip from
-// lib/ttsService.js, with real seek/duration). No Azure credentials are
-// configured yet, so that branch intentionally falls back to `browser`
-// rather than doing nothing.
+// Browser/system TTS player. Keeping this small adapter lets the reading
+// controls remain independent from the Web Speech API implementation.
 // ---------------------------------------------------------------------
-function createReadingAudioPlayer({ engine = 'browser', language, voice, rate } = {}) {
+function createReadingAudioPlayer({ engine = 'browser', language, voice, rate, pitch = 1, volume = 1 } = {}) {
   const resolvedEngine = engine === 'azure' ? 'browser' : engine;
   return {
     engine: resolvedEngine,
@@ -3464,6 +4109,8 @@ function createReadingAudioPlayer({ engine = 'browser', language, voice, rate } 
       const utterance = new SpeechSynthesisUtterance(segment.text);
       utterance.lang = getPronunciationLocale(language);
       utterance.rate = rate || 1;
+      utterance.pitch = pitch;
+      utterance.volume = volume;
       if (voice) utterance.voice = voice;
       utterance.onstart = () => onStart?.();
       utterance.onend = () => onEnd?.();
@@ -3492,6 +4139,8 @@ const readingSpeechPlayer = (() => {
   let elapsedBeforeCurrentSegment = 0;
   let segmentStartedAt = 0;
   let rateKey = 'normal';
+  let pitch = 1;
+  let volume = 1;
   let voices = [];
   let voiceIndex = 0;
   let progressTimer = null;
@@ -3551,6 +4200,9 @@ const readingSpeechPlayer = (() => {
       totalDurationSeconds,
       progressPct,
       rateKey,
+      pitch,
+      volume,
+      engine: 'browser',
       voiceLabel: voiceDisplayLabel(),
       voiceName: currentVoice()?.name || '',
       canChangeVoice: voices.length > 1
@@ -3588,7 +4240,9 @@ const readingSpeechPlayer = (() => {
       engine: 'browser',
       language,
       voice: currentVoice(),
-      rate: rateValue()
+      rate: rateValue(),
+      pitch,
+      volume
     });
     segmentStartedAt = performance.now();
     player.speakSegment(seg, {
@@ -3616,6 +4270,8 @@ const readingSpeechPlayer = (() => {
     lesson = lessonToAttach;
     language = languageKey;
     rateKey = getStoredReadingRate(language) || 'normal';
+    pitch = getStoredSpeechNumber(language, 'pitch', 1, 0.5, 1.5);
+    volume = getStoredSpeechNumber(language, 'volume', 1, 0, 1);
     loadVoices();
     const built = buildReadingSegments(lesson, rateValue());
     segments = built.segments;
@@ -3630,7 +4286,7 @@ const readingSpeechPlayer = (() => {
   }
 
   function playReading() {
-    if (!supportsSpeech() || !segments.length) return;
+    if (!segments.length) return;
     if (state === 'paused') {
       resumeReading();
       return;
@@ -3639,13 +4295,15 @@ const readingSpeechPlayer = (() => {
       currentSegmentIndex = 0;
       elapsedBeforeCurrentSegment = 0;
     }
+    if (!supportsSpeech()) return;
     window.speechSynthesis.cancel(); // only one reading (or flashcard/tutor) utterance is ever active at a time
     state = 'playing';
     speakCurrentSegment();
   }
 
   function pauseReading() {
-    if (state !== 'playing' || !supportsSpeech()) return;
+    if (state !== 'playing') return;
+    if (!supportsSpeech()) return;
     const seg = segments[currentSegmentIndex];
     elapsedBeforeCurrentSegment += Math.min(
       (performance.now() - segmentStartedAt) / 1000,
@@ -3667,7 +4325,8 @@ const readingSpeechPlayer = (() => {
   }
 
   function resumeReading() {
-    if (state !== 'paused' || !supportsSpeech()) return;
+    if (state !== 'paused') return;
+    if (!supportsSpeech()) return;
     if (window.speechSynthesis.paused) {
       state = 'playing';
       segmentStartedAt = performance.now();
@@ -3781,6 +4440,22 @@ const readingSpeechPlayer = (() => {
     onUpdate = null;
   }
 
+  function changeReadingSetting(key, rawValue) {
+    const limits = key === 'pitch' ? [0.5, 1.5] : [0, 1];
+    const value = Math.min(limits[1], Math.max(limits[0], Number(rawValue)));
+    if (!Number.isFinite(value)) return;
+    if (key === 'pitch') pitch = value;
+    else volume = value;
+    setStoredSpeechNumber(language, key, value);
+    if (state === 'playing') {
+      playbackToken += 1;
+      window.speechSynthesis.cancel();
+      speakCurrentSegment();
+    } else {
+      emitUpdate();
+    }
+  }
+
   if (supportsSpeech()) {
     // Chrome (desktop especially) returns an empty voice list until this
     // fires once, asynchronously, after page load.
@@ -3804,7 +4479,8 @@ const readingSpeechPlayer = (() => {
     rewindReading,
     stopReading,
     changeReadingVoice,
-    changeReadingRate
+    changeReadingRate,
+    changeReadingSetting
   };
 })();
 
@@ -3891,7 +4567,7 @@ function renderTutorMarkdownHtml(rawText) {
 }
 
 // Plain-text counterpart of renderTutorMarkdownHtml(), for the text actually
-// sent to TTS (messageEl.dataset.ttsText / /api/speech/synthesize) -
+// sent to the browser TTS engine (messageEl.dataset.ttsText) -
 // speechSynthesis must never read "asterisk asterisk Pattern asterisk
 // asterisk" aloud. Strips the same markers but returns readable text, not
 // HTML - list bullets/numbers are dropped (nothing reads "dash" aloud
@@ -4018,50 +4694,13 @@ function updateTutorMessageBody(messageEl, container, text) {
 }
 
 // ---------------------------------------------------------------------
-// AI Tutor voice (Text-to-Speech on top of Cerebras/Groq/Gemini's text
-// reply - see POST /api/speech/synthesize in lib/server.js). Two
-// modalities: free browser speechSynthesis (via speakText() above) or
-// Premium neural voice (an <audio> element playing a server-generated
-// clip) - the server alone decides which one a given request gets back,
-// based on the signed-in user's actual subscription state.
+// AI Tutor voice: browser/system speechSynthesis on top of the Tutor's text.
 // ---------------------------------------------------------------------
 
-// Whatever is currently audible for a tutor reply - at most one at a time,
-// whether it's a speechSynthesis utterance or a neural <audio> clip -
-// stopAllTutorAudio() always tears this down first, so starting any new
-// playback (a different message, or the same one again) never overlaps
-// with what was already playing.
+// Whatever is currently audible for a tutor reply - at most one at a time.
 let currentTutorAudio = { element: null, messageEl: null };
 
-// One <audio> element reused for every neural tutor reply in the session,
-// instead of a fresh `new Audio()` per message - avoids piling up media
-// elements as the conversation grows and keeps the "only one thing plays at
-// a time" rule (stopAllTutorAudio) working against a single, known element.
-let sharedTutorAudioEl = null;
-function getSharedTutorAudioElement() {
-  if (!sharedTutorAudioEl) sharedTutorAudioEl = new Audio();
-  return sharedTutorAudioEl;
-}
-
-// Browsers only allow <audio>.play() with sound once *some* play() call has
-// happened synchronously inside a real user gesture on that element - once
-// that's happened, later programmatic play() calls on the same element (e.g.
-// requestTutorSpeech's auto-trigger, which runs well after the click, at the
-// end of an async fetch chain) keep working for the rest of the session.
-// Calling this at the very top of the Enviar click handler - before any
-// `await` - is what makes the autoplay-after-reply flow actually audible
-// instead of silently blocked; the attempt itself is wrapped so an empty/
-// unsupported source here never surfaces as an error.
-function primeTutorAudioForAutoplay() {
-  const audio = getSharedTutorAudioElement();
-  try {
-    const playAttempt = audio.play();
-    if (playAttempt?.catch) playAttempt.catch(() => {});
-  } catch {
-    /* ignore - this call only exists to register gesture-driven playback */
-  }
-  audio.pause();
-}
+function primeTutorAudioForAutoplay() {}
 
 // ---------------------------------------------------------------------
 // Word-highlight sync (TTS reads aloud, the currently-spoken word/segment
@@ -4070,10 +4709,7 @@ function primeTutorAudioForAutoplay() {
 // role of "activeTutorMessageId/activeUtterance/activeCharIndex", scoped to
 // this module instead of duplicated per message element.
 //
-// Only ever applies to the free browser speechSynthesis path
-// (requestTutorSpeech below) - the separate Premium neural <audio> clip has
-// no boundary-event equivalent and is out of scope here (spec: "no
-// modificar la función Premium de conversación de audio a audio").
+// Applies to browser speechSynthesis through requestTutorSpeech below.
 // ---------------------------------------------------------------------
 let tutorHighlight = { messageEl: null, tokens: null, wordIndex: -1 };
 
@@ -4219,17 +4855,14 @@ function resetTutorVoiceButtons(messageEl) {
     pauseBtn.disabled = true;
     pauseBtn.textContent = '⏸ Pausar';
   }
-  // Rewind only ever makes sense for the neural <audio> path - speechSynthesis
-  // has no seek API, so it stays hidden in browser-fallback mode (see
-  // requestTutorSpeech, which sets messageEl.dataset.ttsMode on success).
+  // speechSynthesis has no seek API, so rewind remains hidden.
   if (rewindBtn) {
     rewindBtn.disabled = true;
     rewindBtn.hidden = messageEl.dataset.ttsMode !== 'neural';
   }
 }
 
-// Pauses/resumes in place - never regenerates the audio (same clip/
-// utterance, whether neural <audio> or the speechSynthesis fallback).
+// Pauses/resumes the current speechSynthesis utterance in place.
 function toggleTutorVoicePause(messageEl) {
   if (!messageEl || currentTutorAudio.messageEl !== messageEl) return;
   const pauseBtn = messageEl.querySelector('.tutor-voice-pause');
@@ -4443,6 +5076,7 @@ function showLearnState(state) {
 function openLesson(slug) {
   if (!slug) return;
   stopTutorDictation();
+  learningPathState.skillEntryContext = 'route';
   setActiveLesson(slug);
   updateLearnHash();
   renderLearningPath();
@@ -5120,7 +5754,7 @@ const SKILL_ICONS = {
 // "Módulo <nivel>" is the module unit - honest to what's actually loaded,
 // rather than inventing themed module names the data can't back up.
 function getLessonStateInfo(lesson, isActive, nextSlug) {
-  if (lesson.locked) return { key: 'locked', label: 'Bloqueado' };
+  if (lesson.locked) return { key: 'locked', label: 'Premium' };
   if (isActive) return { key: 'now', label: 'Ahora' };
   if (lesson.completed) return { key: 'completed', label: 'Completado' };
   if (lesson.progressStatus === 'in_progress') return { key: 'in-progress', label: 'En progreso' };
@@ -5183,16 +5817,28 @@ function renderUnitAccordionHtml(nextSlug) {
     .map((unit) => {
       const metrics = getUnitProgressMetrics(unit.id);
       const isSelected = unit.id === learningPathState.unitId;
+      const unitLessons = getUnitActivities(unit.id);
+      const reward = unitLessons.reduce(
+        (total, lesson) => total + Number(lesson.xpReward ?? lesson.xp_reward ?? 20),
+        0
+      );
+      const isPremiumUnit =
+        unitLessons.length > 0 && unitLessons.every((lesson) => lesson.locked);
 
       return `
-      <button type="button" class="path-unit path-unit-header${isSelected ? ' path-unit--selected' : ''}" data-unit-id="${escapeHtml(unit.id)}" ${isSelected ? 'aria-current="true"' : ''}>
-        <span class="path-unit-order">${escapeHtml(String(unit.order))}</span>
-        <span class="path-unit-titles">
-          <span class="path-unit-title">${escapeHtml(unit.title)}</span>
-          ${unit.titleEs ? `<span class="path-unit-title-es">${escapeHtml(unit.titleEs)}</span>` : ''}
-        </span>
-        <span class="path-unit-progress-label">${metrics.completedCount}/${metrics.total} · ${metrics.progressPercent}%</span>
-      </button>
+      <div class="path-unit-group${isSelected ? ' path-unit-group--selected' : ''}">
+        <button type="button" class="path-unit path-unit-header${isSelected ? ' path-unit--selected' : ''}${isPremiumUnit ? ' path-unit--premium' : ''}" data-unit-id="${escapeHtml(unit.id)}" ${isSelected ? 'aria-current="true"' : ''}>
+          <span class="path-unit-order" aria-hidden="true">🧳</span>
+          <span class="path-unit-titles">
+            <span class="path-unit-journey">Viaje ${escapeHtml(String(unit.order))}</span>
+            <span class="path-unit-title">${escapeHtml(unit.title)}</span>
+            ${unit.titleEs ? `<span class="path-unit-title-es">${escapeHtml(unit.titleEs)}</span>` : ''}
+          </span>
+          <span class="path-unit-reward">⭐ ${reward} XP</span>
+          ${isPremiumUnit ? '<span class="path-unit-premium">🔒 Premium</span>' : ''}
+          <span class="path-unit-progress-label">${metrics.progressPercent}%</span>
+        </button>
+      </div>
     `;
     })
     .join('');
@@ -5323,31 +5969,73 @@ function getLessonDurationMinutes(lesson) {
   return lesson.estimated_minutes || lesson.estimatedMinutes || lesson.duration || null;
 }
 
-function renderContinueCard(lesson) {
+function renderContinueCard(lesson, options = {}) {
   const skillLabel = getSkillLabel(lesson.skill);
   const duration = getLessonDurationMinutes(lesson);
   const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
-  const completedCount = learningPathState.lessons.filter((item) => item.completed).length;
-  const total = learningPathState.lessons.length;
-  const pct = total ? Math.round((completedCount / total) * 100) : 0;
+  const unit = learningPathState.units.find((item) => item.id === lesson.unitId);
+  const overview = getUnitOverviewData(unit || {});
+  const objective = getContinuousReadingDescription(
+    lesson.mission || lesson.intro || lesson.description || overview.objective
+  );
+  const authoredOutcomes = [
+    ...(Array.isArray(lesson.learningOutcomes) ? lesson.learningOutcomes : []),
+    ...(Array.isArray(lesson.outcomes) ? lesson.outcomes : [])
+  ].filter(Boolean);
+  const outcomes = (authoredOutcomes.length ? authoredOutcomes : overview.outcomes).slice(0, 3);
+  const assessmentCount =
+    lesson.grammarTest?.questions?.length ||
+    lesson.exercises?.filter((item) => ['mcq', 'true_false'].includes(item.type)).length ||
+    lesson.exercises?.length ||
+    0;
+  // A unit has six skill activities plus Verbos. Use the shared course
+  // metrics here as well as in the route column, otherwise the same course
+  // misleadingly says 84 activities on one side and 72 on the other.
+  const courseMetrics = getCourseProgressMetrics();
+  const completedCount = courseMetrics.completedCount;
+  const total = courseMetrics.total;
+  const pct = courseMetrics.progressPercent;
+  const selected = options.selected === true;
   const targetLabel =
     languageDisplayNames[learningPathState.language] || learningPathState.language;
 
   return `
     <div class="lesson-continue-card">
       <span class="lesson-continue-kicker">${escapeHtml(targetLabel)} · Nivel ${escapeHtml(lesson.level)}</span>
-      <h3>${lesson.progressStatus === 'in_progress' ? 'Continúa tu lección' : 'Tu próxima lección está lista'}</h3>
+      <h3>${selected || lesson.progressStatus === 'in_progress' ? 'Continúa tu lección' : 'Tu lección está lista'}</h3>
       <p class="lesson-continue-title">${escapeHtml(skillLabel)} · ${escapeHtml(lesson.title)}</p>
-      <p class="lesson-continue-desc">${escapeHtml(lesson.intro || lesson.description || '')}</p>
-      <div class="lesson-continue-meta">
-        ${duration ? `<span>⏱ ${escapeHtml(String(duration))} min</span>` : ''}
-        <span>⭐ ${escapeHtml(String(xp))} XP</span>
+      <div class="lesson-route-guide">
+        <div class="lesson-route-guide-item">
+          <span aria-hidden="true">🎯</span>
+          <div>
+            <strong>Tu objetivo</strong>
+            <p>${escapeHtml(objective || `Practicar ${skillLabel.toLowerCase()} en una situación real.`)}</p>
+          </div>
+        </div>
+        ${
+          outcomes.length
+            ? `<div class="lesson-route-guide-item">
+                <span aria-hidden="true">✓</span>
+                <div>
+                  <strong>Al terminar podrás</strong>
+                  <ul>${outcomes.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>
+                </div>
+              </div>`
+            : ''
+        }
+        <div class="lesson-route-guide-item lesson-route-guide-item--reward">
+          <span aria-hidden="true">💡</span>
+          <div>
+            <strong>Actividad</strong>
+            <p>${duration ? `${escapeHtml(String(duration))} min · ` : ''}${assessmentCount ? `${assessmentCount} ejercicios · ` : ''}${escapeHtml(String(xp))} XP</p>
+          </div>
+        </div>
       </div>
       <div class="lesson-continue-progress" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
         <div style="width:${pct}%"></div>
       </div>
-      <p class="lesson-continue-count">${completedCount}/${total} lecciones completadas en ${escapeHtml(lesson.level)}</p>
-      <button type="button" class="primary-btn lesson-continue-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" data-lesson-skill="${escapeHtml(lesson.skill)}">${lesson.progressStatus === 'in_progress' ? 'Continuar ahora' : 'Empezar ahora'} →</button>
+      <p class="lesson-continue-count">${completedCount}/${total} actividades completadas en ${escapeHtml(lesson.level)}</p>
+      <button type="button" class="primary-btn lesson-continue-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" data-lesson-skill="${escapeHtml(lesson.skill)}">${selected || lesson.progressStatus === 'in_progress' ? 'Continuar ahora' : 'Empezar ahora'} →</button>
     </div>
   `;
 }
@@ -5397,20 +6085,13 @@ function renderUnitOverviewList(items) {
   return `<ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`;
 }
 
-// The 2-column grid from .unit-overview-body (see styles.css): outcomes and
-// grammar side by side, vocabulary spanning the full width below. Any
-// section with no data (unit has no unitOverview yet) is simply omitted.
+// Student projection of unit metadata. Grammar/vocabulary/curricular mapping
+// stay behind the scenes; the route only answers “what will I be able to do?”.
 function renderUnitOverviewBody(data) {
   const outcomesHtml = data.outcomes.length
-    ? `<div class="unit-overview-column"><h4>Aprenderás a</h4>${renderUnitOverviewList(data.outcomes)}</div>`
+    ? `<div class="unit-overview-column unit-overview-column--full"><h4>🎯 Hoy aprenderás a</h4>${renderUnitOverviewList(data.outcomes)}</div>`
     : '';
-  const grammarHtml = data.grammar.length
-    ? `<div class="unit-overview-column"><h4>Gramática</h4>${renderUnitOverviewList(data.grammar)}</div>`
-    : '';
-  const vocabularyHtml = data.vocabulary.length
-    ? `<div class="unit-overview-column unit-overview-column--full"><h4>Vocabulario</h4>${renderUnitOverviewList(data.vocabulary)}</div>`
-    : '';
-  return `${outcomesHtml}${grammarHtml}${vocabularyHtml}`;
+  return outcomesHtml;
 }
 
 // Right-panel default state for unit-aware languages/levels (English,
@@ -5434,24 +6115,26 @@ function renderUnitOverviewCard(unit) {
   const action = getUnitActionState(unit);
   const pct = getUnitProgressMetrics(unit.id).progressPercent;
   const bodyHtml = renderUnitOverviewBody(data);
+  const reward = getUnitActivities(unit.id).reduce((total, lesson) => total + Number(lesson.xpReward || 0), 0);
 
   return `
     <div class="unit-overview-panel">
       <div class="unit-overview-header">
+        <span class="unit-mission-kicker">🧳 Viaje ${escapeHtml(String(unit.order))}</span>
         <h3 class="unit-title">${escapeHtml(unit.title)}</h3>
-        ${data.objective ? `<p class="unit-objective">${escapeHtml(data.objective)}</p>` : ''}
+        ${data.objective ? `<p class="unit-objective"><strong>Tu misión:</strong> ${escapeHtml(data.objective)}</p>` : ''}
         ${data.scenario ? `<p class="unit-scenario">“${escapeHtml(data.scenario)}”</p>` : ''}
       </div>
       <div class="unit-overview-progress">
         <div class="unit-overview-progress-bar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
           <div style="width:${pct}%"></div>
         </div>
-        <span class="unit-overview-progress-label">${action.completedCount}/${action.total} actividades completadas en esta unidad</span>
+        <span class="unit-overview-progress-label"><strong>${pct}% completado</strong> · 🏆 Recompensa: hasta ${reward} XP</span>
       </div>
       <div class="unit-overview-sequence">
         <div class="unit-sequence-heading">
-          <strong>Recorrido recomendado</strong>
-          <span>Empieza con Reading y avanza paso a paso.</span>
+          <strong>Tu aventura</strong>
+          <span>Una actividad a la vez; empieza por la siguiente disponible.</span>
         </div>
         <div class="unit-sequence-steps">${renderUnitSequenceStepsHtml(unit.id)}</div>
       </div>
@@ -5509,8 +6192,8 @@ function renderLessonDetail(lesson) {
   const exercises = lesson.locked
     ? `
     <div class="premium-lock-box">
-      <strong>🔒 Lección premium</strong>
-      <button type="button" class="primary-btn" data-action="open-lesson-paywall">Desbloquear</button>
+      <strong>🔒 Disponible en ANDERGO Premium.</strong>
+      <button type="button" class="primary-btn" data-action="open-lesson-paywall">Ver Premium</button>
     </div>
   `
     : lesson.exercises?.map((item, index) => renderLessonExercise(item, index, lesson)).join('') ||
@@ -5522,7 +6205,7 @@ function renderLessonDetail(lesson) {
   if (lesson.locked) {
     mode = 'locked';
     disabled = true;
-    buttonText = `Premium USD ${premiumPriceUsd}`;
+    buttonText = 'Ver Premium';
   } else if (lesson.completed) {
     mode = 'completed';
     disabled = true;
@@ -5582,8 +6265,9 @@ function renderLessonWorkspace() {
     : null;
 
   if (activeLesson) {
-    workspace.innerHTML = renderLessonDetail(activeLesson);
-    workspace.classList.remove('lesson-workspace--continue', 'lesson-workspace--unit-overview');
+    workspace.innerHTML = renderContinueCard(activeLesson, { selected: true });
+    workspace.classList.add('lesson-workspace--continue');
+    workspace.classList.remove('lesson-workspace--unit-overview');
     return;
   }
 
@@ -5600,6 +6284,7 @@ function renderLessonWorkspace() {
 }
 
 function renderLearningPath() {
+  renderLearningRouteContext();
   renderSkillGraph();
   renderLessonWorkspace();
   renderSkillCards();
@@ -5646,7 +6331,30 @@ function getSkillLabel(skill, language = learningPathState.language) {
 // navigation (showView) and language switch (setTargetLanguage).
 function updateLevelTabLabels() {
   document.querySelectorAll('.level-tab[data-tab]').forEach((link) => {
-    link.textContent = getSkillLabel(link.dataset.tab);
+    const targetSkill = link.dataset.tab;
+    link.textContent = getSkillLabel(targetSkill);
+    if (
+      learningPathState.skillEntryContext === 'route' &&
+      learningPathState.unitId &&
+      learningPathState.lessons.length
+    ) {
+      const targetLesson =
+        targetSkill === 'learn'
+          ? getActiveLearningLesson()
+          : getUnitActivities(learningPathState.unitId).find(
+              (lesson) => lesson.skill === targetSkill
+            );
+      const parts = [
+        targetSkill,
+        learningPathState.language,
+        learningPathState.level,
+        learningPathState.unitId
+      ];
+      if (targetLesson?.slug) parts.push(targetLesson.slug);
+      link.href = `#${parts.join('/')}`;
+    } else {
+      link.href = `#${targetSkill}`;
+    }
   });
   document.querySelectorAll('.skill-competency-card[data-skill]').forEach((card) => {
     const heading = card.querySelector('h3');
@@ -5820,16 +6528,65 @@ function closeChangeCombinationPopover() {
   popover.setAttribute('inert', '');
 }
 
-function applyChangeCombination() {
+async function applyChangeCombination() {
   const bridgeSelect = document.getElementById('comboBridgeSelect');
   const languageSelect = document.getElementById('comboLanguageSelect');
   const levelSelect = document.getElementById('comboLevelSelect');
   if (!bridgeSelect || !languageSelect || !levelSelect) return;
 
-  if (!setBridgeLanguage(bridgeSelect.value)) return;
-  if (!setTargetLanguage(languageSelect.value, { level: levelSelect.value })) return;
-  closeChangeCombinationPopover();
-  showView(getViewFromHash());
+  const bridge = normalizeLanguageKey(bridgeSelect.value);
+  const language = normalizeLanguageKey(languageSelect.value);
+  const level = levelSelect.value;
+  if (!bridge || !language || !level) return;
+  if (LanguagePair && !LanguagePair.isLanguagePairSupported(bridge, language)) {
+    showHomeToast('Esta combinaciÃ³n estarÃ¡ disponible prÃ³ximamente.');
+    return;
+  }
+
+  const applyButton = document.querySelector('.change-combo-apply');
+  const originalLabel = applyButton?.textContent;
+  if (applyButton) {
+    applyButton.disabled = true;
+    applyButton.textContent = 'Aplicando...';
+  }
+
+  try {
+    // Change the whole pair at once. Applying L1 and L2 separately can
+    // trigger two route loads and leave the modal looking successful while
+    // the first, stale request wins the render race.
+    stopTutorDictation();
+    learningPathState.bridgeLanguage = bridge;
+    learningPathState.language = language;
+    learningPathState.level = level;
+    syncLearningMode();
+    translatorUserAdjustedPair = false;
+
+    const pathBridgeSelect = document.getElementById('pathBridgeSelect');
+    if (pathBridgeSelect) pathBridgeSelect.value = bridge;
+    const pathLanguageSelect = document.getElementById('pathLanguageSelect');
+    if (pathLanguageSelect) pathLanguageSelect.value = language;
+    const pathLevelSelect = document.getElementById('pathLevelSelect');
+    if (pathLevelSelect) pathLevelSelect.value = level;
+
+    applyInterfaceLanguage(bridge);
+    updateLanguagePreviewSelection();
+    updatePathPairPreview();
+    updateAiTutorContext();
+    updateLevelTabLabels();
+    await loadLearningPath({ language, level });
+    savePreferences(language, level, bridge);
+    closeChangeCombinationPopover();
+    showView(getViewFromHash());
+    showHomeToast('CombinaciÃ³n actualizada.');
+  } catch (error) {
+    console.warn('No se pudo aplicar la combinaciÃ³n de idiomas', error);
+    showHomeToast('No se pudo actualizar la combinaciÃ³n. Intenta nuevamente.');
+  } finally {
+    if (applyButton) {
+      applyButton.disabled = false;
+      applyButton.textContent = originalLabel || 'Aplicar';
+    }
+  }
 }
 
 const SKILL_VIEW_RENDERERS = {
@@ -5913,6 +6670,7 @@ function renderSkillLibraryHtml(skill, activities) {
 function wireSkillLibrary(section, skill) {
   section.querySelectorAll('.skill-library-card').forEach((card) => {
     card.addEventListener('click', () => {
+      learningPathState.skillEntryContext = 'route';
       setActiveLesson(card.dataset.lessonSlug);
       renderSkillView(skill);
       updateLearnHash(skill);
@@ -5949,6 +6707,10 @@ function wireSkillLibrary(section, skill) {
 function renderSkillView(skill) {
   const section = document.getElementById(skill);
   if (!section) return;
+  // Route activities already render the concise language/level/lesson bar
+  // plus the current mission. Do not also show the generic three-pill
+  // course header there; it remains available for the skill-library flow.
+  section.classList.remove('is-route-activity');
   renderSkillViewHeader(section);
 
   const content = section.querySelector('.skill-view-content');
@@ -5974,7 +6736,15 @@ function renderSkillView(skill) {
 
   if (hasUnits()) {
     const activities = getSkillActivities(skill);
-    const selected = activities.find((item) => item.slug === learningPathState.activeSlug);
+    let selected = activities.find((item) => item.slug === learningPathState.activeSlug);
+    // A tab change made from inside the learning route should resolve to the
+    // matching activity in the same unit. Previously the active slug still
+    // belonged to Reading, so Listening/Grammar/etc. fell back to the full
+    // library even though the learner was working inside a specific unit.
+    if (!selected && learningPathState.unitId) {
+      selected = activities.find((item) => item.unitId === learningPathState.unitId);
+      if (selected) setActiveLesson(selected.slug);
+    }
     section.dataset.activeLessonSlug = selected?.slug || '';
 
     if (!selected) {
@@ -5985,9 +6755,18 @@ function renderSkillView(skill) {
       return;
     }
 
-    updateSkillViewBackLink(section, skill, true);
+    updateSkillViewBackLink(
+      section,
+      skill,
+      learningPathState.skillEntryContext === 'explore'
+    );
+    section.classList.toggle(
+      'is-route-activity',
+      learningPathState.skillEntryContext === 'route'
+    );
     renderSkillUnitSequence(section, selected);
     SKILL_VIEW_RENDERERS[skill]?.(section, selected);
+    renderUnitActivityFooter(section, selected);
     return;
   }
 
@@ -6000,8 +6779,22 @@ function renderSkillView(skill) {
     return;
   }
 
+  section.classList.toggle(
+    'is-route-activity',
+    learningPathState.skillEntryContext === 'route'
+  );
   renderSkillUnitSequence(section, lesson);
   SKILL_VIEW_RENDERERS[skill]?.(section, lesson);
+  renderUnitActivityFooter(section, lesson);
+}
+
+function renderLearningRouteContext() {
+  const bar = document.getElementById('learningRouteContext');
+  if (!bar) return;
+  const activeLesson = learningPathState.lessons.find(
+    (lesson) => lesson.slug === learningPathState.activeSlug
+  );
+  bar.innerHTML = buildLearningRouteContextHtml(activeLesson);
 }
 
 // Renders every paragraph of the reading as visible text - this is the
@@ -6373,7 +7166,16 @@ function setupReadingSelectionTranslator() {
 function downloadReadingWord(lesson) {
   if (!lesson) return;
   const preferences = getReadingDisplayPreferences();
-  const paragraphs = getReadingParagraphs(lesson);
+  const allParagraphs = getReadingParagraphs(lesson);
+  const readingSection = getReadingSectionState(lesson);
+  const paragraphs = readingSection.isPaginated
+    ? allParagraphs.slice(
+        readingSection.current * readingSection.pageSize,
+        (readingSection.current + 1) * readingSection.pageSize
+      )
+    : allParagraphs;
+  const isFinalReadingSection =
+    !readingSection.isPaginated || readingSection.current === readingSection.total - 1;
   const comprehensionQuestions = renderPrintableExerciseList(lesson.exercises);
   const questionsHeading =
     learningPathState.language === 'french'
@@ -6481,6 +7283,7 @@ function renderReadingAudioPlayerHtml(snapshot) {
 }
 
 function readingAudioStatusLabel(state) {
+  if (state === 'loading') return 'Preparando voz natural…';
   if (state === 'playing') return 'Leyendo…';
   if (state === 'paused') return 'En pausa';
   if (state === 'completed') return 'Lectura completa';
@@ -6884,7 +7687,16 @@ function renderReadingView(section, lesson) {
   if (!content) return;
   const { total, attempted } = getExerciseProgress(lesson);
   const pct = total ? Math.round((attempted / total) * 100) : 0;
-  const paragraphs = getReadingParagraphs(lesson);
+  const allParagraphs = getReadingParagraphs(lesson);
+  const readingSection = getReadingSectionState(lesson);
+  const paragraphs = readingSection.isPaginated
+    ? allParagraphs.slice(
+        readingSection.current * readingSection.pageSize,
+        (readingSection.current + 1) * readingSection.pageSize
+      )
+    : allParagraphs;
+  const isFinalReadingSection =
+    !readingSection.isPaginated || readingSection.current === readingSection.total - 1;
   // Only show a separate description line when it's distinct from the
   // reading body itself - if neither reading.parts nor reading.text is set,
   // getReadingParagraphs() above falls back to lesson.description as the
@@ -6929,11 +7741,13 @@ function renderReadingView(section, lesson) {
   // Tutor shortcuts (data-tutor-transcript/-vocabulary) and the "Traducir
   // este texto" shortcut below - so both actually know what's on screen
   // instead of just a generic prompt string.
-  const readingTranscript = paragraphs.join(' ');
+  const readingTranscript = allParagraphs.join(' ');
   const readingVocabWords = (lesson.vocabulary || []).map((item) => item.word).join(', ');
   const hasVocabulary = Boolean(vocabHtml);
   const displayPreferences = getReadingDisplayPreferences();
-  const referencesHtml = renderReadingReferencesHtml(lesson.reading?.references);
+  const referencesHtml = isFinalReadingSection
+    ? renderReadingReferencesHtml(lesson.reading?.references)
+    : '';
   const french = isFrenchAdvancedImmersion();
 
   content.innerHTML = `
@@ -6941,6 +7755,18 @@ function renderReadingView(section, lesson) {
       ${renderSkillPrintHeaderHtml(lesson)}
       <div class="reading-progress-bar no-print" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
       <div class="reading-reader-card">
+        ${
+          readingSection.isPaginated
+            ? `<div class="reading-section-indicator no-print">
+                <strong>Sección ${readingSection.current + 1} de ${readingSection.total}</strong>
+                <div aria-hidden="true">${Array.from(
+                  { length: readingSection.total },
+                  (_, index) =>
+                    `<span class="${index <= readingSection.current ? 'is-active' : ''}"></span>`
+                ).join('')}</div>
+              </div>`
+            : ''
+        }
         ${audioPlayerHtml}
         <div class="reading-display-controls no-print" aria-label="${french ? 'Réglages de lecture' : 'Ajustes de lectura'}">
           <span class="reading-display-label">${french ? 'Taille du texte' : 'Tamaño del texto'}</span>
@@ -6957,11 +7783,21 @@ function renderReadingView(section, lesson) {
           </label>
           <button type="button" class="reading-display-btn reading-align-btn" aria-pressed="false">☰ Justificar</button>
         </div>
+        <label class="reading-audio-setting">Tono
+          <input type="range" class="reading-audio-setting-range" data-setting="pitch" min="0.5" max="1.5" step="0.1" value="${snapshot.pitch}" aria-label="Tono de la voz">
+        </label>
+        <label class="reading-audio-setting">Volumen
+          <input type="range" class="reading-audio-setting-range" data-setting="volume" min="0" max="1" step="0.1" value="${snapshot.volume}" aria-label="Volumen de la voz">
+        </label>
         <div class="reading-hero reading-hero--near-text">
           <div class="reading-heading">
             <p class="reading-level-tag">${durationLabel}${escapeHtml(lesson.level)} · ${escapeHtml(getSkillLabel('reading'))}</p>
             <h3><span class="reading-sentence" data-segment-index="0">${escapeHtml(lesson.title)}</span></h3>
-            ${hasDedicatedReadingBody && lesson.description ? `<p class="reading-description">${escapeHtml(lesson.description)}</p>` : ''}
+            ${
+              hasDedicatedReadingBody && lesson.description
+                ? `<p class="reading-description">${escapeHtml(getContinuousReadingDescription(lesson.description))}</p>`
+                : ''
+            }
           </div>
           ${illustrationHtml}
         </div>
@@ -6972,14 +7808,14 @@ function renderReadingView(section, lesson) {
           ${french ? 'Double-cliquez sur un mot ou touchez-le deux fois pour le traduire, l’écouter ou interroger le Tutor. Les membres Premium peuvent aussi l’enregistrer dans Vocabulary.' : 'Haz doble clic en una palabra o tócala dos veces para traducirla, escucharla o consultarla con el Tutor. Los usuarios Premium también pueden guardarla en Vocabulary.'}
         </p>
       </div>
-      <div class="reading-vocab-section no-print"${hasVocabulary ? '' : ' hidden'}>
+      <div class="reading-vocab-section no-print"${hasVocabulary && isFinalReadingSection ? '' : ' hidden'}>
         <div class="reading-vocab-actions">
           <button type="button" class="secondary-btn reading-toggle-vocab" aria-expanded="false">${french ? 'Voir le vocabulaire' : 'Ver vocabulario'}</button>
           <button type="button" class="secondary-btn reading-toggle-support" aria-pressed="false">${escapeHtml(french ? "Afficher l’aide" : 'Mostrar ayuda en español')}</button>
         </div>
         <div class="reading-vocab-list" hidden>${vocabHtml}</div>
       </div>
-      <div class="reading-questions">
+      <div class="reading-questions"${isFinalReadingSection ? '' : ' hidden'}>
         <h4>${french ? 'Questions de compréhension' : 'Preguntas de comprensión'}</h4>
         ${exercisesHtml}
       </div>
@@ -7014,56 +7850,377 @@ function renderReadingView(section, lesson) {
   });
 }
 
+function normalizeWritingPracticeAnswer(value) {
+  return String(value || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLocaleLowerCase()
+    .replace(/[’']/g, ' ')
+    .replace(/[^\p{L}\p{N}\s-]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function buildWritingPractice(lesson) {
+  const french = isFrenchTargetLanguage();
+  const fallback = french
+    ? [
+        "Je m'appelle Camila.",
+        "J'aime apprendre le français.",
+        'Nous étudions ensemble.',
+        'La classe commence à neuf heures.'
+      ]
+    : [
+        'My name is Camila.',
+        'I like learning English.',
+        'We study together.',
+        'The class starts at nine.'
+      ];
+  const candidates = [
+    ...(lesson.dialogue || []).map((item) => item.line),
+    ...(lesson.vocabulary || []).map((item) => item.example),
+    ...(lesson.phrases || []).filter((item) => !String(item).includes('...')),
+    lesson.description
+  ]
+    .filter(Boolean)
+    .flatMap((text) => String(text).split(/(?<=[.!?])\s+/))
+    .map((text) => text.replace(/\s+/g, ' ').trim())
+    .filter((text) => {
+      const words = text.split(/\s+/).filter(Boolean);
+      return words.length >= 3 && words.length <= 14 && text.length <= 110;
+    });
+  const sentences = [...new Map([...candidates, ...fallback].map((text) => [normalizeWritingPracticeAnswer(text), text])).values()].slice(0, 4);
+
+  const makeGap = (sentence, offset = 0) => {
+    const words = sentence.match(/[\p{L}\p{M}]+(?:[’'-][\p{L}\p{M}]+)*/gu) || [];
+    const eligible = words.filter((word) => normalizeWritingPracticeAnswer(word).length >= 3);
+    const answer = eligible[(Math.floor(eligible.length / 2) + offset) % Math.max(eligible.length, 1)] || words[0] || '';
+    return {
+      answer,
+      prompt: sentence.replace(answer, '_____')
+    };
+  };
+  const firstGap = makeGap(sentences[0]);
+  const secondGap = makeGap(sentences[1], 1);
+  const distractors = sentences
+    .flatMap((sentence) => sentence.match(/[\p{L}\p{M}]+(?:[’'-][\p{L}\p{M}]+)*/gu) || [])
+    .filter(
+      (word) =>
+        normalizeWritingPracticeAnswer(word).length >= 3 &&
+        normalizeWritingPracticeAnswer(word) !== normalizeWritingPracticeAnswer(secondGap.answer)
+    );
+  const choiceOptions = [secondGap.answer, ...distractors.slice(0, 3)]
+    .filter((value, index, all) => all.findIndex((item) => normalizeWritingPracticeAnswer(item) === normalizeWritingPracticeAnswer(value)) === index)
+    .slice(0, 4);
+  while (choiceOptions.length < 4) {
+    choiceOptions.push((french ? ['mais', 'avec', 'dans', 'pour'] : ['but', 'with', 'from', 'after'])[choiceOptions.length]);
+  }
+  const orderedTokens = sentences[2].replace(/[.!?]+$/u, '').split(/\s+/);
+  const scrambledTokens =
+    orderedTokens.length > 2
+      ? [...orderedTokens.slice(1), orderedTokens[0]]
+      : [...orderedTokens].reverse();
+
+  return [
+    {
+      type: 'fill',
+      label: french ? 'Compléter' : 'Completar',
+      prompt: firstGap.prompt,
+      answer: firstGap.answer
+    },
+    {
+      type: 'choice',
+      label: french ? 'Choisir' : 'Elegir',
+      prompt: secondGap.prompt,
+      answer: secondGap.answer,
+      options: choiceOptions
+    },
+    {
+      type: 'order',
+      label: french ? 'Remettre en ordre' : 'Ordenar',
+      prompt: french ? 'Remettez les mots dans le bon ordre.' : 'Ordena las palabras para formar la oración.',
+      answer: orderedTokens.join(' '),
+      tokens: scrambledTokens
+    },
+    {
+      type: 'dictation',
+      label: french ? 'Écouter et écrire' : 'Escuchar y escribir',
+      prompt: french ? 'Écoutez puis écrivez la phrase courte.' : 'Escucha y escribe la frase corta.',
+      answer: sentences[3]
+    }
+  ];
+}
+
 function renderWritingView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
-  const writingExercise = (lesson.exercises || []).find((item) => item.type === 'writing');
+  const french = isFrenchTargetLanguage();
   const draftKey = `andergoWritingDraft:${lesson.slug}`;
+  const scoreKey = `andergoWritingPracticeScore:${lesson.slug}`;
   const savedDraft = localStorage.getItem(draftKey) || '';
-  const wordLimit = 80;
+  const bestScore = Number(localStorage.getItem(scoreKey) || 0);
+  const modelText = lesson.dialogue?.[0]?.line || lesson.phrases?.[0] || '';
+  const usefulPhrases = (lesson.phrases || []).slice(0, 6);
+  const practice = buildWritingPractice(lesson);
+  const runtime = { index: 0, answers: {}, checked: {}, correct: 0, streak: 0, bestStreak: 0, order: [] };
 
   content.innerHTML = `
-    <h3>${escapeHtml(lesson.title)}</h3>
-    <p class="writing-consigna">${escapeHtml(writingExercise?.prompt || lesson.mission || lesson.intro || '')}</p>
-    <div class="writing-model">
-      <strong>Modelo</strong>
-      <p>${escapeHtml(lesson.dialogue?.[0]?.line || lesson.phrases?.[0] || '')}</p>
-    </div>
-    <div class="writing-connectors">
-      <strong>Vocabulario y conectores</strong>
-      <div class="writing-connectors-list">${(lesson.phrases || []).map((p) => `<span>${escapeHtml(p)}</span>`).join('')}</div>
-    </div>
-    <label class="writing-editor-label" for="writingEditor">Tu texto <span class="writing-word-limit">(límite sugerido: ${wordLimit} palabras)</span></label>
-    <textarea id="writingEditor" class="writing-editor" rows="10">${escapeHtml(savedDraft)}</textarea>
-    <p class="writing-word-count" id="writingWordCount">0 palabras</p>
-    <div class="skill-view-tutor-cta">
-      <button type="button" class="secondary-btn writing-review-btn" data-support-mode="review-grammar">Revisar gramática</button>
-      <button type="button" class="secondary-btn writing-review-btn" data-support-mode="review-vocabulary">Mejorar vocabulario</button>
-      <button type="button" class="secondary-btn writing-review-btn" data-support-mode="review-coherence">Revisar coherencia</button>
-      <button type="button" class="secondary-btn writing-review-btn" data-support-mode="explain-errors">Explicar errores en español</button>
-      <button type="button" class="secondary-btn writing-review-btn" data-support-mode="hint">Darme una pista</button>
-    </div>
-    <div class="writing-tutor-panel" id="writingTutorPanel" hidden>
-      <div class="writing-tutor-original"><strong>Original</strong><p></p></div>
-      <div class="writing-tutor-suggestion"><strong>Sugerencia del Tutor IA</strong><p></p></div>
-      <div class="writing-tutor-current" hidden><strong>Tu texto actual</strong><p></p></div>
-      <div class="writing-tutor-actions">
-        <button type="button" class="secondary-btn writing-compare-btn">Comparar versiones</button>
-        <button type="button" class="secondary-btn writing-reject-btn">Rechazar</button>
-        <button type="button" class="primary-btn writing-accept-btn">Aceptar</button>
+    <div class="writing-heading">
+      <div>
+        <p class="writing-kicker">${french ? 'Expression écrite · pratique guidée' : 'Writing · práctica guiada'}</p>
+        <h3>${escapeHtml(lesson.title)}</h3>
+        <p>${french ? 'Quatre activités courtes avant une microproduction facultative.' : 'Cuatro actividades cortas antes de una microproducción opcional.'}</p>
+      </div>
+      <div class="writing-best-score">
+        <span>${french ? 'Meilleur score' : 'Mejor puntuación'}</span>
+        <strong>${bestScore}/100</strong>
       </div>
     </div>
+    <div class="writing-practice-shell" aria-live="polite">
+      <div class="writing-practice-progress">
+        <span class="writing-practice-counter">1 / ${practice.length}</span>
+        <div><i style="width:${100 / practice.length}%"></i></div>
+      </div>
+      <div class="writing-practice-gamebar" aria-live="polite">
+        <span>🎯 ${french ? 'Mini-défi' : 'Minireto'}</span>
+        <strong class="writing-practice-streak">🔥 ${french ? 'Série' : 'Racha'}: 0</strong>
+      </div>
+      <div class="writing-practice-stage"></div>
+    </div>
+    <details class="writing-micro-challenge">
+      <summary>${french ? 'Défi facultatif : écrire seulement 1 ou 2 phrases' : 'Reto opcional: escribir solo 1 o 2 frases'}</summary>
+      <div class="writing-micro-content">
+        <p>${french ? 'Utilisez une ou deux expressions de la leçon. Le Tutor IA vous donnera une rétroaction brève.' : 'Usa una o dos expresiones de la lección. El Tutor IA te dará una retroalimentación breve.'}</p>
+        <details class="writing-help">
+          <summary>${french ? 'Voir un modèle et les expressions utiles' : 'Ver un modelo y frases útiles'}</summary>
+          ${modelText ? `<div class="writing-model"><strong>${french ? 'Modèle' : 'Modelo'}</strong><p>${escapeHtml(modelText)}</p></div>` : ''}
+          <div class="writing-connectors">
+            <strong>${french ? 'Expressions utiles' : 'Frases útiles'}</strong>
+            <div class="writing-connectors-list">${usefulPhrases.map((phrase) => `<button type="button" class="writing-phrase-chip" data-writing-phrase="${escapeHtml(phrase)}">${escapeHtml(phrase)}</button>`).join('')}</div>
+          </div>
+        </details>
+        <div class="writing-editor-shell">
+          <label class="writing-editor-label" for="writingEditor">${french ? 'Votre microtexte' : 'Tu microtexto'} <span class="writing-word-limit">(${french ? 'maximum conseillé : 35 mots' : 'máximo recomendado: 35 palabras'})</span></label>
+          <textarea id="writingEditor" class="writing-editor writing-editor--compact" rows="3" placeholder="${french ? 'Écrivez une ou deux phrases…' : 'Escribe una o dos frases…'}">${escapeHtml(savedDraft)}</textarea>
+          <button type="button" class="writing-predictive-accept" hidden>
+            <span>✨ ${french ? 'Suggestion' : 'Sugerencia'}</span>
+            <strong></strong><small>Tab ↹</small>
+          </button>
+          <div class="writing-editor-meta">
+            <p class="writing-word-count" id="writingWordCount">0 ${french ? 'mot' : 'palabras'}</p>
+            <p>${french ? 'Brouillon enregistré automatiquement.' : 'Borrador guardado automáticamente.'}</p>
+          </div>
+        </div>
+        <div class="writing-primary-actions">
+          <button type="button" class="primary-btn writing-review-btn" data-support-mode="review-complete">${french ? 'Demander une révision' : 'Revisar mi microtexto'}</button>
+          <button type="button" class="secondary-btn writing-review-btn" data-support-mode="hint">${french ? 'Demander un indice' : 'Darme una pista'}</button>
+        </div>
+        <div class="writing-tutor-panel" id="writingTutorPanel" hidden>
+          <div class="writing-tutor-original"><strong>${french ? 'Original' : 'Original'}</strong><p></p></div>
+          <div class="writing-tutor-suggestion"><strong>${french ? 'Suggestion du Tutor IA' : 'Sugerencia del Tutor IA'}</strong><p></p></div>
+          <div class="writing-tutor-current" hidden><strong>${french ? 'Votre texte actuel' : 'Tu texto actual'}</strong><p></p></div>
+          <div class="writing-tutor-actions">
+            <button type="button" class="secondary-btn writing-compare-btn">${french ? 'Comparer' : 'Comparar versiones'}</button>
+            <button type="button" class="secondary-btn writing-reject-btn">${french ? 'Ignorer' : 'Rechazar'}</button>
+            <button type="button" class="primary-btn writing-accept-btn">${french ? 'Compris' : 'Aceptar'}</button>
+          </div>
+        </div>
+      </div>
+    </details>
   `;
+
+  const stage = content.querySelector('.writing-practice-stage');
+  const counter = content.querySelector('.writing-practice-counter');
+  const progressBar = content.querySelector('.writing-practice-progress i');
+  const streakEl = content.querySelector('.writing-practice-streak');
+  const renderPracticeStep = () => {
+    const task = practice[runtime.index];
+    if (!task) {
+      const score = Math.round((runtime.correct / practice.length) * 100);
+      if (score === 100 && !runtime.perfectCelebrated) {
+        runtime.perfectCelebrated = true;
+        window.celebratePerfectPractice?.();
+      }
+      const storedBest = Math.max(bestScore, score);
+      localStorage.setItem(scoreKey, String(storedBest));
+      progressBar.style.width = '100%';
+      counter.textContent = `${practice.length} / ${practice.length}`;
+      stage.innerHTML = `
+        <div class="writing-practice-result">
+          <span aria-hidden="true">${score >= 70 ? '🎉' : '💪'}</span>
+          <p>${french ? 'Résultat de la pratique' : 'Resultado de la práctica'}</p>
+          <strong>${score}/100</strong>
+          <small>${french ? `${runtime.correct} activités correctes sur ${practice.length} · meilleure série : ${runtime.bestStreak}.` : `${runtime.correct} actividades correctas de ${practice.length} · mejor racha: ${runtime.bestStreak}.`}</small>
+          <button type="button" class="primary-btn writing-practice-retry">${french ? 'Recommencer' : 'Practicar de nuevo'}</button>
+        </div>
+      `;
+      stage.querySelector('.writing-practice-retry')?.addEventListener('click', () => {
+        runtime.index = 0;
+        runtime.answers = {};
+        runtime.checked = {};
+        runtime.correct = 0;
+        runtime.streak = 0;
+        runtime.bestStreak = 0;
+        runtime.order = [];
+        renderPracticeStep();
+      });
+      return;
+    }
+
+    counter.textContent = `${runtime.index + 1} / ${practice.length}`;
+    progressBar.style.width = `${((runtime.index + 1) / practice.length) * 100}%`;
+    const body =
+      task.type === 'fill'
+        ? `<input class="writing-practice-input" type="text" autocomplete="off" placeholder="${french ? 'Écrivez le mot manquant' : 'Escribe la palabra que falta'}" />`
+        : task.type === 'choice'
+          ? `<div class="writing-practice-options">${task.options.map((option) => `<button type="button" data-writing-answer="${escapeHtml(option)}">${escapeHtml(option)}</button>`).join('')}</div>`
+          : task.type === 'order'
+            ? `<div class="writing-order-answer" aria-label="${french ? 'Phrase construite' : 'Oración construida'}"></div><div class="writing-token-bank">${task.tokens.map((token, index) => `<button type="button" data-writing-token-index="${index}">${escapeHtml(token)}</button>`).join('')}</div><button type="button" class="writing-order-reset">${french ? 'Effacer' : 'Borrar'}</button>`
+            : `<button type="button" class="secondary-btn writing-dictation-play">🔊 ${french ? 'Écouter la phrase' : 'Escuchar la frase'}</button><input class="writing-practice-input" type="text" autocomplete="off" placeholder="${french ? 'Écrivez ce que vous entendez' : 'Escribe lo que escuchas'}" />`;
+
+    stage.innerHTML = `
+      <article class="writing-practice-card" data-writing-task="${task.type}">
+        <div class="writing-practice-type"><span>${runtime.index + 1}</span><strong>${escapeHtml(task.label)}</strong></div>
+        <p class="writing-practice-prompt">${escapeHtml(task.prompt)}</p>
+        ${body}
+        <p class="writing-practice-feedback" hidden></p>
+        <div class="writing-practice-actions">
+          <button type="button" class="primary-btn writing-practice-check" disabled>${french ? 'Vérifier' : 'Comprobar'}</button>
+          <button type="button" class="primary-btn writing-practice-next" hidden>${runtime.index === practice.length - 1 ? (french ? 'Voir mon score' : 'Ver mi puntuación') : (french ? 'Activité suivante' : 'Siguiente actividad')}</button>
+        </div>
+      </article>
+    `;
+
+    const checkButton = stage.querySelector('.writing-practice-check');
+    const input = stage.querySelector('.writing-practice-input');
+    const setAnswer = (answer) => {
+      runtime.answers[runtime.index] = answer;
+      checkButton.disabled = !normalizeWritingPracticeAnswer(answer);
+    };
+    input?.addEventListener('input', () => setAnswer(input.value));
+    stage.querySelectorAll('[data-writing-answer]').forEach((button) => {
+      button.addEventListener('click', () => {
+        stage.querySelectorAll('[data-writing-answer]').forEach((item) => item.classList.remove('is-selected'));
+        button.classList.add('is-selected');
+        setAnswer(button.dataset.writingAnswer);
+      });
+    });
+    stage.querySelectorAll('[data-writing-token-index]').forEach((button) => {
+      button.addEventListener('click', () => {
+        if (button.disabled) return;
+        button.disabled = true;
+        runtime.order.push(button.textContent);
+        stage.querySelector('.writing-order-answer').textContent = runtime.order.join(' ');
+        setAnswer(runtime.order.join(' '));
+      });
+    });
+    stage.querySelector('.writing-order-reset')?.addEventListener('click', () => {
+      runtime.order = [];
+      stage.querySelector('.writing-order-answer').textContent = '';
+      stage.querySelectorAll('[data-writing-token-index]').forEach((button) => {
+        button.disabled = false;
+      });
+      setAnswer('');
+    });
+    stage.querySelector('.writing-dictation-play')?.addEventListener('click', () => {
+      speakText(task.answer, {
+        locale: LANGUAGE_LOCALES[learningPathState.language],
+        rate: getDefaultPronunciationRate(learningPathState.language, lesson.level)
+      });
+    });
+    checkButton.addEventListener('click', () => {
+      if (runtime.checked[runtime.index]) return;
+      const correct =
+        normalizeWritingPracticeAnswer(runtime.answers[runtime.index]) ===
+        normalizeWritingPracticeAnswer(task.answer);
+      runtime.checked[runtime.index] = true;
+      if (correct) {
+        runtime.correct += 1;
+        runtime.streak += 1;
+        runtime.bestStreak = Math.max(runtime.bestStreak, runtime.streak);
+      } else {
+        runtime.streak = 0;
+      }
+      window.playExerciseFeedbackSound?.(correct);
+      if (streakEl) {
+        streakEl.textContent = `🔥 ${french ? 'Série' : 'Racha'}: ${runtime.streak}`;
+        streakEl.classList.toggle('is-active', correct && runtime.streak > 1);
+      }
+      const feedback = stage.querySelector('.writing-practice-feedback');
+      feedback.hidden = false;
+      feedback.classList.toggle('is-correct', correct);
+      feedback.classList.toggle('is-incorrect', !correct);
+      feedback.innerHTML = correct
+        ? `✓ ${french ? `Très bien ! Série de ${runtime.streak}.` : `¡Muy bien! Racha de ${runtime.streak}.`}`
+        : `${french ? 'Réponse attendue' : 'Respuesta esperada'} : <strong>${escapeHtml(task.answer)}</strong>`;
+      stage.querySelectorAll('input, [data-writing-answer], [data-writing-token-index], .writing-order-reset').forEach((element) => {
+        element.disabled = true;
+      });
+      checkButton.hidden = true;
+      stage.querySelector('.writing-practice-next').hidden = false;
+    });
+    stage.querySelector('.writing-practice-next').addEventListener('click', () => {
+      runtime.index += 1;
+      runtime.order = [];
+      renderPracticeStep();
+    });
+  };
+  renderPracticeStep();
 
   const editor = content.querySelector('#writingEditor');
   const wordCountEl = content.querySelector('#writingWordCount');
+  const predictiveButton = content.querySelector('.writing-predictive-accept');
+  const predictiveText = predictiveButton?.querySelector('strong');
+  let currentPrediction = '';
+  const updatePrediction = () => {
+    if (!predictiveButton || !predictiveText) return;
+    const value = editor.value.trim();
+    const lastFragment = value.split(/\s+/).pop()?.toLocaleLowerCase() || '';
+    const suggestion = usefulPhrases.find((phrase) =>
+      phrase.toLocaleLowerCase().startsWith(lastFragment) && phrase.toLocaleLowerCase() !== lastFragment
+    ) || usefulPhrases.find((phrase) => !value.includes(phrase)) || '';
+    currentPrediction = suggestion;
+    predictiveText.textContent = suggestion;
+    predictiveButton.hidden = !suggestion;
+  };
+  const acceptPrediction = () => {
+    if (!currentPrediction) return;
+    const prefix = editor.value && !/\s$/.test(editor.value) ? ' ' : '';
+    editor.value += `${prefix}${currentPrediction} `;
+    editor.focus();
+    updateWordCount();
+    updatePrediction();
+  };
   const updateWordCount = () => {
     const words = editor.value.trim().split(/\s+/).filter(Boolean).length;
-    wordCountEl.textContent = `${words} palabra${words === 1 ? '' : 's'}`;
+    wordCountEl.textContent = french
+      ? `${words} mot${words === 1 ? '' : 's'}`
+      : `${words} palabra${words === 1 ? '' : 's'}`;
     localStorage.setItem(draftKey, editor.value);
   };
-  editor?.addEventListener('input', updateWordCount);
+  editor?.addEventListener('input', () => {
+    updateWordCount();
+    updatePrediction();
+  });
+  editor?.addEventListener('keydown', (event) => {
+    if (event.key === 'Tab' && currentPrediction) {
+      event.preventDefault();
+      acceptPrediction();
+    }
+  });
+  predictiveButton?.addEventListener('click', acceptPrediction);
+  content.querySelectorAll('.writing-phrase-chip').forEach((button) => {
+    button.addEventListener('click', () => {
+      const phrase = button.dataset.writingPhrase || '';
+      const prefix = editor.value && !/\s$/.test(editor.value) ? ' ' : '';
+      editor.value += `${prefix}${phrase} `;
+      editor.focus();
+      updateWordCount();
+      updatePrediction();
+    });
+  });
   updateWordCount();
+  updatePrediction();
 }
 
 // Speaking recorder state - kept in memory only, never in localStorage/
@@ -7095,6 +8252,11 @@ let speakingRecorder = {
   recognitionSupported: null,
   transcript: '',
   transcriptEdited: false,
+  lesson: null,
+  correctionContext: null,
+  autoReviewTimerId: null,
+  pendingAutoReview: false,
+  lastAutoReviewedTranscript: '',
   // Tutor IA correction result for the current transcript - cleared
   // together with everything else on delete/redo/teardown.
   correction: { status: 'idle', text: '', error: '' } // idle | loading | done | error
@@ -7114,6 +8276,12 @@ function pickSpeakingMimeType() {
 
 function teardownSpeakingResources() {
   const r = speakingRecorder;
+  if (r.autoReviewTimerId) {
+    window.clearTimeout(r.autoReviewTimerId);
+    r.autoReviewTimerId = null;
+  }
+  r.pendingAutoReview = false;
+  r.lastAutoReviewedTranscript = '';
   if (r.timerId) {
     window.clearInterval(r.timerId);
     r.timerId = null;
@@ -7178,7 +8346,12 @@ function updateSpeakingCorrectButtonState(container) {
   if (!btn) return;
   const hasText = Boolean(r.transcript && r.transcript.trim());
   btn.disabled = !hasText || r.correction.status === 'loading';
-  btn.textContent = r.correction.status === 'loading' ? 'Revisando…' : 'Revisar con Tutor IA';
+  const actionLabel = {
+    pronunciation: 'Evaluar mi pronunciación',
+    speech_to_text: 'Revisar lo que dije'
+  }[r.correctionContext?.activityType];
+  btn.textContent =
+    r.correction.status === 'loading' ? 'Revisando…' : actionLabel || 'Revisar con Tutor IA';
 }
 
 function updateSpeakingUI(container) {
@@ -7232,6 +8405,7 @@ function updateSpeakingUI(container) {
   const transcriptEl = container.querySelector('.speaking-transcript');
   if (transcriptEl && document.activeElement !== transcriptEl && transcriptEl.value !== r.transcript) {
     transcriptEl.value = r.transcript;
+    transcriptEl.dispatchEvent(new Event('input', { bubbles: true }));
   }
 
   updateSpeakingCorrectButtonState(container);
@@ -7263,14 +8437,19 @@ function startSpeakingTranscription(container) {
   let finalText = '';
   recognition.onresult = (event) => {
     let interim = '';
+    let receivedFinalResult = false;
     for (let i = event.resultIndex; i < event.results.length; i++) {
       const result = event.results[i];
-      if (result.isFinal) finalText += `${result[0].transcript} `;
+      if (result.isFinal) {
+        finalText += `${result[0].transcript} `;
+        receivedFinalResult = true;
+      }
       else interim += result[0].transcript;
     }
     if (!r.transcriptEdited) {
       r.transcript = `${finalText}${interim}`.trim();
       updateSpeakingUI(container);
+      if (receivedFinalResult) scheduleSpeakingAutoReview(container);
     }
   };
   recognition.onerror = () => {
@@ -7278,6 +8457,11 @@ function startSpeakingTranscription(container) {
   };
   recognition.onend = () => {
     if (r.recognition === recognition) r.recognition = null;
+    const sttButton = container.querySelector('.speaking-stt-start');
+    if (sttButton) sttButton.textContent = '🎙️ Dictar de nuevo';
+    if (!r.transcriptEdited && r.transcript.trim() && r.status === 'recording') {
+      scheduleSpeakingAutoReview(container, 350);
+    }
   };
 
   try {
@@ -7297,6 +8481,36 @@ function stopSpeakingTranscription() {
       /* already stopped */
     }
   }
+}
+
+function runSpeakingAutoReview(container) {
+  const r = speakingRecorder;
+  const transcript = (r.transcript || '').trim();
+  r.pendingAutoReview = false;
+  if (
+    !transcript ||
+    transcript === r.lastAutoReviewedTranscript ||
+    r.correction.status === 'loading'
+  ) {
+    return;
+  }
+  r.lastAutoReviewedTranscript = transcript;
+  requestSpeakingCorrection(container, r.lesson, r.correctionContext || {});
+}
+
+function scheduleSpeakingAutoReview(container, delay = 900) {
+  const r = speakingRecorder;
+  if (!(r.transcript || '').trim() || r.transcriptEdited) return;
+  if (r.autoReviewTimerId) window.clearTimeout(r.autoReviewTimerId);
+  r.autoReviewTimerId = window.setTimeout(() => {
+    r.autoReviewTimerId = null;
+    r.pendingAutoReview = true;
+    if (r.mediaRecorder?.state && r.mediaRecorder.state !== 'inactive') {
+      stopSpeakingRecording();
+    } else {
+      runSpeakingAutoReview(container);
+    }
+  }, delay);
 }
 
 async function startSpeakingRecording(container) {
@@ -7339,6 +8553,7 @@ async function startSpeakingRecording(container) {
     r.status = 'stopped';
     stopSpeakingTranscription();
     updateSpeakingUI(container);
+    if (r.pendingAutoReview) runSpeakingAutoReview(container);
   });
 
   recorder.start();
@@ -7349,12 +8564,15 @@ async function startSpeakingRecording(container) {
   r.timerId = window.setInterval(() => {
     r.elapsedSeconds += 1;
     updateSpeakingUI(container);
-    if (r.elapsedSeconds >= r.config.maximumSeconds) stopSpeakingRecording();
+    if (r.elapsedSeconds >= r.config.maximumSeconds) stopSpeakingRecording(true);
   }, 1000);
 }
 
-function stopSpeakingRecording() {
+function stopSpeakingRecording(autoReview = false) {
   const r = speakingRecorder;
+  if (autoReview && r.transcript.trim() && !r.transcriptEdited) {
+    r.pendingAutoReview = true;
+  }
   if (r.timerId) {
     window.clearInterval(r.timerId);
     r.timerId = null;
@@ -7388,49 +8606,27 @@ function redoSpeakingRecording(container) {
 // aloud - falls back to the full (already short, ≤50-word for A1-A2) text
 // when neither pattern matches.
 function extractCorrectedPhrase(text) {
-  const patterns = [/Repite:\s*[""]?([^"\n"]+)[""]?/i, /Corrección:\s*[""]?([^"\n"]+)[""]?/i];
+  const patterns = [
+    /(?:Modelo|Model|Modèle|Répète|Repite|Corrección|Correction)\s*:\s*["“«]?([^"”»\n]+)["”»]?/i,
+    /(?:podría decir|puedes decir|try saying|tu peux dire)\s+(?:algo\s+como\s*)?[:：]?\s*["“«]([^"”»\n]+)["”»]/i
+  ];
   for (const pattern of patterns) {
     const match = text.match(pattern);
     if (match?.[1]) return match[1].trim();
   }
-  return text;
+  const quotedPhrases = [...text.matchAll(/["“«]([^"”»\n]{2,})["”»]/g)];
+  if (quotedPhrases.length) return quotedPhrases[quotedPhrases.length - 1][1].trim();
+  return text.trim();
 }
 
-// Model-phrase audio for the correction card (§14): tries the same real
-// neural-voice backend the AI Tutor's own voice controls already use
-// (/api/speech/synthesize - OpenAI/ElevenLabs, gated by sign-in plus the
-// existing free-tier voice quota - see voiceAccessService.js), then falls
-// back to the browser's speechSynthesis. Always uses
-// getPronunciationLocale(targetLanguage), never the interface/bridge
-// language's voice. Azure Speech is intentionally NOT wired up here (no
-// credentials/authorization) - this is the one slot it would occupy later,
-// ahead of the speechSynthesis fallback.
-async function playModelPhrase(text, locale) {
+// Model-phrase audio uses the best browser/system voice for the target
+// language. It never makes a paid neural-TTS request.
+function playModelPhrase(text, locale, targetLanguage) {
   if (!text) return;
-  try {
-    const response = await fetch(`${backendBaseUrl}/api/speech/synthesize`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeaders() },
-      body: JSON.stringify({
-        text,
-        language: learningPathState.language,
-        locale,
-        speed: 'normal',
-        turnIndex: 1
-      })
-    });
-    const data = await response.json().catch(() => ({}));
-    if (response.ok && data.mode === 'neural' && data.audioBase64) {
-      const audio = new Audio(`data:${data.mimeType || 'audio/mpeg'};base64,${data.audioBase64}`);
-      await audio.play();
-      return;
-    }
-  } catch {
-    /* fall through to speechSynthesis */
-  }
+  const language = targetLanguage || learningPathState.language;
   speakText(text, {
     locale,
-    rate: getDefaultPronunciationRate(learningPathState.language, learningPathState.level)
+    rate: getDefaultPronunciationRate(language, learningPathState.level)
   });
 }
 
@@ -7471,7 +8667,8 @@ async function completeSpeakingActivity(lesson) {
 function renderSpeakingCorrectionResult(container, lesson, text) {
   const resultEl = container.querySelector('.speaking-correction-result');
   if (!resultEl) return;
-  const locale = getPronunciationLocale(learningPathState.language);
+  const targetLanguage = learningPathState.language;
+  const locale = getPronunciationLocale(targetLanguage);
   const modelPhrase = extractCorrectedPhrase(text);
   resultEl.hidden = false;
   resultEl.innerHTML = `
@@ -7484,7 +8681,7 @@ function renderSpeakingCorrectionResult(container, lesson, text) {
     </div>
   `;
   resultEl.querySelector('.speaking-listen-model-btn')?.addEventListener('click', () => {
-    playModelPhrase(modelPhrase, locale);
+    playModelPhrase(modelPhrase, locale, targetLanguage);
   });
   resultEl.querySelector('.speaking-retry-btn')?.addEventListener('click', () => {
     redoSpeakingRecording(container);
@@ -7601,7 +8798,7 @@ function renderSpeakingRecorderHtml() {
       <div class="speaking-transcript-block">
         <label class="speaking-transcript-label" for="speakingTranscript">Esto fue lo que entendimos:</label>
         <textarea id="speakingTranscript" class="speaking-transcript" rows="3" placeholder="Escribe o corrige aquí lo que dijiste…" aria-label="Transcripción de tu respuesta, editable"></textarea>
-        <p class="speaking-transcript-hint">Corrige una palabra, completa lo que no se reconoció, o vuelve a grabar antes de enviarlo.</p>
+        <p class="speaking-transcript-hint">Habla con naturalidad. Cuando hagas una pausa, el Tutor revisará tu respuesta automáticamente. También puedes editar el texto y revisarlo manualmente.</p>
       </div>
       <div class="speaking-actions">
         <button type="button" class="primary-btn speaking-correct-btn" disabled>Revisar con Tutor IA</button>
@@ -7614,13 +8811,15 @@ function renderSpeakingRecorderHtml() {
 
 function wireSpeakingRecorderControls(container, lesson, context) {
   speakingRecorder.container = container;
+  speakingRecorder.lesson = lesson;
+  speakingRecorder.correctionContext = context || {};
   updateSpeakingUI(container);
 
   container.querySelector('[data-recording-action="record"]')?.addEventListener('click', () => {
     startSpeakingRecording(container);
   });
   container.querySelector('[data-recording-action="stop"]')?.addEventListener('click', () => {
-    stopSpeakingRecording();
+    stopSpeakingRecording(true);
   });
   container.querySelector('[data-recording-action="play"]')?.addEventListener('click', () => {
     playSpeakingRecording();
@@ -7673,7 +8872,17 @@ function playDialogueLinesSequentially(lines, locale, rate, index = 0) {
 
 // Per-lesson UI-only state for which Speaking mode/turn is showing - reset
 // whenever a different lesson is opened (see renderSpeakingView).
-let speakingViewState = { lessonSlug: '', mode: 'guided', guidedTurnIndex: 0 };
+let speakingViewState = {
+  lessonSlug: '',
+  mode: 'dialogue',
+  guidedTurnIndex: 0,
+  pronunciationIndex: 0,
+  pronunciationOverride: ''
+};
+
+function speakingUiText(spanish, french) {
+  return learningPathState.language === 'french' ? french : spanish;
+}
 
 function getSpeakingDialogueSource(lesson) {
   const sibling = learningPathState.lessons.find(
@@ -7686,6 +8895,7 @@ function getSpeakingDialogueSource(lesson) {
     // with this lesson's own slug so answers grade against the right row
     // (POST /api/lessons/:slug/check-answer), not the Speaking activity's.
     sourceLesson: source,
+    title: source.title || speakingUiText('Diálogo de la unidad', 'Dialogue de l’unité'),
     lines: source.dialogue || [],
     situacion: source.intro || source.description || lesson.mission || lesson.intro || '',
     phrases: source.phrases?.length ? source.phrases : lesson.phrases || [],
@@ -7695,20 +8905,172 @@ function getSpeakingDialogueSource(lesson) {
 
 function renderSpeakingModeTabsHtml(activeMode) {
   const modes = [
-    { id: 'guided', label: '🧭 Práctica guiada' },
-    { id: 'dialogue', label: '💬 Diálogos' },
-    { id: 'free', label: '🗣 Respuesta libre' }
+    { id: 'dialogue', icon: '💬', label: 'Dialogues', hint: 'Escucha y representa una conversación' },
+    { id: 'pronunciation', icon: '🎯', label: 'Grabar y practicar', hint: 'Di enunciados prácticos y evalúa tu pronunciación' },
+    { id: 'tutor', icon: '✨', label: 'Conversar con Tutor IA', hint: 'Conversación libre · Premium', premium: true }
   ];
   return `
-    <div class="speaking-mode-tabs" role="group" aria-label="Modos de Speaking">
+    <div class="speaking-start">
+      <p><strong>¿Qué quieres hacer?</strong> Elige una opción y comienza.</p>
+    </div>
+    <div class="speaking-mode-tabs speaking-action-grid" role="group" aria-label="${speakingUiText('Modos de Speaking', 'Modes d’expression orale')}">
       ${modes
         .map(
           (mode) =>
-            `<button type="button" class="secondary-btn speaking-mode-btn${mode.id === activeMode ? ' is-active' : ''}" data-speaking-mode="${mode.id}" aria-pressed="${mode.id === activeMode}">${mode.label}</button>`
+            `<button type="button" class="speaking-mode-btn speaking-action-card${mode.id === activeMode ? ' is-active' : ''}${mode.premium ? ' is-premium' : ''}" data-speaking-mode="${mode.id}" aria-pressed="${mode.id === activeMode}">
+              <span class="speaking-action-icon">${mode.icon}</span>
+              <span><strong>${mode.label}</strong><small>${mode.hint}</small></span>
+              ${mode.premium ? '<em>Premium</em>' : ''}
+            </button>`
         )
         .join('')}
     </div>
   `;
+}
+
+function renderSpeakingSttHtml(lesson) {
+  const prompt = lesson.mission || lesson.intro || lesson.description || '';
+  return `
+    <div class="speaking-simple-panel">
+      <span class="speaking-step-kicker">Hablar a texto · STT</span>
+      <h4>Habla y mira cómo aparece tu respuesta</h4>
+      <p>${escapeHtml(prompt)}</p>
+      <textarea id="speakingTranscript" class="speaking-transcript" rows="6" placeholder="Pulsa «Empezar a dictar» y habla con naturalidad…"></textarea>
+      <div class="speaking-simple-actions">
+        <button type="button" class="primary-btn speaking-stt-start">🎙️ Empezar a dictar</button>
+        <button type="button" class="secondary-btn speaking-stt-stop">■ Detener</button>
+        <button type="button" class="secondary-btn speaking-correct-btn" disabled>Revisar lo que dije</button>
+      </div>
+      <p class="speaking-transcript-hint">Puedes corregir el texto antes de enviarlo. El audio no se conserva.</p>
+      <div class="speaking-correction-result" aria-live="polite" hidden></div>
+    </div>
+  `;
+}
+
+function wireSpeakingSttMode(content, lesson) {
+  resetSpeakingRecorder();
+  speakingRecorder.container = content;
+  speakingRecorder.lesson = lesson;
+  speakingRecorder.correctionContext = {
+    activityType: 'speech_to_text',
+    situation: lesson.mission || lesson.intro || '',
+    prompt: lesson.dialogue?.[0]?.line || ''
+  };
+  const transcript = content.querySelector('.speaking-transcript');
+  transcript?.addEventListener('input', () => {
+    speakingRecorder.transcript = transcript.value;
+    speakingRecorder.transcriptEdited = true;
+    updateSpeakingCorrectButtonState(content);
+  });
+  content.querySelector('.speaking-stt-start')?.addEventListener('click', () => {
+    speakingRecorder.transcriptEdited = false;
+    startSpeakingTranscription(content);
+    const button = content.querySelector('.speaking-stt-start');
+    if (button) button.textContent = '🔴 Escuchando…';
+  });
+  content.querySelector('.speaking-stt-stop')?.addEventListener('click', () => {
+    stopSpeakingTranscription();
+    const button = content.querySelector('.speaking-stt-start');
+    if (button) button.textContent = '🎙️ Seguir dictando';
+  });
+  content.querySelector('.speaking-correct-btn')?.addEventListener('click', () => {
+    requestSpeakingCorrection(content, lesson, speakingRecorder.correctionContext);
+  });
+  updateSpeakingCorrectButtonState(content);
+}
+
+function getPronunciationModels(lesson) {
+  const fallbackByLanguage = {
+    english: [
+      'I am ready to practice English today.',
+      'Please listen carefully and repeat after me.',
+      'I can speak clearly and confidently.',
+      'This sentence helps me improve my pronunciation.',
+      'Learning a language takes practice every day.'
+    ],
+    french: [
+      'Je suis prêt à pratiquer le français aujourd’hui.',
+      'Écoutez attentivement et répétez après moi.',
+      'Je peux parler clairement et avec confiance.',
+      'Cette phrase améliore ma prononciation.',
+      'Apprendre une langue demande une pratique quotidienne.'
+    ],
+    spanish: [
+      'Estoy listo para practicar español hoy.',
+      'Escucha con atención y repite después de mí.',
+      'Puedo hablar con claridad y confianza.',
+      'Esta oración mejora mi pronunciación.',
+      'Aprender un idioma requiere práctica diaria.'
+    ]
+  };
+  const fromLesson = [
+    speakingViewState.pronunciationOverride,
+    ...(lesson.dialogue || []).map((line) => line.line),
+    ...(lesson.phrases || []),
+    ...(lesson.vocabulary || []).map((item) => item.example),
+    ...String(lesson.intro || '').split(/(?<=[.!?])\s+/),
+    ...String(lesson.mission || '').split(/(?<=[.!?])\s+/)
+  ];
+  const unique = [];
+  [...fromLesson, ...(fallbackByLanguage[learningPathState.language] || fallbackByLanguage.english)].forEach((item) => {
+    const sentence = String(item || '').replace(/\s+/g, ' ').trim();
+    if (sentence && !unique.some((known) => known.toLocaleLowerCase() === sentence.toLocaleLowerCase())) {
+      unique.push(sentence);
+    }
+  });
+  return unique.slice(0, 5);
+}
+
+function renderPronunciationPracticeHtml(lesson) {
+  const models = getPronunciationModels(lesson);
+  const activeIndex = Math.min(speakingViewState.pronunciationIndex, models.length - 1);
+  const model = models[activeIndex] || lesson.title;
+  return `
+    <div class="speaking-simple-panel pronunciation-practice">
+      <span class="speaking-step-kicker">Pronunciación</span>
+      <h4>Lee y evalúa 5 oraciones</h4>
+      <p class="pronunciation-intro">Elige una oración, escucha el modelo, léela en voz alta y evalúa lo que el reconocimiento entendió.</p>
+      <div class="pronunciation-sentence-picker" role="group" aria-label="Cinco oraciones de práctica">
+        ${models
+          .map(
+            (sentence, index) =>
+              `<button type="button" class="pronunciation-sentence-btn${index === activeIndex ? ' is-active' : ''}" data-pronunciation-index="${index}" aria-pressed="${index === activeIndex}"><span>${index + 1}</span>${escapeHtml(sentence)}</button>`
+          )
+          .join('')}
+      </div>
+      <div class="pronunciation-model">
+        <div><small>Oración ${activeIndex + 1} de ${models.length}</small><p>${escapeHtml(model)}</p></div>
+        <button type="button" class="secondary-btn speaking-pronunciation-listen">🔊 Escuchar modelo</button>
+      </div>
+      <ol class="speaking-mini-steps"><li>Escucha el modelo.</li><li>Graba la misma frase.</li><li>Evalúa qué entendió el reconocimiento de voz.</li></ol>
+      ${renderSpeakingRecorderHtml()}
+      <p class="pronunciation-disclaimer">La evaluación usa la transcripción reconocida como referencia de claridad; no sustituye el análisis de un profesor.</p>
+    </div>
+  `;
+}
+
+function wirePronunciationMode(content, lesson) {
+  const models = getPronunciationModels(lesson);
+  const activeIndex = Math.min(speakingViewState.pronunciationIndex, models.length - 1);
+  const model = models[activeIndex] || lesson.title;
+  resetSpeakingRecorder();
+  content.querySelectorAll('.pronunciation-sentence-btn').forEach((button) => {
+    button.addEventListener('click', () => {
+      speakingViewState.pronunciationIndex = Number(button.dataset.pronunciationIndex) || 0;
+      renderSpeakingModeContent(content.closest('.skill-view-content'), lesson);
+    });
+  });
+  content.querySelector('.speaking-pronunciation-listen')?.addEventListener('click', () => {
+    playModelPhrase(model, getPronunciationLocale(learningPathState.language), learningPathState.language);
+  });
+  wireSpeakingRecorderControls(content, lesson, {
+    activityType: 'pronunciation',
+    situation: `Repite la frase modelo: ${model}`,
+    prompt: model,
+    conversationHistory: []
+  });
+  const correctBtn = content.querySelector('.speaking-correct-btn');
+  if (correctBtn) correctBtn.textContent = `Evaluar oración ${activeIndex + 1}`;
 }
 
 // Turn-by-turn walkthrough (§3.A): the first distinct speaker plays as the
@@ -7720,14 +9082,17 @@ function renderSpeakingModeTabsHtml(activeMode) {
 function renderGuidedPracticeHtml(lesson, dialogueSource) {
   const lines = dialogueSource.lines;
   if (!lines.length) {
-    return `<p class="skill-graph-empty">Todavía no hay un diálogo guiado para esta unidad.</p>`;
+    return `<p class="skill-graph-empty">${speakingUiText('Todavía no hay un diálogo guiado para esta unidad.', 'Aucun dialogue guidé n’est encore disponible pour cette unité.')}</p>`;
   }
   const participants = [...new Set(lines.map((line) => line.speaker).filter(Boolean))];
   const studentRole = participants[1] || participants[0];
   const turnIndex = Math.min(speakingViewState.guidedTurnIndex, lines.length - 1);
   const turn = lines[turnIndex];
   const isStudentTurn = turn.speaker === studentRole && participants.length > 1;
-  const progressLabel = `Turno ${turnIndex + 1} de ${lines.length}`;
+  const progressLabel = speakingUiText(
+    `Turno ${turnIndex + 1} de ${lines.length}`,
+    `Réplique ${turnIndex + 1} sur ${lines.length}`
+  );
 
   const historyHtml = lines
     .slice(0, turnIndex)
@@ -7738,19 +9103,19 @@ function renderGuidedPracticeHtml(lesson, dialogueSource) {
     .join('');
 
   return `
-    <p class="speaking-situation"><strong>Situación:</strong> ${escapeHtml(dialogueSource.situacion)}</p>
+    <p class="speaking-situation"><strong>${speakingUiText('Situación', 'Situation')} :</strong> ${escapeHtml(dialogueSource.situacion)}</p>
     <p class="speaking-guided-progress">${escapeHtml(progressLabel)}</p>
     ${historyHtml ? `<ul class="dialogue-lines-list dialogue-lines-list--history">${historyHtml}</ul>` : ''}
     <div class="speaking-guided-turn">
-      <span class="dialogue-speaker">${escapeHtml(turn.speaker || '')}${isStudentTurn ? ' (tú)' : ''}</span>
+      <span class="dialogue-speaker">${escapeHtml(turn.speaker || '')}${isStudentTurn ? speakingUiText(' (tú)', ' (vous)') : ''}</span>
       <p class="speaking-guided-turn-text">${escapeHtml(turn.line || '')}</p>
-      ${supportsSpeech() ? `<button type="button" class="secondary-btn speaking-guided-listen-btn">🔊 Escuchar</button>` : ''}
+      ${supportsSpeech() ? `<button type="button" class="secondary-btn speaking-guided-listen-btn">🔊 ${speakingUiText('Escuchar', 'Écouter')}</button>` : ''}
     </div>
     ${
       isStudentTurn
         ? renderSpeakingRecorderHtml() +
-          `<div class="speaking-guided-actions"><button type="button" class="secondary-btn speaking-guided-next-btn" ${turnIndex >= lines.length - 1 ? 'hidden' : ''}>Continuar diálogo →</button></div>`
-        : `<div class="speaking-guided-actions"><button type="button" class="primary-btn speaking-guided-next-btn" ${turnIndex >= lines.length - 1 ? 'hidden' : ''}>Continuar →</button></div>`
+          `<div class="speaking-guided-actions"><button type="button" class="secondary-btn speaking-guided-next-btn" ${turnIndex >= lines.length - 1 ? 'hidden' : ''}>${speakingUiText('Continuar diálogo', 'Continuer le dialogue')} →</button></div>`
+        : `<div class="speaking-guided-actions"><button type="button" class="primary-btn speaking-guided-next-btn" ${turnIndex >= lines.length - 1 ? 'hidden' : ''}>${speakingUiText('Continuar', 'Continuer')} →</button></div>`
     }
   `;
 }
@@ -7797,11 +9162,10 @@ function wireGuidedPracticeMode(content, lesson, dialogueSource) {
 // the full record/transcribe/correct block instead of a plain textarea).
 function renderDialogueModeHtml(dialogueSource) {
   const lines = dialogueSource.lines;
-  const participants = [...new Set(lines.map((line) => line.speaker).filter(Boolean))];
   const canSpeak = supportsSpeech();
 
   if (!lines.length) {
-    return `<p class="speaking-situation"><strong>Situación:</strong> ${escapeHtml(dialogueSource.situacion)}</p><p class="skill-graph-empty">Todavía no hay un diálogo de ejemplo para esta unidad.</p>`;
+    return `<p class="speaking-situation"><strong>${speakingUiText('Situación', 'Situation')} :</strong> ${escapeHtml(dialogueSource.situacion)}</p><p class="skill-graph-empty">${speakingUiText('Todavía no hay un diálogo de ejemplo para esta unidad.', 'Aucun dialogue modèle n’est encore disponible pour cette unité.')}</p>`;
   }
 
   const linesHtml = lines
@@ -7810,16 +9174,10 @@ function renderDialogueModeHtml(dialogueSource) {
       <li class="dialogue-line" data-index="${index}">
         <span class="dialogue-speaker">${escapeHtml(line.speaker || '')}</span>
         <span class="dialogue-text">${escapeHtml(line.line || '')}</span>
-        ${canSpeak ? `<button type="button" class="dialogue-line-speak-btn" data-speak-text="${escapeHtml(line.line || '')}" aria-label="Escuchar esta línea" title="Escuchar">🔊</button>` : ''}
+        ${canSpeak ? `<button type="button" class="dialogue-line-speak-btn" data-speak-text="${escapeHtml(line.line || '')}" aria-label="${speakingUiText('Escuchar esta línea', 'Écouter cette réplique')}" title="${speakingUiText('Escuchar', 'Écouter')}">🔊</button>` : ''}
+        <button type="button" class="dialogue-practice-line-btn" data-dialogue-line-index="${index}">🎙 ${speakingUiText('Practicar esta réplica', 'Pratiquer cette réplique')}</button>
         ${line.translation ? `<span class="dialogue-translation reading-vocab-support" hidden>${escapeHtml(line.translation)}</span>` : ''}
       </li>`
-    )
-    .join('');
-
-  const roleOptionsHtml = participants
-    .map(
-      (name) =>
-        `<button type="button" class="secondary-btn dialogue-role-btn" data-role="${escapeHtml(name)}">${escapeHtml(name)}</button>`
     )
     .join('');
 
@@ -7829,29 +9187,33 @@ function renderDialogueModeHtml(dialogueSource) {
     .join('');
 
   return `
-    <p class="dialogue-situation"><strong>Situación:</strong> ${escapeHtml(dialogueSource.situacion)}</p>
-    <div class="dialogue-modes" role="group" aria-label="Modos del diálogo">
-      <button type="button" class="secondary-btn dialogue-mode-btn is-active" data-mode="listen">🎧 Escuchar</button>
-      <button type="button" class="secondary-btn dialogue-mode-btn" data-mode="roleplay">🎭 Interpretar un papel</button>
+    <header class="dialogue-section-header">
+      <span>${speakingUiText('Diálogo de la unidad', 'Dialogue de l’unité')}</span>
+      <h4>${escapeHtml(dialogueSource.title)}</h4>
+    </header>
+    <p class="dialogue-situation"><strong>${speakingUiText('Situación', 'Situation')} :</strong> ${escapeHtml(dialogueSource.situacion)}</p>
+    <div class="dialogue-practical-guide" aria-label="${speakingUiText('Pasos para practicar', 'Étapes de pratique')}">
+      <article><span>1</span><div><strong>${speakingUiText('Escucha', 'Écoute')}</strong><small>${speakingUiText('Comprende la situación completa.', 'Comprends toute la situation.')}</small></div></article>
+      <article><span>2</span><div><strong>${speakingUiText('Observa', 'Observe')}</strong><small>${speakingUiText('Identifica expresiones que puedes reutilizar.', 'Repère les expressions à réutiliser.')}</small></div></article>
+      <article><span>3</span><div><strong>${speakingUiText('Habla', 'Parle')}</strong><small>${speakingUiText('Elige una réplica, grábala y evalúala.', 'Choisis une réplique, enregistre-la et évalue-la.')}</small></div></article>
     </div>
     <div class="dialogue-panel dialogue-listen-panel">
-      ${canSpeak ? `<button type="button" class="primary-btn dialogue-play-all-btn">▶ Escuchar todo el diálogo</button>` : ''}
+      ${canSpeak ? `<button type="button" class="primary-btn dialogue-play-all-btn">▶ ${speakingUiText('Escuchar todo el diálogo', 'Écouter tout le dialogue')}</button>` : ''}
       <ul class="dialogue-lines-list">${linesHtml}</ul>
-      ${lines.some((line) => line.translation) ? `<button type="button" class="secondary-btn dialogue-toggle-translation-btn">Mostrar apoyo en español</button>` : ''}
-    </div>
-    <div class="dialogue-panel dialogue-roleplay-panel" hidden>
-      <p>Elige tu personaje:</p>
-      <div class="dialogue-role-options">${roleOptionsHtml}</div>
-      <ul class="dialogue-roleplay-lines"></ul>
+      ${lines.some((line) => line.translation) ? `<button type="button" class="secondary-btn dialogue-toggle-translation-btn">${speakingUiText('Mostrar apoyo en español', 'Afficher l’aide en espagnol')}</button>` : ''}
     </div>
     ${
       dialogueSource.phrases?.length
-        ? `<div class="dialogue-phrases"><strong>Vocabulario útil</strong><ul>${dialogueSource.phrases.map((phrase) => `<li>${escapeHtml(phrase)}</li>`).join('')}</ul></div>`
+        ? `<div class="dialogue-phrases"><strong>${speakingUiText('Vocabulario útil', 'Expressions utiles')}</strong><ul>${dialogueSource.phrases.map((phrase) => `<li>${escapeHtml(phrase)}</li>`).join('')}</ul></div>`
         : ''
     }
+    <div class="dialogue-final-challenge">
+      <span>🏁 ${speakingUiText('Reto final', 'Défi final')}</span>
+      <strong>${speakingUiText('Escucha de nuevo sin apoyo y responde las preguntas.', 'Réécoute sans aide et réponds aux questions.')}</strong>
+    </div>
     ${
       exercisesHtml
-        ? `<div class="reading-questions"><h4>Preguntas de comprensión</h4>${exercisesHtml}</div>`
+        ? `<div class="reading-questions"><h4>${speakingUiText('Preguntas de comprensión', 'Questions de compréhension')}</h4>${exercisesHtml}</div>`
         : ''
     }
   `;
@@ -7881,13 +9243,26 @@ function wireDialogueMode(content, lesson, dialogueSource) {
     btn.addEventListener('click', () => speakText(btn.dataset.speakText, { locale, rate }));
   });
 
+  content.querySelectorAll('.dialogue-practice-line-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const line = lines[Number(btn.dataset.dialogueLineIndex)];
+      if (!line?.line) return;
+      speakingViewState.pronunciationOverride = line.line;
+      speakingViewState.pronunciationIndex = 0;
+      speakingViewState.mode = 'pronunciation';
+      renderSpeakingModeContent(content.closest('.skill-view-content'), lesson);
+    });
+  });
+
   content.querySelector('.dialogue-toggle-translation-btn')?.addEventListener('click', (event) => {
     const btn = event.currentTarget;
     const nowHidden = content.querySelector('.dialogue-translation')?.hidden;
     content.querySelectorAll('.dialogue-translation').forEach((el) => {
       el.hidden = !nowHidden;
     });
-    btn.textContent = nowHidden ? 'Ocultar apoyo en español' : 'Mostrar apoyo en español';
+    btn.textContent = nowHidden
+      ? speakingUiText('Ocultar apoyo en español', 'Masquer l’aide en espagnol')
+      : speakingUiText('Mostrar apoyo en español', 'Afficher l’aide en espagnol');
   });
 
   content.querySelectorAll('.dialogue-role-btn').forEach((btn) => {
@@ -7915,10 +9290,10 @@ function wireDialogueMode(content, lesson, dialogueSource) {
           }
           return `
             <li class="dialogue-line dialogue-line--mine" data-index="${index}">
-              <span class="dialogue-speaker">${escapeHtml(line.speaker || '')} (tú)</span>
+              <span class="dialogue-speaker">${escapeHtml(line.speaker || '')}${speakingUiText(' (tú)', ' (vous)')}</span>
               <p class="dialogue-model-line" hidden>${escapeHtml(line.line || '')}</p>
-              <button type="button" class="secondary-btn dialogue-show-model-btn">Ver el modelo</button>
-              <button type="button" class="secondary-btn dialogue-respond-btn" data-index="${index}">🎙 Responder oralmente</button>
+              <button type="button" class="secondary-btn dialogue-show-model-btn">${speakingUiText('Ver el modelo', 'Voir le modèle')}</button>
+              <button type="button" class="secondary-btn dialogue-respond-btn" data-index="${index}">🎙 ${speakingUiText('Responder oralmente', 'Répondre à l’oral')}</button>
               <div class="dialogue-respond-block" hidden></div>
             </li>`;
         })
@@ -8031,9 +9406,15 @@ function renderSpeakingModeContent(content, lesson) {
   if (speakingViewState.mode === 'dialogue') {
     stage.innerHTML = renderDialogueModeHtml(dialogueSource);
     wireDialogueMode(stage, lesson, dialogueSource);
-  } else if (speakingViewState.mode === 'free') {
+  } else if (speakingViewState.mode === 'record') {
     stage.innerHTML = renderFreeResponseHtml(lesson);
     wireFreeResponseMode(stage, lesson);
+  } else if (speakingViewState.mode === 'stt') {
+    stage.innerHTML = renderSpeakingSttHtml(lesson);
+    wireSpeakingSttMode(stage, lesson);
+  } else if (speakingViewState.mode === 'pronunciation') {
+    stage.innerHTML = renderPronunciationPracticeHtml(lesson);
+    wirePronunciationMode(stage, lesson);
   } else {
     stage.innerHTML = renderGuidedPracticeHtml(lesson, dialogueSource);
     wireGuidedPracticeMode(stage, lesson, dialogueSource);
@@ -8046,7 +9427,13 @@ function renderSpeakingView(section, lesson) {
   resetSpeakingRecorder();
 
   if (speakingViewState.lessonSlug !== lesson.slug) {
-    speakingViewState = { lessonSlug: lesson.slug, mode: 'guided', guidedTurnIndex: 0 };
+    speakingViewState = {
+      lessonSlug: lesson.slug,
+      mode: 'dialogue',
+      guidedTurnIndex: 0,
+      pronunciationIndex: 0,
+      pronunciationOverride: ''
+    };
   }
 
   const taskConfig = {
@@ -8062,16 +9449,36 @@ function renderSpeakingView(section, lesson) {
     <h3>${escapeHtml(lesson.title)}</h3>
     ${renderSpeakingModeTabsHtml(speakingViewState.mode)}
     <div id="speakingStage" class="speaking-stage"></div>
-    <div class="skill-view-tutor-cta">
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="Quiero practicar esta conversación de Speaking." data-support-mode="practice">Abrir Tutor IA (chat libre)</button>
-      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="" data-return-label="Volver a Speaking">Traducir</button>
-    </div>
   `;
 
   content.querySelectorAll('.speaking-mode-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
+      if (btn.dataset.speakingMode === 'tutor') {
+        if (!isPremiumUser()) {
+          openPaywallModal({
+            title: 'La conversación libre con Tutor IA es Premium',
+            message: 'Practica conversaciones abiertas por voz y recibe respuestas automáticas del Tutor IA.',
+            featureLabel: 'conversación libre'
+          });
+          return;
+        }
+        openTutorDrawer({
+          skill: 'speaking',
+          lessonTitle: lesson.title,
+          lessonIntro: lesson.intro || lesson.description || '',
+          lessonSlug: lesson.slug,
+          supportMode: 'practice',
+          currentActivity: 'Conversación libre de Speaking'
+        });
+        setTutorConversationMode(true);
+        return;
+      }
       speakingViewState.mode = btn.dataset.speakingMode;
       speakingViewState.guidedTurnIndex = 0;
+      if (btn.dataset.speakingMode === 'pronunciation') {
+        speakingViewState.pronunciationIndex = 0;
+        speakingViewState.pronunciationOverride = '';
+      }
       renderSpeakingModeContent(content, lesson);
     });
   });
@@ -8157,6 +9564,8 @@ function renderGrammarConceptCards(lesson) {
   const french = isFrenchTargetLanguage();
   const cards = [
     {
+      icon: '💡',
+      tone: 'idea',
       label: french ? 'Définition' : 'Definition',
       title: french ? 'Comprendre la règle' : 'What this grammar is',
       body:
@@ -8167,6 +9576,8 @@ function renderGrammarConceptCards(lesson) {
         note
     },
     {
+      icon: '🧩',
+      tone: 'structure',
       label: 'Structure',
       title: french ? 'Construire la phrase' : 'How it is formed',
       body:
@@ -8179,6 +9590,8 @@ function renderGrammarConceptCards(lesson) {
             : `Study the form and sentence position of ${profile.name || lesson.title}.`)
     },
     {
+      icon: '💬',
+      tone: 'use',
       label: french ? 'Emploi en français' : 'Function in English',
       title: french ? 'Ce qu’elle permet d’exprimer' : 'What it communicates',
       body:
@@ -8191,6 +9604,8 @@ function renderGrammarConceptCards(lesson) {
           : 'Use it to communicate the main ideas clearly and accurately.')
     },
     {
+      icon: '✍️',
+      tone: 'example',
       label: french ? 'Exemples' : 'Practical examples',
       title: french ? 'Formes à retenir' : 'Examples from the lesson',
       body:
@@ -8205,11 +9620,15 @@ function renderGrammarConceptCards(lesson) {
   ];
 
   return `
-    <div class="grammar-card-grid">
+    <div class="grammar-card-grid" id="grammar-concepts">
       ${cards
         .map(
-          (card) => `
-        <article class="grammar-concept-card">
+          (card, index) => `
+        <article class="grammar-concept-card grammar-concept-card--${card.tone}">
+          <div class="grammar-concept-card-heading">
+            <span class="grammar-concept-icon" aria-hidden="true">${card.icon}</span>
+            <span class="grammar-concept-step">${String(index + 1).padStart(2, '0')}</span>
+          </div>
           <span>${escapeHtml(card.label)}</span>
           <h4>${escapeHtml(card.title)}</h4>
           <p>${escapeHtml(card.body)}</p>
@@ -8225,10 +9644,9 @@ function renderGrammarView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
   const french = isFrenchTargetLanguage();
-  // Scored Grammar test pilot (course_lessons.extra.grammarTest, see
-  // lib/grammarTestSanitizer.js) - only a couple of lessons have this so
-  // far; every other Grammar lesson falls through to the flat
-  // inline-feedback view below, unchanged.
+  // Scored Grammar exercise (course_lessons.extra.grammarTest, see
+  // lib/grammarTestSanitizer.js). The flat view remains as a safe fallback
+  // for legacy lessons that do not have an assessed question bank.
   if (lesson.extra?.grammarTest?.questions?.length) {
     renderGrammarTestView(content, lesson);
     return;
@@ -8244,7 +9662,19 @@ function renderGrammarView(section, lesson) {
   content.innerHTML = `
     <div class="skill-print-area">
       ${renderSkillPrintHeaderHtml(lesson)}
-      <h3>${escapeHtml(lesson.title)}</h3>
+      <header class="grammar-lesson-hero">
+        <span class="grammar-lesson-hero-icon" aria-hidden="true">🧠</span>
+        <div>
+          <p>${french ? 'Grammaire pas à pas' : 'Grammar paso a paso'}</p>
+          <h3>${escapeHtml(lesson.title)}</h3>
+          <span>${french ? 'Comprenez la règle, observez-la en contexte, puis pratiquez.' : 'Entiende la regla, obsérvala en contexto y luego practica.'}</span>
+        </div>
+      </header>
+      <ol class="grammar-learning-route no-print" aria-label="${french ? 'Étapes de la leçon' : 'Pasos de la lección'}">
+        <li><span>1</span><strong>${french ? 'Comprendre' : 'Entender'}</strong><small>${french ? 'La règle' : 'La regla'}</small></li>
+        <li><span>2</span><strong>${french ? 'Observer' : 'Observar'}</strong><small>${french ? 'Un exemple' : 'Un ejemplo'}</small></li>
+        <li><span>3</span><strong>${french ? 'Pratiquer' : 'Practicar'}</strong><small>${french ? 'À votre rythme' : 'A tu ritmo'}</small></li>
+      </ol>
       ${renderGrammarConceptCards(lesson)}
       ${
         example
@@ -8257,7 +9687,14 @@ function renderGrammarView(section, lesson) {
           : ''
       }
       <div class="grammar-exercise no-print">
-        <h4>${french ? 'Mini-exercice' : 'Mini ejercicio'}</h4>
+        <div class="grammar-section-heading">
+          <span aria-hidden="true">🎯</span>
+          <div>
+            <small>${french ? 'Étape 3' : 'Paso 3'}</small>
+            <h4>${french ? 'À vous de pratiquer' : 'Ahora practica tú'}</h4>
+            <p>${french ? 'Choisissez la réponse qui applique correctement la règle.' : 'Elige la respuesta que aplica correctamente la regla.'}</p>
+          </div>
+        </div>
         ${exercisesHtml || `<p class="skill-graph-empty">${french ? 'Aucun exercice de grammaire pour cette leçon.' : 'No hay ejercicios de gramática para esta lección.'}</p>`}
       </div>
       <div class="print-only">
@@ -8381,6 +9818,65 @@ function renderGrammarLessonContentHtml(lesson) {
   `;
 }
 
+function renderGrammarQuickIntroHtml(lesson, test) {
+  const french = isFrenchTargetLanguage();
+  const sections = parseGrammarNoteSections(lesson.grammar);
+  const preferredKeys = ['rule', 'use', 'goal', 'pattern', 'examples', 'common-mistakes'];
+  const selected = [];
+  preferredKeys.forEach((key) => {
+    const match = sections.find(
+      (section) => section.key === key && !selected.some((item) => item.body === section.body)
+    );
+    if (match && selected.length < 3) selected.push(match);
+  });
+  sections.forEach((section) => {
+    if (selected.length < 3 && !selected.some((item) => item.body === section.body)) {
+      selected.push(section);
+    }
+  });
+  const icons = ['💡', '🧩', '✨'];
+  return `
+    <section class="grammar-quick-intro">
+      <div class="grammar-quick-mission">
+        <div>
+          <span>${french ? 'Votre mission' : 'Tu misión'}</span>
+          <strong>${escapeHtml(
+            lesson.mission ||
+              lesson.description ||
+              (french
+                ? 'Comprenez le modèle et utilisez-le dans une situation réelle.'
+                : 'Comprende el patrón y úsalo en una situación real.')
+          )}</strong>
+        </div>
+        <div class="grammar-quick-badges">
+          <span>👀 ${french ? 'Observe' : 'Observa'}</span>
+          <span>🧠 ${french ? 'Comprends' : 'Entiende'}</span>
+          <span>🎮 ${french ? 'Relève le défi' : 'Supera el reto'}</span>
+        </div>
+      </div>
+      <div class="grammar-quick-grid">
+        ${selected
+          .map(
+            (item, index) => `
+          <article>
+            <span class="grammar-quick-icon" aria-hidden="true">${icons[index]}</span>
+            <div>
+              <h4>${escapeHtml(item.title)}</h4>
+              <p>${escapeHtml(item.body).replace(/\n/g, '<br>')}</p>
+            </div>
+          </article>`
+          )
+          .join('')}
+      </div>
+      <div class="grammar-quick-ready">
+        <span>⚡ ${test.questions.length} ${french ? 'défis courts' : 'retos cortos'}</span>
+        <span>🎯 ${french ? 'Objectif' : 'Meta'}: ${test.passingScore || 70}/100</span>
+        ${lesson.bestScore != null ? `<span>🏆 ${french ? 'Meilleur score' : 'Mejor score'}: ${lesson.bestScore}/100</span>` : ''}
+      </div>
+    </section>
+  `;
+}
+
 function renderGrammarTestView(content, lesson) {
   const test = lesson.extra.grammarTest;
   const runtime = getGrammarTestRuntime(lesson);
@@ -8400,21 +9896,81 @@ function renderGrammarTestView(content, lesson) {
 function renderGrammarTestInstructionsHtml(lesson, test) {
   const total = test.questions.length;
   const french = isFrenchTargetLanguage();
+  const hasWrittenCorrections = test.questions.some((question) => question.type === 'fill_blank');
+  const activityDescription = hasWrittenCorrections
+    ? french
+      ? 'activités : choix multiple et correction guidée'
+      : 'activities: multiple choice and guided correction'
+    : french
+      ? 'questions à choix multiple'
+      : 'multiple-choice questions';
   return `
     <div class="grammar-test-card card-enter">
-      <h3>${escapeHtml(lesson.title)}</h3>
-      ${renderGrammarConceptCards(lesson)}
-      <p class="grammar-test-instructions-text">${escapeHtml(lesson.description || (french ? 'Faites le test pour appliquer la grammaire de cette unité.' : 'Take the test to apply the grammar from this story.'))}</p>
-      ${renderGrammarLessonContentHtml(lesson)}
-      <ul class="grammar-test-meta-list">
-        <li>📝 ${total} ${french ? 'questions à choix multiple' : 'multiple-choice questions'}</li>
-        <li>🎯 ${french ? 'Score de réussite recommandé' : 'Recommended passing score'} : ${test.passingScore || 70}/100</li>
-        ${lesson.bestScore != null ? `<li>🏆 ${french ? 'Meilleur score' : 'Best score'} : ${lesson.bestScore}/100</li>` : ''}
-      </ul>
-      <button type="button" class="primary-btn hover-lift btn-press grammar-test-start-btn">${french ? 'Commencer le test' : 'Start practice test'}</button>
+      <header class="grammar-test-hero">
+        <span class="grammar-test-hero-icon" aria-hidden="true">🧠</span>
+        <div>
+          <p class="grammar-test-eyebrow">${french ? 'Grammaire pas à pas' : 'Grammar paso a paso'}</p>
+          <h3>${escapeHtml(lesson.title)}</h3>
+          <p>${french ? 'Comprenez le modèle avant de relever le défi.' : 'Comprende el patrón antes de comenzar el reto.'}</p>
+        </div>
+      </header>
+      ${renderGrammarQuickIntroHtml(lesson, test)}
+      <button type="button" class="primary-btn hover-lift btn-press grammar-test-start-btn">${french ? 'Je suis prêt · Lancer le défi' : 'Estoy listo · Comenzar el reto'}</button>
       <div class="grammar-test-history"></div>
     </div>
   `;
+}
+
+// The whole Grammar assessment stays visible (rather than hiding questions
+// behind a wizard), but this small map gives the learner an at-a-glance
+// sense of progress and lets them jump back to an unanswered challenge.
+// It is deliberately derived only from the local answer state: no answer
+// key is ever exposed before the real server-side submission.
+function renderGrammarChallengeMapHtml(test, runtime, french) {
+  const answered = test.questions.filter((question) =>
+    isGrammarTestQuestionAnswered(runtime, question)
+  ).length;
+  const pills = test.questions
+    .map((question, index) => {
+      const done = isGrammarTestQuestionAnswered(runtime, question);
+      return `<a class="grammar-challenge-map-item${done ? ' is-answered' : ''}" href="#grammar-question-${escapeHtml(question.id)}" aria-label="${french ? 'Aller au défi' : 'Ir al reto'} ${index + 1}${done ? (french ? ', répondu' : ', respondido') : ''}">${done ? '✓' : index + 1}</a>`;
+    })
+    .join('');
+  return `
+    <nav class="grammar-challenge-map" aria-label="${french ? 'Progression des défis' : 'Progreso de retos'}">
+      <span>🎮 ${french ? 'Défis' : 'Retos'} ${answered}/${test.questions.length}</span>
+      <div>${pills}</div>
+    </nav>
+  `;
+}
+
+function updateGrammarChallengeProgress(content, test, runtime, french) {
+  if (!content || !test?.questions?.length) return;
+  const answered = test.questions.filter((question) =>
+    isGrammarTestQuestionAnswered(runtime, question)
+  ).length;
+  const total = test.questions.length;
+  const progress = Math.round((answered / total) * 100);
+  const counter = content.querySelector('.grammar-test-counter');
+  const progressBar = content.querySelector('.grammar-test-progress-bar div');
+  const warning = content.querySelector('.grammar-test-review-warning');
+  const submit = content.querySelector('.grammar-test-submit-btn');
+  if (counter) counter.textContent = french ? `${answered} sur ${total} réponses` : `${answered} of ${total} answered`;
+  if (progressBar) progressBar.style.width = `${progress}%`;
+  if (warning) warning.hidden = answered === total;
+  if (submit) submit.setAttribute('aria-disabled', String(answered !== total));
+
+  const mapLabel = content.querySelector('.grammar-challenge-map > span');
+  if (mapLabel) mapLabel.textContent = `🎮 ${french ? 'Défis' : 'Retos'} ${answered}/${total}`;
+  test.questions.forEach((question, index) => {
+    const done = isGrammarTestQuestionAnswered(runtime, question);
+    content.querySelector(`#grammar-question-${CSS.escape(String(question.id))}`)?.classList.toggle('is-answered', done);
+    const item = content.querySelectorAll('.grammar-challenge-map-item')[index];
+    if (!item) return;
+    item.classList.toggle('is-answered', done);
+    item.textContent = done ? '✓' : String(index + 1);
+    item.setAttribute('aria-label', `${french ? 'Aller au défi' : 'Ir al reto'} ${index + 1}${done ? (french ? ', répondu' : ', respondido') : ''}`);
+  });
 }
 
 function renderGrammarTestQuestionHtml(lesson, test, runtime) {
@@ -8427,7 +9983,8 @@ function renderGrammarTestQuestionHtml(lesson, test, runtime) {
   const questionsHtml = test.questions
     .map(
       (question, index) => `
-        <article class="grammar-test-question-item" data-question-id="${escapeHtml(question.id)}">
+        <article id="grammar-question-${escapeHtml(question.id)}" class="grammar-test-question-item${isGrammarTestQuestionAnswered(runtime, question) ? ' is-answered' : ''}" data-question-id="${escapeHtml(question.id)}">
+          <span class="grammar-test-question-kicker">${french ? 'Défi' : 'Reto'} ${index + 1}</span>
           <p class="grammar-test-question-prompt"><span>${index + 1}.</span> ${escapeHtml(question.prompt)}</p>
           ${renderGrammarTestQuestionBodyHtml(question, runtime)}
         </article>
@@ -8437,16 +9994,24 @@ function renderGrammarTestQuestionHtml(lesson, test, runtime) {
 
   return `
     <div class="grammar-test-card card-enter">
-      <h3>${escapeHtml(lesson.title)} — ${french ? 'Test pratique' : 'Practice test'}</h3>
+      <header class="grammar-practice-header">
+        <div>
+          <p class="grammar-test-eyebrow">${french ? 'Étape 3 · Pratique' : 'Paso 3 · Práctica'}</p>
+          <h3>${escapeHtml(lesson.title)}</h3>
+          <p>${french ? 'Répondez à votre rythme. Votre progression est enregistrée sur cette page.' : 'Responde a tu ritmo. Tu avance se conserva en esta página.'}</p>
+        </div>
+        <span class="grammar-practice-count">${total}<small>${french ? 'défis' : 'retos'}</small></span>
+      </header>
       <div class="grammar-test-progress-row">
         <span class="grammar-test-counter">${answered} ${french ? 'sur' : 'of'} ${total} ${french ? 'réponses' : 'answered'}</span>
         <div class="grammar-test-progress-bar"><div class="progress-fill-animated" style="width:${pct}%"></div></div>
       </div>
+      ${renderGrammarChallengeMapHtml(test, runtime, french)}
       <div class="grammar-test-question-list">${questionsHtml}</div>
-      <p class="grammar-test-review-warning" ${answered === total ? 'hidden' : ''}>${french ? 'Répondez à toutes les questions avant de soumettre le test.' : 'Answer every question before submitting the test.'}</p>
+      <p class="grammar-test-review-warning" ${answered === total ? 'hidden' : ''}>${french ? 'Répondez à toutes les questions avant de terminer l’exercice.' : 'Answer every question before submitting the exercise.'}</p>
       <div class="grammar-test-submit-bar">
         <span>${french ? 'Score final' : 'Final score'} : 0–100</span>
-        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" ${answered === total ? '' : 'disabled'}>${french ? 'Soumettre toutes les réponses' : 'Submit all answers'}</button>
+        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" aria-disabled="${answered !== total}">${french ? 'Terminer et voir mon score' : 'Finish and see my score'}</button>
       </div>
     </div>
   `;
@@ -8482,28 +10047,23 @@ function renderGrammarTestQuestionBodyHtml(question, runtime) {
 
   if (question.type === 'ordering') {
     const savedOrder = Array.isArray(saved) ? saved : [];
-    const itemCount = (question.items || []).length;
-    const itemsHtml = (question.items || [])
-      .map((item) => {
-        const savedPosition = savedOrder.indexOf(item.id) + 1; // 0 if not picked yet
-        const positionOptionsHtml = Array.from({ length: itemCount }, (_, i) => i + 1)
-          .map(
-            (position) =>
-              `<option value="${position}" ${position === savedPosition ? 'selected' : ''}>${position}</option>`
-          )
-          .join('');
-        return `
-          <li class="grammar-test-order-item">
-            <select class="grammar-test-order-select" data-item-id="${escapeHtml(item.id)}" aria-label="${french ? 'Position de' : 'Position of'} ${escapeHtml(item.text)}">
-              <option value="" ${savedPosition === 0 ? 'selected' : ''}>#</option>
-              ${positionOptionsHtml}
-            </select>
-            <span>${escapeHtml(item.text)}</span>
-          </li>
-        `;
-      })
-      .join('');
-    return `<ol class="grammar-test-order-list">${itemsHtml}</ol>`;
+    const items = (question.items || []).slice();
+    if (savedOrder.length) {
+      items.sort((a, b) => savedOrder.indexOf(a.id) - savedOrder.indexOf(b.id));
+    } else {
+      items.sort(() => Math.random() - 0.5);
+    }
+    const itemsHtml = items.map((item, index) => `
+      <li class="grammar-test-order-item" draggable="true" data-item-id="${escapeHtml(item.id)}">
+        <span class="grammar-test-order-grip" aria-hidden="true">⠿</span>
+        <span class="grammar-test-order-number">${index + 1}</span>
+        <span class="grammar-test-order-text">${escapeHtml(item.text)}</span>
+        <span class="grammar-test-order-actions">
+          <button type="button" class="grammar-test-order-move" data-order-move="up" aria-label="${french ? 'Monter' : 'Move up'}">↑</button>
+          <button type="button" class="grammar-test-order-move" data-order-move="down" aria-label="${french ? 'Descendre' : 'Move down'}">↓</button>
+        </span>
+      </li>`).join('');
+    return `<div class="grammar-test-order-help">${french ? 'Glissez les mots dans le bon ordre.' : 'Drag the words into the correct order.'}</div><ol class="grammar-test-order-list" aria-label="${french ? 'Mots à ordonner' : 'Words to order'}">${itemsHtml}</ol>`;
   }
 
   return '';
@@ -8535,21 +10095,9 @@ function collectGrammarTestAnswer(content, test, runtime) {
   }
 
   if (question.type === 'ordering') {
-    const picks = [...content.querySelectorAll('.grammar-test-order-select')].map((select) => ({
-      itemId: select.dataset.itemId,
-      position: Number(select.value)
-    }));
-    const complete = picks.length > 0 && picks.every((p) => p.position);
-    const positions = picks.map((p) => p.position);
-    const noDuplicates = new Set(positions).size === positions.length;
-    if (complete && noDuplicates) {
-      runtime.answers[question.id] = picks
-        .slice()
-        .sort((a, b) => a.position - b.position)
-        .map((p) => p.itemId);
-    } else {
-      delete runtime.answers[question.id];
-    }
+    const order = [...content.querySelectorAll('.grammar-test-order-item')].map((item) => item.dataset.itemId);
+    if (order.length === (question.items || []).length) runtime.answers[question.id] = order;
+    else delete runtime.answers[question.id];
   }
 }
 
@@ -8572,12 +10120,12 @@ function renderGrammarTestReviewHtml(lesson, test, runtime) {
   return `
     <div class="grammar-test-card card-enter">
       <h3>${french ? 'Vérifiez vos réponses' : 'Review your answers'}</h3>
-      <p class="grammar-test-instructions-text">${french ? 'Vous pouvez modifier chaque réponse avant de soumettre le test.' : 'You can edit any answer before submitting the test.'}</p>
+      <p class="grammar-test-instructions-text">${french ? 'Vous pouvez modifier chaque réponse avant de terminer l’exercice.' : 'You can edit any answer before submitting the exercise.'}</p>
       <ul class="grammar-test-review-list">${itemsHtml}</ul>
-      ${!allAnswered ? `<p class="grammar-test-review-warning">${french ? 'Répondez à toutes les questions avant de soumettre le test.' : 'Answer every question before submitting the test.'}</p>` : ''}
+      ${!allAnswered ? `<p class="grammar-test-review-warning">${french ? 'Répondez à toutes les questions avant de terminer l’exercice.' : 'Answer every question before submitting the exercise.'}</p>` : ''}
       <div class="grammar-test-nav-row">
         <button type="button" class="secondary-btn hover-lift btn-press grammar-test-review-edit-btn" data-question-index="${test.questions.length - 1}">${french ? 'Revenir à la dernière question' : 'Return to last question'}</button>
-        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" ${!allAnswered ? 'disabled' : ''}>${french ? 'Soumettre le test' : 'Submit test'}</button>
+        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" aria-disabled="${!allAnswered}">${french ? 'Terminer et voir mon score' : 'Finish and see my score'}</button>
       </div>
     </div>
   `;
@@ -8603,6 +10151,21 @@ function resolveGrammarCorrectAnswerText(question, result) {
   return '';
 }
 
+function resolveGrammarSubmittedAnswerText(question, runtime) {
+  const answer = runtime.answers[question.id];
+  if (answer == null) return '';
+  if (question.type === 'mcq') {
+    return question.options?.find((option) => String(option.id) === String(answer))?.text || '';
+  }
+  if (question.type === 'ordering' && Array.isArray(answer)) {
+    return answer
+      .map((id) => question.items?.find((item) => String(item.id) === String(id))?.text)
+      .filter(Boolean)
+      .join(' → ');
+  }
+  return String(answer);
+}
+
 function renderGrammarTestResultsHtml(lesson, test, runtime) {
   const result = runtime.lastResult;
   if (!result) {
@@ -8624,6 +10187,7 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
       // but the "Correcta"/"Incorrecta" text right next to it is real,
       // visible, screen-reader-readable text, not just a CSS color class.
       const correctAnswerText = !correct ? resolveGrammarCorrectAnswerText(question, r) : '';
+      const submittedAnswerText = resolveGrammarSubmittedAnswerText(question, runtime);
       return `
         <li class="grammar-test-breakdown-item${correct ? ' is-correct' : ' is-incorrect'}">
           <span class="grammar-test-breakdown-icon" aria-hidden="true">${correct ? '✅' : '❌'}</span>
@@ -8632,6 +10196,7 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
               <span class="grammar-test-breakdown-status-text">${correct ? (french ? 'Correcte' : 'Correct') : (french ? 'Incorrecte' : 'Incorrect')}:</span>
               ${index + 1}. ${escapeHtml(question.prompt)}
             </p>
+            ${submittedAnswerText ? `<p class="grammar-test-breakdown-submitted-answer">${french ? 'Votre réponse' : 'Your answer'} : <strong>${escapeHtml(submittedAnswerText)}</strong></p>` : ''}
             ${correctAnswerText ? `<p class="grammar-test-breakdown-correct-answer">${french ? 'Bonne réponse' : 'Correct answer'} : <strong>${escapeHtml(correctAnswerText)}</strong></p>` : ''}
             ${r?.explanation ? `<p class="grammar-test-breakdown-explanation">${escapeHtml(r.explanation)}</p>` : ''}
           </div>
@@ -8643,7 +10208,7 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
   return `
     <div class="grammar-test-card card-enter skill-print-area">
       <div class="print-only">${renderSkillPrintHeaderHtml(lesson)}</div>
-      <h3 class="print-only">${escapeHtml(lesson.title)} — ${french ? 'Résultat du test de grammaire' : 'Grammar test result'}</h3>
+      <h3 class="print-only">${escapeHtml(lesson.title)} — ${french ? 'Résultat de l’exercice de grammaire' : 'Grammar exercise result'}</h3>
       <div class="grammar-test-score-band">
         <span class="grammar-test-score-emoji" aria-hidden="true">${band.emoji}</span>
         <strong class="grammar-test-score-number">${result.score}/100</strong>
@@ -8671,9 +10236,9 @@ async function loadGrammarTestHistory(lesson, containerEl) {
   if (!containerEl || !authStatus.session?.access_token) return;
   const french = isFrenchTargetLanguage();
   try {
-    const response = await fetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/grammar-test-history`, {
-      headers: authHeaders()
-    });
+    const response = await authFetch(
+      `${backendBaseUrl}/api/lessons/${lesson.slug}/grammar-test-history`
+    );
     const data = await response.json().catch(() => ({}));
     if (!response.ok || !Array.isArray(data.history) || !data.history.length) return;
 
@@ -8723,10 +10288,20 @@ const listeningComprehensionState = new Map();
 function getListeningComprehensionRuntime(lesson) {
   let runtime = listeningComprehensionState.get(lesson.slug);
   if (!runtime) {
-    runtime = { phase: 'instructions', currentIndex: 0, answers: {}, lastResult: null };
+    runtime = { phase: 'question', currentIndex: 0, answers: {}, lastResult: null };
     listeningComprehensionState.set(lesson.slug, runtime);
   }
   return runtime;
+}
+
+function getListeningComprehensionBank(lesson) {
+  const bank = lesson.extra?.listeningComprehension;
+  if (!bank?.questions?.length) return null;
+  return {
+    ...bank,
+    // Listening stays deliberately short and story-focused.
+    questions: bank.questions.slice(0, 4)
+  };
 }
 
 // Legacy fallback for every Listening lesson that doesn't have a
@@ -8748,39 +10323,43 @@ function renderListeningComprehensionLegacyHtml(lesson) {
   `;
 }
 
-function renderListeningComprehensionInstructionsHtml(lesson, bank) {
-  const total = bank.questions.length;
-  const startLabel = listeningUiText('Comenzar', 'Commencer');
-  return `
-    <div class="grammar-test-card card-enter">
-      <p class="grammar-test-instructions-text">Responde estas preguntas para comprobar cuánto entendiste del audio.</p>
-      <ul class="grammar-test-meta-list">
-        <li>📝 ${total} preguntas</li>
-        <li>🎯 Aprobación recomendada: ${bank.passingScore || 70}/100</li>
-        ${lesson.listeningComprehensionBestScore != null ? `<li>🏆 Mejor puntuación: ${lesson.listeningComprehensionBestScore}/100</li>` : ''}
-      </ul>
-      <button type="button" class="primary-btn hover-lift btn-press listening-comp-start-btn">${startLabel}</button>
-    </div>
-  `;
-}
-
 function renderListeningComprehensionQuestionHtml(lesson, bank, runtime) {
   const total = bank.questions.length;
-  const index = Math.min(runtime.currentIndex, total - 1);
-  const question = bank.questions[index];
-  const pct = Math.round(((index + 1) / total) * 100);
-  const isLast = index === total - 1;
+  const answered = bank.questions.filter((question) =>
+    isGrammarTestQuestionAnswered(runtime, question)
+  ).length;
+  const pct = total ? Math.round((answered / total) * 100) : 0;
+  const questionsHtml = bank.questions
+    .map(
+      (question, index) => `
+        <article class="grammar-test-question-item listening-comp-question-item${isGrammarTestQuestionAnswered(runtime, question) ? ' is-answered' : ''}" data-question-id="${escapeHtml(question.id)}">
+          <span class="listening-comp-question-number">${index + 1}</span>
+          <div class="listening-comp-question-content">
+            <p class="grammar-test-question-prompt">${escapeHtml(question.prompt)}</p>
+            ${renderGrammarTestQuestionBodyHtml(question, runtime)}
+          </div>
+        </article>
+      `
+    )
+    .join('');
   return `
-    <div class="grammar-test-card card-enter">
+    <div class="grammar-test-card listening-comp-card card-enter">
+      <div class="listening-comp-intro">
+        <div>
+          <strong>${total} ${listeningUiText('preguntas sobre la historia', "questions sur l'histoire")}</strong>
+          <p>${listeningUiText('Elige la mejor respuesta según lo que ocurre en la narración.', "Choisissez la meilleure réponse d'après l'histoire.")}</p>
+        </div>
+        ${lesson.listeningComprehensionBestScore != null ? `<span>🏆 ${lesson.listeningComprehensionBestScore}/100</span>` : ''}
+      </div>
       <div class="grammar-test-progress-row">
-        <span class="grammar-test-counter">${listeningUiText('Pregunta', 'Question')} ${index + 1} ${listeningUiText('de', 'sur')} ${total}</span>
+        <span class="grammar-test-counter">${answered} ${listeningUiText('de', 'sur')} ${total}</span>
         <div class="grammar-test-progress-bar"><div class="progress-fill-animated" style="width:${pct}%"></div></div>
       </div>
-      <p class="grammar-test-question-prompt">${escapeHtml(question.prompt)}</p>
-      ${renderGrammarTestQuestionBodyHtml(question, runtime)}
-      <div class="grammar-test-nav-row">
-        <button type="button" class="secondary-btn hover-lift btn-press listening-comp-prev-btn" ${index === 0 ? 'disabled' : ''}>${listeningUiText('Anterior', 'Précédent')}</button>
-        <button type="button" class="primary-btn hover-lift btn-press listening-comp-next-btn">${isLast ? listeningUiText('Revisar', 'Vérifier') : listeningUiText('Siguiente', 'Suivant')}</button>
+      <div class="grammar-test-question-list listening-comp-question-list">${questionsHtml}</div>
+      <p class="grammar-test-review-warning" ${answered === total ? 'hidden' : ''}>${listeningUiText('Responde las cuatro preguntas para ver tu resultado.', 'Répondez aux quatre questions pour voir votre résultat.')}</p>
+      <div class="listening-comp-submit-row">
+        <span>${listeningUiText('Resultado', 'Résultat')}: 0–100</span>
+        <button type="button" class="primary-btn hover-lift btn-press listening-comp-submit-btn" ${answered !== total ? 'disabled' : ''}>${listeningUiText('Evaluar', 'Évaluer')} →</button>
       </div>
     </div>
   `;
@@ -8816,8 +10395,8 @@ function renderListeningComprehensionReviewHtml(lesson, bank, runtime) {
 function renderListeningComprehensionResultsHtml(lesson, bank, runtime) {
   const result = runtime.lastResult;
   if (!result) {
-    runtime.phase = 'instructions';
-    return renderListeningComprehensionInstructionsHtml(lesson, bank);
+    runtime.phase = 'question';
+    return renderListeningComprehensionQuestionHtml(lesson, bank, runtime);
   }
   const band = gradeBandForScore(result.score);
   const resultsByQuestionId = new Map((result.results || []).map((r) => [String(r.questionId), r]));
@@ -8855,14 +10434,12 @@ function renderListeningComprehensionResultsHtml(lesson, bank, runtime) {
 }
 
 function renderListeningComprehensionPanel(lesson) {
-  const bank = lesson.extra?.listeningComprehension;
+  const bank = getListeningComprehensionBank(lesson);
   if (!bank?.questions?.length) return renderListeningComprehensionLegacyHtml(lesson);
 
   const runtime = getListeningComprehensionRuntime(lesson);
-  if (runtime.phase === 'question') return renderListeningComprehensionQuestionHtml(lesson, bank, runtime);
-  if (runtime.phase === 'review') return renderListeningComprehensionReviewHtml(lesson, bank, runtime);
   if (runtime.phase === 'results') return renderListeningComprehensionResultsHtml(lesson, bank, runtime);
-  return renderListeningComprehensionInstructionsHtml(lesson, bank);
+  return renderListeningComprehensionQuestionHtml(lesson, bank, runtime);
 }
 
 // ---------------------------------------------------------------------
@@ -9091,6 +10668,13 @@ function vocabCardAriaLabel(word, flipped, isFrench) {
   return isFrench ? `Voir le sens de ${word}` : `Ver significado de ${word}`;
 }
 
+function getVocabTargetSizeClass(targetWord = '') {
+  const normalizedTarget = String(targetWord).trim();
+  if (normalizedTarget.length > 42) return 'vocab-card-target--long';
+  if (normalizedTarget.length > 24) return 'vocab-card-target--medium';
+  return '';
+}
+
 function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = false }) {
   const meta = VOCAB_MASTERY_META[item.masteryStatus] || VOCAB_MASTERY_META.new;
   const frenchStatusLabels = {
@@ -9199,7 +10783,7 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
           </div>
           <div class="vocab-card-word-block">
             ${item.learningMode === 'direct' ? `<span class="vocab-card-method">${escapeHtml(cardUi.mode)}</span>` : ''}
-            <p class="vocab-card-target">${escapeHtml(item.targetWord)}</p>
+            <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
             ${item.phonetic ? `<p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>` : ''}
             ${item.category ? `<span class="vocab-card-tag">${escapeHtml(item.category)}</span>` : ''}
           </div>
@@ -9372,6 +10956,7 @@ function renderVocabularyPracticePanelHtml(lesson) {
       </div>`;
   }
   if (runtime.submitted) {
+    const correctCount = runtime.results.filter((result) => result.correct).length;
     return `
       <div class="grammar-test-card vocab-practice-results">
         <div class="grammar-test-score-band">
@@ -9379,6 +10964,7 @@ function renderVocabularyPracticePanelHtml(lesson) {
           <strong class="grammar-test-score-number">${runtime.score}/100</strong>
           <span class="grammar-test-score-label">${runtime.score >= 70 ? (french ? 'Pratique terminée' : 'Practice completed') : (french ? 'Continuez à pratiquer' : 'Keep practicing')}</span>
         </div>
+        <p class="verb-practice-celebration"><strong>${correctCount}/${runtime.questions.length}</strong> · ${escapeHtml(window.getExerciseReinforcement(correctCount, runtime.questions.length))}</p>
         <ul class="grammar-test-breakdown-list">
           ${runtime.results
             .map(
@@ -9525,6 +11111,52 @@ async function renderSavedVocabularyShelf(content, lesson) {
   }
 }
 
+// Every Grammar question is visible on the same page. Read all controls
+// immediately before submission so a value populated by browser autofill,
+// paste or a mobile IME cannot appear filled while remaining absent from
+// runtime.answers.
+function collectAllGrammarTestAnswers(content, test, runtime) {
+  content.querySelectorAll('.grammar-test-question-item').forEach((item) => {
+    const question = test.questions.find(
+      (candidate) => String(candidate.id) === String(item.dataset.questionId)
+    );
+    if (!question) return;
+
+    if (question.type === 'mcq') {
+      const selected = item.querySelector('.grammar-test-option.is-selected');
+      if (selected) runtime.answers[question.id] = selected.dataset.optionId;
+      else delete runtime.answers[question.id];
+      return;
+    }
+
+    if (question.type === 'fill_blank') {
+      const value = item.querySelector('.grammar-test-fill-input')?.value.trim() || '';
+      if (value) runtime.answers[question.id] = value;
+      else delete runtime.answers[question.id];
+      return;
+    }
+
+    if (question.type === 'ordering') {
+      const picks = [...item.querySelectorAll('.grammar-test-order-select')].map((select) => ({
+        itemId: select.dataset.itemId,
+        position: Number(select.value)
+      }));
+      const positions = picks.map((pick) => pick.position);
+      if (
+        picks.length &&
+        picks.every((pick) => pick.position) &&
+        new Set(positions).size === positions.length
+      ) {
+        runtime.answers[question.id] = picks
+          .sort((a, b) => a.position - b.position)
+          .map((pick) => pick.itemId);
+      } else {
+        delete runtime.answers[question.id];
+      }
+    }
+  });
+}
+
 function getUsefulVocabularyExpressions(lesson, cards) {
   const authored = (lesson.phrases || [])
     .map((phrase) =>
@@ -9597,6 +11229,45 @@ function isVocabularyTermExercise(exercise, cards) {
   );
 }
 
+function renderVocabularyMissionHtml(lesson, cards, french) {
+  const explored = cards.filter((card) => card.masteryStatus !== 'new').length;
+  const mastered = cards.filter((card) => card.masteryStatus === 'mastered').length;
+  const progress = cards.length ? Math.round((explored / cards.length) * 100) : 0;
+  const mission =
+    lesson.mission ||
+    lesson.intro ||
+    lesson.description ||
+    (french
+      ? 'Découvrez les mots, écoutez-les et utilisez-les dans leur contexte.'
+      : 'Descubre las palabras, escúchalas y úsalas en contexto.');
+  return `
+    <section class="vocab-mission" aria-label="${french ? 'Mission de vocabulaire' : 'Misión de vocabulario'}">
+      <div class="vocab-mission-main">
+        <div>
+          <span class="vocab-mission-kicker">🎒 ${french ? 'Mission vocabulaire' : 'Misión de vocabulario'}</span>
+          <h3>${escapeHtml(lesson.title)}</h3>
+          <p>${escapeHtml(mission)}</p>
+        </div>
+        <div class="vocab-mission-score">
+          <strong class="vocab-mission-mastered">${mastered}</strong>
+          <span>${french ? 'maîtrisés' : 'dominadas'}</span>
+        </div>
+      </div>
+      <div class="vocab-mission-steps">
+        <span>👆 ${french ? 'Retournez' : 'Gira'}</span>
+        <span>🔊 ${french ? 'Écoutez' : 'Escucha'}</span>
+        <span>⭐ ${french ? 'Maîtrisez' : 'Domina'}</span>
+      </div>
+      <div class="vocab-mission-progress-row">
+        <div class="vocab-mission-progress" role="progressbar" aria-valuenow="${progress}" aria-valuemin="0" aria-valuemax="100">
+          <div style="width:${progress}%"></div>
+        </div>
+        <span class="vocab-mission-count">${explored}/${cards.length} ${french ? 'cartes explorées' : 'tarjetas exploradas'}</span>
+      </div>
+    </section>
+  `;
+}
+
 function renderVocabularyView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
@@ -9642,7 +11313,7 @@ function renderVocabularyView(section, lesson) {
   const vocabularyUi = getVocabularyL2Ui();
 
   content.innerHTML = `
-    <h3>${escapeHtml(lesson.title)}</h3>
+    ${renderVocabularyMissionHtml(lesson, cards, french)}
     <section class="saved-reading-vocabulary" aria-live="polite">
       <p class="skill-graph-empty">${french ? 'Chargement des mots enregistrés depuis Reading…' : 'Cargando palabras guardadas desde Reading…'}</p>
     </section>
@@ -9805,6 +11476,8 @@ document.addEventListener('click', (event) => {
     const correctCount = runtime.results.filter((result) => result.correct).length;
     runtime.score = Math.round((correctCount / runtime.questions.length) * 100);
     runtime.submitted = true;
+    if (correctCount === runtime.questions.length) window.celebratePerfectPractice?.();
+    else window.playExerciseFeedbackSound?.(false);
     renderVocabularyView(context.section, context.lesson);
     context.section
       .querySelector('.vocab-practice-panel')
@@ -9870,6 +11543,22 @@ function setVocabCardMastery(card, status) {
   card.querySelectorAll('.vocab-status-dot').forEach((el) => {
     el.textContent = meta.glyph;
   });
+  const section = card.closest('.skill-view-section');
+  const deckCards = [...(section?.querySelectorAll('.vocab-card') || [])];
+  const explored = deckCards.filter((item) => item.dataset.mastery !== 'new').length;
+  const mastered = deckCards.filter((item) => item.dataset.mastery === 'mastered').length;
+  const progress = deckCards.length ? Math.round((explored / deckCards.length) * 100) : 0;
+  const progressBar = section?.querySelector('.vocab-mission-progress');
+  const progressFill = progressBar?.querySelector('div');
+  const count = section?.querySelector('.vocab-mission-count');
+  const masteredCount = section?.querySelector('.vocab-mission-mastered');
+  if (progressBar) progressBar.setAttribute('aria-valuenow', String(progress));
+  if (progressFill) progressFill.style.width = `${progress}%`;
+  if (count) {
+    const french = card.dataset.isFrench === 'true';
+    count.textContent = `${explored}/${deckCards.length} ${french ? 'cartes explorées' : 'tarjetas exploradas'}`;
+  }
+  if (masteredCount) masteredCount.textContent = String(mastered);
 }
 
 function speakTitle(isFrench) {
@@ -10444,8 +12133,9 @@ async function completeListeningLesson(lesson, content) {
     return;
   }
   if (!authStatus.session?.access_token) {
-    setAuthMessage('Crea tu cuenta gratis para guardar el progreso de Listening.');
-    openModal('signup');
+    openModal('signup', {
+      message: 'Crea tu cuenta gratis para guardar el progreso de Listening.'
+    });
     return;
   }
   if (btn) {
@@ -10714,10 +12404,7 @@ function renderListeningConnectedToolsHtml(lesson, runtime) {
     ${
       hasComprehension
         ? `<section class="listening-comprehension-direct">
-            <div class="listening-section-heading">
-              <span>Comprueba lo que entendiste</span>
-              <h3>Comprensión auditiva</h3>
-            </div>
+            <h3 class="listening-comprehension-title">${listeningUiText('Comprensión de la historia', "Compréhension de l'histoire")}</h3>
             <div class="listening-mode-panel">${renderListeningComprehensionPanel(lesson)}</div>
           </section>`
         : ''
@@ -11308,10 +12995,7 @@ async function sendTutorMessage({
                 messageEl = appendTutorMessage(conversationEl, 'tutor', fullText);
                 if (messageEl) {
                   messageEl.dataset.ttsLocale = getPronunciationLocale(language);
-                  // Position among this conversation's tutor replies so far -
-                  // sent to /api/speech/synthesize for logging/context only;
-                  // the free-tier voice cap itself is a monthly total now
-                  // (lib/usageLimitService.js), not turn-scoped.
+                  // Position among this conversation's tutor replies so far.
                   messageEl.dataset.turnIndex = String(
                     conversationEl.querySelectorAll('.tutor-message--tutor').length
                   );
@@ -11321,8 +13005,8 @@ async function sendTutorMessage({
               }
               if (messageEl) {
                 // Cleaned, not raw, and L2-only (the optional L1 support
-                // block is never read aloud) - speechSynthesis/the neural
-                // TTS provider must never read Markdown syntax (**/#/- ) or
+                // block is never read aloud) - speechSynthesis must never
+                // read Markdown syntax (**/#/- ) or
                 // native-language support text aloud.
                 messageEl.dataset.ttsText = cleanTutorTextForSpeech(sanitizeTutorReplyText(fullText));
               }
@@ -11391,16 +13075,128 @@ async function sendTutorMessage({
   }
 }
 
+// The generated worlds contain the offline curriculum fallback and the
+// optimistic data used for advanced courses. They used to be three blocking
+// <script> tags on every first visit (English, French and Spanish together).
+// Keep that resilience, but fetch only the selected language before its path
+// is rendered. A language is cached by the browser and by this promise map.
+const LANGUAGE_WORLD_SOURCES = Object.freeze({
+  english: '/src/worlds/english/content.js',
+  french: '/src/worlds/french/content.js',
+  spanish: '/src/worlds/spanish/content.js',
+  italian: '/src/worlds/italian/content.js',
+  german: '/src/worlds/german/content.js'
+});
+const languageWorldLoads = new Map();
+
+const VERBS_MODULE_SOURCES = Object.freeze([
+  '/src/js/verbs/english-verbs-data.js',
+  '/src/js/verbs/verb-conjugation-engine.js',
+  '/src/js/verbs/romance-verbs-data.js',
+  '/src/js/verbs/verbs-view.js'
+]);
+let verbsModulesLoad = null;
+
+function loadDeferredScript(source, marker) {
+  return new Promise((resolve, reject) => {
+    const existing = document.querySelector(`script[data-deferred-module="${marker}"]`);
+    if (existing?.dataset.loaded === 'true') {
+      resolve();
+      return;
+    }
+    const script = existing || document.createElement('script');
+    const isNew = !existing;
+    if (!existing) {
+      script.src = source;
+      script.async = false;
+      script.dataset.deferredModule = marker;
+    }
+    script.addEventListener(
+      'load',
+      () => {
+        script.dataset.loaded = 'true';
+        resolve();
+      },
+      { once: true }
+    );
+    script.addEventListener('error', () => reject(new Error(`No se pudo cargar ${source}.`)), {
+      once: true
+    });
+    if (isNew) document.head.appendChild(script);
+  });
+}
+
+function ensureVerbsModules() {
+  if (typeof window.renderVerbsView === 'function') return Promise.resolve();
+  if (verbsModulesLoad) return verbsModulesLoad;
+  verbsModulesLoad = VERBS_MODULE_SOURCES.reduce(
+    (chain, source, index) =>
+      chain.then(() => loadDeferredScript(source, `verbs-${index + 1}`)),
+    Promise.resolve()
+  ).catch((error) => {
+    verbsModulesLoad = null;
+    throw error;
+  });
+  return verbsModulesLoad;
+}
+
+function hasLanguageWorld(language) {
+  const worlds = window.ANDERGO_LANGUAGE_WORLDS;
+  return Boolean(
+    worlds?.lessons?.[language] ||
+      worlds?.units?.[language] ||
+      worlds?.levelContent?.[language]
+  );
+}
+
+function ensureLanguageWorld(language) {
+  if (hasLanguageWorld(language)) return Promise.resolve();
+  const source = LANGUAGE_WORLD_SOURCES[language];
+  if (!source || typeof document === 'undefined') return Promise.resolve();
+  if (languageWorldLoads.has(language)) return languageWorldLoads.get(language);
+
+  const load = new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = source;
+    script.async = true;
+    script.dataset.languageWorld = language;
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error(`No se pudo cargar el contenido de ${language}.`));
+    document.head.appendChild(script);
+  });
+  languageWorldLoads.set(language, load);
+  return load.catch((error) => {
+    languageWorldLoads.delete(language);
+    throw error;
+  });
+}
+
 function getLocalFallbackLessons(language, level) {
   const lessons = window.ANDERGO_LANGUAGE_WORLDS?.lessons?.[language] || [];
+  const unitOrderById = new Map(
+    (window.ANDERGO_LANGUAGE_WORLDS?.units?.[language] || [])
+      .filter((unit) => unit.level === level)
+      .map((unit) => [unit.id || unit.slug, Number(unit.order) || 1])
+  );
+  const freeUnitLimit = ['C1', 'C2'].includes(level) ? 1 : 2;
   return lessons
     .filter((lesson) => lesson.level === level)
-    .map((lesson) => ({
-      ...lesson,
-      isFree: lesson.accessTier ? lesson.accessTier !== 'premium' : lesson.isFree !== false,
-      locked: (lesson.accessTier === 'premium' || lesson.isFree === false) && !lesson.completed,
-      completed: Boolean(lesson.completed)
-    }));
+    .map((lesson) => {
+      const unitOrder =
+        Number(lesson.unitOrder) ||
+        unitOrderById.get(lesson.unitId || lesson.unitSlug) ||
+        Math.max(1, Math.floor(Number(lesson.orderIndex || 0) / 10));
+      const completed = Boolean(lesson.completed);
+      const isFree = unitOrder <= freeUnitLimit;
+      return {
+        ...lesson,
+        unitOrder,
+        accessTier: isFree ? 'free' : 'premium',
+        isFree,
+        locked: !isPremiumUser() && !isFree && !completed,
+        completed
+      };
+    });
 }
 
 // Unit metadata (id/slug/title/order) is invariant per language+level, so
@@ -11460,10 +13256,35 @@ window.recordUnitVerbScore = async function recordUnitVerbScore(score) {
   }
   renderLearningPath();
   loadDashboard();
+  renderUnitVerbContext();
   return data;
 };
 
-async function loadLearningPath(options = {}) {
+let learningPathLoadPromise = null;
+let learningPathLoadKey = '';
+
+function loadLearningPath(options = {}) {
+  const language = options.language || learningPathState.language;
+  const level = options.level || learningPathState.level;
+  const restoreKey = `${options.restoreUnitId || ''}/${options.restoreSlug || ''}`;
+  const requestKey = `${language}/${level}/${restoreKey}`;
+  if (learningPathLoadPromise && learningPathLoadKey === requestKey) {
+    return learningPathLoadPromise;
+  }
+  const request = performLearningPathLoad(options);
+  learningPathLoadPromise = request;
+  learningPathLoadKey = requestKey;
+  const clearRequest = () => {
+    if (learningPathLoadPromise === request) {
+      learningPathLoadPromise = null;
+      learningPathLoadKey = '';
+    }
+  };
+  request.then(clearRequest, clearRequest);
+  return request;
+}
+
+async function performLearningPathLoad(options = {}) {
   // Changing language or level always invalidates whatever reading is
   // currently attached to the audio player, even if the user isn't on
   // the Reading view right now - no reading audio should keep playing
@@ -11474,6 +13295,13 @@ async function loadLearningPath(options = {}) {
   syncLearningMode();
   applyInterfaceLanguage(learningPathState.bridgeLanguage);
   updatePathPairPreview();
+  try {
+    await ensureLanguageWorld(learningPathState.language);
+  } catch (error) {
+    // The API remains the primary source. A failed optional offline world
+    // should not prevent an online learner from opening the route.
+    console.warn(error.message);
+  }
   learningPathState.units = getUnitsForLanguageLevel(
     learningPathState.language,
     learningPathState.level
@@ -11498,13 +13326,37 @@ async function loadLearningPath(options = {}) {
       setActiveLesson(options.restoreSlug);
       return;
     }
-    learningPathState.activeSlug = '';
     learningPathState.unitId =
       options.restoreUnitId &&
       learningPathState.units.some((unit) => unit.id === options.restoreUnitId)
         ? options.restoreUnitId
         : null;
+    const restoredActivities = learningPathState.unitId
+      ? getUnitActivities(learningPathState.unitId)
+      : [];
+    const restoredFirstActivity =
+      restoredActivities.find((item) => item.skill === 'reading' && !item.locked) ||
+      restoredActivities.find((item) => !item.locked) ||
+      restoredActivities[0];
+    learningPathState.activeSlug = restoredFirstActivity?.slug || '';
   };
+
+  // Advanced courses carry substantially richer Reading/Speaking content.
+  // Paint their bundled route immediately instead of keeping the learner on
+  // "Preparando tu ruta…" while personalized progress is fetched. The server
+  // response below still replaces this optimistic snapshot as soon as it
+  // arrives, preserving locks, scores and completion state.
+  if (['B2', 'C1', 'C2'].includes(learningPathState.level)) {
+    const optimisticLessons = getLocalFallbackLessons(
+      learningPathState.language,
+      learningPathState.level
+    );
+    if (optimisticLessons.length) {
+      learningPathState.lessons = optimisticLessons;
+      applyLoadedSelection();
+      renderLearningPath();
+    }
+  }
 
   try {
     const params = new URLSearchParams({
@@ -11534,6 +13386,7 @@ async function loadLearningPath(options = {}) {
     renderLearningPath();
   }
 
+  updateLevelTabLabels();
   // Single choke point for every caller (language/level selects,
   // setTargetLanguage, the hash-restore paths in showView/renderSkillView/
   // bootstrapLearningPath) - updates the hash to the language+level+unit+
@@ -11569,8 +13422,9 @@ async function completeActiveLesson() {
   }
 
   if (!authStatus.session?.access_token) {
-    setAuthMessage('Crea tu cuenta gratis para guardar el progreso de la lección.');
-    openModal('signup');
+    openModal('signup', {
+      message: 'Crea tu cuenta gratis para guardar el progreso de la lección.'
+    });
     return;
   }
 
@@ -11666,8 +13520,7 @@ logoutButton?.addEventListener('click', openLogoutConfirm);
 document.querySelectorAll('#goalsQuickStart .goal-card').forEach((card) => {
   card.querySelector('.goal-select')?.addEventListener('click', async () => {
     if (!authStatus.session?.access_token) {
-      setAuthMessage('Crea tu cuenta gratis para guardar tu objetivo.');
-      openModal('signup');
+      openModal('signup', { message: 'Crea tu cuenta gratis para guardar tu objetivo.' });
       return;
     }
     try {
@@ -11842,7 +13695,7 @@ const VIEW_SECTIONS = {
   // view now, not as its own nav destination - see handleHomeAction's
   // 'upgrade' case, which stays on/goes to 'home' and scrolls to it instead
   // of routing to a dedicated 'premium' view.
-  home: ['.hero', '#language-picker'],
+  home: ['.hero', '#language-picker', '#premium'],
   learn: ['#language-picker', '#learning-path'],
   progress: ['#progress'],
   achievements: ['#achievements'],
@@ -11858,6 +13711,7 @@ const VIEW_SECTIONS = {
   writing: ['#writing'],
   grammar: ['#grammar'],
   vocabulary: ['#vocabulary'],
+  'teacher-curriculum': ['#teacherCurriculum'],
   'reset-password': ['#resetPasswordSection'],
   'email-confirmed': ['#emailConfirmedSection']
 };
@@ -11883,6 +13737,8 @@ const VIEW_TITLE_SELECTORS = {
   writing: '#writing .level-tab[data-tab="writing"]',
   grammar: '#grammar .level-tab[data-tab="grammar"]',
   vocabulary: '#vocabulary .level-tab[data-tab="vocabulary"]'
+  ,
+  'teacher-curriculum': '#teacherCurriculum h2'
 };
 
 function getViewFromHash() {
@@ -11933,8 +13789,18 @@ function updateLearnHash(viewOverride) {
 }
 
 function showView(viewId) {
-  const resolved = VIEW_SECTIONS[viewId] ? viewId : 'home';
-  if (resolved !== 'home') setPricingExpanded(false);
+  let resolved = VIEW_SECTIONS[viewId] ? viewId : 'home';
+  if (
+    resolved === 'teacher-curriculum' &&
+    !['teacher', 'ceo'].includes(authStatus.entitlements?.role)
+  ) {
+    resolved = 'home';
+    if (window.location.hash === '#teacher-curriculum') history.replaceState(null, '', '#home');
+  }
+  setPricingExpanded(resolved === 'home');
+  // A freshly loaded/restored Ruta is still unit-specific. Do not let it
+  // inherit the full-library mode from a previous Explore visit.
+  if (resolved === 'learn') learningPathState.skillEntryContext = 'route';
 
   // Any navigation away from the current view must release the mic and
   // drop any in-progress Speaking recording - a no-op when nothing is active.
@@ -12046,8 +13912,21 @@ function showView(viewId) {
   if (resolved === 'translator') syncTranslatorLanguagesFromState();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
+  if (resolved === 'teacher-curriculum') loadTeacherCurriculumPanel();
   if (resolved === 'verbs') {
-    window.renderVerbsView?.();
+    const verbsDeck = document.getElementById('verbsCardDeck');
+    verbsDeck?.setAttribute('aria-busy', 'true');
+    ensureVerbsModules()
+      .then(() => {
+        verbsDeck?.removeAttribute('aria-busy');
+        if (getViewFromHash() === 'verbs') window.renderVerbsView?.();
+      })
+      .catch((error) => {
+        if (verbsDeck) {
+          verbsDeck.removeAttribute('aria-busy');
+          verbsDeck.innerHTML = `<p class="skill-graph-empty">${escapeHtml(error.message)}</p>`;
+        }
+      });
     renderUnitVerbContext();
   }
   if (SKILL_VIEWS.includes(resolved)) renderSkillView(resolved);
@@ -12224,6 +14103,12 @@ function celebrateActivityCompletion() {
   window.setTimeout(() => burst.remove(), 1500);
 }
 
+window.celebratePerfectPractice = function celebratePerfectPractice() {
+  window.playExerciseFeedbackSound?.('celebration');
+  showCelebration('🎉 Resultado perfecto! Excelente trabajo.');
+  celebrateActivityCompletion();
+};
+
 function handleHomeAction(action) {
   const goTo = (view, toast) => {
     if (window.location.hash !== `#${view}`) history.pushState(null, '', `#${view}`);
@@ -12313,6 +14198,12 @@ function handleHomeAction(action) {
 }
 
 function enableHomepageActions() {
+  document.querySelectorAll('.paddle-checkout-btn').forEach((button) => {
+    button.addEventListener('click', () => {
+      openPaddleCheckout(button.dataset.billingCycle || 'monthly', button);
+    });
+  });
+
   document.querySelectorAll('[data-home-action]').forEach((element) => {
     element.addEventListener('click', (event) => {
       const action = element.dataset.homeAction;
@@ -12413,10 +14304,9 @@ function enableHomepageActions() {
     if (upgradeButton) {
       handleHomeAction('upgrade');
       if (!authStatus.session?.access_token) {
-        setAuthMessage(
-          `Crea tu cuenta para desbloquear la ruta premium por USD ${premiumPriceUsd}.`
-        );
-        openModal('signup');
+        openModal('signup', {
+          message: `Crea tu cuenta para desbloquear la ruta premium por USD ${premiumPriceUsd}.`
+        });
       }
       return;
     }
@@ -12425,6 +14315,16 @@ function enableHomepageActions() {
     if (skillCompetencyCard) {
       const skill = skillCompetencyCard.dataset.skill;
       if (!SKILL_VIEWS.includes(skill)) return;
+      if (hasUnits() && learningPathState.unitId) {
+        learningPathState.skillEntryContext = 'route';
+        const unitActivity = getSkillActivities(skill).find(
+          (item) => item.unitId === learningPathState.unitId
+        );
+        if (unitActivity) setActiveLesson(unitActivity.slug);
+      } else {
+        learningPathState.skillEntryContext = 'explore';
+        learningPathState.activeSlug = '';
+      }
       if (window.location.hash !== `#${skill}`) history.pushState(null, '', `#${skill}`);
       showView(skill);
       return;
@@ -12498,6 +14398,7 @@ function enableHomepageActions() {
             questionItem.dataset.language || learningPathState.language
           );
         }
+        window.playExerciseFeedbackSound?.(Boolean(data.correct));
       } catch (error) {
         if (feedback) feedback.textContent = error.message || 'No se pudo verificar la respuesta.';
         questionItem.querySelectorAll('.mcq-option').forEach((option) => {
@@ -12588,6 +14489,7 @@ function enableHomepageActions() {
           );
           window.AndergoGamification?.recordCorrectAnswer();
         }
+        window.playExerciseFeedbackSound?.(Boolean(data.correct));
       } catch (error) {
         delete runtime.selections[exerciseIndex];
         runtime.error = error.message || 'No se pudo comprobar la respuesta.';
@@ -12748,8 +14650,9 @@ function enableHomepageActions() {
 
     const readingCompSignupBtn = event.target.closest('.reading-comp-signup-btn');
     if (readingCompSignupBtn) {
-      setAuthMessage('Crea tu cuenta gratis para guardar tu nota, XP y logros.');
-      openModal('signup');
+      openModal('signup', {
+        message: 'Crea tu cuenta gratis para guardar tu nota, XP y logros.'
+      });
       return;
     }
 
@@ -12825,7 +14728,32 @@ function enableHomepageActions() {
         const progressBar = ctx.content.querySelector('.grammar-test-progress-bar div');
         const warning = ctx.content.querySelector('.grammar-test-review-warning');
         const submit = ctx.content.querySelector('.grammar-test-submit-btn');
-        if (counter) counter.textContent = `${answered} of ${total} answered`;
+        if (counter) {
+          counter.textContent = isFrenchTargetLanguage()
+            ? `${answered} sur ${total} réponses`
+            : `${answered} of ${total} answered`;
+        }
+        if (progressBar) progressBar.style.width = `${progress}%`;
+        if (warning) warning.hidden = answered === total;
+        if (submit) submit.setAttribute('aria-disabled', String(answered !== total));
+        updateGrammarChallengeProgress(ctx.content, ctx.test, ctx.runtime, isFrenchTargetLanguage());
+      }
+      const listeningCtx = getListeningComprehensionContext(grammarTestOption);
+      const listeningQuestion = grammarTestOption.closest('.listening-comp-question-item');
+      const listeningQuestionId = listeningQuestion?.dataset.questionId;
+      if (listeningCtx && listeningQuestionId) {
+        listeningCtx.runtime.answers[listeningQuestionId] = grammarTestOption.dataset.optionId;
+        listeningQuestion.classList.add('is-answered');
+        const answered = listeningCtx.bank.questions.filter((question) =>
+          isGrammarTestQuestionAnswered(listeningCtx.runtime, question)
+        ).length;
+        const total = listeningCtx.bank.questions.length;
+        const progress = total ? Math.round((answered / total) * 100) : 0;
+        const counter = listeningCtx.panel.querySelector('.grammar-test-counter');
+        const progressBar = listeningCtx.panel.querySelector('.grammar-test-progress-bar div');
+        const warning = listeningCtx.panel.querySelector('.grammar-test-review-warning');
+        const submit = listeningCtx.panel.querySelector('.listening-comp-submit-btn');
+        if (counter) counter.textContent = `${answered} ${listeningUiText('de', 'sur')} ${total}`;
         if (progressBar) progressBar.style.width = `${progress}%`;
         if (warning) warning.hidden = answered === total;
         if (submit) submit.disabled = answered !== total;
@@ -12884,16 +14812,41 @@ function enableHomepageActions() {
     const grammarTestSubmitBtn = event.target.closest('.grammar-test-submit-btn');
     if (grammarTestSubmitBtn) {
       const ctx = getGrammarTestContext(grammarTestSubmitBtn);
-      if (!ctx || grammarTestSubmitBtn.disabled) return;
+      if (!ctx || grammarTestSubmitBtn.dataset.submitting === 'true') return;
+
+      collectAllGrammarTestAnswers(ctx.content, ctx.test, ctx.runtime);
+      const firstMissing = ctx.test.questions.find(
+        (question) => !isGrammarTestQuestionAnswered(ctx.runtime, question)
+      );
+      if (firstMissing) {
+        const missingItem = [...ctx.content.querySelectorAll('.grammar-test-question-item')].find(
+          (item) => String(item.dataset.questionId) === String(firstMissing.id)
+        );
+        const warning = ctx.content.querySelector('.grammar-test-review-warning');
+        if (warning) warning.hidden = false;
+        missingItem?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        missingItem?.querySelector('input, select, button')?.focus({ preventScroll: true });
+        showHomeToast(
+          isFrenchTargetLanguage()
+            ? 'Il reste une question sans réponse.'
+            : 'There is still one unanswered question.'
+        );
+        return;
+      }
 
       if (!authStatus.session?.access_token) {
-        setAuthMessage('Inicia sesión para guardar el resultado de tu prueba.');
-        openModal('login');
-        return;
+        const restored = await refreshAuthSession();
+        if (!restored || !authStatus.session?.access_token) {
+          openModal('login', {
+            message: 'Inicia sesión para guardar el resultado de tu prueba.'
+          });
+          return;
+        }
       }
 
       const { lesson, content, test, runtime } = ctx;
       grammarTestSubmitBtn.disabled = true;
+      grammarTestSubmitBtn.dataset.submitting = 'true';
       grammarTestSubmitBtn.textContent = 'Enviando...';
 
       try {
@@ -12932,7 +14885,10 @@ function enableHomepageActions() {
         renderGrammarTestView(content, lesson);
       } catch (error) {
         grammarTestSubmitBtn.disabled = false;
-        grammarTestSubmitBtn.textContent = 'Enviar prueba';
+        delete grammarTestSubmitBtn.dataset.submitting;
+        grammarTestSubmitBtn.textContent = isFrenchTargetLanguage()
+          ? 'Terminer et voir mon score'
+          : 'Finish and see my score';
         showHomeToast(error.message || 'No se pudo enviar la prueba.');
       }
       return;
@@ -12950,12 +14906,13 @@ function enableHomepageActions() {
         (item) => item.slug === skillSection?.dataset.activeLessonSlug
       );
       const panel = skillSection?.querySelector('.listening-mode-panel');
-      if (!lesson?.extra?.listeningComprehension?.questions?.length || !panel) return null;
+      const bank = lesson ? getListeningComprehensionBank(lesson) : null;
+      if (!bank?.questions?.length || !panel) return null;
       return {
         lesson,
         content: skillSection.querySelector('.skill-view-content'),
         panel,
-        bank: lesson.extra.listeningComprehension,
+        bank,
         runtime: getListeningComprehensionRuntime(lesson)
       };
     }
@@ -13024,8 +14981,9 @@ function enableHomepageActions() {
       if (!ctx || listeningCompSubmitBtn.disabled) return;
 
       if (!authStatus.session?.access_token) {
-        setAuthMessage('Inicia sesión para guardar el resultado de esta prueba.');
-        openModal('login');
+        openModal('login', {
+          message: 'Inicia sesión para guardar el resultado de esta prueba.'
+        });
         return;
       }
 
@@ -13388,7 +15346,6 @@ function enableHomepageActions() {
       readingSpeechPlayer.changeReadingRate(readingAudioRateBtn.dataset.rate);
       return;
     }
-
     const writingReviewBtn = event.target.closest('.writing-review-btn');
     if (writingReviewBtn) {
       const editor = document.getElementById('writingEditor');
@@ -13399,6 +15356,7 @@ function enableHomepageActions() {
       }
       const mode = writingReviewBtn.dataset.supportMode;
       const prompts = {
+        'review-complete': `Revisa este texto de manera sencilla. Responde en tres bloques breves: 1) Lo que está bien, 2) Las tres mejoras más importantes de claridad, gramática o vocabulario, 3) Un ejemplo corregido sin reemplazar toda la voz del estudiante: ${editorText}`,
         'review-grammar': `Revisa la gramática de este texto y explica los errores: ${editorText}`,
         'review-vocabulary': `Sugiere mejoras de vocabulario para este texto: ${editorText}`,
         'review-coherence': `Revisa la coherencia y organización de este texto: ${editorText}`,
@@ -13583,7 +15541,128 @@ function enableHomepageActions() {
   document.getElementById('tutorConversationToggle')?.addEventListener('click', () => {
     handleTutorConversationToggleClick();
   });
+
+  document.addEventListener('input', (event) => {
+    const input = event.target.closest('.grammar-test-fill-input');
+    if (!input) return;
+
+    const questionItem = input.closest('.grammar-test-question-item');
+    const skillSection = input.closest('.skill-view-section');
+    const lesson = learningPathState.lessons.find(
+      (item) => item.slug === skillSection?.dataset.activeLessonSlug
+    );
+    const test = lesson?.extra?.grammarTest;
+    const content = skillSection?.querySelector('.skill-view-content');
+    const questionId = questionItem?.dataset.questionId;
+    if (!test?.questions?.length || !content || !questionId) return;
+
+    const runtime = getGrammarTestRuntime(lesson);
+    const value = input.value.trim();
+    if (value) runtime.answers[questionId] = value;
+    else delete runtime.answers[questionId];
+
+    const answered = test.questions.filter((question) =>
+      isGrammarTestQuestionAnswered(runtime, question)
+    ).length;
+    const total = test.questions.length;
+    const progress = total ? Math.round((answered / total) * 100) : 0;
+    const counter = content.querySelector('.grammar-test-counter');
+    const progressBar = content.querySelector('.grammar-test-progress-bar div');
+    const warning = content.querySelector('.grammar-test-review-warning');
+    const submit = content.querySelector('.grammar-test-submit-btn');
+
+    if (counter) {
+      counter.textContent = isFrenchTargetLanguage()
+        ? `${answered} sur ${total} réponses`
+        : `${answered} of ${total} answered`;
+    }
+    if (progressBar) progressBar.style.width = `${progress}%`;
+    if (warning) warning.hidden = answered === total;
+    if (submit) submit.setAttribute('aria-disabled', String(answered !== total));
+    updateGrammarChallengeProgress(content, test, runtime, isFrenchTargetLanguage());
+  });
+
+  document.addEventListener('change', (event) => {
+    const select = event.target.closest('.grammar-test-order-select');
+    if (!select) return;
+    const questionItem = select.closest('.grammar-test-question-item');
+    const skillSection = select.closest('.skill-view-section');
+    const lesson = learningPathState.lessons.find(
+      (item) => item.slug === skillSection?.dataset.activeLessonSlug
+    );
+    const test = lesson?.extra?.grammarTest;
+    const content = skillSection?.querySelector('.skill-view-content');
+    const questionId = questionItem?.dataset.questionId;
+    const question = test?.questions?.find((item) => String(item.id) === String(questionId));
+    if (!question || !content || question.type !== 'ordering') return;
+
+    const picks = [...questionItem.querySelectorAll('.grammar-test-order-select')].map((item) => ({
+      itemId: item.dataset.itemId,
+      position: Number(item.value)
+    }));
+    const positions = picks.map((item) => item.position);
+    const complete = picks.length > 0 && picks.every((item) => item.position) && new Set(positions).size === positions.length;
+    const runtime = getGrammarTestRuntime(lesson);
+    if (complete) {
+      runtime.answers[question.id] = picks
+        .slice()
+        .sort((a, b) => a.position - b.position)
+        .map((item) => item.itemId);
+    } else {
+      delete runtime.answers[question.id];
+    }
+    updateGrammarChallengeProgress(content, test, runtime, isFrenchTargetLanguage());
+  });
 }
+
+let draggedGrammarOrderItem = null;
+
+function refreshGrammarOrderNumbers(list) {
+  list?.querySelectorAll('.grammar-test-order-item').forEach((item, index) => {
+    const number = item.querySelector('.grammar-test-order-number');
+    if (number) number.textContent = String(index + 1);
+  });
+}
+
+document.addEventListener('dragstart', (event) => {
+  const item = event.target.closest('.grammar-test-order-item');
+  if (!item) return;
+  draggedGrammarOrderItem = item;
+  item.classList.add('is-dragging');
+  event.dataTransfer.effectAllowed = 'move';
+});
+
+document.addEventListener('dragover', (event) => {
+  const list = event.target.closest('.grammar-test-order-list');
+  if (!list || !draggedGrammarOrderItem) return;
+  event.preventDefault();
+  const target = event.target.closest('.grammar-test-order-item');
+  if (target && target !== draggedGrammarOrderItem) {
+    const insertAfter = event.clientY > target.getBoundingClientRect().top + target.offsetHeight / 2;
+    list.insertBefore(draggedGrammarOrderItem, insertAfter ? target.nextSibling : target);
+  }
+});
+
+document.addEventListener('dragend', () => {
+  const list = draggedGrammarOrderItem?.closest('.grammar-test-order-list');
+  draggedGrammarOrderItem?.classList.remove('is-dragging');
+  refreshGrammarOrderNumbers(list);
+  draggedGrammarOrderItem = null;
+});
+
+document.addEventListener('click', (event) => {
+  const button = event.target.closest('.grammar-test-order-move');
+  if (!button) return;
+  const item = button.closest('.grammar-test-order-item');
+  const list = item?.parentElement;
+  if (!item || !list) return;
+  if (button.dataset.orderMove === 'up' && item.previousElementSibling) {
+    list.insertBefore(item, item.previousElementSibling);
+  } else if (button.dataset.orderMove === 'down' && item.nextElementSibling) {
+    list.insertBefore(item.nextElementSibling, item);
+  }
+  refreshGrammarOrderNumbers(list);
+});
 
 function setupLearningPathControls() {
   const languageSelect = document.getElementById('pathLanguageSelect');
@@ -13608,18 +15687,26 @@ function setupLearningPathControls() {
   document
     .getElementById('pathSwapLanguagesBtn')
     ?.addEventListener('click', () => swapLearningPathLanguages());
-  document.getElementById('pathStartLearningBtn')?.addEventListener('click', async () => {
+  document.getElementById('pathStartLearningBtn')?.addEventListener('click', async (event) => {
     const language = languageSelect?.value || learningPathState.language;
     const level = levelSelect?.value || learningPathState.level;
-    await loadLearningPath({ language, level });
+    const startButton = event.currentTarget;
+    startButton.disabled = true;
+    startButton.textContent = 'Abriendo rutaâ€¦';
+    const loadingPath = loadLearningPath({ language, level });
     savePreferences(language, level);
     if (getViewFromHash() !== 'learn') {
       history.pushState(null, '', '#learn');
       showView('learn');
     }
-    updateLearnHash('learn');
-    document.getElementById('learning-path')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.getElementById('learning-path')?.scrollIntoView({ behavior: 'auto', block: 'start' });
     document.querySelector('#learning-path h2')?.focus({ preventScroll: true });
+    try {
+      await loadingPath;
+    } finally {
+      startButton.disabled = false;
+      updateStartLearningButton();
+    }
   });
   updateStartLearningButton();
   updateLanguagePreviewSelection();
@@ -14482,6 +16569,11 @@ function initHeroCopyCarousel() {
 }
 
 document.addEventListener('change', (event) => {
+  const speechSetting = event.target.closest?.('.reading-audio-setting-range');
+  if (speechSetting) {
+    readingSpeechPlayer.changeReadingSetting(speechSetting.dataset.setting, speechSetting.value);
+    return;
+  }
   const fontSelect = event.target.closest?.('.reading-font-select');
   if (!fontSelect) return;
   const area = fontSelect.closest('.reading-print-area');

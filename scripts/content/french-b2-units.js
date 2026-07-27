@@ -1818,6 +1818,13 @@ const units = [
   }
 ];
 
+require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'B2');
+require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(units, {
+  language: 'french',
+  level: 'B2',
+  preserveExisting: true
+});
+
 module.exports = {
   language: 'french',
   level: 'B2',

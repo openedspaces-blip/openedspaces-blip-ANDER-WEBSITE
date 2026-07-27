@@ -1518,6 +1518,8 @@ const units = [
   }
 ];
 
+require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'B1');
+
 module.exports = {
   language: 'french',
   level: 'B1',

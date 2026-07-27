@@ -204,7 +204,14 @@ function buildFile(language) {
 }
 
 function main() {
-  Object.keys(LANGUAGES).forEach((language) => {
+  const requestedLanguages = process.argv.slice(2);
+  const languages = requestedLanguages.length ? requestedLanguages : Object.keys(LANGUAGES);
+  const unsupported = languages.filter((language) => !LANGUAGES[language]);
+  if (unsupported.length) {
+    throw new Error(`Unsupported language(s): ${unsupported.join(', ')}`);
+  }
+
+  languages.forEach((language) => {
     const file = path.join(ROOT, 'src', 'worlds', language, 'content.js');
     fs.writeFileSync(file, buildFile(language), 'utf8');
     console.log(`Synced ${path.relative(ROOT, file)}`);

@@ -31,6 +31,15 @@ function buildActivityRow(unit, skill, orderInUnit) {
   if (!a) throw new Error(`Unit "${unit.slug}" is missing a "${skill}" activity`);
 
   const accessTier = unit.accessTier || 'free';
+  const extra = {};
+  if (a.grammarTest) extra.grammarTest = a.grammarTest;
+  if (a.listeningType) extra.listeningType = a.listeningType;
+  if (a.difficulty) extra.difficulty = a.difficulty;
+  if (a.durationSeconds) extra.durationSeconds = a.durationSeconds;
+  if (a.speakers) extra.speakers = a.speakers;
+  if (a.phoneticSupport) extra.phoneticSupport = a.phoneticSupport;
+  if (a.communicationGuide) extra.communicationGuide = a.communicationGuide;
+  if (a.writingGuide) extra.writingGuide = a.writingGuide;
   return {
     slug: `french-b2-${unit.slug}-${skill}`,
     target_language: language,
@@ -54,7 +63,10 @@ function buildActivityRow(unit, skill, orderInUnit) {
       vocabulary: a.vocabulary || [],
       dialogue: a.dialogue || [],
       reading: shapeReading(a.reading),
+      transcript: a.transcript || '',
+      dictation: a.dictation || null,
       exercises: a.exercises || [],
+      extra: Object.keys(extra).length ? extra : null,
       xp_reward: a.xp
     }
   };

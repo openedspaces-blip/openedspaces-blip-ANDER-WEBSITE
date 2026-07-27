@@ -6,7 +6,7 @@ const { units, language, level, courseTitle } = require('./content/english-b2-un
 const root = path.join(__dirname, '..');
 const lessonsPath = path.join(root, 'lib', 'seed-lessons.json');
 const unitsPath = path.join(root, 'lib', 'seed-units.json');
-const skills = ['reading', 'vocabulary', 'grammar'];
+const skills = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
 
 function activityRow(unit, skill, index) {
   const activity = unit.activities[skill];
@@ -14,6 +14,13 @@ function activityRow(unit, skill, index) {
   const extra = {};
   if (activity.grammarTest) extra.grammarTest = activity.grammarTest;
   if (activity.grammarProfile) extra.grammarProfile = activity.grammarProfile;
+  if (activity.listeningType) extra.listeningType = activity.listeningType;
+  if (activity.difficulty) extra.difficulty = activity.difficulty;
+  if (activity.durationSeconds) extra.durationSeconds = activity.durationSeconds;
+  if (activity.speakers) extra.speakers = activity.speakers;
+  if (activity.phoneticSupport) extra.phoneticSupport = activity.phoneticSupport;
+  if (activity.communicationGuide) extra.communicationGuide = activity.communicationGuide;
+  if (activity.writingGuide) extra.writingGuide = activity.writingGuide;
   return {
     slug: `english-b2-${unit.slug}-${skill}`,
     target_language: language,
@@ -30,10 +37,15 @@ function activityRow(unit, skill, index) {
       language: 'English',
       language_key: language,
       level_title: courseTitle,
+      intro: activity.intro || '',
+      mission: activity.mission || '',
       grammar: activity.grammarNote || '',
       phrases: activity.phrases || [],
       vocabulary: activity.vocabulary || [],
+      dialogue: activity.dialogue || [],
       reading: activity.reading || null,
+      transcript: activity.transcript || '',
+      dictation: activity.dictation || null,
       exercises: activity.exercises || [],
       extra: Object.keys(extra).length ? extra : null,
       xp_reward: activity.xp

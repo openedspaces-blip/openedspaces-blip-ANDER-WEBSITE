@@ -5,8 +5,8 @@
 // frontend, never wired into any HTTP route, never runs automatically.
 //
 // Usage:
-//   node scripts/configure-ceo-account.js <email>              (dry run - report only, no writes)
-//   node scripts/configure-ceo-account.js <email> --apply       (performs the writes)
+//   node scripts/configure-ceo-account.js <email-or-username>          (dry run)
+//   node scripts/configure-ceo-account.js <email-or-username> --apply  (writes)
 //
 // The target email is a CLI argument (or CEO_TARGET_EMAIL env var) - never
 // hardcoded in this file. Reads SUPABASE_URL/SUPABASE_SERVICE_ROLE_KEY the
@@ -42,7 +42,7 @@ function maskUserId(id) {
 async function main() {
   const args = process.argv.slice(2);
   const apply = args.includes('--apply');
-  const targetEmail = (args.find((a) => !a.startsWith('--')) || process.env.CEO_TARGET_EMAIL || '')
+  const targetIdentifier = (args.find((a) => !a.startsWith('--')) || process.env.CEO_TARGET_EMAIL || '')
     .trim()
     .toLowerCase();
 
@@ -50,13 +50,14 @@ async function main() {
     console.error('Supabase is not configured (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY missing).');
     process.exit(1);
   }
-  if (!targetEmail) {
+  if (!targetIdentifier) {
     console.error(
-      'Usage: node scripts/configure-ceo-account.js <email> [--apply]\n' +
+      'Usage: node scripts/configure-ceo-account.js <email-or-username> [--apply]\n' +
         '(or set CEO_TARGET_EMAIL in the environment instead of passing it as an argument)'
     );
     process.exit(1);
   }
+  const lookupColumn = targetIdentifier.includes('@') ? 'email' : 'username';
 
   const admin = getSupabaseAdmin();
 
@@ -65,25 +66,56 @@ async function main() {
   // report below still works pre-migration, instead of crashing.
   let { data: profile, error: profileError } = await admin
     .from('profiles')
-    .select('id, username, access_tier, subscription_status, role')
-    .eq('email', targetEmail)
+    .select('id, email, username, access_tier, subscription_status, role')
+    .eq(lookupColumn, targetIdentifier)
     .maybeSingle();
 
   if (profileError && /column .*role.* does not exist/i.test(profileError.message || '')) {
     console.warn('(profiles.role column not found yet - run the 202607210001 migration first.)');
     ({ data: profile, error: profileError } = await admin
       .from('profiles')
-      .select('id, username, access_tier, subscription_status')
-      .eq('email', targetEmail)
+      .select('id, email, username, access_tier, subscription_status')
+      .eq(lookupColumn, targetIdentifier)
       .maybeSingle());
   }
-
   if (profileError) {
     console.error('Could not query profiles:', profileError.message);
     process.exit(1);
   }
+  if (!profile && lookupColumn === 'username') {
+    let page = 1;
+    let authMatch = null;
+    while (!authMatch && page <= 20) {
+      const { data: usersPage, error: listError } = await admin.auth.admin.listUsers({
+        page,
+        perPage: 100
+      });
+      if (listError) {
+        console.error('Could not search Auth users:', listError.message);
+        process.exit(1);
+      }
+      authMatch = (usersPage?.users || []).find(
+        (candidate) =>
+          String(candidate.user_metadata?.username || '').trim().toLowerCase() === targetIdentifier
+      );
+      if ((usersPage?.users || []).length < 100) break;
+      page += 1;
+    }
+    if (authMatch) {
+      const { data: profileById, error: profileByIdError } = await admin
+        .from('profiles')
+        .select('id, email, username, access_tier, subscription_status, role')
+        .eq('id', authMatch.id)
+        .maybeSingle();
+      if (profileByIdError) {
+        console.error('Could not query the matched profile:', profileByIdError.message);
+        process.exit(1);
+      }
+      profile = profileById;
+    }
+  }
   if (!profile) {
-    console.error('No profile found for that email. Nothing was changed.');
+    console.error('No account found for that email or username. Nothing was changed.');
     process.exit(1);
   }
 
@@ -93,6 +125,7 @@ async function main() {
     process.exit(1);
   }
   const user = userData.user;
+  const targetEmail = profile.email || user.email || '';
 
   console.log('--- Current state ---');
   console.log('userId:', maskUserId(user.id));

@@ -875,6 +875,12 @@
   function getVerbsPool(poolMode, targetLanguage) {
     const raw = getVerbsForLanguage(targetLanguage);
     const byFrequency = raw.slice().sort((a, b) => (a.rank || 0) - (b.rank || 0));
+    if (poolMode === 'unit-level') {
+      const unitLevel =
+        (typeof learningPathState !== 'undefined' && learningPathState.level) || '';
+      const levelVerbs = byFrequency.filter((verb) => verb.level === unitLevel);
+      return levelVerbs.length ? levelVerbs : byFrequency;
+    }
     if (poolMode === 'new') return byFrequency.filter((v) => (getStoredVocabMastery(v.id) || 'new') === 'new');
     if (poolMode === 'practicing') return byFrequency.filter((v) => getStoredVocabMastery(v.id) === 'practicing');
     if (poolMode === 'favorite') return byFrequency.filter((v) => isVerbFavorite(v.id));
@@ -1035,7 +1041,10 @@
     const bridgeLanguage =
       (typeof learningPathState !== 'undefined' && learningPathState.bridgeLanguage) || 'spanish';
     const questions = buildPracticeQuestions(pool, allVerbs, { bridgeLanguage, targetLanguage });
-    practiceRuntime = { questions, currentIndex: 0, answers: {}, checked: {}, results: [], dictationPlayed: {} };
+    practiceRuntime = {
+      questions, currentIndex: 0, answers: {}, checked: {}, results: [], dictationPlayed: {},
+      sessionStreak: 0, bestSessionStreak: 0, earnedXp: 0
+    };
 
     const setup = document.getElementById('verbsPracticeSetup');
     if (setup) setup.hidden = true;
@@ -1098,6 +1107,7 @@
     const question = questions[currentIndex];
     const pct = Math.round(((currentIndex + 1) / total) * 100);
     const checkedResult = practiceRuntime.checked[question.id];
+    const challengeLabel = total <= 5 ? 'Reto rapido' : total <= 10 ? 'Reto diario' : 'Reto experto';
 
     const audioBtnHtml =
       question.kind === 'dictation'
@@ -1119,6 +1129,9 @@
 
     content.innerHTML = `
       <div class="grammar-test-card card-enter">
+        <div class="verb-practice-live-stats" aria-label="Estado del reto">
+          <span>Reto: ${challengeLabel}</span><span>Racha: ${practiceRuntime.sessionStreak}</span><span>XP: ${practiceRuntime.earnedXp}</span>
+        </div>
         <div class="grammar-test-progress-row">
           <span class="grammar-test-counter">Pregunta ${currentIndex + 1} de ${total}</span>
           <div class="grammar-test-progress-bar"><div class="progress-fill-animated" style="width:${pct}%"></div></div>
@@ -1193,6 +1206,14 @@
 
     practiceRuntime.checked[question.id] = { isCorrect };
     practiceRuntime.results.push({ questionId: question.id, verbId: question.verbId, correct: isCorrect });
+    if (isCorrect) {
+      practiceRuntime.sessionStreak += 1;
+      practiceRuntime.bestSessionStreak = Math.max(practiceRuntime.bestSessionStreak, practiceRuntime.sessionStreak);
+      practiceRuntime.earnedXp += 10 + (practiceRuntime.sessionStreak >= 3 ? 5 : 0);
+    } else {
+      practiceRuntime.sessionStreak = 0;
+    }
+    window.playExerciseFeedbackSound?.(isCorrect);
     recordVerbAttempt(question.verbId, isCorrect);
     renderVerbsPracticeQuestion();
   }
@@ -1204,6 +1225,10 @@
     const total = results.length;
     const correctCount = results.filter((r) => r.correct).length;
     const score = total ? Math.round((correctCount / total) * 100) : 0;
+    const reinforcement = typeof window.getExerciseReinforcement === 'function'
+      ? window.getExerciseReinforcement(correctCount, total)
+      : 'Cada intento fortalece tu memoria.';
+    if (correctCount === total && total > 0) window.celebratePerfectPractice?.();
     const band = typeof gradeBandForScore === 'function' ? gradeBandForScore(score) : { emoji: '🙂', label: '' };
 
     const breakdownHtml = questions
@@ -1222,6 +1247,7 @@
     const retryFailedBtnHtml = failedCount
       ? `<button type="button" class="secondary-btn" id="verbsPracticeRetryFailedBtn">Practicar solo los fallados (${failedCount})</button>`
       : '';
+    const reinforcementHtml = `<p class="verb-practice-celebration"><strong>${correctCount}/${total}</strong> · ${escapeHtml(reinforcement)}</p>`;
 
     content.innerHTML = `
       <div class="grammar-test-card card-enter">
@@ -1230,7 +1256,11 @@
           <strong class="grammar-test-score-number">${score}/100</strong>
           <span class="grammar-test-score-label">${band.label}</span>
         </div>
-        <p class="grammar-test-score-detail">Respuestas correctas: ${correctCount} de ${total}</p>
+        <p class="verb-practice-celebration">${score >= 90 ? 'Dominio brillante!' : score >= 70 ? 'Vas por muy buen camino!' : 'Cada intento fortalece tu memoria.'}</p>
+        ${reinforcementHtml}
+        <div class="verb-practice-result-stats" aria-label="Resumen del reto">
+          <span><strong>${correctCount}/${total}</strong> aciertos</span><span><strong>${practiceRuntime.bestSessionStreak}</strong> mejor racha</span><span><strong>${practiceRuntime.earnedXp}</strong> XP ganados</span>
+        </div>
         <ul class="grammar-test-breakdown-list">${breakdownHtml}</ul>
         <div class="verb-practice-results-actions">
           ${retryFailedBtnHtml}
@@ -1729,6 +1759,14 @@
       if (!requireAuthForVerbFeature('practice')) return;
       const poolSelect = document.getElementById('verbsPracticePoolSelect');
       startVerbsPractice(poolSelect?.value || 'all');
+      return;
+    }
+
+    const practicePreset = event.target.closest('.verb-practice-preset');
+    if (practicePreset) {
+      const lengthSelect = document.getElementById('verbsPracticeLengthSelect');
+      if (lengthSelect) lengthSelect.value = practicePreset.dataset.practiceLength;
+      document.querySelectorAll('.verb-practice-preset').forEach((button) => button.classList.toggle('is-active', button === practicePreset));
       return;
     }
 

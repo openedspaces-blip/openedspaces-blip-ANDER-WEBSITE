@@ -13,7 +13,7 @@
     "build": "node scripts/build-static.js",
     "test": "node --test server.test.js",
     "db:setup": "node scripts/setup-database.js",
-    "audio:generate": "node scripts/generate-listening-audio.js",
+    "audit:curriculum": "node scripts/verify-curriculum-coverage.js",
     "verify:all": "node scripts/verify-all.js",
     "validate:listening": "node scripts/validate-official-listening.js",
     "format": "prettier --write .",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@cerebras/cerebras_cloud_sdk": "^1.64.1",
-    "@elevenlabs/elevenlabs-js": "^2.58.0",
+    "@paddle/paddle-node-sdk": "^3.8.0",
     "@supabase/supabase-js": "^2.45.0",
     "cors": "^2.8.0",
     "dotenv": "^16.4.1",

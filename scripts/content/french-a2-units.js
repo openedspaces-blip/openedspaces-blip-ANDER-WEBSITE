@@ -1542,6 +1542,8 @@ const units = [
   }
 ];
 
+require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'A2');
+
 module.exports = {
   language: 'french',
   level: 'A2',

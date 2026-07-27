@@ -210,12 +210,17 @@ const units = [
 ];
 
 units.push(...require('./french-c1-advanced-units'));
+require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'C1');
+require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(units, {
+  language: 'french',
+  level: 'C1'
+});
 
 module.exports = {
   language: 'french',
   level: 'C1',
   courseTitle: 'Français C1',
   courseDescription:
-    'Français avancé (niveau C1) : douze unités thématiques de Reading, Vocabulary et Grammar consacrées aux textes complexes, au lexique analytique et aux structures grammaticales avancées.',
+    'Français avancé (niveau C1) : douze unités intégrant compréhension écrite et orale, production orale, écriture guidée, lexique analytique et grammaire avancée.',
   units
 };

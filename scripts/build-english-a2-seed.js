@@ -39,9 +39,14 @@ function shapeReading(reading) {
 // scripts/content/english-a2-units.js - previously missing entirely here,
 // so none of that data would have reached course_lessons.extra even after a
 // migration run.
-function shapeExtra(a) {
+function shapeExtra(a, skill) {
   const extra = {};
-  if (a.grammarTest) extra.grammarTest = a.grammarTest;
+  if (a.grammarTest) {
+    extra.grammarTest = {
+      ...a.grammarTest,
+      questions: (a.grammarTest.questions || []).slice(0, 10)
+    };
+  }
   if (a.listeningType) extra.listeningType = a.listeningType;
   if (a.storyTitle) extra.storyTitle = a.storyTitle;
   if (a.mainTranscript) extra.mainTranscript = a.mainTranscript;
@@ -49,6 +54,15 @@ function shapeExtra(a) {
   if (a.phoneticSupport) extra.phoneticSupport = a.phoneticSupport;
   if (a.dictation) extra.dictationSegmentCount = (a.dictation.segments || []).length;
   if (a.listeningComprehension) extra.listeningComprehension = a.listeningComprehension;
+  if (skill === 'grammar') {
+    extra.grammarProfile = a.grammarProfile || {
+      name: a.title,
+      definition: a.description || `Use ${a.title} accurately in everyday communication.`,
+      structure: a.grammarNote || `Study the form and sentence position of ${a.title}.`,
+      function: a.description || `Use ${a.title} to communicate clearly at A2 level.`,
+      examples: (a.phrases || []).slice(0, 4)
+    };
+  }
   return Object.keys(extra).length ? extra : null;
 }
 
@@ -83,7 +97,7 @@ function buildActivityRow(unit, skill, orderInUnit) {
       transcript: a.transcript || '',
       dictation: a.dictation || null,
       exercises: a.exercises || [],
-      extra: shapeExtra(a),
+      extra: shapeExtra(a, skill),
       xp_reward: a.xp
     }
   };

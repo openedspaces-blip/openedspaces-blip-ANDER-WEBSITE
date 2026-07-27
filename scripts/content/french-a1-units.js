@@ -1980,6 +1980,7 @@ require('./official-listening-utils').enrichOfficialListening(units, {
   language: 'french',
   level: 'A1'
 });
+require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'A1');
 
 module.exports = {
   language: 'french',

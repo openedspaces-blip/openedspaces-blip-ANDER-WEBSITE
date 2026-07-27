@@ -441,11 +441,17 @@ function buildUnit(topic, index) {
   };
 }
 
+const units = topics.map(buildUnit);
+require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(units, {
+  language: 'french',
+  level: 'C2'
+});
+
 module.exports = {
   language: 'french',
   level: 'C2',
   courseTitle: 'Français C2',
   courseDescription:
-    'Français de maîtrise selon le CECR : douze enquêtes scientifiques sur la neuroplasticité, la mémoire et l’acquisition des langues, reliées à Vocabulary et Grammar.',
-  units: topics.map(buildUnit)
+    'Français de maîtrise selon le CECR : douze enquêtes interdisciplinaires intégrant lecture critique, écoute experte, argumentation orale, écriture guidée, vocabulaire et grammaire.',
+  units
 };

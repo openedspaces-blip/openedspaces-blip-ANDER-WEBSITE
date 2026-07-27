@@ -6,7 +6,7 @@ const seedUnits=require('../lib/seed-units.json');
 const lessons=seedLessons.filter(x=>x.target_language==='english'&&x.level==='C2');
 const units=seedUnits.filter(x=>x.target_language==='english'&&x.level==='C2');
 async function main(){
-  if(units.length!==12||lessons.length!==36)throw new Error(`Build C2 first; found ${units.length} units/${lessons.length} lessons.`);
+if(units.length!==12||lessons.length!==72)throw new Error(`Build C2 first; found ${units.length} units/${lessons.length} lessons.`);
   const c=new Client({connectionString:process.env.SUPABASE_DATABASE_URL,ssl:{rejectUnauthorized:false}});
   await c.connect();
   try{

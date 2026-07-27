@@ -8,7 +8,7 @@ const lessons = seedLessons.filter((row) => row.target_language === 'english' &&
 const units = seedUnits.filter((row) => row.target_language === 'english' && row.level === 'C1');
 
 async function main() {
-  if (units.length !== 12 || lessons.length !== 36) {
+if (units.length !== 12 || lessons.length !== 72) {
     throw new Error(`Build English C1 first; found ${units.length} units and ${lessons.length} lessons.`);
   }
   const client = new Client({

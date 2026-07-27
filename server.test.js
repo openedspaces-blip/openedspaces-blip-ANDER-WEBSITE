@@ -9,19 +9,76 @@ const { levelContent, languageContent } = require('./lib/uiContent');
 const { isAnyProviderConfigured: isTutorConfigured } = require('./lib/aiTutorService');
 const { isPremiumActive, LIMIT_MESSAGE } = require('./lib/voiceAccessService');
 const config = require('./lib/config');
+const accessPolicy = require('./lib/accessPolicyService');
+const plansConfig = require('./lib/plansConfig');
 const { getSupabaseAdmin } = require('./lib/supabaseClient');
 const LanguagePair = require('./src/js/language-pair');
 const { sanitizeGrammarTestForClient } = require('./lib/grammarTestSanitizer');
 const { gradeQuestionBank } = require('./lib/courseLessonsService');
+const { isPaddlePremiumStatus } = require('./lib/subscriptionService');
+const {
+  isConfiguredPremiumPrice,
+  isValidUuid,
+  normalizeEventData
+} = require('./lib/billingService');
 
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const SKILLS = ['listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary'];
+const RUN_LIVE_AI_TESTS = process.env.RUN_LIVE_AI_TESTS === '1';
+const RUN_LIVE_SUPABASE_TESTS = process.env.RUN_LIVE_SUPABASE_TESTS === '1';
+
+test('Free access is unit-based across every CEFR level', () => {
+  for (const level of ['A1', 'A2', 'B1', 'B2']) {
+    assert.equal(accessPolicy.isFreeUnit(level, 1), true);
+    assert.equal(accessPolicy.isFreeUnit(level, 2), true);
+    assert.equal(accessPolicy.isFreeUnit(level, 3), false);
+  }
+  for (const level of ['C1', 'C2']) {
+    assert.equal(accessPolicy.isFreeUnit(level, 1), true);
+    assert.equal(accessPolicy.isFreeUnit(level, 2), false);
+  }
+  assert.equal(
+    accessPolicy.canAccessLesson({
+      level: 'C2',
+      unitOrder: 12,
+      entitlements: { hasFullAccess: true }
+    }),
+    true
+  );
+});
+
+test('Tutor quotas are finite and plan-selected at 30 Free and 500 Premium', () => {
+  assert.equal(plansConfig.getFeatureLimit('free', 'tutor_query'), 30);
+  assert.equal(plansConfig.getFeatureLimit('premium', 'tutor_query'), 500);
+});
+
+test('Premium lock and exhausted Tutor quota use the required friendly copy', () => {
+  assert.equal(accessPolicy.premiumRequiredError().message, 'Disponible en ANDERGO Premium.');
+  const source = fs.readFileSync(path.join(__dirname, 'lib/server.js'), 'utf8');
+  assert.match(
+    source,
+    /Has utilizado todas las consultas incluidas en tu plan\. Tu cuota se renovará automáticamente el próximo ciclo\./
+  );
+});
+
+// The default suite validates the application contract against its bundled
+// curriculum and must not change merely because a developer has production
+// Supabase credentials in .env. Dedicated live tests opt in explicitly.
+if (!RUN_LIVE_SUPABASE_TESTS) config.isSupabaseConfigured = false;
 
 function startTestServer() {
   const app = createServer();
   return new Promise((resolve) => {
     const server = app.listen(0, () => {
+      // Test fetch clients may keep HTTP connections alive. Destroying those
+      // connections when a test closes its server keeps the default suite
+      // deterministic and prevents Node's test runner from hanging.
+      const close = server.close.bind(server);
+      server.close = (...args) => {
+        server.closeAllConnections?.();
+        return close(...args);
+      };
       resolve({ server, port: server.address().port });
     });
   });
@@ -123,8 +180,10 @@ test(
   'ai tutor endpoint streams a real reply when a provider is configured',
   {
     skip:
-      !isTutorConfigured() &&
-      'No AI provider (CEREBRAS_API_KEY/GROQ_API_KEY/GEMINI_API_KEY) is configured in this environment'
+      (!RUN_LIVE_AI_TESTS &&
+        'Set RUN_LIVE_AI_TESTS=1 to call a real AI provider') ||
+      (!isTutorConfigured() &&
+        'No AI provider (CEREBRAS_API_KEY/GROQ_API_KEY/GEMINI_API_KEY) is configured in this environment')
   },
   async () => {
     const { server, port } = await startTestServer();
@@ -176,18 +235,19 @@ test('health endpoint reports AI tutor configuration without leaking keys or oth
 // 'dialogue', see scripts/content/spanish-a1-units.js). French A1 got the
 // same unit-based treatment plus an extra 'dialogue' skill (12 units x 7
 // skills = 84 activities) - see scripts/content/french-a1-units.js and the
-// dialogue_skill/dialogue_mission migration. Every other language/level
-// keeps the original flat, single-lesson-per-skill shape. Per-language
+// dialogue_skill/dialogue_mission migration. Advanced English/French
+// B2-C2 courses also use six connected skills per unit. Per-language
 // expectations are deliberately kept separate (not one global constant)
 // because these structures genuinely differ.
 const ENGLISH_A1_ACTIVITY_COUNT = 72;
 const SPANISH_A1_ACTIVITY_COUNT = 72;
+const SPANISH_EXPANDED_LEVEL_ACTIVITY_COUNT = 72;
 const FRENCH_A1_ACTIVITY_COUNT = 84;
 const FRENCH_A2_ACTIVITY_COUNT = 70;
 const FRENCH_B1_ACTIVITY_COUNT = 70;
 const FRENCH_B2_ACTIVITY_COUNT = 84;
-const FRENCH_C1_ACTIVITY_COUNT = 36;
-const FRENCH_C2_ACTIVITY_COUNT = 36;
+const FRENCH_C1_ACTIVITY_COUNT = 72;
+const FRENCH_C2_ACTIVITY_COUNT = 72;
 // English A2 (scripts/content/english-a2-units.js) is unit-based too, same
 // mechanism as A1 above, just for a different level - all 10 units are now
 // authored (units 1-2 free, 3-10 premium), 6 core skills each, no extra
@@ -197,19 +257,19 @@ const ENGLISH_A2_ACTIVITY_COUNT = 60;
 // Grammar and Vocabulary contain the richer assessed banks authored in
 // scripts/content/english-b1-practice.js.
 const ENGLISH_B1_ACTIVITY_COUNT = 72;
-const ENGLISH_B2_ACTIVITY_COUNT = 36;
-const ENGLISH_C1_ACTIVITY_COUNT = 36;
-const ENGLISH_C2_ACTIVITY_COUNT = 36;
+const ENGLISH_B2_ACTIVITY_COUNT = 72;
+const ENGLISH_C1_ACTIVITY_COUNT = 72;
+const ENGLISH_C2_ACTIVITY_COUNT = 72;
 const UNIT_SKILLS_BY_LANGUAGE = { french: [...SKILLS, 'dialogue'] };
 const LEVEL_SKILLS_BY_LANGUAGE = {
   english: {
-    B2: ['reading', 'vocabulary', 'grammar'],
-    C1: ['reading', 'vocabulary', 'grammar'],
-    C2: ['reading', 'vocabulary', 'grammar']
+    B2: SKILLS,
+    C1: SKILLS,
+    C2: SKILLS
   },
   french: {
-    C1: ['reading', 'vocabulary', 'grammar'],
-    C2: ['reading', 'vocabulary', 'grammar']
+    C1: SKILLS,
+    C2: SKILLS
   }
 };
 // Per-language, per-level override for languages/levels with real unit-based
@@ -224,7 +284,14 @@ const LEVEL_ACTIVITY_COUNT_BY_LANGUAGE = {
     C1: ENGLISH_C1_ACTIVITY_COUNT,
     C2: ENGLISH_C2_ACTIVITY_COUNT
   },
-  spanish: { A1: SPANISH_A1_ACTIVITY_COUNT },
+  spanish: {
+    A1: SPANISH_A1_ACTIVITY_COUNT,
+    A2: SPANISH_EXPANDED_LEVEL_ACTIVITY_COUNT,
+    B1: SPANISH_EXPANDED_LEVEL_ACTIVITY_COUNT,
+    B2: SPANISH_EXPANDED_LEVEL_ACTIVITY_COUNT,
+    C1: SPANISH_EXPANDED_LEVEL_ACTIVITY_COUNT,
+    C2: SPANISH_EXPANDED_LEVEL_ACTIVITY_COUNT
+  },
   french: {
     A1: FRENCH_A1_ACTIVITY_COUNT,
     A2: FRENCH_A2_ACTIVITY_COUNT,
@@ -396,7 +463,7 @@ test('complete lesson requires authentication', async () => {
   }
 });
 
-test('speech synthesize endpoint requires authentication', async () => {
+test('paid speech synthesize endpoint is disabled', async () => {
   const { server, port } = await startTestServer();
   try {
     const response = await fetch(`http://127.0.0.1:${port}/api/speech/synthesize`, {
@@ -404,9 +471,7 @@ test('speech synthesize endpoint requires authentication', async () => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ text: 'Hello!', language: 'english', locale: 'en-US' })
     });
-    assert.equal(response.status, 401);
-    const body = await response.json();
-    assert.equal(typeof body.error, 'string');
+    assert.equal(response.status, 404);
   } finally {
     server.close();
   }
@@ -681,7 +746,96 @@ test('English A2 grammar/vocabulary have the required question-bank sizes, and n
   });
 });
 
-test('French C1 has 12 units organized as Reading, Vocabulary and Grammar', () => {
+test('pricing UI always renders Free and recommended Premium plans with Paddle checkout choices', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  assert.match(html, /class="plan free-plan"/);
+  assert.match(html, /class="plan premium-plan"/);
+  assert.match(html, /data-premium-plan-badge>Recomendado/);
+  assert.match(html, /data-billing-cycle="monthly"/);
+  assert.match(html, /data-billing-cycle="quarterly"/);
+  assert.doesNotMatch(html, /class="current-plan-summary"/);
+  assert.doesNotMatch(html, /class="secondary-btn current-plan-toggle"/);
+});
+
+test('public Paddle config exposes checkout identifiers but never server secrets', async () => {
+  const { server, port } = await startTestServer();
+  try {
+    const response = await fetch(`http://127.0.0.1:${port}/api/billing/config`);
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    assert.equal(body.provider, 'paddle');
+    assert.equal(typeof body.checkoutConfigured, 'boolean');
+    assert.equal(Object.hasOwn(body, 'apiKey'), false);
+    assert.equal(Object.hasOwn(body, 'webhookSecret'), false);
+  } finally {
+    server.close();
+  }
+});
+
+test('Paddle Premium states fail closed for past due, paused, canceled and unknown values', () => {
+  assert.equal(isPaddlePremiumStatus('active'), true);
+  assert.equal(isPaddlePremiumStatus('trialing'), true);
+  assert.equal(isPaddlePremiumStatus('past_due'), false);
+  assert.equal(isPaddlePremiumStatus('paused'), false);
+  assert.equal(isPaddlePremiumStatus('canceled'), false);
+  assert.equal(isPaddlePremiumStatus('something_new'), false);
+});
+
+test('Paddle event normalization preserves authenticated user and subscription references', () => {
+  const previousMonthlyPriceId = config.paddle.monthlyPriceId;
+  const previousQuarterlyPriceId = config.paddle.quarterlyPriceId;
+  config.paddle.monthlyPriceId = 'pri_monthly';
+  config.paddle.quarterlyPriceId = 'pri_quarterly';
+  const userId = '1b2c3d4e-5f60-4789-8abc-def012345678';
+  try {
+    const normalized = normalizeEventData({
+      eventType: 'subscription.updated',
+      occurredAt: '2026-07-26T12:00:00.000Z',
+      data: {
+        id: 'sub_01',
+        customerId: 'ctm_01',
+        status: 'active',
+        customData: { user_id: userId, plan: 'monthly' },
+        currentBillingPeriod: {
+          startsAt: '2026-07-01T00:00:00.000Z',
+          endsAt: '2026-10-01T00:00:00.000Z'
+        },
+        items: [{ price: { id: 'pri_quarterly' } }]
+      }
+    });
+    assert.equal(isValidUuid(userId), true);
+    assert.equal(isValidUuid('not-a-user'), false);
+    assert.equal(isConfiguredPremiumPrice('pri_quarterly'), true);
+    assert.equal(isConfiguredPremiumPrice('pri_other'), false);
+    assert.equal(normalized.userId, userId);
+    assert.equal(normalized.paddleSubscriptionId, 'sub_01');
+    assert.equal(normalized.paddleCustomerId, 'ctm_01');
+    assert.equal(normalized.plan, 'quarterly');
+    assert.equal(normalized.status, 'active');
+  } finally {
+    config.paddle.monthlyPriceId = previousMonthlyPriceId;
+    config.paddle.quarterlyPriceId = previousQuarterlyPriceId;
+  }
+});
+
+test('Paddle webhook is POST-only and rejects an unsigned raw body', async () => {
+  const { server, port } = await startTestServer();
+  try {
+    const getResponse = await fetch(`http://127.0.0.1:${port}/api/paddle/webhook`);
+    assert.equal(getResponse.status, 405);
+
+    const unsignedResponse = await fetch(`http://127.0.0.1:${port}/api/paddle/webhook`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ event_type: 'subscription.updated' })
+    });
+    assert.equal(unsignedResponse.status, 400);
+  } finally {
+    server.close();
+  }
+});
+
+test('French C1 has 12 units organized across all six core skills', () => {
   const units = seedUnits
     .filter((row) => row.target_language === 'french' && row.level === 'C1')
     .sort((a, b) => a.order_index - b.order_index);
@@ -689,14 +843,14 @@ test('French C1 has 12 units organized as Reading, Vocabulary and Grammar', () =
     (row) => row.target_language === 'french' && row.level === 'C1'
   );
   assert.equal(units.length, 12);
-  assert.equal(lessons.length, 36);
+  assert.equal(lessons.length, 72);
 
   units.forEach((unit, index) => {
     assert.equal(unit.order_index, index + 1);
     const rows = lessons.filter((row) => row.unit_slug === unit.slug);
     assert.deepEqual(
       [...rows.map((row) => row.skill)].sort(),
-      ['grammar', 'reading', 'vocabulary']
+      [...SKILLS].sort()
     );
     const reading = rows.find((row) => row.skill === 'reading');
     const wordCount = reading.content_json.reading.text.split(/\s+/).filter(Boolean).length;
@@ -712,7 +866,92 @@ test('French C1 has 12 units organized as Reading, Vocabulary and Grammar', () =
   });
 });
 
-test('French C2 has 12 CEFR mastery units entirely in French across Reading, Vocabulary and Grammar', () => {
+test('French A1 dialogues are integrated into Expression orale with one clear listening action, optional L1 support and comprehension', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  const dialogueMarkup =
+    source.match(/function renderDialogueModeHtml\(dialogueSource\) \{([\s\S]*?)\n\}/)?.[1] || '';
+  assert.match(source, /item\.skill === 'dialogue'/);
+  assert.match(source, /Dialogue de l’unité/);
+  assert.match(source, /Écouter tout le dialogue/);
+  assert.doesNotMatch(dialogueMarkup, /dialogue-modes|Jouer un rôle|dialogue-roleplay-panel/);
+  assert.match(source, /Afficher l’aide en espagnol/);
+  assert.match(source, /Questions de compréhension/);
+  assert.match(css, /\.dialogue-section-header/);
+  assert.match(dialogueMarkup, /dialogue-practical-guide/);
+  assert.match(dialogueMarkup, /dialogue-practice-line-btn/);
+  assert.match(dialogueMarkup, /dialogue-final-challenge/);
+  assert.match(source, /pronunciationOverride/);
+  assert.match(css, /\.dialogue-practical-guide/);
+});
+
+test('Reading route navigation is placed beside evaluation before tutor tools', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  assert.match(source, /content\.querySelector\('\.reading-comp-actions'\)/);
+  assert.match(source, /readingQuizActions\.append\(footer\)/);
+  assert.match(source, /unit-activity-footer--reading-inline/);
+  assert.match(css, /\.unit-activity-footer--reading-inline/);
+});
+
+test('Learning activities keep a visible language level and lesson context bar', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  assert.match(source, /function buildLearningRouteContextHtml/);
+  assert.match(source, /activity-route-context no-print/);
+  assert.match(source, /english: 'English'/);
+  assert.match(source, /routeContext\.innerHTML = buildLearningRouteContextHtml\(lesson\)/);
+  assert.match(css, /\.activity-route-context/);
+});
+
+test('Skill header and unit mission route use a compact visual density', () => {
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  assert.match(css, /Compact learning context/);
+  assert.match(css, /\.skill-view-section > \.level-tabs\s*\{[\s\S]*?display: none/);
+  assert.match(css, /\.skill-view-header\s*\{[\s\S]*?padding: 0\.55rem 0\.8rem/);
+  assert.match(css, /\.skill-view-actions \.secondary-btn,[\s\S]*?background: transparent/);
+  assert.match(css, /\.unit-mission-strip\s*\{[\s\S]*?padding: 0\.6rem 0\.8rem/);
+  assert.match(css, /\.unit-mission-route-btn/);
+  assert.match(css, /width: 1\.35rem;\s*\r?\n\s*height: 1\.35rem/);
+});
+
+test('server-side paid TTS is disabled and cannot generate billable audio', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'lib', 'ttsService.js'), 'utf8');
+  const packageJson = fs.readFileSync(path.join(__dirname, 'package.json'), 'utf8');
+  const envExample = fs.readFileSync(path.join(__dirname, '.env.example'), 'utf8');
+  assert.match(source, /function ttsProvider\(\) \{\s*return 'browser'/);
+  assert.match(source, /error\.code = 'SYSTEM_TTS_ONLY'/);
+  assert.match(source, /function isElevenLabsConfigured\(\) \{\s*return false/);
+  assert.doesNotMatch(packageJson, /@elevenlabs\/elevenlabs-js/);
+  assert.doesNotMatch(envExample, /ELEVENLABS_API_KEY/);
+});
+
+test('Reading and Tutor use system TTS without paid speech endpoints', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const server = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
+  assert.doesNotMatch(server, /app\.post\('\/api\/speech\/reading'/);
+  assert.doesNotMatch(server, /app\.post\('\/api\/speech\/synthesize'/);
+  assert.doesNotMatch(source, /\/api\/speech\/reading/);
+  assert.doesNotMatch(source, /\/api\/speech\/synthesize/);
+  assert.doesNotMatch(source, /neuralAudio/);
+  assert.match(source, /const preferredVoices = getReadingVoicesForLocale\(utterance\.lang\)/);
+  assert.match(source, /Google français/);
+  assert.match(source, /if \(!supportsSpeech\(\)\) return;/);
+});
+
+test('homepage visibly restores the Free and Premium plan comparison', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(html, /<section id="premium" class="section pricing-section">/);
+  assert.match(html, /<div class="pricing-details">/);
+  assert.match(html, /<h3>ANDERGO Premium<\/h3>/);
+  assert.match(html, /data-premium-monthly-price/);
+  assert.match(html, /plan trimestral disponible/);
+  assert.match(source, /home:\s*\['\.hero', '#language-picker', '#premium'\]/);
+  assert.match(source, /setPricingExpanded\(resolved === 'home'\)/);
+});
+
+test('French C2 has 12 CEFR mastery units entirely in French across all six core skills', () => {
   const units = seedUnits
     .filter((row) => row.target_language === 'french' && row.level === 'C2')
     .sort((a, b) => a.order_index - b.order_index);
@@ -720,15 +959,13 @@ test('French C2 has 12 CEFR mastery units entirely in French across Reading, Voc
     (row) => row.target_language === 'french' && row.level === 'C2'
   );
   assert.equal(units.length, 12);
-  assert.equal(lessons.length, 36);
+  assert.equal(lessons.length, 72);
 
   units.forEach((unit, index) => {
     assert.equal(unit.order_index, index + 1);
     const rows = lessons.filter((row) => row.unit_slug === unit.slug);
     assert.deepEqual([...rows.map((row) => row.skill)].sort(), [
-      'grammar',
-      'reading',
-      'vocabulary'
+      ...[...SKILLS].sort()
     ]);
     const reading = rows.find((row) => row.skill === 'reading');
     const vocabulary = rows.find((row) => row.skill === 'vocabulary');
@@ -748,7 +985,7 @@ test('French C2 has 12 CEFR mastery units entirely in French across Reading, Voc
       assert.ok(item.definition);
       assert.equal(item.translation, item.definition);
     });
-    rows.forEach((row) => {
+    [reading, vocabulary, grammar].forEach((row) => {
       assert.equal(row.content_json.language, 'Français');
       (row.content_json.exercises || []).forEach((exercise) => {
         assert.equal(exercise.type, 'mcq');
@@ -799,7 +1036,7 @@ test('English B1 has 12 complete units with assessed Reading, Grammar and Vocabu
   });
 });
 
-test('English C1 has 12 scientific-social units across Reading, Vocabulary and Grammar', () => {
+test('English C1 has 12 scientific-social units across all six core skills', () => {
   const units = seedUnits
     .filter((row) => row.target_language === 'english' && row.level === 'C1')
     .sort((a, b) => a.order_index - b.order_index);
@@ -808,13 +1045,13 @@ test('English C1 has 12 scientific-social units across Reading, Vocabulary and G
   );
 
   assert.equal(units.length, 12);
-  assert.equal(lessons.length, 36);
+  assert.equal(lessons.length, 72);
   units.forEach((unit, index) => {
     assert.equal(unit.order_index, index + 1);
     const rows = lessons.filter((row) => row.unit_slug === unit.slug);
     assert.deepEqual(
       [...rows.map((row) => row.skill)].sort(),
-      ['grammar', 'reading', 'vocabulary']
+      [...SKILLS].sort()
     );
     const reading = rows.find((row) => row.skill === 'reading');
     const vocabulary = rows.find((row) => row.skill === 'vocabulary');
@@ -851,14 +1088,14 @@ test('English C1 scientific readings include structured HTTPS references', () =>
   }
 });
 
-test('English C2 has 12 mastery units with extended readings, conceptual vocabulary and advanced grammar', () => {
+test('English C2 has 12 mastery units with all six core skills', () => {
   const units = seedUnits.filter((row) => row.target_language === 'english' && row.level === 'C2');
   const lessons = seedLessons.filter((row) => row.target_language === 'english' && row.level === 'C2');
   assert.equal(units.length, 12);
-  assert.equal(lessons.length, 36);
+  assert.equal(lessons.length, 72);
   for (const unit of units) {
     const rows = lessons.filter((row) => row.unit_slug === unit.slug);
-    assert.deepEqual([...rows.map((row) => row.skill)].sort(), ['grammar', 'reading', 'vocabulary']);
+    assert.deepEqual([...rows.map((row) => row.skill)].sort(), [...SKILLS].sort());
     const reading = rows.find((row) => row.skill === 'reading');
     const vocabulary = rows.find((row) => row.skill === 'vocabulary');
     const grammar = rows.find((row) => row.skill === 'grammar');
@@ -919,6 +1156,17 @@ test('Reading selection guidance appears at the foot of the article after Refere
   );
 });
 
+test('Reading declares pagination state before rendering the lesson body', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const body = source.match(/function renderReadingView\(section, lesson\) \{([\s\S]*?)\n\}/)?.[1] || '';
+  const declarations = body.indexOf('const allParagraphs = getReadingParagraphs(lesson)');
+  const transcript = body.indexOf("const readingTranscript = allParagraphs.join(' ')");
+  assert.ok(declarations >= 0, 'Reading must declare allParagraphs');
+  assert.match(body, /const readingSection = getReadingSectionState\(lesson\)/);
+  assert.match(body, /const isFinalReadingSection =/);
+  assert.ok(transcript > declarations, 'pagination declarations must precede transcript rendering');
+});
+
 test('B2, C1 and C2 force the effective interface language and learning mode to L2', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.match(source, /function isAdvancedImmersionLevel[\s\S]*?level === 'B2' \|\| level === 'C1' \|\| level === 'C2'/);
@@ -953,11 +1201,18 @@ test('Grammar UI shows definition, structure, function and practical examples be
   assert.ok(body);
   assert.match(body, /label: french \? 'Définition' : 'Definition'/);
   assert.match(body, /label: 'Structure'/);
-  assert.match(body, /label: french \? 'Fonction en français' : 'Function in English'/);
-  assert.match(body, /label: french \? 'Exemples pratiques' : 'Practical examples'/);
+  assert.match(body, /label: french \? 'Emploi en français' : 'Function in English'/);
+  assert.match(body, /label: french \? 'Exemples' : 'Practical examples'/);
   assert.match(source, /french \? 'Bonnes réponses' : 'Correct answers'/);
   assert.match(source, /grammar-test-breakdown-list/);
   assert.match(source, /result\.score\}\/100/);
+  assert.match(source, /function renderGrammarQuickIntroHtml/);
+  assert.match(source, /\$\{renderGrammarQuickIntroHtml\(lesson, test\)\}/);
+  assert.match(source, /preferredKeys = \['rule', 'use', 'goal', 'pattern', 'examples', 'common-mistakes'\]/);
+  assert.doesNotMatch(
+    source.match(/function renderGrammarTestInstructionsHtml[\s\S]*?\n\}/)?.[0] || '',
+    /renderGrammarLessonContentHtml/
+  );
 });
 
 // The dedicated 'dialogue' skill type is generic (see SKILL_VIEW_RENDERERS
@@ -974,7 +1229,7 @@ test('English A1 has no dialogue-skill activities (dialogue is French-A1-only fo
 // English A1/A2 Grammar assessments (scripts/content/english-a1-units.js
 // and english-a2-units.js, flattened into lib/seed-lessons.json's
 // `content_json.extra.grammarTest`). Every Grammar lesson now carries a
-// scored, 12-question, multiple-choice-only test bank - see
+// scored, level-sized multiple-choice-only test bank - see
 // lib/grammarTestSanitizer.js (never ships correctOptionId/explanation-of-
 // the-answer before submission) and lib/courseLessonsService.js's
 // gradeQuestionBank (the score-out-of-100 formula). These checks read the
@@ -1021,7 +1276,7 @@ function assertWellFormedGrammarTest(bank, label, expectedCount = 10) {
   );
 }
 
-test('English A1 has exactly 12 units, each with a Grammar lesson carrying a well-formed 12-question multiple-choice test', () => {
+test('English A1 has exactly 12 units, each with a Grammar lesson carrying a well-formed 10-question multiple-choice test', () => {
   const englishA1UnitSlugs = [
     ...new Set(seedLessons.filter((r) => r.target_language === 'english' && r.level === 'A1').map((r) => r.unit_slug))
   ];
@@ -1110,11 +1365,11 @@ test('gradeQuestionBank feedback (results[]) corresponds to the right question a
   });
 });
 
-// English A2 (scripts/content/english-a2-units.js) - same expanded 12-
-// question multiple-choice grammarTest requirement as English A1 above,
+// English A2 (scripts/content/english-a2-units.js) - same 10-question
+// multiple-choice grammarTest requirement as English A1 above,
 // across all 10 units (mirrors englishA2UnitSlugs used by the earlier A2
 // content-shape tests).
-test('English A2 has exactly 10 units, each with a Grammar lesson carrying a well-formed 12-question multiple-choice test', () => {
+test('English A2 has exactly 10 units, each with a Grammar lesson carrying a well-formed 10-question multiple-choice test', () => {
   assert.equal(englishA2UnitSlugs.length, 10);
   englishA2UnitSlugs.forEach((unitSlug) => {
     const bank = grammarTestBankFor('english', 'A2', unitSlug);
@@ -1168,13 +1423,12 @@ test('gradeQuestionBank scores every English A2 grammarTest out of 100, matching
       }));
       return gradeQuestionBank(bank, answers).score;
     }
-    assert.equal(scoreFor(12), 100, unitSlug);
-    assert.equal(scoreFor(11), 92, unitSlug);
-    assert.equal(scoreFor(10), 83, unitSlug);
-    assert.equal(scoreFor(9), 75, unitSlug);
-    assert.equal(scoreFor(8), 67, unitSlug);
-    assert.equal(scoreFor(7), 58, unitSlug);
-    assert.equal(scoreFor(6), 50, unitSlug);
+    assert.equal(scoreFor(10), 100, unitSlug);
+    assert.equal(scoreFor(9), 90, unitSlug);
+    assert.equal(scoreFor(8), 80, unitSlug);
+    assert.equal(scoreFor(7), 70, unitSlug);
+    assert.equal(scoreFor(6), 60, unitSlug);
+    assert.equal(scoreFor(5), 50, unitSlug);
   });
 });
 
@@ -1240,6 +1494,27 @@ test('Español A1 has exactly 12 units, in order, units 1-2 free and 3-12 premiu
   });
 });
 
+test('Español A1 places “No me siento bien” explicitly in unit 11 with a level-safe stable slug', () => {
+  const unit = seedUnits.find(
+    (row) => row.target_language === 'spanish' && row.level === 'A1' && row.order_index === 11
+  );
+  assert.ok(unit, 'expected Español A1 unit 11');
+  assert.equal(unit.slug, 'salud-y-bienestar-a1');
+  assert.equal(unit.title, 'No me siento bien');
+
+  const activities = spanishA1Rows()
+    .filter((row) => row.unit_slug === unit.slug)
+    .sort((a, b) => a.order_index - b.order_index);
+  assert.deepEqual(
+    activities.map((row) => row.order_index),
+    [110, 111, 112, 113, 114, 115]
+  );
+  assert.deepEqual(
+    activities.map((row) => row.skill),
+    SPANISH_CORE_SKILLS
+  );
+});
+
 test('Español A1 has exactly 72 activities: 12 units x 6 core skills, no standalone dialogue skill', () => {
   const rows = spanishA1Rows();
   assert.equal(rows.length, 72);
@@ -1256,6 +1531,52 @@ test('Español A1 has exactly 72 activities: 12 units x 6 core skills, no standa
   unitSlugs.forEach((unitSlug) => {
     const skillsForUnit = rows.filter((row) => row.unit_slug === unitSlug).map((row) => row.skill);
     assert.deepEqual([...skillsForUnit].sort(), [...SPANISH_CORE_SKILLS].sort());
+  });
+});
+
+test('English and French B2-C2 expose Listening, Speaking and Writing in every unit', () => {
+  const advancedCourses = [
+    ['english', 'B2'],
+    ['english', 'C1'],
+    ['english', 'C2'],
+    ['french', 'B2'],
+    ['french', 'C1'],
+    ['french', 'C2']
+  ];
+  const requiredSkills = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
+
+  advancedCourses.forEach(([language, level]) => {
+    const units = seedUnits.filter(
+      (row) => row.target_language === language && row.level === level
+    );
+    const rows = seedLessons.filter(
+      (row) => row.target_language === language && row.level === level
+    );
+    assert.equal(units.length, 12, `${language} ${level} should have 12 units`);
+
+    units.forEach((unit) => {
+      const unitRows = rows.filter((row) => row.unit_slug === unit.slug);
+      const skills = unitRows.map((row) => row.skill);
+      requiredSkills.forEach((skill) => {
+        assert.ok(skills.includes(skill), `${language} ${level} ${unit.slug} is missing ${skill}`);
+      });
+
+      const listening = unitRows.find((row) => row.skill === 'listening');
+      const speaking = unitRows.find((row) => row.skill === 'speaking');
+      const writing = unitRows.find((row) => row.skill === 'writing');
+      assert.ok(listening.content_json.transcript, `${listening.slug} needs a transcript`);
+      assert.ok(listening.content_json.exercises.length >= 3, `${listening.slug} needs comprehension`);
+      assert.ok(speaking.content_json.mission, `${speaking.slug} needs a speaking mission`);
+      assert.ok(
+        speaking.content_json.extra?.communicationGuide,
+        `${speaking.slug} needs record/STT/pronunciation guidance`
+      );
+      assert.ok(writing.content_json.mission, `${writing.slug} needs a writing mission`);
+      assert.ok(
+        writing.content_json.extra?.writingGuide,
+        `${writing.slug} needs a guided writing plan`
+      );
+    });
   });
 });
 
@@ -1386,7 +1707,9 @@ test('Español A1 does not expose answer keys or dictation text in the public br
 // entirely when Supabase isn't configured, since there's no real
 // auth.users/profiles round-trip to exercise without it.
 // ---------------------------------------------------------------------
-const SUPABASE_AUTH_TESTS_SKIP_REASON = 'Supabase is not configured in this environment';
+const SUPABASE_AUTH_TESTS_SKIP_REASON = !RUN_LIVE_SUPABASE_TESTS
+  ? 'Set RUN_LIVE_SUPABASE_TESTS=1 to create real throwaway Auth users'
+  : 'Supabase is not configured in this environment';
 
 async function createLoginTestUser({ emailConfirm = true } = {}) {
   const admin = getSupabaseAdmin();
@@ -1416,9 +1739,161 @@ async function postLogin(port, body) {
   return { status: response.status, body: json };
 }
 
+test('registration enforces the advertised password policy before creating an account', async () => {
+  const { server, port } = await startTestServer();
+  try {
+    const response = await fetch(`http://127.0.0.1:${port}/api/auth`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        action: 'register',
+        email: 'password-policy-test@example.com',
+        username: 'policytest',
+        password: 'abcdefgh'
+      })
+    });
+    const body = await response.json();
+    assert.equal(response.status, 400);
+    assert.match(body.error, /8 caracteres con letras y números/i);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+  }
+});
+
+test('Español A2-C2 each have 12 ordered units with all 6 connected skills', () => {
+  ['A2', 'B1', 'B2', 'C1', 'C2'].forEach((level) => {
+    const units = seedUnits
+      .filter((row) => row.target_language === 'spanish' && row.level === level)
+      .sort((a, b) => a.order_index - b.order_index);
+    const rows = seedLessons.filter(
+      (row) => row.target_language === 'spanish' && row.level === level
+    );
+    assert.equal(units.length, 12, `${level}: expected 12 units`);
+    assert.equal(rows.length, 72, `${level}: expected 72 activities`);
+    units.forEach((unit, index) => {
+      assert.equal(unit.order_index, index + 1, `${level}/${unit.slug}: wrong unit order`);
+      const unitRows = rows.filter((row) => row.unit_slug === unit.slug);
+      assert.deepEqual(
+        unitRows.map((row) => row.skill).sort(),
+        [...SPANISH_CORE_SKILLS].sort(),
+        `${level}/${unit.slug}: expected all core skills`
+      );
+      const expectedTier = index < 2 ? 'free' : 'premium';
+      unitRows.forEach((row) => assert.equal(row.access_tier, expectedTier));
+    });
+  });
+});
+
+test('Español A2-C2 activities contain skill-specific learning content', () => {
+  seedLessons
+    .filter((row) => row.target_language === 'spanish' && row.level !== 'A1')
+    .forEach((row) => {
+      const content = row.content_json;
+      assert.ok(content.intro, `${row.slug}: missing intro`);
+      assert.ok(content.mission, `${row.slug}: missing mission`);
+      assert.ok(content.exercises.length, `${row.slug}: missing exercises`);
+      if (row.skill === 'reading') assert.ok(content.reading?.text, `${row.slug}: missing text`);
+      if (row.skill === 'listening') assert.ok(content.transcript, `${row.slug}: missing transcript`);
+      if (row.skill === 'speaking') assert.ok(content.dialogue.length, `${row.slug}: missing dialogue`);
+      if (row.skill === 'writing') assert.match(content.mission, /palabras/);
+      if (row.skill === 'grammar') assert.ok(content.extra?.grammarTest?.questions.length);
+      if (row.skill === 'vocabulary') assert.ok(content.vocabulary.length >= 6);
+    });
+});
+
+test('Speaking presents three practical choices: dialogue, recorded pronunciation and Premium Tutor', () => {
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  const tabs = script.match(/function renderSpeakingModeTabsHtml\(activeMode\) \{([\s\S]*?)\n\}/)?.[1] || '';
+  assert.match(tabs, /label: 'Dialogues'/);
+  assert.match(tabs, /label: 'Grabar y practicar'/);
+  assert.match(script, /label: 'Conversar con Tutor IA'/);
+  assert.match(script, /activityType: 'pronunciation'/);
+  assert.match(script, /La conversación libre con Tutor IA es Premium/);
+  assert.doesNotMatch(tabs, /label: 'Grabar mi voz'|label: 'Hablar a texto'/);
+});
+
+test('advanced routes paint bundled content immediately while progress synchronizes in parallel', () => {
+  const client = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  const service = fs.readFileSync(path.join(__dirname, 'lib/lessonsService.js'), 'utf8');
+  assert.match(client, /function isAdvancedImmersionLevel\(level = learningPathState\.level\)/);
+  assert.match(client, /const optimisticLessons = getLocalFallbackLessons/);
+  assert.match(client, /learningPathState\.lessons = optimisticLessons/);
+  assert.match(service, /const \[remoteLessons, completedSlugs, entitlements\] = await Promise\.all/);
+  assert.match(client, /return isAdvancedImmersionLevel\(\)/);
+  assert.match(client, /function getReadingSectionState\(lesson\)/);
+  assert.match(client, /allParagraphs\.slice/);
+});
+
+test('Writing uses guided micro-practice, a concise editor and simplified review actions', () => {
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  assert.match(script, /class="writing-practice-shell"/);
+  assert.match(script, /Cuatro actividades cortas antes de una microproducción opcional/);
+  assert.match(script, /class="writing-editor writing-editor--compact"/);
+  assert.match(script, /data-support-mode="review-complete"/);
+  assert.match(script, /data-support-mode="hint"/);
+  assert.doesNotMatch(script, /data-support-mode="review-grammar">Revisar gramática/);
+});
+
+test('Grammar submission re-reads every visible answer before grading', () => {
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  assert.match(script, /function collectAllGrammarTestAnswers\(content, test, runtime\)/);
+  assert.match(
+    script,
+    /collectAllGrammarTestAnswers\(ctx\.content, ctx\.test, ctx\.runtime\)/
+  );
+  assert.match(script, /Il reste une question sans réponse\./);
+  assert.doesNotMatch(
+    script,
+    /if \(!ctx \|\| grammarTestSubmitBtn\.disabled\) return/
+  );
+});
+
+test('French written grammar accepts equivalent punctuation and Mme abbreviation', () => {
+  const bank = {
+    questions: [
+      {
+        id: 'q7',
+        type: 'fill_blank',
+        acceptedAnswers: ['est', 'Madame Dubois est la professeure.'],
+        explanation: 'Use est with a singular subject.'
+      },
+      {
+        id: 'q8',
+        type: 'fill_blank',
+        acceptedAnswers: ['sont', 'Léa et Karim sont mes amis.'],
+        explanation: 'Use sont with a plural subject.'
+      }
+    ]
+  };
+  const result = gradeQuestionBank(bank, [
+    { questionId: 'q7', answer: 'Mme. Dubois est la professeure' },
+    { questionId: 'q8', answer: 'Léa et Karim sont mes amis' }
+  ]);
+  assert.equal(result.allAttempted, true);
+  assert.equal(result.score, 100);
+  assert.ok(result.results.every((item) => item.correct));
+});
+
+test('auth UI preserves contextual messages and guards duplicate login submissions', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+
+  assert.match(html, /id="loginSubmitBtn"/);
+  assert.match(html, /data-default-text="¿No tienes cuenta\?/);
+  assert.match(html, /pattern="\(\?=\.\*\[A-Za-z\]\)\(\?=\.\*\[0-9\]\)\.\{8,\}"/);
+  assert.match(script, /function openModal\(panel, \{ message = '', isError = false \} = \{\}\)/);
+  assert.match(script, /if \(message\) setAuthMessage\(message, isError\)/);
+  assert.match(script, /if \(submitBtn\?\.disabled\) return/);
+  assert.match(script, /submitBtn\.textContent = 'Entrando…'/);
+});
+
 test(
   'username + email login flows',
-  { skip: !config.isSupabaseConfigured && SUPABASE_AUTH_TESTS_SKIP_REASON },
+  {
+    skip:
+      (!RUN_LIVE_SUPABASE_TESTS && SUPABASE_AUTH_TESTS_SKIP_REASON) ||
+      (!config.isSupabaseConfigured && SUPABASE_AUTH_TESTS_SKIP_REASON)
+  },
   async (t) => {
     const admin = getSupabaseAdmin();
     const { server, port } = await startTestServer();
@@ -1817,6 +2292,23 @@ test('script.js: exactly one global hashchange listener is registered (no duplic
   assert.equal(occurrences.length, 1);
 });
 
+test('authenticated Grammar submission shares one token refresh and retries protected requests', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(source, /let authRefreshPromise = null/);
+  assert.match(source, /if \(authRefreshPromise\) return authRefreshPromise/);
+  assert.match(source, /authRefreshPromise = performAuthSessionRefresh\(\)/);
+  assert.match(source, /stored\.session\.access_token !== authStatus\.session\.access_token/);
+  assert.match(
+    source,
+    /authFetch\(\s*`\$\{backendBaseUrl\}\/api\/lessons\/\$\{lesson\.slug\}\/grammar-test-history`/
+  );
+  assert.match(source, /const restored = await refreshAuthSession\(\)/);
+  assert.match(
+    source,
+    /authFetch\(`\$\{backendBaseUrl\}\/api\/lessons\/\$\{lesson\.slug\}\/complete`/
+  );
+});
+
 test('script.js: the reset-password page opens the recovery form only on PASSWORD_RECOVERY, and email confirmation never does', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const resetPageBody = source.match(
@@ -2205,7 +2697,9 @@ test('script.js: learningPathState.learningMode is kept in sync with bridge/targ
   const swapBody = source.match(/function swapLearningPathLanguages\(\) \{([\s\S]*?)\n\}/)?.[1];
   assert.match(swapBody, /syncLearningMode\(\);/);
 
-  const loadPathBody = source.match(/async function loadLearningPath\(options = \{\}\) \{([\s\S]*?)\n  const graphContainer/)?.[1];
+  const loadPathBody = source.match(
+    /async function performLearningPathLoad\(options = \{\}\) \{([\s\S]*?)\n  const graphContainer/
+  )?.[1];
   assert.match(loadPathBody, /syncLearningMode\(\);/);
 });
 
@@ -2279,29 +2773,24 @@ test('direct-mode pilot content: English/French/Spanish A1 Unit 1 vocabulary all
   }
 });
 
-test('script.js: normalizeVocabularyItem() computes learningMode and suppresses translation in direct mode', () => {
+test('script.js: normalizeVocabularyItem() preserves bilingual translation for every supported distinct L1/L2 pair', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
-  const body = source.match(
-    /function normalizeVocabularyItem\(item, \{ language, level, bridgeLanguage, index = 0, lessonSlug = '' \} = \{\}\) \{([\s\S]*?)\n\}/
-  )?.[1];
-  assert.ok(body, 'expected to find normalizeVocabularyItem() body');
-  assert.match(body, /LanguagePair\.getLearningMode\(/);
-  assert.match(body, /LanguagePair\.getLearningSupport\(/);
-  assert.match(body, /translation: support \? '' : resolveVocabTranslation/);
-  assert.match(body, /definition: support\?\.definition/);
-  assert.match(body, /image: support\?\.image/);
+  assert.match(source, /function normalizeVocabularyItem\(/);
+  assert.match(source, /LanguagePair\.getLearningMode\(resolvedBridge, targetLanguage\)/);
+  assert.match(source, /translation: support \? '' : resolveVocabTranslation\(item, resolvedBridge\)/);
+  for (const pair of LanguagePair.LANGUAGE_PAIRS) {
+    assert.notEqual(pair.bridge, pair.target);
+    assert.equal(LanguagePair.getLearningMode(pair.bridge, pair.target), 'bilingual');
+  }
 });
 
-test('script.js: renderVocabCardHtml() shows definition/synonyms/opposites/image in direct mode, and only renders the image when one exists', () => {
+test('script.js: renderVocabCardHtml() safely gates optional definition, synonyms, opposites and image fields', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
-  const body = source.match(/function renderVocabCardHtml\(item, \{ canSpeak, isFrench, showL1Translation = false \}\) \{([\s\S]*?)\n\}/)?.[1];
-  assert.ok(body, 'expected to find renderVocabCardHtml() body');
-  assert.match(body, /item\.learningMode === 'direct'/);
-  assert.match(body, /item\.image \? `<img class="vocab-card-image"/);
-  assert.match(body, /item\.simpleDefinition \|\| item\.definition/);
-  assert.match(body, /class="vocab-card-definition"/);
-  assert.match(body, /LanguagePair\.t\('vocabSynonyms', lang\)/);
-  assert.match(body, /LanguagePair\.t\('vocabOpposites', lang\)/);
+  assert.match(source, /function renderVocabCardHtml\(/);
+  assert.match(source, /item\.image\s*\?\s*`<img class="vocab-card-image"/);
+  assert.match(source, /item\.simpleDefinition \|\| item\.definition/);
+  assert.match(source, /if \(item\.synonyms\?\.length\)/);
+  assert.match(source, /if \(item\.opposites\?\.length\)/);
 });
 
 test('C1/C2 direct-mode vocabulary shows translation and contextual examples by default', () => {
@@ -2500,14 +2989,33 @@ test('LanguagePair.getLearningSupport(): direct mode never breaks or shows undef
 
 test('script.js: renderVocabCardHtml never prints "undefined"/"null" and skips the image block when item.image is empty', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
-  const body = source.match(/function renderVocabCardHtml\(item, \{ canSpeak, isFrench, showL1Translation = false \}\) \{([\s\S]*?)\n\}/)?.[1];
-  assert.ok(body, 'expected to find renderVocabCardHtml() body');
-  // Every direct-mode field is gated behind a truthy check before being
-  // interpolated - none of them get printed unconditionally.
-  assert.match(body, /\$\{item\.image \?/);
-  assert.match(body, /item\.simpleDefinition \|\| item\.definition/);
-  assert.match(body, /synonymsOppositesParts\.length \?/);
-  assert.match(body, /item\.usageNote \?/);
+  assert.match(source, /function renderVocabCardHtml\(/);
+  assert.match(source, /\$\{\s*item\.image\s*\?/);
+  assert.match(source, /item\.simpleDefinition \|\| item\.definition/);
+  assert.match(source, /synonymsOppositesParts\.length\s*\?/);
+  assert.match(source, /item\.usageNote\s*\?/);
+});
+
+test('Writing offers local predictive suggestions that learners can accept with Tab or a click', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(source, /writing-predictive-accept/);
+  assert.match(source, /event\.key === 'Tab' && currentPrediction/);
+  assert.match(source, /acceptPrediction\(\)/);
+  assert.match(source, /usefulPhrases\.find/);
+});
+
+test('Predictive text capabilities are enabled for static, dynamic and speech-filled text fields', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const setup =
+    source.match(/function enablePredictiveTextFields\(root = document\) \{([\s\S]*?)\n\}/)?.[1] ||
+    '';
+  assert.match(setup, /textarea, input\[type="text"\], input\[type="search"\], \[contenteditable="true"\]/);
+  assert.match(setup, /field\.spellcheck = true/);
+  assert.match(setup, /setAttribute\('autocorrect', 'on'\)/);
+  assert.match(setup, /setAttribute\('autocapitalize', 'sentences'\)/);
+  assert.match(source, /new MutationObserver/);
+  assert.match(source, /observer\.observe\(document\.body, \{ childList: true, subtree: true \}\)/);
+  assert.match(source, /transcriptEl\.dispatchEvent\(new Event\('input', \{ bubbles: true \}\)\)/);
 });
 
 test('Vocabulary practice uses 6 words at A1/A2, 8 at B1/B2 and 10 at C1/C2 with A-D scoring', () => {
@@ -2525,6 +3033,19 @@ test('Vocabulary practice uses 6 words at A1/A2, 8 at B1/B2 and 10 at C1/C2 with
   assert.match(source, /Practicar con Tutor IA/);
 });
 
+test('Vocabulary opens with a gamified mission and updates mastery progress live', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  assert.match(source, /function renderVocabularyMissionHtml/);
+  assert.match(source, /class="vocab-mission"/);
+  assert.match(source, /Gira/);
+  assert.match(source, /Escucha/);
+  assert.match(source, /Domina/);
+  assert.match(source, /querySelector\('\.vocab-mission-progress'\)/);
+  assert.match(source, /querySelector\('\.vocab-mission-mastered'\)/);
+  assert.match(css, /\.vocab-mission-progress/);
+});
+
 test('Tutor IA teaches requested structures as a CEFR-adapted teacher-guide', () => {
   const source = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
   assert.match(source, /actúa como un docente-guía dispuesto a enseñar a un alumno curioso/);
@@ -2532,6 +3053,18 @@ test('Tutor IA teaches requested structures as a CEFR-adapted teacher-guide', ()
   assert.match(source, /error frecuente/);
   assert.match(source, /microcomprobación/);
   assert.match(source, /isStructureExplanation/);
+});
+
+test('Speaking Tutor accepts valid paraphrases and separates errors from optional style improvements', () => {
+  const service = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
+  assert.match(service, /Evaluate communicative validity, not similarity to one expected or model answer/);
+  assert.match(service, /correct and understandable but optionally improvable/);
+  assert.match(service, /never describe a stylistic preference as an error/);
+  assert.match(service, /Accept legitimate synonyms, paraphrases, word orders, levels of politeness and regional variants/);
+  assert.match(service, /Je voudrais savoir combien coûtent les tomates/);
+  assert.match(service, /The model must preserve the student’s original intention/);
+  assert.match(service, /do not mark it wrong/);
+  assert.match(service, /Do not compare against a hidden canonical sentence/);
 });
 
 test('Tutor word limits are maxima only and voice turns continue without a two-second send delay', () => {
@@ -2569,15 +3102,135 @@ test('Listening links directly to unit Vocabulary and omits the old auxiliary-mo
   assert.match(source, /openUnitSequenceStep\('vocabulary'/);
 });
 
-test('unit learning route follows Reading, Listening, Vocabulary, Grammar, Speaking, Writing and Verbs', () => {
+test('unit learning route follows Reading, Listening, Speaking, Grammar, Vocabulary, Writing and Verbs', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.match(
     source,
-    /UNIT_LEARNING_SEQUENCE\s*=\s*\['reading', 'listening', 'vocabulary', 'grammar', 'speaking', 'writing'\]/
+    /UNIT_LEARNING_SEQUENCE\s*=\s*\['reading', 'listening', 'speaking', 'grammar', 'vocabulary', 'writing'\]/
   );
   assert.match(source, /renderUnitSequenceStepsHtml/);
   assert.match(source, /data-sequence-skill="verbs"/);
   assert.match(source, /renderUnitVerbContext/);
+});
+
+test('lesson route keeps seven connected markers with current and completed states', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
+  const routeRenderer =
+    source.match(/function renderSkillUnitSequence\(section, lesson\) \{([\s\S]*?)\n\}/)?.[1] || '';
+  assert.match(source, /class="unit-route-marker unit-route-marker--\$\{state\}"/);
+  assert.match(source, /data-sequence-skill="verbs"/);
+  assert.match(source, /aria-current="step"/);
+  assert.match(source, /--route-progress-width:/);
+  assert.match(source, /wireUnitSequence\(nav\)/);
+  assert.match(routeRenderer, /const routeProgress =/);
+  assert.doesNotMatch(routeRenderer, /unit-route-marker--locked|activity\.locked\s*\?/);
+  assert.match(source, /if \(targetLesson\?\.locked\) \{\s*handleHomeAction\('upgrade'\)/);
+  assert.doesNotMatch(
+    source.match(/function getUnitProgressMetrics\(unitId\) \{([\s\S]*?)\n\}/)?.[1] || '',
+    /currentIndex/
+  );
+  assert.match(css, /\.unit-route-markers::before/);
+  assert.match(css, /\.unit-route-markers::after/);
+  assert.match(css, /\.unit-route-marker--current/);
+  assert.match(css, /\.unit-route-marker--completed/);
+});
+
+test('a selected unit opens Reading immediately and every skill tab stays inside that unit', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const selectUnitBody = source.match(/function selectUnit\(unitId, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1] || '';
+  const renderSkillBody = source.match(/function renderSkillView\(skill\) \{([\s\S]*?)\n\}/)?.[1] || '';
+  assert.match(selectUnitBody, /item\.skill === 'reading'/);
+  assert.match(selectUnitBody, /learningPathState\.activeSlug = firstActivity\?\.slug/);
+  assert.match(renderSkillBody, /if \(!selected && learningPathState\.unitId\)/);
+  assert.match(renderSkillBody, /item\.unitId === learningPathState\.unitId/);
+  assert.doesNotMatch(
+    renderSkillBody,
+    /learningPathState\.skillEntryContext === 'route'\s*&&\s*learningPathState\.unitId/
+  );
+});
+
+test('French A1 primary route mirrors English A1 while keeping standalone dialogues supplementary', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const coreSkills = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
+  for (const language of ['english', 'french']) {
+    const rows = seedLessons.filter(
+      (row) => row.target_language === language && row.level === 'A1'
+    );
+    const units = seedUnits.filter(
+      (row) => row.target_language === language && row.level === 'A1'
+    );
+    assert.equal(units.length, 12);
+    units.forEach((unit) => {
+      const routeSkills = rows
+        .filter((row) => row.unit_slug === unit.slug && coreSkills.includes(row.skill))
+        .map((row) => row.skill)
+        .sort();
+      assert.deepEqual(routeSkills, [...coreSkills].sort(), `${language} ${unit.slug}`);
+    });
+  }
+  assert.match(source, /UNIT_ROUTE_SKILLS = new Set\(UNIT_LEARNING_SEQUENCE\)/);
+  assert.match(source, /UNIT_ROUTE_SKILLS\.has\(item\.skill\)/);
+});
+
+test('student journey presents practical curriculum guidance and preserves lesson context inside the mission', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  assert.doesNotMatch(source, /unitLessons\.map\(\(lesson\) => renderLessonItemHtml\(lesson, nextSlug\)\)/);
+  assert.match(source, /class="path-unit-journey">Viaje/);
+  assert.match(source, /class="path-unit-reward">/);
+  assert.match(source, /function renderUnitSequenceStepsHtml/);
+  assert.match(source, /lesson\.slug === learningPathState\.activeSlug/);
+  assert.match(source, /aria-current="true"/);
+  assert.match(source, /function renderLearningRouteContext\(\)/);
+  assert.match(source, /french: 'Leçon'/);
+  assert.match(html, /id="learningRouteContext"/);
+  assert.match(css, /\.path-unit-journey/);
+  assert.match(source, /class="lesson-continue-card"/);
+  assert.match(source, /Tu objetivo/);
+  assert.match(source, /Al terminar podrás/);
+  assert.match(source, /actividades completadas en/);
+  assert.match(css, /\.lesson-continue-card/);
+  assert.match(source, /renderContinueCard\(activeLesson, \{ selected: true \}\)/);
+});
+
+test('teacher curriculum panel is role-gated on both client and server', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const server = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
+  const entitlements = fs.readFileSync(
+    path.join(__dirname, 'lib', 'entitlementsService.js'),
+    'utf8'
+  );
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  assert.match(html, /class="teacher-only-nav" hidden/);
+  assert.match(html, /id="teacherCurriculumPanel"/);
+  assert.match(source, /\['teacher', 'ceo'\]\.includes\(authStatus\.entitlements\?\.role\)/);
+  assert.match(server, /function requireCurriculumStaff/);
+  assert.match(
+    server,
+    /\/api\/teacher\/curriculum-summary', requireAuth, requireCurriculumStaff/
+  );
+  assert.match(entitlements, /canViewCurriculum:\s*true/);
+});
+
+test('curriculum migrations remain private and register the teacher role', () => {
+  const curriculumMigration = fs.readFileSync(
+    path.join(
+      __dirname,
+      'supabase',
+      'migrations',
+      '202607310001_curriculum_mapping_layer.sql'
+    ),
+    'utf8'
+  );
+  const teacherMigration = fs.readFileSync(
+    path.join(__dirname, 'supabase', 'migrations', '202607310002_teacher_role.sql'),
+    'utf8'
+  );
+  assert.match(curriculumMigration, /revoke all[\s\S]*from anon, authenticated/i);
+  assert.match(curriculumMigration, /to service_role[\s\S]*using \(true\)/i);
+  assert.match(teacherMigration, /role in \('student', 'teacher', 'ceo'\)/);
 });
 
 test('unit and dashboard progress combine six lesson scores with persisted Verbos as a seventh activity', () => {
@@ -2731,4 +3384,53 @@ test('DeepL receives Reading context without translating or exposing it to the c
   assert.match(translator, /body\.context = String\(context\)\.trim\(\)\.slice\(0, 1000\)/);
   assert.match(serverSource, /typeof context !== 'string' \|\| context\.length > 1000/);
   assert.doesNotMatch(serverSource, /console\.(?:log|warn)\([^)]*context/);
+});
+
+test('Listening comprehension opens directly with at most four visible story questions', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const runtime = source.match(
+    /function getListeningComprehensionRuntime\(lesson\) \{([\s\S]*?)\n\}/
+  )?.[1];
+  const renderer = source.match(
+    /function renderListeningComprehensionQuestionHtml\(lesson, bank, runtime\) \{([\s\S]*?)\n\}/
+  )?.[1];
+  assert.ok(runtime && renderer);
+  assert.match(runtime, /phase:\s*'question'/);
+  assert.match(source, /questions:\s*bank\.questions\.slice\(0,\s*4\)/);
+  assert.match(renderer, /listening-comp-question-list/);
+  assert.match(renderer, /bank\.questions[\s\S]*?\.map\(/);
+  assert.doesNotMatch(renderer, /listening-comp-start-btn/);
+});
+
+test('official Listening content builds exactly four questions from the narrated story', () => {
+  const { enrichOfficialListening } = require('./scripts/content/official-listening-utils');
+  const transcriptSegments = [
+    'Maya arrives at the station early.',
+    'She checks the platform number.',
+    'A clerk explains the delay.',
+    'Maya buys a bottle of water.',
+    'The train arrives after ten minutes.',
+    'She finds her seat by the window.',
+    'A family sits across from her.',
+    'Everyone leaves for the coast.'
+  ].map((text, index) => ({ id: `segment-${index + 1}`, order: index + 1, text }));
+  const units = [{
+    slug: 'train-story',
+    activities: {
+      listening: {
+        storyTitle: 'The train journey',
+        mainTranscript: transcriptSegments.map((segment) => segment.text).join(' '),
+        transcriptSegments
+      }
+    }
+  }];
+  enrichOfficialListening(units, { language: 'english', level: 'A1' });
+  const questions = units[0].activities.listening.listeningComprehension.questions;
+  assert.equal(questions.length, 4);
+  for (const question of questions) {
+    const correct = question.options.find((option) => option.id === question.correctOptionId);
+    assert.ok(correct);
+    assert.match(units[0].activities.listening.mainTranscript, new RegExp(correct.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
+    assert.match(question.prompt, /story/i);
+  }
 });

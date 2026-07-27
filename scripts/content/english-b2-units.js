@@ -84,6 +84,9 @@ function buildUnit(t,index){
       phrases:[`The story uses ${grammar} to connect evidence and interpretation.`,`A careful writer applies ${grammar} without overstating the evidence.`],
       grammarProfile:{
         name:grammar,
+        definition:`${grammar} is the unit’s target structure for expressing relationships between claims, evidence and interpretation.`,
+        structure:`Apply ${grammar} with the form and sentence position required by the context.`,
+        function:`Use ${grammar} to evaluate claims, qualify conclusions and connect complex ideas.`,
         context:`Grammar connected to the B2 reading “${readingTitle}”.`,
         explanation:`Learn the form and sentence position of ${grammar}.`,
         purpose:`Use it to evaluate claims, qualify conclusions and connect complex ideas.`,
@@ -95,4 +98,10 @@ function buildUnit(t,index){
   }};
 }
 
-module.exports={language:'english',level:'B2',courseTitle:'English B2',courseDescription:'Upper-intermediate English through twelve social-issue units combining narrative, evidence and debate.',units:topics.map(buildUnit)};
+const units = topics.map(buildUnit);
+require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(units, {
+  language: 'english',
+  level: 'B2'
+});
+
+module.exports={language:'english',level:'B2',courseTitle:'English B2',courseDescription:'Upper-intermediate English through twelve social-issue units combining narrative, evidence and debate.',units};
