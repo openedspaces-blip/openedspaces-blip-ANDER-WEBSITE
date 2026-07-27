@@ -880,7 +880,8 @@ test('French A1 dialogues are integrated into Expression orale with one clear li
   assert.match(css, /\.dialogue-section-header/);
   assert.match(dialogueMarkup, /dialogue-practical-guide/);
   assert.match(dialogueMarkup, /dialogue-practice-line-btn/);
-  assert.match(dialogueMarkup, /dialogue-final-challenge/);
+  assert.doesNotMatch(dialogueMarkup, /dialogue-final-challenge/);
+  assert.match(dialogueMarkup, /<details class="dialogue-phrases">/);
   assert.match(source, /pronunciationOverride/);
   assert.match(css, /\.dialogue-practical-guide/);
 });
@@ -3123,6 +3124,14 @@ test('lesson route keeps seven connected markers with current and completed stat
   assert.match(source, /aria-current="step"/);
   assert.match(source, /--route-progress-width:/);
   assert.match(source, /wireUnitSequence\(nav\)/);
+  assert.match(
+    source,
+    /querySelectorAll\('\.unit-sequence-step, \.unit-route-marker'\)/
+  );
+  assert.match(
+    source,
+    /openUnitSequenceStep\(button\.dataset\.sequenceSkill, button\.dataset\.lessonSlug \|\| ''\)/
+  );
   assert.match(routeRenderer, /const routeProgress =/);
   assert.doesNotMatch(routeRenderer, /unit-route-marker--locked|activity\.locked\s*\?/);
   assert.match(source, /if \(targetLesson\?\.locked\) \{\s*handleHomeAction\('upgrade'\)/);
@@ -3188,8 +3197,9 @@ test('student journey presents practical curriculum guidance and preserves lesso
   assert.match(html, /id="learningRouteContext"/);
   assert.match(css, /\.path-unit-journey/);
   assert.match(source, /class="lesson-continue-card"/);
-  assert.match(source, /Tu objetivo/);
-  assert.match(source, /Al terminar podrás/);
+  assert.doesNotMatch(source, /class="lesson-route-guide"/);
+  assert.doesNotMatch(source, /<strong>Tu objetivo<\/strong>/);
+  assert.doesNotMatch(source, /<strong>Al terminar podrás<\/strong>/);
   assert.match(source, /actividades completadas en/);
   assert.match(css, /\.lesson-continue-card/);
   assert.match(source, /renderContinueCard\(activeLesson, \{ selected: true \}\)/);

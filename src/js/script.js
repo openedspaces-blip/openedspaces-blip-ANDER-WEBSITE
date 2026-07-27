@@ -21,28 +21,66 @@ const LanguagePair = window.AndergoLanguagePair;
 // no autoplay. It runs only from a learner's answer/check action. The short
 // tones deliberately stay below speech volume so they reinforce feedback
 // without competing with TTS or the Tutor.
-window.playExerciseFeedbackSound = function playExerciseFeedbackSound(correct) {
+let exerciseFeedbackAudioContext = null;
+
+window.prepareExerciseFeedbackAudio = function prepareExerciseFeedbackAudio() {
   try {
     const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContextClass) return;
-    const context = new AudioContextClass();
+    if (!AudioContextClass) return null;
+    if (!exerciseFeedbackAudioContext || exerciseFeedbackAudioContext.state === 'closed') {
+      exerciseFeedbackAudioContext = new AudioContextClass();
+    }
+    if (exerciseFeedbackAudioContext.state === 'suspended') {
+      exerciseFeedbackAudioContext.resume().catch(() => {});
+    }
+    return exerciseFeedbackAudioContext;
+  } catch {
+    return null;
+  }
+};
+
+// Prime Web Audio synchronously during the learner's click. Answer checks
+// finish after a network await; creating AudioContext only then is blocked
+// by Chrome's autoplay policy and produces no audible feedback.
+document.addEventListener(
+  'pointerdown',
+  (event) => {
+    if (
+      event.target.closest(
+        '.mcq-option, .reading-comp-option, .grammar-test-option, .vocab-practice-option, [data-writing-answer], .writing-practice-check'
+      )
+    ) {
+      window.prepareExerciseFeedbackAudio();
+    }
+  },
+  { capture: true }
+);
+
+window.playExerciseFeedbackSound = function playExerciseFeedbackSound(correct) {
+  try {
+    const context = window.prepareExerciseFeedbackAudio();
+    if (!context) return;
     const now = context.currentTime;
     const celebration = correct === 'celebration';
-    const notes = celebration ? [523, 659, 784, 1046] : correct ? [660, 880] : [240, 180];
+    const notes = celebration ? [523, 659, 784, 1046] : correct ? [660, 880] : [330, 220];
     notes.forEach((frequency, index) => {
       const oscillator = context.createOscillator();
       const gain = context.createGain();
-      const start = now + index * (celebration ? 0.1 : 0.09);
-      oscillator.type = correct ? 'sine' : 'triangle';
+      const isIncorrect = correct === false;
+      const start = now + 0.015 + index * (celebration ? 0.1 : isIncorrect ? 0.13 : 0.09);
+      const duration = celebration ? 0.17 : isIncorrect ? 0.2 : 0.11;
+      oscillator.type = celebration || correct ? 'sine' : 'square';
       oscillator.frequency.setValueAtTime(frequency, start);
       gain.gain.setValueAtTime(0.0001, start);
-      gain.gain.exponentialRampToValueAtTime(celebration ? 0.09 : 0.07, start + 0.012);
-      gain.gain.exponentialRampToValueAtTime(0.0001, start + (celebration ? 0.17 : 0.11));
+      gain.gain.exponentialRampToValueAtTime(
+        celebration ? 0.09 : isIncorrect ? 0.13 : 0.07,
+        start + 0.012
+      );
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
       oscillator.connect(gain).connect(context.destination);
       oscillator.start(start);
-      oscillator.stop(start + (celebration ? 0.18 : 0.12));
+      oscillator.stop(start + duration + 0.01);
     });
-    window.setTimeout(() => context.close().catch(() => {}), celebration ? 650 : 350);
   } catch {
     // Audio is an enhancement only; an unavailable/blocked Web Audio API
     // must never affect scoring or feedback.
@@ -427,6 +465,17 @@ async function authFetch(url, options = {}) {
     if (refreshed) response = await fetch(url, withAuth(options));
   }
   return response;
+}
+
+// Exercise checks are saved to the learner's progress, so a guest needs a
+// clear invitation to sign in while a learner whose saved token could not be
+// renewed needs a different, actionable message. Keep this separate from the
+// server's generic 401 copy because the interface knows whether a session was
+// present before making the request.
+function getExerciseAuthMessage() {
+  return authStatus.session?.access_token
+    ? 'No pudimos validar tu sesión. Actualiza la página o inicia sesión de nuevo para guardar tu respuesta.'
+    : 'Inicia sesión o crea una cuenta gratuita para responder y guardar tu progreso.';
 }
 
 // Safe frontend view of Premium state. The browser sends only its current
@@ -3420,7 +3469,10 @@ function openUnitSequenceStep(skill, lessonSlug = '') {
 }
 
 function wireUnitSequence(container) {
-  container?.querySelectorAll('.unit-sequence-step').forEach((button) => {
+  // The compact route strip uses .unit-route-marker while the expanded
+  // sequence uses .unit-sequence-step. Both are the same navigation control
+  // and must always enter the activity through the shared route flow.
+  container?.querySelectorAll('.unit-sequence-step, .unit-route-marker').forEach((button) => {
     button.addEventListener('click', () =>
       openUnitSequenceStep(button.dataset.sequenceSkill, button.dataset.lessonSlug || '')
     );
@@ -3625,6 +3677,13 @@ function renderUnitVerbContext() {
   if (!unit) return;
   const metrics = getUnitProgressMetrics(unit.id);
   const unitLevel = learningPathState.level || '';
+  const finishRouteLabel = {
+    english: 'Finish and see my score',
+    french: 'Terminer et voir mon score',
+    spanish: 'Finalizar y ver mi puntuación',
+    italian: 'Termina e vedi il mio punteggio',
+    german: 'Abschließen und Ergebnis ansehen'
+  }[learningPathState.language] || 'Finish and see my score';
   const practicePool = document.getElementById('verbsPracticePoolSelect');
   if (practicePool && unitLevel) {
     let unitOption = practicePool.querySelector('option[value="unit-level"]');
@@ -3652,7 +3711,7 @@ function renderUnitVerbContext() {
       <span class="unit-activity-footer-progress">Score actual: <strong>${metrics.progressPercent}/100 pts</strong></span>
       <div class="unit-activity-footer-actions">
         <button type="button" class="secondary-btn unit-verbs-previous-btn">← Anterior</button>
-        <button type="button" class="primary-btn unit-verbs-finish-btn">Finalizar lección ✓</button>
+        <button type="button" class="primary-btn unit-verbs-finish-btn">${escapeHtml(finishRouteLabel)} →</button>
       </div>
     </nav>
   `;
@@ -5971,23 +6030,6 @@ function getLessonDurationMinutes(lesson) {
 
 function renderContinueCard(lesson, options = {}) {
   const skillLabel = getSkillLabel(lesson.skill);
-  const duration = getLessonDurationMinutes(lesson);
-  const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
-  const unit = learningPathState.units.find((item) => item.id === lesson.unitId);
-  const overview = getUnitOverviewData(unit || {});
-  const objective = getContinuousReadingDescription(
-    lesson.mission || lesson.intro || lesson.description || overview.objective
-  );
-  const authoredOutcomes = [
-    ...(Array.isArray(lesson.learningOutcomes) ? lesson.learningOutcomes : []),
-    ...(Array.isArray(lesson.outcomes) ? lesson.outcomes : [])
-  ].filter(Boolean);
-  const outcomes = (authoredOutcomes.length ? authoredOutcomes : overview.outcomes).slice(0, 3);
-  const assessmentCount =
-    lesson.grammarTest?.questions?.length ||
-    lesson.exercises?.filter((item) => ['mcq', 'true_false'].includes(item.type)).length ||
-    lesson.exercises?.length ||
-    0;
   // A unit has six skill activities plus Verbos. Use the shared course
   // metrics here as well as in the route column, otherwise the same course
   // misleadingly says 84 activities on one side and 72 on the other.
@@ -6004,33 +6046,6 @@ function renderContinueCard(lesson, options = {}) {
       <span class="lesson-continue-kicker">${escapeHtml(targetLabel)} · Nivel ${escapeHtml(lesson.level)}</span>
       <h3>${selected || lesson.progressStatus === 'in_progress' ? 'Continúa tu lección' : 'Tu lección está lista'}</h3>
       <p class="lesson-continue-title">${escapeHtml(skillLabel)} · ${escapeHtml(lesson.title)}</p>
-      <div class="lesson-route-guide">
-        <div class="lesson-route-guide-item">
-          <span aria-hidden="true">🎯</span>
-          <div>
-            <strong>Tu objetivo</strong>
-            <p>${escapeHtml(objective || `Practicar ${skillLabel.toLowerCase()} en una situación real.`)}</p>
-          </div>
-        </div>
-        ${
-          outcomes.length
-            ? `<div class="lesson-route-guide-item">
-                <span aria-hidden="true">✓</span>
-                <div>
-                  <strong>Al terminar podrás</strong>
-                  <ul>${outcomes.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>
-                </div>
-              </div>`
-            : ''
-        }
-        <div class="lesson-route-guide-item lesson-route-guide-item--reward">
-          <span aria-hidden="true">💡</span>
-          <div>
-            <strong>Actividad</strong>
-            <p>${duration ? `${escapeHtml(String(duration))} min · ` : ''}${assessmentCount ? `${assessmentCount} ejercicios · ` : ''}${escapeHtml(String(xp))} XP</p>
-          </div>
-        </div>
-      </div>
       <div class="lesson-continue-progress" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
         <div style="width:${pct}%"></div>
       </div>
@@ -7269,6 +7284,12 @@ function renderReadingAudioPlayerHtml(snapshot) {
           <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'slow' ? ' is-active' : ''}" data-rate="slow" aria-pressed="${snapshot.rateKey === 'slow'}">Lenta</button>
           <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'normal' ? ' is-active' : ''}" data-rate="normal" aria-pressed="${snapshot.rateKey === 'normal'}">Normal</button>
         </div>
+        <label class="reading-audio-setting">Tono
+          <input type="range" class="reading-audio-setting-range" data-setting="pitch" min="0.5" max="1.5" step="0.1" value="${snapshot.pitch}" aria-label="Tono de la voz">
+        </label>
+        <label class="reading-audio-setting">Volumen
+          <input type="range" class="reading-audio-setting-range" data-setting="volume" min="0" max="1" step="0.1" value="${snapshot.volume}" aria-label="Volumen de la voz">
+        </label>
         <div class="reading-audio-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${snapshot.progressPct}" aria-label="Progreso de la lectura">
           <div class="reading-audio-progress-fill" style="width:${snapshot.progressPct}%"></div>
         </div>
@@ -7783,12 +7804,6 @@ function renderReadingView(section, lesson) {
           </label>
           <button type="button" class="reading-display-btn reading-align-btn" aria-pressed="false">☰ Justificar</button>
         </div>
-        <label class="reading-audio-setting">Tono
-          <input type="range" class="reading-audio-setting-range" data-setting="pitch" min="0.5" max="1.5" step="0.1" value="${snapshot.pitch}" aria-label="Tono de la voz">
-        </label>
-        <label class="reading-audio-setting">Volumen
-          <input type="range" class="reading-audio-setting-range" data-setting="volume" min="0" max="1" step="0.1" value="${snapshot.volume}" aria-label="Volumen de la voz">
-        </label>
         <div class="reading-hero reading-hero--near-text">
           <div class="reading-heading">
             <p class="reading-level-tag">${durationLabel}${escapeHtml(lesson.level)} · ${escapeHtml(getSkillLabel('reading'))}</p>
@@ -8910,9 +8925,6 @@ function renderSpeakingModeTabsHtml(activeMode) {
     { id: 'tutor', icon: '✨', label: 'Conversar con Tutor IA', hint: 'Conversación libre · Premium', premium: true }
   ];
   return `
-    <div class="speaking-start">
-      <p><strong>¿Qué quieres hacer?</strong> Elige una opción y comienza.</p>
-    </div>
     <div class="speaking-mode-tabs speaking-action-grid" role="group" aria-label="${speakingUiText('Modos de Speaking', 'Modes d’expression orale')}">
       ${modes
         .map(
@@ -9193,9 +9205,11 @@ function renderDialogueModeHtml(dialogueSource) {
     </header>
     <p class="dialogue-situation"><strong>${speakingUiText('Situación', 'Situation')} :</strong> ${escapeHtml(dialogueSource.situacion)}</p>
     <div class="dialogue-practical-guide" aria-label="${speakingUiText('Pasos para practicar', 'Étapes de pratique')}">
-      <article><span>1</span><div><strong>${speakingUiText('Escucha', 'Écoute')}</strong><small>${speakingUiText('Comprende la situación completa.', 'Comprends toute la situation.')}</small></div></article>
-      <article><span>2</span><div><strong>${speakingUiText('Observa', 'Observe')}</strong><small>${speakingUiText('Identifica expresiones que puedes reutilizar.', 'Repère les expressions à réutiliser.')}</small></div></article>
-      <article><span>3</span><div><strong>${speakingUiText('Habla', 'Parle')}</strong><small>${speakingUiText('Elige una réplica, grábala y evalúala.', 'Choisis une réplique, enregistre-la et évalue-la.')}</small></div></article>
+      <span><b>1</b>${speakingUiText('Escucha', 'Écoute')}</span>
+      <i aria-hidden="true">→</i>
+      <span><b>2</b>${speakingUiText('Observa', 'Observe')}</span>
+      <i aria-hidden="true">→</i>
+      <span><b>3</b>${speakingUiText('Habla', 'Parle')}</span>
     </div>
     <div class="dialogue-panel dialogue-listen-panel">
       ${canSpeak ? `<button type="button" class="primary-btn dialogue-play-all-btn">▶ ${speakingUiText('Escuchar todo el diálogo', 'Écouter tout le dialogue')}</button>` : ''}
@@ -9204,13 +9218,9 @@ function renderDialogueModeHtml(dialogueSource) {
     </div>
     ${
       dialogueSource.phrases?.length
-        ? `<div class="dialogue-phrases"><strong>${speakingUiText('Vocabulario útil', 'Expressions utiles')}</strong><ul>${dialogueSource.phrases.map((phrase) => `<li>${escapeHtml(phrase)}</li>`).join('')}</ul></div>`
+        ? `<details class="dialogue-phrases"><summary>✨ ${speakingUiText('Ver vocabulario útil', 'Voir les expressions utiles')}</summary><ul>${dialogueSource.phrases.map((phrase) => `<li>${escapeHtml(phrase)}</li>`).join('')}</ul></details>`
         : ''
     }
-    <div class="dialogue-final-challenge">
-      <span>🏁 ${speakingUiText('Reto final', 'Défi final')}</span>
-      <strong>${speakingUiText('Escucha de nuevo sin apoyo y responde las preguntas.', 'Réécoute sans aide et réponds aux questions.')}</strong>
-    </div>
     ${
       exercisesHtml
         ? `<div class="reading-questions"><h4>${speakingUiText('Preguntas de comprensión', 'Questions de compréhension')}</h4>${exercisesHtml}</div>`
@@ -9730,7 +9740,13 @@ const grammarTestState = new Map();
 function getGrammarTestRuntime(lesson) {
   let runtime = grammarTestState.get(lesson.slug);
   if (!runtime) {
-    runtime = { phase: 'instructions', currentIndex: 0, answers: {}, lastResult: null };
+    runtime = {
+      phase: 'instructions',
+      currentIndex: 0,
+      answers: {},
+      questionResults: {},
+      lastResult: null
+    };
     grammarTestState.set(lesson.slug, runtime);
   }
   return runtime;
@@ -10011,7 +10027,7 @@ function renderGrammarTestQuestionHtml(lesson, test, runtime) {
       <p class="grammar-test-review-warning" ${answered === total ? 'hidden' : ''}>${french ? 'Répondez à toutes les questions avant de terminer l’exercice.' : 'Answer every question before submitting the exercise.'}</p>
       <div class="grammar-test-submit-bar">
         <span>${french ? 'Score final' : 'Final score'} : 0–100</span>
-        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" aria-disabled="${answered !== total}">${french ? 'Terminer et voir mon score' : 'Finish and see my score'}</button>
+        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" aria-disabled="${answered !== total}">${french ? 'Vérifier mon score de grammaire' : learningPathState.language === 'spanish' ? 'Comprobar mi puntuación de gramática' : 'Check my Grammar score'}</button>
       </div>
     </div>
   `;
@@ -10030,11 +10046,22 @@ function renderGrammarTestQuestionBodyHtml(question, runtime) {
     const optionsHtml = (question.options || [])
       .map((opt, index) => {
         const isSelected = saved != null && String(saved) === String(opt.id);
+        const checked = runtime.questionResults?.[question.id];
+        const feedbackClass =
+          isSelected && checked
+            ? checked.correct
+              ? ' is-correct'
+              : ' is-incorrect'
+            : '';
         const letter = optionLetters[index] || String(index + 1);
-        return `<button type="button" class="grammar-test-option${isSelected ? ' is-selected' : ''}" data-option-id="${escapeHtml(opt.id)}" aria-pressed="${isSelected}"><span class="grammar-test-option-letter" aria-hidden="true">${letter}</span><span class="grammar-test-option-text">${escapeHtml(opt.text)}</span></button>`;
+        return `<button type="button" class="grammar-test-option${isSelected ? ' is-selected' : ''}${feedbackClass}" data-option-id="${escapeHtml(opt.id)}" aria-pressed="${isSelected}"${checked ? ' disabled' : ''}><span class="grammar-test-option-letter" aria-hidden="true">${letter}</span><span class="grammar-test-option-text">${escapeHtml(opt.text)}</span></button>`;
       })
       .join('');
-    return `<div class="grammar-test-options">${optionsHtml}</div>`;
+    const checked = runtime.questionResults?.[question.id];
+    const feedbackHtml = checked
+      ? `<p class="grammar-question-feedback ${checked.correct ? 'is-correct' : 'is-incorrect'}" role="status">${checked.correct ? '✓ Correct!' : '✕ Not quite. Review it and try again in the next attempt.'}</p>`
+      : '';
+    return `<div class="grammar-test-options">${optionsHtml}</div>${feedbackHtml}`;
   }
 
   if (question.type === 'fill_blank') {
@@ -10125,7 +10152,7 @@ function renderGrammarTestReviewHtml(lesson, test, runtime) {
       ${!allAnswered ? `<p class="grammar-test-review-warning">${french ? 'Répondez à toutes les questions avant de terminer l’exercice.' : 'Answer every question before submitting the exercise.'}</p>` : ''}
       <div class="grammar-test-nav-row">
         <button type="button" class="secondary-btn hover-lift btn-press grammar-test-review-edit-btn" data-question-index="${test.questions.length - 1}">${french ? 'Revenir à la dernière question' : 'Return to last question'}</button>
-        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" aria-disabled="${!allAnswered}">${french ? 'Terminer et voir mon score' : 'Finish and see my score'}</button>
+        <button type="button" class="primary-btn hover-lift btn-press grammar-test-submit-btn" aria-disabled="${!allAnswered}">${french ? 'Vérifier mon score de grammaire' : learningPathState.language === 'spanish' ? 'Comprobar mi puntuación de gramática' : 'Check my Grammar score'}</button>
       </div>
     </div>
   `;
@@ -14377,13 +14404,19 @@ function enableHomepageActions() {
         const payload = exerciseId
           ? { exerciseId, selectedOptionId: chosenKey }
           : { index: exerciseIndex, selectedOption: Number(chosenKey) };
-        const response = await fetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
+        const response = await authFetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload)
         });
         const data = await response.json().catch(() => ({}));
-        if (!response.ok) throw new Error(data.error || 'No se pudo verificar la respuesta.');
+        if (!response.ok) {
+          throw new Error(
+            response.status === 401
+              ? getExerciseAuthMessage()
+              : data.error || 'No se pudo verificar la respuesta.'
+          );
+        }
 
         learningPathState.exerciseResults[slug] = learningPathState.exerciseResults[slug] || {};
         learningPathState.exerciseResults[slug][exerciseIndex] = {
@@ -14454,13 +14487,19 @@ function enableHomepageActions() {
         const payload = exercise.id
           ? { exerciseId: exercise.id, selectedOptionId: selected }
           : { index: exerciseIndex, selectedOption: Number(selected) };
-        const response = await fetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
+        const response = await authFetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload)
         });
         const data = await response.json().catch(() => ({}));
-        if (!response.ok) throw new Error(data.error || 'No se pudo comprobar la respuesta.');
+        if (!response.ok) {
+          throw new Error(
+            response.status === 401
+              ? getExerciseAuthMessage()
+              : data.error || 'No se pudo comprobar la respuesta.'
+          );
+        }
 
         const correctKey = data.correctOption ?? data.correctOptionId ?? null;
         const correctOptionIndex = (exercise.options || []).findIndex(
@@ -14587,13 +14626,19 @@ function enableHomepageActions() {
             const payload = item.id
               ? { exerciseId: item.id, selectedOptionId: selected }
               : { index: exerciseIndex, selectedOption: Number(selected) };
-            const response = await fetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
+            const response = await authFetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify(payload)
             });
             const data = await response.json().catch(() => ({}));
-            if (!response.ok) throw new Error(data.error || 'No se pudo calificar. Intenta de nuevo.');
+            if (!response.ok) {
+              throw new Error(
+                response.status === 401
+                  ? getExerciseAuthMessage()
+                  : data.error || 'No se pudo calificar. Intenta de nuevo.'
+              );
+            }
 
             // Only the key of the correct option comes back from the server
             // (never the answer itself ahead of time) - the option's own
@@ -14710,6 +14755,7 @@ function enableHomepageActions() {
 
     const grammarTestOption = event.target.closest('.grammar-test-option');
     if (grammarTestOption) {
+      if (grammarTestOption.disabled) return;
       const optionsWrap = grammarTestOption.closest('.grammar-test-options');
       optionsWrap?.querySelectorAll('.grammar-test-option').forEach((btn) => {
         btn.classList.remove('is-selected');
@@ -14737,6 +14783,32 @@ function enableHomepageActions() {
         if (warning) warning.hidden = answered === total;
         if (submit) submit.setAttribute('aria-disabled', String(answered !== total));
         updateGrammarChallengeProgress(ctx.content, ctx.test, ctx.runtime, isFrenchTargetLanguage());
+        try {
+          const response = await authFetch(
+            `${backendBaseUrl}/api/lessons/${ctx.lesson.slug}/check-question`,
+            {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                questionId,
+                answer: grammarTestOption.dataset.optionId
+              })
+            }
+          );
+          const data = await response.json().catch(() => ({}));
+          if (!response.ok) throw new Error(data.error || 'Could not check the answer.');
+          ctx.runtime.questionResults ||= {};
+          ctx.runtime.questionResults[questionId] = { correct: Boolean(data.correct) };
+          renderGrammarTestView(ctx.content, ctx.lesson);
+          // The browser paints the red/green state and starts its sound in
+          // the same animation frame, so neither feedback channel leads the
+          // other after the asynchronous server check.
+          window.requestAnimationFrame(() =>
+            window.playExerciseFeedbackSound?.(Boolean(data.correct))
+          );
+        } catch (error) {
+          showHomeToast(error.message || 'Could not check the answer.');
+        }
       }
       const listeningCtx = getListeningComprehensionContext(grammarTestOption);
       const listeningQuestion = grammarTestOption.closest('.listening-comp-question-item');
@@ -14803,6 +14875,7 @@ function enableHomepageActions() {
         phase: 'question',
         currentIndex: 0,
         answers: {},
+        questionResults: {},
         lastResult: null
       });
       renderGrammarTestView(ctx.content, ctx.lesson);
@@ -14887,8 +14960,10 @@ function enableHomepageActions() {
         grammarTestSubmitBtn.disabled = false;
         delete grammarTestSubmitBtn.dataset.submitting;
         grammarTestSubmitBtn.textContent = isFrenchTargetLanguage()
-          ? 'Terminer et voir mon score'
-          : 'Finish and see my score';
+          ? 'Vérifier mon score de grammaire'
+          : learningPathState.language === 'spanish'
+            ? 'Comprobar mi puntuación de gramática'
+            : 'Check my Grammar score';
         showHomeToast(error.message || 'No se pudo enviar la prueba.');
       }
       return;
