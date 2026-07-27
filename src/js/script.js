@@ -14571,13 +14571,15 @@ function enableHomepageActions() {
         try {
           const answers = (lesson.exercises || []).map((item, exerciseIndex) => ({
             exerciseId: item.id,
+            index: exerciseIndex,
             selectedOptionId: item.type === 'mcq' ? runtime.selections[exerciseIndex] : undefined,
+            selectedOption: item.type === 'mcq' ? runtime.selections[exerciseIndex] : undefined,
             practiced: item.type !== 'mcq'
           }));
           const response = await fetch(`${backendBaseUrl}/api/lessons/${slug}/complete`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json', ...authHeaders() },
-            body: JSON.stringify({ answers })
+            body: JSON.stringify({ answers, assessmentScope: 'reading_comprehension' })
           });
           const data = await response.json().catch(() => ({}));
           if (!response.ok) throw new Error(data.error || 'No se pudo guardar la evaluación.');
