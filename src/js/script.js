@@ -3468,6 +3468,42 @@ function openUnitSequenceStep(skill, lessonSlug = '') {
   updateLearnHash(skill);
 }
 
+// Each activity used to expose every optional Tutor, translator and download
+// action in one long row. Keep the action that advances learning visible and
+// place the remaining helpers in a native disclosure without removing any
+// capability or its existing event listener.
+function compactLearningToolbars(section) {
+  const bars = [...section.querySelectorAll('.skill-view-tutor-cta')];
+  if (!bars.length || bars.some((bar) => bar.dataset.compactTools === 'true')) return;
+  const buttons = bars.flatMap((bar) => [...bar.children].filter((child) => child.matches('button')));
+  if (buttons.length < 2) return;
+
+  const primary =
+    buttons.find((button) => button.matches('.vocab-practice-start-btn')) ||
+    buttons.find((button) => button.matches('.open-tutor-btn[data-support-mode="hint"]')) ||
+    buttons.find((button) => button.matches('.open-tutor-btn.primary-btn')) ||
+    buttons.find((button) => button.matches('.open-tutor-btn')) ||
+    buttons.find((button) => button.matches('.primary-btn')) ||
+    buttons[0];
+  const secondary = buttons.filter((button) => button !== primary);
+  const firstBar = bars[0];
+  const french = isFrenchAdvancedImmersion();
+  const details = document.createElement('details');
+  details.className = 'skill-view-more learning-tools-more';
+  details.innerHTML = `<summary>${french ? 'Plus d’outils' : 'Más herramientas'}</summary><div class="skill-view-more-menu"></div>`;
+  const menu = details.querySelector('.skill-view-more-menu');
+  primary.classList.remove('secondary-btn');
+  primary.classList.add('primary-btn');
+  secondary.forEach((button) => {
+    button.classList.remove('primary-btn');
+    menu?.append(button);
+  });
+  bars.slice(1).forEach((bar) => bar.remove());
+  firstBar.classList.add('learning-tools');
+  firstBar.dataset.compactTools = 'true';
+  firstBar.append(primary, details);
+}
+
 function wireUnitSequence(container) {
   // The compact route strip uses .unit-route-marker while the expanded
   // sequence uses .unit-sequence-step. Both are the same navigation control
@@ -3698,22 +3734,26 @@ function renderUnitVerbContext() {
   const banner = document.createElement('div');
   banner.className = 'unit-verbs-context';
   banner.innerHTML = `
-    <div>
+    <div class="unit-verbs-copy">
       <span>Verbos dentro de tu ruta</span>
       <strong>${escapeHtml(unit.title)}</strong>
       <p>Refuerza los verbos de nivel ${escapeHtml(unitLevel)} relacionados con tu avance antes de completar esta unidad.</p>
     </div>
+    <div class="unit-verbs-score" aria-label="Score actual de la unidad">
+      <span>Score actual</span>
+      <strong>${metrics.progressPercent}/100</strong>
+    </div>
     <div class="unit-verbs-context-actions">
       <button type="button" class="primary-btn unit-verbs-practice-btn">▶ Practicar verbos</button>
-      <button type="button" class="secondary-btn unit-verbs-return-btn">← Volver a la unidad</button>
+      <details class="skill-view-more unit-verbs-more">
+        <summary>Más</summary>
+        <div class="skill-view-more-menu">
+          <button type="button" class="unit-verbs-return-btn">← Volver a la unidad</button>
+          <button type="button" class="unit-verbs-previous-btn">← Anterior</button>
+          <button type="button" class="unit-verbs-finish-btn">${escapeHtml(finishRouteLabel)} →</button>
+        </div>
+      </details>
     </div>
-    <nav class="unit-activity-footer unit-activity-footer--verbs no-print" aria-label="Finalización de la unidad">
-      <span class="unit-activity-footer-progress">Score actual: <strong>${metrics.progressPercent}/100 pts</strong></span>
-      <div class="unit-activity-footer-actions">
-        <button type="button" class="secondary-btn unit-verbs-previous-btn">← Anterior</button>
-        <button type="button" class="primary-btn unit-verbs-finish-btn">${escapeHtml(finishRouteLabel)} →</button>
-      </div>
-    </nav>
   `;
   section.querySelector('.section-heading')?.after(banner);
   banner.querySelector('.unit-verbs-practice-btn')?.addEventListener('click', () => {
@@ -3878,8 +3918,8 @@ function speakText(text, { locale, rate = 1, onEnd, onStart, onBoundary, onPause
       );
     if (matchingVoice) utterance.voice = matchingVoice;
     utterance.rate = rate;
-    utterance.pitch = getStoredSpeechNumber(speechLanguage, 'pitch', 1, 0.5, 1.5);
-    utterance.volume = getStoredSpeechNumber(speechLanguage, 'volume', 1, 0, 1);
+    utterance.pitch = 1;
+    utterance.volume = 1;
     if (onEnd) {
       utterance.onend = onEnd;
       utterance.onerror = onEnd;
@@ -4083,23 +4123,6 @@ function getReadingParagraphs(lesson) {
     .split(/\n+/)
     .map((p) => p.trim())
     .filter(Boolean);
-}
-
-function getStoredSpeechNumber(language, key, fallback, min, max) {
-  try {
-    const value = Number(localStorage.getItem(`andergo_${key}_${language}`));
-    return Number.isFinite(value) ? Math.min(max, Math.max(min, value)) : fallback;
-  } catch {
-    return fallback;
-  }
-}
-
-function setStoredSpeechNumber(language, key, value) {
-  try {
-    localStorage.setItem(`andergo_${key}_${language}`, String(value));
-  } catch {
-    /* The current playback still uses the selected value. */
-  }
 }
 
 function getContinuousReadingDescription(description) {
@@ -4329,8 +4352,8 @@ const readingSpeechPlayer = (() => {
     lesson = lessonToAttach;
     language = languageKey;
     rateKey = getStoredReadingRate(language) || 'normal';
-    pitch = getStoredSpeechNumber(language, 'pitch', 1, 0.5, 1.5);
-    volume = getStoredSpeechNumber(language, 'volume', 1, 0, 1);
+    pitch = 1;
+    volume = 1;
     loadVoices();
     const built = buildReadingSegments(lesson, rateValue());
     segments = built.segments;
@@ -4499,22 +4522,6 @@ const readingSpeechPlayer = (() => {
     onUpdate = null;
   }
 
-  function changeReadingSetting(key, rawValue) {
-    const limits = key === 'pitch' ? [0.5, 1.5] : [0, 1];
-    const value = Math.min(limits[1], Math.max(limits[0], Number(rawValue)));
-    if (!Number.isFinite(value)) return;
-    if (key === 'pitch') pitch = value;
-    else volume = value;
-    setStoredSpeechNumber(language, key, value);
-    if (state === 'playing') {
-      playbackToken += 1;
-      window.speechSynthesis.cancel();
-      speakCurrentSegment();
-    } else {
-      emitUpdate();
-    }
-  }
-
   if (supportsSpeech()) {
     // Chrome (desktop especially) returns an empty voice list until this
     // fires once, asynchronously, after page load.
@@ -4538,8 +4545,7 @@ const readingSpeechPlayer = (() => {
     rewindReading,
     stopReading,
     changeReadingVoice,
-    changeReadingRate,
-    changeReadingSetting
+    changeReadingRate
   };
 })();
 
@@ -6781,6 +6787,7 @@ function renderSkillView(skill) {
     );
     renderSkillUnitSequence(section, selected);
     SKILL_VIEW_RENDERERS[skill]?.(section, selected);
+    compactLearningToolbars(section);
     renderUnitActivityFooter(section, selected);
     return;
   }
@@ -6800,6 +6807,7 @@ function renderSkillView(skill) {
   );
   renderSkillUnitSequence(section, lesson);
   SKILL_VIEW_RENDERERS[skill]?.(section, lesson);
+  compactLearningToolbars(section);
   renderUnitActivityFooter(section, lesson);
 }
 
@@ -7284,12 +7292,6 @@ function renderReadingAudioPlayerHtml(snapshot) {
           <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'slow' ? ' is-active' : ''}" data-rate="slow" aria-pressed="${snapshot.rateKey === 'slow'}">Lenta</button>
           <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'normal' ? ' is-active' : ''}" data-rate="normal" aria-pressed="${snapshot.rateKey === 'normal'}">Normal</button>
         </div>
-        <label class="reading-audio-setting">Tono
-          <input type="range" class="reading-audio-setting-range" data-setting="pitch" min="0.5" max="1.5" step="0.1" value="${snapshot.pitch}" aria-label="Tono de la voz">
-        </label>
-        <label class="reading-audio-setting">Volumen
-          <input type="range" class="reading-audio-setting-range" data-setting="volume" min="0" max="1" step="0.1" value="${snapshot.volume}" aria-label="Volumen de la voz">
-        </label>
         <div class="reading-audio-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${snapshot.progressPct}" aria-label="Progreso de la lectura">
           <div class="reading-audio-progress-fill" style="width:${snapshot.progressPct}%"></div>
         </div>
@@ -10073,12 +10075,44 @@ function renderGrammarTestQuestionBodyHtml(question, runtime) {
   }
 
   if (question.type === 'ordering') {
+    const isReconstruction = question.interaction === 'reconstruction';
     const savedOrder = Array.isArray(saved) ? saved : [];
     const items = (question.items || []).slice();
-    if (savedOrder.length) {
+    if (savedOrder.length && !isReconstruction) {
       items.sort((a, b) => savedOrder.indexOf(a.id) - savedOrder.indexOf(b.id));
     } else {
-      items.sort(() => Math.random() - 0.5);
+      for (let index = items.length - 1; index > 0; index -= 1) {
+        const swapIndex = Math.floor(Math.random() * (index + 1));
+        [items[index], items[swapIndex]] = [items[swapIndex], items[index]];
+      }
+      if (
+        items.length > 1 &&
+        items.every((item, index) => item.id === (question.items || [])[index]?.id)
+      ) {
+        items.push(items.shift());
+      }
+    }
+    if (isReconstruction) {
+      const result = runtime.questionResults?.[question.id];
+      const answeredIds = new Set(savedOrder);
+      const answerItems = savedOrder
+        .map((id) => (question.items || []).find((item) => String(item.id) === String(id)))
+        .filter(Boolean);
+      const bankItems = items.filter((item) => !answeredIds.has(item.id));
+      const chipHtml = (item) =>
+        `<button type="button" class="grammar-test-order-item grammar-reconstruction-chip" draggable="true" data-item-id="${escapeHtml(item.id)}"><span class="grammar-test-order-grip" aria-hidden="true">⠿</span><span class="grammar-test-order-text">${escapeHtml(item.text)}</span></button>`;
+      const feedbackHtml = result
+        ? `<p class="grammar-question-feedback ${result.correct ? 'is-correct' : 'is-incorrect'}" role="status">${result.correct ? '✓ Excellent !' : '✕ Essaie une autre combinaison.'}</p>`
+        : '';
+      return `
+        <div class="grammar-test-order-help">${french ? 'Faites glisser les fragments sur la ligne. La correction est immédiate.' : 'Drag the fragments onto the line. It checks immediately.'}</div>
+        <div class="grammar-reconstruction-answer grammar-test-order-list${result ? (result.correct ? ' is-correct' : ' is-incorrect') : ''}" data-order-zone="answer" aria-label="${french ? 'Votre phrase' : 'Your sentence'}">
+          ${answerItems.map(chipHtml).join('')}
+          <span class="grammar-reconstruction-placeholder">${french ? 'Déposez les fragments ici…' : 'Drop the fragments here…'}</span>
+        </div>
+        <div class="grammar-reconstruction-bank grammar-test-order-list" data-order-zone="bank" aria-label="${french ? 'Fragments disponibles' : 'Available fragments'}">${bankItems.map(chipHtml).join('')}</div>
+        ${feedbackHtml}
+      `;
     }
     const itemsHtml = items.map((item, index) => `
       <li class="grammar-test-order-item" draggable="true" data-item-id="${escapeHtml(item.id)}">
@@ -10122,7 +10156,11 @@ function collectGrammarTestAnswer(content, test, runtime) {
   }
 
   if (question.type === 'ordering') {
-    const order = [...content.querySelectorAll('.grammar-test-order-item')].map((item) => item.dataset.itemId);
+    const selector =
+      question.interaction === 'reconstruction'
+        ? '[data-order-zone="answer"] .grammar-test-order-item'
+        : '.grammar-test-order-item';
+    const order = [...content.querySelectorAll(selector)].map((item) => item.dataset.itemId);
     if (order.length === (question.items || []).length) runtime.answers[question.id] = order;
     else delete runtime.answers[question.id];
   }
@@ -11164,6 +11202,19 @@ function collectAllGrammarTestAnswers(content, test, runtime) {
     }
 
     if (question.type === 'ordering') {
+      if (question.interaction === 'reconstruction') {
+        const order = [
+          ...item.querySelectorAll(
+            '[data-order-zone="answer"] .grammar-test-order-item'
+          )
+        ].map((piece) => piece.dataset.itemId);
+        if (order.length === (question.items || []).length) {
+          runtime.answers[question.id] = order;
+        } else {
+          delete runtime.answers[question.id];
+        }
+        return;
+      }
       const picks = [...item.querySelectorAll('.grammar-test-order-select')].map((select) => ({
         itemId: select.dataset.itemId,
         position: Number(select.value)
@@ -12560,6 +12611,7 @@ function renderListeningOfficial(content, lesson, runtime, audio, status = 'offi
   content
     .querySelector('.listening-complete-btn')
     ?.addEventListener('click', () => completeListeningLesson(lesson, content));
+  compactLearningToolbars(section);
 }
 
 function updateListeningOfficialQuestions(content, lesson, runtime) {
@@ -15701,6 +15753,61 @@ function refreshGrammarOrderNumbers(list) {
   });
 }
 
+async function syncGrammarReconstruction(item) {
+  const questionItem = item?.closest('.grammar-test-question-item');
+  const skillSection = item?.closest('.skill-view-section');
+  const lesson = learningPathState.lessons.find(
+    (candidate) => candidate.slug === skillSection?.dataset.activeLessonSlug
+  );
+  const content = skillSection?.querySelector('.skill-view-content');
+  const test = lesson?.extra?.grammarTest;
+  const question = test?.questions?.find(
+    (candidate) => String(candidate.id) === String(questionItem?.dataset.questionId)
+  );
+  if (!lesson || !content || question?.interaction !== 'reconstruction') return;
+
+  const answerZone = questionItem.querySelector('[data-order-zone="answer"]');
+  const order = [...answerZone.querySelectorAll('.grammar-test-order-item')].map(
+    (piece) => piece.dataset.itemId
+  );
+  const runtime = getGrammarTestRuntime(lesson);
+  delete runtime.questionResults?.[question.id];
+  questionItem.querySelector('.grammar-question-feedback')?.remove();
+  answerZone.classList.remove('is-correct', 'is-incorrect');
+
+  if (order.length === (question.items || []).length) {
+    runtime.answers[question.id] = order;
+  } else {
+    delete runtime.answers[question.id];
+  }
+  updateGrammarChallengeProgress(content, test, runtime, isFrenchTargetLanguage());
+  if (order.length !== (question.items || []).length) return;
+
+  try {
+    const response = await authFetch(
+      `${backendBaseUrl}/api/lessons/${lesson.slug}/check-question`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ questionId: question.id, answer: order })
+      }
+    );
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.error || 'Could not check the answer.');
+    const correct = Boolean(data.correct);
+    runtime.questionResults ||= {};
+    runtime.questionResults[question.id] = { correct };
+    answerZone.classList.add(correct ? 'is-correct' : 'is-incorrect');
+    answerZone.insertAdjacentHTML(
+      'afterend',
+      `<p class="grammar-question-feedback ${correct ? 'is-correct' : 'is-incorrect'}" role="status">${correct ? '✓ Excellent !' : '✕ Essaie une autre combinaison.'}</p>`
+    );
+    window.requestAnimationFrame(() => window.playExerciseFeedbackSound?.(correct));
+  } catch (error) {
+    showHomeToast(error.message || 'Could not check the answer.');
+  }
+}
+
 document.addEventListener('dragstart', (event) => {
   const item = event.target.closest('.grammar-test-order-item');
   if (!item) return;
@@ -15715,19 +15822,41 @@ document.addEventListener('dragover', (event) => {
   event.preventDefault();
   const target = event.target.closest('.grammar-test-order-item');
   if (target && target !== draggedGrammarOrderItem) {
-    const insertAfter = event.clientY > target.getBoundingClientRect().top + target.offsetHeight / 2;
+    const rect = target.getBoundingClientRect();
+    const sameRow = Math.abs(event.clientY - (rect.top + rect.height / 2)) < rect.height / 2;
+    const insertAfter = sameRow
+      ? event.clientX > rect.left + rect.width / 2
+      : event.clientY > rect.top + rect.height / 2;
     list.insertBefore(draggedGrammarOrderItem, insertAfter ? target.nextSibling : target);
+  } else if (draggedGrammarOrderItem.parentElement !== list) {
+    list.appendChild(draggedGrammarOrderItem);
   }
 });
 
 document.addEventListener('dragend', () => {
   const list = draggedGrammarOrderItem?.closest('.grammar-test-order-list');
+  const item = draggedGrammarOrderItem;
   draggedGrammarOrderItem?.classList.remove('is-dragging');
   refreshGrammarOrderNumbers(list);
   draggedGrammarOrderItem = null;
+  if (item?.classList.contains('grammar-reconstruction-chip')) {
+    syncGrammarReconstruction(item);
+  }
 });
 
 document.addEventListener('click', (event) => {
+  const chip = event.target.closest('.grammar-reconstruction-chip');
+  if (chip) {
+    const questionItem = chip.closest('.grammar-test-question-item');
+    const currentZone = chip.closest('[data-order-zone]');
+    const destination =
+      currentZone?.dataset.orderZone === 'bank'
+        ? questionItem?.querySelector('[data-order-zone="answer"]')
+        : questionItem?.querySelector('[data-order-zone="bank"]');
+    destination?.appendChild(chip);
+    syncGrammarReconstruction(chip);
+    return;
+  }
   const button = event.target.closest('.grammar-test-order-move');
   if (!button) return;
   const item = button.closest('.grammar-test-order-item');
@@ -15982,6 +16111,54 @@ function setupTranslator() {
   if (!input || !output || !submitBtn || !status) return;
 
   const MAX_LENGTH = Number(input.getAttribute('maxlength')) || 1000;
+  let translatorPlayback = null;
+
+  function setTranslatorListenState(button, playing) {
+    if (!button) return;
+    button.classList.toggle('is-playing', playing);
+    button.setAttribute('aria-pressed', String(playing));
+    button.textContent = playing ? '⏹ Detener' : '🔊 Escuchar';
+    button.setAttribute(
+      'aria-label',
+      playing
+        ? 'Detener reproducción'
+        : button === listenOutputBtn
+          ? 'Escuchar traducción'
+          : 'Escuchar texto original'
+    );
+  }
+
+  function stopTranslatorPlayback() {
+    if (!translatorPlayback) return;
+    const current = translatorPlayback;
+    translatorPlayback = null;
+    window.speechSynthesis?.cancel();
+    setTranslatorListenState(current.button, false);
+  }
+
+  function toggleTranslatorPlayback(button, text, locale) {
+    if (!text?.trim()) return;
+    if (translatorPlayback?.button === button) {
+      stopTranslatorPlayback();
+      return;
+    }
+    stopTranslatorPlayback();
+    const playback = { button };
+    translatorPlayback = playback;
+    setTranslatorListenState(button, true);
+    const utterance = speakText(text, {
+      locale,
+      onEnd: () => {
+        if (translatorPlayback !== playback) return;
+        translatorPlayback = null;
+        setTranslatorListenState(button, false);
+      }
+    });
+    if (!utterance && translatorPlayback === playback) {
+      translatorPlayback = null;
+      setTranslatorListenState(button, false);
+    }
+  }
 
   const setStatus = (text, mode) => {
     status.textContent = text;
@@ -16226,6 +16403,7 @@ function setupTranslator() {
 
   swapBtn?.addEventListener('click', () => {
     stopTranslatorDictation();
+    stopTranslatorPlayback();
     hideSuggestions();
     // Swapping the selects only makes sense when the source is a real
     // language - with 'auto' there is nothing known to place in the target
@@ -16245,6 +16423,7 @@ function setupTranslator() {
     // Otherwise the next dictation 'result' event would overwrite the
     // clear with the baseText captured when dictation started.
     stopTranslatorDictation();
+    stopTranslatorPlayback();
     hideSuggestions();
     input.value = '';
     output.value = '';
@@ -16265,11 +16444,15 @@ function setupTranslator() {
 
   listenSourceBtn?.addEventListener('click', () => {
     const lang = sourceSelect?.value;
-    speakText(input.value, { locale: lang && lang !== 'auto' ? LANGUAGE_LOCALES[lang] : undefined });
+    toggleTranslatorPlayback(
+      listenSourceBtn,
+      input.value,
+      lang && lang !== 'auto' ? LANGUAGE_LOCALES[lang] : undefined
+    );
   });
 
   listenOutputBtn?.addEventListener('click', () => {
-    speakText(output.value, { locale: LANGUAGE_LOCALES[targetSelect?.value] });
+    toggleTranslatorPlayback(listenOutputBtn, output.value, LANGUAGE_LOCALES[targetSelect?.value]);
   });
 
   historyClearBtn?.addEventListener('click', () => {
@@ -16284,6 +16467,7 @@ function setupTranslator() {
   async function runTranslation() {
     if (submitBtn.disabled) return; // already in flight - never a second request
     hideSuggestions();
+    stopTranslatorPlayback();
 
     // Manual translate (Enter or the Traducir button) while the mic is
     // still listening: grabs whatever's in the textarea right now (already
@@ -16646,11 +16830,6 @@ function initHeroCopyCarousel() {
 }
 
 document.addEventListener('change', (event) => {
-  const speechSetting = event.target.closest?.('.reading-audio-setting-range');
-  if (speechSetting) {
-    readingSpeechPlayer.changeReadingSetting(speechSetting.dataset.setting, speechSetting.value);
-    return;
-  }
   const fontSelect = event.target.closest?.('.reading-font-select');
   if (!fontSelect) return;
   const area = fontSelect.closest('.reading-print-area');

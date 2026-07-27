@@ -2830,27 +2830,115 @@
           },
           {
             "id": "french-a1-bonjour-et-bienvenue-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je es dominicaine. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q5-part-1",
+                "text": "Je"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q5-part-2",
+                "text": "suis"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q5-part-3",
+                "text": "dominicaine."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-bonjour-et-bienvenue-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Tu suis nouvelle à l'école. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q6-part-1",
+                "text": "Tu"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q6-part-2",
+                "text": "es"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q6-part-3",
+                "text": "nouvelle"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q6-part-4",
+                "text": "à"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q6-part-5",
+                "text": "l'école."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-bonjour-et-bienvenue-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Madame Dubois suis la professeure. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q7-part-1",
+                "text": "Madame"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q7-part-2",
+                "text": "Dubois"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q7-part-3",
+                "text": "est"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q7-part-4",
+                "text": "la"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q7-part-5",
+                "text": "professeure."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-bonjour-et-bienvenue-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Léa et Karim est mes amis. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q8-part-1",
+                "text": "Léa"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q8-part-2",
+                "text": "et"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q8-part-3",
+                "text": "Karim"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q8-part-4",
+                "text": "sont"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q8-part-5",
+                "text": "mes"
+              },
+              {
+                "id": "french-a1-bonjour-et-bienvenue-grammar-q8-part-6",
+                "text": "amis."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -3027,27 +3115,107 @@
           },
           {
             "id": "french-b2-retour-a-saint-domingue-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Camila a presque oublié la chaleur de Saint-Domingue. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q5-part-1",
+                "text": "Camila avait"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q5-part-2",
+                "text": "presque oublié"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q5-part-3",
+                "text": "la chaleur"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q5-part-4",
+                "text": "de Saint-Domingue."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-retour-a-saint-domingue-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Elle est partie un an plus tôt, pleine d’appréhension. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q6-part-1",
+                "text": "Elle était"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q6-part-2",
+                "text": "partie un"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q6-part-3",
+                "text": "an plus"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q6-part-4",
+                "text": "tôt, pleine"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q6-part-5",
+                "text": "d’appréhension."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-retour-a-saint-domingue-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Camila n’a pas anticipé que le retour serait difficile. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q7-part-1",
+                "text": "Camila n’avait"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q7-part-2",
+                "text": "pas anticipé"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q7-part-3",
+                "text": "que le"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q7-part-4",
+                "text": "retour serait"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q7-part-5",
+                "text": "difficile."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-retour-a-saint-domingue-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Avoir/être au présent + participe passé » par la bonne réponse à cette question : « Quelle structure forme le plus-que-parfait ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q8-part-1",
+                "text": "Avoir/être à"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q8-part-2",
+                "text": "l’imparfait +"
+              },
+              {
+                "id": "french-b2-retour-a-saint-domingue-grammar-q8-part-3",
+                "text": "participe passé"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -3224,21 +3392,126 @@
           },
           {
             "id": "french-a2-les-achats-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Hier, j’achète des fraises au marché. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-achats-grammar-q5-part-1",
+                "text": "Hier,"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q5-part-2",
+                "text": "j’ai"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q5-part-3",
+                "text": "acheté"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q5-part-4",
+                "text": "des"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q5-part-5",
+                "text": "fraises"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q5-part-6",
+                "text": "au"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q5-part-7",
+                "text": "marché."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-achats-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Léa et Camila choisissent un fromage de chèvre. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-achats-grammar-q6-part-1",
+                "text": "Léa"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q6-part-2",
+                "text": "et"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q6-part-3",
+                "text": "Camila"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q6-part-4",
+                "text": "ont"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q6-part-5",
+                "text": "choisi"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q6-part-6",
+                "text": "un"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q6-part-7",
+                "text": "fromage"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q6-part-8",
+                "text": "de"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q6-part-9",
+                "text": "chèvre."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-achats-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Tu payes combien pour les tomates ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-achats-grammar-q7-part-1",
+                "text": "Tu"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q7-part-2",
+                "text": "as"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q7-part-3",
+                "text": "payé"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q7-part-4",
+                "text": "combien"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q7-part-5",
+                "text": "pour"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q7-part-6",
+                "text": "les"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q7-part-7",
+                "text": "tomates"
+              },
+              {
+                "id": "french-a2-les-achats-grammar-q7-part-8",
+                "text": "?"
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-achats-grammar-q8",
@@ -3421,27 +3694,103 @@
           },
           {
             "id": "french-b1-projets-et-avenir-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Si je reste en France, je améliore mon français. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q5-part-1",
+                "text": "Si je"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q5-part-2",
+                "text": "reste en"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q5-part-3",
+                "text": "France, je"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q5-part-4",
+                "text": "améliorerai mon"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q5-part-5",
+                "text": "français."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-projets-et-avenir-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Si tu partiras, tu retrouveras ta famille. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q6-part-1",
+                "text": "Si tu"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q6-part-2",
+                "text": "pars, tu"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q6-part-3",
+                "text": "retrouveras ta"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q6-part-4",
+                "text": "famille."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-projets-et-avenir-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Si je serai riche, je voyagerai. » par la bonne réponse à cette question : « Quelle phrase est correcte ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q7-part-1",
+                "text": "Si je"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q7-part-2",
+                "text": "suis riche,"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q7-part-3",
+                "text": "je voyagerai."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-projets-et-avenir-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Léa et Karim viennent visiter Camila un jour. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q8-part-1",
+                "text": "Léa et"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q8-part-2",
+                "text": "Karim viendront"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q8-part-3",
+                "text": "visiter Camila"
+              },
+              {
+                "id": "french-b1-projets-et-avenir-grammar-q8-part-4",
+                "text": "un jour."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -3618,9 +3967,24 @@
           },
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Ça cette liberté qui l’impressionne le plus. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-c1-la-rentree-universitaire-grammar-q5-part-1",
+                "text": "C’est cette liberté"
+              },
+              {
+                "id": "french-c1-la-rentree-universitaire-grammar-q5-part-2",
+                "text": "qui l’impressionne le"
+              },
+              {
+                "id": "french-c1-la-rentree-universitaire-grammar-q5-part-3",
+                "text": "plus."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q6",
@@ -3630,9 +3994,24 @@
           },
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il semble que cette expérience lui a énormément appris. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-c1-la-rentree-universitaire-grammar-q7-part-1",
+                "text": "Il semble que"
+              },
+              {
+                "id": "french-c1-la-rentree-universitaire-grammar-q7-part-2",
+                "text": "cette expérience lui"
+              },
+              {
+                "id": "french-c1-la-rentree-universitaire-grammar-q7-part-3",
+                "text": "ait énormément appris."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q8",
@@ -7759,27 +8138,103 @@
           },
           {
             "id": "french-a1-je-me-presente-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Tu ai quinze ans. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-je-me-presente-grammar-q5-part-1",
+                "text": "Tu"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q5-part-2",
+                "text": "as"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q5-part-3",
+                "text": "quinze"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q5-part-4",
+                "text": "ans."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-je-me-presente-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Elle m'appelle Léa. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-je-me-presente-grammar-q6-part-1",
+                "text": "Elle"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q6-part-2",
+                "text": "s'appelle"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q6-part-3",
+                "text": "Léa."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-je-me-presente-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je ne es pas française. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-je-me-presente-grammar-q7-part-1",
+                "text": "Je"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q7-part-2",
+                "text": "ne"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q7-part-3",
+                "text": "suis"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q7-part-4",
+                "text": "pas"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q7-part-5",
+                "text": "française."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-je-me-presente-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Quelle âge as-tu ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-je-me-presente-grammar-q8-part-1",
+                "text": "Quel"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q8-part-2",
+                "text": "âge"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q8-part-3",
+                "text": "as-tu"
+              },
+              {
+                "id": "french-a1-je-me-presente-grammar-q8-part-4",
+                "text": "?"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -7956,27 +8411,115 @@
           },
           {
             "id": "french-b2-candidature-universitaire-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je suis fière que tu envoies cette candidature. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q5-part-1",
+                "text": "Je suis"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q5-part-2",
+                "text": "fière que"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q5-part-3",
+                "text": "tu aies"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q5-part-4",
+                "text": "envoyé cette"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q5-part-5",
+                "text": "candidature."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-candidature-universitaire-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il est important que nous vivons cette expérience ensemble. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q6-part-1",
+                "text": "Il est"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q6-part-2",
+                "text": "important que"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q6-part-3",
+                "text": "nous ayons"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q6-part-4",
+                "text": "vécu cette"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q6-part-5",
+                "text": "expérience ensemble."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-candidature-universitaire-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Bien qu’elle soit nerveuse, elle a envoyé sa lettre. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q7-part-1",
+                "text": "Bien qu’elle"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q7-part-2",
+                "text": "ait été"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q7-part-3",
+                "text": "nerveuse, elle"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q7-part-4",
+                "text": "a envoyé"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q7-part-5",
+                "text": "sa lettre."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-candidature-universitaire-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Avoir au futur + infinitif » par la bonne réponse à cette question : « Quelle structure forme le subjonctif passé ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q8-part-1",
+                "text": "Avoir/être au"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q8-part-2",
+                "text": "subjonctif présent"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q8-part-3",
+                "text": "+ participe"
+              },
+              {
+                "id": "french-b2-candidature-universitaire-grammar-q8-part-4",
+                "text": "passé"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -8153,27 +8696,155 @@
           },
           {
             "id": "french-a2-au-restaurant-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il faux absolument goûter les pâtes maison. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-au-restaurant-grammar-q5-part-1",
+                "text": "Il"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q5-part-2",
+                "text": "faut"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q5-part-3",
+                "text": "absolument"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q5-part-4",
+                "text": "goûter"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q5-part-5",
+                "text": "les"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q5-part-6",
+                "text": "pâtes"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q5-part-7",
+                "text": "maison."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-au-restaurant-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Excusez-moi, ma soupe n’est pas chaude. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-au-restaurant-grammar-q6-part-1",
+                "text": "Excusez-moi,"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q6-part-2",
+                "text": "ma"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q6-part-3",
+                "text": "soupe"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q6-part-4",
+                "text": "n’est"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q6-part-5",
+                "text": "plus"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q6-part-6",
+                "text": "chaude."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-au-restaurant-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je doit choisir entre le poisson et les pâtes. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-au-restaurant-grammar-q7-part-1",
+                "text": "Je"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q7-part-2",
+                "text": "dois"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q7-part-3",
+                "text": "choisir"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q7-part-4",
+                "text": "entre"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q7-part-5",
+                "text": "le"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q7-part-6",
+                "text": "poisson"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q7-part-7",
+                "text": "et"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q7-part-8",
+                "text": "les"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q7-part-9",
+                "text": "pâtes."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-au-restaurant-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il n’y a jamais de pain, désolé. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-au-restaurant-grammar-q8-part-1",
+                "text": "Il"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q8-part-2",
+                "text": "n’y"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q8-part-3",
+                "text": "a"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q8-part-4",
+                "text": "plus"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q8-part-5",
+                "text": "de"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q8-part-6",
+                "text": "pain,"
+              },
+              {
+                "id": "french-a2-au-restaurant-grammar-q8-part-7",
+                "text": "désolé."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -8350,27 +9021,87 @@
           },
           {
             "id": "french-b1-identite-et-parcours-personnel-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Avant, je ai été très timide. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q5-part-1",
+                "text": "Avant, je"
+              },
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q5-part-2",
+                "text": "étais très"
+              },
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q5-part-3",
+                "text": "timide."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-identite-et-parcours-personnel-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Un jour, j’décidais de participer au projet. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q6-part-1",
+                "text": "Un jour,"
+              },
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q6-part-2",
+                "text": "j’ai décidé"
+              },
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q6-part-3",
+                "text": "de participer"
+              },
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q6-part-4",
+                "text": "au projet."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-identite-et-parcours-personnel-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « J’ai mangé souvent des tartines. » par la bonne réponse à cette question : « Quelle phrase utilise correctement l’imparfait pour une habitude passée ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q7-part-1",
+                "text": "Je mangeais"
+              },
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q7-part-2",
+                "text": "souvent des"
+              },
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q7-part-3",
+                "text": "tartines."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-identite-et-parcours-personnel-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « L’imparfait » par la bonne réponse à cette question : « Quel temps utilise-t-on pour une action ponctuelle terminée ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q8-part-1",
+                "text": "Le passé"
+              },
+              {
+                "id": "french-b1-identite-et-parcours-personnel-grammar-q8-part-2",
+                "text": "composé"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -8547,9 +9278,32 @@
           },
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Le professeur avait répondu qu’il n’est pas exclu qu’un tel travail soit plus riche. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-c1-un-exposer-a-preparer-grammar-q5-part-1",
+                "text": "Le professeur avait"
+              },
+              {
+                "id": "french-c1-un-exposer-a-preparer-grammar-q5-part-2",
+                "text": "répondu qu’il n’était"
+              },
+              {
+                "id": "french-c1-un-exposer-a-preparer-grammar-q5-part-3",
+                "text": "pas exclu qu’un"
+              },
+              {
+                "id": "french-c1-un-exposer-a-preparer-grammar-q5-part-4",
+                "text": "tel travail soit"
+              },
+              {
+                "id": "french-c1-un-exposer-a-preparer-grammar-q5-part-5",
+                "text": "plus riche."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q6",
@@ -8559,9 +9313,24 @@
           },
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il est probable que le groupe trouvera un compromis. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-c1-un-exposer-a-preparer-grammar-q7-part-1",
+                "text": "Il est probable"
+              },
+              {
+                "id": "french-c1-un-exposer-a-preparer-grammar-q7-part-2",
+                "text": "que le groupe"
+              },
+              {
+                "id": "french-c1-un-exposer-a-preparer-grammar-q7-part-3",
+                "text": "trouve un compromis."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q8",
@@ -12504,27 +13273,111 @@
           },
           {
             "id": "french-a1-ma-famille-et-mes-amis-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Mon mère s'appelle Rosa. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q5-part-1",
+                "text": "Ma"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q5-part-2",
+                "text": "mère"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q5-part-3",
+                "text": "s'appelle"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q5-part-4",
+                "text": "Rosa."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-ma-famille-et-mes-amis-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Léa aime beaucoup sa chat. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q6-part-1",
+                "text": "Léa"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q6-part-2",
+                "text": "aime"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q6-part-3",
+                "text": "beaucoup"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q6-part-4",
+                "text": "son"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q6-part-5",
+                "text": "chat."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-ma-famille-et-mes-amis-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Camila adore mon parents. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q7-part-1",
+                "text": "Camila"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q7-part-2",
+                "text": "adore"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q7-part-3",
+                "text": "mes"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q7-part-4",
+                "text": "parents."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-ma-famille-et-mes-amis-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Madame Lambert est très patient. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q8-part-1",
+                "text": "Madame"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q8-part-2",
+                "text": "Lambert"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q8-part-3",
+                "text": "est"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q8-part-4",
+                "text": "très"
+              },
+              {
+                "id": "french-a1-ma-famille-et-mes-amis-grammar-q8-part-5",
+                "text": "patiente."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -12701,27 +13554,103 @@
           },
           {
             "id": "french-b2-debats-de-societe-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Ce contenu a rarement contrôlé par les parents. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-debats-de-societe-grammar-q5-part-1",
+                "text": "Ce contenu"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q5-part-2",
+                "text": "est rarement"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q5-part-3",
+                "text": "contrôlé par"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q5-part-4",
+                "text": "les parents."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-debats-de-societe-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Aucun argument n’est complètement réfuté. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-debats-de-societe-grammar-q6-part-1",
+                "text": "Aucun argument"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q6-part-2",
+                "text": "n’a été"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q6-part-3",
+                "text": "complètement réfuté."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-debats-de-societe-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Les parents contrôlent le contenu. » par la bonne réponse à cette question : « Quelle phrase est à la voix passive ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-debats-de-societe-grammar-q7-part-1",
+                "text": "Le contenu"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q7-part-2",
+                "text": "est contrôlé"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q7-part-3",
+                "text": "par les"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q7-part-4",
+                "text": "parents."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-debats-de-societe-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Les risques d’addiction ont bien documentés par les chercheurs. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-debats-de-societe-grammar-q8-part-1",
+                "text": "Les risques"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q8-part-2",
+                "text": "d’addiction sont"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q8-part-3",
+                "text": "bien documentés"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q8-part-4",
+                "text": "par les"
+              },
+              {
+                "id": "french-b2-debats-de-societe-grammar-q8-part-5",
+                "text": "chercheurs."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -12898,21 +13827,106 @@
           },
           {
             "id": "french-a2-se-deplacer-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « (tu) Continues tout droit, puis tourne à gauche. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-se-deplacer-grammar-q5-part-1",
+                "text": "(tu)"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q5-part-2",
+                "text": "Continue"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q5-part-3",
+                "text": "tout"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q5-part-4",
+                "text": "droit,"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q5-part-5",
+                "text": "puis"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q5-part-6",
+                "text": "tourne"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q5-part-7",
+                "text": "à"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q5-part-8",
+                "text": "gauche."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-se-deplacer-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « (vous) Prend le bus numéro sept. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-se-deplacer-grammar-q6-part-1",
+                "text": "(vous)"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q6-part-2",
+                "text": "Prenez"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q6-part-3",
+                "text": "le"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q6-part-4",
+                "text": "bus"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q6-part-5",
+                "text": "numéro"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q6-part-6",
+                "text": "sept."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-se-deplacer-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « (nous) Descendez à l’arrêt suivant. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-se-deplacer-grammar-q7-part-1",
+                "text": "(nous)"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q7-part-2",
+                "text": "Descendons"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q7-part-3",
+                "text": "à"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q7-part-4",
+                "text": "l’arrêt"
+              },
+              {
+                "id": "french-a2-se-deplacer-grammar-q7-part-5",
+                "text": "suivant."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-se-deplacer-grammar-q8",
@@ -13095,27 +14109,95 @@
           },
           {
             "id": "french-b1-etudes-et-apprentissage-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « À ta place, je commence par les exercices simples. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q5-part-1",
+                "text": "À ta"
+              },
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q5-part-2",
+                "text": "place, je"
+              },
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q5-part-3",
+                "text": "commencerais par"
+              },
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q5-part-4",
+                "text": "les exercices"
+              },
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q5-part-5",
+                "text": "simples."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-etudes-et-apprentissage-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Tu dois réviser chaque soir. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q6-part-1",
+                "text": "Tu devrais"
+              },
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q6-part-2",
+                "text": "réviser chaque"
+              },
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q6-part-3",
+                "text": "soir."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-etudes-et-apprentissage-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il est utile de refaire les exercices. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q7-part-1",
+                "text": "Il serait"
+              },
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q7-part-2",
+                "text": "utile de"
+              },
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q7-part-3",
+                "text": "refaire les"
+              },
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q7-part-4",
+                "text": "exercices."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-etudes-et-apprentissage-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « -ai, -as, -a » par la bonne réponse à cette question : « Quelle terminaison caractérise le conditionnel présent ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q8-part-1",
+                "text": "-ais, -ais,"
+              },
+              {
+                "id": "french-b1-etudes-et-apprentissage-grammar-q8-part-2",
+                "text": "-ait"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -17471,27 +18553,163 @@
           },
           {
             "id": "french-a1-a-l-ecole-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il y a une tableau dans la salle. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-a-l-ecole-grammar-q5-part-1",
+                "text": "Il"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q5-part-2",
+                "text": "y"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q5-part-3",
+                "text": "a"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q5-part-4",
+                "text": "un"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q5-part-5",
+                "text": "tableau"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q5-part-6",
+                "text": "dans"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q5-part-7",
+                "text": "la"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q5-part-8",
+                "text": "salle."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-a-l-ecole-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Le bibliothèque du collège est grande. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-a-l-ecole-grammar-q6-part-1",
+                "text": "La"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q6-part-2",
+                "text": "bibliothèque"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q6-part-3",
+                "text": "du"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q6-part-4",
+                "text": "collège"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q6-part-5",
+                "text": "est"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q6-part-6",
+                "text": "grande."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-a-l-ecole-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Dans mon sac, il y a un livres. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-a-l-ecole-grammar-q7-part-1",
+                "text": "Dans"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q7-part-2",
+                "text": "mon"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q7-part-3",
+                "text": "sac,"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q7-part-4",
+                "text": "il"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q7-part-5",
+                "text": "y"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q7-part-6",
+                "text": "a"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q7-part-7",
+                "text": "des"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q7-part-8",
+                "text": "livres."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-a-l-ecole-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Le mercredi après-midi, il a pas de cours. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-a-l-ecole-grammar-q8-part-1",
+                "text": "Le"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q8-part-2",
+                "text": "mercredi"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q8-part-3",
+                "text": "après-midi,"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q8-part-4",
+                "text": "il"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q8-part-5",
+                "text": "n'y"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q8-part-6",
+                "text": "a"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q8-part-7",
+                "text": "pas"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q8-part-8",
+                "text": "de"
+              },
+              {
+                "id": "french-a1-a-l-ecole-grammar-q8-part-9",
+                "text": "cours."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -17668,27 +18886,111 @@
           },
           {
             "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Dans travaillant seule, elle a réalisé qu’elle avait besoin de contact humain. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q5-part-1",
+                "text": "En travaillant"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q5-part-2",
+                "text": "seule, elle"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q5-part-3",
+                "text": "a réalisé"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q5-part-4",
+                "text": "qu’elle avait"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q5-part-5",
+                "text": "besoin de"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q5-part-6",
+                "text": "contact humain."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « C’est le métier que elle rêve depuis longtemps. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q6-part-1",
+                "text": "C’est le"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q6-part-2",
+                "text": "métier dont"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q6-part-3",
+                "text": "elle rêve"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q6-part-4",
+                "text": "depuis longtemps."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Ce que elle a le plus besoin, c’est de présence humaine. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q7-part-1",
+                "text": "Ce dont"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q7-part-2",
+                "text": "elle a"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q7-part-3",
+                "text": "le plus"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q7-part-4",
+                "text": "besoin, c’est"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q7-part-5",
+                "text": "de présence"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q7-part-6",
+                "text": "humaine."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Avoir + participe passé » par la bonne réponse à cette question : « Quelle structure exprime la simultanéité ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q8-part-1",
+                "text": "En +"
+              },
+              {
+                "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q8-part-2",
+                "text": "participe présent"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -17865,27 +19167,139 @@
           },
           {
             "id": "french-a2-la-sante-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « J’ai mal au gorge. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-la-sante-grammar-q5-part-1",
+                "text": "J’ai"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q5-part-2",
+                "text": "mal"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q5-part-3",
+                "text": "à"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q5-part-4",
+                "text": "la"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q5-part-5",
+                "text": "gorge."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-la-sante-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je sens fatiguée depuis ce matin. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-la-sante-grammar-q6-part-1",
+                "text": "Je"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q6-part-2",
+                "text": "me"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q6-part-3",
+                "text": "sens"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q6-part-4",
+                "text": "fatiguée"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q6-part-5",
+                "text": "depuis"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q6-part-6",
+                "text": "ce"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q6-part-7",
+                "text": "matin."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-la-sante-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Tu dois reposer pendant deux jours. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-la-sante-grammar-q7-part-1",
+                "text": "Tu"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q7-part-2",
+                "text": "dois"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q7-part-3",
+                "text": "te"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q7-part-4",
+                "text": "reposer"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q7-part-5",
+                "text": "pendant"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q7-part-6",
+                "text": "deux"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q7-part-7",
+                "text": "jours."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-la-sante-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Ils se sent beaucoup mieux aujourd’hui. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-la-sante-grammar-q8-part-1",
+                "text": "Ils"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q8-part-2",
+                "text": "se"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q8-part-3",
+                "text": "sentent"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q8-part-4",
+                "text": "beaucoup"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q8-part-5",
+                "text": "mieux"
+              },
+              {
+                "id": "french-a2-la-sante-grammar-q8-part-6",
+                "text": "aujourd’hui."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -18062,15 +19476,49 @@
           },
           {
             "id": "french-b1-monde-du-travail-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Je veux ce stage. » par la bonne réponse à cette question : « Dans un e-mail formel, on préfère dire... »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-monde-du-travail-grammar-q5-part-1",
+                "text": "Je voudrais"
+              },
+              {
+                "id": "french-b1-monde-du-travail-grammar-q5-part-2",
+                "text": "ce stage."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-monde-du-travail-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Pouvez-vous me donner plus d’informations sur le poste ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-monde-du-travail-grammar-q6-part-1",
+                "text": "Pourriez-vous me"
+              },
+              {
+                "id": "french-b1-monde-du-travail-grammar-q6-part-2",
+                "text": "donner plus"
+              },
+              {
+                "id": "french-b1-monde-du-travail-grammar-q6-part-3",
+                "text": "d’informations sur"
+              },
+              {
+                "id": "french-b1-monde-du-travail-grammar-q6-part-4",
+                "text": "le poste"
+              },
+              {
+                "id": "french-b1-monde-du-travail-grammar-q6-part-5",
+                "text": "?"
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-monde-du-travail-grammar-q7",
@@ -18080,9 +19528,36 @@
           },
           {
             "id": "french-b1-monde-du-travail-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Bisous ! » par la bonne réponse à cette question : « Quelle formule est appropriée pour terminer un e-mail formel ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-monde-du-travail-grammar-q8-part-1",
+                "text": "Dans l’attente"
+              },
+              {
+                "id": "french-b1-monde-du-travail-grammar-q8-part-2",
+                "text": "de votre"
+              },
+              {
+                "id": "french-b1-monde-du-travail-grammar-q8-part-3",
+                "text": "réponse, je"
+              },
+              {
+                "id": "french-b1-monde-du-travail-grammar-q8-part-4",
+                "text": "vous prie"
+              },
+              {
+                "id": "french-b1-monde-du-travail-grammar-q8-part-5",
+                "text": "d’agréer mes"
+              },
+              {
+                "id": "french-b1-monde-du-travail-grammar-q8-part-6",
+                "text": "salutations distinguées."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -22432,27 +23907,147 @@
           },
           {
             "id": "french-a1-ma-journee-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je te lèves à six heures et demie. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-ma-journee-grammar-q5-part-1",
+                "text": "Je"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q5-part-2",
+                "text": "me"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q5-part-3",
+                "text": "lève"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q5-part-4",
+                "text": "à"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q5-part-5",
+                "text": "six"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q5-part-6",
+                "text": "heures"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q5-part-7",
+                "text": "et"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q5-part-8",
+                "text": "demie."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-ma-journee-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Léa m'habille rapidement le matin. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-ma-journee-grammar-q6-part-1",
+                "text": "Léa"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q6-part-2",
+                "text": "s'habille"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q6-part-3",
+                "text": "rapidement"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q6-part-4",
+                "text": "le"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q6-part-5",
+                "text": "matin."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-ma-journee-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Nous parle français en classe. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-ma-journee-grammar-q7-part-1",
+                "text": "Nous"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q7-part-2",
+                "text": "parlons"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q7-part-3",
+                "text": "français"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q7-part-4",
+                "text": "en"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q7-part-5",
+                "text": "classe."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-ma-journee-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Camila mange jamais à la cantine avec ses amis. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-ma-journee-grammar-q8-part-1",
+                "text": "Camila"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q8-part-2",
+                "text": "mange"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q8-part-3",
+                "text": "souvent"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q8-part-4",
+                "text": "à"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q8-part-5",
+                "text": "la"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q8-part-6",
+                "text": "cantine"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q8-part-7",
+                "text": "avec"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q8-part-8",
+                "text": "ses"
+              },
+              {
+                "id": "french-a1-ma-journee-grammar-q8-part-9",
+                "text": "amis."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -22629,21 +24224,86 @@
           },
           {
             "id": "french-b2-litterature-francophone-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Elle a dit qu’elle veut explorer ce thème. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-litterature-francophone-grammar-q5-part-1",
+                "text": "Elle a"
+              },
+              {
+                "id": "french-b2-litterature-francophone-grammar-q5-part-2",
+                "text": "dit qu’elle"
+              },
+              {
+                "id": "french-b2-litterature-francophone-grammar-q5-part-3",
+                "text": "voulait explorer"
+              },
+              {
+                "id": "french-b2-litterature-francophone-grammar-q5-part-4",
+                "text": "ce thème."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-litterature-francophone-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « L’autrice a expliqué qu’elle écrit ce roman pendant deux ans. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-litterature-francophone-grammar-q6-part-1",
+                "text": "L’autrice a"
+              },
+              {
+                "id": "french-b2-litterature-francophone-grammar-q6-part-2",
+                "text": "expliqué qu’elle"
+              },
+              {
+                "id": "french-b2-litterature-francophone-grammar-q6-part-3",
+                "text": "avait écrit"
+              },
+              {
+                "id": "french-b2-litterature-francophone-grammar-q6-part-4",
+                "text": "ce roman"
+              },
+              {
+                "id": "french-b2-litterature-francophone-grammar-q6-part-5",
+                "text": "pendant deux"
+              },
+              {
+                "id": "french-b2-litterature-francophone-grammar-q6-part-6",
+                "text": "ans."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-litterature-francophone-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Le roman que je pensais beaucoup était passionnant. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-litterature-francophone-grammar-q7-part-1",
+                "text": "Le roman"
+              },
+              {
+                "id": "french-b2-litterature-francophone-grammar-q7-part-2",
+                "text": "auquel je"
+              },
+              {
+                "id": "french-b2-litterature-francophone-grammar-q7-part-3",
+                "text": "pensais beaucoup"
+              },
+              {
+                "id": "french-b2-litterature-francophone-grammar-q7-part-4",
+                "text": "était passionnant."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-litterature-francophone-grammar-q8",
@@ -22826,15 +24486,77 @@
           },
           {
             "id": "french-a2-la-vie-quotidienne-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je réveille toujours à sept heures. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q5-part-1",
+                "text": "Je"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q5-part-2",
+                "text": "me"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q5-part-3",
+                "text": "réveille"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q5-part-4",
+                "text": "toujours"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q5-part-5",
+                "text": "à"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q5-part-6",
+                "text": "sept"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q5-part-7",
+                "text": "heures."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-la-vie-quotidienne-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Léa et Camila s’habille ensemble le matin. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q6-part-1",
+                "text": "Léa"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q6-part-2",
+                "text": "et"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q6-part-3",
+                "text": "Camila"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q6-part-4",
+                "text": "s’habillent"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q6-part-5",
+                "text": "ensemble"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q6-part-6",
+                "text": "le"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q6-part-7",
+                "text": "matin."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-la-vie-quotidienne-grammar-q7",
@@ -22844,9 +24566,36 @@
           },
           {
             "id": "french-a2-la-vie-quotidienne-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Nous couchons vers vingt-deux heures. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q8-part-1",
+                "text": "Nous"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q8-part-2",
+                "text": "nous"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q8-part-3",
+                "text": "couchons"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q8-part-4",
+                "text": "vers"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q8-part-5",
+                "text": "vingt-deux"
+              },
+              {
+                "id": "french-a2-la-vie-quotidienne-grammar-q8-part-6",
+                "text": "heures."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -23023,9 +24772,40 @@
           },
           {
             "id": "french-b1-voyages-et-interculturalite-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q5-part-1",
+                "text": "En France,"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q5-part-2",
+                "text": "on dîne"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q5-part-3",
+                "text": "tôt, tandis"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q5-part-4",
+                "text": "que à"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q5-part-5",
+                "text": "Saint-Domingue, on"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q5-part-6",
+                "text": "dîne plus"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q5-part-7",
+                "text": "tard."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-voyages-et-interculturalite-grammar-q6",
@@ -23035,15 +24815,73 @@
           },
           {
             "id": "french-b1-voyages-et-interculturalite-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q7-part-1",
+                "text": "Les Français"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q7-part-2",
+                "text": "passent du"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q7-part-3",
+                "text": "temps à"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q7-part-4",
+                "text": "table, tandis"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q7-part-5",
+                "text": "que les"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q7-part-6",
+                "text": "repas sont"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q7-part-7",
+                "text": "plus rapides"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q7-part-8",
+                "text": "ailleurs."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-voyages-et-interculturalite-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Je mange vite parce que je suis pressé. » par la bonne réponse à cette question : « Quelle phrase utilise correctement un connecteur d’opposition ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q8-part-1",
+                "text": "Je mange"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q8-part-2",
+                "text": "lentement, tandis"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q8-part-3",
+                "text": "que mon"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q8-part-4",
+                "text": "frère mange"
+              },
+              {
+                "id": "french-b1-voyages-et-interculturalite-grammar-q8-part-5",
+                "text": "vite."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -27383,27 +29221,127 @@
           },
           {
             "id": "french-a1-l-heure-et-les-dates-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « La fête est en dix-huit heures. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q5-part-1",
+                "text": "La"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q5-part-2",
+                "text": "fête"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q5-part-3",
+                "text": "est"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q5-part-4",
+                "text": "à"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q5-part-5",
+                "text": "dix-huit"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q5-part-6",
+                "text": "heures."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-l-heure-et-les-dates-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Léa est née à octobre. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q6-part-1",
+                "text": "Léa"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q6-part-2",
+                "text": "est"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q6-part-3",
+                "text": "née"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q6-part-4",
+                "text": "en"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q6-part-5",
+                "text": "octobre."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-l-heure-et-les-dates-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « À lundi, j'ai cours de français. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q7-part-1",
+                "text": "Le"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q7-part-2",
+                "text": "lundi,"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q7-part-3",
+                "text": "j'ai"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q7-part-4",
+                "text": "cours"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q7-part-5",
+                "text": "de"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q7-part-6",
+                "text": "français."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-l-heure-et-les-dates-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Comment est ton anniversaire ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q8-part-1",
+                "text": "Quand"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q8-part-2",
+                "text": "est"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q8-part-3",
+                "text": "ton"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q8-part-4",
+                "text": "anniversaire"
+              },
+              {
+                "id": "french-a1-l-heure-et-les-dates-grammar-q8-part-5",
+                "text": "?"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -27580,27 +29518,115 @@
           },
           {
             "id": "french-b2-cinema-et-critique-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Ce que m’a le plus marquée, c’est le jeu des actrices. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q5-part-1",
+                "text": "Ce qui"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q5-part-2",
+                "text": "m’a le"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q5-part-3",
+                "text": "plus marquée,"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q5-part-4",
+                "text": "c’est le"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q5-part-5",
+                "text": "jeu des"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q5-part-6",
+                "text": "actrices."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-cinema-et-critique-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Ce qui j’ai apprécié, c’est la mise en scène. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q6-part-1",
+                "text": "Ce que"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q6-part-2",
+                "text": "j’ai apprécié,"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q6-part-3",
+                "text": "c’est la"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q6-part-4",
+                "text": "mise en"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q6-part-5",
+                "text": "scène."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-cinema-et-critique-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « C’est l’un des films les plus émouvants qui j’aie vus. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q7-part-1",
+                "text": "C’est l’un"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q7-part-2",
+                "text": "des films"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q7-part-3",
+                "text": "les plus"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q7-part-4",
+                "text": "émouvants que"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q7-part-5",
+                "text": "j’aie vus."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-cinema-et-critique-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « C’est le meilleur film » par la bonne réponse à cette question : « Quelle expression nuance une affirmation catégorique ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q8-part-1",
+                "text": "C’est l’un"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q8-part-2",
+                "text": "des meilleurs"
+              },
+              {
+                "id": "french-b2-cinema-et-critique-grammar-q8-part-3",
+                "text": "films"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -27777,21 +29803,106 @@
           },
           {
             "id": "french-a2-les-experiences-passees-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Camila a tombée de vélo. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q5-part-1",
+                "text": "Camila"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q5-part-2",
+                "text": "est"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q5-part-3",
+                "text": "tombée"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q5-part-4",
+                "text": "de"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q5-part-5",
+                "text": "vélo."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-experiences-passees-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Léa et Camila ont allées à Paris. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q6-part-1",
+                "text": "Léa"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q6-part-2",
+                "text": "et"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q6-part-3",
+                "text": "Camila"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q6-part-4",
+                "text": "sont"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q6-part-5",
+                "text": "allées"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q6-part-6",
+                "text": "à"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q6-part-7",
+                "text": "Paris."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-experiences-passees-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Nous avons montés à la tour Eiffel. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q7-part-1",
+                "text": "Nous"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q7-part-2",
+                "text": "sommes"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q7-part-3",
+                "text": "montés"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q7-part-4",
+                "text": "à"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q7-part-5",
+                "text": "la"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q7-part-6",
+                "text": "tour"
+              },
+              {
+                "id": "french-a2-les-experiences-passees-grammar-q7-part-7",
+                "text": "Eiffel."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-experiences-passees-grammar-q8",
@@ -27974,9 +30085,36 @@
           },
           {
             "id": "french-b1-technologie-et-societe-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il est important que tu fais attention à ta vie privée. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q5-part-1",
+                "text": "Il est"
+              },
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q5-part-2",
+                "text": "important que"
+              },
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q5-part-3",
+                "text": "tu fasses"
+              },
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q5-part-4",
+                "text": "attention à"
+              },
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q5-part-5",
+                "text": "ta vie"
+              },
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q5-part-6",
+                "text": "privée."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-technologie-et-societe-grammar-q6",
@@ -27986,15 +30124,45 @@
           },
           {
             "id": "french-b1-technologie-et-societe-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Cependant, les réseaux sociaux facilitent la communication. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q7-part-1",
+                "text": "D’une part,"
+              },
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q7-part-2",
+                "text": "les réseaux"
+              },
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q7-part-3",
+                "text": "sociaux facilitent"
+              },
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q7-part-4",
+                "text": "la communication."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-technologie-et-societe-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Je pense que » par la bonne réponse à cette question : « Quelle structure introduit le subjonctif ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q8-part-1",
+                "text": "Il est"
+              },
+              {
+                "id": "french-b1-technologie-et-societe-grammar-q8-part-2",
+                "text": "important que"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -32303,27 +34471,131 @@
           },
           {
             "id": "french-a1-a-table-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je voudrais un pain, s'il vous plaît. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-a-table-grammar-q5-part-1",
+                "text": "Je"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q5-part-2",
+                "text": "voudrais"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q5-part-3",
+                "text": "du"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q5-part-4",
+                "text": "pain,"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q5-part-5",
+                "text": "s'il"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q5-part-6",
+                "text": "vous"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q5-part-7",
+                "text": "plaît."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-a-table-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Léa adore un fromage. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-a-table-grammar-q6-part-1",
+                "text": "Léa"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q6-part-2",
+                "text": "adore"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q6-part-3",
+                "text": "le"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q6-part-4",
+                "text": "fromage."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-a-table-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Tu veut de la salade ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-a-table-grammar-q7-part-1",
+                "text": "Tu"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q7-part-2",
+                "text": "veux"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q7-part-3",
+                "text": "de"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q7-part-4",
+                "text": "la"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q7-part-5",
+                "text": "salade"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q7-part-6",
+                "text": "?"
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-a-table-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je ne veux pas des légumes. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-a-table-grammar-q8-part-1",
+                "text": "Je"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q8-part-2",
+                "text": "ne"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q8-part-3",
+                "text": "veux"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q8-part-4",
+                "text": "pas"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q8-part-5",
+                "text": "de"
+              },
+              {
+                "id": "french-a1-a-table-grammar-q8-part-6",
+                "text": "légumes."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -32500,27 +34772,95 @@
           },
           {
             "id": "french-b2-dilemmes-ethiques-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Si j’découvre ce mensonge, j’aurais réagi immédiatement. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q5-part-1",
+                "text": "Si j’avais"
+              },
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q5-part-2",
+                "text": "découvert ce"
+              },
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q5-part-3",
+                "text": "mensonge, j’aurais"
+              },
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q5-part-4",
+                "text": "réagi immédiatement."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-dilemmes-ethiques-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Si tu avais su, tu agis différemment. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q6-part-1",
+                "text": "Si tu"
+              },
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q6-part-2",
+                "text": "avais su,"
+              },
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q6-part-3",
+                "text": "tu aurais"
+              },
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q6-part-4",
+                "text": "agi différemment."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-dilemmes-ethiques-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « J’ai dû lui parler plus tôt. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q7-part-1",
+                "text": "J’aurais dû"
+              },
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q7-part-2",
+                "text": "lui parler"
+              },
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q7-part-3",
+                "text": "plus tôt."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-dilemmes-ethiques-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Si + présent, futur » par la bonne réponse à cette question : « Quelle structure exprime une hypothèse irréelle sur le passé ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q8-part-1",
+                "text": "Si +"
+              },
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q8-part-2",
+                "text": "plus-que-parfait, conditionnel"
+              },
+              {
+                "id": "french-b2-dilemmes-ethiques-grammar-q8-part-3",
+                "text": "passé"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -32697,27 +35037,135 @@
           },
           {
             "id": "french-a2-les-voyages-et-les-vacances-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Nous allez visiter Nice le mois prochain. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q5-part-1",
+                "text": "Nous"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q5-part-2",
+                "text": "allons"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q5-part-3",
+                "text": "visiter"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q5-part-4",
+                "text": "Nice"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q5-part-5",
+                "text": "le"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q5-part-6",
+                "text": "mois"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q5-part-7",
+                "text": "prochain."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-voyages-et-les-vacances-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « La famille va voyager à France. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q6-part-1",
+                "text": "La"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q6-part-2",
+                "text": "famille"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q6-part-3",
+                "text": "va"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q6-part-4",
+                "text": "voyager"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q6-part-5",
+                "text": "en"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q6-part-6",
+                "text": "France."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-voyages-et-les-vacances-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Ils vont passer une semaine en Nice. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q7-part-1",
+                "text": "Ils"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q7-part-2",
+                "text": "vont"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q7-part-3",
+                "text": "passer"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q7-part-4",
+                "text": "une"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q7-part-5",
+                "text": "semaine"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q7-part-6",
+                "text": "à"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q7-part-7",
+                "text": "Nice."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-voyages-et-les-vacances-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Aller + participe passé » par la bonne réponse à cette question : « Quelle est la structure correcte du futur proche ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q8-part-1",
+                "text": "Aller"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q8-part-2",
+                "text": "(présent)"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q8-part-3",
+                "text": "+"
+              },
+              {
+                "id": "french-a2-les-voyages-et-les-vacances-grammar-q8-part-4",
+                "text": "infinitif"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -32894,27 +35342,91 @@
           },
           {
             "id": "french-b1-sante-et-mode-de-vie-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il faut que tu dors suffisamment. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q5-part-1",
+                "text": "Il faut"
+              },
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q5-part-2",
+                "text": "que tu"
+              },
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q5-part-3",
+                "text": "dormes suffisamment."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-sante-et-mode-de-vie-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il est important que je fais des pauses. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q6-part-1",
+                "text": "Il est"
+              },
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q6-part-2",
+                "text": "important que"
+              },
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q6-part-3",
+                "text": "je fasse"
+              },
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q6-part-4",
+                "text": "des pauses."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-sante-et-mode-de-vie-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il vaut mieux que nous faisons du sport. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q7-part-1",
+                "text": "Il vaut"
+              },
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q7-part-2",
+                "text": "mieux que"
+              },
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q7-part-3",
+                "text": "nous fassions"
+              },
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q7-part-4",
+                "text": "du sport."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-sante-et-mode-de-vie-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Je sais que » par la bonne réponse à cette question : « Quelle expression introduit le subjonctif ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q8-part-1",
+                "text": "Il faut"
+              },
+              {
+                "id": "french-b1-sante-et-mode-de-vie-grammar-q8-part-2",
+                "text": "que"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -37244,27 +39756,147 @@
           },
           {
             "id": "french-a1-chez-moi-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « C'est un lit et une armoire dans ma chambre. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-chez-moi-grammar-q5-part-1",
+                "text": "Il"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q5-part-2",
+                "text": "y"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q5-part-3",
+                "text": "a"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q5-part-4",
+                "text": "un"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q5-part-5",
+                "text": "lit"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q5-part-6",
+                "text": "et"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q5-part-7",
+                "text": "une"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q5-part-8",
+                "text": "armoire"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q5-part-9",
+                "text": "dans"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q5-part-10",
+                "text": "ma"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q5-part-11",
+                "text": "chambre."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-chez-moi-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il y a mon bureau. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-chez-moi-grammar-q6-part-1",
+                "text": "C'est"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q6-part-2",
+                "text": "mon"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q6-part-3",
+                "text": "bureau."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-chez-moi-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Le chat dort sous le lit. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-chez-moi-grammar-q7-part-1",
+                "text": "Le"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q7-part-2",
+                "text": "chat"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q7-part-3",
+                "text": "dort"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q7-part-4",
+                "text": "sur"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q7-part-5",
+                "text": "le"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q7-part-6",
+                "text": "lit."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-chez-moi-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « L'étagère est sur le bureau et l'armoire. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-chez-moi-grammar-q8-part-1",
+                "text": "L'étagère"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q8-part-2",
+                "text": "est"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q8-part-3",
+                "text": "entre"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q8-part-4",
+                "text": "le"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q8-part-5",
+                "text": "bureau"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q8-part-6",
+                "text": "et"
+              },
+              {
+                "id": "french-a1-chez-moi-grammar-q8-part-7",
+                "text": "l'armoire."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -37441,27 +40073,111 @@
           },
           {
             "id": "french-b2-sciences-et-innovations-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il se peut que certains métiers disparaissent dans le futur. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q5-part-1",
+                "text": "Il se"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q5-part-2",
+                "text": "peut que"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q5-part-3",
+                "text": "certains métiers"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q5-part-4",
+                "text": "disparaissent dans"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q5-part-5",
+                "text": "le futur."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-sciences-et-innovations-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Bien que cette technologie évolue rapidement, il faut rester informé. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q6-part-1",
+                "text": "Étant donné"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q6-part-2",
+                "text": "que cette"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q6-part-3",
+                "text": "technologie évolue"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q6-part-4",
+                "text": "rapidement, il"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q6-part-5",
+                "text": "faut rester"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q6-part-6",
+                "text": "informé."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-sciences-et-innovations-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il est possible que tu as raison sur ce point. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q7-part-1",
+                "text": "Il est"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q7-part-2",
+                "text": "possible que"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q7-part-3",
+                "text": "tu aies"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q7-part-4",
+                "text": "raison sur"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q7-part-5",
+                "text": "ce point."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-sciences-et-innovations-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Il est possible que » par la bonne réponse à cette question : « Quelle expression introduit l’indicatif, pas le subjonctif ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q8-part-1",
+                "text": "Dans la"
+              },
+              {
+                "id": "french-b2-sciences-et-innovations-grammar-q8-part-2",
+                "text": "mesure où"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -37638,27 +40354,183 @@
           },
           {
             "id": "french-a2-le-logement-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il n’y a pas deux chambres dans cet appartement. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-le-logement-grammar-q5-part-1",
+                "text": "Il"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q5-part-2",
+                "text": "y"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q5-part-3",
+                "text": "a"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q5-part-4",
+                "text": "deux"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q5-part-5",
+                "text": "chambres"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q5-part-6",
+                "text": "dans"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q5-part-7",
+                "text": "cet"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q5-part-8",
+                "text": "appartement."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-le-logement-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Dans le studio, il y a de balcon. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-le-logement-grammar-q6-part-1",
+                "text": "Dans"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q6-part-2",
+                "text": "le"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q6-part-3",
+                "text": "studio,"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q6-part-4",
+                "text": "il"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q6-part-5",
+                "text": "n’y"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q6-part-6",
+                "text": "a"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q6-part-7",
+                "text": "pas"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q6-part-8",
+                "text": "de"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q6-part-9",
+                "text": "balcon."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-le-logement-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Cet appartement est plus grande que le studio. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-le-logement-grammar-q7-part-1",
+                "text": "Cet"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q7-part-2",
+                "text": "appartement"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q7-part-3",
+                "text": "est"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q7-part-4",
+                "text": "plus"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q7-part-5",
+                "text": "grand"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q7-part-6",
+                "text": "que"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q7-part-7",
+                "text": "le"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q7-part-8",
+                "text": "studio."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-le-logement-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Le loyer du studio est aussi cher que celui de l’appartement. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-le-logement-grammar-q8-part-1",
+                "text": "Le"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q8-part-2",
+                "text": "loyer"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q8-part-3",
+                "text": "du"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q8-part-4",
+                "text": "studio"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q8-part-5",
+                "text": "est"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q8-part-6",
+                "text": "moins"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q8-part-7",
+                "text": "cher"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q8-part-8",
+                "text": "que"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q8-part-9",
+                "text": "celui"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q8-part-10",
+                "text": "de"
+              },
+              {
+                "id": "french-a2-le-logement-grammar-q8-part-11",
+                "text": "l’appartement."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -37835,15 +40707,61 @@
           },
           {
             "id": "french-b1-environnement-et-consommation-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « On recycle c’est pourquoi c’est important pour la planète. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q5-part-1",
+                "text": "On recycle"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q5-part-2",
+                "text": "parce que"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q5-part-3",
+                "text": "c’est important"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q5-part-4",
+                "text": "pour la"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q5-part-5",
+                "text": "planète."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-environnement-et-consommation-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Nous produisons trop de déchets, parce que nous devons agir. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q6-part-1",
+                "text": "Nous produisons"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q6-part-2",
+                "text": "trop de"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q6-part-3",
+                "text": "déchets, c’est"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q6-part-4",
+                "text": "pourquoi nous"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q6-part-5",
+                "text": "devons agir."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-environnement-et-consommation-grammar-q7",
@@ -37853,9 +40771,32 @@
           },
           {
             "id": "french-b1-environnement-et-consommation-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il faut trier les déchets c’est pourquoi ça aide l’environnement. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q8-part-1",
+                "text": "Il faut"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q8-part-2",
+                "text": "trier les"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q8-part-3",
+                "text": "déchets parce"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q8-part-4",
+                "text": "que ça"
+              },
+              {
+                "id": "french-b1-environnement-et-consommation-grammar-q8-part-5",
+                "text": "aide l’environnement."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -42174,27 +45115,143 @@
           },
           {
             "id": "french-a1-dans-ma-ville-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je vais à marché le samedi. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q5-part-1",
+                "text": "Je"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q5-part-2",
+                "text": "vais"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q5-part-3",
+                "text": "au"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q5-part-4",
+                "text": "marché"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q5-part-5",
+                "text": "le"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q5-part-6",
+                "text": "samedi."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-dans-ma-ville-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Nous allons au piscine cet après-midi. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q6-part-1",
+                "text": "Nous"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q6-part-2",
+                "text": "allons"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q6-part-3",
+                "text": "à"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q6-part-4",
+                "text": "la"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q6-part-5",
+                "text": "piscine"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q6-part-6",
+                "text": "cet"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q6-part-7",
+                "text": "après-midi."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-dans-ma-ville-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Tourne à droite, puis continuez tout droit. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q7-part-1",
+                "text": "Tournez"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q7-part-2",
+                "text": "à"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q7-part-3",
+                "text": "droite,"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q7-part-4",
+                "text": "puis"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q7-part-5",
+                "text": "continuez"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q7-part-6",
+                "text": "tout"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q7-part-7",
+                "text": "droit."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-dans-ma-ville-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Quand se trouve la médiathèque ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q8-part-1",
+                "text": "Où"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q8-part-2",
+                "text": "se"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q8-part-3",
+                "text": "trouve"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q8-part-4",
+                "text": "la"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q8-part-5",
+                "text": "médiathèque"
+              },
+              {
+                "id": "french-a1-dans-ma-ville-grammar-q8-part-6",
+                "text": "?"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -42371,27 +45428,107 @@
           },
           {
             "id": "french-b2-histoire-et-memoire-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Celui dont je me souviens le mieux, c’est cette histoire. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q5-part-1",
+                "text": "Celle dont"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q5-part-2",
+                "text": "je me"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q5-part-3",
+                "text": "souviens le"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q5-part-4",
+                "text": "mieux, c’est"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q5-part-5",
+                "text": "cette histoire."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-histoire-et-memoire-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Cette histoire, je l’ai entendu hier soir. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q6-part-1",
+                "text": "Cette histoire,"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q6-part-2",
+                "text": "je l’ai"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q6-part-3",
+                "text": "entendue hier"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q6-part-4",
+                "text": "soir."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-histoire-et-memoire-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Les récits qu’elle nous a raconté étaient émouvants. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q7-part-1",
+                "text": "Les récits"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q7-part-2",
+                "text": "qu’elle nous"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q7-part-3",
+                "text": "a racontés"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q7-part-4",
+                "text": "étaient émouvants."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-histoire-et-memoire-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Toujours » par la bonne réponse à cette question : « Quand le participe passé avec avoir s’accorde-t-il avec le complément direct ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q8-part-1",
+                "text": "Quand le"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q8-part-2",
+                "text": "complément est"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q8-part-3",
+                "text": "placé avant"
+              },
+              {
+                "id": "french-b2-histoire-et-memoire-grammar-q8-part-4",
+                "text": "le verbe"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -42568,21 +45705,94 @@
           },
           {
             "id": "french-a2-les-loisirs-et-les-medias-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je je préfère les comédies. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q5-part-1",
+                "text": "Moi,"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q5-part-2",
+                "text": "je"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q5-part-3",
+                "text": "préfère"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q5-part-4",
+                "text": "les"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q5-part-5",
+                "text": "comédies."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-loisirs-et-les-medias-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Karim lui préfère les films d’action. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q6-part-1",
+                "text": "Karim"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q6-part-2",
+                "text": "il"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q6-part-3",
+                "text": "préfère"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q6-part-4",
+                "text": "les"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q6-part-5",
+                "text": "films"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q6-part-6",
+                "text": "d’action."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-loisirs-et-les-medias-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « J’aime mieux regarde des documentaires. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q7-part-1",
+                "text": "J’aime"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q7-part-2",
+                "text": "mieux"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q7-part-3",
+                "text": "regarder"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q7-part-4",
+                "text": "des"
+              },
+              {
+                "id": "french-a2-les-loisirs-et-les-medias-grammar-q7-part-5",
+                "text": "documentaires."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-les-loisirs-et-les-medias-grammar-q8",
@@ -42765,27 +45975,91 @@
           },
           {
             "id": "french-b1-medias-et-information-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je doute que cette information est vraie. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-medias-et-information-grammar-q5-part-1",
+                "text": "Je doute"
+              },
+              {
+                "id": "french-b1-medias-et-information-grammar-q5-part-2",
+                "text": "que cette"
+              },
+              {
+                "id": "french-b1-medias-et-information-grammar-q5-part-3",
+                "text": "information soit"
+              },
+              {
+                "id": "french-b1-medias-et-information-grammar-q5-part-4",
+                "text": "vraie."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-medias-et-information-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Karim a dit que l’article n’est pas fiable. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-medias-et-information-grammar-q6-part-1",
+                "text": "Karim a"
+              },
+              {
+                "id": "french-b1-medias-et-information-grammar-q6-part-2",
+                "text": "dit que"
+              },
+              {
+                "id": "french-b1-medias-et-information-grammar-q6-part-3",
+                "text": "l’article n’était"
+              },
+              {
+                "id": "french-b1-medias-et-information-grammar-q6-part-4",
+                "text": "pas fiable."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-medias-et-information-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Je suis sûr que » par la bonne réponse à cette question : « Quelle expression introduit le subjonctif ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-medias-et-information-grammar-q7-part-1",
+                "text": "Je doute"
+              },
+              {
+                "id": "french-b1-medias-et-information-grammar-q7-part-2",
+                "text": "que"
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-medias-et-information-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Elle a dit : « C’est faux. » » par la bonne réponse à cette question : « Quelle phrase est au discours indirect ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-medias-et-information-grammar-q8-part-1",
+                "text": "Elle a"
+              },
+              {
+                "id": "french-b1-medias-et-information-grammar-q8-part-2",
+                "text": "dit que"
+              },
+              {
+                "id": "french-b1-medias-et-information-grammar-q8-part-3",
+                "text": "c’était faux."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -47090,27 +50364,135 @@
           },
           {
             "id": "french-a1-mes-loisirs-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Camila fait au vélo le samedi. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-mes-loisirs-grammar-q5-part-1",
+                "text": "Camila"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q5-part-2",
+                "text": "fait"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q5-part-3",
+                "text": "du"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q5-part-4",
+                "text": "vélo"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q5-part-5",
+                "text": "le"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q5-part-6",
+                "text": "samedi."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-mes-loisirs-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je joue du volley avec mes amis. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-mes-loisirs-grammar-q6-part-1",
+                "text": "Je"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q6-part-2",
+                "text": "joue"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q6-part-3",
+                "text": "au"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q6-part-4",
+                "text": "volley"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q6-part-5",
+                "text": "avec"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q6-part-6",
+                "text": "mes"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q6-part-7",
+                "text": "amis."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-mes-loisirs-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Karim joue au guitare. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-mes-loisirs-grammar-q7-part-1",
+                "text": "Karim"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q7-part-2",
+                "text": "joue"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q7-part-3",
+                "text": "de"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q7-part-4",
+                "text": "la"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q7-part-5",
+                "text": "guitare."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-mes-loisirs-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Tu peux danser la bachata ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-mes-loisirs-grammar-q8-part-1",
+                "text": "Tu"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q8-part-2",
+                "text": "sais"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q8-part-3",
+                "text": "danser"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q8-part-4",
+                "text": "la"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q8-part-5",
+                "text": "bachata"
+              },
+              {
+                "id": "french-a1-mes-loisirs-grammar-q8-part-6",
+                "text": "?"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -47287,21 +50669,94 @@
           },
           {
             "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Nous agissons afin que la biodiversité est préservée. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q5-part-1",
+                "text": "Nous agissons"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q5-part-2",
+                "text": "afin que"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q5-part-3",
+                "text": "la biodiversité"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q5-part-4",
+                "text": "soit préservée."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je ne pense pas que ce problème est facile à résoudre. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q6-part-1",
+                "text": "Je ne"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q6-part-2",
+                "text": "pense pas"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q6-part-3",
+                "text": "que ce"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q6-part-4",
+                "text": "problème soit"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q6-part-5",
+                "text": "facile à"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q6-part-6",
+                "text": "résoudre."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Elle écrit cette lettre pour que le message est bien compris. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q7-part-1",
+                "text": "Elle écrit"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q7-part-2",
+                "text": "cette lettre"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q7-part-3",
+                "text": "pour que"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q7-part-4",
+                "text": "le message"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q7-part-5",
+                "text": "soit bien"
+              },
+              {
+                "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q7-part-6",
+                "text": "compris."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q8",
@@ -47484,27 +50939,147 @@
           },
           {
             "id": "french-a2-relations-et-communication-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « C’est une amie que me comprend toujours. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-relations-et-communication-grammar-q5-part-1",
+                "text": "C’est"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q5-part-2",
+                "text": "une"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q5-part-3",
+                "text": "amie"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q5-part-4",
+                "text": "qui"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q5-part-5",
+                "text": "me"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q5-part-6",
+                "text": "comprend"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q5-part-7",
+                "text": "toujours."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-relations-et-communication-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « C’est un documentaire qui j’ai beaucoup aimé. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-relations-et-communication-grammar-q6-part-1",
+                "text": "C’est"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q6-part-2",
+                "text": "un"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q6-part-3",
+                "text": "documentaire"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q6-part-4",
+                "text": "qu’"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q6-part-5",
+                "text": "j’ai"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q6-part-6",
+                "text": "beaucoup"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q6-part-7",
+                "text": "aimé."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-relations-et-communication-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Tours est la ville qui j’habite maintenant. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-relations-et-communication-grammar-q7-part-1",
+                "text": "Tours"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q7-part-2",
+                "text": "est"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q7-part-3",
+                "text": "la"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q7-part-4",
+                "text": "ville"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q7-part-5",
+                "text": "où"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q7-part-6",
+                "text": "j’habite"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q7-part-7",
+                "text": "maintenant."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a2-relations-et-communication-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « J’ai des amis que sont formidables. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a2-relations-et-communication-grammar-q8-part-1",
+                "text": "J’ai"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q8-part-2",
+                "text": "des"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q8-part-3",
+                "text": "amis"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q8-part-4",
+                "text": "qui"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q8-part-5",
+                "text": "sont"
+              },
+              {
+                "id": "french-a2-relations-et-communication-grammar-q8-part-6",
+                "text": "formidables."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -47681,27 +51256,103 @@
           },
           {
             "id": "french-b1-relations-et-conflits-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je suis triste que tu pense ça de moi. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q5-part-1",
+                "text": "Je suis"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q5-part-2",
+                "text": "triste que"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q5-part-3",
+                "text": "tu penses"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q5-part-4",
+                "text": "ça de"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q5-part-5",
+                "text": "moi."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-relations-et-conflits-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Ça me dérange que tu change toujours le plan. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q6-part-1",
+                "text": "Ça me"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q6-part-2",
+                "text": "dérange que"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q6-part-3",
+                "text": "tu changes"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q6-part-4",
+                "text": "toujours le"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q6-part-5",
+                "text": "plan."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-relations-et-conflits-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je suis content(e) que nous trouvons un compromis. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q7-part-1",
+                "text": "Je suis"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q7-part-2",
+                "text": "content(e) que"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q7-part-3",
+                "text": "nous trouvions"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q7-part-4",
+                "text": "un compromis."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b1-relations-et-conflits-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Je sais que » par la bonne réponse à cette question : « Quelle expression introduit le subjonctif ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q8-part-1",
+                "text": "Je suis"
+              },
+              {
+                "id": "french-b1-relations-et-conflits-grammar-q8-part-2",
+                "text": "content que"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -51406,27 +55057,115 @@
           },
           {
             "id": "french-a1-les-vetements-et-les-achats-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Ce robe est très jolie. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q5-part-1",
+                "text": "Cette"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q5-part-2",
+                "text": "robe"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q5-part-3",
+                "text": "est"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q5-part-4",
+                "text": "très"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q5-part-5",
+                "text": "jolie."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-les-vetements-et-les-achats-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Ce chaussures sont blanches. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q6-part-1",
+                "text": "Ces"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q6-part-2",
+                "text": "chaussures"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q6-part-3",
+                "text": "sont"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q6-part-4",
+                "text": "blanches."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-les-vetements-et-les-achats-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Quel coûte ce chapeau ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q7-part-1",
+                "text": "Combien"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q7-part-2",
+                "text": "coûte"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q7-part-3",
+                "text": "ce"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q7-part-4",
+                "text": "chapeau"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q7-part-5",
+                "text": "?"
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-les-vetements-et-les-achats-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Je cherche cette jupe noire. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q8-part-1",
+                "text": "Je"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q8-part-2",
+                "text": "prends"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q8-part-3",
+                "text": "cette"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q8-part-4",
+                "text": "jupe"
+              },
+              {
+                "id": "french-a1-les-vetements-et-les-achats-grammar-q8-part-5",
+                "text": "noire."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -51603,27 +55342,119 @@
           },
           {
             "id": "french-b2-art-et-creativite-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Elle se sent de moins en moins libre dans son travail au fil du temps. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-art-et-creativite-grammar-q5-part-1",
+                "text": "Elle se"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q5-part-2",
+                "text": "sent de"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q5-part-3",
+                "text": "plus en"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q5-part-4",
+                "text": "plus libre"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q5-part-5",
+                "text": "dans son"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q5-part-6",
+                "text": "travail au"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q5-part-7",
+                "text": "fil du"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q5-part-8",
+                "text": "temps."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-art-et-creativite-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Sa préparation compte plus que sa capacité d’écoute. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-art-et-creativite-grammar-q6-part-1",
+                "text": "Sa préparation"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q6-part-2",
+                "text": "compte autant"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q6-part-3",
+                "text": "que sa"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q6-part-4",
+                "text": "capacité d’écoute."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-art-et-creativite-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Elle reçoit de plus en plus ce genre de remarque aujourd’hui. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-art-et-creativite-grammar-q7-part-1",
+                "text": "Elle reçoit"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q7-part-2",
+                "text": "de moins"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q7-part-3",
+                "text": "en moins"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q7-part-4",
+                "text": "ce genre"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q7-part-5",
+                "text": "de remarque"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q7-part-6",
+                "text": "aujourd’hui."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-art-et-creativite-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Plus... que » par la bonne réponse à cette question : « Quelle structure exprime une évolution progressive ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-art-et-creativite-grammar-q8-part-1",
+                "text": "De plus"
+              },
+              {
+                "id": "french-b2-art-et-creativite-grammar-q8-part-2",
+                "text": "en plus"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -54998,27 +58829,131 @@
           },
           {
             "id": "french-a1-la-meteo-et-les-voyages-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Demain, il fait beau. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q5-part-1",
+                "text": "Demain,"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q5-part-2",
+                "text": "il"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q5-part-3",
+                "text": "va"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q5-part-4",
+                "text": "faire"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q5-part-5",
+                "text": "beau."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-la-meteo-et-les-voyages-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Nous allez prendre le train. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q6-part-1",
+                "text": "Nous"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q6-part-2",
+                "text": "allons"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q6-part-3",
+                "text": "prendre"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q6-part-4",
+                "text": "le"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q6-part-5",
+                "text": "train."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-la-meteo-et-les-voyages-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Il pleut va un peu cet après-midi. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q7-part-1",
+                "text": "Il"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q7-part-2",
+                "text": "va"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q7-part-3",
+                "text": "pleuvoir"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q7-part-4",
+                "text": "un"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q7-part-5",
+                "text": "peu"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q7-part-6",
+                "text": "cet"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q7-part-7",
+                "text": "après-midi."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-a1-la-meteo-et-les-voyages-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Tu va visiter la tour Eiffel. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q8-part-1",
+                "text": "Tu"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q8-part-2",
+                "text": "vas"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q8-part-3",
+                "text": "visiter"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q8-part-4",
+                "text": "la"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q8-part-5",
+                "text": "tour"
+              },
+              {
+                "id": "french-a1-la-meteo-et-les-voyages-grammar-q8-part-6",
+                "text": "Eiffel."
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },
@@ -55195,27 +59130,115 @@
           },
           {
             "id": "french-b2-bilan-et-projets-davenir-grammar-q5",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Si elle annule ce voyage, elle n’aurait jamais rencontré Léa et Karim. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q5-part-1",
+                "text": "Si elle"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q5-part-2",
+                "text": "avait annulé"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q5-part-3",
+                "text": "ce voyage,"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q5-part-4",
+                "text": "elle n’aurait"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q5-part-5",
+                "text": "jamais rencontré"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q5-part-6",
+                "text": "Léa et"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q5-part-7",
+                "text": "Karim."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-bilan-et-projets-davenir-grammar-q6",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Avec le recul, elle était fière de sa décision. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q6-part-1",
+                "text": "Avec le"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q6-part-2",
+                "text": "recul, elle"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q6-part-3",
+                "text": "est fière"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q6-part-4",
+                "text": "de sa"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q6-part-5",
+                "text": "décision."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-bilan-et-projets-davenir-grammar-q7",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Corrige la phrase suivante : « Elle est déterminée de continuer ses études en France. »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q7-part-1",
+                "text": "Elle est"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q7-part-2",
+                "text": "déterminée à"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q7-part-3",
+                "text": "continuer ses"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q7-part-4",
+                "text": "études en"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q7-part-5",
+                "text": "France."
+              }
+            ],
+            "interaction": "reconstruction"
           },
           {
             "id": "french-b2-bilan-et-projets-davenir-grammar-q8",
-            "type": "fill_blank",
+            "type": "ordering",
             "prompt": "Remplace la réponse incorrecte « Étant donné que » par la bonne réponse à cette question : « Quelle expression introduit un bilan final ? »",
-            "difficulty": "consolidation"
+            "difficulty": "consolidation",
+            "items": [
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q8-part-1",
+                "text": "En fin"
+              },
+              {
+                "id": "french-b2-bilan-et-projets-davenir-grammar-q8-part-2",
+                "text": "de compte"
+              }
+            ],
+            "interaction": "reconstruction"
           }
         ]
       },

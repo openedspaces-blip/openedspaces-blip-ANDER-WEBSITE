@@ -1146,7 +1146,7 @@
           </div>
 
         <div class="skill-panel active" data-skill="translate">
-        <div class="translator-panel">
+        <div class="translator-panel translator-workspace">
           <div class="translator-controls">
             <label for="translatorSourceLang"
               >Idioma de origen
@@ -1174,7 +1174,7 @@
           </div>
 
           <div class="translator-grid">
-            <div class="translator-field">
+            <div class="translator-field translator-field--source">
               <label for="translatorInput">Texto original</label>
               <div class="translator-input-wrap">
                 <textarea
@@ -1237,7 +1237,7 @@
                 0 / 1000
               </p>
               <div class="translator-actions">
-                <button type="button" class="primary-btn" id="translatorSubmitBtn">Traducir</button>
+                <button type="button" class="primary-btn" id="translatorSubmitBtn">Traducir →</button>
                 <span class="translator-status" id="translatorStatus" role="status" aria-live="polite"
                   >Listo</span
                 >
@@ -1248,7 +1248,7 @@
               </label>
               <p class="tutor-dictate-status" id="translatorInputDictateStatus" aria-live="polite"></p>
             </div>
-            <div class="translator-field">
+            <div class="translator-field translator-field--output">
               <label for="translatorOutput">Traducción</label>
               <textarea
                 id="translatorOutput"

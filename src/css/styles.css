@@ -2356,12 +2356,21 @@ a:focus-visible {
   margin: 0 auto;
 }
 
+.translator-workspace {
+  max-width: 1080px;
+  padding: clamp(1rem, 2.5vw, 2rem);
+}
+
 .translator-controls {
   display: flex;
   align-items: flex-end;
-  gap: 16px;
+  gap: 0.8rem;
   flex-wrap: wrap;
-  margin-bottom: 24px;
+  margin-bottom: 1.25rem;
+  padding: 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--bg);
 }
 
 .translator-controls label {
@@ -2375,8 +2384,8 @@ a:focus-visible {
 }
 
 .translator-controls select {
-  padding: 12px 14px;
-  border-radius: 14px;
+  padding: 0.7rem 0.8rem;
+  border-radius: var(--radius-sm);
   border: 1px solid var(--line);
   background: white;
   font-weight: 600;
@@ -2384,8 +2393,8 @@ a:focus-visible {
 }
 
 .translator-swap-btn {
-  border: 1px solid rgba(96, 165, 250, 0.35);
-  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--line);
+  background: var(--surface);
   border-radius: 999px;
   width: 44px;
   height: 44px;
@@ -2405,14 +2414,26 @@ a:focus-visible {
 .translator-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 22px;
-  margin-bottom: 24px;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .translator-field {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+
+.translator-field--source {
+  border-top: 3px solid var(--blue);
+}
+
+.translator-field--output {
+  border-top: 3px solid var(--cyan);
 }
 
 .translator-field > label {
@@ -2428,20 +2449,44 @@ a:focus-visible {
 
 .translator-field-actions {
   display: flex;
-  gap: 10px;
+  gap: 0.5rem;
   flex-wrap: wrap;
+}
+
+.translator-field-actions .secondary-btn,
+.translator-field-actions .translator-dictate-btn,
+.translator-field-actions .translator-dictate-stop-btn {
+  min-height: 2.5rem;
+}
+
+.translator-listen-btn {
+  min-width: 7.5rem;
+}
+
+.translator-listen-btn.is-playing {
+  border-color: var(--blue);
+  background: var(--blue);
+  color: #fff;
 }
 
 .translator-actions {
   display: flex;
   align-items: center;
-  gap: 18px;
+  justify-content: space-between;
+  gap: 0.75rem;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-top: 4px;
+  margin-top: 0.25rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
 }
 
 .translator-status {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: var(--bg);
   font-weight: 700;
   color: var(--muted);
 }
@@ -7283,6 +7328,23 @@ footer small {
   border-top: 1px solid var(--line);
 }
 
+/* One visible learning action keeps the exercise focused; Tutor, translation
+   and document tools remain nearby inside the native, keyboard-accessible
+   disclosure. */
+.learning-tools {
+  align-items: center;
+}
+
+.learning-tools-more .skill-view-more-menu {
+  position: static;
+  min-width: min(18rem, calc(100vw - 3rem));
+  margin-top: 0.35rem;
+}
+
+.learning-tools-more .skill-view-more-menu button {
+  width: 100%;
+}
+
 /* Reading */
 .reading-print-area {
   background: var(--surface);
@@ -8164,20 +8226,6 @@ footer small {
   border-left: 1px solid var(--line);
 }
 
-.reading-audio-setting {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
-  color: var(--muted);
-  font-size: 0.75rem;
-  font-weight: 700;
-}
-
-.reading-audio-setting-range {
-  width: 4.5rem;
-  accent-color: var(--blue);
-}
-
 @media (max-width: 480px) {
   .reading-print-area {
     padding: 0.5rem;
@@ -8203,10 +8251,6 @@ footer small {
     padding-left: 0;
     border-left: none;
     width: auto;
-  }
-
-  .reading-audio-setting {
-    display: none;
   }
 
   .reading-audio-progress {
@@ -10048,9 +10092,102 @@ footer small {
 }
 .grammar-test-order-move:hover { border-color: var(--blue); color: var(--blue); }
 
+.grammar-test-order-list.is-reconstruction {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 0.85rem;
+  border: 1px dashed #93c5fd;
+  border-radius: var(--radius-lg);
+  background: var(--accent-soft);
+}
+
+.grammar-test-order-list.is-reconstruction .grammar-test-order-item {
+  flex: 0 1 auto;
+  min-width: 10rem;
+  padding: 0.55rem 0.65rem;
+  background: var(--white);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.07);
+}
+
+.grammar-test-order-list.is-reconstruction .grammar-test-order-number {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.grammar-test-order-list.is-reconstruction .grammar-test-order-text {
+  white-space: nowrap;
+}
+
+.grammar-reconstruction-answer,
+.grammar-reconstruction-bank {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 4.5rem;
+  padding: 0.75rem;
+  border-radius: var(--radius-lg);
+}
+
+.grammar-reconstruction-answer {
+  margin-bottom: 0.65rem;
+  border: 2px dashed #93c5fd;
+  background: rgba(219, 234, 254, 0.45);
+  transition: border-color 0.18s ease, background 0.18s ease;
+}
+
+.grammar-reconstruction-answer.is-correct {
+  border-color: #22c55e;
+  background: rgba(220, 252, 231, 0.65);
+}
+
+.grammar-reconstruction-answer.is-incorrect {
+  border-color: #ef4444;
+  background: rgba(254, 226, 226, 0.65);
+}
+
+.grammar-reconstruction-bank {
+  border: 0;
+  background: transparent;
+}
+
+.grammar-reconstruction-chip {
+  flex: 0 1 auto;
+  width: auto;
+  min-width: 0;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #bfdbfe;
+  background: var(--white);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.08);
+  font: inherit;
+}
+
+.grammar-reconstruction-chip .grammar-test-order-text {
+  white-space: nowrap;
+}
+
+.grammar-reconstruction-placeholder {
+  color: var(--muted);
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.grammar-reconstruction-answer:has(.grammar-reconstruction-chip)
+  .grammar-reconstruction-placeholder {
+  display: none;
+}
+
 @media (max-width: 520px) {
   .grammar-test-order-item { gap: 0.45rem; padding: 0.55rem; }
   .grammar-test-order-grip { display: none; }
+  .grammar-test-order-list.is-reconstruction .grammar-test-order-item {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+  .grammar-reconstruction-chip {
+    flex: 0 1 auto;
+  }
 }
 
 .grammar-test-order-select {
@@ -11126,20 +11263,23 @@ footer small {
 .vocab-card-actions {
   flex-shrink: 0;
   margin-top: auto;
-  padding-top: 0.15rem;
+  padding-top: 0.1rem;
   display: flex;
   align-items: center;
-  gap: 0.35rem;
+  justify-content: center;
+  gap: 0.25rem;
 }
 
 .vocab-know-btn,
 .vocab-retry-btn,
 .vocab-back-btn {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   min-width: 0;
-  font-size: 0.7rem;
-  font-weight: 600;
-  padding: 0.4rem 0.5rem;
+  min-height: 1.85rem;
+  font-size: 0.59rem;
+  line-height: 1.1;
+  font-weight: 700;
+  padding: 0.28rem 0.42rem;
   border-radius: var(--radius-pill);
   border: 1px solid var(--line);
   background: var(--light);
@@ -11147,6 +11287,15 @@ footer small {
   transition:
     border-color 150ms ease,
     background 150ms ease;
+}
+
+.vocab-know-btn {
+  max-width: 4.4rem;
+}
+
+.vocab-retry-btn,
+.vocab-back-btn {
+  max-width: 4.75rem;
 }
 
 .vocab-know-btn:hover,
@@ -12077,24 +12226,25 @@ footer small {
 }
 
 .unit-verbs-context {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
   align-items: center;
-  justify-content: space-between;
   gap: 1rem;
-  margin: 0 auto 1.5rem;
-  padding: 1rem 1.2rem;
+  margin: 0 auto 1rem;
+  padding: 0.85rem 1rem;
   border: 1px solid rgba(37, 99, 235, 0.14);
   border-radius: 18px;
   background: linear-gradient(135deg, #f8fbff, #eef5ff);
 }
 
-.unit-verbs-context > div {
+.unit-verbs-copy {
   display: flex;
   flex-direction: column;
   gap: 0.15rem;
 }
 
-.unit-verbs-context > div > span {
+.unit-verbs-copy > span,
+.unit-verbs-score > span {
   color: var(--blue);
   font-size: 0.72rem;
   font-weight: 800;
@@ -12108,15 +12258,37 @@ footer small {
   font-size: 0.86rem;
 }
 
+.unit-verbs-score {
+  display: grid;
+  gap: 0.1rem;
+  min-width: 5.4rem;
+  padding: 0.45rem 0.7rem;
+  border-left: 1px solid var(--line);
+}
+
+.unit-verbs-score strong {
+  color: var(--navy);
+  font-variant-numeric: tabular-nums;
+}
+
 .unit-verbs-context-actions {
   display: flex;
   flex: 0 0 auto;
   align-items: center;
-  gap: 0.65rem;
+  gap: 0.35rem;
 }
 
 .unit-verbs-practice-btn {
-  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.2);
+  min-height: 2.55rem;
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.16);
+}
+
+.unit-verbs-more .skill-view-more-menu {
+  min-width: 14rem;
+}
+
+.unit-verbs-more .skill-view-more-menu .unit-verbs-finish-btn {
+  color: var(--blue);
 }
 
 #verbsTabs .skill-tab-button[data-skill='practice']:not(.active) {
@@ -12380,19 +12552,22 @@ footer small {
   .listening-connected-tools {
     grid-template-columns: 1fr;
   }
-  .unit-sequence-heading,
-  .unit-verbs-context {
+  .unit-sequence-heading {
     align-items: flex-start;
     flex-direction: column;
   }
-  .unit-verbs-context-actions {
-    width: 100%;
-    flex-direction: column;
+  .unit-verbs-context {
+    grid-template-columns: 1fr;
     align-items: stretch;
   }
-  .unit-verbs-practice-btn,
-  .unit-verbs-return-btn {
+  .unit-verbs-score {
+    border-top: 1px solid var(--line);
+    border-left: 0;
+    padding-inline: 0;
+  }
+  .unit-verbs-context-actions {
     width: 100%;
+    justify-content: space-between;
   }
   .listening-player-controls {
     flex-direction: column;
