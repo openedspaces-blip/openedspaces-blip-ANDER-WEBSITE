@@ -1265,6 +1265,11 @@
         <div class="verb-practice-results-actions">
           ${retryFailedBtnHtml}
           <button type="button" class="primary-btn" id="verbsPracticeRetryBtn">Practicar de nuevo</button>
+          ${
+            typeof window.finishCurrentUnitRoute === 'function'
+              ? `<button type="button" class="primary-btn verbs-finish-unit-btn" id="verbsFinishUnitBtn">${escapeHtml(window.getCurrentUnitFinishLabel?.() || 'Terminar lección')} →</button>`
+              : ''
+          }
         </div>
       </div>
     `;
@@ -1792,6 +1797,11 @@
 
     if (event.target.closest('#verbsPracticeRetryBtn') || event.target.closest('#verbsPracticeQuitBtn')) {
       showVerbsPracticeSetup();
+      return;
+    }
+
+    if (event.target.closest('#verbsFinishUnitBtn')) {
+      window.finishCurrentUnitRoute?.();
       return;
     }
 

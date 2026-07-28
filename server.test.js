@@ -3563,3 +3563,24 @@ test('English A1 Hello Listening keeps its specific editorial questions', () => 
     )
   );
 });
+
+test('unit route keeps Previous/Next navigation and closes on Verbs with a full score summary', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const verbsSource = fs.readFileSync(
+    path.join(__dirname, 'src', 'js', 'verbs', 'verbs-view.js'),
+    'utf8'
+  );
+  const footer = source.match(
+    /function renderUnitActivityFooter\(section, lesson\) \{([\s\S]*?)\n\}/
+  )?.[1];
+
+  assert.ok(footer);
+  assert.match(footer, /if \(!lesson\?\.unitId\) return/);
+  assert.doesNotMatch(footer, /skillEntryContext !== 'route'/);
+  assert.match(source, /unit-activity-prev/);
+  assert.match(source, /unit-activity-next/);
+  assert.match(verbsSource, /id="verbsFinishUnitBtn"/);
+  assert.match(source, /function getUnitScoreFeedback\(score\)/);
+  assert.match(source, /unit-completion-retry/);
+  assert.match(source, /unit-completion-next/);
+});

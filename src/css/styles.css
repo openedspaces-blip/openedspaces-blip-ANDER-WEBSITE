@@ -6135,6 +6135,26 @@ footer small {
   line-height: 1.55;
 }
 
+.unit-completion-feedback {
+  display: grid;
+  gap: 0.2rem;
+  margin: 1rem 0 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: 16px;
+  background: linear-gradient(135deg, #eef6ff, #f5f1ff);
+}
+
+.unit-completion-feedback strong {
+  color: var(--blue);
+  font-size: 1.1rem;
+}
+
+.unit-completion-feedback span {
+  color: var(--navy-2);
+  font-weight: 700;
+}
+
 .unit-completion-results {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

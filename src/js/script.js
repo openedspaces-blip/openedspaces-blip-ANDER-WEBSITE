@@ -3541,7 +3541,7 @@ function getReadingSectionState(lesson) {
 
 function renderUnitActivityFooter(section, lesson) {
   section.querySelector('.unit-activity-footer')?.remove();
-  if (!lesson?.unitId || learningPathState.skillEntryContext !== 'route') return;
+  if (!lesson?.unitId) return;
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
   const activities = getUnitActivities(lesson.unitId);
@@ -3551,6 +3551,7 @@ function renderUnitActivityFooter(section, lesson) {
   const readingState = lesson.skill === 'reading' ? getReadingSectionState(lesson) : null;
   const previousLesson = activities[activityIndex - 1] || null;
   const nextLesson = activities[activityIndex + 1] || null;
+  const routeCopy = getUnitRouteCopy();
   const previousTarget =
     readingState?.isPaginated && readingState.current > 0
       ? 'reading-section'
@@ -3565,10 +3566,10 @@ function renderUnitActivityFooter(section, lesson) {
         : 'verbs';
   const nextLabel =
     nextTarget === 'reading-section'
-      ? 'Siguiente'
+      ? routeCopy.next
       : nextLesson
-        ? `Siguiente: ${getSkillLabel(nextLesson.skill)}`
-        : 'Siguiente: Verbos';
+        ? `${routeCopy.next}: ${getSkillLabel(nextLesson.skill)}`
+        : `${routeCopy.next}: ${routeCopy.verbs}`;
 
   const footer = document.createElement('nav');
   footer.className = 'unit-activity-footer no-print';
@@ -3584,7 +3585,7 @@ function renderUnitActivityFooter(section, lesson) {
     <div class="unit-activity-footer-actions">
       ${
         previousTarget
-          ? `<button type="button" class="secondary-btn unit-activity-prev">← Anterior</button>`
+          ? `<button type="button" class="secondary-btn unit-activity-prev">← ${escapeHtml(routeCopy.previous)}</button>`
           : ''
       }
       <button type="button" class="primary-btn unit-activity-next">${escapeHtml(nextLabel)} →</button>
@@ -3619,6 +3620,77 @@ function renderUnitActivityFooter(section, lesson) {
     }
     openUnitSequenceStep('verbs');
   });
+}
+
+function getUnitRouteCopy() {
+  const copy = {
+    english: {
+      previous: 'Previous',
+      next: 'Next',
+      verbs: 'Verbs',
+      retry: 'Retry lesson',
+      nextLesson: 'Next lesson',
+      completed: 'Lesson completed',
+      summary: 'Your seven activities have been evaluated together.'
+    },
+    french: {
+      previous: 'Précédent',
+      next: 'Suivant',
+      verbs: 'Verbes',
+      retry: 'Refaire la leçon',
+      nextLesson: 'Leçon suivante',
+      completed: 'Leçon terminée',
+      summary: 'Vos sept activités ont été évaluées ensemble.'
+    },
+    spanish: {
+      previous: 'Anterior',
+      next: 'Siguiente',
+      verbs: 'Verbos',
+      retry: 'Reintentar lección',
+      nextLesson: 'Lección siguiente',
+      completed: 'Lección terminada',
+      summary: 'Tus siete actividades fueron evaluadas en conjunto.'
+    }
+  };
+  return copy[learningPathState.language] || copy.spanish;
+}
+
+function getUnitScoreFeedback(score) {
+  const value = Math.max(0, Math.min(100, Number(score) || 0));
+  const messages = {
+    english:
+      value >= 90
+        ? ['Excellent!', 'You are amazing!']
+        : value >= 80
+          ? ['Very good!', 'You are doing very well!']
+          : value >= 60
+            ? ['Good work!', 'Keep improving!']
+            : value >= 40
+              ? ['Good effort!', 'We can keep improving.']
+              : ['Let’s try again!', 'Every attempt helps you learn.'],
+    french:
+      value >= 90
+        ? ['Excellent !', 'Tu es formidable !']
+        : value >= 80
+          ? ['Très bien !', 'Tu progresses très bien !']
+          : value >= 60
+            ? ['Bien !', 'Continue à progresser !']
+            : value >= 40
+              ? ['Bon effort !', 'Nous pouvons encore progresser.']
+              : ['On réessaie !', 'Chaque tentative te fait progresser.'],
+    spanish:
+      value >= 90
+        ? ['¡Excelente!', '¡Eres genial!']
+        : value >= 80
+          ? ['¡Muy bien!', '¡Vas muy bien!']
+          : value >= 60
+            ? ['¡Bien!', 'Puedes seguir mejorando.']
+            : value >= 40
+              ? ['¡Buen intento!', 'Podemos seguir mejorando.']
+              : ['¡Vamos de nuevo!', 'Cada intento te ayuda a aprender.']
+  };
+  const [title, detail] = messages[learningPathState.language] || messages.spanish;
+  return { title, detail };
 }
 
 function buildLearningRouteContextHtml(activeLesson = null) {
@@ -3787,6 +3859,20 @@ function renderUnitVerbContext() {
     showUnitCompletionPanel({ unitId: unit.id, xpReward: 0 });
   });
 }
+
+window.finishCurrentUnitRoute = function finishCurrentUnitRoute() {
+  if (!learningPathState.unitId) return;
+  loadDashboard();
+  showUnitCompletionPanel({ unitId: learningPathState.unitId, xpReward: 0 });
+};
+
+window.getCurrentUnitFinishLabel = function getCurrentUnitFinishLabel() {
+  return {
+    english: 'Finish lesson',
+    french: 'Terminer la leçon',
+    spanish: 'Terminar lección'
+  }[learningPathState.language] || 'Terminar lección';
+};
 
 // Single place that writes activeSlug - keeps it in sync with unitId so a
 // lesson picked from anywhere (unit accordion, skill library) always moves
@@ -14222,27 +14308,33 @@ function showUnitCompletionPanel({ unitId, xpReward = 30 } = {}) {
   document.querySelector('.unit-completion-overlay')?.remove();
   const nextUnit = learningPathState.units.find((item) => item.order === unit.order + 1);
   const metrics = getUnitProgressMetrics(unitId);
+  const copy = getUnitRouteCopy();
+  const feedback = getUnitScoreFeedback(metrics.progressPercent);
   const overlay = document.createElement('div');
   overlay.className = 'unit-completion-overlay';
   overlay.innerHTML = `
     <section class="unit-completion-card" role="dialog" aria-modal="true" aria-labelledby="unitCompletionTitle">
       <button type="button" class="unit-completion-close" aria-label="Cerrar">×</button>
       <span class="unit-completion-icon" aria-hidden="true">🏁</span>
-      <span class="unit-completion-kicker">Unidad completada</span>
+      <span class="unit-completion-kicker">${escapeHtml(copy.completed)}</span>
       <h2 id="unitCompletionTitle">${escapeHtml(unit.title)}</h2>
-      <p>Completaste el recorrido de comprensión, vocabulario, gramática y producción.</p>
+      <p>${escapeHtml(copy.summary)}</p>
+      <div class="unit-completion-feedback" role="status">
+        <strong>${escapeHtml(feedback.title)}</strong>
+        <span>${escapeHtml(feedback.detail)}</span>
+      </div>
       <div class="unit-completion-results">
         <span><strong>${metrics.completedCount}/${metrics.total}</strong> actividades</span>
         <span><strong>${metrics.progressPercent}/100</strong> score</span>
         <span><strong>+${escapeHtml(String(xpReward))}</strong> XP</span>
       </div>
       <div class="unit-completion-actions">
+        <button type="button" class="secondary-btn unit-completion-retry">${escapeHtml(copy.retry)}</button>
         ${
           nextUnit
-            ? `<button type="button" class="primary-btn unit-completion-next" data-unit-id="${escapeHtml(nextUnit.id)}">Continuar a la siguiente unidad →</button>`
+            ? `<button type="button" class="primary-btn unit-completion-next" data-unit-id="${escapeHtml(nextUnit.id)}">${escapeHtml(copy.nextLesson)} →</button>`
             : '<button type="button" class="primary-btn unit-completion-progress">Ver mi progreso</button>'
         }
-        ${nextUnit ? '<button type="button" class="secondary-btn unit-completion-progress">Ver mi progreso</button>' : ''}
       </div>
     </section>
   `;
@@ -14257,6 +14349,15 @@ function showUnitCompletionPanel({ unitId, xpReward = 30 } = {}) {
     close();
     history.pushState(null, '', '#progress');
     showView('progress');
+  });
+  overlay.querySelector('.unit-completion-retry')?.addEventListener('click', () => {
+    close();
+    const activities = getUnitActivities(unit.id);
+    const lesson =
+      activities.find((item) => item.skill === 'reading' && !item.locked) ||
+      activities.find((item) => !item.locked) ||
+      activities[0];
+    if (lesson) openUnitSequenceStep(lesson.skill, lesson.slug);
   });
   overlay.querySelector('.unit-completion-next')?.addEventListener('click', () => {
     const nextButton = overlay.querySelector('.unit-completion-next');
