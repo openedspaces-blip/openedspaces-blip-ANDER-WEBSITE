@@ -38,7 +38,15 @@ function shapeReading(reading) {
 // through that sanitizer (see scripts/sync-worlds-from-seed.js).
 function shapeExtra(a) {
   const extra = {};
-  if (a.grammarTest) extra.grammarTest = a.grammarTest;
+  // A1 assessments contain exactly ten questions. Keep this normalization
+  // in the builder itself so rebuilding Listening content can never restore
+  // older twelve-question authoring banks.
+  if (a.grammarTest) {
+    extra.grammarTest = {
+      ...a.grammarTest,
+      questions: (a.grammarTest.questions || []).slice(0, 10)
+    };
+  }
   if (a.listeningType) extra.listeningType = a.listeningType;
   // storyTitle/mainTranscript/transcriptSegments: the official ElevenLabs
   // story narration's title, literal transcript, and per-sentence

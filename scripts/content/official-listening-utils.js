@@ -124,12 +124,22 @@ function enrichOfficialListening(units, { language, level }) {
       reviewStatus: 'focus-only'
     };
     activity.dictation = buildDictation(activity.transcriptSegments, level === 'A2' ? 4 : 3);
-    activity.listeningComprehension = buildComprehension(
-      `${language}-${level.toLowerCase()}-${unit.slug}-listening`,
-      activity.transcriptSegments,
-      level,
-      language
-    );
+    // Preserve an editorially reviewed bank. It can ask natural questions
+    // about people, places and intentions; the chronology generator is only
+    // a fallback for units that have not yet been reviewed.
+    const reviewedComprehension =
+      activity.listeningComprehension?.editoriallyReviewed === true &&
+      activity.listeningComprehension?.questions?.length === 4
+        ? activity.listeningComprehension
+        : null;
+    activity.listeningComprehension =
+      reviewedComprehension ||
+      buildComprehension(
+        `${language}-${level.toLowerCase()}-${unit.slug}-listening`,
+        activity.transcriptSegments,
+        level,
+        language
+      );
     activity.exercises = activity.listeningComprehension.questions.map((question) => ({
       type: 'mcq',
       prompt: question.prompt,

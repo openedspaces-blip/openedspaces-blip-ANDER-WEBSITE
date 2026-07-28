@@ -237,12 +237,13 @@ const units = [
         // category: name, origin, greeting, explicit information, farewell.
         listeningComprehension: {
           id: 'english-a1-hello-listening-comprehension',
+          editoriallyReviewed: true,
           passingScore: 70,
           questions: [
             {
               id: 'q1',
               type: 'mcq',
-              prompt: 'What is the girl\'s name in the dialogue?',
+              prompt: 'What is the speaker\'s name?',
               options: [
                 { id: 'o1', text: 'Ana' },
                 { id: 'o2', text: 'Leo' },
@@ -255,54 +256,41 @@ const units = [
             {
               id: 'q2',
               type: 'mcq',
+              prompt: 'How old is Ana?',
+              options: [
+                { id: 'o1', text: 'Sixteen' },
+                { id: 'o2', text: 'Eighteen' },
+                { id: 'o3', text: 'Twenty' },
+                { id: 'o4', text: 'Twenty-two' }
+              ],
+              correctOptionId: 'o2',
+              explanation: 'Ana says: "I am eighteen years old."'
+            },
+            {
+              id: 'q3',
+              type: 'mcq',
               prompt: 'Where is Leo from?',
               options: [
                 { id: 'o1', text: 'Spain' },
                 { id: 'o2', text: 'Italy' },
                 { id: 'o3', text: 'France' },
-                { id: 'o4', text: 'Dominican Republic' }
+                { id: 'o4', text: 'The Dominican Republic' }
               ],
               correctOptionId: 'o2',
-              explanation: 'Leo says: "I\'m from Italy."'
-            },
-            {
-              id: 'q3',
-              type: 'mcq',
-              prompt: 'What does Ana say at the beginning of the dialogue?',
-              options: [
-                { id: 'o1', text: 'Good morning!' },
-                { id: 'o2', text: 'Good night!' },
-                { id: 'o3', text: 'See you later!' },
-                { id: 'o4', text: 'How old are you?' }
-              ],
-              correctOptionId: 'o1',
-              explanation: 'Ana opens the conversation with "Good morning!"'
+              explanation: 'The story says: "Leo is from Italy."'
             },
             {
               id: 'q4',
               type: 'mcq',
-              prompt: 'How does Leo answer "How are you today?"',
+              prompt: 'What do Ana and Leo say before they leave?',
               options: [
-                { id: 'o1', text: 'I\'m fine, thanks. And you?' },
-                { id: 'o2', text: 'I\'m from Italy.' },
-                { id: 'o3', text: 'Nice to meet you.' },
-                { id: 'o4', text: 'See you later.' }
+                { id: 'o1', text: 'Good night.' },
+                { id: 'o2', text: 'See you tomorrow.' },
+                { id: 'o3', text: 'Welcome home.' },
+                { id: 'o4', text: 'Have a good trip.' }
               ],
-              correctOptionId: 'o1',
-              explanation: 'Leo answers: "I\'m fine, thanks. And you?"'
-            },
-            {
-              id: 'q5',
-              type: 'mcq',
-              prompt: 'What does Ana say to end the conversation?',
-              options: [
-                { id: 'o1', text: 'Nice to meet you.' },
-                { id: 'o2', text: 'What\'s your name?' },
-                { id: 'o3', text: 'See you later, Leo! Goodbye!' },
-                { id: 'o4', text: 'Where are you from?' }
-              ],
-              correctOptionId: 'o3',
-              explanation: 'Ana says goodbye with "See you later, Leo! Goodbye!"'
+              correctOptionId: 'o2',
+              explanation: 'At the end, they say: "See you tomorrow."'
             }
           ]
         }

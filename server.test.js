@@ -3541,3 +3541,25 @@ test('official Listening content builds exactly four questions from the narrated
     assert.match(question.prompt, /story/i);
   }
 });
+
+test('English A1 Hello Listening keeps its specific editorial questions', () => {
+  const { units } = require('./scripts/content/english-a1-units');
+  const hello = units.find((unit) => unit.slug === 'hello');
+  const questions = hello.activities.listening.listeningComprehension.questions;
+
+  assert.deepEqual(
+    questions.map((question) => question.prompt),
+    [
+      "What is the speaker's name?",
+      'How old is Ana?',
+      'Where is Leo from?',
+      'What do Ana and Leo say before they leave?'
+    ]
+  );
+  assert.ok(
+    questions.every(
+      (question) =>
+        !/official audio|which information is stated/i.test(question.prompt)
+    )
+  );
+});

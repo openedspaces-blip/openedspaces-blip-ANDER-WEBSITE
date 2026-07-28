@@ -1383,92 +1383,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "What is the speaker's name?",
             "options": [
               {
                 "id": "o1",
-                "text": "My name is Ana."
+                "text": "Ana"
               },
               {
                 "id": "o2",
-                "text": "It is a very good first day."
+                "text": "Leo"
               },
               {
                 "id": "o3",
-                "text": "At the end, we say, “Nice to meet you” and “See you tomorrow.”"
+                "text": "Sofia"
               },
               {
                 "id": "o4",
-                "text": "We talk about our countries and our new class."
+                "text": "Marco"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "How old is Ana?",
             "options": [
               {
                 "id": "o1",
-                "text": "It is a very good first day."
+                "text": "Sixteen"
               },
               {
                 "id": "o2",
-                "text": "At the end, we say, “Nice to meet you” and “See you tomorrow.”"
+                "text": "Eighteen"
               },
               {
                 "id": "o3",
-                "text": "We talk about our countries and our new class."
+                "text": "Twenty"
               },
               {
                 "id": "o4",
-                "text": "I feel a little nervous, but I am also excited."
+                "text": "Twenty-two"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which event happens later in the story?",
+            "prompt": "Where is Leo from?",
             "options": [
               {
                 "id": "o1",
-                "text": "I am eighteen years old, and I am from the Dominican Republic."
+                "text": "Spain"
               },
               {
                 "id": "o2",
-                "text": "Today is my first English class."
+                "text": "Italy"
               },
               {
                 "id": "o3",
-                "text": "I tell him my name, and he tells me his."
+                "text": "France"
               },
               {
                 "id": "o4",
-                "text": "My name is Ana."
+                "text": "The Dominican Republic"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "What do Ana and Leo say before they leave?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is my first English class."
+                "text": "Good night."
               },
               {
                 "id": "o2",
-                "text": "It is a very good first day."
+                "text": "See you tomorrow."
               },
               {
                 "id": "o3",
-                "text": "My name is Ana."
+                "text": "Welcome home."
               },
               {
                 "id": "o4",
-                "text": "I am eighteen years old, and I am from the Dominican Republic."
+                "text": "Have a good trip."
               }
             ]
           }
@@ -1479,42 +1479,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "What is the speaker's name?",
         "options": [
-          "My name is Ana.",
-          "It is a very good first day.",
-          "At the end, we say, “Nice to meet you” and “See you tomorrow.”",
-          "We talk about our countries and our new class."
+          "Ana",
+          "Leo",
+          "Sofia",
+          "Marco"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What happens next in the story?",
+        "prompt": "How old is Ana?",
         "options": [
-          "It is a very good first day.",
-          "At the end, we say, “Nice to meet you” and “See you tomorrow.”",
-          "We talk about our countries and our new class.",
-          "I feel a little nervous, but I am also excited."
+          "Sixteen",
+          "Eighteen",
+          "Twenty",
+          "Twenty-two"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which event happens later in the story?",
+        "prompt": "Where is Leo from?",
         "options": [
-          "I am eighteen years old, and I am from the Dominican Republic.",
-          "Today is my first English class.",
-          "I tell him my name, and he tells me his.",
-          "My name is Ana."
+          "Spain",
+          "Italy",
+          "France",
+          "The Dominican Republic"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "What do Ana and Leo say before they leave?",
         "options": [
-          "Today is my first English class.",
-          "It is a very good first day.",
-          "My name is Ana.",
-          "I am eighteen years old, and I am from the Dominican Republic."
+          "Good night.",
+          "See you tomorrow.",
+          "Welcome home.",
+          "Have a good trip."
         ]
       }
     ]
