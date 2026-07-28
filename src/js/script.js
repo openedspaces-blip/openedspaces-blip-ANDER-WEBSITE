@@ -4073,9 +4073,18 @@ function setTutorAutoplayPref(enabled) {
 function getReadingVoicesForLocale(locale) {
   if (!supportsSpeech()) return [];
   const all = window.speechSynthesis.getVoices() || [];
-  const prefix = (locale || '').split('-')[0];
-  const exact = all.filter((voice) => voice.lang === locale);
-  const pool = exact.length ? exact : all.filter((voice) => voice.lang?.startsWith(prefix));
+  const normalizedLocale = String(locale || '').toLocaleLowerCase();
+  const prefix = normalizedLocale.split('-')[0];
+  const haitianVoiceName = /(haitian|krey[oò]l|creole|criollo)/i;
+  const isCompatibleVoice = (voice) => {
+    const voiceLocale = String(voice.lang || '').toLocaleLowerCase();
+    if (voiceLocale === normalizedLocale || voiceLocale.split('-')[0] === prefix) return true;
+    return prefix === 'ht' && haitianVoiceName.test(String(voice.name || ''));
+  };
+  const exact = all.filter(
+    (voice) => String(voice.lang || '').toLocaleLowerCase() === normalizedLocale
+  );
+  const pool = exact.length ? exact : all.filter(isCompatibleVoice);
   const seen = new Set();
   const uniquePool = pool.filter((voice) => {
     if (seen.has(voice.name)) return false;
@@ -4094,7 +4103,8 @@ function getReadingVoicesForLocale(locale) {
       'Microsoft Helena',
       'Microsoft Pablo'
     ],
-    fr: ['Google français']
+    fr: ['Google français'],
+    ht: ['Google Kreyòl Ayisyen', 'Haitian Creole', 'Kreyòl', 'Creole']
   };
   const preferred = preferredNames[prefix] || [];
   uniquePool.sort((left, right) => {
@@ -4217,7 +4227,7 @@ function createReadingAudioPlayer({ engine = 'browser', language, voice, rate, p
       if (voice) utterance.voice = voice;
       utterance.onstart = () => onStart?.();
       utterance.onend = () => onEnd?.();
-      utterance.onerror = () => onError?.();
+      utterance.onerror = (event) => onError?.(event);
       window.speechSynthesis.speak(utterance);
       return utterance;
     }
@@ -4246,6 +4256,11 @@ const readingSpeechPlayer = (() => {
   let volume = 1;
   let voices = [];
   let voiceIndex = 0;
+  // Keep a strong reference while mobile Safari/Chrome is speaking.
+  // Some mobile WebKit builds can garbage-collect an utterance that only
+  // remains inside the native speech queue, stopping it before onend.
+  let currentUtterance = null;
+  let retriedCurrentSegmentWithoutVoice = false;
   let progressTimer = null;
   let playbackToken = 0; // bumped on every intentional interrupt, so stale utterance callbacks (cancel(), then a new one starts) never act twice
   let onUpdate = null;
@@ -4336,7 +4351,12 @@ const readingSpeechPlayer = (() => {
       emitUpdate();
       return;
     }
-    window.speechSynthesis.cancel();
+    const synth = window.speechSynthesis;
+    // Calling cancel() twice immediately before speak() can also cancel the
+    // newly queued utterance in Android Chrome. Only clear a real active
+    // queue, then explicitly leave the engine resumed.
+    if (synth.speaking || synth.pending || synth.paused) synth.cancel();
+    synth.resume();
     playbackToken += 1;
     const myToken = playbackToken;
     const player = createReadingAudioPlayer({
@@ -4348,15 +4368,36 @@ const readingSpeechPlayer = (() => {
       volume
     });
     segmentStartedAt = performance.now();
-    player.speakSegment(seg, {
+    currentUtterance = player.speakSegment(seg, {
+      onStart: () => {
+        if (myToken !== playbackToken || state !== 'playing') return;
+        segmentStartedAt = performance.now();
+        emitUpdate();
+      },
       onEnd: () => {
         if (myToken !== playbackToken || state !== 'playing') return;
+        currentUtterance = null;
+        retriedCurrentSegmentWithoutVoice = false;
         elapsedBeforeCurrentSegment += seg.estimatedDurationSeconds;
         currentSegmentIndex += 1;
         speakCurrentSegment();
       },
-      onError: () => {
+      onError: (event) => {
         if (myToken !== playbackToken || state !== 'playing') return;
+        currentUtterance = null;
+        const recoverableVoiceError = ['synthesis-failed', 'voice-unavailable', 'language-unavailable'].includes(
+          event?.error
+        );
+        if (currentVoice() && recoverableVoiceError && !retriedCurrentSegmentWithoutVoice) {
+          // Android occasionally exposes a voice in getVoices() that its
+          // speech service cannot actually start. Retry this same sentence
+          // once with the device default while preserving the requested lang.
+          retriedCurrentSegmentWithoutVoice = true;
+          voices = [];
+          voiceIndex = 0;
+          speakCurrentSegment();
+          return;
+        }
         state = 'error';
         clearTimer();
         emitUpdate();
@@ -4399,8 +4440,8 @@ const readingSpeechPlayer = (() => {
       elapsedBeforeCurrentSegment = 0;
     }
     if (!supportsSpeech()) return;
-    window.speechSynthesis.cancel(); // only one reading (or flashcard/tutor) utterance is ever active at a time
     state = 'playing';
+    retriedCurrentSegmentWithoutVoice = false;
     speakCurrentSegment();
   }
 
@@ -4454,6 +4495,8 @@ const readingSpeechPlayer = (() => {
 
   function stopReading() {
     playbackToken += 1;
+    currentUtterance = null;
+    retriedCurrentSegmentWithoutVoice = false;
     state = 'stopped';
     clearTimer();
     if (supportsSpeech()) window.speechSynthesis.cancel();
@@ -4529,6 +4572,8 @@ const readingSpeechPlayer = (() => {
 
   function teardown() {
     playbackToken += 1;
+    currentUtterance = null;
+    retriedCurrentSegmentWithoutVoice = false;
     clearTimer();
     if (supportsSpeech()) window.speechSynthesis.cancel();
     state = 'idle';
@@ -7499,22 +7544,44 @@ function getReadingComprehensionRuntime(slug) {
       gradingItems: {},
       graded: false,
       grading: false,
-      error: ''
+      error: '',
+      questionCount: null
     };
     readingComprehensionState.set(slug, runtime);
   }
   return runtime;
 }
 
-function resetReadingComprehensionRuntime(slug) {
+function resetReadingComprehensionRuntime(slug, questionCount = null) {
+  const current = readingComprehensionState.get(slug);
   readingComprehensionState.set(slug, {
     selections: {},
     results: {},
     gradingItems: {},
     graded: false,
     grading: false,
-    error: ''
+    error: '',
+    questionCount: questionCount ?? current?.questionCount ?? null
   });
+}
+
+function getReadingQuestionCountConfig(lesson, entries, runtime) {
+  const level = String(lesson?.level || '').toUpperCase();
+  const canChooseCount =
+    ['B1', 'B2'].includes(level) &&
+    entries.length >= 10 &&
+    entries.slice(0, 10).every(({ item }) => Boolean(item.id));
+  const choices = canChooseCount ? [5, 10] : [entries.length];
+  const selected = choices.includes(runtime.questionCount)
+    ? runtime.questionCount
+    : choices[0];
+  return { choices, selected, canChooseCount };
+}
+
+function getVisibleReadingComprehensionEntries(lesson, entries) {
+  const runtime = getReadingComprehensionRuntime(lesson.slug);
+  const { selected } = getReadingQuestionCountConfig(lesson, entries, runtime);
+  return entries.slice(0, selected);
 }
 
 // 90-100/80-89/70-79/60-69/<60 score bands - wording per spec, never
@@ -7564,9 +7631,26 @@ function renderReadingComprehensionQuiz(lesson, entries) {
   }
 
   const runtime = getReadingComprehensionRuntime(lesson.slug);
-  const total = entries.length;
+  const { choices, selected, canChooseCount } = getReadingQuestionCountConfig(lesson, entries, runtime);
+  const visibleEntries = entries.slice(0, selected);
+  const total = visibleEntries.length;
+  const answeredCount = visibleEntries.filter(
+    ({ exerciseIndex }) => runtime.selections[exerciseIndex] != null
+  ).length;
+  const progressPercent = total ? Math.round((answeredCount / total) * 100) : 0;
+  const countControlsHtml = canChooseCount
+    ? `<div class="reading-comp-count-controls" role="group" aria-label="Cantidad de preguntas">
+        <span>${french ? 'Choisissez votre défi' : 'Elige tu reto'}</span>
+        ${choices
+          .map(
+            (count) =>
+              `<button type="button" class="reading-comp-count-btn${count === selected ? ' is-selected' : ''}" data-lesson-slug="${escapeHtml(lesson.slug)}" data-question-count="${count}" aria-pressed="${count === selected ? 'true' : 'false'}">${count} ${french ? 'questions' : 'preguntas'}</button>`
+          )
+          .join('')}
+      </div>`
+    : '';
 
-  const questionsHtml = entries
+  const questionsHtml = visibleEntries
     .map(({ item, exerciseIndex }, displayIndex) => {
       const selectedKey = runtime.selections[exerciseIndex];
       const result = runtime.results[exerciseIndex] || null;
@@ -7606,7 +7690,7 @@ function renderReadingComprehensionQuiz(lesson, entries) {
 
       return `
         <div class="reading-comp-question" data-exercise-index="${exerciseIndex}" data-lesson-slug="${escapeHtml(lesson.slug || '')}">
-          <strong class="reading-comp-prompt">${displayIndex + 1}. ${escapeHtml(item.prompt)}</strong>
+          <div class="reading-comp-question-heading"><span class="reading-comp-question-number">${displayIndex + 1}</span><strong class="reading-comp-prompt">${escapeHtml(item.prompt)}</strong></div>
           <div class="reading-comp-options">${optionsHtml}</div>
           ${isChecking ? `<span class="reading-comp-feedback">${french ? 'Vérification de la réponse…' : 'Comprobando respuesta…'}</span>` : ''}
           ${feedbackHtml}
@@ -7615,12 +7699,9 @@ function renderReadingComprehensionQuiz(lesson, entries) {
     })
     .join('');
 
-  const answeredCount = entries.filter(
-    ({ exerciseIndex }) => runtime.selections[exerciseIndex] != null
-  ).length;
   const allAnswered =
     answeredCount === total &&
-    entries.every(({ exerciseIndex }) => runtime.results[exerciseIndex] != null);
+    visibleEntries.every(({ exerciseIndex }) => runtime.results[exerciseIndex] != null);
 
   const actionsHtml = runtime.graded
     ? `<button type="button" class="primary-btn reading-comp-retry-btn" data-lesson-slug="${escapeHtml(lesson.slug)}">${french ? 'Réessayer' : 'Intentar de nuevo'}</button>`
@@ -7634,6 +7715,11 @@ function renderReadingComprehensionQuiz(lesson, entries) {
 
   return `
     <div class="reading-comp-quiz">
+      <div class="reading-comp-quiz-header">
+        <div><span class="reading-comp-kicker">${french ? 'Défi de compréhension' : 'Reto de comprensión'}</span><strong>${answeredCount}/${total} ${french ? 'répondues' : 'respondidas'}</strong></div>
+        <div class="reading-comp-progress" role="progressbar" aria-valuenow="${progressPercent}" aria-valuemin="0" aria-valuemax="100"><span style="width:${progressPercent}%"></span></div>
+      </div>
+      ${countControlsHtml}
       ${questionsHtml}
       <div class="reading-comp-actions">${actionsHtml}</div>
       ${errorHtml}
@@ -14551,6 +14637,28 @@ function enableHomepageActions() {
       return;
     }
 
+    const readingCompCountBtn = event.target.closest('.reading-comp-count-btn');
+    if (readingCompCountBtn) {
+      const slug = readingCompCountBtn.dataset.lessonSlug;
+      const lesson = learningPathState.lessons.find((item) => item.slug === slug);
+      const count = Number(readingCompCountBtn.dataset.questionCount);
+      const entries = (lesson?.exercises || [])
+        .map((item, exerciseIndex) => ({ item, exerciseIndex }))
+        .filter(({ item }) => item.type === 'mcq' && !isTrueFalseExercise(item));
+      const runtime = slug ? getReadingComprehensionRuntime(slug) : null;
+      const { choices } = lesson && runtime
+        ? getReadingQuestionCountConfig(lesson, entries, runtime)
+        : { choices: [] };
+      if (!lesson || !choices.includes(count) || runtime?.grading) return;
+      resetReadingComprehensionRuntime(slug, count);
+      if (SKILL_VIEWS.includes(getViewFromHash())) {
+        renderSkillView(getViewFromHash());
+      } else {
+        renderLessonWorkspace();
+      }
+      return;
+    }
+
     // Reading comprehension quiz (see renderReadingComprehensionQuiz above):
     // every selection is checked immediately, while "Evaluar" remains the
     // final score/summary action after all items have individual feedback.
@@ -14655,7 +14763,8 @@ function enableHomepageActions() {
       const comprehensionEntries = (lesson.exercises || [])
         .map((item, exerciseIndex) => ({ item, exerciseIndex }))
         .filter(({ item }) => item.type === 'mcq' && !isTrueFalseExercise(item));
-      const unanswered = comprehensionEntries.some(
+      const visibleEntries = getVisibleReadingComprehensionEntries(lesson, comprehensionEntries);
+      const unanswered = visibleEntries.some(
         ({ exerciseIndex }) =>
           runtime.selections[exerciseIndex] == null ||
           runtime.results[exerciseIndex] == null
@@ -14667,17 +14776,20 @@ function enableHomepageActions() {
       if (authStatus.session?.access_token) {
         runtime.grading = true;
         try {
-          const answers = (lesson.exercises || []).map((item, exerciseIndex) => ({
+          const answers = visibleEntries.map(({ item, exerciseIndex }) => ({
             exerciseId: item.id,
             index: exerciseIndex,
-            selectedOptionId: item.type === 'mcq' ? runtime.selections[exerciseIndex] : undefined,
-            selectedOption: item.type === 'mcq' ? runtime.selections[exerciseIndex] : undefined,
-            practiced: item.type !== 'mcq'
+            selectedOptionId: runtime.selections[exerciseIndex],
+            selectedOption: runtime.selections[exerciseIndex]
           }));
           const response = await fetch(`${backendBaseUrl}/api/lessons/${slug}/complete`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json', ...authHeaders() },
-            body: JSON.stringify({ answers, assessmentScope: 'reading_comprehension' })
+            body: JSON.stringify({
+              answers,
+              assessmentScope: 'reading_comprehension',
+              assessmentExerciseIds: visibleEntries.map(({ item }) => item.id).filter(Boolean)
+            })
           });
           const data = await response.json().catch(() => ({}));
           if (!response.ok) throw new Error(data.error || 'No se pudo guardar la evaluación.');
@@ -16189,6 +16301,14 @@ function setupTranslator() {
       return;
     }
     stopTranslatorPlayback();
+    const requestedBase = String(locale || '').toLocaleLowerCase().split('-')[0];
+    if (requestedBase === 'ht' && !getReadingVoicesForLocale(locale).length) {
+      setStatus(
+        'La voz en kreyòl no está instalada en este dispositivo. Actívala en las voces del sistema para poder escucharla.',
+        'is-unavailable'
+      );
+      return;
+    }
     const playback = { button };
     translatorPlayback = playback;
     setTranslatorListenState(button, true);
