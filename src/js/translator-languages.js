@@ -13,9 +13,8 @@
 // currently-supported DeepL language (deeplSupported: true, with the exact
 // code DeepL documents - never invented) or a language ANDERGO wants to
 // show later but that DeepL does not yet translate (deeplSupported: false,
-// deeplBase: null) - Haitian Creole and Hawaiian are listed only so the UI
-// has one place to source their "no disponible con el proveedor actual"
-// state from; they must never reach translatorService/DeepL.
+// deeplBase: null). Haitian Creole is active through DeepL's HT code;
+// Hawaiian remains registered but inactive until the provider supports it.
 //
 // locale/dictationCode mirror this app's existing pronunciation tables
 // (src/js/script.js's LANGUAGE_LOCALES/DICTATION_LANGUAGE_CODES) so the
@@ -45,10 +44,9 @@
     // 'chinese' row here (spec item 9: distinguish variants "si la API
     // actual los distingue" - it doesn't, for Chinese).
     { key: 'chinese', label: '中文 (简体)', flag: '🇨🇳', deeplSupported: true, deeplBase: 'ZH', locale: 'zh-CN', dictationCode: 'zh-CN' },
-    // Not yet DeepL languages - kept out of every selector until a
-    // compatible provider exists (spec: "no añadas todavía... como idiomas
-    // activos de DeepL").
-    { key: 'haitianCreole', label: 'Kreyòl Ayisyen', flag: '🇭🇹', deeplSupported: false, deeplBase: null, locale: null, dictationCode: null },
+    { key: 'haitianCreole', label: 'Kreyòl Ayisyen · Criollo haitiano', flag: '🇭🇹', deeplSupported: true, deeplBase: 'HT', locale: 'ht-HT', dictationCode: 'ht-HT' },
+    // Not yet a DeepL language - kept out of every selector until a
+    // compatible provider exists.
     { key: 'hawaiian', label: 'ʻŌlelo Hawaiʻi', flag: '🌺', deeplSupported: false, deeplBase: null, locale: null, dictationCode: null }
   ];
 

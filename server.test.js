@@ -19,7 +19,8 @@ const { isPaddlePremiumStatus } = require('./lib/subscriptionService');
 const {
   isConfiguredPremiumPrice,
   isValidUuid,
-  normalizeEventData
+  normalizeEventData,
+  priceIdForBillingCycle
 } = require('./lib/billingService');
 
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
@@ -769,6 +770,40 @@ test('public Paddle config exposes checkout identifiers but never server secrets
     assert.equal(Object.hasOwn(body, 'webhookSecret'), false);
   } finally {
     server.close();
+  }
+});
+
+test('Paddle checkout is authenticated and the browser opens only a server-created transaction', async () => {
+  const { server, port } = await startTestServer();
+  try {
+    const response = await fetch(`http://127.0.0.1:${port}/api/billing/checkout`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ billingCycle: 'monthly' })
+    });
+    assert.equal(response.status, 401);
+
+    const source = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+    assert.match(source, /\/api\/billing\/checkout/);
+    assert.match(source, /transactionId:\s*transaction\.transactionId/);
+    assert.doesNotMatch(source, /customData:\s*\{\s*user_id:\s*authStatus\.user\.id/);
+  } finally {
+    server.close();
+  }
+});
+
+test('Paddle billing cycles map only to server-configured prices', () => {
+  const previousMonthlyPriceId = config.paddle.monthlyPriceId;
+  const previousQuarterlyPriceId = config.paddle.quarterlyPriceId;
+  config.paddle.monthlyPriceId = 'pri_monthly';
+  config.paddle.quarterlyPriceId = 'pri_quarterly';
+  try {
+    assert.equal(priceIdForBillingCycle('monthly'), 'pri_monthly');
+    assert.equal(priceIdForBillingCycle('quarterly'), 'pri_quarterly');
+    assert.equal(priceIdForBillingCycle('annual'), null);
+  } finally {
+    config.paddle.monthlyPriceId = previousMonthlyPriceId;
+    config.paddle.quarterlyPriceId = previousQuarterlyPriceId;
   }
 });
 
@@ -3350,7 +3385,29 @@ test('Reading selections use the contextual ANDERGO translator and coordinated l
   assert.match(source, /reading-translation-save/);
   assert.match(source, /reading-translation-tutor/);
   assert.match(source, /reading-translation-open/);
-  assert.match(source, /Haz doble clic en una palabra o tócala dos veces para traducirla/);
+  assert.match(source, /Doble clic o dos toques: traduce, escucha, consulta o guarda palabras/);
+  assert.match(
+    source,
+    /Cada lección ha sido nivelada según el MCERL \(Marco Común Europeo de Referencia de las Lenguas\)/
+  );
+});
+
+test('Translator uses the available width, grows long text panels and prefers Latin American Spanish TTS', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const styles = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  const translatorLanguages = require('./src/js/translator-languages');
+
+  assert.match(styles, /\.translator-workspace\s*\{[\s\S]*?max-width:\s*1400px/);
+  assert.match(styles, /\.translator-grid \.tutor-input\s*\{[\s\S]*?max-height:\s*480px/);
+  assert.match(source, /syncTranslatorTextareaHeights/);
+  assert.match(source, /Google español de Estados Unidos[\s\S]*?Google español/);
+  assert.equal(translatorLanguages.getTranslatorLanguage('spanish').locale, 'es-419');
+  assert.equal(translatorLanguages.getTranslatorLanguage('haitianCreole').deeplSupported, true);
+  assert.equal(translatorLanguages.getTranslatorLanguage('haitianCreole').deeplBase, 'HT');
+  assert.equal(
+    translatorLanguages.getSelectableLanguages().some((item) => item.key === 'haitianCreole'),
+    true
+  );
 });
 
 test('saved Reading vocabulary is Premium-only, secured in Supabase and rendered inside Vocabulary', () => {

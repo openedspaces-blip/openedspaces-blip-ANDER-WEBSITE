@@ -237,9 +237,20 @@ async function openPaddleCheckout(billingCycle, button) {
 
   try {
     const billing = paddleBillingConfig || (await loadPaddleBillingConfig());
-    const priceId = billing?.prices?.[billingCycle];
-    if (!billing?.checkoutConfigured || !billing?.clientSideToken || !priceId) {
+    if (!billing?.configured || !billing?.clientSideToken) {
       throw new Error('Paddle todavÃ­a no tiene configurados sus identificadores de pago.');
+    }
+
+    const transactionResponse = await authFetch(`${backendBaseUrl}/api/billing/checkout`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ billingCycle })
+    });
+    const transaction = await transactionResponse.json().catch(() => ({}));
+    if (!transactionResponse.ok || !transaction.transactionId) {
+      throw new Error(
+        transaction.error || 'No se pudo preparar el pago Premium de forma segura.'
+      );
     }
 
     const Paddle = await loadPaddleScript();
@@ -265,12 +276,8 @@ async function openPaddleCheckout(billingCycle, button) {
 
     Paddle.Checkout.open({
       settings: { displayMode: 'overlay', theme: 'light', locale: 'es' },
-      items: [{ priceId, quantity: 1 }],
-      customer: authStatus.user.email ? { email: authStatus.user.email } : undefined,
-      customData: {
-        user_id: authStatus.user.id,
-        plan: billingCycle
-      }
+      transactionId: transaction.transactionId,
+      customer: authStatus.user.email ? { email: authStatus.user.email } : undefined
     });
     if (status) status.textContent = '';
   } catch (error) {
@@ -3451,9 +3458,12 @@ function openUnitSequenceStep(skill, lessonSlug = '') {
       pronunciationIndex: 0,
       pronunciationOverride: ''
     };
+    // Write the destination before showView() reads the hash. Otherwise
+    // showView restored the previous unit from the stale URL and silently
+    // undid the selection made by the completion panel.
+    updateLearnHash('speaking');
     showView('speaking');
     renderSkillView('speaking');
-    updateLearnHash('speaking');
     return;
   }
   if (!SKILL_VIEWS.includes(skill) || !lessonSlug) return;
@@ -3463,9 +3473,9 @@ function openUnitSequenceStep(skill, lessonSlug = '') {
     return;
   }
   setActiveLesson(lessonSlug);
+  updateLearnHash(skill);
   showView(skill);
   renderSkillView(skill);
-  updateLearnHash(skill);
 }
 
 // Each activity used to expose every optional Tutor, translator and download
@@ -3843,6 +3853,7 @@ const languageDisplayNames = {
   portuguese: 'Português',
   japanese: '日本語',
   chinese: '中文 (简体)',
+  haitianCreole: 'Kreyòl Ayisyen · Criollo haitiano',
   ai: 'AI Tutor'
 };
 
@@ -3866,7 +3877,8 @@ const LANGUAGE_LOCALES = {
   german: 'de-DE',
   portuguese: 'pt-BR',
   japanese: 'ja-JP',
-  chinese: 'zh-CN'
+  chinese: 'zh-CN',
+  haitianCreole: 'ht-HT'
 };
 
 function supportsSpeech() {
@@ -4072,7 +4084,16 @@ function getReadingVoicesForLocale(locale) {
   });
   const preferredNames = {
     en: ['Google US English', 'Google UK English Female', 'Microsoft Zira', 'Microsoft David'],
-    es: ['Google español', 'Google español de Estados Unidos', 'Microsoft Helena', 'Microsoft Pablo'],
+    es: [
+      'Google español de Estados Unidos',
+      'Microsoft Sabina',
+      'Microsoft Raul',
+      'Microsoft Paulina',
+      'Microsoft Juan',
+      'Google español',
+      'Microsoft Helena',
+      'Microsoft Pablo'
+    ],
     fr: ['Google français']
   };
   const preferred = preferredNames[prefix] || [];
@@ -5322,7 +5343,8 @@ const DICTATION_LANGUAGE_CODES = {
   german: 'de-DE',
   portuguese: 'pt-BR',
   japanese: 'ja-JP',
-  chinese: 'zh-CN'
+  chinese: 'zh-CN',
+  haitianCreole: 'ht-HT'
 };
 const DICTATION_MAX_SECONDS = 45;
 
@@ -5984,6 +6006,11 @@ function renderSkillGraph() {
 
 function renderLessonExercise(item, index, lesson) {
   const recorded = learningPathState.exerciseResults[lesson.slug]?.[index];
+  const total = lesson.exercises?.length || 0;
+  const french = isFrenchAdvancedImmersion();
+  const challengeLabel = french ? 'Défi' : 'Reto';
+  const responseHint = french ? 'Choisissez la meilleure réponse.' : 'Elige la mejor respuesta.';
+  const practiceLabel = french ? 'Pratique guidée' : 'Práctica guiada';
 
   if (item.type === 'mcq' && Array.isArray(item.options)) {
     const optionsHtml = item.options
@@ -5992,7 +6019,8 @@ function renderLessonExercise(item, index, lesson) {
         const isChosen = recorded && String(recorded.selectedOption) === String(key);
         const cls = isChosen ? (recorded.correct ? 'correct' : 'incorrect') : '';
         const disabled = recorded ? 'disabled' : '';
-        return `<button type="button" class="mcq-option ${cls}" data-option-key="${escapeHtml(String(key))}" data-option-index="${optionIndex}" ${disabled}>${escapeHtml(optionLabel(option))}</button>`;
+        const letter = String.fromCharCode(65 + optionIndex);
+        return `<button type="button" class="mcq-option ${cls}" data-option-key="${escapeHtml(String(key))}" data-option-index="${optionIndex}" aria-pressed="${isChosen ? 'true' : 'false'}" ${disabled}><span class="mcq-option-letter" aria-hidden="true">${letter}</span><span class="mcq-option-text">${escapeHtml(optionLabel(option))}</span></button>`;
       })
       .join('');
     const answeredClass = recorded
@@ -6002,20 +6030,27 @@ function renderLessonExercise(item, index, lesson) {
       ? recorded.correct
         ? '¡Correcto! +5 XP'
         : 'No es correcto, pero sigue intentando.'
-      : '';
+      : responseHint;
     return `
       <div class="mcq-question lesson-exercise ${answeredClass}" data-exercise-index="${index}" data-exercise-id="${escapeHtml(item.id || '')}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || '')}" data-language="${escapeHtml(learningPathState.language)}">
-        <strong>${index + 1}. ${escapeHtml(item.prompt)}</strong>
+        <div class="exercise-challenge-heading">
+          <span class="exercise-challenge-kicker">${challengeLabel} ${index + 1}${total ? ` / ${total}` : ''}</span>
+          <span class="exercise-xp">+5 XP</span>
+        </div>
+        <strong class="exercise-prompt">${escapeHtml(item.prompt)}</strong>
         <div class="mcq-options">${optionsHtml}</div>
-        <span class="mcq-feedback" aria-live="polite">${feedbackText}</span>
+        <span class="mcq-feedback${recorded ? ' is-result' : ' is-ready'}" aria-live="polite">${feedbackText}</span>
       </div>
     `;
   }
 
   return `
     <div class="lesson-exercise open-exercise" data-exercise-index="${index}" data-exercise-id="${escapeHtml(item.id || '')}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || item.type || '')}" data-language="${escapeHtml(learningPathState.language)}">
-      <strong>${index + 1}. ${escapeHtml(item.prompt)}</strong>
-      <button type="button" class="practice-mark-btn" ${recorded ? 'disabled' : ''}>${recorded ? '✅ Practicado' : 'Marcar como practicado'}</button>
+      <div>
+        <div class="exercise-challenge-heading"><span class="exercise-challenge-kicker">${practiceLabel} ${index + 1}${total ? ` / ${total}` : ''}</span></div>
+        <strong class="exercise-prompt">${escapeHtml(item.prompt)}</strong>
+      </div>
+      <button type="button" class="practice-mark-btn" ${recorded ? 'disabled' : ''}>${recorded ? '✅ Práctica completada' : 'Completar práctica →'}</button>
     </div>
   `;
 }
@@ -7822,7 +7857,7 @@ function renderReadingView(section, lesson) {
         ${referencesHtml}
         <p class="reading-selection-hint reading-selection-hint--footer no-print">
           <span aria-hidden="true">🌐</span>
-          ${french ? 'Double-cliquez sur un mot ou touchez-le deux fois pour le traduire, l’écouter ou interroger le Tutor. Les membres Premium peuvent aussi l’enregistrer dans Vocabulary.' : 'Haz doble clic en una palabra o tócala dos veces para traducirla, escucharla o consultarla con el Tutor. Los usuarios Premium también pueden guardarla en Vocabulary.'}
+          ${french ? 'Double-clic ou deux touchers : traduisez, écoutez, consultez ou enregistrez des mots (Premium). Chaque leçon est alignée sur le CECRL.' : 'Doble clic o dos toques: traduce, escucha, consulta o guarda palabras (Premium). Cada lección ha sido nivelada según el MCERL (Marco Común Europeo de Referencia de las Lenguas).'}
         </p>
       </div>
       <div class="reading-vocab-section no-print"${hasVocabulary && isFinalReadingSection ? '' : ' hidden'}>
@@ -14133,14 +14168,21 @@ function showUnitCompletionPanel({ unitId, xpReward = 30 } = {}) {
     showView('progress');
   });
   overlay.querySelector('.unit-completion-next')?.addEventListener('click', () => {
+    const nextButton = overlay.querySelector('.unit-completion-next');
     const selected = learningPathState.units.find(
-      (item) => item.id === overlay.querySelector('.unit-completion-next')?.dataset.unitId
+      (item) => String(item.id) === String(nextButton?.dataset.unitId)
     );
-    if (!selected) return;
+    if (!selected) {
+      showHomeToast('No se pudo encontrar la siguiente unidad.');
+      return;
+    }
     close();
     selectUnit(selected.id, { render: false });
-    const action = getUnitActionState(selected);
-    const lesson = learningPathState.lessons.find((item) => item.slug === action.targetSlug);
+    const activities = getUnitActivities(selected.id);
+    const lesson =
+      activities.find((item) => item.skill === 'reading' && !item.locked) ||
+      activities.find((item) => !item.locked) ||
+      activities[0];
     if (lesson) openUnitSequenceStep(lesson.skill, lesson.slug);
     else {
       showView('learn');
@@ -14447,10 +14489,12 @@ function enableHomepageActions() {
       const chosenKey = mcqOption.dataset.optionKey;
       const feedback = questionItem.querySelector('.mcq-feedback');
 
+      questionItem.classList.add('is-checking');
       questionItem.querySelectorAll('.mcq-option').forEach((option) => {
         option.disabled = true;
+        option.setAttribute('aria-pressed', option === mcqOption ? 'true' : 'false');
       });
-      if (feedback) feedback.textContent = 'Comprobando...';
+      if (feedback) feedback.textContent = 'Comprobando tu respuesta…';
 
       try {
         const payload = exerciseId
@@ -14485,9 +14529,11 @@ function enableHomepageActions() {
         }
         window.playExerciseFeedbackSound?.(Boolean(data.correct));
       } catch (error) {
+        questionItem.classList.remove('is-checking');
         if (feedback) feedback.textContent = error.message || 'No se pudo verificar la respuesta.';
         questionItem.querySelectorAll('.mcq-option').forEach((option) => {
           option.disabled = false;
+          option.setAttribute('aria-pressed', 'false');
         });
         return;
       }
@@ -16170,6 +16216,21 @@ function setupTranslator() {
     if (charCount) charCount.textContent = `${input.value.length} / ${MAX_LENGTH}`;
   };
 
+  // Keep short translations compact, then expand both columns together as
+  // either text grows. The cap preserves access to the actions on ordinary
+  // screens while still giving long paragraphs substantially more room.
+  const syncTranslatorTextareaHeights = () => {
+    const textareas = [input, output].filter(Boolean);
+    textareas.forEach((textarea) => {
+      textarea.style.height = 'auto';
+    });
+    const contentHeight = Math.max(...textareas.map((textarea) => textarea.scrollHeight), 220);
+    const height = Math.min(contentHeight + 2, 480);
+    textareas.forEach((textarea) => {
+      textarea.style.height = `${height}px`;
+    });
+  };
+
   const renderHistory = () => {
     if (!historyList) return;
     const history = loadTranslatorHistory();
@@ -16318,7 +16379,9 @@ function setupTranslator() {
   }
 
   input.addEventListener('input', updateCharCount);
+  input.addEventListener('input', syncTranslatorTextareaHeights);
   updateCharCount();
+  syncTranslatorTextareaHeights();
   renderHistory();
 
   // "Textos muy cortos" (Fase 2 spec): DeepL's own auto-detection is far
@@ -16417,6 +16480,7 @@ function setupTranslator() {
     input.value = output.value;
     output.value = inputValue;
     updateCharCount();
+    syncTranslatorTextareaHeights();
   });
 
   clearBtn?.addEventListener('click', () => {
@@ -16429,6 +16493,7 @@ function setupTranslator() {
     output.value = '';
     if (detectedEl) detectedEl.hidden = true;
     updateCharCount();
+    syncTranslatorTextareaHeights();
     setStatus('Listo');
   });
 
@@ -16517,6 +16582,7 @@ function setupTranslator() {
 
       if (data.ok) {
         output.value = data.translatedText || '';
+        syncTranslatorTextareaHeights();
         setStatus('Completada', 'is-success');
         if (sourceLanguage === 'auto' && data.detectedLanguage) {
           renderTranslatorDetectedLanguage(data.detectedLanguage, text);
@@ -16537,13 +16603,16 @@ function setupTranslator() {
         }
       } else if (data.configured === false) {
         output.value = '';
+        syncTranslatorTextareaHeights();
         setStatus('El traductor está temporalmente en configuración.', 'is-unavailable');
       } else {
         output.value = '';
+        syncTranslatorTextareaHeights();
         setStatus(data.message || 'No disponible. Inténtalo de nuevo.', 'is-unavailable');
       }
     } catch (error) {
       output.value = '';
+      syncTranslatorTextareaHeights();
       setStatus(error.message || 'No disponible. Inténtalo de nuevo.', 'is-unavailable');
     } finally {
       translatorAutoPlayAfterVoice = false;
