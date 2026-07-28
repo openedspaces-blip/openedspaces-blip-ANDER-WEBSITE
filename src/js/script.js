@@ -319,51 +319,6 @@ const backendBaseUrl =
   typeof window !== 'undefined' && window.location.protocol === 'file:'
     ? 'http://127.0.0.1:3000'
     : '';
-
-function reportClientEvent(event) {
-  const payload = JSON.stringify({
-    type: event.type,
-    name: String(event.name || '').slice(0, 80),
-    message: String(event.message || '').slice(0, 300),
-    route: `${window.location.pathname}${window.location.hash}`.slice(0, 200),
-    duration: Number.isFinite(event.duration) ? Math.round(event.duration) : undefined
-  });
-  try {
-    if (navigator.sendBeacon) {
-      navigator.sendBeacon(
-        `${backendBaseUrl}/api/client-events`,
-        new Blob([payload], { type: 'application/json' })
-      );
-      return;
-    }
-    fetch(`${backendBaseUrl}/api/client-events`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: payload,
-      keepalive: true
-    }).catch(() => {});
-  } catch {
-    // Monitoring must never interfere with learning.
-  }
-}
-
-window.addEventListener('error', (event) => {
-  reportClientEvent({ type: 'error', name: event.error?.name, message: event.message });
-});
-window.addEventListener('unhandledrejection', (event) => {
-  const reason = event.reason;
-  reportClientEvent({
-    type: 'unhandled-rejection',
-    name: reason?.name,
-    message: reason?.message || String(reason || 'Unhandled rejection')
-  });
-});
-window.addEventListener('load', () => {
-  const navigation = performance.getEntriesByType?.('navigation')?.[0];
-  if (navigation?.duration) {
-    reportClientEvent({ type: 'performance', name: 'page-load', duration: navigation.duration });
-  }
-});
 const authStatus = {
   user: null,
   session: null,
@@ -12780,17 +12735,6 @@ function renderListeningOfficial(content, lesson, runtime, audio, status = 'offi
   compactLearningToolbars(section);
 }
 
-function grammarAnswerForSubmission(question, answer) {
-  if (question?.interaction !== 'reconstruction' || !Array.isArray(answer)) {
-    return answer;
-  }
-  const itemsById = new Map((question.items || []).map((item) => [String(item.id), item]));
-  return {
-    itemIds: answer,
-    itemTexts: answer.map((id) => itemsById.get(String(id))?.text || '')
-  };
-}
-
 function updateListeningOfficialQuestions(content, lesson, runtime) {
   const questionsWrap = content.querySelector('.listening-questions');
   const progressBar = content.querySelector('.listening-progress-bar div');
@@ -13352,7 +13296,6 @@ const VERBS_MODULE_SOURCES = Object.freeze([
   '/src/js/verbs/verbs-view.js'
 ]);
 let verbsModulesLoad = null;
-let translatorPredictiveLoad = null;
 
 function loadDeferredScript(source, marker) {
   return new Promise((resolve, reject) => {
@@ -14166,12 +14109,7 @@ function showView(viewId) {
     checkTutorConnection();
     refreshTutorUsageCounter();
   }
-  if (resolved === 'translator') {
-    syncTranslatorLanguagesFromState();
-    ensureTranslatorPredictive().catch((error) =>
-      console.warn('[translator] predictive module unavailable', error)
-    );
-  }
+  if (resolved === 'translator') syncTranslatorLanguagesFromState();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
   if (resolved === 'teacher-curriculum') loadTeacherCurriculumPanel();
@@ -15197,10 +15135,7 @@ function enableHomepageActions() {
       grammarTestSubmitBtn.textContent = 'Enviando...';
 
       try {
-        const answers = test.questions.map((q) => ({
-          questionId: q.id,
-          answer: grammarAnswerForSubmission(q, runtime.answers[q.id])
-        }));
+        const answers = test.questions.map((q) => ({ questionId: q.id, answer: runtime.answers[q.id] }));
         const response = await authFetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/complete`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -15976,19 +15911,6 @@ function refreshGrammarOrderNumbers(list) {
   });
 }
 
-function ensureTranslatorPredictive() {
-  if (window.AndergoTranslatorPredictive) return Promise.resolve();
-  if (translatorPredictiveLoad) return translatorPredictiveLoad;
-  translatorPredictiveLoad = loadDeferredScript(
-    '/src/js/translator-predictive.js',
-    'translator-predictive'
-  ).catch((error) => {
-    translatorPredictiveLoad = null;
-    throw error;
-  });
-  return translatorPredictiveLoad;
-}
-
 async function syncGrammarReconstruction(item) {
   const questionItem = item?.closest('.grammar-test-question-item');
   const skillSection = item?.closest('.skill-view-section');
@@ -16025,10 +15947,7 @@ async function syncGrammarReconstruction(item) {
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          questionId: question.id,
-          answer: grammarAnswerForSubmission(question, order)
-        })
+        body: JSON.stringify({ questionId: question.id, answer: order })
       }
     );
     const data = await response.json().catch(() => ({}));

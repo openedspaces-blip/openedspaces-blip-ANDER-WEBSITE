@@ -21,15 +21,6 @@ function shapeReading(reading) {
 function shapeExtra(a) {
   const extra = {};
   if (a.grammarTest) extra.grammarTest = a.grammarTest;
-  if (a.grammarNote && a.title) {
-    extra.grammarProfile = {
-      name: a.title,
-      definition: a.description || `Use ${a.title} accurately in context.`,
-      structure: a.grammarNote,
-      function: `Use ${a.title} to communicate clearly in practical B1 situations.`,
-      examples: (a.phrases || []).slice(0, 4)
-    };
-  }
   if (a.listeningType) extra.listeningType = a.listeningType;
   if (a.storyTitle) extra.storyTitle = a.storyTitle;
   if (a.mainTranscript) extra.mainTranscript = a.mainTranscript;

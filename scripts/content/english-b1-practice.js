@@ -236,11 +236,7 @@ function grammarTest(slug, exercises) {
   return {
     id: `english-b1-${slug}-grammar-test`,
     passingScore: 70,
-    // B1 assessments use 15 items. The authored eight-item guided practice
-    // remains visible in the lesson; the test revisits it with controlled
-    // repetition so its size matches the CEFR assessment profile.
-    questions: Array.from({ length: 15 }, (_, index) => {
-      const exercise = exercises[index % exercises.length];
+    questions: exercises.map((exercise, index) => {
       const correctId = `o${exercise.answer + 1}`;
       return {
         id: `q${index + 1}`,

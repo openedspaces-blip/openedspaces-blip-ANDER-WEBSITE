@@ -1518,63 +1518,6 @@ const units = [
   }
 ];
 
-// Phase 1 social-reading refresh: accessible B1 situations, a concrete
-// tension and one collective response. Other skills keep Camila's existing
-// storyline, so the unit connections and grammar progression stay intact.
-const SOCIAL_READINGS_B1 = {
-  'projets-et-avenir': ['Choisir sa formation sans se fermer de portes', 'des lycéens et leurs familles', 'choisir une formation après le lycée', 'un diplôme doit garantir un emploi rapide', 'un projet peut aussi évoluer avec les expériences', 'une rencontre avec des conseillers et des anciens élèves'],
-  'identite-et-parcours-personnel': ['Avoir plusieurs langues, plusieurs repères', 'des jeunes de quartiers différents', 'parler plusieurs langues dans la vie quotidienne', 'une seule langue suffit pour bien s’intégrer', 'les langues familiales peuvent être une ressource', 'un atelier où chacun raconte son parcours'],
-  'etudes-et-apprentissage': ['Étudier quand tout coûte plus cher', 'des étudiants', 'payer le transport, les repas et le matériel', 'les étudiants doivent simplement mieux s’organiser', 'les aides et les services publics comptent aussi', 'un guide local des aides disponibles'],
-  'monde-du-travail': ['Le premier emploi sans expérience', 'de jeunes candidats', 'trouver un premier travail sans réseau', 'les employeurs ont besoin d’expérience', 'la motivation et les compétences peuvent aussi être reconnues', 'un programme de stages accompagnés'],
-  'voyages-et-interculturalite': ['Voyager sans effacer la vie locale', 'des habitants d’un quartier touristique', 'la hausse des prix et le bruit en haute saison', 'le tourisme apporte des emplois utiles', 'les visiteurs doivent aussi respecter les habitants', 'une charte de voyage responsable'],
-  'technologie-et-societe': ['Avant de partager, vérifier', 'un groupe de jeunes', 'une fausse information qui circule sur les réseaux', 'partager vite permet d’informer tout le monde', 'vérifier une source protège les proches', 'une fiche simple pour vérifier une publication'],
-  'sante-et-mode-de-vie': ['Quand le téléphone suit jusque dans la nuit', 'des élèves et des parents', 'les notifications tardives et le manque de sommeil', 'être connecté aide à garder le contact', 'le repos demande parfois des limites', 'des heures sans écran le soir'],
-  'environnement-et-consommation': ['Moins jeter, mieux choisir', 'des clients et des commerçants', 'trop d’emballages et de nourriture gaspillée', 'un petit geste ne change rien', 'les petites décisions comptent si beaucoup de personnes les font', 'des contenants réutilisables et un point de partage'],
-  'medias-et-information': ['Une information peut-elle être neutre ?', 'des lecteurs d’un média local', 'distinguer un fait, une opinion et une publicité', 'tous les messages ont la même valeur', 'la source et les preuves doivent être examinées', 'un atelier de lecture critique'],
-  'relations-et-conflits': ['Parler avant que le conflit grandisse', 'des voisins d’un même immeuble', 'des désaccords sur le bruit et les espaces communs', 'il faut éviter toute discussion difficile', 'une règle claire et une écoute mutuelle peuvent aider', 'une médiation de quartier']
-};
-
-function socialB1Exercises(title, group, issue, firstView, secondView, action) {
-  const q = (prompt, options, answer) => ({ type: 'mcq', prompt, options, answer });
-  return [
-    q(`Quel est le sujet principal de « ${title} » ?`, [issue, 'Un voyage imaginaire', 'Un concours sportif', 'Une règle de grammaire'], 0),
-    q('Quel détail prouve que le groupe vérifie les informations ?', ['Il choisit l’avis le plus populaire.', 'Il compare un message, un témoignage et des exemples.', 'Il refuse de poser des questions.', 'Il décide avant la réunion.'], 1),
-    q('Que peut-on comprendre grâce aux différents témoignages ?', ['Une seule personne est concernée.', 'La première opinion est toujours correcte.', 'Une réponse unique ne convient pas forcément à tous.', 'Le problème est déjà terminé.'], 2),
-    q('Quel ordre correspond au texte ?', ['Décision, problème, première rencontre', 'Accusation, silence, abandon', 'Action, informations, expériences', 'Expériences, vérification, essai, bilan'], 3),
-    q('Pourquoi le second point de vue est-il utile ?', [secondView, 'Il empêche toute discussion.', 'Il affirme que les faits sont inutiles.', 'Il parle seulement du passé.'], 0),
-    q('Quelle phrase exprime une opinion plutôt qu’un fait vérifié ?', ['Le groupe compare plusieurs sources.', firstView, 'Des habitants participent à la réunion.', 'Un bilan est prévu après quelques semaines.'], 1),
-    q('Quelle décision respecte le mieux les besoins différents ?', ['Copier une solution sans l’adapter.', 'Attendre sans rien expliquer.', `Essayer ${action} puis écouter les personnes concernées.`, 'Demander à une seule personne de décider.'], 2),
-    q('Quelle serait la meilleure étape suivante ?', ['Oublier les résultats.', 'Refuser les nouveaux témoignages.', 'Garder le plan même s’il crée un problème.', 'Évaluer l’action et la corriger si nécessaire.'], 3)
-  ];
-}
-
-function applySocialReadingsB1() {
-  units.forEach((unit) => {
-    const topic = SOCIAL_READINGS_B1[unit.slug];
-    if (!topic) return;
-    const [title, group, issue, firstView, secondView, action] = topic;
-    const reading = unit.activities.reading;
-    reading.title = title;
-    reading.description = `Un texte B1 pratique sur ${issue}.`;
-    reading.reading = {
-      title,
-      parts: [
-        `Dans une discussion locale, ${group} parlent de ${issue}. Cette question touche la vie quotidienne et chacun veut trouver une solution réaliste.`,
-        `Pour certains, ${firstView}. Ils donnent des exemples et expliquent pourquoi cette idée leur paraît importante.`,
-        `D’autres répondent que ${secondView}. Ils ne refusent pas la première idée, mais ils demandent qui sera aidé et ce qui peut changer.`,
-        `Avant la réunion, plusieurs personnes pensaient que le problème était trop grand pour elles. Certaines avaient déjà essayé de changer leurs habitudes seules. D’autres ne savaient pas à qui demander de l’aide. Le fait d’entendre des expériences proches les aide à parler plus calmement.`,
-        `Le groupe cherche aussi des informations simples et fiables. Il compare un message de la mairie, le témoignage d’un professionnel et des exemples du quartier. Les participants comprennent qu’une opinion est utile, mais qu’elle doit être accompagnée de faits quand il faut choisir une action.`,
-        `Une étudiante explique ce qui est difficile pour elle chaque semaine. Un commerçant décrit un autre problème. Une personne plus âgée rappelle une solution qui avait été essayée autrefois. Les situations ne sont pas identiques, mais elles montrent pourquoi une seule réponse ne convient pas toujours à tout le monde.`,
-        `Les participants décident de faire un bilan après quelques semaines. Si une idée crée une nouvelle difficulté, ils en parleront de nouveau au lieu d’accuser une seule personne. Ils invitent aussi les habitants absents à envoyer une question ou une proposition.`,
-        `À la fin, le groupe décide d’essayer ${action}. Personne ne pense avoir une réponse parfaite, mais tous comprennent qu’un premier pas, suivi d’une évaluation, peut être utile.`
-      ],
-      questions: ['Quel problème est présenté ?', 'Quels sont les deux points de vue ?', 'Quelle action est choisie ?']
-    };
-    reading.exercises = socialB1Exercises(title, group, issue, firstView, secondView, action);
-  });
-}
-
-applySocialReadingsB1();
 require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'B1');
 
 module.exports = {

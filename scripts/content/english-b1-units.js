@@ -377,55 +377,6 @@ const unitPlans = [
   }
 ];
 
-// Phase 1 social-reading refresh (2026). The personal narrative remains in
-// Listening/Speaking, while Reading now gives B1 learners a clear, practical
-// way into current community issues: one situation, two viewpoints and a
-// realistic next step.
-const SOCIAL_READING_TOPICS = {
-  'new-challenges': ['Starting Again in a Changing Workplace', 'a group of new staff members', 'learning new digital tools while keeping good customer service', 'training should happen during paid working hours', 'workers also need to practise and ask questions', 'a short weekly support session'],
-  'work-and-ambition': ['A Fair Chance at the First Job', 'young applicants in the city', 'finding work without contacts or previous experience', 'employers need experience to protect their teams', 'potential and motivation also deserve a chance', 'a local mentoring programme'],
-  'community-life': ['The Park That Belongs to Everyone', 'residents near a small public park', 'poor lighting, broken benches and rubbish', 'the council must solve every problem', 'residents can help while requesting public investment', 'a clean-up and a repair request'],
-  'travel-with-purpose': ['Visitors and the City Centre', 'people living near popular attractions', 'crowded streets and rising prices during holiday seasons', 'tourism brings jobs and supports local businesses', 'visitors should respect daily life and local spaces', 'a visitor code and quieter routes'],
-  'health-and-balance': ['When the Phone Never Stops', 'students and workers in one neighbourhood', 'late-night messages and constant notifications', 'phones make it easier to stay connected', 'people need time away from screens to rest', 'screen-free hours after dinner'],
-  'money-and-choices': ['The Cost of a Place to Live', 'renters looking for their first home', 'rents rising faster than many salaries', 'new building projects can increase the number of homes', 'renters also need protection from sudden increases', 'a meeting about affordable housing'],
-  'digital-life': ['Checking Before Sharing', 'a school media club', 'a false local story spreading online', 'sharing quickly helps important news reach people', 'checking the source protects friends and neighbours', 'a simple fact-checking guide'],
-  'culture-and-media': ['Whose Stories Reach the Screen?', 'a community cinema group', 'few local and minority-language films being shown', 'popular films help cinemas earn money', 'programmes should also reflect more voices', 'a monthly public-choice screening'],
-  'relationships-and-decisions': ['More Than One Home', 'families with relatives in different countries', 'keeping traditions while adapting to a new place', 'integration means learning the customs of the new country', 'people can belong to more than one culture', 'an intercultural family event'],
-  'looking-ahead': ['Learning for the Jobs of Tomorrow', 'adult learners at a public library', 'choosing useful skills in a changing labour market', 'technical skills are the most important', 'communication and teamwork matter too', 'free evening workshops'],
-  'sustainable-futures': ['A Neighbourhood Uses Less', 'shop owners and residents', 'too much single-use packaging and food waste', 'small personal changes seem too limited', 'many small changes can reduce waste when businesses join in', 'reusable containers and food-sharing points'],
-  'learning-and-communication': ['Speaking So Everyone Can Take Part', 'a multilingual parents’ meeting', 'important school information not reaching every family', 'translation takes extra time and money', 'clear language and interpretation make participation fairer', 'a volunteer language-support team']
-};
-
-function socialReadingExerciseBank(title, topic, challenge, firstView, secondView, action) {
-  return [
-    mcq(`What is the main issue in “${title}”?`, [challenge, 'Planning a holiday', 'Winning a competition', 'Learning a grammar rule'], 0),
-    mcq('Which detail is evidence that the group checks information?', ['They choose the loudest opinion.', 'They compare reports and speak to a local worker.', 'They avoid asking questions.', 'They vote before reading anything.'], 1),
-    mcq('What can we infer from the different personal examples?', ['Only experts are affected.', 'The first speaker is always right.', 'The same solution may not work for everyone.', 'The issue has already disappeared.'], 2),
-    mcq('Which sequence matches the discussion?', ['Action → evidence → first meeting', 'Blame → silence → cancellation', 'Final decision → first opinion → research', 'Experiences → information → trial action → review'], 3),
-    mcq('Why does the second viewpoint matter?', ['It ends the discussion immediately.', secondView, 'It proves that facts are unnecessary.', 'It changes the subject to travel.'], 1),
-    mcq('Which practical decision best follows the text?', ['Wait without speaking to anyone.', 'Ask one person to solve everything.', `Try ${action} and review the result.`, 'Copy a plan without checking local needs.'], 2)
-  ];
-}
-
-function socialReadingContent(plan) {
-  const [readingTitle, group, challenge, firstView, secondView, action] = SOCIAL_READING_TOPICS[plan.slug] || [];
-  if (!readingTitle) return null;
-  return {
-    title: readingTitle,
-    text: [
-      `In a local discussion, ${group} talk about ${challenge}. The issue is part of daily life, so people want clear information before making decisions.`,
-      `One group believes that ${firstView}. They give examples from their own experience and explain why this matters to them.`,
-      `Another group replies that ${secondView}. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.`,
-      `Before the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.`,
-      `The group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.`,
-      `A student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.`,
-      `The participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.`,
-      `By the end of the meeting, nobody expects a perfect answer. Instead, they agree to try ${action}. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.`
-    ].join('\n\n'),
-    exercises: socialReadingExerciseBank(readingTitle, group, challenge, firstView, secondView, action)
-  };
-}
-
 function mcq(prompt, options, answer) {
   return { type: 'mcq', prompt, options, answer };
 }
@@ -554,8 +505,7 @@ function transcriptSegments(text) {
 function buildUnit(plan, index) {
   const order = index + 1;
   const vocabItems = expandVocabulary(plan);
-  const socialReading = socialReadingContent(plan);
-  const readingExercises = socialReading?.exercises || readingExerciseBanks[plan.slug];
+  const readingExercises = readingExerciseBanks[plan.slug];
   const grammarExercises = grammarExerciseBanks[plan.slug];
   if (!readingExercises || !grammarExercises) {
     throw new Error(`Missing English B1 exercise bank for "${plan.slug}"`);
@@ -582,11 +532,11 @@ function buildUnit(plan, index) {
     },
     activities: {
       reading: activity('reading', {
-        title: socialReading?.title || plan.readingTitle,
-        description: `Read a practical B1 text about ${plan.title.toLowerCase()} and answer comprehension questions.`,
+        title: plan.readingTitle,
+        description: `Read a B1 story about ${plan.title.toLowerCase()} and answer comprehension questions.`,
         reading: {
-          title: socialReading?.title || plan.readingTitle,
-          text: socialReading?.text || extendReadingText(plan),
+          title: plan.readingTitle,
+          text: extendReadingText(plan),
           questions: [
             'What is the main challenge in this text?',
             'How do Sarah and Daniel respond to the situation?',

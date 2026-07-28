@@ -37,8 +37,6 @@
   const VERB_PRACTICE_STATS_KEY = 'andergo_verb_practice_stats_v1';
   const PAGE_SIZE = 20;
   const VERB_LANGUAGES = new Set(['english', 'french', 'spanish']);
-  const hydratedVerbLanguages = new Set();
-  let verbProgressHydrationPromise = null;
 
   function currentVerbLanguage() {
     const routeLanguage = window.location.hash.replace('#', '').split('/')[1];
@@ -143,18 +141,6 @@
   // content on screen until the next click.
   window.regateVerbsFeatureTabs = function regateVerbsFeatureTabs() {
     if (isVerbsUserSignedIn()) return;
-    hydratedVerbLanguages.clear();
-    try {
-      localStorage.removeItem(VERB_FAVORITES_KEY);
-      localStorage.removeItem(VERB_PRACTICE_STATS_KEY);
-      const mastery = readVocabMasteryStore();
-      Object.keys(mastery).forEach((id) => {
-        if (/^verb-(english|french|spanish)-/.test(id)) delete mastery[id];
-      });
-      localStorage.setItem(VOCAB_MASTERY_STORAGE_KEY, JSON.stringify(mastery));
-    } catch {
-      // Nothing sensitive remains server-accessible after the session ends.
-    }
     const activeTab = document.querySelector('#verbsTabs .skill-tab-button.active');
     const activeSkill = activeTab?.dataset.skill;
     if (activeSkill === 'practice') renderPracticeAccessRequired();
@@ -174,7 +160,6 @@
         feature = null;
       }
     }
-    hydrateVerbProgress({ force: true });
     if (!feature || (feature !== 'practice' && feature !== 'progress')) return;
 
     pendingVerbAuthReturn = null;
@@ -222,76 +207,6 @@
       // won't survive a reload; never block the UI on it.
     }
     return store[id];
-  }
-
-  async function requestVerbProgress(path = '', options = {}) {
-    if (!isVerbsUserSignedIn() || typeof authFetch !== 'function') return null;
-    const response = await authFetch(`${backendBaseUrl}/api/verbs/progress${path}`, options);
-    const payload = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(payload.error || 'No se pudo sincronizar el progreso de Verbos.');
-    return payload;
-  }
-
-  function cacheServerVerbProgress(rows) {
-    const favorites = readFavoritesStore();
-    const stats = readPracticeStatsStore();
-    const mastery = readVocabMasteryStore();
-    getVerbsForLanguage(currentVerbLanguage()).forEach((verb) => {
-      delete favorites[verb.id];
-      delete stats[verb.id];
-      delete mastery[verb.id];
-    });
-    rows.forEach((row) => {
-      favorites[row.verbId] = Boolean(row.favorite);
-      mastery[row.verbId] = row.mastery || 'new';
-      stats[row.verbId] = {
-        attempts: row.attempts || 0,
-        correct: row.correct || 0,
-        incorrect: row.incorrect || 0,
-        streak: row.streak || 0,
-        bestStreak: row.bestStreak || 0,
-        lastPracticedAt: row.lastPracticedAt || null
-      };
-    });
-    try {
-      localStorage.setItem(VERB_FAVORITES_KEY, JSON.stringify(favorites));
-      localStorage.setItem(VERB_PRACTICE_STATS_KEY, JSON.stringify(stats));
-      localStorage.setItem(VOCAB_MASTERY_STORAGE_KEY, JSON.stringify(mastery));
-    } catch {
-      // Supabase remains the source of truth when browser storage is unavailable.
-    }
-  }
-
-  async function hydrateVerbProgress({ force = false } = {}) {
-    const language = currentVerbLanguage();
-    if (!isVerbsUserSignedIn() || (!force && hydratedVerbLanguages.has(language))) return;
-    if (verbProgressHydrationPromise) return verbProgressHydrationPromise;
-    verbProgressHydrationPromise = requestVerbProgress(`?language=${encodeURIComponent(language)}`)
-      .then((payload) => {
-        cacheServerVerbProgress(payload?.progress || []);
-        hydratedVerbLanguages.add(language);
-        renderVerbsDeck();
-        renderVerbsProgress();
-        renderVerbsHeaderMeta();
-      })
-      .catch((error) => {
-        console.warn('[verbs] progress hydration failed', error);
-      })
-      .finally(() => {
-        verbProgressHydrationPromise = null;
-      });
-    return verbProgressHydrationPromise;
-  }
-
-  function syncVerbState(verbId, state) {
-    return requestVerbProgress(`/${encodeURIComponent(verbId)}`, {
-      method: 'PATCH',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ language: currentVerbLanguage(), ...state })
-    }).catch((error) => {
-      console.warn('[verbs] state sync failed', error);
-      showHomeToast?.('Tu cambio quedó guardado en este dispositivo y se sincronizará al volver a intentarlo.');
-    });
   }
 
   function getVerbsForLanguage(language) {
@@ -946,11 +861,6 @@
       // Storage unavailable - this attempt just won't count toward Mi
       // progreso later; never blocks the practice session itself.
     }
-    requestVerbProgress(`/${encodeURIComponent(verbId)}/attempt`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ language: currentVerbLanguage(), isCorrect })
-    }).catch((error) => console.warn('[verbs] attempt sync failed', error));
   }
 
   function shuffleArray(list) {
@@ -1507,8 +1417,7 @@
   // (Vocabulary's own words) or VERB_FAVORITES_KEY (favorites aren't
   // "progress" - Mi progreso never displays them). Local-only, reversible
   // only by practicing again - never touches Supabase.
-  async function resetVerbsProgress() {
-    const language = currentVerbLanguage();
+  function resetVerbsProgress() {
     const verbs = getVerbsForLanguage(currentVerbLanguage());
     try {
       const masteryStore = JSON.parse(localStorage.getItem(VOCAB_MASTERY_STORAGE_KEY) || '{}');
@@ -1524,13 +1433,6 @@
     }
     renderVerbsProgress();
     renderVerbsDeck();
-    try {
-      await requestVerbProgress(`?language=${encodeURIComponent(language)}`, { method: 'DELETE' });
-      hydratedVerbLanguages.add(language);
-    } catch (error) {
-      console.warn('[verbs] progress reset sync failed', error);
-      showHomeToast?.('El progreso local se reinició, pero no se pudo sincronizar el cambio.');
-    }
   }
 
   // Header meta line (spec §2: "idioma meta actual" + "progreso general,
@@ -1645,7 +1547,6 @@
     const setup = document.getElementById('verbsPracticeSetup');
     if (setup) setup.hidden = false;
     renderVerbsProgress();
-    hydrateVerbProgress();
 
     // Deep link support (#verbs/english/practice, #verbs/english/progress):
     // land on the requested subtab and, if the visitor isn't signed in,
@@ -1707,10 +1608,6 @@
       ) {
         event.stopImmediatePropagation();
         return;
-      }
-      if (/^verb-(english|french|spanish)-/.test(cardId)) {
-        const mastery = vocabMasteryBtn.classList.contains('vocab-know-btn') ? 'mastered' : 'practicing';
-        window.setTimeout(() => syncVerbState(cardId, { mastery }), 0);
       }
     }
 
@@ -1792,7 +1689,6 @@
       if (!requireAuthForCardAction('Inicia sesión para guardar este verbo en tu progreso.')) return;
       const verbId = favBtn.dataset.verbId;
       const nextState = toggleVerbFavorite(verbId);
-      syncVerbState(verbId, { favorite: nextState });
       const favLabel = nextState ? 'Quitar de favoritos' : 'Marcar como favorito';
       // Updates every instance of this button on screen (the grid tile AND
       // the detail modal both render one for the same verb id) - icon-only,

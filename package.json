@@ -12,14 +12,10 @@
     "sync:worlds": "node scripts/sync-worlds-from-seed.js",
     "build": "node scripts/build-static.js",
     "test": "node --test server.test.js",
-    "test:e2e": "playwright test",
-    "test:e2e:install": "playwright install chromium",
     "db:setup": "node scripts/setup-database.js",
     "audit:curriculum": "node scripts/verify-curriculum-coverage.js",
-    "audit:advanced-editorial": "node scripts/audit-advanced-editorial.js",
     "verify:all": "node scripts/verify-all.js",
     "validate:listening": "node scripts/validate-official-listening.js",
-    "test:performance": "node scripts/check-performance-budget.js",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
@@ -38,8 +34,6 @@
     "pg": "^8.11.0"
   },
   "devDependencies": {
-    "@axe-core/playwright": "^4.12.1",
-    "@playwright/test": "^1.62.0",
     "prettier": "^3.9.5"
   }
 }

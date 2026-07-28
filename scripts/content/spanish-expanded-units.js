@@ -119,90 +119,32 @@ function activity(skill, fields) {
   return { skill, duration, xp, ...fields };
 }
 
-const ADVANCED_LEXICON = [
-  ['planteamiento', 'alcance', 'contrapunto', 'fundamento'],
-  ['premisa', 'matiz', 'implicación', 'deliberación'],
-  ['evidencia', 'sesgo', 'consenso', 'discrepancia'],
-  ['criterio', 'incertidumbre', 'repercusión', 'salvaguarda'],
-  ['perspectiva', 'coherencia', 'viabilidad', 'rendición de cuentas'],
-  ['indicio', 'causalidad', 'objeción', 'síntesis']
-];
-
-function advancedReadingParagraphs(level, context) {
-  if (!['C1', 'C2'].includes(level)) return [];
-  const { person, title, scenario, objective, grammar, words } = context;
-  const paragraphs = [
-    `El caso adquiere mayor complejidad cuando las personas implicadas no comparten la misma definición del problema. Para unas, ${title.toLowerCase()} exige una decisión inmediata; para otras, actuar con rapidez puede ocultar consecuencias difíciles de revertir. ${person} reconstruye ambas posiciones sin reducirlas a una oposición superficial y comprueba qué premisas dependen de datos, cuáles expresan valores y cuáles nacen de experiencias particulares.`,
-    `La información disponible tampoco tiene un peso uniforme. Un informe ofrece cifras comparables, mientras que varios testimonios revelan efectos que los promedios no muestran. En vez de enfrentar ambos tipos de evidencia, ${person} pregunta qué puede demostrar cada fuente, qué deja fuera y bajo qué condiciones sería razonable revisar sus conclusiones. Este contraste introduce vocablos como ${words.slice(0, 3).join(', ')}, cuyo sentido cambia ligeramente según el marco utilizado.`,
-    `Durante la deliberación surge una objeción sólida: incluso una propuesta bien intencionada puede distribuir de manera desigual los beneficios, los costes y la capacidad de participar. Por eso, ${person} no se limita a defender el resultado esperado. También identifica quién asumiría los riesgos, qué mecanismos de seguimiento serían necesarios y cómo podrían intervenir quienes se vieran afectados por la medida.`,
-    `La forma de comunicar la decisión resulta tan importante como su contenido. Aplicar ${grammar} permite graduar la certeza, distinguir una previsión de una afirmación comprobada y reconocer un límite sin debilitar todo el argumento. ${person} evita las fórmulas absolutas y prefiere explicar qué se sabe, qué se infiere y qué sigue siendo discutible. Así, la precisión gramatical funciona como una herramienta de responsabilidad intelectual.`,
-    `Al volver al reto —${scenario.toLowerCase()}—, el grupo compara tres alternativas mediante criterios explícitos. Ninguna resuelve por sí sola todas las tensiones. Sin embargo, una combinación gradual permite actuar, observar resultados y corregir el rumbo. La propuesta incorpora plazos, responsables e indicadores comprensibles, de modo que la evaluación posterior no dependa únicamente de impresiones o promesas.`,
-    `La conclusión responde al objetivo de ${objective.toLowerCase()}, pero permanece abierta a nueva evidencia. ${person} presenta la opción elegida, resume la mejor objeción y señala la condición que obligaría a modificarla. Esta apertura no equivale a indecisión: muestra que una postura puede ser firme y, al mismo tiempo, revisable cuando cambian los hechos o aparecen consecuencias imprevistas.`
-  ];
-  if (level === 'C2') {
-    paragraphs.push(
-      `Una lectura más profunda revela además que el desacuerdo no se refiere solo a los resultados, sino a quién tiene autoridad para definir los criterios legítimos. Las palabras aparentemente neutrales organizan responsabilidades, vuelven visibles unas experiencias y relegan otras. Reconocer esta dimensión discursiva permite evaluar no solo la coherencia interna de cada postura, sino también las condiciones institucionales que la hacen parecer natural.`,
-      `Desde esa perspectiva, la solución final no pretende cerrar definitivamente el debate. Su valor reside en hacer explícita la cadena de inferencias, conservar la memoria de las alternativas descartadas y establecer garantías frente a posibles abusos. El dominio C2 se manifiesta aquí en la capacidad de integrar pruebas heterogéneas, voces contrapuestas y matices lingüísticos sin perder claridad ni control del conjunto.`
-    );
-  }
-  return paragraphs;
-}
-
 function grammarTest(level, slug, grammar, exercises) {
-  const expectedCount = ['C1', 'C2'].includes(level) ? 20 : ['B1', 'B2'].includes(level) ? 15 : 10;
-  const promptVariants = [
-    (prompt) => prompt,
-    (prompt) => `En un registro cuidado, ${prompt.charAt(0).toLowerCase()}${prompt.slice(1)}`,
-    (prompt) => `Para mantener la precisión, ${prompt.charAt(0).toLowerCase()}${prompt.slice(1)}`,
-    (prompt) => `Dentro de una argumentación coherente, ${prompt.charAt(0).toLowerCase()}${prompt.slice(1)}`,
-    (prompt) => `Después de revisar la estructura, ${prompt.charAt(0).toLowerCase()}${prompt.slice(1)}`
-  ];
   return {
     id: `spanish-${level.toLowerCase()}-${slug}-grammar-test`,
     passingScore: 70,
-    questions: Array.from({ length: expectedCount }, (_, index) => {
-      const exercise = exercises[index % exercises.length];
-      const shift = index % 4;
-      const options = exercise.options.map(
-        (_, optionIndex) => exercise.options[(optionIndex + shift) % exercise.options.length]
-      );
-      const correctIndex = (exercise.answer - shift + exercise.options.length) % exercise.options.length;
-      return {
-        id: `g${index + 1}`,
-        type: 'mcq',
-        prompt: promptVariants[Math.floor(index / 4) % promptVariants.length](exercise.prompt),
-        options: options.map((text, optionIndex) => ({
-          id: `o${optionIndex + 1}`,
-          text
-        })),
-        correctOptionId: `o${correctIndex + 1}`,
-        explanation: exercise.explanation,
-        difficulty: index < 7 ? 'aplicación' : index < 14 ? 'consolidación' : 'dominio'
-      };
-    })
+    questions: exercises.map((exercise, index) => ({
+      id: `g${index + 1}`,
+      type: 'mcq',
+      prompt: exercise.prompt,
+      options: exercise.options.map((text, optionIndex) => ({
+        id: `o${optionIndex + 1}`,
+        text
+      })),
+      correctOptionId: `o${exercise.answer + 1}`,
+      explanation: exercise.explanation
+    }))
   };
 }
 
 function buildUnit(level, spec, index) {
-  const [slug, title, scenario, objective, grammar, coreWords] = spec;
-  const words = ['C1', 'C2'].includes(level)
-    ? [...coreWords, ...ADVANCED_LEXICON[index % ADVANCED_LEXICON.length]]
-    : coreWords;
+  const [slug, title, scenario, objective, grammar, words] = spec;
   const person = index % 2 ? 'Lucía' : 'Mateo';
-  const textParts = [
+  const text = [
     `${person} participa en una situación relacionada con ${title.toLowerCase()}. Su reto es ${scenario.toLowerCase()}. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.`,
     `La primera opción parece sencilla, pero no responde a todas las necesidades. ${person} compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.`,
-    ...advancedReadingParagraphs(level, {
-      person,
-      title,
-      scenario,
-      objective,
-      grammar,
-      words
-    }),
     `Finalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.`
-  ];
-  const text = textParts.join('\n\n');
+  ].join('\n\n');
   const listeningTranscript = `${person}: Necesitamos hablar sobre ${title.toLowerCase()}. ¿Qué información tenemos? Alex: Tenemos varias opciones, pero debemos compararlas con cuidado. ${person}: De acuerdo. Primero aclaremos el objetivo y después decidimos. Alex: Me parece bien; así podremos explicar la propuesta con razones claras.`;
   const readingExercises = [
     q(`¿Cuál es el reto principal de ${person}?`, [scenario, 'Memorizar una lista sin contexto', 'Evitar toda conversación', 'Cambiar de tema'], 0, 'El primer párrafo presenta directamente el reto.'),
@@ -330,7 +272,7 @@ function buildUnit(level, spec, index) {
       }),
       vocabulary: activity('vocabulary', {
         title: `Vocabulario · ${title}`,
-        description: `Domina ${words.length} expresiones clave antes de completar la misión.`,
+        description: `Domina seis expresiones clave antes de completar la misión.`,
         intro: `Escucha, relaciona y usa cada término dentro de una frase.`,
         mission: `Incorpora al menos cuatro palabras de la unidad en una respuesta propia.`,
         vocabulary,
