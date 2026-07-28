@@ -142,12 +142,12 @@
       ],
       [
         "Mission",
-        "Read a B1 story about new challenges and answer comprehension questions."
+        "Read a practical B1 text about new challenges and answer comprehension questions."
       ]
     ],
     "reading": {
       "title": "English B1 Reading",
-      "text": "During the first week of her project management course, Sarah tried to record every word the tutor said. Her notebook filled quickly, but when she reviewed it later, the ideas did not feel connected. She knew the vocabulary, yet she could not explain the main concepts in her own words. She wondered whether her study method was creating more work than learning.\n\nAt the next session, the tutor introduced three strategies. Students should listen for the main idea before writing, organise notes as questions and answers, and explain each concept to a partner. Sarah began to write less but think more. Whenever a point was unclear, she asked an indirect question such as, \"Could you explain how this stage connects to the deadline?\"\n\nDaniel was practising similar skills at the hotel. International guests sometimes understood individual words but missed important details about transport or check-in times. He learned to slow down, divide information into steps and ask guests to repeat the plan in their own words. This helped him identify misunderstandings before they became problems.\n\nAfter a month, Sarah could see a clear difference. Her notes were shorter, her questions were more precise and she remembered more after each class. She realised that successful communication was not about using the greatest number of words. It was about choosing useful information, checking understanding and adjusting the message when necessary.",
+      "text": "In a local discussion, a multilingual parents’ meeting talk about important school information not reaching every family. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that translation takes extra time and money. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that clear language and interpretation make participation fairer. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try a volunteer language-support team. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
       "questions": [
         "What is the main challenge in this text?",
         "How do Sarah and Daniel respond to the situation?",
@@ -321,104 +321,6 @@
 
   window.ANDERGO_LANGUAGE_WORLDS.lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons || {};
   window.ANDERGO_LANGUAGE_WORLDS.lessons.english = [
-  {
-    "slug": "english-b1-new-challenges-reading",
-    "level": "B1",
-    "skill": "reading",
-    "unitId": "new-challenges",
-    "title": "A Project That Changed Everything",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 10,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about new challenges and answer comprehension questions.",
-    "intro": "Read a B1 story about new challenges and answer comprehension questions.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "A Project That Changed Everything",
-      "text": "Sarah has worked at the same design company in Manchester for three years, but this month feels different. Her manager has asked her to coordinate a campaign for a local charity, and for the first time she is responsible for the schedule, the client meetings and the final presentation. At first, she felt excited. Then she saw the deadline on the calendar and realised how much work was waiting for her.\n\nLast Tuesday, Sarah led her first planning meeting. She had prepared carefully, but one colleague asked a question she could not answer immediately. Instead of pretending, she wrote it down and promised to check the details before lunch. Later, her manager told her that this was exactly the right reaction. \"Good leaders do not know everything,\" he said. \"They know how to keep the project moving.\"\n\nAt home, Daniel was facing his own challenge. He had applied for a position at an international hotel, and the interview would be partly in English. He had studied English for years, but speaking under pressure still made him nervous. Every evening, Sarah asked him interview questions while he practised giving longer answers.\n\nBy the end of the week, both of them had made progress. Sarah had created a realistic project plan, and Daniel had learned to describe his experience with more confidence. They were tired, but they also felt proud. The week showed them that a new challenge can be uncomfortable and useful at the same time.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Why does this month feel different for Sarah?",
-        "options": [
-          "She is leaving Manchester",
-          "She is coordinating a charity campaign",
-          "She has finished every project",
-          "She is working from home"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "How did Sarah respond when she could not answer a question?",
-        "options": [
-          "She invented an answer",
-          "She ended the meeting",
-          "She noted it and promised to check",
-          "She asked Daniel to answer"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What did Sarah's manager value in her reaction?",
-        "options": [
-          "Her ability to pretend",
-          "Her way of keeping the project moving",
-          "Her decision to cancel lunch",
-          "Her knowledge of every detail"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why was Daniel practising longer answers?",
-        "options": [
-          "He had an English interview",
-          "He wanted to lead the charity",
-          "He was moving abroad",
-          "He had missed a deadline"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “speaking under pressure” mean in the text?",
-        "options": [
-          "Speaking very quietly",
-          "Speaking in a stressful situation",
-          "Speaking without preparation at home",
-          "Speaking about the weather"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which idea best summarises the final paragraph?",
-        "options": [
-          "Progress can make a difficult challenge worthwhile",
-          "Challenges should always be avoided",
-          "Only managers can solve problems",
-          "Being tired means a plan has failed"
-        ],
-        "explanation": ""
-      }
-    ]
-  },
   {
     "slug": "english-a1-hello-reading",
     "level": "A1",
@@ -1138,93 +1040,93 @@
     ]
   },
   {
-    "slug": "english-b1-new-challenges-listening",
+    "slug": "english-b1-new-challenges-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "new-challenges",
-    "title": "Practising for the Interview",
+    "title": "Starting Again in a Changing Workplace",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 11,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to new challenges.",
-    "intro": "Listen to a short B1 conversation linked to new challenges.",
+    "xpReward": 35,
+    "orderIndex": 10,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about new challenges and answer comprehension questions.",
+    "intro": "Read a practical B1 text about new challenges and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "Practising for the Interview",
-      "mainTranscript": "Daniel is practising for his hotel interview with Sarah. She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm. Sarah tells him to give more details and to finish with what he learned. Daniel repeats the answer, this time more clearly. He says that the experience taught him to listen first, apologise when necessary and offer practical solutions. Sarah smiles because his second answer sounds much more natural.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Daniel is practising for his hotel interview with Sarah."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Sarah tells him to give more details and to finish with what he learned."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Daniel repeats the answer, this time more clearly."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "He says that the experience taught him to listen first, apologise when necessary and offer practical solutions."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Sarah smiles because his second answer sounds much more natural."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "Starting Again in a Changing Workplace",
+      "text": "In a local discussion, a group of new staff members talk about learning new digital tools while keeping good customer service. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that training should happen during paid working hours. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that workers also need to practise and ask questions. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try a short weekly support session. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “Starting Again in a Changing Workplace”?",
         "options": [
-          "New Challenges",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "learning new digital tools while keeping good customer service",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "workers also need to practise and ask questions",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try a short weekly support session and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -2154,61 +2056,93 @@
     ]
   },
   {
-    "slug": "english-b1-new-challenges-speaking",
+    "slug": "english-b1-new-challenges-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "new-challenges",
-    "title": "Talk about New Challenges",
+    "title": "Practising for the Interview",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
-    "orderIndex": 12,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 11,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to new challenges.",
+    "intro": "Listen to a short B1 conversation linked to new challenges.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Describe a challenge you have had recently.",
-        "translation": "Describe a challenge you have had recently."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Explain what you learned from it.",
-        "translation": "Explain what you learned from it."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "Practising for the Interview",
+      "mainTranscript": "Daniel is practising for his hotel interview with Sarah. She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm. Sarah tells him to give more details and to finish with what he learned. Daniel repeats the answer, this time more clearly. He says that the experience taught him to listen first, apologise when necessary and offer practical solutions. Sarah smiles because his second answer sounds much more natural.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Daniel is practising for his hotel interview with Sarah."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Sarah tells him to give more details and to finish with what he learned."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Daniel repeats the answer, this time more clearly."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "He says that the experience taught him to listen first, apologise when necessary and offer practical solutions."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Sarah smiles because his second answer sounds much more natural."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "New Challenges",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -2560,50 +2494,61 @@
     ]
   },
   {
-    "slug": "english-b1-new-challenges-writing",
+    "slug": "english-b1-new-challenges-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "new-challenges",
-    "title": "Write about New Challenges",
+    "title": "Talk about New Challenges",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 13,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 12,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Describe a challenge you have had recently.",
+        "translation": "Describe a challenge you have had recently."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Explain what you learned from it.",
+        "translation": "Explain what you learned from it."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -2861,500 +2806,51 @@
     ]
   },
   {
-    "slug": "english-b1-new-challenges-grammar",
+    "slug": "english-b1-new-challenges-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "new-challenges",
-    "title": "Present Perfect vs. Past Simple",
+    "title": "Write about New Challenges",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 14,
-    "estimatedMinutes": 14,
-    "description": "Use Present Perfect vs. Past Simple in a realistic B1 context.",
-    "intro": "Use Present Perfect vs. Past Simple in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 13,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use Present Perfect vs. Past Simple accurately while discussing new challenges.\n\nRule: Use the Present Perfect to connect past experiences to the present: \"Sarah has taken on more responsibility.\" Use the Past Simple when the time is finished or specific: \"She led her first meeting last Tuesday.\" At B1, the contrast helps you explain experience and give precise examples.\n\nPattern: Present Perfect: subject + have/has + past participle. Past Simple: subject + past form.\n\nExamples: has worked · led · has applied\n\nCommon mistakes: Do not combine the Present Perfect with finished-time expressions such as yesterday or last Tuesday.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "Present Perfect vs. Past Simple",
-      "Describe a challenge you have had recently.",
-      "Explain what you learned from it."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-new-challenges-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-new-challenges-grammar-q1",
-            "type": "mcq",
-            "prompt": "Sarah ___ at the company for three years.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "worked"
-              },
-              {
-                "id": "o2",
-                "text": "has worked"
-              },
-              {
-                "id": "o3",
-                "text": "is working"
-              },
-              {
-                "id": "o4",
-                "text": "works yesterday"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q2",
-            "type": "mcq",
-            "prompt": "She ___ her first planning meeting last Tuesday.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "has led"
-              },
-              {
-                "id": "o2",
-                "text": "leads"
-              },
-              {
-                "id": "o3",
-                "text": "led"
-              },
-              {
-                "id": "o4",
-                "text": "has lead"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q3",
-            "type": "mcq",
-            "prompt": "Daniel ___ for the hotel position, so he is waiting for news.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "applied yesterday"
-              },
-              {
-                "id": "o2",
-                "text": "has applied"
-              },
-              {
-                "id": "o3",
-                "text": "apply"
-              },
-              {
-                "id": "o4",
-                "text": "has apply"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q4",
-            "type": "mcq",
-            "prompt": "We ___ the client yesterday afternoon.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "have met"
-              },
-              {
-                "id": "o2",
-                "text": "met"
-              },
-              {
-                "id": "o3",
-                "text": "have meet"
-              },
-              {
-                "id": "o4",
-                "text": "meet already"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q5",
-            "type": "mcq",
-            "prompt": "___ you ever ___ a team?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Did / led"
-              },
-              {
-                "id": "o2",
-                "text": "Have / led"
-              },
-              {
-                "id": "o3",
-                "text": "Have / lead"
-              },
-              {
-                "id": "o4",
-                "text": "Do / leading"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q6",
-            "type": "mcq",
-            "prompt": "I ___ the report yet.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "didn't finish"
-              },
-              {
-                "id": "o2",
-                "text": "haven't finished"
-              },
-              {
-                "id": "o3",
-                "text": "don't finished"
-              },
-              {
-                "id": "o4",
-                "text": "wasn't finish"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q7",
-            "type": "mcq",
-            "prompt": "Priya ___ Sarah useful feedback after the meeting.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "has given last week"
-              },
-              {
-                "id": "o2",
-                "text": "gave"
-              },
-              {
-                "id": "o3",
-                "text": "has gave"
-              },
-              {
-                "id": "o4",
-                "text": "give"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the correct sentence.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "I have joined the company in 2023."
-              },
-              {
-                "id": "o2",
-                "text": "I joined the company in 2023."
-              },
-              {
-                "id": "o3",
-                "text": "I have join the company in 2023."
-              },
-              {
-                "id": "o4",
-                "text": "I did joined the company in 2023."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: Sarah ___ at the company for three years.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "has worked"
-              },
-              {
-                "id": "o3",
-                "text": "is working"
-              },
-              {
-                "id": "o4",
-                "text": "works yesterday"
-              },
-              {
-                "id": "o1",
-                "text": "worked"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: She ___ her first planning meeting last Tuesday.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "leads"
-              },
-              {
-                "id": "o3",
-                "text": "led"
-              },
-              {
-                "id": "o4",
-                "text": "has lead"
-              },
-              {
-                "id": "o1",
-                "text": "has led"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: Daniel ___ for the hotel position, so he is waiting for news.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "has applied"
-              },
-              {
-                "id": "o3",
-                "text": "apply"
-              },
-              {
-                "id": "o4",
-                "text": "has apply"
-              },
-              {
-                "id": "o1",
-                "text": "applied yesterday"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: We ___ the client yesterday afternoon.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "met"
-              },
-              {
-                "id": "o3",
-                "text": "have meet"
-              },
-              {
-                "id": "o4",
-                "text": "meet already"
-              },
-              {
-                "id": "o1",
-                "text": "have met"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: ___ you ever ___ a team?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "Have / led"
-              },
-              {
-                "id": "o3",
-                "text": "Have / lead"
-              },
-              {
-                "id": "o4",
-                "text": "Do / leading"
-              },
-              {
-                "id": "o1",
-                "text": "Did / led"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: I ___ the report yet.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "haven't finished"
-              },
-              {
-                "id": "o3",
-                "text": "don't finished"
-              },
-              {
-                "id": "o4",
-                "text": "wasn't finish"
-              },
-              {
-                "id": "o1",
-                "text": "didn't finish"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-new-challenges-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: Priya ___ Sarah useful feedback after the meeting.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "gave"
-              },
-              {
-                "id": "o3",
-                "text": "has gave"
-              },
-              {
-                "id": "o4",
-                "text": "give"
-              },
-              {
-                "id": "o1",
-                "text": "has given last week"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Present Perfect vs. Past Simple",
-        "context": "Use Present Perfect vs. Past Simple in a realistic B1 context.",
-        "definition": "Use the Present Perfect to connect past experiences to the present: \"Sarah has taken on more responsibility.\" Use the Past Simple when the time is finished or specific: \"She led her first meeting last Tuesday.\" At B1, the contrast helps you explain experience and give precise examples.",
-        "explanation": "Use the Present Perfect to connect past experiences to the present: \"Sarah has taken on more responsibility.\" Use the Past Simple when the time is finished or specific: \"She led her first meeting last Tuesday.\" At B1, the contrast helps you explain experience and give precise examples.",
-        "structure": "Present Perfect: subject + have/has + past participle. Past Simple: subject + past form.",
-        "purpose": "Use Present Perfect vs. Past Simple accurately while discussing new challenges.",
-        "function": "Use Present Perfect vs. Past Simple accurately while discussing new challenges.",
-        "examples": [
-          "Present Perfect vs. Past Simple",
-          "Describe a challenge you have had recently.",
-          "Explain what you learned from it."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sarah ___ at the company for three years.",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "worked",
-          "has worked",
-          "is working",
-          "works yesterday"
-        ],
-        "explanation": "An unfinished period connected to now uses the Present Perfect."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "She ___ her first planning meeting last Tuesday.",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "has led",
-          "leads",
-          "led",
-          "has lead"
-        ],
-        "explanation": "A finished time expression uses the Past Simple."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Daniel ___ for the hotel position, so he is waiting for news.",
-        "options": [
-          "applied yesterday",
-          "has applied",
-          "apply",
-          "has apply"
-        ],
-        "explanation": "The application has a present result."
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ the client yesterday afternoon.",
-        "options": [
-          "have met",
-          "met",
-          "have meet",
-          "meet already"
-        ],
-        "explanation": "Yesterday requires the Past Simple."
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ you ever ___ a team?",
-        "options": [
-          "Did / led",
-          "Have / led",
-          "Have / lead",
-          "Do / leading"
-        ],
-        "explanation": "Ever + life experience takes the Present Perfect."
-      },
-      {
-        "type": "mcq",
-        "prompt": "I ___ the report yet.",
-        "options": [
-          "didn't finish",
-          "haven't finished",
-          "don't finished",
-          "wasn't finish"
-        ],
-        "explanation": "Yet commonly appears with the Present Perfect."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Priya ___ Sarah useful feedback after the meeting.",
-        "options": [
-          "has given last week",
-          "gave",
-          "has gave",
-          "give"
-        ],
-        "explanation": "The meeting is a finished past event."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the correct sentence.",
-        "options": [
-          "I have joined the company in 2023.",
-          "I joined the company in 2023.",
-          "I have join the company in 2023.",
-          "I did joined the company in 2023."
-        ],
-        "explanation": "A specific finished year takes the Past Simple."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -5933,375 +5429,497 @@
     ]
   },
   {
-    "slug": "english-b1-new-challenges-vocabulary",
+    "slug": "english-b1-new-challenges-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "new-challenges",
-    "title": "Vocabulary for New Challenges",
+    "title": "Present Perfect vs. Past Simple",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
-    "orderIndex": 15,
+    "orderIndex": 14,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for new challenges.",
-    "intro": "Key B1 words and phrases for new challenges.",
+    "description": "Use Present Perfect vs. Past Simple in a realistic B1 context.",
+    "intro": "Use Present Perfect vs. Past Simple in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "take on",
-        "translation": "asumir",
-        "definition": "asumir",
-        "example": "Sarah has taken on a new project at work.",
-        "contexts": [
-          {
-            "targetText": "Sarah has taken on a new project at work."
-          },
-          {
-            "targetText": "Sarah used “take on” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “take on” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "challenge",
-        "translation": "reto",
-        "definition": "reto",
-        "example": "The presentation was a real challenge.",
-        "contexts": [
-          {
-            "targetText": "The presentation was a real challenge."
-          },
-          {
-            "targetText": "Sarah used “challenge” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “challenge” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "make progress",
-        "translation": "progresar",
-        "definition": "progresar",
-        "example": "Daniel has made progress with his English.",
-        "contexts": [
-          {
-            "targetText": "Daniel has made progress with his English."
-          },
-          {
-            "targetText": "Sarah used “make progress” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “make progress” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "deadline",
-        "translation": "fecha limite",
-        "definition": "fecha limite",
-        "example": "The deadline is next Friday.",
-        "contexts": [
-          {
-            "targetText": "The deadline is next Friday."
-          },
-          {
-            "targetText": "Sarah used “deadline” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “deadline” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "confident",
-        "translation": "seguro/a",
-        "definition": "seguro/a",
-        "example": "She feels more confident after each meeting.",
-        "contexts": [
-          {
-            "targetText": "She feels more confident after each meeting."
-          },
-          {
-            "targetText": "Sarah used “confident” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “confident” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "feedback",
-        "translation": "comentarios/retroalimentacion",
-        "definition": "comentarios/retroalimentacion",
-        "example": "Her manager gave useful feedback.",
-        "contexts": [
-          {
-            "targetText": "Her manager gave useful feedback."
-          },
-          {
-            "targetText": "Sarah used “feedback” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “feedback” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with new challenges in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with new challenges in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing new challenges."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use Present Perfect vs. Past Simple accurately while discussing new challenges.\n\nRule: Use the Present Perfect to connect past experiences to the present: \"Sarah has taken on more responsibility.\" Use the Past Simple when the time is finished or specific: \"She led her first meeting last Tuesday.\" At B1, the contrast helps you explain experience and give precise examples.\n\nPattern: Present Perfect: subject + have/has + past participle. Past Simple: subject + past form.\n\nExamples: has worked · led · has applied\n\nCommon mistakes: Do not combine the Present Perfect with finished-time expressions such as yesterday or last Tuesday.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "Present Perfect vs. Past Simple",
+      "Describe a challenge you have had recently.",
+      "Explain what you learned from it."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-new-challenges-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Sarah ___ at the company for three years.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "worked"
+              },
+              {
+                "id": "o2",
+                "text": "has worked"
+              },
+              {
+                "id": "o3",
+                "text": "is working"
+              },
+              {
+                "id": "o4",
+                "text": "works yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "She ___ her first planning meeting last Tuesday.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "has led"
+              },
+              {
+                "id": "o2",
+                "text": "leads"
+              },
+              {
+                "id": "o3",
+                "text": "led"
+              },
+              {
+                "id": "o4",
+                "text": "has lead"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Daniel ___ for the hotel position, so he is waiting for news.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "applied yesterday"
+              },
+              {
+                "id": "o2",
+                "text": "has applied"
+              },
+              {
+                "id": "o3",
+                "text": "apply"
+              },
+              {
+                "id": "o4",
+                "text": "has apply"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "We ___ the client yesterday afternoon.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "have met"
+              },
+              {
+                "id": "o2",
+                "text": "met"
+              },
+              {
+                "id": "o3",
+                "text": "have meet"
+              },
+              {
+                "id": "o4",
+                "text": "meet already"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "___ you ever ___ a team?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Did / led"
+              },
+              {
+                "id": "o2",
+                "text": "Have / led"
+              },
+              {
+                "id": "o3",
+                "text": "Have / lead"
+              },
+              {
+                "id": "o4",
+                "text": "Do / leading"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "I ___ the report yet.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "didn't finish"
+              },
+              {
+                "id": "o2",
+                "text": "haven't finished"
+              },
+              {
+                "id": "o3",
+                "text": "don't finished"
+              },
+              {
+                "id": "o4",
+                "text": "wasn't finish"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Priya ___ Sarah useful feedback after the meeting.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "has given last week"
+              },
+              {
+                "id": "o2",
+                "text": "gave"
+              },
+              {
+                "id": "o3",
+                "text": "has gave"
+              },
+              {
+                "id": "o4",
+                "text": "give"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the correct sentence.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "I have joined the company in 2023."
+              },
+              {
+                "id": "o2",
+                "text": "I joined the company in 2023."
+              },
+              {
+                "id": "o3",
+                "text": "I have join the company in 2023."
+              },
+              {
+                "id": "o4",
+                "text": "I did joined the company in 2023."
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Sarah ___ at the company for three years.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "worked"
+              },
+              {
+                "id": "o2",
+                "text": "has worked"
+              },
+              {
+                "id": "o3",
+                "text": "is working"
+              },
+              {
+                "id": "o4",
+                "text": "works yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "She ___ her first planning meeting last Tuesday.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "has led"
+              },
+              {
+                "id": "o2",
+                "text": "leads"
+              },
+              {
+                "id": "o3",
+                "text": "led"
+              },
+              {
+                "id": "o4",
+                "text": "has lead"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Daniel ___ for the hotel position, so he is waiting for news.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "applied yesterday"
+              },
+              {
+                "id": "o2",
+                "text": "has applied"
+              },
+              {
+                "id": "o3",
+                "text": "apply"
+              },
+              {
+                "id": "o4",
+                "text": "has apply"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "We ___ the client yesterday afternoon.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "have met"
+              },
+              {
+                "id": "o2",
+                "text": "met"
+              },
+              {
+                "id": "o3",
+                "text": "have meet"
+              },
+              {
+                "id": "o4",
+                "text": "meet already"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "___ you ever ___ a team?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Did / led"
+              },
+              {
+                "id": "o2",
+                "text": "Have / led"
+              },
+              {
+                "id": "o3",
+                "text": "Have / lead"
+              },
+              {
+                "id": "o4",
+                "text": "Do / leading"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "I ___ the report yet.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "didn't finish"
+              },
+              {
+                "id": "o2",
+                "text": "haven't finished"
+              },
+              {
+                "id": "o3",
+                "text": "don't finished"
+              },
+              {
+                "id": "o4",
+                "text": "wasn't finish"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "Priya ___ Sarah useful feedback after the meeting.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "has given last week"
+              },
+              {
+                "id": "o2",
+                "text": "gave"
+              },
+              {
+                "id": "o3",
+                "text": "has gave"
+              },
+              {
+                "id": "o4",
+                "text": "give"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Present Perfect vs. Past Simple",
+        "definition": "Use Present Perfect vs. Past Simple in a realistic B1 context.",
+        "structure": "Goal: Use Present Perfect vs. Past Simple accurately while discussing new challenges.\n\nRule: Use the Present Perfect to connect past experiences to the present: \"Sarah has taken on more responsibility.\" Use the Past Simple when the time is finished or specific: \"She led her first meeting last Tuesday.\" At B1, the contrast helps you explain experience and give precise examples.\n\nPattern: Present Perfect: subject + have/has + past participle. Past Simple: subject + past form.\n\nExamples: has worked · led · has applied\n\nCommon mistakes: Do not combine the Present Perfect with finished-time expressions such as yesterday or last Tuesday.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use Present Perfect vs. Past Simple to communicate clearly in practical B1 situations.",
+        "examples": [
+          "Present Perfect vs. Past Simple",
+          "Describe a challenge you have had recently.",
+          "Explain what you learned from it."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “take on” mean in this unit?",
+        "prompt": "Sarah ___ at the company for three years.",
         "options": [
-          "asumir",
-          "reto",
-          "progresar",
-          "fecha limite"
+          "worked",
+          "has worked",
+          "is working",
+          "works yesterday"
         ],
-        "explanation": ""
+        "explanation": "An unfinished period connected to now uses the Present Perfect."
       },
       {
         "type": "mcq",
-        "prompt": "What does “challenge” mean in this unit?",
+        "prompt": "She ___ her first planning meeting last Tuesday.",
         "options": [
-          "progresar",
-          "reto",
-          "fecha limite",
-          "seguro/a"
+          "has led",
+          "leads",
+          "led",
+          "has lead"
         ],
-        "explanation": ""
+        "explanation": "A finished time expression uses the Past Simple."
       },
       {
         "type": "mcq",
-        "prompt": "What does “make progress” mean in this unit?",
+        "prompt": "Daniel ___ for the hotel position, so he is waiting for news.",
         "options": [
-          "fecha limite",
-          "seguro/a",
-          "progresar",
-          "comentarios/retroalimentacion"
+          "applied yesterday",
+          "has applied",
+          "apply",
+          "has apply"
         ],
-        "explanation": ""
+        "explanation": "The application has a present result."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deadline” mean in this unit?",
+        "prompt": "We ___ the client yesterday afternoon.",
         "options": [
-          "seguro/a",
-          "comentarios/retroalimentacion",
-          "manejar/lidiar con",
-          "fecha limite"
+          "have met",
+          "met",
+          "have meet",
+          "meet already"
         ],
-        "explanation": ""
+        "explanation": "Yesterday requires the Past Simple."
       },
       {
         "type": "mcq",
-        "prompt": "What does “confident” mean in this unit?",
+        "prompt": "___ you ever ___ a team?",
         "options": [
-          "seguro/a",
-          "comentarios/retroalimentacion",
-          "manejar/lidiar con",
-          "senalar"
+          "Did / led",
+          "Have / led",
+          "Have / lead",
+          "Do / leading"
         ],
-        "explanation": ""
+        "explanation": "Ever + life experience takes the Present Perfect."
       },
       {
         "type": "mcq",
-        "prompt": "What does “feedback” mean in this unit?",
+        "prompt": "I ___ the report yet.",
         "options": [
-          "manejar/lidiar con",
-          "comentarios/retroalimentacion",
-          "senalar",
-          "proponer/idear"
+          "didn't finish",
+          "haven't finished",
+          "don't finished",
+          "wasn't finish"
         ],
-        "explanation": ""
+        "explanation": "Yet commonly appears with the Present Perfect."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "Priya ___ Sarah useful feedback after the meeting.",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "has given last week",
+          "gave",
+          "has gave",
+          "give"
         ],
-        "explanation": ""
+        "explanation": "The meeting is a finished past event."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the correct sentence.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "I have joined the company in 2023.",
+          "I joined the company in 2023.",
+          "I have join the company in 2023.",
+          "I did joined the company in 2023."
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "asumir"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "asumir",
-          "a proposito/con intencion",
-          "reto"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "asumir",
-          "reto",
-          "progresar",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "A specific finished year takes the Past Simple."
       }
     ]
   },
@@ -7344,98 +6962,373 @@
     ]
   },
   {
-    "slug": "english-b1-work-and-ambition-reading",
+    "slug": "english-b1-new-challenges-vocabulary",
     "level": "B1",
-    "skill": "reading",
-    "unitId": "work-and-ambition",
-    "title": "The Promotion Question",
+    "skill": "vocabulary",
+    "unitId": "new-challenges",
+    "title": "Vocabulary for New Challenges",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 20,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about work and ambition and answer comprehension questions.",
-    "intro": "Read a B1 story about work and ambition and answer comprehension questions.",
+    "xpReward": 30,
+    "orderIndex": 15,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for new challenges.",
+    "intro": "Key B1 words and phrases for new challenges.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [],
+    "vocabulary": [
+      {
+        "word": "take on",
+        "translation": "asumir",
+        "definition": "asumir",
+        "example": "Sarah has taken on a new project at work.",
+        "contexts": [
+          {
+            "targetText": "Sarah has taken on a new project at work."
+          },
+          {
+            "targetText": "Sarah used “take on” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “take on” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "challenge",
+        "translation": "reto",
+        "definition": "reto",
+        "example": "The presentation was a real challenge.",
+        "contexts": [
+          {
+            "targetText": "The presentation was a real challenge."
+          },
+          {
+            "targetText": "Sarah used “challenge” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “challenge” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "make progress",
+        "translation": "progresar",
+        "definition": "progresar",
+        "example": "Daniel has made progress with his English.",
+        "contexts": [
+          {
+            "targetText": "Daniel has made progress with his English."
+          },
+          {
+            "targetText": "Sarah used “make progress” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “make progress” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "deadline",
+        "translation": "fecha limite",
+        "definition": "fecha limite",
+        "example": "The deadline is next Friday.",
+        "contexts": [
+          {
+            "targetText": "The deadline is next Friday."
+          },
+          {
+            "targetText": "Sarah used “deadline” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “deadline” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "confident",
+        "translation": "seguro/a",
+        "definition": "seguro/a",
+        "example": "She feels more confident after each meeting.",
+        "contexts": [
+          {
+            "targetText": "She feels more confident after each meeting."
+          },
+          {
+            "targetText": "Sarah used “confident” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “confident” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "feedback",
+        "translation": "comentarios/retroalimentacion",
+        "definition": "comentarios/retroalimentacion",
+        "example": "Her manager gave useful feedback.",
+        "contexts": [
+          {
+            "targetText": "Her manager gave useful feedback."
+          },
+          {
+            "targetText": "Sarah used “feedback” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “feedback” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with new challenges in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with new challenges in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing new challenges."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
     "dialogue": [],
-    "reading": {
-      "title": "The Promotion Question",
-      "text": "On Monday morning, Sarah saw an internal job advertisement on the office noticeboard. The company was looking for an assistant project manager, and several colleagues immediately told her she should apply. Sarah was interested, but she was also unsure. The role would give her more influence, better pay and a chance to learn, but it would also mean longer meetings and more pressure.\n\nDuring lunch, she made a list of reasons for and against applying. She had already coordinated part of the charity campaign, so she knew she could organise people and deadlines. However, she had never managed a budget before, and that worried her. Her colleague Priya told her that nobody starts a new role already knowing everything. \"You are going to learn by doing,\" Priya said.\n\nThat evening, Daniel had his own news. The hotel had invited him for a second interview on Thursday. He was nervous, but happier than he expected. Sarah noticed that both of them were standing at a similar point: they could stay comfortable, or they could accept the next level of responsibility.\n\nBy the end of the night, Sarah had made a decision. She was going to update her CV, write a short application letter and ask her manager for advice. She did not know if she would get the promotion, but she knew she would regret not trying.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What position was advertised?",
+        "prompt": "What does “take on” mean in this unit?",
         "options": [
-          "Hotel manager",
-          "Assistant project manager",
-          "Charity director",
-          "Budget officer"
+          "asumir",
+          "reto",
+          "progresar",
+          "fecha limite"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why did managing a budget worry Sarah?",
+        "prompt": "What does “challenge” mean in this unit?",
         "options": [
-          "She disliked numbers",
-          "She had never done it before",
-          "The company had no money",
-          "Priya refused to help"
+          "progresar",
+          "reto",
+          "fecha limite",
+          "seguro/a"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What was Priya’s main advice?",
+        "prompt": "What does “make progress” mean in this unit?",
         "options": [
-          "Wait until next year",
-          "Learn the role by doing it",
-          "Ask Daniel to apply",
-          "Avoid extra responsibility"
+          "fecha limite",
+          "seguro/a",
+          "progresar",
+          "comentarios/retroalimentacion"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What news did Daniel receive?",
+        "prompt": "What does “deadline” mean in this unit?",
         "options": [
-          "He got a promotion",
-          "He had a second interview",
-          "He was moving to Liverpool",
-          "He lost his hotel job"
+          "seguro/a",
+          "comentarios/retroalimentacion",
+          "manejar/lidiar con",
+          "fecha limite"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What similarity does Sarah notice between herself and Daniel?",
+        "prompt": "What does “confident” mean in this unit?",
         "options": [
-          "Both must choose between comfort and growth",
-          "Both want the same job",
-          "Both dislike interviews",
-          "Both have managed budgets"
+          "seguro/a",
+          "comentarios/retroalimentacion",
+          "manejar/lidiar con",
+          "senalar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why does Sarah finally decide to apply?",
+        "prompt": "What does “feedback” mean in this unit?",
         "options": [
-          "The promotion is guaranteed",
-          "Priya writes the application",
-          "She would regret not trying",
-          "The role has no pressure"
+          "manejar/lidiar con",
+          "comentarios/retroalimentacion",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "asumir"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "asumir",
+          "a proposito/con intencion",
+          "reto"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "asumir",
+          "reto",
+          "progresar",
+          "a largo plazo"
         ],
         "explanation": ""
       }
@@ -8156,88 +8049,93 @@
     ]
   },
   {
-    "slug": "english-b1-work-and-ambition-listening",
+    "slug": "english-b1-work-and-ambition-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "work-and-ambition",
-    "title": "A Career Conversation",
+    "title": "A Fair Chance at the First Job",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 21,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to work and ambition.",
-    "intro": "Listen to a short B1 conversation linked to work and ambition.",
+    "xpReward": 35,
+    "orderIndex": 20,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about work and ambition and answer comprehension questions.",
+    "intro": "Read a practical B1 text about work and ambition and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "A Career Conversation",
-      "mainTranscript": "Sarah tells Daniel that she is thinking about applying for a promotion. Daniel asks whether she really wants the job or only feels pushed by other people. Sarah says she wants to grow, but she is afraid of making mistakes. Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her. They agree to spend the evening preparing her application.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Sarah says she wants to grow, but she is afraid of making mistakes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "They agree to spend the evening preparing her application."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "A Fair Chance at the First Job",
+      "text": "In a local discussion, young applicants in the city talk about finding work without contacts or previous experience. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that employers need experience to protect their teams. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that potential and motivation also deserve a chance. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try a local mentoring programme. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “A Fair Chance at the First Job”?",
         "options": [
-          "Work and Ambition",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "finding work without contacts or previous experience",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "potential and motivation also deserve a chance",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try a local mentoring programme and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -9138,61 +9036,88 @@
     ]
   },
   {
-    "slug": "english-b1-work-and-ambition-speaking",
+    "slug": "english-b1-work-and-ambition-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "work-and-ambition",
-    "title": "Talk about Work and Ambition",
+    "title": "A Career Conversation",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
-    "orderIndex": 22,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 21,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to work and ambition.",
+    "intro": "Listen to a short B1 conversation linked to work and ambition.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Talk about a job or study goal.",
-        "translation": "Talk about a job or study goal."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Give two reasons why the goal matters to you.",
-        "translation": "Give two reasons why the goal matters to you."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "A Career Conversation",
+      "mainTranscript": "Sarah tells Daniel that she is thinking about applying for a promotion. Daniel asks whether she really wants the job or only feels pushed by other people. Sarah says she wants to grow, but she is afraid of making mistakes. Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her. They agree to spend the evening preparing her application.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Sarah says she wants to grow, but she is afraid of making mistakes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "They agree to spend the evening preparing her application."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "Work and Ambition",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -9538,50 +9463,61 @@
     ]
   },
   {
-    "slug": "english-b1-work-and-ambition-writing",
+    "slug": "english-b1-work-and-ambition-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "work-and-ambition",
-    "title": "Write about Work and Ambition",
+    "title": "Talk about Work and Ambition",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 23,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 22,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Talk about a job or study goal.",
+        "translation": "Talk about a job or study goal."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Give two reasons why the goal matters to you.",
+        "translation": "Give two reasons why the goal matters to you."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -9839,500 +9775,51 @@
     ]
   },
   {
-    "slug": "english-b1-work-and-ambition-grammar",
+    "slug": "english-b1-work-and-ambition-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "work-and-ambition",
-    "title": "Future forms: will, going to and Present Continuous",
+    "title": "Write about Work and Ambition",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 24,
-    "estimatedMinutes": 14,
-    "description": "Use Future forms: will, going to and Present Continuous in a realistic B1 context.",
-    "intro": "Use Future forms: will, going to and Present Continuous in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 23,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use Future forms: will, going to and Present Continuous accurately while discussing work and ambition.\n\nRule: Use \"going to\" for plans or intentions, \"will\" for decisions made now or predictions, and the Present Continuous for arranged future events. B1 speakers often combine them: \"I am meeting the client tomorrow, so I am going to prepare tonight. I think it will go well.\"\n\nPattern: going to + base verb for intentions; will + base verb for instant decisions/predictions; be + -ing for arrangements.\n\nExamples: is meeting · going to · will\n\nCommon mistakes: Do not add to after will, and always include the verb be before going to.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "Future forms: will, going to and Present Continuous",
-      "Talk about a job or study goal.",
-      "Give two reasons why the goal matters to you."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-work-and-ambition-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-work-and-ambition-grammar-q1",
-            "type": "mcq",
-            "prompt": "Sarah ___ the client tomorrow at ten; it is in her calendar.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "will meet"
-              },
-              {
-                "id": "o2",
-                "text": "is meeting"
-              },
-              {
-                "id": "o3",
-                "text": "meet"
-              },
-              {
-                "id": "o4",
-                "text": "met"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q2",
-            "type": "mcq",
-            "prompt": "She is ___ update her CV tonight.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "will"
-              },
-              {
-                "id": "o2",
-                "text": "going to"
-              },
-              {
-                "id": "o3",
-                "text": "go to"
-              },
-              {
-                "id": "o4",
-                "text": "going"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q3",
-            "type": "mcq",
-            "prompt": "The phone is ringing. I ___ answer it.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "am going"
-              },
-              {
-                "id": "o2",
-                "text": "will"
-              },
-              {
-                "id": "o3",
-                "text": "am answering yesterday"
-              },
-              {
-                "id": "o4",
-                "text": "going to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q4",
-            "type": "mcq",
-            "prompt": "I think the interview ___ go well.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "is going"
-              },
-              {
-                "id": "o2",
-                "text": "will"
-              },
-              {
-                "id": "o3",
-                "text": "going to"
-              },
-              {
-                "id": "o4",
-                "text": "is"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q5",
-            "type": "mcq",
-            "prompt": "We ___ Priya after work; we arranged it yesterday.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "are meeting"
-              },
-              {
-                "id": "o2",
-                "text": "will met"
-              },
-              {
-                "id": "o3",
-                "text": "going meet"
-              },
-              {
-                "id": "o4",
-                "text": "meet yesterday"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q6",
-            "type": "mcq",
-            "prompt": "Look at those clouds! It ___ rain.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "will to"
-              },
-              {
-                "id": "o2",
-                "text": "is going to"
-              },
-              {
-                "id": "o3",
-                "text": "is raining tomorrow"
-              },
-              {
-                "id": "o4",
-                "text": "goes to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q7",
-            "type": "mcq",
-            "prompt": "Perhaps Daniel ___ get the job.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "is going"
-              },
-              {
-                "id": "o2",
-                "text": "will"
-              },
-              {
-                "id": "o3",
-                "text": "is get"
-              },
-              {
-                "id": "o4",
-                "text": "going to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the correct plan.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "I am going apply."
-              },
-              {
-                "id": "o2",
-                "text": "I going to apply."
-              },
-              {
-                "id": "o3",
-                "text": "I am going to apply."
-              },
-              {
-                "id": "o4",
-                "text": "I will to apply."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: Sarah ___ the client tomorrow at ten; it is in her calendar.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "is meeting"
-              },
-              {
-                "id": "o3",
-                "text": "meet"
-              },
-              {
-                "id": "o4",
-                "text": "met"
-              },
-              {
-                "id": "o1",
-                "text": "will meet"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: She is ___ update her CV tonight.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "going to"
-              },
-              {
-                "id": "o3",
-                "text": "go to"
-              },
-              {
-                "id": "o4",
-                "text": "going"
-              },
-              {
-                "id": "o1",
-                "text": "will"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: The phone is ringing. I ___ answer it.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "will"
-              },
-              {
-                "id": "o3",
-                "text": "am answering yesterday"
-              },
-              {
-                "id": "o4",
-                "text": "going to"
-              },
-              {
-                "id": "o1",
-                "text": "am going"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: I think the interview ___ go well.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "will"
-              },
-              {
-                "id": "o3",
-                "text": "going to"
-              },
-              {
-                "id": "o4",
-                "text": "is"
-              },
-              {
-                "id": "o1",
-                "text": "is going"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: We ___ Priya after work; we arranged it yesterday.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "will met"
-              },
-              {
-                "id": "o3",
-                "text": "going meet"
-              },
-              {
-                "id": "o4",
-                "text": "meet yesterday"
-              },
-              {
-                "id": "o1",
-                "text": "are meeting"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: Look at those clouds! It ___ rain.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "is going to"
-              },
-              {
-                "id": "o3",
-                "text": "is raining tomorrow"
-              },
-              {
-                "id": "o4",
-                "text": "goes to"
-              },
-              {
-                "id": "o1",
-                "text": "will to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-work-and-ambition-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: Perhaps Daniel ___ get the job.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "will"
-              },
-              {
-                "id": "o3",
-                "text": "is get"
-              },
-              {
-                "id": "o4",
-                "text": "going to"
-              },
-              {
-                "id": "o1",
-                "text": "is going"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Future forms: will, going to and Present Continuous",
-        "context": "Use Future forms: will, going to and Present Continuous in a realistic B1 context.",
-        "definition": "Use \"going to\" for plans or intentions, \"will\" for decisions made now or predictions, and the Present Continuous for arranged future events. B1 speakers often combine them: \"I am meeting the client tomorrow, so I am going to prepare tonight. I think it will go well.\"",
-        "explanation": "Use \"going to\" for plans or intentions, \"will\" for decisions made now or predictions, and the Present Continuous for arranged future events. B1 speakers often combine them: \"I am meeting the client tomorrow, so I am going to prepare tonight. I think it will go well.\"",
-        "structure": "going to + base verb for intentions; will + base verb for instant decisions/predictions; be + -ing for arrangements.",
-        "purpose": "Use Future forms: will, going to and Present Continuous accurately while discussing work and ambition.",
-        "function": "Use Future forms: will, going to and Present Continuous accurately while discussing work and ambition.",
-        "examples": [
-          "Future forms: will, going to and Present Continuous",
-          "Talk about a job or study goal.",
-          "Give two reasons why the goal matters to you."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sarah ___ the client tomorrow at ten; it is in her calendar.",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "will meet",
-          "is meeting",
-          "meet",
-          "met"
-        ],
-        "explanation": "The Present Continuous expresses a fixed arrangement."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "She is ___ update her CV tonight.",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "will",
-          "going to",
-          "go to",
-          "going"
-        ],
-        "explanation": "Going to expresses an intention."
-      },
-      {
-        "type": "mcq",
-        "prompt": "The phone is ringing. I ___ answer it.",
-        "options": [
-          "am going",
-          "will",
-          "am answering yesterday",
-          "going to"
-        ],
-        "explanation": "Will can express a decision made now."
-      },
-      {
-        "type": "mcq",
-        "prompt": "I think the interview ___ go well.",
-        "options": [
-          "is going",
-          "will",
-          "going to",
-          "is"
-        ],
-        "explanation": "Will commonly expresses a prediction."
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ Priya after work; we arranged it yesterday.",
-        "options": [
-          "are meeting",
-          "will met",
-          "going meet",
-          "meet yesterday"
-        ],
-        "explanation": "A planned arrangement uses the Present Continuous."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Look at those clouds! It ___ rain.",
-        "options": [
-          "will to",
-          "is going to",
-          "is raining tomorrow",
-          "goes to"
-        ],
-        "explanation": "Visible evidence supports going to."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Perhaps Daniel ___ get the job.",
-        "options": [
-          "is going",
-          "will",
-          "is get",
-          "going to"
-        ],
-        "explanation": "Will works for a less certain prediction."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the correct plan.",
-        "options": [
-          "I am going apply.",
-          "I going to apply.",
-          "I am going to apply.",
-          "I will to apply."
-        ],
-        "explanation": "Going to requires be + going to + base verb."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -12910,375 +12397,497 @@
     ]
   },
   {
-    "slug": "english-b1-work-and-ambition-vocabulary",
+    "slug": "english-b1-work-and-ambition-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "work-and-ambition",
-    "title": "Vocabulary for Work and Ambition",
+    "title": "Future forms: will, going to and Present Continuous",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
-    "orderIndex": 25,
+    "orderIndex": 24,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for work and ambition.",
-    "intro": "Key B1 words and phrases for work and ambition.",
+    "description": "Use Future forms: will, going to and Present Continuous in a realistic B1 context.",
+    "intro": "Use Future forms: will, going to and Present Continuous in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "ambition",
-        "translation": "ambicion",
-        "definition": "ambicion",
-        "example": "Her ambition is to become a project manager.",
-        "contexts": [
-          {
-            "targetText": "Her ambition is to become a project manager."
-          },
-          {
-            "targetText": "Sarah used “ambition” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “ambition” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "promotion",
-        "translation": "ascenso",
-        "definition": "ascenso",
-        "example": "A promotion would bring more responsibility.",
-        "contexts": [
-          {
-            "targetText": "A promotion would bring more responsibility."
-          },
-          {
-            "targetText": "Sarah used “promotion” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “promotion” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "apply for",
-        "translation": "solicitar",
-        "definition": "solicitar",
-        "example": "Daniel is going to apply for the position.",
-        "contexts": [
-          {
-            "targetText": "Daniel is going to apply for the position."
-          },
-          {
-            "targetText": "Sarah used “apply for” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “apply for” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "arrange",
-        "translation": "organizar",
-        "definition": "organizar",
-        "example": "They arranged a meeting with the client.",
-        "contexts": [
-          {
-            "targetText": "They arranged a meeting with the client."
-          },
-          {
-            "targetText": "Sarah used “arrange” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “arrange” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "opportunity",
-        "translation": "oportunidad",
-        "definition": "oportunidad",
-        "example": "The campaign is a great opportunity.",
-        "contexts": [
-          {
-            "targetText": "The campaign is a great opportunity."
-          },
-          {
-            "targetText": "Sarah used “opportunity” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “opportunity” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "responsibility",
-        "translation": "responsabilidad",
-        "definition": "responsabilidad",
-        "example": "More responsibility can be stressful.",
-        "contexts": [
-          {
-            "targetText": "More responsibility can be stressful."
-          },
-          {
-            "targetText": "Sarah used “responsibility” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “responsibility” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with work and ambition in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with work and ambition in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing work and ambition."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use Future forms: will, going to and Present Continuous accurately while discussing work and ambition.\n\nRule: Use \"going to\" for plans or intentions, \"will\" for decisions made now or predictions, and the Present Continuous for arranged future events. B1 speakers often combine them: \"I am meeting the client tomorrow, so I am going to prepare tonight. I think it will go well.\"\n\nPattern: going to + base verb for intentions; will + base verb for instant decisions/predictions; be + -ing for arrangements.\n\nExamples: is meeting · going to · will\n\nCommon mistakes: Do not add to after will, and always include the verb be before going to.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "Future forms: will, going to and Present Continuous",
+      "Talk about a job or study goal.",
+      "Give two reasons why the goal matters to you."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-work-and-ambition-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Sarah ___ the client tomorrow at ten; it is in her calendar.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will meet"
+              },
+              {
+                "id": "o2",
+                "text": "is meeting"
+              },
+              {
+                "id": "o3",
+                "text": "meet"
+              },
+              {
+                "id": "o4",
+                "text": "met"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "She is ___ update her CV tonight.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will"
+              },
+              {
+                "id": "o2",
+                "text": "going to"
+              },
+              {
+                "id": "o3",
+                "text": "go to"
+              },
+              {
+                "id": "o4",
+                "text": "going"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "The phone is ringing. I ___ answer it.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "am going"
+              },
+              {
+                "id": "o2",
+                "text": "will"
+              },
+              {
+                "id": "o3",
+                "text": "am answering yesterday"
+              },
+              {
+                "id": "o4",
+                "text": "going to"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "I think the interview ___ go well.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "is going"
+              },
+              {
+                "id": "o2",
+                "text": "will"
+              },
+              {
+                "id": "o3",
+                "text": "going to"
+              },
+              {
+                "id": "o4",
+                "text": "is"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "We ___ Priya after work; we arranged it yesterday.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "are meeting"
+              },
+              {
+                "id": "o2",
+                "text": "will met"
+              },
+              {
+                "id": "o3",
+                "text": "going meet"
+              },
+              {
+                "id": "o4",
+                "text": "meet yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Look at those clouds! It ___ rain.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will to"
+              },
+              {
+                "id": "o2",
+                "text": "is going to"
+              },
+              {
+                "id": "o3",
+                "text": "is raining tomorrow"
+              },
+              {
+                "id": "o4",
+                "text": "goes to"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Perhaps Daniel ___ get the job.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "is going"
+              },
+              {
+                "id": "o2",
+                "text": "will"
+              },
+              {
+                "id": "o3",
+                "text": "is get"
+              },
+              {
+                "id": "o4",
+                "text": "going to"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the correct plan.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "I am going apply."
+              },
+              {
+                "id": "o2",
+                "text": "I going to apply."
+              },
+              {
+                "id": "o3",
+                "text": "I am going to apply."
+              },
+              {
+                "id": "o4",
+                "text": "I will to apply."
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Sarah ___ the client tomorrow at ten; it is in her calendar.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will meet"
+              },
+              {
+                "id": "o2",
+                "text": "is meeting"
+              },
+              {
+                "id": "o3",
+                "text": "meet"
+              },
+              {
+                "id": "o4",
+                "text": "met"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "She is ___ update her CV tonight.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will"
+              },
+              {
+                "id": "o2",
+                "text": "going to"
+              },
+              {
+                "id": "o3",
+                "text": "go to"
+              },
+              {
+                "id": "o4",
+                "text": "going"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "The phone is ringing. I ___ answer it.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "am going"
+              },
+              {
+                "id": "o2",
+                "text": "will"
+              },
+              {
+                "id": "o3",
+                "text": "am answering yesterday"
+              },
+              {
+                "id": "o4",
+                "text": "going to"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "I think the interview ___ go well.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "is going"
+              },
+              {
+                "id": "o2",
+                "text": "will"
+              },
+              {
+                "id": "o3",
+                "text": "going to"
+              },
+              {
+                "id": "o4",
+                "text": "is"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "We ___ Priya after work; we arranged it yesterday.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "are meeting"
+              },
+              {
+                "id": "o2",
+                "text": "will met"
+              },
+              {
+                "id": "o3",
+                "text": "going meet"
+              },
+              {
+                "id": "o4",
+                "text": "meet yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "Look at those clouds! It ___ rain.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will to"
+              },
+              {
+                "id": "o2",
+                "text": "is going to"
+              },
+              {
+                "id": "o3",
+                "text": "is raining tomorrow"
+              },
+              {
+                "id": "o4",
+                "text": "goes to"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "Perhaps Daniel ___ get the job.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "is going"
+              },
+              {
+                "id": "o2",
+                "text": "will"
+              },
+              {
+                "id": "o3",
+                "text": "is get"
+              },
+              {
+                "id": "o4",
+                "text": "going to"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Future forms: will, going to and Present Continuous",
+        "definition": "Use Future forms: will, going to and Present Continuous in a realistic B1 context.",
+        "structure": "Goal: Use Future forms: will, going to and Present Continuous accurately while discussing work and ambition.\n\nRule: Use \"going to\" for plans or intentions, \"will\" for decisions made now or predictions, and the Present Continuous for arranged future events. B1 speakers often combine them: \"I am meeting the client tomorrow, so I am going to prepare tonight. I think it will go well.\"\n\nPattern: going to + base verb for intentions; will + base verb for instant decisions/predictions; be + -ing for arrangements.\n\nExamples: is meeting · going to · will\n\nCommon mistakes: Do not add to after will, and always include the verb be before going to.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use Future forms: will, going to and Present Continuous to communicate clearly in practical B1 situations.",
+        "examples": [
+          "Future forms: will, going to and Present Continuous",
+          "Talk about a job or study goal.",
+          "Give two reasons why the goal matters to you."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “ambition” mean in this unit?",
+        "prompt": "Sarah ___ the client tomorrow at ten; it is in her calendar.",
         "options": [
-          "ambicion",
-          "ascenso",
-          "solicitar",
-          "organizar"
+          "will meet",
+          "is meeting",
+          "meet",
+          "met"
         ],
-        "explanation": ""
+        "explanation": "The Present Continuous expresses a fixed arrangement."
       },
       {
         "type": "mcq",
-        "prompt": "What does “promotion” mean in this unit?",
+        "prompt": "She is ___ update her CV tonight.",
         "options": [
-          "solicitar",
-          "ascenso",
-          "organizar",
-          "oportunidad"
+          "will",
+          "going to",
+          "go to",
+          "going"
         ],
-        "explanation": ""
+        "explanation": "Going to expresses an intention."
       },
       {
         "type": "mcq",
-        "prompt": "What does “apply for” mean in this unit?",
+        "prompt": "The phone is ringing. I ___ answer it.",
         "options": [
-          "organizar",
-          "oportunidad",
-          "solicitar",
-          "responsabilidad"
+          "am going",
+          "will",
+          "am answering yesterday",
+          "going to"
         ],
-        "explanation": ""
+        "explanation": "Will can express a decision made now."
       },
       {
         "type": "mcq",
-        "prompt": "What does “arrange” mean in this unit?",
+        "prompt": "I think the interview ___ go well.",
         "options": [
-          "oportunidad",
-          "responsabilidad",
-          "manejar/lidiar con",
-          "organizar"
+          "is going",
+          "will",
+          "going to",
+          "is"
         ],
-        "explanation": ""
+        "explanation": "Will commonly expresses a prediction."
       },
       {
         "type": "mcq",
-        "prompt": "What does “opportunity” mean in this unit?",
+        "prompt": "We ___ Priya after work; we arranged it yesterday.",
         "options": [
-          "oportunidad",
-          "responsabilidad",
-          "manejar/lidiar con",
-          "senalar"
+          "are meeting",
+          "will met",
+          "going meet",
+          "meet yesterday"
         ],
-        "explanation": ""
+        "explanation": "A planned arrangement uses the Present Continuous."
       },
       {
         "type": "mcq",
-        "prompt": "What does “responsibility” mean in this unit?",
+        "prompt": "Look at those clouds! It ___ rain.",
         "options": [
-          "manejar/lidiar con",
-          "responsabilidad",
-          "senalar",
-          "proponer/idear"
+          "will to",
+          "is going to",
+          "is raining tomorrow",
+          "goes to"
         ],
-        "explanation": ""
+        "explanation": "Visible evidence supports going to."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "Perhaps Daniel ___ get the job.",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "is going",
+          "will",
+          "is get",
+          "going to"
         ],
-        "explanation": ""
+        "explanation": "Will works for a less certain prediction."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the correct plan.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "I am going apply.",
+          "I going to apply.",
+          "I am going to apply.",
+          "I will to apply."
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "ambicion"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "ambicion",
-          "a proposito/con intencion",
-          "ascenso"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "ambicion",
-          "ascenso",
-          "solicitar",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "Going to requires be + going to + base verb."
       }
     ]
   },
@@ -14226,98 +13835,373 @@
     ]
   },
   {
-    "slug": "english-b1-community-life-reading",
+    "slug": "english-b1-work-and-ambition-vocabulary",
     "level": "B1",
-    "skill": "reading",
-    "unitId": "community-life",
-    "title": "The Meeting at the Community Centre",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 30,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about community life and answer comprehension questions.",
-    "intro": "Read a B1 story about community life and answer comprehension questions.",
+    "skill": "vocabulary",
+    "unitId": "work-and-ambition",
+    "title": "Vocabulary for Work and Ambition",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 25,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for work and ambition.",
+    "intro": "Key B1 words and phrases for work and ambition.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [],
+    "vocabulary": [
+      {
+        "word": "ambition",
+        "translation": "ambicion",
+        "definition": "ambicion",
+        "example": "Her ambition is to become a project manager.",
+        "contexts": [
+          {
+            "targetText": "Her ambition is to become a project manager."
+          },
+          {
+            "targetText": "Sarah used “ambition” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “ambition” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "promotion",
+        "translation": "ascenso",
+        "definition": "ascenso",
+        "example": "A promotion would bring more responsibility.",
+        "contexts": [
+          {
+            "targetText": "A promotion would bring more responsibility."
+          },
+          {
+            "targetText": "Sarah used “promotion” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “promotion” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "apply for",
+        "translation": "solicitar",
+        "definition": "solicitar",
+        "example": "Daniel is going to apply for the position.",
+        "contexts": [
+          {
+            "targetText": "Daniel is going to apply for the position."
+          },
+          {
+            "targetText": "Sarah used “apply for” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “apply for” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "arrange",
+        "translation": "organizar",
+        "definition": "organizar",
+        "example": "They arranged a meeting with the client.",
+        "contexts": [
+          {
+            "targetText": "They arranged a meeting with the client."
+          },
+          {
+            "targetText": "Sarah used “arrange” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “arrange” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "opportunity",
+        "translation": "oportunidad",
+        "definition": "oportunidad",
+        "example": "The campaign is a great opportunity.",
+        "contexts": [
+          {
+            "targetText": "The campaign is a great opportunity."
+          },
+          {
+            "targetText": "Sarah used “opportunity” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “opportunity” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "responsibility",
+        "translation": "responsabilidad",
+        "definition": "responsabilidad",
+        "example": "More responsibility can be stressful.",
+        "contexts": [
+          {
+            "targetText": "More responsibility can be stressful."
+          },
+          {
+            "targetText": "Sarah used “responsibility” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “responsibility” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with work and ambition in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with work and ambition in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing work and ambition."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
     "dialogue": [],
-    "reading": {
-      "title": "The Meeting at the Community Centre",
-      "text": "The community centre was usually quiet on Wednesday evenings, but this week every chair was taken. Residents had come to discuss the small park behind the library. Some people wanted new benches, others complained about rubbish, and several parents said the playground needed repairs. Sarah and Daniel had walked past the park many times, but they had never thought seriously about who looked after it.\n\nAt first, the meeting was tense. One man said the council had to solve everything, while another woman argued that residents should also take responsibility. Sarah listened carefully and then made a practical suggestion. The neighbourhood could organise a clean-up morning while asking the council to repair the lights and playground equipment.\n\nDaniel was surprised when people supported the idea. A retired teacher offered to make posters, a cafe owner promised free coffee for volunteers, and a group of students said they could share the event online. By the end of the meeting, the park no longer felt like somebody else's problem.\n\nOn the walk home, Daniel said that community life was more interesting than he had imagined. Sarah agreed. She had gone to the meeting expecting complaints, but she left with the feeling that small actions could change the place where they lived.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why had residents come to the community centre?",
+        "prompt": "What does “ambition” mean in this unit?",
         "options": [
-          "To watch a film",
-          "To discuss problems in the park",
-          "To apply for jobs",
-          "To organise a holiday"
+          "ambicion",
+          "ascenso",
+          "solicitar",
+          "organizar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What caused disagreement at the start?",
+        "prompt": "What does “promotion” mean in this unit?",
         "options": [
-          "Who should take responsibility",
-          "The price of coffee",
-          "The meeting time",
-          "The location of the library"
+          "solicitar",
+          "ascenso",
+          "organizar",
+          "oportunidad"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What solution did Sarah propose?",
+        "prompt": "What does “apply for” mean in this unit?",
         "options": [
-          "Closing the park",
-          "A resident clean-up plus council repairs",
-          "Building a new library",
-          "Hiring private security only"
+          "organizar",
+          "oportunidad",
+          "solicitar",
+          "responsabilidad"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "How did the café owner offer to help?",
+        "prompt": "What does “arrange” mean in this unit?",
         "options": [
-          "By repairing lights",
-          "By printing posters",
-          "By providing coffee",
-          "By creating an online form"
+          "oportunidad",
+          "responsabilidad",
+          "manejar/lidiar con",
+          "organizar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What does “somebody else’s problem” suggest?",
+        "prompt": "What does “opportunity” mean in this unit?",
         "options": [
-          "A problem residents do not feel responsible for",
-          "A private family problem",
-          "A problem with no solution",
-          "A problem outside the neighbourhood"
+          "oportunidad",
+          "responsabilidad",
+          "manejar/lidiar con",
+          "senalar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "How did Sarah’s attitude change?",
+        "prompt": "What does “responsibility” mean in this unit?",
         "options": [
-          "From hopeful to angry",
-          "From expecting complaints to believing in small actions",
-          "From active to uninterested",
-          "From confident to confused"
+          "manejar/lidiar con",
+          "responsabilidad",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "ambicion"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "ambicion",
+          "a proposito/con intencion",
+          "ascenso"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "ambicion",
+          "ascenso",
+          "solicitar",
+          "a largo plazo"
         ],
         "explanation": ""
       }
@@ -15038,83 +14922,93 @@
     ]
   },
   {
-    "slug": "english-b1-community-life-listening",
+    "slug": "english-b1-community-life-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "community-life",
-    "title": "Planning the Clean-up",
+    "title": "The Park That Belongs to Everyone",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 31,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to community life.",
-    "intro": "Listen to a short B1 conversation linked to community life.",
+    "xpReward": 35,
+    "orderIndex": 30,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about community life and answer comprehension questions.",
+    "intro": "Read a practical B1 text about community life and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "Planning the Clean-up",
-      "mainTranscript": "At the community centre, Sarah speaks with two residents about the clean-up morning. They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams. Daniel suggests creating a simple online form so people can choose a task. Everyone agrees that the event must be safe, organised and friendly for families.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Daniel suggests creating a simple online form so people can choose a task."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Everyone agrees that the event must be safe, organised and friendly for families."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "The Park That Belongs to Everyone",
+      "text": "In a local discussion, residents near a small public park talk about poor lighting, broken benches and rubbish. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that the council must solve every problem. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that residents can help while requesting public investment. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try a clean-up and a repair request. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “The Park That Belongs to Everyone”?",
         "options": [
-          "Community Life",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "poor lighting, broken benches and rubbish",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "residents can help while requesting public investment",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try a clean-up and a repair request and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -16030,61 +15924,83 @@
     ]
   },
   {
-    "slug": "english-b1-community-life-speaking",
+    "slug": "english-b1-community-life-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "community-life",
-    "title": "Talk about Community Life",
+    "title": "Planning the Clean-up",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 32,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 31,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to community life.",
+    "intro": "Listen to a short B1 conversation linked to community life.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Suggest one improvement for your neighbourhood.",
-        "translation": "Suggest one improvement for your neighbourhood."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Use should, could or have to in your answer.",
-        "translation": "Use should, could or have to in your answer."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "Planning the Clean-up",
+      "mainTranscript": "At the community centre, Sarah speaks with two residents about the clean-up morning. They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams. Daniel suggests creating a simple online form so people can choose a task. Everyone agrees that the event must be safe, organised and friendly for families.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Daniel suggests creating a simple online form so people can choose a task."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "Community Life",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -16430,50 +16346,61 @@
     ]
   },
   {
-    "slug": "english-b1-community-life-writing",
+    "slug": "english-b1-community-life-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "community-life",
-    "title": "Write about Community Life",
+    "title": "Talk about Community Life",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 33,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 32,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Suggest one improvement for your neighbourhood.",
+        "translation": "Suggest one improvement for your neighbourhood."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Use should, could or have to in your answer.",
+        "translation": "Use should, could or have to in your answer."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -16731,500 +16658,51 @@
     ]
   },
   {
-    "slug": "english-b1-community-life-grammar",
+    "slug": "english-b1-community-life-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "community-life",
-    "title": "Modals for advice, obligation and possibility",
+    "title": "Write about Community Life",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 34,
-    "estimatedMinutes": 14,
-    "description": "Use Modals for advice, obligation and possibility in a realistic B1 context.",
-    "intro": "Use Modals for advice, obligation and possibility in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 33,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use Modals for advice, obligation and possibility accurately while discussing community life.\n\nRule: Use \"should\" for advice, \"must\" for strong obligation, \"have to\" for external rules and \"might/could\" for possibility. At B1, modals help you sound clear without being too direct: \"The council should improve the park, but residents could help too.\"\n\nPattern: subject + modal + base verb; have to uses do/does in questions and negatives.\n\nExamples: has to · mustn't · could\n\nCommon mistakes: Do not use to after should, could, might or must.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "Modals for advice, obligation and possibility",
-      "Suggest one improvement for your neighbourhood.",
-      "Use should, could or have to in your answer."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-community-life-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-community-life-grammar-q1",
-            "type": "mcq",
-            "prompt": "The council ___ repair the broken lights; it is their responsibility.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "might"
-              },
-              {
-                "id": "o2",
-                "text": "has to"
-              },
-              {
-                "id": "o3",
-                "text": "could maybe"
-              },
-              {
-                "id": "o4",
-                "text": "should to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q2",
-            "type": "mcq",
-            "prompt": "Residents ___ leave rubbish in the park.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "mustn't"
-              },
-              {
-                "id": "o2",
-                "text": "don't have"
-              },
-              {
-                "id": "o3",
-                "text": "should to not"
-              },
-              {
-                "id": "o4",
-                "text": "mightn't to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q3",
-            "type": "mcq",
-            "prompt": "We ___ organise a clean-up on Saturday.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "could"
-              },
-              {
-                "id": "o2",
-                "text": "must to"
-              },
-              {
-                "id": "o3",
-                "text": "have"
-              },
-              {
-                "id": "o4",
-                "text": "should to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q4",
-            "type": "mcq",
-            "prompt": "You look tired. You ___ rest.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "have"
-              },
-              {
-                "id": "o2",
-                "text": "should"
-              },
-              {
-                "id": "o3",
-                "text": "might to"
-              },
-              {
-                "id": "o4",
-                "text": "must not to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q5",
-            "type": "mcq",
-            "prompt": "Volunteers ___ bring gloves if they have some.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "should"
-              },
-              {
-                "id": "o2",
-                "text": "should to"
-              },
-              {
-                "id": "o3",
-                "text": "must bringing"
-              },
-              {
-                "id": "o4",
-                "text": "have bring"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q6",
-            "type": "mcq",
-            "prompt": "The event ___ attract more people if we share it online.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "has to"
-              },
-              {
-                "id": "o2",
-                "text": "might"
-              },
-              {
-                "id": "o3",
-                "text": "must to"
-              },
-              {
-                "id": "o4",
-                "text": "shoulds"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q7",
-            "type": "mcq",
-            "prompt": "Do we ___ register before the event?",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "must to"
-              },
-              {
-                "id": "o2",
-                "text": "have to"
-              },
-              {
-                "id": "o3",
-                "text": "should to"
-              },
-              {
-                "id": "o4",
-                "text": "might to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the polite suggestion.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "The council must doing it."
-              },
-              {
-                "id": "o2",
-                "text": "The council could improve the lighting."
-              },
-              {
-                "id": "o3",
-                "text": "The council should to improve it."
-              },
-              {
-                "id": "o4",
-                "text": "The council might improving it."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: The council ___ repair the broken lights; it is their responsibility.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "has to"
-              },
-              {
-                "id": "o3",
-                "text": "could maybe"
-              },
-              {
-                "id": "o4",
-                "text": "should to"
-              },
-              {
-                "id": "o1",
-                "text": "might"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: Residents ___ leave rubbish in the park.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "don't have"
-              },
-              {
-                "id": "o3",
-                "text": "should to not"
-              },
-              {
-                "id": "o4",
-                "text": "mightn't to"
-              },
-              {
-                "id": "o1",
-                "text": "mustn't"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: We ___ organise a clean-up on Saturday.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "must to"
-              },
-              {
-                "id": "o3",
-                "text": "have"
-              },
-              {
-                "id": "o4",
-                "text": "should to"
-              },
-              {
-                "id": "o1",
-                "text": "could"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: You look tired. You ___ rest.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "should"
-              },
-              {
-                "id": "o3",
-                "text": "might to"
-              },
-              {
-                "id": "o4",
-                "text": "must not to"
-              },
-              {
-                "id": "o1",
-                "text": "have"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: Volunteers ___ bring gloves if they have some.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "should to"
-              },
-              {
-                "id": "o3",
-                "text": "must bringing"
-              },
-              {
-                "id": "o4",
-                "text": "have bring"
-              },
-              {
-                "id": "o1",
-                "text": "should"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: The event ___ attract more people if we share it online.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "might"
-              },
-              {
-                "id": "o3",
-                "text": "must to"
-              },
-              {
-                "id": "o4",
-                "text": "shoulds"
-              },
-              {
-                "id": "o1",
-                "text": "has to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-community-life-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: Do we ___ register before the event?",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "have to"
-              },
-              {
-                "id": "o3",
-                "text": "should to"
-              },
-              {
-                "id": "o4",
-                "text": "might to"
-              },
-              {
-                "id": "o1",
-                "text": "must to"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Modals for advice, obligation and possibility",
-        "context": "Use Modals for advice, obligation and possibility in a realistic B1 context.",
-        "definition": "Use \"should\" for advice, \"must\" for strong obligation, \"have to\" for external rules and \"might/could\" for possibility. At B1, modals help you sound clear without being too direct: \"The council should improve the park, but residents could help too.\"",
-        "explanation": "Use \"should\" for advice, \"must\" for strong obligation, \"have to\" for external rules and \"might/could\" for possibility. At B1, modals help you sound clear without being too direct: \"The council should improve the park, but residents could help too.\"",
-        "structure": "subject + modal + base verb; have to uses do/does in questions and negatives.",
-        "purpose": "Use Modals for advice, obligation and possibility accurately while discussing community life.",
-        "function": "Use Modals for advice, obligation and possibility accurately while discussing community life.",
-        "examples": [
-          "Modals for advice, obligation and possibility",
-          "Suggest one improvement for your neighbourhood.",
-          "Use should, could or have to in your answer."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "The council ___ repair the broken lights; it is their responsibility.",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "might",
-          "has to",
-          "could maybe",
-          "should to"
-        ],
-        "explanation": "Have to expresses an external obligation."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "Residents ___ leave rubbish in the park.",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "mustn't",
-          "don't have",
-          "should to not",
-          "mightn't to"
-        ],
-        "explanation": "Must not expresses prohibition."
-      },
-      {
-        "type": "mcq",
-        "prompt": "We ___ organise a clean-up on Saturday.",
-        "options": [
-          "could",
-          "must to",
-          "have",
-          "should to"
-        ],
-        "explanation": "Could offers a possible suggestion."
-      },
-      {
-        "type": "mcq",
-        "prompt": "You look tired. You ___ rest.",
-        "options": [
-          "have",
-          "should",
-          "might to",
-          "must not to"
-        ],
-        "explanation": "Should gives advice."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Volunteers ___ bring gloves if they have some.",
-        "options": [
-          "should",
-          "should to",
-          "must bringing",
-          "have bring"
-        ],
-        "explanation": "Should is followed by the base verb."
-      },
-      {
-        "type": "mcq",
-        "prompt": "The event ___ attract more people if we share it online.",
-        "options": [
-          "has to",
-          "might",
-          "must to",
-          "shoulds"
-        ],
-        "explanation": "Might expresses possibility."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Do we ___ register before the event?",
-        "options": [
-          "must to",
-          "have to",
-          "should to",
-          "might to"
-        ],
-        "explanation": "Have to forms questions with do."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the polite suggestion.",
-        "options": [
-          "The council must doing it.",
-          "The council could improve the lighting.",
-          "The council should to improve it.",
-          "The council might improving it."
-        ],
-        "explanation": "A modal is followed by the base verb."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -19802,375 +19280,497 @@
     ]
   },
   {
-    "slug": "english-b1-community-life-vocabulary",
+    "slug": "english-b1-community-life-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "community-life",
-    "title": "Vocabulary for Community Life",
+    "title": "Modals for advice, obligation and possibility",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 35,
+    "orderIndex": 34,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for community life.",
-    "intro": "Key B1 words and phrases for community life.",
+    "description": "Use Modals for advice, obligation and possibility in a realistic B1 context.",
+    "intro": "Use Modals for advice, obligation and possibility in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "neighbourhood",
-        "translation": "barrio",
-        "definition": "barrio",
-        "example": "Their neighbourhood is becoming more active.",
-        "contexts": [
-          {
-            "targetText": "Their neighbourhood is becoming more active."
-          },
-          {
-            "targetText": "Sarah used “neighbourhood” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “neighbourhood” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "resident",
-        "translation": "residente",
-        "definition": "residente",
-        "example": "Several residents attended the meeting.",
-        "contexts": [
-          {
-            "targetText": "Several residents attended the meeting."
-          },
-          {
-            "targetText": "Sarah used “resident” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “resident” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "volunteer",
-        "translation": "voluntario/a",
-        "definition": "voluntario/a",
-        "example": "They volunteered at the community clean-up.",
-        "contexts": [
-          {
-            "targetText": "They volunteered at the community clean-up."
-          },
-          {
-            "targetText": "Sarah used “volunteer” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “volunteer” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "proposal",
-        "translation": "propuesta",
-        "definition": "propuesta",
-        "example": "Sarah made a proposal about the park.",
-        "contexts": [
-          {
-            "targetText": "Sarah made a proposal about the park."
-          },
-          {
-            "targetText": "Sarah used “proposal” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “proposal” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "improve",
-        "translation": "mejorar",
-        "definition": "mejorar",
-        "example": "The council should improve the lighting.",
-        "contexts": [
-          {
-            "targetText": "The council should improve the lighting."
-          },
-          {
-            "targetText": "Sarah used “improve” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “improve” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "take part",
-        "translation": "participar",
-        "definition": "participar",
-        "example": "Daniel decided to take part in the event.",
-        "contexts": [
-          {
-            "targetText": "Daniel decided to take part in the event."
-          },
-          {
-            "targetText": "Sarah used “take part” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “take part” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with community life in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with community life in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing community life."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use Modals for advice, obligation and possibility accurately while discussing community life.\n\nRule: Use \"should\" for advice, \"must\" for strong obligation, \"have to\" for external rules and \"might/could\" for possibility. At B1, modals help you sound clear without being too direct: \"The council should improve the park, but residents could help too.\"\n\nPattern: subject + modal + base verb; have to uses do/does in questions and negatives.\n\nExamples: has to · mustn't · could\n\nCommon mistakes: Do not use to after should, could, might or must.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "Modals for advice, obligation and possibility",
+      "Suggest one improvement for your neighbourhood.",
+      "Use should, could or have to in your answer."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-community-life-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "The council ___ repair the broken lights; it is their responsibility.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "might"
+              },
+              {
+                "id": "o2",
+                "text": "has to"
+              },
+              {
+                "id": "o3",
+                "text": "could maybe"
+              },
+              {
+                "id": "o4",
+                "text": "should to"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Residents ___ leave rubbish in the park.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "mustn't"
+              },
+              {
+                "id": "o2",
+                "text": "don't have"
+              },
+              {
+                "id": "o3",
+                "text": "should to not"
+              },
+              {
+                "id": "o4",
+                "text": "mightn't to"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "We ___ organise a clean-up on Saturday.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "could"
+              },
+              {
+                "id": "o2",
+                "text": "must to"
+              },
+              {
+                "id": "o3",
+                "text": "have"
+              },
+              {
+                "id": "o4",
+                "text": "should to"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "You look tired. You ___ rest.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "have"
+              },
+              {
+                "id": "o2",
+                "text": "should"
+              },
+              {
+                "id": "o3",
+                "text": "might to"
+              },
+              {
+                "id": "o4",
+                "text": "must not to"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Volunteers ___ bring gloves if they have some.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "should"
+              },
+              {
+                "id": "o2",
+                "text": "should to"
+              },
+              {
+                "id": "o3",
+                "text": "must bringing"
+              },
+              {
+                "id": "o4",
+                "text": "have bring"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "The event ___ attract more people if we share it online.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "has to"
+              },
+              {
+                "id": "o2",
+                "text": "might"
+              },
+              {
+                "id": "o3",
+                "text": "must to"
+              },
+              {
+                "id": "o4",
+                "text": "shoulds"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Do we ___ register before the event?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "must to"
+              },
+              {
+                "id": "o2",
+                "text": "have to"
+              },
+              {
+                "id": "o3",
+                "text": "should to"
+              },
+              {
+                "id": "o4",
+                "text": "might to"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the polite suggestion.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "The council must doing it."
+              },
+              {
+                "id": "o2",
+                "text": "The council could improve the lighting."
+              },
+              {
+                "id": "o3",
+                "text": "The council should to improve it."
+              },
+              {
+                "id": "o4",
+                "text": "The council might improving it."
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "The council ___ repair the broken lights; it is their responsibility.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "might"
+              },
+              {
+                "id": "o2",
+                "text": "has to"
+              },
+              {
+                "id": "o3",
+                "text": "could maybe"
+              },
+              {
+                "id": "o4",
+                "text": "should to"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "Residents ___ leave rubbish in the park.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "mustn't"
+              },
+              {
+                "id": "o2",
+                "text": "don't have"
+              },
+              {
+                "id": "o3",
+                "text": "should to not"
+              },
+              {
+                "id": "o4",
+                "text": "mightn't to"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "We ___ organise a clean-up on Saturday.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "could"
+              },
+              {
+                "id": "o2",
+                "text": "must to"
+              },
+              {
+                "id": "o3",
+                "text": "have"
+              },
+              {
+                "id": "o4",
+                "text": "should to"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "You look tired. You ___ rest.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "have"
+              },
+              {
+                "id": "o2",
+                "text": "should"
+              },
+              {
+                "id": "o3",
+                "text": "might to"
+              },
+              {
+                "id": "o4",
+                "text": "must not to"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "Volunteers ___ bring gloves if they have some.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "should"
+              },
+              {
+                "id": "o2",
+                "text": "should to"
+              },
+              {
+                "id": "o3",
+                "text": "must bringing"
+              },
+              {
+                "id": "o4",
+                "text": "have bring"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "The event ___ attract more people if we share it online.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "has to"
+              },
+              {
+                "id": "o2",
+                "text": "might"
+              },
+              {
+                "id": "o3",
+                "text": "must to"
+              },
+              {
+                "id": "o4",
+                "text": "shoulds"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "Do we ___ register before the event?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "must to"
+              },
+              {
+                "id": "o2",
+                "text": "have to"
+              },
+              {
+                "id": "o3",
+                "text": "should to"
+              },
+              {
+                "id": "o4",
+                "text": "might to"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Modals for advice, obligation and possibility",
+        "definition": "Use Modals for advice, obligation and possibility in a realistic B1 context.",
+        "structure": "Goal: Use Modals for advice, obligation and possibility accurately while discussing community life.\n\nRule: Use \"should\" for advice, \"must\" for strong obligation, \"have to\" for external rules and \"might/could\" for possibility. At B1, modals help you sound clear without being too direct: \"The council should improve the park, but residents could help too.\"\n\nPattern: subject + modal + base verb; have to uses do/does in questions and negatives.\n\nExamples: has to · mustn't · could\n\nCommon mistakes: Do not use to after should, could, might or must.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use Modals for advice, obligation and possibility to communicate clearly in practical B1 situations.",
+        "examples": [
+          "Modals for advice, obligation and possibility",
+          "Suggest one improvement for your neighbourhood.",
+          "Use should, could or have to in your answer."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “neighbourhood” mean in this unit?",
+        "prompt": "The council ___ repair the broken lights; it is their responsibility.",
         "options": [
-          "barrio",
-          "residente",
-          "voluntario/a",
-          "propuesta"
+          "might",
+          "has to",
+          "could maybe",
+          "should to"
         ],
-        "explanation": ""
+        "explanation": "Have to expresses an external obligation."
       },
       {
         "type": "mcq",
-        "prompt": "What does “resident” mean in this unit?",
+        "prompt": "Residents ___ leave rubbish in the park.",
         "options": [
-          "voluntario/a",
-          "residente",
-          "propuesta",
-          "mejorar"
+          "mustn't",
+          "don't have",
+          "should to not",
+          "mightn't to"
         ],
-        "explanation": ""
+        "explanation": "Must not expresses prohibition."
       },
       {
         "type": "mcq",
-        "prompt": "What does “volunteer” mean in this unit?",
+        "prompt": "We ___ organise a clean-up on Saturday.",
         "options": [
-          "propuesta",
-          "mejorar",
-          "voluntario/a",
-          "participar"
+          "could",
+          "must to",
+          "have",
+          "should to"
         ],
-        "explanation": ""
+        "explanation": "Could offers a possible suggestion."
       },
       {
         "type": "mcq",
-        "prompt": "What does “proposal” mean in this unit?",
+        "prompt": "You look tired. You ___ rest.",
         "options": [
-          "mejorar",
-          "participar",
-          "manejar/lidiar con",
-          "propuesta"
+          "have",
+          "should",
+          "might to",
+          "must not to"
         ],
-        "explanation": ""
+        "explanation": "Should gives advice."
       },
       {
         "type": "mcq",
-        "prompt": "What does “improve” mean in this unit?",
+        "prompt": "Volunteers ___ bring gloves if they have some.",
         "options": [
-          "mejorar",
-          "participar",
-          "manejar/lidiar con",
-          "senalar"
+          "should",
+          "should to",
+          "must bringing",
+          "have bring"
         ],
-        "explanation": ""
+        "explanation": "Should is followed by the base verb."
       },
       {
         "type": "mcq",
-        "prompt": "What does “take part” mean in this unit?",
+        "prompt": "The event ___ attract more people if we share it online.",
         "options": [
-          "manejar/lidiar con",
-          "participar",
-          "senalar",
-          "proponer/idear"
+          "has to",
+          "might",
+          "must to",
+          "shoulds"
         ],
-        "explanation": ""
+        "explanation": "Might expresses possibility."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "Do we ___ register before the event?",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "must to",
+          "have to",
+          "should to",
+          "might to"
         ],
-        "explanation": ""
+        "explanation": "Have to forms questions with do."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the polite suggestion.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "The council must doing it.",
+          "The council could improve the lighting.",
+          "The council should to improve it.",
+          "The council might improving it."
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "barrio"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "barrio",
-          "a proposito/con intencion",
-          "residente"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "barrio",
-          "residente",
-          "voluntario/a",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "A modal is followed by the base verb."
       }
     ]
   },
@@ -21118,98 +20718,373 @@
     ]
   },
   {
-    "slug": "english-b1-travel-with-purpose-reading",
+    "slug": "english-b1-community-life-vocabulary",
     "level": "B1",
-    "skill": "reading",
-    "unitId": "travel-with-purpose",
-    "title": "A Weekend That Did Not Follow the Plan",
+    "skill": "vocabulary",
+    "unitId": "community-life",
+    "title": "Vocabulary for Community Life",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 40,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about travel with purpose and answer comprehension questions.",
-    "intro": "Read a B1 story about travel with purpose and answer comprehension questions.",
+    "xpReward": 30,
+    "orderIndex": 35,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for community life.",
+    "intro": "Key B1 words and phrases for community life.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [],
+    "vocabulary": [
+      {
+        "word": "neighbourhood",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Their neighbourhood is becoming more active.",
+        "contexts": [
+          {
+            "targetText": "Their neighbourhood is becoming more active."
+          },
+          {
+            "targetText": "Sarah used “neighbourhood” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “neighbourhood” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "resident",
+        "translation": "residente",
+        "definition": "residente",
+        "example": "Several residents attended the meeting.",
+        "contexts": [
+          {
+            "targetText": "Several residents attended the meeting."
+          },
+          {
+            "targetText": "Sarah used “resident” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “resident” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "volunteer",
+        "translation": "voluntario/a",
+        "definition": "voluntario/a",
+        "example": "They volunteered at the community clean-up.",
+        "contexts": [
+          {
+            "targetText": "They volunteered at the community clean-up."
+          },
+          {
+            "targetText": "Sarah used “volunteer” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “volunteer” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "proposal",
+        "translation": "propuesta",
+        "definition": "propuesta",
+        "example": "Sarah made a proposal about the park.",
+        "contexts": [
+          {
+            "targetText": "Sarah made a proposal about the park."
+          },
+          {
+            "targetText": "Sarah used “proposal” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “proposal” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "improve",
+        "translation": "mejorar",
+        "definition": "mejorar",
+        "example": "The council should improve the lighting.",
+        "contexts": [
+          {
+            "targetText": "The council should improve the lighting."
+          },
+          {
+            "targetText": "Sarah used “improve” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “improve” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "take part",
+        "translation": "participar",
+        "definition": "participar",
+        "example": "Daniel decided to take part in the event.",
+        "contexts": [
+          {
+            "targetText": "Daniel decided to take part in the event."
+          },
+          {
+            "targetText": "Sarah used “take part” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “take part” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with community life in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with community life in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing community life."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
     "dialogue": [],
-    "reading": {
-      "title": "A Weekend That Did Not Follow the Plan",
-      "text": "Sarah loves planning trips carefully. Before their weekend in York, she had booked the train, chosen a small hotel and written an itinerary with museums, cafes and a walk along the city walls. Daniel laughed when he saw the schedule, but he also admitted that travelling with Sarah was usually relaxing because she thought of everything.\n\nOn Saturday morning, they were waiting at Manchester station when an announcement changed the mood. Their train was delayed for almost an hour because of a technical problem. Sarah looked disappointed, but Daniel suggested using the extra time to have breakfast nearby. While they were drinking coffee, they found a small exhibition about railway history inside the station.\n\nWhen they finally arrived in York, the second problem appeared. They were following the map on Daniel's phone when the battery died. For twenty minutes they walked confidently in the wrong direction. Instead of arguing, they asked an elderly woman for help. She not only showed them the way but also recommended a quiet street with independent bookshops.\n\nBy Sunday evening, Sarah had stopped worrying about the itinerary. They had missed one museum but discovered two places they would never have found otherwise. The trip reminded her that good planning is useful, but flexibility can make a journey memorable.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why was travelling with Sarah usually relaxing?",
+        "prompt": "What does “neighbourhood” mean in this unit?",
         "options": [
-          "She paid for everything",
-          "She planned carefully",
-          "She spoke to every passenger",
-          "She never used maps"
+          "barrio",
+          "residente",
+          "voluntario/a",
+          "propuesta"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What caused the first change of plan?",
+        "prompt": "What does “resident” mean in this unit?",
         "options": [
-          "A lost booking",
-          "A technical train delay",
-          "Bad weather",
-          "A closed hotel"
+          "voluntario/a",
+          "residente",
+          "propuesta",
+          "mejorar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What unexpected place did they discover at the station?",
+        "prompt": "What does “volunteer” mean in this unit?",
         "options": [
-          "A bookshop",
-          "A railway exhibition",
-          "A city museum",
-          "A new hotel"
+          "propuesta",
+          "mejorar",
+          "voluntario/a",
+          "participar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why did they walk in the wrong direction?",
+        "prompt": "What does “proposal” mean in this unit?",
         "options": [
-          "The phone battery died",
-          "Sarah read the map incorrectly",
-          "The streets were closed",
-          "A woman gave bad directions"
+          "mejorar",
+          "participar",
+          "manejar/lidiar con",
+          "propuesta"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What did the elderly woman provide besides directions?",
+        "prompt": "What does “improve” mean in this unit?",
         "options": [
-          "Train tickets",
-          "A restaurant booking",
-          "A bookshop recommendation",
-          "A phone charger"
+          "mejorar",
+          "participar",
+          "manejar/lidiar con",
+          "senalar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What lesson did Sarah learn?",
+        "prompt": "What does “take part” mean in this unit?",
         "options": [
-          "An itinerary is unnecessary",
-          "Flexibility can improve a well-planned trip",
-          "Museums are never worth visiting",
-          "Daniel should plan every journey"
+          "manejar/lidiar con",
+          "participar",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "barrio"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "barrio",
+          "a proposito/con intencion",
+          "residente"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "barrio",
+          "residente",
+          "voluntario/a",
+          "a largo plazo"
         ],
         "explanation": ""
       }
@@ -21930,78 +21805,93 @@
     ]
   },
   {
-    "slug": "english-b1-travel-with-purpose-listening",
+    "slug": "english-b1-travel-with-purpose-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "travel-with-purpose",
-    "title": "Changing the Plan",
+    "title": "Visitors and the City Centre",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 41,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to travel with purpose.",
-    "intro": "Listen to a short B1 conversation linked to travel with purpose.",
+    "xpReward": 35,
+    "orderIndex": 40,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about travel with purpose and answer comprehension questions.",
+    "intro": "Read a practical B1 text about travel with purpose and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "Changing the Plan",
-      "mainTranscript": "Daniel tells Sarah that the train is delayed and suggests changing the morning plan. Sarah is frustrated because she wanted to arrive early, but Daniel points out that they can still visit the main museum in the afternoon. They decide to have breakfast, check the new arrival time and choose one activity to remove from the itinerary.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Daniel tells Sarah that the train is delayed and suggests changing the morning plan."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Sarah is frustrated because she wanted to arrive early, but Daniel points out that they can still visit the main museum in the afternoon."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "They decide to have breakfast, check the new arrival time and choose one activity to remove from the itinerary."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "Visitors and the City Centre",
+      "text": "In a local discussion, people living near popular attractions talk about crowded streets and rising prices during holiday seasons. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that tourism brings jobs and supports local businesses. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that visitors should respect daily life and local spaces. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try a visitor code and quieter routes. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “Visitors and the City Centre”?",
         "options": [
-          "Travel with Purpose",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "crowded streets and rising prices during holiday seasons",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "visitors should respect daily life and local spaces",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try a visitor code and quieter routes and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -22922,61 +22812,78 @@
     ]
   },
   {
-    "slug": "english-b1-travel-with-purpose-speaking",
+    "slug": "english-b1-travel-with-purpose-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "travel-with-purpose",
-    "title": "Talk about Travel with Purpose",
+    "title": "Changing the Plan",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 42,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 41,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to travel with purpose.",
+    "intro": "Listen to a short B1 conversation linked to travel with purpose.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Tell a short story about a trip problem.",
-        "translation": "Tell a short story about a trip problem."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Use Past Continuous and Past Simple.",
-        "translation": "Use Past Continuous and Past Simple."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "Changing the Plan",
+      "mainTranscript": "Daniel tells Sarah that the train is delayed and suggests changing the morning plan. Sarah is frustrated because she wanted to arrive early, but Daniel points out that they can still visit the main museum in the afternoon. They decide to have breakfast, check the new arrival time and choose one activity to remove from the itinerary.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Daniel tells Sarah that the train is delayed and suggests changing the morning plan."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Sarah is frustrated because she wanted to arrive early, but Daniel points out that they can still visit the main museum in the afternoon."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "They decide to have breakfast, check the new arrival time and choose one activity to remove from the itinerary."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "Travel with Purpose",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -23322,50 +23229,61 @@
     ]
   },
   {
-    "slug": "english-b1-travel-with-purpose-writing",
+    "slug": "english-b1-travel-with-purpose-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "travel-with-purpose",
-    "title": "Write about Travel with Purpose",
+    "title": "Talk about Travel with Purpose",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 43,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 42,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Tell a short story about a trip problem.",
+        "translation": "Tell a short story about a trip problem."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Use Past Continuous and Past Simple.",
+        "translation": "Use Past Continuous and Past Simple."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -23623,500 +23541,51 @@
     ]
   },
   {
-    "slug": "english-b1-travel-with-purpose-grammar",
+    "slug": "english-b1-travel-with-purpose-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "travel-with-purpose",
-    "title": "Past Continuous and Past Simple",
+    "title": "Write about Travel with Purpose",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 44,
-    "estimatedMinutes": 14,
-    "description": "Use Past Continuous and Past Simple in a realistic B1 context.",
-    "intro": "Use Past Continuous and Past Simple in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 43,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use Past Continuous and Past Simple accurately while discussing travel with purpose.\n\nRule: Use the Past Continuous for background actions and the Past Simple for completed events: \"They were waiting for the train when the announcement changed.\" This contrast helps you tell stories naturally at B1.\n\nPattern: Past Continuous: was/were + -ing. Past Simple: completed past form.\n\nExamples: were waiting · died · were drinking\n\nCommon mistakes: Use the continuous action as background and the Past Simple event as the interruption.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "Past Continuous and Past Simple",
-      "Tell a short story about a trip problem.",
-      "Use Past Continuous and Past Simple."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-travel-with-purpose-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q1",
-            "type": "mcq",
-            "prompt": "They ___ for the train when the announcement came.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "waited"
-              },
-              {
-                "id": "o2",
-                "text": "were waiting"
-              },
-              {
-                "id": "o3",
-                "text": "have waited"
-              },
-              {
-                "id": "o4",
-                "text": "are waiting"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q2",
-            "type": "mcq",
-            "prompt": "Daniel’s phone ___ while they were following the map.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "was dying"
-              },
-              {
-                "id": "o2",
-                "text": "died"
-              },
-              {
-                "id": "o3",
-                "text": "has died"
-              },
-              {
-                "id": "o4",
-                "text": "dies"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q3",
-            "type": "mcq",
-            "prompt": "While they ___ coffee, they found an exhibition.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "drank"
-              },
-              {
-                "id": "o2",
-                "text": "were drinking"
-              },
-              {
-                "id": "o3",
-                "text": "have drunk"
-              },
-              {
-                "id": "o4",
-                "text": "drink"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q4",
-            "type": "mcq",
-            "prompt": "What ___ Sarah doing when the train arrived?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "was"
-              },
-              {
-                "id": "o2",
-                "text": "did"
-              },
-              {
-                "id": "o3",
-                "text": "were"
-              },
-              {
-                "id": "o4",
-                "text": "has"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q5",
-            "type": "mcq",
-            "prompt": "They ___ in the wrong direction for twenty minutes.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "were walk"
-              },
-              {
-                "id": "o2",
-                "text": "walked"
-              },
-              {
-                "id": "o3",
-                "text": "was walking"
-              },
-              {
-                "id": "o4",
-                "text": "have walked"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q6",
-            "type": "mcq",
-            "prompt": "I ___ when you called me.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "drove"
-              },
-              {
-                "id": "o2",
-                "text": "was driving"
-              },
-              {
-                "id": "o3",
-                "text": "am driving"
-              },
-              {
-                "id": "o4",
-                "text": "have driven"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q7",
-            "type": "mcq",
-            "prompt": "As they were walking, they ___ an elderly woman for help.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "asked"
-              },
-              {
-                "id": "o2",
-                "text": "were ask"
-              },
-              {
-                "id": "o3",
-                "text": "have asked"
-              },
-              {
-                "id": "o4",
-                "text": "asking"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the correct sentence.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "We waited when the train was arriving."
-              },
-              {
-                "id": "o2",
-                "text": "We were waiting when the train arrived."
-              },
-              {
-                "id": "o3",
-                "text": "We were wait when the train arrived."
-              },
-              {
-                "id": "o4",
-                "text": "We waiting when the train arrived."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: They ___ for the train when the announcement came.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "were waiting"
-              },
-              {
-                "id": "o3",
-                "text": "have waited"
-              },
-              {
-                "id": "o4",
-                "text": "are waiting"
-              },
-              {
-                "id": "o1",
-                "text": "waited"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: Daniel’s phone ___ while they were following the map.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "died"
-              },
-              {
-                "id": "o3",
-                "text": "has died"
-              },
-              {
-                "id": "o4",
-                "text": "dies"
-              },
-              {
-                "id": "o1",
-                "text": "was dying"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: While they ___ coffee, they found an exhibition.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "were drinking"
-              },
-              {
-                "id": "o3",
-                "text": "have drunk"
-              },
-              {
-                "id": "o4",
-                "text": "drink"
-              },
-              {
-                "id": "o1",
-                "text": "drank"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: What ___ Sarah doing when the train arrived?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "did"
-              },
-              {
-                "id": "o3",
-                "text": "were"
-              },
-              {
-                "id": "o4",
-                "text": "has"
-              },
-              {
-                "id": "o1",
-                "text": "was"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: They ___ in the wrong direction for twenty minutes.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "walked"
-              },
-              {
-                "id": "o3",
-                "text": "was walking"
-              },
-              {
-                "id": "o4",
-                "text": "have walked"
-              },
-              {
-                "id": "o1",
-                "text": "were walk"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: I ___ when you called me.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "was driving"
-              },
-              {
-                "id": "o3",
-                "text": "am driving"
-              },
-              {
-                "id": "o4",
-                "text": "have driven"
-              },
-              {
-                "id": "o1",
-                "text": "drove"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-travel-with-purpose-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: As they were walking, they ___ an elderly woman for help.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "were ask"
-              },
-              {
-                "id": "o3",
-                "text": "have asked"
-              },
-              {
-                "id": "o4",
-                "text": "asking"
-              },
-              {
-                "id": "o1",
-                "text": "asked"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Past Continuous and Past Simple",
-        "context": "Use Past Continuous and Past Simple in a realistic B1 context.",
-        "definition": "Use the Past Continuous for background actions and the Past Simple for completed events: \"They were waiting for the train when the announcement changed.\" This contrast helps you tell stories naturally at B1.",
-        "explanation": "Use the Past Continuous for background actions and the Past Simple for completed events: \"They were waiting for the train when the announcement changed.\" This contrast helps you tell stories naturally at B1.",
-        "structure": "Past Continuous: was/were + -ing. Past Simple: completed past form.",
-        "purpose": "Use Past Continuous and Past Simple accurately while discussing travel with purpose.",
-        "function": "Use Past Continuous and Past Simple accurately while discussing travel with purpose.",
-        "examples": [
-          "Past Continuous and Past Simple",
-          "Tell a short story about a trip problem.",
-          "Use Past Continuous and Past Simple."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "They ___ for the train when the announcement came.",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "waited",
-          "were waiting",
-          "have waited",
-          "are waiting"
-        ],
-        "explanation": "The longer background action uses the Past Continuous."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "Daniel’s phone ___ while they were following the map.",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "was dying",
-          "died",
-          "has died",
-          "dies"
-        ],
-        "explanation": "The short completed event uses the Past Simple."
-      },
-      {
-        "type": "mcq",
-        "prompt": "While they ___ coffee, they found an exhibition.",
-        "options": [
-          "drank",
-          "were drinking",
-          "have drunk",
-          "drink"
-        ],
-        "explanation": "While introduces the ongoing background action."
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ___ Sarah doing when the train arrived?",
-        "options": [
-          "was",
-          "did",
-          "were",
-          "has"
-        ],
-        "explanation": "Past Continuous questions use was/were + subject + -ing."
-      },
-      {
-        "type": "mcq",
-        "prompt": "They ___ in the wrong direction for twenty minutes.",
-        "options": [
-          "were walk",
-          "walked",
-          "was walking",
-          "have walked"
-        ],
-        "explanation": "A completed past action takes the Past Simple."
-      },
-      {
-        "type": "mcq",
-        "prompt": "I ___ when you called me.",
-        "options": [
-          "drove",
-          "was driving",
-          "am driving",
-          "have driven"
-        ],
-        "explanation": "The call interrupted an ongoing action."
-      },
-      {
-        "type": "mcq",
-        "prompt": "As they were walking, they ___ an elderly woman for help.",
-        "options": [
-          "asked",
-          "were ask",
-          "have asked",
-          "asking"
-        ],
-        "explanation": "The completed event is in the Past Simple."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the correct sentence.",
-        "options": [
-          "We waited when the train was arriving.",
-          "We were waiting when the train arrived.",
-          "We were wait when the train arrived.",
-          "We waiting when the train arrived."
-        ],
-        "explanation": "Background: were waiting; interrupting event: arrived."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -26694,375 +26163,497 @@
     ]
   },
   {
-    "slug": "english-b1-travel-with-purpose-vocabulary",
+    "slug": "english-b1-travel-with-purpose-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "travel-with-purpose",
-    "title": "Vocabulary for Travel with Purpose",
+    "title": "Past Continuous and Past Simple",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 45,
+    "orderIndex": 44,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for travel with purpose.",
-    "intro": "Key B1 words and phrases for travel with purpose.",
+    "description": "Use Past Continuous and Past Simple in a realistic B1 context.",
+    "intro": "Use Past Continuous and Past Simple in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "itinerary",
-        "translation": "itinerario",
-        "definition": "itinerario",
-        "example": "Their itinerary included York and the coast.",
-        "contexts": [
-          {
-            "targetText": "Their itinerary included York and the coast."
-          },
-          {
-            "targetText": "Sarah used “itinerary” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “itinerary” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "delay",
-        "translation": "retraso",
-        "definition": "retraso",
-        "example": "There was a delay at the station.",
-        "contexts": [
-          {
-            "targetText": "There was a delay at the station."
-          },
-          {
-            "targetText": "Sarah used “delay” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “delay” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "announcement",
-        "translation": "anuncio",
-        "definition": "anuncio",
-        "example": "The announcement surprised everyone.",
-        "contexts": [
-          {
-            "targetText": "The announcement surprised everyone."
-          },
-          {
-            "targetText": "Sarah used “announcement” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “announcement” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "get lost",
-        "translation": "perderse",
-        "definition": "perderse",
-        "example": "They got lost near the old city walls.",
-        "contexts": [
-          {
-            "targetText": "They got lost near the old city walls."
-          },
-          {
-            "targetText": "Sarah used “get lost” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “get lost” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "destination",
-        "translation": "destino",
-        "definition": "destino",
-        "example": "York was their first destination.",
-        "contexts": [
-          {
-            "targetText": "York was their first destination."
-          },
-          {
-            "targetText": "Sarah used “destination” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “destination” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "make the most of",
-        "translation": "aprovechar al maximo",
-        "definition": "aprovechar al maximo",
-        "example": "They made the most of the delay.",
-        "contexts": [
-          {
-            "targetText": "They made the most of the delay."
-          },
-          {
-            "targetText": "Sarah used “make the most of” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “make the most of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with travel with purpose in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with travel with purpose in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing travel with purpose."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use Past Continuous and Past Simple accurately while discussing travel with purpose.\n\nRule: Use the Past Continuous for background actions and the Past Simple for completed events: \"They were waiting for the train when the announcement changed.\" This contrast helps you tell stories naturally at B1.\n\nPattern: Past Continuous: was/were + -ing. Past Simple: completed past form.\n\nExamples: were waiting · died · were drinking\n\nCommon mistakes: Use the continuous action as background and the Past Simple event as the interruption.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "Past Continuous and Past Simple",
+      "Tell a short story about a trip problem.",
+      "Use Past Continuous and Past Simple."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-travel-with-purpose-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "They ___ for the train when the announcement came.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "waited"
+              },
+              {
+                "id": "o2",
+                "text": "were waiting"
+              },
+              {
+                "id": "o3",
+                "text": "have waited"
+              },
+              {
+                "id": "o4",
+                "text": "are waiting"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Daniel’s phone ___ while they were following the map.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "was dying"
+              },
+              {
+                "id": "o2",
+                "text": "died"
+              },
+              {
+                "id": "o3",
+                "text": "has died"
+              },
+              {
+                "id": "o4",
+                "text": "dies"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "While they ___ coffee, they found an exhibition.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "drank"
+              },
+              {
+                "id": "o2",
+                "text": "were drinking"
+              },
+              {
+                "id": "o3",
+                "text": "have drunk"
+              },
+              {
+                "id": "o4",
+                "text": "drink"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "What ___ Sarah doing when the train arrived?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "was"
+              },
+              {
+                "id": "o2",
+                "text": "did"
+              },
+              {
+                "id": "o3",
+                "text": "were"
+              },
+              {
+                "id": "o4",
+                "text": "has"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "They ___ in the wrong direction for twenty minutes.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "were walk"
+              },
+              {
+                "id": "o2",
+                "text": "walked"
+              },
+              {
+                "id": "o3",
+                "text": "was walking"
+              },
+              {
+                "id": "o4",
+                "text": "have walked"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "I ___ when you called me.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "drove"
+              },
+              {
+                "id": "o2",
+                "text": "was driving"
+              },
+              {
+                "id": "o3",
+                "text": "am driving"
+              },
+              {
+                "id": "o4",
+                "text": "have driven"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "As they were walking, they ___ an elderly woman for help.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "asked"
+              },
+              {
+                "id": "o2",
+                "text": "were ask"
+              },
+              {
+                "id": "o3",
+                "text": "have asked"
+              },
+              {
+                "id": "o4",
+                "text": "asking"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the correct sentence.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "We waited when the train was arriving."
+              },
+              {
+                "id": "o2",
+                "text": "We were waiting when the train arrived."
+              },
+              {
+                "id": "o3",
+                "text": "We were wait when the train arrived."
+              },
+              {
+                "id": "o4",
+                "text": "We waiting when the train arrived."
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "They ___ for the train when the announcement came.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "waited"
+              },
+              {
+                "id": "o2",
+                "text": "were waiting"
+              },
+              {
+                "id": "o3",
+                "text": "have waited"
+              },
+              {
+                "id": "o4",
+                "text": "are waiting"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "Daniel’s phone ___ while they were following the map.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "was dying"
+              },
+              {
+                "id": "o2",
+                "text": "died"
+              },
+              {
+                "id": "o3",
+                "text": "has died"
+              },
+              {
+                "id": "o4",
+                "text": "dies"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "While they ___ coffee, they found an exhibition.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "drank"
+              },
+              {
+                "id": "o2",
+                "text": "were drinking"
+              },
+              {
+                "id": "o3",
+                "text": "have drunk"
+              },
+              {
+                "id": "o4",
+                "text": "drink"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "What ___ Sarah doing when the train arrived?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "was"
+              },
+              {
+                "id": "o2",
+                "text": "did"
+              },
+              {
+                "id": "o3",
+                "text": "were"
+              },
+              {
+                "id": "o4",
+                "text": "has"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "They ___ in the wrong direction for twenty minutes.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "were walk"
+              },
+              {
+                "id": "o2",
+                "text": "walked"
+              },
+              {
+                "id": "o3",
+                "text": "was walking"
+              },
+              {
+                "id": "o4",
+                "text": "have walked"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "I ___ when you called me.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "drove"
+              },
+              {
+                "id": "o2",
+                "text": "was driving"
+              },
+              {
+                "id": "o3",
+                "text": "am driving"
+              },
+              {
+                "id": "o4",
+                "text": "have driven"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "As they were walking, they ___ an elderly woman for help.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "asked"
+              },
+              {
+                "id": "o2",
+                "text": "were ask"
+              },
+              {
+                "id": "o3",
+                "text": "have asked"
+              },
+              {
+                "id": "o4",
+                "text": "asking"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Past Continuous and Past Simple",
+        "definition": "Use Past Continuous and Past Simple in a realistic B1 context.",
+        "structure": "Goal: Use Past Continuous and Past Simple accurately while discussing travel with purpose.\n\nRule: Use the Past Continuous for background actions and the Past Simple for completed events: \"They were waiting for the train when the announcement changed.\" This contrast helps you tell stories naturally at B1.\n\nPattern: Past Continuous: was/were + -ing. Past Simple: completed past form.\n\nExamples: were waiting · died · were drinking\n\nCommon mistakes: Use the continuous action as background and the Past Simple event as the interruption.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use Past Continuous and Past Simple to communicate clearly in practical B1 situations.",
+        "examples": [
+          "Past Continuous and Past Simple",
+          "Tell a short story about a trip problem.",
+          "Use Past Continuous and Past Simple."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “itinerary” mean in this unit?",
+        "prompt": "They ___ for the train when the announcement came.",
         "options": [
-          "itinerario",
-          "retraso",
-          "anuncio",
-          "perderse"
+          "waited",
+          "were waiting",
+          "have waited",
+          "are waiting"
         ],
-        "explanation": ""
+        "explanation": "The longer background action uses the Past Continuous."
       },
       {
         "type": "mcq",
-        "prompt": "What does “delay” mean in this unit?",
+        "prompt": "Daniel’s phone ___ while they were following the map.",
         "options": [
-          "anuncio",
-          "retraso",
-          "perderse",
-          "destino"
+          "was dying",
+          "died",
+          "has died",
+          "dies"
         ],
-        "explanation": ""
+        "explanation": "The short completed event uses the Past Simple."
       },
       {
         "type": "mcq",
-        "prompt": "What does “announcement” mean in this unit?",
+        "prompt": "While they ___ coffee, they found an exhibition.",
         "options": [
-          "perderse",
-          "destino",
-          "anuncio",
-          "aprovechar al maximo"
+          "drank",
+          "were drinking",
+          "have drunk",
+          "drink"
         ],
-        "explanation": ""
+        "explanation": "While introduces the ongoing background action."
       },
       {
         "type": "mcq",
-        "prompt": "What does “get lost” mean in this unit?",
+        "prompt": "What ___ Sarah doing when the train arrived?",
         "options": [
-          "destino",
-          "aprovechar al maximo",
-          "manejar/lidiar con",
-          "perderse"
+          "was",
+          "did",
+          "were",
+          "has"
         ],
-        "explanation": ""
+        "explanation": "Past Continuous questions use was/were + subject + -ing."
       },
       {
         "type": "mcq",
-        "prompt": "What does “destination” mean in this unit?",
+        "prompt": "They ___ in the wrong direction for twenty minutes.",
         "options": [
-          "destino",
-          "aprovechar al maximo",
-          "manejar/lidiar con",
-          "senalar"
+          "were walk",
+          "walked",
+          "was walking",
+          "have walked"
         ],
-        "explanation": ""
+        "explanation": "A completed past action takes the Past Simple."
       },
       {
         "type": "mcq",
-        "prompt": "What does “make the most of” mean in this unit?",
+        "prompt": "I ___ when you called me.",
         "options": [
-          "manejar/lidiar con",
-          "aprovechar al maximo",
-          "senalar",
-          "proponer/idear"
+          "drove",
+          "was driving",
+          "am driving",
+          "have driven"
         ],
-        "explanation": ""
+        "explanation": "The call interrupted an ongoing action."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "As they were walking, they ___ an elderly woman for help.",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "asked",
+          "were ask",
+          "have asked",
+          "asking"
         ],
-        "explanation": ""
+        "explanation": "The completed event is in the Past Simple."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the correct sentence.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "We waited when the train was arriving.",
+          "We were waiting when the train arrived.",
+          "We were wait when the train arrived.",
+          "We waiting when the train arrived."
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "itinerario"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "itinerario",
-          "a proposito/con intencion",
-          "retraso"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "itinerario",
-          "retraso",
-          "anuncio",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "Background: were waiting; interrupting event: arrived."
       }
     ]
   },
@@ -28010,98 +27601,373 @@
     ]
   },
   {
-    "slug": "english-b1-health-and-balance-reading",
+    "slug": "english-b1-travel-with-purpose-vocabulary",
     "level": "B1",
-    "skill": "reading",
-    "unitId": "health-and-balance",
-    "title": "Learning to Slow Down",
+    "skill": "vocabulary",
+    "unitId": "travel-with-purpose",
+    "title": "Vocabulary for Travel with Purpose",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 50,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about health and balance and answer comprehension questions.",
-    "intro": "Read a B1 story about health and balance and answer comprehension questions.",
+    "xpReward": 30,
+    "orderIndex": 45,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for travel with purpose.",
+    "intro": "Key B1 words and phrases for travel with purpose.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [],
+    "vocabulary": [
+      {
+        "word": "itinerary",
+        "translation": "itinerario",
+        "definition": "itinerario",
+        "example": "Their itinerary included York and the coast.",
+        "contexts": [
+          {
+            "targetText": "Their itinerary included York and the coast."
+          },
+          {
+            "targetText": "Sarah used “itinerary” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “itinerary” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "delay",
+        "translation": "retraso",
+        "definition": "retraso",
+        "example": "There was a delay at the station.",
+        "contexts": [
+          {
+            "targetText": "There was a delay at the station."
+          },
+          {
+            "targetText": "Sarah used “delay” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “delay” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "announcement",
+        "translation": "anuncio",
+        "definition": "anuncio",
+        "example": "The announcement surprised everyone.",
+        "contexts": [
+          {
+            "targetText": "The announcement surprised everyone."
+          },
+          {
+            "targetText": "Sarah used “announcement” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “announcement” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "get lost",
+        "translation": "perderse",
+        "definition": "perderse",
+        "example": "They got lost near the old city walls.",
+        "contexts": [
+          {
+            "targetText": "They got lost near the old city walls."
+          },
+          {
+            "targetText": "Sarah used “get lost” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “get lost” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "destination",
+        "translation": "destino",
+        "definition": "destino",
+        "example": "York was their first destination.",
+        "contexts": [
+          {
+            "targetText": "York was their first destination."
+          },
+          {
+            "targetText": "Sarah used “destination” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “destination” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "make the most of",
+        "translation": "aprovechar al maximo",
+        "definition": "aprovechar al maximo",
+        "example": "They made the most of the delay.",
+        "contexts": [
+          {
+            "targetText": "They made the most of the delay."
+          },
+          {
+            "targetText": "Sarah used “make the most of” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “make the most of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with travel with purpose in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with travel with purpose in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing travel with purpose."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
     "dialogue": [],
-    "reading": {
-      "title": "Learning to Slow Down",
-      "text": "For several weeks, Sarah had been saying yes to everything. She answered emails during dinner, accepted extra tasks at work and spent her weekends preparing for Monday. At first, she felt productive, but gradually she became tired and impatient. Daniel noticed it when she forgot an appointment they had planned together.\n\nInstead of criticising her, Daniel suggested taking a quiet walk along the canal. While they were walking, Sarah admitted that she enjoyed doing well at work but hated feeling permanently available. Daniel understood the feeling. Since starting his new hotel job, he had also found it difficult to stop thinking about work after his shift ended.\n\nThey decided to make three simple changes. Sarah would avoid checking work emails after eight o'clock. Daniel would prepare his uniform before dinner instead of rushing in the morning. Both of them would keep Sunday afternoon free unless something urgent happened.\n\nThe changes did not solve every problem immediately, but they made daily life feel lighter. Sarah realised that ambition and rest did not have to be enemies. In fact, resting properly helped her think more clearly and work better.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which behaviour first shows Sarah’s poor work-life balance?",
+        "prompt": "What does “itinerary” mean in this unit?",
         "options": [
-          "Walking by the canal",
-          "Answering emails during dinner",
-          "Preparing her clothes early",
-          "Keeping Sunday free"
+          "itinerario",
+          "retraso",
+          "anuncio",
+          "perderse"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What made Daniel realise the situation was serious?",
+        "prompt": "What does “delay” mean in this unit?",
         "options": [
-          "Sarah missed a train",
-          "Sarah forgot their appointment",
-          "Sarah changed jobs",
-          "Sarah stopped studying"
+          "anuncio",
+          "retraso",
+          "perderse",
+          "destino"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why did Daniel suggest a walk?",
+        "prompt": "What does “announcement” mean in this unit?",
         "options": [
-          "To discuss the problem calmly",
-          "To avoid going home",
-          "To prepare for work",
-          "To check work messages"
+          "perderse",
+          "destino",
+          "anuncio",
+          "aprovechar al maximo"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What boundary did Sarah choose?",
+        "prompt": "What does “get lost” mean in this unit?",
         "options": [
-          "No email after eight",
-          "No meetings before lunch",
-          "No work on Fridays",
-          "No phone during the day"
+          "destino",
+          "aprovechar al maximo",
+          "manejar/lidiar con",
+          "perderse"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What would Daniel do differently?",
+        "prompt": "What does “destination” mean in this unit?",
         "options": [
-          "Leave his job",
-          "Prepare his uniform before dinner",
-          "Sleep at the hotel",
-          "Work every Sunday"
+          "destino",
+          "aprovechar al maximo",
+          "manejar/lidiar con",
+          "senalar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What is the central message?",
+        "prompt": "What does “make the most of” mean in this unit?",
         "options": [
-          "Rest and ambition can support each other",
-          "Only dramatic changes improve health",
-          "Productivity requires constant availability",
-          "Work problems disappear immediately"
+          "manejar/lidiar con",
+          "aprovechar al maximo",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "itinerario"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "itinerario",
+          "a proposito/con intencion",
+          "retraso"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "itinerario",
+          "retraso",
+          "anuncio",
+          "a largo plazo"
         ],
         "explanation": ""
       }
@@ -28822,83 +28688,93 @@
     ]
   },
   {
-    "slug": "english-b1-health-and-balance-listening",
+    "slug": "english-b1-health-and-balance-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "health-and-balance",
-    "title": "A Healthier Routine",
+    "title": "When the Phone Never Stops",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 51,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to health and balance.",
-    "intro": "Listen to a short B1 conversation linked to health and balance.",
+    "xpReward": 35,
+    "orderIndex": 50,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about health and balance and answer comprehension questions.",
+    "intro": "Read a practical B1 text about health and balance and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "A Healthier Routine",
-      "mainTranscript": "Sarah and Daniel discuss their evening routines. Sarah says she needs to stop checking emails late at night. Daniel says he wants to start preparing for work earlier so his mornings are calmer. They agree that small habits can reduce stress more effectively than dramatic promises.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Sarah and Daniel discuss their evening routines."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Sarah says she needs to stop checking emails late at night."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "When the Phone Never Stops",
+      "text": "In a local discussion, students and workers in one neighbourhood talk about late-night messages and constant notifications. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that phones make it easier to stay connected. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that people need time away from screens to rest. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try screen-free hours after dinner. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “When the Phone Never Stops”?",
         "options": [
-          "Health and Balance",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "late-night messages and constant notifications",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "people need time away from screens to rest",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try screen-free hours after dinner and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -29804,61 +29680,83 @@
     ]
   },
   {
-    "slug": "english-b1-health-and-balance-speaking",
+    "slug": "english-b1-health-and-balance-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "health-and-balance",
-    "title": "Talk about Health and Balance",
+    "title": "A Healthier Routine",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 52,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 51,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to health and balance.",
+    "intro": "Listen to a short B1 conversation linked to health and balance.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Give advice to someone who feels stressed.",
-        "translation": "Give advice to someone who feels stressed."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Use one gerund and one infinitive.",
-        "translation": "Use one gerund and one infinitive."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "A Healthier Routine",
+      "mainTranscript": "Sarah and Daniel discuss their evening routines. Sarah says she needs to stop checking emails late at night. Daniel says he wants to start preparing for work earlier so his mornings are calmer. They agree that small habits can reduce stress more effectively than dramatic promises.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Sarah and Daniel discuss their evening routines."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Sarah says she needs to stop checking emails late at night."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "Health and Balance",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -30204,50 +30102,61 @@
     ]
   },
   {
-    "slug": "english-b1-health-and-balance-writing",
+    "slug": "english-b1-health-and-balance-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "health-and-balance",
-    "title": "Write about Health and Balance",
+    "title": "Talk about Health and Balance",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 53,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 52,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Give advice to someone who feels stressed.",
+        "translation": "Give advice to someone who feels stressed."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Use one gerund and one infinitive.",
+        "translation": "Use one gerund and one infinitive."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -30505,500 +30414,51 @@
     ]
   },
   {
-    "slug": "english-b1-health-and-balance-grammar",
+    "slug": "english-b1-health-and-balance-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "health-and-balance",
-    "title": "Gerunds and infinitives",
+    "title": "Write about Health and Balance",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 54,
-    "estimatedMinutes": 14,
-    "description": "Use Gerunds and infinitives in a realistic B1 context.",
-    "intro": "Use Gerunds and infinitives in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 53,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use Gerunds and infinitives accurately while discussing health and balance.\n\nRule: Some verbs are followed by gerunds (\"enjoy walking\", \"avoid checking emails late\"), while others are followed by infinitives (\"decide to rest\", \"need to sleep\"). At B1, this helps you talk about habits and choices more accurately.\n\nPattern: verb + -ing after enjoy/avoid/suggest; verb + to-infinitive after decide/need/want/agree.\n\nExamples: doing · not to check · taking\n\nCommon mistakes: Learn the verb pattern as a complete chunk; do not choose gerund or infinitive only by translation.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "Gerunds and infinitives",
-      "Give advice to someone who feels stressed.",
-      "Use one gerund and one infinitive."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-health-and-balance-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-health-and-balance-grammar-q1",
-            "type": "mcq",
-            "prompt": "Sarah enjoys ___ well at work.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "to doing"
-              },
-              {
-                "id": "o2",
-                "text": "doing"
-              },
-              {
-                "id": "o3",
-                "text": "do"
-              },
-              {
-                "id": "o4",
-                "text": "to did"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q2",
-            "type": "mcq",
-            "prompt": "She decided ___ her email after eight.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "not checking"
-              },
-              {
-                "id": "o2",
-                "text": "not to check"
-              },
-              {
-                "id": "o3",
-                "text": "to not checking"
-              },
-              {
-                "id": "o4",
-                "text": "not check"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q3",
-            "type": "mcq",
-            "prompt": "Daniel suggested ___ a walk.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "to take"
-              },
-              {
-                "id": "o2",
-                "text": "taking"
-              },
-              {
-                "id": "o3",
-                "text": "take"
-              },
-              {
-                "id": "o4",
-                "text": "to taking"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q4",
-            "type": "mcq",
-            "prompt": "They need ___ more time for rest.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "making"
-              },
-              {
-                "id": "o2",
-                "text": "to make"
-              },
-              {
-                "id": "o3",
-                "text": "make to"
-              },
-              {
-                "id": "o4",
-                "text": "made"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q5",
-            "type": "mcq",
-            "prompt": "I avoid ___ work messages during dinner.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "to answer"
-              },
-              {
-                "id": "o2",
-                "text": "answering"
-              },
-              {
-                "id": "o3",
-                "text": "answer"
-              },
-              {
-                "id": "o4",
-                "text": "answered"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q6",
-            "type": "mcq",
-            "prompt": "He wants ___ his uniform earlier.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "preparing"
-              },
-              {
-                "id": "o2",
-                "text": "to prepare"
-              },
-              {
-                "id": "o3",
-                "text": "prepare to"
-              },
-              {
-                "id": "o4",
-                "text": "prepared"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q7",
-            "type": "mcq",
-            "prompt": "Sarah stopped ___ emails late at night.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "to checking"
-              },
-              {
-                "id": "o2",
-                "text": "checking"
-              },
-              {
-                "id": "o3",
-                "text": "check"
-              },
-              {
-                "id": "o4",
-                "text": "checked"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the correct sentence.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "We agreed keeping Sunday free."
-              },
-              {
-                "id": "o2",
-                "text": "We agreed to keep Sunday free."
-              },
-              {
-                "id": "o3",
-                "text": "We agreed keep Sunday free."
-              },
-              {
-                "id": "o4",
-                "text": "We agreed to keeping Sunday free."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: Sarah enjoys ___ well at work.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "doing"
-              },
-              {
-                "id": "o3",
-                "text": "do"
-              },
-              {
-                "id": "o4",
-                "text": "to did"
-              },
-              {
-                "id": "o1",
-                "text": "to doing"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: She decided ___ her email after eight.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "not to check"
-              },
-              {
-                "id": "o3",
-                "text": "to not checking"
-              },
-              {
-                "id": "o4",
-                "text": "not check"
-              },
-              {
-                "id": "o1",
-                "text": "not checking"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: Daniel suggested ___ a walk.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "taking"
-              },
-              {
-                "id": "o3",
-                "text": "take"
-              },
-              {
-                "id": "o4",
-                "text": "to taking"
-              },
-              {
-                "id": "o1",
-                "text": "to take"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: They need ___ more time for rest.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "to make"
-              },
-              {
-                "id": "o3",
-                "text": "make to"
-              },
-              {
-                "id": "o4",
-                "text": "made"
-              },
-              {
-                "id": "o1",
-                "text": "making"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: I avoid ___ work messages during dinner.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "answering"
-              },
-              {
-                "id": "o3",
-                "text": "answer"
-              },
-              {
-                "id": "o4",
-                "text": "answered"
-              },
-              {
-                "id": "o1",
-                "text": "to answer"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: He wants ___ his uniform earlier.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "to prepare"
-              },
-              {
-                "id": "o3",
-                "text": "prepare to"
-              },
-              {
-                "id": "o4",
-                "text": "prepared"
-              },
-              {
-                "id": "o1",
-                "text": "preparing"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-health-and-balance-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: Sarah stopped ___ emails late at night.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "checking"
-              },
-              {
-                "id": "o3",
-                "text": "check"
-              },
-              {
-                "id": "o4",
-                "text": "checked"
-              },
-              {
-                "id": "o1",
-                "text": "to checking"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Gerunds and infinitives",
-        "context": "Use Gerunds and infinitives in a realistic B1 context.",
-        "definition": "Some verbs are followed by gerunds (\"enjoy walking\", \"avoid checking emails late\"), while others are followed by infinitives (\"decide to rest\", \"need to sleep\"). At B1, this helps you talk about habits and choices more accurately.",
-        "explanation": "Some verbs are followed by gerunds (\"enjoy walking\", \"avoid checking emails late\"), while others are followed by infinitives (\"decide to rest\", \"need to sleep\"). At B1, this helps you talk about habits and choices more accurately.",
-        "structure": "verb + -ing after enjoy/avoid/suggest; verb + to-infinitive after decide/need/want/agree.",
-        "purpose": "Use Gerunds and infinitives accurately while discussing health and balance.",
-        "function": "Use Gerunds and infinitives accurately while discussing health and balance.",
-        "examples": [
-          "Gerunds and infinitives",
-          "Give advice to someone who feels stressed.",
-          "Use one gerund and one infinitive."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sarah enjoys ___ well at work.",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "to doing",
-          "doing",
-          "do",
-          "to did"
-        ],
-        "explanation": "Enjoy is followed by a gerund."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "She decided ___ her email after eight.",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "not checking",
-          "not to check",
-          "to not checking",
-          "not check"
-        ],
-        "explanation": "Decide is followed by an infinitive."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Daniel suggested ___ a walk.",
-        "options": [
-          "to take",
-          "taking",
-          "take",
-          "to taking"
-        ],
-        "explanation": "Suggest is followed by a gerund."
-      },
-      {
-        "type": "mcq",
-        "prompt": "They need ___ more time for rest.",
-        "options": [
-          "making",
-          "to make",
-          "make to",
-          "made"
-        ],
-        "explanation": "Need is followed by an infinitive here."
-      },
-      {
-        "type": "mcq",
-        "prompt": "I avoid ___ work messages during dinner.",
-        "options": [
-          "to answer",
-          "answering",
-          "answer",
-          "answered"
-        ],
-        "explanation": "Avoid is followed by a gerund."
-      },
-      {
-        "type": "mcq",
-        "prompt": "He wants ___ his uniform earlier.",
-        "options": [
-          "preparing",
-          "to prepare",
-          "prepare to",
-          "prepared"
-        ],
-        "explanation": "Want is followed by an infinitive."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Sarah stopped ___ emails late at night.",
-        "options": [
-          "to checking",
-          "checking",
-          "check",
-          "checked"
-        ],
-        "explanation": "Stop + gerund means end an activity."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the correct sentence.",
-        "options": [
-          "We agreed keeping Sunday free.",
-          "We agreed to keep Sunday free.",
-          "We agreed keep Sunday free.",
-          "We agreed to keeping Sunday free."
-        ],
-        "explanation": "Agree is followed by to + infinitive."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -33576,375 +33036,497 @@
     ]
   },
   {
-    "slug": "english-b1-health-and-balance-vocabulary",
+    "slug": "english-b1-health-and-balance-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "health-and-balance",
-    "title": "Vocabulary for Health and Balance",
+    "title": "Gerunds and infinitives",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 55,
+    "orderIndex": 54,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for health and balance.",
-    "intro": "Key B1 words and phrases for health and balance.",
+    "description": "Use Gerunds and infinitives in a realistic B1 context.",
+    "intro": "Use Gerunds and infinitives in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "balance",
-        "translation": "equilibrio",
-        "definition": "equilibrio",
-        "example": "Sarah needs a better work-life balance.",
-        "contexts": [
-          {
-            "targetText": "Sarah needs a better work-life balance."
-          },
-          {
-            "targetText": "Sarah used “balance” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “balance” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "stressful",
-        "translation": "estresante",
-        "definition": "estresante",
-        "example": "The last month has been stressful.",
-        "contexts": [
-          {
-            "targetText": "The last month has been stressful."
-          },
-          {
-            "targetText": "Sarah used “stressful” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “stressful” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "routine",
-        "translation": "rutina",
-        "definition": "rutina",
-        "example": "A calm evening routine helps Daniel sleep.",
-        "contexts": [
-          {
-            "targetText": "A calm evening routine helps Daniel sleep."
-          },
-          {
-            "targetText": "Sarah used “routine” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “routine” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "avoid",
-        "translation": "evitar",
-        "definition": "evitar",
-        "example": "She tries to avoid checking emails at night.",
-        "contexts": [
-          {
-            "targetText": "She tries to avoid checking emails at night."
-          },
-          {
-            "targetText": "Sarah used “avoid” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “avoid” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "rest",
-        "translation": "descansar",
-        "definition": "descansar",
-        "example": "They decided to rest on Sunday.",
-        "contexts": [
-          {
-            "targetText": "They decided to rest on Sunday."
-          },
-          {
-            "targetText": "Sarah used “rest” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “rest” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "well-being",
-        "translation": "bienestar",
-        "definition": "bienestar",
-        "example": "Exercise supports her well-being.",
-        "contexts": [
-          {
-            "targetText": "Exercise supports her well-being."
-          },
-          {
-            "targetText": "Sarah used “well-being” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “well-being” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with health and balance in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with health and balance in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing health and balance."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use Gerunds and infinitives accurately while discussing health and balance.\n\nRule: Some verbs are followed by gerunds (\"enjoy walking\", \"avoid checking emails late\"), while others are followed by infinitives (\"decide to rest\", \"need to sleep\"). At B1, this helps you talk about habits and choices more accurately.\n\nPattern: verb + -ing after enjoy/avoid/suggest; verb + to-infinitive after decide/need/want/agree.\n\nExamples: doing · not to check · taking\n\nCommon mistakes: Learn the verb pattern as a complete chunk; do not choose gerund or infinitive only by translation.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "Gerunds and infinitives",
+      "Give advice to someone who feels stressed.",
+      "Use one gerund and one infinitive."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-health-and-balance-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Sarah enjoys ___ well at work.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "to doing"
+              },
+              {
+                "id": "o2",
+                "text": "doing"
+              },
+              {
+                "id": "o3",
+                "text": "do"
+              },
+              {
+                "id": "o4",
+                "text": "to did"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "She decided ___ her email after eight.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "not checking"
+              },
+              {
+                "id": "o2",
+                "text": "not to check"
+              },
+              {
+                "id": "o3",
+                "text": "to not checking"
+              },
+              {
+                "id": "o4",
+                "text": "not check"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Daniel suggested ___ a walk.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "to take"
+              },
+              {
+                "id": "o2",
+                "text": "taking"
+              },
+              {
+                "id": "o3",
+                "text": "take"
+              },
+              {
+                "id": "o4",
+                "text": "to taking"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "They need ___ more time for rest.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "making"
+              },
+              {
+                "id": "o2",
+                "text": "to make"
+              },
+              {
+                "id": "o3",
+                "text": "make to"
+              },
+              {
+                "id": "o4",
+                "text": "made"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "I avoid ___ work messages during dinner.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "to answer"
+              },
+              {
+                "id": "o2",
+                "text": "answering"
+              },
+              {
+                "id": "o3",
+                "text": "answer"
+              },
+              {
+                "id": "o4",
+                "text": "answered"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "He wants ___ his uniform earlier.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "preparing"
+              },
+              {
+                "id": "o2",
+                "text": "to prepare"
+              },
+              {
+                "id": "o3",
+                "text": "prepare to"
+              },
+              {
+                "id": "o4",
+                "text": "prepared"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Sarah stopped ___ emails late at night.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "to checking"
+              },
+              {
+                "id": "o2",
+                "text": "checking"
+              },
+              {
+                "id": "o3",
+                "text": "check"
+              },
+              {
+                "id": "o4",
+                "text": "checked"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the correct sentence.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "We agreed keeping Sunday free."
+              },
+              {
+                "id": "o2",
+                "text": "We agreed to keep Sunday free."
+              },
+              {
+                "id": "o3",
+                "text": "We agreed keep Sunday free."
+              },
+              {
+                "id": "o4",
+                "text": "We agreed to keeping Sunday free."
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Sarah enjoys ___ well at work.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "to doing"
+              },
+              {
+                "id": "o2",
+                "text": "doing"
+              },
+              {
+                "id": "o3",
+                "text": "do"
+              },
+              {
+                "id": "o4",
+                "text": "to did"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "She decided ___ her email after eight.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "not checking"
+              },
+              {
+                "id": "o2",
+                "text": "not to check"
+              },
+              {
+                "id": "o3",
+                "text": "to not checking"
+              },
+              {
+                "id": "o4",
+                "text": "not check"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Daniel suggested ___ a walk.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "to take"
+              },
+              {
+                "id": "o2",
+                "text": "taking"
+              },
+              {
+                "id": "o3",
+                "text": "take"
+              },
+              {
+                "id": "o4",
+                "text": "to taking"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "They need ___ more time for rest.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "making"
+              },
+              {
+                "id": "o2",
+                "text": "to make"
+              },
+              {
+                "id": "o3",
+                "text": "make to"
+              },
+              {
+                "id": "o4",
+                "text": "made"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "I avoid ___ work messages during dinner.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "to answer"
+              },
+              {
+                "id": "o2",
+                "text": "answering"
+              },
+              {
+                "id": "o3",
+                "text": "answer"
+              },
+              {
+                "id": "o4",
+                "text": "answered"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "He wants ___ his uniform earlier.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "preparing"
+              },
+              {
+                "id": "o2",
+                "text": "to prepare"
+              },
+              {
+                "id": "o3",
+                "text": "prepare to"
+              },
+              {
+                "id": "o4",
+                "text": "prepared"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "Sarah stopped ___ emails late at night.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "to checking"
+              },
+              {
+                "id": "o2",
+                "text": "checking"
+              },
+              {
+                "id": "o3",
+                "text": "check"
+              },
+              {
+                "id": "o4",
+                "text": "checked"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gerunds and infinitives",
+        "definition": "Use Gerunds and infinitives in a realistic B1 context.",
+        "structure": "Goal: Use Gerunds and infinitives accurately while discussing health and balance.\n\nRule: Some verbs are followed by gerunds (\"enjoy walking\", \"avoid checking emails late\"), while others are followed by infinitives (\"decide to rest\", \"need to sleep\"). At B1, this helps you talk about habits and choices more accurately.\n\nPattern: verb + -ing after enjoy/avoid/suggest; verb + to-infinitive after decide/need/want/agree.\n\nExamples: doing · not to check · taking\n\nCommon mistakes: Learn the verb pattern as a complete chunk; do not choose gerund or infinitive only by translation.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use Gerunds and infinitives to communicate clearly in practical B1 situations.",
+        "examples": [
+          "Gerunds and infinitives",
+          "Give advice to someone who feels stressed.",
+          "Use one gerund and one infinitive."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “balance” mean in this unit?",
+        "prompt": "Sarah enjoys ___ well at work.",
         "options": [
-          "equilibrio",
-          "estresante",
-          "rutina",
-          "evitar"
+          "to doing",
+          "doing",
+          "do",
+          "to did"
         ],
-        "explanation": ""
+        "explanation": "Enjoy is followed by a gerund."
       },
       {
         "type": "mcq",
-        "prompt": "What does “stressful” mean in this unit?",
+        "prompt": "She decided ___ her email after eight.",
         "options": [
-          "rutina",
-          "estresante",
-          "evitar",
-          "descansar"
+          "not checking",
+          "not to check",
+          "to not checking",
+          "not check"
         ],
-        "explanation": ""
+        "explanation": "Decide is followed by an infinitive."
       },
       {
         "type": "mcq",
-        "prompt": "What does “routine” mean in this unit?",
+        "prompt": "Daniel suggested ___ a walk.",
         "options": [
-          "evitar",
-          "descansar",
-          "rutina",
-          "bienestar"
+          "to take",
+          "taking",
+          "take",
+          "to taking"
         ],
-        "explanation": ""
+        "explanation": "Suggest is followed by a gerund."
       },
       {
         "type": "mcq",
-        "prompt": "What does “avoid” mean in this unit?",
+        "prompt": "They need ___ more time for rest.",
         "options": [
-          "descansar",
-          "bienestar",
-          "manejar/lidiar con",
-          "evitar"
+          "making",
+          "to make",
+          "make to",
+          "made"
         ],
-        "explanation": ""
+        "explanation": "Need is followed by an infinitive here."
       },
       {
         "type": "mcq",
-        "prompt": "What does “rest” mean in this unit?",
+        "prompt": "I avoid ___ work messages during dinner.",
         "options": [
-          "descansar",
-          "bienestar",
-          "manejar/lidiar con",
-          "senalar"
+          "to answer",
+          "answering",
+          "answer",
+          "answered"
         ],
-        "explanation": ""
+        "explanation": "Avoid is followed by a gerund."
       },
       {
         "type": "mcq",
-        "prompt": "What does “well-being” mean in this unit?",
+        "prompt": "He wants ___ his uniform earlier.",
         "options": [
-          "manejar/lidiar con",
-          "bienestar",
-          "senalar",
-          "proponer/idear"
+          "preparing",
+          "to prepare",
+          "prepare to",
+          "prepared"
         ],
-        "explanation": ""
+        "explanation": "Want is followed by an infinitive."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "Sarah stopped ___ emails late at night.",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "to checking",
+          "checking",
+          "check",
+          "checked"
         ],
-        "explanation": ""
+        "explanation": "Stop + gerund means end an activity."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the correct sentence.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "We agreed keeping Sunday free.",
+          "We agreed to keep Sunday free.",
+          "We agreed keep Sunday free.",
+          "We agreed to keeping Sunday free."
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "equilibrio"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "equilibrio",
-          "a proposito/con intencion",
-          "estresante"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "equilibrio",
-          "estresante",
-          "rutina",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "Agree is followed by to + infinitive."
       }
     ]
   },
@@ -34892,98 +34474,373 @@
     ]
   },
   {
-    "slug": "english-b1-money-and-choices-reading",
+    "slug": "english-b1-health-and-balance-vocabulary",
     "level": "B1",
-    "skill": "reading",
-    "unitId": "money-and-choices",
-    "title": "The Course and the Budget",
+    "skill": "vocabulary",
+    "unitId": "health-and-balance",
+    "title": "Vocabulary for Health and Balance",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 60,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about money and choices and answer comprehension questions.",
-    "intro": "Read a B1 story about money and choices and answer comprehension questions.",
+    "xpReward": 30,
+    "orderIndex": 55,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for health and balance.",
+    "intro": "Key B1 words and phrases for health and balance.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [],
+    "vocabulary": [
+      {
+        "word": "balance",
+        "translation": "equilibrio",
+        "definition": "equilibrio",
+        "example": "Sarah needs a better work-life balance.",
+        "contexts": [
+          {
+            "targetText": "Sarah needs a better work-life balance."
+          },
+          {
+            "targetText": "Sarah used “balance” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “balance” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "stressful",
+        "translation": "estresante",
+        "definition": "estresante",
+        "example": "The last month has been stressful.",
+        "contexts": [
+          {
+            "targetText": "The last month has been stressful."
+          },
+          {
+            "targetText": "Sarah used “stressful” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “stressful” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "routine",
+        "translation": "rutina",
+        "definition": "rutina",
+        "example": "A calm evening routine helps Daniel sleep.",
+        "contexts": [
+          {
+            "targetText": "A calm evening routine helps Daniel sleep."
+          },
+          {
+            "targetText": "Sarah used “routine” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “routine” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "avoid",
+        "translation": "evitar",
+        "definition": "evitar",
+        "example": "She tries to avoid checking emails at night.",
+        "contexts": [
+          {
+            "targetText": "She tries to avoid checking emails at night."
+          },
+          {
+            "targetText": "Sarah used “avoid” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “avoid” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "rest",
+        "translation": "descansar",
+        "definition": "descansar",
+        "example": "They decided to rest on Sunday.",
+        "contexts": [
+          {
+            "targetText": "They decided to rest on Sunday."
+          },
+          {
+            "targetText": "Sarah used “rest” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “rest” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "well-being",
+        "translation": "bienestar",
+        "definition": "bienestar",
+        "example": "Exercise supports her well-being.",
+        "contexts": [
+          {
+            "targetText": "Exercise supports her well-being."
+          },
+          {
+            "targetText": "Sarah used “well-being” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “well-being” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with health and balance in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with health and balance in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing health and balance."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
     "dialogue": [],
-    "reading": {
-      "title": "The Course and the Budget",
-      "text": "Sarah found an online course in project management that looked perfect for her promotion goals. It included live classes, feedback from tutors and a final certificate. There was only one problem: the course was more expensive than she expected. She closed the laptop, opened it again, and then asked Daniel to look at the details with her.\n\nThey spent Saturday morning reviewing their budget. Rent, food, transport and bills came first. Then they looked at smaller expenses: takeaway meals, streaming services and weekend plans. Daniel did not want Sarah to give up the course immediately, but he also knew they could not ignore the numbers.\n\nAfter an hour, they created a realistic plan. If they cooked at home more often, they would save a little each week. If Sarah chose the monthly payment option, the course would be easier to manage. And if Daniel received extra shifts at the hotel, they could rebuild their savings faster.\n\nSarah finally enrolled on the course, but the decision felt responsible rather than impulsive. She learned that a budget was not only a list of limits. It was also a way to choose what mattered most.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why was the course attractive to Sarah?",
+        "prompt": "What does “balance” mean in this unit?",
         "options": [
-          "It was free",
-          "It supported her promotion goals",
-          "Daniel was teaching it",
-          "It required no study"
+          "equilibrio",
+          "estresante",
+          "rutina",
+          "evitar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Which costs did Sarah and Daniel consider first?",
+        "prompt": "What does “stressful” mean in this unit?",
         "options": [
-          "Streaming and takeaways",
-          "Rent, food, transport and bills",
-          "Travel and cinema",
-          "Books and clothes"
+          "rutina",
+          "estresante",
+          "evitar",
+          "descansar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why did Daniel avoid telling Sarah to abandon the course?",
+        "prompt": "What does “routine” mean in this unit?",
         "options": [
-          "He wanted to ignore the budget",
-          "He wanted them to explore realistic options",
-          "He planned to pay secretly",
-          "The course price was incorrect"
+          "evitar",
+          "descansar",
+          "rutina",
+          "bienestar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "How could cooking at home help?",
+        "prompt": "What does “avoid” mean in this unit?",
         "options": [
-          "It would save money weekly",
-          "It would shorten the course",
-          "It would increase Daniel’s shifts",
-          "It would reduce rent"
+          "descansar",
+          "bienestar",
+          "manejar/lidiar con",
+          "evitar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What made the payment easier to manage?",
+        "prompt": "What does “rest” mean in this unit?",
         "options": [
-          "A free certificate",
-          "A monthly payment option",
-          "A new credit card",
-          "A larger apartment"
+          "descansar",
+          "bienestar",
+          "manejar/lidiar con",
+          "senalar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "How does Sarah’s view of a budget change?",
+        "prompt": "What does “well-being” mean in this unit?",
         "options": [
-          "It becomes a tool for choosing priorities",
-          "It becomes a list she can ignore",
-          "It proves the course is impossible",
-          "It removes every limit"
+          "manejar/lidiar con",
+          "bienestar",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "equilibrio"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "equilibrio",
+          "a proposito/con intencion",
+          "estresante"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "equilibrio",
+          "estresante",
+          "rutina",
+          "a largo plazo"
         ],
         "explanation": ""
       }
@@ -35704,83 +35561,93 @@
     ]
   },
   {
-    "slug": "english-b1-money-and-choices-listening",
+    "slug": "english-b1-money-and-choices-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "money-and-choices",
-    "title": "Making the Numbers Work",
+    "title": "The Cost of a Place to Live",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 61,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to money and choices.",
-    "intro": "Listen to a short B1 conversation linked to money and choices.",
+    "xpReward": 35,
+    "orderIndex": 60,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about money and choices and answer comprehension questions.",
+    "intro": "Read a practical B1 text about money and choices and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "Making the Numbers Work",
-      "mainTranscript": "Sarah explains the price of the course to Daniel. Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses. Sarah says that if they plan carefully, she will be able to study without creating problems. They agree to review the budget again after one month.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Sarah explains the price of the course to Daniel."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "They agree to review the budget again after one month."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "The Cost of a Place to Live",
+      "text": "In a local discussion, renters looking for their first home talk about rents rising faster than many salaries. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that new building projects can increase the number of homes. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that renters also need protection from sudden increases. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try a meeting about affordable housing. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “The Cost of a Place to Live”?",
         "options": [
-          "Money and Choices",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "rents rising faster than many salaries",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "renters also need protection from sudden increases",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try a meeting about affordable housing and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -36685,61 +36552,83 @@
     ]
   },
   {
-    "slug": "english-b1-money-and-choices-speaking",
+    "slug": "english-b1-money-and-choices-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "money-and-choices",
-    "title": "Talk about Money and Choices",
+    "title": "Making the Numbers Work",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 62,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 61,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to money and choices.",
+    "intro": "Listen to a short B1 conversation linked to money and choices.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Describe something you want to save money for.",
-        "translation": "Describe something you want to save money for."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Use a first conditional sentence.",
-        "translation": "Use a first conditional sentence."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "Making the Numbers Work",
+      "mainTranscript": "Sarah explains the price of the course to Daniel. Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses. Sarah says that if they plan carefully, she will be able to study without creating problems. They agree to review the budget again after one month.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Sarah explains the price of the course to Daniel."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "They agree to review the budget again after one month."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "Money and Choices",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -37085,50 +36974,61 @@
     ]
   },
   {
-    "slug": "english-b1-money-and-choices-writing",
+    "slug": "english-b1-money-and-choices-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "money-and-choices",
-    "title": "Write about Money and Choices",
+    "title": "Talk about Money and Choices",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 63,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 62,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Describe something you want to save money for.",
+        "translation": "Describe something you want to save money for."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Use a first conditional sentence.",
+        "translation": "Use a first conditional sentence."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -37386,500 +37286,51 @@
     ]
   },
   {
-    "slug": "english-b1-money-and-choices-grammar",
+    "slug": "english-b1-money-and-choices-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "money-and-choices",
-    "title": "First conditional",
+    "title": "Write about Money and Choices",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 64,
-    "estimatedMinutes": 14,
-    "description": "Use First conditional in a realistic B1 context.",
-    "intro": "Use First conditional in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 63,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use First conditional accurately while discussing money and choices.\n\nRule: Use the first conditional for real future possibilities: \"If we save for three months, we will be able to travel.\" The if-clause uses Present Simple, and the result clause often uses will, can or may.\n\nPattern: If + Present Simple, will/can/may + base verb.\n\nExamples: will save · pays · rise\n\nCommon mistakes: Do not normally use will inside the if-clause.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "First conditional",
-      "Describe something you want to save money for.",
-      "Use a first conditional sentence."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-money-and-choices-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-money-and-choices-grammar-q1",
-            "type": "mcq",
-            "prompt": "If they cook at home, they ___ money.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "save"
-              },
-              {
-                "id": "o2",
-                "text": "will save"
-              },
-              {
-                "id": "o3",
-                "text": "saved"
-              },
-              {
-                "id": "o4",
-                "text": "would saved"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q2",
-            "type": "mcq",
-            "prompt": "If Sarah ___ monthly, the course will be easier to manage.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "will pay"
-              },
-              {
-                "id": "o2",
-                "text": "pays"
-              },
-              {
-                "id": "o3",
-                "text": "paid"
-              },
-              {
-                "id": "o4",
-                "text": "would pay"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q3",
-            "type": "mcq",
-            "prompt": "They will review the budget if expenses ___.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "will rise"
-              },
-              {
-                "id": "o2",
-                "text": "rise"
-              },
-              {
-                "id": "o3",
-                "text": "rose"
-              },
-              {
-                "id": "o4",
-                "text": "would rise"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q4",
-            "type": "mcq",
-            "prompt": "If Daniel gets extra shifts, they ___ rebuild their savings faster.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "can"
-              },
-              {
-                "id": "o2",
-                "text": "can to"
-              },
-              {
-                "id": "o3",
-                "text": "will can"
-              },
-              {
-                "id": "o4",
-                "text": "could to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q5",
-            "type": "mcq",
-            "prompt": "What will you do if the course ___ too expensive?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "is"
-              },
-              {
-                "id": "o2",
-                "text": "will be"
-              },
-              {
-                "id": "o3",
-                "text": "was"
-              },
-              {
-                "id": "o4",
-                "text": "would be"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q6",
-            "type": "mcq",
-            "prompt": "If we do not plan, we ___ afford both options.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "won't"
-              },
-              {
-                "id": "o2",
-                "text": "don't will"
-              },
-              {
-                "id": "o3",
-                "text": "wouldn't to"
-              },
-              {
-                "id": "o4",
-                "text": "not will"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q7",
-            "type": "mcq",
-            "prompt": "Unless we save, we will not have enough means...",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "If we save"
-              },
-              {
-                "id": "o2",
-                "text": "If we do not save"
-              },
-              {
-                "id": "o3",
-                "text": "When we saved"
-              },
-              {
-                "id": "o4",
-                "text": "Because we save"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the correct sentence.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "If I will save, I buy it."
-              },
-              {
-                "id": "o2",
-                "text": "If I save, I will buy it."
-              },
-              {
-                "id": "o3",
-                "text": "If I saved, I will bought it."
-              },
-              {
-                "id": "o4",
-                "text": "If I save, I would bought it."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: If they cook at home, they ___ money.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "will save"
-              },
-              {
-                "id": "o3",
-                "text": "saved"
-              },
-              {
-                "id": "o4",
-                "text": "would saved"
-              },
-              {
-                "id": "o1",
-                "text": "save"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: If Sarah ___ monthly, the course will be easier to manage.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "pays"
-              },
-              {
-                "id": "o3",
-                "text": "paid"
-              },
-              {
-                "id": "o4",
-                "text": "would pay"
-              },
-              {
-                "id": "o1",
-                "text": "will pay"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: They will review the budget if expenses ___.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "rise"
-              },
-              {
-                "id": "o3",
-                "text": "rose"
-              },
-              {
-                "id": "o4",
-                "text": "would rise"
-              },
-              {
-                "id": "o1",
-                "text": "will rise"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: If Daniel gets extra shifts, they ___ rebuild their savings faster.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "can to"
-              },
-              {
-                "id": "o3",
-                "text": "will can"
-              },
-              {
-                "id": "o4",
-                "text": "could to"
-              },
-              {
-                "id": "o1",
-                "text": "can"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: What will you do if the course ___ too expensive?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "will be"
-              },
-              {
-                "id": "o3",
-                "text": "was"
-              },
-              {
-                "id": "o4",
-                "text": "would be"
-              },
-              {
-                "id": "o1",
-                "text": "is"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: If we do not plan, we ___ afford both options.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "don't will"
-              },
-              {
-                "id": "o3",
-                "text": "wouldn't to"
-              },
-              {
-                "id": "o4",
-                "text": "not will"
-              },
-              {
-                "id": "o1",
-                "text": "won't"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-money-and-choices-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: Unless we save, we will not have enough means...",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "If we do not save"
-              },
-              {
-                "id": "o3",
-                "text": "When we saved"
-              },
-              {
-                "id": "o4",
-                "text": "Because we save"
-              },
-              {
-                "id": "o1",
-                "text": "If we save"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "First conditional",
-        "context": "Use First conditional in a realistic B1 context.",
-        "definition": "Use the first conditional for real future possibilities: \"If we save for three months, we will be able to travel.\" The if-clause uses Present Simple, and the result clause often uses will, can or may.",
-        "explanation": "Use the first conditional for real future possibilities: \"If we save for three months, we will be able to travel.\" The if-clause uses Present Simple, and the result clause often uses will, can or may.",
-        "structure": "If + Present Simple, will/can/may + base verb.",
-        "purpose": "Use First conditional accurately while discussing money and choices.",
-        "function": "Use First conditional accurately while discussing money and choices.",
-        "examples": [
-          "First conditional",
-          "Describe something you want to save money for.",
-          "Use a first conditional sentence."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "If they cook at home, they ___ money.",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "save",
-          "will save",
-          "saved",
-          "would saved"
-        ],
-        "explanation": "The result clause of a first conditional can use will."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "If Sarah ___ monthly, the course will be easier to manage.",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "will pay",
-          "pays",
-          "paid",
-          "would pay"
-        ],
-        "explanation": "The if-clause uses the Present Simple."
-      },
-      {
-        "type": "mcq",
-        "prompt": "They will review the budget if expenses ___.",
-        "options": [
-          "will rise",
-          "rise",
-          "rose",
-          "would rise"
-        ],
-        "explanation": "Use Present Simple after if."
-      },
-      {
-        "type": "mcq",
-        "prompt": "If Daniel gets extra shifts, they ___ rebuild their savings faster.",
-        "options": [
-          "can",
-          "can to",
-          "will can",
-          "could to"
-        ],
-        "explanation": "Can is possible in the result clause."
-      },
-      {
-        "type": "mcq",
-        "prompt": "What will you do if the course ___ too expensive?",
-        "options": [
-          "is",
-          "will be",
-          "was",
-          "would be"
-        ],
-        "explanation": "A real future condition uses Present Simple after if."
-      },
-      {
-        "type": "mcq",
-        "prompt": "If we do not plan, we ___ afford both options.",
-        "options": [
-          "won't",
-          "don't will",
-          "wouldn't to",
-          "not will"
-        ],
-        "explanation": "Use will not in the result clause."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Unless we save, we will not have enough means...",
-        "options": [
-          "If we save",
-          "If we do not save",
-          "When we saved",
-          "Because we save"
-        ],
-        "explanation": "Unless means if not."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the correct sentence.",
-        "options": [
-          "If I will save, I buy it.",
-          "If I save, I will buy it.",
-          "If I saved, I will bought it.",
-          "If I save, I would bought it."
-        ],
-        "explanation": "First conditional: if + Present Simple, will + base verb."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -40457,375 +39908,497 @@
     ]
   },
   {
-    "slug": "english-b1-money-and-choices-vocabulary",
+    "slug": "english-b1-money-and-choices-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "money-and-choices",
-    "title": "Vocabulary for Money and Choices",
+    "title": "First conditional",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 65,
+    "orderIndex": 64,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for money and choices.",
-    "intro": "Key B1 words and phrases for money and choices.",
+    "description": "Use First conditional in a realistic B1 context.",
+    "intro": "Use First conditional in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "budget",
-        "translation": "presupuesto",
-        "definition": "presupuesto",
-        "example": "They made a budget for the month.",
-        "contexts": [
-          {
-            "targetText": "They made a budget for the month."
-          },
-          {
-            "targetText": "Sarah used “budget” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “budget” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "save up",
-        "translation": "ahorrar",
-        "definition": "ahorrar",
-        "example": "Sarah wants to save up for a course.",
-        "contexts": [
-          {
-            "targetText": "Sarah wants to save up for a course."
-          },
-          {
-            "targetText": "Sarah used “save up” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “save up” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "afford",
-        "translation": "permitirse pagar",
-        "definition": "permitirse pagar",
-        "example": "They cannot afford every plan at once.",
-        "contexts": [
-          {
-            "targetText": "They cannot afford every plan at once."
-          },
-          {
-            "targetText": "Sarah used “afford” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “afford” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "priority",
-        "translation": "prioridad",
-        "definition": "prioridad",
-        "example": "Their priority is paying rent on time.",
-        "contexts": [
-          {
-            "targetText": "Their priority is paying rent on time."
-          },
-          {
-            "targetText": "Sarah used “priority” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “priority” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "expense",
-        "translation": "gasto",
-        "definition": "gasto",
-        "example": "Transport is a monthly expense.",
-        "contexts": [
-          {
-            "targetText": "Transport is a monthly expense."
-          },
-          {
-            "targetText": "Sarah used “expense” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “expense” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "worth it",
-        "translation": "vale la pena",
-        "definition": "vale la pena",
-        "example": "The course is expensive, but it may be worth it.",
-        "contexts": [
-          {
-            "targetText": "The course is expensive, but it may be worth it."
-          },
-          {
-            "targetText": "Sarah used “worth it” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “worth it” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with money and choices in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with money and choices in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing money and choices."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use First conditional accurately while discussing money and choices.\n\nRule: Use the first conditional for real future possibilities: \"If we save for three months, we will be able to travel.\" The if-clause uses Present Simple, and the result clause often uses will, can or may.\n\nPattern: If + Present Simple, will/can/may + base verb.\n\nExamples: will save · pays · rise\n\nCommon mistakes: Do not normally use will inside the if-clause.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "First conditional",
+      "Describe something you want to save money for.",
+      "Use a first conditional sentence."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-money-and-choices-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "If they cook at home, they ___ money.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "save"
+              },
+              {
+                "id": "o2",
+                "text": "will save"
+              },
+              {
+                "id": "o3",
+                "text": "saved"
+              },
+              {
+                "id": "o4",
+                "text": "would saved"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "If Sarah ___ monthly, the course will be easier to manage.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will pay"
+              },
+              {
+                "id": "o2",
+                "text": "pays"
+              },
+              {
+                "id": "o3",
+                "text": "paid"
+              },
+              {
+                "id": "o4",
+                "text": "would pay"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "They will review the budget if expenses ___.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will rise"
+              },
+              {
+                "id": "o2",
+                "text": "rise"
+              },
+              {
+                "id": "o3",
+                "text": "rose"
+              },
+              {
+                "id": "o4",
+                "text": "would rise"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "If Daniel gets extra shifts, they ___ rebuild their savings faster.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "can"
+              },
+              {
+                "id": "o2",
+                "text": "can to"
+              },
+              {
+                "id": "o3",
+                "text": "will can"
+              },
+              {
+                "id": "o4",
+                "text": "could to"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "What will you do if the course ___ too expensive?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "is"
+              },
+              {
+                "id": "o2",
+                "text": "will be"
+              },
+              {
+                "id": "o3",
+                "text": "was"
+              },
+              {
+                "id": "o4",
+                "text": "would be"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "If we do not plan, we ___ afford both options.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "won't"
+              },
+              {
+                "id": "o2",
+                "text": "don't will"
+              },
+              {
+                "id": "o3",
+                "text": "wouldn't to"
+              },
+              {
+                "id": "o4",
+                "text": "not will"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Unless we save, we will not have enough means...",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "If we save"
+              },
+              {
+                "id": "o2",
+                "text": "If we do not save"
+              },
+              {
+                "id": "o3",
+                "text": "When we saved"
+              },
+              {
+                "id": "o4",
+                "text": "Because we save"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the correct sentence.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "If I will save, I buy it."
+              },
+              {
+                "id": "o2",
+                "text": "If I save, I will buy it."
+              },
+              {
+                "id": "o3",
+                "text": "If I saved, I will bought it."
+              },
+              {
+                "id": "o4",
+                "text": "If I save, I would bought it."
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "If they cook at home, they ___ money.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "save"
+              },
+              {
+                "id": "o2",
+                "text": "will save"
+              },
+              {
+                "id": "o3",
+                "text": "saved"
+              },
+              {
+                "id": "o4",
+                "text": "would saved"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "If Sarah ___ monthly, the course will be easier to manage.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will pay"
+              },
+              {
+                "id": "o2",
+                "text": "pays"
+              },
+              {
+                "id": "o3",
+                "text": "paid"
+              },
+              {
+                "id": "o4",
+                "text": "would pay"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "They will review the budget if expenses ___.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will rise"
+              },
+              {
+                "id": "o2",
+                "text": "rise"
+              },
+              {
+                "id": "o3",
+                "text": "rose"
+              },
+              {
+                "id": "o4",
+                "text": "would rise"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "If Daniel gets extra shifts, they ___ rebuild their savings faster.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "can"
+              },
+              {
+                "id": "o2",
+                "text": "can to"
+              },
+              {
+                "id": "o3",
+                "text": "will can"
+              },
+              {
+                "id": "o4",
+                "text": "could to"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "What will you do if the course ___ too expensive?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "is"
+              },
+              {
+                "id": "o2",
+                "text": "will be"
+              },
+              {
+                "id": "o3",
+                "text": "was"
+              },
+              {
+                "id": "o4",
+                "text": "would be"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "If we do not plan, we ___ afford both options.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "won't"
+              },
+              {
+                "id": "o2",
+                "text": "don't will"
+              },
+              {
+                "id": "o3",
+                "text": "wouldn't to"
+              },
+              {
+                "id": "o4",
+                "text": "not will"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "Unless we save, we will not have enough means...",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "If we save"
+              },
+              {
+                "id": "o2",
+                "text": "If we do not save"
+              },
+              {
+                "id": "o3",
+                "text": "When we saved"
+              },
+              {
+                "id": "o4",
+                "text": "Because we save"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "First conditional",
+        "definition": "Use First conditional in a realistic B1 context.",
+        "structure": "Goal: Use First conditional accurately while discussing money and choices.\n\nRule: Use the first conditional for real future possibilities: \"If we save for three months, we will be able to travel.\" The if-clause uses Present Simple, and the result clause often uses will, can or may.\n\nPattern: If + Present Simple, will/can/may + base verb.\n\nExamples: will save · pays · rise\n\nCommon mistakes: Do not normally use will inside the if-clause.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use First conditional to communicate clearly in practical B1 situations.",
+        "examples": [
+          "First conditional",
+          "Describe something you want to save money for.",
+          "Use a first conditional sentence."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “budget” mean in this unit?",
+        "prompt": "If they cook at home, they ___ money.",
         "options": [
-          "presupuesto",
-          "ahorrar",
-          "permitirse pagar",
-          "prioridad"
+          "save",
+          "will save",
+          "saved",
+          "would saved"
         ],
-        "explanation": ""
+        "explanation": "The result clause of a first conditional can use will."
       },
       {
         "type": "mcq",
-        "prompt": "What does “save up” mean in this unit?",
+        "prompt": "If Sarah ___ monthly, the course will be easier to manage.",
         "options": [
-          "permitirse pagar",
-          "ahorrar",
-          "prioridad",
-          "gasto"
+          "will pay",
+          "pays",
+          "paid",
+          "would pay"
         ],
-        "explanation": ""
+        "explanation": "The if-clause uses the Present Simple."
       },
       {
         "type": "mcq",
-        "prompt": "What does “afford” mean in this unit?",
+        "prompt": "They will review the budget if expenses ___.",
         "options": [
-          "prioridad",
-          "gasto",
-          "permitirse pagar",
-          "vale la pena"
+          "will rise",
+          "rise",
+          "rose",
+          "would rise"
         ],
-        "explanation": ""
+        "explanation": "Use Present Simple after if."
       },
       {
         "type": "mcq",
-        "prompt": "What does “priority” mean in this unit?",
+        "prompt": "If Daniel gets extra shifts, they ___ rebuild their savings faster.",
         "options": [
-          "gasto",
-          "vale la pena",
-          "manejar/lidiar con",
-          "prioridad"
+          "can",
+          "can to",
+          "will can",
+          "could to"
         ],
-        "explanation": ""
+        "explanation": "Can is possible in the result clause."
       },
       {
         "type": "mcq",
-        "prompt": "What does “expense” mean in this unit?",
+        "prompt": "What will you do if the course ___ too expensive?",
         "options": [
-          "gasto",
-          "vale la pena",
-          "manejar/lidiar con",
-          "senalar"
+          "is",
+          "will be",
+          "was",
+          "would be"
         ],
-        "explanation": ""
+        "explanation": "A real future condition uses Present Simple after if."
       },
       {
         "type": "mcq",
-        "prompt": "What does “worth it” mean in this unit?",
+        "prompt": "If we do not plan, we ___ afford both options.",
         "options": [
-          "manejar/lidiar con",
-          "vale la pena",
-          "senalar",
-          "proponer/idear"
+          "won't",
+          "don't will",
+          "wouldn't to",
+          "not will"
         ],
-        "explanation": ""
+        "explanation": "Use will not in the result clause."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "Unless we save, we will not have enough means...",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "If we save",
+          "If we do not save",
+          "When we saved",
+          "Because we save"
         ],
-        "explanation": ""
+        "explanation": "Unless means if not."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the correct sentence.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "If I will save, I buy it.",
+          "If I save, I will buy it.",
+          "If I saved, I will bought it.",
+          "If I save, I would bought it."
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "presupuesto"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "presupuesto",
-          "a proposito/con intencion",
-          "ahorrar"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "presupuesto",
-          "ahorrar",
-          "permitirse pagar",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "First conditional: if + Present Simple, will + base verb."
       }
     ]
   },
@@ -41773,98 +41346,373 @@
     ]
   },
   {
-    "slug": "english-b1-digital-life-reading",
+    "slug": "english-b1-money-and-choices-vocabulary",
     "level": "B1",
-    "skill": "reading",
-    "unitId": "digital-life",
-    "title": "The Notification Problem",
+    "skill": "vocabulary",
+    "unitId": "money-and-choices",
+    "title": "Vocabulary for Money and Choices",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 70,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about digital life and answer comprehension questions.",
-    "intro": "Read a B1 story about digital life and answer comprehension questions.",
+    "xpReward": 30,
+    "orderIndex": 65,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for money and choices.",
+    "intro": "Key B1 words and phrases for money and choices.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [],
+    "vocabulary": [
+      {
+        "word": "budget",
+        "translation": "presupuesto",
+        "definition": "presupuesto",
+        "example": "They made a budget for the month.",
+        "contexts": [
+          {
+            "targetText": "They made a budget for the month."
+          },
+          {
+            "targetText": "Sarah used “budget” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “budget” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "save up",
+        "translation": "ahorrar",
+        "definition": "ahorrar",
+        "example": "Sarah wants to save up for a course.",
+        "contexts": [
+          {
+            "targetText": "Sarah wants to save up for a course."
+          },
+          {
+            "targetText": "Sarah used “save up” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “save up” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "afford",
+        "translation": "permitirse pagar",
+        "definition": "permitirse pagar",
+        "example": "They cannot afford every plan at once.",
+        "contexts": [
+          {
+            "targetText": "They cannot afford every plan at once."
+          },
+          {
+            "targetText": "Sarah used “afford” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “afford” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "priority",
+        "translation": "prioridad",
+        "definition": "prioridad",
+        "example": "Their priority is paying rent on time.",
+        "contexts": [
+          {
+            "targetText": "Their priority is paying rent on time."
+          },
+          {
+            "targetText": "Sarah used “priority” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “priority” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "expense",
+        "translation": "gasto",
+        "definition": "gasto",
+        "example": "Transport is a monthly expense.",
+        "contexts": [
+          {
+            "targetText": "Transport is a monthly expense."
+          },
+          {
+            "targetText": "Sarah used “expense” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “expense” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "worth it",
+        "translation": "vale la pena",
+        "definition": "vale la pena",
+        "example": "The course is expensive, but it may be worth it.",
+        "contexts": [
+          {
+            "targetText": "The course is expensive, but it may be worth it."
+          },
+          {
+            "targetText": "Sarah used “worth it” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “worth it” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with money and choices in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with money and choices in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing money and choices."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
     "dialogue": [],
-    "reading": {
-      "title": "The Notification Problem",
-      "text": "Sarah and Daniel were halfway through dinner when Sarah's phone lit up for the fifth time. It was only a work chat notification, but it pulled her attention away from the conversation. Daniel did not complain immediately. He simply asked whether the message was urgent. Sarah looked embarrassed when she realised it was not.\n\nThe next day, she checked the screen-time report that her phone produced every Sunday. The result surprised her. She was spending far more time on work messages and social media than she had imagined. Daniel showed her an app that blocked notifications during meals and before bed.\n\nThey talked about the advantages and disadvantages of technology. Sarah liked tools that helped her organise projects, while Daniel appreciated apps that made travel and banking easier. However, both agreed that devices should not control every quiet moment.\n\nFor one week, they tried a simple experiment. Phones stayed away from the table during dinner, and notifications were switched off after ten. The evenings became calmer. Sarah did not stop using technology, but she started using it with more intention.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What interrupted dinner repeatedly?",
+        "prompt": "What does “budget” mean in this unit?",
         "options": [
-          "A phone call from Priya",
-          "Work chat notifications",
-          "A banking problem",
-          "A travel alarm"
+          "presupuesto",
+          "ahorrar",
+          "permitirse pagar",
+          "prioridad"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why was Sarah embarrassed?",
+        "prompt": "What does “save up” mean in this unit?",
         "options": [
-          "The message was not urgent",
-          "Her phone was broken",
-          "Daniel had sent the message",
-          "She had forgotten her password"
+          "permitirse pagar",
+          "ahorrar",
+          "prioridad",
+          "gasto"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What surprised Sarah in the screen-time report?",
+        "prompt": "What does “afford” mean in this unit?",
         "options": [
-          "She used no social media",
-          "Her usage was higher than she thought",
-          "Daniel used her phone",
-          "The report showed no work messages"
+          "prioridad",
+          "gasto",
+          "permitirse pagar",
+          "vale la pena"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What did Daniel’s app do?",
+        "prompt": "What does “priority” mean in this unit?",
         "options": [
-          "Booked travel",
-          "Blocked notifications at chosen times",
-          "Answered work messages",
-          "Tracked bank spending"
+          "gasto",
+          "vale la pena",
+          "manejar/lidiar con",
+          "prioridad"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What balanced opinion do they reach?",
+        "prompt": "What does “expense” mean in this unit?",
         "options": [
-          "All technology is harmful",
-          "Useful devices should not control quiet moments",
-          "Work apps are always urgent",
-          "Phones should be used only for banking"
+          "gasto",
+          "vale la pena",
+          "manejar/lidiar con",
+          "senalar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What was the result of their one-week experiment?",
+        "prompt": "What does “worth it” mean in this unit?",
         "options": [
-          "They stopped using technology",
-          "Their evenings became calmer",
-          "Sarah missed every message",
-          "They ate dinner later"
+          "manejar/lidiar con",
+          "vale la pena",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "presupuesto"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "presupuesto",
+          "a proposito/con intencion",
+          "ahorrar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "presupuesto",
+          "ahorrar",
+          "permitirse pagar",
+          "a largo plazo"
         ],
         "explanation": ""
       }
@@ -42585,83 +42433,93 @@
     ]
   },
   {
-    "slug": "english-b1-digital-life-listening",
+    "slug": "english-b1-digital-life-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "digital-life",
-    "title": "A Phone-Free Dinner",
+    "title": "Checking Before Sharing",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 71,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to digital life.",
-    "intro": "Listen to a short B1 conversation linked to digital life.",
+    "xpReward": 35,
+    "orderIndex": 70,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about digital life and answer comprehension questions.",
+    "intro": "Read a practical B1 text about digital life and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "A Phone-Free Dinner",
-      "mainTranscript": "Daniel asks Sarah whether they can have dinner without phones on the table. Sarah agrees, although she worries about missing an important message. Daniel says that people who really need her can call. They decide to switch off non-urgent notifications and enjoy the meal.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Sarah agrees, although she worries about missing an important message."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Daniel says that people who really need her can call."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "They decide to switch off non-urgent notifications and enjoy the meal."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "Checking Before Sharing",
+      "text": "In a local discussion, a school media club talk about a false local story spreading online. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that sharing quickly helps important news reach people. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that checking the source protects friends and neighbours. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try a simple fact-checking guide. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “Checking Before Sharing”?",
         "options": [
-          "Digital Life",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "a false local story spreading online",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "checking the source protects friends and neighbours",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try a simple fact-checking guide and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -43571,61 +43429,83 @@
     ]
   },
   {
-    "slug": "english-b1-digital-life-speaking",
+    "slug": "english-b1-digital-life-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "digital-life",
-    "title": "Talk about Digital Life",
+    "title": "A Phone-Free Dinner",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 72,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 71,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to digital life.",
+    "intro": "Listen to a short B1 conversation linked to digital life.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Describe a digital habit you want to change.",
-        "translation": "Describe a digital habit you want to change."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Use a relative clause with who, which or that.",
-        "translation": "Use a relative clause with who, which or that."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "A Phone-Free Dinner",
+      "mainTranscript": "Daniel asks Sarah whether they can have dinner without phones on the table. Sarah agrees, although she worries about missing an important message. Daniel says that people who really need her can call. They decide to switch off non-urgent notifications and enjoy the meal.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Sarah agrees, although she worries about missing an important message."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Daniel says that people who really need her can call."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "Digital Life",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -43971,50 +43851,61 @@
     ]
   },
   {
-    "slug": "english-b1-digital-life-writing",
+    "slug": "english-b1-digital-life-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "digital-life",
-    "title": "Write about Digital Life",
+    "title": "Talk about Digital Life",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 73,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 72,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Describe a digital habit you want to change.",
+        "translation": "Describe a digital habit you want to change."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Use a relative clause with who, which or that.",
+        "translation": "Use a relative clause with who, which or that."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -44272,500 +44163,51 @@
     ]
   },
   {
-    "slug": "english-b1-digital-life-grammar",
+    "slug": "english-b1-digital-life-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "digital-life",
-    "title": "Relative clauses",
+    "title": "Write about Digital Life",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 74,
-    "estimatedMinutes": 14,
-    "description": "Use Relative clauses in a realistic B1 context.",
-    "intro": "Use Relative clauses in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 73,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use Relative clauses accurately while discussing digital life.\n\nRule: Use relative clauses to add information: \"The app that Sarah uses tracks her screen time.\" Use \"who\" for people, \"which/that\" for things and \"where\" for places. At B1, relative clauses make explanations smoother.\n\nPattern: person + who; thing + that/which; place + where; time + when; possession + whose.\n\nExamples: that · who · when\n\nCommon mistakes: Do not repeat the subject or object pronoun when the relative word already performs that role.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "Relative clauses",
-      "Describe a digital habit you want to change.",
-      "Use a relative clause with who, which or that."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-digital-life-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-digital-life-grammar-q1",
-            "type": "mcq",
-            "prompt": "The app ___ blocks notifications is useful.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "who"
-              },
-              {
-                "id": "o2",
-                "text": "where"
-              },
-              {
-                "id": "o3",
-                "text": "that"
-              },
-              {
-                "id": "o4",
-                "text": "whose"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q2",
-            "type": "mcq",
-            "prompt": "Sarah is the person ___ checked the report.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "which"
-              },
-              {
-                "id": "o2",
-                "text": "who"
-              },
-              {
-                "id": "o3",
-                "text": "where"
-              },
-              {
-                "id": "o4",
-                "text": "what"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q3",
-            "type": "mcq",
-            "prompt": "Dinner is a time ___ they keep phones away.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "who"
-              },
-              {
-                "id": "o2",
-                "text": "which person"
-              },
-              {
-                "id": "o3",
-                "text": "when"
-              },
-              {
-                "id": "o4",
-                "text": "whose"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q4",
-            "type": "mcq",
-            "prompt": "The table is the place ___ phones are not allowed.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "where"
-              },
-              {
-                "id": "o2",
-                "text": "who"
-              },
-              {
-                "id": "o3",
-                "text": "whose"
-              },
-              {
-                "id": "o4",
-                "text": "which person"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q5",
-            "type": "mcq",
-            "prompt": "Daniel showed her an app ___ settings can be customised.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "who"
-              },
-              {
-                "id": "o2",
-                "text": "whose"
-              },
-              {
-                "id": "o3",
-                "text": "where person"
-              },
-              {
-                "id": "o4",
-                "text": "when"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q6",
-            "type": "mcq",
-            "prompt": "The messages ___ interrupted dinner were not urgent.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "who"
-              },
-              {
-                "id": "o2",
-                "text": "that"
-              },
-              {
-                "id": "o3",
-                "text": "where"
-              },
-              {
-                "id": "o4",
-                "text": "whose"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q7",
-            "type": "mcq",
-            "prompt": "The colleague ___ sent the message apologised.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "which"
-              },
-              {
-                "id": "o2",
-                "text": "who"
-              },
-              {
-                "id": "o3",
-                "text": "where"
-              },
-              {
-                "id": "o4",
-                "text": "when"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the correct sentence.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "This is the app who I use."
-              },
-              {
-                "id": "o2",
-                "text": "This is the app that I use."
-              },
-              {
-                "id": "o3",
-                "text": "This is the app where I use it."
-              },
-              {
-                "id": "o4",
-                "text": "This is the app whose I use."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: The app ___ blocks notifications is useful.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "where"
-              },
-              {
-                "id": "o3",
-                "text": "that"
-              },
-              {
-                "id": "o4",
-                "text": "whose"
-              },
-              {
-                "id": "o1",
-                "text": "who"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: Sarah is the person ___ checked the report.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "who"
-              },
-              {
-                "id": "o3",
-                "text": "where"
-              },
-              {
-                "id": "o4",
-                "text": "what"
-              },
-              {
-                "id": "o1",
-                "text": "which"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: Dinner is a time ___ they keep phones away.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "which person"
-              },
-              {
-                "id": "o3",
-                "text": "when"
-              },
-              {
-                "id": "o4",
-                "text": "whose"
-              },
-              {
-                "id": "o1",
-                "text": "who"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: The table is the place ___ phones are not allowed.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "who"
-              },
-              {
-                "id": "o3",
-                "text": "whose"
-              },
-              {
-                "id": "o4",
-                "text": "which person"
-              },
-              {
-                "id": "o1",
-                "text": "where"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: Daniel showed her an app ___ settings can be customised.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "whose"
-              },
-              {
-                "id": "o3",
-                "text": "where person"
-              },
-              {
-                "id": "o4",
-                "text": "when"
-              },
-              {
-                "id": "o1",
-                "text": "who"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: The messages ___ interrupted dinner were not urgent.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "that"
-              },
-              {
-                "id": "o3",
-                "text": "where"
-              },
-              {
-                "id": "o4",
-                "text": "whose"
-              },
-              {
-                "id": "o1",
-                "text": "who"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-digital-life-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: The colleague ___ sent the message apologised.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "who"
-              },
-              {
-                "id": "o3",
-                "text": "where"
-              },
-              {
-                "id": "o4",
-                "text": "when"
-              },
-              {
-                "id": "o1",
-                "text": "which"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Relative clauses",
-        "context": "Use Relative clauses in a realistic B1 context.",
-        "definition": "Use relative clauses to add information: \"The app that Sarah uses tracks her screen time.\" Use \"who\" for people, \"which/that\" for things and \"where\" for places. At B1, relative clauses make explanations smoother.",
-        "explanation": "Use relative clauses to add information: \"The app that Sarah uses tracks her screen time.\" Use \"who\" for people, \"which/that\" for things and \"where\" for places. At B1, relative clauses make explanations smoother.",
-        "structure": "person + who; thing + that/which; place + where; time + when; possession + whose.",
-        "purpose": "Use Relative clauses accurately while discussing digital life.",
-        "function": "Use Relative clauses accurately while discussing digital life.",
-        "examples": [
-          "Relative clauses",
-          "Describe a digital habit you want to change.",
-          "Use a relative clause with who, which or that."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "The app ___ blocks notifications is useful.",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "who",
-          "where",
-          "that",
-          "whose"
-        ],
-        "explanation": "That can introduce a defining clause about a thing."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "Sarah is the person ___ checked the report.",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "which",
-          "who",
-          "where",
-          "what"
-        ],
-        "explanation": "Who refers to people."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dinner is a time ___ they keep phones away.",
-        "options": [
-          "who",
-          "which person",
-          "when",
-          "whose"
-        ],
-        "explanation": "When refers to a time."
-      },
-      {
-        "type": "mcq",
-        "prompt": "The table is the place ___ phones are not allowed.",
-        "options": [
-          "where",
-          "who",
-          "whose",
-          "which person"
-        ],
-        "explanation": "Where refers to a place."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Daniel showed her an app ___ settings can be customised.",
-        "options": [
-          "who",
-          "whose",
-          "where person",
-          "when"
-        ],
-        "explanation": "Whose shows possession."
-      },
-      {
-        "type": "mcq",
-        "prompt": "The messages ___ interrupted dinner were not urgent.",
-        "options": [
-          "who",
-          "that",
-          "where",
-          "whose"
-        ],
-        "explanation": "That refers to things in a defining clause."
-      },
-      {
-        "type": "mcq",
-        "prompt": "The colleague ___ sent the message apologised.",
-        "options": [
-          "which",
-          "who",
-          "where",
-          "when"
-        ],
-        "explanation": "Who refers to a person."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the correct sentence.",
-        "options": [
-          "This is the app who I use.",
-          "This is the app that I use.",
-          "This is the app where I use it.",
-          "This is the app whose I use."
-        ],
-        "explanation": "That correctly introduces the defining relative clause."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -47343,375 +46785,497 @@
     ]
   },
   {
-    "slug": "english-b1-digital-life-vocabulary",
+    "slug": "english-b1-digital-life-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "digital-life",
-    "title": "Vocabulary for Digital Life",
+    "title": "Relative clauses",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 75,
+    "orderIndex": 74,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for digital life.",
-    "intro": "Key B1 words and phrases for digital life.",
+    "description": "Use Relative clauses in a realistic B1 context.",
+    "intro": "Use Relative clauses in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "screen time",
-        "translation": "tiempo de pantalla",
-        "definition": "tiempo de pantalla",
-        "example": "Sarah wants to reduce her screen time.",
-        "contexts": [
-          {
-            "targetText": "Sarah wants to reduce her screen time."
-          },
-          {
-            "targetText": "Sarah used “screen time” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “screen time” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "notification",
-        "translation": "notificacion",
-        "definition": "notificacion",
-        "example": "The notification interrupted their dinner.",
-        "contexts": [
-          {
-            "targetText": "The notification interrupted their dinner."
-          },
-          {
-            "targetText": "Sarah used “notification” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “notification” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "privacy",
-        "translation": "privacidad",
-        "definition": "privacidad",
-        "example": "Daniel is careful about online privacy.",
-        "contexts": [
-          {
-            "targetText": "Daniel is careful about online privacy."
-          },
-          {
-            "targetText": "Sarah used “privacy” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “privacy” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "device",
-        "translation": "dispositivo",
-        "definition": "dispositivo",
-        "example": "He leaves his device outside the bedroom.",
-        "contexts": [
-          {
-            "targetText": "He leaves his device outside the bedroom."
-          },
-          {
-            "targetText": "Sarah used “device” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “device” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "scroll",
-        "translation": "desplazarse en pantalla",
-        "definition": "desplazarse en pantalla",
-        "example": "She scrolls when she feels tired.",
-        "contexts": [
-          {
-            "targetText": "She scrolls when she feels tired."
-          },
-          {
-            "targetText": "Sarah used “scroll” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “scroll” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "digital habit",
-        "translation": "habito digital",
-        "definition": "habito digital",
-        "example": "They want healthier digital habits.",
-        "contexts": [
-          {
-            "targetText": "They want healthier digital habits."
-          },
-          {
-            "targetText": "Sarah used “digital habit” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “digital habit” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with digital life in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with digital life in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing digital life."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use Relative clauses accurately while discussing digital life.\n\nRule: Use relative clauses to add information: \"The app that Sarah uses tracks her screen time.\" Use \"who\" for people, \"which/that\" for things and \"where\" for places. At B1, relative clauses make explanations smoother.\n\nPattern: person + who; thing + that/which; place + where; time + when; possession + whose.\n\nExamples: that · who · when\n\nCommon mistakes: Do not repeat the subject or object pronoun when the relative word already performs that role.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "Relative clauses",
+      "Describe a digital habit you want to change.",
+      "Use a relative clause with who, which or that."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-digital-life-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "The app ___ blocks notifications is useful.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "who"
+              },
+              {
+                "id": "o2",
+                "text": "where"
+              },
+              {
+                "id": "o3",
+                "text": "that"
+              },
+              {
+                "id": "o4",
+                "text": "whose"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Sarah is the person ___ checked the report.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "which"
+              },
+              {
+                "id": "o2",
+                "text": "who"
+              },
+              {
+                "id": "o3",
+                "text": "where"
+              },
+              {
+                "id": "o4",
+                "text": "what"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Dinner is a time ___ they keep phones away.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "who"
+              },
+              {
+                "id": "o2",
+                "text": "which person"
+              },
+              {
+                "id": "o3",
+                "text": "when"
+              },
+              {
+                "id": "o4",
+                "text": "whose"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "The table is the place ___ phones are not allowed.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "where"
+              },
+              {
+                "id": "o2",
+                "text": "who"
+              },
+              {
+                "id": "o3",
+                "text": "whose"
+              },
+              {
+                "id": "o4",
+                "text": "which person"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Daniel showed her an app ___ settings can be customised.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "who"
+              },
+              {
+                "id": "o2",
+                "text": "whose"
+              },
+              {
+                "id": "o3",
+                "text": "where person"
+              },
+              {
+                "id": "o4",
+                "text": "when"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "The messages ___ interrupted dinner were not urgent.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "who"
+              },
+              {
+                "id": "o2",
+                "text": "that"
+              },
+              {
+                "id": "o3",
+                "text": "where"
+              },
+              {
+                "id": "o4",
+                "text": "whose"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "The colleague ___ sent the message apologised.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "which"
+              },
+              {
+                "id": "o2",
+                "text": "who"
+              },
+              {
+                "id": "o3",
+                "text": "where"
+              },
+              {
+                "id": "o4",
+                "text": "when"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the correct sentence.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "This is the app who I use."
+              },
+              {
+                "id": "o2",
+                "text": "This is the app that I use."
+              },
+              {
+                "id": "o3",
+                "text": "This is the app where I use it."
+              },
+              {
+                "id": "o4",
+                "text": "This is the app whose I use."
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "The app ___ blocks notifications is useful.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "who"
+              },
+              {
+                "id": "o2",
+                "text": "where"
+              },
+              {
+                "id": "o3",
+                "text": "that"
+              },
+              {
+                "id": "o4",
+                "text": "whose"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "Sarah is the person ___ checked the report.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "which"
+              },
+              {
+                "id": "o2",
+                "text": "who"
+              },
+              {
+                "id": "o3",
+                "text": "where"
+              },
+              {
+                "id": "o4",
+                "text": "what"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Dinner is a time ___ they keep phones away.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "who"
+              },
+              {
+                "id": "o2",
+                "text": "which person"
+              },
+              {
+                "id": "o3",
+                "text": "when"
+              },
+              {
+                "id": "o4",
+                "text": "whose"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "The table is the place ___ phones are not allowed.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "where"
+              },
+              {
+                "id": "o2",
+                "text": "who"
+              },
+              {
+                "id": "o3",
+                "text": "whose"
+              },
+              {
+                "id": "o4",
+                "text": "which person"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "Daniel showed her an app ___ settings can be customised.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "who"
+              },
+              {
+                "id": "o2",
+                "text": "whose"
+              },
+              {
+                "id": "o3",
+                "text": "where person"
+              },
+              {
+                "id": "o4",
+                "text": "when"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "The messages ___ interrupted dinner were not urgent.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "who"
+              },
+              {
+                "id": "o2",
+                "text": "that"
+              },
+              {
+                "id": "o3",
+                "text": "where"
+              },
+              {
+                "id": "o4",
+                "text": "whose"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "The colleague ___ sent the message apologised.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "which"
+              },
+              {
+                "id": "o2",
+                "text": "who"
+              },
+              {
+                "id": "o3",
+                "text": "where"
+              },
+              {
+                "id": "o4",
+                "text": "when"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Relative clauses",
+        "definition": "Use Relative clauses in a realistic B1 context.",
+        "structure": "Goal: Use Relative clauses accurately while discussing digital life.\n\nRule: Use relative clauses to add information: \"The app that Sarah uses tracks her screen time.\" Use \"who\" for people, \"which/that\" for things and \"where\" for places. At B1, relative clauses make explanations smoother.\n\nPattern: person + who; thing + that/which; place + where; time + when; possession + whose.\n\nExamples: that · who · when\n\nCommon mistakes: Do not repeat the subject or object pronoun when the relative word already performs that role.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use Relative clauses to communicate clearly in practical B1 situations.",
+        "examples": [
+          "Relative clauses",
+          "Describe a digital habit you want to change.",
+          "Use a relative clause with who, which or that."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “screen time” mean in this unit?",
+        "prompt": "The app ___ blocks notifications is useful.",
         "options": [
-          "tiempo de pantalla",
-          "notificacion",
-          "privacidad",
-          "dispositivo"
+          "who",
+          "where",
+          "that",
+          "whose"
         ],
-        "explanation": ""
+        "explanation": "That can introduce a defining clause about a thing."
       },
       {
         "type": "mcq",
-        "prompt": "What does “notification” mean in this unit?",
+        "prompt": "Sarah is the person ___ checked the report.",
         "options": [
-          "privacidad",
-          "notificacion",
-          "dispositivo",
-          "desplazarse en pantalla"
+          "which",
+          "who",
+          "where",
+          "what"
         ],
-        "explanation": ""
+        "explanation": "Who refers to people."
       },
       {
         "type": "mcq",
-        "prompt": "What does “privacy” mean in this unit?",
+        "prompt": "Dinner is a time ___ they keep phones away.",
         "options": [
-          "dispositivo",
-          "desplazarse en pantalla",
-          "privacidad",
-          "habito digital"
+          "who",
+          "which person",
+          "when",
+          "whose"
         ],
-        "explanation": ""
+        "explanation": "When refers to a time."
       },
       {
         "type": "mcq",
-        "prompt": "What does “device” mean in this unit?",
+        "prompt": "The table is the place ___ phones are not allowed.",
         "options": [
-          "desplazarse en pantalla",
-          "habito digital",
-          "manejar/lidiar con",
-          "dispositivo"
+          "where",
+          "who",
+          "whose",
+          "which person"
         ],
-        "explanation": ""
+        "explanation": "Where refers to a place."
       },
       {
         "type": "mcq",
-        "prompt": "What does “scroll” mean in this unit?",
+        "prompt": "Daniel showed her an app ___ settings can be customised.",
         "options": [
-          "desplazarse en pantalla",
-          "habito digital",
-          "manejar/lidiar con",
-          "senalar"
+          "who",
+          "whose",
+          "where person",
+          "when"
         ],
-        "explanation": ""
+        "explanation": "Whose shows possession."
       },
       {
         "type": "mcq",
-        "prompt": "What does “digital habit” mean in this unit?",
+        "prompt": "The messages ___ interrupted dinner were not urgent.",
         "options": [
-          "manejar/lidiar con",
-          "habito digital",
-          "senalar",
-          "proponer/idear"
+          "who",
+          "that",
+          "where",
+          "whose"
         ],
-        "explanation": ""
+        "explanation": "That refers to things in a defining clause."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "The colleague ___ sent the message apologised.",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "which",
+          "who",
+          "where",
+          "when"
         ],
-        "explanation": ""
+        "explanation": "Who refers to a person."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the correct sentence.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "This is the app who I use.",
+          "This is the app that I use.",
+          "This is the app where I use it.",
+          "This is the app whose I use."
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "tiempo de pantalla"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "tiempo de pantalla",
-          "a proposito/con intencion",
-          "notificacion"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "tiempo de pantalla",
-          "notificacion",
-          "privacidad",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "That correctly introduces the defining relative clause."
       }
     ]
   },
@@ -48659,98 +48223,373 @@
     ]
   },
   {
-    "slug": "english-b1-culture-and-media-reading",
+    "slug": "english-b1-digital-life-vocabulary",
     "level": "B1",
-    "skill": "reading",
-    "unitId": "culture-and-media",
-    "title": "The Film Club Debate",
+    "skill": "vocabulary",
+    "unitId": "digital-life",
+    "title": "Vocabulary for Digital Life",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 80,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about culture and media and answer comprehension questions.",
-    "intro": "Read a B1 story about culture and media and answer comprehension questions.",
+    "xpReward": 30,
+    "orderIndex": 75,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for digital life.",
+    "intro": "Key B1 words and phrases for digital life.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [],
+    "vocabulary": [
+      {
+        "word": "screen time",
+        "translation": "tiempo de pantalla",
+        "definition": "tiempo de pantalla",
+        "example": "Sarah wants to reduce her screen time.",
+        "contexts": [
+          {
+            "targetText": "Sarah wants to reduce her screen time."
+          },
+          {
+            "targetText": "Sarah used “screen time” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “screen time” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "notification",
+        "translation": "notificacion",
+        "definition": "notificacion",
+        "example": "The notification interrupted their dinner.",
+        "contexts": [
+          {
+            "targetText": "The notification interrupted their dinner."
+          },
+          {
+            "targetText": "Sarah used “notification” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “notification” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "privacy",
+        "translation": "privacidad",
+        "definition": "privacidad",
+        "example": "Daniel is careful about online privacy.",
+        "contexts": [
+          {
+            "targetText": "Daniel is careful about online privacy."
+          },
+          {
+            "targetText": "Sarah used “privacy” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “privacy” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "device",
+        "translation": "dispositivo",
+        "definition": "dispositivo",
+        "example": "He leaves his device outside the bedroom.",
+        "contexts": [
+          {
+            "targetText": "He leaves his device outside the bedroom."
+          },
+          {
+            "targetText": "Sarah used “device” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “device” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "scroll",
+        "translation": "desplazarse en pantalla",
+        "definition": "desplazarse en pantalla",
+        "example": "She scrolls when she feels tired.",
+        "contexts": [
+          {
+            "targetText": "She scrolls when she feels tired."
+          },
+          {
+            "targetText": "Sarah used “scroll” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “scroll” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "digital habit",
+        "translation": "habito digital",
+        "definition": "habito digital",
+        "example": "They want healthier digital habits.",
+        "contexts": [
+          {
+            "targetText": "They want healthier digital habits."
+          },
+          {
+            "targetText": "Sarah used “digital habit” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “digital habit” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with digital life in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with digital life in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing digital life."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
     "dialogue": [],
-    "reading": {
-      "title": "The Film Club Debate",
-      "text": "Priya invited Sarah and Daniel to a film club at a small independent cinema. The film was a quiet drama about a family restaurant, and Sarah was not sure Daniel would enjoy it. He usually preferred faster stories with more action. However, by the end of the film, he was the first person to start the discussion.\n\nSarah thought the film was much more emotional than she had expected. The plot was simple, but the characters felt real. Daniel agreed, although he said the middle section was slightly too slow. Another person in the group argued that the slow rhythm was the point because it showed ordinary life honestly.\n\nThe discussion became more interesting than the film itself. People compared it with other dramas, talked about the music and disagreed politely about the ending. Sarah noticed that giving an opinion was easier when she included a reason and an example.\n\nOn the way home, Daniel said he might try more independent films. It was not by far his favourite type of cinema, but he had enjoyed hearing different interpretations. Sarah smiled because that was exactly why she liked cultural events: they made familiar things feel new.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why was Sarah unsure Daniel would enjoy the film?",
+        "prompt": "What does “screen time” mean in this unit?",
         "options": [
-          "It had no music",
-          "He usually preferred more action",
-          "It was in another language",
-          "He disliked the cinema"
+          "tiempo de pantalla",
+          "notificacion",
+          "privacidad",
+          "dispositivo"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What surprised Sarah about Daniel?",
+        "prompt": "What does “notification” mean in this unit?",
         "options": [
-          "He left early",
-          "He started the discussion",
-          "He disliked every character",
-          "He knew the director"
+          "privacidad",
+          "notificacion",
+          "dispositivo",
+          "desplazarse en pantalla"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why did one person defend the slow rhythm?",
+        "prompt": "What does “privacy” mean in this unit?",
         "options": [
-          "It showed ordinary life honestly",
-          "It made the film shorter",
-          "It improved the music",
-          "It created more action"
+          "dispositivo",
+          "desplazarse en pantalla",
+          "privacidad",
+          "habito digital"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What helped Sarah express an opinion more easily?",
+        "prompt": "What does “device” mean in this unit?",
         "options": [
-          "Repeating another person",
-          "Including a reason and example",
-          "Speaking before watching",
-          "Avoiding disagreement"
+          "desplazarse en pantalla",
+          "habito digital",
+          "manejar/lidiar con",
+          "dispositivo"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What does “interpretations” mean here?",
+        "prompt": "What does “scroll” mean in this unit?",
         "options": [
-          "Ticket prices",
-          "Different ways of understanding the film",
-          "Cinema schedules",
-          "Types of music"
+          "desplazarse en pantalla",
+          "habito digital",
+          "manejar/lidiar con",
+          "senalar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why does Sarah value cultural events?",
+        "prompt": "What does “digital habit” mean in this unit?",
         "options": [
-          "They make familiar things feel new",
-          "They always change Daniel’s preferences",
-          "They are cheaper than travel",
-          "They avoid difficult discussions"
+          "manejar/lidiar con",
+          "habito digital",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "tiempo de pantalla"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "tiempo de pantalla",
+          "a proposito/con intencion",
+          "notificacion"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "tiempo de pantalla",
+          "notificacion",
+          "privacidad",
+          "a largo plazo"
         ],
         "explanation": ""
       }
@@ -49471,83 +49310,93 @@
     ]
   },
   {
-    "slug": "english-b1-culture-and-media-listening",
+    "slug": "english-b1-culture-and-media-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "culture-and-media",
-    "title": "After the Film",
+    "title": "Whose Stories Reach the Screen?",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 81,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to culture and media.",
-    "intro": "Listen to a short B1 conversation linked to culture and media.",
+    "xpReward": 35,
+    "orderIndex": 80,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about culture and media and answer comprehension questions.",
+    "intro": "Read a practical B1 text about culture and media and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "After the Film",
-      "mainTranscript": "Sarah says the film was more moving than she expected. Daniel says it was slower than his usual choice, but the main character was interesting. Priya asks them whether they would recommend it. Sarah says yes, especially to people who enjoy realistic stories.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Sarah says the film was more moving than she expected."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Priya asks them whether they would recommend it."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Sarah says yes, especially to people who enjoy realistic stories."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "Whose Stories Reach the Screen?",
+      "text": "In a local discussion, a community cinema group talk about few local and minority-language films being shown. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that popular films help cinemas earn money. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that programmes should also reflect more voices. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try a monthly public-choice screening. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “Whose Stories Reach the Screen?”?",
         "options": [
-          "Culture and Media",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "few local and minority-language films being shown",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "programmes should also reflect more voices",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try a monthly public-choice screening and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -50462,61 +50311,83 @@
     ]
   },
   {
-    "slug": "english-b1-culture-and-media-speaking",
+    "slug": "english-b1-culture-and-media-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "culture-and-media",
-    "title": "Talk about Culture and Media",
+    "title": "After the Film",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 82,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 81,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to culture and media.",
+    "intro": "Listen to a short B1 conversation linked to culture and media.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Recommend a film, series or book.",
-        "translation": "Recommend a film, series or book."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Use one comparative and one reason.",
-        "translation": "Use one comparative and one reason."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "After the Film",
+      "mainTranscript": "Sarah says the film was more moving than she expected. Daniel says it was slower than his usual choice, but the main character was interesting. Priya asks them whether they would recommend it. Sarah says yes, especially to people who enjoy realistic stories.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Sarah says the film was more moving than she expected."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Priya asks them whether they would recommend it."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Sarah says yes, especially to people who enjoy realistic stories."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "Culture and Media",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -50862,50 +50733,61 @@
     ]
   },
   {
-    "slug": "english-b1-culture-and-media-writing",
+    "slug": "english-b1-culture-and-media-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "culture-and-media",
-    "title": "Write about Culture and Media",
+    "title": "Talk about Culture and Media",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 83,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 82,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Recommend a film, series or book.",
+        "translation": "Recommend a film, series or book."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Use one comparative and one reason.",
+        "translation": "Use one comparative and one reason."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -51163,500 +51045,51 @@
     ]
   },
   {
-    "slug": "english-b1-culture-and-media-grammar",
+    "slug": "english-b1-culture-and-media-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "culture-and-media",
-    "title": "Comparatives and superlatives with modifiers",
+    "title": "Write about Culture and Media",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 84,
-    "estimatedMinutes": 14,
-    "description": "Use Comparatives and superlatives with modifiers in a realistic B1 context.",
-    "intro": "Use Comparatives and superlatives with modifiers in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 83,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use Comparatives and superlatives with modifiers accurately while discussing culture and media.\n\nRule: Use modifiers to make comparisons more precise: \"much better\", \"slightly more serious\", \"by far the most interesting\". At B1, this helps you give nuanced opinions about films, books and events.\n\nPattern: short adjective + -er/-est; more/most + long adjective; use much/slightly to modify comparisons.\n\nExamples: more emotional · slightly too · most interesting\n\nCommon mistakes: Avoid double comparatives such as more better or more easier.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "Comparatives and superlatives with modifiers",
-      "Recommend a film, series or book.",
-      "Use one comparative and one reason."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-culture-and-media-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-culture-and-media-grammar-q1",
-            "type": "mcq",
-            "prompt": "The film was ___ than Daniel expected.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "more emotional"
-              },
-              {
-                "id": "o2",
-                "text": "emotionaler"
-              },
-              {
-                "id": "o3",
-                "text": "most emotional"
-              },
-              {
-                "id": "o4",
-                "text": "more emotionally"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q2",
-            "type": "mcq",
-            "prompt": "The middle section was ___ slow for Daniel.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "slightly too"
-              },
-              {
-                "id": "o2",
-                "text": "by far more"
-              },
-              {
-                "id": "o3",
-                "text": "muchest"
-              },
-              {
-                "id": "o4",
-                "text": "the more"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q3",
-            "type": "mcq",
-            "prompt": "It was one of the ___ discussions Sarah had attended.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "more interesting"
-              },
-              {
-                "id": "o2",
-                "text": "most interesting"
-              },
-              {
-                "id": "o3",
-                "text": "interestinger"
-              },
-              {
-                "id": "o4",
-                "text": "much interesting"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q4",
-            "type": "mcq",
-            "prompt": "Action films are usually ___ paced than this drama.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "fastest"
-              },
-              {
-                "id": "o2",
-                "text": "faster"
-              },
-              {
-                "id": "o3",
-                "text": "more fast"
-              },
-              {
-                "id": "o4",
-                "text": "the faster"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q5",
-            "type": "mcq",
-            "prompt": "The discussion was ___ more interesting than she expected.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "much"
-              },
-              {
-                "id": "o2",
-                "text": "most"
-              },
-              {
-                "id": "o3",
-                "text": "many"
-              },
-              {
-                "id": "o4",
-                "text": "very"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q6",
-            "type": "mcq",
-            "prompt": "This was ___ Daniel’s favourite genre.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "by far"
-              },
-              {
-                "id": "o2",
-                "text": "not by far"
-              },
-              {
-                "id": "o3",
-                "text": "more far"
-              },
-              {
-                "id": "o4",
-                "text": "the far"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q7",
-            "type": "mcq",
-            "prompt": "Independent cinemas are often ___ than large chains.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "more small"
-              },
-              {
-                "id": "o2",
-                "text": "smaller"
-              },
-              {
-                "id": "o3",
-                "text": "smallest"
-              },
-              {
-                "id": "o4",
-                "text": "the smaller"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the correct sentence.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "The ending was much better."
-              },
-              {
-                "id": "o2",
-                "text": "The ending was very better."
-              },
-              {
-                "id": "o3",
-                "text": "The ending was more good."
-              },
-              {
-                "id": "o4",
-                "text": "The ending was the better of all."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: The film was ___ than Daniel expected.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "emotionaler"
-              },
-              {
-                "id": "o3",
-                "text": "most emotional"
-              },
-              {
-                "id": "o4",
-                "text": "more emotionally"
-              },
-              {
-                "id": "o1",
-                "text": "more emotional"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: The middle section was ___ slow for Daniel.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "by far more"
-              },
-              {
-                "id": "o3",
-                "text": "muchest"
-              },
-              {
-                "id": "o4",
-                "text": "the more"
-              },
-              {
-                "id": "o1",
-                "text": "slightly too"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: It was one of the ___ discussions Sarah had attended.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "most interesting"
-              },
-              {
-                "id": "o3",
-                "text": "interestinger"
-              },
-              {
-                "id": "o4",
-                "text": "much interesting"
-              },
-              {
-                "id": "o1",
-                "text": "more interesting"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: Action films are usually ___ paced than this drama.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "faster"
-              },
-              {
-                "id": "o3",
-                "text": "more fast"
-              },
-              {
-                "id": "o4",
-                "text": "the faster"
-              },
-              {
-                "id": "o1",
-                "text": "fastest"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: The discussion was ___ more interesting than she expected.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "most"
-              },
-              {
-                "id": "o3",
-                "text": "many"
-              },
-              {
-                "id": "o4",
-                "text": "very"
-              },
-              {
-                "id": "o1",
-                "text": "much"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: This was ___ Daniel’s favourite genre.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "not by far"
-              },
-              {
-                "id": "o3",
-                "text": "more far"
-              },
-              {
-                "id": "o4",
-                "text": "the far"
-              },
-              {
-                "id": "o1",
-                "text": "by far"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-culture-and-media-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: Independent cinemas are often ___ than large chains.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "smaller"
-              },
-              {
-                "id": "o3",
-                "text": "smallest"
-              },
-              {
-                "id": "o4",
-                "text": "the smaller"
-              },
-              {
-                "id": "o1",
-                "text": "more small"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Comparatives and superlatives with modifiers",
-        "context": "Use Comparatives and superlatives with modifiers in a realistic B1 context.",
-        "definition": "Use modifiers to make comparisons more precise: \"much better\", \"slightly more serious\", \"by far the most interesting\". At B1, this helps you give nuanced opinions about films, books and events.",
-        "explanation": "Use modifiers to make comparisons more precise: \"much better\", \"slightly more serious\", \"by far the most interesting\". At B1, this helps you give nuanced opinions about films, books and events.",
-        "structure": "short adjective + -er/-est; more/most + long adjective; use much/slightly to modify comparisons.",
-        "purpose": "Use Comparatives and superlatives with modifiers accurately while discussing culture and media.",
-        "function": "Use Comparatives and superlatives with modifiers accurately while discussing culture and media.",
-        "examples": [
-          "Comparatives and superlatives with modifiers",
-          "Recommend a film, series or book.",
-          "Use one comparative and one reason."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "The film was ___ than Daniel expected.",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "more emotional",
-          "emotionaler",
-          "most emotional",
-          "more emotionally"
-        ],
-        "explanation": "Long adjectives form the comparative with more."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "The middle section was ___ slow for Daniel.",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "slightly too",
-          "by far more",
-          "muchest",
-          "the more"
-        ],
-        "explanation": "Slightly can modify an adjective; too marks excess."
-      },
-      {
-        "type": "mcq",
-        "prompt": "It was one of the ___ discussions Sarah had attended.",
-        "options": [
-          "more interesting",
-          "most interesting",
-          "interestinger",
-          "much interesting"
-        ],
-        "explanation": "One of the + superlative + plural noun."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Action films are usually ___ paced than this drama.",
-        "options": [
-          "fastest",
-          "faster",
-          "more fast",
-          "the faster"
-        ],
-        "explanation": "Short adjectives take -er."
-      },
-      {
-        "type": "mcq",
-        "prompt": "The discussion was ___ more interesting than she expected.",
-        "options": [
-          "much",
-          "most",
-          "many",
-          "very"
-        ],
-        "explanation": "Much can strengthen a comparative."
-      },
-      {
-        "type": "mcq",
-        "prompt": "This was ___ Daniel’s favourite genre.",
-        "options": [
-          "by far",
-          "not by far",
-          "more far",
-          "the far"
-        ],
-        "explanation": "Not by far emphasises that it was clearly not his favourite."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Independent cinemas are often ___ than large chains.",
-        "options": [
-          "more small",
-          "smaller",
-          "smallest",
-          "the smaller"
-        ],
-        "explanation": "Small forms the comparative with -er."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the correct sentence.",
-        "options": [
-          "The ending was much better.",
-          "The ending was very better.",
-          "The ending was more good.",
-          "The ending was the better of all."
-        ],
-        "explanation": "Better is the irregular comparative of good and can be modified by much."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -54234,375 +53667,497 @@
     ]
   },
   {
-    "slug": "english-b1-culture-and-media-vocabulary",
+    "slug": "english-b1-culture-and-media-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "culture-and-media",
-    "title": "Vocabulary for Culture and Media",
+    "title": "Comparatives and superlatives with modifiers",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 85,
+    "orderIndex": 84,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for culture and media.",
-    "intro": "Key B1 words and phrases for culture and media.",
+    "description": "Use Comparatives and superlatives with modifiers in a realistic B1 context.",
+    "intro": "Use Comparatives and superlatives with modifiers in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "review",
-        "translation": "resena",
-        "definition": "resena",
-        "example": "Sarah read a review before choosing the film.",
-        "contexts": [
-          {
-            "targetText": "Sarah read a review before choosing the film."
-          },
-          {
-            "targetText": "Sarah used “review” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “review” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "plot",
-        "translation": "trama",
-        "definition": "trama",
-        "example": "The plot was simple but moving.",
-        "contexts": [
-          {
-            "targetText": "The plot was simple but moving."
-          },
-          {
-            "targetText": "Sarah used “plot” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “plot” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "character",
-        "translation": "personaje",
-        "definition": "personaje",
-        "example": "Daniel liked the main character.",
-        "contexts": [
-          {
-            "targetText": "Daniel liked the main character."
-          },
-          {
-            "targetText": "Sarah used “character” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “character” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "moving",
-        "translation": "conmovedor/a",
-        "definition": "conmovedor/a",
-        "example": "The final scene was moving.",
-        "contexts": [
-          {
-            "targetText": "The final scene was moving."
-          },
-          {
-            "targetText": "Sarah used “moving” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “moving” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "recommend",
-        "translation": "recomendar",
-        "definition": "recomendar",
-        "example": "Priya recommended the documentary.",
-        "contexts": [
-          {
-            "targetText": "Priya recommended the documentary."
-          },
-          {
-            "targetText": "Sarah used “recommend” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “recommend” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "by far",
-        "translation": "con diferencia",
-        "definition": "con diferencia",
-        "example": "It was by far the best film they saw that year.",
-        "contexts": [
-          {
-            "targetText": "It was by far the best film they saw that year."
-          },
-          {
-            "targetText": "Sarah used “by far” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “by far” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with culture and media in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with culture and media in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing culture and media."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use Comparatives and superlatives with modifiers accurately while discussing culture and media.\n\nRule: Use modifiers to make comparisons more precise: \"much better\", \"slightly more serious\", \"by far the most interesting\". At B1, this helps you give nuanced opinions about films, books and events.\n\nPattern: short adjective + -er/-est; more/most + long adjective; use much/slightly to modify comparisons.\n\nExamples: more emotional · slightly too · most interesting\n\nCommon mistakes: Avoid double comparatives such as more better or more easier.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "Comparatives and superlatives with modifiers",
+      "Recommend a film, series or book.",
+      "Use one comparative and one reason."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-culture-and-media-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "The film was ___ than Daniel expected.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "more emotional"
+              },
+              {
+                "id": "o2",
+                "text": "emotionaler"
+              },
+              {
+                "id": "o3",
+                "text": "most emotional"
+              },
+              {
+                "id": "o4",
+                "text": "more emotionally"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "The middle section was ___ slow for Daniel.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "slightly too"
+              },
+              {
+                "id": "o2",
+                "text": "by far more"
+              },
+              {
+                "id": "o3",
+                "text": "muchest"
+              },
+              {
+                "id": "o4",
+                "text": "the more"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "It was one of the ___ discussions Sarah had attended.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "more interesting"
+              },
+              {
+                "id": "o2",
+                "text": "most interesting"
+              },
+              {
+                "id": "o3",
+                "text": "interestinger"
+              },
+              {
+                "id": "o4",
+                "text": "much interesting"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Action films are usually ___ paced than this drama.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "fastest"
+              },
+              {
+                "id": "o2",
+                "text": "faster"
+              },
+              {
+                "id": "o3",
+                "text": "more fast"
+              },
+              {
+                "id": "o4",
+                "text": "the faster"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "The discussion was ___ more interesting than she expected.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "much"
+              },
+              {
+                "id": "o2",
+                "text": "most"
+              },
+              {
+                "id": "o3",
+                "text": "many"
+              },
+              {
+                "id": "o4",
+                "text": "very"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "This was ___ Daniel’s favourite genre.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "by far"
+              },
+              {
+                "id": "o2",
+                "text": "not by far"
+              },
+              {
+                "id": "o3",
+                "text": "more far"
+              },
+              {
+                "id": "o4",
+                "text": "the far"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Independent cinemas are often ___ than large chains.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "more small"
+              },
+              {
+                "id": "o2",
+                "text": "smaller"
+              },
+              {
+                "id": "o3",
+                "text": "smallest"
+              },
+              {
+                "id": "o4",
+                "text": "the smaller"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the correct sentence.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "The ending was much better."
+              },
+              {
+                "id": "o2",
+                "text": "The ending was very better."
+              },
+              {
+                "id": "o3",
+                "text": "The ending was more good."
+              },
+              {
+                "id": "o4",
+                "text": "The ending was the better of all."
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "The film was ___ than Daniel expected.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "more emotional"
+              },
+              {
+                "id": "o2",
+                "text": "emotionaler"
+              },
+              {
+                "id": "o3",
+                "text": "most emotional"
+              },
+              {
+                "id": "o4",
+                "text": "more emotionally"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "The middle section was ___ slow for Daniel.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "slightly too"
+              },
+              {
+                "id": "o2",
+                "text": "by far more"
+              },
+              {
+                "id": "o3",
+                "text": "muchest"
+              },
+              {
+                "id": "o4",
+                "text": "the more"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "It was one of the ___ discussions Sarah had attended.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "more interesting"
+              },
+              {
+                "id": "o2",
+                "text": "most interesting"
+              },
+              {
+                "id": "o3",
+                "text": "interestinger"
+              },
+              {
+                "id": "o4",
+                "text": "much interesting"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Action films are usually ___ paced than this drama.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "fastest"
+              },
+              {
+                "id": "o2",
+                "text": "faster"
+              },
+              {
+                "id": "o3",
+                "text": "more fast"
+              },
+              {
+                "id": "o4",
+                "text": "the faster"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "The discussion was ___ more interesting than she expected.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "much"
+              },
+              {
+                "id": "o2",
+                "text": "most"
+              },
+              {
+                "id": "o3",
+                "text": "many"
+              },
+              {
+                "id": "o4",
+                "text": "very"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "This was ___ Daniel’s favourite genre.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "by far"
+              },
+              {
+                "id": "o2",
+                "text": "not by far"
+              },
+              {
+                "id": "o3",
+                "text": "more far"
+              },
+              {
+                "id": "o4",
+                "text": "the far"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "Independent cinemas are often ___ than large chains.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "more small"
+              },
+              {
+                "id": "o2",
+                "text": "smaller"
+              },
+              {
+                "id": "o3",
+                "text": "smallest"
+              },
+              {
+                "id": "o4",
+                "text": "the smaller"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Comparatives and superlatives with modifiers",
+        "definition": "Use Comparatives and superlatives with modifiers in a realistic B1 context.",
+        "structure": "Goal: Use Comparatives and superlatives with modifiers accurately while discussing culture and media.\n\nRule: Use modifiers to make comparisons more precise: \"much better\", \"slightly more serious\", \"by far the most interesting\". At B1, this helps you give nuanced opinions about films, books and events.\n\nPattern: short adjective + -er/-est; more/most + long adjective; use much/slightly to modify comparisons.\n\nExamples: more emotional · slightly too · most interesting\n\nCommon mistakes: Avoid double comparatives such as more better or more easier.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use Comparatives and superlatives with modifiers to communicate clearly in practical B1 situations.",
+        "examples": [
+          "Comparatives and superlatives with modifiers",
+          "Recommend a film, series or book.",
+          "Use one comparative and one reason."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “review” mean in this unit?",
+        "prompt": "The film was ___ than Daniel expected.",
         "options": [
-          "resena",
-          "trama",
-          "personaje",
-          "conmovedor/a"
+          "more emotional",
+          "emotionaler",
+          "most emotional",
+          "more emotionally"
         ],
-        "explanation": ""
+        "explanation": "Long adjectives form the comparative with more."
       },
       {
         "type": "mcq",
-        "prompt": "What does “plot” mean in this unit?",
+        "prompt": "The middle section was ___ slow for Daniel.",
         "options": [
-          "personaje",
-          "trama",
-          "conmovedor/a",
-          "recomendar"
+          "slightly too",
+          "by far more",
+          "muchest",
+          "the more"
         ],
-        "explanation": ""
+        "explanation": "Slightly can modify an adjective; too marks excess."
       },
       {
         "type": "mcq",
-        "prompt": "What does “character” mean in this unit?",
+        "prompt": "It was one of the ___ discussions Sarah had attended.",
         "options": [
-          "conmovedor/a",
-          "recomendar",
-          "personaje",
-          "con diferencia"
+          "more interesting",
+          "most interesting",
+          "interestinger",
+          "much interesting"
         ],
-        "explanation": ""
+        "explanation": "One of the + superlative + plural noun."
       },
       {
         "type": "mcq",
-        "prompt": "What does “moving” mean in this unit?",
+        "prompt": "Action films are usually ___ paced than this drama.",
         "options": [
-          "recomendar",
-          "con diferencia",
-          "manejar/lidiar con",
-          "conmovedor/a"
+          "fastest",
+          "faster",
+          "more fast",
+          "the faster"
         ],
-        "explanation": ""
+        "explanation": "Short adjectives take -er."
       },
       {
         "type": "mcq",
-        "prompt": "What does “recommend” mean in this unit?",
+        "prompt": "The discussion was ___ more interesting than she expected.",
         "options": [
-          "recomendar",
-          "con diferencia",
-          "manejar/lidiar con",
-          "senalar"
+          "much",
+          "most",
+          "many",
+          "very"
         ],
-        "explanation": ""
+        "explanation": "Much can strengthen a comparative."
       },
       {
         "type": "mcq",
-        "prompt": "What does “by far” mean in this unit?",
+        "prompt": "This was ___ Daniel’s favourite genre.",
         "options": [
-          "manejar/lidiar con",
-          "con diferencia",
-          "senalar",
-          "proponer/idear"
+          "by far",
+          "not by far",
+          "more far",
+          "the far"
         ],
-        "explanation": ""
+        "explanation": "Not by far emphasises that it was clearly not his favourite."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "Independent cinemas are often ___ than large chains.",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "more small",
+          "smaller",
+          "smallest",
+          "the smaller"
         ],
-        "explanation": ""
+        "explanation": "Small forms the comparative with -er."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the correct sentence.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "The ending was much better.",
+          "The ending was very better.",
+          "The ending was more good.",
+          "The ending was the better of all."
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "resena"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "resena",
-          "a proposito/con intencion",
-          "trama"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "resena",
-          "trama",
-          "personaje",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "Better is the irregular comparative of good and can be modified by much."
       }
     ]
   },
@@ -55550,98 +55105,373 @@
     ]
   },
   {
-    "slug": "english-b1-relationships-and-decisions-reading",
+    "slug": "english-b1-culture-and-media-vocabulary",
     "level": "B1",
-    "skill": "reading",
-    "unitId": "relationships-and-decisions",
-    "title": "What If We Moved?",
+    "skill": "vocabulary",
+    "unitId": "culture-and-media",
+    "title": "Vocabulary for Culture and Media",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 90,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about relationships and decisions and answer comprehension questions.",
-    "intro": "Read a B1 story about relationships and decisions and answer comprehension questions.",
+    "xpReward": 30,
+    "orderIndex": 85,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for culture and media.",
+    "intro": "Key B1 words and phrases for culture and media.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [],
+    "vocabulary": [
+      {
+        "word": "review",
+        "translation": "resena",
+        "definition": "resena",
+        "example": "Sarah read a review before choosing the film.",
+        "contexts": [
+          {
+            "targetText": "Sarah read a review before choosing the film."
+          },
+          {
+            "targetText": "Sarah used “review” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “review” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "plot",
+        "translation": "trama",
+        "definition": "trama",
+        "example": "The plot was simple but moving.",
+        "contexts": [
+          {
+            "targetText": "The plot was simple but moving."
+          },
+          {
+            "targetText": "Sarah used “plot” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “plot” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "character",
+        "translation": "personaje",
+        "definition": "personaje",
+        "example": "Daniel liked the main character.",
+        "contexts": [
+          {
+            "targetText": "Daniel liked the main character."
+          },
+          {
+            "targetText": "Sarah used “character” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “character” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "moving",
+        "translation": "conmovedor/a",
+        "definition": "conmovedor/a",
+        "example": "The final scene was moving.",
+        "contexts": [
+          {
+            "targetText": "The final scene was moving."
+          },
+          {
+            "targetText": "Sarah used “moving” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “moving” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "recommend",
+        "translation": "recomendar",
+        "definition": "recomendar",
+        "example": "Priya recommended the documentary.",
+        "contexts": [
+          {
+            "targetText": "Priya recommended the documentary."
+          },
+          {
+            "targetText": "Sarah used “recommend” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “recommend” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "by far",
+        "translation": "con diferencia",
+        "definition": "con diferencia",
+        "example": "It was by far the best film they saw that year.",
+        "contexts": [
+          {
+            "targetText": "It was by far the best film they saw that year."
+          },
+          {
+            "targetText": "Sarah used “by far” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “by far” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with culture and media in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with culture and media in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing culture and media."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
     "dialogue": [],
-    "reading": {
-      "title": "What If We Moved?",
-      "text": "One evening, Daniel came home with unexpected news. His manager had mentioned a possible position at a hotel in Liverpool. It was not an official offer yet, but it could become one within a few months. Daniel looked excited and worried at the same time. Sarah listened carefully, but her first reaction was silence.\n\nManchester had become home for Sarah. Her work, friends and routines were there. If they moved to Liverpool, she would have to rethink many parts of her life. Daniel understood, but he also felt that the position could help his career. For the first time in months, they disagreed about something important.\n\nInstead of deciding immediately, they wrote down questions. What would happen to Sarah's promotion application? Could Daniel commute at first? Would the new job really offer better training? If they waited six months, would they have more information?\n\nThe conversation was difficult, but it was honest. They did not find a final answer that night. What they found was a process: listen first, imagine different possibilities and avoid turning one person's opportunity into the other person's loss.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What possibility did Daniel’s manager mention?",
+        "prompt": "What does “review” mean in this unit?",
         "options": [
-          "A role in Liverpool",
-          "A promotion for Sarah",
-          "A course in Manchester",
-          "A job in York"
+          "resena",
+          "trama",
+          "personaje",
+          "conmovedor/a"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why was Sarah’s first reaction difficult?",
+        "prompt": "What does “plot” mean in this unit?",
         "options": [
-          "She disliked hotels",
-          "Manchester was central to her life",
-          "Daniel had accepted already",
-          "Liverpool was too expensive"
+          "personaje",
+          "trama",
+          "conmovedor/a",
+          "recomendar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What did the couple do instead of deciding immediately?",
+        "prompt": "What does “character” mean in this unit?",
         "options": [
-          "They stopped talking",
-          "They wrote down questions",
-          "They called Priya",
-          "They rejected the opportunity"
+          "conmovedor/a",
+          "recomendar",
+          "personaje",
+          "con diferencia"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why might Daniel commute first?",
+        "prompt": "What does “moving” mean in this unit?",
         "options": [
-          "To gather more information before moving",
-          "To avoid starting the job",
-          "To visit the cinema",
-          "To save for Sarah’s course"
+          "recomendar",
+          "con diferencia",
+          "manejar/lidiar con",
+          "conmovedor/a"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What risk did they want to avoid?",
+        "prompt": "What does “recommend” mean in this unit?",
         "options": [
-          "Making one opportunity feel like the other person’s loss",
-          "Asking too many questions",
-          "Waiting six months",
-          "Discussing Sarah’s work"
+          "recomendar",
+          "con diferencia",
+          "manejar/lidiar con",
+          "senalar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What did they find by the end of the conversation?",
+        "prompt": "What does “by far” mean in this unit?",
         "options": [
-          "A final answer",
-          "A fair decision-making process",
-          "A new apartment",
-          "An official job offer"
+          "manejar/lidiar con",
+          "con diferencia",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "resena"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "resena",
+          "a proposito/con intencion",
+          "trama"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "resena",
+          "trama",
+          "personaje",
+          "a largo plazo"
         ],
         "explanation": ""
       }
@@ -56362,83 +56192,93 @@
     ]
   },
   {
-    "slug": "english-b1-relationships-and-decisions-listening",
+    "slug": "english-b1-relationships-and-decisions-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "relationships-and-decisions",
-    "title": "Talking About Liverpool",
+    "title": "More Than One Home",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 91,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to relationships and decisions.",
-    "intro": "Listen to a short B1 conversation linked to relationships and decisions.",
+    "xpReward": 35,
+    "orderIndex": 90,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about relationships and decisions and answer comprehension questions.",
+    "intro": "Read a practical B1 text about relationships and decisions and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "Talking About Liverpool",
-      "mainTranscript": "Daniel tells Sarah that a Liverpool position might become available. Sarah says she wants to support him, but she is not ready to leave Manchester quickly. Daniel suggests collecting more information before making a decision. They agree to talk again when the offer becomes clearer.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Daniel tells Sarah that a Liverpool position might become available."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Daniel suggests collecting more information before making a decision."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "They agree to talk again when the offer becomes clearer."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "More Than One Home",
+      "text": "In a local discussion, families with relatives in different countries talk about keeping traditions while adapting to a new place. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that integration means learning the customs of the new country. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that people can belong to more than one culture. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try an intercultural family event. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “More Than One Home”?",
         "options": [
-          "Relationships and Decisions",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "keeping traditions while adapting to a new place",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "people can belong to more than one culture",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try an intercultural family event and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -57343,61 +57183,83 @@
     ]
   },
   {
-    "slug": "english-b1-relationships-and-decisions-speaking",
+    "slug": "english-b1-relationships-and-decisions-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "relationships-and-decisions",
-    "title": "Talk about Relationships and Decisions",
+    "title": "Talking About Liverpool",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 92,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 91,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to relationships and decisions.",
+    "intro": "Listen to a short B1 conversation linked to relationships and decisions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Imagine a big life change.",
-        "translation": "Imagine a big life change."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Use: If I moved..., I would...",
-        "translation": "Use: If I moved..., I would..."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "Talking About Liverpool",
+      "mainTranscript": "Daniel tells Sarah that a Liverpool position might become available. Sarah says she wants to support him, but she is not ready to leave Manchester quickly. Daniel suggests collecting more information before making a decision. They agree to talk again when the offer becomes clearer.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Daniel tells Sarah that a Liverpool position might become available."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Daniel suggests collecting more information before making a decision."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "They agree to talk again when the offer becomes clearer."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "Relationships and Decisions",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -57743,50 +57605,61 @@
     ]
   },
   {
-    "slug": "english-b1-relationships-and-decisions-writing",
+    "slug": "english-b1-relationships-and-decisions-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "relationships-and-decisions",
-    "title": "Write about Relationships and Decisions",
+    "title": "Talk about Relationships and Decisions",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 93,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 92,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Imagine a big life change.",
+        "translation": "Imagine a big life change."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Use: If I moved..., I would...",
+        "translation": "Use: If I moved..., I would..."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -58044,500 +57917,51 @@
     ]
   },
   {
-    "slug": "english-b1-relationships-and-decisions-grammar",
+    "slug": "english-b1-relationships-and-decisions-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "relationships-and-decisions",
-    "title": "Second conditional",
+    "title": "Write about Relationships and Decisions",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 94,
-    "estimatedMinutes": 14,
-    "description": "Use Second conditional in a realistic B1 context.",
-    "intro": "Use Second conditional in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 93,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use Second conditional accurately while discussing relationships and decisions.\n\nRule: Use the second conditional for imaginary or less likely situations: \"If we moved to another city, we would need new jobs.\" It helps you explore decisions before they become real.\n\nPattern: If + Past Simple, would/could/might + base verb.\n\nExamples: would have to · would · commuted\n\nCommon mistakes: Do not use would in the if-clause of a standard second conditional.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "Second conditional",
-      "Imagine a big life change.",
-      "Use: If I moved..., I would..."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-relationships-and-decisions-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q1",
-            "type": "mcq",
-            "prompt": "If they moved, Sarah ___ rethink her routines.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "will have to"
-              },
-              {
-                "id": "o2",
-                "text": "would have to"
-              },
-              {
-                "id": "o3",
-                "text": "has to"
-              },
-              {
-                "id": "o4",
-                "text": "had to yesterday"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q2",
-            "type": "mcq",
-            "prompt": "What ___ you do if you received a job offer abroad?",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "will"
-              },
-              {
-                "id": "o2",
-                "text": "would"
-              },
-              {
-                "id": "o3",
-                "text": "did"
-              },
-              {
-                "id": "o4",
-                "text": "have"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q3",
-            "type": "mcq",
-            "prompt": "If Daniel ___ at first, they could delay the move.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "commutes"
-              },
-              {
-                "id": "o2",
-                "text": "commuted"
-              },
-              {
-                "id": "o3",
-                "text": "will commute"
-              },
-              {
-                "id": "o4",
-                "text": "would commute"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q4",
-            "type": "mcq",
-            "prompt": "Sarah would feel better if they ___ more information.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "have"
-              },
-              {
-                "id": "o2",
-                "text": "had"
-              },
-              {
-                "id": "o3",
-                "text": "will have"
-              },
-              {
-                "id": "o4",
-                "text": "would had"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q5",
-            "type": "mcq",
-            "prompt": "If I were Sarah, I ___ wait before deciding.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "will"
-              },
-              {
-                "id": "o2",
-                "text": "would"
-              },
-              {
-                "id": "o3",
-                "text": "am"
-              },
-              {
-                "id": "o4",
-                "text": "did"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q6",
-            "type": "mcq",
-            "prompt": "They ___ Liverpool if the offer became official.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "might visit"
-              },
-              {
-                "id": "o2",
-                "text": "might to visit"
-              },
-              {
-                "id": "o3",
-                "text": "visited will"
-              },
-              {
-                "id": "o4",
-                "text": "would visited"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q7",
-            "type": "mcq",
-            "prompt": "If the job did not offer training, Daniel ___ it.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "wouldn't take"
-              },
-              {
-                "id": "o2",
-                "text": "won't take"
-              },
-              {
-                "id": "o3",
-                "text": "didn't took"
-              },
-              {
-                "id": "o4",
-                "text": "wouldn't took"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the correct sentence.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "If we moved, we would need a plan."
-              },
-              {
-                "id": "o2",
-                "text": "If we would move, we needed a plan."
-              },
-              {
-                "id": "o3",
-                "text": "If we move, we would needed a plan."
-              },
-              {
-                "id": "o4",
-                "text": "If we moved, we will need a plan."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: If they moved, Sarah ___ rethink her routines.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "would have to"
-              },
-              {
-                "id": "o3",
-                "text": "has to"
-              },
-              {
-                "id": "o4",
-                "text": "had to yesterday"
-              },
-              {
-                "id": "o1",
-                "text": "will have to"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: What ___ you do if you received a job offer abroad?",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "would"
-              },
-              {
-                "id": "o3",
-                "text": "did"
-              },
-              {
-                "id": "o4",
-                "text": "have"
-              },
-              {
-                "id": "o1",
-                "text": "will"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: If Daniel ___ at first, they could delay the move.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "commuted"
-              },
-              {
-                "id": "o3",
-                "text": "will commute"
-              },
-              {
-                "id": "o4",
-                "text": "would commute"
-              },
-              {
-                "id": "o1",
-                "text": "commutes"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: Sarah would feel better if they ___ more information.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "had"
-              },
-              {
-                "id": "o3",
-                "text": "will have"
-              },
-              {
-                "id": "o4",
-                "text": "would had"
-              },
-              {
-                "id": "o1",
-                "text": "have"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: If I were Sarah, I ___ wait before deciding.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "would"
-              },
-              {
-                "id": "o3",
-                "text": "am"
-              },
-              {
-                "id": "o4",
-                "text": "did"
-              },
-              {
-                "id": "o1",
-                "text": "will"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: They ___ Liverpool if the offer became official.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "might to visit"
-              },
-              {
-                "id": "o3",
-                "text": "visited will"
-              },
-              {
-                "id": "o4",
-                "text": "would visited"
-              },
-              {
-                "id": "o1",
-                "text": "might visit"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-relationships-and-decisions-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: If the job did not offer training, Daniel ___ it.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "won't take"
-              },
-              {
-                "id": "o3",
-                "text": "didn't took"
-              },
-              {
-                "id": "o4",
-                "text": "wouldn't took"
-              },
-              {
-                "id": "o1",
-                "text": "wouldn't take"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Second conditional",
-        "context": "Use Second conditional in a realistic B1 context.",
-        "definition": "Use the second conditional for imaginary or less likely situations: \"If we moved to another city, we would need new jobs.\" It helps you explore decisions before they become real.",
-        "explanation": "Use the second conditional for imaginary or less likely situations: \"If we moved to another city, we would need new jobs.\" It helps you explore decisions before they become real.",
-        "structure": "If + Past Simple, would/could/might + base verb.",
-        "purpose": "Use Second conditional accurately while discussing relationships and decisions.",
-        "function": "Use Second conditional accurately while discussing relationships and decisions.",
-        "examples": [
-          "Second conditional",
-          "Imagine a big life change.",
-          "Use: If I moved..., I would..."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "If they moved, Sarah ___ rethink her routines.",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "will have to",
-          "would have to",
-          "has to",
-          "had to yesterday"
-        ],
-        "explanation": "Second conditional: would + base verb for a hypothetical result."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "What ___ you do if you received a job offer abroad?",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "will",
-          "would",
-          "did",
-          "have"
-        ],
-        "explanation": "Use would in a hypothetical result question."
-      },
-      {
-        "type": "mcq",
-        "prompt": "If Daniel ___ at first, they could delay the move.",
-        "options": [
-          "commutes",
-          "commuted",
-          "will commute",
-          "would commute"
-        ],
-        "explanation": "The if-clause uses Past Simple."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Sarah would feel better if they ___ more information.",
-        "options": [
-          "have",
-          "had",
-          "will have",
-          "would had"
-        ],
-        "explanation": "Use Past Simple in the if-clause."
-      },
-      {
-        "type": "mcq",
-        "prompt": "If I were Sarah, I ___ wait before deciding.",
-        "options": [
-          "will",
-          "would",
-          "am",
-          "did"
-        ],
-        "explanation": "If I were... commonly gives hypothetical advice."
-      },
-      {
-        "type": "mcq",
-        "prompt": "They ___ Liverpool if the offer became official.",
-        "options": [
-          "might visit",
-          "might to visit",
-          "visited will",
-          "would visited"
-        ],
-        "explanation": "Might can express a possible hypothetical result."
-      },
-      {
-        "type": "mcq",
-        "prompt": "If the job did not offer training, Daniel ___ it.",
-        "options": [
-          "wouldn't take",
-          "won't take",
-          "didn't took",
-          "wouldn't took"
-        ],
-        "explanation": "Would not + base verb forms the negative result."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the correct sentence.",
-        "options": [
-          "If we moved, we would need a plan.",
-          "If we would move, we needed a plan.",
-          "If we move, we would needed a plan.",
-          "If we moved, we will need a plan."
-        ],
-        "explanation": "Second conditional: if + Past Simple, would + base verb."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -61115,375 +60539,497 @@
     ]
   },
   {
-    "slug": "english-b1-relationships-and-decisions-vocabulary",
+    "slug": "english-b1-relationships-and-decisions-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "relationships-and-decisions",
-    "title": "Vocabulary for Relationships and Decisions",
+    "title": "Second conditional",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 95,
+    "orderIndex": 94,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for relationships and decisions.",
-    "intro": "Key B1 words and phrases for relationships and decisions.",
+    "description": "Use Second conditional in a realistic B1 context.",
+    "intro": "Use Second conditional in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "compromise",
-        "translation": "acuerdo intermedio",
-        "definition": "acuerdo intermedio",
-        "example": "A good compromise respects both people.",
-        "contexts": [
-          {
-            "targetText": "A good compromise respects both people."
-          },
-          {
-            "targetText": "Sarah used “compromise” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “compromise” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "point of view",
-        "translation": "punto de vista",
-        "definition": "punto de vista",
-        "example": "Daniel explained his point of view calmly.",
-        "contexts": [
-          {
-            "targetText": "Daniel explained his point of view calmly."
-          },
-          {
-            "targetText": "Sarah used “point of view” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “point of view” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "disagree",
-        "translation": "estar en desacuerdo",
-        "definition": "estar en desacuerdo",
-        "example": "They disagreed about moving.",
-        "contexts": [
-          {
-            "targetText": "They disagreed about moving."
-          },
-          {
-            "targetText": "Sarah used “disagree” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “disagree” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "imagine",
-        "translation": "imaginar",
-        "definition": "imaginar",
-        "example": "Sarah imagined living in another city.",
-        "contexts": [
-          {
-            "targetText": "Sarah imagined living in another city."
-          },
-          {
-            "targetText": "Sarah used “imagine” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “imagine” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "support",
-        "translation": "apoyar",
-        "definition": "apoyar",
-        "example": "They support each other's goals.",
-        "contexts": [
-          {
-            "targetText": "They support each other's goals."
-          },
-          {
-            "targetText": "Sarah used “support” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “support” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "decision",
-        "translation": "decision",
-        "definition": "decision",
-        "example": "The decision needed time.",
-        "contexts": [
-          {
-            "targetText": "The decision needed time."
-          },
-          {
-            "targetText": "Sarah used “decision” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “decision” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with relationships and decisions in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with relationships and decisions in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing relationships and decisions."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use Second conditional accurately while discussing relationships and decisions.\n\nRule: Use the second conditional for imaginary or less likely situations: \"If we moved to another city, we would need new jobs.\" It helps you explore decisions before they become real.\n\nPattern: If + Past Simple, would/could/might + base verb.\n\nExamples: would have to · would · commuted\n\nCommon mistakes: Do not use would in the if-clause of a standard second conditional.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "Second conditional",
+      "Imagine a big life change.",
+      "Use: If I moved..., I would..."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-relationships-and-decisions-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "If they moved, Sarah ___ rethink her routines.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will have to"
+              },
+              {
+                "id": "o2",
+                "text": "would have to"
+              },
+              {
+                "id": "o3",
+                "text": "has to"
+              },
+              {
+                "id": "o4",
+                "text": "had to yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "What ___ you do if you received a job offer abroad?",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will"
+              },
+              {
+                "id": "o2",
+                "text": "would"
+              },
+              {
+                "id": "o3",
+                "text": "did"
+              },
+              {
+                "id": "o4",
+                "text": "have"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "If Daniel ___ at first, they could delay the move.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "commutes"
+              },
+              {
+                "id": "o2",
+                "text": "commuted"
+              },
+              {
+                "id": "o3",
+                "text": "will commute"
+              },
+              {
+                "id": "o4",
+                "text": "would commute"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Sarah would feel better if they ___ more information.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "have"
+              },
+              {
+                "id": "o2",
+                "text": "had"
+              },
+              {
+                "id": "o3",
+                "text": "will have"
+              },
+              {
+                "id": "o4",
+                "text": "would had"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "If I were Sarah, I ___ wait before deciding.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will"
+              },
+              {
+                "id": "o2",
+                "text": "would"
+              },
+              {
+                "id": "o3",
+                "text": "am"
+              },
+              {
+                "id": "o4",
+                "text": "did"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "They ___ Liverpool if the offer became official.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "might visit"
+              },
+              {
+                "id": "o2",
+                "text": "might to visit"
+              },
+              {
+                "id": "o3",
+                "text": "visited will"
+              },
+              {
+                "id": "o4",
+                "text": "would visited"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "If the job did not offer training, Daniel ___ it.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "wouldn't take"
+              },
+              {
+                "id": "o2",
+                "text": "won't take"
+              },
+              {
+                "id": "o3",
+                "text": "didn't took"
+              },
+              {
+                "id": "o4",
+                "text": "wouldn't took"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the correct sentence.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "If we moved, we would need a plan."
+              },
+              {
+                "id": "o2",
+                "text": "If we would move, we needed a plan."
+              },
+              {
+                "id": "o3",
+                "text": "If we move, we would needed a plan."
+              },
+              {
+                "id": "o4",
+                "text": "If we moved, we will need a plan."
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "If they moved, Sarah ___ rethink her routines.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will have to"
+              },
+              {
+                "id": "o2",
+                "text": "would have to"
+              },
+              {
+                "id": "o3",
+                "text": "has to"
+              },
+              {
+                "id": "o4",
+                "text": "had to yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "What ___ you do if you received a job offer abroad?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will"
+              },
+              {
+                "id": "o2",
+                "text": "would"
+              },
+              {
+                "id": "o3",
+                "text": "did"
+              },
+              {
+                "id": "o4",
+                "text": "have"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "If Daniel ___ at first, they could delay the move.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "commutes"
+              },
+              {
+                "id": "o2",
+                "text": "commuted"
+              },
+              {
+                "id": "o3",
+                "text": "will commute"
+              },
+              {
+                "id": "o4",
+                "text": "would commute"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Sarah would feel better if they ___ more information.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "have"
+              },
+              {
+                "id": "o2",
+                "text": "had"
+              },
+              {
+                "id": "o3",
+                "text": "will have"
+              },
+              {
+                "id": "o4",
+                "text": "would had"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "If I were Sarah, I ___ wait before deciding.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will"
+              },
+              {
+                "id": "o2",
+                "text": "would"
+              },
+              {
+                "id": "o3",
+                "text": "am"
+              },
+              {
+                "id": "o4",
+                "text": "did"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "They ___ Liverpool if the offer became official.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "might visit"
+              },
+              {
+                "id": "o2",
+                "text": "might to visit"
+              },
+              {
+                "id": "o3",
+                "text": "visited will"
+              },
+              {
+                "id": "o4",
+                "text": "would visited"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "If the job did not offer training, Daniel ___ it.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "wouldn't take"
+              },
+              {
+                "id": "o2",
+                "text": "won't take"
+              },
+              {
+                "id": "o3",
+                "text": "didn't took"
+              },
+              {
+                "id": "o4",
+                "text": "wouldn't took"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Second conditional",
+        "definition": "Use Second conditional in a realistic B1 context.",
+        "structure": "Goal: Use Second conditional accurately while discussing relationships and decisions.\n\nRule: Use the second conditional for imaginary or less likely situations: \"If we moved to another city, we would need new jobs.\" It helps you explore decisions before they become real.\n\nPattern: If + Past Simple, would/could/might + base verb.\n\nExamples: would have to · would · commuted\n\nCommon mistakes: Do not use would in the if-clause of a standard second conditional.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use Second conditional to communicate clearly in practical B1 situations.",
+        "examples": [
+          "Second conditional",
+          "Imagine a big life change.",
+          "Use: If I moved..., I would..."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “compromise” mean in this unit?",
+        "prompt": "If they moved, Sarah ___ rethink her routines.",
         "options": [
-          "acuerdo intermedio",
-          "punto de vista",
-          "estar en desacuerdo",
-          "imaginar"
+          "will have to",
+          "would have to",
+          "has to",
+          "had to yesterday"
         ],
-        "explanation": ""
+        "explanation": "Second conditional: would + base verb for a hypothetical result."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point of view” mean in this unit?",
+        "prompt": "What ___ you do if you received a job offer abroad?",
         "options": [
-          "estar en desacuerdo",
-          "punto de vista",
-          "imaginar",
-          "apoyar"
+          "will",
+          "would",
+          "did",
+          "have"
         ],
-        "explanation": ""
+        "explanation": "Use would in a hypothetical result question."
       },
       {
         "type": "mcq",
-        "prompt": "What does “disagree” mean in this unit?",
+        "prompt": "If Daniel ___ at first, they could delay the move.",
         "options": [
-          "imaginar",
-          "apoyar",
-          "estar en desacuerdo",
-          "decision"
+          "commutes",
+          "commuted",
+          "will commute",
+          "would commute"
         ],
-        "explanation": ""
+        "explanation": "The if-clause uses Past Simple."
       },
       {
         "type": "mcq",
-        "prompt": "What does “imagine” mean in this unit?",
+        "prompt": "Sarah would feel better if they ___ more information.",
         "options": [
-          "apoyar",
-          "decision",
-          "manejar/lidiar con",
-          "imaginar"
+          "have",
+          "had",
+          "will have",
+          "would had"
         ],
-        "explanation": ""
+        "explanation": "Use Past Simple in the if-clause."
       },
       {
         "type": "mcq",
-        "prompt": "What does “support” mean in this unit?",
+        "prompt": "If I were Sarah, I ___ wait before deciding.",
         "options": [
-          "apoyar",
-          "decision",
-          "manejar/lidiar con",
-          "senalar"
+          "will",
+          "would",
+          "am",
+          "did"
         ],
-        "explanation": ""
+        "explanation": "If I were... commonly gives hypothetical advice."
       },
       {
         "type": "mcq",
-        "prompt": "What does “decision” mean in this unit?",
+        "prompt": "They ___ Liverpool if the offer became official.",
         "options": [
-          "manejar/lidiar con",
-          "decision",
-          "senalar",
-          "proponer/idear"
+          "might visit",
+          "might to visit",
+          "visited will",
+          "would visited"
         ],
-        "explanation": ""
+        "explanation": "Might can express a possible hypothetical result."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "If the job did not offer training, Daniel ___ it.",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "wouldn't take",
+          "won't take",
+          "didn't took",
+          "wouldn't took"
         ],
-        "explanation": ""
+        "explanation": "Would not + base verb forms the negative result."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the correct sentence.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "If we moved, we would need a plan.",
+          "If we would move, we needed a plan.",
+          "If we move, we would needed a plan.",
+          "If we moved, we will need a plan."
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "acuerdo intermedio"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "acuerdo intermedio",
-          "a proposito/con intencion",
-          "punto de vista"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "acuerdo intermedio",
-          "punto de vista",
-          "estar en desacuerdo",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "Second conditional: if + Past Simple, would + base verb."
       }
     ]
   },
@@ -62431,98 +61977,373 @@
     ]
   },
   {
-    "slug": "english-b1-looking-ahead-reading",
+    "slug": "english-b1-relationships-and-decisions-vocabulary",
     "level": "B1",
-    "skill": "reading",
-    "unitId": "looking-ahead",
-    "title": "The Next Stage",
+    "skill": "vocabulary",
+    "unitId": "relationships-and-decisions",
+    "title": "Vocabulary for Relationships and Decisions",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 100,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about looking ahead and answer comprehension questions.",
-    "intro": "Read a B1 story about looking ahead and answer comprehension questions.",
+    "xpReward": 30,
+    "orderIndex": 95,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for relationships and decisions.",
+    "intro": "Key B1 words and phrases for relationships and decisions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [],
+    "vocabulary": [
+      {
+        "word": "compromise",
+        "translation": "acuerdo intermedio",
+        "definition": "acuerdo intermedio",
+        "example": "A good compromise respects both people.",
+        "contexts": [
+          {
+            "targetText": "A good compromise respects both people."
+          },
+          {
+            "targetText": "Sarah used “compromise” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “compromise” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "point of view",
+        "translation": "punto de vista",
+        "definition": "punto de vista",
+        "example": "Daniel explained his point of view calmly.",
+        "contexts": [
+          {
+            "targetText": "Daniel explained his point of view calmly."
+          },
+          {
+            "targetText": "Sarah used “point of view” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “point of view” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "disagree",
+        "translation": "estar en desacuerdo",
+        "definition": "estar en desacuerdo",
+        "example": "They disagreed about moving.",
+        "contexts": [
+          {
+            "targetText": "They disagreed about moving."
+          },
+          {
+            "targetText": "Sarah used “disagree” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “disagree” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "imagine",
+        "translation": "imaginar",
+        "definition": "imaginar",
+        "example": "Sarah imagined living in another city.",
+        "contexts": [
+          {
+            "targetText": "Sarah imagined living in another city."
+          },
+          {
+            "targetText": "Sarah used “imagine” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “imagine” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "support",
+        "translation": "apoyar",
+        "definition": "apoyar",
+        "example": "They support each other's goals.",
+        "contexts": [
+          {
+            "targetText": "They support each other's goals."
+          },
+          {
+            "targetText": "Sarah used “support” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “support” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "decision",
+        "translation": "decision",
+        "definition": "decision",
+        "example": "The decision needed time.",
+        "contexts": [
+          {
+            "targetText": "The decision needed time."
+          },
+          {
+            "targetText": "Sarah used “decision” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “decision” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with relationships and decisions in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with relationships and decisions in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing relationships and decisions."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
     "dialogue": [],
-    "reading": {
-      "title": "The Next Stage",
-      "text": "At the end of the year, Sarah and Daniel returned to the small cafe where they had once planned Lucy's visit. So much had changed since then that the place felt like a marker in their story. Sarah had completed her project management course, Daniel had settled into his hotel job, and both of them had become braver about making decisions.\n\nSarah told Daniel that Priya had said she was ready for more leadership. At first, Sarah had not believed it, but the charity campaign had become a turning point. She had learned that confidence did not arrive before action; often, it arrived because of action.\n\nDaniel reflected on his own progress too. He said that the English interview had taught him to prepare carefully but speak naturally. His manager had told him that guests appreciated his calm communication. That comment meant a lot because it proved his effort was visible.\n\nThey each wrote three goals for the next six months. Sarah wanted to lead another campaign, continue studying and protect her free time. Daniel wanted to improve his professional English, save money and visit Liverpool before making any decisions. Looking ahead felt less frightening now because they had evidence from the past: they could adapt, learn and keep moving.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why did the café feel important?",
+        "prompt": "What does “compromise” mean in this unit?",
         "options": [
-          "It marked an earlier point in their story",
-          "They planned to buy it",
-          "Daniel worked there",
-          "It was beside the hotel"
+          "acuerdo intermedio",
+          "punto de vista",
+          "estar en desacuerdo",
+          "imaginar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What became a turning point for Sarah?",
+        "prompt": "What does “point of view” mean in this unit?",
         "options": [
-          "Lucy’s visit",
-          "The charity campaign",
-          "The film club",
-          "The train delay"
+          "estar en desacuerdo",
+          "punto de vista",
+          "imaginar",
+          "apoyar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What did Sarah learn about confidence?",
+        "prompt": "What does “disagree” mean in this unit?",
         "options": [
-          "It must come before action",
-          "It can grow through action",
-          "It depends on a promotion",
-          "It cannot be learned"
+          "imaginar",
+          "apoyar",
+          "estar en desacuerdo",
+          "decision"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why did Daniel value his manager’s comment?",
+        "prompt": "What does “imagine” mean in this unit?",
         "options": [
-          "It showed that his effort was visible",
-          "It promised a Liverpool job",
-          "It reduced his working hours",
-          "It replaced his interview"
+          "apoyar",
+          "decision",
+          "manejar/lidiar con",
+          "imaginar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Which goal shows Sarah wants balance as well as progress?",
+        "prompt": "What does “support” mean in this unit?",
         "options": [
-          "Lead another campaign",
-          "Continue studying",
-          "Protect her free time",
-          "Visit Liverpool"
+          "apoyar",
+          "decision",
+          "manejar/lidiar con",
+          "senalar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why does the future feel less frightening?",
+        "prompt": "What does “decision” mean in this unit?",
         "options": [
-          "Their past gives evidence that they can adapt",
-          "Every decision has been made",
-          "They no longer have goals",
-          "They plan to avoid change"
+          "manejar/lidiar con",
+          "decision",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "acuerdo intermedio"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "acuerdo intermedio",
+          "a proposito/con intencion",
+          "punto de vista"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "acuerdo intermedio",
+          "punto de vista",
+          "estar en desacuerdo",
+          "a largo plazo"
         ],
         "explanation": ""
       }
@@ -63243,83 +63064,93 @@
     ]
   },
   {
-    "slug": "english-b1-looking-ahead-listening",
+    "slug": "english-b1-looking-ahead-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "looking-ahead",
-    "title": "Three Goals",
+    "title": "Learning for the Jobs of Tomorrow",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 101,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to looking ahead.",
-    "intro": "Listen to a short B1 conversation linked to looking ahead.",
+    "xpReward": 35,
+    "orderIndex": 100,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about looking ahead and answer comprehension questions.",
+    "intro": "Read a practical B1 text about looking ahead and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "Three Goals",
-      "mainTranscript": "Sarah and Daniel discuss their goals for the next six months. Sarah says Priya told her she was ready for leadership. Daniel says his manager told him that his communication had improved. They decide to write realistic goals instead of vague promises.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Sarah and Daniel discuss their goals for the next six months."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Sarah says Priya told her she was ready for leadership."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Daniel says his manager told him that his communication had improved."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "They decide to write realistic goals instead of vague promises."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "Learning for the Jobs of Tomorrow",
+      "text": "In a local discussion, adult learners at a public library talk about choosing useful skills in a changing labour market. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that technical skills are the most important. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that communication and teamwork matter too. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try free evening workshops. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “Learning for the Jobs of Tomorrow”?",
         "options": [
-          "Looking Ahead",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "choosing useful skills in a changing labour market",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "communication and teamwork matter too",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try free evening workshops and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -64224,61 +64055,83 @@
     ]
   },
   {
-    "slug": "english-b1-looking-ahead-speaking",
+    "slug": "english-b1-looking-ahead-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "looking-ahead",
-    "title": "Talk about Looking Ahead",
+    "title": "Three Goals",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 102,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 101,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to looking ahead.",
+    "intro": "Listen to a short B1 conversation linked to looking ahead.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Report one piece of advice someone gave you.",
-        "translation": "Report one piece of advice someone gave you."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Say one realistic goal for the next six months.",
-        "translation": "Say one realistic goal for the next six months."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "Three Goals",
+      "mainTranscript": "Sarah and Daniel discuss their goals for the next six months. Sarah says Priya told her she was ready for leadership. Daniel says his manager told him that his communication had improved. They decide to write realistic goals instead of vague promises.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Sarah and Daniel discuss their goals for the next six months."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Sarah says Priya told her she was ready for leadership."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Daniel says his manager told him that his communication had improved."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "They decide to write realistic goals instead of vague promises."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "Looking Ahead",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -64624,50 +64477,61 @@
     ]
   },
   {
-    "slug": "english-b1-looking-ahead-writing",
+    "slug": "english-b1-looking-ahead-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "looking-ahead",
-    "title": "Write about Looking Ahead",
+    "title": "Talk about Looking Ahead",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 103,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 102,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Report one piece of advice someone gave you.",
+        "translation": "Report one piece of advice someone gave you."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Say one realistic goal for the next six months.",
+        "translation": "Say one realistic goal for the next six months."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -64925,500 +64789,51 @@
     ]
   },
   {
-    "slug": "english-b1-looking-ahead-grammar",
+    "slug": "english-b1-looking-ahead-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "looking-ahead",
-    "title": "Reported speech",
+    "title": "Write about Looking Ahead",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 104,
-    "estimatedMinutes": 14,
-    "description": "Use Reported speech in a realistic B1 context.",
-    "intro": "Use Reported speech in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 103,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use Reported speech accurately while discussing looking ahead.\n\nRule: Use reported speech to repeat what someone said: \"Priya said that Sarah was ready.\" When the reporting verb is in the past, tenses often move back. Reported speech is useful for stories, feedback and workplace communication.\n\nPattern: reporting verb + that-clause; present often backshifts to past, will to would, and have done to had done.\n\nExamples: was · wanted · appreciated\n\nCommon mistakes: Use tell with a person (tell me) but say without a person or with to (say to me).\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "Reported speech",
-      "Report one piece of advice someone gave you.",
-      "Say one realistic goal for the next six months."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-looking-ahead-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-looking-ahead-grammar-q1",
-            "type": "mcq",
-            "prompt": "Priya said that Sarah ___ ready for more leadership.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "is yesterday"
-              },
-              {
-                "id": "o2",
-                "text": "was"
-              },
-              {
-                "id": "o3",
-                "text": "were"
-              },
-              {
-                "id": "o4",
-                "text": "has"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q2",
-            "type": "mcq",
-            "prompt": "Daniel said, “I want to improve.” Daniel said that he ___ to improve.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "wants"
-              },
-              {
-                "id": "o2",
-                "text": "wanted"
-              },
-              {
-                "id": "o3",
-                "text": "has want"
-              },
-              {
-                "id": "o4",
-                "text": "wanting"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q3",
-            "type": "mcq",
-            "prompt": "His manager told him that guests ___ his calm communication.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "appreciated"
-              },
-              {
-                "id": "o2",
-                "text": "appreciate tomorrow"
-              },
-              {
-                "id": "o3",
-                "text": "were appreciate"
-              },
-              {
-                "id": "o4",
-                "text": "has appreciated yesterday"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q4",
-            "type": "mcq",
-            "prompt": "“I have completed the course,” Sarah said. Sarah said she ___ the course.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "completed tomorrow"
-              },
-              {
-                "id": "o2",
-                "text": "had completed"
-              },
-              {
-                "id": "o3",
-                "text": "has complete"
-              },
-              {
-                "id": "o4",
-                "text": "was completing always"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q5",
-            "type": "mcq",
-            "prompt": "Daniel told Sarah that he ___ visit Liverpool before deciding.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "will"
-              },
-              {
-                "id": "o2",
-                "text": "would"
-              },
-              {
-                "id": "o3",
-                "text": "is"
-              },
-              {
-                "id": "o4",
-                "text": "has"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q6",
-            "type": "mcq",
-            "prompt": "Priya ___ Sarah to apply for another leadership role.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "said"
-              },
-              {
-                "id": "o2",
-                "text": "told"
-              },
-              {
-                "id": "o3",
-                "text": "told to"
-              },
-              {
-                "id": "o4",
-                "text": "said her"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q7",
-            "type": "mcq",
-            "prompt": "Sarah said ___ confidence often came through action.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "that"
-              },
-              {
-                "id": "o2",
-                "text": "me"
-              },
-              {
-                "id": "o3",
-                "text": "to me that to"
-              },
-              {
-                "id": "o4",
-                "text": "if me"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the correct report: “You are making progress,” he told me.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "He told that I am making progress."
-              },
-              {
-                "id": "o2",
-                "text": "He told me that I was making progress."
-              },
-              {
-                "id": "o3",
-                "text": "He said me I was make progress."
-              },
-              {
-                "id": "o4",
-                "text": "He told me that you were progress."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: Priya said that Sarah ___ ready for more leadership.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "was"
-              },
-              {
-                "id": "o3",
-                "text": "were"
-              },
-              {
-                "id": "o4",
-                "text": "has"
-              },
-              {
-                "id": "o1",
-                "text": "is yesterday"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: Daniel said, “I want to improve.” Daniel said that he ___ to improve.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "wanted"
-              },
-              {
-                "id": "o3",
-                "text": "has want"
-              },
-              {
-                "id": "o4",
-                "text": "wanting"
-              },
-              {
-                "id": "o1",
-                "text": "wants"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: His manager told him that guests ___ his calm communication.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "appreciate tomorrow"
-              },
-              {
-                "id": "o3",
-                "text": "were appreciate"
-              },
-              {
-                "id": "o4",
-                "text": "has appreciated yesterday"
-              },
-              {
-                "id": "o1",
-                "text": "appreciated"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: “I have completed the course,” Sarah said. Sarah said she ___ the course.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "had completed"
-              },
-              {
-                "id": "o3",
-                "text": "has complete"
-              },
-              {
-                "id": "o4",
-                "text": "was completing always"
-              },
-              {
-                "id": "o1",
-                "text": "completed tomorrow"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: Daniel told Sarah that he ___ visit Liverpool before deciding.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "would"
-              },
-              {
-                "id": "o3",
-                "text": "is"
-              },
-              {
-                "id": "o4",
-                "text": "has"
-              },
-              {
-                "id": "o1",
-                "text": "will"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: Priya ___ Sarah to apply for another leadership role.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "told"
-              },
-              {
-                "id": "o3",
-                "text": "told to"
-              },
-              {
-                "id": "o4",
-                "text": "said her"
-              },
-              {
-                "id": "o1",
-                "text": "said"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-looking-ahead-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: Sarah said ___ confidence often came through action.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "me"
-              },
-              {
-                "id": "o3",
-                "text": "to me that to"
-              },
-              {
-                "id": "o4",
-                "text": "if me"
-              },
-              {
-                "id": "o1",
-                "text": "that"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Reported speech",
-        "context": "Use Reported speech in a realistic B1 context.",
-        "definition": "Use reported speech to repeat what someone said: \"Priya said that Sarah was ready.\" When the reporting verb is in the past, tenses often move back. Reported speech is useful for stories, feedback and workplace communication.",
-        "explanation": "Use reported speech to repeat what someone said: \"Priya said that Sarah was ready.\" When the reporting verb is in the past, tenses often move back. Reported speech is useful for stories, feedback and workplace communication.",
-        "structure": "reporting verb + that-clause; present often backshifts to past, will to would, and have done to had done.",
-        "purpose": "Use Reported speech accurately while discussing looking ahead.",
-        "function": "Use Reported speech accurately while discussing looking ahead.",
-        "examples": [
-          "Reported speech",
-          "Report one piece of advice someone gave you.",
-          "Say one realistic goal for the next six months."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Priya said that Sarah ___ ready for more leadership.",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "is yesterday",
-          "was",
-          "were",
-          "has"
-        ],
-        "explanation": "Reported speech commonly backshifts is to was."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "Daniel said, “I want to improve.” Daniel said that he ___ to improve.",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "wants",
-          "wanted",
-          "has want",
-          "wanting"
-        ],
-        "explanation": "Present Simple often backshifts to Past Simple."
-      },
-      {
-        "type": "mcq",
-        "prompt": "His manager told him that guests ___ his calm communication.",
-        "options": [
-          "appreciated",
-          "appreciate tomorrow",
-          "were appreciate",
-          "has appreciated yesterday"
-        ],
-        "explanation": "The reported verb is expressed in the past."
-      },
-      {
-        "type": "mcq",
-        "prompt": "“I have completed the course,” Sarah said. Sarah said she ___ the course.",
-        "options": [
-          "completed tomorrow",
-          "had completed",
-          "has complete",
-          "was completing always"
-        ],
-        "explanation": "Present Perfect backshifts to Past Perfect."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Daniel told Sarah that he ___ visit Liverpool before deciding.",
-        "options": [
-          "will",
-          "would",
-          "is",
-          "has"
-        ],
-        "explanation": "Will commonly backshifts to would."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Priya ___ Sarah to apply for another leadership role.",
-        "options": [
-          "said",
-          "told",
-          "told to",
-          "said her"
-        ],
-        "explanation": "Tell is followed by a person; say is not."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Sarah said ___ confidence often came through action.",
-        "options": [
-          "that",
-          "me",
-          "to me that to",
-          "if me"
-        ],
-        "explanation": "That can introduce the reported statement."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the correct report: “You are making progress,” he told me.",
-        "options": [
-          "He told that I am making progress.",
-          "He told me that I was making progress.",
-          "He said me I was make progress.",
-          "He told me that you were progress."
-        ],
-        "explanation": "Pronouns and tense change in reported speech."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -67996,375 +67411,497 @@
     ]
   },
   {
-    "slug": "english-b1-looking-ahead-vocabulary",
+    "slug": "english-b1-looking-ahead-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "looking-ahead",
-    "title": "Vocabulary for Looking Ahead",
+    "title": "Reported speech",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 105,
+    "orderIndex": 104,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for looking ahead.",
-    "intro": "Key B1 words and phrases for looking ahead.",
+    "description": "Use Reported speech in a realistic B1 context.",
+    "intro": "Use Reported speech in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "reflect on",
-        "translation": "reflexionar sobre",
-        "definition": "reflexionar sobre",
-        "example": "They reflected on the year together.",
-        "contexts": [
-          {
-            "targetText": "They reflected on the year together."
-          },
-          {
-            "targetText": "Sarah used “reflect on” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “reflect on” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "achievement",
-        "translation": "logro",
-        "definition": "logro",
-        "example": "The course certificate was an achievement.",
-        "contexts": [
-          {
-            "targetText": "The course certificate was an achievement."
-          },
-          {
-            "targetText": "Sarah used “achievement” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “achievement” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "set a goal",
-        "translation": "fijar una meta",
-        "definition": "fijar una meta",
-        "example": "Sarah set a goal for the next six months.",
-        "contexts": [
-          {
-            "targetText": "Sarah set a goal for the next six months."
-          },
-          {
-            "targetText": "Sarah used “set a goal” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “set a goal” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "advice",
-        "translation": "consejo",
-        "definition": "consejo",
-        "example": "Priya gave honest advice.",
-        "contexts": [
-          {
-            "targetText": "Priya gave honest advice."
-          },
-          {
-            "targetText": "Sarah used “advice” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “advice” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "look ahead",
-        "translation": "mirar hacia adelante",
-        "definition": "mirar hacia adelante",
-        "example": "They looked ahead to the next stage.",
-        "contexts": [
-          {
-            "targetText": "They looked ahead to the next stage."
-          },
-          {
-            "targetText": "Sarah used “look ahead” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “look ahead” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "turning point",
-        "translation": "punto de inflexion",
-        "definition": "punto de inflexion",
-        "example": "The charity project was a turning point.",
-        "contexts": [
-          {
-            "targetText": "The charity project was a turning point."
-          },
-          {
-            "targetText": "Sarah used “turning point” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “turning point” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with looking ahead in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with looking ahead in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing looking ahead."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use Reported speech accurately while discussing looking ahead.\n\nRule: Use reported speech to repeat what someone said: \"Priya said that Sarah was ready.\" When the reporting verb is in the past, tenses often move back. Reported speech is useful for stories, feedback and workplace communication.\n\nPattern: reporting verb + that-clause; present often backshifts to past, will to would, and have done to had done.\n\nExamples: was · wanted · appreciated\n\nCommon mistakes: Use tell with a person (tell me) but say without a person or with to (say to me).\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "Reported speech",
+      "Report one piece of advice someone gave you.",
+      "Say one realistic goal for the next six months."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-looking-ahead-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Priya said that Sarah ___ ready for more leadership.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "is yesterday"
+              },
+              {
+                "id": "o2",
+                "text": "was"
+              },
+              {
+                "id": "o3",
+                "text": "were"
+              },
+              {
+                "id": "o4",
+                "text": "has"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Daniel said, “I want to improve.” Daniel said that he ___ to improve.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "wants"
+              },
+              {
+                "id": "o2",
+                "text": "wanted"
+              },
+              {
+                "id": "o3",
+                "text": "has want"
+              },
+              {
+                "id": "o4",
+                "text": "wanting"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "His manager told him that guests ___ his calm communication.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "appreciated"
+              },
+              {
+                "id": "o2",
+                "text": "appreciate tomorrow"
+              },
+              {
+                "id": "o3",
+                "text": "were appreciate"
+              },
+              {
+                "id": "o4",
+                "text": "has appreciated yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "“I have completed the course,” Sarah said. Sarah said she ___ the course.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "completed tomorrow"
+              },
+              {
+                "id": "o2",
+                "text": "had completed"
+              },
+              {
+                "id": "o3",
+                "text": "has complete"
+              },
+              {
+                "id": "o4",
+                "text": "was completing always"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Daniel told Sarah that he ___ visit Liverpool before deciding.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will"
+              },
+              {
+                "id": "o2",
+                "text": "would"
+              },
+              {
+                "id": "o3",
+                "text": "is"
+              },
+              {
+                "id": "o4",
+                "text": "has"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Priya ___ Sarah to apply for another leadership role.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "said"
+              },
+              {
+                "id": "o2",
+                "text": "told"
+              },
+              {
+                "id": "o3",
+                "text": "told to"
+              },
+              {
+                "id": "o4",
+                "text": "said her"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Sarah said ___ confidence often came through action.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "that"
+              },
+              {
+                "id": "o2",
+                "text": "me"
+              },
+              {
+                "id": "o3",
+                "text": "to me that to"
+              },
+              {
+                "id": "o4",
+                "text": "if me"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the correct report: “You are making progress,” he told me.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "He told that I am making progress."
+              },
+              {
+                "id": "o2",
+                "text": "He told me that I was making progress."
+              },
+              {
+                "id": "o3",
+                "text": "He said me I was make progress."
+              },
+              {
+                "id": "o4",
+                "text": "He told me that you were progress."
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Priya said that Sarah ___ ready for more leadership.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "is yesterday"
+              },
+              {
+                "id": "o2",
+                "text": "was"
+              },
+              {
+                "id": "o3",
+                "text": "were"
+              },
+              {
+                "id": "o4",
+                "text": "has"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "Daniel said, “I want to improve.” Daniel said that he ___ to improve.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "wants"
+              },
+              {
+                "id": "o2",
+                "text": "wanted"
+              },
+              {
+                "id": "o3",
+                "text": "has want"
+              },
+              {
+                "id": "o4",
+                "text": "wanting"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "His manager told him that guests ___ his calm communication.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "appreciated"
+              },
+              {
+                "id": "o2",
+                "text": "appreciate tomorrow"
+              },
+              {
+                "id": "o3",
+                "text": "were appreciate"
+              },
+              {
+                "id": "o4",
+                "text": "has appreciated yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "“I have completed the course,” Sarah said. Sarah said she ___ the course.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "completed tomorrow"
+              },
+              {
+                "id": "o2",
+                "text": "had completed"
+              },
+              {
+                "id": "o3",
+                "text": "has complete"
+              },
+              {
+                "id": "o4",
+                "text": "was completing always"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "Daniel told Sarah that he ___ visit Liverpool before deciding.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "will"
+              },
+              {
+                "id": "o2",
+                "text": "would"
+              },
+              {
+                "id": "o3",
+                "text": "is"
+              },
+              {
+                "id": "o4",
+                "text": "has"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "Priya ___ Sarah to apply for another leadership role.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "said"
+              },
+              {
+                "id": "o2",
+                "text": "told"
+              },
+              {
+                "id": "o3",
+                "text": "told to"
+              },
+              {
+                "id": "o4",
+                "text": "said her"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "Sarah said ___ confidence often came through action.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "that"
+              },
+              {
+                "id": "o2",
+                "text": "me"
+              },
+              {
+                "id": "o3",
+                "text": "to me that to"
+              },
+              {
+                "id": "o4",
+                "text": "if me"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Reported speech",
+        "definition": "Use Reported speech in a realistic B1 context.",
+        "structure": "Goal: Use Reported speech accurately while discussing looking ahead.\n\nRule: Use reported speech to repeat what someone said: \"Priya said that Sarah was ready.\" When the reporting verb is in the past, tenses often move back. Reported speech is useful for stories, feedback and workplace communication.\n\nPattern: reporting verb + that-clause; present often backshifts to past, will to would, and have done to had done.\n\nExamples: was · wanted · appreciated\n\nCommon mistakes: Use tell with a person (tell me) but say without a person or with to (say to me).\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use Reported speech to communicate clearly in practical B1 situations.",
+        "examples": [
+          "Reported speech",
+          "Report one piece of advice someone gave you.",
+          "Say one realistic goal for the next six months."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “reflect on” mean in this unit?",
+        "prompt": "Priya said that Sarah ___ ready for more leadership.",
         "options": [
-          "reflexionar sobre",
-          "logro",
-          "fijar una meta",
-          "consejo"
+          "is yesterday",
+          "was",
+          "were",
+          "has"
         ],
-        "explanation": ""
+        "explanation": "Reported speech commonly backshifts is to was."
       },
       {
         "type": "mcq",
-        "prompt": "What does “achievement” mean in this unit?",
+        "prompt": "Daniel said, “I want to improve.” Daniel said that he ___ to improve.",
         "options": [
-          "fijar una meta",
-          "logro",
-          "consejo",
-          "mirar hacia adelante"
+          "wants",
+          "wanted",
+          "has want",
+          "wanting"
         ],
-        "explanation": ""
+        "explanation": "Present Simple often backshifts to Past Simple."
       },
       {
         "type": "mcq",
-        "prompt": "What does “set a goal” mean in this unit?",
+        "prompt": "His manager told him that guests ___ his calm communication.",
         "options": [
-          "consejo",
-          "mirar hacia adelante",
-          "fijar una meta",
-          "punto de inflexion"
+          "appreciated",
+          "appreciate tomorrow",
+          "were appreciate",
+          "has appreciated yesterday"
         ],
-        "explanation": ""
+        "explanation": "The reported verb is expressed in the past."
       },
       {
         "type": "mcq",
-        "prompt": "What does “advice” mean in this unit?",
+        "prompt": "“I have completed the course,” Sarah said. Sarah said she ___ the course.",
         "options": [
-          "mirar hacia adelante",
-          "punto de inflexion",
-          "manejar/lidiar con",
-          "consejo"
+          "completed tomorrow",
+          "had completed",
+          "has complete",
+          "was completing always"
         ],
-        "explanation": ""
+        "explanation": "Present Perfect backshifts to Past Perfect."
       },
       {
         "type": "mcq",
-        "prompt": "What does “look ahead” mean in this unit?",
+        "prompt": "Daniel told Sarah that he ___ visit Liverpool before deciding.",
         "options": [
-          "mirar hacia adelante",
-          "punto de inflexion",
-          "manejar/lidiar con",
-          "senalar"
+          "will",
+          "would",
+          "is",
+          "has"
         ],
-        "explanation": ""
+        "explanation": "Will commonly backshifts to would."
       },
       {
         "type": "mcq",
-        "prompt": "What does “turning point” mean in this unit?",
+        "prompt": "Priya ___ Sarah to apply for another leadership role.",
         "options": [
-          "manejar/lidiar con",
-          "punto de inflexion",
-          "senalar",
-          "proponer/idear"
+          "said",
+          "told",
+          "told to",
+          "said her"
         ],
-        "explanation": ""
+        "explanation": "Tell is followed by a person; say is not."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "Sarah said ___ confidence often came through action.",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "that",
+          "me",
+          "to me that to",
+          "if me"
         ],
-        "explanation": ""
+        "explanation": "That can introduce the reported statement."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the correct report: “You are making progress,” he told me.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "He told that I am making progress.",
+          "He told me that I was making progress.",
+          "He said me I was make progress.",
+          "He told me that you were progress."
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "reflexionar sobre"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "reflexionar sobre",
-          "a proposito/con intencion",
-          "logro"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "reflexionar sobre",
-          "logro",
-          "fijar una meta",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "Pronouns and tense change in reported speech."
       }
     ]
   },
@@ -69312,98 +68849,373 @@
     ]
   },
   {
-    "slug": "english-b1-sustainable-futures-reading",
+    "slug": "english-b1-looking-ahead-vocabulary",
     "level": "B1",
-    "skill": "reading",
-    "unitId": "sustainable-futures",
-    "title": "The Street That Changed Its Habits",
+    "skill": "vocabulary",
+    "unitId": "looking-ahead",
+    "title": "Vocabulary for Looking Ahead",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 110,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about sustainable futures and answer comprehension questions.",
-    "intro": "Read a B1 story about sustainable futures and answer comprehension questions.",
+    "xpReward": 30,
+    "orderIndex": 105,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for looking ahead.",
+    "intro": "Key B1 words and phrases for looking ahead.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [],
+    "vocabulary": [
+      {
+        "word": "reflect on",
+        "translation": "reflexionar sobre",
+        "definition": "reflexionar sobre",
+        "example": "They reflected on the year together.",
+        "contexts": [
+          {
+            "targetText": "They reflected on the year together."
+          },
+          {
+            "targetText": "Sarah used “reflect on” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “reflect on” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "achievement",
+        "translation": "logro",
+        "definition": "logro",
+        "example": "The course certificate was an achievement.",
+        "contexts": [
+          {
+            "targetText": "The course certificate was an achievement."
+          },
+          {
+            "targetText": "Sarah used “achievement” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “achievement” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "set a goal",
+        "translation": "fijar una meta",
+        "definition": "fijar una meta",
+        "example": "Sarah set a goal for the next six months.",
+        "contexts": [
+          {
+            "targetText": "Sarah set a goal for the next six months."
+          },
+          {
+            "targetText": "Sarah used “set a goal” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “set a goal” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "advice",
+        "translation": "consejo",
+        "definition": "consejo",
+        "example": "Priya gave honest advice.",
+        "contexts": [
+          {
+            "targetText": "Priya gave honest advice."
+          },
+          {
+            "targetText": "Sarah used “advice” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “advice” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "look ahead",
+        "translation": "mirar hacia adelante",
+        "definition": "mirar hacia adelante",
+        "example": "They looked ahead to the next stage.",
+        "contexts": [
+          {
+            "targetText": "They looked ahead to the next stage."
+          },
+          {
+            "targetText": "Sarah used “look ahead” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “look ahead” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "turning point",
+        "translation": "punto de inflexion",
+        "definition": "punto de inflexion",
+        "example": "The charity project was a turning point.",
+        "contexts": [
+          {
+            "targetText": "The charity project was a turning point."
+          },
+          {
+            "targetText": "Sarah used “turning point” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “turning point” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with looking ahead in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with looking ahead in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing looking ahead."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
     "dialogue": [],
-    "reading": {
-      "title": "The Street That Changed Its Habits",
-      "text": "When a recycling report was published by the local council, Sarah was surprised by one fact: her neighbourhood produced more household waste than any other area nearby. The report was discussed at the community centre, where residents admitted that the recycling instructions were confusing and that many useful materials were being thrown away.\n\nA small volunteer team was created to make the system easier. Clear labels were designed for shared recycling bins, short guides were delivered to every building and a monthly repair workshop was organised. Daniel helped at the first workshop, where old lamps, bicycles and kitchen equipment were repaired instead of replaced.\n\nThe project also transformed an unused space behind the library. The area had been ignored for years, but it was cleaned and turned into a community garden. Vegetables were planted in raised beds, rainwater was collected and local schools were invited to visit. Sarah coordinated the schedule and made sure that tasks were shared fairly.\n\nSix months later, less waste was being sent to landfill and the garden had become a popular meeting place. The neighbourhood had not solved every environmental problem, but residents had learned an important lesson: sustainable change is easier when practical information and shared responsibility are provided.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What surprised Sarah in the council report?",
+        "prompt": "What does “reflect on” mean in this unit?",
         "options": [
-          "The garden was closing",
-          "Her area produced the most household waste nearby",
-          "Recycling was already perfect",
-          "The library used renewable energy"
+          "reflexionar sobre",
+          "logro",
+          "fijar una meta",
+          "consejo"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Why were useful materials being thrown away?",
+        "prompt": "What does “achievement” mean in this unit?",
         "options": [
-          "The recycling instructions were confusing",
-          "Residents had no bins",
-          "Volunteers collected them",
-          "The council prohibited repairs"
+          "fijar una meta",
+          "logro",
+          "consejo",
+          "mirar hacia adelante"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What happened at the repair workshop?",
+        "prompt": "What does “set a goal” mean in this unit?",
         "options": [
-          "New products were sold",
-          "Old objects were repaired instead of replaced",
-          "The garden was closed",
-          "Only bicycles were collected"
+          "consejo",
+          "mirar hacia adelante",
+          "fijar una meta",
+          "punto de inflexion"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What was created behind the library?",
+        "prompt": "What does “advice” mean in this unit?",
         "options": [
-          "A hotel",
-          "A car park",
-          "A community garden",
-          "A recycling factory"
+          "mirar hacia adelante",
+          "punto de inflexion",
+          "manejar/lidiar con",
+          "consejo"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "Which detail shows the garden used resources carefully?",
+        "prompt": "What does “look ahead” mean in this unit?",
         "options": [
-          "Rainwater was collected",
-          "Every plant was imported",
-          "Lights stayed on all night",
-          "Vegetables were thrown away"
+          "mirar hacia adelante",
+          "punto de inflexion",
+          "manejar/lidiar con",
+          "senalar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What is the main lesson of the text?",
+        "prompt": "What does “turning point” mean in this unit?",
         "options": [
-          "Only councils can create change",
-          "Sustainable change needs practical information and shared responsibility",
-          "Recycling solves every environmental problem",
-          "Community projects should remain small"
+          "manejar/lidiar con",
+          "punto de inflexion",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "reflexionar sobre"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "reflexionar sobre",
+          "a proposito/con intencion",
+          "logro"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "reflexionar sobre",
+          "logro",
+          "fijar una meta",
+          "a largo plazo"
         ],
         "explanation": ""
       }
@@ -70008,78 +69820,93 @@
     ]
   },
   {
-    "slug": "english-b1-sustainable-futures-listening",
+    "slug": "english-b1-sustainable-futures-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "sustainable-futures",
-    "title": "Planning a Greener Event",
+    "title": "A Neighbourhood Uses Less",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 111,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to sustainable futures.",
-    "intro": "Listen to a short B1 conversation linked to sustainable futures.",
+    "xpReward": 35,
+    "orderIndex": 110,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about sustainable futures and answer comprehension questions.",
+    "intro": "Read a practical B1 text about sustainable futures and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "Planning a Greener Event",
-      "mainTranscript": "Sarah and Daniel are planning a community event. Food will be served on reusable plates, recycling points will be placed near every entrance and leftover food will be donated. They discuss which tasks can be completed by volunteers and which services must be provided by the council.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Sarah and Daniel are planning a community event."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Food will be served on reusable plates, recycling points will be placed near every entrance and leftover food will be donated."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "They discuss which tasks can be completed by volunteers and which services must be provided by the council."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "A Neighbourhood Uses Less",
+      "text": "In a local discussion, shop owners and residents talk about too much single-use packaging and food waste. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that small personal changes seem too limited. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that many small changes can reduce waste when businesses join in. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try reusable containers and food-sharing points. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “A Neighbourhood Uses Less”?",
         "options": [
-          "Sustainable Futures",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "too much single-use packaging and food waste",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "many small changes can reduce waste when businesses join in",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try reusable containers and food-sharing points and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -70728,61 +70555,78 @@
     ]
   },
   {
-    "slug": "english-b1-sustainable-futures-speaking",
+    "slug": "english-b1-sustainable-futures-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "sustainable-futures",
-    "title": "Talk about Sustainable Futures",
+    "title": "Planning a Greener Event",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 112,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 111,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to sustainable futures.",
+    "intro": "Listen to a short B1 conversation linked to sustainable futures.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Describe one sustainable action in your community.",
-        "translation": "Describe one sustainable action in your community."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Use one present or past passive sentence.",
-        "translation": "Use one present or past passive sentence."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "Planning a Greener Event",
+      "mainTranscript": "Sarah and Daniel are planning a community event. Food will be served on reusable plates, recycling points will be placed near every entrance and leftover food will be donated. They discuss which tasks can be completed by volunteers and which services must be provided by the council.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Sarah and Daniel are planning a community event."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Food will be served on reusable plates, recycling points will be placed near every entrance and leftover food will be donated."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "They discuss which tasks can be completed by volunteers and which services must be provided by the council."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "Sustainable Futures",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -71066,50 +70910,61 @@
     ]
   },
   {
-    "slug": "english-b1-sustainable-futures-writing",
+    "slug": "english-b1-sustainable-futures-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "sustainable-futures",
-    "title": "Write about Sustainable Futures",
+    "title": "Talk about Sustainable Futures",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 113,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 112,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Describe one sustainable action in your community.",
+        "translation": "Describe one sustainable action in your community."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Use one present or past passive sentence.",
+        "translation": "Use one present or past passive sentence."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -71328,500 +71183,51 @@
     ]
   },
   {
-    "slug": "english-b1-sustainable-futures-grammar",
+    "slug": "english-b1-sustainable-futures-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "sustainable-futures",
-    "title": "Passive voice in the present and past",
+    "title": "Write about Sustainable Futures",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 114,
-    "estimatedMinutes": 14,
-    "description": "Use Passive voice in the present and past in a realistic B1 context.",
-    "intro": "Use Passive voice in the present and past in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 113,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use Passive voice in the present and past accurately while discussing sustainable futures.\n\nRule: Use the passive when the action or result is more important than the person who performs it. Form it with be plus the past participle: \"Plastic is collected every Friday\" and \"The garden was created by local volunteers.\"\n\nPattern: Present passive: am/is/are + past participle. Past passive: was/were + past participle.\n\nExamples: is collected · was created · were repaired\n\nCommon mistakes: The passive needs a form of be and the past participle, not the simple past alone.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "Passive voice in the present and past",
-      "Describe one sustainable action in your community.",
-      "Use one present or past passive sentence."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-sustainable-futures-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-sustainable-futures-grammar-q1",
-            "type": "mcq",
-            "prompt": "Household waste ___ every Friday.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "collects"
-              },
-              {
-                "id": "o2",
-                "text": "is collected"
-              },
-              {
-                "id": "o3",
-                "text": "is collecting"
-              },
-              {
-                "id": "o4",
-                "text": "collected is"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q2",
-            "type": "mcq",
-            "prompt": "The community garden ___ by volunteers last year.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "created"
-              },
-              {
-                "id": "o2",
-                "text": "was created"
-              },
-              {
-                "id": "o3",
-                "text": "is create"
-              },
-              {
-                "id": "o4",
-                "text": "was creating by"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q3",
-            "type": "mcq",
-            "prompt": "Old bicycles ___ instead of being replaced.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "were repaired"
-              },
-              {
-                "id": "o2",
-                "text": "repaired"
-              },
-              {
-                "id": "o3",
-                "text": "was repair"
-              },
-              {
-                "id": "o4",
-                "text": "are repairing yesterday"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q4",
-            "type": "mcq",
-            "prompt": "Clear labels ___ on every recycling bin now.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "are placed"
-              },
-              {
-                "id": "o2",
-                "text": "place"
-              },
-              {
-                "id": "o3",
-                "text": "were placing"
-              },
-              {
-                "id": "o4",
-                "text": "is placed"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q5",
-            "type": "mcq",
-            "prompt": "The report ___ by the local council.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "published"
-              },
-              {
-                "id": "o2",
-                "text": "was published"
-              },
-              {
-                "id": "o3",
-                "text": "was publish"
-              },
-              {
-                "id": "o4",
-                "text": "is publishing yesterday"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q6",
-            "type": "mcq",
-            "prompt": "Rainwater can ___ in large containers.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "be collected"
-              },
-              {
-                "id": "o2",
-                "text": "is collected"
-              },
-              {
-                "id": "o3",
-                "text": "be collect"
-              },
-              {
-                "id": "o4",
-                "text": "collected"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q7",
-            "type": "mcq",
-            "prompt": "Which sentence focuses on the result?",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Volunteers cleaned the area."
-              },
-              {
-                "id": "o2",
-                "text": "The area was cleaned by volunteers."
-              },
-              {
-                "id": "o3",
-                "text": "Volunteers were cleaning."
-              },
-              {
-                "id": "o4",
-                "text": "The area cleaned volunteers."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the correct passive sentence.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Plastic is recycled here."
-              },
-              {
-                "id": "o2",
-                "text": "Plastic recycles here by people."
-              },
-              {
-                "id": "o3",
-                "text": "Plastic is recycle here."
-              },
-              {
-                "id": "o4",
-                "text": "Plastic was recycling every day."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: Household waste ___ every Friday.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "is collected"
-              },
-              {
-                "id": "o3",
-                "text": "is collecting"
-              },
-              {
-                "id": "o4",
-                "text": "collected is"
-              },
-              {
-                "id": "o1",
-                "text": "collects"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: The community garden ___ by volunteers last year.",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "was created"
-              },
-              {
-                "id": "o3",
-                "text": "is create"
-              },
-              {
-                "id": "o4",
-                "text": "was creating by"
-              },
-              {
-                "id": "o1",
-                "text": "created"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: Old bicycles ___ instead of being replaced.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "repaired"
-              },
-              {
-                "id": "o3",
-                "text": "was repair"
-              },
-              {
-                "id": "o4",
-                "text": "are repairing yesterday"
-              },
-              {
-                "id": "o1",
-                "text": "were repaired"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: Clear labels ___ on every recycling bin now.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "place"
-              },
-              {
-                "id": "o3",
-                "text": "were placing"
-              },
-              {
-                "id": "o4",
-                "text": "is placed"
-              },
-              {
-                "id": "o1",
-                "text": "are placed"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: The report ___ by the local council.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "was published"
-              },
-              {
-                "id": "o3",
-                "text": "was publish"
-              },
-              {
-                "id": "o4",
-                "text": "is publishing yesterday"
-              },
-              {
-                "id": "o1",
-                "text": "published"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: Rainwater can ___ in large containers.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "is collected"
-              },
-              {
-                "id": "o3",
-                "text": "be collect"
-              },
-              {
-                "id": "o4",
-                "text": "collected"
-              },
-              {
-                "id": "o1",
-                "text": "be collected"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-sustainable-futures-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: Which sentence focuses on the result?",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "The area was cleaned by volunteers."
-              },
-              {
-                "id": "o3",
-                "text": "Volunteers were cleaning."
-              },
-              {
-                "id": "o4",
-                "text": "The area cleaned volunteers."
-              },
-              {
-                "id": "o1",
-                "text": "Volunteers cleaned the area."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Passive voice in the present and past",
-        "context": "Use Passive voice in the present and past in a realistic B1 context.",
-        "definition": "Use the passive when the action or result is more important than the person who performs it. Form it with be plus the past participle: \"Plastic is collected every Friday\" and \"The garden was created by local volunteers.\"",
-        "explanation": "Use the passive when the action or result is more important than the person who performs it. Form it with be plus the past participle: \"Plastic is collected every Friday\" and \"The garden was created by local volunteers.\"",
-        "structure": "Present passive: am/is/are + past participle. Past passive: was/were + past participle.",
-        "purpose": "Use Passive voice in the present and past accurately while discussing sustainable futures.",
-        "function": "Use Passive voice in the present and past accurately while discussing sustainable futures.",
-        "examples": [
-          "Passive voice in the present and past",
-          "Describe one sustainable action in your community.",
-          "Use one present or past passive sentence."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Household waste ___ every Friday.",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "collects",
-          "is collected",
-          "is collecting",
-          "collected is"
-        ],
-        "explanation": "Present passive: am/is/are + past participle."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "The community garden ___ by volunteers last year.",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "created",
-          "was created",
-          "is create",
-          "was creating by"
-        ],
-        "explanation": "Past passive: was/were + past participle."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Old bicycles ___ instead of being replaced.",
-        "options": [
-          "were repaired",
-          "repaired",
-          "was repair",
-          "are repairing yesterday"
-        ],
-        "explanation": "The receiver of the action is the subject, so use the passive."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Clear labels ___ on every recycling bin now.",
-        "options": [
-          "are placed",
-          "place",
-          "were placing",
-          "is placed"
-        ],
-        "explanation": "Plural subject labels takes are + past participle."
-      },
-      {
-        "type": "mcq",
-        "prompt": "The report ___ by the local council.",
-        "options": [
-          "published",
-          "was published",
-          "was publish",
-          "is publishing yesterday"
-        ],
-        "explanation": "Use by to name the agent in a passive sentence."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Rainwater can ___ in large containers.",
-        "options": [
-          "be collected",
-          "is collected",
-          "be collect",
-          "collected"
-        ],
-        "explanation": "Modal passive: modal + be + past participle."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which sentence focuses on the result?",
-        "options": [
-          "Volunteers cleaned the area.",
-          "The area was cleaned by volunteers.",
-          "Volunteers were cleaning.",
-          "The area cleaned volunteers."
-        ],
-        "explanation": "The passive focuses on the area and the completed result."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the correct passive sentence.",
-        "options": [
-          "Plastic is recycled here.",
-          "Plastic recycles here by people.",
-          "Plastic is recycle here.",
-          "Plastic was recycling every day."
-        ],
-        "explanation": "Use be plus the past participle recycled."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -73990,375 +73396,497 @@
     ]
   },
   {
-    "slug": "english-b1-sustainable-futures-vocabulary",
+    "slug": "english-b1-sustainable-futures-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "sustainable-futures",
-    "title": "Vocabulary for Sustainable Futures",
+    "title": "Passive voice in the present and past",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 115,
+    "orderIndex": 114,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for sustainable futures.",
-    "intro": "Key B1 words and phrases for sustainable futures.",
+    "description": "Use Passive voice in the present and past in a realistic B1 context.",
+    "intro": "Use Passive voice in the present and past in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "sustainable",
-        "translation": "sostenible",
-        "definition": "sostenible",
-        "example": "The neighbourhood wants a more sustainable transport plan.",
-        "contexts": [
-          {
-            "targetText": "The neighbourhood wants a more sustainable transport plan."
-          },
-          {
-            "targetText": "Sarah used “sustainable” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “sustainable” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "waste",
-        "translation": "residuos/desperdicio",
-        "definition": "residuos/desperdicio",
-        "example": "Food waste is collected separately.",
-        "contexts": [
-          {
-            "targetText": "Food waste is collected separately."
-          },
-          {
-            "targetText": "Sarah used “waste” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “waste” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "recycle",
-        "translation": "reciclar",
-        "definition": "reciclar",
-        "example": "Glass can be recycled many times.",
-        "contexts": [
-          {
-            "targetText": "Glass can be recycled many times."
-          },
-          {
-            "targetText": "Sarah used “recycle” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “recycle” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "renewable",
-        "translation": "renovable",
-        "definition": "renovable",
-        "example": "The centre now uses renewable energy.",
-        "contexts": [
-          {
-            "targetText": "The centre now uses renewable energy."
-          },
-          {
-            "targetText": "Sarah used “renewable” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “renewable” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "reduce",
-        "translation": "reducir",
-        "definition": "reducir",
-        "example": "Residents hope to reduce plastic use.",
-        "contexts": [
-          {
-            "targetText": "Residents hope to reduce plastic use."
-          },
-          {
-            "targetText": "Sarah used “reduce” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “reduce” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "environmental impact",
-        "translation": "impacto ambiental",
-        "definition": "impacto ambiental",
-        "example": "They measured the environmental impact of the event.",
-        "contexts": [
-          {
-            "targetText": "They measured the environmental impact of the event."
-          },
-          {
-            "targetText": "Sarah used “environmental impact” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “environmental impact” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with sustainable futures in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with sustainable futures in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing sustainable futures."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use Passive voice in the present and past accurately while discussing sustainable futures.\n\nRule: Use the passive when the action or result is more important than the person who performs it. Form it with be plus the past participle: \"Plastic is collected every Friday\" and \"The garden was created by local volunteers.\"\n\nPattern: Present passive: am/is/are + past participle. Past passive: was/were + past participle.\n\nExamples: is collected · was created · were repaired\n\nCommon mistakes: The passive needs a form of be and the past participle, not the simple past alone.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "Passive voice in the present and past",
+      "Describe one sustainable action in your community.",
+      "Use one present or past passive sentence."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-sustainable-futures-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Household waste ___ every Friday.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "collects"
+              },
+              {
+                "id": "o2",
+                "text": "is collected"
+              },
+              {
+                "id": "o3",
+                "text": "is collecting"
+              },
+              {
+                "id": "o4",
+                "text": "collected is"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "The community garden ___ by volunteers last year.",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "created"
+              },
+              {
+                "id": "o2",
+                "text": "was created"
+              },
+              {
+                "id": "o3",
+                "text": "is create"
+              },
+              {
+                "id": "o4",
+                "text": "was creating by"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Old bicycles ___ instead of being replaced.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "were repaired"
+              },
+              {
+                "id": "o2",
+                "text": "repaired"
+              },
+              {
+                "id": "o3",
+                "text": "was repair"
+              },
+              {
+                "id": "o4",
+                "text": "are repairing yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Clear labels ___ on every recycling bin now.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "are placed"
+              },
+              {
+                "id": "o2",
+                "text": "place"
+              },
+              {
+                "id": "o3",
+                "text": "were placing"
+              },
+              {
+                "id": "o4",
+                "text": "is placed"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "The report ___ by the local council.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "published"
+              },
+              {
+                "id": "o2",
+                "text": "was published"
+              },
+              {
+                "id": "o3",
+                "text": "was publish"
+              },
+              {
+                "id": "o4",
+                "text": "is publishing yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Rainwater can ___ in large containers.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "be collected"
+              },
+              {
+                "id": "o2",
+                "text": "is collected"
+              },
+              {
+                "id": "o3",
+                "text": "be collect"
+              },
+              {
+                "id": "o4",
+                "text": "collected"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Which sentence focuses on the result?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Volunteers cleaned the area."
+              },
+              {
+                "id": "o2",
+                "text": "The area was cleaned by volunteers."
+              },
+              {
+                "id": "o3",
+                "text": "Volunteers were cleaning."
+              },
+              {
+                "id": "o4",
+                "text": "The area cleaned volunteers."
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the correct passive sentence.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Plastic is recycled here."
+              },
+              {
+                "id": "o2",
+                "text": "Plastic recycles here by people."
+              },
+              {
+                "id": "o3",
+                "text": "Plastic is recycle here."
+              },
+              {
+                "id": "o4",
+                "text": "Plastic was recycling every day."
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Household waste ___ every Friday.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "collects"
+              },
+              {
+                "id": "o2",
+                "text": "is collected"
+              },
+              {
+                "id": "o3",
+                "text": "is collecting"
+              },
+              {
+                "id": "o4",
+                "text": "collected is"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "The community garden ___ by volunteers last year.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "created"
+              },
+              {
+                "id": "o2",
+                "text": "was created"
+              },
+              {
+                "id": "o3",
+                "text": "is create"
+              },
+              {
+                "id": "o4",
+                "text": "was creating by"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Old bicycles ___ instead of being replaced.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "were repaired"
+              },
+              {
+                "id": "o2",
+                "text": "repaired"
+              },
+              {
+                "id": "o3",
+                "text": "was repair"
+              },
+              {
+                "id": "o4",
+                "text": "are repairing yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Clear labels ___ on every recycling bin now.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "are placed"
+              },
+              {
+                "id": "o2",
+                "text": "place"
+              },
+              {
+                "id": "o3",
+                "text": "were placing"
+              },
+              {
+                "id": "o4",
+                "text": "is placed"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "The report ___ by the local council.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "published"
+              },
+              {
+                "id": "o2",
+                "text": "was published"
+              },
+              {
+                "id": "o3",
+                "text": "was publish"
+              },
+              {
+                "id": "o4",
+                "text": "is publishing yesterday"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "Rainwater can ___ in large containers.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "be collected"
+              },
+              {
+                "id": "o2",
+                "text": "is collected"
+              },
+              {
+                "id": "o3",
+                "text": "be collect"
+              },
+              {
+                "id": "o4",
+                "text": "collected"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "Which sentence focuses on the result?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Volunteers cleaned the area."
+              },
+              {
+                "id": "o2",
+                "text": "The area was cleaned by volunteers."
+              },
+              {
+                "id": "o3",
+                "text": "Volunteers were cleaning."
+              },
+              {
+                "id": "o4",
+                "text": "The area cleaned volunteers."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Passive voice in the present and past",
+        "definition": "Use Passive voice in the present and past in a realistic B1 context.",
+        "structure": "Goal: Use Passive voice in the present and past accurately while discussing sustainable futures.\n\nRule: Use the passive when the action or result is more important than the person who performs it. Form it with be plus the past participle: \"Plastic is collected every Friday\" and \"The garden was created by local volunteers.\"\n\nPattern: Present passive: am/is/are + past participle. Past passive: was/were + past participle.\n\nExamples: is collected · was created · were repaired\n\nCommon mistakes: The passive needs a form of be and the past participle, not the simple past alone.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use Passive voice in the present and past to communicate clearly in practical B1 situations.",
+        "examples": [
+          "Passive voice in the present and past",
+          "Describe one sustainable action in your community.",
+          "Use one present or past passive sentence."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “sustainable” mean in this unit?",
+        "prompt": "Household waste ___ every Friday.",
         "options": [
-          "sostenible",
-          "residuos/desperdicio",
-          "reciclar",
-          "renovable"
+          "collects",
+          "is collected",
+          "is collecting",
+          "collected is"
         ],
-        "explanation": ""
+        "explanation": "Present passive: am/is/are + past participle."
       },
       {
         "type": "mcq",
-        "prompt": "What does “waste” mean in this unit?",
+        "prompt": "The community garden ___ by volunteers last year.",
         "options": [
-          "reciclar",
-          "residuos/desperdicio",
-          "renovable",
-          "reducir"
+          "created",
+          "was created",
+          "is create",
+          "was creating by"
         ],
-        "explanation": ""
+        "explanation": "Past passive: was/were + past participle."
       },
       {
         "type": "mcq",
-        "prompt": "What does “recycle” mean in this unit?",
+        "prompt": "Old bicycles ___ instead of being replaced.",
         "options": [
-          "renovable",
-          "reducir",
-          "reciclar",
-          "impacto ambiental"
+          "were repaired",
+          "repaired",
+          "was repair",
+          "are repairing yesterday"
         ],
-        "explanation": ""
+        "explanation": "The receiver of the action is the subject, so use the passive."
       },
       {
         "type": "mcq",
-        "prompt": "What does “renewable” mean in this unit?",
+        "prompt": "Clear labels ___ on every recycling bin now.",
         "options": [
-          "reducir",
-          "impacto ambiental",
-          "manejar/lidiar con",
-          "renovable"
+          "are placed",
+          "place",
+          "were placing",
+          "is placed"
         ],
-        "explanation": ""
+        "explanation": "Plural subject labels takes are + past participle."
       },
       {
         "type": "mcq",
-        "prompt": "What does “reduce” mean in this unit?",
+        "prompt": "The report ___ by the local council.",
         "options": [
-          "reducir",
-          "impacto ambiental",
-          "manejar/lidiar con",
-          "senalar"
+          "published",
+          "was published",
+          "was publish",
+          "is publishing yesterday"
         ],
-        "explanation": ""
+        "explanation": "Use by to name the agent in a passive sentence."
       },
       {
         "type": "mcq",
-        "prompt": "What does “environmental impact” mean in this unit?",
+        "prompt": "Rainwater can ___ in large containers.",
         "options": [
-          "manejar/lidiar con",
-          "impacto ambiental",
-          "senalar",
-          "proponer/idear"
+          "be collected",
+          "is collected",
+          "be collect",
+          "collected"
         ],
-        "explanation": ""
+        "explanation": "Modal passive: modal + be + past participle."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "Which sentence focuses on the result?",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "Volunteers cleaned the area.",
+          "The area was cleaned by volunteers.",
+          "Volunteers were cleaning.",
+          "The area cleaned volunteers."
         ],
-        "explanation": ""
+        "explanation": "The passive focuses on the area and the completed result."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the correct passive sentence.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "Plastic is recycled here.",
+          "Plastic recycles here by people.",
+          "Plastic is recycle here.",
+          "Plastic was recycling every day."
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "sostenible"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "sostenible",
-          "a proposito/con intencion",
-          "residuos/desperdicio"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "sostenible",
-          "residuos/desperdicio",
-          "reciclar",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "Use be plus the past participle recycled."
       }
     ]
   },
@@ -75021,98 +74549,373 @@
     ]
   },
   {
-    "slug": "english-b1-learning-and-communication-reading",
+    "slug": "english-b1-sustainable-futures-vocabulary",
     "level": "B1",
-    "skill": "reading",
-    "unitId": "learning-and-communication",
-    "title": "Learning How to Learn",
+    "skill": "vocabulary",
+    "unitId": "sustainable-futures",
+    "title": "Vocabulary for Sustainable Futures",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 120,
-    "estimatedMinutes": 18,
-    "description": "Read a B1 story about learning and communication and answer comprehension questions.",
-    "intro": "Read a B1 story about learning and communication and answer comprehension questions.",
+    "xpReward": 30,
+    "orderIndex": 115,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for sustainable futures.",
+    "intro": "Key B1 words and phrases for sustainable futures.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [],
+    "vocabulary": [
+      {
+        "word": "sustainable",
+        "translation": "sostenible",
+        "definition": "sostenible",
+        "example": "The neighbourhood wants a more sustainable transport plan.",
+        "contexts": [
+          {
+            "targetText": "The neighbourhood wants a more sustainable transport plan."
+          },
+          {
+            "targetText": "Sarah used “sustainable” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “sustainable” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "waste",
+        "translation": "residuos/desperdicio",
+        "definition": "residuos/desperdicio",
+        "example": "Food waste is collected separately.",
+        "contexts": [
+          {
+            "targetText": "Food waste is collected separately."
+          },
+          {
+            "targetText": "Sarah used “waste” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “waste” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "recycle",
+        "translation": "reciclar",
+        "definition": "reciclar",
+        "example": "Glass can be recycled many times.",
+        "contexts": [
+          {
+            "targetText": "Glass can be recycled many times."
+          },
+          {
+            "targetText": "Sarah used “recycle” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “recycle” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "renewable",
+        "translation": "renovable",
+        "definition": "renovable",
+        "example": "The centre now uses renewable energy.",
+        "contexts": [
+          {
+            "targetText": "The centre now uses renewable energy."
+          },
+          {
+            "targetText": "Sarah used “renewable” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “renewable” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "reduce",
+        "translation": "reducir",
+        "definition": "reducir",
+        "example": "Residents hope to reduce plastic use.",
+        "contexts": [
+          {
+            "targetText": "Residents hope to reduce plastic use."
+          },
+          {
+            "targetText": "Sarah used “reduce” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “reduce” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "environmental impact",
+        "translation": "impacto ambiental",
+        "definition": "impacto ambiental",
+        "example": "They measured the environmental impact of the event.",
+        "contexts": [
+          {
+            "targetText": "They measured the environmental impact of the event."
+          },
+          {
+            "targetText": "Sarah used “environmental impact” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “environmental impact” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with sustainable futures in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with sustainable futures in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing sustainable futures."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
     "dialogue": [],
-    "reading": {
-      "title": "Learning How to Learn",
-      "text": "During the first week of her project management course, Sarah tried to record every word the tutor said. Her notebook filled quickly, but when she reviewed it later, the ideas did not feel connected. She knew the vocabulary, yet she could not explain the main concepts in her own words. She wondered whether her study method was creating more work than learning.\n\nAt the next session, the tutor introduced three strategies. Students should listen for the main idea before writing, organise notes as questions and answers, and explain each concept to a partner. Sarah began to write less but think more. Whenever a point was unclear, she asked an indirect question such as, \"Could you explain how this stage connects to the deadline?\"\n\nDaniel was practising similar skills at the hotel. International guests sometimes understood individual words but missed important details about transport or check-in times. He learned to slow down, divide information into steps and ask guests to repeat the plan in their own words. This helped him identify misunderstandings before they became problems.\n\nAfter a month, Sarah could see a clear difference. Her notes were shorter, her questions were more precise and she remembered more after each class. She realised that successful communication was not about using the greatest number of words. It was about choosing useful information, checking understanding and adjusting the message when necessary.",
-      "questions": [
-        "What is the main challenge in this text?",
-        "How do Sarah and Daniel respond to the situation?",
-        "What lesson or change appears at the end?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What problem did Sarah have with her first notes?",
+        "prompt": "What does “sustainable” mean in this unit?",
         "options": [
-          "They were too short",
-          "The ideas were not connected",
-          "She lost her notebook",
-          "The tutor refused questions"
+          "sostenible",
+          "residuos/desperdicio",
+          "reciclar",
+          "renovable"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What did the tutor recommend doing before writing?",
+        "prompt": "What does “waste” mean in this unit?",
         "options": [
-          "Listening for the main idea",
-          "Translating every word",
-          "Leaving the classroom",
-          "Reading the final project"
+          "reciclar",
+          "residuos/desperdicio",
+          "renovable",
+          "reducir"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "How did Sarah make her questions more polite?",
+        "prompt": "What does “recycle” mean in this unit?",
         "options": [
-          "She spoke faster",
-          "She used indirect question forms",
-          "She avoided the tutor",
-          "She wrote only yes/no questions"
+          "renovable",
+          "reducir",
+          "reciclar",
+          "impacto ambiental"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What communication problem did Daniel notice at the hotel?",
+        "prompt": "What does “renewable” mean in this unit?",
         "options": [
-          "Guests missed important details",
-          "Guests spoke too slowly",
-          "The hotel had no transport information",
-          "Staff refused to explain check-in"
+          "reducir",
+          "impacto ambiental",
+          "manejar/lidiar con",
+          "renovable"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "How did Daniel check understanding?",
+        "prompt": "What does “reduce” mean in this unit?",
         "options": [
-          "He repeated the same words more loudly",
-          "He asked guests to explain the plan in their own words",
-          "He gave every guest a test",
-          "He removed the details"
+          "reducir",
+          "impacto ambiental",
+          "manejar/lidiar con",
+          "senalar"
         ],
         "explanation": ""
       },
       {
         "type": "mcq",
-        "prompt": "What conclusion does Sarah reach?",
+        "prompt": "What does “environmental impact” mean in this unit?",
         "options": [
-          "More words always mean clearer communication",
-          "Good communication requires useful information and checking understanding",
-          "Notes are unnecessary",
-          "Learning strategies only work for professional courses"
+          "manejar/lidiar con",
+          "impacto ambiental",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "sostenible"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "sostenible",
+          "a proposito/con intencion",
+          "residuos/desperdicio"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "sostenible",
+          "residuos/desperdicio",
+          "reciclar",
+          "a largo plazo"
         ],
         "explanation": ""
       }
@@ -75717,78 +75520,93 @@
     ]
   },
   {
-    "slug": "english-b1-learning-and-communication-listening",
+    "slug": "english-b1-learning-and-communication-reading",
     "level": "B1",
-    "skill": "listening",
+    "skill": "reading",
     "unitId": "learning-and-communication",
-    "title": "Could You Explain That?",
+    "title": "Speaking So Everyone Can Take Part",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 121,
-    "estimatedMinutes": 14,
-    "description": "Listen to a short B1 conversation linked to learning and communication.",
-    "intro": "Listen to a short B1 conversation linked to learning and communication.",
+    "xpReward": 35,
+    "orderIndex": 120,
+    "estimatedMinutes": 18,
+    "description": "Read a practical B1 text about learning and communication and answer comprehension questions.",
+    "intro": "Read a practical B1 text about learning and communication and answer comprehension questions.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "listeningType": "story",
-      "storyTitle": "Could You Explain That?",
-      "mainTranscript": "Sarah asks her tutor how the final project will be assessed. She uses indirect questions to clarify the deadline, the presentation format and the marking criteria. The tutor answers each question and recommends that Sarah organise the information in a short checklist.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Sarah asks her tutor how the final project will be assessed."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "She uses indirect questions to clarify the deadline, the presentation format and the marking criteria."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "The tutor answers each question and recommends that Sarah organise the information in a short checklist."
-        }
-      ],
-      "grammarTest": null,
-      "listeningComprehension": null
+    "reading": {
+      "title": "Speaking So Everyone Can Take Part",
+      "text": "In a local discussion, a multilingual parents’ meeting talk about important school information not reaching every family. The issue is part of daily life, so people want clear information before making decisions.\n\nOne group believes that translation takes extra time and money. They give examples from their own experience and explain why this matters to them.\n\nAnother group replies that clear language and interpretation make participation fairer. They do not reject the first idea completely, but they ask who will pay, who will benefit and what could happen next.\n\nBefore the meeting, several people had felt that the problem was too large for them. Some had tried to solve it alone, while others had stopped paying attention because they did not know where to begin. Hearing similar experiences makes the discussion calmer and more useful.\n\nThe group also looks for reliable information. They ask a local worker, compare two short reports and separate facts from personal opinions. This does not make every decision easy, but it helps people see which ideas are based on evidence and which ideas still need more support.\n\nA student explains how the issue affects her week. A shop owner describes a different problem, and an older resident remembers what happened when a similar plan was tried before. Their examples are not identical, yet together they show why one answer may not work for everybody.\n\nThe participants agree to share updates after the first month. If the plan creates a new difficulty, they will discuss it again instead of blaming one group. They also invite people who could not attend the meeting to send a short message with their experience or suggestion.\n\nBy the end of the meeting, nobody expects a perfect answer. Instead, they agree to try a volunteer language-support team. The discussion shows that a community can start with one realistic step, listen to the result and improve the next decision.",
+      "questions": [
+        "What is the main challenge in this text?",
+        "How do Sarah and Daniel respond to the situation?",
+        "What lesson or change appears at the end?"
+      ]
     },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "What is the main issue in “Speaking So Everyone Can Take Part”?",
         "options": [
-          "Learning and Communication",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "important school information not reaching every family",
+          "Planning a holiday",
+          "Winning a competition",
+          "Learning a grammar rule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which detail is evidence that the group checks information?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "They choose the loudest opinion.",
+          "They compare reports and speak to a local worker.",
+          "They avoid asking questions.",
+          "They vote before reading anything."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "What can we infer from the different personal examples?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Only experts are affected.",
+          "The first speaker is always right.",
+          "The same solution may not work for everyone.",
+          "The issue has already disappeared."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sequence matches the discussion?",
+        "options": [
+          "Action → evidence → first meeting",
+          "Blame → silence → cancellation",
+          "Final decision → first opinion → research",
+          "Experiences → information → trial action → review"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the second viewpoint matter?",
+        "options": [
+          "It ends the discussion immediately.",
+          "clear language and interpretation make participation fairer",
+          "It proves that facts are unnecessary.",
+          "It changes the subject to travel."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which practical decision best follows the text?",
+        "options": [
+          "Wait without speaking to anyone.",
+          "Ask one person to solve everything.",
+          "Try a volunteer language-support team and review the result.",
+          "Copy a plan without checking local needs."
         ]
       }
     ]
@@ -76427,61 +76245,78 @@
     ]
   },
   {
-    "slug": "english-b1-learning-and-communication-speaking",
+    "slug": "english-b1-learning-and-communication-listening",
     "level": "B1",
-    "skill": "speaking",
+    "skill": "listening",
     "unitId": "learning-and-communication",
-    "title": "Talk about Learning and Communication",
+    "title": "Could You Explain That?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 122,
-    "estimatedMinutes": 12,
-    "description": "Practise giving longer B1 answers with reasons and examples.",
-    "intro": "Practise giving longer B1 answers with reasons and examples.",
+    "orderIndex": 121,
+    "estimatedMinutes": 14,
+    "description": "Listen to a short B1 conversation linked to learning and communication.",
+    "intro": "Listen to a short B1 conversation linked to learning and communication.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Coach",
-        "line": "Explain a study strategy that works for you.",
-        "translation": "Explain a study strategy that works for you."
-      },
-      {
-        "speaker": "Student",
-        "line": "I would answer with a clear situation, one reason and one example.",
-        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
-      },
-      {
-        "speaker": "Coach",
-        "line": "Ask one polite indirect question.",
-        "translation": "Ask one polite indirect question."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "listeningType": "story",
+      "storyTitle": "Could You Explain That?",
+      "mainTranscript": "Sarah asks her tutor how the final project will be assessed. She uses indirect questions to clarify the deadline, the presentation format and the marking criteria. The tutor answers each question and recommends that Sarah organise the information in a short checklist.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Sarah asks her tutor how the final project will be assessed."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "She uses indirect questions to clarify the deadline, the presentation format and the marking criteria."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "The tutor answers each question and recommends that Sarah organise the information in a short checklist."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A strong B1 speaking answer should include...",
+        "prompt": "What is the listening mainly about?",
         "options": [
-          "Only one word",
-          "A situation, a reason and an example",
-          "Only a translation",
-          "No details"
+          "Learning and Communication",
+          "Buying a train ticket only",
+          "A weather report",
+          "A recipe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which phrase helps you add a reason?",
+        "prompt": "What should you listen for?",
         "options": [
-          "Because...",
-          "Yesterday?",
-          "Blue",
-          "Nothing"
+          "Only names",
+          "The problem, suggestion and result",
+          "Only numbers",
+          "Silent pauses"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of language appears in the audio?",
+        "options": [
+          "Connected B1 sentences",
+          "Only alphabet practice",
+          "Only slang",
+          "Only commands"
         ]
       }
     ]
@@ -76765,50 +76600,61 @@
     ]
   },
   {
-    "slug": "english-b1-learning-and-communication-writing",
+    "slug": "english-b1-learning-and-communication-speaking",
     "level": "B1",
-    "skill": "writing",
+    "skill": "speaking",
     "unitId": "learning-and-communication",
-    "title": "Write about Learning and Communication",
+    "title": "Talk about Learning and Communication",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 35,
-    "orderIndex": 123,
-    "estimatedMinutes": 18,
-    "description": "Write a structured B1 paragraph with connectors.",
-    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
+    "xpReward": 30,
+    "orderIndex": 122,
+    "estimatedMinutes": 12,
+    "description": "Practise giving longer B1 answers with reasons and examples.",
+    "intro": "Practise giving longer B1 answers with reasons and examples.",
     "mission": "",
     "grammar": "",
-    "phrases": [
-      "First of all,",
-      "In my opinion,",
-      "For example,",
-      "As a result,"
-    ],
+    "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "line": "Explain a study strategy that works for you.",
+        "translation": "Explain a study strategy that works for you."
+      },
+      {
+        "speaker": "Student",
+        "line": "I would answer with a clear situation, one reason and one example.",
+        "translation": "Responderia con una situacion clara, una razon y un ejemplo."
+      },
+      {
+        "speaker": "Coach",
+        "line": "Ask one polite indirect question.",
+        "translation": "Ask one polite indirect question."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the best structure for this task?",
+        "prompt": "A strong B1 speaking answer should include...",
         "options": [
-          "One long sentence",
-          "Introduction, details and final sentence",
-          "Only bullet points",
-          "Only copied text"
+          "Only one word",
+          "A situation, a reason and an example",
+          "Only a translation",
+          "No details"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which connector introduces an example?",
+        "prompt": "Which phrase helps you add a reason?",
         "options": [
-          "For example,",
-          "Although?",
-          "Never mind",
-          "At six"
+          "Because...",
+          "Yesterday?",
+          "Blue",
+          "Nothing"
         ]
       }
     ]
@@ -77027,500 +76873,51 @@
     ]
   },
   {
-    "slug": "english-b1-learning-and-communication-grammar",
+    "slug": "english-b1-learning-and-communication-writing",
     "level": "B1",
-    "skill": "grammar",
+    "skill": "writing",
     "unitId": "learning-and-communication",
-    "title": "Question forms and indirect questions",
+    "title": "Write about Learning and Communication",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 30,
-    "orderIndex": 124,
-    "estimatedMinutes": 14,
-    "description": "Use Question forms and indirect questions in a realistic B1 context.",
-    "intro": "Use Question forms and indirect questions in a realistic B1 context.",
+    "xpReward": 35,
+    "orderIndex": 123,
+    "estimatedMinutes": 18,
+    "description": "Write a structured B1 paragraph with connectors.",
+    "intro": "Write 90-120 words. Include a short introduction, two details and a final sentence.",
     "mission": "",
-    "grammar": "Goal: Use Question forms and indirect questions accurately while discussing learning and communication.\n\nRule: Direct questions use question word plus auxiliary plus subject: \"Where does the workshop start?\" Indirect questions are more polite and use statement order: \"Could you tell me where the workshop starts?\" Do not add do or does inside the indirect clause.\n\nPattern: Direct: question word + auxiliary + subject. Indirect: opening phrase + question word + subject + verb.\n\nExamples: does · starts · is\n\nCommon mistakes: Do not keep do/does/did or inverted word order inside an indirect question.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "grammar": "",
     "phrases": [
-      "Question forms and indirect questions",
-      "Explain a study strategy that works for you.",
-      "Ask one polite indirect question."
+      "First of all,",
+      "In my opinion,",
+      "For example,",
+      "As a result,"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "english-b1-learning-and-communication-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "english-b1-learning-and-communication-grammar-q1",
-            "type": "mcq",
-            "prompt": "Where ___ the workshop start?",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "does"
-              },
-              {
-                "id": "o2",
-                "text": "do"
-              },
-              {
-                "id": "o3",
-                "text": "is"
-              },
-              {
-                "id": "o4",
-                "text": "has"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q2",
-            "type": "mcq",
-            "prompt": "Could you tell me where the workshop ___?",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o1",
-                "text": "does start"
-              },
-              {
-                "id": "o2",
-                "text": "starts"
-              },
-              {
-                "id": "o3",
-                "text": "start does"
-              },
-              {
-                "id": "o4",
-                "text": "is start"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q3",
-            "type": "mcq",
-            "prompt": "Do you know what the deadline ___?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "is"
-              },
-              {
-                "id": "o2",
-                "text": "does it"
-              },
-              {
-                "id": "o3",
-                "text": "is it"
-              },
-              {
-                "id": "o4",
-                "text": "be"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q4",
-            "type": "mcq",
-            "prompt": "Why ___ Sarah change her study strategy?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "did"
-              },
-              {
-                "id": "o2",
-                "text": "was"
-              },
-              {
-                "id": "o3",
-                "text": "does yesterday"
-              },
-              {
-                "id": "o4",
-                "text": "has to did"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q5",
-            "type": "mcq",
-            "prompt": "Could you explain how this stage ___ to the deadline?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "does connect"
-              },
-              {
-                "id": "o2",
-                "text": "connects"
-              },
-              {
-                "id": "o3",
-                "text": "connect"
-              },
-              {
-                "id": "o4",
-                "text": "is connect"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q6",
-            "type": "mcq",
-            "prompt": "I would like to know ___ the project will be assessed.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o1",
-                "text": "how"
-              },
-              {
-                "id": "o2",
-                "text": "how will"
-              },
-              {
-                "id": "o3",
-                "text": "does how"
-              },
-              {
-                "id": "o4",
-                "text": "that how"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q7",
-            "type": "mcq",
-            "prompt": "Which question is more polite?",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "What does this mean?"
-              },
-              {
-                "id": "o2",
-                "text": "Could you tell me what this means?"
-              },
-              {
-                "id": "o3",
-                "text": "Could you tell me what does this mean?"
-              },
-              {
-                "id": "o4",
-                "text": "Tell what means this."
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q8",
-            "type": "mcq",
-            "prompt": "Choose the correct indirect question.",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Do you know where is the room?"
-              },
-              {
-                "id": "o2",
-                "text": "Do you know where the room is?"
-              },
-              {
-                "id": "o3",
-                "text": "Do you know where does the room be?"
-              },
-              {
-                "id": "o4",
-                "text": "Do you know where the room does?"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q9",
-            "type": "mcq",
-            "prompt": "Application 9: Where ___ the workshop start?",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "do"
-              },
-              {
-                "id": "o3",
-                "text": "is"
-              },
-              {
-                "id": "o4",
-                "text": "has"
-              },
-              {
-                "id": "o1",
-                "text": "does"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q10",
-            "type": "mcq",
-            "prompt": "Application 10: Could you tell me where the workshop ___?",
-            "difficulty": "easy",
-            "options": [
-              {
-                "id": "o2",
-                "text": "starts"
-              },
-              {
-                "id": "o3",
-                "text": "start does"
-              },
-              {
-                "id": "o4",
-                "text": "is start"
-              },
-              {
-                "id": "o1",
-                "text": "does start"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q11",
-            "type": "mcq",
-            "prompt": "Application 11: Do you know what the deadline ___?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "does it"
-              },
-              {
-                "id": "o3",
-                "text": "is it"
-              },
-              {
-                "id": "o4",
-                "text": "be"
-              },
-              {
-                "id": "o1",
-                "text": "is"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q12",
-            "type": "mcq",
-            "prompt": "Application 12: Why ___ Sarah change her study strategy?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "was"
-              },
-              {
-                "id": "o3",
-                "text": "does yesterday"
-              },
-              {
-                "id": "o4",
-                "text": "has to did"
-              },
-              {
-                "id": "o1",
-                "text": "did"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q13",
-            "type": "mcq",
-            "prompt": "Application 13: Could you explain how this stage ___ to the deadline?",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "connects"
-              },
-              {
-                "id": "o3",
-                "text": "connect"
-              },
-              {
-                "id": "o4",
-                "text": "is connect"
-              },
-              {
-                "id": "o1",
-                "text": "does connect"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q14",
-            "type": "mcq",
-            "prompt": "Application 14: I would like to know ___ the project will be assessed.",
-            "difficulty": "medium",
-            "options": [
-              {
-                "id": "o2",
-                "text": "how will"
-              },
-              {
-                "id": "o3",
-                "text": "does how"
-              },
-              {
-                "id": "o4",
-                "text": "that how"
-              },
-              {
-                "id": "o1",
-                "text": "how"
-              }
-            ]
-          },
-          {
-            "id": "english-b1-learning-and-communication-grammar-q15",
-            "type": "mcq",
-            "prompt": "Application 15: Which question is more polite?",
-            "difficulty": "hard",
-            "options": [
-              {
-                "id": "o2",
-                "text": "Could you tell me what this means?"
-              },
-              {
-                "id": "o3",
-                "text": "Could you tell me what does this mean?"
-              },
-              {
-                "id": "o4",
-                "text": "Tell what means this."
-              },
-              {
-                "id": "o1",
-                "text": "What does this mean?"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Question forms and indirect questions",
-        "context": "Use Question forms and indirect questions in a realistic B1 context.",
-        "definition": "Direct questions use question word plus auxiliary plus subject: \"Where does the workshop start?\" Indirect questions are more polite and use statement order: \"Could you tell me where the workshop starts?\" Do not add do or does inside the indirect clause.",
-        "explanation": "Direct questions use question word plus auxiliary plus subject: \"Where does the workshop start?\" Indirect questions are more polite and use statement order: \"Could you tell me where the workshop starts?\" Do not add do or does inside the indirect clause.",
-        "structure": "Direct: question word + auxiliary + subject. Indirect: opening phrase + question word + subject + verb.",
-        "purpose": "Use Question forms and indirect questions accurately while discussing learning and communication.",
-        "function": "Use Question forms and indirect questions accurately while discussing learning and communication.",
-        "examples": [
-          "Question forms and indirect questions",
-          "Explain a study strategy that works for you.",
-          "Ask one polite indirect question."
-        ]
-      },
-      "listeningComprehension": null
-    },
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Where ___ the workshop start?",
+        "prompt": "What is the best structure for this task?",
         "options": [
-          "does",
-          "do",
-          "is",
-          "has"
-        ],
-        "explanation": "A direct Present Simple question uses does before the subject."
+          "One long sentence",
+          "Introduction, details and final sentence",
+          "Only bullet points",
+          "Only copied text"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "Could you tell me where the workshop ___?",
+        "prompt": "Which connector introduces an example?",
         "options": [
-          "does start",
-          "starts",
-          "start does",
-          "is start"
-        ],
-        "explanation": "Indirect questions use statement word order."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Do you know what the deadline ___?",
-        "options": [
-          "is",
-          "does it",
-          "is it",
-          "be"
-        ],
-        "explanation": "The indirect clause uses subject + verb: the deadline is."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why ___ Sarah change her study strategy?",
-        "options": [
-          "did",
-          "was",
-          "does yesterday",
-          "has to did"
-        ],
-        "explanation": "A direct Past Simple question uses did + base verb."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Could you explain how this stage ___ to the deadline?",
-        "options": [
-          "does connect",
-          "connects",
-          "connect",
-          "is connect"
-        ],
-        "explanation": "No do/does appears inside an indirect question."
-      },
-      {
-        "type": "mcq",
-        "prompt": "I would like to know ___ the project will be assessed.",
-        "options": [
-          "how",
-          "how will",
-          "does how",
-          "that how"
-        ],
-        "explanation": "Use a question word followed by statement order."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which question is more polite?",
-        "options": [
-          "What does this mean?",
-          "Could you tell me what this means?",
-          "Could you tell me what does this mean?",
-          "Tell what means this."
-        ],
-        "explanation": "The indirect form is polite and keeps statement order."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the correct indirect question.",
-        "options": [
-          "Do you know where is the room?",
-          "Do you know where the room is?",
-          "Do you know where does the room be?",
-          "Do you know where the room does?"
-        ],
-        "explanation": "Use where + subject + verb in the indirect clause."
+          "For example,",
+          "Although?",
+          "Never mind",
+          "At six"
+        ]
       }
     ]
   },
@@ -79689,375 +79086,497 @@
     ]
   },
   {
-    "slug": "english-b1-learning-and-communication-vocabulary",
+    "slug": "english-b1-learning-and-communication-grammar",
     "level": "B1",
-    "skill": "vocabulary",
+    "skill": "grammar",
     "unitId": "learning-and-communication",
-    "title": "Vocabulary for Learning and Communication",
+    "title": "Question forms and indirect questions",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
-    "orderIndex": 125,
+    "orderIndex": 124,
     "estimatedMinutes": 14,
-    "description": "Key B1 words and phrases for learning and communication.",
-    "intro": "Key B1 words and phrases for learning and communication.",
+    "description": "Use Question forms and indirect questions in a realistic B1 context.",
+    "intro": "Use Question forms and indirect questions in a realistic B1 context.",
     "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "clarify",
-        "translation": "aclarar",
-        "definition": "aclarar",
-        "example": "Daniel asked the trainer to clarify the instructions.",
-        "contexts": [
-          {
-            "targetText": "Daniel asked the trainer to clarify the instructions."
-          },
-          {
-            "targetText": "Sarah used “clarify” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “clarify” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "misunderstanding",
-        "translation": "malentendido",
-        "definition": "malentendido",
-        "example": "A small misunderstanding delayed the task.",
-        "contexts": [
-          {
-            "targetText": "A small misunderstanding delayed the task."
-          },
-          {
-            "targetText": "Sarah used “misunderstanding” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “misunderstanding” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "strategy",
-        "translation": "estrategia",
-        "definition": "estrategia",
-        "example": "Sarah changed her study strategy.",
-        "contexts": [
-          {
-            "targetText": "Sarah changed her study strategy."
-          },
-          {
-            "targetText": "Sarah used “strategy” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “strategy” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "noun"
-      },
-      {
-        "word": "take notes",
-        "translation": "tomar apuntes",
-        "definition": "tomar apuntes",
-        "example": "She takes notes in her own words.",
-        "contexts": [
-          {
-            "targetText": "She takes notes in her own words."
-          },
-          {
-            "targetText": "Sarah used “take notes” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “take notes” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "figure out",
-        "translation": "descubrir/resolver",
-        "definition": "descubrir/resolver",
-        "example": "They figured out why the message was unclear.",
-        "contexts": [
-          {
-            "targetText": "They figured out why the message was unclear."
-          },
-          {
-            "targetText": "Sarah used “figure out” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “figure out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "express yourself",
-        "translation": "expresarte",
-        "definition": "expresarte",
-        "example": "Practice helps you express yourself with confidence.",
-        "contexts": [
-          {
-            "targetText": "Practice helps you express yourself with confidence."
-          },
-          {
-            "targetText": "Sarah used “express yourself” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “express yourself” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "deal with",
-        "translation": "manejar/lidiar con",
-        "definition": "manejar/lidiar con",
-        "example": "They learned to deal with learning and communication in a practical way.",
-        "contexts": [
-          {
-            "targetText": "They learned to deal with learning and communication in a practical way."
-          },
-          {
-            "targetText": "Sarah used “deal with” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "point out",
-        "translation": "senalar",
-        "definition": "senalar",
-        "example": "Daniel pointed out one important detail during the conversation.",
-        "contexts": [
-          {
-            "targetText": "Daniel pointed out one important detail during the conversation."
-          },
-          {
-            "targetText": "Sarah used “point out” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "come up with",
-        "translation": "proponer/idear",
-        "definition": "proponer/idear",
-        "example": "Sarah came up with a realistic solution.",
-        "contexts": [
-          {
-            "targetText": "Sarah came up with a realistic solution."
-          },
-          {
-            "targetText": "Sarah used “come up with” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrasal verb"
-      },
-      {
-        "word": "keep track of",
-        "translation": "llevar registro de",
-        "definition": "llevar registro de",
-        "example": "They kept track of their progress during the week.",
-        "contexts": [
-          {
-            "targetText": "They kept track of their progress during the week."
-          },
-          {
-            "targetText": "Sarah used “keep track of” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "on purpose",
-        "translation": "a proposito/con intencion",
-        "definition": "a proposito/con intencion",
-        "example": "They made the decision on purpose, not by accident.",
-        "contexts": [
-          {
-            "targetText": "They made the decision on purpose, not by accident."
-          },
-          {
-            "targetText": "Sarah used “on purpose” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      },
-      {
-        "word": "in the long run",
-        "translation": "a largo plazo",
-        "definition": "a largo plazo",
-        "example": "The change would help them in the long run.",
-        "contexts": [
-          {
-            "targetText": "The change would help them in the long run."
-          },
-          {
-            "targetText": "Sarah used “in the long run” while discussing learning and communication."
-          },
-          {
-            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
-          }
-        ],
-        "partOfSpeech": "phrase"
-      }
+    "grammar": "Goal: Use Question forms and indirect questions accurately while discussing learning and communication.\n\nRule: Direct questions use question word plus auxiliary plus subject: \"Where does the workshop start?\" Indirect questions are more polite and use statement order: \"Could you tell me where the workshop starts?\" Do not add do or does inside the indirect clause.\n\nPattern: Direct: question word + auxiliary + subject. Indirect: opening phrase + question word + subject + verb.\n\nExamples: does · starts · is\n\nCommon mistakes: Do not keep do/does/did or inverted word order inside an indirect question.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+    "phrases": [
+      "Question forms and indirect questions",
+      "Explain a study strategy that works for you.",
+      "Ask one polite indirect question."
     ],
+    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "english-b1-learning-and-communication-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Where ___ the workshop start?",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "does"
+              },
+              {
+                "id": "o2",
+                "text": "do"
+              },
+              {
+                "id": "o3",
+                "text": "is"
+              },
+              {
+                "id": "o4",
+                "text": "has"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Could you tell me where the workshop ___?",
+            "difficulty": "easy",
+            "options": [
+              {
+                "id": "o1",
+                "text": "does start"
+              },
+              {
+                "id": "o2",
+                "text": "starts"
+              },
+              {
+                "id": "o3",
+                "text": "start does"
+              },
+              {
+                "id": "o4",
+                "text": "is start"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Do you know what the deadline ___?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "is"
+              },
+              {
+                "id": "o2",
+                "text": "does it"
+              },
+              {
+                "id": "o3",
+                "text": "is it"
+              },
+              {
+                "id": "o4",
+                "text": "be"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Why ___ Sarah change her study strategy?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "did"
+              },
+              {
+                "id": "o2",
+                "text": "was"
+              },
+              {
+                "id": "o3",
+                "text": "does yesterday"
+              },
+              {
+                "id": "o4",
+                "text": "has to did"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Could you explain how this stage ___ to the deadline?",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "does connect"
+              },
+              {
+                "id": "o2",
+                "text": "connects"
+              },
+              {
+                "id": "o3",
+                "text": "connect"
+              },
+              {
+                "id": "o4",
+                "text": "is connect"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "I would like to know ___ the project will be assessed.",
+            "difficulty": "medium",
+            "options": [
+              {
+                "id": "o1",
+                "text": "how"
+              },
+              {
+                "id": "o2",
+                "text": "how will"
+              },
+              {
+                "id": "o3",
+                "text": "does how"
+              },
+              {
+                "id": "o4",
+                "text": "that how"
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Which question is more polite?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "What does this mean?"
+              },
+              {
+                "id": "o2",
+                "text": "Could you tell me what this means?"
+              },
+              {
+                "id": "o3",
+                "text": "Could you tell me what does this mean?"
+              },
+              {
+                "id": "o4",
+                "text": "Tell what means this."
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Choose the correct indirect question.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Do you know where is the room?"
+              },
+              {
+                "id": "o2",
+                "text": "Do you know where the room is?"
+              },
+              {
+                "id": "o3",
+                "text": "Do you know where does the room be?"
+              },
+              {
+                "id": "o4",
+                "text": "Do you know where the room does?"
+              }
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "prompt": "Where ___ the workshop start?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "does"
+              },
+              {
+                "id": "o2",
+                "text": "do"
+              },
+              {
+                "id": "o3",
+                "text": "is"
+              },
+              {
+                "id": "o4",
+                "text": "has"
+              }
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "mcq",
+            "prompt": "Could you tell me where the workshop ___?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "does start"
+              },
+              {
+                "id": "o2",
+                "text": "starts"
+              },
+              {
+                "id": "o3",
+                "text": "start does"
+              },
+              {
+                "id": "o4",
+                "text": "is start"
+              }
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "prompt": "Do you know what the deadline ___?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "is"
+              },
+              {
+                "id": "o2",
+                "text": "does it"
+              },
+              {
+                "id": "o3",
+                "text": "is it"
+              },
+              {
+                "id": "o4",
+                "text": "be"
+              }
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "mcq",
+            "prompt": "Why ___ Sarah change her study strategy?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "did"
+              },
+              {
+                "id": "o2",
+                "text": "was"
+              },
+              {
+                "id": "o3",
+                "text": "does yesterday"
+              },
+              {
+                "id": "o4",
+                "text": "has to did"
+              }
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "prompt": "Could you explain how this stage ___ to the deadline?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "does connect"
+              },
+              {
+                "id": "o2",
+                "text": "connects"
+              },
+              {
+                "id": "o3",
+                "text": "connect"
+              },
+              {
+                "id": "o4",
+                "text": "is connect"
+              }
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "mcq",
+            "prompt": "I would like to know ___ the project will be assessed.",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "how"
+              },
+              {
+                "id": "o2",
+                "text": "how will"
+              },
+              {
+                "id": "o3",
+                "text": "does how"
+              },
+              {
+                "id": "o4",
+                "text": "that how"
+              }
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "prompt": "Which question is more polite?",
+            "difficulty": "hard",
+            "options": [
+              {
+                "id": "o1",
+                "text": "What does this mean?"
+              },
+              {
+                "id": "o2",
+                "text": "Could you tell me what this means?"
+              },
+              {
+                "id": "o3",
+                "text": "Could you tell me what does this mean?"
+              },
+              {
+                "id": "o4",
+                "text": "Tell what means this."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Question forms and indirect questions",
+        "definition": "Use Question forms and indirect questions in a realistic B1 context.",
+        "structure": "Goal: Use Question forms and indirect questions accurately while discussing learning and communication.\n\nRule: Direct questions use question word plus auxiliary plus subject: \"Where does the workshop start?\" Indirect questions are more polite and use statement order: \"Could you tell me where the workshop starts?\" Do not add do or does inside the indirect clause.\n\nPattern: Direct: question word + auxiliary + subject. Indirect: opening phrase + question word + subject + verb.\n\nExamples: does · starts · is\n\nCommon mistakes: Do not keep do/does/did or inverted word order inside an indirect question.\n\nMini practice: Complete the eight guided items, review each explanation and then take the scored grammar test.",
+        "function": "Use Question forms and indirect questions to communicate clearly in practical B1 situations.",
+        "examples": [
+          "Question forms and indirect questions",
+          "Explain a study strategy that works for you.",
+          "Ask one polite indirect question."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What does “clarify” mean in this unit?",
+        "prompt": "Where ___ the workshop start?",
         "options": [
-          "aclarar",
-          "malentendido",
-          "estrategia",
-          "tomar apuntes"
+          "does",
+          "do",
+          "is",
+          "has"
         ],
-        "explanation": ""
+        "explanation": "A direct Present Simple question uses does before the subject."
       },
       {
         "type": "mcq",
-        "prompt": "What does “misunderstanding” mean in this unit?",
+        "prompt": "Could you tell me where the workshop ___?",
         "options": [
-          "estrategia",
-          "malentendido",
-          "tomar apuntes",
-          "descubrir/resolver"
+          "does start",
+          "starts",
+          "start does",
+          "is start"
         ],
-        "explanation": ""
+        "explanation": "Indirect questions use statement word order."
       },
       {
         "type": "mcq",
-        "prompt": "What does “strategy” mean in this unit?",
+        "prompt": "Do you know what the deadline ___?",
         "options": [
-          "tomar apuntes",
-          "descubrir/resolver",
-          "estrategia",
-          "expresarte"
+          "is",
+          "does it",
+          "is it",
+          "be"
         ],
-        "explanation": ""
+        "explanation": "The indirect clause uses subject + verb: the deadline is."
       },
       {
         "type": "mcq",
-        "prompt": "What does “take notes” mean in this unit?",
+        "prompt": "Why ___ Sarah change her study strategy?",
         "options": [
-          "descubrir/resolver",
-          "expresarte",
-          "manejar/lidiar con",
-          "tomar apuntes"
+          "did",
+          "was",
+          "does yesterday",
+          "has to did"
         ],
-        "explanation": ""
+        "explanation": "A direct Past Simple question uses did + base verb."
       },
       {
         "type": "mcq",
-        "prompt": "What does “figure out” mean in this unit?",
+        "prompt": "Could you explain how this stage ___ to the deadline?",
         "options": [
-          "descubrir/resolver",
-          "expresarte",
-          "manejar/lidiar con",
-          "senalar"
+          "does connect",
+          "connects",
+          "connect",
+          "is connect"
         ],
-        "explanation": ""
+        "explanation": "No do/does appears inside an indirect question."
       },
       {
         "type": "mcq",
-        "prompt": "What does “express yourself” mean in this unit?",
+        "prompt": "I would like to know ___ the project will be assessed.",
         "options": [
-          "manejar/lidiar con",
-          "expresarte",
-          "senalar",
-          "proponer/idear"
+          "how",
+          "how will",
+          "does how",
+          "that how"
         ],
-        "explanation": ""
+        "explanation": "Use a question word followed by statement order."
       },
       {
         "type": "mcq",
-        "prompt": "What does “deal with” mean in this unit?",
+        "prompt": "Which question is more polite?",
         "options": [
-          "senalar",
-          "proponer/idear",
-          "manejar/lidiar con",
-          "llevar registro de"
+          "What does this mean?",
+          "Could you tell me what this means?",
+          "Could you tell me what does this mean?",
+          "Tell what means this."
         ],
-        "explanation": ""
+        "explanation": "The indirect form is polite and keeps statement order."
       },
       {
         "type": "mcq",
-        "prompt": "What does “point out” mean in this unit?",
+        "prompt": "Choose the correct indirect question.",
         "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "senalar"
+          "Do you know where is the room?",
+          "Do you know where the room is?",
+          "Do you know where does the room be?",
+          "Do you know where the room does?"
         ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “come up with” mean in this unit?",
-        "options": [
-          "proponer/idear",
-          "llevar registro de",
-          "a proposito/con intencion",
-          "a largo plazo"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “keep track of” mean in this unit?",
-        "options": [
-          "a proposito/con intencion",
-          "llevar registro de",
-          "a largo plazo",
-          "aclarar"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “on purpose” mean in this unit?",
-        "options": [
-          "a largo plazo",
-          "aclarar",
-          "a proposito/con intencion",
-          "malentendido"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “in the long run” mean in this unit?",
-        "options": [
-          "aclarar",
-          "malentendido",
-          "estrategia",
-          "a largo plazo"
-        ],
-        "explanation": ""
+        "explanation": "Use where + subject + verb in the indirect clause."
       }
     ]
   },
@@ -80718,39 +80237,384 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "english-b1-learning-and-communication-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unitId": "learning-and-communication",
+    "title": "Vocabulary for Learning and Communication",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 30,
+    "orderIndex": 125,
+    "estimatedMinutes": 14,
+    "description": "Key B1 words and phrases for learning and communication.",
+    "intro": "Key B1 words and phrases for learning and communication.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "clarify",
+        "translation": "aclarar",
+        "definition": "aclarar",
+        "example": "Daniel asked the trainer to clarify the instructions.",
+        "contexts": [
+          {
+            "targetText": "Daniel asked the trainer to clarify the instructions."
+          },
+          {
+            "targetText": "Sarah used “clarify” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “clarify” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "misunderstanding",
+        "translation": "malentendido",
+        "definition": "malentendido",
+        "example": "A small misunderstanding delayed the task.",
+        "contexts": [
+          {
+            "targetText": "A small misunderstanding delayed the task."
+          },
+          {
+            "targetText": "Sarah used “misunderstanding” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “misunderstanding” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "strategy",
+        "translation": "estrategia",
+        "definition": "estrategia",
+        "example": "Sarah changed her study strategy.",
+        "contexts": [
+          {
+            "targetText": "Sarah changed her study strategy."
+          },
+          {
+            "targetText": "Sarah used “strategy” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “strategy” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "noun"
+      },
+      {
+        "word": "take notes",
+        "translation": "tomar apuntes",
+        "definition": "tomar apuntes",
+        "example": "She takes notes in her own words.",
+        "contexts": [
+          {
+            "targetText": "She takes notes in her own words."
+          },
+          {
+            "targetText": "Sarah used “take notes” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “take notes” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "figure out",
+        "translation": "descubrir/resolver",
+        "definition": "descubrir/resolver",
+        "example": "They figured out why the message was unclear.",
+        "contexts": [
+          {
+            "targetText": "They figured out why the message was unclear."
+          },
+          {
+            "targetText": "Sarah used “figure out” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “figure out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "express yourself",
+        "translation": "expresarte",
+        "definition": "expresarte",
+        "example": "Practice helps you express yourself with confidence.",
+        "contexts": [
+          {
+            "targetText": "Practice helps you express yourself with confidence."
+          },
+          {
+            "targetText": "Sarah used “express yourself” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “express yourself” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "deal with",
+        "translation": "manejar/lidiar con",
+        "definition": "manejar/lidiar con",
+        "example": "They learned to deal with learning and communication in a practical way.",
+        "contexts": [
+          {
+            "targetText": "They learned to deal with learning and communication in a practical way."
+          },
+          {
+            "targetText": "Sarah used “deal with” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “deal with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "point out",
+        "translation": "senalar",
+        "definition": "senalar",
+        "example": "Daniel pointed out one important detail during the conversation.",
+        "contexts": [
+          {
+            "targetText": "Daniel pointed out one important detail during the conversation."
+          },
+          {
+            "targetText": "Sarah used “point out” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “point out” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "come up with",
+        "translation": "proponer/idear",
+        "definition": "proponer/idear",
+        "example": "Sarah came up with a realistic solution.",
+        "contexts": [
+          {
+            "targetText": "Sarah came up with a realistic solution."
+          },
+          {
+            "targetText": "Sarah used “come up with” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “come up with” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrasal verb"
+      },
+      {
+        "word": "keep track of",
+        "translation": "llevar registro de",
+        "definition": "llevar registro de",
+        "example": "They kept track of their progress during the week.",
+        "contexts": [
+          {
+            "targetText": "They kept track of their progress during the week."
+          },
+          {
+            "targetText": "Sarah used “keep track of” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “keep track of” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "on purpose",
+        "translation": "a proposito/con intencion",
+        "definition": "a proposito/con intencion",
+        "example": "They made the decision on purpose, not by accident.",
+        "contexts": [
+          {
+            "targetText": "They made the decision on purpose, not by accident."
+          },
+          {
+            "targetText": "Sarah used “on purpose” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “on purpose” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      },
+      {
+        "word": "in the long run",
+        "translation": "a largo plazo",
+        "definition": "a largo plazo",
+        "example": "The change would help them in the long run.",
+        "contexts": [
+          {
+            "targetText": "The change would help them in the long run."
+          },
+          {
+            "targetText": "Sarah used “in the long run” while discussing learning and communication."
+          },
+          {
+            "targetText": "Daniel added “in the long run” to his vocabulary notebook and used it in a new sentence."
+          }
+        ],
+        "partOfSpeech": "phrase"
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does “clarify” mean in this unit?",
+        "options": [
+          "aclarar",
+          "malentendido",
+          "estrategia",
+          "tomar apuntes"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “misunderstanding” mean in this unit?",
+        "options": [
+          "estrategia",
+          "malentendido",
+          "tomar apuntes",
+          "descubrir/resolver"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “strategy” mean in this unit?",
+        "options": [
+          "tomar apuntes",
+          "descubrir/resolver",
+          "estrategia",
+          "expresarte"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “take notes” mean in this unit?",
+        "options": [
+          "descubrir/resolver",
+          "expresarte",
+          "manejar/lidiar con",
+          "tomar apuntes"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “figure out” mean in this unit?",
+        "options": [
+          "descubrir/resolver",
+          "expresarte",
+          "manejar/lidiar con",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “express yourself” mean in this unit?",
+        "options": [
+          "manejar/lidiar con",
+          "expresarte",
+          "senalar",
+          "proponer/idear"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “deal with” mean in this unit?",
+        "options": [
+          "senalar",
+          "proponer/idear",
+          "manejar/lidiar con",
+          "llevar registro de"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “point out” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "senalar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “come up with” mean in this unit?",
+        "options": [
+          "proponer/idear",
+          "llevar registro de",
+          "a proposito/con intencion",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “keep track of” mean in this unit?",
+        "options": [
+          "a proposito/con intencion",
+          "llevar registro de",
+          "a largo plazo",
+          "aclarar"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “on purpose” mean in this unit?",
+        "options": [
+          "a largo plazo",
+          "aclarar",
+          "a proposito/con intencion",
+          "malentendido"
+        ],
+        "explanation": ""
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does “in the long run” mean in this unit?",
+        "options": [
+          "aclarar",
+          "malentendido",
+          "estrategia",
+          "a largo plazo"
+        ],
+        "explanation": ""
+      }
+    ]
   }
 ];
 
   window.ANDERGO_LANGUAGE_WORLDS.units = window.ANDERGO_LANGUAGE_WORLDS.units || {};
   window.ANDERGO_LANGUAGE_WORLDS.units.english = [
-  {
-    "id": "new-challenges",
-    "slug": "new-challenges",
-    "level": "B1",
-    "title": "New Challenges",
-    "titleEs": "Nuevos retos",
-    "description": "Adjusting to bigger responsibilities at work and in daily life.",
-    "order": 1,
-    "unitOverview": {
-      "objective": "Describe changes, challenges and personal progress with clear B1 detail.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Present Perfect vs. Past Simple"
-      ],
-      "vocabulary": [
-        "take on",
-        "challenge",
-        "make progress",
-        "deadline"
-      ],
-      "scenario": "Sarah receives a new project at the design company while Daniel prepares for a professional English interview."
-    }
-  },
   {
     "id": "hello",
     "slug": "hello",
@@ -80895,15 +80759,15 @@
     }
   },
   {
-    "id": "work-and-ambition",
-    "slug": "work-and-ambition",
+    "id": "new-challenges",
+    "slug": "new-challenges",
     "level": "B1",
-    "title": "Work and Ambition",
-    "titleEs": "Trabajo y ambicion",
-    "description": "Talking about goals, choices and professional plans.",
-    "order": 2,
+    "title": "New Challenges",
+    "titleEs": "Nuevos retos",
+    "description": "Adjusting to bigger responsibilities at work and in daily life.",
+    "order": 1,
     "unitOverview": {
-      "objective": "Explain ambitions, compare options and justify career decisions.",
+      "objective": "Describe changes, challenges and personal progress with clear B1 detail.",
       "outcomes": [
         "understand a B1 narrative with connected paragraphs",
         "explain opinions and decisions with reasons",
@@ -80911,15 +80775,15 @@
         "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "Future forms: will, going to and Present Continuous"
+        "Present Perfect vs. Past Simple"
       ],
       "vocabulary": [
-        "ambition",
-        "promotion",
-        "apply for",
-        "arrange"
+        "take on",
+        "challenge",
+        "make progress",
+        "deadline"
       ],
-      "scenario": "Sarah considers applying for a promotion while Daniel waits for news after his interview."
+      "scenario": "Sarah receives a new project at the design company while Daniel prepares for a professional English interview."
     }
   },
   {
@@ -81047,15 +80911,15 @@
     }
   },
   {
-    "id": "community-life",
-    "slug": "community-life",
+    "id": "work-and-ambition",
+    "slug": "work-and-ambition",
     "level": "B1",
-    "title": "Community Life",
-    "titleEs": "Vida comunitaria",
-    "description": "Participating in local events and expressing opinions politely.",
-    "order": 3,
+    "title": "Work and Ambition",
+    "titleEs": "Trabajo y ambicion",
+    "description": "Talking about goals, choices and professional plans.",
+    "order": 2,
     "unitOverview": {
-      "objective": "Discuss community problems and suggest realistic solutions.",
+      "objective": "Explain ambitions, compare options and justify career decisions.",
       "outcomes": [
         "understand a B1 narrative with connected paragraphs",
         "explain opinions and decisions with reasons",
@@ -81063,15 +80927,15 @@
         "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "Modals for advice, obligation and possibility"
+        "Future forms: will, going to and Present Continuous"
       ],
       "vocabulary": [
-        "neighbourhood",
-        "resident",
-        "volunteer",
-        "proposal"
+        "ambition",
+        "promotion",
+        "apply for",
+        "arrange"
       ],
-      "scenario": "Sarah and Daniel attend a neighbourhood meeting about improving a small public park."
+      "scenario": "Sarah considers applying for a promotion while Daniel waits for news after his interview."
     }
   },
   {
@@ -81199,15 +81063,15 @@
     }
   },
   {
-    "id": "travel-with-purpose",
-    "slug": "travel-with-purpose",
+    "id": "community-life",
+    "slug": "community-life",
     "level": "B1",
-    "title": "Travel with Purpose",
-    "titleEs": "Viajar con proposito",
-    "description": "Planning meaningful trips and dealing with unexpected changes.",
-    "order": 4,
+    "title": "Community Life",
+    "titleEs": "Vida comunitaria",
+    "description": "Participating in local events and expressing opinions politely.",
+    "order": 3,
     "unitOverview": {
-      "objective": "Narrate travel experiences and respond to problems while travelling.",
+      "objective": "Discuss community problems and suggest realistic solutions.",
       "outcomes": [
         "understand a B1 narrative with connected paragraphs",
         "explain opinions and decisions with reasons",
@@ -81215,15 +81079,15 @@
         "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "Past Continuous and Past Simple"
+        "Modals for advice, obligation and possibility"
       ],
       "vocabulary": [
-        "itinerary",
-        "delay",
-        "announcement",
-        "get lost"
+        "neighbourhood",
+        "resident",
+        "volunteer",
+        "proposal"
       ],
-      "scenario": "Sarah and Daniel take a weekend trip to York and learn to adapt when plans change."
+      "scenario": "Sarah and Daniel attend a neighbourhood meeting about improving a small public park."
     }
   },
   {
@@ -81351,15 +81215,15 @@
     }
   },
   {
-    "id": "health-and-balance",
-    "slug": "health-and-balance",
+    "id": "travel-with-purpose",
+    "slug": "travel-with-purpose",
     "level": "B1",
-    "title": "Health and Balance",
-    "titleEs": "Salud y equilibrio",
-    "description": "Talking about stress, habits and realistic self-care.",
-    "order": 5,
+    "title": "Travel with Purpose",
+    "titleEs": "Viajar con proposito",
+    "description": "Planning meaningful trips and dealing with unexpected changes.",
+    "order": 4,
     "unitOverview": {
-      "objective": "Explain habits, give advice and discuss stress in a balanced way.",
+      "objective": "Narrate travel experiences and respond to problems while travelling.",
       "outcomes": [
         "understand a B1 narrative with connected paragraphs",
         "explain opinions and decisions with reasons",
@@ -81367,15 +81231,15 @@
         "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "Gerunds and infinitives"
+        "Past Continuous and Past Simple"
       ],
       "vocabulary": [
-        "balance",
-        "stressful",
-        "routine",
-        "avoid"
+        "itinerary",
+        "delay",
+        "announcement",
+        "get lost"
       ],
-      "scenario": "After several busy weeks, Sarah and Daniel rethink their routines and boundaries."
+      "scenario": "Sarah and Daniel take a weekend trip to York and learn to adapt when plans change."
     }
   },
   {
@@ -81502,15 +81366,15 @@
     }
   },
   {
-    "id": "money-and-choices",
-    "slug": "money-and-choices",
+    "id": "health-and-balance",
+    "slug": "health-and-balance",
     "level": "B1",
-    "title": "Money and Choices",
-    "titleEs": "Dinero y decisiones",
-    "description": "Discussing budgets, priorities and financial decisions.",
-    "order": 6,
+    "title": "Health and Balance",
+    "titleEs": "Salud y equilibrio",
+    "description": "Talking about stress, habits and realistic self-care.",
+    "order": 5,
     "unitOverview": {
-      "objective": "Compare financial options and explain personal priorities.",
+      "objective": "Explain habits, give advice and discuss stress in a balanced way.",
       "outcomes": [
         "understand a B1 narrative with connected paragraphs",
         "explain opinions and decisions with reasons",
@@ -81518,15 +81382,15 @@
         "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "First conditional"
+        "Gerunds and infinitives"
       ],
       "vocabulary": [
-        "budget",
-        "save up",
-        "afford",
-        "priority"
+        "balance",
+        "stressful",
+        "routine",
+        "avoid"
       ],
-      "scenario": "Sarah wants to take a professional course, but she and Daniel need to review their budget first."
+      "scenario": "After several busy weeks, Sarah and Daniel rethink their routines and boundaries."
     }
   },
   {
@@ -81653,15 +81517,15 @@
     }
   },
   {
-    "id": "digital-life",
-    "slug": "digital-life",
+    "id": "money-and-choices",
+    "slug": "money-and-choices",
     "level": "B1",
-    "title": "Digital Life",
-    "titleEs": "Vida digital",
-    "description": "Using technology responsibly and talking about online habits.",
-    "order": 7,
+    "title": "Money and Choices",
+    "titleEs": "Dinero y decisiones",
+    "description": "Discussing budgets, priorities and financial decisions.",
+    "order": 6,
     "unitOverview": {
-      "objective": "Discuss online behaviour, advantages and disadvantages of technology.",
+      "objective": "Compare financial options and explain personal priorities.",
       "outcomes": [
         "understand a B1 narrative with connected paragraphs",
         "explain opinions and decisions with reasons",
@@ -81669,15 +81533,15 @@
         "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "Relative clauses"
+        "First conditional"
       ],
       "vocabulary": [
-        "screen time",
-        "notification",
-        "privacy",
-        "device"
+        "budget",
+        "save up",
+        "afford",
+        "priority"
       ],
-      "scenario": "A phone notification during dinner starts a conversation about online habits."
+      "scenario": "Sarah wants to take a professional course, but she and Daniel need to review their budget first."
     }
   },
   {
@@ -81805,15 +81669,15 @@
     }
   },
   {
-    "id": "culture-and-media",
-    "slug": "culture-and-media",
+    "id": "digital-life",
+    "slug": "digital-life",
     "level": "B1",
-    "title": "Culture and Media",
-    "titleEs": "Cultura y medios",
-    "description": "Talking about films, books, reviews and cultural opinions.",
-    "order": 8,
+    "title": "Digital Life",
+    "titleEs": "Vida digital",
+    "description": "Using technology responsibly and talking about online habits.",
+    "order": 7,
     "unitOverview": {
-      "objective": "Express opinions about media and support them with examples.",
+      "objective": "Discuss online behaviour, advantages and disadvantages of technology.",
       "outcomes": [
         "understand a B1 narrative with connected paragraphs",
         "explain opinions and decisions with reasons",
@@ -81821,15 +81685,15 @@
         "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "Comparatives and superlatives with modifiers"
+        "Relative clauses"
       ],
       "vocabulary": [
-        "review",
-        "plot",
-        "character",
-        "moving"
+        "screen time",
+        "notification",
+        "privacy",
+        "device"
       ],
-      "scenario": "Sarah and Daniel join a small film club and learn to explain their opinions more clearly."
+      "scenario": "A phone notification during dinner starts a conversation about online habits."
     }
   },
   {
@@ -81957,15 +81821,15 @@
     }
   },
   {
-    "id": "relationships-and-decisions",
-    "slug": "relationships-and-decisions",
+    "id": "culture-and-media",
+    "slug": "culture-and-media",
     "level": "B1",
-    "title": "Relationships and Decisions",
-    "titleEs": "Relaciones y decisiones",
-    "description": "Discussing personal decisions, compromise and communication.",
-    "order": 9,
+    "title": "Culture and Media",
+    "titleEs": "Cultura y medios",
+    "description": "Talking about films, books, reviews and cultural opinions.",
+    "order": 8,
     "unitOverview": {
-      "objective": "Talk about disagreement, compromise and shared plans.",
+      "objective": "Express opinions about media and support them with examples.",
       "outcomes": [
         "understand a B1 narrative with connected paragraphs",
         "explain opinions and decisions with reasons",
@@ -81973,15 +81837,15 @@
         "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "Second conditional"
+        "Comparatives and superlatives with modifiers"
       ],
       "vocabulary": [
-        "compromise",
-        "point of view",
-        "disagree",
-        "imagine"
+        "review",
+        "plot",
+        "character",
+        "moving"
       ],
-      "scenario": "A job possibility in another city makes Sarah and Daniel discuss the future seriously."
+      "scenario": "Sarah and Daniel join a small film club and learn to explain their opinions more clearly."
     }
   },
   {
@@ -82108,15 +81972,15 @@
     }
   },
   {
-    "id": "looking-ahead",
-    "slug": "looking-ahead",
+    "id": "relationships-and-decisions",
+    "slug": "relationships-and-decisions",
     "level": "B1",
-    "title": "Looking Ahead",
-    "titleEs": "Mirando hacia adelante",
-    "description": "Reflecting on progress and making realistic future plans.",
-    "order": 10,
+    "title": "Relationships and Decisions",
+    "titleEs": "Relaciones y decisiones",
+    "description": "Discussing personal decisions, compromise and communication.",
+    "order": 9,
     "unitOverview": {
-      "objective": "Summarise progress, describe lessons learned and set future goals.",
+      "objective": "Talk about disagreement, compromise and shared plans.",
       "outcomes": [
         "understand a B1 narrative with connected paragraphs",
         "explain opinions and decisions with reasons",
@@ -82124,15 +81988,15 @@
         "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "Reported speech"
+        "Second conditional"
       ],
       "vocabulary": [
-        "reflect on",
-        "achievement",
-        "set a goal",
-        "advice"
+        "compromise",
+        "point of view",
+        "disagree",
+        "imagine"
       ],
-      "scenario": "Sarah and Daniel look back on a year of changes and decide what they want next."
+      "scenario": "A job possibility in another city makes Sarah and Daniel discuss the future seriously."
     }
   },
   {
@@ -82259,15 +82123,15 @@
     }
   },
   {
-    "id": "sustainable-futures",
-    "slug": "sustainable-futures",
+    "id": "looking-ahead",
+    "slug": "looking-ahead",
     "level": "B1",
-    "title": "Sustainable Futures",
-    "titleEs": "Futuros sostenibles",
-    "description": "Discussing environmental choices and practical community action.",
-    "order": 11,
+    "title": "Looking Ahead",
+    "titleEs": "Mirando hacia adelante",
+    "description": "Reflecting on progress and making realistic future plans.",
+    "order": 10,
     "unitOverview": {
-      "objective": "Explain environmental problems, their causes and realistic solutions.",
+      "objective": "Summarise progress, describe lessons learned and set future goals.",
       "outcomes": [
         "understand a B1 narrative with connected paragraphs",
         "explain opinions and decisions with reasons",
@@ -82275,15 +82139,15 @@
         "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "Passive voice in the present and past"
+        "Reported speech"
       ],
       "vocabulary": [
-        "sustainable",
-        "waste",
-        "recycle",
-        "renewable"
+        "reflect on",
+        "achievement",
+        "set a goal",
+        "advice"
       ],
-      "scenario": "Sarah and Daniel join a neighbourhood project that reduces waste and improves a shared garden."
+      "scenario": "Sarah and Daniel look back on a year of changes and decide what they want next."
     }
   },
   {
@@ -82383,15 +82247,15 @@
     }
   },
   {
-    "id": "learning-and-communication",
-    "slug": "learning-and-communication",
+    "id": "sustainable-futures",
+    "slug": "sustainable-futures",
     "level": "B1",
-    "title": "Learning and Communication",
-    "titleEs": "Aprendizaje y comunicación",
-    "description": "Developing study strategies and communicating clearly across cultures.",
-    "order": 12,
+    "title": "Sustainable Futures",
+    "titleEs": "Futuros sostenibles",
+    "description": "Discussing environmental choices and practical community action.",
+    "order": 11,
     "unitOverview": {
-      "objective": "Explain learning strategies, communication problems and ways to improve.",
+      "objective": "Explain environmental problems, their causes and realistic solutions.",
       "outcomes": [
         "understand a B1 narrative with connected paragraphs",
         "explain opinions and decisions with reasons",
@@ -82399,15 +82263,15 @@
         "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "Question forms and indirect questions"
+        "Passive voice in the present and past"
       ],
       "vocabulary": [
-        "clarify",
-        "misunderstanding",
-        "strategy",
-        "take notes"
+        "sustainable",
+        "waste",
+        "recycle",
+        "renewable"
       ],
-      "scenario": "Sarah begins a professional course while Daniel helps international guests understand local information."
+      "scenario": "Sarah and Daniel join a neighbourhood project that reduces waste and improves a shared garden."
     }
   },
   {
@@ -82504,6 +82368,34 @@
         "data provenance"
       ],
       "scenario": "A Fluent Answer Is Not Always a Reliable Teacher"
+    }
+  },
+  {
+    "id": "learning-and-communication",
+    "slug": "learning-and-communication",
+    "level": "B1",
+    "title": "Learning and Communication",
+    "titleEs": "Aprendizaje y comunicación",
+    "description": "Developing study strategies and communicating clearly across cultures.",
+    "order": 12,
+    "unitOverview": {
+      "objective": "Explain learning strategies, communication problems and ways to improve.",
+      "outcomes": [
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
+      ],
+      "grammar": [
+        "Question forms and indirect questions"
+      ],
+      "vocabulary": [
+        "clarify",
+        "misunderstanding",
+        "strategy",
+        "take notes"
+      ],
+      "scenario": "Sarah begins a professional course while Daniel helps international guests understand local information."
     }
   }
 ];

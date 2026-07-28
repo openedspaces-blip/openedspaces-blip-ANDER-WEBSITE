@@ -1818,6 +1818,68 @@ const units = [
   }
 ];
 
+// Phase 1 social-reading refresh: B2 readers weigh evidence, interests and
+// consequences. The existing grammar, speaking and writing activities stay
+// connected to their original unit themes.
+const SOCIAL_READINGS_B2 = {
+  'retour-a-saint-domingue': ['Revenir, mais trouver une ville plus chère', 'des habitants qui rentrent dans leur quartier', 'le coût de la vie et du logement', 'la croissance crée des possibilités', 'elle peut aussi éloigner les familles des centres-villes', 'une réunion sur des logements abordables'],
+  'candidature-universitaire': ['L’université pour qui ?', 'des candidats à l’enseignement supérieur', 'les écarts d’information et de préparation', 'la sélection récompense le mérite', 'le mérite dépend aussi de l’accès aux conseils et aux ressources', 'un programme de tutorat gratuit'],
+  'debats-de-societe': ['Une vidéo truquée, un débat réel', 'des citoyens qui suivent une campagne locale', 'les images générées et la désinformation', 'supprimer vite les contenus suffit à protéger le public', 'la transparence, les médias et l’éducation sont aussi nécessaires', 'un atelier de vérification des images'],
+  'le-teletravail-et-lavenir-professionnel': ['Travailler à distance, travailler ensemble', 'des salariés et des responsables', 'l’organisation du travail hybride', 'le télétravail améliore toujours la liberté', 'il peut isoler certaines personnes et déplacer des coûts', 'un accord d’équipe avec des jours communs'],
+  'litterature-francophone': ['Qui raconte l’histoire commune ?', 'des lecteurs de plusieurs pays francophones', 'la place des voix longtemps peu publiées', 'un seul récit national doit guider les programmes', 'des récits variés permettent de mieux comprendre une société', 'une sélection collective de textes'],
+  'cinema-et-critique': ['Le cinéma local peut-il rester accessible ?', 'des spectateurs et des salles indépendantes', 'le prix des billets et la diversité des films', 'les succès commerciaux financent les salles', 'une programmation diverse doit aussi trouver son public', 'des séances à tarif réduit et des débats'],
+  'dilemmes-ethiques': ['Une IA décide-t-elle trop vite ?', 'des usagers d’un service public', 'l’utilisation d’algorithmes pour orienter des dossiers', 'l’automatisation rend toujours les décisions plus justes', 'une décision importante doit pouvoir être expliquée et contestée', 'un contrôle humain et un droit de recours'],
+  'sciences-et-innovations': ['Innover sans oublier les conséquences', 'des chercheurs, des patients et des associations', 'le partage des bénéfices d’une innovation médicale', 'aller vite est la priorité absolue', 'la sécurité, le prix et l’accès comptent aussi', 'un débat public avant le déploiement'],
+  'histoire-et-memoire': ['Mémoire, monument et espace public', 'des habitants autour d’un ancien monument', 'la manière de raconter un passé difficile', 'retirer un symbole efface l’histoire', 'le contexte et les voix concernées doivent être entendus', 'une exposition avec des témoignages'],
+  'ecologie-et-engagement-citoyen': ['S’adapter à la chaleur en ville', 'des habitants de quartiers très minéraux', 'les épisodes de chaleur et le manque d’ombre', 'les comportements individuels suffisent', 'l’aménagement urbain et les services publics sont décisifs', 'des arbres, des fontaines et des lieux frais'],
+  'art-et-creativite': ['Créer dans une ville qui se transforme', 'des artistes et des riverains', 'la disparition d’ateliers abordables', 'les nouveaux projets rendent toujours les quartiers plus vivants', 'la création a besoin d’espaces accessibles et durables', 'un lieu partagé pour les artistes'],
+  'bilan-et-projets-davenir': ['Imaginer 2030 sans promettre l’impossible', 'des jeunes qui préparent un projet collectif', 'choisir des priorités pour leur territoire', 'la technologie résoudra tous les problèmes seule', 'les décisions doivent associer des habitants et des institutions', 'un plan local révisable chaque année']
+};
+
+function socialB2Exercises(title, group, issue, firstView, secondView, action) {
+  const q = (prompt, options, answer) => ({ type: 'mcq', prompt, options, answer });
+  return [
+    q(`Quelle question organise « ${title} » ?`, [issue, 'Une aventure fictive', 'Un souvenir personnel sans enjeu', 'Une consigne grammaticale'], 0),
+    q('Quel passage montre une recherche de preuves variées ?', ['Le groupe retient une seule opinion.', 'Il réunit données, presse, témoignage et compte rendu associatif.', 'Les participants refusent les documents publics.', 'La décision précède toute enquête.'], 1),
+    q('Que peut-on inférer du désaccord sur la manière d’agir ?', ['Les participants refusent toute action.', 'Une solution parfaite existe déjà.', 'Les priorités changent selon les conséquences vécues.', 'Seuls les experts ont une opinion.'], 2),
+    q('Quel enchaînement résume correctement la démarche ?', ['Décision, collecte, débat, problème', 'Annonce, succès, abandon, enquête', 'Solution, témoignages, première question, données', 'Sources, arguments, risques, expérimentation, évaluation'], 3),
+    q('Quelle limite du premier argument est mise en évidence ?', [secondView, 'Il utilise trop de dates.', 'Il ne contient aucun verbe.', 'Il traite uniquement de loisirs.'], 0),
+    q('Quelle proposition distingue correctement fait et interprétation ?', ['Un témoignage prouve toujours une tendance.', 'Un chiffre exact peut ne pas raconter toute la situation.', 'Toutes les sources répondent nécessairement à la même question.', 'Une opinion majoritaire devient automatiquement un fait.'], 1),
+    q('Quelle décision est la plus cohérente avec le dossier ?', ['Appliquer définitivement la première idée.', 'Écarter les personnes les plus exposées.', `Tester ${action} avec des critères publics et un droit de correction.`, 'Reporter tout choix sans calendrier.'], 2),
+    q('Quelle question permettrait d’évaluer réellement l’impact ?', ['Qui a prononcé le discours le plus long ?', 'Quel participant parle le plus vite ?', 'Combien de slogans ont été publiés ?', 'Qui bénéficie du dispositif et qui reste à l’écart ?'], 3)
+  ];
+}
+
+function applySocialReadingsB2() {
+  units.forEach((unit) => {
+    const topic = SOCIAL_READINGS_B2[unit.slug];
+    if (!topic) return;
+    const [title, group, issue, firstView, secondView, action] = topic;
+    const reading = unit.activities.reading;
+    reading.title = title;
+    reading.description = `Un dossier B2 sur ${issue}.`;
+    reading.reading = {
+      title,
+      parts: [
+        `Dans un débat local, ${group} examinent ${issue}. Le sujet concerne des expériences concrètes, mais aussi des choix collectifs.`,
+        `Une première position affirme que ${firstView}. Ses défenseurs s’appuient sur des exemples et sur des conséquences immédiates.`,
+        `Une autre position répond que ${secondView}. Elle ne nie pas entièrement le premier argument, mais elle interroge les coûts, les inégalités et les effets à long terme.`,
+        `Pour préparer la discussion, plusieurs participants ont réuni des documents de nature différente : un article de presse, des données publiques, un témoignage et le compte rendu d’une association. Ils constatent rapidement que ces sources ne répondent pas toutes à la même question. Certaines décrivent une situation, tandis que d’autres défendent déjà une solution.`,
+        `Le débat porte alors moins sur le simple fait d’agir que sur la manière d’agir. Faut-il privilégier une mesure rapide, même imparfaite, ou attendre une décision plus complète ? Les personnes concernées ne vivent pas toutes les conséquences de la même façon, ce qui explique la diversité des priorités exprimées.`,
+        `Une participante souligne qu’un chiffre peut être exact sans raconter toute l’histoire. Un autre rappelle qu’un témoignage personnel ne suffit pas toujours à prouver une tendance générale. Le groupe s’efforce donc de rapprocher les données et les expériences, sans opposer automatiquement l’expertise à la parole des habitants.`,
+        `La question de la responsabilité apparaît également. Les institutions disposent de moyens et doivent rendre des comptes, mais les entreprises, les associations et les citoyens peuvent aussi influer sur la situation. Cette répartition ne signifie pas que chacun porte la même charge : elle oblige au contraire à préciser qui peut décider, financer ou contrôler.`,
+        `Les participants envisagent plusieurs risques. Une mesure trop limitée pourrait donner l’impression d’agir sans modifier les causes du problème. Une mesure trop ambitieuse pourrait exclure les personnes qu’elle prétend aider. Pour cette raison, ils demandent des critères publics, un calendrier et la possibilité de corriger le projet.`,
+        `Au fil de l’échange, les désaccords deviennent plus précis. Au lieu de dire simplement « pour » ou « contre », les intervenants expliquent dans quelles conditions ils accepteraient une proposition. Cette nuance permet de dégager des points communs, notamment la nécessité de protéger les personnes les plus exposées.`,
+        `Enfin, la présidente de séance propose de mesurer les effets de la décision au-delà des annonces initiales. Il faudra observer qui utilise réellement le dispositif, qui reste à l’écart et si les résultats annoncés correspondent aux expériences vécues. Une politique crédible, conclut-elle, doit pouvoir rendre compte de ses limites autant que de ses réussites.`,
+        `Le groupe ne cherche pas une formule simple. Il propose ${action}, puis prévoit d’évaluer le résultat avec les personnes concernées. Le texte invite ainsi à distinguer une opinion, un fait, un intérêt particulier et une solution à tester.`
+      ],
+      questions: ['Quel enjeu collectif est présenté ?', 'Comment les deux positions se distinguent-elles ?', 'Quelle solution est proposée ?']
+    };
+    reading.exercises = socialB2Exercises(title, group, issue, firstView, secondView, action);
+  });
+}
+
+applySocialReadingsB2();
 require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'B2');
 require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(units, {
   language: 'french',

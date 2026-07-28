@@ -1,341 +1,5 @@
 [
   {
-    "slug": "new-challenges",
-    "target_language": "english",
-    "level": "B1",
-    "title": "New Challenges",
-    "title_es": "Nuevos retos",
-    "description": "Adjusting to bigger responsibilities at work and in daily life.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Describe changes, challenges and personal progress with clear B1 detail.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Present Perfect vs. Past Simple"
-      ],
-      "vocabulary": [
-        "take on",
-        "challenge",
-        "make progress",
-        "deadline"
-      ],
-      "scenario": "Sarah receives a new project at the design company while Daniel prepares for a professional English interview."
-    }
-  },
-  {
-    "slug": "work-and-ambition",
-    "target_language": "english",
-    "level": "B1",
-    "title": "Work and Ambition",
-    "title_es": "Trabajo y ambicion",
-    "description": "Talking about goals, choices and professional plans.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Explain ambitions, compare options and justify career decisions.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Future forms: will, going to and Present Continuous"
-      ],
-      "vocabulary": [
-        "ambition",
-        "promotion",
-        "apply for",
-        "arrange"
-      ],
-      "scenario": "Sarah considers applying for a promotion while Daniel waits for news after his interview."
-    }
-  },
-  {
-    "slug": "community-life",
-    "target_language": "english",
-    "level": "B1",
-    "title": "Community Life",
-    "title_es": "Vida comunitaria",
-    "description": "Participating in local events and expressing opinions politely.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Discuss community problems and suggest realistic solutions.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Modals for advice, obligation and possibility"
-      ],
-      "vocabulary": [
-        "neighbourhood",
-        "resident",
-        "volunteer",
-        "proposal"
-      ],
-      "scenario": "Sarah and Daniel attend a neighbourhood meeting about improving a small public park."
-    }
-  },
-  {
-    "slug": "travel-with-purpose",
-    "target_language": "english",
-    "level": "B1",
-    "title": "Travel with Purpose",
-    "title_es": "Viajar con proposito",
-    "description": "Planning meaningful trips and dealing with unexpected changes.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Narrate travel experiences and respond to problems while travelling.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Past Continuous and Past Simple"
-      ],
-      "vocabulary": [
-        "itinerary",
-        "delay",
-        "announcement",
-        "get lost"
-      ],
-      "scenario": "Sarah and Daniel take a weekend trip to York and learn to adapt when plans change."
-    }
-  },
-  {
-    "slug": "health-and-balance",
-    "target_language": "english",
-    "level": "B1",
-    "title": "Health and Balance",
-    "title_es": "Salud y equilibrio",
-    "description": "Talking about stress, habits and realistic self-care.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Explain habits, give advice and discuss stress in a balanced way.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Gerunds and infinitives"
-      ],
-      "vocabulary": [
-        "balance",
-        "stressful",
-        "routine",
-        "avoid"
-      ],
-      "scenario": "After several busy weeks, Sarah and Daniel rethink their routines and boundaries."
-    }
-  },
-  {
-    "slug": "money-and-choices",
-    "target_language": "english",
-    "level": "B1",
-    "title": "Money and Choices",
-    "title_es": "Dinero y decisiones",
-    "description": "Discussing budgets, priorities and financial decisions.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Compare financial options and explain personal priorities.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "First conditional"
-      ],
-      "vocabulary": [
-        "budget",
-        "save up",
-        "afford",
-        "priority"
-      ],
-      "scenario": "Sarah wants to take a professional course, but she and Daniel need to review their budget first."
-    }
-  },
-  {
-    "slug": "digital-life",
-    "target_language": "english",
-    "level": "B1",
-    "title": "Digital Life",
-    "title_es": "Vida digital",
-    "description": "Using technology responsibly and talking about online habits.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Discuss online behaviour, advantages and disadvantages of technology.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Relative clauses"
-      ],
-      "vocabulary": [
-        "screen time",
-        "notification",
-        "privacy",
-        "device"
-      ],
-      "scenario": "A phone notification during dinner starts a conversation about online habits."
-    }
-  },
-  {
-    "slug": "culture-and-media",
-    "target_language": "english",
-    "level": "B1",
-    "title": "Culture and Media",
-    "title_es": "Cultura y medios",
-    "description": "Talking about films, books, reviews and cultural opinions.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Express opinions about media and support them with examples.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Comparatives and superlatives with modifiers"
-      ],
-      "vocabulary": [
-        "review",
-        "plot",
-        "character",
-        "moving"
-      ],
-      "scenario": "Sarah and Daniel join a small film club and learn to explain their opinions more clearly."
-    }
-  },
-  {
-    "slug": "relationships-and-decisions",
-    "target_language": "english",
-    "level": "B1",
-    "title": "Relationships and Decisions",
-    "title_es": "Relaciones y decisiones",
-    "description": "Discussing personal decisions, compromise and communication.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Talk about disagreement, compromise and shared plans.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Second conditional"
-      ],
-      "vocabulary": [
-        "compromise",
-        "point of view",
-        "disagree",
-        "imagine"
-      ],
-      "scenario": "A job possibility in another city makes Sarah and Daniel discuss the future seriously."
-    }
-  },
-  {
-    "slug": "looking-ahead",
-    "target_language": "english",
-    "level": "B1",
-    "title": "Looking Ahead",
-    "title_es": "Mirando hacia adelante",
-    "description": "Reflecting on progress and making realistic future plans.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Summarise progress, describe lessons learned and set future goals.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Reported speech"
-      ],
-      "vocabulary": [
-        "reflect on",
-        "achievement",
-        "set a goal",
-        "advice"
-      ],
-      "scenario": "Sarah and Daniel look back on a year of changes and decide what they want next."
-    }
-  },
-  {
-    "slug": "sustainable-futures",
-    "target_language": "english",
-    "level": "B1",
-    "title": "Sustainable Futures",
-    "title_es": "Futuros sostenibles",
-    "description": "Discussing environmental choices and practical community action.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Explain environmental problems, their causes and realistic solutions.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Passive voice in the present and past"
-      ],
-      "vocabulary": [
-        "sustainable",
-        "waste",
-        "recycle",
-        "renewable"
-      ],
-      "scenario": "Sarah and Daniel join a neighbourhood project that reduces waste and improves a shared garden."
-    }
-  },
-  {
-    "slug": "learning-and-communication",
-    "target_language": "english",
-    "level": "B1",
-    "title": "Learning and Communication",
-    "title_es": "Aprendizaje y comunicación",
-    "description": "Developing study strategies and communicating clearly across cultures.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Explain learning strategies, communication problems and ways to improve.",
-      "outcomes": [
-        "understand a B1 narrative with connected paragraphs",
-        "explain opinions and decisions with reasons",
-        "use the target grammar in realistic contexts",
-        "reuse key vocabulary in speaking and writing"
-      ],
-      "grammar": [
-        "Question forms and indirect questions"
-      ],
-      "vocabulary": [
-        "clarify",
-        "misunderstanding",
-        "strategy",
-        "take notes"
-      ],
-      "scenario": "Sarah begins a professional course while Daniel helps international guests understand local information."
-    }
-  },
-  {
     "slug": "hello",
     "target_language": "english",
     "level": "A1",
@@ -474,6 +138,1474 @@
     "description": "Weather expressions, seasons, and travel plans.",
     "order_index": 12,
     "unit_overview": null
+  },
+  {
+    "slug": "social-media-public-opinion",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Social Media and Public Opinion",
+    "title_es": "Social Media and Public Opinion",
+    "description": "Sarah investigates why a misleading local story spread faster than its correction.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Evaluate arguments about social media and public opinion.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Passive reporting structures"
+      ],
+      "vocabulary": [
+        "viral",
+        "misleading",
+        "echo chamber",
+        "fact-check"
+      ],
+      "scenario": "Sarah investigates why a misleading local story spread faster than its correction."
+    }
+  },
+  {
+    "slug": "plastic-pollution-cities",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Plastic Pollution in Our Cities",
+    "title_es": "Plastic Pollution in Our Cities",
+    "description": "Daniel joins a clean-up and discovers why collecting rubbish cannot solve plastic pollution alone.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Evaluate arguments about plastic pollution in our cities.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Causative and passive forms"
+      ],
+      "vocabulary": [
+        "single-use",
+        "waste stream",
+        "microplastic",
+        "reusable"
+      ],
+      "scenario": "Daniel joins a clean-up and discovers why collecting rubbish cannot solve plastic pollution alone."
+    }
+  },
+  {
+    "slug": "climate-change-daily-decisions",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Climate Change and Everyday Decisions",
+    "title_es": "Climate Change and Everyday Decisions",
+    "description": "Sarah compares personal climate choices with decisions made by companies and governments.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Evaluate arguments about climate change and everyday decisions.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Mixed conditionals"
+      ],
+      "vocabulary": [
+        "carbon footprint",
+        "emissions",
+        "renewable",
+        "adaptation"
+      ],
+      "scenario": "Sarah compares personal climate choices with decisions made by companies and governments."
+    }
+  },
+  {
+    "slug": "corruption-public-trust",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Corruption and Public Trust in Latin America and the Caribbean",
+    "title_es": "Corruption and Public Trust in Latin America and the Caribbean",
+    "description": "Daniel follows a cross-border investigation into public contracts in several Latin American and Caribbean communities.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Evaluate arguments about corruption and public trust in latin america and the caribbean.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Modals of deduction in the past"
+      ],
+      "vocabulary": [
+        "clientelism",
+        "bribery",
+        "conflict of interest",
+        "public procurement"
+      ],
+      "scenario": "Daniel follows a cross-border investigation into public contracts in several Latin American and Caribbean communities."
+    }
+  },
+  {
+    "slug": "fourth-of-july",
+    "target_language": "english",
+    "level": "B2",
+    "title": "The Fourth of July: Freedom and Contradictions",
+    "title_es": "The Fourth of July: Freedom and Contradictions",
+    "description": "Sarah and Daniel spend July 4th with American friends and discuss how national celebrations hold pride and criticism together.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Evaluate arguments about the fourth of july: freedom and contradictions.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Participle clauses"
+      ],
+      "vocabulary": [
+        "independence",
+        "founding document",
+        "civil rights",
+        "patriotism"
+      ],
+      "scenario": "Sarah and Daniel spend July 4th with American friends and discuss how national celebrations hold pride and criticism together."
+    }
+  },
+  {
+    "slug": "migration-cultural-identity",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Migration and Cultural Identity",
+    "title_es": "Migration and Cultural Identity",
+    "description": "A neighbour asks Daniel where he is really from, beginning a difficult but generous conversation.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Evaluate arguments about migration and cultural identity.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Advanced relative clauses"
+      ],
+      "vocabulary": [
+        "belonging",
+        "heritage",
+        "integration",
+        "assimilation"
+      ],
+      "scenario": "A neighbour asks Daniel where he is really from, beginning a difficult but generous conversation."
+    }
+  },
+  {
+    "slug": "housing-inequality",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Housing Inequality",
+    "title_es": "Housing Inequality",
+    "description": "Sarah helps a colleague understand why wages have not kept pace with local rents.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Evaluate arguments about housing inequality.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Comparatives with modifiers"
+      ],
+      "vocabulary": [
+        "affordable housing",
+        "rent increase",
+        "tenant",
+        "landlord"
+      ],
+      "scenario": "Sarah helps a colleague understand why wages have not kept pace with local rents."
+    }
+  },
+  {
+    "slug": "ai-and-employment",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Artificial Intelligence and Employment",
+    "title_es": "Artificial Intelligence and Employment",
+    "description": "Daniel’s hotel introduces an AI scheduling system that saves time but creates unexpected problems.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Evaluate arguments about artificial intelligence and employment.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Future perfect and future continuous"
+      ],
+      "vocabulary": [
+        "automation",
+        "algorithmic bias",
+        "oversight",
+        "retraining"
+      ],
+      "scenario": "Daniel’s hotel introduces an AI scheduling system that saves time but creates unexpected problems."
+    }
+  },
+  {
+    "slug": "fast-fashion-hidden-costs",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Fast Fashion and Hidden Costs",
+    "title_es": "Fast Fashion and Hidden Costs",
+    "description": "Sarah traces the social and environmental cost of an extremely cheap shirt.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Evaluate arguments about fast fashion and hidden costs.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Concession clauses"
+      ],
+      "vocabulary": [
+        "fast fashion",
+        "supply chain",
+        "garment worker",
+        "traceability"
+      ],
+      "scenario": "Sarah traces the social and environmental cost of an extremely cheap shirt."
+    }
+  },
+  {
+    "slug": "education-social-mobility",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Education and Social Mobility",
+    "title_es": "Education and Social Mobility",
+    "description": "Daniel mentors a student whose ability is clear but whose application is incomplete.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Evaluate arguments about education and social mobility.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Inversion for emphasis"
+      ],
+      "vocabulary": [
+        "social mobility",
+        "scholarship",
+        "tuition",
+        "mentoring"
+      ],
+      "scenario": "Daniel mentors a student whose ability is clear but whose application is incomplete."
+    }
+  },
+  {
+    "slug": "free-speech-misinformation",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Freedom of Speech and Misinformation",
+    "title_es": "Freedom of Speech and Misinformation",
+    "description": "Sarah moderates a community forum after a harmful false claim appears.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Evaluate arguments about freedom of speech and misinformation.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Reported speech and reporting verbs"
+      ],
+      "vocabulary": [
+        "free speech",
+        "misinformation",
+        "censorship",
+        "harmful claim"
+      ],
+      "scenario": "Sarah moderates a community forum after a harmful false claim appears."
+    }
+  },
+  {
+    "slug": "community-action",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Community Action and Local Change",
+    "title_es": "Community Action and Local Change",
+    "description": "Sarah and Daniel help residents turn repeated complaints into a practical neighbourhood plan.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Evaluate arguments about community action and local change.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Emphatic cleft structures"
+      ],
+      "vocabulary": [
+        "grassroots",
+        "volunteer",
+        "petition",
+        "stakeholder"
+      ],
+      "scenario": "Sarah and Daniel help residents turn repeated complaints into a practical neighbourhood plan."
+    }
+  },
+  {
+    "slug": "antimicrobial-resistance",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Antimicrobial Resistance and One Health",
+    "title_es": "Antimicrobial Resistance and One Health",
+    "description": "In 2026, health authorities begin implementing a renewed global plan against antimicrobial resistance across hospitals, farms and environmental systems.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning antimicrobial resistance and one health.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Nominalisation and controlled agency"
+      ],
+      "vocabulary": [
+        "antimicrobial resistance",
+        "pathogen",
+        "surveillance",
+        "stewardship"
+      ],
+      "scenario": "In 2026, health authorities begin implementing a renewed global plan against antimicrobial resistance across hospitals, farms and environmental systems."
+    }
+  },
+  {
+    "slug": "ai-energy-demand",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Artificial Intelligence and Energy Demand",
+    "title_es": "Artificial Intelligence and Energy Demand",
+    "description": "Energy analysts report that electricity demand from data centres rose rapidly in 2025 as AI investment expanded and grid connections became harder to secure.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning artificial intelligence and energy demand.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Hedging and epistemic modality"
+      ],
+      "vocabulary": [
+        "data centre",
+        "electricity demand",
+        "grid capacity",
+        "energy efficiency"
+      ],
+      "scenario": "Energy analysts report that electricity demand from data centres rose rapidly in 2025 as AI investment expanded and grid connections became harder to secure."
+    }
+  },
+  {
+    "slug": "gene-editing-access",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Gene Editing, Treatment and Access",
+    "title_es": "Gene Editing, Treatment and Access",
+    "description": "The arrival of gene-editing therapies for severe inherited blood disorders transforms what is medically possible while exposing the difficulty of delivering complex treatment equitably.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning gene editing, treatment and access.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Concession and qualification"
+      ],
+      "vocabulary": [
+        "gene editing",
+        "inherited disorder",
+        "clinical trial",
+        "durability"
+      ],
+      "scenario": "The arrival of gene-editing therapies for severe inherited blood disorders transforms what is medically possible while exposing the difficulty of delivering complex treatment equitably."
+    }
+  },
+  {
+    "slug": "climate-health-air-pollution",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Climate, Air Pollution and Health",
+    "title_es": "Climate, Air Pollution and Health",
+    "description": "Public-health agencies increasingly connect climate policy with immediate reductions in air pollution, energy poverty and preventable illness.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning climate, air pollution and health.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Participle clauses for cause and result"
+      ],
+      "vocabulary": [
+        "co-benefit",
+        "particulate matter",
+        "energy poverty",
+        "decarbonisation"
+      ],
+      "scenario": "Public-health agencies increasingly connect climate policy with immediate reductions in air pollution, energy poverty and preventable illness."
+    }
+  },
+  {
+    "slug": "loneliness-public-health",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Loneliness as a Public-Health Issue",
+    "title_es": "Loneliness as a Public-Health Issue",
+    "description": "Health organisations now treat social isolation and loneliness as population-level concerns linked to community design, care systems and digital life.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning loneliness as a public-health issue.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Cleft and pseudo-cleft structures"
+      ],
+      "vocabulary": [
+        "loneliness",
+        "social isolation",
+        "protective factor",
+        "social connection"
+      ],
+      "scenario": "Health organisations now treat social isolation and loneliness as population-level concerns linked to community design, care systems and digital life."
+    }
+  },
+  {
+    "slug": "ageing-care-economy",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Ageing and the Care Economy",
+    "title_es": "Ageing and the Care Economy",
+    "description": "As populations age, governments debate how to finance long-term care without assuming that families—especially women—will absorb unlimited unpaid work.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning ageing and the care economy.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Inversion after limiting adverbials"
+      ],
+      "vocabulary": [
+        "long-term care",
+        "unpaid care",
+        "care worker",
+        "dependency ratio"
+      ],
+      "scenario": "As populations age, governments debate how to finance long-term care without assuming that families—especially women—will absorb unlimited unpaid work."
+    }
+  },
+  {
+    "slug": "critical-minerals-transition",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Critical Minerals and the Energy Transition",
+    "title_es": "Critical Minerals and the Energy Transition",
+    "description": "Demand for copper, lithium, battery materials and rare earths keeps growing as grids, storage and electric transport expand.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning critical minerals and the energy transition.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Mixed and inverted conditionals"
+      ],
+      "vocabulary": [
+        "critical mineral",
+        "supply concentration",
+        "refining",
+        "traceability"
+      ],
+      "scenario": "Demand for copper, lithium, battery materials and rare earths keeps growing as grids, storage and electric transport expand."
+    }
+  },
+  {
+    "slug": "deepfakes-democracy",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Deepfakes, Evidence and Democracy",
+    "title_es": "Deepfakes, Evidence and Democracy",
+    "description": "Cheap synthetic media makes it easier to fabricate convincing political audio and video while also making authentic evidence easier to dismiss as fake.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning deepfakes, evidence and democracy.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Complex reporting verbs"
+      ],
+      "vocabulary": [
+        "deepfake",
+        "content provenance",
+        "synthetic media",
+        "verification"
+      ],
+      "scenario": "Cheap synthetic media makes it easier to fabricate convincing political audio and video while also making authentic evidence easier to dismiss as fake."
+    }
+  },
+  {
+    "slug": "climate-migration-cities",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Climate Migration and Cities",
+    "title_es": "Climate Migration and Cities",
+    "description": "Cities receiving people displaced by repeated floods, drought or livelihood loss must plan housing and services before movement becomes an emergency.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning climate migration and cities.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Reduced relative and participle clauses"
+      ],
+      "vocabulary": [
+        "climate mobility",
+        "displacement",
+        "planned relocation",
+        "adaptive capacity"
+      ],
+      "scenario": "Cities receiving people displaced by repeated floods, drought or livelihood loss must plan housing and services before movement becomes an emergency."
+    }
+  },
+  {
+    "slug": "neurotechnology-mental-privacy",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Neurotechnology and Mental Privacy",
+    "title_es": "Neurotechnology and Mental Privacy",
+    "description": "Consumer and clinical devices increasingly record or interpret neural and physiological signals, raising questions about consent, inference and ownership.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning neurotechnology and mental privacy.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Mandative subjunctive"
+      ],
+      "vocabulary": [
+        "neurotechnology",
+        "neural data",
+        "mental privacy",
+        "biometric inference"
+      ],
+      "scenario": "Consumer and clinical devices increasingly record or interpret neural and physiological signals, raising questions about consent, inference and ownership."
+    }
+  },
+  {
+    "slug": "synthetic-biology-biosecurity",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Synthetic Biology and Biosecurity",
+    "title_es": "Synthetic Biology and Biosecurity",
+    "description": "Cheaper DNA synthesis and increasingly capable biological design tools expand research possibilities while changing how laboratories assess misuse and accidental harm.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning synthetic biology and biosecurity.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Stance adverbials and evaluative language"
+      ],
+      "vocabulary": [
+        "synthetic biology",
+        "biosecurity",
+        "biosafety",
+        "dual use"
+      ],
+      "scenario": "Cheaper DNA synthesis and increasingly capable biological design tools expand research possibilities while changing how laboratories assess misuse and accidental harm."
+    }
+  },
+  {
+    "slug": "global-health-inequality",
+    "target_language": "english",
+    "level": "C1",
+    "title": "Global Health Progress and Inequality",
+    "title_es": "Global Health Progress and Inequality",
+    "description": "Global health statistics released in 2026 show important gains in prevention and survival alongside stalled targets, financing pressure and persistent inequality.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Evaluate current evidence and competing responses concerning global health progress and inequality.",
+      "outcomes": [
+        "identify findings and limitations",
+        "evaluate trade-offs and institutional responses",
+        "use current scientific-social vocabulary",
+        "apply advanced grammar in context"
+      ],
+      "grammar": [
+        "Cohesion through reference and connectors"
+      ],
+      "vocabulary": [
+        "universal health coverage",
+        "health indicator",
+        "data gap",
+        "financial hardship"
+      ],
+      "scenario": "Global health statistics released in 2026 show important gains in prevention and survival alongside stalled targets, financing pressure and persistent inequality."
+    }
+  },
+  {
+    "slug": "adult-neuroplasticity",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Adult Neuroplasticity and Second-Language Mastery",
+    "title_es": "Adult Neuroplasticity and Second-Language Mastery",
+    "description": "C2 interdisciplinary inquiry: The Adult Brain Is Still Learning.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in adult neuroplasticity and second-language mastery.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Calibrated comparison and concessive clauses"
+      ],
+      "vocabulary": [
+        "neuroplasticity",
+        "sensitive period",
+        "functional network",
+        "grey matter",
+        "cross-sectional study",
+        "causal inference"
+      ],
+      "scenario": "The Adult Brain Is Still Learning"
+    }
+  },
+  {
+    "slug": "retrieval-spacing",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Retrieval Practice, Spacing and Durable Learning",
+    "title_es": "Retrieval Practice, Spacing and Durable Learning",
+    "description": "C2 interdisciplinary inquiry: Why Remembering Is Harder Than Rereading.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in retrieval practice, spacing and durable learning.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Non-finite clauses and information compression"
+      ],
+      "vocabulary": [
+        "retrieval practice",
+        "spacing effect",
+        "desirable difficulty",
+        "memory trace",
+        "familiarity illusion",
+        "interference"
+      ],
+      "scenario": "Why Remembering Is Harder Than Rereading"
+    }
+  },
+  {
+    "slug": "sleep-consolidation",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Sleep, Memory and Vocabulary Consolidation",
+    "title_es": "Sleep, Memory and Vocabulary Consolidation",
+    "description": "C2 interdisciplinary inquiry: What Sleep Does After Study.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in sleep, memory and vocabulary consolidation.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Temporal perspective and perfect aspect"
+      ],
+      "vocabulary": [
+        "memory consolidation",
+        "lexical integration",
+        "encoding",
+        "slow-wave sleep",
+        "rapid eye movement sleep",
+        "offline processing"
+      ],
+      "scenario": "What Sleep Does After Study"
+    }
+  },
+  {
+    "slug": "incidental-acquisition",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Comprehensible Input and Incidental Acquisition",
+    "title_es": "Comprehensible Input and Incidental Acquisition",
+    "description": "C2 interdisciplinary inquiry: Understanding More Than You Were Taught.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in comprehensible input and incidental acquisition.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Hedging and epistemic modality"
+      ],
+      "vocabulary": [
+        "comprehensible input",
+        "incidental learning",
+        "noticing",
+        "input flood",
+        "lexical coverage",
+        "inferencing"
+      ],
+      "scenario": "Understanding More Than You Were Taught"
+    }
+  },
+  {
+    "slug": "multimodal-learning",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Reading, Listening and Multimodal Learning",
+    "title_es": "Reading, Listening and Multimodal Learning",
+    "description": "C2 interdisciplinary inquiry: When Words, Sound and Image Compete.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in reading, listening and multimodal learning.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Referencing, substitution and cohesive economy"
+      ],
+      "vocabulary": [
+        "multimodality",
+        "dual coding",
+        "captioning",
+        "redundancy effect",
+        "split attention",
+        "signalling"
+      ],
+      "scenario": "When Words, Sound and Image Compete"
+    }
+  },
+  {
+    "slug": "interaction-output",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Interaction, Output and Negotiation of Meaning",
+    "title_es": "Interaction, Output and Negotiation of Meaning",
+    "description": "C2 interdisciplinary inquiry: Learning in the Repair of Conversation.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in interaction, output and negotiation of meaning.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Reported speech and polyphonic stance"
+      ],
+      "vocabulary": [
+        "negotiation of meaning",
+        "comprehension check",
+        "clarification request",
+        "confirmation check",
+        "modified output",
+        "pushed output"
+      ],
+      "scenario": "Learning in the Repair of Conversation"
+    }
+  },
+  {
+    "slug": "corrective-feedback",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Corrective Feedback and the Productive Role of Error",
+    "title_es": "Corrective Feedback and the Productive Role of Error",
+    "description": "C2 interdisciplinary inquiry: Which Errors Should Interrupt the Conversation?.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in corrective feedback and the productive role of error.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Mandative structures and evaluative subjunctives"
+      ],
+      "vocabulary": [
+        "corrective feedback",
+        "recast",
+        "elicitation",
+        "metalinguistic clue",
+        "uptake",
+        "repair"
+      ],
+      "scenario": "Which Errors Should Interrupt the Conversation?"
+    }
+  },
+  {
+    "slug": "speech-perception",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Speech Perception, Accent and Pronunciation Training",
+    "title_es": "Speech Perception, Accent and Pronunciation Training",
+    "description": "C2 interdisciplinary inquiry: Hearing the Contrast Before Producing It.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in speech perception, accent and pronunciation training.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Passive voice and accountable agency"
+      ],
+      "vocabulary": [
+        "phonemic contrast",
+        "categorical perception",
+        "perceptual assimilation",
+        "minimal pair",
+        "allophonic variation",
+        "intelligibility"
+      ],
+      "scenario": "Hearing the Contrast Before Producing It"
+    }
+  },
+  {
+    "slug": "anxiety-attention",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Language Anxiety, Attention and Working Memory",
+    "title_es": "Language Anxiety, Attention and Working Memory",
+    "description": "C2 interdisciplinary inquiry: When Self-Monitoring Consumes the Message.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in language anxiety, attention and working memory.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Mixed and implicit conditionals"
+      ],
+      "vocabulary": [
+        "language anxiety",
+        "working memory",
+        "attentional control",
+        "self-monitoring",
+        "cognitive load",
+        "evaluation apprehension"
+      ],
+      "scenario": "When Self-Monitoring Consumes the Message"
+    }
+  },
+  {
+    "slug": "individual-differences",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Age, Aptitude and Individual Differences",
+    "title_es": "Age, Aptitude and Individual Differences",
+    "description": "C2 interdisciplinary inquiry: Why the Average Learner Does Not Exist.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in age, aptitude and individual differences.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Complex relative and supplementary clauses"
+      ],
+      "vocabulary": [
+        "language aptitude",
+        "phonological memory",
+        "analytic ability",
+        "processing speed",
+        "learner profile",
+        "between-group difference"
+      ],
+      "scenario": "Why the Average Learner Does Not Exist"
+    }
+  },
+  {
+    "slug": "contextual-vocabulary",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Contextual Vocabulary, Glosses and Semantic Networks",
+    "title_es": "Contextual Vocabulary, Glosses and Semantic Networks",
+    "description": "C2 interdisciplinary inquiry: A Word Is More Than Its Translation.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in contextual vocabulary, glosses and semantic networks.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Nominalisation and grammatical metaphor"
+      ],
+      "vocabulary": [
+        "lexical depth",
+        "semantic network",
+        "collocation",
+        "polysemy",
+        "register",
+        "word family"
+      ],
+      "scenario": "A Word Is More Than Its Translation"
+    }
+  },
+  {
+    "slug": "ai-language-tutoring",
+    "target_language": "english",
+    "level": "C2",
+    "title": "Artificial Intelligence and the Future of Language Tutoring",
+    "title_es": "Artificial Intelligence and the Future of Language Tutoring",
+    "description": "C2 interdisciplinary inquiry: A Fluent Answer Is Not Always a Reliable Teacher.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Evaluate competing frameworks in artificial intelligence and the future of language tutoring.",
+      "outcomes": [
+        "reconstruct implicit premises",
+        "evaluate layered evidence",
+        "use specialist vocabulary",
+        "control advanced grammar and register"
+      ],
+      "grammar": [
+        "Distancing, evidentiality and qualified reporting"
+      ],
+      "vocabulary": [
+        "generative model",
+        "hallucination",
+        "adaptive feedback",
+        "learner model",
+        "algorithmic bias",
+        "data provenance"
+      ],
+      "scenario": "A Fluent Answer Is Not Always a Reliable Teacher"
+    }
+  },
+  {
+    "slug": "hola-mucho-gusto",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "¡Hola! Mucho gusto",
+    "title_es": "",
+    "description": "Saludos, despedidas, presentarse y el alfabeto.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Presentarte, saludar y conocer a otras personas.",
+      "outcomes": [
+        "decir tu nombre",
+        "preguntar el nombre de otra persona",
+        "usar saludos formales e informales",
+        "deletrear información básica"
+      ],
+      "grammar": [
+        "verbo to be",
+        "subject pronouns",
+        "basic questions"
+      ],
+      "vocabulary": [
+        "greetings",
+        "names",
+        "classroom expressions",
+        "numbers 0–20"
+      ],
+      "scenario": "Tu primer día en una clase de inglés."
+    }
+  },
+  {
+    "slug": "informacion-personal",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Información personal",
+    "title_es": "",
+    "description": "Edad, nacionalidad, procedencia y datos de contacto.",
+    "order_index": 2,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-familia-y-mis-amigos",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi familia y mis amigos",
+    "title_es": "",
+    "description": "Miembros de la familia, posesivos y describir personas.",
+    "order_index": 3,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-rutina-diaria",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi rutina diaria",
+    "title_es": "",
+    "description": "Actividades cotidianas, la hora y el presente de indicativo.",
+    "order_index": 4,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-casa",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi casa",
+    "title_es": "",
+    "description": "Habitaciones, muebles y describir una vivienda.",
+    "order_index": 5,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-barrio-y-mi-ciudad",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi barrio y mi ciudad",
+    "title_es": "",
+    "description": "Lugares de la ciudad, direcciones y transporte.",
+    "order_index": 6,
+    "unit_overview": null
+  },
+  {
+    "slug": "comida-y-bebida",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Comida y bebida",
+    "title_es": "",
+    "description": "Alimentos, pedir comida y expresar gustos.",
+    "order_index": 7,
+    "unit_overview": null
+  },
+  {
+    "slug": "de-compras",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "De compras",
+    "title_es": "",
+    "description": "Ropa, colores, tallas y precios.",
+    "order_index": 8,
+    "unit_overview": null
+  },
+  {
+    "slug": "estudios-y-trabajo",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Estudios y trabajo",
+    "title_es": "",
+    "description": "Estudios, profesiones y responsabilidades sencillas.",
+    "order_index": 9,
+    "unit_overview": null
+  },
+  {
+    "slug": "tiempo-libre",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Tiempo libre",
+    "title_es": "",
+    "description": "Pasatiempos, preferencias e invitaciones.",
+    "order_index": 10,
+    "unit_overview": null
+  },
+  {
+    "slug": "salud-y-bienestar-a1",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "No me siento bien",
+    "title_es": "",
+    "description": "Partes del cuerpo, malestares frecuentes y cómo pedir ayuda en una farmacia.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Expresar cómo te sientes, decir qué te duele y pedir ayuda de forma sencilla.",
+      "outcomes": [
+        "nombrar partes básicas del cuerpo",
+        "expresar un dolor o un malestar",
+        "preguntar a otra persona qué le duele",
+        "comprender recomendaciones sencillas"
+      ],
+      "grammar": [
+        "me duele + singular",
+        "me duelen + plural",
+        "tener + síntoma",
+        "estar + estado"
+      ],
+      "vocabulary": [
+        "partes del cuerpo",
+        "síntomas frecuentes",
+        "la farmacia",
+        "recomendaciones básicas"
+      ],
+      "scenario": "No te sientes bien y explicas tus síntomas en una farmacia."
+    }
+  },
+  {
+    "slug": "planes-y-repaso",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Planes y repaso",
+    "title_es": "",
+    "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
+    "order_index": 12,
+    "unit_overview": null
+  },
+  {
+    "slug": "everyday-life",
+    "target_language": "english",
+    "level": "A2",
+    "title": "Everyday Life",
+    "title_es": "La vida cotidiana",
+    "description": "Routines, schedules and activities happening right now.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Hablar de rutinas diarias, horarios y lo que está pasando en este momento.",
+      "outcomes": [
+        "describir tu rutina diaria con adverbios de frecuencia",
+        "distinguir cuándo usar Present Simple y cuándo Present Continuous",
+        "hablar de tareas domésticas y del tiempo libre",
+        "entender y escribir un correo o mensaje sobre tu semana"
+      ],
+      "grammar": [
+        "Present Simple vs. Present Continuous"
+      ],
+      "vocabulary": [
+        "daily routines",
+        "time expressions",
+        "household activities"
+      ],
+      "scenario": "Una semana normal se vuelve especial cuando recibes una visita inesperada."
+    }
+  },
+  {
+    "slug": "family-and-relationships",
+    "target_language": "english",
+    "level": "A2",
+    "title": "Family and Relationships",
+    "title_es": "La familia y las relaciones",
+    "description": "Family members, personalities, and a big Sunday lunch with the whole family.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Hablar de tu familia, describir personalidades y relaciones usando have got/has got.",
+      "outcomes": [
+        "describir a los miembros de tu familia y sus características",
+        "usar have got / has got para hablar de posesiones y rasgos físicos",
+        "usar el genitivo sajón ('s) para mostrar relaciones y pertenencia",
+        "entender un texto sobre una reunión familiar"
+      ],
+      "grammar": [
+        "Have got / Has got",
+        "Possessive 's"
+      ],
+      "vocabulary": [
+        "family members",
+        "relationships",
+        "personality adjectives"
+      ],
+      "scenario": "La familia de Sarah se reúne cada mes para un gran almuerzo dominical, y hoy Sarah lleva a alguien nuevo."
+    }
+  },
+  {
+    "slug": "home-and-neighborhood",
+    "target_language": "english",
+    "level": "A2",
+    "title": "Home and Neighborhood",
+    "title_es": "La casa y el vecindario",
+    "description": "Sarah visits Lucy's new flat in Leeds and explores rooms, furniture and the neighborhood.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Describir casas, habitaciones y vecindarios usando there is/there are y preposiciones de lugar.",
+      "outcomes": [
+        "describir las habitaciones y los muebles de una casa",
+        "usar there is / there are para hablar de lo que existe en un lugar",
+        "usar preposiciones de lugar (next to, between, opposite, near, on the corner of)",
+        "entender un texto sobre una visita a un piso nuevo"
+      ],
+      "grammar": [
+        "There is / There are",
+        "Prepositions of place"
+      ],
+      "vocabulary": [
+        "rooms and furniture",
+        "neighborhood places",
+        "describing a home"
+      ],
+      "scenario": "Sarah visita el piso nuevo de Lucy en Leeds por primera vez y descubre su vecindario."
+    }
+  },
+  {
+    "slug": "food-and-shopping",
+    "target_language": "english",
+    "level": "A2",
+    "title": "Food and Shopping",
+    "title_es": "La comida y las compras",
+    "description": "Sarah cooks dinner for Daniel for the first time, from the shopping list to the table.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Hablar de comida, cantidades y compras usando sustantivos contables e incontables.",
+      "outcomes": [
+        "diferenciar sustantivos contables e incontables",
+        "usar some, any, much, many correctamente",
+        "preguntar y responder con How much...? / How many...?",
+        "entender un texto sobre ir de compras y cocinar"
+      ],
+      "grammar": [
+        "Countable and uncountable nouns",
+        "Some / any / much / many"
+      ],
+      "vocabulary": [
+        "food and ingredients",
+        "shopping",
+        "quantities"
+      ],
+      "scenario": "Sarah cocina cena para Daniel por primera vez, y todo empieza con una lista de compras."
+    }
+  },
+  {
+    "slug": "past-experiences",
+    "target_language": "english",
+    "level": "A2",
+    "title": "Past Experiences",
+    "title_es": "Experiencias pasadas",
+    "description": "Sarah tells Daniel about the summer she backpacked through Europe with Lucy.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Hablar de experiencias pasadas usando el Past Simple, verbos regulares e irregulares.",
+      "outcomes": [
+        "contar una historia o experiencia pasada en orden cronológico",
+        "usar el Past Simple afirmativo, negativo e interrogativo",
+        "reconocer y usar verbos irregulares comunes",
+        "entender un relato largo sobre un viaje"
+      ],
+      "grammar": [
+        "Past Simple (regular and irregular verbs)"
+      ],
+      "vocabulary": [
+        "travel",
+        "past experiences",
+        "time expressions for the past"
+      ],
+      "scenario": "Daniel le pregunta a Sarah sobre su viaje más memorable, y ella le cuenta la historia de una mochila por Europa."
+    }
+  },
+  {
+    "slug": "travel-and-transportation",
+    "target_language": "english",
+    "level": "A2",
+    "title": "Travel and Transportation",
+    "title_es": "Los viajes y el transporte",
+    "description": "Sarah and Daniel plan their first trip together, comparing destinations, hotels and transport.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Comparar destinos, transporte y alojamiento usando comparativos y superlativos.",
+      "outcomes": [
+        "comparar dos opciones usando adjetivos comparativos",
+        "describir la mejor o peor opción usando superlativos",
+        "hablar de medios de transporte y sus ventajas",
+        "entender un texto sobre planear un viaje"
+      ],
+      "grammar": [
+        "Comparative and superlative adjectives"
+      ],
+      "vocabulary": [
+        "transportation",
+        "travel planning",
+        "accommodation"
+      ],
+      "scenario": "Sarah y Daniel planean su primer viaje juntos, comparando ciudades, hoteles y formas de transporte."
+    }
+  },
+  {
+    "slug": "health-and-healthy-habits",
+    "target_language": "english",
+    "level": "A2",
+    "title": "Health and Healthy Habits",
+    "title_es": "La salud y los hábitos saludables",
+    "description": "Sarah catches a cold after the Edinburgh trip, sees a doctor, and decides to build healthier habits.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Dar consejos y hablar de obligaciones sobre la salud usando should/shouldn't y have to/don't have to.",
+      "outcomes": [
+        "dar y pedir consejos de salud con should/shouldn't",
+        "hablar de obligaciones y su ausencia con have to / don't have to",
+        "describir síntomas y hábitos saludables",
+        "entender una consulta médica y una conversación sobre cambios de hábito"
+      ],
+      "grammar": [
+        "Should / shouldn't (advice)",
+        "Have to / don't have to (obligation)"
+      ],
+      "vocabulary": [
+        "illness and symptoms",
+        "healthy habits",
+        "seeing a doctor"
+      ],
+      "scenario": "Sarah se resfría después del viaje a Edimburgo, visita al médico, y decide adoptar hábitos más saludables."
+    }
+  },
+  {
+    "slug": "plans-and-celebrations",
+    "target_language": "english",
+    "level": "A2",
+    "title": "Plans and Celebrations",
+    "title_es": "Planes y celebraciones",
+    "description": "Sarah plans a surprise birthday party for Daniel with Lucy's help.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Hablar de planes y decisiones espontáneas usando 'going to' y 'will'.",
+      "outcomes": [
+        "usar 'going to' para hablar de planes ya decididos",
+        "usar 'will' para decisiones espontáneas, ofrecimientos y predicciones",
+        "hablar de celebraciones y organizar un evento",
+        "entender un texto sobre la organización de una fiesta sorpresa"
+      ],
+      "grammar": [
+        "Going to (plans)",
+        "Will (spontaneous decisions and predictions)"
+      ],
+      "vocabulary": [
+        "celebrations",
+        "party planning",
+        "invitations"
+      ],
+      "scenario": "Sarah organiza una fiesta sorpresa de cumpleaños para Daniel, con la ayuda de Lucy y el resto de la familia."
+    }
+  },
+  {
+    "slug": "school-and-work",
+    "target_language": "english",
+    "level": "A2",
+    "title": "School and Work",
+    "title_es": "La escuela y el trabajo",
+    "description": "Sarah leads her first big project at work and earns a well-deserved promotion.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Hablar de habilidades y capacidades en el trabajo o los estudios usando can, could y be able to.",
+      "outcomes": [
+        "hablar de habilidades presentes con can y be able to",
+        "hablar de habilidades pasadas con could y was/were able to",
+        "describir un proyecto de trabajo o estudio",
+        "entender un texto sobre un ascenso laboral"
+      ],
+      "grammar": [
+        "Can / could / be able to (ability)"
+      ],
+      "vocabulary": [
+        "work and skills",
+        "projects",
+        "workplace language"
+      ],
+      "scenario": "A Sarah le ofrecen liderar un proyecto importante en su trabajo, y demuestra que puede con el reto."
+    }
+  },
+  {
+    "slug": "stories-and-achievements",
+    "target_language": "english",
+    "level": "A2",
+    "title": "Stories and Achievements",
+    "title_es": "Historias y logros",
+    "description": "On New Year's Eve, Sarah and Daniel look back on everything they have achieved together this year.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Hablar de experiencias y logros de vida usando el Present Perfect.",
+      "outcomes": [
+        "hablar de experiencias de vida con el Present Perfect",
+        "usar ever, never, just y already correctamente",
+        "reflexionar sobre logros personales",
+        "entender una conversación de fin de año sobre logros"
+      ],
+      "grammar": [
+        "Present Perfect (life experiences: ever, never, just, already)"
+      ],
+      "vocabulary": [
+        "life experiences",
+        "achievements",
+        "reflecting on the past"
+      ],
+      "scenario": "En Nochevieja, Sarah y Daniel repasan todo lo que han vivido y logrado juntos a lo largo del año."
+    }
   },
   {
     "slug": "compras-y-cantidades",
@@ -1580,7 +2712,11 @@
         "omisión",
         "versión",
         "evocar",
-        "reinterpretar"
+        "reinterpretar",
+        "planteamiento",
+        "alcance",
+        "contrapunto",
+        "fundamento"
       ],
       "scenario": "Interpretar versiones contrapuestas de un recuerdo colectivo"
     }
@@ -1610,7 +2746,11 @@
         "apelación",
         "elocuencia",
         "presuposición",
-        "refutación"
+        "refutación",
+        "premisa",
+        "matiz",
+        "implicación",
+        "deliberación"
       ],
       "scenario": "Examinar un discurso institucional"
     }
@@ -1640,7 +2780,11 @@
         "indicio",
         "contrastar",
         "anonimato",
-        "rendición de cuentas"
+        "rendición de cuentas",
+        "evidencia",
+        "sesgo",
+        "consenso",
+        "discrepancia"
       ],
       "scenario": "Reconstruir una investigación compleja"
     }
@@ -1670,7 +2814,11 @@
         "garantía",
         "reconocimiento",
         "responsabilidad",
-        "reconciliación"
+        "reconciliación",
+        "criterio",
+        "incertidumbre",
+        "repercusión",
+        "salvaguarda"
       ],
       "scenario": "Debatir respuestas a un daño histórico"
     }
@@ -1700,7 +2848,11 @@
         "despliegue",
         "sesgo",
         "supervisión",
-        "trazabilidad"
+        "trazabilidad",
+        "perspectiva",
+        "coherencia",
+        "viabilidad",
+        "rendición de cuentas"
       ],
       "scenario": "Evaluar una tecnología antes de adoptarla"
     }
@@ -1730,7 +2882,11 @@
         "ambigüedad",
         "perspectiva",
         "cadencia",
-        "desenlace"
+        "desenlace",
+        "indicio",
+        "causalidad",
+        "objeción",
+        "síntesis"
       ],
       "scenario": "Analizar la voz de un relato contemporáneo"
     }
@@ -1760,7 +2916,11 @@
         "carga",
         "corresponsabilidad",
         "sostener",
-        "invisibilizado"
+        "invisibilizado",
+        "planteamiento",
+        "alcance",
+        "contrapunto",
+        "fundamento"
       ],
       "scenario": "Visibilizar trabajos esenciales poco reconocidos"
     }
@@ -1790,7 +2950,11 @@
         "hablante",
         "prestigio",
         "regionalismo",
-        "adecuación"
+        "adecuación",
+        "premisa",
+        "matiz",
+        "implicación",
+        "deliberación"
       ],
       "scenario": "Comparar usos de distintas comunidades hispanohablantes"
     }
@@ -1820,7 +2984,11 @@
         "desacuerdo",
         "margen",
         "compromiso",
-        "postura"
+        "postura",
+        "evidencia",
+        "sesgo",
+        "consenso",
+        "discrepancia"
       ],
       "scenario": "Mediar entre posiciones incompatibles"
     }
@@ -1850,7 +3018,11 @@
         "coherencia",
         "sugerente",
         "convencional",
-        "recepción"
+        "recepción",
+        "criterio",
+        "incertidumbre",
+        "repercusión",
+        "salvaguarda"
       ],
       "scenario": "Reseñar una obra para una revista"
     }
@@ -1880,7 +3052,11 @@
         "implementación",
         "sesgo de selección",
         "resultado",
-        "evaluación"
+        "evaluación",
+        "perspectiva",
+        "coherencia",
+        "viabilidad",
+        "rendición de cuentas"
       ],
       "scenario": "Evaluar el resultado de una intervención"
     }
@@ -1910,7 +3086,11 @@
         "hallazgo",
         "objeción",
         "alcance",
-        "metodología"
+        "metodología",
+        "indicio",
+        "causalidad",
+        "objeción",
+        "síntesis"
       ],
       "scenario": "Defender una tesis ante preguntas críticas"
     }
@@ -1940,7 +3120,11 @@
         "doble lectura",
         "sobreentendido",
         "indeterminación",
-        "matiz"
+        "matiz",
+        "planteamiento",
+        "alcance",
+        "contrapunto",
+        "fundamento"
       ],
       "scenario": "Desentrañar un texto deliberadamente ambiguo"
     }
@@ -1970,7 +3154,11 @@
         "parodia",
         "doble voz",
         "burla",
-        "complicidad"
+        "complicidad",
+        "premisa",
+        "matiz",
+        "implicación",
+        "deliberación"
       ],
       "scenario": "Explicar por qué una sátira funciona en su contexto"
     }
@@ -2000,7 +3188,11 @@
         "reformulación",
         "pérdida",
         "registro",
-        "mediación"
+        "mediación",
+        "evidencia",
+        "sesgo",
+        "consenso",
+        "discrepancia"
       ],
       "scenario": "Mediar un concepto sin equivalente exacto"
     }
@@ -2030,7 +3222,11 @@
         "enunciado",
         "convención",
         "inferir",
-        "conceptualizar"
+        "conceptualizar",
+        "criterio",
+        "incertidumbre",
+        "repercusión",
+        "salvaguarda"
       ],
       "scenario": "Debatir cómo las palabras construyen categorías"
     }
@@ -2060,7 +3256,11 @@
         "alcance",
         "disposición",
         "interpretación",
-        "precedente"
+        "precedente",
+        "perspectiva",
+        "coherencia",
+        "viabilidad",
+        "rendición de cuentas"
       ],
       "scenario": "Interpretar dos lecturas de una norma"
     }
@@ -2090,7 +3290,11 @@
         "cadencia",
         "cohesión",
         "reescritura",
-        "voz autoral"
+        "voz autoral",
+        "indicio",
+        "causalidad",
+        "objeción",
+        "síntesis"
       ],
       "scenario": "Editar un ensayo sin borrar la voz del autor"
     }
@@ -2120,7 +3324,11 @@
         "refutar",
         "provisional",
         "inferencia",
-        "certeza"
+        "certeza",
+        "planteamiento",
+        "alcance",
+        "contrapunto",
+        "fundamento"
       ],
       "scenario": "Evaluar qué puede afirmarse a partir de evidencia incompleta"
     }
@@ -2150,7 +3358,11 @@
         "canon",
         "ruptura",
         "lectura",
-        "estética"
+        "estética",
+        "premisa",
+        "matiz",
+        "implicación",
+        "deliberación"
       ],
       "scenario": "Comparar marcos críticos sobre una obra"
     }
@@ -2180,7 +3392,11 @@
         "limitación",
         "hallazgo",
         "replicabilidad",
-        "consenso"
+        "consenso",
+        "evidencia",
+        "sesgo",
+        "consenso",
+        "discrepancia"
       ],
       "scenario": "Convertir resultados especializados para públicos distintos"
     }
@@ -2210,7 +3426,11 @@
         "interés",
         "escalada",
         "reencuadre",
-        "acuerdo"
+        "acuerdo",
+        "criterio",
+        "incertidumbre",
+        "repercusión",
+        "salvaguarda"
       ],
       "scenario": "Reformular posiciones en una negociación sensible"
     }
@@ -2240,7 +3460,11 @@
         "contraargumento",
         "síntesis",
         "premisa",
-        "conclusión"
+        "conclusión",
+        "perspectiva",
+        "coherencia",
+        "viabilidad",
+        "rendición de cuentas"
       ],
       "scenario": "Construir una tesis compleja con fuentes divergentes"
     }
@@ -2270,7 +3494,11 @@
         "matización",
         "solvencia",
         "perspectiva",
-        "precisión"
+        "precisión",
+        "indicio",
+        "causalidad",
+        "objeción",
+        "síntesis"
       ],
       "scenario": "Resolver una misión integradora ante un panel experto"
     }
@@ -2414,1398 +3642,6 @@
     "description": "Camila prépare un voyage à Paris avec la famille Lambert.",
     "order_index": 12,
     "unit_overview": null
-  },
-  {
-    "slug": "retour-a-saint-domingue",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Retour à Saint-Domingue",
-    "title_es": "Regreso a Santo Domingo",
-    "description": "Camila retrouve sa famille et ses amis d’enfance à Saint-Domingue, avec un regard transformé par son année en France.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Décrire un retour au pays et exprimer un sentiment ambivalent avec nuance.",
-      "outcomes": [
-        "décrire des retrouvailles avec précision émotionnelle",
-        "exprimer une nostalgie tout en valorisant le présent",
-        "utiliser le plus-que-parfait pour situer un souvenir dans le passé",
-        "nuancer une opinion sur deux lieux de vie différents"
-      ],
-      "grammar": [
-        "plus-que-parfait",
-        "concordance des temps (passé)",
-        "nuance et modération de l’opinion"
-      ],
-      "vocabulary": [
-        "les retrouvailles",
-        "le mal du pays",
-        "ambivalent(e)",
-        "avoir le sentiment de"
-      ],
-      "scenario": "Camila atterrit à Saint-Domingue après un an d’absence et retrouve sa famille et Sofía à l’aéroport."
-    }
-  },
-  {
-    "slug": "candidature-universitaire",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Candidature universitaire",
-    "title_es": "Solicitud universitaria",
-    "description": "Camila prépare sa candidature pour étudier à l’université en France, avec l’aide à distance de Léa et Karim.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Rédiger une lettre de motivation et argumenter un projet académique de façon structurée.",
-      "outcomes": [
-        "structurer une lettre de motivation formelle",
-        "argumenter un choix académique avec des exemples concrets",
-        "utiliser le subjonctif passé pour évoquer une expérience accomplie",
-        "nuancer une auto-présentation sans excès de modestie ni d’arrogance"
-      ],
-      "grammar": [
-        "subjonctif passé",
-        "connecteurs d’argumentation avancés (par ailleurs, en outre)",
-        "structure d’une lettre de motivation"
-      ],
-      "vocabulary": [
-        "une lettre de motivation",
-        "un dossier de candidature",
-        "convaincant(e)",
-        "se démarquer"
-      ],
-      "scenario": "Camila rédige sa lettre de motivation pour candidater à une licence de langues à l’université de Tours."
-    }
-  },
-  {
-    "slug": "debats-de-societe",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Débats de société",
-    "title_es": "Debates de sociedad",
-    "description": "Dans un club de discussion en ligne avec Karim, Camila débat de sujets de société complexes en français.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Participer à un débat structuré sur un sujet de société et défendre une position nuancée.",
-      "outcomes": [
-        "structurer un argument avec des connecteurs logiques avancés",
-        "anticiper et réfuter un contre-argument",
-        "utiliser la voix passive dans un contexte argumentatif",
-        "nuancer une position sans paraître catégorique"
-      ],
-      "grammar": [
-        "la voix passive",
-        "connecteurs d’argumentation avancés (néanmoins, or, par conséquent)",
-        "nuance argumentative (il me semble que, dans une certaine mesure)"
-      ],
-      "vocabulary": [
-        "un point de vue",
-        "réfuter",
-        "dans une certaine mesure",
-        "un contre-argument"
-      ],
-      "scenario": "Camila rejoint un club de discussion en ligne où des étudiants francophones débattent de sujets de société, dont l’usage des écrans chez les jeunes."
-    }
-  },
-  {
-    "slug": "le-teletravail-et-lavenir-professionnel",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Le télétravail et l’avenir professionnel",
-    "title_es": "El teletrabajo y el futuro profesional",
-    "description": "En attendant la réponse de l’université, Camila décroche un petit emploi de traduction à distance et découvre les avantages et limites du télétravail.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Décrire une expérience professionnelle et peser les avantages et inconvénients du télétravail.",
-      "outcomes": [
-        "décrire une routine de travail à distance",
-        "peser des avantages et des inconvénients avec nuance",
-        "utiliser le gérondif pour exprimer la simultanéité",
-        "employer des pronoms relatifs composés (dont, ce dont)"
-      ],
-      "grammar": [
-        "le gérondif (en + participe présent)",
-        "pronoms relatifs composés (dont, ce dont)",
-        "expressions de nuance professionnelle"
-      ],
-      "vocabulary": [
-        "le télétravail",
-        "la productivité",
-        "l’isolement",
-        "gérer son temps"
-      ],
-      "scenario": "Camila commence un petit emploi de traduction à distance pour une agence tout en attendant la réponse de l’université."
-    }
-  },
-  {
-    "slug": "litterature-francophone",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Littérature francophone",
-    "title_es": "Literatura francófona",
-    "description": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen, mêlant sa propre culture à la langue qu’elle a apprise.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Analyser un extrait littéraire simple et rapporter les propos d’un auteur au discours indirect.",
-      "outcomes": [
-        "analyser le thème et le ton d’un extrait littéraire",
-        "rapporter des propos au discours indirect au passé",
-        "utiliser des pronoms relatifs composés (lequel, laquelle)",
-        "exprimer une impression de lecture avec nuance"
-      ],
-      "grammar": [
-        "discours indirect au passé",
-        "pronoms relatifs composés (lequel, auquel, duquel)",
-        "expressions d’analyse littéraire"
-      ],
-      "vocabulary": [
-        "un extrait",
-        "le narrateur",
-        "évoquer",
-        "un thème récurrent"
-      ],
-      "scenario": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen évoquant l’identité et le déracinement."
-    }
-  },
-  {
-    "slug": "cinema-et-critique",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Cinéma et critique",
-    "title_es": "Cine y crítica",
-    "description": "Camila regarde un film français avec Sofía et rédige sa première critique de cinéma argumentée.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Rédiger une critique de film structurée avec des arguments et une évaluation nuancée.",
-      "outcomes": [
-        "décrire l’intrigue d’un film sans trop en révéler",
-        "évaluer la mise en scène et le jeu des acteurs",
-        "utiliser ce qui / ce que pour résumer une impression",
-        "nuancer une critique entre points forts et points faibles"
-      ],
-      "grammar": [
-        "ce qui / ce que (récapitulatif)",
-        "expressions d’évaluation critique",
-        "comparatifs et superlatifs avancés"
-      ],
-      "vocabulary": [
-        "la mise en scène",
-        "le scénario",
-        "un rebondissement",
-        "convaincant(e) (cinéma)"
-      ],
-      "scenario": "Camila et Sofía regardent ensemble un film français récent, et Camila décide d’en écrire une critique pour son blog personnel."
-    }
-  },
-  {
-    "slug": "dilemmes-ethiques",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Dilemmes éthiques",
-    "title_es": "Dilemas éticos",
-    "description": "Dans un forum de discussion philosophique, Camila débat d’un dilemme moral et explore des hypothèses complexes avec le club de lecture.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Discuter d’un dilemme moral et formuler des hypothèses complexes sur le passé.",
-      "outcomes": [
-        "présenter un dilemme éthique avec précision",
-        "formuler une hypothèse irréelle sur le passé",
-        "utiliser le conditionnel passé pour exprimer un regret ou un reproche",
-        "nuancer un jugement moral sans catégoriser trop vite"
-      ],
-      "grammar": [
-        "hypothèse avec si + plus-que-parfait / conditionnel passé",
-        "le conditionnel passé (regret, reproche)",
-        "nuance du jugement moral"
-      ],
-      "vocabulary": [
-        "un dilemme",
-        "une valeur",
-        "juger",
-        "se mettre à la place de"
-      ],
-      "scenario": "Camila participe à un forum de discussion philosophique en ligne où l’on débat d’un dilemme moral classique."
-    }
-  },
-  {
-    "slug": "sciences-et-innovations",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Sciences et innovations",
-    "title_es": "Ciencias e innovaciones",
-    "description": "Karim partage un article de vulgarisation scientifique sur l’intelligence artificielle, et Camila apprend à discuter de sciences en français.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Comprendre et discuter d’un texte de vulgarisation scientifique avec nuance.",
-      "outcomes": [
-        "comprendre un texte de vulgarisation scientifique",
-        "exprimer une incertitude ou une probabilité scientifique",
-        "utiliser des connecteurs de cause scientifique (étant donné que, dans la mesure où)",
-        "nuancer une opinion sur une innovation technologique"
-      ],
-      "grammar": [
-        "subjonctif d’incertitude (il est possible que, il se peut que)",
-        "connecteurs de cause avancés (étant donné que, dans la mesure où)",
-        "expression de la probabilité"
-      ],
-      "vocabulary": [
-        "l’intelligence artificielle",
-        "un algorithme",
-        "une avancée",
-        "les répercussions"
-      ],
-      "scenario": "Karim, passionné de technologie, partage avec Camila un article sur l’intelligence artificielle et ses répercussions sur la société."
-    }
-  },
-  {
-    "slug": "histoire-et-memoire",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Histoire et mémoire",
-    "title_es": "Historia y memoria",
-    "description": "En regardant un documentaire avec sa grand-mère, Camila explore l’histoire partagée de la Caraïbe francophone et hispanophone.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Comprendre un récit historique et discuter de la mémoire collective avec nuance.",
-      "outcomes": [
-        "comprendre un récit historique complexe",
-        "discuter de la mémoire collective et de ses interprétations multiples",
-        "utiliser les pronoms démonstratifs (celui, celle, ceux, celles)",
-        "nuancer un point de vue sur un événement historique sensible"
-      ],
-      "grammar": [
-        "pronoms démonstratifs (celui, celle, ceux, celles, celui-ci/celui-là)",
-        "l’accord du participe passé avec avoir (complément direct antéposé)",
-        "expressions de la mémoire historique"
-      ],
-      "vocabulary": [
-        "la mémoire collective",
-        "un héritage",
-        "une perspective",
-        "transmettre"
-      ],
-      "scenario": "Camila regarde un documentaire sur l’histoire partagée d’Haïti et de la République dominicaine avec sa grand-mère, qui lui raconte ses propres souvenirs familiaux."
-    }
-  },
-  {
-    "slug": "ecologie-et-engagement-citoyen",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Écologie et engagement citoyen",
-    "title_es": "Ecología y compromiso ciudadano",
-    "description": "Camila rejoint un groupe de jeunes engagés pour la protection des mangroves de Saint-Domingue et rédige une pétition en français pour un partenariat associatif.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Exprimer un but et une opinion négative nuancée dans un contexte d’engagement citoyen.",
-      "outcomes": [
-        "exprimer un but avec afin que + subjonctif",
-        "formuler une opinion négative nuancée (je ne pense pas que + subjonctif)",
-        "rédiger une pétition ou un appel à l’action structuré",
-        "comparer des politiques environnementales avec des comparatifs avancés"
-      ],
-      "grammar": [
-        "expression du but (afin que, pour que + subjonctif)",
-        "opinion négative + subjonctif (je ne pense pas que, je ne crois pas que)",
-        "comparatifs et superlatifs dans un contexte argumentatif"
-      ],
-      "vocabulary": [
-        "une mangrove",
-        "la biodiversité",
-        "un engagement citoyen",
-        "une pétition"
-      ],
-      "scenario": "Camila rejoint un groupe de jeunes bénévoles qui protège les mangroves près de Saint-Domingue et doit rédiger, en français, une demande de partenariat à une association francophone."
-    }
-  },
-  {
-    "slug": "art-et-creativite",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Art et créativité",
-    "title_es": "Arte y creatividad",
-    "description": "Camila interviewe, pour son blog, une artiste peintre franco-dominicaine qui explore l’identité caribéenne dans son travail.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Mener une interview structurée et rapporter des propos sur le processus créatif.",
-      "outcomes": [
-        "préparer et mener une interview structurée",
-        "rapporter les propos d’un artiste avec précision",
-        "utiliser des comparatifs et superlatifs avancés dans un contexte artistique",
-        "décrire un processus créatif avec un vocabulaire précis"
-      ],
-      "grammar": [
-        "comparatifs et superlatifs avancés (autant que, de moins en moins)",
-        "discours rapporté (révision élargie)",
-        "expressions du processus créatif"
-      ],
-      "vocabulary": [
-        "une œuvre",
-        "un processus créatif",
-        "s’inspirer de",
-        "une exposition"
-      ],
-      "scenario": "Pour son blog, Camila interviewe une artiste peintre franco-dominicaine dont le travail explore l’identité caribéenne."
-    }
-  },
-  {
-    "slug": "bilan-et-projets-davenir",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Bilan et projets d’avenir",
-    "title_es": "Balance y proyectos de futuro",
-    "description": "Camila reçoit la réponse de l’université de Tours et fait le bilan de tout ce qu’elle a accompli et appris depuis son premier jour d’échange scolaire.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Faire un bilan personnel structuré et exprimer des projets d’avenir avec assurance.",
-      "outcomes": [
-        "faire le bilan d’un parcours personnel complet",
-        "exprimer un projet d’avenir avec des hypothèses nuancées",
-        "utiliser le conditionnel passé pour évoquer ce qui aurait pu se passer différemment",
-        "conclure une réflexion personnelle avec clarté et maturité"
-      ],
-      "grammar": [
-        "récapitulatif : conditionnel passé, subjonctif, hypothèses complexes",
-        "expressions de bilan (avec le recul, en fin de compte)",
-        "expression de la certitude et de la détermination"
-      ],
-      "vocabulary": [
-        "un bilan",
-        "avec le recul",
-        "un accomplissement",
-        "être déterminé(e) à"
-      ],
-      "scenario": "Camila reçoit enfin la réponse de l’université de Tours et écrit une lettre ouverte à la Camila d’il y a deux ans, avant son départ pour la France."
-    }
-  },
-  {
-    "slug": "social-media-public-opinion",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Social Media and Public Opinion",
-    "title_es": "Social Media and Public Opinion",
-    "description": "Sarah investigates why a misleading local story spread faster than its correction.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Evaluate arguments about social media and public opinion.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Passive reporting structures"
-      ],
-      "vocabulary": [
-        "viral",
-        "misleading",
-        "echo chamber",
-        "fact-check"
-      ],
-      "scenario": "Sarah investigates why a misleading local story spread faster than its correction."
-    }
-  },
-  {
-    "slug": "plastic-pollution-cities",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Plastic Pollution in Our Cities",
-    "title_es": "Plastic Pollution in Our Cities",
-    "description": "Daniel joins a clean-up and discovers why collecting rubbish cannot solve plastic pollution alone.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Evaluate arguments about plastic pollution in our cities.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Causative and passive forms"
-      ],
-      "vocabulary": [
-        "single-use",
-        "waste stream",
-        "microplastic",
-        "reusable"
-      ],
-      "scenario": "Daniel joins a clean-up and discovers why collecting rubbish cannot solve plastic pollution alone."
-    }
-  },
-  {
-    "slug": "climate-change-daily-decisions",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Climate Change and Everyday Decisions",
-    "title_es": "Climate Change and Everyday Decisions",
-    "description": "Sarah compares personal climate choices with decisions made by companies and governments.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Evaluate arguments about climate change and everyday decisions.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Mixed conditionals"
-      ],
-      "vocabulary": [
-        "carbon footprint",
-        "emissions",
-        "renewable",
-        "adaptation"
-      ],
-      "scenario": "Sarah compares personal climate choices with decisions made by companies and governments."
-    }
-  },
-  {
-    "slug": "corruption-public-trust",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Corruption and Public Trust in Latin America and the Caribbean",
-    "title_es": "Corruption and Public Trust in Latin America and the Caribbean",
-    "description": "Daniel follows a cross-border investigation into public contracts in several Latin American and Caribbean communities.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Evaluate arguments about corruption and public trust in latin america and the caribbean.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Modals of deduction in the past"
-      ],
-      "vocabulary": [
-        "clientelism",
-        "bribery",
-        "conflict of interest",
-        "public procurement"
-      ],
-      "scenario": "Daniel follows a cross-border investigation into public contracts in several Latin American and Caribbean communities."
-    }
-  },
-  {
-    "slug": "fourth-of-july",
-    "target_language": "english",
-    "level": "B2",
-    "title": "The Fourth of July: Freedom and Contradictions",
-    "title_es": "The Fourth of July: Freedom and Contradictions",
-    "description": "Sarah and Daniel spend July 4th with American friends and discuss how national celebrations hold pride and criticism together.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Evaluate arguments about the fourth of july: freedom and contradictions.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Participle clauses"
-      ],
-      "vocabulary": [
-        "independence",
-        "founding document",
-        "civil rights",
-        "patriotism"
-      ],
-      "scenario": "Sarah and Daniel spend July 4th with American friends and discuss how national celebrations hold pride and criticism together."
-    }
-  },
-  {
-    "slug": "migration-cultural-identity",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Migration and Cultural Identity",
-    "title_es": "Migration and Cultural Identity",
-    "description": "A neighbour asks Daniel where he is really from, beginning a difficult but generous conversation.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Evaluate arguments about migration and cultural identity.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Advanced relative clauses"
-      ],
-      "vocabulary": [
-        "belonging",
-        "heritage",
-        "integration",
-        "assimilation"
-      ],
-      "scenario": "A neighbour asks Daniel where he is really from, beginning a difficult but generous conversation."
-    }
-  },
-  {
-    "slug": "housing-inequality",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Housing Inequality",
-    "title_es": "Housing Inequality",
-    "description": "Sarah helps a colleague understand why wages have not kept pace with local rents.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Evaluate arguments about housing inequality.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Comparatives with modifiers"
-      ],
-      "vocabulary": [
-        "affordable housing",
-        "rent increase",
-        "tenant",
-        "landlord"
-      ],
-      "scenario": "Sarah helps a colleague understand why wages have not kept pace with local rents."
-    }
-  },
-  {
-    "slug": "ai-and-employment",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Artificial Intelligence and Employment",
-    "title_es": "Artificial Intelligence and Employment",
-    "description": "Daniel’s hotel introduces an AI scheduling system that saves time but creates unexpected problems.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Evaluate arguments about artificial intelligence and employment.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Future perfect and future continuous"
-      ],
-      "vocabulary": [
-        "automation",
-        "algorithmic bias",
-        "oversight",
-        "retraining"
-      ],
-      "scenario": "Daniel’s hotel introduces an AI scheduling system that saves time but creates unexpected problems."
-    }
-  },
-  {
-    "slug": "fast-fashion-hidden-costs",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Fast Fashion and Hidden Costs",
-    "title_es": "Fast Fashion and Hidden Costs",
-    "description": "Sarah traces the social and environmental cost of an extremely cheap shirt.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Evaluate arguments about fast fashion and hidden costs.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Concession clauses"
-      ],
-      "vocabulary": [
-        "fast fashion",
-        "supply chain",
-        "garment worker",
-        "traceability"
-      ],
-      "scenario": "Sarah traces the social and environmental cost of an extremely cheap shirt."
-    }
-  },
-  {
-    "slug": "education-social-mobility",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Education and Social Mobility",
-    "title_es": "Education and Social Mobility",
-    "description": "Daniel mentors a student whose ability is clear but whose application is incomplete.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Evaluate arguments about education and social mobility.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Inversion for emphasis"
-      ],
-      "vocabulary": [
-        "social mobility",
-        "scholarship",
-        "tuition",
-        "mentoring"
-      ],
-      "scenario": "Daniel mentors a student whose ability is clear but whose application is incomplete."
-    }
-  },
-  {
-    "slug": "free-speech-misinformation",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Freedom of Speech and Misinformation",
-    "title_es": "Freedom of Speech and Misinformation",
-    "description": "Sarah moderates a community forum after a harmful false claim appears.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Evaluate arguments about freedom of speech and misinformation.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Reported speech and reporting verbs"
-      ],
-      "vocabulary": [
-        "free speech",
-        "misinformation",
-        "censorship",
-        "harmful claim"
-      ],
-      "scenario": "Sarah moderates a community forum after a harmful false claim appears."
-    }
-  },
-  {
-    "slug": "community-action",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Community Action and Local Change",
-    "title_es": "Community Action and Local Change",
-    "description": "Sarah and Daniel help residents turn repeated complaints into a practical neighbourhood plan.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Evaluate arguments about community action and local change.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Emphatic cleft structures"
-      ],
-      "vocabulary": [
-        "grassroots",
-        "volunteer",
-        "petition",
-        "stakeholder"
-      ],
-      "scenario": "Sarah and Daniel help residents turn repeated complaints into a practical neighbourhood plan."
-    }
-  },
-  {
-    "slug": "antimicrobial-resistance",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Antimicrobial Resistance and One Health",
-    "title_es": "Antimicrobial Resistance and One Health",
-    "description": "In 2026, health authorities begin implementing a renewed global plan against antimicrobial resistance across hospitals, farms and environmental systems.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning antimicrobial resistance and one health.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Nominalisation and controlled agency"
-      ],
-      "vocabulary": [
-        "antimicrobial resistance",
-        "pathogen",
-        "surveillance",
-        "stewardship"
-      ],
-      "scenario": "In 2026, health authorities begin implementing a renewed global plan against antimicrobial resistance across hospitals, farms and environmental systems."
-    }
-  },
-  {
-    "slug": "ai-energy-demand",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Artificial Intelligence and Energy Demand",
-    "title_es": "Artificial Intelligence and Energy Demand",
-    "description": "Energy analysts report that electricity demand from data centres rose rapidly in 2025 as AI investment expanded and grid connections became harder to secure.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning artificial intelligence and energy demand.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Hedging and epistemic modality"
-      ],
-      "vocabulary": [
-        "data centre",
-        "electricity demand",
-        "grid capacity",
-        "energy efficiency"
-      ],
-      "scenario": "Energy analysts report that electricity demand from data centres rose rapidly in 2025 as AI investment expanded and grid connections became harder to secure."
-    }
-  },
-  {
-    "slug": "gene-editing-access",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Gene Editing, Treatment and Access",
-    "title_es": "Gene Editing, Treatment and Access",
-    "description": "The arrival of gene-editing therapies for severe inherited blood disorders transforms what is medically possible while exposing the difficulty of delivering complex treatment equitably.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning gene editing, treatment and access.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Concession and qualification"
-      ],
-      "vocabulary": [
-        "gene editing",
-        "inherited disorder",
-        "clinical trial",
-        "durability"
-      ],
-      "scenario": "The arrival of gene-editing therapies for severe inherited blood disorders transforms what is medically possible while exposing the difficulty of delivering complex treatment equitably."
-    }
-  },
-  {
-    "slug": "climate-health-air-pollution",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Climate, Air Pollution and Health",
-    "title_es": "Climate, Air Pollution and Health",
-    "description": "Public-health agencies increasingly connect climate policy with immediate reductions in air pollution, energy poverty and preventable illness.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning climate, air pollution and health.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Participle clauses for cause and result"
-      ],
-      "vocabulary": [
-        "co-benefit",
-        "particulate matter",
-        "energy poverty",
-        "decarbonisation"
-      ],
-      "scenario": "Public-health agencies increasingly connect climate policy with immediate reductions in air pollution, energy poverty and preventable illness."
-    }
-  },
-  {
-    "slug": "loneliness-public-health",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Loneliness as a Public-Health Issue",
-    "title_es": "Loneliness as a Public-Health Issue",
-    "description": "Health organisations now treat social isolation and loneliness as population-level concerns linked to community design, care systems and digital life.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning loneliness as a public-health issue.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Cleft and pseudo-cleft structures"
-      ],
-      "vocabulary": [
-        "loneliness",
-        "social isolation",
-        "protective factor",
-        "social connection"
-      ],
-      "scenario": "Health organisations now treat social isolation and loneliness as population-level concerns linked to community design, care systems and digital life."
-    }
-  },
-  {
-    "slug": "ageing-care-economy",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Ageing and the Care Economy",
-    "title_es": "Ageing and the Care Economy",
-    "description": "As populations age, governments debate how to finance long-term care without assuming that families—especially women—will absorb unlimited unpaid work.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning ageing and the care economy.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Inversion after limiting adverbials"
-      ],
-      "vocabulary": [
-        "long-term care",
-        "unpaid care",
-        "care worker",
-        "dependency ratio"
-      ],
-      "scenario": "As populations age, governments debate how to finance long-term care without assuming that families—especially women—will absorb unlimited unpaid work."
-    }
-  },
-  {
-    "slug": "critical-minerals-transition",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Critical Minerals and the Energy Transition",
-    "title_es": "Critical Minerals and the Energy Transition",
-    "description": "Demand for copper, lithium, battery materials and rare earths keeps growing as grids, storage and electric transport expand.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning critical minerals and the energy transition.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Mixed and inverted conditionals"
-      ],
-      "vocabulary": [
-        "critical mineral",
-        "supply concentration",
-        "refining",
-        "traceability"
-      ],
-      "scenario": "Demand for copper, lithium, battery materials and rare earths keeps growing as grids, storage and electric transport expand."
-    }
-  },
-  {
-    "slug": "deepfakes-democracy",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Deepfakes, Evidence and Democracy",
-    "title_es": "Deepfakes, Evidence and Democracy",
-    "description": "Cheap synthetic media makes it easier to fabricate convincing political audio and video while also making authentic evidence easier to dismiss as fake.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning deepfakes, evidence and democracy.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Complex reporting verbs"
-      ],
-      "vocabulary": [
-        "deepfake",
-        "content provenance",
-        "synthetic media",
-        "verification"
-      ],
-      "scenario": "Cheap synthetic media makes it easier to fabricate convincing political audio and video while also making authentic evidence easier to dismiss as fake."
-    }
-  },
-  {
-    "slug": "climate-migration-cities",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Climate Migration and Cities",
-    "title_es": "Climate Migration and Cities",
-    "description": "Cities receiving people displaced by repeated floods, drought or livelihood loss must plan housing and services before movement becomes an emergency.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning climate migration and cities.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Reduced relative and participle clauses"
-      ],
-      "vocabulary": [
-        "climate mobility",
-        "displacement",
-        "planned relocation",
-        "adaptive capacity"
-      ],
-      "scenario": "Cities receiving people displaced by repeated floods, drought or livelihood loss must plan housing and services before movement becomes an emergency."
-    }
-  },
-  {
-    "slug": "neurotechnology-mental-privacy",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Neurotechnology and Mental Privacy",
-    "title_es": "Neurotechnology and Mental Privacy",
-    "description": "Consumer and clinical devices increasingly record or interpret neural and physiological signals, raising questions about consent, inference and ownership.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning neurotechnology and mental privacy.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Mandative subjunctive"
-      ],
-      "vocabulary": [
-        "neurotechnology",
-        "neural data",
-        "mental privacy",
-        "biometric inference"
-      ],
-      "scenario": "Consumer and clinical devices increasingly record or interpret neural and physiological signals, raising questions about consent, inference and ownership."
-    }
-  },
-  {
-    "slug": "synthetic-biology-biosecurity",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Synthetic Biology and Biosecurity",
-    "title_es": "Synthetic Biology and Biosecurity",
-    "description": "Cheaper DNA synthesis and increasingly capable biological design tools expand research possibilities while changing how laboratories assess misuse and accidental harm.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning synthetic biology and biosecurity.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Stance adverbials and evaluative language"
-      ],
-      "vocabulary": [
-        "synthetic biology",
-        "biosecurity",
-        "biosafety",
-        "dual use"
-      ],
-      "scenario": "Cheaper DNA synthesis and increasingly capable biological design tools expand research possibilities while changing how laboratories assess misuse and accidental harm."
-    }
-  },
-  {
-    "slug": "global-health-inequality",
-    "target_language": "english",
-    "level": "C1",
-    "title": "Global Health Progress and Inequality",
-    "title_es": "Global Health Progress and Inequality",
-    "description": "Global health statistics released in 2026 show important gains in prevention and survival alongside stalled targets, financing pressure and persistent inequality.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Evaluate current evidence and competing responses concerning global health progress and inequality.",
-      "outcomes": [
-        "identify findings and limitations",
-        "evaluate trade-offs and institutional responses",
-        "use current scientific-social vocabulary",
-        "apply advanced grammar in context"
-      ],
-      "grammar": [
-        "Cohesion through reference and connectors"
-      ],
-      "vocabulary": [
-        "universal health coverage",
-        "health indicator",
-        "data gap",
-        "financial hardship"
-      ],
-      "scenario": "Global health statistics released in 2026 show important gains in prevention and survival alongside stalled targets, financing pressure and persistent inequality."
-    }
-  },
-  {
-    "slug": "adult-neuroplasticity",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Adult Neuroplasticity and Second-Language Mastery",
-    "title_es": "Adult Neuroplasticity and Second-Language Mastery",
-    "description": "C2 interdisciplinary inquiry: The Adult Brain Is Still Learning.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in adult neuroplasticity and second-language mastery.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Calibrated comparison and concessive clauses"
-      ],
-      "vocabulary": [
-        "neuroplasticity",
-        "sensitive period",
-        "functional network",
-        "grey matter",
-        "cross-sectional study",
-        "causal inference"
-      ],
-      "scenario": "The Adult Brain Is Still Learning"
-    }
-  },
-  {
-    "slug": "retrieval-spacing",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Retrieval Practice, Spacing and Durable Learning",
-    "title_es": "Retrieval Practice, Spacing and Durable Learning",
-    "description": "C2 interdisciplinary inquiry: Why Remembering Is Harder Than Rereading.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in retrieval practice, spacing and durable learning.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Non-finite clauses and information compression"
-      ],
-      "vocabulary": [
-        "retrieval practice",
-        "spacing effect",
-        "desirable difficulty",
-        "memory trace",
-        "familiarity illusion",
-        "interference"
-      ],
-      "scenario": "Why Remembering Is Harder Than Rereading"
-    }
-  },
-  {
-    "slug": "sleep-consolidation",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Sleep, Memory and Vocabulary Consolidation",
-    "title_es": "Sleep, Memory and Vocabulary Consolidation",
-    "description": "C2 interdisciplinary inquiry: What Sleep Does After Study.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in sleep, memory and vocabulary consolidation.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Temporal perspective and perfect aspect"
-      ],
-      "vocabulary": [
-        "memory consolidation",
-        "lexical integration",
-        "encoding",
-        "slow-wave sleep",
-        "rapid eye movement sleep",
-        "offline processing"
-      ],
-      "scenario": "What Sleep Does After Study"
-    }
-  },
-  {
-    "slug": "incidental-acquisition",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Comprehensible Input and Incidental Acquisition",
-    "title_es": "Comprehensible Input and Incidental Acquisition",
-    "description": "C2 interdisciplinary inquiry: Understanding More Than You Were Taught.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in comprehensible input and incidental acquisition.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Hedging and epistemic modality"
-      ],
-      "vocabulary": [
-        "comprehensible input",
-        "incidental learning",
-        "noticing",
-        "input flood",
-        "lexical coverage",
-        "inferencing"
-      ],
-      "scenario": "Understanding More Than You Were Taught"
-    }
-  },
-  {
-    "slug": "multimodal-learning",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Reading, Listening and Multimodal Learning",
-    "title_es": "Reading, Listening and Multimodal Learning",
-    "description": "C2 interdisciplinary inquiry: When Words, Sound and Image Compete.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in reading, listening and multimodal learning.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Referencing, substitution and cohesive economy"
-      ],
-      "vocabulary": [
-        "multimodality",
-        "dual coding",
-        "captioning",
-        "redundancy effect",
-        "split attention",
-        "signalling"
-      ],
-      "scenario": "When Words, Sound and Image Compete"
-    }
-  },
-  {
-    "slug": "interaction-output",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Interaction, Output and Negotiation of Meaning",
-    "title_es": "Interaction, Output and Negotiation of Meaning",
-    "description": "C2 interdisciplinary inquiry: Learning in the Repair of Conversation.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in interaction, output and negotiation of meaning.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Reported speech and polyphonic stance"
-      ],
-      "vocabulary": [
-        "negotiation of meaning",
-        "comprehension check",
-        "clarification request",
-        "confirmation check",
-        "modified output",
-        "pushed output"
-      ],
-      "scenario": "Learning in the Repair of Conversation"
-    }
-  },
-  {
-    "slug": "corrective-feedback",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Corrective Feedback and the Productive Role of Error",
-    "title_es": "Corrective Feedback and the Productive Role of Error",
-    "description": "C2 interdisciplinary inquiry: Which Errors Should Interrupt the Conversation?.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in corrective feedback and the productive role of error.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Mandative structures and evaluative subjunctives"
-      ],
-      "vocabulary": [
-        "corrective feedback",
-        "recast",
-        "elicitation",
-        "metalinguistic clue",
-        "uptake",
-        "repair"
-      ],
-      "scenario": "Which Errors Should Interrupt the Conversation?"
-    }
-  },
-  {
-    "slug": "speech-perception",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Speech Perception, Accent and Pronunciation Training",
-    "title_es": "Speech Perception, Accent and Pronunciation Training",
-    "description": "C2 interdisciplinary inquiry: Hearing the Contrast Before Producing It.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in speech perception, accent and pronunciation training.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Passive voice and accountable agency"
-      ],
-      "vocabulary": [
-        "phonemic contrast",
-        "categorical perception",
-        "perceptual assimilation",
-        "minimal pair",
-        "allophonic variation",
-        "intelligibility"
-      ],
-      "scenario": "Hearing the Contrast Before Producing It"
-    }
-  },
-  {
-    "slug": "anxiety-attention",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Language Anxiety, Attention and Working Memory",
-    "title_es": "Language Anxiety, Attention and Working Memory",
-    "description": "C2 interdisciplinary inquiry: When Self-Monitoring Consumes the Message.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in language anxiety, attention and working memory.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Mixed and implicit conditionals"
-      ],
-      "vocabulary": [
-        "language anxiety",
-        "working memory",
-        "attentional control",
-        "self-monitoring",
-        "cognitive load",
-        "evaluation apprehension"
-      ],
-      "scenario": "When Self-Monitoring Consumes the Message"
-    }
-  },
-  {
-    "slug": "individual-differences",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Age, Aptitude and Individual Differences",
-    "title_es": "Age, Aptitude and Individual Differences",
-    "description": "C2 interdisciplinary inquiry: Why the Average Learner Does Not Exist.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in age, aptitude and individual differences.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Complex relative and supplementary clauses"
-      ],
-      "vocabulary": [
-        "language aptitude",
-        "phonological memory",
-        "analytic ability",
-        "processing speed",
-        "learner profile",
-        "between-group difference"
-      ],
-      "scenario": "Why the Average Learner Does Not Exist"
-    }
-  },
-  {
-    "slug": "contextual-vocabulary",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Contextual Vocabulary, Glosses and Semantic Networks",
-    "title_es": "Contextual Vocabulary, Glosses and Semantic Networks",
-    "description": "C2 interdisciplinary inquiry: A Word Is More Than Its Translation.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in contextual vocabulary, glosses and semantic networks.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Nominalisation and grammatical metaphor"
-      ],
-      "vocabulary": [
-        "lexical depth",
-        "semantic network",
-        "collocation",
-        "polysemy",
-        "register",
-        "word family"
-      ],
-      "scenario": "A Word Is More Than Its Translation"
-    }
-  },
-  {
-    "slug": "ai-language-tutoring",
-    "target_language": "english",
-    "level": "C2",
-    "title": "Artificial Intelligence and the Future of Language Tutoring",
-    "title_es": "Artificial Intelligence and the Future of Language Tutoring",
-    "description": "C2 interdisciplinary inquiry: A Fluent Answer Is Not Always a Reliable Teacher.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Evaluate competing frameworks in artificial intelligence and the future of language tutoring.",
-      "outcomes": [
-        "reconstruct implicit premises",
-        "evaluate layered evidence",
-        "use specialist vocabulary",
-        "control advanced grammar and register"
-      ],
-      "grammar": [
-        "Distancing, evidentiality and qualified reporting"
-      ],
-      "vocabulary": [
-        "generative model",
-        "hallucination",
-        "adaptive feedback",
-        "learner model",
-        "algorithmic bias",
-        "data provenance"
-      ],
-      "scenario": "A Fluent Answer Is Not Always a Reliable Teacher"
-    }
   },
   {
     "slug": "les-achats",
@@ -4106,307 +3942,6 @@
         "garder contact"
       ],
       "scenario": "Camila écrit à Sofía, sa meilleure amie restée à Saint-Domingue, pour lui raconter sa vie et ses nouvelles amitiés."
-    }
-  },
-  {
-    "slug": "projets-et-avenir",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Projets et avenir",
-    "title_es": "Proyectos y futuro",
-    "description": "Camila réfléchit à son avenir et discute de ses projets avec Léa et Karim.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Exprimer un projet, formuler une hypothèse et justifier un choix.",
-      "outcomes": [
-        "parler de projets avec le futur simple",
-        "exprimer une hypothèse avec si + présent",
-        "donner son opinion et la justifier",
-        "comparer deux options avec nuance"
-      ],
-      "grammar": [
-        "futur simple",
-        "hypothèse avec si + présent",
-        "conditionnel présent (politesse et hypothèse)",
-        "connecteurs d’opinion"
-      ],
-      "vocabulary": [
-        "le projet",
-        "l’avenir",
-        "à mon avis",
-        "d’un côté / de l’autre côté"
-      ],
-      "scenario": "À quelques mois de la fin de son année d’échange, Camila doit décider si elle prolonge son séjour en France."
-    }
-  },
-  {
-    "slug": "identite-et-parcours-personnel",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Identité et parcours personnel",
-    "title_es": "Identidad y trayectoria personal",
-    "description": "Camila écrit une courte biographie pour un projet scolaire sur son parcours et les changements vécus depuis son arrivée en France.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Raconter son parcours personnel et décrire comment on a changé.",
-      "outcomes": [
-        "raconter une biographie simple",
-        "décrire un changement personnel",
-        "consolider l’usage du passé composé et de l’imparfait",
-        "exprimer une évolution dans le temps"
-      ],
-      "grammar": [
-        "imparfait (introduction)",
-        "contraste passé composé / imparfait",
-        "expressions de temps (avant, maintenant, depuis)"
-      ],
-      "vocabulary": [
-        "le parcours",
-        "changer",
-        "grandir",
-        "devenir"
-      ],
-      "scenario": "Pour un projet scolaire, Camila écrit une courte biographie sur son parcours et sur la façon dont elle a changé depuis son arrivée en France."
-    }
-  },
-  {
-    "slug": "etudes-et-apprentissage",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Études et apprentissage",
-    "title_es": "Estudios y aprendizaje",
-    "description": "Camila partage ses stratégies pour apprendre le français et discute de ses difficultés scolaires avec Karim.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Parler de stratégies d’apprentissage et exprimer des difficultés et des progrès scolaires.",
-      "outcomes": [
-        "décrire des stratégies d’apprentissage",
-        "exprimer une difficulté et un progrès",
-        "donner un conseil académique",
-        "utiliser le conditionnel présent pour suggérer"
-      ],
-      "grammar": [
-        "conditionnel présent (suggestion)",
-        "expressions de difficulté et de progrès",
-        "gérondif introductoire (en + participe présent)"
-      ],
-      "vocabulary": [
-        "réviser",
-        "progresser",
-        "une difficulté",
-        "un conseil"
-      ],
-      "scenario": "Camila a un examen de mathématiques important et demande des conseils d’étude à Karim."
-    }
-  },
-  {
-    "slug": "monde-du-travail",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Monde du travail",
-    "title_es": "El mundo laboral",
-    "description": "Karim prépare un entretien pour un stage d’été et demande à Camila de l’aider à s’entraîner.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Comprendre et simuler un entretien d’embauche, écrire un e-mail formel.",
-      "outcomes": [
-        "parler de professions et de compétences",
-        "simuler un entretien d’embauche",
-        "écrire un e-mail formel",
-        "utiliser le conditionnel de politesse dans un contexte professionnel"
-      ],
-      "grammar": [
-        "conditionnel de politesse (révision approfondie)",
-        "vocabulaire formel vs informel",
-        "structure d’un e-mail formel"
-      ],
-      "vocabulary": [
-        "le CV",
-        "un entretien d’embauche",
-        "les compétences",
-        "postuler"
-      ],
-      "scenario": "Karim a un entretien pour un stage d’été dans une bibliothèque et demande à Camila de l’aider à se préparer."
-    }
-  },
-  {
-    "slug": "voyages-et-interculturalite",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Voyages et interculturalité",
-    "title_es": "Viajes e interculturalidad",
-    "description": "Camila compare les habitudes culturelles françaises et dominicaines lors d’un exposé pour sa classe.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Comparer des habitudes culturelles et raconter une expérience interculturelle.",
-      "outcomes": [
-        "comparer deux cultures",
-        "décrire un choc culturel",
-        "raconter une expérience de voyage marquante",
-        "exprimer une opinion sur d’autres pays avec nuance"
-      ],
-      "grammar": [
-        "comparaison avancée",
-        "connecteurs d’opposition (alors que, tandis que)",
-        "discours rapporté simple"
-      ],
-      "vocabulary": [
-        "une habitude culturelle",
-        "un choc culturel",
-        "ce qui m’a surpris",
-        "tandis que"
-      ],
-      "scenario": "Camila prépare un exposé pour sa classe sur les différences culturelles entre la France et la République dominicaine."
-    }
-  },
-  {
-    "slug": "technologie-et-societe",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Technologie et société",
-    "title_es": "Tecnología y sociedad",
-    "description": "La classe de Camila débat des avantages et des risques des réseaux sociaux chez les jeunes.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Argumenter sur les avantages et les risques de la technologie de façon simple.",
-      "outcomes": [
-        "présenter des avantages et des inconvénients",
-        "exprimer un accord/désaccord nuancé",
-        "utiliser des connecteurs d’argumentation",
-        "comprendre un débat simple"
-      ],
-      "grammar": [
-        "connecteurs d’argumentation (d’une part/d’autre part, cependant)",
-        "expression de l’opinion nuancée",
-        "subjonctif présent introductorio (il est important que)"
-      ],
-      "vocabulary": [
-        "un avantage / un inconvénient",
-        "dépendre de",
-        "un risque",
-        "la vie privée"
-      ],
-      "scenario": "En cours d’éducation civique, la classe de Camila débat de l’impact des réseaux sociaux sur les jeunes."
-    }
-  },
-  {
-    "slug": "sante-et-mode-de-vie",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Santé et mode de vie",
-    "title_es": "Salud y estilo de vida",
-    "description": "Camila remarque qu’elle est souvent stressée avant les examens et cherche des habitudes plus saines avec Madame Lambert.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Parler du stress, des habitudes saines et donner des recommandations de bien-être.",
-      "outcomes": [
-        "décrire le stress et ses causes",
-        "proposer des habitudes de vie saines",
-        "donner des recommandations avec le subjonctif",
-        "comprendre un conseil médical simple"
-      ],
-      "grammar": [
-        "subjonctif présent (recommandations)",
-        "expressions liées au bien-être",
-        "impératif (révision, conseils)"
-      ],
-      "vocabulary": [
-        "le stress",
-        "se détendre",
-        "une habitude saine",
-        "l’activité physique"
-      ],
-      "scenario": "À l’approche des examens de fin d’année, Camila se sent de plus en plus stressée et en parle avec Madame Lambert."
-    }
-  },
-  {
-    "slug": "environnement-et-consommation",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Environnement et consommation",
-    "title_es": "Medioambiente y consumo",
-    "description": "La classe de Camila organise un projet de réduction des déchets pour protéger l’environnement.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Discuter de problèmes environnementaux et proposer des solutions concrètes.",
-      "outcomes": [
-        "parler des problèmes environnementaux",
-        "proposer des solutions et des projets écologiques",
-        "exprimer la cause et la conséquence",
-        "utiliser il faut que pour proposer une action collective"
-      ],
-      "grammar": [
-        "cause et conséquence (parce que, donc, c’est pourquoi)",
-        "subjonctif (proposition d’action)",
-        "quantificateurs (trop de, moins de)"
-      ],
-      "vocabulary": [
-        "le recyclage",
-        "les déchets",
-        "l’environnement",
-        "réduire"
-      ],
-      "scenario": "La classe de Camila organise un projet écologique pour réduire les déchets au lycée."
-    }
-  },
-  {
-    "slug": "medias-et-information",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Médias et information",
-    "title_es": "Medios e información",
-    "description": "La classe de Camila apprend à distinguer une information fiable d’une fausse nouvelle sur internet.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Distinguer une source fiable d’une désinformation et exprimer une opinion sur une information.",
-      "outcomes": [
-        "identifier une source d’information fiable",
-        "exprimer un doute ou une certitude",
-        "reformuler une information au discours indirect",
-        "donner son opinion sur une nouvelle"
-      ],
-      "grammar": [
-        "discours indirect simple (il a dit que)",
-        "expression du doute et de la certitude",
-        "connecteurs d’explication (c’est-à-dire, en effet)"
-      ],
-      "vocabulary": [
-        "une source fiable",
-        "une fausse nouvelle",
-        "vérifier",
-        "douter de"
-      ],
-      "scenario": "En cours de français, la classe de Camila analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable."
-    }
-  },
-  {
-    "slug": "relations-et-conflits",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Relations et conflits",
-    "title_es": "Relaciones y conflictos",
-    "description": "Camila et Léa ont leur premier vrai désaccord depuis l’arrivée de Camila, et apprennent à le résoudre calmement.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Exprimer un désaccord, une émotion, et négocier une solution à un conflit.",
-      "outcomes": [
-        "exprimer une émotion avec précision",
-        "exposer un désaccord respectueusement",
-        "négocier une solution à un petit conflit",
-        "utiliser le subjonctif après des expressions d’émotion"
-      ],
-      "grammar": [
-        "subjonctif après les expressions d’émotion (je suis triste que, ça me dérange que)",
-        "expressions de négociation",
-        "connecteurs de concession (même si)"
-      ],
-      "vocabulary": [
-        "un désaccord",
-        "se sentir blessé(e)",
-        "trouver un compromis",
-        "se réconcilier"
-      ],
-      "scenario": "Camila et Léa se disputent pour la première fois à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit."
     }
   },
   {
@@ -5170,439 +4705,1000 @@
     }
   },
   {
-    "slug": "hola-mucho-gusto",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "¡Hola! Mucho gusto",
-    "title_es": "",
-    "description": "Saludos, despedidas, presentarse y el alfabeto.",
+    "slug": "new-challenges",
+    "target_language": "english",
+    "level": "B1",
+    "title": "New Challenges",
+    "title_es": "Nuevos retos",
+    "description": "Adjusting to bigger responsibilities at work and in daily life.",
     "order_index": 1,
     "unit_overview": {
-      "objective": "Presentarte, saludar y conocer a otras personas.",
+      "objective": "Describe changes, challenges and personal progress with clear B1 detail.",
       "outcomes": [
-        "decir tu nombre",
-        "preguntar el nombre de otra persona",
-        "usar saludos formales e informales",
-        "deletrear información básica"
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "verbo to be",
-        "subject pronouns",
-        "basic questions"
+        "Present Perfect vs. Past Simple"
       ],
       "vocabulary": [
-        "greetings",
-        "names",
-        "classroom expressions",
-        "numbers 0–20"
+        "take on",
+        "challenge",
+        "make progress",
+        "deadline"
       ],
-      "scenario": "Tu primer día en una clase de inglés."
+      "scenario": "Sarah receives a new project at the design company while Daniel prepares for a professional English interview."
     }
   },
   {
-    "slug": "informacion-personal",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Información personal",
-    "title_es": "",
-    "description": "Edad, nacionalidad, procedencia y datos de contacto.",
+    "slug": "work-and-ambition",
+    "target_language": "english",
+    "level": "B1",
+    "title": "Work and Ambition",
+    "title_es": "Trabajo y ambicion",
+    "description": "Talking about goals, choices and professional plans.",
     "order_index": 2,
-    "unit_overview": null
+    "unit_overview": {
+      "objective": "Explain ambitions, compare options and justify career decisions.",
+      "outcomes": [
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
+      ],
+      "grammar": [
+        "Future forms: will, going to and Present Continuous"
+      ],
+      "vocabulary": [
+        "ambition",
+        "promotion",
+        "apply for",
+        "arrange"
+      ],
+      "scenario": "Sarah considers applying for a promotion while Daniel waits for news after his interview."
+    }
   },
   {
-    "slug": "mi-familia-y-mis-amigos",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi familia y mis amigos",
-    "title_es": "",
-    "description": "Miembros de la familia, posesivos y describir personas.",
+    "slug": "community-life",
+    "target_language": "english",
+    "level": "B1",
+    "title": "Community Life",
+    "title_es": "Vida comunitaria",
+    "description": "Participating in local events and expressing opinions politely.",
     "order_index": 3,
-    "unit_overview": null
+    "unit_overview": {
+      "objective": "Discuss community problems and suggest realistic solutions.",
+      "outcomes": [
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
+      ],
+      "grammar": [
+        "Modals for advice, obligation and possibility"
+      ],
+      "vocabulary": [
+        "neighbourhood",
+        "resident",
+        "volunteer",
+        "proposal"
+      ],
+      "scenario": "Sarah and Daniel attend a neighbourhood meeting about improving a small public park."
+    }
   },
   {
-    "slug": "mi-rutina-diaria",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi rutina diaria",
-    "title_es": "",
-    "description": "Actividades cotidianas, la hora y el presente de indicativo.",
+    "slug": "travel-with-purpose",
+    "target_language": "english",
+    "level": "B1",
+    "title": "Travel with Purpose",
+    "title_es": "Viajar con proposito",
+    "description": "Planning meaningful trips and dealing with unexpected changes.",
     "order_index": 4,
-    "unit_overview": null
+    "unit_overview": {
+      "objective": "Narrate travel experiences and respond to problems while travelling.",
+      "outcomes": [
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
+      ],
+      "grammar": [
+        "Past Continuous and Past Simple"
+      ],
+      "vocabulary": [
+        "itinerary",
+        "delay",
+        "announcement",
+        "get lost"
+      ],
+      "scenario": "Sarah and Daniel take a weekend trip to York and learn to adapt when plans change."
+    }
   },
   {
-    "slug": "mi-casa",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi casa",
-    "title_es": "",
-    "description": "Habitaciones, muebles y describir una vivienda.",
+    "slug": "health-and-balance",
+    "target_language": "english",
+    "level": "B1",
+    "title": "Health and Balance",
+    "title_es": "Salud y equilibrio",
+    "description": "Talking about stress, habits and realistic self-care.",
     "order_index": 5,
-    "unit_overview": null
+    "unit_overview": {
+      "objective": "Explain habits, give advice and discuss stress in a balanced way.",
+      "outcomes": [
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
+      ],
+      "grammar": [
+        "Gerunds and infinitives"
+      ],
+      "vocabulary": [
+        "balance",
+        "stressful",
+        "routine",
+        "avoid"
+      ],
+      "scenario": "After several busy weeks, Sarah and Daniel rethink their routines and boundaries."
+    }
   },
   {
-    "slug": "mi-barrio-y-mi-ciudad",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi barrio y mi ciudad",
-    "title_es": "",
-    "description": "Lugares de la ciudad, direcciones y transporte.",
+    "slug": "money-and-choices",
+    "target_language": "english",
+    "level": "B1",
+    "title": "Money and Choices",
+    "title_es": "Dinero y decisiones",
+    "description": "Discussing budgets, priorities and financial decisions.",
     "order_index": 6,
-    "unit_overview": null
+    "unit_overview": {
+      "objective": "Compare financial options and explain personal priorities.",
+      "outcomes": [
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
+      ],
+      "grammar": [
+        "First conditional"
+      ],
+      "vocabulary": [
+        "budget",
+        "save up",
+        "afford",
+        "priority"
+      ],
+      "scenario": "Sarah wants to take a professional course, but she and Daniel need to review their budget first."
+    }
   },
   {
-    "slug": "comida-y-bebida",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Comida y bebida",
-    "title_es": "",
-    "description": "Alimentos, pedir comida y expresar gustos.",
+    "slug": "digital-life",
+    "target_language": "english",
+    "level": "B1",
+    "title": "Digital Life",
+    "title_es": "Vida digital",
+    "description": "Using technology responsibly and talking about online habits.",
     "order_index": 7,
-    "unit_overview": null
+    "unit_overview": {
+      "objective": "Discuss online behaviour, advantages and disadvantages of technology.",
+      "outcomes": [
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
+      ],
+      "grammar": [
+        "Relative clauses"
+      ],
+      "vocabulary": [
+        "screen time",
+        "notification",
+        "privacy",
+        "device"
+      ],
+      "scenario": "A phone notification during dinner starts a conversation about online habits."
+    }
   },
   {
-    "slug": "de-compras",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "De compras",
-    "title_es": "",
-    "description": "Ropa, colores, tallas y precios.",
+    "slug": "culture-and-media",
+    "target_language": "english",
+    "level": "B1",
+    "title": "Culture and Media",
+    "title_es": "Cultura y medios",
+    "description": "Talking about films, books, reviews and cultural opinions.",
     "order_index": 8,
-    "unit_overview": null
+    "unit_overview": {
+      "objective": "Express opinions about media and support them with examples.",
+      "outcomes": [
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
+      ],
+      "grammar": [
+        "Comparatives and superlatives with modifiers"
+      ],
+      "vocabulary": [
+        "review",
+        "plot",
+        "character",
+        "moving"
+      ],
+      "scenario": "Sarah and Daniel join a small film club and learn to explain their opinions more clearly."
+    }
   },
   {
-    "slug": "estudios-y-trabajo",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Estudios y trabajo",
-    "title_es": "",
-    "description": "Estudios, profesiones y responsabilidades sencillas.",
+    "slug": "relationships-and-decisions",
+    "target_language": "english",
+    "level": "B1",
+    "title": "Relationships and Decisions",
+    "title_es": "Relaciones y decisiones",
+    "description": "Discussing personal decisions, compromise and communication.",
     "order_index": 9,
-    "unit_overview": null
+    "unit_overview": {
+      "objective": "Talk about disagreement, compromise and shared plans.",
+      "outcomes": [
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
+      ],
+      "grammar": [
+        "Second conditional"
+      ],
+      "vocabulary": [
+        "compromise",
+        "point of view",
+        "disagree",
+        "imagine"
+      ],
+      "scenario": "A job possibility in another city makes Sarah and Daniel discuss the future seriously."
+    }
   },
   {
-    "slug": "tiempo-libre",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Tiempo libre",
-    "title_es": "",
-    "description": "Pasatiempos, preferencias e invitaciones.",
+    "slug": "looking-ahead",
+    "target_language": "english",
+    "level": "B1",
+    "title": "Looking Ahead",
+    "title_es": "Mirando hacia adelante",
+    "description": "Reflecting on progress and making realistic future plans.",
     "order_index": 10,
-    "unit_overview": null
+    "unit_overview": {
+      "objective": "Summarise progress, describe lessons learned and set future goals.",
+      "outcomes": [
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
+      ],
+      "grammar": [
+        "Reported speech"
+      ],
+      "vocabulary": [
+        "reflect on",
+        "achievement",
+        "set a goal",
+        "advice"
+      ],
+      "scenario": "Sarah and Daniel look back on a year of changes and decide what they want next."
+    }
   },
   {
-    "slug": "salud-y-bienestar-a1",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "No me siento bien",
-    "title_es": "",
-    "description": "Partes del cuerpo, malestares frecuentes y cómo pedir ayuda en una farmacia.",
+    "slug": "sustainable-futures",
+    "target_language": "english",
+    "level": "B1",
+    "title": "Sustainable Futures",
+    "title_es": "Futuros sostenibles",
+    "description": "Discussing environmental choices and practical community action.",
     "order_index": 11,
     "unit_overview": {
-      "objective": "Expresar cómo te sientes, decir qué te duele y pedir ayuda de forma sencilla.",
+      "objective": "Explain environmental problems, their causes and realistic solutions.",
       "outcomes": [
-        "nombrar partes básicas del cuerpo",
-        "expresar un dolor o un malestar",
-        "preguntar a otra persona qué le duele",
-        "comprender recomendaciones sencillas"
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
       ],
       "grammar": [
-        "me duele + singular",
-        "me duelen + plural",
-        "tener + síntoma",
-        "estar + estado"
+        "Passive voice in the present and past"
       ],
       "vocabulary": [
-        "partes del cuerpo",
-        "síntomas frecuentes",
-        "la farmacia",
-        "recomendaciones básicas"
+        "sustainable",
+        "waste",
+        "recycle",
+        "renewable"
       ],
-      "scenario": "No te sientes bien y explicas tus síntomas en una farmacia."
+      "scenario": "Sarah and Daniel join a neighbourhood project that reduces waste and improves a shared garden."
     }
   },
   {
-    "slug": "planes-y-repaso",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Planes y repaso",
-    "title_es": "",
-    "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
+    "slug": "learning-and-communication",
+    "target_language": "english",
+    "level": "B1",
+    "title": "Learning and Communication",
+    "title_es": "Aprendizaje y comunicación",
+    "description": "Developing study strategies and communicating clearly across cultures.",
     "order_index": 12,
-    "unit_overview": null
+    "unit_overview": {
+      "objective": "Explain learning strategies, communication problems and ways to improve.",
+      "outcomes": [
+        "understand a B1 narrative with connected paragraphs",
+        "explain opinions and decisions with reasons",
+        "use the target grammar in realistic contexts",
+        "reuse key vocabulary in speaking and writing"
+      ],
+      "grammar": [
+        "Question forms and indirect questions"
+      ],
+      "vocabulary": [
+        "clarify",
+        "misunderstanding",
+        "strategy",
+        "take notes"
+      ],
+      "scenario": "Sarah begins a professional course while Daniel helps international guests understand local information."
+    }
   },
   {
-    "slug": "everyday-life",
-    "target_language": "english",
-    "level": "A2",
-    "title": "Everyday Life",
-    "title_es": "La vida cotidiana",
-    "description": "Routines, schedules and activities happening right now.",
+    "slug": "projets-et-avenir",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Projets et avenir",
+    "title_es": "Proyectos y futuro",
+    "description": "Camila réfléchit à son avenir et discute de ses projets avec Léa et Karim.",
     "order_index": 1,
     "unit_overview": {
-      "objective": "Hablar de rutinas diarias, horarios y lo que está pasando en este momento.",
+      "objective": "Exprimer un projet, formuler une hypothèse et justifier un choix.",
       "outcomes": [
-        "describir tu rutina diaria con adverbios de frecuencia",
-        "distinguir cuándo usar Present Simple y cuándo Present Continuous",
-        "hablar de tareas domésticas y del tiempo libre",
-        "entender y escribir un correo o mensaje sobre tu semana"
+        "parler de projets avec le futur simple",
+        "exprimer une hypothèse avec si + présent",
+        "donner son opinion et la justifier",
+        "comparer deux options avec nuance"
       ],
       "grammar": [
-        "Present Simple vs. Present Continuous"
+        "futur simple",
+        "hypothèse avec si + présent",
+        "conditionnel présent (politesse et hypothèse)",
+        "connecteurs d’opinion"
       ],
       "vocabulary": [
-        "daily routines",
-        "time expressions",
-        "household activities"
+        "le projet",
+        "l’avenir",
+        "à mon avis",
+        "d’un côté / de l’autre côté"
       ],
-      "scenario": "Una semana normal se vuelve especial cuando recibes una visita inesperada."
+      "scenario": "À quelques mois de la fin de son année d’échange, Camila doit décider si elle prolonge son séjour en France."
     }
   },
   {
-    "slug": "family-and-relationships",
-    "target_language": "english",
-    "level": "A2",
-    "title": "Family and Relationships",
-    "title_es": "La familia y las relaciones",
-    "description": "Family members, personalities, and a big Sunday lunch with the whole family.",
+    "slug": "identite-et-parcours-personnel",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Identité et parcours personnel",
+    "title_es": "Identidad y trayectoria personal",
+    "description": "Camila écrit une courte biographie pour un projet scolaire sur son parcours et les changements vécus depuis son arrivée en France.",
     "order_index": 2,
     "unit_overview": {
-      "objective": "Hablar de tu familia, describir personalidades y relaciones usando have got/has got.",
+      "objective": "Raconter son parcours personnel et décrire comment on a changé.",
       "outcomes": [
-        "describir a los miembros de tu familia y sus características",
-        "usar have got / has got para hablar de posesiones y rasgos físicos",
-        "usar el genitivo sajón ('s) para mostrar relaciones y pertenencia",
-        "entender un texto sobre una reunión familiar"
+        "raconter une biographie simple",
+        "décrire un changement personnel",
+        "consolider l’usage du passé composé et de l’imparfait",
+        "exprimer une évolution dans le temps"
       ],
       "grammar": [
-        "Have got / Has got",
-        "Possessive 's"
+        "imparfait (introduction)",
+        "contraste passé composé / imparfait",
+        "expressions de temps (avant, maintenant, depuis)"
       ],
       "vocabulary": [
-        "family members",
-        "relationships",
-        "personality adjectives"
+        "le parcours",
+        "changer",
+        "grandir",
+        "devenir"
       ],
-      "scenario": "La familia de Sarah se reúne cada mes para un gran almuerzo dominical, y hoy Sarah lleva a alguien nuevo."
+      "scenario": "Pour un projet scolaire, Camila écrit une courte biographie sur son parcours et sur la façon dont elle a changé depuis son arrivée en France."
     }
   },
   {
-    "slug": "home-and-neighborhood",
-    "target_language": "english",
-    "level": "A2",
-    "title": "Home and Neighborhood",
-    "title_es": "La casa y el vecindario",
-    "description": "Sarah visits Lucy's new flat in Leeds and explores rooms, furniture and the neighborhood.",
+    "slug": "etudes-et-apprentissage",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Études et apprentissage",
+    "title_es": "Estudios y aprendizaje",
+    "description": "Camila partage ses stratégies pour apprendre le français et discute de ses difficultés scolaires avec Karim.",
     "order_index": 3,
     "unit_overview": {
-      "objective": "Describir casas, habitaciones y vecindarios usando there is/there are y preposiciones de lugar.",
+      "objective": "Parler de stratégies d’apprentissage et exprimer des difficultés et des progrès scolaires.",
       "outcomes": [
-        "describir las habitaciones y los muebles de una casa",
-        "usar there is / there are para hablar de lo que existe en un lugar",
-        "usar preposiciones de lugar (next to, between, opposite, near, on the corner of)",
-        "entender un texto sobre una visita a un piso nuevo"
+        "décrire des stratégies d’apprentissage",
+        "exprimer une difficulté et un progrès",
+        "donner un conseil académique",
+        "utiliser le conditionnel présent pour suggérer"
       ],
       "grammar": [
-        "There is / There are",
-        "Prepositions of place"
+        "conditionnel présent (suggestion)",
+        "expressions de difficulté et de progrès",
+        "gérondif introductoire (en + participe présent)"
       ],
       "vocabulary": [
-        "rooms and furniture",
-        "neighborhood places",
-        "describing a home"
+        "réviser",
+        "progresser",
+        "une difficulté",
+        "un conseil"
       ],
-      "scenario": "Sarah visita el piso nuevo de Lucy en Leeds por primera vez y descubre su vecindario."
+      "scenario": "Camila a un examen de mathématiques important et demande des conseils d’étude à Karim."
     }
   },
   {
-    "slug": "food-and-shopping",
-    "target_language": "english",
-    "level": "A2",
-    "title": "Food and Shopping",
-    "title_es": "La comida y las compras",
-    "description": "Sarah cooks dinner for Daniel for the first time, from the shopping list to the table.",
+    "slug": "monde-du-travail",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Monde du travail",
+    "title_es": "El mundo laboral",
+    "description": "Karim prépare un entretien pour un stage d’été et demande à Camila de l’aider à s’entraîner.",
     "order_index": 4,
     "unit_overview": {
-      "objective": "Hablar de comida, cantidades y compras usando sustantivos contables e incontables.",
+      "objective": "Comprendre et simuler un entretien d’embauche, écrire un e-mail formel.",
       "outcomes": [
-        "diferenciar sustantivos contables e incontables",
-        "usar some, any, much, many correctamente",
-        "preguntar y responder con How much...? / How many...?",
-        "entender un texto sobre ir de compras y cocinar"
+        "parler de professions et de compétences",
+        "simuler un entretien d’embauche",
+        "écrire un e-mail formel",
+        "utiliser le conditionnel de politesse dans un contexte professionnel"
       ],
       "grammar": [
-        "Countable and uncountable nouns",
-        "Some / any / much / many"
+        "conditionnel de politesse (révision approfondie)",
+        "vocabulaire formel vs informel",
+        "structure d’un e-mail formel"
       ],
       "vocabulary": [
-        "food and ingredients",
-        "shopping",
-        "quantities"
+        "le CV",
+        "un entretien d’embauche",
+        "les compétences",
+        "postuler"
       ],
-      "scenario": "Sarah cocina cena para Daniel por primera vez, y todo empieza con una lista de compras."
+      "scenario": "Karim a un entretien pour un stage d’été dans une bibliothèque et demande à Camila de l’aider à se préparer."
     }
   },
   {
-    "slug": "past-experiences",
-    "target_language": "english",
-    "level": "A2",
-    "title": "Past Experiences",
-    "title_es": "Experiencias pasadas",
-    "description": "Sarah tells Daniel about the summer she backpacked through Europe with Lucy.",
+    "slug": "voyages-et-interculturalite",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Voyages et interculturalité",
+    "title_es": "Viajes e interculturalidad",
+    "description": "Camila compare les habitudes culturelles françaises et dominicaines lors d’un exposé pour sa classe.",
     "order_index": 5,
     "unit_overview": {
-      "objective": "Hablar de experiencias pasadas usando el Past Simple, verbos regulares e irregulares.",
+      "objective": "Comparer des habitudes culturelles et raconter une expérience interculturelle.",
       "outcomes": [
-        "contar una historia o experiencia pasada en orden cronológico",
-        "usar el Past Simple afirmativo, negativo e interrogativo",
-        "reconocer y usar verbos irregulares comunes",
-        "entender un relato largo sobre un viaje"
+        "comparer deux cultures",
+        "décrire un choc culturel",
+        "raconter une expérience de voyage marquante",
+        "exprimer une opinion sur d’autres pays avec nuance"
       ],
       "grammar": [
-        "Past Simple (regular and irregular verbs)"
+        "comparaison avancée",
+        "connecteurs d’opposition (alors que, tandis que)",
+        "discours rapporté simple"
       ],
       "vocabulary": [
-        "travel",
-        "past experiences",
-        "time expressions for the past"
+        "une habitude culturelle",
+        "un choc culturel",
+        "ce qui m’a surpris",
+        "tandis que"
       ],
-      "scenario": "Daniel le pregunta a Sarah sobre su viaje más memorable, y ella le cuenta la historia de una mochila por Europa."
+      "scenario": "Camila prépare un exposé pour sa classe sur les différences culturelles entre la France et la République dominicaine."
     }
   },
   {
-    "slug": "travel-and-transportation",
-    "target_language": "english",
-    "level": "A2",
-    "title": "Travel and Transportation",
-    "title_es": "Los viajes y el transporte",
-    "description": "Sarah and Daniel plan their first trip together, comparing destinations, hotels and transport.",
+    "slug": "technologie-et-societe",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Technologie et société",
+    "title_es": "Tecnología y sociedad",
+    "description": "La classe de Camila débat des avantages et des risques des réseaux sociaux chez les jeunes.",
     "order_index": 6,
     "unit_overview": {
-      "objective": "Comparar destinos, transporte y alojamiento usando comparativos y superlativos.",
+      "objective": "Argumenter sur les avantages et les risques de la technologie de façon simple.",
       "outcomes": [
-        "comparar dos opciones usando adjetivos comparativos",
-        "describir la mejor o peor opción usando superlativos",
-        "hablar de medios de transporte y sus ventajas",
-        "entender un texto sobre planear un viaje"
+        "présenter des avantages et des inconvénients",
+        "exprimer un accord/désaccord nuancé",
+        "utiliser des connecteurs d’argumentation",
+        "comprendre un débat simple"
       ],
       "grammar": [
-        "Comparative and superlative adjectives"
+        "connecteurs d’argumentation (d’une part/d’autre part, cependant)",
+        "expression de l’opinion nuancée",
+        "subjonctif présent introductorio (il est important que)"
       ],
       "vocabulary": [
-        "transportation",
-        "travel planning",
-        "accommodation"
+        "un avantage / un inconvénient",
+        "dépendre de",
+        "un risque",
+        "la vie privée"
       ],
-      "scenario": "Sarah y Daniel planean su primer viaje juntos, comparando ciudades, hoteles y formas de transporte."
+      "scenario": "En cours d’éducation civique, la classe de Camila débat de l’impact des réseaux sociaux sur les jeunes."
     }
   },
   {
-    "slug": "health-and-healthy-habits",
-    "target_language": "english",
-    "level": "A2",
-    "title": "Health and Healthy Habits",
-    "title_es": "La salud y los hábitos saludables",
-    "description": "Sarah catches a cold after the Edinburgh trip, sees a doctor, and decides to build healthier habits.",
+    "slug": "sante-et-mode-de-vie",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Santé et mode de vie",
+    "title_es": "Salud y estilo de vida",
+    "description": "Camila remarque qu’elle est souvent stressée avant les examens et cherche des habitudes plus saines avec Madame Lambert.",
     "order_index": 7,
     "unit_overview": {
-      "objective": "Dar consejos y hablar de obligaciones sobre la salud usando should/shouldn't y have to/don't have to.",
+      "objective": "Parler du stress, des habitudes saines et donner des recommandations de bien-être.",
       "outcomes": [
-        "dar y pedir consejos de salud con should/shouldn't",
-        "hablar de obligaciones y su ausencia con have to / don't have to",
-        "describir síntomas y hábitos saludables",
-        "entender una consulta médica y una conversación sobre cambios de hábito"
+        "décrire le stress et ses causes",
+        "proposer des habitudes de vie saines",
+        "donner des recommandations avec le subjonctif",
+        "comprendre un conseil médical simple"
       ],
       "grammar": [
-        "Should / shouldn't (advice)",
-        "Have to / don't have to (obligation)"
+        "subjonctif présent (recommandations)",
+        "expressions liées au bien-être",
+        "impératif (révision, conseils)"
       ],
       "vocabulary": [
-        "illness and symptoms",
-        "healthy habits",
-        "seeing a doctor"
+        "le stress",
+        "se détendre",
+        "une habitude saine",
+        "l’activité physique"
       ],
-      "scenario": "Sarah se resfría después del viaje a Edimburgo, visita al médico, y decide adoptar hábitos más saludables."
+      "scenario": "À l’approche des examens de fin d’année, Camila se sent de plus en plus stressée et en parle avec Madame Lambert."
     }
   },
   {
-    "slug": "plans-and-celebrations",
-    "target_language": "english",
-    "level": "A2",
-    "title": "Plans and Celebrations",
-    "title_es": "Planes y celebraciones",
-    "description": "Sarah plans a surprise birthday party for Daniel with Lucy's help.",
+    "slug": "environnement-et-consommation",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Environnement et consommation",
+    "title_es": "Medioambiente y consumo",
+    "description": "La classe de Camila organise un projet de réduction des déchets pour protéger l’environnement.",
     "order_index": 8,
     "unit_overview": {
-      "objective": "Hablar de planes y decisiones espontáneas usando 'going to' y 'will'.",
+      "objective": "Discuter de problèmes environnementaux et proposer des solutions concrètes.",
       "outcomes": [
-        "usar 'going to' para hablar de planes ya decididos",
-        "usar 'will' para decisiones espontáneas, ofrecimientos y predicciones",
-        "hablar de celebraciones y organizar un evento",
-        "entender un texto sobre la organización de una fiesta sorpresa"
+        "parler des problèmes environnementaux",
+        "proposer des solutions et des projets écologiques",
+        "exprimer la cause et la conséquence",
+        "utiliser il faut que pour proposer une action collective"
       ],
       "grammar": [
-        "Going to (plans)",
-        "Will (spontaneous decisions and predictions)"
+        "cause et conséquence (parce que, donc, c’est pourquoi)",
+        "subjonctif (proposition d’action)",
+        "quantificateurs (trop de, moins de)"
       ],
       "vocabulary": [
-        "celebrations",
-        "party planning",
-        "invitations"
+        "le recyclage",
+        "les déchets",
+        "l’environnement",
+        "réduire"
       ],
-      "scenario": "Sarah organiza una fiesta sorpresa de cumpleaños para Daniel, con la ayuda de Lucy y el resto de la familia."
+      "scenario": "La classe de Camila organise un projet écologique pour réduire les déchets au lycée."
     }
   },
   {
-    "slug": "school-and-work",
-    "target_language": "english",
-    "level": "A2",
-    "title": "School and Work",
-    "title_es": "La escuela y el trabajo",
-    "description": "Sarah leads her first big project at work and earns a well-deserved promotion.",
+    "slug": "medias-et-information",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Médias et information",
+    "title_es": "Medios e información",
+    "description": "La classe de Camila apprend à distinguer une information fiable d’une fausse nouvelle sur internet.",
     "order_index": 9,
     "unit_overview": {
-      "objective": "Hablar de habilidades y capacidades en el trabajo o los estudios usando can, could y be able to.",
+      "objective": "Distinguer une source fiable d’une désinformation et exprimer une opinion sur une information.",
       "outcomes": [
-        "hablar de habilidades presentes con can y be able to",
-        "hablar de habilidades pasadas con could y was/were able to",
-        "describir un proyecto de trabajo o estudio",
-        "entender un texto sobre un ascenso laboral"
+        "identifier une source d’information fiable",
+        "exprimer un doute ou une certitude",
+        "reformuler une information au discours indirect",
+        "donner son opinion sur une nouvelle"
       ],
       "grammar": [
-        "Can / could / be able to (ability)"
+        "discours indirect simple (il a dit que)",
+        "expression du doute et de la certitude",
+        "connecteurs d’explication (c’est-à-dire, en effet)"
       ],
       "vocabulary": [
-        "work and skills",
-        "projects",
-        "workplace language"
+        "une source fiable",
+        "une fausse nouvelle",
+        "vérifier",
+        "douter de"
       ],
-      "scenario": "A Sarah le ofrecen liderar un proyecto importante en su trabajo, y demuestra que puede con el reto."
+      "scenario": "En cours de français, la classe de Camila analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable."
     }
   },
   {
-    "slug": "stories-and-achievements",
-    "target_language": "english",
-    "level": "A2",
-    "title": "Stories and Achievements",
-    "title_es": "Historias y logros",
-    "description": "On New Year's Eve, Sarah and Daniel look back on everything they have achieved together this year.",
+    "slug": "relations-et-conflits",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Relations et conflits",
+    "title_es": "Relaciones y conflictos",
+    "description": "Camila et Léa ont leur premier vrai désaccord depuis l’arrivée de Camila, et apprennent à le résoudre calmement.",
     "order_index": 10,
     "unit_overview": {
-      "objective": "Hablar de experiencias y logros de vida usando el Present Perfect.",
+      "objective": "Exprimer un désaccord, une émotion, et négocier une solution à un conflit.",
       "outcomes": [
-        "hablar de experiencias de vida con el Present Perfect",
-        "usar ever, never, just y already correctamente",
-        "reflexionar sobre logros personales",
-        "entender una conversación de fin de año sobre logros"
+        "exprimer une émotion avec précision",
+        "exposer un désaccord respectueusement",
+        "négocier une solution à un petit conflit",
+        "utiliser le subjonctif après des expressions d’émotion"
       ],
       "grammar": [
-        "Present Perfect (life experiences: ever, never, just, already)"
+        "subjonctif après les expressions d’émotion (je suis triste que, ça me dérange que)",
+        "expressions de négociation",
+        "connecteurs de concession (même si)"
       ],
       "vocabulary": [
-        "life experiences",
-        "achievements",
-        "reflecting on the past"
+        "un désaccord",
+        "se sentir blessé(e)",
+        "trouver un compromis",
+        "se réconcilier"
       ],
-      "scenario": "En Nochevieja, Sarah y Daniel repasan todo lo que han vivido y logrado juntos a lo largo del año."
+      "scenario": "Camila et Léa se disputent pour la première fois à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit."
+    }
+  },
+  {
+    "slug": "retour-a-saint-domingue",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Retour à Saint-Domingue",
+    "title_es": "Regreso a Santo Domingo",
+    "description": "Camila retrouve sa famille et ses amis d’enfance à Saint-Domingue, avec un regard transformé par son année en France.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Décrire un retour au pays et exprimer un sentiment ambivalent avec nuance.",
+      "outcomes": [
+        "décrire des retrouvailles avec précision émotionnelle",
+        "exprimer une nostalgie tout en valorisant le présent",
+        "utiliser le plus-que-parfait pour situer un souvenir dans le passé",
+        "nuancer une opinion sur deux lieux de vie différents"
+      ],
+      "grammar": [
+        "plus-que-parfait",
+        "concordance des temps (passé)",
+        "nuance et modération de l’opinion"
+      ],
+      "vocabulary": [
+        "les retrouvailles",
+        "le mal du pays",
+        "ambivalent(e)",
+        "avoir le sentiment de"
+      ],
+      "scenario": "Camila atterrit à Saint-Domingue après un an d’absence et retrouve sa famille et Sofía à l’aéroport."
+    }
+  },
+  {
+    "slug": "candidature-universitaire",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Candidature universitaire",
+    "title_es": "Solicitud universitaria",
+    "description": "Camila prépare sa candidature pour étudier à l’université en France, avec l’aide à distance de Léa et Karim.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Rédiger une lettre de motivation et argumenter un projet académique de façon structurée.",
+      "outcomes": [
+        "structurer une lettre de motivation formelle",
+        "argumenter un choix académique avec des exemples concrets",
+        "utiliser le subjonctif passé pour évoquer une expérience accomplie",
+        "nuancer une auto-présentation sans excès de modestie ni d’arrogance"
+      ],
+      "grammar": [
+        "subjonctif passé",
+        "connecteurs d’argumentation avancés (par ailleurs, en outre)",
+        "structure d’une lettre de motivation"
+      ],
+      "vocabulary": [
+        "une lettre de motivation",
+        "un dossier de candidature",
+        "convaincant(e)",
+        "se démarquer"
+      ],
+      "scenario": "Camila rédige sa lettre de motivation pour candidater à une licence de langues à l’université de Tours."
+    }
+  },
+  {
+    "slug": "debats-de-societe",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Débats de société",
+    "title_es": "Debates de sociedad",
+    "description": "Dans un club de discussion en ligne avec Karim, Camila débat de sujets de société complexes en français.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Participer à un débat structuré sur un sujet de société et défendre une position nuancée.",
+      "outcomes": [
+        "structurer un argument avec des connecteurs logiques avancés",
+        "anticiper et réfuter un contre-argument",
+        "utiliser la voix passive dans un contexte argumentatif",
+        "nuancer une position sans paraître catégorique"
+      ],
+      "grammar": [
+        "la voix passive",
+        "connecteurs d’argumentation avancés (néanmoins, or, par conséquent)",
+        "nuance argumentative (il me semble que, dans une certaine mesure)"
+      ],
+      "vocabulary": [
+        "un point de vue",
+        "réfuter",
+        "dans une certaine mesure",
+        "un contre-argument"
+      ],
+      "scenario": "Camila rejoint un club de discussion en ligne où des étudiants francophones débattent de sujets de société, dont l’usage des écrans chez les jeunes."
+    }
+  },
+  {
+    "slug": "le-teletravail-et-lavenir-professionnel",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Le télétravail et l’avenir professionnel",
+    "title_es": "El teletrabajo y el futuro profesional",
+    "description": "En attendant la réponse de l’université, Camila décroche un petit emploi de traduction à distance et découvre les avantages et limites du télétravail.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Décrire une expérience professionnelle et peser les avantages et inconvénients du télétravail.",
+      "outcomes": [
+        "décrire une routine de travail à distance",
+        "peser des avantages et des inconvénients avec nuance",
+        "utiliser le gérondif pour exprimer la simultanéité",
+        "employer des pronoms relatifs composés (dont, ce dont)"
+      ],
+      "grammar": [
+        "le gérondif (en + participe présent)",
+        "pronoms relatifs composés (dont, ce dont)",
+        "expressions de nuance professionnelle"
+      ],
+      "vocabulary": [
+        "le télétravail",
+        "la productivité",
+        "l’isolement",
+        "gérer son temps"
+      ],
+      "scenario": "Camila commence un petit emploi de traduction à distance pour une agence tout en attendant la réponse de l’université."
+    }
+  },
+  {
+    "slug": "litterature-francophone",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Littérature francophone",
+    "title_es": "Literatura francófona",
+    "description": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen, mêlant sa propre culture à la langue qu’elle a apprise.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Analyser un extrait littéraire simple et rapporter les propos d’un auteur au discours indirect.",
+      "outcomes": [
+        "analyser le thème et le ton d’un extrait littéraire",
+        "rapporter des propos au discours indirect au passé",
+        "utiliser des pronoms relatifs composés (lequel, laquelle)",
+        "exprimer une impression de lecture avec nuance"
+      ],
+      "grammar": [
+        "discours indirect au passé",
+        "pronoms relatifs composés (lequel, auquel, duquel)",
+        "expressions d’analyse littéraire"
+      ],
+      "vocabulary": [
+        "un extrait",
+        "le narrateur",
+        "évoquer",
+        "un thème récurrent"
+      ],
+      "scenario": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen évoquant l’identité et le déracinement."
+    }
+  },
+  {
+    "slug": "cinema-et-critique",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Cinéma et critique",
+    "title_es": "Cine y crítica",
+    "description": "Camila regarde un film français avec Sofía et rédige sa première critique de cinéma argumentée.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Rédiger une critique de film structurée avec des arguments et une évaluation nuancée.",
+      "outcomes": [
+        "décrire l’intrigue d’un film sans trop en révéler",
+        "évaluer la mise en scène et le jeu des acteurs",
+        "utiliser ce qui / ce que pour résumer une impression",
+        "nuancer une critique entre points forts et points faibles"
+      ],
+      "grammar": [
+        "ce qui / ce que (récapitulatif)",
+        "expressions d’évaluation critique",
+        "comparatifs et superlatifs avancés"
+      ],
+      "vocabulary": [
+        "la mise en scène",
+        "le scénario",
+        "un rebondissement",
+        "convaincant(e) (cinéma)"
+      ],
+      "scenario": "Camila et Sofía regardent ensemble un film français récent, et Camila décide d’en écrire une critique pour son blog personnel."
+    }
+  },
+  {
+    "slug": "dilemmes-ethiques",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Dilemmes éthiques",
+    "title_es": "Dilemas éticos",
+    "description": "Dans un forum de discussion philosophique, Camila débat d’un dilemme moral et explore des hypothèses complexes avec le club de lecture.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Discuter d’un dilemme moral et formuler des hypothèses complexes sur le passé.",
+      "outcomes": [
+        "présenter un dilemme éthique avec précision",
+        "formuler une hypothèse irréelle sur le passé",
+        "utiliser le conditionnel passé pour exprimer un regret ou un reproche",
+        "nuancer un jugement moral sans catégoriser trop vite"
+      ],
+      "grammar": [
+        "hypothèse avec si + plus-que-parfait / conditionnel passé",
+        "le conditionnel passé (regret, reproche)",
+        "nuance du jugement moral"
+      ],
+      "vocabulary": [
+        "un dilemme",
+        "une valeur",
+        "juger",
+        "se mettre à la place de"
+      ],
+      "scenario": "Camila participe à un forum de discussion philosophique en ligne où l’on débat d’un dilemme moral classique."
+    }
+  },
+  {
+    "slug": "sciences-et-innovations",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Sciences et innovations",
+    "title_es": "Ciencias e innovaciones",
+    "description": "Karim partage un article de vulgarisation scientifique sur l’intelligence artificielle, et Camila apprend à discuter de sciences en français.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Comprendre et discuter d’un texte de vulgarisation scientifique avec nuance.",
+      "outcomes": [
+        "comprendre un texte de vulgarisation scientifique",
+        "exprimer une incertitude ou une probabilité scientifique",
+        "utiliser des connecteurs de cause scientifique (étant donné que, dans la mesure où)",
+        "nuancer une opinion sur une innovation technologique"
+      ],
+      "grammar": [
+        "subjonctif d’incertitude (il est possible que, il se peut que)",
+        "connecteurs de cause avancés (étant donné que, dans la mesure où)",
+        "expression de la probabilité"
+      ],
+      "vocabulary": [
+        "l’intelligence artificielle",
+        "un algorithme",
+        "une avancée",
+        "les répercussions"
+      ],
+      "scenario": "Karim, passionné de technologie, partage avec Camila un article sur l’intelligence artificielle et ses répercussions sur la société."
+    }
+  },
+  {
+    "slug": "histoire-et-memoire",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Histoire et mémoire",
+    "title_es": "Historia y memoria",
+    "description": "En regardant un documentaire avec sa grand-mère, Camila explore l’histoire partagée de la Caraïbe francophone et hispanophone.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Comprendre un récit historique et discuter de la mémoire collective avec nuance.",
+      "outcomes": [
+        "comprendre un récit historique complexe",
+        "discuter de la mémoire collective et de ses interprétations multiples",
+        "utiliser les pronoms démonstratifs (celui, celle, ceux, celles)",
+        "nuancer un point de vue sur un événement historique sensible"
+      ],
+      "grammar": [
+        "pronoms démonstratifs (celui, celle, ceux, celles, celui-ci/celui-là)",
+        "l’accord du participe passé avec avoir (complément direct antéposé)",
+        "expressions de la mémoire historique"
+      ],
+      "vocabulary": [
+        "la mémoire collective",
+        "un héritage",
+        "une perspective",
+        "transmettre"
+      ],
+      "scenario": "Camila regarde un documentaire sur l’histoire partagée d’Haïti et de la République dominicaine avec sa grand-mère, qui lui raconte ses propres souvenirs familiaux."
+    }
+  },
+  {
+    "slug": "ecologie-et-engagement-citoyen",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Écologie et engagement citoyen",
+    "title_es": "Ecología y compromiso ciudadano",
+    "description": "Camila rejoint un groupe de jeunes engagés pour la protection des mangroves de Saint-Domingue et rédige une pétition en français pour un partenariat associatif.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Exprimer un but et une opinion négative nuancée dans un contexte d’engagement citoyen.",
+      "outcomes": [
+        "exprimer un but avec afin que + subjonctif",
+        "formuler une opinion négative nuancée (je ne pense pas que + subjonctif)",
+        "rédiger une pétition ou un appel à l’action structuré",
+        "comparer des politiques environnementales avec des comparatifs avancés"
+      ],
+      "grammar": [
+        "expression du but (afin que, pour que + subjonctif)",
+        "opinion négative + subjonctif (je ne pense pas que, je ne crois pas que)",
+        "comparatifs et superlatifs dans un contexte argumentatif"
+      ],
+      "vocabulary": [
+        "une mangrove",
+        "la biodiversité",
+        "un engagement citoyen",
+        "une pétition"
+      ],
+      "scenario": "Camila rejoint un groupe de jeunes bénévoles qui protège les mangroves près de Saint-Domingue et doit rédiger, en français, une demande de partenariat à une association francophone."
+    }
+  },
+  {
+    "slug": "art-et-creativite",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Art et créativité",
+    "title_es": "Arte y creatividad",
+    "description": "Camila interviewe, pour son blog, une artiste peintre franco-dominicaine qui explore l’identité caribéenne dans son travail.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Mener une interview structurée et rapporter des propos sur le processus créatif.",
+      "outcomes": [
+        "préparer et mener une interview structurée",
+        "rapporter les propos d’un artiste avec précision",
+        "utiliser des comparatifs et superlatifs avancés dans un contexte artistique",
+        "décrire un processus créatif avec un vocabulaire précis"
+      ],
+      "grammar": [
+        "comparatifs et superlatifs avancés (autant que, de moins en moins)",
+        "discours rapporté (révision élargie)",
+        "expressions du processus créatif"
+      ],
+      "vocabulary": [
+        "une œuvre",
+        "un processus créatif",
+        "s’inspirer de",
+        "une exposition"
+      ],
+      "scenario": "Pour son blog, Camila interviewe une artiste peintre franco-dominicaine dont le travail explore l’identité caribéenne."
+    }
+  },
+  {
+    "slug": "bilan-et-projets-davenir",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Bilan et projets d’avenir",
+    "title_es": "Balance y proyectos de futuro",
+    "description": "Camila reçoit la réponse de l’université de Tours et fait le bilan de tout ce qu’elle a accompli et appris depuis son premier jour d’échange scolaire.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Faire un bilan personnel structuré et exprimer des projets d’avenir avec assurance.",
+      "outcomes": [
+        "faire le bilan d’un parcours personnel complet",
+        "exprimer un projet d’avenir avec des hypothèses nuancées",
+        "utiliser le conditionnel passé pour évoquer ce qui aurait pu se passer différemment",
+        "conclure une réflexion personnelle avec clarté et maturité"
+      ],
+      "grammar": [
+        "récapitulatif : conditionnel passé, subjonctif, hypothèses complexes",
+        "expressions de bilan (avec le recul, en fin de compte)",
+        "expression de la certitude et de la détermination"
+      ],
+      "vocabulary": [
+        "un bilan",
+        "avec le recul",
+        "un accomplissement",
+        "être déterminé(e) à"
+      ],
+      "scenario": "Camila reçoit enfin la réponse de l’université de Tours et écrit une lettre ouverte à la Camila d’il y a deux ans, avant son départ pour la France."
     }
   }
 ]

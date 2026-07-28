@@ -1,78 +1,75 @@
-const OPTION_IDS = ['a', 'b', 'c', 'd', 'e', 'f'];
+const OPTION_IDS = ['a', 'b', 'c', 'd'];
+const QUESTION_COUNT_BY_LEVEL = {
+  A1: 10,
+  A2: 10,
+  B1: 15,
+  B2: 15,
+  C1: 20,
+  C2: 20
+};
 
-function completedPrompt(prompt, answer) {
-  const source = String(prompt || '').trim();
-  if (!source.includes('___')) return '';
-  return source.replace('___', String(answer || '').trim());
+const PROMPT_VARIANTS = [
+  (prompt) => prompt,
+  (prompt) => `Dans un contexte formel, ${lowerFirst(prompt)}`,
+  (prompt) => `Pour préserver la précision du propos, ${lowerFirst(prompt)}`,
+  (prompt) => `Dans une argumentation nuancée, ${lowerFirst(prompt)}`,
+  (prompt) => `Après avoir vérifié la structure, ${lowerFirst(prompt)}`
+];
+
+function lowerFirst(value) {
+  const text = String(value || '').trim();
+  if (!text) return text;
+  return `${text.charAt(0).toLocaleLowerCase('fr-FR')}${text.slice(1)}`;
 }
 
-function mcqQuestion(level, unitSlug, exercise, index) {
+function validExercises(exercises) {
+  return (exercises || []).filter(
+    (exercise) =>
+      exercise?.type === 'mcq' &&
+      Array.isArray(exercise.options) &&
+      exercise.options.length >= 4 &&
+      Number.isInteger(exercise.answer) &&
+      exercise.options[exercise.answer] !== undefined
+  );
+}
+
+function buildQuestion(level, unitSlug, exercise, index) {
+  const original = exercise.options.slice(0, 4);
+  const originalAnswer = Math.min(exercise.answer, 3);
+  const shift = index % 4;
+  const options = original.map((_, optionIndex) => original[(optionIndex + shift) % 4]);
+  const correctIndex = (originalAnswer - shift + 4) % 4;
+  const variant = PROMPT_VARIANTS[Math.floor(index / 4) % PROMPT_VARIANTS.length];
+
   return {
     id: `french-${level.toLowerCase()}-${unitSlug}-grammar-q${index + 1}`,
     type: 'mcq',
-    prompt: exercise.prompt,
-    options: (exercise.options || []).map((text, optionIndex) => ({
-      id: OPTION_IDS[optionIndex] || `o${optionIndex + 1}`,
+    prompt: variant(exercise.prompt),
+    options: options.map((text, optionIndex) => ({
+      id: OPTION_IDS[optionIndex],
       text
     })),
-    correctOptionId: OPTION_IDS[exercise.answer] || `o${exercise.answer + 1}`,
+    correctOptionId: OPTION_IDS[correctIndex],
     explanation:
       exercise.explanation ||
-      `La bonne réponse est « ${(exercise.options || [])[exercise.answer]} » : elle respecte la structure étudiée dans cette leçon.`,
-    difficulty: index < 2 ? 'application' : 'consolidation'
-  };
-}
-
-function correctionQuestion(level, unitSlug, exercise, index) {
-  const options = exercise.options || [];
-  const correct = String(options[exercise.answer] || '').trim();
-  const incorrect = String(options.find((_, optionIndex) => optionIndex !== exercise.answer) || '').trim();
-  const correctedSentence = completedPrompt(exercise.prompt, correct);
-  const incorrectSentence = completedPrompt(exercise.prompt, incorrect);
-  const hasSentence = Boolean(correctedSentence && incorrectSentence);
-
-  return {
-    id: `french-${level.toLowerCase()}-${unitSlug}-grammar-q${index + 5}`,
-    type: 'fill_blank',
-    prompt: hasSentence
-      ? `Corrige la phrase suivante : « ${incorrectSentence} »`
-      : `Remplace la réponse incorrecte « ${incorrect} » par la bonne réponse à cette question : « ${exercise.prompt} »`,
-    acceptedAnswers: hasSentence ? [correct, correctedSentence] : [correct],
-    explanation: hasSentence
-      ? `La phrase correcte est : « ${correctedSentence} »`
-      : `La bonne réponse est « ${correct} ».`,
-    difficulty: 'consolidation'
+      `La bonne réponse est « ${original[originalAnswer]} » : elle respecte la structure étudiée dans cette leçon.`,
+    difficulty: index < 7 ? 'application' : index < 14 ? 'consolidation' : 'maîtrise'
   };
 }
 
 function buildFrenchGrammarTest(level, unitSlug, exercises) {
-  const source = (exercises || []).filter(
-    (exercise) =>
-      exercise?.type === 'mcq' &&
-      Array.isArray(exercise.options) &&
-      Number.isInteger(exercise.answer) &&
-      exercise.options[exercise.answer] !== undefined
-  );
+  const source = validExercises(exercises);
   if (source.length < 4) return null;
 
-  if (source.length >= 8) {
-    return {
-      id: `french-${level.toLowerCase()}-${unitSlug}-grammar-test`,
-      passingScore: 70,
-      questions: source.slice(0, 8).map((exercise, index) =>
-        mcqQuestion(level, unitSlug, exercise, index)
-      )
-    };
-  }
+  const questionCount = QUESTION_COUNT_BY_LEVEL[level] || 10;
+  const questions = Array.from({ length: questionCount }, (_, index) =>
+    buildQuestion(level, unitSlug, source[index % source.length], index)
+  );
 
-  const core = source.slice(0, 4);
   return {
     id: `french-${level.toLowerCase()}-${unitSlug}-grammar-test`,
     passingScore: 70,
-    questions: [
-      ...core.map((exercise, index) => mcqQuestion(level, unitSlug, exercise, index)),
-      ...core.map((exercise, index) => correctionQuestion(level, unitSlug, exercise, index))
-    ]
+    questions
   };
 }
 
@@ -80,7 +77,6 @@ function ensureFrenchGrammarTests(units, level) {
   for (const unit of units || []) {
     const grammar = unit.activities?.grammar;
     if (!grammar) continue;
-    if (grammar.grammarTest?.questions?.length === 8) continue;
 
     const test = buildFrenchGrammarTest(level, unit.slug, grammar.exercises);
     if (test) grammar.grammarTest = test;
@@ -89,6 +85,7 @@ function ensureFrenchGrammarTests(units, level) {
 }
 
 module.exports = {
+  QUESTION_COUNT_BY_LEVEL,
   buildFrenchGrammarTest,
   ensureFrenchGrammarTests
 };

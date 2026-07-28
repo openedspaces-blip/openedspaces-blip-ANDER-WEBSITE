@@ -7,6 +7,7 @@ const seedLessons = require('../lib/seed-lessons.json');
 const APPLY = process.argv.includes('--apply');
 const DIAGNOSE = process.argv.includes('--diagnose');
 const EXPECTED_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const QUESTION_COUNT_BY_LEVEL = { A1: 10, A2: 10, B1: 15, B2: 15, C1: 20, C2: 20 };
 
 function grammarRows() {
   const rows = seedLessons.filter(
@@ -15,10 +16,11 @@ function grammarRows() {
 
   for (const row of rows) {
     const questions = row.content_json?.extra?.grammarTest?.questions;
-    if (!Array.isArray(questions) || questions.length !== 8) {
-      throw new Error(`${row.slug} must contain exactly 8 grammar-test questions.`);
+    const expected = QUESTION_COUNT_BY_LEVEL[row.level];
+    if (!Array.isArray(questions) || questions.length !== expected) {
+      throw new Error(`${row.slug} must contain exactly ${expected} grammar-test questions.`);
     }
-    if (new Set(questions.map((question) => question.id)).size !== 8) {
+    if (new Set(questions.map((question) => question.id)).size !== expected) {
       throw new Error(`${row.slug} contains duplicate grammar-test question IDs.`);
     }
   }
@@ -49,10 +51,14 @@ async function main() {
       `select
          count(*)::int as lessons,
          count(*) filter (
-           where jsonb_array_length(coalesce(extra->'grammarTest'->'questions', '[]'::jsonb)) = 8
+           where jsonb_array_length(coalesce(extra->'grammarTest'->'questions', '[]'::jsonb))
+                 = case level.code when 'A1' then 10 when 'A2' then 10 when 'B1' then 15
+                   when 'B2' then 15 when 'C1' then 20 when 'C2' then 20 end
          )::int as already_ready
        from course_lessons
-       where slug = any($1::text[])`,
+       join courses on courses.id = course_lessons.course_id
+       join levels level on level.id = courses.level_id
+       where course_lessons.slug = any($1::text[])`,
       [slugs]
     );
     const found = current.rows[0]?.lessons || 0;
@@ -63,7 +69,8 @@ async function main() {
          count(*) filter (
            where jsonb_array_length(
              coalesce(content_json->'extra'->'grammarTest'->'questions', '[]'::jsonb)
-           ) = 8
+           ) = case level when 'A1' then 10 when 'A2' then 10 when 'B1' then 15
+               when 'B2' then 15 when 'C1' then 20 when 'C2' then 20 end
          )::int as already_ready
        from lessons
        where slug = any($1::text[])`,
@@ -122,7 +129,7 @@ async function main() {
                      end as question_count`,
           [row.slug, JSON.stringify(grammarTest)]
         );
-        if (Number(result.rows[0]?.question_count) !== 8) {
+        if (Number(result.rows[0]?.question_count) !== QUESTION_COUNT_BY_LEVEL[row.level]) {
           throw new Error(
             `${row.slug} was not stored correctly by its UPDATE (${result.rows[0]?.questions_type || 'missing'}:${result.rows[0]?.question_count || 0}).`
           );
@@ -149,7 +156,7 @@ async function main() {
         );
         if (
           legacyResult.rowCount === 1 &&
-          Number(legacyResult.rows[0]?.question_count) !== 8
+          Number(legacyResult.rows[0]?.question_count) !== QUESTION_COUNT_BY_LEVEL[row.level]
         ) {
           throw new Error(`${row.slug} was not stored correctly in legacy lessons.`);
         }
@@ -171,7 +178,10 @@ async function main() {
          where slug = any($1::text[])`,
         [slugs]
       );
-      const notReady = verified.rows.filter((row) => Number(row.question_count) !== 8);
+      const expectedBySlug = new Map(rows.map((row) => [row.slug, QUESTION_COUNT_BY_LEVEL[row.level]]));
+      const notReady = verified.rows.filter(
+        (row) => Number(row.question_count) !== expectedBySlug.get(row.slug)
+      );
       if (notReady.length) {
         throw new Error(
           `Post-update verification found ${rows.length - notReady.length}/${rows.length} ready lessons. Invalid: ${notReady
@@ -186,7 +196,8 @@ async function main() {
          where slug = any($1::text[])
            and jsonb_array_length(
              coalesce(content_json->'extra'->'grammarTest'->'questions', '[]'::jsonb)
-           ) <> 8`,
+           ) <> case level when 'A1' then 10 when 'A2' then 10 when 'B1' then 15
+                when 'B2' then 15 when 'C1' then 20 when 'C2' then 20 end`,
         [slugs]
       );
       if (legacyVerified.rowCount) {

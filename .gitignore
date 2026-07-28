@@ -23,6 +23,8 @@ git_check.txt
 .claude/
 output/
 tmp/
+test-results/
+playwright-report/
 
 .vercel
 .env*

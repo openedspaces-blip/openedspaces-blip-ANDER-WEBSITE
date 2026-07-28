@@ -355,6 +355,11 @@ function grammarTest(topic, exercises) {
   };
 }
 
+function infinitiveComplement(text) {
+  const value = String(text || '').trim();
+  return `${/^[aeiouyhàâäéèêëîïôöùûü]/i.test(value) ? "d’" : 'de '}${value}`;
+}
+
 function buildUnit(topic, index) {
   const vocabulary = vocabularyItems(topic);
   const reading = readingParts(topic);
@@ -425,7 +430,7 @@ function buildUnit(topic, index) {
       grammar: activity('grammar', {
         title: topic.grammar,
         description: `Maîtriser ${topic.grammar.toLowerCase()} dans un contexte argumentatif C2.`,
-        grammarNote: `${topic.rule} Cette ressource permet de ${topic.purpose}. Les formes étudiées servent à articuler les thèses, les objections et les nuances de « ${topic.readingTitle} » sans perdre la précision du propos.`,
+        grammarNote: `${topic.rule} Cette ressource permet ${infinitiveComplement(topic.purpose)}. Les formes étudiées servent à articuler les thèses, les objections et les nuances de « ${topic.readingTitle} » sans perdre la précision du propos.`,
         phrases: grammar.slice(0, 4).map((exercise) => exercise.options[exercise.answer]),
         grammarProfile: {
           name: topic.grammar,
@@ -442,6 +447,7 @@ function buildUnit(topic, index) {
 }
 
 const units = topics.map(buildUnit);
+require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'C2');
 require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(units, {
   language: 'french',
   level: 'C2'

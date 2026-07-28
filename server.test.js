@@ -1014,7 +1014,7 @@ test('French C2 has 12 CEFR mastery units entirely in French across all six core
     assert.equal(reading.content_json.reading.parts.length, 6);
     assert.match(vocabulary.title, /^Le lexique de l’unité/);
     assert.equal(grammar.content_json.exercises.length, 8);
-    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 8);
+    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 20);
     assert.ok(grammar.content_json.extra.grammarProfile);
 
     vocabulary.content_json.vocabulary.forEach((item) => {
@@ -1068,6 +1068,57 @@ test('English B1 has 12 complete units with assessed Reading, Grammar and Vocabu
         assert.equal(exercise.options.length, 4, `${row.slug} #${exerciseIndex}`);
         assert.ok(Number.isInteger(exercise.answer) && exercise.answer >= 0 && exercise.answer <= 3);
       });
+    });
+  });
+});
+
+test('Phase 1 social readings stay within their CEFR reading-length ranges', () => {
+  const targets = [
+    ['english', 'B1', 280, 380],
+    ['french', 'B1', 260, 380],
+    ['french', 'B2', 450, 600]
+  ];
+  targets.forEach(([language, level, minWords, maxWords]) => {
+    const readings = seedLessons.filter(
+      (row) => row.target_language === language && row.level === level && row.skill === 'reading'
+    );
+    assert.ok(readings.length > 0, `${language} ${level}: missing readings`);
+    readings.forEach((reading) => {
+      const wordCount = String(reading.content_json?.reading?.text || '')
+        .trim()
+        .split(/\s+/)
+        .filter(Boolean).length;
+      assert.ok(
+        wordCount >= minWords && wordCount <= maxWords,
+        `${reading.slug}: expected ${minWords}-${maxWords} words, got ${wordCount}`
+      );
+    });
+  });
+});
+
+test('Phase 1 social-reading questions balance A-D and assess evidence, inference, sequence and decisions', () => {
+  const targets = [
+    ['english', 'B1'],
+    ['french', 'B1'],
+    ['french', 'B2']
+  ];
+  targets.forEach(([language, level]) => {
+    const readings = seedLessons.filter(
+      (row) => row.target_language === language && row.level === level && row.skill === 'reading'
+    );
+    readings.forEach((reading) => {
+      const exercises = reading.content_json.exercises;
+      const positions = new Set(exercises.map((exercise) => exercise.answer));
+      assert.deepEqual(
+        [...positions].sort(),
+        [0, 1, 2, 3],
+        `${reading.slug}: correct answers must use A-D`
+      );
+      const prompts = exercises.map((exercise) => exercise.prompt).join(' ');
+      assert.match(prompts, /evidence|detail|détail|passage|prouve|preuves/i, `${reading.slug}: evidence`);
+      assert.match(prompts, /infer|comprendre|inférer/i, `${reading.slug}: inference`);
+      assert.match(prompts, /sequence|order|ordre|enchaînement/i, `${reading.slug}: sequence`);
+      assert.match(prompts, /decision|décision|étape suivante/i, `${reading.slug}: decision`);
     });
   });
 });
@@ -1906,6 +1957,58 @@ test('French written grammar accepts equivalent punctuation and Mme abbreviation
     { questionId: 'q8', answer: 'Léa et Karim sont mes amis' }
   ]);
   assert.equal(result.allAttempted, true);
+  assert.equal(result.score, 100);
+  assert.ok(result.results.every((item) => item.correct));
+});
+
+test('French B1 reconstructions preserve elisions and accept the visible correct order', () => {
+  const bank = {
+    id: 'french-b1-conditionnel-grammar-test',
+    questions: [
+      {
+        id: 'french-b1-conditionnel-q5',
+        type: 'fill_blank',
+        acceptedAnswers: [
+          'Si je reste en France, je améliorerai mon français.',
+          'Si je reste en France, j’améliorerai mon français.'
+        ]
+      },
+      {
+        id: 'french-b1-conditionnel-q6',
+        type: 'fill_blank',
+        acceptedAnswers: ['Si tu pars, tu retrouveras ta famille.']
+      }
+    ]
+  };
+  const clientBank = sanitizeGrammarTestForClient(bank);
+  const [first, second] = clientBank.questions;
+
+  assert.deepEqual(
+    first.items.map((item) => item.text),
+    ['Si je', 'reste en', 'France, j’améliorerai', 'mon français.']
+  );
+  assert.deepEqual(
+    second.items.map((item) => item.text),
+    ['Si tu', 'pars, tu', 'retrouveras ta', 'famille.']
+  );
+
+  const result = gradeQuestionBank(bank, [
+    {
+      questionId: first.id,
+      // Simulates a bundled page whose internal ids predate the remote copy.
+      answer: {
+        itemIds: first.items.map((item, index) => `cached-${index + 1}`),
+        itemTexts: first.items.map((item) => item.text)
+      }
+    },
+    {
+      questionId: second.id,
+      answer: {
+        itemIds: second.items.map((item, index) => `cached-${index + 1}`),
+        itemTexts: second.items.map((item) => item.text)
+      }
+    }
+  ]);
   assert.equal(result.score, 100);
   assert.ok(result.results.every((item) => item.correct));
 });
@@ -3390,6 +3493,27 @@ test('Reading selections use the contextual ANDERGO translator and coordinated l
     source,
     /Cada lección ha sido nivelada según el MCERL \(Marco Común Europeo de Referencia de las Lenguas\)/
   );
+});
+
+test('detailed Verbos progress is authenticated, durable and protected by RLS', () => {
+  const serverSource = fs.readFileSync(path.join(__dirname, 'lib/server.js'), 'utf8');
+  const serviceSource = fs.readFileSync(path.join(__dirname, 'lib/verbProgressService.js'), 'utf8');
+  const clientSource = fs.readFileSync(path.join(__dirname, 'src/js/verbs/verbs-view.js'), 'utf8');
+  const migration = fs.readFileSync(
+    path.join(__dirname, 'supabase/migrations/202608010002_user_verb_progress.sql'),
+    'utf8'
+  );
+
+  assert.match(serverSource, /app\.get\('\/api\/verbs\/progress', requireAuth/);
+  assert.match(serverSource, /app\.patch\('\/api\/verbs\/progress\/:verbId', requireAuth/);
+  assert.match(serverSource, /app\.post\('\/api\/verbs\/progress\/:verbId\/attempt', requireAuth/);
+  assert.match(serverSource, /app\.delete\('\/api\/verbs\/progress', requireAuth/);
+  assert.match(serviceSource, /\.from\('user_verb_progress'\)/);
+  assert.match(clientSource, /hydrateVerbProgress/);
+  assert.match(clientSource, /authFetch\(`\$\{backendBaseUrl\}\/api\/verbs\/progress/);
+  assert.match(migration, /alter table public\.user_verb_progress enable row level security/i);
+  assert.match(migration, /to authenticated[\s\S]*\(select auth\.uid\(\)\) = user_id/i);
+  assert.match(migration, /primary key \(user_id, language_code, verb_id\)/i);
 });
 
 test('Translator uses the available width, grows long text panels and prefers Latin American Spanish TTS', () => {
