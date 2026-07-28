@@ -15399,3 +15399,90 @@ footer small {
     width: auto;
   }
 }
+
+/* English A1 unit journey on phones: preserve the seven-stop route without
+   shrinking labels into illegibility. The strip scrolls horizontally, while
+   lesson content and the previous/next controls remain a single clear column. */
+@media (max-width: 560px) {
+  .learning-path-section,
+  .skill-view-section {
+    padding-inline: 0.75rem;
+  }
+
+  .unit-mission-strip {
+    gap: 0.45rem;
+    padding: 0.55rem 0.65rem;
+  }
+
+  .unit-mission-copy {
+    width: calc(100% - 4.5rem);
+  }
+
+  .unit-mission-route-btn {
+    min-width: 4rem;
+    min-height: 38px;
+  }
+
+  .unit-route-markers {
+    grid-template-columns: repeat(7, 76px);
+    width: 100%;
+    padding: 0.15rem 0.15rem 0.35rem;
+    scroll-padding-inline: 0.15rem;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+  }
+
+  .unit-route-markers::-webkit-scrollbar {
+    display: none;
+  }
+
+  .unit-route-markers::before,
+  .unit-route-markers::after {
+    right: 38px;
+    left: 38px;
+  }
+
+  .unit-route-marker {
+    min-height: 44px;
+    scroll-snap-align: center;
+  }
+
+  .unit-route-marker small {
+    max-width: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .unit-activity-footer {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.65rem;
+    padding: 0.75rem;
+  }
+
+  .unit-activity-footer-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  .unit-activity-footer-actions > :only-child {
+    grid-column: 1 / -1;
+  }
+
+  .unit-activity-footer-actions button {
+    min-height: 44px;
+    padding-inline: 0.65rem;
+    font-size: 0.82rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .unit-route-markers {
+    scroll-behavior: auto;
+  }
+
+  .unit-route-marker:hover > span {
+    transform: none;
+  }
+}

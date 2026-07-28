@@ -464,6 +464,46 @@ test('complete lesson requires authentication', async () => {
   }
 });
 
+test('normalized lesson completion returns the persisted seven-activity course snapshot', () => {
+  const serverSource = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
+  const clientSource = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+
+  assert.match(
+    serverSource,
+    /res\.json\(await withFreshCourseProgress\(req\.user\.id, result\)\)/
+  );
+  assert.match(
+    serverSource,
+    /courseProgress:\s*dashboard\.courseProgress/
+  );
+  assert.match(
+    clientSource,
+    /activeLesson\.completed = true;[\s\S]{0,700}loadDashboard\(\);/
+  );
+  const persistedCompletionRefreshes =
+    clientSource.match(
+      /lesson\.completed = true;[\s\S]{0,300}renderLearningPath\(\);[\s\S]{0,80}loadDashboard\(\);/g
+    ) || [];
+  assert.ok(
+    persistedCompletionRefreshes.length >= 3,
+    'Reading, Grammar and Listening must refresh route and dashboard progress after saving'
+  );
+});
+
+test('the seven-activity route remains touch-friendly and readable on phones', () => {
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  assert.match(
+    css,
+    /@media \(max-width: 560px\)[\s\S]*?\.unit-route-markers\s*\{[\s\S]*?grid-template-columns:\s*repeat\(7,\s*76px\)/
+  );
+  assert.match(css, /\.unit-route-marker\s*\{[\s\S]*?min-height:\s*44px/);
+  assert.match(
+    css,
+    /\.unit-activity-footer-actions button\s*\{[\s\S]*?min-height:\s*44px/
+  );
+  assert.match(css, /@media \(prefers-reduced-motion: reduce\)/);
+});
+
 test('paid speech synthesize endpoint is disabled', async () => {
   const { server, port } = await startTestServer();
   try {

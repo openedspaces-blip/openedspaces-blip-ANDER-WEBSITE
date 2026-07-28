@@ -13665,6 +13665,11 @@ async function completeActiveLesson() {
       activeLesson.bestScore = Math.max(Number(activeLesson.bestScore || 0), Number(data.score));
     updateProgressDisplay(data, true);
     renderLearningPath();
+    // The completion response contains the freshly persisted course summary,
+    // while the full dashboard also carries streak, XP and recent activity.
+    // Refresh it in the background so every progress surface agrees without
+    // delaying navigation to the next activity.
+    loadDashboard();
 
     const gamResult = window.AndergoGamification?.recordLessonCompletion({
       slug: activeLesson.slug,
@@ -14794,9 +14799,12 @@ function enableHomepageActions() {
           const data = await response.json().catch(() => ({}));
           if (!response.ok) throw new Error(data.error || 'No se pudo guardar la evaluación.');
           lesson.completed = true;
+          if (data.bestScore != null) lesson.bestScore = data.bestScore;
           runtime.serverResult = data;
           updateProgressDisplay(data, true);
           renderSkillCards();
+          renderLearningPath();
+          loadDashboard();
           window.AndergoGamification?.recordLessonCompletion({
             slug: lesson.slug,
             language: learningPathState.language,
@@ -15148,6 +15156,8 @@ function enableHomepageActions() {
         if (data.bestScore != null) lesson.bestScore = data.bestScore;
         updateProgressDisplay(data, true);
         renderSkillCards();
+        renderLearningPath();
+        loadDashboard();
         window.AndergoGamification?.recordLessonCompletion({
           slug: lesson.slug,
           language: learningPathState.language,
@@ -15293,6 +15303,8 @@ function enableHomepageActions() {
         if (data.bestScore != null) lesson.bestScore = data.bestScore;
         updateProgressDisplay(data, true);
         renderSkillCards();
+        renderLearningPath();
+        loadDashboard();
         window.AndergoGamification?.recordLessonCompletion({
           slug: lesson.slug,
           language: learningPathState.language,
