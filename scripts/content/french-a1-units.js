@@ -1976,6 +1976,10 @@ const units = [
 ];
 
 require('./french-a1-official-listening').applyFrenchA1OfficialListening(units);
+require('./french-listening-story-scripts').applyFrenchListeningStories(units, 'A1', [
+  'les-vetements-et-les-achats',
+  'la-meteo-et-les-voyages'
+]);
 require('./official-listening-utils').enrichOfficialListening(units, {
   language: 'french',
   level: 'A1'

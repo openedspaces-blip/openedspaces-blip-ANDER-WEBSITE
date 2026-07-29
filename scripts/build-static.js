@@ -64,6 +64,11 @@ function copyFileEnsuringDir(srcPath, destPath) {
 }
 
 function main() {
+  console.log('Refreshing contextual Listening questions...');
+  execSync(`node "${path.join(ROOT, 'scripts', 'refresh-all-listening-comprehension.js')}"`, {
+    stdio: 'inherit'
+  });
+
   console.log('Syncing generated language worlds...');
   execSync(`node "${path.join(ROOT, 'scripts', 'sync-worlds-from-seed.js')}"`, {
     stdio: 'inherit'

@@ -34,6 +34,10 @@ function buildActivityRow(unit, skill, orderInUnit) {
   const extra = {};
   if (a.grammarTest) extra.grammarTest = a.grammarTest;
   if (a.listeningType) extra.listeningType = a.listeningType;
+  if (a.listeningFormat) extra.listeningFormat = a.listeningFormat;
+  if (a.storyTitle) extra.storyTitle = a.storyTitle;
+  if (a.mainTranscript) extra.mainTranscript = a.mainTranscript;
+  if (a.transcriptSegments) extra.transcriptSegments = a.transcriptSegments;
   if (a.difficulty) extra.difficulty = a.difficulty;
   if (a.durationSeconds) extra.durationSeconds = a.durationSeconds;
   if (a.speakers) extra.speakers = a.speakers;

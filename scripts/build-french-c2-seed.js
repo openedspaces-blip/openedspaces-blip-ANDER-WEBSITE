@@ -21,6 +21,11 @@ function lessonRow(unit, skill, index) {
   if (lesson.grammarTest) extra.grammarTest = lesson.grammarTest;
   if (lesson.grammarProfile) extra.grammarProfile = lesson.grammarProfile;
   if (lesson.listeningType) extra.listeningType = lesson.listeningType;
+  if (lesson.listeningFormat) extra.listeningFormat = lesson.listeningFormat;
+  if (lesson.storyTitle) extra.storyTitle = lesson.storyTitle;
+  if (lesson.mainTranscript) extra.mainTranscript = lesson.mainTranscript;
+  if (lesson.transcriptSegments) extra.transcriptSegments = lesson.transcriptSegments;
+  if (lesson.curricularAlignment) extra.curricularAlignment = lesson.curricularAlignment;
   if (lesson.difficulty) extra.difficulty = lesson.difficulty;
   if (lesson.durationSeconds) extra.durationSeconds = lesson.durationSeconds;
   if (lesson.speakers) extra.speakers = lesson.speakers;

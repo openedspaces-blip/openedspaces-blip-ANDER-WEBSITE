@@ -890,75 +890,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-compras-y-cantidades-listening-comprehension",
+        "id": "spanish-a2-compras-y-cantidades-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Compras y cantidades», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Compras y cantidades»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Compras y cantidades»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Compras y cantidades» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -969,36 +992,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Compras y cantidades», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Compras y cantidades»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Compras y cantidades»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Compras y cantidades» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -1056,75 +1086,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-historias-personales-listening-comprehension",
+        "id": "spanish-b1-historias-personales-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Historias personales», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre historias personales. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Historias personales»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Historias personales»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Historias personales» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -1135,36 +1188,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Historias personales», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre historias personales. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Historias personales»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Historias personales»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Historias personales» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -1222,75 +1282,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-identidad-digital-listening-comprehension",
+        "id": "spanish-b2-identidad-digital-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Identidad digital», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Identidad digital»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Identidad digital»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Identidad digital» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -1301,36 +1384,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Identidad digital», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Identidad digital»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Identidad digital»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Identidad digital» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -1388,75 +1478,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-memoria-y-relato-listening-comprehension",
+        "id": "spanish-c1-memoria-y-relato-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Memoria y relato», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Memoria y relato»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Memoria y relato»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Memoria y relato» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -1467,36 +1580,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Memoria y relato», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Memoria y relato»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Memoria y relato»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Memoria y relato» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -1554,75 +1674,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-ambiguedad-y-sentido-listening-comprehension",
+        "id": "spanish-c2-ambiguedad-y-sentido-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Ambigüedad y sentido», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Ambigüedad y sentido»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ambigüedad y sentido»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Ambigüedad y sentido» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -1633,36 +1776,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Ambigüedad y sentido», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Ambigüedad y sentido»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ambigüedad y sentido»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Ambigüedad y sentido» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -1762,108 +1912,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-hola-mucho-gusto-listening-comprehension",
+        "id": "spanish-a1-hola-mucho-gusto-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué dice Marco cuando conoce a Valentina?",
+            "prompt": "En «Mucho gusto, ¿cómo te llamas?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Adiós"
+                "text": "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?"
               },
               {
                 "id": "o2",
-                "text": "Mucho gusto"
+                "text": "Estoy bien, gracias. ¿Y tú?"
               },
               {
                 "id": "o3",
-                "text": "¿Qué hora es?"
+                "text": "Me llamo Valentina. ¿Cómo te llamas tú?"
               },
               {
                 "id": "o4",
-                "text": "Tengo hambre"
+                "text": "Mucho gusto."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo se despide Marco al final?",
+            "prompt": "Después de «¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Buenos días"
+                "text": "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?"
               },
               {
                 "id": "o2",
-                "text": "Hola"
+                "text": "Estoy bien, gracias. ¿Y tú?"
               },
               {
                 "id": "o3",
-                "text": "Nos vemos en clase"
+                "text": "Me llamo Valentina. ¿Cómo te llamas tú?"
               },
               {
                 "id": "o4",
-                "text": "Gracias"
+                "text": "Mucho gusto."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué responde Marco a \"¿Cómo estás?\"?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Mucho gusto, ¿cómo te llamas?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Soy Marco"
+                "text": "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?"
               },
               {
                 "id": "o2",
-                "text": "Estoy bien, gracias"
+                "text": "Estoy bien, gracias. ¿Y tú?"
               },
               {
                 "id": "o3",
-                "text": "Mucho gusto"
+                "text": "Me llamo Valentina. ¿Cómo te llamas tú?"
               },
               {
                 "id": "o4",
-                "text": "¿Cómo te llamas?"
+                "text": "Mucho gusto."
               }
             ]
           },
           {
             "id": "q4",
-            "type": "fill_blank",
-            "prompt": "Valentina dice: \"¡Hola! Me llamo Valentina. ¿Cómo te ___ tú?\""
-          },
-          {
-            "id": "q5",
-            "type": "fill_blank",
-            "prompt": "Marco dice: \"Soy ___ aquí.\""
-          },
-          {
-            "id": "q6",
-            "type": "ordering",
-            "prompt": "Ordena las líneas del diálogo.",
-            "items": [
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Me llamo Valentina. ¿Cómo te llamas tú?»?",
+            "options": [
               {
-                "id": "w1",
+                "id": "o1",
                 "text": "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?"
               },
               {
-                "id": "w2",
-                "text": "Hola, Valentina. Soy Marco. Mucho gusto."
-              },
-              {
-                "id": "w3",
-                "text": "Mucho gusto, Marco. ¿Cómo estás?"
-              },
-              {
-                "id": "w4",
+                "id": "o2",
                 "text": "Estoy bien, gracias. ¿Y tú?"
+              },
+              {
+                "id": "o3",
+                "text": "Me llamo Valentina. ¿Cómo te llamas tú?"
+              },
+              {
+                "id": "o4",
+                "text": "Mucho gusto."
               }
             ]
           }
@@ -1874,32 +2014,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué dice Marco cuando conoce a Valentina?",
+        "prompt": "En «Mucho gusto, ¿cómo te llamas?», ¿qué detalle presenta la situación?",
         "options": [
-          "Adiós",
-          "Mucho gusto",
-          "¿Qué hora es?",
-          "Tengo hambre"
+          "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?",
+          "Estoy bien, gracias. ¿Y tú?",
+          "Me llamo Valentina. ¿Cómo te llamas tú?",
+          "Mucho gusto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo se despide Marco al final?",
+        "prompt": "Después de «¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
         "options": [
-          "Buenos días",
-          "Hola",
-          "Nos vemos en clase",
-          "Gracias"
+          "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?",
+          "Estoy bien, gracias. ¿Y tú?",
+          "Me llamo Valentina. ¿Cómo te llamas tú?",
+          "Mucho gusto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué responde Marco a \"¿Cómo estás?\"?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Mucho gusto, ¿cómo te llamas?»?",
         "options": [
-          "Soy Marco",
-          "Estoy bien, gracias",
-          "Mucho gusto",
-          "¿Cómo te llamas?"
+          "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?",
+          "Estoy bien, gracias. ¿Y tú?",
+          "Me llamo Valentina. ¿Cómo te llamas tú?",
+          "Mucho gusto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Me llamo Valentina. ¿Cómo te llamas tú?»?",
+        "options": [
+          "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?",
+          "Estoy bien, gracias. ¿Y tú?",
+          "Me llamo Valentina. ¿Cómo te llamas tú?",
+          "Mucho gusto."
         ]
       }
     ]
@@ -4897,75 +5047,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-orientarse-en-la-ciudad-listening-comprehension",
+        "id": "spanish-a2-orientarse-en-la-ciudad-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Orientarse en la ciudad», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Orientarse en la ciudad»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Orientarse en la ciudad»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Orientarse en la ciudad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -4976,36 +5149,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Orientarse en la ciudad», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Orientarse en la ciudad»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Orientarse en la ciudad»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Orientarse en la ciudad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -5063,75 +5243,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-trabajo-y-talento-listening-comprehension",
+        "id": "spanish-b1-trabajo-y-talento-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Trabajo y talento», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Trabajo y talento»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Trabajo y talento»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Trabajo y talento» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -5142,36 +5345,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Trabajo y talento», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Trabajo y talento»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Trabajo y talento»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Trabajo y talento» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -5229,75 +5439,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-ciudades-sostenibles-listening-comprehension",
+        "id": "spanish-b2-ciudades-sostenibles-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Ciudades sostenibles», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Ciudades sostenibles»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ciudades sostenibles»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Ciudades sostenibles» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -5308,36 +5541,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Ciudades sostenibles», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Ciudades sostenibles»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ciudades sostenibles»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Ciudades sostenibles» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -5395,75 +5635,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-retorica-publica-listening-comprehension",
+        "id": "spanish-c1-retorica-publica-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Retórica pública», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Retórica pública»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Retórica pública»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Retórica pública» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -5474,36 +5737,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Retórica pública», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Retórica pública»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Retórica pública»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Retórica pública» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -5561,75 +5831,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-humor-e-ironia-listening-comprehension",
+        "id": "spanish-c2-humor-e-ironia-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Humor e ironía», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Humor e ironía»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Humor e ironía»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Humor e ironía» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -5640,36 +5933,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Humor e ironía», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Humor e ironía»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Humor e ironía»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Humor e ironía» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -5736,38 +6036,145 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "spanish-a1-informacion-personal-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Un mensaje de voz», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, soy Camila."
+              },
+              {
+                "id": "o2",
+                "text": "Tengo diecinueve años y soy de México."
+              },
+              {
+                "id": "o3",
+                "text": "Mi número de teléfono es el 809-555-0199."
+              },
+              {
+                "id": "o4",
+                "text": "Mi correo es camila@correo.com. ¡Hasta pronto!"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Hola, soy Camila.», ¿qué sucede a continuación en «Un mensaje de voz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, soy Camila."
+              },
+              {
+                "id": "o2",
+                "text": "Tengo diecinueve años y soy de México."
+              },
+              {
+                "id": "o3",
+                "text": "Mi número de teléfono es el 809-555-0199."
+              },
+              {
+                "id": "o4",
+                "text": "Mi correo es camila@correo.com. ¡Hasta pronto!"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje de voz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, soy Camila."
+              },
+              {
+                "id": "o2",
+                "text": "Tengo diecinueve años y soy de México."
+              },
+              {
+                "id": "o3",
+                "text": "Mi número de teléfono es el 809-555-0199."
+              },
+              {
+                "id": "o4",
+                "text": "Mi correo es camila@correo.com. ¡Hasta pronto!"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Un mensaje de voz» después de «Mi número de teléfono es el 809-555-0199.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, soy Camila."
+              },
+              {
+                "id": "o2",
+                "text": "Tengo diecinueve años y soy de México."
+              },
+              {
+                "id": "o3",
+                "text": "Mi número de teléfono es el 809-555-0199."
+              },
+              {
+                "id": "o4",
+                "text": "Mi correo es camila@correo.com. ¡Hasta pronto!"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuántos años tiene Camila?",
+        "prompt": "En «Un mensaje de voz», ¿qué detalle presenta la situación?",
         "options": [
-          "Dieciocho",
-          "Diecinueve",
-          "Veinte",
-          "Veintiuno"
+          "Hola, soy Camila.",
+          "Tengo diecinueve años y soy de México.",
+          "Mi número de teléfono es el 809-555-0199.",
+          "Mi correo es camila@correo.com. ¡Hasta pronto!"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿De dónde es Camila?",
+        "prompt": "Después de «Hola, soy Camila.», ¿qué sucede a continuación en «Un mensaje de voz»?",
         "options": [
-          "Colombia",
-          "México",
-          "España",
-          "Perú"
+          "Hola, soy Camila.",
+          "Tengo diecinueve años y soy de México.",
+          "Mi número de teléfono es el 809-555-0199.",
+          "Mi correo es camila@correo.com. ¡Hasta pronto!"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Dónde vive ahora?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje de voz»?",
         "options": [
-          "Santo Domingo",
-          "Santiago",
-          "Bogotá",
-          "Madrid"
+          "Hola, soy Camila.",
+          "Tengo diecinueve años y soy de México.",
+          "Mi número de teléfono es el 809-555-0199.",
+          "Mi correo es camila@correo.com. ¡Hasta pronto!"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Un mensaje de voz» después de «Mi número de teléfono es el 809-555-0199.»?",
+        "options": [
+          "Hola, soy Camila.",
+          "Tengo diecinueve años y soy de México.",
+          "Mi número de teléfono es el 809-555-0199.",
+          "Mi correo es camila@correo.com. ¡Hasta pronto!"
         ]
       }
     ]
@@ -8593,75 +9000,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-rutinas-y-horarios-listening-comprehension",
+        "id": "spanish-a2-rutinas-y-horarios-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Rutinas y horarios», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Rutinas y horarios»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Rutinas y horarios»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Rutinas y horarios» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -8672,36 +9102,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Rutinas y horarios», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Rutinas y horarios»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Rutinas y horarios»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Rutinas y horarios» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -8759,75 +9196,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-viajes-con-imprevistos-listening-comprehension",
+        "id": "spanish-b1-viajes-con-imprevistos-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Viajes con imprevistos», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre viajes con imprevistos. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Viajes con imprevistos»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viajes con imprevistos»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Viajes con imprevistos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -8838,36 +9298,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Viajes con imprevistos», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre viajes con imprevistos. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Viajes con imprevistos»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viajes con imprevistos»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Viajes con imprevistos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -8925,75 +9392,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-trabajo-del-futuro-listening-comprehension",
+        "id": "spanish-b2-trabajo-del-futuro-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · El trabajo del futuro», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre el trabajo del futuro. ¿Qué información…», ¿qué sucede a continuación en «Escucha · El trabajo del futuro»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El trabajo del futuro»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · El trabajo del futuro» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -9004,36 +9494,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · El trabajo del futuro», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre el trabajo del futuro. ¿Qué información…», ¿qué sucede a continuación en «Escucha · El trabajo del futuro»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El trabajo del futuro»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · El trabajo del futuro» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -9091,75 +9588,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-periodismo-de-investigacion-listening-comprehension",
+        "id": "spanish-c1-periodismo-de-investigacion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Periodismo de investigación», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre periodismo de investigación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Periodismo de investigación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Periodismo de investigación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Periodismo de investigación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -9170,36 +9690,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Periodismo de investigación», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre periodismo de investigación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Periodismo de investigación»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Periodismo de investigación»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Periodismo de investigación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -9257,75 +9784,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-traduccion-y-mediacion-listening-comprehension",
+        "id": "spanish-c2-traduccion-y-mediacion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Traducción y mediación», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre traducción y mediación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Traducción y mediación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Traducción y mediación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Traducción y mediación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -9336,36 +9886,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Traducción y mediación», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre traducción y mediación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Traducción y mediación»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Traducción y mediación»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Traducción y mediación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -9434,38 +9991,145 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "spanish-a1-mi-familia-y-mis-amigos-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Esta es mi hermana», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Esta es mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "Tengo una hermana y un hermano."
+              },
+              {
+                "id": "o3",
+                "text": "Mi hermana se llama Lucía, tiene dieciséis años y es alta."
+              },
+              {
+                "id": "o4",
+                "text": "Mi abuela Rosa también vive con nosotros; ella es muy amable."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Esta es mi familia.», ¿qué sucede a continuación en «Esta es mi hermana»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Esta es mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "Tengo una hermana y un hermano."
+              },
+              {
+                "id": "o3",
+                "text": "Mi hermana se llama Lucía, tiene dieciséis años y es alta."
+              },
+              {
+                "id": "o4",
+                "text": "Mi abuela Rosa también vive con nosotros; ella es muy amable."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Esta es mi hermana»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Esta es mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "Tengo una hermana y un hermano."
+              },
+              {
+                "id": "o3",
+                "text": "Mi hermana se llama Lucía, tiene dieciséis años y es alta."
+              },
+              {
+                "id": "o4",
+                "text": "Mi abuela Rosa también vive con nosotros; ella es muy amable."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Esta es mi hermana» después de «Mi hermana se llama Lucía, tiene dieciséis años y es alta.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Esta es mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "Tengo una hermana y un hermano."
+              },
+              {
+                "id": "o3",
+                "text": "Mi hermana se llama Lucía, tiene dieciséis años y es alta."
+              },
+              {
+                "id": "o4",
+                "text": "Mi abuela Rosa también vive con nosotros; ella es muy amable."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cómo se llama la hermana?",
+        "prompt": "En «Esta es mi hermana», ¿qué detalle presenta la situación?",
         "options": [
-          "Rosa",
-          "Carmen",
-          "Lucía",
-          "Tomás"
+          "Esta es mi familia.",
+          "Tengo una hermana y un hermano.",
+          "Mi hermana se llama Lucía, tiene dieciséis años y es alta.",
+          "Mi abuela Rosa también vive con nosotros; ella es muy amable."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuántos años tiene el hermano?",
+        "prompt": "Después de «Esta es mi familia.», ¿qué sucede a continuación en «Esta es mi hermana»?",
         "options": [
-          "Seis",
-          "Nueve",
-          "Once",
-          "Dieciséis"
+          "Esta es mi familia.",
+          "Tengo una hermana y un hermano.",
+          "Mi hermana se llama Lucía, tiene dieciséis años y es alta.",
+          "Mi abuela Rosa también vive con nosotros; ella es muy amable."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Quién más vive con la familia?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Esta es mi hermana»?",
         "options": [
-          "Un perro",
-          "La abuela",
-          "Un primo",
-          "Nadie más"
+          "Esta es mi familia.",
+          "Tengo una hermana y un hermano.",
+          "Mi hermana se llama Lucía, tiene dieciséis años y es alta.",
+          "Mi abuela Rosa también vive con nosotros; ella es muy amable."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Esta es mi hermana» después de «Mi hermana se llama Lucía, tiene dieciséis años y es alta.»?",
+        "options": [
+          "Esta es mi familia.",
+          "Tengo una hermana y un hermano.",
+          "Mi hermana se llama Lucía, tiene dieciséis años y es alta.",
+          "Mi abuela Rosa también vive con nosotros; ella es muy amable."
         ]
       }
     ]
@@ -12290,75 +12954,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-salud-y-bienestar-listening-comprehension",
+        "id": "spanish-a2-salud-y-bienestar-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Salud y bienestar», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Salud y bienestar»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Salud y bienestar»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Salud y bienestar» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -12369,36 +13056,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Salud y bienestar», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Salud y bienestar»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Salud y bienestar»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Salud y bienestar» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -12456,75 +13150,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-medios-y-noticias-listening-comprehension",
+        "id": "spanish-b1-medios-y-noticias-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Medios y noticias», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Medios y noticias»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Medios y noticias»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Medios y noticias» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -12535,36 +13252,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Medios y noticias», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Medios y noticias»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Medios y noticias»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Medios y noticias» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -12622,75 +13346,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-desinformacion-listening-comprehension",
+        "id": "spanish-b2-desinformacion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Desinformación», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre desinformación. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Desinformación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Desinformación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Desinformación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -12701,36 +13448,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Desinformación», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre desinformación. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Desinformación»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Desinformación»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Desinformación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -12788,75 +13542,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-justicia-y-reparacion-listening-comprehension",
+        "id": "spanish-c1-justicia-y-reparacion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Justicia y reparación», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre justicia y reparación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Justicia y reparación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Justicia y reparación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Justicia y reparación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -12867,36 +13644,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Justicia y reparación», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre justicia y reparación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Justicia y reparación»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Justicia y reparación»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Justicia y reparación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -12954,75 +13738,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-filosofia-del-lenguaje-listening-comprehension",
+        "id": "spanish-c2-filosofia-del-lenguaje-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Filosofía del lenguaje», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Filosofía del lenguaje»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Filosofía del lenguaje»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Filosofía del lenguaje» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -13033,36 +13840,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Filosofía del lenguaje», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Filosofía del lenguaje»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Filosofía del lenguaje»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Filosofía del lenguaje» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -13161,38 +13975,145 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "spanish-a1-mi-rutina-diaria-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «¿A qué hora te levantas?», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿A qué hora te levantas, Tomás?"
+              },
+              {
+                "id": "o2",
+                "text": "¿Caminas a la escuela?"
+              },
+              {
+                "id": "o3",
+                "text": "Yo me levanto a las siete."
+              },
+              {
+                "id": "o4",
+                "text": "Las clases empiezan a las ocho."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «¿A qué hora te levantas, Tomás?», ¿qué sucede a continuación en «¿A qué hora te levantas?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿A qué hora te levantas, Tomás?"
+              },
+              {
+                "id": "o2",
+                "text": "¿Caminas a la escuela?"
+              },
+              {
+                "id": "o3",
+                "text": "Yo me levanto a las siete."
+              },
+              {
+                "id": "o4",
+                "text": "Las clases empiezan a las ocho."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿A qué hora te levantas?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿A qué hora te levantas, Tomás?"
+              },
+              {
+                "id": "o2",
+                "text": "¿Caminas a la escuela?"
+              },
+              {
+                "id": "o3",
+                "text": "Yo me levanto a las siete."
+              },
+              {
+                "id": "o4",
+                "text": "Las clases empiezan a las ocho."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Yo me levanto a las siete.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿A qué hora te levantas, Tomás?"
+              },
+              {
+                "id": "o2",
+                "text": "¿Caminas a la escuela?"
+              },
+              {
+                "id": "o3",
+                "text": "Yo me levanto a las siete."
+              },
+              {
+                "id": "o4",
+                "text": "Las clases empiezan a las ocho."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿A qué hora se levanta Tomás?",
+        "prompt": "En «¿A qué hora te levantas?», ¿qué detalle presenta la situación?",
         "options": [
-          "Seis y media",
-          "Siete",
-          "Ocho",
-          "Nueve"
+          "¿A qué hora te levantas, Tomás?",
+          "¿Caminas a la escuela?",
+          "Yo me levanto a las siete.",
+          "Las clases empiezan a las ocho."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo va Diego a la escuela?",
+        "prompt": "Después de «¿A qué hora te levantas, Tomás?», ¿qué sucede a continuación en «¿A qué hora te levantas?»?",
         "options": [
-          "En autobús",
-          "En carro",
-          "Camina",
-          "En bicicleta"
+          "¿A qué hora te levantas, Tomás?",
+          "¿Caminas a la escuela?",
+          "Yo me levanto a las siete.",
+          "Las clases empiezan a las ocho."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿A qué hora empiezan las clases?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿A qué hora te levantas?»?",
         "options": [
-          "Seis y media",
-          "Siete",
-          "Ocho",
-          "Nueve"
+          "¿A qué hora te levantas, Tomás?",
+          "¿Caminas a la escuela?",
+          "Yo me levanto a las siete.",
+          "Las clases empiezan a las ocho."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Yo me levanto a las siete.»?",
+        "options": [
+          "¿A qué hora te levantas, Tomás?",
+          "¿Caminas a la escuela?",
+          "Yo me levanto a las siete.",
+          "Las clases empiezan a las ocho."
         ]
       }
     ]
@@ -16016,75 +16937,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-viajes-y-transporte-listening-comprehension",
+        "id": "spanish-a2-viajes-y-transporte-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Viajes y transporte», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Viajes y transporte»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viajes y transporte»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Viajes y transporte» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -16095,36 +17039,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Viajes y transporte», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Viajes y transporte»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viajes y transporte»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Viajes y transporte» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -16182,75 +17133,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-relaciones-y-convivencia-listening-comprehension",
+        "id": "spanish-b1-relaciones-y-convivencia-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Relaciones y convivencia», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre relaciones y convivencia. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Relaciones y convivencia»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Relaciones y convivencia»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Relaciones y convivencia» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -16261,36 +17235,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Relaciones y convivencia», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre relaciones y convivencia. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Relaciones y convivencia»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Relaciones y convivencia»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Relaciones y convivencia» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -16348,75 +17329,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-turismo-y-comunidad-listening-comprehension",
+        "id": "spanish-b2-turismo-y-comunidad-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Turismo y comunidad», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Turismo y comunidad»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Turismo y comunidad»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Turismo y comunidad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -16427,36 +17431,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Turismo y comunidad», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Turismo y comunidad»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Turismo y comunidad»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Turismo y comunidad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -16514,75 +17525,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-innovacion-responsable-listening-comprehension",
+        "id": "spanish-c1-innovacion-responsable-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Innovación responsable», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre innovación responsable. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Innovación responsable»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Innovación responsable»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Innovación responsable» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -16593,36 +17627,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Innovación responsable», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre innovación responsable. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Innovación responsable»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Innovación responsable»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Innovación responsable» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -16680,75 +17721,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-analisis-juridico-listening-comprehension",
+        "id": "spanish-c2-analisis-juridico-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Análisis jurídico», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Análisis jurídico»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Análisis jurídico»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Análisis jurídico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -16759,36 +17823,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Análisis jurídico», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Análisis jurídico»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Análisis jurídico»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Análisis jurídico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -16855,38 +17926,145 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "spanish-a1-mi-casa-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Así es mi casa», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi casa tiene tres habitaciones y una sala grande."
+              },
+              {
+                "id": "o2",
+                "text": "En la cocina hay una nevera y una estufa."
+              },
+              {
+                "id": "o3",
+                "text": "Mi dormitorio tiene una cama y un armario."
+              },
+              {
+                "id": "o4",
+                "text": "Detrás de la casa hay un patio pequeño."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Mi casa tiene tres habitaciones y una sala grande.», ¿qué sucede a continuación en «Así es mi casa»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi casa tiene tres habitaciones y una sala grande."
+              },
+              {
+                "id": "o2",
+                "text": "En la cocina hay una nevera y una estufa."
+              },
+              {
+                "id": "o3",
+                "text": "Mi dormitorio tiene una cama y un armario."
+              },
+              {
+                "id": "o4",
+                "text": "Detrás de la casa hay un patio pequeño."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Así es mi casa»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi casa tiene tres habitaciones y una sala grande."
+              },
+              {
+                "id": "o2",
+                "text": "En la cocina hay una nevera y una estufa."
+              },
+              {
+                "id": "o3",
+                "text": "Mi dormitorio tiene una cama y un armario."
+              },
+              {
+                "id": "o4",
+                "text": "Detrás de la casa hay un patio pequeño."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Así es mi casa» después de «Mi dormitorio tiene una cama y un armario.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi casa tiene tres habitaciones y una sala grande."
+              },
+              {
+                "id": "o2",
+                "text": "En la cocina hay una nevera y una estufa."
+              },
+              {
+                "id": "o3",
+                "text": "Mi dormitorio tiene una cama y un armario."
+              },
+              {
+                "id": "o4",
+                "text": "Detrás de la casa hay un patio pequeño."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué hay en la sala?",
+        "prompt": "En «Así es mi casa», ¿qué detalle presenta la situación?",
         "options": [
-          "Una cama",
-          "Un sofá y una mesa",
-          "Una nevera",
-          "Un patio"
+          "Mi casa tiene tres habitaciones y una sala grande.",
+          "En la cocina hay una nevera y una estufa.",
+          "Mi dormitorio tiene una cama y un armario.",
+          "Detrás de la casa hay un patio pequeño."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hay en la cocina?",
+        "prompt": "Después de «Mi casa tiene tres habitaciones y una sala grande.», ¿qué sucede a continuación en «Así es mi casa»?",
         "options": [
-          "Un sofá",
-          "Una nevera y una estufa",
-          "Un armario",
-          "Un baño"
+          "Mi casa tiene tres habitaciones y una sala grande.",
+          "En la cocina hay una nevera y una estufa.",
+          "Mi dormitorio tiene una cama y un armario.",
+          "Detrás de la casa hay un patio pequeño."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuántos baños tiene la casa?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Así es mi casa»?",
         "options": [
-          "Uno",
-          "Dos",
-          "Tres",
-          "Ninguno"
+          "Mi casa tiene tres habitaciones y una sala grande.",
+          "En la cocina hay una nevera y una estufa.",
+          "Mi dormitorio tiene una cama y un armario.",
+          "Detrás de la casa hay un patio pequeño."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Así es mi casa» después de «Mi dormitorio tiene una cama y un armario.»?",
+        "options": [
+          "Mi casa tiene tres habitaciones y una sala grande.",
+          "En la cocina hay una nevera y una estufa.",
+          "Mi dormitorio tiene una cama y un armario.",
+          "Detrás de la casa hay un patio pequeño."
         ]
       }
     ]
@@ -19711,75 +20889,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-casa-y-barrio-listening-comprehension",
+        "id": "spanish-a2-casa-y-barrio-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Casa y barrio», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Casa y barrio»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Casa y barrio»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Casa y barrio» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -19790,36 +20991,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Casa y barrio», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Casa y barrio»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Casa y barrio»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Casa y barrio» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -19877,75 +21085,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-consumo-responsable-listening-comprehension",
+        "id": "spanish-b1-consumo-responsable-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Consumo responsable», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Consumo responsable»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Consumo responsable»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Consumo responsable» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -19956,36 +21187,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Consumo responsable», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Consumo responsable»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Consumo responsable»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Consumo responsable» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -20043,75 +21281,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-educacion-digital-listening-comprehension",
+        "id": "spanish-b2-educacion-digital-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Educación digital», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre educación digital. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Educación digital»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Educación digital»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Educación digital» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -20122,36 +21383,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Educación digital», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre educación digital. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Educación digital»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Educación digital»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Educación digital» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -20209,75 +21477,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-literatura-y-voz-listening-comprehension",
+        "id": "spanish-c1-literatura-y-voz-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Literatura y voz», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Literatura y voz»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Literatura y voz»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Literatura y voz» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -20288,36 +21579,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Literatura y voz», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Literatura y voz»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Literatura y voz»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Literatura y voz» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -20375,75 +21673,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-edicion-de-estilo-listening-comprehension",
+        "id": "spanish-c2-edicion-de-estilo-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Edición de estilo», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Edición de estilo»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Edición de estilo»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Edición de estilo» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -20454,36 +21775,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Edición de estilo», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Edición de estilo»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Edición de estilo»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Edición de estilo» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -20582,38 +21910,145 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "spanish-a1-mi-barrio-y-mi-ciudad-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Perdón, ¿dónde está el banco?», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Perdón, ¿dónde está el banco?"
+              },
+              {
+                "id": "o2",
+                "text": "No, está a cinco minutos a pie."
+              },
+              {
+                "id": "o3",
+                "text": "Sí, la farmacia está al lado del banco."
+              },
+              {
+                "id": "o4",
+                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Perdón, ¿dónde está el banco?», ¿qué sucede a continuación en «Perdón, ¿dónde está el banco?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Perdón, ¿dónde está el banco?"
+              },
+              {
+                "id": "o2",
+                "text": "No, está a cinco minutos a pie."
+              },
+              {
+                "id": "o3",
+                "text": "Sí, la farmacia está al lado del banco."
+              },
+              {
+                "id": "o4",
+                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Perdón, ¿dónde está el banco?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Perdón, ¿dónde está el banco?"
+              },
+              {
+                "id": "o2",
+                "text": "No, está a cinco minutos a pie."
+              },
+              {
+                "id": "o3",
+                "text": "Sí, la farmacia está al lado del banco."
+              },
+              {
+                "id": "o4",
+                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «Sí, la farmacia está al lado del banco.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Perdón, ¿dónde está el banco?"
+              },
+              {
+                "id": "o2",
+                "text": "No, está a cinco minutos a pie."
+              },
+              {
+                "id": "o3",
+                "text": "Sí, la farmacia está al lado del banco."
+              },
+              {
+                "id": "o4",
+                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué busca el turista primero?",
+        "prompt": "En «Perdón, ¿dónde está el banco?», ¿qué detalle presenta la situación?",
         "options": [
-          "La farmacia",
-          "El banco",
-          "El parque",
-          "El supermercado"
+          "Perdón, ¿dónde está el banco?",
+          "No, está a cinco minutos a pie.",
+          "Sí, la farmacia está al lado del banco.",
+          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Hacia dónde debe doblar?",
+        "prompt": "Después de «Perdón, ¿dónde está el banco?», ¿qué sucede a continuación en «Perdón, ¿dónde está el banco?»?",
         "options": [
-          "A la izquierda",
-          "A la derecha",
-          "Todo recto",
-          "Hacia atrás"
+          "Perdón, ¿dónde está el banco?",
+          "No, está a cinco minutos a pie.",
+          "Sí, la farmacia está al lado del banco.",
+          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Dónde está la farmacia?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Perdón, ¿dónde está el banco?»?",
         "options": [
-          "Lejos del banco",
-          "Al lado del banco",
-          "Detrás del parque",
-          "No hay farmacia"
+          "Perdón, ¿dónde está el banco?",
+          "No, está a cinco minutos a pie.",
+          "Sí, la farmacia está al lado del banco.",
+          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «Sí, la farmacia está al lado del banco.»?",
+        "options": [
+          "Perdón, ¿dónde está el banco?",
+          "No, está a cinco minutos a pie.",
+          "Sí, la farmacia está al lado del banco.",
+          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
         ]
       }
     ]
@@ -23438,75 +24873,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-comidas-y-recetas-listening-comprehension",
+        "id": "spanish-a2-comidas-y-recetas-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Comidas y recetas», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Comidas y recetas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Comidas y recetas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Comidas y recetas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -23517,36 +24975,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Comidas y recetas», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Comidas y recetas»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Comidas y recetas»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Comidas y recetas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -23604,75 +25069,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-cultura-y-tradiciones-listening-comprehension",
+        "id": "spanish-b1-cultura-y-tradiciones-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Cultura y tradiciones», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre cultura y tradiciones. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Cultura y tradiciones»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cultura y tradiciones»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Cultura y tradiciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -23683,36 +25171,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Cultura y tradiciones», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre cultura y tradiciones. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Cultura y tradiciones»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cultura y tradiciones»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Cultura y tradiciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -23770,75 +25265,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-alimentacion-y-sociedad-listening-comprehension",
+        "id": "spanish-b2-alimentacion-y-sociedad-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Alimentación y sociedad», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre alimentación y sociedad. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Alimentación y sociedad»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Alimentación y sociedad»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Alimentación y sociedad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -23849,36 +25367,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Alimentación y sociedad», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre alimentación y sociedad. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Alimentación y sociedad»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Alimentación y sociedad»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Alimentación y sociedad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -23936,75 +25461,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-economia-y-cuidados-listening-comprehension",
+        "id": "spanish-c1-economia-y-cuidados-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Economía y cuidados», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Economía y cuidados»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Economía y cuidados»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Economía y cuidados» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -24015,36 +25563,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Economía y cuidados», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Economía y cuidados»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Economía y cuidados»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Economía y cuidados» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -24102,75 +25657,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-debate-epistemico-listening-comprehension",
+        "id": "spanish-c2-debate-epistemico-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Debate epistémico», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Debate epistémico»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Debate epistémico»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Debate epistémico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -24181,36 +25759,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Debate epistémico», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Debate epistémico»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Debate epistémico»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Debate epistémico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -24309,38 +25894,145 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "spanish-a1-comida-y-bebida-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «¿Qué desea pedir?», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenos días. ¿Qué desea pedir?"
+              },
+              {
+                "id": "o2",
+                "text": "Sí, un poco de fruta también, gracias."
+              },
+              {
+                "id": "o3",
+                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
+              },
+              {
+                "id": "o4",
+                "text": "Solo el café está bien."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Buenos días. ¿Qué desea pedir?», ¿qué sucede a continuación en «¿Qué desea pedir?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenos días. ¿Qué desea pedir?"
+              },
+              {
+                "id": "o2",
+                "text": "Sí, un poco de fruta también, gracias."
+              },
+              {
+                "id": "o3",
+                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
+              },
+              {
+                "id": "o4",
+                "text": "Solo el café está bien."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Qué desea pedir?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenos días. ¿Qué desea pedir?"
+              },
+              {
+                "id": "o2",
+                "text": "Sí, un poco de fruta también, gracias."
+              },
+              {
+                "id": "o3",
+                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
+              },
+              {
+                "id": "o4",
+                "text": "Solo el café está bien."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenos días. ¿Qué desea pedir?"
+              },
+              {
+                "id": "o2",
+                "text": "Sí, un poco de fruta también, gracias."
+              },
+              {
+                "id": "o3",
+                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
+              },
+              {
+                "id": "o4",
+                "text": "Solo el café está bien."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué pide el cliente para tomar?",
+        "prompt": "En «¿Qué desea pedir?», ¿qué detalle presenta la situación?",
         "options": [
-          "Jugo",
-          "Café con leche",
-          "Té",
-          "Agua"
+          "Buenos días. ¿Qué desea pedir?",
+          "Sí, un poco de fruta también, gracias.",
+          "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?",
+          "Solo el café está bien."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué más pide el cliente?",
+        "prompt": "Después de «Buenos días. ¿Qué desea pedir?», ¿qué sucede a continuación en «¿Qué desea pedir?»?",
         "options": [
-          "Pan y fruta",
-          "Solo pan",
-          "Nada más",
-          "Huevos"
+          "Buenos días. ¿Qué desea pedir?",
+          "Sí, un poco de fruta también, gracias.",
+          "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?",
+          "Solo el café está bien."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Quiere algo frío el cliente?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Qué desea pedir?»?",
         "options": [
-          "Sí",
-          "No",
-          "No dice",
-          "Pide dos"
+          "Buenos días. ¿Qué desea pedir?",
+          "Sí, un poco de fruta también, gracias.",
+          "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?",
+          "Solo el café está bien."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?»?",
+        "options": [
+          "Buenos días. ¿Qué desea pedir?",
+          "Sí, un poco de fruta también, gracias.",
+          "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?",
+          "Solo el café está bien."
         ]
       }
     ]
@@ -27170,75 +28862,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-recuerdos-y-experiencias-listening-comprehension",
+        "id": "spanish-a2-recuerdos-y-experiencias-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Recuerdos y experiencias», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Recuerdos y experiencias»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Recuerdos y experiencias»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Recuerdos y experiencias» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -27249,36 +28964,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Recuerdos y experiencias», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Recuerdos y experiencias»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Recuerdos y experiencias»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Recuerdos y experiencias» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -27336,75 +29058,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-educacion-y-metas-listening-comprehension",
+        "id": "spanish-b1-educacion-y-metas-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Educación y metas», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Educación y metas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Educación y metas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Educación y metas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -27415,36 +29160,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Educación y metas», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Educación y metas»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Educación y metas»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Educación y metas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -27502,75 +29254,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-arte-y-espacio-publico-listening-comprehension",
+        "id": "spanish-b2-arte-y-espacio-publico-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Arte y espacio público», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre arte y espacio público. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Arte y espacio público»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Arte y espacio público»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Arte y espacio público» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -27581,36 +29356,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Arte y espacio público», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre arte y espacio público. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Arte y espacio público»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Arte y espacio público»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Arte y espacio público» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -27668,75 +29450,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-diversidad-del-espanol-listening-comprehension",
+        "id": "spanish-c1-diversidad-del-espanol-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Diversidad del español», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre diversidad del español. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Diversidad del español»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Diversidad del español»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Diversidad del español» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -27747,36 +29552,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Diversidad del español», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre diversidad del español. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Diversidad del español»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Diversidad del español»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Diversidad del español» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -27834,75 +29646,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-estetica-y-interpretacion-listening-comprehension",
+        "id": "spanish-c2-estetica-y-interpretacion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Estética e interpretación», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre estética e interpretación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Estética e interpretación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Estética e interpretación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Estética e interpretación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -27913,36 +29748,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Estética e interpretación», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre estética e interpretación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Estética e interpretación»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Estética e interpretación»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Estética e interpretación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -28041,38 +29883,145 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "spanish-a1-de-compras-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «¿Cuánto cuesta?», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenas tardes, busco una camisa azul."
+              },
+              {
+                "id": "o2",
+                "text": "Talla mediana, por favor. ¿Cuánto cuesta?"
+              },
+              {
+                "id": "o3",
+                "text": "Cuesta ochocientos pesos."
+              },
+              {
+                "id": "o4",
+                "text": "Muy bien, gracias por su compra."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Buenas tardes, busco una camisa azul.», ¿qué sucede a continuación en «¿Cuánto cuesta?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenas tardes, busco una camisa azul."
+              },
+              {
+                "id": "o2",
+                "text": "Talla mediana, por favor. ¿Cuánto cuesta?"
+              },
+              {
+                "id": "o3",
+                "text": "Cuesta ochocientos pesos."
+              },
+              {
+                "id": "o4",
+                "text": "Muy bien, gracias por su compra."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Cuánto cuesta?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenas tardes, busco una camisa azul."
+              },
+              {
+                "id": "o2",
+                "text": "Talla mediana, por favor. ¿Cuánto cuesta?"
+              },
+              {
+                "id": "o3",
+                "text": "Cuesta ochocientos pesos."
+              },
+              {
+                "id": "o4",
+                "text": "Muy bien, gracias por su compra."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿Cuánto cuesta?» después de «Cuesta ochocientos pesos.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenas tardes, busco una camisa azul."
+              },
+              {
+                "id": "o2",
+                "text": "Talla mediana, por favor. ¿Cuánto cuesta?"
+              },
+              {
+                "id": "o3",
+                "text": "Cuesta ochocientos pesos."
+              },
+              {
+                "id": "o4",
+                "text": "Muy bien, gracias por su compra."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué busca la clienta?",
+        "prompt": "En «¿Cuánto cuesta?», ¿qué detalle presenta la situación?",
         "options": [
-          "Un pantalón",
-          "Una camisa azul",
-          "Zapatos",
-          "Un sombrero"
+          "Buenas tardes, busco una camisa azul.",
+          "Talla mediana, por favor. ¿Cuánto cuesta?",
+          "Cuesta ochocientos pesos.",
+          "Muy bien, gracias por su compra."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué talla pide?",
+        "prompt": "Después de «Buenas tardes, busco una camisa azul.», ¿qué sucede a continuación en «¿Cuánto cuesta?»?",
         "options": [
-          "Pequeña",
-          "Mediana",
-          "Grande",
-          "Extra grande"
+          "Buenas tardes, busco una camisa azul.",
+          "Talla mediana, por favor. ¿Cuánto cuesta?",
+          "Cuesta ochocientos pesos.",
+          "Muy bien, gracias por su compra."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuánto cuesta la camisa?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Cuánto cuesta?»?",
         "options": [
-          "Quinientos pesos",
-          "Setecientos pesos",
-          "Ochocientos pesos",
-          "Mil pesos"
+          "Buenas tardes, busco una camisa azul.",
+          "Talla mediana, por favor. ¿Cuánto cuesta?",
+          "Cuesta ochocientos pesos.",
+          "Muy bien, gracias por su compra."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «¿Cuánto cuesta?» después de «Cuesta ochocientos pesos.»?",
+        "options": [
+          "Buenas tardes, busco una camisa azul.",
+          "Talla mediana, por favor. ¿Cuánto cuesta?",
+          "Cuesta ochocientos pesos.",
+          "Muy bien, gracias por su compra."
         ]
       }
     ]
@@ -30897,75 +32846,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-celebraciones-listening-comprehension",
+        "id": "spanish-a2-celebraciones-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Celebraciones», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Celebraciones»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Celebraciones»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Celebraciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -30976,36 +32948,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Celebraciones», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Celebraciones»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Celebraciones»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Celebraciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -31063,75 +33042,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-medioambiente-local-listening-comprehension",
+        "id": "spanish-b1-medioambiente-local-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Medioambiente local», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Medioambiente local»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Medioambiente local»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Medioambiente local» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -31142,36 +33144,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Medioambiente local», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Medioambiente local»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Medioambiente local»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Medioambiente local» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -31229,75 +33238,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-ciencia-y-etica-listening-comprehension",
+        "id": "spanish-b2-ciencia-y-etica-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Ciencia y ética», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Ciencia y ética»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ciencia y ética»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Ciencia y ética» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -31308,36 +33340,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Ciencia y ética», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Ciencia y ética»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ciencia y ética»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Ciencia y ética» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -31395,75 +33434,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-diplomacia-y-negociacion-listening-comprehension",
+        "id": "spanish-c1-diplomacia-y-negociacion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Diplomacia y negociación», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre diplomacia y negociación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Diplomacia y negociación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Diplomacia y negociación»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Diplomacia y negociación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -31474,36 +33536,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Diplomacia y negociación», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre diplomacia y negociación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Diplomacia y negociación»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Diplomacia y negociación»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Diplomacia y negociación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -31561,75 +33630,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-discurso-cientifico-listening-comprehension",
+        "id": "spanish-c2-discurso-cientifico-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Discurso científico», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Discurso científico»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Discurso científico»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Discurso científico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -31640,36 +33732,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Discurso científico», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Discurso científico»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Discurso científico»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Discurso científico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -31770,38 +33869,145 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "spanish-a1-estudios-y-trabajo-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Una entrevista breve», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿Qué estudias, Natalia?"
+              },
+              {
+                "id": "o2",
+                "text": "¿Trabajas también?"
+              },
+              {
+                "id": "o3",
+                "text": "Tengo que atender a los clientes y organizar la tienda."
+              },
+              {
+                "id": "o4",
+                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «¿Qué estudias, Natalia?», ¿qué sucede a continuación en «Una entrevista breve»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿Qué estudias, Natalia?"
+              },
+              {
+                "id": "o2",
+                "text": "¿Trabajas también?"
+              },
+              {
+                "id": "o3",
+                "text": "Tengo que atender a los clientes y organizar la tienda."
+              },
+              {
+                "id": "o4",
+                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Una entrevista breve»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿Qué estudias, Natalia?"
+              },
+              {
+                "id": "o2",
+                "text": "¿Trabajas también?"
+              },
+              {
+                "id": "o3",
+                "text": "Tengo que atender a los clientes y organizar la tienda."
+              },
+              {
+                "id": "o4",
+                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «Tengo que atender a los clientes y organizar la tienda.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿Qué estudias, Natalia?"
+              },
+              {
+                "id": "o2",
+                "text": "¿Trabajas también?"
+              },
+              {
+                "id": "o3",
+                "text": "Tengo que atender a los clientes y organizar la tienda."
+              },
+              {
+                "id": "o4",
+                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué estudia Natalia?",
+        "prompt": "En «Una entrevista breve», ¿qué detalle presenta la situación?",
         "options": [
-          "Medicina",
-          "Administración",
-          "Ingeniería",
-          "Arte"
+          "¿Qué estudias, Natalia?",
+          "¿Trabajas también?",
+          "Tengo que atender a los clientes y organizar la tienda.",
+          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Dónde trabaja Natalia?",
+        "prompt": "Después de «¿Qué estudias, Natalia?», ¿qué sucede a continuación en «Una entrevista breve»?",
         "options": [
-          "En un hospital",
-          "En una tienda",
-          "En una escuela",
-          "En un banco"
+          "¿Qué estudias, Natalia?",
+          "¿Trabajas también?",
+          "Tengo que atender a los clientes y organizar la tienda.",
+          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué tiene que hacer en su trabajo?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Una entrevista breve»?",
         "options": [
-          "Cocinar",
-          "Atender clientes y organizar",
-          "Enseñar",
-          "Manejar"
+          "¿Qué estudias, Natalia?",
+          "¿Trabajas también?",
+          "Tengo que atender a los clientes y organizar la tienda.",
+          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «Tengo que atender a los clientes y organizar la tienda.»?",
+        "options": [
+          "¿Qué estudias, Natalia?",
+          "¿Trabajas también?",
+          "Tengo que atender a los clientes y organizar la tienda.",
+          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
         ]
       }
     ]
@@ -34626,75 +36832,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-estudio-y-aprendizaje-listening-comprehension",
+        "id": "spanish-a2-estudio-y-aprendizaje-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Estudio y aprendizaje», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Estudio y aprendizaje»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Estudio y aprendizaje»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Estudio y aprendizaje» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -34705,36 +36934,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Estudio y aprendizaje», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Estudio y aprendizaje»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Estudio y aprendizaje»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Estudio y aprendizaje» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -34792,75 +37028,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-salud-y-habitos-listening-comprehension",
+        "id": "spanish-b1-salud-y-habitos-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Salud y hábitos», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Salud y hábitos»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Salud y hábitos»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Salud y hábitos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -34871,36 +37130,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Salud y hábitos», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Salud y hábitos»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Salud y hábitos»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Salud y hábitos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -34958,75 +37224,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-vivienda-y-desigualdad-listening-comprehension",
+        "id": "spanish-b2-vivienda-y-desigualdad-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Vivienda y desigualdad», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Vivienda y desigualdad»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Vivienda y desigualdad»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Vivienda y desigualdad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -35037,36 +37326,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Vivienda y desigualdad», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Vivienda y desigualdad»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Vivienda y desigualdad»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Vivienda y desigualdad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -35124,75 +37420,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-critica-cultural-listening-comprehension",
+        "id": "spanish-c1-critica-cultural-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Crítica cultural», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Crítica cultural»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Crítica cultural»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Crítica cultural» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -35203,36 +37522,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Crítica cultural», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Crítica cultural»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Crítica cultural»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Crítica cultural» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -35290,75 +37616,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-mediacion-de-conflictos-listening-comprehension",
+        "id": "spanish-c2-mediacion-de-conflictos-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Mediación de conflictos», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre mediación de conflictos. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Mediación de conflictos»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Mediación de conflictos»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Mediación de conflictos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -35369,36 +37718,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Mediación de conflictos», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre mediación de conflictos. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Mediación de conflictos»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Mediación de conflictos»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Mediación de conflictos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -35497,38 +37853,145 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "spanish-a1-tiempo-libre-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «¿Quieres ir al cine?», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿Quieres ir al cine el sábado?"
+              },
+              {
+                "id": "o2",
+                "text": "Perfecto, me gusta la idea."
+              },
+              {
+                "id": "o3",
+                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
+              },
+              {
+                "id": "o4",
+                "text": "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «¿Quieres ir al cine el sábado?», ¿qué sucede a continuación en «¿Quieres ir al cine?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿Quieres ir al cine el sábado?"
+              },
+              {
+                "id": "o2",
+                "text": "Perfecto, me gusta la idea."
+              },
+              {
+                "id": "o3",
+                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
+              },
+              {
+                "id": "o4",
+                "text": "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Quieres ir al cine?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿Quieres ir al cine el sábado?"
+              },
+              {
+                "id": "o2",
+                "text": "Perfecto, me gusta la idea."
+              },
+              {
+                "id": "o3",
+                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
+              },
+              {
+                "id": "o4",
+                "text": "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «No, prefiero una comedia. ¡Nos vemos el sábado!»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "¿Quieres ir al cine el sábado?"
+              },
+              {
+                "id": "o2",
+                "text": "Perfecto, me gusta la idea."
+              },
+              {
+                "id": "o3",
+                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
+              },
+              {
+                "id": "o4",
+                "text": "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué invita Kevin a hacer?",
+        "prompt": "En «¿Quieres ir al cine?», ¿qué detalle presenta la situación?",
         "options": [
-          "Ir al parque",
-          "Ir al cine",
-          "Jugar fútbol",
-          "Estudiar"
+          "¿Quieres ir al cine el sábado?",
+          "Perfecto, me gusta la idea.",
+          "No, prefiero una comedia. ¡Nos vemos el sábado!",
+          "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿A qué hora es el plan?",
+        "prompt": "Después de «¿Quieres ir al cine el sábado?», ¿qué sucede a continuación en «¿Quieres ir al cine?»?",
         "options": [
-          "Dos de la tarde",
-          "Cuatro de la tarde",
-          "Seis de la tarde",
-          "Ocho de la noche"
+          "¿Quieres ir al cine el sábado?",
+          "Perfecto, me gusta la idea.",
+          "No, prefiero una comedia. ¡Nos vemos el sábado!",
+          "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué tipo de película prefiere Ana?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Quieres ir al cine?»?",
         "options": [
-          "Acción",
-          "Comedia",
-          "Terror",
-          "No dice"
+          "¿Quieres ir al cine el sábado?",
+          "Perfecto, me gusta la idea.",
+          "No, prefiero una comedia. ¡Nos vemos el sábado!",
+          "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «No, prefiero una comedia. ¡Nos vemos el sábado!»?",
+        "options": [
+          "¿Quieres ir al cine el sábado?",
+          "Perfecto, me gusta la idea.",
+          "No, prefiero una comedia. ¡Nos vemos el sábado!",
+          "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
         ]
       }
     ]
@@ -38353,75 +40816,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-tecnologia-cotidiana-listening-comprehension",
+        "id": "spanish-a2-tecnologia-cotidiana-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Tecnología cotidiana», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Tecnología cotidiana»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Tecnología cotidiana»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Tecnología cotidiana» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -38432,36 +40918,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Tecnología cotidiana», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Tecnología cotidiana»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Tecnología cotidiana»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Tecnología cotidiana» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -38519,75 +41012,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-servicios-y-reclamaciones-listening-comprehension",
+        "id": "spanish-b1-servicios-y-reclamaciones-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Servicios y reclamaciones», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Servicios y reclamaciones»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Servicios y reclamaciones»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Servicios y reclamaciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -38598,36 +41114,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Servicios y reclamaciones», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Servicios y reclamaciones»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Servicios y reclamaciones»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Servicios y reclamaciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -38685,75 +41208,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-lenguaje-e-inclusion-listening-comprehension",
+        "id": "spanish-b2-lenguaje-e-inclusion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Lenguaje e inclusión», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Lenguaje e inclusión»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Lenguaje e inclusión»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Lenguaje e inclusión» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -38764,36 +41310,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Lenguaje e inclusión», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Lenguaje e inclusión»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Lenguaje e inclusión»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Lenguaje e inclusión» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -38851,75 +41404,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-politicas-publicas-listening-comprehension",
+        "id": "spanish-c1-politicas-publicas-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Políticas públicas», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Políticas públicas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Políticas públicas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Políticas públicas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -38930,36 +41506,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Políticas públicas», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Políticas públicas»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Políticas públicas»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Políticas públicas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -39017,75 +41600,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-ensayo-de-alta-exigencia-listening-comprehension",
+        "id": "spanish-c2-ensayo-de-alta-exigencia-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Ensayo de alta exigencia», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Ensayo de alta exigencia»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ensayo de alta exigencia»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Ensayo de alta exigencia» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -39096,36 +41702,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Ensayo de alta exigencia», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Ensayo de alta exigencia»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ensayo de alta exigencia»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Ensayo de alta exigencia» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -39224,38 +41837,145 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "spanish-a1-salud-y-bienestar-a1-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «En la farmacia», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenas tardes, ¿qué le duele?"
+              },
+              {
+                "id": "o2",
+                "text": "No, no tengo fiebre. Solo estoy cansada."
+              },
+              {
+                "id": "o3",
+                "text": "Muchas gracias, lo voy a hacer."
+              },
+              {
+                "id": "o4",
+                "text": "Solo estoy cansada."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Buenas tardes, ¿qué le duele?», ¿qué sucede a continuación en «En la farmacia»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenas tardes, ¿qué le duele?"
+              },
+              {
+                "id": "o2",
+                "text": "No, no tengo fiebre. Solo estoy cansada."
+              },
+              {
+                "id": "o3",
+                "text": "Muchas gracias, lo voy a hacer."
+              },
+              {
+                "id": "o4",
+                "text": "Solo estoy cansada."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «En la farmacia»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenas tardes, ¿qué le duele?"
+              },
+              {
+                "id": "o2",
+                "text": "No, no tengo fiebre. Solo estoy cansada."
+              },
+              {
+                "id": "o3",
+                "text": "Muchas gracias, lo voy a hacer."
+              },
+              {
+                "id": "o4",
+                "text": "Solo estoy cansada."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «En la farmacia» después de «Muchas gracias, lo voy a hacer.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Buenas tardes, ¿qué le duele?"
+              },
+              {
+                "id": "o2",
+                "text": "No, no tengo fiebre. Solo estoy cansada."
+              },
+              {
+                "id": "o3",
+                "text": "Muchas gracias, lo voy a hacer."
+              },
+              {
+                "id": "o4",
+                "text": "Solo estoy cansada."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué le duele a Isabel?",
+        "prompt": "En «En la farmacia», ¿qué detalle presenta la situación?",
         "options": [
-          "El estómago",
-          "La cabeza y la garganta",
-          "La pierna",
-          "El brazo"
+          "Buenas tardes, ¿qué le duele?",
+          "No, no tengo fiebre. Solo estoy cansada.",
+          "Muchas gracias, lo voy a hacer.",
+          "Solo estoy cansada."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Tiene fiebre Isabel?",
+        "prompt": "Después de «Buenas tardes, ¿qué le duele?», ¿qué sucede a continuación en «En la farmacia»?",
         "options": [
-          "Sí",
-          "No",
-          "No dice",
-          "Un poco"
+          "Buenas tardes, ¿qué le duele?",
+          "No, no tengo fiebre. Solo estoy cansada.",
+          "Muchas gracias, lo voy a hacer.",
+          "Solo estoy cansada."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué le recomienda el farmacéutico?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «En la farmacia»?",
         "options": [
-          "Hacer ejercicio",
-          "Descansar, beber agua y consultar a un médico si no mejora",
-          "Volver al trabajo",
-          "Comer más"
+          "Buenas tardes, ¿qué le duele?",
+          "No, no tengo fiebre. Solo estoy cansada.",
+          "Muchas gracias, lo voy a hacer.",
+          "Solo estoy cansada."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «En la farmacia» después de «Muchas gracias, lo voy a hacer.»?",
+        "options": [
+          "Buenas tardes, ¿qué le duele?",
+          "No, no tengo fiebre. Solo estoy cansada.",
+          "Muchas gracias, lo voy a hacer.",
+          "Solo estoy cansada."
         ]
       }
     ]
@@ -42080,75 +44800,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-a2-planes-y-proyectos-listening-comprehension",
+        "id": "spanish-a2-planes-y-proyectos-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Planes y proyectos», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Planes y proyectos»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Planes y proyectos»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Planes y proyectos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -42159,36 +44902,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Planes y proyectos», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Planes y proyectos»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Planes y proyectos»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Planes y proyectos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -42246,75 +44996,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b1-proyecto-comunitario-listening-comprehension",
+        "id": "spanish-b1-proyecto-comunitario-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Proyecto comunitario», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Proyecto comunitario»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Proyecto comunitario»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Proyecto comunitario» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -42325,36 +45098,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Proyecto comunitario», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Proyecto comunitario»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Proyecto comunitario»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Proyecto comunitario» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -42412,75 +45192,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-b2-foro-de-propuestas-listening-comprehension",
+        "id": "spanish-b2-foro-de-propuestas-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Foro de propuestas», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Foro de propuestas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Foro de propuestas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Foro de propuestas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -42491,36 +45294,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Foro de propuestas», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Foro de propuestas»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Foro de propuestas»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Foro de propuestas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -42578,75 +45388,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c1-coloquio-academico-listening-comprehension",
+        "id": "spanish-c1-coloquio-academico-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Coloquio académico», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Coloquio académico»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Coloquio académico»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Coloquio académico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -42657,36 +45490,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Coloquio académico», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Coloquio académico»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Coloquio académico»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Coloquio académico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -42744,75 +45584,98 @@
         "Alex"
       ],
       "listeningComprehension": {
-        "id": "spanish-c2-defensa-y-sintesis-listening-comprehension",
+        "id": "spanish-c2-defensa-y-sintesis-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué propone hacer primero la conversación?",
+            "prompt": "En «Escucha · Defensa y síntesis», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Decidir inmediatamente"
+                "text": "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Aclarar el objetivo"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Cancelar la actividad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro tema"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo quieren presentar la propuesta?",
+            "prompt": "Después de «Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Defensa y síntesis»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sin razones"
+                "text": "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Con razones claras"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Solo por escrito"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Como una orden"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué actitud muestran los hablantes?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Defensa y síntesis»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Colaboración"
+                "text": "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Indiferencia"
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
               },
               {
                 "id": "o3",
-                "text": "Hostilidad"
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o4",
-                "text": "Confusión total"
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Defensa y síntesis» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
+              },
+              {
+                "id": "o2",
+                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+              },
+              {
+                "id": "o3",
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+              },
+              {
+                "id": "o4",
+                "text": "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
               }
             ]
           }
@@ -42823,36 +45686,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué propone hacer primero la conversación?",
+        "prompt": "En «Escucha · Defensa y síntesis», ¿qué detalle presenta la situación?",
         "options": [
-          "Decidir inmediatamente",
-          "Aclarar el objetivo",
-          "Cancelar la actividad",
-          "Buscar otro tema"
-        ],
-        "explanation": "Los hablantes acuerdan aclarar primero el objetivo."
+          "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo quieren presentar la propuesta?",
+        "prompt": "Después de «Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Defensa y síntesis»?",
         "options": [
-          "Sin razones",
-          "Con razones claras",
-          "Solo por escrito",
-          "Como una orden"
-        ],
-        "explanation": "Alex menciona explícitamente razones claras."
+          "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué actitud muestran los hablantes?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Defensa y síntesis»?",
         "options": [
-          "Colaboración",
-          "Indiferencia",
-          "Hostilidad",
-          "Confusión total"
-        ],
-        "explanation": "Ambos construyen un plan conjunto."
+          "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Defensa y síntesis» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "options": [
+          "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
+          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
+        ]
       }
     ]
   },
@@ -42919,38 +45789,145 @@
         "reviewStatus": "pending-review"
       },
       "dictationSegmentCount": 3,
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "spanish-a1-planes-y-repaso-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Un mensaje sobre el fin de semana», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, este fin de semana voy a ir a la playa con mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "El sábado, vamos a nadar"
+              },
+              {
+                "id": "o3",
+                "text": "comer en la playa."
+              },
+              {
+                "id": "o4",
+                "text": "El domingo, quiero descansar en casa. ¿Y tú? ¿Qué vas a hacer este fin de semana?"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Hola, este fin de semana voy a ir a la playa con mi familia.», ¿qué sucede a continuación en «Un mensaje sobre el fin de semana»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, este fin de semana voy a ir a la playa con mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "El sábado, vamos a nadar"
+              },
+              {
+                "id": "o3",
+                "text": "comer en la playa."
+              },
+              {
+                "id": "o4",
+                "text": "El domingo, quiero descansar en casa. ¿Y tú? ¿Qué vas a hacer este fin de semana?"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje sobre el fin de semana»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, este fin de semana voy a ir a la playa con mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "El sábado, vamos a nadar"
+              },
+              {
+                "id": "o3",
+                "text": "comer en la playa."
+              },
+              {
+                "id": "o4",
+                "text": "El domingo, quiero descansar en casa. ¿Y tú? ¿Qué vas a hacer este fin de semana?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Un mensaje sobre el fin de semana» después de «comer en la playa.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, este fin de semana voy a ir a la playa con mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "El sábado, vamos a nadar"
+              },
+              {
+                "id": "o3",
+                "text": "comer en la playa."
+              },
+              {
+                "id": "o4",
+                "text": "El domingo, quiero descansar en casa. ¿Y tú? ¿Qué vas a hacer este fin de semana?"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿A dónde va Sara este fin de semana?",
+        "prompt": "En «Un mensaje sobre el fin de semana», ¿qué detalle presenta la situación?",
         "options": [
-          "Al parque",
-          "A la playa",
-          "A la escuela",
-          "A casa de un amigo"
+          "Hola, este fin de semana voy a ir a la playa con mi familia.",
+          "El sábado, vamos a nadar",
+          "comer en la playa.",
+          "El domingo, quiero descansar en casa. ¿Y tú? ¿Qué vas a hacer este fin de semana?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué van a hacer el sábado?",
+        "prompt": "Después de «Hola, este fin de semana voy a ir a la playa con mi familia.», ¿qué sucede a continuación en «Un mensaje sobre el fin de semana»?",
         "options": [
-          "Estudiar",
-          "Nadar y comer",
-          "Trabajar",
-          "Dormir"
+          "Hola, este fin de semana voy a ir a la playa con mi familia.",
+          "El sábado, vamos a nadar",
+          "comer en la playa.",
+          "El domingo, quiero descansar en casa. ¿Y tú? ¿Qué vas a hacer este fin de semana?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué quiere hacer Sara el domingo?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje sobre el fin de semana»?",
         "options": [
-          "Viajar",
-          "Descansar en casa",
-          "Ir a la escuela",
-          "Nadar"
+          "Hola, este fin de semana voy a ir a la playa con mi familia.",
+          "El sábado, vamos a nadar",
+          "comer en la playa.",
+          "El domingo, quiero descansar en casa. ¿Y tú? ¿Qué vas a hacer este fin de semana?"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Un mensaje sobre el fin de semana» después de «comer en la playa.»?",
+        "options": [
+          "Hola, este fin de semana voy a ir a la playa con mi familia.",
+          "El sábado, vamos a nadar",
+          "comer en la playa.",
+          "El domingo, quiero descansar en casa. ¿Y tú? ¿Qué vas a hacer este fin de semana?"
         ]
       }
     ]

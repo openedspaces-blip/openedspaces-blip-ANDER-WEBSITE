@@ -629,6 +629,7 @@ function refreshLanguagePairChrome() {
     'bridgeSelectLabel',
     'targetSelectLabel',
     'levelSelectLabel',
+    'lessonSelectLabel',
     'bridgeLabel',
     'targetLabel',
     'levelLabel',
@@ -1664,7 +1665,7 @@ function clearAuthMessages() {
 // guest (see renderDashboardSignedOut/loadSecurityStatus) - unlike 'learn'
 // and 'tutor', which stay genuinely usable signed out (free lessons, an
 // uncapped Tutor IA chat) and so are deliberately left off this list.
-const MEMBER_ONLY_VIEWS_AFTER_LOGOUT = ['progress', 'achievements', 'goals', 'security'];
+const MEMBER_ONLY_VIEWS_AFTER_LOGOUT = ['progress', 'goals', 'security'];
 
 async function logout() {
   try {
@@ -6015,6 +6016,135 @@ function renderLessonItemHtml(lesson, nextSlug) {
     `;
 }
 
+const UNIT_ARTWORK_THEMES = [
+  {
+    terms: ['hello', 'bonjour', 'bienvenue', 'salut', 'hola', 'greeting', 'presentarse'],
+    emoji: '👋',
+    label: 'saludos y bienvenida',
+    tone: 'sun'
+  },
+  {
+    terms: ['about me', 'je me presente', 'sobre mi', 'identity', 'identite', 'identidad'],
+    emoji: '🙂',
+    label: 'identidad personal',
+    tone: 'sky'
+  },
+  {
+    terms: ['family', 'friends', 'famille', 'amis', 'familia', 'amigos', 'relationships'],
+    emoji: '👨‍👩‍👧',
+    label: 'familia y amistades',
+    tone: 'rose'
+  },
+  {
+    terms: ['home', 'house', 'maison', 'chez moi', 'casa', 'logement', 'housing'],
+    emoji: '🏡',
+    label: 'hogar y vivienda',
+    tone: 'mint'
+  },
+  {
+    terms: ['school', 'class', 'education', 'study', 'ecole', 'classe', 'formation', 'escuela'],
+    emoji: '🎓',
+    label: 'estudios y formación',
+    tone: 'violet'
+  },
+  {
+    terms: ['food', 'restaurant', 'cuisine', 'manger', 'repas', 'comida', 'cocina'],
+    emoji: '🍽️',
+    label: 'comida y restaurante',
+    tone: 'orange'
+  },
+  {
+    terms: ['city', 'town', 'ville', 'quartier', 'ciudad', 'barrio', 'urban'],
+    emoji: '🏙️',
+    label: 'ciudad y comunidad',
+    tone: 'sky'
+  },
+  {
+    terms: ['travel', 'trip', 'journey', 'voyage', 'transport', 'viaje', 'airport', 'aeroport'],
+    emoji: '🚆',
+    label: 'viajes y transporte',
+    tone: 'blue'
+  },
+  {
+    terms: ['health', 'doctor', 'medical', 'sante', 'medecin', 'salud', 'bien-etre'],
+    emoji: '🩺',
+    label: 'salud y bienestar',
+    tone: 'mint'
+  },
+  {
+    terms: ['work', 'job', 'career', 'travail', 'emploi', 'bureau', 'trabajo'],
+    emoji: '💼',
+    label: 'trabajo y vida profesional',
+    tone: 'blue'
+  },
+  {
+    terms: ['climate', 'environment', 'pollution', 'plastic', 'climat', 'environnement', 'ecologie'],
+    emoji: '🌱',
+    label: 'medioambiente',
+    tone: 'mint'
+  },
+  {
+    terms: ['social media', 'digital', 'technology', 'internet', 'reseaux', 'numerique', 'tecnologia'],
+    emoji: '📱',
+    label: 'tecnología y vida digital',
+    tone: 'violet'
+  },
+  {
+    terms: ['news', 'media', 'opinion', 'information', 'presse', 'actualite', 'informacion'],
+    emoji: '📰',
+    label: 'información y opinión pública',
+    tone: 'sky'
+  },
+  {
+    terms: ['shopping', 'market', 'money', 'achat', 'magasin', 'marche', 'argent', 'compras'],
+    emoji: '🛍️',
+    label: 'compras y consumo',
+    tone: 'rose'
+  },
+  {
+    terms: ['culture', 'art', 'music', 'cinema', 'musique', 'arte', 'cultura'],
+    emoji: '🎭',
+    label: 'arte y cultura',
+    tone: 'violet'
+  },
+  {
+    terms: ['community', 'citizen', 'solidarity', 'communaute', 'citoyen', 'societe', 'sociedad'],
+    emoji: '🤝',
+    label: 'sociedad y participación',
+    tone: 'orange'
+  },
+  {
+    terms: ['future', 'goal', 'project', 'avenir', 'projet', 'futuro', 'decision'],
+    emoji: '🚀',
+    label: 'proyectos y futuro',
+    tone: 'blue'
+  }
+];
+
+const UNIT_ARTWORK_FALLBACKS = [
+  { emoji: '💡', label: 'nuevas ideas', tone: 'sun' },
+  { emoji: '🧭', label: 'exploración práctica', tone: 'blue' },
+  { emoji: '💬', label: 'comunicación cotidiana', tone: 'sky' },
+  { emoji: '🧩', label: 'reto de aprendizaje', tone: 'violet' }
+];
+
+function getUnitArtwork(unit = {}) {
+  const searchable = [unit.title, unit.titleEs, unit.description, unit.objective]
+    .filter(Boolean)
+    .join(' ')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+  const themed = UNIT_ARTWORK_THEMES.find((theme) =>
+    theme.terms.some((term) => searchable.includes(term))
+  );
+  if (themed) return themed;
+
+  const stableKey = `${unit.id || ''}:${unit.order || 0}:${searchable}`;
+  const hash = [...stableKey].reduce((total, character) => total + character.charCodeAt(0), 0);
+  return UNIT_ARTWORK_FALLBACKS[hash % UNIT_ARTWORK_FALLBACKS.length];
+}
+
 // The Ruta tab for a unit-aware language+level (English A1 today): 12
 // thematic units in order, each with its own ≤6 activities, instead of one
 // flat module. Reuses renderLessonItemHtml() so a unit's activities look
@@ -6042,11 +6172,14 @@ function renderUnitAccordionHtml(nextSlug) {
       );
       const isPremiumUnit =
         unitLessons.length > 0 && unitLessons.every((lesson) => lesson.locked);
+      const artwork = getUnitArtwork(unit);
 
       return `
       <div class="path-unit-group${isSelected ? ' path-unit-group--selected' : ''}">
         <button type="button" class="path-unit path-unit-header${isSelected ? ' path-unit--selected' : ''}${isPremiumUnit ? ' path-unit--premium' : ''}" data-unit-id="${escapeHtml(unit.id)}" ${isSelected ? 'aria-current="true"' : ''}>
-          <span class="path-unit-order" aria-hidden="true">🧳</span>
+          <span class="path-unit-artwork path-unit-artwork--${artwork.tone}" role="img" aria-label="Ilustración de ${escapeHtml(artwork.label)}">
+            <span class="path-unit-artwork-emoji" aria-hidden="true">${artwork.emoji}</span>
+          </span>
           <span class="path-unit-titles">
             <span class="path-unit-journey">Viaje ${escapeHtml(String(unit.order))}</span>
             <span class="path-unit-title">${escapeHtml(unit.title)}</span>
@@ -6303,11 +6436,12 @@ function renderUnitOverviewCard(unit) {
   const pct = getUnitProgressMetrics(unit.id).progressPercent;
   const bodyHtml = renderUnitOverviewBody(data);
   const reward = getUnitActivities(unit.id).reduce((total, lesson) => total + Number(lesson.xpReward || 0), 0);
+  const artwork = getUnitArtwork(unit);
 
   return `
     <div class="unit-overview-panel">
       <div class="unit-overview-header">
-        <span class="unit-mission-kicker">🧳 Viaje ${escapeHtml(String(unit.order))}</span>
+        <span class="unit-mission-kicker">${artwork.emoji} Viaje ${escapeHtml(String(unit.order))}</span>
         <h3 class="unit-title">${escapeHtml(unit.title)}</h3>
         ${data.objective ? `<p class="unit-objective"><strong>Tu misión:</strong> ${escapeHtml(data.objective)}</p>` : ''}
         ${data.scenario ? `<p class="unit-scenario">“${escapeHtml(data.scenario)}”</p>` : ''}
@@ -7018,6 +7152,8 @@ let readingSelectionState = null;
 let readingSelectionRequestId = 0;
 let lastReadingTap = null;
 let lastReadingTouchTranslationAt = 0;
+let readingPhraseSelectionTimer = null;
+let lastReadingPhraseSignature = '';
 
 function ensureReadingTranslationPopover() {
   let popover = document.getElementById('readingTranslationPopover');
@@ -7037,6 +7173,7 @@ function closeReadingTranslationPopover({ clearSelection = false } = {}) {
   if (popover) popover.hidden = true;
   readingSelectionRequestId += 1;
   readingSelectionState = null;
+  lastReadingPhraseSignature = '';
   if (clearSelection) window.getSelection()?.removeAllRanges();
 }
 
@@ -7072,6 +7209,28 @@ function selectedReadingContext(selection) {
   const range = selection.getRangeAt(0);
   const term = selection.toString().replace(/\s+/g, ' ').trim();
   return readingContextFromRange(range, term);
+}
+
+function isReadingPhraseSelection(data) {
+  if (!data?.term) return false;
+  return data.term.split(/\s+/).filter(Boolean).length > 1;
+}
+
+function scheduleReadingPhraseTranslation(delay = 180) {
+  window.clearTimeout(readingPhraseSelectionTimer);
+  readingPhraseSelectionTimer = window.setTimeout(() => {
+    const data = selectedReadingContext(window.getSelection());
+    if (!isReadingPhraseSelection(data)) return;
+    const signature = `${data.term}|${data.context}`;
+    if (
+      signature === lastReadingPhraseSignature &&
+      !document.getElementById('readingTranslationPopover')?.hidden
+    ) {
+      return;
+    }
+    lastReadingPhraseSignature = signature;
+    openReadingTranslation(data);
+  }, delay);
 }
 
 function isReadingWordCharacter(character) {
@@ -7311,8 +7470,14 @@ function setupReadingSelectionTranslator() {
   document.addEventListener('pointerup', (event) => {
     if (event.target.closest?.('#readingTranslationPopover')) return;
     if (!event.target.closest?.('.reading-text')) {
+      window.clearTimeout(readingPhraseSelectionTimer);
       lastReadingTap = null;
       closeReadingTranslationPopover();
+      return;
+    }
+    const selectedData = selectedReadingContext(window.getSelection());
+    if (isReadingPhraseSelection(selectedData)) {
+      scheduleReadingPhraseTranslation(event.pointerType === 'touch' ? 320 : 180);
       return;
     }
     if (event.pointerType === 'mouse') return;
@@ -7329,6 +7494,15 @@ function setupReadingSelectionTranslator() {
     if (isDoubleTap) {
       lastReadingTouchTranslationAt = now;
       handleSelection(event);
+    }
+  });
+  document.addEventListener('selectionchange', () => {
+    const selection = window.getSelection();
+    const data = selectedReadingContext(selection);
+    if (isReadingPhraseSelection(data)) {
+      scheduleReadingPhraseTranslation(320);
+    } else {
+      window.clearTimeout(readingPhraseSelectionTimer);
     }
   });
   document.addEventListener('dblclick', (event) => {
@@ -7851,6 +8025,36 @@ function updateStartLearningButton() {
   );
 }
 
+function updatePathLessonSelect(preferredUnitId = '') {
+  const select = document.getElementById('pathLessonSelect');
+  if (!select) return;
+  const units = [...(learningPathState.units || [])].sort(
+    (a, b) => Number(a.order || 0) - Number(b.order || 0)
+  );
+  const validIds = new Set(units.map((unit) => String(unit.id)));
+  const requestedId = String(
+    preferredUnitId || select.value || learningPathState.unitId || ''
+  );
+  const selectedId = validIds.has(requestedId)
+    ? requestedId
+    : units.length
+      ? String(units[0].id)
+      : '';
+
+  select.innerHTML = units.length
+    ? units
+        .map(
+          (unit, index) =>
+            `<option value="${escapeHtml(String(unit.id))}">${escapeHtml(
+              `${unit.order || index + 1}. ${unit.title}`
+            )}</option>`
+        )
+        .join('')
+    : '<option value="">No hay lecciones disponibles</option>';
+  select.disabled = units.length === 0;
+  select.value = selectedId;
+}
+
 function updateLanguagePreviewSelection() {
   document.querySelectorAll('.language-preview-card[data-preview-language]').forEach((card) => {
     const selected = card.dataset.previewLanguage === learningPathState.language;
@@ -8029,7 +8233,7 @@ function renderReadingView(section, lesson) {
         ${referencesHtml}
         <p class="reading-selection-hint reading-selection-hint--footer no-print">
           <span aria-hidden="true">🌐</span>
-          ${french ? 'Double-clic ou deux touchers : traduisez, écoutez, consultez ou enregistrez des mots (Premium). Chaque leçon est alignée sur le CECRL.' : 'Doble clic o dos toques: traduce, escucha, consulta o guarda palabras (Premium). Cada lección ha sido nivelada según el MCERL (Marco Común Europeo de Referencia de las Lenguas).'}
+          ${french ? 'Double-clic ou deux touchers : traduisez, écoutez, consultez ou enregistrez des mots (Premium). Surlignez une expression pour la traduire instantanément avec ANDERGO. Chaque leçon est alignée sur le CECRL.' : 'Doble clic o dos toques: traduce, escucha, consulta o guarda palabras (Premium). Sombrea una frase para traducirla al instante con ANDERGO. Cada lección ha sido nivelada según el MCERL (Marco Común Europeo de Referencia de las Lenguas).'}
         </p>
       </div>
       <div class="reading-vocab-section no-print"${hasVocabulary && isFinalReadingSection ? '' : ' hidden'}>
@@ -12531,7 +12735,30 @@ function computeListeningTutorQuestionContext(lesson) {
 // Diálogos is Speaking's tab (renderSpeakingModeTabsHtml) only - Listening
 // never shows it, even for lessons authored with listeningType: 'dialogue'.
 function listeningExtraModeList(lesson) {
-  const modes = [{ id: 'story', label: listeningUiText('Historia', 'Histoire') }];
+  const formatLabels = {
+    story: ['Historia', 'Histoire'],
+    testimony: ['Testimonio', 'Témoignage'],
+    advertisement: ['Anuncio', 'Annonce'],
+    news: ['Noticia', 'Actualité'],
+    chronicle: ['Crónica', 'Chronique'],
+    podcast: ['Pódcast', 'Podcast'],
+    tutorial: ['Guía práctica', 'Guide pratique'],
+    editorial: ['Editorial', 'Éditorial'],
+    review: ['Crítica', 'Critique'],
+    documentary: ['Documental', 'Documentaire'],
+    portrait: ['Retrato', 'Portrait'],
+    reflection: ['Reflexión', 'Réflexion'],
+    lecture: ['Conferencia', 'Conférence'],
+    analysis: ['Análisis', 'Analyse'],
+    report: ['Reportaje', 'Reportage'],
+    essay: ['Ensayo sonoro', 'Essai sonore'],
+    synthesis: ['Síntesis', 'Synthèse'],
+    'public-service': ['Aviso público', 'Information publique'],
+    'community-announcement': ['Convocatoria', 'Appel associatif']
+  };
+  const format = lesson.extra?.listeningFormat || 'story';
+  const [spanishFormat, frenchFormat] = formatLabels[format] || formatLabels.story;
+  const modes = [{ id: 'story', label: listeningUiText(spanishFormat, frenchFormat) }];
   if (lesson.dictation?.segments?.length)
     modes.push({ id: 'dictation', label: listeningUiText('Dictado', 'Dictée') });
   modes.push({ id: 'transcript', label: listeningUiText('Transcripción', 'Transcription') });
@@ -13592,6 +13819,7 @@ async function performLearningPathLoad(options = {}) {
     learningPathState.language,
     learningPathState.level
   );
+  updatePathLessonSelect(options.restoreUnitId);
 
   const graphContainer = document.getElementById('skillGraph');
   if (graphContainer) {
@@ -13660,6 +13888,7 @@ async function performLearningPathLoad(options = {}) {
       : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
     await loadUnitVerbProgress();
     applyLoadedSelection();
+    updatePathLessonSelect(learningPathState.unitId || options.restoreUnitId);
     renderLearningPath();
   } catch (error) {
     console.warn('Could not load learning path from backend, using local content', error);
@@ -13669,6 +13898,7 @@ async function performLearningPathLoad(options = {}) {
     );
     await loadUnitVerbProgress();
     applyLoadedSelection();
+    updatePathLessonSelect(learningPathState.unitId || options.restoreUnitId);
     renderLearningPath();
   }
 
@@ -13988,8 +14218,7 @@ const VIEW_SECTIONS = {
   // of routing to a dedicated 'premium' view.
   home: ['.hero', '#language-picker', '#premium'],
   learn: ['#language-picker', '#learning-path'],
-  progress: ['#progress'],
-  achievements: ['#achievements'],
+  progress: ['#progress', '#achievements'],
   security: ['#security'],
   goals: ['#goals'],
   tutor: ['#tutor'],
@@ -14015,7 +14244,6 @@ const VIEW_TITLE_SELECTORS = {
   home: '.hero-content h2',
   learn: '#language-picker h2',
   progress: '#progress h2',
-  achievements: '#achievements h2',
   security: '#security h2',
   goals: '#goals h2',
   tutor: '#tutor h2',
@@ -14040,6 +14268,9 @@ function getViewFromHash() {
   // and silently fall back to 'home'.
   const raw = window.location.hash.replace('#', '').split('/')[0];
   if (!raw) return 'home';
+  // Keep old bookmarked #achievements links working after merging achievements
+  // below Progress in a single member view.
+  if (raw === 'achievements') return 'progress';
   if (raw.startsWith('language-') || targetLanguageMap[raw]) return 'learn';
   return VIEW_SECTIONS[raw] ? raw : 'home';
 }
@@ -16145,6 +16376,7 @@ function setupLearningPathControls() {
   const languageSelect = document.getElementById('pathLanguageSelect');
   const levelSelect = document.getElementById('pathLevelSelect');
   const bridgeSelect = document.getElementById('pathBridgeSelect');
+  const lessonSelect = document.getElementById('pathLessonSelect');
 
   languageSelect?.addEventListener('change', () => {
     const level = levelSelect?.value || learningPathState.level;
@@ -16167,10 +16399,11 @@ function setupLearningPathControls() {
   document.getElementById('pathStartLearningBtn')?.addEventListener('click', async (event) => {
     const language = languageSelect?.value || learningPathState.language;
     const level = levelSelect?.value || learningPathState.level;
+    const unitId = lessonSelect?.value || '';
     const startButton = event.currentTarget;
     startButton.disabled = true;
     startButton.textContent = 'Abriendo rutaâ€¦';
-    const loadingPath = loadLearningPath({ language, level });
+    const loadingPath = loadLearningPath({ language, level, restoreUnitId: unitId });
     savePreferences(language, level);
     if (getViewFromHash() !== 'learn') {
       history.pushState(null, '', '#learn');
@@ -16180,12 +16413,30 @@ function setupLearningPathControls() {
     document.querySelector('#learning-path h2')?.focus({ preventScroll: true });
     try {
       await loadingPath;
+      // Keep the exact unit chosen at click time. A slower language/level
+      // refresh may repopulate the selector while this request is in flight;
+      // reading its live value here could silently send the learner to unit 1.
+      const selectedUnitId = unitId || lessonSelect?.value || learningPathState.unitId;
+      if (selectedUnitId) {
+        selectUnit(selectedUnitId, { render: false });
+        const activities = getUnitActivities(selectedUnitId);
+        const firstActivity =
+          activities.find((item) => item.skill === 'reading' && !item.locked) ||
+          activities.find((item) => !item.locked) ||
+          activities[0];
+        if (firstActivity && !firstActivity.locked) {
+          openUnitSequenceStep(firstActivity.skill, firstActivity.slug);
+        } else {
+          renderLearningPath();
+        }
+      }
     } finally {
       startButton.disabled = false;
       updateStartLearningButton();
     }
   });
   updateStartLearningButton();
+  updatePathLessonSelect();
   updateLanguagePreviewSelection();
 }
 

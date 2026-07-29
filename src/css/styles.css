@@ -342,8 +342,20 @@ a:focus-visible {
 .brand h1 {
   font-size: 1rem;
   letter-spacing: 0.035em;
-  font-weight: 900;
+  font-weight: 400;
   line-height: 1.15;
+  white-space: nowrap;
+}
+
+.brand-product-name {
+  font-weight: 800;
+}
+
+.brand-academy-name {
+  margin-left: 0.18em;
+  font-size: 0.88em;
+  font-weight: 400;
+  letter-spacing: 0.015em;
 }
 
 .brand p {
@@ -3519,7 +3531,7 @@ footer small {
 }
 
 /* 1280px, separate from the 1100px breakpoint below: the signed-in nav
-   (Aprender/Progreso/Logros/Objetivos/Tutor IA/Traductor/Acerca de/
+   (Aprender/Verbos/Progreso/Objetivos/Tutor IA/Traductor/Acerca de/
    Seguridad - 8 links) plus the "Hola, {username}" chip and Salir button
    need that much room to sit on one line without overlapping the logo -
    anything narrower should already get the hamburger menu instead of a
@@ -3610,6 +3622,12 @@ footer small {
 
   .brand h1 {
     font-size: 0.82rem;
+    white-space: normal;
+  }
+
+  .brand-academy-name {
+    display: block;
+    margin-left: 0;
   }
 
   .global-language-controls {
@@ -4346,8 +4364,8 @@ footer small {
 }
 
 .brand h1 {
-  font-size: 1.18rem;
-  letter-spacing: 0.075em;
+  font-size: 1.06rem;
+  letter-spacing: 0.055em;
 }
 
 .brand p {
@@ -4812,6 +4830,16 @@ footer small {
   .brand-logo-symbol {
     width: 48px;
     height: 48px;
+  }
+
+  .brand h1 {
+    font-size: 0.82rem;
+    white-space: normal;
+  }
+
+  .brand-academy-name {
+    display: block;
+    margin-left: 0;
   }
 
 }
@@ -5318,6 +5346,11 @@ footer small {
 /* Achievements section */
 .achievements-section {
   background: var(--light);
+  padding-top: clamp(2rem, 3vw, 3rem);
+}
+
+.student-dashboard-section {
+  padding-bottom: clamp(2rem, 3vw, 3rem);
 }
 
 .achievements-layout {
@@ -6209,9 +6242,9 @@ footer small {
 
 .learning-path-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(520px, 0.88fr);
+  grid-template-columns: minmax(0, 0.94fr) minmax(560px, 1.06fr);
   grid-template-areas: 'lesson route';
-  gap: clamp(24px, 2.4vw, 40px);
+  gap: clamp(22px, 1.8vw, 32px);
   align-items: start;
   width: 100%;
 }
@@ -6225,6 +6258,13 @@ footer small {
 .skill-view-section {
   padding-top: clamp(2.75rem, 4.5vw, 4.5rem);
   padding-bottom: clamp(3.5rem, 5vw, 5.5rem);
+}
+
+/* Give the route enough room for lesson titles, rewards and progress to sit
+   on one readable line without making the recommended lesson feel cramped. */
+.learning-path-section {
+  padding-right: clamp(24px, 5vw, 96px);
+  padding-left: clamp(24px, 5vw, 96px);
 }
 
 .learn-route-toggle {
@@ -6584,7 +6624,7 @@ footer small {
   outline-offset: 3px;
 }
 
-.path-unit-order {
+.path-unit-artwork {
   display: grid;
   width: 3rem;
   height: 3rem;
@@ -6593,6 +6633,65 @@ footer small {
   background: linear-gradient(145deg, #dbeafe, #ede9fe);
   font-size: 1.35rem;
   box-shadow: 0 7px 15px rgba(37, 99, 235, 0.13);
+  overflow: hidden;
+}
+
+.path-unit-artwork--sun {
+  background: linear-gradient(145deg, #fef3c7, #ffedd5);
+}
+
+.path-unit-artwork--sky {
+  background: linear-gradient(145deg, #e0f2fe, #dbeafe);
+}
+
+.path-unit-artwork--blue {
+  background: linear-gradient(145deg, #dbeafe, #e0e7ff);
+}
+
+.path-unit-artwork--mint {
+  background: linear-gradient(145deg, #dcfce7, #ccfbf1);
+}
+
+.path-unit-artwork--rose {
+  background: linear-gradient(145deg, #ffe4e6, #fae8ff);
+}
+
+.path-unit-artwork--orange {
+  background: linear-gradient(145deg, #ffedd5, #fef3c7);
+}
+
+.path-unit-artwork--violet {
+  background: linear-gradient(145deg, #ede9fe, #fae8ff);
+}
+
+.path-unit-artwork-emoji {
+  display: inline-block;
+  transform-origin: 50% 75%;
+  transition: transform 180ms ease;
+}
+
+.path-unit:hover .path-unit-artwork-emoji {
+  transform: scale(1.1) rotate(-4deg);
+}
+
+.path-unit--selected .path-unit-artwork-emoji {
+  animation: path-unit-artwork-float 3.2s ease-in-out infinite;
+}
+
+@keyframes path-unit-artwork-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-3px) rotate(2deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .path-unit--selected .path-unit-artwork-emoji {
+    animation: none;
+  }
 }
 
 .path-unit-titles {
@@ -6716,7 +6815,7 @@ footer small {
     0 16px 34px rgba(37, 99, 235, 0.14);
 }
 
-.path-unit-order {
+.path-unit-artwork {
   width: 3rem;
   height: 3rem;
   display: grid;

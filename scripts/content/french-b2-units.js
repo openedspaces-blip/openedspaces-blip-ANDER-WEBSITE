@@ -1818,6 +1818,7 @@ const units = [
   }
 ];
 
+require('./french-b1-b2-listening-scripts').applyFrenchUpperListening(units, 'B2');
 require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'B2');
 require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(units, {
   language: 'french',

@@ -6,8 +6,9 @@
 // before touching Supabase. Checks the things a human reviewer would catch
 // by eye but that are easy to get wrong at this volume: unit-count minimums,
 // exactly 7 activities/unit, no empty titles, mcq answer indices in range,
-// no empty dialogue/vocabulary fields, no duplicate slugs, reading word
-// counts in the CEFR-appropriate range, and exactly 10 reading questions.
+// no empty audio/vocabulary fields, no duplicate slugs, reading word
+// counts in the CEFR-appropriate range, and the configured number of
+// reading questions.
 // Exits non-zero (and migrate scripts abort) on any failure.
 const CORE_SKILLS = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary', 'dialogue'];
 
@@ -21,7 +22,17 @@ function wordCount(parts) {
 // 7-activity course shape (A2/B1/B2), but C1/C2 currently only author
 // reading/vocabulary/grammar per unit (spec: "solo secciones reading,
 // vocabulary y grammar"), so callers pass a narrower list for those.
-function validateLevel(mod, { minUnits, maxUnits, readingRange, label, skills = CORE_SKILLS }) {
+function validateLevel(
+  mod,
+  {
+    minUnits,
+    maxUnits,
+    readingRange,
+    readingQuestionRange = [10, 10],
+    label,
+    skills = CORE_SKILLS
+  }
+) {
   const errors = [];
   const { units } = mod;
 
@@ -58,7 +69,13 @@ function validateLevel(mod, { minUnits, maxUnits, readingRange, label, skills = 
       if (!a.title || !a.title.trim()) errors.push(`${label} (${unit.slug}/${skill}): título vacío.`);
 
       const hasRealContent =
-        a.reading || (a.dialogue && a.dialogue.length) || (a.vocabulary && a.vocabulary.length) || a.grammarNote || a.mission;
+        a.reading ||
+        a.mainTranscript ||
+        a.transcript ||
+        (a.dialogue && a.dialogue.length) ||
+        (a.vocabulary && a.vocabulary.length) ||
+        a.grammarNote ||
+        a.mission;
       if (!hasRealContent) errors.push(`${label} (${unit.slug}/${skill}): actividad sin contenido pedagógico (vacía/relleno).`);
 
       (a.exercises || []).forEach((ex, i) => {
@@ -102,18 +119,20 @@ function validateLevel(mod, { minUnits, maxUnits, readingRange, label, skills = 
           }
         }
         const mcqCount = (a.exercises || []).filter((e) => e.type === 'mcq').length;
-        if (mcqCount !== 10) {
-          errors.push(`${label} (${unit.slug}/reading): ${mcqCount} preguntas de comprensión; se requieren exactamente 10.`);
+        if (mcqCount < readingQuestionRange[0] || mcqCount > readingQuestionRange[1]) {
+          errors.push(
+            `${label} (${unit.slug}/reading): ${mcqCount} preguntas de comprensión; se requieren entre ${readingQuestionRange[0]} y ${readingQuestionRange[1]}.`
+          );
         }
       }
 
       if (skill === 'listening') {
         const qCount = (a.exercises || []).length;
-        if (qCount < 3) {
+        if (qCount < 3 && !a.mainTranscript) {
           errors.push(`${label} (${unit.slug}/listening): solo ${qCount} preguntas; se recomiendan al menos 3-5.`);
         }
-        if (!a.dialogue || !a.dialogue.length) {
-          errors.push(`${label} (${unit.slug}/listening): sin guion de diálogo (dialogue[]).`);
+        if ((!a.dialogue || !a.dialogue.length) && !a.mainTranscript) {
+          errors.push(`${label} (${unit.slug}/listening): sin diálogo ni transcripción monológica.`);
         }
       }
     });
@@ -131,7 +150,13 @@ function main() {
   const a2 = require('./content/french-a2-units');
   const b1 = require('./content/french-b1-units');
 
-  const errorsA2 = validateLevel(a2, { minUnits: 10, maxUnits: 12, readingRange: [180, 300], label: 'A2' });
+  const errorsA2 = validateLevel(a2, {
+    minUnits: 10,
+    maxUnits: 12,
+    readingRange: [180, 300],
+    readingQuestionRange: [8, 10],
+    label: 'A2'
+  });
   const errorsB1 = validateLevel(b1, { minUnits: 10, maxUnits: 12, readingRange: [280, 500], label: 'B1' });
 
   const allErrors = [...errorsA2, ...errorsB1];

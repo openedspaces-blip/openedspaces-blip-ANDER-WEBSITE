@@ -1518,6 +1518,7 @@ const units = [
   }
 ];
 
+require('./french-b1-b2-listening-scripts').applyFrenchUpperListening(units, 'B1');
 require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'B1');
 
 module.exports = {

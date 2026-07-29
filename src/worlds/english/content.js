@@ -1193,38 +1193,145 @@
           "text": "Sarah smiles because his second answer sounds much more natural."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-new-challenges-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Practising for the Interview”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel is practising for his hotel interview with Sarah."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah tells him to give more details and to finish with what he learned."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel repeats the answer, this time more clearly."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah smiles because his second answer sounds much more natural."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Daniel is practising for his hotel interview with Sarah.”, what happens next in “Practising for the Interview”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel is practising for his hotel interview with Sarah."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah tells him to give more details and to finish with what he learned."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel repeats the answer, this time more clearly."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah smiles because his second answer sounds much more natural."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Practising for the Interview”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel is practising for his hotel interview with Sarah."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah tells him to give more details and to finish with what he learned."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel repeats the answer, this time more clearly."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah smiles because his second answer sounds much more natural."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Practising for the Interview” after “Daniel repeats the answer, this time more clearly.”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel is practising for his hotel interview with Sarah."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah tells him to give more details and to finish with what he learned."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel repeats the answer, this time more clearly."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah smiles because his second answer sounds much more natural."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “Practising for the Interview”, which detail establishes the situation?",
         "options": [
-          "New Challenges",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Daniel is practising for his hotel interview with Sarah.",
+          "Sarah tells him to give more details and to finish with what he learned.",
+          "Daniel repeats the answer, this time more clearly.",
+          "Sarah smiles because his second answer sounds much more natural."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “Daniel is practising for his hotel interview with Sarah.”, what happens next in “Practising for the Interview”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Daniel is practising for his hotel interview with Sarah.",
+          "Sarah tells him to give more details and to finish with what he learned.",
+          "Daniel repeats the answer, this time more clearly.",
+          "Sarah smiles because his second answer sounds much more natural."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “Practising for the Interview”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Daniel is practising for his hotel interview with Sarah.",
+          "Sarah tells him to give more details and to finish with what he learned.",
+          "Daniel repeats the answer, this time more clearly.",
+          "Sarah smiles because his second answer sounds much more natural."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Practising for the Interview” after “Daniel repeats the answer, this time more clearly.”?",
+        "options": [
+          "Daniel is practising for his hotel interview with Sarah.",
+          "Sarah tells him to give more details and to finish with what he learned.",
+          "Daniel repeats the answer, this time more clearly.",
+          "Sarah smiles because his second answer sounds much more natural."
         ]
       }
     ]
@@ -1377,98 +1484,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-hello-listening-comprehension",
+        "id": "english-a1-hello-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "What is the speaker's name?",
+            "prompt": "In “Nice to Meet You”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
-                "text": "Ana"
+                "text": "Hello!"
               },
               {
                 "id": "o2",
-                "text": "Leo"
+                "text": "I feel a little nervous, but I am also excited."
               },
               {
                 "id": "o3",
-                "text": "Sofia"
+                "text": "Leo is from Italy."
               },
               {
                 "id": "o4",
-                "text": "Marco"
+                "text": "At the end, we say, “Nice to meet you” and “See you tomorrow."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "How old is Ana?",
+            "prompt": "After “Hello!”, what happens next in “Nice to Meet You”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sixteen"
+                "text": "Hello!"
               },
               {
                 "id": "o2",
-                "text": "Eighteen"
+                "text": "I feel a little nervous, but I am also excited."
               },
               {
                 "id": "o3",
-                "text": "Twenty"
+                "text": "Leo is from Italy."
               },
               {
                 "id": "o4",
-                "text": "Twenty-two"
+                "text": "At the end, we say, “Nice to meet you” and “See you tomorrow."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Where is Leo from?",
+            "prompt": "Which line best reveals an intention or decision in “Nice to Meet You”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Spain"
+                "text": "Hello!"
               },
               {
                 "id": "o2",
-                "text": "Italy"
+                "text": "I feel a little nervous, but I am also excited."
               },
               {
                 "id": "o3",
-                "text": "France"
+                "text": "Leo is from Italy."
               },
               {
                 "id": "o4",
-                "text": "The Dominican Republic"
+                "text": "At the end, we say, “Nice to meet you” and “See you tomorrow."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "What do Ana and Leo say before they leave?",
+            "prompt": "Which outcome closes “Nice to Meet You” after “Leo is from Italy.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Good night."
+                "text": "Hello!"
               },
               {
                 "id": "o2",
-                "text": "See you tomorrow."
+                "text": "I feel a little nervous, but I am also excited."
               },
               {
                 "id": "o3",
-                "text": "Welcome home."
+                "text": "Leo is from Italy."
               },
               {
                 "id": "o4",
-                "text": "Have a good trip."
+                "text": "At the end, we say, “Nice to meet you” and “See you tomorrow."
               }
             ]
           }
@@ -1479,42 +1586,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the speaker's name?",
+        "prompt": "In “Nice to Meet You”, which detail establishes the situation?",
         "options": [
-          "Ana",
-          "Leo",
-          "Sofia",
-          "Marco"
+          "Hello!",
+          "I feel a little nervous, but I am also excited.",
+          "Leo is from Italy.",
+          "At the end, we say, “Nice to meet you” and “See you tomorrow."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How old is Ana?",
+        "prompt": "After “Hello!”, what happens next in “Nice to Meet You”?",
         "options": [
-          "Sixteen",
-          "Eighteen",
-          "Twenty",
-          "Twenty-two"
+          "Hello!",
+          "I feel a little nervous, but I am also excited.",
+          "Leo is from Italy.",
+          "At the end, we say, “Nice to meet you” and “See you tomorrow."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Where is Leo from?",
+        "prompt": "Which line best reveals an intention or decision in “Nice to Meet You”?",
         "options": [
-          "Spain",
-          "Italy",
-          "France",
-          "The Dominican Republic"
+          "Hello!",
+          "I feel a little nervous, but I am also excited.",
+          "Leo is from Italy.",
+          "At the end, we say, “Nice to meet you” and “See you tomorrow."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What do Ana and Leo say before they leave?",
+        "prompt": "Which outcome closes “Nice to Meet You” after “Leo is from Italy.”?",
         "options": [
-          "Good night.",
-          "See you tomorrow.",
-          "Welcome home.",
-          "Have a good trip."
+          "Hello!",
+          "I feel a little nervous, but I am also excited.",
+          "Leo is from Italy.",
+          "At the end, we say, “Nice to meet you” and “See you tomorrow."
         ]
       }
     ]
@@ -1597,48 +1704,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-social-media-public-opinion-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Social Media and Public Opinion”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining social media and public opinion. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining social media and public opinion. Why does this…”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining social media and public opinion. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Social Media and Public Opinion”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining social media and public opinion. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Social Media and Public Opinion” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining social media and public opinion. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Social Media and Public Opinion”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining social media and public opinion. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining social media and public opinion. Why does this…”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining social media and public opinion. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Social Media and Public Opinion”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining social media and public opinion. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Social Media and Public Opinion” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "viral, misleading, echo chamber",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining social media and public opinion. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -1721,48 +1925,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-antimicrobial-resistance-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Antimicrobial Resistance and One Health”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining antimicrobial resistance and one health. Why…”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Antimicrobial Resistance and One Health”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Antimicrobial Resistance and One Health” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Antimicrobial Resistance and One Health”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining antimicrobial resistance and one health. Why…”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Antimicrobial Resistance and One Health”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Antimicrobial Resistance and One Health” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "antimicrobial resistance, pathogen, surveillance",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -1845,48 +2146,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-adult-neuroplasticity-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining adult neuroplasticity and second-language…”, what happens next in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Adult Neuroplasticity and Second-Language Mastery” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining adult neuroplasticity and second-language…”, what happens next in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Adult Neuroplasticity and Second-Language Mastery” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "neuroplasticity, sensitive period, functional network",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -2011,13 +2409,13 @@
       },
       "dictationSegmentCount": 4,
       "listeningComprehension": {
-        "id": "english-a2-everyday-life-listening-comprehension",
+        "id": "english-a2-everyday-life-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “A Busy Weekday”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -2025,30 +2423,30 @@
               },
               {
                 "id": "o2",
-                "text": "He usually goes to bed before eleven."
+                "text": "He usually takes the train because the traffic is heavy in the morning."
               },
               {
                 "id": "o3",
-                "text": "When he gets home, he cooks dinner, checks his messages, and prepares his clothes for the next day."
+                "text": "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class."
               },
               {
                 "id": "o4",
-                "text": "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class."
+                "text": "He usually goes to bed before eleven."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "After “Daniel has a very busy weekday.”, what happens next in “A Busy Weekday”?",
             "options": [
               {
                 "id": "o1",
-                "text": "He usually goes to bed before eleven."
+                "text": "Daniel has a very busy weekday."
               },
               {
                 "id": "o2",
-                "text": "When he gets home, he cooks dinner, checks his messages, and prepares his clothes for the next day."
+                "text": "He usually takes the train because the traffic is heavy in the morning."
               },
               {
                 "id": "o3",
@@ -2056,53 +2454,53 @@
               },
               {
                 "id": "o4",
-                "text": "He usually takes the train because the traffic is heavy in the morning."
+                "text": "He usually goes to bed before eleven."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which event happens later in the story?",
+            "prompt": "Which line best reveals an intention or decision in “A Busy Weekday”?",
             "options": [
               {
                 "id": "o1",
-                "text": "He wakes up at six o’clock and prepares breakfast before going to work."
+                "text": "Daniel has a very busy weekday."
               },
               {
                 "id": "o2",
-                "text": "He usually goes to bed before eleven."
+                "text": "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class."
               },
               {
                 "id": "o3",
-                "text": "During lunch, he often eats with two coworkers at a small café near the office."
+                "text": "He usually takes the train because the traffic is heavy in the morning."
               },
               {
                 "id": "o4",
-                "text": "Daniel has a very busy weekday."
+                "text": "He usually goes to bed before eleven."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “A Busy Weekday” after “He usually takes the train because the traffic is heavy in the morning.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "He usually takes the train because the traffic is heavy in the morning."
-              },
-              {
-                "id": "o2",
-                "text": "He usually goes to bed before eleven."
-              },
-              {
-                "id": "o3",
                 "text": "Daniel has a very busy weekday."
               },
               {
+                "id": "o2",
+                "text": "He usually takes the train because the traffic is heavy in the morning."
+              },
+              {
+                "id": "o3",
+                "text": "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class."
+              },
+              {
                 "id": "o4",
-                "text": "He wakes up at six o’clock and prepares breakfast before going to work."
+                "text": "He usually goes to bed before eleven."
               }
             ]
           }
@@ -2113,42 +2511,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “A Busy Weekday”, which detail establishes the situation?",
         "options": [
           "Daniel has a very busy weekday.",
-          "He usually goes to bed before eleven.",
-          "When he gets home, he cooks dinner, checks his messages, and prepares his clothes for the next day.",
-          "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "He usually goes to bed before eleven.",
-          "When he gets home, he cooks dinner, checks his messages, and prepares his clothes for the next day.",
-          "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class.",
-          "He usually takes the train because the traffic is heavy in the morning."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "He wakes up at six o’clock and prepares breakfast before going to work.",
-          "He usually goes to bed before eleven.",
-          "During lunch, he often eats with two coworkers at a small café near the office.",
-          "Daniel has a very busy weekday."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the story end?",
-        "options": [
           "He usually takes the train because the traffic is heavy in the morning.",
-          "He usually goes to bed before eleven.",
+          "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class.",
+          "He usually goes to bed before eleven."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After “Daniel has a very busy weekday.”, what happens next in “A Busy Weekday”?",
+        "options": [
           "Daniel has a very busy weekday.",
-          "He wakes up at six o’clock and prepares breakfast before going to work."
+          "He usually takes the train because the traffic is heavy in the morning.",
+          "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class.",
+          "He usually goes to bed before eleven."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “A Busy Weekday”?",
+        "options": [
+          "Daniel has a very busy weekday.",
+          "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class.",
+          "He usually takes the train because the traffic is heavy in the morning.",
+          "He usually goes to bed before eleven."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “A Busy Weekday” after “He usually takes the train because the traffic is heavy in the morning.”?",
+        "options": [
+          "Daniel has a very busy weekday.",
+          "He usually takes the train because the traffic is heavy in the morning.",
+          "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class.",
+          "He usually goes to bed before eleven."
         ]
       }
     ]
@@ -8206,38 +8604,145 @@
           "text": "They agree to spend the evening preparing her application."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-work-and-ambition-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “A Career Conversation”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to spend the evening preparing her application."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Sarah tells Daniel that she is thinking about applying for a promotion.”, what happens next in “A Career Conversation”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to spend the evening preparing her application."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “A Career Conversation”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to spend the evening preparing her application."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “A Career Conversation” after “Daniel reminds her that she encouraged him before his interview, and…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to spend the evening preparing her application."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “A Career Conversation”, which detail establishes the situation?",
         "options": [
-          "Work and Ambition",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Sarah tells Daniel that she is thinking about applying for a promotion.",
+          "Daniel asks whether she really wants the job or only feels pushed by other people.",
+          "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her.",
+          "They agree to spend the evening preparing her application."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “Sarah tells Daniel that she is thinking about applying for a promotion.”, what happens next in “A Career Conversation”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Sarah tells Daniel that she is thinking about applying for a promotion.",
+          "Daniel asks whether she really wants the job or only feels pushed by other people.",
+          "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her.",
+          "They agree to spend the evening preparing her application."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “A Career Conversation”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Sarah tells Daniel that she is thinking about applying for a promotion.",
+          "Daniel asks whether she really wants the job or only feels pushed by other people.",
+          "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her.",
+          "They agree to spend the evening preparing her application."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “A Career Conversation” after “Daniel reminds her that she encouraged him before his interview, and…”?",
+        "options": [
+          "Sarah tells Daniel that she is thinking about applying for a promotion.",
+          "Daniel asks whether she really wants the job or only feels pushed by other people.",
+          "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her.",
+          "They agree to spend the evening preparing her application."
         ]
       }
     ]
@@ -8366,13 +8871,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-about-me-listening-comprehension",
+        "id": "english-a1-about-me-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “This Is Me”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -8380,53 +8885,7 @@
               },
               {
                 "id": "o2",
-                "text": "I want to improve my English because I would like to travel and meet people from different countries."
-              },
-              {
-                "id": "o3",
-                "text": "On weekends, I visit my grandparents or play soccer with my friends."
-              },
-              {
-                "id": "o4",
-                "text": "I like music, soccer, and video games."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "What happens next in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "I want to improve my English because I would like to travel and meet people from different countries."
-              },
-              {
-                "id": "o2",
-                "text": "On weekends, I visit my grandparents or play soccer with my friends."
-              },
-              {
-                "id": "o3",
-                "text": "I like music, soccer, and video games."
-              },
-              {
-                "id": "o4",
-                "text": "I am a student, and I study English at a language school."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which event happens later in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "I am nineteen years old, and I live in Santo Domingo."
-              },
-              {
-                "id": "o2",
-                "text": "I am a student, and I study English at a language school."
+                "text": "I speak Spanish, and I understand a little English."
               },
               {
                 "id": "o3",
@@ -8434,30 +8893,76 @@
               },
               {
                 "id": "o4",
+                "text": "I want to improve my English because I would like to travel and meet people from different countries."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “My name is Daniel.”, what happens next in “This Is Me”?",
+            "options": [
+              {
+                "id": "o1",
                 "text": "My name is Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "I speak Spanish, and I understand a little English."
+              },
+              {
+                "id": "o3",
+                "text": "My favorite color is blue, and my favorite food is pizza."
+              },
+              {
+                "id": "o4",
+                "text": "I want to improve my English because I would like to travel and meet people from different countries."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “This Is Me”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "My name is Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "I speak Spanish, and I understand a little English."
+              },
+              {
+                "id": "o3",
+                "text": "My favorite color is blue, and my favorite food is pizza."
+              },
+              {
+                "id": "o4",
+                "text": "I want to improve my English because I would like to travel and meet people from different countries."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “This Is Me” after “My favorite color is blue, and my favorite food is pizza.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "I am a student, and I study English at a language school."
-              },
-              {
-                "id": "o2",
-                "text": "I want to improve my English because I would like to travel and meet people from different countries."
-              },
-              {
-                "id": "o3",
                 "text": "My name is Daniel."
               },
               {
+                "id": "o2",
+                "text": "I speak Spanish, and I understand a little English."
+              },
+              {
+                "id": "o3",
+                "text": "My favorite color is blue, and my favorite food is pizza."
+              },
+              {
                 "id": "o4",
-                "text": "I am nineteen years old, and I live in Santo Domingo."
+                "text": "I want to improve my English because I would like to travel and meet people from different countries."
               }
             ]
           }
@@ -8468,42 +8973,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “This Is Me”, which detail establishes the situation?",
         "options": [
           "My name is Daniel.",
-          "I want to improve my English because I would like to travel and meet people from different countries.",
-          "On weekends, I visit my grandparents or play soccer with my friends.",
-          "I like music, soccer, and video games."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "I want to improve my English because I would like to travel and meet people from different countries.",
-          "On weekends, I visit my grandparents or play soccer with my friends.",
-          "I like music, soccer, and video games.",
-          "I am a student, and I study English at a language school."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "I am nineteen years old, and I live in Santo Domingo.",
-          "I am a student, and I study English at a language school.",
+          "I speak Spanish, and I understand a little English.",
           "My favorite color is blue, and my favorite food is pizza.",
-          "My name is Daniel."
+          "I want to improve my English because I would like to travel and meet people from different countries."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "After “My name is Daniel.”, what happens next in “This Is Me”?",
         "options": [
-          "I am a student, and I study English at a language school.",
-          "I want to improve my English because I would like to travel and meet people from different countries.",
           "My name is Daniel.",
-          "I am nineteen years old, and I live in Santo Domingo."
+          "I speak Spanish, and I understand a little English.",
+          "My favorite color is blue, and my favorite food is pizza.",
+          "I want to improve my English because I would like to travel and meet people from different countries."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “This Is Me”?",
+        "options": [
+          "My name is Daniel.",
+          "I speak Spanish, and I understand a little English.",
+          "My favorite color is blue, and my favorite food is pizza.",
+          "I want to improve my English because I would like to travel and meet people from different countries."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “This Is Me” after “My favorite color is blue, and my favorite food is pizza.”?",
+        "options": [
+          "My name is Daniel.",
+          "I speak Spanish, and I understand a little English.",
+          "My favorite color is blue, and my favorite food is pizza.",
+          "I want to improve my English because I would like to travel and meet people from different countries."
         ]
       }
     ]
@@ -8586,48 +9091,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-plastic-pollution-cities-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Plastic Pollution in Our Cities”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining plastic pollution in our cities. Why does this…”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Plastic Pollution in Our Cities”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Plastic Pollution in Our Cities” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Plastic Pollution in Our Cities”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining plastic pollution in our cities. Why does this…”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Plastic Pollution in Our Cities”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Plastic Pollution in Our Cities” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "single-use, waste stream, microplastic",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -8710,48 +9312,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-ai-energy-demand-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Artificial Intelligence and Energy Demand”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining artificial intelligence and energy demand. Why…”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Energy Demand”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Energy Demand” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Artificial Intelligence and Energy Demand”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining artificial intelligence and energy demand. Why…”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Energy Demand”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Energy Demand” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "data centre, electricity demand, grid capacity",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -8834,48 +9533,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-retrieval-spacing-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Retrieval Practice, Spacing and Durable Learning”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining retrieval practice, spacing and durable…”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Retrieval Practice, Spacing and Durable Learning” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Retrieval Practice, Spacing and Durable Learning”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining retrieval practice, spacing and durable…”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Retrieval Practice, Spacing and Durable Learning” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "retrieval practice, spacing effect, desirable difficulty",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -8995,13 +9791,13 @@
       },
       "dictationSegmentCount": 4,
       "listeningComprehension": {
-        "id": "english-a2-family-and-relationships-listening-comprehension",
+        "id": "english-a2-family-and-relationships-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “A Special Family Sunday”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -9009,49 +9805,26 @@
               },
               {
                 "id": "o2",
-                "text": "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+                "text": "Emma’s grandmother prepares lunch, and everyone helps set the table."
               },
               {
                 "id": "o3",
-                "text": "After lunch, the family walks in the garden or looks at old photographs."
+                "text": "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly."
               },
               {
                 "id": "o4",
-                "text": "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly."
+                "text": "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "After “Every Sunday, Emma visits her grandparents with her parents and…”, what happens next in “A Special Family Sunday”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
-              },
-              {
-                "id": "o2",
-                "text": "After lunch, the family walks in the garden or looks at old photographs."
-              },
-              {
-                "id": "o3",
                 "text": "Every Sunday, Emma visits her grandparents with her parents and younger brother."
-              },
-              {
-                "id": "o4",
-                "text": "Emma’s grandmother prepares lunch, and everyone helps set the table."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which event happens later in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "They live in a quiet town about forty minutes away."
               },
               {
                 "id": "o2",
@@ -9063,30 +9836,53 @@
               },
               {
                 "id": "o4",
+                "text": "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “A Special Family Sunday”?",
+            "options": [
+              {
+                "id": "o1",
                 "text": "Every Sunday, Emma visits her grandparents with her parents and younger brother."
+              },
+              {
+                "id": "o2",
+                "text": "Emma’s grandmother prepares lunch, and everyone helps set the table."
+              },
+              {
+                "id": "o3",
+                "text": "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly."
+              },
+              {
+                "id": "o4",
+                "text": "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “A Special Family Sunday” after “Emma sometimes disagrees with her brother because he does not like…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Emma’s grandmother prepares lunch, and everyone helps set the table."
-              },
-              {
-                "id": "o2",
-                "text": "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
-              },
-              {
-                "id": "o3",
                 "text": "Every Sunday, Emma visits her grandparents with her parents and younger brother."
               },
               {
+                "id": "o2",
+                "text": "Emma’s grandmother prepares lunch, and everyone helps set the table."
+              },
+              {
+                "id": "o3",
+                "text": "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly."
+              },
+              {
                 "id": "o4",
-                "text": "They live in a quiet town about forty minutes away."
+                "text": "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
               }
             ]
           }
@@ -9097,42 +9893,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “A Special Family Sunday”, which detail establishes the situation?",
         "options": [
           "Every Sunday, Emma visits her grandparents with her parents and younger brother.",
-          "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves.",
-          "After lunch, the family walks in the garden or looks at old photographs.",
-          "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves.",
-          "After lunch, the family walks in the garden or looks at old photographs.",
-          "Every Sunday, Emma visits her grandparents with her parents and younger brother.",
-          "Emma’s grandmother prepares lunch, and everyone helps set the table."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "They live in a quiet town about forty minutes away.",
           "Emma’s grandmother prepares lunch, and everyone helps set the table.",
           "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly.",
-          "Every Sunday, Emma visits her grandparents with her parents and younger brother."
+          "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "After “Every Sunday, Emma visits her grandparents with her parents and…”, what happens next in “A Special Family Sunday”?",
         "options": [
-          "Emma’s grandmother prepares lunch, and everyone helps set the table.",
-          "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves.",
           "Every Sunday, Emma visits her grandparents with her parents and younger brother.",
-          "They live in a quiet town about forty minutes away."
+          "Emma’s grandmother prepares lunch, and everyone helps set the table.",
+          "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly.",
+          "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “A Special Family Sunday”?",
+        "options": [
+          "Every Sunday, Emma visits her grandparents with her parents and younger brother.",
+          "Emma’s grandmother prepares lunch, and everyone helps set the table.",
+          "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly.",
+          "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “A Special Family Sunday” after “Emma sometimes disagrees with her brother because he does not like…”?",
+        "options": [
+          "Every Sunday, Emma visits her grandparents with her parents and younger brother.",
+          "Emma’s grandmother prepares lunch, and everyone helps set the table.",
+          "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly.",
+          "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
         ]
       }
     ]
@@ -15083,38 +15879,145 @@
           "text": "Everyone agrees that the event must be safe, organised and friendly for families."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-community-life-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Planning the Clean-up”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+              },
+              {
+                "id": "o2",
+                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests creating a simple online form so people can choose a task."
+              },
+              {
+                "id": "o4",
+                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “At the community centre, Sarah speaks with two residents about the…”, what happens next in “Planning the Clean-up”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+              },
+              {
+                "id": "o2",
+                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests creating a simple online form so people can choose a task."
+              },
+              {
+                "id": "o4",
+                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Planning the Clean-up”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel suggests creating a simple online form so people can choose a task."
+              },
+              {
+                "id": "o3",
+                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+              },
+              {
+                "id": "o4",
+                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Planning the Clean-up” after “They decide that volunteers should arrive at nine, bring gloves if…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+              },
+              {
+                "id": "o2",
+                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests creating a simple online form so people can choose a task."
+              },
+              {
+                "id": "o4",
+                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “Planning the Clean-up”, which detail establishes the situation?",
         "options": [
-          "Community Life",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
+          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
+          "Daniel suggests creating a simple online form so people can choose a task.",
+          "Everyone agrees that the event must be safe, organised and friendly for families."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “At the community centre, Sarah speaks with two residents about the…”, what happens next in “Planning the Clean-up”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
+          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
+          "Daniel suggests creating a simple online form so people can choose a task.",
+          "Everyone agrees that the event must be safe, organised and friendly for families."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “Planning the Clean-up”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
+          "Daniel suggests creating a simple online form so people can choose a task.",
+          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
+          "Everyone agrees that the event must be safe, organised and friendly for families."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Planning the Clean-up” after “They decide that volunteers should arrive at nine, bring gloves if…”?",
+        "options": [
+          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
+          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
+          "Daniel suggests creating a simple online form so people can choose a task.",
+          "Everyone agrees that the event must be safe, organised and friendly for families."
         ]
       }
     ]
@@ -15253,13 +16156,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-family-and-friends-listening-comprehension",
+        "id": "english-a1-family-and-friends-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “My Family Photo”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -15267,84 +16170,84 @@
               },
               {
                 "id": "o2",
-                "text": "My family is busy, but we are very close and happy."
+                "text": "I have one brother and one sister."
               },
               {
                 "id": "o3",
-                "text": "On Sundays, we eat lunch together at home."
+                "text": "She loves drawing and dancing."
               },
               {
                 "id": "o4",
-                "text": "We also have a small dog named Coco."
+                "text": "My family is busy, but we are very close and happy."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "After “This is a photo of my family.”, what happens next in “My Family Photo”?",
             "options": [
               {
                 "id": "o1",
-                "text": "My family is busy, but we are very close and happy."
+                "text": "This is a photo of my family."
               },
               {
                 "id": "o2",
-                "text": "On Sundays, we eat lunch together at home."
+                "text": "I have one brother and one sister."
               },
               {
                 "id": "o3",
-                "text": "We also have a small dog named Coco."
+                "text": "She loves drawing and dancing."
               },
               {
                 "id": "o4",
-                "text": "I have one brother and one sister."
+                "text": "My family is busy, but we are very close and happy."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which event happens later in the story?",
+            "prompt": "Which line best reveals an intention or decision in “My Family Photo”?",
             "options": [
               {
                 "id": "o1",
-                "text": "My mother’s name is Laura, and my father’s name is Carlos."
+                "text": "This is a photo of my family."
               },
               {
                 "id": "o2",
-                "text": "My mother is a nurse, and my father is a teacher."
+                "text": "I have one brother and one sister."
               },
               {
                 "id": "o3",
-                "text": "My sister, Emma, is ten years old."
+                "text": "She loves drawing and dancing."
               },
               {
                 "id": "o4",
-                "text": "This is a photo of my family."
+                "text": "My family is busy, but we are very close and happy."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “My Family Photo” after “She loves drawing and dancing.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "My mother is a nurse, and my father is a teacher."
-              },
-              {
-                "id": "o2",
-                "text": "My family is busy, but we are very close and happy."
-              },
-              {
-                "id": "o3",
                 "text": "This is a photo of my family."
               },
               {
+                "id": "o2",
+                "text": "I have one brother and one sister."
+              },
+              {
+                "id": "o3",
+                "text": "She loves drawing and dancing."
+              },
+              {
                 "id": "o4",
-                "text": "My mother’s name is Laura, and my father’s name is Carlos."
+                "text": "My family is busy, but we are very close and happy."
               }
             ]
           }
@@ -15355,42 +16258,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “My Family Photo”, which detail establishes the situation?",
         "options": [
           "This is a photo of my family.",
-          "My family is busy, but we are very close and happy.",
-          "On Sundays, we eat lunch together at home.",
-          "We also have a small dog named Coco."
+          "I have one brother and one sister.",
+          "She loves drawing and dancing.",
+          "My family is busy, but we are very close and happy."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What happens next in the story?",
+        "prompt": "After “This is a photo of my family.”, what happens next in “My Family Photo”?",
         "options": [
-          "My family is busy, but we are very close and happy.",
-          "On Sundays, we eat lunch together at home.",
-          "We also have a small dog named Coco.",
-          "I have one brother and one sister."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "My mother’s name is Laura, and my father’s name is Carlos.",
-          "My mother is a nurse, and my father is a teacher.",
-          "My sister, Emma, is ten years old.",
-          "This is a photo of my family."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the story end?",
-        "options": [
-          "My mother is a nurse, and my father is a teacher.",
-          "My family is busy, but we are very close and happy.",
           "This is a photo of my family.",
-          "My mother’s name is Laura, and my father’s name is Carlos."
+          "I have one brother and one sister.",
+          "She loves drawing and dancing.",
+          "My family is busy, but we are very close and happy."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “My Family Photo”?",
+        "options": [
+          "This is a photo of my family.",
+          "I have one brother and one sister.",
+          "She loves drawing and dancing.",
+          "My family is busy, but we are very close and happy."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “My Family Photo” after “She loves drawing and dancing.”?",
+        "options": [
+          "This is a photo of my family.",
+          "I have one brother and one sister.",
+          "She loves drawing and dancing.",
+          "My family is busy, but we are very close and happy."
         ]
       }
     ]
@@ -15473,48 +16376,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-climate-change-daily-decisions-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Climate Change and Everyday Decisions”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining climate change and everyday decisions. Why does…”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Change and Everyday Decisions”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Climate Change and Everyday Decisions” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Climate Change and Everyday Decisions”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining climate change and everyday decisions. Why does…”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Change and Everyday Decisions”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Climate Change and Everyday Decisions” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "carbon footprint, emissions, renewable",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -15597,48 +16597,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-gene-editing-access-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Gene Editing, Treatment and Access”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining gene editing, treatment and access. Why does…”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Gene Editing, Treatment and Access”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Gene Editing, Treatment and Access” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Gene Editing, Treatment and Access”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining gene editing, treatment and access. Why does…”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Gene Editing, Treatment and Access”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Gene Editing, Treatment and Access” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "gene editing, inherited disorder, clinical trial",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -15721,48 +16818,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-sleep-consolidation-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Sleep, Memory and Vocabulary Consolidation”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining sleep, memory and vocabulary consolidation. Why…”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Sleep, Memory and Vocabulary Consolidation” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Sleep, Memory and Vocabulary Consolidation”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining sleep, memory and vocabulary consolidation. Why…”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Sleep, Memory and Vocabulary Consolidation” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "memory consolidation, lexical integration, encoding",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -15887,13 +17081,13 @@
       },
       "dictationSegmentCount": 4,
       "listeningComprehension": {
-        "id": "english-a2-home-and-neighborhood-listening-comprehension",
+        "id": "english-a2-home-and-neighborhood-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “Moving to a New Neighborhood”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -15901,30 +17095,30 @@
               },
               {
                 "id": "o2",
-                "text": "He still misses his old friends, but he is beginning to feel comfortable in his new home."
+                "text": "The area is quieter than his old neighborhood, and there are many useful places nearby."
               },
               {
                 "id": "o3",
-                "text": "Since then, Henry has met several friendly neighbors."
+                "text": "On his first day, the woman next door introduced herself and helped him carry some boxes."
               },
               {
                 "id": "o4",
-                "text": "On his first day, the woman next door introduced herself and helped him carry some boxes."
+                "text": "He still misses his old friends, but he is beginning to feel comfortable in his new home."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "After “Last month, Henry moved to a new apartment in a different neighborhood.”, what happens next in “Moving to a New Neighborhood”?",
             "options": [
               {
                 "id": "o1",
-                "text": "He still misses his old friends, but he is beginning to feel comfortable in his new home."
+                "text": "Last month, Henry moved to a new apartment in a different neighborhood."
               },
               {
                 "id": "o2",
-                "text": "Since then, Henry has met several friendly neighbors."
+                "text": "The area is quieter than his old neighborhood, and there are many useful places nearby."
               },
               {
                 "id": "o3",
@@ -15932,53 +17126,53 @@
               },
               {
                 "id": "o4",
-                "text": "The area is quieter than his old neighborhood, and there are many useful places nearby."
+                "text": "He still misses his old friends, but he is beginning to feel comfortable in his new home."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which event happens later in the story?",
+            "prompt": "Which line best reveals an intention or decision in “Moving to a New Neighborhood”?",
             "options": [
               {
                 "id": "o1",
-                "text": "At first, he felt nervous because he did not know anyone."
+                "text": "Last month, Henry moved to a new apartment in a different neighborhood."
               },
               {
                 "id": "o2",
-                "text": "He still misses his old friends, but he is beginning to feel comfortable in his new home."
+                "text": "The area is quieter than his old neighborhood, and there are many useful places nearby."
               },
               {
                 "id": "o3",
-                "text": "There is also a bus stop across from his building."
+                "text": "At first, he felt nervous because he did not know anyone."
               },
               {
                 "id": "o4",
-                "text": "Last month, Henry moved to a new apartment in a different neighborhood."
+                "text": "On his first day, the woman next door introduced herself and helped him carry some boxes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “Moving to a New Neighborhood” after “At first, he felt nervous because he did not know anyone.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "The area is quieter than his old neighborhood, and there are many useful places nearby."
-              },
-              {
-                "id": "o2",
-                "text": "He still misses his old friends, but he is beginning to feel comfortable in his new home."
-              },
-              {
-                "id": "o3",
                 "text": "Last month, Henry moved to a new apartment in a different neighborhood."
               },
               {
+                "id": "o2",
+                "text": "The area is quieter than his old neighborhood, and there are many useful places nearby."
+              },
+              {
+                "id": "o3",
+                "text": "On his first day, the woman next door introduced herself and helped him carry some boxes."
+              },
+              {
                 "id": "o4",
-                "text": "At first, he felt nervous because he did not know anyone."
+                "text": "He still misses his old friends, but he is beginning to feel comfortable in his new home."
               }
             ]
           }
@@ -15989,42 +17183,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “Moving to a New Neighborhood”, which detail establishes the situation?",
         "options": [
           "Last month, Henry moved to a new apartment in a different neighborhood.",
-          "He still misses his old friends, but he is beginning to feel comfortable in his new home.",
-          "Since then, Henry has met several friendly neighbors.",
+          "The area is quieter than his old neighborhood, and there are many useful places nearby.",
+          "On his first day, the woman next door introduced herself and helped him carry some boxes.",
+          "He still misses his old friends, but he is beginning to feel comfortable in his new home."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After “Last month, Henry moved to a new apartment in a different neighborhood.”, what happens next in “Moving to a New Neighborhood”?",
+        "options": [
+          "Last month, Henry moved to a new apartment in a different neighborhood.",
+          "The area is quieter than his old neighborhood, and there are many useful places nearby.",
+          "On his first day, the woman next door introduced herself and helped him carry some boxes.",
+          "He still misses his old friends, but he is beginning to feel comfortable in his new home."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “Moving to a New Neighborhood”?",
+        "options": [
+          "Last month, Henry moved to a new apartment in a different neighborhood.",
+          "The area is quieter than his old neighborhood, and there are many useful places nearby.",
+          "At first, he felt nervous because he did not know anyone.",
           "On his first day, the woman next door introduced herself and helped him carry some boxes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What happens next in the story?",
+        "prompt": "Which outcome closes “Moving to a New Neighborhood” after “At first, he felt nervous because he did not know anyone.”?",
         "options": [
-          "He still misses his old friends, but he is beginning to feel comfortable in his new home.",
-          "Since then, Henry has met several friendly neighbors.",
-          "On his first day, the woman next door introduced herself and helped him carry some boxes.",
-          "The area is quieter than his old neighborhood, and there are many useful places nearby."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "At first, he felt nervous because he did not know anyone.",
-          "He still misses his old friends, but he is beginning to feel comfortable in his new home.",
-          "There is also a bus stop across from his building.",
-          "Last month, Henry moved to a new apartment in a different neighborhood."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the story end?",
-        "options": [
-          "The area is quieter than his old neighborhood, and there are many useful places nearby.",
-          "He still misses his old friends, but he is beginning to feel comfortable in his new home.",
           "Last month, Henry moved to a new apartment in a different neighborhood.",
-          "At first, he felt nervous because he did not know anyone."
+          "The area is quieter than his old neighborhood, and there are many useful places nearby.",
+          "On his first day, the woman next door introduced herself and helped him carry some boxes.",
+          "He still misses his old friends, but he is beginning to feel comfortable in his new home."
         ]
       }
     ]
@@ -21970,38 +23164,145 @@
           "text": "They decide to have breakfast, check the new arrival time and choose one activity to remove from the itinerary."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-travel-with-purpose-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Changing the Plan”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that the train is delayed"
+              },
+              {
+                "id": "o2",
+                "text": "Sarah is frustrated because she wanted to arrive early"
+              },
+              {
+                "id": "o3",
+                "text": "Daniel points out that they can still visit the main museum in the afternoon."
+              },
+              {
+                "id": "o4",
+                "text": "choose one activity to remove from the itinerary."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Daniel tells Sarah that the train is delayed”, what happens next in “Changing the Plan”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that the train is delayed"
+              },
+              {
+                "id": "o2",
+                "text": "Sarah is frustrated because she wanted to arrive early"
+              },
+              {
+                "id": "o3",
+                "text": "Daniel points out that they can still visit the main museum in the afternoon."
+              },
+              {
+                "id": "o4",
+                "text": "choose one activity to remove from the itinerary."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Changing the Plan”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that the train is delayed"
+              },
+              {
+                "id": "o2",
+                "text": "Sarah is frustrated because she wanted to arrive early"
+              },
+              {
+                "id": "o3",
+                "text": "suggests changing the morning plan."
+              },
+              {
+                "id": "o4",
+                "text": "Daniel points out that they can still visit the main museum in the afternoon."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Changing the Plan” after “suggests changing the morning plan.”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that the train is delayed"
+              },
+              {
+                "id": "o2",
+                "text": "Sarah is frustrated because she wanted to arrive early"
+              },
+              {
+                "id": "o3",
+                "text": "Daniel points out that they can still visit the main museum in the afternoon."
+              },
+              {
+                "id": "o4",
+                "text": "choose one activity to remove from the itinerary."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “Changing the Plan”, which detail establishes the situation?",
         "options": [
-          "Travel with Purpose",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Daniel tells Sarah that the train is delayed",
+          "Sarah is frustrated because she wanted to arrive early",
+          "Daniel points out that they can still visit the main museum in the afternoon.",
+          "choose one activity to remove from the itinerary."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “Daniel tells Sarah that the train is delayed”, what happens next in “Changing the Plan”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Daniel tells Sarah that the train is delayed",
+          "Sarah is frustrated because she wanted to arrive early",
+          "Daniel points out that they can still visit the main museum in the afternoon.",
+          "choose one activity to remove from the itinerary."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “Changing the Plan”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Daniel tells Sarah that the train is delayed",
+          "Sarah is frustrated because she wanted to arrive early",
+          "suggests changing the morning plan.",
+          "Daniel points out that they can still visit the main museum in the afternoon."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Changing the Plan” after “suggests changing the morning plan.”?",
+        "options": [
+          "Daniel tells Sarah that the train is delayed",
+          "Sarah is frustrated because she wanted to arrive early",
+          "Daniel points out that they can still visit the main museum in the afternoon.",
+          "choose one activity to remove from the itinerary."
         ]
       }
     ]
@@ -22140,13 +23441,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-my-school-listening-comprehension",
+        "id": "english-a1-my-school-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “My First School Day”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -22154,30 +23455,30 @@
               },
               {
                 "id": "o2",
-                "text": "I feel happy because my new school is interesting."
+                "text": "She is kind and friendly."
               },
               {
                 "id": "o3",
-                "text": "At lunchtime, I eat with Mia."
+                "text": "After English, we have math and science."
               },
               {
                 "id": "o4",
-                "text": "After English, we have math and science."
+                "text": "Brown."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "After “Today is my first day at a new school.”, what happens next in “My First School Day”?",
             "options": [
               {
                 "id": "o1",
-                "text": "I feel happy because my new school is interesting."
+                "text": "Today is my first day at a new school."
               },
               {
                 "id": "o2",
-                "text": "At lunchtime, I eat with Mia."
+                "text": "She is kind and friendly."
               },
               {
                 "id": "o3",
@@ -22185,53 +23486,53 @@
               },
               {
                 "id": "o4",
-                "text": "My teacher’s name is Mrs. Brown."
+                "text": "Brown."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which event happens later in the story?",
+            "prompt": "Which line best reveals an intention or decision in “My First School Day”?",
             "options": [
               {
                 "id": "o1",
-                "text": "My classroom is large and bright."
+                "text": "Today is my first day at a new school."
               },
               {
                 "id": "o2",
-                "text": "There are twenty desks, a whiteboard, and a computer."
+                "text": "She is kind and friendly."
               },
               {
                 "id": "o3",
-                "text": "In my school bag, I have two notebooks, three pencils, a ruler, and an English book."
+                "text": "I feel happy because my new school is interesting."
               },
               {
                 "id": "o4",
-                "text": "Today is my first day at a new school."
+                "text": "After English, we have math and science."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “My First School Day” after “I feel happy because my new school is interesting.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "There are twenty desks, a whiteboard, and a computer."
-              },
-              {
-                "id": "o2",
-                "text": "I feel happy because my new school is interesting."
-              },
-              {
-                "id": "o3",
                 "text": "Today is my first day at a new school."
               },
               {
+                "id": "o2",
+                "text": "She is kind and friendly."
+              },
+              {
+                "id": "o3",
+                "text": "After English, we have math and science."
+              },
+              {
                 "id": "o4",
-                "text": "My classroom is large and bright."
+                "text": "Brown."
               }
             ]
           }
@@ -22242,42 +23543,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “My First School Day”, which detail establishes the situation?",
         "options": [
           "Today is my first day at a new school.",
+          "She is kind and friendly.",
+          "After English, we have math and science.",
+          "Brown."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After “Today is my first day at a new school.”, what happens next in “My First School Day”?",
+        "options": [
+          "Today is my first day at a new school.",
+          "She is kind and friendly.",
+          "After English, we have math and science.",
+          "Brown."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “My First School Day”?",
+        "options": [
+          "Today is my first day at a new school.",
+          "She is kind and friendly.",
           "I feel happy because my new school is interesting.",
-          "At lunchtime, I eat with Mia.",
           "After English, we have math and science."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What happens next in the story?",
+        "prompt": "Which outcome closes “My First School Day” after “I feel happy because my new school is interesting.”?",
         "options": [
-          "I feel happy because my new school is interesting.",
-          "At lunchtime, I eat with Mia.",
-          "After English, we have math and science.",
-          "My teacher’s name is Mrs. Brown."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "My classroom is large and bright.",
-          "There are twenty desks, a whiteboard, and a computer.",
-          "In my school bag, I have two notebooks, three pencils, a ruler, and an English book.",
-          "Today is my first day at a new school."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the story end?",
-        "options": [
-          "There are twenty desks, a whiteboard, and a computer.",
-          "I feel happy because my new school is interesting.",
           "Today is my first day at a new school.",
-          "My classroom is large and bright."
+          "She is kind and friendly.",
+          "After English, we have math and science.",
+          "Brown."
         ]
       }
     ]
@@ -22360,48 +23661,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-corruption-public-trust-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining corruption and public trust in latin america…”, what happens next in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining corruption and public trust in latin america…”, what happens next in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "clientelism, bribery, conflict of interest",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -22484,48 +23882,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-climate-health-air-pollution-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Climate, Air Pollution and Health”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining climate, air pollution and health. Why does…”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate, Air Pollution and Health”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Climate, Air Pollution and Health” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Climate, Air Pollution and Health”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining climate, air pollution and health. Why does…”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate, Air Pollution and Health”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Climate, Air Pollution and Health” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "co-benefit, particulate matter, energy poverty",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -22608,48 +24103,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-incidental-acquisition-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Comprehensible Input and Incidental Acquisition”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining comprehensible input and incidental…”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Comprehensible Input and Incidental Acquisition” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Comprehensible Input and Incidental Acquisition”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining comprehensible input and incidental…”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Comprehensible Input and Incidental Acquisition” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "comprehensible input, incidental learning, noticing",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -22779,13 +24371,13 @@
       },
       "dictationSegmentCount": 4,
       "listeningComprehension": {
-        "id": "english-a2-food-and-shopping-listening-comprehension",
+        "id": "english-a2-food-and-shopping-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “Shopping for Dinner”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -22793,53 +24385,7 @@
               },
               {
                 "id": "o2",
-                "text": "When they return home, they prepare the meal together and are pleased with the result."
-              },
-              {
-                "id": "o3",
-                "text": "In the end, they choose a mix of regular and organic products."
-              },
-              {
-                "id": "o4",
-                "text": "Grace wants to buy organic vegetables, but Samuel thinks they are too expensive."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "What happens next in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "When they return home, they prepare the meal together and are pleased with the result."
-              },
-              {
-                "id": "o2",
-                "text": "In the end, they choose a mix of regular and organic products."
-              },
-              {
-                "id": "o3",
-                "text": "Grace wants to buy organic vegetables, but Samuel thinks they are too expensive."
-              },
-              {
-                "id": "o4",
-                "text": "At the supermarket, they compare prices and look for fresh food."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which event happens later in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "They check the kitchen and discover that they have chicken but not enough vegetables."
-              },
-              {
-                "id": "o2",
-                "text": "At the supermarket, they compare prices and look for fresh food."
+                "text": "Grace chooses carrots, onions, and potatoes."
               },
               {
                 "id": "o3",
@@ -22847,30 +24393,76 @@
               },
               {
                 "id": "o4",
+                "text": "When they return home, they prepare the meal together and are pleased with the result."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Grace and Samuel decide to cook dinner together.”, what happens next in “Shopping for Dinner”?",
+            "options": [
+              {
+                "id": "o1",
                 "text": "Grace and Samuel decide to cook dinner together."
+              },
+              {
+                "id": "o2",
+                "text": "Grace chooses carrots, onions, and potatoes."
+              },
+              {
+                "id": "o3",
+                "text": "They also buy some juice and a small dessert."
+              },
+              {
+                "id": "o4",
+                "text": "When they return home, they prepare the meal together and are pleased with the result."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Shopping for Dinner”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Grace and Samuel decide to cook dinner together."
+              },
+              {
+                "id": "o2",
+                "text": "Grace chooses carrots, onions, and potatoes."
+              },
+              {
+                "id": "o3",
+                "text": "They also buy some juice and a small dessert."
+              },
+              {
+                "id": "o4",
+                "text": "When they return home, they prepare the meal together and are pleased with the result."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “Shopping for Dinner” after “They also buy some juice and a small dessert.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "At the supermarket, they compare prices and look for fresh food."
-              },
-              {
-                "id": "o2",
-                "text": "When they return home, they prepare the meal together and are pleased with the result."
-              },
-              {
-                "id": "o3",
                 "text": "Grace and Samuel decide to cook dinner together."
               },
               {
+                "id": "o2",
+                "text": "Grace chooses carrots, onions, and potatoes."
+              },
+              {
+                "id": "o3",
+                "text": "They also buy some juice and a small dessert."
+              },
+              {
                 "id": "o4",
-                "text": "They check the kitchen and discover that they have chicken but not enough vegetables."
+                "text": "When they return home, they prepare the meal together and are pleased with the result."
               }
             ]
           }
@@ -22881,42 +24473,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “Shopping for Dinner”, which detail establishes the situation?",
         "options": [
           "Grace and Samuel decide to cook dinner together.",
-          "When they return home, they prepare the meal together and are pleased with the result.",
-          "In the end, they choose a mix of regular and organic products.",
-          "Grace wants to buy organic vegetables, but Samuel thinks they are too expensive."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "When they return home, they prepare the meal together and are pleased with the result.",
-          "In the end, they choose a mix of regular and organic products.",
-          "Grace wants to buy organic vegetables, but Samuel thinks they are too expensive.",
-          "At the supermarket, they compare prices and look for fresh food."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "They check the kitchen and discover that they have chicken but not enough vegetables.",
-          "At the supermarket, they compare prices and look for fresh food.",
+          "Grace chooses carrots, onions, and potatoes.",
           "They also buy some juice and a small dessert.",
-          "Grace and Samuel decide to cook dinner together."
+          "When they return home, they prepare the meal together and are pleased with the result."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "After “Grace and Samuel decide to cook dinner together.”, what happens next in “Shopping for Dinner”?",
         "options": [
-          "At the supermarket, they compare prices and look for fresh food.",
-          "When they return home, they prepare the meal together and are pleased with the result.",
           "Grace and Samuel decide to cook dinner together.",
-          "They check the kitchen and discover that they have chicken but not enough vegetables."
+          "Grace chooses carrots, onions, and potatoes.",
+          "They also buy some juice and a small dessert.",
+          "When they return home, they prepare the meal together and are pleased with the result."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “Shopping for Dinner”?",
+        "options": [
+          "Grace and Samuel decide to cook dinner together.",
+          "Grace chooses carrots, onions, and potatoes.",
+          "They also buy some juice and a small dessert.",
+          "When they return home, they prepare the meal together and are pleased with the result."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Shopping for Dinner” after “They also buy some juice and a small dessert.”?",
+        "options": [
+          "Grace and Samuel decide to cook dinner together.",
+          "Grace chooses carrots, onions, and potatoes.",
+          "They also buy some juice and a small dessert.",
+          "When they return home, they prepare the meal together and are pleased with the result."
         ]
       }
     ]
@@ -28867,38 +30459,145 @@
           "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-health-and-balance-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “A Healthier Routine”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their evening routines."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she needs to stop checking emails late at night."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+              },
+              {
+                "id": "o4",
+                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Sarah and Daniel discuss their evening routines.”, what happens next in “A Healthier Routine”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their evening routines."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she needs to stop checking emails late at night."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+              },
+              {
+                "id": "o4",
+                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “A Healthier Routine”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their evening routines."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she needs to stop checking emails late at night."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+              },
+              {
+                "id": "o4",
+                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “A Healthier Routine” after “Daniel says he wants to start preparing for work earlier so his…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their evening routines."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she needs to stop checking emails late at night."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+              },
+              {
+                "id": "o4",
+                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “A Healthier Routine”, which detail establishes the situation?",
         "options": [
-          "Health and Balance",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Sarah and Daniel discuss their evening routines.",
+          "Sarah says she needs to stop checking emails late at night.",
+          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
+          "They agree that small habits can reduce stress more effectively than dramatic promises."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “Sarah and Daniel discuss their evening routines.”, what happens next in “A Healthier Routine”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Sarah and Daniel discuss their evening routines.",
+          "Sarah says she needs to stop checking emails late at night.",
+          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
+          "They agree that small habits can reduce stress more effectively than dramatic promises."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “A Healthier Routine”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Sarah and Daniel discuss their evening routines.",
+          "Sarah says she needs to stop checking emails late at night.",
+          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
+          "They agree that small habits can reduce stress more effectively than dramatic promises."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “A Healthier Routine” after “Daniel says he wants to start preparing for work earlier so his…”?",
+        "options": [
+          "Sarah and Daniel discuss their evening routines.",
+          "Sarah says she needs to stop checking emails late at night.",
+          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
+          "They agree that small habits can reduce stress more effectively than dramatic promises."
         ]
       }
     ]
@@ -29027,13 +30726,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-daily-routine-listening-comprehension",
+        "id": "english-a1-daily-routine-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “My Busy Morning”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -29041,53 +30740,7 @@
               },
               {
                 "id": "o2",
-                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
-              },
-              {
-                "id": "o3",
-                "text": "My classes start at eight o’clock."
-              },
-              {
-                "id": "o4",
-                "text": "I leave home at seven thirty and take the bus to school."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "What happens next in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
-              },
-              {
-                "id": "o2",
-                "text": "My classes start at eight o’clock."
-              },
-              {
-                "id": "o3",
-                "text": "I leave home at seven thirty and take the bus to school."
-              },
-              {
-                "id": "o4",
-                "text": "Then I get dressed and brush my teeth."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which event happens later in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "First, I get out of bed and take a shower."
-              },
-              {
-                "id": "o2",
-                "text": "Then I get dressed and brush my teeth."
+                "text": "At seven o’clock, I eat breakfast with my family."
               },
               {
                 "id": "o3",
@@ -29095,30 +30748,76 @@
               },
               {
                 "id": "o4",
+                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “I wake up at six thirty every morning.”, what happens next in “My Busy Morning”?",
+            "options": [
+              {
+                "id": "o1",
                 "text": "I wake up at six thirty every morning."
+              },
+              {
+                "id": "o2",
+                "text": "At seven o’clock, I eat breakfast with my family."
+              },
+              {
+                "id": "o3",
+                "text": "After breakfast, I put my books in my school bag."
+              },
+              {
+                "id": "o4",
+                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “My Busy Morning”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "I wake up at six thirty every morning."
+              },
+              {
+                "id": "o2",
+                "text": "At seven o’clock, I eat breakfast with my family."
+              },
+              {
+                "id": "o3",
+                "text": "After breakfast, I put my books in my school bag."
+              },
+              {
+                "id": "o4",
+                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “My Busy Morning” after “After breakfast, I put my books in my school bag.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Then I get dressed and brush my teeth."
-              },
-              {
-                "id": "o2",
-                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
-              },
-              {
-                "id": "o3",
                 "text": "I wake up at six thirty every morning."
               },
               {
+                "id": "o2",
+                "text": "At seven o’clock, I eat breakfast with my family."
+              },
+              {
+                "id": "o3",
+                "text": "After breakfast, I put my books in my school bag."
+              },
+              {
                 "id": "o4",
-                "text": "First, I get out of bed and take a shower."
+                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
               }
             ]
           }
@@ -29129,42 +30828,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “My Busy Morning”, which detail establishes the situation?",
         "options": [
           "I wake up at six thirty every morning.",
-          "I am sometimes tired in the morning, but I like seeing my friends and learning new things.",
-          "My classes start at eight o’clock.",
-          "I leave home at seven thirty and take the bus to school."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "I am sometimes tired in the morning, but I like seeing my friends and learning new things.",
-          "My classes start at eight o’clock.",
-          "I leave home at seven thirty and take the bus to school.",
-          "Then I get dressed and brush my teeth."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "First, I get out of bed and take a shower.",
-          "Then I get dressed and brush my teeth.",
+          "At seven o’clock, I eat breakfast with my family.",
           "After breakfast, I put my books in my school bag.",
-          "I wake up at six thirty every morning."
+          "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "After “I wake up at six thirty every morning.”, what happens next in “My Busy Morning”?",
         "options": [
-          "Then I get dressed and brush my teeth.",
-          "I am sometimes tired in the morning, but I like seeing my friends and learning new things.",
           "I wake up at six thirty every morning.",
-          "First, I get out of bed and take a shower."
+          "At seven o’clock, I eat breakfast with my family.",
+          "After breakfast, I put my books in my school bag.",
+          "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “My Busy Morning”?",
+        "options": [
+          "I wake up at six thirty every morning.",
+          "At seven o’clock, I eat breakfast with my family.",
+          "After breakfast, I put my books in my school bag.",
+          "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “My Busy Morning” after “After breakfast, I put my books in my school bag.”?",
+        "options": [
+          "I wake up at six thirty every morning.",
+          "At seven o’clock, I eat breakfast with my family.",
+          "After breakfast, I put my books in my school bag.",
+          "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
         ]
       }
     ]
@@ -29247,48 +30946,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-fourth-of-july-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: The Fourth of July: Freedom and Contradictions”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining the fourth of july: freedom and contradictions.…”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: The Fourth of July: Freedom and Contradictions” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: The Fourth of July: Freedom and Contradictions”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining the fourth of july: freedom and contradictions.…”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: The Fourth of July: Freedom and Contradictions” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "independence, founding document, civil rights",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -29371,48 +31167,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-loneliness-public-health-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Loneliness as a Public-Health Issue”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining loneliness as a public-health issue. Why does…”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Loneliness as a Public-Health Issue”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Loneliness as a Public-Health Issue” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Loneliness as a Public-Health Issue”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining loneliness as a public-health issue. Why does…”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Loneliness as a Public-Health Issue”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Loneliness as a Public-Health Issue” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "loneliness, social isolation, protective factor",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -29495,48 +31388,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-multimodal-learning-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Reading, Listening and Multimodal Learning”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining reading, listening and multimodal learning. Why…”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Reading, Listening and Multimodal Learning”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Reading, Listening and Multimodal Learning” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Reading, Listening and Multimodal Learning”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining reading, listening and multimodal learning. Why…”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Reading, Listening and Multimodal Learning”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Reading, Listening and Multimodal Learning” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "multimodality, dual coding, captioning",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -29661,13 +31651,13 @@
       },
       "dictationSegmentCount": 4,
       "listeningComprehension": {
-        "id": "english-a2-past-experiences-listening-comprehension",
+        "id": "english-a2-past-experiences-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “A Weekend in the Countryside”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -29675,30 +31665,30 @@
               },
               {
                 "id": "o2",
-                "text": "He returned home tired but happy on Sunday afternoon."
+                "text": "The weather was cool and sunny, so they spent most of the day outside."
               },
               {
                 "id": "o3",
-                "text": "Ryan had not visited for several months, so the weekend felt very special."
+                "text": "That evening, the family sat outside and listened to old stories."
               },
               {
                 "id": "o4",
-                "text": "That evening, the family sat outside and listened to old stories."
+                "text": "He returned home tired but happy on Sunday afternoon."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "After “Last weekend, Ryan visited his grandparents in the countryside.”, what happens next in “A Weekend in the Countryside”?",
             "options": [
               {
                 "id": "o1",
-                "text": "He returned home tired but happy on Sunday afternoon."
+                "text": "Last weekend, Ryan visited his grandparents in the countryside."
               },
               {
                 "id": "o2",
-                "text": "Ryan had not visited for several months, so the weekend felt very special."
+                "text": "The weather was cool and sunny, so they spent most of the day outside."
               },
               {
                 "id": "o3",
@@ -29706,53 +31696,53 @@
               },
               {
                 "id": "o4",
-                "text": "The weather was cool and sunny, so they spent most of the day outside."
+                "text": "He returned home tired but happy on Sunday afternoon."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which event happens later in the story?",
+            "prompt": "Which line best reveals an intention or decision in “A Weekend in the Countryside”?",
             "options": [
               {
                 "id": "o1",
-                "text": "He traveled there with his sister early on Saturday morning."
+                "text": "Last weekend, Ryan visited his grandparents in the countryside."
               },
               {
                 "id": "o2",
-                "text": "He returned home tired but happy on Sunday afternoon."
+                "text": "The weather was cool and sunny, so they spent most of the day outside."
               },
               {
                 "id": "o3",
-                "text": "In the afternoon, they walked near a small river and took several pictures."
+                "text": "That evening, the family sat outside and listened to old stories."
               },
               {
                 "id": "o4",
-                "text": "Last weekend, Ryan visited his grandparents in the countryside."
+                "text": "He returned home tired but happy on Sunday afternoon."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “A Weekend in the Countryside” after “That evening, the family sat outside and listened to old stories.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "The weather was cool and sunny, so they spent most of the day outside."
-              },
-              {
-                "id": "o2",
-                "text": "He returned home tired but happy on Sunday afternoon."
-              },
-              {
-                "id": "o3",
                 "text": "Last weekend, Ryan visited his grandparents in the countryside."
               },
               {
+                "id": "o2",
+                "text": "The weather was cool and sunny, so they spent most of the day outside."
+              },
+              {
+                "id": "o3",
+                "text": "That evening, the family sat outside and listened to old stories."
+              },
+              {
                 "id": "o4",
-                "text": "He traveled there with his sister early on Saturday morning."
+                "text": "He returned home tired but happy on Sunday afternoon."
               }
             ]
           }
@@ -29763,42 +31753,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “A Weekend in the Countryside”, which detail establishes the situation?",
         "options": [
           "Last weekend, Ryan visited his grandparents in the countryside.",
-          "He returned home tired but happy on Sunday afternoon.",
-          "Ryan had not visited for several months, so the weekend felt very special.",
-          "That evening, the family sat outside and listened to old stories."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "He returned home tired but happy on Sunday afternoon.",
-          "Ryan had not visited for several months, so the weekend felt very special.",
-          "That evening, the family sat outside and listened to old stories.",
-          "The weather was cool and sunny, so they spent most of the day outside."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "He traveled there with his sister early on Saturday morning.",
-          "He returned home tired but happy on Sunday afternoon.",
-          "In the afternoon, they walked near a small river and took several pictures.",
-          "Last weekend, Ryan visited his grandparents in the countryside."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the story end?",
-        "options": [
           "The weather was cool and sunny, so they spent most of the day outside.",
-          "He returned home tired but happy on Sunday afternoon.",
+          "That evening, the family sat outside and listened to old stories.",
+          "He returned home tired but happy on Sunday afternoon."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After “Last weekend, Ryan visited his grandparents in the countryside.”, what happens next in “A Weekend in the Countryside”?",
+        "options": [
           "Last weekend, Ryan visited his grandparents in the countryside.",
-          "He traveled there with his sister early on Saturday morning."
+          "The weather was cool and sunny, so they spent most of the day outside.",
+          "That evening, the family sat outside and listened to old stories.",
+          "He returned home tired but happy on Sunday afternoon."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “A Weekend in the Countryside”?",
+        "options": [
+          "Last weekend, Ryan visited his grandparents in the countryside.",
+          "The weather was cool and sunny, so they spent most of the day outside.",
+          "That evening, the family sat outside and listened to old stories.",
+          "He returned home tired but happy on Sunday afternoon."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “A Weekend in the Countryside” after “That evening, the family sat outside and listened to old stories.”?",
+        "options": [
+          "Last weekend, Ryan visited his grandparents in the countryside.",
+          "The weather was cool and sunny, so they spent most of the day outside.",
+          "That evening, the family sat outside and listened to old stories.",
+          "He returned home tired but happy on Sunday afternoon."
         ]
       }
     ]
@@ -35749,38 +37739,145 @@
           "text": "They agree to review the budget again after one month."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-money-and-choices-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Making the Numbers Work”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah explains the price of the course to Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to review the budget again after one month."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Sarah explains the price of the course to Daniel.”, what happens next in “Making the Numbers Work”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah explains the price of the course to Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to review the budget again after one month."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Making the Numbers Work”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah explains the price of the course to Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to review the budget again after one month."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Making the Numbers Work” after “Sarah says that if they plan carefully, she will be able to study…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah explains the price of the course to Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to review the budget again after one month."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “Making the Numbers Work”, which detail establishes the situation?",
         "options": [
-          "Money and Choices",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Sarah explains the price of the course to Daniel.",
+          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
+          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
+          "They agree to review the budget again after one month."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “Sarah explains the price of the course to Daniel.”, what happens next in “Making the Numbers Work”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Sarah explains the price of the course to Daniel.",
+          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
+          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
+          "They agree to review the budget again after one month."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “Making the Numbers Work”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Sarah explains the price of the course to Daniel.",
+          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
+          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
+          "They agree to review the budget again after one month."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Making the Numbers Work” after “Sarah says that if they plan carefully, she will be able to study…”?",
+        "options": [
+          "Sarah explains the price of the course to Daniel.",
+          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
+          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
+          "They agree to review the budget again after one month."
         ]
       }
     ]
@@ -35909,13 +38006,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-time-and-dates-listening-comprehension",
+        "id": "english-a1-time-and-dates-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “An Important Day”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -35923,53 +38020,7 @@
               },
               {
                 "id": "o2",
-                "text": "She is tired, but she is happy because she thinks she did well on her test."
-              },
-              {
-                "id": "o3",
-                "text": "Sofia goes home at four thirty."
-              },
-              {
-                "id": "o4",
-                "text": "In the afternoon, there is a school activity at two o’clock."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "What happens next in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "She is tired, but she is happy because she thinks she did well on her test."
-              },
-              {
-                "id": "o2",
-                "text": "Sofia goes home at four thirty."
-              },
-              {
-                "id": "o3",
-                "text": "In the afternoon, there is a school activity at two o’clock."
-              },
-              {
-                "id": "o4",
-                "text": "Her test starts at ten o’clock in the morning."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which event happens later in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "It is an important day for Sofia because she has an English test."
-              },
-              {
-                "id": "o2",
-                "text": "Her test starts at ten o’clock in the morning."
+                "text": "She arrives at school at nine fifteen."
               },
               {
                 "id": "o3",
@@ -35977,30 +38028,76 @@
               },
               {
                 "id": "o4",
+                "text": "She is tired, but she is happy because she thinks she did well on her test."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today is Monday, March twelfth.”, what happens next in “An Important Day”?",
+            "options": [
+              {
+                "id": "o1",
                 "text": "Today is Monday, March twelfth."
+              },
+              {
+                "id": "o2",
+                "text": "She arrives at school at nine fifteen."
+              },
+              {
+                "id": "o3",
+                "text": "At twelve thirty, she has lunch with her friends."
+              },
+              {
+                "id": "o4",
+                "text": "She is tired, but she is happy because she thinks she did well on her test."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “An Important Day”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today is Monday, March twelfth."
+              },
+              {
+                "id": "o2",
+                "text": "She arrives at school at nine fifteen."
+              },
+              {
+                "id": "o3",
+                "text": "It is an important day for Sofia because she has an English test."
+              },
+              {
+                "id": "o4",
+                "text": "At twelve thirty, she has lunch with her friends."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “An Important Day” after “It is an important day for Sofia because she has an English test.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Her test starts at ten o’clock in the morning."
-              },
-              {
-                "id": "o2",
-                "text": "She is tired, but she is happy because she thinks she did well on her test."
-              },
-              {
-                "id": "o3",
                 "text": "Today is Monday, March twelfth."
               },
               {
+                "id": "o2",
+                "text": "She arrives at school at nine fifteen."
+              },
+              {
+                "id": "o3",
+                "text": "At twelve thirty, she has lunch with her friends."
+              },
+              {
                 "id": "o4",
-                "text": "It is an important day for Sofia because she has an English test."
+                "text": "She is tired, but she is happy because she thinks she did well on her test."
               }
             ]
           }
@@ -36011,42 +38108,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “An Important Day”, which detail establishes the situation?",
         "options": [
           "Today is Monday, March twelfth.",
-          "She is tired, but she is happy because she thinks she did well on her test.",
-          "Sofia goes home at four thirty.",
-          "In the afternoon, there is a school activity at two o’clock."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "She is tired, but she is happy because she thinks she did well on her test.",
-          "Sofia goes home at four thirty.",
-          "In the afternoon, there is a school activity at two o’clock.",
-          "Her test starts at ten o’clock in the morning."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "It is an important day for Sofia because she has an English test.",
-          "Her test starts at ten o’clock in the morning.",
+          "She arrives at school at nine fifteen.",
           "At twelve thirty, she has lunch with her friends.",
-          "Today is Monday, March twelfth."
+          "She is tired, but she is happy because she thinks she did well on her test."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "After “Today is Monday, March twelfth.”, what happens next in “An Important Day”?",
         "options": [
-          "Her test starts at ten o’clock in the morning.",
-          "She is tired, but she is happy because she thinks she did well on her test.",
           "Today is Monday, March twelfth.",
-          "It is an important day for Sofia because she has an English test."
+          "She arrives at school at nine fifteen.",
+          "At twelve thirty, she has lunch with her friends.",
+          "She is tired, but she is happy because she thinks she did well on her test."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “An Important Day”?",
+        "options": [
+          "Today is Monday, March twelfth.",
+          "She arrives at school at nine fifteen.",
+          "It is an important day for Sofia because she has an English test.",
+          "At twelve thirty, she has lunch with her friends."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “An Important Day” after “It is an important day for Sofia because she has an English test.”?",
+        "options": [
+          "Today is Monday, March twelfth.",
+          "She arrives at school at nine fifteen.",
+          "At twelve thirty, she has lunch with her friends.",
+          "She is tired, but she is happy because she thinks she did well on her test."
         ]
       }
     ]
@@ -36129,48 +38226,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-migration-cultural-identity-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Migration and Cultural Identity”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining migration and cultural identity. Why does this…”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Migration and Cultural Identity”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Migration and Cultural Identity” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Migration and Cultural Identity”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining migration and cultural identity. Why does this…”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Migration and Cultural Identity”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Migration and Cultural Identity” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "belonging, heritage, integration",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -36253,48 +38447,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-ageing-care-economy-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Ageing and the Care Economy”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining ageing and the care economy. Why does this…”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Ageing and the Care Economy”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Ageing and the Care Economy” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Ageing and the Care Economy”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining ageing and the care economy. Why does this…”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Ageing and the Care Economy”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Ageing and the Care Economy” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "long-term care, unpaid care, care worker",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -36377,48 +38668,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-interaction-output-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Interaction, Output and Negotiation of Meaning”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining interaction, output and negotiation of meaning.…”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Interaction, Output and Negotiation of Meaning” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Interaction, Output and Negotiation of Meaning”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining interaction, output and negotiation of meaning.…”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Interaction, Output and Negotiation of Meaning” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "negotiation of meaning, comprehension check, clarification request",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -36542,13 +38930,13 @@
       },
       "dictationSegmentCount": 4,
       "listeningComprehension": {
-        "id": "english-a2-travel-and-transportation-listening-comprehension",
+        "id": "english-a2-travel-and-transportation-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “Finding the Train Station”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -36556,30 +38944,30 @@
               },
               {
                 "id": "o2",
-                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+                "text": "She asks a police officer for help."
               },
               {
                 "id": "o3",
-                "text": "She buys a ticket on the bus and watches the street signs carefully."
+                "text": "Sofia needs to get off at Market Square and walk behind a large hotel."
               },
               {
                 "id": "o4",
-                "text": "Sofia needs to get off at Market Square and walk behind a large hotel."
+                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "After “Sofia arrives in a new city and needs to find the train station.”, what happens next in “Finding the Train Station”?",
             "options": [
               {
                 "id": "o1",
-                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+                "text": "Sofia arrives in a new city and needs to find the train station."
               },
               {
                 "id": "o2",
-                "text": "She buys a ticket on the bus and watches the street signs carefully."
+                "text": "She asks a police officer for help."
               },
               {
                 "id": "o3",
@@ -36587,53 +38975,53 @@
               },
               {
                 "id": "o4",
-                "text": "She asks a police officer for help."
+                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which event happens later in the story?",
+            "prompt": "Which line best reveals an intention or decision in “Finding the Train Station”?",
             "options": [
               {
                 "id": "o1",
-                "text": "She first tries to follow a map on her phone, but the signal is weak."
+                "text": "Sofia arrives in a new city and needs to find the train station."
               },
               {
                 "id": "o2",
-                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+                "text": "She asks a police officer for help."
               },
               {
                 "id": "o3",
-                "text": "The journey usually takes about twenty minutes."
+                "text": "Sofia needs to get off at Market Square and walk behind a large hotel."
               },
               {
                 "id": "o4",
-                "text": "Sofia arrives in a new city and needs to find the train station."
+                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “Finding the Train Station” after “Sofia needs to get off at Market Square and walk behind a large hotel.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "She asks a police officer for help."
-              },
-              {
-                "id": "o2",
-                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
-              },
-              {
-                "id": "o3",
                 "text": "Sofia arrives in a new city and needs to find the train station."
               },
               {
+                "id": "o2",
+                "text": "She asks a police officer for help."
+              },
+              {
+                "id": "o3",
+                "text": "Sofia needs to get off at Market Square and walk behind a large hotel."
+              },
+              {
                 "id": "o4",
-                "text": "She first tries to follow a map on her phone, but the signal is weak."
+                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
               }
             ]
           }
@@ -36644,42 +39032,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “Finding the Train Station”, which detail establishes the situation?",
         "options": [
           "Sofia arrives in a new city and needs to find the train station.",
-          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves.",
-          "She buys a ticket on the bus and watches the street signs carefully.",
-          "Sofia needs to get off at Market Square and walk behind a large hotel."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves.",
-          "She buys a ticket on the bus and watches the street signs carefully.",
-          "Sofia needs to get off at Market Square and walk behind a large hotel.",
-          "She asks a police officer for help."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "She first tries to follow a map on her phone, but the signal is weak.",
-          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves.",
-          "The journey usually takes about twenty minutes.",
-          "Sofia arrives in a new city and needs to find the train station."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the story end?",
-        "options": [
           "She asks a police officer for help.",
-          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves.",
+          "Sofia needs to get off at Market Square and walk behind a large hotel.",
+          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After “Sofia arrives in a new city and needs to find the train station.”, what happens next in “Finding the Train Station”?",
+        "options": [
           "Sofia arrives in a new city and needs to find the train station.",
-          "She first tries to follow a map on her phone, but the signal is weak."
+          "She asks a police officer for help.",
+          "Sofia needs to get off at Market Square and walk behind a large hotel.",
+          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “Finding the Train Station”?",
+        "options": [
+          "Sofia arrives in a new city and needs to find the train station.",
+          "She asks a police officer for help.",
+          "Sofia needs to get off at Market Square and walk behind a large hotel.",
+          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Finding the Train Station” after “Sofia needs to get off at Market Square and walk behind a large hotel.”?",
+        "options": [
+          "Sofia arrives in a new city and needs to find the train station.",
+          "She asks a police officer for help.",
+          "Sofia needs to get off at Market Square and walk behind a large hotel.",
+          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
         ]
       }
     ]
@@ -42630,38 +45018,145 @@
           "text": "They decide to switch off non-urgent notifications and enjoy the meal."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-digital-life-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “A Phone-Free Dinner”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah agrees, although she worries about missing an important message."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says that people who really need her can call."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Daniel asks Sarah whether they can have dinner without phones on the…”, what happens next in “A Phone-Free Dinner”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah agrees, although she worries about missing an important message."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says that people who really need her can call."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “A Phone-Free Dinner”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah agrees, although she worries about missing an important message."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says that people who really need her can call."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “A Phone-Free Dinner” after “Daniel says that people who really need her can call.”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah agrees, although she worries about missing an important message."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says that people who really need her can call."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “A Phone-Free Dinner”, which detail establishes the situation?",
         "options": [
-          "Digital Life",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Daniel asks Sarah whether they can have dinner without phones on the table.",
+          "Sarah agrees, although she worries about missing an important message.",
+          "Daniel says that people who really need her can call.",
+          "They decide to switch off non-urgent notifications and enjoy the meal."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “Daniel asks Sarah whether they can have dinner without phones on the…”, what happens next in “A Phone-Free Dinner”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Daniel asks Sarah whether they can have dinner without phones on the table.",
+          "Sarah agrees, although she worries about missing an important message.",
+          "Daniel says that people who really need her can call.",
+          "They decide to switch off non-urgent notifications and enjoy the meal."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “A Phone-Free Dinner”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Daniel asks Sarah whether they can have dinner without phones on the table.",
+          "Sarah agrees, although she worries about missing an important message.",
+          "Daniel says that people who really need her can call.",
+          "They decide to switch off non-urgent notifications and enjoy the meal."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “A Phone-Free Dinner” after “Daniel says that people who really need her can call.”?",
+        "options": [
+          "Daniel asks Sarah whether they can have dinner without phones on the table.",
+          "Sarah agrees, although she worries about missing an important message.",
+          "Daniel says that people who really need her can call.",
+          "They decide to switch off non-urgent notifications and enjoy the meal."
         ]
       }
     ]
@@ -42795,13 +45290,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-food-and-drinks-listening-comprehension",
+        "id": "english-a1-food-and-drinks-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “Lunch at a Café”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -42809,53 +45304,7 @@
               },
               {
                 "id": "o2",
-                "text": "It is a simple but very nice lunch."
-              },
-              {
-                "id": "o3",
-                "text": "They pay the bill and leave the café."
-              },
-              {
-                "id": "o4",
-                "text": "After lunch, they share a small piece of chocolate cake."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "What happens next in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "It is a simple but very nice lunch."
-              },
-              {
-                "id": "o2",
-                "text": "They pay the bill and leave the café."
-              },
-              {
-                "id": "o3",
-                "text": "After lunch, they share a small piece of chocolate cake."
-              },
-              {
-                "id": "o4",
                 "text": "Her friend Mark orders a hamburger, French fries, and some water."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which event happens later in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "She looks at the menu and chooses a chicken sandwich and a salad."
-              },
-              {
-                "id": "o2",
-                "text": "She also orders a glass of orange juice."
               },
               {
                 "id": "o3",
@@ -42863,30 +45312,76 @@
               },
               {
                 "id": "o4",
+                "text": "It is a simple but very nice lunch."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Julia goes to a small café for lunch.”, what happens next in “Lunch at a Café”?",
+            "options": [
+              {
+                "id": "o1",
                 "text": "Julia goes to a small café for lunch."
+              },
+              {
+                "id": "o2",
+                "text": "Her friend Mark orders a hamburger, French fries, and some water."
+              },
+              {
+                "id": "o3",
+                "text": "Mark enjoys his hamburger too."
+              },
+              {
+                "id": "o4",
+                "text": "It is a simple but very nice lunch."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Lunch at a Café”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Julia goes to a small café for lunch."
+              },
+              {
+                "id": "o2",
+                "text": "Her friend Mark orders a hamburger, French fries, and some water."
+              },
+              {
+                "id": "o3",
+                "text": "Julia likes her sandwich because it is fresh and delicious."
+              },
+              {
+                "id": "o4",
+                "text": "Mark enjoys his hamburger too."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “Lunch at a Café” after “Julia likes her sandwich because it is fresh and delicious.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "She also orders a glass of orange juice."
-              },
-              {
-                "id": "o2",
-                "text": "It is a simple but very nice lunch."
-              },
-              {
-                "id": "o3",
                 "text": "Julia goes to a small café for lunch."
               },
               {
+                "id": "o2",
+                "text": "Her friend Mark orders a hamburger, French fries, and some water."
+              },
+              {
+                "id": "o3",
+                "text": "Mark enjoys his hamburger too."
+              },
+              {
                 "id": "o4",
-                "text": "She looks at the menu and chooses a chicken sandwich and a salad."
+                "text": "It is a simple but very nice lunch."
               }
             ]
           }
@@ -42897,42 +45392,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “Lunch at a Café”, which detail establishes the situation?",
         "options": [
           "Julia goes to a small café for lunch.",
-          "It is a simple but very nice lunch.",
-          "They pay the bill and leave the café.",
-          "After lunch, they share a small piece of chocolate cake."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "It is a simple but very nice lunch.",
-          "They pay the bill and leave the café.",
-          "After lunch, they share a small piece of chocolate cake.",
-          "Her friend Mark orders a hamburger, French fries, and some water."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "She looks at the menu and chooses a chicken sandwich and a salad.",
-          "She also orders a glass of orange juice.",
+          "Her friend Mark orders a hamburger, French fries, and some water.",
           "Mark enjoys his hamburger too.",
-          "Julia goes to a small café for lunch."
+          "It is a simple but very nice lunch."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "After “Julia goes to a small café for lunch.”, what happens next in “Lunch at a Café”?",
         "options": [
-          "She also orders a glass of orange juice.",
-          "It is a simple but very nice lunch.",
           "Julia goes to a small café for lunch.",
-          "She looks at the menu and chooses a chicken sandwich and a salad."
+          "Her friend Mark orders a hamburger, French fries, and some water.",
+          "Mark enjoys his hamburger too.",
+          "It is a simple but very nice lunch."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “Lunch at a Café”?",
+        "options": [
+          "Julia goes to a small café for lunch.",
+          "Her friend Mark orders a hamburger, French fries, and some water.",
+          "Julia likes her sandwich because it is fresh and delicious.",
+          "Mark enjoys his hamburger too."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Lunch at a Café” after “Julia likes her sandwich because it is fresh and delicious.”?",
+        "options": [
+          "Julia goes to a small café for lunch.",
+          "Her friend Mark orders a hamburger, French fries, and some water.",
+          "Mark enjoys his hamburger too.",
+          "It is a simple but very nice lunch."
         ]
       }
     ]
@@ -43015,48 +45510,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-housing-inequality-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Housing Inequality”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining housing inequality. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining housing inequality. Why does this issue resist…”, what happens next in “Listening Lab: Housing Inequality”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining housing inequality. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Housing Inequality”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining housing inequality. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Housing Inequality” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining housing inequality. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Housing Inequality”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining housing inequality. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining housing inequality. Why does this issue resist…”, what happens next in “Listening Lab: Housing Inequality”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining housing inequality. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Housing Inequality”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining housing inequality. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Housing Inequality” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "affordable housing, rent increase, tenant",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining housing inequality. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -43139,48 +45731,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-critical-minerals-transition-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Critical Minerals and the Energy Transition”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining critical minerals and the energy transition.…”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Critical Minerals and the Energy Transition”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Critical Minerals and the Energy Transition” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Critical Minerals and the Energy Transition”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining critical minerals and the energy transition.…”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Critical Minerals and the Energy Transition”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Critical Minerals and the Energy Transition” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "critical mineral, supply concentration, refining",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -43263,48 +45952,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-corrective-feedback-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Corrective Feedback and the Productive Role of Error”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining corrective feedback and the productive role of…”, what happens next in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Corrective Feedback and the Productive Role of Error” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Corrective Feedback and the Productive Role of Error”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining corrective feedback and the productive role of…”, what happens next in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Corrective Feedback and the Productive Role of Error” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "corrective feedback, recast, elicitation",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -43428,13 +46214,13 @@
       },
       "dictationSegmentCount": 4,
       "listeningComprehension": {
-        "id": "english-a2-health-and-healthy-habits-listening-comprehension",
+        "id": "english-a2-health-and-healthy-habits-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “A Visit to the Doctor”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -43442,30 +46228,30 @@
               },
               {
                 "id": "o2",
-                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+                "text": "His mother takes him to the doctor in the morning."
               },
               {
                 "id": "o3",
-                "text": "She also gives him some medicine."
+                "text": "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days."
               },
               {
                 "id": "o4",
-                "text": "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days."
+                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "After “For two days, Lucas has had a sore throat, a headache, and a slight…”, what happens next in “A Visit to the Doctor”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+                "text": "For two days, Lucas has had a sore throat, a headache, and a slight fever."
               },
               {
                 "id": "o2",
-                "text": "She also gives him some medicine."
+                "text": "His mother takes him to the doctor in the morning."
               },
               {
                 "id": "o3",
@@ -43473,53 +46259,53 @@
               },
               {
                 "id": "o4",
-                "text": "His mother takes him to the doctor in the morning."
+                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which event happens later in the story?",
+            "prompt": "Which line best reveals an intention or decision in “A Visit to the Doctor”?",
             "options": [
               {
                 "id": "o1",
-                "text": "He feels tired and has difficulty sleeping."
+                "text": "For two days, Lucas has had a sore throat, a headache, and a slight fever."
               },
               {
                 "id": "o2",
-                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+                "text": "His mother takes him to the doctor in the morning."
               },
               {
                 "id": "o3",
-                "text": "Lucas explains that he has been very busy at school and has not been drinking enough water."
+                "text": "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days."
               },
               {
                 "id": "o4",
-                "text": "For two days, Lucas has had a sore throat, a headache, and a slight fever."
+                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “A Visit to the Doctor” after “The doctor tells him to rest, drink plenty of fluids, and avoid…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "His mother takes him to the doctor in the morning."
-              },
-              {
-                "id": "o2",
-                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
-              },
-              {
-                "id": "o3",
                 "text": "For two days, Lucas has had a sore throat, a headache, and a slight fever."
               },
               {
+                "id": "o2",
+                "text": "His mother takes him to the doctor in the morning."
+              },
+              {
+                "id": "o3",
+                "text": "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days."
+              },
+              {
                 "id": "o4",
-                "text": "He feels tired and has difficulty sleeping."
+                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
               }
             ]
           }
@@ -43530,42 +46316,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “A Visit to the Doctor”, which detail establishes the situation?",
         "options": [
           "For two days, Lucas has had a sore throat, a headache, and a slight fever.",
-          "Lucas decides to follow the advice because he wants to feel better before an important school activity.",
-          "She also gives him some medicine.",
-          "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "Lucas decides to follow the advice because he wants to feel better before an important school activity.",
-          "She also gives him some medicine.",
-          "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days.",
-          "His mother takes him to the doctor in the morning."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "He feels tired and has difficulty sleeping.",
-          "Lucas decides to follow the advice because he wants to feel better before an important school activity.",
-          "Lucas explains that he has been very busy at school and has not been drinking enough water.",
-          "For two days, Lucas has had a sore throat, a headache, and a slight fever."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the story end?",
-        "options": [
           "His mother takes him to the doctor in the morning.",
-          "Lucas decides to follow the advice because he wants to feel better before an important school activity.",
+          "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days.",
+          "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After “For two days, Lucas has had a sore throat, a headache, and a slight…”, what happens next in “A Visit to the Doctor”?",
+        "options": [
           "For two days, Lucas has had a sore throat, a headache, and a slight fever.",
-          "He feels tired and has difficulty sleeping."
+          "His mother takes him to the doctor in the morning.",
+          "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days.",
+          "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “A Visit to the Doctor”?",
+        "options": [
+          "For two days, Lucas has had a sore throat, a headache, and a slight fever.",
+          "His mother takes him to the doctor in the morning.",
+          "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days.",
+          "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “A Visit to the Doctor” after “The doctor tells him to rest, drink plenty of fluids, and avoid…”?",
+        "options": [
+          "For two days, Lucas has had a sore throat, a headache, and a slight fever.",
+          "His mother takes him to the doctor in the morning.",
+          "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days.",
+          "Lucas decides to follow the advice because he wants to feel better before an important school activity."
         ]
       }
     ]
@@ -49516,38 +52302,145 @@
           "text": "Sarah says yes, especially to people who enjoy realistic stories."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-culture-and-media-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “After the Film”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah says the film was more moving than she expected."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+              },
+              {
+                "id": "o3",
+                "text": "Priya asks them whether they would recommend it."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Sarah says the film was more moving than she expected.”, what happens next in “After the Film”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah says the film was more moving than she expected."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+              },
+              {
+                "id": "o3",
+                "text": "Priya asks them whether they would recommend it."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “After the Film”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah says the film was more moving than she expected."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+              },
+              {
+                "id": "o3",
+                "text": "Priya asks them whether they would recommend it."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “After the Film” after “Priya asks them whether they would recommend it.”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah says the film was more moving than she expected."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+              },
+              {
+                "id": "o3",
+                "text": "Priya asks them whether they would recommend it."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “After the Film”, which detail establishes the situation?",
         "options": [
-          "Culture and Media",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Sarah says the film was more moving than she expected.",
+          "Daniel says it was slower than his usual choice, but the main character was interesting.",
+          "Priya asks them whether they would recommend it.",
+          "Sarah says yes, especially to people who enjoy realistic stories."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “Sarah says the film was more moving than she expected.”, what happens next in “After the Film”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Sarah says the film was more moving than she expected.",
+          "Daniel says it was slower than his usual choice, but the main character was interesting.",
+          "Priya asks them whether they would recommend it.",
+          "Sarah says yes, especially to people who enjoy realistic stories."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “After the Film”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Sarah says the film was more moving than she expected.",
+          "Daniel says it was slower than his usual choice, but the main character was interesting.",
+          "Priya asks them whether they would recommend it.",
+          "Sarah says yes, especially to people who enjoy realistic stories."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “After the Film” after “Priya asks them whether they would recommend it.”?",
+        "options": [
+          "Sarah says the film was more moving than she expected.",
+          "Daniel says it was slower than his usual choice, but the main character was interesting.",
+          "Priya asks them whether they would recommend it.",
+          "Sarah says yes, especially to people who enjoy realistic stories."
         ]
       }
     ]
@@ -49681,13 +52574,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-my-home-listening-comprehension",
+        "id": "english-a1-my-home-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “Where Is My Backpack?”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -49695,53 +52588,7 @@
               },
               {
                 "id": "o2",
-                "text": "He does not want to be late for school."
-              },
-              {
-                "id": "o3",
-                "text": "He puts his books inside the backpack and leaves quickly."
-              },
-              {
-                "id": "o4",
-                "text": "Lucas remembers that he did his homework there last night."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "What happens next in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "He does not want to be late for school."
-              },
-              {
-                "id": "o2",
-                "text": "He puts his books inside the backpack and leaves quickly."
-              },
-              {
-                "id": "o3",
-                "text": "Lucas remembers that he did his homework there last night."
-              },
-              {
-                "id": "o4",
                 "text": "He goes to the living room and looks behind the sofa."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which event happens later in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "He looks in his bedroom, under the bed, and next to his desk."
-              },
-              {
-                "id": "o2",
-                "text": "The backpack is not there."
               },
               {
                 "id": "o3",
@@ -49749,30 +52596,76 @@
               },
               {
                 "id": "o4",
+                "text": "He does not want to be late for school."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Lucas is getting ready for school, but he cannot find his backpack.”, what happens next in “Where Is My Backpack?”?",
+            "options": [
+              {
+                "id": "o1",
                 "text": "Lucas is getting ready for school, but he cannot find his backpack."
+              },
+              {
+                "id": "o2",
+                "text": "He goes to the living room and looks behind the sofa."
+              },
+              {
+                "id": "o3",
+                "text": "His backpack is under the kitchen table, next to a chair."
+              },
+              {
+                "id": "o4",
+                "text": "He does not want to be late for school."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Where Is My Backpack?”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Lucas is getting ready for school, but he cannot find his backpack."
+              },
+              {
+                "id": "o2",
+                "text": "He goes to the living room and looks behind the sofa."
+              },
+              {
+                "id": "o3",
+                "text": "His backpack is under the kitchen table, next to a chair."
+              },
+              {
+                "id": "o4",
+                "text": "He does not want to be late for school."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “Where Is My Backpack?” after “His backpack is under the kitchen table, next to a chair.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "The backpack is not there."
-              },
-              {
-                "id": "o2",
-                "text": "He does not want to be late for school."
-              },
-              {
-                "id": "o3",
                 "text": "Lucas is getting ready for school, but he cannot find his backpack."
               },
               {
+                "id": "o2",
+                "text": "He goes to the living room and looks behind the sofa."
+              },
+              {
+                "id": "o3",
+                "text": "His backpack is under the kitchen table, next to a chair."
+              },
+              {
                 "id": "o4",
-                "text": "He looks in his bedroom, under the bed, and next to his desk."
+                "text": "He does not want to be late for school."
               }
             ]
           }
@@ -49783,42 +52676,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “Where Is My Backpack?”, which detail establishes the situation?",
         "options": [
           "Lucas is getting ready for school, but he cannot find his backpack.",
-          "He does not want to be late for school.",
-          "He puts his books inside the backpack and leaves quickly.",
-          "Lucas remembers that he did his homework there last night."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "He does not want to be late for school.",
-          "He puts his books inside the backpack and leaves quickly.",
-          "Lucas remembers that he did his homework there last night.",
-          "He goes to the living room and looks behind the sofa."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "He looks in his bedroom, under the bed, and next to his desk.",
-          "The backpack is not there.",
+          "He goes to the living room and looks behind the sofa.",
           "His backpack is under the kitchen table, next to a chair.",
-          "Lucas is getting ready for school, but he cannot find his backpack."
+          "He does not want to be late for school."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "After “Lucas is getting ready for school, but he cannot find his backpack.”, what happens next in “Where Is My Backpack?”?",
         "options": [
-          "The backpack is not there.",
-          "He does not want to be late for school.",
           "Lucas is getting ready for school, but he cannot find his backpack.",
-          "He looks in his bedroom, under the bed, and next to his desk."
+          "He goes to the living room and looks behind the sofa.",
+          "His backpack is under the kitchen table, next to a chair.",
+          "He does not want to be late for school."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “Where Is My Backpack?”?",
+        "options": [
+          "Lucas is getting ready for school, but he cannot find his backpack.",
+          "He goes to the living room and looks behind the sofa.",
+          "His backpack is under the kitchen table, next to a chair.",
+          "He does not want to be late for school."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Where Is My Backpack?” after “His backpack is under the kitchen table, next to a chair.”?",
+        "options": [
+          "Lucas is getting ready for school, but he cannot find his backpack.",
+          "He goes to the living room and looks behind the sofa.",
+          "His backpack is under the kitchen table, next to a chair.",
+          "He does not want to be late for school."
         ]
       }
     ]
@@ -49901,48 +52794,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-ai-and-employment-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Artificial Intelligence and Employment”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining artificial intelligence and employment. Why…”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Employment”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Employment” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Artificial Intelligence and Employment”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining artificial intelligence and employment. Why…”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Employment”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Employment” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "automation, algorithmic bias, oversight",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -50025,48 +53015,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-deepfakes-democracy-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Deepfakes, Evidence and Democracy”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining deepfakes, evidence and democracy. Why does…”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Deepfakes, Evidence and Democracy”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Deepfakes, Evidence and Democracy” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Deepfakes, Evidence and Democracy”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining deepfakes, evidence and democracy. Why does…”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Deepfakes, Evidence and Democracy”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Deepfakes, Evidence and Democracy” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "deepfake, content provenance, synthetic media",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -50149,48 +53236,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-speech-perception-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Speech Perception, Accent and Pronunciation Training”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining speech perception, accent and pronunciation…”, what happens next in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Speech Perception, Accent and Pronunciation Training” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Speech Perception, Accent and Pronunciation Training”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining speech perception, accent and pronunciation…”, what happens next in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Speech Perception, Accent and Pronunciation Training” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "phonemic contrast, categorical perception, perceptual assimilation",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -50319,13 +53503,13 @@
       },
       "dictationSegmentCount": 4,
       "listeningComprehension": {
-        "id": "english-a2-plans-and-celebrations-listening-comprehension",
+        "id": "english-a2-plans-and-celebrations-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “Planning a Birthday Surprise”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -50333,53 +53517,7 @@
               },
               {
                 "id": "o2",
-                "text": "They hope the surprise will make him feel very special."
-              },
-              {
-                "id": "o3",
-                "text": "They still need to decide who will bring Daniel to the party."
-              },
-              {
-                "id": "o4",
-                "text": "The group also creates a short video with messages from friends who cannot attend."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "What happens next in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "They hope the surprise will make him feel very special."
-              },
-              {
-                "id": "o2",
-                "text": "They still need to decide who will bring Daniel to the party."
-              },
-              {
-                "id": "o3",
-                "text": "The group also creates a short video with messages from friends who cannot attend."
-              },
-              {
-                "id": "o4",
-                "text": "About twenty people are coming, and everyone must arrive before Daniel."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which event happens later in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "They book a small room at the community center for Saturday evening."
-              },
-              {
-                "id": "o2",
-                "text": "About twenty people are coming, and everyone must arrive before Daniel."
+                "text": "Laura is responsible for the decorations and music."
               },
               {
                 "id": "o3",
@@ -50387,30 +53525,76 @@
               },
               {
                 "id": "o4",
+                "text": "They hope the surprise will make him feel very special."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Laura and Chris are planning a surprise birthday party for their…”, what happens next in “Planning a Birthday Surprise”?",
+            "options": [
+              {
+                "id": "o1",
                 "text": "Laura and Chris are planning a surprise birthday party for their friend Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "Laura is responsible for the decorations and music."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel’s sister is making the birthday cake."
+              },
+              {
+                "id": "o4",
+                "text": "They hope the surprise will make him feel very special."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Planning a Birthday Surprise”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Laura and Chris are planning a surprise birthday party for their friend Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "Laura is responsible for the decorations and music."
+              },
+              {
+                "id": "o3",
+                "text": "They still need to decide who will bring Daniel to the party."
+              },
+              {
+                "id": "o4",
+                "text": "Daniel’s sister is making the birthday cake."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “Planning a Birthday Surprise” after “They still need to decide who will bring Daniel to the party.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "About twenty people are coming, and everyone must arrive before Daniel."
-              },
-              {
-                "id": "o2",
-                "text": "They hope the surprise will make him feel very special."
-              },
-              {
-                "id": "o3",
                 "text": "Laura and Chris are planning a surprise birthday party for their friend Daniel."
               },
               {
+                "id": "o2",
+                "text": "Laura is responsible for the decorations and music."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel’s sister is making the birthday cake."
+              },
+              {
                 "id": "o4",
-                "text": "They book a small room at the community center for Saturday evening."
+                "text": "They hope the surprise will make him feel very special."
               }
             ]
           }
@@ -50421,42 +53605,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “Planning a Birthday Surprise”, which detail establishes the situation?",
         "options": [
           "Laura and Chris are planning a surprise birthday party for their friend Daniel.",
-          "They hope the surprise will make him feel very special.",
-          "They still need to decide who will bring Daniel to the party.",
-          "The group also creates a short video with messages from friends who cannot attend."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "They hope the surprise will make him feel very special.",
-          "They still need to decide who will bring Daniel to the party.",
-          "The group also creates a short video with messages from friends who cannot attend.",
-          "About twenty people are coming, and everyone must arrive before Daniel."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "They book a small room at the community center for Saturday evening.",
-          "About twenty people are coming, and everyone must arrive before Daniel.",
+          "Laura is responsible for the decorations and music.",
           "Daniel’s sister is making the birthday cake.",
-          "Laura and Chris are planning a surprise birthday party for their friend Daniel."
+          "They hope the surprise will make him feel very special."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "After “Laura and Chris are planning a surprise birthday party for their…”, what happens next in “Planning a Birthday Surprise”?",
         "options": [
-          "About twenty people are coming, and everyone must arrive before Daniel.",
-          "They hope the surprise will make him feel very special.",
           "Laura and Chris are planning a surprise birthday party for their friend Daniel.",
-          "They book a small room at the community center for Saturday evening."
+          "Laura is responsible for the decorations and music.",
+          "Daniel’s sister is making the birthday cake.",
+          "They hope the surprise will make him feel very special."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “Planning a Birthday Surprise”?",
+        "options": [
+          "Laura and Chris are planning a surprise birthday party for their friend Daniel.",
+          "Laura is responsible for the decorations and music.",
+          "They still need to decide who will bring Daniel to the party.",
+          "Daniel’s sister is making the birthday cake."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Planning a Birthday Surprise” after “They still need to decide who will bring Daniel to the party.”?",
+        "options": [
+          "Laura and Chris are planning a surprise birthday party for their friend Daniel.",
+          "Laura is responsible for the decorations and music.",
+          "Daniel’s sister is making the birthday cake.",
+          "They hope the surprise will make him feel very special."
         ]
       }
     ]
@@ -56407,38 +59591,145 @@
           "text": "They agree to talk again when the offer becomes clearer."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-relationships-and-decisions-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Talking About Liverpool”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that a Liverpool position might become available."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests collecting more information before making a decision."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to talk again when the offer becomes clearer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Daniel tells Sarah that a Liverpool position might become available.”, what happens next in “Talking About Liverpool”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that a Liverpool position might become available."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests collecting more information before making a decision."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to talk again when the offer becomes clearer."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Talking About Liverpool”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that a Liverpool position might become available."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests collecting more information before making a decision."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to talk again when the offer becomes clearer."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Talking About Liverpool” after “Daniel suggests collecting more information before making a decision.”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that a Liverpool position might become available."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests collecting more information before making a decision."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to talk again when the offer becomes clearer."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “Talking About Liverpool”, which detail establishes the situation?",
         "options": [
-          "Relationships and Decisions",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Daniel tells Sarah that a Liverpool position might become available.",
+          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
+          "Daniel suggests collecting more information before making a decision.",
+          "They agree to talk again when the offer becomes clearer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “Daniel tells Sarah that a Liverpool position might become available.”, what happens next in “Talking About Liverpool”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Daniel tells Sarah that a Liverpool position might become available.",
+          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
+          "Daniel suggests collecting more information before making a decision.",
+          "They agree to talk again when the offer becomes clearer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “Talking About Liverpool”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Daniel tells Sarah that a Liverpool position might become available.",
+          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
+          "Daniel suggests collecting more information before making a decision.",
+          "They agree to talk again when the offer becomes clearer."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Talking About Liverpool” after “Daniel suggests collecting more information before making a decision.”?",
+        "options": [
+          "Daniel tells Sarah that a Liverpool position might become available.",
+          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
+          "Daniel suggests collecting more information before making a decision.",
+          "They agree to talk again when the offer becomes clearer."
         ]
       }
     ]
@@ -56567,13 +59858,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-my-town-listening-comprehension",
+        "id": "english-a1-my-town-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “A Walk Through My Town”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -56581,53 +59872,7 @@
               },
               {
                 "id": "o2",
-                "text": "I like my town because it is quiet, friendly, and easy to explore."
-              },
-              {
-                "id": "o3",
-                "text": "After reading, we sometimes buy ice cream near the park."
-              },
-              {
-                "id": "o4",
-                "text": "The library is behind the town hall."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "What happens next in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "I like my town because it is quiet, friendly, and easy to explore."
-              },
-              {
-                "id": "o2",
-                "text": "After reading, we sometimes buy ice cream near the park."
-              },
-              {
-                "id": "o3",
-                "text": "The library is behind the town hall."
-              },
-              {
-                "id": "o4",
-                "text": "Across from the bank, there is a supermarket."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which event happens later in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "There is a bank next to the post office."
-              },
-              {
-                "id": "o2",
-                "text": "Across from the bank, there is a supermarket."
+                "text": "The pharmacy is between the bakery and the bus station."
               },
               {
                 "id": "o3",
@@ -56635,30 +59880,76 @@
               },
               {
                 "id": "o4",
+                "text": "I like my town because it is quiet, friendly, and easy to explore."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “My town is small, but it has many useful places.”, what happens next in “A Walk Through My Town”?",
+            "options": [
+              {
+                "id": "o1",
                 "text": "My town is small, but it has many useful places."
+              },
+              {
+                "id": "o2",
+                "text": "The pharmacy is between the bakery and the bus station."
+              },
+              {
+                "id": "o3",
+                "text": "On Saturdays, I walk to the library with my sister."
+              },
+              {
+                "id": "o4",
+                "text": "I like my town because it is quiet, friendly, and easy to explore."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “A Walk Through My Town”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "My town is small, but it has many useful places."
+              },
+              {
+                "id": "o2",
+                "text": "The pharmacy is between the bakery and the bus station."
+              },
+              {
+                "id": "o3",
+                "text": "My favorite place is the park because it has many trees and benches."
+              },
+              {
+                "id": "o4",
+                "text": "On Saturdays, I walk to the library with my sister."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “A Walk Through My Town” after “My favorite place is the park because it has many trees and benches.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Across from the bank, there is a supermarket."
-              },
-              {
-                "id": "o2",
-                "text": "I like my town because it is quiet, friendly, and easy to explore."
-              },
-              {
-                "id": "o3",
                 "text": "My town is small, but it has many useful places."
               },
               {
+                "id": "o2",
+                "text": "The pharmacy is between the bakery and the bus station."
+              },
+              {
+                "id": "o3",
+                "text": "On Saturdays, I walk to the library with my sister."
+              },
+              {
                 "id": "o4",
-                "text": "There is a bank next to the post office."
+                "text": "I like my town because it is quiet, friendly, and easy to explore."
               }
             ]
           }
@@ -56669,42 +59960,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “A Walk Through My Town”, which detail establishes the situation?",
         "options": [
           "My town is small, but it has many useful places.",
-          "I like my town because it is quiet, friendly, and easy to explore.",
-          "After reading, we sometimes buy ice cream near the park.",
-          "The library is behind the town hall."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "I like my town because it is quiet, friendly, and easy to explore.",
-          "After reading, we sometimes buy ice cream near the park.",
-          "The library is behind the town hall.",
-          "Across from the bank, there is a supermarket."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "There is a bank next to the post office.",
-          "Across from the bank, there is a supermarket.",
+          "The pharmacy is between the bakery and the bus station.",
           "On Saturdays, I walk to the library with my sister.",
-          "My town is small, but it has many useful places."
+          "I like my town because it is quiet, friendly, and easy to explore."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "After “My town is small, but it has many useful places.”, what happens next in “A Walk Through My Town”?",
         "options": [
-          "Across from the bank, there is a supermarket.",
-          "I like my town because it is quiet, friendly, and easy to explore.",
           "My town is small, but it has many useful places.",
-          "There is a bank next to the post office."
+          "The pharmacy is between the bakery and the bus station.",
+          "On Saturdays, I walk to the library with my sister.",
+          "I like my town because it is quiet, friendly, and easy to explore."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “A Walk Through My Town”?",
+        "options": [
+          "My town is small, but it has many useful places.",
+          "The pharmacy is between the bakery and the bus station.",
+          "My favorite place is the park because it has many trees and benches.",
+          "On Saturdays, I walk to the library with my sister."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “A Walk Through My Town” after “My favorite place is the park because it has many trees and benches.”?",
+        "options": [
+          "My town is small, but it has many useful places.",
+          "The pharmacy is between the bakery and the bus station.",
+          "On Saturdays, I walk to the library with my sister.",
+          "I like my town because it is quiet, friendly, and easy to explore."
         ]
       }
     ]
@@ -56787,48 +60078,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-fast-fashion-hidden-costs-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Fast Fashion and Hidden Costs”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining fast fashion and hidden costs. Why does this…”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Fast Fashion and Hidden Costs”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Fast Fashion and Hidden Costs” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Fast Fashion and Hidden Costs”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining fast fashion and hidden costs. Why does this…”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Fast Fashion and Hidden Costs”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Fast Fashion and Hidden Costs” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "fast fashion, supply chain, garment worker",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -56911,48 +60299,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-climate-migration-cities-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Climate Migration and Cities”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate migration and cities. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining climate migration and cities. Why does this…”, what happens next in “Listening Lab: Climate Migration and Cities”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate migration and cities. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Migration and Cities”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate migration and cities. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Climate Migration and Cities” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining climate migration and cities. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Climate Migration and Cities”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining climate migration and cities. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining climate migration and cities. Why does this…”, what happens next in “Listening Lab: Climate Migration and Cities”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining climate migration and cities. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Migration and Cities”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining climate migration and cities. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Climate Migration and Cities” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "climate mobility, displacement, planned relocation",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining climate migration and cities. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -57035,48 +60520,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-anxiety-attention-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Language Anxiety, Attention and Working Memory”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining language anxiety, attention and working memory.…”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Language Anxiety, Attention and Working Memory” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Language Anxiety, Attention and Working Memory”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining language anxiety, attention and working memory.…”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Language Anxiety, Attention and Working Memory” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "language anxiety, working memory, attentional control",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -57200,13 +60782,13 @@
       },
       "dictationSegmentCount": 4,
       "listeningComprehension": {
-        "id": "english-a2-school-and-work-listening-comprehension",
+        "id": "english-a2-school-and-work-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “My First Part-Time Job”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -57214,30 +60796,30 @@
               },
               {
                 "id": "o2",
-                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+                "text": "Her main responsibilities are organizing shelves, helping customers, and working at the cash register."
               },
               {
                 "id": "o3",
-                "text": "Now Isabella feels more confident and enjoys meeting new people."
+                "text": "Her coworkers were patient and gave her useful advice."
               },
               {
                 "id": "o4",
-                "text": "Her coworkers were patient and gave her useful advice."
+                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "After “Isabella recently started a part-time job at a bookstore.”, what happens next in “My First Part-Time Job”?",
             "options": [
               {
                 "id": "o1",
-                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+                "text": "Isabella recently started a part-time job at a bookstore."
               },
               {
                 "id": "o2",
-                "text": "Now Isabella feels more confident and enjoys meeting new people."
+                "text": "Her main responsibilities are organizing shelves, helping customers, and working at the cash register."
               },
               {
                 "id": "o3",
@@ -57245,53 +60827,53 @@
               },
               {
                 "id": "o4",
-                "text": "Her main responsibilities are organizing shelves, helping customers, and working at the cash register."
+                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which event happens later in the story?",
+            "prompt": "Which line best reveals an intention or decision in “My First Part-Time Job”?",
             "options": [
               {
                 "id": "o1",
-                "text": "She works three afternoons a week after school."
+                "text": "Isabella recently started a part-time job at a bookstore."
               },
               {
                 "id": "o2",
-                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+                "text": "Her main responsibilities are organizing shelves, helping customers, and working at the cash register."
               },
               {
                 "id": "o3",
-                "text": "She also needed time to learn where the different types of books were located."
+                "text": "Her coworkers were patient and gave her useful advice."
               },
               {
                 "id": "o4",
-                "text": "Isabella recently started a part-time job at a bookstore."
+                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “My First Part-Time Job” after “Her coworkers were patient and gave her useful advice.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Her main responsibilities are organizing shelves, helping customers, and working at the cash register."
-              },
-              {
-                "id": "o2",
-                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
-              },
-              {
-                "id": "o3",
                 "text": "Isabella recently started a part-time job at a bookstore."
               },
               {
+                "id": "o2",
+                "text": "Her main responsibilities are organizing shelves, helping customers, and working at the cash register."
+              },
+              {
+                "id": "o3",
+                "text": "Her coworkers were patient and gave her useful advice."
+              },
+              {
                 "id": "o4",
-                "text": "She works three afternoons a week after school."
+                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
               }
             ]
           }
@@ -57302,42 +60884,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “My First Part-Time Job”, which detail establishes the situation?",
         "options": [
           "Isabella recently started a part-time job at a bookstore.",
-          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible.",
-          "Now Isabella feels more confident and enjoys meeting new people.",
-          "Her coworkers were patient and gave her useful advice."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible.",
-          "Now Isabella feels more confident and enjoys meeting new people.",
-          "Her coworkers were patient and gave her useful advice.",
-          "Her main responsibilities are organizing shelves, helping customers, and working at the cash register."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "She works three afternoons a week after school.",
-          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible.",
-          "She also needed time to learn where the different types of books were located.",
-          "Isabella recently started a part-time job at a bookstore."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the story end?",
-        "options": [
           "Her main responsibilities are organizing shelves, helping customers, and working at the cash register.",
-          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible.",
+          "Her coworkers were patient and gave her useful advice.",
+          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After “Isabella recently started a part-time job at a bookstore.”, what happens next in “My First Part-Time Job”?",
+        "options": [
           "Isabella recently started a part-time job at a bookstore.",
-          "She works three afternoons a week after school."
+          "Her main responsibilities are organizing shelves, helping customers, and working at the cash register.",
+          "Her coworkers were patient and gave her useful advice.",
+          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “My First Part-Time Job”?",
+        "options": [
+          "Isabella recently started a part-time job at a bookstore.",
+          "Her main responsibilities are organizing shelves, helping customers, and working at the cash register.",
+          "Her coworkers were patient and gave her useful advice.",
+          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “My First Part-Time Job” after “Her coworkers were patient and gave her useful advice.”?",
+        "options": [
+          "Isabella recently started a part-time job at a bookstore.",
+          "Her main responsibilities are organizing shelves, helping customers, and working at the cash register.",
+          "Her coworkers were patient and gave her useful advice.",
+          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
         ]
       }
     ]
@@ -63288,38 +66870,145 @@
           "text": "They decide to write realistic goals instead of vague promises."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-looking-ahead-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Three Goals”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their goals for the next six months."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says Priya told her she was ready for leadership."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says his manager told him that his communication had improved."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to write realistic goals instead of vague promises."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Sarah and Daniel discuss their goals for the next six months.”, what happens next in “Three Goals”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their goals for the next six months."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says Priya told her she was ready for leadership."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says his manager told him that his communication had improved."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to write realistic goals instead of vague promises."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Three Goals”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their goals for the next six months."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says Priya told her she was ready for leadership."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says his manager told him that his communication had improved."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to write realistic goals instead of vague promises."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Three Goals” after “Daniel says his manager told him that his communication had improved.”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their goals for the next six months."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says Priya told her she was ready for leadership."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says his manager told him that his communication had improved."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to write realistic goals instead of vague promises."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “Three Goals”, which detail establishes the situation?",
         "options": [
-          "Looking Ahead",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Sarah and Daniel discuss their goals for the next six months.",
+          "Sarah says Priya told her she was ready for leadership.",
+          "Daniel says his manager told him that his communication had improved.",
+          "They decide to write realistic goals instead of vague promises."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “Sarah and Daniel discuss their goals for the next six months.”, what happens next in “Three Goals”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Sarah and Daniel discuss their goals for the next six months.",
+          "Sarah says Priya told her she was ready for leadership.",
+          "Daniel says his manager told him that his communication had improved.",
+          "They decide to write realistic goals instead of vague promises."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “Three Goals”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Sarah and Daniel discuss their goals for the next six months.",
+          "Sarah says Priya told her she was ready for leadership.",
+          "Daniel says his manager told him that his communication had improved.",
+          "They decide to write realistic goals instead of vague promises."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Three Goals” after “Daniel says his manager told him that his communication had improved.”?",
+        "options": [
+          "Sarah and Daniel discuss their goals for the next six months.",
+          "Sarah says Priya told her she was ready for leadership.",
+          "Daniel says his manager told him that his communication had improved.",
+          "They decide to write realistic goals instead of vague promises."
         ]
       }
     ]
@@ -63443,13 +67132,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-free-time-listening-comprehension",
+        "id": "english-a1-free-time-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “My Favorite Weekend Activities”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -63457,30 +67146,30 @@
               },
               {
                 "id": "o2",
-                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+                "text": "In the afternoon, I listen to music and read adventure stories."
               },
               {
                 "id": "o3",
-                "text": "In the evening, I prepare my school bag and check my homework."
+                "text": "My grandmother makes a delicious lunch, and my grandfather tells funny stories."
               },
               {
                 "id": "o4",
-                "text": "My grandmother makes a delicious lunch, and my grandfather tells funny stories."
+                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "After “On weekends, I have more free time.”, what happens next in “My Favorite Weekend Activities”?",
             "options": [
               {
                 "id": "o1",
-                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+                "text": "On weekends, I have more free time."
               },
               {
                 "id": "o2",
-                "text": "In the evening, I prepare my school bag and check my homework."
+                "text": "In the afternoon, I listen to music and read adventure stories."
               },
               {
                 "id": "o3",
@@ -63488,53 +67177,53 @@
               },
               {
                 "id": "o4",
-                "text": "In the afternoon, I listen to music and read adventure stories."
+                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which event happens later in the story?",
+            "prompt": "Which line best reveals an intention or decision in “My Favorite Weekend Activities”?",
             "options": [
               {
                 "id": "o1",
-                "text": "On Saturday morning, I play basketball with my friends at the park."
+                "text": "On weekends, I have more free time."
               },
               {
                 "id": "o2",
-                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+                "text": "In the afternoon, I listen to music and read adventure stories."
               },
               {
                 "id": "o3",
-                "text": "On Sunday, I usually visit my grandparents."
+                "text": "My grandmother makes a delicious lunch, and my grandfather tells funny stories."
               },
               {
                 "id": "o4",
-                "text": "On weekends, I have more free time."
+                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “My Favorite Weekend Activities” after “My grandmother makes a delicious lunch, and my grandfather tells funny…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "In the afternoon, I listen to music and read adventure stories."
-              },
-              {
-                "id": "o2",
-                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
-              },
-              {
-                "id": "o3",
                 "text": "On weekends, I have more free time."
               },
               {
+                "id": "o2",
+                "text": "In the afternoon, I listen to music and read adventure stories."
+              },
+              {
+                "id": "o3",
+                "text": "My grandmother makes a delicious lunch, and my grandfather tells funny stories."
+              },
+              {
                 "id": "o4",
-                "text": "On Saturday morning, I play basketball with my friends at the park."
+                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
               }
             ]
           }
@@ -63545,42 +67234,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “My Favorite Weekend Activities”, which detail establishes the situation?",
         "options": [
           "On weekends, I have more free time.",
-          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities.",
-          "In the evening, I prepare my school bag and check my homework.",
-          "My grandmother makes a delicious lunch, and my grandfather tells funny stories."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities.",
-          "In the evening, I prepare my school bag and check my homework.",
-          "My grandmother makes a delicious lunch, and my grandfather tells funny stories.",
-          "In the afternoon, I listen to music and read adventure stories."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "On Saturday morning, I play basketball with my friends at the park.",
-          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities.",
-          "On Sunday, I usually visit my grandparents.",
-          "On weekends, I have more free time."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the story end?",
-        "options": [
           "In the afternoon, I listen to music and read adventure stories.",
-          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities.",
+          "My grandmother makes a delicious lunch, and my grandfather tells funny stories.",
+          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After “On weekends, I have more free time.”, what happens next in “My Favorite Weekend Activities”?",
+        "options": [
           "On weekends, I have more free time.",
-          "On Saturday morning, I play basketball with my friends at the park."
+          "In the afternoon, I listen to music and read adventure stories.",
+          "My grandmother makes a delicious lunch, and my grandfather tells funny stories.",
+          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “My Favorite Weekend Activities”?",
+        "options": [
+          "On weekends, I have more free time.",
+          "In the afternoon, I listen to music and read adventure stories.",
+          "My grandmother makes a delicious lunch, and my grandfather tells funny stories.",
+          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “My Favorite Weekend Activities” after “My grandmother makes a delicious lunch, and my grandfather tells funny…”?",
+        "options": [
+          "On weekends, I have more free time.",
+          "In the afternoon, I listen to music and read adventure stories.",
+          "My grandmother makes a delicious lunch, and my grandfather tells funny stories.",
+          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
         ]
       }
     ]
@@ -63663,48 +67352,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-education-social-mobility-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Education and Social Mobility”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining education and social mobility. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining education and social mobility. Why does this…”, what happens next in “Listening Lab: Education and Social Mobility”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining education and social mobility. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Education and Social Mobility”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining education and social mobility. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Education and Social Mobility” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining education and social mobility. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Education and Social Mobility”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining education and social mobility. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining education and social mobility. Why does this…”, what happens next in “Listening Lab: Education and Social Mobility”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining education and social mobility. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Education and Social Mobility”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining education and social mobility. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Education and Social Mobility” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "social mobility, scholarship, tuition",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining education and social mobility. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -63787,48 +67573,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-neurotechnology-mental-privacy-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Neurotechnology and Mental Privacy”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining neurotechnology and mental privacy. Why does…”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Neurotechnology and Mental Privacy”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Neurotechnology and Mental Privacy” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Neurotechnology and Mental Privacy”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining neurotechnology and mental privacy. Why does…”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Neurotechnology and Mental Privacy”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Neurotechnology and Mental Privacy” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "neurotechnology, neural data, mental privacy",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -63911,48 +67794,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-individual-differences-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Age, Aptitude and Individual Differences”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining age, aptitude and individual differences. Why…”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Age, Aptitude and Individual Differences”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Age, Aptitude and Individual Differences” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Age, Aptitude and Individual Differences”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining age, aptitude and individual differences. Why…”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Age, Aptitude and Individual Differences”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Age, Aptitude and Individual Differences” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "language aptitude, phonological memory, analytic ability",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -64081,13 +68061,13 @@
       },
       "dictationSegmentCount": 4,
       "listeningComprehension": {
-        "id": "english-a2-stories-and-achievements-listening-comprehension",
+        "id": "english-a2-stories-and-achievements-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “Reaching an Important Goal”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -64095,53 +68075,7 @@
               },
               {
                 "id": "o2",
-                "text": "He learned that steady effort can lead to great achievements."
-              },
-              {
-                "id": "o3",
-                "text": "When he crossed the finish line, he felt proud and emotional."
-              },
-              {
-                "id": "o4",
-                "text": "The final kilometers were difficult, yet he continued running."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "What happens next in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "He learned that steady effort can lead to great achievements."
-              },
-              {
-                "id": "o2",
-                "text": "When he crossed the finish line, he felt proud and emotional."
-              },
-              {
-                "id": "o3",
-                "text": "The final kilometers were difficult, yet he continued running."
-              },
-              {
-                "id": "o4",
-                "text": "At first, he could only run a few kilometers before feeling exhausted."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which event happens later in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Six months ago, he began training seriously."
-              },
-              {
-                "id": "o2",
-                "text": "At first, he could only run a few kilometers before feeling exhausted."
+                "text": "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings."
               },
               {
                 "id": "o3",
@@ -64149,30 +68083,76 @@
               },
               {
                 "id": "o4",
+                "text": "He learned that steady effort can lead to great achievements."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “For many years, Marcus wanted to complete a city marathon.”, what happens next in “Reaching an Important Goal”?",
+            "options": [
+              {
+                "id": "o1",
                 "text": "For many years, Marcus wanted to complete a city marathon."
+              },
+              {
+                "id": "o2",
+                "text": "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings."
+              },
+              {
+                "id": "o3",
+                "text": "On the day of the marathon, Marcus felt nervous but prepared."
+              },
+              {
+                "id": "o4",
+                "text": "He learned that steady effort can lead to great achievements."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Reaching an Important Goal”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "For many years, Marcus wanted to complete a city marathon."
+              },
+              {
+                "id": "o2",
+                "text": "On the day of the marathon, Marcus felt nervous but prepared."
+              },
+              {
+                "id": "o3",
+                "text": "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings."
+              },
+              {
+                "id": "o4",
+                "text": "He learned that steady effort can lead to great achievements."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “Reaching an Important Goal” after “He followed a weekly plan, changed his eating habits, and trained even…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "At first, he could only run a few kilometers before feeling exhausted."
-              },
-              {
-                "id": "o2",
-                "text": "He learned that steady effort can lead to great achievements."
-              },
-              {
-                "id": "o3",
                 "text": "For many years, Marcus wanted to complete a city marathon."
               },
               {
+                "id": "o2",
+                "text": "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings."
+              },
+              {
+                "id": "o3",
+                "text": "On the day of the marathon, Marcus felt nervous but prepared."
+              },
+              {
                 "id": "o4",
-                "text": "Six months ago, he began training seriously."
+                "text": "He learned that steady effort can lead to great achievements."
               }
             ]
           }
@@ -64183,42 +68163,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “Reaching an Important Goal”, which detail establishes the situation?",
         "options": [
           "For many years, Marcus wanted to complete a city marathon.",
-          "He learned that steady effort can lead to great achievements.",
-          "When he crossed the finish line, he felt proud and emotional.",
-          "The final kilometers were difficult, yet he continued running."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "He learned that steady effort can lead to great achievements.",
-          "When he crossed the finish line, he felt proud and emotional.",
-          "The final kilometers were difficult, yet he continued running.",
-          "At first, he could only run a few kilometers before feeling exhausted."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "Six months ago, he began training seriously.",
-          "At first, he could only run a few kilometers before feeling exhausted.",
+          "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings.",
           "On the day of the marathon, Marcus felt nervous but prepared.",
-          "For many years, Marcus wanted to complete a city marathon."
+          "He learned that steady effort can lead to great achievements."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "After “For many years, Marcus wanted to complete a city marathon.”, what happens next in “Reaching an Important Goal”?",
         "options": [
-          "At first, he could only run a few kilometers before feeling exhausted.",
-          "He learned that steady effort can lead to great achievements.",
           "For many years, Marcus wanted to complete a city marathon.",
-          "Six months ago, he began training seriously."
+          "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings.",
+          "On the day of the marathon, Marcus felt nervous but prepared.",
+          "He learned that steady effort can lead to great achievements."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “Reaching an Important Goal”?",
+        "options": [
+          "For many years, Marcus wanted to complete a city marathon.",
+          "On the day of the marathon, Marcus felt nervous but prepared.",
+          "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings.",
+          "He learned that steady effort can lead to great achievements."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Reaching an Important Goal” after “He followed a weekly plan, changed his eating habits, and trained even…”?",
+        "options": [
+          "For many years, Marcus wanted to complete a city marathon.",
+          "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings.",
+          "On the day of the marathon, Marcus felt nervous but prepared.",
+          "He learned that steady effort can lead to great achievements."
         ]
       }
     ]
@@ -70048,38 +74028,145 @@
           "text": "They discuss which tasks can be completed by volunteers and which services must be provided by the council."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-sustainable-futures-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Planning a Greener Event”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel are planning a community event."
+              },
+              {
+                "id": "o2",
+                "text": "Food will be served on reusable plates, recycling points will be placed near every entrance"
+              },
+              {
+                "id": "o3",
+                "text": "They discuss which tasks can be completed by volunteers"
+              },
+              {
+                "id": "o4",
+                "text": "which services must be provided by the council."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Daniel are planning a community event.”, what happens next in “Planning a Greener Event”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel are planning a community event."
+              },
+              {
+                "id": "o2",
+                "text": "Food will be served on reusable plates, recycling points will be placed near every entrance"
+              },
+              {
+                "id": "o3",
+                "text": "They discuss which tasks can be completed by volunteers"
+              },
+              {
+                "id": "o4",
+                "text": "which services must be provided by the council."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Planning a Greener Event”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel are planning a community event."
+              },
+              {
+                "id": "o2",
+                "text": "Food will be served on reusable plates, recycling points will be placed near every entrance"
+              },
+              {
+                "id": "o3",
+                "text": "They discuss which tasks can be completed by volunteers"
+              },
+              {
+                "id": "o4",
+                "text": "which services must be provided by the council."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Planning a Greener Event” after “They discuss which tasks can be completed by volunteers”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel are planning a community event."
+              },
+              {
+                "id": "o2",
+                "text": "Food will be served on reusable plates, recycling points will be placed near every entrance"
+              },
+              {
+                "id": "o3",
+                "text": "They discuss which tasks can be completed by volunteers"
+              },
+              {
+                "id": "o4",
+                "text": "which services must be provided by the council."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “Planning a Greener Event”, which detail establishes the situation?",
         "options": [
-          "Sustainable Futures",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Daniel are planning a community event.",
+          "Food will be served on reusable plates, recycling points will be placed near every entrance",
+          "They discuss which tasks can be completed by volunteers",
+          "which services must be provided by the council."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “Daniel are planning a community event.”, what happens next in “Planning a Greener Event”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Daniel are planning a community event.",
+          "Food will be served on reusable plates, recycling points will be placed near every entrance",
+          "They discuss which tasks can be completed by volunteers",
+          "which services must be provided by the council."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “Planning a Greener Event”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Daniel are planning a community event.",
+          "Food will be served on reusable plates, recycling points will be placed near every entrance",
+          "They discuss which tasks can be completed by volunteers",
+          "which services must be provided by the council."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Planning a Greener Event” after “They discuss which tasks can be completed by volunteers”?",
+        "options": [
+          "Daniel are planning a community event.",
+          "Food will be served on reusable plates, recycling points will be placed near every entrance",
+          "They discuss which tasks can be completed by volunteers",
+          "which services must be provided by the council."
         ]
       }
     ]
@@ -70213,13 +74300,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-clothes-and-shopping-listening-comprehension",
+        "id": "english-a1-clothes-and-shopping-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “A New Shirt”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -70227,53 +74314,7 @@
               },
               {
                 "id": "o2",
-                "text": "She buys the white shirt and a pair of black pants for the party."
-              },
-              {
-                "id": "o3",
-                "text": "Maria tries it on and likes it very much."
-              },
-              {
-                "id": "o4",
-                "text": "It costs only eighteen dollars."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "What happens next in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "She buys the white shirt and a pair of black pants for the party."
-              },
-              {
-                "id": "o2",
-                "text": "Maria tries it on and likes it very much."
-              },
-              {
-                "id": "o3",
-                "text": "It costs only eighteen dollars."
-              },
-              {
-                "id": "o4",
                 "text": "The shirt is twenty-five dollars."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which event happens later in the story?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "She goes to a clothing store with her mother."
-              },
-              {
-                "id": "o2",
-                "text": "Maria sees a blue shirt that she really likes."
               },
               {
                 "id": "o3",
@@ -70281,30 +74322,76 @@
               },
               {
                 "id": "o4",
+                "text": "She buys the white shirt and a pair of black pants for the party."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Maria needs a new shirt for a family party.”, what happens next in “A New Shirt”?",
+            "options": [
+              {
+                "id": "o1",
                 "text": "Maria needs a new shirt for a family party."
+              },
+              {
+                "id": "o2",
+                "text": "The shirt is twenty-five dollars."
+              },
+              {
+                "id": "o3",
+                "text": "Her mother finds a similar white shirt on sale."
+              },
+              {
+                "id": "o4",
+                "text": "She buys the white shirt and a pair of black pants for the party."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “A New Shirt”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Maria needs a new shirt for a family party."
+              },
+              {
+                "id": "o2",
+                "text": "The shirt is twenty-five dollars."
+              },
+              {
+                "id": "o3",
+                "text": "Her mother finds a similar white shirt on sale."
+              },
+              {
+                "id": "o4",
+                "text": "She buys the white shirt and a pair of black pants for the party."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “A New Shirt” after “Her mother finds a similar white shirt on sale.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Maria sees a blue shirt that she really likes."
-              },
-              {
-                "id": "o2",
-                "text": "She buys the white shirt and a pair of black pants for the party."
-              },
-              {
-                "id": "o3",
                 "text": "Maria needs a new shirt for a family party."
               },
               {
+                "id": "o2",
+                "text": "The shirt is twenty-five dollars."
+              },
+              {
+                "id": "o3",
+                "text": "Her mother finds a similar white shirt on sale."
+              },
+              {
                 "id": "o4",
-                "text": "She goes to a clothing store with her mother."
+                "text": "She buys the white shirt and a pair of black pants for the party."
               }
             ]
           }
@@ -70315,42 +74402,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “A New Shirt”, which detail establishes the situation?",
         "options": [
           "Maria needs a new shirt for a family party.",
-          "She buys the white shirt and a pair of black pants for the party.",
-          "Maria tries it on and likes it very much.",
-          "It costs only eighteen dollars."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "She buys the white shirt and a pair of black pants for the party.",
-          "Maria tries it on and likes it very much.",
-          "It costs only eighteen dollars.",
-          "The shirt is twenty-five dollars."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "She goes to a clothing store with her mother.",
-          "Maria sees a blue shirt that she really likes.",
+          "The shirt is twenty-five dollars.",
           "Her mother finds a similar white shirt on sale.",
-          "Maria needs a new shirt for a family party."
+          "She buys the white shirt and a pair of black pants for the party."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "How does the story end?",
+        "prompt": "After “Maria needs a new shirt for a family party.”, what happens next in “A New Shirt”?",
         "options": [
-          "Maria sees a blue shirt that she really likes.",
-          "She buys the white shirt and a pair of black pants for the party.",
           "Maria needs a new shirt for a family party.",
-          "She goes to a clothing store with her mother."
+          "The shirt is twenty-five dollars.",
+          "Her mother finds a similar white shirt on sale.",
+          "She buys the white shirt and a pair of black pants for the party."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “A New Shirt”?",
+        "options": [
+          "Maria needs a new shirt for a family party.",
+          "The shirt is twenty-five dollars.",
+          "Her mother finds a similar white shirt on sale.",
+          "She buys the white shirt and a pair of black pants for the party."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “A New Shirt” after “Her mother finds a similar white shirt on sale.”?",
+        "options": [
+          "Maria needs a new shirt for a family party.",
+          "The shirt is twenty-five dollars.",
+          "Her mother finds a similar white shirt on sale.",
+          "She buys the white shirt and a pair of black pants for the party."
         ]
       }
     ]
@@ -70433,48 +74520,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-free-speech-misinformation-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Freedom of Speech and Misinformation”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining freedom of speech and misinformation. Why does…”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Freedom of Speech and Misinformation”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Freedom of Speech and Misinformation” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Freedom of Speech and Misinformation”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining freedom of speech and misinformation. Why does…”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Freedom of Speech and Misinformation”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Freedom of Speech and Misinformation” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "free speech, misinformation, censorship",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -70557,48 +74741,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-synthetic-biology-biosecurity-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Synthetic Biology and Biosecurity”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining synthetic biology and biosecurity. Why does…”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Synthetic Biology and Biosecurity”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Synthetic Biology and Biosecurity” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Synthetic Biology and Biosecurity”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining synthetic biology and biosecurity. Why does…”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Synthetic Biology and Biosecurity”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Synthetic Biology and Biosecurity” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "synthetic biology, biosecurity, biosafety",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -70681,48 +74962,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-contextual-vocabulary-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining contextual vocabulary, glosses and semantic…”, what happens next in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining contextual vocabulary, glosses and semantic…”, what happens next in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "lexical depth, semantic network, collocation",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -75757,38 +80135,145 @@
           "text": "The tutor answers each question and recommends that Sarah organise the information in a short checklist."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-learning-and-communication-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Could You Explain That?”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah asks her tutor how the final project will be assessed."
+              },
+              {
+                "id": "o2",
+                "text": "She uses indirect questions to clarify the deadline, the presentation format"
+              },
+              {
+                "id": "o3",
+                "text": "The tutor answers each question"
+              },
+              {
+                "id": "o4",
+                "text": "recommends that Sarah organise the information in a short checklist."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Sarah asks her tutor how the final project will be assessed.”, what happens next in “Could You Explain That?”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah asks her tutor how the final project will be assessed."
+              },
+              {
+                "id": "o2",
+                "text": "She uses indirect questions to clarify the deadline, the presentation format"
+              },
+              {
+                "id": "o3",
+                "text": "The tutor answers each question"
+              },
+              {
+                "id": "o4",
+                "text": "recommends that Sarah organise the information in a short checklist."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Could You Explain That?”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah asks her tutor how the final project will be assessed."
+              },
+              {
+                "id": "o2",
+                "text": "She uses indirect questions to clarify the deadline, the presentation format"
+              },
+              {
+                "id": "o3",
+                "text": "The tutor answers each question"
+              },
+              {
+                "id": "o4",
+                "text": "recommends that Sarah organise the information in a short checklist."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Could You Explain That?” after “The tutor answers each question”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah asks her tutor how the final project will be assessed."
+              },
+              {
+                "id": "o2",
+                "text": "She uses indirect questions to clarify the deadline, the presentation format"
+              },
+              {
+                "id": "o3",
+                "text": "The tutor answers each question"
+              },
+              {
+                "id": "o4",
+                "text": "recommends that Sarah organise the information in a short checklist."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "In “Could You Explain That?”, which detail establishes the situation?",
         "options": [
-          "Learning and Communication",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Sarah asks her tutor how the final project will be assessed.",
+          "She uses indirect questions to clarify the deadline, the presentation format",
+          "The tutor answers each question",
+          "recommends that Sarah organise the information in a short checklist."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "After “Sarah asks her tutor how the final project will be assessed.”, what happens next in “Could You Explain That?”?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Sarah asks her tutor how the final project will be assessed.",
+          "She uses indirect questions to clarify the deadline, the presentation format",
+          "The tutor answers each question",
+          "recommends that Sarah organise the information in a short checklist."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which line best reveals an intention or decision in “Could You Explain That?”?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Sarah asks her tutor how the final project will be assessed.",
+          "She uses indirect questions to clarify the deadline, the presentation format",
+          "The tutor answers each question",
+          "recommends that Sarah organise the information in a short checklist."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “Could You Explain That?” after “The tutor answers each question”?",
+        "options": [
+          "Sarah asks her tutor how the final project will be assessed.",
+          "She uses indirect questions to clarify the deadline, the presentation format",
+          "The tutor answers each question",
+          "recommends that Sarah organise the information in a short checklist."
         ]
       }
     ]
@@ -75912,13 +80397,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-weather-and-travel-listening-comprehension",
+        "id": "english-a1-weather-and-travel-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which detail opens the story?",
+            "prompt": "In “A Day at the Beach”, which detail establishes the situation?",
             "options": [
               {
                 "id": "o1",
@@ -75926,30 +80411,30 @@
               },
               {
                 "id": "o2",
-                "text": "The family packs their things and goes home before the rain begins."
+                "text": "They pack towels, water, food, and sunscreen."
               },
               {
                 "id": "o3",
-                "text": "At two o’clock, dark clouds appear."
+                "text": "Sofia swims in the sea and plays with her brother."
               },
               {
                 "id": "o4",
-                "text": "Sofia swims in the sea and plays with her brother."
+                "text": "The family packs their things and goes home before the rain begins."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "What happens next in the story?",
+            "prompt": "After “It is Saturday morning, and the weather is sunny and warm.”, what happens next in “A Day at the Beach”?",
             "options": [
               {
                 "id": "o1",
-                "text": "The family packs their things and goes home before the rain begins."
+                "text": "It is Saturday morning, and the weather is sunny and warm."
               },
               {
                 "id": "o2",
-                "text": "At two o’clock, dark clouds appear."
+                "text": "They pack towels, water, food, and sunscreen."
               },
               {
                 "id": "o3",
@@ -75957,53 +80442,53 @@
               },
               {
                 "id": "o4",
-                "text": "They pack towels, water, food, and sunscreen."
+                "text": "The family packs their things and goes home before the rain begins."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which event happens later in the story?",
+            "prompt": "Which line best reveals an intention or decision in “A Day at the Beach”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sofia and her family decide to go to the beach."
+                "text": "It is Saturday morning, and the weather is sunny and warm."
               },
               {
                 "id": "o2",
-                "text": "The family packs their things and goes home before the rain begins."
+                "text": "They pack towels, water, food, and sunscreen."
               },
               {
                 "id": "o3",
-                "text": "They leave home at nine o’clock and arrive at the beach one hour later."
+                "text": "Sofia swims in the sea and plays with her brother."
               },
               {
                 "id": "o4",
-                "text": "It is Saturday morning, and the weather is sunny and warm."
+                "text": "The family packs their things and goes home before the rain begins."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "How does the story end?",
+            "prompt": "Which outcome closes “A Day at the Beach” after “Sofia swims in the sea and plays with her brother.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "They pack towels, water, food, and sunscreen."
-              },
-              {
-                "id": "o2",
-                "text": "The family packs their things and goes home before the rain begins."
-              },
-              {
-                "id": "o3",
                 "text": "It is Saturday morning, and the weather is sunny and warm."
               },
               {
+                "id": "o2",
+                "text": "They pack towels, water, food, and sunscreen."
+              },
+              {
+                "id": "o3",
+                "text": "Sofia swims in the sea and plays with her brother."
+              },
+              {
                 "id": "o4",
-                "text": "Sofia and her family decide to go to the beach."
+                "text": "The family packs their things and goes home before the rain begins."
               }
             ]
           }
@@ -76014,42 +80499,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which detail opens the story?",
+        "prompt": "In “A Day at the Beach”, which detail establishes the situation?",
         "options": [
           "It is Saturday morning, and the weather is sunny and warm.",
-          "The family packs their things and goes home before the rain begins.",
-          "At two o’clock, dark clouds appear.",
-          "Sofia swims in the sea and plays with her brother."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happens next in the story?",
-        "options": [
-          "The family packs their things and goes home before the rain begins.",
-          "At two o’clock, dark clouds appear.",
-          "Sofia swims in the sea and plays with her brother.",
-          "They pack towels, water, food, and sunscreen."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which event happens later in the story?",
-        "options": [
-          "Sofia and her family decide to go to the beach.",
-          "The family packs their things and goes home before the rain begins.",
-          "They leave home at nine o’clock and arrive at the beach one hour later.",
-          "It is Saturday morning, and the weather is sunny and warm."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the story end?",
-        "options": [
           "They pack towels, water, food, and sunscreen.",
-          "The family packs their things and goes home before the rain begins.",
+          "Sofia swims in the sea and plays with her brother.",
+          "The family packs their things and goes home before the rain begins."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After “It is Saturday morning, and the weather is sunny and warm.”, what happens next in “A Day at the Beach”?",
+        "options": [
           "It is Saturday morning, and the weather is sunny and warm.",
-          "Sofia and her family decide to go to the beach."
+          "They pack towels, water, food, and sunscreen.",
+          "Sofia swims in the sea and plays with her brother.",
+          "The family packs their things and goes home before the rain begins."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in “A Day at the Beach”?",
+        "options": [
+          "It is Saturday morning, and the weather is sunny and warm.",
+          "They pack towels, water, food, and sunscreen.",
+          "Sofia swims in the sea and plays with her brother.",
+          "The family packs their things and goes home before the rain begins."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes “A Day at the Beach” after “Sofia swims in the sea and plays with her brother.”?",
+        "options": [
+          "It is Saturday morning, and the weather is sunny and warm.",
+          "They pack towels, water, food, and sunscreen.",
+          "Sofia swims in the sea and plays with her brother.",
+          "The family packs their things and goes home before the rain begins."
         ]
       }
     ]
@@ -76132,48 +80617,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b2-community-action-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Community Action and Local Change”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining community action and local change. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining community action and local change. Why does…”, what happens next in “Listening Lab: Community Action and Local Change”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining community action and local change. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Community Action and Local Change”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining community action and local change. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Community Action and Local Change” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining community action and local change. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Community Action and Local Change”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining community action and local change. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining community action and local change. Why does…”, what happens next in “Listening Lab: Community Action and Local Change”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining community action and local change. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Community Action and Local Change”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining community action and local change. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Community Action and Local Change” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "grassroots, volunteer, petition",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining community action and local change. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -76256,48 +80838,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c1-global-health-inequality-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Global Health Progress and Inequality”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining global health progress and inequality. Why does…”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Global Health Progress and Inequality”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Global Health Progress and Inequality” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Global Health Progress and Inequality”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining global health progress and inequality. Why does…”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Global Health Progress and Inequality”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Global Health Progress and Inequality” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "universal health coverage, health indicator, data gap",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]
@@ -76380,48 +81059,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-c2-ai-language-tutoring-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”, which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After “Today we are examining artificial intelligence and the future of…”, what happens next in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+              },
+              {
+                "id": "o4",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and the Future of Language Tutoring” after “Because the central question is not only what happens, but also which…”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?"
+              },
+              {
+                "id": "o2",
+                "text": "How can we discuss the issue responsibly?"
+              },
+              {
+                "id": "o3",
+                "text": "Host: Which distinction should listeners keep in mind?"
+              },
+              {
+                "id": "o4",
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Why does the guest say the issue resists a simple answer?",
+        "prompt": "In “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”, which detail establishes the situation?",
         "options": [
-          "Because no evidence exists",
-          "Because assumptions shape how evidence is interpreted",
-          "Because the topic has no vocabulary",
-          "Because the host changes the subject"
+          "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which three categories does the guest distinguish?",
+        "prompt": "After “Today we are examining artificial intelligence and the future of…”, what happens next in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
         "options": [
-          "Fact, spelling and pronunciation",
-          "Finding, inference and value judgement",
-          "Cause, date and location",
-          "Question, title and summary"
+          "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What makes the discussion responsible?",
+        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
         "options": [
-          "Avoiding every objection",
-          "Repeating the strongest claim",
-          "Defining terms, addressing a counterargument and naming revision evidence",
-          "Speaking with absolute certainty"
+          "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Host: Which distinction should listeners keep in mind?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which vocabulary belongs to this unit?",
+        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and the Future of Language Tutoring” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "weekend plans",
-          "generative model, hallucination, adaptive feedback",
-          "classroom objects",
-          "food and drink"
+          "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?",
+          "How can we discuss the issue responsibly?",
+          "Host: Which distinction should listeners keep in mind?",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
     ]

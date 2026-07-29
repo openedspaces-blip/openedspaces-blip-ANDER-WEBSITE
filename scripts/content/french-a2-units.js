@@ -1542,6 +1542,8 @@ const units = [
   }
 ];
 
+units.push(...require('./french-a2-extension-units').units);
+require('./french-listening-story-scripts').applyFrenchListeningStories(units, 'A2');
 require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'A2');
 
 module.exports = {

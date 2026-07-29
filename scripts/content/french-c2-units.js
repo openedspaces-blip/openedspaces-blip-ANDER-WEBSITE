@@ -446,6 +446,7 @@ require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(uni
   language: 'french',
   level: 'C2'
 });
+require('./french-c1-c2-listening-adapter').applyFrenchC1C2Listening(units, 'C2');
 
 module.exports = {
   language: 'french',

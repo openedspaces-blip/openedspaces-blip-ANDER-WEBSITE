@@ -19,7 +19,10 @@
       <a class="brand" href="/" aria-label="ANDERGO - Ir al inicio">
         <span class="brand-logo-symbol" role="img" aria-label="Símbolo de ANDERGO"></span>
         <div class="brand-name">
-          <h1>ANDERGO Language Academy</h1>
+          <h1>
+            <strong class="brand-product-name">ANDERGO</strong>
+            <span class="brand-academy-name">Language Academy</span>
+          </h1>
           <p>Lecciones, práctica guiada y progreso real.</p>
         </div>
       </a>
@@ -49,7 +52,6 @@
           <a href="#learn" data-i18n="navLearnMember">Aprender</a>
           <a href="#verbs" data-i18n="navVerbs">Verbos</a>
           <a href="#progress" data-i18n="navProgress">Progreso</a>
-          <a href="#achievements" data-i18n="navAchievements">Logros</a>
           <a href="#goals" data-i18n="navGoals">Objetivos</a>
           <a href="#tutor" data-i18n="navTutor">Tutor IA ANDERGO</a>
           <a href="#translator" data-i18n="navTranslator">Traductor</a>
@@ -253,7 +255,7 @@
         </div>
 
         <div class="global-language-controls" aria-label="Personaliza tu ruta de aprendizaje">
-          <div class="language-pair-bar" role="group" aria-label="Selector de idioma puente, idioma meta y nivel">
+          <div class="language-pair-bar" role="group" aria-label="Selector de idioma puente, idioma meta, nivel y lección">
             <label class="language-pair-field"
               ><span data-field="bridgeSelectLabel">Idioma puente (L1)</span>
               <select id="pathBridgeSelect">
@@ -280,6 +282,12 @@
                 <option value="B2">B2</option>
                 <option value="C1">C1</option>
                 <option value="C2">C2</option>
+              </select>
+            </label>
+            <label class="language-pair-field language-pair-field-lesson"
+              ><span data-field="lessonSelectLabel">Lección</span>
+              <select id="pathLessonSelect" aria-label="Lección">
+                <option value="">Cargando lecciones…</option>
               </select>
             </label>
             <button type="button" id="pathStartLearningBtn" class="primary-btn path-start-learning-btn">
@@ -863,10 +871,9 @@
       <section id="achievements" class="section achievements-section compact-hidden-section">
         <div class="section-heading">
           <span>Logros</span>
-          <h2 tabindex="-1">Reconoce lo que realmente estás aprendiendo.</h2>
+          <h2 tabindex="-1">Logros alcanzados en tu ruta.</h2>
           <p>
-            Gana XP, mantén tu racha y desbloquea insignias mientras avanzas por cada mundo de
-            idioma.
+            Revisa tu XP, tu racha y las insignias que has desbloqueado mientras aprendes.
           </p>
         </div>
 

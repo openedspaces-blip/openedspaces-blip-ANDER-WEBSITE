@@ -244,7 +244,7 @@ const ENGLISH_A1_ACTIVITY_COUNT = 72;
 const SPANISH_A1_ACTIVITY_COUNT = 72;
 const SPANISH_EXPANDED_LEVEL_ACTIVITY_COUNT = 72;
 const FRENCH_A1_ACTIVITY_COUNT = 84;
-const FRENCH_A2_ACTIVITY_COUNT = 70;
+const FRENCH_A2_ACTIVITY_COUNT = 84;
 const FRENCH_B1_ACTIVITY_COUNT = 70;
 const FRENCH_B2_ACTIVITY_COUNT = 84;
 const FRENCH_C1_ACTIVITY_COUNT = 72;
@@ -374,6 +374,16 @@ test('single-view router sections exist for every nav destination', () => {
   }
   assert.match(html, /class="nav-group nav-group-visitor"/);
   assert.match(html, /class="nav-group nav-group-member"/);
+});
+
+test('member navigation combines progress and achievements in one connected view', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+
+  assert.match(html, /href="#progress"[^>]*data-i18n="navProgress"/);
+  assert.doesNotMatch(html, /href="#achievements"/);
+  assert.match(script, /progress:\s*\['#progress', '#achievements'\]/);
+  assert.match(script, /if \(raw === 'achievements'\) return 'progress';/);
 });
 
 test('ai tutor panel includes freeform prompt input and context badges', () => {
@@ -3264,6 +3274,11 @@ test('student journey presents practical curriculum guidance and preserves lesso
   assert.doesNotMatch(source, /unitLessons\.map\(\(lesson\) => renderLessonItemHtml\(lesson, nextSlug\)\)/);
   assert.match(source, /class="path-unit-journey">Viaje/);
   assert.match(source, /class="path-unit-reward">/);
+  assert.match(source, /function getUnitArtwork\(unit = \{\}\)/);
+  assert.match(source, /class="path-unit-artwork path-unit-artwork--\$\{artwork\.tone\}"/);
+  assert.doesNotMatch(source, /class="path-unit-order" aria-hidden="true">🧳/);
+  assert.match(css, /\.path-unit--selected \.path-unit-artwork-emoji/);
+  assert.match(css, /@media \(prefers-reduced-motion: reduce\)/);
   assert.match(source, /function renderUnitSequenceStepsHtml/);
   assert.match(source, /lesson\.slug === learningPathState\.activeSlug/);
   assert.match(source, /aria-current="true"/);
@@ -3416,6 +3431,9 @@ test('Reading selections use the contextual ANDERGO translator and coordinated l
   assert.match(source, /if \(data\) openReadingTranslation\(data\)/);
   assert.match(source, /document\.addEventListener\('dblclick'/);
   assert.match(source, /isDoubleTap[\s\S]*?handleSelection\(event\)/);
+  assert.match(source, /document\.addEventListener\('selectionchange'/);
+  assert.match(source, /function isReadingPhraseSelection\(data\)/);
+  assert.match(source, /scheduleReadingPhraseTranslation\(event\.pointerType === 'touch' \? 320 : 180\)/);
   assert.doesNotMatch(source, /reading-translation-quick-btn/);
   assert.doesNotMatch(source, /class="reading-translation-context"/);
   assert.match(source, /context:\s*state\.context/);
@@ -3426,6 +3444,7 @@ test('Reading selections use the contextual ANDERGO translator and coordinated l
   assert.match(source, /reading-translation-tutor/);
   assert.match(source, /reading-translation-open/);
   assert.match(source, /Doble clic o dos toques: traduce, escucha, consulta o guarda palabras/);
+  assert.match(source, /Sombrea una frase para traducirla al instante con ANDERGO/);
   assert.match(
     source,
     /Cada lección ha sido nivelada según el MCERL \(Marco Común Europeo de Referencia de las Lenguas\)/
@@ -3564,6 +3583,204 @@ test('English A1 Hello Listening keeps its specific editorial questions', () => 
   );
 });
 
+test('every routed Listening has four contextual questions with balanced A-D answers', () => {
+  const seedLessons = require('./lib/seed-lessons.json');
+  const listeningRows = seedLessons.filter(
+    (row) => row.skill === 'listening' && row.unit_slug
+  );
+  const normalizedPrompts = new Set();
+
+  assert.equal(listeningRows.length, 212);
+  for (const row of listeningRows) {
+    const usesDirectA1FrenchCopy =
+      row.target_language === 'french' && row.level === 'A1';
+    const bank = row.content_json?.extra?.listeningComprehension;
+    assert.equal(bank?.questions?.length, 4, row.slug);
+    assert.deepEqual(
+      bank.questions.map((question) => question.correctOptionId),
+      ['o1', 'o2', 'o3', 'o4'],
+      row.slug
+    );
+    for (const question of bank.questions) {
+      assert.equal(question.options.length, 4, `${row.slug}: ${question.id}`);
+      if (!usesDirectA1FrenchCopy) {
+        assert.match(
+          question.prompt,
+          new RegExp(row.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+        );
+      }
+      assert.doesNotMatch(
+        question.prompt,
+        /official audio|which information is stated|which detail opens the story|what happens next in the story/i
+      );
+      const key = question.prompt.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+      if (!usesDirectA1FrenchCopy) {
+        assert.equal(normalizedPrompts.has(key), false, `Pregunta repetida: ${question.prompt}`);
+        normalizedPrompts.add(key);
+      }
+    }
+  }
+});
+
+test('French A2 lessons 6-12 use varied single-speaker audio formats', () => {
+  const seedLessons = require('./lib/seed-lessons.json');
+  const rows = seedLessons
+    .filter(
+      (row) =>
+        row.target_language === 'french' &&
+        row.level === 'A2' &&
+        row.skill === 'listening'
+    )
+    .sort((a, b) => a.order_index - b.order_index)
+    .slice(5);
+
+  assert.deepEqual(
+    rows.map((row) => row.content_json.extra?.listeningFormat),
+    [
+      'testimony',
+      'advertisement',
+      'advertisement',
+      'news',
+      'chronicle',
+      'public-service',
+      'community-announcement'
+    ]
+  );
+  assert.ok(rows.every((row) => row.content_json.extra?.listeningType === 'monologue'));
+  assert.ok(rows.every((row) => row.content_json.dialogue.length === 0));
+  assert.ok(rows.every((row) => row.content_json.transcript.split(/\s+/).length >= 100));
+
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(source, /testimony:\s*\['Testimonio', 'Témoignage'\]/);
+  assert.match(source, /advertisement:\s*\['Anuncio', 'Annonce'\]/);
+  assert.match(source, /news:\s*\['Noticia', 'Actualité'\]/);
+  assert.match(source, /chronicle:\s*\['Crónica', 'Chronique'\]/);
+  assert.match(source, /'public-service':\s*\['Aviso público', 'Information publique'\]/);
+  assert.match(source, /'community-announcement':\s*\['Convocatoria', 'Appel associatif'\]/);
+});
+
+test('French A1 Listening uses four short direct questions with concise unique answers', () => {
+  const seedLessons = require('./lib/seed-lessons.json');
+  const rows = seedLessons.filter(
+    (row) =>
+      row.target_language === 'french' &&
+      row.level === 'A1' &&
+      row.skill === 'listening' &&
+      row.unit_slug
+  );
+  const expectedPrompts = [
+    'Que se passe-t-il au début ?',
+    'Que fait la personne ensuite ?',
+    'Quel autre détail est correct ?',
+    'Que se passe-t-il à la fin ?'
+  ];
+
+  assert.equal(rows.length, 12);
+  rows.forEach((row) => {
+    const questions = row.content_json.extra?.listeningComprehension?.questions || [];
+    assert.deepEqual(questions.map((question) => question.prompt), expectedPrompts);
+    assert.deepEqual(
+      questions.map((question) => question.correctOptionId),
+      ['o1', 'o2', 'o3', 'o4']
+    );
+    questions.forEach((question) => {
+      const options = question.options.map((option) => option.text);
+      assert.equal(new Set(options).size, 4);
+      assert.ok(options.every((option) => option.split(/\s+/).length <= 18));
+      assert.ok(options.every((option) => !option.includes('…')));
+    });
+  });
+});
+
+test('French B1-B2 Listening scripts are level-sized, varied monologues', () => {
+  const seedLessons = require('./lib/seed-lessons.json');
+  const expected = { B1: 10, B2: 12 };
+
+  for (const [level, count] of Object.entries(expected)) {
+    const rows = seedLessons
+      .filter(
+        (row) =>
+          row.target_language === 'french' &&
+          row.level === level &&
+          row.skill === 'listening'
+      )
+      .sort((a, b) => a.order_index - b.order_index);
+    assert.equal(rows.length, count);
+    assert.ok(rows.every((row) => row.content_json.extra?.listeningType === 'monologue'));
+    assert.ok(rows.every((row) => row.content_json.dialogue.length === 0));
+    assert.ok(
+      rows.every(
+        (row) =>
+          row.content_json.transcript.split(/\s+/).length >= (level === 'B1' ? 145 : 160)
+      )
+    );
+    assert.ok(
+      new Set(rows.map((row) => row.content_json.extra?.listeningFormat)).size >= 6
+    );
+    assert.ok(
+      rows.every(
+        (row) => row.content_json.extra?.listeningComprehension?.questions?.length === 4
+      )
+    );
+  }
+});
+
+test('French C1-C2 Listening uses twelve distinct long-form monologues per level', () => {
+  const seedLessons = require('./lib/seed-lessons.json');
+  for (const level of ['C1', 'C2']) {
+    const rows = seedLessons
+      .filter(
+        (row) =>
+          row.target_language === 'french' &&
+          row.level === level &&
+          row.skill === 'listening'
+      )
+      .sort((a, b) => a.order_index - b.order_index);
+    assert.equal(rows.length, 12);
+    assert.ok(rows.every((row) => row.content_json.extra?.listeningType === 'monologue'));
+    assert.ok(rows.every((row) => row.content_json.dialogue.length === 0));
+    assert.ok(
+      rows.every(
+        (row) =>
+          row.content_json.transcript.split(/\s+/).length >= (level === 'C1' ? 185 : 225)
+      )
+    );
+    assert.equal(
+      new Set(rows.map((row) => row.content_json.extra?.listeningFormat)).size,
+      12
+    );
+    if (level === 'C2') {
+      assert.ok(
+        rows.every((row) => {
+          const lessonTitle = row.title.split(':').slice(1).join(':').trim();
+          return !row.content_json.transcript
+            .toLocaleLowerCase('fr')
+            .startsWith(lessonTitle.toLocaleLowerCase('fr'));
+        })
+      );
+    }
+    assert.ok(
+      rows.every(
+        (row) => row.content_json.extra?.listeningComprehension?.questions?.length === 4
+      )
+    );
+    assert.ok(
+      rows.every((row) => {
+        const alignment = row.content_json.extra?.curricularAlignment;
+        const transcript = row.content_json.transcript;
+        return (
+          alignment?.readingTitle &&
+          alignment?.grammar &&
+          alignment?.vocabulary?.length === 6 &&
+          alignment.vocabulary.every((term) => transcript.includes(term)) &&
+          alignment?.grammarModels?.length >= 2 &&
+          alignment.grammarModels.every((model) => transcript.includes(model))
+        );
+      })
+    );
+  }
+});
+
 test('unit route keeps Previous/Next navigation and closes on Verbs with a full score summary', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const verbsSource = fs.readFileSync(
@@ -3583,4 +3800,17 @@ test('unit route keeps Previous/Next navigation and closes on Verbs with a full 
   assert.match(source, /function getUnitScoreFeedback\(score\)/);
   assert.match(source, /unit-completion-retry/);
   assert.match(source, /unit-completion-next/);
+});
+
+test('main language controls expose a localized lesson selector and open its first activity', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(html, /id="pathLessonSelect"/);
+  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'spanish'), 'Lección');
+  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'english'), 'Lesson');
+  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'french'), 'Leçon');
+  assert.match(source, /function updatePathLessonSelect\(preferredUnitId = ''\)/);
+  assert.match(source, /restoreUnitId:\s*unitId/);
+  assert.match(source, /selectUnit\(selectedUnitId,\s*\{\s*render:\s*false\s*\}\)/);
+  assert.match(source, /openUnitSequenceStep\(firstActivity\.skill,\s*firstActivity\.slug\)/);
 });

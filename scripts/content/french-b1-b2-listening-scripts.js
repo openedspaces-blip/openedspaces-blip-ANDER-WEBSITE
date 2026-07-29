@@ -1,0 +1,175 @@
+const FRENCH_UPPER_LEVEL_LISTENING = {
+  B1: {
+    'projets-et-avenir': {
+      title: 'Choisir son prochain projet',
+      format: 'podcast',
+      transcript:
+        'Bienvenue dans notre podcast consacré aux projets d’avenir. Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante. Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité. Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps. Si vous préférez travailler, vous gagnerez de l’expérience et vous découvrirez plus vite le monde professionnel. D’un côté, un projet doit être réaliste ; de l’autre, il doit aussi vous donner envie d’avancer. À mon avis, il ne faut pas décider uniquement pour satisfaire les autres. Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai. Vous pouvez également tester une option grâce à un stage ou à une courte expérience. Quelle que soit votre décision, vous apprendrez quelque chose. L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance.'
+    },
+    'identite-et-parcours-personnel': {
+      title: 'Avant, je n’osais pas',
+      format: 'testimony',
+      transcript:
+        'Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours. Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort. Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école. Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre. Au début, j’avais peur de parler devant les autres, mais le groupe m’a accueillie avec patience. Pendant plusieurs mois, nous répétions deux fois par semaine. Peu à peu, j’ai appris à respirer, à regarder le public et à exprimer mes idées. La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes. Depuis cette expérience, je suis devenue plus ouverte et plus autonome. Je ne suis pas une personne complètement différente, mais j’ai grandi. Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir.'
+    },
+    'etudes-et-apprentissage': {
+      title: 'Cinq conseils pour mieux réviser',
+      format: 'tutorial',
+      transcript:
+        'Bonjour et bienvenue dans cette capsule consacrée aux révisions. Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste. Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille. Deuxième conseil : identifiez vos difficultés. Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien. Ensuite, alternez les activités : lisez, résumez, expliquez la leçon à voix haute et faites quelques exercices. Cette variété vous aiderait à rester concentré. Vous pourriez également travailler avec un camarade, à condition de fixer un objectif précis. Enfin, n’oubliez pas les pauses. Après quarante-cinq minutes de travail, une courte pause permet souvent de progresser davantage. Une bonne note ne dépend pas seulement du nombre d’heures passées devant un cahier. Elle dépend aussi de l’organisation, du sommeil et de la régularité. Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous.'
+    },
+    'monde-du-travail': {
+      title: 'Réussir un premier entretien',
+      format: 'tutorial',
+      transcript:
+        'Vous avez obtenu un entretien d’embauche ou de stage ? Voici quelques conseils pour vous préparer. Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées. Préparez deux ou trois exemples concrets qui montrent ce que vous savez faire. Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel. Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail. Ne cherchez pas à réciter des réponses parfaites. Les recruteurs apprécient généralement une personne capable d’expliquer son parcours avec sincérité. Après l’entretien, notez ce qui s’est bien passé et ce que vous pourriez améliorer. Chaque entretien est une occasion d’apprendre, même lorsque la candidature n’est pas retenue.'
+    },
+    'voyages-et-interculturalite': {
+      title: 'Ce qui m’a surpris au Québec',
+      format: 'chronicle',
+      transcript:
+        'Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec. Elle connaissait déjà le français, mais certaines habitudes l’ont surprise. En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant. Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle. Au début, ces différences provoquaient parfois un petit choc culturel. Lucie avait peur de faire une erreur ou de poser une question maladroite. Puis elle a commencé à observer, à demander des explications et à comparer sans juger. Ce qui l’a le plus aidée, c’est la curiosité. Elle a appris qu’une habitude différente n’est pas nécessairement meilleure ou moins bonne. Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau.'
+    },
+    'technologie-et-societe': {
+      title: 'Réseaux sociaux : trouver l’équilibre',
+      format: 'editorial',
+      transcript:
+        'Les réseaux sociaux occupent une place importante dans notre vie quotidienne. D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information. D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée. Cependant, la technologie n’est pas seule responsable de ces difficultés. Tout dépend de la manière dont nous l’utilisons. Il est important que chaque utilisateur connaisse les paramètres de confidentialité et réfléchisse avant de publier une photo ou une opinion. Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus. À mon avis, supprimer complètement les réseaux n’est pas une solution réaliste pour tout le monde. Nous pouvons plutôt créer un meilleur équilibre : désactiver certaines notifications, limiter le temps d’écran et vérifier les sources. La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations.'
+    },
+    'sante-et-mode-de-vie': {
+      title: 'Une minute santé : apprivoiser le stress',
+      format: 'public-service',
+      transcript:
+        'Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen. Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration. Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée. Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables. Il faut aussi que vous dormiez suffisamment et que vous gardiez une activité physique régulière. Une marche de vingt minutes peut déjà aider le corps à se détendre. Pendant les révisions, respirez lentement et faites une courte pause lorsque votre attention diminue. Évitez de comparer votre rythme à celui des autres. Prendre soin de soi ne signifie pas abandonner son travail ; cela permet de travailler plus efficacement. Si le stress devient trop fort ou dure plusieurs semaines, parlez-en à un professionnel de santé. Demander de l’aide est une décision responsable, pas un signe de faiblesse.'
+    },
+    'environnement-et-consommation': {
+      title: 'Une école réduit ses déchets',
+      format: 'news',
+      transcript:
+        'Voici une initiative environnementale menée dans un collège de Bordeaux. Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés. Ils ont donc créé un projet de réduction des déchets. D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles. Ensuite, la cantine a proposé des portions de tailles différentes. Les élèves choisissent mieux la quantité dont ils ont besoin ; c’est pourquoi il reste moins de nourriture sur les plateaux. Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe. Après trois mois, le volume des déchets a diminué de près de trente pour cent. La direction souhaite maintenant installer un composteur. Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution.'
+    },
+    'medias-et-information': {
+      title: 'Les trois réflexes contre la désinformation',
+      format: 'tutorial',
+      transcript:
+        'Avant de partager une information, adoptez trois réflexes simples. Premier réflexe : identifiez la source. Un article sérieux indique généralement son auteur, sa date et les documents utilisés. Si ces éléments manquent, soyez prudent. Deuxième réflexe : comparez. Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer. Je doute qu’une information importante soit connue d’un seul compte anonyme. Troisième réflexe : observez les images. Une photo peut être ancienne, modifiée ou sortie de son contexte. Des outils de recherche permettent souvent de retrouver sa première publication. N’oubliez pas non plus que nos émotions influencent nos décisions. Une fausse nouvelle cherche fréquemment à provoquer la peur ou la colère pour être partagée rapidement. Un journaliste a expliqué que la vérification prenait parfois quelques minutes seulement. Ces quelques minutes peuvent éviter de diffuser une erreur. Face à la désinformation, ralentir est déjà une forme de responsabilité.'
+    },
+    'relations-et-conflits': {
+      title: 'Quand un désaccord devient utile',
+      format: 'podcast',
+      transcript:
+        'Bienvenue dans notre podcast sur les relations. Aujourd’hui, nous parlons des désaccords. Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire. Cela me dérange que certaines discussions deviennent immédiatement une compétition. Pour trouver un compromis, il faut d’abord décrire les faits sans accuser. On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin. L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable. Parfois, une pause permet aux émotions de diminuer. Se réconcilier ne signifie pas oublier le problème ; cela signifie le comprendre et décider comment avancer. Un désaccord bien géré peut finalement renforcer une relation, car il apprend aux personnes à communiquer avec plus d’honnêteté.'
+    }
+  },
+  B2: {
+    'retour-a-saint-domingue': {
+      title: 'Le retour que j’avais imaginé',
+      format: 'testimony',
+      transcript:
+        'Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude. J’avais imaginé ces retrouvailles pendant des mois. Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir. Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple. J’avais changé pendant mon séjour à l’étranger, tandis que la vie ici avait continué sans moi. Certaines habitudes m’avaient manqué, comme les conversations animées de ma famille, mais d’autres me semblaient désormais moins naturelles. Je me sentais ambivalente : heureuse d’être chez moi et nostalgique de la vie que j’avais construite ailleurs. Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. Peu à peu, j’ai cessé de comparer chaque détail. J’ai compris que rentrer ne signifiait pas redevenir exactement la personne que j’avais été. Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large.'
+    },
+    'candidature-universitaire': {
+      title: 'Construire une candidature convaincante',
+      format: 'tutorial',
+      transcript:
+        'Une bonne lettre de motivation ne répète pas simplement le CV. Elle explique le lien entre votre parcours, la formation choisie et votre projet. Avant d’écrire, identifiez deux expériences capables de vous démarquer. Il est important que vous ayez compris les objectifs du programme et que vous montriez précisément ce qu’il peut vous apporter. Évitez les déclarations générales comme « J’ai toujours aimé apprendre ». Présentez plutôt un déclencheur concret : un projet, une rencontre ou une difficulté que vous avez surmontée. Les responsables apprécient que le candidat ait réfléchi à son évolution. Relisez ensuite chaque paragraphe. Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir. Il faut aussi que votre lettre soit claire, personnelle et adaptée à l’établissement. Demandez à une personne de confiance de la relire, mais conservez votre propre voix. Une candidature convaincante ne cherche pas à paraître parfaite. Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente.'
+    },
+    'debats-de-societe': {
+      title: 'Le débat public et ses règles',
+      format: 'editorial',
+      transcript:
+        'Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres. Une idée doit être expliquée, illustrée et confrontée à des contre-arguments. Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant. Le débat est alors transformé en spectacle et certaines nuances sont perdues. Dans une certaine mesure, les réseaux facilitent la participation citoyenne : des témoignages sont diffusés, des problèmes ignorés sont rendus visibles et des communautés sont mobilisées. Néanmoins, ces contenus sont rarement vérifiés avec la même attention. Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable. Les personnes concernées devraient aussi être entendues, plutôt que seulement décrites par d’autres. Enfin, réfuter une idée ne signifie pas attaquer celui qui l’exprime. Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.'
+    },
+    'le-teletravail-et-lavenir-professionnel': {
+      title: 'Télétravail : autonomie ou isolement ?',
+      format: 'chronicle',
+      transcript:
+        'En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail. Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches. Sa productivité avait augmenté, car elle était moins interrompue. Cependant, les journées sont progressivement devenues plus longues. En répondant aux messages tard le soir, elle avait l’impression de ne jamais quitter son bureau. L’isolement a également pesé sur sa motivation. L’équipe avec laquelle elle collaborait respectait les délais, mais les échanges informels avaient presque disparu. Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois. Cette organisation lui permet de gérer son temps tout en maintenant des relations professionnelles. Le télétravail n’est donc ni une solution universelle ni un problème en soi. Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.'
+    },
+    'litterature-francophone': {
+      title: 'Pourquoi ce roman résonne encore',
+      format: 'podcast',
+      transcript:
+        'Bienvenue dans notre podcast littéraire. Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil. Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille. Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations. Ce qui frappe dans l’extrait auquel nous nous intéressons, c’est la présence constante des objets : une valise, une photographie, une clé. Chacun évoque un départ, mais aussi la possibilité d’un retour. La narratrice utilise une langue simple dont le rythme devient progressivement plus intense. Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent. Le club de lecture a rappelé que l’autrice avait refusé une interprétation uniquement autobiographique. Elle souhaitait que le roman reste ouvert. C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.'
+    },
+    'cinema-et-critique': {
+      title: 'Une ville en silence : notre critique',
+      format: 'review',
+      transcript:
+        'Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser. Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle. Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices. Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin. Les acteurs sont convaincants, surtout dans les scènes où aucun dialogue n’explique leurs émotions. Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. La séquence finale est l’une des plus réussies que j’aie vues cette année, même si le dernier plan reste volontairement ambigu. Ce n’est pas le film le plus accessible du moment, mais c’est certainement l’un des plus cohérents. Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses.'
+    },
+    'dilemmes-ethiques': {
+      title: 'Aurais-je dû intervenir ?',
+      format: 'testimony',
+      transcript:
+        'Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir. Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom. Tout le monde semblait le savoir, mais personne ne disait rien. J’hésitais entre protéger l’ambiance de l’équipe et défendre une valeur qui me semblait essentielle : reconnaître le travail de chacun. Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure. Pourtant, j’avais peur d’être jugé ou de créer un conflit. J’ai finalement demandé conseil à une responsable en présentant les faits sans accuser directement mon collègue. Elle a organisé une discussion et la contribution de la stagiaire a été reconnue. Avec le recul, je pense que j’aurais dû réagir plus tôt. Se mettre à la place des autres m’a aidé à comprendre les conséquences du silence. Un dilemme n’oppose pas toujours le bien au mal ; il oppose parfois deux inquiétudes légitimes. Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort.'
+    },
+    'sciences-et-innovations': {
+      title: 'L’intelligence artificielle transforme le diagnostic',
+      format: 'news',
+      transcript:
+        'Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares. Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière. Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes. Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale. Étant donné que les données utilisées ne représentent pas toujours toutes les populations, il se peut que les résultats soient moins précis pour certains patients. Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles. Dans la mesure où les hôpitaux souhaitent utiliser cette technologie, ils devront expliquer comment les données sont protégées et permettre un contrôle indépendant. Les médecins interrogés se montrent prudemment optimistes. Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.'
+    },
+    'histoire-et-memoire': {
+      title: 'La voix conservée dans une cassette',
+      format: 'documentary',
+      transcript:
+        'Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt. Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier. Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels. Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé. Les archivistes ont nettoyé les bandes et les ont numérisées. Les photographies qu’ils ont retrouvées ont également été restaurées ; celles que les habitants avaient données seront présentées dans une exposition. Ce travail montre que la mémoire collective ne se limite pas aux grands événements. Elle se construit aussi grâce aux récits de personnes ordinaires. En conservant ce témoignage, la ville ne cherche pas à imposer une seule version du passé. Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque.'
+    },
+    'ecologie-et-engagement-citoyen': {
+      title: 'Une coalition pour restaurer la mangrove',
+      format: 'news',
+      transcript:
+        'Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove. Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces. Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions. Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage. Ils organisent également des opérations de nettoyage pour que les jeunes plants puissent se développer. Les scientifiques suivent la qualité de l’eau et partagent leurs résultats avec les écoles. Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes. Les membres de la coalition répondent que leur engagement citoyen peut justement modifier les décisions publiques. Ils souhaitent que la restauration soit accompagnée d’emplois durables pour les communautés voisines. Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.'
+    },
+    'art-et-creativite': {
+      title: 'Le portrait sonore de Mireille',
+      format: 'portrait',
+      transcript:
+        'Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores. Son processus créatif commence rarement dans un atelier. Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires. Depuis quelques années, elle s’inspire de plus en plus des récits de migration de son quartier. Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels. Pour sa nouvelle exposition, elle a travaillé autant avec des musiciens qu’avec des couturières. Ce métissage ne cherche pas à effacer les différences, mais à montrer comment elles peuvent coexister dans une même œuvre. Mireille affirme que le public participe aussi au processus. Chaque visiteur entend une combinaison sonore légèrement différente selon son déplacement dans la salle. Ainsi, l’exposition n’est jamais exactement la même. Plus le projet avance, plus l’artiste renonce à contrôler toutes les interprétations. Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création.'
+    },
+    'bilan-et-projets-davenir': {
+      title: 'Avec le recul',
+      format: 'reflection',
+      transcript:
+        'Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée. Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude. J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience. Certains accomplissements sont visibles, comme un diplôme ou un projet terminé. D’autres sont plus discrets : savoir demander de l’aide, reconnaître une limite ou changer d’avis. En fin de compte, les difficultés que j’aurais préféré éviter m’ont souvent obligée à mieux comprendre mes priorités. Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité. Si une nouvelle possibilité se présente, je l’examinerai sans abandonner mon objectif principal. Mon bilan n’est donc pas une conclusion définitive. Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer.'
+    }
+  }
+};
+
+function sentenceSegments(transcript) {
+  return (
+    transcript.match(/[^.!?]+(?:[.!?]+(?:\s*[»”])?|$)/gu)?.map((text) => text.trim()) || []
+  ).map((text, index) => ({
+    id: `segment-${String(index + 1).padStart(2, '0')}`,
+    order: index + 1,
+    text
+  }));
+}
+
+function applyFrenchUpperListening(units, level) {
+  const scripts = FRENCH_UPPER_LEVEL_LISTENING[level] || {};
+  for (const unit of units) {
+    const script = scripts[unit.slug];
+    if (!script) throw new Error(`${level} ${unit.slug}: transcription monologique manquante`);
+    const listening = unit.activities?.listening;
+    if (!listening) throw new Error(`${level} ${unit.slug}: activité Listening manquante`);
+    listening.title = script.title;
+    listening.description = `Écoute ce contenu de niveau ${level} et identifie les idées, les nuances et les preuves.`;
+    listening.intro =
+      'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.';
+    listening.listeningType = 'monologue';
+    listening.listeningFormat = script.format;
+    listening.storyTitle = script.title;
+    listening.mainTranscript = script.transcript;
+    listening.transcript = script.transcript;
+    listening.transcriptSegments = sentenceSegments(script.transcript);
+    listening.dialogue = [];
+  }
+  return units;
+}
+
+module.exports = {
+  FRENCH_UPPER_LEVEL_LISTENING,
+  applyFrenchUpperListening
+};

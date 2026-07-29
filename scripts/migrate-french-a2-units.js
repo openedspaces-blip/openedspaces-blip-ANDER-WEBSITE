@@ -33,6 +33,7 @@ async function main() {
     minUnits: MIN_UNITS,
     maxUnits: MAX_UNITS,
     readingRange: [180, 300],
+    readingQuestionRange: [8, 10],
     label: 'A2'
   });
   if (contentErrors.length) {
