@@ -556,17 +556,17 @@ async function loadCurrentSubscription({
   return latest;
 }
 
-// The backend's user.name is upstream data we don't control here - if it's
-// malformed (e.g. truncated to something like "aos") this guard keeps it off
-// screen instead of rendering "Hola, aos": falls back to the email's local
-// part, and to an empty string (bare "Hola", no dangling comma) if that's
-// missing too.
+// Public identity always prefers the claimed ANDERGO username. Never derive
+// a greeting from the email address: an address is private account data, not
+// the student's chosen display identity.
 function getDisplayName() {
+  const username = authStatus.user?.username;
+  if (typeof username === 'string' && username.trim()) return username.trim();
   const rawName = authStatus.user?.name;
   const looksLikeName =
     typeof rawName === 'string' && /^[\p{L}][\p{L}\s'-]{1,49}$/u.test(rawName.trim());
   if (looksLikeName) return rawName.trim();
-  return authStatus.user?.email?.split('@')[0] || '';
+  return '';
 }
 
 function renderAuthState() {
@@ -803,6 +803,7 @@ function refreshLanguagePairChrome() {
     'targetSelectLabel',
     'levelSelectLabel',
     'lessonSelectLabel',
+    'configuratorTitle',
     'bridgeLabel',
     'targetLabel',
     'levelLabel',
@@ -879,11 +880,109 @@ function syncLanguagePairSelectOptions() {
   if (!targetSelect || !bridgeSelect) return;
 
   Array.from(targetSelect.options).forEach((option) => {
-    option.disabled = option.value === learningPathState.bridgeLanguage;
+    option.disabled = Boolean(
+      LanguagePair &&
+        !LanguagePair.isLanguagePairSupported(learningPathState.bridgeLanguage, option.value)
+    );
   });
   Array.from(bridgeSelect.options).forEach((option) => {
-    option.disabled = option.value === learningPathState.language;
+    option.disabled = Boolean(
+      LanguagePair && !LanguagePair.isLanguagePairSupported(option.value, learningPathState.language)
+    );
   });
+}
+
+const L1_CONFIRMED_STORAGE_KEY = 'andergo_l1_confirmed';
+let pendingL1Suggestion = '';
+
+const COUNTRY_TO_L1 = {
+  US: 'english',
+  GB: 'english',
+  CA: 'english',
+  AU: 'english',
+  IE: 'english',
+  FR: 'french',
+  BE: 'french',
+  MC: 'french',
+  SN: 'french',
+  CI: 'french',
+  ES: 'spanish',
+  DO: 'spanish',
+  MX: 'spanish',
+  AR: 'spanish',
+  CO: 'spanish',
+  PE: 'spanish',
+  CL: 'spanish',
+  VE: 'spanish',
+  EC: 'spanish',
+  GT: 'spanish',
+  CU: 'spanish',
+  PR: 'spanish',
+  UY: 'spanish',
+  PY: 'spanish',
+  BO: 'spanish',
+  CR: 'spanish',
+  PA: 'spanish',
+  HN: 'spanish',
+  NI: 'spanish',
+  SV: 'spanish'
+};
+
+function languageFromLocale(locale = '') {
+  const code = String(locale).trim().toLowerCase().split(/[-_]/)[0];
+  return { en: 'english', es: 'spanish', fr: 'french' }[code] || '';
+}
+
+function setL1SuggestionVisibility(candidate = '') {
+  const panel = document.getElementById('l1LanguageSuggestion');
+  const text = document.getElementById('l1LanguageSuggestionText');
+  const confirm = document.getElementById('confirmL1SuggestionBtn');
+  const choose = document.getElementById('chooseL1ManuallyBtn');
+  if (!panel || !text || !confirm || !choose) return;
+  pendingL1Suggestion = candidate;
+  panel.hidden = false;
+  if (candidate) {
+    const label = languageDisplayNames[candidate] || candidate;
+    text.textContent = `Detectamos ${label} como tu lengua materna. ¿Es correcto?`;
+    confirm.hidden = false;
+    choose.textContent = 'Elegir otra';
+  } else {
+    text.textContent = '¿Cuál es tu lengua materna?';
+    confirm.hidden = true;
+    choose.textContent = 'Seleccionar lengua materna';
+  }
+}
+
+async function suggestNativeLanguage() {
+  try {
+    if (localStorage.getItem(L1_CONFIRMED_STORAGE_KEY)) return;
+  } catch {
+    // A blocked storage API should not block language selection.
+  }
+
+  const browserCandidate = (navigator.languages || [navigator.language])
+    .map(languageFromLocale)
+    .find(Boolean);
+  if (browserCandidate) {
+    setL1SuggestionVisibility(browserCandidate);
+    return;
+  }
+
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/locale-hint`, {
+      headers: { Accept: 'application/json' }
+    });
+    if (response.ok) {
+      const hint = await response.json();
+      const headerCandidate = languageFromLocale(hint.acceptLanguage);
+      const countryCandidate = COUNTRY_TO_L1[hint.country] || '';
+      setL1SuggestionVisibility(headerCandidate || countryCandidate);
+      return;
+    }
+  } catch {
+    // The explicit question below is the privacy-safe fallback.
+  }
+  setL1SuggestionVisibility('');
 }
 
 function updatePathPairPreview() {
@@ -2299,6 +2398,10 @@ async function afterAuthSuccess() {
     profileStatus = 'loading';
     const preferences = await loadPreferences();
     profileStatus = preferences ? 'loaded' : 'error';
+    if (preferences?.username && authStatus.user) {
+      authStatus.user.username = preferences.username;
+      renderAuthState();
+    }
 
     applyPreferencesToSelects(preferences);
     await loadLearningPath(preferences || {});
@@ -4074,25 +4177,13 @@ function selectUnit(unitId, options = {}) {
   const changingUnit = unitId !== learningPathState.unitId;
   learningPathState.unitId = unitId;
   // A selected unit is the single navigation context for every skill tab.
-  // Open its first available activity immediately (normally Reading), so
-  // subsequent Reading/Listening/Speaking/etc. tabs resolve directly to the
-  // same unit instead of falling back to the course-wide card catalogue.
+  // Switching units expands its skills and waits for an explicit lesson
+  // choice instead of silently launching Reading.
   const activeBelongsToUnit = learningPathState.lessons.some(
     (item) => item.slug === learningPathState.activeSlug && item.unitId === unitId
   );
   if (changingUnit || !activeBelongsToUnit) {
-    const activities = getUnitActivities(unitId);
-    const firstActivity =
-      activities.find((item) => item.skill === 'reading' && !item.locked) ||
-      activities.find((item) => !item.locked) ||
-      activities[0];
-    learningPathState.activeSlug = firstActivity?.slug || '';
-    if (firstActivity?.locked) {
-      openPaywallModal({
-        title: 'Disponible en ANDERGO Premium.',
-        message: 'Esta unidad forma parte del recorrido completo de ANDERGO Premium.'
-      });
-    }
+    learningPathState.activeSlug = '';
   }
   updateLevelTabLabels();
   if (options.render !== false) renderLearningPath();
@@ -6363,6 +6454,13 @@ function renderUnitAccordionHtml(nextSlug) {
           ${isPremiumUnit ? '<span class="path-unit-premium">🔒 Premium</span>' : ''}
           <span class="path-unit-progress-label">${metrics.progressPercent}%</span>
         </button>
+        ${
+          isSelected
+            ? `<div class="path-unit-lessons" aria-label="Habilidades de ${escapeHtml(unit.title)}">
+                ${unitLessons.map((lesson) => renderLessonItemHtml(lesson, nextSlug)).join('')}
+              </div>`
+            : ''
+        }
       </div>
     `;
     })
@@ -6523,13 +6621,13 @@ function renderContinueCard(lesson, options = {}) {
   return `
     <div class="lesson-continue-card">
       <span class="lesson-continue-kicker">${escapeHtml(targetLabel)} · Nivel ${escapeHtml(lesson.level)}</span>
-      <h3>${selected || lesson.progressStatus === 'in_progress' ? 'Continúa tu lección' : 'Tu lección está lista'}</h3>
+      <h3>${selected ? 'Lección seleccionada' : 'Selecciona tu lección'}</h3>
       <p class="lesson-continue-title">${escapeHtml(skillLabel)} · ${escapeHtml(lesson.title)}</p>
       <div class="lesson-continue-progress" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
         <div style="width:${pct}%"></div>
       </div>
       <p class="lesson-continue-count">${completedCount}/${total} actividades completadas en ${escapeHtml(lesson.level)}</p>
-      <button type="button" class="primary-btn lesson-continue-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" data-lesson-skill="${escapeHtml(lesson.skill)}">${selected || lesson.progressStatus === 'in_progress' ? 'Continuar ahora' : 'Empezar ahora'} →</button>
+      <button type="button" class="primary-btn lesson-continue-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" data-lesson-skill="${escapeHtml(lesson.skill)}">${selected ? 'Abrir lección' : 'Ver lección recomendada'} →</button>
     </div>
   `;
 }
@@ -6614,6 +6712,10 @@ function renderUnitOverviewCard(unit) {
 
   return `
     <div class="unit-overview-panel">
+      <div class="unit-selection-intro">
+        <h3>Selecciona tu lección</h3>
+        <p>Elige una de las habilidades desplegadas debajo de esta unidad para comenzar.</p>
+      </div>
       <div class="unit-overview-header">
         <span class="unit-mission-kicker">${artwork.emoji} Viaje ${escapeHtml(String(unit.order))}</span>
         <h3 class="unit-title">${escapeHtml(unit.title)}</h3>
@@ -6763,6 +6865,17 @@ function renderLessonWorkspace() {
     workspace.innerHTML = renderContinueCard(activeLesson, { selected: true });
     workspace.classList.add('lesson-workspace--continue');
     workspace.classList.remove('lesson-workspace--unit-overview');
+    return;
+  }
+
+  const selectedUnit =
+    hasUnits() && learningPathState.unitId
+      ? learningPathState.units.find((unit) => unit.id === learningPathState.unitId)
+      : null;
+  if (selectedUnit) {
+    workspace.innerHTML = renderUnitOverviewCard(selectedUnit);
+    workspace.classList.remove('lesson-workspace--continue');
+    workspace.classList.add('lesson-workspace--unit-overview');
     return;
   }
 
@@ -8213,11 +8326,11 @@ function updateStartLearningButton() {
   const button = document.getElementById('pathStartLearningBtn');
   if (!button) return;
   const labels = {
-    english: 'Learn',
-    french: 'Apprendre',
-    spanish: 'Aprender'
+    english: 'Start my path',
+    french: 'Commencer mon parcours',
+    spanish: 'Empezar mi ruta'
   };
-  const label = labels[learningPathState.language] || 'Learn';
+  const label = labels[getEffectiveInterfaceLanguage()] || labels.spanish;
   button.textContent = label;
   button.setAttribute(
     'aria-label',
@@ -8261,7 +8374,7 @@ function updateLanguagePreviewSelection() {
     card.classList.toggle('is-selected', selected);
     card.setAttribute('aria-current', selected ? 'true' : 'false');
     const button = card.querySelector('.language-preview-btn');
-    if (button) button.textContent = selected ? 'Idioma seleccionado' : 'Seleccionar idioma';
+    if (button) button.textContent = selected ? '✓ Seleccionado' : 'Elegir idioma';
   });
 }
 
@@ -14884,6 +14997,7 @@ function handleHomeAction(action) {
       } else {
         setTargetLanguage(language);
       }
+      void suggestNativeLanguage();
     }
     window.setTimeout(() => {
       document
@@ -16615,7 +16729,32 @@ function setupLearningPathControls() {
     savePreferences(language, level);
   });
   bridgeSelect?.addEventListener('change', () => {
-    setBridgeLanguage(bridgeSelect.value);
+    if (setBridgeLanguage(bridgeSelect.value)) {
+      try {
+        localStorage.setItem(L1_CONFIRMED_STORAGE_KEY, bridgeSelect.value);
+      } catch {
+        // Preference persistence already has its own backend/local fallback.
+      }
+      const suggestion = document.getElementById('l1LanguageSuggestion');
+      if (suggestion) suggestion.hidden = true;
+    }
+  });
+  document.getElementById('confirmL1SuggestionBtn')?.addEventListener('click', () => {
+    if (!pendingL1Suggestion || !setBridgeLanguage(pendingL1Suggestion)) return;
+    try {
+      localStorage.setItem(L1_CONFIRMED_STORAGE_KEY, pendingL1Suggestion);
+    } catch {
+      // The confirmed selection is still persisted through savePreferences().
+    }
+    const suggestion = document.getElementById('l1LanguageSuggestion');
+    if (suggestion) suggestion.hidden = true;
+    showHomeToast('Lengua materna confirmada.');
+  });
+  document.getElementById('chooseL1ManuallyBtn')?.addEventListener('click', () => {
+    const suggestion = document.getElementById('l1LanguageSuggestion');
+    if (suggestion) suggestion.hidden = true;
+    bridgeSelect?.focus();
+    bridgeSelect?.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
   document
     .getElementById('pathSwapLanguagesBtn')

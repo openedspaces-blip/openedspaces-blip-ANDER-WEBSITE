@@ -73,6 +73,11 @@ function main() {
     stdio: 'inherit'
   });
 
+  console.log('Normalizing Reading comprehension questions...');
+  execSync(`node "${path.join(ROOT, 'scripts', 'normalize-reading-comprehension.js')}"`, {
+    stdio: 'inherit'
+  });
+
   console.log('Syncing generated language worlds...');
   execSync(`node "${path.join(ROOT, 'scripts', 'sync-worlds-from-seed.js')}"`, {
     stdio: 'inherit'

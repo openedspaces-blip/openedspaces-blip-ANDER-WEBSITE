@@ -727,12 +727,37 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "german-a1-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch A1 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch A1 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ich bin zwanzig Jahre alt. / Mein Vater kocht."
+        "id": "german-a1-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Was ist der Hauptzweck von „Deutsch A1 · Reading Quest“?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch A1 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
+      },
+      {
+        "id": "german-a1-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch A1 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch A1 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       }
     ]
   },
@@ -1274,12 +1299,48 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "german-a2-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch A2 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch A2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Am Samstag gehe ich ins Kino. / Wir sehen uns um acht."
+        "id": "german-a2-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Was ist der Hauptzweck von „Deutsch A2 · Reading Quest“?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch A2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
+      },
+      {
+        "id": "german-a2-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch A2 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch A2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
+      },
+      {
+        "id": "german-a2-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Was ist der Hauptzweck von „Deutsch A2 · Reading Quest“?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch A2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       }
     ]
   },
@@ -1821,12 +1882,48 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "german-b1-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch B1 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch B1 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Die Gruppe organisiert Workshops. / Die Aktivität begann im Mai."
+        "id": "german-b1-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Was ist der Hauptzweck von „Deutsch B1 · Reading Quest“?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch B1 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
+      },
+      {
+        "id": "german-b1-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch B1 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch B1 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
+      },
+      {
+        "id": "german-b1-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Was ist der Hauptzweck von „Deutsch B1 · Reading Quest“?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch B1 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       }
     ]
   },
@@ -2368,12 +2465,48 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "german-b2-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch B2 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch B2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Der Bericht sagt, dass... / Laut den Bewohnern..."
+        "id": "german-b2-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Was ist der Hauptzweck von „Deutsch B2 · Reading Quest“?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch B2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
+      },
+      {
+        "id": "german-b2-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch B2 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch B2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
+      },
+      {
+        "id": "german-b2-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Was ist der Hauptzweck von „Deutsch B2 · Reading Quest“?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch B2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       }
     ]
   },
@@ -2915,12 +3048,48 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "german-c1-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch C1 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch C1 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Der Autor behauptet, dass... / Aus diesem Beispiel ergibt sich..."
+        "id": "german-c1-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Was ist der Hauptzweck von „Deutsch C1 · Reading Quest“?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch C1 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
+      },
+      {
+        "id": "german-c1-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch C1 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch C1 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
+      },
+      {
+        "id": "german-c1-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Was ist der Hauptzweck von „Deutsch C1 · Reading Quest“?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch C1 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       }
     ]
   },
@@ -3462,12 +3631,48 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "german-c2-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch C2 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch C2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Der Text setzt einen kundigen Leser voraus. / Die essayistische Stimme wird schärfer."
+        "id": "german-c2-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Was ist der Hauptzweck von „Deutsch C2 · Reading Quest“?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch C2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
+      },
+      {
+        "id": "german-c2-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Welche Aussage fasst „Deutsch C2 · Reading Quest“ am besten zusammen?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch C2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
+      },
+      {
+        "id": "german-c2-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Was ist der Hauptzweck von „Deutsch C2 · Reading Quest“?",
+        "options": [
+          "Die wichtigsten Ideen und Details von Deutsch C2 · Reading Quest darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
+        ]
       }
     ]
   },

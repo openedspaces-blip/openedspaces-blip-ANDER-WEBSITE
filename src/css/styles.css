@@ -475,6 +475,33 @@ a:focus-visible {
   display: none;
 }
 
+.l1-language-suggestion {
+  width: 100%;
+  margin-top: 0.8rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: 16px;
+  background: rgba(239, 246, 255, 0.86);
+}
+
+.l1-language-suggestion p {
+  margin: 0;
+  color: var(--navy-2);
+  font-weight: 700;
+}
+
+.l1-language-suggestion-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.7rem;
+}
+
+.l1-language-suggestion-actions button {
+  min-height: 42px;
+  padding: 0.55rem 0.9rem;
+}
+
 .nav-more {
   position: relative;
 }
@@ -3660,6 +3687,67 @@ footer small {
   }
 }
 
+/* Tablet and compact desktop: keep the primary member destinations visible
+   as one horizontal row. Only phones use the hamburger; "Más" remains the
+   sole disclosure for secondary destinations. */
+@media (min-width: 641px) and (max-width: 1280px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      'brand actions'
+      'menu menu';
+    gap: 0.65rem 1rem;
+  }
+
+  .brand {
+    grid-area: brand;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu,
+  .menu.is-open {
+    grid-area: menu;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(1.25rem, 4vw, 3.5rem);
+    padding: 0.35rem 0 0.15rem;
+    overflow: visible;
+  }
+
+  .nav-more {
+    width: auto;
+  }
+
+  .nav-more summary {
+    justify-content: flex-start;
+  }
+
+  .nav-more-menu {
+    position: absolute;
+    top: calc(100% + 0.65rem);
+    right: 0;
+    width: max-content;
+    min-width: 190px;
+    margin-top: 0;
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.14);
+  }
+
+  .menu .nav-more-menu a {
+    text-align: left;
+  }
+
+  .nav-actions {
+    grid-area: actions;
+  }
+}
+
 @media (max-width: 1100px) {
   .hero {
     grid-template-columns: 1fr;
@@ -6398,7 +6486,7 @@ footer small {
 .learning-path-layout {
   display: grid;
   grid-template-columns: minmax(0, 0.88fr) minmax(620px, 1.12fr);
-  grid-template-areas: 'lesson route';
+  grid-template-areas: 'route lesson';
   gap: clamp(20px, 1.5vw, 28px);
   align-items: start;
   width: 100%;
@@ -6752,6 +6840,10 @@ footer small {
   border-radius: 20px;
 }
 
+.path-unit-group--selected {
+  padding-bottom: 0.25rem;
+}
+
 .path-unit {
   display: grid;
   grid-template-columns: 3rem minmax(180px, 1fr) auto auto auto;
@@ -6936,6 +7028,18 @@ footer small {
   gap: 0.45rem;
   margin: 0 0 0.25rem 0.9rem;
   padding-left: 1rem;
+  animation: path-skills-reveal 260ms var(--ease-standard) both;
+}
+
+@keyframes path-skills-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .path-unit-lessons::before {
@@ -7152,6 +7256,23 @@ footer small {
   padding: 1.5rem;
   box-shadow: var(--shadow-soft);
   border: 1px solid var(--line);
+}
+
+.unit-selection-intro {
+  margin-bottom: 1rem;
+  padding: 0.9rem 1rem;
+  border-radius: 16px;
+  background: linear-gradient(110deg, rgba(37, 99, 235, 0.08), rgba(0, 194, 255, 0.08));
+}
+
+.unit-selection-intro h3 {
+  margin: 0 0 0.25rem;
+}
+
+.unit-selection-intro p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.86rem;
 }
 
 .lesson-workspace-head {
@@ -14771,17 +14892,26 @@ footer small {
 
 .language-picker-section > .global-language-controls {
   order: 2;
+  flex-direction: column;
+  align-items: stretch;
   width: min(1080px, 100%);
   margin: 0 auto 1.6rem;
-  padding: 1.2rem 1.35rem;
+  padding: 1.05rem 1.35rem 1.25rem;
   border: 1px solid rgba(37, 99, 235, 0.2);
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.96);
   box-shadow: 0 20px 50px rgba(37, 99, 235, 0.12);
 }
 
+.language-configurator-title {
+  margin: 0 0 0.8rem;
+  color: var(--navy);
+  font-size: 1.15rem;
+  text-align: left;
+}
+
 .language-picker-section .language-pair-bar {
-  flex: 1;
+  width: 100%;
   justify-content: center;
   gap: 0.75rem;
 }
@@ -14799,8 +14929,8 @@ footer small {
 }
 
 .language-picker-section .language-preview-card {
-  min-height: 215px;
-  padding: 1.35rem;
+  min-height: 195px;
+  padding: 1.1rem 1.25rem;
   border-color: rgba(37, 99, 235, 0.12);
   background: rgba(255, 255, 255, 0.86);
   box-shadow: 0 12px 28px rgba(15, 23, 42, 0.065);
@@ -14833,12 +14963,13 @@ footer small {
 }
 
 .language-picker-section .language-preview-desc {
-  min-height: 2.9em;
+  min-height: 2.75em;
   margin-bottom: 0.5rem;
   font-size: 0.84rem;
 }
 
 .language-picker-section .language-preview-btn {
+  margin-top: auto;
   min-height: 2.55rem;
   padding: 0.55rem 1rem;
 }
@@ -15821,5 +15952,976 @@ footer small {
 
   .unit-route-marker:hover > span {
     transform: none;
+  }
+}
+
+/* ==========================================================================
+   Mobile experience pass
+   Keep the learning logic intact while giving phones a shorter header,
+   clearer first screen, touch-friendly navigation and denser activities.
+   ========================================================================== */
+@media (max-width: 640px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  body {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .navbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    grid-template-areas:
+      'brand actions toggle'
+      'menu menu menu';
+    gap: 0.4rem 0.55rem;
+    min-height: 62px;
+    padding: 0.45rem 0.75rem;
+  }
+
+  .brand {
+    grid-area: brand;
+    gap: 0.5rem;
+    overflow: hidden;
+  }
+
+  .brand-logo-symbol {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+  }
+
+  .brand h1 {
+    display: flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    max-width: 100%;
+    margin: 0;
+    font-size: 0.78rem;
+    letter-spacing: 0.035em;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .brand-product-name {
+    flex: 0 0 auto;
+  }
+
+  .brand-academy-name {
+    display: inline;
+    min-width: 0;
+    overflow: hidden;
+    font-size: 0.82em;
+    text-overflow: ellipsis;
+  }
+
+  .brand p,
+  .nav-actions .signup,
+  .nav-actions .user-chip {
+    display: none;
+  }
+
+  .menu-toggle {
+    grid-area: toggle;
+    align-self: center;
+    width: 42px;
+    height: 42px;
+    margin: 0;
+    padding: 9px;
+    border: 1px solid rgba(37, 99, 235, 0.14);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.82);
+  }
+
+  .menu-toggle span {
+    width: 22px;
+  }
+
+  .menu {
+    grid-area: menu;
+    max-height: calc(100dvh - 72px);
+    overflow-y: auto;
+    padding: 0.55rem 0 0.35rem;
+  }
+
+  .menu.is-open {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.35rem;
+  }
+
+  .menu.is-open a,
+  .menu.is-open summary {
+    min-height: 44px;
+    padding: 0.7rem 0.75rem;
+    border-radius: 12px;
+    background: #f6f9ff;
+    text-align: center;
+  }
+
+  .menu.is-open .nav-more,
+  .menu.is-open .nav-more-menu {
+    grid-column: 1 / -1;
+    width: 100%;
+    max-width: none;
+  }
+
+  .nav-actions {
+    grid-area: actions;
+    width: auto;
+    margin: 0;
+  }
+
+  .nav-actions .login,
+  .logout-btn {
+    display: inline-grid;
+    width: auto;
+    min-width: 0;
+    min-height: 40px;
+    place-items: center;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid rgba(37, 99, 235, 0.14);
+    border-radius: 12px;
+    font-size: 0.72rem;
+  }
+
+  .global-language-controls {
+    padding: 0.45rem 0.75rem;
+  }
+
+  .hero {
+    display: block;
+    min-height: 0;
+    padding: 2.25rem 1rem 2.5rem;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .pill {
+    max-width: 100%;
+    margin-bottom: 0.9rem;
+    padding: 0.42rem 0.65rem;
+    font-size: 0.62rem;
+    letter-spacing: 0.055em;
+    white-space: normal;
+  }
+
+  .hero-copy-carousel {
+    min-height: 246px;
+  }
+
+  .hero h2 {
+    max-width: 12ch;
+    margin-bottom: 0.9rem;
+    font-size: clamp(2.1rem, 11vw, 2.85rem);
+    line-height: 0.98;
+    letter-spacing: -0.055em;
+  }
+
+  .hero p {
+    margin-bottom: 1.1rem;
+    font-size: 0.94rem;
+    line-height: 1.52;
+  }
+
+  .hero-carousel-controls {
+    margin-top: 0;
+  }
+
+  .hero-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+    margin: 1rem 0 1.25rem;
+  }
+
+  .hero-buttons .primary-btn,
+  .hero-buttons .secondary-btn {
+    width: 100%;
+    min-height: 48px;
+    justify-content: center;
+  }
+
+  .quick-stats {
+    display: grid;
+    grid-auto-columns: minmax(145px, 74vw);
+    grid-auto-flow: column;
+    grid-template-columns: none;
+    gap: 0.55rem;
+    margin: 0 -1rem;
+    padding: 0 1rem 0.6rem;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+  }
+
+  .quick-stats::-webkit-scrollbar {
+    display: none;
+  }
+
+  .quick-stats div {
+    min-height: 82px;
+    padding: 0.8rem;
+    scroll-snap-align: start;
+  }
+
+  .hero-card {
+    display: none;
+  }
+
+  .section {
+    padding: 3rem 1rem;
+  }
+
+  .section-heading {
+    margin-bottom: 1.35rem;
+  }
+
+  .section-heading h2,
+  .download-box h2 {
+    font-size: clamp(1.85rem, 9vw, 2.35rem);
+    letter-spacing: -0.045em;
+  }
+
+  .language-picker-section {
+    padding: 2rem 0.85rem;
+  }
+
+  .language-picker-section > .section-heading {
+    margin-bottom: 1rem;
+  }
+
+  .language-picker-section > .global-language-controls {
+    gap: 0.75rem;
+    margin-bottom: 0.9rem;
+    padding: 0.85rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(37, 99, 235, 0.09);
+  }
+
+  .language-picker-section .language-pair-bar {
+    gap: 0.5rem;
+  }
+
+  .language-picker-section .path-start-learning-btn {
+    width: 100%;
+    min-height: 46px;
+  }
+
+  /* The selectors already expose every language. Repeating three tall
+     promotional cards on a phone delays the actual route unnecessarily. */
+  .language-picker-section > .language-preview-grid {
+    display: none;
+  }
+
+  .language-picker-section > .current-plan-summary {
+    margin-top: 0.7rem;
+    padding: 0.65rem;
+    border-radius: 14px;
+  }
+
+  .learning-path-section,
+  .skill-view-section {
+    padding: 1.25rem 0.65rem 3rem;
+  }
+
+  #learning-path > .level-tabs,
+  .skill-view-section .level-tabs {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 0.35rem;
+    margin: 0 -0.65rem 0.8rem;
+    padding: 0 0.65rem 0.35rem;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+  }
+
+  #learning-path > .level-tabs::-webkit-scrollbar,
+  .skill-view-section .level-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .level-tab {
+    flex: 0 0 auto;
+    min-height: 42px;
+    padding: 0.58rem 0.82rem;
+    scroll-snap-align: start;
+    font-size: 0.78rem;
+  }
+
+  .learning-route-context {
+    min-height: 34px;
+    margin: 0.35rem auto 0.75rem;
+    padding-inline: 0.65rem;
+  }
+
+  .lesson-workspace,
+  .skill-graph,
+  .skill-view-content,
+  .listening-content {
+    min-width: 0;
+  }
+
+  .lesson-workspace {
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
+  .learn-route-toggle {
+    min-height: 46px;
+    margin-bottom: 0.75rem;
+  }
+
+  .skill-graph.is-drawer-open {
+    max-height: min(72dvh, 2000px);
+    margin-top: 0.75rem;
+    padding: 0.75rem;
+    overflow-y: auto;
+    border-radius: 20px;
+  }
+
+  .path-summary {
+    gap: 0.45rem;
+    margin-bottom: 0.7rem;
+    padding: 0.2rem 0.15rem 0.7rem;
+  }
+
+  .path-unit {
+    grid-template-columns: 2.6rem minmax(0, 1fr) auto;
+    gap: 0.55rem;
+    min-height: 74px;
+    padding: 0.65rem;
+    border-radius: 16px;
+  }
+
+  .path-unit > :nth-child(n + 4) {
+    grid-column: 2 / -1;
+    justify-self: start;
+  }
+
+  .path-unit-title {
+    font-size: 0.9rem;
+  }
+
+  .path-unit-title-es,
+  .path-summary-detail {
+    font-size: 0.72rem;
+  }
+
+  .skill-view-header {
+    align-items: stretch;
+    padding: 0.6rem;
+  }
+
+  .skill-view-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .skill-view-actions button,
+  .skill-view-actions a {
+    width: 100%;
+    min-height: 44px;
+    justify-content: center;
+    padding-inline: 0.55rem;
+    font-size: 0.76rem;
+  }
+
+  .mcq-question {
+    gap: 0.6rem;
+    padding: 0.75rem;
+    border-radius: 16px;
+  }
+
+  .exercise-prompt {
+    font-size: 0.94rem;
+    line-height: 1.35;
+  }
+
+  .mcq-options {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+
+  .mcq-option {
+    min-height: 48px;
+    padding: 0.68rem 0.75rem;
+    font-size: 0.84rem;
+    line-height: 1.35;
+  }
+
+  .listening-questions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+
+  .listening-player-controls {
+    gap: 0.45rem;
+  }
+
+  .listening-ctrl-btn {
+    min-height: 44px;
+    padding-inline: 0.55rem;
+    font-size: 0.76rem;
+  }
+
+  .listening-story-text {
+    max-height: 52dvh;
+    padding: 0.9rem;
+    overflow-y: auto;
+    font-size: 0.96rem;
+    line-height: 1.62;
+  }
+
+  .vocab-mission {
+    padding: 0.8rem;
+    border-radius: 16px;
+  }
+
+  .vocab-mission-main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.65rem;
+  }
+
+  .vocab-mission-score {
+    min-height: 62px;
+    flex-basis: 70px;
+  }
+
+  .vocab-card-face {
+    padding: 0.85rem;
+  }
+
+  .vocab-card-actions {
+    gap: 0.35rem;
+  }
+
+  .vocab-card-actions button {
+    min-height: 42px;
+    padding-inline: 0.5rem;
+    font-size: 0.72rem;
+  }
+
+  .tutor-fab {
+    right: max(0.75rem, env(safe-area-inset-right));
+    bottom: max(0.75rem, env(safe-area-inset-bottom));
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 390px) {
+  .brand-academy-name {
+    display: none;
+  }
+
+  .nav-actions .login,
+  .logout-btn {
+    padding-inline: 0.55rem;
+    font-size: 0.68rem;
+  }
+
+  .hero h2 {
+    font-size: 2.05rem;
+  }
+
+  .skill-view-actions {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Phone density refinement: the first mobile pass establishes the layout;
+   this pass removes the remaining desktop-sized spacing and control chrome. */
+@media (max-width: 640px) {
+  .navbar {
+    min-height: 54px;
+    gap: 0.25rem 0.4rem;
+    padding: 0.3rem 0.55rem;
+  }
+
+  .brand {
+    gap: 0.38rem;
+  }
+
+  .brand-logo-symbol {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+  }
+
+  .brand h1 {
+    gap: 0.28rem;
+    font-size: 0.72rem;
+  }
+
+  .brand-academy-name {
+    font-size: 0.78em;
+  }
+
+  .menu-toggle {
+    width: 38px;
+    height: 38px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .menu-toggle span {
+    width: 20px;
+  }
+
+  .nav-actions .login,
+  .logout-btn {
+    min-height: 36px;
+    padding: 0.4rem 0.55rem;
+    border-radius: 10px;
+    font-size: 0.68rem;
+  }
+
+  .menu.is-open {
+    gap: 0.28rem;
+    padding-top: 0.35rem;
+  }
+
+  .menu.is-open a,
+  .menu.is-open summary {
+    min-height: 40px;
+    padding: 0.55rem 0.6rem;
+    border-radius: 10px;
+    font-size: 0.78rem;
+  }
+
+  .hero {
+    padding: 1.7rem 0.85rem 2rem;
+  }
+
+  .hero-copy-carousel {
+    min-height: 218px;
+  }
+
+  .hero h2 {
+    margin-bottom: 0.7rem;
+    font-size: clamp(1.9rem, 10vw, 2.45rem);
+    line-height: 1;
+  }
+
+  .hero p {
+    margin-bottom: 0.8rem;
+    font-size: 0.88rem;
+    line-height: 1.45;
+  }
+
+  .hero-buttons {
+    margin-block: 0.8rem 1rem;
+  }
+
+  .hero-buttons .primary-btn,
+  .hero-buttons .secondary-btn {
+    min-height: 44px;
+    padding: 0.65rem 0.8rem;
+    font-size: 0.82rem;
+  }
+
+  .section {
+    padding-block: 2.4rem;
+  }
+
+  .learning-path-section,
+  .skill-view-section {
+    padding-top: 0.85rem;
+  }
+
+  .learning-route-context,
+  .activity-route-context {
+    min-height: 30px;
+    margin-block: 0.2rem 0.55rem;
+    font-size: 0.68rem;
+  }
+
+  .level-tab {
+    min-height: 38px;
+    padding: 0.48rem 0.72rem;
+    font-size: 0.72rem;
+  }
+
+  .skill-view-header {
+    gap: 0.32rem;
+    margin-bottom: 0.55rem;
+    padding: 0.45rem 0.5rem;
+    border-radius: 13px;
+  }
+
+  .skill-view-pill {
+    padding: 0.18rem 0.48rem;
+    font-size: 0.68rem;
+  }
+
+  .skill-view-actions button,
+  .skill-view-actions a {
+    min-height: 40px;
+    font-size: 0.7rem;
+  }
+
+  .unit-mission-strip {
+    gap: 0.35rem;
+    margin-bottom: 0.55rem;
+    padding: 0.45rem 0.55rem;
+    border-radius: 13px;
+  }
+
+  .unit-mission-copy strong {
+    font-size: 0.82rem;
+  }
+
+  .unit-mission-copy small,
+  .unit-mission-kicker {
+    font-size: 0.66rem;
+  }
+
+  .unit-mission-route-btn {
+    min-height: 36px;
+    padding-inline: 0.55rem;
+    font-size: 0.68rem;
+  }
+
+  .unit-learning-sequence,
+  .unit-overview-sequence {
+    padding: 0.5rem;
+    border-radius: 14px;
+  }
+
+  .unit-sequence-step {
+    min-width: 82px;
+    min-height: 52px;
+    padding: 0.4rem 0.45rem;
+  }
+
+  .unit-sequence-number {
+    width: 24px;
+    height: 24px;
+    font-size: 0.66rem;
+  }
+
+  .unit-sequence-label strong {
+    font-size: 0.72rem;
+  }
+
+  .unit-sequence-label small {
+    font-size: 0.62rem;
+  }
+
+  /* Listening: keep all current actions, but arrange them as a compact
+     three-column remote instead of oversized two-column buttons. */
+  .listening-stage,
+  .listening-story-card,
+  .listening-questions-section {
+    padding-inline: 0;
+  }
+
+  .listening-stage-heading {
+    display: grid;
+    grid-template-columns: 2.45rem minmax(0, 1fr);
+    gap: 0.55rem;
+  }
+
+  .listening-stage-icon {
+    width: 2.45rem;
+    height: 2.45rem;
+    border-radius: 12px;
+    font-size: 1.15rem;
+  }
+
+  .listening-stage-heading h2,
+  .listening-title {
+    font-size: 1rem;
+  }
+
+  .listening-stage-heading p,
+  .listening-source-banner,
+  .listening-transcript-note {
+    font-size: 0.7rem;
+  }
+
+  .listening-player {
+    padding: 0.5rem;
+    border-radius: 12px;
+  }
+
+  .listening-player-status {
+    margin-bottom: 0.35rem;
+    font-size: 0.66rem;
+  }
+
+  .listening-player-controls {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.3rem;
+    margin-bottom: 0.42rem;
+  }
+
+  .listening-play-btn {
+    grid-column: auto;
+  }
+
+  .listening-ctrl-btn {
+    width: 100%;
+    min-height: 38px;
+    padding: 0.28rem 0.32rem;
+    border-radius: 10px;
+    font-size: 0.67rem;
+    line-height: 1.1;
+  }
+
+  .listening-player-progress-row {
+    flex-wrap: nowrap;
+    gap: 0.32rem;
+  }
+
+  .listening-progress-range {
+    order: 0;
+    width: auto;
+    min-width: 0;
+  }
+
+  .listening-time-elapsed,
+  .listening-time-duration {
+    min-width: 2.05rem;
+    font-size: 0.64rem;
+  }
+
+  .listening-story-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .listening-story-toggle {
+    width: auto;
+    min-height: 38px;
+    padding: 0.45rem 0.65rem;
+    font-size: 0.68rem;
+  }
+
+  .listening-story-text,
+  .listening-transcript-body {
+    margin-top: 0.5rem;
+    padding: 0.72rem;
+    font-size: 0.86rem;
+    line-height: 1.5;
+  }
+
+  .listening-questions-section {
+    margin-block: 0.75rem;
+  }
+
+  .listening-progress-bar {
+    height: 5px;
+    margin-block: 0.5rem 0.75rem;
+  }
+
+  .mcq-question,
+  .grammar-test-question-item,
+  .listening-comp-question {
+    padding: 0.65rem;
+  }
+
+  .mcq-option,
+  .grammar-test-option {
+    min-height: 42px;
+    padding: 0.55rem 0.62rem;
+    font-size: 0.78rem;
+  }
+
+  .exercise-prompt,
+  .grammar-test-question-prompt {
+    font-size: 0.86rem;
+  }
+
+  /* Speaking, Writing and Grammar retain their distinct activities while
+     using less introductory chrome above the actual practice. */
+  .speaking-action-grid {
+    gap: 0.5rem;
+  }
+
+  .speaking-action-card {
+    min-height: 70px;
+    padding: 0.7rem;
+    border-radius: 14px;
+  }
+
+  .speaking-action-card h3 {
+    font-size: 0.88rem;
+  }
+
+  .speaking-action-card p {
+    font-size: 0.72rem;
+    line-height: 1.35;
+  }
+
+  .writing-plan,
+  .writing-editor,
+  .writing-practice-card {
+    gap: 0.55rem;
+    padding: 0.7rem;
+    border-radius: 14px;
+  }
+
+  .writing-editor textarea,
+  .writing-practice-card textarea {
+    min-height: 118px;
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .grammar-quick-mission,
+  .grammar-lesson-hero,
+  .grammar-test-hero {
+    gap: 0.55rem;
+    padding: 0.7rem;
+    border-radius: 14px;
+  }
+
+  .grammar-quick-grid,
+  .grammar-card-grid,
+  .grammar-lesson-sections-grid {
+    gap: 0.55rem;
+  }
+
+  .grammar-concept-card,
+  .grammar-lesson-section {
+    padding: 0.7rem;
+    border-radius: 12px;
+  }
+
+  .grammar-concept-card h4,
+  .grammar-lesson-section h4 {
+    font-size: 0.82rem;
+  }
+
+  .grammar-concept-card p,
+  .grammar-lesson-section p {
+    font-size: 0.72rem;
+    line-height: 1.4;
+  }
+
+  /* Vocabulary and verbs: filters become a horizontal utility strip and
+     cards lose decorative height, not their learning actions. */
+  .vocab-mission {
+    gap: 0.5rem;
+    margin-bottom: 0.65rem;
+    padding: 0.65rem;
+  }
+
+  .vocab-mission h3 {
+    font-size: 0.9rem;
+  }
+
+  .vocab-mission p {
+    font-size: 0.7rem;
+  }
+
+  .vocab-card {
+    min-height: 172px;
+  }
+
+  .vocab-card-deck {
+    gap: 0.65rem;
+  }
+
+  .verbs-toolbar {
+    flex-wrap: nowrap;
+    gap: 0.45rem;
+    margin: 0 -0.65rem 0.75rem;
+    padding: 0 0.65rem 0.35rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .verbs-toolbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .verbs-search-field,
+  .verbs-filter-field {
+    flex: 0 0 min(72vw, 230px);
+    font-size: 0.66rem;
+  }
+
+  .verbs-search-field input,
+  .verbs-filter-field select {
+    min-width: 0;
+    min-height: 40px;
+    padding: 0.48rem 0.62rem;
+    font-size: 0.8rem;
+  }
+
+  .verb-tile-grid {
+    gap: 0.5rem;
+  }
+
+  .unit-verbs-context {
+    gap: 0.55rem;
+    margin-bottom: 0.65rem;
+    padding: 0.65rem;
+    border-radius: 14px;
+  }
+
+  .translator-shell,
+  .translator-card,
+  .translator-panel {
+    padding: 0.7rem;
+    border-radius: 14px;
+  }
+
+  .translator-grid {
+    gap: 0.6rem;
+  }
+
+  .translator-grid textarea {
+    min-height: 128px;
+    padding: 0.7rem;
+    font-size: 0.88rem;
+  }
+
+  .tutor-fab {
+    width: 46px;
+    height: 46px;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand-academy-name {
+    display: none;
+  }
+
+  .navbar {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+  }
+
+  .hero-copy-carousel {
+    min-height: 205px;
+  }
+
+  .listening-ctrl-btn {
+    font-size: 0.64rem;
+  }
+
+  .unit-mission-strip {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+  }
+
+  .unit-mission-copy {
+    width: auto;
   }
 }

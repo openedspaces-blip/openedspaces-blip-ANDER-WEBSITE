@@ -260,6 +260,7 @@
         </div>
 
         <div class="global-language-controls" aria-label="Personaliza tu ruta de aprendizaje">
+          <h2 class="language-configurator-title" data-field="configuratorTitle">Configura tu ruta</h2>
           <div class="language-pair-bar" role="group" aria-label="Selector de idioma puente, idioma meta, nivel y lección">
             <label class="language-pair-field"
               ><span data-field="bridgeSelectLabel">Idioma puente (L1)</span>
@@ -281,26 +282,33 @@
             <label class="language-pair-field language-pair-field-level"
               ><span data-field="levelSelectLabel">Nivel</span>
               <select id="pathLevelSelect">
-                <option value="A1">A1</option>
-                <option value="A2">A2</option>
-                <option value="B1">B1</option>
-                <option value="B2">B2</option>
-                <option value="C1">C1</option>
-                <option value="C2">C2</option>
+                <option value="A1">A1 · Principiante</option>
+                <option value="A2">A2 · Básico</option>
+                <option value="B1">B1 · Intermedio</option>
+                <option value="B2">B2 · Intermedio alto</option>
+                <option value="C1">C1 · Avanzado</option>
+                <option value="C2">C2 · Dominio</option>
               </select>
             </label>
             <label class="language-pair-field language-pair-field-lesson"
-              ><span data-field="lessonSelectLabel">Lección</span>
-              <select id="pathLessonSelect" aria-label="Lección">
+              ><span data-field="lessonSelectLabel">Unidad inicial</span>
+              <select id="pathLessonSelect" aria-label="Unidad inicial">
                 <option value="">Cargando lecciones…</option>
               </select>
             </label>
             <button type="button" id="pathStartLearningBtn" class="primary-btn path-start-learning-btn">
-              Learn
+              Empezar mi ruta
             </button>
           </div>
           <div class="global-language-summary">
             <p class="path-pair-preview" id="pathPairPreview" aria-live="polite"></p>
+          </div>
+          <div class="l1-language-suggestion" id="l1LanguageSuggestion" hidden aria-live="polite">
+            <p id="l1LanguageSuggestionText"></p>
+            <div class="l1-language-suggestion-actions">
+              <button type="button" class="primary-btn" id="confirmL1SuggestionBtn">Sí, correcto</button>
+              <button type="button" class="secondary-btn" id="chooseL1ManuallyBtn">Elegir otra</button>
+            </div>
           </div>
         </div>
 

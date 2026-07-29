@@ -727,12 +727,37 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "italian-a1-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano A1 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano A1 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ho vent'anni. / Mio padre cucina."
+        "id": "italian-a1-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Italiano A1 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano A1 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano A1 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano A1 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       }
     ]
   },
@@ -1274,12 +1299,48 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "italian-a2-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano A2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano A2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Sabato vado al cinema. / Ci vediamo alle otto."
+        "id": "italian-a2-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Italiano A2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano A2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano A2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano A2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Italiano A2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano A2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       }
     ]
   },
@@ -1821,12 +1882,48 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "italian-b1-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano B1 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano B1 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Il gruppo organizza laboratori. / L'attività è iniziata a maggio."
+        "id": "italian-b1-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Italiano B1 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano B1 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-b1-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano B1 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano B1 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-b1-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Italiano B1 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano B1 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       }
     ]
   },
@@ -2368,12 +2465,48 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "italian-b2-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano B2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano B2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Il rapporto segnala che... / Secondo i residenti..."
+        "id": "italian-b2-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Italiano B2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano B2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-b2-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano B2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano B2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-b2-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Italiano B2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano B2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       }
     ]
   },
@@ -2915,12 +3048,48 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "italian-c1-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano C1 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano C1 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: L'autore sostiene che... / A partire da questo esempio..."
+        "id": "italian-c1-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Italiano C1 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano C1 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-c1-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano C1 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano C1 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-c1-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Italiano C1 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano C1 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       }
     ]
   },
@@ -3462,12 +3631,48 @@
         ]
       },
       {
-        "type": "reading",
-        "prompt": "Lee el texto y resume la idea principal en una frase clara."
+        "id": "italian-c2-reading-comprehension-2",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano C2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano C2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Il testo presuppone un lettore esperto. / La voce saggistica diventa più incisiva."
+        "id": "italian-c2-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Italiano C2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano C2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-c2-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Italiano C2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano C2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-c2-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Italiano C2 · Reading Quest»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Italiano C2 · Reading Quest",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       }
     ]
   },

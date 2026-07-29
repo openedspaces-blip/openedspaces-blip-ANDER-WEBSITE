@@ -405,17 +405,6 @@
           "Speaking about the weather"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which idea best summarises the final paragraph?",
-        "options": [
-          "Progress can make a difficult challenge worthwhile",
-          "Challenges should always be avoided",
-          "Only managers can solve problems",
-          "Being tired means a plan has failed"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -506,40 +495,6 @@
           "Colors",
           "Drawing"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Ana is a little nervous on her first day.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Leo is Ana's teacher.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Ana and Leo shake hands.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: Mr. Green has a big smile and a very ___ voice.",
-        "options": [
-          "angry",
-          "friendly",
-          "sad",
-          "tired"
-        ]
       }
     ]
   },
@@ -621,56 +576,6 @@
           "media literacy and transparent moderation",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "viral",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -772,56 +677,6 @@
           "A One Health strategy combines prevention, surveillance, responsible use, research incentives and access to effective treatment.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "antimicrobial resistance",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -948,76 +803,6 @@
           "It prevents paragraphing",
           "It removes vocabulary"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Adult Neuroplasticity and Second-Language Mastery”?",
-        "options": [
-          "A defensible pedagogy replaces neurological fatalism with demanding, distributed practice measured through meaningful communicative performance.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
-        ]
       }
     ]
   },
@@ -1103,36 +888,6 @@
           "Sarah and her boss",
           "Sarah and Lucy",
           "The waiter and Sarah"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why do Sarah and Lucy wake up late on Saturday?",
-        "options": [
-          "They have no plans",
-          "They are tired from the trip",
-          "The hotel is very noisy",
-          "It is raining outside"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What can you infer about how Sarah feels about the week with Lucy?",
-        "options": [
-          "She found it boring",
-          "She was happy but is sad it is ending",
-          "She wanted to work instead",
-          "She did not enjoy the countryside"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Sarah mean when she says, \"next time, you have to visit for longer\"?",
-        "options": [
-          "She wants Lucy to leave sooner next time",
-          "She enjoyed the visit and wants a longer one next time",
-          "She thinks the trip was too long",
-          "She is asking Lucy to move to Manchester"
         ]
       }
     ]
@@ -7825,17 +7580,6 @@
           "Both have managed budgets"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does Sarah finally decide to apply?",
-        "options": [
-          "The promotion is guaranteed",
-          "Priya writes the application",
-          "She would regret not trying",
-          "The role has no pressure"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -7922,40 +7666,6 @@
           "His sister",
           "Mr. Green"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Marco is tired today.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Marco's favorite color is blue.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Marco's family is having a party tonight.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: My city is big and ___, with many parks.",
-        "options": [
-          "colorful",
-          "boring",
-          "empty",
-          "cold"
-        ]
       }
     ]
   },
@@ -8037,56 +7747,6 @@
           "reduce unnecessary use while redesigning systems",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "single-use",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -8188,56 +7848,6 @@
           "Transparent reporting, efficient hardware, flexible demand and low-carbon electricity must be assessed together rather than through a single global estimate.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "data centre",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -8364,76 +7974,6 @@
           "It prevents paragraphing",
           "It removes vocabulary"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Retrieval Practice, Spacing and Durable Learning”?",
-        "options": [
-          "Durable vocabulary practice combines contextual encounters, multidirectional retrieval, expanding intervals and corrective feedback.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
-        ]
       }
     ]
   },
@@ -8519,36 +8059,6 @@
           "Boring and slow",
           "Disorganized and busy",
           "Sad"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What news does Lucy share after lunch?",
-        "options": [
-          "She has a new job",
-          "She has a new flat in Leeds",
-          "She is moving to Manchester",
-          "She is getting married"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What can you infer about how Sarah feels about her family?",
-        "options": [
-          "She finds them boring",
-          "She loves them, even though lunch is chaotic",
-          "She rarely sees them",
-          "She prefers to eat alone"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Diane mean by \"Same time next month?\"",
-        "options": [
-          "She is planning a different event",
-          "She is confirming the next monthly lunch",
-          "She is asking Daniel to leave",
-          "She is talking about work"
         ]
       }
     ]
@@ -15105,17 +14615,6 @@
           "A problem outside the neighbourhood"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "How did Sarah’s attitude change?",
-        "options": [
-          "From hopeful to angry",
-          "From expecting complaints to believing in small actions",
-          "From active to uninterested",
-          "From confident to confused"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -15202,40 +14701,6 @@
           "Cooking",
           "Reading"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Sofia loves music.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The family lives in a big city apartment.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Rosa cooks for the family.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: Rosa is very ___; she cooks delicious food for us.",
-        "options": [
-          "kind",
-          "angry",
-          "lazy",
-          "sad"
-        ]
       }
     ]
   },
@@ -15317,56 +14782,6 @@
           "combine credible personal action with structural policy",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "carbon footprint",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -15468,56 +14883,6 @@
           "Outcome-based financing, technology transfer, regional treatment centres and continued investment in simpler therapies should be considered together.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "gene editing",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -15644,76 +15009,6 @@
           "It prevents paragraphing",
           "It removes vocabulary"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Sleep, Memory and Vocabulary Consolidation”?",
-        "options": [
-          "Learners should treat sleep as part of a wider learning system rather than as a substitute for attentive exposure, retrieval and use.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
-        ]
       }
     ]
   },
@@ -15799,36 +15094,6 @@
           "A beginning, not yet complete",
           "A mistake",
           "A big improvement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Where exactly is the bakery?",
-        "options": [
-          "Opposite the building",
-          "On the corner, between a pharmacy and a coffee shop",
-          "Behind the supermarket",
-          "Next to the park"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What can you infer about how Lucy feels about her new home?",
-        "options": [
-          "She regrets moving there",
-          "She is happy and proud of it",
-          "She is bored of it already",
-          "She wants to move again soon"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Lucy give Sarah before she leaves?",
-        "options": [
-          "A book",
-          "A key to the flat",
-          "A photo from Portugal",
-          "Some bread from the bakery"
         ]
       }
     ]
@@ -22395,17 +21660,6 @@
           "A phone charger"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What lesson did Sarah learn?",
-        "options": [
-          "An itinerary is unnecessary",
-          "Flexibility can improve a well-planned trip",
-          "Museums are never worth visiting",
-          "Daniel should plan every journey"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -22492,40 +21746,6 @@
           "Use computers",
           "Read books"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The classroom walls are yellow.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: There is a computer in the classroom.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Math is always easy for the writer.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: The classroom is big and ___, with yellow walls.",
-        "options": [
-          "bright",
-          "dark",
-          "small",
-          "empty"
-        ]
       }
     ]
   },
@@ -22607,56 +21827,6 @@
           "strengthen open procurement, independent journalism, civic oversight and institutions adapted to each national context",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "clientelism",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -22758,56 +21928,6 @@
           "Health impact assessment, targeted social protection and clean household energy can make decarbonisation both faster and fairer.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "co-benefit",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -22934,76 +22054,6 @@
           "It prevents paragraphing",
           "It removes vocabulary"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Comprehensible Input and Incidental Acquisition”?",
-        "options": [
-          "Effective input is meaningfully challenging, recurrent and supported by selective glosses, inference and later retrieval.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
-        ]
       }
     ]
   },
@@ -23089,36 +22139,6 @@
           "To avoid a possible problem",
           "To be dangerous",
           "To finish quickly"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How much parmesan does Sarah ask for?",
-        "options": [
-          "One hundred grams",
-          "About two hundred grams",
-          "Half a kilo",
-          "A whole block"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What can you infer about how the evening goes?",
-        "options": [
-          "It goes badly and they argue",
-          "It goes well - good food and easy conversation",
-          "Daniel does not like the food",
-          "They order food instead"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Daniel bring besides the wine?",
-        "options": [
-          "A dessert",
-          "A bunch of flowers",
-          "A loaf of bread",
-          "Extra pasta"
         ]
       }
     ]
@@ -29685,17 +28705,6 @@
           "Work every Sunday"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the central message?",
-        "options": [
-          "Rest and ambition can support each other",
-          "Only dramatic changes improve health",
-          "Productivity requires constant availability",
-          "Work problems disappear immediately"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -29782,40 +28791,6 @@
           "Eight o'clock",
           "Nine o'clock"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: She walks to school alone.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: She has English, Math and Science in the morning.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: She goes to bed at eight thirty.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: We talk about our day and ___ a lot at dinner.",
-        "options": [
-          "laugh",
-          "cry",
-          "sleep",
-          "cook"
-        ]
       }
     ]
   },
@@ -29897,56 +28872,6 @@
           "celebrate achievement while examining unfinished work",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "independence",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -30048,56 +28973,6 @@
           "Community infrastructure, accessible transport, mental-health support and opportunities for meaningful participation should reinforce one another.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "loneliness",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -30224,76 +29099,6 @@
           "It prevents paragraphing",
           "It removes vocabulary"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Reading, Listening and Multimodal Learning”?",
-        "options": [
-          "Multimodal design should coordinate rather than merely accumulate information and should gradually reduce support as perception becomes more independent.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
-        ]
       }
     ]
   },
@@ -30379,36 +29184,6 @@
           "The feeling of being tired",
           "Hunger",
           "Confusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What happened one night in Rome?",
-        "options": [
-          "They missed their train",
-          "They got lost and walked for two hours",
-          "They lost their backpacks",
-          "They argued about money"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What can you infer about how Sarah feels about the trip now?",
-        "options": [
-          "She regrets it",
-          "She remembers it fondly as one of her best summers",
-          "She found it boring",
-          "She never wants to travel again"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Daniel suggest at the end?",
-        "options": [
-          "That they study together",
-          "That they have their own adventure someday",
-          "That Sarah travels alone",
-          "That they visit Lucy"
         ]
       }
     ]
@@ -36965,17 +35740,6 @@
           "A larger apartment"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does Sarah’s view of a budget change?",
-        "options": [
-          "It becomes a tool for choosing priorities",
-          "It becomes a list she can ignore",
-          "It proves the course is impossible",
-          "It removes every limit"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -37062,40 +35826,6 @@
           "Three o'clock",
           "Four o'clock"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: Math class is on Tuesday and Thursday.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The writer's birthday is in July.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: There are no classes in July and August.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: Sunday is a ___ day; my family rests.",
-        "options": [
-          "quiet",
-          "noisy",
-          "busy",
-          "short"
-        ]
       }
     ]
   },
@@ -37177,56 +35907,6 @@
           "belonging can be multiple without being superficial",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "belonging",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -37328,56 +36008,6 @@
           "Integrated care, decent working conditions, support for unpaid carers and age-friendly housing form part of the same policy system.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "long-term care",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -37504,76 +36134,6 @@
           "It prevents paragraphing",
           "It removes vocabulary"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Interaction, Output and Negotiation of Meaning”?",
-        "options": [
-          "Well-designed interaction gives learners reasons to exchange information, notice gaps, request help and revise what they have attempted to say.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
-        ]
       }
     ]
   },
@@ -37659,36 +36219,6 @@
           "Good quality for a reasonable price",
           "The cheapest option available",
           "The most luxurious choice"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why do they choose October for the trip?",
-        "options": [
-          "It is warmer than summer",
-          "It's less busy and cheaper than summer",
-          "It is the only free month",
-          "The hotel is only open then"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Daniel mean by \"more organised than your last one\"?",
-        "options": [
-          "He is criticising Sarah seriously",
-          "He is joking about her unplanned trip with Lucy",
-          "He means their flight was disorganised",
-          "He is talking about work"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How do they plan to get around the city?",
-        "options": [
-          "Only by taxi",
-          "Mostly walking, buses if the weather is bad",
-          "Only by bus",
-          "They will rent a car"
         ]
       }
     ]
@@ -44244,17 +42774,6 @@
           "Phones should be used only for banking"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What was the result of their one-week experiment?",
-        "options": [
-          "They stopped using technology",
-          "Their evenings became calmer",
-          "Sarah missed every message",
-          "They ate dinner later"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -44341,40 +42860,6 @@
           "At night",
           "Never"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The writer's favorite meal is lunch.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The writer drinks coffee every day.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The brother eats fish two or three times a week.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: We eat together and ___ about our morning.",
-        "options": [
-          "talk",
-          "sleep",
-          "run",
-          "paint"
-        ]
       }
     ]
   },
@@ -44456,56 +42941,6 @@
           "build more housing with tenant protection and planning",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "affordable housing",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -44607,56 +43042,6 @@
           "Diversified supply, material efficiency, recycling, traceability and community consent must complement new mining.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "critical mineral",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -44783,76 +43168,6 @@
           "It prevents paragraphing",
           "It removes vocabulary"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Corrective Feedback and the Productive Role of Error”?",
-        "options": [
-          "Feedback should match the goal, error type and learner’s readiness while creating an immediate opportunity to interpret and reuse the corrected form.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
-        ]
       }
     ]
   },
@@ -44938,36 +43253,6 @@
           "Rough and weak-sounding",
           "Very quiet",
           "Happy"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What healthy habits does Sarah decide to start?",
-        "options": [
-          "Only sleeping more",
-          "Walking more, not skipping breakfast, drinking less coffee",
-          "Stopping all fast food completely",
-          "Only drinking more water"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Daniel mean by \"small changes are usually the ones that last\"?",
-        "options": [
-          "Big changes work better",
-          "Gradual changes are more likely to become permanent habits",
-          "Nothing ever really changes",
-          "Changes should happen quickly"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does Sarah feel a month later?",
-        "options": [
-          "Sicker than before",
-          "Healthier, with more energy",
-          "The same as before",
-          "Tired of walking"
         ]
       }
     ]
@@ -51528,17 +49813,6 @@
           "Types of music"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does Sarah value cultural events?",
-        "options": [
-          "They make familiar things feel new",
-          "They always change Daniel’s preferences",
-          "They are cheaper than travel",
-          "They avoid difficult discussions"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -51625,40 +49899,6 @@
           "Her father",
           "Nobody"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The kitchen is always warm.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The house has ten rooms.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The family watches movies in the living room.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: Our house is small, but very ___.",
-        "options": [
-          "comfortable",
-          "cold",
-          "empty",
-          "dangerous"
-        ]
       }
     ]
   },
@@ -51740,56 +49980,6 @@
           "human oversight, explanation and retraining",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "automation",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -51891,56 +50081,6 @@
           "Content provenance, independent verification, clear labels, public literacy and appeal procedures should operate together.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "deepfake",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -52067,76 +50207,6 @@
           "It prevents paragraphing",
           "It removes vocabulary"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Speech Perception, Accent and Pronunciation Training”?",
-        "options": [
-          "Pronunciation work should integrate varied listening, intelligibility, articulatory guidance and communicative use rather than pursue accent erasure.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
-        ]
       }
     ]
   },
@@ -52222,36 +50292,6 @@
           "Stops moving for a moment, from surprise",
           "Runs away",
           "Starts dancing"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Who brings the music?",
-        "options": [
-          "Lucy",
-          "Sarah's parents",
-          "Marcus",
-          "Jake"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does Daniel feel about the surprise?",
-        "options": [
-          "Angry",
-          "Shocked but happy",
-          "Bored",
-          "Embarrassed"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Daniel say he will do?",
-        "options": [
-          "Never celebrate again",
-          "Get everyone back with a surprise one day",
-          "Move to a new flat",
-          "Stop eating cake"
         ]
       }
     ]
@@ -58817,17 +56857,6 @@
           "Discussing Sarah’s work"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What did they find by the end of the conversation?",
-        "options": [
-          "A final answer",
-          "A fair decision-making process",
-          "A new apartment",
-          "An official job offer"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -58914,40 +56943,6 @@
           "A bank",
           "A hospital"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The bakery smells good in the morning.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The writer walks to school alone.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The market is quiet and empty on Saturdays.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: The market is busy and ___, with many sellers.",
-        "options": [
-          "colorful",
-          "boring",
-          "silent",
-          "empty"
-        ]
       }
     ]
   },
@@ -59029,56 +57024,6 @@
           "buy less, demand traceability and improve regulation",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "fast fashion",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -59180,56 +57125,6 @@
           "Adaptation in places of origin, safe mobility routes and inclusive urban planning are complementary rather than competing policies.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "climate mobility",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -59356,76 +57251,6 @@
           "It prevents paragraphing",
           "It removes vocabulary"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Language Anxiety, Attention and Working Memory”?",
-        "options": [
-          "Supportive practice should lower avoidable social threat without eliminating the challenge, uncertainty and public use through which communicative confidence develops.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
-        ]
       }
     ]
   },
@@ -59511,36 +57336,6 @@
           "Having a positive opinion or admiration",
           "Angry",
           "Bored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does the client Grace say about the team?",
-        "options": [
-          "They were too slow",
-          "They were able to understand exactly what she wanted",
-          "They needed more meetings",
-          "They made too many mistakes"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What can you infer about how Helen feels about Sarah?",
-        "options": [
-          "Disappointed",
-          "Proud and confident in her abilities",
-          "Indifferent",
-          "Worried"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Sarah get at the end of the reading?",
-        "options": [
-          "A holiday",
-          "A promotion to senior designer",
-          "A new client",
-          "A pay cut"
         ]
       }
     ]
@@ -66096,17 +63891,6 @@
           "Visit Liverpool"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does the future feel less frightening?",
-        "options": [
-          "Their past gives evidence that they can adapt",
-          "Every decision has been made",
-          "They no longer have goals",
-          "They plan to avoid change"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -66193,40 +63977,6 @@
           "Sunday evening",
           "Friday night"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The writer plays soccer for two hours on weekends.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The sister never plays guitar.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The family eats popcorn on movie night.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: Sunday morning is only for ___ and having a big breakfast.",
-        "options": [
-          "relaxing",
-          "working",
-          "studying",
-          "shopping"
-        ]
       }
     ]
   },
@@ -66308,56 +64058,6 @@
           "combine high expectations with practical access",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "social mobility",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -66459,56 +64159,6 @@
           "Purpose limitation, data minimisation, security, independent oversight and rights to challenge consequential inferences are needed.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "neurotechnology",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -66635,76 +64285,6 @@
           "It prevents paragraphing",
           "It removes vocabulary"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Age, Aptitude and Individual Differences”?",
-        "options": [
-          "Responsible differentiation changes routes, pacing and support while maintaining ambitious communicative outcomes and revisable expectations.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
-        ]
       }
     ]
   },
@@ -66790,36 +64370,6 @@
           "Travelled somewhere",
           "Argued with someone",
           "Forgot something"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What has Sarah achieved at work this year?",
-        "options": [
-          "She started a new job",
-          "She led her first big project and got promoted",
-          "She lost her job",
-          "She changed careers completely"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What can you infer from Daniel's mysterious answer at the end?",
-        "options": [
-          "He is planning something significant for their future",
-          "He wants to end the relationship",
-          "He is moving away",
-          "He forgot the question"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does Daniel say about next year?",
-        "options": [
-          "It will be worse",
-          "It will probably be even better",
-          "It will be exactly the same",
-          "He does not want to think about it"
         ]
       }
     ]
@@ -73375,17 +70925,6 @@
           "Vegetables were thrown away"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the main lesson of the text?",
-        "options": [
-          "Only councils can create change",
-          "Sustainable change needs practical information and shared responsibility",
-          "Recycling solves every environmental problem",
-          "Community projects should remain small"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -73472,40 +71011,6 @@
           "The writer's friend",
           "Nobody"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The store was big and colorful.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The old shoes were too big.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The writer is going to wear the new clothes tomorrow.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: I felt happy and ___ in my new clothes.",
-        "options": [
-          "confident",
-          "tired",
-          "worried",
-          "sick"
-        ]
       }
     ]
   },
@@ -73587,56 +71092,6 @@
           "use clear rules, proportionate action and appeal processes",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "free speech",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -73738,56 +71193,6 @@
           "Proportionate screening, secure infrastructure, researcher training, incident reporting and international coordination are required.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "synthetic biology",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -73913,76 +71318,6 @@
           "It can conceal time, causation or disagreement",
           "It prevents paragraphing",
           "It removes vocabulary"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Contextual Vocabulary, Glosses and Semantic Networks”?",
-        "options": [
-          "Vocabulary instruction should connect concise L1 support with rich L2 examples, retrieval, word families and repeated encounters across contrasting contexts.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
         ]
       }
     ]
@@ -79482,17 +76817,6 @@
           "He removed the details"
         ],
         "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "What conclusion does Sarah reach?",
-        "options": [
-          "More words always mean clearer communication",
-          "Good communication requires useful information and checking understanding",
-          "Notes are unnecessary",
-          "Learning strategies only work for professional courses"
-        ],
-        "explanation": ""
       }
     ]
   },
@@ -79579,40 +76903,6 @@
           "A tent",
           "Their car"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The nights in the mountains are cold.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: This is not the writer's first time in the mountains.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "True or false: The family is going to bring a camera.",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choose the best word: My brother says there are beautiful ___ and many trails.",
-        "options": [
-          "views",
-          "shoes",
-          "phones",
-          "prices"
-        ]
       }
     ]
   },
@@ -79694,56 +76984,6 @@
           "connect community initiative with institutional responsibility",
           "The issue has no solution",
           "Evidence should be ignored"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the writer’s attitude?",
-        "options": [
-          "Completely dismissive",
-          "Critical but open to competing evidence",
-          "Unquestioningly enthusiastic",
-          "Unrelated to the topic"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which B2 skill is most important here?",
-        "options": [
-          "Evaluating argument and evidence",
-          "Listing isolated words",
-          "Copying one sentence",
-          "Memorising dates only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion open to revision?",
-        "options": [
-          "The writer forgot the topic",
-          "New evidence may change a responsible judgement",
-          "Facts never exist",
-          "Every opinion is equally strong"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What function does the counterargument serve?",
-        "options": [
-          "It adds complexity and tests the first claim",
-          "It repeats the title",
-          "It ends the article immediately",
-          "It changes the language"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term belongs most directly to this topic?",
-        "options": [
-          "breakfast",
-          "grassroots",
-          "bedroom",
-          "weekend"
         ]
       }
     ]
@@ -79845,56 +77085,6 @@
           "Strong primary care, prevention, social protection, sustainable financing and better health information systems must be pursued together.",
           "Individual awareness alone",
           "Waiting until uncertainty disappears"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What distinction should precise language preserve?",
-        "options": [
-          "Observed results, forecasts and ethical preferences",
-          "Long and short words",
-          "Scientific and social topics",
-          "Headlines and titles only"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How does the limitation affect the conclusion?",
-        "options": [
-          "It makes every claim false",
-          "It defines the scope and conditions of a responsible claim",
-          "It removes the need for monitoring",
-          "It proves that averages are useless"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What does “revisability” mean in the final sentence?",
-        "options": [
-          "The capacity to change a judgement when evidence changes",
-          "The removal of all institutional responsibility",
-          "The repetition of an existing claim",
-          "The refusal to reach any conclusion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which description best captures the author’s stance?",
-        "options": [
-          "Uncritically optimistic",
-          "Qualified, evidence-sensitive and action-oriented",
-          "Entirely opposed to innovation",
-          "Indifferent to unequal effects"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which term is central to this unit?",
-        "options": [
-          "weekend",
-          "universal health coverage",
-          "bedroom",
-          "recipe"
         ]
       }
     ]
@@ -80020,76 +77210,6 @@
           "It can conceal time, causation or disagreement",
           "It prevents paragraphing",
           "It removes vocabulary"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What makes a counterargument serious?",
-        "options": [
-          "It merely mentions disagreement",
-          "It identifies the strongest alternative and the premise challenged",
-          "It treats every view as equal",
-          "It avoids evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why does distribution affect feasibility?",
-        "options": [
-          "Concentrated costs can change compliance and durability",
-          "Distribution is only stylistic",
-          "Global averages describe every locality",
-          "It eliminates institutional differences"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Why is the conclusion conditional?",
-        "options": [
-          "The writer has no position",
-          "It preserves criteria for evidence-based revision",
-          "All conclusions must be vague",
-          "The topic is fictional"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "How is epistemic humility defined?",
-        "options": [
-          "Permanent indecision",
-          "Recognition of limits alongside warranted judgement",
-          "Lack of expertise",
-          "Refusal to compare evidence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What ultimately characterises C2 control?",
-        "options": [
-          "Using the longest possible sentences",
-          "Managing complexity across language, institutions and worldviews",
-          "Memorising isolated terminology",
-          "Avoiding qualified conclusions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which response best fits the unit “Artificial Intelligence and the Future of Language Tutoring”?",
-        "options": [
-          "Responsible AI tutoring requires transparent limits, human oversight, privacy protection and evaluation based on learning rather than novelty or conversational polish.",
-          "No institutional response is possible",
-          "Only individual opinion matters",
-          "Evidence should remain private"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "What is the overall tone?",
-        "options": [
-          "Analytical, qualified and institutionally aware",
-          "Comic and dismissive",
-          "Purely autobiographical",
-          "Uncritically promotional"
         ]
       }
     ]

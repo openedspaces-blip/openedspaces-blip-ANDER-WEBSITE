@@ -405,6 +405,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-compras-y-cantidades-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Resolver una compra en un mercado»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Resolver una compra en un mercado",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -481,6 +492,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-historias-personales-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Compartir una experiencia que cambió una decisión»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Compartir una experiencia que cambió una decisión",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -557,6 +579,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-identidad-digital-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Debatir cómo construimos nuestra imagen en internet»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Debatir cómo construimos nuestra imagen en internet",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -633,6 +666,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-memoria-y-relato-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Interpretar versiones contrapuestas de un recuerdo colectivo»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Interpretar versiones contrapuestas de un recuerdo colectivo",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -709,6 +753,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-ambiguedad-y-sentido-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Desentrañar un texto deliberadamente ambiguo»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Desentrañar un texto deliberadamente ambiguo",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -798,40 +853,6 @@
           "Lo deletrea",
           "Lo canta",
           "No dice nada"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Valentina y Marco se conocen antes de la clase.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: la clase responde \"Buenos días\" al profesor.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Valentina está enojada en su primer día.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: Valentina está un poco nerviosa, pero también ___.",
-        "options": [
-          "contenta",
-          "triste",
-          "cansada",
-          "enojada"
         ]
       }
     ]
@@ -4566,6 +4587,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-orientarse-en-la-ciudad-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Ayudar a una visitante a llegar a la estación»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Ayudar a una visitante a llegar a la estación",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -4642,6 +4674,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-trabajo-y-talento-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Preparar una entrevista laboral»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Preparar una entrevista laboral",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -4718,6 +4761,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-ciudades-sostenibles-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Valorar un nuevo plan de movilidad»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Valorar un nuevo plan de movilidad",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -4794,6 +4848,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-retorica-publica-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Examinar un discurso institucional»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Examinar un discurso institucional",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -4870,6 +4935,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-humor-e-ironia-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Explicar por qué una sátira funciona en su contexto»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Explicar por qué una sátira funciona en su contexto",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -4955,40 +5031,6 @@
           "Inglés",
           "Francés",
           "Matemáticas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Julián es tímido.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Julián vive cerca de la escuela.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: la nacionalidad de Julián es dominicana.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: A Julián le gusta ___ con estudiantes de otros países.",
-        "options": [
-          "hablar",
-          "dormir",
-          "correr",
-          "cocinar"
         ]
       }
     ]
@@ -8519,6 +8561,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-rutinas-y-horarios-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Organizar una semana con estudio y trabajo»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Organizar una semana con estudio y trabajo",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -8595,6 +8648,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-viajes-con-imprevistos-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Resolver la cancelación de un trayecto»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Resolver la cancelación de un trayecto",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -8671,6 +8735,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-trabajo-del-futuro-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Analizar cambios producidos por la automatización»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Analizar cambios producidos por la automatización",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -8747,6 +8822,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-periodismo-de-investigacion-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Reconstruir una investigación compleja»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Reconstruir una investigación compleja",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -8823,6 +8909,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-traduccion-y-mediacion-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Mediar un concepto sin equivalente exacto»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Mediar un concepto sin equivalente exacto",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -8908,40 +9005,6 @@
           "Alta y simpática",
           "Alta y triste",
           "Baja y seria"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Tomás tiene nueve años.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: la familia almuerza junta los lunes.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: la abuela cocina muy bien.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: Rosa es una persona muy ___ y cocina muy bien.",
-        "options": [
-          "amable",
-          "enojada",
-          "perezosa",
-          "triste"
         ]
       }
     ]
@@ -12473,6 +12536,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-salud-y-bienestar-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Explicar síntomas en una consulta»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Explicar síntomas en una consulta",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -12549,6 +12623,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-medios-y-noticias-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Comparar dos versiones de una noticia»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Comparar dos versiones de una noticia",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -12625,6 +12710,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-desinformacion-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Verificar una afirmación viral»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Verificar una afirmación viral",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -12701,6 +12797,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-justicia-y-reparacion-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Debatir respuestas a un daño histórico»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Debatir respuestas a un daño histórico",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -12777,6 +12884,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-filosofia-del-lenguaje-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Debatir cómo las palabras construyen categorías»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Debatir cómo las palabras construyen categorías",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -12862,40 +12980,6 @@
           "Nueve",
           "Nueve y media",
           "Diez"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: cena con su familia.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: las clases terminan a las tres.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: lee un poco antes de dormir.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: primero me lavo la cara y ___ desayuno.",
-        "options": [
-          "luego",
-          "nunca",
-          "ayer",
-          "tarde"
         ]
       }
     ]
@@ -16456,6 +16540,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-viajes-y-transporte-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Preparar un viaje de fin de semana»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Preparar un viaje de fin de semana",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -16532,6 +16627,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-relaciones-y-convivencia-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Resolver un desacuerdo entre compañeros»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Resolver un desacuerdo entre compañeros",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -16608,6 +16714,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-turismo-y-comunidad-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Mediar en un debate sobre turismo local»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Mediar en un debate sobre turismo local",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -16684,6 +16801,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-innovacion-responsable-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Evaluar una tecnología antes de adoptarla»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Evaluar una tecnología antes de adoptarla",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -16760,6 +16888,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-analisis-juridico-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Interpretar dos lecturas de una norma»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Interpretar dos lecturas de una norma",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -16845,40 +16984,6 @@
           "Una piscina",
           "Un patio con plantas",
           "Nada"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: la casa tiene piscina.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: hay un escritorio en el dormitorio de Andrés.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: a la familia le gusta sentarse en el patio.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: mi casa es pequeña pero muy ___.",
-        "options": [
-          "cómoda",
-          "fría",
-          "ruidosa",
-          "vacía"
         ]
       }
     ]
@@ -20408,6 +20513,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-casa-y-barrio-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Buscar una vivienda adecuada»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Buscar una vivienda adecuada",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -20484,6 +20600,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-consumo-responsable-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Elegir entre varias opciones de compra»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Elegir entre varias opciones de compra",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -20560,6 +20687,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-educacion-digital-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Evaluar una propuesta de aprendizaje híbrido»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Evaluar una propuesta de aprendizaje híbrido",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -20636,6 +20774,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-literatura-y-voz-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Analizar la voz de un relato contemporáneo»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Analizar la voz de un relato contemporáneo",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -20712,6 +20861,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-edicion-de-estilo-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Editar un ensayo sin borrar la voz del autor»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Editar un ensayo sin borrar la voz del autor",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -20797,40 +20957,6 @@
           "A la derecha del parque",
           "Lejos del barrio",
           "Al lado del supermercado"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: el supermercado está cerca de la casa.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: la farmacia está al lado del banco.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: a Camila no le gusta su barrio.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: me gusta mi barrio porque es muy ___.",
-        "options": [
-          "tranquilo",
-          "ruidoso",
-          "peligroso",
-          "aburrido"
         ]
       }
     ]
@@ -24392,6 +24518,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-comidas-y-recetas-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Preparar una comida para amistades»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Preparar una comida para amistades",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -24468,6 +24605,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-cultura-y-tradiciones-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Explicar una tradición a una visitante»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Explicar una tradición a una visitante",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -24544,6 +24692,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-alimentacion-y-sociedad-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Examinar decisiones alimentarias y acceso»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Examinar decisiones alimentarias y acceso",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -24620,6 +24779,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-economia-y-cuidados-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Visibilizar trabajos esenciales poco reconocidos»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Visibilizar trabajos esenciales poco reconocidos",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -24696,6 +24866,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-debate-epistemico-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Evaluar qué puede afirmarse a partir de evidencia incompleta»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Evaluar qué puede afirmarse a partir de evidencia incompleta",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -24781,40 +24962,6 @@
           "A la escuela",
           "Al parque",
           "Al supermercado"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Mariana desayuna en un café.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: a Mariana le gusta el café solo.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Mariana pide un poco de fruta.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: el mesero pregunta qué ___ tomar.",
-        "options": [
-          "desea",
-          "corre",
-          "duerme",
-          "estudia"
         ]
       }
     ]
@@ -28381,6 +28528,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-recuerdos-y-experiencias-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Contar una experiencia especial»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Contar una experiencia especial",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -28457,6 +28615,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-educacion-y-metas-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Elegir un curso de formación»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Elegir un curso de formación",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -28533,6 +28702,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-arte-y-espacio-publico-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Decidir el uso cultural de una plaza»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Decidir el uso cultural de una plaza",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -28609,6 +28789,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-diversidad-del-espanol-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Comparar usos de distintas comunidades hispanohablantes»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Comparar usos de distintas comunidades hispanohablantes",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -28685,6 +28876,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-estetica-y-interpretacion-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Comparar marcos críticos sobre una obra»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Comparar marcos críticos sobre una obra",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -28770,40 +28972,6 @@
           "Mediana",
           "Grande",
           "No pregunta"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Andrea prefiere los colores claros.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: no hay talla mediana.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Andrea compra la camisa.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: Andrea está muy ___ con su compra.",
-        "options": [
-          "contenta",
-          "enojada",
-          "triste",
-          "cansada"
         ]
       }
     ]
@@ -32365,6 +32533,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-celebraciones-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Organizar una celebración familiar»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Organizar una celebración familiar",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -32441,6 +32620,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-medioambiente-local-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Proponer una mejora para el barrio»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Proponer una mejora para el barrio",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -32517,6 +32707,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-ciencia-y-etica-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Debatir una innovación con impacto social»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Debatir una innovación con impacto social",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -32593,6 +32794,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-diplomacia-y-negociacion-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Mediar entre posiciones incompatibles»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Mediar entre posiciones incompatibles",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -32669,6 +32881,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-discurso-cientifico-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Convertir resultados especializados para públicos distintos»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Convertir resultados especializados para públicos distintos",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -32754,40 +32977,6 @@
           "Los fines de semana",
           "Los lunes",
           "Todos los días"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: a Roberto le gusta ayudar a otras personas.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Roberto trabaja de noche.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Roberto trabaja de lunes a viernes.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: Roberto tiene que ___ a los pacientes.",
-        "options": [
-          "cuidar",
-          "vender",
-          "cocinar",
-          "limpiar"
         ]
       }
     ]
@@ -36351,6 +36540,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-estudio-y-aprendizaje-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Preparar un plan de estudio»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Preparar un plan de estudio",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -36427,6 +36627,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-salud-y-habitos-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Diseñar una rutina sostenible»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Diseñar una rutina sostenible",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -36503,6 +36714,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-vivienda-y-desigualdad-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Analizar el aumento del alquiler»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Analizar el aumento del alquiler",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -36579,6 +36801,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-critica-cultural-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Reseñar una obra para una revista»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Reseñar una obra para una revista",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -36655,6 +36888,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-mediacion-de-conflictos-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Reformular posiciones en una negociación sensible»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Reformular posiciones en una negociación sensible",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -36740,40 +36984,6 @@
           "A su hermana",
           "A sus amigos",
           "A nadie"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: a Kevin le gusta la música.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Kevin juega fútbol los domingos.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Kevin y su hermana van juntos a conciertos.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: a Kevin le ___ mucho el fútbol.",
-        "options": [
-          "gusta",
-          "estudia",
-          "trabaja",
-          "compra"
         ]
       }
     ]
@@ -40335,6 +40545,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-tecnologia-cotidiana-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Resolver un problema con una aplicación»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Resolver un problema con una aplicación",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -40411,6 +40632,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-servicios-y-reclamaciones-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Presentar una reclamación respetuosa»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Presentar una reclamación respetuosa",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -40487,6 +40719,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-lenguaje-e-inclusion-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Explorar cómo cambia el uso lingüístico»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Explorar cómo cambia el uso lingüístico",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -40563,6 +40806,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-politicas-publicas-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Evaluar el resultado de una intervención»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Evaluar el resultado de una intervención",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -40639,6 +40893,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-ensayo-de-alta-exigencia-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Construir una tesis compleja con fuentes divergentes»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Construir una tesis compleja con fuentes divergentes",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -40724,40 +40989,6 @@
           "Hacer ejercicio",
           "Comer mucho",
           "Volver al trabajo"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: a Isabel también le duele la garganta.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Isabel va al hospital.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Isabel vuelve a casa a descansar.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: Isabel no se siente ___ esta mañana.",
-        "options": [
-          "bien",
-          "feliz",
-          "ocupada",
-          "lista"
         ]
       }
     ]
@@ -44319,6 +44550,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-a2-planes-y-proyectos-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Coordinar un proyecto de grupo»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Coordinar un proyecto de grupo",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -44395,6 +44637,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b1-proyecto-comunitario-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Presentar una iniciativa vecinal»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Presentar una iniciativa vecinal",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -44471,6 +44724,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-b2-foro-de-propuestas-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Presentar una solución a un problema público»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Presentar una solución a un problema público",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -44547,6 +44811,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c1-coloquio-academico-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Defender una tesis ante preguntas críticas»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Defender una tesis ante preguntas críticas",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -44623,6 +44898,17 @@
           "Idéntica a la primera opción"
         ],
         "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+      },
+      {
+        "id": "spanish-c2-defensa-y-sintesis-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "¿Cuál es el propósito principal de «Resolver una misión integradora ante un panel experto»?",
+        "options": [
+          "Presentar las ideas y los detalles esenciales de Resolver una misión integradora ante un panel experto",
+          "Presentar un tema sin relación",
+          "Dar una lista sin contexto",
+          "Contar una historia sin conexión con el tema"
+        ]
       }
     ]
   },
@@ -44708,40 +44994,6 @@
           "A sus abuelos",
           "A su profesor",
           "A nadie"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Sara quiere nadar todos los días.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: el cumpleaños de Sara es en julio.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Verdadero o falso: Sara está contenta con sus planes.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la mejor palabra: el clima en julio es caluroso y ___.",
-        "options": [
-          "soleado",
-          "nevado",
-          "frío",
-          "nublado"
         ]
       }
     ]

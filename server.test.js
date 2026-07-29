@@ -695,7 +695,7 @@ test('French A1 has exactly 84 activities: 72 core skills + 12 standalone dialog
   });
 });
 
-test('every French A1 reading has 3 parts and exactly 8 exercises (4 mcq + 3 vrai/faux + 1 vocabulary-in-context)', () => {
+test('every French A1 reading has 3 parts and exactly 4 comprehension questions', () => {
   const readingRows = seedLessons.filter(
     (row) => row.target_language === 'french' && row.level === 'A1' && row.skill === 'reading'
   );
@@ -706,15 +706,8 @@ test('every French A1 reading has 3 parts and exactly 8 exercises (4 mcq + 3 vra
     assert.equal(reading.parts.length, 3, `${row.slug} should have 3 reading parts`);
 
     const exercises = row.content_json.exercises;
-    assert.equal(exercises.length, 8, `${row.slug} should have 8 exercises`);
-
-    const vraiFaux = exercises.filter(
-      (ex) => Array.isArray(ex.options) && ex.options.length === 2 && ex.options.includes('Vrai')
-    );
-    assert.equal(vraiFaux.length, 3, `${row.slug} should have 3 vrai/faux exercises`);
-
-    const mcqComprehension = exercises.filter((ex) => !vraiFaux.includes(ex));
-    assert.equal(mcqComprehension.length, 5, `${row.slug} should have 5 remaining mcq (4 comprehension + 1 vocabulary-in-context)`);
+    assert.equal(exercises.length, 4, `${row.slug} should have 4 exercises`);
+    assert.ok(exercises.every((exercise) => exercise.type === 'mcq'));
   });
 });
 
@@ -795,7 +788,7 @@ test('English A2 units each have all 6 core skills, each a real (non-generic) ac
   });
 });
 
-test('English A2 readings are each a single 350-550 word view, no parts/ordering, 8 mcq comprehension questions', () => {
+test('English A2 readings are each a single 350-550 word view with 5 comprehension questions', () => {
   englishA2UnitSlugs.forEach((unitSlug) => {
     const row = seedLessons.find(
       (r) =>
@@ -807,7 +800,7 @@ test('English A2 readings are each a single 350-550 word view, no parts/ordering
     assert.ok(row, `expected a reading activity for unit "${unitSlug}"`);
     const reading = row.content_json.reading;
     assert.ok(!reading.parts, `${unitSlug}: A2 readings must not be split into parts`);
-    assert.equal(row.content_json.exercises.length, 8, unitSlug);
+    assert.equal(row.content_json.exercises.length, 5, unitSlug);
 
     const wordCount = reading.text.split(/\s+/).filter(Boolean).length;
     assert.ok(
@@ -1210,7 +1203,7 @@ test('French C2 has 12 CEFR mastery units entirely in French across all six core
     const grammar = rows.find((row) => row.skill === 'grammar');
     const wordCount = reading.content_json.reading.text.split(/\s+/).filter(Boolean).length;
     assert.ok(wordCount >= 650 && wordCount <= 950, `${unit.slug}: ${wordCount} words`);
-    assert.equal(reading.content_json.exercises.length, 10);
+    assert.equal(reading.content_json.exercises.length, 5);
     assert.equal(vocabulary.content_json.vocabulary.length, 12);
     assert.equal(vocabulary.content_json.exercises.length, 12);
     assert.equal(reading.content_json.reading.parts.length, 6);
@@ -1252,7 +1245,7 @@ test('English B1 has 12 complete units with assessed Reading, Grammar and Vocabu
     const reading = rows.find((row) => row.skill === 'reading');
     const grammar = rows.find((row) => row.skill === 'grammar');
     const vocabulary = rows.find((row) => row.skill === 'vocabulary');
-    assert.equal(reading.content_json.exercises.length, 6, `${unit.slug} reading`);
+    assert.equal(reading.content_json.exercises.length, 5, `${unit.slug} reading`);
     assert.equal(grammar.content_json.exercises.length, 8, `${unit.slug} grammar`);
     assert.equal(vocabulary.content_json.vocabulary.length, 12, `${unit.slug} vocabulary`);
     assert.equal(vocabulary.content_json.exercises.length, 12, `${unit.slug} vocabulary exercises`);
@@ -1296,7 +1289,7 @@ test('English C1 has 12 scientific-social units across all six core skills', () 
     const grammar = rows.find((row) => row.skill === 'grammar');
     const wordCount = reading.content_json.reading.text.split(/\s+/).filter(Boolean).length;
     assert.ok(wordCount >= 300, `${unit.slug}: expected an extended C1 reading`);
-    assert.equal(reading.content_json.exercises.length, 10);
+    assert.equal(reading.content_json.exercises.length, 5);
     assert.equal(vocabulary.content_json.vocabulary.length, 8);
     assert.equal(vocabulary.content_json.exercises.length, 8);
     assert.equal(grammar.content_json.exercises.length, 8);
@@ -1353,7 +1346,7 @@ test('English C2 has 12 mastery units with all six core skills', () => {
       reading.content_json.reading.references,
       `${unit.slug} references must be persisted for the database-backed lesson`
     );
-    assert.equal(reading.content_json.exercises.length, 12);
+    assert.equal(reading.content_json.exercises.length, 5);
     assert.equal(vocabulary.content_json.vocabulary.length, 12);
     assert.equal(vocabulary.content_json.exercises.length, 12);
     assert.equal(grammar.content_json.extra.grammarTest.questions.length, 20);
@@ -1844,7 +1837,7 @@ test('every Español A1 slug and unit_slug is unique and every unit_slug resolve
   });
 });
 
-test('every Español A1 reading has 3 parts and exactly 8 exercises (4 mcq + 3 verdadero/falso + 1 vocabulario en contexto)', () => {
+test('every Español A1 reading has 3 parts and exactly 4 comprehension questions', () => {
   const readingRows = spanishA1Rows().filter((row) => row.skill === 'reading');
   assert.equal(readingRows.length, 12);
 
@@ -1853,15 +1846,8 @@ test('every Español A1 reading has 3 parts and exactly 8 exercises (4 mcq + 3 v
     assert.equal(reading.parts.length, 3, `${row.slug} should have 3 reading parts`);
 
     const exercises = row.content_json.exercises;
-    assert.equal(exercises.length, 8, `${row.slug} should have 8 exercises`);
-
-    const trueFalse = exercises.filter(
-      (ex) => Array.isArray(ex.options) && ex.options.length === 2 && ex.options.includes('Verdadero')
-    );
-    assert.equal(trueFalse.length, 3, `${row.slug} should have 3 verdadero/falso exercises`);
-
-    const remaining = exercises.filter((ex) => !trueFalse.includes(ex));
-    assert.equal(remaining.length, 5, `${row.slug} should have 5 remaining mcq (4 comprehension + 1 vocabulary-in-context)`);
+    assert.equal(exercises.length, 4, `${row.slug} should have 4 exercises`);
+    assert.ok(exercises.every((exercise) => exercise.type === 'mcq'));
   });
 });
 
@@ -3209,15 +3195,37 @@ test('preferencesService: an unsupported language is still rejected (admitted-la
   );
 });
 
-test('index.html + script.js: no direct-method badge is exposed and equal choices are disabled', () => {
+test('index.html + script.js: language choices follow shared pair validation', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   assert.doesNotMatch(html, /id="pathPairModeBadge"/);
 
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.doesNotMatch(source, /pathPairModeBadge/);
   assert.match(source, /function syncLanguagePairSelectOptions\(\)/);
-  assert.match(source, /option\.disabled = option\.value === learningPathState\.bridgeLanguage/);
-  assert.match(source, /option\.disabled = option\.value === learningPathState\.language/);
+  assert.match(source, /!LanguagePair\.isLanguagePairSupported\(learningPathState\.bridgeLanguage, option\.value\)/);
+  assert.match(source, /!LanguagePair\.isLanguagePairSupported\(option\.value, learningPathState\.language\)/);
+});
+
+test('language cards select L2, return to the selector and request a privacy-safe L1 confirmation', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const server = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
+  assert.match(html, /id="l1LanguageSuggestion"/);
+  assert.match(source, /void suggestNativeLanguage\(\)/);
+  assert.match(source, /scrollIntoView\(\{ behavior: 'smooth', block: 'center' \}\)/);
+  assert.match(source, /navigator\.languages/);
+  assert.match(source, /\/api\/locale-hint/);
+  assert.match(source, /¿Cuál es tu lengua materna\?/);
+  assert.match(server, /x-vercel-ip-country/);
+  assert.doesNotMatch(server, /req\.ip/);
+});
+
+test('signed-in greeting prioritizes username and never derives identity from email', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const displayNameBody =
+    source.match(/function getDisplayName\(\) \{([\s\S]*?)\n\}/)?.[1] || '';
+  assert.match(displayNameBody, /authStatus\.user\?\.username/);
+  assert.doesNotMatch(displayNameBody, /email|split\('@'\)/);
 });
 
 test('index.html: the L1 and L2 selects both offer the same three languages - neither hides the other\'s current value', () => {
@@ -3414,12 +3422,13 @@ test('lesson route keeps seven connected markers with current and completed stat
   assert.match(css, /\.unit-route-marker--completed/);
 });
 
-test('a selected unit opens Reading immediately and every skill tab stays inside that unit', () => {
+test('a selected unit expands its lessons and every skill tab stays inside that unit', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const selectUnitBody = source.match(/function selectUnit\(unitId, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1] || '';
   const renderSkillBody = source.match(/function renderSkillView\(skill\) \{([\s\S]*?)\n\}/)?.[1] || '';
-  assert.match(selectUnitBody, /item\.skill === 'reading'/);
-  assert.match(selectUnitBody, /learningPathState\.activeSlug = firstActivity\?\.slug/);
+  assert.match(selectUnitBody, /learningPathState\.activeSlug = ''/);
+  assert.match(source, /unitLessons\.map\(\(lesson\) => renderLessonItemHtml\(lesson, nextSlug\)\)/);
+  assert.match(source, /Selecciona tu lección/);
   assert.match(renderSkillBody, /if \(!selected && learningPathState\.unitId\)/);
   assert.match(renderSkillBody, /item\.unitId === learningPathState\.unitId/);
   assert.doesNotMatch(
@@ -3503,7 +3512,7 @@ test('student journey presents practical curriculum guidance and preserves lesso
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
-  assert.doesNotMatch(source, /unitLessons\.map\(\(lesson\) => renderLessonItemHtml\(lesson, nextSlug\)\)/);
+  assert.match(source, /unitLessons\.map\(\(lesson\) => renderLessonItemHtml\(lesson, nextSlug\)\)/);
   assert.match(source, /class="path-unit-journey">Viaje/);
   assert.match(source, /class="path-unit-reward">/);
   assert.match(source, /function getUnitArtwork\(unit = \{\}\)/);
@@ -4121,13 +4130,13 @@ test('unit route keeps Previous/Next navigation and closes on Verbs with a full 
   assert.match(source, /unit-completion-next/);
 });
 
-test('main language controls expose a localized lesson selector and open its first activity', () => {
+test('main language controls expose a localized starting-unit selector and open its first activity', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.match(html, /id="pathLessonSelect"/);
-  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'spanish'), 'Lección');
-  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'english'), 'Lesson');
-  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'french'), 'Leçon');
+  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'spanish'), 'Unidad inicial');
+  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'english'), 'Starting unit');
+  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'french'), 'Unité initiale');
   assert.match(source, /function updatePathLessonSelect\(preferredUnitId = ''\)/);
   assert.match(source, /restoreUnitId:\s*unitId/);
   assert.match(source, /selectUnit\(selectedUnitId,\s*\{\s*render:\s*false\s*\}\)/);

@@ -417,40 +417,6 @@
           "Ils dessinent",
           "Ils mangent un gâteau"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila est un peu nerveuse le premier jour.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Karim est la professeure de la classe.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila habite chez la famille de Léa.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Madame Dubois a un grand sourire et une voix ___.",
-        "options": [
-          "fâchée",
-          "calme",
-          "triste",
-          "fatiguée"
-        ]
       }
     ]
   },
@@ -546,54 +512,6 @@
           "C’est plus frais et plus sympa",
           "C’est plus proche de l’école",
           "Il n’y a personne"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que pense faire Camila à la fin du texte ?",
-        "options": [
-          "Ne plus jamais retourner au marché",
-          "Proposer ce marché à sa famille à Saint-Domingue",
-          "Travailler comme vendeuse",
-          "Acheter un fromage tous les jours"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila avait déjà goûté beaucoup de fromages avant ce jour.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « savoureux » signifie...",
-        "options": [
-          "Cher",
-          "Qui a bon goût",
-          "Froid",
-          "Difficile à trouver"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle expression montre que les fraises sont de bonne qualité cette semaine ?",
-        "options": [
-          "« C’est moins cher »",
-          "« Elles sont très bonnes cette semaine »",
-          "« On en prend deux kilos »",
-          "« Un fromage plus fort »"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le ton général du texte ?",
-        "options": [
-          "Triste et déçu",
-          "Joyeux et curieux",
-          "Fâché et pressé",
-          "Ennuyé et indifférent"
         ]
       }
     ]
@@ -692,56 +610,6 @@
           "Que la famille de Camila serait fâchée",
           "Que Camila devrait rester en France"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Cause et conséquence : pourquoi Camila fait-elle des pauses en parlant espagnol ?",
-        "options": [
-          "Elle a oublié sa langue maternelle",
-          "Elle traduit inconsciemment depuis le français",
-          "Elle est fatiguée du voyage",
-          "Elle ne veut pas parler à Sofía"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « à travers un objectif légèrement décalé » ?",
-        "options": [
-          "Avec des lunettes cassées",
-          "Avec un regard légèrement différent d’avant",
-          "En prenant des photos",
-          "En conduisant une voiture"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime un sentiment, pas un fait ?",
-        "options": [
-          "L’avion de Camila atterrit à Saint-Domingue.",
-          "Elle a l’étrange sensation d’être devenue une étrangère dans son propre pays.",
-          "Sofía est la meilleure amie de Camila.",
-          "Camila était partie un an plus tôt."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : quelle est la conclusion implicite du texte ?",
-        "options": [
-          "Camila regrette complètement son voyage en France",
-          "Le retour chez soi peut être aussi complexe qu’un départ",
-          "Il ne faut jamais voyager à l’étranger",
-          "Sofía et Camila ne sont plus amies"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comparaison d’informations : qu’est-ce qui a changé chez Camila, selon le texte, depuis son départ ?",
-        "options": [
-          "Rien du tout",
-          "Sa façon de percevoir son pays et elle-même",
-          "Son apparence physique uniquement",
-          "Sa relation avec ses parents seulement"
-        ]
       }
     ]
   },
@@ -837,56 +705,6 @@
           "Rentrer à Saint-Domingue avec le projet de revenir plus tard",
           "Ne jamais revenir en France",
           "Changer de pays d’échange"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « quelle que soit sa décision » signifie...",
-        "options": [
-          "Peu importe ce qu’elle choisit",
-          "Elle doit absolument choisir la France",
-          "Elle n’a pas le droit de choisir",
-          "Sa décision est déjà annulée"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel connecteur le texte utilise-t-il pour opposer deux idées ?",
-        "options": [
-          "Parce que",
-          "D’un côté / de l’autre côté",
-          "Donc",
-          "Ensuite"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle inférence peut-on faire sur l’amitié entre Camila et Léa ?",
-        "options": [
-          "Elle va probablement se terminer",
-          "Elle va probablement continuer malgré la distance",
-          "Elle n’a jamais été sincère",
-          "Léa est en colère contre Camila"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase exprime une opinion, et non un fait ?",
-        "options": [
-          "Camila vit à Tours depuis un an.",
-          "À mon avis, il n’y a pas de mauvaise décision ici.",
-          "Camila parle avec Léa un soir.",
-          "Ses parents lui ont proposé de prolonger son échange."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le ton général de la fin du texte ?",
-        "options": [
-          "Pessimiste et froid",
-          "Nostalgique mais plein d’espoir",
-          "Fâché et déçu",
-          "Indifférent"
         ]
       }
     ]
@@ -984,56 +802,6 @@
           "Un mélange d’anxiété et d’enthousiasme",
           "Totalement confiante",
           "En colère"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Inférence : pourquoi Léa peut-elle rassurer Camila avec autant d’assurance ?",
-        "options": [
-          "Parce qu’elle ment",
-          "Parce qu’elle est déjà plus habituée au système universitaire",
-          "Parce qu’elle n’a jamais eu de difficulté",
-          "Par pure politesse"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « il incombe à » ?",
-        "options": [
-          "Il est interdit à",
-          "C’est la responsabilité de",
-          "Il est impossible pour",
-          "Il est facultatif pour"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime une opinion, et non un fait ?",
-        "options": [
-          "Le professeur distribue un syllabus détaillé.",
-          "C’est vertigineux, avoue Camila.",
-          "Camila retrouve Léa et Karim à la pause déjeuner.",
-          "Camila loue un studio près du centre-ville."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comparaison d’informations : en quoi le studio actuel de Camila diffère-t-il de celui évoqué deux ans plus tôt ?",
-        "options": [
-          "Il est identique en tout point",
-          "Il est plus central mais moins spacieux",
-          "Il est plus spacieux mais moins central",
-          "Il n’y a aucune comparaison dans le texte"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : quel sentiment domine à la fin du texte ?",
-        "options": [
-          "Le regret d’être partie",
-          "La fierté du chemin parcouru",
-          "La peur de l’échec",
-          "L’indifférence totale"
         ]
       }
     ]
@@ -1171,61 +939,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "Les bénéfices cognitifs généraux du bilinguisme font également débat. Une différence moyenne de connectivité ou de contrôle exécutif ne garantit pas un avantage chez chaque personne, et les variables sociales sont difficiles à neutraliser. Niveau d’éducation, migration, fréquence d’usage et statut des langues peuvent expliquer une partie des écarts. La conclusion solide est plus modeste : le cerveau adulte reste sensible à une expérience linguistique intensive, mais la forme et l’ampleur de la réorganisation varient.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ? »."
       }
@@ -6452,40 +6165,6 @@
           "Elle les corrige en rouge",
           "Elle les envoie aux parents"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Léa est française, de Tours.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila est triste d'être loin de Saint-Domingue à la fin du texte.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Karim a quinze ans, comme Léa.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : La classe a des élèves de plusieurs pays, et c'est une ___.",
-        "options": [
-          "problème",
-          "richesse",
-          "erreur",
-          "surprise triste"
-        ]
       }
     ]
   },
@@ -6581,54 +6260,6 @@
           "Parce que sa soupe n’est plus chaude",
           "Pour changer de table",
           "Pour commander un dessert"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment le serveur réagit-il à la remarque de Camila ?",
-        "options": [
-          "Il l’ignore",
-          "Il s’excuse et réchauffe la soupe",
-          "Il se fâche",
-          "Il annule la commande"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que fait le serveur à la fin du repas ?",
-        "options": [
-          "Il demande l’addition immédiatement",
-          "Il offre un dessert gratuit pour l’anniversaire",
-          "Il propose une autre table",
-          "Il ferme le restaurant"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Karim est invité pour l’occasion.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « sans hésiter » signifie...",
-        "options": [
-          "Après beaucoup de réflexion",
-          "Immédiatement, sans doute",
-          "En refusant",
-          "En pleurant"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le sentiment général à la fin du texte ?",
-        "options": [
-          "La déception",
-          "La joie et la célébration",
-          "La colère",
-          "L’ennui"
         ]
       }
     ]
@@ -6727,56 +6358,6 @@
           "Un problème de logement",
           "Une compétition sportive"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Cause et conséquence : pourquoi Camila veut-elle devenir traductrice ?",
-        "options": [
-          "Parce que c’est bien payé",
-          "Pour aider d’autres personnes à franchir des barrières linguistiques",
-          "Parce que ses parents l’exigent",
-          "Par hasard, sans raison précise"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « par ailleurs » dans le troisième paragraphe ?",
-        "options": [
-          "Malgré tout",
-          "De plus, en complément",
-          "Cependant",
-          "Enfin"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime une opinion de Camila ?",
-        "options": [
-          "Elle candidate à l’université de Tours.",
-          "Elle a le sentiment d’avoir exprimé honnêtement qui elle est devenue.",
-          "Karim a rédigé plusieurs lettres de motivation.",
-          "Léa relit sa lettre par appel vidéo."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : comment se sent Camila après avoir envoyé sa candidature ?",
-        "options": [
-          "Complètement indifférente",
-          "Fière du chemin parcouru, quel que soit le résultat",
-          "Certaine d’être refusée",
-          "En colère contre l’université"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Intention communicative : pourquoi Camila mentionne-t-elle son exposé sur les cultures dominicaine et française ?",
-        "options": [
-          "Pour se plaindre de l’école",
-          "Pour illustrer concrètement son intérêt pour l’interculturalité",
-          "Parce que c’est obligatoire dans toute lettre",
-          "Pour critiquer ses camarades de classe"
-        ]
       }
     ]
   },
@@ -6873,54 +6454,6 @@
           "Qu’elle est devenue plus bavarde qu’eux",
           "Qu’elle ne parle jamais en classe",
           "Qu’elle veut rentrer chez elle"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel temps grammatical domine la description de la vie de Camila « avant » ?",
-        "options": [
-          "Le futur simple",
-          "L’imparfait",
-          "Le conditionnel",
-          "Le subjonctif"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila pense que le changement est une mauvaise chose.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « sortir de sa zone de confort » signifie...",
-        "options": [
-          "Rester dans ses habitudes",
-          "Faire des choses qui nous mettent mal à l’aise mais nous font grandir",
-          "Voyager souvent",
-          "Éviter les problèmes"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’intention principale de ce texte ?",
-        "options": [
-          "Se plaindre de la vie en France",
-          "Réfléchir sur son évolution personnelle",
-          "Décrire la ville de Tours",
-          "Expliquer un problème de logement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle conclusion Camila tire-t-elle de son expérience ?",
-        "options": [
-          "Le changement est toujours facile",
-          "Le changement peut être difficile mais nous rend plus forts",
-          "Il ne faut jamais changer",
-          "Elle regrette d’être partie"
         ]
       }
     ]
@@ -7019,56 +6552,6 @@
           "Qu’une approche interdisciplinaire peut être plus riche",
           "Qu’il refuse de répondre",
           "Qu’il faut changer de sujet"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Inférence : pourquoi le professeur valorise-t-il autant la négociation entre perspectives divergentes ?",
-        "options": [
-          "Parce que c’est plus facile à noter",
-          "Parce qu’il la considère comme une compétence aussi précieuse que le contenu académique",
-          "Parce qu’il n’a pas d’autre choix",
-          "Par simple habitude administrative"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « il n’était pas exclu que » ?",
-        "options": [
-          "C’était impossible",
-          "C’était une possibilité envisageable",
-          "C’était certain",
-          "C’était interdit"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime une opinion, et non un fait ?",
-        "options": [
-          "Le groupe est composé de quatre étudiants.",
-          "Il est probable que nous devions combiner ces trois perspectives.",
-          "Le professeur a répondu par e-mail.",
-          "La soutenance a eu lieu après plusieurs semaines de travail."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel sentiment Camila ressent-elle le jour de la soutenance ?",
-        "options": [
-          "Le regret d’avoir participé",
-          "Une fierté particulière liée à la transformation du désaccord en richesse collective",
-          "L’indifférence totale",
-          "La peur de parler en public"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : quelle leçon générale Camila tire-t-elle de cette expérience ?",
-        "options": [
-          "Il vaut mieux travailler seul",
-          "Un désaccord initial peut se transformer en richesse collective",
-          "Les travaux de groupe sont toujours inutiles",
-          "Il faut toujours imposer son propre point de vue"
         ]
       }
     ]
@@ -7206,61 +6689,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Relire ou se tester : quelle pratique construit une mémoire durable ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Relire ou se tester : quelle pratique construit une mémoire durable ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "Les performances moyennes masquent des différences importantes. Un mot transparent pour un hispanophone n’impose pas la même charge qu’un idiome opaque. La similarité entre items peut créer des interférences, tandis qu’un exemple personnel favorise parfois la distinction. Le retour correctif compte également : récupérer plusieurs fois une forme erronée peut consolider l’erreur. Enfin, un algorithme d’espacement optimise ce qu’il mesure ; s’il ne demande que la traduction vers la langue première, il entraînera surtout cette direction.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Relire ou se tester : quelle pratique construit une mémoire durable ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Relire ou se tester : quelle pratique construit une mémoire durable ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Relire ou se tester : quelle pratique construit une mémoire durable ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Relire ou se tester : quelle pratique construit une mémoire durable ? »."
       }
@@ -12286,40 +11714,6 @@
           "Rosa",
           "Karim"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Madame Lambert est infirmière.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Léa est fille unique.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : La famille de Camila lui manque un peu.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Madame Lambert est très ___, elle aime recevoir des invités.",
-        "options": [
-          "accueillante",
-          "fâchée",
-          "fatiguée",
-          "triste"
-        ]
       }
     ]
   },
@@ -12415,54 +11809,6 @@
           "Une dame dans la rue",
           "Un chauffeur de bus",
           "Léa par téléphone"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment se sent Camila à la fin du texte ?",
-        "options": [
-          "Fâchée",
-          "Fière d’elle-même",
-          "Triste",
-          "Fatiguée"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila avait déjà pris le bus seule avant.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « valider son ticket » signifie...",
-        "options": [
-          "Acheter un ticket",
-          "Composter/activer le ticket",
-          "Jeter le ticket",
-          "Perdre le ticket"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’intention de Camila en racontant « presque » à Karim ?",
-        "options": [
-          "Se plaindre",
-          "Minimiser l’aide qu’elle a reçue avec humour",
-          "Mentir sur son trajet",
-          "Se fâcher contre la dame"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le thème principal du texte ?",
-        "options": [
-          "Un problème de bus non résolu",
-          "L’autonomie de Camila dans une nouvelle ville",
-          "Une dispute entre amis",
-          "Un cours de géographie"
         ]
       }
     ]
@@ -12561,56 +11907,6 @@
           "Parce qu’elle a flatté les autres participants",
           "Parce qu’elle a terminé le débat rapidement"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « néanmoins » dans le deuxième paragraphe ?",
-        "options": [
-          "Donc",
-          "Cependant/pourtant",
-          "Parce que",
-          "De plus"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « dans une certaine mesure » ?",
-        "options": [
-          "Complètement",
-          "Jamais",
-          "Partiellement, avec des nuances",
-          "Rapidement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime un fait, et non une opinion ?",
-        "options": [
-          "Il me semble que les écrans peuvent être un outil éducatif.",
-          "Camila rejoint un club de discussion en ligne chaque semaine.",
-          "Je pense que le vrai problème est le contenu.",
-          "Ils ne peuvent donc pas être considérés uniquement comme négatifs."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : comment se sent Camila à la fin du débat ?",
-        "options": [
-          "Déçue de sa performance",
-          "Satisfaite d’avoir argumenté en français sur un sujet complexe",
-          "Fâchée contre les autres participants",
-          "Indifférente"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est la conclusion de l’animateur sur le débat ?",
-        "options": [
-          "Un argument a complètement gagné",
-          "Aucun argument n’a été réfuté, mais la réflexion s’est affinée",
-          "Le débat n’a rien apporté",
-          "Tout le monde était d’accord dès le début"
-        ]
       }
     ]
   },
@@ -12708,54 +12004,6 @@
           "Dix-sept sur vingt",
           "Vingt sur vingt"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment Camila se sent-elle avant l’examen, après une semaine de révisions ?",
-        "options": [
-          "Toujours très inquiète",
-          "Plus confiante",
-          "Indifférente",
-          "Fâchée"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : c’était la première fois que Camila avait une si bonne note en mathématiques.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « à ta place » signifie...",
-        "options": [
-          "Dans ta maison",
-          "Si j’étais toi",
-          "À ton école",
-          "Devant toi"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est la conclusion principale du texte ?",
-        "options": [
-          "Les mathématiques sont impossibles à apprendre",
-          "Avec une bonne méthode et de la régularité, on progresse",
-          "Il faut toujours étudier seul",
-          "Les conseils des amis ne servent à rien"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi Camila se sent-elle « un peu ridicule » au début ?",
-        "options": [
-          "Parce qu’elle échoue à l’examen",
-          "Parce qu’elle parle toute seule dans sa chambre",
-          "Parce que Karim se moque d’elle",
-          "Parce qu’elle n’a pas de livre"
-        ]
       }
     ]
   },
@@ -12849,61 +12097,6 @@
           "La prudence critique n’empêche pas de vérifier les faits",
           "Aucun fait ne peut être établi",
           "Un seul média dit toujours la vérité"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « étayées » dans le dernier paragraphe ?",
-        "options": [
-          "Cachées",
-          "Soutenues par des éléments solides",
-          "Raccourcies",
-          "Traduites"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’argumentation du texte progresse-t-elle ?",
-        "options": [
-          "Elle juxtapose des faits sans conclusion.",
-          "Elle part d’une situation concrète, confronte plusieurs perspectives puis formule une synthèse nuancée.",
-          "Elle répète une opinion identique dans chaque paragraphe.",
-          "Elle abandonne le sujet après le premier exemple."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle compétence de lecture C1 ce texte sollicite-t-il particulièrement ?",
-        "options": [
-          "Repérer uniquement des dates.",
-          "Mémoriser une liste isolée.",
-          "Relier les implicites, les objections et les limites d’une conclusion.",
-          "Traduire chaque mot sans contexte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi l’objectif « Analyser le cadrage médiatique, les présupposés et la hiérarchie de l’information. » exige-t-il une lecture nuancée ?",
-        "options": [
-          "Parce qu’une seule phrase donne toute la réponse.",
-          "Parce que le texte met en tension plusieurs critères sans les rendre équivalents.",
-          "Parce que le texte ne contient aucun argument.",
-          "Parce que seule la longueur du texte compte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel rôle joue la notion « le cadrage » dans le raisonnement ?",
-        "options": [
-          "Elle sert de détail décoratif sans rapport avec le sujet.",
-          "Elle permet de nommer précisément un mécanisme central du texte.",
-          "Elle remplace tous les autres arguments.",
-          "Elle indique uniquement le lieu de l’action."
         ],
         "explanation": ""
       }
@@ -13042,61 +12235,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Apprend-on une langue pendant que l’on dort ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Apprend-on une langue pendant que l’on dort ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "Les besoins de sommeil varient avec l’âge et la personne, tandis que la qualité du sommeil est difficile à réduire à une durée. Les études de laboratoire portent souvent sur une nuit ou une sieste et ne disent pas exactement comment plusieurs mois de sommeil irrégulier influencent une langue complexe. Il serait également trompeur de transformer une association moyenne en prescription médicale. Insomnie, apnée et fatigue persistante relèvent d’une évaluation de santé, pas d’une simple stratégie d’étude.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Apprend-on une langue pendant que l’on dort ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Apprend-on une langue pendant que l’on dort ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Apprend-on une langue pendant que l’on dort ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Apprend-on une langue pendant que l’on dort ? »."
       }
@@ -18302,40 +17440,6 @@
           "Six",
           "Sept"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Il y a un gymnase dans le collège.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila a une calculatrice dans son sac.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Il y a cours le mercredi après-midi.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Dans une trousse, il y a un stylo, un crayon, une gomme et une ___.",
-        "options": [
-          "règle",
-          "chaise",
-          "cantine",
-          "bibliothèque"
-        ]
       }
     ]
   },
@@ -18431,54 +17535,6 @@
           "Pour ne pas contaminer ses camarades",
           "Parce que l’école est fermée",
           "Parce qu’elle est punie"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que fait Madame Lambert après la visite chez le médecin ?",
-        "options": [
-          "Elle rentre directement à la maison",
-          "Elle achète le médicament et prépare une soupe",
-          "Elle emmène Camila au restaurant",
-          "Elle appelle Léa"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila est contente de manquer l’école.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « rassurée » signifie...",
-        "options": [
-          "Encore plus inquiète",
-          "Soulagée, moins inquiète",
-          "En colère",
-          "Fatiguée"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quand Camila retourne-t-elle à l’école ?",
-        "options": [
-          "Le jour même",
-          "Le lendemain",
-          "Le lundi suivant",
-          "Jamais"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le ton général de l’histoire ?",
-        "options": [
-          "Inquiétant du début à la fin",
-          "Rassurant, avec une bonne résolution",
-          "Triste et sans espoir",
-          "Comique"
         ]
       }
     ]
@@ -18577,56 +17633,6 @@
           "De changer complètement de métier",
           "De déménager"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Cause et conséquence : pourquoi le changement au café améliore-t-il son moral ?",
-        "options": [
-          "Parce qu’elle gagne plus d’argent",
-          "Parce qu’elle retrouve une ambiance sociale tout en restant concentrée",
-          "Parce qu’elle arrête de travailler",
-          "Parce que le café est gratuit"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « ce dont elle a le plus besoin » ?",
-        "options": [
-          "Ce qu’elle possède déjà",
-          "Ce qui lui manque le plus",
-          "Ce qu’elle a acheté",
-          "Ce qu’elle a oublié"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime une conclusion personnelle de Camila ?",
-        "options": [
-          "Elle traduit des brochures touristiques.",
-          "Le télétravail n’est ni entièrement positif ni entièrement négatif.",
-          "Elle travaille deux après-midis au café.",
-          "Sa mère s’inquiète en la voyant travailler."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Inférence : que représente ce petit emploi pour l’avenir de Camila ?",
-        "options": [
-          "Une perte de temps",
-          "Une première étape vers le métier de traductrice",
-          "Un obstacle à ses études",
-          "Une expérience sans importance"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : comment Camila se sent-elle à la fin du texte, comparée à un an plus tôt ?",
-        "options": [
-          "Moins confiante",
-          "Plus confiante dans son projet professionnel",
-          "Exactement pareille",
-          "Découragée"
-        ]
       }
     ]
   },
@@ -18724,54 +17730,6 @@
           "Indifférent",
           "En retard"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le résultat final ?",
-        "options": [
-          "Karim n’obtient pas le stage",
-          "Karim obtient le stage",
-          "L’entretien est annulé",
-          "Karim change d’avis"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila avait déjà de l’expérience avec les entretiens.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « sans laquelle » fait référence à...",
-        "options": [
-          "La bibliothèque",
-          "L’aide de Camila",
-          "La question du recruteur",
-          "Sa motivation"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’intention principale du texte ?",
-        "options": [
-          "Décrire une bibliothèque",
-          "Montrer comment bien se préparer à un entretien",
-          "Se plaindre d’un employeur",
-          "Expliquer un problème scolaire"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle inférence peut-on faire sur l’amitié entre Karim et Camila ?",
-        "options": [
-          "Ils sont rivaux",
-          "Ils s’entraident dans les moments importants",
-          "Ils ne se parlent presque jamais",
-          "Camila est jalouse de Karim"
-        ]
       }
     ]
   },
@@ -18865,61 +17823,6 @@
           "Elle exige d’examiner des pertes moins visibles",
           "Elle interdit les notes",
           "Elle choisit une fidélité unique"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « situé » dans ce contexte ?",
-        "options": [
-          "Immobile",
-          "Dépendant d’un contexte et d’une position",
-          "Géographiquement proche",
-          "Automatique"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’argumentation du texte progresse-t-elle ?",
-        "options": [
-          "Elle juxtapose des faits sans conclusion.",
-          "Elle part d’une situation concrète, confronte plusieurs perspectives puis formule une synthèse nuancée.",
-          "Elle répète une opinion identique dans chaque paragraphe.",
-          "Elle abandonne le sujet après le premier exemple."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle compétence de lecture C1 ce texte sollicite-t-il particulièrement ?",
-        "options": [
-          "Repérer uniquement des dates.",
-          "Mémoriser une liste isolée.",
-          "Relier les implicites, les objections et les limites d’une conclusion.",
-          "Traduire chaque mot sans contexte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi l’objectif « Évaluer une technologie en distinguant efficacité, responsabilité et perte de nuance. » exige-t-il une lecture nuancée ?",
-        "options": [
-          "Parce qu’une seule phrase donne toute la réponse.",
-          "Parce que le texte met en tension plusieurs critères sans les rendre équivalents.",
-          "Parce que le texte ne contient aucun argument.",
-          "Parce que seule la longueur du texte compte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel rôle joue la notion « aplatir une voix » dans le raisonnement ?",
-        "options": [
-          "Elle sert de détail décoratif sans rapport avec le sujet.",
-          "Elle permet de nommer précisément un mécanisme central du texte.",
-          "Elle remplace tous les autres arguments.",
-          "Elle indique uniquement le lieu de l’action."
         ],
         "explanation": ""
       }
@@ -19058,61 +17961,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Comprendre beaucoup suffit-il pour apprendre à parler ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Comprendre beaucoup suffit-il pour apprendre à parler ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "Le seuil de compréhension n’est pas identique pour tous les objectifs. Un document facile favorise la fluidité et le volume d’exposition ; un document légèrement plus exigeant peut stimuler l’inférence, mais aussi saturer l’attention. Les sous-titres, images et connaissances du sujet modifient la difficulté réelle. De plus, les études utilisent des durées et des populations diverses. Une moyenne ne détermine donc pas le pourcentage exact de mots connus qu’exigerait chaque apprenant dans chaque situation.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Comprendre beaucoup suffit-il pour apprendre à parler ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Comprendre beaucoup suffit-il pour apprendre à parler ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Comprendre beaucoup suffit-il pour apprendre à parler ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Comprendre beaucoup suffit-il pour apprendre à parler ? »."
       }
@@ -24391,40 +23239,6 @@
           "Elle téléphone à sa mère",
           "Elle fait du sport"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila va au collège en voiture.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Les cours finissent à seize heures trente.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila se couche à minuit.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Le soir, Camila ___ avec la famille Lambert.",
-        "options": [
-          "dîne",
-          "se lève",
-          "s'habille",
-          "se réveille"
-        ]
       }
     ]
   },
@@ -24520,54 +23334,6 @@
           "Dix-neuf heures trente",
           "Vingt et une heures",
           "Vingt-deux heures"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que fait Camila le week-end, selon le texte ?",
-        "options": [
-          "Elle reste toujours seule",
-          "Elle sort parfois avec Karim et Léa",
-          "Elle travaille",
-          "Elle voyage chaque semaine"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila s’ennuie souvent dans sa nouvelle routine.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « je m’y suis vite habituée » signifie...",
-        "options": [
-          "Elle a mis longtemps à s’adapter",
-          "Elle s’est adaptée rapidement",
-          "Elle n’aime pas sa routine",
-          "Elle a changé de routine"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’activité préférée de la semaine de Camila ?",
-        "options": [
-          "Les devoirs à la bibliothèque",
-          "Le dîner en famille",
-          "Le cours de danse du mercredi",
-          "Le petit-déjeuner"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le ton général de la conversation ?",
-        "options": [
-          "Inquiet et tendu",
-          "Chaleureux et rassurant",
-          "Fâché",
-          "Indifférent"
         ]
       }
     ]
@@ -24666,56 +23432,6 @@
           "Comme une erreur de jeunesse",
           "Comme quelque chose à cacher"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Inférence : pourquoi les autres participants sont-ils touchés par l’intervention de Camila ?",
-        "options": [
-          "Parce qu’elle a parlé très fort",
-          "Parce que son interprétation personnelle résonne avec le texte",
-          "Parce qu’elle a critiqué le roman",
-          "Parce qu’elle a fait une erreur de français"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « la force de la grande littérature » selon l’animatrice ?",
-        "options": [
-          "Sa capacité à faire vendre beaucoup de livres",
-          "Sa capacité à permettre à chacun de retrouver sa propre vérité",
-          "Sa difficulté de lecture",
-          "Sa longueur"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime un fait, et non une impression ?",
-        "options": [
-          "Camila se reconnaît dans le personnage principal.",
-          "L’animatrice est une professeure de littérature à la retraite.",
-          "Ce roman lui a fait comprendre beaucoup de choses.",
-          "Elle ressent un sentiment inhabituel de plénitude."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : que représente désormais le français pour Camila, selon la fin du texte ?",
-        "options": [
-          "Un outil purement pratique, rien de plus",
-          "Une langue dans laquelle elle pense et se comprend elle-même",
-          "Une langue qu’elle veut abandonner",
-          "Une matière scolaire obligatoire"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Intention communicative : pourquoi Camila décide-t-elle de commander le roman suivant ?",
-        "options": [
-          "Par obligation pour le club",
-          "Parce qu’elle est impatiente de continuer cette exploration littéraire",
-          "Parce que c’est gratuit",
-          "Parce que Sofía le lui a demandé"
-        ]
       }
     ]
   },
@@ -24812,54 +23528,6 @@
           "Elle dit apprécier les deux différemment",
           "Elle refuse de répondre"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment réagit la professeure à la réponse de Camila ?",
-        "options": [
-          "Elle la critique",
-          "Elle la félicite",
-          "Elle l’ignore",
-          "Elle change de sujet"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila pense que la culture dominicaine est meilleure que la culture française.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « tandis que » exprime...",
-        "options": [
-          "Une cause",
-          "Une opposition/contraste",
-          "Une conséquence",
-          "Un but"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’intention principale de l’exposé de Camila ?",
-        "options": [
-          "Critiquer la culture française",
-          "Comparer deux cultures sans les juger",
-          "Convaincre la classe de voyager",
-          "Se plaindre de son pays d’origine"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle inférence peut-on faire sur l’évolution de Camila ?",
-        "options": [
-          "Elle a du mal à s’adapter à la France",
-          "Elle a appris à voir la richesse des deux cultures",
-          "Elle veut oublier son pays d’origine",
-          "Elle rejette la culture française"
-        ]
       }
     ]
   },
@@ -24953,61 +23621,6 @@
           "Elle accepte une pluralité de récits contradictoires",
           "Elle rejette son histoire",
           "Elle adopte uniquement le récit officiel"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que veut dire « constellation » ici ?",
-        "options": [
-          "Un groupe d’éléments liés sans centre unique",
-          "Une vérité immuable",
-          "Une carte géographique",
-          "Une chronologie exacte"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’argumentation du texte progresse-t-elle ?",
-        "options": [
-          "Elle juxtapose des faits sans conclusion.",
-          "Elle part d’une situation concrète, confronte plusieurs perspectives puis formule une synthèse nuancée.",
-          "Elle répète une opinion identique dans chaque paragraphe.",
-          "Elle abandonne le sujet après le premier exemple."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle compétence de lecture C1 ce texte sollicite-t-il particulièrement ?",
-        "options": [
-          "Repérer uniquement des dates.",
-          "Mémoriser une liste isolée.",
-          "Relier les implicites, les objections et les limites d’une conclusion.",
-          "Traduire chaque mot sans contexte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi l’objectif « Interpréter un récit mémoriel où documents, silences et identité se répondent. » exige-t-il une lecture nuancée ?",
-        "options": [
-          "Parce qu’une seule phrase donne toute la réponse.",
-          "Parce que le texte met en tension plusieurs critères sans les rendre équivalents.",
-          "Parce que le texte ne contient aucun argument.",
-          "Parce que seule la longueur du texte compte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel rôle joue la notion « une archive » dans le raisonnement ?",
-        "options": [
-          "Elle sert de détail décoratif sans rapport avec le sujet.",
-          "Elle permet de nommer précisément un mécanisme central du texte.",
-          "Elle remplace tous les autres arguments.",
-          "Elle indique uniquement le lieu de l’action."
         ],
         "explanation": ""
       }
@@ -25146,61 +23759,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Texte, son ou image : faut-il choisir un seul canal ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Texte, son ou image : faut-il choisir un seul canal ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "Les apprenants expérimentés savent souvent mieux choisir où porter leur attention. Les débutants peuvent dépendre de sous-titres traduits qui facilitent le sens mais réduisent le traitement de la langue cible. Les personnes ayant des besoins sensoriels ou attentionnels ne bénéficient pas de la même configuration. Enfin, un contenu intéressant augmente le temps volontaire d’exposition, variable rarement capturée par une séance de laboratoire. L’efficacité quotidienne résulte ainsi de l’apprentissage par minute et du nombre réel de minutes.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Texte, son ou image : faut-il choisir un seul canal ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Texte, son ou image : faut-il choisir un seul canal ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Texte, son ou image : faut-il choisir un seul canal ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Texte, son ou image : faut-il choisir un seul canal ? »."
       }
@@ -30425,40 +28983,6 @@
           "Madame Lambert",
           "Léa"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : La fête commence à dix-huit heures.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Léa sait qu'il y a une fête surprise.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Ils mangent un gâteau au chocolat.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Quand Léa arrive, tout le monde ___ : « Joyeux anniversaire ! »",
-        "options": [
-          "crie",
-          "dort",
-          "pleure",
-          "part"
-        ]
       }
     ]
   },
@@ -30554,54 +29078,6 @@
           "Léa et Madame Lambert",
           "Personne",
           "Le médecin seulement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment Camila décrit-elle ses nouvelles amitiés ?",
-        "options": [
-          "Ennuyeuses",
-          "Inoubliables",
-          "Difficiles",
-          "Sans importance"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : l’accident de vélo était très grave.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « à quel point » signifie...",
-        "options": [
-          "Combien / à quel degré",
-          "À quel endroit",
-          "Quand exactement",
-          "Pourquoi"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel sentiment domine ce journal ?",
-        "options": [
-          "La déception",
-          "La gratitude et l’enthousiasme",
-          "La colère",
-          "L’indifférence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle inférence peut-on faire sur la relation de Camila avec la famille Lambert ?",
-        "options": [
-          "Elle est distante",
-          "Elle est devenue proche et importante pour elle",
-          "Elle veut déménager",
-          "Elle ne les voit presque jamais"
         ]
       }
     ]
@@ -30700,56 +29176,6 @@
           "Il n’existe pas",
           "Elle ne le comprend pas"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Cause et conséquence : pourquoi Camila reste-t-elle honnête dans sa critique malgré son appréciation du film ?",
-        "options": [
-          "Parce qu’elle n’aime pas vraiment le film",
-          "Parce qu’une critique nuancée est plus juste et crédible",
-          "Parce que Sofía le lui a demandé",
-          "Par obligation du blog"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « rebuter » dans le troisième paragraphe ?",
-        "options": [
-          "Attirer fortement",
-          "Décourager, déplaire",
-          "Amuser",
-          "Informer"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime un fait, et non une opinion ?",
-        "options": [
-          "C’est l’un des films les plus émouvants qu’elle ait vus.",
-          "Le film raconte l’histoire de trois sœurs qui se retrouvent.",
-          "Le rythme aurait pu rebuter certains spectateurs.",
-          "Les actrices sont absolument convaincantes."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : que réalise Camila en relisant sa critique ?",
-        "options": [
-          "Qu’elle n’a rien appris en France",
-          "À quel point elle a progressé en français depuis son arrivée",
-          "Qu’elle déteste le cinéma",
-          "Qu’elle veut arrêter son blog"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Intention communicative : pourquoi Camila ne révèle-t-elle pas trop la fin du film ?",
-        "options": [
-          "Parce qu’elle l’a oubliée",
-          "Pour ne pas gâcher la surprise à ses lecteurs",
-          "Parce que c’est interdit",
-          "Parce que la fin n’a pas d’importance"
-        ]
       }
     ]
   },
@@ -30847,54 +29273,6 @@
           "Il faut les utiliser tout le temps",
           "Ils sont inutiles"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que décide de faire Camila après ce débat ?",
-        "options": [
-          "Supprimer tous ses réseaux sociaux",
-          "Limiter son temps d’écran le soir",
-          "Passer plus de temps en ligne",
-          "Ne rien changer"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : tous les élèves sont d’accord dès le début du débat.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « d’une part... d’autre part... » sert à...",
-        "options": [
-          "Donner deux exemples opposés ou complémentaires",
-          "Exprimer une cause",
-          "Poser une question",
-          "Terminer un texte"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le ton général du débat ?",
-        "options": [
-          "Agressif et fermé",
-          "Ouvert et nuancé",
-          "Indifférent",
-          "Moqueur"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle inférence peut-on faire sur l’attitude de la professeure ?",
-        "options": [
-          "Elle impose son opinion",
-          "Elle encourage la réflexion personnelle de ses élèves",
-          "Elle est contre les réseaux sociaux",
-          "Elle ignore le débat"
-        ]
       }
     ]
   },
@@ -30988,61 +29366,6 @@
           "Adapter les moyens aux obstacles réels",
           "Supprimer toute règle",
           "Favoriser arbitrairement un groupe"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle thèse domine la conclusion ?",
-        "options": [
-          "Le mérite suffit à tout expliquer",
-          "La responsabilité doit être replacée dans ses conditions",
-          "Les institutions n’ont aucun rôle",
-          "L’effort individuel est une illusion"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’argumentation du texte progresse-t-elle ?",
-        "options": [
-          "Elle juxtapose des faits sans conclusion.",
-          "Elle part d’une situation concrète, confronte plusieurs perspectives puis formule une synthèse nuancée.",
-          "Elle répète une opinion identique dans chaque paragraphe.",
-          "Elle abandonne le sujet après le premier exemple."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle compétence de lecture C1 ce texte sollicite-t-il particulièrement ?",
-        "options": [
-          "Repérer uniquement des dates.",
-          "Mémoriser une liste isolée.",
-          "Relier les implicites, les objections et les limites d’une conclusion.",
-          "Traduire chaque mot sans contexte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi l’objectif « Suivre une argumentation contradictoire et distinguer égalité formelle et équité. » exige-t-il une lecture nuancée ?",
-        "options": [
-          "Parce qu’une seule phrase donne toute la réponse.",
-          "Parce que le texte met en tension plusieurs critères sans les rendre équivalents.",
-          "Parce que le texte ne contient aucun argument.",
-          "Parce que seule la longueur du texte compte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel rôle joue la notion « la méritocratie » dans le raisonnement ?",
-        "options": [
-          "Elle sert de détail décoratif sans rapport avec le sujet.",
-          "Elle permet de nommer précisément un mécanisme central du texte.",
-          "Elle remplace tous les autres arguments.",
-          "Elle indique uniquement le lieu de l’action."
         ],
         "explanation": ""
       }
@@ -31181,61 +29504,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Pourquoi parler avant de se sentir prêt ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Pourquoi parler avant de se sentir prêt ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "La quantité de parole n’équivaut pas à sa qualité d’apprentissage. Deux partenaires peuvent communiquer efficacement avec un répertoire limité sans pousser la précision. À l’inverse, une tâche trop exigeante peut réduire la production à des fragments anxieux. Les interlocuteurs natifs ne sont pas toujours les meilleurs partenaires et ne fournissent pas nécessairement un feedback compréhensible. Une interaction pédagogique utile exige sécurité, but partagé, possibilité de répétition et attention à la diversité légitime des usages.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Pourquoi parler avant de se sentir prêt ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Pourquoi parler avant de se sentir prêt ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Pourquoi parler avant de se sentir prêt ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Pourquoi parler avant de se sentir prêt ? »."
       }
@@ -36385,40 +34653,6 @@
           "À bientôt",
           "Bonne nuit"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Léa prend beaucoup de fromage.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Léa aime beaucoup la salade.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila aide à débarrasser la table.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Madame Lambert apporte du fromage et de la ___.",
-        "options": [
-          "salade",
-          "chaise",
-          "trousse",
-          "cour"
-        ]
       }
     ]
   },
@@ -36514,54 +34748,6 @@
           "Ils se baignent",
           "Ils font du shopping",
           "Ils restent à l’hôtel"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel plat local goûtent-ils ?",
-        "options": [
-          "La bouillabaisse",
-          "La salade niçoise",
-          "La ratatouille",
-          "La quiche lorraine"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila avait déjà vu la mer Méditerranée avant ce voyage.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « à perte de vue » signifie...",
-        "options": [
-          "Très petite",
-          "Aussi loin que l’œil peut voir",
-          "Cachée",
-          "Dangereuse"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi Camila prend-elle beaucoup de photos ?",
-        "options": [
-          "Pour les vendre",
-          "Pour les montrer à sa famille à Saint-Domingue",
-          "Parce que c’est obligatoire",
-          "Pour un devoir scolaire"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le sentiment général de Camila à propos de ce voyage ?",
-        "options": [
-          "La déception",
-          "L’enthousiasme et la joie",
-          "L’ennui",
-          "La peur"
         ]
       }
     ]
@@ -36660,56 +34846,6 @@
           "Elle refuse de donner un avis",
           "Elle pense qu’il faut toujours dénoncer"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Inférence : pourquoi le professeur salue-t-il l’intervention de Camila ?",
-        "options": [
-          "Parce qu’elle a écrit le plus long message",
-          "Parce qu’elle formule une position claire tout en reconnaissant d’autres perspectives",
-          "Parce qu’elle a flatté le professeur",
-          "Parce qu’elle a copié un autre message"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « cautionner une injustice » ?",
-        "options": [
-          "Dénoncer une injustice",
-          "Approuver silencieusement une injustice",
-          "Ignorer complètement le sujet",
-          "Réparer une injustice"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime une opinion personnelle ?",
-        "options": [
-          "Camila s’est inscrite à un cours de philosophie en ligne.",
-          "Juger rapidement la situation de quelqu’un me semble toujours risqué.",
-          "Un participant argentin a répondu au forum.",
-          "Le sujet suscite des dizaines de réponses."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "À quelle expérience personnelle Camila repense-t-elle ?",
-        "options": [
-          "Un examen raté",
-          "Une tricherie qu’elle avait hésité à signaler à Tours",
-          "Un voyage en Argentine",
-          "Une dispute avec Sofía"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : que lui apporte cet exercice philosophique, selon le dernier paragraphe ?",
-        "options": [
-          "Uniquement de la pratique grammaticale",
-          "Une meilleure compréhension de ses propres valeurs",
-          "Une note plus élevée au cours",
-          "Rien de particulier"
-        ]
       }
     ]
   },
@@ -36807,54 +34943,6 @@
           "Elle regarde des films",
           "Elle dort"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Jusqu’à quelle heure Camila décide-t-elle de limiter ses révisions ?",
-        "options": [
-          "Dix-neuf heures",
-          "Vingt et une heures",
-          "Vingt-trois heures",
-          "Minuit"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : après une semaine, Camila se sent plus stressée qu’avant.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « bienveillance » signifie...",
-        "options": [
-          "Indifférence",
-          "Gentillesse et attention envers les autres",
-          "Colère",
-          "Jalousie"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est la leçon principale que Camila retient ?",
-        "options": [
-          "Il faut sacrifier sa santé pour réussir",
-          "Il faut trouver un équilibre entre travail et repos",
-          "Le sport n’aide pas contre le stress",
-          "Il ne faut jamais réviser"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’intention principale du texte ?",
-        "options": [
-          "Décrire un examen difficile",
-          "Montrer l’importance de l’équilibre entre études et bien-être",
-          "Se plaindre du système scolaire",
-          "Décrire une dispute familiale"
-        ]
       }
     ]
   },
@@ -36948,61 +35036,6 @@
           "Pour rendre les décideurs évaluables",
           "Pour fermer les bâtiments",
           "Pour augmenter les coûts"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle conception de la sobriété conclut le texte ?",
-        "options": [
-          "Une réduction identique pour tous",
-          "Une réduction attentive aux besoins et à la justice",
-          "Un slogan sans mesure",
-          "Une rénovation sans changement d’usage"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’argumentation du texte progresse-t-elle ?",
-        "options": [
-          "Elle juxtapose des faits sans conclusion.",
-          "Elle part d’une situation concrète, confronte plusieurs perspectives puis formule une synthèse nuancée.",
-          "Elle répète une opinion identique dans chaque paragraphe.",
-          "Elle abandonne le sujet après le premier exemple."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle compétence de lecture C1 ce texte sollicite-t-il particulièrement ?",
-        "options": [
-          "Repérer uniquement des dates.",
-          "Mémoriser une liste isolée.",
-          "Relier les implicites, les objections et les limites d’une conclusion.",
-          "Traduire chaque mot sans contexte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi l’objectif « Évaluer une politique écologique en identifiant arbitrages, indicateurs et effets indirects. » exige-t-il une lecture nuancée ?",
-        "options": [
-          "Parce qu’une seule phrase donne toute la réponse.",
-          "Parce que le texte met en tension plusieurs critères sans les rendre équivalents.",
-          "Parce que le texte ne contient aucun argument.",
-          "Parce que seule la longueur du texte compte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel rôle joue la notion « la sobriété énergétique » dans le raisonnement ?",
-        "options": [
-          "Elle sert de détail décoratif sans rapport avec le sujet.",
-          "Elle permet de nommer précisément un mécanisme central du texte.",
-          "Elle remplace tous les autres arguments.",
-          "Elle indique uniquement le lieu de l’action."
         ],
         "explanation": ""
       }
@@ -37141,61 +35174,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Corriger davantage signifie-t-il enseigner mieux ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Corriger davantage signifie-t-il enseigner mieux ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "Le feedback automatisé ajoute une difficulté : un système peut signaler rapidement des motifs, mais manquer le but discursif ou proposer une correction erronée. Même un enseignant humain doit sélectionner. Trop d’informations simultanées empêchent l’apprenant d’établir une priorité, tandis qu’une correction sans explication peut devenir dépendance. Les préférences déclarées ne prédisent pas toujours les gains : certains souhaitent une correction exhaustive qu’ils ne peuvent réellement traiter pendant une conversation.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Corriger davantage signifie-t-il enseigner mieux ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Corriger davantage signifie-t-il enseigner mieux ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Corriger davantage signifie-t-il enseigner mieux ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Corriger davantage signifie-t-il enseigner mieux ? »."
       }
@@ -42400,40 +40378,6 @@
           "Dans l'armoire",
           "Sur le bureau"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : La chambre de Camila à Tours est très grande.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Léa a aidé Camila à décorer sa chambre.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Il y a un miroir derrière la porte.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : La chambre de Camila est petite mais très ___.",
-        "options": [
-          "confortable",
-          "fâchée",
-          "triste",
-          "fermée"
-        ]
       }
     ]
   },
@@ -42529,54 +40473,6 @@
           "Non",
           "Le texte ne le dit pas",
           "Seulement en hiver"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que recommande Karim pour un étudiant seul ?",
-        "options": [
-          "L’appartement",
-          "Le studio",
-          "Aucun des deux",
-          "Un troisième logement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : le studio a un balcon.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « charges comprises » signifie...",
-        "options": [
-          "Les charges sont en plus du loyer",
-          "Les charges sont incluses dans le prix",
-          "Il n’y a pas de charges",
-          "Les charges sont très élevées"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’intention principale de Camila et Karim dans ce texte ?",
-        "options": [
-          "Choisir un logement pour eux-mêmes",
-          "Comparer deux annonces pour un projet scolaire",
-          "Vendre un appartement",
-          "Se plaindre d’un logement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle conclusion tirent-ils finalement ?",
-        "options": [
-          "Le studio est toujours meilleur",
-          "L’appartement est toujours meilleur",
-          "Le meilleur choix dépend des besoins de chaque personne",
-          "Aucun des deux logements n’est bon"
         ]
       }
     ]
@@ -42675,56 +40571,6 @@
           "Complètement négative",
           "Elle n’a pas d’opinion"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Cause et conséquence : pourquoi Camila décide-t-elle de se spécialiser dans certains domaines de traduction ?",
-        "options": [
-          "Par hasard",
-          "Pour rester dans des domaines difficiles à remplacer par une machine",
-          "Parce que Karim le lui a ordonné",
-          "Parce que c’est plus facile"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « étant donné que » ?",
-        "options": [
-          "Bien que",
-          "Parce que/vu que",
-          "Malgré",
-          "Sans que"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime une opinion ?",
-        "options": [
-          "Karim envoie un article à Camila.",
-          "Une technologie aussi puissante peut être utilisée pour le meilleur comme pour le pire.",
-          "L’article explique le fonctionnement des algorithmes.",
-          "Camila lit attentivement l’article."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Inférence : quelle attitude Camila adopte-t-elle finalement face à l’IA ?",
-        "options": [
-          "Le déni complet",
-          "Une attitude proactive et curieuse",
-          "La peur paralysante",
-          "L’indifférence totale"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : quelle leçon générale peut-on tirer de ce texte ?",
-        "options": [
-          "Il faut éviter toute nouvelle technologie",
-          "Il est important de rester informé et adaptable face au changement technologique",
-          "L’intelligence artificielle est totalement dangereuse",
-          "Le métier de traducteur va disparaître demain"
-        ]
       }
     ]
   },
@@ -42822,54 +40668,6 @@
           "Changer d’école",
           "Annuler le projet"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que préparent Camila et Karim pour convaincre la direction ?",
-        "options": [
-          "Une pétition",
-          "Une présentation avec des chiffres",
-          "Une manifestation",
-          "Une lettre anonyme"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : la direction refuse le projet.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « c’est pourquoi » exprime...",
-        "options": [
-          "Une cause",
-          "Une conséquence",
-          "Une opposition",
-          "Un but"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment Camila se sent-elle à la fin du texte ?",
-        "options": [
-          "Déçue",
-          "Fière",
-          "Indifférente",
-          "Fâchée"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’intention principale du texte ?",
-        "options": [
-          "Critiquer l’école",
-          "Montrer comment un projet collectif peut créer un changement concret",
-          "Décrire un examen",
-          "Parler d’un voyage scolaire"
-        ]
       }
     ]
   },
@@ -42963,61 +40761,6 @@
           "Corriger pour la compréhension sans humilier",
           "Imposer un accent unique",
           "Supprimer les registres"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « en connaissance de cause » ?",
-        "options": [
-          "Par hasard",
-          "Avec compréhension des conséquences",
-          "Sans autorisation",
-          "Sous la contrainte"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’argumentation du texte progresse-t-elle ?",
-        "options": [
-          "Elle juxtapose des faits sans conclusion.",
-          "Elle part d’une situation concrète, confronte plusieurs perspectives puis formule une synthèse nuancée.",
-          "Elle répète une opinion identique dans chaque paragraphe.",
-          "Elle abandonne le sujet après le premier exemple."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle compétence de lecture C1 ce texte sollicite-t-il particulièrement ?",
-        "options": [
-          "Repérer uniquement des dates.",
-          "Mémoriser une liste isolée.",
-          "Relier les implicites, les objections et les limites d’une conclusion.",
-          "Traduire chaque mot sans contexte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi l’objectif « Analyser le rapport entre norme, variation linguistique et légitimité sociale. » exige-t-il une lecture nuancée ?",
-        "options": [
-          "Parce qu’une seule phrase donne toute la réponse.",
-          "Parce que le texte met en tension plusieurs critères sans les rendre équivalents.",
-          "Parce que le texte ne contient aucun argument.",
-          "Parce que seule la longueur du texte compte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel rôle joue la notion « une norme linguistique » dans le raisonnement ?",
-        "options": [
-          "Elle sert de détail décoratif sans rapport avec le sujet.",
-          "Elle permet de nommer précisément un mécanisme central du texte.",
-          "Elle remplace tous les autres arguments.",
-          "Elle indique uniquement le lieu de l’action."
         ],
         "explanation": ""
       }
@@ -43156,61 +40899,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Faut-il rééduquer l’oreille avant la bouche ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Faut-il rééduquer l’oreille avant la bouche ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "Les systèmes de reconnaissance ont été conçus à partir de données qui ne représentent pas également tous les accents. Un mot mal transcrit peut révéler un problème de prononciation, du bruit, un microphone médiocre ou une limite du modèle. Le score automatique ne doit donc pas devenir un verdict. Les méta-analyses signalent aussi que les traitements plus longs et le travail avec des pairs obtiennent parfois de meilleurs résultats, ce qui rappelle que la technologie ne remplace pas le contexte communicatif.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Faut-il rééduquer l’oreille avant la bouche ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Faut-il rééduquer l’oreille avant la bouche ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Faut-il rééduquer l’oreille avant la bouche ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Faut-il rééduquer l’oreille avant la bouche ? »."
       }
@@ -48480,40 +46168,6 @@
           "Madame Dubois",
           "Sofía"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Elles passent devant la cathédrale.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Elles vont au marché en voiture.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Elles achètent du pain à la boulangerie.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Le centre-ville de Tours est joli, avec de vieilles maisons et de petites ___.",
-        "options": [
-          "rues",
-          "piscines",
-          "voitures",
-          "écoles"
-        ]
       }
     ]
   },
@@ -48609,54 +46263,6 @@
           "Les océans",
           "Les animaux d’Afrique",
           "L’histoire de France"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment réagit Karim après le documentaire ?",
-        "options": [
-          "Il n’aime pas du tout",
-          "Il est surpris et il adore",
-          "Il s’endort",
-          "Il refuse de commenter"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Karim aime habituellement les documentaires.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « ça devrait convenir à tout le monde » signifie...",
-        "options": [
-          "Ça ne va plaire à personne",
-          "Ça devrait satisfaire tout le monde",
-          "C’est interdit",
-          "Personne ne le sait"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle leçon peut-on tirer de cette soirée ?",
-        "options": [
-          "Il est impossible de se mettre d’accord",
-          "Il existe toujours une solution qui satisfait tout le monde",
-          "Il faut toujours choisir seul",
-          "Les documentaires sont ennuyeux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase exprime une opinion, pas un fait ?",
-        "options": [
-          "Ils se retrouvent chez les Lambert.",
-          "Personnellement, je préfère les films d’action.",
-          "Ils regardent un documentaire sur les océans.",
-          "Léa propose une série."
         ]
       }
     ]
@@ -48755,56 +46361,6 @@
           "Parce qu’il est raconté en français",
           "Parce que c’est amusant"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réflexion Camila fait-elle sur la mémoire collective ?",
-        "options": [
-          "Qu’elle est toujours identique pour tout le monde",
-          "Qu’elle est faite de récits individuels multiples et parfois contradictoires",
-          "Qu’elle n’a aucune importance",
-          "Qu’elle ne change jamais"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « un fil invisible qui relie le passé... » ?",
-        "options": [
-          "Un objet physique",
-          "Un lien symbolique entre les générations",
-          "Un problème technique",
-          "Une erreur historique"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime une opinion de Camila ?",
-        "options": [
-          "Le documentaire a été réalisé par un historien francophone.",
-          "C’est fascinant, mais aussi assez difficile à regarder.",
-          "Sa grand-mère raconte une histoire familiale.",
-          "Camila remercie sa grand-mère en fin de soirée."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : que représente la transmission de la mémoire pour Camila, selon la fin du texte ?",
-        "options": [
-          "Un simple exercice scolaire",
-          "Un acte intime qui relie les générations",
-          "Une perte de temps",
-          "Une obligation ennuyeuse"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Intention communicative : pourquoi Camila demande-t-elle à sa grand-mère de lui raconter davantage d’histoires ?",
-        "options": [
-          "Par simple politesse",
-          "Parce qu’elle veut sincèrement mieux comprendre d’où elle vient",
-          "Parce qu’un professeur le lui a demandé",
-          "Parce qu’elle doit écrire un devoir"
-        ]
       }
     ]
   },
@@ -48902,54 +46458,6 @@
           "La fiction",
           "La biographie"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel conseil la professeure donne-t-elle avant de partager une information ?",
-        "options": [
-          "Toujours la partager rapidement",
-          "Vérifier la fiabilité de la source",
-          "Ne jamais lire les articles",
-          "Croire tout ce qu’on lit"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : l’article contenait des preuves scientifiques solides.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « c’est-à-dire » sert à...",
-        "options": [
-          "Reformuler ou préciser une idée",
-          "Poser une question",
-          "Exprimer une opposition",
-          "Terminer un texte"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’intention principale de ce cours ?",
-        "options": [
-          "Se moquer des réseaux sociaux",
-          "Apprendre à évaluer la fiabilité d’une information",
-          "Interdire internet",
-          "Décourager la lecture"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle inférence peut-on faire sur l’attitude de Karim face à l’information en ligne ?",
-        "options": [
-          "Il croit tout ce qu’il lit",
-          "Il a un regard critique et prudent",
-          "Il n’utilise jamais internet",
-          "Il partage tout sans vérifier"
-        ]
       }
     ]
   },
@@ -49043,61 +46551,6 @@
           "Distinguer établi, probable et révisable",
           "Donner une réponse unique",
           "Éviter le public"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle définition de l’esprit critique conclut le texte ?",
-        "options": [
-          "Refuser toute expertise",
-          "Examiner preuves, limites et révisabilité",
-          "Croire uniquement les autorités",
-          "Douter sans critère"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’argumentation du texte progresse-t-elle ?",
-        "options": [
-          "Elle juxtapose des faits sans conclusion.",
-          "Elle part d’une situation concrète, confronte plusieurs perspectives puis formule une synthèse nuancée.",
-          "Elle répète une opinion identique dans chaque paragraphe.",
-          "Elle abandonne le sujet après le premier exemple."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle compétence de lecture C1 ce texte sollicite-t-il particulièrement ?",
-        "options": [
-          "Repérer uniquement des dates.",
-          "Mémoriser une liste isolée.",
-          "Relier les implicites, les objections et les limites d’une conclusion.",
-          "Traduire chaque mot sans contexte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi l’objectif « Comprendre la valeur méthodologique du doute et la communication des résultats provisoires. » exige-t-il une lecture nuancée ?",
-        "options": [
-          "Parce qu’une seule phrase donne toute la réponse.",
-          "Parce que le texte met en tension plusieurs critères sans les rendre équivalents.",
-          "Parce que le texte ne contient aucun argument.",
-          "Parce que seule la longueur du texte compte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel rôle joue la notion « une hypothèse » dans le raisonnement ?",
-        "options": [
-          "Elle sert de détail décoratif sans rapport avec le sujet.",
-          "Elle permet de nommer précisément un mécanisme central du texte.",
-          "Elle remplace tous les autres arguments.",
-          "Elle indique uniquement le lieu de l’action."
         ],
         "explanation": ""
       }
@@ -49236,61 +46689,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Quand la peur de l’erreur occupe la mémoire »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Quand la peur de l’erreur occupe la mémoire »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "Les différences culturelles, le statut social de la langue et les expériences de discrimination modifient la situation. Une anxiété attribuée à la personnalité peut résulter d’un environnement qui ridiculise certains accents. Les stratégies individuelles ne doivent pas masquer cette responsabilité collective. Par ailleurs, une détresse intense ou persistante dépasse le rôle d’une application linguistique. Le tuteur peut adapter une tâche et encourager ; il ne doit ni diagnostiquer ni promettre de traiter un trouble clinique.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Quand la peur de l’erreur occupe la mémoire »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Quand la peur de l’erreur occupe la mémoire »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Quand la peur de l’erreur occupe la mémoire »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Quand la peur de l’erreur occupe la mémoire »."
       }
@@ -54473,40 +51871,6 @@
           "Il est malade",
           "Il travaille"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Léa sait déjà danser la bachata.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila joue au volley l'après-midi.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Karim joue de la guitare depuis quatre ans.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Camila et Léa ___ leurs passions et apprennent les unes des autres.",
-        "options": [
-          "partagent",
-          "détestent",
-          "oublient",
-          "cachent"
-        ]
       }
     ]
   },
@@ -54602,54 +51966,6 @@
           "Elle envoie des photos de Tours à Sofía",
           "Elle veut déménager",
           "Elle n’en parle pas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment Camila décrit-elle sa relation avec Léa et Karim ?",
-        "options": [
-          "Distante et froide",
-          "Proche, malgré quelques désaccords",
-          "Conflictuelle",
-          "Sans importance"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila regrette d’être partie en France.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « j’ai hâte de » signifie...",
-        "options": [
-          "Je n’ai pas envie de",
-          "J’attends avec impatience",
-          "J’ai peur de",
-          "Je refuse de"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’intention principale de cet e-mail ?",
-        "options": [
-          "Se plaindre de la France",
-          "Partager des nouvelles et maintenir le lien d’amitié",
-          "Demander de l’argent",
-          "Annoncer un retour définitif"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase du texte exprime un sentiment, et non un fait ?",
-        "options": [
-          "Léa est la fille de la famille qui m’héberge.",
-          "Tu me manques énormément.",
-          "Karim est un garçon de ma classe.",
-          "J’habite à Tours maintenant."
         ]
       }
     ]
@@ -54748,56 +52064,6 @@
           "Elle n’a pas d’avis",
           "Qu’elle est la seule solution possible"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment répond l’association guadeloupéenne ?",
-        "options": [
-          "Elle refuse la proposition",
-          "Elle répond favorablement et propose une visioconférence",
-          "Elle ne répond jamais",
-          "Elle demande de l’argent"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « afin que » ?",
-        "options": [
-          "Bien que",
-          "Pour que/dans le but que",
-          "Malgré",
-          "Sans que"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime une opinion ?",
-        "options": [
-          "Le groupe nettoie les zones côtières.",
-          "Je ne pense pas que ces problèmes puissent être résolus isolément.",
-          "Ana est la coordinatrice du groupe.",
-          "La lettre est envoyée en français."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Inférence : que révèle cette expérience sur la vision de Camila concernant le français ?",
-        "options": [
-          "Qu’elle regrette de l’avoir appris",
-          "Qu’il peut devenir un outil d’engagement citoyen, pas seulement académique",
-          "Qu’elle veut l’abandonner",
-          "Qu’il ne sert à rien dans la vie réelle"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : quel message général ce texte transmet-il ?",
-        "options": [
-          "Les problèmes environnementaux ne concernent qu’un seul pays",
-          "La coopération internationale peut renforcer l’action environnementale locale",
-          "Il est inutile d’agir localement",
-          "Les langues étrangères ne servent qu’à voyager"
-        ]
       }
     ]
   },
@@ -54895,54 +52161,6 @@
           "Elles travaillent séparément",
           "Une troisième personne les remplace"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment se termine l’histoire ?",
-        "options": [
-          "Elles arrêtent d’être amies",
-          "Elles terminent l’exposé ensemble avec une bonne note",
-          "Elles échouent à l’exposé",
-          "Elles changent de sujet"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Léa et Camila ne se réconcilient jamais.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « ça me dérange que » exprime...",
-        "options": [
-          "Une joie",
-          "Un dérangement/une gêne",
-          "Une certitude",
-          "Une indifférence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est la leçon principale de ce texte ?",
-        "options": [
-          "Il ne faut jamais se disputer",
-          "Parler calmement de ses émotions aide à résoudre un conflit",
-          "Les amitiés se terminent toujours mal",
-          "Il faut toujours avoir raison"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle inférence peut-on faire sur la relation entre Camila et Léa après ce conflit ?",
-        "options": [
-          "Elle est plus fragile",
-          "Elle est renforcée par une communication honnête",
-          "Elle est terminée",
-          "Elle est ignorée par les deux"
-        ]
       }
     ]
   },
@@ -55036,61 +52254,6 @@
           "Créateurs courageux contre bureaucrates hostiles",
           "Étudiants et associations",
           "Formulaires et témoignages"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle solution permet de maintenir le débat ?",
-        "options": [
-          "Retirer définitivement l’œuvre",
-          "Exposer avec contexte, critiques et discussion publique",
-          "Ignorer les objections",
-          "Changer uniquement le titre"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’argumentation du texte progresse-t-elle ?",
-        "options": [
-          "Elle juxtapose des faits sans conclusion.",
-          "Elle part d’une situation concrète, confronte plusieurs perspectives puis formule une synthèse nuancée.",
-          "Elle répète une opinion identique dans chaque paragraphe.",
-          "Elle abandonne le sujet après le premier exemple."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle compétence de lecture C1 ce texte sollicite-t-il particulièrement ?",
-        "options": [
-          "Repérer uniquement des dates.",
-          "Mémoriser une liste isolée.",
-          "Relier les implicites, les objections et les limites d’une conclusion.",
-          "Traduire chaque mot sans contexte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi l’objectif « Analyser un conflit entre liberté artistique, responsabilité institutionnelle et réception publique. » exige-t-il une lecture nuancée ?",
-        "options": [
-          "Parce qu’une seule phrase donne toute la réponse.",
-          "Parce que le texte met en tension plusieurs critères sans les rendre équivalents.",
-          "Parce que le texte ne contient aucun argument.",
-          "Parce que seule la longueur du texte compte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel rôle joue la notion « déprogrammer » dans le raisonnement ?",
-        "options": [
-          "Elle sert de détail décoratif sans rapport avec le sujet.",
-          "Elle permet de nommer précisément un mécanisme central du texte.",
-          "Elle remplace tous les autres arguments.",
-          "Elle indique uniquement le lieu de l’action."
         ],
         "explanation": ""
       }
@@ -55229,61 +52392,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Existe-t-il une méthode universelle pour tous les cerveaux ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Existe-t-il une méthode universelle pour tous les cerveaux ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "Personnaliser comporte un risque de figer. Dire à quelqu’un qu’il possède un « cerveau visuel » ou une faible aptitude peut réduire l’exploration et transformer une mesure provisoire en identité. Les adaptations doivent rester hypothèses testables. Elles sont utiles si elles modifient une tâche, produisent un résultat observable et peuvent être révisées. Elles deviennent problématiques lorsqu’elles enferment l’apprenant dans un parcours simplifié dont on ne vérifie jamais l’effet.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Existe-t-il une méthode universelle pour tous les cerveaux ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Existe-t-il une méthode universelle pour tous les cerveaux ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Existe-t-il une méthode universelle pour tous les cerveaux ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Existe-t-il une méthode universelle pour tous les cerveaux ? »."
       }
@@ -60491,40 +57599,6 @@
           "Un pull et un jean",
           "Rien"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : La robe verte coûte vingt euros.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Camila trouve la robe verte un peu chère.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Léa achète un chapeau blanc.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Combien ___ cette robe ?",
-        "options": [
-          "coûte",
-          "cherche",
-          "prend",
-          "porte"
-        ]
       }
     ]
   },
@@ -60606,36 +57680,6 @@
           "L’après-midi",
           "Le soir",
           "Le dimanche"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qu’emprunte Nora après son inscription ?",
-        "options": [
-          "Deux films",
-          "Deux romans",
-          "Un ordinateur",
-          "Un formulaire"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "À quelle activité s’inscrit-elle ?",
-        "options": [
-          "Un cours de cuisine",
-          "Un atelier de conversation",
-          "Une visite de la mairie",
-          "Un club sportif"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle conclusion correspond au texte ?",
-        "options": [
-          "La démarche reste impossible",
-          "Les explications rendent la démarche plus simple",
-          "Nora préfère renoncer",
-          "La médiathèque est fermée"
         ]
       }
     ]
@@ -60734,56 +57778,6 @@
           "Rien n’a changé",
           "Elle a arrêté de peindre"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment a été accueillie sa dernière exposition ?",
-        "options": [
-          "Très mal",
-          "Particulièrement bien par la critique",
-          "Elle n’a pas eu de retour",
-          "Elle a été annulée"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « se laisser enfermer dans une seule catégorie » ?",
-        "options": [
-          "Être libre de tout mélanger",
-          "Être limité à une seule identité définie",
-          "Voyager beaucoup",
-          "Vendre ses œuvres facilement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime une opinion de Mireille ?",
-        "options": [
-          "Mireille est une artiste franco-dominicaine.",
-          "Je ne crois pas qu’il faille choisir entre ses différentes appartenances culturelles.",
-          "Camila prépare une liste de questions.",
-          "L’exposition a eu lieu à Saint-Domingue."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Inférence : pourquoi ce texte résonne-t-il particulièrement avec l’expérience de Camila ?",
-        "options": [
-          "Parce qu’elle est aussi peintre",
-          "Parce qu’elle vit elle-même entre deux cultures",
-          "Par pur hasard",
-          "Parce qu’elle connaît Mireille depuis l’enfance"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : quel message central Mireille transmet-elle à la fin de l’interview ?",
-        "options": [
-          "Il faut absolument choisir une seule identité culturelle",
-          "La tension entre plusieurs appartenances peut être source d’authenticité créative",
-          "L’art n’a aucun lien avec l’identité",
-          "Il vaut mieux éviter de mélanger les cultures"
-        ]
       }
     ]
   },
@@ -60877,61 +57871,6 @@
           "Elle sait quelles incertitudes elle accepte",
           "Ses amis l’obligent",
           "Tours ne lui plaît plus"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle opposition conclut le texte ?",
-        "options": [
-          "Risque et erreur",
-          "Stabilité et immobilité",
-          "Travail et repos",
-          "Langue et technologie"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’argumentation du texte progresse-t-elle ?",
-        "options": [
-          "Elle juxtapose des faits sans conclusion.",
-          "Elle part d’une situation concrète, confronte plusieurs perspectives puis formule une synthèse nuancée.",
-          "Elle répète une opinion identique dans chaque paragraphe.",
-          "Elle abandonne le sujet après le premier exemple."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle compétence de lecture C1 ce texte sollicite-t-il particulièrement ?",
-        "options": [
-          "Repérer uniquement des dates.",
-          "Mémoriser une liste isolée.",
-          "Relier les implicites, les objections et les limites d’une conclusion.",
-          "Traduire chaque mot sans contexte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi l’objectif « Comprendre une décision complexe où valeurs, risques et temporalités s’opposent. » exige-t-il une lecture nuancée ?",
-        "options": [
-          "Parce qu’une seule phrase donne toute la réponse.",
-          "Parce que le texte met en tension plusieurs critères sans les rendre équivalents.",
-          "Parce que le texte ne contient aucun argument.",
-          "Parce que seule la longueur du texte compte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel rôle joue la notion « une voie » dans le raisonnement ?",
-        "options": [
-          "Elle sert de détail décoratif sans rapport avec le sujet.",
-          "Elle permet de nommer précisément un mécanisme central du texte.",
-          "Elle remplace tous les autres arguments.",
-          "Elle indique uniquement le lieu de l’action."
         ],
         "explanation": ""
       }
@@ -61070,61 +58009,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Traduire un mot empêche-t-il vraiment de le maîtriser ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Traduire un mot empêche-t-il vraiment de le maîtriser ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "Une glose peut simplifier excessivement un terme polysémique ou ignorer le registre. Les traductions automatiques héritent du contexte fourni et peuvent proposer une équivalence grammaticalement plausible mais pragmatiquement inadéquate. Les mots culturellement chargés résistent particulièrement à une correspondance unique. L’apprenant doit pouvoir ouvrir une définition plus riche, écouter la forme et consulter le tuteur lorsque le passage exige une distinction conceptuelle, sans croire que toute sortie automatique possède la même autorité.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Traduire un mot empêche-t-il vraiment de le maîtriser ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Traduire un mot empêche-t-il vraiment de le maîtriser ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Traduire un mot empêche-t-il vraiment de le maîtriser ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Traduire un mot empêche-t-il vraiment de le maîtriser ? »."
       }
@@ -65670,40 +62554,6 @@
           "Il pleut un peu",
           "Il fait très froid"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : C'est le premier voyage de Léa à Paris cette année.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Ils prennent le parapluie parce qu'il va neiger.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Karim est un peu jaloux du voyage.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Nous allons ___ à Paris vers midi.",
-        "options": [
-          "arriver",
-          "pleuvoir",
-          "voyager",
-          "partir"
-        ]
       }
     ]
   },
@@ -65785,36 +62635,6 @@
           "Non, il est facultatif",
           "Seulement pour les bénévoles",
           "Le texte ne le précise pas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que font les bénévoles avec les dons ?",
-        "options": [
-          "Ils les jettent",
-          "Ils les trient et préparent des sacs",
-          "Ils les vendent en ligne",
-          "Ils les renvoient"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Combien de vêtements ont-ils collectés ?",
-        "options": [
-          "Quarante",
-          "Quatre-vingts",
-          "Cent",
-          "Cent vingt"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment les participants se sentent-ils à la fin ?",
-        "options": [
-          "Fatigués mais heureux",
-          "Déçus et en colère",
-          "Indifférents",
-          "Inquiets"
         ]
       }
     ]
@@ -65913,56 +62733,6 @@
           "Seulement de meilleures notes",
           "Un diplôme supplémentaire"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel conseil final Camila donne-t-elle à son ancien moi ?",
-        "options": [
-          "D’éviter tout risque",
-          "D’être déterminée, curieuse, et de ne pas avoir peur de se tromper",
-          "De rester chez elle",
-          "De ne faire confiance à personne"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Signification en contexte : que signifie « avec le recul » ?",
-        "options": [
-          "Immédiatement",
-          "En regardant les choses après coup, avec plus de perspective",
-          "Sans réfléchir",
-          "De façon impulsive"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Opinion vs fait : quelle phrase exprime un fait, et non une réflexion personnelle ?",
-        "options": [
-          "Elle est acceptée en licence de langues étrangères appliquées.",
-          "Tu vas grandir de façons que tu ne peux même pas imaginer.",
-          "Je suis fière de la décision que tu vas prendre.",
-          "C’est exactement de ces erreurs que naîtra la personne que tu es en train de devenir."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Inférence : pourquoi Camila publie-t-elle cette lettre sur son blog plutôt que de la garder privée ?",
-        "options": [
-          "Par erreur",
-          "Parce qu’elle espère qu’elle résonnera avec d’autres jeunes dans une situation similaire",
-          "Parce qu’on l’y oblige",
-          "Parce qu’elle veut se vanter"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Conclusion : quel est le message central de cette lettre ?",
-        "options": [
-          "Il vaut mieux éviter tout risque dans la vie",
-          "Les décisions courageuses, malgré la peur, peuvent transformer une vie",
-          "Il faut toujours rester chez soi",
-          "L’université est la seule chose qui compte"
-        ]
       }
     ]
   },
@@ -66056,61 +62826,6 @@
           "Des questions adaptables",
           "Une offre de stage",
           "Un manuel de grammaire"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment la transmission est-elle redéfinie ?",
-        "options": [
-          "Faire imiter son chemin",
-          "Donner des outils pour reconnaître son propre chemin",
-          "Supprimer les hésitations",
-          "Garantir la réussite"
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’argumentation du texte progresse-t-elle ?",
-        "options": [
-          "Elle juxtapose des faits sans conclusion.",
-          "Elle part d’une situation concrète, confronte plusieurs perspectives puis formule une synthèse nuancée.",
-          "Elle répète une opinion identique dans chaque paragraphe.",
-          "Elle abandonne le sujet après le premier exemple."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle compétence de lecture C1 ce texte sollicite-t-il particulièrement ?",
-        "options": [
-          "Repérer uniquement des dates.",
-          "Mémoriser une liste isolée.",
-          "Relier les implicites, les objections et les limites d’une conclusion.",
-          "Traduire chaque mot sans contexte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi l’objectif « Synthétiser un parcours, transmettre une expérience et interroger la position de celui qui conseille. » exige-t-il une lecture nuancée ?",
-        "options": [
-          "Parce qu’une seule phrase donne toute la réponse.",
-          "Parce que le texte met en tension plusieurs critères sans les rendre équivalents.",
-          "Parce que le texte ne contient aucun argument.",
-          "Parce que seule la longueur du texte compte."
-        ],
-        "explanation": ""
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel rôle joue la notion « un parcours uniforme » dans le raisonnement ?",
-        "options": [
-          "Elle sert de détail décoratif sans rapport avec le sujet.",
-          "Elle permet de nommer précisément un mécanisme central du texte.",
-          "Elle remplace tous les autres arguments.",
-          "Elle indique uniquement le lieu de l’action."
         ],
         "explanation": ""
       }
@@ -66249,61 +62964,6 @@
           "Il faut supprimer toute difficulté de la tâche.",
           "Il suffit d’augmenter le nombre de clics.",
           "L’apprenant ne doit jamais réutiliser la forme."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Un tuteur artificiel peut-il personnaliser sans inventer ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle erreur de raisonnement l’article cherche-t-il à éviter ?",
-        "options": [
-          "La corrélation prouve toujours le mécanisme.",
-          "Une association ou une image cérébrale ne suffit pas à démontrer une prescription causale.",
-          "Toute activité du cerveau constitue une recommandation.",
-          "Une explication plausible vaut démonstration."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Un tuteur artificiel peut-il personnaliser sans inventer ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle limite doit rester visible dans l’interprétation ?",
-        "options": [
-          "Aucune limite méthodologique n’est pertinente.",
-          "Les outils mesurent toujours exactement la compétence.",
-          "Les risques comprennent l’hallucination, les biais linguistiques, la standardisation des variétés et la collecte de données. Une IA peut présenter comme erreur une forme légitime ou privilégier les normes dominantes de son corpus. La voix synthétique ajoute une apparence humaine sans garantir l’exactitude. Les protections doivent inclure limitation des données, transparence, possibilité de contester le feedback et séparation claire entre aide pédagogique et conseil médical ou psychologique.",
-          "Le contexte social n’influence jamais l’apprentissage."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Un tuteur artificiel peut-il personnaliser sans inventer ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel critère renforce la valeur pédagogique d’une activité ?",
-        "options": [
-          "La réussite sur le même exercice suffit.",
-          "Le transfert ne peut pas être évalué.",
-          "La compétence se réduit au temps passé.",
-          "Elle doit produire un apprentissage transférable au-delà de l’exercice immédiat."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Un tuteur artificiel peut-il personnaliser sans inventer ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’article conçoit-il une aide ou une adaptation responsable ?",
-        "options": [
-          "Les aides sont utiles lorsqu’elles répondent à un obstacle identifiable et restent révisables.",
-          "Une adaptation doit devenir définitive.",
-          "Toutes les aides doivent rester visibles.",
-          "La personnalisation repose sur une étiquette fixe."
-        ],
-        "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Un tuteur artificiel peut-il personnaliser sans inventer ? »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel statut l’article donne-t-il à sa conclusion ?",
-        "options": [
-          "Elle affirme une certitude indépendante des données.",
-          "La conclusion est argumentée mais limitée par les conditions des études disponibles.",
-          "Elle refuse toute implication pratique.",
-          "Elle confond prudence et absence de conclusion."
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Un tuteur artificiel peut-il personnaliser sans inventer ? »."
       }
