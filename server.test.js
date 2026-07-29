@@ -17,8 +17,11 @@ const { sanitizeGrammarTestForClient } = require('./lib/grammarTestSanitizer');
 const { gradeQuestionBank } = require('./lib/courseLessonsService');
 const { isPaddlePremiumStatus } = require('./lib/subscriptionService');
 const {
+  getPublicConfig: getPublicPaddleConfig,
   isConfiguredPremiumPrice,
   isValidUuid,
+  missingPublicCheckoutVariables,
+  missingServerCheckoutVariables,
   normalizeEventData,
   priceIdForBillingCycle
 } = require('./lib/billingService');
@@ -877,6 +880,61 @@ test('public Paddle config exposes checkout identifiers but never server secrets
   } finally {
     server.close();
   }
+});
+
+test('Paddle reads the documented environment variables without legacy aliases', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'lib/config.js'), 'utf8');
+  [
+    'NEXT_PUBLIC_PADDLE_ENV',
+    'NEXT_PUBLIC_PADDLE_CLIENT_TOKEN',
+    'NEXT_PUBLIC_PADDLE_MONTHLY_PRICE_ID',
+    'NEXT_PUBLIC_PADDLE_QUARTERLY_PRICE_ID',
+    'PADDLE_API_KEY',
+    'PADDLE_WEBHOOK_SECRET'
+  ].forEach((variableName) => assert.match(source, new RegExp(`process\\.env\\.${variableName}`)));
+  assert.doesNotMatch(
+    source,
+    /process\.env\.(?:PADDLE_ENVIRONMENT|PADDLE_CLIENT_SIDE_TOKEN|PADDLE_MONTHLY_PRICE_ID|PADDLE_QUARTERLY_PRICE_ID)/
+  );
+});
+
+test('four public Paddle variables enable checkout independently of server secrets', () => {
+  const previousPaddle = { ...config.paddle };
+  try {
+    Object.assign(config.paddle, {
+      environment: 'sandbox',
+      environmentConfigured: true,
+      clientSideToken: 'test_client_token',
+      monthlyPriceId: 'pri_monthly',
+      quarterlyPriceId: 'pri_quarterly',
+      apiKey: '',
+      webhookSecret: ''
+    });
+    const publicConfig = getPublicPaddleConfig();
+    assert.equal(publicConfig.configured, true);
+    assert.equal(publicConfig.checkoutConfigured, true);
+    assert.deepEqual(publicConfig.missingConfiguration, []);
+    assert.deepEqual(missingPublicCheckoutVariables(), []);
+    assert.deepEqual(missingServerCheckoutVariables(), ['PADDLE_API_KEY', 'PADDLE_WEBHOOK_SECRET']);
+  } finally {
+    Object.assign(config.paddle, previousPaddle);
+  }
+});
+
+test('Paddle maintenance messaging is limited to missing configuration', () => {
+  const serverSource = fs.readFileSync(path.join(__dirname, 'lib/server.js'), 'utf8');
+  const browserSource = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  assert.match(serverSource, /error\.code === 'PADDLE_CONFIGURATION_MISSING'/);
+  assert.match(
+    serverSource,
+    /configurationMissing[\s\S]*?'El pago Premium está temporalmente en mantenimiento\.'/s
+  );
+  assert.match(serverSource, /No se pudo iniciar el pago con Paddle/);
+  assert.match(browserSource, /function missingPaddlePublicConfiguration\(billing\)/);
+  assert.match(browserSource, /button\.disabled = missing\.length > 0/);
+  assert.match(browserSource, /Missing public variables: \$\{missing\.join\(', '\)\}/);
+  assert.match(browserSource, /Paddle\.Environment\.set\('sandbox'\)/);
+  assert.match(browserSource, /Paddle\.Checkout\.open\(/);
 });
 
 test('Paddle checkout is authenticated and the browser opens only a server-created transaction', async () => {

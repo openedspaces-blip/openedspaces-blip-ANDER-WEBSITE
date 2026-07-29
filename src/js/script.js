@@ -164,6 +164,7 @@ let premiumMonthlyPriceUsd = '4.99';
 let premiumPriceUsd = premiumMonthlyPriceUsd;
 let paddleBillingConfig = null;
 let paddleInitialized = false;
+const PADDLE_MAINTENANCE_MESSAGE = 'El pago Premium está temporalmente en mantenimiento.';
 
 // Re-applies the fetched prices to any already-painted markup that shows
 // them as static text (the #premium pricing section) - everything else
@@ -197,10 +198,39 @@ async function loadPaddleBillingConfig() {
     const response = await fetch('/api/billing/config');
     if (!response.ok) return null;
     paddleBillingConfig = await response.json();
+    updatePaddleCheckoutAvailability(paddleBillingConfig);
     return paddleBillingConfig;
-  } catch {
+  } catch (error) {
+    console.error('[paddle-config] Could not load public checkout configuration.', error);
     return null;
   }
+}
+
+function missingPaddlePublicConfiguration(billing) {
+  const missing = [];
+  if (!['sandbox', 'production'].includes(billing?.environment)) {
+    missing.push('NEXT_PUBLIC_PADDLE_ENV');
+  }
+  if (!billing?.clientSideToken) missing.push('NEXT_PUBLIC_PADDLE_CLIENT_TOKEN');
+  if (!billing?.prices?.monthly) missing.push('NEXT_PUBLIC_PADDLE_MONTHLY_PRICE_ID');
+  if (!billing?.prices?.quarterly) missing.push('NEXT_PUBLIC_PADDLE_QUARTERLY_PRICE_ID');
+  return [...new Set([...(billing?.missingConfiguration || []), ...missing])];
+}
+
+function updatePaddleCheckoutAvailability(billing) {
+  const missing = missingPaddlePublicConfiguration(billing);
+  const status = document.querySelector('[data-paddle-status]');
+  document.querySelectorAll('.paddle-checkout-btn').forEach((button) => {
+    button.disabled = missing.length > 0;
+    button.setAttribute('aria-disabled', String(missing.length > 0));
+  });
+  if (missing.length) {
+    console.error(`[paddle-config] Missing public variables: ${missing.join(', ')}`);
+    if (status) status.textContent = PADDLE_MAINTENANCE_MESSAGE;
+  } else if (status?.textContent === PADDLE_MAINTENANCE_MESSAGE) {
+    status.textContent = '';
+  }
+  return missing;
 }
 
 function loadPaddleScript() {
@@ -209,7 +239,11 @@ function loadPaddleScript() {
     const existing = document.querySelector('script[data-andergo-paddle]');
     if (existing) {
       existing.addEventListener('load', () => resolve(window.Paddle), { once: true });
-      existing.addEventListener('error', reject, { once: true });
+      existing.addEventListener(
+        'error',
+        () => reject(new Error('No se pudo cargar Paddle.js. Revisa tu conexión e inténtalo de nuevo.')),
+        { once: true }
+      );
       return;
     }
     const script = document.createElement('script');
@@ -217,7 +251,11 @@ function loadPaddleScript() {
     script.async = true;
     script.dataset.andergoPaddle = 'true';
     script.addEventListener('load', () => resolve(window.Paddle), { once: true });
-    script.addEventListener('error', reject, { once: true });
+    script.addEventListener(
+      'error',
+      () => reject(new Error('No se pudo cargar Paddle.js. Revisa tu conexión e inténtalo de nuevo.')),
+      { once: true }
+    );
     document.head.appendChild(script);
   });
 }
@@ -237,8 +275,9 @@ async function openPaddleCheckout(billingCycle, button) {
 
   try {
     const billing = paddleBillingConfig || (await loadPaddleBillingConfig());
-    if (!billing?.configured || !billing?.clientSideToken) {
-      throw new Error('Paddle todavÃ­a no tiene configurados sus identificadores de pago.');
+    const missingConfiguration = updatePaddleCheckoutAvailability(billing);
+    if (missingConfiguration.length) {
+      throw new Error(PADDLE_MAINTENANCE_MESSAGE);
     }
 
     const transactionResponse = await authFetch(`${backendBaseUrl}/api/billing/checkout`, {
