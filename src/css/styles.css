@@ -315,6 +315,7 @@ a:focus-visible {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex: 0 0 auto;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
@@ -340,11 +341,12 @@ a:focus-visible {
 }
 
 .brand h1 {
+  display: grid;
+  gap: 0.08rem;
   font-size: 1rem;
   letter-spacing: 0.035em;
   font-weight: 400;
-  line-height: 1.15;
-  white-space: nowrap;
+  line-height: 1.05;
 }
 
 .brand-product-name {
@@ -352,13 +354,14 @@ a:focus-visible {
 }
 
 .brand-academy-name {
-  margin-left: 0.18em;
-  font-size: 0.88em;
+  margin-left: 0;
+  font-size: 0.78em;
   font-weight: 400;
-  letter-spacing: 0.015em;
+  letter-spacing: 0.02em;
 }
 
 .brand p {
+  margin-top: 0.22rem;
   font-size: 0.72rem;
   color: var(--muted);
   font-weight: 600;
@@ -3530,14 +3533,9 @@ footer small {
   }
 }
 
-/* 1280px, separate from the 1100px breakpoint below: the signed-in nav
-   (Aprender/Verbos/Progreso/Objetivos/Tutor IA/Traductor/Acerca de/
-   Seguridad - 8 links) plus the "Hola, {username}" chip and Salir button
-   need that much room to sit on one line without overlapping the logo -
-   anything narrower should already get the hamburger menu instead of a
-   cramped, overlapping nav row. Kept separate from the grid breakpoints
-   below so the hero/card grids keep switching at their own width. */
-@media (max-width: 1280px) {
+/* The complete signed-in navigation needs a wide desktop canvas. Switch to
+   the hamburger before the menu can compress the brand or overlap its copy. */
+@media (max-width: 1720px) {
   .navbar {
     flex-wrap: wrap;
     gap: 16px;
@@ -3622,7 +3620,6 @@ footer small {
 
   .brand h1 {
     font-size: 0.82rem;
-    white-space: normal;
   }
 
   .brand-academy-name {
@@ -6242,9 +6239,9 @@ footer small {
 
 .learning-path-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.94fr) minmax(560px, 1.06fr);
+  grid-template-columns: minmax(0, 0.88fr) minmax(620px, 1.12fr);
   grid-template-areas: 'lesson route';
-  gap: clamp(22px, 1.8vw, 32px);
+  gap: clamp(20px, 1.5vw, 28px);
   align-items: start;
   width: 100%;
 }
@@ -6263,8 +6260,8 @@ footer small {
 /* Give the route enough room for lesson titles, rewards and progress to sit
    on one readable line without making the recommended lesson feel cramped. */
 .learning-path-section {
-  padding-right: clamp(24px, 5vw, 96px);
-  padding-left: clamp(24px, 5vw, 96px);
+  padding-right: clamp(24px, 4vw, 80px);
+  padding-left: clamp(24px, 4vw, 80px);
 }
 
 .learn-route-toggle {
@@ -6619,6 +6616,10 @@ footer small {
   box-shadow: 0 14px 30px rgba(37, 99, 235, 0.12);
 }
 
+.path-unit:active {
+  transform: translateY(0) scale(0.995);
+}
+
 .path-unit:focus-visible {
   outline: 3px solid rgba(37, 99, 235, 0.32);
   outline-offset: 3px;
@@ -6740,6 +6741,14 @@ footer small {
   font-size: 0.72rem;
   font-weight: 850;
   text-align: center;
+  transition:
+    transform 180ms ease,
+    background 180ms ease;
+}
+
+.path-unit:hover .path-unit-progress-label {
+  transform: scale(1.05);
+  background: rgba(37, 99, 235, 0.14);
 }
 
 @media (max-width: 520px) {
@@ -6813,6 +6822,26 @@ footer small {
   box-shadow:
     0 0 0 3px rgba(37, 99, 235, 0.1),
     0 16px 34px rgba(37, 99, 235, 0.14);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .path-unit--selected {
+    animation: path-unit-selected-breathe 4.6s ease-in-out infinite;
+  }
+}
+
+@keyframes path-unit-selected-breathe {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 3px rgba(37, 99, 235, 0.1),
+      0 16px 34px rgba(37, 99, 235, 0.14);
+  }
+  50% {
+    box-shadow:
+      0 0 0 5px rgba(37, 99, 235, 0.13),
+      0 20px 42px rgba(37, 99, 235, 0.2);
+  }
 }
 
 .path-unit-artwork {
@@ -7856,7 +7885,7 @@ footer small {
 
 .reading-translation-card,
 .reading-translation-error {
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 .reading-translation-head {
@@ -7894,14 +7923,16 @@ footer small {
 
 .reading-translation-term {
   color: #64748b;
-  font-size: 0.86rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
 }
 
 .reading-translation-result {
   margin-top: 0.2rem;
   color: #0f172a;
-  font-size: 1.2rem;
-  font-weight: 850;
+  font-size: 0.98rem;
+  font-weight: 800;
+  line-height: 1.35;
 }
 
 .reading-translation-actions {
@@ -7916,10 +7947,10 @@ footer small {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 30px;
-  padding: 0.32rem 0.4rem;
-  border-radius: 13px;
-  font-size: 0.66rem;
+  min-height: 26px;
+  padding: 0.22rem 0.35rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
   font-weight: 750;
   line-height: 1.1;
   white-space: nowrap;
@@ -12469,14 +12500,12 @@ footer small {
 
 .listening-connected-tools {
   display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(240px, 0.55fr);
-  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.75rem;
   margin: 1.4rem 0;
 }
 
-.listening-connected-tools .listening-story,
-.listening-vocabulary-link {
-  min-height: 100%;
+.listening-connected-tools .listening-story {
   border: 1px solid rgba(37, 99, 235, 0.12);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.78);
@@ -12486,7 +12515,14 @@ footer small {
 .listening-vocabulary-link {
   display: flex;
   align-items: center;
+  justify-self: end;
   gap: 0.8rem;
+  width: min(100%, 430px);
+  min-height: 64px;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid rgba(37, 99, 235, 0.12);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.78);
   color: var(--navy-2);
   font: inherit;
   text-align: left;
@@ -13038,6 +13074,10 @@ footer small {
   }
   .listening-connected-tools {
     grid-template-columns: 1fr;
+  }
+  .listening-vocabulary-link {
+    justify-self: stretch;
+    width: 100%;
   }
   .unit-sequence-heading {
     align-items: flex-start;

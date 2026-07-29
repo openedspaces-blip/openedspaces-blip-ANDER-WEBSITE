@@ -386,6 +386,17 @@ test('member navigation combines progress and achievements in one connected view
   assert.match(script, /if \(raw === 'achievements'\) return 'progress';/);
 });
 
+test('desktop brand stays compact and switches navigation before overlap', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
+
+  assert.match(html, /class="brand-product-name">ANDERGO<\/strong>/);
+  assert.match(html, /class="brand-academy-name">Language Academy<\/span>/);
+  assert.match(css, /\.brand\s*\{[^}]*flex:\s*0 0 auto;/s);
+  assert.match(css, /\.brand h1\s*\{[^}]*display:\s*grid;/s);
+  assert.match(css, /@media \(max-width:\s*1720px\)\s*\{/);
+});
+
 test('ai tutor panel includes freeform prompt input and context badges', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   assert.match(html, /id="aiTutorPrompt"/);
@@ -3244,6 +3255,20 @@ test('a selected unit opens Reading immediately and every skill tab stays inside
   );
 });
 
+test('back-to-route keeps the active language, level, unit and lesson context', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+
+  assert.match(source, /function getCurrentLearningRouteHash\(\)/);
+  assert.match(
+    source,
+    /\[\s*'learn',\s*learningPathState\.language,\s*learningPathState\.level,\s*learningPathState\.unitId,\s*learningPathState\.activeSlug\s*\]/
+  );
+  assert.match(source, /function returnToCurrentLearningRoute\(\)/);
+  assert.match(source, /link\.href = getCurrentLearningRouteHash\(\);/);
+  assert.match(source, /showLearnState\('route'\);/);
+  assert.match(source, /getElementById\('learning-path'\)\?\.scrollIntoView/);
+});
+
 test('French A1 primary route mirrors English A1 while keeping standalone dialogues supplementary', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const coreSkills = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
@@ -3426,6 +3451,7 @@ test('script.js: language-pair label always describes L1 support for the distinc
 
 test('Reading selections use the contextual ANDERGO translator and coordinated learning actions', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
   assert.match(source, /closest\?\.\('\.reading-text'\)/);
   assert.match(source, /function readingWordContextAtPoint\(clientX, clientY\)/);
   assert.match(source, /if \(data\) openReadingTranslation\(data\)/);
@@ -3445,6 +3471,11 @@ test('Reading selections use the contextual ANDERGO translator and coordinated l
   assert.match(source, /reading-translation-open/);
   assert.match(source, /Doble clic o dos toques: traduce, escucha, consulta o guarda palabras/);
   assert.match(source, /Sombrea una frase para traducirla al instante con ANDERGO/);
+  assert.match(css, /\.reading-translation-result\s*\{[\s\S]*?font-size:\s*0\.98rem/);
+  assert.match(
+    css,
+    /\.reading-translation-actions \.secondary-btn,[\s\S]*?min-height:\s*26px[\s\S]*?font-size:\s*0\.6rem/
+  );
   assert.match(
     source,
     /Cada lección ha sido nivelada según el MCERL \(Marco Común Europeo de Referencia de las Lenguas\)/
@@ -3559,6 +3590,20 @@ test('official Listening content builds exactly four questions from the narrated
     assert.match(units[0].activities.listening.mainTranscript, new RegExp(correct.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
     assert.match(question.prompt, /story/i);
   }
+});
+
+test('Listening gives the revealed story full width and places Vocabulary below it', () => {
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
+  const storyPosition = script.indexOf('${renderListeningStoryPanel(lesson, runtime)}');
+  const vocabularyPosition = script.indexOf('data-listening-open-vocabulary', storyPosition);
+
+  assert.ok(storyPosition >= 0 && vocabularyPosition > storyPosition);
+  assert.match(
+    css,
+    /\.listening-connected-tools\s*\{[^}]*grid-template-columns:\s*minmax\(0,\s*1fr\);/s
+  );
+  assert.match(css, /\.listening-vocabulary-link\s*\{[^}]*justify-self:\s*end;/s);
 });
 
 test('English A1 Hello Listening keeps its specific editorial questions', () => {

@@ -3781,10 +3781,7 @@ function renderSkillUnitSequence(section, lesson) {
   content.before(nav);
   wireUnitSequence(nav);
   nav.querySelector('.unit-mission-route-btn')?.addEventListener('click', () => {
-    setActiveLesson('');
-    showView('learn');
-    renderLearningPath();
-    updateLearnHash('learn');
+    returnToCurrentLearningRoute();
   });
 }
 
@@ -6919,6 +6916,28 @@ const SKILL_VIEW_RENDERERS = {
   vocabulary: (section, lesson) => renderVocabularyView(section, lesson)
 };
 
+function getCurrentLearningRouteHash() {
+  const parts = [
+    'learn',
+    learningPathState.language,
+    learningPathState.level,
+    learningPathState.unitId,
+    learningPathState.activeSlug
+  ].filter(Boolean);
+  return `#${parts.join('/')}`;
+}
+
+function returnToCurrentLearningRoute() {
+  learningPathState.skillEntryContext = 'route';
+  history.pushState(null, '', getCurrentLearningRouteHash());
+  showView('learn');
+  renderLearningPath();
+  showLearnState('route');
+  window.requestAnimationFrame(() => {
+    document.getElementById('learning-path')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+}
+
 // The section's "← Volver a la ruta" link is static markup (untouched by
 // renderSkillView's .skill-view-content re-renders), so its label/behavior
 // is toggled in place: back-to-the-Ruta-tab by default, or back-to-this-
@@ -6939,8 +6958,12 @@ function updateSkillViewBackLink(section, skill, showLibraryBack) {
     };
   } else {
     link.textContent = '← Volver a la ruta';
-    link.href = '#learn';
-    link.onclick = null;
+    link.href = getCurrentLearningRouteHash();
+    link.onclick = (event) => {
+      event.preventDefault();
+      if (skill === 'reading') readingSpeechPlayer.teardown();
+      returnToCurrentLearningRoute();
+    };
   }
 }
 
