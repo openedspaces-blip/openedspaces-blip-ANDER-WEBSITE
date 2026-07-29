@@ -4,6 +4,21 @@ const INTENTION_PATTERNS = {
   spanish: /\b(quier|necesit|plane|decid|propon|sugier|deber|porque|para poder|esper|intenci)\b/i
 };
 
+function normalizeTranscriptEvidence(value) {
+  return String(value || '')
+    .normalize('NFKC')
+    .toLocaleLowerCase()
+    .replace(/[“”«»"'.,;:!?¡¿()[\]{}…]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function transcriptSupportsOption(transcript, option) {
+  const normalizedTranscript = normalizeTranscriptEvidence(transcript);
+  const normalizedOption = normalizeTranscriptEvidence(option);
+  return Boolean(normalizedOption) && normalizedTranscript.includes(normalizedOption);
+}
+
 function cleanText(value) {
   return String(value || '')
     .replace(/\s+/g, ' ')
@@ -33,11 +48,13 @@ function splitTranscript(value) {
 function collectStoryLines(row) {
   const content = row.content_json || {};
   const extra = content.extra || {};
-  const segmentLines = (extra.transcriptSegments || []).map((segment) => segment?.text);
-  const dialogueLines = (content.dialogue || []).map((turn) => turn?.line || turn?.text);
-  const transcriptLines = splitTranscript(extra.mainTranscript || content.transcript);
+  const transcript = cleanText(extra.mainTranscript || content.transcript);
+  const segmentLines = (extra.transcriptSegments || [])
+    .map((segment) => segment?.text)
+    .filter((line) => transcriptSupportsOption(transcript, line));
+  const transcriptLines = splitTranscript(transcript);
 
-  const lines = uniqueTexts([...segmentLines, ...dialogueLines, ...transcriptLines]);
+  const lines = uniqueTexts([...segmentLines, ...transcriptLines]);
   if (lines.length >= 4) return lines;
 
   // A few short A1/B1 stories are authored as only three long segments.
@@ -62,17 +79,6 @@ function collectA1StoryLines(row) {
       .map((line) => cleanText(line).replace(/^[»”"]\s*/, ''))
       .filter((line) => line.split(/\s+/).length >= 4)
   );
-}
-
-function collectFallbackOptions(row) {
-  const content = row.content_json || {};
-  return uniqueTexts([
-    ...(content.phrases || []),
-    ...(content.exercises || []).flatMap((exercise) => exercise?.options || []),
-    content.mission,
-    content.intro,
-    row.description
-  ]);
 }
 
 function selectSpread(lines, count = 4) {
@@ -224,21 +230,13 @@ function buildContextualListeningBank(row) {
   if (useA1FrenchCopy) {
     return buildA1FrenchListeningBank(row, storyLines);
   }
-  const fallbackLines = collectFallbackOptions(row);
-  const optionPool = uniqueTexts([...storyLines, ...fallbackLines]);
-
-  if (!storyLines.length || optionPool.length < 4) {
+  if (storyLines.length < 4) {
     throw new Error(
-      `${row.slug}: el listening necesita al menos cuatro fragmentos distintos para generar preguntas contextualizadas.`
+      `${row.slug}: la transcripción necesita al menos cuatro fragmentos distintos para generar preguntas contextualizadas.`
     );
   }
 
   const selected = selectSpread(storyLines, 4);
-  while (selected.length < 4) {
-    const candidate = optionPool.find((text) => !selected.includes(text));
-    if (!candidate) break;
-    selected.push(candidate);
-  }
 
   const intentionPattern = INTENTION_PATTERNS[language] || INTENTION_PATTERNS.english;
   const intentionAnswer =
@@ -257,8 +255,7 @@ function buildContextualListeningBank(row) {
     const rawAlternatives = uniqueTexts([
       answer,
       ...selected,
-      ...storyLines,
-      ...fallbackLines
+      ...storyLines
     ]).slice(0, 12);
     const displayedAnswer = useA1FrenchCopy ? shortA1Option(answer) : answer;
     const alternatives = useA1FrenchCopy
@@ -285,6 +282,18 @@ function buildContextualListeningBank(row) {
     };
   });
 
+  const transcript =
+    row.content_json?.extra?.mainTranscript || row.content_json?.transcript || '';
+  for (const question of questions) {
+    for (const option of question.options) {
+      if (!transcriptSupportsOption(transcript, option.text)) {
+        throw new Error(
+          `${row.slug}: la opción "${option.text}" no procede de la transcripción canónica.`
+        );
+      }
+    }
+  }
+
   return {
     id: `${row.slug}-listening-comprehension`,
     passingScore: 70,
@@ -294,6 +303,17 @@ function buildContextualListeningBank(row) {
 
 function applyContextualListeningBank(row) {
   const bank = buildContextualListeningBank(row);
+  const transcript =
+    row.content_json?.extra?.mainTranscript || row.content_json?.transcript || '';
+  for (const question of bank.questions) {
+    for (const option of question.options) {
+      if (!transcriptSupportsOption(transcript, option.text)) {
+        throw new Error(
+          `${row.slug}: la opción "${option.text}" no procede de la transcripción canónica.`
+        );
+      }
+    }
+  }
   row.content_json ||= {};
   row.content_json.extra ||= {};
   row.content_json.extra.listeningComprehension = bank;
@@ -312,5 +332,6 @@ module.exports = {
   buildA1FrenchListeningBank,
   collectStoryLines,
   collectA1StoryLines,
-  shortA1Option
+  shortA1Option,
+  transcriptSupportsOption
 };

@@ -900,15 +900,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -923,15 +923,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -946,15 +946,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -965,19 +965,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Compras y cantidades» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Compras y cantidades» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -994,9 +994,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Compras y cantidades», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -1004,9 +1004,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Compras y cantidades»?",
         "options": [
-          "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -1014,19 +1014,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Compras y cantidades»?",
         "options": [
-          "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Compras y cantidades» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Compras y cantidades» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre compras y cantidades. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -1096,15 +1096,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1119,15 +1119,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1142,15 +1142,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1161,19 +1161,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Historias personales» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Historias personales» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre historias personales. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1190,9 +1190,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Historias personales», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -1200,9 +1200,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre historias personales. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Historias personales»?",
         "options": [
-          "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -1210,19 +1210,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Historias personales»?",
         "options": [
-          "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Historias personales» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Historias personales» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre historias personales. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -1292,15 +1292,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1315,15 +1315,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1338,15 +1338,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1357,19 +1357,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Identidad digital» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Identidad digital» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1386,9 +1386,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Identidad digital», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -1396,9 +1396,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Identidad digital»?",
         "options": [
-          "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -1406,19 +1406,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Identidad digital»?",
         "options": [
-          "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Identidad digital» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Identidad digital» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre identidad digital. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -1488,15 +1488,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1511,15 +1511,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1534,15 +1534,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1553,19 +1553,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Memoria y relato» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Memoria y relato» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1582,9 +1582,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Memoria y relato», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -1592,9 +1592,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Memoria y relato»?",
         "options": [
-          "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -1602,19 +1602,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Memoria y relato»?",
         "options": [
-          "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Memoria y relato» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Memoria y relato» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre memoria y relato. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -1684,15 +1684,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1707,15 +1707,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1730,15 +1730,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1749,19 +1749,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Ambigüedad y sentido» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Ambigüedad y sentido» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -1778,9 +1778,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Ambigüedad y sentido», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -1788,9 +1788,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Ambigüedad y sentido»?",
         "options": [
-          "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -1798,19 +1798,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ambigüedad y sentido»?",
         "options": [
-          "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Ambigüedad y sentido» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Ambigüedad y sentido» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ambigüedad y sentido. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -1922,42 +1922,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?"
+                "text": "¡Hola!"
               },
               {
                 "id": "o2",
-                "text": "Estoy bien, gracias. ¿Y tú?"
+                "text": "Soy Marco."
               },
               {
                 "id": "o3",
-                "text": "Me llamo Valentina. ¿Cómo te llamas tú?"
+                "text": "Mucho gusto, Marco. ¿Cómo estás?"
               },
               {
                 "id": "o4",
-                "text": "Mucho gusto."
+                "text": "Soy de aquí. ¡Nos vemos en clase!"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
+            "prompt": "Después de «¡Hola!», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?"
+                "text": "¡Hola!"
               },
               {
                 "id": "o2",
-                "text": "Estoy bien, gracias. ¿Y tú?"
+                "text": "Soy Marco."
               },
               {
                 "id": "o3",
-                "text": "Me llamo Valentina. ¿Cómo te llamas tú?"
+                "text": "Mucho gusto, Marco. ¿Cómo estás?"
               },
               {
                 "id": "o4",
-                "text": "Mucho gusto."
+                "text": "Soy de aquí. ¡Nos vemos en clase!"
               }
             ]
           },
@@ -1968,42 +1968,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?"
+                "text": "¡Hola!"
               },
               {
                 "id": "o2",
-                "text": "Estoy bien, gracias. ¿Y tú?"
+                "text": "Soy Marco."
               },
               {
                 "id": "o3",
-                "text": "Me llamo Valentina. ¿Cómo te llamas tú?"
+                "text": "Mucho gusto, Marco. ¿Cómo estás?"
               },
               {
                 "id": "o4",
-                "text": "Mucho gusto."
+                "text": "Soy de aquí. ¡Nos vemos en clase!"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Me llamo Valentina. ¿Cómo te llamas tú?»?",
+            "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Mucho gusto, Marco. ¿Cómo estás?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?"
+                "text": "¡Hola!"
               },
               {
                 "id": "o2",
-                "text": "Estoy bien, gracias. ¿Y tú?"
+                "text": "Soy Marco."
               },
               {
                 "id": "o3",
-                "text": "Me llamo Valentina. ¿Cómo te llamas tú?"
+                "text": "Mucho gusto, Marco. ¿Cómo estás?"
               },
               {
                 "id": "o4",
-                "text": "Mucho gusto."
+                "text": "Soy de aquí. ¡Nos vemos en clase!"
               }
             ]
           }
@@ -2016,40 +2016,40 @@
         "type": "mcq",
         "prompt": "En «Mucho gusto, ¿cómo te llamas?», ¿qué detalle presenta la situación?",
         "options": [
-          "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?",
-          "Estoy bien, gracias. ¿Y tú?",
-          "Me llamo Valentina. ¿Cómo te llamas tú?",
-          "Mucho gusto."
+          "¡Hola!",
+          "Soy Marco.",
+          "Mucho gusto, Marco. ¿Cómo estás?",
+          "Soy de aquí. ¡Nos vemos en clase!"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
+        "prompt": "Después de «¡Hola!», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
         "options": [
-          "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?",
-          "Estoy bien, gracias. ¿Y tú?",
-          "Me llamo Valentina. ¿Cómo te llamas tú?",
-          "Mucho gusto."
+          "¡Hola!",
+          "Soy Marco.",
+          "Mucho gusto, Marco. ¿Cómo estás?",
+          "Soy de aquí. ¡Nos vemos en clase!"
         ]
       },
       {
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Mucho gusto, ¿cómo te llamas?»?",
         "options": [
-          "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?",
-          "Estoy bien, gracias. ¿Y tú?",
-          "Me llamo Valentina. ¿Cómo te llamas tú?",
-          "Mucho gusto."
+          "¡Hola!",
+          "Soy Marco.",
+          "Mucho gusto, Marco. ¿Cómo estás?",
+          "Soy de aquí. ¡Nos vemos en clase!"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Me llamo Valentina. ¿Cómo te llamas tú?»?",
+        "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Mucho gusto, Marco. ¿Cómo estás?»?",
         "options": [
-          "¡Hola! Me llamo Valentina. ¿Cómo te llamas tú?",
-          "Estoy bien, gracias. ¿Y tú?",
-          "Me llamo Valentina. ¿Cómo te llamas tú?",
-          "Mucho gusto."
+          "¡Hola!",
+          "Soy Marco.",
+          "Mucho gusto, Marco. ¿Cómo estás?",
+          "Soy de aquí. ¡Nos vemos en clase!"
         ]
       }
     ]
@@ -5057,15 +5057,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5080,15 +5080,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5103,15 +5103,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5122,19 +5122,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Orientarse en la ciudad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Orientarse en la ciudad» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5151,9 +5151,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Orientarse en la ciudad», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -5161,9 +5161,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Orientarse en la ciudad»?",
         "options": [
-          "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -5171,19 +5171,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Orientarse en la ciudad»?",
         "options": [
-          "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Orientarse en la ciudad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Orientarse en la ciudad» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre orientarse en la ciudad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -5253,15 +5253,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5276,15 +5276,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5299,15 +5299,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5318,19 +5318,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Trabajo y talento» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Trabajo y talento» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5347,9 +5347,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Trabajo y talento», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -5357,9 +5357,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Trabajo y talento»?",
         "options": [
-          "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -5367,19 +5367,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Trabajo y talento»?",
         "options": [
-          "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Trabajo y talento» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Trabajo y talento» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre trabajo y talento. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -5449,15 +5449,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5472,15 +5472,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5495,15 +5495,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5514,19 +5514,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Ciudades sostenibles» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Ciudades sostenibles» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5543,9 +5543,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Ciudades sostenibles», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -5553,9 +5553,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Ciudades sostenibles»?",
         "options": [
-          "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -5563,19 +5563,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ciudades sostenibles»?",
         "options": [
-          "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Ciudades sostenibles» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Ciudades sostenibles» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre ciudades sostenibles. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -5645,15 +5645,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5668,15 +5668,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5691,15 +5691,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5710,19 +5710,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Retórica pública» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Retórica pública» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5739,9 +5739,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Retórica pública», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -5749,9 +5749,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Retórica pública»?",
         "options": [
-          "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -5759,19 +5759,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Retórica pública»?",
         "options": [
-          "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Retórica pública» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Retórica pública» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre retórica pública. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -5841,15 +5841,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5864,15 +5864,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5887,15 +5887,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5906,19 +5906,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Humor e ironía» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Humor e ironía» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -5935,9 +5935,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Humor e ironía», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -5945,9 +5945,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Humor e ironía»?",
         "options": [
-          "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -5955,19 +5955,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Humor e ironía»?",
         "options": [
-          "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Humor e ironía» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Humor e ironía» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre humor e ironía. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -9010,15 +9010,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9033,15 +9033,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9056,15 +9056,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9075,19 +9075,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Rutinas y horarios» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Rutinas y horarios» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9104,9 +9104,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Rutinas y horarios», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -9114,9 +9114,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Rutinas y horarios»?",
         "options": [
-          "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -9124,19 +9124,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Rutinas y horarios»?",
         "options": [
-          "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Rutinas y horarios» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Rutinas y horarios» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre rutinas y horarios. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -9206,15 +9206,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9229,15 +9229,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9252,15 +9252,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9271,19 +9271,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Viajes con imprevistos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Viajes con imprevistos» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9300,9 +9300,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Viajes con imprevistos», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -9310,9 +9310,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre viajes con imprevistos. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Viajes con imprevistos»?",
         "options": [
-          "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -9320,19 +9320,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viajes con imprevistos»?",
         "options": [
-          "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Viajes con imprevistos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Viajes con imprevistos» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre viajes con imprevistos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -9402,15 +9402,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9425,15 +9425,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9448,15 +9448,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9467,19 +9467,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · El trabajo del futuro» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · El trabajo del futuro» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9496,9 +9496,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · El trabajo del futuro», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -9506,9 +9506,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre el trabajo del futuro. ¿Qué información…», ¿qué sucede a continuación en «Escucha · El trabajo del futuro»?",
         "options": [
-          "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -9516,19 +9516,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El trabajo del futuro»?",
         "options": [
-          "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · El trabajo del futuro» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · El trabajo del futuro» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre el trabajo del futuro. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -9598,15 +9598,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9621,15 +9621,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9644,15 +9644,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9663,19 +9663,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Periodismo de investigación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Periodismo de investigación» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9692,9 +9692,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Periodismo de investigación», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -9702,9 +9702,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre periodismo de investigación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Periodismo de investigación»?",
         "options": [
-          "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -9712,19 +9712,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Periodismo de investigación»?",
         "options": [
-          "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Periodismo de investigación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Periodismo de investigación» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre periodismo de investigación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -9794,15 +9794,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9817,15 +9817,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9840,15 +9840,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9859,19 +9859,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Traducción y mediación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Traducción y mediación» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -9888,9 +9888,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Traducción y mediación», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -9898,9 +9898,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre traducción y mediación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Traducción y mediación»?",
         "options": [
-          "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -9908,19 +9908,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Traducción y mediación»?",
         "options": [
-          "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Traducción y mediación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Traducción y mediación» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre traducción y mediación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -12964,15 +12964,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -12987,15 +12987,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13010,15 +13010,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13029,19 +13029,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Salud y bienestar» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Salud y bienestar» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13058,9 +13058,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Salud y bienestar», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -13068,9 +13068,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Salud y bienestar»?",
         "options": [
-          "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -13078,19 +13078,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Salud y bienestar»?",
         "options": [
-          "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Salud y bienestar» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Salud y bienestar» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre salud y bienestar. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -13160,15 +13160,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13183,15 +13183,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13206,15 +13206,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13225,19 +13225,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Medios y noticias» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Medios y noticias» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13254,9 +13254,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Medios y noticias», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -13264,9 +13264,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Medios y noticias»?",
         "options": [
-          "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -13274,19 +13274,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Medios y noticias»?",
         "options": [
-          "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Medios y noticias» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Medios y noticias» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre medios y noticias. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -13356,15 +13356,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13379,15 +13379,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13402,15 +13402,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13421,19 +13421,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Desinformación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Desinformación» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre desinformación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13450,9 +13450,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Desinformación», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -13460,9 +13460,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre desinformación. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Desinformación»?",
         "options": [
-          "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -13470,19 +13470,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Desinformación»?",
         "options": [
-          "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Desinformación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Desinformación» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre desinformación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -13552,15 +13552,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13575,15 +13575,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13598,15 +13598,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13617,19 +13617,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Justicia y reparación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Justicia y reparación» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13646,9 +13646,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Justicia y reparación», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -13656,9 +13656,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre justicia y reparación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Justicia y reparación»?",
         "options": [
-          "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -13666,19 +13666,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Justicia y reparación»?",
         "options": [
-          "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Justicia y reparación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Justicia y reparación» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre justicia y reparación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -13748,15 +13748,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13771,15 +13771,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13794,15 +13794,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13813,19 +13813,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Filosofía del lenguaje» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Filosofía del lenguaje» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -13842,9 +13842,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Filosofía del lenguaje», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -13852,9 +13852,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Filosofía del lenguaje»?",
         "options": [
-          "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -13862,19 +13862,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Filosofía del lenguaje»?",
         "options": [
-          "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Filosofía del lenguaje» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Filosofía del lenguaje» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre filosofía del lenguaje. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -13990,11 +13990,11 @@
               },
               {
                 "id": "o2",
-                "text": "¿Caminas a la escuela?"
+                "text": "Yo me levanto a las siete."
               },
               {
                 "id": "o3",
-                "text": "Yo me levanto a las siete."
+                "text": "Sí, camino con mi hermana todos los días."
               },
               {
                 "id": "o4",
@@ -14013,11 +14013,11 @@
               },
               {
                 "id": "o2",
-                "text": "¿Caminas a la escuela?"
+                "text": "Yo me levanto a las siete."
               },
               {
                 "id": "o3",
-                "text": "Yo me levanto a las siete."
+                "text": "Sí, camino con mi hermana todos los días."
               },
               {
                 "id": "o4",
@@ -14036,11 +14036,11 @@
               },
               {
                 "id": "o2",
-                "text": "¿Caminas a la escuela?"
+                "text": "Yo me levanto a las siete."
               },
               {
                 "id": "o3",
-                "text": "Yo me levanto a las siete."
+                "text": "Sí, camino con mi hermana todos los días."
               },
               {
                 "id": "o4",
@@ -14051,7 +14051,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Yo me levanto a las siete.»?",
+            "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Sí, camino con mi hermana todos los días.»?",
             "options": [
               {
                 "id": "o1",
@@ -14059,11 +14059,11 @@
               },
               {
                 "id": "o2",
-                "text": "¿Caminas a la escuela?"
+                "text": "Yo me levanto a las siete."
               },
               {
                 "id": "o3",
-                "text": "Yo me levanto a las siete."
+                "text": "Sí, camino con mi hermana todos los días."
               },
               {
                 "id": "o4",
@@ -14081,8 +14081,8 @@
         "prompt": "En «¿A qué hora te levantas?», ¿qué detalle presenta la situación?",
         "options": [
           "¿A qué hora te levantas, Tomás?",
-          "¿Caminas a la escuela?",
           "Yo me levanto a las siete.",
+          "Sí, camino con mi hermana todos los días.",
           "Las clases empiezan a las ocho."
         ]
       },
@@ -14091,8 +14091,8 @@
         "prompt": "Después de «¿A qué hora te levantas, Tomás?», ¿qué sucede a continuación en «¿A qué hora te levantas?»?",
         "options": [
           "¿A qué hora te levantas, Tomás?",
-          "¿Caminas a la escuela?",
           "Yo me levanto a las siete.",
+          "Sí, camino con mi hermana todos los días.",
           "Las clases empiezan a las ocho."
         ]
       },
@@ -14101,18 +14101,18 @@
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿A qué hora te levantas?»?",
         "options": [
           "¿A qué hora te levantas, Tomás?",
-          "¿Caminas a la escuela?",
           "Yo me levanto a las siete.",
+          "Sí, camino con mi hermana todos los días.",
           "Las clases empiezan a las ocho."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Yo me levanto a las siete.»?",
+        "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Sí, camino con mi hermana todos los días.»?",
         "options": [
           "¿A qué hora te levantas, Tomás?",
-          "¿Caminas a la escuela?",
           "Yo me levanto a las siete.",
+          "Sí, camino con mi hermana todos los días.",
           "Las clases empiezan a las ocho."
         ]
       }
@@ -16947,15 +16947,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -16970,15 +16970,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -16993,15 +16993,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17012,19 +17012,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Viajes y transporte» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Viajes y transporte» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17041,9 +17041,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Viajes y transporte», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -17051,9 +17051,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Viajes y transporte»?",
         "options": [
-          "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -17061,19 +17061,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viajes y transporte»?",
         "options": [
-          "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Viajes y transporte» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Viajes y transporte» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre viajes y transporte. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -17143,15 +17143,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17166,15 +17166,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17189,15 +17189,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17208,19 +17208,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Relaciones y convivencia» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Relaciones y convivencia» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17237,9 +17237,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Relaciones y convivencia», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -17247,9 +17247,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre relaciones y convivencia. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Relaciones y convivencia»?",
         "options": [
-          "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -17257,19 +17257,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Relaciones y convivencia»?",
         "options": [
-          "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Relaciones y convivencia» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Relaciones y convivencia» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre relaciones y convivencia. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -17339,15 +17339,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17362,15 +17362,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17385,15 +17385,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17404,19 +17404,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Turismo y comunidad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Turismo y comunidad» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17433,9 +17433,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Turismo y comunidad», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -17443,9 +17443,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Turismo y comunidad»?",
         "options": [
-          "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -17453,19 +17453,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Turismo y comunidad»?",
         "options": [
-          "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Turismo y comunidad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Turismo y comunidad» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre turismo y comunidad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -17535,15 +17535,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17558,15 +17558,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17581,15 +17581,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17600,19 +17600,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Innovación responsable» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Innovación responsable» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17629,9 +17629,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Innovación responsable», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -17639,9 +17639,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre innovación responsable. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Innovación responsable»?",
         "options": [
-          "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -17649,19 +17649,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Innovación responsable»?",
         "options": [
-          "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Innovación responsable» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Innovación responsable» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre innovación responsable. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -17731,15 +17731,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17754,15 +17754,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17777,15 +17777,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17796,19 +17796,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Análisis jurídico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Análisis jurídico» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -17825,9 +17825,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Análisis jurídico», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -17835,9 +17835,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Análisis jurídico»?",
         "options": [
-          "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -17845,19 +17845,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Análisis jurídico»?",
         "options": [
-          "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Análisis jurídico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Análisis jurídico» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre análisis jurídico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -20899,15 +20899,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -20922,15 +20922,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -20945,15 +20945,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -20964,19 +20964,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Casa y barrio» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Casa y barrio» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -20993,9 +20993,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Casa y barrio», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -21003,9 +21003,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Casa y barrio»?",
         "options": [
-          "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -21013,19 +21013,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Casa y barrio»?",
         "options": [
-          "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Casa y barrio» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Casa y barrio» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre casa y barrio. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -21095,15 +21095,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21118,15 +21118,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21141,15 +21141,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21160,19 +21160,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Consumo responsable» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Consumo responsable» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21189,9 +21189,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Consumo responsable», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -21199,9 +21199,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Consumo responsable»?",
         "options": [
-          "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -21209,19 +21209,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Consumo responsable»?",
         "options": [
-          "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Consumo responsable» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Consumo responsable» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre consumo responsable. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -21291,15 +21291,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21314,15 +21314,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21337,15 +21337,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21356,19 +21356,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Educación digital» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Educación digital» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre educación digital. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21385,9 +21385,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Educación digital», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -21395,9 +21395,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre educación digital. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Educación digital»?",
         "options": [
-          "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -21405,19 +21405,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Educación digital»?",
         "options": [
-          "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Educación digital» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Educación digital» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre educación digital. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -21487,15 +21487,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21510,15 +21510,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21533,15 +21533,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21552,19 +21552,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Literatura y voz» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Literatura y voz» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21581,9 +21581,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Literatura y voz», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -21591,9 +21591,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Literatura y voz»?",
         "options": [
-          "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -21601,19 +21601,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Literatura y voz»?",
         "options": [
-          "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Literatura y voz» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Literatura y voz» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre literatura y voz. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -21683,15 +21683,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21706,15 +21706,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21729,15 +21729,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21748,19 +21748,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Edición de estilo» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Edición de estilo» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -21777,9 +21777,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Edición de estilo», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -21787,9 +21787,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Edición de estilo»?",
         "options": [
-          "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -21797,19 +21797,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Edición de estilo»?",
         "options": [
-          "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Edición de estilo» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Edición de estilo» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre edición de estilo. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -21925,15 +21925,15 @@
               },
               {
                 "id": "o2",
-                "text": "No, está a cinco minutos a pie."
+                "text": "Está cerca."
               },
               {
                 "id": "o3",
-                "text": "Sí, la farmacia está al lado del banco."
+                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
               },
               {
                 "id": "o4",
-                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+                "text": "Sí, la farmacia está al lado del banco."
               }
             ]
           },
@@ -21948,15 +21948,15 @@
               },
               {
                 "id": "o2",
-                "text": "No, está a cinco minutos a pie."
+                "text": "Está cerca."
               },
               {
                 "id": "o3",
-                "text": "Sí, la farmacia está al lado del banco."
+                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
               },
               {
                 "id": "o4",
-                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+                "text": "Sí, la farmacia está al lado del banco."
               }
             ]
           },
@@ -21971,22 +21971,22 @@
               },
               {
                 "id": "o2",
-                "text": "No, está a cinco minutos a pie."
+                "text": "Está cerca."
               },
               {
                 "id": "o3",
-                "text": "Sí, la farmacia está al lado del banco."
+                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
               },
               {
                 "id": "o4",
-                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+                "text": "Sí, la farmacia está al lado del banco."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «Sí, la farmacia está al lado del banco.»?",
+            "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?»?",
             "options": [
               {
                 "id": "o1",
@@ -21994,15 +21994,15 @@
               },
               {
                 "id": "o2",
-                "text": "No, está a cinco minutos a pie."
+                "text": "Está cerca."
               },
               {
                 "id": "o3",
-                "text": "Sí, la farmacia está al lado del banco."
+                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
               },
               {
                 "id": "o4",
-                "text": "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+                "text": "Sí, la farmacia está al lado del banco."
               }
             ]
           }
@@ -22016,9 +22016,9 @@
         "prompt": "En «Perdón, ¿dónde está el banco?», ¿qué detalle presenta la situación?",
         "options": [
           "Perdón, ¿dónde está el banco?",
-          "No, está a cinco minutos a pie.",
-          "Sí, la farmacia está al lado del banco.",
-          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+          "Está cerca.",
+          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?",
+          "Sí, la farmacia está al lado del banco."
         ]
       },
       {
@@ -22026,9 +22026,9 @@
         "prompt": "Después de «Perdón, ¿dónde está el banco?», ¿qué sucede a continuación en «Perdón, ¿dónde está el banco?»?",
         "options": [
           "Perdón, ¿dónde está el banco?",
-          "No, está a cinco minutos a pie.",
-          "Sí, la farmacia está al lado del banco.",
-          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+          "Está cerca.",
+          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?",
+          "Sí, la farmacia está al lado del banco."
         ]
       },
       {
@@ -22036,19 +22036,19 @@
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Perdón, ¿dónde está el banco?»?",
         "options": [
           "Perdón, ¿dónde está el banco?",
-          "No, está a cinco minutos a pie.",
-          "Sí, la farmacia está al lado del banco.",
-          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+          "Está cerca.",
+          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?",
+          "Sí, la farmacia está al lado del banco."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «Sí, la farmacia está al lado del banco.»?",
+        "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?»?",
         "options": [
           "Perdón, ¿dónde está el banco?",
-          "No, está a cinco minutos a pie.",
-          "Sí, la farmacia está al lado del banco.",
-          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?"
+          "Está cerca.",
+          "No, está a cinco minutos a pie. ¿Hay una farmacia cerca también?",
+          "Sí, la farmacia está al lado del banco."
         ]
       }
     ]
@@ -24883,15 +24883,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -24906,15 +24906,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -24929,15 +24929,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -24948,19 +24948,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Comidas y recetas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Comidas y recetas» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -24977,9 +24977,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Comidas y recetas», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -24987,9 +24987,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Comidas y recetas»?",
         "options": [
-          "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -24997,19 +24997,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Comidas y recetas»?",
         "options": [
-          "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Comidas y recetas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Comidas y recetas» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre comidas y recetas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -25079,15 +25079,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25102,15 +25102,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25125,15 +25125,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25144,19 +25144,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Cultura y tradiciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Cultura y tradiciones» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25173,9 +25173,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Cultura y tradiciones», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -25183,9 +25183,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre cultura y tradiciones. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Cultura y tradiciones»?",
         "options": [
-          "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -25193,19 +25193,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cultura y tradiciones»?",
         "options": [
-          "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Cultura y tradiciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Cultura y tradiciones» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre cultura y tradiciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -25275,15 +25275,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25298,15 +25298,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25321,15 +25321,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25340,19 +25340,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Alimentación y sociedad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Alimentación y sociedad» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25369,9 +25369,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Alimentación y sociedad», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -25379,9 +25379,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre alimentación y sociedad. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Alimentación y sociedad»?",
         "options": [
-          "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -25389,19 +25389,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Alimentación y sociedad»?",
         "options": [
-          "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Alimentación y sociedad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Alimentación y sociedad» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre alimentación y sociedad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -25471,15 +25471,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25494,15 +25494,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25517,15 +25517,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25536,19 +25536,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Economía y cuidados» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Economía y cuidados» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25565,9 +25565,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Economía y cuidados», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -25575,9 +25575,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Economía y cuidados»?",
         "options": [
-          "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -25585,19 +25585,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Economía y cuidados»?",
         "options": [
-          "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Economía y cuidados» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Economía y cuidados» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre economía y cuidados. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -25667,15 +25667,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25690,15 +25690,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25713,15 +25713,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25732,19 +25732,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Debate epistémico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Debate epistémico» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -25761,9 +25761,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Debate epistémico», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -25771,9 +25771,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Debate epistémico»?",
         "options": [
-          "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -25781,19 +25781,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Debate epistémico»?",
         "options": [
-          "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Debate epistémico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Debate epistémico» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre debate epistémico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -25909,11 +25909,11 @@
               },
               {
                 "id": "o2",
-                "text": "Sí, un poco de fruta también, gracias."
+                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
               },
               {
                 "id": "o3",
-                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
+                "text": "No, gracias."
               },
               {
                 "id": "o4",
@@ -25932,11 +25932,11 @@
               },
               {
                 "id": "o2",
-                "text": "Sí, un poco de fruta también, gracias."
+                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
               },
               {
                 "id": "o3",
-                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
+                "text": "No, gracias."
               },
               {
                 "id": "o4",
@@ -25955,11 +25955,11 @@
               },
               {
                 "id": "o2",
-                "text": "Sí, un poco de fruta también, gracias."
+                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
               },
               {
                 "id": "o3",
-                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
+                "text": "No, gracias."
               },
               {
                 "id": "o4",
@@ -25970,7 +25970,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?»?",
+            "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «No, gracias.»?",
             "options": [
               {
                 "id": "o1",
@@ -25978,11 +25978,11 @@
               },
               {
                 "id": "o2",
-                "text": "Sí, un poco de fruta también, gracias."
+                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
               },
               {
                 "id": "o3",
-                "text": "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?"
+                "text": "No, gracias."
               },
               {
                 "id": "o4",
@@ -26000,8 +26000,8 @@
         "prompt": "En «¿Qué desea pedir?», ¿qué detalle presenta la situación?",
         "options": [
           "Buenos días. ¿Qué desea pedir?",
-          "Sí, un poco de fruta también, gracias.",
           "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?",
+          "No, gracias.",
           "Solo el café está bien."
         ]
       },
@@ -26010,8 +26010,8 @@
         "prompt": "Después de «Buenos días. ¿Qué desea pedir?», ¿qué sucede a continuación en «¿Qué desea pedir?»?",
         "options": [
           "Buenos días. ¿Qué desea pedir?",
-          "Sí, un poco de fruta también, gracias.",
           "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?",
+          "No, gracias.",
           "Solo el café está bien."
         ]
       },
@@ -26020,18 +26020,18 @@
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Qué desea pedir?»?",
         "options": [
           "Buenos días. ¿Qué desea pedir?",
-          "Sí, un poco de fruta también, gracias.",
           "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?",
+          "No, gracias.",
           "Solo el café está bien."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?»?",
+        "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «No, gracias.»?",
         "options": [
           "Buenos días. ¿Qué desea pedir?",
-          "Sí, un poco de fruta también, gracias.",
           "Quiero un café con leche y pan, por favor. ¿Algo más? ¿Un poco de fruta?",
+          "No, gracias.",
           "Solo el café está bien."
         ]
       }
@@ -28872,15 +28872,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -28895,15 +28895,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -28918,15 +28918,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -28937,19 +28937,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Recuerdos y experiencias» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Recuerdos y experiencias» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -28966,9 +28966,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Recuerdos y experiencias», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -28976,9 +28976,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Recuerdos y experiencias»?",
         "options": [
-          "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -28986,19 +28986,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Recuerdos y experiencias»?",
         "options": [
-          "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Recuerdos y experiencias» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Recuerdos y experiencias» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre recuerdos y experiencias. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -29068,15 +29068,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29091,15 +29091,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29114,15 +29114,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29133,19 +29133,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Educación y metas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Educación y metas» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29162,9 +29162,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Educación y metas», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -29172,9 +29172,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Educación y metas»?",
         "options": [
-          "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -29182,19 +29182,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Educación y metas»?",
         "options": [
-          "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Educación y metas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Educación y metas» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre educación y metas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -29264,15 +29264,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29287,15 +29287,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29310,15 +29310,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29329,19 +29329,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Arte y espacio público» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Arte y espacio público» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29358,9 +29358,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Arte y espacio público», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -29368,9 +29368,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre arte y espacio público. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Arte y espacio público»?",
         "options": [
-          "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -29378,19 +29378,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Arte y espacio público»?",
         "options": [
-          "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Arte y espacio público» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Arte y espacio público» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre arte y espacio público. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -29460,15 +29460,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29483,15 +29483,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29506,15 +29506,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29525,19 +29525,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Diversidad del español» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Diversidad del español» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29554,9 +29554,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Diversidad del español», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -29564,9 +29564,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre diversidad del español. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Diversidad del español»?",
         "options": [
-          "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -29574,19 +29574,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Diversidad del español»?",
         "options": [
-          "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Diversidad del español» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Diversidad del español» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre diversidad del español. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -29656,15 +29656,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29679,15 +29679,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29702,15 +29702,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29721,19 +29721,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Estética e interpretación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Estética e interpretación» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -29750,9 +29750,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Estética e interpretación», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -29760,9 +29760,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre estética e interpretación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Estética e interpretación»?",
         "options": [
-          "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -29770,19 +29770,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Estética e interpretación»?",
         "options": [
-          "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Estética e interpretación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Estética e interpretación» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre estética e interpretación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -32856,15 +32856,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -32879,15 +32879,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -32902,15 +32902,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -32921,19 +32921,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Celebraciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Celebraciones» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -32950,9 +32950,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Celebraciones», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -32960,9 +32960,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Celebraciones»?",
         "options": [
-          "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -32970,19 +32970,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Celebraciones»?",
         "options": [
-          "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Celebraciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Celebraciones» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre celebraciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -33052,15 +33052,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33075,15 +33075,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33098,15 +33098,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33117,19 +33117,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Medioambiente local» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Medioambiente local» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33146,9 +33146,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Medioambiente local», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -33156,9 +33156,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Medioambiente local»?",
         "options": [
-          "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -33166,19 +33166,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Medioambiente local»?",
         "options": [
-          "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Medioambiente local» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Medioambiente local» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre medioambiente local. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -33248,15 +33248,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33271,15 +33271,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33294,15 +33294,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33313,19 +33313,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Ciencia y ética» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Ciencia y ética» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33342,9 +33342,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Ciencia y ética», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -33352,9 +33352,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Ciencia y ética»?",
         "options": [
-          "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -33362,19 +33362,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ciencia y ética»?",
         "options": [
-          "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Ciencia y ética» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Ciencia y ética» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ciencia y ética. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -33444,15 +33444,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33467,15 +33467,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33490,15 +33490,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33509,19 +33509,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Diplomacia y negociación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Diplomacia y negociación» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33538,9 +33538,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Diplomacia y negociación», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -33548,9 +33548,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre diplomacia y negociación. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Diplomacia y negociación»?",
         "options": [
-          "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -33558,19 +33558,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Diplomacia y negociación»?",
         "options": [
-          "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Diplomacia y negociación» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Diplomacia y negociación» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre diplomacia y negociación. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -33640,15 +33640,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33663,15 +33663,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33686,15 +33686,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33705,19 +33705,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Discurso científico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Discurso científico» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -33734,9 +33734,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Discurso científico», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -33744,9 +33744,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Discurso científico»?",
         "options": [
-          "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -33754,19 +33754,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Discurso científico»?",
         "options": [
-          "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Discurso científico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Discurso científico» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre discurso científico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -33884,15 +33884,15 @@
               },
               {
                 "id": "o2",
-                "text": "¿Trabajas también?"
+                "text": "Estudio administración en la universidad. ¿Trabajas también?"
               },
               {
                 "id": "o3",
-                "text": "Tengo que atender a los clientes y organizar la tienda."
+                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
               },
               {
                 "id": "o4",
-                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+                "text": "Tengo que atender a los clientes y organizar la tienda."
               }
             ]
           },
@@ -33907,15 +33907,15 @@
               },
               {
                 "id": "o2",
-                "text": "¿Trabajas también?"
+                "text": "Estudio administración en la universidad. ¿Trabajas también?"
               },
               {
                 "id": "o3",
-                "text": "Tengo que atender a los clientes y organizar la tienda."
+                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
               },
               {
                 "id": "o4",
-                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+                "text": "Tengo que atender a los clientes y organizar la tienda."
               }
             ]
           },
@@ -33930,22 +33930,22 @@
               },
               {
                 "id": "o2",
-                "text": "¿Trabajas también?"
+                "text": "Estudio administración en la universidad. ¿Trabajas también?"
               },
               {
                 "id": "o3",
-                "text": "Tengo que atender a los clientes y organizar la tienda."
+                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
               },
               {
                 "id": "o4",
-                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+                "text": "Tengo que atender a los clientes y organizar la tienda."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «Tengo que atender a los clientes y organizar la tienda.»?",
+            "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer…»?",
             "options": [
               {
                 "id": "o1",
@@ -33953,15 +33953,15 @@
               },
               {
                 "id": "o2",
-                "text": "¿Trabajas también?"
+                "text": "Estudio administración en la universidad. ¿Trabajas también?"
               },
               {
                 "id": "o3",
-                "text": "Tengo que atender a los clientes y organizar la tienda."
+                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
               },
               {
                 "id": "o4",
-                "text": "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+                "text": "Tengo que atender a los clientes y organizar la tienda."
               }
             ]
           }
@@ -33975,9 +33975,9 @@
         "prompt": "En «Una entrevista breve», ¿qué detalle presenta la situación?",
         "options": [
           "¿Qué estudias, Natalia?",
-          "¿Trabajas también?",
-          "Tengo que atender a los clientes y organizar la tienda.",
-          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+          "Estudio administración en la universidad. ¿Trabajas también?",
+          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?",
+          "Tengo que atender a los clientes y organizar la tienda."
         ]
       },
       {
@@ -33985,9 +33985,9 @@
         "prompt": "Después de «¿Qué estudias, Natalia?», ¿qué sucede a continuación en «Una entrevista breve»?",
         "options": [
           "¿Qué estudias, Natalia?",
-          "¿Trabajas también?",
-          "Tengo que atender a los clientes y organizar la tienda.",
-          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+          "Estudio administración en la universidad. ¿Trabajas también?",
+          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?",
+          "Tengo que atender a los clientes y organizar la tienda."
         ]
       },
       {
@@ -33995,19 +33995,19 @@
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Una entrevista breve»?",
         "options": [
           "¿Qué estudias, Natalia?",
-          "¿Trabajas también?",
-          "Tengo que atender a los clientes y organizar la tienda.",
-          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+          "Estudio administración en la universidad. ¿Trabajas también?",
+          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?",
+          "Tengo que atender a los clientes y organizar la tienda."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «Tengo que atender a los clientes y organizar la tienda.»?",
+        "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer…»?",
         "options": [
           "¿Qué estudias, Natalia?",
-          "¿Trabajas también?",
-          "Tengo que atender a los clientes y organizar la tienda.",
-          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?"
+          "Estudio administración en la universidad. ¿Trabajas también?",
+          "Sí, trabajo en una tienda los fines de semana. ¿Qué tienes que hacer en tu trabajo?",
+          "Tengo que atender a los clientes y organizar la tienda."
         ]
       }
     ]
@@ -36842,15 +36842,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -36865,15 +36865,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -36888,15 +36888,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -36907,19 +36907,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Estudio y aprendizaje» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Estudio y aprendizaje» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -36936,9 +36936,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Estudio y aprendizaje», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -36946,9 +36946,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Estudio y aprendizaje»?",
         "options": [
-          "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -36956,19 +36956,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Estudio y aprendizaje»?",
         "options": [
-          "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Estudio y aprendizaje» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Estudio y aprendizaje» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre estudio y aprendizaje. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -37038,15 +37038,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37061,15 +37061,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37084,15 +37084,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37103,19 +37103,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Salud y hábitos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Salud y hábitos» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37132,9 +37132,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Salud y hábitos», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -37142,9 +37142,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Salud y hábitos»?",
         "options": [
-          "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -37152,19 +37152,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Salud y hábitos»?",
         "options": [
-          "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Salud y hábitos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Salud y hábitos» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre salud y hábitos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -37234,15 +37234,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37257,15 +37257,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37280,15 +37280,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37299,19 +37299,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Vivienda y desigualdad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Vivienda y desigualdad» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37328,9 +37328,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Vivienda y desigualdad», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -37338,9 +37338,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Vivienda y desigualdad»?",
         "options": [
-          "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -37348,19 +37348,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Vivienda y desigualdad»?",
         "options": [
-          "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Vivienda y desigualdad» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Vivienda y desigualdad» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre vivienda y desigualdad. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -37430,15 +37430,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37453,15 +37453,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37476,15 +37476,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37495,19 +37495,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Crítica cultural» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Crítica cultural» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37524,9 +37524,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Crítica cultural», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -37534,9 +37534,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Crítica cultural»?",
         "options": [
-          "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -37544,19 +37544,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Crítica cultural»?",
         "options": [
-          "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Crítica cultural» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Crítica cultural» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre crítica cultural. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -37626,15 +37626,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37649,15 +37649,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37672,15 +37672,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37691,19 +37691,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Mediación de conflictos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Mediación de conflictos» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -37720,9 +37720,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Mediación de conflictos», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -37730,9 +37730,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre mediación de conflictos. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Mediación de conflictos»?",
         "options": [
-          "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -37740,19 +37740,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Mediación de conflictos»?",
         "options": [
-          "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Mediación de conflictos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Mediación de conflictos» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre mediación de conflictos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -37868,15 +37868,15 @@
               },
               {
                 "id": "o2",
-                "text": "Perfecto, me gusta la idea."
+                "text": "A las cuatro de la tarde."
               },
               {
                 "id": "o3",
-                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
+                "text": "También podemos comer algo después."
               },
               {
                 "id": "o4",
-                "text": "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
               }
             ]
           },
@@ -37891,15 +37891,15 @@
               },
               {
                 "id": "o2",
-                "text": "Perfecto, me gusta la idea."
+                "text": "A las cuatro de la tarde."
               },
               {
                 "id": "o3",
-                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
+                "text": "También podemos comer algo después."
               },
               {
                 "id": "o4",
-                "text": "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
               }
             ]
           },
@@ -37914,22 +37914,22 @@
               },
               {
                 "id": "o2",
-                "text": "Perfecto, me gusta la idea."
+                "text": "A las cuatro de la tarde."
               },
               {
                 "id": "o3",
-                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
+                "text": "También podemos comer algo después."
               },
               {
                 "id": "o4",
-                "text": "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «No, prefiero una comedia. ¡Nos vemos el sábado!»?",
+            "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «También podemos comer algo después.»?",
             "options": [
               {
                 "id": "o1",
@@ -37937,15 +37937,15 @@
               },
               {
                 "id": "o2",
-                "text": "Perfecto, me gusta la idea."
+                "text": "A las cuatro de la tarde."
               },
               {
                 "id": "o3",
-                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
+                "text": "También podemos comer algo después."
               },
               {
                 "id": "o4",
-                "text": "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+                "text": "No, prefiero una comedia. ¡Nos vemos el sábado!"
               }
             ]
           }
@@ -37959,9 +37959,9 @@
         "prompt": "En «¿Quieres ir al cine?», ¿qué detalle presenta la situación?",
         "options": [
           "¿Quieres ir al cine el sábado?",
-          "Perfecto, me gusta la idea.",
-          "No, prefiero una comedia. ¡Nos vemos el sábado!",
-          "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+          "A las cuatro de la tarde.",
+          "También podemos comer algo después.",
+          "No, prefiero una comedia. ¡Nos vemos el sábado!"
         ]
       },
       {
@@ -37969,9 +37969,9 @@
         "prompt": "Después de «¿Quieres ir al cine el sábado?», ¿qué sucede a continuación en «¿Quieres ir al cine?»?",
         "options": [
           "¿Quieres ir al cine el sábado?",
-          "Perfecto, me gusta la idea.",
-          "No, prefiero una comedia. ¡Nos vemos el sábado!",
-          "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+          "A las cuatro de la tarde.",
+          "También podemos comer algo después.",
+          "No, prefiero una comedia. ¡Nos vemos el sábado!"
         ]
       },
       {
@@ -37979,19 +37979,19 @@
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Quieres ir al cine?»?",
         "options": [
           "¿Quieres ir al cine el sábado?",
-          "Perfecto, me gusta la idea.",
-          "No, prefiero una comedia. ¡Nos vemos el sábado!",
-          "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+          "A las cuatro de la tarde.",
+          "También podemos comer algo después.",
+          "No, prefiero una comedia. ¡Nos vemos el sábado!"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «No, prefiero una comedia. ¡Nos vemos el sábado!»?",
+        "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «También podemos comer algo después.»?",
         "options": [
           "¿Quieres ir al cine el sábado?",
-          "Perfecto, me gusta la idea.",
-          "No, prefiero una comedia. ¡Nos vemos el sábado!",
-          "Perfecto, me gusta la idea. ¿Prefieres una película de acción?"
+          "A las cuatro de la tarde.",
+          "También podemos comer algo después.",
+          "No, prefiero una comedia. ¡Nos vemos el sábado!"
         ]
       }
     ]
@@ -40826,15 +40826,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -40849,15 +40849,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -40872,15 +40872,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -40891,19 +40891,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Tecnología cotidiana» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Tecnología cotidiana» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -40920,9 +40920,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Tecnología cotidiana», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -40930,9 +40930,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Tecnología cotidiana»?",
         "options": [
-          "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -40940,19 +40940,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Tecnología cotidiana»?",
         "options": [
-          "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Tecnología cotidiana» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Tecnología cotidiana» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre tecnología cotidiana. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -41022,15 +41022,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41045,15 +41045,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41068,15 +41068,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41087,19 +41087,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Servicios y reclamaciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Servicios y reclamaciones» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41116,9 +41116,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Servicios y reclamaciones», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -41126,9 +41126,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Servicios y reclamaciones»?",
         "options": [
-          "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -41136,19 +41136,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Servicios y reclamaciones»?",
         "options": [
-          "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Servicios y reclamaciones» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Servicios y reclamaciones» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre servicios y reclamaciones. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -41218,15 +41218,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41241,15 +41241,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41264,15 +41264,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41283,19 +41283,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Lenguaje e inclusión» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Lenguaje e inclusión» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41312,9 +41312,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Lenguaje e inclusión», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -41322,9 +41322,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Lenguaje e inclusión»?",
         "options": [
-          "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -41332,19 +41332,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Lenguaje e inclusión»?",
         "options": [
-          "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Lenguaje e inclusión» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Lenguaje e inclusión» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre lenguaje e inclusión. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -41414,15 +41414,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41437,15 +41437,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41460,15 +41460,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41479,19 +41479,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Políticas públicas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Políticas públicas» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41508,9 +41508,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Políticas públicas», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -41518,9 +41518,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Políticas públicas»?",
         "options": [
-          "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -41528,19 +41528,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Políticas públicas»?",
         "options": [
-          "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Políticas públicas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Políticas públicas» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre políticas públicas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -41610,15 +41610,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41633,15 +41633,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41656,15 +41656,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41675,19 +41675,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Ensayo de alta exigencia» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Ensayo de alta exigencia» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
+                "text": "Mateo: Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -41704,9 +41704,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Ensayo de alta exigencia», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -41714,9 +41714,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información…», ¿qué sucede a continuación en «Escucha · Ensayo de alta exigencia»?",
         "options": [
-          "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -41724,19 +41724,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Ensayo de alta exigencia»?",
         "options": [
-          "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Ensayo de alta exigencia» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Ensayo de alta exigencia» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Mateo: Necesitamos hablar sobre ensayo de alta exigencia. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -41852,15 +41852,15 @@
               },
               {
                 "id": "o2",
-                "text": "No, no tengo fiebre. Solo estoy cansada."
+                "text": "No, no tengo fiebre."
               },
               {
                 "id": "o3",
-                "text": "Muchas gracias, lo voy a hacer."
+                "text": "Solo estoy cansada."
               },
               {
                 "id": "o4",
-                "text": "Solo estoy cansada."
+                "text": "Muchas gracias, lo voy a hacer."
               }
             ]
           },
@@ -41875,15 +41875,15 @@
               },
               {
                 "id": "o2",
-                "text": "No, no tengo fiebre. Solo estoy cansada."
+                "text": "No, no tengo fiebre."
               },
               {
                 "id": "o3",
-                "text": "Muchas gracias, lo voy a hacer."
+                "text": "Solo estoy cansada."
               },
               {
                 "id": "o4",
-                "text": "Solo estoy cansada."
+                "text": "Muchas gracias, lo voy a hacer."
               }
             ]
           },
@@ -41898,22 +41898,22 @@
               },
               {
                 "id": "o2",
-                "text": "No, no tengo fiebre. Solo estoy cansada."
+                "text": "No, no tengo fiebre."
               },
               {
                 "id": "o3",
-                "text": "Muchas gracias, lo voy a hacer."
+                "text": "Solo estoy cansada."
               },
               {
                 "id": "o4",
-                "text": "Solo estoy cansada."
+                "text": "Muchas gracias, lo voy a hacer."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «En la farmacia» después de «Muchas gracias, lo voy a hacer.»?",
+            "prompt": "¿Qué resultado cierra «En la farmacia» después de «Solo estoy cansada.»?",
             "options": [
               {
                 "id": "o1",
@@ -41921,15 +41921,15 @@
               },
               {
                 "id": "o2",
-                "text": "No, no tengo fiebre. Solo estoy cansada."
+                "text": "No, no tengo fiebre."
               },
               {
                 "id": "o3",
-                "text": "Muchas gracias, lo voy a hacer."
+                "text": "Solo estoy cansada."
               },
               {
                 "id": "o4",
-                "text": "Solo estoy cansada."
+                "text": "Muchas gracias, lo voy a hacer."
               }
             ]
           }
@@ -41943,9 +41943,9 @@
         "prompt": "En «En la farmacia», ¿qué detalle presenta la situación?",
         "options": [
           "Buenas tardes, ¿qué le duele?",
-          "No, no tengo fiebre. Solo estoy cansada.",
-          "Muchas gracias, lo voy a hacer.",
-          "Solo estoy cansada."
+          "No, no tengo fiebre.",
+          "Solo estoy cansada.",
+          "Muchas gracias, lo voy a hacer."
         ]
       },
       {
@@ -41953,9 +41953,9 @@
         "prompt": "Después de «Buenas tardes, ¿qué le duele?», ¿qué sucede a continuación en «En la farmacia»?",
         "options": [
           "Buenas tardes, ¿qué le duele?",
-          "No, no tengo fiebre. Solo estoy cansada.",
-          "Muchas gracias, lo voy a hacer.",
-          "Solo estoy cansada."
+          "No, no tengo fiebre.",
+          "Solo estoy cansada.",
+          "Muchas gracias, lo voy a hacer."
         ]
       },
       {
@@ -41963,19 +41963,19 @@
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «En la farmacia»?",
         "options": [
           "Buenas tardes, ¿qué le duele?",
-          "No, no tengo fiebre. Solo estoy cansada.",
-          "Muchas gracias, lo voy a hacer.",
-          "Solo estoy cansada."
+          "No, no tengo fiebre.",
+          "Solo estoy cansada.",
+          "Muchas gracias, lo voy a hacer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «En la farmacia» después de «Muchas gracias, lo voy a hacer.»?",
+        "prompt": "¿Qué resultado cierra «En la farmacia» después de «Solo estoy cansada.»?",
         "options": [
           "Buenas tardes, ¿qué le duele?",
-          "No, no tengo fiebre. Solo estoy cansada.",
-          "Muchas gracias, lo voy a hacer.",
-          "Solo estoy cansada."
+          "No, no tengo fiebre.",
+          "Solo estoy cansada.",
+          "Muchas gracias, lo voy a hacer."
         ]
       }
     ]
@@ -44810,15 +44810,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -44833,15 +44833,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -44856,15 +44856,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -44875,19 +44875,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Planes y proyectos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Planes y proyectos» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -44904,9 +44904,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Planes y proyectos», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -44914,9 +44914,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Planes y proyectos»?",
         "options": [
-          "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -44924,19 +44924,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Planes y proyectos»?",
         "options": [
-          "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Planes y proyectos» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Planes y proyectos» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre planes y proyectos. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -45006,15 +45006,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45029,15 +45029,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45052,15 +45052,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45071,19 +45071,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Proyecto comunitario» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Proyecto comunitario» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45100,9 +45100,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Proyecto comunitario», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -45110,9 +45110,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Proyecto comunitario»?",
         "options": [
-          "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -45120,19 +45120,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Proyecto comunitario»?",
         "options": [
-          "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Proyecto comunitario» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Proyecto comunitario» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre proyecto comunitario. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -45202,15 +45202,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45225,15 +45225,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45248,15 +45248,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45267,19 +45267,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Foro de propuestas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Foro de propuestas» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45296,9 +45296,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Foro de propuestas», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -45306,9 +45306,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Foro de propuestas»?",
         "options": [
-          "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -45316,19 +45316,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Foro de propuestas»?",
         "options": [
-          "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Foro de propuestas» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Foro de propuestas» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre foro de propuestas. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -45398,15 +45398,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45421,15 +45421,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45444,15 +45444,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45463,19 +45463,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Coloquio académico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Coloquio académico» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45492,9 +45492,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Coloquio académico», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -45502,9 +45502,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Coloquio académico»?",
         "options": [
-          "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -45512,19 +45512,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Coloquio académico»?",
         "options": [
-          "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Coloquio académico» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Coloquio académico» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre coloquio académico. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }
@@ -45594,15 +45594,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45617,15 +45617,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45640,15 +45640,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45659,19 +45659,19 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Defensa y síntesis» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+            "prompt": "¿Qué resultado cierra «Escucha · Defensa y síntesis» después de «Primero aclaremos el objetivo y después decidimos.»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
+                "text": "Lucía: Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?"
               },
               {
                 "id": "o2",
-                "text": "Me parece bien; así podremos explicar la propuesta con razones claras."
+                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
               },
               {
                 "id": "o3",
-                "text": "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado."
+                "text": "Primero aclaremos el objetivo y después decidimos."
               },
               {
                 "id": "o4",
@@ -45688,9 +45688,9 @@
         "type": "mcq",
         "prompt": "En «Escucha · Defensa y síntesis», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -45698,9 +45698,9 @@
         "type": "mcq",
         "prompt": "Después de «Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?», ¿qué sucede a continuación en «Escucha · Defensa y síntesis»?",
         "options": [
-          "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
@@ -45708,19 +45708,19 @@
         "type": "mcq",
         "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Defensa y síntesis»?",
         "options": [
-          "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Defensa y síntesis» después de «Tenemos varias opciones, pero debemos compararlas con cuidado.»?",
+        "prompt": "¿Qué resultado cierra «Escucha · Defensa y síntesis» después de «Primero aclaremos el objetivo y después decidimos.»?",
         "options": [
-          "Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
-          "Me parece bien; así podremos explicar la propuesta con razones claras.",
+          "Lucía: Necesitamos hablar sobre defensa y síntesis. ¿Qué información tenemos?",
           "Alex: Tenemos varias opciones, pero debemos compararlas con cuidado.",
+          "Primero aclaremos el objetivo y después decidimos.",
           "Alex: Me parece bien; así podremos explicar la propuesta con razones claras."
         ]
       }

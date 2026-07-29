@@ -2,6 +2,18 @@
 require('dotenv').config();
 
 const { Client } = require('pg');
+const {
+  transcriptSupportsOption
+} = require('./content/contextual-listening-comprehension');
+const seedLessons = require('../lib/seed-lessons.json');
+const canonicalTranscriptBySlug = new Map(
+  seedLessons
+    .filter((row) => row.skill === 'listening' && row.unit_slug)
+    .map((row) => [
+      row.slug,
+      row.content_json?.extra?.mainTranscript || row.content_json?.transcript || ''
+    ])
+);
 
 const GENERIC_PROMPT =
   /official audio|which information is stated|audio officiel|audio oficial|qué información (?:se |está )?(?:dice|indica)|quel(?:le)? information .*audio/i;
@@ -46,13 +58,20 @@ async function main() {
     const lessons = rows.map((row) => {
       const bankQuestions = Array.isArray(row.bank?.questions) ? row.bank.questions : [];
       const effectiveQuestions = bankQuestions.length ? bankQuestions : row.exercises;
+      const transcript = canonicalTranscriptBySlug.get(row.slug) || '';
       return {
         language: row.language,
         level: row.level,
         slug: row.slug,
         title: row.title,
+        transcript,
         source: bankQuestions.length ? 'bank' : 'exercises',
-        prompts: effectiveQuestions.map((question) => String(question.prompt || ''))
+        prompts: effectiveQuestions.map((question) => String(question.prompt || '')),
+        unsupportedOptions: bankQuestions.flatMap((question) =>
+          (question.options || []).filter(
+            (option) => !transcriptSupportsOption(transcript, option.text)
+          )
+        )
       };
     });
 
@@ -80,7 +99,8 @@ async function main() {
         questions: 0,
         notFour: 0,
         genericQuestions: 0,
-        repeatedQuestions: 0
+        repeatedQuestions: 0,
+        unsupportedOptions: 0
       };
       const group = acc[key];
       group.lessons += 1;
@@ -91,6 +111,7 @@ async function main() {
       group.repeatedQuestions += lesson.prompts.filter((prompt) =>
         repeatedKeys.has(normalizedPrompt(prompt))
       ).length;
+      group.unsupportedOptions += lesson.unsupportedOptions.length;
       return acc;
     }, {});
 
@@ -119,6 +140,12 @@ async function main() {
               slug: lesson.slug,
               count: lesson.prompts.length,
               source: lesson.source
+            })),
+          unsupportedOptionLessons: lessons
+            .filter((lesson) => lesson.unsupportedOptions.length)
+            .map((lesson) => ({
+              slug: lesson.slug,
+              options: lesson.unsupportedOptions.map((option) => option.text)
             }))
         },
         null,

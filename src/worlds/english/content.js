@@ -1715,15 +1715,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining social media and public opinion. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining social media and public opinion."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -1734,19 +1734,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining social media and public opinion. Why does this…”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
+            "prompt": "After “Today we are examining social media and public opinion.”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining social media and public opinion. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining social media and public opinion."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -1761,19 +1761,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining social media and public opinion. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining social media and public opinion."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -1784,15 +1784,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining social media and public opinion. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining social media and public opinion."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -1809,19 +1809,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Social Media and Public Opinion”, which detail establishes the situation?",
         "options": [
-          "Today we are examining social media and public opinion. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining social media and public opinion.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining social media and public opinion. Why does this…”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
+        "prompt": "After “Today we are examining social media and public opinion.”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
         "options": [
-          "Today we are examining social media and public opinion. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining social media and public opinion.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -1829,19 +1829,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Social Media and Public Opinion”?",
         "options": [
-          "Today we are examining social media and public opinion. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining social media and public opinion.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Social Media and Public Opinion” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining social media and public opinion. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining social media and public opinion.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -1936,15 +1936,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining antimicrobial resistance and one health."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -1955,19 +1955,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining antimicrobial resistance and one health. Why…”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
+            "prompt": "After “Today we are examining antimicrobial resistance and one health.”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining antimicrobial resistance and one health."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -1982,19 +1982,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining antimicrobial resistance and one health."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -2005,15 +2005,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining antimicrobial resistance and one health."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -2030,19 +2030,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Antimicrobial Resistance and One Health”, which detail establishes the situation?",
         "options": [
-          "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining antimicrobial resistance and one health.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining antimicrobial resistance and one health. Why…”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
+        "prompt": "After “Today we are examining antimicrobial resistance and one health.”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
         "options": [
-          "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining antimicrobial resistance and one health.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -2050,19 +2050,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Antimicrobial Resistance and One Health”?",
         "options": [
-          "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining antimicrobial resistance and one health.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Antimicrobial Resistance and One Health” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining antimicrobial resistance and one health.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -2157,15 +2157,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining adult neuroplasticity and second-language mastery."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -2180,15 +2180,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining adult neuroplasticity and second-language mastery."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -2203,19 +2203,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining adult neuroplasticity and second-language mastery."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -2226,15 +2226,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining adult neuroplasticity and second-language mastery."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -2251,9 +2251,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”, which detail establishes the situation?",
         "options": [
-          "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining adult neuroplasticity and second-language mastery.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -2261,9 +2261,9 @@
         "type": "mcq",
         "prompt": "After “Today we are examining adult neuroplasticity and second-language…”, what happens next in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
         "options": [
-          "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining adult neuroplasticity and second-language mastery.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -2271,19 +2271,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
         "options": [
-          "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining adult neuroplasticity and second-language mastery.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Adult Neuroplasticity and Second-Language Mastery” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining adult neuroplasticity and second-language mastery.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -9102,15 +9102,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining plastic pollution in our cities."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -9121,19 +9121,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining plastic pollution in our cities. Why does this…”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
+            "prompt": "After “Today we are examining plastic pollution in our cities.”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining plastic pollution in our cities."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -9148,19 +9148,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining plastic pollution in our cities."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -9171,15 +9171,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining plastic pollution in our cities."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -9196,19 +9196,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Plastic Pollution in Our Cities”, which detail establishes the situation?",
         "options": [
-          "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining plastic pollution in our cities.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining plastic pollution in our cities. Why does this…”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
+        "prompt": "After “Today we are examining plastic pollution in our cities.”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
         "options": [
-          "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining plastic pollution in our cities.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -9216,19 +9216,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Plastic Pollution in Our Cities”?",
         "options": [
-          "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining plastic pollution in our cities.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Plastic Pollution in Our Cities” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining plastic pollution in our cities.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -9323,15 +9323,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and energy demand."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -9342,19 +9342,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining artificial intelligence and energy demand. Why…”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
+            "prompt": "After “Today we are examining artificial intelligence and energy demand.”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and energy demand."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -9369,19 +9369,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and energy demand."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -9392,15 +9392,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and energy demand."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -9417,19 +9417,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Artificial Intelligence and Energy Demand”, which detail establishes the situation?",
         "options": [
-          "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining artificial intelligence and energy demand.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining artificial intelligence and energy demand. Why…”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
+        "prompt": "After “Today we are examining artificial intelligence and energy demand.”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
         "options": [
-          "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining artificial intelligence and energy demand.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -9437,19 +9437,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Energy Demand”?",
         "options": [
-          "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining artificial intelligence and energy demand.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Energy Demand” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining artificial intelligence and energy demand.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -9544,15 +9544,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining retrieval practice, spacing and durable learning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -9563,19 +9563,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining retrieval practice, spacing and durable…”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
+            "prompt": "After “Today we are examining retrieval practice, spacing and durable learning.”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining retrieval practice, spacing and durable learning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -9590,19 +9590,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining retrieval practice, spacing and durable learning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -9613,15 +9613,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining retrieval practice, spacing and durable learning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -9638,19 +9638,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Retrieval Practice, Spacing and Durable Learning”, which detail establishes the situation?",
         "options": [
-          "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining retrieval practice, spacing and durable learning.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining retrieval practice, spacing and durable…”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
+        "prompt": "After “Today we are examining retrieval practice, spacing and durable learning.”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
         "options": [
-          "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining retrieval practice, spacing and durable learning.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -9658,19 +9658,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
         "options": [
-          "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining retrieval practice, spacing and durable learning.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Retrieval Practice, Spacing and Durable Learning” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining retrieval practice, spacing and durable learning.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -16387,15 +16387,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate change and everyday decisions."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -16406,19 +16406,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining climate change and everyday decisions. Why does…”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
+            "prompt": "After “Today we are examining climate change and everyday decisions.”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate change and everyday decisions."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -16433,19 +16433,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate change and everyday decisions."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -16456,15 +16456,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate change and everyday decisions."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -16481,19 +16481,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Climate Change and Everyday Decisions”, which detail establishes the situation?",
         "options": [
-          "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining climate change and everyday decisions.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining climate change and everyday decisions. Why does…”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
+        "prompt": "After “Today we are examining climate change and everyday decisions.”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
         "options": [
-          "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining climate change and everyday decisions.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -16501,19 +16501,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Change and Everyday Decisions”?",
         "options": [
-          "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining climate change and everyday decisions.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Climate Change and Everyday Decisions” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining climate change and everyday decisions.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -16608,15 +16608,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining gene editing, treatment and access."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -16627,19 +16627,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining gene editing, treatment and access. Why does…”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
+            "prompt": "After “Today we are examining gene editing, treatment and access.”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining gene editing, treatment and access."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -16654,19 +16654,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining gene editing, treatment and access."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -16677,15 +16677,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining gene editing, treatment and access."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -16702,19 +16702,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Gene Editing, Treatment and Access”, which detail establishes the situation?",
         "options": [
-          "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining gene editing, treatment and access.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining gene editing, treatment and access. Why does…”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
+        "prompt": "After “Today we are examining gene editing, treatment and access.”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
         "options": [
-          "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining gene editing, treatment and access.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -16722,19 +16722,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Gene Editing, Treatment and Access”?",
         "options": [
-          "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining gene editing, treatment and access.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Gene Editing, Treatment and Access” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining gene editing, treatment and access.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -16829,15 +16829,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining sleep, memory and vocabulary consolidation."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -16848,19 +16848,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining sleep, memory and vocabulary consolidation. Why…”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
+            "prompt": "After “Today we are examining sleep, memory and vocabulary consolidation.”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining sleep, memory and vocabulary consolidation."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -16875,19 +16875,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining sleep, memory and vocabulary consolidation."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -16898,15 +16898,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining sleep, memory and vocabulary consolidation."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -16923,19 +16923,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Sleep, Memory and Vocabulary Consolidation”, which detail establishes the situation?",
         "options": [
-          "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining sleep, memory and vocabulary consolidation.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining sleep, memory and vocabulary consolidation. Why…”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
+        "prompt": "After “Today we are examining sleep, memory and vocabulary consolidation.”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
         "options": [
-          "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining sleep, memory and vocabulary consolidation.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -16943,19 +16943,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
         "options": [
-          "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining sleep, memory and vocabulary consolidation.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Sleep, Memory and Vocabulary Consolidation” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining sleep, memory and vocabulary consolidation.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -23672,15 +23672,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining corruption and public trust in latin america and the caribbean."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -23695,15 +23695,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining corruption and public trust in latin america and the caribbean."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -23718,19 +23718,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining corruption and public trust in latin america and the caribbean."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -23741,15 +23741,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining corruption and public trust in latin america and the caribbean."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -23766,9 +23766,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”, which detail establishes the situation?",
         "options": [
-          "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining corruption and public trust in latin america and the caribbean.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -23776,9 +23776,9 @@
         "type": "mcq",
         "prompt": "After “Today we are examining corruption and public trust in latin america…”, what happens next in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
         "options": [
-          "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining corruption and public trust in latin america and the caribbean.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -23786,19 +23786,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
         "options": [
-          "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining corruption and public trust in latin america and the caribbean.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining corruption and public trust in latin america and the caribbean.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -23893,15 +23893,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate, air pollution and health."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -23912,19 +23912,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining climate, air pollution and health. Why does…”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
+            "prompt": "After “Today we are examining climate, air pollution and health.”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate, air pollution and health."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -23939,19 +23939,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate, air pollution and health."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -23962,15 +23962,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate, air pollution and health."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -23987,19 +23987,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Climate, Air Pollution and Health”, which detail establishes the situation?",
         "options": [
-          "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining climate, air pollution and health.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining climate, air pollution and health. Why does…”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
+        "prompt": "After “Today we are examining climate, air pollution and health.”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
         "options": [
-          "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining climate, air pollution and health.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -24007,19 +24007,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate, Air Pollution and Health”?",
         "options": [
-          "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining climate, air pollution and health.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Climate, Air Pollution and Health” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining climate, air pollution and health.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -24114,15 +24114,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining comprehensible input and incidental acquisition."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -24133,19 +24133,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining comprehensible input and incidental…”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
+            "prompt": "After “Today we are examining comprehensible input and incidental acquisition.”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining comprehensible input and incidental acquisition."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -24160,19 +24160,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining comprehensible input and incidental acquisition."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -24183,15 +24183,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining comprehensible input and incidental acquisition."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -24208,19 +24208,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Comprehensible Input and Incidental Acquisition”, which detail establishes the situation?",
         "options": [
-          "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining comprehensible input and incidental acquisition.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining comprehensible input and incidental…”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
+        "prompt": "After “Today we are examining comprehensible input and incidental acquisition.”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
         "options": [
-          "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining comprehensible input and incidental acquisition.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -24228,19 +24228,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
         "options": [
-          "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining comprehensible input and incidental acquisition.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Comprehensible Input and Incidental Acquisition” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining comprehensible input and incidental acquisition.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -30957,15 +30957,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining the fourth of july: freedom and contradictions."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -30976,19 +30976,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining the fourth of july: freedom and contradictions.…”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
+            "prompt": "After “Today we are examining the fourth of july: freedom and contradictions.”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining the fourth of july: freedom and contradictions."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -31003,19 +31003,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining the fourth of july: freedom and contradictions."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -31026,15 +31026,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining the fourth of july: freedom and contradictions."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -31051,19 +31051,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: The Fourth of July: Freedom and Contradictions”, which detail establishes the situation?",
         "options": [
-          "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining the fourth of july: freedom and contradictions.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining the fourth of july: freedom and contradictions.…”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
+        "prompt": "After “Today we are examining the fourth of july: freedom and contradictions.”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
         "options": [
-          "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining the fourth of july: freedom and contradictions.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -31071,19 +31071,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
         "options": [
-          "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining the fourth of july: freedom and contradictions.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: The Fourth of July: Freedom and Contradictions” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining the fourth of july: freedom and contradictions.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -31178,15 +31178,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining loneliness as a public-health issue."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -31197,19 +31197,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining loneliness as a public-health issue. Why does…”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
+            "prompt": "After “Today we are examining loneliness as a public-health issue.”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining loneliness as a public-health issue."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -31224,19 +31224,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining loneliness as a public-health issue."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -31247,15 +31247,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining loneliness as a public-health issue."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -31272,19 +31272,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Loneliness as a Public-Health Issue”, which detail establishes the situation?",
         "options": [
-          "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining loneliness as a public-health issue.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining loneliness as a public-health issue. Why does…”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
+        "prompt": "After “Today we are examining loneliness as a public-health issue.”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
         "options": [
-          "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining loneliness as a public-health issue.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -31292,19 +31292,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Loneliness as a Public-Health Issue”?",
         "options": [
-          "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining loneliness as a public-health issue.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Loneliness as a Public-Health Issue” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining loneliness as a public-health issue.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -31399,15 +31399,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining reading, listening and multimodal learning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -31418,19 +31418,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining reading, listening and multimodal learning. Why…”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
+            "prompt": "After “Today we are examining reading, listening and multimodal learning.”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining reading, listening and multimodal learning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -31445,19 +31445,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining reading, listening and multimodal learning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -31468,15 +31468,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining reading, listening and multimodal learning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -31493,19 +31493,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Reading, Listening and Multimodal Learning”, which detail establishes the situation?",
         "options": [
-          "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining reading, listening and multimodal learning.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining reading, listening and multimodal learning. Why…”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
+        "prompt": "After “Today we are examining reading, listening and multimodal learning.”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
         "options": [
-          "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining reading, listening and multimodal learning.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -31513,19 +31513,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Reading, Listening and Multimodal Learning”?",
         "options": [
-          "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining reading, listening and multimodal learning.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Reading, Listening and Multimodal Learning” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining reading, listening and multimodal learning.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -38237,15 +38237,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining migration and cultural identity."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -38256,19 +38256,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining migration and cultural identity. Why does this…”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
+            "prompt": "After “Today we are examining migration and cultural identity.”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining migration and cultural identity."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -38283,19 +38283,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining migration and cultural identity."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -38306,15 +38306,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining migration and cultural identity."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -38331,19 +38331,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Migration and Cultural Identity”, which detail establishes the situation?",
         "options": [
-          "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining migration and cultural identity.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining migration and cultural identity. Why does this…”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
+        "prompt": "After “Today we are examining migration and cultural identity.”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
         "options": [
-          "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining migration and cultural identity.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -38351,19 +38351,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Migration and Cultural Identity”?",
         "options": [
-          "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining migration and cultural identity.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Migration and Cultural Identity” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining migration and cultural identity.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -38458,15 +38458,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining ageing and the care economy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -38477,19 +38477,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining ageing and the care economy. Why does this…”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
+            "prompt": "After “Today we are examining ageing and the care economy.”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining ageing and the care economy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -38504,19 +38504,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining ageing and the care economy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -38527,15 +38527,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining ageing and the care economy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -38552,19 +38552,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Ageing and the Care Economy”, which detail establishes the situation?",
         "options": [
-          "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining ageing and the care economy.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining ageing and the care economy. Why does this…”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
+        "prompt": "After “Today we are examining ageing and the care economy.”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
         "options": [
-          "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining ageing and the care economy.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -38572,19 +38572,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Ageing and the Care Economy”?",
         "options": [
-          "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining ageing and the care economy.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Ageing and the Care Economy” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining ageing and the care economy.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -38679,15 +38679,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining interaction, output and negotiation of meaning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -38698,19 +38698,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining interaction, output and negotiation of meaning.…”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
+            "prompt": "After “Today we are examining interaction, output and negotiation of meaning.”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining interaction, output and negotiation of meaning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -38725,19 +38725,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining interaction, output and negotiation of meaning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -38748,15 +38748,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining interaction, output and negotiation of meaning."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -38773,19 +38773,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Interaction, Output and Negotiation of Meaning”, which detail establishes the situation?",
         "options": [
-          "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining interaction, output and negotiation of meaning.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining interaction, output and negotiation of meaning.…”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
+        "prompt": "After “Today we are examining interaction, output and negotiation of meaning.”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
         "options": [
-          "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining interaction, output and negotiation of meaning.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -38793,19 +38793,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
         "options": [
-          "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining interaction, output and negotiation of meaning.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Interaction, Output and Negotiation of Meaning” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining interaction, output and negotiation of meaning.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -45521,15 +45521,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining housing inequality. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining housing inequality."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -45540,19 +45540,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining housing inequality. Why does this issue resist…”, what happens next in “Listening Lab: Housing Inequality”?",
+            "prompt": "After “Today we are examining housing inequality.”, what happens next in “Listening Lab: Housing Inequality”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining housing inequality. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining housing inequality."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -45567,19 +45567,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining housing inequality. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining housing inequality."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -45590,15 +45590,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining housing inequality. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining housing inequality."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -45615,19 +45615,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Housing Inequality”, which detail establishes the situation?",
         "options": [
-          "Today we are examining housing inequality. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining housing inequality.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining housing inequality. Why does this issue resist…”, what happens next in “Listening Lab: Housing Inequality”?",
+        "prompt": "After “Today we are examining housing inequality.”, what happens next in “Listening Lab: Housing Inequality”?",
         "options": [
-          "Today we are examining housing inequality. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining housing inequality.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -45635,19 +45635,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Housing Inequality”?",
         "options": [
-          "Today we are examining housing inequality. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining housing inequality.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Housing Inequality” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining housing inequality. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining housing inequality.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -45742,15 +45742,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining critical minerals and the energy transition."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -45761,19 +45761,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining critical minerals and the energy transition.…”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
+            "prompt": "After “Today we are examining critical minerals and the energy transition.”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining critical minerals and the energy transition."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -45788,19 +45788,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining critical minerals and the energy transition."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -45811,15 +45811,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining critical minerals and the energy transition."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -45836,19 +45836,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Critical Minerals and the Energy Transition”, which detail establishes the situation?",
         "options": [
-          "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining critical minerals and the energy transition.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining critical minerals and the energy transition.…”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
+        "prompt": "After “Today we are examining critical minerals and the energy transition.”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
         "options": [
-          "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining critical minerals and the energy transition.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -45856,19 +45856,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Critical Minerals and the Energy Transition”?",
         "options": [
-          "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining critical minerals and the energy transition.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Critical Minerals and the Energy Transition” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining critical minerals and the energy transition.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -45963,15 +45963,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining corrective feedback and the productive role of error."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -45986,15 +45986,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining corrective feedback and the productive role of error."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -46009,19 +46009,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining corrective feedback and the productive role of error."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -46032,15 +46032,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining corrective feedback and the productive role of error."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -46057,9 +46057,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Corrective Feedback and the Productive Role of Error”, which detail establishes the situation?",
         "options": [
-          "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining corrective feedback and the productive role of error.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -46067,9 +46067,9 @@
         "type": "mcq",
         "prompt": "After “Today we are examining corrective feedback and the productive role of…”, what happens next in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
         "options": [
-          "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining corrective feedback and the productive role of error.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -46077,19 +46077,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
         "options": [
-          "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining corrective feedback and the productive role of error.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Corrective Feedback and the Productive Role of Error” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining corrective feedback and the productive role of error.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -52805,15 +52805,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and employment."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -52824,19 +52824,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining artificial intelligence and employment. Why…”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
+            "prompt": "After “Today we are examining artificial intelligence and employment.”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and employment."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -52851,19 +52851,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and employment."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -52874,15 +52874,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and employment."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -52899,19 +52899,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Artificial Intelligence and Employment”, which detail establishes the situation?",
         "options": [
-          "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining artificial intelligence and employment.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining artificial intelligence and employment. Why…”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
+        "prompt": "After “Today we are examining artificial intelligence and employment.”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
         "options": [
-          "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining artificial intelligence and employment.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -52919,19 +52919,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Employment”?",
         "options": [
-          "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining artificial intelligence and employment.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Employment” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining artificial intelligence and employment.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -53026,15 +53026,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining deepfakes, evidence and democracy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -53045,19 +53045,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining deepfakes, evidence and democracy. Why does…”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
+            "prompt": "After “Today we are examining deepfakes, evidence and democracy.”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining deepfakes, evidence and democracy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -53072,19 +53072,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining deepfakes, evidence and democracy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -53095,15 +53095,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining deepfakes, evidence and democracy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -53120,19 +53120,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Deepfakes, Evidence and Democracy”, which detail establishes the situation?",
         "options": [
-          "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining deepfakes, evidence and democracy.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining deepfakes, evidence and democracy. Why does…”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
+        "prompt": "After “Today we are examining deepfakes, evidence and democracy.”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
         "options": [
-          "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining deepfakes, evidence and democracy.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -53140,19 +53140,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Deepfakes, Evidence and Democracy”?",
         "options": [
-          "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining deepfakes, evidence and democracy.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Deepfakes, Evidence and Democracy” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining deepfakes, evidence and democracy.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -53247,15 +53247,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining speech perception, accent and pronunciation training."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -53270,15 +53270,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining speech perception, accent and pronunciation training."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -53293,19 +53293,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining speech perception, accent and pronunciation training."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -53316,15 +53316,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining speech perception, accent and pronunciation training."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -53341,9 +53341,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Speech Perception, Accent and Pronunciation Training”, which detail establishes the situation?",
         "options": [
-          "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining speech perception, accent and pronunciation training.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -53351,9 +53351,9 @@
         "type": "mcq",
         "prompt": "After “Today we are examining speech perception, accent and pronunciation…”, what happens next in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
         "options": [
-          "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining speech perception, accent and pronunciation training.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -53361,19 +53361,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
         "options": [
-          "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining speech perception, accent and pronunciation training.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Speech Perception, Accent and Pronunciation Training” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining speech perception, accent and pronunciation training.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -60089,15 +60089,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining fast fashion and hidden costs."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -60108,19 +60108,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining fast fashion and hidden costs. Why does this…”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
+            "prompt": "After “Today we are examining fast fashion and hidden costs.”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining fast fashion and hidden costs."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -60135,19 +60135,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining fast fashion and hidden costs."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -60158,15 +60158,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining fast fashion and hidden costs."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -60183,19 +60183,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Fast Fashion and Hidden Costs”, which detail establishes the situation?",
         "options": [
-          "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining fast fashion and hidden costs.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining fast fashion and hidden costs. Why does this…”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
+        "prompt": "After “Today we are examining fast fashion and hidden costs.”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
         "options": [
-          "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining fast fashion and hidden costs.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -60203,19 +60203,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Fast Fashion and Hidden Costs”?",
         "options": [
-          "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining fast fashion and hidden costs.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Fast Fashion and Hidden Costs” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining fast fashion and hidden costs.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -60310,15 +60310,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate migration and cities. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate migration and cities."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -60329,19 +60329,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining climate migration and cities. Why does this…”, what happens next in “Listening Lab: Climate Migration and Cities”?",
+            "prompt": "After “Today we are examining climate migration and cities.”, what happens next in “Listening Lab: Climate Migration and Cities”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate migration and cities. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate migration and cities."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -60356,19 +60356,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate migration and cities. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate migration and cities."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -60379,15 +60379,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining climate migration and cities. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining climate migration and cities."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -60404,19 +60404,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Climate Migration and Cities”, which detail establishes the situation?",
         "options": [
-          "Today we are examining climate migration and cities. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining climate migration and cities.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining climate migration and cities. Why does this…”, what happens next in “Listening Lab: Climate Migration and Cities”?",
+        "prompt": "After “Today we are examining climate migration and cities.”, what happens next in “Listening Lab: Climate Migration and Cities”?",
         "options": [
-          "Today we are examining climate migration and cities. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining climate migration and cities.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -60424,19 +60424,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Migration and Cities”?",
         "options": [
-          "Today we are examining climate migration and cities. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining climate migration and cities.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Climate Migration and Cities” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining climate migration and cities. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining climate migration and cities.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -60531,15 +60531,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining language anxiety, attention and working memory."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -60550,19 +60550,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining language anxiety, attention and working memory.…”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
+            "prompt": "After “Today we are examining language anxiety, attention and working memory.”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining language anxiety, attention and working memory."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -60577,19 +60577,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining language anxiety, attention and working memory."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -60600,15 +60600,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining language anxiety, attention and working memory."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -60625,19 +60625,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Language Anxiety, Attention and Working Memory”, which detail establishes the situation?",
         "options": [
-          "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining language anxiety, attention and working memory.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining language anxiety, attention and working memory.…”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
+        "prompt": "After “Today we are examining language anxiety, attention and working memory.”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
         "options": [
-          "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining language anxiety, attention and working memory.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -60645,19 +60645,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
         "options": [
-          "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining language anxiety, attention and working memory.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Language Anxiety, Attention and Working Memory” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining language anxiety, attention and working memory.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -67363,15 +67363,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining education and social mobility. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining education and social mobility."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -67382,19 +67382,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining education and social mobility. Why does this…”, what happens next in “Listening Lab: Education and Social Mobility”?",
+            "prompt": "After “Today we are examining education and social mobility.”, what happens next in “Listening Lab: Education and Social Mobility”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining education and social mobility. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining education and social mobility."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -67409,19 +67409,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining education and social mobility. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining education and social mobility."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -67432,15 +67432,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining education and social mobility. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining education and social mobility."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -67457,19 +67457,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Education and Social Mobility”, which detail establishes the situation?",
         "options": [
-          "Today we are examining education and social mobility. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining education and social mobility.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining education and social mobility. Why does this…”, what happens next in “Listening Lab: Education and Social Mobility”?",
+        "prompt": "After “Today we are examining education and social mobility.”, what happens next in “Listening Lab: Education and Social Mobility”?",
         "options": [
-          "Today we are examining education and social mobility. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining education and social mobility.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -67477,19 +67477,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Education and Social Mobility”?",
         "options": [
-          "Today we are examining education and social mobility. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining education and social mobility.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Education and Social Mobility” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining education and social mobility. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining education and social mobility.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -67584,15 +67584,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining neurotechnology and mental privacy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -67603,19 +67603,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining neurotechnology and mental privacy. Why does…”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
+            "prompt": "After “Today we are examining neurotechnology and mental privacy.”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining neurotechnology and mental privacy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -67630,19 +67630,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining neurotechnology and mental privacy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -67653,15 +67653,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining neurotechnology and mental privacy."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -67678,19 +67678,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Neurotechnology and Mental Privacy”, which detail establishes the situation?",
         "options": [
-          "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining neurotechnology and mental privacy.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining neurotechnology and mental privacy. Why does…”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
+        "prompt": "After “Today we are examining neurotechnology and mental privacy.”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
         "options": [
-          "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining neurotechnology and mental privacy.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -67698,19 +67698,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Neurotechnology and Mental Privacy”?",
         "options": [
-          "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining neurotechnology and mental privacy.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Neurotechnology and Mental Privacy” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining neurotechnology and mental privacy.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -67805,15 +67805,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining age, aptitude and individual differences."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -67824,19 +67824,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining age, aptitude and individual differences. Why…”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
+            "prompt": "After “Today we are examining age, aptitude and individual differences.”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining age, aptitude and individual differences."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -67851,19 +67851,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining age, aptitude and individual differences."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -67874,15 +67874,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining age, aptitude and individual differences."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -67899,19 +67899,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Age, Aptitude and Individual Differences”, which detail establishes the situation?",
         "options": [
-          "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining age, aptitude and individual differences.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining age, aptitude and individual differences. Why…”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
+        "prompt": "After “Today we are examining age, aptitude and individual differences.”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
         "options": [
-          "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining age, aptitude and individual differences.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -67919,19 +67919,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Age, Aptitude and Individual Differences”?",
         "options": [
-          "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining age, aptitude and individual differences.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Age, Aptitude and Individual Differences” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining age, aptitude and individual differences.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -74531,15 +74531,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining freedom of speech and misinformation."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -74550,19 +74550,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining freedom of speech and misinformation. Why does…”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
+            "prompt": "After “Today we are examining freedom of speech and misinformation.”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining freedom of speech and misinformation."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -74577,19 +74577,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining freedom of speech and misinformation."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -74600,15 +74600,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining freedom of speech and misinformation."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -74625,19 +74625,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Freedom of Speech and Misinformation”, which detail establishes the situation?",
         "options": [
-          "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining freedom of speech and misinformation.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining freedom of speech and misinformation. Why does…”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
+        "prompt": "After “Today we are examining freedom of speech and misinformation.”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
         "options": [
-          "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining freedom of speech and misinformation.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -74645,19 +74645,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Freedom of Speech and Misinformation”?",
         "options": [
-          "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining freedom of speech and misinformation.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Freedom of Speech and Misinformation” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining freedom of speech and misinformation.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -74752,15 +74752,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining synthetic biology and biosecurity."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -74771,19 +74771,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining synthetic biology and biosecurity. Why does…”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
+            "prompt": "After “Today we are examining synthetic biology and biosecurity.”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining synthetic biology and biosecurity."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -74798,19 +74798,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining synthetic biology and biosecurity."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -74821,15 +74821,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining synthetic biology and biosecurity."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -74846,19 +74846,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Synthetic Biology and Biosecurity”, which detail establishes the situation?",
         "options": [
-          "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining synthetic biology and biosecurity.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining synthetic biology and biosecurity. Why does…”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
+        "prompt": "After “Today we are examining synthetic biology and biosecurity.”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
         "options": [
-          "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining synthetic biology and biosecurity.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -74866,19 +74866,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Synthetic Biology and Biosecurity”?",
         "options": [
-          "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining synthetic biology and biosecurity.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Synthetic Biology and Biosecurity” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining synthetic biology and biosecurity.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -74973,15 +74973,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining contextual vocabulary, glosses and semantic networks."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -74996,15 +74996,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining contextual vocabulary, glosses and semantic networks."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -75019,19 +75019,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining contextual vocabulary, glosses and semantic networks."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -75042,15 +75042,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining contextual vocabulary, glosses and semantic networks."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -75067,9 +75067,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”, which detail establishes the situation?",
         "options": [
-          "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining contextual vocabulary, glosses and semantic networks.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -75077,9 +75077,9 @@
         "type": "mcq",
         "prompt": "After “Today we are examining contextual vocabulary, glosses and semantic…”, what happens next in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
         "options": [
-          "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining contextual vocabulary, glosses and semantic networks.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -75087,19 +75087,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
         "options": [
-          "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining contextual vocabulary, glosses and semantic networks.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining contextual vocabulary, glosses and semantic networks.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -80628,15 +80628,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining community action and local change. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining community action and local change."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -80647,19 +80647,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining community action and local change. Why does…”, what happens next in “Listening Lab: Community Action and Local Change”?",
+            "prompt": "After “Today we are examining community action and local change.”, what happens next in “Listening Lab: Community Action and Local Change”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining community action and local change. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining community action and local change."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -80674,19 +80674,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining community action and local change. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining community action and local change."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -80697,15 +80697,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining community action and local change. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining community action and local change."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -80722,19 +80722,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Community Action and Local Change”, which detail establishes the situation?",
         "options": [
-          "Today we are examining community action and local change. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining community action and local change.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining community action and local change. Why does…”, what happens next in “Listening Lab: Community Action and Local Change”?",
+        "prompt": "After “Today we are examining community action and local change.”, what happens next in “Listening Lab: Community Action and Local Change”?",
         "options": [
-          "Today we are examining community action and local change. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining community action and local change.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -80742,19 +80742,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Community Action and Local Change”?",
         "options": [
-          "Today we are examining community action and local change. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining community action and local change.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Community Action and Local Change” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining community action and local change. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining community action and local change.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -80849,15 +80849,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining global health progress and inequality."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -80868,19 +80868,19 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining global health progress and inequality. Why does…”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
+            "prompt": "After “Today we are examining global health progress and inequality.”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining global health progress and inequality."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -80895,19 +80895,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining global health progress and inequality."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -80918,15 +80918,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining global health progress and inequality."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -80943,19 +80943,19 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Global Health Progress and Inequality”, which detail establishes the situation?",
         "options": [
-          "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining global health progress and inequality.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining global health progress and inequality. Why does…”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
+        "prompt": "After “Today we are examining global health progress and inequality.”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
         "options": [
-          "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining global health progress and inequality.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -80963,19 +80963,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Global Health Progress and Inequality”?",
         "options": [
-          "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining global health progress and inequality.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Global Health Progress and Inequality” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining global health progress and inequality.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }
@@ -81070,15 +81070,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and the future of language tutoring."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -81093,15 +81093,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and the future of language tutoring."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -81116,19 +81116,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and the future of language tutoring."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o3",
-                "text": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o4",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
               }
             ]
           },
@@ -81139,15 +81139,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?"
+                "text": "Host: Today we are examining artificial intelligence and the future of language tutoring."
               },
               {
                 "id": "o2",
-                "text": "How can we discuss the issue responsibly?"
+                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
               },
               {
                 "id": "o3",
-                "text": "Host: Which distinction should listeners keep in mind?"
+                "text": "Those categories may interact, but they are not interchangeable."
               },
               {
                 "id": "o4",
@@ -81164,9 +81164,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”, which detail establishes the situation?",
         "options": [
-          "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining artificial intelligence and the future of language tutoring.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -81174,9 +81174,9 @@
         "type": "mcq",
         "prompt": "After “Today we are examining artificial intelligence and the future of…”, what happens next in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
         "options": [
-          "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining artificial intelligence and the future of language tutoring.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
@@ -81184,19 +81184,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
         "options": [
-          "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Host: Which distinction should listeners keep in mind?"
+          "Host: Today we are examining artificial intelligence and the future of language tutoring.",
+          "Those categories may interact, but they are not interchangeable.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and the Future of Language Tutoring” after “Because the central question is not only what happens, but also which…”?",
         "options": [
-          "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?",
-          "How can we discuss the issue responsibly?",
-          "Host: Which distinction should listeners keep in mind?",
+          "Host: Today we are examining artificial intelligence and the future of language tutoring.",
+          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Those categories may interact, but they are not interchangeable.",
           "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
         ]
       }

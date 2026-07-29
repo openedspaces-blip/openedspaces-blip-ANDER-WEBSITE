@@ -3706,6 +3706,9 @@ test('English A1 Hello Listening keeps its specific editorial questions', () => 
 
 test('every routed Listening has four contextual questions with balanced A-D answers', () => {
   const seedLessons = require('./lib/seed-lessons.json');
+  const {
+    transcriptSupportsOption
+  } = require('./scripts/content/contextual-listening-comprehension');
   const listeningRows = seedLessons.filter(
     (row) => row.skill === 'listening' && row.unit_slug
   );
@@ -3724,6 +3727,15 @@ test('every routed Listening has four contextual questions with balanced A-D ans
     );
     for (const question of bank.questions) {
       assert.equal(question.options.length, 4, `${row.slug}: ${question.id}`);
+      const transcript =
+        row.content_json?.extra?.mainTranscript || row.content_json?.transcript || '';
+      question.options.forEach((option) => {
+        assert.equal(
+          transcriptSupportsOption(transcript, option.text),
+          true,
+          `${row.slug}: la opción no procede de la transcripción: ${option.text}`
+        );
+      });
       if (!usesDirectA1FrenchCopy) {
         assert.match(
           question.prompt,
