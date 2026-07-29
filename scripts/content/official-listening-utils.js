@@ -6,6 +6,21 @@ const COMMON_WORDS = new Set([
   'was', 'were', 'when', 'with'
 ]);
 
+function normalizeTranscriptEvidence(value) {
+  return String(value || '')
+    .normalize('NFKC')
+    .toLocaleLowerCase()
+    .replace(/[“”«»"'.,;:!?¡¿()[\]{}]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function transcriptSupportsAnswer(transcript, answer) {
+  const normalizedTranscript = normalizeTranscriptEvidence(transcript);
+  const normalizedAnswer = normalizeTranscriptEvidence(answer);
+  return Boolean(normalizedAnswer) && normalizedTranscript.includes(normalizedAnswer);
+}
+
 function transcriptWords(text) {
   return String(text || '')
     .match(/[\p{L}’'-]+/gu)
@@ -150,4 +165,8 @@ function enrichOfficialListening(units, { language, level }) {
   return units;
 }
 
-module.exports = { enrichOfficialListening };
+module.exports = {
+  enrichOfficialListening,
+  normalizeTranscriptEvidence,
+  transcriptSupportsAnswer
+};

@@ -13019,6 +13019,16 @@ function wireListeningExtraModes(content, lesson, runtime) {
   wireListeningModePanel(content, lesson, runtime);
 }
 
+function canonicalListeningTranscript(lesson, registeredAudioTranscript = '') {
+  return (
+    lesson.extra?.mainTranscript ||
+    (lesson.extra?.transcriptSegments || []).map((segment) => segment.text || segment).join(' ') ||
+    lesson.transcript ||
+    registeredAudioTranscript ||
+    ''
+  );
+}
+
 function renderListeningOfficial(content, lesson, runtime, audio, status = 'official') {
   runtime.hasOfficialAudio = true;
   // Scored Comprehension (extra.listeningComprehension) replaces the old
@@ -13032,6 +13042,7 @@ function renderListeningOfficial(content, lesson, runtime, audio, status = 'offi
   const objective = lesson.mission || lesson.intro || lesson.description || '';
   const durationLabel = audio.duration ? `${Math.round(audio.duration)}s` : 'No especificada';
   const tutorCtx = computeListeningTutorQuestionContext(lesson);
+  const transcript = canonicalListeningTranscript(lesson, audio.transcript);
 
   content.innerHTML = `
     <div class="listening-meta-row">
@@ -13045,7 +13056,7 @@ function renderListeningOfficial(content, lesson, runtime, audio, status = 'offi
     })}
     ${renderListeningConnectedToolsHtml(lesson, runtime)}
     <div class="skill-view-tutor-cta">
-      ${listeningTutorButtonsHtml(lesson, { transcript: audio.transcript, vocabulary: (lesson.vocabulary || []).map((v) => v.word).join(', '), ...tutorCtx })}
+      ${listeningTutorButtonsHtml(lesson, { transcript, vocabulary: (lesson.vocabulary || []).map((v) => v.word).join(', '), ...tutorCtx })}
     </div>
     ${
       hasScoredComprehension
@@ -13060,7 +13071,7 @@ function renderListeningOfficial(content, lesson, runtime, audio, status = 'offi
     mainUrl: audio.audioUrl,
     slowUrl: audio.slowAudioUrl,
     verySlowUrl: audio.verySlowAudioUrl,
-    transcript: audio.transcript || lesson.extra?.mainTranscript
+    transcript
   });
   wireListeningConnectedTools(content, lesson, runtime);
   content

@@ -3850,6 +3850,59 @@ test('French C1-C2 Listening uses twelve distinct long-form monologues per level
   }
 });
 
+test('all French Listening transcripts share one canonical reviewed text across A1-C2', () => {
+  const seedLessons = require('./lib/seed-lessons.json');
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const syncScript = fs.readFileSync(
+    path.join(__dirname, 'scripts', 'sync-french-listening-transcripts.js'),
+    'utf8'
+  );
+  const rows = seedLessons.filter(
+    (row) =>
+      row.target_language === 'french' &&
+      row.skill === 'listening' &&
+      row.unit_slug
+  );
+
+  assert.equal(rows.length, 70);
+  rows.forEach((row) => {
+    const content = row.content_json;
+    const transcript = content.extra?.mainTranscript;
+    const rebuilt = (content.extra?.transcriptSegments || [])
+      .map((segment) => segment.text || segment)
+      .join(' ');
+    assert.equal(content.transcript, transcript, row.slug);
+    assert.equal(rebuilt, transcript, row.slug);
+  });
+  assert.match(
+    source,
+    /function canonicalListeningTranscript\(lesson, registeredAudioTranscript = ''\)/
+  );
+  assert.match(
+    source,
+    /lesson\.extra\?\.mainTranscript[\s\S]*?lesson\.transcript[\s\S]*?registeredAudioTranscript/
+  );
+  assert.match(syncScript, /update public\.course_lessons[\s\S]*?\{mainTranscript\}/);
+  assert.match(syncScript, /\{transcriptSegments\}/);
+  assert.match(syncScript, /update public\.lesson_audio[\s\S]*?set transcript = \$2/);
+});
+
+test('official Listening evidence matching ignores presentation case and punctuation without inventing answers', () => {
+  const {
+    transcriptSupportsAnswer
+  } = require('./scripts/content/official-listening-utils');
+  const transcript =
+    'Hello! My name is Ana. I am eighteen years old, and I am from the Dominican Republic.';
+
+  assert.equal(transcriptSupportsAnswer(transcript, 'Eighteen'), true);
+  assert.equal(
+    transcriptSupportsAnswer('À la fin, elle dit : « À demain ! »', 'à demain'),
+    true
+  );
+  assert.equal(transcriptSupportsAnswer(transcript, 'nineteen'), false);
+  assert.equal(transcriptSupportsAnswer(transcript, ''), false);
+});
+
 test('unit route keeps Previous/Next navigation and closes on Verbs with a full score summary', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const verbsSource = fs.readFileSync(

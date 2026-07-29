@@ -3,6 +3,9 @@ const catalogs = [
   require('./content/english-a2-units'),
   require('./content/french-a1-units')
 ];
+const {
+  transcriptSupportsAnswer
+} = require('./content/official-listening-utils');
 
 const expectedCounts = new Map([
   ['english:A1', 12],
@@ -43,7 +46,7 @@ for (const catalog of catalogs) {
     }
     for (const question of listening?.listeningComprehension?.questions || []) {
       const correct = question.options?.find((option) => option.id === question.correctOptionId);
-      if (!correct || !listening.mainTranscript.includes(correct.text)) {
+      if (!correct || !transcriptSupportsAnswer(listening.mainTranscript, correct.text)) {
         failures.push(`${label}: comprehension answer is not supported literally by the transcript`);
       }
     }
