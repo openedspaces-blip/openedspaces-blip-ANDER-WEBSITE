@@ -12,7 +12,11 @@ const PUBLIC_DIR = path.join(ROOT, 'public');
 
 const REQUIRED_FILES = [
   'index.html',
+  'terms.html',
+  'privacy.html',
+  'refund-policy.html',
   'src/css/styles.css',
+  'src/css/legal.css',
   'src/js/script.js',
   'src/js/username-rules.js',
   'src/js/language-pair.js',
