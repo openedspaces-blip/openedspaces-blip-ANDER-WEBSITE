@@ -386,6 +386,36 @@ test('member navigation combines progress and achievements in one connected view
   assert.match(script, /if \(raw === 'achievements'\) return 'progress';/);
 });
 
+test('member navigation prioritizes Learn, Verbs, Tutor and Translator and groups secondary links under More', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const memberNav =
+    html.match(/<span class="nav-group nav-group-member" hidden>([\s\S]*?)<\/span>\s*<\/nav>/)?.[1] || '';
+
+  const learnIndex = memberNav.indexOf('data-i18n="navLearnMember"');
+  const verbsIndex = memberNav.indexOf('data-i18n="navVerbs"');
+  const tutorIndex = memberNav.indexOf('data-i18n="navTutor"');
+  const translatorIndex = memberNav.indexOf('data-i18n="navTranslator"');
+  const moreIndex = memberNav.indexOf('class="nav-more"');
+
+  assert.ok(learnIndex < verbsIndex && verbsIndex < tutorIndex && tutorIndex < translatorIndex);
+  assert.ok(translatorIndex < moreIndex);
+  assert.match(memberNav, /href="#tutor" data-i18n="navTutor">Tutor I\.A\.<\/a>/);
+  assert.match(memberNav, /<summary data-i18n="navMore">Más<\/summary>/);
+  assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navProgress"/);
+  assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navGoals"/);
+  assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navAbout"/);
+  assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navSecurity"/);
+});
+
+test('the compact Tutor I.A. nav label does not shorten the tutor identity inside its panel', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const languagePair = fs.readFileSync(path.join(__dirname, 'src/js/language-pair.js'), 'utf8');
+
+  assert.equal((languagePair.match(/navTutor:\s*'Tutor I\.A\.'/g) || []).length, 3);
+  assert.match(html, /<h2 id="tutorDrawerTitle">Tutor IA ANDERGO<\/h2>/);
+  assert.match(html, /Tutor IA ANDERGO Academy/);
+});
+
 test('desktop brand stays compact and switches navigation before overlap', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
@@ -395,7 +425,7 @@ test('desktop brand stays compact and switches navigation before overlap', () =>
   assert.match(css, /\.brand\s*\{[^}]*flex:\s*0 0 auto;/s);
   assert.match(css, /\.brand h1\s*\{[^}]*display:\s*grid;/s);
   assert.match(css, /\.brand p\s*\{[^}]*font-size:\s*0\.68rem;[^}]*font-style:\s*italic;/s);
-  assert.match(css, /@media \(max-width:\s*1720px\)\s*\{/);
+  assert.match(css, /@media \(max-width:\s*1280px\)\s*\{/);
 });
 
 test('ai tutor panel includes freeform prompt input and context badges', () => {
