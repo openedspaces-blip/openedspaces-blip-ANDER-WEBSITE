@@ -12271,10 +12271,6 @@ function buildListeningPlayerMarkup({ sourceLabel, title, hasSlowVariant }) {
           <input type="range" class="listening-progress-range" min="0" max="100" value="0" step="1" aria-label="Progreso del audio" disabled>
           <span class="listening-time-duration" aria-hidden="true">0:00</span>
         </div>
-        <label class="listening-volume-row">
-          <span>Volumen</span>
-          <input type="range" class="listening-volume-range" min="0" max="1" step="0.05" value="1" aria-label="Volumen">
-        </label>
       </div>
     </section>
   `;
@@ -12483,8 +12479,8 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
   const elapsedEl = content.querySelector('.listening-time-elapsed');
   const durationEl = content.querySelector('.listening-time-duration');
   const rangeEl = content.querySelector('.listening-progress-range');
-  const volumeEl = content.querySelector('.listening-volume-range');
   if (!audioEl || !playerEl) return;
+  audioEl.volume = 1;
 
   // Stashed on runtime, not written straight into the DOM here, because the
   // transcript is now its own tab (merged with pronunciation - see
@@ -12608,10 +12604,6 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
       audioEl.currentTime = (Number(rangeEl.value) / 100) * audioEl.duration;
     }
   });
-  volumeEl?.addEventListener('input', () => {
-    audioEl.volume = Number(volumeEl.value);
-  });
-
   audioEl.src = meta.mainUrl;
   audioEl.load();
 }
@@ -12901,6 +12893,11 @@ async function submitDictationCheck(lesson, runtime, content) {
 
 function renderListeningStoryPanel(lesson, runtime) {
   const text = runtime.transcript || lesson.extra?.mainTranscript || lesson.transcript || '';
+  const storyTitle =
+    lesson.extra?.storyTitle ||
+    lesson.storyTitle ||
+    lesson.title ||
+    listeningUiText('Texto del audio', "Texte de l'audio");
   return `
     <article class="listening-story">
       <div class="listening-story-heading">
@@ -12914,6 +12911,7 @@ function renderListeningStoryPanel(lesson, runtime) {
         </button>
       </div>
       <div class="listening-story-body" ${runtime.storyRevealed ? '' : 'hidden'}>
+        <h5 class="listening-story-title">${escapeHtml(storyTitle)}</h5>
         <p>${escapeHtml(text)}</p>
       </div>
     </article>

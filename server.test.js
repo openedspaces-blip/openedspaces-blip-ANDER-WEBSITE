@@ -394,6 +394,7 @@ test('desktop brand stays compact and switches navigation before overlap', () =>
   assert.match(html, /class="brand-academy-name">Language Academy<\/span>/);
   assert.match(css, /\.brand\s*\{[^}]*flex:\s*0 0 auto;/s);
   assert.match(css, /\.brand h1\s*\{[^}]*display:\s*grid;/s);
+  assert.match(css, /\.brand p\s*\{[^}]*font-size:\s*0\.68rem;[^}]*font-style:\s*italic;/s);
   assert.match(css, /@media \(max-width:\s*1720px\)\s*\{/);
 });
 
@@ -2549,6 +2550,17 @@ test('reading audio player: is compact (~54-66px tall on desktop, 4-5px progress
   assert.match(controlsRule, /flex-wrap:\s*wrap;/);
 });
 
+test('Listening audio player is compact, uses a thin progress bar and keeps volume at device maximum', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+
+  assert.doesNotMatch(source, /listening-volume-range/);
+  assert.match(source, /audioEl\.volume = 1;/);
+  assert.match(css, /\.listening-player\s*\{[\s\S]*?padding:\s*clamp\(0\.7rem,\s*1\.2vw,\s*0\.9rem\)/);
+  assert.match(css, /\.listening-ctrl-btn\s*\{[\s\S]*?min-height:\s*34px[\s\S]*?font-size:\s*0\.78rem/);
+  assert.match(css, /\.listening-progress-range\s*\{[\s\S]*?height:\s*4px/);
+});
+
 test('LanguagePair.t(): translates app-wide UI chrome strings into spanish/english/french and falls back to Spanish', () => {
   assert.equal(LanguagePair.t('loginBtn', 'spanish'), 'Iniciar sesión');
   assert.equal(LanguagePair.t('loginBtn', 'english'), 'Log in');
@@ -3253,6 +3265,18 @@ test('a selected unit opens Reading immediately and every skill tab stays inside
     renderSkillBody,
     /learningPathState\.skillEntryContext === 'route'\s*&&\s*learningPathState\.unitId/
   );
+});
+
+test('Listening revealed text displays its editorial transcript title above the transcript', () => {
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
+
+  assert.match(script, /lesson\.extra\?\.storyTitle/);
+  assert.match(
+    script,
+    /<h5 class="listening-story-title">\$\{escapeHtml\(storyTitle\)\}<\/h5>\s*<p>\$\{escapeHtml\(text\)\}<\/p>/
+  );
+  assert.match(css, /\.listening-story-title\s*\{/);
 });
 
 test('back-to-route keeps the active language, level, unit and lesson context', () => {

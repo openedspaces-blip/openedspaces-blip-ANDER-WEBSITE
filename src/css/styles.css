@@ -362,9 +362,11 @@ a:focus-visible {
 
 .brand p {
   margin-top: 0.22rem;
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   color: var(--muted);
-  font-weight: 600;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.01em;
   white-space: nowrap;
 }
 
@@ -4366,7 +4368,9 @@ footer small {
 }
 
 .brand p {
-  font-size: 0.78rem;
+  font-size: 0.68rem;
+  font-style: italic;
+  font-weight: 500;
 }
 
 .menu {
@@ -12255,15 +12259,15 @@ footer small {
 .listening-player {
   background: rgba(255, 255, 255, 0.88);
   border: 1px solid rgba(37, 99, 235, 0.12);
-  border-radius: 18px;
-  padding: clamp(1rem, 2vw, 1.35rem);
-  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+  border-radius: 14px;
+  padding: clamp(0.7rem, 1.2vw, 0.9rem);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.045);
 }
 
 .listening-player-status {
   color: var(--muted);
-  font-size: 0.85rem;
-  margin: 0.5rem 0 1rem;
+  font-size: 0.76rem;
+  margin: 0 0 0.55rem;
 }
 
 .listening-player[data-state='error'] .listening-player-status {
@@ -12274,15 +12278,17 @@ footer small {
 .listening-player-controls {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
-  margin-bottom: 1rem;
+  gap: 0.38rem;
+  margin-bottom: 0.6rem;
 }
 
 .listening-ctrl-btn {
   border: 1px solid rgba(37, 99, 235, 0.16);
   background: #f7faff;
   border-radius: 999px;
-  padding: 0.5rem 1rem;
+  min-height: 34px;
+  padding: 0.34rem 0.72rem;
+  font-size: 0.78rem;
   font-weight: 700;
   cursor: pointer;
   transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
@@ -12314,28 +12320,22 @@ footer small {
 .listening-player-progress-row {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 0.9rem;
+  gap: 0.55rem;
+  margin-bottom: 0;
 }
 
 .listening-progress-range {
   flex: 1;
+  height: 4px;
+  accent-color: var(--blue);
 }
 
 .listening-time-elapsed,
 .listening-time-duration {
   font-variant-numeric: tabular-nums;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: 0.76rem;
   min-width: 2.5rem;
-}
-
-.listening-volume-row {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  font-size: 0.85rem;
-  color: var(--muted);
 }
 
 .listening-transcript {
@@ -12496,6 +12496,14 @@ footer small {
 
 .listening-story-body p {
   margin: 0;
+}
+
+.listening-story-title {
+  margin: 0 0 0.75rem;
+  color: var(--navy-2);
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  font-weight: 800;
+  line-height: 1.35;
 }
 
 .listening-connected-tools {
@@ -13097,11 +13105,14 @@ footer small {
     justify-content: space-between;
   }
   .listening-player-controls {
-    flex-direction: column;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .listening-ctrl-btn {
     width: 100%;
+  }
+  .listening-play-btn {
+    grid-column: 1 / -1;
   }
   .listening-player-progress-row {
     flex-wrap: wrap;
