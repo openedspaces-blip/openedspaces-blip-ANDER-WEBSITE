@@ -14225,11 +14225,12 @@ if (menuToggle && siteMenu) {
     link.addEventListener('click', () => {
       siteMenu.classList.remove('is-open');
       menuToggle.setAttribute('aria-expanded', 'false');
+      link.closest('.nav-more')?.removeAttribute('open');
     });
   });
 
   window.addEventListener('resize', () => {
-    if (window.innerWidth > 1100) {
+    if (window.innerWidth > 1280) {
       siteMenu.classList.remove('is-open');
       menuToggle.setAttribute('aria-expanded', 'false');
     }
@@ -16700,18 +16701,23 @@ function setupTranslator() {
     }
     stopTranslatorPlayback();
     const requestedBase = String(locale || '').toLocaleLowerCase().split('-')[0];
-    if (requestedBase === 'ht' && !getReadingVoicesForLocale(locale).length) {
+    // No system/browser ships a Haitian Creole voice by default. Until one is
+    // installed, French is the closest-sounding synthesizer voice available
+    // almost everywhere, so it reads the Creole text as a best-effort
+    // approximation instead of staying silent.
+    const effectiveLocale =
+      requestedBase === 'ht' && !getReadingVoicesForLocale(locale).length ? 'fr-FR' : locale;
+    if (effectiveLocale !== locale) {
       setStatus(
-        'La voz en kreyòl no está instalada en este dispositivo. Actívala en las voces del sistema para poder escucharla.',
-        'is-unavailable'
+        'La voz en kreyòl no está instalada en este dispositivo. Usando pronunciación en francés como aproximación.',
+        'is-loading'
       );
-      return;
     }
     const playback = { button };
     translatorPlayback = playback;
     setTranslatorListenState(button, true);
     const utterance = speakText(text, {
-      locale,
+      locale: effectiveLocale,
       onEnd: () => {
         if (translatorPlayback !== playback) return;
         translatorPlayback = null;
