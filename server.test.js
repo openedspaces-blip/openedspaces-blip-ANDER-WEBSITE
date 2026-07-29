@@ -3267,16 +3267,16 @@ test('a selected unit opens Reading immediately and every skill tab stays inside
   );
 });
 
-test('Listening revealed text displays its editorial transcript title above the transcript', () => {
+test('Listening displayed text uses the same lesson title as the official audio without duplicating it', () => {
   const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
-  const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
+  const storyPanel =
+    script.match(/function renderListeningStoryPanel\(lesson, runtime\) \{([\s\S]*?)\n\}/)?.[1] || '';
 
-  assert.match(script, /lesson\.extra\?\.storyTitle/);
-  assert.match(
-    script,
-    /<h5 class="listening-story-title">\$\{escapeHtml\(storyTitle\)\}<\/h5>\s*<p>\$\{escapeHtml\(text\)\}<\/p>/
-  );
-  assert.match(css, /\.listening-story-title\s*\{/);
+  assert.match(storyPanel, /const storyTitle =\s*lesson\.title/);
+  assert.match(storyPanel, /<h4>\$\{escapeHtml\(storyTitle\)\}<\/h4>/);
+  assert.doesNotMatch(storyPanel, /Texto de la historia|Texte de l'histoire/);
+  assert.doesNotMatch(storyPanel, /listening-story-title/);
+  assert.match(storyPanel, /<p>\$\{escapeHtml\(text\)\}<\/p>/);
 });
 
 test('back-to-route keeps the active language, level, unit and lesson context', () => {

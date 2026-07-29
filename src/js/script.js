@@ -12894,16 +12894,16 @@ async function submitDictationCheck(lesson, runtime, content) {
 function renderListeningStoryPanel(lesson, runtime) {
   const text = runtime.transcript || lesson.extra?.mainTranscript || lesson.transcript || '';
   const storyTitle =
+    lesson.title ||
     lesson.extra?.storyTitle ||
     lesson.storyTitle ||
-    lesson.title ||
     listeningUiText('Texto del audio', "Texte de l'audio");
   return `
     <article class="listening-story">
       <div class="listening-story-heading">
         <div>
           <span class="listening-story-kicker">${listeningUiText('Apoyo de escucha', "Aide à l'écoute")}</span>
-          <h4>${listeningUiText('Texto de la historia', "Texte de l'histoire")}</h4>
+          <h4>${escapeHtml(storyTitle)}</h4>
           <p>${listeningUiText('Intenta comprender el audio antes de desplegar el texto.', "Essayez de comprendre l'audio avant d'afficher le texte.")}</p>
         </div>
         <button type="button" class="secondary-btn listening-story-toggle" aria-expanded="${runtime.storyRevealed}">
@@ -12911,7 +12911,6 @@ function renderListeningStoryPanel(lesson, runtime) {
         </button>
       </div>
       <div class="listening-story-body" ${runtime.storyRevealed ? '' : 'hidden'}>
-        <h5 class="listening-story-title">${escapeHtml(storyTitle)}</h5>
         <p>${escapeHtml(text)}</p>
       </div>
     </article>
