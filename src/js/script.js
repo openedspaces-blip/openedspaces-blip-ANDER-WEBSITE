@@ -164,6 +164,7 @@ let premiumMonthlyPriceUsd = '4.99';
 let premiumPriceUsd = premiumMonthlyPriceUsd;
 let paddleBillingConfig = null;
 let paddleInitialized = false;
+let currentSubscriptionSummary = null;
 const PADDLE_MAINTENANCE_MESSAGE = 'El pago Premium está temporalmente en mantenimiento.';
 
 // Re-applies the fetched prices to any already-painted markup that shows
@@ -270,7 +271,7 @@ async function openPaddleCheckout(billingCycle, button) {
   const originalText = button?.innerHTML;
   if (button) {
     button.disabled = true;
-    button.textContent = 'Abriendo pago seguroâ€¦';
+    button.textContent = 'Abriendo pago seguro…';
   }
 
   try {
@@ -527,8 +528,16 @@ function getExerciseAuthMessage() {
 // Safe frontend view of Premium state. The browser sends only its current
 // access token; the server queries subscriptions with its private Supabase
 // client and applies the same status rules used by every gated route.
-async function loadCurrentSubscription({ attempts = 1, delayMs = 0 } = {}) {
-  if (!authStatus.session?.access_token) return null;
+async function loadCurrentSubscription({
+  attempts = 1,
+  delayMs = 0,
+  refreshDashboardOnPremium = true
+} = {}) {
+  if (!authStatus.session?.access_token) {
+    currentSubscriptionSummary = null;
+    renderAccountPlanStatus(null);
+    return null;
+  }
   let latest = null;
   for (let attempt = 0; attempt < attempts; attempt += 1) {
     if (attempt > 0 && delayMs > 0) {
@@ -537,8 +546,10 @@ async function loadCurrentSubscription({ attempts = 1, delayMs = 0 } = {}) {
     const response = await authFetch(`${backendBaseUrl}/api/subscription`);
     if (!response.ok) continue;
     latest = await response.json();
+    currentSubscriptionSummary = latest;
+    renderAccountPlanStatus(latest);
     if (latest.isPremium) {
-      await loadDashboard();
+      if (refreshDashboardOnPremium) await loadDashboard();
       return latest;
     }
   }
@@ -571,11 +582,17 @@ function renderAuthState() {
     const currentRole = authStatus.entitlements?.role;
     const roleBadge =
       isSignedIn && currentRole === 'ceo'
-        ? ' · CEO · Premium'
+        ? ' · CEO'
         : isSignedIn && currentRole === 'teacher'
           ? ' · Docente'
           : '';
-    userChip.textContent = isSignedIn ? `${greeting}${roleBadge}` : '';
+    const planBadge =
+      isSignedIn && authStatus.entitlements
+        ? authStatus.entitlements.isPremium
+          ? ' · Premium'
+          : ' · Free'
+        : '';
+    userChip.textContent = isSignedIn ? `${greeting}${roleBadge}${planBadge}` : '';
   }
 
   if (logoutButton) logoutButton.hidden = !isSignedIn;
@@ -603,6 +620,7 @@ function renderAuthState() {
       : 'Inicia sesión para ver tu progreso, racha y objetivo.';
   }
   renderCurrentPlanSummary();
+  renderAccountPlanStatus();
 }
 
 function renderCurrentPlanSummary() {
@@ -611,6 +629,122 @@ function renderCurrentPlanSummary() {
   const premiumBadge = document.querySelector('[data-premium-plan-badge]');
   if (freeBadge) freeBadge.textContent = premium ? 'Plan disponible' : 'Plan actual';
   if (premiumBadge) premiumBadge.textContent = premium ? 'Tu plan actual' : 'Recomendado';
+}
+
+function formatSubscriptionDate(value) {
+  if (!value) return '';
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return '';
+  return new Intl.DateTimeFormat('es', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+  }).format(date);
+}
+
+function renderAccountPlanStatus(summary = currentSubscriptionSummary) {
+  const panel = document.querySelector('[data-account-plan-panel]');
+  if (!panel) return;
+  const signedIn = Boolean(authStatus.session?.access_token);
+  panel.hidden = !signedIn;
+  if (!signedIn) return;
+
+  const name = panel.querySelector('[data-account-plan-name]');
+  const detail = panel.querySelector('[data-account-plan-detail]');
+  const actions = panel.querySelector('[data-account-plan-actions]');
+  const pauseButton = panel.querySelector('[data-paddle-action="pause"]');
+  const premium = Boolean(summary?.isPremium || isPremiumUser());
+  const canManageBilling = Boolean(summary?.canManageBilling);
+  if (name) name.textContent = premium ? 'Premium' : 'Free';
+  if (actions) actions.hidden = !premium || !canManageBilling;
+
+  if (!premium) {
+    if (detail) detail.textContent = 'Tu cuenta utiliza el plan gratuito.';
+    return;
+  }
+
+  const cycle = summary?.billingCycle === 'quarterly' ? 'trimestral' : 'mensual';
+  const date = formatSubscriptionDate(summary?.expiresAt);
+  const cancellationScheduled = Boolean(summary?.cancelsAtPeriodEnd);
+  if (detail) {
+    detail.textContent = !canManageBilling
+      ? 'Premium administrado por ANDERGO.'
+      : cancellationScheduled
+      ? `Premium ${cycle}. Se cancelará al finalizar el periodo${date ? `, el ${date}` : ''}.`
+      : `Premium ${cycle}${date ? `. Próxima renovación: ${date}` : ''}.`;
+  }
+  if (pauseButton) {
+    pauseButton.disabled = cancellationScheduled;
+    pauseButton.hidden = cancellationScheduled;
+  }
+}
+
+async function openPaddleCustomerPortal(button) {
+  const message = document.querySelector('[data-account-plan-message]');
+  const originalText = button?.textContent;
+  if (button) {
+    button.disabled = true;
+    button.textContent = 'Abriendo Paddle…';
+  }
+  if (message) message.textContent = '';
+  try {
+    const response = await authFetch(`${backendBaseUrl}/api/billing/portal`, {
+      method: 'POST'
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok || !result.url) {
+      throw new Error(result.error || 'No se pudo abrir la administración de tu plan.');
+    }
+    window.location.assign(result.url);
+  } catch (error) {
+    if (message) message.textContent = error.message;
+  } finally {
+    if (button) {
+      button.disabled = false;
+      button.textContent = originalText;
+    }
+  }
+}
+
+async function pausePaddleSubscription(button) {
+  if (
+    !window.confirm(
+      '¿Programar la pausa al finalizar el periodo actual? Mantendrás Premium hasta esa fecha y no se realizará el próximo cobro.'
+    )
+  ) {
+    return;
+  }
+  const message = document.querySelector('[data-account-plan-message]');
+  const originalText = button?.textContent;
+  if (button) {
+    button.disabled = true;
+    button.textContent = 'Programando pausa…';
+  }
+  try {
+    const response = await authFetch(`${backendBaseUrl}/api/billing/pause`, {
+      method: 'POST'
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      throw new Error(result.error || 'No se pudo programar la pausa.');
+    }
+    const date = formatSubscriptionDate(result.effectiveAt);
+    if (message) {
+      message.textContent = `Pausa programada${date ? ` para el ${date}` : ''}.`;
+    }
+    if (button) button.hidden = true;
+    window.setTimeout(
+      () => loadCurrentSubscription({ refreshDashboardOnPremium: false }),
+      1200
+    );
+  } catch (error) {
+    if (message) message.textContent = error.message;
+  } finally {
+    if (button && !button.hidden) {
+      button.disabled = false;
+      button.textContent = originalText;
+    }
+  }
 }
 
 function setPricingExpanded(expanded) {
@@ -1586,6 +1720,7 @@ async function loadDashboard() {
     if (!response.ok) throw new Error('Request failed');
     const data = await response.json();
     renderDashboard(data);
+    await loadCurrentSubscription({ refreshDashboardOnPremium: false });
   } catch (error) {
     console.warn('Could not load dashboard', error);
     renderDashboardError();
@@ -1717,6 +1852,7 @@ async function logout() {
   } finally {
     authStatus.user = null;
     authStatus.session = null;
+    currentSubscriptionSummary = null;
     localStorage.removeItem('andergoSession');
     // A dismissal only ever applies to the account that dismissed it - the
     // next login (same tab or not) re-evaluates fresh instead of inheriting
@@ -14823,6 +14959,16 @@ function enableHomepageActions() {
   document.querySelectorAll('.paddle-checkout-btn').forEach((button) => {
     button.addEventListener('click', () => {
       openPaddleCheckout(button.dataset.billingCycle || 'monthly', button);
+    });
+  });
+
+  document.querySelectorAll('[data-paddle-action]').forEach((button) => {
+    button.addEventListener('click', () => {
+      if (button.dataset.paddleAction === 'manage') {
+        openPaddleCustomerPortal(button);
+      } else if (button.dataset.paddleAction === 'pause') {
+        pausePaddleSubscription(button);
+      }
     });
   });
 

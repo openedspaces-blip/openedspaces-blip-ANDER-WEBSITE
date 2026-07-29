@@ -867,6 +867,31 @@ test('pricing UI always renders Free and recommended Premium plans with Paddle c
   assert.doesNotMatch(html, /class="secondary-btn current-plan-toggle"/);
 });
 
+test('signed-in account UI exposes plan status and secure Premium management actions', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  assert.match(html, /data-account-plan-panel/);
+  assert.match(html, /data-account-plan-name/);
+  assert.match(html, /data-paddle-action="pause"/);
+  assert.match(html, /data-paddle-action="manage"/);
+  assert.match(script, /\/api\/billing\/portal/);
+  assert.match(script, /\/api\/billing\/pause/);
+});
+
+test('Paddle plan-management endpoints require an authenticated account', async () => {
+  const { server, port } = await startTestServer();
+  try {
+    for (const route of ['/api/billing/portal', '/api/billing/pause']) {
+      const response = await fetch(`http://127.0.0.1:${port}${route}`, {
+        method: 'POST'
+      });
+      assert.equal(response.status, 401, route);
+    }
+  } finally {
+    server.close();
+  }
+});
+
 test('public Paddle config exposes checkout identifiers but never server secrets', async () => {
   const { server, port } = await startTestServer();
   try {

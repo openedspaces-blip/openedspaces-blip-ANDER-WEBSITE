@@ -4857,6 +4857,57 @@ footer small {
   font-weight: 700;
 }
 
+.account-plan-panel {
+  max-width: 1040px;
+  margin: 1.25rem auto 0;
+  padding: 1rem 1.15rem;
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(239, 246, 255, 0.96), rgba(245, 243, 255, 0.96));
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.8rem 1rem;
+}
+
+.account-plan-panel[hidden],
+.account-plan-actions[hidden] {
+  display: none;
+}
+
+.account-plan-eyebrow {
+  color: var(--blue);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.05em;
+}
+
+.account-plan-panel h3,
+.account-plan-panel p {
+  margin: 0.2rem 0 0;
+}
+
+.account-plan-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.6rem;
+}
+
+.account-plan-actions .secondary-btn {
+  min-height: 42px;
+  padding: 0.65rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+.account-plan-message {
+  grid-column: 1 / -1;
+  min-height: 1.2em;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
 @media (max-width: 640px) {
   .current-plan-summary {
     grid-template-columns: 1fr;
@@ -4864,6 +4915,18 @@ footer small {
 
   .premium-checkout-actions {
     grid-template-columns: 1fr;
+  }
+
+  .account-plan-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .account-plan-actions {
+    justify-content: stretch;
+  }
+
+  .account-plan-actions .secondary-btn {
+    width: 100%;
   }
 }
 
