@@ -3272,11 +3272,33 @@ test('Listening displayed text uses the same lesson title as the official audio 
   const storyPanel =
     script.match(/function renderListeningStoryPanel\(lesson, runtime\) \{([\s\S]*?)\n\}/)?.[1] || '';
 
-  assert.match(storyPanel, /const storyTitle =\s*lesson\.title/);
+  assert.match(
+    storyPanel,
+    /const storyTitle =\s*lesson\.extra\?\.storyTitle\s*\|\|\s*lesson\.storyTitle\s*\|\|\s*lesson\.title/
+  );
   assert.match(storyPanel, /<h4>\$\{escapeHtml\(storyTitle\)\}<\/h4>/);
   assert.doesNotMatch(storyPanel, /Texto de la historia|Texte de l'histoire/);
   assert.doesNotMatch(storyPanel, /listening-story-title/);
   assert.match(storyPanel, /<p>\$\{escapeHtml\(text\)\}<\/p>/);
+});
+
+test('Listening displays the canonical editorial transcript without rewriting its paragraphs', () => {
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
+  const canonicalBody =
+    script.match(/function canonicalListeningTranscript\(lesson, registeredAudioTranscript = ''\) \{([\s\S]*?)\n\}/)?.[1] ||
+    '';
+
+  assert.match(canonicalBody, /lesson\.extra\?\.mainTranscript/);
+  assert.ok(
+    canonicalBody.indexOf('lesson.extra?.mainTranscript') <
+      canonicalBody.indexOf('registeredAudioTranscript')
+  );
+  assert.match(
+    script,
+    /const text = canonicalListeningTranscript\(lesson, runtime\.transcript \|\| ''\);/
+  );
+  assert.match(css, /\.listening-story-body p\s*\{[^}]*white-space:\s*pre-line;/s);
 });
 
 test('back-to-route keeps the active language, level, unit and lesson context', () => {
@@ -3883,6 +3905,8 @@ test('all French Listening transcripts share one canonical reviewed text across 
     /lesson\.extra\?\.mainTranscript[\s\S]*?lesson\.transcript[\s\S]*?registeredAudioTranscript/
   );
   assert.match(syncScript, /update public\.course_lessons[\s\S]*?\{mainTranscript\}/);
+  assert.match(syncScript, /set title = \$2/);
+  assert.match(syncScript, /\{storyTitle\}/);
   assert.match(syncScript, /\{transcriptSegments\}/);
   assert.match(syncScript, /update public\.lesson_audio[\s\S]*?set transcript = \$2/);
 });

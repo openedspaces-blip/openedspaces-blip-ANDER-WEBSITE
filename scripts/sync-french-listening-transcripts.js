@@ -25,7 +25,11 @@ function canonicalRows() {
       if (!transcript || rebuilt !== transcript) {
         throw new Error(`${row.slug}: la transcripción canónica y sus segmentos no coinciden.`);
       }
-      return { slug: row.slug, level: row.level, transcript, segments };
+      const title = row.title || extra.storyTitle || '';
+      if (!title) {
+        throw new Error(`${row.slug}: missing official audio title.`);
+      }
+      return { slug: row.slug, level: row.level, title, transcript, segments };
     });
 }
 
@@ -51,7 +55,8 @@ async function main() {
     await client.query('begin');
     const slugs = canonical.map((row) => row.slug);
     const { rows: lessons } = await client.query(
-      `select cl.id, cl.slug, lv.code as level,
+      `select cl.id, cl.slug, cl.title, lv.code as level,
+              cl.extra->>'storyTitle' as story_title,
               cl.extra->>'mainTranscript' as main_transcript,
               la.id as audio_id, la.transcript as audio_transcript
          from public.course_lessons cl
@@ -74,20 +79,26 @@ async function main() {
     const report = [];
     for (const item of canonical) {
       const database = databaseBySlug.get(item.slug);
+      const titleExact =
+        database.title === item.title && database.story_title === item.title;
       const courseExact = database.main_transcript === item.transcript;
       const audioExact = database.audio_transcript === item.transcript;
-      report.push({ level: item.level, slug: item.slug, courseExact, audioExact });
+      report.push({ level: item.level, slug: item.slug, titleExact, courseExact, audioExact });
       if (!APPLY) continue;
 
       await client.query(
         `update public.course_lessons
-            set extra = jsonb_set(
-                  jsonb_set(coalesce(extra, '{}'::jsonb), '{mainTranscript}', to_jsonb($2::text), true),
-                  '{transcriptSegments}', $3::jsonb, true
+            set title = $2,
+                extra = jsonb_set(
+                  jsonb_set(
+                    jsonb_set(coalesce(extra, '{}'::jsonb), '{storyTitle}', to_jsonb($2::text), true),
+                    '{mainTranscript}', to_jsonb($3::text), true
+                  ),
+                  '{transcriptSegments}', $4::jsonb, true
                 ),
                 updated_at = now()
           where id = $1`,
-        [database.id, item.transcript, JSON.stringify(item.segments)]
+        [database.id, item.title, item.transcript, JSON.stringify(item.segments)]
       );
       if (database.audio_id) {
         await client.query(
@@ -102,7 +113,8 @@ async function main() {
     let finalReport = report;
     if (APPLY) {
       const { rows: verifiedRows } = await client.query(
-        `select cl.slug, lv.code as level,
+        `select cl.slug, cl.title, lv.code as level,
+                cl.extra->>'storyTitle' as story_title,
                 cl.extra->>'mainTranscript' as main_transcript,
                 cl.extra->'transcriptSegments' as transcript_segments,
                 la.transcript as audio_transcript
@@ -125,11 +137,14 @@ async function main() {
         return {
           level: row.level,
           slug: row.slug,
+          titleExact: row.title === item.title && row.story_title === item.title,
           courseExact: row.main_transcript === item.transcript && rebuilt === item.transcript,
           audioExact: row.audio_transcript === item.transcript
         };
       });
-      const mismatch = finalReport.filter((row) => !row.courseExact || !row.audioExact);
+      const mismatch = finalReport.filter(
+        (row) => !row.titleExact || !row.courseExact || !row.audioExact
+      );
       if (finalReport.length !== canonical.length || mismatch.length) {
         throw new Error(
           `Verificación fallida: ${finalReport.length}/${canonical.length} registros; ` +
@@ -148,6 +163,7 @@ async function main() {
           level,
           {
             total: rows.length,
+            titleExact: rows.filter((row) => row.titleExact).length,
             courseExact: rows.filter((row) => row.courseExact).length,
             audioExact: rows.filter((row) => row.audioExact).length
           }

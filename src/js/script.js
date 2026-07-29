@@ -12892,11 +12892,14 @@ async function submitDictationCheck(lesson, runtime, content) {
 }
 
 function renderListeningStoryPanel(lesson, runtime) {
-  const text = runtime.transcript || lesson.extra?.mainTranscript || lesson.transcript || '';
+  // One editorial source of truth: the text displayed to the learner must be
+  // the exact script used for exports/audio, never a second rewritten copy
+  // returned by the registered-audio status endpoint.
+  const text = canonicalListeningTranscript(lesson, runtime.transcript || '');
   const storyTitle =
-    lesson.title ||
     lesson.extra?.storyTitle ||
     lesson.storyTitle ||
+    lesson.title ||
     listeningUiText('Texto del audio', "Texte de l'audio");
   return `
     <article class="listening-story">

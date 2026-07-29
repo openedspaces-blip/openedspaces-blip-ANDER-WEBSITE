@@ -12496,6 +12496,7 @@ footer small {
 
 .listening-story-body p {
   margin: 0;
+  white-space: pre-line;
 }
 
 .listening-story-title {
